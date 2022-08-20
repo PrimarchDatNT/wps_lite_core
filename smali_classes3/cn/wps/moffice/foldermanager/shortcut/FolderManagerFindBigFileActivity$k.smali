@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0316
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_find_big_file_layout:I
 
     const/4 v2, 0x0
 
@@ -52,7 +52,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12219e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder_manager_find_big_files:I
 
     return v0
 .end method

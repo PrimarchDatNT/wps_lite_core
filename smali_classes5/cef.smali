@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f130131
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_Alpha:I
 
     const/4 v1, 0x1
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e37
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_panel_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -181,7 +181,7 @@
 
     iput-object v0, p0, Lcef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2b8d    # 1.8498882E38f
+    sget v1, Lcom/resouce/module/ResID;->share_panel_container:I    # 1.8498882E38f
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
     .line 6
     iget-object p1, p0, Lcef;->B:Landroid/view/View;
 
-    const v0, 0x7f0b01c4
+    sget v0, Lcom/resouce/module/ResID;->back_img:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 8
     iget-object p1, p0, Lcef;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3012
+    sget v0, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 10
     iget-object p1, p0, Lcef;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f12298f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -393,7 +393,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01c4
+    sget v0, Lcom/resouce/module/ResID;->back_img:I
 
     if-ne p1, v0, :cond_1
 

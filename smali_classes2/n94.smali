@@ -323,7 +323,7 @@
 
     iget-object v5, p0, Lt44;->a:Landroid/app/Activity;
 
-    const v6, 0x7f1212e2
+    sget v6, Lcom/resouce/module/ResSTRING;->infoflow_read:I
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -356,7 +356,7 @@
 
     iget-object v5, p0, Lt44;->a:Landroid/app/Activity;
 
-    const v6, 0x7f1212d4
+    sget v6, Lcom/resouce/module/ResSTRING;->infoflow_comment:I
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -770,7 +770,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -783,14 +783,14 @@
     .line 3
     iget-object v1, v0, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v3, 0x7f1212d1
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_card_wps_collage:I
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
     .line 4
     iget-object v1, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0c92
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_infoflow_wps_colleage:I
 
     invoke-virtual {v0}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
 
@@ -807,7 +807,7 @@
     .line 5
     iput-object v0, p0, Ln94;->g:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 
-    const v0, 0x7f0b1261
+    sget v0, Lcom/resouce/module/ResID;->image:I
 
     .line 6
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -821,7 +821,7 @@
     .line 7
     iget-object v0, p0, Ln94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2ee9
+    sget v1, Lcom/resouce/module/ResID;->text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -834,7 +834,7 @@
     .line 8
     iget-object v0, p0, Ln94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b04c6
+    sget v1, Lcom/resouce/module/ResID;->comment:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -847,7 +847,7 @@
     .line 9
     iget-object v0, p0, Ln94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b27e5
+    sget v1, Lcom/resouce/module/ResID;->read:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:layout_gravity="start|center" android:id="@id/transfer_item_des_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="172.0dip" android:layout_weight="1.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="6.0dip" />
-    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center" android:id="@id/transfer_item_icon_iv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" />
-</merge>

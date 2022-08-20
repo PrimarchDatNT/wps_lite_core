@@ -187,7 +187,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/mipreview/mibottom/BottomItem;->h0:Landroid/widget/ImageView;
 
-    const v2, 0x7f080957
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_mi_bottom_item_wps_logo:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

@@ -61,9 +61,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f121c96
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
-    const v4, 0x7f080765
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_sign:I
 
     if-eqz v0, :cond_0
 
@@ -87,7 +87,7 @@
     .line 5
     invoke-virtual {v0, v5}, Lkib;->C(I)V
 
-    const v5, 0x7f121053
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_sign_description:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -132,7 +132,7 @@
 
     invoke-virtual {v0, v5}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v5, 0x7f122699
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_signature_desc:I
 
     const/4 v6, 0x2
 

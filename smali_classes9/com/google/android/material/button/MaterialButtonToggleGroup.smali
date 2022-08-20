@@ -82,7 +82,7 @@
 
     sput-object v0, Lcom/google/android/material/button/MaterialButtonToggleGroup;->d0:Ljava/lang/String;
 
-    const v0, 0x7f130392
+    sget v0, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.MaterialButtonToggleGroup:I
 
     .line 2
     sput v0, Lcom/google/android/material/button/MaterialButtonToggleGroup;->e0:I
@@ -116,7 +116,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0403cf
+    sget v0, Lcom/resouce/module/ResATTR;->materialButtonToggleGroupStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/button/MaterialButtonToggleGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

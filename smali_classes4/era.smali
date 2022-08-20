@@ -620,7 +620,7 @@
 
     if-eqz v2, :cond_5
 
-    const v3, 0x7f1227e5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recovery_title_count_tips:I
 
     const/4 v4, 0x1
 
@@ -1749,7 +1749,7 @@
     :try_start_1
     iget-object p1, p0, Lera;->B:Landroid/app/Activity;
 
-    const p2, 0x7f122e07
+    sget p2, Lcom/resouce/module/ResSTRING;->recovery_banner_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1816,7 +1816,7 @@
 
     move-result v0
 
-    const v1, 0x7f12214a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_recovered_data_error:I
 
     const-wide/32 v2, 0x240c8400
 
@@ -2045,11 +2045,11 @@
     .line 23
     invoke-virtual {v0, v1, p1}, Ljs4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080720
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_file_recovery:I
 
-    const v2, 0x7f122811
+    sget v2, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
-    const v3, 0x7f1227d1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recent_delete_premium_tips:I
 
     new-array v5, v6, [Lcib$b;
 
@@ -2328,7 +2328,7 @@
     :goto_2
     iget-object p1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x1
 
@@ -2381,26 +2381,26 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1227e4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_recovery_delete_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
     .line 4
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 5
     new-instance v2, Lera$n;
 
     invoke-direct {v2, p0, p1}, Lera$n;-><init>(Lera;Lwqa;)V
 
-    const p1, 0x7f060470
+    sget p1, Lcom/resouce/module/ResCOLOR;->phone_public_red:I
 
     invoke-virtual {v0, v1, p1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -3273,12 +3273,12 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f121e6b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_if_recovery_group_document:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f121ea0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_recovery_group_ship_tips:I
 
     .line 7
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -3295,7 +3295,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f12214b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_recovered_form:I
 
     .line 9
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -3303,22 +3303,22 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f122151
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_recovered_tip:I
 
     .line 10
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     :goto_0
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
     .line 11
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f12280f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_resume_document_yes:I
 
-    const v2, 0x7f060470
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_red:I
 
     .line 12
     new-instance v3, Lera$m;
@@ -3334,7 +3334,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060201
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_pay_member_txt_selector_color_new:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3622,7 +3622,7 @@
 
     if-ne v2, v5, :cond_2
 
-    const v0, 0x7f122e0f
+    sget v0, Lcom/resouce/module/ResSTRING;->recovery_toast_msg_local:I
 
     .line 6
     invoke-virtual {v1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3637,14 +3637,14 @@
 
     move-result v1
 
-    const v2, 0x7f121ee1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_title:I
 
     if-eqz v1, :cond_4
 
     .line 8
     iget-object v1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v5, 0x7f122e0c
+    sget v5, Lcom/resouce/module/ResSTRING;->recovery_group_single:I
 
     invoke-virtual {v1, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3653,7 +3653,7 @@
     .line 9
     iget-object v5, p0, Lera;->B:Landroid/app/Activity;
 
-    const v6, 0x7f122e0b
+    sget v6, Lcom/resouce/module/ResSTRING;->recovery_group_roaming:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3729,7 +3729,7 @@
     :goto_0
     iget-object v1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122e10
+    sget v2, Lcom/resouce/module/ResSTRING;->recovery_toast_msg_show:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3748,7 +3748,7 @@
     .line 19
     iget-object v1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122e0e
+    sget v2, Lcom/resouce/module/ResSTRING;->recovery_toast_check:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4315,7 +4315,7 @@
 
     if-eqz v1, :cond_1
 
-    const v3, 0x7f1227e5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recovery_title_count_tips:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -4925,9 +4925,9 @@
 
     move-result v2
 
-    const v6, 0x7f122e08
+    sget v6, Lcom/resouce/module/ResSTRING;->recovery_company_empty:I
 
-    const v7, 0x7f122e12
+    sget v7, Lcom/resouce/module/ResSTRING;->recovery_user_empty:I
 
     if-eqz v2, :cond_14
 
@@ -5195,7 +5195,7 @@
     .line 1
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33b3
+    sget v1, Lcom/resouce/module/ResID;->view_title_lay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5299,7 +5299,7 @@
     :cond_5
     const-string v1, ""
 
-    const v5, 0x7f1227e5
+    sget v5, Lcom/resouce/module/ResSTRING;->public_recovery_title_count_tips:I
 
     if-eqz v2, :cond_7
 
@@ -5773,7 +5773,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dfe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_recover_files_layout:I
 
     const/4 v2, 0x0
 
@@ -5785,7 +5785,7 @@
 
     iput-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b01ec
+    sget v1, Lcom/resouce/module/ResID;->banner_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5796,7 +5796,7 @@
 
     iput-object v0, p0, Lera;->l0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b310f
+    sget v1, Lcom/resouce/module/ResID;->tv_banner:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -5810,7 +5810,7 @@
     .line 4
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2851
+    sget v1, Lcom/resouce/module/ResID;->recover_search_no_found:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5823,7 +5823,7 @@
     .line 5
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fc3
+    sget v1, Lcom/resouce/module/ResID;->tips_no_record:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5836,7 +5836,7 @@
     .line 6
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1448
+    sget v1, Lcom/resouce/module/ResID;->iv_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5849,7 +5849,7 @@
     .line 7
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fc4
+    sget v1, Lcom/resouce/module/ResID;->tips_no_record_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5862,7 +5862,7 @@
     .line 8
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2a8b
+    sget v1, Lcom/resouce/module/ResID;->search_loading_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5875,7 +5875,7 @@
     .line 9
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5888,7 +5888,7 @@
     .line 10
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b323c
+    sget v1, Lcom/resouce/module/ResID;->tv_retry:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5908,7 +5908,7 @@
     .line 12
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1853
+    sget v1, Lcom/resouce/module/ResID;->member_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5921,7 +5921,7 @@
     .line 13
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1854
+    sget v1, Lcom/resouce/module/ResID;->member_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5934,7 +5934,7 @@
     .line 14
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1855
+    sget v1, Lcom/resouce/module/ResID;->member_vip_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5950,7 +5950,7 @@
     .line 16
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5964,7 +5964,7 @@
     .line 18
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2852
+    sget v1, Lcom/resouce/module/ResID;->recover_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6016,7 +6016,7 @@
     .line 24
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v2, 0x7f0b162e
+    sget v2, Lcom/resouce/module/ResID;->list_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6029,7 +6029,7 @@
     .line 25
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1621
+    sget v2, Lcom/resouce/module/ResID;->list_companies:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6082,12 +6082,12 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f1212d9
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_loading_finished:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f12214f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_file_recovered_no_more_file:I
 
     :goto_0
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -6132,7 +6132,7 @@
     .line 36
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b284d
+    sget v1, Lcom/resouce/module/ResID;->recover_docfix:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6171,7 +6171,7 @@
     .line 41
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b284f
+    sget v1, Lcom/resouce/module/ResID;->recover_go_to_doc_fix:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6196,7 +6196,7 @@
     :goto_1
     iget-object v0, p0, Lera;->I:Landroid/view/View;
 
-    const v1, 0x7f0b064b
+    sget v1, Lcom/resouce/module/ResID;->delete_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6257,7 +6257,7 @@
     return-object v0
 
     :cond_0
-    const v1, 0x7f122811
+    sget v1, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -6768,7 +6768,7 @@
     .line 22
     iget-object v1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1205f0
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     invoke-static {v1, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -6989,7 +6989,7 @@
     :goto_1
     iget-object v0, p0, Lera;->B:Landroid/app/Activity;
 
-    const v3, 0x7f1206b9
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -7524,7 +7524,7 @@
     :cond_6
     iget-object v0, p0, Lera;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x1
 
@@ -7557,7 +7557,7 @@
     .line 11
     iget-object v1, p0, Lera;->X:Lcn/wps/moffice/common/beans/PopUpProgressBar;
 
-    const v2, 0x7f1227e6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_recoverying_record:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V
 
@@ -8116,7 +8116,7 @@
     .line 4
     iget-object v1, p0, Lera;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122e07
+    sget v2, Lcom/resouce/module/ResSTRING;->recovery_banner_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -8156,7 +8156,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     goto :goto_0
 
@@ -8167,7 +8167,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     :goto_0
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I

@@ -71,11 +71,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06cc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_fileselect_multi__badge_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/FrameLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b31ff
+    sget v0, Lcom/resouce/module/ResID;->tv_number_mergefile:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

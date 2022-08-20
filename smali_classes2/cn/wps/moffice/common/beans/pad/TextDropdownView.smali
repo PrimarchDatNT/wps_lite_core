@@ -62,7 +62,7 @@
 .method public final n(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
 
-    const v0, 0x7f0e05f2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_textsize_view:I
 
     .line 1
     invoke-static {p1, v0, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -77,7 +77,7 @@
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    const v1, 0x7f0b1c40
+    sget v1, Lcom/resouce/module/ResID;->pad_title_bar_text_root:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/beans/pad/TextDropdownView;->V:Landroid/view/View;
 
-    const v1, 0x7f0b07d3
+    sget v1, Lcom/resouce/module/ResID;->dropdown_imageview_text:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/beans/pad/TextDropdownView;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f0b07d0
+    sget v1, Lcom/resouce/module/ResID;->dropdown_imageview_dropdown:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

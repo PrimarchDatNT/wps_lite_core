@@ -57,7 +57,7 @@
 
     iget-object v1, v1, Loja;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f122e1e
+    sget v2, Lcom/resouce/module/ResSTRING;->redeem_result_error_default:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

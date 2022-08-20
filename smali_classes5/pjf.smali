@@ -243,7 +243,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e099c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheetname_tips:I
 
     const/4 v2, 0x0
 
@@ -252,7 +252,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d63
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_name_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122760
+    sget v1, Lcom/resouce/module/ResSTRING;->public_qing_upload_notify_cannot_upload:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -406,7 +406,7 @@
     :cond_3
     iget-object v0, p0, Lpjf;->a:Lcn/wps/moffice/common/SaveIconGroup;
 
-    const v1, 0x7f0b1297
+    sget v1, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 

@@ -46,11 +46,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0be2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_exportpdf_title_right_layout_en:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b144f
+    sget v0, Lcom/resouce/module/ResID;->iv_export_pdf_anti_counterfeit_en_vip:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    const v0, 0x7f0b165b
+    sget v0, Lcom/resouce/module/ResID;->ll_export_pdf_anti_counterfeit_en:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

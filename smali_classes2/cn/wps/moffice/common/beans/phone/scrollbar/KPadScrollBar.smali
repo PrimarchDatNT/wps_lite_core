@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e050c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_all_document_title_scroll_bar:I
 
     const/4 p3, 0x0
 
@@ -73,7 +73,7 @@
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/HorizontalScrollView;->addView(Landroid/view/View;)V
 
-    const p2, 0x7f0b1bba
+    sget p2, Lcom/resouce/module/ResID;->pad_all_document_title_content:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     check-cast p2, Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b1bb9
+    sget p2, Lcom/resouce/module/ResID;->pad_all_document_title_color_rect:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b0768
+    sget v1, Lcom/resouce/module/ResID;->document_root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

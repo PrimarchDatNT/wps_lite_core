@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_admin:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -168,7 +168,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120e2f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

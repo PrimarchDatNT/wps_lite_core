@@ -1285,7 +1285,7 @@
     .line 3
     iget-object v0, p0, Lmbe;->a:Landroid/content/Context;
 
-    const v1, 0x7f121d3e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1299,7 +1299,7 @@
     :cond_1
     iget-object v0, p0, Lmbe;->a:Landroid/content/Context;
 
-    const v1, 0x7f122bd6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

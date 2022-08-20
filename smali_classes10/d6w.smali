@@ -69,7 +69,7 @@
     .line 6
     iput-object p3, p0, Ld6w;->c:Landroid/view/View;
 
-    const p1, 0x7f0b1168
+    sget p1, Lcom/resouce/module/ResID;->home_search_skill_default:I
 
     .line 7
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,14 +89,14 @@
 
     iget-object p2, p0, Ld6w;->d:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f2f
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_skill_tab_default_page:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 9
     iget-object p1, p0, Ld6w;->c:Landroid/view/View;
 
-    const p2, 0x7f0b20db
+    sget p2, Lcom/resouce/module/ResID;->phone_public_history_flowlayout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
     .line 10
     iget-object p1, p0, Ld6w;->c:Landroid/view/View;
 
-    const p2, 0x7f0b20f9
+    sget p2, Lcom/resouce/module/ResID;->phone_public_recommend_flowlayout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
     .line 12
     iget-object p1, p0, Ld6w;->d:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2c2e
+    sget p2, Lcom/resouce/module/ResID;->skill_search_history:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
     .line 13
     iget-object p1, p0, Ld6w;->d:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2c2d
+    sget p2, Lcom/resouce/module/ResID;->skill_hot_search_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
     .line 14
     iget-object p1, p0, Ld6w;->d:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b1278
+    sget p2, Lcom/resouce/module/ResID;->image_delete_skill_history:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
 
     iget-object v4, p0, Ld6w;->f:Lcom/wps/moffice/view/FlowLayout;
 
-    const v5, 0x7f0e0f1b
+    sget v5, Lcom/resouce/module/ResLAYOUT;->search_phone_public_flow_recommend_item:I
 
     iget-object v7, v0, Lg3w;->B:Ljava/lang/String;
 
@@ -474,7 +474,7 @@
 
     iget-object v3, p0, Ld6w;->e:Lcom/wps/moffice/view/FlowLayout;
 
-    const v4, 0x7f0e0f1b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->search_phone_public_flow_recommend_item:I
 
     const-string v7, "skill_history"
 

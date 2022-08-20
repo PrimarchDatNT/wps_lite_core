@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/public_chart_selected_dialog_root" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" android:paddingStart="3.0dip" android:paddingEnd="3.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/public_chart_selected_dialog_gridview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/phone_public_selector_null" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="@dimen/public_chart_spacing_h" android:verticalSpacing="@dimen/public_chart_spacing_v" android:numColumns="2" />
-</LinearLayout>

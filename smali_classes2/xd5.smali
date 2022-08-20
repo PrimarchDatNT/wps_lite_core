@@ -35,70 +35,70 @@
 
     sput-object v0, Lxd5;->u0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b2ad3
+    sget v1, Lcom/resouce/module/ResID;->secret_folder_guide_main_layout:I
 
     const/4 v2, 0x2
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f7b
+    sget v1, Lcom/resouce/module/ResID;->guide_layout:I
 
     const/4 v2, 0x3
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f77
+    sget v1, Lcom/resouce/module/ResID;->guide_img_row1_col1:I
 
     const/4 v2, 0x4
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f86
+    sget v1, Lcom/resouce/module/ResID;->guide_text_1row_2col:I
 
     const/4 v2, 0x5
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f88
+    sget v1, Lcom/resouce/module/ResID;->guide_text_row2_col1:I
 
     const/4 v2, 0x6
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f78
+    sget v1, Lcom/resouce/module/ResID;->guide_img_row2_col2:I
 
     const/4 v2, 0x7
 
     .line 7
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f79
+    sget v1, Lcom/resouce/module/ResID;->guide_img_row3_col1:I
 
     const/16 v2, 0x8
 
     .line 8
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f87
+    sget v1, Lcom/resouce/module/ResID;->guide_text_3row_col2:I
 
     const/16 v2, 0x9
 
     .line 9
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b180a
+    sget v1, Lcom/resouce/module/ResID;->makesure_open_btn:I
 
     const/16 v2, 0xa
 
     .line 10
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b2112
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_use_text:I
 
     const/16 v2, 0xb
 

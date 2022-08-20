@@ -158,7 +158,7 @@
     .line 5
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f120747
+    sget v4, Lcom/resouce/module/ResSTRING;->et_backboard_count:I
 
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
     .line 6
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f12074a
+    sget p2, Lcom/resouce/module/ResSTRING;->et_backboard_sum:I
 
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
     .line 7
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f120745
+    sget p2, Lcom/resouce/module/ResSTRING;->et_backboard_avg:I
 
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

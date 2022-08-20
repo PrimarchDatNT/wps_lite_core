@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f72
+    sget v1, Lcom/resouce/module/ResID;->theme_card:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -322,7 +322,7 @@
     .line 1
     iget-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2def
+    sget v1, Lcom/resouce/module/ResID;->surface_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 2
     iget-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v1, 0x7f0b12a2
+    sget v1, Lcom/resouce/module/ResID;->image_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

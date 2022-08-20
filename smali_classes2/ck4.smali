@@ -300,7 +300,7 @@
     .line 7
     iget-object p2, p0, Lck4;->I:Landroid/content/Context;
 
-    const p3, 0x7f122094
+    sget p3, Lcom/resouce/module/ResSTRING;->public_export_mp4_exit_tips:I
 
     invoke-static {p2, p3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -310,7 +310,7 @@
     :cond_3
     iget-object p2, p0, Lck4;->I:Landroid/content/Context;
 
-    const p3, 0x7f122bdc
+    sget p3, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     invoke-static {p2, p3, v1}, Lbih;->n(Landroid/content/Context;II)V
 

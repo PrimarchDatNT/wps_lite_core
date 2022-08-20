@@ -176,9 +176,9 @@
 
     const-string v3, "custom"
 
-    const v5, 0x7f081bf8
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_camera:I
 
-    const v6, 0x7f0606c5
+    sget v6, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v7, 0x0
 
@@ -208,9 +208,9 @@
 
     const-string v12, "indian"
 
-    const v14, 0x7f081c34
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_indian_scenes:I
 
-    const v15, 0x7f0606c5
+    sget v15, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/16 v16, 0x1
 
@@ -237,9 +237,9 @@
 
     const-string v4, "thoughtful"
 
-    const v6, 0x7f081c3d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_thoughtful:I
 
-    const v7, 0x7f0606c5
+    sget v7, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v8, 0x1
 
@@ -264,7 +264,7 @@
 
     const-string v12, "sun"
 
-    const v14, 0x7f081c31
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_funny_sun:I
 
     const/16 v18, 0x0
 
@@ -287,7 +287,7 @@
 
     const-string v4, "hindu"
 
-    const v6, 0x7f081c32
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_hindu:I
 
     move-object v3, v2
 
@@ -308,7 +308,7 @@
 
     const-string v12, "morning"
 
-    const v14, 0x7f081c37
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_morning:I
 
     move-object v11, v2
 
@@ -329,7 +329,7 @@
 
     const-string v4, "sikh"
 
-    const v6, 0x7f081c3c
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_sikh:I
 
     move-object v3, v2
 
@@ -350,7 +350,7 @@
 
     const-string v12, "buildings"
 
-    const v14, 0x7f081c33
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_ind_building:I
 
     move-object v11, v2
 
@@ -371,7 +371,7 @@
 
     const-string v4, "determination"
 
-    const v6, 0x7f081c2d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_determination:I
 
     move-object v3, v2
 
@@ -392,7 +392,7 @@
 
     const-string v12, "nature"
 
-    const v14, 0x7f081c39
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_nature:I
 
     move-object v11, v2
 
@@ -413,7 +413,7 @@
 
     const-string v4, "flowers"
 
-    const v6, 0x7f081c2f
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_flowers:I
 
     move-object v3, v2
 
@@ -434,7 +434,7 @@
 
     const-string v12, "lights"
 
-    const v14, 0x7f081c35
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_lights:I
 
     move-object v11, v2
 
@@ -604,7 +604,7 @@
 .method public final initViews()V
     .locals 3
 
-    const v0, 0x7f0b2b56
+    sget v0, Lcom/resouce/module/ResID;->share_card_scroll_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
 
     iput-object v0, p0, Lj9f;->V:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b24fa
+    sget v0, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -626,7 +626,7 @@
 
     iput-object v0, p0, Lj9f;->W:Landroid/widget/GridView;
 
-    const v0, 0x7f0b24fb
+    sget v0, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -637,7 +637,7 @@
 
     iput-object v0, p0, Lj9f;->X:Landroid/widget/HorizontalScrollView;
 
-    const v0, 0x7f0b2553
+    sget v0, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -646,7 +646,7 @@
 
     iput-object v0, p0, Lj9f;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b2bd2
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_savepic:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -655,7 +655,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2bd3
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -880,7 +880,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2bd3
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     if-ne p1, v0, :cond_0
 
@@ -892,7 +892,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2bd2
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_savepic:I
 
     if-ne p1, v0, :cond_1
 
@@ -912,7 +912,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b2fe8
+    sget p1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -921,11 +921,11 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const v0, 0x7f081174
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_back_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f0e0b0e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_alertdialog_share_card_layout:I
 
     .line 3
     invoke-virtual {p0, p1}, Ljh3;->setContentView(I)V
@@ -935,7 +935,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122bc6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1105,7 +1105,7 @@
     .line 2
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120019
+    sget v1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1145,14 +1145,14 @@
 
     iput-object v0, p0, Lj9f;->e0:Lhd3;
 
-    const v1, 0x7f122bd7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_unsave_tip:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f122234
+    sget v1, Lcom/resouce/module/ResSTRING;->public_go_back:I
 
     new-instance v2, Lj9f$b;
 
@@ -1163,7 +1163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120639
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_continue_edit:I
 
     const/4 v2, 0x0
 

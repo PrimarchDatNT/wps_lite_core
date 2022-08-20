@@ -355,7 +355,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b85
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_convert_feedback_tips_bar:I
 
     const/4 v2, 0x0
 
@@ -365,7 +365,7 @@
 
     iput-object v0, p0, Lx76;->d:Landroid/view/View;
 
-    const v1, 0x7f0b227e
+    sget v1, Lcom/resouce/module/ResID;->positive_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -381,7 +381,7 @@
     .line 4
     iget-object v0, p0, Lx76;->d:Landroid/view/View;
 
-    const v1, 0x7f0b19d8
+    sget v1, Lcom/resouce/module/ResID;->negative_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
     .line 5
     iget-object v0, p0, Lx76;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2fa6
+    sget v1, Lcom/resouce/module/ResID;->tip_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

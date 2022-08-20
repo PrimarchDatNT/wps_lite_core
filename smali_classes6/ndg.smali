@@ -22,7 +22,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120252
+    sget v1, Lcom/resouce/module/ResSTRING;->chart_search_docer:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12024a
+    sget v1, Lcom/resouce/module/ResSTRING;->chart_download_docer:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

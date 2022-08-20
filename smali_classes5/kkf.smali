@@ -91,7 +91,7 @@
 .method public d(Landroid/view/LayoutInflater;Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;Landroid/view/ViewGroup;)V
     .locals 3
 
-    const v0, 0x7f0e0246
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_romread_options_item:I
 
     const/4 v1, 0x0
 
@@ -102,7 +102,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b13ec
+    sget v0, Lcom/resouce/module/ResID;->item_text:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060562
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_mi_preview_pop_up_list_text_night:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -197,7 +197,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0245
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_romread_options:I
 
     const/4 v3, 0x1
 
@@ -210,7 +210,7 @@
 
     iput-object v2, p0, Lkkf;->f:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2fcd
+    sget v3, Lcom/resouce/module/ResID;->title:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
     .line 6
     iget-object v2, p0, Lkkf;->f:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b033b
+    sget v3, Lcom/resouce/module/ResID;->cancel:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 7
     iget-object v2, p0, Lkkf;->f:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2998
+    sget v3, Lcom/resouce/module/ResID;->rom_read_options_container:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 9
     iget-object v2, p0, Lkkf;->f:Landroid/view/ViewGroup;
 
-    const v3, 0x7f081d72
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->rom_read_pop_up_window_dark_bg:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -325,15 +325,15 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    const v2, 0x7f08095a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_dark_bg:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f08095c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_light_bg:I
 
     :goto_1
-    const v3, 0x7f0b2999
+    sget v3, Lcom/resouce/module/ResID;->rom_read_options_root:I
 
     .line 2
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -342,12 +342,12 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f080980
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_dark:I
 
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f080981
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_light:I
 
     :goto_2
     invoke-virtual {v0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b13ec
+    sget v2, Lcom/resouce/module/ResID;->item_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

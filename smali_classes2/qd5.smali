@@ -214,7 +214,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0e00f5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_premium_renew_notify:I
 
     const/4 v1, 0x0
 

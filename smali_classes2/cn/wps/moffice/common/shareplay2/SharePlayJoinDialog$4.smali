@@ -67,7 +67,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v1, 0x0
 

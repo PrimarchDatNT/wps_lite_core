@@ -109,7 +109,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122950
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12205a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_1
@@ -245,7 +245,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1205eb
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -23,7 +23,7 @@
 
     move-result v1
 
-    const v2, 0x7f122659
+    sget v2, Lcom/resouce/module/ResSTRING;->public_play_from_homepage:I
 
     invoke-direct {v0, p0, v1, v2}, Lp2e$a;-><init>(Lp2e;II)V
 
@@ -36,7 +36,7 @@
 
     move-result v1
 
-    const v2, 0x7f122658
+    sget v2, Lcom/resouce/module/ResSTRING;->public_play_from_curpage:I
 
     invoke-direct {v0, p0, v1, v2}, Lp2e$b;-><init>(Lp2e;II)V
 
@@ -55,12 +55,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080377
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_from_current:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d69
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_from_current_ppt:I
 
     :goto_0
     return v0
@@ -74,12 +74,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080378
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_from_home:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d6b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_from_home_ppt:I
 
     :goto_0
     return v0

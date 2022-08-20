@@ -149,7 +149,7 @@
 
     iget-object v1, p0, Leu6;->S:Landroid/widget/RadioGroup;
 
-    const v2, 0x7f0e0067
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ad_complaint_option_item_divider:I
 
     const/4 v3, 0x0
 
@@ -174,7 +174,7 @@
 
     iget-object v1, p0, Leu6;->S:Landroid/widget/RadioGroup;
 
-    const v2, 0x7f0e0066
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ad_complaint_option_item:I
 
     const/4 v3, 0x0
 
@@ -366,7 +366,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12006e
+    sget v2, Lcom/resouce/module/ResSTRING;->ad_complaint_choose_reason:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -430,7 +430,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120071
+    sget v2, Lcom/resouce/module/ResSTRING;->ad_complaint_fill_in_problem:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -551,7 +551,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120075
+    sget v2, Lcom/resouce/module/ResSTRING;->ad_complaint_submit_success:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -719,7 +719,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e001c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_ad_complaint:I
 
     const/4 v2, 0x0
 
@@ -729,7 +729,7 @@
 
     iput-object v0, p0, Leu6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2910
+    sget v1, Lcom/resouce/module/ResID;->rg_options:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -743,7 +743,7 @@
     .line 4
     iget-object v0, p0, Leu6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0b38
+    sget v1, Lcom/resouce/module/ResID;->et_problem:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 5
     iget-object v0, p0, Leu6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b328a
+    sget v1, Lcom/resouce/module/ResID;->tv_text_length:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -769,7 +769,7 @@
     .line 6
     iget-object v0, p0, Leu6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0306
+    sget v1, Lcom/resouce/module/ResID;->btn_summit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 7
     iget-object v0, p0, Leu6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b09bf
+    sget v1, Lcom/resouce/module/ResID;->et_contact:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -856,7 +856,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120076
+    sget v1, Lcom/resouce/module/ResSTRING;->ad_complaint_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

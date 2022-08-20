@@ -34,7 +34,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0994
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_search_land_new:I
 
     invoke-virtual {p2, v0, p0, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchLandView;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f122856
+    sget v1, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -156,7 +156,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchLandView;->i0:Landroid/widget/TextView;
 
-    const v2, 0x7f1227f9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -194,7 +194,7 @@
     .line 1
     invoke-super {p0}, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->q()V
 
-    const v0, 0x7f0b0b91
+    sget v0, Lcom/resouce/module/ResID;->et_search_replace_txt:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchLandView;->i0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2dfe
+    sget v0, Lcom/resouce/module/ResID;->switch_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

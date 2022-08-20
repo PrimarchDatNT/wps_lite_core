@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" style="@style/public_home_app_divider"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/subTextColor" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/phone_home_app_item_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" MaxLine="2" />
-</LinearLayout>

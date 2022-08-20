@@ -669,7 +669,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07d6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_search:I
 
     return v0
 .end method
@@ -1024,7 +1024,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f19
+    sget v1, Lcom/resouce/module/ResID;->pdf_search_padding_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1035,7 +1035,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f1a
+    sget v1, Lcom/resouce/module/ResID;->pdf_search_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1089,7 +1089,7 @@
     :goto_0
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b206b
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_default_search_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1100,7 +1100,7 @@
     .line 10
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1113,7 +1113,7 @@
     .line 11
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b041f
+    sget v1, Lcom/resouce/module/ResID;->clean_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1124,7 +1124,7 @@
     .line 12
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a44
+    sget v1, Lcom/resouce/module/ResID;->searchBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1135,7 +1135,7 @@
     .line 13
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2080
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_search_guide_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1146,7 +1146,7 @@
     .line 14
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a54
+    sget v1, Lcom/resouce/module/ResID;->search_backward:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
     .line 15
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b33ef
+    sget v1, Lcom/resouce/module/ResID;->wake_searchbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1168,7 +1168,7 @@
     .line 16
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a74
+    sget v1, Lcom/resouce/module/ResID;->search_forward:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

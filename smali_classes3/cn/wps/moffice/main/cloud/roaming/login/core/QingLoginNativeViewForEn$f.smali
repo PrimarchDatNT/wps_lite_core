@@ -45,7 +45,7 @@
 
     const-string v0, ""
 
-    const v1, 0x7f0b1139
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_password_clear:I
 
     if-ne p1, v1, :cond_0
 
@@ -59,7 +59,7 @@
     goto :goto_2
 
     :cond_0
-    const v1, 0x7f0b112b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_account_clear:I
 
     if-ne p1, v1, :cond_1
 
@@ -73,25 +73,25 @@
     goto :goto_2
 
     :cond_1
-    const v0, 0x7f0b1133
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_input_account:I
 
     if-eq p1, v0, :cond_4
 
-    const v1, 0x7f0b1135
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_input_password:I
 
     if-ne p1, v1, :cond_2
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b114e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_logo:I
 
     if-ne p1, v0, :cond_3
 
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f0b1131
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_error_tip:I
 
     if-ne p1, v0, :cond_6
 

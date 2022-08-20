@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e68
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -176,7 +176,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e67
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_invalid_argumemts:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -253,7 +253,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

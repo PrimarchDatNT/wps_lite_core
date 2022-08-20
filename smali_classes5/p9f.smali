@@ -44,12 +44,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e10e5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_concise_layout_oversea:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e10e4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_concise_layout:I
 
     return v0
 .end method
@@ -60,7 +60,7 @@
     .line 1
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0552
+    sget v0, Lcom/resouce/module/ResID;->content_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
     .line 2
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b3012
+    sget v0, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -86,7 +86,7 @@
     .line 3
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b062c
+    sget v0, Lcom/resouce/module/ResID;->date_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 4
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b342d
+    sget v0, Lcom/resouce/module/ResID;->week_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     .line 5
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b062e
+    sget v0, Lcom/resouce/module/ResID;->day_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

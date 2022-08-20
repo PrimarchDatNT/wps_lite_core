@@ -363,7 +363,7 @@
     .line 1
     iget-object v0, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122b3c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -611,7 +611,7 @@
     .line 2
     iget-object v0, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -689,7 +689,7 @@
     .line 4
     iget-object v2, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v3, 0x7f120ef1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -714,7 +714,7 @@
     :cond_0
     iget-object v2, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v4, 0x7f121239
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -737,7 +737,7 @@
     :cond_1
     iget-object v2, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122299
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_group_space_lack:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -760,7 +760,7 @@
     :cond_2
     iget-object v2, p0, Lr87;->a:Landroid/app/Activity;
 
-    const v4, 0x7f1222a4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_linkfile_move_error:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -974,7 +974,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121237
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_failed:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -984,7 +984,7 @@
 
     invoke-direct {v1, p0, v0}, Lr87$i;-><init>(Lr87;Lhd3;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -993,7 +993,7 @@
 
     invoke-direct {v1, p0, v0}, Lr87$j;-><init>(Lr87;Lhd3;)V
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

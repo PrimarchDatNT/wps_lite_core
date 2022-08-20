@@ -381,7 +381,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f1232a8
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_domain_page_begin_page_overlimit_tips:I
 
     .line 1
     :try_start_0
@@ -566,7 +566,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1232a6
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_domain_page:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -589,7 +589,7 @@
     invoke-virtual {v0}, Lhd3;->setLimitHeight()V
 
     :cond_0
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     new-instance v2, Lozk$d;
@@ -598,7 +598,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     new-instance v2, Lozk$e;
@@ -620,12 +620,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09e4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_insert_page_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10ac
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_insert_page_dialog:I
 
     :goto_0
     const/4 v1, 0x0
@@ -634,7 +634,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b35b7
+    sget v1, Lcom/resouce/module/ResID;->writer_insert_scrollview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -643,7 +643,7 @@
 
     check-cast v1, Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b34e3
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_locate_content:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -654,7 +654,7 @@
 
     iput-object v2, p0, Lozk;->f0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f0b34de
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_alignment_content:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -665,7 +665,7 @@
 
     iput-object v2, p0, Lozk;->g0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f0b34e5
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_number_format_content:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -676,7 +676,7 @@
 
     iput-object v2, p0, Lozk;->h0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f0b34e1
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_begin_page_content:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -687,7 +687,7 @@
 
     iput-object v2, p0, Lozk;->i0:Landroid/widget/EditText;
 
-    const v2, 0x7f0b34dd
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_add:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -696,7 +696,7 @@
 
     iput-object v2, p0, Lozk;->j0:Landroid/view/View;
 
-    const v2, 0x7f0b34e2
+    sget v2, Lcom/resouce/module/ResID;->writer_domain_page_decrease:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -826,7 +826,7 @@
 
     iget-object v3, p0, Lozk;->m0:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v4, v3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -864,7 +864,7 @@
 
     iget-object v3, p0, Lozk;->l0:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v4, v3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -903,7 +903,7 @@
 
     iget-object v3, p0, Lozk;->n0:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v4, v3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

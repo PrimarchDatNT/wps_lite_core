@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" style="@style/pad_home_drive_file_sort_popupwindow_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/drive_sort_time" android:text="@string/et_complex_format_number_time" style="@style/pad_home_drive_file_sort_button" />
-    <TextView android:id="@id/drive_sort_name" android:text="@string/et_name" style="@style/pad_home_drive_file_sort_button" />
-    <TextView android:id="@id/drive_sort_size" android:visibility="gone" android:text="@string/home_wps_drive_sort_size" style="@style/pad_home_drive_file_sort_button" />
-</LinearLayout>

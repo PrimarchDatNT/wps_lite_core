@@ -230,7 +230,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0809e2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     iget-object v3, p0, Lcn/wps/moffice/presentation/control/layout/summary/widget/BannerView$d;->T:Lcn/wps/moffice/presentation/control/layout/summary/widget/BannerView;
 
@@ -243,7 +243,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600b1
+    sget v4, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

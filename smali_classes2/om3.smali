@@ -40,7 +40,7 @@
     .line 1
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b275a
+    sget v1, Lcom/resouce/module/ResID;->public_top_setting_title_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -51,7 +51,7 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b2716
+    sget v2, Lcom/resouce/module/ResID;->public_setting_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2715
+    sget v3, Lcom/resouce/module/ResID;->public_setting_sub_title:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 7
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b292a
+    sget v2, Lcom/resouce/module/ResID;->right_sub_title:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 8
     iget-object v2, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b292b
+    sget v3, Lcom/resouce/module/ResID;->right_sub_title_layout:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

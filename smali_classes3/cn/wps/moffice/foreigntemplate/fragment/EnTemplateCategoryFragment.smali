@@ -283,7 +283,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07034e
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -294,9 +294,9 @@
 
     invoke-virtual {v0, p1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setHeight(I)V
 
-    const p1, 0x7f06025d
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
-    const v0, 0x7f06054c
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_indicator_text_default_color:I
 
     .line 16
     iget-object v1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateCategoryFragment;->S:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
@@ -314,7 +314,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b45
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -476,7 +476,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 0
 
-    const p2, 0x7f0e028b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->foreign_template_category_fragment:I
 
     const/4 p3, 0x0
 
@@ -487,7 +487,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateCategoryFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0372
+    sget p2, Lcom/resouce/module/ResID;->category_viewpager:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -501,7 +501,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateCategoryFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b14f9
+    sget p2, Lcom/resouce/module/ResID;->kscrollbar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

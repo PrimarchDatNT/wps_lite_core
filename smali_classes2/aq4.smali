@@ -118,7 +118,7 @@
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f120eb2
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_save_in_local:I
 
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f120eb2
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_save_in_local:I
 
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

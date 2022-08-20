@@ -118,7 +118,7 @@
     goto :goto_0
 
     :catch_1
-    const v0, 0x7f12072c
+    sget v0, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 7
     invoke-static {v0, v1}, Lsjf;->k(II)V
@@ -137,7 +137,7 @@
     goto :goto_0
 
     :catch_2
-    const v0, 0x7f1208a5
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_warning_arrayformula:I
 
     .line 9
     invoke-static {v0, v1}, Lsjf;->k(II)V
@@ -156,7 +156,7 @@
     goto :goto_0
 
     :catch_3
-    const v0, 0x7f1208a4
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_warning_MergeCell:I
 
     .line 11
     invoke-static {v0, v1}, Lsjf;->k(II)V

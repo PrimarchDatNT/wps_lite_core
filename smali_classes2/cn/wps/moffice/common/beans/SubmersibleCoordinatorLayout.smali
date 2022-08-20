@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b210a
+    sget v1, Lcom/resouce/module/ResID;->phone_quick_access_recycler_outer:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b27a8
+    sget v1, Lcom/resouce/module/ResID;->quick_access_title_bottom_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

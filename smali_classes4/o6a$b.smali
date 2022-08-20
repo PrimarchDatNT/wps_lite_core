@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08162f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_encryption:I
 
     .line 2
     invoke-static {p1, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;

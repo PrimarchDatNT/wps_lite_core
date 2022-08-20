@@ -83,7 +83,7 @@
 
     check-cast p2, Lbj3;
 
-    const v0, 0x7f0b1c43
+    sget v0, Lcom/resouce/module/ResID;->pad_titlebar_ad_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b1c42
+    sget v1, Lcom/resouce/module/ResID;->pad_titlebar_ad_img:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f080e75
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_titlebar_recommend:I
 
     invoke-virtual {v0, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -359,7 +359,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05ec
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_ad_item:I
 
     const/4 v2, 0x0
 

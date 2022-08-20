@@ -42,7 +42,7 @@
     :try_start_0
     iget-object p1, p0, Lka3$t;->B:Landroid/content/Context;
 
-    const v0, 0x7f12134b
+    sget v0, Lcom/resouce/module/ResSTRING;->license_ent_android:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

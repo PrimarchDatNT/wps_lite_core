@@ -75,7 +75,7 @@
     .line 2
     iput p2, p0, Lr0f;->w0:I
 
-    const p3, 0x7f0b285f
+    sget p3, Lcom/resouce/module/ResID;->recyclerView:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object p3, p0, Lr0f;->j0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p3, 0x7f0b0f13
+    sget p3, Lcom/resouce/module/ResID;->giftImage:I
 
     .line 4
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object p3, p0, Lr0f;->n0:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b305e
+    sget p3, Lcom/resouce/module/ResID;->topImg:I
 
     .line 5
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lr0f;->p0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3064
+    sget v0, Lcom/resouce/module/ResID;->topTip:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object v1, p0, Lr0f;->o0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v1, 0x7f0b0dd8
+    sget v1, Lcom/resouce/module/ResID;->flowLayout:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v1, p0, Lr0f;->r0:Landroid/view/View;
 
-    const v1, 0x7f0b0443
+    sget v1, Lcom/resouce/module/ResID;->closeImage:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v1, p0, Lr0f;->s0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0240
+    sget v1, Lcom/resouce/module/ResID;->bottomBut:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v2, p0, Lr0f;->t0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v2, 0x7f0b282f
+    sget v2, Lcom/resouce/module/ResID;->recommendTitle:I
 
     .line 10
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     iput-object v2, p0, Lr0f;->u0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v2, 0x7f0b053c
+    sget v2, Lcom/resouce/module/ResID;->contentLayout:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -343,7 +343,7 @@
 
     iget-object p2, p0, Lr0f;->k0:Landroid/content/Context;
 
-    const p3, 0x7f122ccb
+    sget p3, Lcom/resouce/module/ResSTRING;->reader_end_insert_end:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -354,7 +354,7 @@
     .line 35
     iget-object p1, p0, Lr0f;->p0:Landroid/widget/ImageView;
 
-    const p2, 0x7f080b12
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->novel_end_serialization:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -366,7 +366,7 @@
 
     iget-object p2, p0, Lr0f;->k0:Landroid/content/Context;
 
-    const p3, 0x7f122cc9
+    sget p3, Lcom/resouce/module/ResSTRING;->reader_end_insert_continue:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -377,7 +377,7 @@
     .line 37
     iget-object p1, p0, Lr0f;->p0:Landroid/widget/ImageView;
 
-    const p2, 0x7f080b10
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->novel_end_continue:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -416,21 +416,21 @@
     :cond_0
     iget-object p2, p0, Lr0f;->o0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f060330
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {p2, v0, p3}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 3
     iget-object p2, p0, Lr0f;->u0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0603a2
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {p2, v0, p3}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 4
     iget-object p2, p0, Lr0f;->v0:Lcn/wps/moffice/recommend/RecommendRelativeLayout;
 
-    const v0, 0x7f060395
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_secondBackgroundColor:I
 
     invoke-static {p2, v0, p3}, Lw1f;->d(Landroid/view/View;IZ)V
 
@@ -517,7 +517,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0f13
+    sget v0, Lcom/resouce/module/ResID;->giftImage:I
 
     if-ne p1, v0, :cond_1
 
@@ -579,7 +579,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b0443
+    sget v0, Lcom/resouce/module/ResID;->closeImage:I
 
     if-ne p1, v0, :cond_2
 
@@ -593,7 +593,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b0240
+    sget v0, Lcom/resouce/module/ResID;->bottomBut:I
 
     if-ne p1, v0, :cond_4
 

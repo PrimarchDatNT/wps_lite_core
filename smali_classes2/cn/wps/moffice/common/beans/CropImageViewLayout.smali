@@ -85,11 +85,11 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0a69
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_background_crop_photo_layout:I
 
     invoke-virtual {p1, p3, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b229d
+    sget p1, Lcom/resouce/module/ResID;->ppt_background_crop_cancel:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/CropImageViewLayout;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b229e
+    sget p1, Lcom/resouce/module/ResID;->ppt_background_crop_finish:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/CropImageViewLayout;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b229f
+    sget p1, Lcom/resouce/module/ResID;->ppt_background_crop_img:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/CropImageViewLayout;->T:Lcn/wps/moffice/common/beans/CropImageView;
 
-    const p1, 0x7f0b22a0
+    sget p1, Lcom/resouce/module/ResID;->ppt_background_progress_bar:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -532,7 +532,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121b64
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_clip_image_small:I
 
     const/16 p2, 0xfa
 

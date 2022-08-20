@@ -19,7 +19,7 @@
     .line 2
     iget-object p1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v0, 0x7f0b3033
+    sget v0, Lcom/resouce/module/ResID;->titlebar_text:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -92,14 +92,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fa8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_list:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
 
     invoke-static {v1}, Lxih;->P(Landroid/view/View;)V
 
-    const v1, 0x7f121be6
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_select_template:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -170,7 +170,7 @@
     :goto_0
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0b0548
+    sget v2, Lcom/resouce/module/ResID;->content_lay:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -197,7 +197,7 @@
     .line 14
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0b2ec6
+    sget v2, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -289,7 +289,7 @@
     .line 1
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b301f
+    sget v1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -300,7 +300,7 @@
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b302d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

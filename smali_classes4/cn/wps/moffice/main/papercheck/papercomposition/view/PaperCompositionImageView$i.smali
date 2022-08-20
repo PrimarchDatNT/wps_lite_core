@@ -62,7 +62,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$i;->I:Landroid/content/Context;
 
-    const p2, 0x7f0e0d5b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_image_read_item:I
 
     const/4 p3, 0x0
 
@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1274
+    sget p2, Lcom/resouce/module/ResID;->image_content:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
     return-void
 
     :cond_0
-    const p3, 0x7f0b1274
+    sget p3, Lcom/resouce/module/ResID;->image_content:I
 
     .line 2
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0809e2
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$i;->I:Landroid/content/Context;
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

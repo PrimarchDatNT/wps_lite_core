@@ -69,7 +69,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    const p1, 0x7f121748
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_mobile_network_tips_dialog:I
 
     .line 1
     invoke-virtual {p0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -79,14 +79,14 @@
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v0, 0x0
 
     .line 3
     invoke-virtual {p0, p1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 4
     invoke-virtual {p0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

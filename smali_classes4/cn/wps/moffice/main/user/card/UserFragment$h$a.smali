@@ -83,7 +83,7 @@
 
     iget-object v3, p0, Lcn/wps/moffice/main/user/card/UserFragment$h$a;->B:Ljava/util/List;
 
-    const v4, 0x7f0e03d2
+    sget v4, Lcom/resouce/module/ResLAYOUT;->home_user_property_item:I
 
     sget v5, Leo2;->f:I
 

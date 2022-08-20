@@ -134,7 +134,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081887
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_component_inapp_dot:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -229,7 +229,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081888
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_component_inapp_rectangle_dot:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

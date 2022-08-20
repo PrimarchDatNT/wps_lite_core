@@ -362,7 +362,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10e7
+    sget v1, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     iput-object v1, p2, Lzfa$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b10e9
+    sget v1, Lcom/resouce/module/ResID;->home_open_item_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -384,7 +384,7 @@
 
     iput-object v1, p2, Lzfa$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b10eb
+    sget v1, Lcom/resouce/module/ResID;->home_open_item_underline:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -462,12 +462,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0730
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_open_list_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e055c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_open_list_item:I
 
     :goto_0
     iput v0, p0, Lzfa;->e:I

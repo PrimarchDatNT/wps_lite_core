@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f43
+    sget v1, Lcom/resouce/module/ResLAYOUT;->share_item_tag:I
 
     const/4 v2, 0x0
 
@@ -66,7 +66,7 @@
     .line 4
     iget-object v0, p0, Lqk9;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2e7f
+    sget v1, Lcom/resouce/module/ResID;->tag_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -38,7 +38,7 @@
 
     iput-object v0, p0, Lexk;->g0:Lcn/wps/moffice/writer/port/balloon/IBalloonSideBarView;
 
-    const v0, 0x7f1232ff
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_layout_comment_comment_revise:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

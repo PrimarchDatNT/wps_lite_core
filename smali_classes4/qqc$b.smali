@@ -77,7 +77,7 @@
     .line 6
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1b94
+    sget p1, Lcom/resouce/module/ResID;->outline_content:I
 
     .line 7
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p1, p0, Lqqc$b;->U:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1b96
+    sget p1, Lcom/resouce/module/ResID;->outline_expanded_group:I
 
     .line 8
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     .line 10
     iget-object p1, p0, Lqqc$b;->V:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b1b95
+    sget p2, Lcom/resouce/module/ResID;->outline_expanded:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

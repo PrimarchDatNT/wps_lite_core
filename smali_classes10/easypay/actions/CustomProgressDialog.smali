@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 1
 
-    const p2, 0x7f130300
+    sget p2, Lcom/resouce/module/ResSTYLE;->TransparentProgressDialog:I
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -60,13 +60,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e00c3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->custom_progress_dialog_view:I
 
     invoke-virtual {p2, v0, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0b07ea
+    sget p2, Lcom/resouce/module/ResID;->easypay_icon_iv:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
     .line 2
     iget-object v0, p0, Leasypay/actions/CustomProgressDialog;->context:Landroid/content/Context;
 
-    const v1, 0x7f01009c
+    sget v1, Lcom/resouce/module/ResANIM;->rotate:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

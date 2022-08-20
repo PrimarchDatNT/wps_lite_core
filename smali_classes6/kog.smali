@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12087f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_blank:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -248,7 +248,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e01e5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_export_card_filter_col_item:I
 
     const/4 v1, 0x0
 

@@ -220,7 +220,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aa4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_play_right_panel:I
 
     const/4 v2, 0x1
 
@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0814d0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_func_mark_bg:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -250,7 +250,7 @@
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b2392
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_right_panel_content:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

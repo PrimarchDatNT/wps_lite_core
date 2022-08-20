@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12007b
+    sget v1, Lcom/resouce/module/ResSTRING;->ad_font_pre_host_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123065
+    sget v1, Lcom/resouce/module/ResSTRING;->tempalate_server_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121593
+    sget v1, Lcom/resouce/module/ResSTRING;->oversea_template_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -42,7 +42,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b0b13
+    sget v1, Lcom/resouce/module/ResID;->et_print_page_all_radio:I
 
     if-ne p2, v1, :cond_0
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b0b15
+    sget v1, Lcom/resouce/module/ResID;->et_print_page_num_radio:I
 
     if-ne p2, v1, :cond_2
 

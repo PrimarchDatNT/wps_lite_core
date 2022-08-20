@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0115
+    sget v0, Lcom/resouce/module/ResID;->annotation_ok:I
 
     if-ne p1, v0, :cond_1
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0117
+    sget v0, Lcom/resouce/module/ResID;->annotation_undo:I
 
     if-ne p1, v0, :cond_2
 

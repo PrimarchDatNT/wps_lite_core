@@ -143,7 +143,7 @@
 
     const/4 v4, -0x1
 
-    const v6, 0x7f120575
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     move-object v0, p1
 
@@ -281,7 +281,7 @@
 
     sget-object v6, Ltfh;->b:[Ljava/lang/String;
 
-    const v7, 0x7f120575
+    sget v7, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     new-instance v8, Ltfh$c;
 
@@ -345,7 +345,7 @@
 
     sget-object v5, Ltfh;->b:[Ljava/lang/String;
 
-    const v6, 0x7f120575
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     new-instance v7, Ltfh$b;
 

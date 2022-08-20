@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201bf
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_sacn_download_so_tips:I
 
     const/4 v2, 0x0
 
@@ -96,7 +96,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b141f
+    sget v1, Lcom/resouce/module/ResID;->iv_cancel:I
 
     if-ne v0, v1, :cond_1
 
@@ -110,7 +110,7 @@
     goto/16 :goto_6
 
     :cond_1
-    const v1, 0x7f0b142e
+    sget v1, Lcom/resouce/module/ResID;->iv_complete:I
 
     const/4 v2, 0x1
 
@@ -348,7 +348,7 @@
     return-void
 
     :cond_c
-    const v1, 0x7f0b14b8
+    sget v1, Lcom/resouce/module/ResID;->iv_rotate:I
 
     if-ne v0, v1, :cond_d
 
@@ -369,7 +369,7 @@
     goto/16 :goto_6
 
     :cond_d
-    const v1, 0x7f0b14b6
+    sget v1, Lcom/resouce/module/ResID;->iv_retake:I
 
     if-ne v0, v1, :cond_e
 
@@ -394,7 +394,7 @@
     goto/16 :goto_6
 
     :cond_e
-    const v1, 0x7f0b14a1
+    sget v1, Lcom/resouce/module/ResID;->iv_ok:I
 
     if-ne v0, v1, :cond_f
 
@@ -453,7 +453,7 @@
     goto/16 :goto_6
 
     :cond_f
-    const v1, 0x7f0b142a
+    sget v1, Lcom/resouce/module/ResID;->iv_close_tip:I
 
     if-ne v0, v1, :cond_10
 
@@ -474,7 +474,7 @@
     goto/16 :goto_6
 
     :cond_10
-    const v1, 0x7f0b3166
+    sget v1, Lcom/resouce/module/ResID;->tv_feedback:I
 
     if-ne v0, v1, :cond_11
 
@@ -499,7 +499,7 @@
     goto/16 :goto_6
 
     :cond_11
-    const v1, 0x7f0b2f22
+    sget v1, Lcom/resouce/module/ResID;->text_optimization_cancel:I
 
     if-ne v0, v1, :cond_12
 
@@ -518,7 +518,7 @@
     goto :goto_6
 
     :cond_12
-    const v1, 0x7f0b2f23
+    sget v1, Lcom/resouce/module/ResID;->text_optimization_distinguish:I
 
     if-ne v0, v1, :cond_14
 
@@ -586,7 +586,7 @@
     goto :goto_6
 
     :cond_14
-    const v1, 0x7f0b06be
+    sget v1, Lcom/resouce/module/ResID;->distinguish_titlebar_backbtn:I
 
     if-ne v0, v1, :cond_15
 
@@ -600,7 +600,7 @@
     goto :goto_6
 
     :cond_15
-    const v1, 0x7f0b143b
+    sget v1, Lcom/resouce/module/ResID;->iv_detection:I
 
     if-ne v0, v1, :cond_16
 

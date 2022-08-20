@@ -217,7 +217,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$a;->B:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v1, 0x7f120478
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_recognize_failed_tip:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

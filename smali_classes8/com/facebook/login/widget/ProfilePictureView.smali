@@ -230,7 +230,7 @@
 
     const/4 v2, -0x4
 
-    const v3, 0x7f070085
+    sget v3, Lcom/resouce/module/ResDIMEN;->com_facebook_profilepictureview_preset_size_normal:I
 
     if-eq v0, v2, :cond_3
 
@@ -254,12 +254,12 @@
     return v1
 
     :cond_2
-    const v3, 0x7f070086
+    sget v3, Lcom/resouce/module/ResDIMEN;->com_facebook_profilepictureview_preset_size_small:I
 
     goto :goto_0
 
     :cond_3
-    const v3, 0x7f070084
+    sget v3, Lcom/resouce/module/ResDIMEN;->com_facebook_profilepictureview_preset_size_large:I
 
     .line 2
     :cond_4
@@ -772,12 +772,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f080194
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->com_facebook_profile_picture_blank_square:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f080193
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->com_facebook_profile_picture_blank_portrait:I
 
     .line 5
     :goto_0

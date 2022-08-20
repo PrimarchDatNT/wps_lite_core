@@ -98,7 +98,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f060006
+    sget p1, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     goto :goto_0
 
@@ -110,7 +110,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f060009
+    sget p1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     goto :goto_0
 
@@ -122,7 +122,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f060002
+    sget p1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_0
 
@@ -134,12 +134,12 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f06000c
+    sget p1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f06025d
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 11
     :goto_0
@@ -268,7 +268,7 @@
 
     invoke-virtual {p1, v1, v0, p2}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p2, 0x7f0e0e6a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_storage_permission_regrant_tip_layout:I
 
     .line 8
     invoke-virtual {p1, p2}, Lhd3;->setView(I)Lhd3;
@@ -278,7 +278,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const p3, 0x7f122a2f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_msg_detail1:I
 
     .line 10
     invoke-virtual {p0, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -291,7 +291,7 @@
 
     invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const v0, 0x7f122a30
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_msg_detail2:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -302,7 +302,7 @@
 
     invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const p3, 0x7f122a31
+    sget p3, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_msg_detail3:I
 
     .line 12
     invoke-virtual {p0, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -311,7 +311,7 @@
 
     invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p3, 0x7f0b32ce
+    sget p3, Lcom/resouce/module/ResID;->txt_regrant_tip_details:I
 
     .line 13
     invoke-virtual {p1, p3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 15
     new-instance p3, Lcn/wps/moffice/common/storage/lollip/GrantPermissionActivity$b;
@@ -342,7 +342,7 @@
 
     invoke-virtual {p1, p2, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f0b32c7
+    sget p2, Lcom/resouce/module/ResID;->txt_go_for_help:I
 
     .line 16
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -355,14 +355,14 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f122a35
+    sget p2, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 17
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p3
 
-    const v0, 0x7f06025d
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -403,7 +403,7 @@
 
     invoke-virtual {p2, p3, p1}, Landroid/content/ContentResolver;->takePersistableUriPermission(Landroid/net/Uri;I)V
 
-    const p1, 0x7f122a33
+    sget p1, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_success:I
 
     .line 22
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -552,7 +552,7 @@
     .line 15
     iput-boolean p1, p0, Lcn/wps/moffice/common/storage/lollip/GrantPermissionActivity;->S:Z
 
-    const v0, 0x7f122a34
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_toast:I
 
     .line 16
     invoke-static {p0, v0, p1}, Lbih;->n(Landroid/content/Context;II)V
@@ -573,7 +573,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122a2b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_failed:I
 
     const/4 v1, 0x0
 

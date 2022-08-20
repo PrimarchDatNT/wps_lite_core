@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_popmenu_divider:I
 
     const/4 v2, 0x0
 
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->I:Landroid/widget/Button;
 
-    const v1, 0x7f121f7c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -92,7 +92,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->S:Landroid/widget/Button;
 
-    const v2, 0x7f1225ee
+    sget v2, Lcom/resouce/module/ResSTRING;->public_paste:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -108,7 +108,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->T:Landroid/widget/Button;
 
-    const v3, 0x7f122a58
+    sget v3, Lcom/resouce/module/ResSTRING;->public_table_insert_row:I
 
     .line 10
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -124,7 +124,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->U:Landroid/widget/Button;
 
-    const v4, 0x7f122a4f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_table_delete_row:I
 
     .line 12
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -140,7 +140,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->V:Landroid/widget/Button;
 
-    const v5, 0x7f122a57
+    sget v5, Lcom/resouce/module/ResSTRING;->public_table_insert_column:I
 
     .line 14
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -156,7 +156,7 @@
 
     iput-object v5, p0, Lcn/wps/moffice/common/chart/control/cellopbar/CellOperationBar;->W:Landroid/widget/Button;
 
-    const v6, 0x7f122a4e
+    sget v6, Lcom/resouce/module/ResSTRING;->public_table_delete_column:I
 
     .line 16
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;

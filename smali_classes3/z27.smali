@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cdf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_login_pc_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -57,7 +57,7 @@
     .line 3
     iget-object v0, p0, Lz27;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2103
+    sget v1, Lcom/resouce/module/ResID;->phone_public_titlebar_content_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
     .line 7
     iget-object v0, p0, Lz27;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2da4    # 1.8499967E38f
+    sget v1, Lcom/resouce/module/ResID;->start_scan:I    # 1.8499967E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

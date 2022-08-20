@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06065d
+    sget v1, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -152,7 +152,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f080212
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_uploading:I
 
     .line 13
     invoke-virtual {p0}, Lp05;->c()Landroid/content/Context;
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023e
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

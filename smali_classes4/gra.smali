@@ -145,7 +145,7 @@
 
     iget-object v2, p0, Lgra;->B:Landroid/content/Context;
 
-    const v3, 0x7f122e11
+    sget v3, Lcom/resouce/module/ResSTRING;->recovery_user:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result v5
 
-    const v6, 0x7f122e0d
+    sget v6, Lcom/resouce/module/ResSTRING;->recovery_suffix:I
 
     if-nez v5, :cond_3
 
@@ -376,13 +376,13 @@
     .line 3
     iget-object p2, p0, Lgra;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0904
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_recover_companies_item:I
 
     invoke-virtual {p2, v0, p3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b1454
+    sget p3, Lcom/resouce/module/ResID;->iv_file_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -393,7 +393,7 @@
 
     iput-object p3, v1, Lgra$b;->a:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b3129
+    sget p3, Lcom/resouce/module/ResID;->tv_company_name:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -404,7 +404,7 @@
 
     iput-object p3, v1, Lgra$b;->b:Landroid/widget/TextView;
 
-    const p3, 0x7f0b06d4
+    sget p3, Lcom/resouce/module/ResID;->divider_line:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

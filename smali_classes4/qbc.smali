@@ -189,7 +189,7 @@
 
     iget-object v2, p0, Lqbc;->h0:Ljava/util/List;
 
-    const v3, 0x7f0e078f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_secodepanel_item:I
 
     invoke-direct {v0, v1, v2, v3}, Lobc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
@@ -205,7 +205,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0110
+    sget v1, Lcom/resouce/module/ResID;->annotation_grid:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e078c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_bottompanel:I
 
     return v0
 .end method

@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121891
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_year_subscription:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12188b
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_month_subscription:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3120,7 +3120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121887
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_first_month_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

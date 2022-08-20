@@ -88,14 +88,14 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0a8a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_miracast_devices_list_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0b2318
+    sget p3, Lcom/resouce/module/ResID;->ppt_miracast_device_name:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0b2317
+    sget p3, Lcom/resouce/module/ResID;->ppt_miracast_device_divider:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

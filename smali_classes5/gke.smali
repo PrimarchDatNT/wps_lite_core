@@ -113,7 +113,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f1221f3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_frame_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

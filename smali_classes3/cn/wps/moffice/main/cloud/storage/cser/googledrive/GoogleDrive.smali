@@ -216,7 +216,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12223a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_google_account_not_support:I
 
     const/4 v2, 0x1
 

@@ -95,7 +95,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01b9
+    sget v0, Lcom/resouce/module/ResID;->back_board_sum:I
 
     if-ne p1, v0, :cond_2
 
@@ -104,7 +104,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b01b4
+    sget v0, Lcom/resouce/module/ResID;->back_board_avg:I
 
     if-ne p1, v0, :cond_3
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b01b6
+    sget v0, Lcom/resouce/module/ResID;->back_board_count:I
 
     if-ne p1, v0, :cond_4
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b01b7
+    sget v0, Lcom/resouce/module/ResID;->back_board_max:I
 
     if-ne p1, v0, :cond_5
 
@@ -131,7 +131,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b01b8
+    sget v0, Lcom/resouce/module/ResID;->back_board_min:I
 
     if-ne p1, v0, :cond_6
 

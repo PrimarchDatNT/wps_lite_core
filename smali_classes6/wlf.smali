@@ -2082,7 +2082,7 @@
     .line 2
     sget-boolean v0, Ljif;->n:Z
 
-    const v1, 0x7f1227a5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     const/4 v2, 0x0
 
@@ -2175,7 +2175,7 @@
     .line 13
     iget-object v0, p0, Log3;->B:Landroid/content/Context;
 
-    const v1, 0x7f12131e
+    sget v1, Lcom/resouce/module/ResSTRING;->knowledge_page_option_unsupported:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2247,7 +2247,7 @@
     .line 2
     iget-object v0, p0, Log3;->B:Landroid/content/Context;
 
-    const v2, 0x7f1227a5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2264,7 +2264,7 @@
     .line 4
     iget-object v0, p0, Log3;->B:Landroid/content/Context;
 
-    const v2, 0x7f12131e
+    sget v2, Lcom/resouce/module/ResSTRING;->knowledge_page_option_unsupported:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2282,7 +2282,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 6
     invoke-static {v0, v2}, Lsjf;->h(II)V

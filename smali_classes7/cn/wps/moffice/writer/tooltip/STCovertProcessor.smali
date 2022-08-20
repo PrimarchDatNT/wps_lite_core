@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122ff2
+    sget v2, Lcom/resouce/module/ResSTRING;->st_convert_converting_tip_ts:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -262,7 +262,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v2, 0x7f122ff3
+    sget v2, Lcom/resouce/module/ResSTRING;->st_convert_convertnow:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

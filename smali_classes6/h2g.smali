@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lr2g;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v2, 0x7f120dee
+    sget v2, Lcom/resouce/module/ResSTRING;->has_fix_doc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

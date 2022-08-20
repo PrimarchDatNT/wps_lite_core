@@ -2280,7 +2280,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b2310
+    sget v1, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2682,7 +2682,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ac5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_qing_uploading_tips:I
 
     const/4 v2, 0x0
 
@@ -2690,7 +2690,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b279d
+    sget v1, Lcom/resouce/module/ResID;->qing_upload_tips:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2699,7 +2699,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122760
+    sget v2, Lcom/resouce/module/ResSTRING;->public_qing_upload_notify_cannot_upload:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2924,7 +2924,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1297
+    sget v2, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2997,7 +2997,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e103d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_public_mode_switch_tips:I
 
     const/4 v2, 0x0
 
@@ -3017,7 +3017,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d54
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3058,12 +3058,12 @@
 
     move-result v1
 
-    const v2, 0x7f081328
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v2, 0x7f0b268b
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_icon:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3074,18 +3074,18 @@
 
     if-eqz v1, :cond_2
 
-    const v3, 0x7f081f8f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_mode_switch_tips_edit:I
 
     goto :goto_0
 
     :cond_2
-    const v3, 0x7f081f90
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_mode_switch_tips_read:I
 
     .line 13
     :goto_0
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v2, 0x7f0b268c
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_text:I
 
     .line 14
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3096,12 +3096,12 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f122fbe
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_edit_mode:I
 
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f1227a9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_read_mode:I
 
     .line 15
     :goto_1

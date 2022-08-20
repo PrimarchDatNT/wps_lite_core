@@ -98,7 +98,7 @@
     .line 5
     iget-object v0, p0, Lne9$a;->S:Landroid/app/Activity;
 
-    const v2, 0x7f12204e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_enable_auto_roaming:I
 
     invoke-static {v0, v2, p1}, Lbih;->n(Landroid/content/Context;II)V
 

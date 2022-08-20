@@ -908,12 +908,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0a24
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_thumbnail:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e110c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_thumbnail:I
 
     :goto_0
     const/4 v2, 0x0
@@ -926,7 +926,7 @@
 
     iput-object v0, p0, Lqwl;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2f81
+    sget v1, Lcom/resouce/module/ResID;->thumb_grid_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -940,7 +940,7 @@
     .line 4
     iget-object v0, p0, Lqwl;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120e12
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_address_personname:I
 
     invoke-virtual {p0, v2}, Las7;->X2(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120e16
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_address_telephone:I
 
     invoke-virtual {p0, v2}, Las7;->X2(I)Ljava/lang/String;
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120e13
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_address_place_detail:I
 
     invoke-virtual {p0, v2}, Las7;->X2(I)Ljava/lang/String;
 
@@ -203,7 +203,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120e14
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_address_place_postalcode:I
 
     invoke-virtual {p0, v2}, Las7;->X2(I)Ljava/lang/String;
 
@@ -240,7 +240,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f120e17
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_address_telephone_warnning:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -275,7 +275,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f120e15
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_address_postal_warnning:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120e1a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_address_warnning:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -549,7 +549,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06dd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_address:I
 
     const/4 v2, 0x0
 
@@ -559,7 +559,7 @@
 
     iput-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b100a
+    sget v1, Lcom/resouce/module/ResID;->home_account_address_personname:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -573,7 +573,7 @@
     .line 4
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1014
+    sget v1, Lcom/resouce/module/ResID;->home_account_address_telephone:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -586,7 +586,7 @@
     .line 5
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b100d
+    sget v1, Lcom/resouce/module/ResID;->home_account_address_place_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -599,7 +599,7 @@
     .line 6
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1011
+    sget v1, Lcom/resouce/module/ResID;->home_account_address_place_postalcode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -632,7 +632,7 @@
     .line 11
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b100e
+    sget v1, Lcom/resouce/module/ResID;->home_account_address_place_detail_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -643,7 +643,7 @@
     .line 12
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1064
+    sget v1, Lcom/resouce/module/ResID;->home_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -654,7 +654,7 @@
     .line 13
     iget-object v0, p0, Las7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b27ae
+    sget v1, Lcom/resouce/module/ResID;->quick_setting_complete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -680,7 +680,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e10
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_address:I
 
     return v0
 .end method
@@ -693,7 +693,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b100e
+    sget v0, Lcom/resouce/module/ResID;->home_account_address_place_detail_group:I
 
     if-ne p1, v0, :cond_0
 
@@ -705,7 +705,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b27ae
+    sget v0, Lcom/resouce/module/ResID;->quick_setting_complete:I
 
     if-ne p1, v0, :cond_1
 

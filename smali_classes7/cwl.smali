@@ -689,12 +689,12 @@
 
     if-eqz v0, :cond_2
 
-    const v3, 0x7f0e0a1d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_of_contents:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f0e1103
+    sget v3, Lcom/resouce/module/ResLAYOUT;->writer_table_of_contents:I
 
     :goto_1
     const/4 v4, 0x0
@@ -706,7 +706,7 @@
 
     iput-object v2, p0, Lcwl;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0850
+    sget v3, Lcom/resouce/module/ResID;->empty:I
 
     .line 10
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -723,7 +723,7 @@
     .line 12
     iget-object v2, p0, Lcwl;->b:Landroid/view/View;
 
-    const v3, 0x7f0b2538
+    sget v3, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -734,7 +734,7 @@
     .line 13
     iget-object v2, p0, Lcwl;->b:Landroid/view/View;
 
-    const v3, 0x7f0b1632
+    sget v3, Lcom/resouce/module/ResID;->listview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -761,7 +761,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0e089f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_listview_padding_header_footer:I
 
     .line 16
     invoke-virtual {v1, v0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -802,7 +802,7 @@
     .line 21
     iget-object v0, p0, Lcwl;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2191
+    sget v1, Lcom/resouce/module/ResID;->phone_switch_navigation_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -813,7 +813,7 @@
     .line 22
     iget-object v0, p0, Lcwl;->b:Landroid/view/View;
 
-    const v1, 0x7f0b339c
+    sget v1, Lcom/resouce/module/ResID;->view_gray:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -824,7 +824,7 @@
     .line 23
     iget-object v0, p0, Lcwl;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2192
+    sget v1, Lcom/resouce/module/ResID;->phone_switch_parent_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -999,7 +999,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b1627
+    sget v0, Lcom/resouce/module/ResID;->list_gap:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

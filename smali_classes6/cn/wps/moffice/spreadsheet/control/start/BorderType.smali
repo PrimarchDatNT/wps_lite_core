@@ -60,37 +60,37 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f08044e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame1:I
 
     aput v3, v1, v2
 
     const/4 v4, 0x1
 
-    const v5, 0x7f08044f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame2:I
 
     aput v5, v1, v4
 
     const/4 v6, 0x2
 
-    const v7, 0x7f08044d
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame:I
 
     aput v7, v1, v6
 
     const/4 v8, 0x3
 
-    const v9, 0x7f080450
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame3:I
 
     aput v9, v1, v8
 
     const/4 v10, 0x4
 
-    const v11, 0x7f080452
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame5:I
 
     aput v11, v1, v10
 
     const/4 v12, 0x5
 
-    const v13, 0x7f080233
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     aput v13, v1, v12
 
@@ -111,29 +111,29 @@
 
     aput v11, v1, v10
 
-    const v2, 0x7f080451
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame4:I
 
     aput v2, v1, v12
 
-    const v2, 0x7f080453
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame6:I
 
     aput v2, v1, v0
 
     const/4 v0, 0x7
 
-    const v2, 0x7f080454
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame7:I
 
     aput v2, v1, v0
 
     const/16 v0, 0x8
 
-    const v2, 0x7f080455
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame8:I
 
     aput v2, v1, v0
 
     const/16 v0, 0x9
 
-    const v2, 0x7f080456
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame9:I
 
     aput v2, v1, v0
 
@@ -299,7 +299,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -309,7 +309,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b20fd
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,11 +318,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122786
+    sget v1, Lcom/resouce/module/ResSTRING;->public_quickstyle_shape_outline:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b20fc
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -399,7 +399,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b2ce8
+    sget v0, Lcom/resouce/module/ResID;->ss_colorfilterImageView_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

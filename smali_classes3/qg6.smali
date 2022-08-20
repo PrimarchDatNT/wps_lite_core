@@ -558,7 +558,7 @@
     :cond_1
     iget-object v0, p0, Lqg6;->S:Landroid/app/Activity;
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -994,7 +994,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06ec
+    sget v0, Lcom/resouce/module/ResID;->dlg_opt_pay_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -1027,7 +1027,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121119
+    sget v1, Lcom/resouce/module/ResSTRING;->home_roaming_login_faied_and_tip_try:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1393,7 +1393,7 @@
 
     iput-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0eb5
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pdf_payments_list:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1407,7 +1407,7 @@
     .line 3
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b06ec
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_pay_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1420,7 +1420,7 @@
     .line 4
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1d17
+    sget v1, Lcom/resouce/module/ResID;->pay_button_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1437,7 +1437,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a08
+    sget v1, Lcom/resouce/module/ResSTRING;->pickerview_day:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1452,7 +1452,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c9b
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1467,7 +1467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ada
+    sget v1, Lcom/resouce/module/ResSTRING;->public_three_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1494,7 +1494,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c9c
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

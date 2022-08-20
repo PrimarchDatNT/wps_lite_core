@@ -115,7 +115,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070781
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_bottomtool_bar_rom_shadow_height:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

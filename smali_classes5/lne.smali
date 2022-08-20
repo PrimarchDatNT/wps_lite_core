@@ -142,7 +142,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/beans/FontSizeView;->S:Landroid/widget/Button;
 
-    const v0, 0x7f121982
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -272,7 +272,7 @@
 
     move-result p1
 
-    const v0, 0x7f121982
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     if-eqz p1, :cond_2
 

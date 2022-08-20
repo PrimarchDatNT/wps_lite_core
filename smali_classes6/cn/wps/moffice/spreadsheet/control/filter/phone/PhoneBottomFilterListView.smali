@@ -215,7 +215,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->n0:Landroid/widget/TextView;
 
-    const v2, 0x7f120896
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_no_search_result:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -381,7 +381,7 @@
 .method public h(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e0965
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_filterlist_buttom:I
 
     const/4 v1, 0x1
 
@@ -411,7 +411,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -468,7 +468,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a48
+    sget v1, Lcom/resouce/module/ResID;->et_filter_circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->q0:Landroid/view/View;
 
-    const v0, 0x7f0b0a4f
+    sget v0, Lcom/resouce/module/ResID;->et_filter_hide:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -492,7 +492,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0a47
+    sget v0, Lcom/resouce/module/ResID;->et_filter_cancel:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -508,7 +508,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0a56
+    sget v0, Lcom/resouce/module/ResID;->et_filter_title:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ae5
+    sget v0, Lcom/resouce/module/ResID;->select_all_filter_items:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -545,7 +545,7 @@
     invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatTextView;->setAutoSizeTextTypeWithDefaults(I)V
 
     :cond_1
-    const v0, 0x7f0b0a4b
+    sget v0, Lcom/resouce/module/ResID;->et_filter_done:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -554,7 +554,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b0a4c
+    sget v0, Lcom/resouce/module/ResID;->et_filter_empty_hint:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0a50
+    sget v0, Lcom/resouce/module/ResID;->et_filter_list:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
     .line 18
     invoke-virtual {p1, v1}, Landroid/widget/ListView;->setDividerHeight(I)V
 
-    const p1, 0x7f0b0d78
+    sget p1, Lcom/resouce/module/ResID;->filter_search_layout:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -671,7 +671,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f060035
+    sget p3, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -690,7 +690,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->n0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -744,7 +744,7 @@
 .method public updateView()V
     .locals 3
 
-    const v0, 0x7f0b0d79
+    sget v0, Lcom/resouce/module/ResID;->filter_search_tv:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b339a
+    sget v0, Lcom/resouce/module/ResID;->view_div:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -792,7 +792,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0c06
+    sget v0, Lcom/resouce/module/ResID;->export_btn:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lat2$b;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x0
 

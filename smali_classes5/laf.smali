@@ -43,7 +43,7 @@
 
     invoke-direct {v2}, Lem3;-><init>()V
 
-    const v3, 0x7f122c05
+    sget v3, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -62,7 +62,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0818b7
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_whatsapp:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -78,7 +78,7 @@
 
     invoke-direct {v2}, Lem3;-><init>()V
 
-    const v3, 0x7f1224c5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0818af
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f2c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_invite_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

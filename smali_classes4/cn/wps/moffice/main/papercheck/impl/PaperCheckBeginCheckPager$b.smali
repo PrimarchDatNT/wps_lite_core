@@ -95,7 +95,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1215e4    # 1.9418095E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_engine_paper_name_too_short_tip:I    # 1.9418095E38f
 
     const/4 v3, 0x1
 

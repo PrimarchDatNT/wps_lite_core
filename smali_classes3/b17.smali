@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1224ea
+    sget v2, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_tab_fail_letter_chain:I
 
     new-array v3, v1, [Ljava/lang/Object;
 

@@ -173,7 +173,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e0ad2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_slidemasters_item:I
 
     return v0
 .end method
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ad0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_slidelayouts_dialog:I
 
     const/4 v2, 0x0
 
@@ -198,7 +198,7 @@
 
     iput-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b242f
+    sget v1, Lcom/resouce/module/ResID;->ppt_slideLayouts_scroll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
     .line 4
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22aa
+    sget v1, Lcom/resouce/module/ResID;->ppt_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
     .line 6
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b242e
+    sget v1, Lcom/resouce/module/ResID;->ppt_slideLayouts_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -253,11 +253,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02ca
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_select_can_slim_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b2a05
+    sget p1, Lcom/resouce/module/ResID;->scan_file_lv:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->T:Landroid/widget/ListView;
 
-    const p1, 0x7f0b2a07
+    sget p1, Lcom/resouce/module/ResID;->scan_file_result_text_tv:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->S:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2c3a
+    sget p1, Lcom/resouce/module/ResID;->slim_file_btn:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->V:Landroid/view/View;
 
-    const p1, 0x7f0b2aef
+    sget p1, Lcom/resouce/module/ResID;->select_file_btn:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -299,7 +299,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->W:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b03cb
+    sget p1, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -310,7 +310,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->a0:Landroid/widget/CheckBox;
 
-    const p1, 0x7f0b1857
+    sget p1, Lcom/resouce/module/ResID;->membership_banner_view:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->b0:Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;
 
-    const p1, 0x7f0b01ba
+    sget p1, Lcom/resouce/module/ResID;->back_btn:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -332,7 +332,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;->d0:Lcn/wps/moffice/main/common/viewcontrols/BackIconTitleBar;
 
-    const p1, 0x7f0b03cf
+    sget p1, Lcom/resouce/module/ResID;->checkbox_text:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -350,7 +350,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12215b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -363,7 +363,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12215c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file_path:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -456,13 +456,13 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f12226a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_guide_file_reducing_desc:I
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f0601a5
+    sget v5, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v6, 0x7f080729
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_reduce:I
 
     if-eqz v0, :cond_3
 
@@ -794,7 +794,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2a06
+    sget v0, Lcom/resouce/module/ResID;->scan_file_result_text_divider:I
 
     const/4 v1, 0x0
 
@@ -817,7 +817,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121d84
+    sget v3, Lcom/resouce/module/ResSTRING;->public_batch_slim_can_slim_file_result:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -934,7 +934,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d96
+    sget v1, Lcom/resouce/module/ResSTRING;->public_batch_slim_scan_file_no_select:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

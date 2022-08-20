@@ -101,7 +101,7 @@
     :goto_0
     iget-object p1, p0, Ltx6$b;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f120263
+    sget v0, Lcom/resouce/module/ResSTRING;->class_help_tip1:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -142,7 +142,7 @@
     :goto_1
     iget-object p1, p0, Ltx6$b;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f120264
+    sget v0, Lcom/resouce/module/ResSTRING;->class_help_tip2:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

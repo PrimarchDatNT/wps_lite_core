@@ -98,7 +98,7 @@
     :cond_1
     iget-object v0, p0, Ljg5$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f121fd8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_disk_analysis_save_or_share_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

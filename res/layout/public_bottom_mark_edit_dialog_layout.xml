@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:layout_width="fill_parent" android:layout_height="70.0dip">
-        <EditText android:id="@id/mark_edit" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/public_bottom_mark_desc_hint" />
-    </ScrollView>
-    <TextView android:id="@id/mark_length_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="1" style="@style/phone_public_font_s_gray" />
-</LinearLayout>

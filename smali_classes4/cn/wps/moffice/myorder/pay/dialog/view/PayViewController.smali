@@ -412,27 +412,27 @@
     goto :goto_0
 
     :pswitch_0
-    const p1, 0x7f0810f5
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f0810f8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_font:I
 
     goto :goto_0
 
     :pswitch_2
-    const p1, 0x7f0810fc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
     goto :goto_0
 
     :pswitch_3
-    const p1, 0x7f0810fe
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_template_privilege:I
 
     goto :goto_0
 
     :pswitch_4
-    const p1, 0x7f0806f1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
     :goto_0
     return p1
@@ -454,7 +454,7 @@
 .method private initView(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b0fb9
+    sget v0, Lcom/resouce/module/ResID;->header_tips_container:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -465,7 +465,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mHeaderTipsContainer:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0fba
+    sget v0, Lcom/resouce/module/ResID;->header_tips_info:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mHeaderTipsInfo:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fb3
+    sget v0, Lcom/resouce/module/ResID;->header_divider_view:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,7 +485,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mHeadrDividerView:Landroid/view/View;
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mProgress:Landroid/view/View;
 
-    const v0, 0x7f0b1289
+    sget v0, Lcom/resouce/module/ResID;->image_pay_icon:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mImagePayIcon:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b128a
+    sget v0, Lcom/resouce/module/ResID;->image_pay_icon_base:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -516,7 +516,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mImagePayIconBase:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2f25
+    sget v0, Lcom/resouce/module/ResID;->text_pay_title:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -527,7 +527,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mTextPayTitle:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1288
+    sget v0, Lcom/resouce/module/ResID;->image_pay_close:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -538,7 +538,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mImagePayClose:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b27bd
+    sget v0, Lcom/resouce/module/ResID;->radio_group:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -549,7 +549,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mRadioGroup:Landroid/widget/RadioGroup;
 
-    const v0, 0x7f0b2f28
+    sget v0, Lcom/resouce/module/ResID;->text_payment_expiry_date_layout:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mExpiryDateLayout:Landroid/view/View;
 
-    const v0, 0x7f0b2f27
+    sget v0, Lcom/resouce/module/ResID;->text_payment_expiry_date:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mTextExpiryDate:Landroid/widget/TextView;
 
-    const v0, 0x7f0b155e
+    sget v0, Lcom/resouce/module/ResID;->layout_payment_mode:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mLayoutPaymentMode:Landroid/view/View;
 
-    const v0, 0x7f0b2f29
+    sget v0, Lcom/resouce/module/ResID;->text_payment_mode:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -589,7 +589,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mTextPaymentMode:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2f2b
+    sget v0, Lcom/resouce/module/ResID;->text_payment_select_iv:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mArrowIv:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2f2e
+    sget v0, Lcom/resouce/module/ResID;->text_price:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mTextPrice:Landroid/widget/TextView;
 
-    const v0, 0x7f0b031f
+    sget v0, Lcom/resouce/module/ResID;->button_confirm:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mButtonConfirm:Landroid/view/View;
 
-    const v0, 0x7f0b031e
+    sget v0, Lcom/resouce/module/ResID;->button_charge:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mButtonCharge:Landroid/widget/Button;
 
-    const v0, 0x7f0b1637
+    sget v0, Lcom/resouce/module/ResID;->listview_payment_mode:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mListviewPaymentMode:Landroid/widget/ListView;
 
-    const v0, 0x7f0b155d
+    sget v0, Lcom/resouce/module/ResID;->layout_pay:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -651,7 +651,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mLayoutPay:Landroid/view/View;
 
-    const v0, 0x7f0b1573
+    sget v0, Lcom/resouce/module/ResID;->layout_select_payment_mode:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -660,7 +660,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mLayoutSelectPaymentMode:Landroid/view/View;
 
-    const v0, 0x7f0b1538
+    sget v0, Lcom/resouce/module/ResID;->layout_back:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -669,7 +669,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mLayoutBack:Landroid/view/View;
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -678,7 +678,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mDivider:Landroid/view/View;
 
-    const v0, 0x7f0b1845
+    sget v0, Lcom/resouce/module/ResID;->member_desc_text:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -689,7 +689,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mNavGationTips:Landroid/widget/TextView;
 
-    const v0, 0x7f0b19ca
+    sget v0, Lcom/resouce/module/ResID;->navgation_open_flag_container:I
 
     .line 24
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -698,7 +698,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mNavgationContainer:Landroid/view/View;
 
-    const v0, 0x7f0b330c
+    sget v0, Lcom/resouce/module/ResID;->upgrade_switch:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -709,7 +709,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mUpgradeSwitch:Landroid/widget/CompoundButton;
 
-    const v0, 0x7f0b19cc
+    sget v0, Lcom/resouce/module/ResID;->navgation_txt:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -720,7 +720,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mNavgationTxt:Landroid/widget/TextView;
 
-    const v0, 0x7f0b19cb
+    sget v0, Lcom/resouce/module/ResID;->navgation_tips_diver:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -835,7 +835,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/myorder/pay/dialog/view/PayViewController;->mAct:Landroid/app/Activity;
 
-    const v2, 0x7f122c24
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -888,13 +888,13 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f080886
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     goto :goto_2
 
     :cond_3
     :goto_1
-    const v1, 0x7f0810fa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_icon_base:I
 
     .line 49
     :goto_2
@@ -1156,7 +1156,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1288
+    sget v0, Lcom/resouce/module/ResID;->image_pay_close:I
 
     if-ne p1, v0, :cond_0
 
@@ -1171,7 +1171,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b155e
+    sget v0, Lcom/resouce/module/ResID;->layout_payment_mode:I
 
     if-ne p1, v0, :cond_1
 
@@ -1213,7 +1213,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1538
+    sget v0, Lcom/resouce/module/ResID;->layout_back:I
 
     if-ne p1, v0, :cond_2
 
@@ -1227,7 +1227,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b031f
+    sget v0, Lcom/resouce/module/ResID;->button_confirm:I
 
     if-ne p1, v0, :cond_3
 

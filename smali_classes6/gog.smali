@@ -276,7 +276,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e01e8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_export_card_list_item:I
 
     const/4 v1, 0x0
 

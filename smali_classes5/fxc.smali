@@ -134,7 +134,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -195,7 +195,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0602cd
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {v0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -326,7 +326,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ff0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_bottombar:I
 
     return v0
 .end method
@@ -506,7 +506,7 @@
     .line 6
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2991
+    sget v2, Lcom/resouce/module/ResID;->rom_layout_stub:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

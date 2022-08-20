@@ -187,7 +187,7 @@
 
     if-nez p1, :cond_1
 
-    const p0, 0x7f1206b9
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 4
     invoke-static {p2, p0, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -249,31 +249,31 @@
     .line 9
     invoke-virtual {p1}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f122bdf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 10
     invoke-virtual {p1, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f121154
+    sget v0, Lcom/resouce/module/ResSTRING;->home_share_panel_file_upload_tips:I
 
     .line 11
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
     .line 12
     invoke-virtual {p1, v0, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 13
     invoke-virtual {p2}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -427,7 +427,7 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 13
     invoke-static {p0, p1, v3}, Lbih;->n(Landroid/content/Context;II)V

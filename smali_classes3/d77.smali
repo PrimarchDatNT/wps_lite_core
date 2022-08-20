@@ -36,9 +36,9 @@
 .method public b(Le37;)Ldi9$f;
     .locals 1
 
-    const p1, 0x7f080221
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v0, 0x7f121fbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete_group:I
 
     .line 1
     invoke-static {p1, v0}, Ldi9;->t(II)Ldi9$f;

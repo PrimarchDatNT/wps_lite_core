@@ -69,15 +69,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08048e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_slimmer:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e87
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_file_slimmer_ppt:I
 
     :goto_0
-    const v2, 0x7f122266
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-direct {v0, p0, v1, v2}, Lble$d;-><init>(Lble;II)V
 
@@ -315,7 +315,7 @@
     :goto_0
     iget-object p1, p0, Lble;->B:Landroid/app/Activity;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 

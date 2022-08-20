@@ -90,7 +90,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b0a14
+    sget v1, Lcom/resouce/module/ResID;->et_edit_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b0ac3
+    sget v1, Lcom/resouce/module/ResID;->et_new_cell_edit_text:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

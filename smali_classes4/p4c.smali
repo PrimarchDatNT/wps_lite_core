@@ -127,7 +127,7 @@
 
     invoke-virtual {v0, p0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     new-instance p1, Lp4c$a;
@@ -136,14 +136,14 @@
 
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122ec8
+    sget p0, Lcom/resouce/module/ResSTRING;->send_to_desktop:I
 
     .line 6
     invoke-virtual {v1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -169,7 +169,7 @@
     :cond_0
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 p1, 0x0
 

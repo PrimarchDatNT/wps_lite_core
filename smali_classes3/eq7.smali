@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1201e7
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_field_empty_toast:I
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1201fe
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_start_number_over_size_toast:I
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -173,7 +173,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1201e7
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_field_empty_toast:I
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -256,7 +256,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1201fe
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_start_number_over_size_toast:I
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -682,7 +682,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f1201f2
+    sget p1, Lcom/resouce/module/ResSTRING;->batch_rename_file_list_rename_label:I
 
     .line 2
     iget-object v0, p0, Lx43;->I:Ly43;
@@ -723,7 +723,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f1201f3
+    sget p1, Lcom/resouce/module/ResSTRING;->batch_rename_file_list_start_number_label:I
 
     .line 2
     iget-object v0, p0, Lx43;->I:Ly43;
@@ -764,7 +764,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f1201f0
+    sget p1, Lcom/resouce/module/ResSTRING;->batch_rename_file_list_interval_number_label:I
 
     .line 2
     iget-object v0, p0, Lx43;->I:Ly43;
@@ -820,7 +820,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1201f4
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_name_is_invalid:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -970,7 +970,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f0e029e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_batch_rename:I
 
     return v0
 .end method
@@ -1118,7 +1118,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1201ff
+    sget v2, Lcom/resouce/module/ResSTRING;->batch_rename_file_title:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -1397,7 +1397,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e5b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_simple_edit_text:I
 
     const/4 v3, 0x0
 
@@ -1416,7 +1416,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b1330
+    sget v0, Lcom/resouce/module/ResID;->inputEditText:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1486,14 +1486,14 @@
     .line 17
     invoke-virtual {v1, p3, v3, p2, v2}, Lhd3;->setContentVewPadding(IIII)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 18
     sget-object p3, Lqp7;->B:Lqp7;
 
     invoke-virtual {v1, p2, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 19
     new-instance p3, Lvp7;
@@ -1536,12 +1536,12 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1201f9
+    sget v1, Lcom/resouce/module/ResSTRING;->batch_rename_file_remove_item_dialog_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1201f8
+    sget v1, Lcom/resouce/module/ResSTRING;->batch_rename_file_remove_item_dialog_desc:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1551,14 +1551,14 @@
 
     invoke-direct {v1, p0, p1}, Lgp7;-><init>(Leq7;Lcn/wps/moffice/main/cloud/process/data/entity/RenameFile;)V
 
-    const p1, 0x7f121f40
+    sget p1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 5
     sget-object p1, Lyp7;->B:Lyp7;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1634,7 +1634,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f1201fc
+    sget v3, Lcom/resouce/module/ResSTRING;->batch_rename_file_rename_file_success_dialog_title:I
 
     invoke-virtual {p0, v3, v2}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1646,7 +1646,7 @@
 
     aput-object p1, v1, v4
 
-    const v2, 0x7f1201fa
+    sget v2, Lcom/resouce/module/ResSTRING;->batch_rename_file_rename_file_success_dialog_desc:I
 
     .line 3
     invoke-virtual {p0, v2, v1}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -1660,7 +1660,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1671,14 +1671,14 @@
 
     invoke-direct {v2, p0, p1}, Lkp7;-><init>(Leq7;Ljava/lang/String;)V
 
-    const p1, 0x7f1201fb
+    sget p1, Lcom/resouce/module/ResSTRING;->batch_rename_file_rename_file_success_dialog_ok:I
 
     invoke-virtual {v0, p1, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 6
     sget-object p1, Llp7;->B:Llp7;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

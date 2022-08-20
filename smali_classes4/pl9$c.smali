@@ -73,12 +73,12 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f12213b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_radar_close_suggest:I
 
     .line 3
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     new-instance v1, Lpl9$c$a;
@@ -87,7 +87,7 @@
 
     invoke-virtual {p1, v0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121fd7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_disable:I
 
     .line 5
     new-instance v1, Lpl9$c$b;

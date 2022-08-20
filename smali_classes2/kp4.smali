@@ -39,7 +39,7 @@
     .line 3
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121eb0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_secret_file_size_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -59,7 +59,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121eaf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_secret_file_size_limit_cant_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -86,7 +86,7 @@
     .line 6
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121eb3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_secret_space_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -106,7 +106,7 @@
     :cond_2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121eb2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_secret_space_limit_cant_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ed5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -148,7 +148,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121e4a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_file_size_out_of_limit:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

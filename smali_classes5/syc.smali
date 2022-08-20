@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f08075e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_extract:I
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v4, 0x7f121050
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_extract:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

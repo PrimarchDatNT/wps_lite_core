@@ -612,7 +612,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0422
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_rootview:I
 
     const/4 v2, 0x0
 
@@ -622,7 +622,7 @@
 
     iput-object v0, p0, Lqj6;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1a77
+    sget v1, Lcom/resouce/module/ResID;->novelRecyclerView:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

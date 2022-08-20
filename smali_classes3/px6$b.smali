@@ -79,7 +79,7 @@
     :try_start_0
     iget-object p1, p0, Lpx6$b;->I:Landroid/app/Activity;
 
-    const v0, 0x7f120271
+    sget v0, Lcom/resouce/module/ResSTRING;->class_title_home_work_list:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
     :cond_0
     iget-object p1, p0, Lpx6$b;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1229ee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shortcut_install_success:I
 
     const/4 v2, 0x1
 

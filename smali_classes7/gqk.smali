@@ -348,57 +348,57 @@
 
     packed-switch v0, :pswitch_data_0
 
-    const v0, 0x7f120385
+    sget v0, Lcom/resouce/module/ResSTRING;->dialog_clickable_on_disable_for_title_prefix_default:I
 
     goto :goto_0
 
     :pswitch_0
-    const v0, 0x7f123421
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_square_wrap:I
 
     goto :goto_0
 
     :pswitch_1
-    const v0, 0x7f122ba0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vertical_blank_page:I
 
     goto :goto_0
 
     :pswitch_2
-    const v0, 0x7f12232a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_horizontal_blank_page:I
 
     goto :goto_0
 
     :pswitch_3
-    const v0, 0x7f1232b4
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_end_note:I
 
     goto :goto_0
 
     :pswitch_4
-    const v0, 0x7f1232ed
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_foot_note:I
 
     goto :goto_0
 
     :pswitch_5
-    const v0, 0x7f1232f2
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_headerfooter:I
 
     goto :goto_0
 
     :pswitch_6
-    const v0, 0x7f1232a6
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_domain_page:I
 
     goto :goto_0
 
     :pswitch_7
-    const v0, 0x7f123271
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_blank_page:I
 
     goto :goto_0
 
     :pswitch_8
-    const v0, 0x7f12236f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     goto :goto_0
 
     :pswitch_9
-    const v0, 0x7f1226b6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print:I
 
     :goto_0
     if-eqz v0, :cond_0

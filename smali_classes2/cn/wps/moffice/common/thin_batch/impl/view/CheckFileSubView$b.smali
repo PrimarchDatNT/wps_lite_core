@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121d90
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_file:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

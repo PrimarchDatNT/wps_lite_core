@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/path_gallery" layout="@layout/phone_home_path_gallery" />
-    <View android:layout_below="@id/path_gallery" style="@style/home_underline_style" />
-</RelativeLayout>

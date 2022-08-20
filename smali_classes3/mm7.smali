@@ -57,11 +57,11 @@
 
     const-string v2, "#FF535252"
 
-    const v3, 0x7f0b2e23
+    sget v3, Lcom/resouce/module/ResID;->tab_group:I
 
     const-string v4, "#FFEA5035"
 
-    const v5, 0x7f0b2e26
+    sget v5, Lcom/resouce/module/ResID;->tab_members:I
 
     if-eqz p1, :cond_0
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02eb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_cloud_group_main_layout:I
 
     const/4 v2, 0x0
 
@@ -357,7 +357,7 @@
 
     iput-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b32e3
+    sget v1, Lcom/resouce/module/ResID;->under_title_tab_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
     .line 4
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0263
+    sget v1, Lcom/resouce/module/ResID;->bottom_line_tab_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -382,7 +382,7 @@
     .line 5
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0264
+    sget v1, Lcom/resouce/module/ResID;->bottom_line_tab_members:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -393,7 +393,7 @@
     .line 6
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0307
+    sget v1, Lcom/resouce/module/ResID;->btn_tab_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
     .line 7
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0308
+    sget v1, Lcom/resouce/module/ResID;->btn_tab_members:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
     .line 8
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2e23
+    sget v1, Lcom/resouce/module/ResID;->tab_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
     .line 9
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2e26
+    sget v1, Lcom/resouce/module/ResID;->tab_members:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -437,7 +437,7 @@
     .line 10
     iget-object v0, p0, Lmm7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c6e
+    sget v1, Lcom/resouce/module/ResID;->page_list_view_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2e23
+    sget v0, Lcom/resouce/module/ResID;->tab_group:I
 
     if-ne p1, v0, :cond_1
 
@@ -556,7 +556,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2e26
+    sget v0, Lcom/resouce/module/ResID;->tab_members:I
 
     if-ne p1, v0, :cond_3
 

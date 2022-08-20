@@ -571,7 +571,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0afa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->preview_scanner_sign_display:I
 
     const/4 v2, 0x0
 
@@ -612,7 +612,7 @@
 
     iput-object p1, p0, Lp1b;->k0:Landroid/graphics/Bitmap;
 
-    const p1, 0x7f0b143f
+    sget p1, Lcom/resouce/module/ResID;->iv_display:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -625,7 +625,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    const p1, 0x7f0b3115
+    sget p1, Lcom/resouce/module/ResID;->tv_cancel:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -634,7 +634,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b3204
+    sget p1, Lcom/resouce/module/ResID;->tv_ok:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -659,7 +659,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3115
+    sget v0, Lcom/resouce/module/ResID;->tv_cancel:I
 
     if-ne p1, v0, :cond_0
 
@@ -695,7 +695,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b3204
+    sget v0, Lcom/resouce/module/ResID;->tv_ok:I
 
     if-ne p1, v0, :cond_1
 

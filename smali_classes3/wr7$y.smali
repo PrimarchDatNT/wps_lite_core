@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120059
+    sget v0, Lcom/resouce/module/ResSTRING;->account_update_nickname_net_error:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -202,7 +202,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12005a
+    sget v1, Lcom/resouce/module/ResSTRING;->account_update_nickname_server_failed:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -231,7 +231,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12005c
+    sget v1, Lcom/resouce/module/ResSTRING;->account_update_nickname_too_long:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -249,7 +249,7 @@
 
     move-result v1
 
-    const v2, 0x7f1224d3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_modify_failed_retry_tip:I
 
     if-eqz v1, :cond_4
 
@@ -449,7 +449,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120059
+    sget v0, Lcom/resouce/module/ResSTRING;->account_update_nickname_net_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

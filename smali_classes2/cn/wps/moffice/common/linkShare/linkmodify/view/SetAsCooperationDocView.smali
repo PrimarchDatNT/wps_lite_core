@@ -131,12 +131,12 @@
 .method public final z(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f0e046b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_set_as_cooperation_doc:I
 
     .line 1
     invoke-static {p1, v0, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b14c0
+    sget p1, Lcom/resouce/module/ResID;->iv_set_as_cooperation_docs_tip:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b29f9
+    sget p1, Lcom/resouce/module/ResID;->sc_open_cooperation_doc:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

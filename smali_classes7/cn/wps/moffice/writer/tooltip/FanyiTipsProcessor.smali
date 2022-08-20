@@ -218,12 +218,12 @@
 
     if-eqz p1, :cond_3
 
-    const v1, 0x7f120ced
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_tip_en2cn:I
 
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f120cec
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_tip_cn2en:I
 
     :goto_2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -239,7 +239,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120ce9
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_start:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

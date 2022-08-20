@@ -75,7 +75,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/bridges/bridge/PayBridge$j;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12114a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_sdk_pay_fail:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

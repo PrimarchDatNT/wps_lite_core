@@ -70,7 +70,7 @@
 
     iput-object p2, p0, Lmid;->B:Lvcd;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-static {p1}, Ltid;->c(I)Ljava/lang/String;
@@ -182,7 +182,7 @@
     .line 1
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121720
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_title:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
     .line 2
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f12171f
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_tips:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -204,13 +204,13 @@
     .line 3
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f12171e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_ok:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0600e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     .line 4
     invoke-static {v2}, Ltid;->a(I)I
@@ -259,11 +259,11 @@
 
     if-eqz p3, :cond_0
 
-    const p1, 0x7f121752
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback_interruptederr_msg:I
 
     const/4 p1, 0x0
 
-    const p3, 0x7f121752
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback_interruptederr_msg:I
 
     goto :goto_1
 
@@ -277,20 +277,20 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f12175a
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_neterr_title:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12250d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     :goto_0
-    const p3, 0x7f121759
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_neterr_msg:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f121732
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_error_title:I
 
     if-eqz p2, :cond_4
 
@@ -305,17 +305,17 @@
 
     if-ne p3, v1, :cond_3
 
-    const p3, 0x7f12171a
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_cad2pdf_business_err_msg:I
 
     goto :goto_1
 
     :cond_3
-    const p3, 0x7f12174d
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_business_err_msg:I
 
     goto :goto_1
 
     :cond_4
-    const p3, 0x7f121731
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_error_dialog_tips:I
 
     .line 5
     :goto_1
@@ -352,7 +352,7 @@
     .line 8
     iget-object p1, p0, Lmid;->B:Lvcd;
 
-    const p2, 0x7f121757
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     invoke-static {p2}, Ltid;->c(I)Ljava/lang/String;
 
@@ -383,7 +383,7 @@
     .line 10
     iget-object p1, p0, Lmid;->B:Lvcd;
 
-    const p2, 0x7f121751
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback:I
 
     invoke-static {p2}, Ltid;->c(I)Ljava/lang/String;
 
@@ -399,13 +399,13 @@
     :cond_6
     iget-object p1, p0, Lmid;->B:Lvcd;
 
-    const p2, 0x7f121bdb
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-static {p2}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object p2
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 12
     invoke-static {p3}, Ltid;->a(I)I
@@ -451,7 +451,7 @@
     .line 2
     iput-boolean v0, p0, Lmid;->U:Z
 
-    const v0, 0x7f12171d
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_delete_err_title:I
 
     .line 3
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -466,13 +466,13 @@
     .line 5
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 6
     invoke-static {v2}, Ltid;->a(I)I
@@ -495,7 +495,7 @@
     .line 1
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121722
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_title:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -517,7 +517,7 @@
     .line 3
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121721
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_tips:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -528,7 +528,7 @@
     .line 4
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121757
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -568,7 +568,7 @@
     .line 1
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121729
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_time_err_title:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -579,7 +579,7 @@
     .line 2
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f121728
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_time_err_tips:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -590,13 +590,13 @@
     .line 3
     iget-object v0, p0, Lmid;->B:Lvcd;
 
-    const v1, 0x7f1225af
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_platform_permission_shortcut_tips_ok:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0600e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     .line 4
     invoke-static {v2}, Ltid;->a(I)I
@@ -645,12 +645,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1218ae
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_preview_network_fail:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121930
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_web_preview_fail:I
 
     .line 3
     :goto_0
@@ -665,7 +665,7 @@
     .line 4
     iget-object p1, p0, Lmid;->B:Lvcd;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
 

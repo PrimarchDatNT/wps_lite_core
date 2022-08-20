@@ -86,11 +86,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2770
+    sget v1, Lcom/resouce/module/ResID;->public_wpsdrive_item_first_title:I
 
     invoke-virtual {p1, v1, v0}, Lks3;->S(ILjava/lang/String;)V
 
-    const v0, 0x7f0b2771
+    sget v0, Lcom/resouce/module/ResID;->public_wpsdrive_item_second_title:I
 
     .line 4
     iget-object v2, p2, Lro7$f;->b:Ljava/lang/String;
@@ -108,12 +108,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 6
     :goto_0
@@ -141,12 +141,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0ebe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_wpsdrive_common_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0ebf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_wpsdrive_common_item_layout_oversea:I
 
     :goto_0
     const/4 v1, 0x0

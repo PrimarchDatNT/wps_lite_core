@@ -227,7 +227,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0708d0
+    sget v6, Lcom/resouce/module/ResDIMEN;->pickerview_textsize:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -22,7 +22,7 @@
     .line 2
     iput-object p1, p0, Lkk6;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b18dc
+    sget v0, Lcom/resouce/module/ResID;->moreCategory:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

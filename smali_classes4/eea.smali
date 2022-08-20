@@ -500,7 +500,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -519,7 +519,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -538,7 +538,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -753,7 +753,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120f99
+    sget p1, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     .line 15
     invoke-static {p0, p1, v2}, Lbih;->p(Landroid/content/Context;II)V

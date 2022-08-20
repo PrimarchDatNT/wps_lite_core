@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lkqb$a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12275a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unsupport_reasons:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -77,7 +77,7 @@
 
     iget-object v2, p0, Lkqb$a;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12274c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_purchase_market_unsupport:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/public_round_rect_gray_bg_4dp_1px" />
-    <item android:drawable="?android:selectableItemBackgroundBorderless" />
-</layer-list>

@@ -94,7 +94,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e03a0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_secret_other_phone_activity:I
 
     return v0
 .end method
@@ -144,9 +144,9 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/SecretOtherPhoneActivity$a;-><init>(Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/SecretOtherPhoneActivity;)V
 
-    const v1, 0x7f1228cc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_set_encrypt_phone:I
 
-    const v2, 0x7f122789
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quit_open_msg:I
 
     invoke-static {p0, v1, v2, v0}, Lhd7;->c(Landroid/app/Activity;IILjava/lang/Runnable;)V
 
@@ -161,7 +161,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b301f
+    sget v1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne v0, v1, :cond_0
 
@@ -196,7 +196,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v0, 0x7f1228cc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_set_encrypt_phone:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

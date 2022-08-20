@@ -162,7 +162,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0d1a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_new_folder_dialog:I
 
     const/4 v3, 0x0
 
@@ -173,7 +173,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;->g:Landroid/view/View;
 
-    const v1, 0x7f0b0e09
+    sget v1, Lcom/resouce/module/ResID;->folder_name:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;->g:Landroid/view/View;
 
-    const v1, 0x7f0b08b6
+    sget v1, Lcom/resouce/module/ResID;->error_info:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -221,7 +221,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;->a:Lhd3;
 
-    const v1, 0x7f12250f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -239,7 +239,7 @@
 
     invoke-direct {v1, p0, p1}, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper$d;-><init>(Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -249,7 +249,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper$c;-><init>(Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -351,7 +351,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewFolderHelper;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

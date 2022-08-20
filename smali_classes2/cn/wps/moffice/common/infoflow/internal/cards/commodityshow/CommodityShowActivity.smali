@@ -162,7 +162,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1230aa
+    sget v0, Lcom/resouce/module/ResSTRING;->template_section_like:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

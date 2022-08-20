@@ -27,15 +27,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01bc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_error_lines:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0941
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_error_lines:I
 
     :goto_0
-    const v1, 0x7f12077d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_error_lines:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -69,7 +69,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095e
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_error_lines:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -82,7 +82,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b093e
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_error_lines_type_spinner:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
     .line 9
     iget-object p1, p0, Lwpf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f120790
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_error_lines:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -115,7 +115,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120796
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_standard_error_lines:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1207c6
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_percentage:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120795
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_standard_deviation:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -172,7 +172,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12077f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_fixed_value:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -192,7 +192,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e0250
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     iget-object v3, p0, Lwpf;->g0:[Ljava/lang/String;
 
@@ -210,7 +210,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e099d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v3, p0, Lwpf;->g0:[Ljava/lang/String;
 
@@ -319,7 +319,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b095e
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_error_lines:I
 
     if-ne v0, p1, :cond_1
 

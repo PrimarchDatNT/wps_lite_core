@@ -451,7 +451,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2b52
+    sget v1, Lcom/resouce/module/ResID;->share_auth_setting_layout:I
 
     if-ne v0, v1, :cond_c
 

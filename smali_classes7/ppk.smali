@@ -129,13 +129,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0dd5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_popup_privilege_textimage_item:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b0ec3
+    sget v1, Lcom/resouce/module/ResID;->function_icon:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
     .line 5
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/TextImageView;->setRedIconBorderColor(I)V
 
-    const v1, 0x7f0b0589
+    sget v1, Lcom/resouce/module/ResID;->corner_text:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

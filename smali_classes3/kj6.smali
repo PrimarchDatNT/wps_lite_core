@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0427
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_reader_home_banner:I
 
     const/4 v2, 0x0
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b12ad
+    sget v1, Lcom/resouce/module/ResID;->img_banner:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1089,7 +1089,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703dd
+    sget v3, Lcom/resouce/module/ResDIMEN;->main_top_title_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1110,7 +1110,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1469,7 +1469,7 @@
     .line 3
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 
@@ -1911,11 +1911,11 @@
     .line 2
     iget-object v0, p0, Lfj7;->T0:Lvi7;
 
-    const v1, 0x7f0b07c4
+    sget v1, Lcom/resouce/module/ResID;->drive_devices:I
 
     const/4 v2, 0x0
 
-    const v3, 0x7f081703
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_device:I
 
     new-instance v4, Llj7$g;
 

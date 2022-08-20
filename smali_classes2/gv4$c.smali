@@ -62,7 +62,7 @@
 
     iget-object v0, v0, Lgv4;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f1229e0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     const/4 v2, 0x1
 
@@ -103,7 +103,7 @@
 
     iget-object v0, v0, Lgv4;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f1226fa
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_qrcode_expired:I
 
     const/4 v2, 0x0
 

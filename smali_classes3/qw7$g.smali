@@ -62,7 +62,7 @@
 
     iget-object p1, p1, Lqw7;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121d6c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_auth_failed:I
 
     const/4 v1, 0x0
 

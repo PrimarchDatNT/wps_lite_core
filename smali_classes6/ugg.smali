@@ -80,7 +80,7 @@
     .line 5
     iget-object p1, p0, Lugg;->h:Landroid/content/Context;
 
-    const v0, 0x7f1213b2
+    sget v0, Lcom/resouce/module/ResSTRING;->merge_not_support_csv:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -300,7 +300,7 @@
     :cond_1
     iget-object p1, p0, Lugg;->h:Landroid/content/Context;
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -536,7 +536,7 @@
     .line 9
     iget-object p1, p0, Lugg;->h:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v2, 0x0
 

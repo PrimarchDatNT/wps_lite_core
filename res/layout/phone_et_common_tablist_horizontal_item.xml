@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="15.0sp" android:id="@id/et_common_tabList_item_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/phone_public_nobg_black" />
-</LinearLayout>

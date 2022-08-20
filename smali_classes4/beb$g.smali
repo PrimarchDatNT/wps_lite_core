@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b152a
+    sget v1, Lcom/resouce/module/ResID;->law_content_link1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601cf
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_link_text_color:I
 
     goto :goto_0
 
@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601d1
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_link_text_color_focus:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601d0
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_link_text_color_click:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -24,7 +24,7 @@
     .line 3
     iput-object p2, p0, Lv4w;->p0:Lz4w;
 
-    const p2, 0x7f0b00f9
+    sget p2, Lcom/resouce/module/ResID;->all_tab_sub_model_outer_item:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

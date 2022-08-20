@@ -58,7 +58,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b1171
+    sget v3, Lcom/resouce/module/ResID;->home_share_with_me:I
 
     if-ne p1, v3, :cond_0
 
@@ -92,7 +92,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b10ae
+    sget v3, Lcom/resouce/module/ResID;->home_my_share:I
 
     if-ne p1, v3, :cond_1
 

@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b264d
+    sget v0, Lcom/resouce/module/ResID;->public_insert_pic_back:I
 
     if-ne p1, v0, :cond_0
 
@@ -64,7 +64,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b264a
+    sget v0, Lcom/resouce/module/ResID;->public_insert_pic_album_spinner_layout:I
 
     if-ne p1, v0, :cond_4
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0819e0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_insert_pic_spinner_up:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070b54
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_insert_pic_album_item_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -255,7 +255,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v0, 0x7f0b2653
+    sget v0, Lcom/resouce/module/ResID;->public_insert_pic_ok:I
 
     if-ne p1, v0, :cond_5
 
@@ -286,7 +286,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b2654
+    sget v0, Lcom/resouce/module/ResID;->public_insert_pic_preview:I
 
     if-ne p1, v0, :cond_8
 

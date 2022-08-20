@@ -36,7 +36,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v1, 0x1
 
@@ -113,7 +113,7 @@
 .method public final V2()V
     .locals 2
 
-    const v0, 0x7f0b1a54
+    sget v0, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213e8
+    sget v1, Lcom/resouce/module/ResSTRING;->missing_font_detail_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -180,7 +180,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1213e9
+    sget p2, Lcom/resouce/module/ResSTRING;->missing_font_detail_title_more:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213e8
+    sget v1, Lcom/resouce/module/ResSTRING;->missing_font_detail_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

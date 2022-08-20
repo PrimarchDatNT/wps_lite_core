@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0819
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_template_search_item:I
 
     const/4 v2, 0x0
 
@@ -176,7 +176,7 @@
 
     iput-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2457
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_item_img:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
     .line 4
     iget-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2459
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_item_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     .line 5
     iget-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2456
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_item_count:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 6
     iget-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2458
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_item_rice:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     .line 7
     iget-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b245a
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_item_type:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
     .line 8
     iget-object p1, p0, Laie;->a:Landroid/view/View;
 
-    const v0, 0x7f0b244d
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221f7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_free:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1210e3
+    sget v1, Lcom/resouce/module/ResSTRING;->home_price_unit:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -412,7 +412,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a3
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -514,7 +514,7 @@
 
     iget-object v3, p0, Laie;->b:Landroid/app/Activity;
 
-    const v4, 0x7f122a9c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_template_page_view_count:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -564,7 +564,7 @@
     :catch_0
     iget-object v0, p0, Laie;->h:Landroid/widget/TextView;
 
-    const v1, 0x7f081367
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_search_model_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

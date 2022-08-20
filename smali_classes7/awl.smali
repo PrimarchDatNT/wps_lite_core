@@ -329,7 +329,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f122a5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_split_cell:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -357,12 +357,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0a1e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_split_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e1106
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_table_split_dialog:I
 
     :goto_0
     const/4 v2, 0x0
@@ -371,7 +371,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e56
+    sget v1, Lcom/resouce/module/ResID;->table_split_row_wheel:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v1, p0, Lawl;->h0:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b2e53
+    sget v1, Lcom/resouce/module/ResID;->table_split_column_wheel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -393,7 +393,7 @@
 
     iput-object v1, p0, Lawl;->i0:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b3365
+    sget v1, Lcom/resouce/module/ResID;->ver_up_btn:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -402,7 +402,7 @@
 
     iput-object v1, p0, Lawl;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b3364
+    sget v1, Lcom/resouce/module/ResID;->ver_down_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     iput-object v1, p0, Lawl;->k0:Landroid/view/View;
 
-    const v1, 0x7f0b1201
+    sget v1, Lcom/resouce/module/ResID;->horizon_pre_btn:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -420,7 +420,7 @@
 
     iput-object v1, p0, Lawl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b1200
+    sget v1, Lcom/resouce/module/ResID;->horizon_next_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -469,7 +469,7 @@
 
     iput v1, p0, Lawl;->f0:I
 
-    const v1, 0x7f0b2e55
+    sget v1, Lcom/resouce/module/ResID;->table_split_preview_anchor:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
 
     check-cast v0, Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lawl$a;
 
@@ -803,7 +803,7 @@
 
     check-cast v0, Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lawl$b;
 

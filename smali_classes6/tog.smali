@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f59
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_exportpages_style_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b304a
+    sget v1, Lcom/resouce/module/ResID;->togglebutton:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
     .line 3
     iget-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b300f
+    sget v1, Lcom/resouce/module/ResID;->title_switch_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -123,7 +123,7 @@
     .line 5
     iget-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3401
+    sget v1, Lcom/resouce/module/ResID;->watermark_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -134,7 +134,7 @@
     .line 6
     iget-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0f9d
+    sget v1, Lcom/resouce/module/ResID;->hd_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
     .line 7
     iget-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3402
+    sget v1, Lcom/resouce/module/ResID;->watermark_item_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
     .line 8
     iget-object v0, p0, Ltog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0f9f
+    sget v1, Lcom/resouce/module/ResID;->hd_item_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -179,7 +179,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0f9e
+    sget v1, Lcom/resouce/module/ResID;->hd_item_img:I
 
     if-eqz v0, :cond_0
 
@@ -192,7 +192,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v2, 0x7f0817cc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -208,7 +208,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v2, 0x7f0808a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -372,7 +372,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1224d0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_mode:I
 
     return v0
 .end method

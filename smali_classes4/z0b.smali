@@ -403,7 +403,7 @@
 
     iput-object v0, p0, Lz0b;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0049
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_pdf_scan_group_detail:I
 
     const/4 v2, 0x0
 
@@ -414,7 +414,7 @@
 
     iput-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
     .line 10
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0f93
+    sget v1, Lcom/resouce/module/ResID;->gv_doc_scan_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -490,7 +490,7 @@
     .line 11
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2973
+    sget v1, Lcom/resouce/module/ResID;->rl_tool_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -508,7 +508,7 @@
     .line 13
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2950
+    sget v1, Lcom/resouce/module/ResID;->rl_group_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     .line 15
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b064b
+    sget v1, Lcom/resouce/module/ResID;->delete_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -542,7 +542,7 @@
     .line 17
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0562
+    sget v1, Lcom/resouce/module/ResID;->convertToPdflayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -553,7 +553,7 @@
     .line 18
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2070
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_entery_doc2pdf_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -564,7 +564,7 @@
     .line 19
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0560
+    sget v1, Lcom/resouce/module/ResID;->convertPdf_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -575,7 +575,7 @@
     .line 20
     iget-object v0, p0, Lz0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2cdb
+    sget v1, Lcom/resouce/module/ResID;->srl_doc_scan_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -810,11 +810,11 @@
 
     invoke-direct {v1, p0, p1}, Lz0b$f;-><init>(Lz0b;Ljava/util/List;)V
 
-    const p1, 0x7f1203e8
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_delete_picture_tip:I
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static {v0, p1, v2, v3, v1}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1001,7 +1001,7 @@
     .line 3
     iget-object v0, p0, Lz0b;->V:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1203d3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     new-instance v3, Lz0b$i;
 
@@ -1015,7 +1015,7 @@
     :cond_1
     iget-object v0, p0, Lz0b;->V:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     new-instance v3, Lz0b$j;
 
@@ -1045,7 +1045,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1204aa
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     const/4 v2, 0x1
 

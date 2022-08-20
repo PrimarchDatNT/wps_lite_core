@@ -914,7 +914,7 @@
 
     iget-object v0, p0, Lp3e;->I:Landroid/view/View;
 
-    const v3, 0x7f0b013b
+    sget v3, Lcom/resouce/module/ResID;->app_share_link:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -941,7 +941,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2b52
+    sget v1, Lcom/resouce/module/ResID;->share_auth_setting_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -952,7 +952,7 @@
     .line 2
     iget-object v0, p0, Lp3e;->I:Landroid/view/View;
 
-    const v1, 0x7f0b017e
+    sget v1, Lcom/resouce/module/ResID;->auth_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1268,7 +1268,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f081a9d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_panel_logo:I
 
     return v0
 .end method
@@ -1673,7 +1673,7 @@
     :cond_3
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1776,7 +1776,7 @@
 
     invoke-direct {v0, v3}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f0e0e4f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_shareplay_upload_custom_dialog:I
 
     .line 8
     invoke-virtual {v0, v3}, Lhd3;->setView(I)Lhd3;
@@ -1786,7 +1786,7 @@
 
     invoke-virtual {v0, v2, v1, v3}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const v1, 0x7f0b2723
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1795,7 +1795,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v3, 0x7f0b2724
+    sget v3, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1809,7 +1809,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     new-instance v5, Lw9e$a0;
@@ -1874,7 +1874,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f12298f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1896,7 +1896,7 @@
     .line 2
     iget-object v0, p0, Lw9e;->U:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e100c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_share_panel_layout:I
 
     const/4 v3, 0x0
 
@@ -1933,7 +1933,7 @@
     :goto_0
     iget-object v2, p0, Lp3e;->I:Landroid/view/View;
 
-    const v4, 0x7f0b2b8c
+    sget v4, Lcom/resouce/module/ResID;->share_more_tag:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1948,7 +1948,7 @@
     .line 8
     iget-object v2, p0, Lp3e;->I:Landroid/view/View;
 
-    const v4, 0x7f0b3349
+    sget v4, Lcom/resouce/module/ResID;->v10_phone_ppt_send_file_ways:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2003,7 +2003,7 @@
 
     move-result-object v5
 
-    const v4, 0x7f121155
+    sget v4, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare:I
 
     .line 13
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2083,7 +2083,7 @@
 
     move-result-object v5
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 23
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2149,7 +2149,7 @@
 
     move-result-object v5
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 32
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2189,7 +2189,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12157d
+    sget v4, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     .line 37
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2251,7 +2251,7 @@
 
     move-result v3
 
-    const v4, 0x7f12264a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_picfunc_item_share_text:I
 
     if-eqz v3, :cond_b
 
@@ -2348,7 +2348,7 @@
 
     move-result v3
 
-    const v4, 0x7f122987
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     if-eqz v3, :cond_f
 
@@ -2412,7 +2412,7 @@
 
     iget-object v8, p0, Lw9e;->V:Lw9e$b0;
 
-    const v3, 0x7f121f83
+    sget v3, Lcom/resouce/module/ResSTRING;->public_counterfeiting:I
 
     .line 65
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2421,7 +2421,7 @@
 
     iget-object v11, p0, Lw9e;->V:Lw9e$b0;
 
-    const v3, 0x7f121d74
+    sget v3, Lcom/resouce/module/ResSTRING;->public_avoid_confusion:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2514,12 +2514,12 @@
 
     if-eqz v3, :cond_12
 
-    const v3, 0x7f1220b2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt:I
 
     goto :goto_b
 
     :cond_12
-    const v3, 0x7f1220b3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_share:I
 
     :goto_b
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2588,7 +2588,7 @@
 
     check-cast v3, Landroid/widget/ScrollView;
 
-    const v4, 0x7f0b2422
+    sget v4, Lcom/resouce/module/ResID;->ppt_share_panel:I
 
     .line 84
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2621,7 +2621,7 @@
     .line 87
     iget-object v0, p0, Lp3e;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1bae
+    sget v2, Lcom/resouce/module/ResID;->oversea_class_room_entrance:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2630,7 +2630,7 @@
     .line 88
     iget-object v2, p0, Lp3e;->I:Landroid/view/View;
 
-    const v3, 0x7f0b08b0
+    sget v3, Lcom/resouce/module/ResID;->entrance_view:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2708,7 +2708,7 @@
 
     move-result-object v2
 
-    const v0, 0x7f122678
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ppt_send_by_h5:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2782,7 +2782,7 @@
 
     iget-object p1, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v0, 0x7f122266
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

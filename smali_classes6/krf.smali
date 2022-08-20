@@ -154,7 +154,7 @@
 
     aget v0, v0, v1
 
-    const v1, 0x7f0813fd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_ref_bg:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -175,7 +175,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0813fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_func_disable_bg:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0813fb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_func_bg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -532,7 +532,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f08067a
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_yellow_handle:I
 
     .line 4
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -553,7 +553,7 @@
 
     if-nez p0, :cond_1
 
-    const p0, 0x7f080679
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_red_handle:I
 
     .line 7
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -574,7 +574,7 @@
 
     if-nez p0, :cond_2
 
-    const p0, 0x7f080678
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_purple_handle:I
 
     .line 10
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -595,7 +595,7 @@
 
     if-nez p0, :cond_3
 
-    const p0, 0x7f080677
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_orange_handle:I
 
     .line 13
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -616,7 +616,7 @@
 
     if-nez p0, :cond_4
 
-    const p0, 0x7f080676
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_green_handle:I
 
     .line 16
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -637,7 +637,7 @@
 
     if-nez p0, :cond_5
 
-    const p0, 0x7f080675
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->et_keyboard_fx_blue_handle:I
 
     .line 19
     invoke-static {v0, p0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;

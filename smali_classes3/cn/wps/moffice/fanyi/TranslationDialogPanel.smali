@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;ILq66;)V
     .locals 3
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -429,7 +429,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/fanyi/TranslationDialogPanel;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122535
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v2, 0x1
 

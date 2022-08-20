@@ -40,7 +40,7 @@
 
     const/4 p1, 0x1
 
-    const v0, 0x7f0b0bde
+    sget v0, Lcom/resouce/module/ResID;->et_worksheetRadio:I
 
     if-ne p2, v0, :cond_0
 
@@ -79,7 +79,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0bdd
+    sget v0, Lcom/resouce/module/ResID;->et_workbook_radio:I
 
     const/4 v1, 0x0
 
@@ -120,7 +120,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0b0baa
+    sget p1, Lcom/resouce/module/ResID;->et_sheet_selection_radio:I
 
     if-ne p2, p1, :cond_2
 

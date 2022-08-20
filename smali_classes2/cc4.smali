@@ -177,7 +177,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1223ae
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_link_not_support_company:I
 
     .line 2
     invoke-static {p0, v0, v1}, Lbih;->n(Landroid/content/Context;II)V

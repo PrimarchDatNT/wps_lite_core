@@ -336,7 +336,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0df0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_print_scan_printer_item:I
 
     const/4 v1, 0x0
 
@@ -345,7 +345,7 @@
     move-result-object p2
 
     :cond_0
-    const v0, 0x7f0b3226
+    sget v0, Lcom/resouce/module/ResID;->tv_printer_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b3170
+    sget v1, Lcom/resouce/module/ResID;->tv_from:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1498
+    sget v2, Lcom/resouce/module/ResID;->iv_new_icon:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b1424
+    sget v3, Lcom/resouce/module/ResID;->iv_checked:I
 
     .line 6
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -381,21 +381,21 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b3152
+    sget v4, Lcom/resouce/module/ResID;->tv_duplicate:I
 
     .line 7
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b3127
+    sget v5, Lcom/resouce/module/ResID;->tv_colorful:I
 
     .line 8
     invoke-virtual {p2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b06cb
+    sget v6, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 9
     invoke-virtual {p2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f120642
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {p3, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

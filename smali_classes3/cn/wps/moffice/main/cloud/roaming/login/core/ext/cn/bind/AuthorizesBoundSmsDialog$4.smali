@@ -56,7 +56,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122916
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_success:I
 
     const/4 v2, 0x0
 

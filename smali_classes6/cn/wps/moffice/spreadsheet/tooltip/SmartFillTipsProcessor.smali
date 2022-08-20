@@ -152,7 +152,7 @@
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/tooltip/SmartFillTipsProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f122a14
+    sget v1, Lcom/resouce/module/ResSTRING;->public_spread_lookup_guide:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

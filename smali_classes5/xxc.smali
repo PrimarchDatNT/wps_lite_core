@@ -55,7 +55,7 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f122b46
+    sget v3, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const-string v4, "from"
 
@@ -581,11 +581,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f121928
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_watermark_func_guide:I
 
-    const v3, 0x7f121925
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
-    const v4, 0x7f080767
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_watermark:I
 
     const/4 v5, 0x1
 

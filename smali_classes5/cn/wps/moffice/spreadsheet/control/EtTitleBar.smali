@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -60,7 +60,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0602c2
+    sget p1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 2
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

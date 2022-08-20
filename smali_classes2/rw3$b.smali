@@ -149,7 +149,7 @@
     .line 4
     invoke-static {p1, v0}, Lsb5;->e(Landroid/content/Context;Landroid/content/Intent;)V
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 5
     invoke-virtual {p1, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

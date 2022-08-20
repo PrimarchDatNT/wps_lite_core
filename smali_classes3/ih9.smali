@@ -97,7 +97,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e069c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_documents_filebrowser_launcher:I
 
     const/4 v3, 0x0
 
@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b014c
+    sget v2, Lcom/resouce/module/ResID;->applauncher_list:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
     .line 10
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p0, 0x7f120604
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend:I
 
     .line 11
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -186,9 +186,9 @@
     .line 4
     new-instance v2, Lrf3;
 
-    const v3, 0x7f12069d
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_send_weibo_sina:I
 
-    const v4, 0x7f081089
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_documents_sina:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -197,9 +197,9 @@
     .line 5
     new-instance v2, Lrf3;
 
-    const v3, 0x7f120606
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
-    const v4, 0x7f081374
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_friend:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -208,9 +208,9 @@
     .line 6
     new-instance v2, Lrf3;
 
-    const v3, 0x7f120605
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
-    const v4, 0x7f081375
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_moments:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -239,9 +239,9 @@
     .line 8
     new-instance v2, Lrf3;
 
-    const v3, 0x7f122c05
+    sget v3, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
-    const v4, 0x7f08108c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_documents_whatsapp:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -251,9 +251,9 @@
     :cond_1
     new-instance v2, Lrf3;
 
-    const v3, 0x7f122965
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
-    const v4, 0x7f081080
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_documents_mail:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -282,7 +282,7 @@
     .line 1
     iget-object v0, p0, Lih9;->B:Landroid/content/Context;
 
-    const v1, 0x7f12204a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_email_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     iget-object v0, v0, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
-    const v2, 0x7f122dfe
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_share_facebook_cliend:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -465,7 +465,7 @@
 
     iget-object v5, v0, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
 
-    const v0, 0x7f122dff
+    sget v0, Lcom/resouce/module/ResSTRING;->recommend_share_google_plus_client:I
 
     invoke-virtual {v3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -551,7 +551,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081c04
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_share_img:I
 
     invoke-static {p1, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -629,7 +629,7 @@
 
     iget-object v1, p0, Lih9;->B:Landroid/content/Context;
 
-    const v2, 0x7f12205a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -659,7 +659,7 @@
     .line 13
     iget-object v2, p0, Lih9;->B:Landroid/content/Context;
 
-    const p1, 0x7f122e00
+    sget p1, Lcom/resouce/module/ResSTRING;->recommend_share_wechat_friends:I
 
     invoke-virtual {v2, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

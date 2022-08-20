@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bce
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_with_me_layout:I
 
     const/4 v0, 0x0
 
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Loj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2bd7
+    sget p2, Lcom/resouce/module/ResID;->sharer_name_text:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
     .line 6
     iget-object p1, p0, Loj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2bff
+    sget p2, Lcom/resouce/module/ResID;->show_permissions_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -78,7 +78,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121258
+    sget p3, Lcom/resouce/module/ResSTRING;->home_wpsdrive_sharer_description_unknow_creator:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121257
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_sharer_description:I
 
     const/4 v2, 0x1
 
@@ -156,7 +156,7 @@
 
     const/16 v0, 0x11
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eqz p2, :cond_2
 

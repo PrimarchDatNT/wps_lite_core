@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="10.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center" android:background="@drawable/public_infoflow_ad_standard_card_tag_bg" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:minWidth="36.0dip" android:singleLine="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

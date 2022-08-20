@@ -53,7 +53,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0086
+    sget p2, Lcom/resouce/module/ResLAYOUT;->cartoon_auto_play_controller:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -95,7 +95,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f081fcf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_cartoon_play:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -105,7 +105,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f081fce
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_cartoon_pause:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -116,7 +116,7 @@
 .method public final c(Landroid/widget/TextView;Landroid/widget/TextView;)V
     .locals 2
 
-    const v0, 0x7f081dd9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->shape_auto_play_speed_black_bg:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -144,7 +144,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -187,7 +187,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2249
+    sget v1, Lcom/resouce/module/ResID;->playStatus:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -200,7 +200,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b224a
+    sget v1, Lcom/resouce/module/ResID;->playStatus_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2c9e
+    sget v1, Lcom/resouce/module/ResID;->speed_1x:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2ca0
+    sget v1, Lcom/resouce/module/ResID;->speed_2x:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2c9f
+    sget v1, Lcom/resouce/module/ResID;->speed_1x_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/cartoon/view/AutoPlayControlView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2ca1
+    sget v1, Lcom/resouce/module/ResID;->speed_2x_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b2c9f
+    sget v2, Lcom/resouce/module/ResID;->speed_1x_layout:I
 
     if-ne p1, v2, :cond_0
 
@@ -456,7 +456,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b2ca1
+    sget v2, Lcom/resouce/module/ResID;->speed_2x_layout:I
 
     if-ne p1, v2, :cond_1
 
@@ -487,7 +487,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b224a
+    sget v2, Lcom/resouce/module/ResID;->playStatus_layout:I
 
     if-ne p1, v2, :cond_4
 
@@ -534,7 +534,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b29b1
+    sget v0, Lcom/resouce/module/ResID;->root_view:I
 
     if-ne p1, v0, :cond_5
 

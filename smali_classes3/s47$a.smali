@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f121ffe
+    sget p1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_make_duplicate_fail_common_tips:I
 
     .line 6
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V

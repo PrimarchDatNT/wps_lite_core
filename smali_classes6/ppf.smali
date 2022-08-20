@@ -11,7 +11,7 @@
 .method public constructor <init>(Lzof;)V
     .locals 1
 
-    const v0, 0x7f1207c9
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lopf;-><init>(Lzof;I)V
@@ -30,7 +30,7 @@
     .line 2
     iget-object v0, p0, Lcpf;->c:Lzof;
 
-    const v1, 0x7f1207c9
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     invoke-virtual {v0, v1}, Lvof;->p(I)V
 
@@ -69,7 +69,7 @@
     .line 2
     iget-object v0, p0, Lopf;->i:Landroid/widget/TextView;
 
-    const v1, 0x7f120bb7
+    sget v1, Lcom/resouce/module/ResSTRING;->et_number_time_format:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

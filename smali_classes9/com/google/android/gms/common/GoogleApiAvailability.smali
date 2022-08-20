@@ -445,9 +445,9 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f0801a6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->common_full_open_on_phone:I
 
-    const v6, 0x7f1202ff
+    sget v6, Lcom/resouce/module/ResSTRING;->common_open_on_phone:I
 
     .line 19
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -473,7 +473,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1202f7
+    sget v7, Lcom/resouce/module/ResSTRING;->common_google_play_services_notification_ticker:I
 
     .line 23
     invoke-virtual {v4, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

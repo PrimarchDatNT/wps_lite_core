@@ -89,7 +89,7 @@
 .method public final c()I
     .locals 1
 
-    const v0, 0x7f0e0d94
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_home_transfrom_back_uploaded_fragment:I
 
     return v0
 .end method
@@ -216,7 +216,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudSuccessfulFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b01bc
+    sget p2, Lcom/resouce/module/ResID;->back_cloud_uploaded_tips:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudSuccessfulFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b01bb
+    sget p2, Lcom/resouce/module/ResID;->back_cloud_uploaded_finish:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudSuccessfulFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b019c
+    sget p2, Lcom/resouce/module/ResID;->auto_backup_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

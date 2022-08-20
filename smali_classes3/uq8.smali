@@ -40,7 +40,7 @@
     .line 3
     iput-object p1, p0, Luq8;->a:Landroid/view/View;
 
-    const p2, 0x7f0b109d
+    sget p2, Lcom/resouce/module/ResID;->home_member_activity_layout_root:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -52,7 +52,7 @@
     .line 5
     iget-object p1, p0, Luq8;->a:Landroid/view/View;
 
-    const p2, 0x7f0b109c
+    sget p2, Lcom/resouce/module/ResID;->home_member_activity_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -65,7 +65,7 @@
     .line 6
     iget-object p1, p0, Luq8;->a:Landroid/view/View;
 
-    const p2, 0x7f0b116f
+    sget p2, Lcom/resouce/module/ResID;->home_setting_separator_container:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,22 +263,22 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0810c6    # 1.808621E38f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_promotion:I    # 1.808621E38f
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0810c7
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_promotion_new:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0810cc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_redeem:I
 
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f0810c1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_earn:I
 
     goto :goto_1
 
@@ -322,7 +322,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0810c6    # 1.808621E38f
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_promotion:I    # 1.808621E38f
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -330,7 +330,7 @@
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f0810c7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_promotion_new:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -338,7 +338,7 @@
     goto :goto_0
 
     :cond_2
-    const p2, 0x7f0810cc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_redeem:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -346,7 +346,7 @@
     goto :goto_0
 
     :cond_3
-    const p2, 0x7f0810c1
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_home_member_earn:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V

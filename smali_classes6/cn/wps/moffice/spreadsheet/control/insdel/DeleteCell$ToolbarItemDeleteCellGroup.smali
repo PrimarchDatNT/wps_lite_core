@@ -27,9 +27,9 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell$ToolbarItemDeleteCellGroup;->this$0:Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell;
 
-    const p1, 0x7f080fab
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_ss_table_delete:I
 
-    const v0, 0x7f120c6e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_toolbar_delete_cell:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarGroup;-><init>(II)V

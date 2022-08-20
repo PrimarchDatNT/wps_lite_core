@@ -47,7 +47,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f1220bb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_extract_apk:I
 
     return v0
 .end method

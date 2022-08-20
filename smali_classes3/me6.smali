@@ -36,7 +36,7 @@
     .line 4
     iput-object p1, p0, Lme6;->d:Landroid/view/View;
 
-    const v0, 0x7f0b1207
+    sget v0, Lcom/resouce/module/ResID;->horizontal_scroll_subject_root:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     iput-object v0, p0, Lme6;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2dd5    # 1.8500066E38f
+    sget v0, Lcom/resouce/module/ResID;->subject_scrollview:I    # 1.8500066E38f
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

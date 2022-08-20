@@ -141,7 +141,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f081cd2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_word_icon:I
 
     return p1
 
@@ -155,7 +155,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f081cc8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_excel_icon:I
 
     return p1
 
@@ -169,7 +169,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f081ccb
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_pdf_icon:I
 
     return p1
 
@@ -183,7 +183,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f081ccd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_ppt_icon:I
 
     return p1
 
@@ -197,7 +197,7 @@
 
     if-eqz v0, :cond_4
 
-    const p1, 0x7f081cc9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_image_icon:I
 
     return p1
 
@@ -211,12 +211,12 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f081cd0
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_text_icon:I
 
     return p1
 
     :cond_5
-    const p1, 0x7f081cd1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_transferred_file_unknown_icon:I
 
     return p1
 .end method
@@ -321,7 +321,7 @@
     .line 8
     iget-object v0, p2, Lhg9$e;->f:Landroid/widget/ImageView;
 
-    const v1, 0x7f081b62
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_red_failed_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -353,7 +353,7 @@
     .line 13
     iget-object p1, p2, Lhg9$e;->f:Landroid/widget/ImageView;
 
-    const p2, 0x7f08183c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_blue_success_icon:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -445,7 +445,7 @@
     .line 3
     iget-object p2, p0, Lhg9;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0e9c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_transfer_sent_file_item_layout:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -457,7 +457,7 @@
     :cond_0
     iget-object p2, p0, Lhg9;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0e99
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_transfer_received_file_item_layout:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -469,7 +469,7 @@
 
     invoke-direct {v0}, Lhg9$e;-><init>()V
 
-    const v1, 0x7f0b0549
+    sget v1, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object v1, v0, Lhg9$e;->a:Landroid/view/View;
 
-    const v1, 0x7f0b062c
+    sget v1, Lcom/resouce/module/ResID;->date_text:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -489,7 +489,7 @@
 
     iput-object v1, v0, Lhg9$e;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0cea
+    sget v1, Lcom/resouce/module/ResID;->file_name_text:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -500,7 +500,7 @@
 
     iput-object v1, v0, Lhg9$e;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0d2a
+    sget v1, Lcom/resouce/module/ResID;->file_size_text:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -511,7 +511,7 @@
 
     iput-object v1, v0, Lhg9$e;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b331b
+    sget v1, Lcom/resouce/module/ResID;->upload_state_img:I
 
     .line 10
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -522,7 +522,7 @@
 
     iput-object v1, v0, Lhg9$e;->f:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0d42
+    sget v1, Lcom/resouce/module/ResID;->file_upload_progress:I
 
     .line 11
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -533,7 +533,7 @@
 
     iput-object v1, v0, Lhg9$e;->g:Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0b0d40
+    sget v1, Lcom/resouce/module/ResID;->file_type_icon:I
 
     .line 12
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

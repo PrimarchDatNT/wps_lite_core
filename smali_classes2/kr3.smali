@@ -74,7 +74,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1205c7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     .line 2
     invoke-static {p0, v0}, Lq48;->e(Landroid/content/Context;I)V
@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 3
     invoke-static {p0, v0}, Lq48;->e(Landroid/content/Context;I)V

@@ -104,7 +104,7 @@
     .line 1
     iget-object p2, p0, Lppc;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0498
+    sget v1, Lcom/resouce/module/ResLAYOUT;->merge_selected_file_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

@@ -162,7 +162,7 @@
     .line 2
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1203e4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v2, 0x0
 
@@ -203,7 +203,7 @@
 
     iget-object v2, p0, Liza;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122514
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

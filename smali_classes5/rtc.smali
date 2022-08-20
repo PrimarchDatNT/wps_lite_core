@@ -98,7 +98,7 @@
 .method public M0()I
     .locals 1
 
-    const v0, 0x7f120694
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     return v0
 .end method
@@ -216,7 +216,7 @@
 
     move-result-object v5
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -298,7 +298,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060657
+    sget v4, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -460,7 +460,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0e34
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_share_mail:I
 
     return v0
 .end method

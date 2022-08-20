@@ -160,7 +160,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -168,7 +168,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0603a2
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -220,7 +220,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0603a3
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_subTextColor_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -280,7 +280,7 @@
     .line 6
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0603a2
+    sget v4, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     const/4 v5, 0x1
 

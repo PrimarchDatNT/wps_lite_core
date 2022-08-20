@@ -113,7 +113,7 @@
     .line 1
     iget-object v0, p0, Lnn6;->c:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0079
+    sget v1, Lcom/resouce/module/ResLAYOUT;->banner:I
 
     const/4 v2, 0x0
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01ef
+    sget v1, Lcom/resouce/module/ResID;->banner_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     iput-object v1, p0, Lmn6;->d:Lcn/wps/moffice/inappmessage/layout/FiamFrameLayout;
 
-    const v1, 0x7f0b01e9
+    sget v1, Lcom/resouce/module/ResID;->banner_content_root:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
 
     iput-object v1, p0, Lmn6;->e:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01e4
+    sget v1, Lcom/resouce/module/ResID;->banner_body:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     iput-object v1, p0, Lmn6;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b01eb
+    sget v1, Lcom/resouce/module/ResID;->banner_image:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
 
     iput-object v1, p0, Lmn6;->g:Lcn/wps/moffice/inappmessage/layout/ResizableImageView;
 
-    const v1, 0x7f0b01f4
+    sget v1, Lcom/resouce/module/ResID;->banner_title:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

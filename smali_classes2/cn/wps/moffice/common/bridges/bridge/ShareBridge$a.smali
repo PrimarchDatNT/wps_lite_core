@@ -125,7 +125,7 @@
 
     iget-object v2, v2, Lqm3;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f121574
+    sget v4, Lcom/resouce/module/ResSTRING;->open_platform_share_file_large_file_hint:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f122189
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     .line 11
     new-instance v1, Lcn/wps/moffice/common/bridges/bridge/ShareBridge$a$a;

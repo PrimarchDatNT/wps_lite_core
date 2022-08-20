@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1224f3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_multiselect:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1219a2
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_drag_fill_title:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -260,7 +260,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1219a3
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_format_painter_title:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 

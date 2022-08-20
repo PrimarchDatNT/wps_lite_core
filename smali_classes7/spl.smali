@@ -1440,7 +1440,7 @@
 
     iget-object v3, p0, Lspl;->W:Landroid/content/Context;
 
-    const v4, 0x7f12068c
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_searchbof:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1461,7 +1461,7 @@
 
     iget-object v3, p0, Lspl;->W:Landroid/content/Context;
 
-    const v4, 0x7f12068e
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_searcheof:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1482,7 +1482,7 @@
 
     iget-object v3, p0, Lspl;->W:Landroid/content/Context;
 
-    const v4, 0x7f122893
+    sget v4, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1565,7 +1565,7 @@
 
     iget-object v2, p0, Lspl;->W:Landroid/content/Context;
 
-    const v3, 0x7f1232e0
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_find_replace_specialstr:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1713,7 +1713,7 @@
 
     iget-object v2, p0, Lspl;->W:Landroid/content/Context;
 
-    const v3, 0x7f1232df
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_find_replace_content_null:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

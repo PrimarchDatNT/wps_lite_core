@@ -66,27 +66,27 @@
     .line 4
     iput-boolean v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->d:Z
 
-    const v0, 0x7f0816fd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back_white:I
 
     .line 5
     iput v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->h:I
 
-    const v0, 0x7f080385
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_pause:I
 
     .line 6
     iput v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->i:I
 
-    const v0, 0x7f08038c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_play:I
 
     .line 7
     iput v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->j:I
 
-    const v0, 0x7f080383
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_micrify:I
 
     .line 8
     iput v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->k:I
 
-    const v0, 0x7f080379
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_full_screen:I
 
     .line 9
     iput v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->l:I

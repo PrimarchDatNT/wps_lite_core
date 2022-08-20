@@ -220,12 +220,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0759
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_docinfo_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e075a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_item:I
 
     :goto_0
     const/4 v1, 0x0
@@ -234,7 +234,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b0774
+    sget p3, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_image:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0776
+    sget v0, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_text:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b0777
+    sget v1, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_text_introduce:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

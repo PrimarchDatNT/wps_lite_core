@@ -126,7 +126,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f030004
+    sget v1, Lcom/resouce/module/ResARRAY;->complete_emails:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -273,7 +273,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f030088
+    sget v0, Lcom/resouce/module/ResARRAY;->urlType:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

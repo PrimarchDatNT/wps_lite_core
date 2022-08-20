@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0702c4
+    sget v0, Lcom/resouce/module/ResDIMEN;->folder_manager_common_folder_grid_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0702c3
+    sget v0, Lcom/resouce/module/ResDIMEN;->folder_manager_common_folder_grid_heigh:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

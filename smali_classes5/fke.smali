@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081c97
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_placeholder:I
 
     .line 8
     invoke-virtual {v0, v1}, Ljge;->e(I)Ljge;

@@ -718,7 +718,7 @@
     .line 6
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -1108,7 +1108,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b11fd
+    sget v0, Lcom/resouce/module/ResID;->home_wpsdrive_bottom_bar_divider:I
 
     .line 2
     invoke-virtual {p0, v0}, Lgj7;->r0(I)Ljava/lang/Object;
@@ -1657,7 +1657,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121254
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2696,7 +2696,7 @@
     .line 9
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f1205b6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2843,7 +2843,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -3457,7 +3457,7 @@
     :cond_a
     if-eqz v1, :cond_b
 
-    const v2, 0x7f0b286a
+    sget v2, Lcom/resouce/module/ResID;->red_point:I
 
     .line 43
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3992,7 +3992,7 @@
 .method public r4(Landroid/view/View;)V
     .locals 7
 
-    const v0, 0x7f0b2052
+    sget v0, Lcom/resouce/module/ResID;->phone_home_wpsdrive_titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4003,7 +4003,7 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b3492
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_title_shadow:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4365,7 +4365,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -4654,7 +4654,7 @@
 
     iget-object v3, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v4, 0x7f121e56
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_group_create_title:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

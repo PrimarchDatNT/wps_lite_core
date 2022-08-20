@@ -231,7 +231,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0020
+    sget v3, Lcom/resouce/module/ResINTEGER;->recommend_duration_900:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -673,7 +673,7 @@
 .method public final c()I
     .locals 1
 
-    const v0, 0x7f0e0ede
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_fragment_layout:I
 
     return v0
 .end method
@@ -681,7 +681,7 @@
 .method public final f(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b15bf
+    sget v0, Lcom/resouce/module/ResID;->line_main:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b33ab
+    sget v0, Lcom/resouce/module/ResID;->view_share:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -703,7 +703,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->S:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v0, 0x7f0b3295
+    sget v0, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -714,7 +714,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b313f
+    sget v0, Lcom/resouce/module/ResID;->tv_des:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -725,7 +725,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3276
+    sget v0, Lcom/resouce/module/ResID;->tv_sub_title:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -736,7 +736,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3274
+    sget v0, Lcom/resouce/module/ResID;->tv_sub_des:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -747,7 +747,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32aa
+    sget v0, Lcom/resouce/module/ResID;->tv_view_more:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -758,7 +758,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2acb
+    sget v0, Lcom/resouce/module/ResID;->second_panel_container:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -769,7 +769,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b15c0
+    sget v0, Lcom/resouce/module/ResID;->line_second_panel:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -780,7 +780,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->Z:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b3162
+    sget v0, Lcom/resouce/module/ResID;->tv_explore:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -827,7 +827,7 @@
     .line 14
     invoke-virtual {p0}, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/BaseFuncDetailFragment;->y()V
 
-    const v0, 0x7f0b0ea9
+    sget v0, Lcom/resouce/module/ResID;->func_detail_layout:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

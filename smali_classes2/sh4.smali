@@ -329,7 +329,7 @@
 
     invoke-direct {v0, p0}, Lsh4$d;-><init>(Lsh4;)V
 
-    const v1, 0x7f0b267b
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267a
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_facebook:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267d
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_line:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     :cond_1
     :goto_0
-    const v1, 0x7f0b2682
+    sget v1, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b2679
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_email:I
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -409,7 +409,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0b267c
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     .line 12
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -418,7 +418,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267e
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_other:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -523,12 +523,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0e0160
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_login_focus_gp_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e0161
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_login_guide_dialog_view:I
 
     .line 6
     :goto_0
@@ -565,7 +565,7 @@
 
     move-result v5
 
-    const v6, 0x7f0b0533
+    sget v6, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 8
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -656,7 +656,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b068e
+    sget v6, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -682,7 +682,7 @@
 
     invoke-virtual {v5}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v5, 0x7f0b2683
+    sget v5, Lcom/resouce/module/ResID;->public_login_guide_pic:I
 
     .line 21
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -693,7 +693,7 @@
 
     iput-object v5, p0, Lsh4;->c:Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2686
+    sget v5, Lcom/resouce/module/ResID;->public_login_tips:I
 
     .line 22
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -713,7 +713,7 @@
     invoke-virtual {v5, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_3
-    const v1, 0x7f0b2682
+    sget v1, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     .line 25
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -747,7 +747,7 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f0b267b
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     .line 29
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -758,7 +758,7 @@
 
     invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b267c
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     .line 30
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

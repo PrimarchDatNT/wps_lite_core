@@ -290,7 +290,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2b03
+    sget v1, Lcom/resouce/module/ResID;->selected_checkmark:I
 
     const/4 v2, 0x1
 
@@ -305,7 +305,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e103a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->v10_public_color_item_forbidden:I
 
     invoke-virtual {v0, v3, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -335,7 +335,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e1039
+    sget v3, Lcom/resouce/module/ResLAYOUT;->v10_public_color_item:I
 
     invoke-virtual {v0, v3, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -539,7 +539,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080242
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_revision_reject:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -577,7 +577,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081f89
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->v10_public_color_picker_item_ring_shape:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

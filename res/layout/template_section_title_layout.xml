@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/section_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template_section_hot" android:layout_centerVertical="true" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/section_more_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/public_image_bg_style">
-        <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_more" />
-        <cn.wpsx.support.ui.KNormalImageView android:id="@id/more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:src="@drawable/public_category_more" android:layout_marginStart="1.0dip" />
-    </LinearLayout>
-</RelativeLayout>

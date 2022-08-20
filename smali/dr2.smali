@@ -267,7 +267,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122026
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download_pc:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12291c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_to_computer:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -392,7 +392,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12004b
+    sget v2, Lcom/resouce/module/ResSTRING;->aboard_mail_body_content:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

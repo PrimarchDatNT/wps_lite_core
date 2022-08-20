@@ -127,7 +127,7 @@
 .method public m(Lbh8;Ls37;)V
     .locals 0
 
-    const p1, 0x7f121153
+    sget p1, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     .line 1
     invoke-static {p1}, Ll57;->b(I)Ljava/lang/String;

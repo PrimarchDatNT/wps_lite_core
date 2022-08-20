@@ -52,7 +52,7 @@
 
     move-result p5
 
-    const v0, 0x7f0b07c2
+    sget v0, Lcom/resouce/module/ResID;->drive_add_file:I
 
     if-ne p5, v0, :cond_0
 
@@ -94,7 +94,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0b07c5
+    sget p2, Lcom/resouce/module/ResID;->drive_new_folder:I
 
     if-ne p5, p2, :cond_1
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_popup_add_file:I
 
     const/4 v3, 0x0
 
@@ -370,7 +370,7 @@
     .line 6
     invoke-virtual {v8}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->useCardViewMenu()V
 
-    const v1, 0x7f0b07c2
+    sget v1, Lcom/resouce/module/ResID;->drive_add_file:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -381,7 +381,7 @@
 
     check-cast v11, Landroid/widget/TextView;
 
-    const v1, 0x7f0b07c5
+    sget v1, Lcom/resouce/module/ResID;->drive_new_folder:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

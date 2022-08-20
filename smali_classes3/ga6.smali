@@ -284,7 +284,7 @@
 .method public final h(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b0df7
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_app:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Lga6;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0dfa
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_media:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     iput-object v0, p0, Lga6;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0dfb
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_music:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     iput-object v0, p0, Lga6;->c:Landroid/view/View;
 
-    const v0, 0x7f0b0df8
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_big_file:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     iput-object v0, p0, Lga6;->d:Landroid/view/View;
 
-    const v0, 0x7f0b0dfc
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_wps_file:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     iput-object v0, p0, Lga6;->e:Landroid/view/View;
 
-    const v0, 0x7f0b0df9
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_progress_list_image:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     invoke-direct {v0, p0}, Lga6$c;-><init>(Lga6;)V
 
-    const v1, 0x7f0b0dde
+    sget v1, Lcom/resouce/module/ResID;->folder_find_big_file_item_icon_img:I
 
     .line 2
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
 
     iput-object v1, v0, Lga6$c;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0de0
+    sget v1, Lcom/resouce/module/ResID;->folder_find_big_file_item_name_tv:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
 
     iput-object v1, v0, Lga6$c;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0ddd
+    sget v1, Lcom/resouce/module/ResID;->folder_find_big_file_item_available_size_tv:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v1, v0, Lga6$c;->c:Lcn/wps/moffice/foldermanager/view/ProgressTextView;
 
-    const v1, 0x7f0b0ddc
+    sget v1, Lcom/resouce/module/ResID;->folder_find_big_file_item_available_size_pg:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b0ddf
+    sget v1, Lcom/resouce/module/ResID;->folder_find_big_file_item_line:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

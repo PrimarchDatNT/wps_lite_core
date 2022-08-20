@@ -416,13 +416,13 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08074b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_word_doc_fix:I
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v3, 0x7f120147
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
-    const v4, 0x7f120143
+    sget v4, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_1:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -473,7 +473,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0d9c
+    sget v1, Lcom/resouce/module/ResID;->fix_pic_preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -484,7 +484,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0d9b
+    sget v1, Lcom/resouce/module/ResID;->fix_pic_preview_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0725
+    sget v1, Lcom/resouce/module/ResID;->doc_preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0d9e
+    sget v1, Lcom/resouce/module/ResID;->fix_text_content_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -545,7 +545,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0d9d
+    sget v1, Lcom/resouce/module/ResID;->fix_sheet_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -556,7 +556,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b2be5
+    sget v1, Lcom/resouce/module/ResID;->sheet_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -569,7 +569,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b071d
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_sheet_more_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -580,7 +580,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b2be7
+    sget v1, Lcom/resouce/module/ResID;->sheet_title_listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -627,7 +627,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b071e
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_success_grideview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -644,7 +644,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0028
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_fix_success_header:I
 
     const/4 v2, 0x0
 
@@ -673,7 +673,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0700ee
+    sget v2, Lcom/resouce/module/ResDIMEN;->doc_fix_pic_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -699,7 +699,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0d9f
+    sget v1, Lcom/resouce/module/ResID;->fix_text_content_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -712,7 +712,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mSuccessHeaderView:Landroid/view/View;
 
-    const v1, 0x7f0b0720
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_text_more_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -738,7 +738,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0033
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_documentfix_layout:I
 
     const/4 v2, 0x0
 
@@ -752,7 +752,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b0721
+    sget v1, Lcom/resouce/module/ResID;->doc_fixing_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -763,7 +763,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b0716
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_fail_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -776,7 +776,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b071f
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_success_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -787,7 +787,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b0d99
+    sget v1, Lcom/resouce/module/ResID;->fix_failure:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -798,7 +798,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -816,7 +816,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b071b
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_progress_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -829,7 +829,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b071c
+    sget v1, Lcom/resouce/module/ResID;->doc_fix_progress_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -842,7 +842,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b1b22
+    sget v1, Lcom/resouce/module/ResID;->open_fixed_doc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -867,7 +867,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -913,7 +913,7 @@
     .line 4
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120543
+    sget v3, Lcom/resouce/module/ResSTRING;->document_fix_pic_count:I
 
     const/4 v4, 0x1
 
@@ -1051,7 +1051,7 @@
     .line 11
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120544
+    sget v2, Lcom/resouce/module/ResSTRING;->document_fix_sheet_count:I
 
     const/4 v4, 0x1
 
@@ -1280,7 +1280,7 @@
     :cond_1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120546
+    sget v2, Lcom/resouce/module/ResSTRING;->document_fix_text_count:I
 
     const/4 v3, 0x1
 
@@ -1474,7 +1474,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120147
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     return v0
 .end method
@@ -1505,7 +1505,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120147
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1604,7 +1604,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mProgressDescView:Landroid/widget/TextView;
 
-    const v1, 0x7f12039d
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_check_file_net_error:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1653,14 +1653,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0804f5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_fix_can_not_fix:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12039c
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_can_not_fix:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1704,14 +1704,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081560
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1203a9
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_file_upload_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1795,14 +1795,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081560
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1203aa
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_fix_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1901,14 +1901,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081555
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DocFixViewImpl;->mCommonErrorPage:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1203b6
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_net_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1982,7 +1982,7 @@
 
     iget-object p4, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122614    # 1.94265E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     const/4 v1, 0x1
 

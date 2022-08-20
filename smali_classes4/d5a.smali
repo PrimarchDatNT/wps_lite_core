@@ -74,7 +74,7 @@
 
     iget-object v1, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v1, v2, v0}, Lk87;-><init>(Landroid/content/Context;ILi87;)V
 
@@ -499,7 +499,7 @@
     .line 2
     iget-object p1, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121239
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -518,7 +518,7 @@
     .line 4
     iget-object p1, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -602,7 +602,7 @@
     :goto_1
     iget-object p1, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120ef1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     const/4 v1, 0x0
 
@@ -958,7 +958,7 @@
     .line 2
     iget-object p1, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -1389,7 +1389,7 @@
     .line 12
     iget-object v3, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v4, 0x7f120fe3
+    sget v4, Lcom/resouce/module/ResSTRING;->home_multi_select_dialog_title:I
 
     const/4 v5, 0x1
 
@@ -1413,7 +1413,7 @@
 
     iget-object v3, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v6, 0x7f120fe2
+    sget v6, Lcom/resouce/module/ResSTRING;->home_multi_select_dialog_desc:I
 
     new-array v5, v5, [Ljava/lang/Object;
 
@@ -1547,7 +1547,7 @@
     .line 2
     iget-object v0, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -2004,7 +2004,7 @@
     .line 3
     iget-object v1, v0, Lb5a;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v1, v2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -2219,7 +2219,7 @@
 
     iget-object v0, p0, Lb5a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v0, v1, p2}, Lk87;-><init>(Landroid/content/Context;ILi87;)V
 

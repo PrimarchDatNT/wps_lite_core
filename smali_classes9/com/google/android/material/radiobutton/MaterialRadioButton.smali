@@ -114,7 +114,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0404b8
+    sget v0, Lcom/resouce/module/ResATTR;->radioButtonStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/radiobutton/MaterialRadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -204,21 +204,21 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f04012f
+    sget v0, Lcom/resouce/module/ResATTR;->colorControlActivated:I
 
     .line 2
     invoke-static {p0, v0}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v0
 
-    const v1, 0x7f040138
+    sget v1, Lcom/resouce/module/ResATTR;->colorOnSurface:I
 
     .line 3
     invoke-static {p0, v1}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v1
 
-    const v2, 0x7f040140
+    sget v2, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 4
     invoke-static {p0, v2}, Luxt;->d(Landroid/view/View;I)I

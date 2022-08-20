@@ -564,7 +564,7 @@
 
     iput-object v1, p0, Ltu3;->h:Lcn/wps/moffice/common/beans/CustomCheckBox;
 
-    const v2, 0x7f121fd9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_displayPasswd:I
 
     .line 26
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/CustomCheckBox;->setText(I)V
@@ -588,7 +588,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707f4
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_mid_text_size_sp:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

@@ -102,11 +102,11 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e061c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_bookmark_item:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1d71
+    sget p1, Lcom/resouce/module/ResID;->pdf_bookmark_name_text:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/bookmark/pad/BookMarkItemView;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1d6c
+    sget p1, Lcom/resouce/module/ResID;->pdf_bookmark_dropdown_btn:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/bookmark/pad/BookMarkItemView;->b0:Landroid/view/View;
 
-    const p1, 0x7f0b1d75
+    sget p1, Lcom/resouce/module/ResID;->pdf_bookmark_time_text:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/bookmark/pad/BookMarkItemView;->W:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1d73
+    sget p1, Lcom/resouce/module/ResID;->pdf_bookmark_progress_text:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
     :cond_0
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setClickable(Z)V
 
-    const p1, 0x7f0819f6
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -437,7 +437,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e061d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_bookmark_popup_menu:I
 
     const/4 v2, 0x0
 
@@ -445,7 +445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1d74
+    sget v1, Lcom/resouce/module/ResID;->pdf_bookmark_rename:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     check-cast v1, Landroid/widget/Button;
 
-    const v2, 0x7f0b1d6b
+    sget v2, Lcom/resouce/module/ResID;->pdf_bookmark_delete:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

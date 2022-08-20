@@ -44,7 +44,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/baseframe/PadPhoneActivity$b;->B:Lcn/wps/moffice/spreadsheet/baseframe/PadPhoneActivity;
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

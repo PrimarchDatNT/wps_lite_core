@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lnx7$a;->B:Lnx7;
 
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

@@ -139,7 +139,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f123071
+    sget v5, Lcom/resouce/module/ResSTRING;->template_charge_money:I
 
     const/4 v6, 0x0
 
@@ -399,7 +399,7 @@
 
     iget-object v1, p0, Lvb6;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120d7c
+    sget v2, Lcom/resouce/module/ResSTRING;->foreign_my_credits:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -525,7 +525,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x0
 

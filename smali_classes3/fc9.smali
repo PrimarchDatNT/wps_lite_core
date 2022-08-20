@@ -337,14 +337,14 @@
 
     iget-object v1, p0, Lec9;->j0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0549
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_filebrowser_titlebar:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lec9;->j0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1beb
+    sget v1, Lcom/resouce/module/ResID;->pad_home_fb_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -357,7 +357,7 @@
     .line 3
     iget-object v0, p0, Lec9;->j0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1bf3
+    sget v1, Lcom/resouce/module/ResID;->pad_home_title_nav_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
     .line 5
     iget-object v0, p0, Lfc9;->S0:Lcn/wps/moffice/main/local/filebrowser/view/pad/PadFoldersNavBarLayout;
 
-    const v1, 0x7f0b0645
+    sget v1, Lcom/resouce/module/ResID;->delete_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -381,7 +381,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b19be
+    sget v1, Lcom/resouce/module/ResID;->nav_img:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,12 +390,12 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f080f37
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_screening_delete:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f0b19c7
+    sget v1, Lcom/resouce/module/ResID;->nav_txt:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -404,7 +404,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -424,7 +424,7 @@
 
     iget-object v2, p0, Lfc9;->S0:Lcn/wps/moffice/main/local/filebrowser/view/pad/PadFoldersNavBarLayout;
 
-    const v3, 0x7f0b2c70
+    sget v3, Lcom/resouce/module/ResID;->sort_btn:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -484,7 +484,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d4a
+    sget v1, Lcom/resouce/module/ResID;->filelist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -500,14 +500,14 @@
     .line 4
     iget-object v0, p0, Lec9;->k0:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
     .line 5
     iget-object v0, p0, Lec9;->k0:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f12253d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
@@ -571,12 +571,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0546
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_filebrowser_insert:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0544
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_filebrowser:I
 
     :goto_0
     const/4 v2, 0x0
@@ -698,7 +698,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19cd
+    sget v1, Lcom/resouce/module/ResID;->navigation_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,12 +782,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0561
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_path_gallery_for_insert:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0560
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_path_gallery_container:I
 
     :goto_0
     const/4 v2, 0x0
@@ -800,7 +800,7 @@
 
     iput-object v0, p0, Lfc9;->Q0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1207,7 +1207,7 @@
     .line 13
     iget-object v0, p0, Lec9;->b0:Landroid/widget/TextView;
 
-    const v4, 0x7f120571
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_batch_delete:I
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1250,7 +1250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1268,7 +1268,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0b2c70
+    sget v2, Lcom/resouce/module/ResID;->sort_btn:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1280,7 +1280,7 @@
     .line 5
     iget-object v0, p0, Lec9;->j0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0645
+    sget v2, Lcom/resouce/module/ResID;->delete_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1294,7 +1294,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19bc
+    sget v1, Lcom/resouce/module/ResID;->nav_back_im:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06065d
+    sget v2, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

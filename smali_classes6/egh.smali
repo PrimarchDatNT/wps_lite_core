@@ -115,12 +115,12 @@
 
     if-ne p0, v0, :cond_0
 
-    const p0, 0x7f121feb
+    sget p0, Lcom/resouce/module/ResSTRING;->public_doc_encryption_tips:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f121d2e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_app_encryption_tips:I
 
     .line 1
     :goto_0

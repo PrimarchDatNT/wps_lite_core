@@ -155,11 +155,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d65
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_vip_tips_view:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/LinearLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1cb5
+    sget v0, Lcom/resouce/module/ResID;->paper_prepay_vip_tips:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionVipTipsView;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1cad
+    sget v0, Lcom/resouce/module/ResID;->paper_pay_vip_button:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

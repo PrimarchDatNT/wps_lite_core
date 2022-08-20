@@ -367,7 +367,7 @@
     .line 6
     invoke-static {p2}, Lza4;->h(Ljava/lang/String;)V
 
-    const p2, 0x7f1213b2
+    sget p2, Lcom/resouce/module/ResSTRING;->merge_not_support_csv:I
 
     .line 7
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
@@ -387,7 +387,7 @@
     return p1
 
     :cond_2
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 9
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
@@ -461,7 +461,7 @@
     .line 6
     invoke-static {p2}, Lza4;->h(Ljava/lang/String;)V
 
-    const p2, 0x7f1213b2
+    sget p2, Lcom/resouce/module/ResSTRING;->merge_not_support_csv:I
 
     .line 7
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
@@ -481,7 +481,7 @@
     return p1
 
     :cond_2
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 9
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
@@ -635,7 +635,7 @@
 
     invoke-virtual {p2, p6, v1}, Liyg;->a(Liyg$a;[Ljava/lang/Object;)V
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     if-nez p3, :cond_3
 
@@ -702,7 +702,7 @@
     .line 3
     iget-object p1, p0, Lnfg;->B:Landroid/content/Context;
 
-    const p2, 0x7f121fef
+    sget p2, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     invoke-static {p1, p2, v4}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -224,7 +224,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v2, 0x7f0b3399
+    sget v2, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->S:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0db6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_quick_pay_head_layout:I
 
     const/4 v1, 0x0
 
@@ -468,7 +468,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0fa9
+    sget v0, Lcom/resouce/module/ResID;->head_privilege_view:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -479,7 +479,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b27b3
+    sget v0, Lcom/resouce/module/ResID;->quickpay_top_tip_text:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -586,7 +586,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b294e
+    sget v0, Lcom/resouce/module/ResID;->rl_free_trail:I
 
     if-ne p1, v0, :cond_1
 
@@ -637,7 +637,7 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0db5
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_premium_layout:I
 
     const/4 v0, 0x0
 
@@ -648,7 +648,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const p2, 0x7f0b24ea
+    sget p2, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -660,7 +660,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const p2, 0x7f0b24e2
+    sget p2, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey_tv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -671,7 +671,7 @@
     .line 5
     iget-object p2, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const p3, 0x7f0b14e7
+    sget p3, Lcom/resouce/module/ResID;->jpcdkey_tip_tv:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -682,7 +682,7 @@
     .line 6
     iget-object p3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v1, 0x7f0b24d1
+    sget v1, Lcom/resouce/module/ResID;->premium_pay1_desc:I
 
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -693,7 +693,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v2, 0x7f0b24e1
+    sget v2, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -721,7 +721,7 @@
     .line 13
     iget-object p3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v1, 0x7f0b316f
+    sget v1, Lcom/resouce/module/ResID;->tv_free_trail:I
 
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -732,7 +732,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v3, 0x7f0b24d2
+    sget v3, Lcom/resouce/module/ResID;->premium_pay2_desc:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -743,7 +743,7 @@
     .line 15
     iget-object v3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v4, 0x7f0b24d3
+    sget v4, Lcom/resouce/module/ResID;->premium_pay2_fl:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -771,7 +771,7 @@
     .line 21
     iget-object p3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v3, 0x7f0b24e9
+    sget v3, Lcom/resouce/module/ResID;->premium_upgrade_button_tv:I
 
     invoke-virtual {p3, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 22
     iget-object v3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v4, 0x7f0b330e
+    sget v4, Lcom/resouce/module/ResID;->upgrade_tip_tv:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -793,7 +793,7 @@
     .line 23
     iget-object v4, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v5, 0x7f0b24d4
+    sget v5, Lcom/resouce/module/ResID;->premium_pay3_desc:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -804,7 +804,7 @@
     .line 24
     iget-object v5, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v6, 0x7f0b24e8
+    sget v6, Lcom/resouce/module/ResID;->premium_upgrade_button:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
     .line 31
     iget-object v5, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v7, 0x7f0b24dd
+    sget v7, Lcom/resouce/module/ResID;->premium_privileges_list:I
 
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -977,7 +977,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const p2, 0x7f0b294e
+    sget p2, Lcom/resouce/module/ResID;->rl_free_trail:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1002,7 +1002,7 @@
     .line 52
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const p3, 0x7f0b3396
+    sget p3, Lcom/resouce/module/ResID;->view_devide:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1213,7 +1213,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v3, 0x7f0b3399
+    sget v3, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1359,7 +1359,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v2, 0x7f0b3399
+    sget v2, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1403,11 +1403,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f12260e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b3a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_pdf_toolkit_icon:I
 
     const/4 v7, 0x0
 
@@ -1444,9 +1444,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f121c93
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
-    const v5, 0x7f081b30
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_no_ad_icon:I
 
     move-object v1, v8
 
@@ -1477,9 +1477,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f120460
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
-    const v5, 0x7f081b3c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_pic_to_pdf_icon:I
 
     move-object v1, v8
 
@@ -1510,9 +1510,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f1204cf
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scn_recognize_txt:I
 
-    const v5, 0x7f081b40
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_recognize_text_icon:I
 
     move-object v1, v8
 
@@ -1543,9 +1543,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f081b28
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_file_compressor_icon:I
 
     move-object v1, v8
 
@@ -1571,11 +1571,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f122a3b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_support_for_odf:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b41
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_support_odf_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1609,11 +1609,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b3d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_ppt_extract_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1646,9 +1646,9 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c12
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
-    const v5, 0x7f081b3e
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_ppt_merge_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1688,11 +1688,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f122be0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b42
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_watermark_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1725,9 +1725,9 @@
 
     move-result-object v2
 
-    const v3, 0x7f122011
+    sget v3, Lcom/resouce/module/ResSTRING;->public_document_recovery_title:I
 
-    const v5, 0x7f081b2d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_doc_recovery_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1758,9 +1758,9 @@
 
     move-result-object v2
 
-    const v3, 0x7f1227a7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
-    const v5, 0x7f081b3f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_read_background_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1792,11 +1792,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f122bc6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b2c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_bookmark_sharing_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1838,11 +1838,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c85
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_20g_cloud_disk:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b29
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_20g_cloud_disk:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1880,11 +1880,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f12267e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_all_in_one_office:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b2b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_all_in_one_office_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1930,11 +1930,11 @@
 
     move-result-object v3
 
-    const v4, 0x7f12040e
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo:I
 
     const/4 v5, 0x0
 
-    const v6, 0x7f081b2e
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_id_photo_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1974,7 +1974,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v1, 0x7f0b1d27
+    sget v1, Lcom/resouce/module/ResID;->pay_more_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1985,7 +1985,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v2, 0x7f0b3325
+    sget v2, Lcom/resouce/module/ResID;->use_referral_pay_more_ll:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1994,7 +1994,7 @@
     .line 3
     iget-object v2, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v3, 0x7f0b3326
+    sget v3, Lcom/resouce/module/ResID;->use_referral_pay_more_tv:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2005,7 +2005,7 @@
     .line 4
     iget-object v3, p0, Lcn/wps/moffice/common/premium/quickpayment/WpsPremiumFragment;->X:Landroid/view/View;
 
-    const v4, 0x7f0b3324
+    sget v4, Lcom/resouce/module/ResID;->use_referral_code_tv:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

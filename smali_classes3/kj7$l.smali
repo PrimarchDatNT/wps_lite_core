@@ -152,7 +152,7 @@
 
     iget-object p3, p3, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f12122c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_upload_success:I
 
     invoke-static {p3, v0, v4}, Lbih;->n(Landroid/content/Context;II)V
 

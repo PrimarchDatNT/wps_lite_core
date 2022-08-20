@@ -111,7 +111,7 @@
 
     iput-object p2, p0, Lhql;->z0:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e10dc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_searchreplace_pad:I
 
     .line 9
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -129,7 +129,7 @@
     .line 12
     iget-object p1, p0, Lhql;->w0:Landroid/view/View;
 
-    const p2, 0x7f0b2ac3
+    sget p2, Lcom/resouce/module/ResID;->searchreplace_header:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
 
     invoke-static {p1}, Lxih;->P(Landroid/view/View;)V
 
-    const p1, 0x7f0b0d81
+    sget p1, Lcom/resouce/module/ResID;->find_dpecialstr_view_layout:I
 
     .line 13
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object p1, p0, Lhql;->t0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b2e28
+    sget p1, Lcom/resouce/module/ResID;->tab_search_replace:I
 
     .line 14
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -217,7 +217,7 @@
     .line 21
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setButtonPressed(I)V
 
-    const p2, 0x7f122856
+    sget p2, Lcom/resouce/module/ResSTRING;->public_search:I
 
     .line 22
     new-instance v0, Lhql$k;
@@ -226,7 +226,7 @@
 
     invoke-virtual {p1, p2, v0}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setLeftButtonOnClickListener(ILandroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f1227f9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     .line 23
     new-instance v0, Lhql$o;
@@ -235,7 +235,7 @@
 
     invoke-virtual {p1, p2, v0}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setRightButtonOnClickListener(ILandroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2a5d
+    sget p1, Lcom/resouce/module/ResID;->search_btn_back:I
 
     .line 24
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     iput-object p1, p0, Lhql;->d0:Landroid/view/View;
 
-    const p1, 0x7f0b2a5e
+    sget p1, Lcom/resouce/module/ResID;->search_btn_close:I
 
     .line 25
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object p1, p0, Lhql;->e0:Landroid/view/View;
 
-    const p1, 0x7f0b2a44
+    sget p1, Lcom/resouce/module/ResID;->searchBtn:I
 
     .line 26
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -262,7 +262,7 @@
 
     iput-object p1, p0, Lhql;->f0:Landroid/view/View;
 
-    const p1, 0x7f0b28a4
+    sget p1, Lcom/resouce/module/ResID;->replaceBtn:I
 
     .line 27
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     iput-object p1, p0, Lhql;->g0:Landroid/view/View;
 
-    const p1, 0x7f0b0421
+    sget p1, Lcom/resouce/module/ResID;->cleansearch:I
 
     .line 28
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     iput-object p1, p0, Lhql;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b0420
+    sget p1, Lcom/resouce/module/ResID;->cleanreplace:I
 
     .line 29
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     iput-object p1, p0, Lhql;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b2a86
+    sget p1, Lcom/resouce/module/ResID;->search_input:I
 
     .line 30
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -300,7 +300,7 @@
 
     iput-object p1, p0, Lhql;->l0:Landroid/widget/EditText;
 
-    const p2, 0x7f0b28a9
+    sget p2, Lcom/resouce/module/ResID;->replace_text:I
 
     .line 31
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
@@ -314,7 +314,7 @@
     .line 32
     iget-object v0, p0, Lhql;->u0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0d85
+    sget v1, Lcom/resouce/module/ResID;->find_searchbtn_panel:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -322,7 +322,7 @@
 
     iput-object v0, p0, Lhql;->n0:Landroid/view/View;
 
-    const v1, 0x7f0b2aba
+    sget v1, Lcom/resouce/module/ResID;->searchbackward:I
 
     .line 33
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -331,7 +331,7 @@
 
     iput-object v1, p0, Lhql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2abf
+    sget v1, Lcom/resouce/module/ResID;->searchforward:I
 
     .line 34
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    const p1, 0x7f0b28a7
+    sget p1, Lcom/resouce/module/ResID;->replace_panel:I
 
     .line 39
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -378,7 +378,7 @@
     .line 40
     invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b2a92
+    sget p1, Lcom/resouce/module/ResID;->search_morepanel:I
 
     .line 41
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -390,7 +390,7 @@
     .line 42
     invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b0d83
+    sget p1, Lcom/resouce/module/ResID;->find_matchcase:I
 
     .line 43
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     iput-object p1, p0, Lhql;->r0:Lcn/wps/moffice/common/beans/CustomCheckBox;
 
-    const p1, 0x7f0b0d84
+    sget p1, Lcom/resouce/module/ResID;->find_matchword:I
 
     .line 44
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
     .line 1
     iget-object v0, p0, Lhql;->u0:Landroid/app/Activity;
 
-    const v1, 0x7f0b18f2
+    sget v1, Lcom/resouce/module/ResID;->more_search:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1370,7 +1370,7 @@
     .line 4
     iget-object v3, p0, Lhql;->z0:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e108b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_editview_more_search:I
 
     invoke-virtual {v3, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1388,7 +1388,7 @@
     :cond_0
     iget-object v0, p0, Lhql;->x0:Landroid/view/View;
 
-    const v1, 0x7f0b18f3
+    sget v1, Lcom/resouce/module/ResID;->more_search_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

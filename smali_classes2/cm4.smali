@@ -38,9 +38,9 @@
 
     const-string v1, ".default"
 
-    const v2, 0x7f080f82
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_recents:I
 
-    const v3, 0x7f1221da
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     const/4 v4, 0x1
 
@@ -57,9 +57,9 @@
 
     const-string v8, ".star"
 
-    const v9, 0x7f080f83
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_star:I
 
-    const v10, 0x7f1206a7
+    sget v10, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     const/4 v11, 0x1
 
@@ -76,9 +76,9 @@
 
     const-string v2, ".OpenFragment"
 
-    const v3, 0x7f080f81
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_open:I
 
-    const v4, 0x7f122588
+    sget v4, Lcom/resouce/module/ResSTRING;->public_open:I
 
     const/4 v5, 0x1
 
@@ -97,7 +97,7 @@
 
     const/4 v9, -0x1
 
-    const v10, 0x7f120682
+    sget v10, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_filetabs:I
 
     move-object v7, v0
 
@@ -110,9 +110,9 @@
 
     const-string v2, ".app"
 
-    const v3, 0x7f080f7f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_app:I
 
-    const v4, 0x7f122264
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     move-object v1, v0
 
@@ -125,9 +125,9 @@
 
     const-string v8, ".RoamingFragment"
 
-    const v9, 0x7f080f82
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_recents:I
 
-    const v10, 0x7f1221da
+    sget v10, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     move-object v7, v0
 
@@ -140,9 +140,9 @@
 
     const-string v2, ".RoamingStarFragment"
 
-    const v3, 0x7f080f83
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_item_icon_star:I
 
-    const v4, 0x7f1206a7
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     move-object v1, v0
 
@@ -503,7 +503,7 @@
     :cond_1
     iget-object v0, p0, Lcm4;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05b5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_left_nav_item_more:I
 
     invoke-virtual {v0, v1, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -513,7 +513,7 @@
     :cond_2
     iget-object v0, p0, Lcm4;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05b7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_left_nav_item_sub_doc:I
 
     invoke-virtual {v0, v1, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -527,7 +527,7 @@
 
     check-cast v0, Lpl4;
 
-    const v1, 0x7f0b19c3
+    sget v1, Lcom/resouce/module/ResID;->nav_item_sub_doc_close_btn:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
     move-result-object v0
 
     :goto_1
-    const v1, 0x7f0b19bf
+    sget v1, Lcom/resouce/module/ResID;->nav_item_click_layout:I
 
     .line 12
     invoke-virtual {p2, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -584,7 +584,7 @@
     :cond_5
     iget p1, p1, Lql4;->a:I
 
-    const v1, 0x7f0b19c1
+    sget v1, Lcom/resouce/module/ResID;->nav_item_icon:I
 
     .line 15
     invoke-virtual {p2, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -612,7 +612,7 @@
 
     :cond_7
     :goto_2
-    const p1, 0x7f0b19c4
+    sget p1, Lcom/resouce/module/ResID;->nav_item_title:I
 
     .line 18
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -677,7 +677,7 @@
     .line 3
     iget-object p1, p0, Lcm4;->b:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e05b6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_left_nav_item_multidoc:I
 
     new-instance v1, Landroid/widget/FrameLayout;
 
@@ -695,7 +695,7 @@
     :cond_1
     iget-object p1, p0, Lcm4;->b:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e05b4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_left_nav_item_mian:I
 
     new-instance v1, Landroid/widget/LinearLayout;
 

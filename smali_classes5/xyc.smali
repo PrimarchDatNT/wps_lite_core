@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080723
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_long_pic:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f1210b8
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

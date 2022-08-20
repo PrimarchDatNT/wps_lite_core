@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lqe3;-><init>(Landroid/content/Context;I)V
@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0acf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_shareplay_qrcode_layout:I
 
     const/4 v2, 0x0
 
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, La45;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2428
+    sget v1, Lcom/resouce/module/ResID;->ppt_shareplay_qrcode_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070a37
+    sget v3, Lcom/resouce/module/ResDIMEN;->ppt_shareplay_invite_dialog_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

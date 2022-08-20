@@ -462,7 +462,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -482,7 +482,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060187
+    sget v3, Lcom/resouce/module/ResCOLOR;->folder_manager_text_color_gray:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -539,7 +539,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f060185
+    sget v1, Lcom/resouce/module/ResCOLOR;->folder_manager_text_color_dark_label:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1185,7 +1185,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f0b1089
+    sget v0, Lcom/resouce/module/ResID;->home_folder_manager_root_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1198,7 +1198,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->b3(Landroid/view/View;)V
 
-    const v0, 0x7f0b0dee
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_files_empty:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1207,7 +1207,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b0dec
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_path_grid:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1218,7 +1218,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->B:Lcn/wps/moffice/foldermanager/view/DivideDoubleLineGridLayout;
 
-    const v0, 0x7f0b0ded
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_file_list:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1251,7 +1251,7 @@
     .line 10
     invoke-virtual {p0}, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->g3()V
 
-    const v0, 0x7f0b0e05
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_size_tv:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1262,7 +1262,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->T:Lcn/wps/moffice/foldermanager/view/ProgressTextView;
 
-    const v0, 0x7f0b0e06
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_unit_tv:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1273,7 +1273,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0dff
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_findbigfolder_rl:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1314,7 +1314,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1089
+    sget v1, Lcom/resouce/module/ResID;->home_folder_manager_root_view:I
 
     .line 2
     :try_start_0
@@ -1326,7 +1326,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0b0dff
+    sget v2, Lcom/resouce/module/ResID;->folder_manager_findbigfolder_rl:I
 
     const/high16 v3, 0x4000000
 
@@ -1473,7 +1473,7 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/main/framework/BaseActivity;->onCreateReady(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e031a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -1487,7 +1487,7 @@
 
     invoke-static {p1, v0}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const p1, 0x7f0b1089
+    sget p1, Lcom/resouce/module/ResID;->home_folder_manager_root_view:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

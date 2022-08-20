@@ -239,7 +239,7 @@
 
     move-result v1
 
-    const v2, 0x7f0818b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_whatsapp:I
 
     if-ne v1, v2, :cond_0
 
@@ -251,7 +251,7 @@
 
     move-result v1
 
-    const v2, 0x7f0818af
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger:I
 
     if-ne v1, v2, :cond_1
 
@@ -266,7 +266,7 @@
 
     move-result v1
 
-    const v2, 0x7f0818ae
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_line:I
 
     if-ne v1, v2, :cond_2
 
@@ -281,7 +281,7 @@
 
     move-result v1
 
-    const v2, 0x7f081746
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_email:I
 
     if-ne v1, v2, :cond_3
 
@@ -296,7 +296,7 @@
 
     move-result p0
 
-    const v1, 0x7f0818b5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_telegram:I
 
     if-ne p0, v1, :cond_4
 
@@ -522,7 +522,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f121d83
+    sget v1, Lcom/resouce/module/ResSTRING;->public_batch_sharing_title:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -534,7 +534,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f1223e2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_des:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -554,7 +554,7 @@
 
     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f122974
+    sget p2, Lcom/resouce/module/ResSTRING;->public_share_from:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -585,7 +585,7 @@
     .line 1
     iget-object v0, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f1222e8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_name_format:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -634,7 +634,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12299c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

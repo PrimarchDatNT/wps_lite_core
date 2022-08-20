@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d6f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_auto_roaming:I
 
     invoke-virtual {v4, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121de5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_check_out_files:I
 
     invoke-virtual {p2, v0}, Landroid/widget/Button;->setText(I)V
 

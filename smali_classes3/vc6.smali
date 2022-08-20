@@ -158,7 +158,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12203f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_edit_email_address:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -170,7 +170,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f122056
+    sget v2, Lcom/resouce/module/ResSTRING;->public_enter_email_address:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->setHint(I)V
@@ -201,7 +201,7 @@
     :cond_0
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v2, 0x7f122018
+    sget v2, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 10
     new-instance v3, Lvc6$c;
@@ -210,7 +210,7 @@
 
     invoke-virtual {v0, v2, v3}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance v3, Lvc6$d;
@@ -295,7 +295,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b03ca
+    sget p2, Lcom/resouce/module/ResID;->checkbox:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -306,7 +306,7 @@
 
     iput-object p2, p0, Lvc6;->b:Landroid/widget/CheckBox;
 
-    const p2, 0x7f0b1883
+    sget p2, Lcom/resouce/module/ResID;->message:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     iput-object p2, p0, Lvc6;->c:Landroid/widget/TextView;
 
-    const p2, 0x7f0b081f
+    sget p2, Lcom/resouce/module/ResID;->edit_mail_address:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     iput-object p2, p0, Lvc6;->d:Landroid/view/View;
 
-    const p2, 0x7f0b00b2
+    sget p2, Lcom/resouce/module/ResID;->add_mail_address:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -548,7 +548,7 @@
     .line 3
     iget-object v0, p0, Lvc6;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f12291a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_template_to_email:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -573,7 +573,7 @@
     :cond_0
     iget-object v1, p0, Lvc6;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122919
+    sget v4, Lcom/resouce/module/ResSTRING;->public_send_template_to:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

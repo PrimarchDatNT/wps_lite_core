@@ -398,7 +398,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120f5f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membercenter_my_restore:I
 
     return v0
 .end method
@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0278
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_my_restore_activity:I
 
     const/4 v2, 0x0
 
@@ -423,7 +423,7 @@
 
     iput-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3291
+    sget v1, Lcom/resouce/module/ResID;->tv_tips:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
     .line 3
     iget-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b197d
+    sget v1, Lcom/resouce/module/ResID;->my_restore_wps_premium:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -484,7 +484,7 @@
     .line 8
     iget-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b197a
+    sget v1, Lcom/resouce/module/ResID;->my_restore_font:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -495,7 +495,7 @@
     .line 9
     iget-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1979
+    sget v1, Lcom/resouce/module/ResID;->my_restore_ads_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
     .line 11
     iget-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b197c
+    sget v1, Lcom/resouce/module/ResID;->my_restore_template_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -523,7 +523,7 @@
     .line 13
     iget-object v0, p0, Leh6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b197b
+    sget v1, Lcom/resouce/module/ResID;->my_restore_pdf_previlege:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -605,7 +605,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b197d
+    sget v0, Lcom/resouce/module/ResID;->my_restore_wps_premium:I
 
     if-ne p1, v0, :cond_1
 
@@ -625,7 +625,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b197a
+    sget v0, Lcom/resouce/module/ResID;->my_restore_font:I
 
     if-ne p1, v0, :cond_2
 
@@ -644,7 +644,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1979
+    sget v0, Lcom/resouce/module/ResID;->my_restore_ads_privilege:I
 
     if-ne p1, v0, :cond_3
 
@@ -659,7 +659,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b197c
+    sget v0, Lcom/resouce/module/ResID;->my_restore_template_privilege:I
 
     if-ne p1, v0, :cond_4
 
@@ -674,7 +674,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b197b
+    sget v0, Lcom/resouce/module/ResID;->my_restore_pdf_previlege:I
 
     if-ne p1, v0, :cond_5
 

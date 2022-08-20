@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12121f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_wps_assistant_novel_bookmarks:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -288,7 +288,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121222
+    sget v2, Lcom/resouce/module/ResSTRING;->home_wps_assistant_novel_default_content:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

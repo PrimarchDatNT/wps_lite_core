@@ -30,7 +30,7 @@
 
     invoke-direct {v0, v1, v2, v1}, Lb3l;-><init>(IZZ)V
 
-    const v3, 0x7f0b32ea
+    sget v3, Lcom/resouce/module/ResID;->underline_single:I
 
     const-string v4, "underline-single"
 
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, v3, v2, v1}, Lb3l;-><init>(IZZ)V
 
-    const v3, 0x7f0b32e9
+    sget v3, Lcom/resouce/module/ResID;->underline_dash:I
 
     const-string v4, "underline-dash"
 
@@ -56,7 +56,7 @@
 
     invoke-direct {v0, v3, v2, v1}, Lb3l;-><init>(IZZ)V
 
-    const v1, 0x7f0b32eb
+    sget v1, Lcom/resouce/module/ResID;->underline_wave:I
 
     const-string v2, "underline-wave"
 
@@ -69,7 +69,7 @@
 
     invoke-direct {v0, v1}, Lz2l;-><init>(I)V
 
-    const v1, 0x7f0b32e6
+    sget v1, Lcom/resouce/module/ResID;->underline_color_black:I
 
     const-string v2, "underline-color-black"
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v0, v1}, Lz2l;-><init>(I)V
 
-    const v1, 0x7f0b32e7
+    sget v1, Lcom/resouce/module/ResID;->underline_color_blue:I
 
     const-string v2, "underline-color-blue"
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v0, v1}, Lz2l;-><init>(I)V
 
-    const v1, 0x7f0b32e8
+    sget v1, Lcom/resouce/module/ResID;->underline_color_yellow:I
 
     const-string v2, "underline-color-yellow"
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a2e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_underline_popchoose:I
 
     const/4 v2, 0x0
 

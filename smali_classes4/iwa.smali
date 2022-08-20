@@ -138,7 +138,7 @@
     return-object p1
 
     :cond_0
-    const p2, 0x7f0b0607
+    sget p2, Lcom/resouce/module/ResID;->cv_cut:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0b0607
+    sget p3, Lcom/resouce/module/ResID;->cv_cut:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -459,7 +459,7 @@
     .line 1
     iget-object v0, p0, Lzva;->T:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e011c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_item_gallery_cut:I
 
     const/4 v2, 0x0
 
@@ -476,7 +476,7 @@
 
     check-cast v1, Lcn/wps/moffice/main/scan/bean/ScanBean;
 
-    const v2, 0x7f0b0607
+    sget v2, Lcom/resouce/module/ResID;->cv_cut:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -64,7 +64,7 @@
     :catch_0
     iget-object p1, p0, Ldma$a;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1205ee
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v0, 0x0
 

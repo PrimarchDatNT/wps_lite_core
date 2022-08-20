@@ -17,9 +17,9 @@
 .method public constructor <init>(Lcn/wps/moffice/spreadsheet/control/ink/Inker;Lrcg;)V
     .locals 3
 
-    const v0, 0x7f080dda
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_swatch:I
 
-    const v1, 0x7f12236a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_color:I
 
     const/4 v2, 0x1
 
@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0513
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     const/4 v4, 0x0
 
@@ -93,7 +93,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1bc8
+    sget v3, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

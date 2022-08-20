@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122e29
+    sget v2, Lcom/resouce/module/ResSTRING;->remote_session_service:I
 
     .line 2
     invoke-static {p0, v2}, Lm2w;->a(Landroid/content/Context;I)Ljava/lang/String;
@@ -112,7 +112,7 @@
 .method public static d(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f122e28
+    sget v0, Lcom/resouce/module/ResSTRING;->remote_session_package:I
 
     .line 1
     :try_start_0

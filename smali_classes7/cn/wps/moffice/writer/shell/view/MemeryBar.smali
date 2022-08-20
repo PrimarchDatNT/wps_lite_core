@@ -168,7 +168,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e09e6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_memerybar:I
 
     .line 4
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -176,7 +176,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e09e7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_memerytipbar:I
 
     .line 5
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -185,7 +185,7 @@
     :goto_0
     invoke-virtual {p0}, Lcn/wps/moffice/writer/shell/view/MemeryBar;->e()V
 
-    const v0, 0x7f0b1863
+    sget v0, Lcom/resouce/module/ResID;->memery_tips:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/view/MemeryBar;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1864
+    sget v0, Lcom/resouce/module/ResID;->memery_tips_btn:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/view/MemeryBar;->T:Landroid/widget/PopupWindow;
 
-    const v1, 0x7f13073c
+    sget v1, Lcom/resouce/module/ResSTYLE;->public_popWindow_animationFade:I
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

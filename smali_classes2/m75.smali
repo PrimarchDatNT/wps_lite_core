@@ -1186,7 +1186,7 @@
     .line 2
     iget-object p1, p0, Lm75;->b:Lh75;
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-interface {p1, v0}, Lh75;->u(I)V
 

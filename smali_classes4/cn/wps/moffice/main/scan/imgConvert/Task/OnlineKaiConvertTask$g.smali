@@ -124,7 +124,7 @@
 
     move-result v1
 
-    const v2, 0x7f120404
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_extracting_txt:I
 
     if-eqz v1, :cond_1
 
@@ -167,7 +167,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask;->h:Lkd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask$g$a;
 
@@ -313,7 +313,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1204c4
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_translation_fail:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -327,7 +327,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1214c3
+    sget v3, Lcom/resouce/module/ResSTRING;->ocr_pic2text_error_tips:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -99,11 +99,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06be
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_horizontal_number_picker:I
 
     invoke-virtual {v0, v1, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b0a84
+    sget p2, Lcom/resouce/module/ResID;->et_horizontal_number_picker_increase:I
 
     .line 12
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0a82
+    sget p2, Lcom/resouce/module/ResID;->et_horizontal_number_picker_decrease:I
 
     .line 13
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;->I:Landroid/view/View;
 
-    const p2, 0x7f0b0a83
+    sget p2, Lcom/resouce/module/ResID;->et_horizontal_number_picker_edittext:I
 
     .line 14
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -145,7 +145,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/EditText;->setTextColor(I)V
 
-    const p1, 0x7f0b0a85
+    sget p1, Lcom/resouce/module/ResID;->et_horizontal_number_picker_textview:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

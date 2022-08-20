@@ -156,7 +156,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/tooltip/KnowledgePermissionProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f121322
+    sget v1, Lcom/resouce/module/ResSTRING;->knowledge_page_permission_tip:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -172,7 +172,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/tooltip/KnowledgePermissionProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f121319
+    sget v1, Lcom/resouce/module/ResSTRING;->knowledge_page_check_permission_tip:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

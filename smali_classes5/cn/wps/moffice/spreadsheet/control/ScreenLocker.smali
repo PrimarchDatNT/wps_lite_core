@@ -35,9 +35,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ScreenLocker$2;
 
-    const v1, 0x7f0802a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
-    const v2, 0x7f121984
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_lock_screen:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ScreenLocker$2;-><init>(Lcn/wps/moffice/spreadsheet/control/ScreenLocker;II)V
 
@@ -135,7 +135,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122552
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

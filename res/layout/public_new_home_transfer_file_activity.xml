@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <cn.wps.moffice.pc.transfer.view.TransferItemLayout android:id="@id/transfer_to_computer_layout" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
-        <cn.wps.moffice.pc.transfer.view.TransferItemLayout android:id="@id/transfer_to_other_layout" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
-        <cn.wps.moffice.pc.transfer.view.TransferItemLayout android:id="@id/transfer_collect_files_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
-    </LinearLayout>
-</ScrollView>

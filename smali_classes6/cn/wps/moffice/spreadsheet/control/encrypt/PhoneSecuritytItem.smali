@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1023
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_security_encrypter_layout:I
 
     const/4 v2, 0x0
 
@@ -91,7 +91,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneSecuritytItem;->mRoot:Landroid/view/View;
 
-    const v1, 0x7f0b1b15
+    sget v1, Lcom/resouce/module/ResID;->online_security_divideline:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneSecuritytItem;->mRoot:Landroid/view/View;
 
-    const v1, 0x7f0b1b14
+    sget v1, Lcom/resouce/module/ResID;->online_security:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneSecuritytItem;->mRoot:Landroid/view/View;
 
-    const v1, 0x7f0b0cef
+    sget v1, Lcom/resouce/module/ResID;->file_permission:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneSecuritytItem;->mPermissionInfo:Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;
 
-    const v1, 0x7f0803a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_safty_power:I
 
     .line 7
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->setImage(I)V
@@ -139,7 +139,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneSecuritytItem;->mPermissionInfo:Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;
 
-    const v1, 0x7f12261b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_permission_info:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->setText(I)V
 
@@ -200,7 +200,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1b18
+    sget v0, Lcom/resouce/module/ResID;->online_security_encrypttxt:I
 
     if-eqz p1, :cond_1
 
@@ -213,7 +213,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f122572
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_enable:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -229,7 +229,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f122574
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_set:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

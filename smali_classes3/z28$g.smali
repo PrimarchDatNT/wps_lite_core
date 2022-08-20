@@ -62,7 +62,7 @@
 
     move-result p1
 
-    const v0, 0x7f120673
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_wifi:I
 
     if-ne p1, v0, :cond_0
 
@@ -94,7 +94,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120672
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_all:I
 
     if-ne p1, v0, :cond_1
 

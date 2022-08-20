@@ -57,7 +57,7 @@
 .method public E()I
     .locals 1
 
-    const v0, 0x7f0e0ed9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_cloud_item:I
 
     return v0
 .end method
@@ -65,7 +65,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f081d4d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->recommend_fill_main_bg:I
 
     return v0
 .end method
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de8
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_fill:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dfb
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_ready_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dec
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_start:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081d57
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->recommend_start_text_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -198,7 +198,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v0, 0x7f0b3172
+    sget v0, Lcom/resouce/module/ResID;->tv_func_des:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b12de
+    sget v0, Lcom/resouce/module/ResID;->include_fill:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
     .line 14
     invoke-virtual {p1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b1229
+    sget v0, Lcom/resouce/module/ResID;->icon1:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/FillFormFuncFragment;->c0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b122a
+    sget v0, Lcom/resouce/module/ResID;->icon2:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/FillFormFuncFragment;->d0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b122b
+    sget v0, Lcom/resouce/module/ResID;->icon3:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

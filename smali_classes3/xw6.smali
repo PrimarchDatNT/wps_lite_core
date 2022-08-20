@@ -51,7 +51,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121cb1
+    sget v3, Lcom/resouce/module/ResSTRING;->privacy_protected_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121540
+    sget v3, Lcom/resouce/module/ResSTRING;->online_service_protect_url:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

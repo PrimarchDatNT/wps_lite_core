@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1013
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_tool_panel_chart_style_item:I
 
     const/4 v2, 0x0
 
@@ -142,7 +142,7 @@
 .method public final f(Landroid/view/ViewGroup;)Lcn/wps/moffice/presentation/control/edittool/chart/CacheImageView;
     .locals 1
 
-    const v0, 0x7f0b3052
+    sget v0, Lcom/resouce/module/ResID;->tool_panel_chart_item:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0809
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_panel_modify_chart_property:I
 
     const/4 v2, 0x0
 
@@ -179,7 +179,7 @@
 
     iput-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b039b
+    sget v1, Lcom/resouce/module/ResID;->chart_style_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
     .line 4
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b039c
+    sget v1, Lcom/resouce/module/ResID;->chart_style_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
     .line 5
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b0395
+    sget v1, Lcom/resouce/module/ResID;->chart_property_div:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
     .line 6
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b07f5
+    sget v1, Lcom/resouce/module/ResID;->edit_chart_data_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -228,7 +228,7 @@
     .line 7
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b039d
+    sget v1, Lcom/resouce/module/ResID;->chart_type_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
 
     check-cast v2, Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b231b
+    sget v3, Lcom/resouce/module/ResID;->ppt_modify_chart_panel:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -524,7 +524,7 @@
     .line 1
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b039e
+    sget v1, Lcom/resouce/module/ResID;->chart_type_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     .line 1
     iget-object v0, p0, Lcsd;->d:Landroid/view/View;
 
-    const v1, 0x7f0b039d
+    sget v1, Lcom/resouce/module/ResID;->chart_type_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

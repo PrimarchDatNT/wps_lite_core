@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3088
+    sget v1, Lcom/resouce/module/ResID;->topmost_layer:I
 
     invoke-virtual {v0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
 
     invoke-direct {v0, v1}, Lz7l;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0b35ad
+    sget v2, Lcom/resouce/module/ResID;->writer_ink_tool_pen:I
 
     const-string v3, "ink-tool-pen-color"
 
@@ -223,7 +223,7 @@
 
     invoke-direct {v0, v1}, Ly7l;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b35aa
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_highlight_red:I
 
     const-string v2, "ink-tool-shrink-highlight-red"
 
@@ -234,7 +234,7 @@
 
     invoke-direct {v0}, Lm7l;-><init>()V
 
-    const v1, 0x7f0b35a8
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_eraserBtn:I
 
     const-string v2, "ink-tool-eraser"
 
@@ -245,7 +245,7 @@
 
     invoke-direct {v0}, Lk7l;-><init>()V
 
-    const v1, 0x7f0b35af
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_show_circle:I
 
     const-string v2, "ink-tool-circle-select"
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v0}, Lb8l;-><init>()V
 
-    const v1, 0x7f0b35b1
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_smart:I
 
     const-string v2, "ink-tool-smart"
 
@@ -267,7 +267,7 @@
 
     invoke-direct {v0}, La8l;-><init>()V
 
-    const v1, 0x7f0b1326
+    sget v1, Lcom/resouce/module/ResID;->ink_tool_setting:I
 
     const-string v2, "ink-tool-setting"
 
@@ -631,7 +631,7 @@
 .method public final v2()V
     .locals 2
 
-    const v0, 0x7f0b0dd2
+    sget v0, Lcom/resouce/module/ResID;->float_container:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     iput-object v0, p0, Lv7l;->e0:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v0, 0x7f0b35d6
+    sget v0, Lcom/resouce/module/ResID;->writer_ll_brush_tool_shrink_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -651,7 +651,7 @@
 
     iput-object v0, p0, Lv7l;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b3608
+    sget v0, Lcom/resouce/module/ResID;->writer_paint_tool_stretch_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -665,7 +665,7 @@
     .line 4
     iget-object v0, p0, Lv7l;->e0:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v1, 0x7f0b35ad
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_pen:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -678,7 +678,7 @@
     .line 5
     iget-object v0, p0, Lv7l;->e0:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v1, 0x7f0b35aa
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_highlight_red:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -688,7 +688,7 @@
 
     iput-object v0, p0, Lv7l;->h0:Lcn/wps/moffice/common/beans/ColorPenBottomFilterView;
 
-    const v0, 0x7f0b35ae
+    sget v0, Lcom/resouce/module/ResID;->writer_ink_tool_pen_show_select:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -699,7 +699,7 @@
 
     iput-object v0, p0, Lv7l;->f0:Lcn/wps/moffice/common/beans/ColorPenBottomFilterView;
 
-    const v0, 0x7f0b35ab
+    sget v0, Lcom/resouce/module/ResID;->writer_ink_tool_highlight_red_show_select:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -710,7 +710,7 @@
 
     iput-object v0, p0, Lv7l;->i0:Lcn/wps/moffice/common/beans/ColorPenBottomFilterView;
 
-    const v0, 0x7f0b35a9
+    sget v0, Lcom/resouce/module/ResID;->writer_ink_tool_eraser_show_select:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object v0, p0, Lv7l;->j0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b35b0
+    sget v0, Lcom/resouce/module/ResID;->writer_ink_tool_show_circle_show_select:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

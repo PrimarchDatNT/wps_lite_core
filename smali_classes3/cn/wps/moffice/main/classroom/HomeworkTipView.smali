@@ -91,7 +91,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121261
+    sget v3, Lcom/resouce/module/ResSTRING;->homework_tip_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -108,7 +108,7 @@
 
     aput-object v2, v0, v4
 
-    const v5, 0x7f12026b
+    sget v5, Lcom/resouce/module/ResSTRING;->class_room_help_tip3:I
 
     invoke-virtual {v3, v5, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -123,7 +123,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f060626
+    sget v5, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -138,7 +138,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06000c
+    sget v6, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -248,7 +248,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/HomeworkTipView;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f0800de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->background_class_room_tip:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V

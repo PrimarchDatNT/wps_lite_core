@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="55.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/hot_search_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" />
-</LinearLayout>

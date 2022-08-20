@@ -549,7 +549,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120258
+    sget v3, Lcom/resouce/module/ResSTRING;->check_login_status:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -11,7 +11,7 @@
 .method public constructor <init>(Lzof;)V
     .locals 1
 
-    const v0, 0x7f1207c7
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_number_science:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhpf;-><init>(Lzof;I)V
@@ -41,7 +41,7 @@
     .line 2
     iget-object v0, p0, Lcpf;->c:Lzof;
 
-    const v1, 0x7f1207c7
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_science:I
 
     invoke-virtual {v0, v1}, Lvof;->p(I)V
 

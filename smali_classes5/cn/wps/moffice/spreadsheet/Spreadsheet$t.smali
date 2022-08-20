@@ -42,7 +42,7 @@
     :try_start_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/Spreadsheet$t;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b02ba
+    sget v1, Lcom/resouce/module/ResID;->btn_app_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -53,7 +53,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/Spreadsheet$t;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b014d
+    sget v1, Lcom/resouce/module/ResID;->application_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

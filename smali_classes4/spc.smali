@@ -117,7 +117,7 @@
 
     if-nez p2, :cond_0
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -264,7 +264,7 @@
     return p0
 
     :cond_1
-    const p1, 0x7f121745
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 5
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

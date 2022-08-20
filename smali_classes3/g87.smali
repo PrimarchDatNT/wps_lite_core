@@ -77,7 +77,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121eee
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_space:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

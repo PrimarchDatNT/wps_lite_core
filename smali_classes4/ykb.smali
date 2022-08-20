@@ -37,7 +37,7 @@
     .line 1
     iget-object p1, p0, Lykb;->B:Landroid/content/Context;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v1, 0x0
 

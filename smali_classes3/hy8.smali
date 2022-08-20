@@ -375,7 +375,7 @@
     .line 1
     iget-object p2, p0, Lhy8;->B:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0710
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_home_compressfile_item:I
 
     const/4 v0, 0x0
 
@@ -388,7 +388,7 @@
 
     invoke-direct {p3, p0}, Lhy8$a;-><init>(Lhy8;)V
 
-    const v0, 0x7f0b13ac
+    sget v0, Lcom/resouce/module/ResID;->item_content:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
 
     iput-object v0, p3, Lhy8$a;->a:Landroid/view/View;
 
-    const v0, 0x7f0b13c6
+    sget v0, Lcom/resouce/module/ResID;->item_icon_layout:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -406,7 +406,7 @@
 
     iput-object v0, p3, Lhy8$a;->b:Landroid/view/View;
 
-    const v0, 0x7f0b13c5
+    sget v0, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -417,7 +417,7 @@
 
     iput-object v0, p3, Lhy8$a;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b13d2
+    sget v0, Lcom/resouce/module/ResID;->item_name:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     iput-object v0, p3, Lhy8$a;->d:Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;
 
-    const v0, 0x7f0b13d1
+    sget v0, Lcom/resouce/module/ResID;->item_modify_time:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -439,7 +439,7 @@
 
     iput-object v0, p3, Lhy8$a;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b13df
+    sget v0, Lcom/resouce/module/ResID;->item_size:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     iput-object v0, p3, Lhy8$a;->g:Landroid/widget/TextView;
 
-    const v0, 0x7f0b13cb
+    sget v0, Lcom/resouce/module/ResID;->item_info_layout:I
 
     .line 9
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

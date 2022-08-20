@@ -184,7 +184,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0be8
+    sget v1, Lcom/resouce/module/ResID;->evernote_export_content_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
     .line 4
     iget-object v2, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b075f
+    sget v3, Lcom/resouce/module/ResID;->document_evernote_export_cancel_parentview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -220,7 +220,7 @@
     .line 6
     iget-object v4, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v5, 0x7f0b0764
+    sget v5, Lcom/resouce/module/ResID;->document_evernote_export_ok_parentview:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e108e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_evernote_export_pad:I
 
     invoke-static {v0, v2, v1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -397,7 +397,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e108d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_evernote_export:I
 
     invoke-static {v0, v2, v1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -409,7 +409,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0760
+    sget v1, Lcom/resouce/module/ResID;->document_evernote_export_head:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0762
+    sget v1, Lcom/resouce/module/ResID;->document_evernote_export_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0765
+    sget v1, Lcom/resouce/module/ResID;->document_evernote_export_tag:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0763
+    sget v1, Lcom/resouce/module/ResID;->document_evernote_export_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -482,7 +482,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b02e4
+    sget v1, Lcom/resouce/module/ResID;->btn_logout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->B:Landroid/content/Context;
 
-    const v2, 0x7f1205e7
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -504,7 +504,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b01bd
+    sget v1, Lcom/resouce/module/ResID;->back_commmit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -531,7 +531,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteExportView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b075e
+    sget v1, Lcom/resouce/module/ResID;->document_evernote_export_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

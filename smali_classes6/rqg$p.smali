@@ -70,7 +70,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f1219bd
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_delete_warning:I
 
     const/4 v0, 0x1
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12001c
+    sget v1, Lcom/resouce/module/ResSTRING;->SheetDeleteToast:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 9
     invoke-virtual {p1, v0}, Lhd3;->setTitleById(I)Lhd3;

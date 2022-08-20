@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204c7
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_language_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204c5
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_language_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204c6
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_language_df:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

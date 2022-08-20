@@ -519,7 +519,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b2d79
+    sget v1, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v2, p0, Lzlf;->S:Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;
 
@@ -566,7 +566,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b2ce6
+    sget v1, Lcom/resouce/module/ResID;->ss_cellselecter:I
 
     iget-object v2, p0, Lzlf;->S:Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;
 

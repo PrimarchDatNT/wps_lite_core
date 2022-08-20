@@ -2799,7 +2799,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f30
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_group_locked:I
 
     const/4 v1, 0x0
 

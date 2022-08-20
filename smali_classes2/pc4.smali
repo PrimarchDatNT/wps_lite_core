@@ -139,11 +139,11 @@
 
     invoke-virtual {p1, v2, p2, v1}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const p2, 0x7f08074e
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->func_guide_oversea_share_link:I
 
-    const v1, 0x7f121155
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare:I
 
-    const v2, 0x7f12226a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_guide_file_reducing_desc:I
 
     new-array v4, v3, [Lcib$b;
 
@@ -167,7 +167,7 @@
     .line 7
     iget-object v1, p0, Lpc4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12297e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_link_premium_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -71,7 +71,7 @@
 
     const-string v0, "icon"
 
-    const v1, 0x7f0b1524
+    sget v1, Lcom/resouce/module/ResID;->later:I
 
     if-ne p1, v1, :cond_1
 
@@ -174,7 +174,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b0c57
+    sget v1, Lcom/resouce/module/ResID;->facebook_login_iv:I
 
     const/4 v2, 0x0
 
@@ -182,14 +182,14 @@
 
     if-eq p1, v1, :cond_5
 
-    const v1, 0x7f0b1149
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_with_facebook_layout:I
 
     if-ne p1, v1, :cond_2
 
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b084f
+    sget v1, Lcom/resouce/module/ResID;->email_login_iv:I
 
     if-ne p1, v1, :cond_3
 
@@ -257,7 +257,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const v1, 0x7f0b121a
+    sget v1, Lcom/resouce/module/ResID;->huawei_login_iv:I
 
     if-ne p1, v1, :cond_4
 
@@ -327,7 +327,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const v1, 0x7f0b114c
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_with_google_layout:I
 
     if-ne p1, v1, :cond_6
 

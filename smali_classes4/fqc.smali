@@ -630,7 +630,7 @@
 
     iget-object v1, p0, Lfqc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -649,7 +649,7 @@
 
     iget-object v1, p0, Lfqc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -685,7 +685,7 @@
 
     iget-object v4, p0, Lfqc;->S:Landroid/app/Activity;
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -750,7 +750,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07c7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_ocr_select_layout:I
 
     const/4 v2, 0x0
 
@@ -768,7 +768,7 @@
     .line 3
     iget-object v0, p0, Lfqc;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1a93
+    sget v1, Lcom/resouce/module/ResID;->ocr_select_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -792,7 +792,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121842
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -819,7 +819,7 @@
     .line 8
     iget-object v0, p0, Lfqc;->I:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b1a91
+    sget v2, Lcom/resouce/module/ResID;->ocr_select_button:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -852,7 +852,7 @@
     .line 11
     iget-object v0, p0, Lfqc;->I:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b1a92
+    sget v2, Lcom/resouce/module/ResID;->ocr_select_grid:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1091,7 +1091,7 @@
     .line 10
     iget-object v0, p0, Lfqc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f121841
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_ocr_ai_pages_limited:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1267,7 +1267,7 @@
     .line 9
     iget-object v0, p0, Lfqc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f120442
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_insufficient_space:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

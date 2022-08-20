@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120321
+    sget v1, Lcom/resouce/module/ResSTRING;->config_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -676,7 +676,7 @@
     .line 10
     iget-object p1, p0, Lqm3;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f1210dd
+    sget v0, Lcom/resouce/module/ResSTRING;->home_please_install_wx:I
 
     const/4 v1, 0x0
 
@@ -1085,7 +1085,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

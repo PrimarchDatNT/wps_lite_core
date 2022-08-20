@@ -63,7 +63,7 @@
 
     iget-object v0, v0, Lyxc$d;->I:Landroid/content/Context;
 
-    const v2, 0x7f12059f
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_fb_update_timeout:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

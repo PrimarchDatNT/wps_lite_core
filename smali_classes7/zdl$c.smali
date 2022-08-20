@@ -144,7 +144,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e08e0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_share_item:I
 
     const/4 v1, 0x0
 
@@ -168,7 +168,7 @@
 
     check-cast p1, Lxql;
 
-    const p3, 0x7f0b2b7c
+    sget p3, Lcom/resouce/module/ResID;->share_item_image:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     invoke-virtual {p3, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p3, 0x7f0b2b81
+    sget p3, Lcom/resouce/module/ResID;->share_item_text:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2b82
+    sget p1, Lcom/resouce/module/ResID;->share_item_text_introduce:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

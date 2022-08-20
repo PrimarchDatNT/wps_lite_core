@@ -161,7 +161,7 @@
     .line 1
     iget-object p2, p0, Lzpk;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e1072
+    sget p3, Lcom/resouce/module/ResLAYOUT;->writer_bookmark_item:I
 
     const/4 v0, 0x0
 
@@ -187,7 +187,7 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const p3, 0x7f0b0235
+    sget p3, Lcom/resouce/module/ResID;->bookmark_dropdown_btn:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     check-cast p1, Lxpk;
 
-    const p3, 0x7f0b0239
+    sget p3, Lcom/resouce/module/ResID;->bookmark_progress_text:I
 
     .line 9
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -300,7 +300,7 @@
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_1
-    const p3, 0x7f0b023b
+    sget p3, Lcom/resouce/module/ResID;->bookmark_time_text:I
 
     .line 16
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0b0238
+    sget p3, Lcom/resouce/module/ResID;->bookmark_name_text:I
 
     .line 18
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

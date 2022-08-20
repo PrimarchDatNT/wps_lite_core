@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12272a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_processon_convert_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     aput-object v1, v3, v4
 
-    const v4, 0x7f122729
+    sget v4, Lcom/resouce/module/ResSTRING;->public_processon_convert_file:I
 
     invoke-virtual {v2, v4, v3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
 
     invoke-direct {v2, p0}, Lria$e$a;-><init>(Lria$e;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -118,7 +118,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -128,7 +128,7 @@
 
     invoke-direct {v3, p0, v1}, Lria$e$b;-><init>(Lria$e;Ljava/lang/String;)V
 
-    const v4, 0x7f121743
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_immediately:I
 
     invoke-virtual {v0, v4, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

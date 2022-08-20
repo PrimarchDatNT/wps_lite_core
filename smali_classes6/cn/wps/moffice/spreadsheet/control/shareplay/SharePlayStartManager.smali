@@ -60,15 +60,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080382
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_meeting:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080c0b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_wpsmeeting_et:I
 
     :goto_0
-    const v2, 0x7f121bf5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager$5;-><init>(Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager;II)V
 
@@ -81,15 +81,15 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f08029e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_projection:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080c59
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_projection_et:I
 
     :goto_1
-    const v2, 0x7f1229da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_paly_bar:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager$6;-><init>(Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager;II)V
 
@@ -272,7 +272,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager;->e:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -604,7 +604,7 @@
     .line 26
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager;->e:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v2, 0x7f0b2d79
+    sget v2, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -659,7 +659,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/shareplay/SharePlayStartManager;->e:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const p3, 0x7f0b2d79
+    sget p3, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     invoke-virtual {p1, p3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

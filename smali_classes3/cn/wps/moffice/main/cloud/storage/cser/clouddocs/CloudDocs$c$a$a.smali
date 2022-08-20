@@ -106,7 +106,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

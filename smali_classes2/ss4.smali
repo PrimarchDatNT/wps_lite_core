@@ -689,7 +689,7 @@
 
     aget p2, p2, v0
 
-    const v0, 0x7f080886
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     const/4 v1, 0x0
 
@@ -713,7 +713,7 @@
     :cond_2
     iget-object p1, p0, Lss4;->c:Lxk2;
 
-    const p2, 0x7f0810fe
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_template_privilege:I
 
     invoke-virtual {p1, p2, v0}, Lxk2;->r(II)V
 
@@ -726,7 +726,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122a9d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -749,9 +749,9 @@
     :cond_3
     iget-object p2, p0, Lss4;->c:Lxk2;
 
-    const v0, 0x7f0810f5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
-    const v3, 0x7f0810fa
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_icon_base:I
 
     invoke-virtual {p2, v0, v3}, Lxk2;->r(II)V
 
@@ -762,7 +762,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121c87
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -785,7 +785,7 @@
     :cond_4
     iget-object p2, p0, Lss4;->c:Lxk2;
 
-    const v3, 0x7f0810fc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
     invoke-virtual {p2, v3, v0}, Lxk2;->r(II)V
 
@@ -796,7 +796,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12260e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -909,7 +909,7 @@
 
     iget-object v0, p0, Lss4;->f:Landroid/app/Activity;
 
-    const v4, 0x7f121c9c
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
     .line 25
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1240,7 +1240,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122692
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_pay_success:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1259,7 +1259,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12275b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_purchase_version_attention:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1489,7 +1489,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1499,7 +1499,7 @@
 
     invoke-direct {v1, p0}, Lss4$f;-><init>(Lss4;)V
 
-    const v2, 0x7f121d28
+    sget v2, Lcom/resouce/module/ResSTRING;->public_amazon_tip_confirm:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1522,7 +1522,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

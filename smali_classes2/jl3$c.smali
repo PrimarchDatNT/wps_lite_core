@@ -58,7 +58,7 @@
 
     iget-object p1, p1, Ljl3;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v1, 0x0
 

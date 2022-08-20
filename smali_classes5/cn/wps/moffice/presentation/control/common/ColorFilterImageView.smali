@@ -72,7 +72,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f060009
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getColor(I)I
 

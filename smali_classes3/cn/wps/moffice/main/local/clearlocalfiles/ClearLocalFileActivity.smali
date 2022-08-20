@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dff
+    sget v2, Lcom/resouce/module/ResSTRING;->public_clear_file_dialog_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -115,9 +115,9 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(Ljava/lang/String;)V
 
-    const v1, 0x7f060526
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_start_color:I
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     const/4 v3, 0x0
 

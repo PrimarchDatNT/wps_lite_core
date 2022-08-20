@@ -38,7 +38,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f12251b    # 1.9425995E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     return v0
 .end method
@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0045
+    sget v2, Lcom/resouce/module/ResLAYOUT;->activity_new_file_en:I
 
     const/4 v3, 0x0
 

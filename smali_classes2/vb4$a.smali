@@ -43,18 +43,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b287f
+    sget v0, Lcom/resouce/module/ResID;->refresh_browse:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b15aa
+    sget v0, Lcom/resouce/module/ResID;->lelink_retry:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b29ff
+    sget v0, Lcom/resouce/module/ResID;->scan_code_cast_screen:I
 
     if-ne p1, v0, :cond_1
 
@@ -68,7 +68,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b2e14
+    sget v0, Lcom/resouce/module/ResID;->system_cast_screen:I
 
     if-ne p1, v0, :cond_3
 

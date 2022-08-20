@@ -182,7 +182,7 @@
 .method public static e(Landroid/app/Dialog;Landroid/view/View;Lie5$a;Landroid/content/Intent;)V
     .locals 0
 
-    const p2, 0x7f0b040b
+    sget p2, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 1
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f060043
+    sget p2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -255,7 +255,7 @@
 .method public static h(Landroid/content/Context;Landroid/view/View;Lie5$a;)V
     .locals 1
 
-    const v0, 0x7f0b3055
+    sget v0, Lcom/resouce/module/ResID;->toolbar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f06000a
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -283,7 +283,7 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f08119d
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottombar_shadow:I
 
     .line 4
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -327,7 +327,7 @@
 .method public static j(Landroid/content/Context;Landroid/view/View;Landroid/content/Intent;Lie5$a;Z)V
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0602c2
+    sget p2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     goto :goto_0
 
@@ -533,7 +533,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b301a
+    sget v3, Lcom/resouce/module/ResID;->titlebar:I
 
     const/4 v4, 0x0
 
@@ -546,7 +546,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0e051d
+    sget v7, Lcom/resouce/module/ResLAYOUT;->pad_documents_transition:I
 
     invoke-virtual {v6, v7, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -564,7 +564,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f070bac
+    sget v8, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_ver:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -585,7 +585,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0e06ab
+    sget v7, Lcom/resouce/module/ResLAYOUT;->phone_documents_transition:I
 
     invoke-virtual {v6, v7, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -615,7 +615,7 @@
     :cond_3
     new-instance v3, Lyd8$e;
 
-    const v6, 0x7f130135
+    sget v6, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     const/4 v7, 0x1
 

@@ -51,12 +51,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f130130
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Tag_Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -299,7 +299,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_tag_manager_dialog_input:I
 
     const/4 v2, 0x0
 
@@ -307,7 +307,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e80
+    sget v1, Lcom/resouce/module/ResID;->tag_new:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12302f
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_add_tag_hint:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12302b
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_add:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -398,7 +398,7 @@
 
     invoke-direct {v2, p0}, Lcn/wps/moffice/common/tag/widget/AddTagDialog$e;-><init>(Lcn/wps/moffice/common/tag/widget/AddTagDialog;)V
 
-    const v3, 0x7f121f40
+    sget v3, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {v1, v3, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -409,7 +409,7 @@
 
     invoke-direct {v2, p0}, Lcn/wps/moffice/common/tag/widget/AddTagDialog$f;-><init>(Lcn/wps/moffice/common/tag/widget/AddTagDialog;)V
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v4, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -434,7 +434,7 @@
     .line 15
     iget-object v2, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->B:Landroid/app/Activity;
 
-    const v5, 0x7f12303a
+    sget v5, Lcom/resouce/module/ResSTRING;->tag_giveup_tip:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -647,7 +647,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f99
+    sget v1, Lcom/resouce/module/ResLAYOUT;->tag_add_file_tag_dialog:I
 
     const/4 v2, 0x0
 
@@ -659,7 +659,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->V:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b044a
+    sget v1, Lcom/resouce/module/ResID;->close_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -671,7 +671,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->V:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b1a3d
+    sget v1, Lcom/resouce/module/ResID;->no_tag_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -682,7 +682,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->V:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b00fb
+    sget v1, Lcom/resouce/module/ResID;->all_tags:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/AddTagDialog;->V:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b00b5
+    sget v1, Lcom/resouce/module/ResID;->add_new_tag:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707bc
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -858,7 +858,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b044a
+    sget v0, Lcom/resouce/module/ResID;->close_dialog:I
 
     if-ne p1, v0, :cond_0
 
@@ -882,7 +882,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b00b5
+    sget v0, Lcom/resouce/module/ResID;->add_new_tag:I
 
     if-ne p1, v0, :cond_1
 

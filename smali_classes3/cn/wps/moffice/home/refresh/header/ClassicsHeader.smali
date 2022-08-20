@@ -101,12 +101,12 @@
     .line 4
     iput-boolean v1, p0, Lcn/wps/moffice/home/refresh/header/ClassicsHeader;->o0:Z
 
-    const v2, 0x7f0e0f4c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->srl_classics_header:I
 
     .line 5
     invoke-static {p1, v2, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v2, 0x7f0b2cd6
+    sget v2, Lcom/resouce/module/ResID;->srl_classics_arrow:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/home/refresh/internal/InternalClassics;->U:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2cda
+    sget v3, Lcom/resouce/module/ResID;->srl_classics_update:I
 
     .line 7
     invoke-virtual {p0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/home/refresh/header/ClassicsHeader;->l0:Landroid/widget/TextView;
 
-    const v4, 0x7f0b2cd8
+    sget v4, Lcom/resouce/module/ResID;->srl_classics_progress:I
 
     .line 8
     invoke-virtual {p0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/home/refresh/internal/InternalClassics;->V:Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2cd9
+    sget v5, Lcom/resouce/module/ResID;->srl_classics_title:I
 
     .line 9
     invoke-virtual {p0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
     goto :goto_2
 
     :cond_9
-    const v1, 0x7f122fab
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_pulling:I
 
     .line 52
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -582,7 +582,7 @@
     goto :goto_3
 
     :cond_b
-    const v1, 0x7f122faa
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_loading:I
 
     .line 57
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -622,7 +622,7 @@
     goto :goto_4
 
     :cond_d
-    const v1, 0x7f122fad
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_release:I
 
     .line 62
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -662,7 +662,7 @@
     goto :goto_5
 
     :cond_f
-    const v1, 0x7f122fa9
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_finish:I
 
     .line 67
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -702,7 +702,7 @@
     goto :goto_6
 
     :cond_11
-    const v1, 0x7f122fa8
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_failed:I
 
     .line 72
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -742,7 +742,7 @@
     goto :goto_7
 
     :cond_13
-    const v1, 0x7f122fae
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_secondary:I
 
     .line 77
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -782,7 +782,7 @@
     goto :goto_8
 
     :cond_15
-    const v1, 0x7f122fac
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_refreshing:I
 
     .line 82
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -822,7 +822,7 @@
     goto :goto_9
 
     :cond_17
-    const v1, 0x7f122faf
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_header_update:I
 
     .line 87
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

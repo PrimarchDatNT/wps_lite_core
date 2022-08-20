@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060691
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_borad_1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060692
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_borad_2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060693
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_borad_3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060694
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_borad_4:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -135,7 +135,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060695
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_borad_5:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20f7
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,12 +219,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f1221f3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_frame_color:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b20f6
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -56,9 +56,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1226e8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
-    const v4, 0x7f08169b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     invoke-direct {v1, p0, v2, v3, v4}, Lu7a$b;-><init>(Lu7a;III)V
 
@@ -71,9 +71,9 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f122c05
+    sget v3, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
-    const v4, 0x7f0816a8
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_whatsapp:I
 
     invoke-direct {v1, p0, v2, v3, v4}, Lu7a$b;-><init>(Lu7a;III)V
 
@@ -86,9 +86,9 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f12201b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_download:I
 
-    const v4, 0x7f08169f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_download:I
 
     invoke-direct {v1, p0, v2, v3, v4}, Lu7a$b;-><init>(Lu7a;III)V
 
@@ -101,9 +101,9 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f120ffb
+    sget v3, Lcom/resouce/module/ResSTRING;->home_open_phone:I
 
-    const v4, 0x7f0816a1
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_phone:I
 
     invoke-direct {v1, p0, v2, v3, v4}, Lu7a$b;-><init>(Lu7a;III)V
 
@@ -116,9 +116,9 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f1204a7
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
-    const v4, 0x7f0816a3
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_scanner:I
 
     invoke-direct {v1, p0, v2, v3, v4}, Lu7a$b;-><init>(Lu7a;III)V
 
@@ -378,7 +378,7 @@
     :catch_0
     iget-object p1, p0, Lu7a;->U:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x0
 
@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0186
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_phone_file_manage_top_item:I
 
     const/4 v2, 0x0
 
@@ -452,7 +452,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b0ddb
+    sget v0, Lcom/resouce/module/ResID;->folder_container:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
 
     iput-object v0, p2, Lu7a$c;->a:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0de1
+    sget v0, Lcom/resouce/module/ResID;->folder_icon:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -474,7 +474,7 @@
 
     iput-object v0, p2, Lu7a$c;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0e09
+    sget v0, Lcom/resouce/module/ResID;->folder_name:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
     .line 7
     invoke-virtual {p3, p2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v0, 0x7f0b27ab
+    sget v0, Lcom/resouce/module/ResID;->quick_access_type:I
 
     .line 8
     invoke-virtual {p1}, Lu7a$b;->c()I

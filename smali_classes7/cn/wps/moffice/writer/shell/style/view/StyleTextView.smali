@@ -20,7 +20,7 @@
     .line 1
     invoke-direct {p0, p1}, Lcn/wpsx/support/ui/BaseTextView;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f081441
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_check_icon:I
 
     .line 2
     iput p1, p0, Lcn/wps/moffice/writer/shell/style/view/StyleTextView;->B:I

@@ -53,7 +53,7 @@
     :goto_0
     if-ge v4, v2, :cond_0
 
-    const v5, 0x7f0e0cd0
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_list_icon_text_item:I
 
     .line 5
     invoke-virtual {v1, v5, v0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     invoke-virtual {v5, v7}, Landroid/view/View;->setId(I)V
 
-    const v7, 0x7f0b2664
+    sget v7, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 9
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     invoke-virtual {v7, v8}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v7, 0x7f0b2667
+    sget v7, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 10
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;

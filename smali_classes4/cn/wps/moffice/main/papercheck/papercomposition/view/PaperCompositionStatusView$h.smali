@@ -134,7 +134,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200cc
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_error_by_third:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

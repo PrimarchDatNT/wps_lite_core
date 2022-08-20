@@ -45,32 +45,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f06025d
+    sget p0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060004
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDMainColor:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060006
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f060009
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f060002
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f06000c
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     return p0
 .end method
@@ -89,37 +89,37 @@
 
     packed-switch p0, :pswitch_data_0
 
-    const p0, 0x7f060533
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_default_theme_textcolor:I
 
     return p0
 
     :pswitch_0
-    const p0, 0x7f060549
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_home_theme_textcolor:I
 
     return p0
 
     :pswitch_1
-    const p0, 0x7f060004
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDMainColor:I
 
     return p0
 
     :pswitch_2
-    const p0, 0x7f060006
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     return p0
 
     :pswitch_3
-    const p0, 0x7f060009
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     return p0
 
     :pswitch_4
-    const p0, 0x7f060002
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     return p0
 
     :pswitch_5
-    const p0, 0x7f0605c2
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_writer_theme_textcolor:I
 
     return p0
 

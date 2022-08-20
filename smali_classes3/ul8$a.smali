@@ -44,7 +44,7 @@
     .line 2
     iput-object p1, p0, Lul8$a;->a:Landroid/view/View;
 
-    const p1, 0x7f0b059a
+    sget p1, Lcom/resouce/module/ResID;->coupon_icon:I
 
     .line 3
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object p1, p0, Lul8$a;->b:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b05b0
+    sget p1, Lcom/resouce/module/ResID;->coupon_type_text:I
 
     .line 4
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Lul8$a;->c:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0598
+    sget p1, Lcom/resouce/module/ResID;->coupon_desc_text:I
 
     .line 5
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lul8$a;->d:Landroid/widget/TextView;
 
-    const p1, 0x7f0b05a8
+    sget p1, Lcom/resouce/module/ResID;->coupon_sale_off_text:I
 
     .line 6
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p1, p0, Lul8$a;->e:Landroid/widget/TextView;
 
-    const p1, 0x7f0b05b1
+    sget p1, Lcom/resouce/module/ResID;->coupon_validity_text:I
 
     .line 7
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iput-object p1, p0, Lul8$a;->f:Landroid/widget/TextView;
 
-    const p1, 0x7f0b05a9
+    sget p1, Lcom/resouce/module/ResID;->coupon_shade:I
 
     .line 8
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object p1, p0, Lul8$a;->g:Landroid/view/View;
 
-    const p1, 0x7f0b05af
+    sget p1, Lcom/resouce/module/ResID;->coupon_type:I
 
     .line 9
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object p1, p0, Lul8$a;->h:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0596
+    sget p1, Lcom/resouce/module/ResID;->coupon_bottom_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Lul8$a;->a(I)Landroid/view/View;

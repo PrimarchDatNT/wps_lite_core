@@ -48,7 +48,7 @@
 
     const-string v0, "Doc2WebUtil"
 
-    const v1, 0x7f1206dc
+    sget v1, Lcom/resouce/module/ResSTRING;->download_photo_fail:I
 
     .line 1
     :try_start_0
@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122833
+    sget v3, Lcom/resouce/module/ResSTRING;->public_saved_qrcode_picture_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -52,12 +52,12 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f080f74
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_public_divide_item_selector:I
 
     .line 2
     iput v0, p0, Lupf$c;->a:I
 
-    const v0, 0x7f06058d
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_ss_theme_color:I
 
     .line 3
     iput v0, p0, Lupf$c;->b:I
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

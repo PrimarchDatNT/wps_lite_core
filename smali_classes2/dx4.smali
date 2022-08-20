@@ -41,7 +41,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Landroid/graphics/Point;)V
     .locals 1
 
-    const v0, 0x7f130136
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Pull_And_Fade_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -574,7 +574,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b88
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cooperate_member_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -582,7 +582,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1622
+    sget v1, Lcom/resouce/module/ResID;->list_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->x(Landroidx/recyclerview/widget/RecyclerView$p;)V
 
-    const v1, 0x7f0b154f
+    sget v1, Lcom/resouce/module/ResID;->layout_max:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -629,7 +629,7 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    const v1, 0x7f0b31c7
+    sget v1, Lcom/resouce/module/ResID;->tv_join_web:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1073,7 +1073,7 @@
     .line 3
     iget-object v2, p0, Ldx4;->I:Landroid/view/View;
 
-    const v3, 0x7f0b33a9
+    sget v3, Lcom/resouce/module/ResID;->view_set_as_cooperation_doc:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1106,7 +1106,7 @@
     .line 8
     iget-object v2, p0, Ldx4;->I:Landroid/view/View;
 
-    const v4, 0x7f0b15c2
+    sget v4, Lcom/resouce/module/ResID;->line_set_as_cooperation_doc:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

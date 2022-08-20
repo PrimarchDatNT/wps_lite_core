@@ -370,24 +370,24 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f1231ba
+    sget v1, Lcom/resouce/module/ResSTRING;->website_export_pdf_height_limit:I
 
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f1231bb
+    sget v1, Lcom/resouce/module/ResSTRING;->website_export_pdf_privilege:I
 
     goto :goto_1
 
     :cond_4
     if-eqz v1, :cond_5
 
-    const v1, 0x7f1231b7
+    sget v1, Lcom/resouce/module/ResSTRING;->website_export_long_pic_height_limit:I
 
     goto :goto_1
 
     :cond_5
-    const v1, 0x7f1231b8
+    sget v1, Lcom/resouce/module/ResSTRING;->website_export_long_pic_privilege:I
 
     .line 9
     :goto_1
@@ -400,7 +400,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -413,12 +413,12 @@
 
     if-eqz v2, :cond_6
 
-    const v2, 0x7f121c8e
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     goto :goto_2
 
     :cond_6
-    const v2, 0x7f120fb1
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 12
     :goto_2
@@ -428,7 +428,7 @@
 
     invoke-virtual {v0, v2, v1, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     new-instance v1, Lmkb$b;

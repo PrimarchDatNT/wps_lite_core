@@ -16,12 +16,12 @@
     .line 1
     invoke-direct {p0, p1}, Lcyc;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f0e0662
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pdf_popup_privilege_container:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f0b2fd7
+    sget p1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -32,7 +32,7 @@
 
     iput-object p1, p0, Lvrc;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p1, 0x7f0b1efe
+    sget p1, Lcom/resouce/module/ResID;->pdf_privilege_container:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
     .line 7
     iget-object p1, p0, Lvrc;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

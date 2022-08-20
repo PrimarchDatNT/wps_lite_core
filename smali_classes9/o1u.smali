@@ -685,7 +685,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0704bf
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_shape_corner_size_small_component:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -702,7 +702,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07047c
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_exposed_dropdown_menu_popup_elevation:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -719,7 +719,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07047e
+    sget v3, Lcom/resouce/module/ResDIMEN;->mtrl_exposed_dropdown_menu_popup_vertical_padding:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -773,12 +773,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080aa5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->mtrl_dropdown_arrow:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080aa6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->mtrl_ic_arrow_drop_down:I
 
     .line 17
     :goto_0
@@ -800,7 +800,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c9d
+    sget v2, Lcom/resouce/module/ResSTRING;->exposed_dropdown_menu_content_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -907,7 +907,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f040130
+    sget v2, Lcom/resouce/module/ResATTR;->colorControlHighlight:I
 
     .line 4
     invoke-static {p1, v2}, Luxt;->d(Landroid/view/View;I)I
@@ -1079,7 +1079,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040140
+    sget v0, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 1
     invoke-static {p1, v0}, Luxt;->d(Landroid/view/View;I)I

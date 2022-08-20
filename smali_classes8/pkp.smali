@@ -139,7 +139,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0072
+    sget v2, Lcom/resouce/module/ResLAYOUT;->app_widget_day_calendar_empty:I
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -173,12 +173,12 @@
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    const v2, 0x7f0b0619
+    sget v2, Lcom/resouce/module/ResID;->data_calendar_app_widget_lv:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setRemoteAdapter(ILandroid/content/Intent;)V
 
-    const v1, 0x7f0b0854
+    sget v1, Lcom/resouce/module/ResID;->empty_calendar_app_widget_ll:I
 
     .line 7
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setEmptyView(II)V
@@ -208,7 +208,7 @@
     const/16 v2, 0x8
 
     :goto_0
-    const v3, 0x7f0b0619
+    sget v3, Lcom/resouce/module/ResID;->data_calendar_app_widget_lv:I
 
     .line 1
     invoke-virtual {p1, v3, v2}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -221,7 +221,7 @@
     const/4 v0, 0x0
 
     :goto_1
-    const p2, 0x7f0b1a60
+    sget p2, Lcom/resouce/module/ResID;->not_login_calendar_app_widget_ll:I
 
     .line 2
     invoke-virtual {p1, p2, v0}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -234,7 +234,7 @@
 
     const-string v4, "cn.wps.widget.calendar.GO_TO_SCHEDULE_MINI_PROGRAM"
 
-    const v5, 0x7f0b0854
+    sget v5, Lcom/resouce/module/ResID;->empty_calendar_app_widget_ll:I
 
     const/high16 v6, 0x8000000
 
@@ -374,7 +374,7 @@
     .line 24
     iget-object p3, p0, Lpkp;->a:Landroid/content/Context;
 
-    const p4, 0x7f0b0c95
+    sget p4, Lcom/resouce/module/ResID;->feedback_calendar_app_widget_tv:I
 
     invoke-static {p3, p4, p2, v6}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
@@ -424,7 +424,7 @@
     .line 5
     iget-object v1, p0, Lpkp;->a:Landroid/content/Context;
 
-    const v2, 0x7f0b0faf
+    sget v2, Lcom/resouce/module/ResID;->header_calendar_app_widget_fl:I
 
     const/high16 v3, 0x8000000
 
@@ -468,12 +468,12 @@
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    const v1, 0x7f0b0619
+    sget v1, Lcom/resouce/module/ResID;->data_calendar_app_widget_lv:I
 
     .line 4
     invoke-virtual {p1, v1, v0}, Landroid/widget/RemoteViews;->setRemoteAdapter(ILandroid/content/Intent;)V
 
-    const v2, 0x7f0b0854
+    sget v2, Lcom/resouce/module/ResID;->empty_calendar_app_widget_ll:I
 
     .line 5
     invoke-virtual {p1, v1, v2}, Landroid/widget/RemoteViews;->setEmptyView(II)V
@@ -543,7 +543,7 @@
     .line 14
     iget-object p2, p0, Lpkp;->a:Landroid/content/Context;
 
-    const v1, 0x7f0b29a9
+    sget v1, Lcom/resouce/module/ResID;->root_calendar_app_widget_ll:I
 
     invoke-static {p2, v1, v2, v0}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
@@ -585,7 +585,7 @@
     .line 3
     iget-object v1, p0, Lpkp;->a:Landroid/content/Context;
 
-    const v2, 0x7f0b00a4
+    sget v2, Lcom/resouce/module/ResID;->add_calendar_app_widget_iv:I
 
     const/high16 v3, 0x8000000
 
@@ -649,7 +649,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b18e6
+    sget v3, Lcom/resouce/module/ResID;->more_calendar_app_widget_iv:I
 
     invoke-virtual {p1, v3, v0}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -691,7 +691,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f0b0145
+    sget v5, Lcom/resouce/module/ResID;->app_widget_calendar_setting_panel:I
 
     .line 11
     invoke-virtual {p1, v5, v0}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -727,7 +727,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b0144
+    sget p3, Lcom/resouce/module/ResID;->app_widget_calendar_setting:I
 
     .line 16
     invoke-virtual {p1, p3, p2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -784,7 +784,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b0143
+    sget p3, Lcom/resouce/module/ResID;->app_widget_calendar_refresh:I
 
     .line 6
     invoke-virtual {p1, p3, p2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -804,7 +804,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0071
+    sget v2, Lcom/resouce/module/ResLAYOUT;->app_widget_day_calendar:I
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -832,7 +832,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0140
+    sget v2, Lcom/resouce/module/ResID;->app_widget_calendar_bg:I
 
     invoke-virtual {p2, v2, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -841,7 +841,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b0142
+    sget v3, Lcom/resouce/module/ResID;->app_widget_calendar_pop:I
 
     invoke-virtual {p2, v3, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -850,7 +850,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b1a38
+    sget v3, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_bg:I
 
     invoke-virtual {p2, v3, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -859,7 +859,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0c5b
+    sget v1, Lcom/resouce/module/ResID;->fail_tips_calendar_app_widget_bg:I
 
     invoke-virtual {p2, v1, v0}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -1014,12 +1014,12 @@
 
     if-ne p1, v5, :cond_5
 
-    const v6, 0x7f0b0141
+    sget v6, Lcom/resouce/module/ResID;->app_widget_calendar_no_task_text:I
 
     .line 7
     iget-object v7, p0, Lpkp;->a:Landroid/content/Context;
 
-    const v8, 0x7f120128
+    sget v8, Lcom/resouce/module/ResSTRING;->app_widget_calendar_no_task_1:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1027,12 +1027,12 @@
 
     invoke-virtual {v4, v6, v7}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v6, 0x7f0b0436
+    sget v6, Lcom/resouce/module/ResID;->click_to_add_text:I
 
     .line 8
     iget-object v7, p0, Lpkp;->a:Landroid/content/Context;
 
-    const v8, 0x7f120129
+    sget v8, Lcom/resouce/module/ResSTRING;->app_widget_calendar_no_task_2:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1040,12 +1040,12 @@
 
     invoke-virtual {v4, v6, v7}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v6, 0x7f0b0c5c
+    sget v6, Lcom/resouce/module/ResID;->fail_tips_calendar_app_widget_fl:I
 
     .line 9
     invoke-virtual {v4, v6, v5}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v6, 0x7f0b1a39
+    sget v6, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_fl:I
 
     .line 10
     invoke-virtual {v4, v6, v5}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -1085,7 +1085,7 @@
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_5
-    const v1, 0x7f0b1724
+    sget v1, Lcom/resouce/module/ResID;->loading_calendar_app_widget_pb:I
 
     .line 13
     invoke-virtual {v4, v1, p1}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -1136,7 +1136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0145
+    sget v1, Lcom/resouce/module/ResID;->app_widget_calendar_setting_panel:I
 
     .line 3
     invoke-virtual {v0, v1, p1}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -1197,47 +1197,47 @@
 
     invoke-static {v1, v0}, Lp2q;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0146
+    sget v0, Lcom/resouce/module/ResID;->app_widget_calendar_title:I
 
     .line 3
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0437
+    sget v0, Lcom/resouce/module/ResID;->click_to_login:I
 
     .line 4
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0141
+    sget v0, Lcom/resouce/module/ResID;->app_widget_calendar_no_task_text:I
 
     .line 5
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0143
+    sget v0, Lcom/resouce/module/ResID;->app_widget_calendar_refresh:I
 
     .line 6
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0144
+    sget v0, Lcom/resouce/module/ResID;->app_widget_calendar_setting:I
 
     .line 7
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b2e11
+    sget v0, Lcom/resouce/module/ResID;->sync_calendar_data:I
 
     .line 8
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0436
+    sget v0, Lcom/resouce/module/ResID;->click_to_add_text:I
 
     .line 9
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b1a3a
+    sget v0, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_tv:I
 
     .line 10
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b0c5d
+    sget v0, Lcom/resouce/module/ResID;->fail_tips_calendar_app_widget_tv:I
 
     .line 11
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
@@ -1342,7 +1342,7 @@
 
     if-nez v1, :cond_4
 
-    const v12, 0x7f0b1724
+    sget v12, Lcom/resouce/module/ResID;->loading_calendar_app_widget_pb:I
 
     .line 6
     invoke-virtual {v11, v12, v10}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
@@ -1482,9 +1482,9 @@
 
     move/from16 v19, v15
 
-    const v14, 0x7f0b1a39
+    sget v14, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_fl:I
 
-    const v15, 0x7f0b0c5c
+    sget v15, Lcom/resouce/module/ResID;->fail_tips_calendar_app_widget_fl:I
 
     if-eq v13, v3, :cond_e
 
@@ -1636,26 +1636,26 @@
     :goto_4
     iget-object v2, v0, Lpkp;->a:Landroid/content/Context;
 
-    const v3, 0x7f12011f
+    sget v3, Lcom/resouce/module/ResSTRING;->app_widget_calendar_fail1:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0b0141
+    sget v3, Lcom/resouce/module/ResID;->app_widget_calendar_no_task_text:I
 
     invoke-virtual {v11, v3, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 24
     iget-object v2, v0, Lpkp;->a:Landroid/content/Context;
 
-    const v3, 0x7f120120
+    sget v3, Lcom/resouce/module/ResSTRING;->app_widget_calendar_fail2:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0b0436
+    sget v3, Lcom/resouce/module/ResID;->click_to_add_text:I
 
     invoke-virtual {v11, v3, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
@@ -1736,7 +1736,7 @@
 
     if-nez v2, :cond_10
 
-    const v2, 0x7f0b1a39
+    sget v2, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_fl:I
 
     const/16 v14, 0x8
 
@@ -1783,7 +1783,7 @@
 
     invoke-static {v9, v3}, Lp2q;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f0b1a39
+    sget v2, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_fl:I
 
     const/4 v3, 0x0
 
@@ -1793,7 +1793,7 @@
     goto :goto_6
 
     :cond_11
-    const v2, 0x7f0b1a39
+    sget v2, Lcom/resouce/module/ResID;->no_network_calendar_app_widget_fl:I
 
     .line 34
     new-instance v5, Ljava/lang/StringBuilder;
@@ -1821,26 +1821,26 @@
     :goto_6
     iget-object v2, v0, Lpkp;->a:Landroid/content/Context;
 
-    const v3, 0x7f120126
+    sget v3, Lcom/resouce/module/ResSTRING;->app_widget_calendar_no_network1:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0b0141
+    sget v3, Lcom/resouce/module/ResID;->app_widget_calendar_no_task_text:I
 
     invoke-virtual {v11, v3, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
     .line 37
     iget-object v2, v0, Lpkp;->a:Landroid/content/Context;
 
-    const v3, 0x7f120127
+    sget v3, Lcom/resouce/module/ResSTRING;->app_widget_calendar_no_network2:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0b0436
+    sget v3, Lcom/resouce/module/ResID;->click_to_add_text:I
 
     invoke-virtual {v11, v3, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
@@ -2005,7 +2005,7 @@
     .line 13
     sget-object v6, Lpkp;->d:Landroid/appwidget/AppWidgetManager;
 
-    const v7, 0x7f0b0619
+    sget v7, Lcom/resouce/module/ResID;->data_calendar_app_widget_lv:I
 
     invoke-virtual {v6, v5, v7}, Landroid/appwidget/AppWidgetManager;->notifyAppWidgetViewDataChanged(II)V
     :try_end_0

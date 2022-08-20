@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0100
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_shortcut_permission_tip:I
 
     const/4 v2, 0x0
 
@@ -106,7 +106,7 @@
 .method public final r2(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b31ca
+    sget v0, Lcom/resouce/module/ResID;->tv_later:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v0, p0, Lr1f;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32b8
+    sget v0, Lcom/resouce/module/ResID;->tv_yes:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3295
+    sget v0, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b3131
+    sget v1, Lcom/resouce/module/ResID;->tv_content:I
 
     .line 12
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060657
+    sget v3, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -248,7 +248,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -287,7 +287,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

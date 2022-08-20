@@ -159,7 +159,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12192b
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_watermark_no_delete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

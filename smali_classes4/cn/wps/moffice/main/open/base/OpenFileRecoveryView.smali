@@ -41,13 +41,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e072f
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_home_open_file_recovery_item:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b106e    # 1.84848E38f
+    sget p1, Lcom/resouce/module/ResID;->home_file_recovery_item:I    # 1.84848E38f
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

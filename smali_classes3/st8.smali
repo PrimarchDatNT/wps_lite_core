@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070388
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_settings_oversea_promotion_item_img_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07038a
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_settings_oversea_promotion_item_img_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -111,7 +111,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070389
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_settings_oversea_promotion_item_img_padding:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0281
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_promotion_acts_item:I
 
     const/4 v2, 0x0
 
@@ -205,7 +205,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2559
+    sget v1, Lcom/resouce/module/ResID;->promotion_act_img:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object v1, p2, Lst8$a;->a:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f0b255a
+    sget v1, Lcom/resouce/module/ResID;->promotion_act_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     iput-object v1, p2, Lst8$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2558
+    sget v1, Lcom/resouce/module/ResID;->promotion_act_expiration_date:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -287,7 +287,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120c98
+    sget v3, Lcom/resouce/module/ResSTRING;->expire_date:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0809e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 14
     invoke-virtual {p3}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -369,7 +369,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getColor(I)I
 

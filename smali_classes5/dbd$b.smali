@@ -141,7 +141,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f120e38
+    sget v7, Lcom/resouce/module/ResSTRING;->home_account_member_effect_tips_today:I
 
     invoke-virtual {v6, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f120e37
+    sget v8, Lcom/resouce/module/ResSTRING;->home_account_member_effect_tips:I
 
     invoke-virtual {v7, v8}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -256,7 +256,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120e3d
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member_expired_tips_today:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -284,7 +284,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f120e3c
+    sget v6, Lcom/resouce/module/ResSTRING;->home_account_member_expired_tips:I
 
     invoke-virtual {v2, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

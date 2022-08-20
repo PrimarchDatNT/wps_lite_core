@@ -108,7 +108,7 @@
 
     iget-object p1, p1, Ly1b;->Y:Landroid/widget/TextView;
 
-    const p2, 0x7f1205a6
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -175,7 +175,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/CreateShareFolderFragment;->U:Landroid/app/Activity;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v2, 0x0
 
@@ -240,7 +240,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121153
+    sget v3, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -305,7 +305,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121153
+    sget v2, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -483,7 +483,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0e7e
+    sget p2, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 10
     invoke-virtual {p1, p2, v0}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -543,7 +543,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p3, 0x7f0e0b51
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_cloud_share_folder_create_layout:I
 
     const/4 v0, 0x0
 
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b05ca
+    sget p2, Lcom/resouce/module/ResID;->create_share_folder_titlebar_layout:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -563,7 +563,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/CreateShareFolderFragment;->B:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f0b2bb7
+    sget p2, Lcom/resouce/module/ResID;->share_with_share_folder_edit_text:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/CreateShareFolderFragment;->I:Landroid/widget/EditText;
 
-    const p2, 0x7f0b06fb
+    sget p2, Lcom/resouce/module/ResID;->do_create:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

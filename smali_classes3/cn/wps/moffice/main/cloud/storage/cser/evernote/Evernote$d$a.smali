@@ -297,7 +297,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/cser/evernote/Evernote$d$a;->W:Lta8;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     if-eqz p1, :cond_4
 
@@ -345,7 +345,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120ec8
+    sget v1, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_notebook_not_found:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -372,7 +372,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120ece
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_upload_reach_limit:I
 
     invoke-virtual {p1, v0}, Lla8$h;->h(I)V
 

@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const p5, 0x7f1233bd
+    sget p5, Lcom/resouce/module/ResSTRING;->writer_merge_encoding_error:I
 
     const/4 v0, 0x0
 
@@ -239,7 +239,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121d00
+    sget v0, Lcom/resouce/module/ResSTRING;->public_add_file_fail:I
 
     const/4 v1, 0x0
 

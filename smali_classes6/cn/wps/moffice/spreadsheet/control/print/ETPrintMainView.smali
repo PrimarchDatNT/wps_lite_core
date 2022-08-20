@@ -59,7 +59,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b28
+    sget v1, Lcom/resouce/module/ResID;->et_print_printsetting_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -72,7 +72,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b1c
+    sget v1, Lcom/resouce/module/ResID;->et_print_pagesetting_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -85,7 +85,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b24
+    sget v1, Lcom/resouce/module/ResID;->et_print_printarea_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -98,7 +98,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b26
+    sget v1, Lcom/resouce/module/ResID;->et_print_printsetting_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b1a
+    sget v1, Lcom/resouce/module/ResID;->et_print_pagesetting_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b22
+    sget v1, Lcom/resouce/module/ResID;->et_print_printarea_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b1e
+    sget v1, Lcom/resouce/module/ResID;->et_print_preview_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b27
+    sget v1, Lcom/resouce/module/ResID;->et_print_printsetting_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -181,7 +181,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b1b
+    sget v1, Lcom/resouce/module/ResID;->et_print_pagesetting_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -192,7 +192,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b23
+    sget v1, Lcom/resouce/module/ResID;->et_print_printarea_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b1f
+    sget v1, Lcom/resouce/module/ResID;->et_print_preview_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -211,7 +211,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintMainView;->u0:Landroid/view/View;
 
-    const v0, 0x7f0b0b19
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_setting_btn:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0b02
+    sget v0, Lcom/resouce/module/ResID;->et_print_area_setting_btn:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e022b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_print_dialog:I
 
     const/4 v2, 0x1
 
@@ -256,7 +256,7 @@
     .line 3
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b0b0d
+    sget v0, Lcom/resouce/module/ResID;->et_print_dialog_top:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
@@ -313,7 +313,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -328,7 +328,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -385,7 +385,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -458,11 +458,11 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b0b26
+    sget v4, Lcom/resouce/module/ResID;->et_print_printsetting_btn:I
 
     if-ne v0, v4, :cond_1
 
@@ -473,7 +473,7 @@
 
     move-result p1
 
-    const v0, 0x7f122714
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_setting:I
 
     if-nez p1, :cond_0
 
@@ -499,7 +499,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0b2a
+    sget v5, Lcom/resouce/module/ResID;->et_print_setting:I
 
     .line 8
     invoke-virtual {p1, v4, v5}, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->a(Ljava/lang/String;I)V
@@ -568,7 +568,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v4, 0x7f0b0b1a
+    sget v4, Lcom/resouce/module/ResID;->et_print_pagesetting_btn:I
 
     if-ne v0, v4, :cond_3
 
@@ -579,7 +579,7 @@
 
     move-result p1
 
-    const v0, 0x7f1225e1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_setting:I
 
     if-nez p1, :cond_2
 
@@ -607,7 +607,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0b0aea
+    sget v5, Lcom/resouce/module/ResID;->et_page_setting:I
 
     .line 20
     invoke-virtual {p1, v1, v5}, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->a(Ljava/lang/String;I)V
@@ -676,7 +676,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v4, 0x7f0b0b22
+    sget v4, Lcom/resouce/module/ResID;->et_print_printarea_btn:I
 
     if-ne v0, v4, :cond_5
 
@@ -687,7 +687,7 @@
 
     move-result p1
 
-    const v0, 0x7f120bdf
+    sget v0, Lcom/resouce/module/ResSTRING;->et_print_area:I
 
     if-nez p1, :cond_4
 
@@ -715,7 +715,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0b0b00
+    sget v5, Lcom/resouce/module/ResID;->et_print_area_set:I
 
     .line 32
     invoke-virtual {p1, v1, v5}, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->a(Ljava/lang/String;I)V
@@ -784,7 +784,7 @@
     goto :goto_0
 
     :cond_5
-    const v4, 0x7f0b0b1e
+    sget v4, Lcom/resouce/module/ResID;->et_print_preview_btn:I
 
     if-ne v0, v4, :cond_8
 
@@ -795,7 +795,7 @@
 
     move-result v0
 
-    const v4, 0x7f1226f9
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_preview:I
 
     if-nez v0, :cond_6
 
@@ -821,7 +821,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b0b1d
+    sget v6, Lcom/resouce/module/ResID;->et_print_preview:I
 
     .line 44
     invoke-virtual {v0, v5, v6}, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->a(Ljava/lang/String;I)V
@@ -913,7 +913,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->d0:Landroid/content/Context;
 
-    const v1, 0x7f120bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->et_print_area:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1086,7 +1086,7 @@
 .method public setLayout(I)V
     .locals 5
 
-    const p1, 0x7f0b0b0d
+    sget p1, Lcom/resouce/module/ResID;->et_print_dialog_top:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

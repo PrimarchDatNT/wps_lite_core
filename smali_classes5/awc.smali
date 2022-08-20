@@ -29,7 +29,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     return v0
 .end method
@@ -37,7 +37,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     return v0
 .end method

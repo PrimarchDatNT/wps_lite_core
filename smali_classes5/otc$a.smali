@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d5b
+    sget v0, Lcom/resouce/module/ResID;->pdf_annotation_super_note:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1d58
+    sget v0, Lcom/resouce/module/ResID;->pdf_annotation_pen:I
 
     if-ne p1, v0, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1d51
+    sget v0, Lcom/resouce/module/ResID;->pdf_annotation_add_text_comment:I
 
     if-ne p1, v0, :cond_2
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1d53
+    sget v0, Lcom/resouce/module/ResID;->pdf_annotation_export_focus:I
 
     if-ne p1, v0, :cond_3
 
@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1d55
+    sget v0, Lcom/resouce/module/ResID;->pdf_annotation_extract_text:I
 
     if-ne p1, v0, :cond_4
 
@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b1e7b
+    sget v0, Lcom/resouce/module/ResID;->pdf_new_feature_suggestions:I
 
     if-ne p1, v0, :cond_5
 

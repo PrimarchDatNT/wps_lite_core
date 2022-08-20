@@ -32,7 +32,7 @@
     .line 3
     sput-boolean p2, Lhce;->F:Z
 
-    const p2, 0x7f070a4e
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_horizontal_pad:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -43,7 +43,7 @@
 
     iput p2, p0, Lgce;->p:I
 
-    const p2, 0x7f070a53
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_vertical_pad:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -54,7 +54,7 @@
 
     iput p2, p0, Lgce;->q:I
 
-    const p2, 0x7f070a41
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -70,12 +70,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0709bb
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_play_slide_list_height_v:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f070a3f
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -115,7 +115,7 @@
 .method public static Q(Lcn/wps/show/app/KmoPresentation;Landroid/content/res/Resources;)F
     .locals 6
 
-    const v0, 0x7f070a41
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -129,12 +129,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0709bb
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_play_slide_list_height_v:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070a3f
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v:I
 
     :goto_0
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -153,7 +153,7 @@
 
     move-result v1
 
-    const v2, 0x7f070a50
+    sget v2, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_left:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -162,7 +162,7 @@
 
     float-to-int v2, v2
 
-    const v3, 0x7f070a52
+    sget v3, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_top:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getDimension(I)F
@@ -171,7 +171,7 @@
 
     float-to-int v3, v3
 
-    const v4, 0x7f070a51
+    sget v4, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_right:I
 
     .line 7
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getDimension(I)F
@@ -180,7 +180,7 @@
 
     float-to-int v4, v4
 
-    const v5, 0x7f070a4f
+    sget v5, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_bottom:I
 
     .line 8
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getDimension(I)F

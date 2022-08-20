@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ace
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_shareplay_progressbar_normal:I
 
     const/4 v2, 0x0
 
@@ -57,7 +57,7 @@
     .line 7
     iget-object p1, p0, Lj1e;->B:Landroid/view/View;
 
-    const p2, 0x7f0b052b
+    sget p2, Lcom/resouce/module/ResID;->connecting:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -70,7 +70,7 @@
     .line 8
     iget-object p1, p0, Lj1e;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2426
+    sget p2, Lcom/resouce/module/ResID;->ppt_shareplay_progressDialog_cancel_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

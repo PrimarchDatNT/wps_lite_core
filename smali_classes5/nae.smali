@@ -291,7 +291,7 @@
 .method public final B(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

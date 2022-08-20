@@ -40,7 +40,7 @@
 .method public a(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2bd6
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/share/view/KScrollView;->B:Lcn/wps/moffice/writer/shell/share/view/KPreviewView;
 
-    const v0, 0x7f0b2bd4
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_superCanvas:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

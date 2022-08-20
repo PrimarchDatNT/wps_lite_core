@@ -91,7 +91,7 @@
 
     invoke-direct {v0, v1, v2}, Lmrk;-><init>(Livk;Lhvk;)V
 
-    const v1, 0x7f0b0d06
+    sget v1, Lcom/resouce/module/ResID;->file_save:I
 
     const-string v2, "file-save"
 
@@ -102,7 +102,7 @@
 
     invoke-direct {v0}, Lhvk;-><init>()V
 
-    const v1, 0x7f0b0d07
+    sget v1, Lcom/resouce/module/ResID;->file_saveas:I
 
     const-string v2, "file-saveas"
 
@@ -128,7 +128,7 @@
     invoke-virtual {v0, v1}, Lmwk;->setNodeLink(Lcn/wps/moffice/main/local/NodeLink;)V
 
     :cond_0
-    const v0, 0x7f0b0cc7
+    sget v0, Lcom/resouce/module/ResID;->file_export_pdf:I
 
     .line 6
     iget-object v1, p0, Ldkl;->g0:Lask;
@@ -144,19 +144,19 @@
 
     if-nez v0, :cond_1
 
-    const v1, 0x7f0b0cdf
+    sget v1, Lcom/resouce/module/ResID;->file_longpic_share:I
 
     .line 8
     new-instance v2, Ldkl$a;
 
-    const v3, 0x7f0b0ce0
+    sget v3, Lcom/resouce/module/ResID;->file_longpic_share_divideline:I
 
     .line 9
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b0ce1
+    sget v4, Lcom/resouce/module/ResID;->file_longpic_share_recommend:I
 
     .line 10
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
@@ -173,12 +173,12 @@
     :cond_1
     if-nez v0, :cond_2
 
-    const v0, 0x7f0b0cc3
+    sget v0, Lcom/resouce/module/ResID;->file_export_img:I
 
     .line 12
     new-instance v1, Lzrk;
 
-    const v2, 0x7f0b0cc4
+    sget v2, Lcom/resouce/module/ResID;->file_export_img_divideline:I
 
     .line 13
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -195,12 +195,12 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_2
-    const v0, 0x7f0b0cc8
+    sget v0, Lcom/resouce/module/ResID;->file_export_picfunc:I
 
     .line 15
     new-instance v1, Lcsk;
 
-    const v2, 0x7f0b0cc9
+    sget v2, Lcom/resouce/module/ResID;->file_export_picfunc_divideline:I
 
     .line 16
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -216,12 +216,12 @@
     .line 17
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d3a
+    sget v0, Lcom/resouce/module/ResID;->file_transfer_share:I
 
     .line 18
     new-instance v1, Ldrl;
 
-    const v2, 0x7f0b0d3b
+    sget v2, Lcom/resouce/module/ResID;->file_transfer_share_divideline:I
 
     .line 19
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -252,7 +252,7 @@
     iput-object v0, p0, Ldkl;->h0:Ls1l;
 
     :cond_3
-    const v0, 0x7f0b0d43
+    sget v0, Lcom/resouce/module/ResID;->file_word_extractor:I
 
     .line 23
     new-instance v1, Lewk;
@@ -267,7 +267,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d45
+    sget v0, Lcom/resouce/module/ResID;->file_word_merge:I
 
     .line 24
     new-instance v1, Lfwk;
@@ -282,7 +282,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d44
+    sget v0, Lcom/resouce/module/ResID;->file_word_fill_table:I
 
     .line 25
     iget-object v1, p0, Ldkl;->h0:Ls1l;
@@ -291,7 +291,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d7
+    sget v0, Lcom/resouce/module/ResID;->writer_doc_fix:I
 
     .line 26
     new-instance v1, Lurk;
@@ -307,14 +307,14 @@
     .line 27
     new-instance v0, Ljsk;
 
-    const v1, 0x7f0b0d27
+    sget v1, Lcom/resouce/module/ResID;->file_size_reduce:I
 
     .line 28
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b0d28
+    sget v3, Lcom/resouce/module/ResID;->file_size_reduce_div_line:I
 
     .line 29
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -330,7 +330,7 @@
     .line 30
     invoke-virtual {p0, v1, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d46
+    sget v0, Lcom/resouce/module/ResID;->file_writer_shareplay:I
 
     .line 31
     new-instance v1, Lhwk;
@@ -344,21 +344,21 @@
     .line 32
     new-instance v0, Lhsk;
 
-    const v1, 0x7f0b0cc0
+    sget v1, Lcom/resouce/module/ResID;->file_evidence:I
 
     .line 33
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b0cc1
+    sget v3, Lcom/resouce/module/ResID;->file_evidence_div_line:I
 
     .line 34
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v5, 0x7f0b0cc2
+    sget v5, Lcom/resouce/module/ResID;->file_evidence_pannel_img:I
 
     .line 35
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -372,14 +372,14 @@
     .line 36
     invoke-virtual {p0, v1, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cbb
+    sget v0, Lcom/resouce/module/ResID;->file_encrypt_onlinesecurity:I
 
     .line 37
     new-instance v1, Ltcl;
 
     iget-object v2, p0, Ldkl;->e0:Lwbl;
 
-    const v3, 0x7f0b0cbc
+    sget v3, Lcom/resouce/module/ResID;->file_encrypt_onlinesecurity_notsupport:I
 
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -391,12 +391,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cbd
+    sget v0, Lcom/resouce/module/ResID;->file_encrypt_switch:I
 
     .line 38
     new-instance v1, Lwcl;
 
-    const v2, 0x7f0b0cb9
+    sget v2, Lcom/resouce/module/ResID;->file_encrypt:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -408,12 +408,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->J1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0ce5
+    sget v0, Lcom/resouce/module/ResID;->file_modify_encrypt:I
 
     .line 39
     new-instance v1, Lucl;
 
-    const v2, 0x7f0b0cba
+    sget v2, Lcom/resouce/module/ResID;->file_encrypt_divideline:I
 
     .line 40
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -427,7 +427,7 @@
     .line 41
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d24
+    sget v0, Lcom/resouce/module/ResID;->file_share_send:I
 
     .line 42
     new-instance v1, Lfel;
@@ -442,7 +442,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2bb4
+    sget v0, Lcom/resouce/module/ResID;->share_type_more_img:I
 
     .line 43
     new-instance v1, Lfel;
@@ -457,7 +457,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cf0
+    sget v0, Lcom/resouce/module/ResID;->file_print:I
 
     .line 44
     new-instance v1, Lbvk;
@@ -468,12 +468,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0d3e
+    sget v0, Lcom/resouce/module/ResID;->file_tvprojection:I
 
     .line 45
     new-instance v1, Lkbl;
 
-    const v2, 0x7f0b0d3f
+    sget v2, Lcom/resouce/module/ResID;->file_tvprojection_divideline:I
 
     .line 46
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -487,12 +487,12 @@
     .line 47
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cd0
+    sget v0, Lcom/resouce/module/ResID;->file_history_version:I
 
     .line 48
     new-instance v1, Lpsk;
 
-    const v2, 0x7f0b0cd2
+    sget v2, Lcom/resouce/module/ResID;->file_history_version_divideline:I
 
     .line 49
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -506,7 +506,7 @@
     .line 50
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cb6
+    sget v0, Lcom/resouce/module/ResID;->file_docinfo:I
 
     .line 51
     new-instance v1, Lval;
@@ -517,12 +517,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cef
+    sget v0, Lcom/resouce/module/ResID;->file_permission:I
 
     .line 52
     new-instance v1, Lyuk;
 
-    const v2, 0x7f0b0cb4
+    sget v2, Lcom/resouce/module/ResID;->file_divideline_behind_permission:I
 
     .line 53
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -536,12 +536,12 @@
     .line 54
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0cb7
+    sget v0, Lcom/resouce/module/ResID;->file_encoding:I
 
     .line 55
     new-instance v1, Lcbl;
 
-    const v2, 0x7f0b0cb8
+    sget v2, Lcom/resouce/module/ResID;->file_encoding_root:I
 
     .line 56
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -560,15 +560,15 @@
 
     move-result v0
 
-    const v1, 0x7f0b2bb2
+    sget v1, Lcom/resouce/module/ResID;->share_type_3_img:I
 
-    const v2, 0x7f0b2bb1
+    sget v2, Lcom/resouce/module/ResID;->share_type_2_img:I
 
-    const v3, 0x7f0b2bb0
+    sget v3, Lcom/resouce/module/ResID;->share_type_1_img:I
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f0b2baf
+    sget v0, Lcom/resouce/module/ResID;->share_type_0_img:I
 
     .line 59
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -656,7 +656,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b0ccc
+    sget v0, Lcom/resouce/module/ResID;->file_feedback:I
 
     .line 70
     new-instance v4, Lfsk;
@@ -749,7 +749,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2bb2
+    sget v1, Lcom/resouce/module/ResID;->share_type_3_img:I
 
     if-nez v0, :cond_0
 
@@ -787,7 +787,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b2bb0
+    sget v3, Lcom/resouce/module/ResID;->share_type_1_img:I
 
     if-eq v2, v3, :cond_2
 
@@ -798,7 +798,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b2bb1
+    sget v2, Lcom/resouce/module/ResID;->share_type_2_img:I
 
     if-eq v0, v2, :cond_2
 
@@ -814,7 +814,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2baf
+    sget v1, Lcom/resouce/module/ResID;->share_type_0_img:I
 
     if-ne v0, v1, :cond_1
 
@@ -826,7 +826,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0d24
+    sget v1, Lcom/resouce/module/ResID;->file_share_send:I
 
     if-eq v0, v1, :cond_2
 
@@ -835,7 +835,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2bb4
+    sget v1, Lcom/resouce/module/ResID;->share_type_more_img:I
 
     if-eq v0, v1, :cond_2
 
@@ -844,7 +844,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0d44
+    sget v1, Lcom/resouce/module/ResID;->file_word_fill_table:I
 
     if-eq v0, v1, :cond_2
 
@@ -853,7 +853,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0cbb
+    sget v0, Lcom/resouce/module/ResID;->file_encrypt_onlinesecurity:I
 
     if-eq p1, v0, :cond_2
 
@@ -897,7 +897,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1225e5
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pagenum_print:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1105,7 +1105,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1220ef
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file:I
 
     return v0
 .end method
@@ -1173,7 +1173,7 @@
 .method public r2()V
     .locals 9
 
-    const v0, 0x7f0e0866
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_file_content_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -1211,7 +1211,7 @@
     .line 6
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b0cf1
+    sget v2, Lcom/resouce/module/ResID;->file_print_pagenum:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1230,7 +1230,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b0491
+    sget v1, Lcom/resouce/module/ResID;->cn_file_docinfo_devide_line:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1239,7 +1239,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b0492
+    sget v1, Lcom/resouce/module/ResID;->cn_file_tvprojection_devide_line:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1248,7 +1248,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b34d7
+    sget v1, Lcom/resouce/module/ResID;->writer_doc_fix:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1264,7 +1264,7 @@
     :cond_0
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b0c47
+    sget v3, Lcom/resouce/module/ResID;->extract_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1283,7 +1283,7 @@
     .line 13
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b187d
+    sget v3, Lcom/resouce/module/ResID;->merge_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1302,7 +1302,7 @@
     .line 14
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b0d9a
+    sget v3, Lcom/resouce/module/ResID;->fix_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1321,7 +1321,7 @@
     .line 15
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b0d26
+    sget v3, Lcom/resouce/module/ResID;->file_size_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1340,7 +1340,7 @@
     .line 16
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b178c
+    sget v3, Lcom/resouce/module/ResID;->longpic_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1359,7 +1359,7 @@
     .line 17
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b0c0c
+    sget v3, Lcom/resouce/module/ResID;->export_img_limit_free_btn:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1380,7 +1380,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b2baf
+    sget v3, Lcom/resouce/module/ResID;->share_type_0_img:I
 
     .line 19
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -1389,7 +1389,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2bb0
+    sget v4, Lcom/resouce/module/ResID;->share_type_1_img:I
 
     .line 20
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
@@ -1398,7 +1398,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2bb1
+    sget v5, Lcom/resouce/module/ResID;->share_type_2_img:I
 
     .line 21
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1407,7 +1407,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v6, 0x7f0b2bb2
+    sget v6, Lcom/resouce/module/ResID;->share_type_3_img:I
 
     .line 22
     invoke-virtual {p0, v6}, Luzl;->Z0(I)Landroid/view/View;
@@ -1506,7 +1506,7 @@
     :goto_1
     invoke-virtual {v6, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f0b0ccc
+    sget v1, Lcom/resouce/module/ResID;->file_feedback:I
 
     .line 37
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1557,7 +1557,7 @@
     .line 45
     invoke-virtual {v6, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v1, 0x7f0b2bb4
+    sget v1, Lcom/resouce/module/ResID;->share_type_more_img:I
 
     .line 46
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1634,7 +1634,7 @@
     :cond_8
     if-eqz v7, :cond_9
 
-    const v0, 0x7f0b0d24
+    sget v0, Lcom/resouce/module/ResID;->file_share_send:I
 
     .line 52
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1644,7 +1644,7 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_9
-    const v0, 0x7f0b0cdf
+    sget v0, Lcom/resouce/module/ResID;->file_longpic_share:I
 
     .line 53
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1653,7 +1653,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b0cc3
+    sget v0, Lcom/resouce/module/ResID;->file_export_img:I
 
     .line 54
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07058e
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_public_nav_item_hight:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0705a5
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_public_nav_sub_item_hight:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -216,7 +216,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e081e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_ppt_thumnails_grid_item:I
 
     const/4 v0, 0x0
 
@@ -230,7 +230,7 @@
 
     invoke-direct {p3, p0}, Lmae$c;-><init>(Lmae;)V
 
-    const v0, 0x7f0b2481
+    sget v0, Lcom/resouce/module/ResID;->ppt_thumbnails_grid_item_img:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,11 +374,11 @@
     .line 19
     iget-object p1, p3, Lmae$c;->a:Lcn/wps/moffice/presentation/control/common/slide/SlideThumbPictureView;
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const/16 v0, 0x18
 
-    const v1, 0x7f0805b7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_pdf_thumb_checked:I
 
     invoke-virtual {p1, p3, v0, v1}, Lcn/wps/moffice/presentation/control/common/slide/SlideThumbPictureView;->setBgColorAndLabelSize(III)V
 

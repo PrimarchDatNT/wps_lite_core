@@ -680,7 +680,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b2e94
+    sget v1, Lcom/resouce/module/ResID;->tag_use_phone_compat_pad:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 

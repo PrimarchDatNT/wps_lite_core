@@ -32,7 +32,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

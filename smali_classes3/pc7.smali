@@ -641,7 +641,7 @@
 .method public V2(Le13;)V
     .locals 1
 
-    const v0, 0x7f0e0bd1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_drive_save_as_bottom_bar:I
 
     .line 1
     invoke-interface {p1, v0}, Le13;->a(I)V
@@ -662,7 +662,7 @@
     .line 2
     iget-object v0, p0, Lpc7;->U:Ld13;
 
-    const v1, 0x7f0812a6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_icon_close:I
 
     invoke-interface {v0, v1}, Ld13;->a(I)V
 
@@ -684,11 +684,11 @@
 
     invoke-direct {v2, p0}, Lpc7$d;-><init>(Lpc7;)V
 
-    const v3, 0x7f0818bd
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_drive_title_new_folder:I
 
     invoke-interface {v0, v1, v3, v2}, Ld13;->d(IILandroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0ce7
+    sget v0, Lcom/resouce/module/ResID;->file_name_editable:I
 
     .line 5
     invoke-virtual {p0, v0}, Lb13;->S2(I)Landroid/view/View;
@@ -699,7 +699,7 @@
 
     iput-object v0, p0, Lpc7;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0ce9
+    sget v0, Lcom/resouce/module/ResID;->file_name_suffix:I
 
     .line 6
     invoke-virtual {p0, v0}, Lb13;->S2(I)Landroid/view/View;
@@ -710,7 +710,7 @@
 
     iput-object v0, p0, Lpc7;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3048
+    sget v0, Lcom/resouce/module/ResID;->to_upload:I
 
     .line 7
     invoke-virtual {p0, v0}, Lb13;->S2(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object v0, p0, Lpc7;->Y:Landroid/widget/Button;
 
-    const v1, 0x7f122831
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saveas_button:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
@@ -855,7 +855,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122820
+    sget v0, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     return v0
 .end method

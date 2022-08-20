@@ -43,7 +43,7 @@
 
     move-result v2
 
-    const v3, 0x7f120f99
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     const/4 v4, 0x0
 

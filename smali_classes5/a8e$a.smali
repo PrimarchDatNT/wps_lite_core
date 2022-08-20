@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b7e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_config_tab_item_recyclerview:I
 
     const/4 v2, 0x0
 
@@ -144,7 +144,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0522
+    sget v0, Lcom/resouce/module/ResID;->config_recycler_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

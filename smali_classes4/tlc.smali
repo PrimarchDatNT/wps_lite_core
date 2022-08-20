@@ -132,7 +132,7 @@
 
     if-nez p2, :cond_2
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 7
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -685,7 +685,7 @@
     goto/16 :goto_4
 
     :cond_0
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -924,7 +924,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const p3, 0x7f122bd2
+    sget p3, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

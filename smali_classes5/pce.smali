@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070a50
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_left:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -72,7 +72,7 @@
 
     invoke-virtual {p0, v0}, Loce;->B1(I)V
 
-    const v0, 0x7f070a52
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_top:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -83,7 +83,7 @@
 
     invoke-virtual {p0, v0}, Loce;->E1(I)V
 
-    const v0, 0x7f070a51
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_right:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -94,7 +94,7 @@
 
     invoke-virtual {p0, v0}, Loce;->D1(I)V
 
-    const v0, 0x7f070a4f
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_thumbnail_margin_bottom:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F

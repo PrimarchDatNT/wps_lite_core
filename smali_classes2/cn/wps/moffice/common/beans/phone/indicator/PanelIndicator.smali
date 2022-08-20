@@ -111,7 +111,7 @@
 
     if-eqz v2, :cond_1
 
-    const v0, 0x7f0606a4
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_indicator_front_dot_ppt:I
 
     goto :goto_0
 
@@ -123,7 +123,7 @@
 
     if-eqz v2, :cond_2
 
-    const v0, 0x7f0606a3
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_indicator_front_dot_pdf:I
 
     goto :goto_0
 
@@ -135,7 +135,7 @@
 
     if-eqz v2, :cond_3
 
-    const v0, 0x7f0606c3
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_writer_view_selected_color:I
 
     goto :goto_0
 
@@ -147,7 +147,7 @@
 
     if-eqz v2, :cond_4
 
-    const v0, 0x7f060002
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     .line 12
     :cond_4
@@ -167,7 +167,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0606a1
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_indicator_back_dot:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -180,7 +180,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070d2b
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_indicator_front_dot_size:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -193,7 +193,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070d29
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_indicator_back_dot_size:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -206,7 +206,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070d28
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_indicator_back_dot_gap:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

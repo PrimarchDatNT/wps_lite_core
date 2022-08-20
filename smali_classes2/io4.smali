@@ -214,7 +214,7 @@
 .method public static e(Lydf;Landroid/content/Context;Ljava/lang/String;I)V
     .locals 2
 
-    const v0, 0x7f122950
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -93,7 +93,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602cd
+    sget v0, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {p1, v0}, Ldgh;->n1(Landroid/app/Activity;I)V
 

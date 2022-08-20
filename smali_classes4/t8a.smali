@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e069b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_doc_recovery_layout:I
 
     const/4 v2, 0x0
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b111e
+    sget v1, Lcom/resouce/module/ResID;->home_recoverpage_member:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     check-cast v1, Landroid/widget/Button;
 
-    const v2, 0x7f120fb1
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
@@ -92,7 +92,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f120edc
+    sget v2, Lcom/resouce/module/ResSTRING;->home_continue_buy_membership:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120eea
+    sget v1, Lcom/resouce/module/ResSTRING;->home_docrecovery_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

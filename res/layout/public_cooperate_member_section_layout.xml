@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/divider" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" style="@style/div_line" />
-    <TextView android:textSize="12.0dip" android:id="@id/tv_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="16.0dip" />
-</LinearLayout>

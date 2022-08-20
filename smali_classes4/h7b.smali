@@ -69,7 +69,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0700f4
+    sget v0, Lcom/resouce/module/ResDIMEN;->doc_scan_camera_focus_size:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

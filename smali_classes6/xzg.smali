@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/content/Context;Lfzg;)V
     .locals 1
 
-    const v0, 0x7f121a39
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_align_text:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e101b    # 1.88834E38f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_divide_grid_text_item_layout:I    # 1.88834E38f
 
     const/4 v2, 0x0
 
@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2190
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_vertical_divide_item_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -380,7 +380,7 @@
 .method public W2()I
     .locals 1
 
-    const v0, 0x7f120d73
+    sget v0, Lcom/resouce/module/ResSTRING;->foreign_charge:I
 
     return v0
 .end method
@@ -571,7 +571,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f080fd7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->payment_ing:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -636,7 +636,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e028c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_charge_ok_activity:I
 
     const/4 v2, 0x0
 
@@ -646,7 +646,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2daa    # 1.849998E38f
+    sget v1, Lcom/resouce/module/ResID;->state_img:I    # 1.849998E38f
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -660,7 +660,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d3e
+    sget v1, Lcom/resouce/module/ResID;->payment_state:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -673,7 +673,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fbd
+    sget v1, Lcom/resouce/module/ResID;->tips_info:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -686,7 +686,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0525
+    sget v1, Lcom/resouce/module/ResID;->confirm:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -699,7 +699,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/ChargeSuccessActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c8f
+    sget v1, Lcom/resouce/module/ResID;->feed_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

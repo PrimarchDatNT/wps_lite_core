@@ -361,7 +361,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2184
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_hide_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2183
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_color:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

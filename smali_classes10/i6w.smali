@@ -69,7 +69,7 @@
     .line 8
     iget-object p1, p0, Lk6w;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b310c
+    sget p2, Lcom/resouce/module/ResID;->tv_app_search_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -82,7 +82,7 @@
     .line 9
     iget-object p1, p0, Lk6w;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b15b1
+    sget p2, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
     .line 10
     iget-object p1, p0, Lk6w;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b12ab
+    sget p2, Lcom/resouce/module/ResID;->img_app_search_logo:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

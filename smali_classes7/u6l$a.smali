@@ -39,7 +39,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2664
+    sget v2, Lcom/resouce/module/ResID;->public_item_image:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -52,7 +52,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2667
+    sget v3, Lcom/resouce/module/ResID;->public_item_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

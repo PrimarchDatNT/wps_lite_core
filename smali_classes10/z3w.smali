@@ -96,7 +96,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1230de
+    sget v5, Lcom/resouce/module/ResSTRING;->total_search_tab_wen_ku:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -310,7 +310,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121964
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_new_search_more_documents:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

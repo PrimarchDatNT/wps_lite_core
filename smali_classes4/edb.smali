@@ -53,7 +53,7 @@
     .line 1
     iget-object v0, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v1, 0x7f0e0025
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_dexopt:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setContentView(I)V
 

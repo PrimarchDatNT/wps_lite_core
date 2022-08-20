@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1db3
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_square:I
 
     if-ne p1, v0, :cond_0
 
@@ -54,7 +54,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1db1
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_circle:I
 
     if-ne p1, v0, :cond_1
 
@@ -68,7 +68,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1db0
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_arrow:I
 
     if-ne p1, v0, :cond_2
 
@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1db2
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_line:I
 
     if-ne p1, v0, :cond_3
 

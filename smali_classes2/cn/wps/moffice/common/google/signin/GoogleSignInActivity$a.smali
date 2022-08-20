@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0134
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documentmanager_circleprogress_layout:I
 
     const/4 v2, 0x0
 

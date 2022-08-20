@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e47
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_shareplay_launch:I
 
     .line 5
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -68,7 +68,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2738
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c23
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_launch_shareplay:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setCustomBackOpt(Ljava/lang/Runnable;)V
 
-    const v0, 0x7f0b271f
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_cancel_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2722
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_container:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b271f
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_cancel_btn:I
 
     if-ne v0, v1, :cond_0
 

@@ -180,7 +180,7 @@
     .line 2
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f1212f2
+    sget v1, Lcom/resouce/module/ResSTRING;->invite_edit_without_permission_set_cooperation_document_desc:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

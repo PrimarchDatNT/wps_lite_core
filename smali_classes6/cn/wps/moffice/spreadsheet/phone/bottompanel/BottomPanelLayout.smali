@@ -46,13 +46,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0935
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_bottom_expand_panel:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0223
+    sget p1, Lcom/resouce/module/ResID;->black:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/bottompanel/BottomPanelLayout;->B:Landroid/view/View;
 
-    const p1, 0x7f0b0539
+    sget p1, Lcom/resouce/module/ResID;->content:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

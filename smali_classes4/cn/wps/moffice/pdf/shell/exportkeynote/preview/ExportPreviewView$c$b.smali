@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView$c;->I:Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;
 
-    const v1, 0x7f0b0c13
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -66,7 +66,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b0c11
+    sget v2, Lcom/resouce/module/ResID;->export_keynote_preview_tip:I
 
     if-nez v0, :cond_0
 

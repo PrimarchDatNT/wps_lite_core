@@ -50,13 +50,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e078d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_bottompanel_popwindow:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b1311
+    sget p1, Lcom/resouce/module/ResID;->ink_color_red:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1312
+    sget p1, Lcom/resouce/module/ResID;->ink_color_yellow:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b130d
+    sget p1, Lcom/resouce/module/ResID;->ink_color_green:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b130a
+    sget p1, Lcom/resouce/module/ResID;->ink_color_blue:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1310
+    sget p1, Lcom/resouce/module/ResID;->ink_color_purple:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1309
+    sget p1, Lcom/resouce/module/ResID;->ink_color_black:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1319
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_0_view:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setDrawSize(F)V
 
-    const p1, 0x7f0b131b
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_1_view:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setDrawSize(F)V
 
-    const p1, 0x7f0b131d
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_2_view:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setDrawSize(F)V
 
-    const p1, 0x7f0b131f
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_3_view:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setDrawSize(F)V
 
-    const p1, 0x7f0b1321
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_4_view:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setDrawSize(F)V
 
-    const p1, 0x7f0b1318
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_0:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b131a
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_1:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b131c
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_2:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b131e
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_3:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1320
+    sget p1, Lcom/resouce/module/ResID;->ink_thickness_4:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -510,7 +510,7 @@
 .method public l(I)V
     .locals 5
 
-    const v0, 0x7f0b1311
+    sget v0, Lcom/resouce/module/ResID;->ink_color_red:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b1312
+    sget v0, Lcom/resouce/module/ResID;->ink_color_yellow:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
     :goto_1
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b130d
+    sget v0, Lcom/resouce/module/ResID;->ink_color_green:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
     :goto_2
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b130a
+    sget v0, Lcom/resouce/module/ResID;->ink_color_blue:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
     :goto_3
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b1310
+    sget v0, Lcom/resouce/module/ResID;->ink_color_purple:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -649,7 +649,7 @@
     :goto_4
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b1309
+    sget v0, Lcom/resouce/module/ResID;->ink_color_black:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -674,7 +674,7 @@
     :goto_5
     invoke-virtual {v0, v3}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b1319
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_0_view:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -689,7 +689,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setLineColor(I)V
 
-    const v0, 0x7f0b131b
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_1_view:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -704,7 +704,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setLineColor(I)V
 
-    const v0, 0x7f0b131d
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_2_view:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -719,7 +719,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setLineColor(I)V
 
-    const v0, 0x7f0b131f
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_3_view:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -734,7 +734,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/PenThicknessView;->setLineColor(I)V
 
-    const v0, 0x7f0b1321
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_4_view:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
 .method public m(F)V
     .locals 5
 
-    const v0, 0x7f0b1318
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_0:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -784,7 +784,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b131a
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_1:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
     :goto_1
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b131c
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_2:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -836,7 +836,7 @@
     :goto_2
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b131e
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_3:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -863,7 +863,7 @@
     :goto_3
     invoke-virtual {v0, v1}, Landroid/view/View;->setSelected(Z)V
 
-    const v0, 0x7f0b1320
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_4:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -891,7 +891,7 @@
 .method public setBlackColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b1309
+    sget v0, Lcom/resouce/module/ResID;->ink_color_black:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -902,7 +902,7 @@
 .method public setBlueColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b130a
+    sget v0, Lcom/resouce/module/ResID;->ink_color_blue:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -926,7 +926,7 @@
 .method public setGreenColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b130d
+    sget v0, Lcom/resouce/module/ResID;->ink_color_green:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -946,7 +946,7 @@
 .method public setPurpleColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b1310
+    sget v0, Lcom/resouce/module/ResID;->ink_color_purple:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -957,7 +957,7 @@
 .method public setRedColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b1311
+    sget v0, Lcom/resouce/module/ResID;->ink_color_red:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -991,7 +991,7 @@
 .method public setThicknessVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b1322
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_layout:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V
@@ -1002,7 +1002,7 @@
 .method public setYellowColorVisibility(Z)V
     .locals 1
 
-    const v0, 0x7f0b1312
+    sget v0, Lcom/resouce/module/ResID;->ink_color_yellow:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Lcn/wps/moffice/pdf/reader/controller/menu/annotation/AnnotationStyle;->k(IZ)V

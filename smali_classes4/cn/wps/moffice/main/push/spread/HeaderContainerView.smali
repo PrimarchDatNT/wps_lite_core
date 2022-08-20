@@ -66,7 +66,7 @@
 .method public b()V
     .locals 3
 
-    const v0, 0x7f0b0fac
+    sget v0, Lcom/resouce/module/ResID;->header_anim_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
     .line 3
     invoke-virtual {p0}, Lcn/wps/moffice/main/push/spread/HeaderContainerView;->b()V
 
-    const v0, 0x7f0b0fb1
+    sget v0, Lcom/resouce/module/ResID;->header_conatiner_view:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e08e9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_spread_tips_dropview_container:I
 
     return v0
 .end method

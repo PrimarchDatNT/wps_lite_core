@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060424
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_home_pink_statusbar_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -684,7 +684,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    const v2, 0x7f070359
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_plus_above_opreate_toolbar_margin_bottom:I
 
     const-string v3, "plusAboveToolbar"
 
@@ -698,7 +698,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f07035d
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_plus_left_opreate_toolbar_pattern_theme_margin_bottom:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -774,7 +774,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f07035b
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_plus_left_opreate_toolbar_margin_bottom:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -789,7 +789,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f07035c
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_plus_left_opreate_toolbar_margin_right:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -818,7 +818,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f07035a
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_plus_above_opreate_toolbar_margin_left:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimension(I)F
 

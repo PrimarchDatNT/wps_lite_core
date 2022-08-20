@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08190d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_done_anim:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

@@ -307,7 +307,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0819ed
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_laserpen_dot:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

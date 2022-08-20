@@ -55,7 +55,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0b19bf
+    sget p1, Lcom/resouce/module/ResID;->nav_item_click_layout:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

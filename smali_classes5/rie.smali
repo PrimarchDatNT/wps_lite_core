@@ -88,7 +88,7 @@
 
     iget-object v1, p0, Loie;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -109,7 +109,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0605ee
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -241,7 +241,7 @@
     .line 1
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2ec6
+    sget v1, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -254,7 +254,7 @@
     .line 2
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b245c
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_membership_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

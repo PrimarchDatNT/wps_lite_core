@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ca0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_invite_edit_cooperation_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -101,7 +101,7 @@
     .line 14
     invoke-virtual {p0, p1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p1, 0x7f0b2663
+    sget p1, Lcom/resouce/module/ResID;->public_invite_editing_cooperation_i_known:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

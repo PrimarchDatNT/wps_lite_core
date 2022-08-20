@@ -59,14 +59,14 @@
 .method public c(Landroid/view/View;Lzi9;)V
     .locals 3
 
-    const v0, 0x7f0b33ac
+    sget v0, Lcom/resouce/module/ResID;->view_share_folder_divide:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b33ae
+    sget v1, Lcom/resouce/module/ResID;->view_share_folder_invite:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 .method public p()I
     .locals 1
 
-    const v0, 0x7f0e0c2d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_docinfo_operation_share_folder_invite_layout:I
 
     return v0
 .end method

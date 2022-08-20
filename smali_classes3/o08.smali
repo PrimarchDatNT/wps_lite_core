@@ -18,7 +18,7 @@
 .method public u()I
     .locals 1
 
-    const v0, 0x7f0e056f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_share_tab:I
 
     return v0
 .end method

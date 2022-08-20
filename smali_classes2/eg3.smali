@@ -327,7 +327,7 @@
 
     if-ne p2, v1, :cond_0
 
-    const p2, 0x7f0e0b99
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_default_share_bottom_group_item:I
 
     goto :goto_0
 
@@ -337,7 +337,7 @@
 
     if-ne p2, v1, :cond_1
 
-    const p2, 0x7f0e0b9b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_default_share_bottom_sheet_rv_item1:I
 
     goto :goto_0
 
@@ -346,7 +346,7 @@
 
     if-ne p2, v1, :cond_2
 
-    const p2, 0x7f0e0b9c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_default_share_bottom_sheet_rv_item2:I
 
     goto :goto_0
 
@@ -355,12 +355,12 @@
 
     if-ne p2, v1, :cond_3
 
-    const p2, 0x7f0e0b9d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_default_share_bottom_sheet_rv_item3:I
 
     goto :goto_0
 
     :cond_3
-    const p2, 0x7f0e0b9a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_default_share_bottom_sheet_rv_item:I
 
     :goto_0
     const/4 v1, 0x0

@@ -101,9 +101,9 @@
 .method public constructor <init>(Lb3e;)V
     .locals 2
 
-    const v0, 0x7f080b9e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_textalign_horizontal_ppt:I
 
-    const v1, 0x7f122abf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_text_orientation:I
 
     .line 1
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V

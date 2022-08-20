@@ -56,7 +56,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p1, 0x7f0e09c8
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_writer_countword_bottompanel:I
 
     .line 6
     invoke-static {p1, v1, v0}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object p1, p0, Lazk;->a:Landroid/view/View;
 
-    const v0, 0x7f0b346d
+    sget v0, Lcom/resouce/module/ResID;->wordcounts_progress:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
     .line 8
     iget-object p1, p0, Lazk;->a:Landroid/view/View;
 
-    const v0, 0x7f0b3467
+    sget v0, Lcom/resouce/module/ResID;->wordcounts_count_result:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
     .line 4
     iget-object v2, p0, Lazk;->c:Landroid/view/View;
 
-    const v3, 0x7f0b3470
+    sget v3, Lcom/resouce/module/ResID;->wordcounts_showwordnumber_switch:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -603,7 +603,7 @@
     :goto_0
     iget-object v0, p0, Lazk;->c:Landroid/view/View;
 
-    const v3, 0x7f0b3471
+    sget v3, Lcom/resouce/module/ResID;->wordcounts_typetext:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,12 +613,12 @@
 
     if-eqz p1, :cond_1
 
-    const v3, 0x7f12329b
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_count_words_selection:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f12329a
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_count_words_all:I
 
     .line 6
     :goto_1
@@ -627,7 +627,7 @@
     .line 7
     iget-object v0, p0, Lazk;->c:Landroid/view/View;
 
-    const v3, 0x7f0b3468
+    sget v3, Lcom/resouce/module/ResID;->wordcounts_include_checkbox:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -663,7 +663,7 @@
     .line 11
     iget-object v3, p0, Lazk;->c:Landroid/view/View;
 
-    const v4, 0x7f0b346e
+    sget v4, Lcom/resouce/module/ResID;->wordcounts_showwordnumber:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
     .line 13
     iget-object v2, p0, Lazk;->c:Landroid/view/View;
 
-    const v3, 0x7f0b3465
+    sget v3, Lcom/resouce/module/ResID;->wordcounts_characters_gap:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -694,7 +694,7 @@
     .line 14
     iget-object v3, p0, Lazk;->c:Landroid/view/View;
 
-    const v4, 0x7f0b3469
+    sget v4, Lcom/resouce/module/ResID;->wordcounts_include_checkbox_gap:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -716,7 +716,7 @@
     :goto_4
     iget-object p1, p0, Lazk;->c:Landroid/view/View;
 
-    const v1, 0x7f0b3472
+    sget v1, Lcom/resouce/module/ResID;->wordcounts_words:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -729,7 +729,7 @@
     .line 18
     iget-object p1, p0, Lazk;->c:Landroid/view/View;
 
-    const v1, 0x7f0b3466
+    sget v1, Lcom/resouce/module/ResID;->wordcounts_characters_with_spaces:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -742,7 +742,7 @@
     .line 19
     iget-object p1, p0, Lazk;->c:Landroid/view/View;
 
-    const v1, 0x7f0b3464
+    sget v1, Lcom/resouce/module/ResID;->wordcounts_characters:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -764,7 +764,7 @@
     .line 21
     iget-object v1, p0, Lazk;->c:Landroid/view/View;
 
-    const v2, 0x7f0b346b
+    sget v2, Lcom/resouce/module/ResID;->wordcounts_include_checkbox_switch:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -775,7 +775,7 @@
     .line 22
     iget-object v2, p0, Lazk;->c:Landroid/view/View;
 
-    const v3, 0x7f0b346c
+    sget v3, Lcom/resouce/module/ResID;->wordcounts_include_checkbox_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -790,12 +790,12 @@
 
     if-eqz v3, :cond_6
 
-    const v3, 0x7f123296
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_count_include_footnotes_endnotes:I
 
     goto :goto_5
 
     :cond_6
-    const v3, 0x7f123298
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_count_include_textboxes_footnotes_endnotes:I
 
     :goto_5
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
@@ -822,7 +822,7 @@
     .line 27
     iget-object v1, p0, Lazk;->c:Landroid/view/View;
 
-    const v2, 0x7f0b3470
+    sget v2, Lcom/resouce/module/ResID;->wordcounts_showwordnumber_switch:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

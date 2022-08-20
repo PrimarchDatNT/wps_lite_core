@@ -236,7 +236,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1223e4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_ftype_error:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

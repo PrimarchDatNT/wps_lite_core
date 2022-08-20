@@ -51,14 +51,14 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f12206f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_evernote_title_zh:I
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     const/4 v1, 0x2
 
-    const v2, 0x7f12206e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
@@ -96,11 +96,11 @@
     .line 5
     sget-object p1, Lcn/wps/moffice/main/cloud/storage/cser/evernote/Evernote;->q0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12206f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_title_zh:I
 
     invoke-virtual {p1, v0, v1}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v0, 0x7f12206e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     .line 6
     invoke-virtual {p1, p2, v0}, Landroid/util/SparseIntArray;->put(II)V
@@ -111,11 +111,11 @@
     :cond_0
     sget-object p1, Lcn/wps/moffice/main/cloud/storage/cser/evernote/Evernote;->q0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12206d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_switch_yinxiang:I
 
     invoke-virtual {p1, v0, v1}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v0, 0x7f12206c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_evernote_switch_evernote:I
 
     .line 8
     invoke-virtual {p1, p2, v0}, Landroid/util/SparseIntArray;->put(II)V
@@ -803,7 +803,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x1
 
@@ -1077,7 +1077,7 @@
     .line 21
     invoke-virtual {v7, v5}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setFolder(Z)V
 
-    const v10, 0x7f0818e1
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->public_evernote_note_icon:I
 
     .line 22
     invoke-virtual {v7, v10}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V
@@ -1234,7 +1234,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120ec4
+    sget v6, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_note_no_resources_toast:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1254,7 +1254,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2452,7 +2452,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2486,7 +2486,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120618
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_upload_forbid_0kb:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2509,7 +2509,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120eca
+    sget v2, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_send_select_note_toast:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

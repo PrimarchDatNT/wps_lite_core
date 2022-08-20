@@ -1020,7 +1020,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0708d6
+    sget v2, Lcom/resouce/module/ResDIMEN;->pie_radius_start:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1029,7 +1029,7 @@
 
     iput v2, p0, Lo7b;->b0:I
 
-    const v3, 0x7f0702c1
+    sget v3, Lcom/resouce/module/ResDIMEN;->focus_radius_offset:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1040,7 +1040,7 @@
 
     iput v2, p0, Lo7b;->n0:I
 
-    const v2, 0x7f0708d5
+    sget v2, Lcom/resouce/module/ResDIMEN;->pie_radius_increment:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1049,7 +1049,7 @@
 
     iput v2, p0, Lo7b;->c0:I
 
-    const v2, 0x7f0708d7
+    sget v2, Lcom/resouce/module/ResDIMEN;->pie_touch_offset:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1154,7 +1154,7 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 20
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1192,7 +1192,7 @@
 
     invoke-direct {v2}, Landroid/graphics/Point;-><init>()V
 
-    const v2, 0x7f0702be
+    sget v2, Lcom/resouce/module/ResDIMEN;->focus_inner_offset:I
 
     .line 26
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1201,7 +1201,7 @@
 
     iput v2, p0, Lo7b;->x0:I
 
-    const v2, 0x7f0702c0
+    sget v2, Lcom/resouce/module/ResDIMEN;->focus_outer_stroke:I
 
     .line 27
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1210,7 +1210,7 @@
 
     iput v2, p0, Lo7b;->y0:I
 
-    const v2, 0x7f0702bf
+    sget v2, Lcom/resouce/module/ResDIMEN;->focus_inner_stroke:I
 
     .line 28
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

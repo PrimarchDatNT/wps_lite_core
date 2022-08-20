@@ -42,7 +42,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060006
+    sget p2, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

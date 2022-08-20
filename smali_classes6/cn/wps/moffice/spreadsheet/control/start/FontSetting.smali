@@ -327,7 +327,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e1028
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_start_cloud_font_setting_layout:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e1029
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_start_page_font_setting_layout:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -604,7 +604,7 @@
 .method public E0(Landroid/view/ViewGroup;[I)V
     .locals 8
 
-    const v0, 0x7f0b2d8b    # 1.8499916E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_text:I    # 1.8499916E38f
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -613,7 +613,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b2d8a    # 1.8499914E38f
+    sget v1, Lcom/resouce/module/ResID;->start_font_setting_font_style:I    # 1.8499914E38f
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -644,14 +644,14 @@
     .line 4
     invoke-virtual {v1, p0, v2}, Lcn/wps/moffice/common/fontname/FontTitleView;->C(Loy3;Lry3;)V
 
-    const v2, 0x7f0b2d88    # 1.849991E38f
+    sget v2, Lcom/resouce/module/ResID;->start_font_font_size:I    # 1.849991E38f
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b0e60
+    sget v3, Lcom/resouce/module/ResID;->font_title_more:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -660,7 +660,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/start/FontSetting;->mFontNameView:Landroid/view/View;
 
-    const v3, 0x7f0b2d89    # 1.8499912E38f
+    sget v3, Lcom/resouce/module/ResID;->start_font_setting_bius:I    # 1.8499912E38f
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

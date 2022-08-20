@@ -280,7 +280,7 @@
     .line 4
     iget-object p1, p0, Ltll;->n0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v0, 0x7f122714
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_setting:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
 
@@ -338,7 +338,7 @@
     .line 12
     iget-object p1, p0, Ltll;->n0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v0, 0x7f1226b6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
 
@@ -966,7 +966,7 @@
 
     iget-object v1, p0, Ltll;->e0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -1029,12 +1029,12 @@
 .method public final y2()V
     .locals 8
 
-    const v0, 0x7f0e10cb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_print:I
 
     .line 1
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
 
-    const v0, 0x7f0b362c
+    sget v0, Lcom/resouce/module/ResID;->writer_print_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -1045,7 +1045,7 @@
 
     iput-object v0, p0, Ltll;->p0:Lcn/wps/moffice/writer/beans/SoftKeyboardLayout;
 
-    const v0, 0x7f0b362b
+    sget v0, Lcom/resouce/module/ResID;->writer_print_header:I
 
     .line 3
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -1063,7 +1063,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b3651
+    sget v0, Lcom/resouce/module/ResID;->writer_print_tabs_anchor:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -1072,7 +1072,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b3648
+    sget v1, Lcom/resouce/module/ResID;->writer_print_progress_anchor:I
 
     .line 6
     invoke-virtual {p0, v1}, Lozl;->Z0(I)Landroid/view/View;
@@ -1084,7 +1084,7 @@
     .line 7
     invoke-virtual {p0, v0}, Ltll;->v2(Landroid/view/ViewGroup;)V
 
-    const v1, 0x7f0b364d
+    sget v1, Lcom/resouce/module/ResID;->writer_print_setting_textview:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1095,7 +1095,7 @@
 
     iput-object v1, p0, Ltll;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3647
+    sget v1, Lcom/resouce/module/ResID;->writer_print_preview_textview:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1106,7 +1106,7 @@
 
     iput-object v1, p0, Ltll;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3640
+    sget v1, Lcom/resouce/module/ResID;->writer_print_page_setting_textview:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1117,7 +1117,7 @@
 
     iput-object v1, p0, Ltll;->m0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3625
+    sget v1, Lcom/resouce/module/ResID;->writer_print_content_anchor:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

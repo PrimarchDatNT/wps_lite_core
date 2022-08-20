@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f33
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_wps_skill_qa_item_layout:I
 
     const/4 v1, 0x0
 
@@ -63,7 +63,7 @@
 
     iput-object p1, p0, Le5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b12cc
+    sget p2, Lcom/resouce/module/ResID;->img_skill_qa:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
     .line 4
     iget-object p1, p0, Le5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b349f
+    sget p2, Lcom/resouce/module/ResID;->wps_skill_qa_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -90,7 +90,7 @@
     .line 5
     iget-object p1, p0, Le5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b18c1
+    sget p2, Lcom/resouce/module/ResID;->model_divider_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -101,7 +101,7 @@
     .line 6
     iget-object p1, p0, Le5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aac
+    sget p2, Lcom/resouce/module/ResID;->search_skill_date_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
     .line 7
     iget-object p1, p0, Le5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aad
+    sget p2, Lcom/resouce/module/ResID;->search_skill_read_number:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -392,11 +392,11 @@
 
     move-result p1
 
-    const v0, 0x7f08176c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_qa_wps:I
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f08176b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_qa_word:I
 
     goto :goto_0
 
@@ -414,7 +414,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f081768
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_qa_et:I
 
     goto :goto_0
 
@@ -432,7 +432,7 @@
 
     if-eqz p1, :cond_2
 
-    const v0, 0x7f08176a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_qa_ppt:I
 
     goto :goto_0
 
@@ -466,7 +466,7 @@
 
     if-eqz p1, :cond_4
 
-    const v0, 0x7f081769
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_qa_pdf:I
 
     .line 7
     :cond_4

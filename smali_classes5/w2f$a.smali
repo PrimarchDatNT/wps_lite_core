@@ -54,7 +54,7 @@
     .line 3
     iput-object p1, p0, Lw2f$a;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1868
+    sget v0, Lcom/resouce/module/ResID;->menu_btn:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -246,7 +246,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1868
+    sget v1, Lcom/resouce/module/ResID;->menu_btn:I
 
     if-ne v0, v1, :cond_0
 

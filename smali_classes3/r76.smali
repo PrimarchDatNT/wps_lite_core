@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d2b
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d2e
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d2c
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_component:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d2d
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_component_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d2f
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_prefix:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d30
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_prefix_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d31
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_url_recovery:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cf9
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_button_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

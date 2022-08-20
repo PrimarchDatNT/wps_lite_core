@@ -54,14 +54,14 @@
     .line 1
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0603ac
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_thirdBackgroundColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->d(Landroid/view/View;IZ)V
 
     .line 2
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28fc
+    sget v1, Lcom/resouce/module/ResID;->retry_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -69,14 +69,14 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f060362
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_normalIconColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
     .line 3
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b19df
+    sget v1, Lcom/resouce/module/ResID;->network_error_label:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -84,14 +84,14 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0603a2
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 4
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28fe
+    sget v1, Lcom/resouce/module/ResID;->retry_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0602e7
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_NovelMainColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 

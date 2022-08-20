@@ -93,7 +93,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f1229ed
+    sget v4, Lcom/resouce/module/ResSTRING;->public_shortcut_add_to_desktop:I
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     invoke-direct {v2, p0, v0, p1}, Lhbb$a;-><init>(Lhbb;Ljava/util/HashMap;Lfbb;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, p1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -115,7 +115,7 @@
 
     invoke-direct {p1, p0, v0}, Lhbb$b;-><init>(Lhbb;Ljava/util/HashMap;)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

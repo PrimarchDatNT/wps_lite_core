@@ -54,7 +54,7 @@
 
     const/4 p2, 0x1
 
-    const v0, 0x7f0b27bb
+    sget v0, Lcom/resouce/module/ResID;->radio_autoplay:I
 
     if-ne v0, p1, :cond_0
 
@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0807e7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_noselect:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -76,7 +76,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0807e4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_noselect:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0807e6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_noenable:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0807e3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_noenable:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

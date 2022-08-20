@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1b8c
+    sget v1, Lcom/resouce/module/ResID;->otpHelper:I
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 

@@ -75,7 +75,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122982
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_long_pic_selection:I
 
     return v0
 .end method

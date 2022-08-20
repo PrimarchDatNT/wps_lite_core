@@ -83,15 +83,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01b8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_coordinate_axis:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e093f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_coordinate_axis:I
 
     :goto_0
-    const v1, 0x7f120771
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_coordinate_axis:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -164,7 +164,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095b
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_coordinate_axis:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c3
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_group:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c1
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_auto_radio:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c4
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_max_radio:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c6
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_other_radio:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -234,7 +234,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c2
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_auto_radio_tv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -247,7 +247,7 @@
     .line 27
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c5
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_max_radio_tv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09c7
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_other_radio_tv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -289,7 +289,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0935
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_coordinate_axis_spinner:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -309,7 +309,7 @@
     .line 34
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0942
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_fontsize8sp:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -326,7 +326,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b093f
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_fontsize10sp:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -343,7 +343,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0940
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_fontsize12sp:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -360,7 +360,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0941
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_fontsize14sp:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -380,7 +380,7 @@
     .line 39
     iget-object p1, p0, Lupf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f12078d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_coordinate_axis:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -413,7 +413,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v1, 0x7f0e0250
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     iget-object v2, p0, Lupf;->o0:Ljava/util/ArrayList;
 
@@ -434,7 +434,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v1, 0x7f0e099d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v2, p0, Lupf;->o0:Ljava/util/ArrayList;
 
@@ -997,7 +997,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b095b
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_coordinate_axis:I
 
     if-ne v0, p1, :cond_0
 
@@ -1038,7 +1038,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b09c2
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_auto_radio_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -1050,7 +1050,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b09c5
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_max_radio_tv:I
 
     if-ne p1, v0, :cond_2
 
@@ -1062,7 +1062,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b09c7
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_other_radio_tv:I
 
     if-ne p1, v0, :cond_3
 

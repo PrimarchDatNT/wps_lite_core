@@ -397,7 +397,7 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f0b33bf
+    sget v3, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     .line 19
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
     :cond_4
     iget-object v2, p0, Lcn/wps/moffice/common/scanqrcode/ScanQrCodeActivity;->I:Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;
 
-    const v3, 0x7f1229dd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_shareplay_scanqrcode_tips:I
 
     invoke-interface {v2, v3}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 
@@ -584,7 +584,7 @@
 
     invoke-interface {v0, v2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTipsClickable(Z)V
 
-    const v0, 0x7f0b26da
+    sget v0, Lcom/resouce/module/ResID;->public_qrcode_bottom_bar:I
 
     .line 40
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -637,7 +637,7 @@
 
     invoke-static {v0, v1, v4}, Lxih;->i(Landroid/view/Window;ZZ)Z
 
-    const v0, 0x7f0b33bd
+    sget v0, Lcom/resouce/module/ResID;->viewfinder_mask:I
 
     .line 47
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -865,14 +865,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/scanqrcode/ScanQrCodeActivity;->S:Lhd3;
 
-    const v1, 0x7f12252f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_camera_permission_message:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/scanqrcode/ScanQrCodeActivity;->S:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lcn/wps/moffice/common/scanqrcode/ScanQrCodeActivity$i;
 
@@ -1120,7 +1120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b33be
+    sget v1, Lcom/resouce/module/ResID;->viewfinder_select_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1247,7 +1247,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b26da
+    sget v2, Lcom/resouce/module/ResID;->public_qrcode_bottom_bar:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

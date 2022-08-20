@@ -129,7 +129,7 @@
     .line 1
     iget-object p2, p0, Lct3;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0109
+    sget p3, Lcom/resouce/module/ResLAYOUT;->doc_fix_sheet_title_item_layout:I
 
     const/4 v0, 0x0
 
@@ -142,7 +142,7 @@
 
     invoke-direct {p3}, Lct3$a;-><init>()V
 
-    const v0, 0x7f0b2be6
+    sget v0, Lcom/resouce/module/ResID;->sheet_title:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060127
+    sget v2, Lcom/resouce/module/ResCOLOR;->doc_fix_sheet_selected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060129
+    sget v2, Lcom/resouce/module/ResCOLOR;->doc_fix_sheet_unselected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -215,7 +215,7 @@
 
     iget-object v0, p0, Lct3;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1203c2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_sheet_title_name:I
 
     const/4 v2, 0x1
 

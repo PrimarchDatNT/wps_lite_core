@@ -148,7 +148,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f120ea0
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_create:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -167,7 +167,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f120ea4
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_quit:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -186,7 +186,7 @@
 
     if-eqz v3, :cond_3
 
-    const v3, 0x7f120ea2
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_add_by_link:I
 
     .line 7
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -246,7 +246,7 @@
 
     if-eqz v4, :cond_7
 
-    const p1, 0x7f120e97
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_create:I
 
     .line 13
     :try_start_1
@@ -280,7 +280,7 @@
 
     if-eqz v4, :cond_8
 
-    const p1, 0x7f120e9f
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_update:I
 
     .line 15
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -321,7 +321,7 @@
 
     if-eqz v4, :cond_9
 
-    const p1, 0x7f120e98
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_delete:I
 
     .line 19
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -354,7 +354,7 @@
 
     if-eqz v4, :cond_a
 
-    const p1, 0x7f120e99
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_recover:I
 
     .line 23
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -385,7 +385,7 @@
 
     if-eqz v4, :cond_b
 
-    const p1, 0x7f120e9d
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_in:I
 
     .line 25
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -416,7 +416,7 @@
 
     if-eqz v4, :cond_c
 
-    const p1, 0x7f120e9e
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_out:I
 
     .line 27
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -447,7 +447,7 @@
 
     if-eqz v4, :cond_d
 
-    const p1, 0x7f120e9c
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_delete:I
 
     .line 29
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -478,7 +478,7 @@
 
     if-eqz v4, :cond_e
 
-    const p1, 0x7f120e9a
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_rename:I
 
     .line 31
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -509,7 +509,7 @@
 
     if-eqz v4, :cond_f
 
-    const p1, 0x7f120e96
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_comment:I
 
     .line 33
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -550,7 +550,7 @@
 
     if-eqz v4, :cond_10
 
-    const p1, 0x7f120e9b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_share:I
 
     .line 37
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -617,7 +617,7 @@
     if-eqz p1, :cond_17
 
     :cond_11
-    const p1, 0x7f120ea7
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_role_upgrade_to_manager:I
 
     .line 43
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -662,7 +662,7 @@
 
     if-eqz v0, :cond_14
 
-    const p1, 0x7f120ea1
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_add:I
 
     .line 48
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -695,7 +695,7 @@
 
     if-eqz v0, :cond_15
 
-    const p1, 0x7f120ea3
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_delete:I
 
     .line 52
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -728,7 +728,7 @@
 
     if-eqz p0, :cond_16
 
-    const p0, 0x7f120ea8
+    sget p0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_rename:I
 
     .line 56
     invoke-virtual {v1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

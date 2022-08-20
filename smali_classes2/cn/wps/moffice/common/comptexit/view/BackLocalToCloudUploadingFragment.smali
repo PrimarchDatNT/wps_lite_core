@@ -489,7 +489,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudUploadingFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b01bf
+    sget p2, Lcom/resouce/module/ResID;->back_file_to_cloud_progress:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -503,7 +503,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudUploadingFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b3475
+    sget p2, Lcom/resouce/module/ResID;->wps_cloud_drive_anim_progress:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -516,7 +516,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudUploadingFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b01bb
+    sget p2, Lcom/resouce/module/ResID;->back_cloud_uploaded_finish:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -679,7 +679,7 @@
 .method public final r()I
     .locals 1
 
-    const v0, 0x7f0e0d95
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_home_transfrom_back_uploading_fragment:I
 
     return v0
 .end method
@@ -717,7 +717,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122279
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_cloud_backup:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -809,7 +809,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01c8
+    sget v1, Lcom/resouce/module/ResID;->back_local_uploading_fragment_content:I
 
     .line 4
     iget-object v2, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudUploadingFragment;->T:Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudSuccessfulFragment;

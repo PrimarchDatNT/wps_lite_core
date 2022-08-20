@@ -72,14 +72,14 @@
 
     iget-object v0, p0, Lg8d;->d:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0e111d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->zoom_photo_layout:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 9
     iget-object p1, p0, Lg8d;->d:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b315e
+    sget v0, Lcom/resouce/module/ResID;->tv_error:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

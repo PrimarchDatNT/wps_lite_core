@@ -201,7 +201,7 @@
 
     iput-object v0, p0, Lurl;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2afe
+    sget v1, Lcom/resouce/module/ResID;->select_tips_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
     .line 7
     iget-object p1, p0, Lurl;->W:Landroid/view/View;
 
-    const v0, 0x7f0b1811
+    sget v0, Lcom/resouce/module/ResID;->mark_img:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -235,7 +235,7 @@
     .line 9
     iget-object p1, p0, Lurl;->W:Landroid/view/View;
 
-    const v0, 0x7f0b1812
+    sget v0, Lcom/resouce/module/ResID;->mark_img_holder:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
     .line 10
     iget-object p1, p0, Lurl;->W:Landroid/view/View;
 
-    const v0, 0x7f0b065f
+    sget v0, Lcom/resouce/module/ResID;->desc_txt:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -261,7 +261,7 @@
     .line 11
     iget-object p1, p0, Lurl;->W:Landroid/view/View;
 
-    const v0, 0x7f0b15b5
+    sget v0, Lcom/resouce/module/ResID;->line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -272,7 +272,7 @@
     .line 12
     iget-object p1, p0, Lurl;->W:Landroid/view/View;
 
-    const v0, 0x7f0b2afd
+    sget v0, Lcom/resouce/module/ResID;->select_tips:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121db0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_bottom_mark_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121db2
+    sget v4, Lcom/resouce/module/ResSTRING;->public_bottom_mark_desc_long:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -558,7 +558,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121d0c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_add_text_content:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -566,12 +566,12 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f0e0b26
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_edit_dialog_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
 
-    const v1, 0x7f0b1810
+    sget v1, Lcom/resouce/module/ResID;->mark_edit:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     check-cast v1, Landroid/widget/EditText;
 
-    const v3, 0x7f0b1813
+    sget v3, Lcom/resouce/module/ResID;->mark_length_txt:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -707,7 +707,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 20
     new-instance v3, Lurl$b;
@@ -716,7 +716,7 @@
 
     invoke-virtual {v0, v2, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 21
     new-instance v3, Lurl$c;
@@ -757,7 +757,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060066
+    sget v1, Lcom/resouce/module/ResCOLOR;->c535252:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -993,18 +993,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b2afe
+    sget v0, Lcom/resouce/module/ResID;->select_tips_layout:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b1811
+    sget v0, Lcom/resouce/module/ResID;->mark_img:I
 
     if-ne p1, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b065f
+    sget v0, Lcom/resouce/module/ResID;->desc_txt:I
 
     if-ne p1, v0, :cond_3
 

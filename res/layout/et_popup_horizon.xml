@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:id="@id/tracks_shadow" android:background="@drawable/et_popup" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/tracks" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </LinearLayout>
-    <ImageView android:id="@id/arrow_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/et_popup_arrow_left" />
-    <ImageView android:id="@id/arrow_right" android:background="@drawable/et_popup_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/tracks_shadow" android:layout_marginStart="-6.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/tracks_shadow" />
-</RelativeLayout>

@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

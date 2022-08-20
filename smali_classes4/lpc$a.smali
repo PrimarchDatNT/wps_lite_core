@@ -53,7 +53,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b1eb0
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_indicator_pre:I
 
     if-ne p1, v1, :cond_0
 
@@ -63,7 +63,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b1eaf
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_indicator_next:I
 
     if-ne p1, v1, :cond_1
 

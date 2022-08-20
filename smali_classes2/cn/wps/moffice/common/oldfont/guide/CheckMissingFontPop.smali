@@ -1050,7 +1050,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122023
+    sget v2, Lcom/resouce/module/ResSTRING;->public_download_immediately:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1228,7 +1228,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f12255c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm_with_font_size:I
 
     const/4 v3, 0x1
 

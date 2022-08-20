@@ -89,7 +89,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v2, 0x7f121a67
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_appear:I
 
     .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -100,7 +100,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f121a79
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fade:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -110,7 +110,7 @@
 
     aput-object v2, v1, v4
 
-    const v2, 0x7f121a99
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_wipe:I
 
     .line 4
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -121,7 +121,7 @@
 
     aput-object v2, v1, v5
 
-    const v2, 0x7f121a9b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_zoom:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -131,7 +131,7 @@
 
     aput-object v2, v1, v6
 
-    const v2, 0x7f121a8a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_riseup:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -145,7 +145,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v2, 0x7f080cfd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_1:I
 
     .line 5
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -154,7 +154,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080d03
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_2:I
 
     .line 6
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -163,7 +163,7 @@
 
     aput-object v2, v1, v4
 
-    const v2, 0x7f080d04
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_3:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -171,7 +171,7 @@
 
     aput-object v2, v1, v5
 
-    const v2, 0x7f080d05
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_4:I
 
     .line 7
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -180,7 +180,7 @@
 
     aput-object v2, v1, v6
 
-    const v8, 0x7f080d06
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_5:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -217,7 +217,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v8, 0x7f121a58
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_flashbulb:I
 
     .line 9
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -226,7 +226,7 @@
 
     aput-object v8, v1, v3
 
-    const v8, 0x7f121a5a
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_grow_shrink:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -234,7 +234,7 @@
 
     aput-object v8, v1, v4
 
-    const v8, 0x7f121a5f
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_spin:I
 
     .line 10
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -243,7 +243,7 @@
 
     aput-object v8, v1, v5
 
-    const v8, 0x7f121a61
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_teeter:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -251,7 +251,7 @@
 
     aput-object v8, v1, v6
 
-    const v8, 0x7f121a62
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_transparency:I
 
     .line 11
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -264,7 +264,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v8, 0x7f080d07
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_6:I
 
     .line 12
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -273,7 +273,7 @@
 
     aput-object v8, v1, v3
 
-    const v8, 0x7f080d08
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_7:I
 
     .line 13
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -282,7 +282,7 @@
 
     aput-object v8, v1, v4
 
-    const v8, 0x7f080d09
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_8:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -290,7 +290,7 @@
 
     aput-object v8, v1, v5
 
-    const v8, 0x7f080d0a
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_9:I
 
     .line 14
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -299,7 +299,7 @@
 
     aput-object v8, v1, v6
 
-    const v8, 0x7f080cfe
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_10:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -336,7 +336,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v8, 0x7f121a9c
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_appear:I
 
     .line 16
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -345,7 +345,7 @@
 
     aput-object v8, v1, v3
 
-    const v8, 0x7f121aae
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fade:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -353,7 +353,7 @@
 
     aput-object v8, v1, v4
 
-    const v8, 0x7f121ace
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_wipe:I
 
     .line 17
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -362,7 +362,7 @@
 
     aput-object v8, v1, v5
 
-    const v8, 0x7f121ad0
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_zoom:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -370,7 +370,7 @@
 
     aput-object v8, v1, v6
 
-    const v8, 0x7f121abf
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_riseup:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -382,7 +382,7 @@
 
     new-array v1, v0, [Ljava/lang/Integer;
 
-    const v8, 0x7f080cff
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_11:I
 
     .line 18
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -391,7 +391,7 @@
 
     aput-object v8, v1, v3
 
-    const v8, 0x7f080d00
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_12:I
 
     .line 19
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -400,7 +400,7 @@
 
     aput-object v8, v1, v4
 
-    const v8, 0x7f080d01
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_13:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -410,7 +410,7 @@
 
     aput-object v2, v1, v6
 
-    const v2, 0x7f080d02
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_14:I
 
     .line 20
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -464,7 +464,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e059b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_ppt_anim_effect_droplist:I
 
     const/4 v1, 0x0
 
@@ -474,7 +474,7 @@
 
     iput-object p2, p0, Llnd;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1b8d
+    sget v0, Lcom/resouce/module/ResID;->outContainer:I
 
     .line 26
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -517,7 +517,7 @@
     :cond_0
     iget-object p1, p0, Llnd;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1c21
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_anim_effect_more_grid:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -530,7 +530,7 @@
     .line 32
     iget-object p1, p0, Llnd;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1c1f
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_anim_effect_enter_grid:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     .line 33
     iget-object p1, p0, Llnd;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1c1e
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_anim_effect_emphasize_grid:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -556,7 +556,7 @@
     .line 34
     iget-object p1, p0, Llnd;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1c20
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_anim_effect_exit_grid:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -842,9 +842,9 @@
     :cond_0
     new-instance v0, Llnd$c;
 
-    const v3, 0x7f080d0d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_none:I
 
-    const v4, 0x7f122543
+    sget v4, Lcom/resouce/module/ResSTRING;->public_none:I
 
     const/4 v5, 0x0
 
@@ -873,9 +873,9 @@
     .line 14
     new-instance v0, Llnd$c;
 
-    const v4, 0x7f080d0e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_customize_other:I
 
-    const v5, 0x7f121ad4
+    sget v5, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_other:I
 
     const/4 v6, 0x0
 

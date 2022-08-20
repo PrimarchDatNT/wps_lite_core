@@ -74,7 +74,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/TransferFileUtil$g;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1211a0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_transfer_to_pc:I
 
     const/4 v2, 0x0
 

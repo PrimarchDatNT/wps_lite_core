@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f122ada
+    sget v1, Lcom/resouce/module/ResSTRING;->public_three_month:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -246,7 +246,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120717
+    sget v1, Lcom/resouce/module/ResSTRING;->en_pay_single_subs_description:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -413,7 +413,7 @@
 .method public l()I
     .locals 1
 
-    const v0, 0x7f0e0183
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_pay_single_sku_layout:I
 
     return v0
 .end method
@@ -430,7 +430,7 @@
     .line 3
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0873
+    sget v1, Lcom/resouce/module/ResID;->en_single_privacy_policy:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 4
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0878
+    sget v1, Lcom/resouce/module/ResID;->en_single_sku_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 5
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0877
+    sget v1, Lcom/resouce/module/ResID;->en_single_sku_policy_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
     .line 6
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0876
+    sget v1, Lcom/resouce/module/ResID;->en_single_sku_month_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -482,7 +482,7 @@
     .line 7
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b087a
+    sget v1, Lcom/resouce/module/ResID;->en_single_terms_of_use_link:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
     .line 8
     iget-object v1, p0, Lqg6;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0874
+    sget v2, Lcom/resouce/module/ResID;->en_single_privacy_policy_link:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -514,7 +514,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12071d
+    sget v3, Lcom/resouce/module/ResSTRING;->en_single_sku_policy_link:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -533,7 +533,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12134b
+    sget v4, Lcom/resouce/module/ResSTRING;->license_ent_android:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

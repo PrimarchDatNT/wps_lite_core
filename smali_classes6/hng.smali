@@ -549,7 +549,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f122893
+    sget p1, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     const/4 p2, 0x1
 
@@ -1081,7 +1081,7 @@
 
     invoke-interface {v0}, Lq2m;->a()V
 
-    const v0, 0x7f122fe2
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_search_formula_too_long:I
 
     .line 16
     invoke-static {v0, v1}, Lsjf;->k(II)V

@@ -15,7 +15,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060625
+    sget v0, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -96,7 +96,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eba
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_sidebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -261,7 +261,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0597
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_pdf_play_sidebar_layout:I
 
     return v0
 .end method

@@ -55,7 +55,7 @@
     :try_start_0
     iget-object p1, p0, Labf$l;->B:Landroid/app/Activity;
 
-    const p2, 0x7f123192
+    sget p2, Lcom/resouce/module/ResSTRING;->url_work_group_apply:I
 
     const/4 p3, 0x1
 

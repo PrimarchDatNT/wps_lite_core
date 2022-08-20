@@ -44,7 +44,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lwl3;-><init>(Landroid/app/Activity;I)V
@@ -104,7 +104,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0d2a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_online_device_list_dialog:I
 
     const/4 v1, 0x1
 
@@ -230,7 +230,7 @@
     .line 2
     iget-object p1, p0, Lsv3;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0675
+    sget v0, Lcom/resouce/module/ResID;->device_list:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -272,7 +272,7 @@
 
     fill-array-data v7, :array_0
 
-    const v5, 0x7f0e0d29
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_online_device_list_check_item:I
 
     move-object v1, v0
 

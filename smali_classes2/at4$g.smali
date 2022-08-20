@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225f5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pay_cdkey_havebound:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225f6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pay_cdkey_maximumcount:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225f4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pay_cdkey_expired:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ce4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_invalid:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ce6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_noserver:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

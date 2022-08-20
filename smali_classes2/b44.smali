@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12232d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hotkey_arrow_keys:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
     .line 4
     new-instance v3, Lx34;
 
-    const v4, 0x7f12281f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_save:I
 
     const-string v5, "Ctrl+S"
 
@@ -117,7 +117,7 @@
     .line 5
     new-instance v3, Lx34;
 
-    const v6, 0x7f122820
+    sget v6, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     const-string v7, "F12"
 
@@ -128,7 +128,7 @@
     .line 6
     new-instance v3, Lx34;
 
-    const v6, 0x7f121292
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_open_other_doc:I
 
     const-string v7, "Ctrl+O"
 
@@ -139,7 +139,7 @@
     .line 7
     new-instance v3, Lx34;
 
-    const v8, 0x7f12251b    # 1.9425995E38f
+    sget v8, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     const-string v9, "Ctrl+N"
 
@@ -150,7 +150,7 @@
     .line 8
     new-instance v3, Lx34;
 
-    const v10, 0x7f121e1c
+    sget v10, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     const-string v11, "Ctrl+W"
 
@@ -161,7 +161,7 @@
     .line 9
     new-instance v3, Lx34;
 
-    const v12, 0x7f122856
+    sget v12, Lcom/resouce/module/ResSTRING;->public_search:I
 
     const-string v13, "Ctrl+F"
 
@@ -172,7 +172,7 @@
     .line 10
     new-instance v3, Lx34;
 
-    const v12, 0x7f1227f9
+    sget v12, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     const-string v13, "Ctrl+H"
 
@@ -183,7 +183,7 @@
     .line 11
     new-instance v3, Lx34;
 
-    const v12, 0x7f1226b6
+    sget v12, Lcom/resouce/module/ResSTRING;->public_print:I
 
     const-string v13, "Ctrl+P"
 
@@ -194,7 +194,7 @@
     .line 12
     new-instance v3, Lx34;
 
-    const v12, 0x7f121287
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_hyperlink:I
 
     const-string v13, "Ctrl+K"
 
@@ -205,7 +205,7 @@
     .line 13
     new-instance v3, Lx34;
 
-    const v12, 0x7f121298
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_revise:I
 
     const-string v13, "Ctrl+Shift+E"
 
@@ -216,7 +216,7 @@
     .line 14
     new-instance v3, Lx34;
 
-    const v12, 0x7f12129e
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_word_count:I
 
     const-string v13, "Ctrl+Shift+G"
 
@@ -227,7 +227,7 @@
     .line 15
     new-instance v3, Lx34;
 
-    const v12, 0x7f121e1b
+    sget v12, Lcom/resouce/module/ResSTRING;->public_close:I
 
     const-string v13, "Esc"
 
@@ -238,7 +238,7 @@
     .line 16
     new-instance v3, Lx34;
 
-    const v12, 0x7f12129f
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_word_setting:I
 
     const-string v13, "Ctrl+D"
 
@@ -254,7 +254,7 @@
     .line 18
     new-instance v12, Lx34;
 
-    const v13, 0x7f122b3c
+    sget v13, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     const-string v14, "Ctrl+Z"
 
@@ -265,7 +265,7 @@
     .line 19
     new-instance v12, Lx34;
 
-    const v15, 0x7f121296
+    sget v15, Lcom/resouce/module/ResSTRING;->hotkey_restore:I
 
     const-string v13, "Ctrl+Y"
 
@@ -276,7 +276,7 @@
     .line 20
     new-instance v12, Lx34;
 
-    const v15, 0x7f121fab
+    sget v15, Lcom/resouce/module/ResSTRING;->public_cut:I
 
     const-string v10, "Ctrl+X"
 
@@ -287,7 +287,7 @@
     .line 21
     new-instance v12, Lx34;
 
-    const v15, 0x7f121f7c
+    sget v15, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     const-string v8, "Ctrl+C"
 
@@ -298,7 +298,7 @@
     .line 22
     new-instance v12, Lx34;
 
-    const v15, 0x7f1225ee
+    sget v15, Lcom/resouce/module/ResSTRING;->public_paste:I
 
     const-string v6, "Ctrl+V"
 
@@ -309,7 +309,7 @@
     .line 23
     new-instance v12, Lx34;
 
-    const v15, 0x7f1228d7
+    sget v15, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     const-string v4, "Ctrl+A"
 
@@ -320,7 +320,7 @@
     .line 24
     new-instance v12, Lx34;
 
-    const v15, 0x7f121274
+    sget v15, Lcom/resouce/module/ResSTRING;->hotkey_bold:I
 
     const-string v1, "Ctrl+B"
 
@@ -331,7 +331,7 @@
     .line 25
     new-instance v1, Lx34;
 
-    const v12, 0x7f12128d
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_italic:I
 
     const-string v15, "Ctrl+I"
 
@@ -342,7 +342,7 @@
     .line 26
     new-instance v1, Lx34;
 
-    const v12, 0x7f12129d
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_underline:I
 
     const-string v15, "Ctrl+U"
 
@@ -353,7 +353,7 @@
     .line 27
     new-instance v1, Lx34;
 
-    const v12, 0x7f121288
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_increase_font_size_1:I
 
     const-string v15, "Ctrl+]"
 
@@ -364,7 +364,7 @@
     .line 28
     new-instance v1, Lx34;
 
-    const v12, 0x7f12127d
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_decrease_font_size_1:I
 
     const-string v15, "Ctrl+["
 
@@ -375,7 +375,7 @@
     .line 29
     new-instance v1, Lx34;
 
-    const v12, 0x7f121289
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_increase_font_size_2:I
 
     const-string v15, "Ctrl+Shift+>"
 
@@ -386,7 +386,7 @@
     .line 30
     new-instance v1, Lx34;
 
-    const v12, 0x7f12127e
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_decrease_font_size_2:I
 
     const-string v15, "Ctrl+Shift+<"
 
@@ -402,7 +402,7 @@
     .line 32
     new-instance v12, Lx34;
 
-    const v15, 0x7f1226b3
+    sget v15, Lcom/resouce/module/ResSTRING;->public_preview_pre_page:I
 
     move-object/from16 v16, v4
 
@@ -415,7 +415,7 @@
     .line 33
     new-instance v4, Lx34;
 
-    const v12, 0x7f1226b2
+    sget v12, Lcom/resouce/module/ResSTRING;->public_preview_next_page:I
 
     const-string v15, "PageDown"
 
@@ -426,7 +426,7 @@
     .line 34
     new-instance v4, Lx34;
 
-    const v12, 0x7f121275
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_cursor_move:I
 
     invoke-direct {v4, v12, v0}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -435,7 +435,7 @@
     .line 35
     new-instance v4, Lx34;
 
-    const v12, 0x7f121277
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_cursor_move_to_beging:I
 
     move-object/from16 v17, v15
 
@@ -448,7 +448,7 @@
     .line 36
     new-instance v4, Lx34;
 
-    const v12, 0x7f121278
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_cursor_move_to_end:I
 
     const-string v15, "End"
 
@@ -459,7 +459,7 @@
     .line 37
     new-instance v4, Lx34;
 
-    const v12, 0x7f12129a
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_skip_to_doc_top:I
 
     const-string v15, "Ctrl+Home"
 
@@ -470,7 +470,7 @@
     .line 38
     new-instance v4, Lx34;
 
-    const v12, 0x7f121299
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_skip_to_doc_end:I
 
     const-string v15, "Ctrl+End"
 
@@ -495,7 +495,7 @@
 
     move-result-object v12
 
-    const v15, 0x7f121272
+    sget v15, Lcom/resouce/module/ResSTRING;->hotkey_block_selected_text:I
 
     invoke-direct {v4, v15, v12}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -504,7 +504,7 @@
     .line 40
     new-instance v4, Lx34;
 
-    const v12, 0x7f12127f
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_delete_backward:I
 
     const-string v15, "Delete"
 
@@ -515,7 +515,7 @@
     .line 41
     new-instance v4, Lx34;
 
-    const v15, 0x7f121280
+    sget v15, Lcom/resouce/module/ResSTRING;->hotkey_delete_forward:I
 
     const-string v12, "Backspace"
 
@@ -526,7 +526,7 @@
     .line 42
     new-instance v4, Lx34;
 
-    const v12, 0x7f1233d0
+    sget v12, Lcom/resouce/module/ResSTRING;->writer_page_break:I
 
     const-string v15, "Ctrl+Enter"
 
@@ -537,7 +537,7 @@
     .line 43
     new-instance v4, Lx34;
 
-    const v12, 0x7f12128e
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_line_break:I
 
     const-string v15, "Shift+Enter"
 
@@ -568,7 +568,7 @@
     .line 48
     new-instance v2, Lx34;
 
-    const v3, 0x7f12281f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v2, v3, v5}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -577,7 +577,7 @@
     .line 49
     new-instance v2, Lx34;
 
-    const v3, 0x7f121292
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_open_other_doc:I
 
     invoke-direct {v2, v3, v7}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -586,7 +586,7 @@
     .line 50
     new-instance v2, Lx34;
 
-    const v3, 0x7f12251b    # 1.9425995E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     invoke-direct {v2, v3, v9}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -595,7 +595,7 @@
     .line 51
     new-instance v2, Lx34;
 
-    const v3, 0x7f121e1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-direct {v2, v3, v11}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -604,7 +604,7 @@
     .line 52
     new-instance v2, Lx34;
 
-    const v3, 0x7f122856
+    sget v3, Lcom/resouce/module/ResSTRING;->public_search:I
 
     const-string v4, "Ctrl+F"
 
@@ -615,7 +615,7 @@
     .line 53
     new-instance v2, Lx34;
 
-    const v3, 0x7f1227f9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     const-string v4, "Ctrl+H"
 
@@ -626,7 +626,7 @@
     .line 54
     new-instance v2, Lx34;
 
-    const v3, 0x7f123079
+    sget v3, Lcom/resouce/module/ResSTRING;->template_filter:I
 
     const-string v4, "Ctrl+Shift+L"
 
@@ -637,7 +637,7 @@
     .line 55
     new-instance v2, Lx34;
 
-    const v3, 0x7f1226b6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print:I
 
     const-string v4, "Ctrl+P"
 
@@ -648,7 +648,7 @@
     .line 56
     new-instance v2, Lx34;
 
-    const v3, 0x7f121282
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_enter_edit:I
 
     const-string v4, "F2"
 
@@ -661,7 +661,7 @@
 
     const-string v3, "Delete"
 
-    const v4, 0x7f12127f
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_delete_backward:I
 
     invoke-direct {v2, v4, v3}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -670,7 +670,7 @@
     .line 58
     new-instance v2, Lx34;
 
-    const v3, 0x7f121280
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_delete_forward:I
 
     const-string v4, "Backspace"
 
@@ -681,7 +681,7 @@
     .line 59
     new-instance v2, Lx34;
 
-    const v3, 0x7f121285
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_fill_down:I
 
     const-string v4, "Ctrl+D"
 
@@ -692,7 +692,7 @@
     .line 60
     new-instance v2, Lx34;
 
-    const v3, 0x7f121286
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_fill_right:I
 
     const-string v4, "Ctrl+R"
 
@@ -708,7 +708,7 @@
     .line 62
     new-instance v3, Lx34;
 
-    const v4, 0x7f122b3c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-direct {v3, v4, v14}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -717,7 +717,7 @@
     .line 63
     new-instance v3, Lx34;
 
-    const v4, 0x7f121296
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_restore:I
 
     invoke-direct {v3, v4, v13}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -726,7 +726,7 @@
     .line 64
     new-instance v3, Lx34;
 
-    const v4, 0x7f121fab
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cut:I
 
     invoke-direct {v3, v4, v10}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -735,7 +735,7 @@
     .line 65
     new-instance v3, Lx34;
 
-    const v4, 0x7f121f7c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     invoke-direct {v3, v4, v8}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -744,7 +744,7 @@
     .line 66
     new-instance v3, Lx34;
 
-    const v4, 0x7f1225ee
+    sget v4, Lcom/resouce/module/ResSTRING;->public_paste:I
 
     invoke-direct {v3, v4, v6}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -755,7 +755,7 @@
 
     move-object/from16 v4, v16
 
-    const v12, 0x7f1228d7
+    sget v12, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-direct {v3, v12, v4}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -764,7 +764,7 @@
     .line 68
     new-instance v3, Lx34;
 
-    const v12, 0x7f121274
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_bold:I
 
     const-string v15, "Ctrl+B"
 
@@ -775,7 +775,7 @@
     .line 69
     new-instance v3, Lx34;
 
-    const v12, 0x7f12128d
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_italic:I
 
     const-string v15, "Ctrl+I"
 
@@ -786,7 +786,7 @@
     .line 70
     new-instance v3, Lx34;
 
-    const v12, 0x7f12129d
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_underline:I
 
     const-string v15, "Ctrl+U"
 
@@ -802,7 +802,7 @@
     .line 72
     new-instance v12, Lx34;
 
-    const v15, 0x7f121291
+    sget v15, Lcom/resouce/module/ResSTRING;->hotkey_move_cell_up:I
 
     const-string v4, "PageUP"
 
@@ -813,7 +813,7 @@
     .line 73
     new-instance v4, Lx34;
 
-    const v12, 0x7f121290
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_move_cell_down:I
 
     move-object/from16 v15, v17
 
@@ -824,7 +824,7 @@
     .line 74
     new-instance v4, Lx34;
 
-    const v12, 0x7f12128f
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_move_cell_cursor:I
 
     invoke-direct {v4, v12, v0}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -849,7 +849,7 @@
 
     move-result-object v6
 
-    const v12, 0x7f121273
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_block_selection_cell_text:I
 
     invoke-direct {v4, v12, v6}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -872,7 +872,7 @@
 
     move-result-object v6
 
-    const v12, 0x7f12127b
+    sget v12, Lcom/resouce/module/ResSTRING;->hotkey_cut_to_not_empty_edge_cell:I
 
     invoke-direct {v4, v12, v6}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -881,7 +881,7 @@
     .line 77
     new-instance v4, Lx34;
 
-    const v6, 0x7f12127c
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_cut_to_upper_cell:I
 
     const-string v12, "Shift+Enter"
 
@@ -892,7 +892,7 @@
     .line 78
     new-instance v4, Lx34;
 
-    const v6, 0x7f12127a
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_cut_to_lower_cell:I
 
     const-string v12, "Enter"
 
@@ -903,7 +903,7 @@
     .line 79
     new-instance v4, Lx34;
 
-    const v6, 0x7f121279
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_cut_to_left_cell:I
 
     const-string v12, "Shift+Tab"
 
@@ -914,7 +914,7 @@
     .line 80
     new-instance v4, Lx34;
 
-    const v6, 0x7f12129c
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_switch_right_cell:I
 
     const-string v12, "Tab"
 
@@ -925,7 +925,7 @@
     .line 81
     new-instance v4, Lx34;
 
-    const v6, 0x7f121297
+    sget v6, Lcom/resouce/module/ResSTRING;->hotkey_return_to_first_cell:I
 
     const-string v12, "Ctrl+Home"
 
@@ -956,7 +956,7 @@
     .line 86
     new-instance v2, Lx34;
 
-    const v3, 0x7f12281f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v2, v3, v5}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -965,7 +965,7 @@
     .line 87
     new-instance v2, Lx34;
 
-    const v3, 0x7f121292
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_open_other_doc:I
 
     invoke-direct {v2, v3, v7}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -974,7 +974,7 @@
     .line 88
     new-instance v2, Lx34;
 
-    const v3, 0x7f12251b    # 1.9425995E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     invoke-direct {v2, v3, v9}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -983,7 +983,7 @@
     .line 89
     new-instance v2, Lx34;
 
-    const v3, 0x7f121e1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-direct {v2, v3, v11}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -992,7 +992,7 @@
     .line 90
     new-instance v2, Lx34;
 
-    const v3, 0x7f122655
+    sget v3, Lcom/resouce/module/ResSTRING;->public_play:I
 
     const-string v4, "F5"
 
@@ -1003,7 +1003,7 @@
     .line 91
     new-instance v2, Lx34;
 
-    const v3, 0x7f121e1b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close:I
 
     const-string v4, "Esc"
 
@@ -1014,7 +1014,7 @@
     .line 92
     new-instance v2, Lx34;
 
-    const v3, 0x7f121295
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_quit_full_screen:I
 
     const-string v4, "Ctrl+Esc"
 
@@ -1025,7 +1025,7 @@
     .line 93
     new-instance v2, Lx34;
 
-    const v3, 0x7f12128a
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_insert_new_slide:I
 
     const-string v4, "Ctrl+M"
 
@@ -1036,7 +1036,7 @@
     .line 94
     new-instance v2, Lx34;
 
-    const v3, 0x7f1226b3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_preview_pre_page:I
 
     const-string v4, "PageUp"
 
@@ -1047,7 +1047,7 @@
     .line 95
     new-instance v2, Lx34;
 
-    const v3, 0x7f1226b2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_preview_next_page:I
 
     invoke-direct {v2, v3, v15}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1056,7 +1056,7 @@
     .line 96
     new-instance v2, Lx34;
 
-    const v3, 0x7f121276
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_cursor_move_or_switch:I
 
     invoke-direct {v2, v3, v0}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1067,7 +1067,7 @@
 
     const-string v2, "Delete"
 
-    const v3, 0x7f12127f
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_delete_backward:I
 
     invoke-direct {v0, v3, v2}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1076,7 +1076,7 @@
     .line 98
     new-instance v0, Lx34;
 
-    const v2, 0x7f121280
+    sget v2, Lcom/resouce/module/ResSTRING;->hotkey_delete_forward:I
 
     const-string v3, "Backspace"
 
@@ -1092,7 +1092,7 @@
     .line 100
     new-instance v2, Lx34;
 
-    const v3, 0x7f122b3c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-direct {v2, v3, v14}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1101,7 +1101,7 @@
     .line 101
     new-instance v2, Lx34;
 
-    const v3, 0x7f121296
+    sget v3, Lcom/resouce/module/ResSTRING;->hotkey_restore:I
 
     invoke-direct {v2, v3, v13}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1110,7 +1110,7 @@
     .line 102
     new-instance v2, Lx34;
 
-    const v3, 0x7f121fab
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cut:I
 
     invoke-direct {v2, v3, v10}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1119,7 +1119,7 @@
     .line 103
     new-instance v2, Lx34;
 
-    const v3, 0x7f121f7c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     invoke-direct {v2, v3, v8}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1130,7 +1130,7 @@
 
     move-object/from16 v3, v17
 
-    const v4, 0x7f1225ee
+    sget v4, Lcom/resouce/module/ResSTRING;->public_paste:I
 
     invoke-direct {v2, v4, v3}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1141,7 +1141,7 @@
 
     move-object/from16 v3, v16
 
-    const v4, 0x7f1228d7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-direct {v2, v4, v3}, Lx34;-><init>(ILjava/lang/String;)V
 
@@ -1150,7 +1150,7 @@
     .line 106
     new-instance v2, Lx34;
 
-    const v3, 0x7f120b73
+    sget v3, Lcom/resouce/module/ResSTRING;->et_hyperlink_insert:I
 
     const-string v4, "Ctrl+K"
 
@@ -1166,7 +1166,7 @@
     .line 108
     new-instance v3, Lx34;
 
-    const v4, 0x7f121281
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_design_tab:I
 
     const-string v5, "Alt+V"
 
@@ -1177,7 +1177,7 @@
     .line 109
     new-instance v3, Lx34;
 
-    const v4, 0x7f121294
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_play_tab:I
 
     const-string v5, "Alt+S"
 
@@ -1188,7 +1188,7 @@
     .line 110
     new-instance v3, Lx34;
 
-    const v4, 0x7f12129b
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_start_tab:I
 
     const-string v5, "Alt+E"
 
@@ -1199,7 +1199,7 @@
     .line 111
     new-instance v3, Lx34;
 
-    const v4, 0x7f12128b
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_insert_tab:I
 
     const-string v5, "Alt+I"
 
@@ -1210,7 +1210,7 @@
     .line 112
     new-instance v3, Lx34;
 
-    const v4, 0x7f121293
+    sget v4, Lcom/resouce/module/ResSTRING;->hotkey_pen_tab:I
 
     const-string v5, "Alt+P"
 

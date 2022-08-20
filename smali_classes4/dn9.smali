@@ -55,7 +55,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b0d4a
+    sget v1, Lcom/resouce/module/ResID;->filelist:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09b2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_unread_layout:I
 
     const/4 v2, 0x0
 

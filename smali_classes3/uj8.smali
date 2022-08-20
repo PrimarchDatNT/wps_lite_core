@@ -266,7 +266,7 @@
     .line 13
     iget-object v2, p0, Luj8;->a:Landroid/app/Activity;
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v2, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 

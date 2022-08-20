@@ -44,14 +44,14 @@
 .method public static f(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
 
-    const v0, 0x7f12011c
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f12011a
+    sget v1, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

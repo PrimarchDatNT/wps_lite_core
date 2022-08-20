@@ -160,7 +160,7 @@
 
     move-result v0
 
-    const v1, 0x7f121c1d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_launch_version_low:I
 
     const/4 v2, 0x1
 
@@ -174,7 +174,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity$10;->this$0:Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity;
 
-    const v0, 0x7f121c1e
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_unsupport:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -196,7 +196,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity$10;->this$0:Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity;
 
-    const v0, 0x7f121c1c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_join_version_low:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -218,7 +218,7 @@
     :cond_5
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity$10;->this$0:Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity;
 
-    const v0, 0x7f121c24
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_launcher_exit:I
 
     const/4 v1, 0x0
 

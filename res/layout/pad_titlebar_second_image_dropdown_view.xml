@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/public_pad_second_toolbar_item_selector" android:layout_width="wrap_content" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/dropdown_imageview_image" android:layout_width="@dimen/pad_title_image_height" android:layout_height="@dimen/pad_title_image_height" />
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/dropdown_imageview_dropdown" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/pad_comp_common_arrow_down" android:layout_marginStart="6.0dip" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

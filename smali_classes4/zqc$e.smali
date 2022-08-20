@@ -126,7 +126,7 @@
     :catchall_0
     iget-object p1, p0, Lzqc$e;->d:Landroid/app/Activity;
 
-    const v0, 0x7f121d7d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bad_doc_to_process:I
 
     const/4 v1, 0x0
 

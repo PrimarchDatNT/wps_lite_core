@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121363
+    sget v4, Lcom/resouce/module/ResSTRING;->login_guide_new_feature1_tip:I
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
 
     move-result v6
 
-    const v7, 0x7f0b175b
+    sget v7, Lcom/resouce/module/ResID;->login_new_feature:I
 
     const-string v8, ""
 
@@ -286,7 +286,7 @@
 
     move-result v6
 
-    const v9, 0x7f0b175c
+    sget v9, Lcom/resouce/module/ResID;->login_new_feature_desc:I
 
     if-eqz v6, :cond_2
 
@@ -418,7 +418,7 @@
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_5
-    const v6, 0x7f0b175d    # 1.84884E38f
+    sget v6, Lcom/resouce/module/ResID;->login_new_feature_tips:I    # 1.84884E38f
 
     if-ne v3, v5, :cond_5
 
@@ -499,7 +499,7 @@
 
     move-result v5
 
-    const v6, 0x7f0b175f
+    sget v6, Lcom/resouce/module/ResID;->login_pic:I
 
     if-eqz v5, :cond_9
 
@@ -616,7 +616,7 @@
 
     :cond_c
     :goto_7
-    const v5, 0x7f0b1759
+    sget v5, Lcom/resouce/module/ResID;->login_jump:I
 
     .line 41
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -72,7 +72,7 @@
 .method public final a(I)I
     .locals 1
 
-    const v0, 0x7f0b1a84
+    sget v0, Lcom/resouce/module/ResID;->novel_title:I
 
     if-ne p1, v0, :cond_0
 
@@ -81,7 +81,7 @@
     return p1
 
     :cond_0
-    const v0, 0x7f0b04c5
+    sget v0, Lcom/resouce/module/ResID;->comic_title:I
 
     if-ne p1, v0, :cond_1
 
@@ -103,11 +103,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e105f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->wps_home_root_main_tab_bar_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1a84
+    sget v0, Lcom/resouce/module/ResID;->novel_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
     .line 3
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b04c5
+    sget v0, Lcom/resouce/module/ResID;->comic_title:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
     .line 5
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b12eb
+    sget v0, Lcom/resouce/module/ResID;->indicator_view:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

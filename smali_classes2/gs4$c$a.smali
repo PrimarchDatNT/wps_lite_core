@@ -75,7 +75,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060095
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_e8e8e8:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -88,7 +88,7 @@
 
     iget-object p1, p1, Lgs4$c;->b:Lcib$b;
 
-    const v0, 0x7f06008e
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_b3b3b3:I
 
     invoke-static {v0}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
 

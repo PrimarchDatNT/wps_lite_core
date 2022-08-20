@@ -131,7 +131,7 @@
     .line 10
     iget-object p1, p0, Lts9$a;->S:Landroid/content/Context;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -168,12 +168,12 @@
 
     invoke-direct {p1, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1204ce
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_using_mobile_network_tip:I
 
     .line 13
     invoke-virtual {p1, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 14
     new-instance v3, Lts9$a$a;
@@ -182,7 +182,7 @@
 
     invoke-virtual {p1, v2, v3}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 15
     invoke-virtual {p1, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

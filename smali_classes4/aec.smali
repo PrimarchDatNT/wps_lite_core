@@ -436,7 +436,7 @@
     :cond_1
     iget-object v0, p0, Laec;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120585
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1108,7 +1108,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121711
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

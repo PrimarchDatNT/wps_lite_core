@@ -81,7 +81,7 @@
 
     if-nez v4, :cond_0
 
-    const v4, 0x7f1218c4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 7
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -125,7 +125,7 @@
     .line 12
     invoke-virtual {v3, v4}, Lgf3;->h(Ljava/lang/String;)V
 
-    const v5, 0x7f121886
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_paypage_cloud_space_txt:I
 
     .line 13
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030022
+    sget v2, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

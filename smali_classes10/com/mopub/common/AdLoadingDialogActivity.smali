@@ -115,7 +115,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0cd2
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_loading_ad:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

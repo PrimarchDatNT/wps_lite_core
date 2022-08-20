@@ -129,7 +129,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121d0e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_add_to_calender:I
 
     const/4 v5, 0x1
 
@@ -147,7 +147,7 @@
 
     invoke-virtual {v2, v3}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 14
     new-instance v4, Lpla$b;
@@ -156,7 +156,7 @@
 
     invoke-virtual {v2, v3, v4}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 15
     new-instance v3, Lpla$c;

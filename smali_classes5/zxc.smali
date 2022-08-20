@@ -48,7 +48,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 3
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -247,7 +247,7 @@
     .line 2
     iget-object v0, p0, Lzxc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33f6
+    sget v1, Lcom/resouce/module/ResID;->watermark_add_btn_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,12 +262,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12192d
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_preview_modify:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121929
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_insert:I
 
     .line 4
     :goto_0
@@ -325,7 +325,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07e2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_watermark_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -341,7 +341,7 @@
     .line 3
     iget-object v0, p0, Lzxc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3408
+    sget v1, Lcom/resouce/module/ResID;->watermark_preview_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -371,7 +371,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121925
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
 
     iget-object v3, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f122018
+    sget v4, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -443,12 +443,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0817cc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0808a3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     :goto_0
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -497,7 +497,7 @@
     :cond_1
     iget-object v0, p0, Lzxc;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3407
+    sget v3, Lcom/resouce/module/ResID;->watermark_preview_progress:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
     .line 18
     iget-object v0, p0, Lzxc;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3406
+    sget v3, Lcom/resouce/module/ResID;->watermark_preview_list:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -537,7 +537,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07e0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_watermark_preview_footer:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -645,7 +645,7 @@
     .line 30
     iget-object v1, p0, Lzxc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33fe
+    sget v2, Lcom/resouce/module/ResID;->watermark_delete_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -660,7 +660,7 @@
     .line 31
     iget-object v1, p0, Lzxc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33f5
+    sget v2, Lcom/resouce/module/ResID;->watermark_add_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -675,7 +675,7 @@
     .line 32
     iget-object v1, p0, Lzxc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33f8
+    sget v2, Lcom/resouce/module/ResID;->watermark_bottom_panel_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -808,7 +808,7 @@
     .line 7
     iget-object v0, p0, Lzxc;->W:Landroid/app/Activity;
 
-    const v1, 0x7f12192b
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_no_delete:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -879,7 +879,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1364,7 +1364,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

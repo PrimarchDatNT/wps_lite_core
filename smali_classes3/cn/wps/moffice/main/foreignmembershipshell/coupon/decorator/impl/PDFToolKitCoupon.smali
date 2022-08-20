@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/foreignmembershipshell/coupon/decorator/impl/PDFToolKitCoupon;->b:Ljava/lang/String;
 
-    const p1, 0x7f081ab9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pdf_toolkit_icon:I
 
     .line 2
     iput p1, p2, Lul8$b;->f:I

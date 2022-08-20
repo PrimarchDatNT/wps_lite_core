@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bc8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -415,7 +415,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -424,12 +424,12 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f08106d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_send_as_longpic:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -461,7 +461,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0b2b68
+    sget v2, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
     .line 9
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b2ba4
+    sget v2, Lcom/resouce/module/ResID;->share_sub_title:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

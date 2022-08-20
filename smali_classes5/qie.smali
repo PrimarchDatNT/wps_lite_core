@@ -182,7 +182,7 @@
     .line 1
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b246c
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_search_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -201,14 +201,14 @@
 
     iget-object v1, p0, Lqie;->l:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e081a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_template_search_prepage:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 3
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2467
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_recommend_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
     .line 4
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2454
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_history_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -230,7 +230,7 @@
     .line 5
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2466
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_recommend_flowlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -243,7 +243,7 @@
     .line 6
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2453
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_history_flowlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -256,7 +256,7 @@
     .line 7
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2452
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_history_clean:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -267,7 +267,7 @@
     .line 8
     iget-object v0, p0, Lqie;->k:Landroid/view/View;
 
-    const v1, 0x7f0b244b
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_change_hotword:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -348,7 +348,7 @@
 
     iget-object v5, p0, Lqie;->m:Landroid/app/Activity;
 
-    const v7, 0x7f0e087b
+    sget v7, Lcom/resouce/module/ResLAYOUT;->phone_public_flow_recommend_item:I
 
     aget-object v8, v3, v0
 
@@ -412,7 +412,7 @@
 
     iget-object v4, p0, Lqie;->m:Landroid/app/Activity;
 
-    const v6, 0x7f0e087b
+    sget v6, Lcom/resouce/module/ResLAYOUT;->phone_public_flow_recommend_item:I
 
     aget-object v7, v1, v0
 

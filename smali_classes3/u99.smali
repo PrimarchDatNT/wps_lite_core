@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d71
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_app_search_item:I
 
     const/4 v2, 0x0
 
@@ -123,7 +123,7 @@
 
     iput-object p1, p0, Lu99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b310c
+    sget v0, Lcom/resouce/module/ResID;->tv_app_search_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
     .line 5
     iget-object p1, p0, Lu99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b15b1
+    sget v0, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 6
     iget-object p1, p0, Lu99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b12ab
+    sget v0, Lcom/resouce/module/ResID;->img_app_search_logo:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -163,7 +163,7 @@
     .line 7
     iget-object p1, p0, Lu99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

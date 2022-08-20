@@ -755,7 +755,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e006b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ad_titlebar_popup_window:I
 
     const/4 v4, 0x0
 
@@ -777,7 +777,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/PopupWindow;->setHeight(I)V
 
-    const v3, 0x7f0b015e
+    sget v3, Lcom/resouce/module/ResID;->arrow_up:I
 
     .line 13
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -791,7 +791,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f060657
+    sget v6, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -799,7 +799,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v4, 0x7f0b1227
+    sget v4, Lcom/resouce/module/ResID;->icon:I
 
     .line 15
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -833,7 +833,7 @@
     invoke-virtual {v5, v4}, Lcom/bumptech/glide/RequestBuilder;->into(Landroid/widget/ImageView;)Lcom/bumptech/glide/request/target/ViewTarget;
 
     :cond_6
-    const v4, 0x7f0b2fcd
+    sget v4, Lcom/resouce/module/ResID;->title:I
 
     .line 20
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -847,7 +847,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v4, 0x7f0b0448
+    sget v4, Lcom/resouce/module/ResID;->close_btn:I
 
     .line 22
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

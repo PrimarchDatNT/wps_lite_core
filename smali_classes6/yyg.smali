@@ -706,7 +706,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010062
+    sget v1, Lcom/resouce/module/ResANIM;->phone_bottom_push_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -719,7 +719,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f010061
+    sget v0, Lcom/resouce/module/ResANIM;->phone_bottom_push_in:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

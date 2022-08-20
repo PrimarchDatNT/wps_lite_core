@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/webview_more_fresh_text" android:focusable="false" android:text="@string/public_refresh" style="@style/phone_public_popumenu_textlist_item" />
-    <TextView android:id="@id/webview_more_open_browser_text" android:focusable="false" android:text="@string/public_open_in_browser" style="@style/phone_public_popumenu_textlist_item" />
-</LinearLayout>

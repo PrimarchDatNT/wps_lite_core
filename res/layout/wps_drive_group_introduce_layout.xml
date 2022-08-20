@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/wpsdrive_group_inner_layout" android:visibility="visible" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/wsdrive_group_inner_layout_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_doc_cooperation_pic" />
-    <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="@string/home_drive_group_introduce_title" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_cloud_group_introduce_tips1" />
-    <Button android:gravity="center" android:id="@id/wps_group_create_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="42.0dip" android:text="@string/home_drive_group_introduce_create_button_text" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip" style="@style/phone_public_wpsdrive_buttonStyle_blue_3dp_corner" />
-</LinearLayout>

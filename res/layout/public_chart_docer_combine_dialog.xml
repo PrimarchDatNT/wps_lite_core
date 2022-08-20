@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <cn.wps.moffice.common.beans.phone.scrollbar.KScrollBar android:gravity="center_vertical" android:id="@id/indicator" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titlebar" />
-    <View android:id="@id/indicator_divider" android:layout_alignBottom="@id/indicator" style="@style/phone_home_top_shadow" />
-    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/pager" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/indicator_divider" />
-    <cn.wps.moffice.spreadsheet.control.insert.docerchart.view.PreviewChartView android:id="@id/preview_dialog" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</RelativeLayout>

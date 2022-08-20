@@ -30,7 +30,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0e0c
+    sget v0, Lcom/resouce/module/ResID;->follow_fb_group:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b02d6
+    sget v0, Lcom/resouce/module/ResID;->btn_follow:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b02dd
+    sget v0, Lcom/resouce/module/ResID;->btn_join:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0283
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_join_wps_fb_group_detail_setting:I
 
     const/4 v2, 0x0
 
@@ -136,7 +136,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122a03
+    sget v0, Lcom/resouce/module/ResSTRING;->public_social_title:I
 
     return v0
 .end method
@@ -153,7 +153,7 @@
 
     const-string v2, "button_click"
 
-    const v3, 0x7f0b02d6
+    sget v3, Lcom/resouce/module/ResID;->btn_follow:I
 
     if-ne v0, v3, :cond_0
 
@@ -194,7 +194,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02dd
+    sget v0, Lcom/resouce/module/ResID;->btn_join:I
 
     if-ne p1, v0, :cond_1
 

@@ -256,7 +256,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f12156d
+    sget v2, Lcom/resouce/module/ResSTRING;->open_platform_select_file_limit:I
 
     const/4 v3, 0x0
 

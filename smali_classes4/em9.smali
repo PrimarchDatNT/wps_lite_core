@@ -27,7 +27,7 @@
 .method public final a(Landroid/view/View;Lsw9;)V
     .locals 6
 
-    const v0, 0x7f0b0f41
+    sget v0, Lcom/resouce/module/ResID;->grid_item_image_selected:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 .method public d(Landroid/view/View;Lqm9;)V
     .locals 3
 
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b0f42
+    sget v0, Lcom/resouce/module/ResID;->grid_item_lock:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     check-cast p2, Lsw9;
 
-    const v0, 0x7f0b0f40
+    sget v0, Lcom/resouce/module/ResID;->grid_item_image:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

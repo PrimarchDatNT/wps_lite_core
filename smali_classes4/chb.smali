@@ -113,14 +113,14 @@
 .method public final g(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    const v0, 0x7f122a67
+    sget v0, Lcom/resouce/module/ResSTRING;->public_task_center_item_come_from:I
 
     .line 1
     invoke-virtual {p0, v0}, Lchb;->l(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f1205b3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     .line 2
     invoke-virtual {p0, v1}, Lchb;->l(I)Ljava/lang/String;
@@ -136,7 +136,7 @@
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f122a68
+    sget v1, Lcom/resouce/module/ResSTRING;->public_task_center_item_come_from_android:I
 
     .line 4
     invoke-virtual {p0, v1}, Lchb;->l(I)Ljava/lang/String;
@@ -153,7 +153,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122a69
+    sget p1, Lcom/resouce/module/ResSTRING;->public_task_center_item_come_from_ios:I
 
     .line 6
     invoke-virtual {p0, p1}, Lchb;->l(I)Ljava/lang/String;
@@ -199,17 +199,17 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f08108d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_documents_wps:I
 
     return p1
 
     :cond_0
-    const p1, 0x7f08167e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f08168c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     return p1
 .end method
@@ -241,7 +241,7 @@
     return-object p1
 
     :cond_0
-    const p1, 0x7f122a70
+    sget p1, Lcom/resouce/module/ResSTRING;->public_task_center_item_translate:I
 
     .line 2
     invoke-virtual {p0, p1}, Lchb;->l(I)Ljava/lang/String;
@@ -254,7 +254,7 @@
 .method public final j(I)Ljava/lang/String;
     .locals 3
 
-    const v0, 0x7f122a6c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_task_center_item_converting_pages:I
 
     .line 1
     invoke-virtual {p0, v0}, Lchb;->l(I)Ljava/lang/String;
@@ -292,7 +292,7 @@
     .line 2
     new-instance v0, Lygb$a;
 
-    const v1, 0x7f121e11
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_retry:I
 
     .line 3
     invoke-virtual {p0, v1}, Lchb;->l(I)Ljava/lang/String;
@@ -323,7 +323,7 @@
     .line 5
     new-instance v0, Lygb$a;
 
-    const v1, 0x7f1215cb
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_contact_help:I
 
     .line 6
     invoke-virtual {p0, v1}, Lchb;->l(I)Ljava/lang/String;
@@ -566,7 +566,7 @@
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f1227bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     .line 8
     invoke-virtual {p0, v1}, Lchb;->l(I)Ljava/lang/String;
@@ -592,7 +592,7 @@
 
     const/4 v0, 0x2
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eq p2, v0, :cond_2
 
@@ -604,7 +604,7 @@
 
     if-eq p2, v0, :cond_0
 
-    const p2, 0x7f1205b3
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     .line 1
     invoke-virtual {p0, p2}, Lchb;->l(I)Ljava/lang/String;
@@ -616,7 +616,7 @@
     return-void
 
     :cond_0
-    const p2, 0x7f122a6d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_task_center_item_fail:I
 
     .line 2
     invoke-virtual {p0, p2}, Lchb;->l(I)Ljava/lang/String;
@@ -632,7 +632,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025d
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -643,7 +643,7 @@
     return-void
 
     :cond_1
-    const p2, 0x7f122a6a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_task_center_item_comple:I
 
     .line 4
     invoke-virtual {p0, p2}, Lchb;->l(I)Ljava/lang/String;
@@ -668,7 +668,7 @@
     return-void
 
     :cond_2
-    const p2, 0x7f122a71
+    sget p2, Lcom/resouce/module/ResSTRING;->public_task_center_item_translating:I
 
     .line 6
     invoke-virtual {p0, p2}, Lchb;->l(I)Ljava/lang/String;
@@ -693,7 +693,7 @@
     return-void
 
     :cond_3
-    const p2, 0x7f120e43
+    sget p2, Lcom/resouce/module/ResSTRING;->home_account_member_remind_tips_desc_expired:I
 
     .line 8
     invoke-virtual {p0, p2}, Lchb;->l(I)Ljava/lang/String;
@@ -709,7 +709,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -799,7 +799,7 @@
     .line 7
     iget-object p1, p0, Lzgb;->a:Landroid/app/Activity;
 
-    const p2, 0x7f122a7d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_task_center_tips_translation_running:I
 
     invoke-static {p1, p2, v4}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_1
@@ -890,7 +890,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cae
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_history_downloading:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -947,7 +947,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0ba7
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_dialog_text_cycle_progress_layout:I
 
     const/4 v0, 0x0
 
@@ -960,7 +960,7 @@
 
     move-result p2
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     if-eqz p2, :cond_1
 

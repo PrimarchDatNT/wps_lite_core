@@ -21,18 +21,18 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f080bff
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_search_ppt:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080249
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_search:I
 
     .line 2
     :goto_0
     new-instance v1, Ldld$a;
 
-    const v2, 0x7f122856
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-direct {v1, v0, v2}, Ldld$a;-><init>(II)V
 

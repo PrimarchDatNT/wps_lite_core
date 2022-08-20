@@ -137,7 +137,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122bdf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121db8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cad_open_cad_file_tip_msg:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -158,7 +158,7 @@
 
     invoke-virtual {v0, p0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f121f23
+    sget p0, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     const/4 v1, 0x0
 
@@ -235,7 +235,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121db7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cad_convert_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -257,7 +257,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0ba5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_dialog_pdf_save_layout:I
 
     const/4 v3, 0x0
 
@@ -265,7 +265,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b069b
+    sget v2, Lcom/resouce/module/ResID;->dialog_open_cad_msg_content:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121db5
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cad_convert_msg:I
 
     const/4 v6, 0x1
 
@@ -295,7 +295,7 @@
 
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b069a
+    sget v0, Lcom/resouce/module/ResID;->dialog_open_cad_content_remember:I
 
     .line 15
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -314,19 +314,19 @@
     .line 17
     invoke-virtual {p2, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 18
     invoke-virtual {p2, v1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121743
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_immediately:I
 
     .line 19
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

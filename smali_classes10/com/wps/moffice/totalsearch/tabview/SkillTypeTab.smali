@@ -94,7 +94,7 @@
 .method public getLayout()I
     .locals 1
 
-    const v0, 0x7f0e0f26
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_phone_total_search_skill_tab_layout:I
 
     return v0
 .end method

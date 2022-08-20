@@ -740,7 +740,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f121722
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_title:I
 
     .line 3
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -749,7 +749,7 @@
 
     invoke-virtual {v0, v2}, Lvcd;->setTitle(Ljava/lang/String;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f121721
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_tips:I
 
     .line 4
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -758,7 +758,7 @@
 
     invoke-virtual {v0, v2}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f121757
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     .line 5
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -951,7 +951,7 @@
     .line 4
     invoke-virtual {v0, v1}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f121765
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_star_recovery:I
 
     .line 5
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -960,7 +960,7 @@
 
     invoke-virtual {v0, v1}, Lvcd;->setTitle(Ljava/lang/String;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f1217a2    # 1.9419E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_upload_hint:I    # 1.9419E38f
 
     .line 6
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -969,7 +969,7 @@
 
     invoke-virtual {v0, v1}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -982,14 +982,14 @@
 
     invoke-virtual {v0, v1, v2}, Lvcd;->setNegativeButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 8
     invoke-static {v1}, Ltid;->a(I)I
 
     move-result v1
 
-    const v2, 0x7f121fa2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cta_agree_and_continue:I
 
     .line 9
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -1223,11 +1223,11 @@
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f12175b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_not_recommend:I
 
-    const v1, 0x7f12175e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_over_limited_size:I
 
-    const v2, 0x7f12175d
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_not_recommend_ok:I
 
     .line 9
     new-instance v3, Lvcd;
@@ -1253,7 +1253,7 @@
 
     invoke-virtual {v3, v0}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -1515,7 +1515,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1217a1
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_toast_not_network:I
 
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
 
@@ -1660,7 +1660,7 @@
 
     invoke-direct {v0, v1}, Lvcd;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121762
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_too_large:I
 
     .line 11
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -1671,7 +1671,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 12
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -1887,7 +1887,7 @@
     .line 7
     invoke-virtual {v0, v1}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f121750
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_exist_record:I
 
     .line 8
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -1896,14 +1896,14 @@
 
     invoke-virtual {v0, v2}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 9
     invoke-static {v2}, Ltid;->a(I)I
 
     move-result v2
 
-    const v3, 0x7f121776
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_view_task:I
 
     .line 10
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
@@ -1916,7 +1916,7 @@
 
     invoke-virtual {v0, v3, v2, v4}, Lvcd;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f121756
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_force_task:I
 
     .line 11
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -1929,7 +1929,7 @@
 
     invoke-virtual {v0, v2, v3}, Lvcd;->setNeutralButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 12
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -2029,7 +2029,7 @@
     .line 6
     invoke-virtual {v0, v1}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f121775
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_version_is_too_low:I
 
     .line 7
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;
@@ -2038,14 +2038,14 @@
 
     invoke-virtual {v0, v2}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 8
     invoke-static {v2}, Ltid;->a(I)I
 
     move-result v2
 
-    const v3, 0x7f121774
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_update_right_now:I
 
     .line 9
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
@@ -2058,7 +2058,7 @@
 
     invoke-virtual {v0, v3, v2, v4}, Lvcd;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     invoke-static {v2}, Ltid;->c(I)Ljava/lang/String;

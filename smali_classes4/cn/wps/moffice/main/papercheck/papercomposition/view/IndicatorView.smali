@@ -101,7 +101,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

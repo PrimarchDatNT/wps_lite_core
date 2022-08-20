@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e2b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_send_to_pc_layout:I
 
     const/4 v2, 0x0
 
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2660
+    sget v1, Lcom/resouce/module/ResID;->public_introduce_text_part_1:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     iget-object v2, p0, Lhef;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122ecb
+    sget v3, Lcom/resouce/module/ResSTRING;->send_to_pc_introduce_1:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -146,7 +146,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b2661
+    sget v1, Lcom/resouce/module/ResID;->public_introduce_text_part_2:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iget-object v2, p0, Lhef;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122ecc
+    sget v3, Lcom/resouce/module/ResSTRING;->send_to_pc_introduce_2:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -170,7 +170,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b29fe
+    sget v1, Lcom/resouce/module/ResID;->scan_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b01ba
+    sget v1, Lcom/resouce/module/ResID;->back_btn:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

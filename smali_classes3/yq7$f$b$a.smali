@@ -53,7 +53,7 @@
 
     iget-object v0, v0, Lbr7;->z:Landroid/view/View;
 
-    const v1, 0x7f0b078d
+    sget v1, Lcom/resouce/module/ResID;->dot_v:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
 
     iget-object v0, v0, Lbr7;->z:Landroid/view/View;
 
-    const v1, 0x7f0b10b1
+    sget v1, Lcom/resouce/module/ResID;->home_my_user_go_member_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
     .line 5
     iget-object v1, p0, Lyq7$f$b$a;->B:Lor7;
 
-    const v2, 0x7f121c8e
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     const-string v3, "metab_gopremiumbtn"
 
@@ -155,7 +155,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f1213a2
+    sget v1, Lcom/resouce/module/ResSTRING;->member_center_renewal_benefits:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

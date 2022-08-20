@@ -321,11 +321,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0699
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_document_multi_doc_button:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0ff7
+    sget v0, Lcom/resouce/module/ResID;->history_titlebar_multidocument:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120682
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_filetabs:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -675,7 +675,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080aae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->multi_doc_meeting:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -708,7 +708,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080252
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_switch_white:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

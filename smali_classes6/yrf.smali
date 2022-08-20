@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0129
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_save_banner:I
 
     const/4 v2, 0x0
 
@@ -113,7 +113,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b072d
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_save:I
 
     if-eqz v0, :cond_0
 

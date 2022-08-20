@@ -38,7 +38,7 @@
 
     invoke-direct {v0, v1}, Lkkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b3657
+    sget v1, Lcom/resouce/module/ResID;->writer_read_arrange_flip:I
 
     const-string v2, "arrange-flip"
 
@@ -51,7 +51,7 @@
 
     invoke-direct {v0, v1}, Llkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b3658
+    sget v1, Lcom/resouce/module/ResID;->writer_read_arrange_scroll:I
 
     const-string v2, "arrange-scroll"
 
@@ -102,7 +102,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f1233e6
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_read_arrange_modes:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -112,7 +112,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707b5
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -129,7 +129,7 @@
 .method public final p2()V
     .locals 3
 
-    const v0, 0x7f0e09bc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_arrage_choose_dialog:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

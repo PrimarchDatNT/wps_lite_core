@@ -191,11 +191,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_me_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b33c2
+    sget v0, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckHistoryPager;->I:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v0, 0x7f0b33c3
+    sget v0, Lcom/resouce/module/ResID;->viewpager_indicator:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07034e
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -272,7 +272,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -359,7 +359,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckHistoryPager;->S:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
 
@@ -396,7 +396,7 @@
     .line 5
     invoke-virtual {v2, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 6
     invoke-virtual {v2, v3}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V

@@ -48,7 +48,7 @@
     .line 2
     iget-object v0, v0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->a0:Landroid/widget/ImageView;
 
-    const v2, 0x7f0815e2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_cloud_function_pic_device_success:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -129,7 +129,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f12142a
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_connect_status_success:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -138,7 +138,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f12142b
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_connect_success_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

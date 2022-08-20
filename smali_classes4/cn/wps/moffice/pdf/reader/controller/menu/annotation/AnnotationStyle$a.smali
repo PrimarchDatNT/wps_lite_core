@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1311
+    sget v0, Lcom/resouce/module/ResID;->ink_color_red:I
 
     if-ne p1, v0, :cond_1
 
@@ -102,7 +102,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b1312
+    sget v0, Lcom/resouce/module/ResID;->ink_color_yellow:I
 
     if-ne p1, v0, :cond_2
 
@@ -152,7 +152,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v0, 0x7f0b130d
+    sget v0, Lcom/resouce/module/ResID;->ink_color_green:I
 
     if-ne p1, v0, :cond_3
 
@@ -202,7 +202,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v0, 0x7f0b130a
+    sget v0, Lcom/resouce/module/ResID;->ink_color_blue:I
 
     if-ne p1, v0, :cond_4
 
@@ -252,7 +252,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v0, 0x7f0b1310
+    sget v0, Lcom/resouce/module/ResID;->ink_color_purple:I
 
     if-ne p1, v0, :cond_5
 
@@ -302,7 +302,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v0, 0x7f0b1309
+    sget v0, Lcom/resouce/module/ResID;->ink_color_black:I
 
     if-ne p1, v0, :cond_6
 
@@ -352,7 +352,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v0, 0x7f0b1318
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_0:I
 
     if-ne p1, v0, :cond_7
 
@@ -400,7 +400,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v0, 0x7f0b131a
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_1:I
 
     if-ne p1, v0, :cond_8
 
@@ -448,7 +448,7 @@
     goto/16 :goto_0
 
     :cond_8
-    const v0, 0x7f0b131c
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_2:I
 
     if-ne p1, v0, :cond_9
 
@@ -496,7 +496,7 @@
     goto :goto_0
 
     :cond_9
-    const v0, 0x7f0b131e
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_3:I
 
     if-ne p1, v0, :cond_a
 
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_a
-    const v0, 0x7f0b1320
+    sget v0, Lcom/resouce/module/ResID;->ink_thickness_4:I
 
     if-ne p1, v0, :cond_b
 

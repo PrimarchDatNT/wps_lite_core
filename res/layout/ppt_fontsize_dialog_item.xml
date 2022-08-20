@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/pad_second_toolbar_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/pad_titlebar_menu_textsize" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/ppt_fontsize_text" android:background="@drawable/public_pad_titlebar_item_selector" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_centerVertical="true" />
-</RelativeLayout>

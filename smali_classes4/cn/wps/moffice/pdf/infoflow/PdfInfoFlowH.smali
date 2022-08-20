@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1f14
+    sget v0, Lcom/resouce/module/ResID;->pdf_renderview:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b12fd
+    sget v0, Lcom/resouce/module/ResID;->infoflow_list_h:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

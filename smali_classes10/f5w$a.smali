@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122f4e
+    sget v2, Lcom/resouce/module/ResSTRING;->skill_service_center_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122ea8
+    sget v3, Lcom/resouce/module/ResSTRING;->search_service_center_product_name:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

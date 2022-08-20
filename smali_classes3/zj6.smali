@@ -233,7 +233,7 @@
     .line 3
     iget-object p2, p0, Lzj6;->T:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e041f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_novel_normal:I
 
     invoke-virtual {p2, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     :cond_1
     iget-object p2, p0, Lzj6;->T:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0417
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_more_loading:I
 
     invoke-virtual {p2, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0102
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_ss_func_guide:I
 
     const/4 v2, 0x0
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b30ef
+    sget v1, Lcom/resouce/module/ResID;->tvFuncName:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b30ee
+    sget v2, Lcom/resouce/module/ResID;->tvFuncDesc:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b30e5
+    sget v3, Lcom/resouce/module/ResID;->tvCancel:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

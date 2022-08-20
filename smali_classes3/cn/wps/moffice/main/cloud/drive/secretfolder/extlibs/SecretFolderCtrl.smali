@@ -271,7 +271,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -326,7 +326,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -377,7 +377,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 2
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

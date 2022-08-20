@@ -51,15 +51,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01b9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_data_options:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0940
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_data_options:I
 
     :goto_0
-    const v1, 0x7f120777
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_data_options:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -119,7 +119,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095c
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_data_label:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095d
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_data_table:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0959
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_series_checkbox_root:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0931
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_category_checkbox_root:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b093b
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_value_checkbox_root:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0938
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_percent_checkbox_root:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -197,7 +197,7 @@
     .line 25
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095a
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_series_textview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -210,7 +210,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0932
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_category_textview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     .line 27
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b093c
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_value_textview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -236,7 +236,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0939
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_percent_textview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -249,7 +249,7 @@
     .line 29
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0958
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_series_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 30
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0930
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_category_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 31
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b093a
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_value_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     .line 32
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0937
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_datalable_percent_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,14 +301,14 @@
     .line 33
     iget-object p1, p0, Lvpf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f12078e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_data_label:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
     .line 34
     iget-object p1, p0, Lvpf;->f0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f12078f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_data_table:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -414,7 +414,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f0b095c
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_show_data_label:I
 
     if-ne p1, v1, :cond_1
 
@@ -476,7 +476,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b095d
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_show_data_table:I
 
     if-ne p1, v1, :cond_2
 
@@ -491,7 +491,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0b0959
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_series_checkbox_root:I
 
     if-ne p1, v1, :cond_3
 
@@ -503,7 +503,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f0b0958
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_series_checkbox:I
 
     if-ne p1, v1, :cond_4
 
@@ -513,7 +513,7 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f0b0931
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_category_checkbox_root:I
 
     if-ne p1, v1, :cond_5
 
@@ -525,7 +525,7 @@
     goto :goto_1
 
     :cond_5
-    const v1, 0x7f0b0930
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_category_checkbox:I
 
     if-ne p1, v1, :cond_6
 
@@ -535,7 +535,7 @@
     goto :goto_1
 
     :cond_6
-    const v1, 0x7f0b0937
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_datalable_percent_checkbox:I
 
     if-ne p1, v1, :cond_7
 
@@ -545,7 +545,7 @@
     goto :goto_1
 
     :cond_7
-    const v1, 0x7f0b093b
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_datalable_value_checkbox_root:I
 
     if-ne p1, v1, :cond_8
 
@@ -557,7 +557,7 @@
     goto :goto_1
 
     :cond_8
-    const v1, 0x7f0b093a
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_datalable_value_checkbox:I
 
     if-ne p1, v1, :cond_9
 
@@ -1025,14 +1025,14 @@
     :cond_6
     iget-object v0, p0, Lvpf;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f12076e
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_category_name:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 23
     iget-object v0, p0, Lvpf;->m0:Landroid/widget/TextView;
 
-    const v1, 0x7f12077a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_datalable_value:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1043,14 +1043,14 @@
     :goto_5
     iget-object v0, p0, Lvpf;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f12077b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_datalable_xvalue:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 25
     iget-object v0, p0, Lvpf;->m0:Landroid/widget/TextView;
 
-    const v1, 0x7f12077c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_datalable_yvalue:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

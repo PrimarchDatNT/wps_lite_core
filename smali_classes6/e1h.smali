@@ -324,7 +324,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121dce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     return v0
 .end method

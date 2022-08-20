@@ -151,7 +151,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122fe8
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_sheets_show_num_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

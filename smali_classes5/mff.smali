@@ -73,7 +73,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0e32
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_share_item:I
 
     const/4 v1, 0x0
 
@@ -86,7 +86,7 @@
 
     invoke-direct {p3}, Lmff$a;-><init>()V
 
-    const v0, 0x7f0b12a5
+    sget v0, Lcom/resouce/module/ResID;->imageview:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2f68
+    sget v0, Lcom/resouce/module/ResID;->textview_name:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
     .line 9
     iget-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c46
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_upload_cloud:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -158,7 +158,7 @@
     .line 10
     iget-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c0b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_mail:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -172,7 +172,7 @@
     .line 11
     iget-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c4d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_whatsapp:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -186,7 +186,7 @@
     .line 12
     iget-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c0c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_messager:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -200,7 +200,7 @@
     .line 13
     iget-object v0, p3, Lmff$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081bfd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_export_pic:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

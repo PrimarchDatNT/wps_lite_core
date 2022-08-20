@@ -63,7 +63,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v1, 0x0
 

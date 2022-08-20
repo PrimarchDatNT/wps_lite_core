@@ -75,7 +75,7 @@
 
     sput-object v5, Llle;->c:Ljava/util/HashMap;
 
-    const v6, 0x7f122a1a
+    sget v6, Lcom/resouce/module/ResSTRING;->public_start:I
 
     .line 4
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -87,7 +87,7 @@
     .line 5
     sget-object v1, Llle;->c:Ljava/util/HashMap;
 
-    const v5, 0x7f121fc7
+    sget v5, Lcom/resouce/module/ResSTRING;->public_design:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -100,7 +100,7 @@
     .line 6
     sget-object v1, Llle;->c:Ljava/util/HashMap;
 
-    const v5, 0x7f122655
+    sget v5, Lcom/resouce/module/ResSTRING;->public_play:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -111,7 +111,7 @@
     .line 7
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122385
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -122,7 +122,7 @@
     .line 8
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f121b1a
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_anim_tran:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -133,7 +133,7 @@
     .line 9
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f121a43
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_anim_effect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -148,7 +148,7 @@
 
     move-result v0
 
-    const v1, 0x7f12236f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     .line 11
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -167,7 +167,7 @@
     :cond_0
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f120724
+    sget v2, Lcom/resouce/module/ResSTRING;->ent_sign:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -179,7 +179,7 @@
     :goto_0
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f12264f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -192,7 +192,7 @@
     .line 14
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f122abb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_textBox:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -205,7 +205,7 @@
     .line 15
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f121b96
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pad_diagram_tab:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -218,7 +218,7 @@
     .line 16
     sget-object v0, Llle;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f12198c    # 1.9419993E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_options:I    # 1.9419993E38f
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

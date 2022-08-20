@@ -216,7 +216,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f120714
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_google_drive:I
 
     .line 3
     :try_start_0
@@ -238,7 +238,7 @@
 
     if-nez v1, :cond_5
 
-    const v1, 0x7f120713
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_google_docs:I
 
     .line 4
     :try_start_1
@@ -255,7 +255,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f120715
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_one_drive:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -281,7 +281,7 @@
     return-object p0
 
     :cond_2
-    const v1, 0x7f120711
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_app_box:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -310,7 +310,7 @@
     return-object p0
 
     :cond_3
-    const v1, 0x7f120712
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_dropbox:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -389,7 +389,7 @@
 
     if-nez v1, :cond_4
 
-    const v1, 0x7f120714
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_google_drive:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -407,7 +407,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120713
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_google_docs:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -425,7 +425,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f120715
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_one_drive:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -443,7 +443,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f120712
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_dropbox:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -461,7 +461,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f120711
+    sget v1, Lcom/resouce/module/ResSTRING;->en_link_app_box:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -510,7 +510,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f120711
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_app_box:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -527,7 +527,7 @@
 
     aget-object v0, v0, v2
 
-    const v3, 0x7f120712
+    sget v3, Lcom/resouce/module/ResSTRING;->en_link_dropbox:I
 
     .line 3
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -540,7 +540,7 @@
 
     aget-object v3, v3, v2
 
-    const v4, 0x7f120713
+    sget v4, Lcom/resouce/module/ResSTRING;->en_link_google_docs:I
 
     .line 4
     invoke-virtual {p0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -553,7 +553,7 @@
 
     aget-object v4, v4, v2
 
-    const v5, 0x7f120714
+    sget v5, Lcom/resouce/module/ResSTRING;->en_link_google_drive:I
 
     .line 5
     invoke-virtual {p0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -566,7 +566,7 @@
 
     aget-object v5, v5, v2
 
-    const v6, 0x7f120715
+    sget v6, Lcom/resouce/module/ResSTRING;->en_link_one_drive:I
 
     .line 6
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -655,7 +655,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f120711
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_app_box:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -667,7 +667,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120712
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_dropbox:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -680,7 +680,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120713
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_google_docs:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -693,7 +693,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120714
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_google_drive:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -706,7 +706,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120715
+    sget v0, Lcom/resouce/module/ResSTRING;->en_link_one_drive:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

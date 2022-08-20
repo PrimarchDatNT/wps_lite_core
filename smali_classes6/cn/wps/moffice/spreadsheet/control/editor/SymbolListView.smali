@@ -117,11 +117,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0f79
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_quote_symbollistview_layout:I
 
     invoke-static {v1, v2, v0}, Landroid/widget/LinearLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v1, 0x7f0b2e0f
+    sget v1, Lcom/resouce/module/ResID;->symbol_content:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     invoke-direct {v0, v1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0707c2
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_divide_line_black_padding_v:I
 
     const/4 v2, -0x1
 
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -330,7 +330,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f93
+    sget v1, Lcom/resouce/module/ResLAYOUT;->symbollist_item:I
 
     const/4 v2, 0x0
 
@@ -349,7 +349,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -357,7 +357,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v1, 0x7f08061c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_edit_slidekey_selector:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V

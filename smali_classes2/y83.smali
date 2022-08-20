@@ -78,12 +78,12 @@
     .line 2
     iput-boolean v0, p0, Ly83;->T:Z
 
-    const v1, 0x7f081a0f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_login_guide_icon:I
 
     .line 3
     iput v1, p0, Ly83;->V:I
 
-    const v1, 0x7f122454
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_guide_dialog_tips:I
 
     .line 4
     iput v1, p0, Ly83;->W:I
@@ -547,7 +547,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122438
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_by_phone_num:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -733,7 +733,7 @@
 
     iget-object v3, p0, Ly83;->B:Landroid/app/Activity;
 
-    const v4, 0x7f13013a
+    sget v4, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v3, v4}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -751,12 +751,12 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f0e0cd6
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_login_guide_dialog_view:I
 
     goto :goto_3
 
     :cond_4
-    const v3, 0x7f0e0cd7
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_login_guide_dialog_view_fullscreen:I
 
     :goto_3
     const/4 v4, 0x0
@@ -765,7 +765,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b2538
+    sget v3, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -774,7 +774,7 @@
 
     iput-object v3, p0, Ly83;->d0:Landroid/view/View;
 
-    const v3, 0x7f0b2680
+    sget v3, Lcom/resouce/module/ResID;->public_login_by_qq:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -783,7 +783,7 @@
 
     invoke-virtual {v3, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b2681
+    sget v3, Lcom/resouce/module/ResID;->public_login_by_wechat:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -792,7 +792,7 @@
 
     invoke-virtual {v4, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b267e
+    sget v4, Lcom/resouce/module/ResID;->public_login_by_other:I
 
     .line 10
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -801,7 +801,7 @@
 
     invoke-virtual {v4, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b2678
+    sget v4, Lcom/resouce/module/ResID;->public_login_by_dingtalk:I
 
     .line 11
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -810,7 +810,7 @@
 
     invoke-virtual {v5, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b267f
+    sget v5, Lcom/resouce/module/ResID;->public_login_by_phone:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -819,7 +819,7 @@
 
     invoke-virtual {v6, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v6, 0x7f0b2682
+    sget v6, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     .line 13
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -925,7 +925,7 @@
     invoke-virtual {v3, v7}, Landroid/view/View;->setVisibility(I)V
 
     :cond_a
-    const v3, 0x7f0b2683
+    sget v3, Lcom/resouce/module/ResID;->public_login_guide_pic:I
 
     .line 27
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     move-result v4
 
-    const v5, 0x7f081a0f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_login_guide_icon:I
 
     if-nez v4, :cond_c
 
@@ -987,9 +987,9 @@
     :goto_6
     iget-object v3, p0, Ly83;->X:Ljava/lang/String;
 
-    const v4, 0x7f0b321e
+    sget v4, Lcom/resouce/module/ResID;->tv_plopgdv_login_tips:I
 
-    const v5, 0x7f0b2686
+    sget v5, Lcom/resouce/module/ResID;->public_login_tips:I
 
     if-eqz v3, :cond_e
 
@@ -1081,7 +1081,7 @@
 
     move-result v4
 
-    const v6, 0x7f0b0533
+    sget v6, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 42
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1143,7 +1143,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b068e
+    sget v3, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1178,7 +1178,7 @@
     goto :goto_a
 
     :cond_12
-    const v3, 0x7f0b1a54
+    sget v3, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 52
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1190,7 +1190,7 @@
     .line 53
     invoke-virtual {v4, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v6, 0x7f0b2fdb
+    sget v6, Lcom/resouce/module/ResID;->title_bar_back:I
 
     .line 54
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1278,7 +1278,7 @@
 
     if-eqz v1, :cond_14
 
-    const v1, 0x7f0b16c3
+    sget v1, Lcom/resouce/module/ResID;->ll_plopgdv_agreement_container:I
 
     .line 66
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1287,7 +1287,7 @@
 
     iput-object v1, p0, Ly83;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b16b4
+    sget v1, Lcom/resouce/module/ResID;->ll_only_phone_login_container:I
 
     .line 67
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1303,7 +1303,7 @@
 
     invoke-virtual {v1, v7}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b164a
+    sget v1, Lcom/resouce/module/ResID;->ll_common_guide_container:I
 
     .line 69
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1312,7 +1312,7 @@
 
     invoke-virtual {v1, v7}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b321d
+    sget v1, Lcom/resouce/module/ResID;->tv_plopgdv_login_by_other:I
 
     .line 70
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1321,7 +1321,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b3220
+    sget v1, Lcom/resouce/module/ResID;->tv_plopgdv_phone_num:I
 
     .line 71
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1332,7 +1332,7 @@
 
     iput-object v1, p0, Ly83;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b02f4
+    sget v1, Lcom/resouce/module/ResID;->btn_plopgdv_login_by_local_phone:I
 
     .line 72
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1346,7 +1346,7 @@
     .line 73
     invoke-virtual {v1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0377
+    sget v1, Lcom/resouce/module/ResID;->cb_plopgdv_only_phone_agreement:I
 
     .line 74
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1355,7 +1355,7 @@
 
     check-cast v1, Landroid/widget/CheckBox;
 
-    const v2, 0x7f0b321f
+    sget v2, Lcom/resouce/module/ResID;->tv_plopgdv_only_phone_agreement:I
 
     .line 75
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1458,7 +1458,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2682
+    sget v2, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     if-ne v1, v2, :cond_2
 
@@ -1487,7 +1487,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2680
+    sget v2, Lcom/resouce/module/ResID;->public_login_by_qq:I
 
     if-ne v1, v2, :cond_3
 
@@ -1512,7 +1512,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2681
+    sget v2, Lcom/resouce/module/ResID;->public_login_by_wechat:I
 
     if-ne v1, v2, :cond_4
 
@@ -1537,7 +1537,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b267e
+    sget v2, Lcom/resouce/module/ResID;->public_login_by_other:I
 
     const-string v3, "vip"
 
@@ -1672,7 +1672,7 @@
 
     move-object/from16 v23, v2
 
-    const v2, 0x7f0b321d
+    sget v2, Lcom/resouce/module/ResID;->tv_plopgdv_login_by_other:I
 
     if-ne v1, v2, :cond_9
 
@@ -1872,7 +1872,7 @@
 
     move-result v7
 
-    const v8, 0x7f0b2fdb
+    sget v8, Lcom/resouce/module/ResID;->title_bar_back:I
 
     if-ne v7, v8, :cond_b
 
@@ -1901,7 +1901,7 @@
 
     move-result v7
 
-    const v8, 0x7f0b2678
+    sget v8, Lcom/resouce/module/ResID;->public_login_by_dingtalk:I
 
     if-ne v7, v8, :cond_c
 
@@ -1926,7 +1926,7 @@
 
     move-result v7
 
-    const v8, 0x7f0b267f
+    sget v8, Lcom/resouce/module/ResID;->public_login_by_phone:I
 
     if-ne v7, v8, :cond_d
 
@@ -1949,7 +1949,7 @@
 
     move-result v7
 
-    const v8, 0x7f0b321f
+    sget v8, Lcom/resouce/module/ResID;->tv_plopgdv_only_phone_agreement:I
 
     if-ne v7, v8, :cond_e
 
@@ -1962,7 +1962,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121f09
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cmcc_agreement_protocol:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1978,7 +1978,7 @@
 
     move-result v7
 
-    const v8, 0x7f0b02f4
+    sget v8, Lcom/resouce/module/ResID;->btn_plopgdv_login_by_local_phone:I
 
     if-ne v7, v8, :cond_12
 
@@ -2315,7 +2315,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e00e9
+    sget v3, Lcom/resouce/module/ResLAYOUT;->dialog_home_guide_login_agreement_check:I
 
     const/4 v4, 0x0
 
@@ -2323,7 +2323,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1903
+    sget v3, Lcom/resouce/module/ResID;->msgTextView:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2335,11 +2335,11 @@
     .line 10
     iget-object v4, p0, Ly83;->B:Landroid/app/Activity;
 
-    const v5, 0x7f12135f
+    sget v5, Lcom/resouce/module/ResSTRING;->login_guide_agreement_tip:I
 
     invoke-virtual {v1, v4, v3, v5}, Lvw7;->d(Landroid/app/Activity;Landroid/widget/TextView;I)V
 
-    const v1, 0x7f0b00d7
+    sget v1, Lcom/resouce/module/ResID;->agreeButton:I
 
     .line 11
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2352,7 +2352,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1a5e
+    sget v1, Lcom/resouce/module/ResID;->notAgreeButton:I
 
     .line 12
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

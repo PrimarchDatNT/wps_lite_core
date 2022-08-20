@@ -77,7 +77,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b07d0
+    sget v1, Lcom/resouce/module/ResID;->dropdown_imageview_dropdown:I
 
     if-ne v0, v1, :cond_2
 
@@ -94,7 +94,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b221e
+    sget v2, Lcom/resouce/module/ResID;->pic_to_pdf:I
 
     const-string v3, "bottommenu"
 
@@ -131,7 +131,7 @@
 
     iget-object v1, p0, Lk58$b;->S:Landroid/app/Activity;
 
-    const v2, 0x7f120460
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2224
+    sget v2, Lcom/resouce/module/ResID;->pic_to_text:I
 
     if-ne v1, v2, :cond_4
 
@@ -192,7 +192,7 @@
 
     iget-object v1, p0, Lk58$b;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122653
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     .line 21
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -219,7 +219,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b221b
+    sget v2, Lcom/resouce/module/ResID;->pic_to_et:I
 
     if-ne v1, v2, :cond_5
 
@@ -250,7 +250,7 @@
 
     iget-object v1, p0, Lk58$b;->S:Landroid/app/Activity;
 
-    const v2, 0x7f12263f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     .line 30
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -277,7 +277,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b2221
+    sget v1, Lcom/resouce/module/ResID;->pic_to_ppt:I
 
     if-ne p1, v1, :cond_6
 
@@ -308,7 +308,7 @@
 
     iget-object v1, p0, Lk58$b;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122642
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic2ppt:I
 
     .line 39
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

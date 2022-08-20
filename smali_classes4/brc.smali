@@ -37,7 +37,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0655
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_page_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -98,7 +98,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lbrc;->Y2(Landroid/view/View;)V
 
-    const v1, 0x7f0b0783
+    sget v1, Lcom/resouce/module/ResID;->done_btn:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
     .line 4
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1c6a
+    sget v1, Lcom/resouce/module/ResID;->page_check_box:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v1, p0, Lbrc;->W:Landroid/widget/CheckBox;
 
-    const v1, 0x7f0b03b4
+    sget v1, Lcom/resouce/module/ResID;->check_layout:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
     .line 11
     invoke-virtual {v1, v2, v3}, Lgrc;->s(II)V
 
-    const v1, 0x7f0b250e
+    sget v1, Lcom/resouce/module/ResID;->preview_view_pager:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 .method public final Y2(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
 
     iget-object v1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f1233e4
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_pptview_locatepage:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -463,18 +463,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b0783
+    sget v0, Lcom/resouce/module/ResID;->done_btn:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b03b4
+    sget v0, Lcom/resouce/module/ResID;->check_layout:I
 
     if-ne p1, v0, :cond_2
 

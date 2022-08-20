@@ -551,7 +551,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ba2
+    sget v1, Lcom/resouce/module/ResID;->outlines:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +573,7 @@
 
     iget-object v1, p0, Lkdc;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e089f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_listview_padding_header_footer:I
 
     const/4 v3, 0x0
 

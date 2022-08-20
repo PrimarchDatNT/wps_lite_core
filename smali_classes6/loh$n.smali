@@ -136,7 +136,7 @@
 
     iget-object p1, p1, Lloh;->b:Lcn/wps/moffice/writer/Writer;
 
-    const p2, 0x7f12054e
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

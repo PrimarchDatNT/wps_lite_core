@@ -29,7 +29,7 @@
 .method public a(Landroid/view/View;ILjava/lang/String;)V
     .locals 5
 
-    const v0, 0x7f0b0345
+    sget v0, Lcom/resouce/module/ResID;->capsule_container:I
 
     .line 1
     :try_start_0
@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02cf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_guide_capsule_layout:I
 
     iget-object v1, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
@@ -224,7 +224,7 @@
     .line 23
     iget-object p1, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b18e8
+    sget v0, Lcom/resouce/module/ResID;->more_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -235,7 +235,7 @@
     .line 24
     iget-object v0, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b2cc4
+    sget v1, Lcom/resouce/module/ResID;->split_line_1:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 25
     iget-object v1, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b2cc5
+    sget v2, Lcom/resouce/module/ResID;->split_line_2:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     .line 26
     iget-object v2, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
-    const v3, 0x7f0b2b75
+    sget v3, Lcom/resouce/module/ResID;->share_icon:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 27
     iget-object v3, p0, Lbgf;->c:Landroid/widget/FrameLayout;
 
-    const v4, 0x7f0b044e
+    sget v4, Lcom/resouce/module/ResID;->close_icon:I
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

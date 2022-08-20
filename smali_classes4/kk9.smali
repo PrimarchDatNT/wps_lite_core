@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bc8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -294,7 +294,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -303,12 +303,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122987
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f08106e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_send_as_pdf:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

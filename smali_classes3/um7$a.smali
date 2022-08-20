@@ -18,11 +18,11 @@
 .method public constructor <init>(Lum7$c;)V
     .locals 3
 
-    const v0, 0x7f121234
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_move:I
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0815d2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_move:I
 
     .line 1
     invoke-direct {p0, v0, v1, v2, p1}, Lum7;-><init>(IIILum7$c;)V

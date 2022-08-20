@@ -65,13 +65,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a6c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_bottom_tips_bar:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b22a3
+    sget p1, Lcom/resouce/module/ResID;->ppt_bottom_tips_text:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12342e
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_table_name_had:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f123430
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_table_name_repeat:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1232d3
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_no_net:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

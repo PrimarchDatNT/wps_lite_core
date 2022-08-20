@@ -280,7 +280,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -349,7 +349,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e09a3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_title_state_layout:I
 
     const/4 v3, 0x0
 
@@ -381,7 +381,7 @@
 
     iput-object v0, p0, Lgrg;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -395,7 +395,7 @@
     .line 3
     iget-object v0, p0, Lgrg;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Lgrg;->d:Landroid/widget/Button;
 
-    const v1, 0x7f122018
+    sget v1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
@@ -430,7 +430,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -441,7 +441,7 @@
     .line 7
     iget-object v0, p0, Lgrg;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

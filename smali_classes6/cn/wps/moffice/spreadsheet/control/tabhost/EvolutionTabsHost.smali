@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0200
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_main_tabhost:I
 
     const/4 v2, 0x1
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0aad
+    sget v1, Lcom/resouce/module/ResID;->et_main_tabshost_spreadout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07024d
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_pad_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

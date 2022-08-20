@@ -63,7 +63,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lepc;[ILooc;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -289,7 +289,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07c3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_long_pic_share_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -299,7 +299,7 @@
 
     iput-object v0, p0, Lwoc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0278
+    sget v1, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b7a
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -402,9 +402,9 @@
     .line 15
     iget-object v0, p0, Lwoc;->g0:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
-    const v3, 0x7f0b2bd3
+    sget v3, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {v0, v2, v3}, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->setActionButton(II)V
 
@@ -416,7 +416,7 @@
     .line 17
     iget-object v0, p0, Lwoc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1779
+    sget v2, Lcom/resouce/module/ResID;->long_pic_preview_title:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -440,7 +440,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1226b1
+    sget v5, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -458,7 +458,7 @@
     .line 21
     iget-object v0, p0, Lwoc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1785
+    sget v2, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -487,7 +487,7 @@
     .line 24
     iget-object v0, p0, Lwoc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1781
+    sget v2, Lcom/resouce/module/ResID;->long_pic_share_preview_list:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -52,7 +52,7 @@
     .line 2
     iget-object p1, p0, Llmc$a;->a:Lcn/wps/moffice/pdf/PDFReader;
 
-    const v0, 0x7f120cdc
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_translation_fileformat_error:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -75,7 +75,7 @@
     .line 6
     iget-object p1, p0, Llmc$a;->a:Lcn/wps/moffice/pdf/PDFReader;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
     .line 8
     iget-object p1, p0, Llmc$a;->a:Lcn/wps/moffice/pdf/PDFReader;
 
-    const v0, 0x7f120ce2
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_translation_overfilesize:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -117,7 +117,7 @@
     .line 10
     iget-object p1, p0, Llmc$a;->a:Lcn/wps/moffice/pdf/PDFReader;
 
-    const v0, 0x7f120cd8
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_translation_encrypt:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

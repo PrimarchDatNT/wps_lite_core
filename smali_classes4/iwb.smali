@@ -398,7 +398,7 @@
     .line 5
     iget-object v0, p0, Lhwb;->S:Landroid/app/Activity;
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -840,7 +840,7 @@
     .line 21
     iget-object v0, p0, Lhwb;->S:Landroid/app/Activity;
 
-    const v2, 0x7f0602cd
+    sget v2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {v0, v2}, Ldgh;->n1(Landroid/app/Activity;I)V
 

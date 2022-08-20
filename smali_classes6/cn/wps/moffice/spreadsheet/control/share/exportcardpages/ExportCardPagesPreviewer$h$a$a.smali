@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12085a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_not_support_tips:I
 
     const/4 v2, 0x0
 

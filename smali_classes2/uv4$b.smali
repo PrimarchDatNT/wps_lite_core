@@ -142,7 +142,7 @@
     .line 2
     iget-object p1, p0, Luv4$b;->B:Luv4;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {p1, v0}, Luv4;->k(I)V
 
@@ -163,7 +163,7 @@
     .line 4
     iget-object p1, p0, Luv4$b;->B:Luv4;
 
-    const v0, 0x7f1226bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_commit_empty:I
 
     invoke-virtual {p1, v0}, Luv4;->k(I)V
 

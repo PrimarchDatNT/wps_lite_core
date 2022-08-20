@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/public_share_second_panel_root" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include layout="@layout/layout_link_share_item_common_view" />
-    </LinearLayout>
-</ScrollView>

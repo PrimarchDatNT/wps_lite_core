@@ -208,7 +208,7 @@
 .method public getLayout()I
     .locals 1
 
-    const v0, 0x7f0e09b0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_total_search_app_tab_layout:I
 
     return v0
 .end method

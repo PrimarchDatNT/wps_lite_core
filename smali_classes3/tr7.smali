@@ -496,7 +496,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121594
+    sget v4, Lcom/resouce/module/ResSTRING;->oversea_user_portrait_uniform_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

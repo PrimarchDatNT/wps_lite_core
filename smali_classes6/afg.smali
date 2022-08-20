@@ -1992,7 +1992,7 @@
     goto :goto_1
 
     :catch_0
-    const p1, 0x7f120019
+    sget p1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 15
     invoke-static {p1, v3}, Lsjf;->k(II)V
@@ -2000,7 +2000,7 @@
     goto :goto_1
 
     :catch_1
-    const p1, 0x7f120898
+    sget p1, Lcom/resouce/module/ResSTRING;->et_filter_notdatefilter:I
 
     .line 16
     invoke-static {p1, v3}, Lsjf;->k(II)V
@@ -3340,12 +3340,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f122b29
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tv_meeting_volume_key_zoom_page:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f122b28
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tv_meeting_volume_key_switch_sheet_tab:I
 
     :goto_0
     invoke-static {p2, v2, v1}, Lbih;->n(Landroid/content/Context;II)V

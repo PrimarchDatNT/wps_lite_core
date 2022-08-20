@@ -53,12 +53,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f122be3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_watermark_sample_text:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f121d3e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     :goto_1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

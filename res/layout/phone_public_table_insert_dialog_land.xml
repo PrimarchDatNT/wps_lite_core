@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:id="@id/phone_table_insert_preview_group_anchor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
-    <LinearLayout android:gravity="center" android:id="@id/phone_table_insert_styles_group_anchor" android:layout_width="200.0dip" android:layout_height="fill_parent" />
-</LinearLayout>

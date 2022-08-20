@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:background="@color/thirdBackgroundColor" android:layout_width="@dimen/et_font_color_item_layout_width" android:layout_height="@dimen/et_font_color_item_layout_width"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:id="@id/et_checkable_imageview_src_img_group" android:background="@color/thirdBackgroundColor" android:padding="1.0dip" android:layout_width="@dimen/et_font_color_item_color_width" android:layout_height="@dimen/et_font_color_item_color_width" android:paddingStart="1.0dip" android:paddingEnd="1.0dip">
-        <ImageView android:id="@id/et_checkable_imageview_src_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:color/black" android:scaleType="fitXY" />
-    </LinearLayout>
-</LinearLayout>

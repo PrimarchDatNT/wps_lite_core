@@ -94,7 +94,7 @@
     .line 10
     invoke-virtual {p0, v2}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v3, 0x7f0b0445
+    sget v3, Lcom/resouce/module/ResID;->closeImg:I
 
     .line 11
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0445
+    sget v0, Lcom/resouce/module/ResID;->closeImg:I
 
     if-ne p1, v0, :cond_0
 

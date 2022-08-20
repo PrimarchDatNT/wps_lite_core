@@ -190,7 +190,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121daf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bottom_mark:I
 
     return v0
 .end method
@@ -273,7 +273,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b27
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -283,7 +283,7 @@
 
     iput-object v0, p0, Lyrl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b24fa
+    sget v1, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
     .line 3
     iget-object v0, p0, Lyrl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b24fb
+    sget v1, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 4
     iget-object v0, p0, Lyrl;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1814
+    sget v2, Lcom/resouce/module/ResID;->mark_style_container:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -332,7 +332,7 @@
     .line 6
     iget-object v0, p0, Lyrl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0266
+    sget v1, Lcom/resouce/module/ResID;->bottom_mark_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

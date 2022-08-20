@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0691
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_chartstyle_item_layout:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -160,7 +160,7 @@
     check-cast p2, Landroid/widget/RelativeLayout;
 
     :cond_1
-    const p3, 0x7f0b13f6
+    sget p3, Lcom/resouce/module/ResID;->item_view:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p3, 0x7f0b13ce
+    sget p3, Lcom/resouce/module/ResID;->item_layout:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

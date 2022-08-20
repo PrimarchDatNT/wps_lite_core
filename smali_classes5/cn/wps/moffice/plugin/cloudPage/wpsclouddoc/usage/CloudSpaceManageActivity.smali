@@ -143,7 +143,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2260
+    sget v0, Lcom/resouce/module/ResID;->plugin_titlebar:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/plugin/common/framework/PluginBaseTitleActivity;->a0:Lcn/wps/moffice/plugin/common/view/ViewTitleBar;
 
-    const v1, 0x7f121e77
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_manage:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -369,7 +369,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0e088d
+    sget v5, Lcom/resouce/module/ResLAYOUT;->phone_public_guide_start_page:I
 
     const/4 v6, 0x0
 
@@ -377,7 +377,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0b20ff
+    sget v5, Lcom/resouce/module/ResID;->phone_public_start_layout:I
 
     .line 16
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
     .line 17
     invoke-virtual {p0}, Lfv9;->h()Z
 
-    const v5, 0x7f0b20d8
+    sget v5, Lcom/resouce/module/ResID;->phone_public_guide_start_button:I
 
     .line 18
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     check-cast v5, Landroid/widget/FrameLayout;
 
-    const v6, 0x7f0b20d9
+    sget v6, Lcom/resouce/module/ResID;->phone_public_guide_start_button_en:I
 
     .line 19
     invoke-virtual {v3, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;

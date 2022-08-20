@@ -48,7 +48,7 @@
 
     invoke-direct {p3, p1}, Lzu4$b;-><init>(Landroid/content/Context;)V
 
-    const p4, 0x7f122710
+    sget p4, Lcom/resouce/module/ResSTRING;->public_print_select_print_service:I
 
     .line 8
     invoke-virtual {p3, p4}, Lzu4$b;->d(I)Lzu4$b;
@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f060626
+    sget p3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -232,9 +232,9 @@
     .line 3
     new-instance v1, Lzu4$a;
 
-    const v2, 0x7f122722
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_with_pc_service:I
 
-    const v3, 0x7f081ab0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_pc_print:I
 
     .line 4
     invoke-static {}, La5f;->a()Lm5d;
@@ -271,9 +271,9 @@
     .line 7
     new-instance v1, Lzu4$a;
 
-    const v3, 0x7f1226d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_hw_system:I
 
-    const v4, 0x7f081982
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_huawei_print:I
 
     new-instance v5, Lbv4$b;
 
@@ -288,9 +288,9 @@
     :cond_1
     new-instance v1, Lzu4$a;
 
-    const v3, 0x7f1224db
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more_print_channel:I
 
-    const v4, 0x7f081a40
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_more_print_method:I
 
     new-instance v5, Lbv4$c;
 

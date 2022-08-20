@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e08b0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_panel_indictor_popup:I
 
     const/4 p3, 0x1
 
@@ -73,7 +73,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/indicator/PanelIndicatorPopView;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2064
+    sget p2, Lcom/resouce/module/ResID;->phone_panel_indictor_popup_text:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f081f03
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ppt_indicator_pop_icon:I
 
     goto :goto_0
 
@@ -103,7 +103,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f081f72
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_indicator_pop_icon:I
 
     goto :goto_0
 
@@ -115,7 +115,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f081efa
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_pdf_indicator_pop_icon:I
 
     goto :goto_0
 
@@ -127,7 +127,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f081f7b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_write_indicator_pop_icon:I
 
     goto :goto_0
 

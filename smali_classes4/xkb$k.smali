@@ -58,7 +58,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121f4d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm_upload_xml_uploading_toast:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

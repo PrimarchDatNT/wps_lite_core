@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0817e7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_abroad_loading_logo:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -252,7 +252,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -277,7 +277,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060248
+    sget v3, Lcom/resouce/module/ResCOLOR;->keyboardButtonNormalColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060627
+    sget v1, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

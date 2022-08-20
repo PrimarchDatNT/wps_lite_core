@@ -79,7 +79,7 @@
 
     iput-object p1, p0, Lsge;->l:Lghe;
 
-    const p1, 0x7f0b2836
+    sget p1, Lcom/resouce/module/ResID;->recommend_templates_container:I
 
     .line 9
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p1, p0, Lsge;->o:Landroid/view/View;
 
-    const p1, 0x7f0b2ee3
+    sget p1, Lcom/resouce/module/ResID;->templates_grid:I
 
     .line 10
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

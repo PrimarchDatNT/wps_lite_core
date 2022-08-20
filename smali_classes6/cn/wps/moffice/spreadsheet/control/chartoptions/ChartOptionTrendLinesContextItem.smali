@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e01c0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_trendlines_item_layout:I
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0945
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_trendlines_item_layout:I
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -155,7 +155,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06011e
+    sget p2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -170,7 +170,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -185,7 +185,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12079c
+    sget p2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_polynomial_order:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -200,7 +200,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12079b
+    sget p2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_moving_average_period:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -211,7 +211,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const p2, 0x7f0b0923
+    sget p2, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_add_item_special_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const p2, 0x7f0b0929
+    sget p2, Lcom/resouce/module/ResID;->et_chart_chartoptions_trendling_count_edittext:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -237,7 +237,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const p2, 0x7f0b0928
+    sget p2, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_sub_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const p2, 0x7f0b091f
+    sget p2, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_add_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -547,7 +547,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0925
+    sget v1, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_add_item_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -560,7 +560,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0927
+    sget v1, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_item_del_btn_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +573,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionTrendLinesContextItem;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0924
+    sget v1, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_add_item_special_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -631,7 +631,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b091f
+    sget v2, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_add_btn:I
 
     if-ne v1, v2, :cond_1
 
@@ -645,7 +645,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b0928
+    sget v1, Lcom/resouce/module/ResID;->et_chart_chartOptions_trendling_sub_btn:I
 
     if-ne p1, v1, :cond_3
 

@@ -85,7 +85,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216fd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1216f2
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_confirm:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -297,7 +297,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216ff
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_failure:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

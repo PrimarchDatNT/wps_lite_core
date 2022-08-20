@@ -452,7 +452,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0ebb
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_widget_layout_phone_4x2:I
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -495,7 +495,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0b0148
+    sget v4, Lcom/resouce/module/ResID;->app_widget_next_btn:I
 
     .line 7
     invoke-virtual {v0, v4, v1}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -539,7 +539,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0b014a
+    sget p3, Lcom/resouce/module/ResID;->app_widget_prev_btn:I
 
     .line 15
     invoke-virtual {v0, p3, p1}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -549,7 +549,7 @@
 
     move-result p1
 
-    const p3, 0x7f0b0149
+    sget p3, Lcom/resouce/module/ResID;->app_widget_open_btn:I
 
     if-eqz p1, :cond_0
 
@@ -621,7 +621,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0b0147
+    sget p3, Lcom/resouce/module/ResID;->app_widget_logo_btn:I
 
     .line 27
     invoke-virtual {v0, p3, p1}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -823,7 +823,7 @@
 
     aget v3, v3, v1
 
-    const v4, 0x7f06000c
+    sget v4, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v0, v3, v4}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -994,7 +994,7 @@
 
     const-string p1, ""
 
-    const v0, 0x7f06000c
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     if-eqz p3, :cond_8
 
@@ -1008,7 +1008,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v1, 0x7f06058d
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_ss_theme_color:I
 
     if-eqz p3, :cond_2
 
@@ -1129,7 +1129,7 @@
 
     aget v0, v0, p6
 
-    const v1, 0x7f06057a
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_pdf_theme_color:I
 
     invoke-virtual {p2, v0, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -1152,7 +1152,7 @@
 
     aget v0, v0, p6
 
-    const v1, 0x7f06057d
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_ppt_theme_color:I
 
     invoke-virtual {p2, v0, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -1324,7 +1324,7 @@
 
     if-eqz p1, :cond_f
 
-    const p1, 0x7f08167e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf:I
 
     .line 31
     iget-object p4, p0, Lcn/wps/widget/MofficeAppWidgetProvider_4x2;->f:[I
@@ -1336,7 +1336,7 @@
     goto :goto_8
 
     :cond_f
-    const p1, 0x7f081685
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_txt:I
 
     .line 32
     iget-object p4, p0, Lcn/wps/widget/MofficeAppWidgetProvider_4x2;->f:[I
@@ -1349,7 +1349,7 @@
 
     :cond_10
     :goto_4
-    const p1, 0x7f081680
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt:I
 
     .line 33
     iget-object p4, p0, Lcn/wps/widget/MofficeAppWidgetProvider_4x2;->f:[I
@@ -1362,7 +1362,7 @@
 
     :cond_11
     :goto_5
-    const p1, 0x7f08168e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls:I
 
     .line 34
     iget-object p4, p0, Lcn/wps/widget/MofficeAppWidgetProvider_4x2;->f:[I
@@ -1375,7 +1375,7 @@
 
     :cond_12
     :goto_6
-    const p1, 0x7f08168c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     .line 35
     iget-object p4, p0, Lcn/wps/widget/MofficeAppWidgetProvider_4x2;->f:[I

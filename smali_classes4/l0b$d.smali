@@ -45,9 +45,9 @@
 
     const-string v0, "public_scan_desktop_menu_click"
 
-    const v1, 0x7f08052d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_launcher:I
 
-    const v2, 0x7f1204a7
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     packed-switch p2, :pswitch_data_0
 

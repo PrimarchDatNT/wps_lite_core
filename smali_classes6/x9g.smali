@@ -401,7 +401,7 @@
 
     if-lez v4, :cond_1
 
-    const v4, 0x7f122644
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     .line 32
     invoke-static {v4, v0}, Lsjf;->h(II)V
@@ -409,7 +409,7 @@
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f120bbf
+    sget v4, Lcom/resouce/module/ResSTRING;->et_pic_errorFile:I
 
     .line 33
     invoke-static {v4, v0}, Lsjf;->h(II)V

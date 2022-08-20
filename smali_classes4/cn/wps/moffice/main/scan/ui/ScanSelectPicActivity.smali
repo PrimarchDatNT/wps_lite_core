@@ -674,7 +674,7 @@
 
     :cond_a
     :goto_0
-    const p1, 0x7f1203e4
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     .line 13
     invoke-static {p0, p1, v3}, Lbih;->n(Landroid/content/Context;II)V

@@ -46,7 +46,7 @@
     .line 3
     invoke-static {v1}, Lza4;->e(Ljava/lang/String;)V
 
-    const v1, 0x7f120e93
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_allgroup_events_url:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -63,7 +63,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f120ead
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_url:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

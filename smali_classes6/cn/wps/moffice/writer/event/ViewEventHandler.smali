@@ -1946,7 +1946,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b3678
+    sget v3, Lcom/resouce/module/ResID;->writer_scrollDocEndMark:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1990,7 +1990,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b3678
+    sget v3, Lcom/resouce/module/ResID;->writer_scrollDocEndMark:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

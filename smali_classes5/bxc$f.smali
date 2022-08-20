@@ -41,7 +41,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b1e7f
+    sget v2, Lcom/resouce/module/ResID;->pdf_night_select_normal:I
 
     if-ne p1, v2, :cond_0
 
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b1e7e
+    sget v2, Lcom/resouce/module/ResID;->pdf_night_select_night:I
 
     if-ne p1, v2, :cond_1
 

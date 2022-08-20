@@ -231,7 +231,7 @@
     return v0
 
     :cond_0
-    const v1, 0x7f12011d
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     .line 1
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -304,7 +304,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011d
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 .method public d(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f12011d
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -974,7 +974,7 @@
 .method public final t(Landroid/content/Context;)I
     .locals 4
 
-    const v0, 0x7f1227a2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_rating_url:I
 
     const/4 v1, -0x1
 
@@ -1193,7 +1193,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011d
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

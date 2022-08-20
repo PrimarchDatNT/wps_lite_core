@@ -272,7 +272,7 @@
     .line 2
     iget-object v0, p0, Lkyk;->I:Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     .line 2
     iget-object v0, p0, Lkyk;->I:Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

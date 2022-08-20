@@ -536,7 +536,7 @@
 
     move-result p1
 
-    const p2, 0x7f0b29b7
+    sget p2, Lcom/resouce/module/ResID;->rotate_screen_switch:I
 
     if-ne p1, p2, :cond_0
 
@@ -596,7 +596,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2067
+    sget v1, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -612,7 +612,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0792
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_auto_play_options_layout:I
 
     return v0
 .end method
@@ -677,7 +677,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b29b5
+    sget v1, Lcom/resouce/module/ResID;->rotate_screen_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -688,7 +688,7 @@
     .line 2
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b29b9
+    sget v2, Lcom/resouce/module/ResID;->rotate_screen_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -708,7 +708,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b29b6
+    sget v1, Lcom/resouce/module/ResID;->rotate_screen_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f85
+    sget v1, Lcom/resouce/module/ResID;->thumbnails_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -730,7 +730,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b29b7
+    sget v1, Lcom/resouce/module/ResID;->rotate_screen_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -743,7 +743,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b285b
+    sget v1, Lcom/resouce/module/ResID;->recycle_play_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f94
+    sget v1, Lcom/resouce/module/ResID;->time_3s_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -769,7 +769,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f95
+    sget v1, Lcom/resouce/module/ResID;->time_5s_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 10
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f91
+    sget v1, Lcom/resouce/module/ResID;->time_10s_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -795,7 +795,7 @@
     .line 11
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f92
+    sget v1, Lcom/resouce/module/ResID;->time_15s_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -808,7 +808,7 @@
     .line 12
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f93
+    sget v1, Lcom/resouce/module/ResID;->time_20s_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -825,7 +825,7 @@
     .line 13
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1d62
+    sget v2, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_3s:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -838,7 +838,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1d63
+    sget v2, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_5s:I
 
     .line 15
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -851,7 +851,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1d5f
+    sget v2, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_10s:I
 
     .line 16
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -864,7 +864,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1d60
+    sget v3, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_15s:I
 
     .line 17
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -877,7 +877,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1d61
+    sget v3, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_20s:I
 
     .line 18
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -923,7 +923,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1d5e
+    sget v3, Lcom/resouce/module/ResID;->pdf_auto_play_scroll:I
 
     .line 22
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -934,7 +934,7 @@
 
     iget-object v3, p0, Lkdc;->S:Landroid/view/View;
 
-    const v4, 0x7f0b1d5d
+    sget v4, Lcom/resouce/module/ResID;->pdf_auto_play_linear:I
 
     .line 23
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

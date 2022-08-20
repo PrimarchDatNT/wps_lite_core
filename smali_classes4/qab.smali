@@ -96,7 +96,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200a6
+    sget v2, Lcom/resouce/module/ResSTRING;->app_crack_unknown_sig:I
 
     .line 3
     :try_start_0
@@ -199,7 +199,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200a6
+    sget v2, Lcom/resouce/module/ResSTRING;->app_crack_unknown_sig:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -229,7 +229,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1200a5
+    sget v3, Lcom/resouce/module/ResSTRING;->app_crack_proguard_signature_product:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -253,7 +253,7 @@
 
     if-nez v0, :cond_3
 
-    const v0, 0x7f1200a0
+    sget v0, Lcom/resouce/module/ResSTRING;->app_crack_hide_func:I
 
     .line 10
     invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1200a4
+    sget v2, Lcom/resouce/module/ResSTRING;->app_crack_key_hide:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -324,7 +324,7 @@
 
     invoke-virtual {v0, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v2, 0x7f12009f
+    sget v2, Lcom/resouce/module/ResSTRING;->app_crack_action:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

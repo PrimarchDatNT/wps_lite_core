@@ -131,13 +131,13 @@
     .line 3
     new-instance v0, La78$a;
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f081782
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_more:I
 
     invoke-virtual {p1, v4}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

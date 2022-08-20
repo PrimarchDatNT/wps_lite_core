@@ -625,7 +625,7 @@
     .line 1
     invoke-super {p0}, Landroid/view/ViewGroup;->onFinishInflate()V
 
-    const v0, 0x7f0b14fa
+    sget v0, Lcom/resouce/module/ResID;->l_item_1:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -634,7 +634,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b14fb
+    sget v0, Lcom/resouce/module/ResID;->l_item_2:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -643,7 +643,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->n0:Landroid/view/View;
 
-    const v0, 0x7f0b14fc
+    sget v0, Lcom/resouce/module/ResID;->l_item_3:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -652,7 +652,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->o0:Landroid/view/View;
 
-    const v0, 0x7f0b14fd
+    sget v0, Lcom/resouce/module/ResID;->l_item_4:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -661,7 +661,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b14fe
+    sget v0, Lcom/resouce/module/ResID;->l_item_5:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -670,7 +670,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->q0:Landroid/view/View;
 
-    const v0, 0x7f0b14ff
+    sget v0, Lcom/resouce/module/ResID;->l_item_6:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -679,7 +679,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->r0:Landroid/view/View;
 
-    const v0, 0x7f0b2933
+    sget v0, Lcom/resouce/module/ResID;->ripple_view:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -690,7 +690,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/GuidePageAnimView;->t0:Lcn/wps/moffice/main/local/home/phone/guide/view/RippleView;
 
-    const v0, 0x7f0b2932
+    sget v0, Lcom/resouce/module/ResID;->ripple_layout:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

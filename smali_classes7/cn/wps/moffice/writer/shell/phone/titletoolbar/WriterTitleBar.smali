@@ -129,7 +129,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0a25
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_writer_titlebar:I
 
     const/4 v0, 0x1
 
@@ -214,13 +214,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e6
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f06065d
+    sget v2, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     .line 3
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getResources()Landroid/content/res/Resources;
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -250,7 +250,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -261,7 +261,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -535,12 +535,12 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f1227a4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     goto :goto_0
 
     :cond_1
-    const v4, 0x7f12203e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     :goto_0
     invoke-virtual {p0, v3, v4}, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->setTextViewText(Landroid/widget/TextView;I)V
@@ -625,7 +625,7 @@
     :cond_4
     iget-object v3, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->d0:Landroid/widget/TextView;
 
-    const v4, 0x7f122018
+    sget v4, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {p0, v3, v4}, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->setTextViewText(Landroid/widget/TextView;I)V
 
@@ -1151,7 +1151,7 @@
 .method public final h()V
     .locals 5
 
-    const v0, 0x7f0b29e4    # 1.849802E38f
+    sget v0, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1160,7 +1160,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->I:Landroid/view/View;
 
-    const v0, 0x7f0b12a0
+    sget v0, Lcom/resouce/module/ResID;->image_undo:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1171,7 +1171,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1290
+    sget v0, Lcom/resouce/module/ResID;->image_redo:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1182,7 +1182,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b081a
+    sget v0, Lcom/resouce/module/ResID;->edit_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1191,7 +1191,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->V:Landroid/view/View;
 
-    const v0, 0x7f0b02ba
+    sget v0, Lcom/resouce/module/ResID;->btn_app_wrap:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1214,7 +1214,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0581
+    sget v0, Lcom/resouce/module/ResID;->cooperate_member_layout:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1259,7 +1259,7 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->y0:Lex4;
 
     :cond_0
-    const v0, 0x7f0b02d2
+    sget v0, Lcom/resouce/module/ResID;->btn_edit:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1270,7 +1270,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b02ea
+    sget v0, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1279,7 +1279,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->W:Landroid/view/View;
 
-    const v0, 0x7f0b02e8
+    sget v0, Lcom/resouce/module/ResID;->btn_multi:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1290,7 +1290,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->a0:Landroid/widget/Button;
 
-    const v0, 0x7f0b1272
+    sget v0, Lcom/resouce/module/ResID;->image_close:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1301,7 +1301,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b299d
+    sget v0, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1324,7 +1324,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b188c
+    sget v0, Lcom/resouce/module/ResID;->mi_preview_stub:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1350,7 +1350,7 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->x0:Lvck;
 
     :cond_1
-    const v0, 0x7f0b36c1
+    sget v0, Lcom/resouce/module/ResID;->writer_titlebar:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1359,7 +1359,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b3682
+    sget v0, Lcom/resouce/module/ResID;->writer_small_titlebar:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1368,7 +1368,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b36c0
+    sget v0, Lcom/resouce/module/ResID;->writer_title:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1379,7 +1379,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b301b
+    sget v0, Lcom/resouce/module/ResID;->titlebar_ad_image:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1390,7 +1390,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->p0:Lcn/wps/moffice/common/beans/RedDotAlphaImageView;
 
-    const v0, 0x7f0b36c2
+    sget v0, Lcom/resouce/module/ResID;->writer_titlebar_ad_image_wrapper:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1399,7 +1399,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->q0:Landroid/view/View;
 
-    const v0, 0x7f0b36c3
+    sget v0, Lcom/resouce/module/ResID;->writer_titlebar_small_ad_icon:I
 
     .line 27
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1410,7 +1410,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->r0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b36c4
+    sget v0, Lcom/resouce/module/ResID;->writer_titlebar_small_ad_title:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1421,7 +1421,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;->s0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b302a
+    sget v0, Lcom/resouce/module/ResID;->titlebar_online_security_image:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1446,7 +1446,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120682
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_filetabs:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1461,7 +1461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b3c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1476,7 +1476,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1580,7 +1580,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b34bd
+    sget v0, Lcom/resouce/module/ResID;->writer_add_sign_stub:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1735,7 +1735,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080aae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->multi_doc_meeting:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1764,7 +1764,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080252
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_switch_white:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2901,7 +2901,7 @@
     invoke-interface {v0}, Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar$c;->b()V
 
     :cond_0
-    const v0, 0x7f060214
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     const/4 v1, 0x0
 
@@ -2979,7 +2979,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060217
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_text:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3097,7 +3097,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

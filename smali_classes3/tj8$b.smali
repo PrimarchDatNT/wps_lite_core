@@ -49,9 +49,9 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f12182c
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
-    const v3, 0x7f122c12
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     const/4 v4, 0x1
 
@@ -62,9 +62,9 @@
 
     invoke-direct {v0}, Lkib;-><init>()V
 
-    const v5, 0x7f08072c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
-    const v6, 0x7f0601a4
+    sget v6, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
     .line 3
     invoke-static {}, Lcn/wps/moffice/define/VersionManager;->z0()Z
@@ -76,10 +76,10 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f122c12
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     :goto_0
-    const v3, 0x7f121051
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_merge:I
 
     new-array v7, v4, [Lcib$b;
 
@@ -149,7 +149,7 @@
 
     invoke-virtual {v0, v5}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v5, 0x7f080762
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_merge:I
 
     .line 15
     invoke-static {}, Lcn/wps/moffice/define/VersionManager;->z0()Z
@@ -161,10 +161,10 @@
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f122c12
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     :goto_1
-    const v3, 0x7f122698
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_pdf_merge_desc:I
 
     const/4 v6, 0x2
 

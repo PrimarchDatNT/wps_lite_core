@@ -216,7 +216,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0604bf
+    sget v2, Lcom/resouce/module/ResCOLOR;->ppt_phone_long_pic_share_preview_watermark:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -343,7 +343,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0604be
+    sget v2, Lcom/resouce/module/ResCOLOR;->ppt_phone_long_pic_share_preview_item_border:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07095a
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_share_preview_item_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

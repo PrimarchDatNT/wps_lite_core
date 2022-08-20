@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lz2e$a;
 
-    const v1, 0x7f080ca9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_15_ppt:I
 
-    const v2, 0x7f1223b8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_decrease_indentation:I
 
     const/4 v3, 0x1
 
@@ -37,9 +37,9 @@
     .line 3
     new-instance v0, Lz2e$b;
 
-    const v1, 0x7f080cab
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_16_ppt:I
 
-    const v2, 0x7f1223b9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_increase_indentation:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lz2e$b;-><init>(Lz2e;IIZ)V
 

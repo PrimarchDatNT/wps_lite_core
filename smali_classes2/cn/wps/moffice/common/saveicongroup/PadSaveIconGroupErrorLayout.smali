@@ -65,7 +65,7 @@
 .method public b()V
     .locals 1
 
-    const v0, 0x7f0b1296
+    sget v0, Lcom/resouce/module/ResID;->image_save_error_progress:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 .method public getLayoutRes()I
     .locals 1
 
-    const v0, 0x7f0e05cb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_saveicon_group_error_layout:I
 
     return v0
 .end method

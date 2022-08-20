@@ -88,13 +88,13 @@
     .line 2
     iget-object v1, p0, Lan4;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0c0d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_fontpackage_purcharse_item:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b06bb
+    sget v1, Lcom/resouce/module/ResID;->display_thumbnail:I
 
     .line 3
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object v1, p2, Lan4$b;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b06ba
+    sget v1, Lcom/resouce/module/ResID;->display_name:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

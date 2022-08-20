@@ -116,7 +116,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     const/4 v1, 0x0
 

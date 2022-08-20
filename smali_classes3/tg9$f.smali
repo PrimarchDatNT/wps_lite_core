@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12002e
+    sget v3, Lcom/resouce/module/ResSTRING;->URL_PUSH_TO_WEB:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

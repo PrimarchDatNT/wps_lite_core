@@ -214,7 +214,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040620
+    sget v0, Lcom/resouce/module/ResATTR;->tabStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/tabs/TabLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -493,7 +493,7 @@
 
     iput p3, p0, Lcom/google/android/material/tabs/TabLayout;->W:I
 
-    const p3, 0x7f130253
+    sget p3, Lcom/resouce/module/ResSTYLE;->TextAppearance.Design.Tab:I
 
     .line 40
     invoke-virtual {p2, v11, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -695,7 +695,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0700c6
+    sget p2, Lcom/resouce/module/ResDIMEN;->design_tab_text_size_2line:I
 
     .line 65
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -706,7 +706,7 @@
 
     iput p2, p0, Lcom/google/android/material/tabs/TabLayout;->i0:F
 
-    const p2, 0x7f0700c4
+    sget p2, Lcom/resouce/module/ResDIMEN;->design_tab_scrollable_min_width:I
 
     .line 66
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

@@ -46,7 +46,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02ec
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_cloud_setting_item_layout:I
 
     const/4 v1, 0x0
 
@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13d2
+    sget v0, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -76,7 +76,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13b5
+    sget v0, Lcom/resouce/module/ResID;->item_detail:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13c7
+    sget v0, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13e4
+    sget v0, Lcom/resouce/module/ResID;->item_status_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13b7
+    sget v0, Lcom/resouce/module/ResID;->item_divide_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13e3
+    sget v0, Lcom/resouce/module/ResID;->item_status_off:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -147,7 +147,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13e2
+    sget v0, Lcom/resouce/module/ResID;->item_status_cant_use_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

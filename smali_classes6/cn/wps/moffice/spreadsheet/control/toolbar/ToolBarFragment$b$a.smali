@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b299d
+    sget v2, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b0ab1
+    sget v2, Lcom/resouce/module/ResID;->et_main_top:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

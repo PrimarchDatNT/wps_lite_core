@@ -448,7 +448,7 @@
 
     invoke-static {v0, v1}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v0, 0x7f0b2412
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_nofile_titlebar:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v0, 0x7f0b2408
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_connectPC_titlebar:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -511,7 +511,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b241a
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_player_titlebar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2413    # 1.8495E38f
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_operator_title_bar:I    # 1.8495E38f
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -566,7 +566,7 @@
 .method private inintContentPage()V
     .locals 3
 
-    const v0, 0x7f0b2411
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_nofile:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2409
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_connection_pc:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
     .line 5
     iput-boolean v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->isDelay:Z
 
-    const v2, 0x7f0b2419
+    sget v2, Lcom/resouce/module/ResID;->ppt_remote_player:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
     .line 7
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b241b
+    sget v2, Lcom/resouce/module/ResID;->ppt_remote_scanner_main:I
 
     .line 8
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -623,7 +623,7 @@
     .line 9
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b240a
+    sget v2, Lcom/resouce/module/ResID;->ppt_remote_controller_operator:I
 
     .line 10
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -632,7 +632,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->remoteOperatorMain:Landroid/view/View;
 
-    const v2, 0x7f0b2414
+    sget v2, Lcom/resouce/module/ResID;->ppt_remote_page_controller:I
 
     .line 11
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -670,7 +670,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->timerSetting:Landroid/widget/ImageView;
 
-    const v1, 0x7f08115a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_arrow_down_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -786,7 +786,7 @@
 .method private initTimerTitle()V
     .locals 2
 
-    const v0, 0x7f0b275f
+    sget v0, Lcom/resouce/module/ResID;->public_tv_meeting_functionbar_timer:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -797,7 +797,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->mTimerText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b26e7
+    sget v1, Lcom/resouce/module/ResID;->public_remote_timer_player:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -818,7 +818,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->mTimerText:Landroid/widget/TextView;
 
-    const v0, 0x7f0b20a1
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_play_timer_setting:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -829,7 +829,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->timerSetting:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2399
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_play_start_stop:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -841,7 +841,7 @@
     .line 7
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b239a
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_reset:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -850,7 +850,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->resetTime:Landroid/view/View;
 
-    const v0, 0x7f0b239d
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_start_stop_img:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -864,7 +864,7 @@
     .line 10
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b239b
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_reset_img:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -875,7 +875,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->resetImage:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b239e
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_start_stop_tv:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -891,7 +891,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605aa
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_titlebar_halfscreen_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1176,7 +1176,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->timerSetting:Landroid/widget/ImageView;
 
-    const v0, 0x7f08115b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_arrow_up_icon:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1194,7 +1194,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->timerSetting:Landroid/widget/ImageView;
 
-    const v0, 0x7f08115a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_arrow_down_icon:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1236,7 +1236,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->quickDialog:Lhd3;
 
-    const v1, 0x7f121bd2
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_remote_disconnect_with_pc:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -1248,14 +1248,14 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->quickDialog:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->quickDialog:Lhd3;
 
-    const v2, 0x7f121bd1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_remote_disconnect:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1282,7 +1282,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b2894
+    sget v0, Lcom/resouce/module/ResID;->remote_pc_guide_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1311,7 +1311,7 @@
 
     iput-wide v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;->initTime:J
 
-    const v0, 0x7f0b2362
+    sget v0, Lcom/resouce/module/ResID;->ppt_phone_remote_titlebar_disconnect_btn:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1320,7 +1320,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b241e
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_scanner_title_bar_return:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1329,7 +1329,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b235e
+    sget v0, Lcom/resouce/module/ResID;->ppt_phone_remote_player_imageBtn:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1338,7 +1338,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b26e6
+    sget v0, Lcom/resouce/module/ResID;->public_remmote_timer_player_title:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1559,7 +1559,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f0b2362
+    sget v1, Lcom/resouce/module/ResID;->ppt_phone_remote_titlebar_disconnect_btn:I
 
     if-ne p1, v1, :cond_1
 
@@ -1593,7 +1593,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b241e
+    sget v1, Lcom/resouce/module/ResID;->ppt_remote_scanner_title_bar_return:I
 
     if-ne p1, v1, :cond_2
 
@@ -1603,7 +1603,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0b235e
+    sget v1, Lcom/resouce/module/ResID;->ppt_phone_remote_player_imageBtn:I
 
     if-ne p1, v1, :cond_3
 
@@ -1618,7 +1618,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f0b2413    # 1.8495E38f
+    sget v1, Lcom/resouce/module/ResID;->ppt_remote_operator_title_bar:I    # 1.8495E38f
 
     if-ne p1, v1, :cond_4
 
@@ -1641,7 +1641,7 @@
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f0b26e6
+    sget v0, Lcom/resouce/module/ResID;->public_remmote_timer_player_title:I
 
     const/4 v1, 0x0
 
@@ -1653,14 +1653,14 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b26e7
+    sget v0, Lcom/resouce/module/ResID;->public_remote_timer_player:I
 
     if-ne p1, v0, :cond_6
 
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f0b2399
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_play_start_stop:I
 
     if-ne p1, v0, :cond_8
 
@@ -1693,7 +1693,7 @@
     goto :goto_1
 
     :cond_8
-    const v0, 0x7f0b239a
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_timer_reset:I
 
     if-ne p1, v0, :cond_9
 
@@ -1730,7 +1730,7 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/common/beans/OnResultActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0acc
+    sget p1, Lcom/resouce/module/ResLAYOUT;->ppt_remote_main:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -2046,7 +2046,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0acc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_remote_main:I
 
     const/4 v2, 0x0
 
@@ -2088,7 +2088,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0709a3
+    sget v4, Lcom/resouce/module/ResDIMEN;->ppt_phone_remote_page_tip_pandding_left_right:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2099,7 +2099,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070990
+    sget v5, Lcom/resouce/module/ResDIMEN;->ppt_phone_remote_guide_connection_margin_top:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2360,12 +2360,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08115e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_stop_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08115c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_play_icon:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -2381,12 +2381,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f1225f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pause:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f121c6c
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_timer_start:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

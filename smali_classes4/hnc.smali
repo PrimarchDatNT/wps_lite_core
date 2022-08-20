@@ -415,12 +415,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f122648
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic_to_pdf_first_free_file:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1218a8
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_tip:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -486,12 +486,12 @@
 
     if-eqz v4, :cond_2
 
-    const v4, 0x7f120fb1
+    sget v4, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     goto :goto_1
 
     :cond_2
-    const v4, 0x7f121c8e
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     :goto_1
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -522,7 +522,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -547,7 +547,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -923,7 +923,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07bb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_insert_pic_preview:I
 
     return v0
 .end method
@@ -952,7 +952,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea6
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_tip_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -963,7 +963,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea4
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -979,7 +979,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea5
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_tip_close_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -995,7 +995,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea1
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_preview_padding_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1004,7 +1004,7 @@
     .line 9
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1e96
+    sget v2, Lcom/resouce/module/ResID;->pdf_pic_back:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1027,7 +1027,7 @@
     .line 12
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea2
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_preview_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

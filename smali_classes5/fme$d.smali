@@ -114,7 +114,7 @@
 
     iget-object v0, v0, Lkme;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f121c24
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_launcher_exit:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

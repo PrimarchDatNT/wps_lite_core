@@ -139,7 +139,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122844
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_my_picture:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

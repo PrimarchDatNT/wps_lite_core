@@ -47,7 +47,7 @@
 
     move-result v1
 
-    const v2, 0x7f122abb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_textBox:I
 
     const/4 v3, 0x1
 
@@ -147,12 +147,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802d6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_textbox:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c96
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_textbox_ppt:I
 
     :goto_0
     return v0

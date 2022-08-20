@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cfa
+    sget v2, Lcom/resouce/module/ResSTRING;->feedback_center_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c1c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_smart_fill:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

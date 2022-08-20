@@ -71,7 +71,7 @@
     .line 4
     sget-object v0, Lbkf;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122a1a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_start:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -84,7 +84,7 @@
     .line 5
     sget-object v0, Lbkf;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122ba9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_view:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -97,7 +97,7 @@
     .line 6
     sget-object v0, Lbkf;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122628
+    sget v1, Lcom/resouce/module/ResSTRING;->public_peruse:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -110,7 +110,7 @@
     .line 7
     sget-object v0, Lbkf;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122385
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -123,7 +123,7 @@
     .line 8
     sget-object v0, Lbkf;->c:Ljava/util/HashMap;
 
-    const v1, 0x7f122fea
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_toolbar_data:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -142,12 +142,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f120724
+    sget v1, Lcom/resouce/module/ResSTRING;->ent_sign:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f12236f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     :goto_0
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

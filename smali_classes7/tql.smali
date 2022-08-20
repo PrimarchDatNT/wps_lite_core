@@ -110,7 +110,7 @@
 
     invoke-virtual {p0, p1, v0}, Ltql;->z2(Ljava/lang/String;Lvzl;)V
 
-    const p1, 0x7f0b1c7a
+    sget p1, Lcom/resouce/module/ResID;->pager:I
 
     .line 6
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/phone/tab/ViewPager;->setAdapter(Lpk3;)V
 
-    const p1, 0x7f0b33c3
+    sget p1, Lcom/resouce/module/ResID;->viewpager_indicator:I
 
     .line 8
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     invoke-virtual {p1, p0}, Lcn/wps/moffice/common/beans/phone/indicator/PanelIndicator;->setOnDotMoveListener(Lcn/wps/moffice/common/beans/phone/indicator/PanelIndicator$a;)V
 
-    const p1, 0x7f0b33c4
+    sget p1, Lcom/resouce/module/ResID;->viewpager_indicator_pop:I
 
     .line 12
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

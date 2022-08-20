@@ -54,7 +54,7 @@
 
     iget-object v0, v0, Lu5e;->I:Landroid/content/Context;
 
-    const v2, 0x7f12265e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_play_record_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -154,13 +154,13 @@
     .line 3
     iget-object v3, p0, Lokb;->B:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e09b5
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_website_long_pic_share_preview_item:I
 
     invoke-virtual {v3, v4, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v3, 0x7f0b3427
+    sget v3, Lcom/resouce/module/ResID;->website_long_pic_share_preview_item_img:I
 
     .line 4
     invoke-virtual {p3, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

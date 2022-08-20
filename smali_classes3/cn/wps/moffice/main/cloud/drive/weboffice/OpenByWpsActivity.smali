@@ -183,7 +183,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/cloud/drive/weboffice/OpenByWpsActivity$a;-><init>(Lcn/wps/moffice/main/cloud/drive/weboffice/OpenByWpsActivity;)V
 
-    const v1, 0x7f122aed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_toolbar_action_view_text_open_by_wps:I
 
     invoke-virtual {p1, v1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->a(ILandroid/view/View$OnClickListener;)V
 

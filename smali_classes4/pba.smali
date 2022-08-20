@@ -154,7 +154,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a1d
+    sget v1, Lcom/resouce/module/ResID;->scf_bottom_bar_delete_mode_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a20
+    sget v1, Lcom/resouce/module/ResID;->scf_delete_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -214,7 +214,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12058d
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_deleteDocument:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1162
+    sget v1, Lcom/resouce/module/ResID;->home_scf_top_bar_normal:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 1
     iget-object v0, p0, Lpba;->n:Landroid/widget/Button;
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -352,12 +352,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0e0755
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_scf_empty_layout_zh:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0754
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_scf_empty_layout_en:I
 
     .line 2
     :goto_0
@@ -409,7 +409,7 @@
     .line 1
     iget-object v0, p0, Lpba;->n:Landroid/widget/Button;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -793,7 +793,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b115b
+    sget v1, Lcom/resouce/module/ResID;->home_scf_browser_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -918,7 +918,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1161
+    sget v1, Lcom/resouce/module/ResID;->home_scf_top_bar_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -972,7 +972,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b115c
+    sget v1, Lcom/resouce/module/ResID;->home_scf_exit_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1004,7 +1004,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b115f
+    sget v1, Lcom/resouce/module/ResID;->home_scf_select_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1036,7 +1036,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a1f
+    sget v1, Lcom/resouce/module/ResID;->scf_delete_several:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

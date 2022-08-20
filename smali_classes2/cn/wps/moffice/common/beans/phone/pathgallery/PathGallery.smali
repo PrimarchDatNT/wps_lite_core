@@ -197,22 +197,22 @@
 
     if-ne v0, p1, :cond_3
 
-    const p1, 0x7f06025d
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 18
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;->a0:I
 
-    const p1, 0x7f0600ea
+    sget p1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 19
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;->b0:I
 
-    const p1, 0x7f0606e2
+    sget p1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 20
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;->c0:I
 
-    const p1, 0x7f08130f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_path_gallery_item_bg:I
 
     .line 21
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;->d0:I
@@ -237,7 +237,7 @@
     :cond_3
     const/4 p1, 0x5
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     if-ne v0, p1, :cond_4
 
@@ -370,7 +370,7 @@
 .method public e()V
     .locals 8
 
-    const v0, 0x7f0b2a35
+    sget v0, Lcom/resouce/module/ResID;->scroll_container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -409,7 +409,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b1d01
+    sget v5, Lcom/resouce/module/ResID;->path_item_text:I
 
     .line 7
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v6, 0x7f0b1d00
+    sget v6, Lcom/resouce/module/ResID;->path_item_image:I
 
     .line 11
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 .method public f()V
     .locals 8
 
-    const v0, 0x7f0b0d92
+    sget v0, Lcom/resouce/module/ResID;->first_path:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -575,7 +575,7 @@
 
     invoke-virtual {v0, v4}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v4, 0x7f0b0d94
+    sget v4, Lcom/resouce/module/ResID;->first_path_text:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -584,7 +584,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b0d93
+    sget v5, Lcom/resouce/module/ResID;->first_path_image:I
 
     .line 6
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -724,7 +724,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
-    const v1, 0x7f0b1cfe
+    sget v1, Lcom/resouce/module/ResID;->path_image:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -859,7 +859,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0e073e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_path_gallery_item:I
 
     if-eq v0, v1, :cond_4
 
@@ -882,22 +882,22 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e073f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_path_gallery_item_for_wps_drive:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e0564
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_path_gallery_item_for_insert:I
 
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0e0565
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_path_gallery_item_for_saveas:I
 
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0e0563
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_path_gallery_item:I
 
     .line 2
     :cond_4

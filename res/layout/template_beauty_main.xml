@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
-    <FrameLayout android:id="@id/content_lay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/template_bottom_tips_layout_container" android:layout_below="@id/titlebar" />
-    <View android:layout_below="@id/titlebar" style="@style/phone_home_top_shadow" />
-    <cn.wps.moffice.docer.cntemplate.mainview.MemberShipIntroduceView android:gravity="center" android:layout_gravity="center" android:id="@id/template_bottom_tips_layout_container" android:background="@color/secondBackgroundColor" android:paddingLeft="@dimen/home_template_item_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/home_template_item_padding" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/home_template_item_padding" android:paddingEnd="@dimen/home_template_item_padding" />
-</RelativeLayout>

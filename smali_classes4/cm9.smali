@@ -122,7 +122,7 @@
     .line 3
     iget-object p1, p0, Lcm9;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0cdb
+    sget v0, Lcom/resouce/module/ResID;->file_list_empty_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 5
     check-cast p1, Landroid/widget/ImageView;
 
-    const v0, 0x7f0810bc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_history_no_star:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -167,7 +167,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b0d4a
+    sget v1, Lcom/resouce/module/ResID;->filelist:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
     :cond_0
     iget-object v0, p0, Lcm9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cdc
+    sget v1, Lcom/resouce/module/ResID;->file_list_empty_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09a9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_star_layout:I
 
     const/4 v2, 0x0
 
@@ -352,7 +352,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1206a7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     return v0
 .end method

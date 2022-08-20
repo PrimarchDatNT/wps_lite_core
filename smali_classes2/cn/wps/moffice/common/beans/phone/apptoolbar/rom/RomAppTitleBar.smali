@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e08ca
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_rom_read_lite_titlebar:I
 
     const/4 p3, 0x1
 
@@ -156,7 +156,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2994
+    sget v1, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b298e
+    sget v1, Lcom/resouce/module/ResID;->rom_layout_normal:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b298f
+    sget v1, Lcom/resouce/module/ResID;->rom_layout_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2a69
+    sget v1, Lcom/resouce/module/ResID;->search_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -204,7 +204,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2990
+    sget v1, Lcom/resouce/module/ResID;->rom_layout_search_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b29a2
+    sget v1, Lcom/resouce/module/ResID;->rom_search_image_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -228,7 +228,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b299b
+    sget v1, Lcom/resouce/module/ResID;->rom_read_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b29a1
+    sget v1, Lcom/resouce/module/ResID;->rom_search_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -254,7 +254,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -281,7 +281,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b299a
+    sget v1, Lcom/resouce/module/ResID;->rom_read_share:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0421
+    sget v1, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -520,12 +520,12 @@
 
     if-eqz v0, :cond_5
 
-    const v4, 0x7f08099c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_dark:I
 
     goto :goto_1
 
     :cond_5
-    const v4, 0x7f08099d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_light:I
 
     .line 8
     :goto_1
@@ -543,12 +543,12 @@
     :cond_7
     if-eqz v0, :cond_8
 
-    const v1, 0x7f0809aa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_dark:I
 
     goto :goto_2
 
     :cond_8
-    const v1, 0x7f0809ab
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_light:I
 
     .line 11
     :goto_2
@@ -558,12 +558,12 @@
 
     if-eqz v0, :cond_9
 
-    const v1, 0x7f0809a6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_dark:I
 
     goto :goto_3
 
     :cond_9
-    const v1, 0x7f0809a7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_light:I
 
     .line 12
     :goto_3
@@ -573,12 +573,12 @@
 
     if-eqz v0, :cond_a
 
-    const v1, 0x7f0809a8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_dark:I
 
     goto :goto_4
 
     :cond_a
-    const v1, 0x7f0809a9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_light:I
 
     .line 13
     :goto_4
@@ -588,12 +588,12 @@
 
     if-eqz v0, :cond_b
 
-    const v1, 0x7f0809a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_dark:I
 
     goto :goto_5
 
     :cond_b
-    const v1, 0x7f0809a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_light:I
 
     .line 14
     :goto_5
@@ -603,12 +603,12 @@
 
     if-eqz v0, :cond_c
 
-    const v1, 0x7f08097c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_dark:I
 
     goto :goto_6
 
     :cond_c
-    const v1, 0x7f08097d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_light:I
 
     .line 15
     :goto_6

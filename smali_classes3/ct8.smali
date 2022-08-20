@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081699
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_company:I
 
     const/4 v2, 0x0
 
@@ -136,7 +136,7 @@
 .method public b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2637
+    sget v0, Lcom/resouce/module/ResID;->public_home_company_guide_img:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lct8;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b263a
+    sget v0, Lcom/resouce/module/ResID;->public_home_company_guide_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lct8;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2639
+    sget v0, Lcom/resouce/module/ResID;->public_home_company_guide_right_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

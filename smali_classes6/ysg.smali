@@ -531,7 +531,7 @@
 
     check-cast v2, Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v4, 0x7f0b212e
+    sget v4, Lcom/resouce/module/ResID;->phone_ss_bottom_root:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -572,7 +572,7 @@
 
     check-cast v2, Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v4, 0x7f0b2134
+    sget v4, Lcom/resouce/module/ResID;->phone_ss_bottompanel:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -589,7 +589,7 @@
 
     if-eqz v4, :cond_3
 
-    const v4, 0x7f0b0539
+    sget v4, Lcom/resouce/module/ResID;->content:I
 
     .line 9
     invoke-virtual {v2, v4}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -624,7 +624,7 @@
 
     check-cast v2, Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v4, 0x7f0b0ab3
+    sget v4, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -826,7 +826,7 @@
     goto :goto_0
 
     :cond_8
-    const p1, 0x7f122035
+    sget p1, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     .line 29
     invoke-virtual {p0, p1}, Lysg;->D(I)V
@@ -837,7 +837,7 @@
 
     :cond_a
     :goto_1
-    const p1, 0x7f122036
+    sget p1, Lcom/resouce/module/ResSTRING;->public_drag_in_wrong_state:I
 
     .line 30
     invoke-virtual {p0, p1}, Lysg;->D(I)V
@@ -1664,7 +1664,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122035
+    sget v0, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     .line 2
     invoke-virtual {p0, v0}, Lysg;->D(I)V
@@ -1739,7 +1739,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f122036
+    sget v0, Lcom/resouce/module/ResSTRING;->public_drag_in_wrong_state:I
 
     .line 7
     invoke-virtual {p0, v0}, Lysg;->D(I)V
@@ -2794,7 +2794,7 @@
 
     move-result v0
 
-    const v1, 0x7f122036
+    sget v1, Lcom/resouce/module/ResSTRING;->public_drag_in_wrong_state:I
 
     const/4 v2, 0x0
 
@@ -2886,7 +2886,7 @@
 
     move-result v0
 
-    const v3, 0x7f122034
+    sget v3, Lcom/resouce/module/ResSTRING;->public_drag_in_full_screen:I
 
     if-nez v0, :cond_c
 

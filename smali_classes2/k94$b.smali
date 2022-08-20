@@ -73,7 +73,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122ba5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_video_no_wifi_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -83,7 +83,7 @@
 
     invoke-direct {v1, p0}, Lk94$b$a;-><init>(Lk94$b;)V
 
-    const v2, 0x7f122ba8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_video_toplay:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -92,7 +92,7 @@
 
     invoke-direct {v1, p0}, Lk94$b$b;-><init>(Lk94$b;)V
 
-    const v2, 0x7f122ba7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_video_stopplaying:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -254,7 +254,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v1, 0x0
 

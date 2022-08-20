@@ -16,7 +16,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -45,7 +45,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

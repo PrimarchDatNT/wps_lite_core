@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/v10_phone_public_kbedittext_bg_selector" android:top="9.0dip" android:bottom="9.0dip" />
-    <item android:drawable="@drawable/v10_phone_public_kbedittext_hold_space_drawable" />
-</layer-list>

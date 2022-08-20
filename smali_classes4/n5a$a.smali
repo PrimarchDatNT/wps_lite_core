@@ -27,7 +27,7 @@
     .line 1
     invoke-direct {p0, p1}, Lkz9$c;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b085c
+    sget v0, Lcom/resouce/module/ResID;->empty_page_text:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -38,7 +38,7 @@
 
     iput-object v0, p0, Ln5a$a;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0859
+    sget v0, Lcom/resouce/module/ResID;->empty_item_image:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

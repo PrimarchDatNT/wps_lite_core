@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2d0b
+    sget v2, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

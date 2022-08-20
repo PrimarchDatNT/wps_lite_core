@@ -193,12 +193,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e05c3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_recycler_tab_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0e03
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_recycler_tab_layout:I
 
     :goto_0
     const/4 v1, 0x0

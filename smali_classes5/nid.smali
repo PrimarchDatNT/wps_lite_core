@@ -45,7 +45,7 @@
 .method public b()V
     .locals 2
 
-    const v0, 0x7f121748
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_mobile_network_tips_dialog:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -59,7 +59,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -70,7 +70,7 @@
 
     invoke-virtual {p0, v0, v1}, Lvcd;->setNegativeButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f121f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 4
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

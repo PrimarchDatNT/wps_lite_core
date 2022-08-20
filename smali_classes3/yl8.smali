@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d83
+    sget v1, Lcom/resouce/module/ResSTRING;->form_tool_home_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d84
+    sget v1, Lcom/resouce/module/ResSTRING;->form_tool_list_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d85
+    sget v1, Lcom/resouce/module/ResSTRING;->form_tool_pad_list_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

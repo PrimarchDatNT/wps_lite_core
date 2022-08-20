@@ -146,7 +146,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060457
+    sget v4, Lcom/resouce/module/ResCOLOR;->phone_public_divide_line_color:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -226,7 +226,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f07024f
+    sget v7, Lcom/resouce/module/ResDIMEN;->et_pad_main_tabhost_tab_btn_min_width:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -243,7 +243,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f07024e
+    sget v7, Lcom/resouce/module/ResDIMEN;->et_pad_main_tabhost_tab_btn_max_width:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -263,7 +263,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f070232
+    sget v7, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_min_width:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -280,7 +280,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f070231
+    sget v7, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_max_width:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -320,7 +320,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060170
+    sget v7, Lcom/resouce/module/ResCOLOR;->et_tab_spliter_color:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -372,7 +372,7 @@
     .line 41
     invoke-virtual {p0, v1, p3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p3, 0x7f080684
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->et_main_tabnoclick:I
 
     .line 42
     invoke-virtual {p0, p3}, Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;->setBackgroundResource(I)V
@@ -447,7 +447,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f070228
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_color_drawable_height:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -465,7 +465,7 @@
     .line 56
     iget-object p3, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;->d0:Landroid/view/View;
 
-    const v0, 0x7f081e5a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ss_tabhost_colorview_selector:I
 
     invoke-virtual {p3, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1192,7 +1192,7 @@
 .method public setBackgroundResource(I)V
     .locals 1
 
-    const v0, 0x7f080683
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->et_main_tab:I
 
     if-ne p1, v0, :cond_0
 
@@ -1211,7 +1211,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f081424
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_tabbtn_white_selector:I
 
     .line 2
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -1221,12 +1221,12 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    const p1, 0x7f080fa9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_ss_tabbtn_bg:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f080faa
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_ss_tabbtn_bg_unselected:I
 
     .line 3
     :goto_1
@@ -1303,12 +1303,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0606b1
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_panel_tips_text_color:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -1341,7 +1341,7 @@
 
     move-result v0
 
-    const v1, 0x7f081424
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_tabbtn_white_selector:I
 
     if-eqz v0, :cond_2
 
@@ -1362,7 +1362,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0600b1
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

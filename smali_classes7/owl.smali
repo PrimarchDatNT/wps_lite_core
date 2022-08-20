@@ -21,7 +21,7 @@
     .line 2
     iput-object p1, p0, Lowl;->f0:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f122adb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

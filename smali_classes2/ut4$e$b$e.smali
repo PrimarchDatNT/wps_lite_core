@@ -51,7 +51,7 @@
 
     iget-object v1, v1, Lut4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12274c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_market_unsupport:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     iget-object v1, v1, Lut4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12275a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_unsupport_reasons:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

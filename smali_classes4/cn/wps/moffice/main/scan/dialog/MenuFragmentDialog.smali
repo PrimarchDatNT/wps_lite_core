@@ -55,7 +55,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0122
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_menu_dialog:I
 
     return v0
 .end method
@@ -63,7 +63,7 @@
 .method public b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1799
+    sget v0, Lcom/resouce/module/ResID;->lv_menu:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12043e
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_import_image_by_ai:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12043f
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_import_image_by_default:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

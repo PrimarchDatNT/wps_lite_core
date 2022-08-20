@@ -29,7 +29,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0921
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_app_open_ad:I
 
     return v0
 .end method

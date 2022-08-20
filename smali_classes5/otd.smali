@@ -222,7 +222,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f1212d9
+    sget v0, Lcom/resouce/module/ResSTRING;->infoflow_loading_finished:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
@@ -241,7 +241,7 @@
     :cond_1
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f120597
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_docinfo_loading:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V

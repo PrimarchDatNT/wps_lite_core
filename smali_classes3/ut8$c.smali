@@ -169,7 +169,7 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122edb
+    sget v0, Lcom/resouce/module/ResSTRING;->setting_detail_enable:I
 
     .line 5
     iput v0, p0, Lut8$c;->e:I
@@ -177,7 +177,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f122edc
+    sget v0, Lcom/resouce/module/ResSTRING;->setting_detail_goto_setting:I
 
     .line 6
     iput v0, p0, Lut8$c;->e:I
@@ -254,7 +254,7 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122edb
+    sget v0, Lcom/resouce/module/ResSTRING;->setting_detail_enable:I
 
     .line 5
     iput v0, p0, Lut8$c;->e:I
@@ -262,7 +262,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f122edc
+    sget v0, Lcom/resouce/module/ResSTRING;->setting_detail_goto_setting:I
 
     .line 6
     iput v0, p0, Lut8$c;->e:I

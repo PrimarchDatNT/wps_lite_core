@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f13012d
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {p1, v0, v1}, Lrdg;-><init>(Landroid/content/Context;I)V
 

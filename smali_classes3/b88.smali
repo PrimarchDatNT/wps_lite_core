@@ -317,9 +317,9 @@
 
     move-result-object v4
 
-    const v5, 0x7f120555
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_samedataexist_title:I
 
-    const v6, 0x7f120556
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_samedataexist_url:I
 
     const/4 v7, 0x1
 

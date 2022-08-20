@@ -64,7 +64,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator$g;->B:Landroid/content/Context;
 
-    const p2, 0x7f1203a2
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_fix_doc_download_error:I
 
     const/4 v0, 0x1
 

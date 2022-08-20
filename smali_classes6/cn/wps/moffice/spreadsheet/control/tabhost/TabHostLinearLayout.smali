@@ -499,7 +499,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b05fc
+    sget v2, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_add:I
 
     if-ne v1, v2, :cond_4
 
@@ -831,12 +831,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f060457
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_public_divide_line_color:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0606b7
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_ss_sheets_spliteline_color:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I

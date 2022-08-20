@@ -72,11 +72,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b00a5
+    sget v0, Lcom/resouce/module/ResID;->add_document_layout:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b00a6
+    sget v0, Lcom/resouce/module/ResID;->add_document_layout_viewgroup:I
 
     if-ne p1, v0, :cond_2
 
@@ -106,7 +106,7 @@
 
     iget-object p1, p1, Lm76;->B:Landroid/content/Context;
 
-    const v1, 0x7f1214d0
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_insertpic_gallery_camera_warning:I
 
     new-instance v2, Lxe9;
 

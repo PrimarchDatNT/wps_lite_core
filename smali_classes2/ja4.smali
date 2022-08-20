@@ -721,7 +721,7 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    const v1, 0x7f1203cf
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_all_pic:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

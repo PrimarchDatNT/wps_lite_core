@@ -718,7 +718,7 @@
     .line 4
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -777,7 +777,7 @@
     :goto_0
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {v0, v1, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1317,7 +1317,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12043c
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_img_not_found_for_ocr:I
 
     const/4 v1, 0x1
 
@@ -1360,7 +1360,7 @@
     .line 8
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1776,7 +1776,7 @@
     .line 1
     iget-object v0, p0, Lu0b;->W:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0baf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_doc_scan_camera_cut:I
 
     const/4 v2, 0x0
 
@@ -1786,7 +1786,7 @@
 
     iput-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b0530
+    sget v1, Lcom/resouce/module/ResID;->container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1800,7 +1800,7 @@
     .line 3
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b141f
+    sget v1, Lcom/resouce/module/ResID;->iv_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1811,7 +1811,7 @@
     .line 4
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b142e
+    sget v1, Lcom/resouce/module/ResID;->iv_complete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1822,7 +1822,7 @@
     .line 5
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b14b8
+    sget v1, Lcom/resouce/module/ResID;->iv_rotate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1833,7 +1833,7 @@
     .line 6
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b14b6
+    sget v1, Lcom/resouce/module/ResID;->iv_retake:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1844,7 +1844,7 @@
     .line 7
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b14a1
+    sget v1, Lcom/resouce/module/ResID;->iv_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1855,7 +1855,7 @@
     .line 8
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b04a3
+    sget v1, Lcom/resouce/module/ResID;->collection_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1866,7 +1866,7 @@
     .line 9
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b3166
+    sget v1, Lcom/resouce/module/ResID;->tv_feedback:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1877,7 +1877,7 @@
     .line 10
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b142a
+    sget v1, Lcom/resouce/module/ResID;->iv_close_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1923,7 +1923,7 @@
     :cond_0
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2f23
+    sget v1, Lcom/resouce/module/ResID;->text_optimization_distinguish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1939,7 +1939,7 @@
     .line 17
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2f22
+    sget v1, Lcom/resouce/module/ResID;->text_optimization_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1955,7 +1955,7 @@
     .line 19
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b06be
+    sget v1, Lcom/resouce/module/ResID;->distinguish_titlebar_backbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2020,7 +2020,7 @@
     .line 28
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v1, 0x7f0b143b
+    sget v1, Lcom/resouce/module/ResID;->iv_detection:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2048,7 +2048,7 @@
     .line 32
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v2, 0x7f0b314d
+    sget v2, Lcom/resouce/module/ResID;->tv_distingush:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2059,7 +2059,7 @@
     .line 33
     iget-object v0, p0, Lu0b;->X:Landroid/view/View;
 
-    const v2, 0x7f0b3115
+    sget v2, Lcom/resouce/module/ResID;->tv_cancel:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2139,7 +2139,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122b15
+    sget v4, Lcom/resouce/module/ResSTRING;->public_translate:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2214,7 +2214,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2275,7 +2275,7 @@
 
     if-eqz v0, :cond_7
 
-    const v1, 0x7f0804db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->cyan_blue_btn_selector:I
 
     .line 57
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -2690,12 +2690,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1203ea
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_discard_edit:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1203d2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_cut_img_tip:I
 
     .line 3
     :goto_0
@@ -2706,12 +2706,12 @@
 
     invoke-direct {v1, p0, v0}, Lu0b$e;-><init>(Lu0b;Lhd3;)V
 
-    const v2, 0x7f1203e9
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2754,7 +2754,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00fb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_selected_translate_language:I
 
     const/4 v2, 0x0
 
@@ -2766,7 +2766,7 @@
 
     check-cast v7, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b27e1
+    sget v0, Lcom/resouce/module/ResID;->rb_simplified_chinese:I
 
     .line 2
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2777,14 +2777,14 @@
 
     check-cast v8, Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b296a
+    sget v0, Lcom/resouce/module/ResID;->rl_simplified_chinese:I
 
     .line 3
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
-    const v0, 0x7f0b27d8
+    sget v0, Lcom/resouce/module/ResID;->rb_chinese_traditional:I
 
     .line 4
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2795,14 +2795,14 @@
 
     check-cast v10, Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b293e
+    sget v0, Lcom/resouce/module/ResID;->rl_chinese_traditional:I
 
     .line 5
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
-    const v0, 0x7f0b27dc
+    sget v0, Lcom/resouce/module/ResID;->rb_english:I
 
     .line 6
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2813,7 +2813,7 @@
 
     check-cast v12, Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b2949
+    sget v0, Lcom/resouce/module/ResID;->rl_english:I
 
     .line 7
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2862,7 +2862,7 @@
     .line 15
     iget-object v0, v6, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120479
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_recognize_language:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3270,7 +3270,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f010037
+    sget v0, Lcom/resouce/module/ResANIM;->doc_scan_top_bar_appear:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3301,7 +3301,7 @@
     :cond_3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f010038
+    sget v0, Lcom/resouce/module/ResANIM;->doc_scan_top_bar_dismiss:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

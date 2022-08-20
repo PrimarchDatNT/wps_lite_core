@@ -36,7 +36,7 @@
 
     if-eqz p0, :cond_2
 
-    const p0, 0x7f0b0680
+    sget p0, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 1
     invoke-virtual {p1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     :catch_0
     :cond_1
-    const p1, 0x7f081065
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_crash_activity_layout_cardview_bg:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -108,7 +108,7 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f0b0680
+    sget p0, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 1
     invoke-virtual {p1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

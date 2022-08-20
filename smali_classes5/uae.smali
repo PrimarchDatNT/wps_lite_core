@@ -89,14 +89,14 @@
 
     iput-object p2, p0, Luae;->a:Landroid/content/Context;
 
-    const p2, 0x7f0b2bd3
+    sget p2, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    const v0, 0x7f0b2fe1
+    sget v0, Lcom/resouce/module/ResID;->title_bar_edit:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b1785
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

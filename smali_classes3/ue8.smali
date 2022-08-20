@@ -522,7 +522,7 @@
     .line 5
     iget-object v2, p0, Lue8;->a:Landroid/app/Activity;
 
-    const v3, 0x7f120201
+    sget v3, Lcom/resouce/module/ResSTRING;->batch_rename_file_without_rename_permission_toast:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -562,7 +562,7 @@
     .line 9
     iget-object p1, p0, Lue8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1201fd
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_selected_file_without_rename_permission_toast:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -615,7 +615,7 @@
     :cond_1
     iget-object p1, p0, Lue8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

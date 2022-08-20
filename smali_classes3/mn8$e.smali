@@ -89,14 +89,14 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122ac3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_noenough_space:I
 
     .line 6
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p1
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v1, Lmn8$e$a;
 
@@ -142,7 +142,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120e68
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -156,7 +156,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122ac2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_network_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

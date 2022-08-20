@@ -151,7 +151,7 @@
 .method public final c()V
     .locals 3
 
-    const v0, 0x7f1203de
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_collection_data_url:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/IntentService;->getString(I)Ljava/lang/String;

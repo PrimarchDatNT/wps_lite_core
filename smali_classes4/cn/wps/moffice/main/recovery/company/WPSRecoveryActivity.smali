@@ -134,13 +134,13 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f04067a
+    sget v2, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/common/beans/phone/AlphaImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     iput-object v0, p0, Lcn/wps/moffice/main/recovery/company/WPSRecoveryActivity;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f08170c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_help:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -350,7 +350,7 @@
 
     invoke-virtual {v5, v4}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    const v5, 0x7f120577
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     const/high16 v6, 0x41800000    # 16.0f
 
@@ -390,7 +390,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f1203d3
+    sget v7, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -416,7 +416,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f1228d7
+    sget v7, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -830,7 +830,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122811
+    sget p1, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

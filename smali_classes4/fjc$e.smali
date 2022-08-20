@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12173c
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_file_converting_please_wait:I
 
     const/4 v1, 0x0
 

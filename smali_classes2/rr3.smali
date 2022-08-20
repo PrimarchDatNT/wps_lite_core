@@ -57,7 +57,7 @@
 
     if-eqz p1, :cond_0
 
-    const p0, 0x7f121c1e
+    sget p0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_unsupport:I
 
     .line 2
     invoke-static {p1, p0, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;

@@ -200,7 +200,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c3c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_search_file:I
 
     .line 7
     invoke-virtual {p0, v1}, Licb;->h(I)Ljava/lang/String;
@@ -222,7 +222,7 @@
 
     iget-object v1, p0, Licb;->c:Landroid/content/Context;
 
-    const v3, 0x7f081e22
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->shortcut_search_icon:I
 
     .line 9
     invoke-static {v1, v3}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
@@ -310,7 +310,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12251b    # 1.9425995E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     .line 8
     invoke-virtual {p0, v1}, Licb;->h(I)Ljava/lang/String;
@@ -332,7 +332,7 @@
 
     iget-object v1, p0, Licb;->c:Landroid/content/Context;
 
-    const v3, 0x7f081e1f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->shortcut_doc:I
 
     .line 10
     invoke-static {v1, v3}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
@@ -427,7 +427,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12251b    # 1.9425995E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     .line 9
     invoke-virtual {p0, v1}, Licb;->h(I)Ljava/lang/String;
@@ -449,7 +449,7 @@
 
     iget-object v1, p0, Licb;->c:Landroid/content/Context;
 
-    const v3, 0x7f081e1f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->shortcut_doc:I
 
     .line 11
     invoke-static {v1, v3}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
@@ -532,7 +532,7 @@
 
     invoke-direct {v1, v3, v2}, Landroid/content/pm/ShortcutInfo$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const v3, 0x7f1204a7
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     .line 7
     invoke-virtual {p0, v3}, Licb;->h(I)Ljava/lang/String;
@@ -554,7 +554,7 @@
 
     iget-object v3, p0, Licb;->c:Landroid/content/Context;
 
-    const v4, 0x7f081e20
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->shortcut_doc_scanner_icon:I
 
     .line 9
     invoke-static {v3, v4}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
@@ -619,7 +619,7 @@
     :cond_0
     const-class v0, Lcn/wps/moffice/main/local/filebrowser/search/home/SearchActivity;
 
-    const v1, 0x7f1225cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_oversea_search_hint:I
 
     .line 3
     new-instance v2, Landroid/content/Intent;
@@ -695,7 +695,7 @@
 
     iget-object v1, p0, Licb;->c:Landroid/content/Context;
 
-    const v3, 0x7f081e22
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->shortcut_search_icon:I
 
     .line 13
     invoke-static {v1, v3}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;
@@ -789,7 +789,7 @@
 
     invoke-direct {v1, v3, v2}, Landroid/content/pm/ShortcutInfo$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const v3, 0x7f121bf5
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     .line 7
     invoke-virtual {p0, v3}, Licb;->h(I)Ljava/lang/String;
@@ -811,7 +811,7 @@
 
     iget-object v3, p0, Licb;->c:Landroid/content/Context;
 
-    const v4, 0x7f081e21
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->shortcut_meeting_icon:I
 
     .line 9
     invoke-static {v3, v4}, Landroid/graphics/drawable/Icon;->createWithResource(Landroid/content/Context;I)Landroid/graphics/drawable/Icon;

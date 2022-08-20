@@ -61,7 +61,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/main/PreProcessActivity$f;->I:Landroid/app/Activity;
 
-    const v0, 0x7f120d06
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_noopen_subject_zh:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -76,7 +76,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/main/PreProcessActivity$f;->I:Landroid/app/Activity;
 
-    const v0, 0x7f120cf8
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

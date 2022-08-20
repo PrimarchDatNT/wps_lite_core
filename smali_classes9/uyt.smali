@@ -460,28 +460,28 @@
 
     invoke-direct {v1, v2}, Lsyt;-><init>(Lx0u;)V
 
-    const v2, 0x7f06010e
+    sget v2, Lcom/resouce/module/ResCOLOR;->design_fab_stroke_top_outer_color:I
 
     .line 3
     invoke-static {v0, v2}, Lu6;->d(Landroid/content/Context;I)I
 
     move-result v2
 
-    const v3, 0x7f06010d
+    sget v3, Lcom/resouce/module/ResCOLOR;->design_fab_stroke_top_inner_color:I
 
     .line 4
     invoke-static {v0, v3}, Lu6;->d(Landroid/content/Context;I)I
 
     move-result v3
 
-    const v4, 0x7f06010b
+    sget v4, Lcom/resouce/module/ResCOLOR;->design_fab_stroke_end_inner_color:I
 
     .line 5
     invoke-static {v0, v4}, Lu6;->d(Landroid/content/Context;I)I
 
     move-result v4
 
-    const v5, 0x7f06010c
+    sget v5, Lcom/resouce/module/ResCOLOR;->design_fab_stroke_end_outer_color:I
 
     .line 6
     invoke-static {v0, v5}, Lu6;->d(Landroid/content/Context;I)I

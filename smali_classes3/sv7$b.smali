@@ -118,7 +118,7 @@
     .line 10
     iget-object p1, p0, Lsv7$b;->a:Landroid/app/Activity;
 
-    const p2, 0x7f122302
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_please_install_wechat:I
 
     const/4 v0, 0x0
 

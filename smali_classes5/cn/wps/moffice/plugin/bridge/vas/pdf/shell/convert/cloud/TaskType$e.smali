@@ -71,7 +71,7 @@
 .method public getFailedMsg()I
     .locals 1
 
-    const v0, 0x7f1220ce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_cad_to_pdf_failure:I
 
     return v0
 .end method

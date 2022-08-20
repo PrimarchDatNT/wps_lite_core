@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity$5;->this$0:Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity;
 
-    const v1, 0x7f121c0f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_error_access_code_tip:I
 
     const/4 v2, 0x0
 

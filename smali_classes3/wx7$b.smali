@@ -80,7 +80,7 @@
 
     iget-object p1, p1, Lvx7;->U:Landroid/app/Activity;
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     const/4 v1, 0x0
 

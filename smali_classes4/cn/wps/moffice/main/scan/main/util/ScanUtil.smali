@@ -3155,7 +3155,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1203e4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3167,7 +3167,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f1214c2
+    sget p1, Lcom/resouce/module/ResSTRING;->ocr_img_convert_not_support_format:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

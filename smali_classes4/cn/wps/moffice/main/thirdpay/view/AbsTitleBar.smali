@@ -89,13 +89,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b04
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_abs_titlebar:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0072
+    sget p1, Lcom/resouce/module/ResID;->action_icon_container:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/AbsTitleBar;->S:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b3024
+    sget p1, Lcom/resouce/module/ResID;->titlebar_custom_layout_container:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     const/4 v2, 0x0
 
@@ -172,7 +172,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0b2e7a
+    sget v4, Lcom/resouce/module/ResID;->tag_key_titlebar_icon_id:I
 
     .line 5
     invoke-virtual {v1, v4}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

@@ -853,7 +853,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cb0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_leftmenu:I
 
     const/4 v2, 0x0
 
@@ -861,7 +861,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b159c
+    sget v1, Lcom/resouce/module/ResID;->leftmenu_conent:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

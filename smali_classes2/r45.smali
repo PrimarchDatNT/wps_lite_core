@@ -248,7 +248,7 @@
 
     if-nez p0, :cond_3
 
-    const p0, 0x7f12240c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_loadDocumentCannotAccessSDCardError:I
 
     .line 12
     invoke-virtual {p1, p0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -1087,7 +1087,7 @@
     invoke-static {v0, v1}, Lyhh;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 16
     invoke-virtual {v14, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -1197,12 +1197,12 @@
 
     if-eqz v1, :cond_9
 
-    const v1, 0x7f1206e3
+    sget v1, Lcom/resouce/module/ResSTRING;->drag_and_drop_no_support_document:I
 
     goto :goto_1
 
     :cond_9
-    const v1, 0x7f1205f0
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     :goto_1
     invoke-virtual {v14, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -1435,7 +1435,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f12240c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentCannotAccessSDCardError:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -1562,7 +1562,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12240c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentCannotAccessSDCardError:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -1690,7 +1690,7 @@
 
     if-eqz v0, :cond_7
 
-    const v1, 0x7f01003d
+    sget v1, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 14
     invoke-virtual {v0, v1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -1994,7 +1994,7 @@
 
     if-eqz p1, :cond_6
 
-    const v1, 0x7f122330    # 1.9425E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hw_distributed_open_file_toast:I    # 1.9425E38f
 
     .line 5
     invoke-static {p0, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -2237,7 +2237,7 @@
     invoke-static {v0, v1}, Lyhh;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 8
     invoke-virtual {v13, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -2342,12 +2342,12 @@
 
     if-eqz v1, :cond_7
 
-    const v1, 0x7f1206e3
+    sget v1, Lcom/resouce/module/ResSTRING;->drag_and_drop_no_support_document:I
 
     goto :goto_1
 
     :cond_7
-    const v1, 0x7f1205f0
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     :goto_1
     invoke-virtual {v13, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -2660,11 +2660,11 @@
     if-eqz v3, :cond_4
 
     :cond_3
-    const p1, 0x7f1224f2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_multidex_error:I
 
     new-array p2, v1, [Ljava/lang/Object;
 
-    const v0, 0x7f121d3e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3134,7 +3134,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 p2, 0x0
 
@@ -3614,12 +3614,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f1206e3
+    sget v0, Lcom/resouce/module/ResSTRING;->drag_and_drop_no_support_document:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f1205f0
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     :goto_1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;

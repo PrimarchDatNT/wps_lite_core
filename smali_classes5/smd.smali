@@ -42,9 +42,9 @@
     .line 4
     new-instance v0, Lsmd$d;
 
-    const v1, 0x7f0802a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
-    const v2, 0x7f121995
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_rotate_screen:I
 
     invoke-direct {v0, p0, v1, v2}, Lsmd$d;-><init>(Lsmd;II)V
 

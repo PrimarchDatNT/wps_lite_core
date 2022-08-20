@@ -74,7 +74,7 @@
 
     if-nez v2, :cond_2
 
-    const p2, 0x7f1227e2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_recory_open_file_not_exist_tips:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -97,7 +97,7 @@
 
     move-result v2
 
-    const v3, 0x7f1227e1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recory_edit_not_save_tips:I
 
     if-eqz v2, :cond_3
 
@@ -167,7 +167,7 @@
 
     if-nez p2, :cond_6
 
-    const p2, 0x7f122c36
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_edit_not_exist_tips:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -177,7 +177,7 @@
     goto :goto_1
 
     :cond_6
-    const p2, 0x7f122c37
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_edit_not_save_tips:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -276,7 +276,7 @@
     .line 7
     invoke-static {}, Ls08;->f()V
 
-    const p2, 0x7f122c36
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_edit_not_exist_tips:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

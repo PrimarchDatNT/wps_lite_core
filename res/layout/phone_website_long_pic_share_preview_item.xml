@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.website.internal.long_pic.PreviewPageView android:layout_gravity="center" android:id="@id/website_long_pic_share_preview_item_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

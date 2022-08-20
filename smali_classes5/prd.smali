@@ -16,7 +16,7 @@
     .line 1
     invoke-direct {p0}, Lmrd;-><init>()V
 
-    const v0, 0x7f0b231a
+    sget v0, Lcom/resouce/module/ResID;->ppt_mode_container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
     :cond_0
     iget-object v0, p0, Lprd;->e:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a73
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_drawarea_editmode:I
 
     iget-object v2, p0, Lprd;->d:Landroid/view/ViewGroup;
 
@@ -171,7 +171,7 @@
     :cond_0
     iget-object v0, p0, Lprd;->e:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a76
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_drawarea_readmode:I
 
     iget-object v2, p0, Lprd;->d:Landroid/view/ViewGroup;
 
@@ -201,7 +201,7 @@
     .line 2
     iget-object v0, p0, Lprd;->e:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0a74
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_drawarea_playmode:I
 
     iget-object v3, p0, Lprd;->d:Landroid/view/ViewGroup;
 
@@ -219,7 +219,7 @@
     :cond_0
     iget-object v0, p0, Lprd;->e:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0a75
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_drawarea_playmode_pad:I
 
     iget-object v3, p0, Lprd;->d:Landroid/view/ViewGroup;
 

@@ -85,7 +85,7 @@
 
     sget-object v4, Lz56;->T:Lz56;
 
-    const v5, 0x7f080f6d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pad_pub_new_file_word:I
 
     invoke-direct {v3, v4, v5}, Le8a$c;-><init>(Lz56;I)V
 
@@ -96,7 +96,7 @@
 
     sget-object v4, Lz56;->I:Lz56;
 
-    const v5, 0x7f080f6c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pad_pub_new_file_ppt:I
 
     invoke-direct {v3, v4, v5}, Le8a$c;-><init>(Lz56;I)V
 
@@ -107,7 +107,7 @@
 
     sget-object v4, Lz56;->B:Lz56;
 
-    const v5, 0x7f080f6e
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pad_pub_new_file_xls:I
 
     invoke-direct {v3, v4, v5}, Le8a$c;-><init>(Lz56;I)V
 
@@ -134,7 +134,7 @@
 
     sget-object v4, Lz56;->W:Lz56;
 
-    const v5, 0x7f080f6b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pad_pub_new_file_pdf:I
 
     invoke-direct {v3, v4, v5}, Le8a$c;-><init>(Lz56;I)V
 
@@ -159,15 +159,15 @@
 
     aput-object v2, v1, v5
 
-    const v1, 0x7f080fad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_template_0:I
 
     aput v1, v0, v3
 
-    const v1, 0x7f080fae
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_template_1:I
 
     aput v1, v0, v4
 
-    const v1, 0x7f080faf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_template_2:I
 
     aput v1, v0, v5
 
@@ -203,7 +203,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e05bd
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_public_new_document_layout:I
 
     .line 7
     invoke-virtual {v3, v4, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     iput-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v4, 0x7f0b1684
+    sget v4, Lcom/resouce/module/ResID;->ll_hot_template:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
     .line 10
     iget-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v4, 0x7f0b0151
+    sget v4, Lcom/resouce/module/ResID;->apps_layout:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
     .line 13
     iget-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v4, 0x7f0b1c60
+    sget v4, Lcom/resouce/module/ResID;->paddinglayout:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
     .line 14
     iget-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v4, 0x7f0b06cb
+    sget v4, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -298,7 +298,7 @@
     .line 15
     iget-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v4, 0x7f0b0f45
+    sget v4, Lcom/resouce/module/ResID;->grid_view:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,7 +313,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070b97
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_pad_new_document_item_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -338,7 +338,7 @@
     .line 19
     iget-object v1, p0, Le8a;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2ecd
+    sget v2, Lcom/resouce/module/ResID;->template_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -353,14 +353,14 @@
 
     if-ge v2, v4, :cond_1
 
-    const v4, 0x7f0e05be
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_public_new_document_local_item:I
 
     .line 20
     invoke-virtual {v3, v4, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b2dd2    # 1.850006E38f
+    sget v5, Lcom/resouce/module/ResID;->subject_item_image:I    # 1.850006E38f
 
     .line 21
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -379,7 +379,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060044
+    sget v7, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -392,7 +392,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0703a3
+    sget v7, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -407,7 +407,7 @@
 
     invoke-virtual {v5, v6}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
-    const v5, 0x7f0b13d2
+    sget v5, Lcom/resouce/module/ResID;->item_name:I
 
     .line 26
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -830,7 +830,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070b99
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_new_document_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -843,7 +843,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b98
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_pad_new_document_line_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

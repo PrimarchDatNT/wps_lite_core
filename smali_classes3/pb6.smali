@@ -226,7 +226,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0f00
+    sget p3, Lcom/resouce/module/ResLAYOUT;->scene_item_layout:I
 
     const/4 v0, 0x0
 
@@ -234,7 +234,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b2a1a
+    sget p3, Lcom/resouce/module/ResID;->scene_gv:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     check-cast p3, Landroid/widget/GridView;
 
-    const v0, 0x7f0b2a1c
+    sget v0, Lcom/resouce/module/ResID;->scene_title_tv:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

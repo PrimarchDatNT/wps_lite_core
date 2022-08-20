@@ -342,7 +342,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081da8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->search_webview_grey_progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -392,7 +392,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122f4d
+    sget v3, Lcom/resouce/module/ResSTRING;->skill_search_webview_url:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

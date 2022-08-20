@@ -128,7 +128,7 @@
 
     iget-object v1, v1, Lkh6;->B:Ljava/util/List;
 
-    const v2, 0x7f0e02ba
+    sget v2, Lcom/resouce/module/ResLAYOUT;->guide_app_recomend_item:I
 
     sget v3, Llh6;->c:I
 

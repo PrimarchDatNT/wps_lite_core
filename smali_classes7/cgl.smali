@@ -441,7 +441,7 @@
 .method public final r2()V
     .locals 5
 
-    const v0, 0x7f0e09ee
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_number_more:I
 
     const/4 v1, 0x0
 
@@ -461,7 +461,7 @@
 
     iput-object v1, p0, Lcgl;->d0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f1223be
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     .line 3
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -479,7 +479,7 @@
     .line 6
     iget-object v0, p0, Lcgl;->d0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -506,7 +506,7 @@
     :goto_0
     if-ge v0, v1, :cond_2
 
-    const v2, 0x7f0b21d4
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_number_symbol7:I
 
     .line 10
     sget-object v3, Lcgl;->i0:[I
@@ -515,7 +515,7 @@
 
     if-eq v2, v4, :cond_1
 
-    const v2, 0x7f0b21d6
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_number_symbol_none:I
 
     aget v4, v3, v0
 
@@ -536,7 +536,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b21ca
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_number_number7:I
 
     .line 12
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

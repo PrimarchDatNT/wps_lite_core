@@ -403,7 +403,7 @@
     .line 27
     iget-object p2, p1, Lwfb$e;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f121379
+    sget v1, Lcom/resouce/module/ResSTRING;->login_to_share_sync_and_collaborate:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -480,7 +480,7 @@
     .line 35
     iget-object p2, p1, Lwfb$e;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f120088
+    sget v1, Lcom/resouce/module/ResSTRING;->add_more_cloud_disks:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -551,7 +551,7 @@
     .line 43
     iget-object p2, p1, Lwfb$e;->m0:Landroid/widget/ImageView;
 
-    const v2, 0x7f081625
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_more_android:I
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -629,7 +629,7 @@
     .line 52
     iget-object p2, p1, Lwfb$e;->l0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08080c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_could_add:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -651,7 +651,7 @@
     .line 56
     iget-object p2, p1, Lwfb$e;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f12137a
+    sget v1, Lcom/resouce/module/ResSTRING;->login_to_view_or_edit_files:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -729,7 +729,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0310
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_files_item_rectangle:I
 
     const/4 v1, 0x0
 

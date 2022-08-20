@@ -158,7 +158,7 @@
 
     iput-object p1, p0, Lvpl;->z0:Lzpl;
 
-    const v0, 0x7f0b0d83
+    sget v0, Lcom/resouce/module/ResID;->find_matchcase:I
 
     .line 15
     invoke-virtual {p1, v0}, Lrzl;->Z0(I)Landroid/view/View;
@@ -172,7 +172,7 @@
     .line 16
     iget-object p1, p0, Lvpl;->z0:Lzpl;
 
-    const v0, 0x7f0b0d84
+    sget v0, Lcom/resouce/module/ResID;->find_matchword:I
 
     invoke-virtual {p1, v0}, Lrzl;->Z0(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1233be
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_mi_search_empty:I
 
     const/4 v0, 0x0
 
@@ -697,7 +697,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e1037
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_searchreplace:I
 
     const/4 v1, 0x0
 
@@ -725,7 +725,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e1036
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_search:I
 
     const/4 v1, 0x0
 
@@ -1258,7 +1258,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b21d8
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_padding_top:I
 
     if-eqz p1, :cond_1
 
@@ -1320,7 +1320,7 @@
 
     iput-object p1, p0, Lvpl;->B0:Landroid/view/View;
 
-    const p1, 0x7f0b21b8
+    sget p1, Lcom/resouce/module/ResID;->phone_writer_mainsearchpanel:I
 
     .line 10
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1345,7 +1345,7 @@
     invoke-static {p1}, Lxih;->P(Landroid/view/View;)V
 
     :cond_3
-    const p1, 0x7f0b02bc
+    sget p1, Lcom/resouce/module/ResID;->btn_back:I
 
     .line 14
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1354,7 +1354,7 @@
 
     iput-object p1, p0, Lvpl;->f0:Landroid/view/View;
 
-    const p1, 0x7f0b2a5c
+    sget p1, Lcom/resouce/module/ResID;->search_btn_advanced:I
 
     .line 15
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1365,7 +1365,7 @@
 
     iput-object p1, p0, Lvpl;->g0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2a99
+    sget p1, Lcom/resouce/module/ResID;->search_panel:I
 
     .line 16
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1376,7 +1376,7 @@
 
     iput-object p1, p0, Lvpl;->l0:Landroid/view/View;
 
-    const p1, 0x7f0b2a44
+    sget p1, Lcom/resouce/module/ResID;->searchBtn:I
 
     .line 17
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1385,7 +1385,7 @@
 
     iput-object p1, p0, Lvpl;->i0:Landroid/view/View;
 
-    const p1, 0x7f0b0421
+    sget p1, Lcom/resouce/module/ResID;->cleansearch:I
 
     .line 18
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1394,7 +1394,7 @@
 
     iput-object p1, p0, Lvpl;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b2a86
+    sget p1, Lcom/resouce/module/ResID;->search_input:I
 
     .line 19
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1459,7 +1459,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f0b2e28
+    sget p1, Lcom/resouce/module/ResID;->tab_search_replace:I
 
     .line 30
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1487,7 +1487,7 @@
     .line 33
     iget-object p1, p0, Lvpl;->r0:Lcn/wps/moffice/common/beans/TabNavigationBarLR;
 
-    const v0, 0x7f122856
+    sget v0, Lcom/resouce/module/ResSTRING;->public_search:I
 
     new-instance v1, Lvpl$w;
 
@@ -1498,7 +1498,7 @@
     .line 34
     iget-object p1, p0, Lvpl;->r0:Lcn/wps/moffice/common/beans/TabNavigationBarLR;
 
-    const v0, 0x7f1227f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     new-instance v1, Lvpl$x;
 
@@ -1506,7 +1506,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setRightButtonOnClickListener(ILandroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b28a7
+    sget p1, Lcom/resouce/module/ResID;->replace_panel:I
 
     .line 35
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1520,7 +1520,7 @@
     .line 36
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b28a4
+    sget p1, Lcom/resouce/module/ResID;->replaceBtn:I
 
     .line 37
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1529,7 +1529,7 @@
 
     iput-object p1, p0, Lvpl;->t0:Landroid/view/View;
 
-    const p1, 0x7f0b0420
+    sget p1, Lcom/resouce/module/ResID;->cleanreplace:I
 
     .line 38
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1538,7 +1538,7 @@
 
     iput-object p1, p0, Lvpl;->u0:Landroid/view/View;
 
-    const p1, 0x7f0b28a9
+    sget p1, Lcom/resouce/module/ResID;->replace_text:I
 
     .line 39
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1582,7 +1582,7 @@
     invoke-virtual {p1, v0}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     :cond_4
-    const p1, 0x7f0b00d0
+    sget p1, Lcom/resouce/module/ResID;->advancesearch_bar:I
 
     .line 44
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1591,7 +1591,7 @@
 
     iput-object p1, p0, Lvpl;->E0:Landroid/view/View;
 
-    const p1, 0x7f0b2a9a
+    sget p1, Lcom/resouce/module/ResID;->search_pic:I
 
     .line 45
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1600,7 +1600,7 @@
 
     iput-object p1, p0, Lvpl;->F0:Landroid/view/View;
 
-    const p1, 0x7f0b2a78
+    sget p1, Lcom/resouce/module/ResID;->search_highlight:I
 
     .line 46
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1789,7 +1789,7 @@
     .line 2
     new-instance v0, Lpck;
 
-    const v1, 0x7f0e09e9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_mi_search:I
 
     const/4 v2, 0x0
 

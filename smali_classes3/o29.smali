@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2057
+    sget v0, Lcom/resouce/module/ResID;->phone_listview_sticky_title_textview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,12 +122,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e013b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->documents_files_item_tag:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0722
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_listview_item_tag:I
 
     return v0
 .end method

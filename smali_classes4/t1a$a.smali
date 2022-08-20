@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0, p1}, Lkz9$c;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b13ee
+    sget v0, Lcom/resouce/module/ResID;->item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lt1a$a;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b13b4
+    sget v0, Lcom/resouce/module/ResID;->item_description:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b286a
+    sget v0, Lcom/resouce/module/ResID;->red_point:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     iput-object v0, p0, Lt1a$a;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b0fe8
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

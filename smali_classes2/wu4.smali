@@ -21,7 +21,7 @@
 .method public constructor <init>(Lcn/wps/moffice/common/beans/OnResultActivity;)V
     .locals 2
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lm76;-><init>(Landroid/content/Context;I)V
@@ -667,7 +667,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_file_too_large:I
 
     const/4 v2, 0x0
 
@@ -724,7 +724,7 @@
 
     iget-object v1, p0, Lm76;->X:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e030b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_feedback_item:I
 
     const/4 v3, 0x0
 
@@ -732,7 +732,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c9b
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -748,7 +748,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0c99
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_delete:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -829,7 +829,7 @@
     .line 2
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0c9a
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_scroller:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -845,7 +845,7 @@
     .line 4
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0c9c
+    sget v2, Lcom/resouce/module/ResID;->feedback_file_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

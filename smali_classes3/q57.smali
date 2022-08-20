@@ -80,7 +80,7 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    const v0, 0x7f121f71
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit_cooperation_label:I
 
     goto :goto_1
 
@@ -90,7 +90,7 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    const p1, 0x7f080230
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_kdocs_logo:I
 
     goto :goto_2
 
@@ -98,9 +98,9 @@
     const/4 p1, 0x0
 
     :goto_2
-    const v2, 0x7f080226
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_edit:I
 
-    const v3, 0x7f121f70
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit:I
 
     .line 5
     invoke-static {v2, v3, v0, p1, v1}, Ldi9;->v(IIIIZ)Ldi9$f;

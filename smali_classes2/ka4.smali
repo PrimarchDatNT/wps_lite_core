@@ -123,7 +123,7 @@
 .method public constructor <init>(Landroid/content/Context;Lie5$a;Lba4;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 2
     invoke-direct {p0, p1, v0, p2, p3}, Lka4;-><init>(Landroid/content/Context;ILie5$a;Lba4;)V
@@ -354,12 +354,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e089e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_insert_pic_preview_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05b3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_insert_pic_preview_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -371,7 +371,7 @@
 
     iput-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2657
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_preview_titlebar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
     .line 5
     iget-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b264d
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
     .line 6
     iget-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2656
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_preview_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -409,7 +409,7 @@
     .line 7
     iget-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2655
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_preview_bottom_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
     .line 8
     iget-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2653
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
     .line 9
     iget-object v0, p0, Lka4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2658
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_preview_viewpager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

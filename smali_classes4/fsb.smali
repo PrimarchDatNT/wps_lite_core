@@ -156,7 +156,7 @@
     .line 1
     iget-object p2, p0, Lfsb;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0d6b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pay_dialog_listview_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -167,7 +167,7 @@
 
     invoke-direct {p3}, Lfsb$a;-><init>()V
 
-    const v1, 0x7f0b128b
+    sget v1, Lcom/resouce/module/ResID;->image_payment_icon:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     iput-object v1, p3, Lfsb$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2f2c
+    sget v1, Lcom/resouce/module/ResID;->text_payment_title:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     iput-object v1, p3, Lfsb$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f26    # 1.850075E38f
+    sget v1, Lcom/resouce/module/ResID;->text_payment_desc:I    # 1.850075E38f
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0819c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 12
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -303,7 +303,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -354,7 +354,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

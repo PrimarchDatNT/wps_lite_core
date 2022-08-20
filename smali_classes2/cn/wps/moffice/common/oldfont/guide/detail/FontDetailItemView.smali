@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213e5
+    sget v1, Lcom/resouce/module/ResSTRING;->missing_font_detail_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -426,7 +426,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -575,11 +575,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e026a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->font_func_missing_detail_item:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b18ab
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_preview_img:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -590,7 +590,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b18a2
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_download_img:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b189e
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_applied:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -608,7 +608,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->T:Landroid/view/View;
 
-    const v0, 0x7f0b18a6
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_item_name:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -619,7 +619,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b18a7
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_item_size:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -630,7 +630,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b18a5
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_item_more:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -639,7 +639,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->U:Landroid/view/View;
 
-    const v0, 0x7f0b18ac
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_progress:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -650,7 +650,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailItemView;->B:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v0, 0x7f0b18b0
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_vip_icon:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -720,7 +720,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b18a2
+    sget v4, Lcom/resouce/module/ResID;->missing_font_detail_download_img:I
 
     if-ne v0, v4, :cond_0
 
@@ -766,7 +766,7 @@
 
     move-result v0
 
-    const v4, 0x7f0b18a5
+    sget v4, Lcom/resouce/module/ResID;->missing_font_detail_item_more:I
 
     if-ne v0, v4, :cond_3
 
@@ -782,7 +782,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1213de
+    sget v0, Lcom/resouce/module/ResSTRING;->missing_font_detail_downloading:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 

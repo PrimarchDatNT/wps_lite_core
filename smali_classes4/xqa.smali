@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -406,7 +406,7 @@
     .line 3
     iget-object p2, p0, Lxqa;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0905
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_recover_file_item:I
 
     const/4 v2, 0x0
 
@@ -414,7 +414,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b13ac
+    sget p3, Lcom/resouce/module/ResID;->item_content:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -423,7 +423,7 @@
 
     iput-object p3, v1, Lxqa$e;->a:Landroid/view/View;
 
-    const p3, 0x7f0b0c7c
+    sget p3, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -434,7 +434,7 @@
 
     iput-object p3, v1, Lxqa$e;->b:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b0c83
+    sget p3, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -445,7 +445,7 @@
 
     iput-object p3, v1, Lxqa$e;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f0b0c7a
+    sget p3, Lcom/resouce/module/ResID;->fb_file_format_symbol:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
 
     iput-object p3, v1, Lxqa$e;->d:Landroid/widget/TextView;
 
-    const p3, 0x7f0b0c7d
+    sget p3, Lcom/resouce/module/ResID;->fb_file_last_modified_date_text:I
 
     .line 8
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
 
     iput-object p3, v1, Lxqa$e;->e:Landroid/widget/TextView;
 
-    const p3, 0x7f0b0c7e
+    sget p3, Lcom/resouce/module/ResID;->fb_file_last_modified_info_text:I
 
     .line 9
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object p3, v1, Lxqa$e;->f:Landroid/widget/TextView;
 
-    const p3, 0x7f0b14e0
+    sget p3, Lcom/resouce/module/ResID;->iv_vip_logo:I
 
     .line 10
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -489,7 +489,7 @@
 
     iput-object p3, v1, Lxqa$e;->o:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b1baf
+    sget p3, Lcom/resouce/module/ResID;->oversea_member_vip_tip:I
 
     .line 11
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -526,7 +526,7 @@
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setGravity(I)V
 
     :cond_1
-    const p3, 0x7f0b13a6
+    sget p3, Lcom/resouce/module/ResID;->item_checkbox:I
 
     .line 15
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
     invoke-virtual {p3, v0}, Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;->setAssociatedView(Landroid/view/View;)V
 
     :cond_2
-    const p3, 0x7f0b15b4
+    sget p3, Lcom/resouce/module/ResID;->limit_free_tv:I
 
     .line 18
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     iput-object p3, v1, Lxqa$e;->h:Landroid/view/View;
 
-    const p3, 0x7f0b1853
+    sget p3, Lcom/resouce/module/ResID;->member_tips:I
 
     .line 19
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     iput-object p3, v1, Lxqa$e;->i:Landroid/view/View;
 
-    const p3, 0x7f0b2b26
+    sget p3, Lcom/resouce/module/ResID;->separator_view:I
 
     .line 20
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     iput-object p3, v1, Lxqa$e;->j:Landroid/view/View;
 
-    const p3, 0x7f0b1854
+    sget p3, Lcom/resouce/module/ResID;->member_upgrade:I
 
     .line 21
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -590,7 +590,7 @@
 
     iput-object p3, v1, Lxqa$e;->k:Landroid/widget/TextView;
 
-    const p3, 0x7f0b310f
+    sget p3, Lcom/resouce/module/ResID;->tv_banner:I
 
     .line 22
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -601,7 +601,7 @@
 
     iput-object p3, v1, Lxqa$e;->l:Landroid/widget/TextView;
 
-    const p3, 0x7f0b01ec
+    sget p3, Lcom/resouce/module/ResID;->banner_layout:I
 
     .line 23
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -612,7 +612,7 @@
 
     iput-object p3, v1, Lxqa$e;->m:Landroid/widget/LinearLayout;
 
-    const p3, 0x7f0b1855
+    sget p3, Lcom/resouce/module/ResID;->member_vip_tip:I
 
     .line 24
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -793,7 +793,7 @@
     .line 8
     iget-object v0, p1, Lxqa$e;->g:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081fcc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -803,7 +803,7 @@
     :cond_2
     iget-object v0, p1, Lxqa$e;->g:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081626    # 1.8089E38f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -886,7 +886,7 @@
     .line 8
     iget-object p2, p0, Lxqa;->B:Landroid/content/Context;
 
-    const v0, 0x7f122e07
+    sget v0, Lcom/resouce/module/ResSTRING;->recovery_banner_tips:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -965,7 +965,7 @@
     :cond_3
     sget-object v3, Lwqa$b;->U:Lwqa$b;
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     if-ne v1, v3, :cond_8
 
@@ -1060,7 +1060,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1175,7 +1175,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1201,7 +1201,7 @@
     .line 43
     iget-object v0, p1, Lxqa$e;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f1220cb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_failure:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1217,7 +1217,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1250,7 +1250,7 @@
     .line 47
     iget-object v0, p1, Lxqa$e;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f122149
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_recovered:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1285,7 +1285,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

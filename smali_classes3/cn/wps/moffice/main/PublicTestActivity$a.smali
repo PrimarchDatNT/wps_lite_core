@@ -45,7 +45,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1226a6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_select_account:I
 
     .line 2
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -55,7 +55,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/PublicTestActivity$a$a;-><init>(Lcn/wps/moffice/main/PublicTestActivity$a;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -64,7 +64,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/PublicTestActivity$a$b;-><init>(Lcn/wps/moffice/main/PublicTestActivity$a;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

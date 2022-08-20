@@ -53,7 +53,7 @@
 
     const-string v5, "button_click"
 
-    const v6, 0x7f0b20ab
+    sget v6, Lcom/resouce/module/ResID;->phone_projection_to_wifi:I
 
     if-ne v0, v6, :cond_0
 
@@ -113,7 +113,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b20a9
+    sget v0, Lcom/resouce/module/ResID;->phone_projection_scan:I
 
     if-ne p1, v0, :cond_1
 

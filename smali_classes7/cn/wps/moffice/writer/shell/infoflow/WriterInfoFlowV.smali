@@ -112,7 +112,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060538
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_doc_background_color:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -659,7 +659,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081d3a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->read_mode_doc_end_shade:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -992,7 +992,7 @@
     .line 6
     iput-object p3, p0, Lcn/wps/moffice/writer/shell/infoflow/WriterInfoFlowV;->h0:Lj4l;
 
-    const p1, 0x7f0b2f12
+    sget p1, Lcom/resouce/module/ResID;->text_editor:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1043,7 +1043,7 @@
 
     invoke-virtual {p1, p2}, Lzdk;->Y(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f0b27eb
+    sget p1, Lcom/resouce/module/ResID;->read_doc_shadow:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

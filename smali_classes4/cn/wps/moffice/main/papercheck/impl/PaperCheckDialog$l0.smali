@@ -76,7 +76,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121649
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_verify_empty_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

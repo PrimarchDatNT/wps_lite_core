@@ -93,7 +93,7 @@
 
     iget-object p1, p1, Lr6e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1226cc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_file_with_plain_watermark:I
 
     goto :goto_1
 
@@ -102,7 +102,7 @@
 
     iget-object p1, p1, Lr6e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1226cd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_file_without_plain_watermark:I
 
     :goto_1
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

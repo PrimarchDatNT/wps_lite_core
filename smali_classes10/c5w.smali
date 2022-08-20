@@ -51,7 +51,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f32
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_wps_skill_articel_item_layout:I
 
     const/4 v1, 0x0
 
@@ -61,7 +61,7 @@
 
     iput-object p1, p0, Lc5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b349e
+    sget p2, Lcom/resouce/module/ResID;->wps_skill_article_name:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
     .line 4
     iget-object p1, p0, Lc5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b18c1
+    sget p2, Lcom/resouce/module/ResID;->model_divider_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -86,7 +86,7 @@
     .line 5
     iget-object p1, p0, Lc5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aac
+    sget p2, Lcom/resouce/module/ResID;->search_skill_date_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 6
     iget-object p1, p0, Lc5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aad
+    sget p2, Lcom/resouce/module/ResID;->search_skill_read_number:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

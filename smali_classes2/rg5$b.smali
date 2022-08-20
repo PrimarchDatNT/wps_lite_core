@@ -112,13 +112,13 @@
     .line 2
     iget-object v0, p0, Lrg5$b;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e00d3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dev_list_item:I
 
     invoke-virtual {v0, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p3
 
-    const v0, 0x7f0b2fd3
+    sget v0, Lcom/resouce/module/ResID;->titleTextView:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object v0, p2, Lrg5$d;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2daf    # 1.849999E38f
+    sget v0, Lcom/resouce/module/ResID;->statusTextView:I    # 1.849999E38f
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

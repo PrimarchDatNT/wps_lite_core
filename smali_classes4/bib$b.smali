@@ -83,7 +83,7 @@
 
     invoke-virtual {v0, p1, p2}, Lbib;->l(ILandroid/view/View;)V
 
-    const v0, 0x7f0b278f
+    sget v0, Lcom/resouce/module/ResID;->purchase_btn:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b2790
+    sget v1, Lcom/resouce/module/ResID;->purchase_desc_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b05ae
+    sget v2, Lcom/resouce/module/ResID;->coupon_tips_layout:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

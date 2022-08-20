@@ -36,7 +36,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120e79
+    sget v1, Lcom/resouce/module/ResSTRING;->home_app_more_recent_clear_desc:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -63,7 +63,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/local/home/phone/applicationv2/more/MoreAppActivity$b;-><init>(Landroid/app/Activity;)V
 
-    const v2, 0x7f120c69
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_clear:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -72,7 +72,7 @@
 
     invoke-direct {v1}, Lcn/wps/moffice/main/local/home/phone/applicationv2/more/MoreAppActivity$c;-><init>()V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -465,7 +465,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120f23
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_record_clear:I
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/more/MoreAppActivity$a;
 

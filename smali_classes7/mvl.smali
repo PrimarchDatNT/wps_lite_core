@@ -189,7 +189,7 @@
     .line 1
     invoke-virtual {p0, p1}, Luzl;->m2(Landroid/view/View;)V
 
-    const p1, 0x7f0b36ad
+    sget p1, Lcom/resouce/module/ResID;->writer_table_style_options_anchor:I
 
     .line 2
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     iput-object p1, p0, Lmvl;->g0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b36b1
+    sget p1, Lcom/resouce/module/ResID;->writer_table_style_preview_content:I
 
     .line 3
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -470,12 +470,12 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f0e1109
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_table_style_options_layout:I
 
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f0e0a20
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_style_options_layout:I
 
     :goto_1
     iget-object v5, p0, Lmvl;->g0:Landroid/widget/LinearLayout;
@@ -484,7 +484,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b36b0
+    sget v4, Lcom/resouce/module/ResID;->writer_table_style_options_layout_land_top:I
 
     .line 5
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -493,7 +493,7 @@
 
     check-cast v4, Landroid/widget/TableRow;
 
-    const v5, 0x7f0b36af
+    sget v5, Lcom/resouce/module/ResID;->writer_table_style_options_layout_land_middle:I
 
     .line 6
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -502,7 +502,7 @@
 
     check-cast v5, Landroid/widget/TableRow;
 
-    const v6, 0x7f0b36ae
+    sget v6, Lcom/resouce/module/ResID;->writer_table_style_options_layout_land_bottom:I
 
     .line 7
     invoke-virtual {v3, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1206,12 +1206,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e1108
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_table_style_options:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0a1f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_style_options:I
 
     :goto_0
     const/4 v1, 0x0
@@ -1234,7 +1234,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070c16
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_text_size_dip:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1288,7 +1288,7 @@
 .method public final z2()V
     .locals 4
 
-    const v0, 0x7f0b36b2
+    sget v0, Lcom/resouce/module/ResID;->writer_table_style_preview_group:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

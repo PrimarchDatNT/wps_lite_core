@@ -839,7 +839,7 @@
 .method public onInit(I)V
     .locals 4
 
-    const v0, 0x7f1230f4
+    sget v0, Lcom/resouce/module/ResSTRING;->tts_no_support:I
 
     const-string v1, "native_tts_tag"
 
@@ -883,7 +883,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1230f3
+    sget v0, Lcom/resouce/module/ResSTRING;->tts_engine_no_support:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

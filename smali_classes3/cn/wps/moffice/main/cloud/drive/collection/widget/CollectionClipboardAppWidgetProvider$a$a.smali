@@ -82,7 +82,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121e17
+    sget v0, Lcom/resouce/module/ResSTRING;->public_clipboard_cannot_support_text:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/cloud/drive/collection/widget/CollectionClipboardAppWidgetProvider$a;->I:Landroid/content/Context;
 
-    const v0, 0x7f121f0f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_collection_error_happen:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

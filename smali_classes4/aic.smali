@@ -48,7 +48,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -147,7 +147,7 @@
 .method public f(Landroid/content/Context;Ljava/lang/String;)V
     .locals 4
 
-    const v0, 0x7f12174a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_failure:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -236,7 +236,7 @@
 .method public h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
-    const v0, 0x7f12174b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_success:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -331,7 +331,7 @@
     goto :goto_0
 
     :cond_1
-    const p3, 0x7f122018
+    sget p3, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 5
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -358,7 +358,7 @@
 
     float-to-int p3, v0
 
-    const v0, 0x7f122030
+    sget v0, Lcom/resouce/module/ResSTRING;->public_downloading_percent:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -376,7 +376,7 @@
     goto :goto_0
 
     :cond_3
-    const p3, 0x7f121f66
+    sget p3, Lcom/resouce/module/ResSTRING;->public_converting:I
 
     .line 8
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -403,7 +403,7 @@
 
     float-to-int p3, v0
 
-    const v0, 0x7f122b3f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unloading_percent:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -421,7 +421,7 @@
     goto :goto_0
 
     :cond_5
-    const p3, 0x7f121790
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_state_committing:I
 
     .line 11
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

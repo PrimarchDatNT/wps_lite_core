@@ -488,7 +488,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121463
+    sget v0, Lcom/resouce/module/ResSTRING;->net_flow_control_vip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -504,7 +504,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121462
+    sget v0, Lcom/resouce/module/ResSTRING;->net_flow_control:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -70,7 +70,7 @@
 
     const/16 v10, 0x19
 
-    const v11, 0x7f122b46
+    sget v11, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/16 v12, 0x15
 
@@ -126,7 +126,7 @@
 
     if-nez v5, :cond_1
 
-    const v5, 0x7f122bc8
+    sget v5, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_limit:I
 
     .line 14
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -485,7 +485,7 @@
 
     :cond_e
     :goto_6
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 62
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -563,7 +563,7 @@
 
     :cond_11
     :goto_8
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 71
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -642,7 +642,7 @@
 
     if-eqz v15, :cond_14
 
-    const v0, 0x7f122720
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported_read_arrange_mode:I
 
     .line 81
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -659,7 +659,7 @@
 
     if-eqz v7, :cond_15
 
-    const v0, 0x7f12271d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported_arrange_mode:I
 
     .line 83
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -689,7 +689,7 @@
 
     :cond_16
     :goto_a
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 86
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -766,7 +766,7 @@
 
     :cond_1a
     :goto_c
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 95
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -781,7 +781,7 @@
 
     move-result v15
 
-    const v9, 0x7f1200bc
+    sget v9, Lcom/resouce/module/ResSTRING;->app_paper_composition_checking:I
 
     if-eqz v15, :cond_1f
 
@@ -850,7 +850,7 @@
 
     :cond_1e
     :goto_d
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 106
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -933,7 +933,7 @@
 
     :cond_22
     :goto_f
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 117
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1014,7 +1014,7 @@
 
     :cond_26
     :goto_11
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 128
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1090,7 +1090,7 @@
 
     :cond_2a
     :goto_13
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 138
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1170,7 +1170,7 @@
 
     :cond_2d
     :goto_15
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 147
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1250,7 +1250,7 @@
 
     :cond_30
     :goto_17
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 156
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1311,7 +1311,7 @@
     :cond_32
     if-eqz v5, :cond_33
 
-    const v0, 0x7f12271c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     .line 164
     invoke-static {v2, v0, v6}, Lbih;->n(Landroid/content/Context;II)V
@@ -1333,7 +1333,7 @@
 
     if-eqz v9, :cond_34
 
-    const v0, 0x7f122720
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported_read_arrange_mode:I
 
     .line 167
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1350,7 +1350,7 @@
 
     if-eqz v7, :cond_35
 
-    const v0, 0x7f12271d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported_arrange_mode:I
 
     .line 169
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1384,7 +1384,7 @@
 
     :cond_36
     :goto_19
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 172
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1469,7 +1469,7 @@
 
     :cond_3a
     :goto_1b
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 183
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1536,7 +1536,7 @@
 
     :cond_3d
     :goto_1d
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 191
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1605,7 +1605,7 @@
 
     :cond_40
     :goto_1f
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 199
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1717,7 +1717,7 @@
 
     :cond_43
     :goto_21
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 214
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1870,7 +1870,7 @@
 
     :cond_4b
     :goto_26
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 232
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -1960,7 +1960,7 @@
 
     :cond_4f
     :goto_28
-    const v0, 0x7f123436
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_unsupport_table_modify_tips:I
 
     .line 244
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V
@@ -2053,7 +2053,7 @@
 
     :cond_53
     :goto_2b
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 254
     invoke-static {v2, v0, v14}, Lbih;->n(Landroid/content/Context;II)V

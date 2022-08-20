@@ -258,7 +258,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e076a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_integralwalls_earnview_layout:I
 
     const/4 v2, 0x0
 
@@ -270,7 +270,7 @@
 
     iput-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07e2
+    sget v1, Lcom/resouce/module/ResID;->earn_recyclerview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -284,7 +284,7 @@
     .line 3
     iget-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07d9
+    sget v1, Lcom/resouce/module/ResID;->earn_cicle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -297,7 +297,7 @@
     .line 4
     iget-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1731
+    sget v1, Lcom/resouce/module/ResID;->loading_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 5
     iget-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1726
+    sget v1, Lcom/resouce/module/ResID;->loading_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 6
     iget-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07e4
+    sget v1, Lcom/resouce/module/ResID;->earn_view_credits_light:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 7
     iget-object v0, p0, Lyn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07e3
+    sget v1, Lcom/resouce/module/ResID;->earn_view_credits_contain:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
     .line 3
     iget-object p1, p0, Lyn8;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f1212d8
+    sget v0, Lcom/resouce/module/ResSTRING;->infoflow_loading:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -474,7 +474,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1206f4
+    sget v0, Lcom/resouce/module/ResSTRING;->earn_rewards_activity_title:I
 
     return v0
 .end method

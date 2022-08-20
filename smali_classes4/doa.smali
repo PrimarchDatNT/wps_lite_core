@@ -219,17 +219,17 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0e0567
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_prestart_page_landscape:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0568
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_prestart_page_portrait:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f0e0742
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_prestart_page:I
 
     return v0
 .end method
@@ -312,7 +312,7 @@
     .line 4
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0dcf
+    sget v1, Lcom/resouce/module/ResID;->flash_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
     .line 5
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0dce
+    sget v1, Lcom/resouce/module/ResID;->flash_view_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
     .line 6
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b3381
+    sget v1, Lcom/resouce/module/ResID;->videoplayview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 7
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2cc9
+    sget v1, Lcom/resouce/module/ResID;->splsh_ad_spread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -362,7 +362,7 @@
     .line 8
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2cc7
+    sget v1, Lcom/resouce/module/ResID;->splsh_ad_join_member_ship:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
     .line 9
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1105
+    sget v1, Lcom/resouce/module/ResID;->home_pad_splash_logo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -392,7 +392,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08087b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_pad_splash_logo_en:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -537,7 +537,7 @@
     :cond_0
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1104
+    sget v1, Lcom/resouce/module/ResID;->home_pad_splash_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -682,7 +682,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0829
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_prestart_splash_standby_layout:I
 
     const/4 v2, 0x0
 
@@ -696,7 +696,7 @@
     :cond_0
     iget-object v0, p0, Ldoa;->p:Landroid/view/View;
 
-    const v1, 0x7f0b17fb
+    sget v1, Lcom/resouce/module/ResID;->main_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -842,7 +842,7 @@
 
     iget-object v2, p0, Ldoa;->a:Landroid/app/Activity;
 
-    const v3, 0x7f1212da
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_media_adfrom:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -1105,7 +1105,7 @@
     .line 1
     iget-object v0, p0, Ldoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b18d6
+    sget v1, Lcom/resouce/module/ResID;->mopub_splash_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

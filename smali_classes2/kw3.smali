@@ -81,7 +81,7 @@
     .line 2
     iput-object p2, p0, Lkw3;->j:Ljw3$d;
 
-    const p2, 0x7f0b0d6f
+    sget p2, Lcom/resouce/module/ResID;->filter_imageView:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object p2, p0, Lkw3;->f:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b32dc
+    sget p2, Lcom/resouce/module/ResID;->type_name:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b13aa
+    sget p2, Lcom/resouce/module/ResID;->item_container:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,12 +309,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_1
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I

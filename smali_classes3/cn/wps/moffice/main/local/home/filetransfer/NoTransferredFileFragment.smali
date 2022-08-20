@@ -127,7 +127,7 @@
         .end annotation
     .end param
 
-    const p3, 0x7f0e0e91
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_transfer_empty_file_list_fragment:I
 
     const/4 v0, 0x0
 
@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0f85
+    sget p2, Lcom/resouce/module/ResID;->guide_text:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const p3, 0x7f0b0301
+    sget p3, Lcom/resouce/module/ResID;->btn_select_file:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

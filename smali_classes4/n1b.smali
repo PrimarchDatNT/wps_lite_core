@@ -407,7 +407,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120432
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_identified_pic:I
 
     return v0
 .end method
@@ -668,7 +668,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0af7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->prescan_export_document_layout:I
 
     const/4 v2, 0x0
 
@@ -691,7 +691,7 @@
     .line 4
     iget-object v0, p0, Ln1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f93
+    sget v1, Lcom/resouce/module/ResID;->gv_doc_scan_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -754,7 +754,7 @@
     .line 12
     iget-object v0, p0, Ln1b;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     new-instance v3, Ln1b$j;
 
@@ -781,7 +781,7 @@
     .line 15
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0563
+    sget v2, Lcom/resouce/module/ResID;->convertToTxtlayout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -792,7 +792,7 @@
     .line 16
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0566
+    sget v2, Lcom/resouce/module/ResID;->convert_distinguish_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -808,7 +808,7 @@
     .line 18
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f98
+    sget v2, Lcom/resouce/module/ResID;->phone_add_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -824,7 +824,7 @@
     .line 20
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f99
+    sget v2, Lcom/resouce/module/ResID;->phone_add_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
     .line 21
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b055f
+    sget v2, Lcom/resouce/module/ResID;->convertDistinguish_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -850,7 +850,7 @@
     .line 22
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b064b
+    sget v2, Lcom/resouce/module/ResID;->delete_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -861,7 +861,7 @@
     .line 23
     iget-object v1, p0, Ln1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0655
+    sget v2, Lcom/resouce/module/ResID;->delete_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -879,7 +879,7 @@
     .line 25
     iget-object v0, p0, Ln1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b064c
+    sget v1, Lcom/resouce/module/ResID;->delete_layout_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -902,7 +902,7 @@
     .line 28
     iget-object v0, p0, Ln1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b064d
+    sget v1, Lcom/resouce/module/ResID;->delete_layout_del:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,11 +1309,11 @@
 
     invoke-direct {v1, p0, p1}, Ln1b$d;-><init>(Ln1b;Ljava/util/List;)V
 
-    const p1, 0x7f1203e8
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_delete_picture_tip:I
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static {v0, p1, v2, v3, v1}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1363,7 +1363,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120432
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_identified_pic:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1420,7 +1420,7 @@
     .line 5
     iget-object p1, p0, Ln1b;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     new-instance v3, Ln1b$j;
 
@@ -1490,7 +1490,7 @@
     .line 12
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1204b5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array v3, v2, [Ljava/lang/Object;
 
@@ -1595,7 +1595,7 @@
     .line 3
     iget-object v0, p0, Ln1b;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1203d3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     new-instance v3, Ln1b$h;
 
@@ -1609,7 +1609,7 @@
     :cond_1
     iget-object v0, p0, Ln1b;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     new-instance v3, Ln1b$i;
 
@@ -1639,7 +1639,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1204aa
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     const/4 v2, 0x1
 
@@ -1687,7 +1687,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120432
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_identified_pic:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

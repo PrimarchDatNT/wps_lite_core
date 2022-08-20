@@ -61,7 +61,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b32af
+    sget v0, Lcom/resouce/module/ResID;->tv_watermark:I
 
     if-ne p1, v0, :cond_3
 
@@ -154,7 +154,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b3242
+    sget v0, Lcom/resouce/module/ResID;->tv_save:I
 
     if-ne p1, v0, :cond_5
 
@@ -168,7 +168,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b3153
+    sget v0, Lcom/resouce/module/ResID;->tv_edit:I
 
     if-ne p1, v0, :cond_6
 

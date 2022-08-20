@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0132
+    sget v1, Lcom/resouce/module/ResLAYOUT;->docer_wx_subscribed_dialog_phone:I
 
     const/4 v2, 0x0
 
@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b06a1
+    sget v1, Lcom/resouce/module/ResID;->dialog_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     sput-object v1, Lfo4;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b068f
+    sget v1, Lcom/resouce/module/ResID;->dialog_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
 
     sput-object v1, Lfo4;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b06a0
+    sget v1, Lcom/resouce/module/ResID;->dialog_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     sput-object v1, Lfo4;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b279e
+    sget v1, Lcom/resouce/module/ResID;->qr_code_image:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     sput-object v1, Lfo4;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0448
+    sget v1, Lcom/resouce/module/ResID;->close_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b29e0
+    sget v1, Lcom/resouce/module/ResID;->save_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

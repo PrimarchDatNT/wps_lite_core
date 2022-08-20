@@ -135,7 +135,7 @@
     .line 7
     sget-object v3, Lie5$a;->U:Lie5$a;
 
-    const v4, 0x7f08199d    # 1.80908E38f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_icon_sdcard:I    # 1.80908E38f
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -158,7 +158,7 @@
 
     invoke-virtual {v0, v7, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f081995
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_gallery:I
 
     .line 11
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -176,7 +176,7 @@
     .line 14
     invoke-virtual {v1, v7, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f081990
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_camera:I
 
     .line 15
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -925,7 +925,7 @@
     .line 2
     iget-object v0, p0, Lca4;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1214d0
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_insertpic_gallery_camera_warning:I
 
     new-instance v3, Lca4$d;
 

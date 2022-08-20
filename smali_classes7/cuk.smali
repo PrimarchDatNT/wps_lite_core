@@ -255,7 +255,7 @@
 .method public final k(Lcn/wps/moffice/writer/Writer;)Lje3;
     .locals 3
 
-    const v0, 0x7f0e1076
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_circle_progressbar:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

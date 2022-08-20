@@ -71,7 +71,7 @@
     .line 7
     iget-object p1, p0, Lo4w;->I:Landroid/view/View;
 
-    const p2, 0x7f0b157f
+    sget p2, Lcom/resouce/module/ResID;->layout_total_search_load_and_result_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -90,14 +90,14 @@
 
     iget-object p2, p0, Lo4w;->S:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f25
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_phone_total_search_result:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 9
     iget-object p1, p0, Lo4w;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2a8b
+    sget p2, Lcom/resouce/module/ResID;->search_loading_progressbar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
     .line 2
     iget-object v0, p0, Lo4w;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2e1c
+    sget v1, Lcom/resouce/module/ResID;->tab_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -623,7 +623,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1205ba
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_search:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

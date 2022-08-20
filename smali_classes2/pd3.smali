@@ -266,7 +266,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12008f
+    sget v0, Lcom/resouce/module/ResSTRING;->ads_popupmenu_change_ad:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

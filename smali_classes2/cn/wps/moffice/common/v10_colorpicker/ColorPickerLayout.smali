@@ -596,7 +596,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0e103b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_public_colorpicker_layout:I
 
     invoke-virtual {p1, v2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -606,7 +606,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0735
+    sget v2, Lcom/resouce/module/ResID;->docer_open:I
 
     .line 12
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -618,7 +618,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b17d4
+    sget v2, Lcom/resouce/module/ResID;->mVColorPickerVipIcon:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -629,7 +629,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b17d2
+    sget v2, Lcom/resouce/module/ResID;->mVColorPickerDivider:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -640,7 +640,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b17d3
+    sget v2, Lcom/resouce/module/ResID;->mVColorPickerDivider2:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -651,7 +651,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0066
+    sget v2, Lcom/resouce/module/ResID;->actionText:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -664,7 +664,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b17bb
+    sget v2, Lcom/resouce/module/ResID;->mTvColorPickerVipDesc:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -677,7 +677,7 @@
     .line 18
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b17d5
+    sget v2, Lcom/resouce/module/ResID;->mVDocerOpenIndicator:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -700,7 +700,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b12e1
+    sget v2, Lcom/resouce/module/ResID;->index_palette:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -725,7 +725,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b2d7f
+    sget v5, Lcom/resouce/module/ResID;->standard_palette_layout:I
 
     invoke-virtual {p1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -738,7 +738,7 @@
     .line 25
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b2d7e
+    sget v5, Lcom/resouce/module/ResID;->standard_palette:I
 
     invoke-virtual {p1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -761,7 +761,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b179e
+    sget v5, Lcom/resouce/module/ResID;->mGradualSpectrumPalette:I
 
     invoke-virtual {p1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -774,7 +774,7 @@
     .line 29
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b17d6
+    sget v5, Lcom/resouce/module/ResID;->mVGradualGroup:I
 
     invoke-virtual {p1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -797,7 +797,7 @@
     .line 32
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b04b7
+    sget v2, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -834,7 +834,7 @@
     .line 35
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1a4a
+    sget v3, Lcom/resouce/module/ResID;->none_color_fill_view:I
 
     invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -854,7 +854,7 @@
     .line 37
     iget-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->a0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2adf
+    sget v3, Lcom/resouce/module/ResID;->seekbar:I
 
     invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1303,7 +1303,7 @@
     :cond_0
     iput p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->q0:I
 
-    const v0, 0x7f060035
+    sget v0, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -1311,7 +1311,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;->d0:Landroid/view/View;
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     if-eqz v0, :cond_1
 
@@ -1339,7 +1339,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

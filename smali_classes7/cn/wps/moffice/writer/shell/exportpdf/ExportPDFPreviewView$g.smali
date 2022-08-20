@@ -100,11 +100,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f081a5a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_no_ad_logo:I
 
-    const v2, 0x7f12252b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no_ad_logo:I
 
-    const v3, 0x7f122051
+    sget v3, Lcom/resouce/module/ResSTRING;->public_enjoy_no_ad_logo:I
 
     .line 11
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;

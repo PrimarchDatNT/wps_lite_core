@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0435
+    sget v1, Lcom/resouce/module/ResLAYOUT;->kspay_phone_title_view_layout:I
 
     const/4 v2, 0x0
 
@@ -84,7 +84,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
@@ -96,7 +96,7 @@
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b33b3
+    sget v0, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object v0, p0, Lcn/wps/kspaybase/common/BaseTitleActivity;->X:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b124e
+    sget v0, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object v0, p0, Lcn/wps/kspaybase/common/BaseTitleActivity;->a0:Landroid/view/View;
 
-    const v0, 0x7f0b0548
+    sget v0, Lcom/resouce/module/ResID;->content_lay:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     iput-object v0, p0, Lcn/wps/kspaybase/common/BaseTitleActivity;->Z:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 .method public m()I
     .locals 1
 
-    const v0, 0x7f080a1d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->kspay_pub_nav_back:I
 
     return v0
 .end method
@@ -316,13 +316,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0606b3
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p2
 
-    const v0, 0x7f080a16
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->kspay_phone_public_back_black_icon:I
 
     .line 3
     iget-object v1, p0, Lcn/wps/kspaybase/common/BaseTitleActivity;->Y:Lcn/wps/kspaybase/common/BusinessBaseTitle;
@@ -559,7 +559,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f0b0548
+    sget p1, Lcom/resouce/module/ResID;->content_lay:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
     .line 16
     invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
-    const v0, 0x7f0b33b3
+    sget v0, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     invoke-virtual {v0}, Landroid/view/View;->bringToFront()V
 
-    const v0, 0x7f0b124e
+    sget v0, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

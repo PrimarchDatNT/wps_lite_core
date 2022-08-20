@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0807e7
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_noselect:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0807e4
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_noselect:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

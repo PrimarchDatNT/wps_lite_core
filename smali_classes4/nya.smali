@@ -338,7 +338,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0918
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_scan_long_pic_share_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -360,7 +360,7 @@
     .line 3
     iget-object v0, p0, Lnya;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1785
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -371,7 +371,7 @@
     .line 4
     iget-object v0, p0, Lnya;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1781
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 13
     iget-object v0, p0, Lnya;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0278
+    sget v2, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -516,7 +516,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b7a
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -576,9 +576,9 @@
     .line 28
     iget-object v0, p0, Lnya;->g0:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
-    const v2, 0x7f0b2bd3
+    sget v2, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {v0, v1, v2}, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->setActionButton(II)V
 
@@ -609,7 +609,7 @@
     .line 31
     iget-object v0, p0, Lnya;->I:Landroid/view/View;
 
-    const v3, 0x7f0b2fd7
+    sget v3, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -637,7 +637,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -658,7 +658,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

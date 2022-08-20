@@ -720,7 +720,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f122bd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

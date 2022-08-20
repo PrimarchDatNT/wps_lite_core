@@ -416,7 +416,7 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0b2b7a
+    sget v1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
@@ -437,7 +437,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bc8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -445,7 +445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2b75
+    sget v2, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
     .line 6
     iget-object v3, p0, Lmk9;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122954
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -492,7 +492,7 @@
     :cond_0
     iget-object v3, p0, Lmk9;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122953
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_as_addition:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
 
     :cond_1
     :goto_0
-    const v3, 0x7f081f42
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_as_file_24:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -517,7 +517,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2b7a
+    sget v1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -556,7 +556,7 @@
     .line 15
     iget-object v3, p0, Lmk9;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -569,7 +569,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2b7b
+    sget v1, Lcom/resouce/module/ResID;->share_item_ext_div:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

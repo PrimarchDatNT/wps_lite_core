@@ -55,7 +55,7 @@
 
     iget-object p3, p0, Ldyd;->S:Landroid/content/Context;
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {p2, p0, p3, v0}, Ldyd$a;-><init>(Ldyd;Landroid/content/Context;I)V
 
@@ -95,12 +95,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0a94
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_pad_pen_kit_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0a9f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_pen_kit_layout:I
 
     :goto_0
     invoke-virtual {p2, v0}, Lhd3$g;->setContentView(I)V
@@ -108,7 +108,7 @@
     .line 10
     iget-object p2, p0, Ldyd;->T:Lhd3$g;
 
-    const v0, 0x7f0b2353
+    sget v0, Lcom/resouce/module/ResID;->ppt_pen_kit_root:I
 
     invoke-virtual {p2, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 13
     iget-object p2, p0, Ldyd;->T:Lhd3$g;
 
-    const v0, 0x7f0b2351
+    sget v0, Lcom/resouce/module/ResID;->ppt_pen_kit_mark:I
 
     invoke-virtual {p2, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 14
     iget-object p2, p0, Ldyd;->T:Lhd3$g;
 
-    const v0, 0x7f0b1f6d
+    sget v0, Lcom/resouce/module/ResID;->penkit_tips:I
 
     invoke-virtual {p2, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v0, 0x7f123283
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_tips:I
 
     new-array p3, p3, [Ljava/lang/Object;
 
@@ -159,12 +159,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f121934
+    sget v2, Lcom/resouce/module/ResSTRING;->penkit_honor:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f121935
+    sget v2, Lcom/resouce/module/ResSTRING;->penkit_huawei:I
 
     :goto_1
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -192,7 +192,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f12281f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -204,7 +204,7 @@
 
     iget-object p2, p0, Ldyd;->S:Landroid/content/Context;
 
-    const v0, 0x7f121b99
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_pen_kit_hw_toast:I
 
     .line 19
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -222,7 +222,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122b45
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -235,7 +235,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -288,7 +288,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -438,7 +438,7 @@
     .line 1
     iget-object v0, p0, Ldyd;->T:Lhd3$g;
 
-    const v1, 0x7f0b234f
+    sget v1, Lcom/resouce/module/ResID;->ppt_pen_kit_close:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
     .line 2
     iget-object v0, p0, Ldyd;->T:Lhd3$g;
 
-    const v1, 0x7f0b2355
+    sget v1, Lcom/resouce/module/ResID;->ppt_pen_kit_undo:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -464,7 +464,7 @@
     .line 3
     iget-object v0, p0, Ldyd;->T:Lhd3$g;
 
-    const v1, 0x7f0b2352
+    sget v1, Lcom/resouce/module/ResID;->ppt_pen_kit_redo:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -477,7 +477,7 @@
     .line 4
     iget-object v0, p0, Ldyd;->T:Lhd3$g;
 
-    const v1, 0x7f0b2354
+    sget v1, Lcom/resouce/module/ResID;->ppt_pen_kit_save:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -589,7 +589,7 @@
     .line 16
     iget-object v0, p0, Ldyd;->T:Lhd3$g;
 
-    const v2, 0x7f0b2350
+    sget v2, Lcom/resouce/module/ResID;->ppt_pen_kit_hand_writing:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

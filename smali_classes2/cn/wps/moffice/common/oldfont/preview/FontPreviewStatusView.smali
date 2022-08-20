@@ -72,11 +72,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0262
+    sget v1, Lcom/resouce/module/ResLAYOUT;->font_func_guide_err_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/FrameLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0e2b
+    sget v0, Lcom/resouce/module/ResID;->font_err_img_refresh:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -85,7 +85,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0e2a
+    sget v0, Lcom/resouce/module/ResID;->font_err_img_default:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1732
+    sget v0, Lcom/resouce/module/ResID;->loading_view:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/preview/FontPreviewStatusView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0e2c
+    sget v0, Lcom/resouce/module/ResID;->font_err_text:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

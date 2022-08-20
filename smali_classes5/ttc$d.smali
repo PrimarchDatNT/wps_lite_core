@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081064
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_component_bottom_bar_shape:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 

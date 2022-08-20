@@ -474,7 +474,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060009
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -952,7 +952,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0a7a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ppt_fontsize_dialog_item:I
 
     const/4 v4, 0x0
 
@@ -962,7 +962,7 @@
 
     check-cast v2, Landroid/widget/RelativeLayout;
 
-    const v3, 0x7f0b22ca
+    sget v3, Lcom/resouce/module/ResID;->ppt_fontsize_text:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1207,7 +1207,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b22ca
+    sget v3, Lcom/resouce/module/ResID;->ppt_fontsize_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1575,7 +1575,7 @@
     .line 7
     iget-object p1, p0, Lkne;->B:Landroid/content/Context;
 
-    const v0, 0x7f121983
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_font_size_tip:I
 
     const/4 v1, 0x0
 

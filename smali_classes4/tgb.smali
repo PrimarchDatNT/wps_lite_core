@@ -217,7 +217,7 @@
 
     if-eqz v3, :cond_0
 
-    const v0, 0x7f080815
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_wpscloud:I
 
     goto/16 :goto_1
 
@@ -235,7 +235,7 @@
 
     if-eqz v3, :cond_1
 
-    const v0, 0x7f080810
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_googledrive:I
 
     goto/16 :goto_1
 
@@ -253,7 +253,7 @@
 
     if-eqz v3, :cond_2
 
-    const v0, 0x7f08080d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_dropbox:I
 
     goto/16 :goto_1
 
@@ -271,7 +271,7 @@
 
     if-eqz v3, :cond_3
 
-    const v0, 0x7f08080b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_box:I
 
     goto :goto_1
 
@@ -289,7 +289,7 @@
 
     if-eqz v3, :cond_4
 
-    const v0, 0x7f080813
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_onedrive:I
 
     goto :goto_1
 
@@ -307,7 +307,7 @@
 
     if-eqz v3, :cond_5
 
-    const v0, 0x7f08080e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_evernote:I
 
     goto :goto_1
 
@@ -325,7 +325,7 @@
 
     if-eqz v3, :cond_6
 
-    const v0, 0x7f080811
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_huaweicloud:I
 
     goto :goto_1
 
@@ -343,7 +343,7 @@
 
     if-eqz v3, :cond_7
 
-    const v0, 0x7f080814
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_webdav:I
 
     goto :goto_1
 
@@ -361,7 +361,7 @@
 
     if-eqz v3, :cond_8
 
-    const v0, 0x7f08080f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_ftp:I
 
     goto :goto_1
 
@@ -379,7 +379,7 @@
 
     if-eqz v3, :cond_9
 
-    const v0, 0x7f08080a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_add_webdav:I
 
     .line 17
     :cond_9
@@ -463,7 +463,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0703dd
+    sget v2, Lcom/resouce/module/ResDIMEN;->main_top_title_text_size:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -525,7 +525,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f080806
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_files_documents_icon_device:I
 
     .line 4
     invoke-virtual {v2, v4}, Lcga;->q(I)V
@@ -552,7 +552,7 @@
 
     move-result v4
 
-    const v5, 0x7f080808
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_files_documents_icon_sd:I
 
     if-eqz v4, :cond_0
 
@@ -692,7 +692,7 @@
 
     check-cast v9, Lbga;
 
-    const v10, 0x7f080801
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->home_files_browse_download:I
 
     .line 24
     invoke-virtual {v9, v10}, Lbga;->h(I)V
@@ -712,7 +712,7 @@
 
     move-result-object v3
 
-    const v9, 0x7f080800
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->home_files_browse_document:I
 
     .line 27
     invoke-virtual {v3, v9}, Lbga;->h(I)V
@@ -959,7 +959,7 @@
     .line 1
     iget-object v0, p0, Ltgb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1087
+    sget v1, Lcom/resouce/module/ResID;->home_files_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1048,7 +1048,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0311
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_files_layout:I
 
     const/4 v2, 0x0
 
@@ -1058,7 +1058,7 @@
 
     iput-object v0, p0, Ltgb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1085
+    sget v1, Lcom/resouce/module/ResID;->home_files_recyclerview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1072,7 +1072,7 @@
     .line 4
     iget-object v0, p0, Ltgb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b107b
+    sget v1, Lcom/resouce/module/ResID;->home_files_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1158,7 +1158,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12259b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_file:I
 
     return v0
 .end method

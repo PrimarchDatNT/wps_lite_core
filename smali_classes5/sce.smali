@@ -48,7 +48,7 @@
 .method public final a()V
     .locals 7
 
-    const v0, 0x7f122a01
+    sget v0, Lcom/resouce/module/ResSTRING;->public_slide_scaler:I
 
     .line 1
     iput v0, p0, Lsce;->b:I
@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030084
+    sget v1, Lcom/resouce/module/ResARRAY;->slide_scale_strings:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030083
+    sget v2, Lcom/resouce/module/ResARRAY;->slide_scale_sizes:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

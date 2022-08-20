@@ -75,49 +75,49 @@
 
     sput-object v0, Luh6;->Q0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b0345
+    sget v1, Lcom/resouce/module/ResID;->capsule_container:I
 
     const/16 v2, 0x13
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f7a
+    sget v1, Lcom/resouce/module/ResID;->guide_introduce_title:I
 
     const/16 v2, 0x14
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b135d
+    sget v1, Lcom/resouce/module/ResID;->introduce:I
 
     const/16 v2, 0x15
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0260
+    sget v1, Lcom/resouce/module/ResID;->bottom_layout:I
 
     const/16 v2, 0x16
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0137
+    sget v1, Lcom/resouce/module/ResID;->app_recommend_container:I
 
     const/16 v2, 0x17
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b2aee
+    sget v1, Lcom/resouce/module/ResID;->select_file_bottom_layout:I
 
     const/16 v2, 0x18
 
     .line 7
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     const/16 v2, 0x19
 

@@ -98,7 +98,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b31dd
+    sget v0, Lcom/resouce/module/ResID;->tv_modify_the_way_to_open_file:I
 
     if-ne p1, v0, :cond_1
 
@@ -119,7 +119,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b3208
+    sget v0, Lcom/resouce/module/ResID;->tv_open_by_wps:I
 
     if-ne p1, v0, :cond_3
 
@@ -140,7 +140,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b3115
+    sget v0, Lcom/resouce/module/ResID;->tv_cancel:I
 
     if-ne p1, v0, :cond_4
 
@@ -222,7 +222,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00dd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_cooperation_tag_setting:I
 
     const/4 v1, 0x0
 
@@ -233,7 +233,7 @@
     .line 14
     invoke-virtual {p0, p1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b3115
+    sget v0, Lcom/resouce/module/ResID;->tv_cancel:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3208
+    sget v0, Lcom/resouce/module/ResID;->tv_open_by_wps:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3168
+    sget v0, Lcom/resouce/module/ResID;->tv_file_name:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b1454
+    sget v0, Lcom/resouce/module/ResID;->iv_file_icon:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
     .line 21
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b31dd
+    sget v0, Lcom/resouce/module/ResID;->tv_modify_the_way_to_open_file:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -315,14 +315,14 @@
 
     iget-object v1, p0, Loz2;->B:Landroid/content/Context;
 
-    const v2, 0x7f121f7a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cooperation_tag_setting_dialog_modify_the_default_way_to_open_file:I
 
     .line 25
     invoke-virtual {v0, v1, v2}, Lk63;->b(Landroid/content/Context;I)Lk63;
 
     iget-object v1, p0, Loz2;->B:Landroid/content/Context;
 
-    const v2, 0x7f0816c4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_right_arrow_blue:I
 
     const/16 v3, 0x12
 

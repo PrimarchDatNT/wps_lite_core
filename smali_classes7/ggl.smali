@@ -85,7 +85,7 @@
     .line 1
     new-instance v0, Lywk;
 
-    const v1, 0x7f0b0829
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_enter_comment_revise:I
 
     .line 2
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     invoke-direct {v0, v1}, Lywk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b08a1
+    sget v1, Lcom/resouce/module/ResID;->enter_comment_revise_switch:I
 
     const-string v2, "read-peruse-enter-revise"
 
@@ -106,7 +106,7 @@
 
     invoke-direct {v0}, Laxk;-><init>()V
 
-    const v1, 0x7f0b2bf6
+    sget v1, Lcom/resouce/module/ResID;->show_comment_switch:I
 
     const-string v2, "edit-show-comment"
 
@@ -115,7 +115,7 @@
     .line 5
     new-instance v0, Lbxk;
 
-    const v1, 0x7f0b0832
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_show_revise:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -123,7 +123,7 @@
 
     invoke-direct {v0, v1}, Lbxk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b2c00
+    sget v1, Lcom/resouce/module/ResID;->show_revise_switch:I
 
     const-string v2, "edit-show-revise"
 
@@ -134,7 +134,7 @@
 
     iget-object v1, p0, Lggl;->k0:Lwbl;
 
-    const v2, 0x7f0b0833
+    sget v2, Lcom/resouce/module/ResID;->edit_peruse_panel_show_revise_divide_line:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
 
     invoke-direct {v0, v1, v2}, Lcxk;-><init>(Lwbl;Landroid/view/View;)V
 
-    const v1, 0x7f0b0836
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_show_revision_layout:I
 
     const-string v2, "edit-show-revision-detail-panel"
 
@@ -153,7 +153,7 @@
 
     iget-object v1, p0, Lggl;->k0:Lwbl;
 
-    const v2, 0x7f0b082c
+    sget v2, Lcom/resouce/module/ResID;->edit_peruse_panel_revise_state_divide_line:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -161,7 +161,7 @@
 
     invoke-direct {v0, v1, v2}, Ldxk;-><init>(Lwbl;Landroid/view/View;)V
 
-    const v1, 0x7f0b082e
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_revision_state_layout:I
 
     const-string v2, "edit-revision-state-detail-panel"
 
@@ -170,7 +170,7 @@
     .line 8
     new-instance v0, Ltwk;
 
-    const v1, 0x7f0b0825
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_accept_all_revision_divide_line:I
 
     .line 9
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     invoke-direct {v0, v1}, Ltwk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b0826
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_accept_all_revision_layout:I
 
     const-string v2, "read-peruse-accept-comment"
 
@@ -189,7 +189,7 @@
     .line 11
     new-instance v0, Lxwk;
 
-    const v1, 0x7f0b0827
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_deny_all_revision_divide_line:I
 
     .line 12
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     invoke-direct {v0, v1}, Lxwk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b0828
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_deny_all_revision_layout:I
 
     const-string v2, "read-peruse-deny-comment"
 
@@ -210,7 +210,7 @@
 
     invoke-direct {v0}, Luwk;-><init>()V
 
-    const v1, 0x7f0b082b
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_modify_username_layout:I
 
     const-string v2, "read-peruse-change-author"
 
@@ -221,7 +221,7 @@
 
     invoke-direct {v0}, Lqvk;-><init>()V
 
-    const v1, 0x7f0b083c
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_spellcheck_switch:I
 
     const-string v2, "read-peruse-spellcheck"
 
@@ -230,7 +230,7 @@
     .line 16
     new-instance v0, Lvul;
 
-    const v1, 0x7f0b083b
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_spellcheck_restart_divide_line:I
 
     .line 17
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -239,7 +239,7 @@
 
     invoke-direct {v0, v1}, Lvul;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b083a
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_spellcheck_restart:I
 
     const-string v2, "read-peruse-spellcheck-recheck"
 
@@ -249,7 +249,7 @@
     .line 19
     new-instance v0, Llqk;
 
-    const v1, 0x7f0b1f92
+    sget v1, Lcom/resouce/module/ResID;->peruse_panel_show_audiocomment_layout_divide_line:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -259,7 +259,7 @@
 
     invoke-direct {v0, v2, v1}, Llqk;-><init>(ZLandroid/view/View;)V
 
-    const v1, 0x7f0b1f8e
+    sget v1, Lcom/resouce/module/ResID;->peruse_panel_enter_audiocomment_layout:I
 
     const-string v2, "read-peruse-enter-audiocomment"
 
@@ -270,7 +270,7 @@
 
     invoke-direct {v0}, Lp1l;-><init>()V
 
-    const v1, 0x7f0b082a
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_file_final_layout:I
 
     const-string v2, "edit-peruse-file-final"
 
@@ -299,7 +299,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0836
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_show_revision_layout:I
 
     if-eq v0, v1, :cond_0
 
@@ -308,7 +308,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b082e
+    sget v0, Lcom/resouce/module/ResID;->edit_peruse_panel_revision_state_layout:I
 
     if-eq p1, v0, :cond_0
 
@@ -419,7 +419,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122628
+    sget v0, Lcom/resouce/module/ResSTRING;->public_peruse:I
 
     return v0
 .end method
@@ -568,7 +568,7 @@
 .method public final t2()V
     .locals 4
 
-    const v0, 0x7f0e09cf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_editmode_peruse:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -648,7 +648,7 @@
     invoke-static {v1, v2, v0, v3}, Lq0m;->a(Landroid/content/Context;Landroid/widget/ScrollView;Landroid/widget/LinearLayout;I)V
 
     :cond_1
-    const v0, 0x7f0b30be
+    sget v0, Lcom/resouce/module/ResID;->translation_devide_view:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -660,7 +660,7 @@
     .line 10
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0e92
+    sget v1, Lcom/resouce/module/ResID;->full_translation_entry:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -680,7 +680,7 @@
     .line 12
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0835
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_show_revision_detail:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -693,7 +693,7 @@
     .line 13
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b082d
+    sget v1, Lcom/resouce/module/ResID;->edit_peruse_panel_revision_state_detail:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -801,7 +801,7 @@
     .line 3
     iget-object v0, p0, Lggl;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f1233f7
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_revision_inline_mode:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -811,7 +811,7 @@
     :cond_0
     iget-object v0, p0, Lggl;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f1233f6
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_revision_in_right_bollom_panel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -846,7 +846,7 @@
     .line 9
     iget-object v0, p0, Lggl;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f12340c
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_show_revision_final_state:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -865,7 +865,7 @@
     .line 11
     iget-object v0, p0, Lggl;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f1233f5
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_revision_final:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

@@ -28,7 +28,7 @@
 .method public constructor <init>(Landroid/content/Context;Lk2m;Lcn/wps/moffice/spreadsheet/control/Sharer;)V
     .locals 1
 
-    const v0, 0x7f120694
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V
@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_mail:I
 
     const/4 v2, 0x0
 
@@ -175,7 +175,7 @@
 
     move-result-object v4
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -208,7 +208,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122987
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 13
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

@@ -19,7 +19,7 @@
     .line 2
     iput-object p2, p0, Lce4;->c:Landroid/content/Context;
 
-    const p2, 0x7f0b1376
+    sget p2, Lcom/resouce/module/ResID;->invite_edit_link_member_count:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     aput-object p1, v2, v3
 
-    const p1, 0x7f1223a1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_edit_member_count:I
 
     invoke-virtual {v1, p1, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

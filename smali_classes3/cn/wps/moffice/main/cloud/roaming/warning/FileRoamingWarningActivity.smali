@@ -152,7 +152,7 @@
     invoke-static {p0}, Ldgh;->c0(Landroid/app/Activity;)V
 
     :cond_0
-    const p1, 0x7f130158
+    sget p1, Lcom/resouce/module/ResSTYLE;->HomeTheme:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setTheme(I)V
@@ -162,7 +162,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f130494
+    sget v1, Lcom/resouce/module/ResSTYLE;->home_translucent_activity_style:I
 
     invoke-virtual {p1, v1, v0}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 

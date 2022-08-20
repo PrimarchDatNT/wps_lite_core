@@ -582,7 +582,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0e76
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_task_center_item_view_layout:I
 
     const/4 v0, 0x0
 
@@ -595,7 +595,7 @@
 
     invoke-direct {p2, p1}, Lhhb$d;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b2ea7
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_type_title:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
 
     iput-object v0, p2, Lhhb$d;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ea4
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_title:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -617,7 +617,7 @@
 
     iput-object v0, p2, Lhhb$d;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ea0
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_state:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -628,7 +628,7 @@
 
     iput-object v0, p2, Lhhb$d;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ea5
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_date:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -639,7 +639,7 @@
 
     iput-object v0, p2, Lhhb$d;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ea3
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_sub_title:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -650,7 +650,7 @@
 
     iput-object v0, p2, Lhhb$d;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ea6
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_menu_btn:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -659,7 +659,7 @@
 
     iput-object v0, p2, Lhhb$d;->r0:Landroid/view/View;
 
-    const v0, 0x7f0b2e9d
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_from:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -670,7 +670,7 @@
 
     iput-object v0, p2, Lhhb$d;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2e9c
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_container:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -679,7 +679,7 @@
 
     iput-object v0, p2, Lhhb$d;->q0:Landroid/view/View;
 
-    const v0, 0x7f0b2e9e
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_img:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -690,7 +690,7 @@
 
     iput-object v0, p2, Lhhb$d;->p0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2ea2
+    sget v0, Lcom/resouce/module/ResID;->task_center_item_content_state_cycle:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

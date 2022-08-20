@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.RippleAlphaRelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="53.299988dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/expand" android:layout_width="@dimen/writer_atoc_item_height" android:layout_height="fill_parent" android:layout_marginRight="29.0dip" android:src="@drawable/phone_writer_shring_status_miui" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="29.0dip" android:layout_alignParentEnd="true" />
-    <TextView android:textSize="15.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="start|center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="29.0dip" android:layout_marginRight="77.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_marginStart="29.0dip" android:layout_marginEnd="77.0dip" android:layout_alignParentStart="true" />
-</cn.wps.moffice.common.beans.RippleAlphaRelativeLayout>

@@ -30,12 +30,12 @@
     .line 2
     invoke-static {p0}, Ldgh;->h1(Landroid/app/Activity;)V
 
-    const p1, 0x7f0e0c74
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_layout:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    const p1, 0x7f0b161d
+    sget p1, Lcom/resouce/module/ResID;->list:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

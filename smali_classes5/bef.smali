@@ -122,7 +122,7 @@
 
     invoke-static {p2, p4}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const p2, 0x7f0e063c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_file_encryption_layout:I
 
     const/4 p4, 0x0
 
@@ -344,7 +344,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122380
+    sget v2, Lcom/resouce/module/ResSTRING;->public_inputPasswdInvalid:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -388,7 +388,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217d2
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_err:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -448,7 +448,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217d5
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_pwd_same:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -506,7 +506,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122380
+    sget v2, Lcom/resouce/module/ResSTRING;->public_inputPasswdInvalid:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -550,7 +550,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217d2
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_err:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -610,7 +610,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217d5
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_pwd_same:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -865,7 +865,7 @@
     .line 1
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df7
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_te_read_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -878,7 +878,7 @@
     .line 2
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df5
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_te_confirm_read_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -891,7 +891,7 @@
     .line 3
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1dfb
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_tl_read_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -904,7 +904,7 @@
     .line 4
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df9
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_tl_confirm_read_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -917,7 +917,7 @@
     .line 5
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df3
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_show_read_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -930,7 +930,7 @@
     .line 6
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df8
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_te_write_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -943,7 +943,7 @@
     .line 7
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df6
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_te_confirm_write_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -956,7 +956,7 @@
     .line 8
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1dfc
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_tl_write_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -969,7 +969,7 @@
     .line 9
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1dfa
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_tl_confirm_write_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -982,7 +982,7 @@
     .line 10
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df4
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_show_write_pwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -995,7 +995,7 @@
     .line 11
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df1
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_btn_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1008,7 +1008,7 @@
     .line 12
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1df2
+    sget v1, Lcom/resouce/module/ResID;->pdf_encrypt_btn_vip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1021,7 +1021,7 @@
     .line 13
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1729
+    sget v1, Lcom/resouce/module/ResID;->loading_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1229,7 +1229,7 @@
     .line 1
     iget-object v0, p0, Lbef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1244,12 +1244,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1218db
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_set_password_title:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1217f5
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V

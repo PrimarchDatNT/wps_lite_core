@@ -318,7 +318,7 @@
     .line 1
     iget-object v0, p0, Ll9f;->b:Landroid/view/View;
 
-    const v1, 0x7f0b255b
+    sget v1, Lcom/resouce/module/ResID;->promotion_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
     .line 2
     iget-object v1, p0, Ll9f;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122ee4
+    sget v2, Lcom/resouce/module/ResSTRING;->share_card_promotion_text:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -367,7 +367,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0803e0
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_share_text_card_small:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

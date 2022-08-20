@@ -87,7 +87,7 @@
     .line 3
     iget-object v0, p0, Lgn4$i;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0806e8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->font_purchase_blue_preview_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

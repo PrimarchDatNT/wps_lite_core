@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/phone_ppt_panel_content_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/phone_public_frame_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_frame_size" style="@style/v10_phone_public_panel_title_text_style" />
-    <LinearLayout android:gravity="center" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="5.0dip">
-        <cn.wps.moffice.presentation.control.common.HalveLayout android:id="@id/phone_public_frame_size_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </LinearLayout>
-</LinearLayout>

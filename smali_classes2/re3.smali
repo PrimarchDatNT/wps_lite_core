@@ -46,7 +46,7 @@
     .line 3
     iput-object p2, p0, Lre3;->I:Lie5$a;
 
-    const p1, 0x7f122388
+    sget p1, Lcom/resouce/module/ResSTRING;->public_insert_shape:I
 
     .line 4
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -78,7 +78,7 @@
 
     iput-object p1, p0, Lre3;->Z:Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e0c9b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_insertshapes_dialog:I
 
     const/4 v0, 0x0
 
@@ -182,7 +182,7 @@
 
     iput-object v0, p0, Lre3;->Y:Lnk3;
 
-    const v0, 0x7f0b265c
+    sget v0, Lcom/resouce/module/ResID;->public_insertshapes_indicator:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/indicator/DotPageIndicator;->setFillColor(I)V
 
-    const v0, 0x7f0b265e
+    sget v0, Lcom/resouce/module/ResID;->public_insertshapes_viewpager:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
     .line 7
     iget-object v1, p0, Lre3;->Z:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0c9a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_insertshape_flow_view:I
 
     const/4 v3, 0x0
 
@@ -283,7 +283,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b2719
+    sget v5, Lcom/resouce/module/ResID;->public_shape_selected_dialog_gridview:I
 
     .line 11
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

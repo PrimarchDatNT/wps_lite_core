@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0728
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_mypursing_layout_account_item:I
 
     const/4 v2, 0x0
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b14aa
+    sget v1, Lcom/resouce/module/ResID;->iv_pursing_account_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b322a
+    sget v2, Lcom/resouce/module/ResID;->tv_pursing_account_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     if-nez p1, :cond_0
 
-    const v3, 0x7f080aa0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->mine_member_pusing_wallet_daomi_icon:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -130,7 +130,7 @@
     .line 5
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120fb4
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_rice:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     if-ne p1, v3, :cond_1
 
-    const v3, 0x7f080a9d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->mine_member_pursing_wallet_mem_icon:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -153,7 +153,7 @@
     .line 7
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120fc0
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_text:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -385,7 +385,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0728
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_mypursing_layout_account_item:I
 
     const/4 v2, 0x0
 
@@ -393,7 +393,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b14aa
+    sget v1, Lcom/resouce/module/ResID;->iv_pursing_account_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -402,7 +402,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b322a
+    sget v3, Lcom/resouce/module/ResID;->tv_pursing_account_title:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -517,7 +517,7 @@
     .line 16
     invoke-virtual {v2, v5}, Lf54;->c(Z)Lf54;
 
-    const v4, 0x7f081c57
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_small_image_placeholder:I
 
     .line 17
     invoke-virtual {v2, v4}, Lf54;->b(I)Lf54;
@@ -680,7 +680,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0727
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_mypursing_layout_account_inner:I
 
     const/4 v2, 0x0
 
@@ -690,7 +690,7 @@
 
     iput-object v0, p0, Loca;->B:Landroid/view/View;
 
-    const v1, 0x7f0b173d
+    sget v1, Lcom/resouce/module/ResID;->local_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -704,7 +704,7 @@
     .line 4
     iget-object v0, p0, Loca;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1401
+    sget v1, Lcom/resouce/module/ResID;->iv_account_top_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -717,7 +717,7 @@
 
     move-result v1
 
-    const v2, 0x7f081944
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_home_app_bg:I
 
     if-eqz v1, :cond_0
 
@@ -744,7 +744,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605ee
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

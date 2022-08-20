@@ -421,7 +421,7 @@
 
     iget-object v1, p0, Lc4e;->I:Landroid/app/Activity;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, p0, v1, v2}, Lc4e$a;-><init>(Lc4e;Landroid/content/Context;I)V
 
@@ -459,12 +459,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0aa2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_crop_view:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0a8f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_crop_view:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V
@@ -472,7 +472,7 @@
     .line 6
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b22ab
+    sget v1, Lcom/resouce/module/ResID;->ppt_crop_view_root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06003f
+    sget v1, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -498,12 +498,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f122b45
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f121be1
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_save_ink_discard:I
 
     .line 9
     :goto_1
@@ -515,7 +515,7 @@
 
     iget-object v3, p0, Lc4e;->I:Landroid/app/Activity;
 
-    const v4, 0x7f1215b4
+    sget v4, Lcom/resouce/module/ResSTRING;->pad_ppt_image_ai_corp_toast_tip:I
 
     .line 10
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -544,7 +544,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -566,7 +566,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1916,7 +1916,7 @@
     .line 1
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2333
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_freeHand_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1943,7 +1943,7 @@
     .line 4
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2335
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_freeHand_undo:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1954,7 +1954,7 @@
     .line 5
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2334
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_freeHand_redo:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1965,7 +1965,7 @@
     .line 6
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2332
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_freeHand_clear:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1976,7 +1976,7 @@
     .line 7
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2330
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_crop_shape_tip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2017,7 +2017,7 @@
     .line 14
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v2, 0x7f0b234c
+    sget v2, Lcom/resouce/module/ResID;->ppt_pad_tools_root:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2030,7 +2030,7 @@
     .line 15
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v2, 0x7f0b234d
+    sget v2, Lcom/resouce/module/ResID;->ppt_pad_tools_root_scroll:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2041,7 +2041,7 @@
     .line 16
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v2, 0x7f0b2331
+    sget v2, Lcom/resouce/module/ResID;->ppt_pad_crop_shape_view:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2054,7 +2054,7 @@
     .line 17
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v2, 0x7f0b2336
+    sget v2, Lcom/resouce/module/ResID;->ppt_pad_imagecrop_root:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2082,7 +2082,7 @@
     .line 21
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v2, 0x7f0b2348
+    sget v2, Lcom/resouce/module/ResID;->ppt_pad_tools_confirm:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2096,7 +2096,7 @@
     .line 23
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b234b
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_rect:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2107,7 +2107,7 @@
     .line 24
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b234e
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_roundrect:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2118,7 +2118,7 @@
     .line 25
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2346
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_circle:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2129,7 +2129,7 @@
     .line 26
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b234a
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_free:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2140,7 +2140,7 @@
     .line 27
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2349
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_drop:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2195,7 +2195,7 @@
     .line 34
     iget-object v0, p0, Lc4e;->S:Lhd3$g;
 
-    const v1, 0x7f0b2347
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_tools_close:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

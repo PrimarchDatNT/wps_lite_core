@@ -406,7 +406,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081d5a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->record_filter_item_bg:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -418,14 +418,14 @@
 
     new-instance v4, Lkw3;
 
-    const v5, 0x7f08168c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     .line 7
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
-    const v6, 0x7f122514
+    sget v6, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     .line 8
     invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -444,14 +444,14 @@
 
     new-instance v4, Lkw3;
 
-    const v5, 0x7f08167e
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf:I
 
     .line 11
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
-    const v6, 0x7f1205fd
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_pdf:I
 
     .line 12
     invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -468,14 +468,14 @@
 
     new-instance v3, Lkw3;
 
-    const v4, 0x7f08168e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls:I
 
     .line 15
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v5, 0x7f122517
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_spreadsheet_name:I
 
     .line 16
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -494,14 +494,14 @@
 
     new-instance v3, Lkw3;
 
-    const v4, 0x7f081680
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt:I
 
     .line 19
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v5, 0x7f122516
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_presentation_name:I
 
     .line 20
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -520,14 +520,14 @@
 
     new-instance v3, Lkw3;
 
-    const v4, 0x7f081685
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_txt:I
 
     .line 23
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v5, 0x7f122515
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     .line 24
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -546,14 +546,14 @@
 
     new-instance v3, Lkw3;
 
-    const v4, 0x7f081674
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_image:I
 
     .line 27
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v5, 0x7f1225c5
+    sget v5, Lcom/resouce/module/ResSTRING;->public_other:I
 
     .line 28
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

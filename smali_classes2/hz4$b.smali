@@ -91,7 +91,7 @@
 
     iget-object p1, p1, Lhz4;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120b90
+    sget v0, Lcom/resouce/module/ResSTRING;->et_name_exist_error:I
 
     const/4 v1, 0x0
 

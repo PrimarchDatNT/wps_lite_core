@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e088c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_guide_page:I
 
     const/4 v2, 0x0
 
@@ -120,7 +120,7 @@
 
     if-lt v1, v2, :cond_0
 
-    const v1, 0x7f0b0f70
+    sget v1, Lcom/resouce/module/ResID;->guide_content:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2640
+    sget v1, Lcom/resouce/module/ResID;->public_image_guide_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1c6b
+    sget v1, Lcom/resouce/module/ResID;->page_circle_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bc9
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_phone_guide_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -249,7 +249,7 @@
 
     if-nez v2, :cond_1
 
-    const v4, 0x7f08125a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_selected:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -257,7 +257,7 @@
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f08125c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_unselected:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -411,7 +411,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f08125a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_selected:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -427,7 +427,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f08125c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_unselected:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

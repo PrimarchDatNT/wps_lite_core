@@ -394,7 +394,7 @@
 
     invoke-direct {v0, p0}, Ly9l$b;-><init>(Ly9l;)V
 
-    const v1, 0x7f0b24ee
+    sget v1, Lcom/resouce/module/ResID;->preview_back_imageview:I
 
     const-string v2, "letter-paper-back"
 
@@ -593,7 +593,7 @@
 
     iget-object v1, p0, Ly9l;->e0:Landroid/content/Context;
 
-    const v2, 0x7f12108a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -688,7 +688,7 @@
 
     iget-object v1, p0, Ly9l;->e0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x0
 
@@ -796,7 +796,7 @@
     .line 7
     iget-object p1, p0, Ly9l;->e0:Landroid/content/Context;
 
-    const v0, 0x7f1223da
+    sget v0, Lcom/resouce/module/ResSTRING;->public_letter_purchased:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -965,7 +965,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1223d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_letter_paper_use:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1027,7 +1027,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1210e3
+    sget p2, Lcom/resouce/module/ResSTRING;->home_price_unit:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1192,7 +1192,7 @@
     .line 1
     iget-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b18cc
+    sget v1, Lcom/resouce/module/ResID;->month_card_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1205,7 +1205,7 @@
     .line 2
     iget-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b014f
+    sget v1, Lcom/resouce/module/ResID;->apply_letter_paper_card_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1246,7 +1246,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cb2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_letter_paper_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -1256,7 +1256,7 @@
 
     iput-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2502
+    sget v1, Lcom/resouce/module/ResID;->preview_imageview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1270,7 +1270,7 @@
     .line 3
     iget-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b24fb
+    sget v1, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1283,7 +1283,7 @@
     .line 4
     iget-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b24fa
+    sget v1, Lcom/resouce/module/ResID;->preview_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1303,7 +1303,7 @@
     .line 6
     iget-object v0, p0, Ly9l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b24ee
+    sget v1, Lcom/resouce/module/ResID;->preview_back_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1513,7 +1513,7 @@
     .line 3
     iget-object v0, p0, Ly9l;->h0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819c7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1540,7 +1540,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08017e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->color_image_default_bg:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -1711,7 +1711,7 @@
     .line 4
     iget-object v2, p0, Ly9l;->j0:Landroid/widget/Button;
 
-    const v3, 0x7f122a82    # 1.94288E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_tempalte_continue_buy_dorcervip:I    # 1.94288E38f
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -1721,7 +1721,7 @@
     :cond_2
     iget-object v2, p0, Ly9l;->j0:Landroid/widget/Button;
 
-    const v3, 0x7f122a86
+    sget v3, Lcom/resouce/module/ResSTRING;->public_template_buy_dorcervip:I
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -1742,7 +1742,7 @@
 
     invoke-virtual {v3, v1}, Landroid/widget/Button;->setVisibility(I)V
 
-    const v1, 0x7f1223d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_letter_paper_use:I
 
     if-eqz v0, :cond_3
 
@@ -1868,7 +1868,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08017e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->color_image_default_bg:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V

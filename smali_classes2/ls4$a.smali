@@ -40,7 +40,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122692
+    sget v2, Lcom/resouce/module/ResSTRING;->public_premium_pay_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12275b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_version_attention:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -349,7 +349,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122691
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_pay_failed:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

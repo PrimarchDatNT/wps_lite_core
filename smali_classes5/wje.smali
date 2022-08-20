@@ -312,7 +312,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206ac
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_template_error_net:I
 
     const/4 v2, 0x0
 
@@ -481,7 +481,7 @@
     .line 1
     iget-object v0, p0, Lwje;->B:Landroid/view/View;
 
-    const v1, 0x7f0b135a
+    sget v1, Lcom/resouce/module/ResID;->internal_template_membership:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
 
     iget-object v4, p0, Lwje;->S:Landroid/app/Activity;
 
-    const v5, 0x7f1201c2
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_super_ppt_bottom_vip_tip:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -683,7 +683,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ad5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_super_ppt_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -695,7 +695,7 @@
 
     iput-object v0, p0, Lwje;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2de9
+    sget v1, Lcom/resouce/module/ResID;->super_ppt_bottom_tool:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -707,7 +707,7 @@
     .line 3
     iget-object v0, p0, Lwje;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2deb
+    sget v1, Lcom/resouce/module/ResID;->super_ppt_preview_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
     .line 4
     iget-object v0, p0, Lwje;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2dea
+    sget v1, Lcom/resouce/module/ResID;->super_ppt_export_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -727,7 +727,7 @@
     .line 5
     iget-object v1, p0, Lwje;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2ded
+    sget v2, Lcom/resouce/module/ResID;->super_ppt_setbg:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -736,7 +736,7 @@
     .line 6
     iget-object v2, p0, Lwje;->B:Landroid/view/View;
 
-    const v4, 0x7f0b2de8
+    sget v4, Lcom/resouce/module/ResID;->super_ppt_beautify_layout:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -745,7 +745,7 @@
     .line 7
     iget-object v4, p0, Lwje;->B:Landroid/view/View;
 
-    const v5, 0x7f0b040d
+    sget v5, Lcom/resouce/module/ResID;->circle_progress_layout:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 8
     iget-object v4, p0, Lwje;->B:Landroid/view/View;
 
-    const v5, 0x7f0b2dec
+    sget v5, Lcom/resouce/module/ResID;->super_ppt_recycle_view:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -871,7 +871,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04067a
+    sget v3, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Lcn/wps/moffice/common/beans/phone/AlphaImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -889,7 +889,7 @@
     .line 3
     iget-object v0, p0, Lwje;->h0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v1, 0x7f0809ca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_undo_dark_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -905,7 +905,7 @@
     .line 5
     iget-object v0, p0, Lwje;->i0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v1, 0x7f0809bb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_redo_dark_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -987,7 +987,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b2dea
+    sget v2, Lcom/resouce/module/ResID;->super_ppt_export_layout:I
 
     if-ne p1, v2, :cond_0
 
@@ -1037,7 +1037,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b2de8
+    sget v2, Lcom/resouce/module/ResID;->super_ppt_beautify_layout:I
 
     if-ne p1, v2, :cond_1
 
@@ -1062,7 +1062,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b2ded
+    sget v2, Lcom/resouce/module/ResID;->super_ppt_setbg:I
 
     if-ne p1, v2, :cond_2
 
@@ -1604,7 +1604,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201c7
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_super_ppt_preview_reset_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1615,7 +1615,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12253e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1631,7 +1631,7 @@
 
     invoke-direct/range {v2 .. v7}, Lgd3;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    const p1, 0x7f1201c6
+    sget p1, Lcom/resouce/module/ResSTRING;->apps_super_ppt_preview_reset_submit:I
 
     .line 8
     invoke-virtual {v0, p1}, Lgd3;->k(I)V

@@ -204,7 +204,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04a5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_day:I
 
     .line 4
     invoke-virtual {p2, v0, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

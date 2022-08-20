@@ -357,7 +357,7 @@
 
     move-object/from16 v17, v4
 
-    const v4, 0x7f1203a6
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_fix_file_size_out_of_limit_error:I
 
     :try_start_3
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -376,7 +376,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f1203a9
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_fix_file_upload_error:I
 
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -430,7 +430,7 @@
 
     move-object/from16 v17, v4
 
-    const v4, 0x7f121bdb
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     :try_start_6
     invoke-virtual {v5, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -444,7 +444,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121dbf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

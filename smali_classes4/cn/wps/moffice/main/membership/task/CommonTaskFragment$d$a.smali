@@ -71,7 +71,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1177
+    sget v1, Lcom/resouce/module/ResID;->home_task_list_holder:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

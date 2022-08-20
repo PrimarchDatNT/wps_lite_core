@@ -192,7 +192,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120242
+    sget v6, Lcom/resouce/module/ResSTRING;->cdn_vip_guide_url:I
 
     new-array v4, v4, [Ljava/lang/Object;
 

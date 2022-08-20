@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -70,7 +70,7 @@
 
     iget-object v0, v0, Lhy7$f;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f12246d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_send_verify_code:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -98,7 +98,7 @@
 
     iget-object v0, v0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v2, 0x7f122469
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_resend:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

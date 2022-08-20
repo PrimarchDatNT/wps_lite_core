@@ -340,11 +340,11 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080771
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_ppt_extract:I
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v4, 0x7f12105e
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_ppt_extract:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -376,13 +376,13 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08072c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
-    const v3, 0x7f0601a4
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
-    const v5, 0x7f12105f
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_ppt_merge:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -427,11 +427,11 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080771
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_ppt_extract:I
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v4, 0x7f12269c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_ppt_extract_desc:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -463,13 +463,13 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08072c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
-    const v3, 0x7f0601a4
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v4, 0x7f121b82
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_merge:I
 
-    const v5, 0x7f12269d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_ppt_merge_desc:I
 
     new-array v2, v2, [Lcib$b;
 

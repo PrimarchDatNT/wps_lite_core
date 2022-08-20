@@ -189,7 +189,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f070dea
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_render_shape_handle_point_radius:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1829,7 +1829,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08125f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_hit_point_circle:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

@@ -1076,12 +1076,12 @@
     .line 5
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/menudrawer/MenuDrawer;->setAllowIndicatorAnimation(Z)V
 
-    const v1, 0x7f0e0577
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_right_fragment_container:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/menudrawer/MenuDrawer;->setMenuView(I)V
 
-    const v1, 0x7f0e0576
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_right_container:I
 
     .line 7
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/menudrawer/MenuDrawer;->setContentView(I)V
@@ -1098,7 +1098,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1542
+    sget v2, Lcom/resouce/module/ResID;->layout_dragAndDropView:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1122,7 +1122,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/PadHomeActivity;->g0:Le8a;
 
-    const v0, 0x7f0b1599
+    sget v0, Lcom/resouce/module/ResID;->left_tab:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1136,7 +1136,7 @@
     .line 14
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b0768
+    sget v0, Lcom/resouce/module/ResID;->document_root:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1145,7 +1145,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b1588
+    sget v0, Lcom/resouce/module/ResID;->left:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1882,7 +1882,7 @@
 .method public k2()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b21a0
+    sget v0, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2003,7 +2003,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600df
+    sget v2, Lcom/resouce/module/ResCOLOR;->componentToolbarBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3243,7 +3243,7 @@
 
     if-eqz v1, :cond_5
 
-    const v2, 0x7f0b1c0a
+    sget v2, Lcom/resouce/module/ResID;->pad_payview:I
 
     .line 37
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -3376,7 +3376,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b1c0a
+    sget v1, Lcom/resouce/module/ResID;->pad_payview:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -3531,9 +3531,9 @@
     return-void
 
     :cond_0
-    const v0, 0x7f010067
+    sget v0, Lcom/resouce/module/ResANIM;->phone_public_switch_view_bottom_in:I
 
-    const v1, 0x7f010069
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_keep:I
 
     .line 2
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V

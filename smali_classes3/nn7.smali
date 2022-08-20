@@ -47,7 +47,7 @@
 .method public final Y2(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b07c3
+    sget v0, Lcom/resouce/module/ResID;->drive_container:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     invoke-direct {v1, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0ec3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_wpsdrive_select_root_layout:I
 
     const/4 v3, 0x0
 
@@ -127,7 +127,7 @@
 .method public final a3(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3491
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_selected_button:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

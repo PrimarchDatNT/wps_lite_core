@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d5b
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_atoc_item_first_indent:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d5d
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_atoc_item_indent:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d5c
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_atoc_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d5a
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_atoc_item_button_image_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -117,7 +117,7 @@
 
     iput v0, p0, Ldwl;->V:I
 
-    const v0, 0x7f010086
+    sget v0, Lcom/resouce/module/ResANIM;->public_outline_expanded_rotate_anim:I
 
     .line 7
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081a76
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_outline_expanded_status:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -139,7 +139,7 @@
 
     iput-object v0, p0, Ldwl;->Y:Landroid/graphics/drawable/Drawable;
 
-    const v0, 0x7f010087
+    sget v0, Lcom/resouce/module/ResANIM;->public_outline_shring_rotate_anim:I
 
     .line 9
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081a78
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_outline_shring_status:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d5b
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_preview_open_more:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d59
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_preview_close_less:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dc2
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_writer_more:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -215,7 +215,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122db7
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_writer_hide:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
     .line 4
     iput-object p2, p3, Ldwl$c;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2ee9
+    sget v0, Lcom/resouce/module/ResID;->text:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -424,7 +424,7 @@
     .line 6
     invoke-static {v0}, Lmj4;->a(Landroid/widget/TextView;)V
 
-    const v0, 0x7f0b0bfb
+    sget v0, Lcom/resouce/module/ResID;->expand:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09c2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_auto_table_of_content_item_for_miui:I
 
     return v0
 
@@ -517,12 +517,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e09c1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_auto_table_of_content_item:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e106e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_auto_table_of_content_item:I
 
     :goto_0
     return v0

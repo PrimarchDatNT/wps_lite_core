@@ -185,7 +185,7 @@
 .method public G2()I
     .locals 1
 
-    const v0, 0x7f1224d9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_more:I
 
     return v0
 .end method
@@ -405,13 +405,13 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f080596
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_home_top_more:I
 
     const/4 v6, 0x1
 
@@ -537,7 +537,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02ef
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_common_activity:I
 
     const/4 v2, 0x0
 
@@ -559,7 +559,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b16cb
+    sget v1, Lcom/resouce/module/ResID;->ll_recent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -572,7 +572,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f95
+    sget v1, Lcom/resouce/module/ResID;->gv_home_recently:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f94
+    sget v1, Lcom/resouce/module/ResID;->gv_home_common:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -598,7 +598,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b16ca
+    sget v1, Lcom/resouce/module/ResID;->ll_read:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -672,7 +672,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity$b;-><init>(Lcn/wps/moffice/main/local/home/phone/header/entop/HomeCommonActivity;)V
 
-    const v1, 0x7f12060b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     invoke-virtual {p1, v1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 

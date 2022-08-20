@@ -21,9 +21,9 @@
     .line 2
     new-instance v0, Lfvd$a;
 
-    const v1, 0x7f0818ee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_final_icon:I
 
-    const v2, 0x7f122119
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final:I
 
     invoke-direct {v0, p0, v1, v2}, Lfvd$a;-><init>(Lfvd;II)V
 

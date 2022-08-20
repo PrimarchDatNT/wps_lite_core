@@ -61,14 +61,14 @@
 
     move-result-object v2
 
-    const v3, 0x7f121410
+    sget v3, Lcom/resouce/module/ResSTRING;->mtrl_picker_invalid_format:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f121412
+    sget v4, Lcom/resouce/module/ResSTRING;->mtrl_picker_invalid_format_use:I
 
     .line 5
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -90,7 +90,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f121411
+    sget v6, Lcom/resouce/module/ResSTRING;->mtrl_picker_invalid_format_example:I
 
     .line 7
     invoke-virtual {v2, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;

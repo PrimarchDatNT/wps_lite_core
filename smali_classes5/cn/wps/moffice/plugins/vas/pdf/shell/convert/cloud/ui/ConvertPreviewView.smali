@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a5a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->plugin_pdf_convert_preview_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -73,7 +73,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/plugins/vas/pdf/shell/convert/cloud/ui/ConvertPreviewView;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0565
+    sget p2, Lcom/resouce/module/ResID;->convert_btn:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/plugins/vas/pdf/shell/convert/cloud/ui/ConvertPreviewView;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0573
+    sget p2, Lcom/resouce/module/ResID;->convert_preview_listview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

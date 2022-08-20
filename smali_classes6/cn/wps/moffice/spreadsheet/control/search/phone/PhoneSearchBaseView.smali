@@ -134,7 +134,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->B:Landroid/content/Context;
 
-    const v2, 0x7f120c0b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_search_result_info:I
 
     const/4 v3, 0x2
 
@@ -176,7 +176,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->B:Landroid/content/Context;
 
-    const p2, 0x7f122893
+    sget p2, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-static {p1, p2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -387,7 +387,7 @@
 .method public final o()V
     .locals 2
 
-    const v0, 0x7f0b0b88
+    sget v0, Lcom/resouce/module/ResID;->et_search_replace_air:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -398,7 +398,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->a0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0b8b
+    sget v0, Lcom/resouce/module/ResID;->et_search_replace_input:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v0, 0x7f0b0b8a
+    sget v0, Lcom/resouce/module/ResID;->et_search_replace_clean_input_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -523,7 +523,7 @@
 .method public final p()V
     .locals 2
 
-    const v0, 0x7f0b0b81
+    sget v0, Lcom/resouce/module/ResID;->et_search_find_input:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -553,7 +553,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v0, 0x7f0b0b80
+    sget v0, Lcom/resouce/module/ResID;->et_search_find_clean_input_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -567,7 +567,7 @@
     .line 6
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0b94
+    sget v0, Lcom/resouce/module/ResID;->et_search_result_info:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -583,7 +583,7 @@
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b0b7f
+    sget v0, Lcom/resouce/module/ResID;->et_search_find_btn:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -610,7 +610,7 @@
 .method public q()V
     .locals 2
 
-    const v0, 0x7f0b0b9f
+    sget v0, Lcom/resouce/module/ResID;->et_search_settings:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -624,7 +624,7 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b210d
+    sget v0, Lcom/resouce/module/ResID;->phone_search_back:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

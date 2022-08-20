@@ -131,13 +131,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a71
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_custom_horizon_progressbar:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b23e2
+    sget v0, Lcom/resouce/module/ResID;->ppt_progress_progressbar_hor:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/common/MultiFunctionProgressBar;->U:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v0, 0x7f0b2425
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_filereceiving_cancel_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/common/MultiFunctionProgressBar;->a0:Landroid/view/View;
 
-    const v0, 0x7f0b23e1
+    sget v0, Lcom/resouce/module/ResID;->ppt_progress_percent:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/common/MultiFunctionProgressBar;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b23e0
+    sget v0, Lcom/resouce/module/ResID;->ppt_progress_info:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

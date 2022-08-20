@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0606c5
+    sget p2, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     .line 2
     invoke-virtual {p1, v2, p2}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -83,7 +83,7 @@
 
     iput p2, p0, Lcn/wps/moffice/common/beans/ColorfullRecttangleTextView;->I:I
 
-    const p2, 0x7f081b5c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_rect_selected_tick:I
 
     .line 3
     invoke-virtual {p1, v0, p2}, Landroid/content/res/TypedArray;->getResourceId(II)I

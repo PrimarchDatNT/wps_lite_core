@@ -29,7 +29,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121697
+    sget v0, Lcom/resouce/module/ResSTRING;->pay_googlepay_key_test:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -52,7 +52,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f121695    # 1.9418454E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->pay_googlepay_key_i18n:I    # 1.9418454E38f
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -62,7 +62,7 @@
     return-object p0
 
     :cond_1
-    const v0, 0x7f121694
+    sget v0, Lcom/resouce/module/ResSTRING;->pay_googlepay_key:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

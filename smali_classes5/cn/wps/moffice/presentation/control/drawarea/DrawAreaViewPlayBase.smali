@@ -283,7 +283,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f122d5c
+    sget v4, Lcom/resouce/module/ResSTRING;->reader_preview_page_num_info:I
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -350,7 +350,7 @@
 .method public final g()V
     .locals 2
 
-    const v0, 0x7f0b237c
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_laser_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->W:Lcn/wps/moffice/presentation/control/laserpen/LaserPenView;
 
-    const v0, 0x7f0b237b
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_ink_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -421,12 +421,12 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_view_fold_devide_root:I
 
     .line 2
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b238e
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_playview_root:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->S:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b23ba
+    sget v0, Lcom/resouce/module/ResID;->ppt_playview:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->B:Landroid/view/SurfaceView;
 
-    const v0, 0x7f0b236f
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_autoplay_shade_layer:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -457,7 +457,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b2bbf
+    sget v0, Lcom/resouce/module/ResID;->shareplay_browse_mode_prompt_layout:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->n0:Landroid/view/View;
 
-    const v0, 0x7f0b2370
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_autoplay_trigger:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b2375
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_indicator_left:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -486,7 +486,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->d0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b2376
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_indicator_right:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -497,7 +497,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->e0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b2395
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_share_play:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b2397
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_sliding_note:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
     .line 12
     invoke-static {v0}, Lskh;->n(Landroid/view/View;)V
 
-    const v0, 0x7f0b23a1
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_toast_msg:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -531,7 +531,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->k0:Lcn/wps/moffice/presentation/control/common/CustomToastView;
 
-    const v0, 0x7f0b239f
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_titlebar:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->T:Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;
 
-    const v0, 0x7f0b23a0
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_titlebar_root:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -556,7 +556,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0814f8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_top_bg:I
 
     invoke-static {v0, v1}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -577,7 +577,7 @@
 
     invoke-static {v0}, Lskh;->n(Landroid/view/View;)V
 
-    const v0, 0x7f0b236b
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_agora_layout:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -586,7 +586,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b2391
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_record_menu_bar:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->i0:Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;
 
-    const v0, 0x7f0b2382
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_mouse_tool:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b2381
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_loading_view:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b2b95
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_layout:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -624,7 +624,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b237a
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_ink_pre_next_root:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->q0:Landroid/view/View;
 
-    const v0, 0x7f0b2398
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_thumbslide:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -644,7 +644,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->U:Lcn/wps/moffice/presentation/control/show/shell/slide/view/ThumbSlideView;
 
-    const v0, 0x7f0b2394
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_right_root:I
 
     .line 27
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->u0:Landroid/view/View;
 
-    const v0, 0x7f0b2380
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_left_root:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->C0:Landroid/view/View;
 
-    const v0, 0x7f0b237e
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_left_pen_root:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -671,7 +671,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->D0:Landroid/view/View;
 
-    const v0, 0x7f0b237f
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_left_pensetting_button:I
 
     .line 30
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->E0:Landroid/view/View;
 
-    const v0, 0x7f0b23b3
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_note:I
 
     .line 31
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -689,7 +689,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->v0:Landroid/view/View;
 
-    const v0, 0x7f0b23b4
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_note_flodDv:I
 
     .line 32
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -705,7 +705,7 @@
 
     invoke-virtual {v1, v2, v0}, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->setNoteView(Landroid/view/View;Landroid/view/View;)V
 
-    const v0, 0x7f0b23a4
+    sget v0, Lcom/resouce/module/ResID;->ppt_playrightbar_autoplay:I
 
     .line 34
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -714,7 +714,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->A0:Landroid/view/View;
 
-    const v0, 0x7f0b23a5
+    sget v0, Lcom/resouce/module/ResID;->ppt_playrightbar_meeting_setting:I
 
     .line 35
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -735,7 +735,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2393
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_right_panel_root:I
 
     .line 38
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -777,7 +777,7 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->setSharePlaySettingView(Lcn/wps/moffice/presentation/control/tvproject/PptSharePlaySettingView;)V
 
-    const v0, 0x7f0b238c
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_undo:I
 
     .line 42
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->f0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b238d
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_undo_line:I
 
     .line 43
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -797,7 +797,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->L0:Landroid/view/View;
 
-    const v0, 0x7f0b238b
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_laser:I
 
     .line 44
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -806,7 +806,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->F0:Landroid/view/View;
 
-    const v0, 0x7f0b2389
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_ink:I
 
     .line 45
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -815,7 +815,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->G0:Landroid/view/View;
 
-    const v0, 0x7f0b2387
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_heightLight:I
 
     .line 46
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -824,7 +824,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->H0:Landroid/view/View;
 
-    const v0, 0x7f0b238a
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_ink_cover:I
 
     .line 47
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -833,7 +833,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->I0:Landroid/view/View;
 
-    const v0, 0x7f0b2388
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_heightLight_cover:I
 
     .line 48
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -842,7 +842,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->J0:Landroid/view/View;
 
-    const v0, 0x7f0b2385
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_eraser:I
 
     .line 49
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -851,7 +851,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->K0:Landroid/view/View;
 
-    const v0, 0x7f0b2384
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_pen_close:I
 
     .line 50
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -884,7 +884,7 @@
     .line 55
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->d0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v2, 0x7f0606e1
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/AlphaImageView;->setFilterColor(I)V
 
@@ -945,7 +945,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/SurfaceView;->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
 
-    const v0, 0x7f0b238f
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_playview_root_cover:I
 
     .line 66
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -954,7 +954,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->Q0:Landroid/view/View;
 
-    const v0, 0x7f0b23a7
+    sget v0, Lcom/resouce/module/ResID;->ppt_playrightbar_thumbslide:I
 
     .line 67
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -963,7 +963,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewPlayBase;->O0:Landroid/view/View;
 
-    const v0, 0x7f0b23a6
+    sget v0, Lcom/resouce/module/ResID;->ppt_playrightbar_miracast_switch:I
 
     .line 68
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1088,7 +1088,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0709bb
+    sget v2, Lcom/resouce/module/ResDIMEN;->ppt_play_slide_list_height_v:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1320,7 +1320,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b337e
+    sget v1, Lcom/resouce/module/ResID;->video_player_mark:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

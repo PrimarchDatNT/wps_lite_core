@@ -52,9 +52,9 @@
 
     move-result v0
 
-    const v1, 0x7f123452
+    sget v1, Lcom/resouce/module/ResSTRING;->yunkit_sk_seg_local:I
 
-    const v2, 0x7f123451
+    sget v2, Lcom/resouce/module/ResSTRING;->yunkit_sk_seg:I
 
     if-eqz v0, :cond_0
 
@@ -110,7 +110,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f123453
+    sget v4, Lcom/resouce/module/ResSTRING;->yunkit_sk_segment:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12344f
+    sget v2, Lcom/resouce/module/ResSTRING;->yunkit_ak_seg:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123450
+    sget v2, Lcom/resouce/module/ResSTRING;->yunkit_ak_seg_local:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

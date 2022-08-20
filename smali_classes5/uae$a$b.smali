@@ -70,7 +70,7 @@
 
     iget-object v0, v0, Luae;->a:Landroid/content/Context;
 
-    const v1, 0x7f122131
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_not_exist_download_again:I
 
     const/4 v2, 0x0
 

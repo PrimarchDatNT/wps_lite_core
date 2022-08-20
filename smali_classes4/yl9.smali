@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1214ae
+    sget v1, Lcom/resouce/module/ResSTRING;->nover_record_disable:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -49,12 +49,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d20
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_novel_info_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -171,7 +171,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707bc
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -238,7 +238,7 @@
     invoke-virtual {p0}, Lhd3;->setCardContentpaddingBottomNone()V
 
     :goto_0
-    const v1, 0x7f0b13cd
+    sget v1, Lcom/resouce/module/ResID;->item_label:I
 
     .line 24
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

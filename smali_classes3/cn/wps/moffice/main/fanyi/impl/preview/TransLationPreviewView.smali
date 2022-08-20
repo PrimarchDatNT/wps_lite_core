@@ -109,7 +109,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0fdc
+    sget p3, Lcom/resouce/module/ResLAYOUT;->translation_preview_layout:I
 
     invoke-virtual {p2, p3, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -117,7 +117,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/fanyi/impl/preview/TransLationPreviewView;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0797
+    sget p3, Lcom/resouce/module/ResID;->download_page_btn:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 8
     iget-object p2, p0, Lcn/wps/moffice/main/fanyi/impl/preview/TransLationPreviewView;->B:Landroid/view/View;
 
-    const p3, 0x7f0b1d14
+    sget p3, Lcom/resouce/module/ResID;->payPage:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -147,7 +147,7 @@
     .line 10
     iget-object p2, p0, Lcn/wps/moffice/main/fanyi/impl/preview/TransLationPreviewView;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0fd6
+    sget p3, Lcom/resouce/module/ResID;->hintPage:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
     .line 12
     iget-object p2, p0, Lcn/wps/moffice/main/fanyi/impl/preview/TransLationPreviewView;->B:Landroid/view/View;
 
-    const p3, 0x7f0b30c5
+    sget p3, Lcom/resouce/module/ResID;->translation_preview_list:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -220,7 +220,7 @@
     .line 19
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setGravity(I)V
 
-    const v0, 0x7f120cc5
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_previewbottomtips:I
 
     .line 20
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
@@ -237,7 +237,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -581,7 +581,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0797
+    sget v0, Lcom/resouce/module/ResID;->download_page_btn:I
 
     if-ne p1, v0, :cond_2
 
@@ -647,7 +647,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1d14
+    sget v0, Lcom/resouce/module/ResID;->payPage:I
 
     if-ne p1, v0, :cond_3
 
@@ -735,7 +735,7 @@
 
     aput-object v4, v3, v0
 
-    const v4, 0x7f120cc6
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_previewdownload:I
 
     invoke-virtual {v1, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -760,7 +760,7 @@
 
     aput-object v3, v2, v0
 
-    const v0, 0x7f120cc7
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_previewtips:I
 
     invoke-virtual {v1, v0, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

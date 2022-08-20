@@ -152,27 +152,27 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07cf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_print_tabs:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     new-instance v0, Lssc$c;
 
-    const v1, 0x7f0b1ef9
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_setting_tab:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v1, 0x7f0b1efa
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_setting_textview:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v1, 0x7f0b1ef8
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_setting_divide_line:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -193,20 +193,20 @@
     .line 4
     new-instance v0, Lssc$c;
 
-    const v1, 0x7f0b1ef3
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_preview_tab:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v1, 0x7f0b1ef4
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_preview_textview:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
-    const v1, 0x7f0b1ecf
+    sget v1, Lcom/resouce/module/ResID;->pdf_preview_divide_line:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
 
     iput-object v0, p0, Lssc;->g0:Lssc$c;
 
-    const v0, 0x7f0b1ed8
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_content_pager:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

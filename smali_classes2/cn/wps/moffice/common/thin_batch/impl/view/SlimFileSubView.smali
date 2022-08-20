@@ -346,7 +346,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f122174
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_size_reducing:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -439,7 +439,7 @@
 
     if-nez v0, :cond_3
 
-    const v0, 0x7f0b0cd4
+    sget v0, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 12
     invoke-virtual {v4, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f121d9f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_batch_slim_slim_stoping_file:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -606,7 +606,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e02cc
+    sget p2, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_slim_result_header_view:I
 
     const/4 v2, 0x0
 
@@ -614,7 +614,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2c43
+    sget p2, Lcom/resouce/module/ResID;->slim_result_item_container:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -625,7 +625,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->n0:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2c40
+    sget p2, Lcom/resouce/module/ResID;->slim_result_count_tv:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -646,7 +646,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f122175
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_result_title:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -792,12 +792,12 @@
 
     if-lez v2, :cond_0
 
-    const v0, 0x7f121d9d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_slim_slim_stoped_file:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121d9e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_slim_slim_stoped_no_slim_file:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -905,7 +905,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0818fe
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_dash_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -919,7 +919,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f122174
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_size_reducing:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1188,7 +1188,7 @@
 .method public getBackBtn()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1262,7 +1262,7 @@
 .method public final t()V
     .locals 3
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1291,7 +1291,7 @@
 
     invoke-static {v1, v2}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v1, 0x7f122266
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1313,11 +1313,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02cb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_slim_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b2c3c
+    sget p1, Lcom/resouce/module/ResID;->slim_file_lv:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1328,7 +1328,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->U:Landroid/widget/ListView;
 
-    const p1, 0x7f0b25ee
+    sget p1, Lcom/resouce/module/ResID;->public_file_size_reduce_dash_icon:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->e0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b25ef
+    sget p1, Lcom/resouce/module/ResID;->public_file_size_reduce_indicator:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1348,7 +1348,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->f0:Landroid/view/View;
 
-    const p1, 0x7f0b25f7
+    sget p1, Lcom/resouce/module/ResID;->public_file_size_reduce_result_layout:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1357,7 +1357,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->g0:Landroid/view/View;
 
-    const p1, 0x7f0b2c44
+    sget p1, Lcom/resouce/module/ResID;->slim_stop_pb:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1366,7 +1366,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->h0:Landroid/view/View;
 
-    const p1, 0x7f0b25f8
+    sget p1, Lcom/resouce/module/ResID;->public_file_size_reduce_result_size:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1377,7 +1377,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->i0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b25f9
+    sget p1, Lcom/resouce/module/ResID;->public_file_size_reduce_result_unit:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1388,7 +1388,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->j0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2c3b
+    sget p1, Lcom/resouce/module/ResID;->slim_file_container:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1397,7 +1397,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b2c41
+    sget p1, Lcom/resouce/module/ResID;->slim_result_detail_container:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1406,7 +1406,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->l0:Landroid/view/View;
 
-    const p1, 0x7f0b2c42
+    sget p1, Lcom/resouce/module/ResID;->slim_result_file_lv:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1417,7 +1417,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->o0:Landroid/widget/ListView;
 
-    const p1, 0x7f0b1d0a
+    sget p1, Lcom/resouce/module/ResID;->pause_slim_file_btn:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1426,7 +1426,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->b0:Landroid/view/View;
 
-    const p1, 0x7f0b28e1
+    sget p1, Lcom/resouce/module/ResID;->resume_slim_file_btn:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1435,7 +1435,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b04e1
+    sget p1, Lcom/resouce/module/ResID;->complete_slim_file_btn:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1444,7 +1444,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->d0:Landroid/view/View;
 
-    const p1, 0x7f0b2c3f
+    sget p1, Lcom/resouce/module/ResID;->slim_progress_tv:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1455,7 +1455,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/SlimFileSubView;->W:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2c3e
+    sget p1, Lcom/resouce/module/ResID;->slim_message_tv:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1499,7 +1499,7 @@
 .method public final v(Landroid/view/ViewGroup;)Z
     .locals 1
 
-    const v0, 0x7f0b0cd4
+    sget v0, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1533,7 +1533,7 @@
 .method public final w(Landroid/view/ViewGroup;)Z
     .locals 1
 
-    const v0, 0x7f0b0cd4
+    sget v0, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1622,7 +1622,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121d9b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_batch_slim_slim_progress:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204d3
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_base_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f9
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_host_gray_support:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120527
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_pic_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204fc
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_icon_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f8
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_host_cntnt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f4
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_get_privilege_templates_api:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f1
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_get_coupon_status_url:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dab
+    sget v1, Lcom/resouce/module/ResSTRING;->get_coupon_status_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120537
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_subject_url:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -243,7 +243,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f0
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_get_category_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -265,7 +265,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204f5
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_get_similar_template:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120512
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_ops:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12146c
+    sget v1, Lcom/resouce/module/ResSTRING;->new_mall_category:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204e1
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_coupon_list_url:I
 
     .line 24
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -326,7 +326,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204d4
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_base_mobile_host:I
 
     .line 26
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -398,7 +398,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204e6
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_docerserver_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

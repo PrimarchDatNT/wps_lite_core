@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03ae
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_share_files_layout:I
 
     const/4 v2, 0x0
 
@@ -396,7 +396,7 @@
 
     iput-object v0, p0, Lcdf;->B:Landroid/view/View;
 
-    const v1, 0x7f0b33c2
+    sget v1, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
     .line 4
     iget-object v0, p0, Lcdf;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2e24
+    sget v1, Lcom/resouce/module/ResID;->tab_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -423,7 +423,7 @@
     .line 5
     iget-object v0, p0, Lcdf;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122970
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_folder_file:I
 
     return v0
 .end method

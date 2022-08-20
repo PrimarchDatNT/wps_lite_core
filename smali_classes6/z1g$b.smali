@@ -59,7 +59,7 @@
 
     invoke-static {p2}, Lukh;->h(Landroid/view/View;)V
 
-    const p2, 0x7f12073f
+    sget p2, Lcom/resouce/module/ResSTRING;->et_autofilter_firstsome_num_range_err:I
 
     const/4 v0, 0x0
 

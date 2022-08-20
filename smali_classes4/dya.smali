@@ -23,7 +23,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0128
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_rectify_process_dialog:I
 
     const/4 v2, 0x0
 
@@ -33,7 +33,7 @@
 
     iput-object v0, p0, Lcya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b072a
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_rectify_loading_img:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
     .line 4
     iget-object v0, p0, Lcya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b072c
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_rectify_loading_scan:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -60,7 +60,7 @@
     .line 5
     new-instance v0, Landroid/app/Dialog;
 
-    const v1, 0x7f13012d
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, p1, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -102,7 +102,7 @@
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
     :cond_0
-    const v0, 0x7f01009f
+    sget v0, Lcom/resouce/module/ResANIM;->scan_rectify_loading_animation:I
 
     .line 11
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;

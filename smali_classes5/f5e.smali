@@ -38,7 +38,7 @@
     .line 2
     iput-object p1, p0, Lf5e;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2b96
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_tv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object v0, p0, Lf5e;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2b93
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_close_btn:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2b92
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_change_web_shareplay:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lf5e;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2b94
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_incompatible_no_show:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070821
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_title_bar_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -174,7 +174,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c3b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_tip_close:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -333,7 +333,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080142
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->checkjob_dialog_close:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

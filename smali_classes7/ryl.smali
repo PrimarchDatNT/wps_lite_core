@@ -330,7 +330,7 @@
     .line 5
     iget-object v0, p0, Lryl;->b:Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;
 
-    const v1, 0x7f081318
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_bg_black:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->P(I)V
 

@@ -18,7 +18,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0e05c6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_save_browser:I
 
     return v0
 .end method

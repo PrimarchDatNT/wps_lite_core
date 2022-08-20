@@ -1039,7 +1039,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122c92
+    sget p2, Lcom/resouce/module/ResSTRING;->push_category_report_url:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1155,7 +1155,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122e34
+    sget v2, Lcom/resouce/module/ResSTRING;->request_push_category_url:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1172,7 +1172,7 @@
     .line 8
     iget-object v2, v2, Lcn/wps/moffice/main/info/DeviceInfo;->osversion:Ljava/lang/String;
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 9
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

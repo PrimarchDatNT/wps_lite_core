@@ -32,9 +32,9 @@
     .line 2
     new-instance v0, Lurd$h;
 
-    const v1, 0x7f080be8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_nothing_ppt:I
 
-    const v2, 0x7f122372
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_stop:I
 
     invoke-direct {v0, p0, v1, v2}, Lurd$h;-><init>(Lurd;II)V
 
@@ -43,9 +43,9 @@
     .line 3
     new-instance v0, Lurd$i;
 
-    const v1, 0x7f080ddb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_use_hand:I
 
-    const v2, 0x7f122367
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_by_finger:I
 
     invoke-direct {v0, p0, v1, v2}, Lurd$i;-><init>(Lurd;II)V
 
@@ -411,7 +411,7 @@
 
     invoke-direct {p1, v0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122369
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ink_close:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -427,7 +427,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1224ae
+    sget v1, Lcom/resouce/module/ResSTRING;->public_member_enable_cloud_accelerate_2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1224a7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_member_cloud_download_speed_up_2:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

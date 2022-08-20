@@ -103,7 +103,7 @@
     .line 1
     iget-object v0, p0, Lgy4$b;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x0
 

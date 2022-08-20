@@ -16,7 +16,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -64,7 +64,7 @@
     .line 4
     invoke-virtual {p0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f0b087e
+    sget v0, Lcom/resouce/module/ResID;->en_third_docs_link_open:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12071f
+    sget v2, Lcom/resouce/module/ResSTRING;->en_third_doc_download_open:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122588
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b087e
+    sget v0, Lcom/resouce/module/ResID;->en_third_docs_link_open:I
 
     if-ne p1, v0, :cond_0
 

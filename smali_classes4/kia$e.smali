@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12182f
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_new_documents:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

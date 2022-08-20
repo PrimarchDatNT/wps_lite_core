@@ -307,7 +307,7 @@
 
     iget-object p2, p0, Llv4;->B:Landroid/app/Activity;
 
-    const p3, 0x7f1226fd
+    sget p3, Lcom/resouce/module/ResSTRING;->public_print_scan_all_unsupport:I
 
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -346,7 +346,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12270f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_unsupport_duplex:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -377,7 +377,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12270e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_unsupport_colorful:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -507,7 +507,7 @@
     .line 1
     invoke-super {p0, p1}, Llv4;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f1226ff
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_scan_choose_printer:I
 
     .line 2
     invoke-virtual {p0, p1}, Llv4;->U2(I)V
@@ -519,7 +519,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e20
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_scan_print_printer_list:I
 
     const/4 v1, 0x0
 
@@ -529,7 +529,7 @@
 
     invoke-virtual {p0, p1}, Llv4;->setContentView(Landroid/view/View;)V
 
-    const p1, 0x7f0b02fb
+    sget p1, Lcom/resouce/module/ResID;->btn_scan_printer:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -538,7 +538,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    const v0, 0x7f0b2522
+    sget v0, Lcom/resouce/module/ResID;->printer_list:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -549,7 +549,7 @@
 
     iput-object v0, p0, Lsv4;->X:Landroid/widget/ListView;
 
-    const v0, 0x7f0b085a
+    sget v0, Lcom/resouce/module/ResID;->empty_layout:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122706
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_scan_modify_option:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

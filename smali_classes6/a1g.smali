@@ -334,12 +334,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01af
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_autofilter_dropdown_hint:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e068c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_autofilter_dropdown_hint:I
 
     .line 2
     :goto_0
@@ -782,7 +782,7 @@
     .line 4
     iget-object v3, p0, La1g;->b:Landroid/content/Context;
 
-    const v4, 0x7f12088a
+    sget v4, Lcom/resouce/module/ResSTRING;->et_filter_count_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

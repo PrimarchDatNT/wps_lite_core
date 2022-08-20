@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e03ee
+    sget p2, Lcom/resouce/module/ResLAYOUT;->insert_textcomments_input_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 .method public final c(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b017f
+    sget v0, Lcom/resouce/module/ResID;->author:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/TextCommentsView;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07ee
+    sget v0, Lcom/resouce/module/ResID;->editText:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

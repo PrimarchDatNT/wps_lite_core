@@ -242,7 +242,7 @@
     :goto_0
     iget-object p2, p0, Lwv6;->I:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0c83
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_infoflow_recommend_documents_item:I
 
     const/4 v0, 0x0
 
@@ -255,7 +255,7 @@
 
     invoke-direct {p3, p0}, Lwv6$b;-><init>(Lwv6;)V
 
-    const v0, 0x7f0b2643
+    sget v0, Lcom/resouce/module/ResID;->public_infoflow_recommend_doc_item_icon:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
 
     iput-object v0, p3, Lwv6$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2645
+    sget v0, Lcom/resouce/module/ResID;->public_infoflow_recommend_doc_item_title:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
 
     iput-object v0, p3, Lwv6$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2644
+    sget v0, Lcom/resouce/module/ResID;->public_infoflow_recommend_doc_item_time:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
 
     iput-object v0, p3, Lwv6$b;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2cc3
+    sget v0, Lcom/resouce/module/ResID;->split_line:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

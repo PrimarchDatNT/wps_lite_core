@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1228ce
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_set_successful:I
 
     const/4 v2, 0x0
 

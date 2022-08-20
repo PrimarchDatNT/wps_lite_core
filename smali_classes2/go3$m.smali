@@ -50,7 +50,7 @@
     .line 2
     iget-object p1, p0, Lgo3$m;->B:Lgo3;
 
-    const v0, 0x7f12084a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_edittoast_restore_nothing:I
 
     invoke-static {p1, v0}, Lgo3;->p(Lgo3;I)V
 
@@ -185,7 +185,7 @@
     .line 12
     iget-object p1, p0, Lgo3$m;->B:Lgo3;
 
-    const v0, 0x7f12084b
+    sget v0, Lcom/resouce/module/ResSTRING;->et_edittoast_restore_undo:I
 
     invoke-static {p1, v0}, Lgo3;->p(Lgo3;I)V
 

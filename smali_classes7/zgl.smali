@@ -199,7 +199,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122a5f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table_split_columns_exceed_maximum:I
 
     invoke-static {p2, v0, p1}, Lbih;->n(Landroid/content/Context;II)V
 

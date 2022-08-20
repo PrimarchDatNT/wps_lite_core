@@ -513,7 +513,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24b1
+    sget v1, Lcom/resouce/module/ResID;->ppt_video_player_surface:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24af
+    sget v1, Lcom/resouce/module/ResID;->ppt_video_player_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -541,7 +541,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24b0
+    sget v1, Lcom/resouce/module/ResID;->ppt_video_player_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -554,7 +554,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24ae
+    sget v1, Lcom/resouce/module/ResID;->ppt_video_player_center_pause:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -567,7 +567,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24b2
+    sget v1, Lcom/resouce/module/ResID;->ppt_video_player_surfaceContainer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -615,17 +615,17 @@
     .line 13
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;->q(Z)Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;
 
-    const v1, 0x7f0816fd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back_white:I
 
     .line 14
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;->s(I)Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;
 
-    const v1, 0x7f080385
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_pause:I
 
     .line 15
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;->t(I)Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;
 
-    const v1, 0x7f08038c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_play:I
 
     .line 16
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;->u(I)Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoControllerView$h;
@@ -729,7 +729,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f130155
+    sget v0, Lcom/resouce/module/ResSTYLE;->FullScreenDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Landroid/app/DialogFragment;->setStyle(II)V
@@ -764,7 +764,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0af2
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_video_player_layout:I
 
     const/4 v0, 0x0
 
@@ -818,7 +818,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121bb6
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_play_video_dialog_title:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -835,7 +835,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121bb8
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_play_video_positive_text:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -856,7 +856,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1015,7 +1015,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoDialog;->c0:Landroid/app/Activity;
 
-    const v2, 0x7f0b337e
+    sget v2, Lcom/resouce/module/ResID;->video_player_mark:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1138,7 +1138,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/video/videocontrolview/VideoDialog;->c0:Landroid/app/Activity;
 
-    const v1, 0x7f0b337e
+    sget v1, Lcom/resouce/module/ResID;->video_player_mark:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

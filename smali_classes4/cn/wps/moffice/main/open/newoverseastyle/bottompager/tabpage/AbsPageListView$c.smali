@@ -43,7 +43,7 @@
     .line 1
     invoke-direct {p0, p1}, Lpga$b;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b10e7
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -54,7 +54,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/open/newoverseastyle/bottompager/tabpage/AbsPageListView$c;->k0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10e9
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/open/newoverseastyle/bottompager/tabpage/AbsPageListView$c;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10df
+    sget v0, Lcom/resouce/module/ResID;->home_open_device_item_progress:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/open/newoverseastyle/bottompager/tabpage/AbsPageListView$c;->m0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v0, 0x7f0b10e8
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_subtitle:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/open/newoverseastyle/bottompager/tabpage/AbsPageListView$c;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10eb
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_underline:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c80
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_recommend_landscape:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d69    # 1.9422E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_audio_no_camera_found_tips:I    # 1.9422E38f
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

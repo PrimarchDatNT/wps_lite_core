@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1226e8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -509,7 +509,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121bbe
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_print_copys_tip:I
 
     invoke-static {v1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -761,7 +761,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121bbe
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_print_copys_tip:I
 
     const/4 v2, 0x0
 
@@ -834,7 +834,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121bc1
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_print_scope_custom_tip:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -948,7 +948,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122711
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_selfdef_cant_null:I
 
     const/4 v2, 0x0
 
@@ -1059,7 +1059,7 @@
 .method public final r()V
     .locals 1
 
-    const v0, 0x7f0b23c8
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_focusLayo:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1178,17 +1178,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0ac3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_setting_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0194
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_ppt_print_setting_phone:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0ac2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_setting_pad:I
 
     .line 3
     :goto_0
@@ -1199,7 +1199,7 @@
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const v1, 0x7f0b23bc
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_all_pages_radio:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1210,7 +1210,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->B:Landroid/widget/RadioButton;
 
-    const v1, 0x7f0b23c7
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_current_pages_radio:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1221,7 +1221,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->I:Landroid/widget/RadioButton;
 
-    const v1, 0x7f0b23d2
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_select_pages_radio:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1232,7 +1232,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->S:Landroid/widget/RadioButton;
 
-    const v1, 0x7f0b23d6
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_selfdef_pages_radio:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1271,7 +1271,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f0b23d1
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_select_pages_more:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1280,7 +1280,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->U:Landroid/view/View;
 
-    const v1, 0x7f0b23d3
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_select_pages_text:I
 
     .line 14
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1291,7 +1291,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b23d5
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_selfdef_pages_edt:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1318,7 +1318,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    const v0, 0x7f0b23bf
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_content_frame_none:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1329,7 +1329,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->a0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b23be
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_content_frame_exist:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1340,7 +1340,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->b0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b23c2
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_copys_count:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1351,7 +1351,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->c0:Landroid/widget/EditText;
 
-    const v0, 0x7f0b23c1
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_copys_add_btn:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1362,7 +1362,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->d0:Landroid/widget/Button;
 
-    const v0, 0x7f0b23c5
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_copys_sub_btn:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1373,7 +1373,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->e0:Landroid/widget/Button;
 
-    const v0, 0x7f0b23bd
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_btn:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1384,7 +1384,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->f0:Landroid/widget/Button;
 
-    const v0, 0x7f0b23ca
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_layout_top:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1395,7 +1395,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->h0:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b23cb
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_layout_top_content:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1404,7 +1404,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b23d7
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_setting_bottom:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1420,7 +1420,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b23c3
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_copys_divideline:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1431,7 +1431,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b23c4
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_copys_root:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1460,7 +1460,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b23d9
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_show_watermark_check_btn:I
 
     .line 31
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1471,14 +1471,14 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/PrintSettingsView;->g0:Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v0, 0x7f0b2521
+    sget v0, Lcom/resouce/module/ResID;->print_watermark_divider:I
 
     .line 32
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b23bb
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_additonal_attr_title:I
 
     .line 33
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

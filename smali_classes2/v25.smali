@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -752,7 +752,7 @@
     .line 2
     iget-object p1, p0, Lv25;->b:Landroid/app/Activity;
 
-    const v2, 0x7f1204b5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     const/4 v3, 0x1
 
@@ -1198,7 +1198,7 @@
     .line 10
     iget-object v0, p0, Lv25;->b:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 

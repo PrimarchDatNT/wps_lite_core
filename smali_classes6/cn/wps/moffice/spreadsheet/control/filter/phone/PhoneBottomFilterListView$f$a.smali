@@ -79,7 +79,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->p0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f120887
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_clear_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -93,7 +93,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->p0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f12087d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -122,7 +122,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->p0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -136,7 +136,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->p0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f12087c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

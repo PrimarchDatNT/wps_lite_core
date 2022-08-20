@@ -122,7 +122,7 @@
     .line 2
     iget-object p1, p0, Lj18$a;->I:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

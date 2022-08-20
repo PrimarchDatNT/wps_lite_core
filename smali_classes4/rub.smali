@@ -85,7 +85,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v6, 0x1
 
@@ -113,7 +113,7 @@
     .line 3
     iget-object p1, p0, Lrub;->I:Landroid/app/Activity;
 
-    const v0, 0x7f12189e
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_cvt_failed:I
 
     invoke-static {p1, v0, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -123,7 +123,7 @@
     :cond_0
     iget-object p1, p0, Lrub;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-static {p1, v0, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -133,7 +133,7 @@
     :cond_1
     iget-object p1, p0, Lrub;->I:Landroid/app/Activity;
 
-    const v0, 0x7f12045b
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_out_memory_error_tip:I
 
     invoke-static {p1, v0, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -143,7 +143,7 @@
     :cond_2
     iget-object p1, p0, Lrub;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     invoke-static {p1, v0, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -161,7 +161,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f12259f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_file_in_error_account:I
 
     .line 9
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -189,7 +189,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122589
+    sget v0, Lcom/resouce/module/ResSTRING;->public_openDocumentFormatError:I
 
     .line 14
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -265,7 +265,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 22
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -300,7 +300,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122412
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     .line 28
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -340,7 +340,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f122411
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentFormatError:I
 
     .line 35
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -348,7 +348,7 @@
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f121f87
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_corrupted:I
 
     .line 36
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -431,7 +431,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122135
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_open_failed:I
 
     .line 50
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -457,7 +457,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -470,13 +470,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 55
     new-instance v3, Lrub$d;
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1220d4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_item:I
 
     new-instance v3, Lrub$c;
 

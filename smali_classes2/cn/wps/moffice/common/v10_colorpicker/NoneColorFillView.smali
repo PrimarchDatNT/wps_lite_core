@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1043
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_write_none_color_fill_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -122,7 +122,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/v10_colorpicker/NoneColorFillView;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b16b1
+    sget v1, Lcom/resouce/module/ResID;->ll_none_color:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/v10_colorpicker/NoneColorFillView;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b12bc
+    sget v1, Lcom/resouce/module/ResID;->img_left_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/v10_colorpicker/NoneColorFillView;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b2f06
+    sget v1, Lcom/resouce/module/ResID;->text_color_view_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/v10_colorpicker/NoneColorFillView;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b12c6
+    sget v1, Lcom/resouce/module/ResID;->img_right_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

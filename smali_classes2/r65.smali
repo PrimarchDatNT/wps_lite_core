@@ -695,7 +695,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f123064
+    sget v0, Lcom/resouce/module/ResSTRING;->temp_login_report_read:I
 
     const/4 v3, 0x3
 

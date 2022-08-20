@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/data_collection_setting_txt" android:clickable="true" android:text="@string/public_gdpr_user_policy_item_data_collection" style="@style/phone_home_setting_group_item_txt" />
-    <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/account_setting_txt" android:clickable="true" android:text="@string/home_manage_account" style="@style/phone_home_setting_group_item_txt" />
-    <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/ad_data_setting_txt" android:clickable="true" android:text="@string/public_gdpr_ad_data_setting_title_tips" style="@style/phone_home_setting_group_item_txt" />
-</LinearLayout>

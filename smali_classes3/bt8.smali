@@ -593,7 +593,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122a06
+    sget v2, Lcom/resouce/module/ResSTRING;->public_space_used_preview:I
 
     const/4 v3, 0x2
 

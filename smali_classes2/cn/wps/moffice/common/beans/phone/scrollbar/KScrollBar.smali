@@ -121,7 +121,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0605ee
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -134,7 +134,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f070059
+    sget p3, Lcom/resouce/module/ResDIMEN;->all_document_under_line_height:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimension(I)F
 

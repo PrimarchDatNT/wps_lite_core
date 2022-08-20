@@ -251,7 +251,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -264,7 +264,7 @@
     .line 3
     iget-object v0, p1, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v1, 0x7f1212d0
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_card_recent_records:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
@@ -278,7 +278,7 @@
     .line 5
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c81
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_recent_records:I
 
     invoke-virtual {p1}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
 
@@ -295,7 +295,7 @@
     .line 6
     iput-object p1, p0, Lj64;->g:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 
-    const p1, 0x7f0b2829
+    sget p1, Lcom/resouce/module/ResID;->recent_listview:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

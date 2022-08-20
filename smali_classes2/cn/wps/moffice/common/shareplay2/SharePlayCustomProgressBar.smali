@@ -104,7 +104,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e41
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_shareplay_custom_progress_bar:I
 
     const/4 v1, 0x1
 
@@ -112,7 +112,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2724
+    sget p2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayCustomProgressBar;->mPercentText:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2723
+    sget p2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

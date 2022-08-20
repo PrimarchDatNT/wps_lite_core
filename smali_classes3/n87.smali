@@ -350,7 +350,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f122299
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_group_space_lack:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -483,7 +483,7 @@
     .line 3
     iget-boolean v3, v2, Ld08;->c0:Z
 
-    const v4, 0x7f120ef1
+    sget v4, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     if-nez v3, :cond_4
 
@@ -510,7 +510,7 @@
 
     iget-object v4, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f121239
+    sget v5, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -558,7 +558,7 @@
 
     iget-object v4, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1222a4
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_linkfile_move_error:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -808,7 +808,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1222a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_has_selected_num:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

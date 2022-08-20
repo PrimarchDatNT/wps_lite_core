@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/foreignmembershipshell/coupon/decorator/impl/AdsFreeCoupon;->b:Ljava/lang/String;
 
-    const p1, 0x7f081809
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_ads_free_icon:I
 
     .line 2
     iput p1, p2, Lul8$b;->f:I

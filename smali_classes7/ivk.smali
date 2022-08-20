@@ -253,7 +253,7 @@
 
     move-result v0
 
-    const v4, 0x7f0b35ec
+    sget v4, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     const/4 v5, 0x0
 
@@ -272,7 +272,7 @@
 
     move-result v0
 
-    const v4, 0x7f0b3547
+    sget v4, Lcom/resouce/module/ResID;->writer_edittoolbar_saveBtn:I
 
     if-ne v0, v4, :cond_8
 
@@ -478,7 +478,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0d06
+    sget v1, Lcom/resouce/module/ResID;->file_save:I
 
     if-ne v0, v1, :cond_0
 
@@ -497,7 +497,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b29e4    # 1.849802E38f
+    sget v1, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     if-ne p1, v1, :cond_1
 

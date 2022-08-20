@@ -137,7 +137,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f121484
+    sget p1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v0, 0x0
 
@@ -552,7 +552,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f122546
+    sget p1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v0, 0x0
 
@@ -1575,7 +1575,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f120e6b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_account_storage_max:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

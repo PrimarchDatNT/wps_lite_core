@@ -136,7 +136,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081970
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_1:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -147,7 +147,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081978
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_2:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -158,7 +158,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081979
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_3:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -169,7 +169,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_4:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -180,7 +180,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_5:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -191,7 +191,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_6:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -202,7 +202,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_7:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -213,7 +213,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_8:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -224,7 +224,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f08197f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_9:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -235,7 +235,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081971
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_10:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -246,7 +246,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081972
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_11:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -257,7 +257,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081973
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_12:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -268,7 +268,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081974
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_13:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -279,7 +279,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081975
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_14:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -290,7 +290,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081976
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_15:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -301,7 +301,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;->U:Ljava/util/List;
 
-    const v1, 0x7f081977
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_uploading_anim_grey_16:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -394,7 +394,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -442,7 +442,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

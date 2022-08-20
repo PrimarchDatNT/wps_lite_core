@@ -149,7 +149,7 @@
 
     iget-object v1, v1, Lkh4;->a:Landroid/content/Context;
 
-    const v4, 0x7f1220f0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v1, v4}, Lbih;->r(Landroid/content/Context;I)V
     :try_end_2

@@ -76,7 +76,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/cloud/roaming/service/bc/WPSQingServiceBroadcastReceiver;->a:Lcn/wps/moffice/main/cloud/roaming/service/WPSQingService;
 
-    const v0, 0x7f120654
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_upload_failed:I
 
     const/4 v1, 0x1
 

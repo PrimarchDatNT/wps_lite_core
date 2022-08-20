@@ -40,7 +40,7 @@
 .method public final A2(Lnql;)V
     .locals 4
 
-    const v0, 0x7f0b265c
+    sget v0, Lcom/resouce/module/ResID;->public_insertshapes_indicator:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/indicator/DotPageIndicator;->setFillColor(I)V
 
-    const v0, 0x7f0b265e
+    sget v0, Lcom/resouce/module/ResID;->public_insertshapes_viewpager:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

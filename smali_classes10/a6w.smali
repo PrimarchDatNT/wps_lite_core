@@ -59,7 +59,7 @@
     .line 6
     iput-object p4, p0, La6w;->h:La6w$d;
 
-    const p1, 0x7f0b1167
+    sget p1, Lcom/resouce/module/ResID;->home_search_doc_default:I
 
     .line 7
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,14 +79,14 @@
 
     iget-object p2, p0, La6w;->d:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f08
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_doc_tab_default_page:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 9
     iget-object p1, p0, La6w;->c:Landroid/view/View;
 
-    const p2, 0x7f0b318c
+    sget p2, Lcom/resouce/module/ResID;->tv_general_search_time_entrance:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 10
     iget-object p1, p0, La6w;->c:Landroid/view/View;
 
-    const p2, 0x7f0b2ab3
+    sget p2, Lcom/resouce/module/ResID;->search_time_search_entrance_outer:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

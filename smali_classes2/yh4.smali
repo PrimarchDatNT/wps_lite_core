@@ -1739,7 +1739,7 @@
 
     const/4 v7, 0x0
 
-    const v8, 0x7f121c9c
+    sget v8, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
     const-string v9, "/"
 
@@ -1766,7 +1766,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e04cb
+    sget v3, Lcom/resouce/module/ResLAYOUT;->new_user_vas_popup_coupon_window:I
 
     invoke-virtual {v0, v3, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1836,7 +1836,7 @@
 
     invoke-virtual {v3}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v3, 0x7f0b1a15
+    sget v3, Lcom/resouce/module/ResID;->new_user_progress_bar:I
 
     .line 13
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1845,7 +1845,7 @@
 
     iput-object v3, p0, Lyh4;->m:Landroid/view/View;
 
-    const v3, 0x7f0b31ee
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_coupon_tip:I
 
     .line 14
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1859,7 +1859,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v6, 0x7f12147c
+    sget v6, Lcom/resouce/module/ResSTRING;->new_user_vas_popup_window_discount_bill:I
 
     invoke-virtual {p2, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1871,7 +1871,7 @@
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v6, 0x7f121885    # 1.941946E38f
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_paypage_cancel_txt:I    # 1.941946E38f
 
     invoke-virtual {p2, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1885,7 +1885,7 @@
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v5, 0x7f0b31ec
+    sget v5, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_coupon_sku_original_price:I
 
     .line 16
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1928,7 +1928,7 @@
 
     invoke-virtual {v6, v4}, Landroid/text/TextPaint;->setFlags(I)V
 
-    const v4, 0x7f0b31ed
+    sget v4, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_coupon_sku_price:I
 
     .line 19
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1960,7 +1960,7 @@
 
     move-result-object p1
 
-    const v6, 0x7f0604ec
+    sget v6, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     invoke-virtual {p1, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1990,7 +1990,7 @@
 
     invoke-virtual {v4, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p1, 0x7f0b31ef
+    sget p1, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_coupon_tip_premium:I
 
     .line 25
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2011,7 +2011,7 @@
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_1
-    const p1, 0x7f0b16ac
+    sget p1, Lcom/resouce/module/ResID;->ll_new_user_vas_popup_coupon_window_close:I
 
     .line 27
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2024,7 +2024,7 @@
 
     invoke-virtual {p1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b16ae
+    sget p1, Lcom/resouce/module/ResID;->ll_new_user_vas_popup_window_coupon:I
 
     .line 28
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2053,13 +2053,13 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e04cc
+    sget v3, Lcom/resouce/module/ResLAYOUT;->new_user_vas_popup_window:I
 
     invoke-virtual {v0, v3, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v3, 0x7f0b31f8
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_title:I
 
     .line 31
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2143,7 +2143,7 @@
 
     invoke-virtual {v3}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v3, 0x7f0b31eb
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_button:I
 
     .line 41
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2167,7 +2167,7 @@
 
     if-eqz v10, :cond_3
 
-    const v7, 0x7f121891
+    sget v7, Lcom/resouce/module/ResSTRING;->pdf_paypage_year_subscription:I
 
     .line 45
     invoke-virtual {p2, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2175,7 +2175,7 @@
     move-result-object v7
 
     :cond_3
-    const v10, 0x7f121c9b
+    sget v10, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     if-nez v6, :cond_4
 
@@ -2263,7 +2263,7 @@
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v3, 0x7f0b1a16
+    sget v3, Lcom/resouce/module/ResID;->new_user_three_days:I
 
     .line 52
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2285,7 +2285,7 @@
 
     move-result-object v7
 
-    const v10, 0x7f1216b0
+    sget v10, Lcom/resouce/module/ResSTRING;->pay_retain_value_days:I
 
     invoke-virtual {v7, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2326,7 +2326,7 @@
 
     if-nez v3, :cond_7
 
-    const v3, 0x7f0b149d
+    sget v3, Lcom/resouce/module/ResID;->iv_new_user_vas_popup_window_pdf_edit:I
 
     .line 57
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2340,7 +2340,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080af2
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->new_user_vas_popup_window_pdf_to_doc:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2349,7 +2349,7 @@
     .line 59
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f0b31f5
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_pdf_edit:I
 
     .line 60
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2358,11 +2358,11 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v6, 0x7f121769
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v3, 0x7f0b149f
+    sget v3, Lcom/resouce/module/ResID;->iv_new_user_vas_popup_window_pdf_to_doc:I
 
     .line 61
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2376,7 +2376,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080af1
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->new_user_vas_popup_window_pdf_signature:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2385,7 +2385,7 @@
     .line 63
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f0b31f7
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_pdf_to_doc:I
 
     .line 64
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2394,11 +2394,11 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v6, 0x7f121c96
+    sget v6, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v3, 0x7f0b149e
+    sget v3, Lcom/resouce/module/ResID;->iv_new_user_vas_popup_window_pdf_signature:I
 
     .line 65
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2412,7 +2412,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080aef
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->new_user_vas_popup_window_no_ads:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2421,7 +2421,7 @@
     .line 67
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f0b31f6
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_pdf_signature:I
 
     .line 68
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2430,11 +2430,11 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v6, 0x7f121c93
+    sget v6, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v3, 0x7f0b149c
+    sget v3, Lcom/resouce/module/ResID;->iv_new_user_vas_popup_window_no_ads:I
 
     .line 69
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2448,7 +2448,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080aee
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->new_user_vas_popup_window_file_recovery:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2457,7 +2457,7 @@
     .line 71
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f0b31f4
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_no_ads:I
 
     .line 72
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2466,11 +2466,11 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v6, 0x7f122011
+    sget v6, Lcom/resouce/module/ResSTRING;->public_document_recovery_title:I
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v3, 0x7f0b149b
+    sget v3, Lcom/resouce/module/ResID;->iv_new_user_vas_popup_window_file_recovery:I
 
     .line 73
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2484,7 +2484,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080af3
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->new_user_vas_popup_window_picture_to_pdf:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2493,7 +2493,7 @@
     .line 75
     invoke-virtual {v3, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f0b31f3
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_file_recovery:I
 
     .line 76
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2502,7 +2502,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v6, 0x7f120460
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     invoke-virtual {v3, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -2516,7 +2516,7 @@
 
     invoke-virtual {v3, v6}, Landroid/app/Dialog;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)V
 
-    const v3, 0x7f0b16ad
+    sget v3, Lcom/resouce/module/ResID;->ll_new_user_vas_popup_window_close:I
 
     .line 78
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2529,7 +2529,7 @@
 
     invoke-virtual {v3, v6}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b31f2
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_discount_original:I
 
     .line 79
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2554,7 +2554,7 @@
 
     invoke-virtual {v3, v4}, Landroid/text/TextPaint;->setFlags(I)V
 
-    const v3, 0x7f0b31f1
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_discount:I
 
     .line 82
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2590,7 +2590,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v3, 0x7f0b16b0
+    sget v3, Lcom/resouce/module/ResID;->ll_new_user_vas_popup_window_trial:I
 
     .line 84
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2621,7 +2621,7 @@
     :goto_2
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v3, 0x7f0b16af
+    sget v3, Lcom/resouce/module/ResID;->ll_new_user_vas_popup_window_discount:I
 
     .line 87
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2645,7 +2645,7 @@
     :cond_9
     invoke-virtual {v3, v6}, Landroid/view/View;->setVisibility(I)V
 
-    const v3, 0x7f0b31f0
+    sget v3, Lcom/resouce/module/ResID;->tv_new_user_vas_popup_window_description:I
 
     .line 90
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2657,7 +2657,7 @@
     .line 91
     iget v3, p0, Lyh4;->l:I
 
-    const v4, 0x7f121478
+    sget v4, Lcom/resouce/module/ResSTRING;->new_user_value_add_notify:I
 
     if-nez v3, :cond_a
 
@@ -2680,7 +2680,7 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f12147d
+    sget v4, Lcom/resouce/module/ResSTRING;->new_user_vas_popup_window_discount_description:I
 
     .line 94
     invoke-virtual {p2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3406,7 +3406,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12147f
+    sget v0, Lcom/resouce/module/ResSTRING;->new_user_vas_popup_window_premium:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -3423,7 +3423,7 @@
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f12147e
+    sget v0, Lcom/resouce/module/ResSTRING;->new_user_vas_popup_window_discount_title:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V

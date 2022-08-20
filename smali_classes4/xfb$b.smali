@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Lxfb$b;->k0:Lwfb;
 
-    const v0, 0x7f0b1072
+    sget v0, Lcom/resouce/module/ResID;->home_files_grid:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

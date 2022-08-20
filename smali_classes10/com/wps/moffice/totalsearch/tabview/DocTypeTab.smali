@@ -164,7 +164,7 @@
 .method public getLayout()I
     .locals 1
 
-    const v0, 0x7f0e0f23
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_phone_total_search_doc_tab_layout:I
 
     return v0
 .end method
@@ -177,7 +177,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b3092
+    sget v0, Lcom/resouce/module/ResID;->total_search_doc_recycle_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -528,7 +528,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$g;)V
 
-    const v0, 0x7f0b3091
+    sget v0, Lcom/resouce/module/ResID;->total_search_doc_content_view:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -537,7 +537,7 @@
 
     iput-object v0, p0, Lcom/wps/moffice/totalsearch/tabview/DocTypeTab;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b156f
+    sget v0, Lcom/resouce/module/ResID;->layout_search_time_tip:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -557,7 +557,7 @@
 
     iput-object v0, p0, Lcom/wps/moffice/totalsearch/tabview/DocTypeTab;->d0:La6w;
 
-    const v0, 0x7f0b1570
+    sget v0, Lcom/resouce/module/ResID;->layout_search_time_top_bar_outer:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -582,7 +582,7 @@
 .method public n()V
     .locals 6
 
-    const v0, 0x7f0b2f6d
+    sget v0, Lcom/resouce/module/ResID;->textview_search_time:I
 
     .line 1
     :try_start_0
@@ -638,9 +638,9 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eqz v1, :cond_1
 
@@ -673,7 +673,7 @@
     :goto_1
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0b129b
+    sget v0, Lcom/resouce/module/ResID;->image_search_time_arrow:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -750,7 +750,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b156f
+    sget v1, Lcom/resouce/module/ResID;->layout_search_time_tip:I
 
     if-ne v0, v1, :cond_0
 
@@ -1033,7 +1033,7 @@
 .method public setTimeRangeArrow(Z)V
     .locals 1
 
-    const v0, 0x7f0b129b
+    sget v0, Lcom/resouce/module/ResID;->image_search_time_arrow:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

@@ -102,15 +102,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f080e8c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_long_pic_ppt:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080490
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
     :goto_0
-    const v3, 0x7f1228e7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_long_pic:I
 
     new-instance v4, Labe$a;
 
@@ -128,15 +128,15 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f080db1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_text_ppt:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0803de
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_share_text:I
 
     :goto_1
-    const v3, 0x7f1228e9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_text:I
 
     new-instance v4, Labe$b;
 

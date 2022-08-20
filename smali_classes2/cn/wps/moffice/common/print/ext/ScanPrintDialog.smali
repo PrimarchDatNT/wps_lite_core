@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e1e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_scan_print_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -100,7 +100,7 @@
     .line 2
     invoke-virtual {p0, v0}, Llv4;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f1226c6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_doc:I
 
     .line 3
     invoke-virtual {p0, v0}, Llv4;->U2(I)V

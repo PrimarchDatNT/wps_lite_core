@@ -112,7 +112,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f0e09c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_color_panel_notitlebar_layout:I
 
     invoke-virtual {p3, v1, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -163,12 +163,12 @@
 
     if-ne v2, v3, :cond_2
 
-    const v2, 0x7f070ab9
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_color_layout_height_no_button:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f070ab8
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     :goto_1
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -642,7 +642,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f081452
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_writer_none_color_selector:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -657,12 +657,12 @@
 
     if-ne v1, v2, :cond_2
 
-    const v1, 0x7f12335e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f1233c4
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_noneColor:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

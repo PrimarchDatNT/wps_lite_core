@@ -31,7 +31,7 @@
 
     iget-object p2, p0, Lcpf;->a:Landroid/content/Context;
 
-    const v0, 0x7f0e099d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {p1, p2, v0}, Lm7h;-><init>(Landroid/content/Context;I)V
 
@@ -40,7 +40,7 @@
     .line 3
     iget-object p1, p0, Lcpf;->b:Landroid/view/View;
 
-    const p2, 0x7f0b0acf
+    sget p2, Lcom/resouce/module/ResID;->et_number_numeric_spinner02:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -67,7 +67,7 @@
     .line 6
     iget-object p1, p0, Lcpf;->b:Landroid/view/View;
 
-    const p2, 0x7f0b0ac9
+    sget p2, Lcom/resouce/module/ResID;->et_number_numeric_checkbox02:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 1
     iget-object v0, p0, Lcpf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ad1
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout02:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

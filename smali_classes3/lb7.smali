@@ -176,7 +176,7 @@
 .method public s()I
     .locals 1
 
-    const v0, 0x7f0e03e9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_wpsdrive_linkfolder_share_item_layout:I
 
     return v0
 .end method

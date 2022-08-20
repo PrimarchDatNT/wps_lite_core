@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -230,12 +230,12 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0957
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_date_keyboard_num_picker:I
 
     .line 19
     invoke-virtual {p1, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b17f2
+    sget p1, Lcom/resouce/module/ResID;->mainTxt:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

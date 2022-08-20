@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e043f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_class_room_share:I
 
     const/4 v2, 0x0
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1577
+    sget v1, Lcom/resouce/module/ResID;->layout_share_whatsapp:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/assignment/HomeworkShareLinkActivity$d;->B:Landroid/view/View;
 
-    const v1, 0x7f0b153c
+    sget v1, Lcom/resouce/module/ResID;->layout_copy_link:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/assignment/HomeworkShareLinkActivity$d;->I:Landroid/view/View;
 
-    const v1, 0x7f0b30f0
+    sget v1, Lcom/resouce/module/ResID;->tvHomeList:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
     :goto_0
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12295f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_success_msg:I
 
     const/4 v2, 0x1
 
@@ -256,7 +256,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120271
+    sget v0, Lcom/resouce/module/ResSTRING;->class_title_home_work_list:I
 
     return v0
 .end method

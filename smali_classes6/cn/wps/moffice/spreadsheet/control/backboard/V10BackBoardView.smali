@@ -93,12 +93,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120bc2
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_0:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120b9d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_backboard_sum:I
 
     :goto_0
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->u0:I
@@ -110,12 +110,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f120bc5
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_2:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f120b99
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_backboard_avg:I
 
     :goto_1
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->v0:I
@@ -127,12 +127,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f120bc3
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_1:I
 
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f120b9a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_backboard_count:I
 
     :goto_2
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->w0:I
@@ -144,12 +144,12 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f120bc6
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_3:I
 
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f120b9b
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_backboard_max:I
 
     :goto_3
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->x0:I
@@ -161,12 +161,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f120bc7
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_4:I
 
     goto :goto_4
 
     :cond_4
-    const v0, 0x7f120b9c
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_backboard_min:I
 
     :goto_4
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->y0:I
@@ -178,12 +178,12 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f120bc9
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_calculation_6:I
 
     goto :goto_5
 
     :cond_5
-    const v0, 0x7f120b9e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_cal_count:I
 
     :goto_5
     sput v0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->z0:I
@@ -1190,7 +1190,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f120746
+    sget v3, Lcom/resouce/module/ResSTRING;->et_backboard_clip_msg:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1217,7 +1217,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1c5e
+    sget v1, Lcom/resouce/module/ResID;->padding_status_bar_top_wrapper:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1228,7 +1228,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2cde
+    sget v1, Lcom/resouce/module/ResID;->ss_backboard_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1245,7 +1245,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1333,7 +1333,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e1040
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_ss_backboard_horizon_view:I
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1347,7 +1347,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e1042
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_ss_backboard_vertical_view:I
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1464,7 +1464,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2cdf
+    sget v1, Lcom/resouce/module/ResID;->ss_backboard_sum_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1474,7 +1474,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b9
+    sget v1, Lcom/resouce/module/ResID;->back_board_sum:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1493,7 +1493,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b4
+    sget v1, Lcom/resouce/module/ResID;->back_board_avg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1511,7 +1511,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b6
+    sget v1, Lcom/resouce/module/ResID;->back_board_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1529,7 +1529,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b7
+    sget v1, Lcom/resouce/module/ResID;->back_board_max:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1547,7 +1547,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b8
+    sget v1, Lcom/resouce/module/ResID;->back_board_min:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1565,7 +1565,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b01b5
+    sget v1, Lcom/resouce/module/ResID;->back_board_cal_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1716,7 +1716,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2ce1
+    sget v1, Lcom/resouce/module/ResID;->ss_backboard_text_text_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

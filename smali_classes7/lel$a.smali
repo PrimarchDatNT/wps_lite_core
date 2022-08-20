@@ -47,7 +47,7 @@
 
     const/4 p2, 0x0
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     if-nez p1, :cond_0
 

@@ -971,7 +971,7 @@
 
     if-nez p2, :cond_1
 
-    const p2, 0x7f120ba6
+    sget p2, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     .line 3
     invoke-static {p2, v1}, Lsjf;->k(II)V
@@ -1120,7 +1120,7 @@
     .line 13
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 14
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -1629,7 +1629,7 @@
 
     invoke-virtual {v5, v2}, Lk2m;->j(I)V
 
-    const v2, 0x7f120ba7
+    sget v2, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype_index:I
 
     .line 17
     invoke-static {v2, v4}, Lsjf;->h(II)V

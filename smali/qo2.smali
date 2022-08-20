@@ -117,12 +117,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f12116c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f120610
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     :goto_0
     invoke-direct {v0, v1, v2}, Lqo2$q;-><init>(Ljava/lang/String;I)V
@@ -138,7 +138,7 @@
 
     const-string v2, "micromsg/download"
 
-    const v4, 0x7f121147
+    sget v4, Lcom/resouce/module/ResSTRING;->home_scf_folder_wechat:I
 
     invoke-direct {v1, v2, v4}, Lqo2$q;-><init>(Ljava/lang/String;I)V
 
@@ -150,7 +150,7 @@
 
     const-string v5, "tencent/qqfile_recv"
 
-    const v6, 0x7f12113c
+    sget v6, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq:I
 
     invoke-direct {v1, v5, v6}, Lqo2$q;-><init>(Ljava/lang/String;I)V
 
@@ -160,7 +160,7 @@
 
     new-instance v1, Lqo2$n;
 
-    const v7, 0x7f1205ea
+    sget v7, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     const-string v8, "documents"
 
@@ -172,7 +172,7 @@
 
     new-instance v1, Lqo2$n;
 
-    const v8, 0x7f12201b
+    sget v8, Lcom/resouce/module/ResSTRING;->public_download:I
 
     const-string v9, "download"
 
@@ -184,7 +184,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v9, 0x7f121145
+    sget v9, Lcom/resouce/module/ResSTRING;->home_scf_folder_tim:I
 
     const-string v10, "tencent/timfile_recv"
 
@@ -196,7 +196,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v10, 0x7f12113d
+    sget v10, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq_i18n:I
 
     const-string v11, "tencent/qqifile_recv"
 
@@ -208,7 +208,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v11, 0x7f12113e
+    sget v11, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq_lite:I
 
     const-string v12, "tencent/qqlitefile_recv"
 
@@ -220,7 +220,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v12, 0x7f121146
+    sget v12, Lcom/resouce/module/ResSTRING;->home_scf_folder_ucbrowser:I
 
     const-string v13, "ucdownloads"
 
@@ -232,7 +232,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v13, 0x7f12113f
+    sget v13, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqbrowser:I
 
     const-string v14, "qqbrowser"
 
@@ -244,7 +244,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v14, 0x7f121140
+    sget v14, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqmail:I
 
     const-string v15, "tencent/qqmail/attachment"
 
@@ -256,7 +256,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v15, 0x7f12113a
+    sget v15, Lcom/resouce/module/ResSTRING;->home_scf_folder_mailmaster:I
 
     const-string v3, "netease/mail"
 
@@ -268,7 +268,7 @@
 
     new-instance v1, Lqo2$q;
 
-    const v15, 0x7f121149
+    sget v15, Lcom/resouce/module/ResSTRING;->home_scf_folder_yahoo:I
 
     const-string v4, "yahoo/mail/"
 
@@ -282,7 +282,7 @@
 
     new-instance v15, Lqo2$n;
 
-    const v6, 0x7f12113b
+    sget v6, Lcom/resouce/module/ResSTRING;->home_scf_folder_nfc:I
 
     const-string v3, "beam"
 
@@ -297,7 +297,7 @@
     .line 6
     new-instance v1, Lqo2$d;
 
-    const v3, 0x7f1231ce
+    sget v3, Lcom/resouce/module/ResSTRING;->weiyun:I
 
     invoke-direct {v1, v3}, Lqo2$d;-><init>(I)V
 
@@ -305,7 +305,7 @@
 
     new-instance v1, Lqo2$e;
 
-    const v3, 0x7f1206ec
+    sget v3, Lcom/resouce/module/ResSTRING;->dropbox:I
 
     invoke-direct {v1, v3}, Lqo2$e;-><init>(I)V
 
@@ -313,7 +313,7 @@
 
     new-instance v1, Lqo2$f;
 
-    const v3, 0x7f1206cb
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmaneger_baidu_net_disk:I
 
     invoke-direct {v1, v3}, Lqo2$f;-><init>(I)V
 
@@ -321,7 +321,7 @@
 
     new-instance v1, Lqo2$g;
 
-    const v3, 0x7f122f52
+    sget v3, Lcom/resouce/module/ResSTRING;->skydrive:I
 
     invoke-direct {v1, v3}, Lqo2$g;-><init>(I)V
 
@@ -329,7 +329,7 @@
 
     new-instance v1, Lqo2$h;
 
-    const v3, 0x7f120d94
+    sget v3, Lcom/resouce/module/ResSTRING;->gdoc:I
 
     invoke-direct {v1, v3}, Lqo2$h;-><init>(I)V
 
@@ -337,7 +337,7 @@
 
     new-instance v1, Lqo2$i;
 
-    const v3, 0x7f12206e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     invoke-direct {v1, v3}, Lqo2$i;-><init>(I)V
 
@@ -345,7 +345,7 @@
 
     new-instance v1, Lqo2$j;
 
-    const v3, 0x7f120d8b
+    sget v3, Lcom/resouce/module/ResSTRING;->ftp:I
 
     invoke-direct {v1, v3}, Lqo2$j;-><init>(I)V
 
@@ -353,7 +353,7 @@
 
     new-instance v1, Lqo2$k;
 
-    const v3, 0x7f1231b1    # 1.943253E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->webdav:I    # 1.943253E38f
 
     invoke-direct {v1, v3}, Lqo2$k;-><init>(I)V
 
@@ -361,7 +361,7 @@
 
     new-instance v1, Lqo2$l;
 
-    const v3, 0x7f12344b
+    sget v3, Lcom/resouce/module/ResSTRING;->yandex:I
 
     invoke-direct {v1, v3}, Lqo2$l;-><init>(I)V
 
@@ -376,12 +376,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f12116c
+    sget v3, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f12062f
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_filesource_clouddoc:I
 
     :goto_1
     invoke-direct {v1, v3}, Lqo2$a;-><init>(I)V
@@ -410,7 +410,7 @@
 
     const-string v3, "com.tencent.mipadqq:[\\s\\S]*"
 
-    const v4, 0x7f12113c
+    sget v4, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq:I
 
     invoke-direct {v1, v3, v4}, Lqo2$p;-><init>(Ljava/lang/String;I)V
 
@@ -428,7 +428,7 @@
 
     const-string v3, "com.tencent.xin:[\\s\\S]*"
 
-    const v4, 0x7f121147
+    sget v4, Lcom/resouce/module/ResSTRING;->home_scf_folder_wechat:I
 
     invoke-direct {v1, v3, v4}, Lqo2$p;-><init>(Ljava/lang/String;I)V
 
@@ -441,7 +441,7 @@
     .line 10
     new-instance v1, Lqo2$p;
 
-    const v3, 0x7f121123
+    sget v3, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc_desktop:I
 
     const-string v4, ".*([\\\\/])Users([\\\\/]).+([\\\\/])Desktop([\\\\/]).*"
 
@@ -451,7 +451,7 @@
 
     new-instance v1, Lqo2$p;
 
-    const v2, 0x7f121125
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc_download:I
 
     const-string v3, ".*([\\\\/])Users([\\\\/]).+([\\\\/])Downloads([\\\\/]).*"
 
@@ -461,7 +461,7 @@
 
     new-instance v1, Lqo2$p;
 
-    const v2, 0x7f121126
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc_qq:I
 
     const-string v3, ".*([\\\\/])Tencent Files([\\\\/]).+([\\\\/])FileRecv([\\\\/]).*"
 
@@ -471,7 +471,7 @@
 
     new-instance v1, Lqo2$p;
 
-    const v2, 0x7f121127
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc_wechat:I
 
     const-string v3, ".*([\\\\/])WeChat Files([\\\\/]).+([\\\\/])Files([\\\\/]).*"
 
@@ -481,7 +481,7 @@
 
     new-instance v1, Lqo2$p;
 
-    const v2, 0x7f121124
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc_documents:I
 
     const-string v3, ".*([\\\\/])Users([\\\\/]).+([\\\\/])Documents([\\\\/]).*"
 
@@ -491,7 +491,7 @@
 
     new-instance v1, Lqo2$c;
 
-    const v2, 0x7f12112a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_source_x_disk:I
 
     const-string v3, "^[a-zA-Z]:([\\\\/]).*"
 
@@ -590,7 +590,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1225c5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -606,7 +606,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120642
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1455,7 +1455,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122009
+    sget v1, Lcom/resouce/module/ResSTRING;->public_document_draft:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1485,7 +1485,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025d
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1556,7 +1556,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122009
+    sget v2, Lcom/resouce/module/ResSTRING;->public_document_draft:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1633,7 +1633,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025d
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2221,7 +2221,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120642
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2288,7 +2288,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120642
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2360,7 +2360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120642
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2533,7 +2533,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121129
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_source_this_device:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2593,7 +2593,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121122
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_source_pc:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2686,7 +2686,7 @@
     .line 2
     iget-boolean v3, p0, Ld08;->c0:Z
 
-    const v4, 0x7f08162c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     const/4 v5, 0x0
 
@@ -2703,7 +2703,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121129
+    sget v1, Lcom/resouce/module/ResSTRING;->home_roaming_source_this_device:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2778,7 +2778,7 @@
 
     if-eqz p0, :cond_4
 
-    const v4, 0x7f081621
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_device:I
 
     :goto_0
     move-object v2, v3
@@ -2795,7 +2795,7 @@
 
     if-eqz p0, :cond_5
 
-    const v4, 0x7f08161e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_cloud:I
 
     .line 13
     invoke-static {v3}, Lqo2;->J(Ljava/lang/String;)Ljava/lang/String;
@@ -2814,7 +2814,7 @@
 
     if-eqz p0, :cond_6
 
-    const v4, 0x7f08161f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_company:I
 
     goto :goto_0
 
@@ -2963,7 +2963,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f121256
+    sget v2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3256,7 +3256,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120642
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

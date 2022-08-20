@@ -40,7 +40,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x0
 
@@ -93,7 +93,7 @@
     .line 1
     iget-object v0, p0, Lvge;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2eda
+    sget v1, Lcom/resouce/module/ResID;->template_preview_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 5
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f121b5e
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_beauty_template_preivew:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ae6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_template_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -294,7 +294,7 @@
 
     iput-object v0, p0, Lvge;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2ed9
+    sget v1, Lcom/resouce/module/ResID;->template_preview_recycle_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

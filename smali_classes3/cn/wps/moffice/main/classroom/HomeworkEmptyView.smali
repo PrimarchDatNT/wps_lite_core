@@ -41,12 +41,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e043c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_assignment_list_empty:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0452
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_home_work_list_empty:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;

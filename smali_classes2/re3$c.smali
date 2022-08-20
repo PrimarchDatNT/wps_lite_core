@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lre3$c;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2719
+    sget v1, Lcom/resouce/module/ResID;->public_shape_selected_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

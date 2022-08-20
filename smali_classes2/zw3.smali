@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121025
+    sget p2, Lcom/resouce/module/ResSTRING;->home_pay_cloud_font_vip:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -66,7 +66,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1221c7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_fonts_hint_phone:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

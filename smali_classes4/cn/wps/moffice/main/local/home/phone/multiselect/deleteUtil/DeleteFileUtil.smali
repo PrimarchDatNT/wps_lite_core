@@ -130,7 +130,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0ca8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_layout_delete_roaming_record_dialog:I
 
     const/4 v3, 0x0
 
@@ -141,7 +141,7 @@
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v2, 0x7f0b2572
+    sget v2, Lcom/resouce/module/ResID;->public_cb_delete_document:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -155,11 +155,11 @@
 
     move-result v3
 
-    const v4, 0x7f1206b4
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_tips_ensure_delete_record:I
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0b268e
+    sget v3, Lcom/resouce/module/ResID;->public_multiselect_delete_text:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,12 +196,12 @@
 
     invoke-direct {p1, p0, v2, p2, p3}, Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil$d;-><init>(Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil;Landroid/widget/CheckBox;Ljava/util/List;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f120577
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     .line 11
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 12
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -757,7 +757,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121fc4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete_processing_doc:I
 
     goto :goto_0
 
@@ -779,7 +779,7 @@
 
     if-ne v0, v3, :cond_1
 
-    const v0, 0x7f120591
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_delete_modified_file:I
 
     .line 3
     invoke-static {p1}, Llkh;->m(Ljava/lang/String;)Ljava/lang/String;
@@ -1208,7 +1208,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1204aa
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1268,7 +1268,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121e37
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_delete_file_dialog_title:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1345,7 +1345,7 @@
 
     if-le v1, v5, :cond_2
 
-    const v6, 0x7f121e36
+    sget v6, Lcom/resouce/module/ResSTRING;->public_cloud_delete_file_dialog_multi_file_content:I
 
     const/4 v7, 0x3
 
@@ -1373,7 +1373,7 @@
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f121e35
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_delete_file_dialog_content:I
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -1552,12 +1552,12 @@
 
     invoke-direct {v0, p0, p2, p3}, Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil$b;-><init>(Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil;Ljava/util/List;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f121fba
+    sget p2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 3
     invoke-virtual {p1, p2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p3, 0x0
 
@@ -1632,12 +1632,12 @@
 
     invoke-direct {p2, p0, p3}, Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil$c;-><init>(Lcn/wps/moffice/main/local/home/phone/multiselect/deleteUtil/DeleteFileUtil;Ljava/lang/Runnable;)V
 
-    const p3, 0x7f121fba
+    sget p3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 3
     invoke-virtual {p1, p3, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {p1, p3, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

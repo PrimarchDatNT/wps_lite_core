@@ -246,7 +246,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121358
+    sget v1, Lcom/resouce/module/ResSTRING;->load_data_fail:I
 
     const/4 v2, 0x0
 
@@ -277,7 +277,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1212d9
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_loading_finished:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -649,7 +649,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f121198
+    sget v2, Lcom/resouce/module/ResSTRING;->home_transfer_fail:I
 
     const/4 v3, -0x1
 
@@ -790,7 +790,7 @@
         .end annotation
     .end param
 
-    const p3, 0x7f0e0e94
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_transfer_file_list_fragment:I
 
     const/4 v0, 0x0
 
@@ -799,7 +799,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2df6
+    sget p2, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -810,7 +810,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->I:Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout;
 
-    const p2, 0x7f0b0cd9
+    sget p2, Lcom/resouce/module/ResID;->file_list:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -821,7 +821,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->S:Landroid/widget/ListView;
 
-    const p2, 0x7f0b0fc6
+    sget p2, Lcom/resouce/module/ResID;->help_text:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -832,7 +832,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->T:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2aef
+    sget p2, Lcom/resouce/module/ResID;->select_file_btn:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -841,7 +841,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2af8
+    sget p2, Lcom/resouce/module/ResID;->select_pic_btn:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -981,7 +981,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122b0e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_transfer_to_pc_no_space_tip:I
 
     invoke-static {p1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1079,7 +1079,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122b0f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_transfer_to_pc_oversize_tip:I
 
     .line 17
     invoke-virtual {p0, v3}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1205,12 +1205,12 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f122b75
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_warning_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f123263
+    sget v1, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 6
     new-instance v2, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment$a;
@@ -1221,7 +1221,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListFragment$k;
 

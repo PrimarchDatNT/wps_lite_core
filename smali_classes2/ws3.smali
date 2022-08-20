@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205af
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_not_saved_yet:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205b3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -148,7 +148,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120c94
+    sget v0, Lcom/resouce/module/ResSTRING;->exception_report_cn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -158,7 +158,7 @@
     return-object p1
 
     :cond_0
-    const v0, 0x7f120c95
+    sget v0, Lcom/resouce/module/ResSTRING;->exception_report_en:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -267,7 +267,7 @@
     .line 2
     iget-object v0, p0, Lxab;->b:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e069c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_documents_filebrowser_launcher:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -281,7 +281,7 @@
     :cond_0
     iget-object v0, p0, Lxab;->b:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0139
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_filebrowser_launcher:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -293,7 +293,7 @@
     :goto_0
     iget-object v0, p0, Lxab;->c:Landroid/view/View;
 
-    const v1, 0x7f0b014c
+    sget v1, Lcom/resouce/module/ResID;->applauncher_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

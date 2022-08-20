@@ -26,15 +26,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080232
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_messages:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080bd9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_messages_et:I
 
     :goto_0
-    const v1, 0x7f121fed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_doc_info:I
 
     invoke-direct {p2, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/fileinfo/FileInfoer$2;-><init>(Lcn/wps/moffice/spreadsheet/control/fileinfo/FileInfoer;II)V
 

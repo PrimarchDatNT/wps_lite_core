@@ -148,7 +148,7 @@
 .method public final Y2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
     .line 6
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120fee
+    sget v1, Lcom/resouce/module/ResSTRING;->home_multi_select_zip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -243,7 +243,7 @@
 
     if-eqz p1, :cond_2
 
-    const v2, 0x7f12031c
+    sget v2, Lcom/resouce/module/ResSTRING;->compressed_batch_share_zip:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -252,7 +252,7 @@
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f120319
+    sget v2, Lcom/resouce/module/ResSTRING;->compressed_batch_share_upgrade:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -270,7 +270,7 @@
 
     if-eqz p1, :cond_3
 
-    const v2, 0x7f081334
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_blue_3dp_corner:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -279,7 +279,7 @@
     goto :goto_3
 
     :cond_3
-    const v2, 0x7f081ba3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_red_bg_3dp_1px_selector_light:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -297,7 +297,7 @@
 
     iget-object p1, p0, Le1a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12031b
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_vip_tip:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
     :cond_4
     iget-object p1, p0, Le1a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120318
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_tip:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -340,24 +340,24 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120317
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_remove_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f120315
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_remove_message:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
     .line 5
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121f40
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 6
     iget-object v2, p0, Le1a;->B:Landroid/app/Activity;
@@ -366,7 +366,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -419,7 +419,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b79
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_compressed_batch_sharing_layout:I
 
     const/4 v2, 0x0
 
@@ -437,7 +437,7 @@
     .line 3
     iget-object v0, p0, Le1a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1626
+    sget v1, Lcom/resouce/module/ResID;->list_files:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -450,7 +450,7 @@
     .line 4
     iget-object v0, p0, Le1a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b312c
+    sget v1, Lcom/resouce/module/ResID;->tv_compress:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 5
     iget-object v0, p0, Le1a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2940
+    sget v1, Lcom/resouce/module/ResID;->rl_compress:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
     .line 6
     iget-object v0, p0, Le1a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -489,7 +489,7 @@
     .line 7
     iget-object v0, p0, Le1a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b33da
+    sget v1, Lcom/resouce/module/ResID;->vip_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

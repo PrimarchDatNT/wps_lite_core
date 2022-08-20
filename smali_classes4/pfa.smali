@@ -89,7 +89,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0b1a88
+    sget v0, Lcom/resouce/module/ResID;->ntf_close:I
 
     return v0
 .end method
@@ -103,7 +103,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f0b1a8b
+    sget v0, Lcom/resouce/module/ResID;->ntf_text:I
 
     return v0
 .end method
@@ -434,7 +434,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

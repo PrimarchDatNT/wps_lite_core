@@ -30,7 +30,7 @@
     .line 3
     iput-object p3, p0, Ljfb;->c:Lhfb;
 
-    const p3, 0x7f0b174c
+    sget p3, Lcom/resouce/module/ResID;->loginNormalLayout:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

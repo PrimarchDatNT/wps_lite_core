@@ -150,7 +150,7 @@
     return-void
 
     :cond_1
-    const p1, 0x7f123002
+    sget p1, Lcom/resouce/module/ResSTRING;->stat_debug_io_server:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

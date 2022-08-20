@@ -353,7 +353,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b15ad
+    sget v0, Lcom/resouce/module/ResID;->library_tv:I
 
     if-ne p1, v0, :cond_0
 
@@ -408,11 +408,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1047
+    sget v1, Lcom/resouce/module/ResLAYOUT;->view_novel_home_header:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1548
+    sget v0, Lcom/resouce/module/ResID;->layout_history:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -423,7 +423,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/main/header/HeaderView;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b2861
+    sget v0, Lcom/resouce/module/ResID;->recycler_history:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->y(Landroidx/recyclerview/widget/RecyclerView$q;)V
 
-    const v0, 0x7f0b15ad
+    sget v0, Lcom/resouce/module/ResID;->library_tv:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -453,7 +453,7 @@
     .line 6
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b306f
+    sget v0, Lcom/resouce/module/ResID;->top_divider:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

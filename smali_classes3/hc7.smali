@@ -417,7 +417,7 @@
 .method public c3()I
     .locals 1
 
-    const v0, 0x7f0e06f6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_move_and_copy_bottombar_layout:I
 
     return v0
 .end method
@@ -485,7 +485,7 @@
     .line 3
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121ffd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_folder_can_not_copy:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -510,7 +510,7 @@
     .line 5
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122000
+    sget v3, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_and_copy_fail_common_tips:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -532,7 +532,7 @@
 .method public e3()I
     .locals 1
 
-    const v0, 0x7f122004
+    sget v0, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_or_copy_current_folder:I
 
     return v0
 .end method
@@ -543,7 +543,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1222a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_has_selected_num:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -595,7 +595,7 @@
     .line 1
     invoke-super {p0, p1}, Li87;->h3(Landroid/view/View;)V
 
-    const v0, 0x7f0b0584
+    sget v0, Lcom/resouce/module/ResID;->copy_file:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0584
+    sget v1, Lcom/resouce/module/ResID;->copy_file:I
 
     if-ne v0, v1, :cond_1
 
@@ -649,7 +649,7 @@
     return-void
 
     :cond_1
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     if-ne v0, v1, :cond_2
 
@@ -668,7 +668,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b3047
+    sget v1, Lcom/resouce/module/ResID;->to_move:I
 
     if-ne v0, v1, :cond_3
 

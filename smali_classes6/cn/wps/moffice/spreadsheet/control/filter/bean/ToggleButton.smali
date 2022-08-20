@@ -77,7 +77,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e01d8
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_custom_toggle_button:I
 
     .line 8
     invoke-virtual {v0, p1, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -91,7 +91,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e094f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_ss_custom_toggle_button:I
 
     .line 9
     invoke-virtual {v0, p1, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -124,7 +124,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08e9
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_btn:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08ee
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_scroll:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08ec
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_leftTextView:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -163,7 +163,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08ed
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_rightTextView:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -176,7 +176,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08ea
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_gray_part_left:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b08eb
+    sget p2, Lcom/resouce/module/ResID;->et_autofilter_toggle_gray_part_right:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

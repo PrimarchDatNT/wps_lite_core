@@ -104,7 +104,7 @@
 .method public constructor <init>(Lcn/wps/moffice/common/beans/ActivityController;Lhwf$i;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -160,12 +160,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01fb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_function_select_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e06bd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_et_function_select_dialog:I
 
     :goto_0
     const/4 v1, 0x0
@@ -176,7 +176,7 @@
 
     iput-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0a6c
+    sget v0, Lcom/resouce/module/ResID;->et_fucntion_title_bar:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,14 +190,14 @@
     .line 13
     iget-object p1, p1, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f1208cb
+    sget v0, Lcom/resouce/module/ResSTRING;->et_function_list:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 14
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
     .line 15
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
     .line 16
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0a7c
+    sget v0, Lcom/resouce/module/ResID;->et_function_listview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -232,7 +232,7 @@
     .line 17
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b08cb
+    sget v0, Lcom/resouce/module/ResID;->et_alphabet_listview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 19
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0a77
+    sget v0, Lcom/resouce/module/ResID;->et_function_framelayout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 20
     iget-object p1, p0, Lhwf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0a7d
+    sget v0, Lcom/resouce/module/ResID;->et_function_progressbar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f010093
+    sget v0, Lcom/resouce/module/ResANIM;->push_left_in:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -294,7 +294,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f010095
+    sget v0, Lcom/resouce/module/ResANIM;->push_right_in:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -861,7 +861,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030010
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_engineering:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -881,7 +881,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f03000f
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_db:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -901,7 +901,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030015
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_reference:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -921,7 +921,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030012
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_info:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -941,7 +941,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030017
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_text:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -961,7 +961,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030013
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_logic:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -981,7 +981,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f03000e
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_datetime:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030016
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_statistics:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1021,7 +1021,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030014
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_math:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1041,7 +1041,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030011
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_finance:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1061,7 +1061,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f03000c
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_all:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1089,7 +1089,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f03000d
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_name_list_common:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1112,7 +1112,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f03000b
+    sget v3, Lcom/resouce/module/ResARRAY;->et_function_category_list:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1186,16 +1186,16 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0e01f8
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_function_categoryv:I
 
-    const v7, 0x7f0e01f8
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_function_categoryv:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0e06bc
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_et_function_categoryv:I
 
-    const v7, 0x7f0e06bc
+    sget v7, Lcom/resouce/module/ResLAYOUT;->phone_et_function_categoryv:I
 
     :goto_1
     const-string p1, "name"
@@ -1206,7 +1206,7 @@
 
     new-array v9, v1, [I
 
-    const p1, 0x7f0b0a76
+    sget p1, Lcom/resouce/module/ResID;->et_function_categoryv_name:I
 
     aput p1, v9, v0
 
@@ -1538,7 +1538,7 @@
 
     fill-array-data v8, :array_0
 
-    const v6, 0x7f0e01fa
+    sget v6, Lcom/resouce/module/ResLAYOUT;->et_function_itemv:I
 
     move-object v2, v9
 

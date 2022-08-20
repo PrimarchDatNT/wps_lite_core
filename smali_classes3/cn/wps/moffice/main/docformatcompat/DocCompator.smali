@@ -77,7 +77,7 @@
 
     :cond_1
     :goto_0
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 3
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -121,11 +121,11 @@
     .line 4
     invoke-virtual {v0, v3, v2}, Ljs4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f08074c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_odf:I
 
-    const v3, 0x7f122a3b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_support_for_odf:I
 
-    const v4, 0x7f122a3c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_support_for_odf_list:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -268,7 +268,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0d24
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_odf_decrypt_dialog:I
 
     const/4 v3, 0x0
 
@@ -276,7 +276,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0cec
+    sget v2, Lcom/resouce/module/ResID;->file_path:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1cf5
+    sget v4, Lcom/resouce/module/ResID;->password_edit:I
 
     .line 7
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     check-cast v4, Landroid/widget/EditText;
 
-    const v5, 0x7f0b06b5
+    sget v5, Lcom/resouce/module/ResID;->display_check:I
 
     .line 8
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
     .line 12
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v5, 0x7f121faf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_decryptDocument:I
 
     .line 13
     invoke-virtual {v0, v5}, Lhd3;->setTitleById(I)Lhd3;
@@ -335,7 +335,7 @@
     .line 14
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 15
     new-instance v5, Lcn/wps/moffice/main/docformatcompat/DocCompator$j;
@@ -351,7 +351,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 17
     invoke-virtual {v0, p1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

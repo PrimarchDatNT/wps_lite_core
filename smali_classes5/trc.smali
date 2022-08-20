@@ -512,7 +512,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121848
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_pack_buy:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -523,7 +523,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1218b2
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_description:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -537,7 +537,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b53
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -548,7 +548,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade_pdf_toolkit:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -560,7 +560,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081179
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bg_orange_round_rect:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -650,7 +650,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1218b4
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_effecttoday:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -666,7 +666,7 @@
 
     iget-object v3, p0, Ltrc;->b:Landroid/app/Activity;
 
-    const v4, 0x7f1218b3
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_effectday:I
 
     new-array v5, p1, [Ljava/lang/Object;
 
@@ -690,7 +690,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12184a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_pack_continue_buy:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -751,7 +751,7 @@
     .line 2
     iget-object p1, p0, Ltrc;->b:Landroid/app/Activity;
 
-    const v2, 0x7f120e38
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member_effect_tips_today:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -773,7 +773,7 @@
     :cond_0
     iget-object p1, p0, Ltrc;->b:Landroid/app/Activity;
 
-    const v2, 0x7f120e37
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member_effect_tips:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -809,7 +809,7 @@
 
     iget-object p1, p0, Ltrc;->b:Landroid/app/Activity;
 
-    const v2, 0x7f120e45
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member_remind_tips_desc_will_expire_pdf:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -837,7 +837,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120f68
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -40,18 +40,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b2251
+    sget v0, Lcom/resouce/module/ResID;->play_pre:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b224f
+    sget v0, Lcom/resouce/module/ResID;->play_next:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1d64
+    sget v0, Lcom/resouce/module/ResID;->pdf_awake_autoplay:I
 
     if-ne p1, v0, :cond_1
 

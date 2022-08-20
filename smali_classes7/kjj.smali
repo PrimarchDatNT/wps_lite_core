@@ -275,7 +275,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -285,7 +285,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123404
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_save_structure_error:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -299,7 +299,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121e1c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

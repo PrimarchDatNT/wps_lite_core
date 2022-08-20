@@ -119,7 +119,7 @@
 
     iput-object v0, p0, Lhtf;->b0:Landroid/content/Context;
 
-    const v0, 0x7f0b09eb
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_btns_group:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     iput-object v0, p0, Lhtf;->Z:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b09e7
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     iput-object v0, p0, Lhtf;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b09e8
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add_btn:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     iput-object v0, p0, Lhtf;->I:Landroid/widget/Button;
 
-    const v0, 0x7f0b09ec
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_del:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     iput-object v0, p0, Lhtf;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b09ed
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_del_finish:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     iput-object v0, p0, Lhtf;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b09f5
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_sq_swappable_layout:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object v0, p0, Lhtf;->V:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b09f4
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_sq_drag_layout:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object v0, p0, Lhtf;->U:Lcn/wps/moffice/spreadsheet/control/common/draggable/DraggableLayout;
 
-    const v0, 0x7f0b0a07
+    sget v0, Lcom/resouce/module/ResID;->et_dv_sq_scrollview:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     iput-object v0, p0, Lhtf;->Y:Lcn/wps/moffice/spreadsheet/control/common/CustomScrollView;
 
-    const v0, 0x7f0b09e9
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add_icon:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     iput-object v0, p0, Lhtf;->W:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b09ea
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add_tv:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -554,7 +554,7 @@
     .line 5
     iget-object v0, p1, Lcn/wps/moffice/spreadsheet/control/data_validation/DVSequenceItem;->T:Landroid/view/View;
 
-    const v1, 0x7f0813f4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_dv_item_bg_press:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -587,7 +587,7 @@
     .line 3
     iget-object v0, p1, Lcn/wps/moffice/spreadsheet/control/data_validation/DVSequenceItem;->T:Landroid/view/View;
 
-    const v1, 0x7f0813f3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_dv_item_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -811,18 +811,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b09e7
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add:I
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0b09e8
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_add_btn:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b09ec
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_del:I
 
     const/16 v1, 0x8
 
@@ -856,7 +856,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b09ed
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_del_finish:I
 
     if-ne p1, v0, :cond_4
 
@@ -952,7 +952,7 @@
 
     iget-object v0, p0, Lhtf;->V:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0e01db
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_datavalidation_item:I
 
     const/4 v2, 0x0
 
@@ -1075,7 +1075,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f12081d
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_del_item_warning:I
 
     .line 2
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1204,7 +1204,7 @@
 
     iget-object v4, p0, Lhtf;->b0:Landroid/content/Context;
 
-    const v5, 0x7f12198c    # 1.9419993E38f
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_public_options:I    # 1.9419993E38f
 
     .line 2
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;

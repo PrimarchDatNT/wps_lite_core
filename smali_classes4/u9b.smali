@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0116
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -312,7 +312,7 @@
 
     iput-object v0, p0, Lu9b;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0f89
+    sget v1, Lcom/resouce/module/ResID;->guide_textview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
     .line 4
     new-instance v0, Landroid/app/Dialog;
 
-    const v1, 0x7f13012d
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, p1, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -412,7 +412,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0116
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -422,7 +422,7 @@
 
     iput-object v0, p0, Lu9b;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0f89
+    sget v1, Lcom/resouce/module/ResID;->guide_textview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -436,7 +436,7 @@
     .line 3
     iget-object v0, p0, Lu9b;->a:Landroid/view/View;
 
-    const v1, 0x7f0b127a
+    sget v1, Lcom/resouce/module/ResID;->image_gesture:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
     .line 9
     new-instance p2, Landroid/app/Dialog;
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {p2, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -574,7 +574,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12040b
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_guide_mask_text:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -487,7 +487,7 @@
     .line 4
     iget-object v3, p0, Le1g;->B:Landroid/content/Context;
 
-    const v4, 0x7f12088a
+    sget v4, Lcom/resouce/module/ResSTRING;->et_filter_count_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -565,7 +565,7 @@
     .line 4
     iget-object p1, p0, Le1g;->B:Landroid/content/Context;
 
-    const v3, 0x7f12088a
+    sget v3, Lcom/resouce/module/ResSTRING;->et_filter_count_tips:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -608,7 +608,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120878
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_advanced_empty:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -686,7 +686,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c64
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_count:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

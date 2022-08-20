@@ -293,7 +293,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f070b00
+    sget p3, Lcom/resouce/module/ResDIMEN;->public_edit_layout_padding_horizontal:I
 
     .line 23
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -302,7 +302,7 @@
 
     mul-int/lit8 p5, p5, 0x2
 
-    const p6, 0x7f070afc
+    sget p6, Lcom/resouce/module/ResDIMEN;->public_edit_layout_btn_width:I
 
     .line 24
     invoke-virtual {p1, p6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

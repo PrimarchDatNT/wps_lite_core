@@ -268,7 +268,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12250c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_net_error_download_error:I
 
     const/4 v0, 0x0
 

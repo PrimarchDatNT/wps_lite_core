@@ -1521,7 +1521,7 @@
 
     iget-object v2, v8, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const v4, 0x7f122835
+    sget v4, Lcom/resouce/module/ResSTRING;->public_savetxtmessage:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1547,7 +1547,7 @@
 
     iget-object v2, v8, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const v4, 0x7f123403
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_save_equations_alert:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1604,7 +1604,7 @@
 
     iget-object v1, v8, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const v2, 0x7f122562
+    sget v2, Lcom/resouce/module/ResSTRING;->public_notsupportencryptsave:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1651,7 +1651,7 @@
 
     iget-object v1, v8, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const v2, 0x7f121f5f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continueText:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1861,7 +1861,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -1157,7 +1157,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3376
+    sget v1, Lcom/resouce/module/ResID;->video_controller_layout_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1168,7 +1168,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3377
+    sget v1, Lcom/resouce/module/ResID;->video_controller_top_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1202,7 +1202,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3378
+    sget v1, Lcom/resouce/module/ResID;->video_controller_top_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1223,7 +1223,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3375
+    sget v1, Lcom/resouce/module/ResID;->video_controller_layout_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1234,7 +1234,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3371
+    sget v1, Lcom/resouce/module/ResID;->video_controller_bottom_pause:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1260,7 +1260,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3370
+    sget v1, Lcom/resouce/module/ResID;->video_controller_bottom_fullscreen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1286,7 +1286,7 @@
     :cond_3
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3372
+    sget v1, Lcom/resouce/module/ResID;->video_controller_bottom_seekbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08136e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_seekbar_thumb_orange:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1348,7 +1348,7 @@
     :cond_4
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3373
+    sget v1, Lcom/resouce/module/ResID;->video_controller_bottom_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1361,7 +1361,7 @@
     .line 24
     iget-object v0, p0, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3374
+    sget v1, Lcom/resouce/module/ResID;->video_controller_bottom_time_current:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1444,7 +1444,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0ea8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_video_controller_layout:I
 
     const/4 v2, 0x0
 

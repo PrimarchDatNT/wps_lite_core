@@ -285,7 +285,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c01
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_floating_action_button_layout_phone:I
 
     const/4 v2, 0x0
 
@@ -343,9 +343,9 @@
     packed-switch p1, :pswitch_data_0
 
     :pswitch_0
-    const p1, 0x7f12251b    # 1.9425995E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
-    const v0, 0x7f0819a4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_doc_selector:I
 
     .line 2
     sget-object v1, Lz56;->T:Lz56;
@@ -357,9 +357,9 @@
     goto/16 :goto_0
 
     :pswitch_1
-    const p1, 0x7f12251d    # 1.9426E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_memo_label:I    # 1.9426E38f
 
-    const v0, 0x7f0819aa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_txt_selector:I
 
     .line 3
     sget-object v1, Lz56;->S:Lz56;
@@ -371,9 +371,9 @@
     goto/16 :goto_0
 
     :pswitch_2
-    const p1, 0x7f122283
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_cloud_upload_file:I
 
-    const v0, 0x7f08172f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_upload:I
 
     .line 4
     sget-object v1, Lz56;->Z:Lz56;
@@ -385,9 +385,9 @@
     goto/16 :goto_0
 
     :pswitch_3
-    const p1, 0x7f12196d
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_search_pic_design:I
 
-    const v0, 0x7f081728
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_ckt:I
 
     .line 5
     sget-object v1, Lz56;->b0:Lz56;
@@ -399,9 +399,9 @@
     goto :goto_0
 
     :pswitch_4
-    const p1, 0x7f12250f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
-    const v0, 0x7f081729
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_folder:I
 
     .line 6
     sget-object v1, Lz56;->a0:Lz56;
@@ -413,9 +413,9 @@
     goto :goto_0
 
     :pswitch_5
-    const p1, 0x7f12251c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_form_label:I
 
-    const v0, 0x7f0819a5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_form_tool_selector:I
 
     .line 7
     sget-object v1, Lz56;->Y:Lz56;
@@ -427,9 +427,9 @@
     goto :goto_0
 
     :pswitch_6
-    const p1, 0x7f12251a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_cooperative_document_label:I
 
-    const v0, 0x7f0819a3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_cooperative_doc_selector:I
 
     .line 8
     sget-object v1, Lz56;->X:Lz56;
@@ -441,9 +441,9 @@
     goto :goto_0
 
     :pswitch_7
-    const p1, 0x7f122520
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_xls_label:I
 
-    const v0, 0x7f0819ab
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_xls_selector:I
 
     .line 9
     sget-object v1, Lz56;->B:Lz56;
@@ -455,9 +455,9 @@
     goto :goto_0
 
     :pswitch_8
-    const p1, 0x7f12251f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_ppt_label:I
 
-    const v0, 0x7f0819a8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_ppt_selector:I
 
     .line 10
     sget-object v1, Lz56;->I:Lz56;
@@ -469,9 +469,9 @@
     goto :goto_0
 
     :pswitch_9
-    const p1, 0x7f12146d
+    sget p1, Lcom/resouce/module/ResSTRING;->new_note:I
 
-    const v0, 0x7f0819a6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_note_selector:I
 
     .line 11
     sget-object v1, Lz56;->V:Lz56;
@@ -483,9 +483,9 @@
     goto :goto_0
 
     :pswitch_a
-    const p1, 0x7f122007
+    sget p1, Lcom/resouce/module/ResSTRING;->public_documenet_scan_tips:I
 
-    const v0, 0x7f0819a9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_scan_selector:I
 
     .line 12
     sget-object v1, Lz56;->U:Lz56;
@@ -497,9 +497,9 @@
     goto :goto_0
 
     :pswitch_b
-    const p1, 0x7f12251e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newfile_pdf_label:I
 
-    const v0, 0x7f0819a7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_image_pdf_selector:I
 
     .line 13
     sget-object v1, Lz56;->W:Lz56;
@@ -930,7 +930,7 @@
     :cond_0
     iget-object v0, p0, Ly56;->b:Landroid/content/Context;
 
-    const v1, 0x7f01004e
+    sget v1, Lcom/resouce/module/ResANIM;->home_floating_actionbar_show:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1239,7 +1239,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707c6
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_fab_default_margin_bottom:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1254,7 +1254,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0707c7
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_fab_margin_bottom:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1274,7 +1274,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0707c9
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_fab_wpsdrive_margin_bottom:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1704,7 +1704,7 @@
     .line 1
     iget-object v0, p0, Ly56;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0dd7
+    sget v1, Lcom/resouce/module/ResID;->floating_action_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1717,7 +1717,7 @@
     .line 2
     iget-object v0, p0, Ly56;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0dd6
+    sget v1, Lcom/resouce/module/ResID;->floating_action_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1826,7 +1826,7 @@
     .line 14
     iget-object v0, p0, Ly56;->c:Landroid/view/View;
 
-    const v2, 0x7f0b202b
+    sget v2, Lcom/resouce/module/ResID;->phone_home_plus_left_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1839,7 +1839,7 @@
     .line 15
     iget-object v0, p0, Ly56;->c:Landroid/view/View;
 
-    const v2, 0x7f0b202a
+    sget v2, Lcom/resouce/module/ResID;->phone_home_plus_above_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

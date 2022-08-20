@@ -148,7 +148,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
-    const v0, 0x7f0b1049
+    sget v0, Lcom/resouce/module/ResID;->home_alldocs_return_open:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/view/pad/PadAllDocsNavBarLayout;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1b1c
+    sget v0, Lcom/resouce/module/ResID;->open_all_docs:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/view/pad/PadAllDocsNavBarLayout;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0ea3
+    sget v0, Lcom/resouce/module/ResID;->func_container:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

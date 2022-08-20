@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122b9b    # 1.942937E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_fail:I    # 1.942937E38f
 
     const/4 v1, 0x0
 

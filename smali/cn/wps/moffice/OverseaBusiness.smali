@@ -219,9 +219,9 @@
 
     move-result v2
 
-    const v4, 0x7f120616
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_myspace:I
 
-    const v5, 0x7f120eab
+    sget v5, Lcom/resouce/module/ResSTRING;->home_clouddocs_folder_auto_uploaded:I
 
     if-eqz v2, :cond_c
 
@@ -358,7 +358,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120615
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_myqlink:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1599,7 +1599,7 @@
     .line 2
     new-instance v0, Lbef;
 
-    const v3, 0x7f13013a
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     move-object v1, v0
 
@@ -1885,7 +1885,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121eaa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_romaing_func_open:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

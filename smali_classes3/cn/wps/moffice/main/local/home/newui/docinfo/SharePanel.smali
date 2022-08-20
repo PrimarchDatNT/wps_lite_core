@@ -113,7 +113,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0bc5
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_share_panel_layout:I
 
     const/4 v0, 0x0
 
@@ -125,7 +125,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b0751
+    sget p3, Lcom/resouce/module/ResID;->docinfo_share_panel_content:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
     .line 8
     iget-object p2, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b0752
+    sget p3, Lcom/resouce/module/ResID;->docinfo_share_panel_content_in_scrollview:I
 
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 9
     iget-object p2, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b0750
+    sget p3, Lcom/resouce/module/ResID;->docinfo_share_panel_back:I
 
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0602db
+    sget p3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -178,7 +178,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b0753
+    sget p2, Lcom/resouce/module/ResID;->docinfo_share_panel_progress_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -194,7 +194,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b0756
+    sget p2, Lcom/resouce/module/ResID;->docinfo_share_panel_title_icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -207,7 +207,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b0755
+    sget p2, Lcom/resouce/module/ResID;->docinfo_share_panel_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -249,7 +249,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->I:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0818b8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -405,7 +405,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0bc1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_link_share_progress:I
 
     .line 3
     iget-object v3, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->a0:Landroid/view/ViewGroup;
@@ -417,7 +417,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0bc2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_link_share_progress_cn:I
 
     .line 4
     iget-object v3, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->a0:Landroid/view/ViewGroup;

@@ -569,7 +569,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -577,7 +577,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f081197
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_share_black:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -774,7 +774,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12309e
+    sget v1, Lcom/resouce/module/ResSTRING;->template_preview_share_link:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1252,7 +1252,7 @@
     .line 3
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
-    const v1, 0x7f0809e7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->is_favor:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1282,7 +1282,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1290,7 +1290,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0809e9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->is_unfavor:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1406,7 +1406,7 @@
 
     if-ne p1, v0, :cond_8
 
-    const p1, 0x7f123078
+    sget p1, Lcom/resouce/module/ResSTRING;->template_favored:I
 
     .line 13
     invoke-virtual {p0, p1}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
@@ -1417,7 +1417,7 @@
     :goto_0
     if-eqz v1, :cond_4
 
-    const p1, 0x7f123077
+    sget p1, Lcom/resouce/module/ResSTRING;->template_favor_succeed:I
 
     .line 14
     invoke-virtual {p0, p1}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
@@ -1430,7 +1430,7 @@
     goto :goto_1
 
     :cond_4
-    const p1, 0x7f1230af
+    sget p1, Lcom/resouce/module/ResSTRING;->template_unfavor_succeed:I
 
     .line 16
     invoke-virtual {p0, p1}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
@@ -1499,7 +1499,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0039
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_foreign_template_preview:I
 
     const/4 v2, 0x0
 
@@ -1553,7 +1553,7 @@
 
     invoke-virtual {v2, v4, v1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
-    const v1, 0x7f0b2941
+    sget v1, Lcom/resouce/module/ResID;->rl_container:I
 
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Y:Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;
@@ -1892,7 +1892,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 4
     invoke-virtual {p0, v0}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
@@ -1971,7 +1971,7 @@
     .line 11
     iget-object p2, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Y:Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;
 
-    const v2, 0x7f0b2941
+    sget v2, Lcom/resouce/module/ResID;->rl_container:I
 
     invoke-virtual {v0, v2, p2}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 

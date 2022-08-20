@@ -113,7 +113,7 @@
 
     invoke-direct {v0}, Lkvk;-><init>()V
 
-    const v1, 0x7f0b2f4e
+    sget v1, Lcom/resouce/module/ResID;->textimageview_search:I
 
     const-string v2, "edit-check-search"
 
@@ -126,7 +126,7 @@
 
     invoke-direct {v0, v1}, Lyyk;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b2f47
+    sget v1, Lcom/resouce/module/ResID;->textimageview_countwords:I
 
     const-string v2, "read-peruse-countwords"
 
@@ -137,7 +137,7 @@
 
     invoke-direct {v0}, Lm9l;-><init>()V
 
-    const v1, 0x7f0b01e0
+    sget v1, Lcom/resouce/module/ResID;->background_type_none_imageview:I
 
     const-string v2, "edit-check-background-type-none"
 
@@ -166,7 +166,7 @@
     .line 6
     new-instance v1, Lo9l;
 
-    const v2, 0x7f0606c6
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_public_edit_background_80_gray:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -175,7 +175,7 @@
 
     invoke-direct {v1, v2}, Lo9l;-><init>(I)V
 
-    const v2, 0x7f0b01db
+    sget v2, Lcom/resouce/module/ResID;->background_type_80_gray_imageview:I
 
     const-string v3, "edit-check-background-type-gray"
 
@@ -185,7 +185,7 @@
     .line 9
     new-instance v1, Lo9l;
 
-    const v2, 0x7f0606c7
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_public_edit_background_light_blue:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -194,7 +194,7 @@
 
     invoke-direct {v1, v2}, Lo9l;-><init>(I)V
 
-    const v2, 0x7f0b01dc
+    sget v2, Lcom/resouce/module/ResID;->background_type_light_blue_imageview:I
 
     const-string v3, "edit-check-background-type-light-blue"
 
@@ -204,7 +204,7 @@
     .line 12
     new-instance v1, Lo9l;
 
-    const v2, 0x7f0606c8
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_public_edit_background_light_orange:I
 
     .line 13
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -213,7 +213,7 @@
 
     invoke-direct {v1, v0}, Lo9l;-><init>(I)V
 
-    const v0, 0x7f0b01dd
+    sget v0, Lcom/resouce/module/ResID;->background_type_light_orange_imageview:I
 
     const-string v2, "edit-check-background-type-light-orange"
 
@@ -227,7 +227,7 @@
 
     invoke-direct {v0, v1}, Lp9l;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b01d9
+    sget v1, Lcom/resouce/module/ResID;->background_mine_imageview:I
 
     const-string v2, "edit-check-background-mine"
 
@@ -240,7 +240,7 @@
 
     invoke-direct {v0, v1}, Lq9l;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b01df
+    sget v1, Lcom/resouce/module/ResID;->background_type_more:I
 
     const-string v2, "edit-check-background-type-more"
 
@@ -251,7 +251,7 @@
 
     invoke-direct {v0, p0}, Lgcl$a;-><init>(Lgcl;)V
 
-    const v1, 0x7f0b2f4d
+    sget v1, Lcom/resouce/module/ResID;->textimageview_paste:I
 
     const-string v2, "edit-check-paste"
 
@@ -262,7 +262,7 @@
 
     invoke-direct {v0, p0}, Lgcl$b;-><init>(Lgcl;)V
 
-    const v1, 0x7f0b2f46
+    sget v1, Lcom/resouce/module/ResID;->textimageview_copy:I
 
     const-string v2, "edit-check-copy"
 
@@ -273,7 +273,7 @@
 
     invoke-direct {v0, p0}, Lgcl$c;-><init>(Lgcl;)V
 
-    const v1, 0x7f0b2f48
+    sget v1, Lcom/resouce/module/ResID;->textimageview_cut:I
 
     const-string v2, "edit-check-cut"
 
@@ -286,7 +286,7 @@
 
     invoke-direct {v0, p0, v1}, Lgcl$d;-><init>(Lgcl;Lgcl$a;)V
 
-    const v1, 0x7f0b2f4a
+    sget v1, Lcom/resouce/module/ResID;->textimageview_insertbookmark:I
 
     const-string v2, "edit-check-addbookmark"
 
@@ -299,7 +299,7 @@
 
     invoke-direct {v0, v1}, Lkrk;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b2f45
+    sget v1, Lcom/resouce/module/ResID;->textimageview_bookmark:I
 
     const-string v2, "edit-check-bookmarks"
 
@@ -312,7 +312,7 @@
 
     invoke-direct {v0, v1}, Lnwl;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b2f50
+    sget v1, Lcom/resouce/module/ResID;->textimageview_thumbnail:I
 
     const-string v2, "edit-check-thumbnail"
 
@@ -325,7 +325,7 @@
 
     invoke-direct {v0, v1}, Lhwl;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b2f4c
+    sget v1, Lcom/resouce/module/ResID;->textimageview_outline:I
 
     const-string v2, "edit-check-table-of-contents"
 
@@ -334,7 +334,7 @@
     .line 24
     new-instance v0, Lesk;
 
-    const v1, 0x7f0b03c7
+    sget v1, Lcom/resouce/module/ResID;->check_translate_recommend:I
 
     .line 25
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     invoke-direct {v0, v1, v2}, Lesk;-><init>(Landroid/widget/TextView;Ljava/lang/String;)V
 
-    const v1, 0x7f0b03c5
+    sget v1, Lcom/resouce/module/ResID;->check_translate:I
 
     const-string v2, "edit-check-translate"
 
@@ -357,7 +357,7 @@
     .line 27
     new-instance v0, Lkjl;
 
-    const v1, 0x7f0b03b5
+    sget v1, Lcom/resouce/module/ResID;->check_lock_screen:I
 
     .line 28
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -366,7 +366,7 @@
 
     invoke-direct {v0, v1}, Lkjl;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b03b6
+    sget v1, Lcom/resouce/module/ResID;->check_lock_screen_checkbox:I
 
     const-string v2, "edit-check-lock-screen"
 
@@ -378,7 +378,7 @@
 
     invoke-direct {v0}, Lpjl;-><init>()V
 
-    const v1, 0x7f0b03ba
+    sget v1, Lcom/resouce/module/ResID;->check_rotate_screen:I
 
     const-string v2, "edit-check-rotate-screen"
 
@@ -389,7 +389,7 @@
 
     invoke-direct {v0}, Lhuk;-><init>()V
 
-    const v1, 0x7f0b03b8
+    sget v1, Lcom/resouce/module/ResID;->check_pagesetting:I
 
     const-string v2, "edit-check-page-setting"
 
@@ -398,7 +398,7 @@
     .line 32
     new-instance v0, Lbjl;
 
-    const v1, 0x7f0b01ab
+    sget v1, Lcom/resouce/module/ResID;->autowrap_open_layout:I
 
     .line 33
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -407,7 +407,7 @@
 
     invoke-direct {v0, v1}, Lbjl;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b01aa
+    sget v1, Lcom/resouce/module/ResID;->autowrap_open_checkbox:I
 
     const-string v2, "edit-check-toggle-autowrap-button"
 
@@ -482,7 +482,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2f4e
+    sget v1, Lcom/resouce/module/ResID;->textimageview_search:I
 
     if-eq v0, v1, :cond_0
 
@@ -491,7 +491,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2f4a
+    sget v1, Lcom/resouce/module/ResID;->textimageview_insertbookmark:I
 
     if-eq v0, v1, :cond_0
 
@@ -500,7 +500,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b03c5
+    sget v0, Lcom/resouce/module/ResID;->check_translate:I
 
     if-ne p1, v0, :cond_1
 
@@ -649,7 +649,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122ba9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_view:I
 
     return v0
 .end method
@@ -875,7 +875,7 @@
 
     iput-object v0, p0, Lgcl;->h0:Ljava/lang/String;
 
-    const v0, 0x7f0e0ecb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_view_layout:I
 
     .line 3
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -901,7 +901,7 @@
 
     invoke-virtual {p0, v1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v1, 0x7f0b01e0
+    sget v1, Lcom/resouce/module/ResID;->background_type_none_imageview:I
 
     .line 7
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -921,7 +921,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606c9
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_public_tick_color_black_with_alpha:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1001,7 +1001,7 @@
     .line 16
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b01d4
+    sget v1, Lcom/resouce/module/ResID;->background_divider:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1012,7 +1012,7 @@
     .line 17
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b01d7
+    sget v1, Lcom/resouce/module/ResID;->background_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1076,7 +1076,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v2, 0x7f0b01d7
+    sget v2, Lcom/resouce/module/ResID;->background_layout:I
 
     .line 3
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1097,7 +1097,7 @@
     :goto_1
     invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b01d3
+    sget v2, Lcom/resouce/module/ResID;->background_divide_view:I
 
     .line 4
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1116,7 +1116,7 @@
     :goto_2
     invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b03b8
+    sget v2, Lcom/resouce/module/ResID;->check_pagesetting:I
 
     .line 5
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1135,7 +1135,7 @@
     :goto_3
     invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b1c7c
+    sget v2, Lcom/resouce/module/ResID;->pagesetting_divide_view:I
 
     .line 6
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1154,7 +1154,7 @@
     :goto_4
     invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b2f50
+    sget v2, Lcom/resouce/module/ResID;->textimageview_thumbnail:I
 
     .line 7
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1190,7 +1190,7 @@
     :cond_0
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2814
+    sget v1, Lcom/resouce/module/ResID;->readmode_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1203,7 +1203,7 @@
     .line 3
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2f4b
+    sget v1, Lcom/resouce/module/ResID;->textimageview_nightmode:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1216,7 +1216,7 @@
     .line 4
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b2f49
+    sget v2, Lcom/resouce/module/ResID;->textimageview_eye_protection_mode:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1234,7 +1234,7 @@
     .line 6
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b028e
+    sget v1, Lcom/resouce/module/ResID;->brightness_seekbar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1259,7 +1259,7 @@
     :cond_1
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b028d
+    sget v2, Lcom/resouce/module/ResID;->brightness_adjustment_layout:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1355,7 +1355,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2f4b
+    sget v0, Lcom/resouce/module/ResID;->textimageview_nightmode:I
 
     .line 2
     new-instance v3, Lfjl;
@@ -1364,7 +1364,7 @@
 
     invoke-virtual {p0, v0, v3, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2f49
+    sget v0, Lcom/resouce/module/ResID;->textimageview_eye_protection_mode:I
 
     .line 3
     new-instance v2, Lcjl;
@@ -1376,7 +1376,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1a29
+    sget v0, Lcom/resouce/module/ResID;->night_mode_switch:I
 
     .line 4
     new-instance v3, Lfjl;
@@ -1385,7 +1385,7 @@
 
     invoke-virtual {p0, v0, v3, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0c56
+    sget v0, Lcom/resouce/module/ResID;->eye_protection_switch:I
 
     .line 5
     new-instance v2, Lcjl;
@@ -1394,7 +1394,7 @@
 
     invoke-virtual {p0, v0, v2, v1}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b03b3
+    sget v0, Lcom/resouce/module/ResID;->check_keep_screen_on:I
 
     .line 6
     new-instance v1, Ldjl;

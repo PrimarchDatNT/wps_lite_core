@@ -135,7 +135,7 @@
 
     invoke-direct {v12}, Landroid/graphics/RectF;-><init>()V
 
-    const v13, 0x7f12054e
+    sget v13, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     const/4 v14, 0x0
 
@@ -335,7 +335,7 @@
     :goto_4
     add-int/lit8 v8, v15, 0x1
 
-    const v13, 0x7f12054e
+    sget v13, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     const/4 v15, 0x1
 
@@ -361,7 +361,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12054e
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     invoke-static {v1, v3, v14}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -393,7 +393,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12054e
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     invoke-static {v1, v2, v14}, Lbih;->n(Landroid/content/Context;II)V
 

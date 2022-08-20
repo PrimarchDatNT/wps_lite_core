@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205d2
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_liveSpace_setupFromSDCard:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205d1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_liveSpace_setupFromLocal:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1205ca
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage6:I
 
     const/4 v4, 0x2
 

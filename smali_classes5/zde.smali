@@ -166,7 +166,7 @@
     .line 1
     iget-object v0, p0, Laee;->S:Landroid/view/View;
 
-    const v1, 0x7f0b243f
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_toolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -179,14 +179,14 @@
     .line 2
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f122a49
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_attribute:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object v0, p0, Laee;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
     .line 4
     iget-object v0, p0, Laee;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -237,7 +237,7 @@
     .line 1
     iget-object v0, p0, Laee;->V:Landroid/view/View;
 
-    const v1, 0x7f0b243d
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_tabhost:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122a60
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     iput-object v0, p0, Laee;->Y:Ljava/lang/String;
 
-    const v1, 0x7f0b2446
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_style_tab:I
 
     .line 4
     invoke-virtual {p0, p1, v0, v1}, Laee;->b(Landroid/content/Context;Ljava/lang/String;I)V
@@ -279,18 +279,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fe6
+    sget v0, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne p1, v0, :cond_2
 
@@ -358,7 +358,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-ne p1, v0, :cond_4
 
@@ -388,7 +388,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ad6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_table_attribute:I
 
     const/4 v2, 0x0
 
@@ -435,7 +435,7 @@
 
     iget-object v1, p0, Laee;->I:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 

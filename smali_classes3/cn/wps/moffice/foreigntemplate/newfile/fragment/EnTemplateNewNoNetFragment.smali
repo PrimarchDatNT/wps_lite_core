@@ -41,7 +41,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b19f3
+    sget v0, Lcom/resouce/module/ResID;->new_file_blank:I
 
     if-ne p1, v0, :cond_3
 
@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0fb5
+    sget p2, Lcom/resouce/module/ResLAYOUT;->template_en_new_file_no_net:I
 
     const/4 p3, 0x0
 
@@ -257,7 +257,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/EnTemplateNewNoNetFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b19f3
+    sget p2, Lcom/resouce/module/ResID;->new_file_blank:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/EnTemplateNewNoNetFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b19f2
+    sget p2, Lcom/resouce/module/ResID;->new_file_ad:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

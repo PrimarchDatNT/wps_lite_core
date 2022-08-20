@@ -61,7 +61,7 @@
     :cond_0
     iget-object v0, p0, Lwf6$b$a;->B:Lqs4$a;
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     if-nez v0, :cond_1
 

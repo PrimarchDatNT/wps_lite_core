@@ -232,7 +232,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0816fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setBackBg(I)V
 
@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08171e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_set_up:I
 
     new-instance v1, Lcn/wps/moffice/main/msgcenter/view/MsgCenterListActivity$c;
 

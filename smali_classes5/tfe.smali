@@ -50,7 +50,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -372,7 +372,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dde
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt_online_bought:I
 
     const/4 v2, 0x0
 
@@ -390,7 +390,7 @@
     .line 4
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b175a
+    sget v1, Lcom/resouce/module/ResID;->login_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +401,7 @@
     .line 5
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3477
+    sget v1, Lcom/resouce/module/ResID;->wps_docer_login_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -414,7 +414,7 @@
     .line 6
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b289b
+    sget v1, Lcom/resouce/module/ResID;->renew_docer_vip_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
     .line 7
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1899
+    sget v1, Lcom/resouce/module/ResID;->mine_error_default:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
     .line 8
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2ed1
+    sget v1, Lcom/resouce/module/ResID;->template_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
     .line 9
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b20
+    sget v1, Lcom/resouce/module/ResID;->open_docker_vip_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 10
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b1f
+    sget v1, Lcom/resouce/module/ResID;->open_docer_vip_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -471,7 +471,7 @@
     .line 11
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3025
+    sget v1, Lcom/resouce/module/ResID;->titlebar_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -497,7 +497,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0e0de0
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_ppt_single_bought_head_text:I
 
     invoke-virtual {v0, v4, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -508,7 +508,7 @@
     .line 16
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1b86
+    sget v2, Lcom/resouce/module/ResID;->orientation_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -524,7 +524,7 @@
     .line 18
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2ece
+    sget v2, Lcom/resouce/module/ResID;->template_list:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -660,7 +660,7 @@
     .line 6
     iget-object p1, p0, Ltfe;->B:Landroid/content/Context;
 
-    const p2, 0x7f120cbb
+    sget p2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {p1, p2, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -836,7 +836,7 @@
     .line 1
     iget-object v0, p0, Ltfe;->I:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -878,7 +878,7 @@
     .line 7
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f122a85
+    sget v1, Lcom/resouce/module/ResSTRING;->public_template_already_buy:I
 
     .line 8
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -974,7 +974,7 @@
     .line 1
     iget-object v0, p0, Ltfe;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b347b
+    sget v1, Lcom/resouce/module/ResID;->wps_docer_login_layout_top_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

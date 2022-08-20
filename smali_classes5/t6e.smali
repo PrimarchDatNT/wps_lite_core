@@ -251,7 +251,7 @@
     .line 4
     iget-object v0, p0, Lt6e;->f:Lrd3;
 
-    const v1, 0x7f1226ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_exporting_photos:I
 
     invoke-virtual {v0, v1}, Lrd3;->D(I)V
 

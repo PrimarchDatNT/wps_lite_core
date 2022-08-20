@@ -78,7 +78,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b25a9
+    sget v0, Lcom/resouce/module/ResID;->public_decrypt_progressbar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

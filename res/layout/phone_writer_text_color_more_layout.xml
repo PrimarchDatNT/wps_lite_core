@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" pressAlphaEnableWhenRipple="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/font_image_view_more" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_shortcut_toolbar_arrow" android:scaleType="centerInside" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

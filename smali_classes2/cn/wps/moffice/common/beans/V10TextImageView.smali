@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1016
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_public_textimage_layout:I
 
     const/4 v2, 0x1
 
@@ -91,7 +91,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/V10TextImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f42
+    sget v1, Lcom/resouce/module/ResID;->textimage_imageview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/beans/V10TextImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f43
+    sget v1, Lcom/resouce/module/ResID;->textimage_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     :cond_3
     const/4 p2, 0x4
 
-    const p3, 0x7f0820aa
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_selector:I
 
     .line 14
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -471,7 +471,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

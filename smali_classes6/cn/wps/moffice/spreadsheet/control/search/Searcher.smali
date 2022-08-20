@@ -39,7 +39,7 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/search/Searcher$2;
 
-    const v1, 0x7f080bfd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_search_et:I
 
     const/4 v2, -0x1
 

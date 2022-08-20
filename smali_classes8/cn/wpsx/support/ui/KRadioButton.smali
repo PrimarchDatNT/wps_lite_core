@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f04031d
+    sget v0, Lcom/resouce/module/ResATTR;->kmui_radioButtonStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcn/wpsx/support/ui/KRadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -84,7 +84,7 @@
     .line 3
     sget-object v1, Lcn/wps/moffice_eng/R$styleable;->KRadioButton:[I
 
-    const v2, 0x7f130176
+    sget v2, Lcom/resouce/module/ResSTYLE;->KRadioButtonStyle:I
 
     .line 4
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;

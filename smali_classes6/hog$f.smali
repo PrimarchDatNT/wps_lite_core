@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1238
+    sget v0, Lcom/resouce/module/ResID;->icon_iv:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lhog$f;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fb5
+    sget v0, Lcom/resouce/module/ResID;->header_iv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lhog$f;->l0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3015
+    sget v0, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

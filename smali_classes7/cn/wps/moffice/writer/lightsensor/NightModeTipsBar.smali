@@ -141,7 +141,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e09ed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_nightmode_tips:I
 
     const/4 v2, 0x1
 
@@ -195,7 +195,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1a2d
+    sget v0, Lcom/resouce/module/ResID;->nightmode_tips_info:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/lightsensor/NightModeTipsBar;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a2c
+    sget v0, Lcom/resouce/module/ResID;->nightmode_tips_btn:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -389,14 +389,14 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/lightsensor/NightModeTipsBar;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f1233c3
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_night_mode_tips_into:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/writer/lightsensor/NightModeTipsBar;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f122b22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

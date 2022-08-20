@@ -182,7 +182,7 @@
     goto/16 :goto_0
 
     :catch_1
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 10
     invoke-static {v1, v0}, Lsjf;->k(II)V
@@ -203,7 +203,7 @@
     goto :goto_0
 
     :catch_2
-    const v1, 0x7f120019
+    sget v1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 12
     invoke-static {v1, v0}, Lsjf;->k(II)V
@@ -247,7 +247,7 @@
     goto :goto_0
 
     :catch_4
-    const v1, 0x7f120c23
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sort_empty:I
 
     .line 16
     invoke-static {v1, v0}, Lsjf;->k(II)V
@@ -268,7 +268,7 @@
     goto :goto_0
 
     :catch_5
-    const v1, 0x7f1208a4
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_warning_MergeCell:I
 
     .line 18
     invoke-static {v1, v0}, Lsjf;->k(II)V
@@ -289,7 +289,7 @@
     goto :goto_0
 
     :catch_6
-    const v1, 0x7f1208a5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_warning_arrayformula:I
 
     .line 20
     invoke-static {v1, v0}, Lsjf;->k(II)V

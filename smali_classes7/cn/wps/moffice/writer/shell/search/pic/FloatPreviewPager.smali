@@ -162,11 +162,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a04
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_search_pic_preview_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2aa1
+    sget v0, Lcom/resouce/module/ResID;->search_pic_preview_image_view_pager:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

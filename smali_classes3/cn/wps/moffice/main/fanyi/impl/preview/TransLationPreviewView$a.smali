@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cc7
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_previewtips:I
 
     const/4 v2, 0x1
 

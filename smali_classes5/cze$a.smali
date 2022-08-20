@@ -77,7 +77,7 @@
 
     if-eqz p1, :cond_0
 
-    const p2, 0x7f122d0c
+    sget p2, Lcom/resouce/module/ResSTRING;->reader_login_success:I
 
     .line 2
     invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -105,7 +105,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f122d0b
+    sget p2, Lcom/resouce/module/ResSTRING;->reader_login_failed:I
 
     .line 5
     invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;

@@ -1176,7 +1176,7 @@
     invoke-virtual {p1, p2, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     :cond_4
-    const p2, 0x7f12233a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     .line 16
     invoke-virtual {p0, p2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;

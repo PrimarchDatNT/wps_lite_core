@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08018b
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->com_facebook_button_icon:I
 
     .line 3
     invoke-static {p1, p2}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -111,7 +111,7 @@
 .method public getDefaultStyleResource()I
     .locals 1
 
-    const v0, 0x7f1303fc
+    sget v0, Lcom/resouce/module/ResSTYLE;->com_facebook_button_share:I
 
     return v0
 .end method

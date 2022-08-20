@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a58
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_pdf_convert_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lrkc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d8a
+    sget v1, Lcom/resouce/module/ResID;->pdf_convert_preview_titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
     .line 3
     iget-object v0, p0, Lrkc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d89
+    sget v1, Lcom/resouce/module/ResID;->pdf_convert_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -167,7 +167,7 @@
     .line 6
     iget-object v0, p0, Lrkc;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f121779
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_preview_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

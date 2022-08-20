@@ -108,7 +108,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e08fb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_toolbar_info_layout:I
 
     const/4 v2, 0x0
 
@@ -121,7 +121,7 @@
 
     iput-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b20df
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
     .line 4
     iget-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b20e0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
     .line 5
     iget-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2105
+    sget v1, Lcom/resouce/module/ResID;->phone_public_toolbar_info_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -164,7 +164,7 @@
     .line 7
     iget-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2104
+    sget v1, Lcom/resouce/module/ResID;->phone_public_toolbar_info_content:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
     .line 8
     iget-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b21a1
+    sget v1, Lcom/resouce/module/ResID;->phone_toolbar_content:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
     :cond_0
     iget-object v0, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2101
+    sget v1, Lcom/resouce/module/ResID;->phone_public_title_bottom_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -221,7 +221,7 @@
     .line 13
     iget-object p1, p0, Lij3;->d:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b20be
+    sget v0, Lcom/resouce/module/ResID;->phone_public_bottompanem_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

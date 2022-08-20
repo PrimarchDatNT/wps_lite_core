@@ -80,7 +80,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e03c4
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_user_fragment:I
 
     const/4 v0, 0x1
 
@@ -685,7 +685,7 @@
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/main/user/card/UserFragment;->B:Landroid/content/Context;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1272,7 +1272,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0810b4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     const/4 v2, 0x0
 
@@ -1296,7 +1296,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/main/user/card/UserFragment;->U:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1315,7 +1315,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1556,7 +1556,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/user/card/UserFragment;->B:Landroid/content/Context;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

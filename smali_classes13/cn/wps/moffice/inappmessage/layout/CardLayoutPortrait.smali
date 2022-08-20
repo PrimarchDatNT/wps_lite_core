@@ -102,7 +102,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lcn/wps/moffice/inappmessage/layout/BaseModalLayout;->onMeasure(II)V
 
-    const v0, 0x7f0b12a2
+    sget v0, Lcom/resouce/module/ResID;->image_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/inappmessage/layout/BaseModalLayout;->d(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/inappmessage/layout/CardLayoutPortrait;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1885    # 1.8489E38f
+    sget v0, Lcom/resouce/module/ResID;->message_title:I    # 1.8489E38f
 
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/inappmessage/layout/BaseModalLayout;->d(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/inappmessage/layout/CardLayoutPortrait;->V:Landroid/view/View;
 
-    const v0, 0x7f0b022a
+    sget v0, Lcom/resouce/module/ResID;->body_scroll:I
 
     .line 4
     invoke-virtual {p0, v0}, Lcn/wps/moffice/inappmessage/layout/BaseModalLayout;->d(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/inappmessage/layout/CardLayoutPortrait;->W:Landroid/view/View;
 
-    const v0, 0x7f0b0067
+    sget v0, Lcom/resouce/module/ResID;->action_bar:I
 
     .line 5
     invoke-virtual {p0, v0}, Lcn/wps/moffice/inappmessage/layout/BaseModalLayout;->d(I)Landroid/view/View;

@@ -124,7 +124,7 @@
 
     check-cast p1, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;
 
-    const v1, 0x7f0810a3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_share_icon:I
 
     .line 8
     invoke-virtual {p1, v1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V
@@ -204,7 +204,7 @@
 
     check-cast v2, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;
 
-    const v3, 0x7f0810a2
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_group_icon:I
 
     .line 18
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V

@@ -45,7 +45,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1204cf
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scn_recognize_txt:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

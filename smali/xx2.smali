@@ -123,7 +123,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     if-ne p1, v0, :cond_0
 
@@ -133,7 +133,7 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b0ed2
+    sget v0, Lcom/resouce/module/ResID;->get_bonus_btn:I
 
     if-ne p1, v0, :cond_3
 
@@ -199,7 +199,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b055c
+    sget v0, Lcom/resouce/module/ResID;->continue_read_btn:I
 
     if-ne p1, v0, :cond_4
 
@@ -209,7 +209,7 @@
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f0b0ed4
+    sget v0, Lcom/resouce/module/ResID;->get_got_btn:I
 
     if-ne p1, v0, :cond_5
 
@@ -233,7 +233,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f130110
+    sget v0, Lcom/resouce/module/ResSTYLE;->BottomSheetDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Lmc;->n2(II)V
@@ -262,7 +262,7 @@
 .method public q2()I
     .locals 1
 
-    const v0, 0x7f0e02ac
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_read_reward_layout:I
 
     return v0
 .end method
@@ -270,7 +270,7 @@
 .method public r2(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b280e
+    sget v0, Lcom/resouce/module/ResID;->read_tip_text:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object v0, p0, Lxx2;->i0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -290,7 +290,7 @@
 
     iput-object v0, p0, Lxx2;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b037f
+    sget v0, Lcom/resouce/module/ResID;->center_img:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -301,7 +301,7 @@
 
     iput-object v0, p0, Lxx2;->o0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0ed4
+    sget v0, Lcom/resouce/module/ResID;->get_got_btn:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
     .line 5
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b280c
+    sget v0, Lcom/resouce/module/ResID;->read_reward_text:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     iput-object v0, p0, Lxx2;->s0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b1562
+    sget v0, Lcom/resouce/module/ResID;->layout_prompt:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     iput-object v0, p0, Lxx2;->q0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1567
+    sget v0, Lcom/resouce/module/ResID;->layout_reward:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
 
     iput-object v0, p0, Lxx2;->r0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0638
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow_bg:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060385
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_read_time_main_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -372,7 +372,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v0, 0x7f0b306d
+    sget v0, Lcom/resouce/module/ResID;->top_decor_bar_view:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -399,7 +399,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0ed2
+    sget v0, Lcom/resouce/module/ResID;->get_bonus_btn:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
     .line 15
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b055c
+    sget v0, Lcom/resouce/module/ResID;->continue_read_btn:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     iget-object v0, p0, Lxx2;->i0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v2, 0x7f120226
+    sget v2, Lcom/resouce/module/ResSTRING;->book_read_time_prompt_title:I
 
     invoke-virtual {p0, p1, v0, v2}, Lxx2;->w2(Ljava/lang/String;Lcn/wps/moffice/reader/view/NovelTypefaceTextView;I)V
 
@@ -505,7 +505,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120222
+    sget v2, Lcom/resouce/module/ResSTRING;->book_read_time_prompt_money:I
 
     const/4 v3, 0x1
 
@@ -557,7 +557,7 @@
 
     iget-object v0, p0, Lxx2;->s0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v1, 0x7f120228
+    sget v1, Lcom/resouce/module/ResSTRING;->book_read_time_reward_title:I
 
     invoke-virtual {p0, p1, v0, v1}, Lxx2;->w2(Ljava/lang/String;Lcn/wps/moffice/reader/view/NovelTypefaceTextView;I)V
 

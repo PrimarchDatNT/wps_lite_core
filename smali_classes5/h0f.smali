@@ -249,7 +249,7 @@
 
     iget-boolean v2, p0, Lh0f;->V:Z
 
-    const v3, 0x7f06007f
+    sget v3, Lcom/resouce/module/ResCOLOR;->colorAccent:I
 
     iget-object v2, p0, Lh0f;->S:Landroid/content/Context;
 
@@ -276,7 +276,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060716
+    sget v3, Lcom/resouce/module/ResCOLOR;->wps_reader_ripple_white_color_night:I
 
     goto :goto_0
 
@@ -287,7 +287,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060715
+    sget v3, Lcom/resouce/module/ResCOLOR;->wps_reader_ripple_white_color_day:I
 
     :goto_0
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -312,7 +312,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06070e
+    sget v3, Lcom/resouce/module/ResCOLOR;->wps_reader_category_text_color_night:I
 
     goto :goto_1
 
@@ -323,7 +323,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06070d
+    sget v3, Lcom/resouce/module/ResCOLOR;->wps_reader_category_text_color_day:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -339,12 +339,12 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f08202c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->wps_reader_touch_bg_rectangle_night:I
 
     goto :goto_2
 
     :cond_3
-    const v2, 0x7f08202b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->wps_reader_touch_bg_rectangle_day:I
 
     :goto_2
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
@@ -407,12 +407,12 @@
 
     if-eqz v3, :cond_6
 
-    const v3, 0x7f081fd6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_chapter_small_lock_night:I
 
     goto :goto_5
 
     :cond_6
-    const v3, 0x7f081fd5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_chapter_small_lock_day:I
 
     :goto_5
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -563,7 +563,7 @@
 
     iget-object p2, p0, Lh0f;->S:Landroid/content/Context;
 
-    const v0, 0x7f0e02a2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_chapter_content_item_layout:I
 
     const/4 v1, 0x0
 
@@ -626,7 +626,7 @@
     .line 3
     iget-object v0, p1, Lh0f$c;->k0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080702
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->free_unlock_dir_completed:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -635,7 +635,7 @@
 
     iget-boolean v0, p0, Lh0f;->V:Z
 
-    const v1, 0x7f0603a2
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {p1, v1, v0}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 

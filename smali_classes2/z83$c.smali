@@ -47,7 +47,7 @@
     .line 1
     iget-object v1, p0, Lz83$c;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122452
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_guide_dialog_star_page_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -86,7 +86,7 @@
     .line 3
     invoke-static {v0}, Liv7;->x(Ljava/lang/String;)V
 
-    const v3, 0x7f081a11
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_login_guide_star_icon:I
 
     .line 4
     invoke-virtual {v2, v3}, Ly83;->j(I)Ly83;

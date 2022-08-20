@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e8c
+    sget v1, Lcom/resouce/module/ResSTRING;->search_bottom_type_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12325c
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_skill_home_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d7c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_doc_search_bottom_item:I
 
     const/4 v2, 0x0
 
@@ -187,7 +187,7 @@
 
     iput-object p1, p0, Lz99;->b:Landroid/view/View;
 
-    const v0, 0x7f0b027a
+    sget v0, Lcom/resouce/module/ResID;->bottom_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
     .line 4
     iget-object p1, p0, Lz99;->b:Landroid/view/View;
 
-    const v0, 0x7f0b33b6
+    sget v0, Lcom/resouce/module/ResID;->view_top_divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
     .line 5
     iget-object p1, p0, Lz99;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0257
+    sget v0, Lcom/resouce/module/ResID;->bottom_divider:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

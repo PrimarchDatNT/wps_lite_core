@@ -69,7 +69,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lgcf;Ld0q;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -277,7 +277,7 @@
 .method public final d3(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b2b2f
+    sget v0, Lcom/resouce/module/ResID;->setting_content:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1221ad
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder_share_member_invite:I
 
     .line 5
     iget-object v2, p0, Lfcf;->f0:Lhcf$c;
@@ -344,7 +344,7 @@
     invoke-virtual {v0, p1}, Lhcf$b;->a(Lhcf;)V
 
     :cond_1
-    const p1, 0x7f1221aa
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder_share_link_join_check:I
 
     .line 7
     iget-object v2, p0, Lfcf;->e0:Lhcf$c;
@@ -367,9 +367,9 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f1221ab
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder_share_link_read_only:I
 
-    const v1, 0x7f1221ac
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_share_link_read_only_desc:I
 
     .line 10
     iget-object v2, p0, Lfcf;->g0:Lhcf$c;
@@ -401,7 +401,7 @@
 
     iget-object v0, p0, Lfcf;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f121350
+    sget v1, Lcom/resouce/module/ResSTRING;->link_share_info_expired_time:I
 
     invoke-direct {p1, v0, v1}, Ljcf;-><init>(Landroid/view/ViewGroup;I)V
 
@@ -547,7 +547,7 @@
 .method public final g3(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setCustomBackOpt(Ljava/lang/Runnable;)V
 
-    const v0, 0x7f1221b0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder_share_setting:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -626,7 +626,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06ce
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_invite_member_link_setting_layout:I
 
     const/4 v2, 0x0
 

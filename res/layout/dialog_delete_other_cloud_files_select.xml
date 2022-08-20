@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_other_cloud_files_dialog_title" />
-    <ListView android:scrollbarStyle="outsideInset" android:id="@id/list_view_content" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_marginTop="7.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@null" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" android:overScrollMode="never" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <Button android:textColor="@color/subTextColor" android:id="@id/btn_positive" android:text="@string/public_confirm" android:layout_centerHorizontal="true" style="@style/phone_public_dialog_horizontal_button" />
-    </RelativeLayout>
-</LinearLayout>

@@ -45,7 +45,7 @@
     .line 4
     iput p1, p0, Lcn/wps/moffice/templatecommon/ext/widget/banner/AvatarEffectImageView;->I:I
 
-    const p1, 0x7f0605ee
+    sget p1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     .line 5
     iput p1, p0, Lcn/wps/moffice/templatecommon/ext/widget/banner/AvatarEffectImageView;->V:I

@@ -616,7 +616,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1a4b
+    sget v0, Lcom/resouce/module/ResID;->norecord_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -692,7 +692,7 @@
     .line 3
     iget-object v0, p0, Lc5a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f010050
+    sget v1, Lcom/resouce/module/ResANIM;->home_roaming_file_notify_bar_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -721,7 +721,7 @@
     .line 6
     iget-object v0, p0, Lc5a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f010051
+    sget v1, Lcom/resouce/module/ResANIM;->home_roaming_file_notify_bar_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1282,7 +1282,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2843
+    sget v1, Lcom/resouce/module/ResID;->record_list_import_view_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1297,7 +1297,7 @@
 
     iput-object v0, p0, Lc5a;->l:Landroid/view/View;
 
-    const v1, 0x7f0b12d4
+    sget v1, Lcom/resouce/module/ResID;->import_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1381,7 +1381,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2265
+    sget v1, Lcom/resouce/module/ResID;->popMsg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1409,7 +1409,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2838
+    sget v1, Lcom/resouce/module/ResID;->recordRecyclerView:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

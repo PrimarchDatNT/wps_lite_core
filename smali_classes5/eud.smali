@@ -45,7 +45,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lcud;Lcn/wps/show/app/KmoPresentation;Ljho;Leud$f;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -247,7 +247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07f9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_extract_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -263,7 +263,7 @@
     .line 3
     iget-object v0, p0, Leud;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -351,7 +351,7 @@
     .line 14
     iget-object v1, p0, Leud;->V:Landroid/view/View;
 
-    const v3, 0x7f0b2f81
+    sget v3, Lcom/resouce/module/ResID;->thumb_grid_view:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
     .line 16
     iget-object v0, p0, Leud;->V:Landroid/view/View;
 
-    const v1, 0x7f0b024c
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
     .line 17
     iget-object v0, p0, Leud;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0c42
+    sget v1, Lcom/resouce/module/ResID;->extract_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -395,7 +395,7 @@
     .line 18
     iget-object v0, p0, Leud;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0c43
+    sget v1, Lcom/resouce/module/ResID;->extract_btn_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 19
     iget-object v0, p0, Leud;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0c55
+    sget v1, Lcom/resouce/module/ResID;->extract_vip_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -489,12 +489,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(I)V
@@ -521,7 +521,7 @@
     :goto_1
     iget-object v5, p0, Leud;->B:Landroid/app/Activity;
 
-    const v6, 0x7f1220bc
+    sget v6, Lcom/resouce/module/ResSTRING;->public_extract_count:I
 
     new-array v7, v2, [Ljava/lang/Object;
 

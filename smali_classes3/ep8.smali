@@ -164,7 +164,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212b7
+    sget v3, Lcom/resouce/module/ResSTRING;->id_photo_open_id:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -210,7 +210,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212b6
+    sget v3, Lcom/resouce/module/ResSTRING;->id_photo_get_open_id_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

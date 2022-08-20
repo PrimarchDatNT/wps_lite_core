@@ -602,7 +602,7 @@
     .line 3
     iget-object v0, p0, Lgi4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120d41
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_et_unsupport_file:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -762,7 +762,7 @@
 
     if-eqz v0, :cond_1
 
-    const v3, 0x7f0b0cec
+    sget v3, Lcom/resouce/module/ResID;->file_path:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

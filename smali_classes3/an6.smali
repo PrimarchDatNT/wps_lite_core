@@ -44,7 +44,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f130163
+    sget v0, Lcom/resouce/module/ResSTYLE;->ImageTextDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lan6;-><init>(Landroid/content/Context;I)V
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07e7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_picture_edittext_dialog:I
 
     const/4 v2, 0x0
 
@@ -316,7 +316,7 @@
     .line 3
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b0544
+    sget v1, Lcom/resouce/module/ResID;->content_et:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
     .line 5
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b01c6
+    sget v1, Lcom/resouce/module/ResID;->back_iv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
     .line 6
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b0d8c
+    sget v1, Lcom/resouce/module/ResID;->finish_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -358,7 +358,7 @@
     .line 7
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b06a8
+    sget v1, Lcom/resouce/module/ResID;->disable:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -374,7 +374,7 @@
     .line 9
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -387,7 +387,7 @@
     .line 10
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
     .line 11
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
     .line 12
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
     .line 13
     iget-object v0, p0, Lan6;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b01c6
+    sget v1, Lcom/resouce/module/ResID;->back_iv:I
 
     if-ne v0, v1, :cond_0
 
@@ -511,7 +511,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b0d8c
+    sget v1, Lcom/resouce/module/ResID;->finish_tv:I
 
     if-ne v0, v1, :cond_3
 
@@ -557,23 +557,23 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     if-eq v0, v1, :cond_4
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     if-eq v0, v1, :cond_4
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     if-eq v0, v1, :cond_4
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     if-eq v0, v1, :cond_4
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     if-ne v0, v1, :cond_5
 

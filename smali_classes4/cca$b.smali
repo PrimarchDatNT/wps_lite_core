@@ -96,7 +96,7 @@
 
     invoke-static {v1, v2}, Lcca;->a(Lcca;Ljava/lang/String;)V
 
-    const v1, 0x7f0e03fa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->invite_rewards_dialog_layout:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -123,7 +123,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f12070e
+    sget v1, Lcom/resouce/module/ResSTRING;->en_invite_others:I
 
     .line 9
     iget-object v2, p0, Lcca$b;->B:Landroid/content/Context;
@@ -132,7 +132,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06000c
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -145,7 +145,7 @@
     invoke-virtual {v0, v1, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_1
-    const v1, 0x7f121e1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_close:I
 
     .line 10
     new-instance v2, Lcca$b$b;
@@ -171,7 +171,7 @@
 
     iget-object v2, p0, Lcca$b;->B:Landroid/content/Context;
 
-    const v3, 0x7f12070b
+    sget v3, Lcom/resouce/module/ResSTRING;->en_invite_has_received:I
 
     invoke-static {v1, v0, v2, v3}, Lcca;->h(Lcca;Lhd3;Landroid/content/Context;I)V
 
@@ -183,7 +183,7 @@
 
     iget-object v2, p0, Lcca$b;->B:Landroid/content/Context;
 
-    const v3, 0x7f12070d
+    sget v3, Lcom/resouce/module/ResSTRING;->en_invite_not_rewards:I
 
     invoke-static {v1, v0, v2, v3}, Lcca;->h(Lcca;Lhd3;Landroid/content/Context;I)V
 

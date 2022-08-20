@@ -90,11 +90,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f130135
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const v1, 0x7f0e01d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_custom_progressbarlarge:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V
@@ -146,11 +146,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f130135
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const v1, 0x7f0e01d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_custom_progressbarlarge:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V

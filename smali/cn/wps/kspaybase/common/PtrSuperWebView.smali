@@ -113,7 +113,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -336,7 +336,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0438
+    sget v0, Lcom/resouce/module/ResLAYOUT;->kspay_public_webview_errorpage:I
 
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

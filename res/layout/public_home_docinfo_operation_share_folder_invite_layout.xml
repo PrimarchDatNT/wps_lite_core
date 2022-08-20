@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/view_share_folder_divide" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <cn.wps.moffice.main.local.home.newui.docinfo.filler.view.ShareFolderInviteView android:id="@id/view_share_folder_invite" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:id="@id/view_share_folder_divide_bottom" android:background="@color/secondBoldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-</cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout>

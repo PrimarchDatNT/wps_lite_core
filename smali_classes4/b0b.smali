@@ -202,7 +202,7 @@
     .line 4
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120474
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_processing:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -221,7 +221,7 @@
     .line 6
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120440
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_import_pic_from_camera_doc_pattern:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -244,7 +244,7 @@
     :cond_3
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120441
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_import_pic_from_camera_ppt_pattern:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

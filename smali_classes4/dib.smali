@@ -18,7 +18,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f0e0889
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_func_guide_purchase_item_landscape:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public f()I
     .locals 1
 
-    const v0, 0x7f0e0887
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_func_guide_layout_landscape:I
 
     return v0
 .end method

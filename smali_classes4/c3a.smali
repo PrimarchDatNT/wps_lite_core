@@ -73,7 +73,7 @@
     .line 5
     iput-object p4, p0, Lc3a;->I:Lcn/wps/moffice/common/beans/SubmersibleCoordinatorLayout;
 
-    const p2, 0x7f0b26ba
+    sget p2, Lcom/resouce/module/ResID;->public_phone_quick_access_suspend_title:I
 
     .line 6
     invoke-virtual {p3, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
     .line 7
     iget-object p2, p0, Lc3a;->e0:Landroid/view/View;
 
-    const p3, 0x7f0b1560
+    sget p3, Lcom/resouce/module/ResID;->layout_phone_quick_access:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
 
     iget-object p4, p0, Lc3a;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b26b9
+    sget v0, Lcom/resouce/module/ResID;->public_phone_ptr_content_view:I
 
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -233,7 +233,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06011e
+    sget v0, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -249,7 +249,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -355,7 +355,7 @@
     .line 2
     iget-object v0, p0, Lc3a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b27a6
+    sget v1, Lcom/resouce/module/ResID;->quick_access_expand_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     .line 2
     iget-object v0, p0, Lc3a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b27a8
+    sget v1, Lcom/resouce/module/ResID;->quick_access_title_bottom_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +465,7 @@
     .line 2
     iget-object v0, p0, Lc3a;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b210a
+    sget v1, Lcom/resouce/module/ResID;->phone_quick_access_recycler_outer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -491,7 +491,7 @@
     .line 2
     iget-object v0, p0, Lc3a;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2866
+    sget v1, Lcom/resouce/module/ResID;->recyclerview_phone_quick_access:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -526,7 +526,7 @@
     .line 2
     iget-object v0, p0, Lc3a;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b27aa
+    sget v1, Lcom/resouce/module/ResID;->quick_access_title_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -572,7 +572,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b26ba
+    sget v0, Lcom/resouce/module/ResID;->public_phone_quick_access_suspend_title:I
 
     if-ne p1, v0, :cond_0
 
@@ -664,7 +664,7 @@
     :cond_0
     iget-object v1, p0, Lc3a;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b33d3
+    sget v2, Lcom/resouce/module/ResID;->viewstub_phone_quick_access:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -855,7 +855,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c79
+    sget v1, Lcom/resouce/module/ResDIMEN;->quick_access_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1001,12 +1001,12 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f081d34
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_arrow_up:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f081d33
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_arrow_down:I
 
     .line 2
     :goto_1

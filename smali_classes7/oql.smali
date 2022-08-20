@@ -47,12 +47,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f070b67
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f070b68
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size_pad:I
 
     .line 5
     :goto_0
@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070b3e
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_geoShape_line_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

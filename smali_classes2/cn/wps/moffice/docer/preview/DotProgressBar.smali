@@ -846,9 +846,9 @@
 .method public final u(Landroid/util/AttributeSet;)V
     .locals 8
 
-    const v0, 0x7f0600b1
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
-    const v1, 0x7f060225
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_template_dot_progressbar_start_color:I
 
     const v2, 0x10e0001
 

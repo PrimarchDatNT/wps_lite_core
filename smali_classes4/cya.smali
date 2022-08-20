@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0126
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_process_dialog:I
 
     const/4 v2, 0x0
 
@@ -43,7 +43,7 @@
     .line 4
     new-instance v0, Landroid/app/Dialog;
 
-    const v1, 0x7f130403
+    sget v1, Lcom/resouce/module/ResSTYLE;->doc_scan_dialog_Pop:I
 
     invoke-direct {v0, p1, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 

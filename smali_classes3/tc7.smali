@@ -62,7 +62,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f121e28
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_file_size_limit_upgrade:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

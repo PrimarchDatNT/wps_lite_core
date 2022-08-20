@@ -158,13 +158,13 @@
 
     move-result-object p3
 
-    const v2, 0x7f0e023a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_projection_tab_item:I
 
     invoke-static {p3, v2, v1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b0b3b
+    sget v1, Lcom/resouce/module/ResID;->et_projection_tabs_item:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     iput-object v1, p2, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic$ViewHolder;->itemView:Landroid/view/View;
 
-    const v1, 0x7f0b0b3d
+    sget v1, Lcom/resouce/module/ResID;->et_projection_tabs_name:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -40,7 +40,7 @@
     .line 4
     iput-object p3, p0, Lv5w;->S:Landroid/view/View;
 
-    const p1, 0x7f0b1165
+    sget p1, Lcom/resouce/module/ResID;->home_search_all_doc_default:I
 
     .line 5
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,14 +60,14 @@
 
     iget-object p2, p0, Lv5w;->T:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f02
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_all_tab_default_page:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 7
     iget-object p1, p0, Lv5w;->S:Landroid/view/View;
 
-    const p2, 0x7f0b0d12
+    sget p2, Lcom/resouce/module/ResID;->file_search_new_history_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -80,7 +80,7 @@
     .line 8
     iget-object p1, p0, Lv5w;->S:Landroid/view/View;
 
-    const p2, 0x7f0b00f7
+    sget p2, Lcom/resouce/module/ResID;->all_tab_hot_search_outer_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -100,7 +100,7 @@
     .line 10
     iget-object p1, p0, Lv5w;->S:Landroid/view/View;
 
-    const p2, 0x7f0b00f8
+    sget p2, Lcom/resouce/module/ResID;->all_tab_search_feedback_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
     .line 12
     iget-object p1, p0, Lv5w;->S:Landroid/view/View;
 
-    const p2, 0x7f0b00f5
+    sget p2, Lcom/resouce/module/ResID;->all_tab_default_scrollview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

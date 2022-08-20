@@ -28,7 +28,7 @@
 
     move-result v1
 
-    const v2, 0x7f121f7c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     const/4 v3, 0x1
 
@@ -147,12 +147,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08021c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_copy:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081b6d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_ribbonicon_copy:I
 
     :goto_0
     return v0

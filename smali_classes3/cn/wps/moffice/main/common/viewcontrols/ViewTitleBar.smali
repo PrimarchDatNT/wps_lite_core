@@ -274,7 +274,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -428,7 +428,7 @@
 
     move-result p1
 
-    const v0, 0x7f0606e2
+    sget v0, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eqz p1, :cond_3
 
@@ -521,16 +521,16 @@
 
     iget-boolean v1, p3, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->c:Z
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -546,12 +546,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     :goto_1
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -1107,9 +1107,9 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b3035
+    sget v1, Lcom/resouce/module/ResID;->titlebar_vip_icon:I
 
-    const v2, 0x7f0810e4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_title_vip:I
 
     const/16 v3, 0x8
 
@@ -1118,27 +1118,27 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b302c
+    sget v1, Lcom/resouce/module/ResID;->titlebar_scan_icon:I
 
-    const v2, 0x7f0813c5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_scan:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b302f
+    sget v1, Lcom/resouce/module/ResID;->titlebar_setting_icon:I
 
-    const v2, 0x7f08171e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_set_up:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b302d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
-    const v2, 0x7f08171a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_search:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
@@ -1154,36 +1154,36 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b3031
+    sget v1, Lcom/resouce/module/ResID;->titlebar_share_icon:I
 
-    const v2, 0x7f081720
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_share:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
-    const v2, 0x7f0810d0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_message_tips_close_white:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b3029
+    sget v1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
-    const v2, 0x7f081a3d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_more:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b302b
+    sget v1, Lcom/resouce/module/ResID;->titlebar_rabbish_icon:I
 
-    const v2, 0x7f08108f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_dowload_center_trash:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
@@ -1199,9 +1199,9 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->S:Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v1, 0x7f0b3023
+    sget v1, Lcom/resouce/module/ResID;->titlebar_course_icon:I
 
-    const v2, 0x7f0813a4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_titlebar_course:I
 
     invoke-virtual {v0, v1, v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;->b(III)Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
@@ -1443,7 +1443,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0813a4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_titlebar_course:I
 
     if-nez p1, :cond_0
 
@@ -2131,12 +2131,12 @@
 
     invoke-direct {v0, p0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;-><init>(Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$a;)V
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 2
     iput v1, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->a:I
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 3
     iput v2, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->b:I
@@ -2166,9 +2166,9 @@
     :cond_0
     const/4 v6, 0x2
 
-    const v7, 0x7f060599
+    sget v7, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_black_color:I
 
-    const v8, 0x7f0606e2
+    sget v8, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-ne v6, p1, :cond_1
 
@@ -2241,7 +2241,7 @@
     .line 20
     iput v9, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->a:I
 
-    const v1, 0x7f0606e1
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     .line 21
     iput v1, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->b:I
@@ -2259,7 +2259,7 @@
     .line 23
     iput v9, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->a:I
 
-    const v1, 0x7f06003f
+    sget v1, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     .line 24
     iput v1, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->b:I
@@ -2274,7 +2274,7 @@
 
     if-ne v6, p1, :cond_7
 
-    const v1, 0x7f06059c
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_semi_transparent_color:I
 
     .line 26
     iput v1, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->a:I
@@ -2417,7 +2417,7 @@
 
     if-ne v1, p1, :cond_e
 
-    const v1, 0x7f0606e5
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteNavBackgroundColor:I
 
     .line 41
     iput v1, v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar$h;->a:I
@@ -2827,11 +2827,11 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04067a
+    sget v3, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Lcn/wps/moffice/common/multi/droplist/MultiButtonForHome;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v1, 0x7f0b0ff8
+    sget v1, Lcom/resouce/module/ResID;->history_titlebar_multidocument_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setId(I)V
@@ -2865,11 +2865,11 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04067a
+    sget v3, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Lcn/wps/moffice/common/merge/ui/views/MultiButtonForFileSelect;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const v1, 0x7f0b1fda
+    sget v1, Lcom/resouce/module/ResID;->phone_fileselect_multi_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setId(I)V
@@ -2945,14 +2945,14 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e068d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_base_titlebar:I
 
     const/4 v2, 0x1
 
     .line 3
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0033
+    sget v0, Lcom/resouce/module/ResID;->abs_title_bar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -2994,7 +2994,7 @@
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    const p1, 0x7f0b1a54
+    sget p1, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3003,7 +3003,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->T:Landroid/view/View;
 
-    const p1, 0x7f0b2696
+    sget p1, Lcom/resouce/module/ResID;->public_ok_cancle_title:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3024,7 +3024,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b3033
+    sget p1, Lcom/resouce/module/ResID;->titlebar_text:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3035,7 +3035,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->m0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b301f
+    sget p1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3049,7 +3049,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0ff8
+    sget p1, Lcom/resouce/module/ResID;->history_titlebar_multidocument_layout:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3060,7 +3060,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->o0:Lcn/wps/moffice/common/multi/droplist/MultiButtonForHome;
 
-    const p1, 0x7f0b1fda
+    sget p1, Lcom/resouce/module/ResID;->phone_fileselect_multi_layout:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3088,7 +3088,7 @@
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     :cond_1
-    const p1, 0x7f0b21a0
+    sget p1, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3099,7 +3099,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->U:Lcn/wps/moffice/main/local/home/newui/theme/title/ThemeTitleLinearLayout;
 
-    const p1, 0x7f0b301d
+    sget p1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 23
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3110,7 +3110,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->V:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b3031
+    sget p1, Lcom/resouce/module/ResID;->titlebar_share_icon:I
 
     .line 24
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3121,7 +3121,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->W:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b3029
+    sget p1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
     .line 25
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3132,7 +3132,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->a0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b302f
+    sget p1, Lcom/resouce/module/ResID;->titlebar_setting_icon:I
 
     .line 26
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3143,7 +3143,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->b0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b302d
+    sget p1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     .line 27
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3154,7 +3154,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->c0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b3035
+    sget p1, Lcom/resouce/module/ResID;->titlebar_vip_icon:I
 
     .line 28
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3165,7 +3165,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->d0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b302c
+    sget p1, Lcom/resouce/module/ResID;->titlebar_scan_icon:I
 
     .line 29
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3176,7 +3176,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->e0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b302b
+    sget p1, Lcom/resouce/module/ResID;->titlebar_rabbish_icon:I
 
     .line 30
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3187,7 +3187,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->f0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 31
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3198,7 +3198,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->g0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b3023
+    sget p1, Lcom/resouce/module/ResID;->titlebar_course_icon:I
 
     .line 32
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3214,7 +3214,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f1205ba
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_search:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3222,7 +3222,7 @@
 
     invoke-static {p1, v0}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
-    const p1, 0x7f0b302e
+    sget p1, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     .line 34
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3233,7 +3233,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->i0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b3034
+    sget p1, Lcom/resouce/module/ResID;->titlebar_toggle_icon:I
 
     .line 35
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3244,12 +3244,12 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->q0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0816c1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_okwehlayo:I
 
     .line 36
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f0b2fe6
+    sget p1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     .line 37
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -3260,7 +3260,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->j0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2fdd
+    sget p1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 38
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

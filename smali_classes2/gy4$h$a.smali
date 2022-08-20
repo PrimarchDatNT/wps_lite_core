@@ -75,7 +75,7 @@
 
     iget-object v0, v0, Lgy4$h;->B:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     iget-object v0, v0, Lgy4$h;->B:Landroid/content/Context;
 
-    const v1, 0x7f122392
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

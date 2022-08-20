@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textAppearance="?android:dropDownHintAppearance" android:gravity="center_vertical" android:id="@android:id/text1" android:background="@drawable/public_list_selector_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:singleLine="true" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" style="@style/phone_public_font_m_black"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

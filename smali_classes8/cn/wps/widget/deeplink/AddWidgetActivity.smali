@@ -29,7 +29,7 @@
 
     iput-object v0, p0, Lcn/wps/widget/deeplink/AddWidgetActivity;->B:Lhd3;
 
-    const v1, 0x7f1225b0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_platform_permission_shortcut_tips_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -37,7 +37,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/widget/deeplink/AddWidgetActivity;->B:Lhd3;
 
-    const v1, 0x7f1225b7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_platform_widget_tips:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -71,13 +71,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v2
 
-    const v3, 0x7f122bad
+    sget v3, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     invoke-virtual {v1, v3, v2, v0}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -88,13 +88,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v2
 
-    const v3, 0x7f121e1b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {v1, v3, v2, v0}, Lhd3;->setNegativeButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

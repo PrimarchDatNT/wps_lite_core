@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e090a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_resume_file_type_layout:I
 
     const/4 v2, 0x0
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d20
+    sget v1, Lcom/resouce/module/ResID;->file_select_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
     .line 3
     invoke-virtual {v1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0b28c9
+    sget p2, Lcom/resouce/module/ResID;->resume_file_type_cancel:I
 
     .line 4
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0b28c7
+    sget v1, Lcom/resouce/module/ResID;->resume_doc_file_type:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,11 +193,11 @@
     .line 9
     iget-boolean v3, p3, Lfpl;->a:Z
 
-    const v4, 0x7f0b2bdb
+    sget v4, Lcom/resouce/module/ResID;->sharetype_item_text:I
 
-    const v5, 0x7f0b2bda
+    sget v5, Lcom/resouce/module/ResID;->sharetype_item_member_img:I
 
-    const v6, 0x7f0b2bd8
+    sget v6, Lcom/resouce/module/ResID;->sharetype_item_content_img:I
 
     const/4 v7, 0x0
 
@@ -230,7 +230,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0804fb
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->doc_resume_share:I
 
     .line 15
     invoke-virtual {p2, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -239,7 +239,7 @@
 
     invoke-virtual {v3, v9}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f122e44
+    sget v3, Lcom/resouce/module/ResSTRING;->resume_print_doc:I
 
     .line 16
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -256,7 +256,7 @@
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v1, 0x7f0b28d4
+    sget v1, Lcom/resouce/module/ResID;->resume_pdf_file_type:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f081035
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pdf_resume_share:I
 
     .line 26
     invoke-virtual {p2, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -307,7 +307,7 @@
 
     invoke-virtual {v3, v9}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v3, 0x7f122e46
+    sget v3, Lcom/resouce/module/ResSTRING;->resume_print_pdf:I
 
     .line 27
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -324,7 +324,7 @@
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v1, 0x7f0b28d6
+    sget v1, Lcom/resouce/module/ResID;->resume_pic_file_type:I
 
     .line 29
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -366,7 +366,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0806c3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->export_resume_pic:I
 
     .line 37
     invoke-virtual {p2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -375,7 +375,7 @@
 
     invoke-virtual {p3, p2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p2, 0x7f12045e
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_photo:I
 
     .line 38
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

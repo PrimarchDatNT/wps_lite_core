@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122db7
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_writer_hide:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dc2
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_writer_more:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -25,7 +25,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f121941
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_creator:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -64,7 +64,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121942
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_member:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -80,7 +80,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f121940
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_admin:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f12061a
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_creater:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -201,7 +201,7 @@
 
     if-eqz v1, :cond_3
 
-    const p1, 0x7f122f00
+    sget p1, Lcom/resouce/module/ResSTRING;->share_folder_member_role_member:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -220,7 +220,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f122f01
+    sget p1, Lcom/resouce/module/ResSTRING;->share_folder_member_role_member_read:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -234,7 +234,7 @@
 
     :cond_5
     :goto_0
-    const p1, 0x7f121940
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_admin:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -32,7 +32,7 @@
     .line 2
     iput-object p2, p0, Lwva$c;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b1422
+    sget v0, Lcom/resouce/module/ResID;->iv_certificate:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object v0, p0, Lwva$c;->j0:Lcn/wps/moffice/main/scan/view/DocScanLocationImageView;
 
-    const v1, 0x7f0b29fa
+    sget v1, Lcom/resouce/module/ResID;->sc_watermark:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <cn.wps.moffice.common.beans.phone.colorselect.SpecialGridView android:gravity="center_horizontal" android:id="@id/phone_ss_shape_style_grid" android:paddingLeft="@dimen/et_insert_shape_shapes_margin_leftright" android:paddingRight="@dimen/et_insert_shape_shapes_margin_leftright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_insert_shape_shapes_margin_topbottom" android:layout_marginBottom="@dimen/et_insert_shape_shapes_margin_topbottom" android:verticalSpacing="@dimen/et_insert_shape_shapes_spacing_v" android:numColumns="5" android:paddingStart="@dimen/et_insert_shape_shapes_margin_leftright" android:paddingEnd="@dimen/et_insert_shape_shapes_margin_leftright" />
-    </LinearLayout>
-</ScrollView>

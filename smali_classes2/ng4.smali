@@ -35,7 +35,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f1220ef
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -62,7 +62,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122521
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newlink_url_suffix:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 .method public static synthetic c(Landroid/app/Activity;Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b292a
+    sget v0, Lcom/resouce/module/ResID;->right_sub_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f1206b9
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p2, 0x0
 
@@ -239,7 +239,7 @@
 
     const/4 v9, 0x0
 
-    const v10, 0x7f122743
+    sget v10, Lcom/resouce/module/ResSTRING;->public_publish_period:I
 
     move-object v0, v11
 
@@ -291,7 +291,7 @@
 
     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f120693
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

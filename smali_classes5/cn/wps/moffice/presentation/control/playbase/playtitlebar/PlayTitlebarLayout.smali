@@ -83,11 +83,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_titlebar_layout:I
 
     invoke-virtual {v0, v1, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1a57
+    sget v0, Lcom/resouce/module/ResID;->normal_play_title_bar:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->j0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b23b9
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_timer_root:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->I:Landroid/view/View;
 
-    const v0, 0x7f0b23b8
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_timer:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b23a9
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_background_audio_set_icon:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->T:Landroid/view/View;
 
-    const v0, 0x7f0b23ad
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_menu_root:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -155,7 +155,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->U:Landroid/view/View;
 
-    const v0, 0x7f0b23b1
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_more_share_to_tv:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->a0:Landroid/view/View;
 
-    const v0, 0x7f0b23b2
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_more_shareplay_meeting:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b23b0
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_more_project:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122b32
+    sget v4, Lcom/resouce/module/ResSTRING;->public_tv_screen_to_tv:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -245,7 +245,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1229a4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_to_tv:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -256,7 +256,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_2
-    const v0, 0x7f0b23b6
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_record:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b23b7
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_record_limit_free_tv:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :goto_2
-    const v0, 0x7f0b23aa
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_exit_play:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -323,7 +323,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b23ac
+    sget v2, Lcom/resouce/module/ResID;->ppt_playtitlebar_file_name:I
 
     .line 29
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     if-eqz p1, :cond_6
 
-    const p1, 0x7f0b1889
+    sget p1, Lcom/resouce/module/ResID;->mi_play_title_bar_stub:I
 
     .line 34
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->l0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b23ae
+    sget p1, Lcom/resouce/module/ResID;->ppt_playtitlebar_miracast:I
 
     .line 36
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -417,7 +417,7 @@
     .line 39
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/playbase/playtitlebar/PlayTitlebarLayout;->l0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b23b3
+    sget v0, Lcom/resouce/module/ResID;->ppt_playtitlebar_note:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1069,12 +1069,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080996
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_play_projection_selected:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f080995
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_play_projection:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1087,12 +1087,12 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f081139
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_play_miracast_checked:I
 
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f081138
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_play_miracast:I
 
     :goto_1
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1295,12 +1295,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080994
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_play_note_selected:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080993
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_play_note:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V

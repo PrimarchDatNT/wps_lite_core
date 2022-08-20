@@ -53,11 +53,11 @@
 
     move-result v3
 
-    const v4, 0x7f120ceb
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_translation_taskcenter_tips:I
 
-    const v5, 0x7f120cee
+    sget v5, Lcom/resouce/module/ResSTRING;->fanyigo_translation_tips:I
 
-    const v6, 0x7f120ce8
+    sget v6, Lcom/resouce/module/ResSTRING;->fanyigo_translation_progressdialog_title:I
 
     if-eqz v3, :cond_2
 
@@ -134,7 +134,7 @@
     .line 15
     iget-object v3, p0, Lth8;->a:Lkd3;
 
-    const v4, 0x7f120ce7
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_translation_progressdialog_cancel:I
 
     new-instance v5, Lth8$a;
 

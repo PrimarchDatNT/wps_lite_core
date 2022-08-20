@@ -28,7 +28,7 @@
     .line 2
     iput-object p1, p0, Lgz6;->n0:Lmz6;
 
-    const p1, 0x7f0b1232
+    sget p1, Lcom/resouce/module/ResID;->icon_image_view:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -39,7 +39,7 @@
 
     iput-object p1, p0, Lgz6;->j0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b0e85
+    sget p1, Lcom/resouce/module/ResID;->free_text_view:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object p1, p0, Lgz6;->k0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b3013
+    sget p1, Lcom/resouce/module/ResID;->title_text_view:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object p1, p0, Lgz6;->l0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1368
+    sget p1, Lcom/resouce/module/ResID;->introduce_text_view:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

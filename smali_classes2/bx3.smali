@@ -968,7 +968,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221d6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_nosupportfonts_replace_tip:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2447,7 +2447,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e087f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_font_buy_gp_tip:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -2459,7 +2459,7 @@
     :cond_0
     iget-object v0, p0, Lbx3;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b032d
+    sget v2, Lcom/resouce/module/ResID;->buy_gpfont_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2488,7 +2488,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226e8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2497,7 +2497,7 @@
 
     iput-object v1, p0, Lbx3;->Y:Ljava/lang/String;
 
-    const v1, 0x7f1208c1
+    sget v1, Lcom/resouce/module/ResSTRING;->et_function_category_list_1:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2506,7 +2506,7 @@
 
     iput-object v1, p0, Lbx3;->Z:Ljava/lang/String;
 
-    const v1, 0x7f1221de
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_system:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2515,7 +2515,7 @@
 
     iput-object v1, p0, Lbx3;->a0:Ljava/lang/String;
 
-    const v1, 0x7f1221c0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_custom_font_item_msg:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2979,7 +2979,7 @@
     :cond_4
     iget-object p1, p0, Lbx3;->B:Landroid/content/Context;
 
-    const p2, 0x7f1221d7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fontname_not_found:I
 
     const/4 v0, 0x1
 
@@ -3049,7 +3049,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221d5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_nosupportfonts_copyright_notice:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -3207,7 +3207,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1221d5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_nosupportfonts_copyright_notice:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3227,7 +3227,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122a22
+    sget v2, Lcom/resouce/module/ResSTRING;->public_start_page_gdpr_title:I
 
     const/16 v3, 0x11
 
@@ -3241,7 +3241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     iget-object v3, p0, Lbx3;->B:Landroid/content/Context;
 
@@ -3250,7 +3250,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4138,7 +4138,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e087e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_font_bottom_system_font_entry_layout:I
 
     .line 3
     iget-object v3, p0, Lbx3;->V:Landroid/view/ViewGroup;

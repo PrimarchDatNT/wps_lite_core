@@ -107,7 +107,7 @@
     :goto_0
     iget-object p1, p0, Laya$m;->I:Landroid/app/Activity;
 
-    const p2, 0x7f122392
+    sget p2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const/4 v0, 0x0
 

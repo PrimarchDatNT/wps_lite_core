@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b1e
+    sget v0, Lcom/resouce/module/ResID;->sendlog_choose_type_save_error:I
 
     if-ne p1, v0, :cond_0
 
@@ -63,7 +63,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2b1c
+    sget v0, Lcom/resouce/module/ResID;->sendlog_choose_type_crash_error:I
 
     if-ne p1, v0, :cond_1
 
@@ -83,7 +83,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2b1b
+    sget v0, Lcom/resouce/module/ResID;->sendlog_choose_type_cloudstorage_error:I
 
     if-ne p1, v0, :cond_2
 
@@ -103,7 +103,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2b1d
+    sget v0, Lcom/resouce/module/ResID;->sendlog_choose_type_fileroaming_error:I
 
     if-ne p1, v0, :cond_3
 
@@ -180,7 +180,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205d9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_log_no_log:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

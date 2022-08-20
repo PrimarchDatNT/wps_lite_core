@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e00db
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_common:I
 
     const/4 v2, 0x0
 
@@ -135,7 +135,7 @@
     move-object v3, v2
 
     :goto_0
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
     .line 11
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f0b3131
+    sget v2, Lcom/resouce/module/ResID;->tv_content:I
 
     .line 12
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
     .line 13
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v3, 0x7f0b31ca
+    sget v3, Lcom/resouce/module/ResID;->tv_later:I
 
     .line 14
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b32b8
+    sget v4, Lcom/resouce/module/ResID;->tv_yes:I
 
     .line 15
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,12 +186,12 @@
 
     if-eqz v6, :cond_1
 
-    const v6, 0x7f0603a3
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_subTextColor_night:I
 
     goto :goto_1
 
     :cond_1
-    const v6, 0x7f0603a2
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     :goto_1
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
@@ -209,12 +209,12 @@
 
     if-eqz v6, :cond_2
 
-    const v6, 0x7f06072e
+    sget v6, Lcom/resouce/module/ResCOLOR;->wps_text_main_color_night:I
 
     goto :goto_2
 
     :cond_2
-    const v6, 0x7f06072d
+    sget v6, Lcom/resouce/module/ResCOLOR;->wps_text_main_color:I
 
     :goto_2
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
@@ -232,12 +232,12 @@
 
     if-eqz v6, :cond_3
 
-    const v6, 0x7f060331
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor_night:I
 
     goto :goto_3
 
     :cond_3
-    const v6, 0x7f060330
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     :goto_3
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
@@ -255,12 +255,12 @@
 
     if-eqz v6, :cond_4
 
-    const v6, 0x7f060730
+    sget v6, Lcom/resouce/module/ResCOLOR;->wps_third_bg_color_night:I
 
     goto :goto_4
 
     :cond_4
-    const v6, 0x7f06072f
+    sget v6, Lcom/resouce/module/ResCOLOR;->wps_third_bg_color:I
 
     :goto_4
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I

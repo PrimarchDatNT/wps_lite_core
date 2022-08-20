@@ -1193,7 +1193,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081cd7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_vast_video_native_pause:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ba2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_video_add_failed:I
 
     invoke-static {v0, v1, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c7e
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_firset_insert_tips:I
 
     invoke-static {v0, v1, v4}, Lbih;->n(Landroid/content/Context;II)V
 

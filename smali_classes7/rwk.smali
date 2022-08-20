@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -39,7 +39,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->setWindowAnimations(I)V
 

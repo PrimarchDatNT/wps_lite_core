@@ -325,7 +325,7 @@
     .line 2
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x0
 
@@ -355,7 +355,7 @@
     .line 1
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120404
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_extracting_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -416,7 +416,7 @@
     .line 11
     invoke-virtual {v0, v4}, Lkd3;->q3(I)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 12
     new-instance v2, Loza$c;

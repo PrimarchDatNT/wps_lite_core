@@ -32,7 +32,7 @@
 
     if-eqz v1, :cond_0
 
-    const p0, 0x7f08168d
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word_big:I
 
     return p0
 
@@ -44,7 +44,7 @@
 
     if-eqz v1, :cond_1
 
-    const p0, 0x7f08168f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls_big:I
 
     return p0
 
@@ -56,7 +56,7 @@
 
     if-eqz v1, :cond_2
 
-    const p0, 0x7f081681
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt_big:I
 
     return p0
 
@@ -68,12 +68,12 @@
 
     if-eqz p0, :cond_3
 
-    const p0, 0x7f08167f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf_big:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f081687
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_unknow_big:I
 
     return p0
 .end method

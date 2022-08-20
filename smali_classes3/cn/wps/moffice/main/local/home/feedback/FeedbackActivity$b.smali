@@ -38,7 +38,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f1220ed
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_title:I
 
     return v0
 .end method
@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0038
+    sget v2, Lcom/resouce/module/ResLAYOUT;->activity_feedback:I
 
     const/4 v3, 0x0
 

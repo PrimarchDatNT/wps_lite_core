@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
-        <TextView android:textSize="12.0dip" android:textColor="@color/v10_phone_ppt_halve_text_color" android:gravity="center" android:id="@id/start_operate_left" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/public_item_number_increase_indentation" android:layout_weight="1.0" style="@style/public_image_bg_style" />
-        <FrameLayout android:layout_width="8.0dip" android:layout_height="fill_parent" />
-        <TextView android:textSize="12.0dip" android:textColor="@color/v10_phone_ppt_halve_text_color" android:gravity="center" android:id="@id/start_operate_right" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/public_item_number_decrease_indentation" android:layout_weight="1.0" style="@style/public_image_bg_style" />
-    </LinearLayout>
-</LinearLayout>

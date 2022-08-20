@@ -977,7 +977,7 @@
     goto :goto_9
 
     :cond_11
-    const v6, 0x7f1216b8
+    sget v6, Lcom/resouce/module/ResSTRING;->pay_stripe_type:I
 
     .line 81
     invoke-virtual {v13, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;

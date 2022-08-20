@@ -16,14 +16,14 @@
 .method public static a(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
 
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f122bcc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share_new:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -42,7 +42,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f121d40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_placeholder_concat_folder:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -79,7 +79,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1232ab
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_domain_page_locate:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -107,7 +107,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f121713
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc_placeholder:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -134,21 +134,21 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1232ab
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_domain_page_locate:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f1221da
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f121715
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc_recent_placeholder:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -187,7 +187,7 @@
     return-object p0
 
     :cond_0
-    const v0, 0x7f121714
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc_recent:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -200,21 +200,21 @@
 .method public static d(Landroid/content/Context;)Ljava/lang/String;
     .locals 4
 
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f121cba
+    sget v1, Lcom/resouce/module/ResSTRING;->private_app_spilt_merge_folder:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f121d40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_placeholder_concat_folder:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

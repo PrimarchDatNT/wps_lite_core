@@ -262,7 +262,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1226e8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -294,7 +294,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e016c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_template_stick_view:I
 
     const/4 v2, 0x0
 
@@ -386,7 +386,7 @@
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
     :cond_0
-    const v1, 0x7f0b3003
+    sget v1, Lcom/resouce/module/ResID;->title_ll:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/ActualStickView;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b3015
+    sget v1, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/ActualStickView;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f0b00ef
+    sget v1, Lcom/resouce/module/ResID;->all_category_ll:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/ActualStickView;->T:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1817
+    sget v1, Lcom/resouce/module/ResID;->mask_v:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/ActualStickView;->U:Landroid/view/View;
 
-    const v1, 0x7f0b00f0
+    sget v1, Lcom/resouce/module/ResID;->all_category_lv:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

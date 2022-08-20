@@ -423,7 +423,7 @@
 
     invoke-direct {v0, p0}, Luf7$o;-><init>(Luf7;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -490,7 +490,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229f1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shouldOverwrite:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -540,7 +540,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f1210fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -554,7 +554,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120eae
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -570,7 +570,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12123e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -580,7 +580,7 @@
     :goto_0
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     new-instance v1, Luf7$l;
@@ -608,7 +608,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1210fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -631,7 +631,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120eae
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -668,7 +668,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120eaa
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -703,7 +703,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f120e94
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_buy_membership:I
 
     .line 10
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
@@ -713,7 +713,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -728,7 +728,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Luf7$m;
 
@@ -757,7 +757,7 @@
 
     invoke-direct {v0, p1, v1}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p1, 0x7f122b75
+    sget p1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_warning_title:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -767,7 +767,7 @@
 
     invoke-direct {p1, p0}, Luf7$f;-><init>(Luf7;)V
 
-    const v1, 0x7f123263
+    sget v1, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -777,7 +777,7 @@
 
     invoke-direct {v1, p0}, Luf7$e;-><init>(Luf7;)V
 
-    const v2, 0x7f122b76
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_with_wift:I
 
     .line 4
     invoke-virtual {p1, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -788,7 +788,7 @@
 
     invoke-direct {v1, p0}, Luf7$d;-><init>(Luf7;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p1, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1200,7 +1200,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1297,7 +1297,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c28
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_clouddocs_upload_base:I
 
     new-instance v2, Landroid/widget/FrameLayout;
 
@@ -1399,7 +1399,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1467,7 +1467,7 @@
     .line 7
     iget-boolean p1, p0, Luf7;->X:Z
 
-    const v0, 0x7f120b90
+    sget v0, Lcom/resouce/module/ResSTRING;->et_name_exist_error:I
 
     const/4 v2, 0x1
 
@@ -1633,7 +1633,7 @@
     :goto_1
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122392
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1683,13 +1683,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c27
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_clouddocs_bottom_bar_base:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0ce7
+    sget v0, Lcom/resouce/module/ResID;->file_name_editable:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1757,7 +1757,7 @@
 
     iput-object v0, p0, Luf7;->b0:Lvf7;
 
-    const v0, 0x7f0b07c3
+    sget v0, Lcom/resouce/module/ResID;->drive_container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1795,7 +1795,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_0
 
@@ -1810,7 +1810,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     if-ne v0, v1, :cond_1
 
@@ -1822,7 +1822,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b3048
+    sget v1, Lcom/resouce/module/ResID;->to_upload:I
 
     if-ne v0, v1, :cond_4
 
@@ -1849,7 +1849,7 @@
     .line 7
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121dee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_choose_upload_device:I
 
     const/4 v1, 0x0
 
@@ -1883,7 +1883,7 @@
 .method public q3(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b0248
+    sget v0, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1892,7 +1892,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1901,7 +1901,7 @@
 
     iput-object v1, p0, Luf7;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1912,14 +1912,14 @@
 
     iput-object v1, p0, Luf7;->h0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0ce6
+    sget v1, Lcom/resouce/module/ResID;->file_name:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2538
+    sget v2, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1928,7 +1928,7 @@
 
     iput-object v2, p0, Luf7;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2fec
+    sget v2, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1939,7 +1939,7 @@
 
     iput-object v2, p0, Luf7;->g0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b1fb0
+    sget v2, Lcom/resouce/module/ResID;->phone_docs_upload_titlebar:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1951,7 +1951,7 @@
     .line 8
     iget-object v2, p0, Luf7;->h0:Landroid/widget/ImageView;
 
-    const v3, 0x7f0812a6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_icon_close:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1975,7 +1975,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2016,7 +2016,7 @@
     :goto_0
     invoke-virtual {p0, v0}, Luf7;->n3(Landroid/view/ViewGroup;)V
 
-    const v1, 0x7f0b3048
+    sget v1, Lcom/resouce/module/ResID;->to_upload:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2037,12 +2037,12 @@
     .line 19
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f081993
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_cloud_upload_new_folder:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_2
-    const v0, 0x7f0b0ce9
+    sget v0, Lcom/resouce/module/ResID;->file_name_suffix:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

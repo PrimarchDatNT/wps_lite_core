@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a1b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_info:I
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
@@ -566,7 +566,7 @@
     .line 9
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12342b
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_table_info_max:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -657,7 +657,7 @@
     .line 3
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12342a
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_table_info_invalid:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -669,7 +669,7 @@
     :cond_1
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12342c
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_table_info_not_allow_repeat:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1209,7 +1209,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12342f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_table_name_invalid:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1357,7 +1357,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f123439
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_user_table_finish:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1366,7 +1366,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f123438
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_user_table_edit:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1441,7 +1441,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f123429
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_table_info_i_see:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

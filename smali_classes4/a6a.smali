@@ -773,7 +773,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c40
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_root_layout_v2:I
 
     const/4 v2, 0x0
 
@@ -783,7 +783,7 @@
 
     iput-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2a32
+    sget v1, Lcom/resouce/module/ResID;->scrollRootLayout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -797,7 +797,7 @@
     .line 3
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b0118
+    sget v1, Lcom/resouce/module/ResID;->appBarLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -826,7 +826,7 @@
     .line 6
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b0fab
+    sget v1, Lcom/resouce/module/ResID;->header:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -839,7 +839,7 @@
     .line 7
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2e18
+    sget v1, Lcom/resouce/module/ResID;->tabHeaderRootLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -850,7 +850,7 @@
     .line 8
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b223b
+    sget v1, Lcom/resouce/module/ResID;->pinnedHeadParentLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -863,7 +863,7 @@
     .line 9
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b1b1b
+    sget v1, Lcom/resouce/module/ResID;->openFileView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -881,7 +881,7 @@
     .line 11
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2e1b
+    sget v1, Lcom/resouce/module/ResID;->tabPageViewStub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -897,7 +897,7 @@
     .line 13
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b075b
+    sget v1, Lcom/resouce/module/ResID;->documentViewPager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -925,7 +925,7 @@
     .line 15
     iget-object v0, p0, La6a;->k:Landroid/view/View;
 
-    const v1, 0x7f0b2565
+    sget v1, Lcom/resouce/module/ResID;->ptrLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

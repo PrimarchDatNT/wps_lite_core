@@ -43,7 +43,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e09d5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_feedback_layout:I
 
     const/4 v1, 0x0
 
@@ -114,7 +114,7 @@
     .line 1
     iget-object v0, p0, Lj2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c97
+    sget v1, Lcom/resouce/module/ResID;->feedback_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 2
     iget-object v0, p0, Lj2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0caa
+    sget v1, Lcom/resouce/module/ResID;->feedback_number:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -140,7 +140,7 @@
     .line 3
     iget-object v0, p0, Lj2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0cac
+    sget v1, Lcom/resouce/module/ResID;->feedback_upload:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
     .line 4
     iget-object v0, p0, Lj2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c98
+    sget v1, Lcom/resouce/module/ResID;->feedback_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -166,7 +166,7 @@
     .line 5
     iget-object v0, p0, Lj2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0cab
+    sget v1, Lcom/resouce/module/ResID;->feedback_send:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -259,7 +259,7 @@
     .line 2
     iget-object v0, p0, Lj2l;->B:Landroid/content/Context;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -282,12 +282,12 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f120d29
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_upload_confirm:I
 
     .line 6
     new-instance v2, Lj2l$d;
@@ -296,7 +296,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f120d2a
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_upload_wifi:I
 
     .line 7
     new-instance v2, Lj2l$e;
@@ -326,7 +326,7 @@
     .line 1
     iget-object v0, p0, Lj2l;->B:Landroid/content/Context;
 
-    const v1, 0x7f1232cc
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_feedback_type:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

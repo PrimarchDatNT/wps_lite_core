@@ -290,17 +290,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1224d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121cf7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_addPasswd:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     new-instance v2, Lycl$a;
@@ -309,7 +309,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     new-instance v2, Lycl$b;

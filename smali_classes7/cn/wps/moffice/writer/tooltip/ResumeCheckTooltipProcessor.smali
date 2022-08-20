@@ -232,7 +232,7 @@
 
     invoke-virtual {v1, p1}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->e(I)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const p1, 0x7f122e3f
+    sget p1, Lcom/resouce/module/ResSTRING;->resume_check_btn:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

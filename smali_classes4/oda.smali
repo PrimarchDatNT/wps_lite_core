@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f47
+    sget v1, Lcom/resouce/module/ResSTRING;->sign_in_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e6f
+    sget v1, Lcom/resouce/module/ResSTRING;->rice_shop_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12323b
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_privilege_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12323c
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_privilege_url_pad:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123205
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_guide_login_membership_privilege_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123206
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_guide_login_membership_privilege_url_pad:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12323a
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_privilege_detailwps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231fa
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_docer_membership_privilege_detailwps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12325e
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_super_membership_privilege_detailwps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -249,7 +249,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12324f
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_pdf_privilege_detailwps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123253
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_resume_privilege_detailwps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123239
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_order_center_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -312,7 +312,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123235
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_counpon_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -333,7 +333,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12323d
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_protocol_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -354,7 +354,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123236
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_gitfs_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -375,7 +375,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123237
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_lottory_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -396,7 +396,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123233
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_manage_autopay_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -417,7 +417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123234
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_cloud_privilege_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123238
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_membership_messagecenter_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

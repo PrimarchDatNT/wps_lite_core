@@ -166,7 +166,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080a25
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->kspay_webview_black_progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

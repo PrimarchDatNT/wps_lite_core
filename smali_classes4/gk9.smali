@@ -488,7 +488,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bcb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_link:I
 
     const/4 v2, 0x0
 
@@ -534,7 +534,7 @@
 
     move-object v10, p0
 
-    const v0, 0x7f0b1601
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     move-object/from16 v1, p1
 
@@ -916,9 +916,9 @@
 
     move-result-object v3
 
-    const v4, 0x7f12230c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_share_panel_share_to_wechat_wework_company:I
 
-    const v5, 0x7f08106f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_wechat_wework:I
 
     iget-object v6, v10, Lgk9;->B:Landroid/app/Activity;
 
@@ -976,9 +976,9 @@
 
     move-result-object v3
 
-    const v4, 0x7f121fd3
+    sget v4, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
-    const v5, 0x7f081067
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_dingding:I
 
     iget-object v6, v10, Lgk9;->B:Landroid/app/Activity;
 
@@ -1036,9 +1036,9 @@
 
     move-result-object v3
 
-    const v4, 0x7f122c0d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_woa:I
 
-    const v5, 0x7f081070
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_woa:I
 
     iget-object v6, v10, Lgk9;->B:Landroid/app/Activity;
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/page_range_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pdf_convert_set_page_range_desc" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <EditText android:textColor="@color/subTextColor" android:id="@id/page_range_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:hint="@string/pdf_convert_set_page_range_tips" app:layout_constraintTop_toBottomOf="@id/page_range_desc" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/mainColor" android:id="@id/page_range_input_tips" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pdf_convert_set_page_range_error_tips" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/page_range_et" />
-</androidx.constraintlayout.widget.ConstraintLayout>

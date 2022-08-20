@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0324
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_group_guide_card_webview_layout:I
 
     const/4 v2, 0x0
 
@@ -96,7 +96,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b276f
+    sget p2, Lcom/resouce/module/ResID;->public_wpsdrive_home_group_ptrwebview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b3426
+    sget p2, Lcom/resouce/module/ResID;->webcard_empty_img:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

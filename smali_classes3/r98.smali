@@ -464,7 +464,7 @@
 
     iget-object v0, p0, Lr98;->c:Landroid/content/Context;
 
-    const v2, 0x7f1205d3
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_livespace_upload_conflict:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

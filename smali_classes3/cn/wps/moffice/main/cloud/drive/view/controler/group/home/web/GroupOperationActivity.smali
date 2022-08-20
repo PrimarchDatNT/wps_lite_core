@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205a6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

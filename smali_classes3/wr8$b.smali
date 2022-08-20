@@ -79,7 +79,7 @@
 
     iget-object v0, v0, Lvr8;->I:Landroid/app/Activity;
 
-    const v1, 0x7f12213f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_radar_file_upload_tips:I
 
     const/4 v2, 0x0
 

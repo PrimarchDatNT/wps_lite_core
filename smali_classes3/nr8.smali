@@ -158,7 +158,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f1214ac
+    sget v3, Lcom/resouce/module/ResSTRING;->notify_tips_radar_from:I
 
     .line 7
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f081a5d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 10
     invoke-virtual {p1, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -207,7 +207,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f081914
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_fileradar_pop_icon:I
 
     .line 13
     invoke-virtual {v6, v7}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -248,7 +248,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122142
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_radar_noti_title:I
 
     .line 18
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -260,7 +260,7 @@
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f122ca6
+    sget v2, Lcom/resouce/module/ResSTRING;->push_tap_for_more:I
 
     .line 19
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -276,7 +276,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f120642
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

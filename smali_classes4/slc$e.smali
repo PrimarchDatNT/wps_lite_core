@@ -303,7 +303,7 @@
 
     invoke-direct {v0, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1217dc
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_title:I
 
     .line 27
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -315,7 +315,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1212e5
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -328,7 +328,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1217db
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_tips:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -346,12 +346,12 @@
 
     invoke-virtual {v0, v2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 30
     invoke-virtual {v0, v2, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f1217da
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_dialog_confirm:I
 
     .line 31
     new-instance v3, Lslc$e$a;

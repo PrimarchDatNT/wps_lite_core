@@ -42,7 +42,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0177
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_user_guide_pay_opt_layout:I
 
     const/4 v2, 0x0
 
@@ -239,7 +239,7 @@
     .line 1
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a11
+    sget v1, Lcom/resouce/module/ResID;->new_user_head_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 2
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a13
+    sget v1, Lcom/resouce/module/ResID;->new_user_page_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
     .line 3
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0867
+    sget v1, Lcom/resouce/module/ResID;->en_new_user_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -278,7 +278,7 @@
     .line 4
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0866
+    sget v1, Lcom/resouce/module/ResID;->en_new_user_sub_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -291,7 +291,7 @@
     .line 5
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a12
+    sget v1, Lcom/resouce/module/ResID;->new_user_head_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -348,7 +348,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121ca4
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_try_premium_trial:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

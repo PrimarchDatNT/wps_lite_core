@@ -120,7 +120,7 @@
     .line 8
     iget-object p2, p1, Ldo9$b;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f122c68
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpsdrive_login_now:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -148,7 +148,7 @@
 .method public l(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Ldo9$b;
     .locals 2
 
-    const v0, 0x7f0e0cee
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_main_guidepage_item_layout:I
 
     const/4 v1, 0x0
 

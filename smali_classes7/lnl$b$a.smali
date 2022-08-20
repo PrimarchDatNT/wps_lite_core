@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1230a6
+    sget v2, Lcom/resouce/module/ResSTRING;->template_resume_save_fail_tip:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

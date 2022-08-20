@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e10bb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_pad_popup_viewpager_layout:I
 
     const/4 v1, 0x0
 
@@ -531,7 +531,7 @@
     .line 1
     invoke-virtual {p0}, Ls6l;->s2()V
 
-    const v0, 0x7f0b3604
+    sget v0, Lcom/resouce/module/ResID;->writer_pad_popup_viewpager_viewpager:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/beans/phone/tab/ViewPager;->setAdapter(Lpk3;)V
 
-    const v0, 0x7f0b3603
+    sget v0, Lcom/resouce/module/ResID;->writer_pad_popup_viewpager_indicator:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -596,7 +596,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -628,7 +628,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e10af
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_item_number_symbol_styles:I
 
     const/4 v3, 0x0
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e10ae
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_item_number_number_styles:I
 
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -748,7 +748,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e10ad
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_item_number_multi_number_styles:I
 
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

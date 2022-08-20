@@ -43,7 +43,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b24e8
+    sget v1, Lcom/resouce/module/ResID;->premium_upgrade_button:I
 
     if-ne v0, v1, :cond_1
 
@@ -99,7 +99,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const v1, 0x7f0b24e1
+    sget v1, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     if-ne v0, v1, :cond_6
 
@@ -231,13 +231,13 @@
 
     const-string v2, "click"
 
-    const v3, 0x7f0b3326
+    sget v3, Lcom/resouce/module/ResID;->use_referral_pay_more_tv:I
 
     const/4 v4, 0x0
 
     if-eq v0, v3, :cond_b
 
-    const v5, 0x7f0b1d27
+    sget v5, Lcom/resouce/module/ResID;->pay_more_tv:I
 
     if-ne v0, v5, :cond_7
 

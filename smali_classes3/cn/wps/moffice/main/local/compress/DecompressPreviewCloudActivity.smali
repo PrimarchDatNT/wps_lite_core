@@ -300,7 +300,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/compress/DecompressPreviewCloudActivity;->U:Lhd3;
 
-    const v0, 0x7f120359
+    sget v0, Lcom/resouce/module/ResSTRING;->decompress_ing_tips:I
 
     .line 3
     invoke-virtual {p1, v0}, Lhd3;->setTitleById(I)Lhd3;

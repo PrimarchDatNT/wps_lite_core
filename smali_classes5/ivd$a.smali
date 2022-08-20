@@ -66,12 +66,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f06046e
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_public_panel_title_bg_color:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f06000a
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

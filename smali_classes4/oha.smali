@@ -164,7 +164,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0da7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_histroy_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -175,7 +175,7 @@
 
     invoke-direct {p3}, Loha$e;-><init>()V
 
-    const v1, 0x7f0b1b72
+    sget v1, Lcom/resouce/module/ResID;->order_number_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object v1, p3, Loha$e;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b03c3
+    sget v1, Lcom/resouce/module/ResID;->check_time_text:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     iput-object v1, p3, Loha$e;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1cb9
+    sget v1, Lcom/resouce/module/ResID;->paper_title:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object v1, p3, Loha$e;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1c8b
+    sget v1, Lcom/resouce/module/ResID;->paper_char_num_text:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 
     iput-object v1, p3, Loha$e;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b308c
+    sget v1, Lcom/resouce/module/ResID;->total_price_text:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     iput-object v1, p3, Loha$e;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2dab    # 1.8499981E38f
+    sget v1, Lcom/resouce/module/ResID;->state_text:I    # 1.8499981E38f
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v1, p3, Loha$e;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b18ea
+    sget v1, Lcom/resouce/module/ResID;->more_layout:I
 
     .line 10
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     iput-object v1, p3, Loha$e;->g:Landroid/view/View;
 
-    const v2, 0x7f0b18eb
+    sget v2, Lcom/resouce/module/ResID;->more_left_btn:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
     .line 12
     iget-object v1, p3, Loha$e;->g:Landroid/view/View;
 
-    const v2, 0x7f0b18f1
+    sget v2, Lcom/resouce/module/ResID;->more_right_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -354,7 +354,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121614
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_price_unit:I
 
     const/4 v4, 0x1
 
@@ -383,7 +383,7 @@
 
     const/4 p1, 0x2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eq v1, p1, :cond_2
 
@@ -419,7 +419,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121659
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_waiting:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -463,7 +463,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1215c7
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_checking:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -490,7 +490,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-static {v2, v4}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -509,7 +509,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12116f
+    sget v4, Lcom/resouce/module/ResSTRING;->home_task_already_complete:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -564,7 +564,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -583,7 +583,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1215e9
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_failed:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

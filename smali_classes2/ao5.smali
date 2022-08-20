@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120534
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_tips_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     invoke-virtual {p0, v0}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v0, 0x7f12052f
+    sget v0, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_tips_content:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -100,7 +100,7 @@
 
     invoke-direct {v0, p0}, Lao5$a;-><init>(Lao5;)V
 
-    const v1, 0x7f120531
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_tips_download_only:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -109,7 +109,7 @@
 
     invoke-direct {v0, p0}, Lao5$b;-><init>(Lao5;)V
 
-    const v1, 0x7f120532
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_tips_download_open:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

@@ -112,7 +112,7 @@
     .line 6
     iget-object v1, p0, Lvo3;->B:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f070aa3
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_chart_insert_titile_spinner_max_width:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -125,7 +125,7 @@
     .line 7
     iget-object v1, p0, Lvo3;->B:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f070aa4
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_chart_insert_titile_spinner_min_width:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -155,7 +155,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v2, 0x7f070aa6
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_chart_insert_titiletext_padding_left:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -194,7 +194,7 @@
     .line 16
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    const v3, 0x7f070aa7
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_chart_insert_titiletext_padding_right:I
 
     .line 17
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimension(I)F
@@ -270,7 +270,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070aa2
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_chart_insert_tabtitlebar_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -324,7 +324,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122385
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

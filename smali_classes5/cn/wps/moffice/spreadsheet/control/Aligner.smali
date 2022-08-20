@@ -112,7 +112,7 @@
     .line 4
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/Aligner$2;
 
-    const v2, 0x7f080b66
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_align_left_et:I
 
     const/4 v3, 0x1
 
@@ -790,7 +790,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01a8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_align_dialog:I
 
     const/4 v3, 0x0
 
@@ -870,7 +870,7 @@
 
     iget-object v6, p0, Lcn/wps/moffice/spreadsheet/control/Aligner;->U:Ljava/util/List;
 
-    const v7, 0x7f0e01a9
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_align_dialog_item:I
 
     filled-new-array {v1}, [Ljava/lang/String;
 
@@ -880,7 +880,7 @@
 
     new-array v9, v1, [I
 
-    const v1, 0x7f0b08ca
+    sget v1, Lcom/resouce/module/ResID;->et_align_dialog_item_img:I
 
     aput v1, v9, v2
 
@@ -901,7 +901,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/Aligner;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b08c9
+    sget v1, Lcom/resouce/module/ResID;->et_align_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

@@ -109,7 +109,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -122,7 +122,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060403
+    sget v0, Lcom/resouce/module/ResCOLOR;->pdf_thumbnail_item_pagenum_normal:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -139,7 +139,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0606e2
+    sget v0, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

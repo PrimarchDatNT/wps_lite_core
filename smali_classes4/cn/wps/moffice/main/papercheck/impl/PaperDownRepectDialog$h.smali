@@ -75,7 +75,7 @@
 
     aput-object v5, v2, v3
 
-    const v6, 0x7f121646
+    sget v6, Lcom/resouce/module/ResSTRING;->paper_check_verify_char_too_less:I
 
     invoke-virtual {v1, v6, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -142,7 +142,7 @@
 
     aput-object v6, v2, v3
 
-    const v6, 0x7f121647
+    sget v6, Lcom/resouce/module/ResSTRING;->paper_check_verify_char_too_much:I
 
     invoke-virtual {v1, v6, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

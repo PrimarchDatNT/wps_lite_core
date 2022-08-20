@@ -1056,9 +1056,9 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/search/home/HomeSearchActivity;->Z:Lsn4;
 
-    const v1, 0x7f081daa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->search_wen_ku_vip_icon:I
 
-    const v2, 0x7f081da9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->search_wen_ku_free_icon:I
 
     invoke-virtual {v0, p1, p2, v1, v2}, Lsn4;->a(ZLandroid/widget/ImageView;II)V
 

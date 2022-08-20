@@ -27,7 +27,7 @@
     .line 1
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f0b10a5
+    sget p1, Lcom/resouce/module/ResID;->home_multi_scene_text:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -38,7 +38,7 @@
 
     iput-object p1, p0, Lob7$c$b;->j0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b10a4
+    sget p1, Lcom/resouce/module/ResID;->home_multi_scene_img:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

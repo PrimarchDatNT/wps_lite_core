@@ -170,9 +170,9 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f120879
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode:I
 
-    const v1, 0x7f12087a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode_desc:I
 
     goto :goto_1
 
@@ -198,17 +198,17 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f120b8a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_multi_condition_filter:I
 
-    const v1, 0x7f120b8b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_multi_condition_filter_desc:I
 
     goto :goto_1
 
     :cond_4
     :goto_0
-    const v0, 0x7f120891
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_export_filter_result:I
 
-    const v1, 0x7f120873
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_filter_result_desc:I
 
     .line 8
     :goto_1
@@ -237,7 +237,7 @@
     .line 12
     invoke-virtual {v2, p1}, Lkib;->C(I)V
 
-    const p1, 0x7f08180a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_advanced_filter_pics:I
 
     const/4 v3, 0x1
 
@@ -315,7 +315,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f120892
+    sget p1, Lcom/resouce/module/ResSTRING;->et_filter_limit_rows_count_tip:I
 
     const/4 p2, 0x0
 
@@ -420,11 +420,11 @@
 
     aput-object v1, p1, v2
 
-    const v1, 0x7f08180a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_advanced_filter_pics:I
 
-    const v2, 0x7f120879
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode:I
 
-    const v3, 0x7f12087a
+    sget v3, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode_desc:I
 
     .line 4
     invoke-static {v1, v2, v3, p1}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -876,7 +876,7 @@
 
     if-nez v1, :cond_2
 
-    const p1, 0x7f120893
+    sget p1, Lcom/resouce/module/ResSTRING;->et_filter_no_condition_tip:I
 
     .line 11
     invoke-static {v0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -897,7 +897,7 @@
 
     if-eqz v1, :cond_3
 
-    const p1, 0x7f120892
+    sget p1, Lcom/resouce/module/ResSTRING;->et_filter_limit_rows_count_tip:I
 
     .line 13
     invoke-static {v0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

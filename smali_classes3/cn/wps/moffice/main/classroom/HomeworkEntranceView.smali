@@ -95,25 +95,25 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0440
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_class_room_share_home_work:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b311e
+    sget v0, Lcom/resouce/module/ResID;->tv_class_room_history:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1426
+    sget v1, Lcom/resouce/module/ResID;->iv_class_room_help:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b11fe
+    sget v2, Lcom/resouce/module/ResID;->homeworkLayout:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

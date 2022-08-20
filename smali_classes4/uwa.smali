@@ -249,7 +249,7 @@
 
     if-ne p1, v1, :cond_0
 
-    const p1, 0x7f122846
+    sget p1, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -265,7 +265,7 @@
 
     if-eq p1, v1, :cond_1
 
-    const p1, 0x7f122845
+    sget p1, Lcom/resouce/module/ResSTRING;->public_scan_network_error:I
 
     .line 2
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -552,7 +552,7 @@
 
     const-string v2, "k2ym_scan_cloud_wait"
 
-    const v3, 0x7f122840
+    sget v3, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v4, 0x1
 

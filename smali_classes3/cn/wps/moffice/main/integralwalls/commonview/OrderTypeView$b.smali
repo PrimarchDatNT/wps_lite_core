@@ -240,7 +240,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0772
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_myorders_type_tp_item_layout:I
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -270,7 +270,7 @@
 
     move-result v1
 
-    const v2, 0x7f0e0771
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_myorders_type_item_layout:I
 
     if-nez v1, :cond_1
 

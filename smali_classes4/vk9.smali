@@ -64,7 +64,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12299e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_dingding:I
 
     goto :goto_0
 
@@ -78,7 +78,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f122910
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_link_to_wework:I
 
     goto :goto_0
 
@@ -92,7 +92,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f1229a7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_woa:I
 
     goto :goto_0
 
@@ -106,7 +106,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f1228f2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_file_to_dingding:I
 
     goto :goto_0
 
@@ -120,7 +120,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f1228f6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_file_to_wework:I
 
     goto :goto_0
 
@@ -134,7 +134,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f1228f7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_file_to_woa:I
 
     goto :goto_0
 

@@ -516,7 +516,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e05a1
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_ppt_hw_assistant_tips_dialog:I
 
     const/4 v5, 0x0
 
@@ -541,7 +541,7 @@
     :goto_0
     invoke-static {v2}, Lcn/wps/moffice/common/beans/PercentTextView;->setBaseScreenWidth(I)V
 
-    const v2, 0x7f0b1c27
+    sget v2, Lcom/resouce/module/ResID;->pad_ppt_hw_assistant_tips_dialog_bottom_btn:I
 
     .line 6
     invoke-virtual {v3, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -550,7 +550,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/PercentTextView;
 
-    const v4, 0x7f0b1c28
+    sget v4, Lcom/resouce/module/ResID;->pad_ppt_hw_assistant_tips_dialog_text_title:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -559,7 +559,7 @@
 
     check-cast v4, Lcn/wps/moffice/common/beans/PercentTextView;
 
-    const v5, 0x7f0b1c29
+    sget v5, Lcom/resouce/module/ResID;->pad_ppt_hw_assistant_tips_dialog_tips1_title:I
 
     .line 8
     invoke-virtual {v3, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 
     check-cast v5, Lcn/wps/moffice/common/beans/PercentTextView;
 
-    const v6, 0x7f0b1c2a
+    sget v6, Lcom/resouce/module/ResID;->pad_ppt_hw_assistant_tips_dialog_tips2_title:I
 
     .line 9
     invoke-virtual {v3, v6}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -676,7 +676,7 @@
     :cond_0
     new-instance v6, Lgd3;
 
-    const v0, 0x7f122332
+    sget v0, Lcom/resouce/module/ResSTRING;->public_hw_pcmode_tips_dialog_title:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
 
     sput-object v6, Lfpe;->d:Lgd3;
 
-    const v0, 0x7f122331
+    sget v0, Lcom/resouce/module/ResSTRING;->public_hw_pcmode_tips_dialog_confirm:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

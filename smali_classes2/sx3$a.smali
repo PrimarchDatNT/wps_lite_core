@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12237c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     const/4 v0, 0x1
 

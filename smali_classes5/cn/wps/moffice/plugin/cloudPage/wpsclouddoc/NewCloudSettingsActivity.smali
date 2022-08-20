@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a5d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_phone_overlap_title_view_layout:I
 
     const/4 v2, 0x0
 
@@ -53,7 +53,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0600b1
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
@@ -86,7 +86,7 @@
     :cond_1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b2257
+    sget v0, Lcom/resouce/module/ResID;->plugin_content_lay:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/plugin/common/framework/PluginBaseTitleActivity;->b0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b2260
+    sget v0, Lcom/resouce/module/ResID;->plugin_titlebar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -145,9 +145,9 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/plugin/common/framework/PluginBaseTitleActivity;->a0:Lcn/wps/moffice/plugin/common/view/ViewTitleBar;
 
-    const v1, 0x7f0606c5
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
-    const v2, 0x7f0603e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->pad_public_title_bar_background:I
 
     const/4 v3, 0x0
 

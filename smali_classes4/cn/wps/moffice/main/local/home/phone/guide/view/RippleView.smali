@@ -162,7 +162,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/phone/guide/view/RippleView;->B:Landroid/view/View;
 
-    const v1, 0x7f081df7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->shape_ripple_bc:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V

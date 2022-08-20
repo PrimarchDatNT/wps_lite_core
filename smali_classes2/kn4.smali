@@ -1477,7 +1477,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1636,7 +1636,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0271
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_font_missing_guide_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -1662,7 +1662,7 @@
     .line 7
     invoke-virtual {v4, v5}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v4, 0x7f0b3295
+    sget v4, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1671,7 +1671,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v6, 0x7f120d7b
+    sget v6, Lcom/resouce/module/ResSTRING;->foreign_font_miss_guide_dialog_title:I
 
     new-array v7, v5, [Ljava/lang/Object;
 
@@ -1712,7 +1712,7 @@
 
     move-result v7
 
-    const v8, 0x7f060196
+    sget v8, Lcom/resouce/module/ResCOLOR;->foreign_font_miss_guide_dialog_text_color_extra:I
 
     if-ltz v7, :cond_2
 
@@ -1758,7 +1758,7 @@
     invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_0
-    const v4, 0x7f0b31d9
+    sget v4, Lcom/resouce/module/ResID;->tv_missing_fonts:I
 
     .line 18
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1802,7 +1802,7 @@
     :cond_4
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b03a5
+    sget v0, Lcom/resouce/module/ResID;->check_box:I
 
     .line 23
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1825,7 +1825,7 @@
 
     invoke-virtual {v3, v1}, Lqe3;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const v0, 0x7f120d77
+    sget v0, Lcom/resouce/module/ResSTRING;->foreign_font_miss_guide_dialog_get_fonts:I
 
     .line 26
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
@@ -1845,7 +1845,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Lkn4$e;
 
@@ -1958,7 +1958,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0271
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_font_missing_guide_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -1984,7 +1984,7 @@
     .line 7
     invoke-virtual {v4, v5}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v4, 0x7f0b3295
+    sget v4, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1993,7 +1993,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v6, 0x7f120d7b
+    sget v6, Lcom/resouce/module/ResSTRING;->foreign_font_miss_guide_dialog_title:I
 
     new-array v7, v5, [Ljava/lang/Object;
 
@@ -2034,7 +2034,7 @@
 
     move-result v7
 
-    const v8, 0x7f060196
+    sget v8, Lcom/resouce/module/ResCOLOR;->foreign_font_miss_guide_dialog_text_color_extra:I
 
     if-ltz v7, :cond_2
 
@@ -2080,7 +2080,7 @@
     invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_0
-    const v4, 0x7f0b31d9
+    sget v4, Lcom/resouce/module/ResID;->tv_missing_fonts:I
 
     .line 18
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2124,7 +2124,7 @@
     :cond_4
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b03a5
+    sget v0, Lcom/resouce/module/ResID;->check_box:I
 
     .line 23
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2147,7 +2147,7 @@
 
     invoke-virtual {v3, v1}, Lqe3;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const v0, 0x7f120d78
+    sget v0, Lcom/resouce/module/ResSTRING;->foreign_font_miss_guide_dialog_get_free_fonts:I
 
     .line 26
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
@@ -2167,7 +2167,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Lkn4$p;
 
@@ -2359,7 +2359,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2594,7 +2594,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

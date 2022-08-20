@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1233d2
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_page_setting_fixed_column_width_shortage:I
 
     const/4 v2, 0x1
 
@@ -880,7 +880,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1226f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_pagesize_custom:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1095,7 +1095,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f1233d1
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_page_setting_fixed_column_tip:I
 
     if-ne p1, v1, :cond_0
 
@@ -1480,7 +1480,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1226f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_pagesize_custom:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12199a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -183,7 +183,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121999
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

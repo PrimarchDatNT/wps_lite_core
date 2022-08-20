@@ -119,7 +119,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -263,7 +263,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e5f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_slip_install_bundle_layout:I
 
     const/4 v2, 0x0
 
@@ -271,7 +271,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2cc0
+    sget v1, Lcom/resouce/module/ResID;->splip_root_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     iput-object v1, p0, Lthf;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0315
+    sget v1, Lcom/resouce/module/ResID;->bundle_progress:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -315,7 +315,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06005d
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -323,7 +323,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgressColor(I)V
 
-    const v1, 0x7f0b0316
+    sget v1, Lcom/resouce/module/ResID;->bundle_progress_text:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     iput-object v1, p0, Lthf;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0314
+    sget v1, Lcom/resouce/module/ResID;->bundle_option_text:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -345,7 +345,7 @@
 
     iput-object v1, p0, Lthf;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0313
+    sget v1, Lcom/resouce/module/ResID;->bundle_option_container:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     iput-object v1, p0, Lthf;->V:Landroid/view/View;
 
-    const v1, 0x7f0b028a
+    sget v1, Lcom/resouce/module/ResID;->brandProgressBarCycle:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -543,7 +543,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122251
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -557,7 +557,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -605,7 +605,7 @@
     .line 1
     iget-object v0, p0, Lthf;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f123096    # 1.9431956E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->template_payment_failed:I    # 1.9431956E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -620,7 +620,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -44,7 +44,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1205b6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

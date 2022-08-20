@@ -143,12 +143,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f070c16
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_text_size_dip:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f07079f
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_default_text_size:I
 
     :goto_0
     if-eqz v1, :cond_2

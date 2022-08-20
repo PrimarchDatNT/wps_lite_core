@@ -129,7 +129,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 

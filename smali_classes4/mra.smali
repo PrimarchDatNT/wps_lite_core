@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00e0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_delete_other_cloud_files_select:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b162f
+    sget v0, Lcom/resouce/module/ResID;->list_view_content:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lmra;->I:Landroid/widget/ListView;
 
-    const v0, 0x7f0b02f5
+    sget v0, Lcom/resouce/module/ResID;->btn_positive:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

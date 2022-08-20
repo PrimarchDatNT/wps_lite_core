@@ -389,7 +389,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2f77
+    sget v0, Lcom/resouce/module/ResID;->theme_webview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fd1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->theme_shop_layout:I
 
     const/4 v2, 0x0
 
@@ -606,7 +606,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f75
+    sget v1, Lcom/resouce/module/ResID;->theme_progressbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -629,7 +629,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121211
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_theme:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

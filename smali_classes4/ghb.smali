@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e77
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_task_center_layout:I
 
     const/4 v1, 0x0
 
@@ -82,7 +82,7 @@
 
     iput-object p1, p0, Lghb;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0554
+    sget v0, Lcom/resouce/module/ResID;->content_view:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
     .line 6
     iget-object p1, p0, Lghb;->I:Landroid/view/View;
 
-    const v0, 0x7f0b33c2
+    sget v0, Lcom/resouce/module/ResID;->viewpager:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
     .line 7
     iget-object p1, p0, Lghb;->I:Landroid/view/View;
 
-    const v0, 0x7f0b33c3
+    sget v0, Lcom/resouce/module/ResID;->viewpager_indicator:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 8
     iget-object p1, p0, Lghb;->I:Landroid/view/View;
 
-    const v0, 0x7f0b19de
+    sget v0, Lcom/resouce/module/ResID;->network_error:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121cbc
+    sget v0, Lcom/resouce/module/ResSTRING;->private_taskcenter_pdf_convert:I
 
     goto :goto_0
 
@@ -201,7 +201,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f121cbd
+    sget v0, Lcom/resouce/module/ResSTRING;->private_taskcenter_translate:I
 
     .line 3
     :goto_0
@@ -251,7 +251,7 @@
 .method public g()I
     .locals 1
 
-    const v0, 0x7f122a7e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_task_center_title:I
 
     return v0
 .end method
@@ -410,7 +410,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f07034e
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -430,7 +430,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070b45
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -482,7 +482,7 @@
     .line 1
     iget-object v0, p0, Lghb;->U:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
 
@@ -517,7 +517,7 @@
     .line 5
     invoke-virtual {v3, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 6
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V

@@ -77,7 +77,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e065a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_play_mouse_dropbox_layout:I
 
     const/4 v1, 0x0
 
@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1eb6
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_pre_page:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Ldqc;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1eb3
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_next_page:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Ldqc;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1eae
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_frist_page:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object v0, p0, Ldqc;->S:Landroid/view/View;
 
-    const v0, 0x7f0b1eb1
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_last_page:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v0, p0, Ldqc;->T:Landroid/view/View;
 
-    const v0, 0x7f0b1ead
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_exit_play:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -460,7 +460,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1eb6
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_pre_page:I
 
     if-ne p1, v0, :cond_0
 
@@ -475,7 +475,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1eb3
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_next_page:I
 
     if-ne p1, v0, :cond_1
 
@@ -490,7 +490,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1eae
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_frist_page:I
 
     if-ne p1, v0, :cond_2
 
@@ -505,7 +505,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1eb1
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_last_page:I
 
     if-ne p1, v0, :cond_3
 
@@ -520,7 +520,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1ead
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_exit_play:I
 
     if-ne p1, v0, :cond_4
 

@@ -64,7 +64,7 @@
 
     aput-object p1, v2, v3
 
-    const p1, 0x7f122396
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_collaborators_do_invite_button:I
 
     invoke-virtual {v1, p1, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

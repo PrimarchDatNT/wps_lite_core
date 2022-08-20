@@ -59,7 +59,7 @@
 
     invoke-direct {v0, p0}, Li7l$a;-><init>(Li7l;)V
 
-    const v1, 0x7f0b1bf6
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_normal_brush:I
 
     const-string v2, "ink-model-normal-brush"
 
@@ -70,7 +70,7 @@
 
     invoke-direct {v0, p0}, Li7l$b;-><init>(Li7l;)V
 
-    const v1, 0x7f0b1bf9
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_smart_brush:I
 
     const-string v2, "ink-model-smart-brush"
 
@@ -183,7 +183,7 @@
 .method public final q2()V
     .locals 2
 
-    const v0, 0x7f0e0587
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_ink_smart_introduce_layout:I
 
     const/4 v1, 0x0
 
@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1bf5
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_common_checked:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     iput-object v1, p0, Li7l;->d0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1bfa
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_smart_checked:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

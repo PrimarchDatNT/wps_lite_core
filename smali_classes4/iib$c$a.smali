@@ -50,7 +50,7 @@
 
     iget-object p1, p1, Liib$c;->B:Landroid/app/Activity;
 
-    const v0, 0x7f12224b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_has_upgrade_pdf_toolkit:I
 
     const/4 v1, 0x0
 

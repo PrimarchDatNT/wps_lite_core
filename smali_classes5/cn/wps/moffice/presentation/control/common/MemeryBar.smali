@@ -59,14 +59,14 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e08a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_memerybar:I
 
     const/4 v2, 0x1
 
     .line 3
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1863
+    sget v0, Lcom/resouce/module/ResID;->memery_tips:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/common/MemeryBar;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1864
+    sget v0, Lcom/resouce/module/ResID;->memery_tips_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0706ea
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_ppt_bottom_toolbar_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

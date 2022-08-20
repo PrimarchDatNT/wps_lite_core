@@ -57,7 +57,7 @@
     .line 5
     iput-object p4, p0, Lgbd;->h:Ljava/lang/Runnable;
 
-    const p3, 0x7f0b225a
+    sget p3, Lcom/resouce/module/ResID;->plugin_home_roaming_setting_vip_banner_view:I
 
     .line 6
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p3, p0, Lgbd;->a:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b2b32
+    sget p3, Lcom/resouce/module/ResID;->setting_list_banner_container:I
 
     .line 7
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -457,7 +457,7 @@
     .line 9
     iget-object v1, p0, Lgbd;->b:Landroid/app/Activity;
 
-    const v2, 0x7f120f68
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

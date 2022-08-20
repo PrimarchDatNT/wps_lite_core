@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12108a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120fd7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120fd5
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_docer:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

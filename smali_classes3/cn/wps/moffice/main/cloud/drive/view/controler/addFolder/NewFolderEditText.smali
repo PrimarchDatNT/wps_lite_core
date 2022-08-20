@@ -165,7 +165,7 @@
 .method public d()Z
     .locals 1
 
-    const v0, 0x7f0b2e81
+    sget v0, Lcom/resouce/module/ResID;->tag_new_name_auto:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/EditText;->getTag(I)Ljava/lang/Object;
@@ -211,7 +211,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2e81
+    sget v0, Lcom/resouce/module/ResID;->tag_new_name_auto:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/EditText;->getTag(I)Ljava/lang/Object;
@@ -296,7 +296,7 @@
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f0b2e81
+    sget p2, Lcom/resouce/module/ResID;->tag_new_name_auto:I
 
     const/4 p4, 0x0
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e81
+    sget v1, Lcom/resouce/module/ResID;->tag_new_name_auto:I
 
     .line 4
     invoke-virtual {p0, v1, p1}, Landroid/widget/EditText;->setTag(ILjava/lang/Object;)V

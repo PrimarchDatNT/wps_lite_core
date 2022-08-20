@@ -844,7 +844,7 @@
 .method public C6()I
     .locals 1
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -917,12 +917,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0973
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_main_layout_new:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05e2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_main_layout_new:I
 
     :goto_0
     const/4 v2, 0x0
@@ -987,7 +987,7 @@
 
     sput-boolean v0, Lyd3;->m:Z
 
-    const v0, 0x7f0b0b73
+    sget v0, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     .line 12
     sput v0, Lyd3;->n:I
@@ -1875,7 +1875,7 @@
 
     if-nez v1, :cond_f
 
-    const v1, 0x7f120b83
+    sget v1, Lcom/resouce/module/ResSTRING;->et_macro_not_support:I
 
     const/16 v2, 0xbb8
 
@@ -1982,7 +1982,7 @@
 .method public N()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -3253,7 +3253,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0ab2
+    sget v0, Lcom/resouce/module/ResID;->et_main_top_title_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -3263,7 +3263,7 @@
     return-object v0
 
     :cond_0
-    const v0, 0x7f0b2d79
+    sget v0, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -3498,7 +3498,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2d67
+    sget v0, Lcom/resouce/module/ResID;->ss_titlebar_close:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -4124,7 +4124,7 @@
 
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/multi/MultiDocumentActivity;->D4(Lg44;)V
 
-    const p1, 0x7f0b2d04
+    sget p1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 68
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -4313,7 +4313,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0b2d03
+    sget p1, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -4451,7 +4451,7 @@
 
     check-cast v0, Lu7h;
 
-    const v2, 0x7f0b2d0b
+    sget v2, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4476,7 +4476,7 @@
 
     check-cast v0, Lu7h;
 
-    const v2, 0x7f0b218e
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4676,7 +4676,7 @@
     return v3
 
     :cond_7
-    const v2, 0x7f0b0ab1
+    sget v2, Lcom/resouce/module/ResID;->et_main_top:I
 
     if-ne v1, p1, :cond_a
 
@@ -4870,7 +4870,7 @@
     return v3
 
     :cond_e
-    const v4, 0x7f0b2d04
+    sget v4, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     if-ne v2, p1, :cond_17
 

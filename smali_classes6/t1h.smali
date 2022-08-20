@@ -39,7 +39,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f080240
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

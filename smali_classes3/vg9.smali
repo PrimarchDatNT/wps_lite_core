@@ -104,11 +104,11 @@
     return-void
 
     :cond_0
-    const v0, 0x7f122b0b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_transfer_send_success:I
 
-    const v1, 0x7f122b14
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_web_success_message:I
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 2
     new-instance v3, Lvg9$a;
@@ -138,11 +138,11 @@
     return-void
 
     :cond_0
-    const v0, 0x7f122b10
+    sget v0, Lcom/resouce/module/ResSTRING;->public_transfer_web_fail:I
 
-    const v1, 0x7f122b11
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_web_fail_message:I
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 2
     new-instance v3, Lvg9$b;

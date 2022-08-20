@@ -399,7 +399,7 @@
 .method public final Y2()V
     .locals 3
 
-    const v0, 0x7f1211a4
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_button_moblie_disk:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -408,7 +408,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->g0:Ljava/lang/String;
 
-    const v0, 0x7f1211a3
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_button_local_document:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -566,7 +566,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->Z:Landroid/widget/ListView;
 
-    const v1, 0x7f081ed1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->tv_home_browser_file_item_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setSelector(I)V
 
@@ -780,7 +780,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->U:Landroid/content/Context;
 
-    const v1, 0x7f1211aa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_moblie_disk_removed:I
 
     const/4 v2, 0x0
 
@@ -819,7 +819,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->U:Landroid/content/Context;
 
-    const v1, 0x7f1211aa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_moblie_disk_removed:I
 
     const/4 v2, 0x0
 
@@ -1076,7 +1076,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f0b331e
+    sget v0, Lcom/resouce/module/ResID;->usbfilelist_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->Y:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b331d
+    sget v0, Lcom/resouce/module/ResID;->usb_files_item:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1098,7 +1098,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->Z:Landroid/widget/ListView;
 
-    const v0, 0x7f0b0d56
+    sget v0, Lcom/resouce/module/ResID;->filelist_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1109,7 +1109,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->B:Lcn/wps/moffice/main/tv/browser/TvCustomFileListView;
 
-    const v0, 0x7f0b3199
+    sget v0, Lcom/resouce/module/ResID;->tv_home_font:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1120,7 +1120,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b01ca
+    sget v0, Lcom/resouce/module/ResID;->back_tv_home:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1291,7 +1291,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;->U:Landroid/content/Context;
 
-    const v0, 0x7f1205f0
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     const/4 v1, 0x1
 
@@ -1456,7 +1456,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0e9f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_tv_custom_file_list_view_phone:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -1464,13 +1464,13 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0e9e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_tv_custom_file_list_view:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
     :goto_0
-    const p1, 0x7f0b319b
+    sget p1, Lcom/resouce/module/ResID;->tv_home_title_bar:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

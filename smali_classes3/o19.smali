@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0ff8
+    sget v1, Lcom/resouce/module/ResID;->history_titlebar_multidocument_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

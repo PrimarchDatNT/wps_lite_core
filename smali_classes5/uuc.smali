@@ -92,11 +92,11 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f080765
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_sign:I
 
-    const v4, 0x7f121c96
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
-    const v5, 0x7f121053
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_sign_description:I
 
     .line 7
     invoke-static {v3, v4, v5, v2}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -318,7 +318,7 @@
 
     :cond_3
     :goto_1
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -1146,11 +1146,11 @@
     .line 8
     invoke-virtual {v0, p2}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f080765
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_sign:I
 
-    const v1, 0x7f121c96
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
-    const v2, 0x7f122699
+    sget v2, Lcom/resouce/module/ResSTRING;->public_premium_pdf_signature_desc:I
 
     const/4 v3, 0x2
 

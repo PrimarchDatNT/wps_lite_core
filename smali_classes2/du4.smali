@@ -104,13 +104,13 @@
     .line 2
     iget-object v1, p0, Ldu4;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0de4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_premium_font_previewitem:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b06bb
+    sget v1, Lcom/resouce/module/ResID;->display_thumbnail:I
 
     .line 3
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v1, p2, Ldu4$b;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b06ba
+    sget v1, Lcom/resouce/module/ResID;->display_name:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
     .line 10
     iget-object p1, p2, Ldu4$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f122baa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_view_all:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -191,7 +191,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -221,7 +221,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

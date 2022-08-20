@@ -65,7 +65,7 @@
 
     iput-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c7c
+    sget v0, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
     .line 5
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b3012
+    sget v0, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
     .line 6
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0543
+    sget v0, Lcom/resouce/module/ResID;->content_details_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -105,7 +105,7 @@
     .line 7
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b292c
+    sget v0, Lcom/resouce/module/ResID;->right_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,12 +149,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e058e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_new_home_wps_file_righttext_items_layout:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e04c7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->new_home_wps_file_righttext_items_layout:I
 
     return v0
 .end method

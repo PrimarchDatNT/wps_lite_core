@@ -54,7 +54,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView$g;->B:Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s(I)V
 

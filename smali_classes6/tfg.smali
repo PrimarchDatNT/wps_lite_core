@@ -18,7 +18,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f1219a0
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_ss_concate_success:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f121829
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merge_fail:I
 
     return v0
 .end method
@@ -34,7 +34,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f1219a1
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_ss_concating_sheet:I
 
     return v0
 .end method

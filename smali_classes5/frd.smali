@@ -52,15 +52,15 @@
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f080e7d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_doc_repair_ppt:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f080489
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_doc_repair:I
 
     :goto_0
-    const v0, 0x7f120147
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-direct {p1, p0, p2, v0}, Lfrd$c;-><init>(Lfrd;II)V
 
@@ -142,7 +142,7 @@
     .line 3
     iget-object p1, p0, Lfrd;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
     .line 3
     iget-object p1, p0, Lfrd;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1203a7
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_file_too_large:I
 
     const/4 v1, 0x0
 
@@ -336,7 +336,7 @@
     .line 6
     iget-object p1, p0, Lfrd;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1203c5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_unsupoort_file_type:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -357,7 +357,7 @@
     :goto_0
     iget-object p1, p0, Lfrd;->I:Landroid/app/Activity;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -92,7 +92,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e074a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_updatepanel_v2_item:I
 
     const/4 v1, 0x0
 

@@ -103,13 +103,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0b59
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_cloud_wrap_popup_close_btn_dialog:I
 
     invoke-virtual {v2, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v8
 
-    const v1, 0x7f0b045f
+    sget v1, Lcom/resouce/module/ResID;->cloud_popup_img_view:I
 
     .line 3
     invoke-virtual {v8, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,14 +118,14 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b045e
+    sget v2, Lcom/resouce/module/ResID;->cloud_popup_close_view:I
 
     .line 4
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
-    const v2, 0x7f0b045d
+    sget v2, Lcom/resouce/module/ResID;->cloud_popup_btn_view:I
 
     .line 5
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

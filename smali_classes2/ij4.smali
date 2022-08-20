@@ -52,7 +52,7 @@
 .method public constructor <init>(Landroid/content/Context;Lco6;Lij4$c;)V
     .locals 1
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -74,7 +74,7 @@
     .line 6
     invoke-virtual {p1, p0}, Lcn/wps/moffice/common/beans/OnResultActivity;->addOnConfigurationChangedListener(Lcn/wps/moffice/common/beans/OnResultActivity$b;)V
 
-    const p1, 0x7f1219b4
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_merge_choose_sheet:I
 
     .line 7
     iput p1, p0, Lij4;->c0:I
@@ -127,7 +127,7 @@
     .line 1
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b0c52
+    sget v1, Lcom/resouce/module/ResID;->extract_sheet_thumb_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -209,7 +209,7 @@
     .line 1
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b0c44
+    sget v1, Lcom/resouce/module/ResID;->extract_dialog_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -235,7 +235,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
@@ -247,7 +247,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -262,7 +262,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -275,7 +275,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -329,7 +329,7 @@
 
     invoke-static {v1, v2}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -343,7 +343,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     iput-object v1, p0, Lij4;->b0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2fe9
+    sget v1, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f1220bc
+    sget p1, Lcom/resouce/module/ResSTRING;->public_extract_count:I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0963
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_extract_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -512,7 +512,7 @@
     .line 4
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     .line 6
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v2, 0x7f0b0c4f
+    sget v2, Lcom/resouce/module/ResID;->extract_sheet_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -542,7 +542,7 @@
     .line 8
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v2, 0x7f0b0c50
+    sget v2, Lcom/resouce/module/ResID;->extract_sheet_btn_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -558,7 +558,7 @@
     .line 10
     iget-object v0, p0, Lij4;->a0:Landroid/view/View;
 
-    const v2, 0x7f0b0c55
+    sget v2, Lcom/resouce/module/ResID;->extract_vip_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -621,7 +621,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_0
 
@@ -631,7 +631,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fe9
+    sget v0, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     if-ne p1, v0, :cond_1
 
@@ -641,7 +641,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0c4f
+    sget v0, Lcom/resouce/module/ResID;->extract_sheet_btn:I
 
     if-ne p1, v0, :cond_2
 
@@ -731,12 +731,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122551
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V

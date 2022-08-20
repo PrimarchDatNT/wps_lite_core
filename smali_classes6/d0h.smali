@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/content/Context;Lk2m;)V
     .locals 1
 
-    const v0, 0x7f122783
+    sget v0, Lcom/resouce/module/ResSTRING;->public_quickstyle_data_fill:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lx0h;-><init>(Landroid/content/Context;I)V

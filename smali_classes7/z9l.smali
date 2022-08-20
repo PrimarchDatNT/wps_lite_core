@@ -88,7 +88,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b01d5
+    sget v0, Lcom/resouce/module/ResID;->background_download_progressbar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
     .line 1
     iget-object p2, p0, Lz9l;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e09cb
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_writer_edit_bg_color_item:I
 
     const/4 v0, 0x0
 
@@ -234,7 +234,7 @@
 
     check-cast p1, Ls9l;
 
-    const p3, 0x7f0b01cf
+    sget p3, Lcom/resouce/module/ResID;->background_color_imageview:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     const-string v3, ".jpg"
 
-    const v4, 0x7f081604
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     const/4 v8, 0x0
 
@@ -498,7 +498,7 @@
     .line 34
     invoke-virtual {p3, v1}, Lcn/wps/moffice/common/beans/V10RoundRectImageView;->setNeedDrawCenterImg(Z)V
 
-    const v0, 0x7f081f10
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_bg_with_margin:I
 
     .line 35
     invoke-virtual {p3, v0}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
@@ -523,7 +523,7 @@
 
     if-eqz p3, :cond_7
 
-    const p3, 0x7f0b01d8
+    sget p3, Lcom/resouce/module/ResID;->background_lock:I
 
     .line 39
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

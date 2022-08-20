@@ -38,7 +38,7 @@
     .line 3
     iput-object p1, p0, Lhlc;->a:Landroid/app/Activity;
 
-    const v0, 0x7f0e0ff5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_insert_pupup:I
 
     const/4 v1, 0x0
 
@@ -49,7 +49,7 @@
 
     iput-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1dc9
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
     .line 6
     iget-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1dc8
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_pic:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -72,7 +72,7 @@
     .line 7
     iget-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1dc7
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_annot_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,7 +83,7 @@
     .line 8
     iget-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1dca
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_quick_phrases:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 16
     iget-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b2f01
+    sget v0, Lcom/resouce/module/ResID;->text_add_anno_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f1216c9
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -243,7 +243,7 @@
     .line 24
     iget-object v0, p0, Lhlc;->c:Landroid/view/View;
 
-    const v2, 0x7f0b140e
+    sget v2, Lcom/resouce/module/ResID;->iv_add_text_en_vip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 26
     iget-object v0, p0, Lhlc;->c:Landroid/view/View;
 
-    const v2, 0x7f0b1405
+    sget v2, Lcom/resouce/module/ResID;->iv_add_anno_text_en_vip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
     .line 28
     iget-object p1, p0, Lhlc;->c:Landroid/view/View;
 
-    const v0, 0x7f0b140c
+    sget v0, Lcom/resouce/module/ResID;->iv_add_pic_en_vip:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -382,7 +382,7 @@
 .method public final i(I)Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f0b1dc9
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_text:I
 
     if-ne p1, v0, :cond_0
 
@@ -391,7 +391,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1dc8
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_pic:I
 
     if-ne p1, v0, :cond_1
 
@@ -400,7 +400,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1dc7
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_annot_text:I
 
     if-ne p1, v0, :cond_2
 
@@ -409,7 +409,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1dca
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_quick_phrases:I
 
     if-ne p1, v0, :cond_3
 
@@ -594,7 +594,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1dca
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_quick_phrases:I
 
     if-ne p1, v1, :cond_0
 

@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121009
+    sget v0, Lcom/resouce/module/ResSTRING;->home_passcode:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

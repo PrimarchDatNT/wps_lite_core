@@ -61,9 +61,9 @@
     .line 5
     new-instance v0, Liae$e;
 
-    const v1, 0x7f080490
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-direct {v0, p0, v1, v2}, Liae$e;-><init>(Liae;II)V
 
@@ -373,7 +373,7 @@
     .line 16
     iget-object p1, p0, Liae;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v0, 0x0
 
@@ -542,7 +542,7 @@
     .line 14
     iget-object p1, p0, Liae;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p3, 0x0
 

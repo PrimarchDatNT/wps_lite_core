@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ripple android:color="@color/wps_reader_ripple_white_color_day"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/wps_reader_theme_day" />
-</ripple>

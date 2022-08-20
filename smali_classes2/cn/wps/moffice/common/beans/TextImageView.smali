@@ -1670,7 +1670,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/beans/TextImageView;->t0:Landroid/content/res/ColorStateList;
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     const/4 v2, 0x3
 

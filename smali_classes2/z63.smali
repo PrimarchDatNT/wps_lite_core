@@ -45,7 +45,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -75,12 +75,12 @@
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f122b92
+    sget v0, Lcom/resouce/module/ResSTRING;->public_using_beta_version_toast_cn:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122b91
+    sget v0, Lcom/resouce/module/ResSTRING;->public_using_beta_version_toast:I
 
     .line 7
     :goto_0

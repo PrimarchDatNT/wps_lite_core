@@ -36,7 +36,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f120ffb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_phone:I
 
     goto :goto_0
 
@@ -49,12 +49,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f1205f7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f120ffa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_pad:I
 
     .line 2
     :goto_0
@@ -75,7 +75,7 @@
     :cond_2
     new-instance p0, Loz4;
 
-    const v5, 0x7f08056f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->documents_icon_phone:I
 
     move-object v2, p0
 

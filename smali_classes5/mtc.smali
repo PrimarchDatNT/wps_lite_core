@@ -114,7 +114,7 @@
 .method public H()I
     .locals 1
 
-    const v0, 0x7f1227a7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
     return v0
 .end method
@@ -368,7 +368,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07d1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_read_bg_more_layout:I
 
     return v0
 .end method
@@ -379,7 +379,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b020f
+    sget v1, Lcom/resouce/module/ResID;->bg_light_prink_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -390,7 +390,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0215
+    sget v1, Lcom/resouce/module/ResID;->bg_white_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0207
+    sget v1, Lcom/resouce/module/ResID;->bg_cowhide_yellow_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -419,7 +419,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0209
+    sget v1, Lcom/resouce/module/ResID;->bg_dark_brown_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -430,7 +430,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0205
+    sget v1, Lcom/resouce/module/ResID;->bg_blue_green_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -441,7 +441,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b020e
+    sget v1, Lcom/resouce/module/ResID;->bg_light_blue_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -452,7 +452,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b020a
+    sget v1, Lcom/resouce/module/ResID;->bg_eye_protection_green_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0208
+    sget v1, Lcom/resouce/module/ResID;->bg_dark_blue_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

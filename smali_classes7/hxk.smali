@@ -34,7 +34,7 @@
     .line 1
     invoke-direct {p0, p1}, Lozl;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e107c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_comment_penkit_ink_setting:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
@@ -42,7 +42,7 @@
     .line 3
     iput-object p2, p0, Lhxk;->e0:Lixk;
 
-    const p2, 0x7f0b1695
+    sget p2, Lcom/resouce/module/ResID;->ll_ink_comment:I
 
     .line 4
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object p2, p0, Lhxk;->f0:Landroid/view/View;
 
-    const p2, 0x7f0b16c0
+    sget p2, Lcom/resouce/module/ResID;->ll_penkit_comment:I
 
     .line 5
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -63,7 +63,7 @@
     .line 6
     iget-object p2, p0, Lhxk;->f0:Landroid/view/View;
 
-    const v0, 0x7f0b27dd
+    sget v0, Lcom/resouce/module/ResID;->rb_ink:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -76,7 +76,7 @@
     .line 7
     iget-object p2, p0, Lhxk;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b27df
+    sget v0, Lcom/resouce/module/ResID;->rb_penkit:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
     .line 8
     iget-object p2, p0, Lhxk;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b0661
+    sget v0, Lcom/resouce/module/ResID;->description:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -110,12 +110,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121934
+    sget v1, Lcom/resouce/module/ResSTRING;->penkit_honor:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121935
+    sget v1, Lcom/resouce/module/ResSTRING;->penkit_huawei:I
 
     :goto_0
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -126,7 +126,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f123294
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_switch_penkit_tips:I
 
     .line 10
     invoke-virtual {p1, v1, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -145,7 +145,7 @@
     .line 12
     iget-object p1, p0, Lhxk;->i0:Landroid/view/View;
 
-    const p2, 0x7f0b12c0
+    sget p2, Lcom/resouce/module/ResID;->img_penkit:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b14c1
+    sget v1, Lcom/resouce/module/ResID;->iv_setting_back:I
 
     const-string v2, "comment-settings-back"
 

@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dfa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_recommend_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b06b5
+    sget v2, Lcom/resouce/module/ResID;->display_check:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v3, 0x7f1227d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recommend_introduce_tips_pic_hi_content:I
 
     const/4 v4, 0x0
 
@@ -240,7 +240,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f1227d8
+    sget v5, Lcom/resouce/module/ResSTRING;->public_recommend_introduce_tips_pic_content:I
 
     .line 13
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -269,7 +269,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0605f1
+    sget v9, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -306,7 +306,7 @@
 
     move-result v3
 
-    const v5, 0x7f0b0533
+    sget v5, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 20
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0b068e
+    sget v1, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -405,7 +405,7 @@
 
     invoke-direct {p0, v2, p1}, Li95$b;-><init>(Lcn/wps/moffice/common/CustomCheckButton;Lhd3;)V
 
-    const v1, 0x7f0b1afd
+    sget v1, Lcom/resouce/module/ResID;->ok_btn:I
 
     .line 37
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

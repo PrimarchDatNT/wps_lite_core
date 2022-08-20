@@ -19,7 +19,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e10b3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_maintoolbar_popup_menu_file:I
 
     const/4 v1, 0x0
 
@@ -45,7 +45,7 @@
     .line 4
     iget-object p1, p0, Lc7l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b3519
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_historyVerBtn:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
     .line 6
     iget-object p1, p0, Lc7l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b355d
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_txtencoding:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
     .line 8
     iget-object p1, p0, Lc7l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b3543
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_projectionBtn:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
     :cond_2
-    const p1, 0x7f0b0c23
+    sget p1, Lcom/resouce/module/ResID;->export_pdf_limit_free_btn:I
 
     .line 9
     sget-object v0, Lys9$b;->U:Lys9$b;
@@ -107,7 +107,7 @@
 
     invoke-virtual {p0, p1, v0}, Lc7l;->n2(ILjava/lang/String;)V
 
-    const p1, 0x7f0b3453
+    sget p1, Lcom/resouce/module/ResID;->word_extract_limit_free_btn:I
 
     .line 10
     sget-object v0, Lys9$b;->V:Lys9$b;
@@ -118,7 +118,7 @@
 
     invoke-virtual {p0, p1, v0}, Lc7l;->n2(ILjava/lang/String;)V
 
-    const p1, 0x7f0b3461
+    sget p1, Lcom/resouce/module/ResID;->word_merge_limit_free_btn:I
 
     .line 11
     sget-object v0, Lys9$b;->W:Lys9$b;
@@ -129,7 +129,7 @@
 
     invoke-virtual {p0, p1, v0}, Lc7l;->n2(ILjava/lang/String;)V
 
-    const p1, 0x7f0b3463
+    sget p1, Lcom/resouce/module/ResID;->word_slim_limit_free_btn:I
 
     .line 12
     sget-object v0, Lys9$b;->Y:Lys9$b;
@@ -143,7 +143,7 @@
     .line 13
     iget-object p1, p0, Lc7l;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b3561
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_word_fix:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -155,7 +155,7 @@
 
     if-nez p1, :cond_3
 
-    const p1, 0x7f0b3458
+    sget p1, Lcom/resouce/module/ResID;->word_fix_limit_free_btn:I
 
     .line 14
     sget-object v1, Lys9$b;->X0:Lys9$b;
@@ -204,7 +204,7 @@
 
     invoke-direct {v0}, Lisk;-><init>()V
 
-    const v1, 0x7f0b353b
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_newfileBtn:I
 
     const-string v2, "file-new"
 
@@ -223,7 +223,7 @@
 
     invoke-direct {v0, v1, v2}, Lmrk;-><init>(Livk;Lhvk;)V
 
-    const v1, 0x7f0b3547
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_saveBtn:I
 
     const-string v2, "file-save"
 
@@ -234,7 +234,7 @@
 
     invoke-direct {v0}, Lhvk;-><init>()V
 
-    const v1, 0x7f0b3546
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_saveAsBtn:I
 
     const-string v2, "file-saveas"
 
@@ -245,7 +245,7 @@
 
     invoke-direct {v0}, Lerl;-><init>()V
 
-    const v1, 0x7f0b354c
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_share_file:I
 
     const-string v2, "file-share-file"
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v0}, Lask;-><init>()V
 
-    const v1, 0x7f0b3509
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_export_pdfBtn:I
 
     const-string v2, "file-export-pdf"
 
@@ -271,7 +271,7 @@
 
     invoke-direct {v0, v2, v1}, Lcsk;-><init>(Landroid/view/View;Ljava/lang/String;)V
 
-    const v1, 0x7f0b354d
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_share_pic_entry:I
 
     const-string v3, "share-picfunc"
 
@@ -282,7 +282,7 @@
 
     invoke-direct {v0}, Ld7l;-><init>()V
 
-    const v1, 0x7f0b3506
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_encryptBtn:I
 
     const-string v3, "file-encrypt"
 
@@ -293,7 +293,7 @@
 
     invoke-direct {v0}, Lbvk;-><init>()V
 
-    const v1, 0x7f0b3542
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_printBtn:I
 
     const-string v3, "file-print"
 
@@ -304,7 +304,7 @@
 
     invoke-direct {v0}, Lhwk;-><init>()V
 
-    const v1, 0x7f0b354e
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_shareplay:I
 
     const-string v3, "file-shareplay"
 
@@ -317,7 +317,7 @@
 
     invoke-direct {v0, v2, v2, v1}, Ljsk;-><init>(Landroid/view/View;Landroid/view/View;Ljava/lang/String;)V
 
-    const v1, 0x7f0b3563
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_word_slim:I
 
     const-string v3, "file-size-reduce"
 
@@ -328,7 +328,7 @@
 
     invoke-direct {v0, v2}, Lurk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b3561
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_word_fix:I
 
     const-string v3, "writer_doc_fix"
 
@@ -345,7 +345,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b3519
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_historyVerBtn:I
 
     .line 13
     new-instance v1, Lpsk;
@@ -362,13 +362,13 @@
 
     invoke-direct {v0}, Lvrk;-><init>()V
 
-    const v1, 0x7f0b34fd
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_docinfoBtn:I
 
     const-string v3, "file-docinfo"
 
     invoke-virtual {p0, v1, v0, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3543
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_projectionBtn:I
 
     .line 15
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -389,7 +389,7 @@
     invoke-virtual {p0, v0, v4, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_1
-    const v0, 0x7f0b3540
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_permissioninfoBtn:I
 
     .line 17
     new-instance v3, Lyuk;
@@ -412,7 +412,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b350c
+    sget v3, Lcom/resouce/module/ResID;->writer_edittoolbar_filegroup:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e109b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->writer_filegroup_record:I
 
     invoke-virtual {v1, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -467,7 +467,7 @@
     :cond_4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const v0, 0x7f0b365f
+    sget v0, Lcom/resouce/module/ResID;->writer_record_start:I
 
     .line 24
     new-instance v1, Lsvk;
@@ -478,7 +478,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3660
+    sget v0, Lcom/resouce/module/ResID;->writer_record_stop:I
 
     .line 25
     new-instance v1, Ltvk;
@@ -489,7 +489,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b365e
+    sget v0, Lcom/resouce/module/ResID;->writer_record_play:I
 
     .line 26
     new-instance v1, Lavk;
@@ -508,7 +508,7 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f0b355d
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_txtencoding:I
 
     .line 28
     new-instance v1, Ldyl;
@@ -520,7 +520,7 @@
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_6
-    const v0, 0x7f0b351a
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_hotkeyBtn:I
 
     .line 29
     new-instance v1, Lrsk;
@@ -542,7 +542,7 @@
 
     if-eqz v0, :cond_7
 
-    const v0, 0x7f0b350b
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_feedbackBtn:I
 
     .line 31
     new-instance v1, Lfsk;
@@ -554,7 +554,7 @@
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_7
-    const v0, 0x7f0b3562
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_word_merge:I
 
     .line 32
     new-instance v1, Lfwk;
@@ -567,7 +567,7 @@
 
     invoke-virtual {p0, v0, v1, v4}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3560
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_word_extract:I
 
     .line 33
     new-instance v1, Lewk;
@@ -589,7 +589,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3540
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_permissioninfoBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

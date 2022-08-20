@@ -37,7 +37,7 @@
 
     invoke-direct {v1, v2, v0}, Llwk;-><init>(Lczl;Lczl;)V
 
-    const v2, 0x7f080c32
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_doc_recheck:I
 
     const-string v3, "spellcheck-recheck"
 
@@ -52,7 +52,7 @@
 
     invoke-direct {v1, v2, v0}, Llwk;-><init>(Lczl;Lczl;)V
 
-    const v0, 0x7f080c1a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_doc_complete:I
 
     const-string v2, "spellcheck-done"
 
@@ -72,7 +72,7 @@
 .method public final n2()V
     .locals 10
 
-    const v0, 0x7f0e0cd1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_list_quickaction:I
 
     const/4 v1, 0x0
 
@@ -83,7 +83,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b2675
+    sget v0, Lcom/resouce/module/ResID;->public_list:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -114,14 +114,14 @@
     :goto_0
     if-ge v5, v1, :cond_0
 
-    const v6, 0x7f0e0dd6
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_popupwindow_list_icon_text_item:I
 
     .line 6
     invoke-static {v6, v0, v4}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b2664
+    sget v7, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 7
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    const v8, 0x7f0b2667
+    sget v8, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 8
     invoke-virtual {v6, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;

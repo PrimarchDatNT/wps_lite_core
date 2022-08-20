@@ -90,7 +90,7 @@
 
     move-result v0
 
-    const v1, 0x7f081e86
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_author_default_avatar:I
 
     if-eqz v0, :cond_3
 
@@ -241,7 +241,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f080824
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_gold_user_vip:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -252,7 +252,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/main/foreignmembership/wallet/fragment/GoldUserAvatarFragment;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f080823
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_gold_user_not_vip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -279,7 +279,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0346
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_logout_gold_user_avatar_fragment:I
 
     const/4 v2, 0x0
 
@@ -301,13 +301,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e033b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_gold_user_avatar_fragment:I
 
     invoke-virtual {p1, v0, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v0
 
-    const p1, 0x7f0b0f2d
+    sget p1, Lcom/resouce/module/ResID;->gold_user_vip:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,7 +318,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/foreignmembership/wallet/fragment/GoldUserAvatarFragment;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b0f2c
+    sget p1, Lcom/resouce/module/ResID;->gold_user_name:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :goto_0
-    const p1, 0x7f0b10ab
+    sget p1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -77,7 +77,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$a;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0229
+    sget v2, Lcom/resouce/module/ResID;->body:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$a;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2f63
+    sget v2, Lcom/resouce/module/ResID;->textview:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

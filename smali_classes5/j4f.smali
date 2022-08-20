@@ -491,7 +491,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f121f98
+    sget v7, Lcom/resouce/module/ResSTRING;->public_credits:I
 
     invoke-virtual {v4, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -529,9 +529,9 @@
 
     invoke-direct {v0}, Lxk2;-><init>()V
 
-    const v1, 0x7f0806f1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
-    const v3, 0x7f080886
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     .line 26
     invoke-virtual {v0, v1, v3}, Lxk2;->r(II)V

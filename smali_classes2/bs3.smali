@@ -215,7 +215,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f12217e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileradar_file_yesterday:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -240,7 +240,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1227bd
+    sget p1, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
 
     if-eqz p2, :cond_0
 
-    const p0, 0x7f12295c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_share_decode_file_spec_access:I
 
     return p0
 
@@ -284,7 +284,7 @@
 
     const-string v0, "company"
 
-    const v1, 0x7f121d1f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_all_people_read_only:I
 
     if-eqz p2, :cond_2
 
@@ -295,12 +295,12 @@
 
     if-eqz p0, :cond_1
 
-    const v1, 0x7f121f32
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_member_write:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f121d20
+    sget v1, Lcom/resouce/module/ResSTRING;->public_all_people_write:I
 
     goto :goto_0
 
@@ -321,7 +321,7 @@
 
     if-eqz p0, :cond_6
 
-    const v1, 0x7f121f30
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_member_read_only:I
 
     goto :goto_0
 
@@ -335,7 +335,7 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f122403
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_spec_member:I
 
     goto :goto_0
 
@@ -349,7 +349,7 @@
 
     if-eqz p1, :cond_5
 
-    const v1, 0x7f122740
+    sget v1, Lcom/resouce/module/ResSTRING;->public_public_send_by_entity:I
 
     goto :goto_0
 
@@ -363,7 +363,7 @@
 
     if-eqz p0, :cond_6
 
-    const v1, 0x7f122954
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     :cond_6
     :goto_0
@@ -393,7 +393,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f122bf4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_web_article_publish_setting:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -421,7 +421,7 @@
 
     if-gtz v7, :cond_1
 
-    const p1, 0x7f1221a9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder_share_forever_limit:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -547,7 +547,7 @@
 
     invoke-direct {p1, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    const v1, 0x7f122615
+    sget v1, Lcom/resouce/module/ResSTRING;->public_period_text:I
 
     .line 16
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -599,7 +599,7 @@
 
     :cond_6
     :goto_1
-    const p1, 0x7f1223e6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_link_is_overtime:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -627,7 +627,7 @@
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p1, 0x7f1225eb
+    sget p1, Lcom/resouce/module/ResSTRING;->public_password_format_v1:I
 
     new-array v1, v5, [Ljava/lang/Object;
 
@@ -653,7 +653,7 @@
 
     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p1, 0x7f1225ec
+    sget p1, Lcom/resouce/module/ResSTRING;->public_password_format_v2:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -675,7 +675,7 @@
 
     if-eqz p2, :cond_0
 
-    const p0, 0x7f12295c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_share_decode_file_spec_access:I
 
     return p0
 
@@ -689,7 +689,7 @@
 
     const-string v0, "company"
 
-    const v1, 0x7f122409
+    sget v1, Lcom/resouce/module/ResSTRING;->public_linkshare_read_only_desc:I
 
     if-eqz p2, :cond_2
 
@@ -700,12 +700,12 @@
 
     if-eqz p0, :cond_1
 
-    const v1, 0x7f121f33
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_member_write_permission_desc:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f12240a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_linkshare_write_permission_desc:I
 
     goto :goto_0
 
@@ -726,7 +726,7 @@
 
     if-eqz p0, :cond_4
 
-    const v1, 0x7f121f31
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_member_read_only_desc:I
 
     goto :goto_0
 
@@ -740,7 +740,7 @@
 
     if-eqz p0, :cond_4
 
-    const v1, 0x7f122404
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_spec_member_text:I
 
     :cond_4
     :goto_0
@@ -774,7 +774,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c81
+    sget v2, Lcom/resouce/module/ResSTRING;->public_x_people_has_opened:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1288,7 +1288,7 @@
 
     move-result v0
 
-    const v1, 0x7f080861
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     if-eqz v0, :cond_1
 
@@ -1398,7 +1398,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f1210fe
+    sget p1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1426,7 +1426,7 @@
 
     invoke-direct {p0}, Lbs3$a;-><init>()V
 
-    const p1, 0x7f121f23
+    sget p1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

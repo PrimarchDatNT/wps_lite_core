@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->share_item_large_divide:I
 
     const/4 v2, 0x0
 

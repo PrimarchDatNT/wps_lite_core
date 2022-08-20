@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081cdb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_watermark_resize_button:I
 
     invoke-static {p2, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -132,7 +132,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081cdc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_watermark_rotate_button:I
 
     invoke-static {p2, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081cda
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_watermark_edit_button:I
 
     invoke-static {p1, p2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -228,7 +228,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/preview/ExportPageSuperCanvas;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b0c34
+    sget v1, Lcom/resouce/module/ResID;->exportpdf_preview_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

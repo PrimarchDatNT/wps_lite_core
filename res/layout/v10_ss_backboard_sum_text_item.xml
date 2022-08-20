@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.spreadsheet.control.common.ChildAllProxyLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.spreadsheet.control.common.WrapBorderEqualTextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="start|center" android:layout_gravity="start" android:id="@id/ss_backboard_text_item" android:layout_width="wrap_content" android:layout_height="26.0dip" />
-</cn.wps.moffice.spreadsheet.control.common.ChildAllProxyLayout>

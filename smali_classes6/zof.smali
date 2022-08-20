@@ -52,9 +52,9 @@
 .method public constructor <init>(Lfmf;)V
     .locals 2
 
-    const v0, 0x7f120c7d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_toolbar_numformat:I
 
-    const v1, 0x7f0e06b8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_complex_format_number_dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0, v1}, Lvof;-><init>(Lfmf;II)V
@@ -108,7 +108,7 @@
 
     iget-object v2, p0, Lzof;->W:[Ljava/lang/String;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v0, v1, v3, v2}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -147,7 +147,7 @@
     .line 1
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c4
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_general:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c5
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_numerical:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c1
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_currency:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -184,7 +184,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c0
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_accounting:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f120818
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_date:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -209,7 +209,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c9
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -221,7 +221,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c6
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_percentage:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -234,7 +234,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c3
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_fraction:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -246,7 +246,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c7
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_science:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -259,7 +259,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207bf
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -271,7 +271,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1207c8
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_special:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -284,7 +284,7 @@
 
     iget-object v1, p0, Lemf;->B:Landroid/content/Context;
 
-    const v2, 0x7f1226f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_pagesize_custom:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -299,7 +299,7 @@
     .line 7
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09b7
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_num_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 9
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09b6
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_num_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,12 +347,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e01ca
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_dialog_tips:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e06b4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_complex_format_dialog_tips:I
 
     :goto_0
     const/4 v2, 0x0
@@ -366,7 +366,7 @@
 
     iput-object v0, p0, Lzof;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b09bd
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_tips:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
     .line 10
     iget-object p1, p0, Lzof;->e0:Landroid/widget/TextView;
 
-    const p2, 0x7f120bb5
+    sget p2, Lcom/resouce/module/ResSTRING;->et_number_text_tips:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -585,7 +585,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f1207bf
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_text:I
 
     .line 12
     invoke-virtual {p0, p1}, Lvof;->p(I)V
@@ -752,7 +752,7 @@
     .line 28
     iget-object p1, p0, Lzof;->e0:Landroid/widget/TextView;
 
-    const p2, 0x7f120ba8
+    sget p2, Lcom/resouce/module/ResSTRING;->et_number_common_tips:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -763,7 +763,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f1207c4
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_general:I
 
     .line 30
     invoke-virtual {p0, p1}, Lvof;->p(I)V
@@ -906,7 +906,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f120bab
+    sget p1, Lcom/resouce/module/ResSTRING;->et_number_custom_format_warning:I
 
     const/4 v0, 0x1
 
@@ -1110,7 +1110,7 @@
 
     move-result v0
 
-    const v1, 0x7f1207c2
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_currency_default_currency_symbol:I
 
     const/4 v2, 0x0
 
@@ -1358,7 +1358,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070240
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_number_numeric_parent_spinner_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

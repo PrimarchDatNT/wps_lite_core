@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lpc4$d;->B:Landroid/content/Context;
 
-    const v1, 0x7f12115c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_upload_size_limit_tips_supervip:I
 
     const/4 v2, 0x1
 

@@ -88,7 +88,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1223b1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invoice:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

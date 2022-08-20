@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1a01
+    sget v0, Lcom/resouce/module/ResID;->new_name_tips:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

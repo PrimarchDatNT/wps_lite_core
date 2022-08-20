@@ -67,9 +67,9 @@
 
     new-instance v1, Lzq8;
 
-    const v2, 0x7f0807ff
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_enterprise_learn_icon:I
 
-    const v3, 0x7f120efe
+    sget v3, Lcom/resouce/module/ResSTRING;->home_enterprise_learn:I
 
     iget-object v4, p0, Lar8$b$a$b;->B:Lar8$b$a;
 

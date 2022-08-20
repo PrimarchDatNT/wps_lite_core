@@ -46,12 +46,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0e0c9c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_interstital_ad_s2s_video_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0c9f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_interstitial_ad_mopub_media_layout:I
 
     :goto_0
     return v0

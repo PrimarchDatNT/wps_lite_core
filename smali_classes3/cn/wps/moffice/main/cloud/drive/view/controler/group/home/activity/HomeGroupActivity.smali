@@ -378,7 +378,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b302d
+    sget v0, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     if-ne p1, v0, :cond_0
 
@@ -400,7 +400,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b34b4
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_setting:I
 
     if-ne p1, v0, :cond_1
 
@@ -513,9 +513,9 @@
     .line 13
     iget-object v1, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/group/home/activity/HomeGroupActivity;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b34b4
+    sget v2, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_setting:I
 
-    const v3, 0x7f081f5e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_searchtitlebar_setting:I
 
     invoke-virtual {v1, v2, v3, p1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->m(III)V
 

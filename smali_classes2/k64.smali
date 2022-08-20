@@ -173,7 +173,7 @@
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 3
 
-    const p3, 0x7f0b2981
+    sget p3, Lcom/resouce/module/ResID;->roaming_record_list_view_holder_key:I
 
     if-eqz p2, :cond_1
 
@@ -216,7 +216,7 @@
 
     invoke-direct {v0, p0}, Lk64$d;-><init>(Lk64;)V
 
-    const v1, 0x7f0b0fe1
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_content:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v1, v0, Lk64$d;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0fe3
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_icon_layout:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     iput-object v1, v0, Lk64$d;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0fe2
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
 
     iput-object v1, v0, Lk64$d;->c:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0feb
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_status_icon:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -256,7 +256,7 @@
 
     iput-object v1, v0, Lk64$d;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0fe9
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     iput-object v1, v0, Lk64$d;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0fe6
+    sget v1, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 10
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     iput-object v1, v0, Lk64$d;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b29bd
+    sget v1, Lcom/resouce/module/ResID;->round_progress_bar:I
 
     .line 11
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,12 +289,12 @@
 
     iput-object v1, v0, Lk64$d;->h:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v2, 0x7f080906
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_upload_round_progress_et_icon:I
 
     .line 12
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
 
-    const v1, 0x7f0b2840
+    sget v1, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 13
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -303,7 +303,7 @@
 
     iput-object v1, v0, Lk64$d;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2cc3
+    sget v1, Lcom/resouce/module/ResID;->split_line:I
 
     .line 14
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -335,7 +335,7 @@
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v0, 0x7f0b2982
+    sget v0, Lcom/resouce/module/ResID;->roaming_record_list_view_position_key:I
 
     .line 19
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -556,7 +556,7 @@
 .method public l()I
     .locals 1
 
-    const v0, 0x7f0e0c82
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_recent_records_listview_item:I
 
     return v0
 .end method
@@ -589,7 +589,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023d
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_foreground_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -815,7 +815,7 @@
     .line 18
     iget-object v2, p2, Lk64$d;->d:Landroid/widget/ImageView;
 
-    const v5, 0x7f081079
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_documents_file_pause:I
 
     invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -984,7 +984,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b2981
+    sget v0, Lcom/resouce/module/ResID;->roaming_record_list_view_holder_key:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

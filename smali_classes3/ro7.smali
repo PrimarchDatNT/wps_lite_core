@@ -105,7 +105,7 @@
 .method public final b()I
     .locals 1
 
-    const v0, 0x7f0e0ebd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_wps_drive_popup_folder_chooser_layout:I
 
     return v0
 .end method
@@ -236,7 +236,7 @@
 
     iget-object v3, p0, Lro7;->a:Landroid/content/Context;
 
-    const v4, 0x7f122587
+    sget v4, Lcom/resouce/module/ResSTRING;->public_only_visible_to_you:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -264,7 +264,7 @@
     .line 2
     iget-object p1, p0, Lro7;->a:Landroid/content/Context;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -309,7 +309,7 @@
 
     iput-object v0, p0, Lro7;->g:Landroid/view/View;
 
-    const v1, 0x7f0b276d
+    sget v1, Lcom/resouce/module/ResID;->public_wpsdrive_company_list:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -636,7 +636,7 @@
 
     iget-object v2, p0, Lro7;->a:Landroid/content/Context;
 
-    const v3, 0x7f122587
+    sget v3, Lcom/resouce/module/ResSTRING;->public_only_visible_to_you:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -749,7 +749,7 @@
 
     iget-object v2, p0, Lro7;->a:Landroid/content/Context;
 
-    const v3, 0x7f122587
+    sget v3, Lcom/resouce/module/ResSTRING;->public_only_visible_to_you:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

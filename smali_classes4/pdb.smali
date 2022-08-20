@@ -129,7 +129,7 @@
 .method public B()I
     .locals 1
 
-    const v0, 0x7f0e0c18
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_gdpr_first_start_layout_new:I
 
     return v0
 .end method
@@ -749,7 +749,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0c13
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_gdpr_agree_dialog:I
 
     const/4 v3, 0x0
 
@@ -772,7 +772,7 @@
 
     invoke-direct {v2, p0, v3}, Lpdb$e;-><init>(Lpdb;Lpdb$a;)V
 
-    const v3, 0x7f0b30f7
+    sget v3, Lcom/resouce/module/ResID;->tvPrivacy:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -781,7 +781,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b30e9
+    sget v3, Lcom/resouce/module/ResID;->tvEndUser:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -790,7 +790,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b1b07
+    sget v3, Lcom/resouce/module/ResID;->onLineService:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -799,7 +799,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b06e5
+    sget v3, Lcom/resouce/module/ResID;->dlg_gdpr_cancel:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -808,7 +808,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b06e4
+    sget v3, Lcom/resouce/module/ResID;->dlg_gdpr_agree:I
 
     .line 12
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -902,7 +902,7 @@
     .line 2
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00db
+    sget v1, Lcom/resouce/module/ResID;->agreement_cb:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -924,7 +924,7 @@
 
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f122a1e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_start_page_begin:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -956,7 +956,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f122210
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_content_tips_for_eu:I
 
     invoke-virtual {p0, v1}, Lpdb;->T(I)Ljava/lang/String;
 
@@ -968,7 +968,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f121d13
+    sget v1, Lcom/resouce/module/ResSTRING;->public_agree_page_gdpr:I
 
     invoke-virtual {p0, v1}, Lpdb;->T(I)Ljava/lang/String;
 

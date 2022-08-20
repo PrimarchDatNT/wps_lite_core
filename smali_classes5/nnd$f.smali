@@ -32,7 +32,7 @@
     .line 2
     iput-object p2, p0, Lnnd$f;->l0:Landroid/view/View;
 
-    const p1, 0x7f0b2292
+    sget p1, Lcom/resouce/module/ResID;->ppt_anim_text_name:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Lnnd$f;->k0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2293
+    sget p1, Lcom/resouce/module/ResID;->ppt_anim_text_type:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.scan.model.gallery.SizeChangeImageView android:id="@id/preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
-    <CheckBox android:layout_gravity="end|bottom|center" android:id="@id/selected_pic_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/public_select_pic_checkbox_size" android:layout_height="@dimen/public_select_pic_checkbox_size" android:layout_margin="8.0dip" android:button="@drawable/word_merge_pages_checkbox_selector" />
-</FrameLayout>

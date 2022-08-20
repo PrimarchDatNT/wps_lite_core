@@ -105,7 +105,7 @@
     .line 7
     iput-object p3, p0, Leasypay/actions/NBHelper;->activity:Landroid/app/Activity;
 
-    const p1, 0x7f0b0376
+    sget p1, Lcom/resouce/module/ResID;->cb_nb_userId:I
 
     .line 8
     invoke-virtual {p3, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

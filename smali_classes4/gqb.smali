@@ -3210,7 +3210,7 @@
 
     move-result v0
 
-    const v3, 0x7f122546
+    sget v3, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     if-nez v0, :cond_1
 
@@ -3445,7 +3445,7 @@
     .line 24
     iget-object v0, v7, Lgqb;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122759
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -593,7 +593,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a82
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_battery_top_height:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -602,7 +602,7 @@
 
     iput v1, p0, Lq8c;->X:I
 
-    const v1, 0x7f070a83
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_battery_top_width:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -611,7 +611,7 @@
 
     iput v1, p0, Lq8c;->Y:I
 
-    const v1, 0x7f070a80
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_battery_height:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -629,7 +629,7 @@
 
     iput v1, p0, Lq8c;->Z:I
 
-    const v1, 0x7f070a84
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_battery_width:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -638,7 +638,7 @@
 
     iput v1, p0, Lq8c;->a0:I
 
-    const v1, 0x7f070a81
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_battery_padding:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

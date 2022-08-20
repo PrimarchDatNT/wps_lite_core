@@ -155,7 +155,7 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    const v3, 0x7f0e0f96
+    sget v3, Lcom/resouce/module/ResLAYOUT;->table_autocomplete_dropdown_item:I
 
     invoke-direct {v0, v1, v3, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -299,7 +299,7 @@
     .line 1
     iget-object p2, p0, Lo2l;->T:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e09da
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_quick_table_item:I
 
     const/4 v1, 0x0
 

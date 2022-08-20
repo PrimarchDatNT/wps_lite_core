@@ -79,7 +79,7 @@
 
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121771
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12176d
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -111,7 +111,7 @@
 
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121769
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

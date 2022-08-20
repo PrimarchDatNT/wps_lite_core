@@ -91,7 +91,7 @@
 
     invoke-direct {p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f0b0f52
+    sget p2, Lcom/resouce/module/ResID;->group_member_add_btn_avator:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->setId(I)V

@@ -15,12 +15,12 @@
 
     if-eqz p2, :cond_0
 
-    const v0, 0x7f13012f
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     :goto_0

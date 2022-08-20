@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080f06
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_comp_radio_ios_checked:I
 
     invoke-static {v0, v1}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -212,12 +212,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e03e0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_popup_sort:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e036e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_pad_wps_drive_popup_sort_radio:I
 
     :goto_0
     const/4 v2, 0x1
@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b07cc
+    sget v1, Lcom/resouce/module/ResID;->drive_sort_time:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -237,7 +237,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/cloud/drive/common/CompatSortListComponent;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b07ca
+    sget v1, Lcom/resouce/module/ResID;->drive_sort_name:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/cloud/drive/common/CompatSortListComponent;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b07cb
+    sget v1, Lcom/resouce/module/ResID;->drive_sort_size:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

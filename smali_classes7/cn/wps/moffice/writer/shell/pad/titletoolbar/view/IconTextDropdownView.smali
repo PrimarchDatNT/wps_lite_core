@@ -45,13 +45,13 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e10b8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_pad_icon_drop_down_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p3, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p3, 0x7f0b3601
+    sget p3, Lcom/resouce/module/ResID;->writer_pad_drop_down_root:I
 
     .line 5
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
     .line 6
     invoke-virtual {p3, v0}, Lcn/wps/moffice/common/beans/phone/AlphaLinearLayout;->setPressAlphaEnabled(Z)V
 
-    const p3, 0x7f0b35ff
+    sget p3, Lcom/resouce/module/ResID;->writer_pad_drop_down_icon:I
 
     .line 7
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
     .line 8
     iput-boolean v0, p3, Lcn/wpsx/support/ui/KNormalImageView;->I:Z
 
-    const p3, 0x7f0b3600
+    sget p3, Lcom/resouce/module/ResID;->writer_pad_drop_down_img:I
 
     .line 9
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object p3, p0, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/IconTextDropdownView;->I:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b3602
+    sget p3, Lcom/resouce/module/ResID;->writer_pad_drop_down_text:I
 
     .line 10
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

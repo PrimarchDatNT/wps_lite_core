@@ -64,7 +64,7 @@
 
     new-array v5, v0, [I
 
-    const v6, 0x7f040495
+    sget v6, Lcom/resouce/module/ResATTR;->pressAlphaEnableWhenRipple:I
 
     aput v6, v5, v3
 
@@ -86,7 +86,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f04029c
+    sget v8, Lcom/resouce/module/ResATTR;->image_filter:I
 
     aput v8, v7, v3
 
@@ -100,7 +100,7 @@
 
     new-array v7, v0, [I
 
-    const v9, 0x7f040046
+    sget v9, Lcom/resouce/module/ResATTR;->ap_processWidth:I
 
     aput v9, v7, v3
 
@@ -200,7 +200,7 @@
 
     new-array v11, v0, [I
 
-    const v12, 0x7f0403f1
+    sget v12, Lcom/resouce/module/ResATTR;->max_height:I
 
     aput v12, v11, v3
 
@@ -208,7 +208,7 @@
 
     new-array v11, v0, [I
 
-    const v12, 0x7f0406d2
+    sget v12, Lcom/resouce/module/ResATTR;->wh_ration:I
 
     aput v12, v11, v3
 
@@ -216,7 +216,7 @@
 
     new-array v11, v0, [I
 
-    const v12, 0x7f0400e5
+    sget v12, Lcom/resouce/module/ResATTR;->childInnerMargin:I
 
     aput v12, v11, v3
 
@@ -256,7 +256,7 @@
 
     new-array v12, v0, [I
 
-    const v13, 0x7f040097
+    sget v13, Lcom/resouce/module/ResATTR;->bezier_round_rect_radius:I
 
     aput v13, v12, v3
 
@@ -278,7 +278,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0402d0
+    sget v14, Lcom/resouce/module/ResATTR;->itemHorizontalTranslationEnabled:I
 
     aput v14, v13, v3
 
@@ -286,7 +286,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0401fc
+    sget v14, Lcom/resouce/module/ResATTR;->enableLine:I
 
     aput v14, v13, v3
 
@@ -302,7 +302,7 @@
 
     new-array v14, v0, [I
 
-    const v15, 0x7f04065d
+    sget v15, Lcom/resouce/module/ResATTR;->themeColor:I
 
     aput v15, v14, v3
 
@@ -316,7 +316,7 @@
 
     new-array v14, v0, [I
 
-    const v15, 0x7f040036
+    sget v15, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v15, v14, v3
 
@@ -422,7 +422,7 @@
 
     new-array v12, v0, [I
 
-    const v16, 0x7f040121
+    sget v16, Lcom/resouce/module/ResATTR;->cloudToolbarTitle:I
 
     aput v16, v12, v3
 
@@ -458,7 +458,7 @@
 
     new-array v10, v0, [I
 
-    const v17, 0x7f04029e
+    sget v17, Lcom/resouce/module/ResATTR;->image_selector_color:I
 
     aput v17, v10, v3
 
@@ -478,7 +478,7 @@
 
     new-array v10, v0, [I
 
-    const v17, 0x7f0402ca
+    sget v17, Lcom/resouce/module/ResATTR;->is_pen_color:I
 
     aput v17, v10, v3
 
@@ -486,7 +486,7 @@
 
     new-array v10, v0, [I
 
-    const v17, 0x7f0402c9
+    sget v17, Lcom/resouce/module/ResATTR;->is_pen:I
 
     aput v17, v10, v3
 
@@ -670,7 +670,7 @@
 
     new-array v8, v0, [I
 
-    const v18, 0x7f0405cf
+    sget v18, Lcom/resouce/module/ResATTR;->sub_view_layout:I
 
     aput v18, v8, v3
 
@@ -684,7 +684,7 @@
 
     new-array v8, v0, [I
 
-    const v18, 0x7f04008c
+    sget v18, Lcom/resouce/module/ResATTR;->behavior_autoHide:I
 
     aput v18, v8, v3
 
@@ -760,7 +760,7 @@
 
     new-array v14, v0, [I
 
-    const v19, 0x7f040142
+    sget v19, Lcom/resouce/module/ResATTR;->color_icon_resource:I
 
     aput v19, v14, v3
 
@@ -828,7 +828,7 @@
 
     new-array v14, v0, [I
 
-    const v19, 0x7f040313
+    sget v19, Lcom/resouce/module/ResATTR;->kmui_colorfilter_type:I
 
     aput v19, v14, v3
 
@@ -916,7 +916,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f04029c
+    sget v14, Lcom/resouce/module/ResATTR;->image_filter:I
 
     aput v14, v13, v3
 
@@ -924,7 +924,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f040197
+    sget v14, Lcom/resouce/module/ResATTR;->customLayout:I
 
     aput v14, v13, v3
 
@@ -940,7 +940,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f040391
+    sget v14, Lcom/resouce/module/ResATTR;->lineMargin:I
 
     aput v14, v13, v3
 
@@ -966,7 +966,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f040689
+    sget v14, Lcom/resouce/module/ResATTR;->title_text:I
 
     aput v14, v13, v3
 
@@ -1178,7 +1178,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0401a4
+    sget v14, Lcom/resouce/module/ResATTR;->degreeType:I
 
     aput v14, v13, v3
 
@@ -1234,7 +1234,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f040463
+    sget v14, Lcom/resouce/module/ResATTR;->padCustomLayout:I
 
     aput v14, v13, v3
 
@@ -1242,7 +1242,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0403a9
+    sget v14, Lcom/resouce/module/ResATTR;->loading_view_layout:I
 
     aput v14, v13, v3
 
@@ -1264,7 +1264,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0405b6
+    sget v14, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v14, v13, v3
 
@@ -1284,7 +1284,7 @@
 
     new-array v13, v0, [I
 
-    const v14, 0x7f0404ac
+    sget v14, Lcom/resouce/module/ResATTR;->ptr_from:I
 
     aput v14, v13, v3
 
@@ -1384,7 +1384,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f0404ed
+    sget v13, Lcom/resouce/module/ResATTR;->round_rect_radius:I
 
     aput v13, v10, v3
 
@@ -1392,7 +1392,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f0402ba
+    sget v13, Lcom/resouce/module/ResATTR;->insetForeground:I
 
     aput v13, v10, v3
 
@@ -1400,7 +1400,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f040254
+    sget v13, Lcom/resouce/module/ResATTR;->forceFooterAtBottom:I
 
     aput v13, v10, v3
 
@@ -1414,7 +1414,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f040093
+    sget v13, Lcom/resouce/module/ResATTR;->behavior_overlapTop:I
 
     aput v13, v10, v3
 
@@ -1430,7 +1430,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f0406b6
+    sget v13, Lcom/resouce/module/ResATTR;->use_default_color_bg:I
 
     aput v13, v10, v3
 
@@ -1438,7 +1438,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f040495
+    sget v13, Lcom/resouce/module/ResATTR;->pressAlphaEnableWhenRipple:I
 
     aput v13, v10, v3
 
@@ -1540,7 +1540,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f04055d
+    sget v13, Lcom/resouce/module/ResATTR;->sprintId:I
 
     aput v13, v10, v3
 
@@ -1568,7 +1568,7 @@
 
     new-array v10, v0, [I
 
-    const v13, 0x7f0401a3
+    sget v13, Lcom/resouce/module/ResATTR;->defaultState:I
 
     aput v13, v10, v3
 
@@ -1606,7 +1606,7 @@
 
     new-array v8, v0, [I
 
-    const v10, 0x7f0406b5
+    sget v10, Lcom/resouce/module/ResATTR;->useMaterialThemeColors:I
 
     aput v10, v8, v3
 
@@ -1640,7 +1640,7 @@
 
     new-array v8, v0, [I
 
-    const v10, 0x7f0402e8
+    sget v10, Lcom/resouce/module/ResATTR;->item_layout:I
 
     aput v10, v8, v3
 
@@ -1656,7 +1656,7 @@
 
     new-array v8, v0, [I
 
-    const v10, 0x7f04064b
+    sget v10, Lcom/resouce/module/ResATTR;->textInputLayoutFocusedRectEnabled:I
 
     aput v10, v8, v3
 
@@ -1684,7 +1684,7 @@
 
     new-array v8, v0, [I
 
-    const v10, 0x7f040485
+    sget v10, Lcom/resouce/module/ResATTR;->play_mode:I
 
     aput v10, v8, v3
 
@@ -1794,7 +1794,7 @@
 
     new-array v1, v0, [I
 
-    const v5, 0x7f040197
+    sget v5, Lcom/resouce/module/ResATTR;->customLayout:I
 
     aput v5, v1, v3
 
@@ -1840,7 +1840,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f0404eb
+    sget v1, Lcom/resouce/module/ResATTR;->round_image_radius:I
 
     aput v1, v0, v3
 

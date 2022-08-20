@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e102e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_tool_panel_chart_style_item:I
 
     const/4 v2, 0x0
 
@@ -149,7 +149,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060657
+    sget p2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -185,7 +185,7 @@
 .method public b(Landroid/view/ViewGroup;)Lcn/wps/moffice/spreadsheet/control/chart/CacheImageView;
     .locals 1
 
-    const v0, 0x7f0b3052
+    sget v0, Lcom/resouce/module/ResID;->tool_panel_chart_item:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

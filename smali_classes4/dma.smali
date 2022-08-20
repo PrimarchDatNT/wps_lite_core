@@ -155,7 +155,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    const v0, 0x7f1205ee
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     packed-switch v2, :pswitch_data_0
 

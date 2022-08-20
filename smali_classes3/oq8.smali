@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03a8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_settings_layout_banner_actitem:I
 
     const/4 v2, 0x0
 

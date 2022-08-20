@@ -72,7 +72,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e06ee
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_create_group_tip:I
 
     const/4 v5, 0x0
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v7, 0x7f07066b
+    sget v7, Lcom/resouce/module/ResDIMEN;->phone_home_clouddocs_setting_new_group_tip_offsety:I
 
     invoke-virtual {v0, v7}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

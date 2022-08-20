@@ -223,7 +223,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e02ed
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_cloudstorage_addwebdavftp_dialog_autocomplete_item:I
 
     invoke-direct {p1, v1, v2, v0}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0b14
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_num_area:I
 
     if-ne p1, v0, :cond_4
 
@@ -58,7 +58,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0b15
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_num_radio:I
 
     if-eq p1, v0, :cond_0
 
@@ -141,7 +141,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1226eb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_page_num:I
 
     invoke-virtual {p1, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lzig$m$a;
 
@@ -256,7 +256,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lzig$m$b;
 

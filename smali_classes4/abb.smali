@@ -234,7 +234,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120606
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -377,7 +377,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122975
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_from_wps_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122977
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_from_wps_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2073,7 +2073,7 @@
     .line 9
     invoke-virtual {v2}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p1, 0x7f122950
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 10
     invoke-virtual {v2, p1}, Lhd3;->setTitleById(I)Lhd3;

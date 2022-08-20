@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0fda
+    sget p2, Lcom/resouce/module/ResLAYOUT;->transfer_item_layout_view:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -96,7 +96,7 @@
 .method public final a()V
     .locals 1
 
-    const v0, 0x7f0b30a9
+    sget v0, Lcom/resouce/module/ResID;->transfer_item_des_tv:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b30aa
+    sget v0, Lcom/resouce/module/ResID;->transfer_item_icon_iv:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

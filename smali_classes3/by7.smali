@@ -83,7 +83,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -341,7 +341,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0392
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_confirm_phone_page:I
 
     const/4 v2, 0x0
 
@@ -351,7 +351,7 @@
 
     iput-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
     .line 4
     iget-object v0, p0, Lby7;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -388,7 +388,7 @@
     .line 6
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b113b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
     .line 7
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b113f
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 8
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1142
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_verify_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
     .line 9
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1093
+    sget v1, Lcom/resouce/module/ResID;->home_login_verify_phone_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -436,7 +436,7 @@
     .line 10
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b113a
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_phone_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
     .line 11
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b113e
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_resend:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -462,7 +462,7 @@
     .line 12
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b112f
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_error:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -475,7 +475,7 @@
     .line 13
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1134
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_input_code:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
     .line 14
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b112e
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_enable_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
     .line 15
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1092
+    sget v1, Lcom/resouce/module/ResID;->home_login_to_third_verify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -514,7 +514,7 @@
     .line 16
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1095
+    sget v1, Lcom/resouce/module/ResID;->home_login_verify_third_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
     .line 17
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1094
+    sget v1, Lcom/resouce/module/ResID;->home_login_verify_qq:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -536,7 +536,7 @@
     .line 18
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1097
+    sget v1, Lcom/resouce/module/ResID;->home_login_verify_weixin_subscribe:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -547,7 +547,7 @@
     .line 19
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1096
+    sget v1, Lcom/resouce/module/ResID;->home_login_verify_weixin:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -558,7 +558,7 @@
     .line 20
     iget-object v0, p0, Lby7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1091
+    sget v1, Lcom/resouce/module/ResID;->home_login_to_phone_verify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -571,7 +571,7 @@
     .line 21
     iget-object v0, p0, Lby7;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f122456
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_input_verify_code:I
 
     .line 22
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -776,7 +776,7 @@
     .line 6
     iget-object p1, p0, Lby7;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f122b9d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -813,7 +813,7 @@
     .line 12
     iget-object p1, p0, Lby7;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f122b9e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_wechat_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -846,7 +846,7 @@
     .line 17
     iget-object p1, p0, Lby7;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f122b95
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_by_more:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -870,7 +870,7 @@
     .line 20
     iget-object p1, p0, Lby7;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f122b96
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_by_phone:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -913,14 +913,14 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
     return-void
 
     :cond_1
-    const v0, 0x7f122b9b    # 1.942937E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_fail:I    # 1.942937E38f
 
     .line 4
     iget-object v2, p0, Lby7;->u0:Ljava/lang/String;
@@ -978,7 +978,7 @@
 
     if-eqz v1, :cond_4
 
-    const v0, 0x7f122b9a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_code_error:I
 
     .line 8
     iget-object p1, p0, Lby7;->a0:Landroid/widget/EditText;
@@ -997,7 +997,7 @@
 
     if-eqz v1, :cond_5
 
-    const v0, 0x7f122483
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_verify_sms_limit_reached:I
 
     goto :goto_2
 
@@ -1011,7 +1011,7 @@
 
     if-eqz p1, :cond_6
 
-    const v0, 0x7f121d2c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_api_rate_limit:I
 
     .line 11
     :cond_6
@@ -1037,7 +1037,7 @@
     .line 13
     iget-object p1, p0, Lby7;->t0:Landroid/app/Activity;
 
-    const v0, 0x7f122b9c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_no_bind:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1114,7 +1114,7 @@
     .line 5
     iget-object v0, p0, Lby7;->V:Landroid/widget/TextView;
 
-    const v2, 0x7f122b9d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_verify_title:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1130,7 +1130,7 @@
     .line 7
     iget-object v0, p0, Lby7;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f122b95
+    sget v1, Lcom/resouce/module/ResSTRING;->public_verify_by_more:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1152,7 +1152,7 @@
     .line 10
     iget-object v0, p0, Lby7;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f122b97
+    sget v1, Lcom/resouce/module/ResSTRING;->public_verify_by_qq:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1171,7 +1171,7 @@
     .line 12
     iget-object v0, p0, Lby7;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f122b98
+    sget v1, Lcom/resouce/module/ResSTRING;->public_verify_by_wechat:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1223,7 +1223,7 @@
 
     const-string v1, "phone"
 
-    const v2, 0x7f0b112e
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_enable_button:I
 
     if-ne v0, v2, :cond_0
 
@@ -1259,7 +1259,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v2, 0x7f0b113e
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_resend:I
 
     if-ne v0, v2, :cond_2
 
@@ -1294,7 +1294,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v2, 0x7f0b1134
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_input_code:I
 
     if-ne v0, v2, :cond_3
 
@@ -1304,7 +1304,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v2, 0x7f0b301f
+    sget v2, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne v0, v2, :cond_4
 
@@ -1314,7 +1314,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v2, 0x7f0b1094
+    sget v2, Lcom/resouce/module/ResID;->home_login_verify_qq:I
 
     const-string v3, "qq"
 
@@ -1333,7 +1333,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v2, 0x7f0b1096
+    sget v2, Lcom/resouce/module/ResID;->home_login_verify_weixin:I
 
     const-string v4, "wechat"
 
@@ -1352,7 +1352,7 @@
     goto :goto_0
 
     :cond_6
-    const v2, 0x7f0b1097
+    sget v2, Lcom/resouce/module/ResID;->home_login_verify_weixin_subscribe:I
 
     if-ne v0, v2, :cond_7
 
@@ -1366,11 +1366,11 @@
     goto :goto_0
 
     :cond_7
-    const v2, 0x7f0b1091
+    sget v2, Lcom/resouce/module/ResID;->home_login_to_phone_verify:I
 
     if-eq v0, v2, :cond_8
 
-    const v2, 0x7f0b1092
+    sget v2, Lcom/resouce/module/ResID;->home_login_to_third_verify:I
 
     if-ne v0, v2, :cond_c
 

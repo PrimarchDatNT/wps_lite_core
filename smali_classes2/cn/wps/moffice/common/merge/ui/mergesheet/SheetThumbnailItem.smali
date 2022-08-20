@@ -90,11 +90,11 @@
     .line 7
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
-    const v3, 0x7f06050f
+    sget v3, Lcom/resouce/module/ResCOLOR;->progressTrackColor:I
 
     const/16 v4, 0x17
 
@@ -239,7 +239,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0707b3
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_message_fontsize:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

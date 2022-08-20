@@ -27,7 +27,7 @@
 .method public s()I
     .locals 1
 
-    const v0, 0x7f0e0302
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_share_special_item:I
 
     return v0
 .end method
@@ -71,14 +71,14 @@
     .line 4
     iget-object v0, p0, Lu97;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f121256
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 5
     iget-object v0, p0, Lu97;->g0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c03
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_group:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

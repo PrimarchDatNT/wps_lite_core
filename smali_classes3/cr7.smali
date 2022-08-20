@@ -24,7 +24,7 @@
     .line 1
     invoke-direct {p0, p1}, Lbr7;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b0c03
+    sget v0, Lcom/resouce/module/ResID;->expiredTimeText:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -35,7 +35,7 @@
 
     iput-object v0, p0, Lcr7;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10b7
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_foreign_member_coin_image:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcr7;->C:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b005f
+    sget v0, Lcom/resouce/module/ResID;->accountTopView:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lcr7;->D:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b10b0
+    sget v0, Lcom/resouce/module/ResID;->home_my_user_go_member_ll:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object v0, p0, Lcr7;->E:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b24c2
+    sget v0, Lcom/resouce/module/ResID;->premiumView:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -91,11 +91,11 @@
     :cond_0
     iget-object v0, p0, Lcr7;->E:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0805c3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_premium_btn_red_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
-    const v0, 0x7f0b10b1
+    sget v0, Lcom/resouce/module/ResID;->home_my_user_go_member_text:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601fa
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_pay_member_main_color:I
 
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601fb
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_pay_member_main_color_alpha:I
 
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -294,7 +294,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12208f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_expire_time:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -367,7 +367,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1226a5
+    sget p2, Lcom/resouce/module/ResSTRING;->public_premium_renew:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -418,7 +418,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121c8e
+    sget p2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

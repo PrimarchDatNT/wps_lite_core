@@ -287,7 +287,7 @@
     :goto_0
     packed-switch v0, :pswitch_data_0
 
-    const v6, 0x7f120066
+    sget v6, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_activity_description:I
 
     const-string v3, "\u6d3b\u52a8\u901a\u77e5"
 
@@ -307,7 +307,7 @@
     return-object p1
 
     :pswitch_0
-    const v5, 0x7f120069
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_importance_description:I
 
     const-string v2, "\u91cd\u8981\u901a\u77e5"
 
@@ -327,7 +327,7 @@
     return-object p1
 
     :pswitch_1
-    const p2, 0x7f120068
+    sget p2, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_community_description:I
 
     .line 6
     invoke-virtual {p0, p1, p3, p4, p2}, Lp83;->d(Landroid/content/Context;ZLg93;I)Landroid/app/Notification$Builder;
@@ -337,7 +337,7 @@
     return-object p1
 
     :pswitch_2
-    const v5, 0x7f120066
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_activity_description:I
 
     const-string v2, "\u6d3b\u52a8\u901a\u77e5"
 
@@ -357,7 +357,7 @@
     return-object p1
 
     :pswitch_3
-    const v5, 0x7f120067
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_add_value_description:I
 
     const-string v2, "\u589e\u503c\u670d\u52a1"
 
@@ -418,7 +418,7 @@
     return-object p1
 
     :cond_0
-    const p2, 0x7f120067
+    sget p2, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_add_value_description:I
 
     .line 2
     invoke-static {p1, p5, p3, p2}, Le93;->e(Landroid/content/Context;Ljava/lang/String;ZI)Landroid/app/Notification$Builder;
@@ -451,7 +451,7 @@
     return-object p1
 
     :cond_0
-    const p2, 0x7f120069
+    sget p2, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_importance_description:I
 
     .line 2
     invoke-static {p1, p5, p3, p2}, Le93;->e(Landroid/content/Context;Ljava/lang/String;ZI)Landroid/app/Notification$Builder;
@@ -484,7 +484,7 @@
     return-object p1
 
     :cond_0
-    const p3, 0x7f120068
+    sget p3, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_community_description:I
 
     .line 2
     invoke-static {p1, v0, p2, p3}, Le93;->e(Landroid/content/Context;Ljava/lang/String;ZI)Landroid/app/Notification$Builder;
@@ -517,7 +517,7 @@
     return-object p1
 
     :cond_0
-    const p2, 0x7f120066
+    sget p2, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_activity_description:I
 
     .line 2
     invoke-static {p1, p5, p3, p2}, Le93;->e(Landroid/content/Context;Ljava/lang/String;ZI)Landroid/app/Notification$Builder;
@@ -534,7 +534,7 @@
 
     const/4 v3, 0x1
 
-    const v5, 0x7f120069
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_importance_description:I
 
     move-object v0, p0
 
@@ -549,7 +549,7 @@
 
     const/4 v9, 0x1
 
-    const v11, 0x7f120066
+    sget v11, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_activity_description:I
 
     move-object v6, p0
 
@@ -562,14 +562,14 @@
 
     const-string v2, "\u589e\u503c\u670d\u52a1"
 
-    const v5, 0x7f120067
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_add_value_description:I
 
     .line 3
     invoke-virtual/range {v0 .. v5}, Lp83;->b(Landroid/content/Context;Ljava/lang/String;ZLg93;I)Landroid/app/Notification$Builder;
 
     const/4 v0, 0x1
 
-    const v1, 0x7f120068
+    sget v1, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_community_description:I
 
     .line 4
     invoke-virtual {p0, p1, v0, p2, v1}, Lp83;->d(Landroid/content/Context;ZLg93;I)Landroid/app/Notification$Builder;

@@ -115,7 +115,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12112e
+    sget v4, Lcom/resouce/module/ResSTRING;->home_roaming_tips_space_usage_percentage:I
 
     new-array v5, v3, [Ljava/lang/Object;
 

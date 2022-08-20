@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dca
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_space_docer_layout:I
 
     const/4 v2, 0x0
 
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lbo5;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0379
+    sget v1, Lcom/resouce/module/ResID;->cb_space_notice:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 5
     iget-object v0, p0, Lbo5;->U:Landroid/view/View;
 
-    const v1, 0x7f0b3134
+    sget v1, Lcom/resouce/module/ResID;->tv_content_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
     .line 6
     iget-object v1, p0, Lbo5;->U:Landroid/view/View;
 
-    const v2, 0x7f0b3135
+    sget v2, Lcom/resouce/module/ResID;->tv_content_space_tips:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -166,7 +166,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12052e
+    sget v3, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_space_content_super:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12052b
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -230,7 +230,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122598
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_docer_vip:I
 
     .line 5
     new-instance v1, Lbo5$b;
@@ -240,7 +240,7 @@
     invoke-virtual {p0, v0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_0
-    const v0, 0x7f120530
+    sget v0, Lcom/resouce/module/ResSTRING;->docer_resource_cloud_tips_download_continue:I
 
     .line 6
     new-instance v1, Lbo5$c;

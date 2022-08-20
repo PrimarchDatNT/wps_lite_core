@@ -65,7 +65,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/fanyi/view/TranslationView;->j0:Landroid/content/Context;
 
-    const v1, 0x7f120cdc
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_fileformat_error:I
 
     const/4 v2, 0x1
 

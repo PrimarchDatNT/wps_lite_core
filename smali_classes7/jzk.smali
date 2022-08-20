@@ -148,7 +148,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0129
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_save_banner:I
 
     const/4 v2, 0x0
 
@@ -169,7 +169,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b072d
+    sget v3, Lcom/resouce/module/ResID;->doc_scan_save:I
 
     if-nez v2, :cond_1
 
@@ -350,11 +350,11 @@
 
     invoke-virtual {v0, v3, v1, v2}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f08076c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic2text:I
 
-    const v2, 0x7f12046f
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v3, 0x7f12043d
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     const/4 v4, 0x1
 
@@ -744,13 +744,13 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f080742
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v4, 0x7f06019d
+    sget v4, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v5, 0x7f12046f
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v6, 0x7f12043d
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     .line 7
     invoke-static {v3, v4, v5, v6, v2}, Lcib;->h(IIII[Lcib$b;)Lcib;

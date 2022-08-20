@@ -69,7 +69,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f1202b5
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_setting_banner_super_member_desc:I
 
     new-array v3, v5, [Ljava/lang/Object;
 
@@ -83,7 +83,7 @@
     return-object p0
 
     :cond_1
-    const v1, 0x7f1202b6
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_setting_banner_wps_member_desc:I
 
     new-array v2, v5, [Ljava/lang/Object;
 
@@ -112,7 +112,7 @@
     return-object p0
 
     :cond_0
-    const v0, 0x7f1202b2
+    sget v0, Lcom/resouce/module/ResSTRING;->cloud_setting_banner_member_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

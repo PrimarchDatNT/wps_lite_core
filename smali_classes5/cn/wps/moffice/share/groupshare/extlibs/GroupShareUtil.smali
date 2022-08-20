@@ -1005,7 +1005,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12227d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_cloud_group_count_limit:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1021,7 +1021,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1065,7 +1065,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1206,7 +1206,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1222ea
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_multi_share_max_space_limit:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1488,7 +1488,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0d1b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_new_group_guide_dialog_view:I
 
     const/4 v3, 0x0
 
@@ -1556,7 +1556,7 @@
 
     invoke-direct {p1, p0, v0, p2}, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$e0;-><init>(Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;Lhd3;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f0b261a
+    sget p2, Lcom/resouce/module/ResID;->public_group_invite_btn:I
 
     .line 13
     invoke-virtual {v1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1565,7 +1565,7 @@
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b261c
+    sget p2, Lcom/resouce/module/ResID;->public_group_invite_later:I
 
     .line 14
     invoke-virtual {v1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2031,7 +2031,7 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f1222e7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_name:I
 
     .line 8
     invoke-virtual {p1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2058,7 +2058,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v6, 0x7f121153
+    sget v6, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {p1, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2101,7 +2101,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2488,7 +2488,7 @@
     :cond_5
     const/4 p3, 0x0
 
-    const p4, 0x7f1205ee
+    sget p4, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 19
     :try_start_0
@@ -2498,7 +2498,7 @@
 
     const-string v4, "android.intent.extra.SUBJECT"
 
-    const v5, 0x7f122950
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 20
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2673,7 +2673,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 5
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -2943,7 +2943,7 @@
     .line 6
     iget-object v7, v0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v8, 0x7f1222e3
+    sget v8, Lcom/resouce/module/ResSTRING;->public_home_multi_share_document_filesize:I
 
     invoke-virtual {v7, v8}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2988,9 +2988,9 @@
     .line 9
     iget-object v11, v0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v13, 0x7f120e94
+    sget v13, Lcom/resouce/module/ResSTRING;->home_clouddocs_buy_membership:I
 
-    const v14, 0x7f060207
+    sget v14, Lcom/resouce/module/ResCOLOR;->home_pay_orange:I
 
     new-instance v15, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$i;
 
@@ -3251,7 +3251,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v1, 0x7f1222e4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_document_max_filesize:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3556,7 +3556,7 @@
 
     :cond_2
     :goto_0
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 
@@ -3651,7 +3651,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1222e5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_multi_share_error_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3765,7 +3765,7 @@
 
     if-ne v7, v6, :cond_3
 
-    const v3, 0x7f0817d7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_wechat_sharefolder_miniprogram_icon:I
 
     move-object v4, v5
 
@@ -4083,7 +4083,7 @@
 
     move-result-object p2
 
-    const v5, 0x7f1222e8
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_name_format:I
 
     .line 7
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -4238,7 +4238,7 @@
 
     invoke-direct {v1, v6}, Labb$j;-><init>(Landroid/app/Activity;)V
 
-    const v6, 0x7f122976
+    sget v6, Lcom/resouce/module/ResSTRING;->public_share_from_wps_cn_pos:I
 
     .line 26
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -4250,7 +4250,7 @@
     .line 27
     invoke-virtual {v1, v11}, Labb$j;->u(Ljava/lang/String;)Labb$j;
 
-    const v6, 0x7f122c40
+    sget v6, Lcom/resouce/module/ResSTRING;->public_wpscloud_share_folder_qq_mini_program_desc:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -4350,7 +4350,7 @@
 
     if-eqz p2, :cond_4
 
-    const v2, 0x7f122c41
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wpscloud_share_folder_qq_text_title:I
 
     .line 46
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -4506,7 +4506,7 @@
 
     invoke-virtual {p2}, Lvg7;->d()V
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 
@@ -4701,7 +4701,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1222ea
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_multi_share_max_space_limit:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4739,7 +4739,7 @@
     .line 17
     iget-object v1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1222ed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_multi_share_space_limit:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4762,7 +4762,7 @@
     .line 20
     iget-object v1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v2, 0x7f120e94
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_buy_membership:I
 
     new-instance v3, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$r;
 
@@ -4997,7 +4997,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const v0, 0x7f1222ef
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_multi_share_upload_tips:I
 
     invoke-virtual {v1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5023,9 +5023,9 @@
 
     move-result-object v2
 
-    const v3, 0x7f122b5e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_upload:I
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     new-instance v5, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$d;
 
@@ -5361,7 +5361,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil;->c:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

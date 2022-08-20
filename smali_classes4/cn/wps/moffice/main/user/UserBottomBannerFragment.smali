@@ -94,7 +94,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e03c3
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_user_bottom_banner_fragment:I
 
     const/4 v0, 0x0
 
@@ -104,7 +104,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/user/UserBottomBannerFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b1d33
+    sget p2, Lcom/resouce/module/ResID;->pay_upgrade_layout:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserBottomBannerFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b1d22
+    sget p2, Lcom/resouce/module/ResID;->pay_detail_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserBottomBannerFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2fba
+    sget p2, Lcom/resouce/module/ResID;->tips_details:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserBottomBannerFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2fcd
+    sget p2, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -584,12 +584,12 @@
 
     if-eqz v2, :cond_1
 
-    const v3, 0x7f1224a3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_member_check_level:I
 
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f120fb1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 4
     :goto_0
@@ -599,7 +599,7 @@
 
     iput-object v3, v1, Lrjb;->e:Ljava/lang/String;
 
-    const v3, 0x7f121106
+    sget v3, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_wps:I
 
     if-eqz v2, :cond_5
 
@@ -614,11 +614,11 @@
 
     const/4 v6, 0x2
 
-    const v7, 0x7f12249f
+    sget v7, Lcom/resouce/module/ResSTRING;->public_me_member_top_middle_vip_tips:I
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f121105
+    sget v2, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_superwps:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -686,7 +686,7 @@
 
     if-eqz v2, :cond_4
 
-    const v2, 0x7f121100
+    sget v2, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_docer:I
 
     .line 14
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -733,7 +733,7 @@
 
     iput-object v2, v1, Lrjb;->c:Ljava/lang/String;
 
-    const v2, 0x7f12249b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_me_member_top_middle_normal_tips:I
 
     .line 20
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1605,7 +1605,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b333c
+    sget v2, Lcom/resouce/module/ResID;->user_top_bg_layout:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1626,7 +1626,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setClipToOutline(Z)V
 
-    const v2, 0x7f0b067b
+    sget v2, Lcom/resouce/module/ResID;->devide_line:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1661,7 +1661,7 @@
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/main/user/UserBottomBannerFragment;->S:Landroid/widget/TextView;
 
-    const v5, 0x7f081345
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_dark_corner:I
 
     if-eqz v0, :cond_2
 
@@ -1675,7 +1675,7 @@
     goto :goto_0
 
     :cond_1
-    const v5, 0x7f081347
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_light_corner:I
 
     .line 11
     :cond_2
@@ -1718,7 +1718,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0604ec
+    sget v5, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     .line 15
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
@@ -1732,14 +1732,14 @@
 
     move-result v5
 
-    const v8, 0x7f060088
+    sget v8, Lcom/resouce/module/ResCOLOR;->color_alpha_20_white:I
 
     .line 17
     invoke-virtual {v2, v8}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v8
 
-    const v9, 0x7f081341
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_member_gray_bg_corner:I
 
     .line 18
     invoke-static {}, Lzq7;->z()Z
@@ -1748,9 +1748,9 @@
 
     if-eqz v10, :cond_5
 
-    const v9, 0x7f0817b8
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_background:I
 
-    const v5, 0x7f0604ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->premiumGoldTextColor:I
 
     .line 19
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
@@ -1767,11 +1767,11 @@
 
     move-result v10
 
-    const v11, 0x7f0606e2
+    sget v11, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eqz v10, :cond_6
 
-    const v5, 0x7f060202
+    sget v5, Lcom/resouce/module/ResCOLOR;->home_pay_member_yellow:I
 
     .line 21
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
@@ -1785,7 +1785,7 @@
 
     const v5, -0x19000001
 
-    const v9, 0x7f0817c3
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip_background:I
 
     goto :goto_2
 
@@ -1797,7 +1797,7 @@
 
     if-eqz v10, :cond_7
 
-    const v5, 0x7f060142
+    sget v5, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     .line 24
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
@@ -1811,7 +1811,7 @@
 
     const v5, -0x33000001    # -1.3421772E8f
 
-    const v9, 0x7f0817a4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_background:I
 
     goto :goto_2
 

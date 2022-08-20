@@ -83,7 +83,7 @@
 
     invoke-direct {v0, v1}, Lrvk;-><init>(Z)V
 
-    const v2, 0x7f0b1c85
+    sget v2, Lcom/resouce/module/ResID;->panel_spellcheck_switch:I
 
     const-string v3, "tool-school-peruse-spellcheck"
 
@@ -94,7 +94,7 @@
 
     invoke-direct {v0, v1}, Lfjl;-><init>(Z)V
 
-    const v2, 0x7f0b2f4b
+    sget v2, Lcom/resouce/module/ResID;->textimageview_nightmode:I
 
     const-string v3, "tool-school-check-nightmode"
 
@@ -105,7 +105,7 @@
 
     invoke-direct {v0, v1}, Lyyk;-><init>(Z)V
 
-    const v2, 0x7f0b2f47
+    sget v2, Lcom/resouce/module/ResID;->textimageview_countwords:I
 
     const-string v3, "tool-school-check-countwords"
 
@@ -116,7 +116,7 @@
 
     invoke-direct {v0, p0}, Lakl$b;-><init>(Lakl;)V
 
-    const v2, 0x7f0b2f14
+    sget v2, Lcom/resouce/module/ResID;->text_export_focus:I
 
     const-string v3, "tool-school-check-export"
 
@@ -131,7 +131,7 @@
 
     invoke-direct {v0, v1, v2}, Lksk;-><init>(ZLksk$a;)V
 
-    const v1, 0x7f0b0d97
+    sget v1, Lcom/resouce/module/ResID;->fit_mobile_view:I
 
     const-string v2, "tool-school-fit-mobile"
 
@@ -142,7 +142,7 @@
 
     invoke-direct {v0}, Ljvk;-><init>()V
 
-    const v1, 0x7f0b1c84
+    sget v1, Lcom/resouce/module/ResID;->panel_school_pen:I
 
     const-string v2, "tool-school-pen"
 
@@ -153,7 +153,7 @@
 
     invoke-direct {v0, p0}, Lakl$d;-><init>(Lakl;)V
 
-    const v1, 0x7f0b2a27
+    sget v1, Lcom/resouce/module/ResID;->school_tool_homework:I
 
     const-string v2, "tool-school-homework"
 
@@ -164,7 +164,7 @@
 
     invoke-direct {v0, p0}, Lakl$e;-><init>(Lakl;)V
 
-    const v1, 0x7f0b2a26
+    sget v1, Lcom/resouce/module/ResID;->school_tool_feature_suggestions:I
 
     const-string v2, "tool-school-suggestions"
 
@@ -200,7 +200,7 @@
     .line 3
     iget-object v0, p0, Lakl;->l0:Landroid/view/View;
 
-    const v2, 0x7f0b2a27
+    sget v2, Lcom/resouce/module/ResID;->school_tool_homework:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -220,7 +220,7 @@
     .line 6
     iget-object v0, p0, Lakl;->l0:Landroid/view/View;
 
-    const v2, 0x7f0b2f14
+    sget v2, Lcom/resouce/module/ResID;->text_export_focus:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -236,7 +236,7 @@
 .method public final T2()V
     .locals 2
 
-    const v0, 0x7f0e1035
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_school_tool:I
 
     const/4 v1, 0x0
 
@@ -258,7 +258,7 @@
 
     iput-object v0, p0, Lakl;->m0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f122e89
+    sget v1, Lcom/resouce/module/ResSTRING;->school_tools_app:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -266,7 +266,7 @@
     .line 4
     iget-object v0, p0, Lakl;->m0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 

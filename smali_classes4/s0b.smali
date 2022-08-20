@@ -80,7 +80,7 @@
     .line 3
     iget-object v0, p0, Ls0b;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e003d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_image_convert_entry:I
 
     const/4 v2, 0x0
 
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Ls0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0302
+    sget v1, Lcom/resouce/module/ResID;->btn_selected_image:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120435
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_image_convert:I
 
     return v0
 .end method

@@ -432,7 +432,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -556,17 +556,17 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080202
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_back:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f080240
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f080255
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_tool:I
 
     .line 3
     :goto_0

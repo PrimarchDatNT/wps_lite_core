@@ -50,7 +50,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0eb8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_wechat_sharefolder_back_guide_layout:I
 
     const/4 v3, 0x0
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1afb
+    sget v1, Lcom/resouce/module/ResID;->ok:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

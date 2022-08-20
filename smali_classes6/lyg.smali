@@ -364,7 +364,7 @@
     .line 1
     iget-object v0, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
     .line 2
     iget-object v1, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v2, 0x7f0b2d03
+    sget v2, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -839,7 +839,7 @@
     .line 23
     iget-object v3, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v4, 0x7f12259f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_open_file_in_error_account:I
 
     .line 24
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

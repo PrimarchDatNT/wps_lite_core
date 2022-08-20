@@ -1106,7 +1106,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialog;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -1245,13 +1245,13 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080729
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_reduce:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f12226a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_app_guide_file_reducing_desc:I
 
     .line 6
     invoke-static {v2, v3, v4, v5, v1}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -1314,11 +1314,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080721
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_file_reduce:I
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v4, 0x7f12226a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_guide_file_reducing_desc:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -1579,12 +1579,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f12215e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_canceling:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122892
+    sget v0, Lcom/resouce/module/ResSTRING;->public_searching_reducible_content:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1729,7 +1729,7 @@
     :cond_4
     iget-object p1, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialog;->a:Landroid/app/Activity;
 
-    const v3, 0x7f122175
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_size_result_title:I
 
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2154,7 +2154,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialog;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121745
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2691,7 +2691,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialog;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122bdc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 v2, 0x0
 

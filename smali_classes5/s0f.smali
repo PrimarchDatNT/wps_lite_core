@@ -279,7 +279,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e042a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->item_reader_v2_normal_content_layout:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0429
+    sget v2, Lcom/resouce/module/ResLAYOUT;->item_reader_v2_default_item_layout:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -346,7 +346,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e040f
+    sget v4, Lcom/resouce/module/ResLAYOUT;->item_end_v2_insert_book:I
 
     invoke-virtual {v3, v4, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

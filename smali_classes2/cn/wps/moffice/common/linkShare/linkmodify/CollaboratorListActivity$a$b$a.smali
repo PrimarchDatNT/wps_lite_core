@@ -42,7 +42,7 @@
 .method public b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1413
+    sget v0, Lcom/resouce/module/ResID;->iv_arrow:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

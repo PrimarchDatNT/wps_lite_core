@@ -200,9 +200,9 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121151
+    sget v0, Lcom/resouce/module/ResSTRING;->home_set_passcode:I
 
-    const v1, 0x7f1228bb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_interrupt_tips:I
 
     .line 3
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/secretfolder/extlibs/SecretFolderActivity$b;

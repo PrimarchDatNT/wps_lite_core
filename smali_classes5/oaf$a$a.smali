@@ -83,7 +83,7 @@
 
     iget-object v2, v2, Loaf$a;->a:Landroid/content/Context;
 
-    const v3, 0x7f122964
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_dropbox_link_subject:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

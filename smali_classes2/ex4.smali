@@ -275,7 +275,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cooperate_member_view_layout:I
 
     const/4 v2, 0x0
 
@@ -285,7 +285,7 @@
 
     iput-object v0, p0, Lex4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b01af
+    sget v1, Lcom/resouce/module/ResID;->avator:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -299,7 +299,7 @@
     .line 4
     iget-object v0, p0, Lex4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b184d
+    sget v1, Lcom/resouce/module/ResID;->member_num:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -642,7 +642,7 @@
     .line 21
     iget-object v0, p0, Lex4;->d:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v1, 0x7f080257
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_user_login:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -670,7 +670,7 @@
 
     iget-object v1, p0, Lex4;->c:Landroid/app/Activity;
 
-    const v3, 0x7f0606e0
+    sget v3, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-static {v1, v3}, Lu6;->d(Landroid/content/Context;I)I
 

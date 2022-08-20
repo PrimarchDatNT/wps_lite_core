@@ -15,7 +15,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/graphics/Point;)V
     .locals 2
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     const/4 v1, 0x1
 
@@ -75,7 +75,7 @@
 .method public W2()I
     .locals 1
 
-    const v0, 0x7f0e0b03
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_abs_dropdown_title_dialog_layout:I
 
     return v0
 .end method
@@ -118,7 +118,7 @@
     .line 1
     iget-object v0, p0, Llw3;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0530
+    sget v1, Lcom/resouce/module/ResID;->container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -103,7 +103,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f120eec
+    sget p3, Lcom/resouce/module/ResSTRING;->home_docs_search_others_documentroam:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -129,7 +129,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f120642
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -260,7 +260,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d8a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_file_select_model_item:I
 
     const/4 v2, 0x0
 
@@ -270,7 +270,7 @@
 
     iput-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c6f
+    sget v0, Lcom/resouce/module/ResID;->fb_bottom_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
     .line 4
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c8a
+    sget v0, Lcom/resouce/module/ResID;->fb_listview_item_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -295,7 +295,7 @@
     .line 5
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c7c
+    sget v0, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -308,7 +308,7 @@
     .line 6
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0d50
+    sget v0, Lcom/resouce/module/ResID;->filelist_item_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 7
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c7d
+    sget v0, Lcom/resouce/module/ResID;->fb_file_last_modified_date_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 8
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c86
+    sget v0, Lcom/resouce/module/ResID;->fb_filesize_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
     .line 9
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c83
+    sget v0, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -360,7 +360,7 @@
     .line 10
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c74
+    sget v0, Lcom/resouce/module/ResID;->fb_doctype_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
     .line 11
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
     .line 12
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c7b
+    sget v0, Lcom/resouce/module/ResID;->fb_file_full_text_match_content_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +401,7 @@
     .line 14
     iget-object p1, p0, Ldj8;->a:Landroid/view/View;
 
-    const v0, 0x7f0b13ac
+    sget v0, Lcom/resouce/module/ResID;->item_content:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -466,7 +466,7 @@
     :cond_0
     iget-object v0, p0, Ldj8;->o:Landroid/app/Activity;
 
-    const v1, 0x7f121745
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v2, 0x0
 
@@ -1011,7 +1011,7 @@
 
     move-result v1
 
-    const v4, 0x7f081fcc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     if-nez v1, :cond_a
 
@@ -1072,7 +1072,7 @@
     :cond_b
     iget-object v0, p0, Ldj8;->c:Lcn/wps/moffice/main/fileselect/multiselect/view/MultiSelectCheckBoxImageView;
 
-    const v1, 0x7f08122b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

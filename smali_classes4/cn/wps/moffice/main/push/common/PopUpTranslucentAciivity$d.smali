@@ -215,7 +215,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity$d;->a:Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;
 
-    const p2, 0x7f0b259f
+    sget p2, Lcom/resouce/module/ResID;->public_common_push_pop_content_view:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -228,7 +228,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0600b1
+    sget p3, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -239,7 +239,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity$d;->a:Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;
 
-    const p2, 0x7f0b26ef
+    sget p2, Lcom/resouce/module/ResID;->public_return_ad_close_parent:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 12
     iget-object p3, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity$d;->a:Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;
 
-    const p4, 0x7f0b26ee
+    sget p4, Lcom/resouce/module/ResID;->public_return_ad_close:I
 
     invoke-virtual {p3, p4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0600a4
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_icon_gray:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -324,7 +324,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -541,7 +541,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1216be
+    sget v1, Lcom/resouce/module/ResSTRING;->pc_install_url2:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -571,7 +571,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1216bd
+    sget v2, Lcom/resouce/module/ResSTRING;->pc_install_url:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

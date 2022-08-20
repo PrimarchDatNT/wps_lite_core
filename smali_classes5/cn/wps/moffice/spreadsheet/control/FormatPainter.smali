@@ -44,15 +44,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080404
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_format_painter:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080dc4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_format_painter_et:I
 
     :goto_0
-    const v2, 0x7f120c71
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_format_painter:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/FormatPainter$4;-><init>(Lcn/wps/moffice/spreadsheet/control/FormatPainter;II)V
 

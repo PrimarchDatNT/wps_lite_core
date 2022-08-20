@@ -756,7 +756,7 @@
     invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setSplashStatus(Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f08151f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pre_splash_bottom:I
 
     .line 8
     invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setHWSplashSlogan(I)V

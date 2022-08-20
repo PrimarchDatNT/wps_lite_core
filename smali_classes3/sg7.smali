@@ -196,7 +196,7 @@
 .method public static d(Landroid/app/Activity;Ljava/lang/Runnable;)V
     .locals 1
 
-    const p1, 0x7f12227e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_cloud_group_count_limit_tips:I
 
     const/4 v0, 0x0
 
@@ -255,7 +255,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f121951
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     .line 4
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -273,7 +273,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121fa0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cs_group_members_limit_tips_2:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -312,14 +312,14 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 10
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -331,7 +331,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance p1, Lsg7$b;
@@ -506,7 +506,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122546
+    sget p1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v0, 0x0
 

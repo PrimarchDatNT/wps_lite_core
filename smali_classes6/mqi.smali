@@ -225,7 +225,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f120c93
+    sget v4, Lcom/resouce/module/ResSTRING;->evernote_user_agent:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -458,7 +458,7 @@
 
     iget-object v1, p0, Lmqi;->B:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -561,14 +561,14 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f1205e7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f1205e8
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_logout_message:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -577,7 +577,7 @@
 
     iget-object v1, p0, Lmqi;->X:Landroid/content/DialogInterface$OnClickListener;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 4
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -586,7 +586,7 @@
 
     iget-object v1, p0, Lmqi;->X:Landroid/content/DialogInterface$OnClickListener;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

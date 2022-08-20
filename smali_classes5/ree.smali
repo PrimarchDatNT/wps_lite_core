@@ -23,7 +23,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v1, 0x0
 
@@ -57,7 +57,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -390,7 +390,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

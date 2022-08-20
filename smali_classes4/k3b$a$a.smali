@@ -51,7 +51,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120cf8
+    sget p2, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1220cf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120cf6
+    sget p2, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1220e2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

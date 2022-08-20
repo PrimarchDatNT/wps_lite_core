@@ -125,7 +125,7 @@
 
     iget-object v0, v0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12123a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_undo_succeed:I
 
     const/4 v2, 0x0
 

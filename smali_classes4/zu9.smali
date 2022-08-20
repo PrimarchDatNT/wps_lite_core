@@ -27,7 +27,7 @@
     .line 2
     iput v0, p0, Lzu9;->e:I
 
-    const v0, 0x7f0b1a3c
+    sget v0, Lcom/resouce/module/ResID;->no_record_viewstub:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lzu9;->a:Landroid/view/View;
 
-    const v1, 0x7f0b202d
+    sget v1, Lcom/resouce/module/ResID;->phone_home_qing_roaming_no_record_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
     .line 5
     iget-object v0, p0, Lzu9;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f12063d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_import_content_nohistory:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

@@ -42,7 +42,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b1ddb
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_bold:I
 
     if-ne v0, v2, :cond_0
 
@@ -77,7 +77,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v2, 0x7f0b1dde
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_increase:I
 
     const/high16 v3, 0x3f800000    # 1.0f
 
@@ -102,7 +102,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v2, 0x7f0b1ddc
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_decrease:I
 
     if-ne v0, v2, :cond_2
 
@@ -127,7 +127,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v2, 0x7f0b1ddf
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_italic:I
 
     if-ne v0, v2, :cond_3
 
@@ -162,7 +162,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b1de0
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_underline:I
 
     if-ne v0, v2, :cond_4
 
@@ -197,7 +197,7 @@
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f0b1ddd
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_delete_line:I
 
     if-ne v0, v2, :cond_5
 
@@ -232,7 +232,7 @@
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f0b0e52
+    sget p1, Lcom/resouce/module/ResID;->font_size:I
 
     if-ne v0, p1, :cond_6
 

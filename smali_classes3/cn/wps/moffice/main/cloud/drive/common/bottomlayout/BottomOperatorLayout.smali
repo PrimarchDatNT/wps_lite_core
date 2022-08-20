@@ -180,7 +180,7 @@
 .method public final b(Landroid/view/View;)Ljava/lang/Object;
     .locals 1
 
-    const v0, 0x7f0b026a
+    sget v0, Lcom/resouce/module/ResID;->bottom_operator_tagid:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -205,7 +205,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -291,7 +291,7 @@
     .line 7
     iput v2, v1, Landroid/widget/LinearLayout$LayoutParams;->weight:F
 
-    const v2, 0x7f0b026a
+    sget v2, Lcom/resouce/module/ResID;->bottom_operator_tagid:I
 
     .line 8
     invoke-virtual {v0, v2, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V

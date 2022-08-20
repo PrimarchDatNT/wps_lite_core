@@ -379,7 +379,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12302e
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add_success:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1549,7 +1549,7 @@
     .line 3
     invoke-virtual {v9, v0}, Lhd3;->setLimitHeight(F)V
 
-    const v0, 0x7f0e0133
+    sget v0, Lcom/resouce/module/ResLAYOUT;->document_ask_add_tag_dialog:I
 
     const/4 v1, 0x0
 
@@ -1562,7 +1562,7 @@
 
     check-cast v12, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b03a5
+    sget v0, Lcom/resouce/module/ResID;->check_box:I
 
     .line 5
     invoke-virtual {v12, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1573,7 +1573,7 @@
 
     check-cast v13, Lcn/wps/moffice/common/beans/CustomCheckBox;
 
-    const v0, 0x7f0b00fd
+    sget v0, Lcom/resouce/module/ResID;->alll_labels_container:I
 
     .line 6
     invoke-virtual {v12, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1584,7 +1584,7 @@
 
     check-cast v3, Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b067f
+    sget v0, Lcom/resouce/module/ResID;->dialog_all_tags:I
 
     .line 7
     invoke-virtual {v12, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1595,7 +1595,7 @@
 
     check-cast v14, Lcn/wps/moffice/common/tag/LabelsLayout;
 
-    const v0, 0x7f0b0279
+    sget v0, Lcom/resouce/module/ResID;->bottom_tag_overlay:I
 
     .line 8
     invoke-virtual {v12, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1606,7 +1606,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b31d6
+    sget v0, Lcom/resouce/module/ResID;->tv_message:I
 
     .line 9
     invoke-virtual {v12, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1615,7 +1615,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b2e8a
+    sget v1, Lcom/resouce/module/ResID;->tag_scrollview:I
 
     .line 10
     invoke-virtual {v12, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1678,7 +1678,7 @@
     .line 16
     invoke-virtual {v3, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v1, 0x7f123033
+    sget v1, Lcom/resouce/module/ResSTRING;->tag_ask_add_dialog_message:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1693,7 +1693,7 @@
     :cond_1
     invoke-virtual {v3, v11}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v1, 0x7f12302d
+    sget v1, Lcom/resouce/module/ResSTRING;->tag_add_on_exit_title:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1740,16 +1740,16 @@
     :goto_1
     if-eqz v6, :cond_2
 
-    const v0, 0x7f12302c
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add_new:I
 
-    const v7, 0x7f12302c
+    sget v7, Lcom/resouce/module/ResSTRING;->tag_add_new:I
 
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f12302b
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add:I
 
-    const v7, 0x7f12302b
+    sget v7, Lcom/resouce/module/ResSTRING;->tag_add:I
 
     .line 23
     :goto_2
@@ -1757,7 +1757,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123032
+    sget v1, Lcom/resouce/module/ResSTRING;->tag_ask_add_dialog_deny:I
 
     new-instance v2, Lj65$i;
 

@@ -32,7 +32,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f09
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_empty_keyword_empty_view:I
 
     const/4 v1, 0x0
 
@@ -42,7 +42,7 @@
 
     iput-object p1, p0, Lj5w;->h:Landroid/view/View;
 
-    const p2, 0x7f0b2f2d
+    sget p2, Lcom/resouce/module/ResID;->text_phone_doc_empty_title:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

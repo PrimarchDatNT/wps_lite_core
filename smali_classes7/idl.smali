@@ -125,7 +125,7 @@
     .line 1
     iget-object p3, p0, Lidl;->B:Landroid/app/Activity;
 
-    const v0, 0x7f1231d9
+    sget v0, Lcom/resouce/module/ResSTRING;->word_extract_onclick_select_mutiline:I
 
     const/4 v1, 0x0
 
@@ -236,7 +236,7 @@
     .line 1
     iget-object p2, p0, Lidl;->I:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e1052
+    sget p3, Lcom/resouce/module/ResLAYOUT;->word_extract_pages_thumb_item:I
 
     const/4 v0, 0x0
 
@@ -763,7 +763,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d8a
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_extract_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

@@ -1422,7 +1422,7 @@
 
     invoke-static {v0}, Lqif;->d(Landroid/app/Activity;)V
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 4
     invoke-virtual {p0, v0}, Llyg;->h(I)Landroid/view/View;
@@ -1436,7 +1436,7 @@
     .line 5
     invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
-    const v0, 0x7f0b2d03
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     .line 6
     invoke-virtual {p0, v0}, Llyg;->h(I)Landroid/view/View;
@@ -1448,7 +1448,7 @@
     .line 7
     new-instance v6, Lwqg;
 
-    const v1, 0x7f0b2d0b
+    sget v1, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
 
@@ -1458,7 +1458,7 @@
 
     invoke-direct {v6, v1}, Lwqg;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/TabsHost;)V
 
-    const v1, 0x7f0b218e
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar:I
 
     .line 8
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
@@ -1470,7 +1470,7 @@
     .line 9
     new-instance v1, Ld0g;
 
-    const v2, 0x7f0b0bd9
+    sget v2, Lcom/resouce/module/ResID;->et_viewstub_keyboard:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -1478,7 +1478,7 @@
 
     check-cast v2, Landroid/view/ViewStub;
 
-    const v3, 0x7f0b33cf
+    sget v3, Lcom/resouce/module/ResID;->viewstub_edit_layout:I
 
     .line 10
     invoke-virtual {p0, v3}, Llyg;->h(I)Landroid/view/View;
@@ -1487,7 +1487,7 @@
 
     check-cast v3, Landroid/view/ViewStub;
 
-    const v4, 0x7f0b09f9
+    sget v4, Lcom/resouce/module/ResID;->et_date_keyboard:I
 
     invoke-virtual {p0, v4}, Llyg;->h(I)Landroid/view/View;
 
@@ -1515,7 +1515,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q1(Lcn/wps/moffice/spreadsheet/control/grid/shell/GridSurfaceView;Lafg;)V
 
-    const v1, 0x7f0b2151
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_main_titlebar_backboard_view_stub:I
 
     .line 13
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
@@ -1536,7 +1536,7 @@
     .line 15
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->i0:Landroid/view/ViewStub;
 
-    const v2, 0x7f0e0fe8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_oversea_backboard_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewStub;->setLayoutResource(I)V
 
@@ -1546,7 +1546,7 @@
 
     iget-object v2, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v3, 0x7f0b33d4
+    sget v3, Lcom/resouce/module/ResID;->viewstub_progressbar:I
 
     invoke-virtual {p0, v3}, Llyg;->h(I)Landroid/view/View;
 
@@ -1558,7 +1558,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->n0:Lukf;
 
-    const v1, 0x7f0b0ab1
+    sget v1, Lcom/resouce/module/ResID;->et_main_top:I
 
     .line 17
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
@@ -1588,7 +1588,7 @@
 
     invoke-virtual {v2, v1}, Lcn/wps/moffice/common/beans/ActivityController;->C2(Lcn/wps/moffice/common/beans/ActivityController$b;)V
 
-    const v1, 0x7f0b212e
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_bottom_root:I
 
     .line 21
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
@@ -1611,7 +1611,7 @@
 
     iget-object v10, p0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->k0:Lcn/wps/moffice/spreadsheet/phone/view/MainTitleBarLayout;
 
-    const v2, 0x7f0b218c
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_titlebar_shadow:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -1630,7 +1630,7 @@
     .line 24
     invoke-virtual {p0, v1}, Llyg;->b(Lcn/wps/moffice/spreadsheet/baseframe/AutoDestroy$a;)V
 
-    const v1, 0x7f0b2187
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_title_bar:I
 
     .line 25
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
@@ -2082,7 +2082,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->l0:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b2155
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_mock_state_bar:I
 
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
 
@@ -2206,7 +2206,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2134
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_bottompanel:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -2319,7 +2319,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b2134
+    sget v4, Lcom/resouce/module/ResID;->phone_ss_bottompanel:I
 
     invoke-virtual {v0, v4}, Llyg;->h(I)Landroid/view/View;
 
@@ -2329,7 +2329,7 @@
 
     invoke-virtual {v3, v4}, Lyyg;->n(Lcn/wps/moffice/spreadsheet/phone/bottompanel/BottomPanelLayout;)V
 
-    const v3, 0x7f0b33cb
+    sget v3, Lcom/resouce/module/ResID;->viewstub_animte_layout:I
 
     .line 7
     invoke-virtual {v0, v3}, Llyg;->h(I)Landroid/view/View;
@@ -2515,7 +2515,7 @@
 
     iget-object v12, v0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->g0:Lcn/wps/moffice/spreadsheet/control/grid/shell/GridSurfaceView;
 
-    const v13, 0x7f0b33d6
+    sget v13, Lcom/resouce/module/ResID;->viewstub_shape_edit_layout:I
 
     invoke-virtual {v0, v13}, Llyg;->h(I)Landroid/view/View;
 
@@ -3273,7 +3273,7 @@
 
     move-object/from16 v49, v10
 
-    const v10, 0x7f0b33d2
+    sget v10, Lcom/resouce/module/ResID;->viewstub_note_edit_layout:I
 
     invoke-virtual {v0, v10}, Llyg;->h(I)Landroid/view/View;
 
@@ -3451,9 +3451,9 @@
     .line 140
     new-instance v8, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup$5;
 
-    const v9, 0x7f08022b
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_common_history:I
 
-    const v11, 0x7f122262
+    sget v11, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     invoke-direct {v8, v0, v9, v11, v6}, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup$5;-><init>(Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;IIZ)V
 
@@ -3515,7 +3515,7 @@
 
     iget-object v14, v0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->o0:Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;
 
-    const v15, 0x7f0b0b73
+    sget v15, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     move-object/from16 v55, v8
 
@@ -4068,7 +4068,7 @@
     .line 215
     iget-object v8, v12, Lcn/wps/moffice/spreadsheet/control/note/Postiler;->B:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;
 
-    const v11, 0x7f121f1e
+    sget v11, Lcom/resouce/module/ResSTRING;->public_comment_edit:I
 
     const-string v13, "et_quickbar_edit_note"
 
@@ -7581,13 +7581,13 @@
 
     iget-object v2, v0, Lcn/wps/moffice/spreadsheet/openflow/PhoneSetup;->o0:Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;
 
-    const v3, 0x7f0b307f
+    sget v3, Lcom/resouce/module/ResID;->top_sheet_padding_part:I
 
     invoke-virtual {v0, v3}, Llyg;->h(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2e5c
+    sget v4, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v0, v4}, Llyg;->h(I)Landroid/view/View;
 
@@ -7719,7 +7719,7 @@
 
     invoke-interface {v2, v1}, Lbif;->d(Lukf;)V
 
-    const v1, 0x7f0b0b73
+    sget v1, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     .line 597
     invoke-virtual {v0, v1}, Llyg;->h(I)Landroid/view/View;

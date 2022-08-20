@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout style="@style/phone_public_bottombar_layout">
-        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/nightmode_tips_info" android:text="@string/writer_night_mode_tips_into" MaxLine="2" style="@style/phone_public_bottombar_tip" />
-        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:id="@id/nightmode_tips_btn" android:text="@string/public_turn_on" style="@style/phone_public_bottombar_tipbtn" />
-    </LinearLayout>
-</FrameLayout>

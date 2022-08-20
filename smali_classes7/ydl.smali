@@ -63,7 +63,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lydl$f;)V
     .locals 3
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -599,7 +599,7 @@
     .line 5
     iget-object v2, p0, Lydl;->Y:Lcn/wps/moffice/common/beans/phone/AlphaButton;
 
-    const v3, 0x7f122551
+    sget v3, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -609,7 +609,7 @@
     :cond_0
     iget-object v2, p0, Lydl;->Y:Lcn/wps/moffice/common/beans/phone/AlphaButton;
 
-    const v3, 0x7f1228d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -617,7 +617,7 @@
     :goto_0
     iget-object v2, p0, Lydl;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121fbd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete_doc_count:I
 
     const/4 v4, 0x1
 
@@ -797,7 +797,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ebc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_word_merge_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -812,7 +812,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b2fdf
+    sget v0, Lcom/resouce/module/ResID;->title_bar_container:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -845,13 +845,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606b3
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v1, 0x7f0b1805
+    sget v1, Lcom/resouce/module/ResID;->main_title_bar:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -860,7 +860,7 @@
 
     iput-object v1, p0, Lydl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b01b2
+    sget v1, Lcom/resouce/module/ResID;->back:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -874,7 +874,7 @@
     .line 10
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0651
+    sget v1, Lcom/resouce/module/ResID;->delete_model_back_btn:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -888,7 +888,7 @@
     .line 12
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b08a3
+    sget v1, Lcom/resouce/module/ResID;->enter_delete_mode_btn:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -902,7 +902,7 @@
     .line 14
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b1806
+    sget v1, Lcom/resouce/module/ResID;->main_title_text:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -914,7 +914,7 @@
     .line 16
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v1, 0x7f0b064f
+    sget v1, Lcom/resouce/module/ResID;->delete_mode_title_bar:I
 
     .line 17
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -923,7 +923,7 @@
 
     iput-object v1, p0, Lydl;->W:Landroid/view/View;
 
-    const v1, 0x7f0b0652
+    sget v1, Lcom/resouce/module/ResID;->delete_model_back_tv:I
 
     .line 18
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -937,7 +937,7 @@
     .line 19
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v1, 0x7f0b0644
+    sget v1, Lcom/resouce/module/ResID;->delete_all_toggle_btn:I
 
     .line 20
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -951,7 +951,7 @@
     .line 21
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setTextColor(I)V
 
-    const v0, 0x7f0b00a9
+    sget v0, Lcom/resouce/module/ResID;->add_file_tips:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -960,7 +960,7 @@
 
     iput-object v0, p0, Lydl;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b0248
+    sget v0, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -969,7 +969,7 @@
 
     iput-object v0, p0, Lydl;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -978,7 +978,7 @@
 
     iput-object v0, p0, Lydl;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b1870
+    sget v0, Lcom/resouce/module/ResID;->merge_btn:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -987,7 +987,7 @@
 
     iput-object v0, p0, Lydl;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b0646
+    sget v0, Lcom/resouce/module/ResID;->delete_confirm_btn:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1013,7 +1013,7 @@
 
     iput-object v0, p0, Lydl;->g0:Lxdl;
 
-    const v0, 0x7f0b187a
+    sget v0, Lcom/resouce/module/ResID;->merge_files_list:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1024,7 +1024,7 @@
 
     iput-object v0, p0, Lydl;->a0:Lcn/wps/moffice/common/beans/DragSortListView;
 
-    const v0, 0x7f0b3462
+    sget v0, Lcom/resouce/module/ResID;->word_merge_sort_desc:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1043,7 +1043,7 @@
     .line 31
     iget-object v0, p0, Lydl;->a0:Lcn/wps/moffice/common/beans/DragSortListView;
 
-    const v1, 0x7f0b1873
+    sget v1, Lcom/resouce/module/ResID;->merge_file_handle:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/DragSortListView;->setDragHandleId(I)V
 
@@ -1058,7 +1058,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01b2
+    sget v0, Lcom/resouce/module/ResID;->back:I
 
     if-ne p1, v0, :cond_0
 
@@ -1068,7 +1068,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b08a3
+    sget v0, Lcom/resouce/module/ResID;->enter_delete_mode_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -1080,7 +1080,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0651
+    sget v0, Lcom/resouce/module/ResID;->delete_model_back_btn:I
 
     if-ne p1, v0, :cond_2
 
@@ -1092,7 +1092,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0644
+    sget v0, Lcom/resouce/module/ResID;->delete_all_toggle_btn:I
 
     if-ne p1, v0, :cond_3
 
@@ -1102,7 +1102,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0646
+    sget v0, Lcom/resouce/module/ResID;->delete_confirm_btn:I
 
     if-ne p1, v0, :cond_4
 
@@ -1112,7 +1112,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     if-ne p1, v0, :cond_5
 
@@ -1122,7 +1122,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b1870
+    sget v0, Lcom/resouce/module/ResID;->merge_btn:I
 
     if-ne p1, v0, :cond_6
 

@@ -44,7 +44,7 @@
 
     iput-object p2, p0, Lv49;->e:Lp49$b;
 
-    const p1, 0x7f0b2abd
+    sget p1, Lcom/resouce/module/ResID;->searchcontent:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

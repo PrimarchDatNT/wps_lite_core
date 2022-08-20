@@ -123,7 +123,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e0b91
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_custom_dialog_enter_ink:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -135,13 +135,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f1215c0
+    sget v2, Lcom/resouce/module/ResSTRING;->pad_writer_pen_dialog_positive_enter:I
 
     const/4 v3, 0x0
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c0b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     .line 4
     invoke-virtual {v0, v1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -262,7 +262,7 @@
 
     invoke-direct {v0}, Lyyl;-><init>()V
 
-    const v1, 0x7f0b35a6
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_function:I
 
     .line 6
     invoke-virtual {v0, v1}, Lyyl;->w(I)V

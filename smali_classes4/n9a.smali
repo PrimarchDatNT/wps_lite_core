@@ -66,12 +66,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e013e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documents_law_info:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e071f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_law_info:I
 
     :goto_0
     const/4 v2, 0x0
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d3b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -89,7 +89,7 @@
 
     invoke-static {v1}, Lie5;->d(Ljava/lang/String;)V
 
-    const v1, 0x7f0b152c
+    sget v1, Lcom/resouce/module/ResID;->law_info:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2524
+    sget v2, Lcom/resouce/module/ResID;->private_policy:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f1213cd
+    sget v2, Lcom/resouce/module/ResSTRING;->miit_law_info_text_oppo:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -155,7 +155,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1213cb
+    sget v7, Lcom/resouce/module/ResSTRING;->miit_law_info_oppo_bold:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -210,7 +210,7 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f1213ce
+    sget v2, Lcom/resouce/module/ResSTRING;->miit_law_info_text_xiaomi:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -244,7 +244,7 @@
 
     if-eqz v2, :cond_4
 
-    const v2, 0x7f1213cf
+    sget v2, Lcom/resouce/module/ResSTRING;->miit_law_info_text_zhongxin:I
 
     .line 17
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -277,7 +277,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1213d0
+    sget v7, Lcom/resouce/module/ResSTRING;->miit_law_info_url_info:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -333,7 +333,7 @@
     .line 28
     invoke-virtual {v1}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v2, 0x7f1205c5
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_law_info_title:I
 
     .line 29
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -350,7 +350,7 @@
     .line 33
     invoke-virtual {v1, v4}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f0b03a1
+    sget v2, Lcom/resouce/module/ResID;->checkBox_flow:I
 
     .line 34
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,14 +365,14 @@
     .line 36
     invoke-virtual {v0, v5}, Landroid/widget/CheckBox;->setChecked(Z)V
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     .line 37
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -385,7 +385,7 @@
     .line 38
     invoke-virtual {v1, v2, p0, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121f13
+    sget p0, Lcom/resouce/module/ResSTRING;->public_collection_notagree:I
 
     .line 39
     new-instance v0, Ln9a$d;

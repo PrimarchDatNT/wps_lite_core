@@ -70,7 +70,7 @@
     .line 1
     iget-object v0, p0, Lwx7;->Z:Landroid/widget/TextView;
 
-    const v1, 0x7f12246a    # 1.9425636E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_safe_verify:I    # 1.9425636E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -102,7 +102,7 @@
     .line 1
     iget-object v0, p0, Lwx7;->Z:Landroid/widget/TextView;
 
-    const v1, 0x7f122487
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_with_phone:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -127,7 +127,7 @@
     .line 1
     iget-object v0, p0, Lvx7;->U:Landroid/app/Activity;
 
-    const v1, 0x7f122421
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 .method public c3()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b0348
+    sget v0, Lcom/resouce/module/ResID;->captchaSmsStub:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 .method public e3()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b2c1c
+    sget v0, Lcom/resouce/module/ResID;->simpleSmsStub:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 .method public f3()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b3366
+    sget v0, Lcom/resouce/module/ResID;->verifySmsStub:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
     .line 2
     iget-object p1, p0, Lvx7;->U:Landroid/app/Activity;
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 p3, 0x0
 
@@ -250,7 +250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ce7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_login_sms_login_dialog:I
 
     const/4 v2, 0x0
 
@@ -258,14 +258,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2c33
+    sget v1, Lcom/resouce/module/ResID;->skipLayout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2a31
+    sget v2, Lcom/resouce/module/ResID;->scrollParent:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
     .line 4
     invoke-virtual {p0, v0, v0, v1, v2}, Lhh3;->V2(Landroid/view/View;Landroid/view/View;Landroid/view/View;Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b053c
+    sget v0, Lcom/resouce/module/ResID;->contentLayout:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b005e
+    sget v0, Lcom/resouce/module/ResID;->accountLoginTextView:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -306,7 +306,7 @@
 
     iput-object v0, p0, Lwx7;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
 
     iput-object v0, p0, Lwx7;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2fd3
+    sget v0, Lcom/resouce/module/ResID;->titleTextView:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     iput-object v0, p0, Lwx7;->Z:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1903
+    sget v0, Lcom/resouce/module/ResID;->msgTextView:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -376,7 +376,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     if-ne p1, v0, :cond_0
 
@@ -391,7 +391,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b005e
+    sget v0, Lcom/resouce/module/ResID;->accountLoginTextView:I
 
     if-ne p1, v0, :cond_1
 

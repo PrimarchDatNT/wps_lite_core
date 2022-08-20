@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/country_region_ll" android:visibility="gone" style="@style/phone_home_setting_group_item_ll"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="30.0dip" android:text="@string/country_region" android:layout_marginStart="16.0dip" android:layout_marginEnd="30.0dip" style="@style/home_membership_m_txt_style" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textColor="@color/secondaryColor" android:ellipsize="end" android:gravity="start|center" android:id="@id/location_country_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:textDirection="ltr" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/home_membership_m_txt_style" />
-    </RelativeLayout>
-</LinearLayout>

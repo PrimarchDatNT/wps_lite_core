@@ -118,7 +118,7 @@
     .line 2
     iget-object v0, p0, Lfn8;->c:Lhd3;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -131,14 +131,14 @@
     .line 5
     iget-object v1, p0, Lfn8;->c:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 6
     iget-object v0, p0, Lfn8;->c:Lhd3;
 
-    const v1, 0x7f12293d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_set_network:I
 
     iget-object v2, p0, Lfn8;->e:Lfn8$c;
 
@@ -161,7 +161,7 @@
     .line 2
     iget-object v0, p0, Lfn8;->d:Lhd3;
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -170,7 +170,7 @@
 
     iget-object v1, p0, Lfn8;->f:Lfn8$c;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -179,7 +179,7 @@
 
     iget-object v1, p0, Lfn8;->f:Lfn8$c;
 
-    const v2, 0x7f122235
+    sget v2, Lcom/resouce/module/ResSTRING;->public_go_on:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

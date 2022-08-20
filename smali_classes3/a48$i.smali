@@ -54,14 +54,14 @@
     .line 2
     iget-object v1, p0, La48$i;->B:Lhd3;
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 3
     iget-object v1, p0, La48$i;->B:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

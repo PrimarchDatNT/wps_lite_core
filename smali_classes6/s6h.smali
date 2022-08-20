@@ -1280,7 +1280,7 @@
     return v2
 
     :cond_0
-    const v3, 0x7f0b0a60
+    sget v3, Lcom/resouce/module/ResID;->et_frameset_dialog_gridview:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1629,7 +1629,7 @@
     return v2
 
     :cond_0
-    const v3, 0x7f0b08c9
+    sget v3, Lcom/resouce/module/ResID;->et_align_dialog_gridview:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

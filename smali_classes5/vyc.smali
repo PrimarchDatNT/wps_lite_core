@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080707
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2fill_form:I
 
-    const v3, 0x7f1217bc
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form_privilege_title:I
 
-    const v4, 0x7f1217bb
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form_privilege_desc:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

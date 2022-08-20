@@ -77,7 +77,7 @@
 
     iget-object v0, v0, Lqm3;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f122231
+    sget v1, Lcom/resouce/module/ResSTRING;->public_geturlfile_no_found:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201d3
+    sget v1, Lcom/resouce/module/ResSTRING;->author_cb:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201d4
+    sget v1, Lcom/resouce/module/ResSTRING;->author_cb_signup:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -442,14 +442,14 @@
     :cond_0
     iget-object v0, p0, Lmy7;->e:Lhd3;
 
-    const v1, 0x7f123096    # 1.9431956E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->template_payment_failed:I    # 1.9431956E38f
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 3
     iget-object v0, p0, Lmy7;->e:Lhd3;
 
-    const v1, 0x7f1206ba
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_timeout:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -479,7 +479,7 @@
 
     iput-object v0, p0, Lmy7;->e:Lhd3;
 
-    const v1, 0x7f122bdd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_waiting:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -487,7 +487,7 @@
     .line 3
     iget-object v0, p0, Lmy7;->e:Lhd3;
 
-    const v1, 0x7f12223d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_google_web_login_tips:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -498,7 +498,7 @@
 
     invoke-direct {v1, p0}, Lmy7$c;-><init>(Lmy7;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

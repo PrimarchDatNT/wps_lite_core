@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:id="@id/nav_item_click_layout" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/pad_public_nav_sub_item">
-        <cn.wps.moffice.common.beans.menudrawer.AlphaTextView android:id="@id/nav_item_title" style="@style/pad_public_nav_item_textview" />
-    </LinearLayout>
-    <View android:layout_width="1.0dip" android:layout_height="@dimen/pad_public_nav_sub_item_gap" />
-</LinearLayout>

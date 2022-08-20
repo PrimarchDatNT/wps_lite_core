@@ -239,12 +239,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f080bbd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_cloud_document_uploading:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f080213
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_uploading_arrow_white:I
 
     return v0
 .end method
@@ -257,12 +257,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0600de
+    sget v0, Lcom/resouce/module/ResCOLOR;->compProgressTrackColor:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f06023c
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_background_color:I
 
     return v0
 .end method
@@ -296,12 +296,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0705e2
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_upload_file_progress_img_height_v2:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f070c72
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_v2:I
 
     return v0
 .end method
@@ -314,12 +314,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0705e3
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_upload_file_progress_img_width_v2:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f070c75
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_v2:I
 
     return v0
 .end method
@@ -449,7 +449,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_1
 
@@ -466,12 +466,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f06065d
+    sget v0, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0606e2
+    sget v0, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 3
     :goto_1
@@ -595,7 +595,7 @@
 
     invoke-direct {p0, v1}, Lcn/wps/moffice/common/SaveIconGroup;->setViewGone([Landroid/view/View;)V
 
-    const v0, 0x7f122b72
+    sget v0, Lcom/resouce/module/ResSTRING;->public_upload_success_tips:I
 
     .line 7
     invoke-direct {p0, v0}, Lcn/wps/moffice/common/SaveIconGroup;->setLongPressTips(I)V
@@ -691,7 +691,7 @@
 
     invoke-direct {p0, v1}, Lcn/wps/moffice/common/SaveIconGroup;->setViewGone([Landroid/view/View;)V
 
-    const v0, 0x7f122b67
+    sget v0, Lcom/resouce/module/ResSTRING;->public_upload_fail_tips:I
 
     .line 18
     invoke-direct {p0, v0}, Lcn/wps/moffice/common/SaveIconGroup;->setLongPressTips(I)V
@@ -749,7 +749,7 @@
     .line 24
     iput-boolean v3, p0, Lcn/wps/moffice/common/SaveIconGroup;->g0:Z
 
-    const v0, 0x7f122b7b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_uploading_tips:I
 
     .line 25
     invoke-direct {p0, v0}, Lcn/wps/moffice/common/SaveIconGroup;->setLongPressTips(I)V
@@ -947,7 +947,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080212
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_uploading:I
 
     const/4 v1, 0x0
 
@@ -956,7 +956,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06023e
+    sget v3, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -994,7 +994,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06065d
+    sget v3, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1023,7 +1023,7 @@
 
     if-nez v5, :cond_2
 
-    const v4, 0x7f0602c2
+    sget v4, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     goto :goto_2
 
@@ -1041,7 +1041,7 @@
 
     if-eqz v5, :cond_3
 
-    const v4, 0x7f06000a
+    sget v4, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     goto :goto_2
 
@@ -1264,12 +1264,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080245
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_save_white:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080e77
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_titlebar_save:I
 
     .line 2
     :goto_0
@@ -2184,17 +2184,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e08d6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_saveicon_group_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_saveicon_group_layout:I
 
     :goto_0
     invoke-static {p1, v0, p0}, Landroid/widget/RelativeLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1293
+    sget p1, Lcom/resouce/module/ResID;->image_save:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -2205,7 +2205,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/SaveIconGroup;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b01a2
+    sget p1, Lcom/resouce/module/ResID;->auto_select_stview_group:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -2216,7 +2216,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/SaveIconGroup;->a0:Lcn/wps/moffice/common/saveicongroup/finalstatus/FinalStatusStViewGroup;
 
-    const p1, 0x7f0b2ddf    # 1.8500087E38f
+    sget p1, Lcom/resouce/module/ResID;->success_flag:I    # 1.8500087E38f
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -2227,7 +2227,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/SaveIconGroup;->V:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1294
+    sget p1, Lcom/resouce/module/ResID;->image_save_dirty_uploading:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -2238,7 +2238,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/SaveIconGroup;->T:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const p1, 0x7f0b1297
+    sget p1, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -2249,7 +2249,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/SaveIconGroup;->U:Lcn/wps/moffice/common/saveicongroup/progress/SaveIconProgressBar;
 
-    const p1, 0x7f0b08b7
+    sget p1, Lcom/resouce/module/ResID;->error_layout:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

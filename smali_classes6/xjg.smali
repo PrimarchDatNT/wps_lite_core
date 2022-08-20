@@ -131,13 +131,13 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080744
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic_document_export:I
 
-    const v2, 0x7f0601a4
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v3, 0x7f1220a7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v4, 0x7f1220a8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;

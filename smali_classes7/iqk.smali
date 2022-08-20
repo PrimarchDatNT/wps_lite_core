@@ -42,7 +42,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f120380
+    sget v1, Lcom/resouce/module/ResSTRING;->dialog_clickable_on_disable_for_no_exit_btn:I
 
     .line 4
     iget-object v2, p0, Lgqk;->a:Landroid/content/Context;
@@ -51,7 +51,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -64,7 +64,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lhd3;->setNegativeButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f120383
+    sget v1, Lcom/resouce/module/ResSTRING;->dialog_clickable_on_disable_for_phone_autoarrange_btn:I
 
     .line 6
     iget-object v2, p0, Lgqk;->a:Landroid/content/Context;
@@ -73,7 +73,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120384
+    sget v1, Lcom/resouce/module/ResSTRING;->dialog_clickable_on_disable_for_phone_autoarrange_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Lgqk;->k(I)Ljava/lang/String;

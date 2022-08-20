@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bc6
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_set_link_share_time:I
 
     const/4 p3, 0x0
 
@@ -70,7 +70,7 @@
 
     iput-object p1, p0, Ltj9;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1616
+    sget p2, Lcom/resouce/module/ResID;->link_share_time_titlebar:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Ltj9;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f121350
+    sget p2, Lcom/resouce/module/ResSTRING;->link_share_info_expired_time:I
 
     .line 8
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -143,7 +143,7 @@
 .method public constructor <init>(Landroid/app/Activity;Llxp;)V
     .locals 1
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Ltj9;-><init>(Landroid/app/Activity;ILlxp;)V
@@ -170,7 +170,7 @@
 
     iget-object v1, p0, Ltj9;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1613
+    sget v2, Lcom/resouce/module/ResID;->link_share_time_seven_day_item:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
 
     iget-object v1, p0, Ltj9;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1615
+    sget v2, Lcom/resouce/module/ResID;->link_share_time_thirty_day_item:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
 
     iget-object v1, p0, Ltj9;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1611
+    sget v2, Lcom/resouce/module/ResID;->link_share_time_forever_item:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

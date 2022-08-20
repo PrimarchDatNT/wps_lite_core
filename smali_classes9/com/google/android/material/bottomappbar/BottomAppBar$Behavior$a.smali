@@ -146,7 +146,7 @@
 
     move-result-object p4
 
-    const p6, 0x7f07042c
+    sget p6, Lcom/resouce/module/ResDIMEN;->mtrl_bottomappbar_fab_bottom_margin:I
 
     .line 14
     invoke-virtual {p4, p6}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

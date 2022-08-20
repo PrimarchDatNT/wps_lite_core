@@ -299,9 +299,9 @@
 
     const/4 p4, 0x4
 
-    const v0, 0x7f1228ec
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_contact_message_other_error:I
 
-    const v1, 0x7f12153d
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_title_no_permission:I
 
     if-eq p3, p4, :cond_3
 
@@ -319,19 +319,19 @@
 
     const-string p3, "other"
 
-    const v1, 0x7f1228ec
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_contact_message_other_error:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_contact_message_over:I
 
     const-string p3, "overrun"
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f121f57
+    sget v1, Lcom/resouce/module/ResSTRING;->public_contact_not_contacts_error:I
 
     const-string p3, "notInContacts"
 
@@ -456,7 +456,7 @@
 
     iget-object v1, p0, Lwc9;->T:Landroid/app/Activity;
 
-    const v2, 0x7f0e0b81
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_contacts_invite_member_list_item:I
 
     invoke-direct {v0, p0, v1, v2}, Lwc9$f;-><init>(Lwc9;Landroid/content/Context;I)V
 
@@ -470,7 +470,7 @@
     .line 4
     iget-object v1, p0, Lwc9;->T:Landroid/app/Activity;
 
-    const v2, 0x7f121f5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_contacts_permission_read:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -485,7 +485,7 @@
     .line 7
     iget-object v1, p0, Lwc9;->T:Landroid/app/Activity;
 
-    const v2, 0x7f121f5b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_contacts_permission_write:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -565,12 +565,12 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0b7f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_contact_confirm_dialog:I
 
     .line 2
     invoke-virtual {p0, p1}, Ljh3;->setContentView(I)V
 
-    const p1, 0x7f0b02c7
+    sget p1, Lcom/resouce/module/ResID;->btn_confirm:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -581,7 +581,7 @@
 
     iput-object p1, p0, Lwc9;->Y:Landroid/widget/Button;
 
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -590,7 +590,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b312f
+    sget v0, Lcom/resouce/module/ResID;->tv_contacts:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f121f54
+    sget v3, Lcom/resouce/module/ResSTRING;->public_contact_member_receive:I
 
     invoke-virtual {v1, v3, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -639,7 +639,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -652,12 +652,12 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f081ce2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_weboffice_close:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b1795
+    sget v0, Lcom/resouce/module/ResID;->lv_contacts:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -668,7 +668,7 @@
 
     iput-object v0, p0, Lwc9;->V:Landroid/widget/ListView;
 
-    const v0, 0x7f0b1473
+    sget v0, Lcom/resouce/module/ResID;->iv_help:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -699,7 +699,7 @@
     .line 15
     iget-object p1, p0, Lwc9;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121f59
+    sget v0, Lcom/resouce/module/ResSTRING;->public_contact_share_permission:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

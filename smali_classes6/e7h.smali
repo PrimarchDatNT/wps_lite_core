@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080634
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_hit_point_circle:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080686
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_movecells_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0806bd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_tv_sheet_focused_bg:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

@@ -60,7 +60,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1200d0
+    sget v0, Lcom/resouce/module/ResSTRING;->app_paper_composition_history:I
 
     return v0
 .end method

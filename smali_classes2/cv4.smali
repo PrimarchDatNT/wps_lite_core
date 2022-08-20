@@ -21,12 +21,12 @@
     .line 1
     invoke-super {p0, p1}, Llv4;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f1226c6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_doc:I
 
     .line 2
     invoke-virtual {p0, p1}, Llv4;->U2(I)V
 
-    const p1, 0x7f0e0afc
+    sget p1, Lcom/resouce/module/ResLAYOUT;->print_help_layout:I
 
     .line 3
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V

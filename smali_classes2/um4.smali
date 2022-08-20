@@ -1153,7 +1153,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e087f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_font_buy_gp_tip:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1165,7 +1165,7 @@
     :cond_0
     iget-object v0, p0, Lum4;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b032d
+    sget v2, Lcom/resouce/module/ResID;->buy_gpfont_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1194,7 +1194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226e8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1203,7 +1203,7 @@
 
     iput-object v1, p0, Lum4;->X:Ljava/lang/String;
 
-    const v1, 0x7f1221da
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1212,7 +1212,7 @@
 
     iput-object v1, p0, Lum4;->Y:Ljava/lang/String;
 
-    const v1, 0x7f1221de
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_system:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1221,7 +1221,7 @@
 
     iput-object v1, p0, Lum4;->Z:Ljava/lang/String;
 
-    const v1, 0x7f1221c0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_custom_font_item_msg:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1410,7 +1410,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1443,7 +1443,7 @@
     return-void
 
     :cond_0
-    const p3, 0x7f122a22
+    sget p3, Lcom/resouce/module/ResSTRING;->public_start_page_gdpr_title:I
 
     const/16 v3, 0x11
 
@@ -1457,7 +1457,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121f40
+    sget p3, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v3, Lum4$n;
 
@@ -1468,7 +1468,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p3, Lum4$m;
 
@@ -1507,7 +1507,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221d5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_nosupportfonts_copyright_notice:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2196,11 +2196,11 @@
 
     aput-object v1, p1, v2
 
-    const v1, 0x7f080716
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_cloud_font:I
 
-    const v2, 0x7f120296
+    sget v2, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_title:I
 
-    const v3, 0x7f120293
+    sget v3, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_desc:I
 
     .line 7
     invoke-static {v1, v2, v3, p1}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -2240,12 +2240,12 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f12028f
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_font_pre_title:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120296
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_title:I
 
     .line 2
     :goto_0
@@ -2266,9 +2266,9 @@
     .line 5
     invoke-virtual {v2, p1}, Lkib;->Y(Ljava/lang/String;)V
 
-    const p1, 0x7f080716
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_cloud_font:I
 
-    const v3, 0x7f120293
+    sget v3, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_desc:I
 
     const/4 v4, 0x2
 
@@ -2442,7 +2442,7 @@
     .line 3
     iget-object v0, p0, Lum4;->B:Landroid/content/Context;
 
-    const v1, 0x7f12250c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_net_error_download_error:I
 
     const/4 v2, 0x1
 
@@ -2852,7 +2852,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0e3e
+    sget v1, Lcom/resouce/module/ResID;->font_noexist:I
 
     if-ne v0, v1, :cond_0
 
@@ -3332,7 +3332,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221d6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_nosupportfonts_replace_tip:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

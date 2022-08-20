@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f80
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_sharepreview_style_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Liff;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24fa
+    sget v1, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
     .line 3
     iget-object v0, p0, Liff;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24fb
+    sget v1, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 4
     iget-object v0, p0, Liff;->I:Landroid/view/View;
 
-    const v1, 0x7f0b304a
+    sget v1, Lcom/resouce/module/ResID;->togglebutton:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -167,7 +167,7 @@
     .line 10
     iget-object v0, p0, Liff;->I:Landroid/view/View;
 
-    const v1, 0x7f0b300f
+    sget v1, Lcom/resouce/module/ResID;->title_switch_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

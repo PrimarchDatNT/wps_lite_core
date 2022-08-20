@@ -31,7 +31,7 @@
     .line 2
     new-instance v1, Ljava/lang/String;
 
-    const v2, 0x7f123455
+    sget v2, Lcom/resouce/module/ResSTRING;->zega_tag:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -48,7 +48,7 @@
     .line 3
     new-instance v1, Ljava/lang/String;
 
-    const v2, 0x7f123454
+    sget v2, Lcom/resouce/module/ResSTRING;->zega_eyes:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -65,7 +65,7 @@
     .line 4
     new-instance v1, Ljava/lang/String;
 
-    const v2, 0x7f123456
+    sget v2, Lcom/resouce/module/ResSTRING;->zega_vipara:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

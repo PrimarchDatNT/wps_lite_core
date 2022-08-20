@@ -579,7 +579,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dd8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt2h5_dialog_horizontal_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -592,7 +592,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
     .line 13
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v1, 0x7f0b253c
+    sget v1, Lcom/resouce/module/ResID;->progress_cancel:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -657,7 +657,7 @@
     .line 4
     iget-object p1, p0, Lnh4;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

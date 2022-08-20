@@ -35,7 +35,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0c3b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_home_roaming_message_layout:I
 
     const/4 v0, 0x0
 
@@ -50,7 +50,7 @@
     .line 5
     iget-object p1, p0, Lj2a;->b:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b117a
+    sget p2, Lcom/resouce/module/ResID;->home_tip_message_quick_access_outer:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -63,7 +63,7 @@
     .line 6
     iget-object p1, p0, Lj2a;->b:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b117b
+    sget p2, Lcom/resouce/module/ResID;->home_tip_message_roaming_outer:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

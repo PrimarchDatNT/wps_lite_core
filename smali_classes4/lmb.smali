@@ -363,12 +363,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1225c3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_order_unpaid_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1225c0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_order_expired_tip:I
 
     .line 2
     :goto_0
@@ -397,7 +397,7 @@
 
     iget-object v3, p0, Llmb;->c:Landroid/content/Context;
 
-    const v4, 0x7f121d3e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -419,7 +419,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f081a5d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;

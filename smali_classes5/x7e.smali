@@ -99,7 +99,7 @@
     :cond_0
     iget-object v0, p0, Lx7e;->B:Landroid/view/View;
 
-    const v1, 0x7f0b028d
+    sget v1, Lcom/resouce/module/ResID;->brightness_adjustment_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e080d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_reading_mode_view_layout:I
 
     const/4 v2, 0x0
 
@@ -146,7 +146,7 @@
 
     iput-object p1, p0, Lx7e;->B:Landroid/view/View;
 
-    const v0, 0x7f0b028e
+    sget v0, Lcom/resouce/module/ResID;->brightness_seekbar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
     .line 4
     iget-object p1, p0, Lx7e;->B:Landroid/view/View;
 
-    const v0, 0x7f0b14f1
+    sget v0, Lcom/resouce/module/ResID;->keep_screen_on_switch:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

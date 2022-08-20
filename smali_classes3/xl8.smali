@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12316d
+    sget v2, Lcom/resouce/module/ResSTRING;->unavailable_for_current_ver:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120c98
+    sget v1, Lcom/resouce/module/ResSTRING;->expire_date:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121588
+    sget v1, Lcom/resouce/module/ResSTRING;->overdue_date:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120323
+    sget v1, Lcom/resouce/module/ResSTRING;->consume_date:I
 
     new-array v3, v3, [Ljava/lang/Object;
 

@@ -73,7 +73,7 @@
     .line 3
     invoke-static {v0}, Lza4;->g(Ljava/lang/String;)V
 
-    const v0, 0x7f0b2e68
+    sget v0, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

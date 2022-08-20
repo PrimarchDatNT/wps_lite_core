@@ -70,7 +70,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0701d2
+    sget p3, Lcom/resouce/module/ResDIMEN;->et_filter_color_item_layout_width:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0701d1
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_filter_color_item_color_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -286,7 +286,7 @@
     .line 19
     invoke-virtual {v2, v0}, Lcn/wps/moffice/spreadsheet/control/common/RoundImageView;->setRound(Z)V
 
-    const p1, 0x7f0811d1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_color_none:I
 
     .line 20
     invoke-virtual {v2, p1}, Landroid/widget/ImageView;->setImageResource(I)V

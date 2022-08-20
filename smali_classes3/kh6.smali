@@ -1018,7 +1018,7 @@
     .line 2
     iget-object v0, p0, Lkh6;->a:Landroid/content/Context;
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1053,12 +1053,12 @@
 
     invoke-direct {v0, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1204ce
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_using_mobile_network_tip:I
 
     .line 5
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 6
     new-instance v3, Lkh6$f;
@@ -1067,7 +1067,7 @@
 
     invoke-virtual {v0, v2, v3}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v3, 0x0
 
@@ -1162,7 +1162,7 @@
 
     iget-object v1, p0, Lkh6;->a:Landroid/content/Context;
 
-    const v3, 0x7f120f92
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_limitfree:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1185,7 +1185,7 @@
 
     iget-object v1, p0, Lkh6;->a:Landroid/content/Context;
 
-    const v3, 0x7f1218f0
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1245,12 +1245,12 @@
 
     if-ne v2, v3, :cond_4
 
-    const v2, 0x7f120edf
+    sget v2, Lcom/resouce/module/ResSTRING;->home_docer_membership_introduce_membertips:I
 
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f120f8f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_introduce_membertips:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1267,7 +1267,7 @@
 
     iget-object v1, p0, Lkh6;->a:Landroid/content/Context;
 
-    const v2, 0x7f1218ef    # 1.9419675E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips:I    # 1.9419675E38f
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

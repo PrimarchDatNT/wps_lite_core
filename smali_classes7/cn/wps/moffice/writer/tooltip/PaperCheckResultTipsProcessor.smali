@@ -284,7 +284,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12162a
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_result_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -299,7 +299,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121658
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_view_report:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

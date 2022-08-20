@@ -292,7 +292,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/linkShare/extlibs/download/LinkShareDownloadDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1225bd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_opening_document_prompt:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -330,7 +330,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/linkShare/extlibs/download/LinkShareDownloadDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d30
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_open_link_share_view:I
 
     const/4 v2, 0x0
 
@@ -351,7 +351,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0135
+    sget v1, Lcom/resouce/module/ResID;->app_logo:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -369,7 +369,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/linkShare/extlibs/download/LinkShareDownloadDialog;->Y:Landroid/graphics/drawable/AnimationDrawable;
 
-    const v1, 0x7f0b25c5
+    sget v1, Lcom/resouce/module/ResID;->public_downloading:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

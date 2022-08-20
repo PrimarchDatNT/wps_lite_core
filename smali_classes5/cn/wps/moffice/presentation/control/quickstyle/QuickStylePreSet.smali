@@ -301,7 +301,7 @@
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f0709f2
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_icon_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

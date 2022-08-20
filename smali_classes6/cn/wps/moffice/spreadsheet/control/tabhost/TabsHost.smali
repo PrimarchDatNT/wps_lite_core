@@ -163,7 +163,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070216
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_add_btn_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -179,7 +179,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f07024a
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_pad_main_tabhost_add_btn_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -277,7 +277,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e094d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_custom_tabhost:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -295,14 +295,14 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e01d7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_custom_tabhost:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v0
 
     :goto_0
-    const v2, 0x7f0b0604
+    sget v2, Lcom/resouce/module/ResID;->custom_tabhost_tablist:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -313,7 +313,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/TabsHost;->i0:Lcn/wps/moffice/spreadsheet/control/tabhost/TabHostLinearLayout;
 
-    const v2, 0x7f0b0603
+    sget v2, Lcom/resouce/module/ResID;->custom_tabhost_scrollview:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/TabsHost;->j0:Lcn/wps/moffice/spreadsheet/control/tabhost/LockableHScrollView;
 
-    const v2, 0x7f0b05fc
+    sget v2, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_add:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0b0602
+    sget v2, Lcom/resouce/module/ResID;->custom_tabhost_more_btn:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060002
+    sget v3, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -420,7 +420,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07022f
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1107,7 +1107,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081436
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_top_shadow:I
 
     invoke-static {p1, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -1274,7 +1274,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/spreadsheet/control/tabhost/TabsHost$c;->a:Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;
 
-    const v2, 0x7f080684
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->et_main_tabnoclick:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;->setBackgroundResource(I)V
 
@@ -1314,7 +1314,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/tabhost/TabsHost$c;->a:Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;
 
-    const v1, 0x7f080683
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_main_tab:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;->setBackgroundResource(I)V
 
@@ -1577,7 +1577,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e094e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_custom_tabhost_add_item:I
 
     const/4 v2, 0x0
 

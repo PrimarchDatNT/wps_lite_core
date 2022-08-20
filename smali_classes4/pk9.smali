@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bcc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_more:I
 
     const/4 v2, 0x0
 

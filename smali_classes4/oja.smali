@@ -1431,7 +1431,7 @@
     .line 1
     iget-object p1, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f120598
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_email_deliverd:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2452,7 +2452,7 @@
     .line 2
     iget-object p1, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120fdf
+    sget v1, Lcom/resouce/module/ResSTRING;->home_merge_account_success:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2487,7 +2487,7 @@
     .line 6
     iget-object p1, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120fde
+    sget v1, Lcom/resouce/module/ResSTRING;->home_merge_account_faild:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3037,7 +3037,7 @@
     .line 2
     iget-object v0, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -3166,7 +3166,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3891,7 +3891,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1227d4
+    sget p2, Lcom/resouce/module/ResSTRING;->public_recommend:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4312,7 +4312,7 @@
     .line 70
     iget-object p1, p0, Loja;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -4807,7 +4807,7 @@
     .line 2
     iget-object v0, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120708
+    sget v1, Lcom/resouce/module/ResSTRING;->en_can_not_use_now:I
 
     const/4 v2, 0x0
 
@@ -4933,7 +4933,7 @@
     .line 1
     iget-object p1, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f120598
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_email_deliverd:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5599,7 +5599,7 @@
     :cond_0
     iget-object v0, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120cf8
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5608,7 +5608,7 @@
     .line 3
     iget-object v0, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f1220cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5617,7 +5617,7 @@
     .line 4
     iget-object v0, p0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120cf6
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

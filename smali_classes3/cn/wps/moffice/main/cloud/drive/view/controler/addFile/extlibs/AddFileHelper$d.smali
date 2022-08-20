@@ -108,7 +108,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1224e7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_net_warning_title:I
 
     const/4 v5, 0x1
 
@@ -122,7 +122,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f123263
+    sget v0, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 9
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$d$c;
@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122b76
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_with_wift:I
 
     new-instance v4, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$d$b;
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v4, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$d$a;
 

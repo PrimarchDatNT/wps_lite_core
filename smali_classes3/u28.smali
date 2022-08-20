@@ -487,7 +487,7 @@
     .line 38
     iget-object p1, p0, Lu28;->a:Landroid/content/Context;
 
-    const v0, 0x7f120618
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_upload_forbid_0kb:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -523,7 +523,7 @@
     .line 41
     iget-object p1, p0, Lu28;->a:Landroid/content/Context;
 
-    const v0, 0x7f120620
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_record_status_toupload:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -822,7 +822,7 @@
     .line 68
     iget-object p1, p0, Lu28;->a:Landroid/content/Context;
 
-    const v0, 0x7f12110d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_rename_has_duplicate:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -969,7 +969,7 @@
     .line 83
     iget-object p1, p0, Lu28;->a:Landroid/content/Context;
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1012,7 +1012,7 @@
     .line 88
     iget-object p1, p0, Lu28;->a:Landroid/content/Context;
 
-    const v0, 0x7f1205f0
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1067,7 +1067,7 @@
     .line 94
     iget-object v0, p0, Lu28;->a:Landroid/content/Context;
 
-    const v1, 0x7f120efb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_enterprise_cdkey_not_found:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1094,7 +1094,7 @@
     .line 96
     iget-object v0, p0, Lu28;->a:Landroid/content/Context;
 
-    const v1, 0x7f120efa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_enterprise_cdkey_invalid:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1121,7 +1121,7 @@
     .line 98
     iget-object v0, p0, Lu28;->a:Landroid/content/Context;
 
-    const v1, 0x7f120ef9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_enterprise_cdkey_expired:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121175
+    sget v2, Lcom/resouce/module/ResSTRING;->home_task_get_rice_prompt:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

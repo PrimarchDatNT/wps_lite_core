@@ -38,7 +38,7 @@
     .line 5
     iget-object p1, p0, Lk6w;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b0fb8
+    sget p2, Lcom/resouce/module/ResID;->header_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -51,7 +51,7 @@
     .line 6
     iget-object p1, p0, Lk6w;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b2a91
+    sget p2, Lcom/resouce/module/ResID;->search_model_divider_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

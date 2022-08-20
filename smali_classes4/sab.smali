@@ -30,7 +30,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120053
+    sget v2, Lcom/resouce/module/ResSTRING;->ac_c_s_m_be:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -41,7 +41,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12002f
+    sget v3, Lcom/resouce/module/ResSTRING;->a_c_sig_md5_a:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200a5
+    sget v3, Lcom/resouce/module/ResSTRING;->app_crack_proguard_signature_product:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f070b51
+    sget p3, Lcom/resouce/module/ResDIMEN;->public_insert_geoshape_icon_size:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getDimension(I)F
 

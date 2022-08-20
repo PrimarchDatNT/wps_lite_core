@@ -144,7 +144,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070dc1
+    sget v3, Lcom/resouce/module/ResDIMEN;->writer_pad_style_pop_up_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0cd1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_list_quickaction:I
 
     const/4 v3, 0x0
 
@@ -212,7 +212,7 @@
 
     iput-object v1, p0, Livl;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2675
+    sget v2, Lcom/resouce/module/ResID;->public_list:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -343,7 +343,7 @@
 
     invoke-virtual {v7, v6}, Landroid/widget/TextView;->setTextSize(F)V
 
-    const v6, 0x7f081a93
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_pad_titlebar_item_selector:I
 
     .line 21
     invoke-virtual {v7, v6}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -356,7 +356,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f070b78
+    sget v9, Lcom/resouce/module/ResDIMEN;->public_list_text_item_width:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -376,7 +376,7 @@
 
     move-result-object v6
 
-    const v8, 0x7f070db5
+    sget v8, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_menu_item_height:I
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

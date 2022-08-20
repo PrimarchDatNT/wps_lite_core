@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bc8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,12 +158,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122678
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ppt_send_by_h5:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2ba4
+    sget v1, Lcom/resouce/module/ResID;->share_sub_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
     .line 6
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f08049a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_ppt_to_h5:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

@@ -28,7 +28,7 @@
 
     move-result v1
 
-    const v2, 0x7f122334
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
     invoke-direct {v0, p0, v1, v2}, Lwxd$a;-><init>(Lwxd;II)V
 
@@ -62,12 +62,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802c3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_link:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c7f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_link_ppt:I
 
     :goto_0
     return v0

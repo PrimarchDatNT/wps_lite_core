@@ -715,7 +715,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e00c8
+    sget v3, Lcom/resouce/module/ResLAYOUT;->design_layout_tab_icon:I
 
     .line 5
     invoke-virtual {v2, v3, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -763,7 +763,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e00c9
+    sget v2, Lcom/resouce/module/ResLAYOUT;->design_layout_tab_text:I
 
     const/4 v3, 0x0
 
@@ -909,7 +909,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212f5
+    sget v1, Lcom/resouce/module/ResSTRING;->item_view_role_description:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

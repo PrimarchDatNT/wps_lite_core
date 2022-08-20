@@ -88,7 +88,7 @@
     .line 4
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f122954
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
     .line 5
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f122742
+    sget v2, Lcom/resouce/module/ResSTRING;->public_publish_current_content:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     .line 6
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f121dbb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_can_edit_anybody:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -127,7 +127,7 @@
     .line 7
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f12240a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_linkshare_write_permission_desc:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -142,7 +142,7 @@
     .line 10
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f121dbe
+    sget v2, Lcom/resouce/module/ResSTRING;->public_can_read_anybody:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -155,7 +155,7 @@
     .line 11
     sget-object v1, Lsg4;->e:Ljava/util/Map;
 
-    const v2, 0x7f122409
+    sget v2, Lcom/resouce/module/ResSTRING;->public_linkshare_read_only_desc:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

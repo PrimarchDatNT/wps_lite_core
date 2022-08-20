@@ -75,13 +75,13 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0513
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     invoke-static {v3, v4, v1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b1bc8
+    sget v4, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

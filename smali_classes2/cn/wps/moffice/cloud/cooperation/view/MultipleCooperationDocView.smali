@@ -104,12 +104,12 @@
 .method public final z(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f0e045b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_mutiple_cooperation_doc:I
 
     .line 1
     invoke-static {p1, v0, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b29f9
+    sget p1, Lcom/resouce/module/ResID;->sc_open_cooperation_doc:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/cloud/cooperation/view/MultipleCooperationDocView;->m0:Lcn/wps/moffice/cloud/widget/KDelaySwitch;
 
-    const p1, 0x7f0b3256
+    sget p1, Lcom/resouce/module/ResID;->tv_set_as_cooperation_docs_desc:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

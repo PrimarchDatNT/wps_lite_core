@@ -41,7 +41,7 @@
     .line 1
     invoke-static {p2}, Lbe8;->k(Landroid/content/Context;)V
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 
@@ -71,7 +71,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$j1;->B:Landroid/content/Context;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -113,7 +113,7 @@
     .line 7
     iget-object v2, p0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$j1;->B:Landroid/content/Context;
 
-    const v3, 0x7f120d99
+    sget v3, Lcom/resouce/module/ResSTRING;->gdpr_delete_data:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
     .line 17
     iget-object v0, p0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$j1;->B:Landroid/content/Context;
 
-    const v2, 0x7f120d9c
+    sget v2, Lcom/resouce/module/ResSTRING;->gdpr_erasure_success:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

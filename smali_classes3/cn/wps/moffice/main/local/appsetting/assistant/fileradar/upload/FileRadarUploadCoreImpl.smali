@@ -866,12 +866,12 @@
 
     invoke-direct {v1, p1}, Lhd9;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f12213e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_radar_file_protect_title:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->setTitle(I)V
 
-    const v3, 0x7f12213d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_radar_file_protect_content:I
 
     .line 4
     invoke-virtual {v1, v3}, Lhd3;->setMessage(I)Lhd3;
@@ -883,7 +883,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -893,7 +893,7 @@
 
     invoke-direct {v5, p0, p2, p1, p3}, Lcn/wps/moffice/main/local/appsetting/assistant/fileradar/upload/FileRadarUploadCoreImpl$c;-><init>(Lcn/wps/moffice/main/local/appsetting/assistant/fileradar/upload/FileRadarUploadCoreImpl;Ljava/lang/String;Landroid/app/Activity;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121e70
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_protected_now:I
 
     invoke-virtual {v3, p1, v4, v5}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -903,7 +903,7 @@
 
     invoke-direct {v3, p0}, Lcn/wps/moffice/main/local/appsetting/assistant/fileradar/upload/FileRadarUploadCoreImpl$b;-><init>(Lcn/wps/moffice/main/local/appsetting/assistant/fileradar/upload/FileRadarUploadCoreImpl;)V
 
-    const v4, 0x7f122c0b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     .line 6
     invoke-virtual {p1, v4, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

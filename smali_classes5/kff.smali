@@ -213,7 +213,7 @@
 
     invoke-static {p3, v2}, Lkff;->f(Ljava/util/List;Ljava/util/List;)V
 
-    const v2, 0x7f120694
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     move-object v9, p0
 
@@ -227,7 +227,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081746
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_email:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -320,7 +320,7 @@
 
     invoke-static {p3, v1}, Lkff;->f(Ljava/util/List;Ljava/util/List;)V
 
-    const p3, 0x7f120694
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 3
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -332,7 +332,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f081746
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_email:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -870,7 +870,7 @@
 
     if-gtz v4, :cond_6
 
-    const p1, 0x7f1205eb
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1010,7 +1010,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f070aef
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_docinfo_mail_item_height:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1085,7 +1085,7 @@
     .line 9
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p0, 0x7f120694
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 10
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -1240,7 +1240,7 @@
 
     if-gtz v5, :cond_6
 
-    const v1, 0x7f1205eb
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 14
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1372,7 +1372,7 @@
     .line 33
     invoke-virtual {v1}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f120694
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 34
     invoke-virtual {v1, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -1545,7 +1545,7 @@
 
     if-gtz v7, :cond_7
 
-    const v1, 0x7f1205eb
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1676,7 +1676,7 @@
     .line 33
     invoke-virtual {v3}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f120694
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 34
     invoke-virtual {v3, v0}, Lhd3;->setTitleById(I)Lhd3;

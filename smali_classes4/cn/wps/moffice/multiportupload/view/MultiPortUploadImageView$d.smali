@@ -123,7 +123,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06000c
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -158,7 +158,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

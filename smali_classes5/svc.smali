@@ -45,7 +45,7 @@
     .line 1
     invoke-virtual {p0, v0}, Lhdc;->b1(Z)V
 
-    const v0, 0x7f0b1d9a
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 .method public Y0()I
     .locals 1
 
-    const v0, 0x7f0e079a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_anno_second_base_panel:I
 
     return v0
 .end method

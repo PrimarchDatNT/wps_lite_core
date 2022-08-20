@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->o1(Landroid/content/Context;I)V
 
@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->o1(Landroid/content/Context;I)V
 

@@ -5600,7 +5600,7 @@
     .line 30
     invoke-virtual {v3, v0}, Landroid/widget/TextView;->setTextSize(F)V
 
-    const v0, 0x7f122fa0
+    sget v0, Lcom/resouce/module/ResSTRING;->srl_content_empty:I
 
     .line 31
     invoke-virtual {v3, v0}, Landroid/widget/TextView;->setText(I)V
@@ -6179,7 +6179,7 @@
 
     if-eq v1, v2, :cond_12
 
-    const v1, 0x7f122f9f
+    sget v1, Lcom/resouce/module/ResSTRING;->srl_component_falsify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -6734,7 +6734,7 @@
 
     if-eq v10, v11, :cond_1f
 
-    const v10, 0x7f122f9f
+    sget v10, Lcom/resouce/module/ResSTRING;->srl_component_falsify:I
 
     invoke-virtual {v9, v10}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 

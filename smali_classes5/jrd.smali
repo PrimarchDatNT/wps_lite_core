@@ -1132,7 +1132,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122035
+    sget p1, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     .line 3
     invoke-virtual {p0, p1}, Ljrd;->z(I)V
@@ -1209,7 +1209,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122035
+    sget p1, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     .line 8
     invoke-virtual {p0, p1}, Ljrd;->z(I)V
@@ -1746,7 +1746,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122035
+    sget v1, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     const/4 v2, 0x0
 
@@ -2700,7 +2700,7 @@
 
     move-result p1
 
-    const v0, 0x7f122036
+    sget v0, Lcom/resouce/module/ResSTRING;->public_drag_in_wrong_state:I
 
     const/4 v1, 0x0
 

@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fb9    # 1.94232E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     const/4 v1, 0x0
 

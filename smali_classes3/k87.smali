@@ -64,7 +64,7 @@
 .method public constructor <init>(Landroid/content/Context;Li87;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lk87;-><init>(Landroid/content/Context;ILi87;)V

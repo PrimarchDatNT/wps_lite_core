@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201e6
+    sget v1, Lcom/resouce/module/ResSTRING;->base_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12053d
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_wps_cdn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204d8
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_client:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dad
+    sget v1, Lcom/resouce/module/ResSTRING;->get_download_url_api:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dae
+    sget v1, Lcom/resouce/module/ResSTRING;->get_download_url_api_wenku:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120da3
+    sget v1, Lcom/resouce/module/ResSTRING;->get_author_about:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120db5
+    sget v1, Lcom/resouce/module/ResSTRING;->get_inner_ad:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a27
+    sget v1, Lcom/resouce/module/ResSTRING;->post_coupon_receives:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

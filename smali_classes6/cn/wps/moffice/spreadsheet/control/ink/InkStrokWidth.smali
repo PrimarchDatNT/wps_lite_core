@@ -20,9 +20,9 @@
 .method public constructor <init>(Lcn/wps/moffice/spreadsheet/control/ink/Inker;Lrcg;)V
     .locals 3
 
-    const v0, 0x7f080dcc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_line_thickness:I
 
-    const v1, 0x7f122373
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_stroke_width:I
 
     const/4 v2, 0x1
 
@@ -112,7 +112,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060657
+    sget v4, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -131,7 +131,7 @@
     .line 8
     invoke-virtual {v0, v1, v4, v4}, Landroid/widget/ScrollView;->addView(Landroid/view/View;II)V
 
-    const v5, 0x7f122370
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ink_pt:I
 
     .line 9
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0e0e6b
+    sget v10, Lcom/resouce/module/ResLAYOUT;->public_stroke_width_layout:I
 
     const/4 v11, 0x0
 
@@ -181,7 +181,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f070b46
+    sget v12, Lcom/resouce/module/ResDIMEN;->public_ink_stroke_width_dialog_margin_top:I
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -194,14 +194,14 @@
     invoke-virtual {v9, v10}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_1
-    const v10, 0x7f0b2742
+    sget v10, Lcom/resouce/module/ResID;->public_stroke_width_item_image:I
 
     .line 18
     invoke-virtual {v9, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v11, 0x7f0b2743
+    sget v11, Lcom/resouce/module/ResID;->public_stroke_width_item_text:I
 
     .line 19
     invoke-virtual {v9, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     check-cast v11, Landroid/widget/TextView;
 
-    const v12, 0x7f0b2741
+    sget v12, Lcom/resouce/module/ResID;->public_stroke_width_item_checked:I
 
     .line 20
     invoke-virtual {v9, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;

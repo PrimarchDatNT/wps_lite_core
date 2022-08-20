@@ -159,7 +159,7 @@
 
     if-eqz p1, :cond_3
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 6
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

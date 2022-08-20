@@ -72,7 +72,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121946
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_tab_setting:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

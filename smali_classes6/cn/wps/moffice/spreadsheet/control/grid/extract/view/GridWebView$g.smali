@@ -204,7 +204,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12233a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

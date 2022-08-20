@@ -61,7 +61,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0705fb
+    sget p3, Lcom/resouce/module/ResDIMEN;->pdf_convert_tips_space:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimension(I)F
 

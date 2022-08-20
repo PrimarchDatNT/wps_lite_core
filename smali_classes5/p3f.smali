@@ -169,7 +169,7 @@
     invoke-interface {v3, v2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     :cond_0
-    const v2, 0x7f0e00f7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_recommend_gift:I
 
     const/4 v3, 0x0
 
@@ -178,7 +178,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b285f
+    sget v2, Lcom/resouce/module/ResID;->recyclerView:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

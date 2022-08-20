@@ -69,7 +69,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f121484
+    sget p1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 p2, 0x0
 
@@ -148,7 +148,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f121484
+    sget p1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 p2, 0x0
 

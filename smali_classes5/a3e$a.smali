@@ -66,7 +66,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0a82
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ppt_linespacing_dialog:I
 
     invoke-virtual {v2, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2308
+    sget v2, Lcom/resouce/module/ResID;->ppt_linespacing_list:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,13 +118,13 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e0a7a
+    sget v5, Lcom/resouce/module/ResLAYOUT;->ppt_fontsize_dialog_item:I
 
     invoke-virtual {v4, v5, v0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b22ca
+    sget v5, Lcom/resouce/module/ResID;->ppt_fontsize_text:I
 
     .line 7
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060009
+    sget v7, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 

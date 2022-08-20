@@ -363,7 +363,7 @@
 
     iget-object v1, p0, Lt4f;->B:Landroid/app/Activity;
 
-    const v2, 0x7f13013e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_template_detail:I
 
     invoke-direct {v0, p0, v1, v2}, Ltm9$d;-><init>(Ltm9;Landroid/content/Context;I)V
 
@@ -582,7 +582,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b033f
+    sget v0, Lcom/resouce/module/ResID;->cancel_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -594,7 +594,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b014e
+    sget v0, Lcom/resouce/module/ResID;->apply_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -695,7 +695,7 @@
     .line 2
     iget-object v0, p0, Lt4f;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122535
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v2, 0x0
 
@@ -753,17 +753,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0bdd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_exclusive_theme_full_screen_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0bde
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_exclusive_theme_layout:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e0bdf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_exclusive_theme_pad_layout:I
 
     .line 3
     :goto_0
@@ -781,7 +781,7 @@
 
     iput-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v1, 0x7f0b033f
+    sget v1, Lcom/resouce/module/ResID;->cancel_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -796,7 +796,7 @@
     .line 6
     iget-object v1, p0, Ltm9;->W:Landroid/view/View;
 
-    const v2, 0x7f0b014e
+    sget v2, Lcom/resouce/module/ResID;->apply_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -829,7 +829,7 @@
     :goto_1
     iget-object v5, p0, Ltm9;->W:Landroid/view/View;
 
-    const v7, 0x7f0b2f74
+    sget v7, Lcom/resouce/module/ResID;->theme_get_tips:I
 
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -840,7 +840,7 @@
     .line 10
     iget-object v7, p0, Ltm9;->W:Landroid/view/View;
 
-    const v8, 0x7f0b2f76
+    sget v8, Lcom/resouce/module/ResID;->theme_tips:I
 
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -851,7 +851,7 @@
     .line 11
     iget-object v8, p0, Ltm9;->W:Landroid/view/View;
 
-    const v9, 0x7f0b2f73
+    sget v9, Lcom/resouce/module/ResID;->theme_find_tips:I
 
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -884,7 +884,7 @@
 
     iget-object v2, p0, Lt4f;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fc1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_theme:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -922,7 +922,7 @@
     :cond_3
     iget-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v2, 0x7f0b2f72
+    sget v2, Lcom/resouce/module/ResID;->theme_card:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1100,7 +1100,7 @@
     .line 1
     iget-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v1, 0x7f0b12a2
+    sget v1, Lcom/resouce/module/ResID;->image_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1125,7 +1125,7 @@
     .line 4
     iget-object v0, p0, Ltm9;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2def
+    sget v1, Lcom/resouce/module/ResID;->surface_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

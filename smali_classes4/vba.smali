@@ -155,7 +155,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0548
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_filebrowser_more_dialog:I
 
     const/4 v3, 0x1
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v1, p0, v2}, Lvba$c;-><init>(Lvba;Lvba$a;)V
 
-    const v2, 0x7f0b1bf0
+    sget v2, Lcom/resouce/module/ResID;->pad_home_filebrowser_more_dialog_more_sort:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
     .line 8
     iget-object v0, p0, Lvba;->s:Landroid/view/View;
 
-    const v2, 0x7f0b1bef
+    sget v2, Lcom/resouce/module/ResID;->pad_home_filebrowser_more_dialog_more_delete:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     .line 4
     iget-object v0, p0, Lvba;->u:Lhd3;
 
-    const v1, 0x7f1206a6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sort_type:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e075d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_sort_layout:I
 
     const/4 v3, 0x0
 
@@ -251,7 +251,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2c72
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_layout:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -260,7 +260,7 @@
 
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2c76
+    sget v2, Lcom/resouce/module/ResID;->sortby_time_layout:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2c73
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_radio:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b2c77
+    sget v3, Lcom/resouce/module/ResID;->sortby_time_radio:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -423,7 +423,7 @@
 .method public n()I
     .locals 1
 
-    const v0, 0x7f0e057b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_scf_tab_layout:I
 
     return v0
 .end method
@@ -431,7 +431,7 @@
 .method public u(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b115d
+    sget v0, Lcom/resouce/module/ResID;->home_scf_more_btn:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -449,7 +449,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1cfc
+    sget v0, Lcom/resouce/module/ResID;->path_gallery:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

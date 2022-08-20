@@ -104,7 +104,7 @@
 .method public U()V
     .locals 2
 
-    const v0, 0x7f0b0d58
+    sget v0, Lcom/resouce/module/ResID;->filename_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Lof5;->T(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Lt3f$a;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0cd8
+    sget v0, Lcom/resouce/module/ResID;->file_last_modified_date_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Lof5;->T(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lt3f$a;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0cd3
+    sget v0, Lcom/resouce/module/ResID;->file_icon:I
 
     .line 3
     invoke-virtual {p0, v0}, Lof5;->T(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object v0, p0, Lt3f$a;->p0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0cd7
+    sget v0, Lcom/resouce/module/ResID;->file_item_select_radio:I
 
     .line 4
     invoke-virtual {p0, v0}, Lof5;->T(I)Landroid/view/View;

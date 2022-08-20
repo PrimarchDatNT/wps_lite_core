@@ -39,7 +39,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0b42
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v0, 0x0
 

@@ -51,7 +51,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120019
+    sget v1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

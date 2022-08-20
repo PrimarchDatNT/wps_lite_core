@@ -80,13 +80,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e027a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->foreign_home_myorders_purchased_fontpack:I
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1b68
+    sget v1, Lcom/resouce/module/ResID;->order_fontpack_imageview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v1, p2, Lylb$b;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1b6b
+    sget v1, Lcom/resouce/module/ResID;->order_fontpack_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v1, p2, Lylb$b;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b06d4
+    sget v1, Lcom/resouce/module/ResID;->divider_line:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     move-result v2
 
-    const v3, 0x7f0819c7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     if-nez v2, :cond_1
 

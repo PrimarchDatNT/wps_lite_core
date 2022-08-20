@@ -33,7 +33,7 @@
 
     const/16 v0, 0x17
 
-    const v1, 0x7f060450
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_default_icon_color:I
 
     if-lt p2, v0, :cond_1
 
@@ -82,7 +82,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p1, 0x7f06046d
+    sget p1, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     .line 11
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGround(I)V

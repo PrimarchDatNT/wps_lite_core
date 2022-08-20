@@ -84,7 +84,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f12056c
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

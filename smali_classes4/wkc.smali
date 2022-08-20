@@ -100,7 +100,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -306,7 +306,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121790
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_committing:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -342,7 +342,7 @@
 
     float-to-int p2, p4
 
-    const p3, 0x7f122030
+    sget p3, Lcom/resouce/module/ResSTRING;->public_downloading_percent:I
 
     const/4 p4, 0x1
 
@@ -378,7 +378,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121f66
+    sget v0, Lcom/resouce/module/ResSTRING;->public_converting:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -421,7 +421,7 @@
 
     float-to-int p2, p3
 
-    const p3, 0x7f122b3f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_unloading_percent:I
 
     const/4 v0, 0x1
 
@@ -450,7 +450,7 @@
 .method public l(Landroid/content/Context;Ljava/lang/String;)V
     .locals 4
 
-    const v0, 0x7f12174a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_failure:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -539,7 +539,7 @@
 .method public n(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 3
 
-    const v0, 0x7f12174b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_success:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -616,7 +616,7 @@
     .line 1
     iget-object v0, p0, Lwkc;->S:Landroid/app/Activity;
 
-    const v1, 0x7f12202e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
     .line 1
     iget-object v0, p0, Lwkc;->S:Landroid/app/Activity;
 
-    const v1, 0x7f121795
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_handling:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -668,7 +668,7 @@
     .line 1
     iget-object v0, p0, Lwkc;->S:Landroid/app/Activity;
 
-    const v1, 0x7f121796
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

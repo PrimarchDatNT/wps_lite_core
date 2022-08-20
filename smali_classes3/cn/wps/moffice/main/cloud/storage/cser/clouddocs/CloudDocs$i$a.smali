@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12063f
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_kickedout:I
 
     invoke-static {v0, v2, v1}, Le88;->a(Landroid/content/Context;II)V
 

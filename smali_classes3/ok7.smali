@@ -125,7 +125,7 @@
     .line 1
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b71
+    sget v1, Lcom/resouce/module/ResID;->share_folder_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 2
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b70
+    sget v1, Lcom/resouce/module/ResID;->share_folder_subtitle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -151,7 +151,7 @@
     .line 3
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0e0a
+    sget v1, Lcom/resouce/module/ResID;->folder_select_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -164,7 +164,7 @@
     .line 4
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b6f
+    sget v1, Lcom/resouce/module/ResID;->share_folder_icon_type:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
     .line 5
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2e70
+    sget v1, Lcom/resouce/module/ResID;->tag_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
     .line 6
     iget-object v0, p0, Lok7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b06cb
+    sget v1, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

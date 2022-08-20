@@ -87,7 +87,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f1200f2
+    sget p1, Lcom/resouce/module/ResSTRING;->app_paper_composition_savely_toast:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -109,7 +109,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f1200e4
+    sget p1, Lcom/resouce/module/ResSTRING;->app_paper_composition_not_valid_writer_inner:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

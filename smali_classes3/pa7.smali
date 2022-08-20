@@ -120,12 +120,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0541
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_special_file_item_with_large_divider:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0304
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_special_file_item_with_largedivide:I
 
     return v0
 
@@ -141,12 +141,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e0540
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_special_file_item:I
 
     return v0
 
     :cond_2
-    const v0, 0x7f0e0303
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_special_file_item:I
 
     return v0
 .end method

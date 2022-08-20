@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212a2
+    sget v1, Lcom/resouce/module/ResSTRING;->http_dns_api:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

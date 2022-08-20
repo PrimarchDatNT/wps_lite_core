@@ -18,7 +18,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0601c6
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_jobtitle_green:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f081250
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_function_card_wr_doc_slimming:I
 
     return v0
 .end method
@@ -34,7 +34,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f122268
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing_simple:I
 
     return v0
 .end method

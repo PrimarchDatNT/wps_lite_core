@@ -115,12 +115,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f1227cc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f1227cb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_receive_link_edit:I
 
     :goto_0
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V

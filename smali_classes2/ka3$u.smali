@@ -58,17 +58,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1202cb
+    sget v0, Lcom/resouce/module/ResSTRING;->collection_provider_adjust_url_gdpr:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1202ca
+    sget v0, Lcom/resouce/module/ResSTRING;->collection_provider_adjust_url:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f1202cd
+    sget v0, Lcom/resouce/module/ResSTRING;->collection_provider_google_url:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

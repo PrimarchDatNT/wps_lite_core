@@ -221,7 +221,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121e8b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_pc_desktop_description:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121e3c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_docer_resource_description:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

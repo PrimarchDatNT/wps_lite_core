@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f2e
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_audience_switch_file_invalid:I
 
     const/4 v2, 0x1
 
@@ -758,7 +758,7 @@
     .line 1
     iget-object v0, p0, Luxl;->B:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f12199a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     const/4 v2, 0x1
 

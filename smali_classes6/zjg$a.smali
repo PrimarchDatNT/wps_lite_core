@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606c5
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081a18
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_longpic_thumb_image_placeholder:I
 
     .line 8
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;

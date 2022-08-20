@@ -468,7 +468,7 @@
 
     iget-object v2, p0, Loxt;->a:Lcom/google/android/material/button/MaterialButton;
 
-    const v3, 0x7f040140
+    sget v3, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 5
     invoke-static {v2, v3}, Luxt;->d(Landroid/view/View;I)I
@@ -579,7 +579,7 @@
 
     iget-object v4, p0, Loxt;->a:Lcom/google/android/material/button/MaterialButton;
 
-    const v5, 0x7f040140
+    sget v5, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 11
     invoke-static {v4, v5}, Luxt;->d(Landroid/view/View;I)I

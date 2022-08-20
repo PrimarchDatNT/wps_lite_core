@@ -150,7 +150,7 @@
     .line 13
     iput-object p1, p0, Lkxk;->o0:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const p1, 0x7f0e09f9
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_writer_read_mode_comments_layout:I
 
     .line 14
     invoke-virtual {p0, p1}, Lozl;->l2(I)V
@@ -162,7 +162,7 @@
 
     invoke-static {p1}, Lxih;->P(Landroid/view/View;)V
 
-    const p1, 0x7f0b0174
+    sget p1, Lcom/resouce/module/ResID;->audio_input_image:I
 
     .line 16
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     iput-object p1, p0, Lkxk;->e0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b34cf
+    sget p1, Lcom/resouce/module/ResID;->writer_comment_textinput:I
 
     .line 17
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     iput-object p1, p0, Lkxk;->f0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b053c
+    sget p1, Lcom/resouce/module/ResID;->contentLayout:I
 
     .line 18
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     iput-object p1, p0, Lkxk;->p0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b2dd9    # 1.8500075E38f
+    sget p1, Lcom/resouce/module/ResID;->submit:I    # 1.8500075E38f
 
     .line 19
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -209,7 +209,7 @@
     .line 20
     invoke-virtual {p0}, Lkxk;->N2()V
 
-    const p1, 0x7f0b0343
+    sget p1, Lcom/resouce/module/ResID;->cancle:I
 
     .line 21
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p1, 0x7f0b2a33
+    sget p1, Lcom/resouce/module/ResID;->scrollView:I
 
     .line 22
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -232,7 +232,7 @@
     .line 23
     invoke-virtual {p0}, Lkxk;->q2()V
 
-    const p1, 0x7f0b04ce
+    sget p1, Lcom/resouce/module/ResID;->comment_switch_view:I
 
     .line 24
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -246,7 +246,7 @@
     .line 25
     invoke-virtual {p1, p0}, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->setSwitchListener(Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView$b;)V
 
-    const p1, 0x7f0b07ed
+    sget p1, Lcom/resouce/module/ResID;->editComments:I
 
     .line 26
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -447,7 +447,7 @@
 .method public B1()V
     .locals 3
 
-    const v0, 0x7f0b0343
+    sget v0, Lcom/resouce/module/ResID;->cancle:I
 
     .line 1
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -462,7 +462,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2dd9    # 1.8500075E38f
+    sget v0, Lcom/resouce/module/ResID;->submit:I    # 1.8500075E38f
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -2037,7 +2037,7 @@
     .line 4
     iget-object v0, p0, Lkxk;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081cfe
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_writer_comments_audioinput:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2153,7 +2153,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1233ec
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_record_default_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2204,7 +2204,7 @@
     .line 5
     iget-object v1, p0, Lkxk;->e0:Landroid/widget/ImageView;
 
-    const v3, 0x7f081cff
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_writer_comments_textinput:I
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2506,7 +2506,7 @@
 
     iget-object v1, p0, Lkxk;->o0:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v2, 0x7f13013e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_template_detail:I
 
     const/4 v3, 0x0
 

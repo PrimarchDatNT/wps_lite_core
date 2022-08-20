@@ -45,7 +45,7 @@
 
     if-ne v0, p1, :cond_0
 
-    const v0, 0x7f1216c9
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     .line 3
     iput v0, p1, Lms9;->b:I

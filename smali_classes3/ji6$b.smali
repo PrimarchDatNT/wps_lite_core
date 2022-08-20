@@ -113,7 +113,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f120ccd
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_member_text:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -142,7 +142,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f123176
+    sget v1, Lcom/resouce/module/ResSTRING;->upgrade_member:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f120cc7
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_previewtips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -196,7 +196,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120ca4
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_buypage:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

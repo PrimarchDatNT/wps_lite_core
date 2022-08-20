@@ -115,7 +115,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/presentation/control/template/superppt/SuperPptPreviewActivity$b;-><init>(Lcn/wps/moffice/presentation/control/template/superppt/SuperPptPreviewActivity;)V
 
-    const v3, 0x7f1201c5
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_super_ppt_preview_reset:I
 
     invoke-virtual {v0, v3, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -301,7 +301,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v0, 0x7f1201c8
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_super_ppt_preview_title:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

@@ -66,7 +66,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b10a8
+    sget v0, Lcom/resouce/module/ResID;->home_my_roaming_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Lbr7;->a:Landroid/view/View;
 
-    const v0, 0x7f0b101d
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_area:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lbr7;->b:Landroid/view/View;
 
-    const v0, 0x7f0b10a9
+    sget v0, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lbr7;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10c1
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_type_layout:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Lbr7;->d:Landroid/view/View;
 
-    const v0, 0x7f0b10bb
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_login_type:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Lbr7;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10bc
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_login_type_layout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b10c7
+    sget v0, Lcom/resouce/module/ResID;->home_my_weekly_use_duration_layout:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     iput-object v0, p0, Lbr7;->g:Landroid/view/View;
 
-    const v0, 0x7f0b10c5
+    sget v0, Lcom/resouce/module/ResID;->home_my_weekly_use_duration:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     iput-object v0, p0, Lbr7;->h:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10c6
+    sget v0, Lcom/resouce/module/ResID;->home_my_weekly_use_duration_img:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    const v0, 0x7f0b1040
+    sget v0, Lcom/resouce/module/ResID;->home_account_space_usage_layout:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     iput-object v0, p0, Lbr7;->j:Landroid/view/View;
 
-    const v0, 0x7f0b1041
+    sget v0, Lcom/resouce/module/ResID;->home_account_space_usage_progress:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     check-cast v0, Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b103f
+    sget v0, Lcom/resouce/module/ResID;->home_account_space_usage_info:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b1042
+    sget v0, Lcom/resouce/module/ResID;->home_account_upgrade_space_btn:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object v0, p0, Lbr7;->k:Landroid/view/View;
 
-    const v0, 0x7f0b10bd
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_memeber_icon_bronze:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 
     iput-object v0, p0, Lbr7;->l:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10c0
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_memeber_icon_vip:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     iput-object v0, p0, Lbr7;->m:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10b2
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_company_icon:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v0, p0, Lbr7;->x:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10be
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_memeber_icon_docer:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v0, p0, Lbr7;->n:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10bf
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_memeber_icon_svip:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iput-object v0, p0, Lbr7;->o:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10ba
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_india_school_icon_svip:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     iput-object v0, p0, Lbr7;->p:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1847
+    sget v0, Lcom/resouce/module/ResID;->member_icon:I
 
     .line 24
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     iput-object v0, p0, Lbr7;->s:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10b9
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_foreign_member_level_icon:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
 
     iput-object v0, p0, Lbr7;->q:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b10b8
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_foreign_member_coin_layout:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
 
     iput-object v0, p0, Lbr7;->t:Landroid/view/View;
 
-    const v0, 0x7f0b10b6
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_foreign_member_coin_count:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     iput-object v0, p0, Lbr7;->u:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10b5
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_foreign_member_coin_blank:I
 
     .line 28
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lbr7;->v:Landroid/view/View;
 
-    const v0, 0x7f0b10b4
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_edu:I
 
     .line 29
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     iput-object v0, p0, Lbr7;->r:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1018
+    sget v0, Lcom/resouce/module/ResID;->home_account_company_layout:I
 
     .line 30
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_2
-    const v0, 0x7f0b1017
+    sget v0, Lcom/resouce/module/ResID;->home_account_company:I
 
     .line 32
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     iput-object v0, p0, Lbr7;->y:Landroid/widget/TextView;
 
-    const v0, 0x7f0b10af
+    sget v0, Lcom/resouce/module/ResID;->home_my_user_go_member_layout:I
 
     .line 33
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
 
     iput-object v0, p0, Lbr7;->z:Landroid/view/View;
 
-    const v0, 0x7f0b1d33
+    sget v0, Lcom/resouce/module/ResID;->pay_upgrade_layout:I
 
     .line 34
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

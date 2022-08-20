@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_assistant:I
 
     const/4 v2, 0x0
 
@@ -258,7 +258,7 @@
 
     iput-object v0, p0, Lir8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b11ee
+    sget v1, Lcom/resouce/module/ResID;->home_wps_assistant_created:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
     .line 4
     iget-object v0, p0, Lir8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b11ed
+    sget v1, Lcom/resouce/module/ResID;->home_wps_assistant_add_shortcut:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -333,7 +333,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121215
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_assistant:I
 
     return v0
 .end method

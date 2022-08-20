@@ -176,7 +176,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b3434
+    sget v1, Lcom/resouce/module/ResID;->widget_config_pre_img_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     .line 2
     iget-object v1, p0, Lelp;->T:Landroid/view/View;
 
-    const v2, 0x7f0b3432
+    sget v2, Lcom/resouce/module/ResID;->widget_config_pre_bg:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -196,7 +196,7 @@
     .line 3
     iget-object v1, p0, Lelp;->T:Landroid/view/View;
 
-    const v2, 0x7f0b3433
+    sget v2, Lcom/resouce/module/ResID;->widget_config_pre_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     .line 10
     iget v5, p0, Lelp;->W:I
 
-    const v6, 0x7f081fc2
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->widget_pre_bg_light:I
 
     if-ne v4, v5, :cond_1
 
@@ -274,7 +274,7 @@
     :cond_1
     const/4 v4, 0x2
 
-    const v7, 0x7f081fc1
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->widget_pre_bg_dark:I
 
     if-ne v4, v5, :cond_2
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04c0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->new_document_config:I
 
     const/4 v2, 0x0
 
@@ -377,7 +377,7 @@
 
     iput-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19ef
+    sget v1, Lcom/resouce/module/ResID;->new_document_widget_finish:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -387,7 +387,7 @@
     .line 5
     iget-object v1, p0, Lelp;->T:Landroid/view/View;
 
-    const v2, 0x7f0b00fe
+    sget v2, Lcom/resouce/module/ResID;->alpha_progress:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -424,7 +424,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19ec
+    sget v1, Lcom/resouce/module/ResID;->new_document_radioGroup:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -459,7 +459,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b3431
+    sget v1, Lcom/resouce/module/ResID;->widget_color_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -485,7 +485,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19ec
+    sget v1, Lcom/resouce/module/ResID;->new_document_radioGroup:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
 
     check-cast v0, Landroid/widget/RadioGroup;
 
-    const v1, 0x7f0b29fd
+    sget v1, Lcom/resouce/module/ResID;->scan:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/RadioGroup;->findViewById(I)Landroid/view/View;
@@ -512,7 +512,7 @@
     .line 4
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f12146f
+    sget v3, Lcom/resouce/module/ResSTRING;->new_scan_tips:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -525,7 +525,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -582,7 +582,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19ec
+    sget v1, Lcom/resouce/module/ResID;->new_document_radioGroup:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -646,7 +646,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0524
+    sget v1, Lcom/resouce/module/ResID;->config_widget_color_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -722,7 +722,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121fa9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_custom_widget:I
 
     return v0
 .end method
@@ -746,7 +746,7 @@
     .line 2
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19eb
+    sget v1, Lcom/resouce/module/ResID;->new_document_config_open_type:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -792,7 +792,7 @@
     .line 1
     iget-object v0, p0, Lelp;->T:Landroid/view/View;
 
-    const v1, 0x7f0b19ed
+    sget v1, Lcom/resouce/module/ResID;->new_document_seekBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -880,7 +880,7 @@
     .line 2
     iget-object v1, p0, Lelp;->T:Landroid/view/View;
 
-    const v2, 0x7f0b19ec
+    sget v2, Lcom/resouce/module/ResID;->new_document_radioGroup:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -969,24 +969,24 @@
     const/4 v4, 0x0
 
     :goto_0
-    const v0, 0x7f0b19ea
+    sget v0, Lcom/resouce/module/ResID;->new_doc:I
 
     packed-switch v4, :pswitch_data_0
 
     goto :goto_1
 
     :pswitch_0
-    const v0, 0x7f0b29fd
+    sget v0, Lcom/resouce/module/ResID;->scan:I
 
     goto :goto_1
 
     :pswitch_1
-    const v0, 0x7f0b1a05
+    sget v0, Lcom/resouce/module/ResID;->new_ppt:I
 
     goto :goto_1
 
     :pswitch_2
-    const v0, 0x7f0b19f1
+    sget v0, Lcom/resouce/module/ResID;->new_et:I
 
     .line 5
     :goto_1
@@ -1218,7 +1218,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b19ef
+    sget v0, Lcom/resouce/module/ResID;->new_document_widget_finish:I
 
     if-ne p1, v0, :cond_0
 
@@ -1228,7 +1228,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0524
+    sget v0, Lcom/resouce/module/ResID;->config_widget_color_wrap:I
 
     if-ne p1, v0, :cond_1
 
@@ -1289,7 +1289,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0f35
+    sget v2, Lcom/resouce/module/ResLAYOUT;->select_color_config:I
 
     const/4 v3, 0x0
 
@@ -1297,7 +1297,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b04b9
+    sget v2, Lcom/resouce/module/ResID;->color_select_group:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1320,7 +1320,7 @@
 
     invoke-direct {v2, p0, v0}, Lelp$d;-><init>(Lelp;Lhd3;)V
 
-    const v3, 0x7f0b3436
+    sget v3, Lcom/resouce/module/ResID;->widget_fellow_system:I
 
     .line 12
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1329,7 +1329,7 @@
 
     check-cast v3, Landroid/widget/RadioButton;
 
-    const v4, 0x7f0b343d
+    sget v4, Lcom/resouce/module/ResID;->widget_light_color:I
 
     .line 13
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1338,7 +1338,7 @@
 
     check-cast v4, Landroid/widget/RadioButton;
 
-    const v5, 0x7f0b3435
+    sget v5, Lcom/resouce/module/ResID;->widget_dark_color:I
 
     .line 14
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1364,7 +1364,7 @@
 
     invoke-direct {v1, p0, v0}, Lelp$e;-><init>(Lelp;Lhd3;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

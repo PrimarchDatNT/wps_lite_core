@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e05e7
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_ss_title_state_layout:I
 
     const/4 v4, 0x0
 
@@ -246,7 +246,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070baf
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_menu_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -266,7 +266,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/titletext/AppTitleTextFragment;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/titletext/AppTitleTextFragment;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -320,9 +320,9 @@
 
     move-result v0
 
-    const v1, 0x7f070bab
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_hor:I
 
-    const v2, 0x7f070bac
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_ver:I
 
     if-eqz v0, :cond_1
 

@@ -18,14 +18,14 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b0481
+    sget v0, Lcom/resouce/module/ResID;->cloud_usage_root_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b26fb
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_space_usage_progress:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lct7;->a:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b2c82
+    sget v0, Lcom/resouce/module/ResID;->space_usage:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     iput-object v0, p0, Lct7;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2c81
+    sget v0, Lcom/resouce/module/ResID;->space_status:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     aput-object v1, v3, v0
 
-    const v0, 0x7f121f02
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloudspace_guide_space_usage:I
 
     invoke-virtual {p2, v0, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
     .line 6
     iget-object p1, p0, Lct7;->c:Landroid/widget/TextView;
 
-    const p2, 0x7f120f7e
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_cloud_not_enough_tips:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -181,7 +181,7 @@
     :cond_1
     iget-object p1, p0, Lct7;->c:Landroid/widget/TextView;
 
-    const p2, 0x7f120f80
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_cloud_tips:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

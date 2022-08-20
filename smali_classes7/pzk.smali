@@ -378,7 +378,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122017
+    sget v1, Lcom/resouce/module/ResSTRING;->public_domain_datetime:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -401,7 +401,7 @@
     invoke-virtual {v0}, Lhd3;->setLimitHeight()V
 
     :cond_0
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     new-instance v2, Lpzk$b;
@@ -410,7 +410,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     new-instance v2, Lpzk$c;
@@ -432,12 +432,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09e3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_insert_date_and_time_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10ab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_insert_date_and_time_dialog:I
 
     :goto_0
     const/4 v1, 0x0
@@ -447,7 +447,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b35b2
+    sget v2, Lcom/resouce/module/ResID;->writer_insert_date_scrollview:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
 
     check-cast v2, Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b34db
+    sget v3, Lcom/resouce/module/ResID;->writer_domain_language_content:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
 
     iput-object v3, p0, Lpzk;->k0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v3, 0x7f0b34d9
+    sget v3, Lcom/resouce/module/ResID;->writer_domain_format_content:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object v3, p0, Lpzk;->l0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v3, 0x7f0b34d8
+    sget v3, Lcom/resouce/module/ResID;->writer_domain_auto_update:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -529,7 +529,7 @@
     .line 11
     iget-object v1, p0, Lpzk;->k0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v4, 0x7f0820b4
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->writer_underline:I
 
     invoke-virtual {v1, v4}, Lcn/wps/moffice/common/beans/NewSpinner;->setDefaultSelector(I)V
 
@@ -626,7 +626,7 @@
 
     iget-object v3, p0, Lpzk;->h0:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v4, v3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -663,7 +663,7 @@
 
     iget-object v3, p0, Lpzk;->g0:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v4, v3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

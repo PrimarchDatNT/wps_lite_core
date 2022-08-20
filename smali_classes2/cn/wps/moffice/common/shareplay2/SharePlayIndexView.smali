@@ -46,13 +46,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e43
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_shareplay_index:I
 
     if-eqz v1, :cond_0
 
     if-nez v0, :cond_0
 
-    const v3, 0x7f0e0e44
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_shareplay_index_pad:I
 
     goto :goto_0
 
@@ -74,7 +74,7 @@
     goto :goto_0
 
     :cond_2
-    const v3, 0x7f0e0289
+    sget v3, Lcom/resouce/module/ResLAYOUT;->foreign_public_shareplay_index:I
 
     .line 6
     :goto_0
@@ -82,13 +82,13 @@
 
     const/16 v3, 0x8
 
-    const v4, 0x7f0b272a
+    sget v4, Lcom/resouce/module/ResID;->public_shareplay_know_more:I
 
     if-eqz v1, :cond_3
 
     if-nez v0, :cond_3
 
-    const v5, 0x7f0b2726
+    sget v5, Lcom/resouce/module/ResID;->public_shareplay_index_pad_content:I
 
     .line 7
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     check-cast v5, Lcn/wps/moffice/common/shareplay2/LeftRightSpaceView;
 
-    const v6, 0x7f0e0e45
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_shareplay_index_pad_content:I
 
     const/4 v7, 0x0
 
@@ -128,7 +128,7 @@
 
     if-eqz v0, :cond_5
 
-    const v2, 0x7f0b3295
+    sget v2, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 12
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070512
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_guide_select_introduce_title_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -151,7 +151,7 @@
 
     invoke-virtual {v2, v6, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f0b3297
+    sget v2, Lcom/resouce/module/ResID;->tv_title_desc:I
 
     .line 13
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f070515
+    sget v7, Lcom/resouce/module/ResDIMEN;->pad_guide_select_sub_title_text_size:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -172,7 +172,7 @@
 
     invoke-virtual {v2, v6, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f0b2f1c
+    sget v2, Lcom/resouce/module/ResID;->text_introduce:I
 
     .line 14
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f070513
+    sget v7, Lcom/resouce/module/ResDIMEN;->pad_guide_select_member_text_size:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -207,12 +207,12 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v5, 0x7f121c39
+    sget v5, Lcom/resouce/module/ResSTRING;->ppt_shareplay_supported_version_tip:I
 
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(I)V
 
     :cond_4
-    const v2, 0x7f0b1f4e
+    sget v2, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_1_text:I
 
     .line 17
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f070511
+    sget v7, Lcom/resouce/module/ResDIMEN;->pad_guide_select_introduce_text_text_size:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -234,7 +234,7 @@
 
     invoke-virtual {v2, v6, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f0b1f50
+    sget v2, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_2_text:I
 
     .line 19
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     invoke-virtual {v2, v6, v5}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f0b1f52
+    sget v2, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_3_text:I
 
     .line 21
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b272a
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_know_more:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2727
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_join:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b272b
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_launch:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -382,7 +382,7 @@
     invoke-virtual {v0, p0, v1, v2}, Lbgf;->a(Landroid/view/View;ILjava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f0b337a
+    sget v0, Lcom/resouce/module/ResID;->video_player:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b272a
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_know_more:I
 
     if-ne v0, v1, :cond_0
 
@@ -437,7 +437,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b272b
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_launch:I
 
     if-ne v0, v1, :cond_1
 
@@ -452,7 +452,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2727
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_join:I
 
     if-ne v0, v1, :cond_2
 

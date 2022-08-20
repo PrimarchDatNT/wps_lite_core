@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f120ef8
+    sget v3, Lcom/resouce/module/ResSTRING;->home_enterprise_activate_success:I
 
     const/4 v4, 0x0
 

@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0374
+    sget p2, Lcom/resouce/module/ResID;->cb_do_not_send_otp:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0378
+    sget p2, Lcom/resouce/module/ResID;->cb_send_otp:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -30,9 +30,9 @@
     .line 2
     sget-boolean p1, Ljif;->o:Z
 
-    const p1, 0x7f080447
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_table_filter_multiple:I
 
-    const v0, 0x7f120b8a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_multi_condition_filter:I
 
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V
 

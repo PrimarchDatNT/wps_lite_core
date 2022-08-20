@@ -72,7 +72,7 @@
     .line 5
     iget-object p1, p0, Lm85$b;->a:Lm85;
 
-    const v2, 0x7f122825
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save_choose_position:I
 
     invoke-virtual {p1, v2}, Lm85;->G(I)V
 

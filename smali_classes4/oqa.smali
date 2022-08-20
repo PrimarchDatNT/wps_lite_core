@@ -115,7 +115,7 @@
     .line 3
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v1, 0x7f12279e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rating_dialog_title:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -124,7 +124,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f122796
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rating_dialog_content:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -138,7 +138,7 @@
 
     invoke-direct {v1, v0, p0}, Loqa$g;-><init>(Lhd9;Landroid/app/Activity;)V
 
-    const v2, 0x7f12279a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rating_dialog_great:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -147,7 +147,7 @@
 
     invoke-direct {v1, p0}, Loqa$h;-><init>(Landroid/app/Activity;)V
 
-    const v2, 0x7f12279c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rating_dialog_no_great:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -156,7 +156,7 @@
 
     invoke-direct {v1, v0}, Loqa$i;-><init>(Lhd9;)V
 
-    const v2, 0x7f122792
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rating_cancle:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -176,7 +176,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -207,7 +207,7 @@
     invoke-virtual {v1, v2, v0}, Lmm8;->h(Lnm8;Lmm8$b;)V
 
     :cond_0
-    const v1, 0x7f0b27d3
+    sget v1, Lcom/resouce/module/ResID;->rating_five_star:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b27d2
+    sget v1, Lcom/resouce/module/ResID;->rating_feedback:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b27d6
+    sget v1, Lcom/resouce/module/ResID;->rating_no_thanks:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b27d5
+    sget v1, Lcom/resouce/module/ResID;->rating_invite_friends:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -351,16 +351,16 @@
     .line 2
     new-instance v1, Landroid/app/Dialog;
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v1, p0, v2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0e0388
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_rating_dialog_layout:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->setContentView(I)V
 
-    const v2, 0x7f0b0680
+    sget v2, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -371,14 +371,14 @@
 
     invoke-virtual {v2, p0}, Lcn/wps/moffice/main/rating/RatingDialogLayout;->a(Landroid/app/Activity;)V
 
-    const v2, 0x7f0b29a6
+    sget v2, Lcom/resouce/module/ResID;->root:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0808a6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_rating_bottom_en_bg:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -452,11 +452,11 @@
 
     invoke-virtual {v0}, Lcv3;->l()V
 
-    const v0, 0x7f0808a6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_rating_bottom_en_bg:I
 
-    const v1, 0x7f0b29a6
+    sget v1, Lcom/resouce/module/ResID;->root:I
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     const/4 v3, 0x1
 
@@ -477,7 +477,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e0389
+    sget v5, Lcom/resouce/module/ResLAYOUT;->home_rating_guide_en:I
 
     invoke-virtual {v4, v5, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -516,7 +516,7 @@
     .line 12
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->gravity:I
 
-    const v1, 0x7f13044d
+    sget v1, Lcom/resouce/module/ResSTYLE;->home_dialog_bottom_in_out_animal:I
 
     .line 13
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -541,12 +541,12 @@
 
     invoke-direct {p1, p0, v2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0e0388
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_rating_dialog_layout:I
 
     .line 17
     invoke-virtual {p1, v2}, Landroid/app/Dialog;->setContentView(I)V
 
-    const v2, 0x7f0b0680
+    sget v2, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 18
     invoke-virtual {p1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -605,7 +605,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cfa
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_center_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -630,7 +630,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e038a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_rating_guide_hawei:I
 
     const/4 v4, 0x0
 
@@ -657,7 +657,7 @@
     .line 9
     invoke-virtual {v1, v3}, Lhd3;->setBackground(I)V
 
-    const v3, 0x7f0b0c92
+    sget v3, Lcom/resouce/module/ResID;->feedback:I
 
     .line 10
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -666,7 +666,7 @@
 
     check-cast v3, Landroid/widget/Button;
 
-    const v4, 0x7f0b27d1
+    sget v4, Lcom/resouce/module/ResID;->rating_close:I
 
     .line 11
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
     .line 12
     invoke-virtual {v3, v5}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const v6, 0x7f0b2266
+    sget v6, Lcom/resouce/module/ResID;->pop_evaluate_listview_ratingbar:I
 
     .line 13
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -785,7 +785,7 @@
     const-string v0, "3000019"
 
     :goto_0
-    const v2, 0x7f122ed9
+    sget v2, Lcom/resouce/module/ResSTRING;->service_center_product_name:I
 
     .line 3
     invoke-virtual {p2, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -822,7 +822,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f122eda
+    sget p1, Lcom/resouce/module/ResSTRING;->service_center_title:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -164,7 +164,7 @@
 
     sget-object v2, Lre5;->S:Lre5;
 
-    const v3, 0x7f1232a5
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_domain_datetime_lanuage_selector_en:I
 
     if-eq v1, v2, :cond_3
 
@@ -193,7 +193,7 @@
     .line 4
     iget-object v1, p0, Lnzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f123131
+    sget v2, Lcom/resouce/module/ResSTRING;->twslang_th:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -214,7 +214,7 @@
     .line 6
     iget-object v1, p0, Lnzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f1230fe
+    sget v2, Lcom/resouce/module/ResSTRING;->twslang_ar:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
     :goto_0
     iget-object v1, p0, Lnzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f1232a4
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_domain_datetime_lanuage_selector_cn:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

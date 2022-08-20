@@ -16,7 +16,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09f5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_quick_bar_highlight_item_layout:I
 
     const/4 v2, 0x0
 
@@ -24,7 +24,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_highlight:I
 
     const-string v2, "highlight"
 
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3656
+    sget v1, Lcom/resouce/module/ResID;->writer_quick_bar_highlight_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080408
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlight3:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -111,7 +111,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605ee
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -143,7 +143,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080407
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlight2:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -165,7 +165,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080406
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlight1:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -179,7 +179,7 @@
     .line 11
     iget-object v0, p0, Lghl;->C0:Landroid/content/Context;
 
-    const v1, 0x7f12335f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_cancel_highlight:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
     :cond_3
     iget-object v0, p0, Lghl;->C0:Landroid/content/Context;
 
-    const v1, 0x7f1221b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_highlight:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

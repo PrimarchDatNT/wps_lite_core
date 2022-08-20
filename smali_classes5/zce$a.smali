@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122a3d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_switch_slide_scale_failed:I
 
     const/4 v2, 0x0
 

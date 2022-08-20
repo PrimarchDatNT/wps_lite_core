@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b16b8
+    sget v1, Lcom/resouce/module/ResID;->ll_open_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
 
     iput-object v0, p0, Liy8;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b04f1
+    sget v1, Lcom/resouce/module/ResID;->compressfile_btn_path:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -387,7 +387,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04f0
+    sget v1, Lcom/resouce/module/ResID;->compressfile_btn_execute:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -422,7 +422,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0886
+    sget v1, Lcom/resouce/module/ResID;->encoding:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1632
+    sget v1, Lcom/resouce/module/ResID;->listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -588,7 +588,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0711
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_compressfile_popup:I
 
     const/4 v2, 0x0
 
@@ -624,7 +624,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -663,7 +663,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e070d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_compressfile:I
 
     const/4 v2, 0x0
 
@@ -702,7 +702,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2c6f
+    sget v1, Lcom/resouce/module/ResID;->sort:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -747,7 +747,7 @@
     .line 4
     iget-object v0, p0, Liy8;->c0:Lhd3;
 
-    const v1, 0x7f1206a6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sort_type:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -763,7 +763,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e075d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_sort_layout:I
 
     const/4 v3, 0x0
 
@@ -773,7 +773,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2c73
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_radio:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -782,7 +782,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b2c77
+    sget v3, Lcom/resouce/module/ResID;->sortby_time_radio:I
 
     .line 8
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -791,7 +791,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b2c72
+    sget v4, Lcom/resouce/module/ResID;->sortby_name_layout:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -800,7 +800,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b2c76
+    sget v4, Lcom/resouce/module/ResID;->sortby_time_layout:I
 
     .line 10
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b2c75
+    sget v4, Lcom/resouce/module/ResID;->sortby_size_radio:I
 
     .line 11
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -818,7 +818,7 @@
 
     invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b2c74
+    sget v5, Lcom/resouce/module/ResID;->sortby_size_layout:I
 
     .line 12
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -922,7 +922,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3033
+    sget v1, Lcom/resouce/module/ResID;->titlebar_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -988,7 +988,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0406
+    sget v1, Lcom/resouce/module/ResID;->circleLoaderView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -104,7 +104,7 @@
     .line 1
     iget-object p2, p0, Lxdl;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e1055
+    sget v1, Lcom/resouce/module/ResLAYOUT;->word_merge_selected_file_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 6
     iget-object v1, p3, Lxdl$b;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080567
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -159,7 +159,7 @@
     :cond_1
     iget-object v1, p3, Lxdl$b;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080576
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_text:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

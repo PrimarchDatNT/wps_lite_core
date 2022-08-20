@@ -366,7 +366,7 @@
     .line 1
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c18
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_font_narrow:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -380,7 +380,7 @@
     .line 3
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c17
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_font_enlarge:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
     .line 5
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c10
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_close:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
     .line 7
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c12
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_middle:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
     .line 9
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c11
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_loose:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -436,7 +436,7 @@
     .line 11
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c15
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_insert_bookmark:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
     .line 12
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c13
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_all_bookmarks:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -462,7 +462,7 @@
     .line 13
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c0f
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_jump_to:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -475,7 +475,7 @@
     .line 14
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c14
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_flip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
     .line 15
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c16
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_scroll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
     .line 16
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c0d
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_document_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -514,7 +514,7 @@
     .line 17
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1c0e
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_document_progress_host:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 30
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b020f
+    sget v1, Lcom/resouce/module/ResID;->bg_light_prink_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -622,7 +622,7 @@
     .line 31
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0215
+    sget v1, Lcom/resouce/module/ResID;->bg_white_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -640,7 +640,7 @@
     .line 33
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0207
+    sget v1, Lcom/resouce/module/ResID;->bg_cowhide_yellow_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -651,7 +651,7 @@
     .line 34
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0209
+    sget v1, Lcom/resouce/module/ResID;->bg_dark_brown_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -662,7 +662,7 @@
     .line 35
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0205
+    sget v1, Lcom/resouce/module/ResID;->bg_blue_green_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -673,7 +673,7 @@
     .line 36
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b020e
+    sget v1, Lcom/resouce/module/ResID;->bg_light_blue_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -684,7 +684,7 @@
     .line 37
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b020a
+    sget v1, Lcom/resouce/module/ResID;->bg_eye_protection_green_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
     .line 38
     iget-object v0, p0, Lxwc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0208
+    sget v1, Lcom/resouce/module/ResID;->bg_dark_blue_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

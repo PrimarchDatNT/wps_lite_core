@@ -155,12 +155,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f020014
+    sget v0, Lcom/resouce/module/ResANIMATOR;->mtrl_extended_fab_change_size_expand_motion_spec:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f020013
+    sget v0, Lcom/resouce/module/ResANIMATOR;->mtrl_extended_fab_change_size_collapse_motion_spec:I
 
     :goto_0
     return v0

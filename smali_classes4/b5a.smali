@@ -4250,7 +4250,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1212a5
+    sget v3, Lcom/resouce/module/ResSTRING;->huawei_audio_assist_open_file_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

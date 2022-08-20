@@ -148,12 +148,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f081ac5
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_phone_home_search_free:I
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f08094a
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->icon_docer_mark_flag:I
 
     :goto_0
     invoke-virtual {v0, p2}, Landroid/widget/ImageView;->setImageResource(I)V

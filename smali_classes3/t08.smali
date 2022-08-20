@@ -82,7 +82,7 @@
 .method public Q()I
     .locals 1
 
-    const v0, 0x7f0e032b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_listview_item:I
 
     return v0
 .end method
@@ -90,7 +90,7 @@
 .method public T(Lc08;)I
     .locals 0
 
-    const p1, 0x7f0e0720
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_list_pinned_header_item_layout:I
 
     return p1
 .end method
@@ -262,7 +262,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06023e
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -275,7 +275,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023c
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_background_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c71
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_home:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -313,7 +313,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c74
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_home:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -324,7 +324,7 @@
     .line 10
     iget-object p1, p2, Lf68$b0;->l:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v0, 0x7f081688
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_upload:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
 

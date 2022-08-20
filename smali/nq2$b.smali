@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b16c8
+    sget v0, Lcom/resouce/module/ResID;->ll_privilege_container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lnq2$b;->a:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b14a8
+    sget v0, Lcom/resouce/module/ResID;->iv_privilege_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lnq2$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b3227
+    sget v0, Lcom/resouce/module/ResID;->tv_privilege_desc:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

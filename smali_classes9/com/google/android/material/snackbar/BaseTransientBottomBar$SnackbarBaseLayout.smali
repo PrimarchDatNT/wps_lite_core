@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0704cb
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_snackbar_background_corner_radius:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -231,9 +231,9 @@
 
     move-result v0
 
-    const v2, 0x7f040140
+    sget v2, Lcom/resouce/module/ResATTR;->colorSurface:I
 
-    const v3, 0x7f040138
+    sget v3, Lcom/resouce/module/ResATTR;->colorOnSurface:I
 
     .line 6
     invoke-static {p0, v2, v3, v0}, Luxt;->h(Landroid/view/View;IIF)I

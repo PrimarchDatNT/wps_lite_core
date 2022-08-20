@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12250d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1200cd
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_error_by_upload:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

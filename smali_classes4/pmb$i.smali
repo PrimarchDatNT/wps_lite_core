@@ -166,7 +166,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f1221d0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fontname_monotype_purchase_cycle:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -196,9 +196,9 @@
 
     move-result v2
 
-    const v4, 0x7f121c9c
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
-    const v5, 0x7f121c9b
+    sget v5, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     if-eqz v2, :cond_5
 
@@ -346,7 +346,7 @@
     return-object v1
 
     :cond_5
-    const p1, 0x7f122ada
+    sget p1, Lcom/resouce/module/ResSTRING;->public_three_month:I
 
     .line 16
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -369,7 +369,7 @@
 
     invoke-virtual {p1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f1225c4
+    sget p2, Lcom/resouce/module/ResSTRING;->public_order_week:I
 
     invoke-virtual {v0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -832,14 +832,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fe4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->unpaid_order_list_adapter_item:I
 
     .line 3
     invoke-virtual {v0, v1, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p3
 
-    const v0, 0x7f0b3300
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_purchase_title:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -850,7 +850,7 @@
 
     iput-object v0, p2, Lpmb$j;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32ff
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_price_tv:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -861,7 +861,7 @@
 
     iput-object v0, p2, Lpmb$j;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3301
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_subs_period:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -872,7 +872,7 @@
 
     iput-object v0, p2, Lpmb$j;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32fc
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_icon:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -883,7 +883,7 @@
 
     iput-object v0, p2, Lpmb$j;->d:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3302
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_type_name:I
 
     .line 8
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -894,7 +894,7 @@
 
     iput-object v0, p2, Lpmb$j;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32fb
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_create_time:I
 
     .line 9
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -905,7 +905,7 @@
 
     iput-object v0, p2, Lpmb$j;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32fa
+    sget v0, Lcom/resouce/module/ResID;->unpaid_order_buy:I
 
     .line 10
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -925,7 +925,7 @@
 
     iput-object v0, p2, Lpmb$j;->i:Lamb;
 
-    const v0, 0x7f0b1b7e
+    sget v0, Lcom/resouce/module/ResID;->order_select_item_checkbox:I
 
     .line 12
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1082,7 +1082,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0819c7
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 30
     invoke-virtual {v2, v4}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -1262,7 +1262,7 @@
     .line 46
     iget-object p1, p2, Lpmb$j;->h:Lcn/wps/moffice/main/fileselect/multiselect/view/MultiSelectCheckBoxImageView;
 
-    const v2, 0x7f081fcc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1272,7 +1272,7 @@
     :cond_4
     iget-object p1, p2, Lpmb$j;->h:Lcn/wps/moffice/main/fileselect/multiselect/view/MultiSelectCheckBoxImageView;
 
-    const v2, 0x7f08122b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

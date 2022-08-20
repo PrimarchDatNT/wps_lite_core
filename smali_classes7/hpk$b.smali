@@ -107,7 +107,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-static {v2}, Lhpk;->b0(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f12209f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-static {v2}, Lhpk;->c0(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f122c12
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-static {v2}, Lhpk;->j0(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f122c10
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-static {v2}, Lhpk;->k0(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
 
     move-result v0
 
-    const v1, 0x7f120cd4
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     const-string v2, "translate"
 
@@ -202,7 +202,7 @@
 
     new-instance v3, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v5, 0x7f1217dd
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-static {v5}, Lhpk;->m0(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     new-instance v3, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v5, 0x7f122266
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-static {v5}, Lhpk;->n0(I)Ljava/lang/String;
 
@@ -236,7 +236,7 @@
 
     new-instance v3, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v5, 0x7f121803
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     invoke-static {v5}, Lhpk;->o0(I)Ljava/lang/String;
 
@@ -274,7 +274,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f120147
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-static {v2}, Lhpk;->q0(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1233ca
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
     invoke-static {v2}, Lhpk;->d0(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f121638
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     invoke-static {v2}, Lhpk;->e0(I)Ljava/lang/String;
 
@@ -331,7 +331,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121639
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check_job:I
 
     invoke-static {v3}, Lhpk;->f0(I)Ljava/lang/String;
 
@@ -346,7 +346,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f121661
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_down_repetition:I
 
     invoke-static {v2}, Lhpk;->g0(I)Ljava/lang/String;
 
@@ -363,7 +363,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1200e0
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-static {v2}, Lhpk;->h0(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1230a2
+    sget v2, Lcom/resouce/module/ResSTRING;->template_resume_helper:I
 
     invoke-static {v2}, Lhpk;->i0(I)Ljava/lang/String;
 

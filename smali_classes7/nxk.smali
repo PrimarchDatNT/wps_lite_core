@@ -394,7 +394,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1232ff
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_layout_comment_comment_revise:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

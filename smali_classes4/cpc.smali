@@ -102,7 +102,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070959
+    sget v5, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_preview_margin:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -121,7 +121,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f07095a
+    sget v5, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_share_preview_item_padding:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 

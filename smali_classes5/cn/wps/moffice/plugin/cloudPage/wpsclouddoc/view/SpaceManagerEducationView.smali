@@ -90,12 +90,12 @@
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const v1, 0x7f0e046c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_space_manager_education:I
 
     .line 2
     invoke-static {p1, v1, p0}, Landroid/widget/LinearLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v1, 0x7f0b3157
+    sget v1, Lcom/resouce/module/ResID;->tv_education_title:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->B:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3156
+    sget v1, Lcom/resouce/module/ResID;->tv_education_desc:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3188
+    sget v1, Lcom/resouce/module/ResID;->tv_func_title:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f0b317d
+    sget v1, Lcom/resouce/module/ResID;->tv_func_desc:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3171
+    sget v1, Lcom/resouce/module/ResID;->tv_func:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b145f
+    sget v1, Lcom/resouce/module/ResID;->iv_func_icon:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1447
+    sget v1, Lcom/resouce/module/ResID;->iv_education:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/plugin/cloudPage/wpsclouddoc/view/SpaceManagerEducationView;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1665
+    sget v1, Lcom/resouce/module/ResID;->ll_func:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

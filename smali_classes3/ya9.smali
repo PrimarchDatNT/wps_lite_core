@@ -115,7 +115,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f122859
+    sget v6, Lcom/resouce/module/ResSTRING;->public_search_assistant_name:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121964
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_new_search_more_documents:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122e9d
+    sget v2, Lcom/resouce/module/ResSTRING;->search_lookup_more:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

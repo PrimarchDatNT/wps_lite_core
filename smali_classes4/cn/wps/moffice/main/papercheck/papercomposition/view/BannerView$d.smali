@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d64
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_template_view_item:I
 
     const/4 v2, 0x0
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b12a2
+    sget v1, Lcom/resouce/module/ResID;->image_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
     .line 6
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setBorderWidth(F)V
 
-    const v3, 0x7f060624
+    sget v3, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     .line 7
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setBorderColorResId(I)V
@@ -170,7 +170,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703a3
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 

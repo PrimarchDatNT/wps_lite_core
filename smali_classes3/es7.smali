@@ -234,7 +234,7 @@
     .line 10
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -281,7 +281,7 @@
     .line 1
     iget-object v0, p0, Les7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1064
+    sget v1, Lcom/resouce/module/ResID;->home_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -303,7 +303,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120e69
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_success:I
 
     const/4 v2, 0x0
 
@@ -461,7 +461,7 @@
     .line 1
     iget-object v0, p0, Les7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0784
+    sget v1, Lcom/resouce/module/ResID;->done_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03c5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_user_info_hobbies_layout:I
 
     const/4 v2, 0x0
 
@@ -581,7 +581,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e2d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_job_hobby:I
 
     return v0
 .end method
@@ -602,7 +602,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0784
+    sget v1, Lcom/resouce/module/ResID;->done_button:I
 
     if-ne v0, v1, :cond_0
 
@@ -705,7 +705,7 @@
     .line 1
     iget-object v0, p0, Les7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1064
+    sget v1, Lcom/resouce/module/ResID;->home_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

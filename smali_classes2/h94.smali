@@ -446,7 +446,7 @@
 
     iput-object v0, p0, Lh94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b1262
+    sget v1, Lcom/resouce/module/ResID;->image1:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -460,7 +460,7 @@
     .line 4
     iget-object v0, p0, Lh94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b1263
+    sget v1, Lcom/resouce/module/ResID;->image2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 5
     iget-object v0, p0, Lh94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b1264
+    sget v1, Lcom/resouce/module/ResID;->image3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
     .line 6
     iget-object v0, p0, Lh94;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -523,7 +523,7 @@
     .line 11
     iget-object p1, p0, Lh94;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2ccc
+    sget v0, Lcom/resouce/module/ResID;->spread:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
 .method public y()I
     .locals 1
 
-    const v0, 0x7f0e0c68
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_threepic:I
 
     return v0
 .end method

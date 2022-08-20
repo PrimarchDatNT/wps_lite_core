@@ -53,7 +53,7 @@
     .line 4
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b0286
+    sget p2, Lcom/resouce/module/ResID;->bottombar_content_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
     .line 5
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1f0b
+    sget p2, Lcom/resouce/module/ResID;->pdf_recompose:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -77,7 +77,7 @@
     .line 6
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1d76
+    sget p2, Lcom/resouce/module/ResID;->pdf_bottom_convert:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     .line 7
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1ea7
+    sget p2, Lcom/resouce/module/ResID;->pdf_play:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 8
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1f0a
+    sget p2, Lcom/resouce/module/ResID;->pdf_reading_options:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -110,7 +110,7 @@
     .line 9
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1eb4
+    sget p2, Lcom/resouce/module/ResID;->pdf_play_options:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 10
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1d7b
+    sget p2, Lcom/resouce/module/ResID;->pdf_bottom_tool_share:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 11
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1d88
+    sget p2, Lcom/resouce/module/ResID;->pdf_conversion:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
     .line 12
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1f1c
+    sget p2, Lcom/resouce/module/ResID;->pdf_send_to_pc:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -234,14 +234,14 @@
     .line 3
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f081f36
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_pdf_to_ppt:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 4
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f12176d
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -256,14 +256,14 @@
     .line 6
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f081f37
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_pdf_to_xls:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 7
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f121771
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -278,14 +278,14 @@
     .line 9
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f081f35
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_pdf_to_doc:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 10
     iget-object p1, p0, Ldxc;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f121769
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1061,7 +1061,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1f0a
+    sget v0, Lcom/resouce/module/ResID;->pdf_reading_options:I
 
     if-ne p1, v0, :cond_0
 
@@ -1071,7 +1071,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f0b1f0b
+    sget v0, Lcom/resouce/module/ResID;->pdf_recompose:I
 
     if-ne p1, v0, :cond_1
 
@@ -1083,7 +1083,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v0, 0x7f0b1ea7
+    sget v0, Lcom/resouce/module/ResID;->pdf_play:I
 
     if-ne p1, v0, :cond_2
 
@@ -1093,7 +1093,7 @@
     goto/16 :goto_3
 
     :cond_2
-    const v0, 0x7f0b1eb4
+    sget v0, Lcom/resouce/module/ResID;->pdf_play_options:I
 
     if-ne p1, v0, :cond_5
 
@@ -1162,7 +1162,7 @@
     goto/16 :goto_3
 
     :cond_5
-    const v0, 0x7f0b1d7b
+    sget v0, Lcom/resouce/module/ResID;->pdf_bottom_tool_share:I
 
     const/4 v1, 0x1
 
@@ -1373,7 +1373,7 @@
     goto/16 :goto_3
 
     :cond_a
-    const v0, 0x7f0b1d76
+    sget v0, Lcom/resouce/module/ResID;->pdf_bottom_convert:I
 
     if-ne p1, v0, :cond_b
 
@@ -1426,7 +1426,7 @@
     goto/16 :goto_3
 
     :cond_b
-    const v0, 0x7f0b1d88
+    sget v0, Lcom/resouce/module/ResID;->pdf_conversion:I
 
     if-ne p1, v0, :cond_c
 
@@ -1436,7 +1436,7 @@
     goto/16 :goto_3
 
     :cond_c
-    const v0, 0x7f0b1f1c
+    sget v0, Lcom/resouce/module/ResID;->pdf_send_to_pc:I
 
     if-ne p1, v0, :cond_f
 
@@ -1610,7 +1610,7 @@
     .line 6
     iget-object p1, p0, Lexc;->B:Landroid/app/Activity;
 
-    const v3, 0x7f0602cd
+    sget v3, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {p1, v3}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -1714,7 +1714,7 @@
     .line 18
     iget-object p1, p0, Lexc;->B:Landroid/app/Activity;
 
-    const p2, 0x7f0602cc
+    sget p2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {p1, p2}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -1893,7 +1893,7 @@
     .line 3
     iget-object v2, p0, Lexc;->I:Landroid/view/View;
 
-    const v3, 0x7f0b1a50
+    sget v3, Lcom/resouce/module/ResID;->normal_layout:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

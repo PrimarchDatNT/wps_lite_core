@@ -86,7 +86,7 @@
 
     iget-object p1, p1, Lsma;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -98,7 +98,7 @@
 
     iget-object p1, p1, Lsma;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

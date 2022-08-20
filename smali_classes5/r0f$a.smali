@@ -195,7 +195,7 @@
 
     iget-boolean v3, p0, Lr0f$a;->V:Z
 
-    const v4, 0x7f0603a2
+    sget v4, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v1, v4, v3}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
@@ -230,7 +230,7 @@
     .line 12
     iget-object v1, p1, Lr0f$b;->o0:Lcn/wpsx/support/ui/KButton;
 
-    const v3, 0x7f08200f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_reader_doc_tail_reader_btn_selector:I
 
     iget-boolean v4, p0, Lr0f$a;->V:Z
 
@@ -333,7 +333,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0416
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_insert_book_layout:I
 
     const/4 v2, 0x0
 

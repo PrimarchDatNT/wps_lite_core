@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="start|center" android:background="@drawable/phone_public_list_white_selector" android:paddingLeft="8.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/public_list_text_item_height" android:singleLine="true" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" style="@style/simple_dropdown_item_text_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

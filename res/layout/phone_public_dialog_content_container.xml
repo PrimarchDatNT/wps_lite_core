@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingTop="@dimen/phone_public_custom_default_vertical_padding" android:paddingBottom="@dimen/phone_public_custom_default_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.PercentLayout android:layout_gravity="center" android:id="@id/custom_container_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

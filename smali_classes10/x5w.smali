@@ -61,13 +61,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f11
+    sget v1, Lcom/resouce/module/ResLAYOUT;->search_phone_all_tab_hot_search_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b00f6
+    sget v0, Lcom/resouce/module/ResID;->all_tab_hot_search_layout:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     iget-object v1, p0, Lx5w;->b:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0f12
+    sget v2, Lcom/resouce/module/ResLAYOUT;->search_phone_all_tab_search_header:I
 
     const/4 v3, 0x0
 
@@ -171,7 +171,7 @@
 
     iget-object v1, p0, Lx5w;->b:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0f10
+    sget v2, Lcom/resouce/module/ResLAYOUT;->search_phone_all_tab_hot_search_item:I
 
     const/4 v3, 0x0
 
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b120b
+    sget v1, Lcom/resouce/module/ResID;->hot_search_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

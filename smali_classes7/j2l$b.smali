@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1232c5
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_fill_table_feedback_content_toast:I
 
     invoke-static {v1, v3}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -75,7 +75,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1232c3
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_fill_table_feedback_content:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120d19
+    sget v3, Lcom/resouce/module/ResSTRING;->feedback_send_contactnum_tips:I
 
     invoke-static {v1, v3}, Lbih;->r(Landroid/content/Context;I)V
 

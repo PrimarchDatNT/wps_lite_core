@@ -31,7 +31,7 @@
     .line 4
     iput-object p3, p0, Lc6w;->c:Landroid/view/View;
 
-    const p1, 0x7f0b3096
+    sget p1, Lcom/resouce/module/ResID;->total_search_skill_view:I
 
     .line 5
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iget-object p2, p0, Lc6w;->d:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f2e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_skill_tab_content_page:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

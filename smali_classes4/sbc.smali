@@ -724,13 +724,13 @@
     .line 2
     iget-boolean v0, p0, Lsbc;->i0:Z
 
-    const v1, 0x7f081121
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_shape_line_72px:I
 
-    const v2, 0x7f08111f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_shape_arrow_72px:I
 
-    const v3, 0x7f081120
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_shape_circle_72px:I
 
-    const v4, 0x7f081122
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_shape_square_72px:I
 
     const/16 v5, 0xb
 

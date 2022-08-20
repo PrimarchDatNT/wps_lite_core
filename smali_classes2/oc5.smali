@@ -202,7 +202,7 @@
     .line 1
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0695
+    sget v1, Lcom/resouce/module/ResID;->dialog_msg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 2
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b03bc
+    sget v1, Lcom/resouce/module/ResID;->check_send_editing_file_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 3
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b03bb
+    sget v1, Lcom/resouce/module/ResID;->check_send_editing_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 5
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2f33
+    sget v2, Lcom/resouce/module/ResID;->text_send_editing_file_name:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -257,7 +257,7 @@
     .line 6
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b069d
+    sget v2, Lcom/resouce/module/ResID;->dialog_secrete_refer:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -272,7 +272,7 @@
     .line 7
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b068d
+    sget v2, Lcom/resouce/module/ResID;->dialog_button_sendlog:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -306,7 +306,7 @@
     :cond_0
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0685
+    sget v2, Lcom/resouce/module/ResID;->dialog_button_cancel:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 11
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b068c
+    sget v2, Lcom/resouce/module/ResID;->dialog_button_read:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     .line 1
     iget-object v0, p0, Loc5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0687
+    sget v1, Lcom/resouce/module/ResID;->dialog_button_doc_fix:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -381,7 +381,7 @@
     .line 2
     iget-object v1, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b069e
+    sget v2, Lcom/resouce/module/ResID;->dialog_secrete_refer_detail:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12039f
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_fix_crash_dialog_secrete_reference_detail:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -405,7 +405,7 @@
     .line 4
     iget-object v1, p0, Loc5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b068d
+    sget v2, Lcom/resouce/module/ResID;->dialog_button_sendlog:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -524,7 +524,7 @@
 
     iget-object v1, p0, Loc5;->a:Landroid/content/Context;
 
-    const v2, 0x7f120df3
+    sget v2, Lcom/resouce/module/ResSTRING;->help_send_editing_file:I
 
     const/4 v3, 0x1
 

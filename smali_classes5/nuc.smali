@@ -260,7 +260,7 @@
     .line 2
     iget-object p2, p0, Lnuc;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0184
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pdf_extract_pages_thumb_item:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -272,7 +272,7 @@
     :cond_0
     iget-object p2, p0, Lnuc;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0639
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_extract_pages_thumb_item:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

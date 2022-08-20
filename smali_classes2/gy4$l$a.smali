@@ -145,7 +145,7 @@
 
     iget-object p1, p1, Lgy4$l;->B:Landroid/app/Activity;
 
-    const p2, 0x7f120654
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_upload_failed:I
 
     const/4 v0, 0x1
 

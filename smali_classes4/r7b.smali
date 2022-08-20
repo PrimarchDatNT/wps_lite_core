@@ -143,7 +143,7 @@
     .line 15
     iget-object v2, p0, Lr7b;->b0:Landroid/graphics/Paint;
 
-    const v3, 0x7f070e1a
+    sget v3, Lcom/resouce/module/ResDIMEN;->zoom_font_size:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -167,12 +167,12 @@
 
     invoke-virtual {v2, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    const v2, 0x7f0702bf
+    sget v2, Lcom/resouce/module/ResDIMEN;->focus_inner_stroke:I
 
     .line 18
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
-    const v2, 0x7f0702c0
+    sget v2, Lcom/resouce/module/ResDIMEN;->focus_outer_stroke:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -182,7 +182,7 @@
 
     invoke-direct {v2, p1, p0}, Landroid/view/ScaleGestureDetector;-><init>(Landroid/content/Context;Landroid/view/ScaleGestureDetector$OnScaleGestureListener;)V
 
-    const p1, 0x7f070e1b
+    sget p1, Lcom/resouce/module/ResDIMEN;->zoom_ring_min:I
 
     .line 21
     invoke-virtual {v1, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

@@ -563,7 +563,7 @@
     const/4 v0, 0x7
 
     :goto_0
-    const v1, 0x7f121e35
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_delete_file_dialog_content:I
 
     const/4 v2, 0x2
 
@@ -738,7 +738,7 @@
     .line 2
     iget-object v0, v10, La48;->B:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -822,7 +822,7 @@
     :goto_1
     iget-object v0, v10, La48;->B:Landroid/content/Context;
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -846,7 +846,7 @@
 
     move-result v7
 
-    const v12, 0x7f121dbf
+    sget v12, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     if-eqz v7, :cond_6
 
@@ -861,7 +861,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0ca8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_layout_delete_roaming_record_dialog:I
 
     const/4 v3, 0x0
 
@@ -898,7 +898,7 @@
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
     :cond_4
-    const v1, 0x7f0b2572
+    sget v1, Lcom/resouce/module/ResID;->public_cb_delete_document:I
 
     .line 20
     invoke-virtual {v13, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -912,7 +912,7 @@
     .line 21
     iget-object v1, v10, La48;->B:Landroid/content/Context;
 
-    const v14, 0x7f120592
+    sget v14, Lcom/resouce/module/ResSTRING;->documentmanager_delete_record:I
 
     invoke-virtual {v1, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -939,7 +939,7 @@
 
     invoke-direct/range {v0 .. v9}, La48$h;-><init>(La48;Lhd3;Landroid/view/View;Ljava/lang/Runnable;Ljava/lang/String;ZLandroid/widget/CheckBox;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
-    const v0, 0x7f120577
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     .line 25
     invoke-virtual {v11, v0, v15}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -962,7 +962,7 @@
 
     invoke-virtual {v11, v0}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v0, 0x7f12058e
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_deleteRecord:I
 
     .line 28
     invoke-virtual {v11, v0, v15}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -989,7 +989,7 @@
 
     move-result v4
 
-    const v6, 0x7f121e37
+    sget v6, Lcom/resouce/module/ResSTRING;->public_cloud_delete_file_dialog_title:I
 
     if-nez v4, :cond_f
 
@@ -1078,7 +1078,7 @@
 
     if-eqz v4, :cond_9
 
-    const v0, 0x7f121f44
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm_delete_selected_files:I
 
     .line 40
     invoke-virtual {v11, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -1113,7 +1113,7 @@
 
     move-result-object v0
 
-    const v6, 0x7f12208b
+    sget v6, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1128,7 +1128,7 @@
 
     move-result-object v6
 
-    const v13, 0x7f12208c
+    sget v13, Lcom/resouce/module/ResSTRING;->public_exit_share_confirm_msg:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1158,7 +1158,7 @@
 
     move-result-object v0
 
-    const v6, 0x7f121dc1
+    sget v6, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
     invoke-virtual {v0, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1173,7 +1173,7 @@
 
     move-result-object v6
 
-    const v13, 0x7f121dc2
+    sget v13, Lcom/resouce/module/ResSTRING;->public_cancel_share_confirm_msg:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1381,7 +1381,7 @@
 
     if-eqz v3, :cond_0
 
-    const v2, 0x7f121fc4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete_processing_doc:I
 
     :goto_0
     const/4 v1, 0x1
@@ -1406,7 +1406,7 @@
 
     if-ne v3, v6, :cond_1
 
-    const v2, 0x7f120591
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_delete_modified_file:I
 
     .line 6
     invoke-static {v0}, Llkh;->m(Ljava/lang/String;)Ljava/lang/String;

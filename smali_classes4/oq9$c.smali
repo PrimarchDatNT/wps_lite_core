@@ -29,14 +29,14 @@
 .method public l(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f122103
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_privacy_url:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f1220f9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_evidence_check_tips2:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

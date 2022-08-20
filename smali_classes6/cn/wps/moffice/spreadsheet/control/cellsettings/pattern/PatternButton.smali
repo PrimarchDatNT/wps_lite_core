@@ -30,7 +30,7 @@
     .line 3
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/pattern/PatternButton;->I:I
 
-    const p1, 0x7f1207be
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_style_none:I
 
     .line 4
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/pattern/PatternButton;->S:I

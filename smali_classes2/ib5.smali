@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0768
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_wps_support_dialog:I
 
     const/4 v2, 0x0
 
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lib5;->c:Landroid/view/View;
 
-    const v1, 0x7f0b2050
+    sget v1, Lcom/resouce/module/ResID;->phone_home_wps_support_dialog_usewps:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,12 +133,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f13012e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V

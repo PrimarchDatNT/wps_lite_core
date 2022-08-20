@@ -145,7 +145,7 @@
     .line 7
     iget-object v0, p0, Lox7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v2, 0x0
 
@@ -189,7 +189,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f12020f
+    sget p1, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_empty:I
 
     .line 2
     invoke-direct {p0, p1}, Lox7;->getString(I)Ljava/lang/String;
@@ -208,7 +208,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f120210
+    sget p1, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_format:I
 
     .line 4
     invoke-direct {p0, p1}, Lox7;->getString(I)Ljava/lang/String;
@@ -235,7 +235,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f120211
+    sget p1, Lcom/resouce/module/ResSTRING;->bind_phone_error_sms_code_empty:I
 
     .line 2
     invoke-direct {p0, p1}, Lox7;->getString(I)Ljava/lang/String;
@@ -350,7 +350,7 @@
     .line 1
     invoke-super {p0}, Llx7;->initViews()V
 
-    const v0, 0x7f0b29a7
+    sget v0, Lcom/resouce/module/ResID;->rootScrollView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     iput-object v0, p0, Lox7;->mScrollView:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b1f94
+    sget v0, Lcom/resouce/module/ResID;->phoneEditText:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     iput-object v0, p0, Lox7;->mPhoneEditText:Landroid/widget/EditText;
 
-    const v0, 0x7f0b2c66
+    sget v0, Lcom/resouce/module/ResID;->smsCodeEditText:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     iput-object v0, p0, Lox7;->mSmsCodeEditText:Landroid/widget/EditText;
 
-    const v0, 0x7f0b2b0f
+    sget v0, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     iput-object v0, p0, Lox7;->mSendCodeTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0b12e0
+    sget v0, Lcom/resouce/module/ResID;->incorrectCodeTipTextView:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Lox7;->mIncorrectCodeTipTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     iput-object v0, p0, Lox7;->mProgressBar:Landroid/view/View;
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -483,7 +483,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2b0f
+    sget v0, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     if-ne p1, v0, :cond_1
 
@@ -493,7 +493,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b344e
+    sget v0, Lcom/resouce/module/ResID;->withholdTextView:I
 
     if-ne p1, v0, :cond_2
 
@@ -508,7 +508,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    const v0, 0x7f0e0333
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_bind_no_phone_number_guide_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -546,7 +546,7 @@
     .line 2
     iget-object p1, p0, Lox7;->mResource:Landroid/content/res/Resources;
 
-    const v0, 0x7f120f3b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_input_correct_auth_code:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -606,7 +606,7 @@
     .line 1
     iget-object v0, p0, Lox7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121da7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v2, 0x0
 
@@ -717,7 +717,7 @@
     .line 4
     iget-object v0, p0, Lox7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v2, 0x0
 

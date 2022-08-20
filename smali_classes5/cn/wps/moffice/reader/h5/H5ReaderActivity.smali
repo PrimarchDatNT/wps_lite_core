@@ -64,12 +64,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f06003e
+    sget p1, Lcom/resouce/module/ResCOLOR;->black:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0606e0
+    sget p1, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 2
     :goto_0
@@ -141,7 +141,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1231e2
+    sget p1, Lcom/resouce/module/ResSTRING;->wps_cartoon_buy_failed:I
 
     .line 6
     invoke-virtual {p0, p1}, Lcn/wps/moffice/base/mvp/BaseActivity;->u(I)V
@@ -259,7 +259,7 @@
 .method public M()I
     .locals 1
 
-    const v0, 0x7f0e003a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_h5_reader:I
 
     return v0
 .end method
@@ -613,7 +613,7 @@
 .method public c(I)V
     .locals 1
 
-    const p1, 0x7f122d0d
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_network_error:I
 
     const/4 v0, 0x0
 
@@ -778,7 +778,7 @@
 .method public initView()V
     .locals 1
 
-    const v0, 0x7f0b3425
+    sget v0, Lcom/resouce/module/ResID;->web_reader:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;

@@ -109,7 +109,7 @@
     .line 9
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2f70    # 1.85009E38f
+    sget v1, Lcom/resouce/module/ResID;->the_end:I    # 1.85009E38f
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
     .line 11
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1302
+    sget v1, Lcom/resouce/module/ResID;->infoflow_vertical:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
     .line 12
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b12fc
+    sget v1, Lcom/resouce/module/ResID;->infoflow_horizonal:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -161,7 +161,7 @@
     .line 13
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b12ff
+    sget v1, Lcom/resouce/module/ResID;->infoflow_list_v:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
     .line 14
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b12fd
+    sget v1, Lcom/resouce/module/ResID;->infoflow_list_h:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
     .line 15
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0711
+    sget v1, Lcom/resouce/module/ResID;->doc_end_tip:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     .line 17
     iget-object p3, p0, Ln2c;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0712
+    sget v1, Lcom/resouce/module/ResID;->doc_end_tip_horz:I
 
     invoke-virtual {p3, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
 
     move-result p1
 
-    const p3, 0x7f0703ba
+    sget p3, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_tip_height:I
 
     if-nez p1, :cond_1
 
@@ -340,7 +340,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0703b9
+    sget v0, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_more_files_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -608,7 +608,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c84
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_returntodocbtn:I
 
     .line 3
     iget-object v2, p0, Ln2c;->d0:Landroid/view/ViewGroup;
@@ -619,7 +619,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b12fe
+    sget v1, Lcom/resouce/module/ResID;->infoflow_list_return_doc:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

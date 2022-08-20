@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060006
+    sget v1, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -388,7 +388,7 @@
     .line 1
     iget-object v0, p0, Lnsc;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef5
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_progress_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -437,7 +437,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0664
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_print:I
 
     iget-object v2, p0, Lnsc;->T:Landroid/view/ViewGroup;
 
@@ -449,7 +449,7 @@
     .line 7
     iget-object v0, p0, Lnsc;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1efc
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_tabs_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 8
     invoke-virtual {p0, v0}, Lnsc;->i3(Landroid/view/ViewGroup;)V
 
-    const v1, 0x7f0b1ed7
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_content_anchor:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -498,7 +498,7 @@
     .line 1
     iget-object v0, p0, Lnsc;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ede
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_header:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -515,7 +515,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1226b6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -621,7 +621,7 @@
     .line 1
     iget-object v0, p0, Lnsc;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef5
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_progress_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

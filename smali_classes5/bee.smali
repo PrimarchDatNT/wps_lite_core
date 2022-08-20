@@ -184,7 +184,7 @@
     .line 3
     iget-object p2, p0, Laee;->V:Landroid/view/View;
 
-    const v0, 0x7f0b243d
+    sget v0, Lcom/resouce/module/ResID;->ppt_table_attribute_tabhost:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122a60
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -224,14 +224,14 @@
     .line 7
     iget-object p2, p0, Laee;->Y:Ljava/lang/String;
 
-    const v0, 0x7f0b2446
+    sget v0, Lcom/resouce/module/ResID;->ppt_table_style_tab:I
 
     invoke-virtual {p0, p1, p2, v0}, Laee;->b(Landroid/content/Context;Ljava/lang/String;I)V
 
     .line 8
     iget-object p2, p0, Laee;->Z:Ljava/lang/String;
 
-    const v0, 0x7f0b2441
+    sget v0, Lcom/resouce/module/ResID;->ppt_table_border_and_color_tab:I
 
     invoke-virtual {p0, p1, p2, v0}, Laee;->b(Landroid/content/Context;Ljava/lang/String;I)V
 
@@ -278,11 +278,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b2435
+    sget v0, Lcom/resouce/module/ResID;->ppt_table_attribute_back:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b2437
+    sget v0, Lcom/resouce/module/ResID;->ppt_table_attribute_close:I
 
     if-ne p1, v0, :cond_1
 
@@ -300,7 +300,7 @@
     .line 1
     iget-object v0, p0, Lbee;->l0:Lcn/wps/moffice/presentation/Presentation;
 
-    const v1, 0x7f0b2310
+    sget v1, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -315,7 +315,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ad8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_table_attribute_pad:I
 
     const/4 v2, 0x0
 
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Laee;->S:Landroid/view/View;
 
-    const v1, 0x7f0b243b
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_pad_main:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f080602
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_common_tab_btn_selector:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -398,7 +398,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f081879
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_common_tab_btn_selected:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V

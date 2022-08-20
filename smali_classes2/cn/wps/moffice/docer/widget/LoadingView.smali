@@ -197,7 +197,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/docer/widget/LoadingView;->I:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f121bdb
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -240,7 +240,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e007a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->base_loading_view:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -265,9 +265,9 @@
 .method public f()V
     .locals 2
 
-    const v0, 0x7f081555
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
-    const v1, 0x7f120fa2
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_no_network:I
 
     .line 1
     invoke-virtual {p0, v0, v1}, Lcn/wps/moffice/docer/widget/LoadingView;->d(II)V

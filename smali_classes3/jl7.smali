@@ -50,7 +50,7 @@
 
     move-result v1
 
-    const v2, 0x7f0810b0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar:I
 
     if-eqz v1, :cond_0
 
@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08164d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_header_avator_more:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V
@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dc7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_sharefoldermodule_avator:I
 
     const/4 v2, 0x0
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01af
+    sget v1, Lcom/resouce/module/ResID;->avator:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

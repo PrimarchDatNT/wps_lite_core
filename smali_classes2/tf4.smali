@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d8d
+    sget v1, Lcom/resouce/module/ResSTRING;->fun_share_cover_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -134,7 +134,7 @@
     .line 4
     iget-object v1, p0, Lkb5$b;->V:Landroid/content/Context;
 
-    const v2, 0x7f121d3e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
 
     move-result-object p1
 
-    const v5, 0x7f081d1a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->push_notification:I
 
     .line 13
     invoke-virtual {p1, v5}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;

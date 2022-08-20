@@ -273,11 +273,11 @@
     .line 12
     iget-object p1, p0, Lvl8;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f08088e
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_pay_no_coupon:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f121486
+    sget p2, Lcom/resouce/module/ResSTRING;->no_usable_coupon:I
 
     .line 13
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -314,7 +314,7 @@
 
     const/4 p1, 0x0
 
-    const p2, 0x7f1212d8
+    sget p2, Lcom/resouce/module/ResSTRING;->infoflow_loading:I
 
     .line 19
     :try_start_0
@@ -368,7 +368,7 @@
     .line 24
     iget-object v0, p0, Lvl8;->U:Lcn/wps/moffice/common/beans/GifView;
 
-    const v1, 0x7f081aeb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_loading_ani:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/GifView;->setImageResource(I)V
     :try_end_1
@@ -402,16 +402,16 @@
     .line 30
     iget-object p1, p0, Lvl8;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f081555
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 31
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f121bdb
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 32
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -439,7 +439,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0277
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_my_coupons_tab_layout:I
 
     const/4 v2, 0x0
 
@@ -449,7 +449,7 @@
 
     iput-object v0, p0, Lvl8;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fbf
+    sget v1, Lcom/resouce/module/ResID;->tips_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
     .line 4
     iget-object v0, p0, Lvl8;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fbc
+    sget v1, Lcom/resouce/module/ResID;->tips_img_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -474,7 +474,7 @@
     .line 5
     iget-object v0, p0, Lvl8;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fc9
+    sget v1, Lcom/resouce/module/ResID;->tips_text_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -487,7 +487,7 @@
     .line 6
     iget-object v0, p0, Lvl8;->S:Landroid/view/View;
 
-    const v1, 0x7f0b059e
+    sget v1, Lcom/resouce/module/ResID;->coupon_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -500,7 +500,7 @@
     .line 7
     iget-object v0, p0, Lvl8;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0e73
+    sget v1, Lcom/resouce/module/ResID;->foreign_home_my_coupins_tab_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

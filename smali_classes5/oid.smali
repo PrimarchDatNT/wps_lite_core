@@ -319,7 +319,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121f66
+    sget v0, Lcom/resouce/module/ResSTRING;->public_converting:I
 
     .line 2
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -393,7 +393,7 @@
 .method public onDone()V
     .locals 2
 
-    const v0, 0x7f12174b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_success:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -442,7 +442,7 @@
 .method public onDownload()V
     .locals 2
 
-    const v0, 0x7f12202e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -460,7 +460,7 @@
 .method public onHandle()V
     .locals 2
 
-    const v0, 0x7f121795
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_handling:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -490,7 +490,7 @@
 .method public onUpload()V
     .locals 2
 
-    const v0, 0x7f121796
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

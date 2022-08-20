@@ -22,7 +22,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0e00cb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->design_navigation_item:I
 
     const/4 v1, 0x0
 

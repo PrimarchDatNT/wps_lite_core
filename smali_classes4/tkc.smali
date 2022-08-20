@@ -1225,7 +1225,7 @@
     :cond_1
     iget-object v0, p0, Ltkc;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1217a1
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_toast_not_network:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

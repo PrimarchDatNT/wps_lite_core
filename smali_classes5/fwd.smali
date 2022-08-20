@@ -26,7 +26,7 @@
 
     move-result v1
 
-    const v2, 0x7f122262
+    sget v2, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     invoke-direct {v0, p0, v1, v2}, Lfwd$b;-><init>(Lfwd;II)V
 
@@ -94,12 +94,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08022b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_history:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080bd0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_history_ppt:I
 
     :goto_0
     return v0

@@ -240,7 +240,7 @@
     .line 3
     iget-object v0, p0, Ly2e;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a6f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_bullets_popmenu:I
 
     const/4 v2, 0x0
 
@@ -250,7 +250,7 @@
 
     iput-object v0, p0, Ly2e;->a:Landroid/view/View;
 
-    const v1, 0x7f0b22a7
+    sget v1, Lcom/resouce/module/ResID;->ppt_bullets_pager:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -284,7 +284,7 @@
     .line 9
     iget-object v1, p0, Ly2e;->a:Landroid/view/View;
 
-    const v2, 0x7f0b22a8
+    sget v2, Lcom/resouce/module/ResID;->ppt_bullets_pager_indicator:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060009
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     .line 11
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -315,7 +315,7 @@
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/beans/phone/indicator/UnderlinePageIndicator;->setSelectedTextColor(I)V
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 13
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -392,7 +392,7 @@
     .line 2
     iget-object v0, p0, Ly2e;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a6d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_buchars_dialog:I
 
     const/4 v2, 0x0
 
@@ -400,7 +400,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b22a4
+    sget v3, Lcom/resouce/module/ResID;->ppt_buchars_grid:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

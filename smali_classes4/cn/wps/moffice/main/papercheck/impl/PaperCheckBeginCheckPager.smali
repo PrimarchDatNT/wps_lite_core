@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -251,7 +251,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -266,7 +266,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -314,7 +314,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f081b84
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -329,7 +329,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06051a
+    sget v3, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector_light:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -681,7 +681,7 @@
 .method public final p()V
     .locals 7
 
-    const v0, 0x7f0b03b0
+    sget v0, Lcom/resouce/module/ResID;->check_info:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckBeginCheckPager;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d86    # 1.8499906E38f
+    sget v0, Lcom/resouce/module/ResID;->start_check:I    # 1.8499906E38f
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -719,7 +719,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1233d6
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_panel_paper_report_bottom_paper_check_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -736,7 +736,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1085,7 +1085,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2e24
+    sget v0, Lcom/resouce/module/ResID;->tab_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1096,7 +1096,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckBeginCheckPager;->k0:Lcn/wps/moffice/main/fileselect/view/FileSelectTabPageIndicator;
 
-    const v0, 0x7f0b33c2
+    sget v0, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1131,7 +1131,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121632
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_tab_normal:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1159,7 +1159,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121634
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_tab_published:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1213,7 +1213,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1241,7 +1241,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1271,7 +1271,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070b45
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -1305,7 +1305,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_begin_check_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1314,7 +1314,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

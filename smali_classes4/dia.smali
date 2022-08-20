@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d58
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_filter_layout:I
 
     const/4 v2, 0x0
 
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2279
+    sget v1, Lcom/resouce/module/ResID;->popup_list_view:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

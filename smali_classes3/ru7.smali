@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lie5$a;Lbh8;)V
     .locals 10
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -63,7 +63,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lie5$a;Ljava/lang/String;Z)V
     .locals 10
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 5
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c1e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_history_version_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -305,7 +305,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v2, 0x7f122262
+    sget v2, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     .line 4
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
@@ -326,7 +326,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -341,7 +341,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -411,7 +411,7 @@
 
     invoke-virtual {v1, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setOnReturnListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0548
+    sget p1, Lcom/resouce/module/ResID;->content_lay:I
 
     .line 14
     invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

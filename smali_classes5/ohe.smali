@@ -38,7 +38,7 @@
 .method public constructor <init>(Lhd3$g;Landroid/app/Activity;Lyge;Lcn/wps/show/app/KmoPresentation;Lqge$q;Lvmd;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -275,7 +275,7 @@
     .line 1
     iget-object p1, p0, Lohe;->Y:Landroid/app/Activity;
 
-    const p2, 0x7f120e68
+    sget p2, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     const/4 v0, 0x0
 
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ae0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_template_author_home_page_layout:I
 
     const/4 v2, 0x0
 
@@ -312,7 +312,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0adf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_template_author_home_page_header_layout:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 3
     iget-object v1, p0, Lohe;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2ee3
+    sget v2, Lcom/resouce/module/ResID;->templates_grid:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -340,7 +340,7 @@
     .line 6
     iget-object v0, p0, Lohe;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2ec6
+    sget v1, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
 .method public final g3(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b0183
+    sget v0, Lcom/resouce/module/ResID;->author_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0186
+    sget v1, Lcom/resouce/module/ResID;->author_name:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0181
+    sget v2, Lcom/resouce/module/ResID;->author_desc:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -548,7 +548,7 @@
     .line 9
     invoke-virtual {p1, v1}, Lf54;->c(Z)Lf54;
 
-    const v1, 0x7f081e86
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_author_default_avatar:I
 
     .line 10
     invoke-virtual {p1, v1}, Lf54;->b(I)Lf54;
@@ -567,7 +567,7 @@
 .method public final h3()V
     .locals 3
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -602,7 +602,7 @@
     .line 5
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f12306b
+    sget v1, Lcom/resouce/module/ResSTRING;->template_author_home_page:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

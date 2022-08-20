@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12033f
+    sget p2, Lcom/resouce/module/ResSTRING;->coupon_cant_be_used:I
 
     const/4 p3, 0x1
 

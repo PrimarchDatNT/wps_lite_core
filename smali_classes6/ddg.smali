@@ -161,7 +161,7 @@
     :goto_2
     iput-object v0, p0, Lddg;->c:Lro3;
 
-    const p2, 0x7f0806bc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->et_titlebar_bg:I
 
     .line 5
     invoke-virtual {v0, p2}, Lro3;->F(I)V

@@ -77,7 +77,7 @@
 .method public final b()I
     .locals 1
 
-    const v0, 0x7f0e0d70
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_personal_cloud_space_header_item_view:I
 
     return v0
 .end method
@@ -109,7 +109,7 @@
 
     iput-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3266
+    sget v0, Lcom/resouce/module/ResID;->tv_space_upgrade:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
     .line 5
     iget-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3140
+    sget v0, Lcom/resouce/module/ResID;->tv_desc:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -139,7 +139,7 @@
     .line 6
     iget-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3123
+    sget v0, Lcom/resouce/module/ResID;->tv_cloud_space_has_used:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 7
     iget-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3126
+    sget v0, Lcom/resouce/module/ResID;->tv_cloud_space_used_tip:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
     .line 8
     iget-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1d3f
+    sget v0, Lcom/resouce/module/ResID;->pb_normal:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     .line 9
     iget-object p1, p0, Lx77;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1d41
+    sget v0, Lcom/resouce/module/ResID;->pb_red:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
     .line 7
     iget-object p1, p0, Lx77;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121ee0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_sync_has_used_space_tip:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -317,7 +317,7 @@
     :cond_6
     iget-object p1, p0, Lx77;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121e48
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_file_has_used_space_tip:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -366,7 +366,7 @@
     .line 14
     iget-object v4, p0, Lx77;->B:Landroid/app/Activity;
 
-    const v5, 0x7f121ed1
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_space_hint:I
 
     const/4 v6, 0x2
 
@@ -497,7 +497,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3266
+    sget v0, Lcom/resouce/module/ResID;->tv_space_upgrade:I
 
     if-ne p1, v0, :cond_2
 

@@ -30,7 +30,7 @@
 .method public constructor <init>(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0e0b89
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cooperate_member_item_layout:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lax4$b;-><init>(Landroid/view/ViewGroup;I)V
@@ -38,7 +38,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1841
+    sget v0, Lcom/resouce/module/ResID;->member_avator:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -51,7 +51,7 @@
     .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b184b
+    sget v0, Lcom/resouce/module/ResID;->member_name:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
     .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3203
+    sget v0, Lcom/resouce/module/ResID;->tv_offline:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -77,7 +77,7 @@
     .line 6
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b143c
+    sget v0, Lcom/resouce/module/ResID;->iv_device_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -90,7 +90,7 @@
     .line 7
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3155
+    sget v0, Lcom/resouce/module/ResID;->tv_editing:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,22 +301,22 @@
     return v1
 
     :pswitch_0
-    const p1, 0x7f0816de
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_login_device_kingsoft_file:I
 
     return p1
 
     :pswitch_1
-    const p1, 0x7f0816dd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_login_device_computer:I
 
     return p1
 
     :pswitch_2
-    const p1, 0x7f0816df
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_login_device_pad:I
 
     return p1
 
     :pswitch_3
-    const p1, 0x7f0816e0
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_login_device_phone:I
 
     return p1
 
@@ -395,7 +395,7 @@
 
     if-eqz p3, :cond_2
 
-    const p3, 0x7f121c27
+    sget p3, Lcom/resouce/module/ResSTRING;->ppt_shareplay_me:I
 
     .line 10
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V

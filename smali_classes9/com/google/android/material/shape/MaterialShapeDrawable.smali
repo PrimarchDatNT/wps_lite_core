@@ -449,7 +449,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f040140
+    sget v1, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 3
     invoke-static {p0, v1, v0}, Luxt;->c(Landroid/content/Context;ILjava/lang/String;)I

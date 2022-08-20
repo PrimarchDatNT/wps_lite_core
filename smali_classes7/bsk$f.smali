@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12280a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     const/4 v2, 0x0
 
@@ -112,7 +112,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122264
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

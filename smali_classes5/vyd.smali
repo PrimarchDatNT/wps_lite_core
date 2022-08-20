@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e73
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_table_insert_dialog:I
 
     const/4 v2, 0x0
 
@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b274c
+    sget v1, Lcom/resouce/module/ResID;->public_table_insert_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object v1, p0, Lvyd;->d0:Lcn/wps/moffice/common/beans/MyScrollView;
 
-    const v1, 0x7f0b2e47
+    sget v1, Lcom/resouce/module/ResID;->table_insert_row_wheel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     iput-object v1, p0, Luyd;->S:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b2e44
+    sget v1, Lcom/resouce/module/ResID;->table_insert_column_wheel:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     iput-object v1, p0, Luyd;->T:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b3365
+    sget v1, Lcom/resouce/module/ResID;->ver_up_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     iput-object v1, p0, Luyd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b3364
+    sget v1, Lcom/resouce/module/ResID;->ver_down_btn:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     iput-object v1, p0, Luyd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b1201
+    sget v1, Lcom/resouce/module/ResID;->horizon_pre_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object v1, p0, Luyd;->W:Landroid/view/View;
 
-    const v1, 0x7f0b1200
+    sget v1, Lcom/resouce/module/ResID;->horizon_next_btn:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v1, p0, Luyd;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2e46
+    sget v1, Lcom/resouce/module/ResID;->table_insert_preview_anchor:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
     .line 11
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setFocusable(Z)V
 
-    const v1, 0x7f0b2e48
+    sget v1, Lcom/resouce/module/ResID;->table_insert_styles_anchor:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -293,14 +293,14 @@
     .line 19
     iget-object v4, p0, Luyd;->a0:Lcn/wps/moffice/presentation/control/common/table/view/PreviewGroup;
 
-    const v5, 0x7f070b9d
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_pad_table_insert_dialog_preview_item_height:I
 
     .line 20
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v5
 
-    const v6, 0x7f070b9f
+    sget v6, Lcom/resouce/module/ResDIMEN;->public_pad_table_insert_dialog_preview_item_width_height:I
 
     .line 21
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -325,7 +325,7 @@
     .line 25
     iget-object v4, p0, Luyd;->a0:Lcn/wps/moffice/presentation/control/common/table/view/PreviewGroup;
 
-    const v6, 0x7f070b9e
+    sget v6, Lcom/resouce/module/ResDIMEN;->public_pad_table_insert_dialog_preview_item_space:I
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -471,7 +471,7 @@
 
     invoke-virtual {v7, v8}, Lcn/wps/moffice/common/beans/MyScrollView;->setOnInterceptTouchListener(Lcn/wps/moffice/common/beans/MyScrollView$a;)V
 
-    const v7, 0x7f06057e
+    sget v7, Lcom/resouce/module/ResCOLOR;->public_ppt_theme_textcolor:I
 
     .line 41
     invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getColor(I)I
@@ -576,7 +576,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ba5
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_table_insert_dialog_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -592,7 +592,7 @@
     .line 59
     iget-object v0, p0, Lvyd;->b0:Lhd3;
 
-    const v1, 0x7f122a59
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_insert_table:I
 
     const/16 v3, 0x11
 
@@ -601,14 +601,14 @@
     .line 60
     iget-object v0, p0, Lvyd;->b0:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 61
     iget-object v0, p0, Lvyd;->b0:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -737,7 +737,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c04
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_table_insert_layout_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

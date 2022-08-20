@@ -71,7 +71,7 @@
 
     move-result p1
 
-    const v0, 0x7f080410
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_pen_off:I
 
     if-ne p1, v0, :cond_1
 
@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f08040e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_highlighter_off:I
 
     if-ne p1, v0, :cond_2
 
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f08040c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_eraser_off:I
 
     if-ne p1, v0, :cond_3
 
@@ -200,7 +200,7 @@
     .line 6
     iget-object v2, p0, Lfsd;->V:Ljava/util/HashMap;
 
-    const v3, 0x7f08040e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_highlighter_off:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -229,7 +229,7 @@
     .line 8
     iget-object v2, p0, Lfsd;->V:Ljava/util/HashMap;
 
-    const v3, 0x7f08040c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_eraser_off:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -250,7 +250,7 @@
     :goto_1
     iget-object v2, p0, Lfsd;->V:Ljava/util/HashMap;
 
-    const v3, 0x7f080410
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_pen_off:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

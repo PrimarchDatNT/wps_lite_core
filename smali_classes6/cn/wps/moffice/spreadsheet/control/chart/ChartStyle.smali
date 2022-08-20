@@ -185,7 +185,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1018
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_chart_style_item:I
 
     const/4 v1, 0x0
 
@@ -195,7 +195,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chart/ChartStyle;->mContentView:Landroid/view/View;
 
-    const v0, 0x7f0b039b
+    sget v0, Lcom/resouce/module/ResID;->chart_style_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chart/ChartStyle;->mContentView:Landroid/view/View;
 
-    const v0, 0x7f0b039c
+    sget v0, Lcom/resouce/module/ResID;->chart_style_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

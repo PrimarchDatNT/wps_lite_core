@@ -309,7 +309,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dc5
+    sget v1, Lcom/resouce/module/ResSTRING;->get_personer_recload_cn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -327,7 +327,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dc6
+    sget v1, Lcom/resouce/module/ResSTRING;->get_personer_recload_en_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -708,9 +708,9 @@
     .line 3
     new-instance v1, Lzp3;
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v3, 0x7f080490
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -723,7 +723,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f120147
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -736,9 +736,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v3, 0x7f080492
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -751,7 +751,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f121638
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     const/4 v4, 0x0
 
@@ -766,7 +766,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f121661
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_down_repetition:I
 
     invoke-direct {v1, v4, v2}, Lzp3;-><init>(II)V
 
@@ -779,7 +779,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f1200e0
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-direct {v1, v4, v2}, Lzp3;-><init>(II)V
 
@@ -792,7 +792,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f121803
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -805,9 +805,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f081acd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_phone_resume_helper_icon:I
 
-    const v3, 0x7f120198
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     invoke-direct {v1, v2, v3}, Lzp3;-><init>(II)V
 
@@ -820,9 +820,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f122119
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final:I
 
-    const v3, 0x7f080287
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -835,9 +835,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f080314
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_pdf:I
 
-    const v4, 0x7f12209f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -850,9 +850,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f08048c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
-    const v4, 0x7f122c10
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -865,9 +865,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f080491
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -880,9 +880,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f08048e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_slimmer:I
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -895,9 +895,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f080382
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_meeting:I
 
-    const v4, 0x7f121bf5
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -910,9 +910,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f0804a0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
-    const v4, 0x7f120cd4
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -925,9 +925,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f080263
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_derive_highlighter:I
 
-    const v4, 0x7f1233ca
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -940,9 +940,9 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f0802c4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_mic:I
 
-    const v4, 0x7f122341
+    sget v4, Lcom/resouce/module/ResSTRING;->public_iat_audiocomment_enter:I
 
     invoke-direct {v1, v2, v4}, Lzp3;-><init>(II)V
 
@@ -955,7 +955,7 @@
 
     new-instance v1, Lzp3;
 
-    const v2, 0x7f122c11
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
     invoke-direct {v1, v3, v2}, Lzp3;-><init>(II)V
 
@@ -989,7 +989,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232f0
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_guide_app_cn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1007,7 +1007,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232f1
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_guide_app_en_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1040,7 +1040,7 @@
 
     sput-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815b5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_share_long_pic:I
 
     .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1054,7 +1054,7 @@
     .line 4
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_pdf:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1067,7 +1067,7 @@
     .line 5
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081590
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pages_export:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1080,7 +1080,7 @@
     .line 6
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_file:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1093,7 +1093,7 @@
     .line 7
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081587
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_mergefile:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1115,7 +1115,7 @@
     .line 9
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v2, 0x7f0805d6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1129,7 +1129,7 @@
     :cond_0
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v2, 0x7f0815bd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1141,7 +1141,7 @@
     :goto_0
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_highlighted_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1154,7 +1154,7 @@
     .line 12
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081577
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docdownsizing:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1167,7 +1167,7 @@
     .line 13
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_pictures:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1180,7 +1180,7 @@
     .line 14
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081578
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docfix:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1193,7 +1193,7 @@
     .line 15
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081593
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_papercheck:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1212,7 +1212,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081594
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_papercheck_job:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1223,7 +1223,7 @@
     .line 17
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081592
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_paper_down_repetition:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1236,7 +1236,7 @@
     .line 18
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081591
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_paper_composition:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1249,7 +1249,7 @@
     .line 19
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_resume_helper:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1262,7 +1262,7 @@
     .line 20
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pureimagedocument:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1275,7 +1275,7 @@
     .line 21
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815b7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_smart_form_filling:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1288,7 +1288,7 @@
     .line 22
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0818ef
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_final_img:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

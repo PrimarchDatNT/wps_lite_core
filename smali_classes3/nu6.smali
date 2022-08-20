@@ -629,7 +629,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f12007a
+    sget v0, Lcom/resouce/module/ResSTRING;->ad_download_recommend_title:I
 
     .line 4
     invoke-static {v0}, Lnu6;->g(I)Ljava/lang/String;

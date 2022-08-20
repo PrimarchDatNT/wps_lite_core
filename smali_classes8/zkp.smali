@@ -105,7 +105,7 @@
 
     invoke-static {v1, v0}, Lp2q;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0b18e1
+    sget v0, Lcom/resouce/module/ResID;->more_app_widget_text:I
 
     .line 2
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
@@ -145,12 +145,12 @@
 
     invoke-static {v1, v0}, Lp2q;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0b198f
+    sget v0, Lcom/resouce/module/ResID;->name_item_doc_app_widget_tv:I
 
     .line 2
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b2dcd    # 1.850005E38f
+    sget v0, Lcom/resouce/module/ResID;->sub_text_item_doc_app_widget_tv:I    # 1.850005E38f
 
     .line 3
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
@@ -191,7 +191,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e014a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->empty_item_doc_app_widget_layout:I
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -324,7 +324,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e026f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->footer_doc_app_widget_listview:I
 
     invoke-direct {p1, v1, v3}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -396,7 +396,7 @@
     .line 17
     invoke-virtual {v1, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const v3, 0x7f0b18e2
+    sget v3, Lcom/resouce/module/ResID;->more_app_widget_tv:I
 
     .line 18
     invoke-virtual {p1, v3, v1}, Landroid/widget/RemoteViews;->setOnClickFillInIntent(ILandroid/content/Intent;)V
@@ -421,25 +421,25 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0409
+    sget v4, Lcom/resouce/module/ResLAYOUT;->item_doc_app_widget_listview:I
 
     invoke-direct {v1, v3, v4}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
-    const v3, 0x7f0b198f
+    sget v3, Lcom/resouce/module/ResID;->name_item_doc_app_widget_tv:I
 
     .line 22
     iget-object v4, p1, Lykp;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v3, v4}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v3, 0x7f0b1237
+    sget v3, Lcom/resouce/module/ResID;->icon_item_doc_app_widget_iv:I
 
     .line 23
     iget v4, p1, Lykp;->b:I
 
     invoke-virtual {v1, v3, v4}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
-    const v3, 0x7f0b2dcd    # 1.850005E38f
+    sget v3, Lcom/resouce/module/ResID;->sub_text_item_doc_app_widget_tv:I    # 1.850005E38f
 
     .line 24
     iget-object v4, p1, Lykp;->c:Ljava/lang/String;
@@ -538,7 +538,7 @@
     invoke-virtual {v3, v6, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     :cond_7
-    const p1, 0x7f0b29b0
+    sget p1, Lcom/resouce/module/ResID;->root_item_doc_app_widget_ll:I
 
     .line 37
     invoke-virtual {v1, p1, v3}, Landroid/widget/RemoteViews;->setOnClickFillInIntent(ILandroid/content/Intent;)V

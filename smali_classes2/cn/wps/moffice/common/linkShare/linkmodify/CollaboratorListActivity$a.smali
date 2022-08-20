@@ -346,7 +346,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b62
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_collaborator_activity:I
 
     const/4 v2, 0x0
 
@@ -359,7 +359,7 @@
     .line 3
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f0e0b07
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_add_collaborator_by_contacts:I
 
     invoke-static {v1, v3, v2}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -378,7 +378,7 @@
     .line 6
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f0e0b64
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_collaborator_list_section:I
 
     invoke-static {v1, v3, v2}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -391,7 +391,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f0e0b63
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_collaborator_list_item:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/common/linkShare/linkmodify/CollaboratorListActivity$a$b;-><init>(Lcn/wps/moffice/common/linkShare/linkmodify/CollaboratorListActivity$a;Landroid/content/Context;I)V
 
@@ -421,7 +421,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121d06
+    sget v0, Lcom/resouce/module/ResSTRING;->public_add_member_tip:I
 
     return v0
 .end method

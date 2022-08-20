@@ -49,7 +49,7 @@
 .method public constructor <init>(Landroid/content/Context;Lpff;)V
     .locals 1
 
-    const v0, 0x7f1302ec
+    sget v0, Lcom/resouce/module/ResSTYLE;->Theme_NoTitleBar_TransparentDialog_Fade_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -153,7 +153,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e0e2a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_send_gift_success_dialog_view:I
 
     const/4 v4, 0x0
 
@@ -164,7 +164,7 @@
     .line 8
     invoke-super {p0, v1}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v3, 0x7f0b3252
+    sget v3, Lcom/resouce/module/ResID;->tv_send_gift_title:I
 
     .line 9
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object v3, p0, Lsff;->B:Landroid/widget/TextView;
 
-    const v3, 0x7f0b3251
+    sget v3, Lcom/resouce/module/ResID;->tv_send_gift_subtitle:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object v3, p0, Lsff;->I:Landroid/widget/TextView;
 
-    const v3, 0x7f0b2b12
+    sget v3, Lcom/resouce/module/ResID;->send_gift_button_text:I
 
     .line 11
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     iput-object v3, p0, Lsff;->U:Landroid/widget/TextView;
 
-    const v3, 0x7f0b12c8
+    sget v3, Lcom/resouce/module/ResID;->img_send_gift_close:I
 
     .line 12
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b3250
+    sget v4, Lcom/resouce/module/ResID;->tv_send_gift_small_subtitle:I
 
     .line 13
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 
     iput-object v4, p0, Lsff;->S:Landroid/widget/TextView;
 
-    const v4, 0x7f0b2b13
+    sget v4, Lcom/resouce/module/ResID;->send_gift_tv_version:I
 
     .line 14
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     iput-object v4, p0, Lsff;->T:Landroid/widget/TextView;
 
-    const v4, 0x7f0b2dca    # 1.8500044E38f
+    sget v4, Lcom/resouce/module/ResID;->sub_backgroung:I    # 1.8500044E38f
 
     .line 15
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     aput-object v5, v2, v0
 
-    const v0, 0x7f122909
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_gift_success_title:I
 
     invoke-virtual {v4, v0, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -304,7 +304,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081dd5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->send_gift_top_img:I
 
     .line 24
     invoke-virtual {v2, v3}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -352,14 +352,14 @@
 
     move-result v0
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     if-eqz v0, :cond_0
 
     .line 2
     iget-object v0, p0, Lsff;->W:Landroid/content/Context;
 
-    const v2, 0x7f122907
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_info:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -431,7 +431,7 @@
     .line 10
     iget-object v0, p0, Lsff;->W:Landroid/content/Context;
 
-    const v4, 0x7f12290a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_send_gift_support_subtitle:I
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -479,13 +479,13 @@
 
     move-result v0
 
-    const v4, 0x7f122908
+    sget v4, Lcom/resouce/module/ResSTRING;->public_send_gift_success_subtitle:I
 
     if-nez v0, :cond_4
 
     iget-object v0, p0, Lsff;->W:Landroid/content/Context;
 
-    const v5, 0x7f12011c
+    sget v5, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -538,7 +538,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12290b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_send_gift_support_version:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -596,7 +596,7 @@
     .line 27
     iget-object v1, p0, Lsff;->U:Landroid/widget/TextView;
 
-    const v2, 0x7f12290c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_use:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -624,7 +624,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b12
+    sget v0, Lcom/resouce/module/ResID;->send_gift_button_text:I
 
     if-ne p1, v0, :cond_0
 

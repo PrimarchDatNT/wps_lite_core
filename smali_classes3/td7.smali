@@ -216,7 +216,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122899
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secfolder_email_not_verify:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e037e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_phone_secretfolder_resetpswd:I
 
     const/4 v2, 0x0
 
@@ -378,7 +378,7 @@
 
     iput-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2111
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_mobile_reset:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
     .line 4
     iget-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2110
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_email_reset:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +401,7 @@
     .line 5
     iget-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b210f
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_artificial_reset:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 6
     iget-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b124f
+    sget v1, Lcom/resouce/module/ResID;->id_phone_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -437,7 +437,7 @@
     .line 7
     iget-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1248
+    sget v1, Lcom/resouce/module/ResID;->id_email_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 8
     iget-object v0, p0, Ltd7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1247
+    sget v1, Lcom/resouce/module/ResID;->id_artificial_reset:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -490,7 +490,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1228bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     return v0
 .end method
@@ -505,7 +505,7 @@
 
     const-string v0, "public_secfolder_set_secret_click"
 
-    const v1, 0x7f0b2111
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_mobile_reset:I
 
     if-ne p1, v1, :cond_0
 
@@ -520,7 +520,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2110
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_email_reset:I
 
     if-ne p1, v1, :cond_1
 
@@ -535,7 +535,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b210f
+    sget v1, Lcom/resouce/module/ResID;->phone_secret_folder_artificial_reset:I
 
     if-ne p1, v1, :cond_2
 

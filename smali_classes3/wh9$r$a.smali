@@ -120,7 +120,7 @@
 
     iget-object v0, v0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f120ef1
+    sget v2, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

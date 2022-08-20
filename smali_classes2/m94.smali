@@ -111,7 +111,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v2, 0x7f060093
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_card_title_bg_green:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleColor(I)V
 
@@ -997,7 +997,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -1010,7 +1010,7 @@
     .line 3
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c7c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_official_account_news_layout:I
 
     invoke-virtual {p1}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
 
@@ -1024,7 +1024,7 @@
 
     iput-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b01ee
+    sget v1, Lcom/resouce/module/ResID;->banner_news:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1038,7 +1038,7 @@
     .line 5
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b01e3
+    sget v1, Lcom/resouce/module/ResID;->banner_big_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1055,7 +1055,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0704f7
+    sget v2, Lcom/resouce/module/ResDIMEN;->official_account_news_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1073,7 +1073,7 @@
     .line 8
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b01f4
+    sget v1, Lcom/resouce/module/ResID;->banner_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1086,7 +1086,7 @@
     .line 9
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b01ed
+    sget v1, Lcom/resouce/module/ResID;->banner_link:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1099,7 +1099,7 @@
     .line 10
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b1a1c
+    sget v1, Lcom/resouce/module/ResID;->news_watch_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1112,7 +1112,7 @@
     .line 11
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b03e4
+    sget v1, Lcom/resouce/module/ResID;->child_news_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1125,7 +1125,7 @@
     .line 12
     iget-object v0, p0, Lm94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b03e5
+    sget v1, Lcom/resouce/module/ResID;->child_news_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -389,7 +389,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f070816
+    sget p4, Lcom/resouce/module/ResDIMEN;->phone_public_small_title_bar_height:I
 
     .line 50
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -487,7 +487,7 @@
     .line 59
     iget-object p2, p0, Livd;->S:Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;
 
-    const p4, 0x7f06000a
+    sget p4, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     invoke-virtual {p2, p4}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -1425,7 +1425,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060043
+    sget v2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v0, v2}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -1453,7 +1453,7 @@
     .line 7
     iget-object v0, p0, Livd;->B:Landroid/app/Activity;
 
-    const v2, 0x7f0602cc
+    sget v2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v2}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -1526,7 +1526,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080171
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->color_back_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -1633,7 +1633,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f060043
+    sget v3, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v0, v3}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -1677,7 +1677,7 @@
     .line 12
     iget-object v0, p0, Livd;->B:Landroid/app/Activity;
 
-    const v3, 0x7f0602cc
+    sget v3, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v3}, Ldgh;->n1(Landroid/app/Activity;I)V
 

@@ -118,12 +118,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0814bf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_hide_note_land:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f081517
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_show_note_land:I
 
     :goto_1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
@@ -136,12 +136,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0814c0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_hide_note_portrait:I
 
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f081518
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_show_note_portrait:I
 
     :goto_2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d30
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_ppt_note:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

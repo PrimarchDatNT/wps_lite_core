@@ -308,11 +308,11 @@
 
     if-ne v7, v8, :cond_7
 
-    const v3, 0x7f08075b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit:I
 
-    const v4, 0x7f1217b4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
-    const v5, 0x7f1217c6
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
     new-array v6, v9, [Lcib$b;
 
@@ -341,11 +341,11 @@
     goto/16 :goto_4
 
     :cond_7
-    const v7, 0x7f08075a
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_annotation:I
 
-    const v8, 0x7f1216c8
+    sget v8, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
-    const v10, 0x7f1216d5
+    sget v10, Lcom/resouce/module/ResSTRING;->pdf_annotation_privilege_desc:I
 
     new-array v9, v9, [Lcib$b;
 

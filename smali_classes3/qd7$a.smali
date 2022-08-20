@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122c3d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_secret_input_pswd_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

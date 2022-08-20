@@ -68,7 +68,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f0405b9
+    sget v1, Lcom/resouce/module/ResATTR;->state_dragged:I
 
     aput v1, v0, v3
 
@@ -92,7 +92,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f0403de
+    sget v0, Lcom/resouce/module/ResATTR;->materialCardViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/card/MaterialCardView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_timer_dropbox_layout:I
 
     const/4 v2, 0x0
 
@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2399
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_timer_play_start_stop:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -85,7 +85,7 @@
 
     iput-object v1, p0, Lf6e$i;->I:Landroid/view/View;
 
-    const v1, 0x7f0b239a
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_timer_reset:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object v1, p0, Lf6e$i;->S:Landroid/view/View;
 
-    const v1, 0x7f0b239d
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_timer_start_stop_img:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605aa
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_titlebar_halfscreen_text_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v2, 0x7f0b239b
+    sget v2, Lcom/resouce/module/ResID;->ppt_play_timer_reset_img:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b239e
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_timer_start_stop_tv:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,12 +249,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f08115e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_stop_icon:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f08115c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_timer_play_icon:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -274,12 +274,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f1225f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pause:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f121c6c
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_timer_start:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

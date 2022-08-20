@@ -78,7 +78,7 @@
     .line 5
     iput-object p1, p0, Lole;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2312
+    sget v0, Lcom/resouce/module/ResID;->ppt_main_toolbar_scrolllayout:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
     .line 7
     iget-object p1, p0, Lole;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2a3a
+    sget v0, Lcom/resouce/module/ResID;->scroll_to_right_edge:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 9
     iget-object p1, p0, Lole;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2a39
+    sget v0, Lcom/resouce/module/ResID;->scroll_to_left_edge:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
     .line 11
     iget-object p1, p0, Lole;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2311
+    sget v0, Lcom/resouce/module/ResID;->ppt_main_toolbar_scroll:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

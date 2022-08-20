@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120c54
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table_uploading:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 

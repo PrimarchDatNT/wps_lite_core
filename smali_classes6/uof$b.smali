@@ -98,17 +98,17 @@
 
     invoke-direct {p2, v0, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v0, 0x7f120b89
+    sget v0, Lcom/resouce/module/ResSTRING;->et_merge_cells_warning:I
 
     .line 6
     invoke-virtual {p2, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f122fdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_merge_cells_warning_title:I
 
     .line 7
     invoke-virtual {p2, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f122a5a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     .line 8
     new-instance v2, Luof$b$a;
@@ -117,7 +117,7 @@
 
     invoke-virtual {p2, v0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v0, 0x0
 

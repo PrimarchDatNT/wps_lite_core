@@ -363,7 +363,7 @@
     .line 3
     iget-object v0, p0, Lkia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2070
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_entery_doc2pdf_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
     .line 5
     iget-object v0, p0, Lkia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2074
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_entery_pic2pdf_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
     .line 6
     iget-object v1, p0, Lkia;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2076
+    sget v2, Lcom/resouce/module/ResID;->phone_pdf_entery_scan2pdf_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -393,7 +393,7 @@
     .line 7
     iget-object v2, p0, Lkia;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2078
+    sget v3, Lcom/resouce/module/ResID;->phone_pdf_entery_web2pdf_layout:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -402,7 +402,7 @@
     .line 8
     iget-object v3, p0, Lkia;->B:Landroid/view/View;
 
-    const v4, 0x7f0b206e
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_cad2pdf_layout:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -411,7 +411,7 @@
     .line 9
     iget-object v4, p0, Lkia;->B:Landroid/view/View;
 
-    const v5, 0x7f0b2072
+    sget v5, Lcom/resouce/module/ResID;->phone_pdf_entery_new_note_pdf_layout:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
     .line 10
     iget-object v5, p0, Lkia;->B:Landroid/view/View;
 
-    const v6, 0x7f0b15b1
+    sget v6, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -431,7 +431,7 @@
     .line 11
     iget-object v6, p0, Lkia;->B:Landroid/view/View;
 
-    const v7, 0x7f0b1a04
+    sget v7, Lcom/resouce/module/ResID;->new_pdf_limit_free_btn:I
 
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -588,7 +588,7 @@
     .line 27
     iget-object v2, p0, Lkia;->B:Landroid/view/View;
 
-    const v5, 0x7f0b1f0f
+    sget v5, Lcom/resouce/module/ResID;->pdf_red_recommend_icon:I
 
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -737,7 +737,7 @@
 .method public c3()V
     .locals 2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 1
     invoke-virtual {p0, v0}, Lkia;->getColorValue(I)I
@@ -841,7 +841,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e037a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_pdf_entry_layout:I
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
@@ -873,7 +873,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12251e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newfile_pdf_label:I
 
     return v0
 .end method
@@ -894,7 +894,7 @@
 
     const-string v3, "newpdf"
 
-    const v4, 0x7f0b2070
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_doc2pdf_layout:I
 
     if-ne p1, v4, :cond_2
 
@@ -1025,7 +1025,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v4, 0x7f0b2074
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_pic2pdf_layout:I
 
     const/4 v5, 0x0
 
@@ -1076,7 +1076,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v4, 0x7f0b2076
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_scan2pdf_layout:I
 
     if-ne p1, v4, :cond_5
 
@@ -1155,7 +1155,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v4, 0x7f0b2078
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_web2pdf_layout:I
 
     if-ne p1, v4, :cond_6
 
@@ -1196,7 +1196,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v4, 0x7f0b206e
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_cad2pdf_layout:I
 
     const-string v6, "entry"
 
@@ -1263,7 +1263,7 @@
     goto :goto_0
 
     :cond_7
-    const v4, 0x7f0b2072
+    sget v4, Lcom/resouce/module/ResID;->phone_pdf_entery_new_note_pdf_layout:I
 
     if-ne p1, v4, :cond_9
 
@@ -1291,7 +1291,7 @@
     .line 64
     iget-object p1, p0, Lkia;->B:Landroid/view/View;
 
-    const v4, 0x7f0b1f0f
+    sget v4, Lcom/resouce/module/ResID;->pdf_red_recommend_icon:I
 
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

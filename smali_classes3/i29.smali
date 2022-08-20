@@ -162,7 +162,7 @@
     .line 11
     iget-object p1, p0, Li29;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1224e9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_select_limit:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
     :cond_4
     iget-object p1, p0, Li29;->a:Landroid/app/Activity;
 
-    const p2, 0x7f12156d
+    sget p2, Lcom/resouce/module/ResSTRING;->open_platform_select_file_limit:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -328,7 +328,7 @@
     .line 16
     iget-object v0, p0, Li29;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122b5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -362,7 +362,7 @@
     .line 1
     iget-object v0, p0, Li29;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -460,7 +460,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 

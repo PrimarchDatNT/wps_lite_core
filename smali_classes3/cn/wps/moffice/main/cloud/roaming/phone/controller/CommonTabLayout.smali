@@ -106,7 +106,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0600ea
+    sget p3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f06025f
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -499,7 +499,7 @@
     .line 4
     iget-object v4, p0, Lcn/wps/moffice/main/cloud/roaming/phone/controller/CommonTabLayout;->d0:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0e0e70
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_tab_layout_item:I
 
     iget-object v6, p0, Lcn/wps/moffice/main/cloud/roaming/phone/controller/CommonTabLayout;->B:Landroid/widget/LinearLayout;
 

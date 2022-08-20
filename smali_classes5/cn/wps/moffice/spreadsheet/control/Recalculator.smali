@@ -26,15 +26,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080427
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_all_recount:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080dde
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_all_recount_et:I
 
     :goto_0
-    const v2, 0x7f120c82
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_recalculation:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Recalculator$2;-><init>(Lcn/wps/moffice/spreadsheet/control/Recalculator;II)V
 

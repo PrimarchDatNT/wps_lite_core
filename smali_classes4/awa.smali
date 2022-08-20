@@ -121,7 +121,7 @@
     .line 12
     iget-object p1, p0, Lawa;->V:Ln8b;
 
-    const v0, 0x7f0809e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     invoke-virtual {p1, v0}, Ln8b;->u(I)V
 
@@ -195,7 +195,7 @@
     .line 2
     iget-object v0, p0, Lyva;->I:Landroid/content/Context;
 
-    const v3, 0x7f1204b5
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -237,12 +237,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0e040c
+    sget p3, Lcom/resouce/module/ResLAYOUT;->item_doc_scan_group_detail:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0e040d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->item_doc_scan_pad_group_detail:I
 
     :goto_0
     const/4 v0, 0x0
@@ -256,7 +256,7 @@
 
     invoke-direct {p3, v0}, Lawa$b;-><init>(Lawa$a;)V
 
-    const v0, 0x7f0b3211
+    sget v0, Lcom/resouce/module/ResID;->tv_page_num:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     iput-object v0, p3, Lawa$b;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1442
+    sget v0, Lcom/resouce/module/ResID;->iv_doc_scan:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     iput-object v0, p3, Lawa$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b14bf
+    sget v0, Lcom/resouce/module/ResID;->iv_selected_mode:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     iput-object v0, p3, Lawa$b;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2958
+    sget v0, Lcom/resouce/module/ResID;->rl_item_root:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0804f4
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->doc_fic_pic_preview_default:I
 
     move-object v2, v3
 

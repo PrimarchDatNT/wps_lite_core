@@ -359,7 +359,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081c5b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_splash_ad_view_defalut:I
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -816,7 +816,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081c5b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_splash_ad_view_defalut:I
 
     invoke-static {p1, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

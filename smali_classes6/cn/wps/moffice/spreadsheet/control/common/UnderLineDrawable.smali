@@ -353,7 +353,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070cac
+    sget v0, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_line_close_icon_size:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

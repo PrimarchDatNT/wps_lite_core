@@ -49,14 +49,14 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b3436
+    sget v1, Lcom/resouce/module/ResID;->widget_fellow_system:I
 
     if-ne p1, v1, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b343d
+    sget v1, Lcom/resouce/module/ResID;->widget_light_color:I
 
     if-ne p1, v1, :cond_1
 
@@ -65,7 +65,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b3435
+    sget v1, Lcom/resouce/module/ResID;->widget_dark_color:I
 
     if-ne p1, v1, :cond_2
 

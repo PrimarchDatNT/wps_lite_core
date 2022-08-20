@@ -245,7 +245,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -284,7 +284,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,7 +318,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -401,7 +401,7 @@
     .line 1
     iget-object v0, p0, Lqx9;->x0:Landroid/widget/TextView;
 
-    const v1, 0x7f1224f3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_multiselect:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -413,7 +413,7 @@
     .line 3
     iget-object v0, p0, Lqx9;->y0:Landroid/widget/TextView;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -440,7 +440,7 @@
     .line 2
     iget-object v0, p0, Lqx9;->y0:Landroid/widget/TextView;
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -450,7 +450,7 @@
     :cond_0
     iget-object v0, p0, Lqx9;->y0:Landroid/widget/TextView;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -464,7 +464,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lcq9;->s(Landroid/app/Activity;Landroid/view/View;)V
 
-    const p1, 0x7f0b3006
+    sget p1, Lcom/resouce/module/ResID;->title_multiselect_content:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     iput-object p1, p0, Lqx9;->t0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b1969
+    sget v0, Lcom/resouce/module/ResID;->multi_select_titlebar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0b210e
+    sget p1, Lcom/resouce/module/ResID;->phone_second_activity_titlebar:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0b1fe2
+    sget p1, Lcom/resouce/module/ResID;->phone_home_activity_titlebar:I
 
     .line 7
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

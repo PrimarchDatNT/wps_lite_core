@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0276
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_my_coupons_activity:I
 
     const/4 v2, 0x0
 
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Lwl8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1973
+    sget v1, Lcom/resouce/module/ResID;->my_coupons_tab_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
     .line 3
     iget-object v0, p0, Lwl8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1974
+    sget v1, Lcom/resouce/module/ResID;->my_coupons_view_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     iget-object v5, p0, Lwl8;->W:Lts4;
 
-    const v6, 0x7f123193
+    sget v6, Lcom/resouce/module/ResSTRING;->usable:I
 
     invoke-direct {v3, v1, v6, v4, v5}, Lvl8;-><init>(Landroid/app/Activity;ILhj2;Lts4;)V
 
@@ -146,7 +146,7 @@
 
     sget-object v5, Lhj2;->I:Lhj2;
 
-    const v6, 0x7f123199
+    sget v6, Lcom/resouce/module/ResSTRING;->used:I
 
     invoke-direct {v4, v1, v6, v5, v2}, Lvl8;-><init>(Landroid/app/Activity;ILhj2;Lts4;)V
 
@@ -157,7 +157,7 @@
 
     sget-object v5, Lhj2;->S:Lhj2;
 
-    const v6, 0x7f121587
+    sget v6, Lcom/resouce/module/ResSTRING;->overdue:I
 
     invoke-direct {v4, v1, v6, v5, v2}, Lvl8;-><init>(Landroid/app/Activity;ILhj2;Lts4;)V
 
@@ -197,7 +197,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -253,7 +253,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120fdc
+    sget v0, Lcom/resouce/module/ResSTRING;->home_memebercenter_my_coupons:I
 
     return v0
 .end method

@@ -1087,7 +1087,7 @@
 .method public static n(Landroid/view/View;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f0b0fea
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

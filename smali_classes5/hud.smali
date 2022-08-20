@@ -69,15 +69,15 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f08048c
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f080e82
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_extract_pages_ppt:I
 
     :goto_0
-    const p4, 0x7f122c10
+    sget p4, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-direct {p2, p0, p3, p4}, Lhud$d;-><init>(Lhud;II)V
 
@@ -200,7 +200,7 @@
     return p1
 
     :cond_0
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -265,7 +265,7 @@
 
     move-result v0
 
-    const v2, 0x7f122b46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     if-eqz v0, :cond_1
 

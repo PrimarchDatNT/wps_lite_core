@@ -58,7 +58,7 @@
 
     iget-object p1, p1, Lbr7;->z:Landroid/view/View;
 
-    const v1, 0x7f0b10b1
+    sget v1, Lcom/resouce/module/ResID;->home_my_user_go_member_text:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
 
     iget-object v1, v1, Lbr7;->z:Landroid/view/View;
 
-    const v2, 0x7f0b078d
+    sget v2, Lcom/resouce/module/ResID;->dot_v:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_0
-    const v0, 0x7f120645
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_need_upragde_dialog_ok:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V

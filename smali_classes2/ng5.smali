@@ -29,7 +29,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e0f0b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_info_fragment:I
 
     return v0
 .end method
@@ -226,7 +226,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2a60
+    sget v0, Lcom/resouce/module/ResID;->search_button:I
 
     if-ne p1, v0, :cond_1
 
@@ -265,7 +265,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2b78
+    sget v0, Lcom/resouce/module/ResID;->share_info:I
 
     if-ne p1, v0, :cond_2
 
@@ -322,7 +322,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Leg5;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b2a70
+    sget p1, Lcom/resouce/module/ResID;->search_edit:I
 
     .line 2
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     iput-object p1, p0, Lng5;->W:Landroid/widget/EditText;
 
-    const p1, 0x7f0b2a60
+    sget p1, Lcom/resouce/module/ResID;->search_button:I
 
     .line 3
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    const p2, 0x7f0b28b0
+    sget p2, Lcom/resouce/module/ResID;->request_param:I
 
     .line 4
     invoke-virtual {p0, p2}, Lff5;->Z1(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     iput-object p2, p0, Lng5;->X:Landroid/widget/Button;
 
-    const p2, 0x7f0b2b78
+    sget p2, Lcom/resouce/module/ResID;->share_info:I
 
     .line 5
     invoke-virtual {p0, p2}, Lff5;->Z1(I)Landroid/view/View;

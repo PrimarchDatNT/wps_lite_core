@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f72
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_quickstyle_navigation:I
 
     const/4 v2, 0x1
 
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -218,7 +218,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleNavigation;->T:I
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -227,7 +227,7 @@
 
     iput v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleNavigation;->U:I
 
-    const v0, 0x7f0b2d52
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_styleBtn_pad:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleNavigation;->B:Landroid/widget/Button;
 
-    const v1, 0x7f0b2d3f
+    sget v1, Lcom/resouce/module/ResID;->ss_quickstyle_fillBtn_pad:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleNavigation;->I:Landroid/widget/Button;
 
-    const v1, 0x7f0b2d4f
+    sget v1, Lcom/resouce/module/ResID;->ss_quickstyle_outlineBtn_pad:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

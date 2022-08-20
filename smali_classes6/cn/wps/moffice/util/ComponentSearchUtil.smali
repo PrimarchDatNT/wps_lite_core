@@ -69,7 +69,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f122eb5
+    sget v0, Lcom/resouce/module/ResSTRING;->search_word_url:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0804a9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_word_search_default:I
 
     invoke-static {p0, p1, v1, v0}, Lcn/wps/moffice/util/ComponentSearchUtil;->loadMenuIcon(Landroid/content/Context;Landroid/widget/ImageView;ILjava/lang/String;)V
 

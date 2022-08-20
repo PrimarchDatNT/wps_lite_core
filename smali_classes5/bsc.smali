@@ -64,7 +64,7 @@
 
     move-result v0
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v2, 0x1
 
@@ -230,7 +230,7 @@
     :goto_0
     if-eqz p1, :cond_2
 
-    const p1, 0x7f12271c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     .line 3
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

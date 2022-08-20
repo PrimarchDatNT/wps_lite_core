@@ -169,7 +169,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b00af
+    sget v1, Lcom/resouce/module/ResID;->add_iv:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b00ba
+    sget v2, Lcom/resouce/module/ResID;->add_tv:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0534
+    sget v2, Lcom/resouce/module/ResID;->container_ll:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b00b1
+    sget v2, Lcom/resouce/module/ResID;->add_ll:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     move-result v1
 
-    const v2, 0x7f080075
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->add_word:I
 
     if-eqz v1, :cond_2
 
@@ -239,7 +239,7 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f080074
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->add_ppt:I
 
     goto :goto_2
 
@@ -255,7 +255,7 @@
 
     if-eqz v1, :cond_4
 
-    const v2, 0x7f080073
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->add_excel:I
 
     .line 14
     :cond_4
@@ -286,7 +286,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0174
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_word_document_item:I
 
     if-eqz v0, :cond_0
 
@@ -304,7 +304,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0e0172
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_ppt_document_item:I
 
     goto :goto_0
 
@@ -320,7 +320,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0e0170
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_excle_document_item:I
 
     :cond_2
     :goto_0
@@ -684,7 +684,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b05b3
+    sget v1, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -693,7 +693,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v2, 0x7f0b0534
+    sget v2, Lcom/resouce/module/ResID;->container_ll:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -702,7 +702,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b1995
+    sget v2, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070a89
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -747,7 +747,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -766,7 +766,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -988,7 +988,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0b05b3
+    sget v2, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -997,7 +997,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v3, 0x7f0b0534
+    sget v3, Lcom/resouce/module/ResID;->container_ll:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1006,7 +1006,7 @@
 
     check-cast v3, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b1995
+    sget v3, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1032,7 +1032,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070a89
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1051,7 +1051,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1070,7 +1070,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060627
+    sget v4, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1194,7 +1194,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0175
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_word_recent_template_item:I
 
     if-eqz v0, :cond_0
 
@@ -1212,7 +1212,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0e0173
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_ppt_recent_template_item:I
 
     goto :goto_0
 
@@ -1228,7 +1228,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0e016f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_excel_recent_template_item:I
 
     :cond_2
     :goto_0

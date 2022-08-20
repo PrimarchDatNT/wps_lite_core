@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b1767
+    sget p2, Lcom/resouce/module/ResID;->login_wps:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b10c2
+    sget p2, Lcom/resouce/module/ResID;->home_my_userinfo_type_user_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1767
+    sget v1, Lcom/resouce/module/ResID;->login_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,12 +170,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e03d0
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_login_fragment:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0583
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_home_user_login_fragment:I
 
     :goto_0
     return p1
@@ -188,12 +188,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0e0275
+    sget p1, Lcom/resouce/module/ResLAYOUT;->foreign_home_member_user_login_fragment_b:I
 
     return p1
 
     :cond_2
-    const p1, 0x7f0e0274
+    sget p1, Lcom/resouce/module/ResLAYOUT;->foreign_home_member_user_login_fragment:I
 
     return p1
 .end method
@@ -204,7 +204,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1767
+    sget v1, Lcom/resouce/module/ResID;->login_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const v2, 0x7f0b10c2
+    sget v2, Lcom/resouce/module/ResID;->home_my_userinfo_type_user_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -278,7 +278,7 @@
     .line 6
     iput-boolean v4, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->S:Z
 
-    const v2, 0x7f120e3f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_member_login:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
@@ -312,7 +312,7 @@
     invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
 
     :goto_1
-    const v2, 0x7f120f4e
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_wps:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
@@ -450,7 +450,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/user/UserLoginFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1767
+    sget v1, Lcom/resouce/module/ResID;->login_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f120f4e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_wps:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -500,7 +500,7 @@
 
     const-string v2, "button_click"
 
-    const v3, 0x7f0b1767
+    sget v3, Lcom/resouce/module/ResID;->login_wps:I
 
     if-ne p1, v3, :cond_1
 
@@ -598,7 +598,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0b10c2
+    sget v3, Lcom/resouce/module/ResID;->home_my_userinfo_type_user_layout:I
 
     if-ne p1, v3, :cond_5
 

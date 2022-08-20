@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="@dimen/public_chart_insert_pad_content_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.TitleBar android:id="@id/chart_selected_title_bar" android:layout_width="@dimen/public_chart_insert_pad_content_width" android:layout_height="50.0dip" />
-    <cn.wps.moffice.common.chart.insert.ViewFlow android:gravity="center_horizontal" android:id="@id/viewflow" android:duplicateParentState="true" android:layout_width="@dimen/public_chart_insert_pad_content_width" android:layout_height="@dimen/public_chart_insert_pad_content_height" />
-</LinearLayout>

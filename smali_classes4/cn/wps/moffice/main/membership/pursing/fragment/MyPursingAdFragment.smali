@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122501
+    sget v1, Lcom/resouce/module/ResSTRING;->public_my_wallet_other_service:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -198,7 +198,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p3, 0x7f0e0358
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_mypursing_ad_layout:I
 
     const/4 v0, 0x0
 
@@ -209,7 +209,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/membership/pursing/fragment/MyPursingAdFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b335d
+    sget p2, Lcom/resouce/module/ResID;->v_left_line:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0600bb
+    sget p3, Lcom/resouce/module/ResCOLOR;->color_yellow:I
 
     const/4 v0, 0x0
 
@@ -234,7 +234,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/membership/pursing/fragment/MyPursingAdFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b32ae
+    sget p2, Lcom/resouce/module/ResID;->tv_wallet_func_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -247,7 +247,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/membership/pursing/fragment/MyPursingAdFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b163b
+    sget p2, Lcom/resouce/module/ResID;->ll_ad_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -258,14 +258,14 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/membership/pursing/fragment/MyPursingAdFragment;->V:Landroid/widget/TextView;
 
-    const p2, 0x7f122501
+    sget p2, Lcom/resouce/module/ResSTRING;->public_my_wallet_other_service:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/membership/pursing/fragment/MyPursingAdFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b10c9
+    sget p2, Lcom/resouce/module/ResID;->home_mypursing_gridviewlayout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
 
     move-result v0
 
-    const v1, 0x7f081944
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_app_bg:I
 
     if-eqz v0, :cond_1
 
@@ -393,7 +393,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

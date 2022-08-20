@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02c8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_mermership_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -250,7 +250,7 @@
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const p1, 0x7f0b1f65
+    sget p1, Lcom/resouce/module/ResID;->pdftoolkit_introduce_member_icon:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -261,7 +261,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1859
+    sget p1, Lcom/resouce/module/ResID;->membership_btn:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->S:Landroid/view/View;
 
-    const p1, 0x7f0b1852
+    sget p1, Lcom/resouce/module/ResID;->member_text:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1b28
+    sget p1, Lcom/resouce/module/ResID;->open_member_tv:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -302,14 +302,14 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f123176
+    sget v0, Lcom/resouce/module/ResSTRING;->upgrade_member:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0817d0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_96:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -319,14 +319,14 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f121c8e
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f081abd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_pdftoolkit_introduc_premium_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -341,7 +341,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f08132e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_red_rounded_rectangle_3dp_shape:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -482,7 +482,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->T:Landroid/widget/TextView;
 
-    const v3, 0x7f1218f0
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -512,12 +512,12 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f120f8f
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_introduce_membertips:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f1218ef    # 1.9419675E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips:I    # 1.9419675E38f
 
     :goto_1
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
@@ -549,7 +549,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f120f92
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_limitfree:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

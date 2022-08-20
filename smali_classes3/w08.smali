@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c32
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_homepage_list_pinned_header_data_item_layout:I
 
     const/4 v2, 0x0
 
@@ -69,7 +69,7 @@
     .line 4
     iget-object p2, p0, Lw08;->B:Landroid/view/View;
 
-    const v0, 0x7f0b223c
+    sget v0, Lcom/resouce/module/ResID;->pinned_btn_recent:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -82,7 +82,7 @@
     .line 5
     iget-object p2, p0, Lw08;->B:Landroid/view/View;
 
-    const v0, 0x7f0b223d
+    sget v0, Lcom/resouce/module/ResID;->pinned_btn_share:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
     .line 6
     iget-object p2, p0, Lw08;->B:Landroid/view/View;
 
-    const v0, 0x7f0b223e
+    sget v0, Lcom/resouce/module/ResID;->pinned_btn_star:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 7
     iget-object p2, p0, Lw08;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2240
+    sget v0, Lcom/resouce/module/ResID;->pinned_indicator:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -228,7 +228,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

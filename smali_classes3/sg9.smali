@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e96
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_transfer_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -57,7 +57,7 @@
     .line 3
     iget-object v0, p0, Lsg9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -91,7 +91,7 @@
     .line 7
     iget-object v1, p0, Lsg9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2da4    # 1.8499967E38f
+    sget v2, Lcom/resouce/module/ResID;->start_scan:I    # 1.8499967E38f
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
     .line 8
     iget-object v1, p0, Lsg9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2fe9
+    sget v2, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -116,7 +116,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060450
+    sget v3, Lcom/resouce/module/ResCOLOR;->phone_public_default_icon_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -152,7 +152,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f121195
+    sget v2, Lcom/resouce/module/ResSTRING;->home_transfer_dialog_how:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -182,7 +182,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06046d
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

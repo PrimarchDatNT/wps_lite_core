@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1213ba
+    sget p2, Lcom/resouce/module/ResSTRING;->mi_pdf_converter_fail:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -108,7 +108,7 @@
 
     if-nez p2, :cond_0
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -281,11 +281,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08076e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_document_export:I
 
-    const v2, 0x7f1220a7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v3, 0x7f1220a8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -813,7 +813,7 @@
 
     if-nez v0, :cond_2
 
-    const p1, 0x7f1220a6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     const/4 v0, 0x1
 

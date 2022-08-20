@@ -101,7 +101,7 @@
     .line 3
     iget-boolean v1, p0, Lm6a;->b:Z
 
-    const v2, 0x7f081635
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_mindmap:I
 
     if-eqz v1, :cond_12
 
@@ -124,7 +124,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f081634
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_image:I
 
     goto/16 :goto_1
 
@@ -142,7 +142,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f08163a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_pdf:I
 
     goto/16 :goto_1
 
@@ -160,7 +160,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f081641
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_website:I
 
     goto/16 :goto_1
 
@@ -178,7 +178,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f08163e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_txt:I
 
     goto/16 :goto_1
 
@@ -196,7 +196,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f081642
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_word:I
 
     goto/16 :goto_1
 
@@ -214,7 +214,7 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f081630
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_et:I
 
     goto/16 :goto_1
 
@@ -232,7 +232,7 @@
 
     if-eqz v0, :cond_7
 
-    const v0, 0x7f08163b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_ppt:I
 
     goto/16 :goto_1
 
@@ -250,7 +250,7 @@
 
     if-eqz v0, :cond_8
 
-    const v0, 0x7f081643
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_zip:I
 
     goto/16 :goto_1
 
@@ -268,7 +268,7 @@
 
     if-eqz v0, :cond_9
 
-    const v0, 0x7f081640
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_video:I
 
     goto/16 :goto_1
 
@@ -286,7 +286,7 @@
 
     if-eqz v0, :cond_a
 
-    const v0, 0x7f081636
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_music:I
 
     goto/16 :goto_1
 
@@ -304,7 +304,7 @@
 
     if-eqz v0, :cond_b
 
-    const v0, 0x7f081637
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_note:I
 
     goto :goto_1
 
@@ -323,7 +323,7 @@
     if-eqz v0, :cond_c
 
     :goto_0
-    const v0, 0x7f081635
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_mindmap:I
 
     goto :goto_1
 
@@ -341,7 +341,7 @@
 
     if-eqz v0, :cond_d
 
-    const v0, 0x7f081631
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_flowchart:I
 
     goto :goto_1
 
@@ -375,7 +375,7 @@
 
     if-eqz v0, :cond_f
 
-    const v0, 0x7f081633
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_form:I
 
     goto :goto_1
 
@@ -393,7 +393,7 @@
 
     if-eqz v0, :cond_10
 
-    const v0, 0x7f081639
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_otl:I
 
     goto :goto_1
 
@@ -411,12 +411,12 @@
 
     if-eqz p1, :cond_11
 
-    const v0, 0x7f081638
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_ofd:I
 
     goto :goto_1
 
     :cond_11
-    const v0, 0x7f08163f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_unknow:I
 
     :cond_12
     :goto_1
@@ -431,11 +431,11 @@
 
     move-result v0
 
-    const v1, 0x7f08163f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_unknow:I
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f08163f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_unknow:I
 
     goto :goto_0
 

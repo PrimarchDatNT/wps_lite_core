@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d0b
+    sget v1, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2e5c
+    sget v2, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b218f
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar_container:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

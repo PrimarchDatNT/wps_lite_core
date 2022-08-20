@@ -69,7 +69,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -384,7 +384,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03f0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->internal_ppt_template_mine_cn_view:I
 
     const/4 v2, 0x0
 
@@ -392,7 +392,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
 
     invoke-virtual {p0, v1}, Lqe3;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    const v1, 0x7f0b1c7a
+    sget v1, Lcom/resouce/module/ResID;->pager:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     iput-object v1, p0, Lake;->X:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v1, 0x7f0b2ed1
+    sget v1, Lcom/resouce/module/ResID;->template_loading:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/beans/phone/tab/ViewPager;->setOnPageChangeListener(Lcn/wps/moffice/common/beans/phone/tab/ViewPager$f;)V
 
-    const v1, 0x7f0b12e3
+    sget v1, Lcom/resouce/module/ResID;->indicator:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -625,7 +625,7 @@
     .line 4
     iget-object v0, p0, Lake;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121c4a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_supporting_layout:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -670,7 +670,7 @@
     .line 4
     iget-object v0, p0, Lake;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121c49
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -764,7 +764,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07034e
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -773,9 +773,9 @@
     .line 3
     invoke-virtual {p2, v0}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setHeight(I)V
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 4
     invoke-virtual {p2, v0}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
@@ -789,7 +789,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b44
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_indicator_new_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -978,7 +978,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d09
+    sget v1, Lcom/resouce/module/ResSTRING;->public_add_slide:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1007,7 +1007,7 @@
     .line 8
     iget-object v0, p0, Lake;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122a85
+    sget v1, Lcom/resouce/module/ResSTRING;->public_template_already_buy:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

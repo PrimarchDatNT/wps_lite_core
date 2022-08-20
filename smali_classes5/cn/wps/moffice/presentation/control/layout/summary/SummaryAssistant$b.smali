@@ -93,7 +93,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/layout/summary/SummaryAssistant$b;->j0:Landroid/app/Activity;
 
-    const v1, 0x7f121c5e
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_template_waitting_for_io_ready:I
 
     invoke-static {v0, v1, p1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -130,7 +130,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1206b9
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

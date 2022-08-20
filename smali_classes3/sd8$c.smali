@@ -77,7 +77,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -264,7 +264,7 @@
 .method public varargs t([Ljava/lang/Void;)Ljava/lang/Void;
     .locals 5
 
-    const p1, 0x7f12292c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_server_single_param_en_url:I
 
     const/4 v0, 0x0
 

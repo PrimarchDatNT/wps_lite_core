@@ -153,7 +153,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->U:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12149b
+    sget v1, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -169,7 +169,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->U:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081c96
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -213,7 +213,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->U:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -229,7 +229,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->U:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081301
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -245,7 +245,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->U:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080ac7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->my_template:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -374,7 +374,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2a1b
+    sget v0, Lcom/resouce/module/ResID;->scene_lv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateSceneActivity;->B:Landroid/view/View;
 
-    const v0, 0x7f0b17f8
+    sget v0, Lcom/resouce/module/ResID;->main_error_default:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -144,7 +144,7 @@
 
     iget-object p1, p1, Lohb$d;->a:Lohb;
 
-    const v0, 0x7f1206bd
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_toast_login_failed:I
 
     invoke-static {p1, v0}, Lohb;->T2(Lohb;I)V
 

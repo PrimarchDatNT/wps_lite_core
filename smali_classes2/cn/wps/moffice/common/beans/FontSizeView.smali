@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0705b1
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_second_toolbar_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -87,13 +87,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c0f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_fontsize_latyout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b260a
+    sget v0, Lcom/resouce/module/ResID;->public_fontsize_minus_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/FontSizeView;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b260b
+    sget v0, Lcom/resouce/module/ResID;->public_fontsize_plus_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/FontSizeView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b260c
+    sget v0, Lcom/resouce/module/ResID;->public_fontsize_show_btn:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/FontSizeView;->S:Landroid/widget/Button;
 
-    const v0, 0x7f0b260e
+    sget v0, Lcom/resouce/module/ResID;->public_fontsize_show_root:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/FontSizeView;->T:Lcn/wps/moffice/common/beans/phone/AlphaFrameLayout;
 
-    const v0, 0x7f0b260d
+    sget v0, Lcom/resouce/module/ResID;->public_fontsize_show_btn_root:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -200,7 +200,7 @@
 .method public final K2()V
     .locals 1
 
-    const v0, 0x7f12218e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fitpad_read_type:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -235,7 +235,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b21a0
+    sget v0, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -256,7 +256,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06059d
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_white_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -269,13 +269,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606b3
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -290,7 +290,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_0
-    const v1, 0x7f0b0ff9
+    sget v1, Lcom/resouce/module/ResID;->history_titlebar_text:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

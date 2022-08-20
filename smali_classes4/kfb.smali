@@ -178,7 +178,7 @@
     .line 1
     iget-object v0, p0, Lkfb;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1755
+    sget v1, Lcom/resouce/module/ResID;->login_guide_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 2
     iget-object v0, p0, Lkfb;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1754
+    sget v1, Lcom/resouce/module/ResID;->login_guide_cancel_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -204,7 +204,7 @@
     .line 3
     iget-object v0, p0, Lkfb;->V:Landroid/widget/Button;
 
-    const v1, 0x7f12245f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_quickly:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -286,7 +286,7 @@
     .line 5
     iget-object v0, p0, Lkfb;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f12241b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loading_suffix:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -455,7 +455,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1755
+    sget v0, Lcom/resouce/module/ResID;->login_guide_confirm_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -472,7 +472,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1754
+    sget v0, Lcom/resouce/module/ResID;->login_guide_cancel_btn:I
 
     if-ne p1, v0, :cond_1
 

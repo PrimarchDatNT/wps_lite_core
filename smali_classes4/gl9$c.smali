@@ -109,7 +109,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12115c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_upload_size_limit_tips_supervip:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

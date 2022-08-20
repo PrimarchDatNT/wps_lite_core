@@ -44,7 +44,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e10e6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_custom_layout:I
 
     return v0
 .end method
@@ -60,7 +60,7 @@
     .line 1
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0552
+    sget v0, Lcom/resouce/module/ResID;->content_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
     .line 2
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0549
+    sget v0, Lcom/resouce/module/ResID;->content_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -84,7 +84,7 @@
     .line 3
     iget-object p1, p0, Ll9f;->b:Landroid/view/View;
 
-    const v0, 0x7f0b2f1d
+    sget v0, Lcom/resouce/module/ResID;->text_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a2f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_3d_object_insert_failed:I
 
     invoke-static {v0, v1, v4}, Lbih;->n(Landroid/content/Context;II)V
 

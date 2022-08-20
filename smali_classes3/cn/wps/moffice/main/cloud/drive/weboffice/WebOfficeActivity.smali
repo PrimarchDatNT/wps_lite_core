@@ -126,7 +126,7 @@
     return-void
 
     :cond_1
-    const v0, 0x7f081ce2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_weboffice_close:I
 
     .line 2
     new-instance v1, Lcn/wps/moffice/main/cloud/drive/weboffice/WebOfficeActivity$a;
@@ -265,7 +265,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121f70
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

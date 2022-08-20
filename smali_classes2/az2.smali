@@ -293,7 +293,7 @@
 
     const/4 v8, 0x0
 
-    const v9, 0x7f080139
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->cartoon_place_holder:I
 
     invoke-interface/range {v4 .. v9}, Lwh5;->c(Landroid/widget/ImageView;Ljava/lang/String;Landroid/content/Context;Landroid/widget/ImageView$ScaleType;I)V
 
@@ -365,16 +365,16 @@
     .line 14
     iget-object p2, p1, Laz2$f;->j0:Lcn/wps/moffice/cartoon/view/SwitchView;
 
-    const v0, 0x7f1231eb
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_cartoon_previous:I
 
-    const v3, 0x7f081fd1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_cartoon_right_array:I
 
     invoke-virtual {p2, v0, v3, v1}, Lcn/wps/moffice/cartoon/view/SwitchView;->setResource(III)V
 
     .line 15
     iget-object p2, p1, Laz2$f;->k0:Lcn/wps/moffice/cartoon/view/SwitchView;
 
-    const v0, 0x7f1231ea
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_cartoon_next:I
 
     const/16 v1, 0xb4
 
@@ -463,7 +463,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -557,7 +557,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0087
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cartoon_reader_view_holder_page:I
 
     .line 2
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -592,7 +592,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0088
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cartoon_reader_view_holder_switch:I
 
     .line 6
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0089
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cartoon_reader_view_holder_unlock:I
 
     .line 9
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -663,7 +663,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e040f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->item_end_v2_insert_book:I
 
     invoke-virtual {v2, v3, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

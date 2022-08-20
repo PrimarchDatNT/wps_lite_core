@@ -32,7 +32,7 @@
     .line 3
     iput-object p1, p0, Lok6;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b0dd8
+    sget v0, Lcom/resouce/module/ResID;->flowLayout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081e78
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->tag_hot:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -155,7 +155,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060707
+    sget v4, Lcom/resouce/module/ResCOLOR;->wps_novel_recommend_romance:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -203,7 +203,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0e0260
+    sget v5, Lcom/resouce/module/ResLAYOUT;->flow_tag:I
 
     const/4 v6, 0x0
 
@@ -211,7 +211,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0b2e61
+    sget v5, Lcom/resouce/module/ResID;->tagText:I
 
     .line 15
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -273,7 +273,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getColor(I)I
 

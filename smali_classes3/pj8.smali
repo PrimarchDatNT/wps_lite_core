@@ -922,7 +922,7 @@
 .method public j(Lcn/wps/moffice/common/multi/bean/LabelRecord$b;)I
     .locals 2
 
-    const v0, 0x7f08082c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_other:I
 
     if-eqz p1, :cond_4
 
@@ -954,22 +954,22 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080577
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_xls:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f08056e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pdf:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f080572
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f080567
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
     :cond_4
     :goto_0

@@ -967,18 +967,18 @@
 
     move-result-object v1
 
-    const v2, 0x7f1226a7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_premium_subscribe_tip:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
     return-void
 
     :cond_30
-    const v6, 0x7f081527
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->premium_center_pay_bg:I
 
-    const v7, 0x7f12188e
+    sget v7, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
-    const v8, 0x7f121c94
+    sget v8, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     const/4 v9, 0x1
 

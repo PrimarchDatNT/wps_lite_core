@@ -134,7 +134,7 @@
     :catch_1
     invoke-interface {v0}, Lq2m;->commit()V
 
-    const v0, 0x7f12072c
+    sget v0, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 9
     invoke-static {v0, v1}, Lsjf;->k(II)V
@@ -142,7 +142,7 @@
     goto :goto_0
 
     :catch_2
-    const v2, 0x7f12072f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 10
     invoke-static {v2, v1}, Lsjf;->k(II)V

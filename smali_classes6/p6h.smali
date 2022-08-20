@@ -160,7 +160,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1219c4
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_unhide:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -370,7 +370,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122251
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

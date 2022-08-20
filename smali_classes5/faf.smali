@@ -179,13 +179,13 @@
     .line 2
     iget-object v1, p0, Lfaf;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e10f8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_share_preview_item:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b2b7d
+    sget v1, Lcom/resouce/module/ResID;->share_item_img:I
 
     .line 3
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object v1, p2, Lfaf$b;->a:Lcn/wps/moffice/common/beans/V10RoundRectImageView;
 
-    const v1, 0x7f0b1848
+    sget v1, Lcom/resouce/module/ResID;->member_img:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -355,7 +355,7 @@
     .line 16
     iget-object v2, p2, Lfaf$b;->b:Landroid/widget/ImageView;
 
-    const v4, 0x7f0817cc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -365,7 +365,7 @@
     :cond_6
     iget-object v2, p2, Lfaf$b;->b:Landroid/widget/ImageView;
 
-    const v4, 0x7f0808a3
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 

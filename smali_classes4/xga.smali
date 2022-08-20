@@ -87,9 +87,9 @@
 
     move-result v1
 
-    const v2, 0x7f0b10f9
+    sget v2, Lcom/resouce/module/ResID;->home_open_radar_oversea:I
 
-    const v3, 0x7f0b10f5
+    sget v3, Lcom/resouce/module/ResID;->home_open_radar:I
 
     const/4 v4, 0x0
 
@@ -113,7 +113,7 @@
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b10ed
+    sget v1, Lcom/resouce/module/ResID;->home_open_other:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b10f7
+    sget v1, Lcom/resouce/module/ResID;->home_open_radar_icon:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b10fa
+    sget v3, Lcom/resouce/module/ResID;->home_open_radar_text:I
 
     .line 12
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0b10f6
+    sget v5, Lcom/resouce/module/ResID;->home_open_radar_desc:I
 
     .line 13
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
     .line 14
     invoke-virtual {v1, v4}, Lcn/wps/moffice/common/beans/RedDotAlphaImageView;->setNeedRedDot(Z)V
 
-    const v5, 0x7f121000
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_recent:I
 
     .line 15
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
@@ -195,7 +195,7 @@
 
     if-eqz v5, :cond_1
 
-    const v5, 0x7f120ffc
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_download:I
 
     .line 17
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -203,7 +203,7 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f120fff
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_qqwechat:I
 
     .line 18
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -305,7 +305,7 @@
     .line 28
     invoke-virtual {v1, v5}, Lcn/wps/moffice/common/beans/RedDotAlphaImageView;->setNeedRedDot(Z)V
 
-    const v1, 0x7f120ffe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_radar_new:I
 
     .line 29
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(I)V
@@ -343,7 +343,7 @@
     :cond_5
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120ffd
+    sget v3, Lcom/resouce/module/ResSTRING;->home_open_radar_from:I
 
     .line 32
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -370,7 +370,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e072b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_open:I
 
     return v0
 .end method
@@ -378,7 +378,7 @@
 .method public f3(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b10e0
+    sget v0, Lcom/resouce/module/ResID;->home_open_doc:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -389,7 +389,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10f4
+    sget v0, Lcom/resouce/module/ResID;->home_open_ppt:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1103
+    sget v0, Lcom/resouce/module/ResID;->home_open_xls:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10ee
+    sget v0, Lcom/resouce/module/ResID;->home_open_pdf:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1101
+    sget v0, Lcom/resouce/module/ResID;->home_open_txt:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -433,7 +433,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10ed
+    sget v0, Lcom/resouce/module/ResID;->home_open_other:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -50,7 +50,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b27ab
+    sget v0, Lcom/resouce/module/ResID;->quick_access_type:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -127,7 +127,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120ffb
+    sget v0, Lcom/resouce/module/ResSTRING;->home_open_phone:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -20,9 +20,9 @@
     .line 2
     new-instance v0, Lc3e$a;
 
-    const v1, 0x7f080b65
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_align_left:I
 
-    const v2, 0x7f122813
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ribbon_alignment:I
 
     invoke-direct {v0, p0, v1, v2}, Lc3e$a;-><init>(Lc3e;II)V
 

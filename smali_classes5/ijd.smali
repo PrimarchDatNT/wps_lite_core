@@ -355,12 +355,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121746
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_member_guide_dialog_cn:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121747
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_member_guide_dialog_en:I
 
     :goto_0
     if-nez p0, :cond_1
@@ -396,14 +396,14 @@
 
     invoke-virtual {v6, v0}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f121767
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_star_recovery_ok:I
 
     .line 4
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v2, 0x7f06005d
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     .line 5
     invoke-static {v2}, Ltid;->a(I)I
@@ -417,7 +417,7 @@
     .line 6
     invoke-virtual {v6, v0, v2, v3}, Lvcd;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f120fb1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 7
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -442,7 +442,7 @@
 
     invoke-virtual {v6, v8, v9}, Lvcd;->setNeutralButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

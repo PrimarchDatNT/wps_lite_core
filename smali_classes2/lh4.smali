@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b15f7
+    sget v0, Lcom/resouce/module/ResID;->link_setting_item_title:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Llh4;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15f8
+    sget v0, Lcom/resouce/module/ResID;->link_setting_item_title_icon:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_0
-    const p1, 0x7f0b15f4
+    sget p1, Lcom/resouce/module/ResID;->link_setting_item_subtitle:I
 
     .line 8
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
     .line 9
     invoke-virtual {p0, p1, p5}, Llh4;->o(Landroid/widget/TextView;I)V
 
-    const p1, 0x7f0b15f2
+    sget p1, Lcom/resouce/module/ResID;->link_setting_item_right_subtitle:I
 
     .line 10
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     invoke-virtual {p0, p1, p6}, Llh4;->p(Landroid/widget/TextView;Ljava/lang/String;)V
 
-    const p1, 0x7f0b15f5
+    sget p1, Lcom/resouce/module/ResID;->link_setting_item_switch:I
 
     .line 13
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
     :goto_1
     invoke-virtual {p1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const p1, 0x7f0b15f6
+    sget p1, Lcom/resouce/module/ResID;->link_setting_item_switch_placeholder:I
 
     .line 15
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object p1, p0, Llh4;->g:Landroid/view/View;
 
-    const p1, 0x7f0b15fe
+    sget p1, Lcom/resouce/module/ResID;->link_settings_item_divide_line:I
 
     .line 16
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 .method public final d()I
     .locals 1
 
-    const v0, 0x7f0e0cc2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_linksetting_item_layout:I
 
     return v0
 .end method

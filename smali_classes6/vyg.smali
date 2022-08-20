@@ -709,7 +709,7 @@
 
     sput-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815b5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_share_long_pic:I
 
     .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -723,7 +723,7 @@
     .line 4
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_file:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -736,7 +736,7 @@
     .line 5
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081587
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_mergefile:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -749,7 +749,7 @@
     .line 6
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_table:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -762,7 +762,7 @@
     .line 7
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081577
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docdownsizing:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -775,7 +775,7 @@
     .line 8
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081578
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docfix:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -788,7 +788,7 @@
     .line 9
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pureimagedocument:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -801,7 +801,7 @@
     .line 10
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_pictures:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -814,7 +814,7 @@
     .line 11
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08156c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_formular2num:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -827,7 +827,7 @@
     .line 12
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815ba
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_split_table_by_content:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -846,7 +846,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081574
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_card_pics_by_content:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -857,7 +857,7 @@
     .line 14
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0818ef
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_final_img:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

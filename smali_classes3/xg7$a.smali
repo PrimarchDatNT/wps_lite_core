@@ -94,7 +94,7 @@
     .line 2
     iget-object v0, p0, Lxg7$a;->I:Landroid/app/Activity;
 
-    const v2, 0x7f1210fe
+    sget v2, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

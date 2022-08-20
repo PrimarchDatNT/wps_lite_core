@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.pdf.shell.annotation.panels.common.PDFAnnoDotView android:layout_gravity="center_vertical" android:id="@id/pdf_edit_anno_seekbar_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/pdf_superscript_icon" app:anno_dot_has_more_btn="false" app:anno_dot_radius="6.0dip" />
-    <SeekBar android:layout_gravity="center" android:id="@id/pdf_edit_anno_seekbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="100" android:progress="0" android:layout_weight="1.0" />
-    <TextView android:textSize="12.0dip" android:layout_gravity="center_vertical" android:id="@id/pdf_edit_anno_seekbar_text" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0dip" android:text="@string/public_ink_pt" />
-</LinearLayout>

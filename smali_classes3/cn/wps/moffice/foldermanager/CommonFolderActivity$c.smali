@@ -107,7 +107,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122814
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ribbon_common:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

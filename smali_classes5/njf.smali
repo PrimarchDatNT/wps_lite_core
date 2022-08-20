@@ -370,7 +370,7 @@
 
     invoke-virtual {v0}, Landroid/widget/EditText;->selectAll()V
 
-    const v0, 0x7f1207a4
+    sget v0, Lcom/resouce/module/ResSTRING;->et_col_size_error:I
 
     .line 14
     invoke-static {v0, v6}, Lsjf;->h(II)V
@@ -388,7 +388,7 @@
 
     invoke-virtual {v0}, Landroid/widget/EditText;->selectAll()V
 
-    const v0, 0x7f120764
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cell_size_error:I
 
     .line 17
     invoke-static {v0, v6}, Lsjf;->h(II)V
@@ -676,7 +676,7 @@
 
     iput-object v0, p0, Lnjf;->d:Lhd3;
 
-    const v1, 0x7f120c5f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -696,7 +696,7 @@
     .line 5
     iget-object v1, p0, Lnjf;->d:Lhd3;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -707,7 +707,7 @@
 
     invoke-direct {v1, p0}, Lnjf$b;-><init>(Lnjf;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -731,7 +731,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01a7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_adjust_resizedlg_pad:I
 
     const/4 v2, 0x0
 
@@ -742,7 +742,7 @@
 
     iput-object v0, p0, Lnjf;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0a66
+    sget v1, Lcom/resouce/module/ResID;->et_freeze_list_item_fix_cell_height_ctl:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -756,7 +756,7 @@
     .line 4
     iget-object v0, p0, Lnjf;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0a67
+    sget v1, Lcom/resouce/module/ResID;->et_freeze_list_item_fix_col_width_ctl:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
     .line 6
     iget-object v0, p0, Lnjf;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0aaa
+    sget v1, Lcom/resouce/module/ResID;->et_list_item_fix_layout:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

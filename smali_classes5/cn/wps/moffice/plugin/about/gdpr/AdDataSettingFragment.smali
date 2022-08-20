@@ -76,7 +76,7 @@
 .method public final a()I
     .locals 1
 
-    const v0, 0x7f0e0a4a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_about_phone_gdpr_ad_data_setting_layout:I
 
     return v0
 .end method
@@ -127,7 +127,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b18da
+    sget p3, Lcom/resouce/module/ResID;->mopub_upgrade_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -175,7 +175,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0f30
+    sget p3, Lcom/resouce/module/ResID;->google_upgrade_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0c58
+    sget p3, Lcom/resouce/module/ResID;->facebook_upgrade_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b33ec
+    sget p3, Lcom/resouce/module/ResID;->vungle_gdpr_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
     .line 29
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b32f0
+    sget p3, Lcom/resouce/module/ResID;->unity_gdpr_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -367,7 +367,7 @@
     .line 35
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b1219
+    sget p3, Lcom/resouce/module/ResID;->huawei_gdpr_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
     .line 41
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b29d0
+    sget p3, Lcom/resouce/module/ResID;->s2s_gdpr_switch:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 47
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b06a7
+    sget p2, Lcom/resouce/module/ResID;->direct_gdpr_switch:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
     .line 50
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b3322
+    sget p2, Lcom/resouce/module/ResID;->use_in_privacy_policy:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
     .line 51
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0ec8
+    sget p3, Lcom/resouce/module/ResID;->gdpr_ad_data_setting_mopub:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     .line 54
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0ec6
+    sget p3, Lcom/resouce/module/ResID;->gdpr_ad_data_setting_facebook:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -555,7 +555,7 @@
     .line 57
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0ec7
+    sget p3, Lcom/resouce/module/ResID;->gdpr_ad_data_setting_google:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -582,7 +582,7 @@
     .line 60
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0ec9
+    sget p3, Lcom/resouce/module/ResID;->gdpr_ad_data_setting_s2s:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -598,7 +598,7 @@
     .line 62
     iget-object p1, p0, Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0ec5
+    sget p3, Lcom/resouce/module/ResID;->gdpr_ad_data_setting_direct:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -644,7 +644,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f122212
+    sget v0, Lcom/resouce/module/ResSTRING;->public_gdpr_data_collection_ad_policy_tips:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

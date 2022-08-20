@@ -54,7 +54,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateAccountActivity$a;->B:Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateAccountActivity;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -311,7 +311,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06011e
+    sget v2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -447,7 +447,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f12018b
+    sget p1, Lcom/resouce/module/ResSTRING;->apps_resume_deliver_failed:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -542,7 +542,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06011e
+    sget v3, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -824,7 +824,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -844,7 +844,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -875,9 +875,9 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->a0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f060226
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_template_item_bg:I
 
-    const v2, 0x7f0605a0
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_title_bar_text_gray_color:I
 
     const/4 v3, 0x1
 
@@ -972,7 +972,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e0e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_resume_preview_activity:I
 
     const/4 v2, 0x0
 
@@ -982,7 +982,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0658
+    sget v1, Lcom/resouce/module/ResID;->deliver_resume:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -996,7 +996,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b29ea
+    sget v1, Lcom/resouce/module/ResID;->save_resume:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1009,7 +1009,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28db
+    sget v1, Lcom/resouce/module/ResID;->resume_preview_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1022,7 +1022,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28da
+    sget v1, Lcom/resouce/module/ResID;->resume_preview_scroll_tip_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1035,7 +1035,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f45
+    sget v1, Lcom/resouce/module/ResID;->grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1048,7 +1048,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2a3b
+    sget v1, Lcom/resouce/module/ResID;->scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1061,7 +1061,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28e6
+    sget v1, Lcom/resouce/module/ResID;->resumepreview_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1077,7 +1077,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d4a
+    sget v1, Lcom/resouce/module/ResID;->pc_resume_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1093,7 +1093,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d49
+    sget v1, Lcom/resouce/module/ResID;->pc_preview_fail_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1104,7 +1104,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28d8
+    sget v1, Lcom/resouce/module/ResID;->resume_preview_retry:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1117,7 +1117,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28d9
+    sget v1, Lcom/resouce/module/ResID;->resume_preview_scale_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1130,7 +1130,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28d7
+    sget v1, Lcom/resouce/module/ResID;->resume_preview_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1141,7 +1141,7 @@
     .line 17
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28dc
+    sget v1, Lcom/resouce/module/ResID;->resume_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1380,7 +1380,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12309d
+    sget v1, Lcom/resouce/module/ResSTRING;->template_preview_resume:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1477,7 +1477,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29ea
+    sget v0, Lcom/resouce/module/ResID;->save_resume:I
 
     if-ne p1, v0, :cond_1
 
@@ -1497,7 +1497,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;->g0:Lgpl;
 
-    const v0, 0x7f1201b3
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_save:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1556,7 +1556,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b0658
+    sget v0, Lcom/resouce/module/ResID;->deliver_resume:I
 
     const/4 v1, 0x0
 
@@ -1599,7 +1599,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b28e6
+    sget v0, Lcom/resouce/module/ResID;->resumepreview_view:I
 
     const/16 v2, 0x8
 
@@ -1654,7 +1654,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1d4a
+    sget v0, Lcom/resouce/module/ResID;->pc_resume_preview:I
 
     if-ne p1, v0, :cond_4
 

@@ -71,7 +71,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1233ce
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_page_background:I
 
     invoke-direct {v1, v2, v4, v3, v0}, Ltal;-><init>(Landroid/content/Context;ILandroid/view/View;Z)V
 

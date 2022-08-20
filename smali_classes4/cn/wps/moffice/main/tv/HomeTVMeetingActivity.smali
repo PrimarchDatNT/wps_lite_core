@@ -185,9 +185,9 @@
     return-void
 
     :cond_1
-    const p1, 0x7f010093
+    sget p1, Lcom/resouce/module/ResANIM;->push_left_in:I
 
-    const v0, 0x7f010094
+    sget v0, Lcom/resouce/module/ResANIM;->push_left_out:I
 
     .line 8
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

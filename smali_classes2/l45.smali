@@ -120,7 +120,7 @@
 .method public static g(JLandroid/content/Context;)Ljava/lang/String;
     .locals 10
 
-    const v0, 0x7f1211b5
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_upload_about_common:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -134,7 +134,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f1211b7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tv_meeting_upload_about_minute:I
 
     invoke-virtual {p2, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
     :cond_0
     const-wide/16 v5, 0x0
 
-    const v1, 0x7f1211b8
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_upload_about_second:I
 
     cmp-long v3, p0, v5
 
@@ -263,7 +263,7 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v0, 0x7f1211b6
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_upload_about_hour:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

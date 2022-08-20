@@ -35,7 +35,7 @@
     .line 4
     iput-object p1, p0, Lae4;->d:Landroid/app/Activity;
 
-    const p1, 0x7f0b15ed
+    sget p1, Lcom/resouce/module/ResID;->link_reopen_btn:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
     .line 2
     iget-object v0, p0, Lae4;->c:Landroid/widget/Button;
 
-    const v1, 0x7f1223a8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_reopen_link:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

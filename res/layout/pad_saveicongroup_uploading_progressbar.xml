@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.fileupload.RoundProgressBar android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" myattrs:roundWidth="@dimen/public_upload_file_progress_round_width_comp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myattrs="http://schemas.android.com/apk/res-auto" />

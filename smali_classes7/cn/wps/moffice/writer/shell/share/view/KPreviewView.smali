@@ -1279,7 +1279,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121db4
+    sget p2, Lcom/resouce/module/ResSTRING;->public_bottom_mark_unsupported_tips:I
 
     const/4 v0, 0x0
 

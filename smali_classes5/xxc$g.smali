@@ -128,7 +128,7 @@
     .line 7
     iget-object v0, p0, Lxxc$g;->d:Landroid/app/Activity;
 
-    const v1, 0x7f121d7d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bad_doc_to_process:I
 
     const/4 v2, 0x0
 

@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29d9
+    sget v1, Lcom/resouce/module/ResID;->save_album_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29da    # 1.8498E38f
+    sget v1, Lcom/resouce/module/ResID;->save_album_switch:I    # 1.8498E38f
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

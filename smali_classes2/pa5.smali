@@ -134,12 +134,12 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0e0ea1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_tv_meeting_video_player:I
 
     .line 3
     iget-object v2, p0, Lpa5;->a:Landroid/app/Activity;
 
-    const v3, 0x7f0b337a
+    sget v3, Lcom/resouce/module/ResID;->video_player:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
     .line 5
     iget-object v0, p0, Lpa5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2761
+    sget v1, Lcom/resouce/module/ResID;->public_video_player:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

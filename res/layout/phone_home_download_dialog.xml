@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/resultView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/phone_public_font_s_gray" />
-    <TextView android:id="@id/speedView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/phone_public_font_s_gray" />
-    <TextView android:textColor="@color/secondaryColor" android:id="@id/speedPlusView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/speedView" android:layout_alignBaseline="@id/speedView" android:layout_marginStart="5.0dip" style="@style/phone_public_font_s_gray" />
-    <cn.wps.moffice.common.beans.MaterialProgressBarHorizontal android:id="@id/downloadbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/resultView" />
-</RelativeLayout>

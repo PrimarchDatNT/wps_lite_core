@@ -299,7 +299,7 @@
 .method public final h0(Landroid/view/ViewGroup;[I)V
     .locals 5
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 .method public final i0(Landroid/view/ViewGroup;[F)V
     .locals 5
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
 .method public final l0(Landroid/view/ViewGroup;[[I)V
     .locals 7
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

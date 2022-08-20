@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122fd2
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_long_pic_blank_cell_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -153,7 +153,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120c36
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_row_limit:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

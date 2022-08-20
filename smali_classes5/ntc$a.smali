@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b14ed
+    sget v0, Lcom/resouce/module/ResID;->jump_to_item:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v0, 0x7f0b2a68
+    sget v0, Lcom/resouce/module/ResID;->search_content_item:I
 
     if-ne p1, v0, :cond_2
 
@@ -93,7 +93,7 @@
     goto/16 :goto_2
 
     :cond_2
-    const v0, 0x7f0b05d1
+    sget v0, Lcom/resouce/module/ResID;->crop_textimage:I
 
     if-ne p1, v0, :cond_3
 
@@ -105,7 +105,7 @@
     goto/16 :goto_2
 
     :cond_3
-    const v0, 0x7f0b0213
+    sget v0, Lcom/resouce/module/ResID;->bg_night_item:I
 
     const/4 v1, 0x1
 
@@ -119,7 +119,7 @@
     goto/16 :goto_2
 
     :cond_4
-    const v0, 0x7f0b0215
+    sget v0, Lcom/resouce/module/ResID;->bg_white_item:I
 
     const/4 v2, 0x0
 
@@ -133,7 +133,7 @@
     goto/16 :goto_2
 
     :cond_5
-    const v0, 0x7f0b0207
+    sget v0, Lcom/resouce/module/ResID;->bg_cowhide_yellow_item:I
 
     if-ne p1, v0, :cond_6
 
@@ -147,7 +147,7 @@
     goto/16 :goto_2
 
     :cond_6
-    const v0, 0x7f0b020a
+    sget v0, Lcom/resouce/module/ResID;->bg_eye_protection_green_item:I
 
     if-ne p1, v0, :cond_7
 
@@ -161,7 +161,7 @@
     goto/16 :goto_2
 
     :cond_7
-    const v0, 0x7f0b0211
+    sget v0, Lcom/resouce/module/ResID;->bg_more_item:I
 
     if-ne p1, v0, :cond_8
 
@@ -176,7 +176,7 @@
     goto/16 :goto_2
 
     :cond_8
-    const v0, 0x7f0b2f86
+    sget v0, Lcom/resouce/module/ResID;->thumbnails_textimage:I
 
     if-ne p1, v0, :cond_9
 
@@ -188,7 +188,7 @@
     goto/16 :goto_2
 
     :cond_9
-    const v0, 0x7f0b00a2
+    sget v0, Lcom/resouce/module/ResID;->add_bookmark_textimage:I
 
     if-ne p1, v0, :cond_c
 
@@ -244,7 +244,7 @@
     goto/16 :goto_2
 
     :cond_c
-    const v0, 0x7f0b00ee
+    sget v0, Lcom/resouce/module/ResID;->all_bookmark_textimage:I
 
     if-ne p1, v0, :cond_e
 
@@ -292,7 +292,7 @@
     goto/16 :goto_2
 
     :cond_e
-    const v0, 0x7f0b1ba1
+    sget v0, Lcom/resouce/module/ResID;->outline_textimage:I
 
     if-ne p1, v0, :cond_10
 
@@ -349,7 +349,7 @@
     goto/16 :goto_2
 
     :cond_10
-    const v0, 0x7f0b0e3d
+    sget v0, Lcom/resouce/module/ResID;->font_narrow_item:I
 
     if-ne p1, v0, :cond_11
 
@@ -370,7 +370,7 @@
     goto/16 :goto_2
 
     :cond_11
-    const v0, 0x7f0b0e29
+    sget v0, Lcom/resouce/module/ResID;->font_enlarge_item:I
 
     if-ne p1, v0, :cond_12
 
@@ -391,7 +391,7 @@
     goto :goto_2
 
     :cond_12
-    const v0, 0x7f0b2c86
+    sget v0, Lcom/resouce/module/ResID;->spacing_close_item:I
 
     if-ne p1, v0, :cond_13
 
@@ -412,7 +412,7 @@
     goto :goto_2
 
     :cond_13
-    const v0, 0x7f0b2c8a
+    sget v0, Lcom/resouce/module/ResID;->spacing_middle_item:I
 
     if-ne p1, v0, :cond_14
 
@@ -433,7 +433,7 @@
     goto :goto_2
 
     :cond_14
-    const v0, 0x7f0b2c88
+    sget v0, Lcom/resouce/module/ResID;->spacing_loose_item:I
 
     if-ne p1, v0, :cond_15
 
@@ -456,7 +456,7 @@
     goto :goto_2
 
     :cond_15
-    const v0, 0x7f0b2a36
+    sget v0, Lcom/resouce/module/ResID;->scroll_orientation_item:I
 
     if-ne p1, v0, :cond_16
 
@@ -468,7 +468,7 @@
     goto :goto_2
 
     :cond_16
-    const v0, 0x7f0b29b6
+    sget v0, Lcom/resouce/module/ResID;->rotate_screen_item:I
 
     if-ne p1, v0, :cond_17
 
@@ -480,7 +480,7 @@
     goto :goto_2
 
     :cond_17
-    const v0, 0x7f0b1c66
+    sget v0, Lcom/resouce/module/ResID;->page_adjust_textimage:I
 
     if-ne p1, v0, :cond_18
 

@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b2e88
+    sget v0, Lcom/resouce/module/ResID;->tag_position:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -47,7 +47,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b2e74
+    sget v1, Lcom/resouce/module/ResID;->tag_is_star:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -120,7 +120,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x0
 

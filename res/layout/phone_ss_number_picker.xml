@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge style="@style/PhoneNumberPicker"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.AlphaImageButton android:id="@id/et_numberpicker_increment" style="@style/PhoneNumberPickerUpButton" />
-    <view android:textColor="@color/subTextColor" android:id="@id/et_numberpicker_input_invisible" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" class="cn.wps.moffice.spreadsheet.control.MyNumberPicker$CustomEditText" style="@style/PhoneNumberPickerInputText" />
-    <view android:id="@id/et_numberpicker_input" android:layout_width="wrap_content" android:layout_height="wrap_content" class="cn.wps.moffice.spreadsheet.control.MyNumberPicker$CustomEditText" style="@style/PhoneNumberPickerInputText" />
-    <cn.wps.moffice.common.beans.AlphaImageButton android:id="@id/et_numberpicker_decrement" style="@style/PhoneNumberPickerDownButton" />
-</merge>

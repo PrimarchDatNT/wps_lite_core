@@ -159,7 +159,7 @@
     .line 4
     iget-object v0, p0, Lrw8;->c:Lhd3;
 
-    const v1, 0x7f1232b7
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_file_encoding:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -179,7 +179,7 @@
     .line 6
     iget-object v0, p0, Lrw8;->c:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lrw8$b;
 
@@ -190,7 +190,7 @@
     .line 7
     iget-object v0, p0, Lrw8;->c:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lrw8$c;
 

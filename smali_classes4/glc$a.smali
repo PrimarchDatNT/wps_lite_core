@@ -53,7 +53,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1dc4
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_text_container:I
 
     if-ne p1, v3, :cond_0
 
@@ -98,7 +98,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b1dc2
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_img_container:I
 
     if-ne p1, v3, :cond_1
 
@@ -143,7 +143,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b1dc0
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_fill_form_container:I
 
     if-ne p1, v1, :cond_2
 
@@ -170,7 +170,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b1dbe
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_annotation_container:I
 
     if-ne p1, v1, :cond_3
 

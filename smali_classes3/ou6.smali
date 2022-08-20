@@ -52,7 +52,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0069
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ad_download_dialog_recommend_item:I
 
     const/4 v1, 0x0
 
@@ -62,7 +62,7 @@
 
     iput-object p1, p0, Lou6;->I:Landroid/view/View;
 
-    const p2, 0x7f0b147a
+    sget p2, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
     .line 5
     iget-object p1, p0, Lou6;->I:Landroid/view/View;
 
-    const p2, 0x7f0b3295
+    sget p2, Lcom/resouce/module/ResID;->tv_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
     .line 6
     iget-object p1, p0, Lou6;->I:Landroid/view/View;
 
-    const p2, 0x7f0b3140
+    sget p2, Lcom/resouce/module/ResID;->tv_desc:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     .line 7
     iget-object p1, p0, Lou6;->I:Landroid/view/View;
 
-    const p2, 0x7f0b3261
+    sget p2, Lcom/resouce/module/ResID;->tv_sign:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 8
     iget-object p1, p0, Lou6;->I:Landroid/view/View;
 
-    const p2, 0x7f0b02d0
+    sget p2, Lcom/resouce/module/ResID;->btn_download:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
 
     if-eq p1, p2, :cond_0
 
-    const p1, 0x7f12201b
+    sget p1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 1
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -218,7 +218,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122588
+    sget p1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 2
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -228,7 +228,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12238d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_installd:I
 
     .line 3
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -238,7 +238,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 4
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -248,7 +248,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f120079
+    sget p1, Lcom/resouce/module/ResSTRING;->ad_download_percent_simple:I
 
     .line 5
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -416,7 +416,7 @@
     .line 19
     invoke-virtual {v0, v2}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v2, 0x7f08006d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ad_download_pop_apk_icon:I
 
     .line 20
     invoke-virtual {v0, v2, v4}, Lf54;->j(IZ)Lf54;

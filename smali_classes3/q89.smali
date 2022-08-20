@@ -443,12 +443,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f122514
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     goto :goto_3
 
     :cond_4
-    const v0, 0x7f12116c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     :goto_3
     invoke-virtual {v3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

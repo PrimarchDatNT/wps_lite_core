@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1215a9
+    sget v3, Lcom/resouce/module/ResSTRING;->pad_keyboard_unlocked:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 

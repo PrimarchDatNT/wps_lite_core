@@ -30,15 +30,15 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080246
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_screen:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080bfb
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_screen_et:I
 
     :goto_0
-    const v0, 0x7f120d5a
+    sget v0, Lcom/resouce/module/ResSTRING;->filter:I
 
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V
 

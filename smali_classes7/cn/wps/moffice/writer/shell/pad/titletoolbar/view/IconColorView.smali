@@ -43,13 +43,13 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e109c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_fill_color_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p3, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p3, 0x7f0b358c
+    sget p3, Lcom/resouce/module/ResID;->writer_fill_color_item_img:I
 
     .line 5
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     iput-object p3, p0, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/IconColorView;->B:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const p3, 0x7f0b358b
+    sget p3, Lcom/resouce/module/ResID;->writer_fill_color_item_colorview:I
 
     .line 6
     invoke-virtual {p0, p3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

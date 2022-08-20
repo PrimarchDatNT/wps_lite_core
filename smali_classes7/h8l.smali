@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0b3541
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_perusegroup:I
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
@@ -25,7 +25,7 @@
 
     invoke-direct {v0}, Lqvk;-><init>()V
 
-    const v1, 0x7f0b3552
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_spellCheckBtn:I
 
     const-string v2, "peruse-spellcheck"
 
@@ -36,7 +36,7 @@
 
     invoke-direct {v0}, Lyyk;-><init>()V
 
-    const v1, 0x7f0b34f8
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_countWordsBtn:I
 
     const-string v2, "peruse-countwords"
 
@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lfvk;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b3553
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_stConvertBtn:I
 
     const-string v2, "peruse-stconvert"
 
@@ -60,7 +60,7 @@
 
     invoke-direct {v0}, Llqk;-><init>()V
 
-    const v1, 0x7f0b34eb
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_addBalloonBtn:I
 
     const-string v2, "peruse-add-balloon"
 
@@ -69,7 +69,7 @@
     .line 5
     new-instance v0, Lbxk;
 
-    const v1, 0x7f0b3550
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_show_revision:I
 
     .line 6
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     invoke-direct {v0}, Laxk;-><init>()V
 
-    const v1, 0x7f0b354f
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_show_comment:I
 
     const-string v2, "peruse_edittoolbar_show_comment"
 
@@ -101,7 +101,7 @@
 
     invoke-direct {v0, v1}, Lywk;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b3507
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_enterBalloonBtn:I
 
     const-string v2, "peruse-enterorexit-balloon"
 
@@ -112,7 +112,7 @@
 
     invoke-direct {v0}, Lswk;-><init>()V
 
-    const v1, 0x7f0b34ea
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_acceptBalloonBtn:I
 
     const-string v2, "peruse-accept-balloon"
 
@@ -123,7 +123,7 @@
 
     invoke-direct {v0}, Lwwk;-><init>()V
 
-    const v1, 0x7f0b34fa
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_denyBalloonBtn:I
 
     const-string v2, "peruse-deny-balloon"
 
@@ -134,7 +134,7 @@
 
     invoke-direct {v0}, Luwk;-><init>()V
 
-    const v1, 0x7f0b34f6
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_changeAuthorBtn:I
 
     const-string v2, "peruse-change-author"
 

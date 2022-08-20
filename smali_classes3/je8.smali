@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e00f0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->dialog_pdf_editor:I
 
     const/4 p3, 0x0
 
@@ -336,7 +336,7 @@
     .line 5
     div-int/lit16 v0, v0, 0x3f0
 
-    const v3, 0x7f080fff
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_editor_banner_01:I
 
     .line 6
     invoke-virtual {p0, v2, v0, v3}, Lje8;->k(III)Landroid/widget/ImageView;
@@ -345,7 +345,7 @@
 
     invoke-virtual {v1, v4}, Lje8$c;->w(Landroid/widget/ImageView;)V
 
-    const v4, 0x7f081000
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pdf_editor_banner_02:I
 
     .line 7
     invoke-virtual {p0, v2, v0, v4}, Lje8;->k(III)Landroid/widget/ImageView;
@@ -454,7 +454,7 @@
 .method public final o(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1f05
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_dlg_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -472,7 +472,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setGrayStyle(Landroid/view/Window;)V
 
-    const v0, 0x7f1218c4
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -504,7 +504,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06e6
+    sget v0, Lcom/resouce/module/ResID;->dlg_get_pdf_editor_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -558,7 +558,7 @@
     .line 1
     invoke-virtual {p0, p1}, Lje8;->o(Landroid/view/View;)V
 
-    const v0, 0x7f0b06f5
+    sget v0, Lcom/resouce/module/ResID;->dlg_promote_banner_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     iput-object v0, p0, Lje8;->S:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1f06
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_left_indicator:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
 
     iput-object v0, p0, Lje8;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1f07
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_right_indicator:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     iput-object v0, p0, Lje8;->V:Landroid/view/View;
 
-    const v0, 0x7f0b06f6
+    sget v0, Lcom/resouce/module/ResID;->dlg_promote_banner_vg:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     iput-object v0, p0, Lje8;->T:Lcn/wps/moffice/main/common/promote/view/GestureViewPager;
 
-    const v0, 0x7f0b06e6
+    sget v0, Lcom/resouce/module/ResID;->dlg_get_pdf_editor_btn:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -93,9 +93,9 @@
     .line 4
     new-instance v0, Lgde$h;
 
-    const v1, 0x7f080421
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_size_add:I
 
-    const v2, 0x7f122358
+    sget v2, Lcom/resouce/module/ResSTRING;->public_increase_font_size:I
 
     invoke-direct {v0, p0, v1, v2}, Lgde$h;-><init>(Lgde;II)V
 
@@ -104,9 +104,9 @@
     .line 5
     new-instance v0, Lgde$i;
 
-    const v1, 0x7f080422
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_size_minus:I
 
-    const v2, 0x7f121fad
+    sget v2, Lcom/resouce/module/ResSTRING;->public_decrease_font_size:I
 
     invoke-direct {v0, p0, v1, v2}, Lgde$i;-><init>(Lgde;II)V
 
@@ -1083,7 +1083,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e100f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_start_page_font_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -1107,7 +1107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e100e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_start_cloud_font_setting_layout:I
 
     invoke-virtual {v0, v1, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1119,7 +1119,7 @@
     :cond_0
     iget-object p1, p0, Lgde;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2d8b    # 1.8499916E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_text:I    # 1.8499916E38f
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1132,7 +1132,7 @@
     .line 5
     iget-object p1, p0, Lgde;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2d8a    # 1.8499914E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_setting_font_style:I    # 1.8499914E38f
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1145,7 +1145,7 @@
     .line 6
     iget-object p1, p0, Lgde;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2d89    # 1.8499912E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_setting_bius:I    # 1.8499912E38f
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1210,7 +1210,7 @@
     :cond_1
     iget-object v0, p0, Lgde;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2d88    # 1.849991E38f
+    sget v1, Lcom/resouce/module/ResID;->start_font_font_size:I    # 1.849991E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1228,7 +1228,7 @@
     .line 15
     iget-object v0, p0, Lgde;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b0e60
+    sget v1, Lcom/resouce/module/ResID;->font_title_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

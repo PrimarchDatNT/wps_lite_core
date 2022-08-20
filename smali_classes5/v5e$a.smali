@@ -91,7 +91,7 @@
 
     iget-object p1, p1, Lv5e;->i0:Landroid/app/Activity;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 

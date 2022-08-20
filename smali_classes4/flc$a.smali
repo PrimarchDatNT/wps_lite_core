@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1286
+    sget v0, Lcom/resouce/module/ResID;->image_ok_layout:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,18 +52,18 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b12a0
+    sget v0, Lcom/resouce/module/ResID;->image_undo:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b1dee
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     if-ne p1, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b127d
+    sget v0, Lcom/resouce/module/ResID;->image_insert:I
 
     if-ne p1, v0, :cond_3
 

@@ -54,7 +54,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122759
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     if-nez p2, :cond_0
 

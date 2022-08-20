@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/public_infoflow_card_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingRight="20.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
-        <TextView android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" />
-        <include android:id="@id/image2" android:layout_width="fill_parent" android:layout_height="180.0dip" layout="@layout/public_infoflow_video_small" />
-        <cn.wps.moffice.common.infoflow.SpreadView android:id="@id/spread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-    </LinearLayout>
-</LinearLayout>

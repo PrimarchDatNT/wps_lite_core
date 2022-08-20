@@ -53,7 +53,7 @@
 
     const/16 v2, 0xb
 
-    const v3, 0x7f12310a
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_en:I
 
     const-string v4, "en"
 
@@ -66,7 +66,7 @@
 
     const/16 v2, 0x1a
 
-    const v3, 0x7f123116
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_id:I
 
     const-string v4, "id"
 
@@ -79,7 +79,7 @@
 
     const/16 v2, 0xd
 
-    const v3, 0x7f12310c
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_es:I
 
     const-string v4, "es"
 
@@ -92,7 +92,7 @@
 
     const/16 v2, 0x1c
 
-    const v3, 0x7f123118
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_it:I
 
     const-string v4, "it"
 
@@ -105,7 +105,7 @@
 
     const/16 v2, 0x2c
 
-    const v3, 0x7f123129
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ru:I
 
     const-string v4, "ru"
 
@@ -118,7 +118,7 @@
 
     const/16 v2, 0x11
 
-    const v3, 0x7f12310f
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_fr:I
 
     const-string v4, "fr"
 
@@ -131,7 +131,7 @@
 
     const/16 v2, 0x16
 
-    const v3, 0x7f123112
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_hi:I
 
     const-string v4, "hi"
 
@@ -144,7 +144,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1230fd
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_af:I
 
     const-string v4, "af"
 
@@ -157,7 +157,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f1230fe
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ar:I
 
     const-string v4, "ar"
 
@@ -170,7 +170,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f123101
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_be:I
 
     const-string v4, "be"
 
@@ -183,7 +183,7 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f123102
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_bg:I
 
     const-string v4, "bg"
 
@@ -196,7 +196,7 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f123103
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_bn:I
 
     const-string v4, "bn"
 
@@ -209,7 +209,7 @@
 
     const/4 v2, 0x5
 
-    const v3, 0x7f123104
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ca:I
 
     const-string v4, "ca"
 
@@ -222,7 +222,7 @@
 
     const/4 v2, 0x6
 
-    const v3, 0x7f123105
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_cs:I
 
     const-string v4, "cs"
 
@@ -235,7 +235,7 @@
 
     const/4 v2, 0x7
 
-    const v3, 0x7f123106
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_cy:I
 
     const-string v4, "cy"
 
@@ -248,7 +248,7 @@
 
     const/16 v2, 0x8
 
-    const v3, 0x7f123107
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_da:I
 
     const-string v4, "da"
 
@@ -261,7 +261,7 @@
 
     const/16 v2, 0x9
 
-    const v3, 0x7f123108
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_de:I
 
     const-string v4, "de"
 
@@ -274,7 +274,7 @@
 
     const/16 v2, 0xa
 
-    const v3, 0x7f123109
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_el:I
 
     const-string v4, "el"
 
@@ -287,7 +287,7 @@
 
     const/16 v2, 0xf
 
-    const v3, 0x7f12310d
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_fa:I
 
     const-string v4, "fa"
 
@@ -300,7 +300,7 @@
 
     const/16 v2, 0x10
 
-    const v3, 0x7f12310e
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_fi:I
 
     const-string v4, "fi"
 
@@ -313,7 +313,7 @@
 
     const/16 v2, 0x13
 
-    const v3, 0x7f123110
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_gl:I
 
     const-string v4, "gl"
 
@@ -326,7 +326,7 @@
 
     const/16 v2, 0x14
 
-    const v3, 0x7f123111
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_gu:I
 
     const-string v4, "gu"
 
@@ -339,7 +339,7 @@
 
     const/16 v2, 0x17
 
-    const v3, 0x7f123113
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_hr:I
 
     const-string v4, "hr"
 
@@ -352,7 +352,7 @@
 
     const/16 v2, 0x18
 
-    const v3, 0x7f123114
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ht:I
 
     const-string v4, "ht"
 
@@ -365,7 +365,7 @@
 
     const/16 v2, 0x19
 
-    const v3, 0x7f123115
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_hu:I
 
     const-string v4, "hu"
 
@@ -378,7 +378,7 @@
 
     const/16 v2, 0x1b
 
-    const v3, 0x7f123117
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_is:I
 
     const-string v4, "is"
 
@@ -391,7 +391,7 @@
 
     const/16 v2, 0x15
 
-    const v3, 0x7f123119
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_iw:I
 
     const-string v4, "he"
 
@@ -404,7 +404,7 @@
 
     const/16 v2, 0x1d
 
-    const v3, 0x7f12311a
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ja:I
 
     const-string v4, "ja"
 
@@ -417,7 +417,7 @@
 
     const/16 v2, 0x1e
 
-    const v3, 0x7f12311b
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ka:I
 
     const-string v4, "ka"
 
@@ -430,7 +430,7 @@
 
     const/16 v2, 0x1f
 
-    const v3, 0x7f12311c
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_kn:I
 
     const-string v4, "kn"
 
@@ -443,7 +443,7 @@
 
     const/16 v2, 0x20
 
-    const v3, 0x7f12311d
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ko:I
 
     const-string v4, "ko"
 
@@ -456,7 +456,7 @@
 
     const/16 v2, 0x21
 
-    const v3, 0x7f12311e
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_lt:I
 
     const-string v4, "lt"
 
@@ -469,7 +469,7 @@
 
     const/16 v2, 0x22
 
-    const v3, 0x7f12311f
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_lv:I
 
     const-string v4, "lv"
 
@@ -482,7 +482,7 @@
 
     const/16 v2, 0x23
 
-    const v3, 0x7f123120
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_mk:I
 
     const-string v4, "mk"
 
@@ -495,7 +495,7 @@
 
     const/16 v2, 0x24
 
-    const v3, 0x7f123121
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_mr:I
 
     const-string v4, "mr"
 
@@ -508,7 +508,7 @@
 
     const/16 v2, 0x25
 
-    const v3, 0x7f123122
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ms:I
 
     const-string v4, "ms"
 
@@ -521,7 +521,7 @@
 
     const/16 v2, 0x26
 
-    const v3, 0x7f123123
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_mt:I
 
     const-string v4, "mt"
 
@@ -534,7 +534,7 @@
 
     const/16 v2, 0x27
 
-    const v3, 0x7f123124
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_nl:I
 
     const-string v4, "nl"
 
@@ -547,7 +547,7 @@
 
     const/16 v2, 0x28
 
-    const v3, 0x7f123125
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_no:I
 
     const-string v4, "no"
 
@@ -560,7 +560,7 @@
 
     const/16 v2, 0x29
 
-    const v3, 0x7f123126
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_pl:I
 
     const-string v4, "pl"
 
@@ -573,7 +573,7 @@
 
     const/16 v2, 0x2a
 
-    const v3, 0x7f123127
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_pt:I
 
     const-string v4, "pt"
 
@@ -586,7 +586,7 @@
 
     const/16 v2, 0x2b
 
-    const v3, 0x7f123128
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ro:I
 
     const-string v4, "ro"
 
@@ -599,7 +599,7 @@
 
     const/16 v2, 0x2d
 
-    const v3, 0x7f12312a
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_sk:I
 
     const-string v4, "sk"
 
@@ -612,7 +612,7 @@
 
     const/16 v2, 0x2e
 
-    const v3, 0x7f12312b
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_sl:I
 
     const-string v4, "sl"
 
@@ -625,7 +625,7 @@
 
     const/16 v2, 0x2f
 
-    const v3, 0x7f12312c
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_sq:I
 
     const-string v4, "sq"
 
@@ -638,7 +638,7 @@
 
     const/16 v2, 0x30
 
-    const v3, 0x7f12312d
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_sv:I
 
     const-string v4, "sv"
 
@@ -651,7 +651,7 @@
 
     const/16 v2, 0x31
 
-    const v3, 0x7f12312e
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_sw:I
 
     const-string v4, "sw"
 
@@ -664,7 +664,7 @@
 
     const/16 v2, 0x32
 
-    const v3, 0x7f12312f
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ta:I
 
     const-string v4, "ta"
 
@@ -677,7 +677,7 @@
 
     const/16 v2, 0x33
 
-    const v3, 0x7f123130
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_te:I
 
     const-string v4, "te"
 
@@ -690,7 +690,7 @@
 
     const/16 v2, 0x34
 
-    const v3, 0x7f123131
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_th:I
 
     const-string v4, "th"
 
@@ -703,7 +703,7 @@
 
     const/16 v2, 0x35
 
-    const v3, 0x7f123132
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_tl:I
 
     const-string v4, "tl"
 
@@ -716,7 +716,7 @@
 
     const/16 v2, 0x36
 
-    const v3, 0x7f123133
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_tr:I
 
     const-string v4, "tr"
 
@@ -729,7 +729,7 @@
 
     const/16 v2, 0x37
 
-    const v3, 0x7f123134
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_uk:I
 
     const-string v4, "uk"
 
@@ -742,7 +742,7 @@
 
     const/16 v2, 0x38
 
-    const v3, 0x7f123135
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_ur:I
 
     const-string v4, "ur"
 
@@ -755,7 +755,7 @@
 
     const/16 v2, 0x39
 
-    const v3, 0x7f123136
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_vi:I
 
     const-string v4, "vi"
 
@@ -768,7 +768,7 @@
 
     const/16 v2, 0x3a
 
-    const v3, 0x7f123137
+    sget v3, Lcom/resouce/module/ResSTRING;->twslang_zh:I
 
     const-string v4, "zh"
 
@@ -1215,7 +1215,7 @@
 
     const/16 v0, 0xb
 
-    const v1, 0x7f12310a
+    sget v1, Lcom/resouce/module/ResSTRING;->twslang_en:I
 
     const-string v2, "en"
 

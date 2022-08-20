@@ -70,7 +70,7 @@
 .method public U2()I
     .locals 1
 
-    const v0, 0x7f0e050a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->oversea_slide_phone_home_open_layout:I
 
     return v0
 .end method

@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0192
+    sget p2, Lcom/resouce/module/ResLAYOUT;->en_phone_ss_toolbar_linear_item_view:I
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -77,12 +77,12 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e09a7
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_toolbar_linear_item_view:I
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     :goto_0
-    const p1, 0x7f0b2d75
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_icon:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2d77
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_title:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->U:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2d74
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_ext_text:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2d76
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_recommend_icon:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b15b1
+    sget p1, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
 
     invoke-virtual {p1, v0}, Lf54;->c(Z)Lf54;
 
-    const p2, 0x7f081c40
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_share_recommend_shape:I
 
     invoke-virtual {p1, p2, v0}, Lf54;->j(IZ)Lf54;
 
@@ -740,7 +740,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06058f
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_ss_theme_textcolor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -760,7 +760,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -2419,7 +2419,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f082012
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_reader_light_night:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

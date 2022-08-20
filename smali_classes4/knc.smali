@@ -51,7 +51,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f12189f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_cvt_mode_failed:I
 
     const/4 v1, 0x1
 
@@ -134,7 +134,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -146,7 +146,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12045b
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_out_memory_error_tip:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -158,7 +158,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e07bd
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_insert_pic_preview_mode:I
 
     const/4 v3, 0x0
 
@@ -187,7 +187,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1e9a
+    sget v2, Lcom/resouce/module/ResID;->pdf_pic_mode_back:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     iput v2, p0, Lknc;->U:I
 
-    const v2, 0x7f0b1e31
+    sget v2, Lcom/resouce/module/ResID;->pdf_list_mode_layout:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b1ea0
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_preview_mode_panel:I
 
     .line 9
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1e9f
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_preview_mode_padding_top:I
 
     .line 10
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060043
+    sget v2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

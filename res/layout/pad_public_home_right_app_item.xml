@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:background="@drawable/phone_public_sidebar_list_item_selector" android:layout_width="fill_parent" android:layout_height="38.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/pad_home_app_item_icon" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/phone_public_bottom_toolbar_gift" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="24.0dip" android:layout_toRightOf="@id/pad_home_app_item_icon" android:layout_marginStart="10.0dip" android:layout_marginEnd="24.0dip" android:layout_toEndOf="@id/pad_home_app_item_icon">
-        <TextView android:textSize="11.0sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/pad_home_app_item_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_centerVertical="true" />
-    </LinearLayout>
-</RelativeLayout>

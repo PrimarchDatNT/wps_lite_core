@@ -95,7 +95,7 @@
 
     iput p1, p0, Lpqf;->p0:F
 
-    const p1, 0x7f0e0229
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_popup:I
 
     const/4 v1, 0x0
 
@@ -111,7 +111,7 @@
     .line 8
     invoke-virtual {p0, p1}, Ljd3;->x(Landroid/view/View;)V
 
-    const v0, 0x7f0b30a1
+    sget v0, Lcom/resouce/module/ResID;->tracks:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -498,12 +498,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080ce7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pop_track:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081319
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     :goto_0
     invoke-virtual {p0, v0}, Lpqf;->U(I)V
@@ -517,7 +517,7 @@
     .line 1
     iget-object v0, p0, Lpqf;->l0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f081af7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_popmenu_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -537,7 +537,7 @@
     .line 2
     iget-object v0, p0, Lpqf;->l0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f081af7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_popmenu_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -916,7 +916,7 @@
     .line 1
     iget-object p3, p0, Ljd3;->S:Landroid/widget/PopupWindow;
 
-    const v0, 0x7f130782
+    sget v0, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     invoke-virtual {p3, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

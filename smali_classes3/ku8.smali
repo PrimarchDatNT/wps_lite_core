@@ -266,7 +266,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_oversea_ac_assistant:I
 
     const/4 v2, 0x0
 
@@ -276,7 +276,7 @@
 
     iput-object v0, p0, Lku8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0167
+    sget v1, Lcom/resouce/module/ResID;->assistant_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
     .line 3
     iget-object v0, p0, Lku8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0164
+    sget v1, Lcom/resouce/module/ResID;->assistant_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d38
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_oversea_assistant_label_layout:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -320,7 +320,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d39
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_oversea_assistant_no_content:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -331,7 +331,7 @@
     .line 6
     iget-object v0, p0, Lku8;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0dd8
+    sget v1, Lcom/resouce/module/ResID;->flowLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
     .line 7
     iget-object v0, p0, Lku8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0163
+    sget v1, Lcom/resouce/module/ResID;->assistant_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
     .line 8
     iget-object v0, p0, Lku8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2536
+    sget v1, Lcom/resouce/module/ResID;->progressLinearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -371,7 +371,7 @@
     .line 10
     iget-object v0, p0, Lku8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0167
+    sget v1, Lcom/resouce/module/ResID;->assistant_root:I
 
     if-ne v0, v1, :cond_0
 
@@ -544,7 +544,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0163
+    sget v0, Lcom/resouce/module/ResID;->assistant_close:I
 
     if-ne p1, v0, :cond_1
 
@@ -689,7 +689,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0d37
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_oversea_assistant_label_item_layout:I
 
     const/4 v4, 0x0
 
@@ -697,7 +697,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1ba8
+    sget v3, Lcom/resouce/module/ResID;->overseaWordsTextView:I
 
     .line 15
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

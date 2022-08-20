@@ -77,7 +77,7 @@
     .line 3
     iget-object v0, p0, Lvc8$c;->B:Lhd3;
 
-    const v1, 0x7f120ebb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_cloudstorage_arrange:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -97,7 +97,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0702
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_arrange_layout:I
 
     const/4 v3, 0x0
 
@@ -107,7 +107,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0157
+    sget v2, Lcom/resouce/module/ResID;->arrangeby_notebooks_radio:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b29d2
+    sget v3, Lcom/resouce/module/ResID;->sarrangeby_allattachments_radio:I
 
     .line 7
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b0156
+    sget v4, Lcom/resouce/module/ResID;->arrangeby_notebooks_layout:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b0155
+    sget v4, Lcom/resouce/module/ResID;->arrangeby_allattachments_layout:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

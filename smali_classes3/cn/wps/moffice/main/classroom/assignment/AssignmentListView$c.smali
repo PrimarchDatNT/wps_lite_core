@@ -60,7 +60,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->p0:Landroid/content/Context;
 
-    const p2, 0x7f0b14cd
+    sget p2, Lcom/resouce/module/ResID;->iv_student_avatar:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->j0:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const p2, 0x7f0b3273
+    sget p2, Lcom/resouce/module/ResID;->tv_student_name:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b328e
+    sget p2, Lcom/resouce/module/ResID;->tv_time:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->l0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b3298
+    sget p2, Lcom/resouce/module/ResID;->tv_to_correct:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->m0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0db5
+    sget p2, Lcom/resouce/module/ResID;->fl_corrected_container:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->n0:Landroid/view/View;
 
-    const p2, 0x7f0b3244
+    sget p2, Lcom/resouce/module/ResID;->tv_score:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentListView$c;->p0:Landroid/content/Context;
 
-    const v4, 0x7f120262
+    sget v4, Lcom/resouce/module/ResSTRING;->class_grades:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

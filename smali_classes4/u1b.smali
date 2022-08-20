@@ -506,7 +506,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122514
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -536,7 +536,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12049a
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_residence_card:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -554,7 +554,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12045c
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_passport_card:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -572,7 +572,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1203d8
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_certification:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -590,7 +590,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120434
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_identity_card:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

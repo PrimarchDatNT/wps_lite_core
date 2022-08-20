@@ -291,7 +291,7 @@
 
     if-nez v0, :cond_4
 
-    const v0, 0x7f12148f
+    sget v0, Lcom/resouce/module/ResSTRING;->note_group_file_unsupport:I
 
     .line 18
     invoke-static {v15, v0, v1}, Lbih;->n(Landroid/content/Context;II)V

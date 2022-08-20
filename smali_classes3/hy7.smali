@@ -59,12 +59,12 @@
 
     if-eqz p3, :cond_0
 
-    const v0, 0x7f13013f
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Half_Screen_Bottom_In_Out_With_Floating:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     :goto_0
@@ -264,12 +264,12 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f120214
+    sget v1, Lcom/resouce/module/ResSTRING;->bind_phone_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v2, 0x7f12244c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_force_bind_phone_for_third_party:I
 
     .line 6
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -279,7 +279,7 @@
 
     invoke-direct {v2, p0}, Lhy7$c;-><init>(Lhy7;)V
 
-    const v3, 0x7f12245a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_not_yet_register:I
 
     invoke-virtual {v0, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -317,7 +317,7 @@
     .line 2
     iget-object p1, p0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f12020f
+    sget v0, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_empty:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -338,7 +338,7 @@
     .line 4
     iget-object p1, p0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f120210
+    sget v0, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_format:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -414,7 +414,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120216
+    sget v4, Lcom/resouce/module/ResSTRING;->bind_use_phone_regesiter_first_tips:I
 
     const/4 v5, 0x1
 
@@ -435,7 +435,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120217
+    sget v4, Lcom/resouce/module/ResSTRING;->bind_use_phone_regesiter_second_tips:I
 
     new-array v5, v5, [Ljava/lang/Object;
 
@@ -457,7 +457,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122460
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_register_bind_phone_tip:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -498,7 +498,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1ce6
+    sget v0, Lcom/resouce/module/ResID;->part1Layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -545,7 +545,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0ce2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_login_register_bind_phone_sms_half_screen_dialog:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -581,7 +581,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b2df3
+    sget v3, Lcom/resouce/module/ResID;->sv_phone_sms_container:I
 
     aput v3, v0, v2
 
@@ -617,7 +617,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0ce3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_login_register_bind_phone_sms_normal_dialog:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -826,7 +826,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b1ce7
+    sget v0, Lcom/resouce/module/ResID;->part2Layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -889,7 +889,7 @@
     .line 1
     invoke-virtual {p0}, Lhy7;->e3()V
 
-    const v0, 0x7f0b01ac
+    sget v0, Lcom/resouce/module/ResID;->avatarImageView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -900,7 +900,7 @@
 
     iput-object v0, p0, Lhy7;->I:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v0, 0x7f0b2c34
+    sget v0, Lcom/resouce/module/ResID;->skipTextView:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -911,7 +911,7 @@
 
     iput-object v0, p0, Lhy7;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1989
+    sget v0, Lcom/resouce/module/ResID;->nameTextView:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -922,7 +922,7 @@
 
     iput-object v0, p0, Lhy7;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b174d
+    sget v0, Lcom/resouce/module/ResID;->loginTypeTextView:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -933,7 +933,7 @@
 
     iput-object v0, p0, Lhy7;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -942,7 +942,7 @@
 
     iput-object v0, p0, Lhy7;->V:Landroid/view/View;
 
-    const v0, 0x7f0b3235
+    sget v0, Lcom/resouce/module/ResID;->tv_register_bind_tips:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -953,7 +953,7 @@
 
     iput-object v0, p0, Lhy7;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3234
+    sget v0, Lcom/resouce/module/ResID;->tv_register_bind_seconde_tips:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1031,7 +1031,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2c34
+    sget v0, Lcom/resouce/module/ResID;->skipTextView:I
 
     if-ne p1, v0, :cond_0
 
@@ -1049,7 +1049,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     if-ne p1, v0, :cond_2
 

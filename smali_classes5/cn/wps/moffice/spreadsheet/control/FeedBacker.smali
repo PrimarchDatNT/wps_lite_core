@@ -30,15 +30,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080229
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_feedback:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080bc9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_feedback_et:I
 
     :goto_0
-    const v2, 0x7f1220ed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/FeedBacker$2;-><init>(Lcn/wps/moffice/spreadsheet/control/FeedBacker;II)V
 
@@ -109,7 +109,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/FeedBacker;->B:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/FeedBacker$b;-><init>(Lcn/wps/moffice/spreadsheet/control/FeedBacker;Landroid/content/Context;I)V
 

@@ -107,7 +107,7 @@
 .method public final K5(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0b00ab
+    sget v0, Lcom/resouce/module/ResID;->add_folder:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object v0, p0, Lad7;->q1:Landroid/view/View;
 
-    const v0, 0x7f0b00ac
+    sget v0, Lcom/resouce/module/ResID;->add_folder_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b348c
+    sget v2, Lcom/resouce/module/ResID;->wps_drive_path_layout:I
 
     .line 4
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0767
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_wps_drive_saveas_path_gallery_layout:I
 
     const/4 v2, 0x1
 
@@ -450,7 +450,7 @@
     .line 3
     invoke-virtual {p0, p1}, Lad7;->L5(Landroid/view/ViewGroup;)V
 
-    const v0, 0x7f0b1cfc
+    sget v0, Lcom/resouce/module/ResID;->path_gallery:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -560,7 +560,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     if-ne v0, v1, :cond_0
 

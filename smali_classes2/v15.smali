@@ -63,7 +63,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f121e27
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_file_size_limit_title:I
 
     .line 5
     invoke-virtual {v1, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121e28
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_file_size_limit_upgrade:I
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121e67
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cloud_icon_file_size_limit_cant_upgrade:I
 
     new-array p4, v2, [Ljava/lang/Object;
 

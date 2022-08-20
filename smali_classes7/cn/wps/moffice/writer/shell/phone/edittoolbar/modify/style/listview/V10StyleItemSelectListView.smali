@@ -61,7 +61,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/phone/edittoolbar/modify/style/listview/V10StyleItemSelectListView;->T:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e103f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_public_simpleitem_select_layout:I
 
     .line 3
     invoke-virtual {p1, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -69,7 +69,7 @@
     .line 4
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/phone/edittoolbar/modify/style/listview/V10StyleItemSelectListView;->I:Ljava/util/List;
 
-    const p1, 0x7f0b1632
+    sget p1, Lcom/resouce/module/ResID;->listview:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/phone/edittoolbar/modify/style/listview/V10StyleItemSelectListView;->B:Landroid/widget/ListView;
 
-    const p2, 0x7f0e1014
+    sget p2, Lcom/resouce/module/ResLAYOUT;->v10_phone_public_listview_padding_header_footer:I
 
     .line 6
     invoke-static {p2, v0}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;

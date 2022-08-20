@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/printer_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="66.0dip" style="@style/public_wpsdrive_list_style" />
-    <include android:id="@id/empty_layout" layout="@layout/public_print_scan_empty_printers" />
-    <Button android:layout_gravity="bottom" android:id="@id/btn_scan_printer" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_print_scan_to_connect" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/KButtonStyle.Secondary" />
-</FrameLayout>

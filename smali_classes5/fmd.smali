@@ -32,7 +32,7 @@
 
     invoke-direct {p1, v0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f121b7f
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_level_object:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

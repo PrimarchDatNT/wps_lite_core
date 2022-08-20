@@ -77,7 +77,7 @@
 
     iget-object v0, v0, Lcb8;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120583
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloud_storage_ftp_networkerror:I
 
     const/4 v2, 0x1
 

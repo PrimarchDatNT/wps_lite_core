@@ -187,7 +187,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212fc
+    sget v3, Lcom/resouce/module/ResSTRING;->jp_guide_file_edit_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -201,7 +201,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120de1
+    sget v3, Lcom/resouce/module/ResSTRING;->guide_file_edit_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212fe
+    sget v3, Lcom/resouce/module/ResSTRING;->jp_guide_file_tools_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120de3
+    sget v3, Lcom/resouce/module/ResSTRING;->guide_file_tools_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1212fd
+    sget v2, Lcom/resouce/module/ResSTRING;->jp_guide_file_pdf_to_doc_desc:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120de2
+    sget v2, Lcom/resouce/module/ResSTRING;->guide_file_pdf_to_doc_desc:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -319,7 +319,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e044d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_guide_file_tips_content_binding:I
 
     const/4 v2, 0x0
 

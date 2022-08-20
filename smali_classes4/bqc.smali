@@ -315,7 +315,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f0e064e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_pad_mouse_shell_panel_layout:I
 
     return v0
 .end method

@@ -171,7 +171,7 @@
 
     if-nez p1, :cond_5
 
-    const p1, 0x7f120ba6
+    sget p1, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     .line 11
     invoke-static {p1, v1}, Lsjf;->k(II)V
@@ -431,7 +431,7 @@
 
     if-nez p1, :cond_3
 
-    const p1, 0x7f120ba6
+    sget p1, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     .line 7
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -607,7 +607,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1219c4
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_unhide:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -621,7 +621,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122251
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -971,9 +971,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v4, 0x7f120594
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_dialog_title:I
 
     const/16 v5, 0x11
 
@@ -1093,7 +1093,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f12001e
+    sget v4, Lcom/resouce/module/ResSTRING;->SheetNameReservedException:I
 
     .line 14
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1189,7 +1189,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f12001d
+    sget v4, Lcom/resouce/module/ResSTRING;->SheetNameConflictException:I
 
     .line 25
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1285,7 +1285,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f120015
+    sget v4, Lcom/resouce/module/ResSTRING;->InvalidSheetNameException:I
 
     .line 36
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

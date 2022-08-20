@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bbd
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_modify_link_share_permissions:I
 
     const/4 p3, 0x0
 
@@ -94,7 +94,7 @@
 
     iput-object p1, p0, Lrj9;->V:Landroid/view/View;
 
-    const p2, 0x7f0b2fd7
+    sget p2, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
     .line 11
     iget-object p1, p0, Lrj9;->V:Landroid/view/View;
 
-    const p2, 0x7f0b172c
+    sget p2, Lcom/resouce/module/ResID;->loading_progress_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
     .line 12
     iget-object p1, p0, Lrj9;->V:Landroid/view/View;
 
-    const p2, 0x7f0b08b8
+    sget p2, Lcom/resouce/module/ResID;->error_no_network_page:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 13
     iget-object p1, p0, Lrj9;->V:Landroid/view/View;
 
-    const p2, 0x7f0b081d
+    sget p2, Lcom/resouce/module/ResID;->edit_link_share_permission_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -143,7 +143,7 @@
     .line 14
     iget-object p1, p0, Lrj9;->V:Landroid/view/View;
 
-    const p2, 0x7f0b081c
+    sget p2, Lcom/resouce/module/ResID;->edit_link_share_expired_page:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -154,7 +154,7 @@
     .line 15
     iget-object p1, p0, Lrj9;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f122379
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEditPasswd:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -208,7 +208,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lbh8;)V
     .locals 1
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lrj9;-><init>(Landroid/app/Activity;ILbh8;)V
@@ -347,7 +347,7 @@
 
     iget-object v1, p0, Lrj9;->V:Landroid/view/View;
 
-    const v2, 0x7f0b1f86
+    sget v2, Lcom/resouce/module/ResID;->permission_only_read_select_tag:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
 
     iget-object v2, p0, Lrj9;->V:Landroid/view/View;
 
-    const v3, 0x7f0b1f85
+    sget v3, Lcom/resouce/module/ResID;->permission_only_read_btn:I
 
     .line 2
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     iget-object v3, p0, Lrj9;->V:Landroid/view/View;
 
-    const v4, 0x7f0b1f87
+    sget v4, Lcom/resouce/module/ResID;->permission_only_read_time_layout:I
 
     .line 3
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -384,7 +384,7 @@
 
     iget-object v1, p0, Lrj9;->V:Landroid/view/View;
 
-    const v2, 0x7f0b1f7e
+    sget v2, Lcom/resouce/module/ResID;->permission_editable_select_tag:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -392,7 +392,7 @@
 
     iget-object v2, p0, Lrj9;->V:Landroid/view/View;
 
-    const v3, 0x7f0b1f7d
+    sget v3, Lcom/resouce/module/ResID;->permission_editable_btn:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     iget-object v3, p0, Lrj9;->V:Landroid/view/View;
 
-    const v4, 0x7f0b1f7f
+    sget v4, Lcom/resouce/module/ResID;->permission_editable_time_layout:I
 
     .line 6
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -421,7 +421,7 @@
 
     iget-object v1, p0, Lrj9;->V:Landroid/view/View;
 
-    const v2, 0x7f0b1f7b
+    sget v2, Lcom/resouce/module/ResID;->permission_designated_member_select_tag:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +429,7 @@
 
     iget-object v2, p0, Lrj9;->V:Landroid/view/View;
 
-    const v3, 0x7f0b1f7a
+    sget v3, Lcom/resouce/module/ResID;->permission_designated_member_btn:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
 
     iget-object v3, p0, Lrj9;->V:Landroid/view/View;
 
-    const v4, 0x7f0b1f84
+    sget v4, Lcom/resouce/module/ResID;->permission_manager_member_btn:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -768,7 +768,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121d06
+    sget p3, Lcom/resouce/module/ResSTRING;->public_add_member_tip:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -784,7 +784,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1206ff
+    sget v2, Lcom/resouce/module/ResSTRING;->edit_link_share_permission_period:I
 
     const/4 v3, 0x1
 
@@ -878,7 +878,7 @@
     .line 8
     iget-object v0, p0, Lrj9;->S:Landroid/app/Activity;
 
-    const v1, 0x7f1212ef
+    sget v1, Lcom/resouce/module/ResSTRING;->invite_edit_link_unsupport_file:I
 
     const/4 v2, 0x0
 
@@ -953,7 +953,7 @@
     .line 3
     iget-object v0, p0, Lrj9;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1607
+    sget v1, Lcom/resouce/module/ResID;->link_share_expired_reset_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

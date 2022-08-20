@@ -176,7 +176,7 @@
     .line 3
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
-    const v1, 0x7f130112
+    sget v1, Lcom/resouce/module/ResSTYLE;->CancelDialogeTheme:I
 
     invoke-direct {v0, p0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 

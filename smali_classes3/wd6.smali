@@ -169,7 +169,7 @@
 
     invoke-direct {v0}, Lwd6$c;-><init>()V
 
-    const v1, 0x7f0b1995
+    sget v1, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b05b3
+    sget v2, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v3, 0x7f0b0534
+    sget v3, Lcom/resouce/module/ResID;->container_ll:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070a89
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -216,7 +216,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060259
+    sget v5, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -231,7 +231,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060627
+    sget v5, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -248,7 +248,7 @@
     .line 12
     iput-object v1, v0, Lwd6$c;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1383
+    sget v1, Lcom/resouce/module/ResID;->is_pay_template_icon:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object v1, v0, Lwd6$c;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0588
+    sget v1, Lcom/resouce/module/ResID;->corner_icon:I
 
     .line 14
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -301,7 +301,7 @@
 
     move-result v1
 
-    const v2, 0x7f081e8b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     if-nez v1, :cond_2
 
@@ -447,7 +447,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0166
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_excel_template_column:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -458,7 +458,7 @@
 
     invoke-direct {p3}, Lwd6$b;-><init>()V
 
-    const v1, 0x7f0b0bee
+    sget v1, Lcom/resouce/module/ResID;->excel_item1:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -467,7 +467,7 @@
 
     iput-object v1, p3, Lwd6$b;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0bf1
+    sget v1, Lcom/resouce/module/ResID;->excel_left_padding1:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     iput-object v1, p3, Lwd6$b;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0bef
+    sget v1, Lcom/resouce/module/ResID;->excel_item2:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,7 +485,7 @@
 
     iput-object v1, p3, Lwd6$b;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0bf2
+    sget v1, Lcom/resouce/module/ResID;->excel_left_padding2:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     iput-object v1, p3, Lwd6$b;->d:Landroid/view/View;
 
-    const v1, 0x7f0b0bf0
+    sget v1, Lcom/resouce/module/ResID;->excel_item3:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -503,7 +503,7 @@
 
     iput-object v1, p3, Lwd6$b;->e:Landroid/view/View;
 
-    const v1, 0x7f0b0bf3
+    sget v1, Lcom/resouce/module/ResID;->excel_left_padding3:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

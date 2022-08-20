@@ -93,7 +93,7 @@
 
     iget-object v1, v0, Llv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122705
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_from_scan:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226d0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_get_printers_error:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

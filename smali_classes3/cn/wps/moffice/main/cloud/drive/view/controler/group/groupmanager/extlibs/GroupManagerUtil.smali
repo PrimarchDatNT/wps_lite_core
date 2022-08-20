@@ -243,16 +243,16 @@
 
     if-eqz p3, :cond_0
 
-    const p2, 0x7f12208b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
-    const v1, 0x7f12208b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f122088
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit_group:I
 
-    const v1, 0x7f122088
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exit_group:I
 
     .line 2
     :goto_0
@@ -260,7 +260,7 @@
 
     move-result v2
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v5, 0x0
 
@@ -276,21 +276,21 @@
 
     if-eqz p4, :cond_0
 
-    const v0, 0x7f121245
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_del_share_folder:I
 
-    const v3, 0x7f121245
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wpsdrive_del_share_folder:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121e3a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_delete_group_dialog_msg_v2:I
 
-    const v3, 0x7f121e3a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_delete_group_dialog_msg_v2:I
 
     :goto_0
-    const v2, 0x7f121e38
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_delete_group:I
 
-    const v4, 0x7f121fba
+    sget v4, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 1
     new-instance v11, Lcn/wps/moffice/main/cloud/drive/view/controler/group/groupmanager/extlibs/GroupManagerUtil$r;
@@ -344,11 +344,11 @@
 
     invoke-direct/range {v0 .. v6}, Lcn/wps/moffice/main/cloud/drive/view/controler/group/groupmanager/extlibs/GroupManagerUtil$p;-><init>(Lcn/wps/moffice/main/cloud/drive/view/controler/group/groupmanager/extlibs/GroupManagerUtil;Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;)V
 
-    const v2, 0x7f121dc1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
-    const v3, 0x7f121243
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wpsdrive_close_share_folder:I
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     move-object v0, p0
 
@@ -383,11 +383,11 @@
 
     invoke-direct/range {v0 .. v5}, Lcn/wps/moffice/main/cloud/drive/view/controler/group/groupmanager/extlibs/GroupManagerUtil$s;-><init>(Lcn/wps/moffice/main/cloud/drive/view/controler/group/groupmanager/extlibs/GroupManagerUtil;Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Z)V
 
-    const v2, 0x7f121e38
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_delete_group:I
 
-    const v3, 0x7f121e39
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_delete_group_dialog_msg:I
 
-    const v4, 0x7f121fba
+    sget v4, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     move-object v0, p0
 
@@ -430,18 +430,18 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f122287
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_remove_group_member_dialog_msg:I
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f122288
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_remove_share_folder_membe_msg:I
 
-    const v4, 0x7f122288
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_remove_share_folder_membe_msg:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f122287
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_remove_group_member_dialog_msg:I
 
     :goto_0
     move-object v1, p0
@@ -451,14 +451,14 @@
 
     move-result v3
 
-    const v0, 0x7f122284
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_confirm_remove_group_member:I
 
     .line 4
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v5, 0x7f06025d
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -498,7 +498,7 @@
     :cond_1
     move-object v1, p0
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -575,12 +575,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f12124c
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_exit_share_folder:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121e45
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_exit_group_msg_v2:I
 
     :goto_0
     return p1
@@ -591,12 +591,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f121253
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_move_out_share:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122285
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_group_remove_member:I
 
     :goto_0
     return p1
@@ -645,7 +645,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12124a
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_err_not_group_member:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -670,7 +670,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12124b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_exists_share_folder:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -695,7 +695,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121249
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_err_group_not_exist:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -730,7 +730,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -756,7 +756,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0ca8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_layout_delete_roaming_record_dialog:I
 
     const/4 v2, 0x0
 
@@ -764,7 +764,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b2572
+    sget v1, Lcom/resouce/module/ResID;->public_cb_delete_document:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -773,7 +773,7 @@
 
     check-cast v1, Landroid/widget/CheckBox;
 
-    const v2, 0x7f121e26
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_clean_all_delete_group:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setText(I)V
@@ -817,7 +817,7 @@
     .line 13
     invoke-virtual {v0, p4, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 14
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -846,7 +846,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0851
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_delete_group_custom_view:I
 
     const/4 v4, 0x0
 
@@ -854,7 +854,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b20cf
+    sget v3, Lcom/resouce/module/ResID;->phone_public_deletegroup_checkbox:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -868,7 +868,7 @@
 
     if-eqz p5, :cond_0
 
-    const v4, 0x7f121242
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wpsdrive_clear_share_folder:I
 
     .line 6
     invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setText(I)V
@@ -902,7 +902,7 @@
 
     move-result-object p2
 
-    const p5, 0x7f0707b5
+    sget p5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {p2, p5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -933,7 +933,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f0707a9
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_content_padding_buttom:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -971,7 +971,7 @@
     .line 21
     invoke-virtual {v0, p4, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 22
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1004,7 +1004,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0851
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_delete_group_custom_view:I
 
     const/4 v4, 0x0
 
@@ -1012,7 +1012,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b20cf
+    sget v3, Lcom/resouce/module/ResID;->phone_public_deletegroup_checkbox:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1021,7 +1021,7 @@
 
     check-cast v3, Landroid/widget/CheckBox;
 
-    const v4, 0x7f121242
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wpsdrive_clear_share_folder:I
 
     .line 5
     invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setText(I)V
@@ -1069,7 +1069,7 @@
 
     move-result-object p2
 
-    const p5, 0x7f0707b5
+    sget p5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {p2, p5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1100,7 +1100,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707a9
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_content_padding_buttom:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1138,7 +1138,7 @@
     .line 22
     invoke-virtual {v0, p4, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 23
     invoke-virtual {v0, p1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

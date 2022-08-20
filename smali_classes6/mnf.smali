@@ -16,9 +16,9 @@
 .method public constructor <init>(Lfmf;)V
     .locals 2
 
-    const v0, 0x7f1207ca
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_protect:I
 
-    const v1, 0x7f0e01cf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_protect_dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0, v1}, Lhnf;-><init>(Lfmf;II)V
@@ -26,7 +26,7 @@
     .line 2
     iget-object p1, p0, Lemf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09bc
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_protect_lock:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -39,7 +39,7 @@
     .line 3
     iget-object p1, p0, Lemf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b09bb
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_protect_hide:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

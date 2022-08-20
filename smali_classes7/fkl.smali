@@ -101,7 +101,7 @@
 
     invoke-direct {v0, p0}, Lfkl$a;-><init>(Lfkl;)V
 
-    const v1, 0x7f0b28ca
+    sget v1, Lcom/resouce/module/ResID;->resume_helper:I
 
     const-string v2, "resume_helper"
 
@@ -112,7 +112,7 @@
 
     invoke-direct {v0, p0}, Lfkl$b;-><init>(Lfkl;)V
 
-    const v1, 0x7f0b28c3
+    sget v1, Lcom/resouce/module/ResID;->resume_deliver:I
 
     const-string v2, "resume_deliver"
 
@@ -125,7 +125,7 @@
 
     invoke-direct {v0, v1}, Lkfl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b1250
+    sget v1, Lcom/resouce/module/ResID;->id_photo:I
 
     const-string v2, "id_photo"
 
@@ -138,7 +138,7 @@
 
     invoke-direct {v0, v1}, Llfl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b1253
+    sget v1, Lcom/resouce/module/ResID;->id_photo_oversea:I
 
     const-string v2, "id_photo_oversea"
 
@@ -165,12 +165,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b1c83
+    sget v1, Lcom/resouce/module/ResID;->panel_item_translate:I
 
     .line 8
     new-instance v2, Lesk;
 
-    const v3, 0x7f0b03c7
+    sget v3, Lcom/resouce/module/ResID;->check_translate_recommend:I
 
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     invoke-virtual {p0, v1, v2, v0}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f0b28e2
+    sget v0, Lcom/resouce/module/ResID;->resume_train:I
 
     .line 9
     new-instance v1, Lfkl$c;
@@ -260,12 +260,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122e56
+    sget v0, Lcom/resouce/module/ResSTRING;->resume_tool:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f123043
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_pre_tag_resume:I
 
     return v0
 .end method
@@ -793,14 +793,14 @@
 .method public p2()V
     .locals 4
 
-    const v0, 0x7f0e08c7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_resume_tool_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b28ca
+    sget v1, Lcom/resouce/module/ResID;->resume_helper:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
 
     iput-object v1, p0, Lfkl;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b28cb
+    sget v1, Lcom/resouce/module/ResID;->resume_helper_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -820,7 +820,7 @@
 
     iput-object v1, p0, Lfkl;->f0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28cc
+    sget v1, Lcom/resouce/module/ResID;->resume_helper_name:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -831,7 +831,7 @@
 
     iput-object v1, p0, Lfkl;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b28cd
+    sget v1, Lcom/resouce/module/ResID;->resume_helper_superscript:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -842,7 +842,7 @@
 
     iput-object v1, p0, Lfkl;->h0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1250
+    sget v1, Lcom/resouce/module/ResID;->id_photo:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -851,7 +851,7 @@
 
     iput-object v1, p0, Lfkl;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1251
+    sget v1, Lcom/resouce/module/ResID;->id_photo_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -862,7 +862,7 @@
 
     iput-object v1, p0, Lfkl;->j0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1252
+    sget v1, Lcom/resouce/module/ResID;->id_photo_name:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -873,7 +873,7 @@
 
     iput-object v1, p0, Lfkl;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1258
+    sget v1, Lcom/resouce/module/ResID;->id_photo_superscript:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -884,7 +884,7 @@
 
     iput-object v1, p0, Lfkl;->l0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1253
+    sget v1, Lcom/resouce/module/ResID;->id_photo_oversea:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -893,7 +893,7 @@
 
     iput-object v1, p0, Lfkl;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1254
+    sget v1, Lcom/resouce/module/ResID;->id_photo_oversea_icon:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -904,7 +904,7 @@
 
     iput-object v1, p0, Lfkl;->n0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1255
+    sget v1, Lcom/resouce/module/ResID;->id_photo_oversea_name:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -915,7 +915,7 @@
 
     iput-object v1, p0, Lfkl;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1256
+    sget v1, Lcom/resouce/module/ResID;->id_photo_oversea_superscript:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -926,7 +926,7 @@
 
     iput-object v1, p0, Lfkl;->p0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28c3
+    sget v1, Lcom/resouce/module/ResID;->resume_deliver:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -935,7 +935,7 @@
 
     iput-object v1, p0, Lfkl;->q0:Landroid/view/View;
 
-    const v1, 0x7f0b28c4
+    sget v1, Lcom/resouce/module/ResID;->resume_deliver_icon:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -946,7 +946,7 @@
 
     iput-object v1, p0, Lfkl;->r0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28c5
+    sget v1, Lcom/resouce/module/ResID;->resume_deliver_name:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -957,7 +957,7 @@
 
     iput-object v1, p0, Lfkl;->s0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b28c6
+    sget v1, Lcom/resouce/module/ResID;->resume_deliver_superscript:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -968,7 +968,7 @@
 
     iput-object v1, p0, Lfkl;->t0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28e2
+    sget v1, Lcom/resouce/module/ResID;->resume_train:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -977,7 +977,7 @@
 
     iput-object v1, p0, Lfkl;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b28e3
+    sget v1, Lcom/resouce/module/ResID;->resume_train_icon:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -988,7 +988,7 @@
 
     iput-object v1, p0, Lfkl;->v0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28e4
+    sget v1, Lcom/resouce/module/ResID;->resume_train_name:I
 
     .line 20
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -999,7 +999,7 @@
 
     iput-object v1, p0, Lfkl;->w0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b28e5
+    sget v1, Lcom/resouce/module/ResID;->resume_train_superscript:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1010,7 +1010,7 @@
 
     iput-object v1, p0, Lfkl;->x0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1c83
+    sget v1, Lcom/resouce/module/ResID;->panel_item_translate:I
 
     .line 22
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

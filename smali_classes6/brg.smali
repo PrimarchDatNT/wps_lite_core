@@ -165,7 +165,7 @@
 
     iput-object p1, p0, Lbrg;->T:Landroid/content/res/Resources;
 
-    const v0, 0x7f07028b
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_table_style_options_layout_top_padding_top:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -179,7 +179,7 @@
     .line 10
     iget-object p1, p0, Lbrg;->T:Landroid/content/res/Resources;
 
-    const v0, 0x7f07028a
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_table_style_options_layout_top_padding_bottom:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -192,7 +192,7 @@
     .line 11
     iget-object p1, p0, Lbrg;->T:Landroid/content/res/Resources;
 
-    const v0, 0x7f070289
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_table_style_options_layout_bottom_padding_bottom:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -405,12 +405,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0256
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_table_style_options:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e06c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_table_style_options:I
 
     :goto_0
     const/4 v2, 0x0
@@ -525,7 +525,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0bcf
+    sget v0, Lcom/resouce/module/ResID;->et_table_style_preview_scroll_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -544,7 +544,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/HorizontalScrollView;->setOnGenericMotionListener(Landroid/view/View$OnGenericMotionListener;)V
 
     :cond_0
-    const v0, 0x7f0b0bce
+    sget v0, Lcom/resouce/module/ResID;->et_table_style_preview_group:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -655,7 +655,7 @@
 .method public final f(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b0bc9
+    sget v0, Lcom/resouce/module/ResID;->et_table_style_options_anchor:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -666,7 +666,7 @@
 
     iput-object v0, p0, Lbrg;->Z:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0bcd
+    sget v0, Lcom/resouce/module/ResID;->et_table_style_preview_content:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -841,7 +841,7 @@
 
     iget-object v1, p0, Lbrg;->Z:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0257
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_table_style_options_layout:I
 
     const/4 v3, 0x0
 
@@ -849,7 +849,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0bcc
+    sget v1, Lcom/resouce/module/ResID;->et_table_style_options_layout_land_top:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -858,7 +858,7 @@
 
     check-cast v1, Landroid/widget/TableRow;
 
-    const v2, 0x7f0b0bcb
+    sget v2, Lcom/resouce/module/ResID;->et_table_style_options_layout_land_middle:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -867,7 +867,7 @@
 
     check-cast v2, Landroid/widget/TableRow;
 
-    const v4, 0x7f0b0bca
+    sget v4, Lcom/resouce/module/ResID;->et_table_style_options_layout_land_bottom:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1179,27 +1179,27 @@
 
     move-result p1
 
-    const p2, 0x7f0b0bc0
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_first_row_checkbox:I
 
     if-eq p1, p2, :cond_3
 
-    const p2, 0x7f0b0bbe
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_first_column_checkbox:I
 
     if-eq p1, p2, :cond_3
 
-    const p2, 0x7f0b0bc8
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_last_row_checkbox:I
 
     if-eq p1, p2, :cond_3
 
-    const p2, 0x7f0b0bc6
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_last_column_checkbox:I
 
     if-eq p1, p2, :cond_3
 
-    const p2, 0x7f0b0bc4
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_inter_row_checkbox:I
 
     if-eq p1, p2, :cond_3
 
-    const p2, 0x7f0b0bc2
+    sget p2, Lcom/resouce/module/ResID;->et_table_fill_inter_column_checkbox:I
 
     if-ne p1, p2, :cond_4
 

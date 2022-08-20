@@ -151,7 +151,7 @@
     :cond_1
     iget-object v0, p0, Lnxc;->e:Landroid/view/View;
 
-    const v1, 0x7f060481
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_toolbar_pdf_line_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -170,7 +170,7 @@
     .line 1
     iget-object v0, p0, Lnxc;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1a50
+    sget v1, Lcom/resouce/module/ResID;->normal_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -198,7 +198,7 @@
     .line 1
     iget-object v0, p0, Lnxc;->b:Landroid/view/View;
 
-    const v1, 0x7f0b298d
+    sget v1, Lcom/resouce/module/ResID;->rom_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -237,7 +237,7 @@
     .line 2
     iget-object v0, p0, Lnxc;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1f43
+    sget v1, Lcom/resouce/module/ResID;->pdf_titlebar_bottom_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -300,7 +300,7 @@
     .line 10
     iget-object v1, p0, Lnxc;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2991
+    sget v2, Lcom/resouce/module/ResID;->rom_layout_stub:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     :cond_1
     iget-object p1, p0, Lnxc;->b:Landroid/view/View;
 
-    const v0, 0x7f0b1f47
+    sget v0, Lcom/resouce/module/ResID;->pdf_titlebar_padding_top:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -452,7 +452,7 @@
     .line 3
     iget-object v0, p0, Lnxc;->e:Landroid/view/View;
 
-    const v1, 0x7f060457
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_divide_line_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -483,7 +483,7 @@
     .line 3
     iget-object v0, p0, Lnxc;->e:Landroid/view/View;
 
-    const v1, 0x7f060457
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_divide_line_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 

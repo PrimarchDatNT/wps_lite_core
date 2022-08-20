@@ -93,7 +93,7 @@
     .line 2
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p2, 0x7f081e12
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_agora_online_bg:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -168,7 +168,7 @@
     .line 6
     iget-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121c27
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_me:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -178,12 +178,12 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f081e17
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_me_bg_pad:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f081e16
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_me_bg:I
 
     .line 7
     :goto_0
@@ -204,7 +204,7 @@
     .line 9
     iget-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121c34
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_speaker:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -214,12 +214,12 @@
 
     if-eqz v0, :cond_2
 
-    const p2, 0x7f081e19
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_speaker_bg_pad:I
 
     goto :goto_1
 
     :cond_2
-    const p2, 0x7f081e18
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_speaker_bg:I
 
     .line 10
     :goto_1
@@ -239,12 +239,12 @@
 
     if-eqz v0, :cond_4
 
-    const p2, 0x7f081e15
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_creator_bg_pad:I
 
     goto :goto_2
 
     :cond_4
-    const p2, 0x7f081e14
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_user_role_creator_bg:I
 
     .line 12
     :goto_2
@@ -253,7 +253,7 @@
     .line 13
     iget-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121c0b
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_creator:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -304,7 +304,7 @@
 
     move-result v0
 
-    const v1, 0x7f081e1a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->shareplay_userlist_default_bg:I
 
     invoke-virtual {p2, v1, v0}, Lf54;->i(II)Lf54;
 
@@ -374,12 +374,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e0f45
+    sget p2, Lcom/resouce/module/ResLAYOUT;->shareplay_userlist_item_layout_pad:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e0f44
+    sget p2, Lcom/resouce/module/ResLAYOUT;->shareplay_userlist_item_layout:I
 
     :goto_0
     const/4 v0, 0x0
@@ -393,7 +393,7 @@
 
     invoke-direct {p3}, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter$ViewHolder;-><init>()V
 
-    const v0, 0x7f0b2bbb
+    sget v0, Lcom/resouce/module/ResID;->shareplay_agora_user_img:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -404,7 +404,7 @@
 
     iput-object v0, p3, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter$ViewHolder;->iconView:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v0, 0x7f0b2bbc
+    sget v0, Lcom/resouce/module/ResID;->shareplay_agora_user_name:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -415,7 +415,7 @@
 
     iput-object v0, p3, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter$ViewHolder;->name:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2bbe
+    sget v0, Lcom/resouce/module/ResID;->shareplay_agora_user_role:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -426,7 +426,7 @@
 
     iput-object v0, p3, Lcn/wps/moffice/common/shareplay2/SharePlayUsersAdapter$ViewHolder;->role:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2bba
+    sget v0, Lcom/resouce/module/ResID;->shareplay_agora_online:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

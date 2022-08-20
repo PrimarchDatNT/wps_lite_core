@@ -26,7 +26,7 @@
 .method public constructor <init>(Landroid/app/Activity;Llml$a;)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e0f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_resume_preview_file_type_dialog:I
 
     const/4 v2, 0x0
 
@@ -124,7 +124,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v1, 0x7f0b29db
+    sget v1, Lcom/resouce/module/ResID;->save_as_doc:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b29dc
+    sget v2, Lcom/resouce/module/ResID;->save_as_image:I
 
     if-eqz v1, :cond_0
 
@@ -162,7 +162,7 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b29dd
+    sget v1, Lcom/resouce/module/ResID;->save_as_pdf:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29dc
+    sget v0, Lcom/resouce/module/ResID;->save_as_image:I
 
     if-ne p1, v0, :cond_0
 
@@ -211,7 +211,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b29db
+    sget v0, Lcom/resouce/module/ResID;->save_as_doc:I
 
     if-ne p1, v0, :cond_1
 
@@ -231,7 +231,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b29dd
+    sget v0, Lcom/resouce/module/ResID;->save_as_pdf:I
 
     if-ne p1, v0, :cond_2
 

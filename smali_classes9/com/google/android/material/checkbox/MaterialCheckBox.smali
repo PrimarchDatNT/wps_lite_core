@@ -106,7 +106,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0400d7
+    sget v0, Lcom/resouce/module/ResATTR;->checkboxStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/checkbox/MaterialCheckBox;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -199,21 +199,21 @@
 
     new-array v1, v1, [I
 
-    const v2, 0x7f04012f
+    sget v2, Lcom/resouce/module/ResATTR;->colorControlActivated:I
 
     .line 3
     invoke-static {p0, v2}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v2
 
-    const v3, 0x7f040140
+    sget v3, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 4
     invoke-static {p0, v3}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v3
 
-    const v4, 0x7f040138
+    sget v4, Lcom/resouce/module/ResATTR;->colorOnSurface:I
 
     .line 5
     invoke-static {p0, v4}, Luxt;->d(Landroid/view/View;I)I

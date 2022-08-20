@@ -75,7 +75,7 @@
 .method public A1(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3492
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_title_shadow:I
 
     .line 1
     :try_start_0

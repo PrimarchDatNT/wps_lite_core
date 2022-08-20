@@ -203,7 +203,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/phone/application/NewGuideSelectActivity$c;->X:Landroid/app/Activity;
 
-    const v1, 0x7f1200e2
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_not_valid:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -231,7 +231,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/phone/application/NewGuideSelectActivity$c;->X:Landroid/app/Activity;
 
-    const v1, 0x7f1200e3
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_not_valid_writer:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

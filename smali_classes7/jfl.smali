@@ -235,7 +235,7 @@
 
     invoke-direct {v0, v1}, Lbrk;-><init>(Lcn5;)V
 
-    const v1, 0x7f0b0809
+    sget v1, Lcom/resouce/module/ResID;->edit_insert_pic:I
 
     const-string v2, "insert-picture"
 
@@ -246,7 +246,7 @@
 
     invoke-direct {v0}, Ldrk;-><init>()V
 
-    const v1, 0x7f0b080c
+    sget v1, Lcom/resouce/module/ResID;->edit_insert_pic_photo_img:I
 
     const-string v2, "insert-picture-shortcut-photo"
 
@@ -259,7 +259,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0805
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_icon:I
 
     .line 4
     new-instance v1, Lerk;
@@ -271,7 +271,7 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f0b0806
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_material:I
 
     .line 5
     new-instance v1, Lwqk;
@@ -282,7 +282,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0823
+    sget v0, Lcom/resouce/module/ResID;->edit_online_table:I
 
     .line 6
     new-instance v1, Lyqk;
@@ -293,7 +293,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b080a
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_pic_camera_img:I
 
     .line 7
     new-instance v1, Lcrk;
@@ -304,7 +304,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0812
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_table:I
 
     .line 8
     new-instance v1, Lhrk;
@@ -319,7 +319,7 @@
 
     invoke-virtual {p0, v0, v1, v4}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0814
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_table_red_img:I
 
     .line 9
     new-instance v1, Ljfl$f;
@@ -332,7 +332,7 @@
 
     invoke-virtual {p0, v0, v1, v5}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0813
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_table_blue_img:I
 
     .line 10
     new-instance v1, Ljfl$c;
@@ -343,7 +343,7 @@
 
     invoke-virtual {p0, v0, v1, v5}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0816
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_table_white_img:I
 
     .line 11
     new-instance v1, Ljfl$i;
@@ -354,7 +354,7 @@
 
     invoke-virtual {p0, v0, v1, v5}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0815
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_table_type_more_img:I
 
     .line 12
     new-instance v1, Lhrk;
@@ -367,7 +367,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b080d
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape:I
 
     .line 13
     new-instance v1, Lfrk;
@@ -380,7 +380,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0810
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape_square_img:I
 
     .line 14
     new-instance v1, Ljfl$g;
@@ -391,7 +391,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b080e
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape_arrow_img:I
 
     .line 15
     new-instance v1, Ljfl$b;
@@ -402,7 +402,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b080f
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape_circle_img:I
 
     .line 16
     new-instance v1, Ljfl$e;
@@ -413,7 +413,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0811
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape_type_more_img:I
 
     .line 17
     new-instance v1, Lfrk;
@@ -433,7 +433,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b0842
+    sget v0, Lcom/resouce/module/ResID;->edit_writer_sign:I
 
     .line 19
     new-instance v1, Lpqk;
@@ -445,7 +445,7 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_1
-    const v0, 0x7f0b07fb
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_comment:I
 
     .line 20
     new-instance v1, Llqk;
@@ -456,7 +456,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07f9
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_blank_page:I
 
     .line 21
     new-instance v1, Lmqk;
@@ -471,7 +471,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0808
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_page_break:I
 
     .line 22
     new-instance v1, Lzqk;
@@ -482,7 +482,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0802
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_headerfooter:I
 
     .line 23
     new-instance v1, Luqk;
@@ -493,7 +493,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07fd
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_domain_page:I
 
     .line 24
     new-instance v1, Llzk;
@@ -504,7 +504,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0804
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_hyperlink:I
 
     .line 25
     new-instance v1, Ld4l;
@@ -515,7 +515,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07fa
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_bookmark:I
 
     .line 26
     new-instance v1, Ljfl$d;
@@ -526,7 +526,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0807
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_ole:I
 
     .line 27
     new-instance v1, Lufl;
@@ -537,7 +537,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0817
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_textbox:I
 
     .line 28
     new-instance v1, Ljfl$h;
@@ -548,7 +548,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07fc
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_domain_datetime:I
 
     .line 29
     new-instance v1, Lkzk;
@@ -559,7 +559,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0800
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_evernote:I
 
     .line 30
     new-instance v1, Lxqk;
@@ -570,7 +570,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0818
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_vertical_blank_page:I
 
     .line 31
     new-instance v1, Lmqk;
@@ -581,7 +581,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0803
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_horizontal_blank_page:I
 
     .line 32
     new-instance v1, Lmqk;
@@ -594,7 +594,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1250
+    sget v0, Lcom/resouce/module/ResID;->id_photo:I
 
     .line 33
     new-instance v1, Lkfl;
@@ -607,7 +607,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0801
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_footnote:I
 
     .line 34
     new-instance v1, Lsqk;
@@ -618,7 +618,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07ff
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_endnote:I
 
     .line 35
     new-instance v1, Lqqk;
@@ -629,7 +629,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b07fe
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_drop_caps:I
 
     .line 36
     new-instance v1, Lrzk;
@@ -648,14 +648,14 @@
 .method public final B2()V
     .locals 5
 
-    const v0, 0x7f0e0ec9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_insert_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1250
+    sget v1, Lcom/resouce/module/ResID;->id_photo:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -664,7 +664,7 @@
 
     iput-object v1, p0, Ljfl;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1251
+    sget v1, Lcom/resouce/module/ResID;->id_photo_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -675,7 +675,7 @@
 
     iput-object v1, p0, Ljfl;->n0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1252
+    sget v1, Lcom/resouce/module/ResID;->id_photo_name:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -686,7 +686,7 @@
 
     iput-object v1, p0, Ljfl;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1258
+    sget v1, Lcom/resouce/module/ResID;->id_photo_superscript:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -775,7 +775,7 @@
     invoke-static {v1, v2, v3, v4}, Lq0m;->a(Landroid/content/Context;Landroid/widget/ScrollView;Landroid/widget/LinearLayout;I)V
 
     :cond_1
-    const v1, 0x7f0b080b
+    sget v1, Lcom/resouce/module/ResID;->edit_insert_pic_container:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -795,7 +795,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f12264f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     .line 16
     invoke-static {v2}, Lln5;->m(I)Lcn5;
@@ -812,7 +812,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0e0477
+    sget v2, Lcom/resouce/module/ResLAYOUT;->layout_writer_insert_pic:I
 
     .line 18
     invoke-static {v2}, Luqh;->inflate(I)Landroid/view/View;
@@ -832,7 +832,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f0b0805
+    sget v1, Lcom/resouce/module/ResID;->edit_insert_icon:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -849,7 +849,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0b0806
+    sget v1, Lcom/resouce/module/ResID;->edit_insert_material:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -870,7 +870,7 @@
 
     if-nez v3, :cond_4
 
-    const v3, 0x7f0b32ca
+    sget v3, Lcom/resouce/module/ResID;->txt_material_tip:I
 
     .line 26
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -889,7 +889,7 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f0b0823
+    sget v1, Lcom/resouce/module/ResID;->edit_online_table:I
 
     .line 28
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1010,7 +1010,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b080c
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_pic_photo_img:I
 
     if-ne p1, v0, :cond_0
 
@@ -1020,19 +1020,19 @@
     invoke-static {v0}, Lza4;->e(Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f0b20e0
+    sget v0, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn_root:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b080d
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b0811
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_shape_type_more_img:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b07fe
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_drop_caps:I
 
     if-eq p1, v0, :cond_1
 
@@ -1160,7 +1160,7 @@
     .line 14
     invoke-static {v0}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
 
-    const v0, 0x7f0b0805
+    sget v0, Lcom/resouce/module/ResID;->edit_insert_icon:I
 
     .line 15
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1213,7 +1213,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122385
+    sget v0, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     return v0
 .end method

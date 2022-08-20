@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/file_list_empty_layout" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/file_list_empty_image" android:layout_width="104.0dip" android:layout_height="104.0dip" android:src="@drawable/phone_home_history_no_record" android:scaleType="fitCenter" />
-        <TextView android:textColor="@color/descriptionColor" android:gravity="center_horizontal" android:id="@id/phone_home_qing_recent_no_record_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/phone_home_empty_view_larger_text" />
-    </LinearLayout>
-    <cn.wps.moffice.main.local.home.phone.homedataprovider.scrolllayout.ScrollManagerListView android:id="@id/home_page_listview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0px" />
-</FrameLayout>

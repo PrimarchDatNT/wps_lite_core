@@ -238,7 +238,7 @@
     .line 1
     iget-object v0, p0, Lp0e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 8
     iget-object v0, p0, Lp0e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b17fe
+    sget v1, Lcom/resouce/module/ResID;->main_loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f90
+    sget v1, Lcom/resouce/module/ResLAYOUT;->summary_outline_list_layout:I
 
     const/4 v2, 0x0
 
@@ -353,7 +353,7 @@
     .line 5
     iget-object v0, p0, Lp0e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -366,7 +366,7 @@
     .line 6
     iget-object v0, p0, Lp0e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2ec6
+    sget v1, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
     .line 1
     iget-object v0, p0, Lp0e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -541,7 +541,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c49
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -659,14 +659,14 @@
     .line 1
     iget-object v0, p0, Lp0e;->V:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081560
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 2
     iget-object v0, p0, Lp0e;->V:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1231c0
+    sget v1, Lcom/resouce/module/ResSTRING;->website_load_fail_click_retry:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -686,14 +686,14 @@
     .line 1
     iget-object v0, p0, Lp0e;->V:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f08155e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_template:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 2
     iget-object v0, p0, Lp0e;->V:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121485
+    sget v1, Lcom/resouce/module/ResSTRING;->no_summary_tip:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 

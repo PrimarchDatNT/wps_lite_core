@@ -38,7 +38,7 @@
 
     invoke-direct {p2, p3}, Ls65;-><init>(Landroid/content/Context;)V
 
-    const p3, 0x7f0600a9
+    sget p3, Lcom/resouce/module/ResCOLOR;->color_reading_count_red:I
 
     .line 2
     invoke-virtual {p2, p3}, Lhd3;->setBackground(I)V

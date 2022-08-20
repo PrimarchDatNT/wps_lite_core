@@ -19,7 +19,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bef
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_select_pic_camera_icon_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -32,7 +32,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0819dc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_insert_pic_camera:I
 
     invoke-virtual {v1, p1, v2, v0, v0}, Lja4;->r(Landroid/content/res/Resources;III)Landroid/graphics/Bitmap;
 
@@ -197,7 +197,7 @@
     .line 1
     iget-object p2, p0, Lfa4;->B:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c98
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_gridview_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

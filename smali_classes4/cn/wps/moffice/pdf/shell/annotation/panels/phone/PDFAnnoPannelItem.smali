@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e079f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_annotation_panel_item:I
 
     const/4 v2, 0x1
 
@@ -91,7 +91,7 @@
     .line 9
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    const p1, 0x7f0b1db7
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_annotation_bottom_item:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->T:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b1db8    # 1.84917E38f
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_annotation_bottom_item_img:I    # 1.84917E38f
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->U:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const p1, 0x7f0b1db9
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_annotation_check_icon:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -803,7 +803,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->U:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v0, 0x7f080305
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_mark_pencil:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -817,7 +817,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->U:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v0, 0x7f0802ff
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_mark_highlighters:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -831,7 +831,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->U:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v0, 0x7f0802f9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_mark_alter:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

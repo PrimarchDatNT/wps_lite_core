@@ -124,7 +124,7 @@
 
     const p2, 0xffffff
 
-    const p3, 0x7f12335e
+    sget p3, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p1, p2, p3}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;->setColorAndText(II)V
 

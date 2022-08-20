@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d61
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d61
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d61
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -508,7 +508,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d61
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -824,7 +824,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d61
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -843,7 +843,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2ce2
+    sget v1, Lcom/resouce/module/ResID;->ss_bottom_sheet:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

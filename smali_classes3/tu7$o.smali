@@ -145,7 +145,7 @@
     .line 8
     iget-object v0, p1, Ltu7$q;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f121f90
+    sget v3, Lcom/resouce/module/ResSTRING;->public_create:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -155,7 +155,7 @@
     :cond_0
     iget-object v0, p1, Ltu7$q;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f1224d1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_modify:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -451,7 +451,7 @@
     .line 2
     iget-object p1, p0, Ltu7$o;->B:Landroid/app/Activity;
 
-    const v0, 0x7f1227f7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -463,7 +463,7 @@
     :cond_0
     iget-object p1, p0, Ltu7$o;->B:Landroid/app/Activity;
 
-    const v0, 0x7f12225a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_history_name_for_version:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -551,7 +551,7 @@
     .line 2
     iget-object p2, p0, Ltu7$o;->S:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c20
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_history_version_item:I
 
     const/4 v1, 0x0
 
@@ -567,7 +567,7 @@
     .line 4
     iput-object p2, p3, Ltu7$q;->a:Landroid/view/View;
 
-    const v0, 0x7f0b262c
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_modified_time:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
 
     iput-object v0, p3, Ltu7$q;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b262a
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_flag:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -589,7 +589,7 @@
 
     iput-object v0, p3, Ltu7$q;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2626
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_doc_size:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     iput-object v0, p3, Ltu7$q;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2623
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_author:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
 
     iput-object v0, p3, Ltu7$q;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b262d
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_op_type:I
 
     .line 9
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
 
     iput-object v0, p3, Ltu7$q;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1002
+    sget v0, Lcom/resouce/module/ResID;->history_version_time_title:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b0ffb
+    sget v0, Lcom/resouce/module/ResID;->history_version_common_item:I
 
     .line 11
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -640,7 +640,7 @@
 
     iput-object v0, p3, Ltu7$q;->g:Landroid/view/View;
 
-    const v0, 0x7f0b1003
+    sget v0, Lcom/resouce/module/ResID;->history_version_timetile:I
 
     .line 12
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -649,7 +649,7 @@
 
     iput-object v0, p3, Ltu7$q;->h:Landroid/view/View;
 
-    const v0, 0x7f0b2622
+    sget v0, Lcom/resouce/module/ResID;->public_history_right_operation_preview:I
 
     .line 13
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -658,7 +658,7 @@
 
     iput-object v0, p3, Ltu7$q;->i:Landroid/view/View;
 
-    const v0, 0x7f0b2621
+    sget v0, Lcom/resouce/module/ResID;->public_history_right_operation_more:I
 
     .line 14
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -667,7 +667,7 @@
 
     iput-object v0, p3, Ltu7$q;->j:Landroid/view/View;
 
-    const v0, 0x7f0b0ffc
+    sget v0, Lcom/resouce/module/ResID;->history_version_connecting_line:I
 
     .line 15
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -678,7 +678,7 @@
 
     iput-object v0, p3, Ltu7$q;->k:Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/ConnectingLineView;
 
-    const v0, 0x7f0b262e
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_tag_name:I
 
     .line 16
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -746,14 +746,14 @@
     .line 4
     new-instance v3, Lhm3;
 
-    const v6, 0x7f122260
+    sget v6, Lcom/resouce/module/ResSTRING;->public_history_set_as_latest_version:I
 
     .line 5
     invoke-virtual {p0, v6}, Ltu7$o;->g(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v7, 0x7f12225b
+    sget v7, Lcom/resouce/module/ResSTRING;->public_history_other_device_also_lookup:I
 
     .line 6
     invoke-virtual {p0, v7}, Ltu7$o;->g(I)Ljava/lang/String;
@@ -770,7 +770,7 @@
     .line 8
     new-instance v3, Lhm3;
 
-    const v6, 0x7f120e04
+    sget v6, Lcom/resouce/module/ResSTRING;->history_preview_saveas:I
 
     .line 9
     invoke-virtual {p0, v6}, Ltu7$o;->g(I)Ljava/lang/String;
@@ -787,7 +787,7 @@
     .line 11
     new-instance v1, Lhm3;
 
-    const v3, 0x7f122257
+    sget v3, Lcom/resouce/module/ResSTRING;->public_history_delete_this_copy:I
 
     .line 12
     invoke-virtual {p0, v3}, Ltu7$o;->g(I)Ljava/lang/String;
@@ -820,7 +820,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0818b8
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -877,7 +877,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e6c
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_style_edit_text:I
 
     const/4 v4, 0x0
 
@@ -967,7 +967,7 @@
 
     invoke-direct {v1, p0, p2, v2}, Ltu7$o$f;-><init>(Ltu7$o;Lvu7;Landroid/widget/EditText;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 15
     invoke-virtual {p1, p2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -978,7 +978,7 @@
 
     invoke-direct {p2, p0}, Ltu7$o$e;-><init>(Ltu7$o;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 16
     invoke-virtual {p1, v1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

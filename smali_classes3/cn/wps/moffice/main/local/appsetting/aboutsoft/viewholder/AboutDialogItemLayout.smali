@@ -42,7 +42,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e06a3
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_documents_more_about_item:I
 
     .line 6
     iput p1, p0, Lcn/wps/moffice/main/local/appsetting/aboutsoft/viewholder/AboutDialogItemLayout;->I:I
@@ -50,7 +50,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0550
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_home_more_about_item:I
 
     .line 7
     iput p1, p0, Lcn/wps/moffice/main/local/appsetting/aboutsoft/viewholder/AboutDialogItemLayout;->I:I
@@ -92,7 +92,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b076f
+    sget v1, Lcom/resouce/module/ResID;->documents_about_item_img:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0770
+    sget v2, Lcom/resouce/module/ResID;->documents_about_item_text:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -296,7 +296,7 @@
 
     check-cast v4, Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0b076f
+    sget v5, Lcom/resouce/module/ResID;->documents_about_item_img:I
 
     .line 4
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v6, 0x7f0b0770
+    sget v6, Lcom/resouce/module/ResID;->documents_about_item_text:I
 
     .line 5
     invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/pdf_preview_mi_projection_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/pdf_preview_title_layout_content" android:layout_width="wrap_content" android:layout_height="51.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="20.0dip">
-        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/pdf_playtitlebar_projection" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/phone_projection_play_miracast" android:contentDescription="@string/pdf_screening" />
-        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/pdf_playtitlebar_projection_exit_play" android:tag="pdf_playtitlebar_projection_exit_play" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/phone_projection_play_exit" android:contentDescription="@string/public_back" />
-    </LinearLayout>
-</LinearLayout>

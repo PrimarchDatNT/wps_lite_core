@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v1, 0x0
 
@@ -73,7 +73,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Ljfg;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     invoke-direct {v0, p0}, Ljfg$a;-><init>(Ljfg;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1, v0}, Lofg;->k(ILandroid/content/DialogInterface$OnClickListener;)Lofg;
 
@@ -150,7 +150,7 @@
     .line 4
     iget-object v0, p0, Ljfg;->b:Lofg;
 
-    const v2, 0x7f122836
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     invoke-virtual {v0, v2}, Lofg;->m(I)Lofg;
 
@@ -254,7 +254,7 @@
     :goto_0
     invoke-virtual {v0, p4}, Lofg;->j(Ljava/lang/String;)Lofg;
 
-    const p3, 0x7f1223d4
+    sget p3, Lcom/resouce/module/ResSTRING;->public_later:I
 
     .line 8
     new-instance p4, Ljfg$c;
@@ -263,7 +263,7 @@
 
     invoke-virtual {v0, p3, p4}, Lofg;->k(ILandroid/content/DialogInterface$OnClickListener;)Lofg;
 
-    const p3, 0x7f122588
+    sget p3, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 9
     new-instance p4, Ljfg$d;
@@ -321,7 +321,7 @@
 
     invoke-virtual {v0, v1}, Lofg;->i(I)Lofg;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     new-instance v2, Ljfg$e;
@@ -337,7 +337,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 7
     new-instance v2, Ljfg$g;

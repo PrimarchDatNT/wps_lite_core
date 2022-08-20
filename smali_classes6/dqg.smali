@@ -211,7 +211,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0f61
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_linear_sub_item_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -321,12 +321,12 @@
 
     if-eqz v5, :cond_3
 
-    const v5, 0x7f06005d
+    sget v5, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     goto :goto_2
 
     :cond_3
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_2
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I

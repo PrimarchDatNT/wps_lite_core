@@ -115,9 +115,9 @@
 .method public constructor <init>(Lfmf;)V
     .locals 2
 
-    const v0, 0x7f122815
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
-    const v1, 0x7f0e06b6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_complex_format_font_dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0, v1}, Lvof;-><init>(Lfmf;II)V
@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0813d8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_autobtn_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -268,7 +268,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -335,7 +335,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03000a
+    sget v1, Lcom/resouce/module/ResARRAY;->et_complex_format_font_underline_list:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -348,7 +348,7 @@
 
     iget-object v3, p0, Lemf;->B:Landroid/content/Context;
 
-    const v4, 0x7f0e099d
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v2, v3, v4, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -438,7 +438,7 @@
     .line 2
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b099e
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -468,7 +468,7 @@
     .line 4
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0999
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_bold_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -481,7 +481,7 @@
     .line 5
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b099d
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_italic_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -494,7 +494,7 @@
     .line 6
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09a2
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_superscript_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -507,7 +507,7 @@
     .line 7
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09a1
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_subscript_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -520,7 +520,7 @@
     .line 8
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b099b
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_deleteline_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -533,7 +533,7 @@
     .line 9
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b099c
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_font_color_customdropdownbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -546,7 +546,7 @@
     .line 10
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09a3
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_underline_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -559,7 +559,7 @@
     .line 11
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b099f
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font_size_edittextdropDown:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -643,7 +643,7 @@
     .line 19
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0998
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_font__font_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -659,7 +659,7 @@
     .line 21
     iget-object v2, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09a0
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_font_special_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1341,7 +1341,7 @@
 
     const v4, 0xffffff
 
-    const v6, 0x7f12335e
+    sget v6, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {v2, v4, v6}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;->setColorAndText(II)V
 
@@ -1468,7 +1468,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070195
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_complex_common_edittextdropdown_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1481,7 +1481,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070241
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_number_numeric_spinner01_width:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1494,7 +1494,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0701a1
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_complex_format_preview_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

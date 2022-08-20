@@ -28,7 +28,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120f24
+    sget v2, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_content:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -50,7 +50,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

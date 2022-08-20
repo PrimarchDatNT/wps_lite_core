@@ -45,7 +45,7 @@
     .line 1
     iget-object v0, p0, Lpl7$c;->B:Ljava/lang/Exception;
 
-    const v1, 0x7f12011b
+    sget v1, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     const/16 v2, 0x3e7
 

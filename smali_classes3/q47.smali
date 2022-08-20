@@ -42,7 +42,7 @@
 
     if-nez p3, :cond_0
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 p3, 0x1
 

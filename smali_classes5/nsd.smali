@@ -182,7 +182,7 @@
 
     iget-object v1, p0, Lnsd;->S:Landroid/app/Activity;
 
-    const v2, 0x7f130129
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen:I
 
     invoke-direct {v0, p0, v1, v2}, Lnsd$c;-><init>(Lnsd;Landroid/content/Context;I)V
 
@@ -216,14 +216,14 @@
     .line 5
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0e0a91
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ppt_pad_image_segment_view:I
 
     invoke-virtual {v0, v3}, Lhd3$g;->setContentView(I)V
 
     .line 6
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b2342
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_imageView:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
     .line 8
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b233c
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_close:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 9
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b2341
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_confirm:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
     .line 10
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b2343
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_root:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
     .line 11
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b2344
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_tv:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 12
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b233d
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_color1:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -314,7 +314,7 @@
     .line 13
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b233e
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_color2:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -327,7 +327,7 @@
     .line 14
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b233f
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_color3:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -340,7 +340,7 @@
     .line 15
     iget-object v0, p0, Lnsd;->V:Lhd3$g;
 
-    const v3, 0x7f0b2340
+    sget v3, Lcom/resouce/module/ResID;->ppt_pad_segment_color4:I
 
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -366,7 +366,7 @@
     .line 17
     iget-object v0, p0, Lnsd;->a0:Lcn/wps/moffice/presentation/control/edittool/picture/OutCircleColorView;
 
-    const v3, 0x7f080d8b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_transparent:I
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/presentation/control/edittool/picture/OutCircleColorView;->setCenterImageResource(I)V
 
@@ -488,12 +488,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122b45
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121be1
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_save_ink_discard:I
 
     .line 34
     :goto_0
@@ -505,7 +505,7 @@
 
     iget-object v3, p0, Lnsd;->S:Landroid/app/Activity;
 
-    const v4, 0x7f1215b4
+    sget v4, Lcom/resouce/module/ResSTRING;->pad_ppt_image_ai_corp_toast_tip:I
 
     .line 35
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -534,7 +534,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -556,7 +556,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -47,7 +47,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04005c
+    sget v0, Lcom/resouce/module/ResATTR;->autoCompleteTextViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -92,7 +92,7 @@
 
     new-array v6, v0, [I
 
-    const v5, 0x7f130312
+    sget v5, Lcom/resouce/module/ResSTYLE;->Widget.AppCompat.AutoCompleteTextView:I
 
     move-object v1, p1
 

@@ -51,7 +51,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121371
+    sget v0, Lcom/resouce/module/ResSTRING;->login_guide_step_pic_1:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121372
+    sget v0, Lcom/resouce/module/ResSTRING;->login_guide_step_pic_2:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121373
+    sget v0, Lcom/resouce/module/ResSTRING;->login_guide_step_pic_3:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -229,7 +229,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12229f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_guide_login_step_2_pic:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -242,7 +242,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1222a1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_guide_login_step_3_pic:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -251,7 +251,7 @@
     .line 3
     iget-object v2, p0, Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;->B:Landroid/view/View;
 
-    const v3, 0x7f0b146f
+    sget v3, Lcom/resouce/module/ResID;->iv_guide_1:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 4
     iget-object v3, p0, Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;->B:Landroid/view/View;
 
-    const v4, 0x7f0b1470
+    sget v4, Lcom/resouce/module/ResID;->iv_guide_2:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 5
     iget-object v4, p0, Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;->B:Landroid/view/View;
 
-    const v5, 0x7f0b1471
+    sget v5, Lcom/resouce/module/ResID;->iv_guide_3:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d1f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_not_find_device_dialog:I
 
     const/4 v2, 0x0
 
@@ -374,7 +374,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b02ef
+    sget v2, Lcom/resouce/module/ResID;->btn_ok:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -387,7 +387,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b314a
+    sget v3, Lcom/resouce/module/ResID;->tv_device_pc:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b3147
+    sget v4, Lcom/resouce/module/ResID;->tv_device_android:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b3148
+    sget v5, Lcom/resouce/module/ResID;->tv_device_ios:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -428,7 +428,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -441,7 +441,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f12151e
+    sget v7, Lcom/resouce/module/ResSTRING;->online_device_pc_ver:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -454,7 +454,7 @@
 
     iget-object v8, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f122570
+    sget v9, Lcom/resouce/module/ResSTRING;->public_online_device_pc:I
 
     .line 11
     invoke-virtual {v7, v8, v9}, Lk63;->b(Landroid/content/Context;I)Lk63;
@@ -474,7 +474,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f12150f
+    sget v8, Lcom/resouce/module/ResSTRING;->online_device_android_ver:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -487,7 +487,7 @@
 
     iget-object v9, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f12256e
+    sget v10, Lcom/resouce/module/ResSTRING;->public_online_device_android:I
 
     .line 16
     invoke-virtual {v8, v9, v10}, Lk63;->b(Landroid/content/Context;I)Lk63;
@@ -507,7 +507,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f121512
+    sget v9, Lcom/resouce/module/ResSTRING;->online_device_ios_ver:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -520,7 +520,7 @@
 
     iget-object v10, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f12256f
+    sget v11, Lcom/resouce/module/ResSTRING;->public_online_device_ios:I
 
     .line 21
     invoke-virtual {v9, v10, v11}, Lk63;->b(Landroid/content/Context;I)Lk63;
@@ -565,7 +565,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c30
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_guide_pc_login:I
 
     const/4 v2, 0x0
 
@@ -573,7 +573,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b31fa
+    sget v1, Lcom/resouce/module/ResID;->tv_no_find_device:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b02ec
+    sget v1, Lcom/resouce/module/ResID;->btn_next:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     check-cast v1, Landroid/widget/Button;
 
-    const v2, 0x7f0b169b
+    sget v2, Lcom/resouce/module/ResID;->ll_layout_1:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -651,7 +651,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33e6
+    sget v2, Lcom/resouce/module/ResID;->vs_layout_2:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122313
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_tip_devices_guide:I
 
     return v0
 .end method

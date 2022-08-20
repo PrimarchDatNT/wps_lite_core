@@ -45,7 +45,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121415
+    sget p3, Lcom/resouce/module/ResSTRING;->mtrl_picker_out_of_range:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

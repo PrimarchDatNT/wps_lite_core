@@ -192,11 +192,11 @@
     .line 5
     iget-object v0, p0, Lsql;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f122946
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 
-    const v0, 0x7f0e0a1a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_tab_with_indicator_layout:I
 
     .line 6
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -235,7 +235,7 @@
     .line 12
     iget-object v0, p0, Lsql;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 

@@ -56,13 +56,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a7b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_fullscreen_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2400
+    sget v0, Lcom/resouce/module/ResID;->ppt_read_thumblistview:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a41
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -98,7 +98,7 @@
 
     iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    const p1, 0x7f0b23ff
+    sget p1, Lcom/resouce/module/ResID;->ppt_read_fullcreen_tool_bar:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/fullscreen/FullScreenView;->I:Landroid/view/View;
 
-    const p1, 0x7f0b22b3
+    sget p1, Lcom/resouce/module/ResID;->ppt_exit_fullsreen_btn:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/fullscreen/FullScreenView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b242b
+    sget p1, Lcom/resouce/module/ResID;->ppt_showhide_note_btn:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/fullscreen/FullScreenView;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b299d
+    sget p1, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060214
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -155,7 +155,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
-    const p1, 0x7f0b299b
+    sget p1, Lcom/resouce/module/ResID;->rom_read_title:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/fullscreen/FullScreenView;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2994
+    sget p1, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/fullscreen/FullScreenView;->W:Landroid/view/View;
 
-    const p1, 0x7f0b2997
+    sget p1, Lcom/resouce/module/ResID;->rom_read_more:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

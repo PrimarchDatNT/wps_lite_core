@@ -84,7 +84,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f82
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ss_split_preview_item_layout:I
 
     const/4 v1, 0x0
 
@@ -93,7 +93,7 @@
     move-result-object p2
 
     :cond_0
-    const v0, 0x7f0b0f62
+    sget v0, Lcom/resouce/module/ResID;->group_title_tv:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v0, 0x7f0b0f4c
+    sget v0, Lcom/resouce/module/ResID;->group_content_tv:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v0, 0x7f0b1261
+    sget v0, Lcom/resouce/module/ResID;->image:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e12
+    sget v1, Lcom/resouce/module/ResID;->synced_scroll_view:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

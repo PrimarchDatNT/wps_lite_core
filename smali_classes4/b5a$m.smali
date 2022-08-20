@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12230a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_roaming_sync_latest:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b67
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_fail_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -187,7 +187,7 @@
 
     iget-object p1, p1, Lb5a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121254
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -199,7 +199,7 @@
 
     iget-object p1, p1, Lb5a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120646
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 

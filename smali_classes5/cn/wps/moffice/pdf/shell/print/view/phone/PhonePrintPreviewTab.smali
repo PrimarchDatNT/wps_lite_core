@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070617
+    sget v1, Lcom/resouce/module/ResDIMEN;->pdf_print_setup_body_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -89,7 +89,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1226f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_preview:I
 
     return v0
 .end method

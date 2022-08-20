@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225df
+    sget v2, Lcom/resouce/module/ResSTRING;->public_page_portrait:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225dd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_page_landscape:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingWrapView;->S:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v0, 0x7f1225df
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_portrait:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -159,7 +159,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingWrapView;->S:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v0, 0x7f1225dd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_landscape:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -345,12 +345,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09f2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_print_pagesetting_top:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10cc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_print_pagesetting_top:I
 
     .line 2
     :goto_0
@@ -369,7 +369,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -388,12 +388,12 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingWrapView;->B:Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingView;
 
-    const v1, 0x7f060625
+    sget v1, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/pagesetting/view/MySurfaceView;->setBackgroundResource(I)V
 
-    const v0, 0x7f0b3644
+    sget v0, Lcom/resouce/module/ResID;->writer_print_pagesetting_top_pagesize_list:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -409,7 +409,7 @@
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setClickable(Z)V
 
-    const v0, 0x7f0b3642
+    sget v0, Lcom/resouce/module/ResID;->writer_print_pagesetting_orientation_list:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -431,7 +431,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e0e58
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -442,7 +442,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setClickable(Z)V
 
-    const v0, 0x7f0b3645
+    sget v0, Lcom/resouce/module/ResID;->writer_print_pagesetting_top_pageunit_list:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setClickable(Z)V
 
-    const v0, 0x7f0b3643
+    sget v0, Lcom/resouce/module/ResID;->writer_print_pagesetting_settingview_layout:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e58
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     iget-object v4, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingWrapView;->B:Lcn/wps/moffice/writer/shell/pagesetting/view/PageSettingView;
 

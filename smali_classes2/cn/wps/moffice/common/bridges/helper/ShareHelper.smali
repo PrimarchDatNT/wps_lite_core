@@ -253,7 +253,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/bridges/helper/ShareHelper;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

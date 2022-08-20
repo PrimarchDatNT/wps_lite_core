@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/phone_public_default_text_size" android:textColor="@color/phone_public_op_bar_text_color" android:gravity="center" android:id="@id/ss_sheet_name_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="10.0dip" android:text="@string/wpscloud_using_celluler_data_tips" android:layout_marginStart="0.0dip" android:layout_marginEnd="10.0dip" />
-    <TextView android:textSize="@dimen/phone_public_default_text_size" android:textColor="#fff5484c" android:id="@id/tips_message_action_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wpscloud_upload_now" />
-</LinearLayout>

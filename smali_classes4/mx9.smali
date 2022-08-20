@@ -26,13 +26,13 @@
     :cond_0
     new-instance v6, Lw17;
 
-    const v0, 0x7f122950
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f081720
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_share:I
 
     const/4 v3, 0x1
 
@@ -49,13 +49,13 @@
     .line 2
     new-instance v0, Lw17;
 
-    const v1, 0x7f121234
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_move:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081a44
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_move:I
 
     const/4 v10, 0x2
 
@@ -72,13 +72,13 @@
     .line 3
     new-instance v0, Lw17;
 
-    const v1, 0x7f121228
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_bottom_tab_move_and_copy:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081a44
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_move:I
 
     const/4 v4, 0x5
 
@@ -95,13 +95,13 @@
     .line 4
     new-instance v0, Lw17;
 
-    const v1, 0x7f120577
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081a42
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_delete:I
 
     const/4 v10, 0x3
 
@@ -116,13 +116,13 @@
     .line 5
     new-instance v0, Lw17;
 
-    const v1, 0x7f1206a7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0815d5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_star:I
 
     const/4 v4, 0x7
 
@@ -135,13 +135,13 @@
     .line 6
     new-instance v0, Lw17;
 
-    const v1, 0x7f121826
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_merge:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f080491
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
     const/16 v10, 0x8
 
@@ -156,13 +156,13 @@
     .line 7
     new-instance v0, Lw17;
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081717
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_rename:I
 
     const/16 v4, 0x9
 
@@ -175,13 +175,13 @@
     .line 8
     new-instance v0, Lw17;
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081a43
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_more:I
 
     const/4 v10, 0x4
 

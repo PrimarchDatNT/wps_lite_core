@@ -241,12 +241,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e096d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_func_suggestion_itemview:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05e1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_ss_func_suggestion_itemview:I
 
     :goto_0
     const/4 v1, 0x0
@@ -279,7 +279,7 @@
     iput v1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     :goto_1
-    const v0, 0x7f0b0a71
+    sget v0, Lcom/resouce/module/ResID;->et_func_suggestion_itemview_textview:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0a70
+    sget v1, Lcom/resouce/module/ResID;->et_func_suggestion_itemview_image:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f0701e3
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_text_paddingleft:I
 
     .line 9
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -344,14 +344,14 @@
 
     invoke-virtual {v0, v2, v3, v4, v5}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    const v0, 0x7f0701e0
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_itemview_image_width:I
 
     .line 11
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    const v2, 0x7f0701df
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_itemview_image_height:I
 
     .line 12
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -382,7 +382,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f080462
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_table_name:I
 
     .line 16
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -390,7 +390,7 @@
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f081404
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_func_icon:I
 
     .line 17
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageResource(I)V

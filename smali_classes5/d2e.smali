@@ -34,9 +34,9 @@
     .line 2
     new-instance v0, Ld2e$a;
 
-    const v1, 0x7f080c64
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_gototop_ppt:I
 
-    const v2, 0x7f121b7e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_level:I
 
     invoke-direct {v0, p0, v1, v2}, Ld2e$a;-><init>(Ld2e;II)V
 
@@ -45,9 +45,9 @@
     .line 3
     new-instance v0, Ld2e$b;
 
-    const v2, 0x7f080c6a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_move_up_ppt:I
 
-    const v3, 0x7f121bf2
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_shape_moveUp:I
 
     const/4 v4, 0x1
 
@@ -58,9 +58,9 @@
     .line 4
     new-instance v0, Ld2e$c;
 
-    const v2, 0x7f080c68
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_move_down_ppt:I
 
-    const v3, 0x7f121bf0
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_shape_moveDown:I
 
     invoke-direct {v0, p0, v2, v3, v4}, Ld2e$c;-><init>(Ld2e;IIZ)V
 
@@ -69,7 +69,7 @@
     .line 5
     new-instance v0, Ld2e$d;
 
-    const v2, 0x7f121bf1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_moveTop:I
 
     invoke-direct {v0, p0, v1, v2, v4}, Ld2e$d;-><init>(Ld2e;IIZ)V
 
@@ -78,9 +78,9 @@
     .line 6
     new-instance v0, Ld2e$e;
 
-    const v1, 0x7f080c62
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_gotobottom_ppt:I
 
-    const v2, 0x7f121bef
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_moveBottom:I
 
     invoke-direct {v0, p0, v1, v2, v4}, Ld2e$e;-><init>(Ld2e;IIZ)V
 

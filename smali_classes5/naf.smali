@@ -124,12 +124,12 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f121cfb
+    sget p0, Lcom/resouce/module/ResSTRING;->public_add_contact_success:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f121cfc
+    sget p0, Lcom/resouce/module/ResSTRING;->public_add_contact_success_v1:I
 
     return p0
 .end method
@@ -355,7 +355,7 @@
     .line 11
     sget-object p1, Lvma;->b:Ljava/lang/String;
 
-    const p2, 0x7f122959
+    sget p2, Lcom/resouce/module/ResSTRING;->public_share_contacts:I
 
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

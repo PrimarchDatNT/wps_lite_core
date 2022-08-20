@@ -79,7 +79,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f120ba6
+    sget p1, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     const/4 v1, 0x1
 

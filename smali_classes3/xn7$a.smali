@@ -57,7 +57,7 @@
 
     iget-object v0, v0, Lwn7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07c7
+    sget v1, Lcom/resouce/module/ResID;->drive_scene_login_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -65,14 +65,14 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b07c9
+    sget v1, Lcom/resouce/module/ResID;->drive_scene_login_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b07c8
+    sget v2, Lcom/resouce/module/ResID;->drive_scene_login_more:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

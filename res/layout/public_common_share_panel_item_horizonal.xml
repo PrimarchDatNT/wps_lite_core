@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/public_panel_item_third_bg_selector" android:layout_width="fill_parent" android:layout_height="86.0dip">
-        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/share_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" android:scaleType="fitXY" />
-        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
-    </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
-</RelativeLayout>

@@ -521,7 +521,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/ad/popup/ext/HomePopupAd;->W:Landroid/app/Activity;
 
-    const v2, 0x7f130142
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_home_popup_ad:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -534,7 +534,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00e8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_home_ad_popup:I
 
     const/4 v2, 0x0
 
@@ -743,7 +743,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1118
+    sget v0, Lcom/resouce/module/ResID;->home_popup_imageview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v0, 0x7f0b1117
+    sget v0, Lcom/resouce/module/ResID;->home_popup_ad_close:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -779,7 +779,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0094
+    sget v1, Lcom/resouce/module/ResID;->ad_sign:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1014,7 +1014,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b1117
+    sget v1, Lcom/resouce/module/ResID;->home_popup_ad_close:I
 
     if-ne p1, v1, :cond_0
 
@@ -1024,7 +1024,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b1118
+    sget v1, Lcom/resouce/module/ResID;->home_popup_imageview:I
 
     if-ne p1, v1, :cond_1
 
@@ -1178,7 +1178,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b3294
+    sget v1, Lcom/resouce/module/ResID;->tv_tips_text:I
 
     .line 1
     :try_start_0
@@ -1190,7 +1190,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v1, 0x7f0b227a
+    sget v1, Lcom/resouce/module/ResID;->popup_place_holder:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

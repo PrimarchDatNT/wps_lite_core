@@ -31,7 +31,7 @@
     .line 1
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2759
+    sget v1, Lcom/resouce/module/ResID;->public_top_personal_title_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -42,7 +42,7 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b26b5
+    sget v2, Lcom/resouce/module/ResID;->public_persional_avator:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b26b6
+    sget v3, Lcom/resouce/module/ResID;->public_persional_title:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b26b7
+    sget v4, Lcom/resouce/module/ResID;->public_personal_title_suffix:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080861
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     .line 9
     invoke-virtual {v4, v5}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

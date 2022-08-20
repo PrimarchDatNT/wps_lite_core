@@ -54,7 +54,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljs4;)V
     .locals 2
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v1, 0x1
 
@@ -337,7 +337,7 @@
 
     if-nez v4, :cond_1
 
-    const v1, 0x7f1218f0
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     const-string v3, "pdf_toolkit"
 
@@ -365,7 +365,7 @@
 
     if-nez v3, :cond_0
 
-    const v1, 0x7f121c89
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     const-string v3, "ads_free_i18n"
 
@@ -439,7 +439,7 @@
     .line 3
     iget-object v1, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12201f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_download_desc:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -450,7 +450,7 @@
     .line 4
     iget-object v1, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122027
+    sget v3, Lcom/resouce/module/ResSTRING;->public_download_pc_or_mac:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -463,7 +463,7 @@
 
     invoke-direct {v1, p0}, Lgs4$h;-><init>(Lgs4;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -474,7 +474,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0606ca
+    sget v3, Lcom/resouce/module/ResCOLOR;->value_add_guide_blue:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -484,7 +484,7 @@
 
     invoke-direct {v3, p0}, Lgs4$i;-><init>(Lgs4;)V
 
-    const v4, 0x7f1225fa
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pay_try:I
 
     invoke-virtual {v0, v4, v1, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -668,9 +668,9 @@
 
     move-result v0
 
-    const v1, 0x7f121cdd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_ad_free_redeem_code:I
 
-    const v2, 0x7f060066
+    sget v2, Lcom/resouce/module/ResCOLOR;->c535252:I
 
     iget-object v3, p0, Lgs4;->B:Landroid/app/Activity;
 
@@ -679,7 +679,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080885
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_pay_guide_ripple_gray_stroke:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -729,7 +729,7 @@
     :cond_0
     iget-object v1, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121c89
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -744,7 +744,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060095
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_e8e8e8:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -752,7 +752,7 @@
 
     invoke-virtual {v0, v1}, Lcib$b;->l(I)Lcib$b;
 
-    const v1, 0x7f06008e
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_b3b3b3:I
 
     .line 11
     invoke-static {v1}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
@@ -1427,7 +1427,7 @@
     :cond_4
     iget-object v2, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121c89
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1442,7 +1442,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060095
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_e8e8e8:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1450,7 +1450,7 @@
 
     invoke-virtual {v1, v2}, Lcib$b;->l(I)Lcib$b;
 
-    const v2, 0x7f06008e
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_b3b3b3:I
 
     .line 20
     invoke-static {v2}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
@@ -1478,7 +1478,7 @@
 .method public final r3()V
     .locals 2
 
-    const v0, 0x7f0b1a54
+    sget v0, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1797,7 +1797,7 @@
     .line 3
     iget-object v0, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121c89
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     const/4 v2, 0x1
 
@@ -1878,7 +1878,7 @@
     .line 5
     iget-object v1, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1218f0
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     invoke-static {v1, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1897,7 +1897,7 @@
     .line 7
     iget-object v1, p0, Lgs4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121c89
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     invoke-static {v1, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 

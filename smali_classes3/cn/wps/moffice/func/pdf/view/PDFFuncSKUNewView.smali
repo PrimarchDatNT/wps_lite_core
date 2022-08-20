@@ -59,12 +59,12 @@
     .line 4
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->B:Landroid/content/Context;
 
-    const p2, 0x7f0e0107
+    sget p2, Lcom/resouce/module/ResLAYOUT;->dlg_func_buy_sub_new_view:I
 
     .line 5
     invoke-static {p1, p2, p0}, Landroid/widget/FrameLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b032a
+    sget p1, Lcom/resouce/module/ResID;->buy_bg_linear:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->I:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b0331
+    sget p1, Lcom/resouce/module/ResID;->buy_off_iv:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->W:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const p1, 0x7f0b0332
+    sget p1, Lcom/resouce/module/ResID;->buy_sku_tv:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->V:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const p1, 0x7f0b032b
+    sget p1, Lcom/resouce/module/ResID;->buy_bottom_tv:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->a0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const p1, 0x7f0b0597
+    sget p1, Lcom/resouce/module/ResID;->coupon_bottom_tv:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;->c0:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const p1, 0x7f0b0330
+    sget p1, Lcom/resouce/module/ResID;->buy_num_month_tv:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060142
+    sget v1, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -176,7 +176,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060059
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -189,7 +189,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060401
+    sget v3, Lcom/resouce/module/ResCOLOR;->pdf_pay_item_bg_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

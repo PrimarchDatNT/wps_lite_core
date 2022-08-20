@@ -477,7 +477,7 @@
     .line 1
     iget-object v0, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1227ef
+    sget v1, Lcom/resouce/module/ResSTRING;->public_register_fail:I
 
     const/4 v2, 0x0
 
@@ -887,7 +887,7 @@
     .line 14
     iget-object p1, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v0, 0x0
 

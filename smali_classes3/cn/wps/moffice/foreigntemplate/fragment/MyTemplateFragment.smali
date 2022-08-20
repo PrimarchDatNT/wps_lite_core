@@ -356,7 +356,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b0656
+    sget v2, Lcom/resouce/module/ResID;->delete_tv:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1227f4
+    sget v5, Lcom/resouce/module/ResSTRING;->public_remove_selected:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -611,7 +611,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0fb7
+    sget p3, Lcom/resouce/module/ResLAYOUT;->template_my_collection_fragment:I
 
     const/4 v0, 0x0
 
@@ -665,7 +665,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1244
+    sget p2, Lcom/resouce/module/ResID;->id_DragHeaderLayoutInnerAbsListView:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -678,7 +678,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1732
+    sget p2, Lcom/resouce/module/ResID;->loading_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +691,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b025a
+    sget p2, Lcom/resouce/module/ResID;->bottom_edit_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -702,7 +702,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b01f6
+    sget p2, Lcom/resouce/module/ResID;->bar_block:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -752,7 +752,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1976
+    sget p2, Lcom/resouce/module/ResID;->my_empty_tips:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -763,7 +763,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2fac
+    sget p2, Lcom/resouce/module/ResID;->tips:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -776,7 +776,7 @@
     .line 18
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2ed2
+    sget p2, Lcom/resouce/module/ResID;->template_my_empty_tips_img:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -789,7 +789,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2ed3
+    sget p2, Lcom/resouce/module/ResID;->template_my_empty_tips_retry:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1089,7 +1089,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1227f4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_remove_selected:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1100,7 +1100,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227f5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_remove_selected_count:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1119,7 +1119,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->i0:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment$b;
 
@@ -1130,7 +1130,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->i0:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment$c;
 
@@ -1370,14 +1370,14 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->V:Landroid/widget/TextView;
 
-    const v2, 0x7f12149b
+    sget v2, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->U:Landroid/widget/ImageView;
 
-    const v2, 0x7f081c96
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1424,14 +1424,14 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/MyTemplateFragment;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f081301
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e100a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_row_margin_layout:I
 
     const/4 v2, 0x0
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d8c    # 1.8499918E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_title:I    # 1.8499918E38f
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,11 +111,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f1223df
+    sget v1, Lcom/resouce/module/ResSTRING;->public_linespacing:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b2d8b    # 1.8499916E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_text:I    # 1.8499916E38f
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lide;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2da2    # 1.8499963E38f
+    sget v0, Lcom/resouce/module/ResID;->start_row_align_font_size:I    # 1.8499963E38f
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Lide;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2da3    # 1.8499965E38f
+    sget v0, Lcom/resouce/module/ResID;->start_row_align_position:I    # 1.8499965E38f
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

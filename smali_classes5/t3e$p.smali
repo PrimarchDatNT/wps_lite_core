@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06000a
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06046e
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_public_panel_title_bg_color:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

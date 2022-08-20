@@ -554,7 +554,7 @@
     .line 3
     iget-object v0, p0, Lmn8;->c:Lrd3;
 
-    const v2, 0x7f122ac5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_obtain_file:I
 
     invoke-virtual {v0, v2}, Lrd3;->D(I)V
 
@@ -599,11 +599,11 @@
     .line 3
     iget-boolean v2, p0, Lmn8;->f:Z
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f122ac4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_notify:I
 
     .line 4
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -611,7 +611,7 @@
     .line 5
     iget-object v0, p0, Lmn8;->b:Lhd3;
 
-    const v2, 0x7f12201b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_download:I
 
     iget-object v4, p0, Lmn8;->a:Landroid/app/Activity;
 
@@ -630,7 +630,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f122ac7    # 1.942894E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_update_notify:I    # 1.942894E38f
 
     .line 8
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -638,7 +638,7 @@
     .line 9
     iget-object v0, p0, Lmn8;->b:Lhd3;
 
-    const v2, 0x7f122ac6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_text_to_speech_download_plugin_update:I
 
     iget-object v4, p0, Lmn8;->a:Landroid/app/Activity;
 
@@ -658,7 +658,7 @@
     :goto_0
     iget-object v0, p0, Lmn8;->b:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -764,7 +764,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d51
+    sget v2, Lcom/resouce/module/ResSTRING;->public_assistant_component_dialog_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -779,7 +779,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -795,7 +795,7 @@
     .line 11
     iget-object v0, p0, Lmn8;->k:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lmn8$b;
 

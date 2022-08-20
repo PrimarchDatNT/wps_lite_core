@@ -124,7 +124,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0e02d3
+    sget v6, Lcom/resouce/module/ResLAYOUT;->home_app_guide_select_item_layout:I
 
     iget-object v7, p0, Lph6;->B:Lth6;
 
@@ -134,7 +134,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b1367
+    sget v6, Lcom/resouce/module/ResID;->introduce_text:I
 
     .line 5
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0b42
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 p3, 0x0
 
@@ -436,7 +436,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f0e02d4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_guide_select_layout:I
 
     invoke-static {v0, v1}, Lvb;->h(Landroid/app/Activity;I)Landroidx/databinding/ViewDataBinding;
 
@@ -612,7 +612,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1843
+    sget v0, Lcom/resouce/module/ResID;->member_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -626,7 +626,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0f90
+    sget v0, Lcom/resouce/module/ResID;->guide_use_tips:I
 
     if-ne p1, v0, :cond_2
 
@@ -640,7 +640,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0f6f
+    sget v0, Lcom/resouce/module/ResID;->guide_checkbox_text:I
 
     if-ne p1, v0, :cond_3
 
@@ -654,7 +654,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b158c
+    sget v0, Lcom/resouce/module/ResID;->left_button:I
 
     if-ne p1, v0, :cond_4
 
@@ -668,7 +668,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b2ae2
+    sget v0, Lcom/resouce/module/ResID;->select:I
 
     if-ne p1, v0, :cond_5
 

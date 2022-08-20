@@ -86,7 +86,7 @@
 
     invoke-virtual {v7, v0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f120843
+    sget v0, Lcom/resouce/module/ResSTRING;->et_dv_input_error_warning_title:I
 
     .line 3
     invoke-virtual {v7, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -96,12 +96,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12082f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120811
+    sget v0, Lcom/resouce/module/ResSTRING;->et_data_validation_setting:I
 
     :goto_0
     new-instance v1, Luvf$d$a;
@@ -110,7 +110,7 @@
 
     invoke-virtual {v7, v0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     new-instance v1, Luvf$d$b;

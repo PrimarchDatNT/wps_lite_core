@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x1
 

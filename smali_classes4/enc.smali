@@ -542,7 +542,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e062e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_edit_fill_sign_quick_phrases:I
 
     const/4 v2, 0x0
 
@@ -574,7 +574,7 @@
     .line 5
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b3001
+    sget v2, Lcom/resouce/module/ResID;->title_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
     .line 6
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b27ad
+    sget v2, Lcom/resouce/module/ResID;->quick_phrases_list:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -598,7 +598,7 @@
     .line 7
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b134a
+    sget v2, Lcom/resouce/module/ResID;->input_phrases:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 8
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b00a3
+    sget v2, Lcom/resouce/module/ResID;->add_button:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
     .line 9
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2ae8
+    sget v2, Lcom/resouce/module/ResID;->select_button:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -637,7 +637,7 @@
     .line 10
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0340
+    sget v2, Lcom/resouce/module/ResID;->cancel_button:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -650,7 +650,7 @@
     .line 11
     iget-object v0, p0, Lenc;->T:Landroid/view/View;
 
-    const v2, 0x7f0b134b
+    sget v2, Lcom/resouce/module/ResID;->input_phrases_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

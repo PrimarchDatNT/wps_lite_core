@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c31
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_fail:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -85,7 +85,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v3, 0x0
 

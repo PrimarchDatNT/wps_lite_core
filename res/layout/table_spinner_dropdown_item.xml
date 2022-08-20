@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheckedTextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:ellipsize="marquee" android:id="@android:id/text1" android:background="@drawable/public_fill_table_spinner_popup_bg" android:layout_width="122.0dip" android:layout_height="44.0dip" android:singleLine="true" style="?android:spinnerDropDownItemStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

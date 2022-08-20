@@ -137,7 +137,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121841
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_ocr_ai_pages_limited:I
 
     const/4 v1, 0x1
 

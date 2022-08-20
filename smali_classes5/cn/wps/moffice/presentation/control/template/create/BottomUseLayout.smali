@@ -112,13 +112,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d73
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_bottom_use_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b185a
+    sget v0, Lcom/resouce/module/ResID;->membership_docer_vip_content:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
     .line 3
     invoke-virtual {v0, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3327
+    sget v0, Lcom/resouce/module/ResID;->use_view:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
     .line 5
     invoke-virtual {v0, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3320
+    sget v0, Lcom/resouce/module/ResID;->use_desc_text:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b2790
+    sget v3, Lcom/resouce/module/ResID;->purchase_desc_text:I
 
     if-nez v1, :cond_1
 
@@ -424,7 +424,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b185a
+    sget v0, Lcom/resouce/module/ResID;->membership_docer_vip_content:I
 
     if-ne p1, v0, :cond_7
 
@@ -553,7 +553,7 @@
     goto :goto_2
 
     :cond_7
-    const v0, 0x7f0b3327
+    sget v0, Lcom/resouce/module/ResID;->use_view:I
 
     if-ne p1, v0, :cond_8
 

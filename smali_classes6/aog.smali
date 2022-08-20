@@ -144,7 +144,7 @@
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f0e01ee
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_rename_view:I
 
     .line 3
     invoke-virtual {p0, v1}, Lhd3;->setView(I)Lhd3;
@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b198a
+    sget v2, Lcom/resouce/module/ResID;->name_et:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b19da
+    sget v2, Lcom/resouce/module/ResID;->negative_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b19e1
+    sget v2, Lcom/resouce/module/ResID;->neutral_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2280
+    sget v2, Lcom/resouce/module/ResID;->positive_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f120860
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_rename:I
 
     .line 11
     invoke-virtual {p0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -297,7 +297,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b19da
+    sget v0, Lcom/resouce/module/ResID;->negative_tv:I
 
     if-ne p1, v0, :cond_0
 
@@ -307,11 +307,11 @@
     goto/16 :goto_6
 
     :cond_0
-    const v0, 0x7f0b19e1
+    sget v0, Lcom/resouce/module/ResID;->neutral_tv:I
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122392
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const-string v3, ""
 
@@ -391,7 +391,7 @@
     goto :goto_6
 
     :cond_5
-    const v0, 0x7f0b2280
+    sget v0, Lcom/resouce/module/ResID;->positive_tv:I
 
     if-ne p1, v0, :cond_a
 

@@ -49,7 +49,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f122c05
+    sget v0, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     return v0
 .end method

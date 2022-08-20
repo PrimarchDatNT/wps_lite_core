@@ -123,11 +123,11 @@
 
     move-result-object v3
 
-    const v4, 0x7f0800e7
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->banner_document_password:I
 
-    const v5, 0x7f122010
+    sget v5, Lcom/resouce/module/ResSTRING;->public_document_password:I
 
-    const v6, 0x7f1225ed
+    sget v6, Lcom/resouce/module/ResSTRING;->public_password_introduce_desc:I
 
     new-instance v9, Leh4$j$b;
 

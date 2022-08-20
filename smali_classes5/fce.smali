@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070a3e
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_horizontal_pad:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -94,7 +94,7 @@
 
     iput v0, p0, Lgce;->p:I
 
-    const v0, 0x7f070a43
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_vertical_pad:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F

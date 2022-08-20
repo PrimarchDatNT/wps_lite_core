@@ -203,7 +203,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f3b
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_switch_file_fail:I
 
     const/4 v2, 0x1
 

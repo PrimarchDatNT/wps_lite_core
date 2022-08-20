@@ -477,7 +477,7 @@
 
     move-result p1
 
-    const v0, 0x7f12253d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     if-eqz p1, :cond_4
 
@@ -512,7 +512,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f1205f5
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_pad_no_star_record:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -524,7 +524,7 @@
     :cond_1
     if-ne p1, v2, :cond_2
 
-    const p1, 0x7f122328
+    sget p1, Lcom/resouce/module/ResSTRING;->public_homepage_star_tab_no_record_login:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -534,7 +534,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f122329
+    sget p1, Lcom/resouce/module/ResSTRING;->public_homepage_star_tab_no_record_unlogin:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f122324
+    sget p1, Lcom/resouce/module/ResSTRING;->public_homepage_share_tab_no_record_unlogin:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -572,7 +572,7 @@
 
     if-eqz v0, :cond_5
 
-    const p1, 0x7f122530
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_filter_file_record:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -773,7 +773,7 @@
 
     if-nez v0, :cond_1
 
-    const p0, 0x7f122535
+    sget p0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 

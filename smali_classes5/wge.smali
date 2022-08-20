@@ -135,7 +135,7 @@
     .line 1
     iget-object v0, p0, Lwge;->j:Landroid/view/View;
 
-    const v1, 0x7f0b2ecb
+    sget v1, Lcom/resouce/module/ResID;->template_inner_ad_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     .line 6
     iget-object v0, p0, Lwge;->j:Landroid/view/View;
 
-    const v1, 0x7f0b132d
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
     .line 8
     iget-object v0, p0, Lwge;->j:Landroid/view/View;
 
-    const v1, 0x7f0b132b
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

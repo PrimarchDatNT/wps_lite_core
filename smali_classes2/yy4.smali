@@ -15,7 +15,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00f8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_recommend_qq_browser:I
 
     const/4 v2, 0x0
 
@@ -46,7 +46,7 @@
 .method public final U2(Landroid/view/View;Landroid/content/Context;ILjava/lang/String;ZLjava/lang/String;)V
     .locals 7
 
-    const v0, 0x7f0b079b
+    sget v0, Lcom/resouce/module/ResID;->download_recommend_qq_browser_dialog_textView:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     if-nez p3, :cond_0
 
-    const p3, 0x7f12038b
+    sget p3, Lcom/resouce/module/ResSTRING;->dialog_recommend_qq_browser_download:I
 
     .line 2
     invoke-virtual {v0, p3}, Landroid/widget/TextView;->setText(I)V
@@ -65,7 +65,7 @@
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f12038f
+    sget p3, Lcom/resouce/module/ResSTRING;->dialog_recommend_qq_browser_update:I
 
     .line 3
     invoke-virtual {v0, p3}, Landroid/widget/TextView;->setText(I)V
@@ -112,7 +112,7 @@
     move-result-object p3
 
     :goto_1
-    const v0, 0x7f0b079a
+    sget v0, Lcom/resouce/module/ResID;->download_recommend_qq_browser_dialog_linearLayout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b36e9
+    sget p3, Lcom/resouce/module/ResID;->yes_recommend_qq_browser_dialog_textView:I
 
     .line 8
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

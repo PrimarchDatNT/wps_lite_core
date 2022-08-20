@@ -440,17 +440,17 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ec9
+    sget v1, Lcom/resouce/module/ResSTRING;->send_to_pc:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f0e0ba6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_send_to_pc:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
 
-    const v1, 0x7f122b08
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_scan_to_send:I
 
     .line 5
     new-instance v2, Lcn/wps/moffice/main/local/home/filetransfer/ext/TransferFileUtil$k;
@@ -459,7 +459,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance p2, Lcn/wps/moffice/main/local/home/filetransfer/ext/TransferFileUtil$l;
@@ -508,7 +508,7 @@
 
     invoke-direct {v0, p1}, Ljh3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122ec9
+    sget v1, Lcom/resouce/module/ResSTRING;->send_to_pc:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -517,17 +517,17 @@
 
     invoke-virtual {v0, v1}, Ljh3;->X2(Ljava/lang/String;)V
 
-    const v1, 0x7f081174
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_back_icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Ljh3;->W2(I)V
 
-    const v1, 0x7f0e0e9b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_transfer_scan_guide:I
 
     .line 5
     invoke-virtual {v0, v1}, Ljh3;->setContentView(I)V
 
-    const v1, 0x7f0b3289
+    sget v1, Lcom/resouce/module/ResID;->tv_text:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -536,7 +536,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122b13
+    sget v2, Lcom/resouce/module/ResSTRING;->public_transfer_web_guide_text:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -549,7 +549,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b02ec
+    sget p1, Lcom/resouce/module/ResID;->btn_next:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 

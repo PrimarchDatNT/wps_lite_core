@@ -133,7 +133,7 @@
 
     if-nez v0, :cond_3
 
-    const p1, 0x7f120ba6
+    sget p1, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     .line 7
     invoke-static {p1, v2}, Lsjf;->k(II)V

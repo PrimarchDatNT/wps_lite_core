@@ -454,7 +454,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lkg6$a;
@@ -463,7 +463,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     new-instance v2, Lkg6$b;
@@ -472,7 +472,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121cdf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_activation_cdkey_login_tip:I
 
     .line 5
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -697,9 +697,9 @@
 .method public static R(Landroid/content/Context;Lxk2;)V
     .locals 2
 
-    const v0, 0x7f0810f5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
-    const v1, 0x7f0810fa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_icon_base:I
 
     .line 1
     invoke-virtual {p1, v0, v1}, Lxk2;->r(II)V
@@ -709,7 +709,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121c87
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -728,9 +728,9 @@
 .method public static S(Lxk2;)V
     .locals 2
 
-    const v0, 0x7f0810fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
-    const v1, 0x7f080886
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     .line 1
     invoke-virtual {p0, v0, v1}, Lxk2;->r(II)V
@@ -760,9 +760,9 @@
 .method public static T(Lxk2;)V
     .locals 2
 
-    const v0, 0x7f0806f1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
-    const v1, 0x7f080886
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     .line 1
     invoke-virtual {p0, v0, v1}, Lxk2;->r(II)V
@@ -1029,7 +1029,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f98
+    sget v1, Lcom/resouce/module/ResSTRING;->public_credits:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1144,7 +1144,7 @@
 
     move-result v1
 
-    const v2, 0x7f122a09
+    sget v2, Lcom/resouce/module/ResSTRING;->public_splash_remove_ad:I
 
     if-nez v1, :cond_3
 
@@ -1226,7 +1226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c93
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1248,7 +1248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c9d
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_remove_ads:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2160,7 +2160,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f121769
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

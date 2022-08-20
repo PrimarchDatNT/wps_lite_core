@@ -163,7 +163,7 @@
 
     iput-object v0, p0, Lcld;->I:Landroid/view/View;
 
-    const v1, 0x7f0b22a9
+    sget v1, Lcom/resouce/module/ResID;->ppt_circle_progressbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -96,7 +96,7 @@
 
     iget-object v1, v1, Lypg;->a:Landroid/content/Context;
 
-    const v2, 0x7f120c42
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_day:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     iget-object v1, v1, Lypg;->a:Landroid/content/Context;
 
-    const v2, 0x7f120c57
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_year:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -132,7 +132,7 @@
 
     iget-object v1, v1, Lypg;->a:Landroid/content/Context;
 
-    const v2, 0x7f120c48
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_month:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

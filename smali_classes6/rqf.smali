@@ -71,7 +71,7 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f12074e
+    sget p0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 4
     invoke-static {p0, v1}, Lsjf;->h(II)V

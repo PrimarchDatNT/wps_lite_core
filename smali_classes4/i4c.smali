@@ -68,7 +68,7 @@
 
     packed-switch v1, :pswitch_data_0
 
-    const p1, 0x7f122823
+    sget p1, Lcom/resouce/module/ResSTRING;->public_saveDocumentError:I
 
     .line 4
     invoke-static {v0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -94,7 +94,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f89
+    sget v2, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_save_file_failed:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -131,7 +131,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f1218c9
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_save_timeout:I
 
     .line 13
     invoke-static {v0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -139,7 +139,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122824
+    sget p1, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     .line 14
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -84,15 +84,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080463
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_numerical:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e43
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_output_numerical_table_et:I
 
     :goto_0
-    const v2, 0x7f1208b5
+    sget v2, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/share/formula2num/Formula2Numer$6;-><init>(Lcn/wps/moffice/spreadsheet/control/share/formula2num/Formula2Numer;II)V
 
@@ -143,7 +143,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/formula2num/Formula2Numer;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1208ae
+    sget p2, Lcom/resouce/module/ResSTRING;->et_formula2num_ext_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -435,7 +435,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f121fef
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     .line 2
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -450,7 +450,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 4
     invoke-static {p1, v1}, Lsjf;->h(II)V

@@ -65,7 +65,7 @@
 
     iget-object v0, v0, Luj8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12199b
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_can_not_merge_all_of_files:I
 
     const/4 v2, 0x0
 

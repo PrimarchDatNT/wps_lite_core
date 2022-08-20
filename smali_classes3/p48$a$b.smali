@@ -72,7 +72,7 @@
     .line 5
     iget-object v0, v0, Lp48;->B:Landroid/content/Context;
 
-    const v1, 0x7f1205f9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_addstartoast:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -82,7 +82,7 @@
     :cond_1
     iget-object v0, v0, Lp48;->B:Landroid/content/Context;
 
-    const v1, 0x7f120609
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_removestartoast:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

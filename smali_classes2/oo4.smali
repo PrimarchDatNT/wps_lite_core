@@ -31,7 +31,7 @@
     .line 2
     iput-object p1, p0, Loo4;->f:Landroid/view/View;
 
-    const v0, 0x7f0b15e7
+    sget v0, Lcom/resouce/module/ResID;->link_modify_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -42,7 +42,7 @@
 
     iput-object v0, p0, Loo4;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15df
+    sget v0, Lcom/resouce/module/ResID;->link_modify_rect_tip:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Loo4;->h:Landroid/view/View;
 
-    const v0, 0x7f0b15d5
+    sget v0, Lcom/resouce/module/ResID;->link_modify_desc:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -69,7 +69,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b15d6
+    sget v0, Lcom/resouce/module/ResID;->link_modify_divide_line:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Loo4;->c:Landroid/view/View;
 
-    const v0, 0x7f0b15e1
+    sget v0, Lcom/resouce/module/ResID;->link_modify_selected:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -132,11 +132,11 @@
 
     move-result v0
 
-    const v1, 0x7f1227cc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f1227cb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_receive_link_edit:I
 
     goto :goto_0
 
@@ -162,7 +162,7 @@
 
     if-eqz p0, :cond_2
 
-    const v1, 0x7f1223e0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_add_member:I
 
     :cond_2
     :goto_0
@@ -190,11 +190,11 @@
 
     move-result v0
 
-    const v1, 0x7f1223ee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_only_support_read:I
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f122405
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_support_edit:I
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
 
     if-eqz p1, :cond_2
 
-    const v1, 0x7f1223e1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_add_member_text:I
 
     :cond_2
     :goto_0
@@ -249,12 +249,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f080a2e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->link_modify_choose:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080a2f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->link_modify_choose_invalidate:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V

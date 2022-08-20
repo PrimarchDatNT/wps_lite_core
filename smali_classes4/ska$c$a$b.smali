@@ -45,7 +45,7 @@
 
     iget-object v0, v0, Lska$c;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122748
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_already_owned:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

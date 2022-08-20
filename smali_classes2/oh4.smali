@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122679
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ppt_send_by_h5_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

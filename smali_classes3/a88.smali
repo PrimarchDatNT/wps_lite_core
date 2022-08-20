@@ -64,7 +64,7 @@
     .line 7
     iget-object p1, p0, La88;->b:Lhd3;
 
-    const p2, 0x7f120550
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage:I
 
     invoke-virtual {p1, p2}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -94,7 +94,7 @@
 
     iget-object p2, p0, La88;->h:Landroid/content/DialogInterface$OnClickListener;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -103,7 +103,7 @@
 
     iget-object p2, p0, La88;->h:Landroid/content/DialogInterface$OnClickListener;
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -390,7 +390,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030088
+    sget v1, Lcom/resouce/module/ResARRAY;->urlType:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03002d
+    sget v1, Lcom/resouce/module/ResARRAY;->httpUrlType:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030020
+    sget v1, Lcom/resouce/module/ResARRAY;->ftpUrlType:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -518,12 +518,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0b5a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_add_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0701
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_add_dialog:I
 
     .line 2
     :goto_0
@@ -539,7 +539,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b00be
+    sget v1, Lcom/resouce/module/ResID;->addstorage_dialog_et_serviceurl:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -550,7 +550,7 @@
 
     iput-object v1, p0, La88;->d:Lcn/wps/moffice/common/beans/MyAutoCompleteTextView;
 
-    const v1, 0x7f0b2fa4
+    sget v1, Lcom/resouce/module/ResID;->tip_input_url:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     iput-object v1, p0, La88;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2fa3
+    sget v1, Lcom/resouce/module/ResID;->tip_input_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -572,14 +572,14 @@
 
     iput-object v1, p0, La88;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b00bf
+    sget v1, Lcom/resouce/module/ResID;->addstorage_dialog_et_serviceurlBtn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b00bd
+    sget v2, Lcom/resouce/module/ResID;->addstorage_dialog_et_servicename:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     iget-object v4, p0, La88;->a:Landroid/content/Context;
 
-    const v5, 0x7f0e02ed
+    sget v5, Lcom/resouce/module/ResLAYOUT;->home_cloudstorage_addwebdavftp_dialog_autocomplete_item:I
 
     invoke-direct {v3, v4, v5, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -691,9 +691,9 @@
 
     move-result v1
 
-    const v2, 0x7f120552
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_datacannotempty:I
 
-    const v3, 0x7f120554
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_pleaseinputurl:I
 
     const/4 v4, 0x0
 
@@ -789,7 +789,7 @@
     .line 15
     iget-object p1, p0, La88;->a:Landroid/content/Context;
 
-    const p2, 0x7f120558
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_starterror:I
 
     invoke-static {p1, p2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -992,7 +992,7 @@
 
     move-result p2
 
-    const v0, 0x7f120557
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_specialchar:I
 
     if-nez p2, :cond_a
 

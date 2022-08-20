@@ -119,7 +119,7 @@
 
     invoke-direct {v0}, Lhfl;-><init>()V
 
-    const v1, 0x7f0b1317
+    sget v1, Lcom/resouce/module/ResID;->ink_stop_switch:I
 
     const-string v2, "ink-forbid"
 
@@ -128,7 +128,7 @@
     .line 2
     new-instance v0, Lgfl;
 
-    const v1, 0x7f0b1307
+    sget v1, Lcom/resouce/module/ResID;->ink_by_finger:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
 
     invoke-direct {v0, v1}, Lgfl;-><init>(Landroid/view/View;)V
 
-    const v1, 0x7f0b1308
+    sget v1, Lcom/resouce/module/ResID;->ink_by_finger_switch:I
 
     const-string v2, "ink-byfinger"
 
@@ -147,7 +147,7 @@
 
     invoke-direct {v0}, Lo7l;-><init>()V
 
-    const v1, 0x7f0b1329
+    sget v1, Lcom/resouce/module/ResID;->ink_type_pen:I
 
     const-string v2, "ink-pen"
 
@@ -158,7 +158,7 @@
 
     invoke-direct {v0}, Ln7l;-><init>()V
 
-    const v1, 0x7f0b1328
+    sget v1, Lcom/resouce/module/ResID;->ink_type_highlight_pen:I
 
     const-string v2, "ink-highlight-pen"
 
@@ -169,7 +169,7 @@
 
     invoke-direct {v0}, Lm7l;-><init>()V
 
-    const v1, 0x7f0b1327
+    sget v1, Lcom/resouce/module/ResID;->ink_type_eraser:I
 
     const-string v2, "ink-eraser"
 
@@ -183,7 +183,7 @@
     .line 7
     new-instance v1, Lffl;
 
-    const v2, 0x7f0606a5
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_black:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -191,7 +191,7 @@
 
     invoke-direct {v1, v2}, Lffl;-><init>(I)V
 
-    const v2, 0x7f0b1309
+    sget v2, Lcom/resouce/module/ResID;->ink_color_black:I
 
     const-string v3, "ink-color-black"
 
@@ -200,7 +200,7 @@
     .line 8
     new-instance v1, Lffl;
 
-    const v2, 0x7f0606a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_blue:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -208,7 +208,7 @@
 
     invoke-direct {v1, v2}, Lffl;-><init>(I)V
 
-    const v2, 0x7f0b130a
+    sget v2, Lcom/resouce/module/ResID;->ink_color_blue:I
 
     const-string v3, "ink-color-blue"
 
@@ -217,7 +217,7 @@
     .line 9
     new-instance v1, Lffl;
 
-    const v2, 0x7f0606a7
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_orange:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -225,7 +225,7 @@
 
     invoke-direct {v1, v2}, Lffl;-><init>(I)V
 
-    const v2, 0x7f0b130f
+    sget v2, Lcom/resouce/module/ResID;->ink_color_orange:I
 
     const-string v3, "ink-color-orange"
 
@@ -234,7 +234,7 @@
     .line 10
     new-instance v1, Lffl;
 
-    const v2, 0x7f0606a8
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_red:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -242,7 +242,7 @@
 
     invoke-direct {v1, v2}, Lffl;-><init>(I)V
 
-    const v2, 0x7f0b1311
+    sget v2, Lcom/resouce/module/ResID;->ink_color_red:I
 
     const-string v3, "ink-color-red"
 
@@ -251,7 +251,7 @@
     .line 11
     new-instance v1, Lffl;
 
-    const v2, 0x7f0606a9
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_yellow:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -259,7 +259,7 @@
 
     invoke-direct {v1, v0}, Lffl;-><init>(I)V
 
-    const v0, 0x7f0b1312
+    sget v0, Lcom/resouce/module/ResID;->ink_color_yellow:I
 
     const-string v2, "ink-color-yellow"
 
@@ -292,7 +292,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1318
+    sget v3, Lcom/resouce/module/ResID;->ink_thickness_0:I
 
     invoke-virtual {p0, v3, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
@@ -319,7 +319,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b131a
+    sget v3, Lcom/resouce/module/ResID;->ink_thickness_1:I
 
     invoke-virtual {p0, v3, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
@@ -346,7 +346,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b131c
+    sget v3, Lcom/resouce/module/ResID;->ink_thickness_2:I
 
     invoke-virtual {p0, v3, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
@@ -373,7 +373,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b131e
+    sget v2, Lcom/resouce/module/ResID;->ink_thickness_3:I
 
     invoke-virtual {p0, v2, v0, v1}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
@@ -488,7 +488,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1308
+    sget v0, Lcom/resouce/module/ResID;->ink_by_finger_switch:I
 
     if-ne p1, v0, :cond_0
 
@@ -607,12 +607,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120724
+    sget v0, Lcom/resouce/module/ResSTRING;->ent_sign:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f12236f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     return v0
 .end method
@@ -660,7 +660,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e09cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_edit_ink_panel:I
 
     .line 2
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
@@ -685,7 +685,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b1f69
+    sget v1, Lcom/resouce/module/ResID;->pen_divider:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -694,7 +694,7 @@
 
     iput-object v1, p0, Ldfl;->g0:Landroid/view/View;
 
-    const v1, 0x7f0b1f6b
+    sget v1, Lcom/resouce/module/ResID;->pen_layout:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -703,7 +703,7 @@
 
     iput-object v1, p0, Ldfl;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b130c
+    sget v1, Lcom/resouce/module/ResID;->ink_color_container_divider:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -712,7 +712,7 @@
 
     iput-object v1, p0, Ldfl;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b130b
+    sget v1, Lcom/resouce/module/ResID;->ink_color_container:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object v1, p0, Ldfl;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2f78
+    sget v1, Lcom/resouce/module/ResID;->thickness_divider:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -730,7 +730,7 @@
 
     iput-object v1, p0, Ldfl;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b2f79
+    sget v1, Lcom/resouce/module/ResID;->thickness_layout:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -785,7 +785,7 @@
 
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b1315
+    sget v2, Lcom/resouce/module/ResID;->ink_panel_root:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;

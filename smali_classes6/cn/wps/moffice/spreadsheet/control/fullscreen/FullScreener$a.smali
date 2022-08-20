@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a2c
+    sget v1, Lcom/resouce/module/ResID;->screenback_btn:I
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreener$a;->B:Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreener;
 

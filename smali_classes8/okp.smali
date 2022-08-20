@@ -522,7 +522,7 @@
 
     iget-object v2, v8, Lokp;->a:Landroid/content/Context;
 
-    const v3, 0x7f1227bd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -537,7 +537,7 @@
 
     iget-object v2, v8, Lokp;->a:Landroid/content/Context;
 
-    const v3, 0x7f1227be
+    sget v3, Lcom/resouce/module/ResSTRING;->public_readlater_remind_tomorrow:I
 
     .line 14
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -638,7 +638,7 @@
     .line 2
     iget-object p1, p0, Lokp;->a:Landroid/content/Context;
 
-    const v7, 0x7f120237
+    sget v7, Lcom/resouce/module/ResSTRING;->calendar_widget_color:I
 
     invoke-virtual {p1, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1066,7 +1066,7 @@
     .line 8
     iget-object v13, v8, Lokp;->a:Landroid/content/Context;
 
-    const v14, 0x7f120238
+    sget v14, Lcom/resouce/module/ResSTRING;->calendar_widget_schedule:I
 
     invoke-virtual {v13, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1079,7 +1079,7 @@
     .line 9
     iget-object v14, v8, Lokp;->a:Landroid/content/Context;
 
-    const v15, 0x7f120239
+    sget v15, Lcom/resouce/module/ResSTRING;->calendar_widget_todo:I
 
     invoke-virtual {v14, v15}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2360,7 +2360,7 @@
 .method public final f(Landroid/widget/RemoteViews;I)V
     .locals 1
 
-    const v0, 0x7f0b0623
+    sget v0, Lcom/resouce/module/ResID;->date_header_day_app_widget_tv:I
 
     .line 1
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
@@ -2390,12 +2390,12 @@
 
     invoke-static {v1, v0}, Lp2q;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2fff
+    sget v0, Lcom/resouce/module/ResID;->title_item_day_app_widget_tv:I
 
     .line 2
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b27c6
+    sget v0, Lcom/resouce/module/ResID;->range_item_day_app_widget_tv:I
 
     .line 3
     invoke-static {p1, v0, p2}, Lukp;->k(Landroid/widget/RemoteViews;II)V
@@ -2436,7 +2436,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0149
+    sget v2, Lcom/resouce/module/ResLAYOUT;->empty_item_day_calendar_app_widget_layout:I
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -2558,18 +2558,18 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e02bb
+    sget v5, Lcom/resouce/module/ResLAYOUT;->header_day_calendar_app_widget_listview:I
 
     invoke-direct {v1, v4, v5}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
-    const v4, 0x7f0b0623
+    sget v4, Lcom/resouce/module/ResID;->date_header_day_app_widget_tv:I
 
     .line 9
     iget-object p1, p1, Lskp;->Y:Ljava/lang/String;
 
     invoke-virtual {v1, v4, p1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const p1, 0x7f0b29ac
+    sget p1, Lcom/resouce/module/ResID;->root_header_day_app_widget_fl:I
 
     .line 10
     new-instance v4, Landroid/content/Intent;
@@ -2618,18 +2618,18 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e0407
+    sget v5, Lcom/resouce/module/ResLAYOUT;->item_day_calendar_app_widget_listview:I
 
     invoke-direct {v1, v4, v5}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
-    const v4, 0x7f0b2fff
+    sget v4, Lcom/resouce/module/ResID;->title_item_day_app_widget_tv:I
 
     .line 18
     iget-object v5, p1, Lskp;->I:Ljava/lang/String;
 
     invoke-virtual {v1, v4, v5}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v4, 0x7f0b27c6
+    sget v4, Lcom/resouce/module/ResID;->range_item_day_app_widget_tv:I
 
     .line 19
     iget-object v5, p1, Lskp;->a0:Ljava/lang/String;
@@ -2675,7 +2675,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b04b6
+    sget v5, Lcom/resouce/module/ResID;->color_item_day_app_widget_iv:I
 
     .line 21
     iget-object v6, p0, Lokp;->a:Landroid/content/Context;
@@ -2734,7 +2734,7 @@
 
     invoke-virtual {v1, v5, v4}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
 
-    const v4, 0x7f0b29af
+    sget v4, Lcom/resouce/module/ResID;->root_item_day_app_widget_ll:I
 
     .line 26
     new-instance v5, Landroid/content/Intent;

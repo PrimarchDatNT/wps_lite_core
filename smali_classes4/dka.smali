@@ -223,7 +223,7 @@
 
     :cond_3
     :goto_1
-    const p1, 0x7f12054e
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     .line 25
     invoke-static {v2, p1, v3}, Lbih;->n(Landroid/content/Context;II)V

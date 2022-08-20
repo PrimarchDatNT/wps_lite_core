@@ -111,7 +111,7 @@
 
     move-result v0
 
-    const v1, 0x7f120452
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_not_supported_not:I
 
     const/4 v2, 0x0
 
@@ -171,7 +171,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0605e5
+    sget v0, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     .line 12
     invoke-static {p0, v0}, Ldgh;->n1(Landroid/app/Activity;I)V
@@ -439,7 +439,7 @@
 
     :cond_1
     :goto_0
-    const p1, 0x7f120452
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_not_supported_not:I
 
     .line 6
     invoke-static {p0, p1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/link_share_item_permission_and_security_layout" android:background="@drawable/public_panel_item_third_bg_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true" xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KTextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:id="@id/right_top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_share_permission_and_security" app:kmui_pressAlphaEnabled="true" />
-    <cn.wpsx.support.ui.KNormalImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" />
-</LinearLayout>

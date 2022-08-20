@@ -73,7 +73,7 @@
 
     invoke-virtual {p0, p2, p1}, Ltzl;->o2(Ljava/lang/String;Lvzl;)V
 
-    const p1, 0x7f0e111a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->writer_underline_dialog:I
 
     const/4 p2, 0x0
 
@@ -158,7 +158,7 @@
 .method public final C2()V
     .locals 4
 
-    const v0, 0x7f0b2e2b
+    sget v0, Lcom/resouce/module/ResID;->tab_underline_tabhost:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CustomTabHost;->setCurrentTabByTag(Ljava/lang/String;)V
 
-    const v0, 0x7f0b2e2a
+    sget v0, Lcom/resouce/module/ResID;->tab_underline:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -236,7 +236,7 @@
     .line 10
     iget-object v0, p0, Lr6l;->j0:Lcn/wps/moffice/common/beans/TabNavigationBarLR;
 
-    const v2, 0x7f070daf
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_pad_pop_up_normal_text_size:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setButtonTextSize(I)V
 
@@ -247,7 +247,7 @@
 
     invoke-direct {v2, p0}, Lr6l$a;-><init>(Lr6l;)V
 
-    const v3, 0x7f1232ec
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_font_underline_index:I
 
     invoke-virtual {v0, v3, v2}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setLeftButtonOnClickListener(ILandroid/view/View$OnClickListener;)V
 
@@ -258,7 +258,7 @@
 
     invoke-direct {v2, p0}, Lr6l$b;-><init>(Lr6l;)V
 
-    const v3, 0x7f12236a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ink_color:I
 
     invoke-virtual {v0, v3, v2}, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->setRightButtonOnClickListener(ILandroid/view/View$OnClickListener;)V
 
@@ -299,7 +299,7 @@
 
     iput v1, v0, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    const v0, 0x7f0b1830
+    sget v0, Lcom/resouce/module/ResID;->max_height_layout:I
 
     .line 16
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

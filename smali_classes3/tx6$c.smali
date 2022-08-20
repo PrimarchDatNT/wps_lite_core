@@ -190,9 +190,9 @@
 
     move-result v1
 
-    const v2, 0x7f08014d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->class_room_help_tip2:I
 
-    const v3, 0x7f08014c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->class_room_help_tip1:I
 
     if-eqz v1, :cond_0
 

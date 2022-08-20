@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -114,7 +114,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f122394
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalid_phone:I
 
     goto :goto_0
 
@@ -128,12 +128,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122471
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_sms_exceed:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120f36
+    sget p1, Lcom/resouce/module/ResSTRING;->home_login_bind_phone_send_sms_failed:I
 
     :goto_0
     const/4 v0, 0x0
@@ -156,7 +156,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f122394
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalid_phone:I
 
     goto :goto_0
 
@@ -170,7 +170,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f122483
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_verify_sms_limit_reached:I
 
     goto :goto_0
 
@@ -184,12 +184,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121d2c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_api_rate_limit:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120f36
+    sget p1, Lcom/resouce/module/ResSTRING;->home_login_bind_phone_send_sms_failed:I
 
     :goto_0
     const/4 v0, 0x0
@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -303,7 +303,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -375,7 +375,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f12266a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_please_bind_other_phone:I
 
     goto :goto_0
 
@@ -389,7 +389,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f122b86
+    sget p1, Lcom/resouce/module/ResSTRING;->public_user_has_bind_phone:I
 
     goto :goto_0
 
@@ -403,7 +403,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f122394
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalid_phone:I
 
     goto :goto_0
 
@@ -417,7 +417,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f122483
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_verify_sms_limit_reached:I
 
     goto :goto_0
 
@@ -431,12 +431,12 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f121d2c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_api_rate_limit:I
 
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f121da3
+    sget p1, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     :goto_0
     const/4 v0, 0x0

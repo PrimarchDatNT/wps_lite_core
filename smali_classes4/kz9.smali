@@ -270,7 +270,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2e6f
+    sget v2, Lcom/resouce/module/ResID;->tag_home_record_list_position:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -371,7 +371,7 @@
 
     iget-object v0, p0, Lkz9;->T:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e03b9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_test_empty_item:I
 
     const/4 v2, 0x0
 

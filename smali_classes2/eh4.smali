@@ -635,7 +635,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ca5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_item_bold_line:I
 
     const/4 v2, 0x0
 
@@ -658,7 +658,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12295c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_decode_file_spec_access:I
 
     return v0
 
@@ -754,7 +754,7 @@
     :cond_0
     iget-object v0, p0, Leh4;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f1229f8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_show_who_accessed:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -825,9 +825,9 @@
 
     iget-object v3, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v4, 0x7f121dc1
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
-    const v5, 0x7f06025d
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     const/4 v6, 0x0
 
@@ -914,7 +914,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cc3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_linksettings_details_cover_layout:I
 
     iget-object v2, p0, Leh4;->T:Landroid/view/ViewGroup;
 
@@ -924,7 +924,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b8f
+    sget v1, Lcom/resouce/module/ResID;->share_pic_setting_list_entrance_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1080,7 +1080,7 @@
 
     iget-object v3, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v4, 0x7f122989
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_permission_download:I
 
     const/4 v5, 0x0
 
@@ -1173,11 +1173,11 @@
 
     iget-object v3, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v4, 0x7f121987
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_public_login_view_password:I
 
     const/4 v5, 0x0
 
-    const v6, 0x7f122be7
+    sget v6, Lcom/resouce/module/ResSTRING;->public_web_article_lookup_anyone:I
 
     const/4 v7, 0x0
 
@@ -1285,7 +1285,7 @@
 
     iget-object v5, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v6, 0x7f121350
+    sget v6, Lcom/resouce/module/ResSTRING;->link_share_info_expired_time:I
 
     const/4 v7, 0x0
 
@@ -1354,14 +1354,14 @@
 
     iget-object v2, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v0, 0x7f1227cc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     .line 2
     invoke-virtual {v1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v3, 0x7f121f77
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cooperation_permission:I
 
     const/4 v4, 0x0
 
@@ -1490,7 +1490,7 @@
 
     iget-object v3, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const v4, 0x7f121cd8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_access_record:I
 
     const/4 v5, 0x0
 
@@ -2183,7 +2183,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f122be7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_web_article_lookup_anyone:I
 
     .line 3
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -2194,7 +2194,7 @@
     :cond_0
     iget-object p2, p0, Leh4;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f1225ea
+    sget v0, Lcom/resouce/module/ResSTRING;->public_password_format:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2257,7 +2257,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0cc4
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_linksettings_details_fullscreen_dialog_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Ljh3;->setContentView(I)V
@@ -2267,7 +2267,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122988
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_permission_and_security:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2294,7 +2294,7 @@
     .line 6
     invoke-static {}, Ljh4;->a()Ljava/util/Map;
 
-    const p1, 0x7f0b2671
+    sget p1, Lcom/resouce/module/ResID;->public_link_settings_item_root_layout:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -2305,7 +2305,7 @@
 
     iput-object p1, p0, Leh4;->T:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b2674
+    sget p1, Lcom/resouce/module/ResID;->public_linksettings_detail_progress_view:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

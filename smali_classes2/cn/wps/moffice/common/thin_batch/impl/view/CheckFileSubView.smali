@@ -382,7 +382,7 @@
 .method public getBackBtn()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -472,7 +472,7 @@
 .method public final p()V
     .locals 3
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -501,7 +501,7 @@
 
     invoke-static {v1, v2}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v1, 0x7f122266
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -523,11 +523,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02c7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_check_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b03aa
+    sget p1, Lcom/resouce/module/ResID;->check_file_lv:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -538,7 +538,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->W:Landroid/widget/ListView;
 
-    const p1, 0x7f0b024f
+    sget p1, Lcom/resouce/module/ResID;->bottom_btns_container:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->a0:Landroid/view/View;
 
-    const p1, 0x7f0b1d08
+    sget p1, Lcom/resouce/module/ResID;->pause_and_resume_btn_container:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -556,7 +556,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->b0:Landroid/view/View;
 
-    const p1, 0x7f0b0250
+    sget p1, Lcom/resouce/module/ResID;->bottom_btns_divider:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b03b9
+    sget p1, Lcom/resouce/module/ResID;->check_progress_tv:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -576,7 +576,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->d0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b03b7
+    sget p1, Lcom/resouce/module/ResID;->check_message_tv:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b24bc
+    sget p1, Lcom/resouce/module/ResID;->predicate_slim_size_tv:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->f0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1d09
+    sget p1, Lcom/resouce/module/ResID;->pause_check_file_btn:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -609,7 +609,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->g0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b28c2
+    sget p1, Lcom/resouce/module/ResID;->resume_check_file_btn:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->h0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b2c3a
+    sget p1, Lcom/resouce/module/ResID;->slim_file_btn:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->i0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b0614
+    sget p1, Lcom/resouce/module/ResID;->dash_iv:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->k0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b03d3
+    sget p1, Lcom/resouce/module/ResID;->checking_gif_view:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->m0:Lcn/wps/moffice/common/beans/CircleTrackGifView;
 
-    const p1, 0x7f0b03d8
+    sget p1, Lcom/resouce/module/ResID;->checking_view:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->l0:Landroid/view/View;
 
-    const p1, 0x7f0b03c2
+    sget p1, Lcom/resouce/module/ResID;->check_stop_pb:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -671,7 +671,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b03cb
+    sget p1, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -682,7 +682,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->n0:Landroid/widget/CheckBox;
 
-    const p1, 0x7f0b03cc
+    sget p1, Lcom/resouce/module/ResID;->checkbox_layout:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -691,7 +691,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->o0:Landroid/view/View;
 
-    const p1, 0x7f0b03cf
+    sget p1, Lcom/resouce/module/ResID;->checkbox_text:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -709,7 +709,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12215b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -722,7 +722,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12215c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file_path:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -770,7 +770,7 @@
 .method public final r(Landroid/view/ViewGroup;)Z
     .locals 1
 
-    const v0, 0x7f0b0cd4
+    sget v0, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -804,7 +804,7 @@
 .method public final s(Landroid/view/ViewGroup;)Z
     .locals 1
 
-    const v0, 0x7f0b0cd4
+    sget v0, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -872,7 +872,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f121d89
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_slim_check_stoping:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1034,7 +1034,7 @@
     goto :goto_0
 
     :cond_2
-    const v6, 0x7f0b0cd4
+    sget v6, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     if-ne v3, v2, :cond_3
 
@@ -1241,7 +1241,7 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f0b03cc
+    sget p2, Lcom/resouce/module/ResID;->checkbox_layout:I
 
     .line 16
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1258,7 +1258,7 @@
     .line 18
     iget-object p2, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f121d92
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_pause_can_slim:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1301,7 +1301,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const p2, 0x7f121d91
+    sget p2, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_pause:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1373,7 +1373,7 @@
     .line 5
     iget-object v4, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const v5, 0x7f121d8a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_complete:I
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -1439,7 +1439,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->k0:Landroid/widget/ImageView;
 
-    const v4, 0x7f0818fe
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_dash_icon:I
 
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1513,7 +1513,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const v4, 0x7f121d91
+    sget v4, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_pause:I
 
     invoke-virtual {p1, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1567,13 +1567,13 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f12226a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_guide_file_reducing_desc:I
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f0601a5
+    sget v5, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v6, 0x7f080729
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_reduce:I
 
     if-eqz v0, :cond_3
 
@@ -1827,7 +1827,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f121d90
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_file:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1887,7 +1887,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;->k0:Landroid/widget/ImageView;
 
-    const v3, 0x7f0818fc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_check_icon:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -163,7 +163,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122522
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newsharefolde_template_apply_error_tips:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -182,7 +182,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122523
+    sget p1, Lcom/resouce/module/ResSTRING;->public_newsharefolde_template_apply_space_full_error_tips:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -201,7 +201,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122c7c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_unsupport_new_sharefolder:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121ff0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_light_link_not_exist:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121e4c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_folder_exits_sharefolder:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -255,7 +255,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121e4d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_folder_position_sharefolder:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121ff4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_not_exist:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1221a4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder_not_exits:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f12254e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_not_group_member_errmsg:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -337,7 +337,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -385,7 +385,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 4
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -401,7 +401,7 @@
 
     :cond_3
     :goto_1
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 6
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -557,7 +557,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -615,7 +615,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120585
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -638,7 +638,7 @@
 
     move-result v0
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     if-nez v0, :cond_0
 
@@ -666,7 +666,7 @@
 
     move-result v0
 
-    const v2, 0x7f120585
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     if-nez v0, :cond_4
 
@@ -703,7 +703,7 @@
 
     if-ne p2, p1, :cond_5
 
-    const p1, 0x7f1206bc
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_upload_error:I
 
     .line 9
     invoke-static {p0, p1}, Lq48;->e(Landroid/content/Context;I)V
@@ -715,7 +715,7 @@
 
     if-ne p2, p1, :cond_6
 
-    const p1, 0x7f122391
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     .line 10
     invoke-static {p0, p1}, Lq48;->e(Landroid/content/Context;I)V
@@ -779,7 +779,7 @@
 
     if-ne p2, p1, :cond_b
 
-    const p1, 0x7f122412
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     .line 13
     invoke-static {p0, p1}, Lq48;->e(Landroid/content/Context;I)V
@@ -837,7 +837,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1046,7 +1046,7 @@
     if-nez v0, :cond_6
 
     :cond_1
-    const v0, 0x7f12123c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_no_space_left:I
 
     .line 4
     invoke-virtual {v10, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1084,7 +1084,7 @@
     return-void
 
     :cond_4
-    const v0, 0x7f120eae
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     .line 9
     invoke-virtual {v10, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1210,7 +1210,7 @@
     if-nez v0, :cond_2
 
     :cond_1
-    const v0, 0x7f12123e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     .line 4
     invoke-virtual {v14, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1256,7 +1256,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120eaa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

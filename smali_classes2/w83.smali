@@ -43,7 +43,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1223ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_kitkat_unable_to_write:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -62,7 +62,7 @@
 
     invoke-direct {p1, p2}, Lw83$c;-><init>(Ljava/lang/Runnable;)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -86,7 +86,7 @@
 
     invoke-direct {v0, p3}, Lw83$d;-><init>(Ljava/lang/Runnable;)V
 
-    const p3, 0x7f122820
+    sget p3, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-virtual {p0, p3, p1, v0}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1272,7 +1272,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1223c9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_kitkat_file_cant_write_tips:I
 
     .line 14
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1295,7 +1295,7 @@
 
     :cond_b
     :goto_3
-    const p1, 0x7f1220f5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_file_cant_write_tips:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

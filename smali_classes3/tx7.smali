@@ -144,7 +144,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121121
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_user_suspend:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121119
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_faied_and_tip_try:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -179,7 +179,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

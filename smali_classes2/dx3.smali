@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121025
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_cloud_font_vip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1221de
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_system:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

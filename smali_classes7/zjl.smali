@@ -155,7 +155,7 @@
     .line 1
     iget-object v0, p0, Lzjl;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b3065
+    sget v1, Lcom/resouce/module/ResID;->top_ad_banner:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
     .line 2
     iget-object v0, p0, Lzjl;->e0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2ff2
+    sget v1, Lcom/resouce/module/ResID;->title_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     goto :goto_1
 
     :cond_0
-    const v5, 0x7f08130b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_panel_topbar_bg:I
 
     .line 3
     invoke-virtual {v4, v5}, Landroid/view/View;->setBackgroundResource(I)V
@@ -272,7 +272,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0602c2
+    sget v6, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 

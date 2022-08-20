@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12317b
+    sget v1, Lcom/resouce/module/ResSTRING;->url_contact:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -64,7 +64,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v1, 0x0
 
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122959
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_contacts:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

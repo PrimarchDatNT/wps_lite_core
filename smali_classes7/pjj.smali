@@ -319,9 +319,9 @@
     return-void
 
     :cond_1
-    const v2, 0x7f122760
+    sget v2, Lcom/resouce/module/ResSTRING;->public_qing_upload_notify_cannot_upload:I
 
-    const v3, 0x7f0e10d1
+    sget v3, Lcom/resouce/module/ResLAYOUT;->writer_qing_uploading_tip:I
 
     .line 4
     new-instance v4, Landroid/widget/LinearLayout;
@@ -402,7 +402,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0b35ec
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -915,7 +915,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1297
+    sget v0, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 

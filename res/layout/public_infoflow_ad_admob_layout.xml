@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.infoflow.SpreadView android:layout_gravity="end|center|top" android:id="@id/spread" style="@style/public_infoflow_spread" />
-</FrameLayout>

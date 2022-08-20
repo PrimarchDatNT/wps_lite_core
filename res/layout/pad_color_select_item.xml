@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:padding="0.0dip" android:focusable="false" android:layout_width="30.0dip" android:layout_height="30.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/pad_color_select_iv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pad_color_select_src" />
-</FrameLayout>

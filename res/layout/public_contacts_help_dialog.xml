@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.MyScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:layout_width="177.0dip" android:layout_height="152.0dip" android:src="@drawable/public_contacts_help" />
-        <TextView android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/public_contact_help_text" />
-        <Button android:id="@id/btn_i_know" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="19.0dip" android:text="@string/public_common_i_know" style="@style/KButtonStyle.Primary" />
-    </LinearLayout>
-</cn.wps.moffice.common.beans.MyScrollView>

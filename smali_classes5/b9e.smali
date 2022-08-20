@@ -290,7 +290,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0810
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_savepdf_watermark_preview_item:I
 
     const/4 v2, 0x0
 
@@ -303,7 +303,7 @@
 
     invoke-direct {p3}, Lb9e$d;-><init>()V
 
-    const v1, 0x7f0b22b6
+    sget v1, Lcom/resouce/module/ResID;->ppt_exportpdf_preview_item_img:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     iput-object v1, p3, Lb9e$d;->a:Lcn/wps/moffice/presentation/control/save/exportpdf/PreviewPageView;
 
-    const v1, 0x7f0b22b7
+    sget v1, Lcom/resouce/module/ResID;->ppt_exportpdf_preview_item_supercanvas:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

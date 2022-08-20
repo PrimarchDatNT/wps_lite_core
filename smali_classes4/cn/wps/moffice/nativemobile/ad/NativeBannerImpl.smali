@@ -206,7 +206,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b01f3
+    sget v1, Lcom/resouce/module/ResID;->banner_spread:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1096,7 +1096,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121954
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_collection_software_aboutmore:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

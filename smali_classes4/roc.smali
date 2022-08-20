@@ -91,7 +91,7 @@
 
     if-nez p2, :cond_1
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200ac
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_myappurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200ae
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_playurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -653,9 +653,9 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v5, 0x7f080723
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_long_pic:I
 
     if-eqz v0, :cond_1
 
@@ -713,7 +713,7 @@
 
     invoke-virtual {v0, p0}, Lkib;->Y(Ljava/lang/String;)V
 
-    const p0, 0x7f1210b8
+    sget p0, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     new-array p3, v2, [Lcib$b;
 
@@ -756,7 +756,7 @@
     .line 14
     invoke-virtual {p0, p2}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122bc7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_desc:I
 
     const/4 v0, 0x2
 

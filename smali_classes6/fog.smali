@@ -199,7 +199,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -282,7 +282,7 @@
 
     invoke-direct {v0, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1217dc
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_title:I
 
     .line 5
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -301,7 +301,7 @@
     .line 7
     iget-object v2, p0, Lfog;->a:Landroid/app/Activity;
 
-    const v4, 0x7f1212e8
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -313,7 +313,7 @@
     :cond_2
     iget-object v2, p0, Lfog;->a:Landroid/app/Activity;
 
-    const v4, 0x7f1212e5
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -323,7 +323,7 @@
     :goto_2
     iget-object v4, p0, Lfog;->a:Landroid/app/Activity;
 
-    const v5, 0x7f1217db
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_tips:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -339,7 +339,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f122bd1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     .line 10
     new-instance v2, Lfog$g;
@@ -348,7 +348,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p3, 0x7f1217da
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_dialog_confirm:I
 
     .line 11
     new-instance v1, Lfog$h;
@@ -724,7 +724,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12085b
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -940,7 +940,7 @@
     .line 15
     invoke-static {p1, p2, v0, v0}, Landroid/media/MediaScannerConnection;->scanFile(Landroid/content/Context;[Ljava/lang/String;[Ljava/lang/String;Landroid/media/MediaScannerConnection$OnScanCompletedListener;)V
 
-    const p2, 0x7f122bd2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     .line 16
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -956,7 +956,7 @@
 
     if-eqz p4, :cond_5
 
-    const p3, 0x7f12084f
+    sget p3, Lcom/resouce/module/ResSTRING;->et_export_card_cloud_path:I
 
     .line 18
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1152,7 +1152,7 @@
 
     iget-object p1, p0, Lfog;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12086e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_export_card_upload_failed_tip:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1183,7 +1183,7 @@
     .line 7
     iget-object v0, p0, Lfog;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12086d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_upload_failed:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1198,7 +1198,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -1296,7 +1296,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0f56
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_dialog_horizontal_progress_layout:I
 
     const/4 v3, 0x0
 
@@ -1304,7 +1304,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b254e
+    sget v2, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1315,7 +1315,7 @@
 
     iput-object v2, p0, Lfog;->c:Landroid/widget/TextView;
 
-    const v2, 0x7f0b1929
+    sget v2, Lcom/resouce/module/ResID;->msg_text:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1329,7 +1329,7 @@
     .line 10
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v2, 0x7f0b2538
+    sget v2, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1343,7 +1343,7 @@
     .line 12
     iget-object v2, p0, Lfog;->b:Lhd3;
 
-    const v3, 0x7f120c54
+    sget v3, Lcom/resouce/module/ResSTRING;->et_split_table_uploading:I
 
     invoke-virtual {v2, v3}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -1355,7 +1355,7 @@
     .line 14
     iget-object v0, p0, Lfog;->b:Lhd3;
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {v0, v2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

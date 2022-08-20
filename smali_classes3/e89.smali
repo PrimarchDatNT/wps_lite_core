@@ -296,7 +296,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b2983
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_refresh_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
     .line 4
     iget-object v0, p0, Le89;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1639
+    sget v1, Lcom/resouce/module/ResID;->listview_show_page_main:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -328,7 +328,7 @@
     .line 5
     iget-object v0, p0, Le89;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2834
+    sget v1, Lcom/resouce/module/ResID;->recommend_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -339,7 +339,7 @@
     .line 6
     iget-object v0, p0, Le89;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b20c0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_category_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -350,7 +350,7 @@
     .line 7
     iget-object v0, p0, Le89;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b20c1
+    sget v1, Lcom/resouce/module/ResID;->phone_public_category_more_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -372,7 +372,7 @@
     .line 9
     iget-object v0, p0, Le89;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0858
+    sget v1, Lcom/resouce/module/ResID;->empty_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -380,7 +380,7 @@
 
     iput-object v0, p0, Le89;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2835
+    sget v1, Lcom/resouce/module/ResID;->recommend_list:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -627,7 +627,7 @@
     .line 2
     iget-object v1, p0, Le89;->f0:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e091a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_search_app_page_view:I
 
     const/4 v3, 0x1
 

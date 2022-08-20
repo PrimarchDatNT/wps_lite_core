@@ -256,7 +256,7 @@
     .line 4
     iget-object v0, p2, Lcn/wps/moffice/writer/shell/fillform/TableInfoModel;->errorMsg:Lyb;
 
-    const v2, 0x7f12342a
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_table_info_invalid:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -295,7 +295,7 @@
     :cond_2
     iget-object v0, p2, Lcn/wps/moffice/writer/shell/fillform/TableInfoModel;->errorMsg:Lyb;
 
-    const v2, 0x7f12342d
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_table_info_repeat:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

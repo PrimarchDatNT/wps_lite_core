@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center_vertical" android:id="@id/et_function_categoryv_name" android:paddingLeft="@dimen/phone_ss_fullscreen_panel_padding_little" android:paddingRight="@dimen/et_function_select_item_padding_horizontal" android:layout_width="wrap_content" android:layout_height="48.0dip" android:minWidth="@dimen/et_function_select_item_name_min_width" android:text="asdfasdf" android:paddingStart="@dimen/phone_ss_fullscreen_panel_padding_little" android:paddingEnd="@dimen/et_function_select_item_padding_horizontal" style="@style/phone_public_font_m_black" />
-</LinearLayout>

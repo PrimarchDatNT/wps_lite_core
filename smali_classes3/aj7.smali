@@ -160,7 +160,7 @@
     .line 6
     iget-object v0, p0, Lmj7;->f:Landroid/widget/ImageView;
 
-    const v1, 0x7f080f6a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_nav_set_up:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -173,9 +173,9 @@
     .line 1
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b302d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
-    const v2, 0x7f080f69
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_nav_search:I
 
     const/4 v3, 0x0
 
@@ -227,7 +227,7 @@
 .method public G()I
     .locals 1
 
-    const v0, 0x7f0e036f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_pad_wps_drive_titlebar:I
 
     return v0
 .end method
@@ -274,9 +274,9 @@
     .line 1
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b34b3
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_button:I
 
-    const v2, 0x7f080f65
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_nav_add_members:I
 
     const/16 v3, 0x8
 
@@ -326,7 +326,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -419,7 +419,7 @@
     .line 5
     iget-object v0, p0, Lmj7;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f080f65
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_nav_add_members:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -432,14 +432,14 @@
     .line 1
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0e05f5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_wpsdrive_title_right_layout:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->x(I)V
 
     .line 2
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b34ad
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_fragment_title_search:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -457,7 +457,7 @@
     .line 4
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b1bd1
+    sget v1, Lcom/resouce/module/ResID;->pad_drive_multi_select_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 6
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b1bd0
+    sget v2, Lcom/resouce/module/ResID;->pad_drive_delete:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -491,7 +491,7 @@
     .line 8
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b1bd2
+    sget v2, Lcom/resouce/module/ResID;->pad_drive_select:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -549,7 +549,7 @@
     .line 13
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b1bd3
+    sget v1, Lcom/resouce/module/ResID;->pad_drive_select_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
     .line 14
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b1bd4
+    sget v1, Lcom/resouce/module/ResID;->pad_drive_select_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -807,7 +807,7 @@
     .line 3
     iget-object v1, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0816fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -853,7 +853,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1228e1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_select_project:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -871,7 +871,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1204aa
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -956,12 +956,12 @@
 
     if-eqz p2, :cond_5
 
-    const v0, 0x7f080ea3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_drive_all_selected:I
 
     goto :goto_4
 
     :cond_5
-    const v0, 0x7f080ea2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_drive_all_select_normal:I
 
     :goto_4
     invoke-virtual {p1, v0, p2}, Lcn/wps/moffice/main/cloud/drive/view/KMulticolorImageView;->setImageResource(IZ)V
@@ -973,12 +973,12 @@
 
     if-eqz p2, :cond_6
 
-    const p2, 0x7f121dc0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel_selectAll:I
 
     goto :goto_5
 
     :cond_6
-    const p2, 0x7f1228d7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_5
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -998,7 +998,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1228e1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_select_project:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1132,7 +1132,7 @@
     .line 3
     invoke-virtual {p0}, Laj7;->Y()V
 
-    const p1, 0x7f0b2052
+    sget p1, Lcom/resouce/module/ResID;->phone_home_wpsdrive_titlebar:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1249,7 +1249,7 @@
     :cond_2
     iget-object v0, p0, Laj7;->v:Landroid/view/View;
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1260,7 +1260,7 @@
     :goto_0
     iget-object v0, p0, Laj7;->v:Landroid/view/View;
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1278,7 +1278,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

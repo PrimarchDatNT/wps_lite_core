@@ -266,14 +266,14 @@
     .line 3
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 4
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081555
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -283,14 +283,14 @@
     :cond_0
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1231c0
+    sget v1, Lcom/resouce/module/ResSTRING;->website_load_fail_click_retry:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 6
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081560
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -331,14 +331,14 @@
     .line 2
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 3
     iget-object v0, p0, Lnu7;->Z:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081555
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -694,7 +694,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e003b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_historypreview_layout:I
 
     const/4 v2, 0x0
 
@@ -704,7 +704,7 @@
 
     iput-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0fdd
+    sget v1, Lcom/resouce/module/ResID;->history_preview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -723,7 +723,7 @@
     .line 4
     iget-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0fde
+    sget v1, Lcom/resouce/module/ResID;->history_preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -734,7 +734,7 @@
     .line 5
     iget-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0ff1
+    sget v1, Lcom/resouce/module/ResID;->history_recover_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -750,7 +750,7 @@
     .line 7
     iget-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b19de
+    sget v1, Lcom/resouce/module/ResID;->network_error:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -770,7 +770,7 @@
     .line 9
     iget-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0ff0
+    sget v1, Lcom/resouce/module/ResID;->history_recover_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -790,7 +790,7 @@
     .line 11
     iget-object v0, p0, Lnu7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0fdf
+    sget v1, Lcom/resouce/module/ResID;->history_preview_top_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -876,7 +876,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122260
+    sget v3, Lcom/resouce/module/ResSTRING;->public_history_set_as_latest_version:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -885,7 +885,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12225b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_history_other_device_also_lookup:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -904,7 +904,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120e04
+    sget v3, Lcom/resouce/module/ResSTRING;->history_preview_saveas:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0818b8
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -993,14 +993,14 @@
 
     move-result v0
 
-    const v1, 0x7f0b0ff2
+    sget v1, Lcom/resouce/module/ResID;->history_recovery_btn_vip_icon:I
 
     if-eqz v0, :cond_0
 
     .line 2
     iget-object v0, p0, Lnu7;->a0:Lcn/wps/moffice/common/beans/phone/CornerRectLinerLayout;
 
-    const v2, 0x7f06005d
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/CornerRectLinerLayout;->setCustomBackgroundColor(I)V
 
@@ -1021,7 +1021,7 @@
     :cond_0
     iget-object v0, p0, Lnu7;->a0:Lcn/wps/moffice/common/beans/phone/CornerRectLinerLayout;
 
-    const v2, 0x7f060142
+    sget v2, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/CornerRectLinerLayout;->setCustomBackgroundColor(I)V
 

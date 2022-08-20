@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12087c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12087d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120887
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_clear_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

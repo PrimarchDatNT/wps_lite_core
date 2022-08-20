@@ -29,7 +29,7 @@
 .method public constructor <init>(Llnf;)V
     .locals 1
 
-    const v0, 0x7f1207c5
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_number_numerical:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Ldof;-><init>(Llnf;I)V
@@ -101,7 +101,7 @@
     :cond_0
     iget-object v0, p0, Lynf;->c:Llnf;
 
-    const v1, 0x7f1207c5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_numerical:I
 
     invoke-virtual {v0, v1}, Lemf;->p(I)V
 
@@ -266,7 +266,7 @@
     .line 7
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0aca
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_digit_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 8
     iget-object v2, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0ad0
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout01:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 9
     iget-object v2, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0ad1
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout02:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,7 +313,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070881
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_ss_fullscreen_panel_padding_tiney:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -324,7 +324,7 @@
     .line 11
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0ad2
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_tips:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 12
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0ace
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_spinner01:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -348,14 +348,14 @@
     .line 13
     iget-object v0, p0, Lfof;->m:Landroid/widget/CheckBox;
 
-    const v3, 0x7f120bb6
+    sget v3, Lcom/resouce/module/ResSTRING;->et_number_thousand_separator:I
 
     invoke-virtual {v0, v3}, Landroid/widget/CheckBox;->setText(I)V
 
     .line 14
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0ac9
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_checkbox02:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -363,14 +363,14 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f120bb2
+    sget v3, Lcom/resouce/module/ResSTRING;->et_number_negative:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
     .line 15
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0ac8
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_checkbox01_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070242
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_number_numeric_spinner02_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -413,7 +413,7 @@
     .line 1
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ac7
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_checkbox01:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -428,7 +428,7 @@
 
     iget-object v1, p0, Lynf;->a:Landroid/content/Context;
 
-    const v2, 0x7f0e0251
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint_ltr:I
 
     invoke-direct {v0, v1, v2}, Lm7h;-><init>(Landroid/content/Context;I)V
 
@@ -437,7 +437,7 @@
     .line 3
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0acf
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_spinner02:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

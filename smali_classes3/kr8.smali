@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0282
+    sget v3, Lcom/resouce/module/ResLAYOUT;->foreign_home_wps_file_radar_setting:I
 
     const/4 v4, 0x0
 
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Lkr8;->B:Landroid/view/View;
 
-    const v3, 0x7f0b0cf7
+    sget v3, Lcom/resouce/module/ResID;->file_radar_setting_container:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b11f3
+    sget v3, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_group:I
 
     if-nez v0, :cond_0
 
@@ -147,7 +147,7 @@
     .line 8
     iget-object v0, p0, Lkr8;->B:Landroid/view/View;
 
-    const v3, 0x7f0b11f6
+    sget v3, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_receive_new_document_tip_switch:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
     .line 17
     iget-object v0, p0, Lkr8;->B:Landroid/view/View;
 
-    const v3, 0x7f0b11f4
+    sget v3, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_home_page_group:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
     .line 18
     iget-object v0, p0, Lkr8;->B:Landroid/view/View;
 
-    const v3, 0x7f0b11f5
+    sget v3, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_homepage_switch:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b11f8
+    sget v3, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_show_unhanled_notification_group:I
 
     if-eqz v0, :cond_3
 
@@ -283,7 +283,7 @@
     .line 24
     iget-object v0, p0, Lkr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b11f7
+    sget v1, Lcom/resouce/module/ResID;->home_wps_assistant_file_radar_show_notification_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -324,7 +324,7 @@
 
     move-result v0
 
-    const v1, 0x7f121217
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     if-eqz v0, :cond_0
 
@@ -351,7 +351,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f1227ce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_received:I
 
     return v0
 .end method

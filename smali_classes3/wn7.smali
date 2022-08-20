@@ -327,7 +327,7 @@
 .method public g(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3488
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_login_layout_root:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     iput-object p1, p0, Lwn7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3484
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_login_btn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
     .line 4
     iget-object p1, p0, Lwn7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3489
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_login_page_text_link:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -366,7 +366,7 @@
     .line 5
     iget-object p1, p0, Lwn7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3495
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_use_guide_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

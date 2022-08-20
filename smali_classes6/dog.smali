@@ -407,7 +407,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060657
+    sget v3, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1441,7 +1441,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080625
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_export_card_water_mark:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

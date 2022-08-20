@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211ab
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     const/4 v2, 0x0
 
@@ -305,7 +305,7 @@
     return-object p1
 
     :cond_0
-    const v0, 0x7f0b0799
+    sget v0, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121595
+    sget v1, Lcom/resouce/module/ResSTRING;->oversea_wps_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206e0
+    sget v1, Lcom/resouce/module/ResSTRING;->download_url_pdf_converter:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206e1
+    sget v1, Lcom/resouce/module/ResSTRING;->download_url_pdf_editor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -550,7 +550,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e00f2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_pdf_promote:I
 
     invoke-virtual {p2, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -565,7 +565,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e00f4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_pdf_promote_to_mac:I
 
     invoke-virtual {p2, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -580,7 +580,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e00f3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_pdf_promote_new:I
 
     invoke-virtual {p2, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -858,7 +858,7 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f080fe9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_converter_banner_01:I
 
     .line 8
     invoke-virtual {p0, v2, v0, v3}, Llf8;->B(III)Landroid/widget/ImageView;
@@ -875,7 +875,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f081030
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_banner_03:I
 
     .line 10
     invoke-virtual {p0, v2, v0, v3}, Llf8;->B(III)Landroid/widget/ImageView;
@@ -909,7 +909,7 @@
     if-eqz v3, :cond_6
 
     :cond_2
-    const v3, 0x7f081031
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_banner_04:I
 
     .line 12
     invoke-virtual {p0, v2, v0, v3}, Llf8;->B(III)Landroid/widget/ImageView;
@@ -926,7 +926,7 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f080fff
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_editor_banner_01:I
 
     .line 14
     invoke-virtual {p0, v2, v0, v3}, Llf8;->B(III)Landroid/widget/ImageView;
@@ -935,7 +935,7 @@
 
     invoke-virtual {v1, v4}, Llf8$f;->w(Landroid/widget/ImageView;)V
 
-    const v4, 0x7f081000
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pdf_editor_banner_02:I
 
     .line 15
     invoke-virtual {p0, v2, v0, v4}, Llf8;->B(III)Landroid/widget/ImageView;
@@ -961,9 +961,9 @@
     goto :goto_0
 
     :cond_4
-    const v3, 0x7f08102e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_banner_01:I
 
-    const v4, 0x7f08102f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_banner_02:I
 
     .line 18
     iget-object v5, p0, Llf8;->I:Landroid/app/Activity;
@@ -974,9 +974,9 @@
 
     if-eqz v5, :cond_5
 
-    const v3, 0x7f080939
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ic_pdf_promote_banner_01:I
 
-    const v4, 0x7f08093a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->ic_pdf_promote_banner_02:I
 
     .line 19
     :cond_5
@@ -1304,7 +1304,7 @@
 .method public final H(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1f05
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_dlg_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1327,7 +1327,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1217a6
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_converter_pro:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1340,7 +1340,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f120dc3
+    sget v0, Lcom/resouce/module/ResSTRING;->get_pdf_editor:I
 
     .line 6
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1392,7 +1392,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f121769
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     .line 10
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1400,7 +1400,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f1218c4
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 11
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1409,7 +1409,7 @@
 
     :cond_4
     :goto_0
-    const v0, 0x7f1224cb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_mine_wps_drive_to_pc:I
 
     .line 12
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1440,7 +1440,7 @@
     .line 1
     invoke-virtual {p0, p1}, Llf8;->H(Landroid/view/View;)V
 
-    const v0, 0x7f0b06f5
+    sget v0, Lcom/resouce/module/ResID;->dlg_promote_banner_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1451,7 +1451,7 @@
 
     iput-object v0, p0, Llf8;->T:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1f06
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_left_indicator:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1460,7 +1460,7 @@
 
     iput-object v0, p0, Llf8;->V:Landroid/view/View;
 
-    const v0, 0x7f0b1f07
+    sget v0, Lcom/resouce/module/ResID;->pdf_promote_right_indicator:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1469,7 +1469,7 @@
 
     iput-object v0, p0, Llf8;->W:Landroid/view/View;
 
-    const v0, 0x7f0b06f6
+    sget v0, Lcom/resouce/module/ResID;->dlg_promote_banner_vg:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1480,7 +1480,7 @@
 
     iput-object v0, p0, Llf8;->U:Lcn/wps/moffice/main/common/promote/view/GestureViewPager;
 
-    const v0, 0x7f0b06f7
+    sget v0, Lcom/resouce/module/ResID;->dlg_promote_btn:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1491,21 +1491,21 @@
 
     iput-object v0, p0, Llf8;->Y:Landroid/widget/Button;
 
-    const v0, 0x7f0b3398
+    sget v0, Lcom/resouce/module/ResID;->view_devide_top:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b3396
+    sget v1, Lcom/resouce/module/ResID;->view_devide:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2f65
+    sget v2, Lcom/resouce/module/ResID;->textview_download:I
 
     .line 9
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1516,7 +1516,7 @@
 
     iput-object v2, p0, Llf8;->Z:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2f66
+    sget v2, Lcom/resouce/module/ResID;->textview_freetrial:I
 
     .line 10
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1527,7 +1527,7 @@
 
     iput-object v2, p0, Llf8;->a0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2f6c
+    sget v2, Lcom/resouce/module/ResID;->textview_open_link:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1538,7 +1538,7 @@
 
     iput-object v2, p0, Llf8;->b0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b06f8
+    sget v2, Lcom/resouce/module/ResID;->dlg_promote_open_main_page:I
 
     .line 12
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1549,7 +1549,7 @@
 
     iput-object v2, p0, Llf8;->c0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b29c4
+    sget v2, Lcom/resouce/module/ResID;->rv_content:I
 
     .line 13
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1560,7 +1560,7 @@
 
     iput-object v2, p0, Llf8;->d0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v2, 0x7f0b31cf
+    sget v2, Lcom/resouce/module/ResID;->tv_list_title:I
 
     .line 14
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1571,7 +1571,7 @@
 
     iput-object v2, p0, Llf8;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b3214
+    sget v2, Lcom/resouce/module/ResID;->tv_pdf_eidt:I
 
     .line 15
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1634,7 +1634,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120dc4
+    sget v6, Lcom/resouce/module/ResSTRING;->get_pdf_editor_describe:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1645,7 +1645,7 @@
     .line 22
     iget-object v2, p0, Llf8;->Y:Landroid/widget/Button;
 
-    const v5, 0x7f120dc3
+    sget v5, Lcom/resouce/module/ResSTRING;->get_pdf_editor:I
 
     invoke-virtual {v2, v5}, Landroid/widget/Button;->setText(I)V
 
@@ -1688,7 +1688,7 @@
     .line 30
     iget-object v2, p0, Llf8;->Y:Landroid/widget/Button;
 
-    const v5, 0x7f120dc2
+    sget v5, Lcom/resouce/module/ResSTRING;->get_pdf_converter_pro:I
 
     invoke-virtual {v2, v5}, Landroid/widget/Button;->setText(I)V
 
@@ -1706,7 +1706,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v2, 0x7f0b06f9
+    sget v2, Lcom/resouce/module/ResID;->dlg_promote_open_main_page_or_label:I
 
     .line 33
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1719,9 +1719,9 @@
     :cond_2
     iget-boolean p1, p0, Llf8;->j0:Z
 
-    const v2, 0x7f1225a5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_link:I
 
-    const v5, 0x7f122027
+    sget v5, Lcom/resouce/module/ResSTRING;->public_download_pc_or_mac:I
 
     if-eqz p1, :cond_3
 
@@ -1740,7 +1740,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606d1
+    sget v1, Lcom/resouce/module/ResCOLOR;->value_pdf_2_doc_download:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1769,7 +1769,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606d2
+    sget v1, Lcom/resouce/module/ResCOLOR;->value_pdf_2_doc_free_trial:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1787,7 +1787,7 @@
     .line 42
     iget-object p1, p0, Llf8;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f12201f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_download_desc:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2537,7 +2537,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121363
+    sget v0, Lcom/resouce/module/ResSTRING;->login_guide_new_feature1_tip:I
 
     .line 2
     iget-object v1, p0, Llf8;->I:Landroid/app/Activity;
@@ -2824,7 +2824,7 @@
 
     const/4 v8, 0x0
 
-    const v9, 0x7f0b06f7
+    sget v9, Lcom/resouce/module/ResID;->dlg_promote_btn:I
 
     if-ne p1, v9, :cond_11
 
@@ -3166,7 +3166,7 @@
     goto :goto_4
 
     :cond_11
-    const v9, 0x7f0b06f8
+    sget v9, Lcom/resouce/module/ResID;->dlg_promote_open_main_page:I
 
     if-ne p1, v9, :cond_19
 

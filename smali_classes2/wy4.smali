@@ -91,7 +91,7 @@
 
     const/4 v0, -0x1
 
-    const v1, 0x7f12056c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     if-eq p1, v0, :cond_1
 
@@ -150,7 +150,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f1230d0
+    sget p1, Lcom/resouce/module/ResSTRING;->toast_download_no_network:I
 
     .line 5
     invoke-virtual {p0, p1}, Lwy4;->r(I)V

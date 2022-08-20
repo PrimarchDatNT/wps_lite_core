@@ -123,7 +123,7 @@
     .line 1
     iget-object p2, p0, Lagc;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e00b9
+    sget p3, Lcom/resouce/module/ResLAYOUT;->convert_preview_item_layout:I
 
     const/4 v0, 0x0
 
@@ -136,7 +136,7 @@
 
     invoke-direct {p3}, Lagc$a;-><init>()V
 
-    const v0, 0x7f0b0570
+    sget v0, Lcom/resouce/module/ResID;->convert_previewImg:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p3, Lagc$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0574
+    sget v0, Lcom/resouce/module/ResID;->convert_preview_tips:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p3, Lagc$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0572
+    sget v0, Lcom/resouce/module/ResID;->convert_preview_line:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object v0, p3, Lagc$a;->c:Landroid/view/View;
 
-    const v0, 0x7f0b0576
+    sget v0, Lcom/resouce/module/ResID;->convert_preview_top_line:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

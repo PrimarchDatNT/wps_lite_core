@@ -566,7 +566,7 @@
     .line 1
     iget-object v0, p0, Lxq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b31bb
+    sget v1, Lcom/resouce/module/ResID;->tv_introduce_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -616,7 +616,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -677,7 +677,7 @@
     .line 1
     iget-object v0, p0, Lxq9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2af2
+    sget v1, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f1226fe
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_scan_choose_file:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1099,7 +1099,7 @@
 
     const/16 v1, 0xc
 
-    const v2, 0x7f12160d
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     if-eq v0, v1, :cond_2
 
@@ -1132,7 +1132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121615
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_published_paper_start_check_info_detail:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1154,7 +1154,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f12166d
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_down_repetition_info:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1165,7 +1165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121603
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_paper_down_info_detail:I
 
     .line 8
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1196,7 +1196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1215fb
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_normal_paper_start_check_info_detail:I
 
     .line 12
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1497,7 +1497,7 @@
 .method public K3()I
     .locals 1
 
-    const v0, 0x7f0e0272
+    sget v0, Lcom/resouce/module/ResLAYOUT;->foreign_home_app_guide_select_new_layout:I
 
     return v0
 .end method
@@ -1693,7 +1693,7 @@
     .line 6
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122552
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1762,7 +1762,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e02d2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_app_guide_recomend_item_layout:I
 
     iget-object v3, p0, Lxq9;->b0:Landroid/widget/LinearLayout;
 
@@ -1772,7 +1772,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1051
+    sget v2, Lcom/resouce/module/ResID;->home_app_recommend_item_image:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1781,7 +1781,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b1052
+    sget v3, Lcom/resouce/module/ResID;->home_app_recommend_item_name:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2124,7 +2124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -2664,7 +2664,7 @@
     .line 7
     iget-object v0, p0, Lxq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b136c
+    sget v1, Lcom/resouce/module/ResID;->introduce_translate_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2721,7 +2721,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f1218f0
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     goto :goto_1
 
@@ -2738,7 +2738,7 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f120f8f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_introduce_membertips:I
 
     .line 18
     invoke-virtual {p0}, Lxq9;->I3()I
@@ -2749,12 +2749,12 @@
 
     if-ne v3, v4, :cond_7
 
-    const v0, 0x7f120edf
+    sget v0, Lcom/resouce/module/ResSTRING;->home_docer_membership_introduce_membertips:I
 
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f1218ef    # 1.9419675E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips:I    # 1.9419675E38f
 
     .line 19
     :cond_7
@@ -2784,7 +2784,7 @@
     .line 22
     iget-object v0, p0, Lxq9;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f120f92
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_limitfree:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2907,7 +2907,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e02d5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_app_guide_select_new_layout:I
 
     const/4 v3, 0x0
 
@@ -2921,7 +2921,7 @@
     :goto_0
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1852
+    sget v2, Lcom/resouce/module/ResID;->member_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2934,7 +2934,7 @@
     .line 6
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b3072
+    sget v2, Lcom/resouce/module/ResID;->top_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2945,7 +2945,7 @@
     .line 7
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1860
+    sget v2, Lcom/resouce/module/ResID;->membership_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2967,7 +2967,7 @@
     .line 9
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b1f64
+    sget v3, Lcom/resouce/module/ResID;->pdftoolkit_introduc_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2985,7 +2985,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070658
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_guide_select_introduce_title_text_size:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3003,7 +3003,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070512
+    sget v4, Lcom/resouce/module/ResDIMEN;->pad_guide_select_introduce_title_text_size:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3018,7 +3018,7 @@
     .line 12
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b135c
+    sget v3, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3036,7 +3036,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f07065b
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_guide_select_sub_title_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3054,7 +3054,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070515
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_guide_select_sub_title_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3077,7 +3077,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070659
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_guide_select_member_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3095,7 +3095,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070513
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_guide_select_member_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3125,7 +3125,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f07065a
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_guide_select_membership_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3143,7 +3143,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070514
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_guide_select_membership_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3156,7 +3156,7 @@
     .line 22
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v5, 0x7f0b31bb
+    sget v5, Lcom/resouce/module/ResID;->tv_introduce_title:I
 
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3183,7 +3183,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f07065c
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_guide_select_tv_introduce_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3201,7 +3201,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070516
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_guide_select_tv_introduce_text_size:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -3230,7 +3230,7 @@
     .line 27
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v5, 0x7f0b1f65
+    sget v5, Lcom/resouce/module/ResID;->pdftoolkit_introduce_member_icon:I
 
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3243,7 +3243,7 @@
     .line 28
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b2aef
+    sget v6, Lcom/resouce/module/ResID;->select_file_btn:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3257,7 +3257,7 @@
     .line 30
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b1859
+    sget v6, Lcom/resouce/module/ResID;->membership_btn:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3271,7 +3271,7 @@
     .line 32
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b1361
+    sget v6, Lcom/resouce/module/ResID;->introduce_member_layout:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3282,7 +3282,7 @@
     .line 33
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b104d
+    sget v6, Lcom/resouce/module/ResID;->home_app_guide_select_new_layout_checkbox_parent:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3293,7 +3293,7 @@
     .line 34
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b0139
+    sget v6, Lcom/resouce/module/ResID;->app_recommend_linear_layout:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3306,7 +3306,7 @@
     .line 35
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b1050
+    sget v6, Lcom/resouce/module/ResID;->home_app_recommend_container:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3319,7 +3319,7 @@
     .line 36
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b104a
+    sget v6, Lcom/resouce/module/ResID;->home_app_bottom_layout:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3332,7 +3332,7 @@
     .line 37
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b2af2
+    sget v6, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3352,7 +3352,7 @@
     .line 39
     iget-object v7, v0, Lxq9;->X:Landroid/widget/ImageView;
 
-    const v8, 0x7f0817aa
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_96:I
 
     invoke-virtual {v7, v8}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3369,28 +3369,28 @@
     .line 41
     iget-object v7, v0, Lxq9;->V:Landroid/widget/TextView;
 
-    const v9, 0x7f1218ef    # 1.9419675E38f
+    sget v9, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips:I    # 1.9419675E38f
 
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setText(I)V
 
     .line 42
     iget-object v7, v0, Lxq9;->W:Landroid/widget/TextView;
 
-    const v9, 0x7f121c8e
+    sget v9, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setText(I)V
 
     .line 43
     iget-object v7, v0, Lxq9;->X:Landroid/widget/ImageView;
 
-    const v9, 0x7f081abd
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_pdftoolkit_introduc_premium_icon:I
 
     invoke-virtual {v7, v9}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 44
     iget-object v7, v0, Lxq9;->W:Landroid/widget/TextView;
 
-    const v9, 0x7f08132e
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->phone_public_red_rounded_rectangle_3dp_shape:I
 
     invoke-virtual {v7, v9}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -3453,15 +3453,15 @@
     :cond_b
     iget v9, v0, Lxq9;->a0:I
 
-    const v10, 0x7f0b0eb9
+    sget v10, Lcom/resouce/module/ResID;->func_img:I
 
-    const v13, 0x7f1228df
+    sget v13, Lcom/resouce/module/ResSTRING;->public_select_picture:I
 
     const/4 v15, 0x1
 
     const-string v7, ""
 
-    const v16, 0x7f06019d
+    sget v16, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     if-nez v9, :cond_d
 
@@ -3473,7 +3473,7 @@
     .line 53
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12015d
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2pdf_1:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3482,7 +3482,7 @@
     .line 54
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f12015e
+    sget v11, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2pdf_2:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3497,12 +3497,12 @@
 
     if-eqz v14, :cond_c
 
-    const v14, 0x7f122649
+    sget v14, Lcom/resouce/module/ResSTRING;->public_pic_to_pdf_first_free_func:I
 
     goto :goto_8
 
     :cond_c
-    const v14, 0x7f12015f
+    sget v14, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2pdf_3:I
 
     :goto_8
     new-array v12, v15, [Ljava/lang/Object;
@@ -3528,7 +3528,7 @@
     .line 56
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f1229ea
+    sget v11, Lcom/resouce/module/ResSTRING;->public_shoot_produce_conunt_pdf:I
 
     new-array v12, v15, [Ljava/lang/Object;
 
@@ -3549,13 +3549,13 @@
     .line 57
     iget-object v11, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f120460
+    sget v12, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     invoke-virtual {v11, v12}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v11
 
-    const v12, 0x7f080740
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2pdf:I
 
     .line 58
     invoke-virtual {v2, v13}, Landroid/widget/TextView;->setText(I)V
@@ -3564,9 +3564,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v10, 0x7f080740
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2pdf:I
 
     move-object v7, v6
 
@@ -3593,7 +3593,7 @@
     .line 59
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120162
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2text_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3602,7 +3602,7 @@
     .line 60
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120163
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2text_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3667,12 +3667,12 @@
 
     if-eqz v15, :cond_f
 
-    const v9, 0x7f1203f2
+    sget v9, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_recognize_tips:I
 
     goto :goto_b
 
     :cond_f
-    const v9, 0x7f120164
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2text_3:I
 
     :goto_b
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3682,13 +3682,13 @@
     .line 66
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f122653
+    sget v11, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v11, 0x7f080742
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
     .line 67
     invoke-virtual {v2, v13}, Landroid/widget/TextView;->setText(I)V
@@ -3699,9 +3699,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v10, 0x7f080742
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
     goto :goto_c
 
@@ -3711,7 +3711,7 @@
     .line 68
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120162
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2text_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3720,7 +3720,7 @@
     .line 69
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122641
+    sget v6, Lcom/resouce/module/ResSTRING;->public_pic2et_guide_desc:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3729,7 +3729,7 @@
     .line 70
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120164
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2text_3:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3738,13 +3738,13 @@
     .line 71
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f12263f
+    sget v11, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v11, 0x7f08073f
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2et:I
 
     .line 72
     invoke-virtual {v2, v13}, Landroid/widget/TextView;->setText(I)V
@@ -3755,9 +3755,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019f
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v10, 0x7f08073f
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2et:I
 
     :goto_c
     move-object v7, v3
@@ -3780,7 +3780,7 @@
     .line 73
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120160
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2ppt_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3789,7 +3789,7 @@
     .line 74
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120161
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2ppt_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3798,7 +3798,7 @@
     .line 75
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f1229eb
+    sget v9, Lcom/resouce/module/ResSTRING;->public_shoot_produce_conunt_ppt:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3816,7 +3816,7 @@
     .line 77
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f122643
+    sget v11, Lcom/resouce/module/ResSTRING;->public_pic2ppt2:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3828,14 +3828,14 @@
     :cond_12
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f120438
+    sget v11, Lcom/resouce/module/ResSTRING;->doc_scan_image_to_ppt:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
     :goto_d
-    const v11, 0x7f080741
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2ppt:I
 
     .line 79
     invoke-virtual {v2, v13}, Landroid/widget/TextView;->setText(I)V
@@ -3846,9 +3846,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v10, 0x7f080741
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2ppt:I
 
     goto :goto_c
 
@@ -3860,7 +3860,7 @@
     .line 80
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120172
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_share_long_pic_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3869,7 +3869,7 @@
     .line 81
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120173
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_share_long_pic_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3878,13 +3878,13 @@
     .line 82
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122bca
+    sget v6, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f08072b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
     move-object v6, v5
 
@@ -3898,12 +3898,12 @@
 
     move-object v14, v12
 
-    const v10, 0x7f08072b
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
     :goto_e
     move-object v7, v2
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
     goto/16 :goto_1f
 
@@ -3915,7 +3915,7 @@
     .line 83
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121910
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_reduce_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3924,7 +3924,7 @@
     .line 84
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f121911
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_reduce_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3933,15 +3933,15 @@
     .line 85
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122266
+    sget v6, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080729
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_reduce:I
 
-    const v11, 0x7f0601a5
+    sget v11, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
     move-object v6, v5
 
@@ -3955,11 +3955,11 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080729
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_reduce:I
 
     move-object v7, v2
 
-    const v2, 0x7f0601a5
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
     goto/16 :goto_1f
 
@@ -3982,7 +3982,7 @@
     .line 86
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f121919
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_print_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3991,7 +3991,7 @@
     .line 87
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f12191a
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_print_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4000,13 +4000,13 @@
     .line 88
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f122aee
+    sget v9, Lcom/resouce/module/ResSTRING;->public_tools_print:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f080776
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->func_guide_scan2print:I
 
     .line 89
     iget-object v11, v0, Lxq9;->B:Landroid/view/View;
@@ -4026,7 +4026,7 @@
 
     invoke-virtual {v11, v12}, Landroid/widget/ImageView;->setBackgroundColor(I)V
 
-    const v11, 0x7f1226fe
+    sget v11, Lcom/resouce/module/ResSTRING;->public_print_scan_choose_file:I
 
     .line 91
     invoke-virtual {v2, v11}, Landroid/widget/TextView;->setText(I)V
@@ -4039,9 +4039,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v10, 0x7f080776
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_scan2print:I
 
     :goto_f
     move-object v7, v3
@@ -4056,14 +4056,14 @@
     :cond_17
     const/16 v5, 0xb
 
-    const v12, 0x7f0b1215
+    sget v12, Lcom/resouce/module/ResID;->how_to_use_tips:I
 
     if-ne v9, v5, :cond_18
 
     .line 92
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120177
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_tv_projection_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4072,7 +4072,7 @@
     .line 93
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120178
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_tv_projection_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4081,13 +4081,13 @@
     .line 94
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f122270
+    sget v9, Lcom/resouce/module/ResSTRING;->public_home_app_title_tv_projection:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f12276d
+    sget v9, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     .line 95
     invoke-virtual {v2, v9}, Landroid/widget/TextView;->setText(I)V
@@ -4105,7 +4105,7 @@
     .line 98
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f08074a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_tv_projection:I
 
     move-object v9, v7
 
@@ -4115,9 +4115,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f0601a4
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v10, 0x7f08074a
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_tv_projection:I
 
     goto :goto_f
 
@@ -4126,20 +4126,20 @@
 
     const-string v11, "from_paper_tools_notify"
 
-    const v14, 0x7f0b024d
+    sget v14, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
-    const v6, 0x7f0b027c
+    sget v6, Lcom/resouce/module/ResID;->bottom_text_left:I
 
-    const v13, 0x7f0b1943
+    sget v13, Lcom/resouce/module/ResID;->multi_btn_layout:I
 
-    const v10, 0x7f0b024e
+    sget v10, Lcom/resouce/module/ResID;->bottom_btn_right:I
 
     if-ne v9, v5, :cond_1b
 
     .line 99
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120151
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_1:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4148,7 +4148,7 @@
     .line 100
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120152
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_2:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4157,7 +4157,7 @@
     .line 101
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v15, 0x7f120153
+    sget v15, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_3:I
 
     invoke-virtual {v9, v15}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4166,7 +4166,7 @@
     .line 102
     iget-object v15, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121638
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     invoke-virtual {v15, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4204,7 +4204,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f12164d
+    sget v13, Lcom/resouce/module/ResSTRING;->paper_check_verify_history:I
 
     .line 107
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -4221,7 +4221,7 @@
     .line 109
     invoke-virtual {v6, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v12, 0x7f12160d
+    sget v12, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     .line 110
     invoke-virtual {v6, v12}, Landroid/widget/TextView;->setText(I)V
@@ -4250,7 +4250,7 @@
     .line 114
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b135c
+    sget v10, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4261,7 +4261,7 @@
     .line 115
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b1365
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_tips:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4302,7 +4302,7 @@
     .line 119
     invoke-virtual {v6, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v10, 0x7f0b1362
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_btn:I
 
     .line 120
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4321,7 +4321,7 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v10, 0x7f0b1364
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_text:I
 
     .line 123
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4337,7 +4337,7 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v10, 0x7f0b1363
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_icon:I
 
     .line 125
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4378,7 +4378,7 @@
 
     move-object v5, v9
 
-    const v10, 0x7f08072d
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_paper_check:I
 
     move-object v9, v14
 
@@ -4386,7 +4386,7 @@
     move-object v7, v2
 
     :goto_12
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     goto/16 :goto_1f
 
@@ -4398,7 +4398,7 @@
     .line 127
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120154
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_job_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4407,7 +4407,7 @@
     .line 128
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120155
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_job_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4416,7 +4416,7 @@
     .line 129
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120156
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_job_3:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4425,7 +4425,7 @@
     .line 130
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v15, 0x7f121639
+    sget v15, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check_job:I
 
     invoke-virtual {v9, v15}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4463,7 +4463,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f12164d
+    sget v13, Lcom/resouce/module/ResSTRING;->paper_check_verify_history:I
 
     .line 135
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -4480,7 +4480,7 @@
     .line 137
     invoke-virtual {v6, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v12, 0x7f12160d
+    sget v12, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     .line 138
     invoke-virtual {v6, v12}, Landroid/widget/TextView;->setText(I)V
@@ -4491,7 +4491,7 @@
     .line 140
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v12, 0x7f0b135c
+    sget v12, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v6, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4505,7 +4505,7 @@
     .line 142
     iget-object v12, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v13, 0x7f120157
+    sget v13, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_check_job_sub_title:I
 
     invoke-virtual {v12, v13}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4534,7 +4534,7 @@
     .line 145
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b135c
+    sget v10, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4545,7 +4545,7 @@
     .line 146
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b1365
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_tips:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4588,7 +4588,7 @@
     .line 150
     invoke-virtual {v6, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v10, 0x7f0b1362
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_btn:I
 
     .line 151
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4607,7 +4607,7 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v10, 0x7f0b1364
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_text:I
 
     .line 154
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4623,7 +4623,7 @@
 
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v10, 0x7f0b1363
+    sget v10, Lcom/resouce/module/ResID;->introduce_paper_check_icon:I
 
     .line 156
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4660,7 +4660,7 @@
 
     move-object v6, v9
 
-    const v10, 0x7f08072d
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_paper_check:I
 
     move-object v7, v2
 
@@ -4676,7 +4676,7 @@
     .line 158
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120159
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_down_repetition_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4685,7 +4685,7 @@
     .line 159
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12015a
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_down_repetition_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4694,7 +4694,7 @@
     .line 160
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12015b
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_down_repetition_3:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4703,7 +4703,7 @@
     .line 161
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v15, 0x7f12015c
+    sget v15, Lcom/resouce/module/ResSTRING;->apps_introduce_paper_down_repetition_4:I
 
     invoke-virtual {v9, v15}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4712,7 +4712,7 @@
     .line 162
     iget-object v15, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v14, 0x7f121661
+    sget v14, Lcom/resouce/module/ResSTRING;->paper_down_repetition:I
 
     invoke-virtual {v15, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4750,7 +4750,7 @@
 
     check-cast v12, Landroid/widget/TextView;
 
-    const v13, 0x7f12166d
+    sget v13, Lcom/resouce/module/ResSTRING;->paper_down_repetition_info:I
 
     .line 167
     invoke-virtual {v12, v13}, Landroid/widget/TextView;->setText(I)V
@@ -4770,7 +4770,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v12, 0x7f121675
+    sget v12, Lcom/resouce/module/ResSTRING;->paper_down_repetition_report:I
 
     .line 171
     invoke-virtual {v6, v12}, Landroid/widget/TextView;->setText(I)V
@@ -4787,7 +4787,7 @@
     .line 173
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b024d
+    sget v10, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4824,7 +4824,7 @@
 
     move-object v6, v14
 
-    const v10, 0x7f08072f
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_paper_down:I
 
     :goto_13
     move-object v7, v2
@@ -4845,12 +4845,12 @@
 
     if-eqz v2, :cond_21
 
-    const v2, 0x7f080780
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_translate:I
 
     .line 177
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120cc9
+    sget v5, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4859,7 +4859,7 @@
     .line 178
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120cca
+    sget v9, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_2:I
 
     const/4 v11, 0x2
 
@@ -4892,7 +4892,7 @@
     .line 179
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f120ccb
+    sget v11, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_3:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4901,7 +4901,7 @@
     .line 180
     iget-object v11, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f120ccc
+    sget v12, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_4:I
 
     invoke-virtual {v11, v12}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4912,12 +4912,12 @@
     goto :goto_14
 
     :cond_21
-    const v2, 0x7f080749
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_translate:I
 
     .line 181
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120cb6
+    sget v5, Lcom/resouce/module/ResSTRING;->fanyigo_introduction_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4926,7 +4926,7 @@
     .line 182
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120cb7
+    sget v9, Lcom/resouce/module/ResSTRING;->fanyigo_introduction_2:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4935,7 +4935,7 @@
     .line 183
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f120cb8
+    sget v11, Lcom/resouce/module/ResSTRING;->fanyigo_introduction_3:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4947,7 +4947,7 @@
     :goto_14
     iget-object v12, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v14, 0x7f120cd4
+    sget v14, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-virtual {v12, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4985,7 +4985,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f120cab
+    sget v13, Lcom/resouce/module/ResSTRING;->fanyigo_history:I
 
     .line 189
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -5002,7 +5002,7 @@
     .line 191
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b024d
+    sget v10, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5013,7 +5013,7 @@
     .line 192
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b136c
+    sget v10, Lcom/resouce/module/ResID;->introduce_translate_tips:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5026,7 +5026,7 @@
     .line 193
     invoke-virtual {v6, v10}, Landroid/view/View;->setVisibility(I)V
 
-    const v10, 0x7f0b136d
+    sget v10, Lcom/resouce/module/ResID;->introduce_translate_upgrade_btn:I
 
     .line 194
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5039,7 +5039,7 @@
 
     invoke-virtual {v10, v13}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v10, 0x7f0b136a
+    sget v10, Lcom/resouce/module/ResID;->introduce_translate_pay_btn:I
 
     .line 195
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5083,7 +5083,7 @@
     .line 196
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120167
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_play_record_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5092,7 +5092,7 @@
     .line 197
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120168
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_play_record_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5101,13 +5101,13 @@
     .line 198
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f121bb3
+    sget v6, Lcom/resouce/module/ResSTRING;->ppt_play_record:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080745
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_play_record:I
 
     move-object v6, v5
 
@@ -5121,7 +5121,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080745
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_play_record:I
 
     goto/16 :goto_e
 
@@ -5133,7 +5133,7 @@
     .line 199
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120179
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_word_extract_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5142,7 +5142,7 @@
     .line 200
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12017a
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_word_extract_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5151,13 +5151,13 @@
     .line 201
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122c10
+    sget v6, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080739
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_extract:I
 
     move-object v6, v5
 
@@ -5171,12 +5171,12 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080739
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_extract:I
 
     :goto_15
     move-object v7, v2
 
-    const v2, 0x7f0601a4
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
     goto/16 :goto_1f
 
@@ -5188,7 +5188,7 @@
     .line 202
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f12017b
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_word_merge_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5197,7 +5197,7 @@
     .line 203
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12017c
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_word_merge_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5206,13 +5206,13 @@
     .line 204
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122c12
+    sget v6, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f08072c
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
     move-object v6, v5
 
@@ -5226,7 +5226,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f08072c
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
     goto :goto_15
 
@@ -5238,7 +5238,7 @@
     .line 205
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120143
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5247,7 +5247,7 @@
     .line 206
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120144
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5256,7 +5256,7 @@
     .line 207
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120145
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_3:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5265,7 +5265,7 @@
     .line 208
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120146
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_4:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5274,13 +5274,13 @@
     .line 209
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f120147
+    sget v10, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v10, 0x7f08074b
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_word_doc_fix:I
 
     move-object v11, v7
 
@@ -5290,7 +5290,7 @@
 
     move-object v7, v2
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     move-object/from16 v17, v9
 
@@ -5308,7 +5308,7 @@
     .line 210
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f122724
+    sget v5, Lcom/resouce/module/ResSTRING;->public_print_wps_doc:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5317,7 +5317,7 @@
     .line 211
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f1226d8
+    sget v6, Lcom/resouce/module/ResSTRING;->public_print_introduction_one:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5326,18 +5326,18 @@
     .line 212
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f1226d9
+    sget v9, Lcom/resouce/module/ResSTRING;->public_print_introduction_two:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f080746
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_scan2print:I
 
     .line 213
     iget-object v10, v0, Lxq9;->B:Landroid/view/View;
 
-    const v11, 0x7f0b0eb9
+    sget v11, Lcom/resouce/module/ResID;->func_img:I
 
     invoke-virtual {v10, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5350,7 +5350,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f0605f1
+    sget v12, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -5363,7 +5363,7 @@
 
     invoke-virtual {v10, v8}, Landroid/view/View;->setVisibility(I)V
 
-    const v10, 0x7f12276d
+    sget v10, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     .line 216
     invoke-virtual {v2, v10}, Landroid/widget/TextView;->setText(I)V
@@ -5374,7 +5374,7 @@
     .line 218
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f1226d6
+    sget v10, Lcom/resouce/module/ResSTRING;->public_print_how_to_use:I
 
     invoke-virtual {v2, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5394,9 +5394,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v10, 0x7f080746
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_scan2print:I
 
     move-object v7, v5
 
@@ -5419,7 +5419,7 @@
     .line 219
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120198
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5428,7 +5428,7 @@
     .line 220
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120169
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5437,7 +5437,7 @@
     .line 221
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12016a
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5446,7 +5446,7 @@
     .line 222
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12016b
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_3:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5455,7 +5455,7 @@
     .line 223
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f12016c
+    sget v11, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_4:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5464,7 +5464,7 @@
     .line 224
     iget-object v11, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f12016d
+    sget v12, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_5:I
 
     invoke-virtual {v11, v12}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5473,7 +5473,7 @@
     .line 225
     iget-object v12, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v14, 0x7f12016e
+    sget v14, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_6:I
 
     invoke-virtual {v12, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5482,7 +5482,7 @@
     .line 226
     iget-object v14, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v15, 0x7f12016f
+    sget v15, Lcom/resouce/module/ResSTRING;->apps_introduce_resume_helper_7:I
 
     invoke-virtual {v14, v15}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5511,7 +5511,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f12019a
+    sget v13, Lcom/resouce/module/ResSTRING;->apps_resume_helper_list:I
 
     .line 230
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -5519,7 +5519,7 @@
     .line 231
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b027d
+    sget v13, Lcom/resouce/module/ResID;->bottom_text_right:I
 
     invoke-virtual {v6, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5527,7 +5527,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f120199
+    sget v13, Lcom/resouce/module/ResSTRING;->apps_resume_helper_create:I
 
     .line 232
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -5544,7 +5544,7 @@
     .line 234
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b024d
+    sget v10, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5554,7 +5554,7 @@
 
     move-object v6, v7
 
-    const v10, 0x7f080774
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_resume_assistant:I
 
     goto/16 :goto_1e
 
@@ -5566,7 +5566,7 @@
     .line 235
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121904
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5575,7 +5575,7 @@
     .line 236
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f121905
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5584,13 +5584,13 @@
     .line 237
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f1217dd
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080738
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_export_pages:I
 
     move-object v6, v5
 
@@ -5604,7 +5604,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080738
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_export_pages:I
 
     goto/16 :goto_11
 
@@ -5616,7 +5616,7 @@
     .line 238
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1220a3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_document_info_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5625,7 +5625,7 @@
     .line 239
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1220a4
+    sget v5, Lcom/resouce/module/ResSTRING;->public_export_pic_document_info_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5634,7 +5634,7 @@
     .line 240
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f1220a5
+    sget v6, Lcom/resouce/module/ResSTRING;->public_export_pic_document_info_3:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5643,13 +5643,13 @@
     .line 241
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f1220ac
+    sget v9, Lcom/resouce/module/ResSTRING;->public_export_pic_file_v1:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f080744
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic_document_export:I
 
     move-object v9, v7
 
@@ -5659,7 +5659,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080744
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic_document_export:I
 
     goto/16 :goto_15
 
@@ -5671,7 +5671,7 @@
     .line 242
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12013d
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_formtool:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5680,7 +5680,7 @@
     .line 243
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f12014e
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_formtool_1:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5689,7 +5689,7 @@
     .line 244
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12014f
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_formtool_2:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5698,20 +5698,20 @@
     .line 245
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f120150
+    sget v10, Lcom/resouce/module/ResSTRING;->apps_introduce_formtool_3:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v10, 0x7f08007e
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->apps_guide_formtool:I
 
     .line 246
     iget-object v11, v0, Lxq9;->T:Landroid/view/View;
 
     invoke-virtual {v11, v8}, Landroid/view/View;->setVisibility(I)V
 
-    const v11, 0x7f121da2
+    sget v11, Lcom/resouce/module/ResSTRING;->public_begin_use:I
 
     .line 247
     invoke-virtual {v2, v11}, Landroid/widget/TextView;->setText(I)V
@@ -5742,7 +5742,7 @@
     .line 248
     iget-object v3, v0, Lxq9;->V:Landroid/widget/TextView;
 
-    const v5, 0x7f1220fe
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_evidence_free_tips:I
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -5754,7 +5754,7 @@
     .line 250
     iget-object v3, v0, Lxq9;->B:Landroid/view/View;
 
-    const v5, 0x7f0b1f65
+    sget v5, Lcom/resouce/module/ResID;->pdftoolkit_introduce_member_icon:I
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5765,7 +5765,7 @@
     .line 251
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1220ff
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_introduce1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5774,7 +5774,7 @@
     .line 252
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122100
+    sget v6, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_introduce2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5783,7 +5783,7 @@
     .line 253
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f122101
+    sget v9, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_introduce3:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5792,7 +5792,7 @@
     .line 254
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f122102
+    sget v10, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_introduce4:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5801,15 +5801,15 @@
     .line 255
     iget-object v10, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f122106
+    sget v11, Lcom/resouce/module/ResSTRING;->public_file_evidence_name:I
 
     invoke-virtual {v10, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f080728
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_evidence:I
 
-    const v12, 0x7f122104
+    sget v12, Lcom/resouce/module/ResSTRING;->public_file_evidence_guide_start:I
 
     .line 256
     invoke-virtual {v2, v12}, Landroid/widget/TextView;->setText(I)V
@@ -5822,7 +5822,7 @@
     .line 258
     iget-object v2, v0, Lxq9;->j0:Landroid/view/View;
 
-    const v12, 0x7f0b104e
+    sget v12, Lcom/resouce/module/ResID;->home_app_guide_select_new_layout_checkbox_text:I
 
     invoke-virtual {v2, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5838,7 +5838,7 @@
     .line 260
     iget-object v2, v0, Lxq9;->j0:Landroid/view/View;
 
-    const v12, 0x7f0b104c
+    sget v12, Lcom/resouce/module/ResID;->home_app_guide_select_new_layout_checkbox:I
 
     invoke-virtual {v2, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5859,7 +5859,7 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     move-object v7, v3
 
@@ -5869,7 +5869,7 @@
 
     move-object v6, v10
 
-    const v10, 0x7f080728
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_file_evidence:I
 
     goto/16 :goto_1f
 
@@ -5881,7 +5881,7 @@
     .line 262
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1200bf
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_first:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5890,7 +5890,7 @@
     .line 263
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1200c2
+    sget v5, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_second:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5899,7 +5899,7 @@
     .line 264
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f1200c3
+    sget v9, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_third:I
 
     invoke-virtual {v5, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5908,7 +5908,7 @@
     .line 265
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f1200c1
+    sget v11, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_four:I
 
     invoke-virtual {v9, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5917,20 +5917,20 @@
     .line 266
     iget-object v11, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f1200c0
+    sget v12, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_five:I
 
     invoke-virtual {v11, v12}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v11
 
-    const v12, 0x7f08072e
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_paper_composition:I
 
     .line 267
     invoke-virtual/range {p0 .. p0}, Lbm8;->getActivity()Landroid/app/Activity;
 
     move-result-object v14
 
-    const v15, 0x7f1200e0
+    sget v15, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-virtual {v14, v15}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5968,7 +5968,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f1200d0
+    sget v13, Lcom/resouce/module/ResSTRING;->app_paper_composition_history:I
 
     .line 272
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -5976,7 +5976,7 @@
     .line 273
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b027d
+    sget v13, Lcom/resouce/module/ResID;->bottom_text_right:I
 
     invoke-virtual {v6, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5984,7 +5984,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v13, 0x7f1200b5
+    sget v13, Lcom/resouce/module/ResSTRING;->app_paper_composition_begin:I
 
     .line 274
     invoke-virtual {v6, v13}, Landroid/widget/TextView;->setText(I)V
@@ -6001,7 +6001,7 @@
     .line 276
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b024d
+    sget v10, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6012,7 +6012,7 @@
     .line 277
     iget-object v6, v0, Lxq9;->B:Landroid/view/View;
 
-    const v10, 0x7f0b1f65
+    sget v10, Lcom/resouce/module/ResID;->pdftoolkit_introduce_member_icon:I
 
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6020,7 +6020,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v10, 0x7f081aa7
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->public_paper_composition_introduc_premium_icon:I
 
     invoke-virtual {v6, v10}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -6031,7 +6031,7 @@
 
     move-result-object v6
 
-    const v10, 0x7f06025d
+    sget v10, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v6, v10}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -6067,7 +6067,7 @@
 
     move-object v6, v14
 
-    const v10, 0x7f08072e
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_paper_composition:I
 
     goto/16 :goto_13
 
@@ -6079,7 +6079,7 @@
     .line 282
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120139
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_cooperative_doc:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6088,7 +6088,7 @@
     .line 283
     iget-object v5, v0, Lxq9;->B:Landroid/view/View;
 
-    const v6, 0x7f0b135c
+    sget v6, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6102,7 +6102,7 @@
     .line 285
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12013a
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_cooperative_sub:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6113,7 +6113,7 @@
     .line 286
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f12013f
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_cooperative_doc_1:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6122,7 +6122,7 @@
     .line 287
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120140
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_cooperative_doc_2:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6131,20 +6131,20 @@
     .line 288
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f120141
+    sget v10, Lcom/resouce/module/ResSTRING;->apps_introduce_cooperative_doc_3:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v10, 0x7f08007d
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->apps_guide_cooperation:I
 
     .line 289
     iget-object v11, v0, Lxq9;->T:Landroid/view/View;
 
     invoke-virtual {v11, v8}, Landroid/view/View;->setVisibility(I)V
 
-    const v11, 0x7f12251a
+    sget v11, Lcom/resouce/module/ResSTRING;->public_newfile_cooperative_document_label:I
 
     .line 290
     invoke-virtual {v2, v11}, Landroid/widget/TextView;->setText(I)V
@@ -6159,7 +6159,7 @@
     .line 292
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v11, 0x7f0b2f30
+    sget v11, Lcom/resouce/module/ResID;->text_right:I
 
     invoke-virtual {v2, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6187,7 +6187,7 @@
     .line 295
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120165
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2translation_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6196,7 +6196,7 @@
     .line 296
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120166
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_pic2translation_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6205,15 +6205,15 @@
     .line 297
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f122654
+    sget v9, Lcom/resouce/module/ResSTRING;->public_picture_to_translation:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f080743
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2translation:I
 
-    const v10, 0x7f1228df
+    sget v10, Lcom/resouce/module/ResSTRING;->public_select_picture:I
 
     .line 298
     invoke-virtual {v2, v10}, Landroid/widget/TextView;->setText(I)V
@@ -6226,9 +6226,9 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v10, 0x7f080743
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2translation:I
 
     goto/16 :goto_f
 
@@ -6288,7 +6288,7 @@
     .line 303
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f121d42
+    sget v9, Lcom/resouce/module/ResSTRING;->public_app_splicing_produce:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6297,7 +6297,7 @@
     .line 304
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f1204b6
+    sget v10, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_cameratipstext_content:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6306,7 +6306,7 @@
     .line 305
     iget-object v10, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f1204ba
+    sget v11, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_produce_conunt:I
 
     new-array v12, v15, [Ljava/lang/Object;
 
@@ -6323,7 +6323,7 @@
     .line 306
     iget-object v10, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f1229ec
+    sget v11, Lcom/resouce/module/ResSTRING;->public_shoot_produce_conunt_splicing:I
 
     new-array v12, v15, [Ljava/lang/Object;
 
@@ -6340,15 +6340,15 @@
     .line 307
     iget-object v10, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v11, 0x7f122651
+    sget v11, Lcom/resouce/module/ResSTRING;->public_picture_splicing:I
 
     invoke-virtual {v10, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f080747
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_splice:I
 
-    const v12, 0x7f1228df
+    sget v12, Lcom/resouce/module/ResSTRING;->public_select_picture:I
 
     .line 308
     invoke-virtual {v2, v12}, Landroid/widget/TextView;->setText(I)V
@@ -6359,13 +6359,13 @@
 
     move-object v14, v12
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
     move-object v7, v6
 
     move-object v6, v10
 
-    const v10, 0x7f080747
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_splice:I
 
     goto/16 :goto_9
 
@@ -6377,7 +6377,7 @@
     .line 309
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b135c
+    sget v3, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6391,7 +6391,7 @@
     .line 311
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1220c2
+    sget v5, Lcom/resouce/module/ResSTRING;->public_extract_pics_des_title:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6402,7 +6402,7 @@
     .line 312
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1220c1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_extract_pics_des_content_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6411,13 +6411,13 @@
     .line 313
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1220bf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_extract_pics:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f080727
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_extract_pics:I
 
     move-object v6, v3
 
@@ -6433,7 +6433,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080727
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_extract_pics:I
 
     goto/16 :goto_11
 
@@ -6445,7 +6445,7 @@
     .line 314
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1208ad
+    sget v3, Lcom/resouce/module/ResSTRING;->et_formula2num_descript_text:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6454,13 +6454,13 @@
     .line 315
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1208b5
+    sget v5, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f08072a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_formular2num:I
 
     move-object v6, v3
 
@@ -6476,13 +6476,13 @@
 
     move-object v14, v12
 
-    const v10, 0x7f08072a
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_formular2num:I
 
     :goto_18
     move-object v7, v2
 
     :goto_19
-    const v2, 0x7f06019f
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
     goto/16 :goto_1f
 
@@ -6494,7 +6494,7 @@
     .line 316
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120c43
+    sget v3, Lcom/resouce/module/ResSTRING;->et_split_table_descript_text1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6503,7 +6503,7 @@
     .line 317
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120c44
+    sget v5, Lcom/resouce/module/ResSTRING;->et_split_table_descript_text2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6512,7 +6512,7 @@
     .line 318
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120c45
+    sget v6, Lcom/resouce/module/ResSTRING;->et_split_table_descript_text3:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6521,13 +6521,13 @@
     .line 319
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120c3e
+    sget v9, Lcom/resouce/module/ResSTRING;->et_split_table:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f080748
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_split_table:I
 
     move-object v9, v7
 
@@ -6537,7 +6537,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080748
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_split_table:I
 
     goto :goto_18
 
@@ -6549,7 +6549,7 @@
     .line 320
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b135c
+    sget v3, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6563,7 +6563,7 @@
     .line 322
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12014a
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_et_sheet_merge_sub_title:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6574,7 +6574,7 @@
     .line 323
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120148
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_et_sheet_merge_1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6583,7 +6583,7 @@
     .line 324
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f120149
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_et_sheet_merge_2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6592,13 +6592,13 @@
     .line 325
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f1219b9
+    sget v6, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080724
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_et_mergesheet:I
 
     move-object v6, v5
 
@@ -6612,7 +6612,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080724
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_et_mergesheet:I
 
     goto :goto_18
 
@@ -6624,7 +6624,7 @@
     .line 326
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12143f
+    sget v5, Lcom/resouce/module/ResSTRING;->multi_port_upload_introduce_text1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6633,7 +6633,7 @@
     .line 327
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f121440
+    sget v6, Lcom/resouce/module/ResSTRING;->multi_port_upload_introduce_text2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6642,7 +6642,7 @@
     .line 328
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f121441
+    sget v9, Lcom/resouce/module/ResSTRING;->multi_port_upload_introduce_text3:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6651,15 +6651,15 @@
     .line 329
     iget-object v9, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v10, 0x7f12143d
+    sget v10, Lcom/resouce/module/ResSTRING;->multi_port_upload_image_fun_text:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v10, 0x7f080756
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_pc_transfer:I
 
-    const v11, 0x7f12143e
+    sget v11, Lcom/resouce/module/ResSTRING;->multi_port_upload_introduce_bottom_btn_text:I
 
     .line 330
     invoke-virtual {v2, v11}, Landroid/widget/TextView;->setText(I)V
@@ -6670,7 +6670,7 @@
 
     move-object v14, v12
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     goto/16 :goto_c
 
@@ -6682,7 +6682,7 @@
     .line 331
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122c11
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6691,7 +6691,7 @@
     .line 332
     iget-object v3, v0, Lxq9;->B:Landroid/view/View;
 
-    const v5, 0x7f0b135c
+    sget v5, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6705,7 +6705,7 @@
     .line 334
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f1231da
+    sget v6, Lcom/resouce/module/ResSTRING;->word_fill_table_sub:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6716,7 +6716,7 @@
     .line 335
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12014b
+    sget v5, Lcom/resouce/module/ResSTRING;->apps_introduce_fill_table_1:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6725,7 +6725,7 @@
     .line 336
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f12014c
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_fill_table_2:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6734,13 +6734,13 @@
     .line 337
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f12014d
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_fill_table_3:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v9, 0x7f0815b8
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_smart_form_filling_pic:I
 
     move-object v9, v7
 
@@ -6750,7 +6750,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f0815b8
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_smart_form_filling_pic:I
 
     move-object v7, v3
 
@@ -6770,7 +6770,7 @@
     .line 338
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b135c
+    sget v3, Lcom/resouce/module/ResID;->introduc_sub_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6784,7 +6784,7 @@
     .line 340
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12085c
+    sget v5, Lcom/resouce/module/ResSTRING;->et_export_card_pics_introduce_subtitle:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6795,7 +6795,7 @@
     .line 341
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f12085d
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_pics_introduce_text1:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6804,7 +6804,7 @@
     .line 342
     iget-object v3, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f12085e
+    sget v5, Lcom/resouce/module/ResSTRING;->et_export_card_pics_introduce_text2:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6813,13 +6813,13 @@
     .line 343
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f12085b
+    sget v6, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f080718
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_export_card_pics:I
 
     move-object v6, v5
 
@@ -6833,7 +6833,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080718
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_export_card_pics:I
 
     goto/16 :goto_18
 
@@ -6845,18 +6845,18 @@
     .line 344
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1217e0
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f080725
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_export_keynote:I
 
     .line 345
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120c99
+    sget v6, Lcom/resouce/module/ResSTRING;->export_keynote_introducetext_1:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6865,7 +6865,7 @@
     .line 346
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120c9a
+    sget v9, Lcom/resouce/module/ResSTRING;->export_keynote_introducetext_2:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6881,11 +6881,11 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080725
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_export_keynote:I
 
     move-object v6, v2
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
     :goto_1a
     move-object v7, v5
@@ -6900,18 +6900,18 @@
     .line 347
     iget-object v2, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122e81
+    sget v3, Lcom/resouce/module/ResSTRING;->scan_extract_text:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f080777
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_scan_extract_text:I
 
     .line 348
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f120170
+    sget v6, Lcom/resouce/module/ResSTRING;->apps_introduce_scan_extract_text_1:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6920,7 +6920,7 @@
     .line 349
     iget-object v6, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v9, 0x7f120171
+    sget v9, Lcom/resouce/module/ResSTRING;->apps_introduce_scan_extract_text_2:I
 
     invoke-virtual {v6, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6931,7 +6931,7 @@
 
     if-eqz v9, :cond_3c
 
-    const v10, 0x7f0b2af2
+    sget v10, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v9, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6950,7 +6950,7 @@
 
     check-cast v9, Landroid/widget/TextView;
 
-    const v10, 0x7f122dec
+    sget v10, Lcom/resouce/module/ResSTRING;->recommend_func_start:I
 
     .line 352
     invoke-virtual {v9, v10}, Landroid/widget/TextView;->setText(I)V
@@ -6966,11 +6966,11 @@
 
     move-object v14, v12
 
-    const v10, 0x7f080777
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_scan_extract_text:I
 
     move-object v6, v2
 
-    const v2, 0x7f0601a4
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
     goto :goto_1a
 
@@ -6991,7 +6991,7 @@
 
     const/4 v2, 0x0
 
-    const v10, 0x7f080757
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2doc:I
 
     goto :goto_1f
 
@@ -7004,12 +7004,12 @@
 
     if-eqz v2, :cond_3f
 
-    const v2, 0x7f12191d
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_send_to_pc_os_1:I
 
     goto :goto_1c
 
     :cond_3f
-    const v2, 0x7f12191b
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_send_to_pc_1:I
 
     .line 354
     :goto_1c
@@ -7019,12 +7019,12 @@
 
     if-eqz v3, :cond_40
 
-    const v3, 0x7f12191e
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_send_to_pc_os_2:I
 
     goto :goto_1d
 
     :cond_40
-    const v3, 0x7f12191c
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_send_to_pc_2:I
 
     .line 355
     :goto_1d
@@ -7044,13 +7044,13 @@
     .line 357
     iget-object v5, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v6, 0x7f122269
+    sget v6, Lcom/resouce/module/ResSTRING;->public_home_app_file_transfer_to_pc:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f08077a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_send_to_pc:I
 
     move-object v6, v5
 
@@ -7064,7 +7064,7 @@
 
     move-object v14, v12
 
-    const v10, 0x7f08077a
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guide_send_to_pc:I
 
     :goto_1e
     move-object v7, v2
@@ -7100,7 +7100,7 @@
     .line 360
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f4d
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_1:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7119,7 +7119,7 @@
     .line 362
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f4f
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_2:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7138,7 +7138,7 @@
     .line 364
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f51
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_3:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7157,7 +7157,7 @@
     .line 366
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f53
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_4:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7176,7 +7176,7 @@
     .line 368
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f55
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_5:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7195,7 +7195,7 @@
     .line 370
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f57
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_6:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7214,7 +7214,7 @@
     .line 372
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f59
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_7:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7264,7 +7264,7 @@
     :cond_49
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v13, 0x7f0b1f4e
+    sget v13, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_1_text:I
 
     invoke-virtual {v2, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7275,9 +7275,9 @@
     .line 379
     invoke-virtual {v2, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v7, 0x7f070657
+    sget v7, Lcom/resouce/module/ResDIMEN;->phone_guide_select_introduce_text_text_size:I
 
-    const v13, 0x7f070511
+    sget v13, Lcom/resouce/module/ResDIMEN;->pad_guide_select_introduce_text_text_size:I
 
     if-eqz v1, :cond_4a
 
@@ -7317,7 +7317,7 @@
     .line 383
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v15, 0x7f0b1f50
+    sget v15, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_2_text:I
 
     invoke-virtual {v2, v15}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7366,7 +7366,7 @@
     .line 388
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b1f52
+    sget v3, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_3_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7415,7 +7415,7 @@
     .line 393
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b1f54
+    sget v3, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_4_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7464,7 +7464,7 @@
     .line 398
     iget-object v2, v0, Lxq9;->B:Landroid/view/View;
 
-    const v3, 0x7f0b1f56
+    sget v3, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_5_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7513,7 +7513,7 @@
     .line 403
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f58
+    sget v2, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_6_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7527,7 +7527,7 @@
     .line 405
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f5a
+    sget v2, Lcom/resouce/module/ResID;->pdf_toolkit_introduce_text_part_7_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7541,7 +7541,7 @@
     .line 407
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b337a
+    sget v2, Lcom/resouce/module/ResID;->video_player:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7563,7 +7563,7 @@
     .line 409
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f64
+    sget v2, Lcom/resouce/module/ResID;->pdftoolkit_introduc_title:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7576,7 +7576,7 @@
     .line 410
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0eb9
+    sget v2, Lcom/resouce/module/ResID;->func_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7604,7 +7604,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -7632,7 +7632,7 @@
     .line 416
     iget-object v1, v0, Lxq9;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1f65
+    sget v2, Lcom/resouce/module/ResID;->pdftoolkit_introduce_member_icon:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -7691,7 +7691,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2aef
+    sget v1, Lcom/resouce/module/ResID;->select_file_btn:I
 
     const-string v2, "public"
 
@@ -7957,7 +7957,7 @@
     goto/16 :goto_7
 
     :cond_9
-    const v1, 0x7f0b1859
+    sget v1, Lcom/resouce/module/ResID;->membership_btn:I
 
     const/16 v5, 0x24
 
@@ -8044,7 +8044,7 @@
     goto/16 :goto_7
 
     :cond_d
-    const v1, 0x7f0b1215
+    sget v1, Lcom/resouce/module/ResID;->how_to_use_tips:I
 
     if-ne v0, v1, :cond_e
 
@@ -8054,7 +8054,7 @@
     goto/16 :goto_7
 
     :cond_e
-    const v1, 0x7f0b024d
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     const-string v6, "filetranslate"
 
@@ -8262,7 +8262,7 @@
     goto/16 :goto_7
 
     :cond_18
-    const v1, 0x7f0b024e
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_right:I
 
     if-ne v0, v1, :cond_1d
 
@@ -8396,7 +8396,7 @@
     goto :goto_7
 
     :cond_1d
-    const p1, 0x7f0b1362
+    sget p1, Lcom/resouce/module/ResID;->introduce_paper_check_btn:I
 
     if-ne v0, p1, :cond_1f
 

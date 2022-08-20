@@ -152,7 +152,7 @@
 
     iput-object v1, p0, Lcom/google/android/material/badge/BadgeDrawable;->I:Lcom/google/android/material/shape/MaterialShapeDrawable;
 
-    const v1, 0x7f070425
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_badge_radius:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -163,7 +163,7 @@
 
     iput v1, p0, Lcom/google/android/material/badge/BadgeDrawable;->U:F
 
-    const v1, 0x7f070424
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_badge_long_text_horizontal_padding:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -174,7 +174,7 @@
 
     iput v1, p0, Lcom/google/android/material/badge/BadgeDrawable;->W:F
 
-    const v1, 0x7f07042a
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_badge_with_text_radius:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -208,7 +208,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/badge/BadgeDrawable;->X:Lcom/google/android/material/badge/BadgeDrawable$SavedState;
 
-    const p1, 0x7f130254
+    sget p1, Lcom/resouce/module/ResSTYLE;->TextAppearance.MaterialComponents.Badge:I
 
     .line 13
     invoke-virtual {p0, p1}, Lcom/google/android/material/badge/BadgeDrawable;->A(I)V
@@ -435,7 +435,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b192b
+    sget v1, Lcom/resouce/module/ResID;->mtrl_anchor_parent:I
 
     if-eqz v0, :cond_0
 
@@ -922,12 +922,12 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f070426
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_badge_text_horizontal_edge_offset:I
 
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f070423
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_badge_horizontal_edge_offset:I
 
     .line 15
     :goto_3
@@ -1219,7 +1219,7 @@
     return-object v0
 
     :cond_1
-    const v1, 0x7f121406
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_exceed_max_badge_number_suffix:I
 
     const/4 v2, 0x2
 

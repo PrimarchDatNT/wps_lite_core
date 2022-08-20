@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d0b
+    sget v1, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -259,7 +259,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b218f
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar_container:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2e5c
+    sget v2, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -582,7 +582,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b218c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_titlebar_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -693,7 +693,7 @@
     .line 2
     iget-object p1, p0, Lprg;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f12257e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_not_support:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -737,7 +737,7 @@
     .line 8
     iget-object p1, p0, Lprg;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f12137d
+    sget v0, Lcom/resouce/module/ResSTRING;->low_version_tips_cn:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -747,7 +747,7 @@
     :cond_2
     iget-object p1, p0, Lprg;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f12137e
+    sget v0, Lcom/resouce/module/ResSTRING;->low_version_tips_en:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

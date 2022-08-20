@@ -178,7 +178,7 @@
     .line 17
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070be3
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_ribbicon_item_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -242,7 +242,7 @@
     .line 25
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070cab
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_framestyle_margin_left:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

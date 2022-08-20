@@ -24,7 +24,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13012f
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -120,7 +120,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b00b4
+    sget v4, Lcom/resouce/module/ResID;->add_menu_item_list:I
 
     aput v4, v2, v3
 
@@ -246,7 +246,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f07062e
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -355,7 +355,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0687
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_add_file_menu_layout:I
 
     const/4 v1, 0x0
 
@@ -368,7 +368,7 @@
 
     iput-object p1, p0, Lcz6;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v0, 0x7f0b00b4
+    sget v0, Lcom/resouce/module/ResID;->add_menu_item_list:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -430,7 +430,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

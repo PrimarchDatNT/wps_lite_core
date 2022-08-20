@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_setting_item_layout:I
 
     const/4 v2, 0x0
 
@@ -152,7 +152,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b147a
+    sget v0, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     iput-object v0, p2, Lkv9$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b31e6
+    sget v0, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     iput-object v0, p2, Lkv9$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b282b
+    sget v0, Lcom/resouce/module/ResID;->recent_switcher:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080594
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_home_top_default:I
 
     .line 17
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

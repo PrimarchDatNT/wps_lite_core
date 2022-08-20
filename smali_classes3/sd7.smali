@@ -218,7 +218,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_secret_folder_phone_reset:I
 
     const/4 v2, 0x0
 
@@ -228,7 +228,7 @@
 
     iput-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2ad4
+    sget v1, Lcom/resouce/module/ResID;->secret_folder_top_tip_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
     .line 3
     iget-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     .line 4
     iget-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b32a8
+    sget v1, Lcom/resouce/module/ResID;->tv_verify_code_verify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 5
     iget-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b32a9
+    sget v1, Lcom/resouce/module/ResID;->tv_verify_sms_code:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
     .line 6
     iget-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02ca
+    sget v1, Lcom/resouce/module/ResID;->btn_continue:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -292,7 +292,7 @@
     .line 7
     iget-object v0, p0, Lsd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0af1
+    sget v1, Lcom/resouce/module/ResID;->et_phone_number:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1210da
+    sget v0, Lcom/resouce/module/ResSTRING;->home_phone_reset:I
 
     return v0
 .end method
@@ -413,7 +413,7 @@
     .line 4
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -487,7 +487,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -578,7 +578,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0af1
+    sget v0, Lcom/resouce/module/ResID;->et_phone_number:I
 
     if-ne p1, v0, :cond_0
 
@@ -592,7 +592,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b32a9
+    sget v0, Lcom/resouce/module/ResID;->tv_verify_sms_code:I
 
     if-ne p1, v0, :cond_1
 
@@ -602,7 +602,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b02ca
+    sget v0, Lcom/resouce/module/ResID;->btn_continue:I
 
     if-ne p1, v0, :cond_2
 

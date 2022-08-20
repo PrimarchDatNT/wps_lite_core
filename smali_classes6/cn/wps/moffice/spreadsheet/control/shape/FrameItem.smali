@@ -46,7 +46,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060689
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_1:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -61,7 +61,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06068a
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_2:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -76,7 +76,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06068b
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_3:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06068c
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_4:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06068d
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_5:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

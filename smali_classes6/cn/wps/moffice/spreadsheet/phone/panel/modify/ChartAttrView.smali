@@ -25,13 +25,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0978
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_attribute_chart_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0396
+    sget p1, Lcom/resouce/module/ResID;->chart_quick_layout:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/panel/modify/ChartAttrView;->B:Landroid/view/View;
 
-    const p1, 0x7f0b0397
+    sget p1, Lcom/resouce/module/ResID;->chart_quick_layout_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/panel/modify/ChartAttrView;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b039b
+    sget p1, Lcom/resouce/module/ResID;->chart_style_layout:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/panel/modify/ChartAttrView;->S:Landroid/view/View;
 
-    const p1, 0x7f0b039c
+    sget p1, Lcom/resouce/module/ResID;->chart_style_title:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 .method public a(Z)V
     .locals 4
 
-    const v0, 0x7f0b061b
+    sget v0, Lcom/resouce/module/ResID;->data_source_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setEnabled(Z)V
 
-    const v0, 0x7f0b062b
+    sget v0, Lcom/resouce/module/ResID;->date_source_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     :goto_0
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0b062a
+    sget v0, Lcom/resouce/module/ResID;->date_source_text:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 .method public b(Landroid/view/View$OnClickListener;)V
     .locals 1
 
-    const v0, 0x7f0b061b
+    sget v0, Lcom/resouce/module/ResID;->data_source_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b039d
+    sget v0, Lcom/resouce/module/ResID;->chart_type_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b039b
+    sget v0, Lcom/resouce/module/ResID;->chart_style_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 .method public setChartTypeText(I)V
     .locals 2
 
-    const v0, 0x7f0b039e
+    sget v0, Lcom/resouce/module/ResID;->chart_type_text:I
 
     const/4 v1, -0x1
 
@@ -264,7 +264,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f122fb5
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_chart_type:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -287,7 +287,7 @@
 .method public setDataSoureText(I)V
     .locals 1
 
-    const v0, 0x7f0b062a
+    sget v0, Lcom/resouce/module/ResID;->date_source_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -304,7 +304,7 @@
 .method public setDataSoureText(Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f0b062a
+    sget v0, Lcom/resouce/module/ResID;->date_source_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122543
+    sget p1, Lcom/resouce/module/ResSTRING;->public_none:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

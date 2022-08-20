@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cf9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_add_cloudstorage:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f080875
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_open_add_storage_icon:I
 
     return v0
 .end method

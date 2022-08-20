@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0403db
+    sget v1, Lcom/resouce/module/ResATTR;->materialCalendarStyle:I
 
     .line 4
     invoke-static {p1, v1, v0}, Ld0u;->c(Landroid/content/Context;ILjava/lang/String;)I

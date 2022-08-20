@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1233c2
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_night_mode_tips_entrance:I
 
     const/4 v2, 0x0
 

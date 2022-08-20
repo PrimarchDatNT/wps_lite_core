@@ -51,7 +51,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04068e
+    sget v0, Lcom/resouce/module/ResATTR;->toolbarStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/appbar/MaterialToolbar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

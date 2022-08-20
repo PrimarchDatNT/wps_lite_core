@@ -192,13 +192,13 @@
 
     move-result p1
 
-    const p2, 0x7f1200fd
+    sget p2, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_2:I
 
-    const p3, 0x7f1200fe
+    sget p3, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_3:I
 
     const/4 p4, 0x0
 
-    const p6, 0x7f0b1b0d
+    sget p6, Lcom/resouce/module/ResID;->one_text_layout:I
 
     if-ne p1, p6, :cond_2
 
@@ -247,7 +247,7 @@
 
     move-result-object p1
 
-    const p5, 0x7f1200fc
+    sget p5, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_1:I
 
     invoke-virtual {p1, p5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
     goto/16 :goto_6
 
     :cond_2
-    const p6, 0x7f0b32bd
+    sget p6, Lcom/resouce/module/ResID;->two_text_layout:I
 
     if-ne p1, p6, :cond_5
 
@@ -322,7 +322,7 @@
     goto :goto_6
 
     :cond_5
-    const p6, 0x7f0b2f7f
+    sget p6, Lcom/resouce/module/ResID;->third_text_layout:I
 
     if-ne p1, p6, :cond_8
 
@@ -566,7 +566,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -687,13 +687,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0d61
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_temlate_list_main:I
 
     invoke-static {p1, v0, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b1c9d
+    sget v0, Lcom/resouce/module/ResID;->paper_composition_gridview:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -745,7 +745,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView;->setOnLoadingMoreListener(Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView$d;)V
 
-    const v0, 0x7f0b161a
+    sget v0, Lcom/resouce/module/ResID;->link_text_view:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -777,7 +777,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0d62
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_temlate_list_more:I
 
     invoke-virtual {v0, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -792,7 +792,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0d71
+    sget v0, Lcom/resouce/module/ResID;->filter_layout:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -801,7 +801,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b1b0c
+    sget v1, Lcom/resouce/module/ResID;->one_text:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -815,7 +815,7 @@
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b1b0d
+    sget v1, Lcom/resouce/module/ResID;->one_text_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -833,7 +833,7 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b32bc
+    sget v1, Lcom/resouce/module/ResID;->two_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -846,7 +846,7 @@
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b32bd
+    sget v1, Lcom/resouce/module/ResID;->two_text_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -887,7 +887,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2f7e
+    sget v1, Lcom/resouce/module/ResID;->third_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -900,7 +900,7 @@
     .line 27
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateListView;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2f7f
+    sget v1, Lcom/resouce/module/ResID;->third_text_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -943,7 +943,7 @@
 
     invoke-virtual {p2, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p2, 0x7f0b19e0
+    sget p2, Lcom/resouce/module/ResID;->network_error_layout:I
 
     .line 32
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -961,7 +961,7 @@
 
     invoke-virtual {p2, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->p(Landroid/view/View$OnClickListener;)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const p2, 0x7f0b040b
+    sget p2, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 34
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1004,7 +1004,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200fc
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_1:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1038,7 +1038,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200fd
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_2:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1072,7 +1072,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200fe
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_3:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1379,7 +1379,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1200fc
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_1:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1476,7 +1476,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1200fd
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_2:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1706,7 +1706,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1756,7 +1756,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1200fc
+    sget v4, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_1:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1783,7 +1783,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1200fd
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_2:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1808,7 +1808,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1200fe
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_3:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1865,7 +1865,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120115
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_with_template:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1914,7 +1914,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1b0c
+    sget v0, Lcom/resouce/module/ResID;->one_text:I
 
     if-ne p1, v0, :cond_0
 
@@ -1930,7 +1930,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b32bc
+    sget v0, Lcom/resouce/module/ResID;->two_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -1946,7 +1946,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2f7e
+    sget v0, Lcom/resouce/module/ResID;->third_text:I
 
     if-ne p1, v0, :cond_2
 

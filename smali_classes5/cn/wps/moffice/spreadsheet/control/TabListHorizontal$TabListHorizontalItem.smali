@@ -103,19 +103,19 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e06b1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_common_tablist_horizontal_item:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0520
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_et_common_tablist_horizontal_item:I
 
     :goto_0
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0980
+    sget v0, Lcom/resouce/module/ResID;->et_common_tabList_item_btn:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060002
+    sget v4, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -173,7 +173,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -203,7 +203,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081423
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_tab_btn_text_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -261,7 +261,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605d9
+    sget v2, Lcom/resouce/module/ResCOLOR;->rippleColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 

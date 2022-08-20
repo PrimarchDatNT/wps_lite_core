@@ -18,9 +18,9 @@
 .method public constructor <init>(Landroid/view/View;Lcn/wps/moffice/presentation/control/show/shell/slide/view/EditSlideView;Lcn/wps/show/app/KmoPresentation;Landroid/app/Activity;Landroid/graphics/Rect;)V
     .locals 0
 
-    const p1, 0x7f080d5e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_capacity_format:I
 
-    const p2, 0x7f121a34
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_ai_layout:I
 
     .line 1
     invoke-direct {p0, p1, p2}, Lule;-><init>(II)V

@@ -560,7 +560,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b30dd
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1251,7 +1251,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e08bb
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_push_tips_view:I
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1294,12 +1294,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f1221fa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_frequent_title:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122250
+    sget v0, Lcom/resouce/module/ResSTRING;->public_help_title:I
 
     :goto_0
     return v0
@@ -1323,7 +1323,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b2798
+    sget v1, Lcom/resouce/module/ResID;->push_tips_ptr_super_webview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1346,7 +1346,7 @@
 
     invoke-virtual {v1}, Lcn/wps/moffice/common/superwebview/PtrSuperWebView;->getProgressBar()Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0b30dd
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1796,7 +1796,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0e08f7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_textimage_view:I
 
     .line 1
     invoke-virtual {p0, p1, v0}, Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;->setViews(Ljava/util/List;I)V
@@ -2023,7 +2023,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0e08f7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_textimage_view:I
 
     .line 2
     invoke-virtual {p0, p1, v0, p2}, Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;->setViews(Ljava/util/List;ILie5$a;)V
@@ -2087,7 +2087,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1261
+    sget v2, Lcom/resouce/module/ResID;->image:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2096,7 +2096,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2ee9
+    sget v3, Lcom/resouce/module/ResID;->text:I
 
     .line 8
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

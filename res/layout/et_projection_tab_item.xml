@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/et_projection_tabs_item" android:layout_width="fill_parent" android:layout_height="53.809998dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/public_text_size_dip" android:layout_gravity="center_vertical" android:id="@id/et_projection_tabs_name" android:paddingLeft="29.0dip" android:paddingTop="16.359985dip" android:paddingRight="29.0dip" android:paddingBottom="16.359985dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
-</LinearLayout>

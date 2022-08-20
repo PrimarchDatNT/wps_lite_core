@@ -178,7 +178,7 @@
     :cond_0
     invoke-virtual {v0, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     new-instance p2, Lf87$f;
@@ -195,14 +195,14 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1211bc
+    sget p1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 12
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const p2, 0x7f06025d
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -226,7 +226,7 @@
 
     invoke-direct {p3, p0, v1}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p4, 0x7f1210fe
+    sget p4, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 15
     invoke-virtual {p3, p4}, Lhd3;->setTitleById(I)Lhd3;
@@ -236,7 +236,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f12123e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -267,7 +267,7 @@
     invoke-virtual {p3, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
     :cond_4
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 22
     new-instance p2, Lf87$h;
@@ -310,7 +310,7 @@
 
     invoke-direct {p1}, Lf87$b;-><init>()V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -322,14 +322,14 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1211bc
+    sget p1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 7
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const p2, 0x7f06025d
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 

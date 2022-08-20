@@ -149,7 +149,7 @@
     .line 1
     iget-object v0, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f12101c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_buy_now:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -205,9 +205,9 @@
     .line 3
     iget-object v0, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v2, 0x7f122544
+    sget v2, Lcom/resouce/module/ResSTRING;->public_normal_login_text_operation_tips:I
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v5, "\""
 

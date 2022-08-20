@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:background="@color/backgroundColor" android:layout_width="@dimen/phone_ppt_slidelayouts_item_width" android:layout_height="@dimen/phone_ppt_slidelayouts_item_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.presentation.control.print.printsettings.selectslide.SelectPrintPictureView android:layout_gravity="center" android:id="@id/print_pre_item_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
-    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/print_pre_item_seleted" android:visibility="visible" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/phone_ppt_item_mutiple_check" />
-</merge>

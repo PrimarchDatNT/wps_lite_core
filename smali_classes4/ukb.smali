@@ -76,12 +76,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0817cc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0808a3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     return v0
 .end method
@@ -119,7 +119,7 @@
     :cond_0
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817bc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_member_42:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -163,7 +163,7 @@
     :cond_2
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817a8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_42:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -226,7 +226,7 @@
     .line 1
     iget-object v1, v0, Lukb;->I:Landroid/view/View;
 
-    const v2, 0x7f0b24fa
+    sget v2, Lcom/resouce/module/ResID;->preview_gridview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 2
     iget-object v1, v0, Lukb;->I:Landroid/view/View;
 
-    const v2, 0x7f0b24fb
+    sget v2, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
 
     const/4 v4, -0x1
 
-    const v5, 0x7f081c3e
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_watermark:I
 
     const-string v6, "watermark"
 
@@ -294,7 +294,7 @@
 
     const/16 v13, 0x14
 
-    const v14, 0x7f081512
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->ppt_share_pic_thumbnails_white:I
 
     const-string v15, "original"
 
@@ -669,7 +669,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e50
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_sharepreview_style_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -692,7 +692,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1224d0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_mode:I
 
     return v0
 .end method

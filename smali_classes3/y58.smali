@@ -586,7 +586,7 @@
     .line 2
     invoke-virtual {p0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817bc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_member_42:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -603,7 +603,7 @@
     .line 4
     invoke-virtual {p0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817a8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_42:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -621,7 +621,7 @@
     :goto_0
     invoke-virtual {p0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817cc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -676,7 +676,7 @@
     .line 3
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817ae
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_edu_home:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -725,7 +725,7 @@
     :cond_2
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0806f2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium_small:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1034,7 +1034,7 @@
 .method public static W(Lvw4;Landroid/widget/ImageView;)V
     .locals 1
 
-    const v0, 0x7f0810b4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     .line 1
     invoke-static {p0, p1, v0}, Ly58;->X(Lvw4;Landroid/widget/ImageView;I)V

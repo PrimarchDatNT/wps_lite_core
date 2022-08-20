@@ -314,7 +314,7 @@
 .method public X2()I
     .locals 1
 
-    const v0, 0x7f122eaa
+    sget v0, Lcom/resouce/module/ResSTRING;->search_templates:I
 
     return v0
 .end method
@@ -492,7 +492,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f12149b
+    sget v2, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -508,7 +508,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f081c96
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -553,7 +553,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f120586
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -569,7 +569,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f081301
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -585,7 +585,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -706,7 +706,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_template_search_activity:I
 
     const/4 v2, 0x0
 
@@ -811,11 +811,11 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->T:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f0e0873
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_filebrowser_titlebar_search_layout:I
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->x(I)V
 
-    const v0, 0x7f0b2a86
+    sget v0, Lcom/resouce/module/ResID;->search_input:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -826,7 +826,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->a0:Lcn/wps/moffice/common/beans/RecordEditText;
 
-    const v3, 0x7f122eaa
+    sget v3, Lcom/resouce/module/ResSTRING;->search_templates:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setHint(I)V
@@ -840,7 +840,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    const v0, 0x7f0b0421
+    sget v0, Lcom/resouce/module/ResID;->cleansearch:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -863,7 +863,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v0, 0x7f0b2c9b
+    sget v0, Lcom/resouce/module/ResID;->speechsearch_divider:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -875,7 +875,7 @@
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2566
+    sget v0, Lcom/resouce/module/ResID;->ptr_layout:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -901,7 +901,7 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -923,7 +923,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0480
+    sget v1, Lcom/resouce/module/ResLAYOUT;->listview_loading_view:I
 
     iget-object v3, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->U:Lcn/wps/moffice/templatecommon/ext/widget/GridListView;
 
@@ -978,7 +978,7 @@
     .line 28
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateSearchActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b17f8
+    sget v1, Lcom/resouce/module/ResID;->main_error_default:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -276,7 +276,7 @@
 
     move-result v1
 
-    const v2, 0x7f1203cc
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_add_shortcut:I
 
     const/4 v3, 0x1
 
@@ -317,14 +317,14 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f1203dc
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_close_improvement:I
 
     goto :goto_0
 
     :cond_0
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f120455
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_open_improvement:I
 
     :goto_0
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e002e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_group_list:I
 
     const/4 v2, 0x0
 
@@ -489,7 +489,7 @@
 
     iput-object v1, p0, Ll0b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2534
+    sget v2, Lcom/resouce/module/ResID;->progress:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -501,7 +501,7 @@
     .line 10
     iget-object v1, p0, Ll0b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
     .line 14
     iget-object v1, p0, Ll0b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0100
+    sget v2, Lcom/resouce/module/ResID;->anchor:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
     .line 15
     iget-object v1, p0, Ll0b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2cdc
+    sget v2, Lcom/resouce/module/ResID;->srl_doc_scan_group:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -593,7 +593,7 @@
     .line 18
     iget-object v1, p0, Ll0b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1796
+    sget v2, Lcom/resouce/module/ResID;->lv_doc_scan_group:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 20
     iget-object v0, p0, Ll0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b14bc
+    sget v1, Lcom/resouce/module/ResID;->iv_scan_camera:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
     .line 21
     iget-object v0, p0, Ll0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2950
+    sget v1, Lcom/resouce/module/ResID;->rl_group_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -855,7 +855,7 @@
     .line 6
     iget-object v1, p0, Ll0b;->T:Landroid/widget/ImageView;
 
-    const v2, 0x7f12041a
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_guide_tip:I
 
     const/4 v3, 0x3
 
@@ -949,20 +949,20 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1204b1
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_shortcut_dialog_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12071a
+    sget v0, Lcom/resouce/module/ResSTRING;->en_scan_add_desktop_tips:I
 
     .line 2
     :goto_0
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122bdf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v4, 0x0
 
@@ -986,11 +986,11 @@
 
     invoke-direct {v1, p0}, Ll0b$f;-><init>(Ll0b;)V
 
-    const v2, 0x7f122bdf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
-    const v3, 0x7f1203dd
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_close_improvement_tip:I
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-static {v0, v2, v3, v4, v1}, Laya;->l(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1007,11 +1007,11 @@
 
     invoke-direct {v1, p0, p1}, Ll0b$j;-><init>(Ll0b;Lcn/wps/moffice/main/scan/bean/GroupScanBean;)V
 
-    const p1, 0x7f1203e7
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_delete_picture_group_tip:I
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static {v0, p1, v2, v3, v1}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1041,13 +1041,13 @@
 
     invoke-direct {v5, p0}, Ll0b$e;-><init>(Ll0b;)V
 
-    const v1, 0x7f1203df
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_collection_dialog_title:I
 
-    const v2, 0x7f120456
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_open_improvement_tip:I
 
-    const v3, 0x7f121f0e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
-    const v4, 0x7f120498
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_reject:I
 
     invoke-static/range {v0 .. v5}, Laya;->i(Landroid/content/Context;IIIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1117,7 +1117,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1239,7 +1239,7 @@
     :goto_1
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v1, 0x1
 

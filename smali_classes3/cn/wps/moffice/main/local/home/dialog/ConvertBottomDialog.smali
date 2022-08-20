@@ -117,7 +117,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e00dc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_convert_bottom_layout:I
 
     return v0
 .end method
@@ -219,7 +219,7 @@
 .method public final f(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b14ee
+    sget v0, Lcom/resouce/module/ResID;->jump_to_scan:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/dialog/ConvertBottomDialog;->T:Landroid/view/View;
 
-    const v0, 0x7f0b14ef
+    sget v0, Lcom/resouce/module/ResID;->jump_to_select:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f121247
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wpsdrive_docs:I
 
     if-ne v0, v1, :cond_1
 
@@ -370,7 +370,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122b15
+    sget v2, Lcom/resouce/module/ResSTRING;->public_translate:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -386,7 +386,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1204b9
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_funcname:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

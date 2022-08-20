@@ -85,12 +85,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0d53
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_panel_banner_native_ad_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d52
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_panel_banner_fullscreen_ad_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0094
+    sget v1, Lcom/resouce/module/ResID;->ad_sign:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
     :cond_1
     invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0e0d51
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_panel_banner_bottom_split:I
 
     const/4 v1, 0x0
 
@@ -147,7 +147,7 @@
     .line 8
     iget-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0449
+    sget v0, Lcom/resouce/module/ResID;->close_button:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
     .line 9
     iget-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0451
+    sget v0, Lcom/resouce/module/ResID;->close_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
     .line 10
     iget-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b020c
+    sget v0, Lcom/resouce/module/ResID;->bg_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -206,14 +206,14 @@
     .line 13
     iget-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b17fc
+    sget v0, Lcom/resouce/module/ResID;->main_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     .line 14
     iget-object p1, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
     .line 15
     iget-object v0, p0, Lsna;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b065c
+    sget v1, Lcom/resouce/module/ResID;->desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

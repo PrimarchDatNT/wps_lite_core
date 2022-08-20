@@ -57,7 +57,7 @@
 
     iget-object p2, p2, Lb5a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, p2, v1, v0}, Lk87;-><init>(Landroid/content/Context;ILi87;)V
 

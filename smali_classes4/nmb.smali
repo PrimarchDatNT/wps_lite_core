@@ -118,7 +118,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f0e05fd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->paid_home_myorders_activity:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lgmb;-><init>(Landroid/app/Activity;I)V
@@ -397,7 +397,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -425,7 +425,7 @@
     .line 6
     iget-object v0, p0, Lnmb;->Y:Landroid/widget/ImageView;
 
-    const v3, 0x7f0806f1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -699,7 +699,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -725,7 +725,7 @@
     .line 15
     iget-object v0, p0, Lnmb;->n0:Landroid/widget/ImageView;
 
-    const v4, 0x7f0810f5
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -779,7 +779,7 @@
     .line 22
     iget-object v4, p0, Lnmb;->n0:Landroid/widget/ImageView;
 
-    const v5, 0x7f0806ef
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->foreign_home_ads_free_go:I
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -792,7 +792,7 @@
 
     move-result-object v5
 
-    const v8, 0x7f0600ea
+    sget v8, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1013,7 +1013,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f06025f
+    sget v7, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1039,7 +1039,7 @@
     .line 11
     iget-object v3, p0, Lnmb;->h0:Landroid/widget/ImageView;
 
-    const v4, 0x7f0810fc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1093,7 +1093,7 @@
     .line 18
     iget-object v3, p0, Lnmb;->h0:Landroid/widget/ImageView;
 
-    const v4, 0x7f0806f4
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->foreign_home_pdf_go:I
 
     invoke-virtual {v3, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1106,7 +1106,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f0600ea
+    sget v8, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v4, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1287,7 +1287,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1310,7 +1310,7 @@
     .line 11
     iget-object p1, p0, Lnmb;->v0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0810fe
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_template_privilege:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1329,7 +1329,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1350,7 +1350,7 @@
     .line 16
     iget-object p1, p0, Lnmb;->v0:Landroid/widget/ImageView;
 
-    const v0, 0x7f081438
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_template_privilege_expired:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1395,9 +1395,9 @@
 
     iget-object v3, p0, Lgmb;->B:Landroid/app/Activity;
 
-    const v4, 0x7f121c87
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v5, 0x7f12268d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const-string v1, "ads_free_i18n"
 
@@ -1428,11 +1428,11 @@
     .line 6
     invoke-virtual {v0, v1, v2, v2}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080712
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_privilege:I
 
-    const v2, 0x7f121c87
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v3, 0x7f12268d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v4, 0x2
 
@@ -1498,9 +1498,9 @@
 
     iget-object v3, p0, Lgmb;->B:Landroid/app/Activity;
 
-    const v4, 0x7f12260e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
-    const v5, 0x7f122610
+    sget v5, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit_desc:I
 
     const-string v1, "pdf_toolkit"
 
@@ -1531,11 +1531,11 @@
     .line 6
     invoke-virtual {v0, v1, v2, v2}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080768
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdftoolskit:I
 
-    const v2, 0x7f12260e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
-    const v3, 0x7f122610
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit_desc:I
 
     const/4 v4, 0x2
 
@@ -1599,7 +1599,7 @@
     .line 2
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b6c
+    sget v1, Lcom/resouce/module/ResID;->order_member_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1610,7 +1610,7 @@
     .line 3
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b70
+    sget v1, Lcom/resouce/module/ResID;->order_member_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1623,7 +1623,7 @@
     .line 4
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b6f
+    sget v1, Lcom/resouce/module/ResID;->order_member_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1636,7 +1636,7 @@
     .line 5
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b6e
+    sget v1, Lcom/resouce/module/ResID;->order_member_expiretime_value:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1649,7 +1649,7 @@
     .line 6
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b6d
+    sget v1, Lcom/resouce/module/ResID;->order_member_expired_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1660,7 +1660,7 @@
     .line 7
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f20
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1681,7 +1681,7 @@
     .line 10
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b73
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1692,7 +1692,7 @@
     .line 11
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b77
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1705,7 +1705,7 @@
     .line 12
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b76
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1718,7 +1718,7 @@
     .line 13
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b75
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_expiretime_value:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1731,7 +1731,7 @@
     .line 14
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b74
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_expired_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1742,7 +1742,7 @@
     .line 15
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f1f
+    sget v1, Lcom/resouce/module/ResID;->go_to_pdftoolkit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1763,7 +1763,7 @@
     .line 18
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b61
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1774,7 +1774,7 @@
     .line 19
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b65
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1787,7 +1787,7 @@
     .line 20
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b64
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1800,7 +1800,7 @@
     .line 21
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b63
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_expiretime_value:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1813,7 +1813,7 @@
     .line 22
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b62
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_expired_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1824,7 +1824,7 @@
     .line 23
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f1c
+    sget v1, Lcom/resouce/module/ResID;->go_to_ads_free:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1845,7 +1845,7 @@
     .line 26
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b78
+    sget v1, Lcom/resouce/module/ResID;->order_privilege_template_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1856,7 +1856,7 @@
     .line 27
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b7a
+    sget v1, Lcom/resouce/module/ResID;->order_privilege_template_expiretime_value:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1869,7 +1869,7 @@
     .line 28
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b7c
+    sget v1, Lcom/resouce/module/ResID;->order_privilege_template_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1882,7 +1882,7 @@
     .line 29
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f24
+    sget v1, Lcom/resouce/module/ResID;->go_to_privilege_template:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1893,7 +1893,7 @@
     .line 30
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b79
+    sget v1, Lcom/resouce/module/ResID;->order_privilege_template_expired_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1904,7 +1904,7 @@
     .line 31
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b7b
+    sget v1, Lcom/resouce/module/ResID;->order_privilege_template_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1927,7 +1927,7 @@
     .line 34
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b66
+    sget v1, Lcom/resouce/module/ResID;->order_fontpack_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1938,7 +1938,7 @@
     .line 35
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b69
+    sget v1, Lcom/resouce/module/ResID;->order_fontpack_items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2077,7 +2077,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0f20
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium:I
 
     if-eq v0, v1, :cond_7
 
@@ -2085,7 +2085,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b6c
+    sget v1, Lcom/resouce/module/ResID;->order_member_content:I
 
     if-ne v0, v1, :cond_0
 
@@ -2097,7 +2097,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0f1f
+    sget v1, Lcom/resouce/module/ResID;->go_to_pdftoolkit:I
 
     if-ne v0, v1, :cond_1
 
@@ -2114,7 +2114,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b73
+    sget v1, Lcom/resouce/module/ResID;->order_pdftoolkit_content:I
 
     if-ne v0, v1, :cond_2
 
@@ -2136,7 +2136,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0f1c
+    sget v1, Lcom/resouce/module/ResID;->go_to_ads_free:I
 
     if-ne v0, v1, :cond_3
 
@@ -2153,7 +2153,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b61
+    sget v1, Lcom/resouce/module/ResID;->order_ads_free_content:I
 
     if-ne v0, v1, :cond_4
 
@@ -2175,7 +2175,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b197e
+    sget v1, Lcom/resouce/module/ResID;->my_signin_btn:I
 
     if-ne v0, v1, :cond_5
 
@@ -2196,7 +2196,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0f24
+    sget v1, Lcom/resouce/module/ResID;->go_to_privilege_template:I
 
     if-ne v0, v1, :cond_6
 
@@ -2213,7 +2213,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1b78
+    sget v0, Lcom/resouce/module/ResID;->order_privilege_template_content:I
 
     if-ne p1, v0, :cond_8
 

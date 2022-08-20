@@ -91,7 +91,7 @@
     .line 4
     iget-object v1, p0, Lbd7$g;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1228a0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_secfolder_not_support_account:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -101,7 +101,7 @@
     :cond_1
     iget-object v1, p0, Lbd7$g;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12316d
+    sget v2, Lcom/resouce/module/ResSTRING;->unavailable_for_current_ver:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

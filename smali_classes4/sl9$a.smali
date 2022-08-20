@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10a8
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b10c1
+    sget v2, Lcom/resouce/module/ResID;->home_my_userinfo_type_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -71,7 +71,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b10a9
+    sget v3, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_name:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

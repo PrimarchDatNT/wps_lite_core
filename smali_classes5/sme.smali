@@ -470,7 +470,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070821
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_title_bar_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

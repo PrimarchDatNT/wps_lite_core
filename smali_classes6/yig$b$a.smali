@@ -106,7 +106,7 @@
 
     iget-object v0, v0, Lyig$b;->B:Lyig;
 
-    const v1, 0x7f122539
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_print_data:I
 
     invoke-virtual {v0, v1}, Lyig;->a(I)V
 

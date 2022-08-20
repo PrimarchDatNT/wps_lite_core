@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.ofd.shell.common.views.ThumbnailPlayItem android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style_bounded"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ofd_thumbnail_item_preview" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-</cn.wps.moffice.ofd.shell.common.views.ThumbnailPlayItem>

@@ -123,7 +123,7 @@
     .line 6
     iget-object v1, p0, Lcol;->I:Landroid/app/Activity;
 
-    const v2, 0x7f122e45
+    sget v2, Lcom/resouce/module/ResSTRING;->resume_print_open_member:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -347,7 +347,7 @@
     .line 9
     iget-object v0, p0, Lcol;->B:Lgpl;
 
-    const v1, 0x7f1226b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

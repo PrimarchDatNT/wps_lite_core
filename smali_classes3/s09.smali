@@ -117,7 +117,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -251,7 +251,7 @@
 
     iput-object v1, p0, Ls09;->b:Ljava/lang/String;
 
-    const v1, 0x7f1228dc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_select_file_to_convert:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

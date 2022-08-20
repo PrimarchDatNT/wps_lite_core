@@ -200,7 +200,7 @@
     :cond_1
     iget-object v1, p0, Lirc;->a:Landroid/content/Context;
 
-    const v2, 0x7f121852
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_action_buy_vip_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -229,12 +229,12 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f120fb1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     goto :goto_1
 
     :cond_2
-    const p2, 0x7f121c8e
+    sget p2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     :goto_1
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -248,7 +248,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1223d6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
     :goto_2
     iget-object p2, p0, Lirc;->a:Landroid/content/Context;
 
-    const v1, 0x7f121853
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_action_new_tips:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -282,7 +282,7 @@
     .line 9
     iget-object p2, p0, Lirc;->a:Landroid/content/Context;
 
-    const v1, 0x7f121871
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_save_and:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -303,7 +303,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
     .line 3
     invoke-virtual {v0, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -403,7 +403,7 @@
 
     invoke-direct {p1, p0, p4}, Lirc$a;-><init>(Lirc;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f121fba
+    sget p2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v0, p2, p3, p1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -473,7 +473,7 @@
     goto :goto_2
 
     :cond_1
-    const v1, 0x7f12185f
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_buy_vip_tips:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -487,12 +487,12 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f120fb1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f121c8e
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     :goto_1
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -505,7 +505,7 @@
 
     :cond_3
     :goto_2
-    const v1, 0x7f1223b2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_isSaveOrNot:I
 
     .line 7
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -513,7 +513,7 @@
     .line 8
     iget-object v1, p0, Lirc;->a:Landroid/content/Context;
 
-    const v3, 0x7f12281f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -522,7 +522,7 @@
     const-string v3, "member"
 
     :goto_3
-    const v4, 0x7f1223d6
+    sget v4, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     .line 9
     new-instance v5, Lirc$b;

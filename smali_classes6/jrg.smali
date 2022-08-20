@@ -346,7 +346,7 @@
 
     check-cast v3, Lcn/wps/moffice/spreadsheet/item/ImageTextItem;
 
-    const v4, 0x7f0e058a
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_menu_popup_list_item:I
 
     .line 10
     invoke-virtual {p1, v4, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -375,7 +375,7 @@
     invoke-virtual {v5, v3}, Lwhf;->Z(Lwhf$a;)Z
 
     :cond_0
-    const v5, 0x7f0b2278
+    sget v5, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
     .line 14
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
 
-    const v5, 0x7f0b2277
+    sget v5, Lcom/resouce/module/ResID;->popup_list_item_image:I
 
     .line 16
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
     .line 18
     invoke-virtual {v0, v4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const v5, 0x7f0b15b1
+    sget v5, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 19
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

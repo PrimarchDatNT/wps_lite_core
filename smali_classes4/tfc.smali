@@ -298,14 +298,14 @@
     .line 5
     iget-object v0, p0, Ltfc;->f:Lhd3;
 
-    const v2, 0x7f121788
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_repair_title:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->setTitle(I)V
 
     .line 6
     iget-object v0, p0, Ltfc;->f:Lhd3;
 
-    const v2, 0x7f121786
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_repair_dialog_tips:I
 
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
@@ -314,7 +314,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -323,7 +323,7 @@
     .line 8
     iget-object v0, p0, Ltfc;->f:Lhd3;
 
-    const v2, 0x7f121785
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_repair_confirm:I
 
     new-instance v3, Ltfc$c;
 
@@ -334,7 +334,7 @@
     .line 9
     iget-object p1, p0, Ltfc;->f:Lhd3;
 
-    const v0, 0x7f121787
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_repair_ignore:I
 
     new-instance v2, Ltfc$d;
 
@@ -345,7 +345,7 @@
     .line 10
     iget-object p1, p0, Ltfc;->f:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Ltfc$e;
 

@@ -28,7 +28,7 @@
 
     move-result v1
 
-    const v2, 0x7f12261b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_permission_info:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/permissioninfo/PermissionInfoer$1;-><init>(Lcn/wps/moffice/spreadsheet/control/permissioninfo/PermissionInfoer;II)V
 
@@ -53,12 +53,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0803a1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_power:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d91
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_safty_power_et:I
 
     :goto_0
     return v0

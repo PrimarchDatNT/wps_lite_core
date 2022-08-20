@@ -99,7 +99,7 @@
 
     const/16 v2, 0x8
 
-    const v3, 0x7f121217
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     const/4 v4, 0x0
 
@@ -129,7 +129,7 @@
     :cond_2
     iget-object v5, p0, Lkz9$b;->B:Landroid/content/Context;
 
-    const v6, 0x7f121d3b
+    sget v6, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
     :cond_4
     iget-object v3, p0, Lkz9$b;->B:Landroid/content/Context;
 
-    const v6, 0x7f12217c
+    sget v6, Lcom/resouce/module/ResSTRING;->public_fileradar_file_receive_title:I
 
     .line 12
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -267,12 +267,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0bfa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_fileradar_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0bfb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_fileradar_item_layout_main_page:I
 
     :goto_0
     return v0

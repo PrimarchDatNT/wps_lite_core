@@ -104,7 +104,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e091f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_share_new_send_layout:I
 
     return v0
 .end method
@@ -126,7 +126,7 @@
     .line 4
     iget-object v0, p0, Ldg3;->a:Landroid/view/View;
 
-    const v1, 0x7f0b29cd
+    sget v1, Lcom/resouce/module/ResID;->rv_share_to_other:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
     .line 4
     iget-object v1, p0, Ldg3;->a:Landroid/view/View;
 
-    const v2, 0x7f0b013b
+    sget v2, Lcom/resouce/module/ResID;->app_share_link:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -357,7 +357,7 @@
     .line 5
     iget-object v2, p0, Ldg3;->a:Landroid/view/View;
 
-    const v3, 0x7f0b2b4c
+    sget v3, Lcom/resouce/module/ResID;->share_and_send_title:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123443
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_words:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f123277
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_characters_with_spaces:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f123276
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_characters:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -120,7 +120,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/countwords/view/CountWordsView;->d0:[Ljava/lang/String;
 
-    const p1, 0x7f0e0df3
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_progress_dialog:I
 
     const/4 v0, 0x0
 
@@ -149,7 +149,7 @@
 
     invoke-virtual {p0, p1, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p1, 0x7f0e09c9
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_writer_countword_layout:I
 
     .line 11
     invoke-static {p1, v0}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -812,7 +812,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/countwords/view/CountWordsView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1883
+    sget v1, Lcom/resouce/module/ResID;->message:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -859,7 +859,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const v2, 0x7f0b0595
+    sget v2, Lcom/resouce/module/ResID;->countword_result_part:I
 
     if-eqz p1, :cond_1
 

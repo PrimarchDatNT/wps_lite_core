@@ -43,22 +43,22 @@
 
     sput-object v0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->V:Ljava/lang/String;
 
-    const v0, 0x7f1227eb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_refresh_list_loading:I
 
     .line 2
     sput v0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->W:I
 
-    const v0, 0x7f122304
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_pulldown_refresh:I
 
     .line 3
     sput v0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->a0:I
 
-    const v0, 0x7f1222be
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_loose_refresh_cloud:I
 
     .line 4
     sput v0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->b0:I
 
-    const v0, 0x7f122308
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_roaming_after_login_sync:I
 
     .line 5
     sput v0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->c0:I
@@ -122,7 +122,7 @@
 .method public a()V
     .locals 3
 
-    const v0, 0x7f0b1098
+    sget v0, Lcom/resouce/module/ResID;->home_logo_anim:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081cf1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_wps_pull_refresh_logo:I
 
     invoke-static {v1, v2}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -146,7 +146,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b2635
+    sget v0, Lcom/resouce/module/ResID;->public_home_bouncingball:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/spread/home/HomePullAnimLayout;->I:Lcn/wps/moffice/main/push/spread/home/PullBounceBallAnimView;
 
-    const v0, 0x7f0b26d8
+    sget v0, Lcom/resouce/module/ResID;->public_pull_tip:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

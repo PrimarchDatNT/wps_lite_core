@@ -532,7 +532,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07022f
+    sget v3, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -547,7 +547,7 @@
 
     check-cast v3, Landroid/app/Activity;
 
-    const v4, 0x7f0b2d0b
+    sget v4, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -593,7 +593,7 @@
 
     check-cast v3, Landroid/app/Activity;
 
-    const v4, 0x7f0b2d04
+    sget v4, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

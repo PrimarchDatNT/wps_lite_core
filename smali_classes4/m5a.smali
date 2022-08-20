@@ -168,7 +168,7 @@
 .method public r(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lm5a$b;
     .locals 2
 
-    const v0, 0x7f0e0c2e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_empty_star_item_layout:I
 
     const/4 v1, 0x0
 

@@ -93,7 +93,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d46
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_ppt_panel_tab_underline_indicator_stoke_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

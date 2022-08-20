@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f123250
+    sget p2, Lcom/resouce/module/ResSTRING;->wps_ppt_shareplay:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

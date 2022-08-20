@@ -515,7 +515,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1227a5
+    sget p2, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

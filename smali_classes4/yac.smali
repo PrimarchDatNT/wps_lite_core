@@ -661,7 +661,7 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    const v0, 0x7f1217b5
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_edit_annotation_pen_toast_move:I
 
     .line 7
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V

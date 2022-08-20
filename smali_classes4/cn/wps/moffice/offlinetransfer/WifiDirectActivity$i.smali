@@ -112,14 +112,14 @@
 
     invoke-direct {v0, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1214f8
+    sget v2, Lcom/resouce/module/ResSTRING;->offline_restart_wifi:I
 
     .line 3
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v2, 0x7f12150d
+    sget v2, Lcom/resouce/module/ResSTRING;->offline_wifi_setting:I
 
     new-instance v3, Ljob;
 
@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1214f4
+    sget v2, Lcom/resouce/module/ResSTRING;->offline_no_need:I
 
     new-instance v3, Lkob;
 

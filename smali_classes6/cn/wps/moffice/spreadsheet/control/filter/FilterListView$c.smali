@@ -188,12 +188,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0808a3
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0817cc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 9
     :goto_1
@@ -221,7 +221,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0966
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_filterlist_func_item:I
 
     const/4 v1, 0x0
 

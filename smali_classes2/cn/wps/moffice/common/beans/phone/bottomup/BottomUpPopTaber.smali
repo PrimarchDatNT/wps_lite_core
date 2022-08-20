@@ -372,7 +372,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f010091
+    sget v0, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {p2, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -421,7 +421,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0839
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_bottom_nav_ctrl_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -445,7 +445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -467,7 +467,7 @@
     .line 5
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->b0:I
 
-    const p1, 0x7f0b0248
+    sget p1, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->I:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b0277
+    sget p1, Lcom/resouce/module/ResID;->bottom_tab_bar:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -489,7 +489,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->T:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTabBar;
 
-    const p1, 0x7f0b006e
+    sget p1, Lcom/resouce/module/ResID;->action_btn:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -500,7 +500,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->U:Landroid/widget/TextView;
 
-    const p1, 0x7f0b026c
+    sget p1, Lcom/resouce/module/ResID;->bottom_panel_container:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070070
+    sget v1, Lcom/resouce/module/ResDIMEN;->bottom_up_pop_taber_titlebar_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -681,7 +681,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f01008e
+    sget v0, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {p2, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

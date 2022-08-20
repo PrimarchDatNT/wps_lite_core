@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12341e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_spellcheck_download_complete:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123418
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_spell_check_recheck:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123420
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_spellcheck_unzip_failed:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

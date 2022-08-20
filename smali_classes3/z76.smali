@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0622
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_convert_feedback_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b043f
+    sget v1, Lcom/resouce/module/ResID;->close:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0c94
+    sget v1, Lcom/resouce/module/ResID;->feedback_btn:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2881    # 1.84973E38f
+    sget v1, Lcom/resouce/module/ResID;->refund_btn:I    # 1.84973E38f
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
     .line 6
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0766
+    sget v1, Lcom/resouce/module/ResID;->document_layout:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     iput-object v1, p0, Lz76;->X:Landroid/view/View;
 
-    const v1, 0x7f0b09c0
+    sget v1, Lcom/resouce/module/ResID;->et_convert_result:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     iput-object v1, p0, Lz76;->V:Landroid/widget/EditText;
 
-    const v1, 0x7f0b09bf
+    sget v1, Lcom/resouce/module/ResID;->et_contact:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,14 +217,14 @@
 
     iput-object v1, p0, Lz76;->W:Landroid/widget/EditText;
 
-    const v1, 0x7f0b0850
+    sget v1, Lcom/resouce/module/ResID;->empty:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2cd2
+    sget v2, Lcom/resouce/module/ResID;->src_file:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -236,7 +236,7 @@
     .line 12
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b065b
+    sget p1, Lcom/resouce/module/ResID;->des_file:I
 
     .line 13
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
     .line 14
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2fcd
+    sget p1, Lcom/resouce/module/ResID;->title:I
 
     .line 15
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     invoke-virtual {p1, p2}, La86;->i0(La86$b;)V
 
-    const p1, 0x7f0b075d
+    sget p1, Lcom/resouce/module/ResID;->document_check_box:I
 
     .line 19
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const p1, 0x7f0b2863
+    sget p1, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 21
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121733
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_feedback_check_empty:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12173b
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_feedback_result_empty:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -509,7 +509,7 @@
 
     invoke-direct {p1, p0}, Lz76$c;-><init>(Lz76;)V
 
-    const v1, 0x7f121229
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_cancel_upload:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -518,7 +518,7 @@
 
     invoke-direct {p1, p0}, Lz76$d;-><init>(Lz76;)V
 
-    const v1, 0x7f121dd9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_again:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -541,7 +541,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b043f
+    sget v1, Lcom/resouce/module/ResID;->close:I
 
     if-ne v0, v1, :cond_1
 
@@ -562,7 +562,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b0c94
+    sget v1, Lcom/resouce/module/ResID;->feedback_btn:I
 
     if-ne v0, v1, :cond_2
 
@@ -572,7 +572,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b2881    # 1.84973E38f
+    sget v1, Lcom/resouce/module/ResID;->refund_btn:I    # 1.84973E38f
 
     if-ne v0, v1, :cond_3
 

@@ -39,7 +39,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025e
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainDragShadowColor:I
 
     .line 5
     :try_start_0

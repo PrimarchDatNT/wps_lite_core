@@ -214,7 +214,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0457
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_item_class_room_home_work:I
 
     const/4 v1, 0x0
 

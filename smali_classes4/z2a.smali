@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070c79
+    sget v2, Lcom/resouce/module/ResDIMEN;->quick_access_item_height:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

@@ -28,7 +28,7 @@
 
     move-result v0
 
-    const v1, 0x7f121e1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-direct {p2, p0, v0, v1}, Lm8e$a;-><init>(Lm8e;II)V
 
@@ -71,7 +71,7 @@
     .line 1
     sget-boolean v0, Lskd;->a:Z
 
-    const v0, 0x7f080db4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_eraser_color:I
 
     return v0
 .end method

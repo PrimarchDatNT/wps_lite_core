@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/ReplaceOpeartor$ReplaceOperationBar;->I:Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseButtonBar$BarItem_button;
 
-    const v0, 0x7f1227f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -52,7 +52,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/ReplaceOpeartor$ReplaceOperationBar;->S:Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseButtonBar$BarItem_button;
 
-    const v1, 0x7f122184
+    sget v1, Lcom/resouce/module/ResSTRING;->public_find_replaceall:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

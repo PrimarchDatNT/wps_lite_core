@@ -460,7 +460,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121593
+    sget v2, Lcom/resouce/module/ResSTRING;->oversea_template_host:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -514,7 +514,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

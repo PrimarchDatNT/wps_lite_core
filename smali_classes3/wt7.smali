@@ -98,7 +98,7 @@
     .line 2
     iget-object v1, p0, Ltt7;->d:Landroid/content/Context;
 
-    const v2, 0x7f12148e
+    sget v2, Lcom/resouce/module/ResSTRING;->note_function_disable:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

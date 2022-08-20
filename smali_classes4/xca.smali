@@ -36,7 +36,7 @@
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 6
 
-    const v0, 0x7f0b1177
+    sget v0, Lcom/resouce/module/ResID;->home_task_list_holder:I
 
     if-nez p2, :cond_0
 
@@ -49,7 +49,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e02f2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_common_task_item:I
 
     const/4 v2, 0x0
 
@@ -62,7 +62,7 @@
 
     invoke-direct {p3, p0}, Lxca$a;-><init>(Lxca;)V
 
-    const v1, 0x7f0b1227
+    sget v1, Lcom/resouce/module/ResID;->icon:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v1, p3, Lxca$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1988
+    sget v1, Lcom/resouce/module/ResID;->name:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v1, p3, Lxca$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b12ec
+    sget v1, Lcom/resouce/module/ResID;->info:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v1, p3, Lxca$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

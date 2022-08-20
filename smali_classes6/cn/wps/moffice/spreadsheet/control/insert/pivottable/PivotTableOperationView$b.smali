@@ -50,7 +50,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableOperationView$b;->B:Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableOperationView;
 
-    const p3, 0x7f0b0af4
+    sget p3, Lcom/resouce/module/ResID;->et_pivot_table_field_name:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

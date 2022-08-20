@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081742
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_contect:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;

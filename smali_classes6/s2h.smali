@@ -171,12 +171,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0934
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_bottom_compound_sheet:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05dd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_bottom_compound_sheet:I
 
     :goto_0
     const/4 v2, 0x0
@@ -192,7 +192,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b2ce2
+    sget v1, Lcom/resouce/module/ResID;->ss_bottom_sheet:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2d5e
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_color:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081e5a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ss_tabhost_colorview_selector:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

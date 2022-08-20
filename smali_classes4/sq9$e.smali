@@ -196,12 +196,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1222f6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_operate_server_data_cn_url:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1222f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_operate_server_data_en_url:I
 
     .line 6
     :goto_0

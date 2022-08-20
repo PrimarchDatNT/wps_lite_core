@@ -292,7 +292,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f1218dd
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_sign:I
 
     const/16 v1, -0x3b6
 
@@ -319,7 +319,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f1218e2
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_tab_annotation:I
 
     const/16 v1, -0x3b5
 
@@ -334,7 +334,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f1216c9
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     const/16 v1, -0x3b4
 
@@ -349,7 +349,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f12054d
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addPic:I
 
     const/16 v1, -0x3b3
 
@@ -364,7 +364,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f1225d8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     const/16 v1, -0x3b2
 

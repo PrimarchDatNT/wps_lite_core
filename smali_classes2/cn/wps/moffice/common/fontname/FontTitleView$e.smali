@@ -85,7 +85,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView$e;->B:Lxa6;
 
-    const v2, 0x7f0b0e16
+    sget v2, Lcom/resouce/module/ResID;->font_circleprogressbar:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

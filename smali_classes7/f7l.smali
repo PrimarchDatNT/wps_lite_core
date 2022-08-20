@@ -213,7 +213,7 @@
 
     invoke-direct {v1, p0}, Lf7l$a;-><init>(Lf7l;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -231,7 +231,7 @@
 
     invoke-direct {v1, p0}, Lf7l$b;-><init>(Lf7l;)V
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v4, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -244,12 +244,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1224d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121cf7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_addPasswd:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;

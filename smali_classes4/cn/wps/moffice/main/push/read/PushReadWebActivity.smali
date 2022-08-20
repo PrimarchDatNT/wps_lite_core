@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1212cf
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_card_readbook:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -596,7 +596,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081fa6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->webview_black_progressbar:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

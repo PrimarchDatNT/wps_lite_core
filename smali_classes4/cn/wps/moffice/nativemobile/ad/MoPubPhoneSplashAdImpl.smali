@@ -1289,7 +1289,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070bfe
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_splash_media_container_view_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1390,7 +1390,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122bad
+    sget v1, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

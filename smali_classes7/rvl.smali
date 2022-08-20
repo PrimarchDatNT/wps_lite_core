@@ -428,7 +428,7 @@
 .method public final L2()V
     .locals 5
 
-    const v0, 0x7f0e10ff
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_table_attribute:I
 
     const/4 v1, 0x0
 
@@ -439,7 +439,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b36b6
+    sget v0, Lcom/resouce/module/ResID;->writer_table_titlebar:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     iput-object v0, p0, Lrvl;->q0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v2, 0x7f122a49
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_attribute:I
 
     .line 3
     invoke-virtual {v0, v2}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -481,20 +481,20 @@
     .line 7
     new-instance v0, Lrvl$h;
 
-    const v2, 0x7f0b36b3
+    sget v2, Lcom/resouce/module/ResID;->writer_table_style_tab:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b36b4
+    sget v3, Lcom/resouce/module/ResID;->writer_table_style_textview:I
 
     .line 8
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b36ac
+    sget v4, Lcom/resouce/module/ResID;->writer_table_style_divide_line:I
 
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -507,20 +507,20 @@
     .line 9
     new-instance v0, Lrvl$h;
 
-    const v2, 0x7f0b36aa
+    sget v2, Lcom/resouce/module/ResID;->writer_table_shade_tab:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b36ab
+    sget v3, Lcom/resouce/module/ResID;->writer_table_shade_textview:I
 
     .line 10
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b36a7
+    sget v4, Lcom/resouce/module/ResID;->writer_table_shade_divide_line:I
 
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -533,20 +533,20 @@
     .line 11
     new-instance v0, Lrvl$h;
 
-    const v2, 0x7f0b3689
+    sget v2, Lcom/resouce/module/ResID;->writer_table_align_wrap_tab:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b368a
+    sget v3, Lcom/resouce/module/ResID;->writer_table_align_wrap_textview:I
 
     .line 12
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b3688
+    sget v4, Lcom/resouce/module/ResID;->writer_table_align_wrap_divide_line:I
 
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -559,7 +559,7 @@
     .line 13
     new-instance v0, Lmvl;
 
-    const v2, 0x7f0e1107
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_table_style:I
 
     invoke-static {v2, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -574,7 +574,7 @@
     .line 14
     new-instance v0, Llvl;
 
-    const v2, 0x7f0e1104
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_table_shade:I
 
     invoke-static {v2, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -589,7 +589,7 @@
     .line 15
     new-instance v0, Ljvl;
 
-    const v2, 0x7f0e0a21
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_tatle_alignment_wrap:I
 
     invoke-static {v2, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -636,7 +636,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122a60
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     invoke-virtual {p0, v2, v1}, Lrvl;->J2(ILandroid/view/View;)Lnk3$a;
 
@@ -653,7 +653,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123434
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_table_shade:I
 
     invoke-virtual {p0, v2, v1}, Lrvl;->J2(ILandroid/view/View;)Lnk3$a;
 
@@ -670,7 +670,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123422
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_table_align_wrap:I
 
     invoke-virtual {p0, v2, v1}, Lrvl;->J2(ILandroid/view/View;)Lnk3$a;
 
@@ -678,7 +678,7 @@
 
     invoke-virtual {v0, v1}, Lnk3;->u(Lnk3$a;)V
 
-    const v0, 0x7f0b3697
+    sget v0, Lcom/resouce/module/ResID;->writer_table_content_pager:I
 
     .line 23
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

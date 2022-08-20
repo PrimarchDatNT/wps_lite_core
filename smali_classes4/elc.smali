@@ -181,7 +181,7 @@
     .line 8
     iget-object p1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v0, 0x7f121801
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_image_click_edit:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -243,7 +243,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0641
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_imgtxt_bottom_view:I
 
     return v0
 .end method
@@ -265,7 +265,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e1e
+    sget v1, Lcom/resouce/module/ResID;->pdf_imagetext_guide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e1d
+    sget v1, Lcom/resouce/module/ResID;->pdf_imagetext_btn_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -296,7 +296,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e1b
+    sget v1, Lcom/resouce/module/ResID;->pdf_imagetext_btn_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1e1c
+    sget v1, Lcom/resouce/module/ResID;->pdf_imagetext_btn_layout:I
 
     if-nez v0, :cond_0
 

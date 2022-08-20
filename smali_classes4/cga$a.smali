@@ -103,7 +103,7 @@
 
     move-result v0
 
-    const v3, 0x7f080806
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_files_documents_icon_device:I
 
     if-ne v0, v3, :cond_2
 

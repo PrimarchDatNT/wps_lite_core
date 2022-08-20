@@ -409,7 +409,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0be9
+    sget v1, Lcom/resouce/module/ResID;->evernote_no_note_resources:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -439,7 +439,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0bea
+    sget v1, Lcom/resouce/module/ResID;->evernote_no_notes:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0beb
+    sget v1, Lcom/resouce/module/ResID;->evernote_no_resources:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0bec
+    sget v1, Lcom/resouce/module/ResID;->evernote_not_support_notebook:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0bed
+    sget v1, Lcom/resouce/module/ResID;->evernote_progressing_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -557,7 +557,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d56
+    sget v1, Lcom/resouce/module/ResID;->filelist_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -632,7 +632,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2548
+    sget v1, Lcom/resouce/module/ResID;->progress_phone:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -664,7 +664,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b5d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_filelistview:I
 
     const/4 v2, 0x0
 
@@ -843,14 +843,14 @@
     .line 2
     iget-object v0, p0, Lja8;->j:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
     .line 3
     iget-object v0, p0, Lja8;->j:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f12253d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
@@ -860,14 +860,14 @@
     :cond_0
     iget-object v0, p0, Lja8;->j:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f081552
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_catalog:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
     .line 5
     iget-object v0, p0, Lja8;->j:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f1205ef
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nofilesindirectory:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 

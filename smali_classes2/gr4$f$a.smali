@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1219d8
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_save_format:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1219cf
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_audio_null_text:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

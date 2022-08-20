@@ -114,7 +114,7 @@
     .line 5
     iget-object p1, p0, Laya$j;->S:Landroid/app/Activity;
 
-    const p2, 0x7f120b90
+    sget p2, Lcom/resouce/module/ResSTRING;->et_name_exist_error:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -140,7 +140,7 @@
     :goto_0
     iget-object p1, p0, Laya$j;->S:Landroid/app/Activity;
 
-    const p2, 0x7f122392
+    sget p2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -66,7 +66,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0a64
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ppt_anchor_dialog:I
 
     invoke-virtual {v2, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -81,7 +81,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b228a
+    sget v3, Lcom/resouce/module/ResID;->ppt_anchor_dialog_gridview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

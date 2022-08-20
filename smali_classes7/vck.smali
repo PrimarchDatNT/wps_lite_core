@@ -37,7 +37,7 @@
     .line 2
     iput-object p2, p0, Lvck;->a:Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;
 
-    const p2, 0x7f0b1888
+    sget p2, Lcom/resouce/module/ResID;->mi_image_close:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object p2, p0, Lvck;->b:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const p2, 0x7f0b188d
+    sget p2, Lcom/resouce/module/ResID;->mi_search:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
 
     iput-object p2, p0, Lvck;->c:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const p2, 0x7f0b1891
+    sget p2, Lcom/resouce/module/ResID;->mi_share:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object p2, p0, Lvck;->d:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const p2, 0x7f0b1892
+    sget p2, Lcom/resouce/module/ResID;->mi_title:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -331,12 +331,12 @@
 
     if-eqz v0, :cond_5
 
-    const v2, 0x7f0809aa
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_dark:I
 
     goto :goto_1
 
     :cond_5
-    const v2, 0x7f0809ab
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_light:I
 
     .line 9
     :goto_1
@@ -350,12 +350,12 @@
 
     if-eqz v0, :cond_7
 
-    const v2, 0x7f0809a6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_dark:I
 
     goto :goto_2
 
     :cond_7
-    const v2, 0x7f0809a7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_light:I
 
     .line 11
     :goto_2
@@ -369,12 +369,12 @@
 
     if-eqz v0, :cond_9
 
-    const v0, 0x7f0809a8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_dark:I
 
     goto :goto_3
 
     :cond_9
-    const v0, 0x7f0809a9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_light:I
 
     .line 13
     :goto_3

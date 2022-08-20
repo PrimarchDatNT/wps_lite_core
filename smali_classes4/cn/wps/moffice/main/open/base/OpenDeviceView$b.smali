@@ -124,7 +124,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b10e7
+    sget v3, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v3, p2, Lzfa$a;->a:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b10e9
+    sget v3, Lcom/resouce/module/ResID;->home_open_item_title:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v3, p2, Lzfa$a;->b:Landroid/widget/TextView;
 
-    const v3, 0x7f0b10de
+    sget v3, Lcom/resouce/module/ResID;->home_open_device_item_available:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v3, p2, Lcn/wps/moffice/main/open/base/OpenDeviceView$b$b;->d:Landroid/widget/TextView;
 
-    const v3, 0x7f0b10df
+    sget v3, Lcom/resouce/module/ResID;->home_open_device_item_progress:I
 
     .line 10
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v3, p2, Lcn/wps/moffice/main/open/base/OpenDeviceView$b$b;->e:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v3, 0x7f0b10eb
+    sget v3, Lcom/resouce/module/ResID;->home_open_item_underline:I
 
     .line 11
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f0b10e6
+    sget v3, Lcom/resouce/module/ResID;->home_open_item_clear_local_file_view:I
 
     .line 13
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,12 +390,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e072d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_open_device_list_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e055b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_open_device_list_item:I
 
     :goto_0
     iput v0, p0, Lzfa;->e:I

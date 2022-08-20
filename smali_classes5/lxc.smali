@@ -345,7 +345,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122860
+    sget p2, Lcom/resouce/module/ResSTRING;->public_search_empty:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

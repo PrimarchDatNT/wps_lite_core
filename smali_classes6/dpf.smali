@@ -25,7 +25,7 @@
 .method public constructor <init>(Lzof;)V
     .locals 1
 
-    const v0, 0x7f1207c0
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_number_accounting:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhpf;-><init>(Lzof;I)V
@@ -106,7 +106,7 @@
     .line 2
     iget-object v0, p0, Lcpf;->c:Lzof;
 
-    const v1, 0x7f1207c0
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_accounting:I
 
     invoke-virtual {v0, v1}, Lvof;->p(I)V
 
@@ -175,7 +175,7 @@
     .line 2
     iget-object v0, p0, Lcpf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0ad0
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout01:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 4
     iget-object v0, p0, Lcpf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ac8
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_checkbox01_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f120ba9
+    sget v1, Lcom/resouce/module/ResSTRING;->et_number_currency_sign:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -275,7 +275,7 @@
 
     iget-object v1, p0, Lcpf;->a:Landroid/content/Context;
 
-    const v2, 0x7f0e099d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v0, v1, v2}, Lm7h;-><init>(Landroid/content/Context;I)V
 
@@ -284,7 +284,7 @@
     .line 2
     iget-object v0, p0, Lcpf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ace
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_spinner01:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

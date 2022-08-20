@@ -288,7 +288,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0708f7
+    sget v3, Lcom/resouce/module/ResDIMEN;->ppt_close_ink_tips_text_padding:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -308,7 +308,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -316,7 +316,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f122369
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_close:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
@@ -787,12 +787,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120724
+    sget v0, Lcom/resouce/module/ResSTRING;->ent_sign:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f12236f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     return v0
 .end method

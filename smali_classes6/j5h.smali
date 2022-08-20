@@ -33,7 +33,7 @@
     .line 1
     iget-object v0, p0, Lj5h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2d22
+    sget v1, Lcom/resouce/module/ResID;->ss_note_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,7 +83,7 @@
     .line 1
     iget-object v0, p0, Lj5h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2d22
+    sget v1, Lcom/resouce/module/ResID;->ss_note_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     .line 1
     iget-object v0, p0, Lj5h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2d22
+    sget v1, Lcom/resouce/module/ResID;->ss_note_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

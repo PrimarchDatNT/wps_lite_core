@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b1c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog:I
 
     const/4 v2, 0x0
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29a6
+    sget v1, Lcom/resouce/module/ResID;->root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     check-cast v1, Lfb5;
 
-    const v2, 0x7f0b054f
+    sget v2, Lcom/resouce/module/ResID;->content_parent:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     invoke-interface {v1, v3}, Lfb5;->setOnDragListener(Lfb5$a;)V
 
-    const p1, 0x7f0b3295
+    sget p1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v1, 0x7f0b306e
+    sget v1, Lcom/resouce/module/ResID;->top_divide_line:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setGravity(I)V
 
-    const p1, 0x7f0b068f
+    sget p1, Lcom/resouce/module/ResID;->dialog_content:I
 
     .line 12
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

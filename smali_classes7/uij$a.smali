@@ -80,7 +80,7 @@
     .line 4
     iget-object p1, p0, Luij$a;->B:Luij;
 
-    const v0, 0x7f0b1350
+    sget v0, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     invoke-virtual {p1, v0}, Lozl;->Z0(I)Landroid/view/View;
 

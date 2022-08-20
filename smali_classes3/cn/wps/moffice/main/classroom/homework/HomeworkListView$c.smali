@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->p0:Landroid/content/Context;
 
-    const v0, 0x7f0b319d
+    sget v0, Lcom/resouce/module/ResID;->tv_home_work_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b319e
+    sget v0, Lcom/resouce/module/ResID;->tv_home_work_time:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b14c4
+    sget v0, Lcom/resouce/module/ResID;->iv_share:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b1476
+    sget v0, Lcom/resouce/module/ResID;->iv_home_work_type:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b319c
+    sget v0, Lcom/resouce/module/ResID;->tv_home_work_folder:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b310e
+    sget v0, Lcom/resouce/module/ResID;->tv_assignment_number:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListView$c;->p0:Landroid/content/Context;
 
-    const v2, 0x7f12026f
+    sget v2, Lcom/resouce/module/ResSTRING;->class_text_homework_assignment:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

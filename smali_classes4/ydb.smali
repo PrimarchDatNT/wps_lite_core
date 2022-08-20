@@ -409,7 +409,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fd0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->th_id_gdpr:I
 
     const/4 v2, 0x0
 
@@ -419,7 +419,7 @@
 
     iput-object v0, p0, Lydb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30e4
+    sget v1, Lcom/resouce/module/ResID;->tvAgree:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -433,7 +433,7 @@
     .line 3
     iget-object v0, p0, Lydb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30fb
+    sget v1, Lcom/resouce/module/ResID;->tvTip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -446,7 +446,7 @@
     .line 4
     iget-object v0, p0, Lydb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -457,7 +457,7 @@
     .line 5
     iget-object v0, p0, Lydb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2ddb    # 1.8500079E38f
+    sget v1, Lcom/resouce/module/ResID;->subtitle:I    # 1.8500079E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -468,7 +468,7 @@
     .line 6
     iget-object v0, p0, Lydb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b12a8
+    sget v1, Lcom/resouce/module/ResID;->img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

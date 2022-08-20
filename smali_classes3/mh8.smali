@@ -252,7 +252,7 @@
     .line 12
     iget-object p1, p0, Lmh8;->b:Lhd3;
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p4, Lmh8$b;
 
@@ -263,7 +263,7 @@
     .line 13
     iget-object p1, p0, Lmh8;->b:Lhd3;
 
-    const p3, 0x7f120ccf
+    sget p3, Lcom/resouce/module/ResSTRING;->fanyigo_retry:I
 
     new-instance p4, Lmh8$c;
 

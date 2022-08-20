@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/et_insert_list_item_width" android:layout_height="wrap_content" android:minWidth="@dimen/public_toolbar_popupwindow_withicon_min_width" android:minHeight="@dimen/public_toolbar_popupwindow_withicon_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/et_pivot_table_field_checked" android:layout_width="13.0dip" android:layout_height="10.0dip" android:layout_marginLeft="@dimen/et_pivot_table_check_btn_padding" android:layout_marginRight="@dimen/et_pivot_table_check_btn_padding" android:src="@drawable/phone_ss_filter_check_on" android:scaleType="fitXY" android:layout_marginStart="@dimen/et_pivot_table_check_btn_padding" android:layout_marginEnd="@dimen/et_pivot_table_check_btn_padding" />
-    <TextView android:textSize="@dimen/et_pivot_table_list_view_font_size" android:textColor="@color/mainTextColor" android:gravity="start|center" android:id="@id/et_pivot_table_field_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
-</LinearLayout>

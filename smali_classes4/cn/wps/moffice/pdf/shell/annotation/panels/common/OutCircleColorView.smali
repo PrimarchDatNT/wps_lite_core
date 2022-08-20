@@ -69,9 +69,9 @@
 .method public final a(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 3
 
-    const v0, 0x7f070d1d
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_inner_circle_width:I
 
-    const v1, 0x7f070d1e
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_outside_circle_width:I
 
     if-eqz p2, :cond_0
 

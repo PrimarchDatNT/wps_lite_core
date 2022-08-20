@@ -20,9 +20,9 @@
     .line 2
     new-instance v0, Lvme$a;
 
-    const v1, 0x7f081b6f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_ribbonicon_font:I
 
-    const v2, 0x7f122815
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     invoke-direct {v0, p0, v1, v2}, Lvme$a;-><init>(Lvme;II)V
 

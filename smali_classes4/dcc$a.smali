@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d9d
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_text:I
 
     if-ne p1, v0, :cond_0
 
@@ -54,7 +54,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1d9c
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_area:I
 
     if-ne p1, v0, :cond_1
 

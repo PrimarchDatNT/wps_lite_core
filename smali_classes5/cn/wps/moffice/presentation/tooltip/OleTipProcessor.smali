@@ -136,7 +136,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/presentation/tooltip/OleTipProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f121d76
+    sget v1, Lcom/resouce/module/ResSTRING;->public_back_read_source_doc:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -147,7 +147,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/presentation/tooltip/OleTipProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f122233
+    sget v1, Lcom/resouce/module/ResSTRING;->public_go:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

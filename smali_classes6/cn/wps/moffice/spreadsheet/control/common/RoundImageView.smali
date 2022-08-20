@@ -249,7 +249,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060467
+    sget v3, Lcom/resouce/module/ResCOLOR;->phone_public_normal_btn_press_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -47,7 +47,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2b7a
+    sget v1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     if-ne v0, v1, :cond_0
 

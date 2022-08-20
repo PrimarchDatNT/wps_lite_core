@@ -40,7 +40,7 @@
 
     invoke-direct {v0, v1}, Lwgl;-><init>(Z)V
 
-    const v2, 0x7f0b2e38
+    sget v2, Lcom/resouce/module/ResID;->table_export:I
 
     const-string v3, "table-extract"
 
@@ -51,7 +51,7 @@
 
     invoke-direct {v0, v1}, Ltgl;-><init>(Z)V
 
-    const v1, 0x7f0b2e31
+    sget v1, Lcom/resouce/module/ResID;->table_attribute:I
 
     const-string v2, "table-attribute"
 
@@ -62,7 +62,7 @@
 
     invoke-direct {v0}, Lxgl;-><init>()V
 
-    const v1, 0x7f0b2e43
+    sget v1, Lcom/resouce/module/ResID;->table_insert:I
 
     const-string v2, "table-insert"
 
@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0}, Lvgl;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2e36
+    sget v1, Lcom/resouce/module/ResID;->table_delete:I
 
     const-string v2, "table-delete"
 
@@ -98,11 +98,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b2e31
+    sget v0, Lcom/resouce/module/ResID;->table_attribute:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b2e43
+    sget v0, Lcom/resouce/module/ResID;->table_insert:I
 
     if-ne p1, v0, :cond_1
 
@@ -178,7 +178,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122a48
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table:I
 
     return v0
 .end method
@@ -207,7 +207,7 @@
     .line 1
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0e08ed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_content_layout:I
 
     invoke-static {v1, v0}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -241,7 +241,7 @@
 
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b2745
+    sget v2, Lcom/resouce/module/ResID;->public_table_content:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
     .line 7
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2e39
+    sget v1, Lcom/resouce/module/ResID;->table_export_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 8
     iget-object v1, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v2, 0x7f0b2e38
+    sget v2, Lcom/resouce/module/ResID;->table_export:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 

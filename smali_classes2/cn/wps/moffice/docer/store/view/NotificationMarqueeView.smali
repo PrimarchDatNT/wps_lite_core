@@ -88,13 +88,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e03f1
+    sget p2, Lcom/resouce/module/ResLAYOUT;->internal_server_src_notify_layout:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b31fc
+    sget p1, Lcom/resouce/module/ResID;->tv_notify_src:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/docer/store/view/NotificationMarqueeView;->T:Lcn/wps/moffice/docer/store/view/MarqueeTextView;
 
-    const p1, 0x7f0b1429
+    sget p1, Lcom/resouce/module/ResID;->iv_close_notify:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

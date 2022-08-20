@@ -591,7 +591,7 @@
 
     if-nez p10, :cond_1
 
-    const v3, 0x7f122976
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_from_wps_cn_pos:I
 
     move-object/from16 v4, p3
 
@@ -804,7 +804,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122976
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_from_wps_cn_pos:I
 
     move-object/from16 v1, p3
 
@@ -1063,7 +1063,7 @@
     const-string p1, "?utm_source=em"
 
     :cond_4
-    const p2, 0x7f1223cc
+    sget p2, Lcom/resouce/module/ResSTRING;->public_kso_short_link_url:I
 
     .line 10
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1075,7 +1075,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f1223cb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_kso_long_link_url:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1217,7 +1217,7 @@
 
     move-result-object v3
 
-    const v6, 0x7f0e0b77
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_component_link_share_tips:I
 
     const/4 v7, 0x0
 
@@ -1230,7 +1230,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f070d13
+    sget v7, Lcom/resouce/module/ResDIMEN;->v10_phone_public_base_padding:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1314,7 +1314,7 @@
 
     aput-object p1, p2, v1
 
-    const p1, 0x7f121f7e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_copy_link_invite_edit_share_title:I
 
     invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1347,7 +1347,7 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p1, 0x7f121f7d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_copy_link_invite_edit_share_content:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1433,7 +1433,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f1223ad
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_edit_share_title:I
 
     invoke-virtual {p0, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1536,7 +1536,7 @@
 
     aput-object p1, p2, v1
 
-    const p1, 0x7f1223ad
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_edit_share_title:I
 
     invoke-virtual {p0, p1, p2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1712,7 +1712,7 @@
 
     invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v0, 0x7f121d83
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_sharing_title:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1733,7 +1733,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f1223e2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_link_des:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1775,7 +1775,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f122974
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_from:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1922,7 +1922,7 @@
 
     invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p4, 0x7f1220ef
+    sget p4, Lcom/resouce/module/ResSTRING;->public_file:I
 
     invoke-virtual {p0, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3354,7 +3354,7 @@
 
     if-eqz v11, :cond_5
 
-    const v0, 0x7f1223e5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_has_copy_publish_content:I
 
     .line 14
     invoke-virtual {v15, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3364,7 +3364,7 @@
     goto :goto_2
 
     :cond_5
-    const v0, 0x7f12295f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_success_msg:I
 
     .line 15
     invoke-virtual {v15, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3999,7 +3999,7 @@
 
     if-nez v3, :cond_0
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 1
     invoke-static {v4, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -4135,14 +4135,14 @@
     :cond_4
     if-eqz v5, :cond_5
 
-    const v1, 0x7f1223ac
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_share_content:I
 
     .line 11
     invoke-virtual {v4, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v11, 0x7f1223ad
+    sget v11, Lcom/resouce/module/ResSTRING;->public_invite_edit_share_title:I
 
     new-array v6, v6, [Ljava/lang/Object;
 
@@ -4164,7 +4164,7 @@
     goto :goto_3
 
     :cond_5
-    const v0, 0x7f121971
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_from_wps_tips:I
 
     .line 13
     invoke-virtual {v4, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4364,7 +4364,7 @@
     .line 1
     invoke-static {p4}, Llkh;->m(Ljava/lang/String;)Ljava/lang/String;
 
-    const v0, 0x7f121971
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_from_wps_tips:I
 
     .line 2
     invoke-virtual {p5, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -5078,7 +5078,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 1
     :try_start_0
@@ -5090,7 +5090,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122950
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5139,7 +5139,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f121255
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_setting:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -5149,7 +5149,7 @@
     return-object p0
 
     :cond_0
-    const p1, 0x7f1206b7
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_modify:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -5169,7 +5169,7 @@
 
     if-nez v0, :cond_0
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 p1, 0x0
 
@@ -5188,7 +5188,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5266,7 +5266,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12299c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

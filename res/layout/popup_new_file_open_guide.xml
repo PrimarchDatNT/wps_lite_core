@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/background_pop_new_file_open_guide" android:paddingLeft="6.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/drawable_guide_new_file_open" />
-    <TextView android:textSize="11.0sp" android:textColor="@color/whiteMainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Tap to open recent files updated" android:layout_marginStart="4.0dip" />
-</LinearLayout>

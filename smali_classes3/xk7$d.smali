@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c7c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_unsupport_new_sharefolder:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

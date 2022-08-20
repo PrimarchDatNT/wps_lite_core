@@ -118,7 +118,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     const-string v2, "translationPanel-close"
 
@@ -204,7 +204,7 @@
 
     invoke-direct {v0, p0}, Lk1l$f;-><init>(Lk1l;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "Translation-return"
 
@@ -389,7 +389,7 @@
     :cond_1
     iget-object p1, p0, Lk1l;->f0:Landroid/content/Context;
 
-    const p2, 0x7f120ce0
+    sget p2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_hint:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -461,7 +461,7 @@
 
     iget-object v1, p0, Lk1l;->f0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -508,7 +508,7 @@
 
     iput-object v0, p0, Lk1l;->e0:Lcn/wps/moffice/writer/shell/fanyi/view/TranslationView;
 
-    const p1, 0x7f0b2b0b
+    sget p1, Lcom/resouce/module/ResID;->selectlanguage_bottom_panel_container:I
 
     .line 2
     invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

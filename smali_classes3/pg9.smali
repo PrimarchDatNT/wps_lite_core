@@ -210,7 +210,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    const v2, 0x7f122b0c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_transfer_sending:I
 
     const/4 v3, 0x1
 
@@ -327,12 +327,12 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p1, 0x7f0e0e29
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_send_file_success_dialog:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setView(I)Lhd3;
 
-    const p1, 0x7f0b31a0
+    sget p1, Lcom/resouce/module/ResID;->tv_how:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     if-eq p2, p1, :cond_0
 
-    const p1, 0x7f0b31e0
+    sget p1, Lcom/resouce/module/ResID;->tv_msg:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -497,7 +497,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0e0d1d
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_new_send_file_dialog:I
 
     const/4 v7, 0x0
 
@@ -505,7 +505,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b0ce8
+    sget v6, Lcom/resouce/module/ResID;->file_name_root:I
 
     .line 4
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0602c2
+    sget v9, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -529,14 +529,14 @@
 
     invoke-virtual {v6, v7}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v6, 0x7f0b30a8
+    sget v6, Lcom/resouce/module/ResID;->transfer_introduce:I
 
     .line 6
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b30a7
+    sget v7, Lcom/resouce/module/ResID;->transfer_device_desc:I
 
     .line 7
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f122afd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_multi_pc_devices:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -559,7 +559,7 @@
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f122af3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_current_pc:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -611,7 +611,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 14
     new-instance v2, Lpg9$b;
@@ -627,7 +627,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const v1, 0x7f120693
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 16
     new-instance v2, Lpg9$d;
@@ -656,11 +656,11 @@
 
     invoke-direct {v0, p0}, Lpg9$e;-><init>(Lpg9;)V
 
-    const v1, 0x7f122b0b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_send_success:I
 
     const/4 v2, -0x1
 
-    const v3, 0x7f121f40
+    sget v3, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {p0, v1, v2, v3, v0}, Lpg9;->t(IIILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -673,7 +673,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b31a0
+    sget v2, Lcom/resouce/module/ResID;->tv_how:I
 
     const/4 v3, 0x1
 
@@ -710,7 +710,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b31e0
+    sget v1, Lcom/resouce/module/ResID;->tv_msg:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v5, 0x7f122af1
+    sget v5, Lcom/resouce/module/ResSTRING;->public_transfer_checkout_by_device:I
 
     new-array v3, v3, [Ljava/lang/Object;
 

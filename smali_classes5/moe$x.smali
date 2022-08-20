@@ -74,7 +74,7 @@
 
     iget-object v0, v0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

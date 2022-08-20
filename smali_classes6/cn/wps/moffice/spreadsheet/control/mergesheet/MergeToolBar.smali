@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0976
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_merge_toolbar_item_view:I
 
     const/4 v2, 0x0
 
@@ -188,7 +188,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/mergesheet/MergeToolBar;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2d75
+    sget v0, Lcom/resouce/module/ResID;->ss_toolbar_item_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/mergesheet/MergeToolBar;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2d77
+    sget v0, Lcom/resouce/module/ResID;->ss_toolbar_item_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/mergesheet/MergeToolBar;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2d74
+    sget v0, Lcom/resouce/module/ResID;->ss_toolbar_item_ext_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/mergesheet/MergeToolBar;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b15b1
+    sget v0, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

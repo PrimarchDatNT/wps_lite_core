@@ -78,7 +78,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070754
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slidelayouts_item_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070751
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slidelayouts_horizontal_padding:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -269,7 +269,7 @@
     sub-int/2addr v1, v3
 
     :goto_0
-    const v3, 0x7f070588
+    sget v3, Lcom/resouce/module/ResDIMEN;->pad_ppt_print_slide_thum_grid_padding_left_right:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimension(I)F
@@ -280,7 +280,7 @@
 
     move-result v3
 
-    const v4, 0x7f070586
+    sget v4, Lcom/resouce/module/ResDIMEN;->pad_ppt_print_slide_thum_grid_hor_space:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimension(I)F

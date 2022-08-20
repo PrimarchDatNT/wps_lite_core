@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1210f6
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_ndoc_not_backup_finish:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     :cond_0
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121217
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

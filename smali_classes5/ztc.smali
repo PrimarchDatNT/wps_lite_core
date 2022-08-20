@@ -52,7 +52,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122552
+    sget p2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -184,7 +184,7 @@
 
     new-array p3, p3, [Ljava/lang/Integer;
 
-    const v2, 0x7f0802a1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
     .line 2
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -193,7 +193,7 @@
 
     aput-object v2, p3, v1
 
-    const v2, 0x7f08029f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_rotating_screen:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -224,7 +224,7 @@
 
     invoke-virtual {p1, p2}, Lytc;->a(I)V
 
-    const p2, 0x7f121984
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_public_lock_screen:I
 
     .line 6
     invoke-virtual {p1, p2}, Lytc;->d(I)V
@@ -241,7 +241,7 @@
     goto :goto_0
 
     :cond_3
-    const p0, 0x7f121995
+    sget p0, Lcom/resouce/module/ResSTRING;->phone_public_rotate_screen:I
 
     .line 8
     invoke-virtual {p1, p0}, Lytc;->d(I)V

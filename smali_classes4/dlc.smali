@@ -578,7 +578,7 @@
 
     :cond_2
     :goto_0
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -923,7 +923,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f1217cc
+    sget p0, Lcom/resouce/module/ResSTRING;->pdf_edit_keep_modify:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -933,7 +933,7 @@
 
     invoke-direct {p0, p2}, Ldlc$c;-><init>(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f1223d6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {v0, p2, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -942,7 +942,7 @@
 
     invoke-direct {p0, p1}, Ldlc$d;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f1217cb
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_edit_keep:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -977,9 +977,9 @@
 
     move-result v3
 
-    const v4, 0x7f1217c6
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
-    const v5, 0x7f1217b4
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     const/4 v6, 0x0
 
@@ -1017,7 +1017,7 @@
     .line 6
     invoke-virtual {v0, p1}, Lkib;->C(I)V
 
-    const p1, 0x7f08075b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit:I
 
     new-array v1, v7, [Lcib$b;
 
@@ -1071,11 +1071,11 @@
 
     if-ne v0, p0, :cond_2
 
-    const p0, 0x7f080707
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2fill_form:I
 
-    const v0, 0x7f1217bc
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form_privilege_title:I
 
-    const v4, 0x7f1217bb
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form_privilege_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -1111,7 +1111,7 @@
     goto :goto_1
 
     :cond_2
-    const p0, 0x7f08075c
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit_oversea:I
 
     new-array v0, v1, [Lcib$b;
 

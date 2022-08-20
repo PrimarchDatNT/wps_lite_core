@@ -302,7 +302,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12149b
+    sget v1, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -318,7 +318,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081c96
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -362,7 +362,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -378,7 +378,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081301
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -394,7 +394,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -572,7 +572,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e028e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->foreign_template_item_fragment:I
 
     const/4 v0, 0x0
 
@@ -583,7 +583,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0f47
+    sget p2, Lcom/resouce/module/ResID;->gridview:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/EnTemplateItemFragment;->B:Landroid/view/View;
 
-    const p2, 0x7f0b1625
+    sget p2, Lcom/resouce/module/ResID;->list_error_default:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

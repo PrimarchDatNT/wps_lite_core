@@ -723,7 +723,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605c7
+    sget v2, Lcom/resouce/module/ResCOLOR;->radar_view_center_circle_color:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -743,7 +743,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605c8
+    sget v2, Lcom/resouce/module/ResCOLOR;->radar_view_color:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -763,7 +763,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605c9
+    sget v2, Lcom/resouce/module/ResCOLOR;->radar_view_spread_circle_color:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -907,7 +907,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -922,7 +922,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070c7f
+    sget v3, Lcom/resouce/module/ResDIMEN;->sp20:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

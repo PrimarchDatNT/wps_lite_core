@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="120.0dip">
-        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/empty_item_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_404_no_document" />
-        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/empty_page_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </LinearLayout>
-</LinearLayout>

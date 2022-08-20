@@ -62,7 +62,7 @@
 
     iget-object v0, v0, Lhz4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122577
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_savedialog_enabletoast:I
 
     const/4 v2, 0x0
 

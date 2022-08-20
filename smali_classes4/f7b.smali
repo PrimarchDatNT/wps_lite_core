@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->scancropBgColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1074,7 +1074,7 @@
     .line 8
     iget-object v1, p0, Lf7b;->e0:Landroid/graphics/Paint;
 
-    const v4, 0x7f070ad2
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_custom_dialog_title_text_size:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1103,7 +1103,7 @@
 
     iput-object v1, p0, Lf7b;->Z:Landroid/graphics/Paint;
 
-    const v4, 0x7f0605df
+    sget v4, Lcom/resouce/module/ResCOLOR;->scanBgBlackColor:I
 
     .line 12
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I

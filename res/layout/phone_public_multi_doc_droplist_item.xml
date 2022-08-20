@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/multi_doc_droplist_item" android:background="@drawable/public_multidoc_list_selector" android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/multi_doc_seleted_image" android:background="@color/mainColor" android:layout_width="4.0dip" android:layout_height="24.0dip" />
-    <ImageView android:id="@id/item_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/documents_icon_doc" android:layout_marginStart="12.0dip" android:layout_marginEnd="14.0dip" />
-    <TextView android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="start" android:id="@id/item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/documentmanager_ribbon_filetabs" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" style="@style/phone_recent_list_maintitle" />
-    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/item_close" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/phone_home_message_tips_close" android:scaleType="fitXY" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/public_image_bg_style" />
-</LinearLayout>

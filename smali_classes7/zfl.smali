@@ -114,7 +114,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1cc8
+    sget v1, Lcom/resouce/module/ResID;->para_linespace_type:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,19 +139,19 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f1233b3
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_linespacing_exactly_candidate:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1233b6
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_linespacing_multi:I
 
     .line 8
     :goto_0
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
     :cond_1
-    const v1, 0x7f0b1cc9
+    sget v1, Lcom/resouce/module/ResID;->para_linespace_value:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

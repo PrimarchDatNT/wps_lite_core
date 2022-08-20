@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121be7
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_seleted_item:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -286,7 +286,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectSlideView;->S:Landroid/widget/Button;
 
-    const v1, 0x7f121b67
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_deselected_all:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -639,7 +639,7 @@
 
     iget-object v2, p0, Le7e;->a:Landroid/content/Context;
 
-    const v3, 0x7f13013a
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v2, v3}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -841,12 +841,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121b67
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_deselected_all:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

@@ -80,7 +80,7 @@
     .line 4
     iget-object v0, p0, Lhpg$a;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f0817cc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -103,7 +103,7 @@
     .line 6
     iget-object v0, p0, Lhpg$a;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f0808a3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f081a18
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_longpic_thumb_image_placeholder:I
 
     .line 16
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;

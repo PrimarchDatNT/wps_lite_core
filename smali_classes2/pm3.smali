@@ -35,7 +35,7 @@
     .line 1
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b275b
+    sget v1, Lcom/resouce/module/ResID;->public_top_simple_title_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -49,7 +49,7 @@
     .line 3
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b273d
+    sget v1, Lcom/resouce/module/ResID;->public_simple_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

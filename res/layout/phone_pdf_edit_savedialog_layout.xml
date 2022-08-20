@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pdf_edit_annotation_save_dailog_content" android:lineSpacingExtra="6.0dip" />
-    <cn.wps.moffice.common.CustomCheckButton android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/subTextColor" android:id="@id/pdf_edit_savedialog_no_reminders_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/open_platform_guide_checkbox_text" />
-</LinearLayout>

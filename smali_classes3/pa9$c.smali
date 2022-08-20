@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221fb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_full_text_found_build_index_failed:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221fb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_full_text_found_build_index_failed:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

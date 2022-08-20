@@ -58,7 +58,7 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f081c3e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_watermark:I
 
     const-string v5, "watermark"
 
@@ -85,7 +85,7 @@
 
     const/16 v12, 0x14
 
-    const v13, 0x7f081c3a
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_origin:I
 
     const-string v14, "page_mode"
 
@@ -114,7 +114,7 @@
 
     const/16 v5, 0x14
 
-    const v6, 0x7f081c3b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_phone:I
 
     const-string v7, "phone_mode"
 
@@ -141,7 +141,7 @@
 
     const/16 v13, 0x14
 
-    const v14, 0x7f081c3f
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_white:I
 
     const-string v15, "white"
 

@@ -95,12 +95,12 @@
 
     if-eqz p2, :cond_0
 
-    const v2, 0x7f122771
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_add_hint:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f122774
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_delete_hint:I
 
     :goto_0
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

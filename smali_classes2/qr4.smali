@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phonetic_filelist_layout:I
 
     const/4 v2, 0x0
 
@@ -155,7 +155,7 @@
     :cond_0
     iget-object v0, p0, Lqr4;->d:Landroid/view/View;
 
-    const v1, 0x7f0b21f7
+    sget v1, Lcom/resouce/module/ResID;->phonetic_filelist_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
     .line 4
     iget-object v0, p0, Lqr4;->d:Landroid/view/View;
 
-    const v1, 0x7f0b085a
+    sget v1, Lcom/resouce/module/ResID;->empty_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 1
     iget-object v0, p0, Lqr4;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -234,7 +234,7 @@
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f1219db
+    sget v1, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_filelist_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

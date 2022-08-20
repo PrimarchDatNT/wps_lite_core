@@ -694,14 +694,14 @@
     .line 1
     iget-object v0, p0, Ls0e;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081560
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 2
     iget-object v0, p0, Ls0e;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1231c0
+    sget v1, Lcom/resouce/module/ResSTRING;->website_load_fail_click_retry:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -721,14 +721,14 @@
     .line 1
     iget-object v0, p0, Ls0e;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f08155e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_template:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 2
     iget-object v0, p0, Ls0e;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121485
+    sget v1, Lcom/resouce/module/ResSTRING;->no_summary_tip:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -880,7 +880,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e6d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_summary_template_detail_layout:I
 
     const/4 v2, 0x0
 
@@ -914,7 +914,7 @@
     .line 1
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -967,7 +967,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c49
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1041,7 +1041,7 @@
     .line 4
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b3044
+    sget v1, Lcom/resouce/module/ResID;->tl_bottom_toolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1061,7 +1061,7 @@
     .line 6
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b0dd3
+    sget v1, Lcom/resouce/module/ResID;->float_preview_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1074,7 +1074,7 @@
     .line 7
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1087,7 +1087,7 @@
     .line 8
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b17fd
+    sget v1, Lcom/resouce/module/ResID;->main_loading_default:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1126,11 +1126,11 @@
 
     move-result p1
 
-    const v0, 0x7f122846
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b185a
+    sget v2, Lcom/resouce/module/ResID;->membership_docer_vip_content:I
 
     if-ne p1, v2, :cond_3
 
@@ -1226,7 +1226,7 @@
     return-void
 
     :cond_3
-    const v2, 0x7f0b18cc
+    sget v2, Lcom/resouce/module/ResID;->month_card_btn:I
 
     if-ne p1, v2, :cond_5
 
@@ -1277,7 +1277,7 @@
     goto :goto_0
 
     :cond_5
-    const v2, 0x7f0b0150
+    sget v2, Lcom/resouce/module/ResID;->apply_template_card_btn:I
 
     if-ne p1, v2, :cond_7
 
@@ -1510,7 +1510,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122846
+    sget p3, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1597,7 +1597,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122846
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1712,7 +1712,7 @@
     .line 1
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b185a
+    sget v1, Lcom/resouce/module/ResID;->membership_docer_vip_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1723,7 +1723,7 @@
     .line 2
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2790
+    sget v1, Lcom/resouce/module/ResID;->purchase_desc_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1733,7 +1733,7 @@
 
     iput-object v0, p0, Ls0e;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f120540
+    sget v1, Lcom/resouce/module/ResSTRING;->docker_free:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1741,7 +1741,7 @@
     .line 4
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2ee0
+    sget v1, Lcom/resouce/module/ResID;->template_use:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1752,7 +1752,7 @@
     .line 5
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b18cc
+    sget v1, Lcom/resouce/module/ResID;->month_card_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1762,7 +1762,7 @@
 
     iput-object v0, p0, Ls0e;->e0:Landroid/widget/Button;
 
-    const v1, 0x7f120edc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_continue_buy_membership:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
@@ -1770,7 +1770,7 @@
     .line 7
     iget-object v0, p0, Ls0e;->e0:Landroid/widget/Button;
 
-    const v1, 0x7f081353
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_white_noradius:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -1785,7 +1785,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060220
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_template_color_orange:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1796,7 +1796,7 @@
     .line 9
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b0150
+    sget v1, Lcom/resouce/module/ResID;->apply_template_card_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1806,7 +1806,7 @@
 
     iput-object v0, p0, Ls0e;->f0:Landroid/widget/Button;
 
-    const v1, 0x7f122a96
+    sget v1, Lcom/resouce/module/ResSTRING;->public_template_free_use:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
@@ -1814,7 +1814,7 @@
     .line 11
     iget-object v0, p0, Ls0e;->f0:Landroid/widget/Button;
 
-    const v1, 0x7f081343
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_orange_noradius:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -1829,7 +1829,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1877,7 +1877,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1893,7 +1893,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f123197
+    sget v0, Lcom/resouce/module/ResSTRING;->use_fail:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1974,7 +1974,7 @@
     .line 1
     iget-object v0, p0, Ls0e;->W:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

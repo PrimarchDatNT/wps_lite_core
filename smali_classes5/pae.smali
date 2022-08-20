@@ -113,7 +113,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f07095a
+    sget p3, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_share_preview_item_padding:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070959
+    sget p2, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_preview_margin:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -523,7 +523,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0802
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_ppt_long_pic_share_preview_item:I
 
     const/4 v0, 0x0
 
@@ -536,7 +536,7 @@
 
     invoke-direct {p3, p0}, Lpae$a;-><init>(Lpae;)V
 
-    const v0, 0x7f0b230c
+    sget v0, Lcom/resouce/module/ResID;->ppt_long_pic_share_preview_item_img:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     iput-object v0, p3, Lpae$a;->a:Lcn/wps/moffice/presentation/control/share/longpic/view/preview/LongPicPreviewPictureView;
 
-    const v0, 0x7f0b2309
+    sget v0, Lcom/resouce/module/ResID;->ppt_long_pic_share_preview_item_bgview:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

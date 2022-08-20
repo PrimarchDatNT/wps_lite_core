@@ -721,7 +721,7 @@
     .line 47
     iget-object v0, v1, Lvv6$h;->I:Lvv6;
 
-    const v5, 0x7f1205cb
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage8:I
 
     invoke-static {v0, v5}, Lvv6;->k(Lvv6;I)V
 
@@ -731,7 +731,7 @@
     :cond_11
     iget-object v0, v1, Lvv6$h;->I:Lvv6;
 
-    const v5, 0x7f120647
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v5}, Lvv6;->k(Lvv6;I)V
 

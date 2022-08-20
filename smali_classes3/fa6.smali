@@ -148,7 +148,7 @@
     .line 2
     iget-object p3, p0, Lfa6;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0315
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_find_big_file_bigfile_item:I
 
     const/4 v1, 0x0
 
@@ -156,7 +156,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b0df1
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_bigfile_item_name_tv:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object v0, p2, Lfa6$c;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0df0
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_bigfile_item_introduce_tv:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     iput-object v0, p2, Lfa6$c;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0e07
+    sget v0, Lcom/resouce/module/ResID;->folder_maneger_find_big_file_bigfile_item_select_cb:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     iput-object v0, p2, Lfa6$c;->d:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0def
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_bigfile_item_icon_img:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

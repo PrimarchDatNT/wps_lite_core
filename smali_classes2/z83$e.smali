@@ -75,12 +75,12 @@
     .line 3
     invoke-static {v1}, Liv7;->x(Ljava/lang/String;)V
 
-    const v2, 0x7f12283f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_file_login_introduce:I
 
     .line 4
     invoke-virtual {v0, v2}, Ly83;->m(I)Ly83;
 
-    const v2, 0x7f081a0f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_login_guide_icon:I
 
     .line 5
     invoke-virtual {v0, v2}, Ly83;->j(I)Ly83;

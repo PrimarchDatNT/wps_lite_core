@@ -103,13 +103,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e046a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_select_target:I
 
     invoke-static {v0, v1, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b285f
+    sget v1, Lcom/resouce/module/ResID;->recyclerView:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object v1, p0, Lcom/linecorp/linesdk/dialog/internal/TargetListWithSearchView;->m0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b2a47
+    sget v1, Lcom/resouce/module/ResID;->searchView:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object v1, p0, Lcom/linecorp/linesdk/dialog/internal/TargetListWithSearchView;->n0:Landroidx/appcompat/widget/SearchView;
 
-    const v1, 0x7f0b0853
+    sget v1, Lcom/resouce/module/ResID;->emptyView:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

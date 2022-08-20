@@ -115,7 +115,7 @@
     .line 4
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122bdc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 v1, 0x0
 
@@ -183,7 +183,7 @@
     :goto_0
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122392
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e6c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_style_edit_text:I
 
     const/4 v2, 0x0
 
@@ -329,7 +329,7 @@
 
     invoke-direct {v2, p1, p2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p1, 0x7f1227f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 19
     invoke-virtual {v2, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -340,7 +340,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v1, Laf8$f;
 
@@ -351,7 +351,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Laf8$e;
 
@@ -462,7 +462,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -470,7 +470,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f1201ed
+    sget v2, Lcom/resouce/module/ResSTRING;->batch_rename_file_entrance_tip_suffix:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -482,7 +482,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -493,7 +493,7 @@
 
     invoke-direct {v4}, Lk63;-><init>()V
 
-    const v5, 0x7f1201ec
+    sget v5, Lcom/resouce/module/ResSTRING;->batch_rename_file_entrance_tip_prefix:I
 
     .line 14
     invoke-virtual {v4, p1, v5}, Lk63;->b(Landroid/content/Context;I)Lk63;
@@ -612,14 +612,14 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f12110e
+    sget v2, Lcom/resouce/module/ResSTRING;->home_rename_has_openning_file:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -635,7 +635,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121e1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -654,7 +654,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

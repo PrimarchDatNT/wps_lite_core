@@ -597,7 +597,7 @@
     .line 4
     sget-object v1, Lvma;->a:Ljava/lang/String;
 
-    const v2, 0x7f122ca7
+    sget v2, Lcom/resouce/module/ResSTRING;->push_tips_load_url:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

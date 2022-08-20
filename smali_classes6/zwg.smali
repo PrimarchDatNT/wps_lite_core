@@ -1185,7 +1185,7 @@
     goto :goto_4
 
     :catch_2
-    const v1, 0x7f1207a1
+    sget v1, Lcom/resouce/module/ResSTRING;->et_circle_reference_error:I
 
     const/4 v2, 0x1
 

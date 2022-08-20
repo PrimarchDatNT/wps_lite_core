@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f120574
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_checkUpdate:I
 
     if-ne p1, v0, :cond_0
 
@@ -65,7 +65,7 @@
 
     move-result p1
 
-    const v0, 0x7f120603
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_item_weibo:I
 
     if-ne p1, v0, :cond_1
 
@@ -82,7 +82,7 @@
 
     move-result p1
 
-    const v0, 0x7f120602
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_item_wechat:I
 
     if-ne p1, v0, :cond_2
 
@@ -99,7 +99,7 @@
 
     move-result p1
 
-    const v0, 0x7f122df5
+    sget v0, Lcom/resouce/module/ResSTRING;->recommend_googleplus:I
 
     if-ne p1, v0, :cond_3
 
@@ -127,7 +127,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12323e
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_moffice_googleplus_url:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     move-result p1
 
-    const v0, 0x7f12054b
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_about_item_support:I
 
     if-ne p1, v0, :cond_4
 
@@ -158,7 +158,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f120050
+    sget v0, Lcom/resouce/module/ResSTRING;->about_support_wps:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
 
     move-result p1
 
-    const v0, 0x7f120604
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend:I
 
     const-string v1, "me/settings/about"
 
@@ -230,7 +230,7 @@
 
     move-result p1
 
-    const v0, 0x7f1223c4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_join_wps_community:I
 
     if-ne p1, v0, :cond_6
 
@@ -275,7 +275,7 @@
 
     move-result p1
 
-    const v0, 0x7f120efe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_enterprise_learn:I
 
     if-ne p1, v0, :cond_7
 
@@ -310,7 +310,7 @@
 
     move-result p1
 
-    const v0, 0x7f120683
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_rating:I
 
     if-ne p1, v0, :cond_8
 
@@ -349,7 +349,7 @@
 
     move-result p1
 
-    const v0, 0x7f1205c6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_legal_provision:I
 
     if-ne p1, v0, :cond_9
 
@@ -366,7 +366,7 @@
 
     move-result p1
 
-    const p2, 0x7f1225b9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_open_source_license:I
 
     if-ne p1, p2, :cond_a
 

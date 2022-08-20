@@ -182,7 +182,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122759
+    sget p1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -297,7 +297,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f030022
+    sget v1, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

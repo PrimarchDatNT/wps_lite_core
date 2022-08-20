@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d2e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_online_security_my_permission:I
 
     const/4 v2, 0x0
 
@@ -70,7 +70,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0b269b
+    sget v1, Lcom/resouce/module/ResID;->public_online_security_edit:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b269d
+    sget v5, Lcom/resouce/module/ResID;->public_online_security_edit_descrypt:I
 
     .line 4
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,21 +88,21 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b269c
+    sget v6, Lcom/resouce/module/ResID;->public_online_security_edit_allow:I
 
     .line 5
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b269e
+    sget v7, Lcom/resouce/module/ResID;->public_online_security_edit_disallow:I
 
     .line 6
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v8, 0x7f081a67
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_online_security_edit_gray:I
 
     .line 7
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -126,7 +126,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f0b26a7
+    sget v1, Lcom/resouce/module/ResID;->public_online_security_saveas:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b26a9
+    sget v5, Lcom/resouce/module/ResID;->public_online_security_saveas_descrypt:I
 
     .line 13
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,21 +144,21 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b26a8
+    sget v6, Lcom/resouce/module/ResID;->public_online_security_saveas_allow:I
 
     .line 14
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b26aa
+    sget v7, Lcom/resouce/module/ResID;->public_online_security_saveas_disallow:I
 
     .line 15
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v8, 0x7f081a6d
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_online_security_saveas_gray:I
 
     .line 16
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -182,7 +182,7 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f0b2697
+    sget v1, Lcom/resouce/module/ResID;->public_online_security_copy:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2699
+    sget v5, Lcom/resouce/module/ResID;->public_online_security_copy_descrypt:I
 
     .line 22
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,21 +200,21 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b2698
+    sget v6, Lcom/resouce/module/ResID;->public_online_security_copy_allow:I
 
     .line 23
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b269a
+    sget v7, Lcom/resouce/module/ResID;->public_online_security_copy_disallow:I
 
     .line 24
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v8, 0x7f081a65
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_online_security_copy_gray:I
 
     .line 25
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -238,7 +238,7 @@
 
     if-nez v1, :cond_3
 
-    const v1, 0x7f0b269f
+    sget v1, Lcom/resouce/module/ResID;->public_online_security_print:I
 
     .line 30
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b26a1
+    sget v5, Lcom/resouce/module/ResID;->public_online_security_print_descrypt:I
 
     .line 31
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -256,21 +256,21 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b26a0
+    sget v6, Lcom/resouce/module/ResID;->public_online_security_print_allow:I
 
     .line 32
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b26a2
+    sget v7, Lcom/resouce/module/ResID;->public_online_security_print_disallow:I
 
     .line 33
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v8, 0x7f081a6a
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_online_security_print_gray:I
 
     .line 34
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -291,7 +291,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f122622
+    sget v0, Lcom/resouce/module/ResSTRING;->public_permission_info_title:I
 
     const/16 v1, 0x11
 
@@ -305,7 +305,7 @@
 
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 

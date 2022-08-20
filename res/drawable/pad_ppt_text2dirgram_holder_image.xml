@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="21.0dip" android:insetRight="21.0dip" android:insetTop="49.0dip" android:insetBottom="49.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <layer-list>
-        <item android:drawable="@drawable/pad_comp_loading" />
-    </layer-list>
-</inset>

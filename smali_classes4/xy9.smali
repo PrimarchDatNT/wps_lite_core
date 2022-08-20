@@ -355,7 +355,7 @@
 
     iput-object v0, p0, Lxy9;->d:Landroid/view/View;
 
-    const v1, 0x7f0b1158
+    sget v1, Lcom/resouce/module/ResID;->home_root_ptr_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -366,7 +366,7 @@
 
     iput-object v0, p0, Lxy9;->e:Lcn/wps/moffice/main/push/spread/home/HomePtrHeaderViewLayout;
 
-    const v1, 0x7f0b2a30
+    sget v1, Lcom/resouce/module/ResID;->scrollManager:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -377,7 +377,7 @@
 
     iput-object v0, p0, Lxy9;->f:Lcn/wps/moffice/main/local/home/phone/homedataprovider/scrolllayout/ScrollManagerLayout;
 
-    const v1, 0x7f0b0fab
+    sget v1, Lcom/resouce/module/ResID;->header:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
     .line 5
     iget-object v0, p0, Lxy9;->f:Lcn/wps/moffice/main/local/home/phone/homedataprovider/scrolllayout/ScrollManagerLayout;
 
-    const v1, 0x7f0b223f
+    sget v1, Lcom/resouce/module/ResID;->pinned_head:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
     .line 6
     iget-object v0, p0, Lxy9;->f:Lcn/wps/moffice/main/local/home/phone/homedataprovider/scrolllayout/ScrollManagerLayout;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1546,7 +1546,7 @@
     .line 1
     iget-object v0, p0, Lxy9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f0e0c3d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_root_layout:I
 
     invoke-static {v0, v1}, Ltl6;->a(Landroid/app/Activity;I)Landroid/view/View;
 

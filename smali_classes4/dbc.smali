@@ -417,7 +417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06042c
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06042d
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_blue:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06042e
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_green:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -541,7 +541,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060430
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_purple:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -566,7 +566,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060431
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -591,7 +591,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060432
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_white:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -616,7 +616,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060433
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

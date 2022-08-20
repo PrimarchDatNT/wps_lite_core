@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205d0
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_liveSpace_notifynation_uploadfinish_title:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v0, v1, v6}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 
@@ -229,7 +229,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12050d
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_mb_download_relogin:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -256,7 +256,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
     :try_end_0

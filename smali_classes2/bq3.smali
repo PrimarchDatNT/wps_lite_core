@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e00b3
+    sget p2, Lcom/resouce/module/ResLAYOUT;->component_app_guide:I
 
     const/4 p3, 0x0
 
@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lbq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b04e8
+    sget p2, Lcom/resouce/module/ResID;->component_app_guide_scroll_container:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
     .line 7
     iget-object p1, p0, Lbq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2fd7
+    sget p2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     return-object p1
 
     :cond_0
-    const v0, 0x7f0b2616
+    sget v0, Lcom/resouce/module/ResID;->public_grid_title_layout_grid:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -403,7 +403,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e00b4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->component_app_recommand_item_view:I
 
     invoke-virtual {v2, v3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 4
     invoke-virtual {v2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b04ed
+    sget v3, Lcom/resouce/module/ResID;->component_app_recommand_item_image:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -426,7 +426,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b04ee
+    sget v4, Lcom/resouce/module/ResID;->component_app_recommand_item_name:I
 
     .line 6
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -444,7 +444,7 @@
 
     move-result v5
 
-    const v6, 0x7f0819c8
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     if-eqz v5, :cond_0
 
@@ -453,7 +453,7 @@
     goto :goto_0
 
     :cond_0
-    const v7, 0x7f0819c8
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     .line 8
     :goto_0
@@ -487,7 +487,7 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f0819c8
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     .line 12
     :goto_1
@@ -551,7 +551,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f122adc
+    sget v7, Lcom/resouce/module/ResSTRING;->public_time_limit_free:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -626,7 +626,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     return v0
 .end method
@@ -1016,13 +1016,13 @@
 
     move-result-object v5
 
-    const v6, 0x7f0e0c1a
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_grid_title_layout:I
 
     invoke-virtual {v5, v6, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    const v5, 0x7f0b2618
+    sget v5, Lcom/resouce/module/ResID;->public_grid_title_layout_title:I
 
     .line 13
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1031,7 +1031,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b2616
+    sget v6, Lcom/resouce/module/ResID;->public_grid_title_layout_grid:I
 
     .line 14
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1120,7 +1120,7 @@
     :cond_5
     if-eqz v2, :cond_6
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 24
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

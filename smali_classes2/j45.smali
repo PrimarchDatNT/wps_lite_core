@@ -75,7 +75,7 @@
 .method public constructor <init>(Landroid/content/Context;Lj45$b;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lj45;-><init>(Landroid/content/Context;ILj45$b;)V
@@ -239,7 +239,7 @@
 
     aput-object p1, p2, v2
 
-    const p1, 0x7f120c97
+    sget p1, Lcom/resouce/module/ResSTRING;->exit_shareplay_after_five_minute:I
 
     invoke-virtual {v0, p1, p2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -314,7 +314,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f92
+    sget v1, Lcom/resouce/module/ResLAYOUT;->switch_doc_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lj45;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2250
+    sget v1, Lcom/resouce/module/ResID;->play_other_doc:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -339,7 +339,7 @@
     .line 4
     iget-object v0, p0, Lj45;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0891
+    sget v1, Lcom/resouce/module/ResID;->end_share_play:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -352,7 +352,7 @@
     .line 5
     iget-object v0, p0, Lj45;->I:Landroid/view/View;
 
-    const v1, 0x7f0b028c
+    sget v1, Lcom/resouce/module/ResID;->breakup_meeting_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -414,7 +414,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2250
+    sget v0, Lcom/resouce/module/ResID;->play_other_doc:I
 
     if-ne p1, v0, :cond_0
 
@@ -429,7 +429,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0891
+    sget v0, Lcom/resouce/module/ResID;->end_share_play:I
 
     if-ne p1, v0, :cond_1
 

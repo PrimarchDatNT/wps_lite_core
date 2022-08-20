@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cdc
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_fileformat_error:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -93,15 +93,15 @@
 
     move-result-object p1
 
-    const v2, 0x7f120cde
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_formaterror:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f122820
+    sget v3, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v5, Lh1l$a$a;
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120ce2
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_overfilesize:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120ce1
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_onlinesecurity:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -231,7 +231,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cd8
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_encrypt:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

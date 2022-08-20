@@ -45,7 +45,7 @@
 
     iget-object p1, p1, Lw7d;->r0:Landroid/app/Activity;
 
-    const v0, 0x7f1219e0
+    sget v0, Lcom/resouce/module/ResSTRING;->photo_viewer_uploading_error:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

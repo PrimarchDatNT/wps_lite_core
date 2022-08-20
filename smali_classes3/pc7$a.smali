@@ -344,7 +344,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122832
+    sget v0, Lcom/resouce/module/ResSTRING;->public_saveas_success:I
 
     const/4 v1, 0x0
 
@@ -536,7 +536,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder_not_support_operate:I
 
     const/4 v1, 0x0
 

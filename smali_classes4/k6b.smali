@@ -252,7 +252,7 @@
     .line 3
     iget-object v0, p0, Lk6b;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1204b5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     const/4 v3, 0x1
 

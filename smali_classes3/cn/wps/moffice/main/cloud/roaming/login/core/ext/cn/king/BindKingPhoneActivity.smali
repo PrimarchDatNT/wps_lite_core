@@ -65,7 +65,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v1, 0x0
 
@@ -104,7 +104,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e033c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_king_bind_phone_activity:I
 
     return v0
 .end method
@@ -155,7 +155,7 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v0, 0x7f0b05d7
+    sget v0, Lcom/resouce/module/ResID;->ct_account_desensphone:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/king/BindKingPhoneActivity;->S:Landroid/view/View;
 
-    const v0, 0x7f0b30f6
+    sget v0, Lcom/resouce/module/ResID;->tvPolicy:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/king/BindKingPhoneActivity;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b05dc
+    sget v0, Lcom/resouce/module/ResID;->ct_account_login_btn:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b05e2
+    sget v0, Lcom/resouce/module/ResID;->ct_account_other_login_way:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0373
+    sget v0, Lcom/resouce/module/ResID;->cbAgree:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
     .line 15
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/king/BindKingPhoneActivity;->V:Landroid/widget/TextView;
 
-    const v3, 0x7f120209
+    sget v3, Lcom/resouce/module/ResSTRING;->bind_king_yun_phone_agreement_prefix:I
 
     invoke-static {p0, v2, v3, v0, v1}, Low7;->f(Landroid/app/Activity;Landroid/widget/TextView;ILjava/lang/String;Ljava/lang/String;)V
 
@@ -291,7 +291,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b05dc
+    sget v0, Lcom/resouce/module/ResID;->ct_account_login_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -304,7 +304,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b05e2
+    sget v0, Lcom/resouce/module/ResID;->ct_account_other_login_way:I
 
     if-ne p1, v0, :cond_1
 
@@ -318,7 +318,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_2
 
@@ -391,7 +391,7 @@
 .method public onLoginSuccess()V
     .locals 2
 
-    const v0, 0x7f121da7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v1, 0x0
 

@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123187
+    sget v1, Lcom/resouce/module/ResSTRING;->url_know_more_about_shareplay:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayIndexBaseView;->sharePlayIndexView:Lcn/wps/moffice/common/shareplay2/SharePlayIndexView;
 
-    const v1, 0x7f0b02bc
+    sget v1, Lcom/resouce/module/ResID;->btn_back:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -445,7 +445,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121bf5
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     return v0
 .end method

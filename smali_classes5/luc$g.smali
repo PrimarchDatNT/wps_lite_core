@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b041f
+    sget v0, Lcom/resouce/module/ResID;->clean_search:I
 
     if-ne p1, v0, :cond_0
 
@@ -60,7 +60,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2a54
+    sget v0, Lcom/resouce/module/ResID;->search_backward:I
 
     if-ne p1, v0, :cond_1
 
@@ -74,7 +74,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2a74
+    sget v0, Lcom/resouce/module/ResID;->search_forward:I
 
     if-ne p1, v0, :cond_2
 
@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b33ef
+    sget v0, Lcom/resouce/module/ResID;->wake_searchbtn:I
 
     if-ne p1, v0, :cond_3
 
@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2a44
+    sget v0, Lcom/resouce/module/ResID;->searchBtn:I
 
     if-ne p1, v0, :cond_4
 

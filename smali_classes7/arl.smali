@@ -343,12 +343,12 @@
 
     if-eqz p2, :cond_0
 
-    const v3, 0x7f0803c5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_mail_color:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0803c4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_mail:I
 
     .line 5
     :goto_0
@@ -363,12 +363,12 @@
 
     if-eqz p2, :cond_2
 
-    const v3, 0x7f0803af
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_cloud_color:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f0803ae
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_cloud:I
 
     .line 6
     :goto_1
@@ -485,12 +485,12 @@
 
     if-eqz p2, :cond_7
 
-    const v9, 0x7f0803e5
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_wechat_color:I
 
     goto :goto_5
 
     :cond_7
-    const v9, 0x7f0803e4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_wechat:I
 
     :goto_5
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -529,12 +529,12 @@
 
     if-eqz p2, :cond_9
 
-    const v9, 0x7f0803da
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_qq_color:I
 
     goto :goto_6
 
     :cond_9
-    const v9, 0x7f0803d9
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_qq:I
 
     :goto_6
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -562,12 +562,12 @@
 
     if-eqz p2, :cond_b
 
-    const v9, 0x7f081a9e
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_panel_share_whatsapp:I
 
     goto :goto_7
 
     :cond_b
-    const v9, 0x7f0803e6
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_whatsapp:I
 
     :goto_7
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -1048,7 +1048,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v1, 0x0
 

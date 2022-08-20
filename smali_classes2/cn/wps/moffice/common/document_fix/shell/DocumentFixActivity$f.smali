@@ -48,7 +48,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120147
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     return v0
 .end method

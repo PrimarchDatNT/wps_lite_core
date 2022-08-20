@@ -303,7 +303,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b2798
+    sget v1, Lcom/resouce/module/ResID;->push_tips_ptr_super_webview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -679,7 +679,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f122250
+    sget v0, Lcom/resouce/module/ResSTRING;->public_help_title:I
 
     return v0
 .end method
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0433
+    sget v2, Lcom/resouce/module/ResLAYOUT;->kspay_phone_public_push_tips_view:I
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

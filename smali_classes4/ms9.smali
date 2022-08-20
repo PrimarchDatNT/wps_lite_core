@@ -135,9 +135,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080339
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pdftoword:I
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-direct {v0, v2, v3, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -153,9 +153,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080338
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pdftoppt:I
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-direct {v0, v2, v4, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -171,9 +171,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080337
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pdftoet:I
 
-    const v5, 0x7f121771
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-direct {v0, v2, v5, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -189,9 +189,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080490
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
-    const v6, 0x7f122bca
+    sget v6, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-direct {v0, v2, v6, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -207,9 +207,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080334
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_extract_text:I
 
-    const v7, 0x7f121842
+    sget v7, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     invoke-direct {v0, v2, v7, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -225,9 +225,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f080285
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_signature:I
 
-    const v8, 0x7f121c96
+    sget v8, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-direct {v0, v2, v8, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -236,9 +236,9 @@
     .line 13
     new-instance v0, Lms9;
 
-    const v1, 0x7f0803ee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_brush:I
 
-    const v2, 0x7f12236f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -247,9 +247,9 @@
     .line 14
     new-instance v0, Lms9;
 
-    const v1, 0x7f0803ef
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_correction_fluid:I
 
-    const v2, 0x7f1217ab
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_coverpen:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -258,9 +258,9 @@
     .line 15
     new-instance v0, Lms9;
 
-    const v1, 0x7f080405
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlight:I
 
-    const v2, 0x7f12336f
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_highlight:I
 
     const/4 v9, 0x3
 
@@ -271,9 +271,9 @@
     .line 16
     new-instance v0, Lms9;
 
-    const v1, 0x7f080412
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_ink_underline:I
 
-    const v2, 0x7f121921
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_underline:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -282,9 +282,9 @@
     .line 17
     new-instance v0, Lms9;
 
-    const v1, 0x7f0803fa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_font_del_line_color:I
 
-    const v2, 0x7f1218de
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_strikethrough:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -300,9 +300,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f08026f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_mark:I
 
-    const v10, 0x7f1216c8
+    sget v10, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
     invoke-direct {v0, v2, v10, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -318,9 +318,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802c1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_insert_text:I
 
-    const v11, 0x7f1216ca
+    sget v11, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     invoke-direct {v0, v2, v11, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -336,9 +336,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f08033d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_watermark:I
 
-    const v12, 0x7f121925
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     invoke-direct {v0, v2, v12, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -347,9 +347,9 @@
     .line 24
     new-instance v0, Lms9;
 
-    const v1, 0x7f080332
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_delete_watermark:I
 
-    const v2, 0x7f121926
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_watermark_delete:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -365,9 +365,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f08048c
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
-    const v13, 0x7f122c10
+    sget v13, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-direct {v0, v12, v13, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -383,9 +383,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f080491
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
-    const v13, 0x7f122c12
+    sget v13, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-direct {v0, v12, v13, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -401,9 +401,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f08048e
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_slimmer:I
 
-    const v13, 0x7f122266
+    sget v13, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-direct {v0, v12, v13, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -419,9 +419,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f080331
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_adjust:I
 
-    const v14, 0x7f1225d8
+    sget v14, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     invoke-direct {v0, v12, v14, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -437,9 +437,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f080492
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
-    const v15, 0x7f1217dd
+    sget v15, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-direct {v0, v12, v15, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -455,9 +455,9 @@
 
     move-result-object v1
 
-    const v12, 0x7f081ab3
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->public_pdf_export_pic_file_60x60:I
 
-    const v15, 0x7f1220ad
+    sget v15, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf:I
 
     invoke-direct {v0, v12, v15, v1}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -473,12 +473,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0804a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080587
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_comp_tool_translate:I
 
     :goto_0
     sget-object v12, Lys9$b;->n0:Lys9$b;
@@ -488,7 +488,7 @@
 
     move-result-object v12
 
-    const v15, 0x7f120cd4
+    sget v15, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-direct {v0, v1, v15, v12}, Lms9;-><init>(IILjava/lang/String;)V
 
@@ -497,9 +497,9 @@
     .line 40
     new-instance v0, Lms9;
 
-    const v1, 0x7f080263
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_derive_highlighter:I
 
-    const v12, 0x7f1217e0
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     sget-object v16, Lys9$b;->t0:Lys9$b;
 
@@ -515,9 +515,9 @@
     .line 42
     new-instance v0, Lms9;
 
-    const v1, 0x7f08040b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_hightlight_area:I
 
-    const v12, 0x7f1216e3
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_areahighlight:I
 
     invoke-direct {v0, v1, v12, v9}, Lms9;-><init>(III)V
 
@@ -526,9 +526,9 @@
     .line 43
     new-instance v0, Lms9;
 
-    const v1, 0x7f08100a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_image_edit_icon:I
 
-    const v12, 0x7f121802
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_image_edit:I
 
     sget-object v15, Lys9$b;->H1:Lys9$b;
 
@@ -544,9 +544,9 @@
     .line 45
     new-instance v0, Lms9;
 
-    const v1, 0x7f081043
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_text_edit_icon:I
 
-    const v12, 0x7f1218e8
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_text_edit:I
 
     sget-object v15, Lys9$b;->D1:Lys9$b;
 
@@ -562,9 +562,9 @@
     .line 47
     new-instance v0, Lms9;
 
-    const v1, 0x7f0802f6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_extract_pics:I
 
-    const v12, 0x7f121803
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     sget-object v15, Lys9$b;->z0:Lys9$b;
 
@@ -579,9 +579,9 @@
     .line 48
     new-instance v0, Lms9;
 
-    const v1, 0x7f0802ca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
-    const v12, 0x7f12264c
+    sget v12, Lcom/resouce/module/ResSTRING;->public_picfunc_item_text:I
 
     sget-object v15, Lys9$b;->l0:Lys9$b;
 
@@ -597,9 +597,9 @@
     .line 50
     new-instance v0, Lms9;
 
-    const v1, 0x7f081008
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_fill_form_icon:I
 
-    const v12, 0x7f1217ba
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form:I
 
     sget-object v15, Lys9$b;->n1:Lys9$b;
 
@@ -621,12 +621,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f08103b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_set_password_icon:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f081007
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_file_encryption_icon:I
 
     .line 53
     :goto_1
@@ -636,12 +636,12 @@
 
     if-eqz v12, :cond_2
 
-    const v12, 0x7f1218d9
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_set_password:I
 
     goto :goto_2
 
     :cond_2
-    const v12, 0x7f1217f5
+    sget v12, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     :goto_2
     sget-object v15, Lys9$b;->G1:Lys9$b;
@@ -658,7 +658,7 @@
     .line 55
     new-instance v0, Lms9;
 
-    const v1, 0x7f081284
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_todoc:I
 
     invoke-direct {v0, v1, v3, v9}, Lms9;-><init>(III)V
 
@@ -667,7 +667,7 @@
     .line 56
     new-instance v0, Lms9;
 
-    const v1, 0x7f081286
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_toppt:I
 
     invoke-direct {v0, v1, v4, v9}, Lms9;-><init>(III)V
 
@@ -676,7 +676,7 @@
     .line 57
     new-instance v0, Lms9;
 
-    const v1, 0x7f081287
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_toxls:I
 
     invoke-direct {v0, v1, v5, v9}, Lms9;-><init>(III)V
 
@@ -685,7 +685,7 @@
     .line 58
     new-instance v0, Lms9;
 
-    const v1, 0x7f081280
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_long_pic:I
 
     invoke-direct {v0, v1, v6, v9}, Lms9;-><init>(III)V
 
@@ -694,7 +694,7 @@
     .line 59
     new-instance v0, Lms9;
 
-    const v1, 0x7f081282
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_ocr:I
 
     invoke-direct {v0, v1, v7, v9}, Lms9;-><init>(III)V
 
@@ -703,7 +703,7 @@
     .line 60
     new-instance v0, Lms9;
 
-    const v1, 0x7f081283
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_sign:I
 
     invoke-direct {v0, v1, v8, v9}, Lms9;-><init>(III)V
 
@@ -712,7 +712,7 @@
     .line 61
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_annotation:I
 
     invoke-direct {v0, v1, v10, v9}, Lms9;-><init>(III)V
 
@@ -721,7 +721,7 @@
     .line 62
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_annotation_addtext:I
 
     invoke-direct {v0, v1, v11, v9}, Lms9;-><init>(III)V
 
@@ -730,9 +730,9 @@
     .line 63
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_extract:I
 
-    const v3, 0x7f1217f2
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_extract_title:I
 
     invoke-direct {v0, v1, v3, v9}, Lms9;-><init>(III)V
 
@@ -741,9 +741,9 @@
     .line 64
     new-instance v0, Lms9;
 
-    const v1, 0x7f081281
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_merge:I
 
-    const v3, 0x7f12182c
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
     invoke-direct {v0, v1, v3, v9}, Lms9;-><init>(III)V
 
@@ -752,7 +752,7 @@
     .line 65
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_file_reduce:I
 
     invoke-direct {v0, v1, v13, v9}, Lms9;-><init>(III)V
 
@@ -761,9 +761,9 @@
     .line 66
     new-instance v0, Lms9;
 
-    const v1, 0x7f081285
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftoolkit_topdf:I
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-direct {v0, v1, v3, v9}, Lms9;-><init>(III)V
 
@@ -772,7 +772,7 @@
     .line 67
     new-instance v0, Lms9;
 
-    const v1, 0x7f081278
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftookit_page_revise:I
 
     invoke-direct {v0, v1, v14, v9}, Lms9;-><init>(III)V
 
@@ -781,9 +781,9 @@
     .line 68
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftookit_watermark_insert:I
 
-    const v3, 0x7f121929
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_watermark_insert:I
 
     invoke-direct {v0, v1, v3, v9}, Lms9;-><init>(III)V
 
@@ -792,7 +792,7 @@
     .line 69
     new-instance v0, Lms9;
 
-    const v1, 0x7f08127a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftookit_watermark_delete:I
 
     invoke-direct {v0, v1, v2, v9}, Lms9;-><init>(III)V
 
@@ -801,9 +801,9 @@
     .line 70
     new-instance v0, Lms9;
 
-    const v1, 0x7f081277
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftookit_export_pages:I
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-direct {v0, v1, v2, v9}, Lms9;-><init>(III)V
 
@@ -812,9 +812,9 @@
     .line 71
     new-instance v0, Lms9;
 
-    const v1, 0x7f081279
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdftookit_translate:I
 
-    const v2, 0x7f120cd4
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-direct {v0, v1, v2, v9}, Lms9;-><init>(III)V
 
@@ -823,9 +823,9 @@
     .line 72
     new-instance v0, Lms9;
 
-    const v1, 0x7f081acd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phone_resume_helper_icon:I
 
-    const v2, 0x7f120198
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -834,9 +834,9 @@
     .line 73
     new-instance v0, Lms9;
 
-    const v1, 0x7f081acc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phone_resume_deliver_icon:I
 
-    const v2, 0x7f120182
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_deliver:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -845,9 +845,9 @@
     .line 74
     new-instance v0, Lms9;
 
-    const v1, 0x7f08049c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_resumet_evaluation:I
 
-    const v2, 0x7f1201b7
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_train:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 
@@ -856,9 +856,9 @@
     .line 75
     new-instance v0, Lms9;
 
-    const v1, 0x7f0818ee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_final_icon:I
 
-    const v2, 0x7f122119
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final:I
 
     invoke-direct {v0, v1, v2}, Lms9;-><init>(II)V
 

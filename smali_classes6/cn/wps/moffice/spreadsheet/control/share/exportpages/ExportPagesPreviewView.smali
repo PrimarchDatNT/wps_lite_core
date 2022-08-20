@@ -201,7 +201,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0f4d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_alertdialog_exportpages_preview:I
 
     const/4 v2, 0x0
 
@@ -228,7 +228,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2864
+    sget v1, Lcom/resouce/module/ResID;->recyclerview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -259,7 +259,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0278
+    sget v0, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,7 +313,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2bd5
+    sget v1, Lcom/resouce/module/ResID;->sharepreview_title:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->U:Lcn/wps/moffice/spreadsheet/control/EtTitleBar;
 
-    const v1, 0x7f1217dd
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 14
     invoke-virtual {p1, v1}, Lcn/wps/moffice/spreadsheet/control/EtTitleBar;->setTitleId(I)V
@@ -345,7 +345,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -559,7 +559,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f122fc1
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_export_pages_count:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

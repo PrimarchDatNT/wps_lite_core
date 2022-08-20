@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1210f6
+    sget v2, Lcom/resouce/module/ResSTRING;->home_public_ndoc_not_backup_finish:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

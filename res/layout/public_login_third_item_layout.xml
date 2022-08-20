@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/login_third_btn_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="2.0dip" android:scaleType="center" android:layout_marginStart="2.0dip" />
-    <View android:id="@id/divider_v" android:layout_width="0.33000004dip" android:layout_height="34.0dip" android:alpha="0.5" />
-    <TextView android:textSize="14.0sp" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/login_third_btn_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:maxLines="2" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
-</LinearLayout>

@@ -68,12 +68,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f120871
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_upload_no_network1:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120872
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_upload_no_network2:I
 
     :goto_0
     iget-boolean v2, p0, Lfog$f;->B:Z
@@ -101,12 +101,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f120851
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_drive_no_space_left1:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f120852
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_drive_no_space_left2:I
 
     :goto_1
     iget-boolean v2, p0, Lfog$f;->B:Z
@@ -134,12 +134,12 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f120853
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_drive_upload_limit1:I
 
     goto :goto_2
 
     :cond_4
-    const v1, 0x7f120854
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_drive_upload_limit2:I
 
     :goto_2
     iget-boolean v2, p0, Lfog$f;->B:Z
@@ -158,12 +158,12 @@
 
     if-eqz v1, :cond_6
 
-    const v1, 0x7f12086f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_upload_no_know_reason1:I
 
     goto :goto_3
 
     :cond_6
-    const v1, 0x7f120870
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_upload_no_know_reason2:I
 
     :goto_3
     iget-boolean v2, p0, Lfog$f;->B:Z

@@ -203,7 +203,7 @@
 .method public static b(Landroid/widget/ImageView;)V
     .locals 2
 
-    const v0, 0x7f010054
+    sget v0, Lcom/resouce/module/ResANIM;->lodding:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V

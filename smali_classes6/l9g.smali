@@ -127,7 +127,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2d0b
+    sget v1, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

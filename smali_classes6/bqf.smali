@@ -43,15 +43,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01be
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_trend_lines:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0943
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_trend_lines:I
 
     :goto_0
-    const v1, 0x7f12079a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070190
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_chartoptions_trendlines_preview_margin_bottom_land:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -108,7 +108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070191
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_chartoptions_trendlines_preview_margin_bottom_portrait:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -121,7 +121,7 @@
     .line 9
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0967
+    sget v2, Lcom/resouce/module/ResID;->et_chartoptions_trend_lines_preview_group:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -133,7 +133,7 @@
     :cond_1
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0969
+    sget v2, Lcom/resouce/module/ResID;->et_chartoptions_trend_lines_series_spinner:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v5, 0x7f0e0250
+    sget v5, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     iget-object v6, p0, Lbqf;->f0:[Ljava/lang/String;
 
@@ -217,7 +217,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v5, 0x7f0e099d
+    sget v5, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v6, p0, Lbqf;->f0:[Ljava/lang/String;
 
@@ -256,7 +256,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v3, 0x7f0b0968
+    sget v3, Lcom/resouce/module/ResID;->et_chartoptions_trend_lines_sequence_group:I
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

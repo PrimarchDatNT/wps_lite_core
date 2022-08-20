@@ -130,7 +130,7 @@
 
     const/4 v1, -0x1
 
-    const v2, 0x7f120c84
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_split_comma:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$9;-><init>(Lcn/wps/moffice/spreadsheet/control/ColumnSplit;II)V
 
@@ -139,7 +139,7 @@
     .line 12
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$10;
 
-    const v2, 0x7f120c86
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_split_semicolon:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$10;-><init>(Lcn/wps/moffice/spreadsheet/control/ColumnSplit;II)V
 
@@ -148,7 +148,7 @@
     .line 13
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$11;
 
-    const v2, 0x7f120c85
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_split_plus:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$11;-><init>(Lcn/wps/moffice/spreadsheet/control/ColumnSplit;II)V
 
@@ -157,7 +157,7 @@
     .line 14
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$12;
 
-    const v2, 0x7f120c87
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_split_space:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$12;-><init>(Lcn/wps/moffice/spreadsheet/control/ColumnSplit;II)V
 
@@ -236,9 +236,9 @@
     :cond_1
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$1;
 
-    const p2, 0x7f080df8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_dissection_et:I
 
-    const p3, 0x7f120c83
+    sget p3, Lcom/resouce/module/ResSTRING;->et_toolbar_split:I
 
     const/4 v0, 0x1
 
@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0253
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_split_dialog:I
 
     const/4 v2, 0x0
 
@@ -543,7 +543,7 @@
 .method public final C(I)V
     .locals 1
 
-    const v0, 0x7f0b0bae
+    sget v0, Lcom/resouce/module/ResID;->et_split_button_comma:I
 
     if-ne p1, v0, :cond_0
 
@@ -555,7 +555,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0bb0
+    sget v0, Lcom/resouce/module/ResID;->et_split_button_semicolon:I
 
     if-ne p1, v0, :cond_1
 
@@ -567,7 +567,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0baf
+    sget v0, Lcom/resouce/module/ResID;->et_split_button_plus:I
 
     if-ne p1, v0, :cond_2
 
@@ -579,7 +579,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0bb1
+    sget v0, Lcom/resouce/module/ResID;->et_split_button_space:I
 
     if-ne p1, v0, :cond_3
 
@@ -610,7 +610,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
@@ -707,7 +707,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/ColumnSplit;->S:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v3, 0x1
 
@@ -820,7 +820,7 @@
 
     if-ne v1, v0, :cond_0
 
-    const p1, 0x7f120c30
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_error_single_toast:I
 
     .line 5
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -833,7 +833,7 @@
 
     if-ne v1, v0, :cond_1
 
-    const p1, 0x7f120c2f
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_error_max_toast:I
 
     .line 7
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -846,7 +846,7 @@
 
     if-ne v1, v0, :cond_2
 
-    const p1, 0x7f120c2d
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_error_invalid_data_toast:I
 
     .line 9
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -859,7 +859,7 @@
 
     if-ne v1, v0, :cond_3
 
-    const p1, 0x7f120c2e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_error_invalid_symbol_toast:I
 
     .line 11
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -872,7 +872,7 @@
 
     if-ne v1, v0, :cond_4
 
-    const p1, 0x7f12072f
+    sget p1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 13
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -904,7 +904,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 2
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -960,7 +960,7 @@
     if-eqz v2, :cond_2
 
     :cond_1
-    const p1, 0x7f12002b
+    sget p1, Lcom/resouce/module/ResSTRING;->TableSplitFailedException:I
 
     .line 8
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1018,7 +1018,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f120c3c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_success_max_diag:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1059,7 +1059,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f120c3d
+    sget p3, Lcom/resouce/module/ResSTRING;->et_split_success_overwrite_diag:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1373,7 +1373,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f081433
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_split_course:I
 
     aput v2, v0, v1
 
@@ -1388,11 +1388,11 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/ColumnSplit;->S:Landroid/content/Context;
 
-    const v3, 0x7f120c83
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_split:I
 
-    const v4, 0x7f08043c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_table_dissection:I
 
-    const v5, 0x7f120c83
+    sget v5, Lcom/resouce/module/ResSTRING;->et_toolbar_split:I
 
     move-object v0, v7
 
@@ -1458,11 +1458,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f120c83
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_split:I
 
-    const v4, 0x7f08043c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_table_dissection:I
 
-    const v5, 0x7f120c83
+    sget v5, Lcom/resouce/module/ResSTRING;->et_toolbar_split:I
 
     move-object v0, v8
 
@@ -1524,27 +1524,27 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b0bae
+    sget v2, Lcom/resouce/module/ResID;->et_split_button_comma:I
 
     aput v2, v0, v1
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b0bb0
+    sget v2, Lcom/resouce/module/ResID;->et_split_button_semicolon:I
 
     .line 2
     aput v2, v0, v1
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0b0baf
+    sget v2, Lcom/resouce/module/ResID;->et_split_button_plus:I
 
     .line 3
     aput v2, v0, v1
 
     const/4 v1, 0x3
 
-    const v2, 0x7f0b0bb1
+    sget v2, Lcom/resouce/module/ResID;->et_split_button_space:I
 
     .line 4
     aput v2, v0, v1

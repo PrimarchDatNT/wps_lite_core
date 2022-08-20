@@ -132,12 +132,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0910
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_save_status_panel_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e05d1
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_save_status_panel_layout:I
 
     :goto_0
     return p1
@@ -186,7 +186,7 @@
 
     iput-object v0, p0, Ls15;->b:Landroid/view/View;
 
-    const v1, 0x7f0b29e9
+    sget v1, Lcom/resouce/module/ResID;->save_popstviewgroup:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
     .line 6
     iget-object v0, p0, Ls15;->b:Landroid/view/View;
 
-    const v1, 0x7f0b034a
+    sget v1, Lcom/resouce/module/ResID;->card_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
     .line 10
     iget-object v0, p0, Ls15;->a:Lcn/wps/moffice/common/beans/RecordPopWindow;
 
-    const v1, 0x7f130137
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Pull_And_Fade_animations_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 
@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070089
+    sget v0, Lcom/resouce/module/ResDIMEN;->comp_cloud_titlebar_save_panel_width:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -412,7 +412,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070088
+    sget v5, Lcom/resouce/module/ResDIMEN;->comp_cloud_titlebar_save_panel_card_margin:I
 
     .line 8
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -424,7 +424,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070089
+    sget v6, Lcom/resouce/module/ResDIMEN;->comp_cloud_titlebar_save_panel_width:I
 
     .line 10
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

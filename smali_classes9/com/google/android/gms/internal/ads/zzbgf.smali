@@ -318,7 +318,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f122e7c
+    sget v2, Lcom/resouce/module/ResSTRING;->s7:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

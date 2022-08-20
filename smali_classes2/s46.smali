@@ -38,7 +38,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e90
+    sget v1, Lcom/resouce/module/ResID;->tag_thumb_image:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->getTag(I)Ljava/lang/Object;
 
@@ -98,7 +98,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e90
+    sget v1, Lcom/resouce/module/ResID;->tag_thumb_image:I
 
     invoke-virtual {v0, v1, p1}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V
 

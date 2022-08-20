@@ -45,7 +45,7 @@
 .method public U2()I
     .locals 1
 
-    const v0, 0x7f0e0d90
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_func_bind_wechat_layout:I
 
     return v0
 .end method
@@ -62,7 +62,7 @@
 .method public initView()V
     .locals 1
 
-    const v0, 0x7f0b021d
+    sget v0, Lcom/resouce/module/ResID;->bind_button:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0340
+    sget v0, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
     .line 4
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b021d
+    sget v0, Lcom/resouce/module/ResID;->bind_button:I
 
     if-ne p1, v0, :cond_1
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0340
+    sget v0, Lcom/resouce/module/ResID;->cancel_button:I
 
     if-ne p1, v0, :cond_2
 

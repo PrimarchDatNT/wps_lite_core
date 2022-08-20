@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121660
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_repet_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122e3d
+    sget v3, Lcom/resouce/module/ResSTRING;->result_forward_url:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dfa
+    sget v1, Lcom/resouce/module/ResSTRING;->history_forward_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -532,7 +532,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121683
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_secret_key:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -121,13 +121,13 @@
 
     const/16 v4, 0x8
 
-    const v5, 0x7f081ea2
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->thirdparty_export_images:I
 
-    const v6, 0x7f1217dd
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     const-string v7, "file_to_longimage"
 
-    const v8, 0x7f081e9e
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->thirdparty_doc_to_longpic:I
 
     const/4 v11, 0x3
 
@@ -146,9 +146,9 @@
     .line 3
     new-instance v4, Lyv8$d;
 
-    const v2, 0x7f121769
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
-    const v9, 0x7f081ea9
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->thirdparty_pdf_to_word:I
 
     const-string v10, "pdf_to_word"
 
@@ -158,9 +158,9 @@
 
     new-instance v2, Lyv8$d;
 
-    const v4, 0x7f121c96
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
-    const v9, 0x7f081ea8
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->thirdparty_pdf_sign:I
 
     const/4 v10, 0x7
 
@@ -172,9 +172,9 @@
 
     new-instance v2, Lyv8$d;
 
-    const v4, 0x7f1218c4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
-    const v9, 0x7f081ea7
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->thirdparty_pdf_edit:I
 
     const/16 v13, 0x20
 
@@ -186,7 +186,7 @@
 
     new-instance v2, Lyv8$d;
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-direct {v2, v4, v8, v15, v7}, Lyv8$d;-><init>(IIILjava/lang/String;)V
 
@@ -202,9 +202,9 @@
 
     new-instance v2, Lyv8$d;
 
-    const v3, 0x7f1217ba
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form:I
 
-    const v4, 0x7f081ea5
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->thirdparty_fill_form:I
 
     const/16 v5, 0x32
 
@@ -218,9 +218,9 @@
 
     new-instance v2, Lyv8$d;
 
-    const v3, 0x7f121875
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_title:I
 
-    const v4, 0x7f081ea6
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->thirdparty_page_management:I
 
     const/16 v5, 0x12
 
@@ -234,9 +234,9 @@
 
     new-instance v2, Lyv8$d;
 
-    const v3, 0x7f12226e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_pdf_tools:I
 
-    const v4, 0x7f081eaa
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->thirdparty_pdf_tools:I
 
     const-string v5, "pdf_toolkit"
 
@@ -260,9 +260,9 @@
     .line 4
     new-instance v9, Lyv8$d;
 
-    const v10, 0x7f120437
+    sget v10, Lcom/resouce/module/ResSTRING;->doc_scan_image_to_pdf:I
 
-    const v13, 0x7f081e9f
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->thirdparty_doc_to_pdf:I
 
     const-string v14, "file_to_pdf"
 
@@ -274,7 +274,7 @@
 
     new-instance v9, Lyv8$d;
 
-    const v13, 0x7f1230c1
+    sget v13, Lcom/resouce/module/ResSTRING;->thirdparty_doc_to_long_pic:I
 
     invoke-direct {v9, v13, v8, v15, v7}, Lyv8$d;-><init>(IIILjava/lang/String;)V
 
@@ -300,9 +300,9 @@
 
     new-instance v1, Lyv8$d;
 
-    const v5, 0x7f122c10
+    sget v5, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v6, 0x7f081ea3
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->thirdparty_extract_page:I
 
     const/4 v7, 0x5
 
@@ -312,9 +312,9 @@
 
     new-instance v1, Lyv8$d;
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f081ea4
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->thirdparty_file_compressor:I
 
     const-string v6, "compress"
 
@@ -326,9 +326,9 @@
 
     new-instance v1, Lyv8$d;
 
-    const v3, 0x7f1230c3
+    sget v3, Lcom/resouce/module/ResSTRING;->thirdparty_doc_tools:I
 
-    const v4, 0x7f081ea1
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->thirdparty_doc_tools:I
 
     const-string v5, "file_toolkit"
 
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fe6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->unzip_document_function_select_dialog:I
 
     const/4 v2, 0x0
 
@@ -569,7 +569,7 @@
     goto :goto_3
 
     :cond_2
-    const v4, 0x7f0b147a
+    sget v4, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 20
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -592,7 +592,7 @@
 
     invoke-virtual {v4, v6}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v4, 0x7f0b3143
+    sget v4, Lcom/resouce/module/ResID;->tv_description:I
 
     .line 21
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -628,7 +628,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f0b16b6
+    sget v1, Lcom/resouce/module/ResID;->ll_open_document:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -641,7 +641,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2964
+    sget v1, Lcom/resouce/module/ResID;->rl_root_view:I
 
     .line 24
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

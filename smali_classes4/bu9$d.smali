@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b013a
+    sget v0, Lcom/resouce/module/ResID;->app_recycler_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Lbu9$d;->j0:Lcn/wps/moffice/main/local/home/phone/applicationv2/all/CallbackRecyclerView;
 
-    const v0, 0x7f0b013d
+    sget v0, Lcom/resouce/module/ResID;->app_tab_more_btn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Lbu9$d;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b013e
+    sget v0, Lcom/resouce/module/ResID;->app_tab_title:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Lbu9$d;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Lbu9$d;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b06d0
+    sget v0, Lcom/resouce/module/ResID;->divider1:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

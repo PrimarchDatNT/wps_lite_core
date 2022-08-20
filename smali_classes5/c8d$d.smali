@@ -304,7 +304,7 @@
 
     iget-object p1, p1, Lc8d;->V:Landroid/app/Activity;
 
-    const p2, 0x7f1219e0
+    sget p2, Lcom/resouce/module/ResSTRING;->photo_viewer_uploading_error:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -320,7 +320,7 @@
 
     iget-object p1, p1, Lc8d;->V:Landroid/app/Activity;
 
-    const p2, 0x7f12036c
+    sget p2, Lcom/resouce/module/ResSTRING;->delete_photo_fail:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

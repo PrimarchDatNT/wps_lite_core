@@ -309,14 +309,14 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121999
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     goto :goto_0
 
     :cond_0
     if-eqz v0, :cond_1
 
-    const v1, 0x7f12199a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     goto :goto_0
 

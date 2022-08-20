@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a32
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phonetic_filelist_action_layout:I
 
     const/4 v2, 0x0
 
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d4e
+    sget v1, Lcom/resouce/module/ResID;->filelist_export_word:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0d4d
+    sget v2, Lcom/resouce/module/ResID;->filelist_export_phonetic:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b0d51
+    sget v3, Lcom/resouce/module/ResID;->filelist_rename:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b0d4c
+    sget v4, Lcom/resouce/module/ResID;->filelist_delete:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0d4e
+    sget v0, Lcom/resouce/module/ResID;->filelist_export_word:I
 
     if-ne p1, v0, :cond_0
 
@@ -206,7 +206,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0d4d
+    sget v0, Lcom/resouce/module/ResID;->filelist_export_phonetic:I
 
     if-ne p1, v0, :cond_1
 
@@ -221,7 +221,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0d51
+    sget v0, Lcom/resouce/module/ResID;->filelist_rename:I
 
     if-ne p1, v0, :cond_2
 
@@ -236,7 +236,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0d4c
+    sget v0, Lcom/resouce/module/ResID;->filelist_delete:I
 
     if-ne p1, v0, :cond_3
 

@@ -57,7 +57,7 @@
 
     move-result v1
 
-    const v2, 0x7f080815
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_files_rectangle_wpscloud:I
 
     const/4 v3, 0x1
 
@@ -268,7 +268,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122588
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -464,7 +464,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1222c0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_me_wps_cloud_logout_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

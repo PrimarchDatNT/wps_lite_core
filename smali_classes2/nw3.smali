@@ -317,7 +317,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122530
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_filter_file_record:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -388,7 +388,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122530
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no_filter_file_record:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

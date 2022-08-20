@@ -47,7 +47,7 @@
         }
     .end annotation
 
-    const p1, 0x7f0b2633
+    sget p1, Lcom/resouce/module/ResID;->public_home_address_item:I
 
     .line 1
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0d9a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_member_stub_item:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

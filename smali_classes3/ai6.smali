@@ -21,7 +21,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121177
+    sget v1, Lcom/resouce/module/ResSTRING;->home_task_know:I
 
     const/4 v2, 0x0
 
@@ -52,7 +52,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

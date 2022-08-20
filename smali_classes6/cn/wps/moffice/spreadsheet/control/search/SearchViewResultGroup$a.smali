@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0806b6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_search_resultgroup_item_hidebg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0806b7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_search_resultgroup_item_showbg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

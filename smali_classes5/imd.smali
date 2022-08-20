@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f0
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBoldLineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d34
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_item_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

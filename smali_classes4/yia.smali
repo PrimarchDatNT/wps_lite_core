@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b14
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_assistant_banner_ad_layout:I
 
     const/4 v2, 0x0
 
@@ -76,7 +76,7 @@
 
     iput-object p1, p0, Lyia;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0094
+    sget v0, Lcom/resouce/module/ResID;->ad_sign:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
     .line 6
     iget-object p1, p0, Lyia;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0451
+    sget v0, Lcom/resouce/module/ResID;->close_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -126,7 +126,7 @@
     .line 7
     iget-object p1, p0, Lyia;->c:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b020c
+    sget v0, Lcom/resouce/module/ResID;->bg_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

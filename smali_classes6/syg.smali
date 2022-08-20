@@ -909,7 +909,7 @@
 
     iput-object p2, p0, Lsyg;->T:Lk2h;
 
-    const p2, 0x7f0b3341
+    sget p2, Lcom/resouce/module/ResID;->v10_normal_bar:I
 
     .line 94
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -918,7 +918,7 @@
 
     iput-object p2, p0, Lsyg;->k0:Landroid/view/View;
 
-    const p2, 0x7f0b299f
+    sget p2, Lcom/resouce/module/ResID;->rom_read_tool_bar_layout:I
 
     .line 95
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1008,22 +1008,22 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    const p1, 0x7f0b212c
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_bottom_extract:I
 
     .line 108
     sput p1, Lyd3;->i:I
 
-    const p1, 0x7f0b2132
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_bottom_tools:I
 
     .line 109
     sput p1, Lyd3;->k:I
 
-    const p1, 0x7f0b212d
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_bottom_keyboard:I
 
     .line 110
     sput p1, Lyd3;->l:I
 
-    const p1, 0x7f0b2133
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_bottom_view:I
 
     .line 111
     sput p1, Lyd3;->j:I
@@ -2290,12 +2290,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f08099e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_dark:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f08099f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_light:I
 
     :goto_1
     invoke-virtual {v2, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -2531,7 +2531,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0961
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_exit_extract_tips:I
 
     const/4 v2, 0x0
 
@@ -2594,7 +2594,7 @@
 .method public final i1(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0b212c
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_extract:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2605,7 +2605,7 @@
 
     iput-object v0, p0, Lsyg;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b2132
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_tools:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2616,7 +2616,7 @@
 
     iput-object v0, p0, Lsyg;->e0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b212b
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_assistant:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2627,7 +2627,7 @@
 
     iput-object v0, p0, Lsyg;->g0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b212f
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_share:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2638,7 +2638,7 @@
 
     iput-object v0, p0, Lsyg;->h0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b212d
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_keyboard:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2649,7 +2649,7 @@
 
     iput-object v0, p0, Lsyg;->f0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b2130
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_share_to_pc:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2660,7 +2660,7 @@
 
     iput-object v0, p0, Lsyg;->i0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b2133
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_bottom_view:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2674,35 +2674,35 @@
     .line 8
     iget-object p1, p0, Lsyg;->c0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f080297
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 9
     iget-object p1, p0, Lsyg;->d0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0804a7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_view:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 10
     iget-object p1, p0, Lsyg;->e0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f080255
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_tool:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 11
     iget-object p1, p0, Lsyg;->g0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f08049e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_robot:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
     .line 12
     iget-object p1, p0, Lsyg;->h0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0803dd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_share_share:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
@@ -2751,7 +2751,7 @@
     :cond_2
     iget-object p1, p0, Lsyg;->f0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f081f14
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_bottom_toolbar_keyboard:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
@@ -2790,7 +2790,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0244
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_romread_bottom_search_tool:I
 
     sget-object p3, Lsyg;->x1:Landroid/view/ViewGroup;
 
@@ -2810,7 +2810,7 @@
     .line 5
     iget-object p1, p0, Lsyg;->m0:Landroid/view/View;
 
-    const p2, 0x7f0b2a55
+    sget p2, Lcom/resouce/module/ResID;->search_backward_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2830,7 +2830,7 @@
     .line 7
     iget-object p1, p0, Lsyg;->m0:Landroid/view/View;
 
-    const p2, 0x7f0b2a75
+    sget p2, Lcom/resouce/module/ResID;->search_forward_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3084,7 +3084,7 @@
     .line 2
     iget-object v0, p0, Lsyg;->B:Landroid/content/Context;
 
-    const v1, 0x7f010061
+    sget v1, Lcom/resouce/module/ResANIM;->phone_bottom_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3095,7 +3095,7 @@
     .line 3
     iget-object v0, p0, Lsyg;->B:Landroid/content/Context;
 
-    const v1, 0x7f010062
+    sget v1, Lcom/resouce/module/ResANIM;->phone_bottom_push_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3120,7 +3120,7 @@
     .line 6
     iget-object v0, p0, Lsyg;->B:Landroid/content/Context;
 
-    const v1, 0x7f01003f
+    sget v1, Lcom/resouce/module/ResANIM;->fade_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3131,7 +3131,7 @@
     .line 7
     iget-object v0, p0, Lsyg;->B:Landroid/content/Context;
 
-    const v1, 0x7f010040
+    sget v1, Lcom/resouce/module/ResANIM;->fade_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3224,7 +3224,7 @@
 
     move-result-object v2
 
-    const v10, 0x7f070d1b
+    sget v10, Lcom/resouce/module/ResDIMEN;->v10_phone_public_bottombar_item_width:I
 
     invoke-virtual {v2, v10}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3245,7 +3245,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d18
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_bottombar_4_item_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3375,7 +3375,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08049f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_robot_oversea:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3578,7 +3578,7 @@
 
     iget-object v1, p0, Lsyg;->B:Landroid/content/Context;
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, v1, v2}, Lcng;-><init>(Landroid/content/Context;I)V
 
@@ -3749,7 +3749,7 @@
 
     iget-object v1, p0, Lsyg;->j0:Landroid/view/View;
 
-    const v2, 0x7f0b035e
+    sget v2, Lcom/resouce/module/ResID;->cardmode_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3854,7 +3854,7 @@
     .line 1
     iget-object v0, p0, Lsyg;->q1:Lfj3;
 
-    const v1, 0x7f070d54
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     if-nez v0, :cond_0
 
@@ -3874,7 +3874,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0201
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_mode_info_window:I
 
     const/4 v3, 0x0
 
@@ -3917,7 +3917,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b18bf
+    sget v2, Lcom/resouce/module/ResID;->mode_info_txt:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3928,12 +3928,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f120c8b
+    sget p1, Lcom/resouce/module/ResSTRING;->et_view_change_text_card:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120c8c
+    sget p1, Lcom/resouce/module/ResSTRING;->et_view_change_text_grid:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
@@ -4012,7 +4012,7 @@
     :cond_0
     iget-object v0, p0, Lsyg;->p1:Lfj3;
 
-    const v1, 0x7f070d54
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     if-nez v0, :cond_1
 
@@ -4032,7 +4032,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e103d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_public_mode_switch_tips:I
 
     const/4 v3, 0x0
 
@@ -4073,12 +4073,12 @@
 
     move-result-object v0
 
-    const v2, 0x7f081328
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v2, 0x7f0b268b
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_icon:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4094,7 +4094,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080297
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4114,7 +4114,7 @@
     .line 14
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v2, 0x7f0b268c
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_text:I
 
     .line 15
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4125,12 +4125,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f122057
+    sget p1, Lcom/resouce/module/ResSTRING;->public_enter_phonemode:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f122089
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit_phonemode:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

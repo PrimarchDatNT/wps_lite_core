@@ -299,7 +299,7 @@
     .line 1
     iget-object v0, p0, Lr54;->f:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 
-    const v1, 0x7f0b0e67
+    sget v1, Lcom/resouce/module/ResID;->fontpackage_purchasebutton_first:I
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -307,7 +307,7 @@
 
     iput-object v0, p0, Lr54;->h:Landroid/view/View;
 
-    const v1, 0x7f0b278a
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_name_first:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
     .line 3
     iget-object v0, p0, Lr54;->h:Landroid/view/View;
 
-    const v1, 0x7f0b2786
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_describle_first:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 4
     iget-object v0, p0, Lr54;->h:Landroid/view/View;
 
-    const v1, 0x7f0b278c
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_price_first:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
     .line 5
     iget-object v0, p0, Lr54;->h:Landroid/view/View;
 
-    const v1, 0x7f0b2788
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_flag_first:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -360,7 +360,7 @@
     .line 6
     iget-object v0, p0, Lr54;->f:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 
-    const v1, 0x7f0b0e68
+    sget v1, Lcom/resouce/module/ResID;->fontpackage_purchasebutton_second:I
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -368,7 +368,7 @@
 
     iput-object v0, p0, Lr54;->i:Landroid/view/View;
 
-    const v1, 0x7f0b278b
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_name_second:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
     .line 8
     iget-object v0, p0, Lr54;->i:Landroid/view/View;
 
-    const v1, 0x7f0b2787
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_describle_second:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -395,7 +395,7 @@
     .line 9
     iget-object v0, p0, Lr54;->i:Landroid/view/View;
 
-    const v1, 0x7f0b278d
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_price_second:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 10
     iget-object v0, p0, Lr54;->i:Landroid/view/View;
 
-    const v1, 0x7f0b2789
+    sget v1, Lcom/resouce/module/ResID;->puchase_fontpackage_flag_second:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -721,7 +721,7 @@
     .line 3
     iget-object p1, p1, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v0, 0x7f1212cb
+    sget v0, Lcom/resouce/module/ResSTRING;->infoflow_card_font_download:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
@@ -737,7 +737,7 @@
     .line 5
     iget-object p1, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c94
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_wps_font:I
 
     iget-object v1, p0, Lr54;->f:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 

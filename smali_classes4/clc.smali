@@ -102,7 +102,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1217ce
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_edit_purchasing_dialog_msg:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -112,7 +112,7 @@
 
     invoke-direct {v1, p2, p4}, Lclc$b;-><init>(ILjava/lang/Runnable;)V
 
-    const p4, 0x7f1223d6
+    sget p4, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {v0, p4, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -126,13 +126,13 @@
 
     move-result-object p0
 
-    const p1, 0x7f06005d
+    sget p1, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p0
 
-    const p1, 0x7f12104a
+    sget p1, Lcom/resouce/module/ResSTRING;->home_pay_func_guide_more:I
 
     .line 6
     invoke-virtual {v0, p1, p0, p4}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;

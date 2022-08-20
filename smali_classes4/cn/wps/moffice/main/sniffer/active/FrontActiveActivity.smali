@@ -115,12 +115,12 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/common/beans/OnResultActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0876
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_public_float_parent:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    const p1, 0x7f0b20d4
+    sget p1, Lcom/resouce/module/ResID;->phone_public_float_parent_view:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

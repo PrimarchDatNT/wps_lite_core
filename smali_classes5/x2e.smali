@@ -24,9 +24,9 @@
 .method public constructor <init>(Lb3e;)V
     .locals 2
 
-    const v0, 0x7f080cd0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_symbol1_ppt:I
 
-    const v1, 0x7f1223be
+    sget v1, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     .line 1
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V

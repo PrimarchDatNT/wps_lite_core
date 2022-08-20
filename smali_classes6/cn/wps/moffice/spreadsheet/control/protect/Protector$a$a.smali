@@ -68,7 +68,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120bf0
+    sget v4, Lcom/resouce/module/ResSTRING;->et_prot_sheet_no2:I
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$a$a;->B:Lcn/wps/moffice/spreadsheet/control/protect/Protector$a;
 
@@ -83,7 +83,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120bf1
+    sget v6, Lcom/resouce/module/ResSTRING;->et_prot_sheet_no_edit:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -453,7 +453,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080185
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->color_white:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -476,7 +476,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0a78
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_extract_pics_thumb_item:I
 
     const/4 v1, 0x0
 

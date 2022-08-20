@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/root_item_channel_msg_push_settings_linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/separator_item_channel_msg_push_settings_view" style="@style/new_ui_public_separator_item_view" />
-    <TextView android:gravity="center_vertical" android:id="@id/channel_name_item_channel_msg_push_settings_textView" android:paddingLeft="16.0dip" android:paddingStart="16.0dip" style="@style/new_ui_public_separator_title_text" />
-</LinearLayout>

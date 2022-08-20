@@ -38,9 +38,9 @@
     .line 2
     new-instance v0, Lknd$a;
 
-    const v1, 0x7f080d3d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_ppt:I
 
-    const v2, 0x7f121b19
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_preview:I
 
     invoke-direct {v0, p0, v1, v2}, Lknd$a;-><init>(Lknd;II)V
 
@@ -49,9 +49,9 @@
     .line 3
     new-instance v0, Lknd$b;
 
-    const v1, 0x7f080bd4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_insert:I
 
-    const v2, 0x7f121a44
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_add:I
 
     invoke-direct {v0, p0, v1, v2}, Lknd$b;-><init>(Lknd;II)V
 
@@ -60,9 +60,9 @@
     .line 4
     new-instance v0, Lknd$c;
 
-    const v1, 0x7f080d61
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_custom_animation_ppt:I
 
-    const v2, 0x7f121ad3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_order:I
 
     invoke-direct {v0, p0, v1, v2}, Lknd$c;-><init>(Lknd;II)V
 

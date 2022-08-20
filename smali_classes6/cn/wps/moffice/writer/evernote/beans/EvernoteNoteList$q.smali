@@ -201,7 +201,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -305,7 +305,7 @@
 
     if-eqz v0, :cond_2
 
-    const p2, 0x7f0806c0
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->evernote_note_type_icon_app:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -324,7 +324,7 @@
 
     if-eqz p2, :cond_4
 
-    const p2, 0x7f0806c1
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->evernote_note_type_icon_audio:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -419,12 +419,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e09d1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_evernote_file_list_item:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e108f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_evernote_file_list_item:I
 
     :goto_0
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -446,7 +446,7 @@
 
     invoke-direct {v0, p3}, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList$q$a;-><init>(Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList$h;)V
 
-    const p3, 0x7f0b3012
+    sget p3, Lcom/resouce/module/ResID;->title_text:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -457,7 +457,7 @@
 
     iput-object p3, v0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList$q$a;->a:Landroid/widget/TextView;
 
-    const p3, 0x7f0b2de1    # 1.850009E38f
+    sget p3, Lcom/resouce/module/ResID;->summary_text:I    # 1.850009E38f
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     iput-object p3, v0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList$q$a;->b:Landroid/widget/TextView;
 
-    const p3, 0x7f0b016a
+    sget p3, Lcom/resouce/module/ResID;->attachment_image:I
 
     .line 8
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -496,7 +496,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0702b8
+    sget v3, Lcom/resouce/module/ResDIMEN;->evernote_list_item_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 

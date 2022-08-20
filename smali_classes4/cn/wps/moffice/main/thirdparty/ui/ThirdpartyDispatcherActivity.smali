@@ -185,7 +185,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122416
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     .line 3
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V

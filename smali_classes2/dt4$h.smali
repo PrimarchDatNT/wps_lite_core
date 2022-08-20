@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12207b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_error:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12207f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_invalid:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12207e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_havebound:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12207c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_expired:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

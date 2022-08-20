@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d63
+    sget v1, Lcom/resouce/module/ResSTRING;->fix_file_upload_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d61
+    sget v1, Lcom/resouce/module/ResSTRING;->fix_file_check_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d62
+    sget v1, Lcom/resouce/module/ResSTRING;->fix_file_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d64
+    sget v1, Lcom/resouce/module/ResSTRING;->fix_img_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -382,7 +382,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/net/DocFixNetManagerImpl;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120147
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -866,7 +866,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/net/DocFixNetManagerImpl;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120147
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

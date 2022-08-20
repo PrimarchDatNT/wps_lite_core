@@ -168,7 +168,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0284
+    sget v0, Lcom/resouce/module/ResLAYOUT;->foreign_multi_activity_item_layout:I
 
     const/4 v1, 0x0
 
@@ -176,7 +176,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b3015
+    sget v0, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     iput-object v0, p2, Luq8$a$b;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1238
+    sget v0, Lcom/resouce/module/ResID;->icon_iv:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     iput-object v0, p2, Luq8$a$b;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0083
+    sget v0, Lcom/resouce/module/ResID;->activity_state_bg_ll:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
     .line 13
     iget-object p2, p2, Luq8$a$b;->c:Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0812c1
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_list_activity_selector:I
 
     .line 14
     invoke-virtual {p2, v5}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

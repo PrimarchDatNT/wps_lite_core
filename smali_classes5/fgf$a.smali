@@ -98,7 +98,7 @@
 
     move-result p1
 
-    const v0, 0x7f1210dd
+    sget v0, Lcom/resouce/module/ResSTRING;->home_please_install_wx:I
 
     const-string v1, "com.tencent.mm"
 
@@ -148,7 +148,7 @@
 
     iget-object p1, p1, Lfgf;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1210dc
+    sget p2, Lcom/resouce/module/ResSTRING;->home_please_install_qq:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 

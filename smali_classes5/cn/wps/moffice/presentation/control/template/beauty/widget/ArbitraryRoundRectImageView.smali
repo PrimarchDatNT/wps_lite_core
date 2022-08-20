@@ -63,7 +63,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070309
+    sget p2, Lcom/resouce/module/ResDIMEN;->home_bg_rect_corner_radius:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

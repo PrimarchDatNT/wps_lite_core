@@ -34,7 +34,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f39
+    sget v0, Lcom/resouce/module/ResLAYOUT;->select_engine_layout:I
 
     const/4 v1, 0x1
 
@@ -55,7 +55,7 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p1, 0x7f0b0894
+    sget p1, Lcom/resouce/module/ResID;->engine_icon:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/SelectEngineView;->T:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const p1, 0x7f0b0895
+    sget p1, Lcom/resouce/module/ResID;->engine_info:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/SelectEngineView;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0898
+    sget p1, Lcom/resouce/module/ResID;->engine_price:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/SelectEngineView;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0899
+    sget p1, Lcom/resouce/module/ResID;->engine_status_tip:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -121,7 +121,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -292,7 +292,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0819c8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     .line 10
     invoke-virtual {p1, v0, v2}, Lf54;->j(IZ)Lf54;
@@ -327,7 +327,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -346,7 +346,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e6
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -368,7 +368,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06005d
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -387,7 +387,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

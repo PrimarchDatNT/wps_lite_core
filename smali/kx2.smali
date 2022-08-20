@@ -273,7 +273,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0602e7
+    sget v5, Lcom/resouce/module/ResCOLOR;->novel_NovelMainColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -308,7 +308,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060626
+    sget v5, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -325,7 +325,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -354,7 +354,7 @@
     :cond_3
     iget-object v1, p1, Lkx2$d;->k0:Landroid/widget/ImageView;
 
-    const v4, 0x7f081fd5
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->wps_chapter_small_lock_day:I
 
     invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -497,7 +497,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e029f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_cartoon_chapter_item_holder:I
 
     const/4 v1, 0x0
 
@@ -639,14 +639,14 @@
     .line 3
     iget-object v0, p1, Lkx2$d;->k0:Landroid/widget/ImageView;
 
-    const v2, 0x7f080702
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->free_unlock_dir_completed:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 4
     iget-object p1, p1, Lkx2$d;->k0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0603a2
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {p1, v0, v1}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 

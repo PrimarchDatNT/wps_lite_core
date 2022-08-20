@@ -61,7 +61,7 @@
 
     move-result v0
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x1
 
@@ -91,7 +91,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b311f
+    sget v0, Lcom/resouce/module/ResID;->tv_close:I
 
     if-eq p1, v0, :cond_12
 
@@ -103,42 +103,42 @@
     goto/16 :goto_4
 
     :cond_2
-    const v0, 0x7f0b1439
+    sget v0, Lcom/resouce/module/ResID;->iv_cut:I
 
     const/4 v3, 0x0
 
     if-eq p1, v0, :cond_e
 
-    const v0, 0x7f0b1496
+    sget v0, Lcom/resouce/module/ResID;->iv_new_cut:I
 
     if-ne p1, v0, :cond_3
 
     goto/16 :goto_3
 
     :cond_3
-    const v0, 0x7f0b14b9
+    sget v0, Lcom/resouce/module/ResID;->iv_rotation:I
 
     if-eq p1, v0, :cond_c
 
-    const v0, 0x7f0b1499
+    sget v0, Lcom/resouce/module/ResID;->iv_new_rotation:I
 
     if-ne p1, v0, :cond_4
 
     goto/16 :goto_1
 
     :cond_4
-    const v0, 0x7f0b1456
+    sget v0, Lcom/resouce/module/ResID;->iv_filter:I
 
     if-eq p1, v0, :cond_9
 
-    const v0, 0x7f0b1497    # 1.848696E38f
+    sget v0, Lcom/resouce/module/ResID;->iv_new_filter:I    # 1.848696E38f
 
     if-ne p1, v0, :cond_5
 
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b3204
+    sget v0, Lcom/resouce/module/ResID;->tv_ok:I
 
     if-ne p1, v0, :cond_6
 
@@ -157,7 +157,7 @@
     goto/16 :goto_5
 
     :cond_6
-    const v0, 0x7f0b141f
+    sget v0, Lcom/resouce/module/ResID;->iv_cancel:I
 
     if-ne p1, v0, :cond_7
 
@@ -169,7 +169,7 @@
     goto/16 :goto_5
 
     :cond_7
-    const v0, 0x7f0b1445
+    sget v0, Lcom/resouce/module/ResID;->iv_done:I
 
     if-ne p1, v0, :cond_8
 
@@ -181,7 +181,7 @@
     goto/16 :goto_5
 
     :cond_8
-    const v0, 0x7f0b143b
+    sget v0, Lcom/resouce/module/ResID;->iv_detection:I
 
     if-ne p1, v0, :cond_14
 

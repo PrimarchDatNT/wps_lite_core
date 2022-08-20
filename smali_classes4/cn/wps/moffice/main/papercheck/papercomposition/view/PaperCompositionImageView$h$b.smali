@@ -53,7 +53,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h;->X:Landroid/content/Context;
 
-    const v0, 0x7f1200c8
+    sget v0, Lcom/resouce/module/ResSTRING;->app_paper_composition_download_success:I
 
     const/4 v1, 0x0
 
@@ -223,7 +223,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h;->X:Landroid/content/Context;
 
-    const v0, 0x7f121668
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_down_repetition_download_fail_msg:I
 
     const/4 v1, 0x0
 

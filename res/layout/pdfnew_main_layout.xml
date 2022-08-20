@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.pdf.common.PDFFrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.pdf.reader.PDFRenderView android:id="@id/pdf_renderview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <cn.wps.moffice.pdf.controller.drawwindow.DrawSpaceView android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@id/pdf_renderattachedview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/pdf_shell_framework" />
-    <FrameLayout android:id="@id/pdf_shell_misclay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</cn.wps.moffice.pdf.common.PDFFrameLayout>

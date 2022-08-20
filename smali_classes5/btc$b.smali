@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0c0d
+    sget v0, Lcom/resouce/module/ResID;->export_keynote:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0ed6
+    sget v0, Lcom/resouce/module/ResID;->get_privilege:I
 
     if-ne p1, v0, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0eda
+    sget v0, Lcom/resouce/module/ResID;->get_privilege_wps:I
 
     if-ne p1, v0, :cond_3
 
@@ -108,7 +108,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2de5    # 1.8500099E38f
+    sget v0, Lcom/resouce/module/ResID;->super_note_ll:I    # 1.8500099E38f
 
     if-ne p1, v0, :cond_4
 

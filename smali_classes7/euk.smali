@@ -165,12 +165,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0818dd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_edittoolbar_foldmenu_selected_bg:I
 
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0818db
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_edittoolbar_foldmenu_bg:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V

@@ -379,7 +379,7 @@
     .line 10
     iget-object p3, p0, Lcn/wps/moffice/watermark/WaterMarkImpl;->mWaterMaskImageView:Lcn/wps/moffice/watermark/view/WaterMaskImageView;
 
-    const v1, 0x7f0b36dc
+    sget v1, Lcom/resouce/module/ResID;->writer_watermask_imageview:I
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setId(I)V
 

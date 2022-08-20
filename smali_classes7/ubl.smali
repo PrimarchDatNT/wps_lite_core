@@ -53,7 +53,7 @@
     const/4 p2, 0x0
 
     :goto_0
-    const v0, 0x7f0b2be8
+    sget v0, Lcom/resouce/module/ResID;->shortcut:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
     .line 10
     iget-object p1, p0, Lubl;->h0:Ldhl;
 
-    const p2, 0x7f070d3c
+    sget p2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_height:I
 
     invoke-virtual {p0, p2}, Lubl;->s2(I)I
 
@@ -502,7 +502,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 2
     invoke-virtual {p0, v1}, Lubl;->r2(I)I
@@ -524,7 +524,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/indicator/PanelTabBar;->setSelectedTextColor(I)V
 
-    const v1, 0x7f070d2a
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_indicator_fading_edge_length:I
 
     .line 4
     invoke-virtual {p0, v1}, Lubl;->s2(I)I

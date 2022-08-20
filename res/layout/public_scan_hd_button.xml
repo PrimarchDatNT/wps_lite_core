@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/scan_hd_layout" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <TextView android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center_vertical" android:id="@id/scan_hd_text" android:layout_width="wrap_content" android:layout_height="17.0dip" android:text="@string/doc_scan_hd_text" android:includeFontPadding="false" />
-        <ImageView android:layout_gravity="center" android:id="@id/scan_hd_image" android:background="@drawable/public_scan_hd_selector" android:layout_width="29.0dip" android:layout_height="17.0dip" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/scan_hd_text" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/scan_hd_text" />
-    </RelativeLayout>
-</merge>

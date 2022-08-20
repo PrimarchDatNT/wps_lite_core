@@ -534,7 +534,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/multifilter/FilterSearchListView;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f120896
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_no_search_result:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -662,7 +662,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e06bb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_et_filter_search_list_view:I
 
     const/4 v1, 0x1
 
@@ -696,7 +696,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -707,7 +707,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0d78
+    sget v1, Lcom/resouce/module/ResID;->filter_search_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2ae5
+    sget v1, Lcom/resouce/module/ResID;->select_all_filter_items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2ae7
+    sget v1, Lcom/resouce/module/ResID;->select_all_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -742,7 +742,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a50
+    sget v1, Lcom/resouce/module/ResID;->et_filter_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -755,7 +755,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a56
+    sget v1, Lcom/resouce/module/ResID;->et_filter_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -768,7 +768,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a4b
+    sget v1, Lcom/resouce/module/ResID;->et_filter_done:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -781,7 +781,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a47
+    sget v1, Lcom/resouce/module/ResID;->et_filter_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -794,7 +794,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a4f
+    sget v1, Lcom/resouce/module/ResID;->et_filter_hide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -802,7 +802,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/multifilter/FilterSearchListView;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b0a4c
+    sget v0, Lcom/resouce/module/ResID;->et_filter_empty_hint:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -836,7 +836,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0d79
+    sget v0, Lcom/resouce/module/ResID;->filter_search_tv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -847,7 +847,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0a48
+    sget v0, Lcom/resouce/module/ResID;->et_filter_circle_progressBar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -855,7 +855,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/multifilter/FilterSearchListView;->t0:Landroid/view/View;
 
-    const p1, 0x7f0b0dd1
+    sget p1, Lcom/resouce/module/ResID;->fliter_search_et:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -891,7 +891,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    const p1, 0x7f0b2a5a
+    sget p1, Lcom/resouce/module/ResID;->search_box_clean_view:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -935,7 +935,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2ae5
+    sget v0, Lcom/resouce/module/ResID;->select_all_filter_items:I
 
     if-ne p1, v0, :cond_0
 
@@ -949,7 +949,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0d79
+    sget v0, Lcom/resouce/module/ResID;->filter_search_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -987,7 +987,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0a47
+    sget v0, Lcom/resouce/module/ResID;->et_filter_cancel:I
 
     if-ne p1, v0, :cond_2
 
@@ -997,7 +997,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0a4b
+    sget v0, Lcom/resouce/module/ResID;->et_filter_done:I
 
     if-ne p1, v0, :cond_4
 
@@ -1036,7 +1036,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0a4f
+    sget v0, Lcom/resouce/module/ResID;->et_filter_hide:I
 
     if-ne p1, v0, :cond_5
 
@@ -1130,7 +1130,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/multifilter/FilterSearchListView;->o0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

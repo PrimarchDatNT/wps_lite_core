@@ -74,7 +74,7 @@
 
     move-result p1
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const-string v0, "assistant_component_notsupport_continue"
 
@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1227c3
+    sget p2, Lcom/resouce/module/ResSTRING;->public_readonly_unsupport_modify_tips:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -68,7 +68,7 @@
 
     if-eqz p3, :cond_1
 
-    const p3, 0x7f12182b
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_merge_partly_complete:I
 
     .line 4
     invoke-virtual {v0, p3}, Lhd3;->setTitleById(I)Lhd3;
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_1
-    const p3, 0x7f121827
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_merge_complete:I
 
     .line 5
     invoke-virtual {v0, p3}, Lhd3;->setTitleById(I)Lhd3;
@@ -87,7 +87,7 @@
 
     move-result p3
 
-    const v1, 0x7f122599
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_document:I
 
     if-nez p3, :cond_4
 
@@ -149,14 +149,14 @@
 
     invoke-virtual {v0, v1, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f122ec8
+    sget p2, Lcom/resouce/module/ResSTRING;->send_to_desktop:I
 
     .line 12
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p3
 
-    const p4, 0x7f0605f1
+    sget p4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -184,12 +184,12 @@
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f12241c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loc_at_my_doc:I
 
     .line 16
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f1223d4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_later:I
 
     const/4 p3, 0x0
 
@@ -240,12 +240,12 @@
     .line 4
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f12182a
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_merge_fail_try_again:I
 
     .line 5
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance v1, Lvpc$f;
@@ -261,7 +261,7 @@
 
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const p1, 0x7f121bdb
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 8
     new-instance v1, Lvpc$h;
@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0ba3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     const/4 v3, 0x0
 
@@ -317,7 +317,7 @@
     .line 6
     iget-object v0, p0, Lvpc;->a:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lvpc$a;
 
@@ -335,7 +335,7 @@
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)V
 
     :cond_0
-    const v0, 0x7f12182e
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merging:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

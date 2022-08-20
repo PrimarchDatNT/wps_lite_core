@@ -35,7 +35,7 @@
     .line 4
     iget-object p3, p0, Lq6e;->b:Landroid/widget/ListView;
 
-    const p4, 0x7f081373
+    sget p4, Lcom/resouce/module/ResDRAWABLE;->phone_public_selector_null:I
 
     invoke-virtual {p3, p4}, Landroid/widget/ListView;->setSelector(I)V
 

@@ -34,9 +34,9 @@
     .line 2
     new-instance v0, Lomd$a;
 
-    const v1, 0x7f080278
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_postil:I
 
-    const v2, 0x7f121996
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_show_note:I
 
     invoke-direct {v0, p0, v1, v2}, Lomd$a;-><init>(Lomd;II)V
 
@@ -122,7 +122,7 @@
     .line 2
     iget-object v0, p0, Lomd;->B:Landroid/content/Context;
 
-    const v1, 0x7f121b8d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_note_hidden_toast:I
 
     const/4 v2, 0x0
 
@@ -151,7 +151,7 @@
     .line 2
     iget-object v0, p0, Lomd;->B:Landroid/content/Context;
 
-    const v1, 0x7f121b91
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_note_showed_toast:I
 
     const/4 v2, 0x0
 

@@ -647,7 +647,7 @@
 
     if-eqz v4, :cond_3
 
-    const v4, 0x7f12244b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     :try_start_0
     const-string v5, "code"
@@ -1238,7 +1238,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e47
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_expired_login_again:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1293,7 +1293,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c03
+    sget v2, Lcom/resouce/module/ResSTRING;->public_weiyun_login_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1397,7 +1397,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1231ce
+    sget v2, Lcom/resouce/module/ResSTRING;->weiyun:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

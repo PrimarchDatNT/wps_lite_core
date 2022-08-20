@@ -144,7 +144,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f12302a
+    sget v0, Lcom/resouce/module/ResSTRING;->table_name_personal:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -157,7 +157,7 @@
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
-    const v5, 0x7f123027
+    sget v5, Lcom/resouce/module/ResSTRING;->table_info_name:I
 
     .line 4
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -174,7 +174,7 @@
 
     invoke-interface {v4, v6, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f123029
+    sget v2, Lcom/resouce/module/ResSTRING;->table_info_sex:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -191,7 +191,7 @@
 
     invoke-interface {v4, v5, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f123024
+    sget v1, Lcom/resouce/module/ResSTRING;->table_info_borth:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -210,7 +210,7 @@
 
     invoke-interface {v4, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f123026
+    sget v1, Lcom/resouce/module/ResSTRING;->table_info_id:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -231,7 +231,7 @@
     .line 9
     invoke-interface {v4, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f123028
+    sget v1, Lcom/resouce/module/ResSTRING;->table_info_phone_number:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -252,7 +252,7 @@
     .line 12
     invoke-interface {v4, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f123025
+    sget v1, Lcom/resouce/module/ResSTRING;->table_info_email:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -271,7 +271,7 @@
 
     invoke-interface {v4, v2, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f123023
+    sget v1, Lcom/resouce/module/ResSTRING;->table_info_address:I
 
     .line 14
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -323,7 +323,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123004
+    sget v1, Lcom/resouce/module/ResSTRING;->stform_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -633,7 +633,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123004
+    sget v1, Lcom/resouce/module/ResSTRING;->stform_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -782,7 +782,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f123004
+    sget v3, Lcom/resouce/module/ResSTRING;->stform_host:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

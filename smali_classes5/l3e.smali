@@ -798,7 +798,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f070d40
+    sget v10, Lcom/resouce/module/ResDIMEN;->v10_phone_public_titlebar_height:I
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -813,7 +813,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0706ea
+    sget v11, Lcom/resouce/module/ResDIMEN;->phone_ppt_bottom_toolbar_height:I
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -824,7 +824,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f070d37
+    sget v11, Lcom/resouce/module/ResDIMEN;->v10_phone_public_quick_bar_height:I
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -856,7 +856,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f070a3f
+    sget v12, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v:I
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1865,7 +1865,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d37
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_quick_bar_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

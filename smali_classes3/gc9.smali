@@ -156,7 +156,7 @@
 
     iget-object v2, p0, Lgc9;->c:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0e0528
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_home_all_sort_type_popmenu:I
 
     const/4 v4, 0x0
 
@@ -164,17 +164,17 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1be6
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_time:I
 
     .line 3
     invoke-virtual {p0, v1, v2, v0}, Lgc9;->n(Landroid/view/View;II)V
 
-    const v2, 0x7f0b1be4
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_name:I
 
     .line 4
     invoke-virtual {p0, v1, v2, v0}, Lgc9;->n(Landroid/view/View;II)V
 
-    const v2, 0x7f0b1be5
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_size:I
 
     .line 5
     invoke-virtual {p0, v1, v2, v0}, Lgc9;->n(Landroid/view/View;II)V
@@ -205,17 +205,17 @@
 
     if-eq p1, v0, :cond_0
 
-    const p1, 0x7f1207c9
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f12123d
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wps_drive_sort_size:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120b8d
+    sget p1, Lcom/resouce/module/ResSTRING;->et_name:I
 
     .line 1
     :goto_0
@@ -237,7 +237,7 @@
     .line 2
     iput-object p2, p0, Lgc9;->d:Landroid/view/View;
 
-    const p1, 0x7f0b19be
+    sget p1, Lcom/resouce/module/ResID;->nav_img:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p2, 0x7f080f3c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_screening_sort:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -254,7 +254,7 @@
     .line 5
     iget-object p1, p0, Lgc9;->d:Landroid/view/View;
 
-    const p2, 0x7f0b19c7
+    sget p2, Lcom/resouce/module/ResID;->nav_txt:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2f40
+    sget v0, Lcom/resouce/module/ResID;->text_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -302,33 +302,33 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f0b1be6
+    sget v4, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_time:I
 
     if-ne p2, v4, :cond_0
 
-    const p2, 0x7f1206a5
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_sort_filetime:I
 
     const/4 v4, 0x1
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f0b1be4
+    sget v4, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_name:I
 
     if-ne p2, v4, :cond_1
 
-    const p2, 0x7f1206a3
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_sort_filename:I
 
     const/4 v4, 0x0
 
     goto :goto_0
 
     :cond_1
-    const v4, 0x7f0b1be5
+    sget v4, Lcom/resouce/module/ResID;->pad_home_alldocs_sort_by_size:I
 
     if-ne p2, v4, :cond_2
 
-    const p2, 0x7f1206a4
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_sort_filesize:I
 
     const/4 v4, 0x2
 
@@ -379,7 +379,7 @@
 .method public final o(Landroid/view/View;Z)V
     .locals 1
 
-    const v0, 0x7f0b03a5
+    sget v0, Lcom/resouce/module/ResID;->check_box:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

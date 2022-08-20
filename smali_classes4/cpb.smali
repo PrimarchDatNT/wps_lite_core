@@ -160,7 +160,7 @@
 
     iget-object v1, p0, Lcpb;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d2d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_online_security_account_dialog:I
 
     const/4 v2, 0x0
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2ad9
+    sget v1, Lcom/resouce/module/ResID;->security_account_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     invoke-virtual {v1, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v1, 0x7f0b2adc
+    sget v1, Lcom/resouce/module/ResID;->security_account_titlebar:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605a9
+    sget v4, Lcom/resouce/module/ResCOLOR;->public_titlebar_halfscreen_button_color:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -249,7 +249,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -302,7 +302,7 @@
 
     if-eqz v1, :cond_2
 
-    const v3, 0x7f0b2ada
+    sget v3, Lcom/resouce/module/ResID;->security_account_img:I
 
     .line 14
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -313,7 +313,7 @@
 
     invoke-static {v1, v3}, Ly58;->W(Lvw4;Landroid/widget/ImageView;)V
 
-    const v3, 0x7f0b2adb
+    sget v3, Lcom/resouce/module/ResID;->security_account_name:I
 
     .line 15
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     move-result v4
 
-    const v5, 0x7f0b2add
+    sget v5, Lcom/resouce/module/ResID;->security_account_type:I
 
     if-nez v4, :cond_1
 

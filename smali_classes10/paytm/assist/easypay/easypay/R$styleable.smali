@@ -113,7 +113,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f040036
+    sget v8, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v8, v7, v3
 
@@ -257,7 +257,7 @@
 
     new-array v1, v0, [I
 
-    const v4, 0x7f0405b6
+    sget v4, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v4, v1, v3
 
@@ -271,7 +271,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f040250
+    sget v1, Lcom/resouce/module/ResATTR;->fontType:I
 
     aput v1, v0, v3
 

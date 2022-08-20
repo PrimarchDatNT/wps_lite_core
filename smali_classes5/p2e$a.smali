@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

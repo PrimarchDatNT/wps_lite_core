@@ -227,7 +227,7 @@
     :cond_2
     iget-object v1, p0, Lw25$a;->a:Landroid/content/Context;
 
-    const v3, 0x7f1203cf
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_all_pic:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

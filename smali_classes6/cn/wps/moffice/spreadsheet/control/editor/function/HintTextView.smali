@@ -19,13 +19,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e01f9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_function_hint_textview:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0a78
+    sget p1, Lcom/resouce/module/ResID;->et_function_hinttext:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

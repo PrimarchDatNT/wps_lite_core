@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08170d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_menu:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -190,12 +190,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f081a3f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_more_new:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f081a3d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_more:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

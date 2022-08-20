@@ -337,7 +337,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1216b7
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_stripe_title:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1216b8
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_stripe_type:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -573,7 +573,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121f98
+    sget v0, Lcom/resouce/module/ResSTRING;->public_credits:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -677,7 +677,7 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 9
     invoke-static {p7, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
@@ -685,7 +685,7 @@
     goto :goto_0
 
     :cond_2
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 10
     invoke-static {p7, p2, p3}, Lbih;->n(Landroid/content/Context;II)V

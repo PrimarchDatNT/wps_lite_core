@@ -66,7 +66,7 @@
 
     iget-object v0, v0, Lnml$m;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1230a6
+    sget v1, Lcom/resouce/module/ResSTRING;->template_resume_save_fail_tip:I
 
     const/4 v2, 0x0
 

@@ -48,7 +48,7 @@
 .method public b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b08d7
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_dialog_radio1:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
 
     iput-object v0, p0, Lz0g$o;->a:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b08d8
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_dialog_radio2:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

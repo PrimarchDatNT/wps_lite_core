@@ -64,7 +64,7 @@
     .line 1
     iget-object v0, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122811
+    sget v1, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
     .line 1
     iget-object p2, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v0, 0x7f122ea6    # 1.943095E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->search_result_find_file:I    # 1.943095E38f
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

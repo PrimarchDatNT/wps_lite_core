@@ -287,7 +287,7 @@
 .method public g(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e0968
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_filterlist_item:I
 
     const/4 v1, 0x0
 
@@ -378,9 +378,9 @@
     .line 2
     new-instance v1, Lk1g;
 
-    const v2, 0x7f081093
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_ascsort:I
 
-    const v3, 0x7f120c24
+    sget v3, Lcom/resouce/module/ResSTRING;->et_sort_order_0:I
 
     const/4 v4, 0x1
 
@@ -391,9 +391,9 @@
     .line 3
     new-instance v1, Lk1g;
 
-    const v2, 0x7f081096
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_descsort:I
 
-    const v3, 0x7f120c25
+    sget v3, Lcom/resouce/module/ResSTRING;->et_sort_order_1:I
 
     const/4 v4, 0x2
 
@@ -404,9 +404,9 @@
     .line 4
     new-instance v1, Lk1g;
 
-    const v2, 0x7f081095
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_custom:I
 
-    const v3, 0x7f12088f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_filter_customize:I
 
     const/4 v4, 0x3
 
@@ -417,9 +417,9 @@
     .line 5
     new-instance v1, Lk1g;
 
-    const v2, 0x7f081094
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_clear:I
 
-    const v3, 0x7f120888
+    sget v3, Lcom/resouce/module/ResSTRING;->et_filter_clearfilter:I
 
     const/4 v4, 0x4
 
@@ -443,9 +443,9 @@
     .line 7
     new-instance v1, Lk1g;
 
-    const v3, 0x7f081097
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_multi:I
 
-    const v5, 0x7f12089f
+    sget v5, Lcom/resouce/module/ResSTRING;->et_filter_select_multi:I
 
     const/4 v6, 0x5
 
@@ -456,22 +456,22 @@
     .line 8
     new-instance v1, Lk1g;
 
-    const v3, 0x7f081098
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_et_filter_unique:I
 
-    const v5, 0x7f1208a0
+    sget v5, Lcom/resouce/module/ResSTRING;->et_filter_select_unique:I
 
     invoke-direct {v1, v3, v5, v2}, Lk1g;-><init>(III)V
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f0b0c06
+    sget v1, Lcom/resouce/module/ResID;->export_btn:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b33d9
+    sget v3, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 10
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -506,12 +506,12 @@
 
     if-eqz v5, :cond_1
 
-    const v5, 0x7f0808a3
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     goto :goto_0
 
     :cond_1
-    const v5, 0x7f0817cc
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 16
     :goto_0
@@ -531,7 +531,7 @@
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_3
-    const v1, 0x7f0b0a4a
+    sget v1, Lcom/resouce/module/ResID;->et_filter_ctrl_pane:I
 
     .line 19
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060002
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -696,7 +696,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

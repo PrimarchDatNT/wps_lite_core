@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0d5d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_normal_temlate_grid_item:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getLayout(I)Landroid/content/res/XmlResourceParser;
 
@@ -111,7 +111,7 @@
     .line 3
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(Lorg/xmlpull/v1/XmlPullParser;Landroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1c9c
+    sget v0, Lcom/resouce/module/ResID;->paper_composition_degree_tv:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/NormalTemplateGridItemView;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1c9b
+    sget v0, Lcom/resouce/module/ResID;->paper_composition_degree_img:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -179,9 +179,9 @@
     .line 3
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    const p1, 0x7f080fbe
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->paper_composition_normal_temlate_college:I
 
-    const v1, 0x7f1200bd
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_college_normal_template:I
 
     if-eq p2, v0, :cond_4
 
@@ -200,23 +200,23 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f1200df
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_master_normal_template:I
 
-    const p1, 0x7f080fc0
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->paper_composition_normal_temlate_master:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f1200cf
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_graduate_normal_template:I
 
-    const p1, 0x7f080fbf
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->paper_composition_normal_temlate_graduate:I
 
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f1200b4
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_bachelor_normal_template:I
 
-    const p1, 0x7f080fbd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->paper_composition_normal_temlate_bachelor:I
 
     .line 4
     :cond_4

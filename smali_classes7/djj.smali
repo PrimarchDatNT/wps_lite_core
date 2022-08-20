@@ -55,7 +55,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12248d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_long_time_not_save_tip:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -66,7 +66,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122828
+    sget v5, Lcom/resouce/module/ResSTRING;->public_save_immediately:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -412,7 +412,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1221c3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_download_math_font:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -422,7 +422,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060470
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_red:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -433,11 +433,11 @@
 
     invoke-direct {v2, p0, p1}, Lcn/wps/moffice/common/oldfont/math/MathFontDownload$f;-><init>(Landroid/content/Context;Ley3$a;)V
 
-    const p0, 0x7f12201b
+    sget p0, Lcom/resouce/module/ResSTRING;->public_download:I
 
     invoke-virtual {v0, p0, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p1, 0x0
 
@@ -458,7 +458,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -468,11 +468,11 @@
 
     invoke-direct {v1, p0, p1}, Lcn/wps/moffice/common/oldfont/math/MathFontDownload$h;-><init>(Landroid/content/Context;Ley3$a;)V
 
-    const p0, 0x7f121f5e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p1, 0x0
 

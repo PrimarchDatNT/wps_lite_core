@@ -36,7 +36,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V

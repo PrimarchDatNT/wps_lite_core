@@ -49,7 +49,7 @@
     .line 4
     iput-object p2, p0, Lca8;->b:Ljava/lang/String;
 
-    const p1, 0x7f121953
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_send_url:I
 
     .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -61,7 +61,7 @@
     .line 6
     iget-object p1, p0, Lca8;->d:Ljava/util/ArrayList;
 
-    const p2, 0x7f121952
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_copy_url:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06fc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_team_share_dialog:I
 
     const/4 v2, 0x0
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1ff7
+    sget v1, Lcom/resouce/module/ResID;->phone_home_clouddocs_team_share_dialog_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iget-object v1, p0, Lca8;->a:Landroid/content/Context;
 
-    const v2, 0x7f1302ef
+    sget v2, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 

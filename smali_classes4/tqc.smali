@@ -102,7 +102,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060657
+    sget v5, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -125,7 +125,7 @@
     .line 7
     invoke-virtual {v5, v4}, Landroid/widget/TextView;->setLines(I)V
 
-    const v6, 0x7f121856
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_note_page:I
 
     .line 8
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
@@ -137,7 +137,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f081a9c
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_panel_item_third_bg_selector:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -152,7 +152,7 @@
 
     move-result-object v6
 
-    const v8, 0x7f06025f
+    sget v8, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -185,7 +185,7 @@
     .line 15
     invoke-virtual {v9, v4}, Landroid/widget/TextView;->setLines(I)V
 
-    const v10, 0x7f121869
+    sget v10, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_insert_from_pic:I
 
     .line 16
     invoke-virtual {v9, v10}, Landroid/widget/TextView;->setText(I)V
@@ -239,7 +239,7 @@
     .line 23
     invoke-virtual {v10, v4}, Landroid/widget/TextView;->setLines(I)V
 
-    const v11, 0x7f12185b
+    sget v11, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_pdf_page_from_docs:I
 
     .line 24
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(I)V

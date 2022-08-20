@@ -53,7 +53,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f080762
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_merge:I
 
     const/4 v3, 0x1
 
@@ -79,9 +79,9 @@
     .line 5
     invoke-virtual {v0, v4}, Lkib;->C(I)V
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
-    const v5, 0x7f121051
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_merge:I
 
     new-array v6, v3, [Lcib$b;
 
@@ -129,9 +129,9 @@
 
     invoke-virtual {v0, v4}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v4, 0x7f12182c
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
-    const v5, 0x7f122698
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_merge_desc:I
 
     const/4 v6, 0x2
 

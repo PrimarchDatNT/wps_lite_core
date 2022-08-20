@@ -34,15 +34,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08039f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_safty_encryption:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080d8d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_safty_encryption_et:I
 
     :goto_0
-    const v2, 0x7f122050
+    sget v2, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/encrypt/Encrypter$3;-><init>(Lcn/wps/moffice/spreadsheet/control/encrypt/Encrypter;II)V
 
@@ -159,11 +159,11 @@
 
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/Encrypter;->I:Landroid/content/Context;
 
-    const v4, 0x7f122050
+    sget v4, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
-    const v5, 0x7f08039f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_safty_encryption:I
 
-    const v6, 0x7f122050
+    sget v6, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     move-object v1, v0
 

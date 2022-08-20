@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/phone_public_list_white_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/item_image" android:src="@drawable/ppt_record" style="@style/phone_home_listview_item_icon" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center_vertical" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" style="@style/phone_home_listview_item_content_title" />
-</LinearLayout>

@@ -221,7 +221,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/core/service/internal/weiyun/t3rdopen/OpenWeiyunFileActivity$e;->Z:Lcn/wps/moffice/main/cloud/storage/core/service/internal/weiyun/t3rdopen/OpenWeiyunFileActivity;
 
-    const v1, 0x7f120623
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     const/4 v2, 0x1
 

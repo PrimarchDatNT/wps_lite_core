@@ -40,22 +40,22 @@
 
     invoke-direct {v0}, Lkdd$a;-><init>()V
 
-    const v1, 0x7f1227ee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_refuse_jurisdiction:I
 
     .line 3
     iput v1, v0, Lkdd$a;->a:I
 
-    const v1, 0x7f122626
+    sget v1, Lcom/resouce/module/ResSTRING;->public_permission_request:I
 
     .line 4
     iput v1, v0, Lkdd$a;->b:I
 
-    const v1, 0x7f1227ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_refuse_give_permission:I
 
     .line 5
     iput v1, v0, Lkdd$a;->c:I
 
-    const v1, 0x7f122627
+    sget v1, Lcom/resouce/module/ResSTRING;->public_permission_storage_disallow_msg:I
 
     .line 6
     iput v1, v0, Lkdd$a;->d:I
@@ -72,12 +72,12 @@
 
     invoke-direct {v0}, Lkdd$a;-><init>()V
 
-    const v1, 0x7f122625
+    sget v1, Lcom/resouce/module/ResSTRING;->public_permission_reject_title:I
 
     .line 9
     iput v1, v0, Lkdd$a;->a:I
 
-    const v2, 0x7f122619
+    sget v2, Lcom/resouce/module/ResSTRING;->public_permission_camera_request_msg:I
 
     .line 10
     iput v2, v0, Lkdd$a;->b:I
@@ -103,7 +103,7 @@
     .line 15
     iput v1, v0, Lkdd$a;->a:I
 
-    const v2, 0x7f122624
+    sget v2, Lcom/resouce/module/ResSTRING;->public_permission_record_audio_request_msg:I
 
     .line 16
     iput v2, v0, Lkdd$a;->b:I

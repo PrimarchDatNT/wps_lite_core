@@ -82,7 +82,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b045d
+    sget v0, Lcom/resouce/module/ResID;->cloud_popup_btn_view:I
 
     if-ne p1, v0, :cond_3
 
@@ -98,7 +98,7 @@
     .line 6
     iget-object p1, p0, Lmbd$c;->B:Landroid/app/Activity;
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v1, 0x0
 

@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122cac
+    sget v1, Lcom/resouce/module/ResSTRING;->qing_instructions_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12135d
+    sget v1, Lcom/resouce/module/ResSTRING;->login_device_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -284,7 +284,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12319f
+    sget v1, Lcom/resouce/module/ResSTRING;->user_privilege_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -385,7 +385,7 @@
 
     sput-object v0, Lpw4;->x:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12067d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_off:I
 
     const/4 v2, 0x0
 
@@ -397,7 +397,7 @@
 
     const/high16 v1, 0x500000
 
-    const v2, 0x7f12067c
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_5m:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -406,7 +406,7 @@
 
     const/high16 v1, 0xa00000
 
-    const v2, 0x7f120679
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_10m:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -415,7 +415,7 @@
 
     const/high16 v1, 0x6400000
 
-    const v2, 0x7f120678
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_100m:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -424,7 +424,7 @@
 
     const/high16 v1, 0x9600000
 
-    const v2, 0x7f12067a
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_150m:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -433,14 +433,14 @@
 
     const/high16 v1, 0xc800000
 
-    const v2, 0x7f12067b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_200m:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->append(II)V
 
     .line 39
     sget-object v0, Lpw4;->x:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12067e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_unlimited:I
 
     const/4 v2, -0x1
 
@@ -453,7 +453,7 @@
 
     sput-object v0, Lpw4;->y:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12067d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_off:I
 
     const/4 v2, 0x0
 
@@ -465,7 +465,7 @@
 
     const/high16 v1, 0x500000
 
-    const v2, 0x7f12067c
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_5m:I
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -474,7 +474,7 @@
 
     const/high16 v1, 0xa00000
 
-    const v2, 0x7f120679
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_10m:I
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -483,7 +483,7 @@
 
     const/high16 v1, 0x6400000
 
-    const v2, 0x7f120678
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_100m:I
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -492,7 +492,7 @@
 
     const/high16 v1, 0x9600000
 
-    const v2, 0x7f12067a
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_150m:I
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
@@ -501,14 +501,14 @@
 
     const/high16 v1, 0xc800000
 
-    const v2, 0x7f12067b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_200m:I
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
     .line 47
     sget-object v0, Lpw4;->y:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f12067e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_traffic_unlimited:I
 
     const/4 v2, -0x1
 
@@ -674,7 +674,7 @@
     .line 77
     sget-object v5, Lpw4;->z:Ljava/lang/String;
 
-    const v6, 0x7f081082
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_qq:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -687,7 +687,7 @@
 
     sget-object v5, Lpw4;->A:Ljava/lang/String;
 
-    const v6, 0x7f08108d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_wps:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -700,7 +700,7 @@
 
     sget-object v5, Lpw4;->B:Ljava/lang/String;
 
-    const v6, 0x7f08108e
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_xiaomi:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -713,7 +713,7 @@
 
     sget-object v5, Lpw4;->D:Ljava/lang/String;
 
-    const v6, 0x7f08108b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_weichat:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -726,7 +726,7 @@
 
     sget-object v5, Lpw4;->C:Ljava/lang/String;
 
-    const v6, 0x7f081089
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_sina:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -739,7 +739,7 @@
 
     sget-object v5, Lpw4;->M:Ljava/lang/String;
 
-    const v6, 0x7f0808b9
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_dingding:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -752,7 +752,7 @@
 
     sget-object v5, Lpw4;->E:Ljava/lang/String;
 
-    const v6, 0x7f08107b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_google:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -765,7 +765,7 @@
 
     sget-object v5, Lpw4;->F:Ljava/lang/String;
 
-    const v6, 0x7f081072
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_about_facebook:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -778,7 +778,7 @@
 
     sget-object v5, Lpw4;->G:Ljava/lang/String;
 
-    const v6, 0x7f08108a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_twitter:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -791,7 +791,7 @@
 
     sget-object v5, Lpw4;->H:Ljava/lang/String;
 
-    const v6, 0x7f0819a2
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_icon_yahoo:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -804,7 +804,7 @@
 
     sget-object v5, Lpw4;->J:Ljava/lang/String;
 
-    const v6, 0x7f08108d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_wps:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -817,7 +817,7 @@
 
     sget-object v5, Lpw4;->K:Ljava/lang/String;
 
-    const v6, 0x7f08108d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_documents_wps:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -830,7 +830,7 @@
 
     sget-object v5, Lpw4;->I:Ljava/lang/String;
 
-    const v6, 0x7f0808ba
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_dropbox_icon:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -843,7 +843,7 @@
 
     sget-object v5, Lpw4;->L:Ljava/lang/String;
 
-    const v6, 0x7f0808b7
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_coremailedu:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -856,7 +856,7 @@
 
     sget-object v5, Lpw4;->O:Ljava/lang/String;
 
-    const v6, 0x7f080a81
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->login_huawei_icon:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -874,7 +874,7 @@
     .line 93
     sget-object v5, Lpw4;->z:Ljava/lang/String;
 
-    const v6, 0x7f12065e
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_qq:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -887,7 +887,7 @@
 
     sget-object v5, Lpw4;->A:Ljava/lang/String;
 
-    const v6, 0x7f120662
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_wps:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -900,7 +900,7 @@
 
     sget-object v5, Lpw4;->B:Ljava/lang/String;
 
-    const v6, 0x7f12065d
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_mi:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -913,7 +913,7 @@
 
     sget-object v5, Lpw4;->D:Ljava/lang/String;
 
-    const v6, 0x7f120661
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_wechat:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -926,7 +926,7 @@
 
     sget-object v5, Lpw4;->C:Ljava/lang/String;
 
-    const v6, 0x7f12065f
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_sina:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -939,7 +939,7 @@
 
     sget-object v5, Lpw4;->E:Ljava/lang/String;
 
-    const v6, 0x7f12065c
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_google:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -952,7 +952,7 @@
 
     sget-object v5, Lpw4;->F:Ljava/lang/String;
 
-    const v6, 0x7f12065b
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_facebook:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -965,7 +965,7 @@
 
     sget-object v5, Lpw4;->G:Ljava/lang/String;
 
-    const v6, 0x7f120660
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_twitter:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -978,7 +978,7 @@
 
     sget-object v5, Lpw4;->H:Ljava/lang/String;
 
-    const v6, 0x7f120663
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_yahoo:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -991,7 +991,7 @@
 
     sget-object v5, Lpw4;->I:Ljava/lang/String;
 
-    const v6, 0x7f12065a
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_dropbox:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1004,7 +1004,7 @@
 
     sget-object v5, Lpw4;->J:Ljava/lang/String;
 
-    const v6, 0x7f121dea
+    sget v6, Lcom/resouce/module/ResSTRING;->public_chinanet:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1017,7 +1017,7 @@
 
     sget-object v5, Lpw4;->K:Ljava/lang/String;
 
-    const v6, 0x7f121de9
+    sget v6, Lcom/resouce/module/ResSTRING;->public_china_mobile:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1030,7 +1030,7 @@
 
     sget-object v5, Lpw4;->L:Ljava/lang/String;
 
-    const v6, 0x7f121f81
+    sget v6, Lcom/resouce/module/ResSTRING;->public_coremailedu:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1043,7 +1043,7 @@
 
     sget-object v5, Lpw4;->L:Ljava/lang/String;
 
-    const v6, 0x7f121f81
+    sget v6, Lcom/resouce/module/ResSTRING;->public_coremailedu:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1056,7 +1056,7 @@
 
     sget-object v5, Lpw4;->M:Ljava/lang/String;
 
-    const v6, 0x7f120659
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_account_login_type_dingding:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1069,7 +1069,7 @@
 
     sget-object v5, Lpw4;->O:Ljava/lang/String;
 
-    const v6, 0x7f12247e
+    sget v6, Lcom/resouce/module/ResSTRING;->public_login_type_huawei_show_text:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1082,7 +1082,7 @@
 
     sget-object v5, Lpw4;->S:Ljava/lang/String;
 
-    const v6, 0x7f12245d
+    sget v6, Lcom/resouce/module/ResSTRING;->public_login_phone_number:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1095,7 +1095,7 @@
 
     sget-object v5, Lpw4;->T:Ljava/lang/String;
 
-    const v6, 0x7f122446
+    sget v6, Lcom/resouce/module/ResSTRING;->public_login_email:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1108,7 +1108,7 @@
 
     sget-object v5, Lpw4;->U:Ljava/lang/String;
 
-    const v6, 0x7f1223dd
+    sget v6, Lcom/resouce/module/ResSTRING;->public_line:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1248,7 +1248,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f081079
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_documents_file_pause:I
 
     .line 128
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
@@ -1296,7 +1296,7 @@
 
     sput-object v0, Lpw4;->b0:Ljava/util/HashMap;
 
-    const v1, 0x7f121103
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_register:I
 
     .line 136
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1307,7 +1307,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f1210ff
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_bronze:I
 
     .line 137
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1318,7 +1318,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121104
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_silver:I
 
     .line 138
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1329,7 +1329,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121101
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_gold:I
 
     .line 139
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1340,7 +1340,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121102
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_platinum:I
 
     .line 140
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1351,7 +1351,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121106
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_wps:I
 
     .line 141
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1362,7 +1362,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121100
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_docer:I
 
     .line 142
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1373,7 +1373,7 @@
 
     invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f121105
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_superwps:I
 
     .line 143
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2276,7 +2276,7 @@
 
     move-result v0
 
-    const v1, 0x7f12247b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_type_default_show_text:I
 
     if-eqz v0, :cond_0
 

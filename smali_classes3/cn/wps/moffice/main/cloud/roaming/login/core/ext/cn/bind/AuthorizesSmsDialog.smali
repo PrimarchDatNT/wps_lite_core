@@ -141,7 +141,7 @@
     .line 2
     iget-object p1, p0, Lox7;->mResource:Landroid/content/res/Resources;
 
-    const v0, 0x7f120f3b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_input_correct_auth_code:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -215,7 +215,7 @@
     .line 1
     iget-object v0, p0, Lox7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121da7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v2, 0x0
 
@@ -355,7 +355,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f120213
+    sget v1, Lcom/resouce/module/ResSTRING;->bind_phone_pc_auth_login_tip:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -377,13 +377,13 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f080828
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_guide_bind_phone_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_2
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     if-eqz v0, :cond_3
 
-    const v1, 0x7f120f2f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_bind_immediately:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

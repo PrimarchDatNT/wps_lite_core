@@ -92,7 +92,7 @@
 
     iget-object v1, v1, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e74
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_paint_tool:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12236e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ink_function_guide_text:I
 
     const/4 v5, 0x1
 
@@ -186,7 +186,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

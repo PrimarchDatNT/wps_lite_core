@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1303d7
+    sget v2, Lcom/resouce/module/ResSTYLE;->WindowEnterDialogStyle:I
 
     invoke-virtual {v0, v2}, Landroid/view/Window;->setWindowAnimations(I)V
 
@@ -246,7 +246,7 @@
 
     const/4 p3, 0x0
 
-    const v0, 0x7f130189
+    sget v0, Lcom/resouce/module/ResSTYLE;->Normal_dialog:I
 
     .line 3
     invoke-virtual {p0, p3, v0}, Landroid/app/DialogFragment;->setStyle(II)V

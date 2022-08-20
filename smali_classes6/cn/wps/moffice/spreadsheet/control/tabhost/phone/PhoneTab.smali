@@ -45,13 +45,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_tab_item:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2183
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_color:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/PhoneTab;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2185
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_name:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/PhoneTab;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2186
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_swap:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/PhoneTab;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2184
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tab_hide_icon:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -95,12 +95,12 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/PhoneTab;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f081e58
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ss_tab_hidedsheet_icon_phone:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0812c7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_list_selector:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -262,12 +262,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f060002
+    sget p1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f06025f
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_0
     invoke-virtual {v1, p1}, Landroid/content/res/Resources;->getColor(I)I

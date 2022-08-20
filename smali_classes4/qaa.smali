@@ -71,7 +71,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121009
+    sget v0, Lcom/resouce/module/ResSTRING;->home_passcode:I
 
     return v0
 .end method

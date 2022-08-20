@@ -57,14 +57,14 @@
 .method public static c(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 13
 
-    const v0, 0x7f0b286c
+    sget v0, Lcom/resouce/module/ResID;->reddot_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b286b
+    sget v1, Lcom/resouce/module/ResID;->reddot_image:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b286d
+    sget v2, Lcom/resouce/module/ResID;->reddot_name:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     move-result-object v2
 
-    const v11, 0x7f06025f
+    sget v11, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v11}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -250,7 +250,7 @@
 
     move-result p1
 
-    const v2, 0x7f0810b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_share:I
 
     if-eqz p1, :cond_5
 
@@ -311,7 +311,7 @@
 .method public static d(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b263e
+    sget v0, Lcom/resouce/module/ResID;->public_home_more_under_line:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b1272
+    sget v0, Lcom/resouce/module/ResID;->image_close:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -368,7 +368,7 @@
 .method public static f(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f0b0fc3
+    sget v0, Lcom/resouce/module/ResID;->help_and_feedback_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -394,14 +394,14 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b0e37
+    sget v0, Lcom/resouce/module/ResID;->font_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b0e34
+    sget v1, Lcom/resouce/module/ResID;->font_image:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08170e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_more_font:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -438,7 +438,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08194f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_home_font_icon:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -475,7 +475,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b183c
+    sget v1, Lcom/resouce/module/ResID;->meact_layout:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -517,7 +517,7 @@
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b183d
+    sget v2, Lcom/resouce/module/ResID;->meact_text:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -572,7 +572,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v2, 0x7f0b183a
+    sget v2, Lcom/resouce/module/ResID;->me_layout:I
 
     if-nez v0, :cond_1
 
@@ -600,7 +600,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b183b
+    sget v1, Lcom/resouce/module/ResID;->me_text:I
 
     if-eqz v0, :cond_3
 
@@ -712,7 +712,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -746,7 +746,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b1985
+    sget v0, Lcom/resouce/module/ResID;->mytag_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -787,7 +787,7 @@
     return-void
 
     :cond_1
-    const v1, 0x7f0b10a1
+    sget v1, Lcom/resouce/module/ResID;->home_more_popup_center_layout:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -828,14 +828,14 @@
 
     if-eq v0, v1, :cond_1
 
-    const v1, 0x7f0b24cf
+    sget v1, Lcom/resouce/module/ResID;->premium_layout:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b24ce
+    sget v2, Lcom/resouce/module/ResID;->premium_image:I
 
     .line 4
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -851,12 +851,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f081b0b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_premium_log:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f08170f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_more_vip:I
 
     .line 6
     :goto_0
@@ -870,7 +870,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v2, 0x7f0b24d0
+    sget v2, Lcom/resouce/module/ResID;->premium_name:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -884,7 +884,7 @@
 
     if-eq v0, v2, :cond_1
 
-    const v0, 0x7f121c8e
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -894,7 +894,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -921,7 +921,7 @@
 .method public static m(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f0b27a1
+    sget v0, Lcom/resouce/module/ResID;->qrcode_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -990,7 +990,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v4, 0x7f0b27f2
+    sget v4, Lcom/resouce/module/ResID;->read_layout:I
 
     .line 2
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1023,7 +1023,7 @@
     .line 6
     invoke-virtual {v4, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b27f1
+    sget v1, Lcom/resouce/module/ResID;->read_image:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1032,7 +1032,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b27f5
+    sget v2, Lcom/resouce/module/ResID;->read_name:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1057,7 +1057,7 @@
 
     if-nez v2, :cond_1
 
-    const v2, 0x7f0810d1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_more_pop_read_icon:I
 
     .line 11
     invoke-static {v1, p1, v2}, Lsc9;->b(Landroid/widget/ImageView;Ljava/lang/String;I)V
@@ -1117,7 +1117,7 @@
 .method public static o(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f0b2853
+    sget v0, Lcom/resouce/module/ResID;->recovery_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1230,7 +1230,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v1, 0x7f0b2253
+    sget v1, Lcom/resouce/module/ResID;->play_share_ppt_layout:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1287,14 +1287,14 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v2, 0x7f0b2e09
+    sget v2, Lcom/resouce/module/ResID;->switch_recent_page_layout:I
 
     .line 4
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b282a
+    sget v3, Lcom/resouce/module/ResID;->recent_page_switch_tv:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1310,7 +1310,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f120272
+    sget v3, Lcom/resouce/module/ResSTRING;->classic_home_page:I
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
@@ -1318,7 +1318,7 @@
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f12146b
+    sget v3, Lcom/resouce/module/ResSTRING;->new_home_page:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
@@ -1411,7 +1411,7 @@
 
     check-cast v1, Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e034a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_more_popup:I
 
     const/4 v3, 0x0
 

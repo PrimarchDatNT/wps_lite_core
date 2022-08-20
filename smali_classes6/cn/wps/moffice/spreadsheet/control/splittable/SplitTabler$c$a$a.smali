@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122836
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 

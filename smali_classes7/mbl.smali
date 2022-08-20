@@ -32,7 +32,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    const p1, 0x7f0b0556
+    sget p1, Lcom/resouce/module/ResID;->contentnav_viewstub:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object p1, p0, Lmbl;->d0:Landroid/view/View;
 
-    const p1, 0x7f0b21a6
+    sget p1, Lcom/resouce/module/ResID;->phone_writer_bottom_contentmenu_parent:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e17
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_saveicon_local_status_panel:I
 
     const/4 v2, 0x0
 
@@ -49,7 +49,7 @@
 
     iput-object p2, p0, Ln15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b3312
+    sget v0, Lcom/resouce/module/ResID;->upload_button:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -151,7 +151,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0d46
+    sget v0, Lcom/resouce/module/ResID;->file_writer_shareplay:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

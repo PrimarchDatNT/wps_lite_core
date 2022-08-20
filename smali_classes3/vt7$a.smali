@@ -154,7 +154,7 @@
 
     iget-object v1, p1, Ltt7;->d:Landroid/content/Context;
 
-    const v2, 0x7f120623
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -229,7 +229,7 @@
 .method public final B2()V
     .locals 5
 
-    const v0, 0x7f0e09cc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_edit_bg_more:I
 
     const/4 v1, 0x0
 
@@ -268,7 +268,7 @@
     .line 5
     iget-object v1, p0, Lx9l;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v3, 0x7f1224f6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_my_letters:I
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 
@@ -289,7 +289,7 @@
 
     iput-object v0, p0, Lx9l;->i0:Ljava/util/ArrayList;
 
-    const v0, 0x7f0b0f47
+    sget v0, Lcom/resouce/module/ResID;->gridview:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -738,7 +738,7 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f080233
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -1528,7 +1528,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

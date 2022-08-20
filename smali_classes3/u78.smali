@@ -604,7 +604,7 @@
 
     const/4 p3, 0x0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     if-ne p1, p2, :cond_4
 
@@ -1131,7 +1131,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122a35
+    sget v2, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     const/4 v3, 0x1
 
@@ -1139,7 +1139,7 @@
 
     if-nez v14, :cond_2
 
-    const v5, 0x7f1222de
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_multi_send_failed_hint:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -1154,7 +1154,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1229fe
+    sget v3, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 4
     invoke-virtual {v7, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1182,7 +1182,7 @@
     :cond_2
     if-ne v14, v3, :cond_3
 
-    const v5, 0x7f1222df
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_multi_send_failed_reset:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -1219,7 +1219,7 @@
 
     if-ne v14, v0, :cond_4
 
-    const v0, 0x7f1222e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_multi_send_space_full:I
 
     .line 8
     invoke-virtual {v7, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1231,7 +1231,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202b7
+    sget v2, Lcom/resouce/module/ResSTRING;->cloud_space_manager:I
 
     .line 10
     invoke-virtual {v7, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1256,7 +1256,7 @@
 
     if-ne v14, v0, :cond_6
 
-    const v0, 0x7f1222e1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_multi_send_space_limit:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -1290,7 +1290,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123178
+    sget v2, Lcom/resouce/module/ResSTRING;->upgrade_vip:I
 
     .line 15
     invoke-virtual {v7, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

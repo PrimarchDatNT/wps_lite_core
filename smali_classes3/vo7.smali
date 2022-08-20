@@ -70,7 +70,7 @@
     .line 2
     iget-object v0, p0, Lvo7;->a:Luo7;
 
-    const v2, 0x7f122c01
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wechate_open_share_folder_account_no_same:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -164,12 +164,12 @@
 
     if-ne p2, v0, :cond_1
 
-    const p2, 0x7f122bfd
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wechat_sharefolder_not_member_error:I
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f122bfc
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wechat_sharefolder_not_exist_error:I
 
     .line 3
     :goto_0

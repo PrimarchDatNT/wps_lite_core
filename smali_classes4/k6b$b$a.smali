@@ -101,7 +101,7 @@
 
     iget-object v0, v0, Lk6b;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1204cd
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

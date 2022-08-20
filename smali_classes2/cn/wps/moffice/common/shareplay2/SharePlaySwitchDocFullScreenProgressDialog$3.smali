@@ -298,7 +298,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121c0c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_download_file_fail:I
 
     const/4 v2, 0x1
 

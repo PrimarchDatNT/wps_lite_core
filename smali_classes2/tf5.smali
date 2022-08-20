@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b02
+    sget v0, Lcom/resouce/module/ResLAYOUT;->progressbar_layout:I
 
     const/4 v2, 0x0
 
@@ -48,7 +48,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
 
     iput-object v0, p0, Ltf5;->c:Lcn/wpsx/support/ui/CircleProgressBarV3;
 
-    const v0, 0x7f0b254a
+    sget v0, Lcom/resouce/module/ResID;->progress_rate:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Ltf5;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
     .line 13
     iget-object p1, p0, Ltf5;->b:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

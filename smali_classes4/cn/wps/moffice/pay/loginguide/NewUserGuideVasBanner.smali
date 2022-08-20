@@ -170,7 +170,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0178
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_new_user_guide_privilege_card:I
 
     const/4 v3, 0x0
 
@@ -180,7 +180,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1a19
+    sget v2, Lcom/resouce/module/ResID;->new_user_title_privilege:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     check-cast v2, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v3, 0x7f0b0864
+    sget v3, Lcom/resouce/module/ResID;->en_new_user_guid_vip_list:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0603f2
+    sget v2, Lcom/resouce/module/ResCOLOR;->pay_dialog_radio_disc:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -367,7 +367,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

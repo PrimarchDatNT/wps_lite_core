@@ -58,12 +58,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122820
+    sget p1, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122018
+    sget p1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

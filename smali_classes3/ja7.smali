@@ -18,7 +18,7 @@
 .method public t()I
     .locals 1
 
-    const v0, 0x7f0e0502
+    sget v0, Lcom/resouce/module/ResLAYOUT;->oversea_drive_cloud_list_cloud_service_item:I
 
     return v0
 .end method

@@ -54,9 +54,9 @@
 .method public constructor <init>(Lfmf;)V
     .locals 2
 
-    const v0, 0x7f122abc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_text_alignment:I
 
-    const v1, 0x7f0e01c5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_align_dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0, v1}, Lhnf;-><init>(Lfmf;II)V
@@ -127,17 +127,17 @@
 
     invoke-direct {p2, v0, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v0, 0x7f120b89
+    sget v0, Lcom/resouce/module/ResSTRING;->et_merge_cells_warning:I
 
     .line 6
     invoke-virtual {p2, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f122fdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_merge_cells_warning_title:I
 
     .line 7
     invoke-virtual {p2, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f122a5a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     .line 8
     new-instance v2, Lkmf;
@@ -146,7 +146,7 @@
 
     invoke-virtual {p2, v0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v0, 0x0
 
@@ -320,7 +320,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f1207ab
+    sget p3, Lcom/resouce/module/ResSTRING;->et_complex_format_align_h_right:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -482,7 +482,7 @@
     .line 1
     iget-object p1, p0, Lemf;->S:Landroid/view/View;
 
-    const v0, 0x7f0b098c
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_align_horizontal_textview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -507,7 +507,7 @@
     .line 4
     iget-object v2, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b0991
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_align_vertical_textview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -684,12 +684,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f07050d
+    sget p1, Lcom/resouce/module/ResDIMEN;->pad_et_complex_align_spinnerwidth:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f070194
+    sget p1, Lcom/resouce/module/ResDIMEN;->et_complex_align_spinnerwidth:I
 
     .line 24
     :goto_0
@@ -868,9 +868,9 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0813e4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_checkbox_unusual:I
 
-    const v3, 0x7f0811b9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_checkbox_selector:I
 
     const/4 v4, 0x0
 
@@ -1333,9 +1333,9 @@
     :goto_2
     iget-object v1, v0, Lgmf$a;->d:Ljava/lang/Boolean;
 
-    const v3, 0x7f0811b9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_checkbox_selector:I
 
-    const v5, 0x7f0813e4
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_ss_checkbox_unusual:I
 
     const/4 v6, 0x0
 
@@ -1526,7 +1526,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030008
+    sget v1, Lcom/resouce/module/ResARRAY;->et_complex_format_align_horizontal:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1539,7 +1539,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030009
+    sget v2, Lcom/resouce/module/ResARRAY;->et_complex_format_align_vertical:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1552,7 +1552,7 @@
 
     iget-object v4, p0, Lemf;->B:Landroid/content/Context;
 
-    const v5, 0x7f0e0250
+    sget v5, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v3, v4, v5, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -1596,7 +1596,7 @@
     .line 1
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b098d
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_align_indent_picker:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1606,7 +1606,7 @@
 
     iput-object v0, p0, Lgnf;->W:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;
 
-    const v1, 0x7f1207ac
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_align_indent:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;->setTextViewText(I)V
@@ -1647,7 +1647,7 @@
     .line 8
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b098a
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_align_degree_picker:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1657,7 +1657,7 @@
 
     iput-object v0, p0, Lgnf;->V:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;
 
-    const v3, 0x7f1207a8
+    sget v3, Lcom/resouce/module/ResSTRING;->et_complex_format_align_degree:I
 
     .line 9
     invoke-virtual {v0, v3}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;->setTextViewText(I)V
@@ -1707,7 +1707,7 @@
     .line 16
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0988
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_align_autonewline_checkbox:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1717,7 +1717,7 @@
 
     iput-object v0, p0, Lgnf;->X:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomCheckBox;
 
-    const v1, 0x7f121d70
+    sget v1, Lcom/resouce/module/ResSTRING;->public_auto_wrap:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setText(I)V
@@ -1725,7 +1725,7 @@
     .line 18
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b098e
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_align_mergecell_checkbox:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1735,7 +1735,7 @@
 
     iput-object v0, p0, Lgnf;->Y:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomCheckBox;
 
-    const v1, 0x7f1207ad
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_align_mergecell:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setText(I)V
@@ -1743,7 +1743,7 @@
     .line 20
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b098b
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_align_horizontal_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1756,7 +1756,7 @@
     .line 21
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0990
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_align_vertical_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1781,7 +1781,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070196
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_complex_common_textwidth:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

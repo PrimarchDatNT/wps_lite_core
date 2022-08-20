@@ -237,7 +237,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f0b0fc4
+    sget v0, Lcom/resouce/module/ResID;->help_feedback:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0810b3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_feedback:I
 
     const/4 v2, 0x0
 

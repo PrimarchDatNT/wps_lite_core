@@ -247,7 +247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606b3
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -258,7 +258,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060231
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_template_titlebar_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -268,7 +268,7 @@
 
     new-array v3, v2, [I
 
-    const v4, 0x7f0b301d
+    sget v4, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     const/4 v5, 0x0
 

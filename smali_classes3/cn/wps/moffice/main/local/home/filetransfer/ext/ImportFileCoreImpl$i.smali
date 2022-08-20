@@ -137,7 +137,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/ImportFileCoreImpl$i;->b:Lcn/wps/moffice/main/local/home/filetransfer/ext/ImportFileCoreImpl;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/main/local/home/filetransfer/ext/ImportFileCoreImpl;->v(II)V
 

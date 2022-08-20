@@ -438,7 +438,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120d86
+    sget v3, Lcom/resouce/module/ResSTRING;->forum_authentication:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -511,7 +511,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221e7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_forum:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -599,7 +599,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221e9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_forum_domain:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -655,7 +655,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e029c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->forum_layout:I
 
     const/4 v2, 0x0
 
@@ -680,7 +680,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f123203
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_forum:I
 
     return v0
 .end method

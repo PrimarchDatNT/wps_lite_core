@@ -66,12 +66,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1219a4
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_format_painter_title_drag:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1219a3
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_format_painter_title:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/titletext/AppTitleTextFragment;->k(I)V

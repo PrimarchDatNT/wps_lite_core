@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1224a9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_member_count_full_arrive_max_count:I
 
     const/4 v3, 0x1
 
@@ -229,7 +229,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1224aa
+    sget v2, Lcom/resouce/module/ResSTRING;->public_member_count_full_contract_creator_upgrade:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -615,7 +615,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06005e
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryDisableColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -638,7 +638,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -730,7 +730,7 @@
     .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
-    const v0, 0x7f0b1b5e
+    sget v0, Lcom/resouce/module/ResID;->option_ok:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -741,7 +741,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1b5a
+    sget v0, Lcom/resouce/module/ResID;->option_cancel:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -752,7 +752,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1c7d
+    sget v0, Lcom/resouce/module/ResID;->panel_container:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -763,7 +763,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b1b59
+    sget v0, Lcom/resouce/module/ResID;->option_body:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -774,7 +774,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->W:Lcn/wpsx/support/ui/KCheckBox;
 
-    const v0, 0x7f0b1b5d
+    sget v0, Lcom/resouce/module/ResID;->option_header_footer:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -785,7 +785,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->a0:Lcn/wpsx/support/ui/KCheckBox;
 
-    const v0, 0x7f0b1b5c
+    sget v0, Lcom/resouce/module/ResID;->option_comment:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -796,7 +796,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/fanyi/view/OptionPanel;->b0:Lcn/wpsx/support/ui/KCheckBox;
 
-    const v0, 0x7f0b1b5b
+    sget v0, Lcom/resouce/module/ResID;->option_chart:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -882,7 +882,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

@@ -1423,7 +1423,7 @@
 .method public final n(Ljava/lang/String;Ljava/lang/String;)I
     .locals 2
 
-    const v0, 0x7f08198e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_add_home_writer:I
 
     :try_start_0
     const-string v1, "doc"
@@ -1459,7 +1459,7 @@
     if-eqz p1, :cond_1
 
     :cond_0
-    const p1, 0x7f08198d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_icon_add_home_txt:I
 
     return p1
 
@@ -1476,7 +1476,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f08198b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_icon_add_home_pdf:I
 
     return p1
 
@@ -1490,7 +1490,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f08198a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_icon_add_home_et:I
 
     return p1
 
@@ -1506,7 +1506,7 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f08198c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_icon_add_home_ppt:I
 
     return p1
 
@@ -1532,7 +1532,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b06da
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_cancel:I
 
     const/4 v2, 0x0
 
@@ -1572,7 +1572,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06d9
+    sget v0, Lcom/resouce/module/ResID;->dlg_add_home_agree:I
 
     if-ne p1, v0, :cond_7
 
@@ -1790,7 +1790,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00d7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_add_home_screen:I
 
     const/4 v2, 0x0
 
@@ -1818,7 +1818,7 @@
 
     invoke-virtual {v1, v2, v3}, Lhd3;->setDialogSize(II)V
 
-    const v1, 0x7f0b06da
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_cancel:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1827,7 +1827,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b06d9
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_agree:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1836,7 +1836,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b06db
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_checkbox:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1847,7 +1847,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/shortcut/util/CompOpenShortcutTipsMgr;->X:Landroid/widget/CheckBox;
 
-    const v1, 0x7f0b067d
+    sget v1, Lcom/resouce/module/ResID;->dialog_add_home_comp_img:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1924,7 +1924,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00d7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_add_home_screen:I
 
     const/4 v2, 0x0
 
@@ -1952,7 +1952,7 @@
 
     invoke-virtual {v1, v2, v3}, Lhd3;->setDialogSize(II)V
 
-    const v1, 0x7f0b1273
+    sget v1, Lcom/resouce/module/ResID;->image_container:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1966,7 +1966,7 @@
     .line 7
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    const v1, 0x7f0b06a1
+    sget v1, Lcom/resouce/module/ResID;->dialog_title:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1975,7 +1975,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f0b068f
+    sget v3, Lcom/resouce/module/ResID;->dialog_content:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1984,17 +1984,17 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f121d08
+    sget v4, Lcom/resouce/module/ResSTRING;->public_add_shortcut_home:I
 
     .line 10
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f1229f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shortcut_permission_tips:I
 
     .line 11
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b06da
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_cancel:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2003,7 +2003,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/AutoAdjustButton;
 
-    const v3, 0x7f121d75
+    sget v3, Lcom/resouce/module/ResSTRING;->public_back:I
 
     .line 13
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setText(I)V
@@ -2015,7 +2015,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b06d9
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_agree:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2024,7 +2024,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/AutoAdjustButton;
 
-    const v3, 0x7f122da1
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_shortcut_permission_ok:I
 
     .line 16
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setText(I)V
@@ -2036,7 +2036,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b067d
+    sget v1, Lcom/resouce/module/ResID;->dialog_add_home_comp_img:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2045,7 +2045,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0692
+    sget v3, Lcom/resouce/module/ResID;->dialog_icon:I
 
     .line 19
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2060,7 +2060,7 @@
     .line 21
     invoke-virtual {v3, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v1, 0x7f0b06db
+    sget v1, Lcom/resouce/module/ResID;->dlg_add_home_checkbox:I
 
     .line 22
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

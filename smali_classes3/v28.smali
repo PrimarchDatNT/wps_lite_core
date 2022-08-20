@@ -1448,7 +1448,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f120eb9
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1461,7 +1461,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f120eba
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail_content:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4565,7 +4565,7 @@
     .line 2
     iget-object v0, p0, Lv28;->B:Landroid/content/Context;
 
-    const v1, 0x7f120ea0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_create:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4586,7 +4586,7 @@
     .line 4
     iget-object v0, p0, Lv28;->B:Landroid/content/Context;
 
-    const v1, 0x7f120ea4
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_quit:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4607,7 +4607,7 @@
     .line 6
     iget-object v0, p0, Lv28;->B:Landroid/content/Context;
 
-    const v1, 0x7f120ea2
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_add_by_link:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4643,7 +4643,7 @@
     .line 9
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e97
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_create:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4678,7 +4678,7 @@
     .line 11
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_update:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4719,7 +4719,7 @@
     .line 13
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e98
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_delete:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4752,7 +4752,7 @@
     .line 15
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e99
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_recover:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4785,7 +4785,7 @@
     .line 17
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_in:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4818,7 +4818,7 @@
     .line 19
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_out:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4851,7 +4851,7 @@
     .line 21
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_shift_delete:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4884,7 +4884,7 @@
     .line 23
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9a
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_rename:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4917,7 +4917,7 @@
     .line 25
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e96
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_comment:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4958,7 +4958,7 @@
     .line 27
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120e9b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_file_share:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5021,7 +5021,7 @@
     :cond_f
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120ea7
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_role_upgrade_to_manager:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5072,7 +5072,7 @@
     .line 36
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120ea1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_add:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5105,7 +5105,7 @@
     .line 38
     iget-object p2, p0, Lv28;->B:Landroid/content/Context;
 
-    const v0, 0x7f120ea3
+    sget v0, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_member_delete:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5134,7 +5134,7 @@
     .line 40
     iget-object p1, p0, Lv28;->B:Landroid/content/Context;
 
-    const p2, 0x7f120ea8
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_group_rename:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5668,7 +5668,7 @@
 
     iget-object v1, p0, Lv28;->B:Landroid/content/Context;
 
-    const v2, 0x7f120ea9
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_events_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -8620,7 +8620,7 @@
     .line 8
     iget-object v1, v0, Lv28;->B:Landroid/content/Context;
 
-    const v2, 0x7f12148c
+    sget v2, Lcom/resouce/module/ResSTRING;->note_cloud_folder:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -12959,7 +12959,7 @@
 
     iget-object v3, p0, Lv28;->B:Landroid/content/Context;
 
-    const v4, 0x7f121d3e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -12974,7 +12974,7 @@
 
     iget-object v3, p0, Lv28;->B:Landroid/content/Context;
 
-    const v4, 0x7f12011c
+    sget v4, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

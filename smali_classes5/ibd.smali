@@ -18,7 +18,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0365
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_new_roaming_settings_list_banner_normal_layout:I
 
     return v0
 .end method

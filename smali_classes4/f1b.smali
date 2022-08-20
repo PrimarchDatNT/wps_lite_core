@@ -38,7 +38,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1203d2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_cut_img_tip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -46,7 +46,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1203e9
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     .line 2
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -55,7 +55,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

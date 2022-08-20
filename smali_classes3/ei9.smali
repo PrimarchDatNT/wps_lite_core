@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -859,7 +859,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0c2c
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_home_docinfo_operation_items_v2_layout:I
 
     const/4 v0, 0x0
 
@@ -870,63 +870,63 @@
     .line 10
     new-instance p3, Lei9$a;
 
-    const v0, 0x7f0b1b46
+    sget v0, Lcom/resouce/module/ResID;->operation_item_icon:I
 
     .line 11
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v0, 0x7f0b1b47
+    sget v0, Lcom/resouce/module/ResID;->operation_item_label:I
 
     .line 12
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v0, 0x7f0b1b48
+    sget v0, Lcom/resouce/module/ResID;->operation_item_readlater:I
 
     .line 13
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v0, 0x7f0b1b4a
+    sget v0, Lcom/resouce/module/ResID;->operation_item_sublabel:I
 
     .line 14
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v0, 0x7f0b0f3a
+    sget v0, Lcom/resouce/module/ResID;->gray_divide_line:I
 
     .line 15
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v0, 0x7f0b0f39
+    sget v0, Lcom/resouce/module/ResID;->gray_divide_bottom_line:I
 
     .line 16
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v0, 0x7f0b1b49
+    sget v0, Lcom/resouce/module/ResID;->operation_item_subicon:I
 
     .line 17
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
-    const v0, 0x7f0b1b4b
+    sget v0, Lcom/resouce/module/ResID;->operation_item_tag_hot:I
 
     .line 18
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
-    const v0, 0x7f0b1b45
+    sget v0, Lcom/resouce/module/ResID;->operation_item_arrow:I
 
     .line 19
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1035,7 +1035,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1066,7 +1066,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025d
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

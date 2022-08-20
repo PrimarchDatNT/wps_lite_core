@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0d82
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_phone_doc_search_header_popup_list_item:I
 
     const/4 p3, 0x0
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b13d4
+    sget p2, Lcom/resouce/module/ResID;->item_name_text:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     return-void
 
     :cond_0
-    const p3, 0x7f0b13d4
+    sget p3, Lcom/resouce/module/ResID;->item_name_text:I
 
     .line 1
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f06025f
+    sget p4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -139,7 +139,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -49,7 +49,7 @@
     .line 7
     invoke-virtual {p0, p1}, Lkj4;->b3(Z)V
 
-    const p1, 0x7f1225c8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_outline:I
 
     .line 8
     invoke-virtual {p0, p1}, Lkj4;->setTitle(I)V

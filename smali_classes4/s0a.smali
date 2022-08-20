@@ -188,7 +188,7 @@
     .line 3
     iget-object p2, p0, Ls0a;->B:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e00b6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->compressed_batch_sharing_item:I
 
     const/4 v2, 0x0
 
@@ -196,7 +196,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b13ac
+    sget p3, Lcom/resouce/module/ResID;->item_content:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     iput-object p3, v1, Ls0a$c;->a:Landroid/view/View;
 
-    const p3, 0x7f0b0c7c
+    sget p3, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object p3, v1, Ls0a$c;->b:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b0c83
+    sget p3, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     iput-object p3, v1, Ls0a$c;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f0b3236
+    sget p3, Lcom/resouce/module/ResID;->tv_remove:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

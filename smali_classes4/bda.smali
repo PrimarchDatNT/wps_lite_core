@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123059
+    sget v1, Lcom/resouce/module/ResSTRING;->task_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -359,7 +359,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -409,7 +409,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f12117e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_task_ricestore:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
@@ -454,12 +454,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0cf4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_member_task_view:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05b9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_member_task_view_wrap:I
 
     .line 3
     :goto_0
@@ -477,7 +477,7 @@
 
     iput-object v0, p0, Lbda;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2687
+    sget v1, Lcom/resouce/module/ResID;->public_member_task_webview:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -491,7 +491,7 @@
     .line 5
     iget-object v0, p0, Lbda;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2593
+    sget v1, Lcom/resouce/module/ResID;->public_circle_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
     .line 6
     iget-object v0, p0, Lbda;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -531,7 +531,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e4b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_my_tasks:I
 
     return v0
 .end method

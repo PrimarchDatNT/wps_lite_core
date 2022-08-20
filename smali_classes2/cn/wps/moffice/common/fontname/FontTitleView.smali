@@ -320,7 +320,7 @@
     :goto_2
     iget-object v0, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->V:Landroid/content/Context;
 
-    const v1, 0x7f1221d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_not_found:I
 
     const/4 v2, 0x1
 
@@ -1742,12 +1742,12 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0e0d48
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_pad_font_title_view:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e0d8e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_font_title_view:I
 
     :goto_0
     invoke-virtual {v1, v2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1759,7 +1759,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f081f4c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_16_shape:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -1772,7 +1772,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->i0:Ljava/util/Map;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 7
     invoke-super {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1792,7 +1792,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/phone/AlphaAutoText;->setAlphaWhenPressOut(Z)V
 
-    const v1, 0x7f0b26b2
+    sget v1, Lcom/resouce/module/ResID;->public_pad_font_title_root:I
 
     .line 9
     invoke-super {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1802,7 +1802,7 @@
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->n0:Landroid/view/View;
 
     :cond_2
-    const v1, 0x7f0b0e11
+    sget v1, Lcom/resouce/module/ResID;->font_arrowdown:I
 
     .line 10
     invoke-super {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1811,7 +1811,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b0e3e
+    sget v1, Lcom/resouce/module/ResID;->font_noexist:I
 
     .line 11
     invoke-super {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1820,7 +1820,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b0e16
+    sget v1, Lcom/resouce/module/ResID;->font_circleprogressbar:I
 
     .line 12
     invoke-super {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1843,7 +1843,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0e5f
+    sget v1, Lcom/resouce/module/ResID;->font_title_layout:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1852,7 +1852,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b0e5a
+    sget v1, Lcom/resouce/module/ResID;->font_title_cloud_item_view1:I
 
     .line 16
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1863,7 +1863,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->c0:Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;
 
-    const v1, 0x7f0b0e5b
+    sget v1, Lcom/resouce/module/ResID;->font_title_cloud_item_view2:I
 
     .line 17
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1874,7 +1874,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/fontname/FontTitleView;->d0:Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;
 
-    const v1, 0x7f0b0e5c
+    sget v1, Lcom/resouce/module/ResID;->font_title_cloud_item_view3:I
 
     .line 18
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1904,7 +1904,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    const v0, 0x7f0b0e59
+    sget v0, Lcom/resouce/module/ResID;->font_title_cloud_item_layout:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

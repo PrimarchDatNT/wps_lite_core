@@ -223,7 +223,7 @@
     const/4 v11, 0x0
 
     :goto_3
-    const v12, 0x7f0b12a8
+    sget v12, Lcom/resouce/module/ResID;->img:I
 
     .line 15
     invoke-virtual {v8, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     check-cast v12, Landroid/widget/ImageView;
 
-    const v13, 0x7f0b2fcd
+    sget v13, Lcom/resouce/module/ResID;->title:I
 
     .line 16
     invoke-virtual {v8, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     check-cast v13, Landroid/widget/TextView;
 
-    const v14, 0x7f0b286a
+    sget v14, Lcom/resouce/module/ResID;->red_point:I
 
     .line 17
     invoke-virtual {v8, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     check-cast v14, Landroid/widget/ImageView;
 
-    const v15, 0x7f0b2dce    # 1.8500052E38f
+    sget v15, Lcom/resouce/module/ResID;->sub_title:I    # 1.8500052E38f
 
     .line 18
     invoke-virtual {v8, v15}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     check-cast v15, Landroid/widget/TextView;
 
-    const v1, 0x7f0b14b3
+    sget v1, Lcom/resouce/module/ResID;->iv_red_tip:I
 
     .line 19
     invoke-virtual {v8, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
     .line 22
     invoke-virtual {v0, v3}, Lf54;->c(Z)Lf54;
 
-    const v3, 0x7f081c57
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_small_image_placeholder:I
 
     .line 23
     invoke-virtual {v0, v3}, Lf54;->b(I)Lf54;
@@ -612,7 +612,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e03d3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_wallet_act_item:I
 
     const/4 v1, 0x0
 

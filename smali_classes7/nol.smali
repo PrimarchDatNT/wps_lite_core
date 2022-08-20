@@ -114,7 +114,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e090e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_resume_share_type_launcher:I
 
     const/4 v1, 0x0
 
@@ -124,7 +124,7 @@
 
     iput-object p1, p0, Lnol;->d:Landroid/view/View;
 
-    const v0, 0x7f0b28de
+    sget v0, Lcom/resouce/module/ResID;->resume_share_cancel:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,13 +141,13 @@
     .line 4
     iget-object p1, p0, Lnol;->d:Landroid/view/View;
 
-    const v0, 0x7f0b28d3
+    sget v0, Lcom/resouce/module/ResID;->resume_link_share:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b2bd8
+    sget v0, Lcom/resouce/module/ResID;->sharetype_item_content_img:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2bdb
+    sget v2, Lcom/resouce/module/ResID;->sharetype_item_text:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
     .line 11
     iget-object p1, p0, Lnol;->d:Landroid/view/View;
 
-    const v1, 0x7f0b28c8
+    sget v1, Lcom/resouce/module/ResID;->resume_doc_share:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -211,7 +211,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2bda
+    sget v3, Lcom/resouce/module/ResID;->sharetype_item_member_img:I
 
     .line 13
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
     .line 20
     iget-object p1, p0, Lnol;->d:Landroid/view/View;
 
-    const v1, 0x7f0b28d5
+    sget v1, Lcom/resouce/module/ResID;->resume_pdf_share:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

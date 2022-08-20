@@ -34,7 +34,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0e0eec
+    sget v1, Lcom/resouce/module/ResLAYOUT;->resume_share_open_member:I
 
     const/4 v2, 0x0
 
@@ -42,7 +42,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0b1b27
+    sget v1, Lcom/resouce/module/ResID;->open_member_title:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,14 +62,14 @@
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
-    const p1, 0x7f0b033b
+    sget p1, Lcom/resouce/module/ResID;->cancel:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v1, 0x7f0b1b3d
+    sget v1, Lcom/resouce/module/ResID;->openmember:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

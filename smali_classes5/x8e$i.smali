@@ -76,7 +76,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12209a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_mp4_progress_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

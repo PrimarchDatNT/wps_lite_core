@@ -238,7 +238,7 @@
     .line 2
     iget-object v0, p0, Lbt7;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b3309
+    sget v1, Lcom/resouce/module/ResID;->upgrade_program_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -354,7 +354,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0e0b54
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_cloud_space_membership_guide_layout:I
 
     if-eqz v0, :cond_0
 
@@ -413,7 +413,7 @@
     :cond_1
     iget-object p1, p0, Lbt7;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2534
+    sget v0, Lcom/resouce/module/ResID;->progress:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
     .line 9
     iget-object p1, p0, Lbt7;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b030c
+    sget v0, Lcom/resouce/module/ResID;->btn_upgrade:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 1
     iget-object v0, p0, Lbt7;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0477
+    sget v1, Lcom/resouce/module/ResID;->cloud_space_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -479,7 +479,7 @@
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setIsNeedMultiDocBtn(Z)V
 
-    const v1, 0x7f121ee6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -538,7 +538,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121ef0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_space_placeholder:I
 
     const/4 v5, 0x1
 

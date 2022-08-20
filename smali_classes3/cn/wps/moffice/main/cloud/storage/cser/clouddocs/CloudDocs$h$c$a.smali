@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v2, 0x1
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122391
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-static {v0, v2, v1}, Le88;->a(Landroid/content/Context;II)V
 

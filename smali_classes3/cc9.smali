@@ -87,7 +87,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0525
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_home_all_docs_navigation_bar:I
 
     const/4 p3, 0x0
 
@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lcc9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b00f2
+    sget p2, Lcom/resouce/module/ResID;->all_docs_btn:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p1, p0, Lcc9;->T:Landroid/view/View;
 
-    const p2, 0x7f0b19be
+    sget p2, Lcom/resouce/module/ResID;->nav_img:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p2, 0x7f080f3a
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_screening_screen:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -123,7 +123,7 @@
     .line 11
     iget-object p1, p0, Lcc9;->T:Landroid/view/View;
 
-    const p2, 0x7f0b19c7
+    sget p2, Lcom/resouce/module/ResID;->nav_txt:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -141,7 +141,7 @@
     .line 13
     iget-object p1, p0, Lcc9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1049
+    sget p2, Lcom/resouce/module/ResID;->home_alldocs_return_open:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0526
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_all_docs_type_popmenu:I
 
     iget-object v3, p0, Lcc9;->I:Landroid/view/View;
 
@@ -193,37 +193,37 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b1bdf
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_all:I
 
     .line 3
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be0
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_doc:I
 
     .line 4
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be3
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_ppt:I
 
     .line 5
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be8
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_xls:I
 
     .line 6
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be2
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_pdf:I
 
     .line 7
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be7
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_txt:I
 
     .line 8
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
 
-    const v2, 0x7f0b1be1
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_other:I
 
     .line 9
     invoke-virtual {p0, v0, v2}, Lcc9;->c(Landroid/view/View;I)V
@@ -269,7 +269,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2f40
+    sget v0, Lcom/resouce/module/ResID;->text_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,65 +280,65 @@
 
     const/4 v1, -0x1
 
-    const v2, 0x7f0b1bdf
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_all:I
 
     if-ne p2, v2, :cond_0
 
-    const p2, 0x7f1226e8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b1be0
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_doc:I
 
     if-ne p2, v2, :cond_1
 
-    const p2, 0x7f1205fc
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_doc:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b1be3
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_ppt:I
 
     if-ne p2, v2, :cond_2
 
-    const p2, 0x7f1205fe
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_ppt:I
 
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0b1be8
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_xls:I
 
     if-ne p2, v2, :cond_3
 
-    const p2, 0x7f120600
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_xls:I
 
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b1be2
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_pdf:I
 
     if-ne p2, v2, :cond_4
 
-    const p2, 0x7f1205fd
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_pdf:I
 
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f0b1be7
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_txt:I
 
     if-ne p2, v2, :cond_5
 
-    const p2, 0x7f1205ff
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_home_page_open_txt:I
 
     goto :goto_0
 
     :cond_5
-    const v2, 0x7f0b1be1
+    sget v2, Lcom/resouce/module/ResID;->pad_home_alldocs_other:I
 
     if-ne p2, v2, :cond_6
 
-    const p2, 0x7f1225c5
+    sget p2, Lcom/resouce/module/ResSTRING;->public_other:I
 
     goto :goto_0
 
@@ -469,7 +469,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b03a5
+    sget v1, Lcom/resouce/module/ResID;->check_box:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -544,7 +544,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1049
+    sget v1, Lcom/resouce/module/ResID;->home_alldocs_return_open:I
 
     if-ne v0, v1, :cond_1
 
@@ -560,7 +560,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const p1, 0x7f0b00f2
+    sget p1, Lcom/resouce/module/ResID;->all_docs_btn:I
 
     const/4 v1, 0x1
 
@@ -646,7 +646,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const p1, 0x7f0b1bdf
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_all:I
 
     if-ne v0, p1, :cond_3
 
@@ -665,7 +665,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const p1, 0x7f0b1be0
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_doc:I
 
     if-ne v0, p1, :cond_4
 
@@ -684,7 +684,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0b1be3
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_ppt:I
 
     if-ne v0, p1, :cond_5
 
@@ -705,7 +705,7 @@
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f0b1be8
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_xls:I
 
     if-ne v0, p1, :cond_6
 
@@ -726,7 +726,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0b1be2
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_pdf:I
 
     if-ne v0, p1, :cond_7
 
@@ -747,7 +747,7 @@
     goto :goto_0
 
     :cond_7
-    const p1, 0x7f0b1be7
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_txt:I
 
     if-ne v0, p1, :cond_8
 
@@ -768,7 +768,7 @@
     goto :goto_0
 
     :cond_8
-    const p1, 0x7f0b1be1
+    sget p1, Lcom/resouce/module/ResID;->pad_home_alldocs_other:I
 
     if-ne v0, p1, :cond_9
 

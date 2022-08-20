@@ -23,7 +23,7 @@
 
     invoke-direct {v0, p0}, Lw98;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120e93
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_allgroup_events_url:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

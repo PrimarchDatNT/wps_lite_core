@@ -24,12 +24,12 @@
 .method public constructor <init>(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0e0b8a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cooperate_member_section_layout:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lax4$b;-><init>(Landroid/view/ViewGroup;I)V
 
-    const p1, 0x7f0b3249
+    sget p1, Lcom/resouce/module/ResID;->tv_section:I
 
     .line 2
     invoke-virtual {p0, p1}, Lax4$b;->Q(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object p1, p0, Lax4$f;->j0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b06cf
+    sget p1, Lcom/resouce/module/ResID;->divider:I
 
     .line 3
     invoke-virtual {p0, p1}, Lax4$b;->Q(I)Landroid/view/View;
@@ -60,7 +60,7 @@
     .line 1
     iget-object p1, p0, Lax4$f;->j0:Landroid/widget/TextView;
 
-    const p2, 0x7f121f74
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cooperate_owner:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

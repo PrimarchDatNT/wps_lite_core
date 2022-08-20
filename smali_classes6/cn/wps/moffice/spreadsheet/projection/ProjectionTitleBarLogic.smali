@@ -204,7 +204,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f0e023b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_projection_tabs:I
 
     const/4 v2, 0x0
 
@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0b3c
+    sget v1, Lcom/resouce/module/ResID;->et_projection_tabs_list:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -293,7 +293,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d3b
+    sget v1, Lcom/resouce/module/ResID;->ss_projection_group_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -306,7 +306,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f0e023c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_projection_title_layout:I
 
     const/4 v2, 0x0
 
@@ -319,7 +319,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const v1, 0x7f0b0b3e
+    sget v1, Lcom/resouce/module/ResID;->et_projection_titlebar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -328,7 +328,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mTitleBarRoot:Landroid/view/View;
 
-    const v1, 0x7f0b0b39
+    sget v1, Lcom/resouce/module/ResID;->et_projection_layout_content:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v1, 0x7f0b0bfa
+    sget v1, Lcom/resouce/module/ResID;->exit_projection:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mExitProjection:Landroid/view/View;
 
-    const v1, 0x7f0b2e08
+    sget v1, Lcom/resouce/module/ResID;->switch_projection:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mSwitchProjection:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e0e
+    sget v1, Lcom/resouce/module/ResID;->switch_sheet:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f081164
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_projection_play_miracast_checked:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -604,7 +604,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/projection/ProjectionTitleBarLogic;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f081163
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_projection_play_miracast:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

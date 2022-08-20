@@ -772,12 +772,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081127
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_audio_change_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0811aa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_changepic_icon:I
 
     :goto_0
     return v0
@@ -791,12 +791,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081f17
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_changepic_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0811aa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_changepic_icon:I
 
     :goto_0
     return v0
@@ -810,12 +810,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802ca
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c8a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_pic_ppt:I
 
     :goto_0
     return v0
@@ -829,12 +829,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08033a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pic_editing:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080ce5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pdf_toolkit_pic_editing_pdf:I
 
     :goto_0
     return v0
@@ -850,7 +850,7 @@
 
     move-result v1
 
-    const v2, 0x7f121802
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_edit:I
 
     const/4 v3, 0x1
 
@@ -903,7 +903,7 @@
 
     move-result v1
 
-    const v2, 0x7f12264f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     const/4 v3, 0x1
 
@@ -922,7 +922,7 @@
 
     move-result v1
 
-    const v2, 0x7f121b49
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_audio_change_audio_pic:I
 
     invoke-direct {v0, p0, v1, v2}, Lhyd$q;-><init>(Lhyd;II)V
 
@@ -939,7 +939,7 @@
 
     move-result v1
 
-    const v2, 0x7f121b61
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_change_picture:I
 
     invoke-direct {v0, p0, v1, v2}, Lhyd$p;-><init>(Lhyd;II)V
 
@@ -960,7 +960,7 @@
 
     iget-object v5, p0, Lhyd;->g0:[Z
 
-    const v3, 0x7f121b49
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_audio_change_audio_pic:I
 
     move-object v0, v6
 
@@ -991,7 +991,7 @@
 
     move-result v3
 
-    const v4, 0x7f121b61
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_change_picture:I
 
     iget-object v5, p0, Lhyd;->j0:Lan5;
 
@@ -1018,7 +1018,7 @@
 
     move-result v3
 
-    const v4, 0x7f121b61
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_change_picture:I
 
     iget-object v5, p0, Lhyd;->f0:[I
 
@@ -1052,7 +1052,7 @@
 
     move-result v3
 
-    const v4, 0x7f12264f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     iget-object v5, p0, Lhyd;->j0:Lan5;
 
@@ -1074,7 +1074,7 @@
 
     move-result v9
 
-    const v10, 0x7f12264f
+    sget v10, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     iget-object v11, p0, Lhyd;->f0:[I
 
@@ -1103,9 +1103,9 @@
     .line 2
     new-instance v0, Lhyd$l;
 
-    const v3, 0x7f0802c0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_icon_library:I
 
-    const v4, 0x7f1219f4
+    sget v4, Lcom/resouce/module/ResSTRING;->pic_store_icons_lirary:I
 
     new-instance v5, Lhyd$j;
 
@@ -1143,9 +1143,9 @@
     .line 1
     new-instance v0, Lhyd$g;
 
-    const v1, 0x7f080e2f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_icon_ppt:I
 
-    const v2, 0x7f1219f7
+    sget v2, Lcom/resouce/module/ResSTRING;->pic_store_insert_icons:I
 
     invoke-direct {v0, p0, v1, v2}, Lhyd$g;-><init>(Lhyd;II)V
 
@@ -1158,9 +1158,9 @@
     .line 1
     new-instance v0, Lhyd$h;
 
-    const v1, 0x7f0802c0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_icon_library:I
 
-    const v2, 0x7f1219f7
+    sget v2, Lcom/resouce/module/ResSTRING;->pic_store_insert_icons:I
 
     invoke-direct {v0, p0, v1, v2}, Lhyd$h;-><init>(Lhyd;II)V
 
@@ -1177,7 +1177,7 @@
 
     move-result v1
 
-    const v2, 0x7f12264f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     invoke-direct {v0, p0, v1, v2}, Lhyd$b;-><init>(Lhyd;II)V
 
@@ -1194,9 +1194,9 @@
 
     new-array v1, v1, [I
 
-    const v2, 0x7f080956
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_insert_bg_toolbar:I
 
-    const v3, 0x7f1219f5
+    sget v3, Lcom/resouce/module/ResSTRING;->pic_store_insert_bg:I
 
     invoke-direct {v0, p0, v2, v3, v1}, Lhyd$i;-><init>(Lhyd;II[I)V
 

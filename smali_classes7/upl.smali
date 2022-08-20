@@ -173,7 +173,7 @@
 
     invoke-direct {v0, p0, v1}, Lupl$a;-><init>(Lupl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b2a79
+    sget v1, Lcom/resouce/module/ResID;->search_highlight_extract_btn:I
 
     const-string v2, "search-highlight-extract"
 
@@ -184,7 +184,7 @@
 
     invoke-direct {v0, p0}, Lupl$b;-><init>(Lupl;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "search-highlight-return"
 
@@ -383,7 +383,7 @@
 
     iget-object v1, p0, Lupl;->e0:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -436,7 +436,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a00
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_search_highlight_dialog:I
 
     const/4 v2, 0x0
 
@@ -460,7 +460,7 @@
     .line 3
     iget-object v0, p0, Lupl;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2a7d
+    sget v1, Lcom/resouce/module/ResID;->search_highlight_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -468,7 +468,7 @@
 
     check-cast v0, Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f12336f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_highlight:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -505,7 +505,7 @@
     .line 10
     iget-object v0, p0, Lupl;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2a7b
+    sget v2, Lcom/resouce/module/ResID;->search_highlight_list:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -532,7 +532,7 @@
     .line 13
     iget-object v0, p0, Lupl;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2a7a
+    sget v2, Lcom/resouce/module/ResID;->search_highlight_failure_tips:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     .line 14
     iget-object v0, p0, Lupl;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2a79
+    sget v2, Lcom/resouce/module/ResID;->search_highlight_extract_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -556,7 +556,7 @@
     .line 15
     iget-object v0, p0, Lupl;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2a7c
+    sget v2, Lcom/resouce/module/ResID;->search_highlight_progress_bar_cycle:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

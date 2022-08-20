@@ -102,7 +102,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070ac2
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_context_arrow_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

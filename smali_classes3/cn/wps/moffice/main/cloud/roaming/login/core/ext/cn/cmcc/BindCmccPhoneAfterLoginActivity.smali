@@ -75,7 +75,7 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f120214
+    sget v1, Lcom/resouce/module/ResSTRING;->bind_phone_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -100,12 +100,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f12020c
+    sget v2, Lcom/resouce/module/ResSTRING;->bind_phone_after_login_force_detainment_tip:I
 
     .line 8
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f1231d8
+    sget v2, Lcom/resouce/module/ResSTRING;->with_hold_login:I
 
     .line 9
     new-instance v4, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity$h;
@@ -140,12 +140,12 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f12020d
+    sget v2, Lcom/resouce/module/ResSTRING;->bind_phone_after_login_suggest_detainment_tip:I
 
     .line 13
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f1231d7
+    sget v2, Lcom/resouce/module/ResSTRING;->with_hold_bind_phone:I
 
     .line 14
     new-instance v4, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity$k;
@@ -194,7 +194,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v1, 0x0
 
@@ -231,7 +231,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v1, 0x0
 
@@ -374,7 +374,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e007b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->bind_cmcc_phone_after_login_activity:I
 
     return v0
 .end method
@@ -412,7 +412,7 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v0, 0x7f0b2f9f
+    sget v0, Lcom/resouce/module/ResID;->tipIconImageView:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -423,7 +423,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2fa0
+    sget v0, Lcom/resouce/module/ResID;->tipTextView:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -434,7 +434,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1f97
+    sget v0, Lcom/resouce/module/ResID;->phoneNumberTextView:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -459,7 +459,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;->T:Landroid/view/View;
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b021b
+    sget v0, Lcom/resouce/module/ResID;->bindOtherPhoneTextView:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b00d8
+    sget v0, Lcom/resouce/module/ResID;->agreeCehckBox:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v0, 0x7f0b30fd
+    sget v0, Lcom/resouce/module/ResID;->tvTypeInfo:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b30f6
+    sget v0, Lcom/resouce/module/ResID;->tvPolicy:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
     .line 16
     iget-boolean v1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;->S:Z
 
-    const v2, 0x7f120f3a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_has_read_andr_agree:I
 
     if-eqz v1, :cond_2
 
@@ -552,7 +552,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120f47
+    sget v3, Lcom/resouce/module/ResSTRING;->home_login_phone_approve_by_kingyun:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -585,7 +585,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f120f39
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_china_mobile_policy:I
 
     .line 23
     invoke-static {p0, v0, v2, v1}, Low7;->e(Landroid/app/Activity;Landroid/widget/TextView;II)V
@@ -655,7 +655,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     if-ne p1, v0, :cond_1
 
@@ -685,7 +685,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b021b
+    sget v0, Lcom/resouce/module/ResID;->bindOtherPhoneTextView:I
 
     if-ne p1, v0, :cond_2
 
@@ -697,7 +697,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_3
 
@@ -779,7 +779,7 @@
 .method public onLoginSuccess()V
     .locals 3
 
-    const v0, 0x7f121da7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v1, 0x0
 
@@ -895,7 +895,7 @@
     .line 8
     invoke-virtual {v1, v2}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v2, 0x7f080828
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_guide_bind_phone_icon:I
 
     const/4 v3, 0x0
 
@@ -911,7 +911,7 @@
     invoke-virtual {v1, v2}, Lf54;->d(Landroid/widget/ImageView;)V
 
     :cond_1
-    const v1, 0x7f0b021a
+    sget v1, Lcom/resouce/module/ResID;->bindButton:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

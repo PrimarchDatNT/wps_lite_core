@@ -203,7 +203,7 @@
     .line 1
     iget-object v0, p0, Llfg;->b:Landroid/content/Context;
 
-    const v1, 0x7f1219b1
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_input_origin_passwd:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

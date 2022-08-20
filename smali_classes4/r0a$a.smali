@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -119,7 +119,7 @@
 
     move-result v2
 
-    const v3, 0x7f120310
+    sget v3, Lcom/resouce/module/ResSTRING;->compressed_batch_share_name_invalid:I
 
     if-eqz v2, :cond_3
 
@@ -151,7 +151,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120311
+    sget p2, Lcom/resouce/module/ResSTRING;->compressed_batch_share_name_length_max:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

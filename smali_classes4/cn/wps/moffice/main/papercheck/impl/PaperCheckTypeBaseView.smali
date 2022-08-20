@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12163e
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_value_unit:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -354,7 +354,7 @@
 
     const-string v2, ""
 
-    const v3, 0x7f1215c5
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_char_num_value:I
 
     const/4 v4, 0x1
 
@@ -399,7 +399,7 @@
 
     if-lez v1, :cond_2
 
-    const v1, 0x7f1215e8
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_estimate_price_value:I
 
     .line 6
     :try_start_0
@@ -714,7 +714,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -755,7 +755,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -770,7 +770,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -824,7 +824,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -852,7 +852,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060043
+    sget v2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

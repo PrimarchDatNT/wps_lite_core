@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12064a
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_record_open_incloudstorage_deleted:I
 
     const/4 v2, 0x1
 

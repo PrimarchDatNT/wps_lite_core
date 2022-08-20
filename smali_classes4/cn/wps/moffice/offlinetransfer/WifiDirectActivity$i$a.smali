@@ -95,7 +95,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214f5
+    sget v1, Lcom/resouce/module/ResSTRING;->offline_open_gps:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -106,7 +106,7 @@
 
     invoke-direct {v2, p0}, Liob;-><init>(Lcn/wps/moffice/offlinetransfer/WifiDirectActivity$i$a;)V
 
-    const v3, 0x7f122c27
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_setting_button:I
 
     .line 3
     invoke-virtual {v1, v3, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -117,7 +117,7 @@
 
     invoke-direct {v2, p0}, Lhob;-><init>(Lcn/wps/moffice/offlinetransfer/WifiDirectActivity$i$a;)V
 
-    const v3, 0x7f1214f4
+    sget v3, Lcom/resouce/module/ResSTRING;->offline_no_need:I
 
     .line 4
     invoke-virtual {v1, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -156,7 +156,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -236,7 +236,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060218
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_text_dark:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060217
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

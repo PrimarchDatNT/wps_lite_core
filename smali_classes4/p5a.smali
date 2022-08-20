@@ -125,7 +125,7 @@
     .line 5
     iget-object v0, p1, Lp5a$a;->p0:Landroid/view/View;
 
-    const v1, 0x7f0b2e88
+    sget v1, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -140,7 +140,7 @@
 
     iget-object p1, p1, Lp5a$a;->q0:Landroid/widget/ImageView;
 
-    const v0, 0x7f08163c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_radar:I
 
     invoke-virtual {p2, p1, v0}, Lo6a;->e(Landroid/widget/ImageView;I)V
 
@@ -151,7 +151,7 @@
 .method public o(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lq5a$a;
     .locals 2
 
-    const v0, 0x7f0e0bfc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_filerader_grid_style_item:I
 
     const/4 v1, 0x0
 

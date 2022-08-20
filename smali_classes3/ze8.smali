@@ -1728,7 +1728,7 @@
 
     const-string v3, "file lost "
 
-    const v4, 0x7f1220f0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v5, 0x0
 
@@ -1794,7 +1794,7 @@
     .line 7
     iget-object v1, v0, Lze8;->a:Landroid/content/Context;
 
-    const v2, 0x7f122416
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

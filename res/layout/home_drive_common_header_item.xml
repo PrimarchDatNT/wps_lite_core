@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.AlphaRelativeLayout android:background="@color/bannerBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_toLeftOf="@id/arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/arrow" android:layout_alignParentStart="true" style="@style/home_open_item_subtitle_style" />
-    <View android:layout_gravity="bottom" android:id="@id/btn_bottom_line" android:background="@color/lineColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
-</cn.wps.moffice.common.beans.AlphaRelativeLayout>

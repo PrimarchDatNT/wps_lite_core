@@ -232,7 +232,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06ca
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_file_select_recent_list:I
 
     const/4 v2, 0x0
 
@@ -249,7 +249,7 @@
 
     iput-object v0, p0, Luk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2983
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_refresh_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
     .line 7
     iget-object v0, p0, Luk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0d1f
+    sget v1, Lcom/resouce/module/ResID;->file_select_recent_content_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
     .line 8
     iget-object v0, p0, Luk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0d5d
+    sget v1, Lcom/resouce/module/ResID;->fileselect_list_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 9
     iget-object v0, p0, Luk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -316,7 +316,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f1205fa
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_document_trip_no_more_record:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

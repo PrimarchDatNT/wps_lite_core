@@ -51,7 +51,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1204cd
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120019
+    sget p2, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1203e4
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

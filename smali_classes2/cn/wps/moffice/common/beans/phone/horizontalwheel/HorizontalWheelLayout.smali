@@ -41,13 +41,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0885
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_fontsize_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b1a55
+    sget p1, Lcom/resouce/module/ResID;->normal_nice_face:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;->b0:Landroid/view/View;
 
-    const p1, 0x7f0b1a4e
+    sget p1, Lcom/resouce/module/ResID;->normal_edit_face:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b2c29
+    sget p1, Lcom/resouce/module/ResID;->size_selector:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
     .line 7
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelView;->setOrientation(I)V
 
-    const p1, 0x7f0b24b3
+    sget p1, Lcom/resouce/module/ResID;->pre_btn:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;->W:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1a1d
+    sget p1, Lcom/resouce/module/ResID;->next_btn:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;->a0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1a56
+    sget p1, Lcom/resouce/module/ResID;->normal_nice_face_text:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121982
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -257,7 +257,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122d71
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_public_font_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

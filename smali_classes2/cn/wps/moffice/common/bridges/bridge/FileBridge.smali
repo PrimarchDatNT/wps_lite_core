@@ -915,7 +915,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1201c4
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_super_ppt_open_file_fail:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

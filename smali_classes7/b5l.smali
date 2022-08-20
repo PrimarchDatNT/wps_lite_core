@@ -248,7 +248,7 @@
 
     move-result v2
 
-    const v3, 0x7f122370
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ink_pt:I
 
     const-string v4, " "
 

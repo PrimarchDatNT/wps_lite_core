@@ -301,7 +301,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f1202db
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_out_button:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -326,7 +326,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f1202d8
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_in_button_continue:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -347,7 +347,7 @@
 
     if-le v3, v2, :cond_4
 
-    const v1, 0x7f1202d7
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_in_button:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -461,7 +461,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0600bd
+    sget p2, Lcom/resouce/module/ResCOLOR;->com_facebook_blue:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -493,7 +493,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08018b
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->com_facebook_button_icon:I
 
     .line 10
     invoke-static {p1, p2}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -581,7 +581,7 @@
 .method public getDefaultStyleResource()I
     .locals 1
 
-    const v0, 0x7f1303fd
+    sget v0, Lcom/resouce/module/ResSTYLE;->com_facebook_loginview_default_style:I
 
     return v0
 .end method
@@ -911,7 +911,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f1202d8
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_in_button_continue:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -930,7 +930,7 @@
 
     if-ge v3, v2, :cond_1
 
-    const v1, 0x7f1202d7
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_in_button:I
 
     .line 10
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -948,7 +948,7 @@
 
     if-nez v2, :cond_2
 
-    const v2, 0x7f1202db
+    sget v2, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_out_button:I
 
     .line 13
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1265,7 +1265,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202e5
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_tooltip_default:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -803,7 +803,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e03fd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_book_city_title:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -828,7 +828,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0401
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_cartoon_viewpager:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -853,7 +853,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0400
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_cartoon_recommend:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -881,7 +881,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0417
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_more_loading:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -906,7 +906,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0419
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_banner_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -927,7 +927,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e03fe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_cartoon_normal:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1057,7 +1057,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f12321b
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_home_module_all_collection:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

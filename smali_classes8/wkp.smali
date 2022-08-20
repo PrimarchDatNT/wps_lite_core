@@ -40,47 +40,47 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->bg_large_app_widget:I
 
     .line 3
     invoke-virtual {v1, v2}, Lxkp$a;->c(I)Lxkp$a;
 
-    const v2, 0x7f08012c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->calender_widget_pop:I
 
     .line 4
     invoke-virtual {v1, v2}, Lxkp$a;->k(I)Lxkp$a;
 
-    const v2, 0x7f081fc7    # 1.8094E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_tips_no_network:I    # 1.8094E38f
 
     .line 5
     invoke-virtual {v1, v2}, Lxkp$a;->j(I)Lxkp$a;
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 6
     invoke-virtual {v1, v2}, Lxkp$a;->f(I)Lxkp$a;
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 7
     invoke-virtual {v1, v2}, Lxkp$a;->e(I)Lxkp$a;
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 8
     invoke-virtual {v1, v2}, Lxkp$a;->g(I)Lxkp$a;
 
-    const v2, 0x7f1231d4
+    sget v2, Lcom/resouce/module/ResSTRING;->widget_color_type_text_fellow_sys:I
 
     .line 9
     invoke-virtual {v1, v2}, Lxkp$a;->d(I)Lxkp$a;
 
-    const v2, 0x7f081fbb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_more:I
 
     .line 10
     invoke-virtual {v1, v2}, Lxkp$a;->i(I)Lxkp$a;
 
-    const v2, 0x7f081fb6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_custom:I
 
     .line 11
     invoke-virtual {v1, v2}, Lxkp$a;->h(I)Lxkp$a;
@@ -103,17 +103,17 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800fe
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->bg_large_app_widget_light:I
 
     .line 14
     invoke-virtual {v1, v2}, Lxkp$a;->c(I)Lxkp$a;
 
-    const v2, 0x7f08012e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->calender_widget_pop_light:I
 
     .line 15
     invoke-virtual {v1, v2}, Lxkp$a;->k(I)Lxkp$a;
 
-    const v2, 0x7f081fc9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_tips_no_network_light:I
 
     .line 16
     invoke-virtual {v1, v2}, Lxkp$a;->j(I)Lxkp$a;
@@ -145,17 +145,17 @@
 
     invoke-virtual {v1, v2}, Lxkp$a;->g(I)Lxkp$a;
 
-    const v2, 0x7f1231d5
+    sget v2, Lcom/resouce/module/ResSTRING;->widget_color_type_text_light:I
 
     .line 20
     invoke-virtual {v1, v2}, Lxkp$a;->d(I)Lxkp$a;
 
-    const v2, 0x7f081fbd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_more_light:I
 
     .line 21
     invoke-virtual {v1, v2}, Lxkp$a;->i(I)Lxkp$a;
 
-    const v2, 0x7f081fb8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_custom_light:I
 
     .line 22
     invoke-virtual {v1, v2}, Lxkp$a;->h(I)Lxkp$a;
@@ -178,17 +178,17 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800fd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->bg_large_app_widget_dark:I
 
     .line 25
     invoke-virtual {v1, v2}, Lxkp$a;->c(I)Lxkp$a;
 
-    const v2, 0x7f08012d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->calender_widget_pop_dark:I
 
     .line 26
     invoke-virtual {v1, v2}, Lxkp$a;->k(I)Lxkp$a;
 
-    const v2, 0x7f081fc8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_tips_no_network_dark:I
 
     .line 27
     invoke-virtual {v1, v2}, Lxkp$a;->j(I)Lxkp$a;
@@ -220,17 +220,17 @@
 
     invoke-virtual {v1, v2}, Lxkp$a;->g(I)Lxkp$a;
 
-    const v2, 0x7f1231d3
+    sget v2, Lcom/resouce/module/ResSTRING;->widget_color_type_text_dark:I
 
     .line 31
     invoke-virtual {v1, v2}, Lxkp$a;->d(I)Lxkp$a;
 
-    const v2, 0x7f081fbc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_more_dark:I
 
     .line 32
     invoke-virtual {v1, v2}, Lxkp$a;->i(I)Lxkp$a;
 
-    const v2, 0x7f081fb7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->widget_head_custom_dark:I
 
     .line 33
     invoke-virtual {v1, v2}, Lxkp$a;->h(I)Lxkp$a;

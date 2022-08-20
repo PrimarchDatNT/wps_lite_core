@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e090b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_resume_share_launcher:I
 
     const/4 v2, 0x1
 
@@ -192,7 +192,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/shell/resume/shareresume/view/ShareResumePanel;->W:Lmol;
 
-    const v1, 0x7f0b0119
+    sget v1, Lcom/resouce/module/ResID;->appList:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v1, 0x7f0b28dd
+    sget v1, Lcom/resouce/module/ResID;->resume_share_back:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

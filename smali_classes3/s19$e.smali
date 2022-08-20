@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121147
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_wechat:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12113c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

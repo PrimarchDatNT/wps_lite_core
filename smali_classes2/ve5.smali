@@ -310,7 +310,7 @@
     .line 1
     iget-object v0, p0, Lve5;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12240e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -345,7 +345,7 @@
 
     iput-object v0, p0, Lve5;->c:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     new-instance v2, Lve5$a;
@@ -379,7 +379,7 @@
     .line 1
     iget-object v0, p0, Lve5;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120f22
+    sget v1, Lcom/resouce/module/ResSTRING;->home_handle_desktop_shortcut_roaming_login_error:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

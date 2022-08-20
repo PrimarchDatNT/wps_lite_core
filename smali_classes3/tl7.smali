@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e0eb9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_weichat_create_and_share_page:I
 
     const/4 v1, 0x0
 
@@ -137,7 +137,7 @@
 
     iput-object p1, p0, Ltl7;->d:Landroid/view/View;
 
-    const p2, 0x7f0b1988
+    sget p2, Lcom/resouce/module/ResID;->name:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
     .line 4
     iget-object p1, p0, Ltl7;->d:Landroid/view/View;
 
-    const p2, 0x7f0b03fc
+    sget p2, Lcom/resouce/module/ResID;->choose_wechat_group:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -325,7 +325,7 @@
 
     if-nez v1, :cond_2
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 6
     invoke-static {v2, v0, v4}, Lbih;->n(Landroid/content/Context;II)V
@@ -417,7 +417,7 @@
 
     :cond_4
     :goto_1
-    const v0, 0x7f122391
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     .line 15
     invoke-static {v2, v0, v4}, Lbih;->n(Landroid/content/Context;II)V

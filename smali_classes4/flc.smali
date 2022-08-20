@@ -835,7 +835,7 @@
     .line 2
     iget-object p1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v0, 0x7f0b127d
+    sget v0, Lcom/resouce/module/ResID;->image_insert:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -850,12 +850,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f1218e9
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_text_insert:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12054d
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addPic:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -907,7 +907,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0595
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_pdf_image:I
 
     return v0
 .end method
@@ -935,7 +935,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1286
+    sget v1, Lcom/resouce/module/ResID;->image_ok_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -944,7 +944,7 @@
     .line 3
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b127d
+    sget v2, Lcom/resouce/module/ResID;->image_insert:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -953,7 +953,7 @@
     .line 4
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b12a3
+    sget v3, Lcom/resouce/module/ResID;->image_vip:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -973,7 +973,7 @@
     .line 6
     iget-object v2, p0, Lflc;->g0:Landroid/widget/ImageView;
 
-    const v3, 0x7f0817cc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -983,7 +983,7 @@
     :cond_0
     iget-object v2, p0, Lflc;->g0:Landroid/widget/ImageView;
 
-    const v3, 0x7f0808a3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -991,7 +991,7 @@
     :goto_0
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1dee
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1012,7 +1012,7 @@
     .line 11
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1dcc
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_panel:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

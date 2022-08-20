@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b05b8
+    sget v0, Lcom/resouce/module/ResID;->coverpen_cap_square:I
 
     if-ne p1, v0, :cond_0
 
@@ -61,7 +61,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b05b6
+    sget v0, Lcom/resouce/module/ResID;->coverpen_cap_round:I
 
     if-ne p1, v0, :cond_1
 
@@ -82,7 +82,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b05bb
+    sget v0, Lcom/resouce/module/ResID;->coverpen_color_white:I
 
     if-ne p1, v0, :cond_2
 
@@ -105,7 +105,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v0, 0x7f0b05ba
+    sget v0, Lcom/resouce/module/ResID;->coverpen_color_black:I
 
     if-ne p1, v0, :cond_3
 
@@ -128,7 +128,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v0, 0x7f0b05bc
+    sget v0, Lcom/resouce/module/ResID;->coverpen_thickness_0:I
 
     if-ne p1, v0, :cond_4
 
@@ -153,7 +153,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b05be
+    sget v0, Lcom/resouce/module/ResID;->coverpen_thickness_1:I
 
     if-ne p1, v0, :cond_5
 
@@ -178,7 +178,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b05c0
+    sget v0, Lcom/resouce/module/ResID;->coverpen_thickness_2:I
 
     if-ne p1, v0, :cond_6
 
@@ -203,7 +203,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b05c2
+    sget v0, Lcom/resouce/module/ResID;->coverpen_thickness_3:I
 
     if-ne p1, v0, :cond_7
 
@@ -228,7 +228,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0b05c4
+    sget v0, Lcom/resouce/module/ResID;->coverpen_thickness_4:I
 
     if-ne p1, v0, :cond_8
 

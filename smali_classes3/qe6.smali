@@ -335,7 +335,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c10
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_foreign_template_detail_inner_ad_layout:I
 
     const/4 v2, 0x0
 
@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2ecb
+    sget v1, Lcom/resouce/module/ResID;->template_inner_ad_container:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -359,7 +359,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b132e
+    sget v1, Lcom/resouce/module/ResID;->inner_ad_icon:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -387,7 +387,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081e8b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     const/4 v4, 0x0
 
@@ -397,7 +397,7 @@
     .line 13
     invoke-virtual {v2, v1}, Lf54;->d(Landroid/widget/ImageView;)V
 
-    const v1, 0x7f0b132d
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_title:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b132b
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_desc:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -48,7 +48,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1221e4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_format_brush_unsupported:I
 
     if-eqz v0, :cond_1
 

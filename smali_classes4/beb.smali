@@ -285,7 +285,7 @@
     :cond_2
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1528
+    sget v1, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -330,7 +330,7 @@
     .line 1
     iget v0, p0, Lbeb;->W:I
 
-    const v1, 0x7f0b1528
+    sget v1, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     if-ne v0, v1, :cond_0
 
@@ -356,7 +356,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b1527
+    sget v1, Lcom/resouce/module/ResID;->law_cancel_btn:I
 
     if-ne v0, v1, :cond_1
 
@@ -371,7 +371,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b152a
+    sget v1, Lcom/resouce/module/ResID;->law_content_link1:I
 
     if-ne v0, v1, :cond_2
 
@@ -389,7 +389,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b152b
+    sget v1, Lcom/resouce/module/ResID;->law_content_link2:I
 
     if-ne v0, v1, :cond_3
 
@@ -415,7 +415,7 @@
     .line 1
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b152e
+    sget v1, Lcom/resouce/module/ResID;->law_info_area_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -511,7 +511,7 @@
     .line 1
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0dc6
+    sget v1, Lcom/resouce/module/ResID;->fl_splash_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -524,7 +524,7 @@
     .line 2
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2d9a    # 1.8499947E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_logo:I    # 1.8499947E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -537,7 +537,7 @@
     .line 3
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2d9b    # 1.8499949E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_logo_txt:I    # 1.8499949E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -550,7 +550,7 @@
     .line 4
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2d9d    # 1.8499953E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_text:I    # 1.8499953E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -576,7 +576,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -593,7 +593,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -742,7 +742,7 @@
     .line 1
     iget v0, p0, Lbeb;->W:I
 
-    const v1, 0x7f0b1528
+    sget v1, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     if-gez v0, :cond_0
 
@@ -756,7 +756,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b1527
+    sget v2, Lcom/resouce/module/ResID;->law_cancel_btn:I
 
     if-ne v0, v1, :cond_1
 
@@ -770,9 +770,9 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0b152b
+    sget v3, Lcom/resouce/module/ResID;->law_content_link2:I
 
-    const v4, 0x7f0b152a
+    sget v4, Lcom/resouce/module/ResID;->law_content_link1:I
 
     if-ne v0, v4, :cond_2
 
@@ -825,18 +825,18 @@
     .line 1
     iget v0, p0, Lbeb;->W:I
 
-    const v1, 0x7f0b1528
+    sget v1, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     if-ltz v0, :cond_4
 
-    const v2, 0x7f0b1527
+    sget v2, Lcom/resouce/module/ResID;->law_cancel_btn:I
 
     if-ne v0, v2, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b152b
+    sget v3, Lcom/resouce/module/ResID;->law_content_link2:I
 
     if-ne v0, v1, :cond_1
 
@@ -850,7 +850,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b152a
+    sget v1, Lcom/resouce/module/ResID;->law_content_link1:I
 
     if-ne v0, v3, :cond_2
 
@@ -1009,7 +1009,7 @@
     .line 4
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1528
+    sget v1, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1044,7 +1044,7 @@
     .line 11
     iget-object v1, p0, Lbeb;->S:Landroid/view/View;
 
-    const v2, 0x7f0b152a
+    sget v2, Lcom/resouce/module/ResID;->law_content_link1:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1070,7 +1070,7 @@
     .line 15
     iget-object v2, p0, Lbeb;->S:Landroid/view/View;
 
-    const v4, 0x7f0b152b
+    sget v4, Lcom/resouce/module/ResID;->law_content_link2:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1094,7 +1094,7 @@
     .line 19
     iget-object v3, p0, Lbeb;->S:Landroid/view/View;
 
-    const v4, 0x7f0b1527
+    sget v4, Lcom/resouce/module/ResID;->law_cancel_btn:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1131,7 +1131,7 @@
     .line 26
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1529
+    sget v1, Lcom/resouce/module/ResID;->law_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12133d
+    sget v1, Lcom/resouce/module/ResSTRING;->law_content2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1170,7 +1170,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12133e
+    sget v1, Lcom/resouce/module/ResSTRING;->law_content3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1557,7 +1557,7 @@
     .line 1
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b152e
+    sget v1, Lcom/resouce/module/ResID;->law_info_area_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1769,7 +1769,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1528
+    sget v0, Lcom/resouce/module/ResID;->law_confirm_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -1795,7 +1795,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1527
+    sget v0, Lcom/resouce/module/ResID;->law_cancel_btn:I
 
     if-ne p1, v0, :cond_2
 
@@ -1819,7 +1819,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b152a
+    sget v0, Lcom/resouce/module/ResID;->law_content_link1:I
 
     if-ne p1, v0, :cond_3
 
@@ -1834,7 +1834,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b152b
+    sget v0, Lcom/resouce/module/ResID;->law_content_link2:I
 
     if-ne p1, v0, :cond_4
 
@@ -1859,11 +1859,11 @@
     .line 1
     iget p2, p0, Lbeb;->W:I
 
-    const v0, 0x7f0b152b
+    sget v0, Lcom/resouce/module/ResID;->law_content_link2:I
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b152a
+    sget v2, Lcom/resouce/module/ResID;->law_content_link1:I
 
     if-eq p2, v2, :cond_0
 
@@ -1964,7 +1964,7 @@
     :goto_2
     iget-object p1, p0, Lbeb;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1529
+    sget p2, Lcom/resouce/module/ResID;->law_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1990,7 +1990,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12133d
+    sget p2, Lcom/resouce/module/ResSTRING;->law_content2:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2003,7 +2003,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12133e
+    sget p2, Lcom/resouce/module/ResSTRING;->law_content3:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2061,7 +2061,7 @@
 .method public s()V
     .locals 3
 
-    const v0, 0x7f0e0c49
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_tv_meeting_first_start_layout:I
 
     .line 1
     :try_start_0
@@ -2114,7 +2114,7 @@
     .line 6
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0dc6
+    sget v1, Lcom/resouce/module/ResID;->fl_splash_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2127,7 +2127,7 @@
     .line 7
     iget-object v0, p0, Lbeb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b152e
+    sget v1, Lcom/resouce/module/ResID;->law_info_area_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

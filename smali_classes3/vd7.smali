@@ -281,7 +281,7 @@
     .line 3
     iget-object v0, p0, Lvd7;->B:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08dc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_secret_login_dialog:I
 
     const/4 v2, 0x0
 
@@ -378,7 +378,7 @@
 
     iput-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1cf3
+    sget v1, Lcom/resouce/module/ResID;->passwd_input_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -392,7 +392,7 @@
     .line 3
     iget-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b270c
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -403,7 +403,7 @@
     .line 4
     iget-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1350
+    sget v1, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
     .line 5
     iget-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1cec
+    sget v1, Lcom/resouce/module/ResID;->passwd_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -446,7 +446,7 @@
     .line 9
     iget-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2706
+    sget v1, Lcom/resouce/module/ResID;->public_secfolder_forget_passwd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -462,7 +462,7 @@
     .line 11
     iget-object v0, p0, Lvd7;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2708
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_display_check:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -478,7 +478,7 @@
     .line 13
     iget-object v1, p0, Lvd7;->S:Landroid/view/View;
 
-    const v2, 0x7f0b06b8
+    sget v2, Lcom/resouce/module/ResID;->display_check_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -490,12 +490,12 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f122895
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secfolder_already_locked:I
 
     .line 14
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f122381
+    sget v0, Lcom/resouce/module/ResSTRING;->public_inputPasswdShort:I
 
     .line 15
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -508,14 +508,14 @@
     .line 17
     iget-object v0, p0, Lvd7;->a0:Landroid/content/DialogInterface$OnClickListener;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 18
     iget-object v0, p0, Lvd7;->a0:Landroid/content/DialogInterface$OnClickListener;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -553,7 +553,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2706
+    sget v0, Lcom/resouce/module/ResID;->public_secfolder_forget_passwd:I
 
     if-ne p1, v0, :cond_0
 

@@ -28,9 +28,9 @@
     .line 2
     new-instance v0, Ljsd$a;
 
-    const v1, 0x7f080425
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_swatch:I
 
-    const v2, 0x7f12236a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_color:I
 
     const/4 v3, 0x0
 
@@ -44,9 +44,9 @@
     .line 4
     new-instance v0, Ljsd$b;
 
-    const v1, 0x7f080416
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_thickness:I
 
-    const v2, 0x7f122373
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_stroke_width:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Ljsd$b;-><init>(Ljsd;IIZ)V
 

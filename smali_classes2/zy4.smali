@@ -24,7 +24,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206db
+    sget v1, Lcom/resouce/module/ResSTRING;->download_link:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -362,7 +362,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1201e1
+    sget v2, Lcom/resouce/module/ResSTRING;->baidu_search_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -401,7 +401,7 @@
 
     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p1, 0x7f120391
+    sget p1, Lcom/resouce/module/ResSTRING;->dialog_recommend_qq_browser_webview_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

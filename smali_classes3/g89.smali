@@ -190,7 +190,7 @@
 
     if-eqz p1, :cond_2
 
-    const v0, 0x7f12263b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_phone_search_more_search_result_tips:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V

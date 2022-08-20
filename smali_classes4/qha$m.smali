@@ -88,7 +88,7 @@
 
     iget-object p2, p0, Lqha$m;->I:Landroid/content/Context;
 
-    const v0, 0x7f1215c2
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_anonymous:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

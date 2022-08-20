@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00ff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_share_to_wechat_file_over_limit_pay_guide:I
 
     const/4 v2, 0x0
 
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3168
+    sget v1, Lcom/resouce/module/ResID;->tv_file_name:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b3131
+    sget v2, Lcom/resouce/module/ResID;->tv_content:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b3169
+    sget v3, Lcom/resouce/module/ResID;->tv_file_size:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1454
+    sget v4, Lcom/resouce/module/ResID;->iv_file_icon:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b324f
+    sget v5, Lcom/resouce/module/ResID;->tv_send_file:I
 
     .line 6
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     invoke-virtual {v5, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b141a
+    sget v5, Lcom/resouce/module/ResID;->iv_back:I
 
     .line 7
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     invoke-virtual {v5, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b3253
+    sget v5, Lcom/resouce/module/ResID;->tv_send_link:I
 
     .line 8
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -355,7 +355,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b324f
+    sget v0, Lcom/resouce/module/ResID;->tv_send_file:I
 
     if-ne p1, v0, :cond_1
 
@@ -375,7 +375,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b3253
+    sget v0, Lcom/resouce/module/ResID;->tv_send_link:I
 
     if-ne p1, v0, :cond_2
 

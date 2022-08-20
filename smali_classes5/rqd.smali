@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lrqd$a;
 
-    const v1, 0x7f080271
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_openfile:I
 
-    const v2, 0x7f12259b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_file:I
 
     const/4 v3, 0x1
 

@@ -76,12 +76,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0e03c2
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_user_avatar_fragment:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0e0582
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_home_user_avatar_fragment:I
 
     :goto_0
     const/4 v0, 0x0
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/user/UserAvatarFragment;->S:Landroid/view/View;
 
-    const p2, 0x7f0b10ab
+    sget p2, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserAvatarFragment;->S:Landroid/view/View;
 
-    const p2, 0x7f0b10aa
+    sget p2, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_name_icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/main/user/UserAvatarFragment;->S:Landroid/view/View;
 
-    const p2, 0x7f0b26b8
+    sget p2, Lcom/resouce/module/ResID;->public_phone_home_member_enterprise_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -362,12 +362,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0810b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080f5e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_mine_login_pic:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -378,7 +378,7 @@
 .method public final f(Lk08;)V
     .locals 4
 
-    const v0, 0x7f0810b4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     if-eqz p1, :cond_2
 

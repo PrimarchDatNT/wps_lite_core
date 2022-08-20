@@ -475,7 +475,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f12122b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_upload_file_type_not_support:I
 
     .line 2
     invoke-static {p1}, Lcn/wps/moffice/main/cloud/drive/upload/UploadFileActivity;->T2(I)V

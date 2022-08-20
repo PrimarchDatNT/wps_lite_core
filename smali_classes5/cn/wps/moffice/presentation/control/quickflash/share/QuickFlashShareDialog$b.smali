@@ -179,7 +179,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f12299a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_success:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -191,7 +191,7 @@
 
     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f12296a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_file_on_sdcard:I
 
     const/4 v3, 0x1
 

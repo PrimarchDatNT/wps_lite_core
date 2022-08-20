@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1216be
+    sget v0, Lcom/resouce/module/ResSTRING;->pc_install_url2:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1216bd
+    sget v2, Lcom/resouce/module/ResSTRING;->pc_install_url:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

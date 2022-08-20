@@ -59,7 +59,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlaySwitchDocFullScreenProgressDialog;->mUIHandler:Landroid/os/Handler;
 
-    const p1, 0x7f0e0e4e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_shareplay_switch_doc_full_screen_progress:I
 
     .line 6
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -199,7 +199,7 @@
 .method private showDownloadFile(Ljava/lang/String;Ljava/lang/Runnable;Lu35$a;Lcn/wps/moffice/common/shareplay/SharePlayBundleData;)V
     .locals 8
 
-    const v0, 0x7f0b2723
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

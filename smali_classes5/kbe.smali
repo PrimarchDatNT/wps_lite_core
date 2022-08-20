@@ -75,7 +75,7 @@
 .method public b(Landroid/view/View;Lgno;Lgro;)V
     .locals 1
 
-    const v0, 0x7f0b237c
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_laser_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     invoke-virtual {v0, p3}, Lcn/wps/moffice/presentation/control/laserpen/LaserPenView;->m(Lgro;)V
 
-    const v0, 0x7f0b237b
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_ink_view:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -601,7 +601,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e058c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_mouse_scale_layout:I
 
     const/4 v2, 0x1
 
@@ -611,7 +611,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/pad/mouse/mousescale/PadMouseScaleLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c01
+    sget v1, Lcom/resouce/module/ResID;->pad_mouse_scale_subtract:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -625,7 +625,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/pad/mouse/mousescale/PadMouseScaleLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c00
+    sget v1, Lcom/resouce/module/ResID;->pad_mouse_scale_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -638,7 +638,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/pad/mouse/mousescale/PadMouseScaleLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1bff
+    sget v1, Lcom/resouce/module/ResID;->pad_mouse_scale_add:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1326,22 +1326,22 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    const v2, 0x7f080ec7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_mouse_scale_add_night:I
 
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f080ec6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_mouse_scale_add:I
 
     :goto_2
     if-eqz v0, :cond_3
 
-    const v0, 0x7f080ec9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_mouse_scale_reduce_night:I
 
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f080ec8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_mouse_scale_reduce:I
 
     .line 2
     :goto_3
@@ -1419,7 +1419,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1c01
+    sget v3, Lcom/resouce/module/ResID;->pad_mouse_scale_subtract:I
 
     if-ne p1, v3, :cond_0
 
@@ -1454,7 +1454,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b1bff
+    sget v3, Lcom/resouce/module/ResID;->pad_mouse_scale_add:I
 
     if-ne p1, v3, :cond_1
 
@@ -1573,7 +1573,7 @@
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    const v1, 0x7f070dae
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_mouse_scale_radius:I
 
     int-to-float v1, v1
 
@@ -1634,7 +1634,7 @@
     :goto_2
     invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    const v4, 0x7f070dad
+    sget v4, Lcom/resouce/module/ResDIMEN;->writer_pad_mouse_scale_press_radius:I
 
     int-to-float v4, v4
 
@@ -1690,7 +1690,7 @@
     .line 7
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(Landroid/content/res/ColorStateList;)V
 
-    const p1, 0x7f070dae
+    sget p1, Lcom/resouce/module/ResDIMEN;->writer_pad_mouse_scale_radius:I
 
     int-to-float p1, p1
 

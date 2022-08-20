@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0f8c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ss_toolbar_layout:I
 
     const/4 v1, 0x0
 
@@ -53,7 +53,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolBarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2d0c
+    sget v0, Lcom/resouce/module/ResID;->ss_main_toolbar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -85,7 +85,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolBarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b299d
+    sget v0, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060214
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -121,7 +121,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolBarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0ab1
+    sget v1, Lcom/resouce/module/ResID;->et_main_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2994
+    sget v0, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2997
+    sget v0, Lcom/resouce/module/ResID;->rom_read_more:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b299b
+    sget v0, Lcom/resouce/module/ResID;->rom_read_title:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0ab1
+    sget v1, Lcom/resouce/module/ResID;->et_main_top:I
 
     const/4 v3, 0x0
 

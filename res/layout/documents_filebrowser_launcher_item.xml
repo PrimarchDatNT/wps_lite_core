@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@drawable/phone_public_dialog_list_selector" style="@style/home_dialog_list_item_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/documents_filebrowser_launcher_image" style="@style/home_dialog_list_item_image" />
-    <TextView android:id="@id/documents_filebrowser_launcher_text" style="@style/home_dialog_list_item_text" />
-</LinearLayout>

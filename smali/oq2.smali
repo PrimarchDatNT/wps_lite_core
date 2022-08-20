@@ -187,7 +187,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e02af
+    sget v2, Lcom/resouce/module/ResLAYOUT;->func_pdf_privileges_list_item_one:I
 
     invoke-virtual {p2, v2, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -211,7 +211,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e02b0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->func_pdf_privileges_list_item_two:I
 
     invoke-virtual {p2, v2, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -264,15 +264,15 @@
 
     check-cast v3, Lgf3;
 
-    const v4, 0x7f060625
+    sget v4, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
-    const v5, 0x7f060035
+    sget v5, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
-    const v6, 0x7f080fd3
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pay_privilege_icon_new:I
 
     const/16 v7, 0x8
 
-    const v8, 0x7f080fd2
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pay_privilege_icon_hot:I
 
     if-nez p3, :cond_9
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    const v9, 0x7f060142
+    sget v9, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -453,11 +453,11 @@
 
     move-result-object p3
 
-    const v2, 0x7f08070b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_have_privileges:I
 
     const-string v9, "yes"
 
-    const v10, 0x7f08070c
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_no_privileges:I
 
     if-eqz p3, :cond_b
 

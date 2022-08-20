@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0aae
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_play_extraplayer_popmenu:I
 
     const/4 v3, 0x0
 
@@ -79,7 +79,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2373
+    sget v2, Lcom/resouce/module/ResID;->ppt_play_extraplayer_text:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

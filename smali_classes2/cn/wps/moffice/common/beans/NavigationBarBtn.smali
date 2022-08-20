@@ -87,7 +87,7 @@
 
     if-gez v0, :cond_0
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 2
     invoke-virtual {p0}, Landroid/widget/FrameLayout;->getResources()Landroid/content/res/Resources;
@@ -128,7 +128,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f06003e
+    sget v0, Lcom/resouce/module/ResCOLOR;->black:I
 
     goto :goto_0
 
@@ -252,11 +252,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d09
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_navigation_bar_btn:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b19c9
+    sget v0, Lcom/resouce/module/ResID;->navagation_bar_btn_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/NavigationBarBtn;->U:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v0, 0x7f0b19c8
+    sget v0, Lcom/resouce/module/ResID;->navagation_bar_btn_bottom_line:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f06003e
+    sget p2, Lcom/resouce/module/ResCOLOR;->black:I
 
     goto :goto_0
 
@@ -522,7 +522,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -552,7 +552,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

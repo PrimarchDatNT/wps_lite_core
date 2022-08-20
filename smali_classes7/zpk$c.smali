@@ -38,7 +38,7 @@
 .method public onLongClick(Landroid/view/View;)Z
     .locals 2
 
-    const v0, 0x7f0b0235
+    sget v0, Lcom/resouce/module/ResID;->bookmark_dropdown_btn:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -58,7 +58,7 @@
     .line 1
     invoke-virtual {p0, v0, v0, v0, v0}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    const v1, 0x7f0811d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_color_none_item_bg_transparent:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -72,11 +72,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e109f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_fontmore_fontsize_layout:I
 
     invoke-virtual {v1, v2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v1, 0x7f0b260a
+    sget v1, Lcom/resouce/module/ResID;->public_fontsize_minus_btn:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/beans/FontSizeView;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b260b
+    sget v1, Lcom/resouce/module/ResID;->public_fontsize_plus_btn:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/beans/FontSizeView;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b260c
+    sget v1, Lcom/resouce/module/ResID;->public_fontsize_show_btn:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -58,7 +58,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b27e1
+    sget v3, Lcom/resouce/module/ResID;->rb_simplified_chinese:I
 
     if-ne v0, v3, :cond_0
 
@@ -77,7 +77,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$c;->I:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v1, 0x7f1204b4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_simplified_chinese:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b27d8
+    sget v3, Lcom/resouce/module/ResID;->rb_chinese_traditional:I
 
     if-ne v0, v3, :cond_1
 
@@ -120,7 +120,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$c;->I:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v1, 0x7f1203da
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_chinese_traditional:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0b27dc
+    sget v3, Lcom/resouce/module/ResID;->rb_english:I
 
     if-ne v0, v3, :cond_2
 
@@ -165,7 +165,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$c;->I:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v1, 0x7f1203fb
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_english:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

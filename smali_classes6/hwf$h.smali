@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f03000c
+    sget v2, Lcom/resouce/module/ResARRAY;->et_function_name_list_all:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

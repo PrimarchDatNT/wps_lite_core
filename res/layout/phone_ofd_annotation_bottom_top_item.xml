@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="54.0dip" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/annotation_insert_item_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_style_mark_square" />
-</cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>

@@ -102,7 +102,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f060035
+    sget p3, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f060259
+    sget p3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -193,7 +193,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a3
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0819c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v0, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -405,7 +405,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0b31
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_chart_data_adapter_item:I
 
     const/4 v1, 0x0
 
@@ -561,7 +561,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

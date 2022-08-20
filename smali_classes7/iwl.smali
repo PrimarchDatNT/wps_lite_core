@@ -48,7 +48,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f1225c8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_outline:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

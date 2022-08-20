@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ed3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->quick_pay_more_item_layout:I
 
     const/4 v2, 0x0
 
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b28ba
+    sget v1, Lcom/resouce/module/ResID;->restore_purchase_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b2791
+    sget v2, Lcom/resouce/module/ResID;->purchase_feedback:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

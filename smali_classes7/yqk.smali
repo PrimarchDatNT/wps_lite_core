@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     .line 9
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -96,7 +96,7 @@
 
     if-eqz v2, :cond_1
 
-    const v0, 0x7f1219e7
+    sget v0, Lcom/resouce/module/ResSTRING;->pic_store_config_error:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

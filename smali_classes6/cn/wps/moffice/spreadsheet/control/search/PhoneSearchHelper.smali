@@ -31,13 +31,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0249
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_search_new_findtool:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b06cf
+    sget p2, Lcom/resouce/module/ResID;->divider:I
 
     .line 3
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchHelper;->B:Landroid/view/View;
 
-    const p2, 0x7f0b28a5
+    sget p2, Lcom/resouce/module/ResID;->replace_all:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchHelper;->I:Landroid/widget/TextView;
 
-    const p2, 0x7f0b28a3
+    sget p2, Lcom/resouce/module/ResID;->replace:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchHelper;->S:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0ba4
+    sget p2, Lcom/resouce/module/ResID;->et_search_tool_prev:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearchHelper;->T:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0ba3
+    sget p2, Lcom/resouce/module/ResID;->et_search_tool_next:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06011e
+    sget p2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

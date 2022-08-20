@@ -171,7 +171,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b256d
+    sget v2, Lcom/resouce/module/ResID;->public_backkey_splash_bottom_divide:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -182,7 +182,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b18d9
+    sget v2, Lcom/resouce/module/ResID;->mopub_splash_page_type_kso_s2s:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -209,7 +209,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b18d7
+    sget v2, Lcom/resouce/module/ResID;->mopub_splash_page_mopub_style:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b18d8
+    sget v2, Lcom/resouce/module/ResID;->mopub_splash_page_server_style:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -254,7 +254,7 @@
     .line 10
     iget-object v3, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->I:Landroid/view/View;
 
-    const v4, 0x7f0b2e7e
+    sget v4, Lcom/resouce/module/ResID;->tag_map:I
 
     invoke-virtual {v3, v4, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -270,7 +270,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->I:Landroid/view/View;
 
-    const v3, 0x7f0b199f
+    sget v3, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -338,7 +338,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f07038e
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_splash_membership_margin_left:I
 
     goto :goto_1
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f07038f
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_splash_membership_margin_left_non_ad_sign:I
 
     :goto_1
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimension(I)F
@@ -394,7 +394,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0094
+    sget v1, Lcom/resouce/module/ResID;->ad_sign:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +465,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0096
+    sget v2, Lcom/resouce/module/ResID;->ad_sign_info_root:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -495,7 +495,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2cc7
+    sget v1, Lcom/resouce/module/ResID;->splsh_ad_join_member_ship:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -513,7 +513,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b256c
+    sget v1, Lcom/resouce/module/ResID;->public_backkey_splash_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b27b5
+    sget v1, Lcom/resouce/module/ResID;->quit_no:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -545,7 +545,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b27b6
+    sget v1, Lcom/resouce/module/ResID;->quit_yes:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -569,7 +569,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f010014
+    sget v1, Lcom/resouce/module/ResANIM;->backkey_activity_exit:I
 
     .line 2
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -589,7 +589,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e06e9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_backkey_new_splash_page:I
 
     const/4 v1, 0x0
 

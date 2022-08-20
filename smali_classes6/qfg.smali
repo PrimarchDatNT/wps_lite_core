@@ -38,7 +38,7 @@
     return p0
 
     :cond_0
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v0, 0x1
 

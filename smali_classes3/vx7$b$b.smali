@@ -52,7 +52,7 @@
 
     iget-object p1, p1, Lvx7$b;->S:Landroid/widget/ImageView;
 
-    const p2, 0x7f0816ea
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_login_safecode_pic_fail:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -184,7 +184,7 @@
 
     iget-object p1, p1, Lvx7$b;->S:Landroid/widget/ImageView;
 
-    const p2, 0x7f0816ea
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_login_safecode_pic_fail:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 

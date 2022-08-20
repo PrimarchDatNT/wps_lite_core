@@ -82,7 +82,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010061
+    sget v1, Lcom/resouce/module/ResANIM;->phone_bottom_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -102,7 +102,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010062
+    sget v1, Lcom/resouce/module/ResANIM;->phone_bottom_push_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -127,7 +127,7 @@
     .line 2
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f01006a
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -158,7 +158,7 @@
     .line 2
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f01006b
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -184,7 +184,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010056
+    sget v1, Lcom/resouce/module/ResANIM;->magnifier_disappear:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -199,7 +199,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010055
+    sget v1, Lcom/resouce/module/ResANIM;->magnifier_appear:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -214,7 +214,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010082
+    sget v1, Lcom/resouce/module/ResANIM;->ppt_note_show_menu:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -229,7 +229,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010083
+    sget v1, Lcom/resouce/module/ResANIM;->ppt_note_show_menu_v:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -244,7 +244,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f01007f
+    sget v1, Lcom/resouce/module/ResANIM;->ppt_note__hide_menu:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -259,7 +259,7 @@
     .line 1
     iget-object v0, p0, Lpoe;->B:Landroid/content/Context;
 
-    const v1, 0x7f010080
+    sget v1, Lcom/resouce/module/ResANIM;->ppt_note_hide_menu_v:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

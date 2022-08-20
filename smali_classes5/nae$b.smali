@@ -154,7 +154,7 @@
 
     iget-object v1, p0, Lnae$b;->a:Landroid/content/Context;
 
-    const v2, 0x7f122bd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

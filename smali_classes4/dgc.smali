@@ -33,12 +33,12 @@
 
     if-lt v0, v1, :cond_0
 
-    const v0, 0x7f130126
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog_MinWidth:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -46,7 +46,7 @@
     .line 2
     iput-object p2, p0, Ldgc;->B:Ldgc$g;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -56,7 +56,7 @@
     .line 4
     invoke-virtual {p0, p0}, Lqe3;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const p1, 0x7f0b0680
+    sget p1, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -105,12 +105,12 @@
 .method public V2()V
     .locals 3
 
-    const v0, 0x7f121720
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f12171f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_tips:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600e5
+    sget v1, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -134,7 +134,7 @@
 
     invoke-direct {v1, p0}, Ldgc$a;-><init>(Ldgc;)V
 
-    const v2, 0x7f12171e
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_insufficient_ok:I
 
     invoke-virtual {p0, v2, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -154,7 +154,7 @@
 
     if-eqz p3, :cond_0
 
-    const p1, 0x7f121752
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback_interruptederr_msg:I
 
     :goto_0
     const/4 p3, 0x0
@@ -171,34 +171,34 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f12175a
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_neterr_title:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f12250d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     :goto_1
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p1, 0x7f121759
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_neterr_msg:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f121732
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_error_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
     if-eqz p2, :cond_3
 
-    const p1, 0x7f12174e
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_busniess_err_msg:I
 
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f121731
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_error_dialog_tips:I
 
     :goto_2
     xor-int/lit8 p3, p2, 0x1
@@ -218,7 +218,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setVisibility(I)V
 
-    const p1, 0x7f121757
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     const/4 p2, 0x0
 
@@ -237,7 +237,7 @@
 
     if-eqz p3, :cond_5
 
-    const p1, 0x7f121751
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback:I
 
     .line 9
     new-instance p2, Ldgc$b;
@@ -247,7 +247,7 @@
     invoke-virtual {p0, p1, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_5
-    const p1, 0x7f121bdb
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 10
     invoke-virtual {p0}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
@@ -258,7 +258,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -277,7 +277,7 @@
 .method public X2(Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f121722
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -291,7 +291,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setVisibility(I)V
 
-    const v0, 0x7f121721
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_login_err_tips:I
 
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -301,7 +301,7 @@
 
     invoke-direct {v0, p0, p1}, Ldgc$e;-><init>(Ldgc;Ljava/lang/String;)V
 
-    const p1, 0x7f121757
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     invoke-virtual {p0, p1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -311,12 +311,12 @@
 .method public Y2()V
     .locals 3
 
-    const v0, 0x7f121729
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_time_err_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f121728
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_time_err_tips:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -330,7 +330,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600e5
+    sget v1, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -340,7 +340,7 @@
 
     invoke-direct {v1, p0}, Ldgc$d;-><init>(Ldgc;)V
 
-    const v2, 0x7f1225af
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_platform_permission_shortcut_tips_ok:I
 
     invoke-virtual {p0, v2, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -360,18 +360,18 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1218ae
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_preview_network_fail:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121930
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_web_preview_fail:I
 
     .line 3
     :goto_0
     invoke-virtual {p0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121bdb
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 4
     new-instance v0, Ldgc$f;

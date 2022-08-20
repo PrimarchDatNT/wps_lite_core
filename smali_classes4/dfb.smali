@@ -65,12 +65,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0516
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_documents_legal_provision:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e06a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_legal_provision:I
 
     :goto_0
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -140,7 +140,7 @@
     .line 3
     iget-object v0, p0, Ldfb;->e:Lhd3;
 
-    const v1, 0x7f1205c6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_legal_provision:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -179,7 +179,7 @@
     .line 5
     new-instance v2, Lcfb;
 
-    const v3, 0x7f12054c
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_activation_statistics:I
 
     iget-object v4, p0, Ldfb;->g:Lcfb$a;
 
@@ -191,7 +191,7 @@
     :cond_0
     new-instance v2, Lcfb;
 
-    const v3, 0x7f1206c2
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_usage_statistics:I
 
     iget-object v4, p0, Ldfb;->g:Lcfb$a;
 
@@ -216,7 +216,7 @@
     .line 1
     iget-object v0, p0, Ldfb;->b:Landroid/view/View;
 
-    const v1, 0x7f0b077c
+    sget v1, Lcom/resouce/module/ResID;->documents_more_legal_provision_items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

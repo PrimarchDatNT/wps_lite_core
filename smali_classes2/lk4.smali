@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1c04
+    sget v1, Lcom/resouce/module/ResID;->pad_multi_doc_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1c03
+    sget v1, Lcom/resouce/module/ResID;->pad_multi_doc_home:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05ba
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_multi_doc_droplist:I
 
     const/4 v2, 0x0
 
@@ -201,7 +201,7 @@
 
     iput-object v0, p0, Llk4;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1c06
+    sget v1, Lcom/resouce/module/ResID;->pad_multi_doc_mask:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
     :cond_0
     iget-object v0, p0, Llk4;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1c02
+    sget v1, Lcom/resouce/module/ResID;->pad_multi_doc_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -246,7 +246,7 @@
     .line 8
     iget-object v0, p0, Llk4;->c:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1950
+    sget v2, Lcom/resouce/module/ResID;->multi_doc_droplist_home_wrap:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

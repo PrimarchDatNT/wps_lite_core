@@ -25,7 +25,7 @@
     .line 1
     invoke-direct {p0, p1}, Lih3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e06c7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_file_final_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(I)V
@@ -33,7 +33,7 @@
     .line 3
     iput-object p1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const p1, 0x7f0b0681
+    sget p1, Lcom/resouce/module/ResID;->dialog_bg:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -42,7 +42,7 @@
 
     iput-object p1, p0, Lh96;->I:Landroid/view/View;
 
-    const p1, 0x7f0b0690
+    sget p1, Lcom/resouce/module/ResID;->dialog_content_layout:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object p1, p0, Lh96;->S:Landroid/view/View;
 
-    const p1, 0x7f0b0cce
+    sget p1, Lcom/resouce/module/ResID;->file_final_progress:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iget-object v1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122128
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final_support1:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
 
     iget-object p1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122129
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_final_support2:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -230,7 +230,7 @@
     .line 2
     iget-object v1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122119
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -242,7 +242,7 @@
 
     iget-object v1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122123
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final_had_msg:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -255,7 +255,7 @@
 
     iget-object v1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122588
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -274,7 +274,7 @@
 
     invoke-direct {v0, p0}, Lh96$d;-><init>(Lh96;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -306,7 +306,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setClickable(Z)V
 
-    const v0, 0x7f0b01b2
+    sget v0, Lcom/resouce/module/ResID;->back:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -319,7 +319,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0ccd
+    sget v0, Lcom/resouce/module/ResID;->file_final_bt:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
     .line 3
     iget-object v1, p0, Lh96;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122122
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final_fail:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121177
+    sget v0, Lcom/resouce/module/ResSTRING;->home_task_know:I
 
     const/4 v1, 0x0
 
@@ -515,7 +515,7 @@
     .line 2
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f122121
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg8:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -527,7 +527,7 @@
     :pswitch_0
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f122120
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg7:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -539,7 +539,7 @@
     :pswitch_1
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg2:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -551,7 +551,7 @@
     :pswitch_2
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg3:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -563,7 +563,7 @@
     :pswitch_3
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg4:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -575,7 +575,7 @@
     :pswitch_4
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg6:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -587,7 +587,7 @@
     :pswitch_5
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg1:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -599,7 +599,7 @@
     :pswitch_6
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f12211e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_final_error_msg5:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

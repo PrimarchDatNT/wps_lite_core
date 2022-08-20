@@ -28,9 +28,9 @@
     .line 2
     new-instance v0, Ljde$a;
 
-    const v1, 0x7f0803f3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_font:I
 
-    const v2, 0x7f122815
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     const/4 v3, 0x0
 

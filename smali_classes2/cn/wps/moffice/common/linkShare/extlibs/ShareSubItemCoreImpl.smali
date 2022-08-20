@@ -76,11 +76,11 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b15d2
+    sget v2, Lcom/resouce/module/ResID;->link_modify_choose_setting_btn_view:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b2672
+    sget v4, Lcom/resouce/module/ResID;->public_link_share_extra_period_icon:I
 
     if-nez v0, :cond_3
 
@@ -171,7 +171,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f0b2673
+    sget v1, Lcom/resouce/module/ResID;->public_link_share_extra_period_textview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -350,7 +350,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const p4, 0x7f0b0260
+    sget p4, Lcom/resouce/module/ResID;->bottom_layout:I
 
     invoke-virtual {p1, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -366,7 +366,7 @@
     .line 8
     iget-object p4, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const p5, 0x7f0b15d1
+    sget p5, Lcom/resouce/module/ResID;->link_modify_choose_send_single_text:I
 
     invoke-virtual {p4, p5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -377,7 +377,7 @@
     .line 9
     iget-object p5, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const v1, 0x7f0b15cf
+    sget v1, Lcom/resouce/module/ResID;->link_modify_choose_send_single_btn:I
 
     invoke-virtual {p5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -481,7 +481,7 @@
     .line 8
     new-instance v1, Lrf3;
 
-    const v2, 0x7f08177e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_share_doc:I
 
     .line 9
     invoke-virtual {p0, p2, p4, p7, p8}, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->m(Llg4;Lfef;ZLrc4;)Lrf3$c;
@@ -513,7 +513,7 @@
     :cond_3
     iget-object p1, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const p2, 0x7f0b0260
+    sget p2, Lcom/resouce/module/ResID;->bottom_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -527,7 +527,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const p2, 0x7f0b15ce
+    sget p2, Lcom/resouce/module/ResID;->link_modify_choose_send_group:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cba
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_link_share_extra_layout:I
 
     const/4 v2, 0x1
 
@@ -626,9 +626,9 @@
     .line 3
     new-instance v0, Lrf3;
 
-    const v1, 0x7f1223ea
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_modify_send_qq_item_text:I
 
-    const v4, 0x7f081784
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_qq:I
 
     invoke-direct {v0, v1, v4}, Lrf3;-><init>(II)V
 
@@ -680,9 +680,9 @@
     .line 8
     new-instance v0, Lrf3;
 
-    const v1, 0x7f1223e9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_modify_send_dingding_item_text:I
 
-    const v4, 0x7f08177c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_ding:I
 
     invoke-direct {v0, v1, v4}, Lrf3;-><init>(II)V
 
@@ -734,9 +734,9 @@
     .line 13
     new-instance v0, Lrf3;
 
-    const v1, 0x7f121979
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_woa:I
 
-    const v4, 0x7f08178b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_woa:I
 
     invoke-direct {v0, v1, v4}, Lrf3;-><init>(II)V
 
@@ -768,13 +768,13 @@
 
     move-result v1
 
-    const v4, 0x7f08177f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_friends:I
 
-    const v5, 0x7f12290f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_send_link_to_moment:I
 
-    const v6, 0x7f081789
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_share_wechat:I
 
-    const v7, 0x7f1223eb
+    sget v7, Lcom/resouce/module/ResSTRING;->public_link_modify_send_wechat_item_text:I
 
     if-eqz v1, :cond_3
 
@@ -971,7 +971,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1001,7 +1001,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const v1, 0x7f0b15d2
+    sget v1, Lcom/resouce/module/ResID;->link_modify_choose_setting_btn_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1094,7 +1094,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const v1, 0x7f0b15d0
+    sget v1, Lcom/resouce/module/ResID;->link_modify_choose_send_single_style_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1105,7 +1105,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->d:Landroid/view/View;
 
-    const v2, 0x7f0b15ce
+    sget v2, Lcom/resouce/module/ResID;->link_modify_choose_send_group:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1153,7 +1153,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0e0bc7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_item:I
 
     invoke-virtual {p1, v0, v1, p2}, Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;->setViewsWithCommonLayout(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1184,7 +1184,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/extlibs/ShareSubItemCoreImpl;->a:Landroid/app/Activity;
 
-    const v1, 0x7f081395
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_sub_second_background_8_dp:I
 
     invoke-static {v0, v1}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 

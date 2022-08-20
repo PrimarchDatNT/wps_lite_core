@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0721
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_listview_item_special_add_tag:I
 
     const/4 v2, 0x0
 
@@ -91,7 +91,7 @@
 
     iput-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2057
+    sget v0, Lcom/resouce/module/ResID;->phone_listview_sticky_title_textview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     .line 5
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2e27
+    sget v0, Lcom/resouce/module/ResID;->tab_right_click_park:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

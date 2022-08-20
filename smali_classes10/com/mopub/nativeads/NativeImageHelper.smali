@@ -91,7 +91,7 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f0819c7
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 7
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -449,7 +449,7 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f0819c7
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 5
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setImageResource(I)V

@@ -108,7 +108,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081cb4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_titlebar_task_icon:I
 
     invoke-static {p2, p1, v0}, La73;->b(Landroid/content/Context;Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 

@@ -148,7 +148,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12005d
+    sget v4, Lcom/resouce/module/ResSTRING;->account_url:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12130c
+    sget v5, Lcom/resouce/module/ResSTRING;->kdocs_url:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

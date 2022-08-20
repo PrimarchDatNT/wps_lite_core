@@ -60,9 +60,9 @@
     .line 5
     sget-object v0, Lcn/wps/moffice_eng/R$styleable;->RedDotAlphaImageView:[I
 
-    const v1, 0x7f040002
+    sget v1, Lcom/resouce/module/ResATTR;->RedDotStyleRef:I
 
-    const v2, 0x7f1301d0
+    sget v2, Lcom/resouce/module/ResSTYLE;->RedDotStyle:I
 
     invoke-virtual {p1, p2, v0, v1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

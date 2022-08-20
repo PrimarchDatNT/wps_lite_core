@@ -244,7 +244,7 @@
 
     sput-object v0, Lcom/google/android/material/slider/BaseSlider;->S0:Ljava/lang/String;
 
-    const v0, 0x7f1303b5
+    sget v0, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.Slider:I
 
     .line 2
     sput v0, Lcom/google/android/material/slider/BaseSlider;->T0:I
@@ -278,7 +278,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04053e
+    sget v0, Lcom/resouce/module/ResATTR;->sliderStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/slider/BaseSlider;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -561,7 +561,7 @@
 
     const/16 v0, 0x8
 
-    const v1, 0x7f1303d4
+    sget v1, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.Tooltip:I
 
     .line 1
     invoke-virtual {p1, v0, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -1238,7 +1238,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0704c9
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_slider_widget_height:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1247,7 +1247,7 @@
 
     iput v0, p0, Lcom/google/android/material/slider/BaseSlider;->m0:I
 
-    const v0, 0x7f0704c7
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_slider_track_side_padding:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -1259,7 +1259,7 @@
     .line 3
     iput v0, p0, Lcom/google/android/material/slider/BaseSlider;->p0:I
 
-    const v0, 0x7f0704c5
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_slider_thumb_radius:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1268,7 +1268,7 @@
 
     iput v0, p0, Lcom/google/android/material/slider/BaseSlider;->l0:I
 
-    const v0, 0x7f0704c8
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_slider_track_top:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -1277,7 +1277,7 @@
 
     iput v0, p0, Lcom/google/android/material/slider/BaseSlider;->q0:I
 
-    const v0, 0x7f0704c1
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_slider_label_padding:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2277,7 +2277,7 @@
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f06027d
+    sget v2, Lcom/resouce/module/ResCOLOR;->material_slider_inactive_track_color:I
 
     .line 9
     invoke-static {p1, v2}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -2298,7 +2298,7 @@
     goto :goto_3
 
     :cond_3
-    const v1, 0x7f06027a
+    sget v1, Lcom/resouce/module/ResCOLOR;->material_slider_active_track_color:I
 
     .line 12
     invoke-static {p1, v1}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -2360,7 +2360,7 @@
     goto :goto_4
 
     :cond_5
-    const v1, 0x7f06027b
+    sget v1, Lcom/resouce/module/ResCOLOR;->material_slider_halo_color:I
 
     .line 21
     invoke-static {p1, v1}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -2415,7 +2415,7 @@
     goto :goto_7
 
     :cond_8
-    const v2, 0x7f06027c
+    sget v2, Lcom/resouce/module/ResCOLOR;->material_slider_inactive_tick_marks_color:I
 
     .line 26
     invoke-static {p1, v2}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -2436,7 +2436,7 @@
     goto :goto_8
 
     :cond_9
-    const v1, 0x7f060279
+    sget v1, Lcom/resouce/module/ResCOLOR;->material_slider_active_tick_marks_color:I
 
     .line 29
     invoke-static {p1, v1}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;

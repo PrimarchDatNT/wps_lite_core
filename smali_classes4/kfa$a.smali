@@ -183,7 +183,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v0, 0x1
 

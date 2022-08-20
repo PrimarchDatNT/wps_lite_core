@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0704e4
+    sget v2, Lcom/resouce/module/ResDIMEN;->new_phone_documents_maintoolbar_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

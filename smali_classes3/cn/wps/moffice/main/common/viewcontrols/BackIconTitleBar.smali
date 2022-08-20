@@ -54,11 +54,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b16
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_back_icon_titlebar:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1270
+    sget p1, Lcom/resouce/module/ResID;->image_back_icon:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

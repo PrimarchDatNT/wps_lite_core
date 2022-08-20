@@ -7,9 +7,9 @@
 .method public constructor <init>()V
     .locals 2
 
-    const v0, 0x7f080c53
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_fullscreen_ppt:I
 
-    const v1, 0x7f1221fd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fullscreen:I
 
     .line 1
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V

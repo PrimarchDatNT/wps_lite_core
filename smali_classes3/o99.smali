@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123009
+    sget v1, Lcom/resouce/module/ResSTRING;->subject_jump_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0703a2
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070379
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_search_subject_view_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07037b
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_search_subject_view_top_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070378
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_search_subject_view_bottom_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -140,7 +140,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07037a
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_search_subject_view_shrink_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -165,7 +165,7 @@
 
     iget-object v1, p0, Lo99;->I:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e039d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_search_subject_item_view:I
 
     const/4 v3, 0x0
 
@@ -173,14 +173,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2dd1    # 1.8500058E38f
+    sget v1, Lcom/resouce/module/ResID;->subject_item_child:I    # 1.8500058E38f
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b1261
+    sget v2, Lcom/resouce/module/ResID;->image:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v4, 0x7f0b2fcd
+    sget v4, Lcom/resouce/module/ResID;->title:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b33c5
+    sget v5, Lcom/resouce/module/ResID;->views:I
 
     .line 5
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b2ed5
+    sget v6, Lcom/resouce/module/ResID;->template_nums:I
 
     .line 6
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f070377
+    sget v8, Lcom/resouce/module/ResDIMEN;->home_search_subject_radius:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -246,7 +246,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f08091c
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->ic_banner_default:I
 
     invoke-virtual {v7, v8, v3}, Lf54;->j(IZ)Lf54;
 
@@ -264,7 +264,7 @@
 
     iget-object v3, p0, Lo99;->S:Landroid/content/Context;
 
-    const v4, 0x7f122889
+    sget v4, Lcom/resouce/module/ResSTRING;->public_search_subject_views:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -293,7 +293,7 @@
 
     iget-object v4, p0, Lo99;->S:Landroid/content/Context;
 
-    const v5, 0x7f122888
+    sget v5, Lcom/resouce/module/ResSTRING;->public_search_subject_template_nums:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

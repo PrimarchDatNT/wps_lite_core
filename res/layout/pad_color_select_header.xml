@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:padding="0.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textSize="14.0sp" android:textColor="@color/v10_phone_writer_quickbar_item_text_color" android:layout_gravity="center" android:id="@id/pad_color_select_btn" android:background="@drawable/pad_operator_btn_bg" android:focusable="false" android:layout_width="220.0dip" android:layout_height="40.0dip" android:text="@string/writer_layout_revision_run_font_auto" />
-</FrameLayout>

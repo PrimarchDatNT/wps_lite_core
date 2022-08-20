@@ -27,9 +27,9 @@
     .line 2
     new-instance v0, Lp2h$a;
 
-    const v1, 0x7f080461
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_merging_splitting:I
 
-    const v2, 0x7f120c6c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_combine_split_cell:I
 
     const/4 v3, 0x1
 
@@ -135,7 +135,7 @@
 
     iget v4, v3, Le2n;->b:I
 
-    const v5, 0x7f122b46
+    sget v5, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const-string v6, "et"
 
@@ -313,17 +313,17 @@
 
     invoke-direct {v2, v4, v5}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v4, 0x7f120b89
+    sget v4, Lcom/resouce/module/ResSTRING;->et_merge_cells_warning:I
 
     .line 8
     invoke-virtual {v2, v4}, Lhd3;->setMessage(I)Lhd3;
 
-    const v4, 0x7f122fdb
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_merge_cells_warning_title:I
 
     .line 9
     invoke-virtual {v2, v4}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v4, 0x7f122a5a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     .line 10
     new-instance v5, Lp2h$b;
@@ -332,7 +332,7 @@
 
     invoke-virtual {v2, v4, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

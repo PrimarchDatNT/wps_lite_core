@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingTop="@dimen/public_common_margin_12_dp" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/footer_load_more_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:id="@id/footer_progressbar" android:layout_width="16.0dip" android:layout_height="16.0dip" app:circleStrokeWidth="2.0dip" app:loadingcircleRadius="7.0dip" />
-        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/footer_load_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/public_file_recovered_load_more_file" android:layout_marginStart="8.0dip" />
-    </LinearLayout>
-    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/footer_no_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_phone_document_trip_no_more_record" android:layout_centerInParent="true" />
-</RelativeLayout>

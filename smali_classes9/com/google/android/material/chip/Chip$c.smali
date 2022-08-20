@@ -314,7 +314,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121404
+    sget v3, Lcom/resouce/module/ResSTRING;->mtrl_chip_close_icon_content_description:I
 
     new-array v1, v1, [Ljava/lang/Object;
 

@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b14bc
+    sget v0, Lcom/resouce/module/ResID;->iv_scan_camera:I
 
     if-ne p1, v0, :cond_0
 

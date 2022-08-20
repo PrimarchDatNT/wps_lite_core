@@ -327,7 +327,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 
@@ -373,7 +373,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 
@@ -572,7 +572,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f56    # 1.9423E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_contact_multi_error:I    # 1.9423E38f
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -644,7 +644,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -36,7 +36,7 @@
     .line 2
     iput-object p1, p0, Lcd3;->B:Landroid/content/Context;
 
-    const v0, 0x7f0e0b6b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_common_entrance_guide_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b08af
+    sget v0, Lcom/resouce/module/ResID;->entrance_guide_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b08ad
+    sget v0, Lcom/resouce/module/ResID;->entrance_guide_pic:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -116,7 +116,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b08ae
+    sget v0, Lcom/resouce/module/ResID;->entrance_guide_rememberme:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b08ac
+    sget v0, Lcom/resouce/module/ResID;->entrance_guide_ok:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

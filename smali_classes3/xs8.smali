@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1214a4
+    sget v1, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -171,12 +171,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f1214a1
+    sget v2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_details1:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1214a2
+    sget v2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_details2:I
 
     .line 3
     :goto_0
@@ -199,12 +199,12 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f121e70
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_protected_now:I
 
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f1214a3
+    sget v4, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_sync_now:I
 
     .line 5
     :goto_1
@@ -227,12 +227,12 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f081b56
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_radar_list_login_guide_icon:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f0818b9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_docs_radar_sync_icon:I
 
     .line 7
     :goto_2
@@ -298,7 +298,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121e72
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_radar_new_title:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -311,7 +311,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121e73
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_radar_tips:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -322,7 +322,7 @@
     .line 6
     iget-object v0, p0, Lxs8;->X:Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;
 
-    const v2, 0x7f08166e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_cloud_safty:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
 
@@ -331,7 +331,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121e6d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_backup_now:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -477,14 +477,14 @@
     .line 8
     iget-object p1, p0, Lxs8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const p2, 0x7f12253d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
     .line 9
     iget-object p1, p0, Lxs8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const p2, 0x7f081553
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
@@ -635,7 +635,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->new_home_wps_file_radar_items_layout:I
 
     const/4 v2, 0x0
 
@@ -645,7 +645,7 @@
 
     iput-object v0, p0, Lxs8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1632
+    sget v1, Lcom/resouce/module/ResID;->listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -750,7 +750,7 @@
 
     move-result v0
 
-    const v1, 0x7f121217
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     if-eqz v0, :cond_0
 
@@ -777,7 +777,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f1227ce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_received:I
 
     return v0
 .end method

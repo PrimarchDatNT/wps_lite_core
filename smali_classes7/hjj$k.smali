@@ -128,7 +128,7 @@
 
     iget-object p1, p1, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const p2, 0x7f122b8c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_usertemplate_already_exists:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -177,7 +177,7 @@
 
     iget-object p1, p1, Lgjj;->I:Lcn/wps/moffice/writer/Writer;
 
-    const p2, 0x7f122392
+    sget p2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

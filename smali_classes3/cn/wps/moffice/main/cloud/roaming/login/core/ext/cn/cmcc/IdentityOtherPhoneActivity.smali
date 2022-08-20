@@ -106,7 +106,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0327
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_identity_other_phone_activity:I
 
     return v0
 .end method
@@ -199,7 +199,7 @@
     :cond_0
     invoke-super {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b3262
+    sget p1, Lcom/resouce/module/ResID;->tv_skip:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

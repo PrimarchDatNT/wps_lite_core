@@ -44,7 +44,7 @@
 
     invoke-direct {v0, p0}, Ljhg$a;-><init>(Ljhg;)V
 
-    const v1, 0x7f0b0c2a
+    sget v1, Lcom/resouce/module/ResID;->export_result_item:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0c08
+    sget v1, Lcom/resouce/module/ResID;->export_count_item:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 .method public final W2(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b144e
+    sget v0, Lcom/resouce/module/ResID;->iv_export_filter_result:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,24 +82,24 @@
 
     move-result v1
 
-    const v2, 0x7f0808a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
-    const v3, 0x7f0817cc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0808a3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0817cc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 3
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b144d
+    sget v0, Lcom/resouce/module/ResID;->iv_export_counter:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f0817cc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 6
     :goto_1
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e024e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_select_export_type_layout:I
 
     const/4 v2, 0x0
 
@@ -158,7 +158,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b0533
+    sget v3, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0707b8
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -222,7 +222,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b068e
+    sget v2, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -308,7 +308,7 @@
 
     move-result-object v4
 
-    const v0, 0x7f0b0c29
+    sget v0, Lcom/resouce/module/ResID;->export_result:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -319,7 +319,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v0, 0x7f0b1788
+    sget v0, Lcom/resouce/module/ResID;->long_tv_subtitle:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v0, 0x7f0b0c07
+    sget v0, Lcom/resouce/module/ResID;->export_count:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v0, 0x7f0b27af
+    sget v0, Lcom/resouce/module/ResID;->quick_statistics_count:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

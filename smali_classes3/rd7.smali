@@ -93,7 +93,7 @@
 .method public d3()I
     .locals 1
 
-    const v0, 0x7f122805
+    sget v0, Lcom/resouce/module/ResSTRING;->public_reset_pswd:I
 
     return v0
 .end method
@@ -101,7 +101,7 @@
 .method public e3()I
     .locals 1
 
-    const v0, 0x7f122018
+    sget v0, Lcom/resouce/module/ResSTRING;->public_done:I
 
     return v0
 .end method
@@ -122,7 +122,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1210da
+    sget v0, Lcom/resouce/module/ResSTRING;->home_phone_reset:I
 
     return v0
 .end method

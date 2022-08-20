@@ -19,7 +19,7 @@
     .line 2
     iput-object p1, p0, Lxh9;->b:Landroid/view/View;
 
-    const v0, 0x7f0b074e
+    sget v0, Lcom/resouce/module/ResID;->docinfo_progress_view:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

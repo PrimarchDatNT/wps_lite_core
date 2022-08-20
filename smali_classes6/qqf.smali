@@ -74,7 +74,7 @@
     .line 5
     iput p1, p0, Lqqf;->r0:F
 
-    const p1, 0x7f0e022a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_popup_horizon:I
 
     const/4 v1, 0x0
 
@@ -87,7 +87,7 @@
 
     iput-object p1, p0, Lqqf;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b015b
+    sget v0, Lcom/resouce/module/ResID;->arrow_right:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v0, p0, Lqqf;->n0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b015a
+    sget v0, Lcom/resouce/module/ResID;->arrow_left:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
     .line 9
     invoke-virtual {p0, p1}, Ljd3;->x(Landroid/view/View;)V
 
-    const v0, 0x7f0b30a1
+    sget v0, Lcom/resouce/module/ResID;->tracks:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,12 +146,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f081315
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_arrow_right:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080f8c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_pop_arrow_right:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -163,12 +163,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f081314
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_arrow_left:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080f8b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_pop_arrow_left:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -182,7 +182,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -450,12 +450,12 @@
     :goto_3
     if-eqz v4, :cond_8
 
-    const v0, 0x7f0b015b
+    sget v0, Lcom/resouce/module/ResID;->arrow_right:I
 
     goto :goto_4
 
     :cond_8
-    const v0, 0x7f0b015a
+    sget v0, Lcom/resouce/module/ResID;->arrow_left:I
 
     .line 24
     :goto_4
@@ -481,7 +481,7 @@
 .method public M(II)V
     .locals 3
 
-    const v0, 0x7f0b015a
+    sget v0, Lcom/resouce/module/ResID;->arrow_left:I
 
     if-ne p1, v0, :cond_0
 

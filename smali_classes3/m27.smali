@@ -3242,7 +3242,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -10588,7 +10588,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f1220f0
+    sget p4, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p3, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

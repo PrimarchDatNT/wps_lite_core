@@ -58,7 +58,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2d9f    # 1.8499957E38f
+    sget v2, Lcom/resouce/module/ResID;->start_page_text_content_url:I    # 1.8499957E38f
 
     const/4 v3, 0x0
 

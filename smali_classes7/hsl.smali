@@ -59,9 +59,9 @@
     .line 3
     new-instance v1, Lbff$c;
 
-    const v2, 0x7f0803df
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_share_text_card:I
 
-    const v3, 0x7f121daa
+    sget v3, Lcom/resouce/module/ResSTRING;->public_bookmark:I
 
     new-instance v4, Lhsl$a;
 
@@ -78,15 +78,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f080e8d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_long_pic_writer:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080490
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
     :goto_0
-    const v3, 0x7f1228e7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_long_pic:I
 
     new-instance v4, Lhsl$b;
 
@@ -104,15 +104,15 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f080daf
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_text:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0803de
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_share_text:I
 
     :goto_1
-    const v3, 0x7f1228e9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_text:I
 
     new-instance v4, Lhsl$c;
 

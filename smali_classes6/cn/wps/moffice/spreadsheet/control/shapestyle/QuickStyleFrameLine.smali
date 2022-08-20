@@ -125,7 +125,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0606e1
+    sget v0, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -138,7 +138,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -182,7 +182,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0606e1
+    sget p3, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -195,7 +195,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -239,7 +239,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -280,7 +280,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -321,7 +321,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -362,7 +362,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -523,13 +523,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f6f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_quickstyle_frame_line_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2d4b
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_style_root:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -538,7 +538,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b2d49
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_size_root:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2cfe
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_size_1pt:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2cff
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_size_2pt:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d00
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_size_3pt:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d01
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_size_4pt:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -591,7 +591,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d02
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_size_5pt:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -602,7 +602,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d45
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_no_frame:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -616,7 +616,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b2d46
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_real_line:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -630,7 +630,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b2d44
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_dot_line:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -644,7 +644,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b2d43
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_dashed_line:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -658,7 +658,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b2cfa
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_no_line:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -669,7 +669,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->h0:Lcn/wps/moffice/spreadsheet/control/common/UnderLineDrawable;
 
-    const v0, 0x7f0b2cfc
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_real_line:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->i0:Lcn/wps/moffice/spreadsheet/control/common/UnderLineDrawable;
 
-    const v0, 0x7f0b2cf8
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_dot_line:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -691,7 +691,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->j0:Lcn/wps/moffice/spreadsheet/control/common/UnderLineDrawable;
 
-    const v0, 0x7f0b2cf6
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_dashed_line:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -702,7 +702,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->k0:Lcn/wps/moffice/spreadsheet/control/common/UnderLineDrawable;
 
-    const v0, 0x7f0b2cfb
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_no_line_radio:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -713,7 +713,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->l0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b2cfd
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_real_line_radio:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -724,7 +724,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->m0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b2cf9
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_dot_line_radio:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -735,7 +735,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->n0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b2cf7
+    sget v0, Lcom/resouce/module/ResID;->ss_frame_dashed_line_radio:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1008,7 +1008,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070cab
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_framestyle_margin_left:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1019,7 +1019,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->q0:I
 
-    const v1, 0x7f070cb1
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_size_width:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1033,7 +1033,7 @@
     .line 4
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->s0:I
 
-    const v1, 0x7f070cb0
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_size_height:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1047,7 +1047,7 @@
     .line 6
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->u0:I
 
-    const v1, 0x7f070caa
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_framestyle_item_width:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1061,7 +1061,7 @@
     .line 8
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->w0:I
 
-    const v1, 0x7f070ca8
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_frame_framestyle_item_spacing_horizonl:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1149,7 +1149,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0705d3
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_frame_framestyle_margin_left:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1160,7 +1160,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->q0:I
 
-    const v1, 0x7f0705d5
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_frame_size_width:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1174,7 +1174,7 @@
     .line 20
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->s0:I
 
-    const v1, 0x7f0705d4
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_frame_size_height:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1188,7 +1188,7 @@
     .line 22
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->u0:I
 
-    const v1, 0x7f0705d2
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_frame_framestyle_item_width:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1202,7 +1202,7 @@
     .line 24
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrameLine;->w0:I
 
-    const v1, 0x7f0705d0
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_frame_framestyle_item_spacing_horizonl:I
 
     .line 25
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F

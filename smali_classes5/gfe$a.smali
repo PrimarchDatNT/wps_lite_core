@@ -113,7 +113,7 @@
     .line 4
     iget-object v0, p1, Lgfe$b;->k0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c90
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_category_more:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081c57
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_small_image_placeholder:I
 
     .line 6
     invoke-virtual {v0, v1}, Ljge;->e(I)Ljge;
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0fb2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_category_header_item:I
 
     const/4 v3, 0x0
 

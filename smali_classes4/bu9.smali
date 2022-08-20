@@ -214,7 +214,7 @@
     .line 21
     iget-object p2, p0, Lbu9;->S:Landroid/app/Activity;
 
-    const p3, 0x7f1221da
+    sget p3, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -500,7 +500,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12262a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_phone_app_recommended_to_you:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -529,7 +529,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dcf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_chart_category:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -558,7 +558,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12226e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_app_pdf_tools:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -587,7 +587,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122629
+    sget v1, Lcom/resouce/module/ResSTRING;->public_phone_app_pic_convert:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -616,7 +616,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1218b9
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1203,7 +1203,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_main_item_layout:I
 
     const/4 v2, 0x0
 

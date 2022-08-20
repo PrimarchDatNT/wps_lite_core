@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f081a18
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_longpic_thumb_image_placeholder:I
 
     .line 10
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;

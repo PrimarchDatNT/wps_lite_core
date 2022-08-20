@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lxbl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f121d57
+    sget v1, Lcom/resouce/module/ResSTRING;->public_audio_input:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -165,7 +165,7 @@
     .line 5
     iget-object v0, p0, Lxbl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f080240
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -185,7 +185,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0a14
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_speechkeyboard_v:I
 
     .line 8
     invoke-virtual {v0, v3, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -193,7 +193,7 @@
     .line 9
     iget-object v0, p0, Lxbl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f0b2c97
+    sget v1, Lcom/resouce/module/ResID;->speech_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -230,7 +230,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030034
+    sget v1, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_language_id:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -245,7 +245,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030035
+    sget v2, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_language_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -278,7 +278,7 @@
     :cond_0
     iget-object v0, p0, Lxbl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f0b0175
+    sget v1, Lcom/resouce/module/ResID;->audio_input_settings:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -298,7 +298,7 @@
     .line 18
     iget-object v0, p0, Lxbl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f0b20e6
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -616,7 +616,7 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v2, 0x7f121d5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio_input_language:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -630,7 +630,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a13
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_speechkeyboard_choose_language_view:I
 
     const/4 v3, 0x0
 
@@ -641,7 +641,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1515
+    sget v2, Lcom/resouce/module/ResID;->language_choose_rg:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -676,11 +676,11 @@
 
     invoke-direct {v1, p0, v2}, Lxbl$i;-><init>(Lxbl;Landroid/widget/RadioGroup;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     invoke-virtual {v0, v1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -708,7 +708,7 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p1, 0x7f121d59
+    sget p1, Lcom/resouce/module/ResSTRING;->public_audio_input_grant_record_permission:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -718,11 +718,11 @@
 
     invoke-direct {p1, p0, p2}, Lxbl$b;-><init>(Lxbl;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122617
+    sget p2, Lcom/resouce/module/ResSTRING;->public_permission_allow:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 

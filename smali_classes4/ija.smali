@@ -424,7 +424,7 @@
 
     check-cast v2, Landroid/view/View;
 
-    const v3, 0x7f0b2b23
+    sget v3, Lcom/resouce/module/ResID;->separator_item_category_msg_push_settings_view:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -781,7 +781,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0403
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_channel_msg_push_settings:I
 
     const/4 v2, 0x0
 
@@ -791,7 +791,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0386
+    sget v1, Lcom/resouce/module/ResID;->channel_name_item_channel_msg_push_settings_textView:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -808,7 +808,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0b2b24
+    sget v1, Lcom/resouce/module/ResID;->separator_item_channel_msg_push_settings_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1544,7 +1544,7 @@
 .method public final c3(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1720
+    sget v0, Lcom/resouce/module/ResID;->loading_activity_msg_push_settings_progressBar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1553,7 +1553,7 @@
 
     iput-object v0, p0, Lija;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1620
+    sget v0, Lcom/resouce/module/ResID;->list_activity_msg_push_settings_ScrollView:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1564,7 +1564,7 @@
 
     iput-object v0, p0, Lija;->V:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b161f
+    sget v0, Lcom/resouce/module/ResID;->list_activity_msg_push_settings_LinearLayout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1588,7 +1588,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0402
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_category_msg_push_settings:I
 
     const/4 v2, 0x0
 
@@ -1596,7 +1596,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0547
+    sget v1, Lcom/resouce/module/ResID;->content_item_category_msg_push_settings_textView:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1605,7 +1605,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2dff
+    sget v2, Lcom/resouce/module/ResID;->switch_item_category_msg_push_settings_KSwitchCompat:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1833,7 +1833,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0044
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_msg_push_settings:I
 
     const/4 v2, 0x0
 
@@ -1855,7 +1855,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12006a
+    sget v0, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_title:I
 
     return v0
 .end method

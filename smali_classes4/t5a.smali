@@ -89,7 +89,7 @@
 
     aput-object p2, v1, v2
 
-    const p2, 0x7f121c32
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_running:I
 
     .line 4
     invoke-virtual {v0, p2, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -110,7 +110,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121c04
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_click_and_back:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 .method public o(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lt5a$a;
     .locals 2
 
-    const v0, 0x7f0e0cf2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_meeting_item_layout:I
 
     const/4 v1, 0x0
 

@@ -88,15 +88,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f081431
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_hideheader:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e29
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_hide_first_line_et:I
 
     :goto_0
-    const v2, 0x7f1219a6
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_hide_header:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Hider$6;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
@@ -105,16 +105,16 @@
     .line 9
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Hider$7;
 
-    const v1, 0x7f122a5b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_row:I
 
-    const v2, 0x7f080e2a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_hide_grid:I
 
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/Hider$7;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
     .line 10
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Hider$10;
 
-    const v1, 0x7f122a4d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_column:I
 
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/Hider$10;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
@@ -125,15 +125,15 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f081430
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_hide_grid:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080e2a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_hide_grid:I
 
     :goto_1
-    const v3, 0x7f1219a5
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_hide_grid:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/Hider$11;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
@@ -144,19 +144,19 @@
 
     sget-boolean v1, Ljif;->o:Z
 
-    const v3, 0x7f081432
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_hidesheets_icon:I
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f081432
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_hidesheets_icon:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080de0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_all_sheets_et:I
 
     :goto_2
-    const v4, 0x7f122feb
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_toolbar_sheets_unhided:I
 
     invoke-direct {v0, p0, v1, v4}, Lcn/wps/moffice/spreadsheet/control/Hider$12;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
@@ -165,7 +165,7 @@
     .line 13
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Hider$13;
 
-    const v1, 0x7f122fe9
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_show_hidden_sheet:I
 
     invoke-direct {v0, p0, v3, v1}, Lcn/wps/moffice/spreadsheet/control/Hider$13;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 
@@ -207,11 +207,11 @@
     .line 19
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/Hider$2;
 
-    const v6, 0x7f122251
+    sget v6, Lcom/resouce/module/ResSTRING;->public_hide:I
 
-    const v7, 0x7f080459
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_table_hide:I
 
-    const v8, 0x7f122251
+    sget v8, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     move-object v3, p1
 
@@ -290,7 +290,7 @@
     :cond_3
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/Hider$3;
 
-    const p2, 0x7f122251
+    sget p2, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     invoke-direct {p1, p0, v2, p2}, Lcn/wps/moffice/spreadsheet/control/Hider$3;-><init>(Lcn/wps/moffice/spreadsheet/control/Hider;II)V
 

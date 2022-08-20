@@ -118,7 +118,7 @@
 .method public static f(Landroid/content/Context;)Z
     .locals 2
 
-    const v0, 0x7f04063a
+    sget v0, Lcom/resouce/module/ResATTR;->textAppearanceLineHeightEnabled:I
 
     const/4 v1, 0x1
 

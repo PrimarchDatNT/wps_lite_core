@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227df
+    sget v2, Lcom/resouce/module/ResSTRING;->public_record_audio_permission_message:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -102,7 +102,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

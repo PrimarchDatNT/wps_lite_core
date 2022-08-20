@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3029
+    sget v1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b16b5
+    sget v1, Lcom/resouce/module/ResID;->ll_open:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

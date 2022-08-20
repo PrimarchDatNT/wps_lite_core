@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/writer_pagesetting" android:background="@drawable/color_panel_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.writer.beans.DialogTitleBar android:id="@id/writer_pagesetting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
-    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:use_default_color_bg="false">
-        <cn.wps.moffice.common.beans.MyScrollView android:id="@id/page_setting_scrollview" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" />
-    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
-</LinearLayout>

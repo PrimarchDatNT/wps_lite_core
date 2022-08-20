@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1229bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     const/4 v2, 0x1
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1229d5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_net_restore:I
 
     const/4 v2, 0x1
 

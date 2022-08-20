@@ -57,7 +57,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b29eb
+    sget v1, Lcom/resouce/module/ResID;->save_sheet:I
 
     const/4 v2, 0x0
 
@@ -78,7 +78,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29de
+    sget v0, Lcom/resouce/module/ResID;->save_book:I
 
     if-ne p1, v0, :cond_2
 

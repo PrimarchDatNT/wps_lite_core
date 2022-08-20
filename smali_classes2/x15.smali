@@ -14,7 +14,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b08b2
+    sget v0, Lcom/resouce/module/ResID;->err_page:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -25,7 +25,7 @@
 
     iput-object v0, p0, Lx15;->a:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b1718
+    sget v0, Lcom/resouce/module/ResID;->load_err_tips:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b1717
+    sget v0, Lcom/resouce/module/ResID;->load_err_extra_tips:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

@@ -59,7 +59,7 @@
     .line 6
     iput-object p3, p0, Lrrf;->m0:Landroid/view/View;
 
-    const p1, 0x7f0b0654
+    sget p1, Lcom/resouce/module/ResID;->delete_rule:I
 
     .line 7
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b180f
+    sget p1, Lcom/resouce/module/ResID;->manage_rule_icon_txt:I
 
     .line 8
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object p1, p0, Lrrf;->l0:Lcn/wps/moffice/spreadsheet/control/conditionformat/ConditionStyleBtnTextView;
 
-    const p1, 0x7f0b180e
+    sget p1, Lcom/resouce/module/ResID;->manage_rule_description:I
 
     .line 9
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object p1, p0, Lrrf;->n0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b180c
+    sget p1, Lcom/resouce/module/ResID;->manage_range_description:I
 
     .line 10
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object p1, p0, Lrrf;->o0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b29c0
+    sget p1, Lcom/resouce/module/ResID;->rule_edit_btn:I
 
     .line 11
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     invoke-virtual {p1, p4}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    const p1, 0x7f0b2df4
+    sget p1, Lcom/resouce/module/ResID;->swap_rule_btn:I
 
     .line 14
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -642,7 +642,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207fa
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_above_avg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -672,7 +672,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207fb
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_below_avg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -754,7 +754,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207e5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_large_than:I
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -807,7 +807,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207e7
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_less_than:I
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -877,7 +877,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1207e1
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_between_in:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -942,7 +942,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207e3
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_equal_with:I
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -1012,7 +1012,7 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f1207e9
+    sget v4, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_contain_txt:I
 
     if-eqz v1, :cond_1
 
@@ -1161,7 +1161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f1
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_next_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1186,7 +1186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f3
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_this_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1211,7 +1211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207ef
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1236,7 +1236,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f2
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_next_week:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1261,7 +1261,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f4
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_this_week:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1286,7 +1286,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f0
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_week:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1311,7 +1311,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207ee
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_7:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1336,7 +1336,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f6
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_tommorw:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1361,7 +1361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_today:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1386,7 +1386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207f7
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_yesterday:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1458,7 +1458,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207fd
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_last_10_percent:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1483,7 +1483,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207ff
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_pre_10_percent:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1515,7 +1515,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207fc
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_last_10:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1540,7 +1540,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207fe
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_pre_10:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1576,7 +1576,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207eb
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_unique:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1601,7 +1601,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1207ea
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_duplicate:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1630,7 +1630,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1207d5
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_not_support_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

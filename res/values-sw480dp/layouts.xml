@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="layout" name="wps_drive_path_gallery_for_saveas">@layout/pad_home_path_gallery_for_saveas</item>
-</resources>

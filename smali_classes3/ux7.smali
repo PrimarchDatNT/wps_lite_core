@@ -75,13 +75,13 @@
     .line 4
     iget-object v1, p0, Lux7;->f0:Ljava/util/LinkedHashMap;
 
-    const v2, 0x7f120f4d
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_use_account_policy:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    const v3, 0x7f120092
+    sget v3, Lcom/resouce/module/ResSTRING;->agreement_account_statement:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -92,13 +92,13 @@
     .line 5
     iget-object v1, p0, Lux7;->f0:Ljava/util/LinkedHashMap;
 
-    const v2, 0x7f120f4a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_privacy_policy:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    const v3, 0x7f120094
+    sget v3, Lcom/resouce/module/ResSTRING;->agreement_privacy_policy:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -109,13 +109,13 @@
     .line 6
     iget-object v1, p0, Lux7;->f0:Ljava/util/LinkedHashMap;
 
-    const v2, 0x7f120f42
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_online_server_policy:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    const v3, 0x7f120093
+    sget v3, Lcom/resouce/module/ResSTRING;->agreement_online_service:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
     .line 7
     iget-object v0, p0, Lux7;->f0:Ljava/util/LinkedHashMap;
 
-    const v1, 0x7f120f39
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_china_mobile_policy:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -273,7 +273,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fd4
+    sget v1, Lcom/resouce/module/ResID;->titleView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -298,7 +298,7 @@
     .line 3
     iget-object v0, p0, Lux7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f120f43
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_other_account_login:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -316,7 +316,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a31
+    sget v1, Lcom/resouce/module/ResID;->scrollParent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -333,7 +333,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fd4
+    sget v1, Lcom/resouce/module/ResID;->titleView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -398,7 +398,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120f3a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_has_read_andr_agree:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -417,7 +417,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -536,7 +536,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e033a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_login_china_mobile_login_activity:I
 
     const/4 v2, 0x0
 
@@ -547,7 +547,7 @@
 
     iput-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0540
+    sget v1, Lcom/resouce/module/ResID;->contentView:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
     :cond_0
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b17fc
+    sget v1, Lcom/resouce/module/ResID;->main_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -579,7 +579,7 @@
     .line 7
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -590,7 +590,7 @@
     .line 8
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b30f4
+    sget v1, Lcom/resouce/module/ResID;->tvPhoneNumber:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -608,7 +608,7 @@
     .line 10
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b30f6
+    sget v1, Lcom/resouce/module/ResID;->tvPolicy:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -621,7 +621,7 @@
     .line 11
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0373
+    sget v1, Lcom/resouce/module/ResID;->cbAgree:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -641,7 +641,7 @@
     .line 13
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02ac
+    sget v1, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,7 +652,7 @@
     .line 14
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02af
+    sget v1, Lcom/resouce/module/ResID;->btnOtherPhoneLogin:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -677,7 +677,7 @@
     .line 17
     iget-object v0, p0, Lux7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     if-ne p1, v0, :cond_1
 
@@ -760,7 +760,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b02af
+    sget v0, Lcom/resouce/module/ResID;->btnOtherPhoneLogin:I
 
     if-ne p1, v0, :cond_3
 
@@ -791,7 +791,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_4
 

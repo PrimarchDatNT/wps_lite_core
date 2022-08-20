@@ -68,12 +68,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f122b41
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unlock_features:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f122b5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade_pdf_toolkit:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

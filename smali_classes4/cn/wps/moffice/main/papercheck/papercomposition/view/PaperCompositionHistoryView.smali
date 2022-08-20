@@ -81,13 +81,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_history_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b19e0
+    sget v1, Lcom/resouce/module/ResID;->network_error_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView;->I:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b0860
+    sget v1, Lcom/resouce/module/ResID;->empty_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0fdc
+    sget v1, Lcom/resouce/module/ResID;->history_list:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView;->T:Lcn/wps/moffice/main/common/viewcontrols/LoadMoreListView;
 
-    const v2, 0x7f0e0daa
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_result_tips_layout:I
 
     const/4 v3, 0x0
 
@@ -206,7 +206,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f1200d4
+    sget v0, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_no_result:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 

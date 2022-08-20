@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f40
+    sget v1, Lcom/resouce/module/ResLAYOUT;->share_folder_upload_guide:I
 
     const/4 v2, 0x0
 
@@ -210,7 +210,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b02dc
+    sget p1, Lcom/resouce/module/ResID;->btn_invite:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b32b2
+    sget p1, Lcom/resouce/module/ResID;->tv_withhold:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e02f0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->home_common_bottom_tips_dialog:I
 
     const/4 v0, 0x0
 
@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b031a
+    sget p2, Lcom/resouce/module/ResID;->button:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -54,7 +54,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,12 +63,12 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f12119e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_transfer_sending:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
@@ -91,7 +91,7 @@
 
     iput-object p2, p0, Lug9;->B:Landroid/widget/PopupWindow;
 
-    const v0, 0x7f1307bf
+    sget v0, Lcom/resouce/module/ResSTYLE;->v10_popup_tips_animation:I
 
     .line 11
     invoke-virtual {p2, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V

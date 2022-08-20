@@ -457,7 +457,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f122650
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_savefail:I
 
     const/4 v0, 0x1
 
@@ -538,7 +538,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f12074e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     const/4 v0, 0x1
 
@@ -1245,21 +1245,21 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1208a8
+    sget v1, Lcom/resouce/module/ResSTRING;->et_floating_pic_to_cell_pic:I
 
     .line 31
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f1208a9
+    sget v1, Lcom/resouce/module/ResSTRING;->et_floating_pic_to_cell_pic_dialog_msg:I
 
     .line 32
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$l;
 
@@ -1270,7 +1270,7 @@
 
     move-result-object v0
 
-    const v9, 0x7f121f40
+    sget v9, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v10, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$k;
 
@@ -1361,9 +1361,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$19;
 
-    const v1, 0x7f080271
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_openfile:I
 
-    const v2, 0x7f12259b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_file:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$19;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1372,9 +1372,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$20;
 
-    const v1, 0x7f08033a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pic_editing:I
 
-    const v2, 0x7f121802
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_edit:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$20;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1383,9 +1383,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$21;
 
-    const v1, 0x7f0802af
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_left:I
 
-    const v2, 0x7f122fde
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_pic_roate_left:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$21;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1394,9 +1394,9 @@
     .line 4
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$22;
 
-    const v1, 0x7f0802b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
-    const v2, 0x7f122fdf
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_pic_roate_right:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$22;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1405,9 +1405,9 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$23;
 
-    const v1, 0x7f0803ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_share_album:I
 
-    const v2, 0x7f122834
+    sget v2, Lcom/resouce/module/ResSTRING;->public_savepic:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$23;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1416,9 +1416,9 @@
     .line 6
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$24;
 
-    const v1, 0x7f080221
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr$24;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;II)V
 
@@ -1446,7 +1446,7 @@
     .line 2
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;->X:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v3, 0x7f0b2d04
+    sget v3, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1956,7 +1956,7 @@
     .line 1
     iget-object v2, v0, Lcn/wps/moffice/spreadsheet/control/insert/pic/InsertPicMgr;->X:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v3, 0x7f0b2d04
+    sget v3, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

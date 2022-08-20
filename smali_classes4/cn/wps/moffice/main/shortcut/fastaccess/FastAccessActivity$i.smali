@@ -117,9 +117,9 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0806c6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->fast_access_folder_unpressed:I
 
-    const v4, 0x7f122514
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-direct {v1, v2, v3, v4}, Lmbb;-><init>(III)V
 
@@ -137,9 +137,9 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f08199c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon_scan:I
 
-    const v4, 0x7f12276d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     invoke-direct {v1, v2, v3, v4}, Lmbb;-><init>(III)V
 
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08198f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_calculator:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

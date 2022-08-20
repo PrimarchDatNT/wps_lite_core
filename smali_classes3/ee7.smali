@@ -181,7 +181,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f121244
+    sget p0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_del_quit:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -198,17 +198,17 @@
 
     invoke-virtual {v0, p1}, Lqe3;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const p1, 0x7f121246
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_del_share_folder_v1:I
 
     .line 5
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

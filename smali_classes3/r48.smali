@@ -46,7 +46,7 @@
 
     if-nez p7, :cond_1
 
-    const p2, 0x7f122536
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network_toast:I
 
     .line 3
     invoke-static {p1, p2, p6}, Lbih;->n(Landroid/content/Context;II)V
@@ -102,7 +102,7 @@
     :catch_0
     move-exception p2
 
-    const p4, 0x7f1205f0
+    sget p4, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     .line 8
     invoke-static {p1, p4, p6}, Lbih;->n(Landroid/content/Context;II)V

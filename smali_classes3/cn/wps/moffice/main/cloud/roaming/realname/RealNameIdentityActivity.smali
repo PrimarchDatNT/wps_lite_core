@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212be
+    sget v1, Lcom/resouce/module/ResSTRING;->identify_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120205
+    sget v1, Lcom/resouce/module/ResSTRING;->bestsign_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -178,7 +178,7 @@
     .line 10
     sget-object p1, Lvma;->b:Ljava/lang/String;
 
-    const v1, 0x7f1227c7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_realname_identity:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

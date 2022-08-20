@@ -18,7 +18,7 @@
 .method public b(Lgj2;Lul8$b;)V
     .locals 0
 
-    const p1, 0x7f081c92
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_template_icon:I
 
     .line 1
     iput p1, p2, Lul8$b;->f:I

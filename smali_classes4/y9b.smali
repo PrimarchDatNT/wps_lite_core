@@ -108,7 +108,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -183,7 +183,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06005d
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -266,7 +266,7 @@
     .line 2
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1679
+    sget v1, Lcom/resouce/module/ResID;->ll_group_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
     .line 3
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16d6
+    sget v1, Lcom/resouce/module/ResID;->ll_rv_distinguish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
     .line 4
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b29c6
+    sget v1, Lcom/resouce/module/ResID;->rv_distinguish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -320,7 +320,7 @@
     .line 8
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16c9
+    sget v1, Lcom/resouce/module/ResID;->ll_proofread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
     .line 10
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14a9
+    sget v1, Lcom/resouce/module/ResID;->iv_proofread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 11
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3229
+    sget v1, Lcom/resouce/module/ResID;->tv_proofread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -388,7 +388,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b16c9
+    sget v1, Lcom/resouce/module/ResID;->ll_proofread:I
 
     if-ne p1, v1, :cond_1
 
@@ -419,7 +419,7 @@
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0b16e1
+    sget p1, Lcom/resouce/module/ResID;->ll_share:I
 
     if-ne v0, p1, :cond_2
 
@@ -431,7 +431,7 @@
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0b16ff
+    sget p1, Lcom/resouce/module/ResID;->ll_translation:I
 
     if-ne v0, p1, :cond_3
 
@@ -443,7 +443,7 @@
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f0b165a
+    sget p1, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne v0, p1, :cond_4
 
@@ -583,7 +583,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06005d
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -608,7 +608,7 @@
 .method public y3(Landroid/view/LayoutInflater;)V
     .locals 2
 
-    const v0, 0x7f0e0026
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_distinguish_proofread_result:I
 
     const/4 v1, 0x0
 

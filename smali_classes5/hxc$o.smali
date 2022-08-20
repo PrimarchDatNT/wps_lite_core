@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1f47
+    sget p2, Lcom/resouce/module/ResID;->pdf_titlebar_padding_top:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

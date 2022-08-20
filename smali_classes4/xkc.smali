@@ -35,12 +35,12 @@
 
     if-lt v0, v1, :cond_0
 
-    const v0, 0x7f130126
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog_MinWidth:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -83,7 +83,7 @@
 .method public final init()V
     .locals 4
 
-    const v0, 0x7f0b0680
+    sget v0, Lcom/resouce/module/ResID;->dialog_background:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
     .line 5
     iput-boolean v0, p0, Lxkc;->T:Z
 
-    const v1, 0x7f12173e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_finish_dialog_title:I
 
     .line 6
     invoke-virtual {p0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -123,7 +123,7 @@
     .line 7
     iget-object v1, p0, Lxkc;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12241c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loc_at_my_doc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -132,7 +132,7 @@
     .line 8
     iget-boolean v2, p0, Lxkc;->S:Z
 
-    const v3, 0x7f122599
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open_document:I
 
     if-eqz v2, :cond_1
 
@@ -155,7 +155,7 @@
 
     invoke-virtual {p0, v3, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f122ec8
+    sget v0, Lcom/resouce/module/ResSTRING;->send_to_desktop:I
 
     .line 12
     iget-object v1, p0, Lxkc;->B:Landroid/app/Activity;
@@ -165,7 +165,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -184,7 +184,7 @@
     :cond_1
     invoke-virtual {p0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f1223d4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_later:I
 
     const/4 v1, 0x0
 

@@ -21,21 +21,21 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f121c93
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f12252d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_ads_subscribed:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->Z:Landroid/widget/ImageView;
 
-    const v1, 0x7f081529
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->premium_need_upgrade_ad_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -56,7 +56,7 @@
 
     const-string v2, "page_upgrade"
 
-    const v3, 0x7f0b052f
+    sget v3, Lcom/resouce/module/ResID;->contact_iv:I
 
     if-ne p1, v3, :cond_0
 
@@ -71,7 +71,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b3308
+    sget v3, Lcom/resouce/module/ResID;->upgrade_iv:I
 
     if-ne p1, v3, :cond_1
 

@@ -37,7 +37,7 @@
 
     move-result p3
 
-    const v0, 0x7f0b14a3
+    sget v0, Lcom/resouce/module/ResID;->iv_online_signal:I
 
     if-ne p3, v0, :cond_0
 

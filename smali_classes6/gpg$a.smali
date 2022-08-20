@@ -59,7 +59,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122fd7
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_longpic_click_title_tips:I
 
     .line 2
     invoke-static {v0, p1}, Lsjf;->h(II)V

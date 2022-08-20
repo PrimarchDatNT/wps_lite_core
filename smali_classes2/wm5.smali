@@ -297,7 +297,7 @@
     :cond_1
     iget-object p1, p0, Lwm5;->c:Landroid/content/Context;
 
-    const p2, 0x7f121465
+    sget p2, Lcom/resouce/module/ResSTRING;->network_error_check_retry_tip:I
 
     const/4 v0, 0x0
 
@@ -392,7 +392,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f12050f
+    sget v6, Lcom/resouce/module/ResSTRING;->docer_mb_download_url_api:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

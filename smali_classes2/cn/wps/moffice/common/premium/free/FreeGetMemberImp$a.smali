@@ -63,7 +63,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1212fb
+    sget v0, Lcom/resouce/module/ResSTRING;->joined_activity_tip:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

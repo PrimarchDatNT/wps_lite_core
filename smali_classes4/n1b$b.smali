@@ -89,7 +89,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v0, 0x7f0b1f98
+    sget v0, Lcom/resouce/module/ResID;->phone_add_layout:I
 
     if-ne p1, v0, :cond_4
 
@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0566
+    sget v0, Lcom/resouce/module/ResID;->convert_distinguish_layout:I
 
     if-ne p1, v0, :cond_5
 
@@ -164,7 +164,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b064c
+    sget v0, Lcom/resouce/module/ResID;->delete_layout_cancel:I
 
     if-ne p1, v0, :cond_6
 
@@ -187,7 +187,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b064d
+    sget v0, Lcom/resouce/module/ResID;->delete_layout_del:I
 
     if-ne p1, v0, :cond_7
 

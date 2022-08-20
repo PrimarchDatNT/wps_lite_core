@@ -43,14 +43,14 @@
 
     sput-object v0, Lkz2;->v0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b3492
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_title_shadow:I
 
     const/4 v2, 0x2
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0db1
+    sget v1, Lcom/resouce/module/ResID;->fl_container:I
 
     const/4 v2, 0x3
 

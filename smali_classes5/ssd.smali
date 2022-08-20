@@ -83,9 +83,9 @@
     .line 3
     new-instance v0, Lssd$a;
 
-    const v1, 0x7f080d71
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_multi_picture_carousel:I
 
-    const v2, 0x7f121b9b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pic_anim:I
 
     invoke-direct {v0, p0, v1, v2}, Lssd$a;-><init>(Lssd;II)V
 
@@ -105,7 +105,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a97
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_pad_pic_anim_popwin:I
 
     const/4 p3, 0x0
 
@@ -115,7 +115,7 @@
 
     iput-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2366
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_list_root:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 9
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2368
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_net_error:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 10
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2367
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_loading_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 11
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2364
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_hint:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
     .line 12
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b228d
+    sget p2, Lcom/resouce/module/ResID;->ppt_anim2anim_rv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a95
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_pad_pic_anim_gif_popwin:I
 
     invoke-virtual {p1, p2, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 23
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2365
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_horizontal:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
     .line 24
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2369
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_stacked:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -289,7 +289,7 @@
     .line 25
     iget-object p1, p0, Lssd;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b236a
+    sget p2, Lcom/resouce/module/ResID;->ppt_pic2anim_vertical:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1285,7 +1285,7 @@
     .line 13
     iget-object p1, p0, Lssd;->e0:Landroid/content/Context;
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 p3, 0x0
 
@@ -1399,7 +1399,7 @@
     .line 14
     iget-object p2, p0, Lssd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2337
+    sget v1, Lcom/resouce/module/ResID;->ppt_pad_pic2anim_gif_image:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1422,7 +1422,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f080ee1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_ppt_text2dirgram_holder_image:I
 
     invoke-virtual {p3, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -1452,7 +1452,7 @@
 
     invoke-virtual {p2, v0, p3, v1}, Lfpd;->a0(ZLandroid/view/View;I)V
 
-    const p2, 0x7f080ede
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_ppt_image_item_longclick_selectd_bg:I
 
     .line 18
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundResource(I)V

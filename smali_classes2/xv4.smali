@@ -105,7 +105,7 @@
     :cond_0
     iget-object p1, p0, Lxv4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1212ad
+    sget p2, Lcom/resouce/module/ResSTRING;->hw_pdf_print_convert_error:I
 
     const/4 v0, 0x0
 

@@ -99,7 +99,7 @@
     .line 2
     iget-object p3, p0, Lyx7;->S:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0390
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_roaming_choose_account_item:I
 
     const/4 v1, 0x0
 
@@ -107,7 +107,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b1128
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_choose_account_avatar:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object v0, p2, Lyx7$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b112a
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_choose_nickname:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object v0, p2, Lyx7$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1127
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_choose_account:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

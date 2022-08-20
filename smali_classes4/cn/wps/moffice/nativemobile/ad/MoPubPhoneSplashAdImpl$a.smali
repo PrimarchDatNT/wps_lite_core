@@ -66,12 +66,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e092a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_server_style_page_new:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0928
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_mopub_style_page_new:I
 
     :goto_0
     return v0
@@ -84,12 +84,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e0929
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_server_style_page:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0e0927
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_mopub_style_page:I
 
     :goto_1
     return v0

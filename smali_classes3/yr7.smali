@@ -149,7 +149,7 @@
     .line 1
     iput-object v0, p0, Lyr7;->V:Landroid/widget/ArrayAdapter;
 
-    const v0, 0x7f0e06de
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_address_item:I
 
     packed-switch p1, :pswitch_data_0
 
@@ -192,7 +192,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03008f
+    sget v1, Lcom/resouce/module/ResARRAY;->xizang_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -213,7 +213,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03008e
+    sget v1, Lcom/resouce/module/ResARRAY;->xinjiang_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -234,7 +234,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03006e
+    sget v1, Lcom/resouce/module/ResARRAY;->ningxia_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -255,7 +255,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030026
+    sget v1, Lcom/resouce/module/ResARRAY;->guangxi_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -276,7 +276,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03006a
+    sget v1, Lcom/resouce/module/ResARRAY;->neimenggu_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -297,7 +297,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030085
+    sget v1, Lcom/resouce/module/ResARRAY;->taiwan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -318,7 +318,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03007d
+    sget v1, Lcom/resouce/module/ResARRAY;->qinghai_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -339,7 +339,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030024
+    sget v1, Lcom/resouce/module/ResARRAY;->gansu_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -360,7 +360,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030080
+    sget v1, Lcom/resouce/module/ResARRAY;->shangxi_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -381,7 +381,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030090
+    sget v1, Lcom/resouce/module/ResARRAY;->yunnan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -402,7 +402,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030027
+    sget v1, Lcom/resouce/module/ResARRAY;->guizhou_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -423,7 +423,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030082
+    sget v1, Lcom/resouce/module/ResARRAY;->sichuan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -444,7 +444,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030028
+    sget v1, Lcom/resouce/module/ResARRAY;->hainan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -465,7 +465,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030025
+    sget v1, Lcom/resouce/module/ResARRAY;->guangdong_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -486,7 +486,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03002f
+    sget v1, Lcom/resouce/module/ResARRAY;->hunan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -507,7 +507,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03002e
+    sget v1, Lcom/resouce/module/ResARRAY;->hubei_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -528,7 +528,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03002b
+    sget v1, Lcom/resouce/module/ResARRAY;->henan_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -549,7 +549,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03007f
+    sget v1, Lcom/resouce/module/ResARRAY;->shandong_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -570,7 +570,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030066
+    sget v1, Lcom/resouce/module/ResARRAY;->jiangxi_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -591,7 +591,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030021
+    sget v1, Lcom/resouce/module/ResARRAY;->fujian_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -633,7 +633,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030091
+    sget v1, Lcom/resouce/module/ResARRAY;->zhejiang_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -654,7 +654,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030065
+    sget v1, Lcom/resouce/module/ResARRAY;->jiangsu_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -675,7 +675,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f03002a
+    sget v1, Lcom/resouce/module/ResARRAY;->heilongjiang_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -696,7 +696,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030067
+    sget v1, Lcom/resouce/module/ResARRAY;->jiling_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -717,7 +717,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030068
+    sget v1, Lcom/resouce/module/ResARRAY;->liaoning_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -738,7 +738,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030081
+    sget v1, Lcom/resouce/module/ResARRAY;->shanxi_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -759,7 +759,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f030029
+    sget v1, Lcom/resouce/module/ResARRAY;->hebei_city:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -823,9 +823,9 @@
 
     move-result-object v0
 
-    const v1, 0x7f030001
+    sget v1, Lcom/resouce/module/ResARRAY;->china_province:I
 
-    const v2, 0x7f0e06de
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_address_item:I
 
     invoke-static {v0, v1, v2}, Landroid/widget/ArrayAdapter;->createFromResource(Landroid/content/Context;II)Landroid/widget/ArrayAdapter;
 
@@ -918,7 +918,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_address_listview:I
 
     const/4 v2, 0x0
 
@@ -928,7 +928,7 @@
 
     iput-object v0, p0, Lyr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2634
+    sget v1, Lcom/resouce/module/ResID;->public_home_address_listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -942,7 +942,7 @@
     .line 4
     iget-object v0, p0, Lyr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2632
+    sget v1, Lcom/resouce/module/ResID;->public_home_address_city_listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -959,7 +959,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010093
+    sget v1, Lcom/resouce/module/ResANIM;->push_left_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -974,7 +974,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010095
+    sget v1, Lcom/resouce/module/ResANIM;->push_right_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -995,7 +995,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e18
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_address_title:I
 
     return v0
 .end method

@@ -32,7 +32,7 @@
 .method public B2()I
     .locals 1
 
-    const v0, 0x7f12157d
+    sget v0, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     return v0
 .end method
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0036
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_end:I
 
     const/4 v2, 0x0
 
@@ -74,7 +74,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/offlinetransfer/EndActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3383
+    sget v1, Lcom/resouce/module/ResID;->view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/EndActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a61
+    sget v1, Lcom/resouce/module/ResID;->not_now:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -195,7 +195,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/offlinetransfer/EndActivity;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f12157d
+    sget v0, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

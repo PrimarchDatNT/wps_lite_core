@@ -36,9 +36,9 @@
     .line 2
     new-instance v0, Lm9e$b;
 
-    const v1, 0x7f080b8d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_left_ppt:I
 
-    const v2, 0x7f121be8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_align:I
 
     invoke-direct {v0, p0, v1, v2}, Lm9e$b;-><init>(Lm9e;II)V
 
@@ -47,7 +47,7 @@
     .line 3
     new-instance v0, Lm9e$c;
 
-    const v2, 0x7f121d1a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_align_left:I
 
     const/4 v3, 0x1
 
@@ -58,9 +58,9 @@
     .line 4
     new-instance v0, Lm9e$d;
 
-    const v1, 0x7f080b82
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_center_ppt:I
 
-    const v2, 0x7f121bea
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_align_center_horizontal:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lm9e$d;-><init>(Lm9e;IIZ)V
 
@@ -69,9 +69,9 @@
     .line 5
     new-instance v0, Lm9e$e;
 
-    const v1, 0x7f080b94
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_right_ppt:I
 
-    const v2, 0x7f121d1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_align_right:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lm9e$e;-><init>(Lm9e;IIZ)V
 
@@ -80,9 +80,9 @@
     .line 6
     new-instance v0, Lm9e$f;
 
-    const v1, 0x7f080ba2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_top_ppt:I
 
-    const v2, 0x7f121bee
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_align_top:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lm9e$f;-><init>(Lm9e;IIZ)V
 
@@ -91,9 +91,9 @@
     .line 7
     new-instance v0, Lm9e$g;
 
-    const v1, 0x7f080b84
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_center_vertically_ppt:I
 
-    const v2, 0x7f121beb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_align_center_vertical:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lm9e$g;-><init>(Lm9e;IIZ)V
 
@@ -102,9 +102,9 @@
     .line 8
     new-instance v0, Lm9e$h;
 
-    const v1, 0x7f080b80
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_align_bottom_ppt:I
 
-    const v2, 0x7f121be9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shape_align_bottom:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lm9e$h;-><init>(Lm9e;IIZ)V
 

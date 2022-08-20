@@ -51,7 +51,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -343,7 +343,7 @@
     goto :goto_0
 
     :cond_1
-    const p4, 0x7f122836
+    sget p4, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     .line 4
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -353,7 +353,7 @@
     goto :goto_0
 
     :cond_2
-    const p4, 0x7f122419
+    sget p4, Lcom/resouce/module/ResSTRING;->public_loading:I
 
     .line 5
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

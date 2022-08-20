@@ -186,7 +186,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1da0
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen:I
 
     if-ne p1, v0, :cond_1
 
@@ -221,7 +221,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const v0, 0x7f0b1d9e
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highlight_pen:I
 
     if-ne p1, v0, :cond_2
 
@@ -239,7 +239,7 @@
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f0b1d9b
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh:I
 
     if-ne p1, v0, :cond_3
 
@@ -257,7 +257,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f0b1d9c
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_area:I
 
     if-ne p1, v0, :cond_4
 
@@ -275,7 +275,7 @@
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f0b1db5
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_underline:I
 
     if-ne p1, v0, :cond_6
 
@@ -310,7 +310,7 @@
     goto :goto_2
 
     :cond_6
-    const v0, 0x7f0b1d98
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_del_line:I
 
     if-ne p1, v0, :cond_7
 
@@ -328,7 +328,7 @@
     goto :goto_2
 
     :cond_7
-    const v0, 0x7f0b1d99
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_eraser:I
 
     if-ne p1, v0, :cond_8
 
@@ -475,7 +475,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07da
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_super_note_panel:I
 
     return v0
 .end method
@@ -624,7 +624,7 @@
     .line 3
     iget-object p1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1216e5
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_areahighlight_mode_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -645,7 +645,7 @@
     .line 6
     iget-object p1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1216cf
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_annotation_longtouch_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -672,7 +672,7 @@
     .line 9
     iget-object p1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1217b5
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_edit_annotation_pen_toast_move:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -690,7 +690,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dd4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_super_note_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -703,7 +703,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1da0
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_pen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d9e
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_highlight_pen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -735,7 +735,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d9b
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -751,7 +751,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d9c
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_area:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -767,7 +767,7 @@
     .line 11
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1db5
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_underline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 13
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d98
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_del_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -799,7 +799,7 @@
     .line 15
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d99
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_eraser:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

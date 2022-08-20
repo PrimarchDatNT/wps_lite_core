@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0809cc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_wps_assist:I
 
     invoke-static {p0, v0, v1, v2}, Lhcb;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 

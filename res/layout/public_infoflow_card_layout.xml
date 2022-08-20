@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.infoflow.base.view.CardBaseView android:background="@drawable/public_infoflow_card_bg_selector" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

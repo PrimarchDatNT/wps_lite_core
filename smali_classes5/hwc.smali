@@ -246,7 +246,7 @@
     .line 6
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2100
+    sget v2, Lcom/resouce/module/ResID;->phone_public_thumbnail_titlebar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 8
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2083
+    sget v2, Lcom/resouce/module/ResID;->phone_play_titlebar_back_cover:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -524,7 +524,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f010088
+    sget v1, Lcom/resouce/module/ResANIM;->public_play_bottom_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -543,12 +543,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0596
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_pdf_meeting_play_sidebar_layout:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e07c5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_meeting_play_sidebar_layout:I
 
     return v0
 .end method

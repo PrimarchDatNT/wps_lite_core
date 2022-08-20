@@ -294,7 +294,7 @@
 
     iput-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
     .line 4
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0533
+    sget v1, Lcom/resouce/module/ResID;->container_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -357,7 +357,7 @@
     .line 8
     iget-object v1, p0, Lbib;->I:Landroid/view/View;
 
-    const v3, 0x7f0b1a54
+    sget v3, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -369,7 +369,7 @@
 
     const v3, 0x106000d
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 9
     invoke-virtual {v1, v3, v4, v2}, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->setStyle(IIZ)V
@@ -377,7 +377,7 @@
     .line 10
     iget-object v1, p0, Lbib;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2793
+    sget v2, Lcom/resouce/module/ResID;->purchase_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
     .line 13
     iget-object v1, p0, Lbib;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0eb9
+    sget v2, Lcom/resouce/module/ResID;->func_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
     .line 16
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0eba
+    sget v1, Lcom/resouce/module/ResID;->func_img_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -440,7 +440,7 @@
     .line 17
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ebc
+    sget v1, Lcom/resouce/module/ResID;->func_img_small:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -453,7 +453,7 @@
     .line 18
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ec1
+    sget v1, Lcom/resouce/module/ResID;->func_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -466,7 +466,7 @@
     .line 19
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ea6
+    sget v1, Lcom/resouce/module/ResID;->func_desc_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
     .line 21
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d26
+    sget v1, Lcom/resouce/module/ResID;->pay_linear_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -501,7 +501,7 @@
     .line 22
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d32
+    sget v1, Lcom/resouce/module/ResID;->pay_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -566,7 +566,7 @@
 .method public l(ILandroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b06cb
+    sget v0, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -735,7 +735,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v3, 0x7f0b05ad
+    sget v3, Lcom/resouce/module/ResID;->coupon_text:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -792,7 +792,7 @@
     :goto_2
     iget-object p2, p0, Lbib;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1210e3
+    sget v1, Lcom/resouce/module/ResSTRING;->home_price_unit:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

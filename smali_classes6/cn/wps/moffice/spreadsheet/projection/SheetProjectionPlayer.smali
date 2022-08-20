@@ -211,7 +211,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2d03
+    sget p2, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2d03
+    sget v2, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -181,13 +181,13 @@
     .line 1
     iget-boolean v0, p0, Lwuc;->W:Z
 
-    const v1, 0x7f0b1d68
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_member_text:I
 
-    const v2, 0x7f0b1d66
+    sget v2, Lcom/resouce/module/ResID;->pdf_bestsign_member_layout:I
 
-    const v3, 0x7f0b1d67
+    sget v3, Lcom/resouce/module/ResID;->pdf_bestsign_member_line:I
 
-    const v4, 0x7f0b1d65
+    sget v4, Lcom/resouce/module/ResID;->pdf_bestsign_add:I
 
     const/4 v5, 0x0
 
@@ -238,7 +238,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f1218f0
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -286,7 +286,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f120f8f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_introduce_membertips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -304,7 +304,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0619
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_bestsign_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -315,7 +315,7 @@
 
     iput-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b02bc
+    sget v1, Lcom/resouce/module/ResID;->btn_back:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
     .line 4
     iget-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d65
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_add:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -338,7 +338,7 @@
     .line 5
     iget-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d69
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_membership_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b02bc
+    sget v1, Lcom/resouce/module/ResID;->btn_back:I
 
     if-ne v0, v1, :cond_0
 
@@ -380,7 +380,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1d65
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_add:I
 
     if-ne v0, v1, :cond_1
 
@@ -400,7 +400,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d69
+    sget v0, Lcom/resouce/module/ResID;->pdf_bestsign_membership_btn:I
 
     if-ne p1, v0, :cond_3
 
@@ -482,7 +482,7 @@
     :cond_1
     iget-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d67
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_member_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -495,7 +495,7 @@
     .line 6
     iget-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1d66
+    sget v2, Lcom/resouce/module/ResID;->pdf_bestsign_member_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
     .line 7
     iget-object v0, p0, Lwuc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d65
+    sget v1, Lcom/resouce/module/ResID;->pdf_bestsign_add:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

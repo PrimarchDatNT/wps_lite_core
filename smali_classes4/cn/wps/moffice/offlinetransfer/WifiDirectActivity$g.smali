@@ -157,14 +157,14 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f1214f8
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_restart_wifi:I
 
     .line 9
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p1
 
-    const v0, 0x7f12150d
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_wifi_setting:I
 
     new-instance v1, Leob;
 
@@ -175,7 +175,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1214f4
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_no_need:I
 
     new-instance v1, Lfob;
 
@@ -196,7 +196,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity$g;->b:Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;
 
-    const v0, 0x7f1214f7
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_refresh_and_try:I
 
     const/4 v1, 0x0
 

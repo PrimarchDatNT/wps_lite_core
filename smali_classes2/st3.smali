@@ -285,7 +285,7 @@
     .line 6
     iget p1, p0, Lya3;->V:I
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const-string v0, "down_load_center_loading_view"
 
@@ -420,7 +420,7 @@
     :cond_2
     iget-object p1, p0, Lst3;->c0:Landroid/content/Context;
 
-    const p2, 0x7f12056c
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

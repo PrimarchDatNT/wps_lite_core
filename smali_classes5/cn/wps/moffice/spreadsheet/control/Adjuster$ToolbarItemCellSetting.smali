@@ -30,15 +30,15 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f08046f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_table_resize:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080e50
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_resize_et:I
 
     :goto_0
-    const v0, 0x7f120c5f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust:I
 
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V
 

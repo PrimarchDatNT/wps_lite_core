@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e3f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_sharefolder_msg_center_invite_finish_dialog:I
 
     const/4 v2, 0x0
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1afb
+    sget v1, Lcom/resouce/module/ResID;->ok:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

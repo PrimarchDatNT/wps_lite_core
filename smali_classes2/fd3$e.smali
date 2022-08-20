@@ -63,7 +63,7 @@
 
     iget-object v0, v0, Lfd3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121b63
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_clip_image_error:I
 
     const/16 v2, 0xfa
 

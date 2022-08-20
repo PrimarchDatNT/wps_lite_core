@@ -55,7 +55,7 @@
 
     iget-object v2, v2, Lyff;->a:Landroid/content/Context;
 
-    const v3, 0x7f122950
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     iget-object p2, p2, Lyff;->a:Landroid/content/Context;
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-static {p2, v0, p1}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0
@@ -117,7 +117,7 @@
 
     iget-object p2, p2, Lyff;->a:Landroid/content/Context;
 
-    const v0, 0x7f1205eb
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

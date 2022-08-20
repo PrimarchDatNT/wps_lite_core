@@ -524,7 +524,7 @@
 
     const v0, 0xf423f
 
-    const v1, 0x7f121534
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     if-eq p1, v0, :cond_0
 
@@ -542,72 +542,72 @@
 
     packed-switch p1, :pswitch_data_2
 
-    const v1, 0x7f12153b
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_unknown_local:I
 
     goto :goto_0
 
     :pswitch_0
-    const v1, 0x7f12153c
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_update_rights:I
 
     goto :goto_0
 
     :pswitch_1
-    const v1, 0x7f12152e
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_delete_document:I
 
     goto :goto_0
 
     :pswitch_2
-    const v1, 0x7f12152d
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_create_document:I
 
     goto :goto_0
 
     :pswitch_3
-    const v1, 0x7f121537
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_parse_json_error:I
 
     goto :goto_0
 
     :pswitch_4
-    const v1, 0x7f121530
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_internal_server_error:I
 
     goto :goto_0
 
     :pswitch_5
-    const v1, 0x7f121531
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_invalid_enc_data:I
 
     goto :goto_0
 
     :pswitch_6
-    const v1, 0x7f12152f
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_document_not_exist:I
 
     goto :goto_0
 
     :pswitch_7
-    const v1, 0x7f121536
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_param_format_error:I
 
     goto :goto_0
 
     :pswitch_8
-    const v1, 0x7f121535
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_print_screen_permission:I
 
     goto :goto_0
 
     :pswitch_9
-    const v1, 0x7f121532
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_auth_permission:I
 
     goto :goto_0
 
     :pswitch_a
-    const v1, 0x7f121533
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_full_control_permission:I
 
     goto :goto_0
 
     :pswitch_b
-    const v1, 0x7f12152c
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_auth_error:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f12153a
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_unknown_error:I
 
     .line 1
     :cond_1

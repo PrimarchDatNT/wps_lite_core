@@ -163,7 +163,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080132
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->card_mode_item_bg:I
 
     invoke-virtual {p0}, Landroid/widget/EditText;->getContext()Landroid/content/Context;
 
@@ -224,7 +224,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080133
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->card_mode_item_chose_bg:I
 
     invoke-virtual {p0}, Landroid/widget/EditText;->getContext()Landroid/content/Context;
 

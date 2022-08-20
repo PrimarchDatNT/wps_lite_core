@@ -32,7 +32,7 @@
     .line 3
     invoke-virtual {p1, v0, v0, v0, v0}, Landroid/view/View;->setPadding(IIII)V
 
-    const v0, 0x7f082087
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->writer_print_pagesetting_bg_shape:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060406
+    sget v1, Lcom/resouce/module/ResCOLOR;->phoneWriterRightPanelColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

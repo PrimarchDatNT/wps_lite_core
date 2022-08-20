@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -256,7 +256,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

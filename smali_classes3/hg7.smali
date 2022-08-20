@@ -167,7 +167,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f12240e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     const/4 v0, 0x1
 

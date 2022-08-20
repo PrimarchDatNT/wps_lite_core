@@ -80,7 +80,7 @@
 
     sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    const v1, 0x7f0b2e67
+    sget v1, Lcom/resouce/module/ResID;->tag_app_skip_stat:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 

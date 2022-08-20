@@ -71,13 +71,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0998
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheet_compound:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b216f
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_sheet_compound_pager:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/phone/sheets/PhoneCompoundSheet;->B:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v0, 0x7f0b2170
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_sheet_compound_pager_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07084b
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_ss_dash_bar_sheet_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060002
+    sget v2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

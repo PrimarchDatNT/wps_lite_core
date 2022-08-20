@@ -79,7 +79,7 @@
     .line 2
     new-instance v0, Lxcl$d;
 
-    const v1, 0x7f0b1b15
+    sget v1, Lcom/resouce/module/ResID;->online_security_divideline:I
 
     .line 3
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     invoke-direct {v0, p0, v1}, Lxcl$d;-><init>(Lxcl;Landroid/view/View;)V
 
-    const v1, 0x7f0b0cef
+    sget v1, Lcom/resouce/module/ResID;->file_permission:I
 
     const-string v2, "file-permissioninfo"
 
@@ -98,7 +98,7 @@
     .line 5
     new-instance v0, Lxcl$e;
 
-    const v1, 0x7f0b0cb9
+    sget v1, Lcom/resouce/module/ResID;->file_encrypt:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     invoke-direct {v0, p0, v1}, Lxcl$e;-><init>(Lxcl;Landroid/view/View;)V
 
-    const v1, 0x7f0b0cbd
+    sget v1, Lcom/resouce/module/ResID;->file_encrypt_switch:I
 
     const-string v2, "file-toggle-encrypt"
 
@@ -115,7 +115,7 @@
     .line 6
     new-instance v0, Lxcl$f;
 
-    const v1, 0x7f0b0cba
+    sget v1, Lcom/resouce/module/ResID;->file_encrypt_divideline:I
 
     .line 7
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     invoke-direct {v0, p0, v1}, Lxcl$f;-><init>(Lxcl;Landroid/view/View;)V
 
-    const v1, 0x7f0b0ce5
+    sget v1, Lcom/resouce/module/ResID;->file_modify_encrypt:I
 
     const-string v2, "file-modify-encrypt"
 
@@ -136,7 +136,7 @@
 
     invoke-direct {v0, p0}, Lxcl$g;-><init>(Lxcl;)V
 
-    const v1, 0x7f0b18fc
+    sget v1, Lcom/resouce/module/ResID;->move_to_secret_folder:I
 
     const-string v2, "move-to-secretfolder"
 
@@ -153,7 +153,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0cbd
+    sget v1, Lcom/resouce/module/ResID;->file_encrypt_switch:I
 
     if-eq v0, v1, :cond_0
 
@@ -162,7 +162,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0ce5
+    sget v1, Lcom/resouce/module/ResID;->file_modify_encrypt:I
 
     if-eq v0, v1, :cond_0
 
@@ -171,7 +171,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0cef
+    sget v0, Lcom/resouce/module/ResID;->file_permission:I
 
     if-ne p1, v0, :cond_1
 
@@ -233,7 +233,7 @@
     .line 7
     invoke-static {v0}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
 
-    const v0, 0x7f0b18fc
+    sget v0, Lcom/resouce/module/ResID;->move_to_secret_folder:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -261,7 +261,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b18
+    sget v1, Lcom/resouce/module/ResID;->online_security_encrypttxt:I
 
     if-eqz v0, :cond_1
 
@@ -272,7 +272,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122572
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_enable:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -286,7 +286,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122574
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_set:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -325,7 +325,7 @@
 .method public final r2()V
     .locals 3
 
-    const v0, 0x7f0e0862
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_encrypt_security_layout:I
 
     const/4 v1, 0x0
 
@@ -347,7 +347,7 @@
 
     iput-object v0, p0, Lxcl;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f122050
+    sget v1, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -364,7 +364,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b1b14
+    sget v0, Lcom/resouce/module/ResID;->online_security:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

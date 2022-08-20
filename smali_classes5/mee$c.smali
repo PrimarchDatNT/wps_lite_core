@@ -66,7 +66,7 @@
 
     check-cast v1, Landroid/view/View;
 
-    const v2, 0x7f0b2dd7    # 1.850007E38f
+    sget v2, Lcom/resouce/module/ResID;->subject_view:I    # 1.850007E38f
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

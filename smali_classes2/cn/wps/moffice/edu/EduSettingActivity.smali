@@ -78,7 +78,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0816fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setBackBg(I)V
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

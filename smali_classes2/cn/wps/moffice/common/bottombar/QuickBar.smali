@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08b2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_panel_topbar:I
 
     const/4 v2, 0x1
 
@@ -97,7 +97,7 @@
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    const v1, 0x7f0b20e8
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b20f0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_tool_nav:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20e1
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_logo:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->f0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20ec
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_keyboard:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->g0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20e9
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_assistant:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->h0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20e7
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_sub_title_container:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b20ee
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_quick_action:I
 
     .line 16
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->j0:Landroid/widget/HorizontalScrollView;
 
-    const v1, 0x7f0b20eb
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_item_container:I
 
     .line 17
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->k0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b20ef
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_title_view:I
 
     .line 18
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bottombar/QuickBar;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b20ea
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_indicator:I
 
     .line 19
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0606c5
+    sget p3, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 

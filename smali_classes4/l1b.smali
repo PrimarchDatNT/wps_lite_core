@@ -147,7 +147,7 @@
     .line 5
     iget-object v0, p0, Lg1b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -211,7 +211,7 @@
     :goto_1
     iget-object v0, p0, Lg1b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v3, 0x1
 

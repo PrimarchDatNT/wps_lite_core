@@ -97,7 +97,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121c01
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_choose_document:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
@@ -111,7 +111,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b301f
+    sget v2, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1fe4
+    sget v3, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_container:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

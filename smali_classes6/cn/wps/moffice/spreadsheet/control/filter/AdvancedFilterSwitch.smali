@@ -50,11 +50,11 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f08180a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_advanced_filter_pics:I
 
-    const v4, 0x7f120879
+    sget v4, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode:I
 
-    const v5, 0x7f12087a
+    sget v5, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode_desc:I
 
     .line 5
     invoke-static {v3, v4, v5, v2}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -118,11 +118,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f08180a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_advanced_filter_pics:I
 
-    const v3, 0x7f120879
+    sget v3, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode:I
 
-    const v4, 0x7f12087a
+    sget v4, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode_desc:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

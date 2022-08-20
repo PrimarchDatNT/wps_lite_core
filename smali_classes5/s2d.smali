@@ -191,7 +191,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121801
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_image_click_edit:I
 
     const/4 v2, 0x0
 

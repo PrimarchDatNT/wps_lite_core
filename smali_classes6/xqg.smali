@@ -231,7 +231,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e099b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheet_op_layout:I
 
     const/4 v2, 0x0
 
@@ -243,7 +243,7 @@
 
     iput-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217a
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
     .line 4
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217d
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_other_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 5
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217b
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
     .line 6
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2171
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     .line 7
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2174
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_copy:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
     .line 8
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2175
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 9
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2177
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_hide:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 10
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2179
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_hide_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -332,7 +332,7 @@
     .line 11
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217f
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_panel_hide_imgbtn_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -348,7 +348,7 @@
     .line 13
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_name_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -392,7 +392,7 @@
     .line 17
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2172
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_colorview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -423,7 +423,7 @@
     .line 20
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2173
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_colorview_none:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -436,7 +436,7 @@
     .line 21
     iget-object v0, p0, Lxqg;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b216e
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_color_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -446,7 +446,7 @@
 
     iput-object v0, p0, Lxqg;->Z:Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;
 
-    const v1, 0x7f120c19
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sheet_color:I
 
     .line 22
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->setTitleText(I)V
@@ -486,7 +486,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0813d8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_autobtn_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -502,7 +502,7 @@
     .line 27
     iget-object v0, p0, Lxqg;->c0:Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;
 
-    const v1, 0x7f12197d
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_complex_format_frame_color_no_fill:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->setAutoBtnText(I)V
 
@@ -633,7 +633,7 @@
     .line 1
     iget-object p1, p0, Lxqg;->f0:Landroid/content/Context;
 
-    const p2, 0x7f01006c
+    sget p2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_in:I
 
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -642,7 +642,7 @@
     .line 2
     iget-object p2, p0, Lxqg;->f0:Landroid/content/Context;
 
-    const v0, 0x7f01006b
+    sget v0, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_out:I
 
     invoke-static {p2, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -707,7 +707,7 @@
     .line 13
     iget-object p1, p0, Lxqg;->f0:Landroid/content/Context;
 
-    const p2, 0x7f01006a
+    sget p2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_in:I
 
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -716,7 +716,7 @@
     .line 14
     iget-object p2, p0, Lxqg;->f0:Landroid/content/Context;
 
-    const v0, 0x7f01006d
+    sget v0, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_out:I
 
     invoke-static {p2, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

@@ -52,7 +52,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b08f3
+    sget v4, Lcom/resouce/module/ResID;->et_autosum_button_morefunc:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

@@ -73,7 +73,7 @@
     return-void
 
     :cond_0
-    const p2, 0x7f081433
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_split_course:I
 
     if-ne p1, p2, :cond_1
 
@@ -163,7 +163,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v0, 0x0
 

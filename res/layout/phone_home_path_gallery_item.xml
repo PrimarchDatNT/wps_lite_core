@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/secondBackgroundColor" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/path_item" android:paddingRight="0.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="0.0dip" style="@style/public_image_bg_style_focusable">
-        <TextView android:id="@id/path_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginStart="0.0dip" style="@style/home_open_path_gallery_txt_style" />
-        <cn.wpsx.support.ui.KNormalImageView android:id="@id/path_item_image" style="@style/home_open_path_gallery_arrow_style" />
-    </LinearLayout>
-</LinearLayout>

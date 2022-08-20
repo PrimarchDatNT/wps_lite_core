@@ -48,42 +48,42 @@
 
     sput-object v0, Lrd5;->J0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b17b7
+    sget v1, Lcom/resouce/module/ResID;->mSkuGroup:I
 
     const/16 v2, 0xb
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b17b2
+    sget v1, Lcom/resouce/module/ResID;->mPayGroup:I
 
     const/16 v2, 0xc
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b17be
+    sget v1, Lcom/resouce/module/ResID;->mTvDiscountPrice:I
 
     const/16 v2, 0xd
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b17c2
+    sget v1, Lcom/resouce/module/ResID;->mTvOriginalPrice:I
 
     const/16 v2, 0xe
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b06cf
+    sget v1, Lcom/resouce/module/ResID;->divider:I
 
     const/16 v2, 0xf
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f17
+    sget v1, Lcom/resouce/module/ResID;->gl_price_guide:I
 
     const/16 v2, 0x10
 

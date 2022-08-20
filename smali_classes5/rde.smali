@@ -111,7 +111,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060624
+    sget v3, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -128,7 +128,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a3
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -366,7 +366,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f060624
+    sget v3, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -403,7 +403,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060261
+    sget v2, Lcom/resouce/module/ResCOLOR;->maskBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -458,7 +458,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0ada
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_table_beauty_preview_item:I
 
     const/4 v1, 0x0
 
@@ -506,7 +506,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a2
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

@@ -73,7 +73,7 @@
     .line 1
     new-instance v8, Lr0a;
 
-    const v0, 0x7f0b2b5e
+    sget v0, Lcom/resouce/module/ResID;->share_content:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 .method public final T2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
     .line 6
     iget-object v0, p0, Ld1a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120fee
+    sget v1, Lcom/resouce/module/ResSTRING;->home_multi_select_zip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d74
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_compress_batch_shraing_rename_layout:I
 
     const/4 v2, 0x0
 
@@ -271,7 +271,7 @@
 
     iput-object v0, p0, Ld1a;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2bb7
+    sget v1, Lcom/resouce/module/ResID;->share_with_share_folder_edit_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
     .line 3
     iget-object v0, p0, Ld1a;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b24ec
+    sget v1, Lcom/resouce/module/ResID;->preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -298,7 +298,7 @@
     .line 4
     iget-object v0, p0, Ld1a;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2b5e
+    sget v1, Lcom/resouce/module/ResID;->share_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

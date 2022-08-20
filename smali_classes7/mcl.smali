@@ -19,7 +19,7 @@
     .line 2
     iput-object p1, p0, Lmcl;->j0:Lwbl;
 
-    const p1, 0x7f1221f3
+    sget p1, Lcom/resouce/module/ResSTRING;->public_frame_color:I
 
     .line 3
     invoke-virtual {p0, p1}, Lpyk;->G2(I)V

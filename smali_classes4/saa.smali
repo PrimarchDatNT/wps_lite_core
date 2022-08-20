@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12100b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_passcode_for_lanuch:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12110c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_reenter_passcode:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -186,14 +186,14 @@
 
     move-result-object v0
 
-    const v2, 0x7f12100b
+    sget v2, Lcom/resouce/module/ResSTRING;->home_passcode_for_lanuch:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 11
     iget-object v0, p0, Lraa;->I:Landroid/content/Context;
 
-    const v2, 0x7f121016
+    sget v2, Lcom/resouce/module/ResSTRING;->home_passcode_not_match:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -246,18 +246,18 @@
     .line 2
     invoke-virtual {p0, v0}, Lsaa;->D(I)V
 
-    const v0, 0x7f120ef4
+    sget v0, Lcom/resouce/module/ResSTRING;->home_enter_old_passcode:I
 
-    const v2, 0x7f1224d2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     .line 3
     iget v3, p0, Lsaa;->c0:I
 
     if-ne v3, v1, :cond_0
 
-    const v0, 0x7f12100b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_passcode_for_lanuch:I
 
-    const v2, 0x7f121151
+    sget v2, Lcom/resouce/module/ResSTRING;->home_set_passcode:I
 
     .line 4
     :cond_0

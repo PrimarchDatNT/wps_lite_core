@@ -227,11 +227,11 @@
 
     invoke-direct {v0, p0}, Lo95$c;-><init>(Lo95;)V
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -284,7 +284,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bb3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -301,7 +301,7 @@
 
     invoke-virtual {p0, v0, v1}, Lhd3;->setView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Lhd3;
 
-    const v1, 0x7f0b3019
+    sget v1, Lcom/resouce/module/ResID;->title_view:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -312,7 +312,7 @@
 
     iput-object v1, p0, Lo95;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b066e
+    sget v1, Lcom/resouce/module/ResID;->details_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -323,7 +323,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b1b4f
+    sget v1, Lcom/resouce/module/ResID;->operations_view:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

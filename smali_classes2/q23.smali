@@ -462,7 +462,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121f29
+    sget v3, Lcom/resouce/module/ResSTRING;->public_company_documents:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -579,7 +579,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121f29
+    sget v3, Lcom/resouce/module/ResSTRING;->public_company_documents:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -670,7 +670,7 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/main/cloud/drive/bean/CreateCompanyGroupInfo;
 
-    const v1, 0x7f12194a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     invoke-direct {v0, v1}, Lcn/wps/moffice/main/cloud/drive/bean/CreateCompanyGroupInfo;-><init>(I)V
 

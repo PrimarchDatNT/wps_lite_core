@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:layout_width="wrap_content" android:layout_height="40.0dip" pressAlphaEnableWhenRipple="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:id="@id/quick_bar_frame_image" android:background="@android:color/transparent" android:clickable="false" android:layout_width="50.0dip" android:layout_height="wrap_content" android:src="@drawable/comp_style_line_style_1" pressAlphaEnableWhenRipple="false" />
-</cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>

@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122552
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12257e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_not_support:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

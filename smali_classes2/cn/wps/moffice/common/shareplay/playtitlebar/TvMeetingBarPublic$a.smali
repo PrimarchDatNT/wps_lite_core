@@ -76,7 +76,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->m0:Lkf3;
 
-    const v0, 0x7f081319
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {p1, v0}, Lkf3;->W(I)V
 

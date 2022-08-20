@@ -72,7 +72,7 @@
 
     if-nez v1, :cond_1
 
-    const p2, 0x7f120f96
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_message_dead:I
 
     const/4 p3, 0x0
 

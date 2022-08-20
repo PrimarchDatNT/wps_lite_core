@@ -76,12 +76,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0798
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_anno_colors_item:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0799
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_anno_colors_item_landscape:I
 
     return v0
 .end method
@@ -197,7 +197,7 @@
     invoke-virtual {p3, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
-    const v0, 0x7f0b1db6
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_annot_panel_color:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

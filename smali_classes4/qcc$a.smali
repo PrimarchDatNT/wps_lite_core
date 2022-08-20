@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1217fd
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_guide_app_cn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1217fe
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_guide_app_en_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     sput-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08159e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_doc:I
 
     .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -237,7 +237,7 @@
     .line 4
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_ppt:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -250,7 +250,7 @@
     .line 5
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_xls:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -263,7 +263,7 @@
     .line 6
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815b5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_share_long_pic:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -276,7 +276,7 @@
     .line 7
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081590
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pages_export:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -289,7 +289,7 @@
     .line 8
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pureimagedocument:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -302,7 +302,7 @@
     .line 9
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815a6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_to_pdf:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -315,7 +315,7 @@
     .line 10
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081598
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_extracttext:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -328,7 +328,7 @@
     .line 11
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_pictures:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -341,7 +341,7 @@
     .line 12
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_file:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -354,7 +354,7 @@
     .line 13
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081595
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_annotation:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -367,7 +367,7 @@
     .line 14
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08159a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_sign:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -380,7 +380,7 @@
     .line 15
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08156d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_addtext:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -393,7 +393,7 @@
     .line 16
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f0815bf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_watermark:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -406,7 +406,7 @@
     .line 17
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08157a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_highlighted_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -419,7 +419,7 @@
     .line 18
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081587
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_mergefile:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -432,7 +432,7 @@
     .line 19
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f08158f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_page_adjust:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -452,12 +452,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0805d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_translate:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0815bd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_translate:I
 
     :goto_0
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -472,7 +472,7 @@
     .line 23
     sget-object v0, Lxp3;->c0:Ljava/util/Map;
 
-    const v1, 0x7f081577
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docdownsizing:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -492,12 +492,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0815b4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_set_password:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f081581
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_file_encryption:I
 
     :goto_1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

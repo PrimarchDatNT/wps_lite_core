@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/success_flag" android:paddingTop="3.5dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="29.5dip" android:src="@drawable/comp_common_cloud_document_color" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

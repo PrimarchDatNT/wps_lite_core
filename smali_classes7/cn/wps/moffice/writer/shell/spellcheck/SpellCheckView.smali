@@ -93,19 +93,19 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e0a15
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_writer_spellcheckview:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e10fb
+    sget p2, Lcom/resouce/module/ResLAYOUT;->writer_spellcheckview:I
 
     :goto_0
     const/4 v0, 0x1
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2553
+    sget p1, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->V:Landroid/view/View;
 
-    const p1, 0x7f0b2fbf
+    sget p1, Lcom/resouce/module/ResID;->tips_layout:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->T:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b2fc8
+    sget p1, Lcom/resouce/module/ResID;->tips_text:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->b0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b00f3
+    sget p1, Lcom/resouce/module/ResID;->all_error_text:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->B:Landroid/widget/ListView;
 
-    const p1, 0x7f0b1a63
+    sget p1, Lcom/resouce/module/ResID;->nothing_tips_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->U:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b1a64
+    sget p1, Lcom/resouce/module/ResID;->nothing_tips_text:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->c0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1a5f
+    sget p1, Lcom/resouce/module/ResID;->not_error:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->j0:Landroid/widget/Button;
 
-    const p1, 0x7f0b2a42
+    sget p1, Lcom/resouce/module/ResID;->scrollview:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->I:Lcn/wps/moffice/writer/shell/spellcheck/logic/MyScrollView;
 
-    const p1, 0x7f0b08bd
+    sget p1, Lcom/resouce/module/ResID;->error_text_layout:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->S:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b01b2
+    sget p1, Lcom/resouce/module/ResID;->back:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->W:Landroid/view/View;
 
-    const p1, 0x7f0b08bc
+    sget p1, Lcom/resouce/module/ResID;->error_text:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->a0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b08be
+    sget p1, Lcom/resouce/module/ResID;->error_text_lists:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->d0:Landroid/widget/ListView;
 
-    const p1, 0x7f0b2fbb
+    sget p1, Lcom/resouce/module/ResID;->tips_dictionary:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->e0:Lcn/wps/moffice/common/beans/MyAutoCompleteTextView;
 
-    const p1, 0x7f0b2fc7
+    sget p1, Lcom/resouce/module/ResID;->tips_show:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->f0:Landroid/view/View;
 
-    const p1, 0x7f0b28a3
+    sget p1, Lcom/resouce/module/ResID;->replace:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->g0:Landroid/widget/Button;
 
-    const p1, 0x7f0b28a5
+    sget p1, Lcom/resouce/module/ResID;->replace_all:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->h0:Landroid/widget/Button;
 
-    const p1, 0x7f0b1260
+    sget p1, Lcom/resouce/module/ResID;->ignore_all:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -668,7 +668,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f123417
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_spell_check_nothing:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -710,7 +710,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->c0:Landroid/widget/TextView;
 
-    const v1, 0x7f123415
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_spell_check_finish:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -937,12 +937,12 @@
 
     if-ne v2, v3, :cond_0
 
-    const v2, 0x7f070dff
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_spellcheck_error_list_height_land:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f070e00
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_spellcheck_error_list_height_port:I
 
     .line 3
     :goto_0
@@ -999,7 +999,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->h0:Landroid/widget/Button;
 
-    const v0, 0x7f12341a
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_spell_check_replace_all:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -1045,7 +1045,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView;->h0:Landroid/widget/Button;
 
-    const v0, 0x7f12341c
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_spell_check_replace_checked:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 

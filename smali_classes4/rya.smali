@@ -63,7 +63,7 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f081c3e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_watermark:I
 
     const-string v5, "watermark"
 
@@ -97,7 +97,7 @@
 
     const/16 v14, 0x14
 
-    const v15, 0x7f081512
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->ppt_share_pic_thumbnails_white:I
 
     const-string v16, "original"
 

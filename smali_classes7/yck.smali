@@ -774,19 +774,19 @@
 
     invoke-direct {v1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1225d6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pad_ole_sub_doc_dialog_msg:I
 
     .line 4
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f122189
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     .line 5
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -788,7 +788,7 @@
     .line 1
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2c92
+    sget v1, Lcom/resouce/module/ResID;->speech_record:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -806,7 +806,7 @@
     .line 3
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2842
+    sget v1, Lcom/resouce/module/ResID;->record_left_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -819,7 +819,7 @@
     .line 4
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1598
+    sget v1, Lcom/resouce/module/ResID;->left_record_volume_state:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -832,7 +832,7 @@
     .line 5
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2927
+    sget v1, Lcom/resouce/module/ResID;->right_record_volume_state:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -845,7 +845,7 @@
     .line 6
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2c95
+    sget v1, Lcom/resouce/module/ResID;->speech_record_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -858,7 +858,7 @@
     .line 7
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2282
+    sget v1, Lcom/resouce/module/ResID;->powered_by_iflytek_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -871,7 +871,7 @@
     .line 8
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0f1b
+    sget v1, Lcom/resouce/module/ResID;->go_settings:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -892,7 +892,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d58
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio_input_go_settings_to_grant_audio_permission:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -909,7 +909,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -950,7 +950,7 @@
     .line 15
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2839
+    sget v1, Lcom/resouce/module/ResID;->record_common_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1009,7 +1009,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d61
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips1:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1052,7 +1052,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1134,7 +1134,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d63
+    sget v1, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1236,11 +1236,11 @@
     goto/16 :goto_1
 
     :cond_0
-    const p1, 0x7f081a15
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_long_audio_input_member_guide:I
 
-    const v0, 0x7f12248a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_long_audio_input:I
 
-    const v1, 0x7f121d60
+    sget v1, Lcom/resouce/module/ResSTRING;->public_audio_input_member_desc:I
 
     const/4 v2, 0x1
 
@@ -1314,7 +1314,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121d61
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips1:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1354,7 +1354,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121d62
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips2:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1629,7 +1629,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v2, 0x1
 
@@ -1875,7 +1875,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1886,7 +1886,7 @@
     .line 5
     iget-object p1, p0, Lbcl;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f121d62
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips2:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1914,7 +1914,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600a1
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_gray_text:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1925,7 +1925,7 @@
     .line 9
     iget-object p1, p0, Lbcl;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f121d63
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio_input_member_tips3:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1962,7 +1962,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1973,7 +1973,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12253e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1994,7 +1994,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2063,7 +2063,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121d5f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_audio_input_left_time:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -2142,7 +2142,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121d68
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio_input_used_time:I
 
     const/4 v3, 0x1
 
@@ -2303,7 +2303,7 @@
     .line 2
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b038f
+    sget v1, Lcom/resouce/module/ResID;->char_line_keyboard_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2314,7 +2314,7 @@
     .line 3
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0d8f
+    sget v1, Lcom/resouce/module/ResID;->first_char_line_keyboard_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2327,7 +2327,7 @@
     .line 4
     iget-object v0, p0, Lbcl;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2ac7
+    sget v1, Lcom/resouce/module/ResID;->second_char_line_keyboard_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2385,12 +2385,12 @@
 
     if-eqz v0, :cond_2
 
-    const v2, 0x7f030032
+    sget v2, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_en_char_line_1_key_icon:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f030030
+    sget v2, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_cn_char_line_1_key_icon:I
 
     .line 8
     :goto_1
@@ -2430,12 +2430,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f030033
+    sget v0, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_en_char_line_2_key_icon:I
 
     goto :goto_3
 
     :cond_4
-    const v0, 0x7f030031
+    sget v0, Lcom/resouce/module/ResARRAY;->iflytek_audio_input_cn_char_line_2_key_icon:I
 
     .line 11
     :goto_3
@@ -2485,7 +2485,7 @@
     .line 3
     iget-object v0, p0, Lbcl;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v2, 0x0
 

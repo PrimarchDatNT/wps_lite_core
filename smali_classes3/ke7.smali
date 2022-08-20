@@ -312,7 +312,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e104b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->view_share_folder_member_layout:I
 
     const/4 v2, 0x0
 
@@ -350,7 +350,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b325c
+    sget v1, Lcom/resouce/module/ResID;->tv_share_member_change:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
     .line 5
     iget-object v0, p0, Lke7;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f121ec9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -384,7 +384,7 @@
     :cond_1
     iget-object v0, p0, Lke7;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f121e5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -407,7 +407,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2b89
+    sget v1, Lcom/resouce/module/ResID;->share_member_list_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -470,12 +470,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121ec9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f121e5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change:I
 
     return v0
 .end method
@@ -588,7 +588,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f121e88
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_owner_change_failed:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -613,7 +613,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f121e8a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_owner_change_success:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -654,12 +654,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f121ec9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f121e5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -669,7 +669,7 @@
     .line 3
     iget-object v1, p0, Lke7;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121e89
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_owner_change_msg:I
 
     const/4 v3, 0x2
 
@@ -679,12 +679,12 @@
 
     if-eqz v4, :cond_2
 
-    const v4, 0x7f121ec6
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_name:I
 
     goto :goto_1
 
     :cond_2
-    const v4, 0x7f121e63
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_group_title:I
 
     .line 4
     :goto_1
@@ -739,7 +739,7 @@
     .line 11
     iget-object v0, p0, Lke7;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -754,7 +754,7 @@
     .line 12
     iget-object v0, p0, Lke7;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

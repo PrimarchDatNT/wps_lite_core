@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120119
+    sget v1, Lcom/resouce/module/ResSTRING;->app_service_host:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -88,7 +88,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120118
+    sget v2, Lcom/resouce/module/ResSTRING;->app_service_en_host:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -334,7 +334,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -647,7 +647,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -686,7 +686,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122c10
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -723,7 +723,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -760,7 +760,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122653
+    sget v4, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -797,7 +797,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1204a7
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -834,7 +834,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -871,7 +871,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1217dd
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -908,7 +908,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121bf5
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -945,7 +945,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1201c9
+    sget v4, Lcom/resouce/module/ResSTRING;->apps_tv_projection:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -989,7 +989,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1045,7 +1045,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122269
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_transfer_to_pc:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1083,7 +1083,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1120,7 +1120,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121771
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1157,7 +1157,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1217b4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1200,12 +1200,12 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f1216c9
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     goto :goto_0
 
     :cond_1
-    const v4, 0x7f1216ca
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     :goto_0
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1243,7 +1243,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1216c8
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1280,7 +1280,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121875
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_title:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1324,12 +1324,12 @@
 
     if-eqz v4, :cond_2
 
-    const v4, 0x7f1218d9
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_set_password:I
 
     goto :goto_1
 
     :cond_2
-    const v4, 0x7f1217f5
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     .line 92
     :goto_1
@@ -1368,7 +1368,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121c96
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1405,7 +1405,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121925
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1442,7 +1442,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12209f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1479,7 +1479,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f120460
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1516,7 +1516,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122642
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2ppt:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1553,7 +1553,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12263f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1590,7 +1590,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1204b9
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_funcname:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1627,7 +1627,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122aee
+    sget v4, Lcom/resouce/module/ResSTRING;->public_tools_print:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1664,7 +1664,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1217ba
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1701,7 +1701,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1218df
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_super_note:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1738,7 +1738,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122811
+    sget v4, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1775,7 +1775,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1230d3
+    sget v4, Lcom/resouce/module/ResSTRING;->tools_file_collect:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1812,7 +1812,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1230d4
+    sget v4, Lcom/resouce/module/ResSTRING;->tools_pdf_editor_on_pc:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1849,7 +1849,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1222d7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_module_h5_resume_resume_master:I
 
     .line 163
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1887,7 +1887,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12157d
+    sget v4, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     .line 169
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -231,7 +231,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f123272
+    sget v6, Lcom/resouce/module/ResSTRING;->writer_blank_page_no_allow:I
 
     invoke-static {v1, v2, v5, v6}, Lq7i;->c(Lkik;ILush;I)Z
 
@@ -1096,7 +1096,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1233d2
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_page_setting_fixed_column_width_shortage:I
 
     const/4 v0, 0x1
 

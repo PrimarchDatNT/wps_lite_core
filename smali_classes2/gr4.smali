@@ -66,11 +66,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f081aec
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phonetic_shorthand_member_guide:I
 
-    const v2, 0x7f1219dc
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
-    const v3, 0x7f1219d7
+    sget v3, Lcom/resouce/module/ResSTRING;->phonetic_member_guide_text:I
 
     .line 4
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -87,7 +87,7 @@
 
     iget-object v0, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const v1, 0x7f1219d6
+    sget v1, Lcom/resouce/module/ResSTRING;->phonetic_flynote_text:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -113,7 +113,7 @@
     .line 8
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const v0, 0x7f1219d9
+    sget v0, Lcom/resouce/module/ResSTRING;->phonetic_save_path:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -669,7 +669,7 @@
     .line 12
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const p2, 0x7f12110d
+    sget p2, Lcom/resouce/module/ResSTRING;->home_rename_has_duplicate:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -703,7 +703,7 @@
     .line 16
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const p2, 0x7f122392
+    sget p2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1234,7 +1234,7 @@
     :goto_0
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const v0, 0x7f122392
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1475,7 +1475,7 @@
     .line 3
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const p2, 0x7f1219cf
+    sget p2, Lcom/resouce/module/ResSTRING;->phonetic_audio_null_text:I
 
     const/4 v0, 0x0
 
@@ -1514,7 +1514,7 @@
     .line 2
     iget-object p1, p0, Lgr4;->c:Landroid/app/Activity;
 
-    const p2, 0x7f1219d5
+    sget p2, Lcom/resouce/module/ResSTRING;->phonetic_flynote_null_text:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

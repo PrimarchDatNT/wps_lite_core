@@ -200,7 +200,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0484
+    sget v1, Lcom/resouce/module/ResLAYOUT;->looper_text_child:I
 
     const/4 v2, 0x0
 

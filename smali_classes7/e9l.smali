@@ -248,7 +248,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3056
+    sget v1, Lcom/resouce/module/ResID;->toolbar_bottom_hline:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -439,7 +439,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b34e9
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -485,7 +485,7 @@
     .line 2
     new-instance v0, Lo5l;
 
-    const v1, 0x7f0b1bc1
+    sget v1, Lcom/resouce/module/ResID;->pad_bottom_comments_tools:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -534,7 +534,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3056
+    sget v1, Lcom/resouce/module/ResID;->toolbar_bottom_hline:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -645,7 +645,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b35ec
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -750,7 +750,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b35f0
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -772,7 +772,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1c5b
+    sget v0, Lcom/resouce/module/ResID;->pad_writer_tool_bottom:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -798,7 +798,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b35fe
+    sget v0, Lcom/resouce/module/ResID;->writer_pad_decorate:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -838,7 +838,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b1c5c
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_tvmeeting_titlebar_layout:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -877,7 +877,7 @@
     .line 2
     new-instance v0, Lv7l;
 
-    const v1, 0x7f0b35a5
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_float_view:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -1005,7 +1005,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b35fa
+    sget v1, Lcom/resouce/module/ResID;->writer_middle_bar:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1025,7 +1025,7 @@
     .line 2
     new-instance v0, Lq8l;
 
-    const v1, 0x7f0b1c51
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_mouse_reflow_panel:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -1050,7 +1050,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1c52
+    sget v0, Lcom/resouce/module/ResID;->pad_writer_mouse_scale:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -1079,7 +1079,7 @@
     .line 2
     new-instance v0, Lo8l;
 
-    const v1, 0x7f0b1bc2
+    sget v1, Lcom/resouce/module/ResID;->pad_bottom_tools:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -1207,7 +1207,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3056
+    sget v1, Lcom/resouce/module/ResID;->toolbar_bottom_hline:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1241,7 +1241,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b040f
+    sget v1, Lcom/resouce/module/ResID;->circle_progressbar_switch:I
 
     invoke-virtual {v0, v1}, Ltf6;->g(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3056
+    sget v1, Lcom/resouce/module/ResID;->toolbar_bottom_hline:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 

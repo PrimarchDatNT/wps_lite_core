@@ -539,7 +539,7 @@
 .method public static h(Landroid/view/View;Ljava/lang/String;)V
     .locals 4
 
-    const v0, 0x7f0b2e77
+    sget v0, Lcom/resouce/module/ResID;->tag_key_data:I
 
     .line 1
     :try_start_0
@@ -590,7 +590,7 @@
 .method public static i(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1bbd
+    sget v0, Lcom/resouce/module/ResID;->pad_app_topic_item_tips_red_dot:I
 
     .line 1
     :try_start_0
@@ -602,7 +602,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b1bbb
+    sget v0, Lcom/resouce/module/ResID;->pad_app_topic_item_red_msg:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2e77
+    sget v0, Lcom/resouce/module/ResID;->tag_key_data:I
 
     const/4 v1, 0x0
 
@@ -642,7 +642,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122adc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_time_limit_free:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -750,7 +750,7 @@
     goto :goto_2
 
     :cond_4
-    const p2, 0x7f0b1bbb
+    sget p2, Lcom/resouce/module/ResID;->pad_app_topic_item_red_msg:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
     goto :goto_2
 
     :cond_5
-    const p1, 0x7f0b1bbd
+    sget p1, Lcom/resouce/module/ResID;->pad_app_topic_item_tips_red_dot:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

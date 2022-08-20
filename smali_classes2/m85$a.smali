@@ -107,7 +107,7 @@
     :cond_2
     if-nez v3, :cond_4
 
-    const p1, 0x7f1223c8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_kitkat_file_cant_write_onclick_tips:I
 
     .line 6
     invoke-static {v0, p2, p1}, Lw83;->f(Landroid/content/Context;Ljava/lang/String;I)Ljava/lang/String;

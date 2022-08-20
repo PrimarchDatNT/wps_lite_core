@@ -42,7 +42,7 @@
     :try_start_0
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery$c;->B:Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;
 
-    const v1, 0x7f0b1d04
+    sget v1, Lcom/resouce/module/ResID;->path_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -51,7 +51,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery$c;->B:Lcn/wps/moffice/common/beans/phone/pathgallery/PathGallery;
 
-    const v2, 0x7f0b0d92
+    sget v2, Lcom/resouce/module/ResID;->first_path:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

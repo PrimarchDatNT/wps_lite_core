@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="246.0dip" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.indicator.UnderlinePageIndicator android:gravity="center_vertical" android:id="@id/writer_pad_popup_viewpager_indicator" android:layout_width="246.0dip" android:layout_height="wrap_content" android:layoutDirection="ltr" />
-    <View style="@style/writer_pad_popup_menu_divider" />
-    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/writer_pad_popup_viewpager_viewpager" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="246.0dip" android:layout_height="108.0dip" style="@style/public_keyboard_mouse_no_background_style" />
-</LinearLayout>

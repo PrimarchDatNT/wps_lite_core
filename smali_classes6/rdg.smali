@@ -340,7 +340,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    const v2, 0x7f120b70
+    sget v2, Lcom/resouce/module/ResSTRING;->et_hyperlink_file_select:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -363,7 +363,7 @@
     .line 4
     new-instance v2, Lm7h;
 
-    const v3, 0x7f0e01fc
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_hyperlink_dropdown_hint:I
 
     invoke-direct {v2, v0, v3, v1}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -373,7 +373,7 @@
     :cond_0
     new-instance v2, Lm7h;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v2, v0, v3, v1}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -531,7 +531,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    const v2, 0x7f120b78
+    sget v2, Lcom/resouce/module/ResSTRING;->et_hyperlink_web:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -542,7 +542,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120b74
+    sget v2, Lcom/resouce/module/ResSTRING;->et_hyperlink_local:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -552,7 +552,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120b6d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_hyperlink_email:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120b76
+    sget v2, Lcom/resouce/module/ResSTRING;->et_hyperlink_local_file:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -585,7 +585,7 @@
     .line 5
     new-instance v2, Lm7h;
 
-    const v3, 0x7f0e01fc
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_hyperlink_dropdown_hint:I
 
     invoke-direct {v2, v0, v3, v1}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -595,7 +595,7 @@
     :cond_0
     new-instance v2, Lm7h;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v2, v0, v3, v1}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -614,7 +614,7 @@
     .line 1
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a9d
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_titleBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -627,7 +627,7 @@
     .line 2
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f120bef
+    sget v1, Lcom/resouce/module/ResSTRING;->et_prot_sheet_insert_link:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -648,7 +648,7 @@
 
     iput-object v0, p0, Lrdg;->r0:Landroid/view/View;
 
-    const v1, 0x7f0b0aa0
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_web_page_group:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
     .line 7
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a9a
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_show_word:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -675,7 +675,7 @@
     .line 8
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a9e
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_web_address:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -728,7 +728,7 @@
     .line 14
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a9c
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_tab_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -741,7 +741,7 @@
     .line 15
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a93
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_local_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -754,7 +754,7 @@
     .line 16
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a97
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_local_src_cell:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -767,7 +767,7 @@
     .line 17
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a96
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_local_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
     .line 18
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a8b
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_email_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -793,7 +793,7 @@
     .line 19
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a89
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_email_address:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -811,7 +811,7 @@
     .line 21
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a98
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_mail_theme:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -824,7 +824,7 @@
     .line 22
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a8d
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_file_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
     .line 23
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a8f
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_file_path:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -850,7 +850,7 @@
     .line 24
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a87
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_custom_tabhost:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -863,7 +863,7 @@
     .line 25
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a88
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -881,7 +881,7 @@
     .line 27
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a99
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_select_cells:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -962,7 +962,7 @@
     .line 38
     iget-object v0, p0, Lrdg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0a86
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1197,7 +1197,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne v0, v1, :cond_0
 
@@ -1210,7 +1210,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_1
 
@@ -1223,7 +1223,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne v0, v1, :cond_3
 
@@ -1251,7 +1251,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-ne v0, v1, :cond_4
 
@@ -1264,7 +1264,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b0a88
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_delete:I
 
     if-ne v0, v1, :cond_6
 
@@ -1288,7 +1288,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f0b0a99
+    sget v1, Lcom/resouce/module/ResID;->et_hyperlink_select_cells:I
 
     if-ne v0, v1, :cond_8
 
@@ -1346,7 +1346,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01fd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_hyperlink_input_dialog_p:I
 
     .line 5
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1360,7 +1360,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0971
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_hyperlink_input_dialog:I
 
     .line 6
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1404,7 +1404,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 11
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -1623,7 +1623,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1707,7 +1707,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070195
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_complex_common_edittextdropdown_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1815,7 +1815,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0a0001
+    sget v1, Lcom/resouce/module/ResFRACTION;->et_hyperlink_content_width_radio_v:I
 
     invoke-virtual {p1, v1, v0, v0}, Landroid/content/res/Resources;->getFraction(III)F
 

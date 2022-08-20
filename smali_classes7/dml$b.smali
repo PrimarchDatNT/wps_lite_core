@@ -55,7 +55,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1201ae
+    sget p2, Lcom/resouce/module/ResSTRING;->apps_resume_preview_lp_not_check_tip:I
 
     const/4 v0, 0x0
 

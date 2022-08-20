@@ -30,15 +30,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08046c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_properties:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e49
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_properties_et:I
 
     :goto_0
-    const v2, 0x7f122a60
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyler$3;-><init>(Lcn/wps/moffice/spreadsheet/control/table_style/TableStyler;II)V
 

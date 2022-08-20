@@ -89,7 +89,7 @@
 .method public getAdChoiceContainerId()I
     .locals 1
 
-    const v0, 0x7f0b19a0
+    sget v0, Lcom/resouce/module/ResID;->native_ad_choice_container:I
 
     return v0
 .end method
@@ -97,7 +97,7 @@
 .method public getBackgroundImgId()I
     .locals 1
 
-    const v0, 0x7f0b199c
+    sget v0, Lcom/resouce/module/ResID;->native_ad_bg_image:I
 
     return v0
 .end method
@@ -105,7 +105,7 @@
 .method public getBottomLayoutId()I
     .locals 1
 
-    const v0, 0x7f0b2ca3
+    sget v0, Lcom/resouce/module/ResID;->splash_bottom:I
 
     return v0
 .end method
@@ -113,7 +113,7 @@
 .method public getCallToActionTextId()I
     .locals 1
 
-    const v0, 0x7f0b199f
+    sget v0, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     return v0
 .end method
@@ -121,7 +121,7 @@
 .method public getCloseClickAreaId()I
     .locals 1
 
-    const v0, 0x7f0b19a0
+    sget v0, Lcom/resouce/module/ResID;->native_ad_choice_container:I
 
     return v0
 .end method
@@ -147,7 +147,7 @@
 .method public getFrameLayoutId()I
     .locals 1
 
-    const v0, 0x7f0b19a8
+    sget v0, Lcom/resouce/module/ResID;->native_ad_parent:I
 
     return v0
 .end method
@@ -155,7 +155,7 @@
 .method public getHeadContainerId()I
     .locals 1
 
-    const v0, 0x7f0b19a1
+    sget v0, Lcom/resouce/module/ResID;->native_ad_head_container:I
 
     return v0
 .end method
@@ -163,7 +163,7 @@
 .method public getIconContainerId()I
     .locals 1
 
-    const v0, 0x7f0b19a2
+    sget v0, Lcom/resouce/module/ResID;->native_ad_icon_container:I
 
     return v0
 .end method
@@ -171,7 +171,7 @@
 .method public getIconImageId()I
     .locals 1
 
-    const v0, 0x7f0b19a3
+    sget v0, Lcom/resouce/module/ResID;->native_ad_icon_image:I
 
     return v0
 .end method
@@ -179,7 +179,7 @@
 .method public getMainImageId()I
     .locals 1
 
-    const v0, 0x7f0b19a4
+    sget v0, Lcom/resouce/module/ResID;->native_ad_main_image:I
 
     return v0
 .end method
@@ -187,7 +187,7 @@
 .method public getMainWebViewId()I
     .locals 1
 
-    const v0, 0x7f0b19a5
+    sget v0, Lcom/resouce/module/ResID;->native_ad_main_webView:I
 
     return v0
 .end method
@@ -195,7 +195,7 @@
 .method public getMediaContainerId()I
     .locals 1
 
-    const v0, 0x7f0b19a6
+    sget v0, Lcom/resouce/module/ResID;->native_ad_media_container:I
 
     return v0
 .end method
@@ -203,7 +203,7 @@
 .method public getMediaViewId()I
     .locals 1
 
-    const v0, 0x7f0b19a7
+    sget v0, Lcom/resouce/module/ResID;->native_ad_media_view:I
 
     return v0
 .end method
@@ -211,7 +211,7 @@
 .method public getPrivacyInformationIconImageId()I
     .locals 1
 
-    const v0, 0x7f0b19a9
+    sget v0, Lcom/resouce/module/ResID;->native_ad_privacy_information_icon_image:I
 
     return v0
 .end method
@@ -219,7 +219,7 @@
 .method public getSourceId()I
     .locals 1
 
-    const v0, 0x7f0b19ac
+    sget v0, Lcom/resouce/module/ResID;->native_ad_source:I
 
     return v0
 .end method
@@ -227,7 +227,7 @@
 .method public getSplashCloseId()I
     .locals 1
 
-    const v0, 0x7f0b2ca6
+    sget v0, Lcom/resouce/module/ResID;->splash_close_button:I
 
     return v0
 .end method
@@ -235,7 +235,7 @@
 .method public getSplashPageId()I
     .locals 1
 
-    const v0, 0x7f0b18d6
+    sget v0, Lcom/resouce/module/ResID;->mopub_splash_page:I
 
     return v0
 .end method
@@ -243,7 +243,7 @@
 .method public getTextId()I
     .locals 1
 
-    const v0, 0x7f0b19ae
+    sget v0, Lcom/resouce/module/ResID;->native_ad_text:I
 
     return v0
 .end method
@@ -251,7 +251,7 @@
 .method public getTipsId()I
     .locals 1
 
-    const v0, 0x7f0b19af
+    sget v0, Lcom/resouce/module/ResID;->native_ad_tips:I
 
     return v0
 .end method
@@ -259,7 +259,7 @@
 .method public getTipsParentId()I
     .locals 1
 
-    const v0, 0x7f0b19b0
+    sget v0, Lcom/resouce/module/ResID;->native_ad_tips_parent:I
 
     return v0
 .end method
@@ -267,7 +267,7 @@
 .method public getTitleId()I
     .locals 1
 
-    const v0, 0x7f0b19b1
+    sget v0, Lcom/resouce/module/ResID;->native_ad_title:I
 
     return v0
 .end method
@@ -275,7 +275,7 @@
 .method public getWifiPreCachedTipsId()I
     .locals 1
 
-    const v0, 0x7f0b19b3
+    sget v0, Lcom/resouce/module/ResID;->native_ad_wifi_cache_tips_text:I
 
     return v0
 .end method

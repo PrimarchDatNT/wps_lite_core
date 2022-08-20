@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ec2
+    sget v1, Lcom/resouce/module/ResSTRING;->send_gift_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f82
+    sget v1, Lcom/resouce/module/ResSTRING;->sp_key_pay_order_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1228fd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_msg_count_limit:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -142,7 +142,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f122902
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_msg_rec_sharecode_expired:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -153,7 +153,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f122900
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_msg_rec_cannot_receive_owner:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -164,7 +164,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f1228fe
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_msg_lock:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -175,7 +175,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f122903
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_no_relation_msg:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -186,7 +186,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f1228ff
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_msg_network:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -197,7 +197,7 @@
 
     invoke-virtual {v0, v3, v2}, Landroid/util/ArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f122904
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_other_error:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

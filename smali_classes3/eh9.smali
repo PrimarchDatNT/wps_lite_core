@@ -57,7 +57,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221e7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_forum:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1221ed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_forum_register:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

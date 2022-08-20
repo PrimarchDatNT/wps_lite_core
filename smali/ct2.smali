@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0106
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_wps_update_remind:I
 
     const/4 v2, 0x0
 
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b347c
+    sget v1, Lcom/resouce/module/ResID;->wps_download_desc:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setMovementMethod(Landroid/text/method/MovementMethod;)V
 
-    const v1, 0x7f0b347f
+    sget v1, Lcom/resouce/module/ResID;->wps_download_size:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     iput-object v1, p0, Lct2;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b347d
+    sget v1, Lcom/resouce/module/ResID;->wps_download_logo:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object v1, p0, Lct2;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b347e
+    sget v1, Lcom/resouce/module/ResID;->wps_download_no_thanks:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b3480
+    sget v1, Lcom/resouce/module/ResID;->wps_download_update:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206a4
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sort_filesize:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -407,7 +407,7 @@
     .line 6
     iget-object v0, p0, Lct2;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f08203b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_update_logo:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

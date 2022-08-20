@@ -254,12 +254,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const v1, 0x7f122be1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_watermark_default_text:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f121d3e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     .line 2
     :goto_1
@@ -279,7 +279,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0600ac
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_watermark_0:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -175,7 +175,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f120b6c
+    sget p1, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     .line 13
     invoke-static {p1, v1}, Lsjf;->k(II)V

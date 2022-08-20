@@ -244,7 +244,7 @@
 
     move-result v4
 
-    const v5, 0x7f1202ec
+    sget v5, Lcom/resouce/module/ResSTRING;->commodity_do_you_want:I
 
     if-nez v4, :cond_3
 
@@ -402,7 +402,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -416,7 +416,7 @@
     .line 4
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_commodity_show_layout:I
 
     .line 5
     invoke-virtual {p1}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
@@ -432,7 +432,7 @@
 
     iput-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b04d5
+    sget v1, Lcom/resouce/module/ResID;->commodity_content_root:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -457,7 +457,7 @@
     .line 9
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b04d2
+    sget v1, Lcom/resouce/module/ResID;->commodity_1_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -470,7 +470,7 @@
     .line 10
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b04d3
+    sget v1, Lcom/resouce/module/ResID;->commodity_2_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
     .line 11
     iget-object v0, p0, Lq54;->h:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f0600cf
+    sget v1, Lcom/resouce/module/ResCOLOR;->commodity_show_card_img_border:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setBorderColorResId(I)V
 
@@ -503,7 +503,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070087
+    sget v4, Lcom/resouce/module/ResDIMEN;->commodity_show_card_radius:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -539,7 +539,7 @@
     .line 17
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b04d4
+    sget v1, Lcom/resouce/module/ResID;->commodity_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -552,7 +552,7 @@
     .line 18
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b04db
+    sget v1, Lcom/resouce/module/ResID;->commodity_tag:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -565,7 +565,7 @@
     .line 19
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b0324
+    sget v1, Lcom/resouce/module/ResID;->button_jump_commodity_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
     .line 20
     iget-object v0, p0, Lq54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b0094
+    sget v1, Lcom/resouce/module/ResID;->ad_sign:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -595,7 +595,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ce
+    sget v2, Lcom/resouce/module/ResCOLOR;->commodity_show_card_ad_text_color:I
 
     .line 22
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -608,7 +608,7 @@
     .line 24
     iget-object v0, p0, Lq54;->o:Lcn/wps/moffice/common/infoflow/SpreadView;
 
-    const v1, 0x7f08019f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->commodity_card_close:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/infoflow/SpreadView;->setPremiumArrowImage(I)V
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout style="@style/v10_phone_public_panel_list_item_third"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/ppt_toolbar_item_icon" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
-    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/ppt_toolbar_subitem_container" android:paddingLeft="0.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="6.0dip" android:layout_alignParentEnd="true" />
-    <TextView android:id="@id/ppt_toolbar_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ppt_toolbar_subitem_container" android:layout_toRightOf="@id/ppt_toolbar_item_icon" android:layout_centerVertical="true" android:layout_toStartOf="@id/ppt_toolbar_subitem_container" android:layout_toEndOf="@id/ppt_toolbar_item_icon" style="@style/v10_phone_public_panel_list_item_text_style" />
-</RelativeLayout>

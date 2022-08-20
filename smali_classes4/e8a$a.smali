@@ -85,7 +85,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e05bc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_new_document_item:I
 
     const/4 v2, 0x0
 
@@ -113,7 +113,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b13c7
+    sget v0, Lcom/resouce/module/ResID;->item_image:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b13ec
+    sget v0, Lcom/resouce/module/ResID;->item_text:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

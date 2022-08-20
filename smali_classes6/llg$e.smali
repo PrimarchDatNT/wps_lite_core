@@ -69,12 +69,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0223
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_phone_rom_read_cardmode_list_item:I
 
     return p1
 
     :cond_0
-    const p1, 0x7f0e0219
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_list_item:I
 
     return p1
 .end method
@@ -228,7 +228,7 @@
     .line 16
     iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f08046a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_pocket_watch_card2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -238,7 +238,7 @@
     :cond_5
     iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f080469
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_pocket_watch_card:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 

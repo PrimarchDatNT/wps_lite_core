@@ -59,7 +59,7 @@
     .line 2
     iget-object v0, p0, Lrq9;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c25
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_app_openplatform_layout:I
 
     const/4 v2, 0x0
 
@@ -73,7 +73,7 @@
     :cond_0
     iget-object p1, p0, Ltr9;->n:Landroid/view/View;
 
-    const v0, 0x7f0b2246
+    sget v0, Lcom/resouce/module/ResID;->platformAdvantage:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
     .line 9
     iget-object p1, p0, Ltr9;->n:Landroid/view/View;
 
-    const v0, 0x7f0b2247
+    sget v0, Lcom/resouce/module/ResID;->platformOperation:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

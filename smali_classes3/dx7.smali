@@ -27,7 +27,7 @@
 
     invoke-direct {v0, p0}, Ldx7;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121e20
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_account_treaty:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -59,7 +59,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b2fe8
+    sget p1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const v0, 0x7f081174
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_back_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -119,7 +119,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12060c
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_wpscloud_service:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

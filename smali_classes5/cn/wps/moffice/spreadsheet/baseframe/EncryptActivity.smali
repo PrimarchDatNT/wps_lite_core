@@ -327,7 +327,7 @@
     .line 8
     new-instance v0, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v3, 0x7f12257d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     invoke-direct {v0, p0, v3}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 
@@ -351,7 +351,7 @@
     .line 11
     new-instance v0, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v4, 0x7f12257f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_online_security_permission_denied:I
 
     invoke-direct {v0, p0, v4}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 
@@ -389,7 +389,7 @@
     .line 17
     new-instance v0, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v3, 0x7f120b82
+    sget v3, Lcom/resouce/module/ResSTRING;->et_loadDocumentFileUnsupportedEncryptionError:I
 
     invoke-direct {v0, p0, v3}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 
@@ -408,7 +408,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f121f88
+    sget v4, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_unknown:I
 
     if-eqz v0, :cond_7
 
@@ -450,7 +450,7 @@
     :cond_7
     instance-of v0, p1, Lwc5;
 
-    const v5, 0x7f122412
+    sget v5, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     if-eqz v0, :cond_8
 
@@ -497,7 +497,7 @@
     .line 31
     new-instance v0, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v3, 0x7f122411
+    sget v3, Lcom/resouce/module/ResSTRING;->public_loadDocumentFormatError:I
 
     invoke-direct {v0, p0, v3}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 
@@ -527,7 +527,7 @@
     .line 34
     new-instance v0, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v3, 0x7f12240f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_loadDocumentErrorFromMail:I
 
     invoke-direct {v0, p0, v3}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 
@@ -546,7 +546,7 @@
 
     if-eqz v0, :cond_c
 
-    const v0, 0x7f1207a1
+    sget v0, Lcom/resouce/module/ResSTRING;->et_circle_reference_error:I
 
     const/4 v3, 0x1
 
@@ -698,7 +698,7 @@
     :cond_12
     new-instance p1, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-direct {p1, p0, v0}, Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity$h;-><init>(Lcn/wps/moffice/spreadsheet/baseframe/EncryptActivity;I)V
 

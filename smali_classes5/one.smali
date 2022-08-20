@@ -336,7 +336,7 @@
     .line 6
     iget-object p1, p0, Lone;->a:Landroid/content/Context;
 
-    const v0, 0x7f121c7c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_play_online_video:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -346,7 +346,7 @@
     :cond_1
     iget-object p1, p0, Lone;->a:Landroid/content/Context;
 
-    const v0, 0x7f121c7b
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_find_external_video:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -388,7 +388,7 @@
 
     iget-object v1, p0, Lone;->a:Landroid/content/Context;
 
-    const v2, 0x7f121c7d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_video_extracting_video_file:I
 
     invoke-direct {v0, v1, v2}, Lsod;-><init>(Landroid/content/Context;I)V
 
@@ -599,7 +599,7 @@
     :catchall_0
     iget-object p1, p0, Lone;->a:Landroid/content/Context;
 
-    const v0, 0x7f121c7f
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_video_install_videoplayer_tip:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

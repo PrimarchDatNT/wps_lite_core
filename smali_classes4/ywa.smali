@@ -1815,7 +1815,7 @@
 
     if-ne p1, v1, :cond_0
 
-    const p1, 0x7f122846
+    sget p1, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -1849,7 +1849,7 @@
 
     if-ne p1, v1, :cond_2
 
-    const p1, 0x7f122840
+    sget p1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     .line 3
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -1864,7 +1864,7 @@
     :cond_2
     if-eqz p2, :cond_4
 
-    const v1, 0x7f120585
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     .line 5
     invoke-static {p0, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -1898,7 +1898,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f122546
+    sget p1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 7
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V

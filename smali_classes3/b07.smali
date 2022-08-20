@@ -431,7 +431,7 @@
     :goto_0
     iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v4, 0x7f0b34b1
+    sget v4, Lcom/resouce/module/ResID;->wpsdrive_item_view:I
 
     iget-object v5, p1, Lb07$j;->j0:Lqb7;
 
@@ -733,7 +733,7 @@
 
     move-result v0
 
-    const v1, 0x7f081fcc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     if-eqz v0, :cond_3
 
@@ -745,7 +745,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08122b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -772,7 +772,7 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f081626    # 1.8089E38f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     :goto_1
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1015,7 +1015,7 @@
 
     move-result v0
 
-    const v3, 0x7f12156d
+    sget v3, Lcom/resouce/module/ResSTRING;->open_platform_select_file_limit:I
 
     if-eqz v0, :cond_2
 
@@ -1149,7 +1149,7 @@
     .line 16
     iget-object p1, p0, Lb07;->g0:Landroid/content/Context;
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2086,7 +2086,7 @@
 .method public final l0(Landroid/view/View;)Ljava/lang/Object;
     .locals 1
 
-    const v0, 0x7f0b34b1
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_item_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

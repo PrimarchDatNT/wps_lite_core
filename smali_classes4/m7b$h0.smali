@@ -223,7 +223,7 @@
 
     iget-object p1, p1, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v0, 0x7f120430
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_identified_image_at_most:I
 
     new-array v1, v1, [Ljava/lang/Object;
 

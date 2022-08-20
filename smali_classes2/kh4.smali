@@ -409,7 +409,7 @@
     .line 5
     iget-object p1, p0, Lkh4;->a:Landroid/content/Context;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -435,7 +435,7 @@
     :cond_2
     iget-object p1, p0, Lkh4;->a:Landroid/content/Context;
 
-    const p2, 0x7f122158
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_share_cancaled:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -454,7 +454,7 @@
     .line 9
     iget-object p1, p0, Lkh4;->a:Landroid/content/Context;
 
-    const p2, 0x7f12212c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_file_has_deleted:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 

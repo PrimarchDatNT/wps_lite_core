@@ -30,7 +30,7 @@
     .line 2
     iput-object p2, p0, Lbne$c$b;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b1bc6
+    sget p1, Lcom/resouce/module/ResID;->pad_color_select_iv:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

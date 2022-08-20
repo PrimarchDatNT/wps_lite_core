@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1015
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_public_style_textimage_layout:I
 
     const/4 v2, 0x1
 
@@ -91,7 +91,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/V10StyleTextImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f44
+    sget v1, Lcom/resouce/module/ResID;->textimage_upper_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/beans/V10StyleTextImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f43
+    sget v1, Lcom/resouce/module/ResID;->textimage_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
 
     invoke-virtual {p3, v1, p1}, Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;->setTextSize(IF)V
 
-    const p1, 0x7f0820aa
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_selector:I
 
     .line 17
     invoke-virtual {p2, v2, p1}, Landroid/content/res/TypedArray;->getResourceId(II)I

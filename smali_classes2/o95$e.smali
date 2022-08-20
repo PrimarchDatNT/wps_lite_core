@@ -57,9 +57,9 @@
 
     sget-object v0, Lo95$f;->I:Lo95$f;
 
-    const v1, 0x7f080afd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_edit:I
 
-    const v2, 0x7f12203e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-direct {p1, p0, v1, v2, v0}, Lo95$e$a;-><init>(Lo95$e;IILo95$f;)V
 
@@ -70,9 +70,9 @@
 
     sget-object v0, Lo95$f;->S:Lo95$f;
 
-    const v1, 0x7f080aff
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_rename:I
 
-    const v2, 0x7f1227f7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-direct {p1, p0, v1, v2, v0}, Lo95$e$a;-><init>(Lo95$e;IILo95$f;)V
 
@@ -83,9 +83,9 @@
 
     sget-object v0, Lo95$f;->T:Lo95$f;
 
-    const v1, 0x7f080afc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_deletefile:I
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-direct {p1, p0, v1, v2, v0}, Lo95$e$a;-><init>(Lo95$e;IILo95$f;)V
 

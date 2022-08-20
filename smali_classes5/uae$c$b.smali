@@ -72,7 +72,7 @@
 
     iget-object v0, v0, Luae;->a:Landroid/content/Context;
 
-    const v2, 0x7f122131
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_not_exist_download_again:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

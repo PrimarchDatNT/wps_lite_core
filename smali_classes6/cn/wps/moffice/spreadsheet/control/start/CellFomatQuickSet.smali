@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e101b    # 1.88834E38f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_divide_grid_text_item_layout:I    # 1.88834E38f
 
     const/4 v2, 0x0
 
@@ -162,7 +162,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/start/CellFomatQuickSet;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b2190
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_vertical_divide_item_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b214e
+    sget v3, Lcom/resouce/module/ResID;->phone_ss_item_text:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -680,17 +680,17 @@
 
     invoke-direct {v2, v4, v5}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v4, 0x7f120b89
+    sget v4, Lcom/resouce/module/ResSTRING;->et_merge_cells_warning:I
 
     .line 8
     invoke-virtual {v2, v4}, Lhd3;->setMessage(I)Lhd3;
 
-    const v4, 0x7f122fdb
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_merge_cells_warning_title:I
 
     .line 9
     invoke-virtual {v2, v4}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v4, 0x7f122a5a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     .line 10
     new-instance v5, Lcn/wps/moffice/spreadsheet/control/start/CellFomatQuickSet$a;
@@ -699,7 +699,7 @@
 
     invoke-virtual {v2, v4, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
-        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/public_home_app_application" android:layout_marginStart="20.0dip" />
-        <include android:layout_gravity="end|center" android:id="@id/pad_public_reddot_msg_img_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" layout="@layout/pad_public_reddot_msg_img" />
-    </FrameLayout>
-    <ListView android:id="@id/phone_home_apps_content" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_home_app_list" />
-</LinearLayout>

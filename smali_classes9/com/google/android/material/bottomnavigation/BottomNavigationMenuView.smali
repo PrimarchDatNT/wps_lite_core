@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0700a0
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_item_max_width:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -67,7 +67,7 @@
 
     iput v0, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->o0:I
 
-    const v0, 0x7f0700a1
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_item_min_width:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -76,7 +76,7 @@
 
     iput v0, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->p0:I
 
-    const v0, 0x7f07009a
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_active_item_max_width:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -85,7 +85,7 @@
 
     iput v0, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->q0:I
 
-    const v0, 0x7f07009b
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_active_item_min_width:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -94,7 +94,7 @@
 
     iput v0, p0, Lcom/google/android/material/bottomnavigation/BottomNavigationMenuView;->r0:I
 
-    const v0, 0x7f07009e
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_height:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

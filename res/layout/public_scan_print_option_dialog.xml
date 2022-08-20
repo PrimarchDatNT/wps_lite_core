@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.print.SettingItemView android:id="@id/siv_side" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_print_option_side" app:optionText="@string/public_modify" app:optionTextColor="@color/secondaryColor" app:showSubText="true" />
-    <cn.wps.moffice.common.print.SettingItemView android:id="@id/siv_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_print_option_color" app:optionText="@string/public_modify" app:optionTextColor="@color/secondaryColor" app:showSubText="true" />
-    <cn.wps.moffice.common.print.SettingItemView android:id="@id/siv_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_print_option_layout" app:dividerVisibility="true" app:optionText="@string/public_modify" app:optionTextColor="@color/secondaryColor" app:showSubText="true" />
-</LinearLayout>

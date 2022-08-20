@@ -124,7 +124,7 @@
 
     const v0, 0xffffff
 
-    const v1, 0x7f1207be
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_style_none:I
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;->setColorAndText(II)V
 

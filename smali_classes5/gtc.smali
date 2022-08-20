@@ -176,7 +176,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121997
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_toolbox:I
 
     return v0
 .end method
@@ -418,7 +418,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07b4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_func_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -428,7 +428,7 @@
 
     iput-object v0, p0, Lgtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e15
+    sget v1, Lcom/resouce/module/ResID;->pdf_func_panel_out_put_other_format:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
     .line 7
     iget-object v0, p0, Lgtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e13
+    sget v1, Lcom/resouce/module/ResID;->pdf_func_panel_edit_and_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -503,7 +503,7 @@
     .line 12
     iget-object v0, p0, Lgtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e11
+    sget v1, Lcom/resouce/module/ResID;->pdf_func_panel_document_processing:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -571,7 +571,7 @@
 
     check-cast v2, Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b1e10
+    sget v3, Lcom/resouce/module/ResID;->pdf_func_panel:I
 
     .line 19
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -813,11 +813,11 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b8f
+    sget v1, Lcom/resouce/module/ResID;->out_put_other_format_div_line:I
 
-    const v2, 0x7f0b1e15
+    sget v2, Lcom/resouce/module/ResID;->pdf_func_panel_out_put_other_format:I
 
-    const v3, 0x7f0b1e16
+    sget v3, Lcom/resouce/module/ResID;->pdf_func_panel_out_put_other_format_title:I
 
     const/16 v4, 0x8
 
@@ -945,11 +945,11 @@
 
     move-result v0
 
-    const v1, 0x7f0b2530
+    sget v1, Lcom/resouce/module/ResID;->process_div_line:I
 
-    const v2, 0x7f0b1e13
+    sget v2, Lcom/resouce/module/ResID;->pdf_func_panel_edit_and_export:I
 
-    const v3, 0x7f0b1e14
+    sget v3, Lcom/resouce/module/ResID;->pdf_func_panel_edit_and_export_title:I
 
     if-nez v0, :cond_7
 
@@ -1110,9 +1110,9 @@
 
     move-result v0
 
-    const v1, 0x7f0b1e12
+    sget v1, Lcom/resouce/module/ResID;->pdf_func_panel_document_processing_title:I
 
-    const v2, 0x7f0b1e11
+    sget v2, Lcom/resouce/module/ResID;->pdf_func_panel_document_processing:I
 
     if-nez v0, :cond_d
 

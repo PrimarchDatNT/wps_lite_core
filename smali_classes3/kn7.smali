@@ -32,7 +32,7 @@
 
     if-gtz p4, :cond_0
 
-    const p4, 0x7f0e02fd
+    sget p4, Lcom/resouce/module/ResLAYOUT;->home_drive_header_item:I
 
     .line 4
     :cond_0
@@ -57,7 +57,7 @@
 
     iput-object p1, p0, Lkn7;->e:Landroid/view/View;
 
-    const p2, 0x7f0b0fb6
+    sget p2, Lcom/resouce/module/ResID;->header_name:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iget-object v2, p0, Lkn7;->b:Landroid/app/Activity;
 
-    const v3, 0x7f122c6e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wpsdrive_new_folder_location:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

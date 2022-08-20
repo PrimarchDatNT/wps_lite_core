@@ -871,9 +871,9 @@
 
     move-result p2
 
-    const v0, 0x7f12253d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     if-nez p2, :cond_6
 
@@ -962,7 +962,7 @@
     goto :goto_3
 
     :cond_7
-    const p2, 0x7f122ea7
+    sget p2, Lcom/resouce/module/ResSTRING;->search_result_tip:I
 
     .line 21
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
@@ -974,12 +974,12 @@
     goto :goto_4
 
     :cond_8
-    const p2, 0x7f120690
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     .line 23
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
-    const p2, 0x7f081561
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_loading:I
 
     .line 24
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V

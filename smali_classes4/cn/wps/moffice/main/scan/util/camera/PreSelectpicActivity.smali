@@ -31,7 +31,7 @@
 .method public a()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f122981
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

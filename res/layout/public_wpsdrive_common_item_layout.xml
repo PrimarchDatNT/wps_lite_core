@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" style="@style/public_item_container_slide_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/public_wpsdrive_item_first_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/public_wpsdrive_item_second_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
-</LinearLayout>

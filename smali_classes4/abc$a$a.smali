@@ -86,11 +86,11 @@
 
     if-ne v1, v2, :cond_1
 
-    const v1, 0x7f08075b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit:I
 
-    const v2, 0x7f1217b4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
-    const v5, 0x7f1217c6
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
     new-array v6, v4, [Lcib$b;
 
@@ -117,11 +117,11 @@
 
     if-ne v1, v2, :cond_2
 
-    const v1, 0x7f080fea
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_cover_pen_func_guide:I
 
-    const v2, 0x7f1217ac
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_coverpen_fun_guide_title:I
 
-    const v5, 0x7f1217ad
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_coverpen_func_guide_info:I
 
     new-array v6, v4, [Lcib$b;
 
@@ -143,11 +143,11 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08075a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_annotation:I
 
-    const v2, 0x7f1216c8
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
-    const v5, 0x7f1216d5
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_annotation_privilege_desc:I
 
     new-array v6, v4, [Lcib$b;
 

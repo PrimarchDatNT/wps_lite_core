@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_droplist_item_height_L"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="center_vertical" android:id="@id/ppt_hyperlink_droplist_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="16.0dip" style="@style/phone_public_font_m_black" />
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/ppt_hyperlink_droplist_item_iv" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_selected" android:layout_marginEnd="16.0dip" />
-</LinearLayout>

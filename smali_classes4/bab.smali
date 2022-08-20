@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e002a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_distinguish_layout:I
 
     const/4 v2, 0x0
 
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28c1
+    sget v1, Lcom/resouce/module/ResID;->result_viewpager:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
     .line 4
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16e1
+    sget v1, Lcom/resouce/module/ResID;->ll_share:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
     .line 5
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b165a
+    sget v1, Lcom/resouce/module/ResID;->ll_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
     .line 6
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1203f4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_result:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -238,7 +238,7 @@
     .line 11
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16ff
+    sget v1, Lcom/resouce/module/ResID;->ll_translation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -249,7 +249,7 @@
     .line 12
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1280
+    sget v1, Lcom/resouce/module/ResID;->image_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 13
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1283
+    sget v1, Lcom/resouce/module/ResID;->image_member_translate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 14
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1282
+    sget v1, Lcom/resouce/module/ResID;->image_member_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -328,7 +328,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0804ea
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->distingush_oversea_preium:I
 
     .line 21
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -589,7 +589,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b16e1
+    sget v0, Lcom/resouce/module/ResID;->ll_share:I
 
     if-ne p1, v0, :cond_0
 
@@ -624,7 +624,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_1
 
@@ -661,7 +661,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b16ff
+    sget v0, Lcom/resouce/module/ResID;->ll_translation:I
 
     if-ne p1, v0, :cond_5
 
@@ -915,7 +915,7 @@
     .line 2
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1203f0
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_fail_text:I
 
     const/4 v4, 0x1
 
@@ -948,7 +948,7 @@
 .method public final v3(I)V
     .locals 3
 
-    const v0, 0x7f0b163d
+    sget v0, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     if-ne p1, v0, :cond_0
 
@@ -957,7 +957,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b16e1
+    sget v0, Lcom/resouce/module/ResID;->ll_share:I
 
     if-ne p1, v0, :cond_1
 
@@ -966,7 +966,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_2
 
@@ -975,7 +975,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b16ff
+    sget v0, Lcom/resouce/module/ResID;->ll_translation:I
 
     if-ne p1, v0, :cond_3
 

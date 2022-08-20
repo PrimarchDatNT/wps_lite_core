@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a5b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_pdf_convert_progress_dialog:I
 
     const/4 v2, 0x0
 
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b254e
+    sget v1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v1, p0, Ljid;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object v1, p0, Ljid;->S:Lcn/wps/moffice/plugin/common/view/MaterialProgressBarHorizontal;
 
-    const v1, 0x7f0b2546
+    sget v1, Lcom/resouce/module/ResID;->progress_msg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
     .line 8
     invoke-virtual {p0, v0}, Lvcd;->setCanAutoDismiss(Z)V
 
-    const v1, 0x7f12177a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     .line 9
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -229,14 +229,14 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 11
     invoke-static {v1}, Ltid;->a(I)I
 
     move-result v1
 
-    const v3, 0x7f12177e
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_remind_after_finish:I
 
     .line 12
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
@@ -289,7 +289,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/plugin/common/view/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121f66
+    sget v0, Lcom/resouce/module/ResSTRING;->public_converting:I
 
     .line 2
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -358,7 +358,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f12177a
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
 
@@ -410,14 +410,14 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121781
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_vip_channel:I
 
     .line 2
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 3
     invoke-static {v1}, Ltid;->a(I)I
@@ -447,7 +447,7 @@
     .line 3
     iget-object v0, p0, Ljid;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f121744
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_interrupted_tips:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -458,7 +458,7 @@
     .line 4
     iget-object v0, p0, Ljid;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-static {v1}, Ltid;->a(I)I
 
@@ -595,7 +595,7 @@
 
     invoke-virtual {v0}, Liid;->e()V
 
-    const v0, 0x7f12202e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     .line 2
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -622,7 +622,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12177a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -650,7 +650,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f121795
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_handling:I
 
     .line 7
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -697,7 +697,7 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/plugin/common/view/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -706,7 +706,7 @@
 
     invoke-virtual {p0, v0, p0}, Lvcd;->setNegativeButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v0, 0x7f1218ac
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_preview_converting:I
 
     .line 8
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -745,7 +745,7 @@
 .method public onUpload()V
     .locals 2
 
-    const v0, 0x7f121796
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

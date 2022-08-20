@@ -54,7 +54,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -151,7 +151,7 @@
     .line 3
     iget-object p1, p0, Lwqc;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f122551
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
 
@@ -161,7 +161,7 @@
     :cond_1
     iget-object p1, p0, Lwqc;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
 
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0652
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_page_adjust_merge_layout:I
 
     const/4 v2, 0x0
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
     .line 3
     iget-object v2, p0, Lwqc;->I:Landroid/content/Context;
 
-    const v3, 0x7f121873
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_select_add_page:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -236,7 +236,7 @@
 
     invoke-virtual {v1, v3, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ZLandroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b16bc
+    sget v1, Lcom/resouce/module/ResID;->ll_pdf_add_merge_page:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b3112
+    sget v1, Lcom/resouce/module/ResID;->tv_button_pdf_add_merge_page:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
 
     invoke-static {v1, v3}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v1, 0x7f0b1622
+    sget v1, Lcom/resouce/module/ResID;->list_content:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
 
     move-result v0
 
-    const v1, 0x7f122263
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_add:I
 
     if-nez v0, :cond_0
 
@@ -515,7 +515,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_0
 
@@ -525,7 +525,7 @@
     goto :goto_2
 
     :cond_0
-    const v0, 0x7f0b16bc
+    sget v0, Lcom/resouce/module/ResID;->ll_pdf_add_merge_page:I
 
     if-ne p1, v0, :cond_6
 

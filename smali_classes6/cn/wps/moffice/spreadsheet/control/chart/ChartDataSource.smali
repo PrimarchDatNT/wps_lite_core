@@ -60,7 +60,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chart/ChartDataSource;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f122543
+    sget v2, Lcom/resouce/module/ResSTRING;->public_none:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

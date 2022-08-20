@@ -49,7 +49,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f12298d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_qrcode:I
 
     return v0
 .end method

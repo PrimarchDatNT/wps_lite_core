@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0907
+    sget v1, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyleFragment;->c0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0254
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_table_attribute:I
 
     .line 3
     invoke-virtual {p1, v2, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -291,7 +291,7 @@
     .line 4
     sget-boolean v0, Ljif;->n:Z
 
-    const v2, 0x7f0b0bbc
+    sget v2, Lcom/resouce/module/ResID;->et_table_content_anchor:I
 
     if-eqz v0, :cond_0
 
@@ -306,7 +306,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyleFragment;->a0:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0258
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_table_style_pad:I
 
     .line 6
     invoke-virtual {p1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyleFragment;->a0:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0255
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_table_style:I
 
     .line 8
     invoke-virtual {p1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -352,7 +352,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyleFragment;->c0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0bd0
+    sget v0, Lcom/resouce/module/ResID;->et_title_bar:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122a60
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -531,7 +531,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe6
+    sget v0, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne p1, v0, :cond_0
 
@@ -541,15 +541,15 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_2
 
@@ -611,7 +611,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyleFragment;->Z:Lcn/wps/moffice/spreadsheet/control/EtTitleBar;
 
-    const p2, 0x7f060259
+    sget p2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBottomLineColor(I)V
 
@@ -620,7 +620,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0907
+    sget p2, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

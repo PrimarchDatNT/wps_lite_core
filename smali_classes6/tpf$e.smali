@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120798
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_title_pos_top:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12076f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_center_overlap_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

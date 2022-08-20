@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e091e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_secret_folder_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -143,12 +143,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f06005d
+    sget v0, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f060142
+    sget v0, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     :goto_0
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/beans/phone/CornerRectLinerLayout;->setCustomBackgroundColor(I)V
@@ -174,7 +174,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1228bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     return v0
 .end method

@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f123413
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_spell_check:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

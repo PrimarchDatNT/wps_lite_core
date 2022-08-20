@@ -251,13 +251,13 @@
 
     move-result v3
 
-    const v5, 0x7f08071a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_merge:I
 
-    const v6, 0x7f12105f
+    sget v6, Lcom/resouce/module/ResSTRING;->home_pay_function_ppt_merge:I
 
-    const v7, 0x7f121061
+    sget v7, Lcom/resouce/module/ResSTRING;->home_pay_function_word_merge:I
 
-    const v8, 0x7f122c12
+    sget v8, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     const/4 v10, 0x0
 
@@ -268,9 +268,9 @@
     .line 12
     sget-object v3, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->B:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v12, 0x7f0601a4
+    sget v12, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v13, 0x7f08072c
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
     if-ne v2, v3, :cond_3
 
@@ -322,9 +322,9 @@
 
     if-ne v2, v3, :cond_5
 
-    const v2, 0x7f1219c1
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
-    const v3, 0x7f12105c
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_et_merge:I
 
     new-array v4, v11, [Lcib$b;
 
@@ -404,7 +404,7 @@
 
     if-ne v2, v3, :cond_d
 
-    const v2, 0x7f080785
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_word_merge:I
 
     new-array v3, v11, [Lcib$b;
 
@@ -563,9 +563,9 @@
 
     if-ne v2, v3, :cond_13
 
-    const v2, 0x7f080772
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_ppt_merge:I
 
-    const v3, 0x7f121b82
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_merge:I
 
     new-array v7, v11, [Lcib$b;
 
@@ -701,9 +701,9 @@
 
     if-ne v2, v3, :cond_1b
 
-    const v2, 0x7f1219c1
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
-    const v3, 0x7f12105c
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_et_merge:I
 
     new-array v6, v11, [Lcib$b;
 
@@ -714,7 +714,7 @@
 
     aput-object v7, v6, v10
 
-    const v7, 0x7f08071a
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_merge:I
 
     .line 59
     invoke-static {v7, v2, v3, v6}, Lcib;->j(III[Lcib$b;)Lcib;

@@ -176,7 +176,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0261
+    sget v0, Lcom/resouce/module/ResLAYOUT;->font_fonc_missing_detail_item_text:I
 
     const/4 v1, 0x0
 

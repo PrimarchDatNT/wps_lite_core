@@ -288,7 +288,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0600b1
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 

@@ -42,12 +42,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0925
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_media_server_style_page:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0924
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_native_media_mopub_style_page:I
 
     :goto_0
     return v0

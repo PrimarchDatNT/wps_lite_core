@@ -59,7 +59,7 @@
     .line 6
     iput-object p2, p0, Lce6;->b:Ljava/lang/String;
 
-    const p1, 0x7f0b1555
+    sget p1, Lcom/resouce/module/ResID;->layout_new_custom_0:I
 
     .line 7
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p1, p0, Lce6;->e:Landroid/view/View;
 
-    const p1, 0x7f0b1556
+    sget p1, Lcom/resouce/module/ResID;->layout_new_custom_1:I
 
     .line 8
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lce6;->f:Landroid/view/View;
 
-    const p1, 0x7f0b12d2
+    sget p1, Lcom/resouce/module/ResID;->imgview_new_custom_0:I
 
     .line 9
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p1, p0, Lce6;->g:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2f6a
+    sget p1, Lcom/resouce/module/ResID;->textview_new_custom_0:I
 
     .line 10
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iput-object p1, p0, Lce6;->h:Landroid/widget/TextView;
 
-    const p1, 0x7f0b12d3
+    sget p1, Lcom/resouce/module/ResID;->imgview_new_custom_1:I
 
     .line 11
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     iput-object p1, p0, Lce6;->i:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2f6b
+    sget p1, Lcom/resouce/module/ResID;->textview_new_custom_1:I
 
     .line 12
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0808e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_shop_template_item_round_blankbg:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -317,7 +317,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const v1, 0x7f0808e1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_shop_template_item_round_bg:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V

@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bb6
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_drive_history_version_layout:I
 
     const/4 p3, 0x0
 
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Lij9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b0745
+    sget p2, Lcom/resouce/module/ResID;->docinfo_drive_history_version_content:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
     .line 9
     iget-object p1, p0, Lij9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b074d
+    sget p2, Lcom/resouce/module/ResID;->docinfo_more_history_version_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0bb5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_drive_history_version_item:I
 
     const/4 v3, 0x0
 
@@ -166,7 +166,7 @@
 
     move-result-object v7
 
-    const v1, 0x7f0b0844
+    sget v1, Lcom/resouce/module/ResID;->editor_avatar_img:I
 
     .line 3
     invoke-virtual {v7, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0847
+    sget v2, Lcom/resouce/module/ResID;->editor_name_text:I
 
     .line 4
     invoke-virtual {v7, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b0846
+    sget v3, Lcom/resouce/module/ResID;->editor_edit_time_text:I
 
     .line 5
     invoke-virtual {v7, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1b24
+    sget v4, Lcom/resouce/module/ResID;->open_history_file_btn:I
 
     .line 6
     invoke-virtual {v7, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v8, 0x7f0b0845
+    sget v8, Lcom/resouce/module/ResID;->editor_edit_status:I
 
     .line 7
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0b052c
+    sget v9, Lcom/resouce/module/ResID;->connecting_line_view:I
 
     .line 8
     invoke-virtual {v7, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
     :cond_5
     if-eqz p2, :cond_6
 
-    const v0, 0x7f121f90
+    sget v0, Lcom/resouce/module/ResSTRING;->public_create:I
 
     .line 29
     invoke-virtual {v8, v0}, Landroid/widget/TextView;->setText(I)V
@@ -371,7 +371,7 @@
     goto :goto_2
 
     :cond_6
-    const v0, 0x7f1224d1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_modify:I
 
     .line 30
     invoke-virtual {v8, v0}, Landroid/widget/TextView;->setText(I)V
@@ -389,7 +389,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -590,7 +590,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0707bc
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -670,7 +670,7 @@
 .method public final g(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b25b9
+    sget v0, Lcom/resouce/module/ResID;->public_docinfo_find_back_from_history_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -723,7 +723,7 @@
 
     invoke-static {v3, v1}, Lgp6;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f0b25b8
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_find_back_from_history:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

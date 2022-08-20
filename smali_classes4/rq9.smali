@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e05b1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_public_home_right_app_item:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -129,7 +129,7 @@
 
     iput-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1be9
+    sget v0, Lcom/resouce/module/ResID;->pad_home_app_item_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
     .line 4
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1bea
+    sget v0, Lcom/resouce/module/ResID;->pad_home_app_item_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -167,12 +167,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e088e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_home_app_item:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e05ac
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_home_app_item:I
 
     .line 6
     :goto_0
@@ -188,7 +188,7 @@
 
     iput-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1fe9
+    sget v0, Lcom/resouce/module/ResID;->phone_home_app_item_icon:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
     .line 8
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1fed
+    sget v0, Lcom/resouce/module/ResID;->phone_home_app_item_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 9
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1fec
+    sget v0, Lcom/resouce/module/ResID;->phone_home_app_item_tips_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -228,7 +228,7 @@
     .line 10
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1feb
+    sget v0, Lcom/resouce/module/ResID;->phone_home_app_item_tips_red_msg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     .line 11
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1fea
+    sget v0, Lcom/resouce/module/ResID;->phone_home_app_item_tips_red_dot:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -254,7 +254,7 @@
     .line 12
     iget-object p1, p0, Lrq9;->c:Landroid/view/View;
 
-    const v0, 0x7f0b145c
+    sget v0, Lcom/resouce/module/ResID;->iv_free:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

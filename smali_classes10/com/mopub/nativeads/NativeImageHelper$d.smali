@@ -71,7 +71,7 @@
     :cond_0
     iget-object p1, p0, Lcom/mopub/nativeads/NativeImageHelper$d;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0819c7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

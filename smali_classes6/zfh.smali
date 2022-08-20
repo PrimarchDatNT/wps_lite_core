@@ -67,15 +67,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121f44
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm_delete_selected_files:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120589
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_confirm_delete_file:I
 
     :goto_0
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -91,7 +91,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025d
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     new-instance v7, Lzfh$a;
 

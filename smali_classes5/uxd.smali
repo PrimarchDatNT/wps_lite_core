@@ -102,12 +102,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f13012d
+    sget p3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f130125
+    sget p3, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     const/4 v2, 0x1
@@ -135,12 +135,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0e0a90
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_pad_hyperlink_layout:I
 
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0e0aa3
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_phone_hyperlink_layout:I
 
     :goto_1
     invoke-virtual {p1, p2}, Lhd3$g;->setContentView(I)V
@@ -148,7 +148,7 @@
     .line 12
     iget-object p1, p0, Luxd;->I:Lhd3$g;
 
-    const p2, 0x7f0b22e4
+    sget p2, Lcom/resouce/module/ResID;->ppt_hyperlink_root:I
 
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -243,7 +243,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081b97
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_gray_bg_4dp_1px_21:I
 
     iget-object v1, p0, Luxd;->B:Landroid/content/Context;
 
@@ -344,7 +344,7 @@
     .line 37
     iget-object p1, p0, Luxd;->W:Lcn/wps/moffice/presentation/control/common/PptTitleBar;
 
-    const p2, 0x7f0b2fe4
+    sget p2, Lcom/resouce/module/ResID;->title_bar_left_part:I
 
     .line 38
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -838,7 +838,7 @@
 
     iget-object v2, p0, Luxd;->B:Landroid/content/Context;
 
-    const v3, 0x7f121b7b
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_hyperlink_unsupport:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1029,7 +1029,7 @@
 
     iget-object v8, p0, Luxd;->B:Landroid/content/Context;
 
-    const v9, 0x7f122338
+    sget v9, Lcom/resouce/module/ResSTRING;->public_hyperlink_disable_label:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1375,7 +1375,7 @@
 
     iget-object v3, p0, Luxd;->B:Landroid/content/Context;
 
-    const v6, 0x7f121b78
+    sget v6, Lcom/resouce/module/ResSTRING;->ppt_hyperlink_slide_index:I
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1691,7 +1691,7 @@
 
     :cond_3
     :goto_0
-    const v0, 0x7f120b72
+    sget v0, Lcom/resouce/module/ResSTRING;->et_hyperlink_illegal_tip:I
 
     .line 10
     invoke-static {v0, v2}, Ljld;->c(II)V
@@ -1898,7 +1898,7 @@
 
     iget-object v1, p0, Luxd;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e0135
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item:I
 
     invoke-direct {p1, p0, v1, v2, v0}, Luxd$a;-><init>(Luxd;Landroid/content/Context;ILjava/util/List;)V
 
@@ -2023,7 +2023,7 @@
 
     int-to-long v0, v0
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     int-to-long v2, v2
 
@@ -2042,7 +2042,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v2, 0x7f0b2fde
+    sget v2, Lcom/resouce/module/ResID;->title_bar_close:I
 
     int-to-long v2, v2
 
@@ -2061,7 +2061,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v2, 0x7f0b2fe6
+    sget v2, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     int-to-long v2, v2
 
@@ -2133,7 +2133,7 @@
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0b2fdd
+    sget v2, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     int-to-long v2, v2
 
@@ -2152,7 +2152,7 @@
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f0b22dc
+    sget p1, Lcom/resouce/module/ResID;->ppt_hyperlink_delete:I
 
     int-to-long v2, p1
 
@@ -2253,12 +2253,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0e099e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint_ltr:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e0136
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item_ltr:I
 
     :goto_0
     invoke-direct {p1, p0, v1, v2, v0}, Luxd$k;-><init>(Luxd;Landroid/content/Context;ILjava/util/List;)V
@@ -2415,7 +2415,7 @@
     .line 1
     iget-object v0, p0, Luxd;->B:Landroid/content/Context;
 
-    const v1, 0x7f120b78
+    sget v1, Lcom/resouce/module/ResSTRING;->et_hyperlink_web:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2427,7 +2427,7 @@
 
     iget-object v0, p0, Luxd;->B:Landroid/content/Context;
 
-    const v1, 0x7f120b6d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_hyperlink_email:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2440,7 +2440,7 @@
 
     iget-object v0, p0, Luxd;->B:Landroid/content/Context;
 
-    const v1, 0x7f121b77
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_hyperlink_local:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2455,9 +2455,9 @@
 
     iget-object v3, p0, Luxd;->B:Landroid/content/Context;
 
-    const v4, 0x7f0e07fb
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ppt_hyperlink_dropdown_item:I
 
-    const v5, 0x7f0b22de
+    sget v5, Lcom/resouce/module/ResID;->ppt_hyperlink_droplist_item_tv:I
 
     move-object v1, v0
 
@@ -2513,7 +2513,7 @@
     .line 3
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e9
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_titleBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2523,7 +2523,7 @@
 
     iput-object v0, p0, Luxd;->W:Lcn/wps/moffice/presentation/control/common/PptTitleBar;
 
-    const v1, 0x7f122334
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/PptTitleBar;->setTitle(I)V
@@ -2559,7 +2559,7 @@
     .line 9
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22db
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2570,7 +2570,7 @@
     .line 10
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e8
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_tab_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2594,7 +2594,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081b97
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_gray_bg_4dp_1px_21:I
 
     .line 13
     invoke-static {v1, v3, v2}, Lb7;->c(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
@@ -2606,7 +2606,7 @@
     .line 14
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22eb
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_web_page_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2617,7 +2617,7 @@
     .line 15
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e6
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_slide_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2628,7 +2628,7 @@
     .line 16
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e0
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_email_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2639,7 +2639,7 @@
     .line 17
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22ea
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_web_address:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2691,7 +2691,7 @@
     .line 24
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22df
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_email_address:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2704,7 +2704,7 @@
     .line 25
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e3
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_mail_theme:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2717,7 +2717,7 @@
     .line 26
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e7
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_slide_index:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2737,7 +2737,7 @@
     .line 28
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22e5
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_show_word:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2750,7 +2750,7 @@
     .line 29
     iget-object v0, p0, Luxd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22dc
+    sget v1, Lcom/resouce/module/ResID;->ppt_hyperlink_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2791,7 +2791,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030088
+    sget v1, Lcom/resouce/module/ResARRAY;->urlType:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

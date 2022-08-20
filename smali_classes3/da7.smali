@@ -66,7 +66,7 @@
     .line 5
     iget-object p2, p0, Lda7;->d0:Landroid/view/View;
 
-    const p3, 0x7f0b2e69
+    sget p3, Lcom/resouce/module/ResID;->tag_drive_item_id:I
 
     invoke-virtual {p2, p3, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1411
+    sget p2, Lcom/resouce/module/ResID;->iv_application:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e051e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_drive_company_create_group_item:I
 
     return v0
 
@@ -139,12 +139,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0142
+    sget v0, Lcom/resouce/module/ResLAYOUT;->drive_company_create_group_item:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e0143
+    sget v0, Lcom/resouce/module/ResLAYOUT;->drive_company_create_group_item_oversea:I
 
     :goto_0
     return v0

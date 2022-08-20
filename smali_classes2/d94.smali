@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f1212dd
+    sget v5, Lcom/resouce/module/ResSTRING;->infoflow_media_third_logo:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -142,7 +142,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212dc
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_media_third:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -287,7 +287,7 @@
     .line 5
     iget-object v0, p0, Ld94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b199f
+    sget v1, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     :cond_0
     iget-object v0, p0, Ld94;->g:Landroid/view/View;
 
-    const v2, 0x7f0b19a9
+    sget v2, Lcom/resouce/module/ResID;->native_ad_privacy_information_icon_image:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
     :cond_1
     iget-object v0, p0, Ld94;->g:Landroid/view/View;
 
-    const v2, 0x7f0b19ae
+    sget v2, Lcom/resouce/module/ResID;->native_ad_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
     .line 1
     iget-object v0, p0, Ld94;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2ccc
+    sget v1, Lcom/resouce/module/ResID;->spread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

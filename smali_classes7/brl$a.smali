@@ -165,7 +165,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f081cd9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_water_mark:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

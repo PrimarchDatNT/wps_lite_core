@@ -378,7 +378,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e02b9
+    sget p2, Lcom/resouce/module/ResLAYOUT;->gridview_loading_view:I
 
     .line 2
     iput p2, p0, Lcn/wps/moffice/templatecommon/ext/widget/PageGridView;->a0:I

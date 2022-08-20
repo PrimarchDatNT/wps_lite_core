@@ -125,57 +125,57 @@
 
     packed-switch p1, :pswitch_data_0
 
-    const p1, 0x7f122f5a
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_title:I
 
     return p1
 
     :pswitch_0
-    const p1, 0x7f122f59
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_sec_head:I
 
     return p1
 
     :pswitch_1
-    const p1, 0x7f122f58
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_pic_tx:I
 
     return p1
 
     :pswitch_2
-    const p1, 0x7f122f57
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_obj_tx:I
 
     return p1
 
     :cond_0
-    const p1, 0x7f122f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_vert_title_and_tx:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f122f55
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_blank:I
 
     return p1
 
     :cond_2
-    const p1, 0x7f122f5f
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_vert_tx:I
 
     return p1
 
     :cond_3
-    const p1, 0x7f122f5d
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_two_tx_two_obj:I
 
     return p1
 
     :cond_4
-    const p1, 0x7f122f5c
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_two_obj:I
 
     return p1
 
     :cond_5
-    const p1, 0x7f122f56
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_obj:I
 
     return p1
 
     :cond_6
-    const p1, 0x7f122f5b
+    sget p1, Lcom/resouce/module/ResSTRING;->slide_layout_title_only:I
 
     return p1
 
@@ -350,12 +350,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0815
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ppt_slidelayouts_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0ad1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_slidelayouts_item:I
 
     :goto_0
     const/4 v1, 0x0
@@ -364,7 +364,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b2431
+    sget v0, Lcom/resouce/module/ResID;->ppt_slidelayout_item_title:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -375,7 +375,7 @@
 
     iput-object v0, p2, Lizd;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2430
+    sget v0, Lcom/resouce/module/ResID;->ppt_slidelayout_item_img:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

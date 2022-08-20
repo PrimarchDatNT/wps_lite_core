@@ -61,7 +61,7 @@
 
     check-cast p2, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0645
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_memerybar:I
 
     const/4 v1, 0x1
 
@@ -115,7 +115,7 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
-    const p1, 0x7f0b1863
+    sget p1, Lcom/resouce/module/ResID;->memery_tips:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/windows/tip/JumpToRoamingBar;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1864
+    sget p1, Lcom/resouce/module/ResID;->memery_tips_btn:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

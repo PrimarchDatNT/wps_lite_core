@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0708d8
+    sget p2, Lcom/resouce/module/ResDIMEN;->pie_touch_slop:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 

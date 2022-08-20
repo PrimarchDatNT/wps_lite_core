@@ -82,12 +82,12 @@
     .line 1
     invoke-direct {p0}, Lcn/wps/moffice/common/beans/OnResultActivity;-><init>()V
 
-    const v0, 0x7f01000c
+    sget v0, Lcom/resouce/module/ResANIM;->activity_enter:I
 
     .line 2
     iput v0, p0, Lcn/wps/moffice/main/PreProcessActivity;->B:I
 
-    const v0, 0x7f01004d
+    sget v0, Lcom/resouce/module/ResANIM;->hold:I
 
     .line 3
     iput v0, p0, Lcn/wps/moffice/main/PreProcessActivity;->I:I
@@ -1200,7 +1200,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121d3e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2215,7 +2215,7 @@
 
     const-string v13, "PreProcessActivity"
 
-    const v15, 0x7f1220f0
+    sget v15, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     if-eqz v4, :cond_a
 
@@ -2291,7 +2291,7 @@
     goto :goto_3
 
     :cond_8
-    const v15, 0x7f1205f0
+    sget v15, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     .line 30
     :goto_3

@@ -303,7 +303,7 @@
     .line 4
     iget-object v0, p0, Lejj;->e:Lcn/wps/moffice/common/beans/PopUpProgressBar;
 
-    const v2, 0x7f1226b0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_prepare_pdf_export:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V
 
@@ -318,7 +318,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1220a1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf_to:I
 
     if-eqz v0, :cond_1
 
@@ -349,7 +349,7 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v3, 0x7f12116c
+    sget v3, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -362,7 +362,7 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f122264
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     .line 10
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -373,7 +373,7 @@
 
     invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -389,7 +389,7 @@
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f121cb2
+    sget v4, Lcom/resouce/module/ResSTRING;->private_app_cloud_floder:I
 
     const/4 v5, 0x2
 

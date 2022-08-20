@@ -42,12 +42,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lwl3;-><init>(Landroid/app/Activity;I)V
@@ -118,7 +118,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e55
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_simple_bottom_dialog:I
 
     const/4 v1, 0x1
 
@@ -137,7 +137,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b2fcd
+    sget p1, Lcom/resouce/module/ResID;->title:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b054b
+    sget p1, Lcom/resouce/module/ResID;->content_list:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     fill-array-data v6, :array_0
 
-    const v4, 0x7f0e0e56
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_bottom_item:I
 
     move-object v0, v7
 

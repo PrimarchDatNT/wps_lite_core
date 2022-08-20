@@ -106,7 +106,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04ca
+    sget v0, Lcom/resouce/module/ResLAYOUT;->new_user_guide_privileges_item:I
 
     const/4 v1, 0x0
 
@@ -163,7 +163,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121880
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_basic_document_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     move-result v0
 
-    const v1, 0x7f08070b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_have_privileges:I
 
     if-eqz v0, :cond_1
 
@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121886
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_paypage_cloud_space_txt:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -227,14 +227,14 @@
     .line 13
     iget-object p1, p3, Lkrb$a;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f081542
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->privilege_cloud_size_base:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 14
     iget-object p1, p3, Lkrb$a;->c:Landroid/widget/ImageView;
 
-    const p3, 0x7f081543
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->privilege_cloud_size_premium:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -244,7 +244,7 @@
     :cond_2
     iget-object p1, p3, Lkrb$a;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f080adf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->new_user_guide_premium_close:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

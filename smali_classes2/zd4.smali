@@ -18,14 +18,14 @@
     .line 1
     invoke-direct {p0}, Lud4;-><init>()V
 
-    const v0, 0x7f0b263c
+    sget v0, Lcom/resouce/module/ResID;->public_home_link_file_info_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b2ff8
+    sget v0, Lcom/resouce/module/ResID;->title_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lzd4;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0d49
+    sget v0, Lcom/resouce/module/ResID;->fileinfo_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     iput-object v0, p0, Lzd4;->c:Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;
 
-    const v0, 0x7f0b0d48
+    sget v0, Lcom/resouce/module/ResID;->fileinfo_info:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

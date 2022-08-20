@@ -128,7 +128,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121635
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_tab_tool:I
 
     return v0
 .end method
@@ -429,7 +429,7 @@
     .line 1
     iget-object v0, p0, Lckl;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2862
+    sget v1, Lcom/resouce/module/ResID;->recycler_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0522
+    sget v1, Lcom/resouce/module/ResID;->config_recycler_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -474,7 +474,7 @@
 .method public final p2()V
     .locals 3
 
-    const v0, 0x7f0e09f6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_read_config_tool:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

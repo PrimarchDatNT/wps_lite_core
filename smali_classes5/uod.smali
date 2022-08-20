@@ -66,7 +66,7 @@
 .method public final b(Landroid/content/Context;)Lkd3;
     .locals 3
 
-    const v0, 0x7f1220c3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_extract_pics_io_tips:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -93,7 +93,7 @@
     invoke-virtual {v1, v0}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
     :cond_0
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v0, 0x0
 

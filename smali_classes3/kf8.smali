@@ -41,9 +41,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f081034
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_edit:I
 
-    const v3, 0x7f1218c4
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 4
     invoke-static {v2, v3, v0, v1}, Lms9;->a(IIZLjava/lang/String;)Lms9;

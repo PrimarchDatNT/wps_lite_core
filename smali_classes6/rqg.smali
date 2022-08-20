@@ -1879,7 +1879,7 @@
 
     if-ne v0, v4, :cond_5
 
-    const v4, 0x7f080683
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->et_main_tab:I
 
     .line 27
     invoke-virtual {v6, v4}, Lcn/wps/moffice/spreadsheet/control/tabhost/TabButton;->setBackgroundResource(I)V

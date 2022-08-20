@@ -162,7 +162,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b068e
+    sget p2, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060657
+    sget p2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -222,7 +222,7 @@
 .method public initViews()V
     .locals 2
 
-    const v0, 0x7f0b344e
+    sget v0, Lcom/resouce/module/ResID;->withholdTextView:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     iput-object v0, p0, Llx7;->mWithholdTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2f9f
+    sget v0, Lcom/resouce/module/ResID;->tipIconImageView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     iput-object v0, p0, Llx7;->mTipIconImageView:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2fa0
+    sget v0, Lcom/resouce/module/ResID;->tipTextView:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
     .line 14
     invoke-virtual {v0, v1}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v1, 0x7f080828
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_guide_bind_phone_icon:I
 
     const/4 v2, 0x0
 

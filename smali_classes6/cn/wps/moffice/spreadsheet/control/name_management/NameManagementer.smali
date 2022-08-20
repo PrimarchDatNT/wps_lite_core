@@ -55,15 +55,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080462
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_name:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e41
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_name_et:I
 
     :goto_0
-    const v2, 0x7f120b8d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_name:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/name_management/NameManagementer$2;-><init>(Lcn/wps/moffice/spreadsheet/control/name_management/NameManagementer;II)V
 
@@ -313,7 +313,7 @@
     .line 4
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/name_management/NameManagementer;->I:Landroid/content/Context;
 
-    const v3, 0x7f120b9f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -397,7 +397,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/name_management/NameManagementer;->I:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Lxhg;-><init>(Landroid/content/Context;I)V
 

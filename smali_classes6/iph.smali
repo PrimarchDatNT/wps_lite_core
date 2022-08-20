@@ -122,7 +122,7 @@
 
     invoke-static {v1, p1}, Lp2q;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f123436
+    sget p1, Lcom/resouce/module/ResSTRING;->writer_unsupport_table_modify_tips:I
 
     .line 9
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -194,7 +194,7 @@
 
     :cond_4
     :goto_0
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 17
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

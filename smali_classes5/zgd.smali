@@ -16,7 +16,7 @@
 .method public static constructor <clinit>()V
     .locals 1
 
-    const v0, 0x7f120332
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_hosts:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

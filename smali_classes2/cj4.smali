@@ -43,7 +43,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f121827
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merge_complete:I
 
     return v0
 .end method
@@ -51,7 +51,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f12182a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merge_fail_try_again:I
 
     return v0
 .end method
@@ -59,7 +59,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f1224c3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_merging:I
 
     return v0
 .end method
@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v1, 0x0
 
@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lcj4;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     invoke-direct {v0, p0}, Lcj4$b;-><init>(Lcj4;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -254,7 +254,7 @@
     .line 10
     iget-object p1, p0, Lcj4;->e:Lhd3;
 
-    const p3, 0x7f1223d4
+    sget p3, Lcom/resouce/module/ResSTRING;->public_later:I
 
     const/4 p4, 0x0
 
@@ -263,7 +263,7 @@
     .line 11
     iget-object p1, p0, Lcj4;->e:Lhd3;
 
-    const p3, 0x7f122588
+    sget p3, Lcom/resouce/module/ResSTRING;->public_open:I
 
     new-instance p4, Lcj4$c;
 
@@ -351,7 +351,7 @@
     .line 9
     iget-object p1, p0, Lcj4;->f:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lcj4$d;
 
@@ -371,7 +371,7 @@
     .line 11
     iget-object p1, p0, Lcj4;->f:Lhd3;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     new-instance v1, Lcj4$f;
 

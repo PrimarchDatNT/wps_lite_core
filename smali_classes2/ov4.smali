@@ -158,7 +158,7 @@
     .line 2
     iget-object v0, p0, Llv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12271e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_unsupported_colorful:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -177,14 +177,14 @@
 
     invoke-direct {v0, v2}, Lzu4$b;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1226e4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_option_color:I
 
     .line 5
     invoke-virtual {v0, v2}, Lzu4$b;->d(I)Lzu4$b;
 
     new-instance v2, Lzu4$a;
 
-    const v3, 0x7f1226d1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_gray:I
 
     new-instance v4, Lov4$b;
 
@@ -199,7 +199,7 @@
 
     new-instance v2, Lzu4$a;
 
-    const v3, 0x7f1226bc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_colorful:I
 
     new-instance v4, Lov4$b;
 
@@ -241,7 +241,7 @@
 
     invoke-direct {v0, v1}, Lzu4$b;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1226e5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_option_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Lzu4$b;->d(I)Lzu4$b;
@@ -274,7 +274,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1226e9
+    sget v7, Lcom/resouce/module/ResSTRING;->public_print_page_layout:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -340,7 +340,7 @@
     .line 2
     iget-object v0, p0, Llv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12271f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_unsupported_duplex:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -359,14 +359,14 @@
 
     invoke-direct {v0, v2}, Lzu4$b;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1226e6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_option_side:I
 
     .line 5
     invoke-virtual {v0, v2}, Lzu4$b;->d(I)Lzu4$b;
 
     new-instance v2, Lzu4$a;
 
-    const v3, 0x7f122715
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_single_side:I
 
     new-instance v4, Lov4$c;
 
@@ -381,7 +381,7 @@
 
     new-instance v2, Lzu4$a;
 
-    const v3, 0x7f122719
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_two_side:I
 
     new-instance v4, Lov4$c;
 
@@ -414,13 +414,13 @@
     .line 1
     iget-boolean v0, p0, Lov4;->V:Z
 
-    const v1, 0x7f1226bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_colorful:I
 
-    const v2, 0x7f1226d1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_gray:I
 
-    const v3, 0x7f122719
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_two_side:I
 
-    const v4, 0x7f122715
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_single_side:I
 
     const/4 v5, 0x1
 
@@ -450,7 +450,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122708
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_scan_opt_unsupport_duplex:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f122715
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_single_side:I
 
     .line 5
     :goto_0
@@ -514,7 +514,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122707
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_opt_unsupport_colorful:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -537,7 +537,7 @@
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f1226d1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_gray:I
 
     .line 9
     :goto_2
@@ -568,7 +568,7 @@
     goto :goto_3
 
     :cond_5
-    const v3, 0x7f122715
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_single_side:I
 
     .line 11
     :goto_3
@@ -596,7 +596,7 @@
     goto :goto_4
 
     :cond_6
-    const v1, 0x7f1226d1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_gray:I
 
     .line 13
     :goto_4
@@ -620,7 +620,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1226e9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_page_layout:I
 
     new-array v3, v5, [Ljava/lang/Object;
 
@@ -655,7 +655,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2c26
+    sget v0, Lcom/resouce/module/ResID;->siv_side:I
 
     if-ne p1, v0, :cond_0
 
@@ -665,7 +665,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2c21
+    sget v0, Lcom/resouce/module/ResID;->siv_color:I
 
     if-ne p1, v0, :cond_1
 
@@ -675,7 +675,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2c22
+    sget v0, Lcom/resouce/module/ResID;->siv_layout:I
 
     if-ne p1, v0, :cond_2
 
@@ -693,7 +693,7 @@
     .line 1
     invoke-super {p0, p1}, Llv4;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0e1f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_scan_print_option_dialog:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -703,7 +703,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1226e3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_option:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -711,7 +711,7 @@
 
     invoke-virtual {p0, p1}, Llv4;->V2(Ljava/lang/String;)V
 
-    const p1, 0x7f0b2c26
+    sget p1, Lcom/resouce/module/ResID;->siv_side:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -722,7 +722,7 @@
 
     iput-object p1, p0, Lov4;->Z:Lcn/wps/moffice/common/print/SettingItemView;
 
-    const p1, 0x7f0b2c21
+    sget p1, Lcom/resouce/module/ResID;->siv_color:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -743,7 +743,7 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2c22
+    sget p1, Lcom/resouce/module/ResID;->siv_layout:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -801,7 +801,7 @@
 
     iget-object v1, p0, Llv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122707
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_opt_unsupport_colorful:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -824,7 +824,7 @@
 
     iget-object v1, p0, Llv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122708
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_scan_opt_unsupport_duplex:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

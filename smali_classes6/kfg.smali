@@ -83,7 +83,7 @@
 .method public b(Z)V
     .locals 3
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 
@@ -231,7 +231,7 @@
     :goto_0
     iget-object p1, p0, Lkfg;->a:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -488,11 +488,11 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080719
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_extract:I
 
-    const v3, 0x7f1219be
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_extract_sheet:I
 
-    const v4, 0x7f12105b
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_et_extract:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -524,11 +524,11 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08071a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_merge:I
 
-    const v3, 0x7f1219c1
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
-    const v4, 0x7f12105c
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_et_merge:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -560,13 +560,13 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f080724
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_et_mergesheet:I
 
-    const v3, 0x7f06019f
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v4, 0x7f1219b9
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
-    const v5, 0x7f12105a
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_et_concat:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -623,11 +623,11 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f080719
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_extract:I
 
-    const v9, 0x7f1219be
+    sget v9, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_extract_sheet:I
 
-    const v10, 0x7f12105b
+    sget v10, Lcom/resouce/module/ResSTRING;->home_pay_function_et_extract:I
 
     new-array v6, v6, [Lcib$b;
 
@@ -813,11 +813,11 @@
 
     if-eqz v0, :cond_7
 
-    const v0, 0x7f08071a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_merge:I
 
-    const v1, 0x7f1219c1
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
-    const v2, 0x7f12105c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_function_et_merge:I
 
     new-array v3, v6, [Lcib$b;
 
@@ -849,11 +849,11 @@
 
     if-eqz v0, :cond_a
 
-    const v0, 0x7f08071b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_et_mergesheet:I
 
-    const v9, 0x7f1219b9
+    sget v9, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
-    const v10, 0x7f12105a
+    sget v10, Lcom/resouce/module/ResSTRING;->home_pay_function_et_concat:I
 
     new-array v6, v6, [Lcib$b;
 

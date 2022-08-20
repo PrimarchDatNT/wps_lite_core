@@ -49,21 +49,21 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f120c1d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed:I
 
     const-string v1, ""
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120c1f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed_target_empty:I
 
     const-string v1, "noActiveCell"
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f120c1e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed_base_empty:I
 
     const-string v1, "noExamples"
 

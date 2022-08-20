@@ -22,9 +22,9 @@
     .line 2
     new-instance v0, Lhnd$a;
 
-    const v1, 0x7f08029d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_page_turning:I
 
-    const v2, 0x7f121998
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_voice_key_paging:I
 
     invoke-direct {v0, p0, v1, v2}, Lhnd$a;-><init>(Lhnd;II)V
 

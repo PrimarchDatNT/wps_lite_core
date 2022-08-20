@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wpsx.support.ui.alpha.KAlphaRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/sharetype_item_img_layout" android:layout_width="64.0dip" android:layout_height="52.0dip" android:layout_marginTop="4.0dip" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/sharetype_item_content_img" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" />
-        <ImageView android:id="@id/sharetype_item_member_img" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="42.0dip" android:src="@drawable/resume_share_member" />
-    </FrameLayout>
-    <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/sharetype_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@id/sharetype_item_img_layout" android:layout_centerHorizontal="true" />
-</cn.wpsx.support.ui.alpha.KAlphaRelativeLayout>

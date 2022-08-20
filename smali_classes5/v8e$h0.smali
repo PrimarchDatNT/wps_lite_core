@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1227c3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readonly_unsupport_modify_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -151,7 +151,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

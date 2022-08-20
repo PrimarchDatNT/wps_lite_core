@@ -142,13 +142,13 @@
 
     move-result-object v3
 
-    const v5, 0x7f0e0fa5
+    sget v5, Lcom/resouce/module/ResLAYOUT;->template_beauty_indicator_item:I
 
     invoke-virtual {v3, v5, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2e8f
+    sget v4, Lcom/resouce/module/ResID;->tag_text:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -361,7 +361,7 @@
     .line 1
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b301f
+    sget v1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -372,7 +372,7 @@
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b302d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     .line 3
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b302e
+    sget v1, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +429,7 @@
         }
     .end annotation
 
-    const p2, 0x7f0b2e8f
+    sget p2, Lcom/resouce/module/ResID;->tag_text:I
 
     .line 1
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -443,9 +443,9 @@
     return-void
 
     :cond_0
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 2
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -633,14 +633,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fa3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_category_oldv:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -655,14 +655,14 @@
 
     invoke-static {v1}, Lxih;->P(Landroid/view/View;)V
 
-    const v1, 0x7f121b5a
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_beauty_template:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
     const/4 v1, 0x1
 
-    const v2, 0x7f122a85
+    sget v2, Lcom/resouce/module/ResSTRING;->public_template_already_buy:I
 
     .line 5
     invoke-virtual {v0, v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ZI)V
@@ -716,7 +716,7 @@
     :goto_0
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v3, 0x7f0b12e3
+    sget v3, Lcom/resouce/module/ResID;->indicator:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -729,7 +729,7 @@
     .line 13
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v3, 0x7f0b33a2
+    sget v3, Lcom/resouce/module/ResID;->view_page:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -750,7 +750,7 @@
     .line 16
     iget-object v0, p0, Lpee;->W:Lcn/wps/moffice/presentation/control/template/beauty/widget/ScrollIndicator;
 
-    const v3, 0x7f0e0fa7
+    sget v3, Lcom/resouce/module/ResLAYOUT;->template_beauty_indicator_layout_oldv:I
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/presentation/control/template/beauty/widget/ScrollIndicator;->g(I)V
 
@@ -778,7 +778,7 @@
     .line 20
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v3, 0x7f0b2ec6
+    sget v3, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -829,7 +829,7 @@
     .line 25
     iget-object v0, p0, Lnee;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121459
+    sget v1, Lcom/resouce/module/ResSTRING;->name_all_categories:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

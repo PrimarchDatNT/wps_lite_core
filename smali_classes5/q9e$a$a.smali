@@ -176,7 +176,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1205ee
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     if-ne v0, v1, :cond_6
 

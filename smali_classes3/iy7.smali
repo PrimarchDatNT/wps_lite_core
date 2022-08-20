@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0ce4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_login_relate_phone_failed_dialog:I
 
     const/4 v3, 0x0
 
@@ -162,7 +162,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0444
+    sget v2, Lcom/resouce/module/ResID;->closeImageView:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b1903
+    sget v2, Lcom/resouce/module/ResID;->msgTextView:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
     .line 12
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p1, 0x7f0b0f9a
+    sget p1, Lcom/resouce/module/ResID;->handleButton:I
 
     .line 13
     invoke-virtual {v1, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    const p2, 0x7f122459
+    sget p2, Lcom/resouce/module/ResSTRING;->public_login_not_bind_and_auto_register:I
 
     .line 14
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setText(I)V
@@ -244,7 +244,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f122427
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_bind_phone_other_error:I
 
     const-string v3, "AlreadyBindThisType"
 
@@ -256,7 +256,7 @@
 
     const/4 v7, 0x1
 
-    const v8, 0x7f122440
+    sget v8, Lcom/resouce/module/ResSTRING;->public_login_change_bind_tip:I
 
     const-string v9, "registerbindphonefail"
 
@@ -331,7 +331,7 @@
     .line 14
     iget-object v2, p0, Liy7;->a:Landroid/app/Activity;
 
-    const v3, 0x7f122424
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_already_bind_third_type_force_tip:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -442,7 +442,7 @@
     .line 31
     iget-object v2, p0, Liy7;->a:Landroid/app/Activity;
 
-    const v3, 0x7f122425
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_already_bind_third_type_tip:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -509,7 +509,7 @@
     .line 5
     iget-object v1, p0, Liy7;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121da3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -551,7 +551,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -561,7 +561,7 @@
 
     invoke-direct {p2, p0}, Liy7$f;-><init>(Liy7;)V
 
-    const v1, 0x7f121f23
+    sget v1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {v0, v1, p1, p2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -579,7 +579,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

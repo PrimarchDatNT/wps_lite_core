@@ -183,7 +183,7 @@
     goto :goto_1
 
     :cond_4
-    const p1, 0x7f122d0e
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_no_support:I
 
     const/4 p2, 0x0
 

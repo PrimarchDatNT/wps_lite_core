@@ -360,7 +360,7 @@
     .line 12
     iget-object p1, p0, Luva;->d:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

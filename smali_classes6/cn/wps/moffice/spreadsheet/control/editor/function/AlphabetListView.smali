@@ -305,12 +305,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e01ab
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_alphabetlistview_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e06ae
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_alphabetlistview_layout:I
 
     :goto_0
     const/4 v2, 0x1
@@ -344,13 +344,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v1, 0x7f0b0a7c
+    sget v1, Lcom/resouce/module/ResID;->et_function_listview:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/editor/function/AlphabetListView;->I:Landroid/widget/ListView;
 
-    const v1, 0x7f0b0a80
+    sget v1, Lcom/resouce/module/ResID;->et_function_search_layout:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/editor/function/AlphabetListView;->U:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b0a7e
+    sget v1, Lcom/resouce/module/ResID;->et_function_search_edittext:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/editor/function/AlphabetListView;->V:Landroid/widget/EditText;
 
-    const v1, 0x7f0b0a73
+    sget v1, Lcom/resouce/module/ResID;->et_function_alphabetlistview_search_btn:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
     .line 9
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0a7f
+    sget v1, Lcom/resouce/module/ResID;->et_function_search_find_clean_input_btn:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v0, 0x7f0b0a75
+    sget v0, Lcom/resouce/module/ResID;->et_function_alphabltletterwrapview:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -479,7 +479,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0a73
+    sget v0, Lcom/resouce/module/ResID;->et_function_alphabetlistview_search_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -513,7 +513,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0a7f
+    sget v0, Lcom/resouce/module/ResID;->et_function_search_find_clean_input_btn:I
 
     if-ne p1, v0, :cond_2
 

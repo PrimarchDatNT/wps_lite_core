@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230b5
+    sget v1, Lcom/resouce/module/ResSTRING;->template_wps_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -153,13 +153,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230b4
+    sget v1, Lcom/resouce/module/ResSTRING;->template_wps_dec_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v2, 0x7f082039
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->wps_template_head_view:I
 
     const-string v5, "premium_center"
 
@@ -184,7 +184,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f030022
+    sget v0, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -438,7 +438,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07034e
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -452,7 +452,7 @@
     .line 8
     iget-object v1, p0, Lzg6;->X:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
 
@@ -465,7 +465,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605ee
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -501,7 +501,7 @@
     .line 12
     invoke-virtual {v3, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 13
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V
@@ -520,7 +520,7 @@
 
     if-nez v1, :cond_1
 
-    const v5, 0x7f122c24
+    sget v5, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -529,7 +529,7 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f122a9d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     .line 17
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1163,7 +1163,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1173,7 +1173,7 @@
 
     invoke-direct {v1, p0}, Lzg6$c;-><init>(Lzg6;)V
 
-    const v2, 0x7f121d28
+    sget v2, Lcom/resouce/module/ResSTRING;->public_amazon_tip_confirm:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1196,7 +1196,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1732,7 +1732,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0506
+    sget v1, Lcom/resouce/module/ResLAYOUT;->oversea_pay_view_layout:I
 
     const/4 v2, 0x0
 
@@ -1742,7 +1742,7 @@
 
     iput-object v0, p0, Lzg6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1bb1
+    sget v1, Lcom/resouce/module/ResID;->oversea_pay_kscrollbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1756,7 +1756,7 @@
     .line 4
     iget-object v0, p0, Lzg6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d2a
+    sget v1, Lcom/resouce/module/ResID;->pay_page_ad_banner_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1769,7 +1769,7 @@
     .line 5
     iget-object v0, p0, Lzg6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d29
+    sget v1, Lcom/resouce/module/ResID;->pay_page_ad_banner_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1782,7 +1782,7 @@
     .line 6
     iget-object v0, p0, Lzg6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d2b
+    sget v1, Lcom/resouce/module/ResID;->pay_page_ad_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1795,7 +1795,7 @@
     .line 7
     iget-object v0, p0, Lzg6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1bb2
+    sget v1, Lcom/resouce/module/ResID;->oversea_pay_viewpager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1815,7 +1815,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121883
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_paypage_btn_upgrade_txt:I
 
     return v0
 .end method
@@ -1875,7 +1875,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1d2a
+    sget v1, Lcom/resouce/module/ResID;->pay_page_ad_banner_container:I
 
     if-ne v0, v1, :cond_0
 
@@ -1922,7 +1922,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d29
+    sget v0, Lcom/resouce/module/ResID;->pay_page_ad_banner_close:I
 
     if-ne p1, v0, :cond_1
 

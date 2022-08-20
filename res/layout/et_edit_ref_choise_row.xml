@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.spreadsheet.control.composeedit.FocusNotifyLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.spreadsheet.control.composeedit.RefChoiseButton android:id="@id/et_edit_ref_choise_single_btn1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ImageView style="@style/et_edit_ref_choise_single_sep" />
-    <cn.wps.moffice.spreadsheet.control.composeedit.RefChoiseButton android:id="@id/et_edit_ref_choise_single_btn2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</cn.wps.moffice.spreadsheet.control.composeedit.FocusNotifyLinearLayout>

@@ -124,7 +124,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120485
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_txt_for_huawei:I
 
     new-array v1, v7, [Ljava/lang/Object;
 
@@ -142,7 +142,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120484
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_txt:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -174,7 +174,7 @@
     .line 7
     invoke-virtual {v10}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance v1, Li8e$i;
@@ -200,7 +200,7 @@
 
     if-eqz v0, :cond_1
 
-    const v11, 0x7f1204be
+    sget v11, Lcom/resouce/module/ResSTRING;->doc_scan_switch_language:I
 
     .line 12
     new-instance v12, Li8e$k;
@@ -402,7 +402,7 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v1, 0x7f1204ad
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_selecting_language_for_huawei:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -416,7 +416,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a72
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_dialog_selected_translate_language:I
 
     const/4 v3, 0x0
 
@@ -427,7 +427,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1798
+    sget v2, Lcom/resouce/module/ResID;->lv_language:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -490,12 +490,12 @@
     .line 16
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 17
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 18
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

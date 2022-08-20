@@ -195,7 +195,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e0cd1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_list_quickaction:I
 
     const/4 v1, 0x0
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2675
+    sget v1, Lcom/resouce/module/ResID;->public_list:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,14 +228,14 @@
     :goto_0
     if-ge v4, v2, :cond_1
 
-    const v5, 0x7f0e10de
+    sget v5, Lcom/resouce/module/ResLAYOUT;->writer_settinglist_item:I
 
     .line 6
     invoke-static {v5, v1, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b367c
+    sget v6, Lcom/resouce/module/ResID;->writer_settinglist_item_image:I
 
     .line 7
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v7, 0x7f0b367d
+    sget v7, Lcom/resouce/module/ResID;->writer_settinglist_item_text:I
 
     .line 8
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;

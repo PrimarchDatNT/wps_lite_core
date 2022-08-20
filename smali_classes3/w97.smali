@@ -54,12 +54,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0542
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_special_guid_with_right_button_item:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0305
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_special_guid_with_right_button_item:I
 
     return v0
 .end method

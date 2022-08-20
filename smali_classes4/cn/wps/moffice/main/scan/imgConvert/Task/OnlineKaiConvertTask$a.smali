@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120f93
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_login:I
 
     const/4 v2, 0x0
 
@@ -77,7 +77,7 @@
 
     move-result v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     if-nez v0, :cond_1
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f122535
+    sget v3, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121bdb
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1204ce
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_using_mobile_network_tip:I
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121f5e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

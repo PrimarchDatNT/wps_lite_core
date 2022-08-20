@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c32
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_finish:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     const/4 v3, 0x0
 
@@ -111,7 +111,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122ba9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_view:I
 
     .line 8
     new-instance v2, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$e$a;

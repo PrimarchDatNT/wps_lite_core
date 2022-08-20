@@ -59,7 +59,7 @@
 
     iget-object p1, p1, Lmpg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f1229a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_tv_version_tips:I
 
     const/4 v1, 0x1
 

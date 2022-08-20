@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12009b
+    sget v0, Lcom/resouce/module/ResSTRING;->android_drive_to_ios_verison:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

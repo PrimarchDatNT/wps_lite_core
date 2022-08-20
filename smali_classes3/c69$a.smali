@@ -128,7 +128,7 @@
 
     invoke-static {v1, v2, v3, v0}, Lu6w;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    const v0, 0x7f0b2e67
+    sget v0, Lcom/resouce/module/ResID;->tag_app_skip_stat:I
 
     .line 3
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;

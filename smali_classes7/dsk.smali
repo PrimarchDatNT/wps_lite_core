@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12336f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_highlight:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -639,7 +639,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -653,7 +653,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1233cd
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text_processing:I
 
     invoke-direct {v0, v3, v4, v2, v1}, Lrd3;-><init>(Landroid/content/Context;IZLandroid/view/View$OnClickListener;)V
 

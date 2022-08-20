@@ -93,7 +93,7 @@
 
     iget-object p1, p1, Lv5e;->i0:Landroid/app/Activity;
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -110,7 +110,7 @@
 
     iget-object p1, p1, Lv5e;->i0:Landroid/app/Activity;
 
-    const v1, 0x7f122097
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

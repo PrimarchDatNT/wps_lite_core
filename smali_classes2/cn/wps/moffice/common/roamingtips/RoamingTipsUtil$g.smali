@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ee8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_delay_open_file:I
 
     const/4 v2, 0x1
 

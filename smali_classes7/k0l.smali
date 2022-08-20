@@ -88,7 +88,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     const-string v2, "sharePreview-close"
 
@@ -99,7 +99,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "sharePreview-return"
 
@@ -161,7 +161,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b2553
+    sget v0, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 

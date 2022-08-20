@@ -298,7 +298,7 @@
     .line 4
     invoke-virtual {p0, v0}, Ly4e;->H(Z)V
 
-    const v1, 0x7f0814e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     .line 5
     invoke-virtual {p0, v1}, Ly4e;->G(I)V
@@ -515,7 +515,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1229d6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_shareplay_open_mic_tips:I
 
     .line 7
     invoke-virtual {p0, p1}, Ly4e;->Q(I)V
@@ -603,7 +603,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0814e4
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone_close:I
 
     .line 1
     invoke-virtual {p0, p1}, Ly4e;->G(I)V
@@ -618,7 +618,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0814e3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     .line 3
     invoke-virtual {p0, p1}, Ly4e;->G(I)V
@@ -944,7 +944,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b236c
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_agora_microphone_img:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -958,7 +958,7 @@
     .line 3
     iget-object p1, p0, Ly4e;->T:Landroid/view/View;
 
-    const v0, 0x7f0b236e
+    sget v0, Lcom/resouce/module/ResID;->ppt_play_agora_open_tips_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -971,7 +971,7 @@
     .line 4
     iget-object p1, p0, Ly4e;->U:Lcn/wps/moffice/common/shareplay/CircleAudioVolumeView;
 
-    const v0, 0x7f0814e3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/shareplay/CircleAudioVolumeView;->setDrawable(I)V
 

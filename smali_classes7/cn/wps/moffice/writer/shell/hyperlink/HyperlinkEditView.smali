@@ -188,7 +188,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e58
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v2, v3, v0}, Lb4l;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -436,7 +436,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->V:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f1232fa
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_email:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -770,7 +770,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b35b5
+    sget v1, Lcom/resouce/module/ResID;->writer_insert_hyperlink_dialog_content_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1249,7 +1249,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0135
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item:I
 
     invoke-direct {p1, v1, v2, v0}, Lb4l;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1313,7 +1313,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0135
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item:I
 
     invoke-direct {p1, v1, v2, v0}, Lb4l;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1345,12 +1345,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e1069
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_alertdialog_inserthyperlink_pad:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e1068
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_alertdialog_inserthyperlink:I
 
     .line 2
     :goto_0
@@ -1381,7 +1381,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b35b3
+    sget v1, Lcom/resouce/module/ResID;->writer_insert_hyper_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1391,7 +1391,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->h0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f1232f9
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_edit:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -1423,7 +1423,7 @@
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1221
+    sget v3, Lcom/resouce/module/ResID;->hyperlink_diplay:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1444,7 +1444,7 @@
     .line 12
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b121e
+    sget v3, Lcom/resouce/module/ResID;->hyperlink_address_type:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1457,7 +1457,7 @@
     .line 13
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b121d
+    sget v3, Lcom/resouce/module/ResID;->hyperlink_address_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1467,7 +1467,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->d0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b121c
+    sget v2, Lcom/resouce/module/ResID;->hyperlink_address_layout:I
 
     .line 14
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1479,7 +1479,7 @@
     .line 15
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b121b
+    sget v3, Lcom/resouce/module/ResID;->hyperlink_address:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1500,7 +1500,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b075c
+    sget v2, Lcom/resouce/module/ResID;->document_address_type:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1513,7 +1513,7 @@
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1223
+    sget v2, Lcom/resouce/module/ResID;->hyperlink_email_subject_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1524,7 +1524,7 @@
     .line 20
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1222
+    sget v2, Lcom/resouce/module/ResID;->hyperlink_email_subject:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1540,7 +1540,7 @@
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0bfd
+    sget v1, Lcom/resouce/module/ResID;->expand_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1553,7 +1553,7 @@
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b121f
+    sget v1, Lcom/resouce/module/ResID;->hyperlink_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1575,7 +1575,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1220
+    sget v1, Lcom/resouce/module/ResID;->hyperlink_dialog_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1916,7 +1916,7 @@
     :cond_7
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->T:Landroid/widget/EditText;
 
-    const v3, 0x7f122338
+    sget v3, Lcom/resouce/module/ResSTRING;->public_hyperlink_disable_label:I
 
     invoke-virtual {v0, v3}, Landroid/widget/EditText;->setText(I)V
 
@@ -1987,14 +1987,14 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->V:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f1232f6
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_document:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->d0:Landroid/widget/TextView;
 
-    const v1, 0x7f1232fc
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_position:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2026,14 +2026,14 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->V:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f1232fa
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_email:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->d0:Landroid/widget/TextView;
 
-    const v1, 0x7f1232fb
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_email_address:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2070,14 +2070,14 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->V:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f1232fd
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_web:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->d0:Landroid/widget/TextView;
 
-    const v1, 0x7f122335
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hyperlink_address:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2119,7 +2119,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->I:Landroid/content/Context;
 
-    const v2, 0x7f1232fd
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_hyperlink_web:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2130,7 +2130,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->I:Landroid/content/Context;
 
-    const v2, 0x7f1232fa
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_hyperlink_email:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2141,7 +2141,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/hyperlink/HyperlinkEditView;->I:Landroid/content/Context;
 
-    const v2, 0x7f1232f6
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_hyperlink_document:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2158,7 +2158,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v2, v3, v4, v0}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

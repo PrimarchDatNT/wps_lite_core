@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/et_projection_titlebar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="51.0dip" android:layout_alignParentTop="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/et_projection_layout_content" android:layout_width="wrap_content" android:layout_height="51.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="20.0dip">
-        <ImageView android:id="@id/switch_projection" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/phone_projection_play_miracast" android:contentDescription="@string/pdf_screening" />
-        <ImageView android:id="@id/switch_sheet" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/phone_projection_play_switch_sheet" android:contentDescription="@string/et_sheet_change_name" />
-        <ImageView android:id="@id/exit_projection" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/phone_projection_play_exit" android:contentDescription="@string/public_back" />
-    </LinearLayout>
-</LinearLayout>

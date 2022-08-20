@@ -179,7 +179,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f1223be
+    sget v1, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -203,7 +203,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1009
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_panel_item_number_layout:I
 
     const/4 v2, 0x0
 
@@ -213,7 +213,7 @@
 
     iput-object v0, p0, Llsd;->T:Landroid/view/View;
 
-    const v0, 0x7f0802ec
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_symbol1:I
 
     .line 3
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     iput-object v0, p0, Llsd;->V:Landroid/view/View;
 
-    const v0, 0x7f0814c1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_item_number_symbol_2:I
 
     .line 4
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     iput-object v0, p0, Llsd;->W:Landroid/view/View;
 
-    const v0, 0x7f0802e0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_10:I
 
     .line 5
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     iput-object v0, p0, Llsd;->X:Landroid/view/View;
 
-    const v0, 0x7f0802e8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_english_version1:I
 
     .line 6
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     iput-object v0, p0, Llsd;->Y:Landroid/view/View;
 
-    const v0, 0x7f0802ee
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_symbol4:I
 
     .line 7
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     iput-object v0, p0, Llsd;->Z:Landroid/view/View;
 
-    const v0, 0x7f0802e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_12:I
 
     .line 8
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     iput-object v0, p0, Llsd;->a0:Landroid/view/View;
 
-    const v0, 0x7f0802e6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_8:I
 
     .line 9
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     iput-object v0, p0, Llsd;->b0:Landroid/view/View;
 
-    const v0, 0x7f080234
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_nothing:I
 
     .line 10
     invoke-virtual {p0, v0}, Llsd;->q(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     invoke-virtual {p0, v1, v8}, Llsd;->r(Landroid/view/View;I)V
 
-    const v1, 0x7f0802df
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_1:I
 
     .line 19
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -350,7 +350,7 @@
 
     iput-object v1, p0, Llsd;->d0:Landroid/view/View;
 
-    const v1, 0x7f0802ed
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_symbol3:I
 
     .line 20
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -359,7 +359,7 @@
 
     iput-object v1, p0, Llsd;->e0:Landroid/view/View;
 
-    const v1, 0x7f0802e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_3:I
 
     .line 21
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -368,7 +368,7 @@
 
     iput-object v1, p0, Llsd;->f0:Landroid/view/View;
 
-    const v1, 0x7f0802e4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_4:I
 
     .line 22
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -377,7 +377,7 @@
 
     iput-object v1, p0, Llsd;->g0:Landroid/view/View;
 
-    const v1, 0x7f0802e5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_6:I
 
     .line 23
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -386,7 +386,7 @@
 
     iput-object v1, p0, Llsd;->h0:Landroid/view/View;
 
-    const v1, 0x7f0802ea
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_english_version5:I
 
     .line 24
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -395,7 +395,7 @@
 
     iput-object v1, p0, Llsd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0802e9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_english_version3:I
 
     .line 25
     invoke-virtual {p0, v1}, Llsd;->q(I)Landroid/view/View;
@@ -470,7 +470,7 @@
     .line 37
     iget-object v0, p0, Llsd;->T:Landroid/view/View;
 
-    const v1, 0x7f0b20f5
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_align_text_item_number_1_halve_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
     .line 38
     iget-object v0, p0, Llsd;->T:Landroid/view/View;
 
-    const v1, 0x7f0b20f8
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_item_number_1_halve_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -625,7 +625,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_color_filter_imageview:I
 
     const/4 v2, 0x0
 
@@ -651,7 +651,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

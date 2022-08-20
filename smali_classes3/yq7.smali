@@ -377,7 +377,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1226a5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_premium_renew:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -390,7 +390,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c8e
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
 
     iget-object v0, v0, Lbr7;->z:Landroid/view/View;
 
-    const v1, 0x7f0b078d
+    sget v1, Lcom/resouce/module/ResID;->dot_v:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1016,7 +1016,7 @@
     :cond_3
     iget-object v0, p0, Lzq7;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12208f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_expire_time:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1061,7 +1061,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10c1
+    sget v0, Lcom/resouce/module/ResID;->home_my_userinfo_type_layout:I
 
     if-ne p1, v0, :cond_0
 
@@ -1088,7 +1088,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b10af
+    sget v0, Lcom/resouce/module/ResID;->home_my_user_go_member_layout:I
 
     if-ne p1, v0, :cond_1
 
@@ -1269,7 +1269,7 @@
     move-object v3, v4
 
     :goto_0
-    const v5, 0x7f0807c9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_pdf:I
 
     const/4 v8, 0x2
 
@@ -1321,7 +1321,7 @@
 
     const/4 v7, 0x3
 
-    const v10, 0x7f0b3332
+    sget v10, Lcom/resouce/module/ResID;->user_info_area:I
 
     if-nez v1, :cond_6
 
@@ -1639,7 +1639,7 @@
     const/4 v5, 0x1
 
     :goto_10
-    const v6, 0x7f0807c8
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_ad:I
 
     invoke-virtual {v0, v2, v5, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1652,7 +1652,7 @@
 
     move-result v5
 
-    const v6, 0x7f0807cb
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_template_oversea:I
 
     invoke-virtual {v0, v2, v5, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1692,7 +1692,7 @@
 
     move-result v5
 
-    const v6, 0x7f0807cb
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_template_oversea:I
 
     invoke-virtual {v0, v2, v5, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1703,7 +1703,7 @@
 
     iget-boolean v5, v0, Lyq7;->W:Z
 
-    const v6, 0x7f0817af
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_vip_edu_mine_icon:I
 
     invoke-virtual {v0, v2, v5, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1734,7 +1734,7 @@
     :cond_1e
     iget-object v2, v2, Lbr7;->q:Landroid/widget/ImageView;
 
-    const v6, 0x7f0807c7
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_aboard_premium_oversea:I
 
     invoke-virtual {v0, v2, v1, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1745,7 +1745,7 @@
 
     iget-boolean v6, v0, Lyq7;->W:Z
 
-    const v7, 0x7f0817af
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_vip_edu_mine_icon:I
 
     invoke-virtual {v0, v2, v6, v7}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1758,7 +1758,7 @@
 
     move-result v6
 
-    const v7, 0x7f0807cb
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_template_oversea:I
 
     invoke-virtual {v0, v2, v6, v7}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1793,7 +1793,7 @@
     const/4 v6, 0x1
 
     :goto_13
-    const v7, 0x7f0807c8
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->home_aboard_privilege_ad:I
 
     invoke-virtual {v0, v2, v6, v7}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1831,7 +1831,7 @@
 
     iget-boolean v5, v0, Lyq7;->V:Z
 
-    const v6, 0x7f081d9b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->school_premium_icon:I
 
     invoke-virtual {v0, v2, v5, v6}, Lyq7;->v0(Landroid/widget/ImageView;ZI)V
 
@@ -1890,9 +1890,9 @@
     invoke-virtual {v1, v11}, Landroid/view/View;->setVisibility(I)V
 
     :cond_27
-    const v1, 0x7f121c8e
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
-    const v2, 0x7f0b10b1
+    sget v2, Lcom/resouce/module/ResID;->home_my_user_go_member_text:I
 
     if-nez p1, :cond_29
 
@@ -1979,7 +1979,7 @@
 
     iget-object v5, v0, Lzq7;->B:Landroid/app/Activity;
 
-    const v6, 0x7f1213a2
+    sget v6, Lcom/resouce/module/ResSTRING;->member_center_renewal_benefits:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

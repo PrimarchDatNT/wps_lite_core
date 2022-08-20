@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/sort_file" android:focusable="false" android:text="@string/public_sort" style="@style/phone_public_popumenu_textlist_item" />
-    <TextView android:id="@id/delete_file" android:focusable="false" android:text="@string/public_delete" style="@style/phone_public_popumenu_textlist_item" />
-    <TextView android:id="@id/delete_record" android:focusable="false" android:text="@string/documentmanager_deleteRecord" style="@style/phone_public_popumenu_textlist_item" />
-</LinearLayout>

@@ -27,7 +27,7 @@
     .line 1
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f0b18a8
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_item_sys_layout:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lnn4$c;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b18a4
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_item_docer_tv:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

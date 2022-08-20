@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/writer_bookmark_dialog" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.pdf.shell.common.views.PDFTitleBar android:id="@id/pdf_bookmark_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <cn.wps.moffice.pdf.shell.common.views.gridview.VerticalGridView android:id="@id/pdf_bookmark_list" android:paddingLeft="@dimen/pdf_bookmark_grid_padding_left_right_port" android:paddingRight="@dimen/pdf_bookmark_grid_padding_left_right_port" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/pdf_bookmark_grid_padding_left_right_port" android:paddingEnd="@dimen/pdf_bookmark_grid_padding_left_right_port" customgridview_horizontal_spacing="@dimen/pdf_bookmark_grid_horizontal_space" customgridview_vertical_spacing="@dimen/pdf_bookmark_grid_vertical_space_port" />
-        <TextView android:textSize="16.0sp" android:textColor="@color/descriptionColor" android:layout_gravity="center" android:id="@id/bookmark_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_bookmark_empty" />
-    </FrameLayout>
-</LinearLayout>

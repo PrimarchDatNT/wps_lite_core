@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c05
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_folder_upload_finish_dialog:I
 
     const/4 v2, 0x0
 
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b043f
+    sget v1, Lcom/resouce/module/ResID;->close:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1afb
+    sget v1, Lcom/resouce/module/ResID;->ok:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

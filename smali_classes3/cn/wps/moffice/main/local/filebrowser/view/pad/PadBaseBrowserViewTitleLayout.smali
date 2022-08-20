@@ -259,7 +259,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
-    const v0, 0x7f0b1a06
+    sget v0, Lcom/resouce/module/ResID;->new_search_doc:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/view/pad/PadBaseBrowserViewTitleLayout;->T:Landroid/view/View;
 
-    const v0, 0x7f0b1c38
+    sget v0, Lcom/resouce/module/ResID;->pad_search_img:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

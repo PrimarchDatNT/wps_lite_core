@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="78.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/home_drive_special_item_content" />
-    <View android:id="@id/large_divider" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

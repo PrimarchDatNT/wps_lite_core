@@ -84,7 +84,7 @@
 
     iget-object v0, p0, Lqha$j;->S:Lqha$q;
 
-    const v1, 0x7f121642
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verify_auth_failed_suggest:I
 
     invoke-static {p1, v1, p2, v0}, Lqha;->b(Landroid/content/Context;ILandroid/app/Dialog;Lqha$q;)V
 

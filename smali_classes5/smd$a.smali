@@ -60,7 +60,7 @@
 
     const/16 v1, 0x753b
 
-    const v2, 0x7f122b46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const-string v3, "ppt"
 

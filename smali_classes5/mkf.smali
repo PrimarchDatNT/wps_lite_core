@@ -349,7 +349,7 @@
 
     iget-object v1, p0, Lmkf;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f0b2d04
+    sget v2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-direct {v0, v1, v2}, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;-><init>(Landroid/app/Activity;I)V
 

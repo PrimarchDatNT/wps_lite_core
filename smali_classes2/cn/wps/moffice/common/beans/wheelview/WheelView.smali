@@ -219,7 +219,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -239,7 +239,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070aeb
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_default_text_size:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

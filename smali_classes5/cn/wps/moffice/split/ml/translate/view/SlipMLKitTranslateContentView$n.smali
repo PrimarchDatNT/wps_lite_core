@@ -198,7 +198,7 @@
 
     const/4 v3, 0x3
 
-    const v5, 0x7f120584
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     if-eq v0, v3, :cond_9
 
@@ -348,7 +348,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120454
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_recognized_failed:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

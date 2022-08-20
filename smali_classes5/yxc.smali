@@ -297,7 +297,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e07e1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_watermark_preview_item:I
 
     const/4 v2, 0x0
 
@@ -310,7 +310,7 @@
 
     invoke-direct {p3}, Lyxc$e;-><init>()V
 
-    const v1, 0x7f0b1f5e
+    sget v1, Lcom/resouce/module/ResID;->pdf_watermark_preview_item_img:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     iput-object v1, p3, Lyxc$e;->a:Lcn/wps/moffice/pdf/shell/watermark/PreviewPageView;
 
-    const v1, 0x7f0b1f5f
+    sget v1, Lcom/resouce/module/ResID;->pdf_watermark_preview_item_supercanvas:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

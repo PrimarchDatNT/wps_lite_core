@@ -131,7 +131,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/foreigntemplate/charge/ChargerDelegate;->b:Landroid/app/Activity;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

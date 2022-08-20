@@ -174,7 +174,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b022c
+    sget v2, Lcom/resouce/module/ResID;->bold_btn:I
 
     const/4 v3, 0x0
 
@@ -200,7 +200,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

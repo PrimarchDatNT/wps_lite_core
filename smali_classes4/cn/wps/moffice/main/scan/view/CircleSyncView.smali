@@ -55,7 +55,7 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f08199a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_icon_refresh:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setBackgroundResource(I)V

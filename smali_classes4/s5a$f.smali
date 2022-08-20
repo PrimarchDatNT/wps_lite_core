@@ -60,7 +60,7 @@
 .method public b(Landroid/widget/ImageView;Ljava/lang/String;)Z
     .locals 1
 
-    const v0, 0x7f0b2e71
+    sget v0, Lcom/resouce/module/ResID;->tag_icon_key:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->getTag(I)Ljava/lang/Object;

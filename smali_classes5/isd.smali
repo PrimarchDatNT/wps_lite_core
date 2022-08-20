@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07fc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_ink_options_layout:I
 
     const/4 v2, 0x0
 
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lopd;->a:Landroid/view/View;
 
-    const v1, 0x7f0b22f4
+    sget v1, Lcom/resouce/module/ResID;->ppt_ink_root_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
     .line 6
     iget-object v1, p0, Lopd;->a:Landroid/view/View;
 
-    const v2, 0x7f0b22f3
+    sget v2, Lcom/resouce/module/ResID;->ppt_ink_disable_toggle:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
     .line 8
     iget-object v1, p0, Lopd;->a:Landroid/view/View;
 
-    const v2, 0x7f0b22ed
+    sget v2, Lcom/resouce/module/ResID;->ppt_ink_by_finger_toggle:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -210,7 +210,7 @@
     .line 10
     iget-object v1, p0, Lopd;->a:Landroid/view/View;
 
-    const v2, 0x7f0b1f6a
+    sget v2, Lcom/resouce/module/ResID;->pen_finger_divider:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -237,7 +237,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -82,7 +82,7 @@
 
     iget-object v0, v0, Ls47$a;->I:Landroid/app/Activity;
 
-    const v1, 0x7f121fff
+    sget v1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_make_duplicate_success:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 

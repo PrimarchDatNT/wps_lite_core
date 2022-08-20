@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08fc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_tvmeeting_titlebar_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2108
+    sget v1, Lcom/resouce/module/ResID;->phone_public_tvmeeeting_titlebar:I
 
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -351,11 +351,11 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    const v3, 0x7f0e0dd0
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_play_titlebar_layout:I
 
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b32ba
+    sget v0, Lcom/resouce/module/ResID;->tvmeeting_titlebar_root:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b2084
+    sget v0, Lcom/resouce/module/ResID;->phone_play_titlebar_container:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b26c9
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_timer_root:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->B:Landroid/view/View;
 
-    const v0, 0x7f0b26c7
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_timer:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -402,7 +402,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b26c8
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_timer_indicator:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->V:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b26c1
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_exit_play:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->S:Landroid/view/View;
 
-    const v0, 0x7f0b26c2
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_exit_play_icon:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -433,7 +433,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b26c3
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_exit_play_text:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -444,7 +444,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b26c4
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_laserpen:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->W:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b26c6
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_switch_doc:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->a0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b26bf
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_agora_play:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->j0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b26be
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_agora_layout:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -486,7 +486,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b26c5
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_more:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -530,7 +530,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070821
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_title_bar_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

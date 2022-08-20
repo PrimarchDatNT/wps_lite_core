@@ -750,7 +750,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0efb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_sign_edit:I
 
     const/4 v2, 0x0
 
@@ -825,7 +825,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0260
+    sget v1, Lcom/resouce/module/ResID;->bottom_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -887,7 +887,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b3001
+    sget v1, Lcom/resouce/module/ResID;->title_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -899,7 +899,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1314
+    sget v1, Lcom/resouce/module/ResID;->ink_gestureview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -925,7 +925,7 @@
 
     move-result v0
 
-    const v1, 0x7f1218ec
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_title_sign_edit:I
 
     if-eqz v0, :cond_1
 
@@ -974,7 +974,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f1218eb
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_title_initials_edit:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -990,7 +990,7 @@
     :goto_2
     iget-object v1, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v2, 0x7f0b3012
+    sget v2, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1006,7 +1006,7 @@
     .line 24
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0340
+    sget v1, Lcom/resouce/module/ResID;->cancel_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1019,7 +1019,7 @@
     .line 25
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0784
+    sget v1, Lcom/resouce/module/ResID;->done_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1032,7 +1032,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0338
+    sget v1, Lcom/resouce/module/ResID;->camera_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1045,7 +1045,7 @@
     .line 27
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0425
+    sget v1, Lcom/resouce/module/ResID;->clear_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1058,7 +1058,7 @@
     .line 28
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b15a4
+    sget v1, Lcom/resouce/module/ResID;->legalize_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1071,7 +1071,7 @@
     .line 29
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1f31
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_thickness_ll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1084,7 +1084,7 @@
     .line 30
     iget-object v0, p0, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1f2d
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_colors_ll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1114,7 +1114,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     :cond_4
-    const v0, 0x7f0b1f33
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_thickness_s_iv:I
 
     .line 34
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1123,7 +1123,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f32
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_thickness_m_iv:I
 
     .line 35
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1132,7 +1132,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f30
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_thickness_l_iv:I
 
     .line 36
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1144,7 +1144,7 @@
     .line 37
     invoke-virtual {p0}, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;->h3()V
 
-    const v0, 0x7f0b1f28
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_color_black_iv:I
 
     .line 38
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1153,7 +1153,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f29
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_color_blue_iv:I
 
     .line 39
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1162,7 +1162,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f2b
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_color_purple_iv:I
 
     .line 40
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1171,7 +1171,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f2a
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_color_gray_iv:I
 
     .line 41
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1180,7 +1180,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1f2c
+    sget v0, Lcom/resouce/module/ResID;->pdf_sign_color_red_iv:I
 
     .line 42
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1250,7 +1250,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0340
+    sget v1, Lcom/resouce/module/ResID;->cancel_button:I
 
     if-ne v0, v1, :cond_1
 
@@ -1265,7 +1265,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0b0784
+    sget v1, Lcom/resouce/module/ResID;->done_button:I
 
     if-ne v0, v1, :cond_2
 
@@ -1325,7 +1325,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b0425
+    sget v1, Lcom/resouce/module/ResID;->clear_button:I
 
     if-ne v0, v1, :cond_3
 
@@ -1342,7 +1342,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0b0338
+    sget v1, Lcom/resouce/module/ResID;->camera_view:I
 
     const-string v2, "entry"
 
@@ -1415,7 +1415,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v1, 0x7f0b15a4
+    sget v1, Lcom/resouce/module/ResID;->legalize_button:I
 
     if-ne v0, v1, :cond_5
 
@@ -1454,7 +1454,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b1f33
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_thickness_s_iv:I
 
     const-string v2, "thickness"
 
@@ -1473,7 +1473,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f0b1f32
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_thickness_m_iv:I
 
     if-ne v0, v1, :cond_7
 
@@ -1490,7 +1490,7 @@
     goto :goto_0
 
     :cond_7
-    const v1, 0x7f0b1f30
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_thickness_l_iv:I
 
     if-ne v0, v1, :cond_8
 
@@ -1507,23 +1507,23 @@
     goto :goto_0
 
     :cond_8
-    const v1, 0x7f0b1f28
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_color_black_iv:I
 
     if-eq v0, v1, :cond_9
 
-    const v1, 0x7f0b1f29
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_color_blue_iv:I
 
     if-eq v0, v1, :cond_9
 
-    const v1, 0x7f0b1f2b
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_color_purple_iv:I
 
     if-eq v0, v1, :cond_9
 
-    const v1, 0x7f0b1f2a
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_color_gray_iv:I
 
     if-eq v0, v1, :cond_9
 
-    const v1, 0x7f0b1f2c
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_color_red_iv:I
 
     if-ne v0, v1, :cond_a
 

@@ -47,9 +47,9 @@
     .line 2
     new-instance v0, Lpb7;
 
-    const v1, 0x7f0807f9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_drive_entry_cloud_backup:I
 
-    const v2, 0x7f121e22
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_backup:I
 
     const/4 v3, 0x2
 
@@ -99,9 +99,9 @@
     .line 2
     new-instance v0, Lpb7;
 
-    const v1, 0x7f0807fa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_drive_entry_homework:I
 
-    const v2, 0x7f120271
+    sget v2, Lcom/resouce/module/ResSTRING;->class_title_home_work_list:I
 
     const/4 v3, 0x3
 
@@ -136,9 +136,9 @@
     .line 1
     new-instance v0, Lpb7;
 
-    const v1, 0x7f0807f8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_drive_entry_cloud:I
 
-    const v2, 0x7f120616
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_myspace:I
 
     const/4 v3, 0x4
 
@@ -179,9 +179,9 @@
     .line 2
     new-instance v0, Lpb7;
 
-    const v1, 0x7f0807fb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_drive_entry_send2pc:I
 
-    const v2, 0x7f12291e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_to_pc:I
 
     const/4 v3, 0x1
 
@@ -274,9 +274,9 @@
     .line 2
     new-instance v1, Lpb7;
 
-    const v2, 0x7f080843
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_login_send:I
 
-    const v3, 0x7f122447
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_entry_send2pc:I
 
     invoke-direct {v1, v2, v3}, Lpb7;-><init>(II)V
 
@@ -285,9 +285,9 @@
     .line 3
     new-instance v1, Lpb7;
 
-    const v2, 0x7f080845
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_login_sync_device:I
 
-    const v3, 0x7f122449
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_entry_synchronization:I
 
     invoke-direct {v1, v2, v3}, Lpb7;-><init>(II)V
 
@@ -296,9 +296,9 @@
     .line 4
     new-instance v1, Lpb7;
 
-    const v2, 0x7f080844
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_login_share2people:I
 
-    const v3, 0x7f122448
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login_entry_share2people:I
 
     invoke-direct {v1, v2, v3}, Lpb7;-><init>(II)V
 
@@ -307,9 +307,9 @@
     .line 5
     new-instance v1, Lpb7;
 
-    const v2, 0x7f080832
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_login_cloud_upload:I
 
-    const v3, 0x7f122279
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_cloud_backup:I
 
     invoke-direct {v1, v2, v3}, Lpb7;-><init>(II)V
 

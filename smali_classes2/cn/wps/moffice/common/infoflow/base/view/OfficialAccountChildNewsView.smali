@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600a9
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_reading_count_red:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -98,7 +98,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080b2b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->official_account_news_read_count_red:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -116,7 +116,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060075
+    sget v2, Lcom/resouce/module/ResCOLOR;->child_news_tag_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080b2a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->official_account_news_read_count:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -259,7 +259,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c7b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_official_account_news_child_layout:I
 
     const/4 v1, 0x1
 
@@ -270,7 +270,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0819f3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_list_gray_selector:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -278,7 +278,7 @@
 
     invoke-static {p0, p1}, Lmh3;->f(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
-    const p1, 0x7f0b03e9
+    sget p1, Lcom/resouce/module/ResID;->child_news_title:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/OfficialAccountChildNewsView;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b03e6
+    sget p1, Lcom/resouce/module/ResID;->child_news_content:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -300,7 +300,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/OfficialAccountChildNewsView;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b03e7
+    sget p1, Lcom/resouce/module/ResID;->child_news_reading_count:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/OfficialAccountChildNewsView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b03e8
+    sget p1, Lcom/resouce/module/ResID;->child_news_tag:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

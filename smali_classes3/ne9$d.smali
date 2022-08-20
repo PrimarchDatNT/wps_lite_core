@@ -43,7 +43,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0808b3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_roaming_guide_pic:I
 
     return v0
 .end method
@@ -54,7 +54,7 @@
     .line 1
     iget-object v0, p0, Lbe9;->c:Landroid/content/res/Resources;
 
-    const v1, 0x7f122b42
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unroaming_dialog_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -69,7 +69,7 @@
     .line 1
     iget-object v0, p0, Lbe9;->c:Landroid/content/res/Resources;
 
-    const v1, 0x7f122b43
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unroaming_dialog_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

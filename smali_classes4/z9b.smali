@@ -168,7 +168,7 @@
 .method public final B3(I)V
     .locals 3
 
-    const v0, 0x7f0b163d
+    sget v0, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     if-ne p1, v0, :cond_0
 
@@ -177,7 +177,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b16e1
+    sget v0, Lcom/resouce/module/ResID;->ll_share:I
 
     if-ne p1, v0, :cond_1
 
@@ -186,7 +186,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_2
 
@@ -195,7 +195,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b16ff
+    sget v0, Lcom/resouce/module/ResID;->ll_translation:I
 
     if-ne p1, v0, :cond_3
 
@@ -270,7 +270,7 @@
     .line 3
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b06bc
+    sget v1, Lcom/resouce/module/ResID;->distinguish_editor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
     .line 4
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3243
+    sget v1, Lcom/resouce/module/ResID;->tv_scan:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -294,7 +294,7 @@
     .line 5
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3258
+    sget v1, Lcom/resouce/module/ResID;->tv_share:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
     .line 6
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3163
+    sget v1, Lcom/resouce/module/ResID;->tv_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -316,7 +316,7 @@
     .line 7
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b163d
+    sget v1, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -327,7 +327,7 @@
     .line 8
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16e1
+    sget v1, Lcom/resouce/module/ResID;->ll_share:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -338,7 +338,7 @@
     .line 9
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b165a
+    sget v1, Lcom/resouce/module/ResID;->ll_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 10
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b06bd
+    sget v1, Lcom/resouce/module/ResID;->distinguish_scroll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -360,7 +360,7 @@
     .line 11
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1203f4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_result:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -437,7 +437,7 @@
     .line 18
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16ff
+    sget v1, Lcom/resouce/module/ResID;->ll_translation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -448,7 +448,7 @@
     .line 19
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1280
+    sget v1, Lcom/resouce/module/ResID;->image_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -461,7 +461,7 @@
     .line 20
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1283
+    sget v1, Lcom/resouce/module/ResID;->image_member_translate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -472,7 +472,7 @@
     .line 21
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1282
+    sget v1, Lcom/resouce/module/ResID;->image_member_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -549,7 +549,7 @@
     :cond_2
     iget-object v0, p0, Lz9b;->y0:Landroid/widget/ImageView;
 
-    const v2, 0x7f0808a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -564,7 +564,7 @@
     :cond_3
     iget-object v0, p0, Lz9b;->y0:Landroid/widget/ImageView;
 
-    const v2, 0x7f0817cc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -715,7 +715,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b163d
+    sget v0, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     if-ne p1, v0, :cond_0
 
@@ -729,7 +729,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b16e1
+    sget v0, Lcom/resouce/module/ResID;->ll_share:I
 
     const-string v1, "vas_position"
 
@@ -774,7 +774,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_2
 
@@ -843,7 +843,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b16ff
+    sget v0, Lcom/resouce/module/ResID;->ll_translation:I
 
     if-ne p1, v0, :cond_5
 
@@ -1148,7 +1148,7 @@
 .method public y3(Landroid/view/LayoutInflater;)V
     .locals 2
 
-    const v0, 0x7f0e0027
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_distinguish_result:I
 
     const/4 v1, 0x0
 

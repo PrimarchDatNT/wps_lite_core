@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/web_article_seven_day" layout="@layout/layout_period_setting_item" />
-    <include android:id="@id/web_article_forever" layout="@layout/layout_period_setting_item" />
-    <include android:id="@id/web_article_custom_period" android:layout_width="fill_parent" android:layout_height="66.0dip" layout="@layout/public_doc2web_settings_item_layout" />
-</LinearLayout>

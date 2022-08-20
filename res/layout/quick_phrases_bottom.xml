@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/pdf_bottom_quick_phrases_show_titlebar" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/phrases_recycle" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
-    <RelativeLayout android:id="@id/add_phrases" android:background="@drawable/public_round_rect_gray_bg_4dp_1px" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
-        <cn.wpsx.support.ui.KNormalImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_insert" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</LinearLayout>

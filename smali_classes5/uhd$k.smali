@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1200ad
+    sget p2, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     const/4 v0, 0x1
 

@@ -37,7 +37,7 @@
 
     fill-array-data v5, :array_0
 
-    const v3, 0x7f0e0d2b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_online_device_list_item:I
 
     move-object v0, p0
 
@@ -134,12 +134,12 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f122af6
+    sget v4, Lcom/resouce/module/ResSTRING;->public_transfer_device_online:I
 
     goto :goto_1
 
     :cond_0
-    const v4, 0x7f122af5
+    sget v4, Lcom/resouce/module/ResSTRING;->public_transfer_device_offline:I
 
     :goto_1
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

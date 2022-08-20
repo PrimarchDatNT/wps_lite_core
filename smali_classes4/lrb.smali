@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12188b
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_paypage_month_subscription:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121889
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_paypage_func_subscription:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121478
+    sget v4, Lcom/resouce/module/ResSTRING;->new_user_value_add_notify:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -234,7 +234,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f121884
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_paypage_cancel_subscription:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -325,7 +325,7 @@
     .line 2
     new-instance v0, Ljava/util/ArrayList;
 
-    const v1, 0x7f030022
+    sget v1, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -401,7 +401,7 @@
 
     if-nez v5, :cond_1
 
-    const v5, 0x7f1218c4
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 10
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -445,7 +445,7 @@
     .line 15
     invoke-virtual {v4, v5}, Lgf3;->h(Ljava/lang/String;)V
 
-    const v6, 0x7f121886
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_paypage_cloud_space_txt:I
 
     .line 16
     invoke-virtual {p1, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -643,7 +643,7 @@
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
-    const v2, 0x7f03006d
+    sget v2, Lcom/resouce/module/ResARRAY;->new_user_guide_pdf_privilege:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -658,7 +658,7 @@
     .line 6
     new-instance v2, Ljava/util/ArrayList;
 
-    const v3, 0x7f03006b
+    sget v3, Lcom/resouce/module/ResARRAY;->new_user_guide_file_privilege:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -673,7 +673,7 @@
     .line 7
     new-instance v3, Ljava/util/ArrayList;
 
-    const v4, 0x7f03006c
+    sget v4, Lcom/resouce/module/ResARRAY;->new_user_guide_more_privilege:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -690,7 +690,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1218b8
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_privileges:I
 
     .line 9
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -716,7 +716,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12188f
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_txt:I
 
     .line 13
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -742,7 +742,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120faf
+    sget v5, Lcom/resouce/module/ResSTRING;->home_membership_privilege_more:I
 
     .line 17
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

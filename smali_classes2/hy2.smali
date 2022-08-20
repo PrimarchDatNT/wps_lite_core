@@ -28,7 +28,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b174a
+    sget v0, Lcom/resouce/module/ResID;->logged_user_coin_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -37,7 +37,7 @@
 
     iput-object p1, p0, Lhy2;->c:Landroid/view/View;
 
-    const v0, 0x7f0b332c
+    sget v0, Lcom/resouce/module/ResID;->user_coins_value_tv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
     .line 4
     iget-object p1, p0, Lhy2;->c:Landroid/view/View;
 
-    const v0, 0x7f0b332a
+    sget v0, Lcom/resouce/module/ResID;->user_bonus_value_tv:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f123243
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_novel_user_coin:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f123242
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_novel_user_bonus:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -145,12 +145,12 @@
 
     if-eqz v7, :cond_1
 
-    const v7, 0x7f0603a3
+    sget v7, Lcom/resouce/module/ResCOLOR;->novel_subTextColor_night:I
 
     goto :goto_0
 
     :cond_1
-    const v7, 0x7f0603a2
+    sget v7, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     :goto_0
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
@@ -202,12 +202,12 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f060331
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor_night:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f060330
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     :goto_1
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I

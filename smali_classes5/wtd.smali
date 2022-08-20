@@ -32,7 +32,7 @@
 
     move-result v1
 
-    const v2, 0x7f122050
+    sget v2, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-direct {v0, p0, v1, v2}, Lwtd$c;-><init>(Lwtd;II)V
 
@@ -112,7 +112,7 @@
 
     move-result v3
 
-    const v4, 0x7f122050
+    sget v4, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     move-object v1, v0
 
@@ -154,12 +154,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08039f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_encryption:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d8e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_safty_encryption_ppt:I
 
     :goto_0
     return v0

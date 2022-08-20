@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.CommonSwitch android:id="@id/public_switch_compoundbutton" android:paddingRight="-3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/phone_public_switch_thumb_selector" android:track="@drawable/phone_public_switch_track_selector" android:paddingEnd="-3.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

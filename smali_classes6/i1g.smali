@@ -153,7 +153,7 @@
     .line 17
     iget-object p1, p0, Ljd3;->S:Landroid/widget/PopupWindow;
 
-    const p2, 0x7f13069e
+    sget p2, Lcom/resouce/module/ResSTYLE;->phone_ss_filter_popupwindow_anmation:I
 
     invoke-virtual {p1, p2}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

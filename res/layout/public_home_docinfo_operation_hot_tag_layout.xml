@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wpsx.support.ui.KColorfulImageView android:id="@id/operation_item_tag_hot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/public_share_pdf_hot" android:layout_toRightOf="@id/operation_item_label" android:layout_alignTop="@id/operation_item_label" android:layout_alignBottom="@id/operation_item_label" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/operation_item_label"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

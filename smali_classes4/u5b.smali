@@ -70,7 +70,7 @@
     .line 5
     iput-object p2, p0, Lu5b;->a:Ljava/util/List;
 
-    const p2, 0x7f120474
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_processing:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -116,7 +116,7 @@
     .line 12
     iput-object p2, p0, Lu5b;->a:Ljava/util/List;
 
-    const p2, 0x7f120474
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_processing:I
 
     .line 13
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -253,7 +253,7 @@
     .line 3
     iget-object p1, p0, Lu5b;->c:Landroid/app/Activity;
 
-    const v0, 0x7f1204b5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array v4, v3, [Ljava/lang/Object;
 
@@ -417,7 +417,7 @@
     .line 5
     iget-object v0, p0, Lu5b;->d:Lkd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lu5b$a;
 

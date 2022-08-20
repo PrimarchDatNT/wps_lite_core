@@ -34,7 +34,7 @@
 
     sget v1, Ln2h;->S:I
 
-    const v2, 0x7f1221b3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_font_bold:I
 
     const/4 v3, 0x0
 

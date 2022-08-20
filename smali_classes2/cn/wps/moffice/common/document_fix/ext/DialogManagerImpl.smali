@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b254e
+    sget v1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mProgressText:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
     .line 10
     iget-object v1, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mProgressDialog:Lhd3;
 
-    const v2, 0x7f1206d9
+    sget v2, Lcom/resouce/module/ResSTRING;->download_fix_doc:I
 
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -187,7 +187,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mProgressDialog:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -235,21 +235,21 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mExitDialog:Lhd3;
 
-    const v1, 0x7f1203af
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_exit:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mExitDialog:Lhd3;
 
-    const v1, 0x7f1203b0
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_exit_desc:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mExitDialog:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -258,14 +258,14 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mExitDialog:Lhd3;
 
-    const v1, 0x7f1203ad
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_back_fix:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mExitDialog:Lhd3;
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -320,35 +320,35 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mFixRecordExistDialog:Lhd3;
 
-    const v1, 0x7f1203b2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_record_title:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mFixRecordExistDialog:Lhd3;
 
-    const v1, 0x7f1203b1
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_record_desc:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mFixRecordExistDialog:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mFixRecordExistDialog:Lhd3;
 
-    const v0, 0x7f1203b3
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_has_fix_retry:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/document_fix/ext/DialogManagerImpl;->mFixRecordExistDialog:Lhd3;
 
-    const p2, 0x7f122ba9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_view:I
 
     invoke-virtual {p1, p2, p3}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -387,7 +387,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122614    # 1.94265E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     const/4 v2, 0x0
 

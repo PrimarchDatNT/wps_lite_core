@@ -433,7 +433,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122296
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_filter_search_more:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

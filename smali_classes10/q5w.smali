@@ -49,7 +49,7 @@
     .line 2
     iget-object p1, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v0, 0x7f122e98
+    sget v0, Lcom/resouce/module/ResSTRING;->search_empty_view_no_network_toast:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -82,7 +82,7 @@
     .line 1
     iget-object v0, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122545
+    sget v1, Lcom/resouce/module/ResSTRING;->public_normal_login_text_tips_search_immediately:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -138,9 +138,9 @@
     .line 3
     iget-object v0, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v2, 0x7f122bbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_login_text_operation_tips:I
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v5, "\""
 

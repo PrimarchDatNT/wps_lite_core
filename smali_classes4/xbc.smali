@@ -904,7 +904,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0593
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_pdf_annotation:I
 
     return v0
 .end method
@@ -932,7 +932,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0115
+    sget v1, Lcom/resouce/module/ResID;->annotation_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -941,7 +941,7 @@
     .line 3
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0117
+    sget v2, Lcom/resouce/module/ResID;->annotation_undo:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -950,7 +950,7 @@
     .line 4
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1d57
+    sget v3, Lcom/resouce/module/ResID;->pdf_annotation_panel:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

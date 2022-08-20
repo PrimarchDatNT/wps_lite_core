@@ -130,7 +130,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0ef1
+    sget p3, Lcom/resouce/module/ResLAYOUT;->rfab__new_content_label_list_pad_item:I
 
     const/4 v0, 0x0
 
@@ -186,7 +186,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b290d
+    sget v0, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 5
     invoke-static {p2, v0}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b290c
+    sget v1, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
     return-object p2
 
     :cond_3
-    const v3, 0x7f0b2867
+    sget v3, Lcom/resouce/module/ResID;->red_dot_layout:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0819c8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     const/4 v4, 0x0
 

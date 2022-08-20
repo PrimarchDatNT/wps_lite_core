@@ -83,7 +83,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f120eec
+    sget v0, Lcom/resouce/module/ResSTRING;->home_docs_search_others_documentroam:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120642
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -198,7 +198,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d91
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_general_file_item:I
 
     const/4 v2, 0x0
 
@@ -208,7 +208,7 @@
 
     iput-object p1, p0, Lh09;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2823
+    sget v0, Lcom/resouce/module/ResID;->recent_file_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
     .line 4
     iget-object p1, p0, Lh09;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2827
+    sget v0, Lcom/resouce/module/ResID;->recent_filename_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 6
     iget-object p1, p0, Lh09;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0ed0
+    sget v0, Lcom/resouce/module/ResID;->general_file_from_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     .line 7
     iget-object p1, p0, Lh09;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0ecf
+    sget v0, Lcom/resouce/module/ResID;->general_file_date_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 8
     iget-object p1, p0, Lh09;->T:Landroid/view/View;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -353,7 +353,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1205ea
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     return p1
 

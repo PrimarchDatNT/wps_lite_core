@@ -123,7 +123,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f081c04
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_img:I
 
     invoke-static {v4, v5}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -158,7 +158,7 @@
 
     check-cast v4, Landroid/app/Activity;
 
-    const v5, 0x7f122e01
+    sget v5, Lcom/resouce/module/ResSTRING;->recommend_share_weibo:I
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

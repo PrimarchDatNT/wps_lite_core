@@ -36,7 +36,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e033e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_register_dialog:I
 
     const/4 v1, 0x0
 
@@ -69,7 +69,7 @@
 
     iput-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b08c5
+    sget v0, Lcom/resouce/module/ResID;->etPassword:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
     .line 3
     iget-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b02b2
+    sget v0, Lcom/resouce/module/ResID;->btnSetPassword:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 5
     iget-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 6
     iget-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
     .line 7
     iget-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b13fe
+    sget v0, Lcom/resouce/module/ResID;->ivShowPassword:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
     .line 9
     iget-object p1, p0, Lxx7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b30ea
+    sget v0, Lcom/resouce/module/ResID;->tvErrorTips:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -166,7 +166,7 @@
 
     invoke-static {p1, v0}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const p1, 0x7f0b1a54
+    sget p1, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -260,7 +260,7 @@
     .line 3
     iget-object v0, p0, Lxx7;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f080837
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_password_eye_hide:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -279,7 +279,7 @@
     .line 5
     iget-object v0, p0, Lxx7;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f080838
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_password_eye_show:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -319,7 +319,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02b2
+    sget v0, Lcom/resouce/module/ResID;->btnSetPassword:I
 
     if-ne p1, v0, :cond_0
 
@@ -367,7 +367,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b13fe
+    sget v0, Lcom/resouce/module/ResID;->ivShowPassword:I
 
     if-ne p1, v0, :cond_1
 
@@ -377,7 +377,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_2
 

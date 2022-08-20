@@ -426,7 +426,7 @@
 
     iput-object v4, p0, Lsh4;->a:Lhd3;
 
-    const v4, 0x7f0e0161
+    sget v4, Lcom/resouce/module/ResLAYOUT;->en_login_guide_dialog_view:I
 
     .line 6
     iget-object v5, p0, Lsh4;->b:Landroid/app/Activity;
@@ -462,7 +462,7 @@
 
     move-result v5
 
-    const v6, 0x7f0b0533
+    sget v6, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 8
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -555,7 +555,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b068e
+    sget v5, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -581,7 +581,7 @@
 
     invoke-virtual {v2}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v2, 0x7f0b2683
+    sget v2, Lcom/resouce/module/ResID;->public_login_guide_pic:I
 
     .line 23
     invoke-virtual {v4, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -592,12 +592,12 @@
 
     iput-object v2, p0, Lsh4;->c:Landroid/widget/ImageView;
 
-    const v5, 0x7f08059d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_invite_login_guide_dialog:I
 
     .line 24
     invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v2, 0x7f0b2686
+    sget v2, Lcom/resouce/module/ResID;->public_login_tips:I
 
     .line 25
     invoke-virtual {v4, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -624,13 +624,13 @@
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f12070c
+    sget v0, Lcom/resouce/module/ResSTRING;->en_invite_login_guide_text:I
 
     .line 29
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(I)V
 
     :goto_3
-    const v0, 0x7f0b2682
+    sget v0, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     .line 30
     invoke-virtual {v4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -646,7 +646,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0b267b
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     .line 32
     invoke-virtual {v4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -657,7 +657,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b267c
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     .line 33
     invoke-virtual {v4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

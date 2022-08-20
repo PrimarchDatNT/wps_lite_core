@@ -54,17 +54,17 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e0c51
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_facebook_layout:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0c5a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_mopub_layout_test2:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f0e0c59
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_mopub_layout_test1:I
 
     return v0
 .end method

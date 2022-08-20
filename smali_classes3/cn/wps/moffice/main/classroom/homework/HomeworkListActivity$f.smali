@@ -131,17 +131,17 @@
 
     invoke-direct {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f08155a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_network:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 5
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -187,7 +187,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f12026a
+    sget v2, Lcom/resouce/module/ResSTRING;->class_no_whatsapp:I
 
     invoke-static {v0, v1, p1, v2}, Lio4;->e(Lydf;Landroid/content/Context;Ljava/lang/String;I)V
 
@@ -238,7 +238,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f12026e
+    sget p1, Lcom/resouce/module/ResSTRING;->class_share_homework:I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0451
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_home_work_list:I
 
     const/4 v2, 0x0
 
@@ -265,7 +265,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b03f2
+    sget v1, Lcom/resouce/module/ResID;->chooseFile:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity$f;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1536
+    sget v1, Lcom/resouce/module/ResID;->layoutTip:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity$f;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1549
+    sget v1, Lcom/resouce/module/ResID;->layout_home_work_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -303,7 +303,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b053a
+    sget v1, Lcom/resouce/module/ResID;->contentContainer:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -647,7 +647,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120271
+    sget v0, Lcom/resouce/module/ResSTRING;->class_title_home_work_list:I
 
     return v0
 .end method

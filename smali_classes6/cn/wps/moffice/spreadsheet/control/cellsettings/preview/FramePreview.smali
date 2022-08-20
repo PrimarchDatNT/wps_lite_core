@@ -69,7 +69,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1207bf
+    sget p2, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_text:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -401,7 +401,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -686,7 +686,7 @@
 
     move-result-object p5
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p5, v0}, Landroid/content/res/Resources;->getColor(I)I
 

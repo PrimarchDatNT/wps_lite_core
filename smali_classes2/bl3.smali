@@ -220,7 +220,7 @@
     .line 23
     iput-boolean p1, p0, Lbl3;->W:Z
 
-    const p1, 0x7f0e0a40
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pickerview_time:I
 
     .line 24
     iput p1, p0, Lbl3;->x:I

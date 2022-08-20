@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b27b5
+    sget v0, Lcom/resouce/module/ResID;->quit_no:I
 
     if-ne p1, v0, :cond_0
 
@@ -60,16 +60,16 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity$a;->B:Lcn/wps/moffice/main/push/splash/backkeysplash/BackKeyPhoneSplashActivity;
 
-    const v0, 0x7f010013
+    sget v0, Lcom/resouce/module/ResANIM;->backkey_activity_enter:I
 
-    const v1, 0x7f010014
+    sget v1, Lcom/resouce/module/ResANIM;->backkey_activity_exit:I
 
     invoke-virtual {p1, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b27b6
+    sget v0, Lcom/resouce/module/ResID;->quit_yes:I
 
     if-ne p1, v0, :cond_1
 

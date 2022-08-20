@@ -32,7 +32,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f0b3436
+    sget p0, Lcom/resouce/module/ResID;->widget_fellow_system:I
 
     goto :goto_0
 
@@ -41,7 +41,7 @@
 
     if-ne v0, p0, :cond_1
 
-    const p0, 0x7f0b343d
+    sget p0, Lcom/resouce/module/ResID;->widget_light_color:I
 
     goto :goto_0
 
@@ -50,7 +50,7 @@
 
     if-ne v0, p0, :cond_2
 
-    const p0, 0x7f0b3435
+    sget p0, Lcom/resouce/module/ResID;->widget_dark_color:I
 
     goto :goto_0
 

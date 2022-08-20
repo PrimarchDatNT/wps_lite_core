@@ -185,7 +185,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/SheetDocFix;->I:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -216,7 +216,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/SheetDocFix;->I:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f1203a7
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_file_too_large:I
 
     const/4 v1, 0x0
 
@@ -394,15 +394,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080489
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_doc_repair:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e7c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_doc_repair_et:I
 
     :goto_0
-    const v2, 0x7f120147
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/SheetDocFix$3;-><init>(Lcn/wps/moffice/spreadsheet/control/SheetDocFix;II)V
 
@@ -485,7 +485,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/SheetDocFix;->I:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f1203c5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_unsupoort_file_type:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -506,7 +506,7 @@
     :goto_1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/SheetDocFix;->I:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

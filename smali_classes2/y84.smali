@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2ccc
+    sget v0, Lcom/resouce/module/ResID;->spread:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212dd
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_media_third_logo:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212dc
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_media_third:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

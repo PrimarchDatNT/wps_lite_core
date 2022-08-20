@@ -172,7 +172,7 @@
     goto :goto_1
 
     :catch_0
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     const/4 v2, 0x1
 

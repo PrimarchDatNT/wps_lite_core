@@ -98,9 +98,9 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f121984
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_public_lock_screen:I
 
-    const v2, 0x7f0802a1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
     .line 4
     iget-object v3, p0, Lsmd$d;->i0:Lsmd;
@@ -116,9 +116,9 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f121995
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_public_rotate_screen:I
 
-    const v2, 0x7f08029f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_rotating_screen:I
 
     const/4 v0, 0x1
 

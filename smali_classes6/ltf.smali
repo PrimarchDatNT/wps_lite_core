@@ -141,7 +141,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -154,7 +154,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06011e
+    sget v0, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060626
+    sget p2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -339,7 +339,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e01dd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_datavalidation_setting:I
 
     return v0
 .end method
@@ -347,7 +347,7 @@
 .method public c3()I
     .locals 1
 
-    const v0, 0x7f0e0e58
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     return v0
 .end method
@@ -696,7 +696,7 @@
 
     new-array v1, v1, [Ljava/lang/String;
 
-    const v2, 0x7f120817
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_anything:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -707,7 +707,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120823
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -718,7 +718,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f12081c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_decimals:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -729,7 +729,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120829
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_sequence:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -740,7 +740,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120818
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_date:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -751,7 +751,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f1207c9
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -762,7 +762,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f12082c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_string_len:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -796,7 +796,7 @@
     .line 1
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09e4
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_setting_select:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -809,7 +809,7 @@
     .line 2
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a00
+    sget v1, Lcom/resouce/module/ResID;->et_dv_middle_group:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -820,7 +820,7 @@
     .line 3
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09d8
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_error_warning_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -830,7 +830,7 @@
 
     iput-object v0, p0, Lltf;->d0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v1, 0x7f120820
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_error_warning_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
@@ -845,7 +845,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09e3
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_prompt_nothingselected:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -863,7 +863,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09e1
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_integer_valuegroup:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -880,7 +880,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09de
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_decimal_valuegroup:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -897,7 +897,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09f4
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_sq_drag_layout:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -912,7 +912,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09db
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_date_valuegroup:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -929,7 +929,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09f3
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_time_valuegroup:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -946,7 +946,7 @@
 
     iget-object v1, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b09f0
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_setting_stringlen_valuegroup:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1002,7 +1002,7 @@
     .line 21
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09ca
+    sget v1, Lcom/resouce/module/ResID;->et_data_validation_custom_tabhost:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1015,7 +1015,7 @@
     .line 22
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09e5
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_setting_select_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1028,7 +1028,7 @@
     .line 23
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09f8
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_titleBar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1043,7 +1043,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120804
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1054,7 +1054,7 @@
     .line 25
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09f6
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_tab_btn_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1065,7 +1065,7 @@
     .line 26
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09e2
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_setting_prompt_group:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1078,7 +1078,7 @@
     .line 27
     iget-object v0, p0, Lltf;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a07
+    sget v1, Lcom/resouce/module/ResID;->et_dv_sq_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1182,7 +1182,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08060f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->et_data_validation_dialog_btn_bg:I
 
     invoke-virtual {v1, v2}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -1196,7 +1196,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f130023
+    sget v1, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 6
     iput v1, v0, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -1284,7 +1284,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b09d8
+    sget v2, Lcom/resouce/module/ResID;->et_datavalidation_error_warning_tips:I
 
     if-ne v0, v2, :cond_0
 
@@ -1299,22 +1299,22 @@
     goto :goto_1
 
     :cond_0
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq v0, v2, :cond_4
 
-    const v2, 0x7f0b2fdd
+    sget v2, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq v0, v2, :cond_4
 
-    const v2, 0x7f0b2fde
+    sget v2, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v2, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b2fe6
+    sget v2, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne v0, v2, :cond_5
 
@@ -1625,7 +1625,7 @@
 
     :cond_2
     :goto_0
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

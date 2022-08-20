@@ -49,7 +49,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/google/signin/GoogleSignInActivity$b;->a:Lcn/wps/moffice/common/google/signin/GoogleSignInActivity;
 
-    const v1, 0x7f120ddc
+    sget v1, Lcom/resouce/module/ResSTRING;->gp_service_need_update:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -59,7 +59,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/common/google/signin/GoogleSignInActivity$b;->a:Lcn/wps/moffice/common/google/signin/GoogleSignInActivity;
 
-    const v1, 0x7f12244b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

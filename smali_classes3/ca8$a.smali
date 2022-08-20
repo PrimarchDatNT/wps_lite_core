@@ -58,14 +58,14 @@
 
     move-result p1
 
-    const p2, 0x7f121953
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_send_url:I
 
     if-ne p1, p2, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f121952
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_copy_url:I
 
     if-ne p1, p2, :cond_1
 
@@ -107,7 +107,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121945
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_share_dialog_url_copy_tip:I
 
     const/4 p3, 0x0
 

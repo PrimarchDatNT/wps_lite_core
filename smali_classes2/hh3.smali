@@ -13,12 +13,12 @@
 
     if-eqz p2, :cond_0
 
-    const v0, 0x7f130140
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Half_Screen_Bottom_In_Out_Without_Floating:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     :goto_0

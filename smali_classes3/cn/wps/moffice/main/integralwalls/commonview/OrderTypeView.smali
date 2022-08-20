@@ -140,7 +140,7 @@
 
     if-nez p4, :cond_1
 
-    const p4, 0x7f0b0229
+    sget p4, Lcom/resouce/module/ResID;->body:I
 
     .line 5
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     invoke-virtual {p4, p1}, Landroid/view/View;->setVisibility(I)V
 
-    const p4, 0x7f0b2f63
+    sget p4, Lcom/resouce/module/ResID;->textview:I
 
     .line 6
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

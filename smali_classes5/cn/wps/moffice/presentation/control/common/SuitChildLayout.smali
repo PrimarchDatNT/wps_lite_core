@@ -69,7 +69,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070d1a
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_bottombar_item_height:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

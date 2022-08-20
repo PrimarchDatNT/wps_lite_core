@@ -142,16 +142,16 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f3c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->setting_item_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0605ee
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
-    const v0, 0x7f0b31c3
+    sget v0, Lcom/resouce/module/ResID;->tv_item_name:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/print/SettingItemView;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31c5
+    sget v0, Lcom/resouce/module/ResID;->tv_item_val:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/print/SettingItemView;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b320a
+    sget v0, Lcom/resouce/module/ResID;->tv_option_item:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/print/SettingItemView;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -351,7 +351,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06005e
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonSecondaryDisableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -401,7 +401,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f06025d
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 2
     invoke-virtual {p0, p2, p1}, Lcn/wps/moffice/common/print/SettingItemView;->a(ILjava/lang/String;)Ljava/lang/CharSequence;

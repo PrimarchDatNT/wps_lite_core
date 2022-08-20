@@ -39,7 +39,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12280a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1227a5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122bc5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

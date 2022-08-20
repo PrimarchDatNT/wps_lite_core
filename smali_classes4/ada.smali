@@ -748,9 +748,9 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f121173
+    sget v1, Lcom/resouce/module/ResSTRING;->home_task_display_time_rules:I
 
-    const v2, 0x7f121177
+    sget v2, Lcom/resouce/module/ResSTRING;->home_task_know:I
 
     const/4 v3, 0x0
 

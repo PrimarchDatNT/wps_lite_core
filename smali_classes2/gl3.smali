@@ -132,7 +132,7 @@
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    const v2, 0x7f08199d    # 1.80908E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon_sdcard:I    # 1.80908E38f
 
     .line 3
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -143,7 +143,7 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f122503
+    sget v2, Lcom/resouce/module/ResSTRING;->public_native_file:I
 
     .line 4
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -162,7 +162,7 @@
 
     invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
-    const v2, 0x7f081990
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon_camera:I
 
     .line 7
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -171,7 +171,7 @@
 
     invoke-interface {v1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f1229e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shoot_image:I
 
     .line 8
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -190,7 +190,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0cce
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_list_dialog:I
 
     const/4 v5, 0x0
 
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2675
+    sget v2, Lcom/resouce/module/ResID;->public_list:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,13 +227,13 @@
 
     move-result-object v8
 
-    const v9, 0x7f0e0cd0
+    sget v9, Lcom/resouce/module/ResLAYOUT;->public_list_icon_text_item:I
 
     invoke-virtual {v8, v9, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v8
 
-    const v9, 0x7f0b2664
+    sget v9, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 15
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     check-cast v9, Landroid/widget/ImageView;
 
-    const v10, 0x7f0b2667
+    sget v10, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 16
     invoke-virtual {v8, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
 
     iput-object v0, p0, Lgl3;->b:Lhd3;
 
-    const v1, 0x7f1221ee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_forum_select_file:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;

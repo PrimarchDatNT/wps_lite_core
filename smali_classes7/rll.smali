@@ -67,15 +67,15 @@
     .line 1
     invoke-super {p0, p1}, Ltll;->C2(I)V
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const/16 v1, 0x8
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     if-eqz p1, :cond_2
 
@@ -325,11 +325,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e10cf
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_print_tabs_pad:I
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b3652
+    sget v0, Lcom/resouce/module/ResID;->writer_print_tabs_content:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

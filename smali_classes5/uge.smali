@@ -66,7 +66,7 @@
     .line 2
     iget-object v0, p0, Luge;->j:Landroid/view/View;
 
-    const v1, 0x7f0b0180
+    sget v1, Lcom/resouce/module/ResID;->author_about_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -143,7 +143,7 @@
     :cond_1
     iget-object p2, p0, Luge;->j:Landroid/view/View;
 
-    const v0, 0x7f0b0186
+    sget v0, Lcom/resouce/module/ResID;->author_name:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -159,7 +159,7 @@
     .line 15
     iget-object p2, p0, Luge;->j:Landroid/view/View;
 
-    const v0, 0x7f0b0181
+    sget v0, Lcom/resouce/module/ResID;->author_desc:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -175,7 +175,7 @@
     .line 17
     iget-object p2, p0, Luge;->j:Landroid/view/View;
 
-    const v0, 0x7f0b0183
+    sget v0, Lcom/resouce/module/ResID;->author_icon:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -214,7 +214,7 @@
     .line 22
     invoke-virtual {p1, v1}, Lf54;->c(Z)Lf54;
 
-    const v0, 0x7f081e86
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->template_author_default_avatar:I
 
     .line 23
     invoke-virtual {p1, v0}, Lf54;->b(I)Lf54;

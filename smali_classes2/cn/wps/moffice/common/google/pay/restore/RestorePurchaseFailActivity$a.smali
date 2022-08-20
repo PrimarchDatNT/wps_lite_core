@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e06
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_restore_purchase_fail_layout:I
 
     const/4 v2, 0x0
 
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26e8
+    sget v1, Lcom/resouce/module/ResID;->public_restore_fail_ok_button:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b26ec
+    sget v1, Lcom/resouce/module/ResID;->public_restore_purchase_help_tip_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity$a;->B:Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity;
 
-    const v2, 0x7f0b26e9
+    sget v2, Lcom/resouce/module/ResID;->public_restore_fail_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122750
+    sget v0, Lcom/resouce/module/ResSTRING;->public_purchase_restore:I
 
     return v0
 .end method

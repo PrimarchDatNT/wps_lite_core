@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1e2d
+    sget v0, Lcom/resouce/module/ResID;->pdf_language_dialog_item_rb:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -42,7 +42,7 @@
 
     iput-object v0, p0, Lcic$b;->j0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b1e2e
+    sget v0, Lcom/resouce/module/ResID;->pdf_language_dialog_item_tv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

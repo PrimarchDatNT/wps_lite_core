@@ -106,9 +106,9 @@
 
     if-eq p1, v0, :cond_15
 
-    const v0, 0x7f0602cd
+    sget v0, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     packed-switch p1, :pswitch_data_0
 

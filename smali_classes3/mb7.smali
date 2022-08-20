@@ -187,7 +187,7 @@
 
     move-result v0
 
-    const v1, 0x7f1223af
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_member:I
 
     if-eqz v0, :cond_0
 
@@ -265,7 +265,7 @@
     :goto_1
     iget-object p1, p0, Lmb7;->a:Landroid/widget/Button;
 
-    const v0, 0x7f1224ab
+    sget v0, Lcom/resouce/module/ResSTRING;->public_member_count_full_upgrade:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -280,7 +280,7 @@
     .line 13
     iget-object p1, p0, Lmb7;->a:Landroid/widget/Button;
 
-    const v0, 0x7f1224a8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_member_count_full:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 

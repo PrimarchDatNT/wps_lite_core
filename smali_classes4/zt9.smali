@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081576
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -282,7 +282,7 @@
     :cond_0
     iget-object p2, p1, Lzt9$b;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f1226e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -300,7 +300,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -311,7 +311,7 @@
     .line 11
     iget-object p2, p1, Lzt9$b;->l0:Landroid/view/View;
 
-    const v0, 0x7f081945
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_home_app_more_bg:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -326,7 +326,7 @@
     .line 13
     iget-object p2, p1, Lzt9$b;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f080ee2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_classify_all:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -368,12 +368,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e052a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_category_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e02cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_category_item_layout:I
 
     :goto_0
     const/4 v1, 0x0

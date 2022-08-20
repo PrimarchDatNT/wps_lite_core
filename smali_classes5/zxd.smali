@@ -50,7 +50,7 @@
 
     move-result v1
 
-    const v2, 0x7f121a2d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_3d_object:I
 
     invoke-direct {v0, p0, v1, v2}, Lzxd$a;-><init>(Lzxd;II)V
 
@@ -123,12 +123,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802b7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_3d_model:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080ce9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_3d_model:I
 
     :goto_0
     return v0

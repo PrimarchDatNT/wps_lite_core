@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12271c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     const/4 p3, 0x1
 

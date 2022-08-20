@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/scanDefaultBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.clipimage.ClipImageView android:id="@id/clip_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:civClipPadding="60.0dip" app:civHeight="4" app:civMaskColor="@color/viewfinder_mask" app:civWidth="2" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-        <Button android:textSize="16.0dip" android:textColor="@color/subTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/cancel" android:background="@drawable/cyan_blue_btn_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_cancel" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
-        <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/clip" android:background="@drawable/cyan_blue_btn_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/documentmanager_crop" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" />
-    </LinearLayout>
-</RelativeLayout>

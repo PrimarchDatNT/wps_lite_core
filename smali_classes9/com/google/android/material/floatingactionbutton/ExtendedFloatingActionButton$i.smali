@@ -80,7 +80,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f020015
+    sget v0, Lcom/resouce/module/ResANIMATOR;->mtrl_extended_fab_hide_motion_spec:I
 
     return v0
 .end method

@@ -214,7 +214,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0125
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_ocr_translation_dialog:I
 
     return v0
 .end method
@@ -222,7 +222,7 @@
 .method public b(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b02d5
+    sget v0, Lcom/resouce/module/ResID;->btn_export:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/OcrTranslationDialog;->S:Landroid/view/View;
 
-    const v0, 0x7f0b3201
+    sget v0, Lcom/resouce/module/ResID;->tv_ocr_result:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/OcrTranslationDialog;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3200
+    sget v0, Lcom/resouce/module/ResID;->tv_ocr_language:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -273,7 +273,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b3202
+    sget v0, Lcom/resouce/module/ResID;->tv_ocr_title:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f121842
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -637,13 +637,13 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08073a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_ocr:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f121842
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
-    const v5, 0x7f121845
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_ocr_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -662,13 +662,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080742
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v3, 0x7f06019d
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v4, 0x7f12046f
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v5, 0x7f12043d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -700,13 +700,13 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08073a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_ocr:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f121842
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
-    const v5, 0x7f121845
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_ocr_scan_img_transform_to_tx_instruction:I
 
     const/4 v6, 0x2
 
@@ -734,13 +734,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080742
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v3, 0x7f06019d
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v4, 0x7f12046f
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v5, 0x7f12043d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 

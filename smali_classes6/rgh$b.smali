@@ -73,7 +73,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v0, 0x7f1233ef
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_resume_document_tips2_cn:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 

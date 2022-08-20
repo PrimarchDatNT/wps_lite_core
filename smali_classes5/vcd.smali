@@ -191,7 +191,7 @@
     goto :goto_0
 
     :catchall_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     return v0

@@ -230,7 +230,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09ef
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_page_bg:I
 
     .line 2
     new-instance v2, Landroid/widget/LinearLayout;
@@ -251,7 +251,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10ba
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_pad_page_bg:I
 
     .line 4
     new-instance v2, Landroid/widget/LinearLayout;
@@ -288,7 +288,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070dbc
+    sget v5, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_page_bg_color_select_height:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -303,7 +303,7 @@
     invoke-virtual {p0, v2}, Luzl;->m2(Landroid/view/View;)V
 
     :goto_0
-    const v0, 0x7f0b1fa0
+    sget v0, Lcom/resouce/module/ResID;->phone_bg_none:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     iput-object v0, p0, Lj9l;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1fa1
+    sget v0, Lcom/resouce/module/ResID;->phone_bg_pic_fill:I
 
     .line 12
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lj9l;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1f9f
+    sget v0, Lcom/resouce/module/ResID;->phone_bg_colors:I
 
     .line 13
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

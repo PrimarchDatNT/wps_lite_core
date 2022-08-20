@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0469
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_secret_folder_artificial_complaint:I
 
     const/4 v2, 0x0
 
@@ -80,7 +80,7 @@
 
     iput-object v0, p0, Lpd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02cb
+    sget v1, Lcom/resouce/module/ResID;->btn_copy_email_address:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e7e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_artificial_complaint:I
 
     return v0
 .end method

@@ -172,7 +172,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/ImportFileCoreImpl$h;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1228a1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secfolder_not_support_operate:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

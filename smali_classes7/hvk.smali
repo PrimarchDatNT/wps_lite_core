@@ -323,7 +323,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3546
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_saveAsBtn:I
 
     if-ne p1, v0, :cond_0
 

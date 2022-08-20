@@ -141,7 +141,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f121c52
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_template_free:I
 
     .line 3
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -215,7 +215,7 @@
 
     invoke-direct {p2, p0}, Lrfe$a;-><init>(Lrfe;)V
 
-    const p3, 0x7f0e0fb0
+    sget p3, Lcom/resouce/module/ResLAYOUT;->template_beauty_section_item:I
 
     .line 2
     iget-object v0, p0, Lrfe;->I:Landroid/app/Activity;
@@ -230,7 +230,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b2f31
+    sget v0, Lcom/resouce/module/ResID;->text_root_layout:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v0, p2, Lrfe$a;->a:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2f82
+    sget v0, Lcom/resouce/module/ResID;->thumb_img:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v0, p2, Lrfe$a;->c:Lcn/wps/moffice/docer/picstore/V10RoundRectImageView;
 
-    const v0, 0x7f0b244e
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_docer_superscript:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iput-object v0, p2, Lrfe$a;->d:Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;
 
-    const v0, 0x7f0b13b9
+    sget v0, Lcom/resouce/module/ResID;->item_docer_icon:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1991
+    sget v0, Lcom/resouce/module/ResID;->name_text:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     iput-object v0, p2, Lrfe$a;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2511
+    sget v0, Lcom/resouce/module/ResID;->price_layout:I
 
     .line 8
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     iput-object v0, p2, Lrfe$a;->b:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2513
+    sget v0, Lcom/resouce/module/ResID;->price_text:I
 
     .line 9
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
 
     iput-object v0, p2, Lrfe$a;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1b88
+    sget v0, Lcom/resouce/module/ResID;->original_price_text:I
 
     .line 10
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060624
+    sget v3, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -344,7 +344,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a3
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -495,7 +495,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0809e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 30
     invoke-virtual {p1, v0}, Ljge;->e(I)Ljge;

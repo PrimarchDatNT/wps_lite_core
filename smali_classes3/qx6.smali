@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00da
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_classroom_shortcut:I
 
     const/4 v2, 0x0
 
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7a
+    sget v1, Lcom/resouce/module/ResID;->thinkLater:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b009f
+    sget v1, Lcom/resouce/module/ResID;->addNow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

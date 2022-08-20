@@ -339,7 +339,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2983
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_refresh_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -761,7 +761,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122530
+    sget v3, Lcom/resouce/module/ResSTRING;->public_no_filter_file_record:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1156,7 +1156,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1a4b
+    sget v0, Lcom/resouce/module/ResID;->norecord_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1231,7 +1231,7 @@
     .line 3
     iget-object v0, p0, La68;->a:Landroid/app/Activity;
 
-    const v1, 0x7f010050
+    sget v1, Lcom/resouce/module/ResANIM;->home_roaming_file_notify_bar_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1260,7 +1260,7 @@
     .line 6
     iget-object v0, p0, La68;->a:Landroid/app/Activity;
 
-    const v1, 0x7f010051
+    sget v1, Lcom/resouce/module/ResANIM;->home_roaming_file_notify_bar_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1504,7 +1504,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1212a5
+    sget v4, Lcom/resouce/module/ResSTRING;->huawei_audio_assist_open_file_tips:I
 
     new-array v5, v3, [Ljava/lang/Object;
 
@@ -2016,7 +2016,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2843
+    sget v1, Lcom/resouce/module/ResID;->record_list_import_view_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2031,7 +2031,7 @@
 
     iput-object v0, p0, La68;->l:Landroid/view/View;
 
-    const v1, 0x7f0b12d4
+    sget v1, Lcom/resouce/module/ResID;->import_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2082,7 +2082,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2980
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2235,7 +2235,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2265
+    sget v1, Lcom/resouce/module/ResID;->popMsg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2260,7 +2260,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

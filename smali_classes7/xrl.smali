@@ -487,7 +487,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081846
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_bottom_mark_none:I
 
     const v6, 0x106000d
 
@@ -510,7 +510,7 @@
 
     const-string v3, "img_word_mid"
 
-    const v4, 0x7f0e0b2b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_style_top_img:I
 
     invoke-direct {v14, v3, v4, v0}, Lurl;-><init>(Ljava/lang/String;ILasl;)V
 
@@ -518,7 +518,7 @@
 
     const/4 v13, 0x0
 
-    const v15, 0x7f081849
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->public_bottom_mark_top_img:I
 
     const v16, 0x106000d
 
@@ -541,7 +541,7 @@
 
     const-string v3, "img_only"
 
-    const v4, 0x7f0e0b29
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_style_only_img:I
 
     invoke-direct {v6, v3, v4, v0}, Lurl;-><init>(Ljava/lang/String;ILasl;)V
 
@@ -549,7 +549,7 @@
 
     const/4 v5, 0x0
 
-    const v7, 0x7f081847
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_bottom_mark_only_img:I
 
     const v8, 0x106000d
 
@@ -572,7 +572,7 @@
 
     const-string v3, "img_left_word_right"
 
-    const v4, 0x7f0e0b28
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_style_left_img:I
 
     invoke-direct {v15, v3, v4, v0}, Lurl;-><init>(Ljava/lang/String;ILasl;)V
 
@@ -580,7 +580,7 @@
 
     const/4 v14, 0x0
 
-    const v16, 0x7f081845
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->public_bottom_mark_left_img:I
 
     const v17, 0x106000d
 
@@ -599,13 +599,13 @@
 
     const-string v3, "img_right_word_left"
 
-    const v4, 0x7f0e0b2a
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_bottom_mark_style_right_img:I
 
     invoke-direct {v6, v3, v4, v0}, Lurl;-><init>(Ljava/lang/String;ILasl;)V
 
     const-string v4, "none"
 
-    const v7, 0x7f081848
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_bottom_mark_right_img:I
 
     move-object v3, v2
 

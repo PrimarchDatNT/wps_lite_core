@@ -84,7 +84,7 @@
     :cond_0
     iget-object v2, p0, Lxf5$b;->B:Landroid/content/Context;
 
-    const v3, 0x7f121dd7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_check:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

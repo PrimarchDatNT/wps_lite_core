@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121e17
+    sget v0, Lcom/resouce/module/ResSTRING;->public_clipboard_cannot_support_text:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -86,7 +86,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity$d;->a:Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity;
 
-    const v0, 0x7f121f0f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_collection_error_happen:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity$d;->a:Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity;
 
-    const v1, 0x7f122a8a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_template_collec_tip_fail:I
 
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity$d$c;
 

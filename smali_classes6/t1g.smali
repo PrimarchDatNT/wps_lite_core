@@ -114,7 +114,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setCanAutoDismiss(Z)V
 
-    const v2, 0x7f120744
+    sget v2, Lcom/resouce/module/ResSTRING;->et_autofilter_firstten_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Lj1g;->setTitleById(I)Lhd3;
@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e01b0
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_autofilter_firstsome_dialog:I
 
     const/4 v4, 0x0
 
@@ -137,7 +137,7 @@
     .line 5
     invoke-virtual {v2, v1, v1, v1, v1}, Landroid/view/View;->setPadding(IIII)V
 
-    const v3, 0x7f0b08e6
+    sget v3, Lcom/resouce/module/ResID;->et_autofilter_firstten_order:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     check-cast v7, Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v3, 0x7f0b08e7
+    sget v3, Lcom/resouce/module/ResID;->et_autofilter_firstten_unit:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     check-cast v8, Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v3, 0x7f0b08e5
+    sget v3, Lcom/resouce/module/ResID;->et_autofilter_firstten_count:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f030006
+    sget v5, Lcom/resouce/module/ResARRAY;->et_autofilter_firstsome_order:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f030007
+    sget v5, Lcom/resouce/module/ResARRAY;->et_autofilter_firstsome_unit:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -271,7 +271,7 @@
 
     invoke-direct/range {v4 .. v9}, Lt1g$b;-><init>(Lt1g;Landroid/widget/EditText;Lcn/wps/moffice/common/beans/NewSpinner;Lcn/wps/moffice/common/beans/NewSpinner;Lcn/wps/moffice/common/beans/ActivityController$b;)V
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v4, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -280,7 +280,7 @@
 
     invoke-direct {v2, p0, v3, v10}, Lt1g$c;-><init>(Lt1g;Landroid/widget/EditText;Lcn/wps/moffice/common/beans/ActivityController$b;)V
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v4, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -306,7 +306,7 @@
 
     iget-object v1, p0, La1g;->b:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2, p0}, Ls1g;-><init>(Landroid/content/Context;ILz0g$n;)V
 

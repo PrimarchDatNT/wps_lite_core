@@ -202,7 +202,7 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -283,7 +283,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 p2, 0x0
 
@@ -302,7 +302,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1205ee
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     if-eqz p5, :cond_d
 
@@ -743,7 +743,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 1
     :try_start_0

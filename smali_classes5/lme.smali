@@ -626,7 +626,7 @@
     .line 2
     iget-object p1, p0, Lkme;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f1229d4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_net_error:I
 
     const/4 v1, 0x1
 
@@ -651,7 +651,7 @@
     .line 2
     iget-object v0, p0, Lkme;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v1, 0x7f1229d5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_net_restore:I
 
     const/4 v2, 0x1
 

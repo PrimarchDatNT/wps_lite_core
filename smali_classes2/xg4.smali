@@ -557,7 +557,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0eac
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_wait_for_upload_finish_horizontal_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -570,7 +570,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -584,7 +584,7 @@
     .line 13
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v1, 0x7f0b253c
+    sget v1, Lcom/resouce/module/ResID;->progress_cancel:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b254c
+    sget v1, Lcom/resouce/module/ResID;->progress_skip:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

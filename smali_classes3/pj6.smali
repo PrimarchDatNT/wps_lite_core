@@ -461,7 +461,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123214
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_book_city_recommend:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1572,7 +1572,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e03fd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_book_city_title:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1597,7 +1597,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0423
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_tag:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1622,7 +1622,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0424
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_viewpager:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1647,7 +1647,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e041e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_gridlayout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1672,7 +1672,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e041b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_bottom:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1697,7 +1697,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e041a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_benefit_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1722,7 +1722,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0421
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_ranking_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1747,7 +1747,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0419
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_banner_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1768,7 +1768,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e041f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_normal:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -2268,7 +2268,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123211
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_book_city_free:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2407,7 +2407,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123212
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_book_city_most_viewed:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2533,7 +2533,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123213
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_book_city_new_released:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2641,7 +2641,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12320d
+    sget v2, Lcom/resouce/module/ResSTRING;->wps_home_book_city_all_collection:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

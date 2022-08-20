@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070baf
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_menu_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

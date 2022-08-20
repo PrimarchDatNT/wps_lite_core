@@ -432,13 +432,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c75
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_mediacontrollerpop:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2adf
+    sget p1, Lcom/resouce/module/ResID;->seekbar:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -449,7 +449,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->B:Landroid/widget/SeekBar;
 
-    const p1, 0x7f0b2ef9
+    sget p1, Lcom/resouce/module/ResID;->textView_playtime:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -460,7 +460,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2efd
+    sget p1, Lcom/resouce/module/ResID;->textView_totaltime:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -471,7 +471,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->S:Landroid/widget/TextView;
 
-    const p1, 0x7f0b126d
+    sget p1, Lcom/resouce/module/ResID;->imageView_play:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -482,7 +482,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b126c
+    sget p1, Lcom/resouce/module/ResID;->imageView_fullscreen:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -493,12 +493,12 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0819d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_fullscreen_open:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f0b0e93
+    sget p1, Lcom/resouce/module/ResID;->fullsrceen_ll:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -509,7 +509,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->d0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b33dd
+    sget p1, Lcom/resouce/module/ResID;->vol_ll:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0100a6
+    sget v0, Lcom/resouce/module/ResANIM;->tip:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -538,7 +538,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f010058
+    sget v0, Lcom/resouce/module/ResANIM;->mediacontroller_open:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -569,7 +569,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0819d6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_open:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -579,7 +579,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0819d5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_close:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -635,7 +635,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_close:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -986,7 +986,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_open:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1019,7 +1019,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b33dd
+    sget v0, Lcom/resouce/module/ResID;->vol_ll:I
 
     if-ne p1, v0, :cond_1
 
@@ -1040,7 +1040,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0e93
+    sget v0, Lcom/resouce/module/ResID;->fullsrceen_ll:I
 
     if-ne p1, v0, :cond_2
 
@@ -1062,7 +1062,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2adf
+    sget v0, Lcom/resouce/module/ResID;->seekbar:I
 
     if-ne p1, v0, :cond_3
 
@@ -1367,7 +1367,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->U:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_fullscreen_close:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1379,7 +1379,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_open:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1389,7 +1389,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_video_voice_close:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

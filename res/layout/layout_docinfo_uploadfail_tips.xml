@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_upload_fail_file_tip" android:paddingLeft="@dimen/public_item_padding_left" android:paddingRight="@dimen/public_item_padding_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/public_item_padding_left" android:paddingEnd="@dimen/public_item_padding_right"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <cn.wpsx.support.ui.KTextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/upload_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_cloud_space_notenough_cannot_upload" />
-        <cn.wpsx.support.ui.KTextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/upload_error_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_vip_upload_limit_tip" />
-    </LinearLayout>
-    <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/upgrade_vip" android:background="@drawable/home_remind_member_button_background" android:visibility="visible" android:layout_width="68.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:text="@string/home_update_buy_membership" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

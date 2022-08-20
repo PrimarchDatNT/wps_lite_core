@@ -343,7 +343,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04064c
+    sget v0, Lcom/resouce/module/ResATTR;->textInputStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/textfield/TextInputLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -666,7 +666,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0704d3
+    sget v5, Lcom/resouce/module/ResDIMEN;->mtrl_textinput_box_label_cutout_padding:I
 
     .line 47
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -691,7 +691,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0704d4
+    sget v6, Lcom/resouce/module/ResDIMEN;->mtrl_textinput_box_stroke_width_default:I
 
     .line 50
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -712,7 +712,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0704d5
+    sget v6, Lcom/resouce/module/ResDIMEN;->mtrl_textinput_box_stroke_width_focused:I
 
     .line 53
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -880,7 +880,7 @@
 
     iput v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->s1:I
 
-    const v4, 0x7f0602a6
+    sget v4, Lcom/resouce/module/ResCOLOR;->mtrl_filled_background_color:I
 
     .line 76
     invoke-static {v13, v4}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -961,7 +961,7 @@
 
     iput v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->o1:I
 
-    const v4, 0x7f0602bd
+    sget v4, Lcom/resouce/module/ResCOLOR;->mtrl_textinput_default_box_stroke_color:I
 
     .line 88
     invoke-static {v13, v4}, Lu6;->d(Landroid/content/Context;I)I
@@ -970,7 +970,7 @@
 
     iput v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->m1:I
 
-    const v4, 0x7f0602be
+    sget v4, Lcom/resouce/module/ResCOLOR;->mtrl_textinput_disabled_color:I
 
     .line 89
     invoke-static {v13, v4}, Lu6;->d(Landroid/content/Context;I)I
@@ -979,7 +979,7 @@
 
     iput v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->u1:I
 
-    const v4, 0x7f0602c1
+    sget v4, Lcom/resouce/module/ResCOLOR;->mtrl_textinput_hovered_box_stroke_color:I
 
     .line 90
     invoke-static {v13, v4}, Lu6;->d(Landroid/content/Context;I)I
@@ -1059,7 +1059,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0e00d1
+    sget v9, Lcom/resouce/module/ResLAYOUT;->design_text_input_end_icon:I
 
     move-object/from16 v2, v18
 
@@ -1072,7 +1072,7 @@
 
     iput-object v8, v0, Lcom/google/android/material/textfield/TextInputLayout;->i1:Lcom/google/android/material/internal/CheckableImageButton;
 
-    const v9, 0x7f0b2f1a
+    sget v9, Lcom/resouce/module/ResID;->text_input_error_icon:I
 
     .line 102
     invoke-virtual {v8, v9}, Landroid/widget/ImageButton;->setId(I)V
@@ -1163,7 +1163,7 @@
 
     move-result-object v9
 
-    const v14, 0x7f120729
+    sget v14, Lcom/resouce/module/ResSTRING;->error_icon_content_description:I
 
     invoke-virtual {v9, v14}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1312,7 +1312,7 @@
 
     move-object/from16 v26, v10
 
-    const v10, 0x7f0e00d2
+    sget v10, Lcom/resouce/module/ResLAYOUT;->design_text_input_start_icon:I
 
     .line 136
     invoke-virtual {v7, v10, v15, v11}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1478,7 +1478,7 @@
 
     move-object/from16 v5, v17
 
-    const v4, 0x7f0e00d1
+    sget v4, Lcom/resouce/module/ResLAYOUT;->design_text_input_end_icon:I
 
     .line 159
     invoke-virtual {v10, v4, v5, v11}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1780,7 +1780,7 @@
 
     iput-object v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->q0:Landroid/widget/TextView;
 
-    const v11, 0x7f0b2f58
+    sget v11, Lcom/resouce/module/ResID;->textinput_prefix_text:I
 
     .line 200
     invoke-virtual {v4, v11}, Landroid/widget/TextView;->setId(I)V
@@ -1812,7 +1812,7 @@
 
     iput-object v4, v0, Lcom/google/android/material/textfield/TextInputLayout;->s0:Landroid/widget/TextView;
 
-    const v7, 0x7f0b2f59
+    sget v7, Lcom/resouce/module/ResID;->textinput_suffix_text:I
 
     .line 206
     invoke-virtual {v4, v7}, Landroid/widget/TextView;->setId(I)V
@@ -2394,12 +2394,12 @@
 
     if-eqz p4, :cond_0
 
-    const p4, 0x7f120245
+    sget p4, Lcom/resouce/module/ResSTRING;->character_counter_overflowed_content_description:I
 
     goto :goto_0
 
     :cond_0
-    const p4, 0x7f120244
+    sget p4, Lcom/resouce/module/ResSTRING;->character_counter_content_description:I
 
     :goto_0
     const/4 v0, 0x2
@@ -2782,7 +2782,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/textfield/TextInputLayout;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f57
+    sget v1, Lcom/resouce/module/ResID;->textinput_placeholder:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setId(I)V
@@ -2910,7 +2910,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703f8
+    sget v4, Lcom/resouce/module/ResDIMEN;->material_input_text_to_prefix_suffix_padding:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -3181,7 +3181,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703f8
+    sget v3, Lcom/resouce/module/ResDIMEN;->material_input_text_to_prefix_suffix_padding:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -4686,7 +4686,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const p2, 0x7f130213
+    sget p2, Lcom/resouce/module/ResSTYLE;->TextAppearance.AppCompat.Caption:I
 
     .line 4
     invoke-static {p1, p2}, Landroidx/core/widget/TextViewCompat;->r(Landroid/widget/TextView;I)V
@@ -4696,7 +4696,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060107
+    sget v0, Lcom/resouce/module/ResCOLOR;->design_error:I
 
     invoke-static {p2, v0}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -5598,7 +5598,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703f2
+    sget v3, Lcom/resouce/module/ResDIMEN;->material_filled_edittext_font_2_0_padding_top:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -5617,7 +5617,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0703f1
+    sget v5, Lcom/resouce/module/ResDIMEN;->material_filled_edittext_font_2_0_padding_bottom:I
 
     .line 9
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -5654,7 +5654,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703f0
+    sget v3, Lcom/resouce/module/ResDIMEN;->material_filled_edittext_font_1_3_padding_top:I
 
     .line 15
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -5673,7 +5673,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0703ef
+    sget v5, Lcom/resouce/module/ResDIMEN;->material_filled_edittext_font_1_3_padding_bottom:I
 
     .line 18
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -6029,7 +6029,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703f4
+    sget v1, Lcom/resouce/module/ResDIMEN;->material_font_2_0_box_collapsed_padding_top:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -6057,7 +6057,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703f3
+    sget v1, Lcom/resouce/module/ResDIMEN;->material_font_1_3_box_collapsed_padding_top:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -6327,7 +6327,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120246
+    sget v6, Lcom/resouce/module/ResSTRING;->character_counter_pattern:I
 
     const/4 v7, 0x2
 
@@ -6874,7 +6874,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v0, 0x7f040140
+    sget v0, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     const/4 v1, 0x0
 
@@ -8104,7 +8104,7 @@
 
     iput-object v1, p0, Lcom/google/android/material/textfield/TextInputLayout;->f0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2f54
+    sget v2, Lcom/resouce/module/ResID;->textinput_counter:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setId(I)V
@@ -8149,7 +8149,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0704d6
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_textinput_counter_margin_start:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

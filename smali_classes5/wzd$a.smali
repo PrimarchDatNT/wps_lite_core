@@ -111,7 +111,7 @@
     .line 5
     invoke-virtual {p1, v0}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v0, 0x7f0809e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     iget-object v1, p0, Lwzd$a;->b:Landroid/view/ViewGroup;
 
@@ -124,7 +124,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

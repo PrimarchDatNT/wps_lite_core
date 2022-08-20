@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c0002
+    sget v1, Lcom/resouce/module/ResINTEGER;->app_bar_elevation_anim_duration:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -81,7 +81,7 @@
 
     aput v4, v2, v3
 
-    const v5, 0x7f0405ba
+    sget v5, Lcom/resouce/module/ResATTR;->state_liftable:I
 
     const/4 v6, 0x1
 

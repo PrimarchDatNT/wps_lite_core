@@ -284,7 +284,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121706
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_uncertified:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -299,7 +299,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121708
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_uncertified_ca_no:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -101,7 +101,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b26ed
+    sget v0, Lcom/resouce/module/ResID;->public_restore_purchase_signin_button:I
 
     if-ne p1, v0, :cond_1
 
@@ -130,7 +130,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b26eb
+    sget v0, Lcom/resouce/module/ResID;->public_restore_purchase_download_button:I
 
     if-ne p1, v0, :cond_2
 
@@ -149,7 +149,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b26ec
+    sget v0, Lcom/resouce/module/ResID;->public_restore_purchase_help_tip_text:I
 
     if-ne p1, v0, :cond_3
 

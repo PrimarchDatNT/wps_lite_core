@@ -826,7 +826,7 @@
     .line 3
     iget-object p1, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v0, 0x7f122f1b
+    sget v0, Lcom/resouce/module/ResSTRING;->share_photo_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -950,7 +950,7 @@
     :goto_1
     iget-object p1, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v0, 0x7f121358
+    sget v0, Lcom/resouce/module/ResSTRING;->load_data_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -986,7 +986,7 @@
 
     iget-object v2, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v3, 0x7f1219de
+    sget v3, Lcom/resouce/module/ResSTRING;->photo_viewer_see_origin_image:I
 
     const/4 v4, 0x1
 
@@ -1023,7 +1023,7 @@
     .line 1
     iget-object p1, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f122537
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_network_toast_msg:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1037,7 +1037,7 @@
     .line 2
     iget-object p1, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f122020
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1047,7 +1047,7 @@
     :cond_1
     iget-object p1, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f122418
+    sget v1, Lcom/resouce/module/ResSTRING;->public_load_thumbnail_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1207,7 +1207,7 @@
 
     aput-object v0, v3, v4
 
-    const v0, 0x7f1219df
+    sget v0, Lcom/resouce/module/ResSTRING;->photo_viewer_title_index:I
 
     .line 6
     invoke-virtual {v2, v0, v3}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -1285,7 +1285,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b01b3
+    sget v2, Lcom/resouce/module/ResID;->back_activity_photo_viewer_imageView:I
 
     if-ne v1, v2, :cond_2
 
@@ -1323,7 +1323,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2b4b
+    sget v2, Lcom/resouce/module/ResID;->share_activity_photo_viewer_linearLayout:I
 
     const-string v3, "public"
 
@@ -1422,7 +1422,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b304d
+    sget v2, Lcom/resouce/module/ResID;->tool_activity_photo_viewer_linearLayout:I
 
     if-ne v1, v2, :cond_b
 
@@ -1526,7 +1526,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0643
+    sget v2, Lcom/resouce/module/ResID;->delete_activity_photo_viewer_linearLayout:I
 
     if-ne v1, v2, :cond_f
 
@@ -1617,7 +1617,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b07f0
+    sget v2, Lcom/resouce/module/ResID;->edit_activity_photo_viewer_linearLayout:I
 
     if-ne v1, v2, :cond_13
 
@@ -1708,7 +1708,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0793
+    sget v2, Lcom/resouce/module/ResID;->download_activity_photo_viewer_linearLayout:I
 
     if-ne v1, v2, :cond_17
 
@@ -1817,7 +1817,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b05cf
+    sget v1, Lcom/resouce/module/ResID;->crop_activity_photo_viewer_linearLayout:I
 
     const-string v2, "ppt"
 
@@ -1923,7 +1923,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b00dd
+    sget v1, Lcom/resouce/module/ResID;->ai_crop_activity_photo_viewer_linearLayout:I
 
     if-ne v0, v1, :cond_1d
 
@@ -2018,7 +2018,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29d7
+    sget v0, Lcom/resouce/module/ResID;->save_activity_photo_viewer_linearLayout:I
 
     if-ne p1, v0, :cond_1e
 
@@ -2443,7 +2443,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0e0a38
+    sget v4, Lcom/resouce/module/ResLAYOUT;->photo_viewer_special_bottom:I
 
     iget-object v5, p0, Lw7d;->U:Landroid/widget/LinearLayout;
 
@@ -2457,7 +2457,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0b05cf
+    sget v4, Lcom/resouce/module/ResID;->crop_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2488,7 +2488,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b29d7
+    sget v5, Lcom/resouce/module/ResID;->save_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2502,7 +2502,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b00dd
+    sget v5, Lcom/resouce/module/ResID;->ai_crop_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2568,7 +2568,7 @@
     :cond_0
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b08b4
+    sget v1, Lcom/resouce/module/ResID;->error_activity_photo_viewer_textView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2579,7 +2579,7 @@
     .line 3
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2fd6
+    sget v1, Lcom/resouce/module/ResID;->title_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2592,7 +2592,7 @@
     .line 4
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0243
+    sget v1, Lcom/resouce/module/ResID;->bottom_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2605,7 +2605,7 @@
     .line 5
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b01b3
+    sget v1, Lcom/resouce/module/ResID;->back_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2618,7 +2618,7 @@
     .line 6
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2b4a
+    sget v1, Lcom/resouce/module/ResID;->share_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2631,7 +2631,7 @@
     .line 7
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b304c
+    sget v1, Lcom/resouce/module/ResID;->tool_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2644,7 +2644,7 @@
     .line 8
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0642
+    sget v1, Lcom/resouce/module/ResID;->delete_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2657,7 +2657,7 @@
     .line 9
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b07ef
+    sget v1, Lcom/resouce/module/ResID;->edit_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2670,7 +2670,7 @@
     .line 10
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0792
+    sget v1, Lcom/resouce/module/ResID;->download_activity_photo_viewer_imageView:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2683,7 +2683,7 @@
     .line 11
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0793
+    sget v1, Lcom/resouce/module/ResID;->download_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2696,7 +2696,7 @@
     .line 12
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0643
+    sget v1, Lcom/resouce/module/ResID;->delete_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2709,7 +2709,7 @@
     .line 13
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b07f0
+    sget v1, Lcom/resouce/module/ResID;->edit_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2756,7 +2756,7 @@
     .line 16
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2b4b
+    sget v1, Lcom/resouce/module/ResID;->share_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2769,7 +2769,7 @@
     .line 17
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b304d
+    sget v1, Lcom/resouce/module/ResID;->tool_activity_photo_viewer_linearLayout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2782,7 +2782,7 @@
     .line 18
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b1721
+    sget v1, Lcom/resouce/module/ResID;->loading_activity_photo_viewer_MaterialProgressBarCycle:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2795,7 +2795,7 @@
     .line 19
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b1722
+    sget v1, Lcom/resouce/module/ResID;->loading_activity_photo_viewer_MaterialProgressBarCycle_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2808,7 +2808,7 @@
     .line 20
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2208
+    sget v1, Lcom/resouce/module/ResID;->photo_container_activity_photo_viewer_viewPager:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2821,7 +2821,7 @@
     .line 21
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b3017
+    sget v1, Lcom/resouce/module/ResID;->title_tv_photo_name:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2834,7 +2834,7 @@
     .line 22
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b3016
+    sget v1, Lcom/resouce/module/ResID;->title_tv_photo_indexer:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2847,7 +2847,7 @@
     .line 23
     iget-object v0, p0, Lw7d;->r0:Landroid/app/Activity;
 
-    const v1, 0x7f0b0300
+    sget v1, Lcom/resouce/module/ResID;->btn_see_origin:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2910,7 +2910,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2948,7 +2948,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f06050e
+    sget v4, Lcom/resouce/module/ResCOLOR;->progressBarBackgroundColor:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10fd
+    sget v1, Lcom/resouce/module/ResID;->home_open_storage_add_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10fe
+    sget v1, Lcom/resouce/module/ResID;->home_open_storage_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10dd
+    sget v1, Lcom/resouce/module/ResID;->home_open_common_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b106f
+    sget v1, Lcom/resouce/module/ResID;->home_file_recovery_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -353,7 +353,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10f0
+    sget v1, Lcom/resouce/module/ResID;->home_open_phone_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -385,7 +385,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10f3
+    sget v1, Lcom/resouce/module/ResID;->home_open_picture_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10ff
+    sget v1, Lcom/resouce/module/ResID;->home_open_storage_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -477,7 +477,7 @@
 
     iput-object v0, p0, Lyfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0260
+    sget v1, Lcom/resouce/module/ResID;->bottom_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -529,7 +529,7 @@
 
     move-result v0
 
-    const v1, 0x7f122588
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     if-eqz v0, :cond_0
 
@@ -552,7 +552,7 @@
 
     if-eqz v2, :cond_1
 
-    const v0, 0x7f1226e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     return v0
 
@@ -566,7 +566,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122293
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_file_manager:I
 
     return v0
 
@@ -580,7 +580,7 @@
     .line 1
     iget-object p1, p0, Lyfa;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1b39
+    sget v0, Lcom/resouce/module/ResID;->open_scrollview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

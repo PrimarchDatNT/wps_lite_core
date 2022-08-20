@@ -60,7 +60,7 @@
     .line 4
     iput-object p1, p0, Lqk6;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b0232
+    sget v0, Lcom/resouce/module/ResID;->bookTitle:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
     .line 6
     iget-object v0, p0, Lqk6;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b0230
+    sget v1, Lcom/resouce/module/ResID;->bookDesc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
     .line 7
     iget-object v0, p0, Lqk6;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b3389
+    sget v1, Lcom/resouce/module/ResID;->viewPager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

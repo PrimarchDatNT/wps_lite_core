@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09ab
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_text_bottom_ope_layout:I
 
     new-instance v2, Landroid/widget/FrameLayout;
 
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Lw17;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1b57
+    sget v1, Lcom/resouce/module/ResID;->operator_txt:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
     .line 5
     iget-object v0, p0, Lw17;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1b52
+    sget v1, Lcom/resouce/module/ResID;->operator_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

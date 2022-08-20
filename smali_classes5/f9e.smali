@@ -300,7 +300,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -328,7 +328,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0d83
+    sget v0, Lcom/resouce/module/ResID;->find_matchcase:I
 
     if-ne p1, v0, :cond_0
 
@@ -343,7 +343,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0d84
+    sget v0, Lcom/resouce/module/ResID;->find_matchword:I
 
     if-ne p1, v0, :cond_1
 
@@ -407,7 +407,7 @@
     .line 2
     iget-object v0, p0, Lf9e;->g0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08191a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_find_replace_pull_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -422,7 +422,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122db7
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_writer_hide:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -676,7 +676,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a99
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_search_layout:I
 
     const/4 v2, 0x0
 
@@ -696,7 +696,7 @@
     .line 3
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2a5f
+    sget v1, Lcom/resouce/module/ResID;->search_btn_return:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -707,7 +707,7 @@
     .line 4
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -723,7 +723,7 @@
     .line 6
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b0421
+    sget v1, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     .line 8
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2a44
+    sget v1, Lcom/resouce/module/ResID;->searchBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -762,7 +762,7 @@
     .line 11
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v2, 0x7f0b0d81
+    sget v2, Lcom/resouce/module/ResID;->find_dpecialstr_view_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -775,7 +775,7 @@
     .line 12
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v2, 0x7f0b2a92
+    sget v2, Lcom/resouce/module/ResID;->search_morepanel:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -793,7 +793,7 @@
     .line 14
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v3, 0x7f0b2a76
+    sget v3, Lcom/resouce/module/ResID;->search_forward_layout:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -804,7 +804,7 @@
     .line 15
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v3, 0x7f0b2aba
+    sget v3, Lcom/resouce/module/ResID;->searchbackward:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -815,7 +815,7 @@
     .line 16
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v3, 0x7f0b2abf
+    sget v3, Lcom/resouce/module/ResID;->searchforward:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -831,7 +831,7 @@
     .line 18
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b0d83
+    sget v1, Lcom/resouce/module/ResID;->find_matchcase:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -845,7 +845,7 @@
     .line 20
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b0d84
+    sget v1, Lcom/resouce/module/ResID;->find_matchword:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -859,7 +859,7 @@
     .line 22
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b18f2
+    sget v1, Lcom/resouce/module/ResID;->more_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -867,7 +867,7 @@
 
     iput-object v0, p0, Lf9e;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b18f3
+    sget v1, Lcom/resouce/module/ResID;->more_search_img:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -899,7 +899,7 @@
     .line 26
     iget-object v0, p0, Lf9e;->X:Landroid/view/View;
 
-    const v1, 0x7f0b3072
+    sget v1, Lcom/resouce/module/ResID;->top_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2a5f
+    sget v1, Lcom/resouce/module/ResID;->search_btn_return:I
 
     if-ne v0, v1, :cond_0
 
@@ -1063,7 +1063,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v1, 0x7f0b0421
+    sget v1, Lcom/resouce/module/ResID;->cleansearch:I
 
     if-ne v0, v1, :cond_1
 
@@ -1073,7 +1073,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b2a44
+    sget v1, Lcom/resouce/module/ResID;->searchBtn:I
 
     const/4 v2, 0x0
 
@@ -1110,7 +1110,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v1, 0x7f0b18f2
+    sget v1, Lcom/resouce/module/ResID;->more_search:I
 
     if-ne v0, v1, :cond_4
 
@@ -1140,7 +1140,7 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f0b2aba
+    sget v1, Lcom/resouce/module/ResID;->searchbackward:I
 
     if-ne v0, v1, :cond_5
 
@@ -1170,7 +1170,7 @@
     goto :goto_1
 
     :cond_5
-    const v1, 0x7f0b2abf
+    sget v1, Lcom/resouce/module/ResID;->searchforward:I
 
     if-ne v0, v1, :cond_6
 
@@ -1321,7 +1321,7 @@
     .line 2
     iget-object v0, p0, Lf9e;->g0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081918
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_find_replace_fold_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1336,7 +1336,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122dc2
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_writer_more:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

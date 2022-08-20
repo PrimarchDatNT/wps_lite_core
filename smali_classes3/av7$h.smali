@@ -73,7 +73,7 @@
     .line 2
     iget-object p1, p0, Lav7$h;->B:Landroid/app/Activity;
 
-    const p2, 0x7f120623
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -83,7 +83,7 @@
     :cond_0
     iget-object p1, p0, Lav7$h;->B:Landroid/app/Activity;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -93,7 +93,7 @@
     :cond_1
     iget-object p1, p0, Lav7$h;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -124,7 +124,7 @@
     .line 2
     iget-object v0, p0, Lav7$h;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120e69
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_success:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

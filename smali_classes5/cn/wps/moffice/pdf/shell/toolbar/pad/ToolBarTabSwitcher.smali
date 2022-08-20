@@ -134,7 +134,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060006
+    sget v1, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -457,7 +457,7 @@
     .line 1
     invoke-super {p0}, Landroid/widget/RelativeLayout;->onFinishInflate()V
 
-    const v0, 0x7f0b2e29
+    sget v0, Lcom/resouce/module/ResID;->tab_selected_bg:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

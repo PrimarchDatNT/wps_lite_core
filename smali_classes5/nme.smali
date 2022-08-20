@@ -37,15 +37,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08029e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_projection:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c5b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_projection_ppt:I
 
     :goto_0
-    const v1, 0x7f1229da
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_paly_bar:I
 
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V
 
@@ -227,7 +227,7 @@
     .line 2
     iget-object p1, p0, Lnme;->i0:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -338,7 +338,7 @@
     .line 16
     iget-object p1, p0, Lnme;->i0:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f122552
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -350,7 +350,7 @@
 
     move-result v0
 
-    const v3, 0x7f081128
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_bottom_shadow_tv:I
 
     if-eq v0, v3, :cond_3
 
@@ -358,7 +358,7 @@
 
     move-result p1
 
-    const v0, 0x7f080c58
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_projection:I
 
     if-ne p1, v0, :cond_4
 
@@ -377,7 +377,7 @@
     .line 19
     iget-object p1, p0, Lnme;->i0:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f12257e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_not_support:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -463,7 +463,7 @@
     :cond_7
     iget-object p1, p0, Lnme;->i0:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

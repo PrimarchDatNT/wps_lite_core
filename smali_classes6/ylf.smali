@@ -39,7 +39,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const p0, 0x7f120c1d
+    sget p0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed:I
 
     .line 3
     invoke-static {p0}, Lylf;->c(I)V
@@ -73,7 +73,7 @@
 
     if-ne p0, v1, :cond_1
 
-    const p0, 0x7f120c1e
+    sget p0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed_base_empty:I
 
     .line 8
     invoke-static {p0}, Lylf;->c(I)V
@@ -220,7 +220,7 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    const v0, 0x7f120c1d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed:I
 
     if-nez p1, :cond_0
 

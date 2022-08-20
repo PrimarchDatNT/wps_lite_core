@@ -538,7 +538,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_text_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -551,7 +551,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b254e
+    sget v2, Lcom/resouce/module/ResID;->progress_text:I
 
     if-eqz v0, :cond_1
 
@@ -639,7 +639,7 @@
     :cond_1
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a5
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_fail:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -650,7 +650,7 @@
     :cond_2
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_success:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -661,7 +661,7 @@
     :cond_3
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a6
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_loading:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -674,7 +674,7 @@
     .line 8
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a4
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -704,7 +704,7 @@
     .line 2
     iget-object p1, p0, Lvtl;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12170a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_verifying_toast:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -734,7 +734,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121709
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_verifying:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

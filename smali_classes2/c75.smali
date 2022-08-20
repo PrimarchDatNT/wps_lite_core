@@ -38,63 +38,63 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f12216e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_useless_style:I
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
     const/4 v1, 0x3
 
-    const v2, 0x7f12216a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_picture_compress:I
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
 
     const/4 v1, 0x4
 
-    const v3, 0x7f12216f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_video_compress:I
 
     .line 4
     invoke-virtual {v0, v1, v3}, Landroid/util/SparseIntArray;->append(II)V
 
     const/4 v1, 0x5
 
-    const v4, 0x7f122161
+    sget v4, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_audio_compress:I
 
     .line 5
     invoke-virtual {v0, v1, v4}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x21
 
-    const v5, 0x7f122163
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_empty_sheet:I
 
     .line 6
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x22
 
-    const v5, 0x7f122166
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_invisible_obj:I
 
     .line 7
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x23
 
-    const v5, 0x7f122164
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_format_compress:I
 
     .line 8
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x24
 
-    const v5, 0x7f12216c
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_useless_chat_style:I
 
     .line 9
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x25
 
-    const v5, 0x7f12216b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_reduce_cell_style:I
 
     .line 10
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
@@ -116,42 +116,42 @@
 
     const/16 v1, 0x40
 
-    const v5, 0x7f12216d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_useless_master:I
 
     .line 14
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x41
 
-    const v5, 0x7f122165
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_invisible_anim_obj:I
 
     .line 15
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x42
 
-    const v5, 0x7f122168
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_pic_crop:I
 
     .line 16
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x43
 
-    const v5, 0x7f122162
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_duplicate_pic:I
 
     .line 17
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x44
 
-    const v5, 0x7f122169
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_pic_merge:I
 
     .line 18
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
 
     const/16 v1, 0x45
 
-    const v5, 0x7f122167
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_obj_to_pic:I
 
     .line 19
     invoke-virtual {v0, v1, v5}, Landroid/util/SparseIntArray;->append(II)V
@@ -173,7 +173,7 @@
 
     const/16 v1, 0x61
 
-    const v2, 0x7f122160
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_item_all:I
 
     .line 23
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
@@ -215,7 +215,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_item_view:I
 
     const/4 v2, 0x0
 
@@ -225,7 +225,7 @@
 
     iput-object p1, p0, Lc75;->d:Landroid/view/View;
 
-    const v0, 0x7f0b13ee
+    sget v0, Lcom/resouce/module/ResID;->item_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -239,7 +239,7 @@
     .line 4
     iget-object p1, p0, Lc75;->d:Landroid/view/View;
 
-    const v0, 0x7f0b13b4
+    sget v0, Lcom/resouce/module/ResID;->item_description:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 5
     iget-object p1, p0, Lc75;->d:Landroid/view/View;
 
-    const v0, 0x7f0b26d6
+    sget v0, Lcom/resouce/module/ResID;->public_progressBar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 6
     iget-object p1, p0, Lc75;->d:Landroid/view/View;
 
-    const v0, 0x7f0b13ba
+    sget v0, Lcom/resouce/module/ResID;->item_done:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_result_item_view:I
 
     const/4 v2, 0x0
 
@@ -331,7 +331,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b13ee
+    sget v0, Lcom/resouce/module/ResID;->item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b13b4
+    sget v1, Lcom/resouce/module/ResID;->item_description:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -406,7 +406,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -425,7 +425,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

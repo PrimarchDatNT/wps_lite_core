@@ -187,7 +187,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070d4d
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_color_item_small:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -208,7 +208,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d4b
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_public_color_item_margins_hor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -227,7 +227,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d4c
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_public_color_item_margins_ver:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

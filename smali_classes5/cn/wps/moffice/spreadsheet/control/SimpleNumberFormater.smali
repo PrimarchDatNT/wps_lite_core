@@ -87,9 +87,9 @@
     .line 8
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$6;
 
-    const v1, 0x7f080e61
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_text_format_et:I
 
-    const v2, 0x7f120c7d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_numformat:I
 
     const/4 v3, 0x1
 

@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060424
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_home_pink_statusbar_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0891
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_home_bottom_toolbar_item:I
 
     const/4 v1, 0x1
 
@@ -100,7 +100,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/pdfhome/PDFHomeBottomToolbar$Item;->B:Landroid/view/View;
 
-    const v0, 0x7f0b204a
+    sget v0, Lcom/resouce/module/ResID;->phone_home_toolbar_item_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/pdfhome/PDFHomeBottomToolbar$Item;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2049
+    sget v0, Lcom/resouce/module/ResID;->phone_home_toolbar_item_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

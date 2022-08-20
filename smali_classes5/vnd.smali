@@ -31,7 +31,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f0e1017
+    sget p4, Lcom/resouce/module/ResLAYOUT;->v10_phone_public_textimage_view:I
 
     const/4 p5, 0x0
 

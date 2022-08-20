@@ -48,13 +48,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e10b6
+    sget p2, Lcom/resouce/module/ResLAYOUT;->writer_pad_arrow_scroll_layout:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b015d
+    sget p1, Lcom/resouce/module/ResID;->arrow_scroll_view:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/pad/edittoolbar/ArrowScrollLayout;->B:Lcn/wps/moffice/writer/shell/pad/edittoolbar/MonitorStateScrollView;
 
-    const p1, 0x7f0b015f
+    sget p1, Lcom/resouce/module/ResID;->arrow_view_left:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/pad/edittoolbar/ArrowScrollLayout;->I:Landroid/view/View;
 
-    const p1, 0x7f0b0160
+    sget p1, Lcom/resouce/module/ResID;->arrow_view_right:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

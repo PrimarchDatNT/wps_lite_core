@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@drawable/public_list_selector_bg" android:focusable="true" style="@style/phone_public_dialog_list_item_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/public_item_image" style="@style/phone_public_dialog_list_item_image" />
-    <TextView android:id="@id/public_item_text" style="@style/phone_public_dialog_list_item_imagetext" />
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/item_checked" android:visibility="gone" android:src="@drawable/pub_comp_checked2" style="@style/phone_public_dialog_list_item_image" />
-</LinearLayout>

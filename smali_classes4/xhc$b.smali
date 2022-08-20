@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1217a3
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_vip_speed_up:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121791
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_converting:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121793
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_converting_wait_for_a_while:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

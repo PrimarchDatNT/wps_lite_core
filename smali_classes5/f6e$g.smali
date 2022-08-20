@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_mouse_dropbox_layout:I
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2390
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_pre_page:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object v1, p0, Lf6e$g;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2383
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_next_page:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object v1, p0, Lf6e$g;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2374
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_frist_page:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     iput-object v1, p0, Lf6e$g;->U:Landroid/view/View;
 
-    const v1, 0x7f0b237d
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_last_page:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,14 +119,14 @@
 
     iput-object v1, p0, Lf6e$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2371
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_exit_play:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2372
+    sget v2, Lcom/resouce/module/ResID;->ppt_play_exit_play_text:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
     .line 11
     iget-object p1, p0, Lf6e$g;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f121baf
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_play_mouse_exit_record:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -416,7 +416,7 @@
     :cond_7
     iget-object p1, p0, Lf6e$g;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f120c96
+    sget v0, Lcom/resouce/module/ResSTRING;->exit_shareplay:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -427,7 +427,7 @@
     :goto_2
     iget-object p1, p0, Lf6e$g;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f121c11
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_exit_play:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

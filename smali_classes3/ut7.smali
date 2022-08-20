@@ -119,7 +119,7 @@
     :cond_1
     iget-object v1, p0, Ltt7;->d:Landroid/content/Context;
 
-    const v2, 0x7f12064b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_record_open_incloudstorage_nosession:I
 
     const/4 v3, 0x1
 

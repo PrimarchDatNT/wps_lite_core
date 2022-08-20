@@ -180,7 +180,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e02c4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_file_item_scan_layout:I
 
     const/4 v2, 0x0
 
@@ -193,7 +193,7 @@
 
     invoke-direct {p3, p0, v0}, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$f$a;-><init>(Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$f;Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$a;)V
 
-    const v1, 0x7f0b0cd4
+    sget v1, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$f$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0ceb
+    sget v1, Lcom/resouce/module/ResID;->file_name_tv:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$f$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0d2b
+    sget v1, Lcom/resouce/module/ResID;->file_size_tv:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView$f$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0d21
+    sget v1, Lcom/resouce/module/ResID;->file_selected_cb:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

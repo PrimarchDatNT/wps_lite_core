@@ -341,7 +341,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122ae2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_tip_transmission:I
 
     const/4 v0, 0x1
 
@@ -1784,12 +1784,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f060406
+    sget v1, Lcom/resouce/module/ResCOLOR;->phoneWriterRightPanelColor:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -1806,12 +1806,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f060407
+    sget p1, Lcom/resouce/module/ResCOLOR;->phoneWriterRightPanelLineColor:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0605f0
+    sget p1, Lcom/resouce/module/ResCOLOR;->secondBoldLineColor:I
 
     :goto_1
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getColor(I)I
@@ -1833,7 +1833,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

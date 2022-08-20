@@ -79,7 +79,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -175,7 +175,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0707b5
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -188,7 +188,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0707b6
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_right:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -258,7 +258,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0cce
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_list_dialog:I
 
     const/4 v3, 0x0
 
@@ -266,7 +266,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2675
+    sget v2, Lcom/resouce/module/ResID;->public_list:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0e0cd0
+    sget v8, Lcom/resouce/module/ResLAYOUT;->public_list_icon_text_item:I
 
     invoke-virtual {v7, v8, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -303,7 +303,7 @@
     .line 9
     invoke-virtual {v7, v5}, Landroid/view/View;->setFocusable(Z)V
 
-    const v8, 0x7f0b2667
+    sget v8, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 10
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -312,7 +312,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0b2664
+    sget v9, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 11
     invoke-virtual {v7, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     check-cast v9, Landroid/widget/ImageView;
 
-    const v10, 0x7f0b13a7
+    sget v10, Lcom/resouce/module/ResID;->item_checked:I
 
     .line 12
     invoke-virtual {v7, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
 
     check-cast v10, Landroid/widget/ImageView;
 
-    const v11, 0x7f0b13cf
+    sget v11, Lcom/resouce/module/ResID;->item_line:I
 
     .line 13
     invoke-virtual {v7, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;

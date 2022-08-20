@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b346b
+    sget v0, Lcom/resouce/module/ResID;->wordcounts_include_checkbox_switch:I
 
     if-ne p1, v0, :cond_0
 
@@ -65,7 +65,7 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b3470
+    sget v0, Lcom/resouce/module/ResID;->wordcounts_showwordnumber_switch:I
 
     if-ne p1, v0, :cond_3
 

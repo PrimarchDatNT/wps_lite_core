@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fe9
+    sget v0, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     if-ne p1, v0, :cond_1
 
@@ -67,7 +67,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b177a
+    sget v0, Lcom/resouce/module/ResID;->long_pic_select_button:I
 
     if-ne p1, v0, :cond_2
 

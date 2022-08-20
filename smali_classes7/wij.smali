@@ -180,7 +180,7 @@
     .line 8
     invoke-static {v3, v2}, Lcn/wps/moffice/util/entlog/KFileLogger;->writer(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f122413
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentOutOfMemoryError:I
 
     const/16 v3, 0xa
 
@@ -202,7 +202,7 @@
     .line 11
     invoke-static {v3, v2}, Lcn/wps/moffice/util/entlog/KFileLogger;->writer(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f122412
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     const/16 v3, 0xb
 
@@ -224,7 +224,7 @@
     .line 14
     invoke-static {v3, v2}, Lcn/wps/moffice/util/entlog/KFileLogger;->writer(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f121f88
+    sget v2, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_unknown:I
 
     .line 15
     invoke-static {}, Luqh;->getActiveFileAccess()Lcvi;
@@ -269,7 +269,7 @@
 
     if-ne p1, v3, :cond_6
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/16 v3, 0xf
 
@@ -284,7 +284,7 @@
 
     if-ne p1, v3, :cond_7
 
-    const v2, 0x7f12257d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     const/16 v3, 0xd
 
@@ -301,7 +301,7 @@
 
     if-ne p1, v3, :cond_8
 
-    const v2, 0x7f12257f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_permission_denied:I
 
     .line 24
     invoke-static {p0, v4}, Lq45;->d(Landroid/app/Activity;I)V
@@ -314,7 +314,7 @@
 
     if-ne p1, v3, :cond_9
 
-    const v2, 0x7f122580
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_permission_denied_need_login:I
 
     .line 26
     invoke-static {p0, v4}, Lq45;->d(Landroid/app/Activity;I)V
@@ -327,7 +327,7 @@
 
     if-ne p1, v3, :cond_a
 
-    const v2, 0x7f12259f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_file_in_error_account:I
 
     const/16 v3, 0x10
 
@@ -478,9 +478,9 @@
 
     invoke-direct {v4, p0}, Lwij$e;-><init>(Lcn/wps/moffice/writer/Writer;)V
 
-    const v3, 0x7f122421
+    sget v3, Lcom/resouce/module/ResSTRING;->public_login:I
 
-    const v5, 0x7f121dbf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v6, 0x0
 
@@ -870,7 +870,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122416
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

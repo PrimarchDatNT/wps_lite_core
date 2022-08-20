@@ -479,7 +479,7 @@
 .method public k(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b0aec
+    sget v0, Lcom/resouce/module/ResID;->et_page_size_btn:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -490,7 +490,7 @@
 
     iput-object v0, p0, Lwig;->y:Landroid/widget/Button;
 
-    const v0, 0x7f0b0ba6
+    sget v0, Lcom/resouce/module/ResID;->et_select_header_btn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -501,7 +501,7 @@
 
     iput-object v0, p0, Lwig;->z:Landroid/widget/Button;
 
-    const v0, 0x7f0b0ba5
+    sget v0, Lcom/resouce/module/ResID;->et_select_footer_btn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -512,7 +512,7 @@
 
     iput-object v0, p0, Lwig;->A:Landroid/widget/Button;
 
-    const v0, 0x7f0b0aed
+    sget v0, Lcom/resouce/module/ResID;->et_page_size_spinner:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -533,7 +533,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Button;->setSingleLine()V
 
-    const v0, 0x7f0b0adf
+    sget v0, Lcom/resouce/module/ResID;->et_page_header_spinner:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Button;->setSingleLine()V
 
-    const v0, 0x7f0b0adc
+    sget v0, Lcom/resouce/module/ResID;->et_page_footer_spinner:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -571,7 +571,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Button;->setSingleLine()V
 
-    const v0, 0x7f0b0ae5
+    sget v0, Lcom/resouce/module/ResID;->et_page_orientation_group:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -582,7 +582,7 @@
 
     iput-object v0, p0, Lwig;->G:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v0, 0x7f0b0ae7
+    sget v0, Lcom/resouce/module/ResID;->et_page_portrait_Radio:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -593,7 +593,7 @@
 
     iput-object v0, p0, Lwig;->H:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0ae1
+    sget v0, Lcom/resouce/module/ResID;->et_page_landscape_radio:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -604,7 +604,7 @@
 
     iput-object v0, p0, Lwig;->I:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0ae9
+    sget v0, Lcom/resouce/module/ResID;->et_page_scale_group:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
 
     iput-object v0, p0, Lwig;->J:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v0, 0x7f0b0ae2
+    sget v0, Lcom/resouce/module/ResID;->et_page_margin_group:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
 
     iput-object v0, p0, Lwig;->S:[Ldqe$a;
 
-    const v0, 0x7f0b0ade
+    sget v0, Lcom/resouce/module/ResID;->et_page_header_footer_layout:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0ae4
+    sget v0, Lcom/resouce/module/ResID;->et_page_no_scale_radio:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     iput-object v0, p0, Lwig;->K:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0a57
+    sget v0, Lcom/resouce/module/ResID;->et_fit_one_page_radio:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -664,7 +664,7 @@
 
     iput-object v0, p0, Lwig;->L:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0b74
+    sget v0, Lcom/resouce/module/ResID;->et_row_one_page_radio:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -675,7 +675,7 @@
 
     iput-object v0, p0, Lwig;->M:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b097c
+    sget v0, Lcom/resouce/module/ResID;->et_col_one_page_radio:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -686,7 +686,7 @@
 
     iput-object v0, p0, Lwig;->N:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0ac4
+    sget v0, Lcom/resouce/module/ResID;->et_normal_margin_radio:I
 
     .line 24
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -697,7 +697,7 @@
 
     iput-object v0, p0, Lwig;->P:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0bdc
+    sget v0, Lcom/resouce/module/ResID;->et_wide_margin_radio:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -708,7 +708,7 @@
 
     iput-object v0, p0, Lwig;->Q:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0abf
+    sget v0, Lcom/resouce/module/ResID;->et_narrow_margin_radio:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -994,7 +994,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0ae7
+    sget v1, Lcom/resouce/module/ResID;->et_page_portrait_Radio:I
 
     const/4 v2, 0x1
 
@@ -1023,7 +1023,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0ae4
+    sget v1, Lcom/resouce/module/ResID;->et_page_no_scale_radio:I
 
     if-ne v0, v1, :cond_5
 
@@ -1046,7 +1046,7 @@
     goto :goto_1
 
     :cond_5
-    const v1, 0x7f0b0a57
+    sget v1, Lcom/resouce/module/ResID;->et_fit_one_page_radio:I
 
     if-ne v0, v1, :cond_6
 
@@ -1064,7 +1064,7 @@
     goto :goto_1
 
     :cond_6
-    const v1, 0x7f0b0b74
+    sget v1, Lcom/resouce/module/ResID;->et_row_one_page_radio:I
 
     if-ne v0, v1, :cond_7
 
@@ -1082,7 +1082,7 @@
     goto :goto_1
 
     :cond_7
-    const v1, 0x7f0b097c
+    sget v1, Lcom/resouce/module/ResID;->et_col_one_page_radio:I
 
     if-ne v0, v1, :cond_8
 
@@ -1109,14 +1109,14 @@
     .line 28
     sget-object v1, Lwig;->Z:[F
 
-    const v4, 0x7f0b0ac4
+    sget v4, Lcom/resouce/module/ResID;->et_normal_margin_radio:I
 
     if-ne v0, v4, :cond_9
 
     goto :goto_2
 
     :cond_9
-    const v4, 0x7f0b0bdc
+    sget v4, Lcom/resouce/module/ResID;->et_wide_margin_radio:I
 
     if-ne v0, v4, :cond_a
 
@@ -1126,7 +1126,7 @@
     goto :goto_2
 
     :cond_a
-    const v4, 0x7f0b0abf
+    sget v4, Lcom/resouce/module/ResID;->et_narrow_margin_radio:I
 
     if-ne v0, v4, :cond_b
 
@@ -1432,7 +1432,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f030018
+    sget v5, Lcom/resouce/module/ResARRAY;->et_header_footer_types:I
 
     .line 12
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
@@ -1882,7 +1882,7 @@
 
     iget-object v2, p0, Ldjg;->a:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v4, p0, Lwig;->E:Ljava/util/ArrayList;
 
@@ -1899,7 +1899,7 @@
 
     iget-object v3, p0, Lwig;->F:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e099f
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_ellipsizing_dropdown_hint:I
 
     invoke-direct {v1, v2, v4, v3}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1944,7 +1944,7 @@
 
     iget-object v2, p0, Ldjg;->a:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v4, p0, Lwig;->E:Ljava/util/ArrayList;
 
@@ -1961,7 +1961,7 @@
 
     iget-object v3, p0, Lwig;->F:Ljava/util/ArrayList;
 
-    const v4, 0x7f0e099f
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_ellipsizing_dropdown_hint:I
 
     invoke-direct {v1, v2, v4, v3}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

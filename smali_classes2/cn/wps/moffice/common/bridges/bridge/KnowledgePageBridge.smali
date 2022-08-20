@@ -38,7 +38,7 @@
     .line 2
     iget-object p1, p0, Lqm3;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f12131a
+    sget v0, Lcom/resouce/module/ResSTRING;->knowledge_page_function_disable:I
 
     const/4 v1, 0x0
 

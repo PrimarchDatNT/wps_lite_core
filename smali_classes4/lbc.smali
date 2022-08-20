@@ -111,7 +111,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b0111
+    sget v0, Lcom/resouce/module/ResID;->annotation_insert_item_img:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

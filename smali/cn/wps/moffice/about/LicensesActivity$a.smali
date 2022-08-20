@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e043a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_about_licenses:I
 
     const/4 v2, 0x0
 
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b15ae
+    sget v1, Lcom/resouce/module/ResID;->license:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/about/LicensesActivity$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b15af
+    sget v1, Lcom/resouce/module/ResID;->licensesContainer:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/about/LicensesActivity$a;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b171b
+    sget v1, Lcom/resouce/module/ResID;->loading:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1225b9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_source_license:I
 
     return v0
 .end method

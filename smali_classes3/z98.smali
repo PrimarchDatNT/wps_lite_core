@@ -68,21 +68,21 @@
     .line 1
     iget-object v0, p0, Lz98;->U:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810a8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_list_normal:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 2
     iget-object v0, p0, Lz98;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810a4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_event_normal:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 3
     iget-object v0, p0, Lz98;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810a6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_group_normal:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07066c
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_home_clouddocs_tab_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06f1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_mgr:I
 
     const/4 v2, 0x0
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0490
+    sget v1, Lcom/resouce/module/ResID;->cloudstorge_tabs_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b048e
+    sget v1, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 4
     invoke-virtual {v0, p0}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b204a
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_text:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -179,11 +179,11 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f122514
+    sget v3, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f0b2049
+    sget v2, Lcom/resouce/module/ResID;->phone_home_toolbar_item_image:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b048d
+    sget v3, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_events:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f122061
+    sget v4, Lcom/resouce/module/ResSTRING;->public_event:I
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -230,7 +230,7 @@
 
     iput-object v3, p0, Lz98;->V:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b204c
+    sget v3, Lcom/resouce/module/ResID;->phone_home_toolbar_item_tips_image:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b048f
+    sget v3, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_setting:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f121946
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_tab_setting:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -280,7 +280,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e2c
+    sget v1, Lcom/resouce/module/ResID;->tabhost:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
     .line 3
     iget-object p1, p0, Lz98;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0810a9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_list_select:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -384,7 +384,7 @@
     .line 5
     iget-object p1, p0, Lz98;->V:Landroid/widget/ImageView;
 
-    const v0, 0x7f0810a5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_event_select:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -403,7 +403,7 @@
     .line 7
     iget-object p1, p0, Lz98;->W:Landroid/widget/ImageView;
 
-    const v0, 0x7f0810a7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_tab_group_select:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -445,7 +445,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b048e
+    sget v1, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_list:I
 
     if-ne v0, v1, :cond_0
 
@@ -467,7 +467,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b048d
+    sget v1, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_events:I
 
     if-ne v0, v1, :cond_1
 
@@ -494,7 +494,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b048f
+    sget v0, Lcom/resouce/module/ResID;->cloudstorge_tabs_item_setting:I
 
     if-ne p1, v0, :cond_2
 

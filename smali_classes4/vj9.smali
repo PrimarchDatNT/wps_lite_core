@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bba
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_link_share_info:I
 
     const/4 p3, 0x0
 
@@ -80,7 +80,7 @@
 
     iput-object p1, p0, Lvj9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2fd7
+    sget p2, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
     .line 10
     iget-object p1, p0, Lvj9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b172c
+    sget p2, Lcom/resouce/module/ResID;->loading_progress_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -105,7 +105,7 @@
     .line 11
     iget-object p1, p0, Lvj9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1606
+    sget p2, Lcom/resouce/module/ResID;->link_share_creator_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
     .line 12
     iget-object p1, p0, Lvj9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1610
+    sget p2, Lcom/resouce/module/ResID;->link_share_permission_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
     .line 13
     iget-object p1, p0, Lvj9;->I:Landroid/view/View;
 
-    const p2, 0x7f0b160f
+    sget p2, Lcom/resouce/module/ResID;->link_share_permission_extra_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -144,7 +144,7 @@
     .line 14
     iget-object p1, p0, Lvj9;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f121355
+    sget p2, Lcom/resouce/module/ResSTRING;->link_share_info_user_permission:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -190,7 +190,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lbh8;)V
     .locals 1
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lvj9;-><init>(Landroid/app/Activity;ILbh8;)V
@@ -425,7 +425,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f43
+    sget v0, Lcom/resouce/module/ResSTRING;->show_link_share_permission_invite_edit_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -445,7 +445,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1223a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_write:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -458,7 +458,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f45
+    sget v1, Lcom/resouce/module/ResSTRING;->show_link_share_permission_write_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -477,7 +477,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1227cc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -490,7 +490,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f44
+    sget v1, Lcom/resouce/module/ResSTRING;->show_link_share_permission_read_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -531,7 +531,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f121259
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_sharer_permission_description:I
 
     const/4 v2, 0x0
 
@@ -665,7 +665,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -712,7 +712,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1225c6
+    sget v5, Lcom/resouce/module/ResSTRING;->public_other_share:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -224,7 +224,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122368
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ink_by_keymouse:I
 
     .line 5
     invoke-virtual {p0, p1}, Lule;->V0(I)V

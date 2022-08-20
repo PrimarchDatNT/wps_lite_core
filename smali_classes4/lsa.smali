@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12176d
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

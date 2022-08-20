@@ -182,7 +182,7 @@
 
     if-lez v0, :cond_4
 
-    const v0, 0x7f0b0dd8
+    sget v0, Lcom/resouce/module/ResID;->flowLayout:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -288,7 +288,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060626
+    sget v5, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -324,7 +324,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0e03eb
+    sget v5, Lcom/resouce/module/ResLAYOUT;->hot_flow_tag:I
 
     const/4 v7, 0x0
 
@@ -332,7 +332,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f0b2e61
+    sget v5, Lcom/resouce/module/ResID;->tagText:I
 
     .line 15
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,12 +365,12 @@
     :cond_1
     if-eqz p3, :cond_2
 
-    const v1, 0x7f0809ee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->item_novel_tag_hot_bg:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f0809ed
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->item_novel_tag_history_bg:I
 
     .line 21
     :goto_2
@@ -503,7 +503,7 @@
 .method public M()I
     .locals 1
 
-    const v0, 0x7f0e0048
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_ovs_search:I
 
     return v0
 .end method
@@ -612,7 +612,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e042e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_serarch_hot:I
 
     iget-object v2, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->X:Landroid/widget/LinearLayout;
 
@@ -624,7 +624,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0641
+    sget v1, Lcom/resouce/module/ResID;->deleteTag:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2fd1
+    sget v2, Lcom/resouce/module/ResID;->titleTag:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f0b120d
+    sget v4, Lcom/resouce/module/ResID;->hot_tag_icon:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -663,7 +663,7 @@
     .line 8
     invoke-virtual {v1, v5}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v5, 0x7f12322a
+    sget v5, Lcom/resouce/module/ResSTRING;->wps_home_search_hot_tip:I
 
     .line 9
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -680,7 +680,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -704,7 +704,7 @@
     .line 14
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v3, 0x7f123046
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_search_history:I
 
     .line 15
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -886,7 +886,7 @@
 .method public initView()V
     .locals 4
 
-    const v0, 0x7f0b1589
+    sget v0, Lcom/resouce/module/ResID;->leftBack:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -897,7 +897,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2916
+    sget v0, Lcom/resouce/module/ResID;->rightClose:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -908,7 +908,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->V:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2a45
+    sget v0, Lcom/resouce/module/ResID;->searchContent:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -919,7 +919,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->W:Landroid/widget/EditText;
 
-    const v0, 0x7f0b1534
+    sget v0, Lcom/resouce/module/ResID;->layoutHot:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -930,7 +930,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->X:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b3061
+    sget v0, Lcom/resouce/module/ResID;->topLayout:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->Z:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b1535
+    sget v0, Lcom/resouce/module/ResID;->layoutNoData:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -952,7 +952,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->a0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b2a33
+    sget v0, Lcom/resouce/module/ResID;->scrollView:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -986,7 +986,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->b0:Lcn/wps/moffice/home/novel/search/SearchActivity$i;
 
-    const v0, 0x7f0b06d5
+    sget v0, Lcom/resouce/module/ResID;->divider_line_below_title_bar:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -998,7 +998,7 @@
     .line 12
     invoke-virtual {p0}, Lcn/wps/moffice/home/novel/search/SearchActivity;->k1()V
 
-    const v0, 0x7f0b2e1c
+    sget v0, Lcom/resouce/module/ResID;->tab_bar:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1009,7 +1009,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/home/novel/search/SearchActivity;->f0:Lcn/wps/moffice/home/main/widget/NovelHomeTabBar;
 
-    const v0, 0x7f0b33a3
+    sget v0, Lcom/resouce/module/ResID;->view_pager:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1115,7 +1115,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1589
+    sget v0, Lcom/resouce/module/ResID;->leftBack:I
 
     if-ne p1, v0, :cond_1
 
@@ -1162,7 +1162,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2916
+    sget v0, Lcom/resouce/module/ResID;->rightClose:I
 
     if-ne p1, v0, :cond_2
 
@@ -1193,7 +1193,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

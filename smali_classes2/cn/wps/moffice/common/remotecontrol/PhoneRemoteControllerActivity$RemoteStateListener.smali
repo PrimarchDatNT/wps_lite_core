@@ -60,7 +60,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f1229bc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     .line 4
     invoke-static {v2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -141,7 +141,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity$RemoteStateListener;->this$0:Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;
 
-    const v2, 0x7f121bd7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_remote_tips_network_unstable:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -210,7 +210,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity$RemoteStateListener;->this$0:Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;
 
-    const v1, 0x7f1229d5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_net_restore:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

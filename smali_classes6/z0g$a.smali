@@ -134,7 +134,7 @@
 
     move-result-object p2
 
-    const p4, 0x7f12335e
+    sget p4, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p2, p4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -42,7 +42,7 @@
 .method public b(Landroid/app/Activity;Ljava/lang/Exception;)V
     .locals 4
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

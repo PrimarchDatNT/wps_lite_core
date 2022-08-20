@@ -67,7 +67,7 @@
 
     iget-object v0, v0, Lwp8$a;->I:Landroid/content/Context;
 
-    const v3, 0x7f1223b5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_is_super_vip_now:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     iget-object v0, v0, Lwp8$a;->I:Landroid/content/Context;
 
-    const v3, 0x7f1223b4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_is_docer_vip_now:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -70,7 +70,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->I:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

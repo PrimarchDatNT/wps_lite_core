@@ -64,7 +64,7 @@
     .line 2
     invoke-static {p1, v0}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 3
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -129,7 +129,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b08f3
+    sget v1, Lcom/resouce/module/ResID;->et_autosum_button_morefunc:I
 
     if-ne v0, v1, :cond_3
 

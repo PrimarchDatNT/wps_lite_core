@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e82
+    sget v1, Lcom/resouce/module/ResSTRING;->scan_qr_code_helper_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e83
+    sget v1, Lcom/resouce/module/ResSTRING;->scan_qr_code_project_helper_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e84
+    sget v1, Lcom/resouce/module/ResSTRING;->scan_qr_code_remote_helper_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12071b
+    sget v1, Lcom/resouce/module/ResSTRING;->en_scan_qr_code_helper_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122caf
+    sget v1, Lcom/resouce/module/ResSTRING;->qr_code_server:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1216c3
+    sget v1, Lcom/resouce/module/ResSTRING;->pc_scan_login_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1216c4
+    sget v1, Lcom/resouce/module/ResSTRING;->pc_scan_login_url_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230ec
+    sget v1, Lcom/resouce/module/ResSTRING;->transfer_to_web_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -208,7 +208,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230ea
+    sget v1, Lcom/resouce/module/ResSTRING;->transfer_to_new_web_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

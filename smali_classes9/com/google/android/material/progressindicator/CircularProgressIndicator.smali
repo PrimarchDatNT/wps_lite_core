@@ -56,7 +56,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04010a
+    sget v0, Lcom/resouce/module/ResATTR;->circularProgressIndicatorStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/progressindicator/CircularProgressIndicator;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

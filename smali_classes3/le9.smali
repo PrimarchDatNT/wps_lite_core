@@ -174,7 +174,7 @@
 
     invoke-direct {p3, p1}, Lhd9;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e00fa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_save_third_doc_layout:I
 
     const/4 v1, 0x0
 
@@ -183,7 +183,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0edb
+    sget v1, Lcom/resouce/module/ResID;->get_save_third_doc_tv:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

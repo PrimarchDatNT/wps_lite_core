@@ -45,7 +45,7 @@
 
     invoke-direct {v0, p0}, Lhrg$b$a;-><init>(Lhrg$b;)V
 
-    const v1, 0x7f122386
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert_comment:I
 
     invoke-virtual {p1, v1, v0}, Lhrg;->e(ILandroid/view/View$OnClickListener;)V
 

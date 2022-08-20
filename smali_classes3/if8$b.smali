@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211a0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_transfer_to_pc:I
 
     const/4 v2, 0x0
 

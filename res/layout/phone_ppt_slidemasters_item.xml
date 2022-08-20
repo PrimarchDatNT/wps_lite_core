@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/mainTextColor" android:id="@id/ppt_slidemaster_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/phone_ppt_panel_content_seperate_v_m" android:layout_marginTop="@dimen/phone_ppt_panel_content_seperate_v_xl" android:layout_marginRight="0.0dip" android:layout_marginBottom="@dimen/phone_ppt_panel_content_seperate_v_m" android:layout_marginStart="@dimen/phone_ppt_panel_content_seperate_v_m" android:layout_marginEnd="0.0dip" style="@style/phone_public_font_s_gray" />
-    <View style="@style/phone_ppt_view_divider" />
-    <GridView android:id="@id/ppt_slideLayouts_grid" android:paddingTop="@dimen/phone_ppt_slidelayouts_topbottom_padding" android:paddingBottom="10.0dip" android:verticalSpacing="22.0dip" android:layoutDirection="ltr" style="@style/phone_ppt_default_gridview" />
-</LinearLayout>

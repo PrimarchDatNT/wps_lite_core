@@ -484,7 +484,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0700b7
+    sget p2, Lcom/resouce/module/ResDIMEN;->design_navigation_separator_vertical_padding:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -744,7 +744,7 @@
     .line 2
     iget-object v0, p0, Lbzt;->W:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e00cf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->design_navigation_menu:I
 
     const/4 v2, 0x0
 
@@ -795,7 +795,7 @@
     :cond_1
     iget-object p1, p0, Lbzt;->W:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e00cc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->design_navigation_item_header:I
 
     iget-object v1, p0, Lbzt;->B:Lcom/google/android/material/internal/NavigationMenuView;
 

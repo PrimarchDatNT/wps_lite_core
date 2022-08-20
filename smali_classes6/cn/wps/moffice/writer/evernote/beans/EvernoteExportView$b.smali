@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -185,7 +185,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12237c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

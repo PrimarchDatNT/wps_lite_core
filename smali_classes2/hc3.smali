@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b12
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_amazon_mode_tips:I
 
     const/4 v2, 0x0
 
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Lhc3;->c:Landroid/view/View;
 
-    const v1, 0x7f0b2fb7
+    sget v1, Lcom/resouce/module/ResID;->tips_confirm:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

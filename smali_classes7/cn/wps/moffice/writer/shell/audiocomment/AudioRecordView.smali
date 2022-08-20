@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081820
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_audiocomment_recordoff:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081821
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_audiocomment_recordon:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

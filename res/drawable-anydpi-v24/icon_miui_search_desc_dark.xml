@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="41.0dip" android:width="39.0dip" android:viewportWidth="39.0" android:viewportHeight="41.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:name="提示" android:translateX="-45.0" android:translateY="-40.0">
-        <path android:name="ic_搜索" android:fillColor="#ffffffff" android:pathData="M61.112 40 C70.005 40.0042 77.212 47.2845 77.209 56.2619 C77.206 65.2393 69.995 72.515 61.102 72.5136 C52.209 72.5122 45 65.2342 45 56.2568 C45.004 47.2772 52.217 40 61.112 40 L61.112 40 Z M61.084 44.4387 L61.084 44.4355 C54.559 44.4355 49.27 49.7245 49.269 56.2492 C49.269 62.7714 54.556 68.0589 61.078 68.0597 C67.601 68.0605 72.889 62.7743 72.89 56.2521 C72.892 49.7298 67.606 44.441 61.084 44.4387 Z M72.412 65.5893 L82.992 76.275 C83.415 76.6927 83.653 77.2645 83.653 77.8613 C83.653 78.4582 83.415 79.03 82.992 79.4477 C82.123 80.3237 80.715 80.3237 79.845 79.4477 L69.254 68.763 C68.835 68.3424 68.6 67.7708 68.6 67.1746 C68.6 66.5783 68.835 66.0067 69.254 65.5861 C70.128 64.7144 71.538 64.7144 72.412 65.5893 Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.8" android:fillType="nonZero" />
-    </group>
-</vector>

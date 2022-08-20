@@ -165,7 +165,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f121a45
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_delay:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1119,7 +1119,7 @@
     :cond_6
     iget-object v0, p0, Lqnd;->o0:Landroid/view/View;
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const-string v2, "s"
 
@@ -1129,7 +1129,7 @@
 
     const-string v8, "0.0"
 
-    const v9, 0x7f0600ea
+    sget v9, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     if-ne p1, v0, :cond_9
 
@@ -1413,7 +1413,7 @@
     .line 4
     iget-object p1, p0, Lqnd;->d0:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05a3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_ver_anim_list_layout:I
 
     iget-object v2, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
@@ -1442,7 +1442,7 @@
     .line 7
     iget-object p1, p0, Lqnd;->d0:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_hor_anim_list_layout:I
 
     iget-object v2, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
@@ -1464,7 +1464,7 @@
     :goto_0
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c2c
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_preview_slide:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1475,7 +1475,7 @@
     .line 10
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c22
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_modify_item:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1486,7 +1486,7 @@
     .line 11
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c1d
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_close:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1512,7 +1512,7 @@
     .line 15
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c1c
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_click:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1523,7 +1523,7 @@
     .line 16
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c1b
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_before:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1534,7 +1534,7 @@
     .line 17
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c1a
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_after:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1560,7 +1560,7 @@
     .line 21
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c2d
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_subtract_btn:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1571,7 +1571,7 @@
     .line 22
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c2b
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_number_counter:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1584,7 +1584,7 @@
     .line 23
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c19
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_add_btn:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1605,7 +1605,7 @@
     .line 26
     iget-object p1, p0, Lqnd;->a0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1c23
+    sget v0, Lcom/resouce/module/ResID;->pad_ppt_anim_re_list:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1786,7 +1786,7 @@
 
     move-result v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     const/4 v2, 0x0
 
@@ -2127,7 +2127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

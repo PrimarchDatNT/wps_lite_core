@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lhe4;->e:Lfe4;
 
-    const v0, 0x7f0b1377
+    sget v0, Lcom/resouce/module/ResID;->invite_edit_link_member_list:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     iput-object v0, p0, Lhe4;->b:Landroid/widget/ListView;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

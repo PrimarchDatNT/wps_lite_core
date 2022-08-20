@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="98.0dip" android:layout_height="wrap_content">
-        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:id="@id/recommendText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.599976dip" android:lines="1" android:includeFontPadding="false" android:layout_below="@id/cardView" android:layout_marginStart="4.0dip" />
-        <cn.wps.moffice.home.common.widget.AspectCoverView android:id="@id/cardView" android:layout_width="94.0dip" android:layout_height="wrap_content" app:aspect_cover_ratio_dependency="width" />
-    </RelativeLayout>
-</LinearLayout>

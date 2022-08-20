@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:paddingLeft="3.0dip" android:paddingTop="6.0dip" android:paddingRight="3.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="3.0dip" android:paddingEnd="3.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.RecordEditText android:textSize="16.0sp" android:id="@id/input_jump_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="40" android:layout_weight="1.0" android:inputType="number" />
-    <TextView android:textSize="16.0sp" android:id="@id/jump_range" android:paddingLeft="6.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(1-700)" android:paddingStart="6.0dip" android:paddingEnd="0.0dip" />
-</LinearLayout>

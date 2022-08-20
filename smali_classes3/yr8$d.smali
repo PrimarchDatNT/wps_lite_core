@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122143    # 1.9424E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_radar_open_success:I    # 1.9424E38f
 
     const/4 v1, 0x0
 

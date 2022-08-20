@@ -436,7 +436,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1269,7 +1269,7 @@
     :cond_0
     iget-object p1, p0, Lnef;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122bd5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_share_link_tip:I
 
     const/4 v2, 0x1
 
@@ -1454,7 +1454,7 @@
     .line 3
     iget-object v1, v0, Lnef;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1205ee
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     invoke-static {v1, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1598,7 +1598,7 @@
     .line 2
     iget-object p1, p0, Lnef;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1205ee
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v0, 0x0
 
@@ -1705,17 +1705,17 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v2, 0x7f122bdf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 5
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v2, 0x7f121154
+    sget v2, Lcom/resouce/module/ResSTRING;->home_share_panel_file_upload_tips:I
 
     .line 6
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1727,7 +1727,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1737,7 +1737,7 @@
 
     invoke-direct {v3, p0, p1}, Lnef$o;-><init>(Lnef;I)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1798,7 +1798,7 @@
     .line 2
     iget-object p1, p0, Lnef;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p3, 0x0
 
@@ -3346,7 +3346,7 @@
     :pswitch_0
     iget-object v0, p0, Lnef;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1206b9
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3406,7 +3406,7 @@
     .line 9
     iget-object v0, p0, Lnef;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1206b8
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_permission_denied:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3442,7 +3442,7 @@
     :cond_4
     iget-object v0, p0, Lnef;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1206ba
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_timeout:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

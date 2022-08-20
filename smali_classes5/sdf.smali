@@ -217,7 +217,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bce
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_qq:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -240,7 +240,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bd0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_qzone:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bcf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_qq_pc:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -286,7 +286,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bd8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_wechat:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bd9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_wechat_circle:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122bda
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_weibo:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p0, 0x7f122763
+    sget p0, Lcom/resouce/module/ResSTRING;->public_qq_hd:I
 
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -459,7 +459,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p0, 0x7f122764
+    sget p0, Lcom/resouce/module/ResSTRING;->public_qq_internalational:I
 
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -490,7 +490,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p0, 0x7f122766
+    sget p0, Lcom/resouce/module/ResSTRING;->public_qq_lite:I
 
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -521,7 +521,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p0, 0x7f122765
+    sget p0, Lcom/resouce/module/ResSTRING;->public_qq_japan:I
 
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -393,7 +393,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12118f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_third_app_uninstall:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

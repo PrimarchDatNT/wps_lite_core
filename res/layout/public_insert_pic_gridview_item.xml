@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.SqureLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/public_insert_pic_imgview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <View android:id="@id/public_insert_pic_selected_layer" android:background="#99ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <CheckBox android:layout_gravity="end" android:id="@id/public_insert_pic_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/public_select_pic_checkbox_size" android:layout_height="@dimen/public_select_pic_checkbox_size" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/public_select_pic_checkbox_margin" android:layout_marginRight="@dimen/public_select_pic_checkbox_margin" android:button="@drawable/word_merge_pages_checkbox_selector" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/public_select_pic_checkbox_margin" />
-</cn.wps.moffice.common.beans.SqureLayout>

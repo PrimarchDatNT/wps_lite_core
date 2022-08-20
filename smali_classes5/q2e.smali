@@ -7,9 +7,9 @@
 .method public constructor <init>()V
     .locals 2
 
-    const v0, 0x7f0802cd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_play:I
 
-    const v1, 0x7f122655
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play:I
 
     .line 1
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V
@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     const/4 v1, 0x0
 

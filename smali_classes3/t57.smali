@@ -36,9 +36,9 @@
 .method public b(Le37;)Ldi9$f;
     .locals 3
 
-    const p1, 0x7f080210
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_device:I
 
-    const v0, 0x7f12291f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_to_pc_edit:I
 
     const/4 v1, 0x0
 

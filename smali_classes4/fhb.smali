@@ -136,7 +136,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0e7a
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_task_center_page_layout:I
 
     const/4 p4, 0x0
 
@@ -530,7 +530,7 @@
     .line 7
     iget-object p1, p0, Lfhb;->a:Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;
 
-    const v1, 0x7f122a77
+    sget v1, Lcom/resouce/module/ResSTRING;->public_task_center_tips_cancel_toast:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -540,7 +540,7 @@
     :cond_0
     iget-object p1, p0, Lfhb;->a:Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;
 
-    const v1, 0x7f12250e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -723,7 +723,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122a78
+    sget v2, Lcom/resouce/module/ResSTRING;->public_task_center_tips_comple_toast:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -758,7 +758,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122a7b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_task_center_tips_fail_toast:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -831,7 +831,7 @@
     :cond_0
     iget-object p1, p0, Lfhb;->a:Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;
 
-    const v0, 0x7f12250e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     const/4 v1, 0x1
 
@@ -894,7 +894,7 @@
     .line 6
     iget-object v0, p0, Lfhb;->a:Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;
 
-    const v1, 0x7f122a7a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_task_center_tips_error:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1100,7 +1100,7 @@
     .line 5
     iget-object v0, p0, Lfhb;->a:Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;
 
-    const v1, 0x7f122a7a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_task_center_tips_error:I
 
     const/4 v2, 0x1
 
@@ -1232,7 +1232,7 @@
     .line 1
     iget-object v0, p0, Lfhb;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2eab
+    sget v1, Lcom/resouce/module/ResID;->task_center_page_recyclerview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1245,7 +1245,7 @@
     .line 2
     iget-object v0, p0, Lfhb;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2eaa
+    sget v1, Lcom/resouce/module/ResID;->task_center_page_errorpage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1258,7 +1258,7 @@
     .line 3
     iget-object v0, p0, Lfhb;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2eac
+    sget v1, Lcom/resouce/module/ResID;->task_center_swipe_refresh_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1271,7 +1271,7 @@
     .line 4
     iget-object v0, p0, Lfhb;->g:Landroid/view/View;
 
-    const v1, 0x7f0b2ea8
+    sget v1, Lcom/resouce/module/ResID;->task_center_page_callhelp:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
     .line 8
     iget-object v0, p0, Lfhb;->l:Landroid/view/View;
 
-    const v1, 0x7f0b2ea9
+    sget v1, Lcom/resouce/module/ResID;->task_center_page_callhelp_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

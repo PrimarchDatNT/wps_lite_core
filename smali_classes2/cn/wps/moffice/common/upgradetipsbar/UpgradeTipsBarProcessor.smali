@@ -339,7 +339,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f12254b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_nospaceleft_user_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -358,7 +358,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f122549
+    sget v0, Lcom/resouce/module/ResSTRING;->public_nospaceleft_member_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -377,7 +377,7 @@
 
     :cond_3
     :goto_1
-    const v0, 0x7f12254a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_nospaceleft_pt_tips:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -450,7 +450,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122b80
+    sget v0, Lcom/resouce/module/ResSTRING;->public_uploadlimit_user_tips:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -461,7 +461,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f122b7e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_uploadlimit_member_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -480,7 +480,7 @@
 
     :cond_3
     :goto_1
-    const v0, 0x7f122b7f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_uploadlimit_pt_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

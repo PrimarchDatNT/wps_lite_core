@@ -21,7 +21,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e013f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->documents_openfile_anim_view:I
 
     const/4 v1, 0x0
 
@@ -29,7 +29,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1b3c
+    sget v0, Lcom/resouce/module/ResID;->openfile_prompt_info:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02e7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_art_openfile_anim_view:I
 
     const/4 v1, 0x0
 
@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2560
+    sget v0, Lcom/resouce/module/ResID;->prompt_info:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     if-eqz v1, :cond_0
 
-    const p0, 0x7f121d50
+    sget p0, Lcom/resouce/module/ResSTRING;->public_art_prompt_for_writer:I
 
     .line 4
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setText(I)V
@@ -99,7 +99,7 @@
 
     if-eqz v1, :cond_1
 
-    const p0, 0x7f121d4f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_art_prompt_for_spreadsheet:I
 
     .line 6
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setText(I)V
@@ -116,7 +116,7 @@
 
     if-eqz v1, :cond_2
 
-    const p0, 0x7f121d4e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_art_prompt_for_presentation:I
 
     .line 8
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setText(I)V
@@ -133,7 +133,7 @@
 
     if-eqz p0, :cond_3
 
-    const p0, 0x7f121d4d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_art_prompt_for_pdf:I
 
     .line 10
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setText(I)V
@@ -149,7 +149,7 @@
     .line 1
     sget-object v0, Lie5$a;->B:Lie5$a;
 
-    const v1, 0x7f1225bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_opening_document_prompt:I
 
     if-ne p0, v0, :cond_0
 
@@ -201,7 +201,7 @@
 
     if-ne p0, v0, :cond_6
 
-    const p0, 0x7f1223c5
+    sget p0, Lcom/resouce/module/ResSTRING;->public_judging_document_type:I
 
     return p0
 

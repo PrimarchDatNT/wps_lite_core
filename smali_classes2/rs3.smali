@@ -195,7 +195,7 @@
     :goto_0
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f1206dc
+    sget p2, Lcom/resouce/module/ResSTRING;->download_photo_fail:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -260,7 +260,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06003e
+    sget v3, Lcom/resouce/module/ResCOLOR;->black:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -273,7 +273,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e0
+    sget v3, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -382,7 +382,7 @@
     .line 1
     iget-object v0, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122bec
+    sget v1, Lcom/resouce/module/ResSTRING;->public_web_article_publish_folder_name:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -518,7 +518,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080861
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -711,17 +711,17 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0472
+    sget p1, Lcom/resouce/module/ResLAYOUT;->layout_web_article_publish_send_qrcode:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f122741
+    sget p1, Lcom/resouce/module/ResSTRING;->public_publish_by_web_article:I
 
     .line 3
     invoke-virtual {p0, p1}, Lyc3;->W2(I)V
 
-    const p1, 0x7f0b3333
+    sget p1, Lcom/resouce/module/ResID;->user_name:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -741,7 +741,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b3331
+    sget p1, Lcom/resouce/module/ResID;->user_icon:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
     .line 7
     invoke-virtual {p0}, Lrs3;->l3()V
 
-    const p1, 0x7f0b0ce6
+    sget p1, Lcom/resouce/module/ResID;->file_name:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -777,7 +777,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b1f75
+    sget p1, Lcom/resouce/module/ResID;->period_time:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -799,7 +799,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b29e8
+    sget p1, Lcom/resouce/module/ResID;->save_picture:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -810,7 +810,7 @@
 
     iput-object p1, p0, Lrs3;->W:Landroid/widget/Button;
 
-    const p1, 0x7f0b034e
+    sget p1, Lcom/resouce/module/ResID;->card_layout:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -828,7 +828,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b279e
+    sget p1, Lcom/resouce/module/ResID;->qr_code_image:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

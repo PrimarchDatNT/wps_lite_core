@@ -23,7 +23,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f090001
+    sget p1, Lcom/resouce/module/ResFONT;->manrope_medium:I
 
     .line 1
     :goto_0

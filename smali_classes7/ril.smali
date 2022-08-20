@@ -277,7 +277,7 @@
 .method public final q2()V
     .locals 3
 
-    const v0, 0x7f0e0ece
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_read_background_more_layout:I
 
     const/4 v1, 0x0
 
@@ -316,7 +316,7 @@
     .line 5
     iget-object v1, p0, Lril;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f1227a7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 
@@ -330,7 +330,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b24fa
+    sget v0, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

@@ -33,17 +33,17 @@
 
     invoke-direct {v1, p0, v0}, Lnf7$a;-><init>(Lnf7;Lhd3;)V
 
-    const v2, 0x7f122b78
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_wpsdrive_backup:I
 
     .line 4
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
-    const v2, 0x7f123263
+    sget v2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

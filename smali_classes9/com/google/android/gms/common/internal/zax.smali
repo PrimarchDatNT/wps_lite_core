@@ -116,18 +116,18 @@
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setMinWidth(I)V
 
-    const v0, 0x7f0801a7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->common_google_signin_btn_icon_dark:I
 
-    const v1, 0x7f0801ac
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->common_google_signin_btn_icon_light:I
 
     .line 6
     invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zax;->a(IIII)I
 
     move-result v0
 
-    const v1, 0x7f0801b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->common_google_signin_btn_text_dark:I
 
-    const v2, 0x7f0801b5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->common_google_signin_btn_text_light:I
 
     .line 7
     invoke-static {p3, v1, v2, v2}, Lcom/google/android/gms/common/internal/zax;->a(IIII)I
@@ -183,7 +183,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600db
+    sget v1, Lcom/resouce/module/ResCOLOR;->common_google_signin_btn_tint:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
@@ -201,9 +201,9 @@
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0600d1
+    sget v0, Lcom/resouce/module/ResCOLOR;->common_google_signin_btn_text_dark:I
 
-    const v1, 0x7f0600d6
+    sget v1, Lcom/resouce/module/ResCOLOR;->common_google_signin_btn_text_light:I
 
     .line 14
     invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zax;->a(IIII)I
@@ -255,7 +255,7 @@
     throw p1
 
     :cond_3
-    const p2, 0x7f120301
+    sget p2, Lcom/resouce/module/ResSTRING;->common_signin_button_text_long:I
 
     .line 18
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -267,7 +267,7 @@
     goto :goto_1
 
     :cond_4
-    const p2, 0x7f120300
+    sget p2, Lcom/resouce/module/ResSTRING;->common_signin_button_text:I
 
     .line 19
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

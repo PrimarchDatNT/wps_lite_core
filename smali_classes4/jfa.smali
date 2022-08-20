@@ -511,7 +511,7 @@
 
     const/4 v6, 0x2
 
-    const v7, 0x7f0b191f
+    sget v7, Lcom/resouce/module/ResID;->msg_center_line:I
 
     const/4 v8, 0x1
 
@@ -866,7 +866,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f1214af
+    sget p3, Lcom/resouce/module/ResSTRING;->num_of_new_msg_tips:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1585,7 +1585,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e034f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_msg_center_list:I
 
     const/4 v2, 0x0
 
@@ -1595,7 +1595,7 @@
 
     iput-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1911
+    sget v1, Lcom/resouce/module/ResID;->msg_center_content_list:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1609,7 +1609,7 @@
     .line 12
     iget-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0c6e
+    sget v1, Lcom/resouce/module/ResID;->fast_2_last_read:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1622,7 +1622,7 @@
     .line 13
     iget-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b278e
+    sget v1, Lcom/resouce/module/ResID;->pull_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1635,7 +1635,7 @@
     .line 14
     iget-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1653,7 +1653,7 @@
     .line 16
     iget-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b190e
+    sget v1, Lcom/resouce/module/ResID;->msg_center_content_guide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1669,7 +1669,7 @@
     .line 18
     iget-object v0, p0, Ljfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1919
+    sget v1, Lcom/resouce/module/ResID;->msg_center_guide_close_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1695,7 +1695,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120f9b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_messagecenter:I
 
     return v0
 .end method
@@ -1779,7 +1779,7 @@
 .method public final j3(Landroid/widget/RelativeLayout;)V
     .locals 6
 
-    const v0, 0x7f0b191b
+    sget v0, Lcom/resouce/module/ResID;->msg_center_guide_text:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1788,7 +1788,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b1910
+    sget v1, Lcom/resouce/module/ResID;->msg_center_content_guide_tv:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1797,7 +1797,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b191a
+    sget v2, Lcom/resouce/module/ResID;->msg_center_guide_layout:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -1891,12 +1891,12 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f120fa3
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_no_push_permission:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f120fa5
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_open:I
 
     .line 9
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1950,12 +1950,12 @@
 
     if-nez v2, :cond_4
 
-    const v2, 0x7f120fa0
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_no_message_no_login:I
 
     .line 16
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f122421
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login:I
 
     .line 17
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V

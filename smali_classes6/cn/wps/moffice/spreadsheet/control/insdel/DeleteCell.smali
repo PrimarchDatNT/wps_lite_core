@@ -53,22 +53,22 @@
 
     if-eqz p3, :cond_0
 
-    const v0, 0x7f08142c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_celldelete_toleft:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080e3c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_left_shift_et:I
 
     :goto_0
     if-eqz p3, :cond_1
 
-    const p3, 0x7f120c77
+    sget p3, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_left:I
 
     goto :goto_1
 
     :cond_1
-    const p3, 0x7f12159e
+    sget p3, Lcom/resouce/module/ResSTRING;->pad_et_toolbar_insert_left:I
 
     :goto_1
     invoke-direct {p2, p0, v0, p3}, Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell$3;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell;II)V
@@ -82,22 +82,22 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f08142d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_celldelete_totop:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080e66
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_up_et:I
 
     :goto_2
     if-eqz v0, :cond_3
 
-    const v0, 0x7f120c7a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_up:I
 
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f1215a0
+    sget v0, Lcom/resouce/module/ResSTRING;->pad_et_toolbar_insert_up:I
 
     :goto_3
     invoke-direct {p3, p0, v1, v0}, Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell$4;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell;II)V
@@ -111,15 +111,15 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f08043b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_delete_row:I
 
     goto :goto_4
 
     :cond_4
-    const v1, 0x7f080df6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_delete_row_et:I
 
     :goto_4
-    const v2, 0x7f120c79
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_row:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell$5;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell;II)V
 
@@ -132,15 +132,15 @@
 
     if-eqz v2, :cond_5
 
-    const v2, 0x7f080439
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_delete_column:I
 
     goto :goto_5
 
     :cond_5
-    const v2, 0x7f080df3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_delete_column_et:I
 
     :goto_5
-    const v3, 0x7f120c75
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_col:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell$6;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/DeleteCell;II)V
 
@@ -159,11 +159,11 @@
 
     move-result-object v5
 
-    const v6, 0x7f120c6e
+    sget v6, Lcom/resouce/module/ResSTRING;->et_toolbar_delete_cell:I
 
-    const v7, 0x7f080221
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v8, 0x7f120c6e
+    sget v8, Lcom/resouce/module/ResSTRING;->et_toolbar_delete_cell:I
 
     move-object v3, v2
 

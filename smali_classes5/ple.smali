@@ -254,7 +254,7 @@
     .line 20
     iput-object p3, p0, Lple;->V:Landroid/view/View;
 
-    const p2, 0x7f0b2485
+    sget p2, Lcom/resouce/module/ResID;->ppt_titlebar_container:I
 
     .line 21
     invoke-virtual {p3, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     iget-object p2, p0, Lple;->V:Landroid/view/View;
 
-    const p3, 0x7f0b2493
+    sget p3, Lcom/resouce/module/ResID;->ppt_toolbar:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -875,7 +875,7 @@
     :cond_2
     iget-object v1, p0, Lple;->b0:Lcn/wps/moffice/common/SaveIconGroup;
 
-    const v2, 0x7f0b1297
+    sget v2, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1448,7 +1448,7 @@
     .line 1
     iget-object v0, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b248b
+    sget v1, Lcom/resouce/module/ResID;->ppt_titlebar_multi_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2015,7 +2015,7 @@
     .line 5
     iget-object v0, p0, Lple;->U:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0a70
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_complex_toolbar_layout:I
 
     iget-object v3, p0, Lple;->W:Landroid/view/ViewGroup;
 
@@ -2053,7 +2053,7 @@
     .line 8
     iget-object v3, p0, Lple;->X:Landroid/view/View;
 
-    const v4, 0x7f0b248f
+    sget v4, Lcom/resouce/module/ResID;->ppt_titlebar_save:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2099,7 +2099,7 @@
     .line 14
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2487
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_indicator:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2119,7 +2119,7 @@
     :cond_3
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2489
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_menubar_container:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2150,7 +2150,7 @@
     .line 20
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2491
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_undo:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2163,7 +2163,7 @@
     .line 21
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b248d
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_redo:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2176,7 +2176,7 @@
     .line 22
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2490
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_share:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2189,7 +2189,7 @@
     .line 23
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b248a
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_multi:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2202,7 +2202,7 @@
     .line 24
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2484
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_close:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2215,7 +2215,7 @@
     .line 25
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2486
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_document_title_portrait:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2228,7 +2228,7 @@
     .line 26
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2488
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_indicator_icon:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2241,7 +2241,7 @@
     .line 27
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b248e
+    sget v3, Lcom/resouce/module/ResID;->ppt_titlebar_right_part:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2252,7 +2252,7 @@
     .line 28
     iget-object p2, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3021
+    sget v3, Lcom/resouce/module/ResID;->titlebar_carousel_view:I
 
     invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2341,7 +2341,7 @@
     :goto_2
     iget-object p1, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2492
+    sget p2, Lcom/resouce/module/ResID;->ppt_titlebar_view_fullscreen_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2422,7 +2422,7 @@
     .line 47
     iget-object p1, p0, Lple;->W:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b248c
+    sget p2, Lcom/resouce/module/ResID;->ppt_titlebar_online_secrurity:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2446,7 +2446,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122950
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2463,7 +2463,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122b3c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2480,7 +2480,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1227e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3525,7 +3525,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b248b
+    sget v0, Lcom/resouce/module/ResID;->ppt_titlebar_multi_btn:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4522,7 +4522,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ac5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_qing_uploading_tips:I
 
     const/4 v2, 0x0
 
@@ -4530,7 +4530,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b279d
+    sget v1, Lcom/resouce/module/ResID;->qing_upload_tips:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4539,7 +4539,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122760
+    sget v2, Lcom/resouce/module/ResSTRING;->public_qing_upload_notify_cannot_upload:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

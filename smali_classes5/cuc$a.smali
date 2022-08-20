@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b28ca
+    sget v0, Lcom/resouce/module/ResID;->resume_helper:I
 
     if-ne p1, v0, :cond_1
 
@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b28ce
+    sget v0, Lcom/resouce/module/ResID;->resume_id_photo_oversea:I
 
     if-ne p1, v0, :cond_2
 
@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b28e2
+    sget v0, Lcom/resouce/module/ResID;->resume_train:I
 
     if-ne p1, v0, :cond_3
 
@@ -137,7 +137,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b28c3
+    sget v0, Lcom/resouce/module/ResID;->resume_deliver:I
 
     if-ne p1, v0, :cond_4
 

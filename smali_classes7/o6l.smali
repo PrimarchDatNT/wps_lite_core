@@ -456,7 +456,7 @@
     .line 5
     iget-object v0, p0, Lo6l;->d0:Landroid/content/Context;
 
-    const v1, 0x7f121983
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_font_size_tip:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -759,7 +759,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070db7
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_menu_justtext_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -772,7 +772,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0820ac
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_theme_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -783,7 +783,7 @@
 
     sget-object v3, Lre5;->S:Lre5;
 
-    const v4, 0x7f081a94
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_pad_titlebar_item_without_selected_selector:I
 
     const/16 v5, 0x11
 
@@ -921,7 +921,7 @@
 
     invoke-direct {v0, v1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e10a3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_fontsize_list:I
 
     const/4 v2, 0x0
 
@@ -938,7 +938,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070db8
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_menu_list_icon_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -946,7 +946,7 @@
 
     iput v0, p0, Lo6l;->i0:I
 
-    const v0, 0x7f0b3595
+    sget v0, Lcom/resouce/module/ResID;->writer_font_size_list_scroll:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -964,7 +964,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/EditScrollView;->setMaxHeight(I)V
 
-    const v0, 0x7f0b3593
+    sget v0, Lcom/resouce/module/ResID;->writer_font_size_edit:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -978,7 +978,7 @@
     .line 6
     invoke-virtual {p0}, Lo6l;->t2()V
 
-    const v0, 0x7f0b3594
+    sget v0, Lcom/resouce/module/ResID;->writer_font_size_list:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

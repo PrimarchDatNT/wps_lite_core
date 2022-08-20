@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de2
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_from_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122df9
+    sget v0, Lcom/resouce/module/ResSTRING;->recommend_other_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -185,7 +185,7 @@
     :cond_0
     iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f081d4f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->recommend_item_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -327,7 +327,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0edc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_document_sub_item:I
 
     const/4 v1, 0x0
 

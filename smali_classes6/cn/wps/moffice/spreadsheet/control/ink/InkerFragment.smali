@@ -321,7 +321,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e0f67
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ss_moji_layout:I
 
     const/4 v1, 0x0
 
@@ -332,7 +332,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/ink/InkerFragment;->Z:Landroid/view/View;
 
-    const p2, 0x7f0b2d1d
+    sget p2, Lcom/resouce/module/ResID;->ss_moji_view:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/ink/InkerFragment;->Z:Landroid/view/View;
 
-    const p2, 0x7f0b2d1b
+    sget p2, Lcom/resouce/module/ResID;->ss_moji_close:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -571,7 +571,7 @@
 
     invoke-direct {v0, v1}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122369
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_close:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -586,7 +586,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -618,7 +618,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12236d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ink_firstshow_tips:I
 
     .line 7
     invoke-static {v0, v3}, Lsjf;->k(II)V

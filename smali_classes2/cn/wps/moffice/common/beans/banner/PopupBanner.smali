@@ -134,11 +134,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0dd3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_popup_banner:I
 
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b1619
+    sget p1, Lcom/resouce/module/ResID;->link_text:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/banner/PopupBanner;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2ee9
+    sget p1, Lcom/resouce/module/ResID;->text:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/banner/PopupBanner;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b043f
+    sget p1, Lcom/resouce/module/ResID;->close:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1245,7 +1245,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f070b85
+    sget v7, Lcom/resouce/module/ResDIMEN;->public_miui_statusbar_height_default:I
 
     invoke-virtual {v4, v7}, Landroid/content/res/Resources;->getDimension(I)F
 

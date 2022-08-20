@@ -79,7 +79,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -87,12 +87,12 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 9
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 10
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 2
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -194,7 +194,7 @@
     invoke-interface {p3}, Ljava/lang/Runnable;->run()V
 
     :cond_1
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 5
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -253,7 +253,7 @@
     invoke-interface {p3}, Ljava/lang/Runnable;->run()V
 
     :cond_1
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 5
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -379,7 +379,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -408,7 +408,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f060207
+    sget p2, Lcom/resouce/module/ResCOLOR;->home_pay_orange:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -416,12 +416,12 @@
 
     invoke-virtual {v0, p3, p0, p1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 12
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 13
     invoke-virtual {v0, p0, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -503,7 +503,7 @@
 
     move-result-object p4
 
-    const p5, 0x7f06025f
+    sget p5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p4, p5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -522,12 +522,12 @@
 
     invoke-virtual {v0, p2, p0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 10
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 11
     invoke-virtual {v0, p0, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

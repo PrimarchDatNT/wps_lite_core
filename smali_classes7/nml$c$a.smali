@@ -199,7 +199,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     const/4 v1, 0x0
 

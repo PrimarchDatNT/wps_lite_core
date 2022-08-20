@@ -375,7 +375,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b1297
+    sget v3, Lcom/resouce/module/ResID;->image_save_uploading:I
 
     invoke-virtual {v2, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 

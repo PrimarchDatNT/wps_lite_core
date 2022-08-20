@@ -159,12 +159,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0533
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_evernote_new_notebook:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0703
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_evernote_new_notebook:I
 
     .line 3
     :goto_0
@@ -208,7 +208,7 @@
 
     iput-object v0, p0, Lla8$j;->d:Lhd3;
 
-    const v1, 0x7f122068
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_new_notebook:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19ff
+    sget v1, Lcom/resouce/module/ResID;->new_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1a62
+    sget v2, Lcom/resouce/module/ResID;->notebook_type:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -278,7 +278,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b32db
+    sget v3, Lcom/resouce/module/ResID;->type_my_notebook:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -291,7 +291,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b32d7
+    sget v4, Lcom/resouce/module/ResID;->type_business_notebook:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -320,7 +320,7 @@
     .line 16
     iget-object v1, p0, Lla8$j;->d:Lhd3;
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v5, Lla8$j$e;
 
@@ -330,7 +330,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v5, Lla8$j$d;
 
@@ -372,7 +372,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a01
+    sget v1, Lcom/resouce/module/ResID;->new_name_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a01
+    sget v1, Lcom/resouce/module/ResID;->new_name_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

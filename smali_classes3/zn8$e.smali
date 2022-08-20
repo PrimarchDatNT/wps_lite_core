@@ -87,7 +87,7 @@
     .line 1
     iget-object p3, p0, Lzn8$e;->a:Landroid/view/View;
 
-    const v0, 0x7f0b040b
+    sget v0, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -222,7 +222,7 @@
     .line 1
     iput-object p1, p0, Lzn8$e;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1b82
+    sget v0, Lcom/resouce/module/ResID;->order_type_tile:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     iput-object v0, p0, Lzn8$e;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1b80
+    sget v0, Lcom/resouce/module/ResID;->order_type_listview:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     iput-object v0, p0, Lzn8$e;->d:Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView;
 
-    const v0, 0x7f0b1b81
+    sget v0, Lcom/resouce/module/ResID;->order_type_loading:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

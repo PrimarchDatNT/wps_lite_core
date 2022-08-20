@@ -87,12 +87,12 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e009f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->com_facebook_tooltip_bubble:I
 
     .line 2
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b04c4
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_tooltip_bubble_view_top_pointer:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/widget/ToolTipPopup$PopupContentView;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b04c2
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_tooltip_bubble_view_bottom_pointer:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/widget/ToolTipPopup$PopupContentView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b04bb
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_body_frame:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/widget/ToolTipPopup$PopupContentView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b04bc
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_button_xout:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

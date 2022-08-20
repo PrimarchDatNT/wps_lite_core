@@ -44,7 +44,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e024b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_search_resultitem:I
 
     const/4 v1, 0x0
 
@@ -76,7 +76,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/SearchViewResultGroup$SearchViewResultItem;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b95
+    sget v0, Lcom/resouce/module/ResID;->et_search_result_key:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/SearchViewResultGroup$SearchViewResultItem;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b96
+    sget v0, Lcom/resouce/module/ResID;->et_search_result_value:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0806b4
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->et_search_result_item_selected_bg_selector:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -132,7 +132,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0806b5
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->et_search_result_item_selected_bg_selector_selected:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -152,7 +152,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0605d9
+    sget v0, Lcom/resouce/module/ResCOLOR;->rippleColor:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -243,9 +243,9 @@
 .method public setSelected(Z)V
     .locals 3
 
-    const v0, 0x7f0b0b95
+    sget v0, Lcom/resouce/module/ResID;->et_search_result_key:I
 
-    const v1, 0x7f0b0b96
+    sget v1, Lcom/resouce/module/ResID;->et_search_result_value:I
 
     if-eqz p1, :cond_0
 
@@ -254,7 +254,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0606e1
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -305,7 +305,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -326,7 +326,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

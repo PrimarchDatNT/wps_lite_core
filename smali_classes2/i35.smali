@@ -197,7 +197,7 @@
     .line 1
     iget-object p1, p0, Li35;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f121f40
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -218,7 +218,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122568
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok_count:I
 
     const/4 v4, 0x1
 
@@ -422,7 +422,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b0b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_album_select_pic_layout:I
 
     const/4 v2, 0x0
 
@@ -436,7 +436,7 @@
     .line 3
     invoke-virtual {v0, p0}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 4
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -445,7 +445,7 @@
 
     iput-object v0, p0, Li35;->I:Landroid/view/View;
 
-    const v0, 0x7f0b061c
+    sget v0, Lcom/resouce/module/ResID;->data_view:I
 
     .line 5
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     iput-object v0, p0, Li35;->S:Landroid/view/View;
 
-    const v0, 0x7f0b01ba
+    sget v0, Lcom/resouce/module/ResID;->back_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -465,7 +465,7 @@
 
     iput-object v0, p0, Li35;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b220f
+    sget v0, Lcom/resouce/module/ResID;->pic_grid_view:I
 
     .line 7
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -493,7 +493,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/GridView;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_0
-    const v0, 0x7f0b24f3
+    sget v0, Lcom/resouce/module/ResID;->preview_btn:I
 
     .line 10
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -504,7 +504,7 @@
 
     iput-object v0, p0, Li35;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0565
+    sget v0, Lcom/resouce/module/ResID;->convert_btn:I
 
     .line 11
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -515,7 +515,7 @@
 
     iput-object v0, p0, Li35;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b00e0
+    sget v0, Lcom/resouce/module/ResID;->album_select_pic_checkbox:I
 
     .line 12
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
@@ -529,7 +529,7 @@
     .line 13
     iget-object v0, p0, Li35;->B:Landroid/view/View;
 
-    const v1, 0x7f0b026d
+    sget v1, Lcom/resouce/module/ResID;->bottom_pre_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -540,7 +540,7 @@
     .line 14
     iget-object v0, p0, Li35;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0267
+    sget v1, Lcom/resouce/module/ResID;->bottom_mul_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
     .line 15
     iget-object v0, p0, Li35;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2af2
+    sget v1, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,14 +561,14 @@
 
     iput-object v0, p0, Li35;->b0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b00e2
+    sget v0, Lcom/resouce/module/ResID;->album_spinner_head:I
 
     .line 16
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1818
+    sget v1, Lcom/resouce/module/ResID;->mask_view:I
 
     .line 17
     invoke-virtual {p0, v1}, Li35;->S2(I)Landroid/view/View;
@@ -584,7 +584,7 @@
 
     iput-object v2, p0, Li35;->Y:Li35$c;
 
-    const v0, 0x7f0b2fd7
+    sget v0, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 19
     invoke-virtual {p0, v0}, Li35;->S2(I)Landroid/view/View;

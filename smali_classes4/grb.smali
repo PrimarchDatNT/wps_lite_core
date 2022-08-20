@@ -204,7 +204,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12244d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_formal_premium:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -384,7 +384,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0176
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_user_guide_pay_layout:I
 
     const/4 v2, 0x0
 
@@ -444,7 +444,7 @@
     .line 3
     iget-object v0, p0, Lgrb;->f0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f08078c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_privileges_list_drak_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -454,7 +454,7 @@
     :cond_1
     iget-object v0, p0, Lgrb;->f0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f08078d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_privileges_list_white_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -462,7 +462,7 @@
     :goto_0
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f010045
+    sget v1, Lcom/resouce/module/ResANIM;->func_guide_pay_arrow_shake:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -518,7 +518,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0195
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_premium_center_banner_layout:I
 
     const/4 v2, 0x0
 
@@ -528,7 +528,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b086e
+    sget v1, Lcom/resouce/module/ResID;->en_premium_banner_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -537,7 +537,7 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b086c
+    sget v2, Lcom/resouce/module/ResID;->en_premium_banner_icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -546,7 +546,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b086f
+    sget v4, Lcom/resouce/module/ResID;->en_premium_banner_title:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -555,7 +555,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b086b
+    sget v5, Lcom/resouce/module/ResID;->en_premium_banner_description:I
 
     .line 5
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -564,7 +564,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b086d
+    sget v6, Lcom/resouce/module/ResID;->en_premium_banner_multi_icon:I
 
     .line 6
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -573,7 +573,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v7, 0x7f0805c9
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->en_premium_head_icon:I
 
     .line 7
     invoke-virtual {v2, v7}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -585,7 +585,7 @@
 
     move-result-object v2
 
-    const v7, 0x7f1231a4
+    sget v7, Lcom/resouce/module/ResSTRING;->vas_welcome_to_try_premium:I
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -601,7 +601,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1231a3
+    sget v4, Lcom/resouce/module/ResSTRING;->vas_unlock_privileges_after_login:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -610,12 +610,12 @@
     .line 11
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f06015c
+    sget v2, Lcom/resouce/module/ResCOLOR;->en_premium_new_user_premium_bg:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v2, 0x7f0805ca
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_premium_star_icon:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -850,7 +850,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122bbb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vip_guide_start_trial:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -873,7 +873,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c9b
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -971,7 +971,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1257,7 +1257,7 @@
     .line 1
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b06ec
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_pay_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1270,7 +1270,7 @@
     .line 2
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d15
+    sget v1, Lcom/resouce/module/ResID;->pay_bottom_trial_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1283,7 +1283,7 @@
     .line 3
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0eb6
+    sget v1, Lcom/resouce/module/ResID;->func_head_img_relative_main:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1296,7 +1296,7 @@
     .line 4
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d28
+    sget v1, Lcom/resouce/module/ResID;->pay_notify_dec_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
     .line 5
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0ead
+    sget v1, Lcom/resouce/module/ResID;->func_guid_vip_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1322,7 +1322,7 @@
     .line 6
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0eb0
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pay_page_scroll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1335,7 +1335,7 @@
     .line 7
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0eab
+    sget v1, Lcom/resouce/module/ResID;->func_guid_pay_page_arrow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1348,7 +1348,7 @@
     .line 8
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0eae
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pay_page_arrow_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1361,7 +1361,7 @@
     .line 9
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a14
+    sget v1, Lcom/resouce/module/ResID;->new_user_pay_button_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1374,7 +1374,7 @@
     .line 10
     iget-object v0, p0, Lgrb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0865
+    sget v1, Lcom/resouce/module/ResID;->en_new_user_privilege_banner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1618,7 +1618,7 @@
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f12245e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_login_premium_trail:I
 
     .line 6
     invoke-virtual {v0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1665,7 +1665,7 @@
 
     invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f121885    # 1.941946E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_cancel_txt:I    # 1.941946E38f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1702,7 +1702,7 @@
     iget-object v1, p0, Lgrb;->h0:Ljava/lang/String;
 
     :goto_2
-    const v6, 0x7f121c95
+    sget v6, Lcom/resouce/module/ResSTRING;->premium_pay_expires_notify:I
 
     .line 12
     invoke-virtual {v0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1788,7 +1788,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x0
 
@@ -1862,7 +1862,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06ec
+    sget v0, Lcom/resouce/module/ResID;->dlg_opt_pay_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -1872,7 +1872,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0eab
+    sget v0, Lcom/resouce/module/ResID;->func_guid_pay_page_arrow:I
 
     if-ne p1, v0, :cond_1
 

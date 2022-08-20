@@ -81,15 +81,15 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0803d8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_printing:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f080d9e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_printing_et:I
 
     :goto_0
-    const v4, 0x7f1226b6
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-direct {v2, p0, v3, v4}, Lcn/wps/moffice/spreadsheet/control/print/Printer$6;-><init>(Lcn/wps/moffice/spreadsheet/control/print/Printer;II)V
 
@@ -316,7 +316,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/print/Printer;->B:Landroid/content/Context;
 
-    const v0, 0x7f122720
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported_read_arrange_mode:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -335,7 +335,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/print/Printer;->B:Landroid/content/Context;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -349,7 +349,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/print/Printer;->B:Landroid/content/Context;
 
-    const v0, 0x7f12271c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -439,7 +439,7 @@
 
     check-cast v0, Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

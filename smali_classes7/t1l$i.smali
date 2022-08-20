@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12343e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_user_table_showCache:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

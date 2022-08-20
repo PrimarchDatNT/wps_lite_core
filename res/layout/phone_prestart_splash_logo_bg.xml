@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_gravity="bottom" android:id="@id/splash_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/home_splash_server_style_page_margin_bottom">
-        <ImageView android:layout_gravity="center" android:id="@id/pre_splash" android:layout_width="150.0dip" android:layout_height="50.0dip" android:src="@drawable/pre_splash_bottom" android:scaleType="fitXY" />
-    </FrameLayout>
-</FrameLayout>

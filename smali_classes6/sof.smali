@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c13
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_text_popmenu_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c92
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_cellsetting_frame_line_item_heigth:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

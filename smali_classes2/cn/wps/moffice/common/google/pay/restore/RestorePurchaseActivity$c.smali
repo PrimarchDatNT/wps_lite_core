@@ -70,7 +70,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseActivity$c;->c:Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseActivity;
 
-    const v4, 0x7f122690
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pay_bind_other_tip:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseActivity$c;->c:Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseActivity;
 
-    const v4, 0x7f122807
+    sget v4, Lcom/resouce/module/ResSTRING;->public_restore_font_fail_tip:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

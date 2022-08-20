@@ -108,7 +108,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081cdb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_watermark_resize_button:I
 
     invoke-static {p2, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -121,7 +121,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081cdc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_watermark_rotate_button:I
 
     invoke-static {p2, v0}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081cda
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_watermark_edit_button:I
 
     invoke-static {p1, p2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

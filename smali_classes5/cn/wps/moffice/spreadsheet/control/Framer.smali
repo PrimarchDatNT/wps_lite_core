@@ -66,7 +66,7 @@
     .line 4
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Framer$2;
 
-    const v1, 0x7f080e13
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_frame2_et:I
 
     const/4 v2, -0x1
 
@@ -492,7 +492,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01f4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_frameset_dialog:I
 
     const/4 v3, 0x0
 
@@ -567,7 +567,7 @@
 
     iget-object v6, p0, Lcn/wps/moffice/spreadsheet/control/Framer;->U:Ljava/util/List;
 
-    const v7, 0x7f0e01f5
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_frameset_dialog_item:I
 
     filled-new-array {v1}, [Ljava/lang/String;
 
@@ -577,7 +577,7 @@
 
     new-array v9, v1, [I
 
-    const v1, 0x7f0b0a61
+    sget v1, Lcom/resouce/module/ResID;->et_frameset_dialog_item_img:I
 
     aput v1, v9, v2
 
@@ -598,7 +598,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/Framer;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a60
+    sget v1, Lcom/resouce/module/ResID;->et_frameset_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

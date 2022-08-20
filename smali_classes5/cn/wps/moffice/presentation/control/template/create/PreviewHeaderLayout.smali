@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fb9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_normal_item_layout:I
 
     const/4 v2, 0x0
 
@@ -199,7 +199,7 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v1, 0x7f0b13c5
+    sget v1, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     check-cast v1, Lcn/wps/moffice/docer/picstore/V10RoundRectImageView;
 
-    const v2, 0x7f0b244e
+    sget v2, Lcom/resouce/module/ResID;->ppt_template_docer_superscript:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
     :cond_0
     invoke-virtual {v2, v3}, Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;->setSuperscriptVisibility(I)V
 
-    const v1, 0x7f0b13d2
+    sget v1, Lcom/resouce/module/ResID;->item_name:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,13 +292,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ded
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_preview_head_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b250d
+    sget v0, Lcom/resouce/module/ResID;->preview_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/template/create/PreviewHeaderLayout;->S:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v0, 0x7f0b3109
+    sget v0, Lcom/resouce/module/ResID;->tv_all_title:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/template/create/PreviewHeaderLayout;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0f50
+    sget v0, Lcom/resouce/module/ResID;->group_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b16a5
+    sget v0, Lcom/resouce/module/ResID;->ll_more:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -343,7 +343,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2ecd
+    sget v0, Lcom/resouce/module/ResID;->template_layout:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -559,7 +559,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/presentation/control/template/create/PreviewHeaderLayout;->B:Landroid/content/Context;
 
-    const v3, 0x7f12266f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ppt_docer_all_number_template:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -661,7 +661,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a2
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a2
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -777,7 +777,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/template/create/PreviewHeaderLayout;->B:Landroid/content/Context;
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v1, 0x0
 

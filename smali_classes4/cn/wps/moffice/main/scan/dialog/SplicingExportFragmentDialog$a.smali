@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b16e7
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_longpic:I
 
     if-ne p1, v0, :cond_0
 
@@ -62,7 +62,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b16e8
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_onepage:I
 
     if-ne p1, v0, :cond_1
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b16e6
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_exportpdf:I
 
     if-ne p1, v0, :cond_2
 

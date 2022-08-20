@@ -123,7 +123,7 @@
     :cond_0
     iget-object v0, p0, Lpck;->a:Landroid/view/View;
 
-    const v1, 0x7f0b3679
+    sget v1, Lcom/resouce/module/ResID;->writer_search_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -134,7 +134,7 @@
     .line 4
     iget-object v0, p0, Lpck;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2a61
+    sget v1, Lcom/resouce/module/ResID;->search_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -147,7 +147,7 @@
     .line 5
     iget-object v0, p0, Lpck;->a:Landroid/view/View;
 
-    const v2, 0x7f0b2a86
+    sget v2, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 8
     iget-object v0, p0, Lpck;->a:Landroid/view/View;
 
-    const v2, 0x7f0b2a69
+    sget v2, Lcom/resouce/module/ResID;->search_desc:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -183,7 +183,7 @@
     .line 9
     iget-object v0, p0, Lpck;->a:Landroid/view/View;
 
-    const v2, 0x7f0b0421
+    sget v2, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -398,12 +398,12 @@
 
     if-eqz v0, :cond_1
 
-    const v3, 0x7f0809a0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_dark:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f0809a1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_light:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -413,12 +413,12 @@
 
     if-eqz v0, :cond_2
 
-    const v3, 0x7f08099c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_dark:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f08099d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_light:I
 
     :goto_2
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
@@ -453,12 +453,12 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f08097c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_dark:I
 
     goto :goto_4
 
     :cond_5
-    const v0, 0x7f08097d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_light:I
 
     :goto_4
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

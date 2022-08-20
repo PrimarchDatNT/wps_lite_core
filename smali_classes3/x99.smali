@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d9c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_model_rec_word_item:I
 
     const/4 v2, 0x0
 
@@ -197,7 +197,7 @@
 
     iput-object p1, p0, Lx99;->S:Landroid/view/View;
 
-    const v0, 0x7f0b20f9
+    sget v0, Lcom/resouce/module/ResID;->phone_public_recommend_flowlayout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     iget-object v2, p0, Lx99;->B:Landroid/app/Activity;
 
-    const v4, 0x7f0e087b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_public_flow_recommend_item:I
 
     const-string v6, "searchmore"
 

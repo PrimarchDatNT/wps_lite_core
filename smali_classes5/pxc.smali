@@ -417,7 +417,7 @@
     .line 1
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600a4
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_icon_gray:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -471,7 +471,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081227
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_exitplay:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -492,7 +492,7 @@
 
     iget-object v1, p0, Lpxc;->j0:Landroid/content/Context;
 
-    const v2, 0x7f12208a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_exit_play:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -595,7 +595,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080aae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->multi_doc_meeting:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -626,7 +626,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080252
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_switch_white:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -729,9 +729,9 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v0, 0x7f06065d
+    sget v0, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
-    const v1, 0x7f0606e6
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
     goto :goto_0
 
@@ -739,13 +739,13 @@
     :cond_0
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 3
     :goto_0
@@ -1035,7 +1035,7 @@
     .line 1
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b33cf
+    sget v1, Lcom/resouce/module/ResID;->viewstub_edit_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1049,7 +1049,7 @@
     .line 3
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b081a
+    sget v1, Lcom/resouce/module/ResID;->edit_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1060,7 +1060,7 @@
     .line 4
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1293
+    sget v1, Lcom/resouce/module/ResID;->image_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1078,7 +1078,7 @@
     .line 6
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b29e4    # 1.849802E38f
+    sget v2, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1098,7 +1098,7 @@
     .line 8
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b12a1
+    sget v2, Lcom/resouce/module/ResID;->image_upload:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1116,7 +1116,7 @@
     .line 10
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b12a0
+    sget v2, Lcom/resouce/module/ResID;->image_undo:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1129,7 +1129,7 @@
     .line 11
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b1290
+    sget v2, Lcom/resouce/module/ResID;->image_redo:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1142,7 +1142,7 @@
     .line 12
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b02d2
+    sget v2, Lcom/resouce/module/ResID;->btn_edit:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1357,7 +1357,7 @@
     .line 15
     iget-object v1, p0, Lpxc;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f122018
+    sget v2, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-static {v1, v2}, Lpxc;->Q(Landroid/widget/TextView;I)V
 
@@ -1446,7 +1446,7 @@
     :goto_4
     iget-object v1, p0, Lpxc;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f12203e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-static {v1, v2}, Lpxc;->Q(Landroid/widget/TextView;I)V
 
@@ -1821,7 +1821,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122552
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2041,7 +2041,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08186a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_close:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2328,7 +2328,7 @@
     .line 1
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1a50
+    sget v1, Lcom/resouce/module/ResID;->normal_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2344,7 +2344,7 @@
     .line 3
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b02ea
+    sget v1, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2358,7 +2358,7 @@
     .line 5
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b02ba
+    sget v1, Lcom/resouce/module/ResID;->btn_app_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2383,7 +2383,7 @@
     .line 8
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b02e8
+    sget v1, Lcom/resouce/module/ResID;->btn_multi:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2396,7 +2396,7 @@
     .line 9
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1272
+    sget v1, Lcom/resouce/module/ResID;->image_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2412,7 +2412,7 @@
     .line 11
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1f37
+    sget v1, Lcom/resouce/module/ResID;->pdf_small_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2423,7 +2423,7 @@
     .line 12
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1f36
+    sget v1, Lcom/resouce/module/ResID;->pdf_small_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2436,7 +2436,7 @@
     .line 13
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1e19
+    sget v1, Lcom/resouce/module/ResID;->pdf_image_main_ad:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2449,7 +2449,7 @@
     .line 14
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1f34
+    sget v1, Lcom/resouce/module/ResID;->pdf_small_ad_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2462,7 +2462,7 @@
     .line 15
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1f35
+    sget v1, Lcom/resouce/module/ResID;->pdf_small_ad_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2475,7 +2475,7 @@
     .line 16
     iget-object v0, p0, Lpxc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b3020
+    sget v1, Lcom/resouce/module/ResID;->titlebar_bestsign_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2493,7 +2493,7 @@
 
     iget-object v1, p0, Lpxc;->j0:Landroid/content/Context;
 
-    const v2, 0x7f120682
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_filetabs:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

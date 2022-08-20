@@ -132,7 +132,7 @@
 
     iget-object v1, p0, Lj6e;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lk6e;-><init>(Landroid/content/Context;I)V
 
@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0abb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_dialog_pad:I
 
     const/4 v2, 0x0
 
@@ -266,7 +266,7 @@
     .line 1
     iget-object v0, p0, Lj6e;->b:Landroid/view/View;
 
-    const v1, 0x7f0b23dd
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
     .line 2
     iget-object v0, p0, Lj6e;->b:Landroid/view/View;
 
-    const v1, 0x7f0b23c0
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_content_lr_spaceview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -292,7 +292,7 @@
     .line 3
     iget-object v0, p0, Lj6e;->b:Landroid/view/View;
 
-    const v1, 0x7f0b22aa
+    sget v1, Lcom/resouce/module/ResID;->ppt_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -315,7 +315,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f1226b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -326,7 +326,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_dialog_center_content_pad:I
 
     const/4 v2, 0x0
 
@@ -339,7 +339,7 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/presentation/control/common/LeftRightSpaceView;->a(Landroid/view/View;)V
 
-    const v1, 0x7f0b23cc
+    sget v1, Lcom/resouce/module/ResID;->ppt_print_left_tabbar:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     iget-object v1, p0, Ll6e;->g:Lcn/wps/moffice/presentation/control/common/LeftRightSpaceView;
 
-    const v2, 0x7f0b23df
+    sget v2, Lcom/resouce/module/ResID;->ppt_printsetting_page:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -464,7 +464,7 @@
 
     iget-object v1, p0, Ll6e;->g:Lcn/wps/moffice/presentation/control/common/LeftRightSpaceView;
 
-    const v5, 0x7f0b23de
+    sget v5, Lcom/resouce/module/ResID;->ppt_printpreview_page:I
 
     invoke-virtual {v1, v5}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 

@@ -247,7 +247,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070dea
+    sget v0, Lcom/resouce/module/ResDIMEN;->writer_render_shape_handle_point_radius:I
 
     .line 30
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -716,7 +716,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08125f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_hit_point_circle:I
 
     invoke-static {v0, v1}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;
 

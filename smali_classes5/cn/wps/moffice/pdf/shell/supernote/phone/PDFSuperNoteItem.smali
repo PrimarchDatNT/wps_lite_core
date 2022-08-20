@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07af
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_super_note_panel_item:I
 
     const/4 v2, 0x1
 
@@ -84,7 +84,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b1dd0
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_super_note_bottom_item:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/shell/supernote/phone/PDFSuperNoteItem;->T:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1dd2
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_super_note_bottom_item_normal_img:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     check-cast v0, Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v2, 0x7f0b1dd1
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_super_note_bottom_item_colorful_img:I
 
     .line 11
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     check-cast v2, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v3, 0x7f0b1dd3
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_super_note_check_icon:I
 
     .line 12
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1dd3
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_super_note_check_icon:I
 
     if-ne p1, v0, :cond_0
 

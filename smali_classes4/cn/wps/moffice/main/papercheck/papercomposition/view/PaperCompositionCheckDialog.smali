@@ -414,21 +414,21 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->i0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f12164c
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_format:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->j0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f12164f
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_size:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->l0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f121645
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_char:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
@@ -447,7 +447,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p3, 0x7f0b139c
+    sget p3, Lcom/resouce/module/ResID;->item_check_auth_line:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -458,7 +458,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p3, 0x7f0b13a5
+    sget p3, Lcom/resouce/module/ResID;->item_check_title_line:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p3, 0x7f0b1c98
+    sget p3, Lcom/resouce/module/ResID;->paper_checking_button:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
 
     iget-object p3, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionCheckDialog;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f12163f
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_verify:I
 
     invoke-virtual {p3, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -497,7 +497,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p3, 0x7f0b336b
+    sget p3, Lcom/resouce/module/ResID;->verify_sub_title:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f1200e0
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -546,7 +546,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b29b1
+    sget v1, Lcom/resouce/module/ResID;->root_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -729,7 +729,7 @@
 
     if-eqz v0, :cond_2
 
-    const v3, 0x7f0b29b1
+    sget v3, Lcom/resouce/module/ResID;->root_view:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -996,7 +996,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121633
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_tab_paper_report:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1351,7 +1351,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b29b1
+    sget v1, Lcom/resouce/module/ResID;->root_view:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -99,7 +99,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12240e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {v1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -206,7 +206,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12240e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {v1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 

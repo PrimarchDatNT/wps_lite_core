@@ -131,7 +131,7 @@
     :cond_0
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v2, 0x0
 

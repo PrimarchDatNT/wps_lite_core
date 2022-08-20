@@ -26,9 +26,9 @@
     .line 2
     new-instance v0, Lnke$a;
 
-    const v1, 0x7f0802ae
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_quick_style:I
 
-    const v2, 0x7f121bca
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_quick_style:I
 
     const/4 v3, 0x0
 
@@ -60,9 +60,9 @@
     .line 6
     new-instance v0, Lnke$a;
 
-    const v1, 0x7f0802ae
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_quick_style:I
 
-    const v2, 0x7f121bca
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_quick_style:I
 
     const/4 v3, 0x0
 

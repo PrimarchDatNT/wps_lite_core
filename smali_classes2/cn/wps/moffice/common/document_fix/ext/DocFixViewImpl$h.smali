@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203a8
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_file_upload_desc:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203a5
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_file_check_desc:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203b4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_keep_connect_net:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

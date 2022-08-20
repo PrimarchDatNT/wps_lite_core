@@ -108,7 +108,7 @@
 .method public final W2(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1f11
+    sget v0, Lcom/resouce/module/ResID;->pdf_reflow_scroll_horizontal:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object v0, p0, Lerc;->B:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b1f12
+    sget v0, Lcom/resouce/module/ResID;->pdf_reflow_scroll_vertical:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 .method public init()V
     .locals 3
 
-    const v0, 0x7f1225e3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_turning:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0707b5
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07d3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_reflow_scroll_orientation_dialog:I
 
     const/4 v2, 0x0
 
@@ -244,7 +244,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1f11
+    sget v0, Lcom/resouce/module/ResID;->pdf_reflow_scroll_horizontal:I
 
     if-ne p1, v0, :cond_0
 
@@ -256,7 +256,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1f12
+    sget v0, Lcom/resouce/module/ResID;->pdf_reflow_scroll_vertical:I
 
     if-ne p1, v0, :cond_1
 

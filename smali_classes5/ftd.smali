@@ -61,9 +61,9 @@
     .line 2
     new-instance v0, Lftd$a;
 
-    const v1, 0x7f080d87
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_text_to_pic_change_item_ppt:I
 
-    const v2, 0x7f121b94
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pad_diagram_change_count:I
 
     invoke-direct {v0, p0, v1, v2}, Lftd$a;-><init>(Lftd;II)V
 
@@ -72,9 +72,9 @@
     .line 3
     new-instance v0, Lftd$b;
 
-    const v3, 0x7f080d8a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_text_to_pic_ppt:I
 
-    const v4, 0x7f121c67
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_textbox_to_diagram:I
 
     invoke-direct {v0, p0, v3, v4}, Lftd$b;-><init>(Lftd;II)V
 
@@ -90,9 +90,9 @@
     .line 5
     new-instance v0, Lftd$d;
 
-    const v1, 0x7f080d89
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_text_to_pic_change_style_ppt:I
 
-    const v2, 0x7f121b95
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pad_diagram_change_diagram:I
 
     invoke-direct {v0, p0, v1, v2}, Lftd$d;-><init>(Lftd;II)V
 
@@ -109,7 +109,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a9e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_pad_text2diagram_popwin:I
 
     const/4 v0, 0x0
 
@@ -119,7 +119,7 @@
 
     iput-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2474
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_list_root:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 10
     iget-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2477
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_net_error:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
     .line 11
     iget-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2476
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_match_error:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
     .line 12
     iget-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2475
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_loading_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -164,7 +164,7 @@
     .line 13
     iget-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2345
+    sget p2, Lcom/resouce/module/ResID;->ppt_pad_text2diagram_reload:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
     .line 15
     iget-object p1, p0, Lftd;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b2473
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_image_list:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
     .line 8
     iget-object p1, p0, Lftd;->Z:Landroid/app/Activity;
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 
@@ -657,7 +657,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

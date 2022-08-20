@@ -163,11 +163,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d5f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_show_school_tips:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0554
+    sget v0, Lcom/resouce/module/ResID;->content_view:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
     .line 7
     invoke-virtual {v0, p0}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0551
+    sget v0, Lcom/resouce/module/ResID;->content_sure:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
     .line 9
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b063d
+    sget v0, Lcom/resouce/module/ResID;->degree_input:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setInputType(I)V
 
-    const v0, 0x7f0b2a25
+    sget v0, Lcom/resouce/module/ResID;->school_input:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -261,7 +261,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    const v0, 0x7f0b0541
+    sget v0, Lcom/resouce/module/ResID;->content_cancel:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
     .line 19
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b040b
+    sget v0, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionSchoolTipsView;->U:Landroid/view/View;
 
-    const v0, 0x7f0b01e1
+    sget v0, Lcom/resouce/module/ResID;->background_view:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
     .line 23
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2b00
+    sget v0, Lcom/resouce/module/ResID;->select_view:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -304,7 +304,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionSchoolTipsView;->W:Landroid/view/View;
 
-    const v0, 0x7f0b0270
+    sget v0, Lcom/resouce/module/ResID;->bottom_scroller:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionSchoolTipsView;->d0:Lcn/wps/moffice/main/papercheck/papercomposition/view/CustomScroller;
 
-    const v0, 0x7f0b027f
+    sget v0, Lcom/resouce/module/ResID;->bottom_title:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -345,14 +345,14 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/papercheck/papercomposition/view/CustomScroller;->setOnScrollListener(Lcn/wps/moffice/main/papercheck/papercomposition/view/CustomScroller$b;)V
 
-    const v0, 0x7f0b0268
+    sget v0, Lcom/resouce/module/ResID;->bottom_ok:I
 
     .line 30
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b0252
+    sget v1, Lcom/resouce/module/ResID;->bottom_cancel:I
 
     .line 31
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
     .line 33
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0272
+    sget v0, Lcom/resouce/module/ResID;->bottom_select:I
 
     .line 34
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -408,14 +408,14 @@
     .line 38
     invoke-virtual {v0, p1}, Landroid/view/View;->setTranslationY(F)V
 
-    const p1, 0x7f0b0855
+    sget p1, Lcom/resouce/module/ResID;->empty_cancel:I
 
     .line 39
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b085e
+    sget v0, Lcom/resouce/module/ResID;->empty_sure:I
 
     .line 40
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -626,7 +626,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -656,7 +656,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -815,7 +815,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f0b01e1
+    sget v1, Lcom/resouce/module/ResID;->background_view:I
 
     if-ne p1, v1, :cond_0
 
@@ -830,7 +830,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v1, 0x7f0b0252
+    sget v1, Lcom/resouce/module/ResID;->bottom_cancel:I
 
     if-ne p1, v1, :cond_1
 
@@ -840,7 +840,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b0268
+    sget v1, Lcom/resouce/module/ResID;->bottom_ok:I
 
     if-ne p1, v1, :cond_2
 
@@ -858,7 +858,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v1, 0x7f0b0541
+    sget v1, Lcom/resouce/module/ResID;->content_cancel:I
 
     const/4 v2, 0x0
 
@@ -889,7 +889,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const v1, 0x7f0b0551
+    sget v1, Lcom/resouce/module/ResID;->content_sure:I
 
     if-ne p1, v1, :cond_9
 
@@ -953,7 +953,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1200f3
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_school_error_noname:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1010,7 +1010,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12250e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1062,7 +1062,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1200fb
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_school_unvalid:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1073,7 +1073,7 @@
     return-void
 
     :cond_9
-    const v0, 0x7f0b063d
+    sget v0, Lcom/resouce/module/ResID;->degree_input:I
 
     if-ne p1, v0, :cond_a
 

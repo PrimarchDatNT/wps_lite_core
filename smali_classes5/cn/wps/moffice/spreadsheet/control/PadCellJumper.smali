@@ -74,9 +74,9 @@
     .line 6
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper$12;
 
-    const v1, 0x7f080e37
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_jumpto_et:I
 
-    const v2, 0x7f121dca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cell_go:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/PadCellJumper$12;-><init>(Lcn/wps/moffice/spreadsheet/control/PadCellJumper;II)V
 
@@ -462,7 +462,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120b6c
+    sget v3, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     const/4 v4, 0x2
 
@@ -554,7 +554,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f122fb2
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_celljump_can_not_find_cell:I
 
     invoke-static {v0, v1, v5}, Lsjf;->m(Landroid/app/Activity;II)V
 
@@ -785,7 +785,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0f50
+    sget v4, Lcom/resouce/module/ResLAYOUT;->ss_cell_jump_history_list_layout:I
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper;->X:Ljava/util/List;
 
@@ -855,7 +855,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2ce4
+    sget v2, Lcom/resouce/module/ResID;->ss_celljump_edittextdropdown:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -868,7 +868,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2ce3
+    sget v2, Lcom/resouce/module/ResID;->ss_celljump_button:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -905,7 +905,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122fb3
+    sget v3, Lcom/resouce/module/ResSTRING;->ss_celljump_hint_text:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060164
+    sget v3, Lcom/resouce/module/ResCOLOR;->et_celljump_hint_text_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1008,7 +1008,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0f50
+    sget v4, Lcom/resouce/module/ResLAYOUT;->ss_cell_jump_history_list_layout:I
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper;->X:Ljava/util/List;
 

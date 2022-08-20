@@ -92,7 +92,7 @@
 
     check-cast p1, Lcom/bumptech/glide/RequestBuilder;
 
-    const v0, 0x7f060627
+    sget v0, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00f1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_pdf_payment_layout:I
 
     const/4 v2, 0x0
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0eb3
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pdf_pay_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     invoke-static {p2, v1}, Lpq2$a;->b(Lpq2$a;Lcn/wpsx/support/ui/KColorfulImageView;)Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f0b0eb4
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pdf_pay_tv:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     invoke-static {p2, v1}, Lpq2$a;->d(Lpq2$a;Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;)Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v1, 0x7f0b0eb2
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pdf_pay_btn:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     invoke-static {p2, v1}, Lpq2$a;->f(Lpq2$a;Lcn/wpsx/support/ui/KColorfulImageView;)Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f0b0eb1
+    sget v1, Lcom/resouce/module/ResID;->func_guide_pdf_pay_arrow:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0819c7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -308,7 +308,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080754
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_payment_btn_pressd:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -320,7 +320,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080755
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_payment_btn_state:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

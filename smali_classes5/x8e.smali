@@ -823,7 +823,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12209c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_mp4_success:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -837,7 +837,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122095
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_mp4_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -846,12 +846,12 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080398
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_video_success:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f080397
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_video_failure:I
 
     .line 4
     :goto_1
@@ -868,7 +868,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e025c
+    sget v3, Lcom/resouce/module/ResLAYOUT;->export_task_complete_dialog:I
 
     const/4 v4, 0x0
 
@@ -883,7 +883,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070ba7
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_pad_task_complete_dialog_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -896,7 +896,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070ba6
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_pad_task_complete_dialog_height:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -909,7 +909,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0707b8
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -952,7 +952,7 @@
     .line 16
     invoke-virtual {v1, v2, v2, v2, v2}, Lhd3;->setDialogPadding(IIII)V
 
-    const v2, 0x7f0b255c
+    sget v2, Lcom/resouce/module/ResID;->prompt:I
 
     .line 17
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -964,7 +964,7 @@
     .line 18
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b1227
+    sget v0, Lcom/resouce/module/ResID;->icon:I
 
     .line 19
     invoke-virtual {v1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1024,7 +1024,7 @@
 
     iput-object v0, p0, Lx8e;->X:Lkd3;
 
-    const v1, 0x7f12209b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_mp4_progress_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -1041,7 +1041,7 @@
 
     invoke-direct {v1, p0}, Lx8e$l;-><init>(Lx8e;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1055,13 +1055,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v3, 0x7f12177e
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_remind_after_finish:I
 
     .line 7
     invoke-virtual {v0, v3, v1, p0}, Lhd3;->setNeutralButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1232,14 +1232,14 @@
 
     iput-object v0, p0, Lx8e;->Y:Lhd3;
 
-    const v2, 0x7f122096
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_mp4_interrupt_message:I
 
     .line 3
     invoke-virtual {v0, v2}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v2, 0x7f122092
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_mp4_continue:I
 
     new-instance v3, Lx8e$p;
 
@@ -1250,7 +1250,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122093
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_mp4_exit:I
 
     new-instance v3, Lx8e$o;
 

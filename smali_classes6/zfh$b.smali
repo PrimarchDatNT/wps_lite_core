@@ -458,7 +458,7 @@
     .line 3
     iget-object p1, p0, Lzfh$b;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f120572
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cannot_delete_file:I
 
     const/4 v1, 0x0
 
@@ -485,7 +485,7 @@
     .line 5
     iget-object p1, p0, Lzfh$b;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f1205b6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

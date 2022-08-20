@@ -176,7 +176,7 @@
     .line 1
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f5b
+    sget v1, Lcom/resouce/module/ResID;->group_member_name_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,12 +191,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122971
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_folder_name:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122242
+    sget v1, Lcom/resouce/module/ResSTRING;->public_group_folder_name:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -336,7 +336,7 @@
     .line 4
     iget-object v3, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v4, 0x7f120eac
+    sget v4, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_path:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

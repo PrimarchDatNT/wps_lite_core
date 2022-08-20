@@ -223,7 +223,7 @@
     :cond_0
     iget-object v0, p0, Lml8;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f120d7c
+    sget v1, Lcom/resouce/module/ResSTRING;->foreign_my_credits:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -284,7 +284,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -296,7 +296,7 @@
     :pswitch_0
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122079
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1019:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
     :pswitch_1
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122078
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1018:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -320,7 +320,7 @@
     :pswitch_2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122077
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1017:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -332,7 +332,7 @@
     :pswitch_3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122075
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1015:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
     :pswitch_4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122074
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1014:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -356,7 +356,7 @@
     :pswitch_5
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122073
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1013:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
     :pswitch_6
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122072
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1008:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
     :pswitch_7
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122071
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_code_1007:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -392,7 +392,7 @@
     :pswitch_8
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12254f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_logged_in:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -404,7 +404,7 @@
     :pswitch_9
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12207c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_expired:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -416,7 +416,7 @@
     :pswitch_a
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12207e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_havebound:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
     :cond_0
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122ad4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_thai_welfare_code_failed:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -441,7 +441,7 @@
     :pswitch_b
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12207f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_invalid:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -531,7 +531,7 @@
     :cond_1
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -561,7 +561,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e027c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_mywallet_layout_account:I
 
     const/4 v2, 0x0
 
@@ -571,7 +571,7 @@
 
     iput-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0e74
+    sget v1, Lcom/resouce/module/ResID;->foreign_mywallet_charge:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -583,7 +583,7 @@
     .line 4
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1649
+    sget v1, Lcom/resouce/module/ResID;->ll_coin_charge:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 6
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b10b3
+    sget v1, Lcom/resouce/module/ResID;->home_my_userinfo_credits:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
     .line 7
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b26e2
+    sget v1, Lcom/resouce/module/ResID;->public_redeem_code_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -637,7 +637,7 @@
     .line 8
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b26e1
+    sget v1, Lcom/resouce/module/ResID;->public_redeem_code:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -657,7 +657,7 @@
     .line 10
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b26e3
+    sget v1, Lcom/resouce/module/ResID;->public_redeem_error_msg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -670,7 +670,7 @@
     .line 11
     iget-object v0, p0, Lml8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b10c4
+    sget v1, Lcom/resouce/module/ResID;->home_my_wallet_redeem:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -816,7 +816,7 @@
     .line 5
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12207a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_enterkey:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -839,7 +839,7 @@
     .line 7
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x0
 
@@ -1001,7 +1001,7 @@
 
     move-result v0
 
-    const v3, 0x7f122084
+    sget v3, Lcom/resouce/module/ResSTRING;->public_exchange_share_content:I
 
     if-eqz v0, :cond_4
 
@@ -1023,7 +1023,7 @@
     .line 11
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f121595
+    sget v2, Lcom/resouce/module/ResSTRING;->oversea_wps_url:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1110,7 +1110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e05
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_redeem_success_dialog:I
 
     const/4 v2, 0x0
 
@@ -1118,7 +1118,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2594
+    sget v1, Lcom/resouce/module/ResID;->public_close:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1138,7 +1138,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2570
+    sget v2, Lcom/resouce/module/ResID;->public_btn:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1149,12 +1149,12 @@
 
     if-eqz v1, :cond_0
 
-    const v3, 0x7f122950
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     :goto_0
@@ -1167,7 +1167,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b26e5
+    sget v1, Lcom/resouce/module/ResID;->public_redeem_success_day:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1217,7 +1217,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0e74
+    sget v1, Lcom/resouce/module/ResID;->foreign_mywallet_charge:I
 
     if-ne v0, v1, :cond_1
 
@@ -1258,7 +1258,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10c4
+    sget v0, Lcom/resouce/module/ResID;->home_my_wallet_redeem:I
 
     if-ne p1, v0, :cond_2
 

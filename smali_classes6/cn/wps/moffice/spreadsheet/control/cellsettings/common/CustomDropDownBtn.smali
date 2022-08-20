@@ -45,7 +45,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e01d9
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_customdropdown_layout:I
 
     const/4 v0, 0x0
 
@@ -112,7 +112,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;->U:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b09c9
+    sget v1, Lcom/resouce/module/ResID;->et_custom_dd_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -125,7 +125,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;->U:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b09c8
+    sget v1, Lcom/resouce/module/ResID;->et_custom_dd_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;->I:Landroid/widget/Button;
 
-    const v1, 0x7f0813f1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_dropdown_btn_default_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -301,7 +301,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;->I:Landroid/widget/Button;
 
-    const v1, 0x7f0813f2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_dropdown_btn_focused_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -395,7 +395,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b09c8
+    sget v0, Lcom/resouce/module/ResID;->et_custom_dd_btn:I
 
     if-ne p1, v0, :cond_1
 

@@ -113,7 +113,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121444
+    sget v4, Lcom/resouce/module/ResSTRING;->multi_port_upload_process_speed:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

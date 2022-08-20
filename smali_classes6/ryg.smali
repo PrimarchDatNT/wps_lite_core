@@ -361,7 +361,7 @@
     .line 39
     iput-object p1, p0, Lryg;->i0:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const p1, 0x7f0b2187
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_title_bar:I
 
     .line 40
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -2289,7 +2289,7 @@
     .line 3
     iget-object v0, p0, Lryg;->i0:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f121534
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2338,7 +2338,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 7
     invoke-static {v0, v1}, Lsjf;->k(II)V
@@ -2997,7 +2997,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010072
+    sget v1, Lcom/resouce/module/ResANIM;->phone_top_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3012,7 +3012,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f010073
+    sget v2, Lcom/resouce/module/ResANIM;->phone_top_push_out:I
 
     invoke-static {v0, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -3530,7 +3530,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 8
     invoke-static {v0, v1}, Lsjf;->k(II)V
@@ -3882,7 +3882,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060215
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_dark_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -3896,7 +3896,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060214
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -3917,7 +3917,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060003
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETNavBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 

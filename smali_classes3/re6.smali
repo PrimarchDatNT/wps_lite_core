@@ -90,7 +90,7 @@
 
     iget-object p4, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0e0fa0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->template_backgound:I
 
     invoke-virtual {p3, v0, p4, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -101,7 +101,7 @@
 
     iget-object p4, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0e0fbf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->template_title_layout:I
 
     invoke-virtual {p3, v0, p4, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -112,7 +112,7 @@
 
     iget-object p4, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0e1051
+    sget v0, Lcom/resouce/module/ResLAYOUT;->week_choice_section:I
 
     invoke-virtual {p3, v0, p4, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -123,7 +123,7 @@
 
     iget-object p3, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const p4, 0x7f0e0fbb
+    sget p4, Lcom/resouce/module/ResLAYOUT;->template_section_bottom_layout:I
 
     invoke-virtual {p1, p4, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -248,7 +248,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -259,7 +259,7 @@
     .line 2
     iget-object v0, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2713
+    sget v1, Lcom/resouce/module/ResID;->public_separator_title_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
     .line 3
     iget-object v0, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2ad8
+    sget v1, Lcom/resouce/module/ResID;->section_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
     .line 5
     iget-object v0, p0, Lre6;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2ad6
+    sget v1, Lcom/resouce/module/ResID;->section_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2ad7
+    sget v1, Lcom/resouce/module/ResID;->section_more_text:I
 
     if-eqz v0, :cond_1
 
@@ -368,7 +368,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12308f
+    sget v3, Lcom/resouce/module/ResSTRING;->template_more:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -581,7 +581,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2ad7
+    sget v0, Lcom/resouce/module/ResID;->section_more_text:I
 
     if-ne p1, v0, :cond_1
 

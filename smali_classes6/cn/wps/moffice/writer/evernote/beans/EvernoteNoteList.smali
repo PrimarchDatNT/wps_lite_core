@@ -461,7 +461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0702b8
+    sget v2, Lcom/resouce/module/ResDIMEN;->evernote_list_item_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -529,7 +529,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2b28
+    sget v2, Lcom/resouce/module/ResID;->serach_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -542,7 +542,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v3, 0x7f0b1a3b
+    sget v3, Lcom/resouce/module/ResID;->no_note_result_text:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -755,12 +755,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e1091
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_evernote_file_list_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e1090
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_evernote_file_list_pad:I
 
     :goto_0
     const/4 v2, 0x0
@@ -771,7 +771,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b0773
+    sget v1, Lcom/resouce/module/ResID;->documents_evernote_file_head_anchor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -787,12 +787,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e1093
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_evernote_filelist_header_phone:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0e1092
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_evernote_filelist_header_pad:I
 
     .line 4
     :goto_1
@@ -816,7 +816,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -827,7 +827,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2a58
+    sget v1, Lcom/resouce/module/ResID;->search_bar_title_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -861,7 +861,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -872,7 +872,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b02e4
+    sget v1, Lcom/resouce/module/ResID;->btn_logout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -885,7 +885,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b02fc
+    sget v1, Lcom/resouce/module/ResID;->btn_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -900,7 +900,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->d0:Landroid/content/Context;
 
-    const v2, 0x7f1205e7
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -913,7 +913,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->d0:Landroid/content/Context;
 
-    const v2, 0x7f1205ba
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_search:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -924,7 +924,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2b27
+    sget v1, Lcom/resouce/module/ResID;->serach_bar_float:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -947,7 +947,7 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1632
+    sget v1, Lcom/resouce/module/ResID;->listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -960,7 +960,7 @@
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1239,7 +1239,7 @@
     .line 6
     iget-object p3, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b1a3b
+    sget v0, Lcom/resouce/module/ResID;->no_note_result_text:I
 
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1703,7 +1703,7 @@
     .line 10
     iget-object p4, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2b28
+    sget v0, Lcom/resouce/module/ResID;->serach_layout:I
 
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1712,7 +1712,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1729
+    sget v1, Lcom/resouce/module/ResID;->loading_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1721,7 +1721,7 @@
     .line 12
     iget-object v1, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b1a3b
+    sget v2, Lcom/resouce/module/ResID;->no_note_result_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1775,7 +1775,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->d0:Landroid/content/Context;
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1784,7 +1784,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->d0:Landroid/content/Context;
 
-    const v3, 0x7f1205a6
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1885,7 +1885,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/evernote/beans/EvernoteNoteList;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1908,7 +1908,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f12206e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1920,7 +1920,7 @@
 
     if-ne v1, v2, :cond_1
 
-    const v1, 0x7f12206f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_title_zh:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1943,7 +1943,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1636
+    sget v1, Lcom/resouce/module/ResID;->listview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

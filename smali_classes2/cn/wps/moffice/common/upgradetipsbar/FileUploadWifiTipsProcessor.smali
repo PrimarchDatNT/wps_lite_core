@@ -157,7 +157,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/upgradetipsbar/FileUploadWifiTipsProcessor;->c:Landroid/app/Activity;
 
-    const v1, 0x7f123264
+    sget v1, Lcom/resouce/module/ResSTRING;->wpscloud_using_celluler_data_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/upgradetipsbar/FileUploadWifiTipsProcessor;->c:Landroid/app/Activity;
 
-    const v1, 0x7f123263
+    sget v1, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -122,12 +122,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f070b67
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070b68
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size_pad:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -207,7 +207,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070b51
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_insert_geoshape_icon_size:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070b3e
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_geoShape_line_width:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

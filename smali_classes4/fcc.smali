@@ -142,7 +142,7 @@
 .method public V0(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1d9a
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object v0, p0, Lfcc;->h0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoColorsGridView;
 
-    const v0, 0x7f0b1db4
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object v0, p0, Lfcc;->i0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar;
 
-    const v0, 0x7f0b1d91
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_alpha_seekbar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar;->setDataChangedListener(Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar$b;)V
 
-    const v0, 0x7f0b1db3
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_square:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     iput-object v0, p0, Lfcc;->k0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoShapeView;
 
-    const v0, 0x7f0b1db1
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_circle:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     iput-object v0, p0, Lfcc;->l0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoShapeView;
 
-    const v0, 0x7f0b1db0
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_arrow:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     iput-object v0, p0, Lfcc;->m0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoShapeView;
 
-    const v0, 0x7f0b1db2
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape_line:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,12 +309,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e07ad
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_shape:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e07ae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_shape_landscape:I
 
     return v0
 .end method

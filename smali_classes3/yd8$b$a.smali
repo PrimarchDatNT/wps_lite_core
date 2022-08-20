@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bab
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_hor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bac
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_ver:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -89,7 +89,7 @@
 
     iget-object v1, v1, Lyd8$b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b301a
+    sget v2, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122386
+    sget v0, Lcom/resouce/module/ResSTRING;->public_insert_comment:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

@@ -344,7 +344,7 @@
     .line 1
     iget-object p2, p0, Llwl;->B:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e110d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->writer_thumbnail_gird_item:I
 
     const/4 v0, 0x0
 
@@ -584,7 +584,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d8a
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_extract_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

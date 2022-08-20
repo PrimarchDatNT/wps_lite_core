@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.plugin.common.view.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/tip_content_des" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:includeFontPadding="false" />
-    <cn.wps.moffice.plugin.common.view.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tip_content_des" />
-</RelativeLayout>

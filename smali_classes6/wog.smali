@@ -61,15 +61,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f080e8a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_long_pic_et:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080490
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
     :goto_0
-    const v3, 0x7f1228e7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_long_pic:I
 
     new-instance v4, Lwog$a;
 
@@ -90,9 +90,9 @@
     .line 5
     new-instance v1, Lbff$c;
 
-    const v2, 0x7f0802ca
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
-    const v3, 0x7f1228e6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_as_card:I
 
     new-instance v4, Lwog$b;
 

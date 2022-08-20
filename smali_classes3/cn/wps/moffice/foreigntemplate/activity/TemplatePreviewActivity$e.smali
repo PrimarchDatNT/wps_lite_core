@@ -52,7 +52,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity$e;->B:Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
 

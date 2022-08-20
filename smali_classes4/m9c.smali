@@ -777,7 +777,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f082042
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->writer_balloon_btn_comment:I
 
     invoke-static {v3, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -1759,7 +1759,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f121fec
+    sget v5, Lcom/resouce/module/ResSTRING;->public_doc_end_preview_tip:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

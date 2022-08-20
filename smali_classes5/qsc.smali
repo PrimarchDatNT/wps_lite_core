@@ -90,11 +90,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0666
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_print_tabs:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1efd
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_tabs_content:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
     .line 5
     iget-object v1, p0, Lnsc;->V:Landroid/view/View;
 
-    const v2, 0x7f0b1efa
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_setting_textview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 6
     iget-object v1, p0, Lnsc;->V:Landroid/view/View;
 
-    const v2, 0x7f0b1ef4
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_preview_textview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -154,7 +154,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060006
+    sget v1, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -177,7 +177,7 @@
 
     iput v0, p0, Lqsc;->g0:I
 
-    const v0, 0x7f0b1ed7
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_content_anchor:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1efa
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_setting_textview:I
 
     if-ne p1, v0, :cond_0
 
@@ -397,7 +397,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1ef4
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_preview_textview:I
 
     if-ne p1, v0, :cond_1
 

@@ -48,7 +48,7 @@
     .line 2
     iput-object p5, p0, Lus3;->V:Lus3$a;
 
-    const p1, 0x7f0b341c
+    sget p1, Lcom/resouce/module/ResID;->web_article_publish_wechat:I
 
     .line 3
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b3417
+    sget p1, Lcom/resouce/module/ResID;->web_article_publish_qq:I
 
     .line 4
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b3413
+    sget p1, Lcom/resouce/module/ResID;->web_article_publish_copylink:I
 
     .line 5
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b3418
+    sget p1, Lcom/resouce/module/ResID;->web_article_publish_qrcode:I
 
     .line 6
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b341c
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_wechat:I
 
     if-ne p1, v0, :cond_0
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b3417
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_qq:I
 
     if-ne p1, v0, :cond_1
 
@@ -129,7 +129,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b3413
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_copylink:I
 
     if-ne p1, v0, :cond_2
 
@@ -145,7 +145,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b3418
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_qrcode:I
 
     if-ne p1, v0, :cond_3
 

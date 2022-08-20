@@ -65,12 +65,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0228
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_pivottable_fieldname_list:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e06c3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_et_pivottable_fieldname_list:I
 
     .line 4
     :goto_0
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0af2
+    sget v0, Lcom/resouce/module/ResID;->et_pivot_table_clear:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableOperationView;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0af3
+    sget v1, Lcom/resouce/module/ResID;->et_pivot_table_field_checked:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableOperationView;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0af4
+    sget v1, Lcom/resouce/module/ResID;->et_pivot_table_field_name:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f120bcd
+    sget v1, Lcom/resouce/module/ResSTRING;->et_pivot_table_clear_field:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -127,7 +127,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0af6
+    sget v0, Lcom/resouce/module/ResID;->et_pivot_table_viewpart:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

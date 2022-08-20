@@ -287,7 +287,7 @@
 
     new-instance p2, Lb53;
 
-    const v0, 0x7f1201f6
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_no_cloud_space:I
 
     new-array v1, v7, [Ljava/lang/Object;
 
@@ -427,7 +427,7 @@
 
     new-instance v0, Lb53;
 
-    const v1, 0x7f1201f6
+    sget v1, Lcom/resouce/module/ResSTRING;->batch_rename_file_no_cloud_space:I
 
     new-array v2, v6, [Ljava/lang/Object;
 
@@ -581,7 +581,7 @@
 
     new-instance v0, Lb53;
 
-    const v1, 0x7f1201fd
+    sget v1, Lcom/resouce/module/ResSTRING;->batch_rename_file_selected_file_without_rename_permission_toast:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -608,7 +608,7 @@
 
     new-instance v1, Lb53;
 
-    const v4, 0x7f120201
+    sget v4, Lcom/resouce/module/ResSTRING;->batch_rename_file_without_rename_permission_toast:I
 
     const/4 v5, 0x1
 
@@ -706,7 +706,7 @@
 
     new-instance v1, Lb53;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v3, 0x0
 
@@ -973,7 +973,7 @@
 
     new-instance p2, Lb53;
 
-    const v2, 0x7f1201ee
+    sget v2, Lcom/resouce/module/ResSTRING;->batch_rename_file_export_fail_toast:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1151,7 +1151,7 @@
 
     new-instance v2, Lb53;
 
-    const v3, 0x7f120647
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1200,7 +1200,7 @@
 
     new-instance v2, Lb53;
 
-    const v3, 0x7f1201eb
+    sget v3, Lcom/resouce/module/ResSTRING;->batch_rename_file_empty_list_toast:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1299,7 +1299,7 @@
 
     new-instance v3, Lb53;
 
-    const v4, 0x7f120201
+    sget v4, Lcom/resouce/module/ResSTRING;->batch_rename_file_without_rename_permission_toast:I
 
     const/4 v5, 0x1
 
@@ -1393,7 +1393,7 @@
 
     new-instance v0, Lb53;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1442,7 +1442,7 @@
 
     new-instance v0, Lb53;
 
-    const v2, 0x7f1201eb
+    sget v2, Lcom/resouce/module/ResSTRING;->batch_rename_file_empty_list_toast:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1925,7 +1925,7 @@
 
     new-instance v4, Lb53;
 
-    const v5, 0x7f1201f7
+    sget v5, Lcom/resouce/module/ResSTRING;->batch_rename_file_over_upload_limit:I
 
     const/4 v6, 0x3
 

@@ -67,7 +67,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f12234a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_iat_record_fail:I
 
     .line 6
     invoke-static {v0, p1}, Lmxk;->g(Lmxk;I)V

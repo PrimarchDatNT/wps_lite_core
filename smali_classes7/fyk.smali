@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09c7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_comments_audioinput:I
 
     const/4 v2, 0x0
 
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Lfyk;->l:Landroid/view/View;
 
-    const v1, 0x7f0b284c
+    sget v1, Lcom/resouce/module/ResID;->recordtitle:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
     .line 5
     iget-object v0, p0, Lfyk;->l:Landroid/view/View;
 
-    const v1, 0x7f0b2849
+    sget v1, Lcom/resouce/module/ResID;->record_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -91,7 +91,7 @@
     .line 6
     iget-object v0, p0, Lfyk;->l:Landroid/view/View;
 
-    const v1, 0x7f0b284b
+    sget v1, Lcom/resouce/module/ResID;->recordtime:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -104,7 +104,7 @@
     .line 7
     iget-object v0, p0, Lfyk;->l:Landroid/view/View;
 
-    const v1, 0x7f0b283f
+    sget v1, Lcom/resouce/module/ResID;->record_hint_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f1302f3
+    sget v0, Lcom/resouce/module/ResSTYLE;->ToastAnim:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -481,7 +481,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121bcc
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_record_time_short:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

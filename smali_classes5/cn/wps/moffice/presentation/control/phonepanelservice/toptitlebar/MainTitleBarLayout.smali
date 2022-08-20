@@ -49,11 +49,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0805
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ppt_main_titlebar_layout:I
 
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2094
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_small_title_layout:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->d0:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b2093
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_small_title:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->e0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b208f
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->b0:Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/PPTAppTitleBar;
 
-    const p1, 0x7f0b2483
+    sget p1, Lcom/resouce/module/ResID;->ppt_titbebar_divideline:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b20a5
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_statebar_replace_view:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b2092
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_small_ad_title:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->f0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2091
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_small_ad_icon:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;->g0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2153
+    sget p1, Lcom/resouce/module/ResID;->phone_ss_main_titlebar_small_ad_layout:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

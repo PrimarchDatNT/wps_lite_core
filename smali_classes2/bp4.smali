@@ -373,12 +373,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f121f23
+    sget v0, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     return v0
 .end method
@@ -456,7 +456,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -468,7 +468,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121f23
+    sget v1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
     .line 1
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -515,7 +515,7 @@
 .method public o()I
     .locals 1
 
-    const v0, 0x7f1211bc
+    sget v0, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     return v0
 .end method
@@ -619,7 +619,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ed5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -637,7 +637,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f121e27
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_file_size_limit_title:I
 
     if-eqz v0, :cond_2
 

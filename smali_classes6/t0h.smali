@@ -73,7 +73,7 @@
 .method public constructor <init>(Lfzg;Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f121982
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     .line 1
     invoke-direct {p0, p2, v0}, Lw0h;-><init>(Landroid/content/Context;I)V

@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Le3e$a;
 
-    const v1, 0x7f0802ec
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_symbol1:I
 
-    const v2, 0x7f1223be
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     const/4 v3, 0x0
 
@@ -37,9 +37,9 @@
     .line 3
     new-instance v0, Le3e$b;
 
-    const v1, 0x7f0802df
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_1:I
 
-    const v2, 0x7f1223bb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_number:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Le3e$b;-><init>(Le3e;IIZ)V
 

@@ -88,7 +88,7 @@
     goto/16 :goto_0
 
     :pswitch_0
-    const p1, 0x7f1202a0
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_advance_share:I
 
     .line 2
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -98,7 +98,7 @@
     goto/16 :goto_0
 
     :pswitch_1
-    const p1, 0x7f1202a3
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_file_recovery:I
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -125,7 +125,7 @@
     goto/16 :goto_0
 
     :pswitch_2
-    const p1, 0x7f1202a6
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_search_full_text:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -135,7 +135,7 @@
     goto :goto_0
 
     :pswitch_3
-    const p1, 0x7f1202a2
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_download_speed:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -145,7 +145,7 @@
     goto :goto_0
 
     :pswitch_4
-    const p1, 0x7f1202a7
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_secret_folder:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -155,7 +155,7 @@
     goto :goto_0
 
     :pswitch_5
-    const p1, 0x7f1202a4
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_history_version_recovery:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -165,7 +165,7 @@
     goto :goto_0
 
     :pswitch_6
-    const p1, 0x7f1202a8
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_share_member_count:I
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -200,7 +200,7 @@
     goto :goto_0
 
     :pswitch_7
-    const p1, 0x7f1202a9
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_single_file_upload:I
 
     new-array v1, v4, [Ljava/lang/Object;
 
@@ -227,7 +227,7 @@
     goto :goto_0
 
     :pswitch_8
-    const p1, 0x7f1202a1
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_cloud_space:I
 
     new-array v1, v3, [Ljava/lang/Object;
 
@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0090
+    sget v2, Lcom/resouce/module/ResLAYOUT;->cloud_page_privilege_card_item:I
 
     const/4 v3, 0x0
 
@@ -313,7 +313,7 @@
 
     iput-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b3118
+    sget v1, Lcom/resouce/module/ResID;->tv_card_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
     .line 6
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b3131
+    sget v1, Lcom/resouce/module/ResID;->tv_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -340,7 +340,7 @@
     .line 7
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b2e4b
+    sget v1, Lcom/resouce/module/ResID;->table_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -351,7 +351,7 @@
     .line 8
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b309c
+    sget v1, Lcom/resouce/module/ResID;->tr_second_row:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -364,7 +364,7 @@
     .line 9
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b323f
+    sget v1, Lcom/resouce/module/ResID;->tv_row_one:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -377,7 +377,7 @@
     .line 10
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b3241
+    sget v1, Lcom/resouce/module/ResID;->tv_row_two:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -390,7 +390,7 @@
     .line 11
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b3240
+    sget v1, Lcom/resouce/module/ResID;->tv_row_three:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -403,7 +403,7 @@
     .line 12
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b323e
+    sget v1, Lcom/resouce/module/ResID;->tv_row_four:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
     .line 13
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b309e
+    sget v1, Lcom/resouce/module/ResID;->tr_second_row_one:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +429,7 @@
     .line 14
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b30a0
+    sget v1, Lcom/resouce/module/ResID;->tr_second_row_two:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
     .line 15
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b309f
+    sget v1, Lcom/resouce/module/ResID;->tr_second_row_three:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
     .line 16
     iget-object v0, p0, Lead;->e:Landroid/view/View;
 
-    const v1, 0x7f0b309d
+    sget v1, Lcom/resouce/module/ResID;->tr_second_row_four:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -622,7 +622,7 @@
 
     iget-object v1, p0, Lead;->c:Landroid/app/Activity;
 
-    const v2, 0x7f122eee
+    sget v2, Lcom/resouce/module/ResSTRING;->share_folder_count:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -706,7 +706,7 @@
 
     iget-object v1, p0, Lead;->c:Landroid/app/Activity;
 
-    const v2, 0x7f121cc5
+    sget v2, Lcom/resouce/module/ResSTRING;->privilege_null:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -719,7 +719,7 @@
 
     iget-object v1, p0, Lead;->c:Landroid/app/Activity;
 
-    const v2, 0x7f121cc2
+    sget v2, Lcom/resouce/module/ResSTRING;->privilege_exclusive:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

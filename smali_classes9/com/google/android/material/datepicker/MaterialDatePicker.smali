@@ -203,7 +203,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f07044d
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_content_padding:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -217,14 +217,14 @@
 
     iget v1, v1, Lcom/google/android/material/datepicker/Month;->T:I
 
-    const v2, 0x7f070453
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_day_width:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v2
 
-    const v3, 0x7f070461
+    sget v3, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_month_horizontal_padding:I
 
     .line 5
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -270,7 +270,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040439
+    sget v0, Lcom/resouce/module/ResATTR;->nestedScrollable:I
 
     .line 1
     invoke-static {p0, v0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->H2(Landroid/content/Context;I)Z
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0403db
+    sget v1, Lcom/resouce/module/ResATTR;->materialCalendarStyle:I
 
     .line 3
     invoke-static {p0, v1, v0}, Ld0u;->c(Landroid/content/Context;ILjava/lang/String;)I
@@ -418,7 +418,7 @@
 
     aput v2, v1, v3
 
-    const v2, 0x7f080a8a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->material_ic_calendar_black_24dp:I
 
     .line 2
     invoke-static {p0, v2}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -430,7 +430,7 @@
 
     new-array v1, v3, [I
 
-    const v2, 0x7f080a8c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->material_ic_edit_black_24dp:I
 
     .line 4
     invoke-static {p0, v2}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -455,14 +455,14 @@
 
     move-result-object p0
 
-    const v0, 0x7f070464
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_navigation_height:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    const v1, 0x7f070465
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_navigation_top_padding:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -471,7 +471,7 @@
 
     add-int/2addr v0, v1
 
-    const v1, 0x7f070463
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_navigation_bottom_padding:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -480,7 +480,7 @@
 
     add-int/2addr v0, v1
 
-    const v1, 0x7f070454
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_days_of_week_height:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -490,7 +490,7 @@
     .line 6
     sget v2, Ldyt;->V:I
 
-    const v3, 0x7f07044f
+    sget v3, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_day_height:I
 
     .line 7
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -501,7 +501,7 @@
 
     add-int/lit8 v2, v2, -0x1
 
-    const v4, 0x7f070462
+    sget v4, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_month_vertical_padding:I
 
     .line 8
     invoke-virtual {p0, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -512,7 +512,7 @@
 
     add-int/2addr v3, v2
 
-    const v2, 0x7f07044c
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_bottom_padding:I
 
     .line 9
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -711,7 +711,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b192e
+    sget v1, Lcom/resouce/module/ResID;->mtrl_calendar_frame:I
 
     .line 8
     iget-object v2, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->m0:Lgyt;
@@ -744,7 +744,7 @@
     .line 2
     iget-object v1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->t0:Landroid/widget/TextView;
 
-    const v2, 0x7f121409
+    sget v2, Lcom/resouce/module/ResSTRING;->mtrl_picker_announce_current_selection:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -796,7 +796,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121422
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_toggle_to_calendar_input_mode:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -810,7 +810,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121424
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_toggle_to_text_input_mode:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -871,7 +871,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f040140
+    sget v2, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 6
     invoke-static {v0, v2, v1}, Ld0u;->c(Landroid/content/Context;ILjava/lang/String;)I
@@ -883,9 +883,9 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0403db
+    sget v4, Lcom/resouce/module/ResATTR;->materialCalendarStyle:I
 
-    const v5, 0x7f130393
+    sget v5, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.MaterialCalendar:I
 
     invoke-direct {v2, v0, v3, v4, v5}, Lcom/google/android/material/shape/MaterialShapeDrawable;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
@@ -1063,12 +1063,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0e04b4
+    sget p3, Lcom/resouce/module/ResLAYOUT;->mtrl_picker_fullscreen:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0e04b3
+    sget p3, Lcom/resouce/module/ResLAYOUT;->mtrl_picker_dialog:I
 
     .line 2
     :goto_0
@@ -1084,7 +1084,7 @@
     .line 4
     iget-boolean p3, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->r0:Z
 
-    const v0, 0x7f0b192e
+    sget v0, Lcom/resouce/module/ResID;->mtrl_calendar_frame:I
 
     if-eqz p3, :cond_1
 
@@ -1111,7 +1111,7 @@
     goto :goto_1
 
     :cond_1
-    const p3, 0x7f0b192f
+    sget p3, Lcom/resouce/module/ResID;->mtrl_calendar_main_pane:I
 
     .line 9
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1150,7 +1150,7 @@
     invoke-virtual {v0, p3}, Landroid/view/View;->setMinimumHeight(I)V
 
     :goto_1
-    const p3, 0x7f0b193a
+    sget p3, Lcom/resouce/module/ResID;->mtrl_picker_header_selection_text:I
 
     .line 15
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1166,7 +1166,7 @@
     .line 16
     invoke-static {p3, v0}, Landroidx/core/view/ViewCompat;->v0(Landroid/view/View;I)V
 
-    const p3, 0x7f0b193c
+    sget p3, Lcom/resouce/module/ResID;->mtrl_picker_header_toggle:I
 
     .line 17
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1177,7 +1177,7 @@
 
     iput-object p3, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->u0:Lcom/google/android/material/internal/CheckableImageButton;
 
-    const p3, 0x7f0b1940
+    sget p3, Lcom/resouce/module/ResID;->mtrl_picker_title_text:I
 
     .line 18
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1206,7 +1206,7 @@
     :goto_2
     invoke-virtual {p0, p2}, Lcom/google/android/material/datepicker/MaterialDatePicker;->E2(Landroid/content/Context;)V
 
-    const p2, 0x7f0b0528
+    sget p2, Lcom/resouce/module/ResID;->confirm_button:I
 
     .line 23
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1258,7 +1258,7 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b0340
+    sget p2, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 29
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1455,7 +1455,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070455
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_dialog_background_inset:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

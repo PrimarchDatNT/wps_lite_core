@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b2ce8
+    sget v0, Lcom/resouce/module/ResID;->ss_colorfilterImageView_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b022c
+    sget v3, Lcom/resouce/module/ResID;->bold_btn:I
 
     invoke-direct {v0, v2, v3, v1}, Lizg;-><init>(IILjava/lang/Object;)V
 
@@ -108,7 +108,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b1389
+    sget v3, Lcom/resouce/module/ResID;->italic_btn:I
 
     invoke-direct {v0, v2, v3, v1}, Lizg;-><init>(IILjava/lang/Object;)V
 
@@ -137,7 +137,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b32e5
+    sget v3, Lcom/resouce/module/ResID;->underline_btn:I
 
     invoke-direct {v0, v2, v3, v1}, Lizg;-><init>(IILjava/lang/Object;)V
 

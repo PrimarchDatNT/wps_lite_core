@@ -265,7 +265,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122b49
+    sget v2, Lcom/resouce/module/ResSTRING;->public_update_avatar_max_size:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -968,7 +968,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12017e
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_clip_img_failed_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1186,7 +1186,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1229e8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_shoot_image:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1385,7 +1385,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x0
 
@@ -1510,7 +1510,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f120f41
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_modify_phone_tips:I
 
     const/4 v2, 0x0
 
@@ -1568,7 +1568,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f120059
+    sget v1, Lcom/resouce/module/ResSTRING;->account_update_nickname_net_error:I
 
     const/4 v2, 0x0
 
@@ -1584,7 +1584,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02bc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_account_info_setting_pick_avatar:I
 
     const/4 v2, 0x0
 
@@ -1593,7 +1593,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b103e
+    sget v1, Lcom/resouce/module/ResID;->home_account_setting_pick_avatar_take_photo:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1607,7 +1607,7 @@
     .line 13
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b103d
+    sget v1, Lcom/resouce/module/ResID;->home_account_setting_pick_avatar_from_gallery:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1628,7 +1628,7 @@
 
     invoke-direct {v1, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f120e53
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_pick_avatar_title:I
 
     .line 17
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -1682,7 +1682,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v0, 0x7f120f38
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_bind_unable_get_phone_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1756,7 +1756,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122552
+    sget v3, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1777,7 +1777,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f122bdc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1831,11 +1831,11 @@
     .line 9
     iget-object v1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f1205e7
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
-    const v3, 0x7f12066d
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_logout_dialog_content_hasedit:I
 
-    const v4, 0x7f1205e7
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     const/4 v6, 0x0
 
@@ -1880,7 +1880,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x0
 
@@ -1929,7 +1929,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f120e19
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_address_undefine:I
 
     .line 9
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1954,17 +1954,17 @@
     :goto_0
     invoke-virtual {v0, v2}, Lbs7;->W2(Ljava/lang/String;)V
 
-    const v2, 0x7f120e1c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_birthday:I
 
     .line 12
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     invoke-virtual {v0, v2, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 14
     new-instance v3, Lwr7$i;
@@ -2068,7 +2068,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v0, 0x7f120e29
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_get_use_duration_failed:I
 
     const/4 v1, 0x0
 
@@ -2375,7 +2375,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e50
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_personal_info:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -2599,7 +2599,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2637,7 +2637,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120e19
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_address_undefine:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2662,7 +2662,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120e28
+    sget v5, Lcom/resouce/module/ResSTRING;->home_account_gender_male:I
 
     .line 11
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2693,19 +2693,19 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcs7;->V2(Z)V
 
-    const v1, 0x7f120e26
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_gender:I
 
     .line 14
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v4, 0x0
 
     .line 15
     invoke-virtual {v0, v1, v4}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 16
     new-instance v4, Lwr7$j;
@@ -2735,7 +2735,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x0
 
@@ -2867,7 +2867,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2889,7 +2889,7 @@
     .line 12
     invoke-virtual {v0, v1}, Lhd3;->setCanAutoDismiss(Z)V
 
-    const v2, 0x7f120e4a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_account_modify_nickname:I
 
     .line 13
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -2901,7 +2901,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e02bd
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_account_info_update_nickname:I
 
     const/4 v4, 0x0
 
@@ -2934,7 +2934,7 @@
     .line 19
     invoke-virtual {v0, v4, v5, v3, v1}, Lhd3;->setContentVewPadding(IIII)Lhd3;
 
-    const v3, 0x7f0b2fa0
+    sget v3, Lcom/resouce/module/ResID;->tipTextView:I
 
     .line 20
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2943,7 +2943,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1a24
+    sget v4, Lcom/resouce/module/ResID;->nickNameEditText:I
 
     .line 21
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2952,7 +2952,7 @@
 
     check-cast v2, Landroid/widget/EditText;
 
-    const v4, 0x7f120e54
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_pick_nickname_hint:I
 
     .line 22
     invoke-virtual {v2, v4}, Landroid/widget/EditText;->setHint(I)V
@@ -3009,12 +3009,12 @@
 
     invoke-direct {v1, p0, v3, v2}, Lwr7$s;-><init>(Lwr7;Landroid/widget/TextView;Landroid/widget/EditText;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 29
     invoke-virtual {v0, v3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 30
     invoke-virtual {v0, v3, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

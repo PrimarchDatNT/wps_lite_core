@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/buy_gpfont_btn" android:background="@color/bannerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/public_font_open_member_banner_height">
-        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/phone_public_font_panel_padding_left" android:text="@string/public_premium_monotype_checkallfont_tip" android:layout_weight="1.0" android:layout_marginStart="@dimen/phone_public_font_panel_padding_left" MaxLine="1" />
-        <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="12.0dip" android:textStyle="bold" android:clickable="false" android:layout_width="48.0dip" android:layout_height="20.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="@dimen/phone_public_font_panel_padding_right" android:text="@string/public_premium_monotype_checkallfont" android:layout_marginStart="12.0dip" android:layout_marginEnd="@dimen/phone_public_font_panel_padding_right" MaxLine="1" style="@style/phone_public_buttonStyle_open_member" />
-    </LinearLayout>
-    <View android:layout_gravity="top" android:id="@id/top_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</LinearLayout>

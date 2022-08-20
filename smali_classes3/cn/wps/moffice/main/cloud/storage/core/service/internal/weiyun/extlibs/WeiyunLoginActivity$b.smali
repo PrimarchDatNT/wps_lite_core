@@ -59,7 +59,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1751
+    sget v0, Lcom/resouce/module/ResID;->login_by_wechat:I
 
     if-ne p1, v0, :cond_0
 
@@ -71,7 +71,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1750
+    sget v0, Lcom/resouce/module/ResID;->login_by_qq:I
 
     if-ne p1, v0, :cond_1
 

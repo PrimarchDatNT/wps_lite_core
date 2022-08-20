@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
     :goto_1
     iget-object v0, p0, Ladl;->b:Landroid/app/Activity;
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -249,7 +249,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -324,7 +324,7 @@
     :goto_1
     iget-object v0, p0, Ladl;->b:Landroid/app/Activity;
 
-    const v2, 0x7f122b46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -495,11 +495,11 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080784
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_word_extract:I
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v4, 0x7f121060
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_word_extract:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -531,13 +531,13 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08072c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
-    const v3, 0x7f0601a4
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
-    const v5, 0x7f121061
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_word_merge:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -582,11 +582,11 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080784
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_word_extract:I
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
-    const v4, 0x7f121060
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_word_extract:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -618,13 +618,13 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08072c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_merge_file:I
 
-    const v3, 0x7f0601a4
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
-    const v5, 0x7f121061
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_word_merge:I
 
     new-array v2, v2, [Lcib$b;
 

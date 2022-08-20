@@ -55,7 +55,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$e3;->B:Lhd3;
 
-    const v1, 0x7f122588
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-interface {p1, v0, v1}, Landroid/content/DialogInterface$OnClickListener;->onClick(Landroid/content/DialogInterface;I)V
 

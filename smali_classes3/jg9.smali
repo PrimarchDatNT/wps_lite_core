@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e8e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_transfer_device_list_dialog:I
 
     const/4 v1, 0x1
 
@@ -121,7 +121,7 @@
     .line 2
     iget-object p1, p0, Ljg9;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0675
+    sget v0, Lcom/resouce/module/ResID;->device_list:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

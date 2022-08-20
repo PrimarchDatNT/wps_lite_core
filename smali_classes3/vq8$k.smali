@@ -49,7 +49,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0b3082
+    sget v1, Lcom/resouce/module/ResID;->top_tips_position:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

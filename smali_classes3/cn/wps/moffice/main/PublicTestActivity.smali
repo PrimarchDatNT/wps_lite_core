@@ -274,7 +274,7 @@
 .method public final W2()V
     .locals 2
 
-    const v0, 0x7f0b0697
+    sget v0, Lcom/resouce/module/ResID;->dialog_normal:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0694
+    sget v0, Lcom/resouce/module/ResID;->dialog_manycontent:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b06a3
+    sget v0, Lcom/resouce/module/ResID;->dialog_verticalbtn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0698
+    sget v0, Lcom/resouce/module/ResID;->dialog_notitle:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0696
+    sget v0, Lcom/resouce/module/ResID;->dialog_no_buttom:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0691
+    sget v0, Lcom/resouce/module/ResID;->dialog_hl:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -358,7 +358,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b067e
+    sget v0, Lcom/resouce/module/ResID;->dialog_alert:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -378,7 +378,7 @@
 .method public final X2()V
     .locals 2
 
-    const v0, 0x7f0b07eb
+    sget v0, Lcom/resouce/module/ResID;->edit:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 .method public final Y2()V
     .locals 2
 
-    const v0, 0x7f0b2da7    # 1.8499973E38f
+    sget v0, Lcom/resouce/module/ResID;->stat_event:I    # 1.8499973E38f
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2da8    # 1.8499975E38f
+    sget v0, Lcom/resouce/module/ResID;->stat_event_time:I    # 1.8499975E38f
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -434,7 +434,7 @@
 .method public final Z2()V
     .locals 2
 
-    const v0, 0x7f0b1353
+    sget v0, Lcom/resouce/module/ResID;->insert_evernote:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
 .method public final a3()V
     .locals 2
 
-    const v0, 0x7f0b1355
+    sget v0, Lcom/resouce/module/ResID;->insert_pic:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 .method public final b3()V
     .locals 3
 
-    const v0, 0x7f0b29ef
+    sget v0, Lcom/resouce/module/ResID;->saveas:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
 .method public final c3()V
     .locals 2
 
-    const v0, 0x7f0b3311
+    sget v0, Lcom/resouce/module/ResID;->upload:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
 
     invoke-static {v0, v1}, Lhp3;->d(Ljava/lang/String;Z)V
 
-    const v0, 0x7f0b0722
+    sget v0, Lcom/resouce/module/ResID;->doc_info:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -705,7 +705,7 @@
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setTheme(I)V
 
-    const p1, 0x7f0e0e86
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_test_activity:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

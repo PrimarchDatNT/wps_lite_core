@@ -145,7 +145,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cbf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_link_share_pics_item_sharing_layout:I
 
     const/4 v2, 0x0
 
@@ -158,7 +158,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1605
+    sget v1, Lcom/resouce/module/ResID;->link_share_cover_des_tv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     invoke-virtual {v1, v3, v4, v5}, Lcn/wps/moffice/common/linkShare/linkmodify/view/ConfigTextView;->setStyleConfig(Lyf4;II)V
 
-    const v1, 0x7f0b1617
+    sget v1, Lcom/resouce/module/ResID;->link_share_vip_logo:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f0b1609
+    sget v1, Lcom/resouce/module/ResID;->link_share_image:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     if-eqz v0, :cond_0
 
-    const p0, 0x7f081c49
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_share_vip_super_icon:I
 
     return p0
 
@@ -260,7 +260,7 @@
 
     if-eqz v0, :cond_1
 
-    const p0, 0x7f081c48
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_share_vip_docer_icon:I
 
     return p0
 
@@ -272,7 +272,7 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f081c4a
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_share_vip_wps_icon:I
 
     return p0
 
@@ -284,7 +284,7 @@
 
     if-nez p0, :cond_3
 
-    const p0, 0x7f081c02
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_share_free_icon:I
 
     return p0
 
@@ -309,7 +309,7 @@
     const/16 v1, 0x8
 
     :goto_0
-    const v2, 0x7f0b160e
+    sget v2, Lcom/resouce/module/ResID;->link_share_padding_top_view:I
 
     .line 1
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,7 +318,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b160d
+    sget v2, Lcom/resouce/module/ResID;->link_share_kingsfot_logo_layout:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b1608
+    sget v2, Lcom/resouce/module/ResID;->link_share_file_name:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b15ff
+    sget v2, Lcom/resouce/module/ResID;->link_share_bottom_line:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -345,7 +345,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b1618
+    sget v2, Lcom/resouce/module/ResID;->link_share_wx_min_layout:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b160a
+    sget v1, Lcom/resouce/module/ResID;->link_share_image_root_layout:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -384,13 +384,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cc1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_link_share_pics_simple_item:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1609
+    sget v0, Lcom/resouce/module/ResID;->link_share_image:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -426,7 +426,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/V10RoundRectImageView;->setRadius(F)V
 
-    const v0, 0x7f0b1600
+    sget v0, Lcom/resouce/module/ResID;->link_share_check_box:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverListItemView;->I:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b1605
+    sget v0, Lcom/resouce/module/ResID;->link_share_cover_des_tv:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverListItemView;->S:Lcn/wps/moffice/common/linkShare/linkmodify/view/ConfigTextView;
 
-    const v0, 0x7f0b1617
+    sget v0, Lcom/resouce/module/ResID;->link_share_vip_logo:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -459,7 +459,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverListItemView;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2b99
+    sget v0, Lcom/resouce/module/ResID;->share_root_layout:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverListItemView;->V:Landroid/view/View;
 
-    const v0, 0x7f0b1608
+    sget v0, Lcom/resouce/module/ResID;->link_share_file_name:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
     .line 8
     invoke-virtual {p1, v0}, Lf54;->c(Z)Lf54;
 
-    const v0, 0x7f08177b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_share_cover_default_icon:I
 
     .line 9
     invoke-virtual {p1, v0}, Lf54;->b(I)Lf54;
@@ -743,12 +743,12 @@
 
     if-eqz p2, :cond_1
 
-    const v0, 0x7f08188a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_conner_4dp_stroke_1dp_blue_bg:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f08188b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_conner_4dp_stroke_1px_gray_bg:I
 
     :goto_0
     invoke-virtual {p3, v0}, Landroid/view/View;->setBackgroundResource(I)V

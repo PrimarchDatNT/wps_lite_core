@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bf7
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_shareplay_popup_info_qrcode_bitmap_dimen:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -445,7 +445,7 @@
 
     iput-object v0, p0, Lquc;->h:Leyc;
 
-    const p1, 0x7f080f95
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_share_play_share_view_bg:I
 
     .line 6
     invoke-virtual {v0, p1}, Leyc;->L(I)V

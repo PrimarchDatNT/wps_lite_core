@@ -144,12 +144,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0713
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_download_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0b5c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_download:I
 
     :goto_0
     const/4 v2, 0x0
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
     .line 4
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v1, 0x7f0b28bc
+    sget v1, Lcom/resouce/module/ResID;->resultView:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
     .line 11
     iget-object v0, p0, Lqaf;->c:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lqaf$b;
 
@@ -252,7 +252,7 @@
     .line 14
     iget-object v0, p0, Lqaf;->c:Lhd3;
 
-    const v1, 0x7f12295e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_lable:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 

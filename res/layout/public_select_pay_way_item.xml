@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/public_list_selector_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
-        <ImageView android:id="@id/pay_way_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/home_membership_pay_ali" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" />
-        <TextView android:textSize="14.0dip" android:id="@id/pay_way_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:text="@string/home_membership_ali_pay" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="@style/home_open_item_txt_style" />
-    </LinearLayout>
-</LinearLayout>

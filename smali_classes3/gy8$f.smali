@@ -79,7 +79,7 @@
     .line 5
     iget-object p1, p0, Lgy8$f;->I:Landroid/widget/TextView;
 
-    const p2, 0x7f12237c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -328,7 +328,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e014d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_comp_upload_panel_history_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -348,14 +348,14 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e00b0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->comp_upload_panel_history_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
     :goto_0
-    const p3, 0x7f0b052c
+    sget p3, Lcom/resouce/module/ResID;->connecting_line_view:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     check-cast p3, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/ConnectingLineView;
 
-    const v1, 0x7f0b0846
+    sget v1, Lcom/resouce/module/ResID;->editor_edit_time_text:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0847
+    sget v2, Lcom/resouce/module/ResID;->editor_name_text:I
 
     .line 6
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2f1e
+    sget v3, Lcom/resouce/module/ResID;->text_modify:I
 
     .line 7
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b18bd
+    sget v4, Lcom/resouce/module/ResID;->mode_button:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
 
     if-eqz p1, :cond_3
 
-    const v9, 0x7f060626
+    sget v9, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     new-array v8, v8, [Landroid/view/View;
 
@@ -460,7 +460,7 @@
     goto :goto_2
 
     :cond_3
-    const v9, 0x7f0600ea
+    sget v9, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     new-array v8, v8, [Landroid/view/View;
 
@@ -484,7 +484,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f121f90
+    sget v0, Lcom/resouce/module/ResSTRING;->public_create:I
 
     .line 16
     invoke-virtual {v3, v0}, Landroid/widget/TextView;->setText(I)V

@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070d1e
+    sget p2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_outside_circle_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081604
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     invoke-static {p1, p2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

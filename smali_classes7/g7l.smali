@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0b3520
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_inkgroup:I
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
@@ -25,7 +25,7 @@
 
     invoke-direct {v0}, Lq7l;-><init>()V
 
-    const v1, 0x7f0b351f
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_ink_smart:I
 
     const-string v2, "ink-smart"
 
@@ -38,7 +38,7 @@
 
     invoke-direct {v0, v1}, Ls7l;-><init>(Ljava/lang/String;)V
 
-    const v2, 0x7f0b3518
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_highlight_red:I
 
     const-string v3, "ink-highlight-red"
 
@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lt7l;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b353f
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_pencil_red:I
 
     const-string v2, "ink-pencil_red"
 
@@ -60,7 +60,7 @@
 
     invoke-direct {v0}, Lm7l;-><init>()V
 
-    const v1, 0x7f0b3508
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_eraserBtn:I
 
     const-string v2, "ink-eraser"
 
@@ -71,7 +71,7 @@
 
     invoke-direct {v0}, Lk7l;-><init>()V
 
-    const v1, 0x7f0b34f7
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_circle_select:I
 
     const-string v2, "ink-circle-select"
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v0}, Lr7l;-><init>()V
 
-    const v1, 0x7f0b355b
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_text_input:I
 
     const-string v2, "ink-text-input"
 
@@ -93,7 +93,7 @@
 
     invoke-direct {v0}, Lp7l;-><init>()V
 
-    const v1, 0x7f0b351d
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_ink_setting:I
 
     const-string v2, "ink-setting"
 
@@ -130,7 +130,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b351e
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_ink_setting_div:I
 
     .line 4
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;

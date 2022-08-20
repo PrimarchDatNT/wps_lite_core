@@ -121,7 +121,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c4e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_table_range:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c47
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_table_head_tips:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -289,7 +289,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120c50
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table_rule:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

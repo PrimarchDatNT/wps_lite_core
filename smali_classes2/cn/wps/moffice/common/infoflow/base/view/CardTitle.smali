@@ -72,13 +72,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c6c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_title:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b3004
+    sget p1, Lcom/resouce/module/ResID;->title_more:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->S:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2fee
+    sget p1, Lcom/resouce/module/ResID;->title_color:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->B:Landroid/view/View;
 
-    const p1, 0x7f0b2fcd
+    sget p1, Lcom/resouce/module/ResID;->title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b31fd
+    sget p1, Lcom/resouce/module/ResID;->tv_num_word:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

@@ -41,7 +41,7 @@
 
     iput-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b1686
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_0:I
 
     const-string v1, "/guide/50000119?title=US%20Passport%20Photo"
 
@@ -51,7 +51,7 @@
     .line 5
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b1687
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_1:I
 
     const-string v1, "/guide/50000139?title=Schengen%20visa"
 
@@ -60,7 +60,7 @@
     .line 6
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b1688
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_2:I
 
     const-string v1, "/guide/50000105?title=India%20Visa"
 
@@ -69,7 +69,7 @@
     .line 7
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b1689
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_3:I
 
     const-string v1, "/guide/50000120?title=1.4%2a1.8%20Inches"
 
@@ -78,7 +78,7 @@
     .line 8
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b168a
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_4:I
 
     const-string v1, "/guide/50000116?title=1.0%2a1.4%20Inches"
 
@@ -87,7 +87,7 @@
     .line 9
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b168b
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_5:I
 
     const-string v1, "/guide/50000122?title=1.6%2a2.0%20Inches"
 
@@ -96,7 +96,7 @@
     .line 10
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b168c
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_6:I
 
     const-string v1, "/goods/2?title=Visas%20of%20various%20countries"
 
@@ -105,7 +105,7 @@
     .line 11
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b168d
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_7:I
 
     const-string v1, "/goods/1?title=More%20general%20lists"
 
@@ -114,7 +114,7 @@
     .line 12
     iget-object p1, p0, Ll5b;->S:Landroid/util/SparseArray;
 
-    const v0, 0x7f0b168e
+    sget v0, Lcom/resouce/module/ResID;->ll_id_photo_8:I
 
     const-string v1, "/photo/custom?title=Custom%20size"
 
@@ -151,7 +151,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0118
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_id_photo_layout:I
 
     const/4 v2, 0x0
 
@@ -163,7 +163,7 @@
 
     iput-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1686
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_0:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
     .line 3
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1687
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -186,7 +186,7 @@
     .line 4
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1688
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -197,7 +197,7 @@
     .line 5
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1689
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
     .line 6
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168a
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
     .line 7
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168b
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_5:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -230,7 +230,7 @@
     .line 8
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168c
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_6:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     .line 9
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168d
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_7:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 10
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168e
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_8:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 11
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a4
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_inches_0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
 
     iget-object v1, p0, Ll5b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120413
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_common_0_description:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -285,7 +285,7 @@
 
     iget-object v5, p0, Ll5b;->B:Landroid/app/Activity;
 
-    const v6, 0x7f12041b
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_inches:I
 
     .line 12
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -304,7 +304,7 @@
     .line 14
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a5
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_inches_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -314,7 +314,7 @@
 
     iget-object v1, p0, Ll5b;->B:Landroid/app/Activity;
 
-    const v4, 0x7f120414
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_common_1_description:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -341,7 +341,7 @@
     .line 17
     iget-object v0, p0, Ll5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a6
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_inches_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -351,7 +351,7 @@
 
     iget-object v1, p0, Ll5b;->B:Landroid/app/Activity;
 
-    const v4, 0x7f120416
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_common_2_description:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

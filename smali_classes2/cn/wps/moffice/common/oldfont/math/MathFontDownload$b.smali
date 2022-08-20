@@ -51,7 +51,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/common/oldfont/math/MathFontDownload$b;->b:Landroid/content/Context;
 
-    const p2, 0x7f12250c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_net_error_download_error:I
 
     const/4 p3, 0x1
 

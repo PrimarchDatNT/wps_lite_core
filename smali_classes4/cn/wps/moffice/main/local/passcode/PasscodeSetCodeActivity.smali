@@ -18,7 +18,7 @@
 .method public final B2()V
     .locals 1
 
-    const v0, 0x7f0b110e
+    sget v0, Lcom/resouce/module/ResID;->home_passcode_top_bar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

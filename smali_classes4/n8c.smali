@@ -262,7 +262,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e065f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_popballoon_item:I
 
     const/4 v2, 0x0
 
@@ -284,7 +284,7 @@
     .line 3
     iget-object v0, p0, Ln8c;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ec7
+    sget v1, Lcom/resouce/module/ResID;->pdf_popballoon_item_custom_author:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -306,7 +306,7 @@
     .line 5
     iget-object v0, p0, Ln8c;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ec9
+    sget v1, Lcom/resouce/module/ResID;->pdf_popballoon_item_custom_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070dd6
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_popballoon_item_btn_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -347,7 +347,7 @@
     .line 8
     iget-object v0, p0, Ln8c;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ec8
+    sget v1, Lcom/resouce/module/ResID;->pdf_popballoon_item_custom_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -358,7 +358,7 @@
     .line 9
     iget-object v0, p0, Ln8c;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eca
+    sget v1, Lcom/resouce/module/ResID;->pdf_popballoon_item_left_bracket:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -376,7 +376,7 @@
     .line 11
     iget-object v0, p0, Ln8c;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ecb
+    sget v1, Lcom/resouce/module/ResID;->pdf_popballoon_item_right_bracket:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

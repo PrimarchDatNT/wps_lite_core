@@ -37,7 +37,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0849
+    sget v0, Lcom/resouce/module/ResID;->edittext:I
 
     .line 2
     invoke-virtual {p0, v0}, Ly5h;->a(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0849
+    sget v0, Lcom/resouce/module/ResID;->edittext:I
 
     .line 2
     invoke-virtual {p0, v0}, Ly5h;->a(I)Landroid/view/View;

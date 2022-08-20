@@ -123,7 +123,7 @@
     nop
 
     :goto_0
-    const v2, 0x7f01000d
+    sget v2, Lcom/resouce/module/ResANIM;->activity_exit:I
 
     .line 13
     invoke-virtual {p0, v0, v2}, Landroid/app/Activity;->overridePendingTransition(II)V

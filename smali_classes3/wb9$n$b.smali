@@ -45,7 +45,7 @@
 
     iget-object v0, v0, Lwb9;->w1:Landroid/widget/ImageView;
 
-    const v1, 0x7f0808de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_search_speech_white_icon_selected:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -192,7 +192,7 @@
 
     const/4 p3, 0x0
 
-    const v0, 0x7f122080
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_loading:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -264,7 +264,7 @@
     .line 4
     iget-object p1, p0, Ldt4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f12207a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exchange_enterkey:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -287,7 +287,7 @@
     .line 6
     iget-object p1, p0, Ldt4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -331,7 +331,7 @@
     :cond_0
     iget-object v0, p0, Ldt4;->d:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0bdc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_exchange_view:I
 
     const/4 v2, 0x0
 
@@ -372,7 +372,7 @@
     .line 7
     iget-object v0, p0, Ldt4;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0bf4
+    sget v2, Lcom/resouce/module/ResID;->exchange_input:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
     .line 11
     iget-object p1, p0, Ldt4;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0bf5
+    sget v3, Lcom/resouce/module/ResID;->exchange_scan:I
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
     :cond_1
     iget-object p1, p0, Ldt4;->c:Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v4, Ldt4$c;
 
@@ -436,7 +436,7 @@
     .line 16
     iget-object p1, p0, Ldt4;->c:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Ldt4$d;
 
@@ -462,7 +462,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12207d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_failed:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -475,7 +475,7 @@
 
     invoke-direct {p1, p0}, Ldt4$i;-><init>(Ldt4;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

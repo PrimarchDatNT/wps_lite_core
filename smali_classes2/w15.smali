@@ -94,7 +94,7 @@
 .method public n(Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/Button;Lp15;)V
     .locals 4
 
-    const p4, 0x7f121cb3
+    sget p4, Lcom/resouce/module/ResSTRING;->private_app_drive_no_space_left:I
 
     .line 1
     invoke-virtual {p1, p4}, Landroid/widget/TextView;->setText(I)V
@@ -108,7 +108,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f1221fe
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fullspace_clear_tips:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -116,14 +116,14 @@
     .line 4
     iget-object p1, p0, Lt15;->f:Landroid/widget/Button;
 
-    const p2, 0x7f081b84
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setBackgroundResource(I)V
 
     .line 5
     iget-object p1, p0, Lt15;->f:Landroid/widget/Button;
 
-    const p2, 0x7f121e84
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_no_space_dialog_nature:I
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setText(I)V
 
@@ -142,14 +142,14 @@
     :cond_0
     iget-object p1, p0, Lt15;->f:Landroid/widget/Button;
 
-    const v0, 0x7f081ba3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_red_bg_3dp_1px_selector_light:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setBackgroundResource(I)V
 
     .line 8
     iget-object p1, p0, Lt15;->f:Landroid/widget/Button;
 
-    const v0, 0x7f1211bc
+    sget v0, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122176
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_space_full_desc:I
 
     new-array v1, p4, [Ljava/lang/Object;
 

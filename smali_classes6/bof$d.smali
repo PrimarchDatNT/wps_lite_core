@@ -76,7 +76,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p2, 0x7f081a8d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundResource(I)V
@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0603e7
+    sget p3, Lcom/resouce/module/ResCOLOR;->pad_ss_theme_color:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 

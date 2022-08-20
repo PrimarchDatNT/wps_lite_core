@@ -115,7 +115,7 @@
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b19ce
+    sget p1, Lcom/resouce/module/ResID;->navigation_bar_item_icon_view:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/navigation/NavigationBarItemView;->W:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b19cf
+    sget p1, Lcom/resouce/module/ResID;->navigation_bar_item_labels_group:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/navigation/NavigationBarItemView;->a0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b19d1
+    sget v0, Lcom/resouce/module/ResID;->navigation_bar_item_small_label_view:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/navigation/NavigationBarItemView;->b0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b19d0
+    sget v2, Lcom/resouce/module/ResID;->navigation_bar_item_large_label_view:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1941
+    sget v4, Lcom/resouce/module/ResID;->mtrl_view_tag_bottom_padding:I
 
     invoke-virtual {p1, v4, v3}, Landroid/view/ViewGroup;->setTag(ILjava/lang/Object;)V
 
@@ -717,7 +717,7 @@
     .annotation build Landroidx/annotation/DrawableRes;
     .end annotation
 
-    const v0, 0x7f080aaa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->mtrl_navigation_bar_item_background:I
 
     return v0
 .end method
@@ -738,7 +738,7 @@
     .annotation build Landroidx/annotation/DimenRes;
     .end annotation
 
-    const v0, 0x7f07049f
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_navigation_bar_item_default_margin:I
 
     return v0
 .end method
@@ -1126,7 +1126,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212f5
+    sget v1, Lcom/resouce/module/ResSTRING;->item_view_role_description:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1228,7 +1228,7 @@
 
     const/16 v3, 0x11
 
-    const v4, 0x7f0b1941
+    sget v4, Lcom/resouce/module/ResID;->mtrl_view_tag_bottom_padding:I
 
     const/16 v5, 0x31
 

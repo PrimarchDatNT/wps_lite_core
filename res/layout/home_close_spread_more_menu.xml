@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/color_white" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/close_spread_layout" android:background="@drawable/phone_public_list_white_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
-        <ImageView android:layout_gravity="start|center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/home_close_spread_button" />
-        <TextView android:id="@id/close_spread_layout_text" android:text="@string/home_close_spread_message" style="@style/phone_public_popumenu_text" />
-    </LinearLayout>
-</LinearLayout>

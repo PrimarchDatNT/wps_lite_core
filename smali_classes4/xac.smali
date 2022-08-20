@@ -43,7 +43,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1f5c
+    sget v1, Lcom/resouce/module/ResID;->pdf_top_tips_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

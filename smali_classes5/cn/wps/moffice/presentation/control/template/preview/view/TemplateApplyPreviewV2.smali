@@ -92,13 +92,13 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0ade
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_template_apply_preview_v2:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p2, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b2a42
+    sget p2, Lcom/resouce/module/ResID;->scrollview:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/preview/view/TemplateApplyPreviewV2;->T:Lcn/wps/moffice/presentation/control/template/preview/view/TemplateScrollView;
 
-    const p2, 0x7f0b301f
+    sget p2, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/preview/view/TemplateApplyPreviewV2;->B:Landroid/view/View;
 
-    const p2, 0x7f0b0150
+    sget p2, Lcom/resouce/module/ResID;->apply_template_card_btn:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/preview/view/TemplateApplyPreviewV2;->I:Landroid/widget/Button;
 
-    const p2, 0x7f0b18cc
+    sget p2, Lcom/resouce/module/ResID;->month_card_btn:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/preview/view/TemplateApplyPreviewV2;->S:Landroid/widget/Button;
 
-    const p2, 0x7f0b0201
+    sget p2, Lcom/resouce/module/ResID;->benefits_layout:I
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 .method public final e()V
     .locals 4
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121b5c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_beauty_template_match:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

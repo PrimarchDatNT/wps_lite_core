@@ -731,7 +731,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;->mainActivity:Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;
 
-    const v3, 0x7f121bd7
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_remote_tips_network_unstable:I
 
     invoke-static {v0, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -741,7 +741,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;->mainActivity:Lcn/wps/moffice/common/remotecontrol/PhoneRemoteControllerActivity;
 
-    const v1, 0x7f1229bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -860,7 +860,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2418
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_page_view_top_androidn:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -877,7 +877,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b2417
+    sget v0, Lcom/resouce/module/ResID;->ppt_remote_page_view_top:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

@@ -50,7 +50,7 @@
 
     iget-object v0, v0, Ljea;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120fd1
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_toast_no_network:I
 
     const/4 v2, 0x0
 

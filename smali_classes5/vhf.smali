@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcn/wps/moffice/main/local/NodeLink;Landroid/os/Handler;)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Luhf;-><init>(Landroid/content/Context;I)V

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="0.0dip" android:layout_height="70.0dip" android:layout_weight="1.0" style="@style/public_image_bg_style_no_borderless"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/mIvRctDwnDocer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_docer_member_42" android:layout_alignTop="@id/mLnlayout" android:layout_alignRight="@id/mLnlayout" />
-    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="vertical" android:id="@id/mLnlayout" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/public_image_bg_style">
-        <ImageView android:layout_gravity="center" android:id="@id/mIvPicInsertItem" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerInside" />
-        <TextView android:textSize="11.0sp" android:textColor="@color/subTextColor" android:layout_gravity="center" android:id="@id/mTvPicInsertItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
-    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
-</RelativeLayout>

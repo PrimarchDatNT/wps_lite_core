@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1217ef
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_extract_fail:I
 
     const/4 v0, 0x0
 

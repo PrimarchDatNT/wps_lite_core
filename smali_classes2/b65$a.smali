@@ -50,7 +50,7 @@
     .line 2
     iget-object p1, p0, Lb65$a;->I:Landroid/content/Context;
 
-    const v0, 0x7f122a2b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_failed:I
 
     const/4 v1, 0x0
 

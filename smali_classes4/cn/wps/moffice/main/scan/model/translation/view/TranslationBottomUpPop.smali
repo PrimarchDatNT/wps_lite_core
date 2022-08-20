@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -175,11 +175,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0efc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_translation_selectlanguage_bottom_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2b0b
+    sget v0, Lcom/resouce/module/ResID;->selectlanguage_bottom_panel_container:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/model/translation/view/TranslationBottomUpPop;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b05b2
+    sget v0, Lcom/resouce/module/ResID;->coverView:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

@@ -69,7 +69,7 @@
     :cond_0
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v2, 0x0
 
@@ -160,7 +160,7 @@
     :cond_0
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1203eb
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_discard_num_picture_tip:I
 
     new-array v3, v2, [Ljava/lang/Object;
 
@@ -194,7 +194,7 @@
 
     iget-object v3, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v4, 0x7f1203e9
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
 
     iget-object v4, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v5, 0x7f121dbf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

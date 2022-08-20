@@ -216,7 +216,7 @@
     .line 11
     iget-object p1, p0, Lv3e;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1203e2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_converppt_error:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -342,7 +342,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e07fa
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_extract_text_tips_layout:I
 
     const/4 v3, 0x0
 
@@ -360,7 +360,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d54
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -386,12 +386,12 @@
     :cond_1
     invoke-virtual {v0, v2}, Lu3e;->l(I)Lu3e;
 
-    const v2, 0x7f081328
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v2, 0x7f0b268b
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_icon:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,12 +400,12 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f081f00
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ppt_bottom_toolbar_assistant:I
 
     .line 11
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v2, 0x7f0b268c
+    sget v2, Lcom/resouce/module/ResID;->public_mode_switch_tips_text:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f121e16
+    sget v2, Lcom/resouce/module/ResSTRING;->public_click_slide_to_extract_text:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V

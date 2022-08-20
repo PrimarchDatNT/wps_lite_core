@@ -32,7 +32,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d94
+    sget v2, Lcom/resouce/module/ResSTRING;->gdoc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -367,7 +367,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/cser/common/login/CloudStorageOAuthWebView;->T:Lga8;
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-interface {p1, v0}, Lga8;->a(I)V
 

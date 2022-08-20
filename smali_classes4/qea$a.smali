@@ -79,7 +79,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f120f99
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     if-eqz p1, :cond_0
 

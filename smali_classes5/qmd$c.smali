@@ -49,7 +49,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122650
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_savefail:I
 
     .line 2
     invoke-static {p1, p2}, Ljld;->e(II)V
@@ -57,7 +57,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f122824
+    sget p1, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     .line 3
     invoke-static {p1, p2}, Ljld;->e(II)V
@@ -68,7 +68,7 @@
 .method public b(Ljava/lang/String;Z)V
     .locals 3
 
-    const p2, 0x7f1204a5
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_save_to_album:I
 
     const/4 v0, 0x1
 

@@ -102,7 +102,7 @@
     .line 1
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ad1
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout02:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
 
     iget-object v2, p0, Lynf;->a:Landroid/content/Context;
 
-    const v3, 0x7f0e0250
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v0, v2, v3}, Lm7h;-><init>(Landroid/content/Context;I)V
 
@@ -126,7 +126,7 @@
     .line 3
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0acf
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_spinner02:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -151,7 +151,7 @@
     .line 6
     iget-object v0, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0ac9
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_checkbox02:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

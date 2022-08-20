@@ -212,7 +212,7 @@
     .line 3
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -539,7 +539,7 @@
     goto :goto_1
 
     :catch_0
-    const p1, 0x7f120019
+    sget p1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 23
     invoke-static {p1, p2}, Lsjf;->k(II)V
@@ -547,7 +547,7 @@
     goto :goto_1
 
     :catch_1
-    const p1, 0x7f120898
+    sget p1, Lcom/resouce/module/ResSTRING;->et_filter_notdatefilter:I
 
     .line 24
     invoke-static {p1, p2}, Lsjf;->k(II)V

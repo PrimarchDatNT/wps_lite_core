@@ -62,7 +62,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e080c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_quickbar_tips_popup:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -70,7 +70,7 @@
 
     iput-object p2, p0, Ltl3;->c:Landroid/view/View;
 
-    const v0, 0x7f0b23e5
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickbar_tips_text:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
     .line 12
     iget-object p2, p0, Ltl3;->b:Landroid/widget/PopupWindow;
 
-    const v0, 0x7f1302f3
+    sget v0, Lcom/resouce/module/ResSTYLE;->ToastAnim:I
 
     invoke-virtual {p2, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

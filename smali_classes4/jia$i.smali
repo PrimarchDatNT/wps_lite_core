@@ -61,9 +61,9 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1225da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_page_adjust_new_func_guide:I
 
-    const v3, 0x7f1225d8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     const/4 v4, 0x1
 
@@ -89,9 +89,9 @@
     .line 5
     invoke-virtual {v0, v5}, Lkib;->C(I)V
 
-    const v5, 0x7f08073b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_page_adjust:I
 
-    const v6, 0x7f0601a5
+    sget v6, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
     new-array v7, v4, [Lcib$b;
 
@@ -144,7 +144,7 @@
 
     invoke-virtual {v0, v5}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v5, 0x7f080764
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_page_adjust:I
 
     const/4 v6, 0x2
 

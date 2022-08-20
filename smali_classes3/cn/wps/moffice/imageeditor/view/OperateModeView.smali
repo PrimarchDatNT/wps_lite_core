@@ -352,7 +352,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -378,7 +378,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -391,7 +391,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -462,7 +462,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080205
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -475,7 +475,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -488,7 +488,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600e9
+    sget v1, Lcom/resouce/module/ResCOLOR;->dark_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -501,7 +501,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->white_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -512,7 +512,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0803ef
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_style_correction_fluid:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -533,7 +533,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802db
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_words:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -552,7 +552,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802b1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_layer_transparency:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -571,7 +571,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08041b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_alter_selected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -584,7 +584,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802ab
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_layer_mosaic_selected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -597,7 +597,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802f1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_adjust_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -618,7 +618,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080318
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_rotate:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -633,7 +633,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f081716
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_nav_recover:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -651,7 +651,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0e07e5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_picture_editor_layout:I
 
     invoke-virtual {p1, v2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -659,7 +659,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0fa2
+    sget v2, Lcom/resouce/module/ResID;->head_fl:I
 
     .line 15
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -673,7 +673,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b24ec
+    sget v2, Lcom/resouce/module/ResID;->preview:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -694,7 +694,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b04b8
+    sget v2, Lcom/resouce/module/ResID;->color_options:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -705,7 +705,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b32ec
+    sget v2, Lcom/resouce/module/ResID;->undo_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0296
+    sget v2, Lcom/resouce/module/ResID;->brush_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2f3e
+    sget v2, Lcom/resouce/module/ResID;->text_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -744,7 +744,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b18fa
+    sget v2, Lcom/resouce/module/ResID;->mosaic_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b00ce
+    sget v2, Lcom/resouce/module/ResID;->adjust_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -770,7 +770,7 @@
     .line 25
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b33e8
+    sget v2, Lcom/resouce/module/ResID;->vs_op:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0342
+    sget v2, Lcom/resouce/module/ResID;->cancel_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -796,7 +796,7 @@
     .line 27
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0529
+    sget v2, Lcom/resouce/module/ResID;->confirm_tv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -809,7 +809,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b29b4
+    sget v2, Lcom/resouce/module/ResID;->rotate_iv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 29
     iget-object p1, p0, Lcn/wps/moffice/imageeditor/view/OperateModeView;->B:Landroid/view/View;
 
-    const v2, 0x7f0b28b1
+    sget v2, Lcom/resouce/module/ResID;->reset_iv:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1361,7 +1361,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b32ec
+    sget v1, Lcom/resouce/module/ResID;->undo_tv:I
 
     if-ne v1, v0, :cond_0
 
@@ -1373,7 +1373,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v1, 0x7f0b0296
+    sget v1, Lcom/resouce/module/ResID;->brush_tv:I
 
     if-ne v1, v0, :cond_2
 
@@ -1407,7 +1407,7 @@
     goto/16 :goto_3
 
     :cond_2
-    const v1, 0x7f0b2f3e
+    sget v1, Lcom/resouce/module/ResID;->text_tv:I
 
     if-ne v1, v0, :cond_3
 
@@ -1442,7 +1442,7 @@
     goto/16 :goto_3
 
     :cond_3
-    const v1, 0x7f0b18fa
+    sget v1, Lcom/resouce/module/ResID;->mosaic_tv:I
 
     if-ne v1, v0, :cond_5
 
@@ -1476,30 +1476,30 @@
     goto/16 :goto_3
 
     :cond_5
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     if-eq v1, v0, :cond_b
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     if-eq v1, v0, :cond_b
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     if-eq v1, v0, :cond_b
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     if-eq v1, v0, :cond_b
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     if-ne v1, v0, :cond_6
 
     goto :goto_2
 
     :cond_6
-    const p1, 0x7f0b00ce
+    sget p1, Lcom/resouce/module/ResID;->adjust_tv:I
 
     if-ne p1, v0, :cond_7
 
@@ -1533,7 +1533,7 @@
     goto :goto_3
 
     :cond_7
-    const p1, 0x7f0b0342
+    sget p1, Lcom/resouce/module/ResID;->cancel_tv:I
 
     if-ne p1, v0, :cond_8
 
@@ -1543,7 +1543,7 @@
     goto :goto_3
 
     :cond_8
-    const p1, 0x7f0b0529
+    sget p1, Lcom/resouce/module/ResID;->confirm_tv:I
 
     if-ne p1, v0, :cond_9
 
@@ -1575,7 +1575,7 @@
     goto :goto_3
 
     :cond_9
-    const p1, 0x7f0b29b4
+    sget p1, Lcom/resouce/module/ResID;->rotate_iv:I
 
     if-ne p1, v0, :cond_a
 
@@ -1587,7 +1587,7 @@
     goto :goto_3
 
     :cond_a
-    const p1, 0x7f0b28b1
+    sget p1, Lcom/resouce/module/ResID;->reset_iv:I
 
     if-ne p1, v0, :cond_c
 

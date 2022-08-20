@@ -197,7 +197,7 @@
     .line 7
     iget-object p1, p0, Lci6$d;->W:Landroid/content/Context;
 
-    const v1, 0x7f1200e2
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_not_valid:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
     .line 10
     iget-object p1, p0, Lci6$d;->W:Landroid/content/Context;
 
-    const v1, 0x7f1200e3
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_not_valid_writer:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

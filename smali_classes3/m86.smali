@@ -80,7 +80,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f120cfa
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_center_url:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ed9
+    sget v1, Lcom/resouce/module/ResSTRING;->service_center_product_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
     const-string v1, "&component=component"
 
     :goto_1
-    const v2, 0x7f121d3b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -422,7 +422,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f12011c
+    sget p3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -673,7 +673,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

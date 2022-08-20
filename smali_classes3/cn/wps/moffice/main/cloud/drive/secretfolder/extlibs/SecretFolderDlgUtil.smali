@@ -45,12 +45,12 @@
 
     invoke-direct {v0, p0, p1, p3}, Lcn/wps/moffice/main/cloud/drive/secretfolder/extlibs/SecretFolderDlgUtil$f;-><init>(Lcn/wps/moffice/main/cloud/drive/secretfolder/extlibs/SecretFolderDlgUtil;Landroid/content/Context;Lld7;)V
 
-    const v1, 0x7f1220f2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_add_failure:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1220f3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_add_failure_message:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -68,17 +68,17 @@
 
     move-result-object p1
 
-    const p3, 0x7f06025d
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const p3, 0x7f120f68
+    sget p3, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-virtual {v0, p3, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -173,17 +173,17 @@
 
     move-result-object p1
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const p3, 0x7f121f62
+    sget p3, Lcom/resouce/module/ResSTRING;->public_continue_setting:I
 
     invoke-virtual {v0, p3, p1, p2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122788
+    sget p1, Lcom/resouce/module/ResSTRING;->public_quit_open:I
 
     .line 8
     invoke-virtual {v0, p1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -270,12 +270,12 @@
     .line 2
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v1, 0x7f1228bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1228b2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_expire_dialog_msg:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -290,18 +290,18 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025d
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const p2, 0x7f120f68
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     .line 7
     invoke-virtual {v0, p2, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -333,12 +333,12 @@
     .line 3
     invoke-virtual {v6}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v0, 0x7f12212f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_move_failure:I
 
     .line 4
     invoke-virtual {v6, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f122130
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_move_failure_message:I
 
     .line 5
     invoke-virtual {v6, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -363,18 +363,18 @@
 
     move-result-object p1
 
-    const p3, 0x7f06025d
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const p3, 0x7f120f68
+    sget p3, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     .line 8
     invoke-virtual {v6, p3, p1, v7}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {v6, p1, v7}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -518,7 +518,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -539,7 +539,7 @@
     invoke-virtual {v0, p1, v2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_0
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     invoke-virtual {v0, p1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

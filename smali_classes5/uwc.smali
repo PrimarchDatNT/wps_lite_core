@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Luwc;->k:Landroid/view/View$OnClickListener;
 
-    const v0, 0x7f0b0dd2
+    sget v0, Lcom/resouce/module/ResID;->float_container:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Luwc;->a:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v0, 0x7f0b1e32
+    sget v0, Lcom/resouce/module/ResID;->pdf_ll_brush_tool_shrink_layout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,32 +127,32 @@
 
     iput-object p1, p0, Luwc;->h:Lzsb;
 
-    const p1, 0x7f0b1e55
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_highlight_pen_one:I
 
     .line 13
     invoke-virtual {p0, p1}, Luwc;->u(I)V
 
-    const p1, 0x7f0b1e37
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_float_paint_tool_bar_pen_one:I
 
     .line 14
     invoke-virtual {p0, p1}, Luwc;->u(I)V
 
-    const p1, 0x7f0b1e52
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_eraser:I
 
     .line 15
     invoke-virtual {p0, p1}, Luwc;->u(I)V
 
-    const p1, 0x7f0b1e49
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_circle_select:I
 
     .line 16
     invoke-virtual {p0, p1}, Luwc;->u(I)V
 
-    const p1, 0x7f0b1e60
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     .line 17
     invoke-virtual {p0, p1}, Luwc;->u(I)V
 
-    const p1, 0x7f0b1e45
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     .line 18
     invoke-virtual {p0, p1}, Luwc;->u(I)V
@@ -423,7 +423,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1e60
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     if-eqz v0, :cond_9
 
@@ -532,7 +532,7 @@
     .line 2
     iget-object v0, p0, Luwc;->a:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v1, 0x7f0b1e45
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -914,7 +914,7 @@
     .line 1
     iget-object v0, p0, Luwc;->a:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v1, 0x7f0b1e45
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -946,7 +946,7 @@
     .line 1
     iget-object v0, p0, Luwc;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1d7e
+    sget v1, Lcom/resouce/module/ResID;->pdf_brush_tool_shrink_colorpenripple:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 2
     iget-object v1, p0, Luwc;->b:Landroid/view/View;
 
-    const v2, 0x7f0b1d80
+    sget v2, Lcom/resouce/module/ResID;->pdf_brush_tool_shrink_knormal:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -968,7 +968,7 @@
     .line 3
     iget-object v2, p0, Luwc;->b:Landroid/view/View;
 
-    const v3, 0x7f0b1d81
+    sget v3, Lcom/resouce/module/ResID;->pdf_brush_tool_shrink_knormal_with_arrow:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -979,7 +979,7 @@
     .line 4
     iget-object v3, p0, Luwc;->b:Landroid/view/View;
 
-    const v4, 0x7f0b1d7f
+    sget v4, Lcom/resouce/module/ResID;->pdf_brush_tool_shrink_kcolorful:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -990,7 +990,7 @@
     .line 5
     iget-object v4, p0, Luwc;->b:Landroid/view/View;
 
-    const v5, 0x7f0b1d7d
+    sget v5, Lcom/resouce/module/ResID;->pdf_brush_tool_shrink_alphalinear_layout:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1086,7 +1086,7 @@
     :cond_2
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    const p2, 0x7f0b1e45
+    sget p2, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     if-ne p1, p2, :cond_3
 
@@ -1097,7 +1097,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f080bb7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_pdf:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1108,7 +1108,7 @@
     goto :goto_0
 
     :cond_3
-    const p2, 0x7f0b1e60
+    sget p2, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     if-ne p1, p2, :cond_4
 
@@ -1119,7 +1119,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08024d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_setting:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1199,7 +1199,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0674
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_smart_pen_select_popmenu:I
 
     const/4 v3, 0x0
 
@@ -1209,7 +1209,7 @@
 
     iput-object v0, p0, Luwc;->e:Landroid/view/View;
 
-    const v1, 0x7f0b1e94
+    sget v1, Lcom/resouce/module/ResID;->pdf_pen_select_normal:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1223,7 +1223,7 @@
     .line 7
     iget-object v0, p0, Luwc;->e:Landroid/view/View;
 
-    const v1, 0x7f0b1e95
+    sget v1, Lcom/resouce/module/ResID;->pdf_pen_select_smart:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1241,11 +1241,11 @@
 
     const/4 v1, 0x1
 
-    const v3, 0x7f0b1e85
+    sget v3, Lcom/resouce/module/ResID;->pdf_pad_normal_pen_checked:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b1e8b
+    sget v5, Lcom/resouce/module/ResID;->pdf_pad_smart_pen_checked:I
 
     if-eqz v0, :cond_2
 
@@ -1587,7 +1587,7 @@
     .line 1
     iget-object v0, p0, Luwc;->a:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v1, 0x7f0b1e18
+    sget v1, Lcom/resouce/module/ResID;->pdf_icon_main_topbar_recognition_type_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1691,7 +1691,7 @@
     .line 14
     iget-object v2, p0, Luwc;->a:Lcn/wps/moffice/common/beans/pad/FloatFrameLayoutByMarginChangeView;
 
-    const v3, 0x7f0b1e61
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_arrow:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1699,7 +1699,7 @@
 
     check-cast v2, Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v3, 0x7f080bab
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_arrow_down:I
 
     if-eqz v1, :cond_2
 
@@ -1708,7 +1708,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080bb5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_ai_writer_black:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1727,7 +1727,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080bb7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_pdf:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

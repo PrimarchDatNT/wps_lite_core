@@ -38,7 +38,7 @@
 .method public a(Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
     .locals 0
 
-    const p1, 0x7f0b1820
+    sget p1, Lcom/resouce/module/ResID;->material_clock_period_pm_button:I
 
     if-ne p2, p1, :cond_0
 

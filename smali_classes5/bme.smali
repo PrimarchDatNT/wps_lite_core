@@ -240,7 +240,7 @@
 
     iget-object v1, v1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f121b4e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_audio_extracting_audio_file:I
 
     invoke-direct {p1, v1, v2}, Lsod;-><init>(Landroid/content/Context;I)V
 
@@ -391,7 +391,7 @@
 
     iget-object v2, v2, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121c7d
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_video_extracting_video_file:I
 
     invoke-direct {v1, v2, v3}, Lsod;-><init>(Landroid/content/Context;I)V
 
@@ -466,7 +466,7 @@
 
     iget-object v0, v0, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121b52
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_unsupport_format_audio:I
 
     const/4 v2, 0x0
 
@@ -741,7 +741,7 @@
 
     iget-object v0, v0, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121b52
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_unsupport_format_audio:I
 
     const/4 v2, 0x0
 
@@ -1077,7 +1077,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1211b9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_volume:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1095,7 +1095,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121b47
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_find_external_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1107,7 +1107,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121b52
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_unsupport_format_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1119,7 +1119,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1211ad
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_no_supprt_outline_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1131,7 +1131,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121b48
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_play_online_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1165,7 +1165,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121c7b
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_find_external_video:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1177,7 +1177,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1211ae
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_no_supprt_outline_video:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1189,7 +1189,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121c7c
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_play_online_video:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1324,7 +1324,7 @@
 
     iget-object v0, v0, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1211b9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_volume:I
 
     const/4 v2, 0x0
 
@@ -1705,7 +1705,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1211ae
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_no_supprt_outline_video:I
 
     const/4 v1, 0x0
 
@@ -1746,7 +1746,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121c7c
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_play_online_video:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1758,7 +1758,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121c7b
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_find_external_video:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -237,7 +237,7 @@
 
     check-cast v4, Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0e0501
+    sget v5, Lcom/resouce/module/ResLAYOUT;->oversea_active_pop_tip_layout:I
 
     const/4 v6, 0x0
 
@@ -246,28 +246,28 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b007c
+    sget v5, Lcom/resouce/module/ResID;->active_pop_tip_arrow:I
 
     .line 8
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b007f
+    sget v6, Lcom/resouce/module/ResID;->active_pop_tip_layout:I
 
     .line 9
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
-    const v6, 0x7f0b007d
+    sget v6, Lcom/resouce/module/ResID;->active_pop_tip_conetnt_layout:I
 
     .line 10
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v6, 0x7f0b007e
+    sget v6, Lcom/resouce/module/ResID;->active_pop_tip_content:I
 
     .line 11
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b0080
+    sget v7, Lcom/resouce/module/ResID;->active_pop_tip_title:I
 
     .line 12
     invoke-virtual {v4, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;

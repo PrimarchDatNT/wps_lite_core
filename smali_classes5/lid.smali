@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a58
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_pdf_convert_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -188,7 +188,7 @@
 
     iput-object v0, p0, Llid;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d8a
+    sget v1, Lcom/resouce/module/ResID;->pdf_convert_preview_titlebar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
     .line 4
     iget-object v0, p0, Llid;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d89
+    sget v1, Lcom/resouce/module/ResID;->pdf_convert_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     .line 7
     iget-object v0, p0, Llid;->T:Lcn/wps/moffice/plugin/common/view/ViewTitleBar;
 
-    const v1, 0x7f121779
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_preview_title:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
@@ -338,7 +338,7 @@
 
     aput-object v3, v1, v6
 
-    const v3, 0x7f0605d9
+    sget v3, Lcom/resouce/module/ResCOLOR;->rippleColor:I
 
     .line 1
     invoke-static {v3}, Ltid;->a(I)I

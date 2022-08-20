@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123174
+    sget v1, Lcom/resouce/module/ResSTRING;->update_task_status_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -357,9 +357,9 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f081723
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_task_center:I
 
-    const v2, 0x7f0b2ead
+    sget v2, Lcom/resouce/module/ResID;->task_icon:I
 
     const/4 v3, 0x0
 
@@ -417,7 +417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c46
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_task_tip_layout:I
 
     new-instance v2, Landroid/widget/LinearLayout;
 

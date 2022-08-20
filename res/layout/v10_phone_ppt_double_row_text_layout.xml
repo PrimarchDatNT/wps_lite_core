@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.presentation.control.common.PptAlphaLinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style">
-        <TextView android:textSize="11.0dip" android:textColor="@color/mainTextColor" android:id="@id/start_font_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_public_font_size" />
-        <TextView android:textSize="18.0dip" android:textColor="@color/WPPMainColor" android:id="@id/start_font_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4 size" />
-    </LinearLayout>
-</cn.wps.moffice.presentation.control.common.PptAlphaLinearLayout>

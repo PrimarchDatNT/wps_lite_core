@@ -168,7 +168,7 @@
     :cond_3
     iget-object v0, p0, Lr09;->b:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -265,7 +265,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1221ec
+    sget v0, Lcom/resouce/module/ResSTRING;->public_forum_not_support_big_attachment:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -375,7 +375,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1221f1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_forum_upload_error:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -588,7 +588,7 @@
 
     move-result v0
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     if-eqz v0, :cond_5
 
@@ -630,7 +630,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12253d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
@@ -751,7 +751,7 @@
     .line 1
     iget-object v0, p0, Lr09;->b:Landroid/content/Context;
 
-    const v1, 0x7f12058d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_deleteDocument:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

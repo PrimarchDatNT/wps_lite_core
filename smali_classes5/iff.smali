@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e50
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_sharepreview_style_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -68,7 +68,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1224d0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_mode:I
 
     return v0
 .end method

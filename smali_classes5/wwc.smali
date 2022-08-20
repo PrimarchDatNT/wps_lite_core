@@ -1195,7 +1195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e063e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_float_brush_toolbar_container_view:I
 
     const/4 v2, 0x0
 
@@ -1205,7 +1205,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0dd2
+    sget v1, Lcom/resouce/module/ResID;->float_container:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1375,7 +1375,7 @@
     :goto_0
     iget-object v5, p0, Lkdc;->I:Landroid/view/LayoutInflater;
 
-    const v6, 0x7f0e0643
+    sget v6, Lcom/resouce/module/ResLAYOUT;->pdf_main_toolbar:I
 
     iget-object v7, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
@@ -1388,7 +1388,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f07060c
+    sget v6, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_height:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1400,7 +1400,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f07060d
+    sget v7, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_height_edit:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1411,7 +1411,7 @@
     .line 10
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1e77
+    sget v7, Lcom/resouce/module/ResID;->pdf_maintoolbar_title:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1483,7 +1483,7 @@
     .line 16
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1e76
+    sget v7, Lcom/resouce/module/ResID;->pdf_maintoolbar_tab_group:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1499,7 +1499,7 @@
     .line 18
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1f44
+    sget v7, Lcom/resouce/module/ResID;->pdf_titlebar_carousel_view:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1522,7 +1522,7 @@
     .line 21
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1f49
+    sget v7, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1535,7 +1535,7 @@
     .line 22
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1f48
+    sget v7, Lcom/resouce/module/ResID;->pdf_titlebar_redo:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1548,7 +1548,7 @@
     .line 23
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1f4a
+    sget v7, Lcom/resouce/module/ResID;->pdf_titlebar_undo:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1561,7 +1561,7 @@
     .line 24
     iget-object v6, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b1e74
+    sget v7, Lcom/resouce/module/ResID;->pdf_maintoolbar_paint_tool:I
 
     invoke-virtual {v6, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1599,7 +1599,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f12281f
+    sget v6, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1724,7 +1724,7 @@
     :cond_8
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1e71
+    sget v1, Lcom/resouce/module/ResID;->pdf_maintoolbar_exitplay:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1737,7 +1737,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12208a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_exit_play:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1874,7 +1874,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b299d
+    sget v1, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1893,7 +1893,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060214
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1904,7 +1904,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b299b
+    sget v1, Lcom/resouce/module/ResID;->rom_read_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1917,7 +1917,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2994
+    sget v1, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1928,7 +1928,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2997
+    sget v1, Lcom/resouce/module/ResID;->rom_read_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2243,7 +2243,7 @@
     .line 1
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1e6e
+    sget v1, Lcom/resouce/module/ResID;->pdf_maintoolbar_backBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2256,7 +2256,7 @@
     .line 2
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e71
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_exitplay:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2269,7 +2269,7 @@
     .line 3
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1e1a
+    sget v3, Lcom/resouce/module/ResID;->pdf_image_share:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2280,7 +2280,7 @@
     .line 4
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1f49
+    sget v3, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2291,7 +2291,7 @@
     .line 5
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1f48
+    sget v3, Lcom/resouce/module/ResID;->pdf_titlebar_redo:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2302,7 +2302,7 @@
     .line 6
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1f4a
+    sget v3, Lcom/resouce/module/ResID;->pdf_titlebar_undo:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2557,7 +2557,7 @@
     .line 2
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1e6e
+    sget v1, Lcom/resouce/module/ResID;->pdf_maintoolbar_backBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2570,7 +2570,7 @@
     .line 3
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f49
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2581,7 +2581,7 @@
     .line 4
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e74
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_paint_tool:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2592,7 +2592,7 @@
     .line 5
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f48
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_redo:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2603,7 +2603,7 @@
     .line 6
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f4a
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_undo:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2614,7 +2614,7 @@
     .line 7
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e1a
+    sget v2, Lcom/resouce/module/ResID;->pdf_image_share:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2637,7 +2637,7 @@
     .line 2
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e6c
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_annotation:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2648,7 +2648,7 @@
     .line 3
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e78
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_view:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2659,7 +2659,7 @@
     .line 4
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e39
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_toolbar_convert:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2670,7 +2670,7 @@
     .line 5
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e70
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_edit:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2681,7 +2681,7 @@
     .line 6
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e75
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_play:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2692,7 +2692,7 @@
     .line 7
     iget-object v1, p0, Lwwc;->h0:Lcn/wps/moffice/pdf/shell/toolbar/pad/ToolBarTabSwitcher;
 
-    const v2, 0x7f0b1e6d
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_autoplay:I
 
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -2708,7 +2708,7 @@
     .line 9
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e6e
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_backBtn:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2719,7 +2719,7 @@
     .line 10
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e71
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_exitplay:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2730,7 +2730,7 @@
     .line 11
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f49
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2741,7 +2741,7 @@
     .line 12
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f48
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_redo:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2752,7 +2752,7 @@
     .line 13
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f4a
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_undo:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2763,7 +2763,7 @@
     .line 14
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e1a
+    sget v2, Lcom/resouce/module/ResID;->pdf_image_share:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2774,7 +2774,7 @@
     .line 15
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f45
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_multi:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2785,7 +2785,7 @@
     .line 16
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e74
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_paint_tool:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2796,7 +2796,7 @@
     .line 17
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1f46
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_multi_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2827,7 +2827,7 @@
     .line 20
     iget-object v1, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1e72
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_file:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3285,7 +3285,7 @@
     :cond_0
     iget-object v0, p0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1e6f
+    sget v1, Lcom/resouce/module/ResID;->pdf_maintoolbar_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3333,7 +3333,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07060b
+    sget v3, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_file_margin_left:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3345,7 +3345,7 @@
 
     const/4 v2, 0x0
 
-    const v4, 0x7f070610
+    sget v4, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_title_min:I
 
     cmpg-float v5, v1, v2
 
@@ -3451,7 +3451,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f07060f
+    sget v5, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_title_max:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3552,7 +3552,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f07060e
+    sget v2, Lcom/resouce/module/ResDIMEN;->pdf_pad_maintoolbar_image_button_width:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3601,7 +3601,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e067e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdfnew_main_toolbar:I
 
     return v0
 .end method
@@ -3627,7 +3627,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e6b
+    sget v1, Lcom/resouce/module/ResID;->pdf_maintoolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

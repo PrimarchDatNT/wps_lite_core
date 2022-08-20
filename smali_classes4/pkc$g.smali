@@ -56,7 +56,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     if-nez p1, :cond_2
 
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1217a3
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_vip_speed_up:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060006
+    sget v1, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121791
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_converting:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -160,7 +160,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121793
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_converting_wait_for_a_while:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

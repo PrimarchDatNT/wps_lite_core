@@ -109,7 +109,7 @@
     .line 1
     sget-object v0, Lva7;->a:Landroid/content/Context;
 
-    const v1, 0x7f12253d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
     .line 3
     sget-object v0, Lva7;->a:Landroid/content/Context;
 
-    const v1, 0x7f121e57
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_group_empty_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -147,7 +147,7 @@
     .line 5
     sget-object v0, Lva7;->a:Landroid/content/Context;
 
-    const v1, 0x7f122aec
+    sget v1, Lcom/resouce/module/ResSTRING;->public_together_collect_secret_files:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
     .line 7
     sget-object p0, Lva7;->a:Landroid/content/Context;
 
-    const v0, 0x7f121ec5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_empty_tips:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

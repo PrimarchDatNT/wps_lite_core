@@ -218,7 +218,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1303f7
+    sget v1, Lcom/resouce/module/ResSTYLE;->com_facebook_auth_dialog:I
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -233,7 +233,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e009c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->com_facebook_device_auth_dialog_fragment:I
 
     const/4 v1, 0x0
 
@@ -242,7 +242,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object v0, p0, Lcom/facebook/share/internal/DeviceShareDialogFragment;->g0:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b052a
+    sget v0, Lcom/resouce/module/ResID;->confirmation_code:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     iput-object v0, p0, Lcom/facebook/share/internal/DeviceShareDialogFragment;->h0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0340
+    sget v0, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b04bd
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_device_auth_instructions:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f1202cf
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_device_auth_instructions:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;

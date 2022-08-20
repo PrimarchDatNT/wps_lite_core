@@ -330,9 +330,9 @@
     .line 5
     new-instance v1, Lzq8;
 
-    const v2, 0x7f08107d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_documents_icon_update:I
 
-    const v3, 0x7f120574
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_checkUpdate:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -357,9 +357,9 @@
     .line 7
     new-instance v1, Lzq8;
 
-    const v2, 0x7f0810b2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_favorite:I
 
-    const v3, 0x7f120683
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_rating:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -391,9 +391,9 @@
     .line 10
     new-instance v1, Lzq8;
 
-    const v2, 0x7f081074
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_documents_about_weibo:I
 
-    const v3, 0x7f120603
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_item_weibo:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -416,9 +416,9 @@
     .line 12
     new-instance v1, Lzq8;
 
-    const v2, 0x7f0813a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_title_recommend:I
 
-    const v3, 0x7f120604
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -450,9 +450,9 @@
     .line 15
     new-instance v1, Lzq8;
 
-    const v2, 0x7f081777
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_settings_about_facebook:I
 
-    const v3, 0x7f1223c4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_join_wps_community:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -471,9 +471,9 @@
     .line 17
     new-instance v1, Lzq8;
 
-    const v2, 0x7f081081
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_documents_privacy_and_legal:I
 
-    const v3, 0x7f1205c6
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_legal_provision:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -492,9 +492,9 @@
     .line 19
     new-instance v1, Lzq8;
 
-    const v2, 0x7f081568
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_about_license:I
 
-    const v3, 0x7f1225b9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open_source_license:I
 
     iget-object v4, p0, Lar8;->W:Lzq8$a;
 
@@ -527,7 +527,7 @@
     .line 1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0771
+    sget v1, Lcom/resouce/module/ResID;->documents_about_legal_provision:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -538,7 +538,7 @@
     .line 2
     iget-object v1, p0, Lar8;->B:Landroid/content/Context;
 
-    const v2, 0x7f1205c6
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_legal_provision:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -556,7 +556,7 @@
     .line 4
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b076d
+    sget v1, Lcom/resouce/module/ResID;->documents_about_brand:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +573,7 @@
     .line 1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b077b
+    sget v1, Lcom/resouce/module/ResID;->documents_more_about_items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -610,7 +610,7 @@
     .line 1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b076b
+    sget v1, Lcom/resouce/module/ResID;->documents_about_appversion:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1212c3
+    sget v5, Lcom/resouce/module/ResSTRING;->in_edu_title:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -700,7 +700,7 @@
 
     iget-object v1, p0, Lar8;->B:Landroid/content/Context;
 
-    const v6, 0x7f12011a
+    sget v6, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {v1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -815,7 +815,7 @@
     .line 1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b076c
+    sget v1, Lcom/resouce/module/ResID;->documents_about_appversion_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -842,7 +842,7 @@
 
     move-result v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     if-eqz v1, :cond_0
 
@@ -885,7 +885,7 @@
     .line 1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3499
+    sget v1, Lcom/resouce/module/ResID;->wps_logo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1011,7 +1011,7 @@
     .line 4
     iget-object v0, p0, Lar8;->B:Landroid/content/Context;
 
-    const v1, 0x7f1227a1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rating_prompt:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1074,7 +1074,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011d
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1121,7 +1121,7 @@
     :cond_0
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3499
+    sget v1, Lcom/resouce/module/ResID;->wps_logo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1129,7 +1129,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f08055b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->document_enterprise_wps_logo:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1149,7 +1149,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f12205a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_error:I
 
     :try_start_0
     const-string v4, "wps_office"
@@ -1337,7 +1337,7 @@
     :cond_0
     iget-object v0, p0, Lar8;->B:Landroid/content/Context;
 
-    const v1, 0x7f120052
+    sget v1, Lcom/resouce/module/ResSTRING;->about_weibo_wps:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1422,7 +1422,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0771
+    sget v1, Lcom/resouce/module/ResID;->documents_about_legal_provision:I
 
     if-ne v0, v1, :cond_0
 
@@ -1437,7 +1437,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b076c
+    sget v1, Lcom/resouce/module/ResID;->documents_about_appversion_name:I
 
     if-ne v0, v1, :cond_1
 
@@ -1452,7 +1452,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b076d
+    sget v1, Lcom/resouce/module/ResID;->documents_about_brand:I
 
     if-ne v0, v1, :cond_2
 
@@ -1467,7 +1467,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3499
+    sget v0, Lcom/resouce/module/ResID;->wps_logo:I
 
     if-ne p1, v0, :cond_3
 
@@ -1628,7 +1628,7 @@
     .line 2
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b076c
+    sget v2, Lcom/resouce/module/ResID;->documents_about_appversion_name:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1657,7 +1657,7 @@
     :cond_1
     iget-object v0, p0, Lar8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0772
+    sget v2, Lcom/resouce/module/ResID;->documents_about_software_active_usage_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1722,7 +1722,7 @@
 
     iput-object v0, p0, Lar8;->Y:Lhd3;
 
-    const v1, 0x7f0e0309
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_enterprise_activate_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -1751,7 +1751,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12011d
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

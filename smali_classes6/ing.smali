@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c14
+    sget v0, Lcom/resouce/module/ResSTRING;->et_search_text_sheet:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c0c
+    sget v0, Lcom/resouce/module/ResSTRING;->et_search_text_book:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c12
+    sget v0, Lcom/resouce/module/ResSTRING;->et_search_text_row:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c0d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_search_text_col:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120c15
+    sget v0, Lcom/resouce/module/ResSTRING;->et_search_text_value:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1208b8
+    sget v0, Lcom/resouce/module/ResSTRING;->et_formulas_radio:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121f1c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
     .line 11
     iget-object p1, p0, Ling;->b:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f010061
+    sget v0, Lcom/resouce/module/ResANIM;->phone_bottom_push_in:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -197,7 +197,7 @@
     .line 12
     iget-object p1, p0, Ling;->b:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f010062
+    sget v0, Lcom/resouce/module/ResANIM;->phone_bottom_push_out:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -212,7 +212,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060002
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -227,7 +227,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -925,7 +925,7 @@
     .line 2
     iget-object v1, p0, Ling;->l:Landroid/view/View;
 
-    const v2, 0x7f0b0b87
+    sget v2, Lcom/resouce/module/ResID;->et_search_matchword_root_checkbox:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -941,7 +941,7 @@
     .line 4
     iget-object v1, p0, Ling;->l:Landroid/view/View;
 
-    const v2, 0x7f0b0b85
+    sget v2, Lcom/resouce/module/ResID;->et_search_matchcell_root_checkbox:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 6
     iget-object v1, p0, Ling;->l:Landroid/view/View;
 
-    const v2, 0x7f0b0b86
+    sget v2, Lcom/resouce/module/ResID;->et_search_matchfull_root_checkbox:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -979,7 +979,7 @@
     .line 1
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b07a7
+    sget v1, Lcom/resouce/module/ResID;->drag_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -995,7 +995,7 @@
     .line 3
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0b7b
+    sget v1, Lcom/resouce/module/ResID;->et_search_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1031,7 +1031,7 @@
     .line 1
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0b71
+    sget v1, Lcom/resouce/module/ResID;->et_replace_target:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1051,7 +1051,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0243
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_replace_target_quick_action:I
 
     const/4 v2, 0x0
 
@@ -1096,7 +1096,7 @@
     :cond_0
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0b72
+    sget v1, Lcom/resouce/module/ResID;->et_replace_target_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1118,13 +1118,13 @@
     .line 1
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0b7d
+    sget v1, Lcom/resouce/module/ResID;->et_search_direction:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2a6d
+    sget v1, Lcom/resouce/module/ResID;->search_direction_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1147,7 +1147,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0248
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_search_direction_quick_action:I
 
     const/4 v3, 0x0
 
@@ -1205,13 +1205,13 @@
     .line 1
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0b76
+    sget v1, Lcom/resouce/module/ResID;->et_search_Range:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2a49
+    sget v1, Lcom/resouce/module/ResID;->search_Range_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1234,7 +1234,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e024a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_search_range_quick_action:I
 
     const/4 v3, 0x0
 
@@ -1292,7 +1292,7 @@
     .line 1
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0ba1
+    sget v1, Lcom/resouce/module/ResID;->et_search_target:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1300,7 +1300,7 @@
 
     iput-object v0, p0, Ling;->t:Landroid/view/View;
 
-    const v1, 0x7f0b2ab0
+    sget v1, Lcom/resouce/module/ResID;->search_target_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1323,7 +1323,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e024d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_search_target_quick_action:I
 
     const/4 v2, 0x0
 
@@ -1368,7 +1368,7 @@
     :cond_0
     iget-object v0, p0, Ling;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0ba2
+    sget v1, Lcom/resouce/module/ResID;->et_search_target_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

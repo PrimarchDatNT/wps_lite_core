@@ -43,7 +43,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0b2d0d
+    sget v0, Lcom/resouce/module/ResID;->ss_main_toolbar_item:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setId(I)V
@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05e8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_typefface_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -62,7 +62,7 @@
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    const v0, 0x7f0b0e3a
+    sget v0, Lcom/resouce/module/ResID;->font_name_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefaceView;->S:Lcn/wps/moffice/common/fontname/FontTitleView;
 
-    const v0, 0x7f0b0e53
+    sget v0, Lcom/resouce/module/ResID;->font_size_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -89,13 +89,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v1, 0x7f0b1c47
+    sget v1, Lcom/resouce/module/ResID;->pad_toolbar_font_increase:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefaceView;->B:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b1c48
+    sget v2, Lcom/resouce/module/ResID;->pad_toolbar_font_reduce:I
 
     .line 9
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefaceView;->I:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b022c
+    sget v3, Lcom/resouce/module/ResID;->bold_btn:I
 
     .line 10
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 11
     invoke-virtual {v3, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v3, 0x7f0b1389
+    sget v3, Lcom/resouce/module/ResID;->italic_btn:I
 
     .line 12
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
     .line 13
     invoke-virtual {v3, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v3, 0x7f0b32e5
+    sget v3, Lcom/resouce/module/ResID;->underline_btn:I
 
     .line 14
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_0
-    const p1, 0x7f0b0e1a
+    sget p1, Lcom/resouce/module/ResID;->font_color_btn:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefaceView;->a0:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b32df
+    sget p1, Lcom/resouce/module/ResID;->typeface_colorview:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

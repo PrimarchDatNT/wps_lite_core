@@ -91,7 +91,7 @@
     .line 3
     iget-object v0, p0, Ln6b$k;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12189e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_cvt_failed:I
 
     const/4 v2, 0x1
 

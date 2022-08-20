@@ -123,7 +123,7 @@
 
     move-result v4
 
-    const v5, 0x7f1206b9
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v6, 0x4
 

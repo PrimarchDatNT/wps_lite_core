@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0b353c    # 1.850391E38f
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_papertoolgroup:I    # 1.850391E38f
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
@@ -30,7 +30,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1c7e
+    sget v1, Lcom/resouce/module/ResID;->panel_item_paper_check:I
 
     .line 2
     new-instance v2, Ljuk;
@@ -41,7 +41,7 @@
 
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b1c81
+    sget v1, Lcom/resouce/module/ResID;->panel_item_paper_report:I
 
     .line 3
     new-instance v2, Lkuk;
@@ -59,7 +59,7 @@
 
     const/16 v2, 0x8
 
-    const v3, 0x7f0b1c80
+    sget v3, Lcom/resouce/module/ResID;->panel_item_paper_down:I
 
     if-eqz v1, :cond_1
 
@@ -97,12 +97,12 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b1c83
+    sget v3, Lcom/resouce/module/ResID;->panel_item_translate:I
 
     .line 9
     new-instance v4, Lesk;
 
-    const v5, 0x7f0b03c7
+    sget v5, Lcom/resouce/module/ResID;->check_translate_recommend:I
 
     .line 10
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b1c7f
+    sget v3, Lcom/resouce/module/ResID;->panel_item_paper_composition:I
 
     if-eqz v1, :cond_3
 

@@ -489,7 +489,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120198
+    sget p2, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -633,7 +633,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1219dc
+    sget p2, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -698,7 +698,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12248a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_long_audio_input:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -848,7 +848,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f081576
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     return v0
 .end method
@@ -956,7 +956,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b2e67
+    sget v1, Lcom/resouce/module/ResID;->tag_app_skip_stat:I
 
     .line 3
     :try_start_0
@@ -1019,7 +1019,7 @@
 
     if-eqz p1, :cond_2
 
-    const v3, 0x7f0b2e78
+    sget v3, Lcom/resouce/module/ResID;->tag_key_func_name:I
 
     .line 9
     invoke-virtual {p1, v3}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

@@ -33,7 +33,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 3
 
-    const p3, 0x7f0e058b
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_more_recommend_layout:I
 
     const/4 v0, 0x0
 
@@ -42,7 +42,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2863
+    sget p2, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
     .line 8
     invoke-virtual {p2, p3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$m;)V
 
-    const p3, 0x7f0b01ba
+    sget p3, Lcom/resouce/module/ResID;->back_btn:I
 
     .line 9
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

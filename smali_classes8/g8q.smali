@@ -771,7 +771,7 @@
     :cond_1
     iget-object v1, p0, Lg8q;->a:Landroid/content/Context;
 
-    const v2, 0x7f0605d9
+    sget v2, Lcom/resouce/module/ResCOLOR;->rippleColor:I
 
     invoke-static {v1, v2}, Lj8q;->f(Landroid/content/Context;I)I
 

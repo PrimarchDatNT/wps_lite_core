@@ -121,7 +121,7 @@
 
     if-eqz v3, :cond_1
 
-    const v2, 0x7f122954
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -136,7 +136,7 @@
 
     if-eqz v3, :cond_2
 
-    const v1, 0x7f122742
+    sget v1, Lcom/resouce/module/ResSTRING;->public_publish_current_content:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

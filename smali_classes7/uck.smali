@@ -21,7 +21,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     return v0
 .end method
@@ -29,7 +29,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f080969
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_fitphone_light_seleced:I
 
     return v0
 .end method
@@ -37,7 +37,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f081477
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_writer_shring_status_miui:I
 
     return v0
 .end method
@@ -86,7 +86,7 @@
 .method public g()I
     .locals 1
 
-    const v0, 0x7f081453
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_writer_outline_expanded_status_miui:I
 
     return v0
 .end method
@@ -94,7 +94,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     return v0
 .end method
@@ -110,7 +110,7 @@
 .method public j()I
     .locals 1
 
-    const v0, 0x7f080968
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_fitphone_light:I
 
     return v0
 .end method

@@ -161,11 +161,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1045
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_cover_pic_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b2db9    # 1.850001E38f
+    sget p1, Lcom/resouce/module/ResID;->storyImage:I    # 1.850001E38f
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/home/common/widget/AspectCoverView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2e5f
+    sget p1, Lcom/resouce/module/ResID;->tag:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/home/common/widget/AspectCoverView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0531
+    sget p1, Lcom/resouce/module/ResID;->containerCard:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

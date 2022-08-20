@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122814
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ribbon_common:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e031e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_shortcut_common_file_text_grid_layout_item:I
 
     const/4 v2, 0x0
 
@@ -176,7 +176,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/view/ShortCutPathItemView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f16
+    sget v1, Lcom/resouce/module/ResID;->text_grid_layout_item_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -374,7 +374,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -392,7 +392,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205c7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -416,7 +416,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

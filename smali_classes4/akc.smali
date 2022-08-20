@@ -137,14 +137,14 @@
 
     invoke-direct {v1, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f121761
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_title:I
 
     .line 4
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f121760
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_content:I
 
     .line 5
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -165,20 +165,20 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v2
 
-    const v3, 0x7f12175f
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_confirm:I
 
     .line 8
     invoke-virtual {v1, v3, v2, v0}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f122528
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no:I
 
     .line 9
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

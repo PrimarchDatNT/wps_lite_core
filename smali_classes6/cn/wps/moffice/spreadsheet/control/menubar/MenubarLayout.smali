@@ -77,14 +77,14 @@
 .method public final d()V
     .locals 7
 
-    const v0, 0x7f0b2d6a
+    sget v0, Lcom/resouce/module/ResID;->ss_titlebar_indicator:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2d69
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_document_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -93,14 +93,14 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2d2e
+    sget v2, Lcom/resouce/module/ResID;->ss_pad_titlebar_operator_layout:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2d73
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_undo:I
 
     .line 4
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarLayout;->B:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v3, 0x7f0b2d70
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_redo:I
 
     .line 5
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarLayout;->I:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v3, 0x7f0b2d71
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_save:I
 
     .line 6
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/SaveIconGroup;->setVisibility(I)V
 
-    const v3, 0x7f0b3021
+    sget v3, Lcom/resouce/module/ResID;->titlebar_carousel_view:I
 
     .line 14
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

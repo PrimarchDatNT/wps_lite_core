@@ -204,7 +204,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07034e
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -218,7 +218,7 @@
     .line 9
     iget-object v1, p0, Ljmb;->T:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
 
@@ -231,7 +231,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605ee
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -267,7 +267,7 @@
     .line 13
     invoke-virtual {v3, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 14
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V
@@ -286,7 +286,7 @@
 
     if-nez v1, :cond_1
 
-    const v5, 0x7f1225c1
+    sget v5, Lcom/resouce/module/ResSTRING;->public_order_payment_pending:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -295,7 +295,7 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f1225c2
+    sget v5, Lcom/resouce/module/ResSTRING;->public_order_purchased:I
 
     .line 18
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -631,7 +631,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0279
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_myorders_activity:I
 
     const/4 v2, 0x0
 
@@ -641,7 +641,7 @@
 
     iput-object v0, p0, Ljmb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1982
+    sget v1, Lcom/resouce/module/ResID;->myorder_signin_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
     .line 4
     iget-object v0, p0, Ljmb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b197e
+    sget v1, Lcom/resouce/module/ResID;->my_signin_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -664,7 +664,7 @@
     .line 5
     iget-object v0, p0, Ljmb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14f9
+    sget v1, Lcom/resouce/module/ResID;->kscrollbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -677,7 +677,7 @@
     .line 6
     iget-object v0, p0, Ljmb;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1b83
+    sget v1, Lcom/resouce/module/ResID;->order_viewpager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -726,7 +726,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membercenter_my_orders:I
 
     return v0
 .end method
@@ -830,7 +830,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b197e
+    sget v0, Lcom/resouce/module/ResID;->my_signin_btn:I
 
     if-ne p1, v0, :cond_0
 

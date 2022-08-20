@@ -223,7 +223,7 @@
     .line 1
     iget-object p2, p0, Lw1l;->V:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0a1c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_info_item:I
 
     const/4 v1, 0x0
 

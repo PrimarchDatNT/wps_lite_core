@@ -343,7 +343,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060009
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -381,7 +381,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06050f
+    sget v1, Lcom/resouce/module/ResCOLOR;->progressTrackColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -398,7 +398,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07074d
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_default_frame_width_unselect:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -409,7 +409,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07074a
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_checked_icon_top_margin:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -422,7 +422,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070749
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_checked_icon_right_margin:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -435,7 +435,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07074b
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_checked_icon_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -495,7 +495,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -555,7 +555,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0805b7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_pdf_thumb_checked:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -571,7 +571,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081154
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_selected_slide_checked:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -591,7 +591,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081155    # 1.80865E38f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_selected_slide_unchecked:I    # 1.80865E38f
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -825,7 +825,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07074c
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_default_frame_width_select:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

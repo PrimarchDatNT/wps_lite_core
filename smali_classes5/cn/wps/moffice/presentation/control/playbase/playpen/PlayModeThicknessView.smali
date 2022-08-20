@@ -46,12 +46,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f060009
+    sget p1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0602db
+    sget p1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 3
     :goto_0

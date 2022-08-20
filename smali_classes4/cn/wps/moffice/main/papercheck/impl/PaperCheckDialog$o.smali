@@ -69,7 +69,7 @@
 
     move-result v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121626
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_result_pp_expire:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -182,7 +182,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121625
+    sget v4, Lcom/resouce/module/ResSTRING;->paper_check_result_pdf_file_name:I
 
     const/4 v5, 0x2
 

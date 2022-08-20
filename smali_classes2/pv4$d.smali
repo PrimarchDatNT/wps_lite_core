@@ -69,7 +69,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f1226e1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_number_unit:I
 
     invoke-virtual {p2, p1, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -182,7 +182,7 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f08166f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_company_files:I
 
     return p0
 

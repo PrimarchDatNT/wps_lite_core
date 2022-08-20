@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03da
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_empty_folder_layout:I
 
     const/4 v2, 0x0
 
@@ -113,7 +113,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122c73
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_refresh_to_show:I
 
     goto :goto_0
 
@@ -133,7 +133,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f122c71
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_open_now:I
 
     goto :goto_0
 
@@ -183,12 +183,12 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122c5d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_device_classify:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122c70
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_no_device_document:I
 
     .line 3
     iget-object v0, p0, Ldb7;->b:Lg07;
@@ -205,7 +205,7 @@
 
     if-nez v0, :cond_4
 
-    const p1, 0x7f122c48
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_backup_introduce_empty_page:I
 
     goto :goto_0
 
@@ -217,7 +217,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f1228a9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_secret_folder_add_file_intro:I
 
     goto :goto_0
 
@@ -229,7 +229,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f121152
+    sget p1, Lcom/resouce/module/ResSTRING;->home_share_document_no_file:I
 
     const-string v0, "public_wpscloud_sharefolder_nullpage"
 
@@ -239,7 +239,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f12253d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     .line 7
     :cond_4
@@ -256,7 +256,7 @@
 .method public final h(Landroid/view/View;Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;)V
     .locals 4
 
-    const v0, 0x7f0b3089
+    sget v0, Lcom/resouce/module/ResID;->total_empty_tips_button:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b085f
+    sget v1, Lcom/resouce/module/ResID;->empty_text:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 .method public final i(Landroid/view/View;Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;)V
     .locals 3
 
-    const v0, 0x7f0b3494
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_total_no_document_img:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     move-result v0
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     if-eqz v0, :cond_2
 
@@ -393,7 +393,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f081562
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_refresh:I
 
     goto :goto_0
 
@@ -413,12 +413,12 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f081cf4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_wpsdrive_device_nodata_empty_icon:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f081553
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     .line 6
     :goto_0
@@ -437,7 +437,7 @@
 
     if-eqz p2, :cond_4
 
-    const v1, 0x7f081550
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_empty_folder:I
 
     goto :goto_1
 

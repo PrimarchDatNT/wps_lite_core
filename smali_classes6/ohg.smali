@@ -63,7 +63,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -267,7 +267,7 @@
     .line 5
     iget-object v0, p0, Lohg;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f1221b4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -302,7 +302,7 @@
     .line 5
     iget-object v0, p0, Lohg;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f12074b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_background_color:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -449,7 +449,7 @@
     :goto_0
     iget-object p1, p0, Lohg;->S:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f120894
+    sget v0, Lcom/resouce/module/ResSTRING;->et_filter_no_content_tip:I
 
     const/4 v1, 0x0
 
@@ -624,7 +624,7 @@
 .method public final g3(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e06bf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_et_multi_condition_filter_dialog:I
 
     const/4 v1, 0x0
 
@@ -650,7 +650,7 @@
     .line 1
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0a46
+    sget v1, Lcom/resouce/module/ResID;->et_filter_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -661,7 +661,7 @@
     .line 2
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0a56
+    sget v1, Lcom/resouce/module/ResID;->et_filter_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -674,7 +674,7 @@
     .line 3
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0a4b
+    sget v1, Lcom/resouce/module/ResID;->et_filter_done:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -687,7 +687,7 @@
     .line 4
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0a50
+    sget v1, Lcom/resouce/module/ResID;->et_filter_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -700,7 +700,7 @@
     .line 5
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0a48
+    sget v1, Lcom/resouce/module/ResID;->et_filter_circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -725,7 +725,7 @@
     .line 8
     iget-object v0, p0, Lohg;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f120b8a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_multi_condition_filter:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -742,7 +742,7 @@
     .line 11
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0e1f
+    sget v1, Lcom/resouce/module/ResID;->font_color_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -755,7 +755,7 @@
     .line 12
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b01d1
+    sget v1, Lcom/resouce/module/ResID;->background_color_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -768,7 +768,7 @@
     .line 13
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0e1c
+    sget v1, Lcom/resouce/module/ResID;->font_color_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 14
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b01d0
+    sget v1, Lcom/resouce/module/ResID;->background_color_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -798,7 +798,7 @@
     .line 15
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0c2d
+    sget v1, Lcom/resouce/module/ResID;->export_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -813,7 +813,7 @@
     .line 16
     iget-object v0, p0, Lohg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2dcb    # 1.8500046E38f
+    sget v1, Lcom/resouce/module/ResID;->sub_fl:I    # 1.8500046E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -902,7 +902,7 @@
     .line 4
     iget-object v0, p0, Lohg;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f120b8a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_multi_condition_filter:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -924,7 +924,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0e1c
+    sget v0, Lcom/resouce/module/ResID;->font_color_layout:I
 
     if-ne p1, v0, :cond_0
 
@@ -938,7 +938,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b01d0
+    sget v0, Lcom/resouce/module/ResID;->background_color_layout:I
 
     if-ne p1, v0, :cond_1
 
@@ -952,7 +952,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0c2d
+    sget v0, Lcom/resouce/module/ResID;->export_tv:I
 
     if-ne p1, v0, :cond_2
 
@@ -984,7 +984,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0a46
+    sget v0, Lcom/resouce/module/ResID;->et_filter_back:I
 
     if-ne p1, v0, :cond_3
 
@@ -994,7 +994,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0a4b
+    sget v0, Lcom/resouce/module/ResID;->et_filter_done:I
 
     if-ne p1, v0, :cond_4
 

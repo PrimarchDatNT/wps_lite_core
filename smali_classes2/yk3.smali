@@ -318,11 +318,11 @@
 
     move-result v3
 
-    const v4, 0x7f0b0542
+    sget v4, Lcom/resouce/module/ResID;->content_container:I
 
     const/4 v5, 0x0
 
-    const v6, 0x7f0e043d
+    sget v6, Lcom/resouce/module/ResLAYOUT;->layout_basepickerview:I
 
     if-eqz v3, :cond_0
 
@@ -608,7 +608,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b1ba3
+    sget v1, Lcom/resouce/module/ResID;->outmost_container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

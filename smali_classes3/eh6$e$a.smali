@@ -169,7 +169,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f122690
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pay_bind_other_tip:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f122807
+    sget v4, Lcom/resouce/module/ResSTRING;->public_restore_font_fail_tip:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -268,7 +268,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x7f122806
+    sget v5, Lcom/resouce/module/ResSTRING;->public_restore_fail_tip:I
 
     if-eqz v1, :cond_2
 
@@ -295,7 +295,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1218b8
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_privileges:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -363,7 +363,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f121c87
+    sget v6, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -431,7 +431,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1230a1
+    sget v6, Lcom/resouce/module/ResSTRING;->template_privilege:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

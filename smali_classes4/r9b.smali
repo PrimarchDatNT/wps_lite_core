@@ -800,7 +800,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1201bf
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_sacn_download_so_tips:I
 
     const/4 v1, 0x0
 

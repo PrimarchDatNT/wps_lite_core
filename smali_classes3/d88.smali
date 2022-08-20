@@ -296,7 +296,7 @@
     .line 30
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v12, 0x7f080f54
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_webdav:I
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -307,7 +307,7 @@
     .line 31
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v12, 0x7f080f46
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_ftp:I
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -318,7 +318,7 @@
     .line 32
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v12, 0x7f080f43
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_dropbox:I
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -329,7 +329,7 @@
     .line 33
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v12, 0x7f080f42
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_drive:I
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -340,7 +340,7 @@
     .line 34
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v12, 0x7f081981
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->public_huawei_drive:I
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -351,7 +351,7 @@
     .line 35
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f3e
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_box:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -362,7 +362,7 @@
     .line 36
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f4f
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_skydrive:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -373,7 +373,7 @@
     .line 37
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f40
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_clouddoc:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -384,7 +384,7 @@
     .line 38
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f44
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_evernote:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -395,7 +395,7 @@
     .line 39
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f58
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_yandex:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -406,7 +406,7 @@
     .line 40
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f3d
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_add:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -430,7 +430,7 @@
     .line 42
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f45
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_file:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -443,7 +443,7 @@
     .line 43
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f50
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_storage:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -458,7 +458,7 @@
     .line 44
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f59
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_youdao:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -473,7 +473,7 @@
     .line 45
     sget-object v0, Ld88;->d:Ljava/util/HashMap;
 
-    const v13, 0x7f080f3f
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_cloud:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -484,7 +484,7 @@
     .line 46
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v13, 0x7f081751
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_wps_webdav:I
 
     move-object/from16 v18, v2
 
@@ -497,7 +497,7 @@
     .line 47
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f08174e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_wps_ftp:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -508,7 +508,7 @@
     .line 48
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v13, 0x7f0811cb
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_dropbox:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -519,7 +519,7 @@
     .line 49
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v13, 0x7f0811cc
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_googledrive:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -530,7 +530,7 @@
     .line 50
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v13, 0x7f081981
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->public_huawei_drive:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -541,7 +541,7 @@
     .line 51
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811c8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_box:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -552,7 +552,7 @@
     .line 52
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811cd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_skydrive:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -563,7 +563,7 @@
     .line 53
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811c9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_clouddoc:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -574,7 +574,7 @@
     .line 54
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0807f6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_cloudstorage_evernote_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -585,7 +585,7 @@
     .line 55
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811ce
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_yandex:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -596,7 +596,7 @@
     .line 56
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_addwebdavftp:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -607,7 +607,7 @@
     .line 57
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0811c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_addwebdavftp:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -618,7 +618,7 @@
     .line 58
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f08082b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_icon_mydocuments:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -631,7 +631,7 @@
     .line 59
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f0810bd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_icon_baidu:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -644,7 +644,7 @@
     .line 60
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f081870
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_cloudstorage_icon_youdao_note:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -655,7 +655,7 @@
     .line 61
     sget-object v0, Ld88;->c:Ljava/util/HashMap;
 
-    const v2, 0x7f08186f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_cloudstorage_icon_weiyun:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -668,7 +668,7 @@
     .line 62
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f1206ec
+    sget v2, Lcom/resouce/module/ResSTRING;->dropbox:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -679,7 +679,7 @@
     .line 63
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f120d94
+    sget v2, Lcom/resouce/module/ResSTRING;->gdoc:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -703,7 +703,7 @@
     .line 65
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f12022f
+    sget v2, Lcom/resouce/module/ResSTRING;->boxnet:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -714,7 +714,7 @@
     .line 66
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f122f52
+    sget v2, Lcom/resouce/module/ResSTRING;->skydrive:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -725,7 +725,7 @@
     .line 67
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f120610
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -736,7 +736,7 @@
     .line 68
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f12206e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -747,7 +747,7 @@
     .line 69
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f12344b
+    sget v2, Lcom/resouce/module/ResSTRING;->yandex:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -758,7 +758,7 @@
     .line 70
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f12344d
+    sget v2, Lcom/resouce/module/ResSTRING;->youdao_note:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -769,7 +769,7 @@
     .line 71
     sget-object v0, Ld88;->f:Ljava/util/HashMap;
 
-    const v2, 0x7f1231ce
+    sget v2, Lcom/resouce/module/ResSTRING;->weiyun:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -780,7 +780,7 @@
     .line 72
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v2, 0x7f081751
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_wps_webdav:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -791,7 +791,7 @@
     .line 73
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f08174e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_wps_ftp:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -802,7 +802,7 @@
     .line 74
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811cb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_dropbox:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -813,7 +813,7 @@
     .line 75
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811cc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_googledrive:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -824,7 +824,7 @@
     .line 76
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f081981
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_huawei_drive:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -835,7 +835,7 @@
     .line 77
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811c8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_box:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -846,7 +846,7 @@
     .line 78
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811cd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_skydrive:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -857,7 +857,7 @@
     .line 79
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811c9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_clouddoc:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -868,7 +868,7 @@
     .line 80
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0807f6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_cloudstorage_evernote_icon:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -879,7 +879,7 @@
     .line 81
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f0811ce
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_yandex:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -890,7 +890,7 @@
     .line 82
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f081870
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_cloudstorage_icon_youdao_note:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -901,7 +901,7 @@
     .line 83
     sget-object v0, Ld88;->e:Ljava/util/HashMap;
 
-    const v1, 0x7f08186f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_cloudstorage_icon_weiyun:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -934,7 +934,7 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f0811ca
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_default:I
 
     :goto_0
     return p0
@@ -948,7 +948,7 @@
 
     move-result p1
 
-    const v0, 0x7f0811ca
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_default:I
 
     if-eqz p1, :cond_2
 
@@ -1056,7 +1056,7 @@
     return p0
 
     :cond_0
-    const p0, 0x7f0811ca
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_default:I
 
     return p0
 .end method
@@ -1080,12 +1080,12 @@
 
     if-ne p0, v0, :cond_0
 
-    const p0, 0x7f12206f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_evernote_title_zh:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f12206e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     return p0
 

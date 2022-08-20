@@ -930,7 +930,7 @@
 
     if-nez p2, :cond_7
 
-    const p2, 0x7f120691
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_searchnotfound:I
 
     .line 19
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
@@ -938,7 +938,7 @@
     goto :goto_3
 
     :cond_7
-    const p2, 0x7f120690
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     .line 20
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V

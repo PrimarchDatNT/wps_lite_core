@@ -282,7 +282,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/oldfont/controller/FontPay;->i:Lxk2;
 
-    const v1, 0x7f0810f8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_font:I
 
     const/4 v2, 0x0
 
@@ -296,7 +296,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1221b8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_packs:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

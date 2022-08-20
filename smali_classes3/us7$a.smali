@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lus7$a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121e71
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_protected_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -62,7 +62,7 @@
 
     iget-object v2, p0, Lus7$a;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122c0b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -77,7 +77,7 @@
 
     iget-object v2, p0, Lus7$a;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121e70
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_protected_now:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

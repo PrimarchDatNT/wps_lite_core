@@ -66,7 +66,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f122946
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0813
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_shape_grid:I
 
     const/4 v2, 0x0
 
@@ -154,7 +154,7 @@
     .line 6
     iget-object v0, p0, Lpyd;->V:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b20a2
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_shape_style_grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -207,7 +207,7 @@
     .line 11
     iget-object v1, p0, Lpyd;->V:Landroid/widget/ScrollView;
 
-    const v2, 0x7f12294b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style1:I
 
     invoke-static {v2, v1}, Lqoe;->a(ILandroid/view/View;)Lnk3$a;
 
@@ -220,7 +220,7 @@
 
     iget-object v1, p0, Lpyd;->W:Landroid/widget/ScrollView;
 
-    const v2, 0x7f12294c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style2:I
 
     invoke-static {v2, v1}, Lqoe;->a(ILandroid/view/View;)Lnk3$a;
 
@@ -233,7 +233,7 @@
 
     iget-object v1, p0, Lpyd;->X:Landroid/widget/ScrollView;
 
-    const v2, 0x7f12294d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style3:I
 
     invoke-static {v2, v1}, Lqoe;->a(ILandroid/view/View;)Lnk3$a;
 
@@ -246,7 +246,7 @@
 
     iget-object v1, p0, Lpyd;->Y:Landroid/widget/ScrollView;
 
-    const v2, 0x7f12294e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style4:I
 
     invoke-static {v2, v1}, Lqoe;->a(ILandroid/view/View;)Lnk3$a;
 

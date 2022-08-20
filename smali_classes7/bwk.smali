@@ -30,7 +30,7 @@
 
     invoke-direct {p1}, Lyyl;-><init>()V
 
-    const v0, 0x7f0b0281
+    sget v0, Lcom/resouce/module/ResID;->bottom_tool_item:I
 
     .line 3
     invoke-virtual {p1, v0}, Lyyl;->w(I)V

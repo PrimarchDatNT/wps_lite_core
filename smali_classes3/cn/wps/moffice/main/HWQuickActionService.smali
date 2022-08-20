@@ -128,9 +128,9 @@
     .line 2
     const-class v0, Lcn/wps/moffice/main/AllDocAction;
 
-    const v1, 0x7f1205f1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_open_alldocuments:I
 
-    const v2, 0x7f080940
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ic_quickaction_all_doc:I
 
     invoke-virtual {p0, v0, v1, v2}, Lcn/wps/moffice/main/HWQuickActionService;->a(Ljava/lang/Class;II)Lcom/huawei/android/quickaction/QuickAction;
 
@@ -141,9 +141,9 @@
     .line 3
     const-class v0, Lcn/wps/moffice/main/NewDocAction;
 
-    const v1, 0x7f12251b    # 1.9425995E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
-    const v2, 0x7f080941
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ic_quickaction_new_doc:I
 
     invoke-virtual {p0, v0, v1, v2}, Lcn/wps/moffice/main/HWQuickActionService;->a(Ljava/lang/Class;II)Lcom/huawei/android/quickaction/QuickAction;
 

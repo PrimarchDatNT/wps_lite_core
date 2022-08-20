@@ -41,7 +41,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122fc7
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_export_pages_title_tips:I
 
     .line 2
     invoke-static {p1, p2}, Lsjf;->k(II)V

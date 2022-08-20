@@ -40,17 +40,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_Default_Animation:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f13012b
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_DropDown_TransparentDialog:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V

@@ -171,7 +171,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e02c3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_file_item_check_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -184,7 +184,7 @@
 
     invoke-direct {p3, p0, v1}, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;-><init>(Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g;Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$a;)V
 
-    const v1, 0x7f0b0cd4
+    sget v1, Lcom/resouce/module/ResID;->file_icon_iv:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0ceb
+    sget v1, Lcom/resouce/module/ResID;->file_name_tv:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0ce4
+    sget v1, Lcom/resouce/module/ResID;->file_message_tv:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0d32
+    sget v1, Lcom/resouce/module/ResID;->file_status_iv:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0d33
+    sget v1, Lcom/resouce/module/ResID;->file_status_tv:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -239,7 +239,7 @@
 
     iput-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0cb2
+    sget v1, Lcom/resouce/module/ResID;->file_checking_pb:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
     .line 25
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->d:Landroid/widget/ImageView;
 
-    const p3, 0x7f08190f
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_item_done:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -406,7 +406,7 @@
     .line 28
     iget-object v1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->d:Landroid/widget/ImageView;
 
-    const v8, 0x7f081910
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_item_error:I
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -430,7 +430,7 @@
     .line 32
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f121d8d
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_has_read_pwd:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -452,7 +452,7 @@
     .line 35
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f121d8e
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_has_write_pwd:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -474,7 +474,7 @@
     .line 38
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f121d8b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_editing:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -496,7 +496,7 @@
     .line 41
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f121d8c
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_has_pwd:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -518,7 +518,7 @@
     .line 44
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f122b46
+    sget p3, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -542,7 +542,7 @@
     .line 47
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f121d8f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_protect_doc:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -572,7 +572,7 @@
     .line 51
     iget-object p1, p3, Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView$g$a;->e:Landroid/widget/TextView;
 
-    const p3, 0x7f121d95
+    sget p3, Lcom/resouce/module/ResSTRING;->public_batch_slim_no_start:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 

@@ -186,7 +186,7 @@
     :cond_0
     iget-object p1, p0, Lhuc;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1205a6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     const/4 v1, 0x0
 

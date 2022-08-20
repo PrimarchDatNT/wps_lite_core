@@ -224,7 +224,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e05c1
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_public_new_right_app_item:I
 
     const/4 v5, 0x0
 
@@ -414,7 +414,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05c1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_new_right_app_item:I
 
     const/4 v2, 0x0
 
@@ -425,7 +425,7 @@
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const v0, 0x7f0b19fc
+    sget v0, Lcom/resouce/module/ResID;->new_home_right_app_item:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

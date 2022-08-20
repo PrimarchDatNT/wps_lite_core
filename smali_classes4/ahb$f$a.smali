@@ -61,7 +61,7 @@
     .line 3
     instance-of v3, v1, Lf8f;
 
-    const v4, 0x7f122a73
+    sget v4, Lcom/resouce/module/ResSTRING;->public_task_center_retry_unsppport:I
 
     const-string v5, "fileid"
 

@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12236b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_dialog_tip:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

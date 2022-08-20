@@ -32,7 +32,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f12317f
+    sget v0, Lcom/resouce/module/ResSTRING;->url_file_collect:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -54,7 +54,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f122caa
+    sget v0, Lcom/resouce/module/ResSTRING;->push_url_eng:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -75,7 +75,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1230ed
+    sget v0, Lcom/resouce/module/ResSTRING;->transferred_file_url:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

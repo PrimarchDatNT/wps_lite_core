@@ -105,7 +105,7 @@
 
     iget-object v0, v0, Loh9$a0;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081fcc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -117,7 +117,7 @@
 
     iget-object v0, v0, Loh9$a0;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081626    # 1.8089E38f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -136,7 +136,7 @@
 
     check-cast v2, Llq9;
 
-    const v0, 0x7f0b2e88
+    sget v0, Lcom/resouce/module/ResID;->tag_position:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

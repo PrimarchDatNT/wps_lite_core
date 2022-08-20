@@ -21,7 +21,7 @@
     .line 2
     iput-object p1, p0, Lwi9;->b:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0c39
+    sget v0, Lcom/resouce/module/ResID;->ext_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -32,7 +32,7 @@
 
     iput-object v0, p0, Lwi9;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0c3a
+    sget v0, Lcom/resouce/module/ResID;->ext_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

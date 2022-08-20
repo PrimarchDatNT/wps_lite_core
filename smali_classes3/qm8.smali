@@ -541,7 +541,7 @@
     .line 1
     iget-object v0, p0, Lqm8;->d:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b1588
+    sget v1, Lcom/resouce/module/ResID;->left:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -1326,7 +1326,7 @@
 
     if-eqz v2, :cond_1
 
-    const v3, 0x7f0b0768
+    sget v3, Lcom/resouce/module/ResID;->document_root:I
 
     .line 5
     invoke-virtual {v0, v3, v2, p2}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;
@@ -1372,7 +1372,7 @@
     .line 2
     iget-object v1, p0, Lpm8;->a:Landroid/app/Activity;
 
-    const v2, 0x7f0b1599
+    sget v2, Lcom/resouce/module/ResID;->left_tab:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1447,7 +1447,7 @@
 
     invoke-direct {v1}, Lcn/wps/moffice/main/local/home/PadNewRightFragment;-><init>()V
 
-    const v2, 0x7f0b1588
+    sget v2, Lcom/resouce/module/ResID;->left:I
 
     .line 4
     invoke-virtual {v1}, Lcn/wps/moffice/main/framework/pad/fragment/AbsFragment;->z()Ljava/lang/String;
@@ -1480,7 +1480,7 @@
     .line 1
     iget-object v0, p0, Lpm8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b0768
+    sget v1, Lcom/resouce/module/ResID;->document_root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

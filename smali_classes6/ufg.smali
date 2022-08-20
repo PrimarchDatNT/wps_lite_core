@@ -538,7 +538,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121cb8
+    sget v5, Lcom/resouce/module/ResSTRING;->private_app_merge_btn:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -856,7 +856,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d43
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_file_common_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -928,7 +928,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cb9
+    sget v1, Lcom/resouce/module/ResSTRING;->private_app_spilt_merge_floder:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

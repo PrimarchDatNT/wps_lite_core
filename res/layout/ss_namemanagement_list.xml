@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:id="@id/ss_namemanagement_list_root" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/public_toolbar_popupwindow_padding_vertical" android:layout_weight="1.0">
-        <TextView android:textSize="13.0dip" android:gravity="center" android:id="@id/ss_namemanagement_list_empty_tips" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/et_name_empty_tips" style="@style/phone_public_font_m_gray" />
-        <ListView android:id="@id/ss_namemanagement_list_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/public_list_selector_bg_special" android:divider="@color/lineColor" />
-    </FrameLayout>
-    <Button android:textSize="13.0dip" android:layout_gravity="center_horizontal" android:id="@id/ss_namemanagement_list_new_btn" android:background="@drawable/pad_operator_btn_bg" android:focusable="false" android:layout_width="238.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="@dimen/public_toolbar_popupwindow_padding_vertical" android:text="@string/et_name_define" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
-</merge>

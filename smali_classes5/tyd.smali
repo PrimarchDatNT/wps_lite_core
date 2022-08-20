@@ -73,7 +73,7 @@
     .line 3
     iget-object v0, p0, Ltyd;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b219d
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_styles_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08ee
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_insert:I
 
     const/4 v2, 0x0
 
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2195
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_content_anchor:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iget-object v3, p0, Luyd;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v4, 0x7f13013c
+    sget v4, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     const/4 v5, 0x0
 
@@ -217,7 +217,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08ef
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_insert_dialog_land:I
 
     const/4 v2, 0x0
 
@@ -250,7 +250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08f0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_insert_dialog_port:I
 
     const/4 v2, 0x0
 
@@ -289,7 +289,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08f2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_insert_styles:I
 
     const/4 v2, 0x0
 
@@ -299,7 +299,7 @@
 
     iput-object v0, p0, Ltyd;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b219b
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_styles_anchor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08f1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_table_insert_preview:I
 
     const/4 v2, 0x0
 
@@ -442,7 +442,7 @@
 
     iput-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b219a
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_row_wheel:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
     .line 3
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2194
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_column_wheel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
     .line 4
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b3365
+    sget v1, Lcom/resouce/module/ResID;->ver_up_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -480,7 +480,7 @@
     .line 5
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b3364
+    sget v1, Lcom/resouce/module/ResID;->ver_down_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -491,7 +491,7 @@
     .line 6
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1201
+    sget v1, Lcom/resouce/module/ResID;->horizon_pre_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
     .line 7
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1200
+    sget v1, Lcom/resouce/module/ResID;->horizon_next_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -513,7 +513,7 @@
     .line 8
     iget-object v0, p0, Ltyd;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2197
+    sget v1, Lcom/resouce/module/ResID;->phone_table_insert_preview_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060009
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -739,7 +739,7 @@
 .method public final k(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b219e
+    sget v0, Lcom/resouce/module/ResID;->phone_table_insert_titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -748,7 +748,7 @@
 
     iput-object v0, p0, Ltyd;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b2196
+    sget v0, Lcom/resouce/module/ResID;->phone_table_insert_ok:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -759,7 +759,7 @@
 
     iput-object v0, p0, Ltyd;->e0:Landroid/widget/Button;
 
-    const v0, 0x7f0b2193
+    sget v0, Lcom/resouce/module/ResID;->phone_table_insert_cancel:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -783,7 +783,7 @@
     .line 6
     iget-object p1, p0, Ltyd;->c0:Landroid/view/View;
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -796,7 +796,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -907,7 +907,7 @@
     iget-object p1, p0, Ltyd;->g0:Landroid/view/ViewGroup;
 
     :goto_1
-    const v0, 0x7f0b2199
+    sget v0, Lcom/resouce/module/ResID;->phone_table_insert_preview_group_anchor:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -922,7 +922,7 @@
 
     invoke-virtual {v0, v1, v2, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
-    const v0, 0x7f0b219c
+    sget v0, Lcom/resouce/module/ResID;->phone_table_insert_styles_group_anchor:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

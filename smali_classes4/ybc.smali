@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0795
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_coverpen_bottompanel_popwindow:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b8
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_square:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 3
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b6
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_round:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 4
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b9
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_square_penhead:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
     .line 5
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b7
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_round_penhead:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
     .line 6
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bb
+    sget v1, Lcom/resouce/module/ResID;->coverpen_color_white:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
     .line 7
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05ba
+    sget v1, Lcom/resouce/module/ResID;->coverpen_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -155,7 +155,7 @@
     .line 8
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bd
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_0_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
     .line 9
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bf
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_1_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
     .line 10
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c1
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_2_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
     .line 11
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c3
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_3_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -231,7 +231,7 @@
     .line 12
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c5
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_4_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -250,7 +250,7 @@
     .line 13
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bc
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 14
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05be
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
     .line 15
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c0
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -289,7 +289,7 @@
     .line 16
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c2
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -302,7 +302,7 @@
     .line 17
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c4
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -381,7 +381,7 @@
     .line 1
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b8
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_square:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -406,7 +406,7 @@
     .line 2
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b6
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_round:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -431,7 +431,7 @@
     .line 3
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b9
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_square_penhead:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -452,7 +452,7 @@
     .line 4
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05b7
+    sget v1, Lcom/resouce/module/ResID;->coverpen_cap_round_penhead:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 5
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bb
+    sget v1, Lcom/resouce/module/ResID;->coverpen_color_white:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -510,7 +510,7 @@
     .line 6
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05ba
+    sget v1, Lcom/resouce/module/ResID;->coverpen_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     .line 7
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05bc
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
     .line 8
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05be
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 9
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c0
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -646,7 +646,7 @@
     .line 10
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c2
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -681,7 +681,7 @@
     .line 11
     iget-object v0, p0, Lybc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b05c4
+    sget v1, Lcom/resouce/module/ResID;->coverpen_thickness_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

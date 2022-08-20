@@ -40,9 +40,9 @@
     .line 10
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Merger$6;
 
-    const v1, 0x7f080e8f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_merge_doc_et:I
 
-    const v2, 0x7f1219c0
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Merger$6;-><init>(Lcn/wps/moffice/spreadsheet/control/Merger;II)V
 
@@ -51,9 +51,9 @@
     .line 11
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Merger$7;
 
-    const v1, 0x7f080e80
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_extract_pages_et:I
 
-    const v2, 0x7f1219be
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_extract_sheet:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Merger$7;-><init>(Lcn/wps/moffice/spreadsheet/control/Merger;II)V
 
@@ -66,22 +66,22 @@
 
     if-eqz v1, :cond_0
 
-    const v3, 0x7f080461
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_merging_splitting:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f080e3f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_merging_splitting_et:I
 
     :goto_0
     if-eqz v1, :cond_1
 
-    const v1, 0x7f120c6c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_combine_split_cell:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f122a5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     :goto_1
     invoke-direct {v0, p0, v3, v1}, Lcn/wps/moffice/spreadsheet/control/Merger$8;-><init>(Lcn/wps/moffice/spreadsheet/control/Merger;II)V
@@ -95,12 +95,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f08048c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080e7f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_extract_pages:I
 
     :goto_2
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Merger$9;-><init>(Lcn/wps/moffice/spreadsheet/control/Merger;II)V
@@ -150,21 +150,21 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080491
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
-    const v4, 0x7f080491
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080e8e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_merge_doc:I
 
-    const v4, 0x7f080e8e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_merge_doc:I
 
     :goto_0
-    const v5, 0x7f1219c0
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge:I
 
-    const v3, 0x7f1219c0
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge:I
 
     move-object v0, v8
 
@@ -183,11 +183,11 @@
     .line 3
     new-instance v7, Lcn/wps/moffice/spreadsheet/control/Merger$2;
 
-    const v3, 0x7f080442
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_extract_table_b:I
 
-    const v4, 0x7f1219b9
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
-    const v5, 0x7f1219ba
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet_des:I
 
     const-string v6, "phone_ss_sheet"
 
@@ -221,11 +221,11 @@
 
     new-instance v9, Lcn/wps/moffice/spreadsheet/control/Merger$3;
 
-    const v3, 0x7f080440
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_extract_file_b:I
 
-    const v4, 0x7f1219c1
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
-    const v5, 0x7f1219c2
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet_des:I
 
     const-string v6, "phone_ss_file"
 
@@ -404,7 +404,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0f66
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_merge_file_dialog:I
 
     const/4 v3, 0x0
 
@@ -419,7 +419,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b0533
+    sget v4, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 4
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -451,7 +451,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f0707b8
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -471,7 +471,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f0b068e
+    sget v2, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -531,7 +531,7 @@
 
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/Merger$b;-><init>(Lcn/wps/moffice/spreadsheet/control/Merger;Lhd3;)V
 
-    const p1, 0x7f0b187f
+    sget p1, Lcom/resouce/module/ResID;->merge_sheet_btn:I
 
     .line 20
     invoke-virtual {v1, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -540,7 +540,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1874
+    sget p1, Lcom/resouce/module/ResID;->merge_file_icon:I
 
     .line 21
     invoke-virtual {v1, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -549,7 +549,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p0, 0x7f0b04f7
+    sget p0, Lcom/resouce/module/ResID;->concat_vip_icon:I
 
     .line 22
     invoke-virtual {v1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
     invoke-static {p0, p1}, Lka3;->r0(Landroid/view/View;I)V
 
     :cond_1
-    const p0, 0x7f0b15b1
+    sget p0, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 25
     invoke-virtual {v1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
 
     check-cast p0, Landroid/widget/TextView;
 
-    const p1, 0x7f0b15b3
+    sget p1, Lcom/resouce/module/ResID;->limit_free_file_btn:I
 
     .line 26
     invoke-virtual {v1, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1881
+    sget v2, Lcom/resouce/module/ResID;->merge_sheet_text:I
 
     .line 27
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -596,7 +596,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b1878
+    sget v3, Lcom/resouce/module/ResID;->merge_file_text:I
 
     .line 28
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -763,17 +763,17 @@
 
     invoke-direct {v2, v4, v5}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v4, 0x7f120b89
+    sget v4, Lcom/resouce/module/ResSTRING;->et_merge_cells_warning:I
 
     .line 8
     invoke-virtual {v2, v4}, Lhd3;->setMessage(I)Lhd3;
 
-    const v4, 0x7f122fdb
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_merge_cells_warning_title:I
 
     .line 9
     invoke-virtual {v2, v4}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v4, 0x7f122a5a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     .line 10
     new-instance v5, Lcn/wps/moffice/spreadsheet/control/Merger$a;
@@ -782,7 +782,7 @@
 
     invoke-virtual {v2, v4, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

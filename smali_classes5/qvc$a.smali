@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1dcb
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_ok:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1dce
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_save:I
 
     if-ne p1, v0, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1dee
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     if-ne p1, v0, :cond_2
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1dcd
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_redo:I
 
     if-ne p1, v0, :cond_3
 

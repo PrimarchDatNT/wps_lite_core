@@ -22,9 +22,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Redoer$1;
 
-    const v1, 0x7f080e73
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_titlebar_nextstep:I
 
-    const v2, 0x7f1227e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Redoer$1;-><init>(Lcn/wps/moffice/spreadsheet/control/Redoer;II)V
 

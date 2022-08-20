@@ -132,7 +132,7 @@
 .method public g(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e0eba
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_weichat_new_sharefolder_edit_name_page:I
 
     const/4 v1, 0x0
 
@@ -141,7 +141,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0849
+    sget p2, Lcom/resouce/module/ResID;->edittext:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     iput-object p2, p0, Lul7;->d:Landroid/widget/EditText;
 
-    const p2, 0x7f0b1a23
+    sget p2, Lcom/resouce/module/ResID;->next_step_btn:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     iput-object p2, p0, Lul7;->e:Landroid/view/View;
 
-    const p2, 0x7f0b3196
+    sget p2, Lcom/resouce/module/ResID;->tv_guide_desc:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iput-object p2, p0, Lul7;->g:Landroid/widget/TextView;
 
-    const p2, 0x7f0b31e1
+    sget p2, Lcom/resouce/module/ResID;->tv_msg_1:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object p2, p0, Lul7;->h:Landroid/widget/TextView;
 
-    const p2, 0x7f0b31e2
+    sget p2, Lcom/resouce/module/ResID;->tv_msg_2:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     iput-object p2, p0, Lul7;->i:Landroid/widget/TextView;
 
-    const p2, 0x7f0b31e3
+    sget p2, Lcom/resouce/module/ResID;->tv_msg_3:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f122f2c
+    sget v2, Lcom/resouce/module/ResSTRING;->share_wechat_folder_guide_tip:I
 
     invoke-virtual {p1, v2, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -348,21 +348,21 @@
     .line 2
     iget-object p1, p0, Lul7;->h:Landroid/widget/TextView;
 
-    const v0, 0x7f122f29
+    sget v0, Lcom/resouce/module/ResSTRING;->share_wechat_folder_guide_1:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object p1, p0, Lul7;->i:Landroid/widget/TextView;
 
-    const v0, 0x7f122f2a
+    sget v0, Lcom/resouce/module/ResSTRING;->share_wechat_folder_guide_2:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 4
     iget-object p1, p0, Lul7;->j:Landroid/widget/TextView;
 
-    const v0, 0x7f122f2b
+    sget v0, Lcom/resouce/module/ResSTRING;->share_wechat_folder_guide_3:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -433,7 +433,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229b3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_sharefolder_template_wechat_folder:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

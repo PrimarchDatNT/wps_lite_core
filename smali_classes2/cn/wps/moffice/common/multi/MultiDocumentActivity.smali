@@ -935,7 +935,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0602cd
+    sget v0, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     .line 4
     :goto_0
@@ -2476,7 +2476,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122812
+    sget v2, Lcom/resouce/module/ResSTRING;->public_return_document:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

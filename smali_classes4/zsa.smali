@@ -80,7 +80,7 @@
 
     if-eqz v2, :cond_1
 
-    const p3, 0x7f1205a0
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_feedback:I
 
     .line 7
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -88,7 +88,7 @@
     move-result-object p3
 
     :cond_1
-    const v2, 0x7f12286e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_model_less:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

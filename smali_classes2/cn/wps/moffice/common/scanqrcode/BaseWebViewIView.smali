@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7d
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7c
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -648,7 +648,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/scanqrcode/BaseWebViewIView;->mActivity:Lcn/wps/moffice/common/scanqrcode/BaseWebViewActivity;
 
-    const v1, 0x7f120708
+    sget v1, Lcom/resouce/module/ResSTRING;->en_can_not_use_now:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -709,7 +709,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03bb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_third_login:I
 
     const/4 v2, 0x0
 

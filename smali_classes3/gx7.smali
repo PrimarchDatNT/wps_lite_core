@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202ad
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_protocol_default_cn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202ae
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_protocol_default_en_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f130135
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     const/4 v2, 0x0
 
@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12060c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_wpscloud_service:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -261,7 +261,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

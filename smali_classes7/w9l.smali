@@ -255,7 +255,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0802ca
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -268,7 +268,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f06069a
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_true_black:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -279,7 +279,7 @@
 
     new-instance v1, Ls9l;
 
-    const v3, 0x7f060696
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_gray:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -290,7 +290,7 @@
 
     new-instance v1, Ls9l;
 
-    const v3, 0x7f0606c7
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_public_edit_background_light_blue:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -301,7 +301,7 @@
 
     new-instance v1, Ls9l;
 
-    const v3, 0x7f0606c8
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_public_edit_background_light_orange:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -312,7 +312,7 @@
 
     new-instance v1, Ls9l;
 
-    const v3, 0x7f081f96
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_eye_protection_green:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -323,7 +323,7 @@
 
     new-instance v1, Ls9l;
 
-    const v3, 0x7f081f98
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_light_pink:I
 
     invoke-direct {v1, v2, v3}, Ls9l;-><init>(II)V
 
@@ -470,7 +470,7 @@
 
     iput-object v0, p0, Lw9l;->d0:Ljava/lang/String;
 
-    const v0, 0x7f0e09cc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_edit_bg_more:I
 
     const/4 v1, 0x0
 
@@ -509,7 +509,7 @@
     .line 6
     iget-object v1, p0, Lw9l;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v3, 0x7f1233ce
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_page_background:I
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 
@@ -530,7 +530,7 @@
 
     iput-object v0, p0, Lw9l;->i0:Ljava/util/List;
 
-    const v0, 0x7f0b0f47
+    sget v0, Lcom/resouce/module/ResID;->gridview:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1080,7 +1080,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

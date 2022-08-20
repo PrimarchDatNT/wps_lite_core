@@ -54,7 +54,7 @@
     .line 2
     iput-boolean v0, p0, Lzad;->e:Z
 
-    const v1, 0x7f0819c7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 3
     iput v1, p0, Lzad;->f:I

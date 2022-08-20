@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_file_selector_local_gridlayout:I
 
     const/4 v2, 0x0
 
@@ -297,7 +297,7 @@
     .line 6
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1102
+    sget v1, Lcom/resouce/module/ResID;->home_open_whatsapp_doc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 7
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1100
+    sget v1, Lcom/resouce/module/ResID;->home_open_telegram_doc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
     .line 8
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b10e1
+    sget v1, Lcom/resouce/module/ResID;->home_open_download:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
     .line 9
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b10ec
+    sget v1, Lcom/resouce/module/ResID;->home_open_mydoc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 10
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b10db
+    sget v1, Lcom/resouce/module/ResID;->home_open_camera:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -372,7 +372,7 @@
     .line 13
     iget-object v0, p0, Ltk8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b10ef
+    sget v1, Lcom/resouce/module/ResID;->home_open_phone_storage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -392,7 +392,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e06ca
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_file_select_recent_list:I
 
     return v0
 .end method
@@ -581,7 +581,7 @@
 
     iput-object v0, p0, Ltk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2983
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_refresh_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -609,7 +609,7 @@
     .line 7
     iget-object v0, p0, Ltk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0d1f
+    sget v1, Lcom/resouce/module/ResID;->file_select_recent_content_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -622,7 +622,7 @@
     .line 8
     iget-object v0, p0, Ltk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0d5d
+    sget v1, Lcom/resouce/module/ResID;->fileselect_list_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -633,7 +633,7 @@
     .line 9
     iget-object v0, p0, Ltk8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -61,7 +61,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayFullScreenProgressDialog;->mUIHandler:Landroid/os/Handler;
 
-    const p1, 0x7f0e0e42
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_shareplay_full_screen_progress:I
 
     .line 6
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -230,7 +230,7 @@
 .method private downloadAgoraPlugin(Ljava/lang/Runnable;Lu35$a;Lcn/wps/moffice/common/shareplay/SharePlayBundleData;)V
     .locals 12
 
-    const v0, 0x7f0b2723
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v2, 0x7f0b2724
+    sget v2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2738
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -406,7 +406,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayFullScreenProgressDialog;->mTitleBar:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f121c1f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_shareplay:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -423,7 +423,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2734
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_progress_cancel_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -442,7 +442,7 @@
 .method private showDownloadFile(Ljava/lang/Runnable;Lu35$a;Lcn/wps/moffice/common/shareplay/SharePlayBundleData;)V
     .locals 10
 
-    const v0, 0x7f0b2723
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v2, 0x7f0b2724
+    sget v2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -687,7 +687,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f122ffe
+    sget v3, Lcom/resouce/module/ResSTRING;->start_web_shareplay_fail:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -91,7 +91,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -289,7 +289,7 @@
 
     iget-object v2, p0, Lbog;->B:Landroid/content/Context;
 
-    const v3, 0x7f120856
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_finish_tv_content:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -504,7 +504,7 @@
 
     iget-object v2, p0, Lbog;->B:Landroid/content/Context;
 
-    const v3, 0x7f120856
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_finish_tv_content:I
 
     new-array v4, v0, [Ljava/lang/Object;
 
@@ -658,7 +658,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01e6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_filter_dialog:I
 
     const/4 v2, 0x0
 
@@ -708,7 +708,7 @@
     .line 7
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2df6
+    sget v1, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -735,7 +735,7 @@
     .line 10
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2863
+    sget v1, Lcom/resouce/module/ResID;->recycler_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -748,7 +748,7 @@
     .line 11
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0342
+    sget v1, Lcom/resouce/module/ResID;->cancel_tv:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -764,7 +764,7 @@
     .line 13
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2db5    # 1.8500002E38f
+    sget v1, Lcom/resouce/module/ResID;->status_tv:I    # 1.8500002E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
     .line 15
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -793,7 +793,7 @@
     .line 16
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0d8c
+    sget v1, Lcom/resouce/module/ResID;->finish_tv:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -809,7 +809,7 @@
     .line 18
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b06c4
+    sget v1, Lcom/resouce/module/ResID;->divide:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -820,7 +820,7 @@
     .line 19
     iget-object v0, p0, Lbog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2db2    # 1.8499996E38f
+    sget v1, Lcom/resouce/module/ResID;->status_fl:I    # 1.8499996E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -960,12 +960,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122551
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_1
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -987,7 +987,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1004,7 +1004,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1021,7 +1021,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060625
+    sget v2, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1038,7 +1038,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1055,7 +1055,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1072,7 +1072,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1089,7 +1089,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f060519
+    sget v3, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -1129,7 +1129,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0342
+    sget v0, Lcom/resouce/module/ResID;->cancel_tv:I
 
     if-ne p1, v0, :cond_0
 
@@ -1139,7 +1139,7 @@
     goto/16 :goto_8
 
     :cond_0
-    const v0, 0x7f0b0d8c
+    sget v0, Lcom/resouce/module/ResID;->finish_tv:I
 
     const/4 v1, 0x0
 
@@ -1165,7 +1165,7 @@
     goto/16 :goto_8
 
     :cond_2
-    const v0, 0x7f0b2db5    # 1.8500002E38f
+    sget v0, Lcom/resouce/module/ResID;->status_tv:I    # 1.8500002E38f
 
     if-ne p1, v0, :cond_d
 
@@ -1222,7 +1222,7 @@
 
     sub-int/2addr p1, v2
 
-    const v2, 0x7f120858
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_limit_max_tip:I
 
     if-lez p1, :cond_8
 
@@ -1365,7 +1365,7 @@
 
     iget-object v3, p0, Lbog;->B:Landroid/content/Context;
 
-    const v4, 0x7f120856
+    sget v4, Lcom/resouce/module/ResSTRING;->et_export_card_finish_tv_content:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -1385,7 +1385,7 @@
     :cond_c
     iget-object v0, p0, Lbog;->B:Landroid/content/Context;
 
-    const v1, 0x7f120855
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_finish:I
 
     .line 28
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

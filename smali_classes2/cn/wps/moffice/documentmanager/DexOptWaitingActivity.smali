@@ -252,7 +252,7 @@
     .line 5
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0025
+    sget p1, Lcom/resouce/module/ResLAYOUT;->activity_dexopt:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

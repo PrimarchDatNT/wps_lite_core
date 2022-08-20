@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f080312
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_new_blank_note_wpsmember:I
 
     const/4 v1, 0x0
 
@@ -138,7 +138,7 @@
 
     if-eqz v2, :cond_0
 
-    const v0, 0x7f080311
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_new_blank_note_wps_premium:I
 
     .line 3
     :cond_0
@@ -418,7 +418,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06062d
+    sget v3, Lcom/resouce/module/ResCOLOR;->switchOnColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -566,7 +566,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

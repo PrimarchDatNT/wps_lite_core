@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/public_insertshapes_layout" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/public_insert_shape_content_width" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/public_insertshapes_viewpager" android:layout_width="@dimen/public_insert_shape_content_width" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <cn.wps.moffice.common.beans.phone.indicator.DotPageIndicator android:gravity="center" android:id="@id/public_insertshapes_indicator" android:paddingTop="@dimen/public_insert_shape_indicator_padding_topbottom" android:paddingBottom="@dimen/public_insert_shape_indicator_padding_topbottom" android:layout_width="@dimen/public_insert_shape_content_width" android:layout_height="wrap_content" />
-</LinearLayout>

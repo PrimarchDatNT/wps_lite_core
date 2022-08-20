@@ -1491,7 +1491,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ff7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel:I
 
     return v0
 .end method
@@ -1767,7 +1767,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1de5
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_top_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1778,7 +1778,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1de4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_title_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1791,7 +1791,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dda
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_content_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1804,7 +1804,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1de2
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_keyboard:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1815,7 +1815,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1de3
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_prop:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1826,7 +1826,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1de1
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_hide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -77,7 +77,7 @@
 
     move-result v1
 
-    const v2, 0x7f1213fd
+    sget v2, Lcom/resouce/module/ResSTRING;->msg_center_api_host:I
 
     if-nez v1, :cond_0
 

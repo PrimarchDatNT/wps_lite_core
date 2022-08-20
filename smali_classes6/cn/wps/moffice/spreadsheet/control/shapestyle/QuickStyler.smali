@@ -32,9 +32,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyler$2;
 
-    const v1, 0x7f080c6c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_quick_style_et:I
 
-    const v2, 0x7f122fe7
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_shape_style:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyler$2;-><init>(Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyler;II)V
 
@@ -328,7 +328,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d79
+    sget v1, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyler;->S:Lcn/wps/moffice/spreadsheet/control/shapestyle/ShapeStyleFragment;
 

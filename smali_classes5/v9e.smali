@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120694
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_mail:I
 
     const/4 v2, 0x0
 
@@ -203,7 +203,7 @@
 
     move-result-object v4
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -236,7 +236,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122987
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 13
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -324,7 +324,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060657
+    sget v4, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

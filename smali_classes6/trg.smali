@@ -87,7 +87,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0ab3
+    sget v2, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     if-eqz v1, :cond_1
 
@@ -136,7 +136,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    const v2, 0x7f0b0ab1
+    sget v2, Lcom/resouce/module/ResID;->et_main_top:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0c06
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_fontname_dialog:I
 
     const/4 v3, 0x1
 

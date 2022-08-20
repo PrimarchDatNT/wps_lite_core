@@ -886,7 +886,7 @@
     :catch_0
     move-exception v0
 
-    const v2, 0x7f121358
+    sget v2, Lcom/resouce/module/ResSTRING;->load_data_fail:I
 
     .line 39
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1143,7 +1143,7 @@
 
     invoke-static {p1, v0}, Lhh5;->e(Landroid/view/Window;Z)V
 
-    const p1, 0x7f0e004c
+    sget p1, Lcom/resouce/module/ResLAYOUT;->activity_photo_viewer:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

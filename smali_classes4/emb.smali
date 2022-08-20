@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lhf2;Lwj2;)V
     .locals 9
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d6d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pay_sku_dialog_layout:I
 
     const/4 v2, 0x0
 

@@ -111,7 +111,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120698
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_send_characters_with_spaces:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

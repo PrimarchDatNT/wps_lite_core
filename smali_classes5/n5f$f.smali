@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120716
+    sget v1, Lcom/resouce/module/ResSTRING;->en_pay_privacy_policy:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202cc
+    sget v2, Lcom/resouce/module/ResSTRING;->collection_provider_cn_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121342
+    sget v2, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_en:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -154,7 +154,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$v;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121951
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -179,7 +179,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$v;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12227d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_cloud_group_count_limit:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -189,7 +189,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$v;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121951
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 

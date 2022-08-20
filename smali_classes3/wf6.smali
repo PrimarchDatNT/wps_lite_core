@@ -302,7 +302,7 @@
 
     if-nez v4, :cond_1
 
-    const v4, 0x7f1218c4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_promote_title:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -346,7 +346,7 @@
     .line 13
     invoke-virtual {v3, v4}, Lgf3;->h(Ljava/lang/String;)V
 
-    const v5, 0x7f121886
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_paypage_cloud_space_txt:I
 
     .line 14
     invoke-virtual {p2, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -435,14 +435,14 @@
     .line 3
     new-instance v2, Lnq2$a;
 
-    const v3, 0x7f122609
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_to_doc_privilege_desc_1:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f080789
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_pdf_to_doc_privilege_1:I
 
     invoke-direct {v2, v4, v3}, Lnq2$a;-><init>(ILjava/lang/String;)V
 
@@ -452,14 +452,14 @@
     .line 6
     new-instance v2, Lnq2$a;
 
-    const v3, 0x7f12260a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_to_doc_privilege_desc_2:I
 
     .line 7
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f08078a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_pdf_to_doc_privilege_2:I
 
     invoke-direct {v2, v4, v3}, Lnq2$a;-><init>(ILjava/lang/String;)V
 
@@ -469,14 +469,14 @@
     .line 9
     new-instance v2, Lnq2$a;
 
-    const v3, 0x7f12260b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_to_doc_privilege_desc_3:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v3, 0x7f08078b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_pdf_to_doc_privilege_3:I
 
     invoke-direct {v2, v3, v1}, Lnq2$a;-><init>(ILjava/lang/String;)V
 
@@ -616,9 +616,9 @@
 
     move-result v1
 
-    const v2, 0x7f030022
+    sget v2, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
-    const v3, 0x7f030023
+    sget v3, Lcom/resouce/module/ResARRAY;->func_guide_template_privileges_names:I
 
     const-string v4, "wps_premium"
 
@@ -1161,7 +1161,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1226a7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_premium_subscribe_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1171,7 +1171,7 @@
 
     invoke-direct {v1, p0}, Lwf6$a;-><init>(Lwf6;)V
 
-    const v2, 0x7f121d28
+    sget v2, Lcom/resouce/module/ResSTRING;->public_amazon_tip_confirm:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1194,7 +1194,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

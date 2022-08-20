@@ -421,7 +421,7 @@
     goto :goto_3
 
     :cond_1
-    const v0, 0x7f120ba6
+    sget v0, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     const/4 v1, 0x1
 
@@ -670,7 +670,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0999
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheet_compound_top:I
 
     const/4 v3, 0x0
 
@@ -680,7 +680,7 @@
 
     iput-object v1, p0, Luyg;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2180
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_sheetcompound:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -718,7 +718,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f07084e
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_ss_dash_bar_sheet_width_small:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -737,7 +737,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f070841
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_ss_bar_padding_h_small:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

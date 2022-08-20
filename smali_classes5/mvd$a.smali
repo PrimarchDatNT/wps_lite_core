@@ -76,12 +76,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0814bc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_full_sreen_note_unselected:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0814bb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_full_sreen_note_selected:I
 
     .line 4
     :goto_0
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d36
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_ppt_note_unselected:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d34
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_ppt_note_selected:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -192,7 +192,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121b8d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_note_hidden_toast:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -226,7 +226,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121b91
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_note_showed_toast:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

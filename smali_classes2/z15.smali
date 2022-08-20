@@ -21,7 +21,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e00ae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->comp_simpletext_history_button:I
 
     const/4 v1, 0x0
 
@@ -41,7 +41,7 @@
 .method public static b(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f122518
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newest_history_version:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lz15;->a(Landroid/content/Context;Landroid/view/ViewGroup;I)Landroid/widget/TextView;
@@ -59,7 +59,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e00b1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->comp_view_history_button:I
 
     const/4 v1, 0x0
 
@@ -70,7 +70,7 @@
 
     check-cast p0, Landroid/widget/TextView;
 
-    const p1, 0x7f1226b1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(I)V
@@ -81,7 +81,7 @@
 .method public static d(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f121316
+    sget v0, Lcom/resouce/module/ResSTRING;->knowledge_comm_loading_with_suffix:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lz15;->a(Landroid/content/Context;Landroid/view/ViewGroup;I)Landroid/widget/TextView;
@@ -94,7 +94,7 @@
 .method public static e(Landroid/content/Context;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f12122d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lz15;->a(Landroid/content/Context;Landroid/view/ViewGroup;I)Landroid/widget/TextView;

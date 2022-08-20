@@ -465,7 +465,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122d9f
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_shortcut_name:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -981,7 +981,7 @@
     .line 11
     invoke-static {p0}, Lv1f;->h(Landroid/app/Activity;)V
 
-    const v0, 0x7f0e0046
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_ovs_h5:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
@@ -989,7 +989,7 @@
     .line 13
     invoke-virtual {p0, p1}, Lcn/wps/moffice/docer/activity/OvsH5Activity;->u1(Z)V
 
-    const p1, 0x7f0b29b1
+    sget p1, Lcom/resouce/module/ResID;->root_view:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1002,7 +1002,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/docer/activity/OvsH5Activity;->Z:Lap5;
 
-    const p1, 0x7f0b3423
+    sget p1, Lcom/resouce/module/ResID;->web_ovs:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1013,7 +1013,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/docer/activity/OvsH5Activity;->U:Lcn/wps/moffice/docer/view/OvsWebView;
 
-    const v0, 0x7f0b3420
+    sget v0, Lcom/resouce/module/ResID;->web_custom_container:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1029,7 +1029,7 @@
 
     invoke-static {p1}, Lto5;->q(Landroid/webkit/WebView;)V
 
-    const p1, 0x7f0b1d40
+    sget p1, Lcom/resouce/module/ResID;->pb_ovs:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1385,12 +1385,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f06003e
+    sget p1, Lcom/resouce/module/ResCOLOR;->black:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0606e0
+    sget p1, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 2
     :goto_0

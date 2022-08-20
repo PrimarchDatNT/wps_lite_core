@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d62
+    sget v0, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_3s:I
 
     if-ne p1, v0, :cond_0
 
@@ -73,7 +73,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b1d63
+    sget v0, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_5s:I
 
     if-ne p1, v0, :cond_1
 
@@ -106,7 +106,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1d5f
+    sget v0, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_10s:I
 
     if-ne p1, v0, :cond_2
 
@@ -139,7 +139,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1d60
+    sget v0, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_15s:I
 
     if-ne p1, v0, :cond_3
 
@@ -172,7 +172,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1d61
+    sget v0, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_20s:I
 
     if-ne p1, v0, :cond_4
 

@@ -66,7 +66,7 @@
     .line 1
     new-instance v10, Lox3;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     move-object v0, v10
 
@@ -217,7 +217,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f12250d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v0, 0x0
 
@@ -299,7 +299,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f1221c9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fontname_monotype_downloading:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -485,7 +485,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 
@@ -981,7 +981,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b03f0
+    sget v1, Lcom/resouce/module/ResID;->choice_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1001,7 +1001,7 @@
 
     invoke-direct {v10, v12, v0, v11}, Lhd3;-><init>(Landroid/content/Context;Landroid/view/View;Z)V
 
-    const v1, 0x7f0b01f6
+    sget v1, Lcom/resouce/module/ResID;->bar_block:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1047,7 +1047,7 @@
 
     move-result-object v5
 
-    const v0, 0x7f0b2794
+    sget v0, Lcom/resouce/module/ResID;->purchased_flag:I
 
     .line 9
     invoke-virtual {v5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1058,7 +1058,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v0, 0x7f0b0e0f
+    sget v0, Lcom/resouce/module/ResID;->fontName:I
 
     .line 10
     invoke-virtual {v5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1067,7 +1067,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b0e0d
+    sget v1, Lcom/resouce/module/ResID;->fontDescrible:I
 
     .line 11
     invoke-virtual {v5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1275,7 +1275,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0e69
+    sget v1, Lcom/resouce/module/ResID;->fontpackage_wpspurchased_font:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1284,7 +1284,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2603
+    sget v2, Lcom/resouce/module/ResID;->public_fontpackage_getMoreFonts:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

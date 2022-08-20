@@ -87,7 +87,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b2e68
+    sget v0, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

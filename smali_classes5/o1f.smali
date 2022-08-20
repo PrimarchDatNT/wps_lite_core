@@ -306,7 +306,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122da2
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_shortcut_permission_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c0b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -336,7 +336,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122da1
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_shortcut_permission_ok:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122da0
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_shortcut_permission_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -430,7 +430,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d9f
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_shortcut_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -483,7 +483,7 @@
 
     iget-object v0, p0, Lo1f;->a:Landroid/content/Context;
 
-    const v1, 0x7f082016
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_reader_novels_launcher:I
 
     .line 22
     invoke-static {v0, v1}, Landroidx/core/graphics/drawable/IconCompat;->p(Landroid/content/Context;I)Landroidx/core/graphics/drawable/IconCompat;
@@ -545,7 +545,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -560,7 +560,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c82
+    sget v2, Lcom/resouce/module/ResSTRING;->public_yes:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -575,7 +575,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d9e
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_shortcut_add_tip:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -623,7 +623,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d9b
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_shortcut_add_failure:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -650,7 +650,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d9d
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_shortcut_add_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

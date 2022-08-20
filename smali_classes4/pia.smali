@@ -211,7 +211,7 @@
     .line 1
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1fd8
+    sget v1, Lcom/resouce/module/ResID;->phone_file_select_top_bars:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -254,7 +254,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -329,7 +329,7 @@
     .line 1
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1fe7
+    sget v1, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
     .line 3
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b117d
+    sget v1, Lcom/resouce/module/ResID;->home_title_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -356,7 +356,7 @@
     .line 4
     iget-object v2, p0, Lpia;->B:Landroid/view/View;
 
-    const v3, 0x7f0b110b
+    sget v3, Lcom/resouce/module/ResID;->home_page_title_img:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -371,7 +371,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -381,7 +381,7 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f0b2107
+    sget v2, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
     :cond_1
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b11ea
+    sget v1, Lcom/resouce/module/ResID;->home_user_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -434,7 +434,7 @@
     .line 12
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b11ec
+    sget v1, Lcom/resouce/module/ResID;->home_user_vip_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -450,7 +450,7 @@
     .line 14
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1299
+    sget v1, Lcom/resouce/module/ResID;->image_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -472,7 +472,7 @@
     .line 1
     iget-object v0, p0, Lpia;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1fd5
+    sget v1, Lcom/resouce/module/ResID;->phone_file_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -555,7 +555,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07b6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_home_document_page:I
 
     const/4 v2, 0x0
 
@@ -755,7 +755,7 @@
     .line 6
     iget-object v0, p0, Lpia;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810b1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar_pad:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -765,7 +765,7 @@
     :cond_2
     iget-object v0, p0, Lpia;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0810b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -37,7 +37,7 @@
     .line 2
     iput-object p1, p0, Lxd4;->e:Landroid/app/Activity;
 
-    const p1, 0x7f0b1378
+    sget p1, Lcom/resouce/module/ResID;->invite_edit_share_btn:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object p1, p0, Lxd4;->b:Landroid/view/View;
 
-    const p1, 0x7f0b15e2
+    sget p1, Lcom/resouce/module/ResID;->link_modify_send_btn:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,11 +67,11 @@
     .line 6
     iget-object p1, p0, Lxd4;->c:Landroid/widget/Button;
 
-    const v0, 0x7f12239f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_edit_invite_friends:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
-    const p1, 0x7f0b15cb
+    sget p1, Lcom/resouce/module/ResID;->link_modify_add_member_btn:I
 
     .line 7
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     iput-object p1, p0, Lxd4;->d:Landroid/widget/Button;
 
-    const p2, 0x7f1223e0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_link_add_member:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setText(I)V
@@ -223,9 +223,9 @@
     .line 4
     iget-object v3, v0, Lxd4;->e:Landroid/app/Activity;
 
-    const v4, 0x7f12239f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_invite_edit_invite_friends:I
 
-    const v5, 0x7f1223a0
+    sget v5, Lcom/resouce/module/ResSTRING;->public_invite_edit_invite_friends_introduce:I
 
     const/4 v6, 0x5
 

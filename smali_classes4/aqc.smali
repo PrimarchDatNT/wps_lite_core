@@ -283,7 +283,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1414
+    sget v0, Lcom/resouce/module/ResID;->iv_arrow_left:I
 
     if-ne p1, v0, :cond_0
 
@@ -343,7 +343,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1415
+    sget v0, Lcom/resouce/module/ResID;->iv_arrow_right:I
 
     if-ne p1, v0, :cond_0
 
@@ -849,7 +849,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0e064c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_pad_mose_reflow_layout:I
 
     return v0
 .end method
@@ -863,7 +863,7 @@
     .line 2
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b14d5
+    sget v0, Lcom/resouce/module/ResID;->iv_tool_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -874,7 +874,7 @@
     .line 3
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1414
+    sget v0, Lcom/resouce/module/ResID;->iv_arrow_left:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -885,7 +885,7 @@
     .line 4
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0da8
+    sget v0, Lcom/resouce/module/ResID;->fl_arrow_left:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -896,7 +896,7 @@
     .line 5
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1415
+    sget v0, Lcom/resouce/module/ResID;->iv_arrow_right:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -907,7 +907,7 @@
     .line 6
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0da9
+    sget v0, Lcom/resouce/module/ResID;->fl_arrow_right:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

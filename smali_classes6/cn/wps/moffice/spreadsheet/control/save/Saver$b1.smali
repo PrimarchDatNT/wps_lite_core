@@ -63,7 +63,7 @@
 
     move-result v2
 
-    const v3, 0x7f12226c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_not_load:I
 
     const/4 v4, 0x0
 

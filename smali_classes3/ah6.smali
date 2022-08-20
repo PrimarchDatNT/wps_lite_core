@@ -518,7 +518,7 @@
     :cond_a
     new-instance v8, Lhd3;
 
-    const v11, 0x7f130125
+    sget v11, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v8, v0, v11}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -669,72 +669,72 @@
     :goto_5
     packed-switch v12, :pswitch_data_0
 
-    const v3, 0x7f081b0a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_premium_icon:I
 
     if-nez v9, :cond_11
 
-    const v12, 0x7f122e62
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_wps_premium_content:I
 
     goto :goto_6
 
     :cond_11
-    const v12, 0x7f122e63
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_wps_premium_sub:I
 
     goto :goto_6
 
     :pswitch_0
-    const v3, 0x7f081ab9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_pdf_toolkit_icon:I
 
     if-nez v9, :cond_12
 
-    const v12, 0x7f122e5b
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_pdf_toolkit_content:I
 
     goto :goto_6
 
     :cond_12
-    const v12, 0x7f122e5c    # 1.94308E38f
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_pdf_toolkit_sub:I    # 1.94308E38f
 
     goto :goto_6
 
     :pswitch_1
-    const v3, 0x7f081921
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_font_packs_icon:I
 
     if-nez v9, :cond_13
 
-    const v12, 0x7f122e59
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_font_packs_content:I
 
     goto :goto_6
 
     :cond_13
-    const v12, 0x7f122e5a
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_font_packs_sub:I
 
     goto :goto_6
 
     :pswitch_2
-    const v3, 0x7f081809
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_ads_free_icon:I
 
     if-nez v9, :cond_14
 
-    const v12, 0x7f122e57
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_ads_free_content:I
 
     goto :goto_6
 
     :cond_14
-    const v12, 0x7f122e58
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_ads_free_sub:I
 
     goto :goto_6
 
     :pswitch_3
-    const v3, 0x7f081c92
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_template_icon:I
 
     if-nez v9, :cond_15
 
-    const v12, 0x7f122e5d
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_template_content:I
 
     goto :goto_6
 
     :cond_15
-    const v12, 0x7f122e60
+    sget v12, Lcom/resouce/module/ResSTRING;->retain_default_template_sub:I
 
     .line 31
     :goto_6
@@ -823,12 +823,12 @@
 
     if-nez v9, :cond_18
 
-    const v3, 0x7f122e6a
+    sget v3, Lcom/resouce/module/ResSTRING;->retain_dialog_no_coupon_cancel:I
 
     goto :goto_8
 
     :cond_18
-    const v3, 0x7f122e6c
+    sget v3, Lcom/resouce/module/ResSTRING;->retain_dialog_use_coupon_pay:I
 
     .line 44
     :goto_8
@@ -841,7 +841,7 @@
 
     move-result-object v6
 
-    const v10, 0x7f06005d
+    sget v10, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v6, v10}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -855,12 +855,12 @@
 
     if-nez v9, :cond_19
 
-    const v3, 0x7f122e6b
+    sget v3, Lcom/resouce/module/ResSTRING;->retain_dialog_no_coupon_pay:I
 
     goto :goto_9
 
     :cond_19
-    const v3, 0x7f122e64
+    sget v3, Lcom/resouce/module/ResSTRING;->retain_dialog_cancel:I
 
     .line 46
     :goto_9
@@ -1020,7 +1020,7 @@
     :cond_1
     iget-object v2, p0, Lah6;->r0:Landroid/widget/TextView;
 
-    const v4, 0x7f122e67
+    sget v4, Lcom/resouce/module/ResSTRING;->retain_dialog_in_app_text:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1043,7 +1043,7 @@
     :cond_2
     iget-object v2, p0, Lah6;->p0:Landroid/widget/TextView;
 
-    const v3, 0x7f122e68
+    sget v3, Lcom/resouce/module/ResSTRING;->retain_dialog_in_app_title_text:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1066,7 +1066,7 @@
     :cond_3
     iget-object v1, p0, Lah6;->h0:Landroid/widget/TextView;
 
-    const v2, 0x7f1216ae
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_retain_office_mode:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1119,7 +1119,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d73
+    sget v2, Lcom/resouce/module/ResSTRING;->public_available_in_hours:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1173,7 +1173,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122e66
+    sget v6, Lcom/resouce/module/ResSTRING;->retain_dialog_in_app_price_text:I
 
     if-nez v2, :cond_7
 
@@ -1182,7 +1182,7 @@
     .line 22
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v7, 0x7f122e69
+    sget v7, Lcom/resouce/module/ResSTRING;->retain_dialog_in_app_trial_price_text:I
 
     invoke-virtual {v2, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1228,7 +1228,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f121c9b
+    sget v7, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1253,7 +1253,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f121c9c
+    sget v7, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1326,7 +1326,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f1216b0
+    sget v5, Lcom/resouce/module/ResSTRING;->pay_retain_value_days:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1545,7 +1545,7 @@
     .line 1
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1d31
+    sget v1, Lcom/resouce/module/ResID;->pay_retain_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1556,7 +1556,7 @@
     .line 2
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28ea
+    sget v1, Lcom/resouce/module/ResID;->retain_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1573,7 +1573,7 @@
     .line 1
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b003b
+    sget v1, Lcom/resouce/module/ResID;->access_to_services_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1584,7 +1584,7 @@
     .line 2
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f4
+    sget v1, Lcom/resouce/module/ResID;->retain_tip_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1597,7 +1597,7 @@
     .line 3
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f5
+    sget v1, Lcom/resouce/module/ResID;->retain_try_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1610,7 +1610,7 @@
     .line 4
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f2
+    sget v1, Lcom/resouce/module/ResID;->retain_tip_costs:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1623,7 +1623,7 @@
     .line 5
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b033e
+    sget v1, Lcom/resouce/module/ResID;->cancel_anytime:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1636,7 +1636,7 @@
     .line 6
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f6
+    sget v1, Lcom/resouce/module/ResID;->retain_try_inapp_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1649,7 +1649,7 @@
     .line 7
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28ef
+    sget v1, Lcom/resouce/module/ResID;->retain_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1660,7 +1660,7 @@
     .line 8
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28ec
+    sget v1, Lcom/resouce/module/ResID;->retain_free_trial_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1673,7 +1673,7 @@
     .line 9
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28ee
+    sget v1, Lcom/resouce/module/ResID;->retain_in_app_try_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1686,7 +1686,7 @@
     .line 10
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f1
+    sget v1, Lcom/resouce/module/ResID;->retain_three_days:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1699,7 +1699,7 @@
     .line 11
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28e9
+    sget v1, Lcom/resouce/module/ResID;->retain_btn_text_limited:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1712,7 +1712,7 @@
     .line 12
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f3
+    sget v1, Lcom/resouce/module/ResID;->retain_tip_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1725,7 +1725,7 @@
     .line 13
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28e8
+    sget v1, Lcom/resouce/module/ResID;->retain_btn_original_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1738,7 +1738,7 @@
     .line 14
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28e7
+    sget v1, Lcom/resouce/module/ResID;->retain_btn_off_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1751,7 +1751,7 @@
     .line 15
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f0
+    sget v1, Lcom/resouce/module/ResID;->retain_off_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1764,7 +1764,7 @@
     .line 16
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2dcc    # 1.8500048E38f
+    sget v1, Lcom/resouce/module/ResID;->sub_retain_price_layout:I    # 1.8500048E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1837,7 +1837,7 @@
     .line 26
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0596
+    sget v1, Lcom/resouce/module/ResID;->coupon_bottom_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1850,7 +1850,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08192a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_foreign_coupon_lower_bg:I
 
     invoke-static {v0, v1, v2}, Lvrb;->x(Landroid/view/View;Landroid/content/Context;I)V
 
@@ -1858,7 +1858,7 @@
     :cond_3
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28eb
+    sget v1, Lcom/resouce/module/ResID;->retain_desc_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1921,7 +1921,7 @@
     :goto_0
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b059a
+    sget v1, Lcom/resouce/module/ResID;->coupon_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1941,7 +1941,7 @@
     :cond_7
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b059c
+    sget v1, Lcom/resouce/module/ResID;->coupon_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1953,7 +1953,7 @@
     .line 42
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b05b0
+    sget v1, Lcom/resouce/module/ResID;->coupon_type_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1983,7 +1983,7 @@
     :cond_8
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0598
+    sget v1, Lcom/resouce/module/ResID;->coupon_desc_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2013,7 +2013,7 @@
     :cond_9
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b05b1
+    sget v1, Lcom/resouce/module/ResID;->coupon_validity_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2093,7 +2093,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120c98
+    sget v3, Lcom/resouce/module/ResSTRING;->expire_date:I
 
     const/4 v4, 0x1
 
@@ -2174,7 +2174,7 @@
     .line 62
     iget-object v1, p0, Lah6;->B:Landroid/view/View;
 
-    const v2, 0x7f0b05a8
+    sget v2, Lcom/resouce/module/ResID;->coupon_sale_off_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2196,7 +2196,7 @@
     :cond_d
     iget-object v0, p0, Lah6;->B:Landroid/view/View;
 
-    const v1, 0x7f0b05a2
+    sget v1, Lcom/resouce/module/ResID;->coupon_pay_type:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2211,7 +2211,7 @@
 
     if-eqz v1, :cond_e
 
-    const v1, 0x7f0804be
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->coupon_type_rtl_bg:I
 
     .line 67
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -2386,7 +2386,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e017f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pay_retain_coupon_layout:I
 
     goto :goto_0
 
@@ -2399,17 +2399,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e0180
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pay_retain_in_app_layout:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0182
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pay_retain_pop_layout:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0e0181
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pay_retain_no_coupon_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -2500,26 +2500,26 @@
 
     move-result p1
 
-    const v0, 0x7f0b28ea
+    sget v0, Lcom/resouce/module/ResID;->retain_close:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b033f
+    sget v0, Lcom/resouce/module/ResID;->cancel_btn:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b055a
+    sget v0, Lcom/resouce/module/ResID;->continue_buy_btn:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b059c
+    sget v0, Lcom/resouce/module/ResID;->coupon_layout:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b1d31
+    sget v0, Lcom/resouce/module/ResID;->pay_retain_button:I
 
     if-ne p1, v0, :cond_4
 

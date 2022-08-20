@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f10
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_doc:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f15
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_xls:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f12
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f13
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f14
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_unknown:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f11
+    sget v1, Lcom/resouce/module/ResSTRING;->share_icon_url_otl:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f1a
+    sget v1, Lcom/resouce/module/ResSTRING;->share_miniapp_icon_url_root:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f18
+    sget v1, Lcom/resouce/module/ResSTRING;->share_miniapp_icon_url_online_root:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -216,7 +216,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f19
+    sget v1, Lcom/resouce/module/ResSTRING;->share_miniapp_icon_url_online_root_new:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f0f
+    sget v1, Lcom/resouce/module/ResSTRING;->share_group_icon_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ee6
+    sget v1, Lcom/resouce/module/ResSTRING;->share_doc2web_icon_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1040,7 +1040,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dde
+    sget v1, Lcom/resouce/module/ResSTRING;->group_share_icon_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1431,7 +1431,7 @@
 
     if-ne p0, v0, :cond_0
 
-    const p0, 0x7f081735
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_newshare_icon_doc:I
 
     return p0
 
@@ -1441,7 +1441,7 @@
 
     if-ne p0, v0, :cond_1
 
-    const p0, 0x7f08173c
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_newshare_icon_xls:I
 
     return p0
 
@@ -1451,7 +1451,7 @@
 
     if-ne p0, v0, :cond_2
 
-    const p0, 0x7f08173b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_newshare_icon_ppt:I
 
     return p0
 
@@ -1461,7 +1461,7 @@
 
     if-ne p0, v0, :cond_3
 
-    const p0, 0x7f08173a
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_newshare_icon_pdf:I
 
     return p0
 

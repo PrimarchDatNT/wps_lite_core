@@ -120,7 +120,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01de
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_datavalidation_time_picker:I
 
     .line 8
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -128,7 +128,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e020c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_pad_datavalidation_time_picker:I
 
     .line 9
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/spreadsheet/control/data_validation/TimePicker$a;-><init>(Lcn/wps/moffice/spreadsheet/control/data_validation/TimePicker;)V
 
-    const v0, 0x7f0b222c
+    sget v0, Lcom/resouce/module/ResID;->pickers:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/TimePicker;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b2ac5
+    sget v0, Lcom/resouce/module/ResID;->second:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
     .line 15
     invoke-virtual {v0, p1}, Lcn/wps/moffice/spreadsheet/control/data_validation/NumberPicker;->setOnValueChangedListener(Lcn/wps/moffice/spreadsheet/control/data_validation/NumberPicker$j;)V
 
-    const v3, 0x7f0b0ad9
+    sget v3, Lcom/resouce/module/ResID;->et_numberpicker_input:I
 
     .line 16
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/TimePicker;->U:Landroid/widget/EditText;
 
-    const v0, 0x7f0b189c
+    sget v0, Lcom/resouce/module/ResID;->minute:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/TimePicker;->V:Landroid/widget/EditText;
 
-    const v0, 0x7f0b1214
+    sget v0, Lcom/resouce/module/ResID;->hour:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

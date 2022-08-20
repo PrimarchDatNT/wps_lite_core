@@ -45,13 +45,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0a57
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_kmui_internal_switch_compat:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b225d
+    sget p1, Lcom/resouce/module/ResID;->plugin_internal_switch_compat:I
 
     .line 2
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

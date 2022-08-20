@@ -1061,7 +1061,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121464
+    sget v1, Lcom/resouce/module/ResSTRING;->net_test_addres:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1093,7 +1093,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 2
     invoke-static {p0, v0, v1}, Le88;->a(Landroid/content/Context;II)V

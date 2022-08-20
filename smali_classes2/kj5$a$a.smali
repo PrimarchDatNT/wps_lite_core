@@ -461,7 +461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12250d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -481,7 +481,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122581
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_server_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

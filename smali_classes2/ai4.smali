@@ -181,7 +181,7 @@
 
     invoke-direct {v0, p0}, Lai4$b;-><init>(Lai4;)V
 
-    const v1, 0x7f0b267b
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267a
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_facebook:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2682
+    sget v1, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267c
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b267e
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_other:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
 
     iput-object v0, p0, Lai4;->b:Llf3;
 
-    const v0, 0x7f0e019c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_star_login_guide_dialog_view:I
 
     .line 4
     iget-object v1, p0, Lai4;->a:Landroid/app/Activity;
@@ -324,7 +324,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b267b
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -335,7 +335,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b267c
+    sget v1, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

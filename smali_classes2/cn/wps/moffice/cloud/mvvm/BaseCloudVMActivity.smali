@@ -75,7 +75,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e0024
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_cloud_base:I
 
     return v0
 .end method
@@ -192,7 +192,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0db1
+    sget v2, Lcom/resouce/module/ResID;->fl_container:I
 
     invoke-virtual {v0, v2, p1, v1}, Lbd;->s(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Lbd;
 

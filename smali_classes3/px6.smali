@@ -16,7 +16,7 @@
 .method public static a(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f0b30f9
+    sget v0, Lcom/resouce/module/ResID;->tvShortCut:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -35,7 +35,7 @@
 .method public static b(Lah3;Landroid/view/View;Landroid/app/Activity;)V
     .locals 2
 
-    const p2, 0x7f0b30eb
+    sget p2, Lcom/resouce/module/ResID;->tvFeedback:I
 
     .line 1
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0495
+    sget v1, Lcom/resouce/module/ResLAYOUT;->menu_classroom:I
 
     const/4 v2, 0x0
 

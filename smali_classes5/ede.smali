@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b20f7
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     iget-object v1, p0, Lede;->V:Landroid/content/Context;
 
-    const v3, 0x7f080233
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     invoke-static {v1, v3, v2}, Lsle;->g(Landroid/content/Context;II)Lcn/wps/moffice/presentation/control/common/SelectChangeImageView;
 

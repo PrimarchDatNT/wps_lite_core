@@ -104,7 +104,7 @@
     .line 1
     iget-object p2, p0, Ltud;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0498
+    sget v1, Lcom/resouce/module/ResLAYOUT;->merge_selected_file_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -118,7 +118,7 @@
     .line 3
     iget-object v1, p3, Ltud$b;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080572
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

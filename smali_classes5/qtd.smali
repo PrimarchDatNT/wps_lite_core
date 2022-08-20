@@ -156,7 +156,7 @@
 
     check-cast v0, Lcom/bumptech/glide/RequestBuilder;
 
-    const v3, 0x7f080ee1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_ppt_text2dirgram_holder_image:I
 
     .line 5
     invoke-virtual {v0, v3}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -258,7 +258,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a9d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_text2diagram_image_item:I
 
     const/4 v2, 0x0
 

@@ -67,11 +67,11 @@
     return v0
 
     :cond_2
-    const p1, 0x7f081aec
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_phonetic_shorthand_member_guide:I
 
-    const v1, 0x7f1219dc
+    sget v1, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
-    const v2, 0x7f1219d7
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_member_guide_text:I
 
     const/4 v3, 0x1
 

@@ -217,12 +217,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0642
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_lack_content_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e07c0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_lack_content_tip:I
 
     :goto_0
     const/4 v2, 0x0
@@ -276,7 +276,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/PopupWindow;->setHeight(I)V
 
-    const p1, 0x7f0b1e2a
+    sget p1, Lcom/resouce/module/ResID;->pdf_lack_content_info:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1218ab
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_picture_format:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -505,7 +505,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122815
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121716
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_comment:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -581,7 +581,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121daa
+    sget v4, Lcom/resouce/module/ResSTRING;->public_bookmark:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -619,7 +619,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121924
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_vertical_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

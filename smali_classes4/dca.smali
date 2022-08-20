@@ -392,7 +392,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122019
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doucment_my_prize:I
 
     .line 3
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
@@ -670,7 +670,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03bb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_third_login:I
 
     const/4 v2, 0x0
 
@@ -701,7 +701,7 @@
     .line 5
     iget-object v0, p0, Ldca;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a8a
+    sget v1, Lcom/resouce/module/ResID;->ntf_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -742,7 +742,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7d
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1070,7 +1070,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7c
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1086,7 +1086,7 @@
     .line 4
     iget-object v0, p0, Ldca;->B:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

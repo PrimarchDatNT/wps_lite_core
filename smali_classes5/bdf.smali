@@ -285,7 +285,7 @@
 
     iget-object p1, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122747
+    sget v1, Lcom/resouce/module/ResSTRING;->public_published_title:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -413,7 +413,7 @@
     .line 2
     iget-object v1, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121fc5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete_published_file:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -423,7 +423,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121fc6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete_published_file_tip:I
 
     .line 3
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -449,17 +449,17 @@
     .line 8
     iget-object p1, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-static {p1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
     move-result p1
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v0, v2, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -596,7 +596,7 @@
 
     iget-object v1, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120693
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -612,7 +612,7 @@
     .line 3
     iget-object v1, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v3, 0x7f0818b8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-static {v1, v3}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -665,7 +665,7 @@
 
     iget-object v0, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -676,7 +676,7 @@
 
     iget-object v0, p0, Lbdf;->a:Landroid/app/Activity;
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 12
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I

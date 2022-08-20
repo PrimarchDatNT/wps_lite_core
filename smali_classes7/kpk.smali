@@ -165,19 +165,19 @@
 
     invoke-direct {v1, p1, p0}, Lkpk$c;-><init>(Ljava/lang/Runnable;Landroid/app/Activity;)V
 
-    const p0, 0x7f12233f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_iat_addAudioComment_limitdescription:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f120fb1
+    sget p0, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     const/high16 p1, -0x10000
 
     .line 4
     invoke-virtual {v0, p0, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f12233e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_iat_addAudioComment_limitcancel:I
 
     .line 5
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

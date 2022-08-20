@@ -243,11 +243,11 @@
 
     const-string v2, "Cross"
 
-    const v3, 0x7f08031e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_close:I
 
     const-string v4, "Check"
 
-    const v5, 0x7f080320
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_confirm:I
 
     const-string v6, "NotApproved"
 
@@ -258,7 +258,7 @@
     .line 3
     new-instance v1, Libc;
 
-    const v8, 0x7f080325
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_passed:I
 
     const-string v9, "zh-CN"
 
@@ -269,7 +269,7 @@
     .line 4
     new-instance v1, Libc;
 
-    const v7, 0x7f08031c
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_agree:I
 
     const-string v8, "Agreed"
 
@@ -280,7 +280,7 @@
     .line 5
     new-instance v1, Libc;
 
-    const v7, 0x7f080326
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_qualified:I
 
     const-string v8, "Qualified"
 
@@ -291,7 +291,7 @@
     .line 6
     new-instance v1, Libc;
 
-    const v7, 0x7f080327
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_read:I
 
     const-string v8, "Read"
 
@@ -302,7 +302,7 @@
     .line 7
     new-instance v1, Libc;
 
-    const v7, 0x7f080328
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_reject:I
 
     invoke-direct {v1, v7, v6, v9}, Libc;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
@@ -311,7 +311,7 @@
     .line 8
     new-instance v1, Libc;
 
-    const v6, 0x7f080323
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_not_agree:I
 
     const-string v7, "NotAgreed"
 
@@ -339,7 +339,7 @@
     :cond_0
     new-instance v1, Libc;
 
-    const v8, 0x7f08031d
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_approved:I
 
     const-string v9, "en"
 
@@ -350,7 +350,7 @@
     .line 12
     new-instance v1, Libc;
 
-    const v7, 0x7f08031f
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_completed:I
 
     const-string v8, "Completed"
 
@@ -361,7 +361,7 @@
     .line 13
     new-instance v1, Libc;
 
-    const v7, 0x7f080321
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_draft:I
 
     const-string v8, "Draft"
 
@@ -372,7 +372,7 @@
     .line 14
     new-instance v1, Libc;
 
-    const v7, 0x7f080322
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_final:I
 
     const-string v8, "Final"
 
@@ -383,7 +383,7 @@
     .line 15
     new-instance v1, Libc;
 
-    const v7, 0x7f080324
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_not_approved:I
 
     invoke-direct {v1, v7, v6, v9}, Libc;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
@@ -392,7 +392,7 @@
     .line 16
     new-instance v1, Libc;
 
-    const v6, 0x7f080329
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_void:I
 
     const-string v7, "Void"
 
@@ -466,7 +466,7 @@
 
     iput-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0114
+    sget v1, Lcom/resouce/module/ResID;->annotation_insert_stamps:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -531,7 +531,7 @@
     .line 11
     iget-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v2, 0x7f0b1410
+    sget v2, Lcom/resouce/module/ResID;->iv_anno_en_vip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -552,7 +552,7 @@
     .line 13
     iget-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v2, 0x7f0b14cb
+    sget v2, Lcom/resouce/module/ResID;->iv_stamp_en_vip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -577,7 +577,7 @@
 
     iget-object v2, p0, Lmbc;->a:Landroid/app/Activity;
 
-    const v3, 0x7f0e0788
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_add_item_stamp:I
 
     invoke-direct {v1, v2, v0, v3}, Llbc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
@@ -606,7 +606,7 @@
     .line 1
     iget-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0109
+    sget v1, Lcom/resouce/module/ResID;->annotation_addText:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -635,7 +635,7 @@
     .line 1
     iget-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b010f
+    sget v1, Lcom/resouce/module/ResID;->annotation_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
     .line 1
     iget-object v0, p0, Lmbc;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1b8b
+    sget v1, Lcom/resouce/module/ResID;->other_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

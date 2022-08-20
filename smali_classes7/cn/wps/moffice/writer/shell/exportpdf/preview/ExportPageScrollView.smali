@@ -40,7 +40,7 @@
 .method public a(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b0c34
+    sget v0, Lcom/resouce/module/ResID;->exportpdf_preview_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/preview/ExportPageScrollView;->B:Lcn/wps/moffice/writer/shell/exportpdf/preview/ExportPagePreviewView;
 
-    const v0, 0x7f0b0c31
+    sget v0, Lcom/resouce/module/ResID;->exportpdf_preview_superCanvas:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

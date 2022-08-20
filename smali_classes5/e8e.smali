@@ -39,9 +39,9 @@
     .line 3
     new-instance v1, Le8e$a;
 
-    const v2, 0x7f080255
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_tool:I
 
-    const v3, 0x7f121997
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_public_toolbox:I
 
     invoke-direct {v1, p0, v2, v3}, Le8e$a;-><init>(Le8e;II)V
 
@@ -56,15 +56,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f08049f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_robot_oversea:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f08049e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_robot:I
 
     :goto_0
-    const v3, 0x7f12262c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_phone_as_name:I
 
     invoke-direct {v1, p0, v2, v3}, Le8e$b;-><init>(Le8e;II)V
 

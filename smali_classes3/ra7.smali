@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02f9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_drive_cloud_list_empty_container:I
 
     const/4 v2, 0x0
 

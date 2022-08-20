@@ -46,11 +46,11 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/Spreadsheet$f;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f122580
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_permission_denied_need_login:I
 
-    const v2, 0x7f122421
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login:I
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v5, 0x0
 

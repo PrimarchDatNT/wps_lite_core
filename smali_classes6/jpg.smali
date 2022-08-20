@@ -78,7 +78,7 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f081c3e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_watermark:I
 
     const-string v5, "watermark"
 
@@ -99,7 +99,7 @@
 
     const/16 v11, 0x14
 
-    const v12, 0x7f081c3a
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_origin:I
 
     const-string v13, "default"
 

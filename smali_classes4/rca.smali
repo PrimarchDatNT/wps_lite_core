@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0359
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_mypursing_banner_layout:I
 
     const/4 v2, 0x0
 
@@ -202,7 +202,7 @@
 
     iput-object v0, p0, Lrca;->I:Landroid/view/View;
 
-    const v1, 0x7f0b01f5
+    sget v1, Lcom/resouce/module/ResID;->banner_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
     .line 3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v1, 0x0
 

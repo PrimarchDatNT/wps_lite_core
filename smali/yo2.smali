@@ -30,12 +30,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121263
+    sget v0, Lcom/resouce/module/ResSTRING;->honor_cloud_file_name_too_long:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1212a7
+    sget v0, Lcom/resouce/module/ResSTRING;->hw_cloud_file_name_too_long:I
 
     :goto_0
     return v0
@@ -51,12 +51,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121264
+    sget v0, Lcom/resouce/module/ResSTRING;->honor_cloud_no_permission:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1212a8
+    sget v0, Lcom/resouce/module/ResSTRING;->hw_cloud_no_permission:I
 
     :goto_0
     return v0
@@ -72,12 +72,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121267
+    sget v0, Lcom/resouce/module/ResSTRING;->honordrive:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1212a6
+    sget v0, Lcom/resouce/module/ResSTRING;->huaweidrive:I
 
     :goto_0
     return v0

@@ -115,7 +115,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b2a2c
+    sget v4, Lcom/resouce/module/ResID;->screenback_btn:I
 
     const/4 v5, 0x3
 

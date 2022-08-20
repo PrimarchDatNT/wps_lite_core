@@ -3052,7 +3052,7 @@
 .method public playToHead()V
     .locals 1
 
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V
@@ -3251,17 +3251,17 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p1, 0x7f1229c5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_shareplay_exitplay:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, p1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122087
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     .line 5
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3283,12 +3283,12 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b0688
+    sget p3, Lcom/resouce/module/ResID;->dialog_button_negative:I
 
     .line 9
     invoke-virtual {p1, p3}, Landroid/widget/Button;->setNextFocusUpId(I)V
 
-    const p1, 0x7f0b068a
+    sget p1, Lcom/resouce/module/ResID;->dialog_button_positive:I
 
     .line 10
     invoke-virtual {p2, p1}, Landroid/widget/Button;->setNextFocusUpId(I)V
@@ -3583,7 +3583,7 @@
     :cond_5
     iget-object v0, p0, Lkme;->W:Lhd3;
 
-    const v1, 0x7f0b069c
+    sget v1, Lcom/resouce/module/ResID;->dialog_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -3595,7 +3595,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080b02
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->none_bg_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3782,17 +3782,17 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p1, 0x7f121c10
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_exit_confirm:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, p1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f1223d6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     .line 5
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

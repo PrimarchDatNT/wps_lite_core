@@ -28,9 +28,9 @@
     .line 2
     new-instance v0, Lfld$b;
 
-    const v1, 0x7f080372
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_creative_tailoring:I
 
-    const v2, 0x7f122f6d
+    sget v2, Lcom/resouce/module/ResSTRING;->smart_layout_creativecrop:I
 
     const/4 v3, 0x1
 

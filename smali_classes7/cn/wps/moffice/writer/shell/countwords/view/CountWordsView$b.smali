@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b34d6
+    sget v0, Lcom/resouce/module/ResID;->writer_count_include_checkbox:I
 
     if-ne p1, v0, :cond_0
 
@@ -65,7 +65,7 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b346e
+    sget v0, Lcom/resouce/module/ResID;->wordcounts_showwordnumber:I
 
     if-ne p1, v0, :cond_3
 

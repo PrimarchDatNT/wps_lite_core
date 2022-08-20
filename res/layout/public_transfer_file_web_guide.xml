@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.superwebview.KWebView android:id="@id/web_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="70.0dip" />
-    <Button android:layout_gravity="bottom" android:id="@id/btn_scan" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="13.0dip" android:text="@string/public_qrcode_scan_name" style="@style/KButtonStyle.Primary" />
-</FrameLayout>

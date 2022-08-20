@@ -168,7 +168,7 @@
     .line 6
     iget-object p1, p0, Loyk;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v0, 0x7f080240
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 

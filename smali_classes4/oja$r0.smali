@@ -49,7 +49,7 @@
 
     iget-object v1, p0, Loja$r0;->B:Ljava/lang/String;
 
-    const v2, 0x7f121e60
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_group_share:I
 
     const/4 v3, 0x1
 

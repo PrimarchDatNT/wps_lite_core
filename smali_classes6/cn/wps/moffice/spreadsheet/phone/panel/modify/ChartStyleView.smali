@@ -21,13 +21,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e097d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_style_chart_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2dc6    # 1.8500036E38f
+    sget v0, Lcom/resouce/module/ResID;->style_gridview:I    # 1.8500036E38f
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -41,7 +41,7 @@
     .line 4
     new-instance v0, Lco3;
 
-    const v1, 0x7f06058d
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_ss_theme_color:I
 
     invoke-direct {v0, p1, v1}, Lco3;-><init>(Landroid/content/Context;I)V
 

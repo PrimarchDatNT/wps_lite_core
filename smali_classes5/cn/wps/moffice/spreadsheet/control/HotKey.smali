@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/HotKey$1;
 
-    const v1, 0x7f080c06
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_shortcut_options_et:I
 
-    const v2, 0x7f12232c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hotkey:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/HotKey$1;-><init>(Lcn/wps/moffice/spreadsheet/control/HotKey;II)V
 

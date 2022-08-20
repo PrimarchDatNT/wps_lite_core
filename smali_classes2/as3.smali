@@ -44,7 +44,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f121fdc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc2web_copylink_without_chkcode:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -73,7 +73,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f121fdb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_doc2web_copylink_with_chkcode:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -283,7 +283,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121fdc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc2web_copylink_without_chkcode:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -338,7 +338,7 @@
 
     iget-object v3, p2, Llxp;->n0:Ljava/lang/String;
 
-    const p1, 0x7f1228f1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_send_file_tips:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -384,7 +384,7 @@
 
     iget-object v1, v1, Llxp$a;->I:Ljava/lang/String;
 
-    const v2, 0x7f1228fb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_file_with_you:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

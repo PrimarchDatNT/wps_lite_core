@@ -510,9 +510,9 @@
     const/4 v2, 0x0
 
     :goto_0
-    const v0, 0x7f1224f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_my_share_files:I
 
-    const v1, 0x7f1224f8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_my_receive_files:I
 
     packed-switch v2, :pswitch_data_0
 
@@ -523,7 +523,7 @@
 
     if-eqz v3, :cond_3
 
-    const v0, 0x7f1224f8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_my_receive_files:I
 
     :cond_3
     invoke-virtual {v2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -536,7 +536,7 @@
     :pswitch_0
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122745
+    sget v1, Lcom/resouce/module/ResSTRING;->public_published_files:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -736,7 +736,7 @@
     .line 4
     iget-object p4, p0, Lcn/wps/moffice/main/push/banner/internal/Banner;->h:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e07ec
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_popularize_mopub_layout:I
 
     invoke-virtual {p4, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -750,7 +750,7 @@
     :cond_0
     iget-object p4, p0, Lcn/wps/moffice/main/push/banner/internal/Banner;->h:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e07eb
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_popularize_layout:I
 
     invoke-virtual {p4, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -762,7 +762,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/main/push/banner/internal/Banner;->g:Landroid/view/View;
 
-    const p4, 0x7f0b265c
+    sget p4, Lcom/resouce/module/ResID;->public_insertshapes_indicator:I
 
     invoke-virtual {p1, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -775,7 +775,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/push/banner/internal/Banner;->g:Landroid/view/View;
 
-    const p4, 0x7f0b2ccd
+    sget p4, Lcom/resouce/module/ResID;->spread_en:I
 
     invoke-virtual {p1, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -791,7 +791,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/push/banner/internal/Banner;->g:Landroid/view/View;
 
-    const p4, 0x7f0b265e
+    sget p4, Lcom/resouce/module/ResID;->public_insertshapes_viewpager:I
 
     invoke-virtual {p1, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

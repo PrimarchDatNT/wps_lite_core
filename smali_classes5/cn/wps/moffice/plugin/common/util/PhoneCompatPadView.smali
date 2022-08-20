@@ -37,7 +37,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1544
+    sget v0, Lcom/resouce/module/ResID;->layout_fit_pad_outer_root_node:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -530,7 +530,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060261
+    sget v0, Lcom/resouce/module/ResCOLOR;->maskBackgroundColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -541,13 +541,13 @@
     .line 5
     iget-object p2, p0, Lcn/wps/moffice/plugin/common/util/PhoneCompatPadView;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0a54
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_common_phone_window_to_pad_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b1544
+    sget p2, Lcom/resouce/module/ResID;->layout_fit_pad_outer_root_node:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

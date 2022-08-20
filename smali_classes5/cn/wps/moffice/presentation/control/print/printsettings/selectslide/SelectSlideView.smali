@@ -73,17 +73,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0abe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_page_select_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0abd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_page_select_pad:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b23cd
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_page_select_titlebar:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081f84
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->v10_ppt_btn_toolbar_txt_color_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -137,7 +137,7 @@
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setBottomShadowVisibility(I)V
 
     :cond_1
-    const v0, 0x7f0b23dc
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_slide_seleted_item:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectSlideView;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b23db
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_slide_select_all_switcher:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectSlideView;->S:Landroid/widget/Button;
 
-    const v0, 0x7f0b23da
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_slide_grid:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectSlideView;->T:Lcn/wps/moffice/presentation/control/common/AutoRotateScreenGridView;
 
-    const v1, 0x7f081373
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_selector_null:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/widget/GridView;->setSelector(I)V

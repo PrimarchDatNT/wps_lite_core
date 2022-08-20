@@ -463,7 +463,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122775    # 1.9427216E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_file_no_exists:I    # 1.9427216E38f
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -486,7 +486,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122777
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_is_delete:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -509,7 +509,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122776
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_is_add:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -532,7 +532,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122772
+    sget v2, Lcom/resouce/module/ResSTRING;->public_quick_access_add_limit:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1562,7 +1562,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120647
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1829,7 +1829,7 @@
 
     invoke-virtual {v0, v1, v2, p0}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p0, 0x7f122778
+    sget p0, Lcom/resouce/module/ResSTRING;->public_quick_access_jump_out_app:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -1839,11 +1839,11 @@
 
     invoke-direct {p0}, Lb3a$f;-><init>()V
 
-    const v1, 0x7f122779
+    sget v1, Lcom/resouce/module/ResSTRING;->public_quick_access_jump_out_negative:I
 
     invoke-virtual {v0, v1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f12277a
+    sget p0, Lcom/resouce/module/ResSTRING;->public_quick_access_jump_out_postive:I
 
     .line 5
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

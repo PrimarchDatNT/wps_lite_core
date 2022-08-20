@@ -700,14 +700,14 @@
 
     iget-object v1, p0, Ln1h;->B:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0e097a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Ln1h;->B:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b18ca
+    sget v1, Lcom/resouce/module/ResID;->modify_panel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -720,7 +720,7 @@
     .line 3
     iget-object v0, p0, Ln1h;->B:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b18ee
+    sget v1, Lcom/resouce/module/ResID;->more_panel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -735,7 +735,7 @@
 
     iget-object v1, p0, Lz1h;->U:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0e097c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_panel_main_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

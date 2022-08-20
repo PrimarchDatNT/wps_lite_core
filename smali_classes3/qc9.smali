@@ -570,7 +570,7 @@
     .line 19
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f120ff7
+    sget v3, Lcom/resouce/module/ResSTRING;->home_notice_date:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -618,7 +618,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05c2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_new_right_sidebar_layout:I
 
     const/4 v2, 0x0
 
@@ -628,7 +628,7 @@
 
     iput-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2919
+    sget v1, Lcom/resouce/module/ResID;->right_banner_date:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
     .line 4
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2e7c
+    sget v1, Lcom/resouce/module/ResID;->tag_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -655,7 +655,7 @@
     .line 5
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1123
+    sget v1, Lcom/resouce/module/ResID;->home_right_banner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -720,7 +720,7 @@
     :cond_1
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1126
+    sget v1, Lcom/resouce/module/ResID;->home_right_close_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
     .line 14
     iget-object v1, p0, Lqc9;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1125
+    sget v2, Lcom/resouce/module/ResID;->home_right_close_banner:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 17
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1124
+    sget v1, Lcom/resouce/module/ResID;->home_right_banner_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070356
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_pad_right_banner_Image_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -889,7 +889,7 @@
     .line 1
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2835
+    sget v1, Lcom/resouce/module/ResID;->recommend_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -902,7 +902,7 @@
     .line 2
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2828
+    sget v1, Lcom/resouce/module/ResID;->recent_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -915,7 +915,7 @@
     .line 3
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b10a2
+    sget v1, Lcom/resouce/module/ResID;->home_most_used_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -928,7 +928,7 @@
     .line 4
     iget-object v0, p0, Lqc9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b111d
+    sget v1, Lcom/resouce/module/ResID;->home_recommend_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

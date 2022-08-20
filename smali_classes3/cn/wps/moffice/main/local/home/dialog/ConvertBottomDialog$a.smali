@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b14ee
+    sget v0, Lcom/resouce/module/ResID;->jump_to_scan:I
 
     if-ne p1, v0, :cond_3
 
@@ -155,7 +155,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b14ef
+    sget v0, Lcom/resouce/module/ResID;->jump_to_select:I
 
     if-ne p1, v0, :cond_4
 

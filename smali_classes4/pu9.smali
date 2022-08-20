@@ -427,7 +427,7 @@
 
     move-result p2
 
-    const v0, 0x7f0e052d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_recent_item_layout:I
 
     if-eqz p2, :cond_1
 
@@ -439,7 +439,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e02dc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_recent_item_layout:I
 
     goto :goto_0
 
@@ -452,7 +452,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e02dd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_recent_item_layout_en:I
 
     .line 4
     :goto_0

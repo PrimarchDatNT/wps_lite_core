@@ -122,7 +122,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity$e;->a:Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity;
 
-    const v0, 0x7f12018d
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_deliver_nojob_tips:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

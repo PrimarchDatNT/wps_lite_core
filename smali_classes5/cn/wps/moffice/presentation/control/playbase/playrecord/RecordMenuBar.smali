@@ -193,11 +193,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ddf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt_play_record_menu_bar_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b18f0
+    sget v0, Lcom/resouce/module/ResID;->more_record_menu_items_layout:I
 
     .line 2
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->f0:I
 
-    const v0, 0x7f0b2406
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_start_btn:I
 
     .line 4
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2403
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_pause_btn:I
 
     .line 5
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2404
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_resume_btn:I
 
     .line 6
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->U:Landroid/view/View;
 
-    const v0, 0x7f0b2405
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_save_btn:I
 
     .line 7
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->V:Landroid/view/View;
 
-    const v0, 0x7f0b2407
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_stop_btn:I
 
     .line 8
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->W:Landroid/view/View;
 
-    const v0, 0x7f0b2845
+    sget v0, Lcom/resouce/module/ResID;->record_timer:I
 
     .line 9
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playrecord/RecordMenuBar;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2844
+    sget v0, Lcom/resouce/module/ResID;->record_red_dot:I
 
     .line 10
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2406
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_start_btn:I
 
     if-ne p1, v0, :cond_3
 
@@ -487,7 +487,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b2403
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_pause_btn:I
 
     const/4 v1, 0x0
 
@@ -516,7 +516,7 @@
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f0b2404
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_resume_btn:I
 
     if-ne p1, v0, :cond_5
 
@@ -528,7 +528,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b2405
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_save_btn:I
 
     if-ne p1, v0, :cond_6
 
@@ -545,7 +545,7 @@
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f0b2407
+    sget v0, Lcom/resouce/module/ResID;->ppt_record_stop_btn:I
 
     if-ne p1, v0, :cond_7
 

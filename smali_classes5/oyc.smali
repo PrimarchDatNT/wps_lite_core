@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080767
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_watermark:I
 
-    const v3, 0x7f121925
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
-    const v4, 0x7f121928
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_watermark_func_guide:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

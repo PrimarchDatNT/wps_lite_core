@@ -84,7 +84,7 @@
 
     aput-object v0, v4, v3
 
-    const v0, 0x7f1224e7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_net_warning_title:I
 
     invoke-virtual {v2, v0, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     invoke-direct {v0, p0}, Lqf7$d$c;-><init>(Lqf7$d;)V
 
-    const v2, 0x7f123263
+    sget v2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -107,7 +107,7 @@
 
     invoke-direct {v2, p0}, Lqf7$d$b;-><init>(Lqf7$d;)V
 
-    const v4, 0x7f122b76
+    sget v4, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_with_wift:I
 
     .line 6
     invoke-virtual {v0, v4, v2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -118,7 +118,7 @@
 
     invoke-direct {v2, p0}, Lqf7$d$a;-><init>(Lqf7$d;)V
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, v4, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

@@ -83,7 +83,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1230da
+    sget v5, Lcom/resouce/module/ResSTRING;->total_search_tab_app:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122e9d
+    sget v3, Lcom/resouce/module/ResSTRING;->search_lookup_more:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

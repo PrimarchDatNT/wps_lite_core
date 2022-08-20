@@ -112,7 +112,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060259
+    sget p2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -329,7 +329,7 @@
 
     if-ne v2, v5, :cond_1
 
-    const v6, 0x7f081f58
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_transparency:I
 
     .line 5
     invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -337,7 +337,7 @@
     goto :goto_1
 
     :cond_1
-    const v6, 0x7f081f5b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_transparency_top:I
 
     .line 6
     invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -358,7 +358,7 @@
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/common/NewVerticalLineDivideGridLayout;->a()V
 
     :cond_3
-    const v6, 0x7f081f59
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_transparency_bottom:I
 
     .line 9
     invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -375,7 +375,7 @@
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/common/NewVerticalLineDivideGridLayout;->a()V
 
     :cond_5
-    const v6, 0x7f081f5a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_transparency_center:I
 
     .line 12
     invoke-virtual {v4, v6}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

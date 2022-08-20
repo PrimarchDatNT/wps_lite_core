@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    const p1, 0x7f0b0994
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_dialog_listitem_text:I
 
     .line 1
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

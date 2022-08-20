@@ -147,7 +147,7 @@
     .line 5
     iget-object v1, p0, Lru8;->h:Landroid/view/View;
 
-    const v2, 0x7f0b0428
+    sget v2, Lcom/resouce/module/ResID;->clear_file_loading_err_tips_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
     .line 11
     iget-object v3, p0, Lru8;->e:Landroid/view/View;
 
-    const v4, 0x7f0b0431
+    sget v4, Lcom/resouce/module/ResID;->clear_finish_top_tips_text:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121e03
+    sget v5, Lcom/resouce/module/ResSTRING;->public_clear_file_finish_total_size:I
 
     new-array v6, v2, [Ljava/lang/Object;
 
@@ -252,7 +252,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121e0b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_clear_file_open_in_cloud_device:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -423,7 +423,7 @@
     .line 1
     iget-object v0, p0, Lru8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f010084
+    sget v1, Lcom/resouce/module/ResANIM;->public_constantly_rotate_anim:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -474,7 +474,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060526
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_start_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -489,7 +489,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060525
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_end_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -502,7 +502,7 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f0b0430
+    sget v2, Lcom/resouce/module/ResID;->clear_finish_top_layout:I
 
     invoke-virtual {p0, v0, v1, v2}, Lru8;->o(Landroidx/core/widget/NestedScrollView;II)V
 
@@ -519,7 +519,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b43
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_clear_local_file_extra_view_layout:I
 
     const/4 v2, 0x0
 
@@ -529,7 +529,7 @@
 
     iput-object v0, p0, Lru8;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2ab5
+    sget v1, Lcom/resouce/module/ResID;->search_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
     .line 3
     iget-object v0, p0, Lru8;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2a96
+    sget v1, Lcom/resouce/module/ResID;->search_no_file_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -552,7 +552,7 @@
     .line 4
     iget-object v0, p0, Lru8;->d:Landroid/view/View;
 
-    const v1, 0x7f0b0432
+    sget v1, Lcom/resouce/module/ResID;->clear_finish_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -563,7 +563,7 @@
     .line 5
     iget-object v0, p0, Lru8;->d:Landroid/view/View;
 
-    const v1, 0x7f0b0429
+    sget v1, Lcom/resouce/module/ResID;->clear_file_loading_err_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -574,7 +574,7 @@
     .line 6
     iget-object v0, p0, Lru8;->e:Landroid/view/View;
 
-    const v1, 0x7f0b042c
+    sget v1, Lcom/resouce/module/ResID;->clear_finish_feed_back_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
     .line 7
     iget-object v0, p0, Lru8;->e:Landroid/view/View;
 
-    const v1, 0x7f0b042a
+    sget v1, Lcom/resouce/module/ResID;->clear_finish_bottom_save_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -598,7 +598,7 @@
     .line 8
     iget-object v0, p0, Lru8;->e:Landroid/view/View;
 
-    const v1, 0x7f0b042d
+    sget v1, Lcom/resouce/module/ResID;->clear_finish_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -611,7 +611,7 @@
     .line 9
     iget-object v0, p0, Lru8;->h:Landroid/view/View;
 
-    const v1, 0x7f0b0427
+    sget v1, Lcom/resouce/module/ResID;->clear_file_loading_err_tips_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     .line 1
     iget-object v0, p0, Lru8;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2a8d
+    sget v1, Lcom/resouce/module/ResID;->search_loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

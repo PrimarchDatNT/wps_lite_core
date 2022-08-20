@@ -395,12 +395,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e05ea
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_tab_title_popup_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0e72
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_tab_title_popup_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -415,7 +415,7 @@
 
     invoke-virtual {v1, v0}, Ljd3;->x(Landroid/view/View;)V
 
-    const v1, 0x7f0b3221
+    sget v1, Lcom/resouce/module/ResID;->tv_popup_text:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

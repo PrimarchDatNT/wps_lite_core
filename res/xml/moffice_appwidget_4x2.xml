@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:minWidth="300.0dip" android:minHeight="140.0dip" android:initialLayout="@layout/public_widget_layout_phone_4x2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

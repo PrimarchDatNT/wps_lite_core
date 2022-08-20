@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e023f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_prot_sheet_password:I
 
     invoke-virtual {p1, v0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0191
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_phone_ss_prot_sheet_password:I
 
     invoke-virtual {p1, v0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e098a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_prot_sheet_password:I
 
     invoke-virtual {p1, v0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/common/PasswordInputView;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4c
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_input:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/common/PasswordInputView;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b45
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/common/PasswordInputView;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b46
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_del1:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/common/PasswordInputView;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b47
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_del2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/common/PasswordInputView;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b55
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_pw_show_char:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -374,7 +374,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f070ac2
+    sget v6, Lcom/resouce/module/ResDIMEN;->public_context_arrow_width:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -426,7 +426,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/CheckBox;->setChecked(Z)V
 
-    const v2, 0x7f120bf4
+    sget v2, Lcom/resouce/module/ResSTRING;->et_prot_sheet_pw_input_diff:I
 
     .line 12
     invoke-static {v2, v1}, Lsjf;->k(II)V
@@ -464,7 +464,7 @@
 
     const-string v2, ""
 
-    const v3, 0x7f0b0b46
+    sget v3, Lcom/resouce/module/ResID;->et_prot_sheet_del1:I
 
     if-ne v0, v3, :cond_0
 
@@ -479,7 +479,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b0b47
+    sget v3, Lcom/resouce/module/ResID;->et_prot_sheet_del2:I
 
     if-ne v0, v3, :cond_1
 

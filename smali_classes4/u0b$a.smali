@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

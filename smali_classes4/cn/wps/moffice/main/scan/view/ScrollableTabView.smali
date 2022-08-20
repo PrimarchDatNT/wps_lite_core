@@ -338,7 +338,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0700f6
+    sget v1, Lcom/resouce/module/ResDIMEN;->doc_scan_camera_tab_left_margin:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -357,7 +357,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0605e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanDefaultBlueColor:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -376,7 +376,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0605e6
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanScrollWhiteColor:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -567,7 +567,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e010d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_camera_tab:I
 
     const/4 v1, 0x0
 
@@ -576,7 +576,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b16f8
+    sget v0, Lcom/resouce/module/ResID;->ll_tab_container:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/view/ScrollableTabView;->S:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b14ce
+    sget v0, Lcom/resouce/module/ResID;->iv_tab_indicator:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

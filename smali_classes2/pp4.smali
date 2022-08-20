@@ -66,7 +66,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121e2f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_comp_share_wechat_file_size_limit_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -98,7 +98,7 @@
     .line 1
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f12115f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_wechat_size_limit_dialog_send_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
     .line 1
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f12296b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_file_to_wetchat:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

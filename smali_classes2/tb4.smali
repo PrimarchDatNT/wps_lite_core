@@ -109,7 +109,7 @@
 
     move-result-object p5
 
-    const v0, 0x7f06000c
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {p5, v0}, Landroid/content/res/Resources;->getColor(I)I
 

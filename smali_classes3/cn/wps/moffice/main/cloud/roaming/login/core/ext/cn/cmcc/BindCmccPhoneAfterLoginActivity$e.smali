@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity$e;->B:Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneAfterLoginActivity;
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

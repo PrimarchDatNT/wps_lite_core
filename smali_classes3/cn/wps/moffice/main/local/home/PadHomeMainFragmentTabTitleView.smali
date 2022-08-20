@@ -363,7 +363,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121256
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122588
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -399,7 +399,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221da
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -417,7 +417,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1206a7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -778,7 +778,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    const v4, 0x7f0e036b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->home_pad_main_fragment_tab_title_item:I
 
     .line 7
     invoke-virtual {v0, v4, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

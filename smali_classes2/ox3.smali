@@ -423,7 +423,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c0b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_fontpackage_purcharse_dialog:I
 
     const/4 v2, 0x0
 
@@ -439,7 +439,7 @@
     .line 5
     iget-object v0, p0, Lox3;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -447,7 +447,7 @@
 
     check-cast v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f122815
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -532,7 +532,7 @@
     .line 14
     iget-object v0, p0, Lox3;->Y:Landroid/view/View;
 
-    const v2, 0x7f0b2608
+    sget v2, Lcom/resouce/module/ResID;->public_fontpackage_viewpager:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -545,7 +545,7 @@
     .line 15
     iget-object v0, p0, Lox3;->Y:Landroid/view/View;
 
-    const v2, 0x7f0b2604
+    sget v2, Lcom/resouce/module/ResID;->public_fontpackage_pager_indicator:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -641,7 +641,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060645
+    sget v3, Lcom/resouce/module/ResCOLOR;->textFieldBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -658,7 +658,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060624
+    sget v3, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -772,7 +772,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12201b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -806,7 +806,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12202d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_downloaded:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -938,7 +938,7 @@
     :cond_0
     iget-object v0, p0, Lox3;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2607
+    sget v1, Lcom/resouce/module/ResID;->public_fontpackage_restorebutton:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -947,7 +947,7 @@
     .line 3
     iget-object v0, p0, Lox3;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2605
+    sget v1, Lcom/resouce/module/ResID;->public_fontpackage_purchasebutton:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -958,7 +958,7 @@
     .line 4
     iget-object v1, p0, Lox3;->Y:Landroid/view/View;
 
-    const v2, 0x7f0b2606
+    sget v2, Lcom/resouce/module/ResID;->public_fontpackage_redeembutton:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -969,7 +969,7 @@
     .line 5
     iget-object v2, p0, Lox3;->Y:Landroid/view/View;
 
-    const v3, 0x7f0b01f6
+    sget v3, Lcom/resouce/module/ResID;->bar_block:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -996,7 +996,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1221d0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fontname_monotype_purchase_cycle:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1178,7 +1178,7 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f0806e8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->font_purchase_blue_preview_selector:I
 
     .line 26
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -1198,7 +1198,7 @@
 
     move-result v1
 
-    const v11, 0x7f0806ea
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->font_purchase_orange_preview_selector:I
 
     if-nez v1, :cond_6
 

@@ -199,7 +199,7 @@
     .line 4
     iget-object p1, p2, Lej4$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120d4b
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_need_password_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -212,7 +212,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025d
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -278,7 +278,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e025f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->file_merge_unnormal_file_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -322,7 +322,7 @@
     .line 7
     iget-object v1, p3, Lej4$a;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080567
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -343,7 +343,7 @@
     .line 9
     iget-object v1, p3, Lej4$a;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080577
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_xls:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -364,7 +364,7 @@
     .line 11
     iget-object v1, p3, Lej4$a;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f080572
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -374,7 +374,7 @@
     :cond_3
     iget-object v1, p3, Lej4$a;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f08056e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pdf:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -407,7 +407,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 17
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -464,7 +464,7 @@
     :cond_4
     iget-object p1, p3, Lej4$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120d4b
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_need_password_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -490,7 +490,7 @@
     .line 29
     iget-object p1, p3, Lej4$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120d4d
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_protected_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -505,7 +505,7 @@
     .line 31
     iget-object p1, p3, Lej4$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120d4e
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_security_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -515,7 +515,7 @@
     :cond_7
     iget-object p1, p3, Lej4$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120d45
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_file_destroy_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -555,7 +555,7 @@
 
     iget-object v0, p0, Lej4;->S:Landroid/content/Context;
 
-    const v1, 0x7f122a5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -563,7 +563,7 @@
 
     iget-object v1, p0, Lej4;->S:Landroid/content/Context;
 
-    const v2, 0x7f121857
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_page:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

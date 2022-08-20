@@ -17,7 +17,7 @@
     .line 2
     iget-object p1, p0, Lcpf;->b:Landroid/view/View;
 
-    const p2, 0x7f0b0aca
+    sget p2, Lcom/resouce/module/ResID;->et_number_numeric_digit_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -31,7 +31,7 @@
     .line 4
     iget-object p1, p0, Lcpf;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0acb
+    sget v0, Lcom/resouce/module/ResID;->et_number_numeric_digit_picker:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -58,7 +58,7 @@
     .line 7
     iget-object p1, p0, Lhpf;->g:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;
 
-    const v0, 0x7f120bad
+    sget v0, Lcom/resouce/module/ResSTRING;->et_number_decimal_digits:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/HorizontalNumberPicker;->setTextViewText(I)V
 
@@ -172,7 +172,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07023e
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_number_numeric_digit_text_maxlenth:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

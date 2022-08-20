@@ -44,7 +44,7 @@
     .line 2
     iput-object p1, p0, Logg$d;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1877
+    sget v0, Lcom/resouce/module/ResID;->merge_file_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Logg$d;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1871
+    sget v0, Lcom/resouce/module/ResID;->merge_file_check_box:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Logg$d;->c:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b2d19
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_slanted_text_view:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Logg$d;->d:Landroid/view/View;
 
-    const v0, 0x7f0b2d16
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_item_sheet_name:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object v0, p0, Logg$d;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d14
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_item_choose_sheet:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Logg$d;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2d15
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_item_middle_divider:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Logg$d;->g:Landroid/view/View;
 
-    const v0, 0x7f0b2d18
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_sheet_name_layout:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object v0, p0, Logg$d;->h:Landroid/view/View;
 
-    const v0, 0x7f0b2d13
+    sget v0, Lcom/resouce/module/ResID;->ss_merge_dialog_file_item_divider_delete:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

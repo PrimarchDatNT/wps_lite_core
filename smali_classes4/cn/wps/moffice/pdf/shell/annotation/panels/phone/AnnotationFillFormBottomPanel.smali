@@ -43,13 +43,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e079d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_annotation_fill_form_panel:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2c1a
+    sget v0, Lcom/resouce/module/ResID;->sign_type:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b34bc
+    sget v0, Lcom/resouce/module/ResID;->write_type:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="@dimen/tab_navigation_text_size" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/navagation_bar_btn_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/tab_navigation_width" android:layout_centerInParent="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" MaxLine="2" />
-    <ImageView android:id="@id/navagation_bar_btn_bottom_line" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/tab_navigation_bottom_line_height" android:src="@color/mainTextColor" android:layout_alignLeft="@id/navagation_bar_btn_text" android:layout_alignRight="@id/navagation_bar_btn_text" android:layout_alignParentBottom="true" android:layout_alignStart="@id/navagation_bar_btn_text" android:layout_alignEnd="@id/navagation_bar_btn_text" />
-</RelativeLayout>

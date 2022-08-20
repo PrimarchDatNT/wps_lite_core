@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1583
+    sget v0, Lcom/resouce/module/ResID;->layout_unlock:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -42,7 +42,7 @@
 
     iput-object v0, p0, Laz2$g;->m0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b32f6
+    sget v0, Lcom/resouce/module/ResID;->unlock_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Laz2$g;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3210
+    sget v0, Lcom/resouce/module/ResID;->tv_page:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Laz2$g;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b32f7
+    sget v0, Lcom/resouce/module/ResID;->unlock_right_arrow:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

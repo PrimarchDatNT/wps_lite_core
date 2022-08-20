@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:padding="9.0dip" android:layout_width="90.0dip" android:layout_height="90.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.V10RoundRectImageView android:layout_gravity="center" android:id="@id/share_item_img" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@color/secondBackgroundColor" android:scaleType="fitXY" app:center_img="@drawable/v10_public_color_picker_checked_icon" app:selected_cover_color="@color/normalIconPressedColor" />
-    <ImageView android:layout_gravity="center|right|top" android:id="@id/member_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_wps_member_42" />
-    <TextView android:textSize="9.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="center|right|top" android:id="@id/limit_free_tv" android:background="@drawable/public_long_pic_share_limit_free_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_share_long_pic_limit_free" />
-</FrameLayout>

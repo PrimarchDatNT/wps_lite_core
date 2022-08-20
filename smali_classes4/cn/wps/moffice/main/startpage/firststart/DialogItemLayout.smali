@@ -28,12 +28,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e0517
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_documents_legal_provision_item:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e06a1
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_documents_legal_provision_item:I
 
     .line 4
     :goto_0
@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060465
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_more_about_divide_line_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -135,7 +135,7 @@
 
     check-cast v4, Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0b077a
+    sget v5, Lcom/resouce/module/ResID;->documents_legal_item_text:I
 
     .line 4
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

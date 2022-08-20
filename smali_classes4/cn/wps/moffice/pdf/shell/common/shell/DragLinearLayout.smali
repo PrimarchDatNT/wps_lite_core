@@ -60,13 +60,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0797
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_drag_layout:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b1d78
+    sget p1, Lcom/resouce/module/ResID;->pdf_bottom_sheet_content:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 .method public setHandleVisible(Z)V
     .locals 1
 
-    const v0, 0x7f0b1d7a
+    sget v0, Lcom/resouce/module/ResID;->pdf_bottom_sheet_handle:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

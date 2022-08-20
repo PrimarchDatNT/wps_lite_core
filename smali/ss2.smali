@@ -637,7 +637,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121d3b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -743,7 +743,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f1214d4
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_update_msg:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -755,7 +755,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f120561
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_check:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -787,7 +787,7 @@
     .line 8
     invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f120566
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_info:I
 
     .line 9
     invoke-virtual {v0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;

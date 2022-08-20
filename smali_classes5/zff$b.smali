@@ -107,7 +107,7 @@
 
     iget-object p1, p1, Lyff;->a:Landroid/content/Context;
 
-    const p2, 0x7f1205eb
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

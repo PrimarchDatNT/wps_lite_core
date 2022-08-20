@@ -138,7 +138,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0704fd
+    sget v3, Lcom/resouce/module/ResDIMEN;->ovs_home_side_bottom_bar_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0353
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_multi_scene_item:I
 
     const/4 v2, 0x0
 

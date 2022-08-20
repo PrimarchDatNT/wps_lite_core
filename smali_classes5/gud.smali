@@ -281,7 +281,7 @@
     .line 2
     iget-object v0, p0, Lgud;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -307,7 +307,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121cb7
+    sget v5, Lcom/resouce/module/ResSTRING;->private_app_extract_btn:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cb9
+    sget v1, Lcom/resouce/module/ResSTRING;->private_app_spilt_merge_floder:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

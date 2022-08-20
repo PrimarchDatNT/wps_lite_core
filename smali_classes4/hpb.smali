@@ -38,12 +38,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122583
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_update_dialog_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f122582
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_update_dialog_message:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -53,7 +53,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -63,12 +63,12 @@
 
     invoke-direct {v1, v0}, Lhpb$a;-><init>(Lhd3;)V
 
-    const v2, 0x7f120574
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_checkUpdate:I
 
     .line 5
     invoke-virtual {v0, v2, p0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

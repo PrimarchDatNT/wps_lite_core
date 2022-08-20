@@ -23,7 +23,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e01c8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_complex_format_dialog_base:I
 
     const/4 v1, 0x0
 
@@ -84,7 +84,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -108,7 +108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06011e
+    sget v2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

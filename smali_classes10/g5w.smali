@@ -75,7 +75,7 @@
     .line 4
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b34a0
+    sget p2, Lcom/resouce/module/ResID;->wps_skill_search_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     .line 5
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b321c
+    sget p2, Lcom/resouce/module/ResID;->tv_play_time:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -101,7 +101,7 @@
     .line 6
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b18c1
+    sget p2, Lcom/resouce/module/ResID;->model_divider_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     .line 7
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b12aa
+    sget p2, Lcom/resouce/module/ResID;->img_app_search:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -125,7 +125,7 @@
     .line 8
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b129a
+    sget p2, Lcom/resouce/module/ResID;->image_search_skill_play_icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 9
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aac
+    sget p2, Lcom/resouce/module/ResID;->search_skill_date_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -151,7 +151,7 @@
     .line 10
     iget-object p1, p0, Lg5w;->l:Landroid/view/View;
 
-    const p2, 0x7f0b2aad
+    sget p2, Lcom/resouce/module/ResID;->search_skill_read_number:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -519,11 +519,11 @@
 
     move-result p1
 
-    const v1, 0x7f081770
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_video_wps:I
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f08176f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_video_word:I
 
     goto :goto_0
 
@@ -541,7 +541,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f08176d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_video_et:I
 
     goto :goto_0
 
@@ -559,7 +559,7 @@
 
     if-eqz p1, :cond_2
 
-    const v1, 0x7f08176e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_video_ppt:I
 
     goto :goto_0
 
@@ -593,7 +593,7 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f081767
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_search_excellent_course_pdf:I
 
     .line 7
     :cond_4

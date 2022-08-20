@@ -104,42 +104,42 @@
     .line 12
     new-instance v7, Lxdg$a;
 
-    const v0, 0x7f120bdc
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_row_area_tip:I
 
     .line 13
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v0, 0x7f120bce
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_col_area_tip:I
 
     .line 14
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v0, 0x7f120bcf
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_data_area_tip:I
 
     .line 15
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v0, 0x7f120bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_page_area_tip:I
 
     .line 16
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v0, 0x7f120bdd
+    sget v0, Lcom/resouce/module/ResSTRING;->et_pivot_table_subtotal_type:I
 
     .line 17
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v0, 0x7f03001a
+    sget v0, Lcom/resouce/module/ResARRAY;->et_pivot_table_functions:I
 
     .line 18
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;

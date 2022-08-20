@@ -59,7 +59,7 @@
 .method public d()V
     .locals 3
 
-    const v0, 0x7f12281f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -68,7 +68,7 @@
 
     invoke-virtual {p0, v1}, Lvcd;->setTitle(Ljava/lang/String;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f121763
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_save_before_convert:I
 
     .line 2
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -77,7 +77,7 @@
 
     invoke-virtual {p0, v1}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;

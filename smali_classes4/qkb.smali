@@ -224,7 +224,7 @@
 
     iget-object v0, p0, Lqkb;->W:Landroid/content/Intent;
 
-    const v1, 0x7f1204af
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_share_image:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

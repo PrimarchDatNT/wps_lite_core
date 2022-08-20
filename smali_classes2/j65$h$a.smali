@@ -45,7 +45,7 @@
 
     iget-object p1, p1, Lj65$h;->S:Landroid/app/Activity;
 
-    const v0, 0x7f12302e
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add_success:I
 
     const/4 v1, 0x1
 

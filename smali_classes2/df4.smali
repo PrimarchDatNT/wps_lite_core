@@ -21,7 +21,7 @@
 
     const/4 v9, 0x1
 
-    const v10, 0x7f1225fd
+    sget v10, Lcom/resouce/module/ResSTRING;->public_payment_expiry_date:I
 
     move-object v0, p0
 
@@ -58,7 +58,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0818b8
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -94,7 +94,7 @@
     .line 8
     iget-object p2, p0, Llf4;->U:Landroid/view/View;
 
-    const p4, 0x7f0b0f3b
+    sget p4, Lcom/resouce/module/ResID;->gray_divide_line_1px:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -398,11 +398,11 @@
 
     invoke-direct {v7, p0, p1}, Ldf4$a;-><init>(Ldf4;Lmf4;)V
 
-    const v2, 0x7f0800e6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->banner_custom_time:I
 
-    const v3, 0x7f121fa8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_custom_validity:I
 
-    const v4, 0x7f121fa7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_custom_period_introduce_desc:I
 
     const-string v5, "custom"
 
@@ -490,7 +490,7 @@
 
     invoke-direct {p2, p0}, Ldf4$b;-><init>(Ldf4;)V
 
-    const v3, 0x7f0e0dcf
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_pickerview_custom_time:I
 
     .line 6
     invoke-virtual {v2, v3, p2}, Lcl3;->e(ILbl3$a;)Lcl3;

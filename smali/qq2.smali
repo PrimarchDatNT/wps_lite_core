@@ -104,7 +104,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0615
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pc_user_story_item:I
 
     const/4 v1, 0x0
 
@@ -114,7 +114,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b1d35
+    sget v0, Lcom/resouce/module/ResID;->pay_user_story_icon:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p2, Lqq2$a;->a:Lcn/wps/moffice/pay/view/RoundImageView;
 
-    const v0, 0x7f0b1d37
+    sget v0, Lcom/resouce/module/ResID;->pay_user_story_name:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v0, p2, Lqq2$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1d38
+    sget v0, Lcom/resouce/module/ResID;->pay_user_story_work:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p2, Lqq2$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1d34
+    sget v0, Lcom/resouce/module/ResID;->pay_user_story_dec:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p2, Lqq2$a;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1d36
+    sget v0, Lcom/resouce/module/ResID;->pay_user_story_item:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060627
+    sget v2, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -253,7 +253,7 @@
     :cond_1
     iget-object v1, p2, Lqq2$a;->a:Lcn/wps/moffice/pay/view/RoundImageView;
 
-    const v2, 0x7f0819c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -299,7 +299,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060625
+    sget v0, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -319,7 +319,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060035
+    sget v0, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

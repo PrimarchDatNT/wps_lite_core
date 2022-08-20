@@ -134,13 +134,13 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e090c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_resume_share_launcher_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b28df
+    sget p3, Lcom/resouce/module/ResID;->resume_share_item_img:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b28e0
+    sget v1, Lcom/resouce/module/ResID;->resume_share_item_text:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2b79
+    sget v2, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

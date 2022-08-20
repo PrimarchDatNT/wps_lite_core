@@ -219,9 +219,9 @@
 
     move-result v0
 
-    const v1, 0x7f0b1e1f
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_brush_container:I
 
-    const v2, 0x7f0b1e24
+    sget v2, Lcom/resouce/module/ResID;->pdf_ink_brush_title:I
 
     if-nez v0, :cond_2
 
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e066d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_select_ink_style_popmenu:I
 
     const/4 v2, 0x0
 
@@ -464,7 +464,7 @@
     .line 3
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e25
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_color_selector:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -477,7 +477,7 @@
     .line 4
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e27
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_thickness_selector:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -490,7 +490,7 @@
     .line 5
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e26
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_thickness:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +573,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122370
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_pt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -584,7 +584,7 @@
     .line 15
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e21
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_brush_hard_fl:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -595,7 +595,7 @@
     .line 16
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e23
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_brush_soft_fl:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -606,7 +606,7 @@
     .line 17
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e22
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_brush_soft:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -619,7 +619,7 @@
     .line 18
     iget-object v0, p0, Laxc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e20
+    sget v1, Lcom/resouce/module/ResID;->pdf_ink_brush_hard:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -861,7 +861,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081015
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_normalbutton_color_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -879,7 +879,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -953,7 +953,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b1e23
+    sget v3, Lcom/resouce/module/ResID;->pdf_ink_brush_soft_fl:I
 
     if-ne v2, v3, :cond_0
 

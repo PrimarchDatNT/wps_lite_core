@@ -15,9 +15,9 @@
 .method public constructor <init>(Landroid/content/Context;Lx9e$m;Lloe;)V
     .locals 2
 
-    const v0, 0x7f081198
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_share_to_pc:I
 
-    const v1, 0x7f122040
+    sget v1, Lcom/resouce/module/ResSTRING;->public_edit_on_pc:I
 
     .line 1
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V

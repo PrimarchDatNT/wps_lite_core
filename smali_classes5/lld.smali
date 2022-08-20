@@ -27,7 +27,7 @@
 
     move-result v0
 
-    const v1, 0x7f1220ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_title:I
 
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V
 
@@ -111,12 +111,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080229
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_feedback:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080bcb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_feedback_ppt:I
 
     :goto_0
     return v0
@@ -185,7 +185,7 @@
 
     iget-object v1, p0, Llld;->i0:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, p0, v1, v2}, Llld$d;-><init>(Llld;Landroid/content/Context;I)V
 

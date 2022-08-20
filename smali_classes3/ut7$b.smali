@@ -169,7 +169,7 @@
     .line 3
     iget-object v2, p0, Lut7$b;->B:Landroid/content/Context;
 
-    const v3, 0x7f122546
+    sget v3, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
     .line 8
     iget-object v0, p0, Lut7$b;->B:Landroid/content/Context;
 
-    const v2, 0x7f1205c7
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -236,7 +236,7 @@
     :cond_1
     iget-object v0, p0, Lut7$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
     :cond_2
     iget-object v0, p0, Lut7$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f120649
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_open_failed:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -264,7 +264,7 @@
     :cond_3
     iget-object v0, p0, Lut7$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f120584
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

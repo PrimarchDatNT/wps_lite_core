@@ -127,7 +127,7 @@
     .line 2
     iput-object v1, p0, Lp8h;->B:Ljava/lang/String;
 
-    const v1, 0x7f1230bb
+    sget v1, Lcom/resouce/module/ResSTRING;->thai_grant_member_rights:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -141,7 +141,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123052
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12304a
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_btn:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12304d
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_subtitle:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12304e
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_tip_1:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12304f
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_tip_2:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -206,7 +206,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123050
+    sget v2, Lcom/resouce/module/ResSTRING;->tail_member_rights_tip_3:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123051
+    sget v1, Lcom/resouce/module/ResSTRING;->tail_member_rights_tip_4:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -357,7 +357,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0104
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_tail_memeber_float:I
 
     const/4 v3, 0x0
 
@@ -483,7 +483,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b3018
+    sget v0, Lcom/resouce/module/ResID;->title_txt:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     invoke-virtual {v0, v1}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
-    const v0, 0x7f0b32cf
+    sget v0, Lcom/resouce/module/ResID;->txt_subtitle:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b32d0
+    sget v0, Lcom/resouce/module/ResID;->txt_tip1:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -540,7 +540,7 @@
 
     invoke-virtual {v0, v1}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
-    const v0, 0x7f0b32d1
+    sget v0, Lcom/resouce/module/ResID;->txt_tip2:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -553,7 +553,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b32d2
+    sget v0, Lcom/resouce/module/ResID;->txt_tip3:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -566,7 +566,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b32d3
+    sget v0, Lcom/resouce/module/ResID;->txt_tip4:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b281d
+    sget v0, Lcom/resouce/module/ResID;->receive_member_btn:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
     .line 14
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    const v0, 0x7f0b0445
+    sget v0, Lcom/resouce/module/ResID;->closeImg:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -910,7 +910,7 @@
 
     const-string v1, ""
 
-    const v2, 0x7f0b281d
+    sget v2, Lcom/resouce/module/ResID;->receive_member_btn:I
 
     if-ne p1, v2, :cond_2
 
@@ -994,7 +994,7 @@
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0b0445
+    sget v2, Lcom/resouce/module/ResID;->closeImg:I
 
     if-ne p1, v2, :cond_3
 

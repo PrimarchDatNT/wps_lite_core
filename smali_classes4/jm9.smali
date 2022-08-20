@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12118c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_theme_load_error:I
 
     const/4 v2, 0x0
 
@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12118c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_theme_load_error:I
 
     const/4 v2, 0x0
 

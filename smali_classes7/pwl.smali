@@ -170,7 +170,7 @@
     .line 3
     iget-object v0, p0, Lpwl;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f122adb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 

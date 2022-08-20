@@ -114,7 +114,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1224ef
+    sget v4, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_upload_fail_tips:I
 
     new-array v5, v2, [Ljava/lang/Object;
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:height="32.0dip" android:width="32.0dip">
-        <shape android:shape="oval">
-            <solid android:color="@color/public_titlebar_btn_press_color" />
-        </shape>
-    </item>
-</selector>

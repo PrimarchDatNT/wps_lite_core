@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lyo8$a;->B:Landroid/content/Context;
 
-    const v1, 0x7f122350
+    sget v1, Lcom/resouce/module/ResSTRING;->public_id_photo_save_photo_failed:I
 
     const/4 v2, 0x0
 

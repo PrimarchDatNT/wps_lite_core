@@ -24,7 +24,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b15da
+    sget v0, Lcom/resouce/module/ResID;->link_modify_period:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -35,7 +35,7 @@
 
     iput-object v0, p0, Lwc4;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15d3
+    sget v0, Lcom/resouce/module/ResID;->link_modify_delay_button:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lwc4;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15d8
+    sget v0, Lcom/resouce/module/ResID;->link_modify_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

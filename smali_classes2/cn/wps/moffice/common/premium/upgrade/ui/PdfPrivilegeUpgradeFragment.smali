@@ -91,7 +91,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220d4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_item:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -102,7 +102,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1220cf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -113,7 +113,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220cd
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_add_document:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 .method public final g(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b052f
+    sget v0, Lcom/resouce/module/ResID;->contact_iv:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3308
+    sget v0, Lcom/resouce/module/ResID;->upgrade_iv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
     .line 4
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b330b
+    sget v0, Lcom/resouce/module/ResID;->upgrade_space_tv:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2c83
+    sget v0, Lcom/resouce/module/ResID;->space_usage_progress:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->T:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b0478
+    sget v0, Lcom/resouce/module/ResID;->cloud_storage_ll:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->U:Landroid/view/View;
 
-    const v0, 0x7f0b3015
+    sget v0, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2ff4
+    sget v0, Lcom/resouce/module/ResID;->title_desc_tv:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/premium/upgrade/ui/PdfPrivilegeUpgradeFragment;->Y:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1238
+    sget v0, Lcom/resouce/module/ResID;->icon_iv:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     const-string v2, "page_upgrade"
 
-    const v3, 0x7f0b052f
+    sget v3, Lcom/resouce/module/ResID;->contact_iv:I
 
     if-ne p1, v3, :cond_0
 
@@ -491,7 +491,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b3308
+    sget v3, Lcom/resouce/module/ResID;->upgrade_iv:I
 
     if-ne p1, v3, :cond_1
 
@@ -525,7 +525,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p2, 0x7f0e0af5
+    sget p2, Lcom/resouce/module/ResLAYOUT;->premium_pdf_need_upgrade_head_fragment:I
 
     const/4 p3, 0x0
 

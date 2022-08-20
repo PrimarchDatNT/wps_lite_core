@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/secondBackgroundColor" android:paddingTop="33.0dip" android:layout_width="fill_parent" android:layout_height="168.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/public_wpsdrive_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="223.0dip" android:maxLines="1" android:singleLine="true" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_wpsdrive_group_num" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxWidth="223.0dip" android:singleLine="true" />
-    <Button android:textSize="16.0dip" android:id="@id/public_wpsdrive_share_btn" android:layout_width="130.0dip" android:layout_height="32.0dip" android:layout_marginTop="14.0dip" android:maxWidth="80.0dip" android:text="@string/home_wpsdrive_share" android:singleLine="true" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
-</cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout>

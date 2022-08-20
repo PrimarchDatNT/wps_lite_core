@@ -66,12 +66,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e075b
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_recommend_docinfo_item:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e075c
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_recommend_item:I
 
     :goto_0
     return p1
@@ -82,12 +82,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0e0759
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_docinfo_item:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0e075a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_share_launcher_item:I
 
     :goto_1
     return p1
@@ -144,7 +144,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b0774
+    sget p3, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_image:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0776
+    sget v2, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_text:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0b2b79
+    sget p3, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     if-nez v2, :cond_2
 
-    const v2, 0x7f0b0775
+    sget v2, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_sub_text:I
 
     .line 15
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

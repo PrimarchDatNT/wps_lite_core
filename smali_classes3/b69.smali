@@ -342,12 +342,12 @@
 
     if-eqz v6, :cond_0
 
-    const v6, 0x7f122264
+    sget v6, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     goto :goto_0
 
     :cond_0
-    const v6, 0x7f122b81
+    sget v6, Lcom/resouce/module/ResSTRING;->public_use:I
 
     :goto_0
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -439,7 +439,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12263b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_phone_search_more_search_result_tips:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

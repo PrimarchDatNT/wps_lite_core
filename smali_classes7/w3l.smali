@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0c12
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_functional_panel_image_item:I
 
     const/4 v3, 0x0
 
@@ -135,7 +135,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f0b0ec3
+    sget v1, Lcom/resouce/module/ResID;->function_icon:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v1, p2, Lw3l$b;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0589
+    sget v1, Lcom/resouce/module/ResID;->corner_text:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

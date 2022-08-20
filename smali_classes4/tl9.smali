@@ -64,7 +64,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0382
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_privilege_icon_layout:I
 
     const/4 v1, 0x0
 
@@ -73,7 +73,7 @@
     move-result-object p2
 
     :cond_0
-    const v0, 0x7f0b2529
+    sget v0, Lcom/resouce/module/ResID;->privilege_icon:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     if-eqz v1, :cond_1
 
-    const v2, 0x7f08089c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_qing_privilege_no_ad:I
 
     goto :goto_1
 
@@ -162,16 +162,16 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f0817b4
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px_2:I
 
-    const v2, 0x7f0817b4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px_2:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0817b3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px:I
 
-    const v2, 0x7f0817b3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px:I
 
     goto :goto_1
 
@@ -187,16 +187,16 @@
 
     if-eqz v0, :cond_4
 
-    const p1, 0x7f0817a3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px_2:I
 
-    const v2, 0x7f0817a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px_2:I
 
     goto :goto_1
 
     :cond_4
-    const p1, 0x7f0817a2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px:I
 
-    const v2, 0x7f0817a2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px:I
 
     goto :goto_1
 
@@ -210,7 +210,7 @@
 
     if-eqz v0, :cond_6
 
-    const v2, 0x7f0817cd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_48px:I
 
     goto :goto_1
 
@@ -224,7 +224,7 @@
 
     if-eqz p1, :cond_7
 
-    const v2, 0x7f0817b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_48px:I
 
     :cond_7
     :goto_1

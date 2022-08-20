@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a92
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_image_segment_wait_dialog:I
 
     const/4 v2, 0x0
 

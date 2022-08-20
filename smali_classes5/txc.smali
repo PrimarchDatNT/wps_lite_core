@@ -477,12 +477,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f120cb9
+    sget p0, Lcom/resouce/module/ResSTRING;->fanyigo_less_character:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -494,7 +494,7 @@
 
     invoke-direct {p0, p1}, Ltxc$b;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -725,12 +725,12 @@
     .line 10
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p0, 0x7f121748
+    sget p0, Lcom/resouce/module/ResSTRING;->pdf_convert_mobile_network_tips_dialog:I
 
     .line 11
     invoke-virtual {p1, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121f5e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 12
     new-instance p2, Ltxc$e;
@@ -739,7 +739,7 @@
 
     invoke-virtual {p1, p0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     invoke-virtual {p1, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

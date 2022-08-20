@@ -344,7 +344,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b0e7e
+    sget v0, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 16
     invoke-virtual {p2, v0, p1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -373,7 +373,7 @@
 .method public final k(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f122df6
+    sget v0, Lcom/resouce/module/ResSTRING;->recommend_invalid_tip:I
 
     const/4 v1, 0x0
 
@@ -386,7 +386,7 @@
 .method public l(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f122df8
+    sget v0, Lcom/resouce/module/ResSTRING;->recommend_offline_func_tip:I
 
     const/4 v1, 0x0
 

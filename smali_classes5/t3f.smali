@@ -62,7 +62,7 @@
 .method public d0(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;I)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0074
+    sget p3, Lcom/resouce/module/ResLAYOUT;->applog_item:I
 
     const/4 v0, 0x0
 

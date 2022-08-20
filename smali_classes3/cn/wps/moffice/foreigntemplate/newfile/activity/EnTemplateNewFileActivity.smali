@@ -79,7 +79,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/activity/EnTemplateNewFileActivity;->T:Lcn/wps/moffice/foreigntemplate/newfile/fragment/EnTemplateNewFragment;
 
-    const v2, 0x7f0b2815
+    sget v2, Lcom/resouce/module/ResID;->real_content:I
 
     .line 4
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -156,7 +156,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080ac7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->my_template:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -170,7 +170,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081a3e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_more_black:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -233,7 +233,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/activity/EnTemplateNewFileActivity;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f12251b    # 1.9425995E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -254,7 +254,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/activity/EnTemplateNewFileActivity;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f12251f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newfile_ppt_label:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -275,7 +275,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/activity/EnTemplateNewFileActivity;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f122520
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newfile_xls_label:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

@@ -237,7 +237,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081cbc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -276,7 +276,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081cbc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -315,7 +315,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081cbc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -354,7 +354,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081cbc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -488,7 +488,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -552,7 +552,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0709e9
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_framestyle_margin_left:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -563,7 +563,7 @@
 
     iput v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->o0:I
 
-    const v1, 0x7f0709ef
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_size_width:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -577,7 +577,7 @@
     .line 4
     iput v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->q0:I
 
-    const v1, 0x7f0709ee
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_size_height:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -591,7 +591,7 @@
     .line 6
     iput v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->s0:I
 
-    const v1, 0x7f0709e8
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_framestyle_item_width:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -605,7 +605,7 @@
     .line 8
     iput v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->u0:I
 
-    const v1, 0x7f0709e6
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_framestyle_item_spacing_horizonl:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -782,13 +782,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ac7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_quickstyle_frame_line_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b23f5
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_style_root:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -800,7 +800,7 @@
     .line 3
     invoke-virtual {p0}, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->g()V
 
-    const v0, 0x7f0b23f3
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_size_root:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->B:Landroid/view/View;
 
-    const v0, 0x7f0b22d4
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_size_1pt:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -820,7 +820,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b22d5
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_size_2pt:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -831,7 +831,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b22d6
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_size_3pt:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -842,7 +842,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b22d7
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_size_4pt:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -853,7 +853,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b22d8
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_size_5pt:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -929,7 +929,7 @@
 
     invoke-virtual {v0, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f0b23ef
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_no_frame:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -952,7 +952,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b23f0
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_real_line:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -975,7 +975,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b23ee
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_dot_line:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -998,7 +998,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b23ed
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_frame_dashed_line:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1021,7 +1021,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b22d0
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_no_line:I
 
     .line 27
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1032,7 +1032,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->e0:Lcn/wps/moffice/presentation/control/common/PptUnderLineDrawable;
 
-    const v0, 0x7f0b22d2
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_real_line:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1043,7 +1043,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->f0:Lcn/wps/moffice/presentation/control/common/PptUnderLineDrawable;
 
-    const v0, 0x7f0b22ce
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_dot_line:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1054,7 +1054,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->g0:Lcn/wps/moffice/presentation/control/common/PptUnderLineDrawable;
 
-    const v0, 0x7f0b22cc
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_dashed_line:I
 
     .line 30
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1065,7 +1065,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->h0:Lcn/wps/moffice/presentation/control/common/PptUnderLineDrawable;
 
-    const v0, 0x7f0b22d1
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_no_line_radio:I
 
     .line 31
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1076,7 +1076,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->i0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b22d3
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_real_line_radio:I
 
     .line 32
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->j0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b22cf
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_dot_line_radio:I
 
     .line 33
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1098,7 +1098,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;->k0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b22cd
+    sget v0, Lcom/resouce/module/ResID;->ppt_frame_dashed_line_radio:I
 
     .line 34
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

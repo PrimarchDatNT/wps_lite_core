@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03bd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_top_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b282c
+    sget v1, Lcom/resouce/module/ResID;->recent_use:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b3396
+    sget v2, Lcom/resouce/module/ResID;->view_devide:I
 
     .line 14
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
     :goto_1
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b322d
+    sget v2, Lcom/resouce/module/ResID;->tv_recent:I
 
     .line 16
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12060b
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     return v0
 .end method

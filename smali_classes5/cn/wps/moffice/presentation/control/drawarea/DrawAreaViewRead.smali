@@ -28,13 +28,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e080e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ppt_readmode_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b2402
+    sget p2, Lcom/resouce/module/ResID;->ppt_readslideview:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060043
+    sget p2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

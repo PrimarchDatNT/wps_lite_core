@@ -479,7 +479,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dfc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_confirm_dialog_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -494,7 +494,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f121dfa
+    sget v2, Lcom/resouce/module/ResSTRING;->public_clear_file_confirm_dialog_tips_1:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -507,7 +507,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f121dfb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_clear_file_confirm_dialog_tips_2:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -525,14 +525,14 @@
 
     move-result-object p0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {p0, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p0
 
-    const p1, 0x7f121f40
+    sget p1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 7
     invoke-virtual {p0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -669,7 +669,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121e00
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_exit_dialog_text:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -680,14 +680,14 @@
 
     move-result-object p0
 
-    const v0, 0x7f122563
+    sget v0, Lcom/resouce/module/ResSTRING;->public_notyet:I
 
     .line 3
     invoke-virtual {p0, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p0
 
-    const p1, 0x7f122087
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     .line 4
     invoke-virtual {p0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -920,7 +920,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121e05
+    sget v0, Lcom/resouce/module/ResSTRING;->public_clear_file_network_error_message:I
 
     const/4 v1, 0x1
 
@@ -979,7 +979,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b47
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_clear_local_files_guide_tips_layout:I
 
     const/4 v2, 0x0
 
@@ -1058,7 +1058,7 @@
     return-void
 
     :cond_0
-    const v5, 0x7f081998
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_icon_notification:I
 
     .line 6
     invoke-virtual {v4, v5}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -1070,7 +1070,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f121e09
+    sget v7, Lcom/resouce/module/ResSTRING;->public_clear_file_notification_content:I
 
     const/4 v8, 0x1
 
@@ -1099,7 +1099,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f121e0f
+    sget v7, Lcom/resouce/module/ResSTRING;->public_clear_file_release_space:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

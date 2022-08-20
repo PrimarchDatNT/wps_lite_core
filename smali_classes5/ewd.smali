@@ -30,15 +30,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080381
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_hide_slide:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080d6d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_hide_slide:I
 
     :goto_0
-    const v2, 0x7f122253
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hide_slide_toolbar:I
 
     invoke-direct {v0, p0, v1, v2}, Lewd$a;-><init>(Lewd;II)V
 
@@ -51,15 +51,15 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f080391
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_slide:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080d80
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_slide:I
 
     :goto_1
-    const v2, 0x7f122b3e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unhide_slide_toolbar:I
 
     invoke-direct {v0, p0, v1, v2}, Lewd$b;-><init>(Lewd;II)V
 

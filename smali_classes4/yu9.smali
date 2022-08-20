@@ -151,7 +151,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1204aa
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0ca8
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_layout_delete_roaming_record_dialog:I
 
     const/4 v4, 0x0
 
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12200c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_document_draft_multidelete_content:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -227,7 +227,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0b268e
+    sget p1, Lcom/resouce/module/ResID;->public_multiselect_delete_text:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
     invoke-virtual {p0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
     :goto_0
-    const p1, 0x7f0b2572
+    sget p1, Lcom/resouce/module/ResID;->public_cb_delete_document:I
 
     .line 12
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,12 +280,12 @@
 
     invoke-direct {p1, p0}, Lyu9$b;-><init>(Lyu9;)V
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 16
     invoke-virtual {p0, v0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 17
     new-instance v0, Lyu9$c;

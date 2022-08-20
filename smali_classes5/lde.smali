@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -157,7 +157,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b20f7
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,11 +166,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f121a39
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_align_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1120,7 +1120,7 @@
 .method public playToEnd()V
     .locals 1
 
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V
@@ -1131,7 +1131,7 @@
 .method public playToHead()V
     .locals 1
 
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V

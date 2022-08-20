@@ -1263,7 +1263,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2a08
+    sget v2, Lcom/resouce/module/ResID;->scan_file_sub_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1276,7 +1276,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->I:Landroid/view/View;
 
-    const v2, 0x7f0b03ac
+    sget v2, Lcom/resouce/module/ResID;->check_file_sub_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1289,7 +1289,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2ae9
+    sget v2, Lcom/resouce/module/ResID;->select_can_slim_file_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1302,7 +1302,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2c3d
+    sget v2, Lcom/resouce/module/ResID;->slim_file_sub_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1363,7 +1363,7 @@
     .line 14
     iget-object v2, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->W:Lcn/wps/moffice/common/thin_batch/impl/view/SelectCanSlimFileSubView;
 
-    const v3, 0x7f0b01ba
+    sget v3, Lcom/resouce/module/ResID;->back_btn:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1378,7 +1378,7 @@
     .line 15
     iget-object v2, p0, Lcn/wps/moffice/common/thin_batch/impl/view/BatchSlimViewImpl;->V:Lcn/wps/moffice/common/thin_batch/impl/view/CheckFileSubView;
 
-    const v3, 0x7f0b301a
+    sget v3, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1434,7 +1434,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f08186a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_close:I
 
     .line 20
     invoke-virtual {v1, v0}, Lcn/wps/moffice/main/common/viewcontrols/BackIconTitleBar;->setBackIcon(I)V
@@ -2589,7 +2589,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_layout:I
 
     const/4 v2, 0x0
 
@@ -2735,7 +2735,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122266
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     return v0
 .end method
@@ -3330,7 +3330,7 @@
     .line 6
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 

@@ -147,7 +147,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f08167a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_novel:I
 
     .line 12
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -177,7 +177,7 @@
 .method public o(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lu5a$a;
     .locals 2
 
-    const v0, 0x7f0e0d21
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_novel_item_layout:I
 
     const/4 v1, 0x0
 

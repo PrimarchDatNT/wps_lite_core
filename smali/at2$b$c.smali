@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lat2$b;->b:Landroid/app/Activity;
 
-    const v1, 0x7f120568
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_message:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

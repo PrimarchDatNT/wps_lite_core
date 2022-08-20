@@ -68,7 +68,7 @@
     .line 7
     iput-object p3, p0, Lp4w;->b:Landroid/view/View;
 
-    const p1, 0x7f0b1580
+    sget p1, Lcom/resouce/module/ResID;->layout_total_search_title:I
 
     .line 8
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,14 +88,14 @@
 
     iget-object p2, p0, Lp4w;->c:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0e0f27
+    sget p3, Lcom/resouce/module/ResLAYOUT;->search_phone_total_search_title_layout:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 10
     iget-object p1, p0, Lp4w;->b:Landroid/view/View;
 
-    const p2, 0x7f0b3093
+    sget p2, Lcom/resouce/module/ResID;->total_search_input:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 11
     iget-object p1, p0, Lp4w;->b:Landroid/view/View;
 
-    const p2, 0x7f0b0421
+    sget p2, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -119,7 +119,7 @@
     .line 12
     iget-object p1, p0, Lp4w;->b:Landroid/view/View;
 
-    const p2, 0x7f0b308f
+    sget p2, Lcom/resouce/module/ResID;->total_search_cancel:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -225,7 +225,7 @@
     .line 2
     iget-object v0, p0, Lp4w;->b:Landroid/view/View;
 
-    const v1, 0x7f0b3093
+    sget v1, Lcom/resouce/module/ResID;->total_search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

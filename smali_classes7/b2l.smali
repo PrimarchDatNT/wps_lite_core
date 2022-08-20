@@ -309,7 +309,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f123439
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_user_table_finish:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -523,7 +523,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f123438
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_user_table_edit:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -574,7 +574,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a2f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_user_table:I
 
     const/4 v2, 0x0
 
@@ -597,7 +597,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12343a
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_user_table_manager:I
 
     return v0
 .end method
@@ -608,7 +608,7 @@
     .line 1
     iget-object v0, p0, Lb2l;->B:Landroid/view/View;
 
-    const v1, 0x7f0b333b
+    sget v1, Lcom/resouce/module/ResID;->user_tables:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -643,7 +643,7 @@
 
     sget v3, Leo2;->g:I
 
-    const v4, 0x7f0e0a30
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_writer_user_table_item:I
 
     invoke-direct {v0, v1, v2, v4, v3}, Lnjb;-><init>(Landroid/content/Context;Ljava/util/List;II)V
 
@@ -657,7 +657,7 @@
     .line 6
     iget-object v0, p0, Lb2l;->B:Landroid/view/View;
 
-    const v1, 0x7f0b333a
+    sget v1, Lcom/resouce/module/ResID;->user_table_no:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -668,7 +668,7 @@
     .line 7
     iget-object v0, p0, Lb2l;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2e35
+    sget v1, Lcom/resouce/module/ResID;->table_create:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -698,7 +698,7 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f123439
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_user_table_finish:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -707,7 +707,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f123438
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_user_table_edit:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

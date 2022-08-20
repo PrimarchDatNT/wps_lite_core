@@ -72,7 +72,7 @@
 
     if-eqz v0, :cond_0
 
-    const p0, 0x7f06046d
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     return p0
 
@@ -445,7 +445,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e088b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_guide_img_text_dialog:I
 
     const/4 v4, 0x0
 
@@ -453,7 +453,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0693
+    sget v3, Lcom/resouce/module/ResID;->dialog_img:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     invoke-virtual {v3, p1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f0b06a1
+    sget p1, Lcom/resouce/module/ResID;->dialog_title:I
 
     .line 5
     invoke-virtual {v2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b069f
+    sget p1, Lcom/resouce/module/ResID;->dialog_text:I
 
     .line 6
     invoke-virtual {v2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -486,7 +486,7 @@
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b0699
+    sget p1, Lcom/resouce/module/ResID;->dialog_okbuttom:I
 
     .line 7
     invoke-virtual {v2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -677,7 +677,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 p1, 0x0
 
@@ -744,7 +744,7 @@
 
     invoke-direct {p0, p2}, Lka3$c;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -776,7 +776,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 p1, 0x0
 
@@ -825,28 +825,28 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f130201
+    sget p0, Lcom/resouce/module/ResSTYLE;->SpreadsheetTheme:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f1301c3
+    sget p0, Lcom/resouce/module/ResSTYLE;->PptTheme:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f13019e
+    sget p0, Lcom/resouce/module/ResSTYLE;->PdfTheme:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f1303d8
+    sget p0, Lcom/resouce/module/ResSTYLE;->WriterTheme:I
 
     return p0
 
     :cond_4
     :goto_0
-    const p0, 0x7f130158
+    sget p0, Lcom/resouce/module/ResSTYLE;->HomeTheme:I
 
     return p0
 .end method
@@ -862,7 +862,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 p1, 0x0
 
@@ -898,37 +898,37 @@
 
     packed-switch p0, :pswitch_data_0
 
-    const p0, 0x7f060533
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_default_theme_textcolor:I
 
     return p0
 
     :pswitch_0
-    const p0, 0x7f060549
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_home_theme_textcolor:I
 
     return p0
 
     :pswitch_1
-    const p0, 0x7f060004
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDMainColor:I
 
     return p0
 
     :pswitch_2
-    const p0, 0x7f060006
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     return p0
 
     :pswitch_3
-    const p0, 0x7f060009
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     return p0
 
     :pswitch_4
-    const p0, 0x7f060002
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     return p0
 
     :pswitch_5
-    const p0, 0x7f0605c2
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_writer_theme_textcolor:I
 
     return p0
 
@@ -1026,7 +1026,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f12289d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secfolder_move:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1037,13 +1037,13 @@
 
     move-result-object p0
 
-    const v1, 0x7f12289e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secfolder_move_message:I
 
     invoke-virtual {p0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -1055,7 +1055,7 @@
 
     invoke-direct {v1, p1}, Lka3$j;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 5
     invoke-virtual {p0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1135,7 +1135,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1224,7 +1224,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1247,7 +1247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e070c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_collection_info_software:I
 
     const/4 v2, 0x0
 
@@ -1262,15 +1262,15 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f12054c
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_activation_statistics:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1206c2
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_usage_statistics:I
 
     :goto_0
-    const v3, 0x7f0b31d6
+    sget v3, Lcom/resouce/module/ResID;->tv_message:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1283,18 +1283,18 @@
 
     if-eqz v1, :cond_1
 
-    const v4, 0x7f120d97
+    sget v4, Lcom/resouce/module/ResSTRING;->gdpr_appsflyer_announcement:I
 
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f121955
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_home_collection_software_info:I
 
     .line 4
     :goto_1
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
-    const v3, 0x7f0b315b
+    sget v3, Lcom/resouce/module/ResID;->tv_end_user_license:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1310,7 +1310,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b04a1
+    sget v3, Lcom/resouce/module/ResID;->collection_info_provider:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1323,12 +1323,12 @@
 
     if-eqz v1, :cond_2
 
-    const v4, 0x7f121c9a
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_policy_private_policy:I
 
     goto :goto_2
 
     :cond_2
-    const v4, 0x7f121954
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_home_collection_software_aboutmore:I
 
     .line 8
     :goto_2
@@ -1341,7 +1341,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b0647
+    sget v3, Lcom/resouce/module/ResID;->delete_data:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1354,7 +1354,7 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f122223
+    sget v2, Lcom/resouce/module/ResSTRING;->public_gdpr_user_policy_item_data_collection:I
 
     const/4 v5, 0x0
 
@@ -1375,7 +1375,7 @@
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
     :goto_3
-    const v3, 0x7f0b04a0
+    sget v3, Lcom/resouce/module/ResID;->collection_info_check_root:I
 
     .line 14
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1390,7 +1390,7 @@
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
     :cond_4
-    const v1, 0x7f0b049f
+    sget v1, Lcom/resouce/module/ResID;->collection_info_check_checkbox:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1451,7 +1451,7 @@
     .line 24
     invoke-virtual {p1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 25
     new-instance v0, Lka3$y;
@@ -1460,7 +1460,7 @@
 
     invoke-virtual {p1, p0, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 26
     new-instance v0, Lka3$z;
@@ -1609,13 +1609,13 @@
 
     move-result-object p0
 
-    const v3, 0x7f0e0ba4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     invoke-virtual {p0, v3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p0
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1629,7 +1629,7 @@
     .line 6
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1641,7 +1641,7 @@
     .line 8
     invoke-virtual {v1, p0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p0, 0x7f12122d
+    sget p0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     .line 9
     invoke-virtual {v1, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -1815,7 +1815,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122492
+    sget v1, Lcom/resouce/module/ResSTRING;->public_mail_card_content:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1824,7 +1824,7 @@
 
     invoke-virtual {v0, p0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1847,7 +1847,7 @@
 .method public static a0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lka3$b0;Ljava/lang/String;Lka3$d0;)Lhd3;
     .locals 9
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1900,7 +1900,7 @@
 
     aput-object p4, v2, p3
 
-    const p3, 0x7f122b5f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_upload_all_by_mobile_warning:I
 
     invoke-virtual {p0, p3, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1916,7 +1916,7 @@
 
     invoke-direct {p0, p2}, Lka3$q;-><init>(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122b70
+    sget p2, Lcom/resouce/module/ResSTRING;->public_upload_only_one_doc_tips:I
 
     invoke-virtual {v0, p2, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1926,7 +1926,7 @@
 
     invoke-direct {p2, p1}, Lka3$p;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122b60
+    sget p1, Lcom/resouce/module/ResSTRING;->public_upload_all_doc_tips:I
 
     .line 5
     invoke-virtual {p0, p1, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1937,7 +1937,7 @@
 
     invoke-direct {p1}, Lka3$o;-><init>()V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {p0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2047,7 +2047,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06d1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_setting_avator:I
 
     const/4 v2, 0x0
 
@@ -2084,7 +2084,7 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f1302ee
+    sget v1, Lcom/resouce/module/ResSTYLE;->Theme_NoTitleBar_TransparentDialog_Zoom_Animation:I
 
     invoke-direct {v0, p0, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -2140,12 +2140,12 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f122b65
+    sget p0, Lcom/resouce/module/ResSTRING;->public_upload_by_mobile_warning:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f122b6f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_upload_mobile_warning_tips:I
 
     :goto_0
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -2153,7 +2153,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p0, 0x7f122617
+    sget p0, Lcom/resouce/module/ResSTRING;->public_permission_allow:I
 
     .line 4
     new-instance v1, Lka3$n;
@@ -2164,7 +2164,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122586
+    sget p1, Lcom/resouce/module/ResSTRING;->public_only_this_time:I
 
     new-instance v1, Lka3$m;
 
@@ -2175,7 +2175,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p2, Lka3$l;
 
@@ -2945,7 +2945,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3014,32 +3014,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f06025d
+    sget p0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060005
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDNavBackgroundColor:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060007
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFNavBackgroundColor:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f06000a
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f060003
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETNavBackgroundColor:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f06000d
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPSNavBackgroundColor:I
 
     return p0
 .end method
@@ -3161,7 +3161,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1225a2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_history_version:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3172,7 +3172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_history_version_tips:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3183,14 +3183,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b73
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_to_open_history_version:I
 
     .line 4
     invoke-virtual {v0, v1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p2
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p2, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3206,7 +3206,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3347,12 +3347,12 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f081e36
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ss_chart_dialog_item_frame_shape:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f0814b7
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ppt_chart_dialog_item_frame_shape:I
 
     return p0
 .end method
@@ -3374,7 +3374,7 @@
 .method public static s()I
     .locals 1
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     return v0
 .end method
@@ -3453,32 +3453,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f0600b1
+    sget p0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060005
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDNavBackgroundColor:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060007
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFNavBackgroundColor:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f06000a
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f060003
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETNavBackgroundColor:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f06000d
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPSNavBackgroundColor:I
 
     return p0
 .end method
@@ -3491,12 +3491,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120d9b
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_erasure_data:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f120d98
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_appsflyer_delete_message:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -3511,7 +3511,7 @@
 
     invoke-direct {v1, p0}, Lka3$a0;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f120d9a
+    sget p0, Lcom/resouce/module/ResSTRING;->gdpr_eliminate:I
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -3520,7 +3520,7 @@
 
     invoke-direct {p0}, Lka3$a;-><init>()V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -3562,32 +3562,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f0600b1
+    sget p0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060478
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_public_titlebar_ofd_bg:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060479
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_public_titlebar_pdf_bg:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f0605af
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ppt_bg:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f0605b1
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ss_bg:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f0603ea
+    sget p0, Lcom/resouce/module/ResCOLOR;->pad_writer_title_bar_color:I
 
     return p0
 .end method
@@ -3639,27 +3639,27 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f0605b4
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_writer_line_color:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f0605ac
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ofd_line_color:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f0605ae
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_pdf_line_color:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f0605b0
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ppt_line_color:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f0605b2
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ss_line_color:I
 
     return p0
 .end method
@@ -3716,22 +3716,22 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f0605b4
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_writer_line_color:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f0605ae
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_pdf_line_color:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f0605b0
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ppt_line_color:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f0605b2
+    sget p0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ss_line_color:I
 
     return p0
 .end method
@@ -3806,32 +3806,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f06025d
+    sget p0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060004
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDMainColor:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060006
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f060009
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f060002
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f06000c
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     return p0
 .end method
@@ -3887,32 +3887,32 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f06025d
+    sget p0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f060004
+    sget p0, Lcom/resouce/module/ResCOLOR;->OFDMainColor:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f060006
+    sget p0, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     return p0
 
     :cond_2
-    const p0, 0x7f060009
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f060002
+    sget p0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     return p0
 
     :cond_4
-    const p0, 0x7f06000c
+    sget p0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     return p0
 .end method

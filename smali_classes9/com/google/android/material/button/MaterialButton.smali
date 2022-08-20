@@ -147,7 +147,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0403ce
+    sget v0, Lcom/resouce/module/ResATTR;->materialButtonStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/button/MaterialButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

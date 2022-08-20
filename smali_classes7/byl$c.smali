@@ -77,7 +77,7 @@
 
     invoke-static {v2}, Lg45;->P(Ljava/lang/String;)V
 
-    const v2, 0x7f12236b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_dialog_tip:I
 
     const/4 v3, 0x1
 

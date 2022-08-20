@@ -224,7 +224,7 @@
     .line 2
     iget-object v0, p0, Lolc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ffa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel_tilte_common:I
 
     const/4 v2, 0x0
 
@@ -236,7 +236,7 @@
 
     iput-object v0, p0, Lolc;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f121982
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -363,7 +363,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f030070
+    sget v1, Lcom/resouce/module/ResARRAY;->pdf_font_size_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -375,7 +375,7 @@
     new-array v1, v3, [Ljava/lang/String;
 
     :goto_0
-    const v2, 0x7f030071
+    sget v2, Lcom/resouce/module/ResARRAY;->pdf_font_size_value:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;
@@ -413,7 +413,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f03006f
+    sget v1, Lcom/resouce/module/ResARRAY;->pdf_font_size_more:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;

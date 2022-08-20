@@ -242,7 +242,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120257
+    sget v2, Lcom/resouce/module/ResSTRING;->check_clipboard:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -330,7 +330,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12305e
+    sget v4, Lcom/resouce/module/ResSTRING;->tb_host:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -91,7 +91,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f123038
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_exist_tip:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12303d
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_not_null:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -286,7 +286,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07f0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_anim_transition_tab:I
 
     const/4 v2, 0x0
 
@@ -308,7 +308,7 @@
     .line 4
     iget-object v0, p0, Lynd;->d:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0103
+    sget v1, Lcom/resouce/module/ResID;->anim_transition_content:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 5
     iget-object v0, p0, Lynd;->d:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2085
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_anim_tran_apply_to_all:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -332,7 +332,7 @@
     .line 6
     iget-object v0, p0, Lynd;->d:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2088
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_anim_tran_preview_general_grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
     .line 7
     iget-object v0, p0, Lynd;->d:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2086
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_anim_tran_preview_advanced_grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -358,7 +358,7 @@
     .line 8
     iget-object v0, p0, Lynd;->d:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2087
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_anim_tran_preview_dynamic_content_grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d26
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_gridview_vertical_spacing:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -523,9 +523,9 @@
 
     const-string v2, "None"
 
-    const v3, 0x7f08151e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ppt_trans_icon_none:I
 
-    const v4, 0x7f122543
+    sget v4, Lcom/resouce/module/ResSTRING;->public_none:I
 
     const/4 v5, -0x1
 
@@ -544,9 +544,9 @@
 
     const-string v2, "Cut"
 
-    const v3, 0x7f08034c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_cut_out:I
 
-    const v4, 0x7f121b2a
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_cut:I
 
     const/4 v5, 0x0
 
@@ -561,9 +561,9 @@
 
     const-string v2, "Fade"
 
-    const v3, 0x7f080354
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_fade_out:I
 
-    const v4, 0x7f121b2d
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_fade:I
 
     const/4 v5, 0x6
 
@@ -578,9 +578,9 @@
 
     const-string v2, "Push"
 
-    const v3, 0x7f080347
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_boost:I
 
-    const v4, 0x7f121c72
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_tran_push_text:I
 
     const/16 v5, 0x14
 
@@ -595,9 +595,9 @@
 
     const-string v2, "Wipe"
 
-    const v3, 0x7f080352
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_erasure:I
 
-    const v4, 0x7f121b41
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_wipe:I
 
     const/16 v5, 0xa
 
@@ -622,9 +622,9 @@
 
     const-string v2, "Split"
 
-    const v3, 0x7f080350
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_division:I
 
-    const v4, 0x7f121b3c
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_split:I
 
     const/16 v5, 0xd
 
@@ -641,9 +641,9 @@
 
     const-string v2, "Reveal"
 
-    const v3, 0x7f080365
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_show:I
 
-    const v4, 0x7f121b39
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_reveal:I
 
     const/16 v5, 0x6f
 
@@ -658,9 +658,9 @@
 
     const-string v2, "Random Bars"
 
-    const v3, 0x7f080363
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_random_weight:I
 
-    const v4, 0x7f121b38
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_random_bars:I
 
     const/16 v5, 0x8
 
@@ -673,9 +673,9 @@
 
     const-string v2, "Shape"
 
-    const v3, 0x7f080359
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_form:I
 
-    const v4, 0x7f122946
+    sget v4, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     const/16 v5, 0x1b
 
@@ -700,9 +700,9 @@
 
     const-string v2, "Uncover"
 
-    const v3, 0x7f08034e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_disclose:I
 
-    const v4, 0x7f121b3f
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_uncover:I
 
     const/4 v5, 0x7
 
@@ -719,9 +719,9 @@
 
     const-string v2, "Cover"
 
-    const v3, 0x7f08034a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_cover:I
 
-    const v4, 0x7f121b29
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_cover:I
 
     const/4 v5, 0x4
 
@@ -734,9 +734,9 @@
 
     const-string v2, "Flash"
 
-    const v3, 0x7f080357
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_flicker:I
 
-    const v4, 0x7f121b30
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flash:I
 
     const/16 v5, 0x67
 
@@ -751,9 +751,9 @@
 
     const-string v2, "Ties"
 
-    const v3, 0x7f08036b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_twist:I
 
-    const v4, 0x7f121b3e
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_ties:I
 
     const/16 v5, 0x78
 
@@ -768,9 +768,9 @@
 
     const-string v2, "Blocks"
 
-    const v3, 0x7f08035b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_inversion:I
 
-    const v4, 0x7f121b23
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_blocks:I
 
     const/16 v5, 0xc7
 
@@ -785,9 +785,9 @@
 
     const-string v2, "Teeter"
 
-    const v3, 0x7f080364
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_seesaw:I
 
-    const v4, 0x7f121b3a
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_seesaw:I
 
     const/16 v5, 0x7a
 
@@ -802,9 +802,9 @@
 
     const-string v2, "Appear"
 
-    const v3, 0x7f080346
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_appear:I
 
-    const v4, 0x7f121c6d
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_tran_appear_text:I
 
     const/16 v5, 0x77
 
@@ -819,9 +819,9 @@
 
     const-string v2, "Explode"
 
-    const v3, 0x7f080353
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_explode:I
 
-    const v4, 0x7f121b2c
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_explode:I
 
     const/16 v5, 0x79
 
@@ -836,9 +836,9 @@
 
     const-string v2, "Glitter"
 
-    const v3, 0x7f08036a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_twinkle:I
 
-    const v4, 0x7f121b34
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_glitter:I
 
     const/16 v5, 0x6b
 
@@ -853,9 +853,9 @@
 
     const-string v2, "Shred"
 
-    const v3, 0x7f08034d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_debris:I
 
-    const v4, 0x7f121b3b
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_shred:I
 
     const/16 v5, 0x71
 
@@ -870,9 +870,9 @@
 
     const-string v2, "Fall Over"
 
-    const v3, 0x7f080355
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_fall:I
 
-    const v4, 0x7f121b2e
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_fallover:I
 
     const/16 v5, 0xc9
 
@@ -887,9 +887,9 @@
 
     const-string v2, "Peel Off"
 
-    const v3, 0x7f080360
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_peel:I
 
-    const v4, 0x7f121b37
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_peeloff:I
 
     const/16 v5, 0xd0
 
@@ -904,9 +904,9 @@
 
     const-string v2, "Airplane"
 
-    const v3, 0x7f080361
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_plane:I
 
-    const v4, 0x7f121b21
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_airplane:I
 
     const/16 v5, 0xd3
 
@@ -919,9 +919,9 @@
 
     const-string v2, "Dissolve"
 
-    const v3, 0x7f08034f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_dissolve:I
 
-    const v4, 0x7f121c70
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_tran_dissolve_text:I
 
     const/4 v5, 0x5
 
@@ -936,9 +936,9 @@
 
     const-string v2, "Checkerboard"
 
-    const v3, 0x7f080348
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_checkerboard:I
 
-    const v4, 0x7f121b25
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_checkerboard:I
 
     const/4 v5, 0x3
 
@@ -953,9 +953,9 @@
 
     const-string v2, "Blinds"
 
-    const v3, 0x7f08036d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_window_shades:I
 
-    const v4, 0x7f121b22
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_blinds:I
 
     const/4 v5, 0x2
 
@@ -968,9 +968,9 @@
 
     const-string v2, "Clock"
 
-    const v3, 0x7f080368
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_time:I
 
-    const v4, 0x7f121b26
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_clock:I
 
     const/16 v5, 0x1a
 
@@ -995,9 +995,9 @@
 
     const-string v2, "Switch"
 
-    const v3, 0x7f080366
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_switch:I
 
-    const v4, 0x7f121b3d
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_switch:I
 
     const/16 v5, 0x72
 
@@ -1014,9 +1014,9 @@
 
     const-string v2, "Flip"
 
-    const v3, 0x7f08035e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_overturn_vertical:I
 
-    const v4, 0x7f121b31
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flip:I
 
     const/16 v5, 0x68
 
@@ -1031,9 +1031,9 @@
 
     const-string v2, "Gallery"
 
-    const v3, 0x7f08035c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_library:I
 
-    const v4, 0x7f121b33
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_gallery:I
 
     const/16 v5, 0x6a
 
@@ -1048,9 +1048,9 @@
 
     const-string v2, "Cube"
 
-    const v3, 0x7f08034b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_cube:I
 
-    const v4, 0x7f121c6e
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_tran_cube_text:I
 
     const/16 v5, 0x6e
 
@@ -1065,9 +1065,9 @@
 
     const-string v2, "Doors"
 
-    const v3, 0x7f080351
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_door:I
 
-    const v4, 0x7f121b2b
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_doors:I
 
     const/16 v5, 0x65
 
@@ -1082,9 +1082,9 @@
 
     const-string v2, "Box"
 
-    const v3, 0x7f08035a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_frame:I
 
-    const v4, 0x7f121b24
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_box:I
 
     const/16 v5, 0x6e
 
@@ -1099,9 +1099,9 @@
 
     const-string v2, "Comb"
 
-    const v3, 0x7f080367
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_tease:I
 
-    const v4, 0x7f121b27
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_comb:I
 
     const/16 v5, 0x15
 
@@ -1116,9 +1116,9 @@
 
     const-string v2, "Zoom"
 
-    const v3, 0x7f08036e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_zoom:I
 
-    const v4, 0x7f121b42
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_zoom:I
 
     const/16 v5, 0x74
 
@@ -1139,9 +1139,9 @@
 
     const-string v2, "Random"
 
-    const v3, 0x7f080362
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_random:I
 
-    const v4, 0x7f121c73
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_tran_random_text:I
 
     const/4 v5, 0x1
 
@@ -1158,9 +1158,9 @@
 
     const-string v2, "Pan"
 
-    const v3, 0x7f080369
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_translation:I
 
-    const v4, 0x7f121b36
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_pan:I
 
     const/16 v5, 0x6d
 
@@ -1175,9 +1175,9 @@
 
     const-string v2, "Ferris Wheel"
 
-    const v3, 0x7f080356
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_ferris_wheel:I
 
-    const v4, 0x7f121b2f
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_ferriswheel:I
 
     const/16 v5, 0x66
 
@@ -1192,9 +1192,9 @@
 
     const-string v2, "Conveyor"
 
-    const v3, 0x7f080349
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_conveyor:I
 
-    const v4, 0x7f121b28
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_conveyor:I
 
     const/16 v5, 0x64
 
@@ -1209,9 +1209,9 @@
 
     const-string v2, "Rotate"
 
-    const v3, 0x7f08035d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_overturn_horizontal:I
 
-    const v4, 0x7f120685
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_rotation:I
 
     const/16 v5, 0x6e
 
@@ -1226,9 +1226,9 @@
 
     const-string v2, "Windows"
 
-    const v3, 0x7f08036c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_window:I
 
-    const v4, 0x7f121b40
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_windows:I
 
     const/16 v5, 0x76
 
@@ -1243,9 +1243,9 @@
 
     const-string v2, "Orbit"
 
-    const v3, 0x7f08035f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_pathway:I
 
-    const v4, 0x7f121b35
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_orbit:I
 
     const/16 v5, 0x6e
 
@@ -1260,9 +1260,9 @@
 
     const-string v2, "Fly Through"
 
-    const v3, 0x7f080358
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_animation_fly_over:I
 
-    const v4, 0x7f121b32
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flythrough:I
 
     const/16 v5, 0x69
 

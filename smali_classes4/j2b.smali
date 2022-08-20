@@ -32,7 +32,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lj2b$d;)V
     .locals 2
 
-    const v0, 0x7f130129
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen:I
 
     const/4 v1, 0x0
 
@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ef3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_convert_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lj2b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0575
+    sget v1, Lcom/resouce/module/ResID;->convert_preview_titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
     .line 3
     iget-object v0, p0, Lj2b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0571
+    sget v1, Lcom/resouce/module/ResID;->convert_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
     .line 6
     iget-object v0, p0, Lj2b;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f122652
+    sget v1, Lcom/resouce/module/ResSTRING;->public_picture_splicing_actionbar_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

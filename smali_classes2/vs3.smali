@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0bd0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_document_info_phone:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -89,14 +89,14 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0bcf
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_document_info_pad:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
     :goto_0
-    const v1, 0x7f0b25df
+    sget v1, Lcom/resouce/module/ResID;->public_file_propert_dialog_file_name_content:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object v1, p0, Lvs3;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b25e3
+    sget v1, Lcom/resouce/module/ResID;->public_file_propert_dialog_file_type_content:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object v1, p0, Lvs3;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b25db
+    sget v1, Lcom/resouce/module/ResID;->public_file_propert_dialog_file_location_content:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     iput-object v1, p0, Lvs3;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b25e1
+    sget v1, Lcom/resouce/module/ResID;->public_file_propert_dialog_file_size_content:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     iput-object v1, p0, Lvs3;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f0b25dd
+    sget v1, Lcom/resouce/module/ResID;->public_file_propert_dialog_file_modify_date_content:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 .method public final W2()V
     .locals 2
 
-    const v0, 0x7f121fed
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_info:I
 
     const/16 v1, 0x11
 
@@ -295,7 +295,7 @@
 
     invoke-direct {v0, p0}, Lvs3$a;-><init>(Lvs3;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

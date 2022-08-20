@@ -225,7 +225,7 @@
 
     iget-object v0, v0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v2, 0x0
 
@@ -261,7 +261,7 @@
 
     iget-object p1, p1, Lhy7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f120211
+    sget v1, Lcom/resouce/module/ResSTRING;->bind_phone_error_sms_code_empty:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -294,7 +294,7 @@
 
     iget-object p1, p1, Lhy7;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f120f3b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_input_correct_auth_code:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -317,7 +317,7 @@
 
     iget-object v0, v0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f121da3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     const/4 v2, 0x0
 
@@ -377,7 +377,7 @@
     .line 1
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1f94
+    sget v1, Lcom/resouce/module/ResID;->phoneEditText:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -390,7 +390,7 @@
     .line 2
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0424
+    sget v1, Lcom/resouce/module/ResID;->clearPhoneImageView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -403,7 +403,7 @@
     .line 3
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2c66
+    sget v1, Lcom/resouce/module/ResID;->smsCodeEditText:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
     .line 4
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2b0f
+    sget v1, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +429,7 @@
     .line 5
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0423
+    sget v1, Lcom/resouce/module/ResID;->clearCodeImageView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
     .line 6
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fa0
+    sget v1, Lcom/resouce/module/ResID;->tipTextView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
     .line 7
     iget-object v0, p0, Lhy7$f;->B:Landroid/view/View;
 
-    const v1, 0x7f0b021a
+    sget v1, Lcom/resouce/module/ResID;->bindButton:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -586,7 +586,7 @@
 
     iget-object p1, p1, Lhy7;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -744,7 +744,7 @@
 
     iget-object p2, p2, Lhy7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f122472
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_sms_frequency_too_fast:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -805,7 +805,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b0f
+    sget v0, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     if-ne p1, v0, :cond_0
 
@@ -829,7 +829,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     if-ne p1, v0, :cond_1
 
@@ -839,7 +839,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0424
+    sget v0, Lcom/resouce/module/ResID;->clearPhoneImageView:I
 
     const-string v1, ""
 
@@ -853,7 +853,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0423
+    sget v0, Lcom/resouce/module/ResID;->clearCodeImageView:I
 
     if-ne p1, v0, :cond_3
 

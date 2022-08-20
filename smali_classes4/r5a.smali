@@ -97,7 +97,7 @@
     .line 2
     iget-object p1, p1, Ls5a$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081613
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_checked:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -107,7 +107,7 @@
     :cond_0
     iget-object p1, p1, Ls5a$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081614
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_default:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -281,7 +281,7 @@
 
     if-eqz p2, :cond_1
 
-    const v0, 0x7f0b0d25
+    sget v0, Lcom/resouce/module/ResID;->file_size:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2e88
+    sget v3, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-virtual {v1, v3, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -443,7 +443,7 @@
 
     move-result-object v7
 
-    const v2, 0x7f0b2e71
+    sget v2, Lcom/resouce/module/ResID;->tag_icon_key:I
 
     .line 11
     iget-object v3, p2, Ld08;->U:Ljava/lang/String;
@@ -464,7 +464,7 @@
 
     iget-object v0, v0, Lr5a$b;->A0:Landroid/widget/ImageView;
 
-    const v2, 0x7f081632
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_folder:I
 
     invoke-virtual {v1, v0, v2}, Lo6a;->e(Landroid/widget/ImageView;I)V
 
@@ -554,7 +554,7 @@
 .method public w(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Ls5a$h;
     .locals 2
 
-    const v0, 0x7f0e0393
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_roaming_grid_style_history_item:I
 
     const/4 v1, 0x0
 

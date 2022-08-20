@@ -238,7 +238,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -331,14 +331,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fa4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_category_section:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b036c
+    sget v1, Lcom/resouce/module/ResID;->category_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

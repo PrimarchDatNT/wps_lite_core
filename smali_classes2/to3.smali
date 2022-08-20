@@ -46,7 +46,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -64,7 +64,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f121dce
+    sget v1, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -73,7 +73,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -172,7 +172,7 @@
     .line 1
     iget-object v0, p0, Lro3;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0398
+    sget v1, Lcom/resouce/module/ResID;->chart_selected_tab_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p1, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -202,7 +202,7 @@
     .line 1
     iget-object v0, p0, Lro3;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b039a
+    sget v1, Lcom/resouce/module/ResID;->chart_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

@@ -88,7 +88,7 @@
     .line 7
     iget-object p1, p0, Lbwa;->U:Ln8b;
 
-    const v0, 0x7f081bc5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_scan_default_img_small:I
 
     invoke-virtual {p1, v0}, Ln8b;->u(I)V
 
@@ -222,7 +222,7 @@
 
     aput p0, v1, v5
 
-    const p0, 0x7f130782
+    sget p0, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     .line 14
     invoke-virtual {p1, p0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -260,7 +260,7 @@
 
     aput p0, v1, v5
 
-    const p0, 0x7f130783
+    sget p0, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_below_anim_style:I
 
     .line 17
     invoke-virtual {p1, p0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -292,7 +292,7 @@
 
     iget-object v2, p0, Lyva;->I:Landroid/content/Context;
 
-    const v3, 0x7f120438
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_image_to_ppt:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -316,7 +316,7 @@
 
     iget-object v2, p0, Lyva;->I:Landroid/content/Context;
 
-    const v3, 0x7f120437
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_image_to_pdf:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -343,7 +343,7 @@
 
     iget-object v1, p0, Lyva;->I:Landroid/content/Context;
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -360,7 +360,7 @@
 
     iget-object p2, p0, Lyva;->I:Landroid/content/Context;
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -377,7 +377,7 @@
 
     iget-object p2, p0, Lyva;->I:Landroid/content/Context;
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
     .line 1
     iget-object p2, p0, Lyva;->I:Landroid/content/Context;
 
-    const p3, 0x7f0e040b
+    sget p3, Lcom/resouce/module/ResLAYOUT;->item_doc_scan_group:I
 
     const/4 v0, 0x0
 
@@ -480,7 +480,7 @@
 
     invoke-direct {p3, v0}, Lbwa$c;-><init>(Lbwa$a;)V
 
-    const v0, 0x7f0b3194
+    sget v0, Lcom/resouce/module/ResID;->tv_group_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -491,7 +491,7 @@
 
     iput-object v0, p3, Lbwa$c;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b146c
+    sget v0, Lcom/resouce/module/ResID;->iv_group_menu:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -502,7 +502,7 @@
 
     iput-object v0, p3, Lbwa$c;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1692
+    sget v0, Lcom/resouce/module/ResID;->ll_image_list:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -513,7 +513,7 @@
 
     iput-object v0, p3, Lbwa$c;->c:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b13dc
+    sget v0, Lcom/resouce/module/ResID;->item_root:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -647,7 +647,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f070b71
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_list_first_item_margin_top:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -663,7 +663,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f070b76
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_list_item_margin_top:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -791,7 +791,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f081ddf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->shape_doc_scan_group_sub_item_bg:I
 
     .line 12
     invoke-virtual {v6, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -805,7 +805,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0804f4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->doc_fic_pic_preview_default:I
 
     move-object v5, p1
 

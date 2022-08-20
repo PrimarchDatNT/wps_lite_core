@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lyl3;)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -77,7 +77,7 @@
 
     iget-object v1, p0, Lxl3;->S:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0b21
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -152,7 +152,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707bc
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -263,7 +263,7 @@
     .line 1
     iget-object v0, p0, Lxl3;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0f3a
+    sget v1, Lcom/resouce/module/ResID;->gray_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -377,7 +377,7 @@
     :cond_4
     iget-object v0, p0, Lxl3;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v2, 0x7f0b1f8d
+    sget v2, Lcom/resouce/module/ResID;->peroid_item_container:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -473,14 +473,14 @@
     .line 25
     iget-object v0, p0, Lxl3;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0818b8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
     .line 26
     iget-object v0, p0, Lxl3;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b16e0
+    sget v1, Lcom/resouce/module/ResID;->ll_set_as_editable_docs_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -494,7 +494,7 @@
     .line 28
     iget-object v1, p0, Lxl3;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v2, 0x7f0b2715
+    sget v2, Lcom/resouce/module/ResID;->public_setting_sub_title:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

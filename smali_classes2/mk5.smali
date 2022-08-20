@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d6d
+    sget v1, Lcom/resouce/module/ResSTRING;->font_render_api:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -719,7 +719,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2e6e
+    sget v1, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->getTag(I)Ljava/lang/Object;

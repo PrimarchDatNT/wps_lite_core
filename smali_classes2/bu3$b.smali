@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02ce
+    sget v0, Lcom/resouce/module/ResID;->btn_delete:I
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b324a
+    sget v0, Lcom/resouce/module/ResID;->tv_select_all:I
 
     if-ne p1, v0, :cond_1
 

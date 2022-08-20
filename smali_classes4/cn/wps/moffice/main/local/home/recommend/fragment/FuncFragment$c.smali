@@ -42,7 +42,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f010046
+    sget v0, Lcom/resouce/module/ResANIM;->grid_animate:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

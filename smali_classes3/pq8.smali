@@ -62,7 +62,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12060b
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     return v0
 .end method

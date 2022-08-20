@@ -234,7 +234,7 @@
 .method public final m(Lbsn;Z)Z
     .locals 5
 
-    const v0, 0x7f121a12
+    sget v0, Lcom/resouce/module/ResSTRING;->play_agora_full_people:I
 
     const/4 v1, 0x0
 

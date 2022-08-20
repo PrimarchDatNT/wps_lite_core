@@ -39,7 +39,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0a60
+    sget v1, Lcom/resouce/module/ResLAYOUT;->popup_new_file_open_guide:I
 
     const/4 v2, 0x0
 

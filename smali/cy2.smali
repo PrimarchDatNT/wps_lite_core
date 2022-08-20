@@ -33,7 +33,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f1301e6
+    sget v0, Lcom/resouce/module/ResSTYLE;->Setting_Dialog_Style:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -274,7 +274,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1a26
+    sget v0, Lcom/resouce/module/ResID;->night_color:I
 
     if-ne p1, v0, :cond_0
 
@@ -300,7 +300,7 @@
     return-void
 
     :cond_2
-    const v0, 0x7f0b063b
+    sget v0, Lcom/resouce/module/ResID;->default_color:I
 
     if-ne p1, v0, :cond_3
 
@@ -312,7 +312,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b36e7
+    sget v0, Lcom/resouce/module/ResID;->yellow_color:I
 
     if-ne p1, v0, :cond_4
 
@@ -324,7 +324,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0f3d
+    sget v0, Lcom/resouce/module/ResID;->green_color:I
 
     if-ne p1, v0, :cond_5
 
@@ -376,7 +376,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e008a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->cartoon_setting_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -386,7 +386,7 @@
 
     iput-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0549
+    sget v0, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -398,7 +398,7 @@
     .line 4
     iget-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1571
+    sget v0, Lcom/resouce/module/ResID;->layout_seek_bar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,12 +417,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f082037
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_settings_seek_bg_night:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f082036
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_settings_seek_bg_day:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -430,7 +430,7 @@
     .line 6
     iget-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2adf
+    sget v0, Lcom/resouce/module/ResID;->seekbar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 7
     iget-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3303
+    sget v0, Lcom/resouce/module/ResID;->up:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 8
     iget-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b078e
+    sget v0, Lcom/resouce/module/ResID;->down:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -475,7 +475,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -494,7 +494,7 @@
     .line 12
     iget-object p1, p0, Lcy2;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2dfb
+    sget v0, Lcom/resouce/module/ResID;->switchButton:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

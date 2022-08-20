@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b19
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_base_title_layout:I
 
     const/4 v1, 0x0
 
@@ -100,7 +100,7 @@
 
     invoke-static {p1, v0}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const p1, 0x7f0b2fdf
+    sget p1, Lcom/resouce/module/ResID;->title_bar_container:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0539
+    sget p1, Lcom/resouce/module/ResID;->content:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121b59
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_beauty:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -472,14 +472,14 @@
     .line 2
     iget-object v0, p0, Lhee;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f121c5e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_template_waitting_for_io_ready:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
     return-void
 
     :cond_0
-    const v0, 0x7f1206ac
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_template_error_net:I
 
     .line 3
     new-instance v2, Lhee$g;
@@ -604,7 +604,7 @@
     .line 2
     new-instance v0, Lhee$f;
 
-    const v3, 0x7f080395
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_template:I
 
     iget-object v4, p0, Lhee;->V:Ljava/lang/String;
 
@@ -637,7 +637,7 @@
 
     iget-object v2, p0, Lhee;->W:Ljava/lang/String;
 
-    const v3, 0x7f080395
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_template:I
 
     invoke-direct {v0, p0, v3, v1, v2}, Lhee$e;-><init>(Lhee;ILjava/lang/String;Ljava/lang/String;)V
 
@@ -680,7 +680,7 @@
 
     iget-object v2, p0, Lhee;->W:Ljava/lang/String;
 
-    const v3, 0x7f080395
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_template:I
 
     invoke-direct {v0, p0, v3, v1, v2}, Lhee$d;-><init>(Lhee;ILjava/lang/String;Ljava/lang/String;)V
 

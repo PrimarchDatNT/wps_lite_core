@@ -31,7 +31,7 @@
 
     iput-object v0, p0, Lnck;->Y:Lmck;
 
-    const p1, 0x7f123299    # 1.9433E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->writer_count_words:I    # 1.9433E38f
 
     .line 3
     invoke-virtual {p0, p1}, Lkj4;->setTitle(I)V

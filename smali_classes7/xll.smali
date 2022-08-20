@@ -266,7 +266,7 @@
 
     iput-object v1, p0, Lxll;->H0:Lrd3;
 
-    const v2, 0x7f1226ca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_exporting_photos:I
 
     .line 3
     invoke-virtual {v1, v2}, Lrd3;->D(I)V

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/public_template_copyright_waring_image_width" android:layout_height="@dimen/public_template_copyright_waring_image_height" android:src="@drawable/public_template_copyright" />
-        <TextView android:textSize="15.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/public_open_docer_to_view_all_preview_images_text1" />
-        <TextView android:textSize="15.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/public_open_docer_to_view_all_preview_images_text2" />
-    </LinearLayout>
-</ScrollView>

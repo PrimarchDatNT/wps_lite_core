@@ -46,7 +46,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00b8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->convert_pdf_secert_webview_layout:I
 
     const/4 v1, 0x0
 
@@ -112,7 +112,7 @@
     .line 1
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    const v0, 0x7f0602cd
+    sget v0, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     .line 2
     invoke-static {p0, v0}, Ldgh;->n1(Landroid/app/Activity;I)V

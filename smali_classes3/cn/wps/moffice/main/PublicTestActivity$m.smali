@@ -45,12 +45,12 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f120594
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_dialog_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setTitle(I)V
 
-    const v0, 0x7f120568
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_message:I
 
     .line 3
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -60,7 +60,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/PublicTestActivity$m$a;-><init>(Lcn/wps/moffice/main/PublicTestActivity$m;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

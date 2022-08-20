@@ -330,7 +330,7 @@
 
     invoke-virtual {v2, v3}, Lbg3$a;->c(Landroid/graphics/drawable/Drawable;)Lbg3$a;
 
-    const v3, 0x7f122f1d
+    sget v3, Lcom/resouce/module/ResSTRING;->share_pure_image_pdf:I
 
     .line 38
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -339,7 +339,7 @@
 
     invoke-virtual {v2, v3}, Lbg3$a;->f(Ljava/lang/CharSequence;)Lbg3$a;
 
-    const v3, 0x7f1220a9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_file_right_tips:I
 
     .line 39
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -481,7 +481,7 @@
 
     iget-object v2, p0, Ldg3;->a:Landroid/view/View;
 
-    const v3, 0x7f0b013b
+    sget v3, Lcom/resouce/module/ResID;->app_share_link:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -509,7 +509,7 @@
     .line 1
     iget-object v0, p0, Ldg3;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b6a
+    sget v1, Lcom/resouce/module/ResID;->share_file_size_reduce:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -541,7 +541,7 @@
     .line 5
     iget-object v3, p0, Ldg3;->b:Landroid/content/Context;
 
-    const v4, 0x7f122173
+    sget v4, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_tip:I
 
     const/4 v5, 0x1
 

@@ -598,7 +598,7 @@
     .line 5
     iget-object v1, p0, Lwnd;->d:Landroid/content/Context;
 
-    const v2, 0x7f121b1c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_already_apply_to_all:I
 
     const/4 v3, 0x0
 
@@ -916,12 +916,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f060043
+    sget v0, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f06000b
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     .line 2
     :goto_0

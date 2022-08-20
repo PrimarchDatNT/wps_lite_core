@@ -34,7 +34,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -168,7 +168,7 @@
     .line 2
     iget-object v0, p0, Lpol;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1201bb
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_train_verify_failed:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -176,7 +176,7 @@
 
     iget-object v2, p0, Lpol;->B:Landroid/app/Activity;
 
-    const v3, 0x7f1215fa
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_network_error:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dbb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_resume_train_layout:I
 
     const/4 v2, 0x0
 
@@ -251,7 +251,7 @@
 
     iput-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0530
+    sget v1, Lcom/resouce/module/ResID;->container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
     .line 4
     iget-object v1, p0, Lpol;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -293,7 +293,7 @@
     .line 7
     iget-object v1, p0, Lpol;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f1201b7
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_train:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -379,7 +379,7 @@
     :cond_0
     iget-object p1, p0, Lpol;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121f40
+    sget p2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -420,14 +420,14 @@
 
     iget-object v1, p0, Lpol;->V:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0e0dbc
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_resume_train_verify_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0536
+    sget v1, Lcom/resouce/module/ResID;->container_resume_import:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
     .line 3
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3368
+    sget v1, Lcom/resouce/module/ResID;->verify_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 6
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b336b
+    sget v1, Lcom/resouce/module/ResID;->verify_sub_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -474,7 +474,7 @@
     .line 7
     iget-object v1, p0, Lpol;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2fcd
+    sget v2, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -482,12 +482,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f1201b9
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_train_verify:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f1201bd
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_train_verify_sub:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -495,7 +495,7 @@
     .line 10
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b13a0
+    sget v1, Lcom/resouce/module/ResID;->item_check_format:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -508,7 +508,7 @@
     .line 11
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b13a2
+    sget v1, Lcom/resouce/module/ResID;->item_check_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -521,7 +521,7 @@
     .line 12
     iget-object v0, p0, Lpol;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2af2
+    sget v1, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -532,14 +532,14 @@
     .line 13
     iget-object v0, p0, Lpol;->T:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v1, 0x7f1201ba
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_train_verify_enable:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 14
     iget-object v0, p0, Lpol;->U:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v1, 0x7f1201bc
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_train_verify_integrity:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
@@ -634,7 +634,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2af2
+    sget v0, Lcom/resouce/module/ResID;->select_file_text:I
 
     if-ne p1, v0, :cond_0
 

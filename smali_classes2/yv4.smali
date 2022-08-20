@@ -155,7 +155,7 @@
     .line 1
     iget-object v0, p0, Lyv4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1212ae
+    sget v1, Lcom/resouce/module/ResSTRING;->hw_pdf_print_converting:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

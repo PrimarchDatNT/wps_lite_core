@@ -129,7 +129,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v0, 0x0
 

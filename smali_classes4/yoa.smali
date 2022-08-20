@@ -276,16 +276,16 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f081a5d
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
-    const v1, 0x7f081a5d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_3
 
     :cond_2
-    const p0, 0x7f081984
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
-    const v1, 0x7f081984
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     :cond_3
     :goto_3
@@ -312,18 +312,18 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v1, 0x7f081a5d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
-    const v2, 0x7f081984
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     if-eqz v0, :cond_1
 
-    const v3, 0x7f081a5d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f081984
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 2
     :goto_1
@@ -355,7 +355,7 @@
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f081984
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     :goto_2
     move v3, v1
@@ -408,9 +408,9 @@
 
     move-result v1
 
-    const v2, 0x7f081a5d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
-    const v3, 0x7f081984
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     if-eqz v1, :cond_3
 
@@ -419,7 +419,7 @@
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f081984
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     :goto_1
     return v2

@@ -520,7 +520,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07ca
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_pageclip:I
 
     const/4 v2, 0x0
 
@@ -542,7 +542,7 @@
     .line 4
     iget-object v0, p0, Lzcc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e8c
+    sget v1, Lcom/resouce/module/ResID;->pdf_pageclip_header:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -555,7 +555,7 @@
     .line 5
     iget-object v0, p0, Lzcc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1c61
+    sget v1, Lcom/resouce/module/ResID;->paf_clip_managerview_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -732,7 +732,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->V:Landroid/widget/Button;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -741,7 +741,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->W:Landroid/widget/Button;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -790,7 +790,7 @@
     .line 3
     iget-object v0, p0, Lzcc;->S:Lcn/wps/moffice/pdf/shell/common/views/PDFTitleBar;
 
-    const v1, 0x7f12058c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_crop:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
 
@@ -799,7 +799,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->V:Landroid/widget/Button;
 
-    const v1, 0x7f1227e8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

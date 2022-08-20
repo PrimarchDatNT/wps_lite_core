@@ -184,7 +184,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f030005
+    sget v5, Lcom/resouce/module/ResARRAY;->et_autofilter_custom_conditions:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

@@ -68,7 +68,7 @@
 
     move-result v1
 
-    const v2, 0x7f121fef
+    sget v2, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     const/4 v3, 0x0
 

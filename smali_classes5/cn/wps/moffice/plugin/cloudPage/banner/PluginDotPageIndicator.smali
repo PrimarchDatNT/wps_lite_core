@@ -151,7 +151,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f0604a5
+    sget v5, Lcom/resouce/module/ResCOLOR;->phone_ss_sheet_indicator_bottom_rect:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -174,7 +174,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0604a6
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_ss_sheet_indicator_bottom_rect_hi:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

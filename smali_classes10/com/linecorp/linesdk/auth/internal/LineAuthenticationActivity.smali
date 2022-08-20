@@ -241,7 +241,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const v0, 0x7f0e047f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->linesdk_activity_lineauthentication:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V

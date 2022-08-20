@@ -936,7 +936,7 @@
     .line 1
     iget-object v0, p0, Luxl;->B:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f121999
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     const/4 v2, 0x1
 

@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d9b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_model_opertation_search_item:I
 
     const/4 v2, 0x0
 
@@ -110,7 +110,7 @@
 
     iput-object p1, p0, Ly99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b18c2
+    sget v0, Lcom/resouce/module/ResID;->model_item_bg:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703a3
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 

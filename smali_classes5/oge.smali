@@ -614,7 +614,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a88
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_mime_template_view:I
 
     const/4 v2, 0x0
 
@@ -626,7 +626,7 @@
 
     iput-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2462
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_previews:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -640,7 +640,7 @@
     .line 3
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b245e
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_no_my_template_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -653,7 +653,7 @@
     .line 4
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2455
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_interceptor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -664,7 +664,7 @@
     .line 5
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2465
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

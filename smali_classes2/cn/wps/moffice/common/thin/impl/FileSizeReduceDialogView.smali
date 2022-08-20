@@ -138,13 +138,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_dialog:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0d29
+    sget v0, Lcom/resouce/module/ResID;->file_size_reduce_title_bar:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2fec
+    sget v2, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 9
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->c0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0539
+    sget v3, Lcom/resouce/module/ResID;->content:I
 
     .line 10
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->U:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b25f3
+    sget v3, Lcom/resouce/module/ResID;->public_file_size_reduce_no_found:I
 
     .line 11
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->V:Landroid/view/View;
 
-    const v3, 0x7f0b2538
+    sget v3, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 12
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->W:Landroid/view/View;
 
-    const v3, 0x7f0b26d7
+    sget v3, Lcom/resouce/module/ResID;->public_progressBar_content:I
 
     .line 13
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->a0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0d00
+    sget v3, Lcom/resouce/module/ResID;->file_reduce_app_img:I
 
     .line 14
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->g0:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v3, 0x7f0b0d02
+    sget v3, Lcom/resouce/module/ResID;->file_reduce_app_name:I
 
     .line 15
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->i0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0d01
+    sget v3, Lcom/resouce/module/ResID;->file_reduce_app_introduce:I
 
     .line 16
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->j0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0d03
+    sget v3, Lcom/resouce/module/ResID;->file_reduce_app_rec_layout:I
 
     .line 17
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0bf5
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_view_container_ver:I
 
     const/4 v5, 0x0
 
@@ -292,7 +292,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0bf4
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_view_container_hor:I
 
     invoke-virtual {v3, v4, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -300,7 +300,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->y0:Landroid/view/View;
 
-    const v3, 0x7f0b0d04
+    sget v3, Lcom/resouce/module/ResID;->file_reduce_click_layout:I
 
     .line 20
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0bef
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_dash_view:I
 
     const/4 v5, 0x0
 
@@ -324,7 +324,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25ef
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_indicator:I
 
     .line 22
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
     .line 23
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25ee
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_dash_icon:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 24
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25fb
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_size:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -362,7 +362,7 @@
     .line 25
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25f7
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_layout:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
     .line 26
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25fc
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_tips:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -386,7 +386,7 @@
     .line 27
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25fd
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_tips_center:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
     .line 28
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25f8
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_size:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 29
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->z0:Landroid/view/View;
 
-    const v4, 0x7f0b25f9
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_unit:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0bed
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_content_view:I
 
     invoke-virtual {v3, v4, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -435,7 +435,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->A0:Landroid/view/View;
 
-    const v4, 0x7f0b25f0
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_items:I
 
     .line 31
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -449,7 +449,7 @@
     .line 32
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->A0:Landroid/view/View;
 
-    const v4, 0x7f0b25f5
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_items_layout:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 33
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->A0:Landroid/view/View;
 
-    const v4, 0x7f0b25f6
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_items_title:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 34
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->A0:Landroid/view/View;
 
-    const v4, 0x7f0b25f4
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_result_items:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -495,7 +495,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0288
+    sget v4, Lcom/resouce/module/ResLAYOUT;->foreign_public_file_size_reduce_control_view:I
 
     invoke-virtual {v3, v4, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -511,7 +511,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0bee
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_control_view:I
 
     invoke-virtual {v3, v4, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -523,7 +523,7 @@
     :goto_0
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->B0:Landroid/view/View;
 
-    const v4, 0x7f0b25ea
+    sget v4, Lcom/resouce/module/ResID;->public_file_size_reduce_bottom_button:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -536,7 +536,7 @@
     .line 39
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->B0:Landroid/view/View;
 
-    const v4, 0x7f0b03cc
+    sget v4, Lcom/resouce/module/ResID;->checkbox_layout:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -547,7 +547,7 @@
     .line 40
     iget-object v3, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->B0:Landroid/view/View;
 
-    const v5, 0x7f0b03cb
+    sget v5, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -560,7 +560,7 @@
     .line 41
     iget-object v6, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->B0:Landroid/view/View;
 
-    const v7, 0x7f0b03cf
+    sget v7, Lcom/resouce/module/ResID;->checkbox_text:I
 
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -577,7 +577,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f12215b
+    sget v9, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f12215c
+    sget v9, Lcom/resouce/module/ResSTRING;->public_file_size_backup_src_file_path:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -659,7 +659,7 @@
     .line 50
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f122266
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 51
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -669,7 +669,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -691,7 +691,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080202
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_back:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -931,9 +931,9 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f0806fb
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->foreign_public_file_size_reduce_bottom_button_normal:I
 
-    const v5, 0x7f0818f9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_bottom_button_normal:I
 
     if-nez v0, :cond_3
 
@@ -944,7 +944,7 @@
     :cond_0
     if-ne p1, v3, :cond_1
 
-    const v4, 0x7f0806fc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->foreign_public_file_size_reduce_bottom_button_processing:I
 
     goto :goto_1
 
@@ -956,7 +956,7 @@
     :cond_2
     if-ne p1, v1, :cond_8
 
-    const v4, 0x7f0806fa
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->foreign_public_file_size_reduce_bottom_button_finish:I
 
     goto :goto_1
 
@@ -965,14 +965,14 @@
 
     :cond_4
     :goto_0
-    const v4, 0x7f0818f9
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_bottom_button_normal:I
 
     goto :goto_1
 
     :cond_5
     if-ne p1, v3, :cond_6
 
-    const v4, 0x7f0818fa
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_bottom_button_processing:I
 
     goto :goto_1
 
@@ -984,7 +984,7 @@
     :cond_7
     if-ne p1, v1, :cond_4
 
-    const v4, 0x7f0818f7
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_bottom_button_finish:I
 
     :cond_8
     :goto_1
@@ -997,7 +997,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->x0:Landroid/view/View;
 
-    const v1, 0x7f0b25ed
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_dash_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1014,7 +1014,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->x0:Landroid/view/View;
 
-    const v1, 0x7f0b25f2
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_list_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1031,7 +1031,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->x0:Landroid/view/View;
 
-    const v1, 0x7f0b25eb
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_bottom_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1083,7 +1083,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->y0:Landroid/view/View;
 
-    const v1, 0x7f0b25f1
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_left_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1100,7 +1100,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->y0:Landroid/view/View;
 
-    const v1, 0x7f0b25ec
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_content_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1117,7 +1117,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->y0:Landroid/view/View;
 
-    const v1, 0x7f0b25fa
+    sget v1, Lcom/resouce/module/ResID;->public_file_size_reduce_right_bottom_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1171,7 +1171,7 @@
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->j(I)I
 
-    const v1, 0x7f122a18
+    sget v1, Lcom/resouce/module/ResSTRING;->public_star_file_size_reduce:I
 
     const/4 v2, 0x1
 
@@ -1187,7 +1187,7 @@
     :cond_0
     if-ne v2, p1, :cond_1
 
-    const v1, 0x7f122174
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_size_reducing:I
 
     .line 3
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->j(I)I
@@ -1203,7 +1203,7 @@
 
     if-ne v3, p1, :cond_2
 
-    const v1, 0x7f121f5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 4
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->j(I)I
@@ -1215,7 +1215,7 @@
 
     if-ne v3, p1, :cond_3
 
-    const v1, 0x7f122018
+    sget v1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 5
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/thin/impl/FileSizeReduceDialogView;->j(I)I
@@ -1307,7 +1307,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12215d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_can_reduce:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1332,7 +1332,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122174
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reducing:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1367,7 +1367,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12215f    # 1.9424056E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_finish:I    # 1.9424056E38f
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

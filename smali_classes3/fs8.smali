@@ -251,14 +251,14 @@
     .line 3
     iget-object v0, p0, Lfs8;->t:Landroid/widget/ImageView;
 
-    const v2, 0x7f08166e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_cloud_safty:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 4
     iget-object v0, p0, Lfs8;->u:Landroid/widget/TextView;
 
-    const v2, 0x7f12258c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_backup_tip:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -270,14 +270,14 @@
     .line 6
     iget-object v0, p0, Lfs8;->v:Landroid/widget/TextView;
 
-    const v2, 0x7f12258d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_backup_tip_detail:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
     iget-object v0, p0, Lfs8;->w:Landroid/widget/TextView;
 
-    const v2, 0x7f121e6d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_backup_now:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -316,7 +316,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1214a4
+    sget v2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_title:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -349,12 +349,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1214a1
+    sget v1, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_details1:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1214a2
+    sget v1, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_details2:I
 
     .line 5
     :goto_0
@@ -377,12 +377,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f121e70
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_login_guide_protected_now:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f1214a3
+    sget v3, Lcom/resouce/module/ResSTRING;->notify_docs_radar_top_tip_sync_now:I
 
     .line 7
     :goto_1
@@ -405,12 +405,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f081b56
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_radar_list_login_guide_icon:I
 
     goto :goto_2
 
     :cond_2
-    const p1, 0x7f0818b9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_docs_radar_sync_icon:I
 
     .line 9
     :goto_2
@@ -573,14 +573,14 @@
     .line 4
     iget-object v0, p0, Lfs8;->t:Landroid/widget/ImageView;
 
-    const v1, 0x7f081698
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_cloud_privileges_upload:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 5
     iget-object v0, p0, Lfs8;->u:Landroid/widget/TextView;
 
-    const v1, 0x7f121d79
+    sget v1, Lcom/resouce/module/ResSTRING;->public_backup_opened:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -589,7 +589,7 @@
 
     iget-object v1, p0, Les8;->g:Landroid/app/Activity;
 
-    const v2, 0x7f12258d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_backup_tip_detail:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -600,7 +600,7 @@
     .line 7
     iget-object v0, p0, Lfs8;->w:Landroid/widget/TextView;
 
-    const v1, 0x7f1210f5
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_lookup_backup_doc:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -675,7 +675,7 @@
     .line 3
     iget-object v0, p0, Les8;->g:Landroid/app/Activity;
 
-    const v1, 0x7f12213f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_radar_file_upload_tips:I
 
     const/4 v2, 0x0
 
@@ -710,7 +710,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e030e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_fileradar_header_tips_layout:I
 
     invoke-virtual {p0}, Les8;->k()Landroid/view/ViewGroup;
 
@@ -724,7 +724,7 @@
 
     iput-object v0, p0, Lfs8;->s:Landroid/view/View;
 
-    const v1, 0x7f0b0d5a
+    sget v1, Lcom/resouce/module/ResID;->fileradar_tips_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -738,7 +738,7 @@
     .line 4
     iget-object v0, p0, Lfs8;->s:Landroid/view/View;
 
-    const v1, 0x7f0b205a
+    sget v1, Lcom/resouce/module/ResID;->phone_message_msg_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -751,7 +751,7 @@
     .line 5
     iget-object v0, p0, Lfs8;->s:Landroid/view/View;
 
-    const v1, 0x7f0b205c
+    sget v1, Lcom/resouce/module/ResID;->phone_message_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -764,7 +764,7 @@
     .line 6
     iget-object v0, p0, Lfs8;->s:Landroid/view/View;
 
-    const v1, 0x7f0b205d
+    sget v1, Lcom/resouce/module/ResID;->phone_message_update_now_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

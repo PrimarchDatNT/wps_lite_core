@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03d5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_webview_more_menu:I
 
     const/4 v2, 0x0
 
@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b342b
+    sget v1, Lcom/resouce/module/ResID;->webview_more_fresh_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b342c
+    sget v1, Lcom/resouce/module/ResID;->webview_more_open_browser_text:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     invoke-virtual {v0, p1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setIsNeedMultiDoc(Z)V
 
-    const v0, 0x7f0810d0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_message_tips_close_white:I
 
     .line 5
     invoke-virtual {p0, v0}, Lcn/wps/moffice/main/framework/BaseTitleActivity;->setBackIcon(I)V
@@ -404,7 +404,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121bf5
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

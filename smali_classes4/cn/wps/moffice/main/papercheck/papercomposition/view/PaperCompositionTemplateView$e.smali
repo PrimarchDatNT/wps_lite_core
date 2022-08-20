@@ -74,7 +74,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

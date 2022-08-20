@@ -271,7 +271,7 @@
 
     if-eqz p1, :cond_3
 
-    const v0, 0x7f12011b
+    sget v0, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

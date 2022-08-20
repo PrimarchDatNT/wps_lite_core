@@ -44,7 +44,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b14b6
+    sget v1, Lcom/resouce/module/ResID;->iv_retake:I
 
     if-ne v0, v1, :cond_0
 
@@ -63,11 +63,11 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b14a1
+    sget v1, Lcom/resouce/module/ResID;->iv_ok:I
 
-    const v2, 0x7f0b142e
+    sget v2, Lcom/resouce/module/ResID;->iv_complete:I
 
-    const v3, 0x7f0b14c7
+    sget v3, Lcom/resouce/module/ResID;->iv_sign:I
 
     if-eq v0, v1, :cond_1
 
@@ -167,7 +167,7 @@
     .line 2
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14b6
+    sget v1, Lcom/resouce/module/ResID;->iv_retake:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     .line 3
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14a1
+    sget v1, Lcom/resouce/module/ResID;->iv_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     .line 4
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14c7
+    sget v1, Lcom/resouce/module/ResID;->iv_sign:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

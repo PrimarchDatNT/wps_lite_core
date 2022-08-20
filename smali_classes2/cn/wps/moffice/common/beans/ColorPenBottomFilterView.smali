@@ -42,7 +42,7 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p3, 0x7f06003e
+    sget p3, Lcom/resouce/module/ResCOLOR;->black:I
 
     .line 4
     iput p3, p0, Lcn/wps/moffice/common/beans/ColorPenBottomFilterView;->a0:I

@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e37
+    sget v1, Lcom/resouce/module/ResSTRING;->request_structure_recognize:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e35
+    sget v1, Lcom/resouce/module/ResSTRING;->request_recognize:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e38
+    sget v1, Lcom/resouce/module/ResSTRING;->request_upload_token:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c60
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_download_normal:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c61
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_download_vip:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e33
+    sget v1, Lcom/resouce/module/ResSTRING;->request_match_base:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e36
+    sget v1, Lcom/resouce/module/ResSTRING;->request_render_base:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

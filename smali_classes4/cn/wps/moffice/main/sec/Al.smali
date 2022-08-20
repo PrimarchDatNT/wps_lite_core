@@ -43,7 +43,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12009f
+    sget v0, Lcom/resouce/module/ResSTRING;->app_crack_action:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

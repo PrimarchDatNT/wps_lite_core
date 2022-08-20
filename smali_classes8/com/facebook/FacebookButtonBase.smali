@@ -40,7 +40,7 @@
     :cond_0
     if-nez p4, :cond_1
 
-    const p4, 0x7f1303f9
+    sget p4, Lcom/resouce/module/ResSTYLE;->com_facebook_button:I
 
     .line 3
     :cond_1
@@ -714,7 +714,7 @@
     goto :goto_0
 
     :cond_3
-    const p3, 0x7f0600bd
+    sget p3, Lcom/resouce/module/ResCOLOR;->com_facebook_blue:I
 
     .line 7
     invoke-static {p1, p3}, Lu6;->d(Landroid/content/Context;I)I

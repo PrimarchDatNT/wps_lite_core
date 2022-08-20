@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -193,7 +193,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -248,7 +248,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -275,7 +275,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121254
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -289,7 +289,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1205c7
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -309,7 +309,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -343,7 +343,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121254
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

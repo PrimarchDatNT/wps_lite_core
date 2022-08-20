@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1229e0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -230,7 +230,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -259,7 +259,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12276e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_success:I
 
     invoke-static {p2, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

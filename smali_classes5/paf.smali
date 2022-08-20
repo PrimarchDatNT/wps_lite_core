@@ -196,7 +196,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1205d3
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_livespace_upload_conflict:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -293,7 +293,7 @@
     .line 2
     iget-object p1, p0, Lpaf;->a:Landroid/content/Context;
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v0, 0x1
 
@@ -437,7 +437,7 @@
     .line 6
     iget-object p2, p0, Lpaf;->e:Lhd3;
 
-    const v1, 0x7f122963
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_link_file_exists_tip_rebuild:I
 
     new-instance v2, Lpaf$c;
 
@@ -448,7 +448,7 @@
     .line 7
     iget-object p2, p0, Lpaf;->e:Lhd3;
 
-    const v1, 0x7f122962
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_link_file_exists_tip_get:I
 
     new-instance v2, Lpaf$d;
 
@@ -467,7 +467,7 @@
     .line 9
     iget-object v1, p0, Lpaf;->a:Landroid/content/Context;
 
-    const v2, 0x7f122961
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_dropbox_link_file_exists_tip:I
 
     new-array v0, v0, [Ljava/lang/Object;
 

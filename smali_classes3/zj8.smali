@@ -804,7 +804,7 @@
     .line 3
     iget-object p1, p0, Lzj8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -821,7 +821,7 @@
     .line 5
     iget-object p1, p0, Lzj8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120d51
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_unselect_file:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

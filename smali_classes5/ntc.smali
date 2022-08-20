@@ -818,7 +818,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08111c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_seekbar_thumb:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1549,7 +1549,7 @@
     .line 5
     iget-object v3, p0, Lntc;->S:Landroid/view/View;
 
-    const v4, 0x7f0b27e9
+    sget v4, Lcom/resouce/module/ResID;->read_bg_line:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1623,7 +1623,7 @@
     .line 13
     iget-object v3, p0, Lntc;->S:Landroid/view/View;
 
-    const v4, 0x7f0b0e51
+    sget v4, Lcom/resouce/module/ResID;->font_setting_line:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1707,7 +1707,7 @@
     .line 19
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1c65
+    sget v3, Lcom/resouce/module/ResID;->page_adjust_layout:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1849,7 +1849,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122ba9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_view:I
 
     return v0
 .end method
@@ -1862,7 +1862,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29b7
+    sget v0, Lcom/resouce/module/ResID;->rotate_screen_switch:I
 
     if-ne p1, v0, :cond_0
 
@@ -1872,7 +1872,7 @@
     goto/16 :goto_9
 
     :cond_0
-    const v0, 0x7f0b1a29
+    sget v0, Lcom/resouce/module/ResID;->night_mode_switch:I
 
     const-string v1, "on"
 
@@ -1921,7 +1921,7 @@
     goto :goto_9
 
     :cond_4
-    const v0, 0x7f0b2bf2
+    sget v0, Lcom/resouce/module/ResID;->show_annotation_switch:I
 
     if-ne p1, v0, :cond_8
 
@@ -1968,7 +1968,7 @@
     goto :goto_9
 
     :cond_8
-    const v0, 0x7f0b33df
+    sget v0, Lcom/resouce/module/ResID;->volume_key_switch:I
 
     if-ne p1, v0, :cond_c
 
@@ -2017,7 +2017,7 @@
     goto :goto_9
 
     :cond_c
-    const p2, 0x7f0b14f1
+    sget p2, Lcom/resouce/module/ResID;->keep_screen_on_switch:I
 
     if-ne p1, p2, :cond_d
 
@@ -2259,7 +2259,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07d2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_read_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -2269,7 +2269,7 @@
 
     iput-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0769
+    sget v1, Lcom/resouce/module/ResID;->document_seekbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2286,7 +2286,7 @@
     .line 4
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b076a
+    sget v1, Lcom/resouce/module/ResID;->document_seekbar_host:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2304,7 +2304,7 @@
     .line 6
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b27e8
+    sget v1, Lcom/resouce/module/ResID;->read_bg_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2315,7 +2315,7 @@
     .line 7
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0e50
+    sget v1, Lcom/resouce/module/ResID;->font_setting_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2326,7 +2326,7 @@
     .line 8
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b14ed
+    sget v1, Lcom/resouce/module/ResID;->jump_to_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2335,7 +2335,7 @@
     .line 9
     iget-object v1, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2a68
+    sget v2, Lcom/resouce/module/ResID;->search_content_item:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2344,7 +2344,7 @@
     .line 10
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b05d1
+    sget v3, Lcom/resouce/module/ResID;->crop_textimage:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2355,7 +2355,7 @@
     .line 11
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b29b6
+    sget v3, Lcom/resouce/module/ResID;->rotate_screen_item:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2366,7 +2366,7 @@
     .line 12
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b2bf1
+    sget v3, Lcom/resouce/module/ResID;->show_annotation_item:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2401,7 +2401,7 @@
     .line 17
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0213
+    sget v1, Lcom/resouce/module/ResID;->bg_night_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2412,7 +2412,7 @@
     .line 18
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0215
+    sget v1, Lcom/resouce/module/ResID;->bg_white_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2430,7 +2430,7 @@
     .line 20
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0207
+    sget v2, Lcom/resouce/module/ResID;->bg_cowhide_yellow_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2441,7 +2441,7 @@
     .line 21
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b020a
+    sget v2, Lcom/resouce/module/ResID;->bg_eye_protection_green_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2452,7 +2452,7 @@
     .line 22
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0211
+    sget v2, Lcom/resouce/module/ResID;->bg_more_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2498,7 +2498,7 @@
     .line 28
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2f86
+    sget v2, Lcom/resouce/module/ResID;->thumbnails_textimage:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2509,7 +2509,7 @@
     .line 29
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b00a2
+    sget v2, Lcom/resouce/module/ResID;->add_bookmark_textimage:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2518,7 +2518,7 @@
     .line 30
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b00ee
+    sget v3, Lcom/resouce/module/ResID;->all_bookmark_textimage:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2531,7 +2531,7 @@
     .line 31
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1ba1
+    sget v3, Lcom/resouce/module/ResID;->outline_textimage:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2544,7 +2544,7 @@
     .line 32
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1c66
+    sget v3, Lcom/resouce/module/ResID;->page_adjust_textimage:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2557,7 +2557,7 @@
     .line 33
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b15b1
+    sget v3, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2641,7 +2641,7 @@
     .line 42
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1a29
+    sget v2, Lcom/resouce/module/ResID;->night_mode_switch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2654,7 +2654,7 @@
     .line 43
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b29b7
+    sget v2, Lcom/resouce/module/ResID;->rotate_screen_switch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2667,7 +2667,7 @@
     .line 44
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2bf2
+    sget v2, Lcom/resouce/module/ResID;->show_annotation_switch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2680,7 +2680,7 @@
     .line 45
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b33df
+    sget v2, Lcom/resouce/module/ResID;->volume_key_switch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2713,7 +2713,7 @@
     .line 50
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0e3d
+    sget v2, Lcom/resouce/module/ResID;->font_narrow_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2724,7 +2724,7 @@
     .line 51
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0e29
+    sget v2, Lcom/resouce/module/ResID;->font_enlarge_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2735,7 +2735,7 @@
     .line 52
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2c86
+    sget v2, Lcom/resouce/module/ResID;->spacing_close_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2746,7 +2746,7 @@
     .line 53
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2c8a
+    sget v2, Lcom/resouce/module/ResID;->spacing_middle_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2757,7 +2757,7 @@
     .line 54
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2c88
+    sget v2, Lcom/resouce/module/ResID;->spacing_loose_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2768,7 +2768,7 @@
     .line 55
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2a36
+    sget v2, Lcom/resouce/module/ResID;->scroll_orientation_item:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2821,7 +2821,7 @@
     .line 62
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b29b5
+    sget v2, Lcom/resouce/module/ResID;->rotate_screen_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2832,7 +2832,7 @@
     .line 63
     iget-object v2, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b29b9
+    sget v3, Lcom/resouce/module/ResID;->rotate_screen_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2906,7 +2906,7 @@
 
     check-cast v3, Landroid/widget/ScrollView;
 
-    const v4, 0x7f0b1f08
+    sget v4, Lcom/resouce/module/ResID;->pdf_read_panel:I
 
     .line 70
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2926,14 +2926,14 @@
 
     move-result v0
 
-    const v2, 0x7f0b028d
+    sget v2, Lcom/resouce/module/ResID;->brightness_adjustment_layout:I
 
     if-eqz v0, :cond_2
 
     .line 73
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b028e
+    sget v3, Lcom/resouce/module/ResID;->brightness_seekbar:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2979,7 +2979,7 @@
     :goto_0
     iget-object v0, p0, Lntc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b14f1
+    sget v1, Lcom/resouce/module/ResID;->keep_screen_on_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

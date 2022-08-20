@@ -114,7 +114,7 @@
 
     iget-object p2, p0, Lv9b;->B:Landroid/app/Activity;
 
-    const p3, 0x7f1203e6
+    sget p3, Lcom/resouce/module/ResSTRING;->doc_scan_default_input_watermark_tip:I
 
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0be3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_exportpdf_watermark_style_content_layout:I
 
     const/4 v2, 0x0
 
@@ -291,7 +291,7 @@
 
     iput-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33f9
+    sget v1, Lcom/resouce/module/ResID;->watermark_color_0:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
     .line 3
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33fa
+    sget v1, Lcom/resouce/module/ResID;->watermark_color_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -318,7 +318,7 @@
     .line 4
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33fb
+    sget v1, Lcom/resouce/module/ResID;->watermark_color_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
     .line 5
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33fc
+    sget v1, Lcom/resouce/module/ResID;->watermark_color_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
     .line 6
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3409
+    sget v1, Lcom/resouce/module/ResID;->watermark_spread_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -357,7 +357,7 @@
     .line 7
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3404
+    sget v1, Lcom/resouce/module/ResID;->watermark_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     .line 8
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3405
+    sget v1, Lcom/resouce/module/ResID;->watermark_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -385,7 +385,7 @@
     .line 9
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b340b
+    sget v1, Lcom/resouce/module/ResID;->watermark_textsize_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 12
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33ff
+    sget v1, Lcom/resouce/module/ResID;->watermark_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
     .line 6
     iget-object v0, p0, Lv9b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f010091
+    sget v2, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {v0, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -565,7 +565,7 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f081cde
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_watermark_thumbnails_custom:I
 
     const-string v5, "watermark_custom"
 
@@ -590,7 +590,7 @@
 
     const/4 v13, -0x1
 
-    const v14, 0x7f081ce0
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_watermark_thumbnails_none:I
 
     const-string v15, "watermark_none"
 
@@ -645,7 +645,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122be0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
     return v0
 .end method
@@ -882,7 +882,7 @@
     .line 9
     iget-object v0, p0, Lv9b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1115,7 +1115,7 @@
     .line 2
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33f9
+    sget v2, Lcom/resouce/module/ResID;->watermark_color_0:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1128,7 +1128,7 @@
     .line 3
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v3, 0x7f0b33fa
+    sget v3, Lcom/resouce/module/ResID;->watermark_color_1:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1141,7 +1141,7 @@
     .line 4
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v4, 0x7f0b33fb
+    sget v4, Lcom/resouce/module/ResID;->watermark_color_2:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1154,7 +1154,7 @@
     .line 5
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v5, 0x7f0b33fc
+    sget v5, Lcom/resouce/module/ResID;->watermark_color_3:I
 
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1190,7 +1190,7 @@
 
     move-result-object v2
 
-    const v7, 0x7f0600ac
+    sget v7, Lcom/resouce/module/ResCOLOR;->color_watermark_0:I
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1225,7 +1225,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ad
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_watermark_1:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1258,7 +1258,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ae
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_watermark_2:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1291,7 +1291,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600af
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_watermark_3:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1337,7 +1337,7 @@
     .line 2
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3409
+    sget v2, Lcom/resouce/module/ResID;->watermark_spread_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1348,7 +1348,7 @@
     .line 3
     iget-object v0, p0, Lv9b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b340a
+    sget v1, Lcom/resouce/module/ResID;->watermark_spread_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1405,7 +1405,7 @@
     .line 2
     iget-object v1, p0, Lv9b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b340c
+    sget v2, Lcom/resouce/module/ResID;->watermark_textsize_progress_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

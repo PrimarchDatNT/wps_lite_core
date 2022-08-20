@@ -117,7 +117,7 @@
     .line 10
     iput-object p1, p0, Lvyl;->d0:Lcn/wps/moffice/writer/Writer;
 
-    const p1, 0x7f0b36cb
+    sget p1, Lcom/resouce/module/ResID;->writer_tool_screenbtn:I
 
     .line 11
     invoke-interface {p2, p1}, Lsf6;->m(I)Landroid/view/View;
@@ -384,7 +384,7 @@
 .method public final C2()V
     .locals 1
 
-    const v0, 0x7f0b3677
+    sget v0, Lcom/resouce/module/ResID;->writer_screenlock_rt:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -393,7 +393,7 @@
 
     iput-object v0, p0, Lvyl;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b3673
+    sget v0, Lcom/resouce/module/ResID;->writer_screenback_rt:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -404,7 +404,7 @@
 
     iput-object v0, p0, Lvyl;->o0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3676
+    sget v0, Lcom/resouce/module/ResID;->writer_screenlock_rb:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     iput-object v0, p0, Lvyl;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b3672
+    sget v0, Lcom/resouce/module/ResID;->writer_screenback_rb:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -424,7 +424,7 @@
 
     iput-object v0, p0, Lvyl;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3675
+    sget v0, Lcom/resouce/module/ResID;->writer_screenlock_lt:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -433,7 +433,7 @@
 
     iput-object v0, p0, Lvyl;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b3671
+    sget v0, Lcom/resouce/module/ResID;->writer_screenback_lt:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -444,7 +444,7 @@
 
     iput-object v0, p0, Lvyl;->n0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3674
+    sget v0, Lcom/resouce/module/ResID;->writer_screenlock_lb:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -453,7 +453,7 @@
 
     iput-object v0, p0, Lvyl;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b3670
+    sget v0, Lcom/resouce/module/ResID;->writer_screenback_lb:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     iput-object v0, p0, Lvyl;->l0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b366f
+    sget v0, Lcom/resouce/module/ResID;->writer_screen_setting:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -576,7 +576,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f082064
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_icon_screenback_selector_read:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

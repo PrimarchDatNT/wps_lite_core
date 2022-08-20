@@ -37,9 +37,9 @@
     .line 2
     sget-object v0, Lgh8$b;->b1:Lgh8$b;
 
-    const v1, 0x7f080233
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 3
     invoke-static {v1, v2, v0}, Ldi9;->w(IILgh8$b;)Ldi9$f;
@@ -48,7 +48,7 @@
 
     iput-object v1, p0, Lmi9;->a:Ldi9$f;
 
-    const v2, 0x7f08049b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_program_sheet:I
 
     const/4 v3, 0x0
 

@@ -356,7 +356,7 @@
     .line 18
     new-instance v3, Lqk9;
 
-    const v4, 0x7f1224dd
+    sget v4, Lcom/resouce/module/ResSTRING;->public_more_share_way:I
 
     invoke-virtual {v10, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -818,7 +818,7 @@
     :goto_2
     new-instance v5, Lqk9;
 
-    const v0, 0x7f1224dd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_more_share_way:I
 
     invoke-virtual {v10, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1041,7 +1041,7 @@
     .line 3
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 4
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1052,7 +1052,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f121973
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_dingding:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1118,7 +1118,7 @@
     .line 2
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205eb
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 3
     invoke-virtual {p1, p0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1133,7 +1133,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f120694
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1193,7 +1193,7 @@
     .line 1
     invoke-virtual/range {p5 .. p5}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f120693
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     move-object v4, p1
 
@@ -1292,7 +1292,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f121977
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_moment:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1450,7 +1450,7 @@
     .line 4
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 5
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1468,12 +1468,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f1229a3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_tim:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f121974
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_qq_friend:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1555,7 +1555,7 @@
     .line 1
     invoke-virtual/range {p6 .. p6}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f120693
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     move-object v4, p1
 
@@ -1629,7 +1629,7 @@
     .line 3
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 4
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1640,7 +1640,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f121979
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_woa:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1707,7 +1707,7 @@
     .line 3
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 4
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1718,7 +1718,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f121978
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_wework:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1790,7 +1790,7 @@
     .line 4
     invoke-virtual {p2}, Lwh9;->dismiss()V
 
-    const p0, 0x7f1205ee
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 5
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1801,7 +1801,7 @@
     :cond_0
     invoke-virtual {p3}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f121976
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_friend:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1854,7 +1854,7 @@
     .line 1
     invoke-virtual/range {p5 .. p5}, Lcn/wps/moffice/main/local/home/newui/docinfo/SharePanel;->q()V
 
-    const v0, 0x7f120693
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     move-object v4, p1
 

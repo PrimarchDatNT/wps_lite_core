@@ -622,7 +622,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/main/framework/BaseActivity;->startActivity(Landroid/content/Intent;)V
 
-    const v0, 0x7f121f86
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_get_new_file_template_failed:I
 
     const/4 v1, 0x0
 
@@ -1238,7 +1238,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->b0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12149b
+    sget v1, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1254,7 +1254,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->b0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081c96
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1298,7 +1298,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->b0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1314,7 +1314,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->b0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081301
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1330,7 +1330,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->b0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1502,7 +1502,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080ac7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->my_template:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1539,7 +1539,7 @@
     .line 18
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->V:Landroid/view/View;
 
-    const v2, 0x7f0b2566
+    sget v2, Lcom/resouce/module/ResID;->ptr_layout:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1559,7 +1559,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->V:Landroid/view/View;
 
-    const v2, 0x7f0b17f5
+    sget v2, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1577,7 +1577,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0480
+    sget v1, Lcom/resouce/module/ResLAYOUT;->listview_loading_view:I
 
     iget-object v2, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->Y:Lcn/wps/moffice/templatecommon/ext/widget/GridListView;
 
@@ -1646,7 +1646,7 @@
     .line 29
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateWeekChoiceActivity;->V:Landroid/view/View;
 
-    const v2, 0x7f0b17f8
+    sget v2, Lcom/resouce/module/ResID;->main_error_default:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

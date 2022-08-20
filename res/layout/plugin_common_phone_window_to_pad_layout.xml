@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.plugin.common.view.cardview.CardView android:id="@id/layout_fit_pad_outer_root_node" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:cardCornerRadius="10.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

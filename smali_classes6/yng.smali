@@ -94,7 +94,7 @@
 .method public constructor <init>(Landroid/content/Context;Lk2m;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -378,7 +378,7 @@
 
     iget-object v1, p0, Lyng;->V:Landroid/content/Context;
 
-    const v2, 0x7f120850
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_content:I
 
     const/4 v3, 0x1
 
@@ -563,7 +563,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01e9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_pics_dialog:I
 
     const/4 v2, 0x0
 
@@ -598,7 +598,7 @@
     .line 6
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -609,7 +609,7 @@
     .line 7
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -626,7 +626,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12085b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -709,7 +709,7 @@
     .line 19
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b007a
+    sget v1, Lcom/resouce/module/ResID;->action_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -722,7 +722,7 @@
     .line 20
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3015
+    sget v1, Lcom/resouce/module/ResID;->title_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -745,7 +745,7 @@
     .line 23
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0d68
+    sget v2, Lcom/resouce/module/ResID;->filter_card_tv:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 24
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0d6a
+    sget v2, Lcom/resouce/module/ResID;->filter_col_tv:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 1
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2864
+    sget v1, Lcom/resouce/module/ResID;->recyclerview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -906,7 +906,7 @@
     .line 1
     iget-object v0, p0, Lyng;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2dc8    # 1.850004E38f
+    sget v1, Lcom/resouce/module/ResID;->style_rv:I    # 1.850004E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -962,7 +962,7 @@
     .line 7
     iput-boolean v1, v0, Lnog;->m:Z
 
-    const v2, 0x7f081c3e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_watermark:I
 
     .line 8
     iput v2, v0, Lnog;->j:I
@@ -973,7 +973,7 @@
     .line 10
     iget-object v2, p0, Lyng;->V:Landroid/content/Context;
 
-    const v3, 0x7f12086a
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_style_watermark:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -986,7 +986,7 @@
 
     invoke-direct {v2}, Lnog;-><init>()V
 
-    const v3, 0x7f081c3a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_origin:I
 
     .line 12
     iput v3, v2, Lnog;->j:I
@@ -997,7 +997,7 @@
     .line 14
     iget-object v1, p0, Lyng;->V:Landroid/content/Context;
 
-    const v3, 0x7f120868
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_style_default:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1126,7 +1126,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0d68
+    sget v0, Lcom/resouce/module/ResID;->filter_card_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -1153,7 +1153,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const v0, 0x7f0b0d6a
+    sget v0, Lcom/resouce/module/ResID;->filter_col_tv:I
 
     if-ne p1, v0, :cond_2
 
@@ -1206,7 +1206,7 @@
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f0b3015
+    sget v0, Lcom/resouce/module/ResID;->title_tv:I
 
     if-ne p1, v0, :cond_6
 
@@ -1275,7 +1275,7 @@
     return-void
 
     :cond_6
-    const v0, 0x7f0b007a
+    sget v0, Lcom/resouce/module/ResID;->action_tv:I
 
     if-ne p1, v0, :cond_7
 

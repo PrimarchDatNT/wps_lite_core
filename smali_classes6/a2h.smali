@@ -812,7 +812,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2166
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_title_layout:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0990
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_readoptions_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -951,7 +951,7 @@
 
     iput-object v0, p0, La2h;->S:Landroid/view/View;
 
-    const v1, 0x7f0b214f
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_main_panel:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -965,7 +965,7 @@
     .line 4
     iget-object v0, p0, La2h;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2182
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sub_panel_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -982,7 +982,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e097c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_panel_main_layout:I
 
     iget-object v2, p0, La2h;->T:Landroid/view/ViewGroup;
 
@@ -1008,7 +1008,7 @@
 
     iget-object v3, p0, La2h;->S:Landroid/view/View;
 
-    const v4, 0x7f0b0091
+    sget v4, Lcom/resouce/module/ResID;->ad_position:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1085,7 +1085,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060002
+    sget v2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

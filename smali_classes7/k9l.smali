@@ -84,7 +84,7 @@
 
     invoke-direct {v0, p0}, Ln9l;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b1c68
+    sget v1, Lcom/resouce/module/ResID;->page_bg_pic_fill:I
 
     const-string v2, "page-bg-pic"
 
@@ -194,7 +194,7 @@
 .method public final q2()V
     .locals 5
 
-    const v0, 0x7f0e09ce
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_edit_page_bg:I
 
     const/4 v1, 0x0
 
@@ -216,7 +216,7 @@
 
     iput-object v2, p0, Lk9l;->d0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v3, 0x7f1233ce
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_page_background:I
 
     .line 3
     invoke-virtual {v2, v3}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -231,7 +231,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b1f9f
+    sget v0, Lcom/resouce/module/ResID;->phone_bg_colors:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     iput-object v2, p0, Lk9l;->e0:Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;
 
-    const v1, 0x7f06068e
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_color_panel_bg:I
 
     .line 8
     invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -287,7 +287,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1c69
+    sget v0, Lcom/resouce/module/ResID;->page_bg_pic_fill_img:I
 
     .line 14
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606b0
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_panel_text_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

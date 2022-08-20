@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122202
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fulltext_search_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

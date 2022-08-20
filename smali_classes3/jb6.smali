@@ -424,7 +424,7 @@
 
     move-result v5
 
-    const v6, 0x7f081e89
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->template_edit_unchecked:I
 
     if-eqz v5, :cond_4
 
@@ -443,7 +443,7 @@
 
     if-eqz v4, :cond_3
 
-    const v4, 0x7f081e88
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->template_edit_checked:I
 
     .line 19
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -615,7 +615,7 @@
 
     move-result v4
 
-    const v5, 0x7f081e8b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     if-nez v4, :cond_9
 
@@ -683,7 +683,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fb3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_collection_edit_item_layout:I
 
     const/4 v2, 0x0
 
@@ -698,7 +698,7 @@
 
     invoke-direct {v1}, Ljb6$a;-><init>()V
 
-    const v2, 0x7f0b13c5
+    sget v2, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -709,7 +709,7 @@
 
     iput-object v2, v1, Ljb6$a;->a:Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v2, 0x7f0b03b1
+    sget v2, Lcom/resouce/module/ResID;->check_iv:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -720,7 +720,7 @@
 
     iput-object v2, v1, Ljb6$a;->b:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b13f4
+    sget v2, Lcom/resouce/module/ResID;->item_type_icon:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -731,7 +731,7 @@
 
     iput-object v2, v1, Ljb6$a;->c:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b13d2
+    sget v2, Lcom/resouce/module/ResID;->item_name:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -754,7 +754,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070a89
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -773,7 +773,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -792,7 +792,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -830,7 +830,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fb4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_collection_item_layout:I
 
     const/4 v2, 0x0
 
@@ -845,7 +845,7 @@
 
     invoke-direct {v1}, Ljb6$b;-><init>()V
 
-    const v2, 0x7f0b13c5
+    sget v2, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -856,7 +856,7 @@
 
     iput-object v2, v1, Ljb6$b;->a:Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v2, 0x7f0b1975
+    sget v2, Lcom/resouce/module/ResID;->my_download_icon:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -879,7 +879,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0806ff
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->foreign_template_download_icon:I
 
     invoke-static {v2, v4}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -895,7 +895,7 @@
     invoke-virtual {v4, v2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_0
-    const v2, 0x7f0b13f4
+    sget v2, Lcom/resouce/module/ResID;->item_type_icon:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -906,7 +906,7 @@
 
     iput-object v2, v1, Ljb6$b;->c:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b1383
+    sget v2, Lcom/resouce/module/ResID;->is_pay_template_icon:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -917,7 +917,7 @@
 
     iput-object v2, v1, Ljb6$b;->f:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b13b1
+    sget v2, Lcom/resouce/module/ResID;->item_corner_icon:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -928,7 +928,7 @@
 
     iput-object v2, v1, Ljb6$b;->d:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b13d2
+    sget v2, Lcom/resouce/module/ResID;->item_name:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -951,7 +951,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070a89
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -970,7 +970,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -989,7 +989,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1012,7 +1012,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0816f3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_mine_my_template_xls:I
 
     goto :goto_0
 
@@ -1026,7 +1026,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f0816f1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_mine_my_template_ppt:I
 
     goto :goto_0
 
@@ -1040,7 +1040,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0816f2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_mine_my_template_word:I
 
     goto :goto_0
 

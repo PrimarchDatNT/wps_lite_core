@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060689
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06069b
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068b
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068c
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_4:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06068d
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_5:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b20f7
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,11 +213,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122180
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fill_color:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b20f6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     move-result v1
 
-    const v4, 0x7f080242
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_revision_reject:I
 
     if-ne v1, v4, :cond_0
 

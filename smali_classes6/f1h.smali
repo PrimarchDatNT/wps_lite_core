@@ -18,7 +18,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122fea
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_toolbar_data:I
 
     return v0
 .end method

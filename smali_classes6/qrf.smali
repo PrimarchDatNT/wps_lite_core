@@ -242,12 +242,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0208
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_pad_condition_format_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e021d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_phone_condition_format_item:I
 
     :goto_0
     const/4 v1, 0x0

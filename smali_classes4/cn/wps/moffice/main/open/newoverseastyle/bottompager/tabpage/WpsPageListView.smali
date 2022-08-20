@@ -101,7 +101,7 @@
 
     invoke-direct {v1, v3, v4}, Lsga;-><init>(Landroid/content/Context;I)V
 
-    const v3, 0x7f08174c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_recovery:I
 
     .line 4
     invoke-virtual {v1, v3}, Lsga;->c(I)V
@@ -115,7 +115,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122811
+    sget v4, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -157,7 +157,7 @@
 
     invoke-direct {v1, v3, v4}, Lsga;-><init>(Landroid/content/Context;I)V
 
-    const v3, 0x7f08174a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_picture:I
 
     .line 9
     invoke-virtual {v1, v3}, Lsga;->c(I)V
@@ -171,7 +171,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1204a7
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

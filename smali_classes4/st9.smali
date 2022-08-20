@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e052b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_app_category_layout:I
 
     const/4 v2, 0x0
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e24
+    sget v1, Lcom/resouce/module/ResID;->tab_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     iput-object v1, p0, Lst9;->B:Lcn/wps/moffice/main/local/home/phone/applicationv2/all/TabLayout;
 
-    const v1, 0x7f0b0370
+    sget v1, Lcom/resouce/module/ResID;->category_recycler_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121dcf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_chart_category:I
 
     return v0
 .end method

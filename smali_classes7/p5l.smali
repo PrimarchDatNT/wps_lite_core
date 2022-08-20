@@ -95,20 +95,20 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f123286
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_unsupported_titile:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f123284
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_unsupported_message:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f123285
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_unsupported_new_ink:I
 
     .line 3
     invoke-virtual {v0, v1, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -119,7 +119,7 @@
 
     invoke-direct {v0, p0, p2}, Lp5l$h;-><init>(Lp5l;Ljava/lang/Runnable;)V
 
-    const v1, 0x7f122189
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     .line 4
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -198,7 +198,7 @@
 
     invoke-direct {v0, p0}, Lp5l$e;-><init>(Lp5l;)V
 
-    const v1, 0x7f0b142c
+    sget v1, Lcom/resouce/module/ResID;->iv_comment_back:I
 
     const-string v2, "commentPanel-back"
 
@@ -287,14 +287,14 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e107e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_comments_input_phone:I
 
     .line 2
     sget-object v2, Luzl$b;->B:Luzl$b;
 
     invoke-virtual {p0, v1, v0, v2}, Luzl;->l2(IILuzl$b;)V
 
-    const v0, 0x7f0b34d0
+    sget v0, Lcom/resouce/module/ResID;->writer_comment_textinput_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -306,7 +306,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e107d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_comments_input:I
 
     .line 4
     sget-object v2, Luzl$b;->B:Luzl$b;
@@ -314,7 +314,7 @@
     invoke-virtual {p0, v1, v0, v2}, Luzl;->l2(IILuzl$b;)V
 
     :goto_0
-    const v0, 0x7f0b1488
+    sget v0, Lcom/resouce/module/ResID;->iv_ink_input:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -323,7 +323,7 @@
 
     iput-object v0, p0, Lp5l;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b097f
+    sget v0, Lcom/resouce/module/ResID;->et_comment_text_input:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     iput-object v0, p0, Lp5l;->i0:Landroid/widget/EditText;
 
-    const v0, 0x7f0b329a
+    sget v0, Lcom/resouce/module/ResID;->tv_touching_audio:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -345,7 +345,7 @@
 
     iput-object v0, p0, Lp5l;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b14cf
+    sget v0, Lcom/resouce/module/ResID;->iv_text_input:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     iput-object v0, p0, Lp5l;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b04cc
+    sget v0, Lcom/resouce/module/ResID;->comment_submit:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -365,7 +365,7 @@
 
     iput-object v0, p0, Lp5l;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b04cd
+    sget v0, Lcom/resouce/module/ResID;->comment_submit_layout:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object v0, p0, Lp5l;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b0173
+    sget v0, Lcom/resouce/module/ResID;->audio_input:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -522,7 +522,7 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f0b142c
+    sget v0, Lcom/resouce/module/ResID;->iv_comment_back:I
 
     .line 25
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

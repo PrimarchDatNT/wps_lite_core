@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0291
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_main_en_view:I
 
     const/4 v2, 0x0
 
@@ -84,9 +84,9 @@
     .line 2
     iget-boolean v1, p0, Lcn/wps/moffice/foreigntemplate/mainview/EnTemplateOnLineHomeView;->mIsTab:Z
 
-    const v3, 0x7f0b301a
+    sget v3, Lcom/resouce/module/ResID;->titlebar:I
 
-    const v4, 0x7f0b1fe2
+    sget v4, Lcom/resouce/module/ResID;->phone_home_activity_titlebar:I
 
     const/16 v5, 0x8
 
@@ -195,7 +195,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0703dd
+    sget v3, Lcom/resouce/module/ResDIMEN;->main_top_title_text_size:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06003e
+    sget v3, Lcom/resouce/module/ResCOLOR;->black:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -258,7 +258,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/EnTemplateOnLineHomeView;->mMainView:Landroid/view/View;
 
-    const v1, 0x7f0b17ff
+    sget v1, Lcom/resouce/module/ResID;->main_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -289,7 +289,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/EnTemplateOnLineHomeView;->mMainView:Landroid/view/View;
 
-    const v1, 0x7f0b2566
+    sget v1, Lcom/resouce/module/ResID;->ptr_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -453,7 +453,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ac7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->my_template:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -588,7 +588,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12145f
+    sget v0, Lcom/resouce/module/ResSTRING;->name_templates:I
 
     return v0
 .end method

@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1286
+    sget v0, Lcom/resouce/module/ResID;->image_ok_layout:I
 
     if-ne p1, v0, :cond_2
 
@@ -137,7 +137,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2c0c
+    sget v0, Lcom/resouce/module/ResID;->sign_add:I
 
     if-ne p1, v0, :cond_3
 
@@ -153,7 +153,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2c1b
+    sget v0, Lcom/resouce/module/ResID;->sign_verify:I
 
     if-ne p1, v0, :cond_4
 

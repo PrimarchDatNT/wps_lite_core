@@ -1451,7 +1451,7 @@
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/common/tag/LabelsLayout;->p0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c8e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_tag_arrow_up:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1461,7 +1461,7 @@
     :cond_8
     iget-object v0, p0, Lcn/wps/moffice/common/tag/LabelsLayout;->p0:Landroid/widget/ImageView;
 
-    const v1, 0x7f081c8d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_tag_arrow_down:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

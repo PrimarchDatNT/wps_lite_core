@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f121ffc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_file_can_not_copy:I
 
     invoke-static {p1, v3}, Lbih;->r(Landroid/content/Context;I)V
 

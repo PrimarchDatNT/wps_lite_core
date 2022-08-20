@@ -182,12 +182,12 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f0e0796
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_decrypt_input_dialog:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e062c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pdf_decrypt_input_dialog:I
 
     :goto_0
     const/4 v3, 0x0
@@ -218,7 +218,7 @@
 
     iget-object v3, p0, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog;->a:Landroid/content/Context;
 
-    const v4, 0x7f1302ef
+    sget v4, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg:I
 
     invoke-direct {v0, v3, v4, v2}, Lhd3;-><init>(Landroid/content/Context;IZ)V
 
@@ -242,7 +242,7 @@
 
     if-ne v3, v4, :cond_3
 
-    const v3, 0x7f1217b3
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_decrypt_edit_title:I
 
     .line 10
     invoke-virtual {v0, v3}, Lhd3;->setTitleById(I)Lhd3;
@@ -250,7 +250,7 @@
     goto :goto_2
 
     :cond_3
-    const v3, 0x7f121faf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_decryptDocument:I
 
     .line 11
     invoke-virtual {v0, v3}, Lhd3;->setTitleById(I)Lhd3;
@@ -271,7 +271,7 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const v3, 0x7f0b1511
+    sget v3, Lcom/resouce/module/ResID;->label_input_pwd:I
 
     .line 15
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     if-ne v4, v5, :cond_5
 
-    const v4, 0x7f121810
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_input_password_to_open_tips:I
 
     .line 18
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
@@ -302,14 +302,14 @@
     :cond_4
     if-ne v4, v2, :cond_5
 
-    const v4, 0x7f1217b2
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_decrypt_edit_tips:I
 
     .line 19
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
     :cond_5
     :goto_3
-    const v3, 0x7f0b0cec
+    sget v3, Lcom/resouce/module/ResID;->file_path:I
 
     .line 20
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f0b1cec
+    sget v2, Lcom/resouce/module/ResID;->passwd_input:I
 
     .line 24
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const v2, 0x7f0b06b5
+    sget v2, Lcom/resouce/module/ResID;->display_check:I
 
     .line 27
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 31
     new-instance v2, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog$e;
@@ -400,7 +400,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 32
     new-instance v2, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog$f;
@@ -443,7 +443,7 @@
 .method public j()V
     .locals 1
 
-    const v0, 0x7f121dd8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_checkPasswdFaild:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog;->o(I)V
@@ -454,7 +454,7 @@
 .method public k()V
     .locals 1
 
-    const v0, 0x7f122804
+    sget v0, Lcom/resouce/module/ResSTRING;->public_request_senior_password:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog;->o(I)V
@@ -516,7 +516,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog;->c:Lhd3;
 
-    const v1, 0x7f0b1350
+    sget v1, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

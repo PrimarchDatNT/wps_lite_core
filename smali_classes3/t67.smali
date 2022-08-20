@@ -34,7 +34,7 @@
 
     invoke-static {p1, v0}, Ldi9;->V(Lbh8;Ldi9$f;)V
 
-    const p1, 0x7f080221
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     .line 3
     iput p1, v0, Ldi9$f;->a:I

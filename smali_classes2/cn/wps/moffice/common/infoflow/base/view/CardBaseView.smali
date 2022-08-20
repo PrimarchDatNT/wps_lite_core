@@ -80,13 +80,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c69
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_base:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b3001
+    sget p1, Lcom/resouce/module/ResID;->title_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
     :cond_0
-    const p1, 0x7f0b2642
+    sget p1, Lcom/resouce/module/ResID;->public_infoflow_circle_progressBar:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -177,7 +177,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b0229
+    sget v0, Lcom/resouce/module/ResID;->body:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

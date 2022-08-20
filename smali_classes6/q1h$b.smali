@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2166
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_panel_title_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2166
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_title_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f08130b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_panel_topbar_bg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V

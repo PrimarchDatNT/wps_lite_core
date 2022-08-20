@@ -90,7 +90,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView$i;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0805e4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_template_w_h_error:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -224,7 +224,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView$i;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0805e4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_template_w_h_error:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -246,7 +246,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView$i;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0805e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_template_net_default:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -54,7 +54,7 @@
     .line 3
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const p2, 0x7f0811ec
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_divideview_bg:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -69,7 +69,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0848
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_color_defalut_layout:I
 
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -328,7 +328,7 @@
 
     aget-object v2, v2, v1
 
-    const v3, 0x7f0811ea
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_divide_icon_bg:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setBackgroundResource(I)V

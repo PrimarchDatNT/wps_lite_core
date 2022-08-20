@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/btn_search" android:src="@drawable/v10_phone_public_titlebar_search_white" android:tint="@color/normalIconColor" android:layout_toLeftOf="@id/btn_logout" android:layout_centerVertical="true" android:contentDescription="@string/reader_public_search" style="@style/v10_phone_public_titlebar_icon" />
-    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/btn_logout" android:layout_marginRight="@dimen/v10_phone_public_titlebar_icon_margin_edge" android:src="@drawable/v10_phone_public_exit" android:tint="@color/normalIconColor" android:layout_centerVertical="true" android:contentDescription="@string/reader_public_logout" android:layout_marginEnd="@dimen/v10_phone_public_titlebar_icon_margin_edge" style="@style/v10_phone_public_titlebar_icon" />
-</LinearLayout>

@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121534
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

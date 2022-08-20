@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0760
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_top_open_view:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -162,7 +162,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16b5
+    sget v1, Lcom/resouce/module/ResID;->ll_open:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1660
+    sget v1, Lcom/resouce/module/ResID;->ll_fileradar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1701
+    sget v1, Lcom/resouce/module/ResID;->ll_transmission:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -195,7 +195,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16bd
+    sget v1, Lcom/resouce/module/ResID;->ll_pdf_edit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16d8
+    sget v1, Lcom/resouce/module/ResID;->ll_scanner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16b7
+    sget v1, Lcom/resouce/module/ResID;->ll_open_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1661
+    sget v1, Lcom/resouce/module/ResID;->ll_fileradar_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1702
+    sget v1, Lcom/resouce/module/ResID;->ll_transmission_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16be
+    sget v1, Lcom/resouce/module/ResID;->ll_pdf_edit_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16d9
+    sget v1, Lcom/resouce/module/ResID;->ll_scanner_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -322,7 +322,7 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b167e
+    sget v1, Lcom/resouce/module/ResID;->ll_home_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -333,7 +333,7 @@
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recentpage/v1/TopOpenViewCommon;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1681
+    sget v1, Lcom/resouce/module/ResID;->ll_home_top_land:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -802,7 +802,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    const v2, 0x7f0b16b5
+    sget v2, Lcom/resouce/module/ResID;->ll_open:I
 
     const/4 v3, 0x0
 
@@ -810,53 +810,53 @@
 
     if-eq p1, v2, :cond_c
 
-    const v2, 0x7f0b16b7
+    sget v2, Lcom/resouce/module/ResID;->ll_open_land:I
 
     if-ne p1, v2, :cond_1
 
     goto/16 :goto_3
 
     :cond_1
-    const v0, 0x7f0b1660
+    sget v0, Lcom/resouce/module/ResID;->ll_fileradar:I
 
     const/4 v2, 0x1
 
     if-eq p1, v0, :cond_b
 
-    const v0, 0x7f0b1661
+    sget v0, Lcom/resouce/module/ResID;->ll_fileradar_land:I
 
     if-ne p1, v0, :cond_2
 
     goto/16 :goto_2
 
     :cond_2
-    const v0, 0x7f0b1701
+    sget v0, Lcom/resouce/module/ResID;->ll_transmission:I
 
     if-eq p1, v0, :cond_a
 
-    const v0, 0x7f0b1702
+    sget v0, Lcom/resouce/module/ResID;->ll_transmission_land:I
 
     if-ne p1, v0, :cond_3
 
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b16bd
+    sget v0, Lcom/resouce/module/ResID;->ll_pdf_edit:I
 
     if-eq p1, v0, :cond_6
 
-    const v0, 0x7f0b16be
+    sget v0, Lcom/resouce/module/ResID;->ll_pdf_edit_land:I
 
     if-ne p1, v0, :cond_4
 
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b16d8
+    sget v0, Lcom/resouce/module/ResID;->ll_scanner:I
 
     if-eq p1, v0, :cond_5
 
-    const v0, 0x7f0b16d9
+    sget v0, Lcom/resouce/module/ResID;->ll_scanner_land:I
 
     if-ne p1, v0, :cond_e
 

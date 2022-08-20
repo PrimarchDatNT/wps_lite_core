@@ -240,7 +240,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_can_not_file_reduce:I
 
     const/4 v2, 0x0
 
@@ -294,7 +294,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f12240e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

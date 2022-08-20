@@ -461,7 +461,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12149f
+    sget p2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_more_tips1:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -475,7 +475,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1214a0
+    sget p2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_more_tips2:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -500,7 +500,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12149d
+    sget p2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_less_tips1:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12149e
+    sget p2, Lcom/resouce/module/ResSTRING;->notify_docs_radar_less_tips2:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

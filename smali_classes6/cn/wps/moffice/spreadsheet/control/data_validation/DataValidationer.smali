@@ -99,15 +99,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080438
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_data_validation:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080df0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_data_validation_et:I
 
     :goto_0
-    const v2, 0x7f120804
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/data_validation/DataValidationer$1;-><init>(Lcn/wps/moffice/spreadsheet/control/data_validation/DataValidationer;II)V
 
@@ -898,7 +898,7 @@
     .line 6
     invoke-static {p1, v0}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 7
     invoke-static {p1, p2}, Lsjf;->h(II)V
@@ -1470,7 +1470,7 @@
     .line 1
     sget-boolean v0, Ljif;->n:Z
 
-    const v1, 0x7f13012d
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     if-eqz v0, :cond_0
 

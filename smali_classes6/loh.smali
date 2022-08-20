@@ -394,7 +394,7 @@
     .line 12
     iget-object p1, p0, Lloh;->b:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f1232fe
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_insert_pic_failed:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -487,7 +487,7 @@
     .line 8
     iget-object p1, p0, Lloh;->b:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f1232fe
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_insert_pic_failed:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -622,7 +622,7 @@
     :cond_3
     iget-object p1, p0, Lloh;->b:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -733,7 +733,7 @@
     .line 4
     iget-object p1, p0, Lloh;->b:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f1232fe
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_insert_pic_failed:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

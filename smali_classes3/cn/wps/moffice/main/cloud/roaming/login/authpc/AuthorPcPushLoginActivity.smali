@@ -294,7 +294,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_author_pc_push_login:I
 
     const/4 v2, 0x0
 
@@ -581,7 +581,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcPushLoginActivity;->W:Landroid/app/FragmentTransaction;
 
-    const v1, 0x7f0b0da1
+    sget v1, Lcom/resouce/module/ResID;->fl_aappl_container:I
 
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcPushLoginActivity;->I:Ljava/lang/String;
 
@@ -736,7 +736,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcPushLoginActivity;->W:Landroid/app/FragmentTransaction;
 
-    const v1, 0x7f0b0da1
+    sget v1, Lcom/resouce/module/ResID;->fl_aappl_container:I
 
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcPushLoginActivity;->I:Ljava/lang/String;
 

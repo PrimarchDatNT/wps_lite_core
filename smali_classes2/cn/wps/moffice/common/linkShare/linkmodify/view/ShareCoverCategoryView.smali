@@ -275,12 +275,12 @@
     .line 2
     invoke-virtual {v0, v1, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->f(IF)Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 4
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07034e
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -361,7 +361,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverCategoryView;->I:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
 
@@ -372,7 +372,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -400,7 +400,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121dc8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_category_all:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -729,11 +729,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0cbd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_link_share_pics_category_view:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1732
+    sget p1, Lcom/resouce/module/ResID;->loading_view:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -744,7 +744,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverCategoryView;->B:Lcn/wps/moffice/docer/widget/LoadingView;
 
-    const p1, 0x7f0b1c7b
+    sget p1, Lcom/resouce/module/ResID;->pager_indicator:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverCategoryView;->I:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
 
-    const p1, 0x7f0b33a3
+    sget p1, Lcom/resouce/module/ResID;->view_pager:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

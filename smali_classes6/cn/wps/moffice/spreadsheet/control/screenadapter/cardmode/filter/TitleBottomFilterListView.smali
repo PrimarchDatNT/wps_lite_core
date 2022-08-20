@@ -455,7 +455,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f122fb1
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_card_mode_filter_title_text:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -478,7 +478,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b0a4a
+    sget p1, Lcom/resouce/module/ResID;->et_filter_ctrl_pane:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -487,7 +487,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b0c06
+    sget p1, Lcom/resouce/module/ResID;->export_btn:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -496,7 +496,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b33d9
+    sget p1, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -589,7 +589,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/PhoneBottomFilterListView;->n0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

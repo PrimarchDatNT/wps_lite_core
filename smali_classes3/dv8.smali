@@ -37,7 +37,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f1205f9
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_addstartoast:I
 
     .line 3
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -187,7 +187,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f120609
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_removestartoast:I
 
     .line 2
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -213,7 +213,7 @@
 .method public static g(Landroid/content/Context;Z)V
     .locals 6
 
-    const v0, 0x7f1205b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_limits_star_introduction:I
 
     const/4 v1, 0x0
 
@@ -306,7 +306,7 @@
     .line 9
     invoke-virtual {v3}, Lhd3;->clearContent()V
 
-    const v4, 0x7f122bdf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 10
     invoke-virtual {v3, v4}, Lhd3;->setTitleById(I)Lhd3;
@@ -321,7 +321,7 @@
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 13
     new-instance v5, Ldv8$b;
@@ -330,7 +330,7 @@
 
     invoke-virtual {v3, v4, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v4, 0x7f1205b7
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_feedback:I
 
     .line 14
     new-instance v5, Ldv8$c;
@@ -374,7 +374,7 @@
 
     move-result p1
 
-    const v0, 0x7f1205b8
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_limits_introduction:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

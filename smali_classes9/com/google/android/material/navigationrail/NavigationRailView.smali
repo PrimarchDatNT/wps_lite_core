@@ -39,7 +39,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040433
+    sget v0, Lcom/resouce/module/ResATTR;->navigationRailStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/navigationrail/NavigationRailView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -58,7 +58,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f1303a9
+    sget v0, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.NavigationRailView:I
 
     .line 3
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/material/navigationrail/NavigationRailView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0704ac
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_navigation_rail_margin:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

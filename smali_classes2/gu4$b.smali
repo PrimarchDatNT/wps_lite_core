@@ -169,7 +169,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0de8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_premium_privileges_item:I
 
     const/4 v1, 0x0
 
@@ -177,7 +177,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b24db
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_icon:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     iput-object v0, p2, Lgu4$b$c;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b24e0
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_title:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     iput-object v0, p2, Lgu4$b$c;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b24da
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_desc:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     iput-object v0, p2, Lgu4$b$c;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b24df
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_new:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     iput-object v0, p2, Lgu4$b$c;->e:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b24dc
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_icon_text:I
 
     .line 7
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -346,11 +346,11 @@
 
     iget v4, v0, Lgu4$e;->b:I
 
-    const v5, 0x7f12267f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_all_in_one_office_desc:I
 
     if-ne v4, v5, :cond_2
 
-    const v1, 0x7f122680
+    sget v1, Lcom/resouce/module/ResSTRING;->public_premium_all_in_one_office_desc_promote_pc:I
 
     .line 20
     :cond_2

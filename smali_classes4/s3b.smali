@@ -76,7 +76,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    const v1, 0x7f0b13c7
+    sget v1, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p1, v1}, Lu3b;->b(I)Landroid/view/View;
 

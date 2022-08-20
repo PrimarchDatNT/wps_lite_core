@@ -256,7 +256,7 @@
     .line 13
     sget-object v12, Lcx7;->B:Lcx7;
 
-    const v13, 0x7f0816db
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->pub_login_button_qq:I
 
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -267,7 +267,7 @@
     .line 14
     sget-object v13, Lcx7;->I:Lcx7;
 
-    const v14, 0x7f0816dc    # 1.808937E38f
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->pub_login_button_wechat:I    # 1.808937E38f
 
     invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -278,7 +278,7 @@
     .line 15
     sget-object v14, Lcx7;->S:Lcx7;
 
-    const v15, 0x7f0808c8
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_xiaomi:I
 
     invoke-static {v15}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -289,7 +289,7 @@
     .line 16
     sget-object v15, Lcx7;->T:Lcx7;
 
-    const v16, 0x7f0808c6
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_weibo:I
 
     move-object/from16 v17, v11
 
@@ -302,7 +302,7 @@
     .line 17
     sget-object v11, Lcx7;->W:Lcx7;
 
-    const v16, 0x7f0816d8
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->pub_login_button_dingding:I
 
     move-object/from16 v18, v10
 
@@ -315,7 +315,7 @@
     .line 18
     sget-object v10, Lcx7;->U:Lcx7;
 
-    const v16, 0x7f0808b6
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_chinanet:I
 
     move-object/from16 v19, v9
 
@@ -328,7 +328,7 @@
     .line 19
     sget-object v9, Lcx7;->V:Lcx7;
 
-    const v16, 0x7f0808b7
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_coremailedu:I
 
     move-object/from16 v20, v8
 
@@ -341,7 +341,7 @@
     .line 20
     sget-object v8, Lcx7;->X:Lcx7;
 
-    const v16, 0x7f0808bd
+    sget v16, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_google:I
 
     move-object/from16 v21, v7
 
@@ -356,7 +356,7 @@
     .line 21
     sget-object v7, Lcx7;->Y:Lcx7;
 
-    const v22, 0x7f0808bc
+    sget v22, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_facebook:I
 
     move-object/from16 v23, v3
 
@@ -371,7 +371,7 @@
     .line 22
     sget-object v3, Lcx7;->d0:Lcx7;
 
-    const v24, 0x7f0808be
+    sget v24, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_line:I
 
     move-object/from16 v25, v6
 
@@ -386,7 +386,7 @@
     .line 23
     sget-object v6, Lcx7;->Z:Lcx7;
 
-    const v26, 0x7f080a75
+    sget v26, Lcom/resouce/module/ResDRAWABLE;->login_dropbox_icon:I
 
     move-object/from16 v27, v5
 
@@ -399,7 +399,7 @@
     .line 24
     sget-object v5, Lcx7;->a0:Lcx7;
 
-    const v26, 0x7f080a87
+    sget v26, Lcom/resouce/module/ResDRAWABLE;->login_twitter_icon:I
 
     move-object/from16 v28, v4
 
@@ -414,7 +414,7 @@
 
     move-result v4
 
-    const v26, 0x7f080592
+    sget v26, Lcom/resouce/module/ResDRAWABLE;->en_home_roaming_login_email:I
 
     move-object/from16 v29, v2
 
@@ -428,7 +428,7 @@
     .line 27
     sget-object v4, Lcx7;->b0:Lcx7;
 
-    const v26, 0x7f0816da
+    sget v26, Lcom/resouce/module/ResDRAWABLE;->pub_login_button_phone:I
 
     move-object/from16 v30, v3
 
@@ -452,7 +452,7 @@
     :goto_0
     sget-object v3, Lcx7;->c0:Lcx7;
 
-    const v4, 0x7f080a81
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->login_huawei_icon:I
 
     move-object/from16 v26, v2
 
@@ -546,7 +546,7 @@
     .line 43
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f12223c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_google_sign_in:I
 
     .line 44
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -559,7 +559,7 @@
 
     invoke-virtual {v2, v8, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f1220ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_facebook_sign_in:I
 
     .line 45
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -568,7 +568,7 @@
 
     invoke-virtual {v2, v7, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f12203c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_dropbox_sign_in:I
 
     .line 46
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -577,7 +577,7 @@
 
     invoke-virtual {v2, v6, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122b33
+    sget v1, Lcom/resouce/module/ResSTRING;->public_twitter_sign_in:I
 
     .line 47
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -586,7 +586,7 @@
 
     invoke-virtual {v2, v5, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f1223de
+    sget v1, Lcom/resouce/module/ResSTRING;->public_line_sign_in:I
 
     .line 48
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -595,7 +595,7 @@
 
     invoke-virtual {v2, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122430
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_qq:I
 
     .line 49
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -604,7 +604,7 @@
 
     invoke-virtual {v2, v12, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122433
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_weixin:I
 
     .line 50
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -613,7 +613,7 @@
 
     invoke-virtual {v2, v13, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122434
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_xiaomi:I
 
     .line 51
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -622,7 +622,7 @@
 
     invoke-virtual {v2, v14, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122432
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_weibo:I
 
     .line 52
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -631,7 +631,7 @@
 
     invoke-virtual {v2, v15, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f12242b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_dingding:I
 
     .line 53
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -640,7 +640,7 @@
 
     invoke-virtual {v2, v11, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f122428
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_chinanet:I
 
     .line 54
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -649,7 +649,7 @@
 
     invoke-virtual {v2, v10, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f12242a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_button_coremailedu:I
 
     .line 55
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -665,7 +665,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f122488
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_with_phone_or_email:I
 
     .line 57
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -677,7 +677,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f122049
+    sget v1, Lcom/resouce/module/ResSTRING;->public_email_sign_in:I
 
     .line 58
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -687,7 +687,7 @@
     invoke-virtual {v2, v4, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_1
-    const v1, 0x7f12247e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_type_huawei_show_text:I
 
     .line 59
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -696,7 +696,7 @@
 
     invoke-virtual {v2, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08083e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_qq:I
 
     .line 60
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -707,7 +707,7 @@
 
     invoke-virtual {v2, v12, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f080841
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_weixin:I
 
     .line 61
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -716,7 +716,7 @@
 
     invoke-virtual {v2, v13, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f080842
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_xiaomi:I
 
     .line 62
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -725,7 +725,7 @@
 
     invoke-virtual {v2, v14, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08083f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_sina:I
 
     .line 63
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -734,7 +734,7 @@
 
     invoke-virtual {v2, v15, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08083b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_dingding:I
 
     .line 64
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -743,7 +743,7 @@
 
     invoke-virtual {v2, v11, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08058c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_google_item_bg:I
 
     .line 65
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -752,7 +752,7 @@
 
     invoke-virtual {v2, v8, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08058e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_item_bg:I
 
     .line 66
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -761,7 +761,7 @@
 
     invoke-virtual {v2, v7, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f080840
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_twitter:I
 
     .line 67
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -770,7 +770,7 @@
 
     invoke-virtual {v2, v5, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08083c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_dropbox:I
 
     .line 68
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -779,7 +779,7 @@
 
     invoke-virtual {v2, v6, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08058f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_line_item_bg:I
 
     move-object/from16 v28, v6
 
@@ -790,7 +790,7 @@
 
     invoke-virtual {v2, v0, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f080839
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_chinanet:I
 
     .line 70
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -799,7 +799,7 @@
 
     invoke-virtual {v2, v10, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f08083a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_coremailedu:I
 
     .line 71
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -808,7 +808,7 @@
 
     invoke-virtual {v2, v9, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f081bad
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_white_bg_4dp_1px_selector:I
 
     .line 72
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -817,7 +817,7 @@
 
     invoke-virtual {v2, v4, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f08058d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_huawei_item_bg:I
 
     .line 73
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -826,7 +826,7 @@
 
     invoke-virtual {v2, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601dc
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_qq:I
 
     .line 74
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -837,7 +837,7 @@
 
     invoke-virtual {v2, v12, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601eb
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_weixin:I
 
     .line 75
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -846,7 +846,7 @@
 
     invoke-virtual {v2, v13, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601ec
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_xiaomi:I
 
     .line 76
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -855,7 +855,7 @@
 
     invoke-virtual {v2, v14, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_weibo:I
 
     .line 77
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -864,7 +864,7 @@
 
     invoke-virtual {v2, v15, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601d6
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_dingding:I
 
     .line 78
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -873,7 +873,7 @@
 
     invoke-virtual {v2, v11, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601da
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_google:I
 
     .line 79
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -882,7 +882,7 @@
 
     invoke-virtual {v2, v8, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601d9
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_facebook:I
 
     .line 80
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -891,7 +891,7 @@
 
     invoke-virtual {v2, v7, v6}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f0601e9
+    sget v6, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_twitter:I
 
     .line 81
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -907,7 +907,7 @@
 
     invoke-virtual {v2, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601d7
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_dropbox:I
 
     .line 83
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -918,7 +918,7 @@
 
     invoke-virtual {v2, v6, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601d3
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_chinanet:I
 
     .line 84
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -927,7 +927,7 @@
 
     invoke-virtual {v2, v10, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601d5
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_coremailedu:I
 
     .line 85
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -936,7 +936,7 @@
 
     invoke-virtual {v2, v9, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     move-object/from16 v28, v9
 
@@ -947,7 +947,7 @@
 
     invoke-virtual {v2, v4, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v9, 0x7f0601db
+    sget v9, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_huawei:I
 
     .line 87
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -956,7 +956,7 @@
 
     invoke-virtual {v2, v3, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e4
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_qq:I
 
     .line 88
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -967,7 +967,7 @@
 
     invoke-virtual {v9, v12, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e7
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_weixin:I
 
     .line 89
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -976,7 +976,7 @@
 
     invoke-virtual {v9, v13, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e8
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_xiaomi:I
 
     .line 90
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -985,7 +985,7 @@
 
     invoke-virtual {v9, v14, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e6
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_weibo:I
 
     .line 91
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -994,7 +994,7 @@
 
     invoke-virtual {v9, v15, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e0
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_dingding:I
 
     .line 92
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1003,7 +1003,7 @@
 
     invoke-virtual {v9, v11, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_google:I
 
     .line 93
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1012,7 +1012,7 @@
 
     invoke-virtual {v9, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     .line 94
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1028,7 +1028,7 @@
 
     invoke-virtual {v9, v0, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_twitter:I
 
     .line 96
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1037,7 +1037,7 @@
 
     invoke-virtual {v9, v5, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601e1
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_dropbox:I
 
     .line 97
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1046,7 +1046,7 @@
 
     invoke-virtual {v9, v6, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601dd
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_chinanet:I
 
     .line 98
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1055,7 +1055,7 @@
 
     invoke-virtual {v9, v10, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0601df
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_coremailedu:I
 
     .line 99
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1073,7 +1073,7 @@
 
     invoke-virtual {v9, v4, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0601e3
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_divider_shallow_huawei:I
 
     .line 101
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1082,7 +1082,7 @@
 
     invoke-virtual {v9, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 102
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1093,7 +1093,7 @@
 
     invoke-virtual {v2, v4, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 103
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1102,7 +1102,7 @@
 
     invoke-virtual {v2, v7, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v9, 0x7f06020c
+    sget v9, Lcom/resouce/module/ResCOLOR;->home_roaming_google_login_button_text_color:I
 
     .line 104
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1118,7 +1118,7 @@
 
     invoke-virtual {v2, v0, v9}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v9, 0x7f06020d
+    sget v9, Lcom/resouce/module/ResCOLOR;->home_roaming_huawei_login_button_text_color:I
 
     .line 106
     invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1127,7 +1127,7 @@
 
     invoke-virtual {v2, v3, v10}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f08083d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_login_round_ripple_third_button_google_icon_bg:I
 
     .line 107
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1138,7 +1138,7 @@
 
     invoke-virtual {v10, v8, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f08058d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_huawei_item_bg:I
 
     .line 108
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1149,7 +1149,7 @@
 
     invoke-virtual {v10, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f08058f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_line_item_bg:I
 
     .line 109
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1175,7 +1175,7 @@
     .line 112
     invoke-virtual {v2, v0, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v7, 0x7f081d61
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->relogion_dropbox_icon:I
 
     .line 113
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1184,7 +1184,7 @@
 
     invoke-virtual {v2, v6, v7}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v6, 0x7f081d62
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->relogion_twitter_icon:I
 
     .line 114
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1198,7 +1198,7 @@
     .line 115
     invoke-virtual {v2, v4, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v4, 0x7f080a81
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->login_huawei_icon:I
 
     .line 116
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1223,7 +1223,7 @@
 
     invoke-virtual {v4, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f122480
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_wechat:I
 
     .line 119
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1236,7 +1236,7 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f12247f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_qq:I
 
     .line 120
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1247,7 +1247,7 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f12247c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_dingtalk:I
 
     .line 121
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1258,7 +1258,7 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f12247d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_huawei:I
 
     .line 122
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1269,7 +1269,7 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f122482
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_xiaomi:I
 
     .line 123
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1280,7 +1280,7 @@
 
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v0, 0x7f122481
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_type_weibo:I
 
     .line 124
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1359,7 +1359,7 @@
     .line 1
     iget-object v0, p0, Lyy7;->c:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b1146
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_with_email_or_phone_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1429,7 +1429,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0e0c19
+    sget v9, Lcom/resouce/module/ResLAYOUT;->public_google_login_third_item_layout:I
 
     invoke-virtual {v8, v9, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1455,7 +1455,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0e0cea
+    sget v9, Lcom/resouce/module/ResLAYOUT;->public_login_third_item_layout:I
 
     invoke-virtual {v8, v9, v7}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1480,7 +1480,7 @@
     .line 14
     iput v9, v8, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    const v9, 0x7f0b06d8
+    sget v9, Lcom/resouce/module/ResID;->divider_v:I
 
     .line 15
     invoke-virtual {v7, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1489,7 +1489,7 @@
 
     if-ne v5, v6, :cond_2
 
-    const v6, 0x7f0606e0
+    sget v6, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 16
     invoke-virtual {v9, v6}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1500,7 +1500,7 @@
     :cond_2
     sget-object v6, Lcx7;->Y:Lcx7;
 
-    const v10, 0x7f0605f1
+    sget v10, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-ne v5, v6, :cond_3
 
@@ -1515,7 +1515,7 @@
 
     if-ne v5, v6, :cond_4
 
-    const v6, 0x7f060241
+    sget v6, Lcom/resouce/module/ResCOLOR;->huawei_brand_color:I
 
     .line 20
     invoke-virtual {v9, v6}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1577,7 +1577,7 @@
 
     invoke-virtual {v7, v6}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v6, 0x7f0b1760
+    sget v6, Lcom/resouce/module/ResID;->login_third_btn_icon:I
 
     .line 28
     invoke-virtual {v7, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1586,7 +1586,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v8, 0x7f0b1763
+    sget v8, Lcom/resouce/module/ResID;->login_third_btn_name:I
 
     .line 29
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1732,7 +1732,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0ce9
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_login_third_button:I
 
     const/4 v5, 0x0
 
@@ -1787,7 +1787,7 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v4, 0x7f0b1760
+    sget v4, Lcom/resouce/module/ResID;->login_third_btn_icon:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1796,7 +1796,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b1763
+    sget v5, Lcom/resouce/module/ResID;->login_third_btn_name:I
 
     .line 10
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1877,7 +1877,7 @@
 
     if-eqz v5, :cond_2
 
-    const v5, 0x7f0b1761
+    sget v5, Lcom/resouce/module/ResID;->login_third_btn_icon_bg:I
 
     .line 16
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

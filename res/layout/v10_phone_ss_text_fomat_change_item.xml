@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.spreadsheet.control.common.ChildAllProxyLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="12.0dip" android:textColor="@color/phone_ss_select_change_textcolor" android:gravity="center" android:layout_gravity="center" android:id="@id/phone_ss_item_text" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style" />
-</cn.wps.moffice.spreadsheet.control.common.ChildAllProxyLayout>

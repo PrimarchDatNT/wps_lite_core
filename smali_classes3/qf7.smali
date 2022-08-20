@@ -368,7 +368,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121cd3
+    sget v4, Lcom/resouce/module/ResSTRING;->public_3_rd_multi_upload_count_out_of_limit:I
 
     new-array v5, v1, [Ljava/lang/Object;
 
@@ -400,7 +400,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121cd4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_3_rd_multi_upload_params_off:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -504,7 +504,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -720,7 +720,7 @@
     .line 1
     invoke-super {p0, p1}, Luf7;->n3(Landroid/view/ViewGroup;)V
 
-    const v0, 0x7f0b0ce9
+    sget v0, Lcom/resouce/module/ResID;->file_name_suffix:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -731,7 +731,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b0ce6
+    sget v0, Lcom/resouce/module/ResID;->file_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -791,7 +791,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121cd5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_3_rd_multi_upload_view_files_num:I
 
     const/4 v4, 0x1
 
@@ -816,7 +816,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b3048
+    sget v0, Lcom/resouce/module/ResID;->to_upload:I
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -848,7 +848,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121dee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_choose_upload_device:I
 
     const/4 v1, 0x0
 

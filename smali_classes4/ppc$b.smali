@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b1877
+    sget v0, Lcom/resouce/module/ResID;->merge_file_name:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lppc$b;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1873
+    sget v0, Lcom/resouce/module/ResID;->merge_file_handle:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object v0, p0, Lppc$b;->b:Landroid/view/View;
 
-    const v0, 0x7f0b1871
+    sget v0, Lcom/resouce/module/ResID;->merge_file_check_box:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

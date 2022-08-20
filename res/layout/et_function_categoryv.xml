@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/mainTextColor" android:id="@id/et_function_categoryv_name" android:paddingLeft="@dimen/et_function_select_item_padding_horizontal" android:paddingTop="@dimen/et_function_select_item_padding_vertical" android:paddingRight="@dimen/et_function_select_item_padding_horizontal" android:paddingBottom="@dimen/et_function_select_item_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/et_function_select_item_name_min_width" android:text="asdfasdf" android:paddingStart="@dimen/et_function_select_item_padding_horizontal" android:paddingEnd="@dimen/et_function_select_item_padding_horizontal" />
-</LinearLayout>

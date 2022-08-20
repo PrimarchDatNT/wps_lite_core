@@ -178,7 +178,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -194,7 +194,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -213,12 +213,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f08170d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_menu:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f081a3d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_more:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -241,7 +241,7 @@
     .line 11
     iget-object v2, p0, Lzy9;->x0:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v3, 0x7f08059a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->en_home_top_search:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -263,7 +263,7 @@
     .line 14
     iget-object v2, p0, Lzy9;->I0:Landroid/widget/ImageView;
 
-    const v3, 0x7f08170b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_folder_white:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -278,7 +278,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -326,7 +326,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060085
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_alpha_00:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -357,7 +357,7 @@
     :cond_8
     iget-object v2, p0, Lzy9;->z0:Landroid/view/View;
 
-    const v3, 0x7f060645
+    sget v3, Lcom/resouce/module/ResCOLOR;->textFieldBackgroundColor:I
 
     if-eqz v2, :cond_b
 
@@ -401,7 +401,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601b8
+    sget v1, Lcom/resouce/module/ResCOLOR;->homeSearchColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -675,7 +675,7 @@
 
     if-eqz v0, :cond_8
 
-    const v2, 0x7f0810b1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar_pad:I
 
     .line 14
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
@@ -688,7 +688,7 @@
 
     if-eqz v0, :cond_8
 
-    const v2, 0x7f0810b0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_avatar:I
 
     .line 16
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
@@ -944,7 +944,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12114c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_search_bar_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -987,7 +987,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_oversea_search_hint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1003,7 +1003,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c3c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_search_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1149,7 +1149,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225cf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_oversea_search_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1350,7 +1350,7 @@
     .line 2
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b10ac
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1361,7 +1361,7 @@
     .line 3
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b10ab
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1374,7 +1374,7 @@
     .line 4
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b10aa
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_name_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1413,7 +1413,7 @@
     .line 1
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b2a85
+    sget v1, Lcom/resouce/module/ResID;->search_img:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1426,7 +1426,7 @@
     .line 2
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b3245
+    sget v2, Lcom/resouce/module/ResID;->tv_search_content:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1455,7 +1455,7 @@
     .line 5
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b19bd
+    sget v2, Lcom/resouce/module/ResID;->nav_folder:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1483,7 +1483,7 @@
     :cond_0
     iget-object v2, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v5, 0x7f0b12cd
+    sget v5, Lcom/resouce/module/ResID;->img_speech:I
 
     invoke-virtual {v2, v5}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1519,7 +1519,7 @@
     .line 13
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b2a89
+    sget v1, Lcom/resouce/module/ResID;->search_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1530,7 +1530,7 @@
     .line 14
     iget-object v0, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b0de1
+    sget v1, Lcom/resouce/module/ResID;->folder_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1784,7 +1784,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b12cd
+    sget v1, Lcom/resouce/module/ResID;->img_speech:I
 
     const-string v2, "search"
 
@@ -1808,7 +1808,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b19bd
+    sget v1, Lcom/resouce/module/ResID;->nav_folder:I
 
     if-ne v0, v1, :cond_2
 
@@ -1859,7 +1859,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lcq9;->s(Landroid/app/Activity;Landroid/view/View;)V
 
-    const v0, 0x7f0b2002
+    sget v0, Lcom/resouce/module/ResID;->phone_home_main_separation:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1887,7 +1887,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b1fe2
+    sget v0, Lcom/resouce/module/ResID;->phone_home_activity_titlebar:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1898,7 +1898,7 @@
 
     iput-object v0, p0, Lzy9;->C0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f0b296d
+    sget v0, Lcom/resouce/module/ResID;->rl_title_searchbar:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1912,7 +1912,7 @@
     .line 7
     iget-object p2, p0, Lzy9;->C0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f0b10ac
+    sget v0, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic_layout:I
 
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1923,7 +1923,7 @@
     .line 8
     iget-object p2, p0, Lzy9;->C0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f0b1fe5
+    sget v0, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_text_image:I
 
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1936,7 +1936,7 @@
     .line 9
     iget-object p2, p0, Lzy9;->t0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b300a
+    sget v0, Lcom/resouce/module/ResID;->title_search_bar:I
 
     invoke-virtual {p2, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -1967,7 +1967,7 @@
     .line 12
     iget-object p1, p0, Lzy9;->v0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f0b01cb
+    sget p2, Lcom/resouce/module/ResID;->backbtn:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

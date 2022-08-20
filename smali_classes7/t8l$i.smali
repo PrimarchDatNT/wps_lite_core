@@ -57,7 +57,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b35f4
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_view_group_btn:I
 
     invoke-direct {v0, v1, v2, v1, v3}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -70,7 +70,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f0b35ee
+    sget v5, Lcom/resouce/module/ResID;->writer_maintoolbar_start_group_btn:I
 
     invoke-direct {v1, v3, v4, v3, v5}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -83,7 +83,7 @@
 
     const/4 v6, 0x2
 
-    const v7, 0x7f0b35e2
+    sget v7, Lcom/resouce/module/ResID;->writer_maintoolbar_insert_group_btn:I
 
     invoke-direct {v3, v5, v6, v5, v7}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -96,7 +96,7 @@
 
     const/4 v8, 0x3
 
-    const v9, 0x7f0b35ea
+    sget v9, Lcom/resouce/module/ResID;->writer_maintoolbar_peruse_group_btn:I
 
     invoke-direct {v5, v7, v8, v7, v9}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -109,7 +109,7 @@
 
     const/4 v10, 0x4
 
-    const v11, 0x7f0b35e1
+    sget v11, Lcom/resouce/module/ResID;->writer_maintoolbar_ink_group_btn:I
 
     invoke-direct {v7, v9, v10, v9, v11}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -122,7 +122,7 @@
 
     const/4 v12, 0x5
 
-    const v13, 0x7f0b35e9
+    sget v13, Lcom/resouce/module/ResID;->writer_maintoolbar_papertool_group_btn:I
 
     invoke-direct {v9, v11, v12, v11, v13}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 
@@ -135,7 +135,7 @@
 
     const/4 v14, 0x6
 
-    const v15, 0x7f0b35dd
+    sget v15, Lcom/resouce/module/ResID;->writer_maintoolbar_draw_tool_btn:I
 
     invoke-direct {v11, v13, v14, v13, v15}, Lt8l$i;-><init>(Ljava/lang/String;ILjava/lang/String;I)V
 

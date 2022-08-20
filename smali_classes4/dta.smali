@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1208b5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

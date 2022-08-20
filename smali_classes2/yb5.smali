@@ -254,7 +254,7 @@
     .line 2
     iget-object v1, p0, Ltb5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b013b
+    sget v2, Lcom/resouce/module/ResID;->app_share_link:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
     .line 3
     iget-object v1, p0, Ltb5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2b52
+    sget v2, Lcom/resouce/module/ResID;->share_auth_setting_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
     .line 4
     iget-object v1, p0, Ltb5;->b:Landroid/view/View;
 
-    const v2, 0x7f0b017e
+    sget v2, Lcom/resouce/module/ResID;->auth_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1227cc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

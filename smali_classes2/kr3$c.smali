@@ -167,7 +167,7 @@
     .line 1
     iget-object p1, p0, Lkr3$c;->B:Landroid/content/Context;
 
-    const v0, 0x7f122412
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, v0, p2}, Le88;->a(Landroid/content/Context;II)V
 

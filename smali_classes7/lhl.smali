@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060625
+    sget v1, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -45,7 +45,7 @@
 
     invoke-virtual {p1, v1}, Lul3;->t(I)V
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
@@ -54,7 +54,7 @@
 
     invoke-virtual {p1, v1}, Lul3;->u(Landroid/content/res/ColorStateList;)V
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -63,7 +63,7 @@
 
     invoke-virtual {p1, v1}, Lul3;->v(I)V
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I

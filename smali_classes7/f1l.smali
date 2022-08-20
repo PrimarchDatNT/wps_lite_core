@@ -455,7 +455,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e1099
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_extract_pics_thumb_item:I
 
     const/4 v1, 0x0
 

@@ -56,12 +56,12 @@
 
     if-eqz p2, :cond_0
 
-    const v1, 0x7f12035c
+    sget v1, Lcom/resouce/module/ResSTRING;->decompress_success_tips:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120357
+    sget v1, Lcom/resouce/module/ResSTRING;->decompress_failed_tips:I
 
     :goto_0
     const/4 v2, 0x0
@@ -110,7 +110,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->U:Ljy8$a;
 
-    const v1, 0x7f120359
+    sget v1, Lcom/resouce/module/ResSTRING;->decompress_ing_tips:I
 
     invoke-interface {v0, v1}, Ljy8$a;->e(I)V
 

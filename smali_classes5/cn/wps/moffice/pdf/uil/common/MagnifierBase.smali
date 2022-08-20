@@ -168,7 +168,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/pdf/uil/common/MagnifierBase;->S:Lje3;
 
-    const v1, 0x7f130028
+    sget v1, Lcom/resouce/module/ResSTYLE;->Animations_PopMagnifier_Reflect:I
 
     invoke-virtual {v0, v1}, Lje3;->e(I)V
 
@@ -179,12 +179,12 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f081ca0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_text_select_handle_magnifier:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08139d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_text_select_handle_magnifier:I
 
     .line 6
     :goto_0

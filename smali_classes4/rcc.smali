@@ -54,7 +54,7 @@
 
     invoke-direct {p1, p0}, Lrcc$a;-><init>(Lrcc;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -63,7 +63,7 @@
 
     invoke-direct {p1, p0}, Lrcc$b;-><init>(Lrcc;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -133,7 +133,7 @@
     .line 4
     iget-object v0, p0, Lrcc;->B:Landroid/content/Context;
 
-    const v1, 0x7f12237c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -169,7 +169,7 @@
     .line 8
     iget-object v0, p0, Lrcc;->B:Landroid/content/Context;
 
-    const v1, 0x7f121dac
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bookmark_insert_already_exists:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -213,12 +213,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0837
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_bookmark_rename_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0b1a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_bookmark_rename_dialog:I
 
     :goto_0
     const/4 v2, 0x0
@@ -227,7 +227,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 2
     invoke-virtual {p0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -235,7 +235,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b134c
+    sget v0, Lcom/resouce/module/ResID;->input_rename_edit:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

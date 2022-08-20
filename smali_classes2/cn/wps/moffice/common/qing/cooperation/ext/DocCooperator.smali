@@ -540,7 +540,7 @@
 
     invoke-direct {v1, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f121f69
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cooperate_edit_conflict:I
 
     .line 2
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -551,21 +551,21 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0be6
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_file_changed_save_dialog:I
 
     .line 3
     invoke-virtual {v1, v2}, Lhd3;->setView(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f122820
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     .line 4
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    const v4, 0x7f0601cf
+    sget v4, Lcom/resouce/module/ResCOLOR;->home_link_text_color:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -579,7 +579,7 @@
 
     move-result-object p5
 
-    const v1, 0x7f12282b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save_overwrite:I
 
     new-instance v2, Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator$d;
 
@@ -590,7 +590,7 @@
 
     move-result-object p4
 
-    const p5, 0x7f121dbf
+    sget p5, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator$c;
 
@@ -614,7 +614,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b31e0
+    sget v2, Lcom/resouce/module/ResID;->tv_msg:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -623,14 +623,14 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b1550
+    sget v3, Lcom/resouce/module/ResID;->layout_modifier:I
 
     .line 11
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b31dc
+    sget v4, Lcom/resouce/module/ResID;->tv_modify_date:I
 
     .line 12
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -639,7 +639,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b31e6
+    sget v5, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 13
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -648,7 +648,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b1419
+    sget v6, Lcom/resouce/module/ResID;->iv_avatar:I
 
     .line 14
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -703,7 +703,7 @@
 
     invoke-virtual {v5, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f121f76
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cooperate_version_conflict:I
 
     .line 19
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

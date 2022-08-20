@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Lor8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b25e7
+    sget v1, Lcom/resouce/module/ResID;->public_file_radar_pop_view_content_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
     .line 7
     iget-object v0, p0, Lor8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b1b1d
+    sget v1, Lcom/resouce/module/ResID;->open_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     .line 8
     iget-object v0, p0, Lor8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0cea
+    sget v1, Lcom/resouce/module/ResID;->file_name_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
     .line 10
     iget-object p1, p0, Lor8;->b:Landroid/view/View;
 
-    const p2, 0x7f0b13fd
+    sget p2, Lcom/resouce/module/ResID;->ivIcon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
     .line 13
     iget-object p2, p0, Lor8;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f060085
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_alpha_00:I
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -164,7 +164,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060257
+    sget v1, Lcom/resouce/module/ResCOLOR;->light_blue:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -185,7 +185,7 @@
     :cond_2
     iget-object p1, p0, Lor8;->d:Landroid/widget/TextView;
 
-    const p2, 0x7f080fcb
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pay_dialog_button_bg:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -374,7 +374,7 @@
     .line 2
     iget-object v2, p0, Lor8;->b:Landroid/view/View;
 
-    const v3, 0x7f0b25e8
+    sget v3, Lcom/resouce/module/ResID;->public_file_radar_pop_view_root:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -478,18 +478,18 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0beb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_file_radar_pop_view_case_a:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0bea
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_file_radar_pop_view:I
 
     :goto_0
     return v0
 
     :cond_1
-    const v0, 0x7f0e0bec
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_file_radar_pop_view_cn:I
 
     return v0
 .end method
@@ -525,7 +525,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0702bd
+    sget v3, Lcom/resouce/module/ResDIMEN;->file_radar_pop_pad_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -536,7 +536,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0702bc
+    sget v3, Lcom/resouce/module/ResDIMEN;->file_radar_pop_pad_margin:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

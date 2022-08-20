@@ -124,9 +124,9 @@
 
     iget-object v2, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v3, 0x7f1212e8
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
-    const v4, 0x7f081380
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_weixin:I
 
     const-string v5, "com.tencent.mm.ui.tools.ShareImgUI"
 
@@ -140,9 +140,9 @@
 
     iget-object v9, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v10, 0x7f1212e5
+    sget v10, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
-    const v11, 0x7f08137d
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_qq:I
 
     const-string v12, "com.tencent.mobileqq"
 
@@ -160,9 +160,9 @@
 
     iget-object v15, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v16, 0x7f1212e7
+    sget v16, Lcom/resouce/module/ResSTRING;->infoflow_share_tim:I
 
-    const v17, 0x7f08137f
+    sget v17, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_tim:I
 
     const-string v18, "com.tencent.tim"
 
@@ -180,9 +180,9 @@
 
     iget-object v2, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v3, 0x7f1212e4
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_share_mail:I
 
-    const v4, 0x7f08137c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_mail:I
 
     invoke-direct {v0, v2, v3, v4, v1}, Lt94;-><init>(Landroid/content/Context;IILjava/lang/String;)V
 
@@ -197,9 +197,9 @@
 
     iget-object v2, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v3, 0x7f122965
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
-    const v4, 0x7f0819cc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_mail:I
 
     invoke-direct {v0, v2, v3, v4, v1}, Lt94;-><init>(Landroid/content/Context;IILjava/lang/String;)V
 
@@ -211,9 +211,9 @@
 
     iget-object v2, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v3, 0x7f122062
+    sget v3, Lcom/resouce/module/ResSTRING;->public_evernote:I
 
-    const v4, 0x7f0819cb
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_evernote:I
 
     const-string v5, "com.evernote.clipper.ClipActivity"
 
@@ -231,9 +231,9 @@
 
     iget-object v2, v6, Ln64;->c:Landroid/app/Activity;
 
-    const v3, 0x7f1229ff
+    sget v3, Lcom/resouce/module/ResSTRING;->public_skype:I
 
-    const v4, 0x7f0819cd
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_skype:I
 
     const-string v5, "com.skype.android.app.main.SplashActivity"
 
@@ -304,7 +304,7 @@
 
     check-cast v1, Lrf3;
 
-    const v2, 0x7f0e0c86
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_infoflow_share_item:I
 
     const/4 v3, 0x0
 
@@ -315,7 +315,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b1261
+    sget v3, Lcom/resouce/module/ResID;->image:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2ee9
+    sget v4, Lcom/resouce/module/ResID;->text:I
 
     .line 9
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

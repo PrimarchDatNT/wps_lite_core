@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="bottom" android:id="@id/outline_root" android:background="@color/thirdBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/outlines" android:background="@color/thirdBackgroundColor" android:paddingLeft="@dimen/pdf_outline_padding" android:paddingRight="@dimen/pdf_outline_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:divider="@color/lineColor" android:paddingStart="@dimen/pdf_outline_padding" android:paddingEnd="@dimen/pdf_outline_padding" />
-    <View android:layout_gravity="end" android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
-</FrameLayout>

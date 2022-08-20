@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a0e
+    sget v1, Lcom/resouce/module/ResSTRING;->picture_option_apiurl_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a0f
+    sget v1, Lcom/resouce/module/ResSTRING;->picture_option_apiurl_com:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

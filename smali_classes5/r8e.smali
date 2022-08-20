@@ -35,7 +35,7 @@
 
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

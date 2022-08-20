@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.TextImageView android:textSize="@dimen/v10_phone_public_paneltab_textsize" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/phone_public_text_image_text_width" app:drawable_background="@drawable/v10_phone_public_rounded_rectangle_fill_8_selector" app:drawable_height="@dimen/v10_phone_public_textimageview_icon_size" app:drawable_padding="5.0dip" app:drawable_width="@dimen/v10_phone_public_textimageview_icon_size" style="@style/public_image_bg_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

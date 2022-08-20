@@ -69,9 +69,9 @@
 
     move-result v1
 
-    const v2, 0x7f0b10f9
+    sget v2, Lcom/resouce/module/ResID;->home_open_radar_oversea:I
 
-    const v3, 0x7f0b10f5
+    sget v3, Lcom/resouce/module/ResID;->home_open_radar:I
 
     const/4 v4, 0x0
 
@@ -95,7 +95,7 @@
     invoke-virtual {v1, v4}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
-    const v1, 0x7f0b10ed
+    sget v1, Lcom/resouce/module/ResID;->home_open_other:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b10f7
+    sget v1, Lcom/resouce/module/ResID;->home_open_radar_icon:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b10fa
+    sget v3, Lcom/resouce/module/ResID;->home_open_radar_text:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0b10f6
+    sget v5, Lcom/resouce/module/ResID;->home_open_radar_desc:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
     .line 13
     invoke-virtual {v1, v4}, Lcn/wps/moffice/common/beans/RedDotAlphaImageView;->setNeedRedDot(Z)V
 
-    const v5, 0x7f121000
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_recent:I
 
     .line 14
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
@@ -183,7 +183,7 @@
 
     if-eqz v5, :cond_2
 
-    const v5, 0x7f120ffc
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_download:I
 
     .line 16
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -191,7 +191,7 @@
     goto :goto_1
 
     :cond_2
-    const v5, 0x7f120fff
+    sget v5, Lcom/resouce/module/ResSTRING;->home_open_radar_qqwechat:I
 
     .line 17
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
@@ -299,7 +299,7 @@
     .line 27
     invoke-virtual {v1, v5}, Lcn/wps/moffice/common/beans/RedDotAlphaImageView;->setNeedRedDot(Z)V
 
-    const v1, 0x7f120ffe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_radar_new:I
 
     .line 28
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(I)V
@@ -350,7 +350,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120ffd
+    sget v3, Lcom/resouce/module/ResSTRING;->home_open_radar_from:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

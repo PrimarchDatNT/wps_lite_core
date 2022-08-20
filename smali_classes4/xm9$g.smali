@@ -93,7 +93,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121474
+    sget v0, Lcom/resouce/module/ResSTRING;->new_theme_mytheme:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

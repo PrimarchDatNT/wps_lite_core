@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12114a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_sdk_pay_fail:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12114b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_sdk_pay_success:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

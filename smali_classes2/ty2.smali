@@ -229,7 +229,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0404
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_coins_sku_default_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -258,7 +258,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0405
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_coins_sku_default_loading_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -283,7 +283,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0406
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_coins_sku_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

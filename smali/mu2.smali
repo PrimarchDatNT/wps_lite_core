@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e00ed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_joinshelve:I
 
     const/4 v2, 0x0
 
@@ -86,7 +86,7 @@
     .line 5
     invoke-virtual {v0, p1}, Lq$a;->i(Landroid/view/View;)Lq$a;
 
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b31ca
+    sget v2, Lcom/resouce/module/ResID;->tv_later:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b32b8
+    sget v3, Lcom/resouce/module/ResID;->tv_yes:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b03ca
+    sget v4, Lcom/resouce/module/ResID;->checkbox:I
 
     .line 9
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     check-cast v4, Landroid/widget/CheckBox;
 
-    const v5, 0x7f0b03c4
+    sget v5, Lcom/resouce/module/ResID;->check_tips:I
 
     .line 10
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,12 +192,12 @@
     const/4 v6, 0x0
 
     :goto_0
-    const v8, 0x7f0603ac
+    sget v8, Lcom/resouce/module/ResCOLOR;->novel_thirdBackgroundColor:I
 
     .line 17
     invoke-static {p1, v8, v6}, Lw1f;->d(Landroid/view/View;IZ)V
 
-    const p1, 0x7f0603a2
+    sget p1, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     .line 18
     invoke-static {v2, p1, v6}, Lw1f;->f(Landroid/widget/TextView;IZ)V
@@ -205,12 +205,12 @@
     .line 19
     invoke-static {v3, p1, v6}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const p1, 0x7f060330
+    sget p1, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     .line 20
     invoke-static {v5, p1, v6}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const p1, 0x7f060356
+    sget p1, Lcom/resouce/module/ResCOLOR;->novel_mainTextColor:I
 
     .line 21
     invoke-static {v1, p1, v6}, Lw1f;->f(Landroid/widget/TextView;IZ)V

@@ -70,7 +70,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f1220d5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_max_text_len_tips:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

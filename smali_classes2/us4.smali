@@ -22,7 +22,7 @@
 .method public constructor <init>(Landroid/app/Activity;IIJ)V
     .locals 2
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v1, 0x1
 
@@ -84,12 +84,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0e0df6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_purchase_tip_layout_landscape:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0df5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_purchase_tip_layout:I
 
     .line 2
     :goto_0
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b065c
+    sget v1, Lcom/resouce/module/ResID;->desc:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
     :cond_1
-    const v1, 0x7f0b0c02
+    sget v1, Lcom/resouce/module/ResID;->expire_time_text:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12208f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_expire_time:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -243,7 +243,7 @@
 .method public final V2()V
     .locals 2
 
-    const v0, 0x7f0b1a54
+    sget v0, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

@@ -602,7 +602,7 @@
     :cond_1
     move v7, v2
 
-    const v0, 0x7f120fe3
+    sget v0, Lcom/resouce/module/ResSTRING;->home_multi_select_dialog_title:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -623,7 +623,7 @@
 
     move-result-object v5
 
-    const p2, 0x7f120fe2
+    sget p2, Lcom/resouce/module/ResSTRING;->home_multi_select_dialog_desc:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -923,7 +923,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -1283,7 +1283,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 
@@ -1645,7 +1645,7 @@
 
     iput-object v0, p0, Lb1a;->h:Lqt7;
 
-    const v1, 0x7f12031d
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_zip_progress:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1732,7 +1732,7 @@
 
     if-le v2, v3, :cond_1
 
-    const v4, 0x7f1222e8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_name_format:I
 
     .line 8
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1903,7 +1903,7 @@
 
     move-result-object p1
 
-    const p6, 0x7f06025f
+    sget p6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2018,11 +2018,11 @@
     .line 9
     invoke-virtual {v0, v1}, Lkib;->C(I)V
 
-    const v1, 0x7f080714
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_batch_compress_share:I
 
-    const v2, 0x7f120fee
+    sget v2, Lcom/resouce/module/ResSTRING;->home_multi_select_zip:I
 
-    const v3, 0x7f1202c0
+    sget v3, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_vip_guide_desc:I
 
     const/4 v4, 0x1
 
@@ -2156,7 +2156,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 

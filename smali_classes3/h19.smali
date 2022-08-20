@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f01003f
+    sget v3, Lcom/resouce/module/ResANIM;->fade_in:I
 
     invoke-static {p1, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -211,7 +211,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f010040
+    sget v3, Lcom/resouce/module/ResANIM;->fade_out:I
 
     invoke-static {p1, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

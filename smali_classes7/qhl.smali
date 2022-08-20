@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231a6
+    sget v1, Lcom/resouce/module/ResSTRING;->vflynote_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -454,7 +454,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v1, 0x1
 
@@ -659,30 +659,30 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f12238c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_install_vflynote_apk:I
 
-    const v4, 0x7f12238c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_install_vflynote_apk:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f12202c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download_vflynote_apk:I
 
-    const v4, 0x7f12202c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_download_vflynote_apk:I
 
     :goto_0
     if-eqz v0, :cond_3
 
-    const v1, 0x7f12238d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_installd:I
 
-    const v3, 0x7f12238d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_installd:I
 
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f1206ce
+    sget v1, Lcom/resouce/module/ResSTRING;->download:I
 
-    const v3, 0x7f1206ce
+    sget v3, Lcom/resouce/module/ResSTRING;->download:I
 
     .line 7
     :goto_1
@@ -1004,7 +1004,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1014,11 +1014,11 @@
 
     invoke-direct {v1, p0, p1}, Lqhl$a;-><init>(Lqhl;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -1063,7 +1063,7 @@
 
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 

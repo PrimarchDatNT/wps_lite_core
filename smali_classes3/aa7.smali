@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1225c5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -206,7 +206,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -446,12 +446,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f080f0b
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_file_status_star_selected:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f080f0a
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_file_status_star:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -463,7 +463,7 @@
 .method public x()I
     .locals 1
 
-    const v0, 0x7f0e053e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_common_file_item:I
 
     return v0
 .end method

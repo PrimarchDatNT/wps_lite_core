@@ -179,7 +179,7 @@
 
     iget-object p1, p1, Lb5a;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1205b6
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

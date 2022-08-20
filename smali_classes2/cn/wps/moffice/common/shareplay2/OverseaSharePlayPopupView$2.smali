@@ -80,7 +80,7 @@
     .line 4
     iget-object v3, p0, Lcn/wps/moffice/common/shareplay2/OverseaSharePlayPopupView$2;->val$mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f1229cb
+    sget v4, Lcom/resouce/module/ResSTRING;->public_shareplay_invite:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/common/shareplay2/OverseaSharePlayPopupView$2;->val$mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1229cf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_shareplay_invite_weichat_content:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -148,7 +148,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/OverseaSharePlayPopupView$2;->val$mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -158,7 +158,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/OverseaSharePlayPopupView$2;->val$mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120e68
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0
@@ -170,7 +170,7 @@
     :catch_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/OverseaSharePlayPopupView$2;->val$mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122f1b
+    sget v1, Lcom/resouce/module/ResSTRING;->share_photo_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -215,7 +215,7 @@
 .method public static c(Landroid/content/Context;Lziu;Ljava/lang/String;Lupb;)Z
     .locals 7
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     const/4 v1, 0x0
 
@@ -412,7 +412,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f120dd7
+    sget p3, Lcom/resouce/module/ResSTRING;->google_drive_file_error:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

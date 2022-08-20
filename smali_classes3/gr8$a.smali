@@ -67,7 +67,7 @@
     :cond_0
     iget-object p1, p0, Lgr8$a;->B:Landroid/content/Context;
 
-    const v0, 0x7f120f12
+    sget v0, Lcom/resouce/module/ResSTRING;->home_fileradar_device_watting_tip:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 

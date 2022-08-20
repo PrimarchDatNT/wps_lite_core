@@ -581,7 +581,7 @@
     .line 5
     iget-object v0, p0, Lnl4;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05b8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_left_navgation_layout:I
 
     iget-object v2, p0, Lnl4;->S:Landroid/widget/FrameLayout;
 
@@ -598,7 +598,7 @@
     .line 8
     iget-object v0, p0, Lnl4;->S:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b1593
+    sget v1, Lcom/resouce/module/ResID;->left_nav_top_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -615,7 +615,7 @@
     .line 10
     iget-object v0, p0, Lnl4;->S:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b1591
+    sget v1, Lcom/resouce/module/ResID;->left_nav_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -639,7 +639,7 @@
     .line 13
     iget-object v0, p0, Lnl4;->S:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b1592
+    sget v1, Lcom/resouce/module/ResID;->left_nav_scroll_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -699,7 +699,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0602c7
+    sget v0, Lcom/resouce/module/ResCOLOR;->nav_theme_color_home:I
 
     .line 2
     iget-object v1, p0, Lnl4;->T:Lvl4;
@@ -742,7 +742,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1593
+    sget v1, Lcom/resouce/module/ResID;->left_nav_top_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f080f86
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_topbg_pdf:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -796,7 +796,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f080f87
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_topbg_ppt:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -804,7 +804,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f080f88
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_topbg_ss:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -812,7 +812,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f080f89
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_public_nav_topbg_writer:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V

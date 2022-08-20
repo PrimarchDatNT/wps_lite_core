@@ -139,7 +139,7 @@
 
     iput-object v2, p0, Lwce;->U:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v0, 0x7f060657
+    sget v0, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     .line 7
     invoke-virtual {v2, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V

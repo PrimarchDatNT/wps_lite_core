@@ -26,7 +26,7 @@
 .method public final a()I
     .locals 1
 
-    const v0, 0x7f0e0d93
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_home_transfrom_back_pre_fragment:I
 
     return v0
 .end method
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b01c9
+    sget p2, Lcom/resouce/module/ResID;->back_pre_btn:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const p3, 0x7f0b30a4
+    sget p3, Lcom/resouce/module/ResID;->tranfrom_back_pre_left_image:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
     .line 6
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    const v1, 0x7f081947
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_back_pre_cloud:I
 
     .line 7
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -150,7 +150,7 @@
     .line 9
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    const p2, 0x7f081948
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_home_back_pre_cloud_no_file:I
 
     .line 10
     invoke-virtual {p3, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222a6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_local_file_all_back:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

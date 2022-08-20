@@ -82,7 +82,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1214d2
+    sget v3, Lcom/resouce/module/ResSTRING;->oem_title_notification:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -290,7 +290,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1214d2
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_title_notification:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b048a
+    sget v0, Lcom/resouce/module/ResID;->cloudstorage_mgr_text:I
 
     if-ne p1, v0, :cond_0
 
@@ -68,7 +68,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b048b
+    sget v0, Lcom/resouce/module/ResID;->cloudstorage_sort_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -97,7 +97,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0485
+    sget v0, Lcom/resouce/module/ResID;->cloudstorage_arrange:I
 
     if-ne p1, v0, :cond_2
 
@@ -126,7 +126,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b048c
+    sget v0, Lcom/resouce/module/ResID;->cloudstorage_switch_evernote_server:I
 
     if-ne p1, v0, :cond_3
 
@@ -142,7 +142,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0487
+    sget v0, Lcom/resouce/module/ResID;->cloudstorage_logout_text:I
 
     if-ne p1, v0, :cond_4
 

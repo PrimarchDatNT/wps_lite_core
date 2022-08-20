@@ -50,19 +50,19 @@
 
     if-eqz v0, :cond_0
 
-    const p0, 0x7f080bbb
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_cloud_document_color:I
 
     return p0
 
     :cond_0
     if-eqz p0, :cond_1
 
-    const p0, 0x7f080214
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_white:I
 
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f080211
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_color:I
 
     :goto_0
     return p0
@@ -350,12 +350,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0912
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_saveicon_success_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05d3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_saveicon_success_icon:I
 
     :goto_0
     return v0

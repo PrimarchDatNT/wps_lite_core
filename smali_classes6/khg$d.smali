@@ -129,7 +129,7 @@
     :cond_1
     iget-object p1, p0, Lkhg$d;->b:Landroid/app/Activity;
 
-    const p2, 0x7f120874
+    sget p2, Lcom/resouce/module/ResSTRING;->et_export_filter_result_failed:I
 
     const/4 v0, 0x0
 
@@ -186,7 +186,7 @@
     .line 2
     iget-object p2, p0, Lkhg$d;->b:Landroid/app/Activity;
 
-    const v0, 0x7f12123c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_no_space_left:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -203,7 +203,7 @@
     .line 4
     iget-object p2, p0, Lkhg$d;->b:Landroid/app/Activity;
 
-    const v0, 0x7f12123e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -213,7 +213,7 @@
     :cond_1
     iget-object p2, p0, Lkhg$d;->b:Landroid/app/Activity;
 
-    const v0, 0x7f120eb9
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

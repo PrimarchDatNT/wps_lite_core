@@ -120,7 +120,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1226e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12201b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_download:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -170,7 +170,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121148
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121144
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_telegram:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1225c5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

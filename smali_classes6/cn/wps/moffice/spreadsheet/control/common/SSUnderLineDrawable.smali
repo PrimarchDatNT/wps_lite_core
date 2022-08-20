@@ -187,7 +187,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070d1c
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_border_style_width:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -200,7 +200,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070d16
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_border_style_line_gap:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -233,7 +233,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -294,7 +294,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0709ea
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_line_close_icon_size:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06057d
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_ppt_theme_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

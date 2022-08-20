@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122535
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 

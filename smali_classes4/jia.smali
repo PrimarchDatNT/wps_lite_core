@@ -342,7 +342,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1e7c
+    sget v0, Lcom/resouce/module/ResID;->pdf_new_page_orientation:I
 
     if-ne p1, v0, :cond_0
 
@@ -352,7 +352,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f0b1e7d
+    sget v0, Lcom/resouce/module/ResID;->pdf_new_page_page_size:I
 
     if-ne p1, v0, :cond_1
 
@@ -362,7 +362,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v0, 0x7f0b0325
+    sget v0, Lcom/resouce/module/ResID;->button_pdf_new_note_page:I
 
     if-ne p1, v0, :cond_9
 
@@ -729,7 +729,7 @@
 
     iget-object v1, p0, Ljia;->Y:Landroid/content/Context;
 
-    const v2, 0x7f13012e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -790,7 +790,7 @@
 
     iput-object v1, p0, Ljia;->c0:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 8
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/V10SimpleItemSelectListView;->setSelectedColor(I)V
@@ -820,7 +820,7 @@
     .line 13
     iget-object v0, p0, Ljia;->c0:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -1013,7 +1013,7 @@
 
     iget-object v1, p0, Ljia;->Y:Landroid/content/Context;
 
-    const v2, 0x7f13012e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -1078,7 +1078,7 @@
 
     iput-object v1, p0, Ljia;->b0:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 8
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/V10SimpleItemSelectListView;->setSelectedColor(I)V
@@ -1106,7 +1106,7 @@
     .line 13
     iget-object v0, p0, Ljia;->b0:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -1252,7 +1252,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f1a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_color_white:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1271,7 +1271,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_color_yellow:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1290,7 +1290,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f17
+    sget v2, Lcom/resouce/module/ResSTRING;->public_color_grey:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f16
+    sget v2, Lcom/resouce/module/ResSTRING;->public_color_green:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1328,7 +1328,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f15
+    sget v2, Lcom/resouce/module/ResSTRING;->public_color_blue:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1345,7 +1345,7 @@
     .line 1
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1408
+    sget v1, Lcom/resouce/module/ResID;->iv_add_page_increase:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1358,7 +1358,7 @@
     .line 2
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1407
+    sget v1, Lcom/resouce/module/ResID;->iv_add_page_decrease:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1371,7 +1371,7 @@
     .line 3
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b3108
+    sget v1, Lcom/resouce/module/ResID;->tv_add_page_number:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1384,7 +1384,7 @@
     .line 4
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2c79
+    sget v1, Lcom/resouce/module/ResID;->sp_add_page_bg_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1397,7 +1397,7 @@
     .line 5
     iget-object v0, p0, Ljia;->Y:Landroid/content/Context;
 
-    const v1, 0x7f1225de
+    sget v1, Lcom/resouce/module/ResSTRING;->public_page_orientation:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1406,7 +1406,7 @@
     .line 6
     iget-object v1, p0, Ljia;->Z:Landroid/view/View;
 
-    const v2, 0x7f0b320c
+    sget v2, Lcom/resouce/module/ResID;->tv_orientation_title:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1433,7 +1433,7 @@
     .line 9
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b3216
+    sget v1, Lcom/resouce/module/ResID;->tv_pdf_new_note_page_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1446,7 +1446,7 @@
     .line 10
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b3215
+    sget v1, Lcom/resouce/module/ResID;->tv_pdf_new_note_page_orientation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1459,7 +1459,7 @@
     .line 11
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1e7c
+    sget v1, Lcom/resouce/module/ResID;->pdf_new_page_orientation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1470,7 +1470,7 @@
     .line 12
     iget-boolean v1, p0, Ljia;->k0:Z
 
-    const v2, 0x7f0b0326
+    sget v2, Lcom/resouce/module/ResID;->button_pdf_new_note_page_icon:I
 
     if-eqz v1, :cond_0
 
@@ -1480,7 +1480,7 @@
     .line 14
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0327
+    sget v1, Lcom/resouce/module/ResID;->button_pdf_new_note_page_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1488,7 +1488,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f12082f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1601,7 +1601,7 @@
     .line 25
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1e7d
+    sget v1, Lcom/resouce/module/ResID;->pdf_new_page_page_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1612,7 +1612,7 @@
     .line 26
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0325
+    sget v1, Lcom/resouce/module/ResID;->button_pdf_new_note_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1657,7 +1657,7 @@
     .line 31
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b29c1
+    sget v1, Lcom/resouce/module/ResID;->rv_add_note_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1813,7 +1813,7 @@
     .line 5
     iput v1, p0, Ljia;->i0:I
 
-    const v2, 0x7f0b0326
+    sget v2, Lcom/resouce/module/ResID;->button_pdf_new_note_page_icon:I
 
     if-eqz v0, :cond_1
 
@@ -1825,7 +1825,7 @@
     .line 7
     iget-object v0, p0, Ljia;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b0327
+    sget v3, Lcom/resouce/module/ResID;->button_pdf_new_note_page_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1833,7 +1833,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f12082f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1967,11 +1967,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f120d8f
+    sget v2, Lcom/resouce/module/ResSTRING;->func_guide_new_pdf_info:I
 
-    const v3, 0x7f120d90
+    sget v3, Lcom/resouce/module/ResSTRING;->func_guide_new_pdf_title:I
 
-    const v4, 0x7f080730
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf:I
 
     const-string v5, "newpdf"
 

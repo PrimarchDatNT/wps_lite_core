@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff292929" android:layout_width="fill_parent" android:layout_height="28.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="#ff818181" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/leftmenu_row_category_title" android:paddingLeft="@dimen/public_amazon_leftmenu_item_padding_left" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="category" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="@dimen/public_amazon_leftmenu_item_padding_left" android:paddingEnd="0.0dip" />
-    <View android:layout_gravity="bottom" android:background="@drawable/public_amazon_leftmenu_category_gap" android:layout_width="fill_parent" android:layout_height="2.0dip" />
-</LinearLayout>

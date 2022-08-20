@@ -14,19 +14,19 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081f46
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_tim_24:I
 
-    const v5, 0x7f081f46
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_tim_24:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081f45
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_qq_24:I
 
-    const v5, 0x7f081f45
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_qq_24:I
 
     :goto_0
-    const v6, 0x7f122bce
+    sget v6, Lcom/resouce/module/ResSTRING;->public_vipshare_qq:I
 
     move-object v1, p0
 
@@ -65,12 +65,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1229a2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_qq_friend:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1228f5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_file_to_qq_friend:I
 
     :goto_0
     return v0

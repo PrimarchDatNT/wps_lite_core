@@ -818,7 +818,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0701e3
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_text_paddingleft:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -835,7 +835,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070883
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_ss_func_suggestion_image_paddingleft:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -996,7 +996,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081319
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-static {v1, v3, v2}, Lb7;->c(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
@@ -1199,7 +1199,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0985
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_number_suggestion_window:I
 
     const/4 v2, 0x0
 
@@ -1221,12 +1221,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080ce7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pop_track:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     .line 4
     :goto_0
@@ -1246,7 +1246,7 @@
     .line 6
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ad5
+    sget v1, Lcom/resouce/module/ResID;->et_number_suggestion_text_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1259,7 +1259,7 @@
     .line 7
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ad6
+    sget v1, Lcom/resouce/module/ResID;->et_number_suggestion_textformat:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1283,7 +1283,7 @@
     :cond_1
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ad3
+    sget v1, Lcom/resouce/module/ResID;->et_number_suggestion_scientific_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1296,7 +1296,7 @@
     .line 11
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ad4
+    sget v1, Lcom/resouce/module/ResID;->et_number_suggestion_scientificformat:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1320,7 +1320,7 @@
     :cond_2
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0bb6
+    sget v1, Lcom/resouce/module/ResID;->et_suggestion_fraction_num_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1333,7 +1333,7 @@
     .line 15
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0bb7
+    sget v1, Lcom/resouce/module/ResID;->et_suggestion_fraction_num_txt:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1357,7 +1357,7 @@
     :cond_3
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0bb9
+    sget v1, Lcom/resouce/module/ResID;->et_suggestion_fraction_txt_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1370,7 +1370,7 @@
     .line 19
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0bb8
+    sget v1, Lcom/resouce/module/ResID;->et_suggestion_fraction_text_format:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1394,7 +1394,7 @@
     :cond_4
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0bba
+    sget v1, Lcom/resouce/module/ResID;->et_suggestion_num_connect_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1407,7 +1407,7 @@
     .line 23
     iget-object v0, p0, Lf0g;->q:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ac5
+    sget v1, Lcom/resouce/module/ResID;->et_num_connect_text_format:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2016,7 +2016,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0ab3
+    sget v4, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2178,7 +2178,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0ab3
+    sget v4, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2474,7 +2474,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0701e3
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_text_paddingleft:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -2491,7 +2491,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070883
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ss_func_suggestion_image_paddingleft:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -4730,7 +4730,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0ab3
+    sget v1, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5685,7 +5685,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0701e2
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5700,7 +5700,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070244
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_number_suggestion_icon_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5715,7 +5715,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070245
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_number_suggestion_padding_right:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -6427,7 +6427,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e01f7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_func_params_view:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -6445,7 +6445,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e096c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_func_params_view:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -6457,7 +6457,7 @@
     :goto_0
     iget-object v0, p0, Lf0g;->l:Landroid/view/View;
 
-    const v1, 0x7f0b0a6f
+    sget v1, Lcom/resouce/module/ResID;->et_func_params_view_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6653,7 +6653,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e096e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_func_suggestion_listview:I
 
     const/4 v2, 0x0
 
@@ -6665,7 +6665,7 @@
 
     iput-object v0, p0, Lf0g;->j:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a72
+    sget v1, Lcom/resouce/module/ResID;->et_func_suggestion_listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -6689,7 +6689,7 @@
     .line 6
     iget-object v0, p0, Lf0g;->c:Lcn/wps/moffice/spreadsheet/control/editor/DropDownListView;
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setBackgroundResource(I)V
 
@@ -6700,7 +6700,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03000c
+    sget v1, Lcom/resouce/module/ResARRAY;->et_function_name_list_all:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -6912,7 +6912,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0701e0
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_func_suggestion_itemview_image_width:I
 
     .line 20
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

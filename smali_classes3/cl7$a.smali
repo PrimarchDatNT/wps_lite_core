@@ -29,7 +29,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0e2e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_share_folder_invite_channel_item:I
 
     const/4 v1, 0x0
 
@@ -42,7 +42,7 @@
     .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b147a
+    sget p2, Lcom/resouce/module/ResID;->iv_icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -55,7 +55,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b311a
+    sget p2, Lcom/resouce/module/ResID;->tv_channel_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

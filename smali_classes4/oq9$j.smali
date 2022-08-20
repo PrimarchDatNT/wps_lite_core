@@ -79,7 +79,7 @@
     .line 6
     iget-object p1, p0, Loq9$j;->I:Landroid/content/Context;
 
-    const p2, 0x7f122552
+    sget p2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

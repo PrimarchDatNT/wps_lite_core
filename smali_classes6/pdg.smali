@@ -17,7 +17,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a9a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_smart_layout_apply_dialog:I
 
     const/4 v2, 0x0
 
@@ -30,7 +30,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b068e
+    sget v2, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

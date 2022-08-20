@@ -3863,7 +3863,7 @@
 
     move-result-object v13
 
-    const v14, 0x7f07022f
+    sget v14, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v13, v14}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -4417,7 +4417,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07022f
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -4469,7 +4469,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07022f
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

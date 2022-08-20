@@ -18,7 +18,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08bf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_quick_bar_item_font_color_icon:I
 
     const/4 v2, 0x0
 
@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122a4b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_cell_bg:I
 
     const/4 v2, 0x0
 
@@ -61,7 +61,7 @@
     .line 1
     iget-object v0, p0, Lql3;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b0e1f
+    sget v1, Lcom/resouce/module/ResID;->font_color_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -77,7 +77,7 @@
     .line 3
     iget v1, p0, Lkhl;->D0:I
 
-    const v2, 0x7f0606e0
+    sget v2, Lcom/resouce/module/ResCOLOR;->white:I
 
     if-ne v1, v2, :cond_0
 
@@ -127,7 +127,7 @@
     .line 2
     iget-object v0, p0, Lql3;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b0e1f
+    sget v1, Lcom/resouce/module/ResID;->font_color_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

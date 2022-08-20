@@ -153,7 +153,7 @@
     :goto_1
     iget-object p1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const p2, 0x7f1232a8
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_domain_page_begin_page_overlimit_tips:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -313,7 +313,7 @@
     .line 2
     iget-object v1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f12266d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pose_left:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -324,7 +324,7 @@
     .line 3
     iget-object v1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f121d19
+    sget v2, Lcom/resouce/module/ResSTRING;->public_align_center:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
     .line 4
     iget-object v1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f12266e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pose_right:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -365,7 +365,7 @@
     .line 2
     iget-object v1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f1232aa
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_domain_page_header:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
     .line 3
     iget-object v1, p0, Lmzk;->a:Landroid/content/Context;
 
-    const v2, 0x7f1232a9
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_domain_page_footer:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

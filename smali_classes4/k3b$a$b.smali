@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f120486
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_button_text:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f120493
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_revert_button_text:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

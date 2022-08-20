@@ -237,7 +237,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c79
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_news_text:I
 
     const/4 v2, 0x0
 
@@ -247,7 +247,7 @@
 
     iput-object p1, p0, Lw54;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -261,7 +261,7 @@
     .line 4
     iget-object p1, p0, Lw54;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2f8c
+    sget v0, Lcom/resouce/module/ResID;->time:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -274,7 +274,7 @@
     .line 5
     iget-object p1, p0, Lw54;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2c78
+    sget v0, Lcom/resouce/module/ResID;->source:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

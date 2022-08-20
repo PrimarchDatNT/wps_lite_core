@@ -16,7 +16,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b298c
+    sget v0, Lcom/resouce/module/ResID;->rom_bottom_tools_bar_container_stub:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

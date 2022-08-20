@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e69
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_icon_space_limit_cant_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121e67
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_icon_file_size_limit_cant_upgrade:I
 
     const/4 v2, 0x1
 

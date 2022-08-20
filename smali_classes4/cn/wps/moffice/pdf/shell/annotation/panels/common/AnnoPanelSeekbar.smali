@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e079c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_anno_seekbar:I
 
     const/4 v2, 0x1
 
@@ -145,7 +145,7 @@
 
     iput-boolean p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar;->S:Z
 
-    const p1, 0x7f0b1dad
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_anno_seekbar_icon:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar;->T:Lcn/wps/moffice/pdf/shell/annotation/panels/common/PDFAnnoDotView;
 
-    const p1, 0x7f0b1dac
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_anno_seekbar:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoPanelSeekbar;->U:Landroid/widget/SeekBar;
 
-    const p1, 0x7f0b1dae
+    sget p1, Lcom/resouce/module/ResID;->pdf_edit_anno_seekbar_text:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122370
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ink_pt:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

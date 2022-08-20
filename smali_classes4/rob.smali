@@ -169,7 +169,7 @@
     .line 2
     iget-object p1, p0, Lrob;->a:Landroid/content/Context;
 
-    const v0, 0x7f1214fc
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_transfer_cancel:I
 
     const/4 v1, 0x0
 
@@ -226,7 +226,7 @@
     .line 4
     iget-object p1, p0, Lrob;->a:Landroid/content/Context;
 
-    const v0, 0x7f122157
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_send_success:I
 
     const/4 v1, 0x0
 

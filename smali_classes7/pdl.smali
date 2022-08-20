@@ -327,7 +327,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122a5a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -501,7 +501,7 @@
 
     move-result v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v2, 0x1
 
@@ -650,7 +650,7 @@
     return p1
 
     :cond_1
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 5
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -731,7 +731,7 @@
     .line 2
     iget-object v0, p0, Lpdl;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v2, 0x1
 

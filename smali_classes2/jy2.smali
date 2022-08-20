@@ -649,7 +649,7 @@
     .line 6
     iget-object v2, p0, Ljy2;->D0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v6, 0x7f0603a2
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     iget-boolean v7, p0, Ljy2;->I0:Z
 
@@ -697,7 +697,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12021e
+    sget v4, Lcom/resouce/module/ResSTRING;->book_free_unlock_times:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -717,7 +717,7 @@
     :cond_0
     iget-object v2, p0, Ljy2;->D0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v6, 0x7f060330
+    sget v6, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     iget-boolean v7, p0, Ljy2;->I0:Z
 
@@ -743,7 +743,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f120220
+    sget v4, Lcom/resouce/module/ResSTRING;->book_free_unlock_tomorrow:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -845,7 +845,7 @@
     iput-boolean v0, p0, Ljy2;->I0:Z
 
     :goto_1
-    const v0, 0x7f0b29ab
+    sget v0, Lcom/resouce/module/ResID;->root_container:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -854,11 +854,11 @@
 
     iget-boolean v2, p0, Ljy2;->I0:Z
 
-    const v3, 0x7f0603ac
+    sget v3, Lcom/resouce/module/ResCOLOR;->novel_thirdBackgroundColor:I
 
     invoke-static {v0, v3, v2}, Lw1f;->d(Landroid/view/View;IZ)V
 
-    const v0, 0x7f0b3073
+    sget v0, Lcom/resouce/module/ResID;->top_left_space:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -869,7 +869,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->d(Landroid/view/View;IZ)V
 
-    const v0, 0x7f0b306d
+    sget v0, Lcom/resouce/module/ResID;->top_decor_bar_view:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -882,7 +882,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0638
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow_bg:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -895,7 +895,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0637
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -906,11 +906,11 @@
 
     iget-boolean v2, p0, Ljy2;->I0:Z
 
-    const v3, 0x7f0603a2
+    sget v3, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v0, v3, v2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0199
+    sget v0, Lcom/resouce/module/ResID;->autoLockQA:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -923,7 +923,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0e84
+    sget v0, Lcom/resouce/module/ResID;->freeUnLockQA:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -936,7 +936,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b1512
+    sget v0, Lcom/resouce/module/ResID;->label_price_tip_tv:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -949,7 +949,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b038a
+    sget v0, Lcom/resouce/module/ResID;->chapter_price_tv:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -962,7 +962,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b2f90
+    sget v0, Lcom/resouce/module/ResID;->timeView:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -975,7 +975,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b019a
+    sget v0, Lcom/resouce/module/ResID;->autoLockText:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -986,11 +986,11 @@
 
     iget-boolean v2, p0, Ljy2;->I0:Z
 
-    const v4, 0x7f060330
+    sget v4, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {v0, v4, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b2515
+    sget v0, Lcom/resouce/module/ResID;->price_unit_tv:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1003,7 +1003,7 @@
 
     invoke-static {v0, v4, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b0062
+    sget v0, Lcom/resouce/module/ResID;->account_label:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1016,7 +1016,7 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b0063
+    sget v0, Lcom/resouce/module/ResID;->account_link:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1029,14 +1029,14 @@
 
     invoke-static {v0, v3, v2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b174a
+    sget v0, Lcom/resouce/module/ResID;->logged_user_coin_layout:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v2, 0x7f080b18
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->novel_shape_wps_nc_unlock_user_coins_bg:I
 
     iget-boolean v4, p0, Ljy2;->I0:Z
 
@@ -1060,7 +1060,7 @@
     invoke-virtual {v0, v2}, Lhy2;->c(Lxw2;)V
 
     :cond_2
-    const v0, 0x7f0b161c
+    sget v0, Lcom/resouce/module/ResID;->link_tips_tv:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1073,7 +1073,7 @@
 
     invoke-static {v0, v3, v4}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b15ee
+    sget v0, Lcom/resouce/module/ResID;->link_right_arrow:I
 
     .line 24
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1086,7 +1086,7 @@
 
     invoke-static {v0, v3, v4}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b1746
+    sget v0, Lcom/resouce/module/ResID;->lock_icon_img:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1109,12 +1109,12 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f082006
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_novel_unlock_gif_night:I
 
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f082005
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_novel_unlock_gif:I
 
     :goto_2
     invoke-virtual {p1, v0, v2}, Lcn/wps/moffice/cartoon/modules/unlock2/widget/GifImageView;->setGifResource(ILcn/wps/moffice/cartoon/modules/unlock2/widget/GifImageView$a;)V
@@ -1136,7 +1136,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081fd2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_cartoon_right_arrow_day:I
 
     iget-boolean v4, p0, Ljy2;->I0:Z
 
@@ -1173,7 +1173,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081db2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->selector_checkbox_night:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1203,7 +1203,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081db1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->selector_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1387,7 +1387,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b1748
+    sget v2, Lcom/resouce/module/ResID;->lock_view:I
 
     if-ne v0, v1, :cond_5
 
@@ -1745,7 +1745,7 @@
 
     invoke-virtual {p1, p3}, Landroid/view/View;->setEnabled(Z)V
 
-    const p1, 0x7f1231e2
+    sget p1, Lcom/resouce/module/ResSTRING;->wps_cartoon_buy_failed:I
 
     .line 8
     invoke-virtual {p0, p1}, Lau2;->u(I)V
@@ -1835,7 +1835,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setEnabled(Z)V
 
-    const p1, 0x7f1231e2
+    sget p1, Lcom/resouce/module/ResSTRING;->wps_cartoon_buy_failed:I
 
     .line 8
     invoke-virtual {p0, p1}, Lau2;->u(I)V
@@ -1978,7 +1978,7 @@
     .line 5
     iget-object p1, p0, Ljy2;->u0:Landroid/widget/TextView;
 
-    const v0, 0x7f12021a
+    sget v0, Lcom/resouce/module/ResSTRING;->book_free_unlock_recharge:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1993,7 +1993,7 @@
     :cond_1
     iget-object p1, p0, Ljy2;->u0:Landroid/widget/TextView;
 
-    const v0, 0x7f1231e8
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_cartoon_get_bonus:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2014,7 +2014,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     if-ne p1, v0, :cond_0
 
@@ -2024,9 +2024,9 @@
     goto/16 :goto_2
 
     :cond_0
-    const v0, 0x7f0b0063
+    sget v0, Lcom/resouce/module/ResID;->account_link:I
 
-    const v1, 0x7f0b15c9
+    sget v1, Lcom/resouce/module/ResID;->link_above_btn:I
 
     if-eq p1, v1, :cond_6
 
@@ -2035,9 +2035,9 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b0199
+    sget v0, Lcom/resouce/module/ResID;->autoLockQA:I
 
-    const v1, 0x7f12320a
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_auto_lock_title:I
 
     if-ne p1, v0, :cond_3
 
@@ -2065,7 +2065,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123209
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_auto_lock_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2098,7 +2098,7 @@
     goto/16 :goto_2
 
     :cond_3
-    const v0, 0x7f0b0e84
+    sget v0, Lcom/resouce/module/ResID;->freeUnLockQA:I
 
     if-ne p1, v0, :cond_a
 
@@ -2131,7 +2131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12021f
+    sget v1, Lcom/resouce/module/ResSTRING;->book_free_unlock_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2237,7 +2237,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12021a
+    sget v0, Lcom/resouce/module/ResSTRING;->book_free_unlock_recharge:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2265,7 +2265,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1231e8
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_cartoon_get_bonus:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2316,7 +2316,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f130110
+    sget v0, Lcom/resouce/module/ResSTYLE;->BottomSheetDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Lmc;->n2(II)V
@@ -2419,7 +2419,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b3073
+    sget p2, Lcom/resouce/module/ResID;->top_left_space:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2570,7 +2570,7 @@
 
     if-nez p1, :cond_1
 
-    const v0, 0x7f122d0c
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_login_success:I
 
     .line 1
     invoke-virtual {p0, v0}, Lau2;->u(I)V
@@ -2627,7 +2627,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122d0b
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_login_failed:I
 
     .line 8
     invoke-virtual {p0, p1}, Lau2;->u(I)V
@@ -2640,7 +2640,7 @@
 .method public q2()I
     .locals 1
 
-    const v0, 0x7f0e02ab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_nc_unlock_layout:I
 
     return v0
 .end method
@@ -2655,7 +2655,7 @@
 
     iput-object v0, p0, Ljy2;->s0:Lhy2;
 
-    const v0, 0x7f0b32f5
+    sget v0, Lcom/resouce/module/ResID;->unlock_gif:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2671,7 +2671,7 @@
     .line 3
     invoke-virtual {p0, v1, v0}, Ljy2;->I2(FLandroid/view/View;)V
 
-    const v0, 0x7f0b1748
+    sget v0, Lcom/resouce/module/ResID;->lock_view:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2685,7 +2685,7 @@
     .line 5
     invoke-virtual {v0, p0}, Lcn/wps/moffice/cartoon/modules/unlock2/widget/LockView;->setOnUnlockListener(Lcn/wps/moffice/cartoon/modules/unlock2/widget/LockView$d;)V
 
-    const v0, 0x7f0b1746
+    sget v0, Lcom/resouce/module/ResID;->lock_icon_img:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2696,7 +2696,7 @@
 
     iput-object v0, p0, Ljy2;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1512
+    sget v0, Lcom/resouce/module/ResID;->label_price_tip_tv:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2707,7 +2707,7 @@
 
     iput-object v0, p0, Ljy2;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0389
+    sget v0, Lcom/resouce/module/ResID;->chapter_price_layout:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2718,7 +2718,7 @@
 
     iput-object v0, p0, Ljy2;->l0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b17f4
+    sget v0, Lcom/resouce/module/ResID;->main_container:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2727,7 +2727,7 @@
 
     iput-object v0, p0, Ljy2;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b0197
+    sget v0, Lcom/resouce/module/ResID;->autoLockCheckBox:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2738,7 +2738,7 @@
 
     iput-object v0, p0, Ljy2;->F0:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b29ab
+    sget v0, Lcom/resouce/module/ResID;->root_container:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2747,7 +2747,7 @@
 
     iput-object v0, p0, Ljy2;->n0:Landroid/view/View;
 
-    const v0, 0x7f0b161c
+    sget v0, Lcom/resouce/module/ResID;->link_tips_tv:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2758,7 +2758,7 @@
 
     iput-object v0, p0, Ljy2;->u0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0063
+    sget v0, Lcom/resouce/module/ResID;->account_link:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2772,7 +2772,7 @@
     .line 14
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b15c9
+    sget v0, Lcom/resouce/module/ResID;->link_above_btn:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2786,7 +2786,7 @@
     .line 16
     invoke-virtual {v0, p0}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0199
+    sget v0, Lcom/resouce/module/ResID;->autoLockQA:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2797,7 +2797,7 @@
 
     iput-object v0, p0, Ljy2;->G0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0e84
+    sget v0, Lcom/resouce/module/ResID;->freeUnLockQA:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2818,7 +2818,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2830,7 +2830,7 @@
     .line 22
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3080
+    sget v0, Lcom/resouce/module/ResID;->top_space_container:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2846,7 +2846,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    const v0, 0x7f0b038a
+    sget v0, Lcom/resouce/module/ResID;->chapter_price_tv:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2857,7 +2857,7 @@
 
     iput-object v0, p0, Ljy2;->p0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2fb5
+    sget v0, Lcom/resouce/module/ResID;->tips_below_lock_view:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2866,7 +2866,7 @@
 
     iput-object v0, p0, Ljy2;->x0:Landroid/view/View;
 
-    const v0, 0x7f0b2f90
+    sget v0, Lcom/resouce/module/ResID;->timeView:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2877,7 +2877,7 @@
 
     iput-object v0, p0, Ljy2;->D0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b0e8b
+    sget v0, Lcom/resouce/module/ResID;->free_unlock_tip:I
 
     .line 28
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

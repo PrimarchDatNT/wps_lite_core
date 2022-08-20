@@ -58,7 +58,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/encrypt/DecryptDialog$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1350
+    sget v1, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

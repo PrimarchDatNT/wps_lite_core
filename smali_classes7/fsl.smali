@@ -150,7 +150,7 @@
     .line 17
     iget-object p1, p0, Lfsl;->k:Landroid/content/Context;
 
-    const p2, 0x7f122bd6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_vipshare_tip:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

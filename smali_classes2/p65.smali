@@ -156,7 +156,7 @@
     .line 1
     iget-object v0, p0, Lp65;->d:Landroid/app/Activity;
 
-    const v1, 0x7f123037
+    sget v1, Lcom/resouce/module/ResSTRING;->tag_delete_tip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
 
     iget-object v2, p0, Lp65;->d:Landroid/app/Activity;
 
-    const v3, 0x7f123036
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_delete_not_file:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -178,9 +178,9 @@
 
     invoke-direct {v6, p0}, Lp65$d;-><init>(Lp65;)V
 
-    const v3, 0x7f121f40
+    sget v3, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static/range {v0 .. v6}, Lka3;->Q(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -443,7 +443,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_tag_manager_dialog_input:I
 
     const/4 v2, 0x0
 
@@ -451,7 +451,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e80
+    sget v1, Lcom/resouce/module/ResID;->tag_new:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
     .line 7
     iget-object v0, p0, Lp65;->d:Landroid/app/Activity;
 
-    const v2, 0x7f1227f7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -534,7 +534,7 @@
 
     invoke-direct {v0, p0, v1}, Lp65$e;-><init>(Lp65;Lhd3;)V
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -546,7 +546,7 @@
 
     invoke-direct {v0, p0}, Lp65$f;-><init>(Lp65;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -612,7 +612,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0f9c
+    sget p3, Lcom/resouce/module/ResLAYOUT;->tag_list_item_more_pop:I
 
     const/4 p4, 0x0
 
@@ -620,7 +620,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0b13b2
+    sget p3, Lcom/resouce/module/ResID;->item_delete:I
 
     .line 6
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
 
     invoke-virtual {p3, p4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b13db
+    sget p3, Lcom/resouce/module/ResID;->item_rename:I
 
     .line 7
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

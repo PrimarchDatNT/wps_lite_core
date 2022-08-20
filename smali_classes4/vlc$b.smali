@@ -112,11 +112,11 @@
 
     invoke-virtual {v0, v2}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v2, 0x7f08076e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_document_export:I
 
-    const v3, 0x7f1220a7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v4, 0x7f1220a8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
     const/4 v5, 0x2
 

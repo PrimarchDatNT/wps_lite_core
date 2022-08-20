@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121b86
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_no_slide_for_play:I
 
     const/4 p3, 0x1
 

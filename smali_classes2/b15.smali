@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c73
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -115,7 +115,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c70
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -148,7 +148,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0813b9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_upload_progress_read_icon:I
 
     .line 11
     invoke-virtual {p0}, Lp05;->c()Landroid/content/Context;
@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06065d
+    sget v1, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -168,7 +168,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0813ba
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_upload_progress_read_icon_gray:I
 
     const v0, -0x7f7f80
 

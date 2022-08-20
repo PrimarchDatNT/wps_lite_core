@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingLeft="@dimen/phone_public_dialog_docinfo_padding_left" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="68.0dip" android:paddingStart="@dimen/phone_public_dialog_docinfo_padding_left" android:paddingEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.CircleImageView android:id="@id/public_persional_avator" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" />
-    <TextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:id="@id/public_persional_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="100.0dip" android:layout_toEndOf="@id/public_persional_avator" />
-    <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/public_personal_title_suffix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

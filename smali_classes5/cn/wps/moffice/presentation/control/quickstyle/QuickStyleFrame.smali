@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ac8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_quickstyle_frame_pad:I
 
     const/4 v2, 0x1
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0709ec
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_frame_padding_leftright:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -106,7 +106,7 @@
     .line 4
     invoke-virtual {p0, v0, v1, v0, v1}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    const v0, 0x7f0b23e7
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstle_frame_line_root:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrame;->B:Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleFrameLine;
 
-    const v0, 0x7f0b23e6
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstle_frame_color_grid:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

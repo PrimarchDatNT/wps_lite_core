@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:text="@string/public_login_with_phone" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/msgTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="2.0dip" android:text="@string/public_login_sms_login_msg" />
-</LinearLayout>

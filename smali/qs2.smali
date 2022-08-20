@@ -131,7 +131,7 @@
 
     iput-object v0, p0, Lqs2;->c:Lhd3;
 
-    const v1, 0x7f12055d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update:I
 
     .line 8
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -139,7 +139,7 @@
     .line 9
     iget-object v0, p0, Lqs2;->c:Lhd3;
 
-    const v1, 0x7f1214c9
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_continue_update:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
     .line 10
     iget-object v0, p0, Lqs2;->c:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lqs2$d;
 
@@ -161,7 +161,7 @@
     .line 11
     iget-object p1, p0, Lqs2;->c:Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Lqs2$e;
 
@@ -371,7 +371,7 @@
 
     iput-object v0, p0, Lqs2;->d:Lqs2$h;
 
-    const v1, 0x7f12055d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -383,7 +383,7 @@
     .line 4
     iget-object v0, p0, Lqs2;->d:Lqs2$h;
 
-    const v1, 0x7f12055f
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_remind:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -470,7 +470,7 @@
 
     if-eqz p5, :cond_3
 
-    const v1, 0x7f120565
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_hasapk_title:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -478,7 +478,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f12055d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update:I
 
     .line 7
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -486,12 +486,12 @@
     :goto_1
     if-eqz p5, :cond_4
 
-    const v1, 0x7f12055e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_ok:I
 
     goto :goto_2
 
     :cond_4
-    const v1, 0x7f12056d
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_updatebtn:I
 
     .line 8
     :goto_2
@@ -499,7 +499,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -526,7 +526,7 @@
 
     if-eqz p5, :cond_5
 
-    const v1, 0x7f120564
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_free:I
 
     .line 10
     invoke-virtual {v0, v1}, Lhd3;->setHotButton(I)Lhd3;
@@ -534,19 +534,19 @@
     :cond_5
     if-eqz p3, :cond_6
 
-    const v1, 0x7f120563
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_exitbtn:I
 
     goto :goto_3
 
     :cond_6
     if-eqz p5, :cond_7
 
-    const v1, 0x7f120560
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_wait:I
 
     goto :goto_3
 
     :cond_7
-    const v1, 0x7f120567
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_later:I
 
     .line 11
     :goto_3

@@ -39,7 +39,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1a7c
+    sget v0, Lcom/resouce/module/ResID;->novel_cover:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lr0f$b;->j0:Lcn/wps/moffice/home/common/widget/AspectCoverView;
 
-    const v0, 0x7f0b1a84
+    sget v0, Lcom/resouce/module/ResID;->novel_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object v0, p0, Lr0f$b;->k0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b1a83
+    sget v0, Lcom/resouce/module/ResID;->novel_tags:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lr0f$b;->l0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b3392
+    sget v0, Lcom/resouce/module/ResID;->view_count:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object v0, p0, Lr0f$b;->m0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b136f
+    sget v0, Lcom/resouce/module/ResID;->introduction:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Lr0f$b;->n0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v0, 0x7f0b27ea
+    sget v0, Lcom/resouce/module/ResID;->read_btn:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

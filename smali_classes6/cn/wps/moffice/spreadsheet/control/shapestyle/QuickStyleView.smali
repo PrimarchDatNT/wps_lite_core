@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f71
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_quickstyle_layout_pad:I
 
     const/4 v2, 0x1
 
@@ -126,7 +126,7 @@
     .line 2
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const v0, 0x7f0b2d53
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_titlebar:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -145,11 +145,11 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->I:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v1, 0x7f122fe7
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_shape_style:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
 
-    const v0, 0x7f0b2d41
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_flipper_pad:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->B:Landroid/widget/ViewFlipper;
 
-    const v0, 0x7f0b2d4e
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_navigation:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->S:Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleNavigation;
 
-    const v0, 0x7f0b2d50
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_presetting:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->T:Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStylePreSet;
 
-    const v0, 0x7f0b2d3e
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_fill:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->U:Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFill;
 
-    const v0, 0x7f0b2d42
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->V:Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleFrame;
 
-    const v0, 0x7f0b2d51
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_presetting_scrollview:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->W:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b2d40
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_fill_scrollview:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/QuickStyleView;->a0:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b2d47
+    sget v0, Lcom/resouce/module/ResID;->ss_quickstyle_frame_scrollview:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

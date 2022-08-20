@@ -59,22 +59,22 @@
 
     move-result p1
 
-    const v0, 0x7f0b0156
+    sget v0, Lcom/resouce/module/ResID;->arrangeby_notebooks_layout:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b0157
+    sget v0, Lcom/resouce/module/ResID;->arrangeby_notebooks_radio:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0155
+    sget v0, Lcom/resouce/module/ResID;->arrangeby_allattachments_layout:I
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0b29d2
+    sget v0, Lcom/resouce/module/ResID;->sarrangeby_allattachments_radio:I
 
     if-ne p1, v0, :cond_3
 

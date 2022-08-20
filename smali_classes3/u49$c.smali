@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lu49;->Y:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v1, 0x7f0808de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_search_speech_white_icon_selected:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

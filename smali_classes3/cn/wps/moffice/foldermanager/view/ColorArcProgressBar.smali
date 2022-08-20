@@ -858,7 +858,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0702c2
+    sget v1, Lcom/resouce/module/ResDIMEN;->folder_manager_Anim_progress_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

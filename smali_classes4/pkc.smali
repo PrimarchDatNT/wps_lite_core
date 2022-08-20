@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12177a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -189,7 +189,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121790
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_committing:I
 
     .line 9
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -227,7 +227,7 @@
     .line 3
     invoke-virtual {p0, p1}, Lpkc;->e3(I)V
 
-    const p1, 0x7f12202e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     .line 4
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -245,7 +245,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121f66
+    sget v0, Lcom/resouce/module/ResSTRING;->public_converting:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -317,7 +317,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12177a
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -355,7 +355,7 @@
     .line 1
     invoke-virtual {p0, p1}, Lpkc;->e3(I)V
 
-    const p1, 0x7f121796
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -427,7 +427,7 @@
 
     aput-object v4, v3, v1
 
-    const v1, 0x7f122614    # 1.94265E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {v2, v1, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -457,7 +457,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121781
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_vip_channel:I
 
     .line 2
     invoke-static {}, Lcn/wps/moffice/OfficeApp;->getInstance()Lcn/wps/moffice/OfficeApp;
@@ -472,7 +472,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -501,7 +501,7 @@
     .line 3
     iget-object v0, p0, Lpkc;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f121744
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_interrupted_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -516,7 +516,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -558,7 +558,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0628
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_convert_progress_dialog:I
 
     const/4 v2, 0x0
 
@@ -566,7 +566,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b254e
+    sget v1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -577,7 +577,7 @@
 
     iput-object v1, p0, Lpkc;->B:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     iput-object v1, p0, Lpkc;->I:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v1, 0x7f0b2546
+    sget v1, Lcom/resouce/module/ResID;->progress_msg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -619,12 +619,12 @@
     .line 8
     invoke-virtual {p0, v0}, Lhd3;->setCanAutoDismiss(Z)V
 
-    const v0, 0x7f12177a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     .line 9
     invoke-virtual {p0, v0, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f12177e
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_remind_after_finish:I
 
     .line 10
     invoke-virtual {p0, v0, p0}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -723,7 +723,7 @@
 
     invoke-virtual {v0}, Lokc;->e()V
 
-    const v0, 0x7f12202e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -751,7 +751,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12177a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_progress_dialog_cancel_convert:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -782,7 +782,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121795
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_handling:I
 
     .line 9
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -828,12 +828,12 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgress(I)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {p0, v0, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f1218ac
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_preview_converting:I
 
     .line 9
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -868,7 +868,7 @@
 .method public onUpload()V
     .locals 1
 
-    const v0, 0x7f121796
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;

@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ce0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_login_pc_new_guide_layout:I
 
     const/4 v1, 0x0
 
@@ -69,7 +69,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0533
+    sget v2, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b068e
+    sget v1, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
     .line 14
     invoke-virtual {p0, p1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b030a
+    sget v0, Lcom/resouce/module/ResID;->btn_try_now:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

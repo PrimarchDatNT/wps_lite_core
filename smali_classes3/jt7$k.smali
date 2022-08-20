@@ -60,7 +60,7 @@
 
     iget-object p1, p1, Ljt7;->a:Landroid/content/Context;
 
-    const v1, 0x7f1224a6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_member_cloud_download_speed_up:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
     .line 6
     iget-object p1, p1, Ljt7;->e:Lsd3;
 
-    const v0, 0x7f1229fe
+    sget v0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     const/4 v1, 0x0
 

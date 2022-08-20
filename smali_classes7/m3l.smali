@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1221e4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_format_brush_unsupported:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

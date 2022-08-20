@@ -378,12 +378,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f13013c
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     :goto_0
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -397,7 +397,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e081d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_thumbnails_layout:I
 
     const/4 v2, 0x0
 
@@ -407,7 +407,7 @@
 
     iput-object v0, p0, Lfle;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2482
+    sget v1, Lcom/resouce/module/ResID;->ppt_thumbnails_titlebar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -421,7 +421,7 @@
     .line 4
     iget-object v0, p0, Lfle;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2480
+    sget v1, Lcom/resouce/module/ResID;->ppt_thumbnails_grid:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -457,7 +457,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f122adb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -472,7 +472,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -496,7 +496,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121d75
+    sget v2, Lcom/resouce/module/ResSTRING;->public_back:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -580,7 +580,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f121b79
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_hyperlink_slide_local:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -602,7 +602,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081b97
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_gray_bg_4dp_1px_21:I
 
     iget-object v3, p0, Lfle;->d:Landroid/content/Context;
 
@@ -692,7 +692,7 @@
     .line 15
     iget-object v0, p0, Lfle;->c:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v2, 0x7f0b2fe4
+    sget v2, Lcom/resouce/module/ResID;->title_bar_left_part:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
 
     iget-object v1, p0, Lfle;->d:Landroid/content/Context;
 
-    const v2, 0x7f121d75
+    sget v2, Lcom/resouce/module/ResSTRING;->public_back:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -810,7 +810,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f070c5b
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_tv_home_phoneN_qrcode_bg_width:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 

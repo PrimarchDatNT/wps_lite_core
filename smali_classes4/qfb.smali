@@ -361,7 +361,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d51
+    sget v2, Lcom/resouce/module/ResSTRING;->public_assistant_component_dialog_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -396,7 +396,7 @@
 
     invoke-direct {v1, p0}, Lqfb$b;-><init>(Lqfb;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

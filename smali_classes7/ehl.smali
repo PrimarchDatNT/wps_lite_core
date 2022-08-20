@@ -12,7 +12,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0a23
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_text_font_color_view_layout:I
 
     const/4 v1, 0x0
 
@@ -20,7 +20,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221b4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     const-string v1, "text-font-color"
 
@@ -60,7 +60,7 @@
     .line 2
     iget-object v0, p0, Lql3;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b358b
+    sget v1, Lcom/resouce/module/ResID;->writer_fill_color_item_colorview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

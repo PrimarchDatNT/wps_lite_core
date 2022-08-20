@@ -193,7 +193,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aa7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_rom_read_search_layout:I
 
     const/4 v2, 0x0
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2420
+    sget v1, Lcom/resouce/module/ResID;->ppt_rom_read_search_pre:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     iput-object v1, p0, Lk9e;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f0b241f
+    sget v1, Lcom/resouce/module/ResID;->ppt_rom_read_search_next:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2420
+    sget v0, Lcom/resouce/module/ResID;->ppt_rom_read_search_pre:I
 
     if-ne p1, v0, :cond_0
 
@@ -306,7 +306,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b241f
+    sget v0, Lcom/resouce/module/ResID;->ppt_rom_read_search_next:I
 
     if-ne p1, v0, :cond_1
 
@@ -370,7 +370,7 @@
     .line 3
     iget-object p1, p0, Lk9e;->X:Landroid/app/Activity;
 
-    const v0, 0x7f121be4
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_search_keyword_empty:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -441,12 +441,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08099e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_dark:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f08099f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_light:I
 
     :goto_1
     invoke-virtual {v1, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;

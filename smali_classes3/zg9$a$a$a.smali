@@ -32,7 +32,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f1229e3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_upload_space_limit:I
 
     return v0
 .end method
@@ -40,7 +40,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f1229e2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_upload_size_limit:I
 
     return v0
 .end method

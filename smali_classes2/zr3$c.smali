@@ -105,7 +105,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122a3f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_sync_success:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -153,7 +153,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122bf6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_web_article_sync_failure:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 

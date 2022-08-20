@@ -370,7 +370,7 @@
     .line 1
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 2
     invoke-virtual {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -501,7 +501,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e08ba
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_push_pop_translucent_view:I
 
     const/4 v1, 0x0
 
@@ -558,7 +558,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;->Z:Landroid/os/Handler;
 
-    const p1, 0x7f0b25a0
+    sget p1, Lcom/resouce/module/ResID;->public_common_push_pop_webview:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;->B:Lcn/wps/moffice/common/superwebview/KWebView;
 
-    const p1, 0x7f0b08b9
+    sget p1, Lcom/resouce/module/ResID;->error_page:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/push/common/PopUpTranslucentAciivity;->T:Lcn/wps/moffice/common/superwebview/WebviewErrorPage;
 
-    const p1, 0x7f0b2610
+    sget p1, Lcom/resouce/module/ResID;->public_frequent_circle_progressBar:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

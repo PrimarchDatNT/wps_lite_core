@@ -74,9 +74,9 @@
     .line 5
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/Cleaner$13;
 
-    const v2, 0x7f080db5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_eraser_et:I
 
-    const v3, 0x7f120c69
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_clear:I
 
     const/4 v4, 0x1
 
@@ -114,11 +114,11 @@
     .line 11
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/Cleaner$1;
 
-    const v3, 0x7f120c69
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_clear:I
 
-    const v4, 0x7f0803f0
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_style_eraser:I
 
-    const v5, 0x7f120c69
+    sget v5, Lcom/resouce/module/ResSTRING;->et_toolbar_clear:I
 
     move-object v0, p1
 
@@ -304,7 +304,7 @@
     .line 2
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 3
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -572,7 +572,7 @@
     :try_start_2
     invoke-interface {v3}, Lq2m;->a()V
 
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 23
     invoke-static {v1, v6}, Lsjf;->h(II)V
@@ -776,7 +776,7 @@
     :try_start_2
     invoke-interface {v3}, Lq2m;->a()V
 
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 18
     invoke-static {v1, v6}, Lsjf;->h(II)V
@@ -995,7 +995,7 @@
     :try_start_2
     invoke-interface {v3}, Lq2m;->a()V
 
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 23
     invoke-static {v1, v6}, Lsjf;->h(II)V
@@ -1169,7 +1169,7 @@
     :catch_1
     invoke-interface {v3}, Lq2m;->a()V
 
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 20
     invoke-static {v0, v5}, Lsjf;->h(II)V
@@ -1307,7 +1307,7 @@
     :catch_1
     invoke-interface {v3}, Lq2m;->a()V
 
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 19
     invoke-static {v0, v5}, Lsjf;->h(II)V
@@ -1370,9 +1370,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Cleaner$2;
 
-    const v1, 0x7f0813e5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_clear_all:I
 
-    const v2, 0x7f1226e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Cleaner$2;-><init>(Lcn/wps/moffice/spreadsheet/control/Cleaner;II)V
 
@@ -1381,9 +1381,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Cleaner$3;
 
-    const v1, 0x7f08044c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_format_cells:I
 
-    const v2, 0x7f120c6b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_clear_format:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Cleaner$3;-><init>(Lcn/wps/moffice/spreadsheet/control/Cleaner;II)V
 
@@ -1392,9 +1392,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Cleaner$4;
 
-    const v1, 0x7f0813e6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_clear_content:I
 
-    const v2, 0x7f120c6a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_clear_content:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Cleaner$4;-><init>(Lcn/wps/moffice/spreadsheet/control/Cleaner;II)V
 
@@ -1403,9 +1403,9 @@
     .line 4
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Cleaner$5;
 
-    const v1, 0x7f080278
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_postil:I
 
-    const v2, 0x7f121f1c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Cleaner$5;-><init>(Lcn/wps/moffice/spreadsheet/control/Cleaner;II)V
 
@@ -1414,9 +1414,9 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Cleaner$6;
 
-    const v1, 0x7f0802c3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_link:I
 
-    const v2, 0x7f122334
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Cleaner$6;-><init>(Lcn/wps/moffice/spreadsheet/control/Cleaner;II)V
 
@@ -1445,7 +1445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01c4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_clear_dialog:I
 
     const/4 v2, 0x0
 
@@ -1457,7 +1457,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/Cleaner;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0974
+    sget v1, Lcom/resouce/module/ResID;->et_clear_button_all:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1469,7 +1469,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/Cleaner;->S:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b0976
+    sget v2, Lcom/resouce/module/ResID;->et_clear_button_format:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1480,7 +1480,7 @@
     .line 6
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/Cleaner;->S:Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b0975
+    sget v3, Lcom/resouce/module/ResID;->et_clear_button_content:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1491,7 +1491,7 @@
     .line 7
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/Cleaner;->S:Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0b0978
+    sget v4, Lcom/resouce/module/ResID;->et_clear_button_postil:I
 
     invoke-virtual {v3, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1502,7 +1502,7 @@
     .line 8
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/Cleaner;->S:Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0b0977
+    sget v5, Lcom/resouce/module/ResID;->et_clear_button_hyperlink:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ccf
+    sget v1, Lcom/resouce/module/ResSTRING;->project_header:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cd0
+    sget v1, Lcom/resouce/module/ResSTRING;->project_header1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f32
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_header_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f33
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_header_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f31
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_header1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f34
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_header_ios:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f35
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_header_ios1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12158d
+    sget v2, Lcom/resouce/module/ResSTRING;->oversea_coupon_activity_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -158,7 +158,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12158d
+    sget v2, Lcom/resouce/module/ResSTRING;->oversea_coupon_activity_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

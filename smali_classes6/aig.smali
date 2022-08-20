@@ -37,7 +37,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -158,12 +158,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0e097e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_ss_namemanagement_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0e0f69
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ss_namemanagement_item_layout:I
 
     :goto_0
     const/4 v0, 0x0
@@ -173,7 +173,7 @@
     move-result-object p2
 
     :cond_1
-    const p3, 0x7f0b2fcd
+    sget p3, Lcom/resouce/module/ResID;->title:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     check-cast p3, Landroid/widget/TextView;
 
-    const v0, 0x7f0b066c
+    sget v0, Lcom/resouce/module/ResID;->detail:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

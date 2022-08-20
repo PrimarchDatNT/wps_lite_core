@@ -586,7 +586,7 @@
 
     move-object/from16 v20, v0
 
-    const v0, 0x7f12048a
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_error_tips:I
 
     if-eqz v19, :cond_3
 
@@ -643,7 +643,7 @@
 
     iget-object v0, v0, Lg1b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12048d
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_file_size_out_of_limit_error:I
 
     .line 31
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -824,7 +824,7 @@
 
     move-object/from16 v21, v2
 
-    const v2, 0x7f120497
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_timeout_tips:I
 
     :try_start_f
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1022,7 +1022,7 @@
 
     move-object/from16 v21, v2
 
-    const v2, 0x7f120496
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_termination_error_tips:I
 
     :try_start_12
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1103,7 +1103,7 @@
 
     move-object/from16 v21, v2
 
-    const v2, 0x7f12048a
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_error_tips:I
 
     :try_start_16
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -239,7 +239,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1218e5
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_template_pic:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1058,7 +1058,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c05
+    sget v1, Lcom/resouce/module/ResID;->export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1077,7 +1077,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b07eb
+    sget v1, Lcom/resouce/module/ResID;->edit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -55,12 +55,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0516
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_documents_legal_provision:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e06a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_legal_provision:I
 
     :goto_0
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 3
     iget-object v0, p0, Lqt8;->e:Lhd3;
 
-    const v1, 0x7f1205c6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_legal_provision:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -194,7 +194,7 @@
     .line 6
     new-instance v2, Lot8;
 
-    const v3, 0x7f12054c
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_activation_statistics:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -208,7 +208,7 @@
     :cond_0
     new-instance v2, Lot8;
 
-    const v3, 0x7f122223
+    sget v3, Lcom/resouce/module/ResSTRING;->public_gdpr_user_policy_item_data_collection:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -228,7 +228,7 @@
     .line 9
     new-instance v2, Lot8;
 
-    const v3, 0x7f12220c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_gdpr_ad_data_setting_title_tips:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -240,7 +240,7 @@
     :cond_2
     new-instance v2, Lot8;
 
-    const v3, 0x7f1205b4
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_final_user_agreement:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -251,7 +251,7 @@
     .line 11
     new-instance v2, Lot8;
 
-    const v3, 0x7f1206ab
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_technology_agreement:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -262,7 +262,7 @@
     .line 12
     new-instance v2, Lot8;
 
-    const v3, 0x7f121c9a
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_policy_private_policy:I
 
     iget-object v4, p0, Lqt8;->f:Lot8$a;
 
@@ -287,7 +287,7 @@
     .line 1
     iget-object v0, p0, Lqt8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b077c
+    sget v1, Lcom/resouce/module/ResID;->documents_more_legal_provision_items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

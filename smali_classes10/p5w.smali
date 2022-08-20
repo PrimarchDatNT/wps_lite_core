@@ -80,7 +80,7 @@
     .line 1
     iget-object v0, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
     .line 1
     iget-object p2, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v0, 0x7f122ea5
+    sget v0, Lcom/resouce/module/ResSTRING;->search_resule_login_tip:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

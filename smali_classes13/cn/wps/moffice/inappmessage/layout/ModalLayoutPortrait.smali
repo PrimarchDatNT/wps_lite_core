@@ -40,7 +40,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b022a
+    sget v1, Lcom/resouce/module/ResID;->body_scroll:I
 
     if-eq v0, v1, :cond_1
 
@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b12a2
+    sget v0, Lcom/resouce/module/ResID;->image_view:I
 
     if-ne p1, v0, :cond_0
 

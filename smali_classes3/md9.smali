@@ -84,7 +84,7 @@
     .line 1
     iget-object v0, p0, Lmd9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     :cond_0
     iget-object v0, p0, Lmd9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b108c
+    sget v1, Lcom/resouce/module/ResID;->home_left_menu_interceptor:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
     .line 1
     iget-object v0, p0, Lmd9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
     :cond_0
     iget-object v0, p0, Lmd9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     :cond_1
     iget-object v0, p0, Lmd9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b108c
+    sget v1, Lcom/resouce/module/ResID;->home_left_menu_interceptor:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

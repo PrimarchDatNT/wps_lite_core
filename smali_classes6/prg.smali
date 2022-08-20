@@ -79,7 +79,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b218e
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2d7a
+    sget v0, Lcom/resouce/module/ResID;->ss_tvmeeting_bar_layout:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -678,7 +678,7 @@
     .line 2
     iget-object v0, p0, Lprg;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

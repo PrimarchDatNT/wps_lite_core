@@ -66,7 +66,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cae
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_history_downloading:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0ba7
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_dialog_text_cycle_progress_layout:I
 
     const/4 v0, 0x0
 
@@ -159,7 +159,7 @@
 
     move-result p2
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     if-eqz p2, :cond_1
 

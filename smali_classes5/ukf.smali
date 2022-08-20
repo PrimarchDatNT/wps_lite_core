@@ -154,7 +154,7 @@
 
     iput-object v0, p0, Lukf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2549
+    sget v1, Lcom/resouce/module/ResID;->progress_progressbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

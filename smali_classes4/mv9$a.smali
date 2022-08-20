@@ -210,12 +210,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f1231be
+    sget v0, Lcom/resouce/module/ResSTRING;->website_function_no_online:I
 
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f122535
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     .line 15
     :goto_0

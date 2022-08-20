@@ -29,7 +29,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0c4a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_html_network_error_page:I
 
     return v0
 .end method
@@ -37,7 +37,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0b24eb
+    sget v0, Lcom/resouce/module/ResID;->press_back:I
 
     return v0
 .end method
@@ -45,7 +45,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0b28fd
+    sget v0, Lcom/resouce/module/ResID;->retry_layout:I
 
     return v0
 .end method

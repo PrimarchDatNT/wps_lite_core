@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120584
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

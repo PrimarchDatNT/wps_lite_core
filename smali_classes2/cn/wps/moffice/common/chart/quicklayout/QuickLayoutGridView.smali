@@ -169,12 +169,12 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0e0b3d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_quicklayout_grid_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0840
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_chart_quicklayout_grid_layout:I
 
     .line 10
     :goto_0
@@ -186,7 +186,7 @@
 
     invoke-virtual {p1, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b258d
+    sget p1, Lcom/resouce/module/ResID;->public_chart_quicklayout_gridview:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0b2590
+    sget p1, Lcom/resouce/module/ResID;->public_chart_style_support:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/chart/quicklayout/QuickLayoutGridView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b2591
+    sget p1, Lcom/resouce/module/ResID;->public_chart_style_unsupport:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

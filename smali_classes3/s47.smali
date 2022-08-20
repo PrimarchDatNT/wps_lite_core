@@ -64,7 +64,7 @@
 
     if-nez p3, :cond_0
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p1, p2, v7}, Lbih;->n(Landroid/content/Context;II)V
@@ -84,7 +84,7 @@
 
     if-eqz p3, :cond_1
 
-    const p2, 0x7f122002
+    sget p2, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_and_copy_upload_toast_uploading:I
 
     .line 6
     invoke-static {p1, p2, v7}, Lbih;->n(Landroid/content/Context;II)V

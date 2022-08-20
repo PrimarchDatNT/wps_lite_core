@@ -72,9 +72,9 @@
     .line 3
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$ToolbarItemInsertCellGroup;
 
-    const p3, 0x7f080e6a
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_xls_et:I
 
-    const v0, 0x7f122a4a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_table_cell:I
 
     invoke-direct {p2, p0, p3, v0}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$ToolbarItemInsertCellGroup;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
 
@@ -102,9 +102,9 @@
     .line 7
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Righter;
 
-    const p3, 0x7f080e30
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_cells:I
 
-    const v0, 0x7f120c78
+    sget v0, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_right:I
 
     invoke-direct {p2, p0, p3, v0}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Righter;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
 
@@ -115,12 +115,12 @@
 
     if-eqz p3, :cond_0
 
-    const v1, 0x7f08142f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_cellinsert_toright:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e31
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_cells_et:I
 
     :goto_0
     if-eqz p3, :cond_1
@@ -128,7 +128,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f12159f
+    sget v0, Lcom/resouce/module/ResSTRING;->pad_et_toolbar_insert_right:I
 
     :goto_1
     invoke-direct {p2, p0, v1, v0}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Righter;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
@@ -138,9 +138,9 @@
     .line 9
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Bottomer;
 
-    const v0, 0x7f080e46
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_plug_in_move_down:I
 
-    const v1, 0x7f120c76
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_down:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Bottomer;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
 
@@ -151,12 +151,12 @@
 
     if-eqz v0, :cond_2
 
-    const v2, 0x7f08142e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_cellinsert_tobottom:I
 
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f080e47
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_plug_in_move_down_et:I
 
     :goto_2
     if-eqz v0, :cond_3
@@ -164,7 +164,7 @@
     goto :goto_3
 
     :cond_3
-    const v1, 0x7f12159d
+    sget v1, Lcom/resouce/module/ResSTRING;->pad_et_toolbar_insert_down:I
 
     :goto_3
     invoke-direct {p3, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$Insert2Bottomer;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
@@ -174,9 +174,9 @@
     .line 11
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertRow;
 
-    const v1, 0x7f080e34
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_row:I
 
-    const v2, 0x7f120c79
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_row:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertRow;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
 
@@ -187,12 +187,12 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f08045e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_insert_row:I
 
     goto :goto_4
 
     :cond_4
-    const v1, 0x7f080e35
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_row_et:I
 
     :goto_4
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertRow;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
@@ -202,9 +202,9 @@
     .line 13
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertCol;
 
-    const v2, 0x7f080e32
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_column:I
 
-    const v3, 0x7f120c75
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_col:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertCol;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
 
@@ -215,12 +215,12 @@
 
     if-eqz v2, :cond_5
 
-    const v2, 0x7f08045d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_insert_column:I
 
     goto :goto_5
 
     :cond_5
-    const v2, 0x7f080e33
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_insert_column_et:I
 
     :goto_5
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell$InsertCol;-><init>(Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;II)V
@@ -240,11 +240,11 @@
 
     move-result-object v5
 
-    const v6, 0x7f122a4a
+    sget v6, Lcom/resouce/module/ResSTRING;->public_table_cell:I
 
-    const v7, 0x7f08045c
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_table_insert_cells:I
 
-    const v8, 0x7f122a4a
+    sget v8, Lcom/resouce/module/ResSTRING;->public_table_cell:I
 
     move-object v3, v2
 
@@ -668,7 +668,7 @@
 .method public final r(Landroid/content/Context;Landroid/widget/LinearLayout;Landroid/view/LayoutInflater;Lcn/wps/moffice/spreadsheet/item/ImageTextItem;)V
     .locals 2
 
-    const v0, 0x7f0e058a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_menu_popup_list_item:I
 
     const/4 v1, 0x0
 
@@ -712,7 +712,7 @@
     invoke-virtual {p1, p4}, Lwhf;->Z(Lwhf$a;)Z
 
     :cond_0
-    const p1, 0x7f0b2278
+    sget p1, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
     .line 6
     invoke-virtual {p3, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f0b2277
+    sget p1, Lcom/resouce/module/ResID;->popup_list_item_image:I
 
     .line 8
     invoke-virtual {p3, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -908,7 +908,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -942,9 +942,9 @@
     .line 12
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/insdel/InsertCell;->b0:Ljava/util/List;
 
-    const v5, 0x7f0b2278
+    sget v5, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
-    const v6, 0x7f0e05eb
+    sget v6, Lcom/resouce/module/ResLAYOUT;->pad_title_bar_list_title:I
 
     if-eqz v4, :cond_1
 
@@ -962,7 +962,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f120c74
+    sget v8, Lcom/resouce/module/ResSTRING;->et_toolbar_insert_cell:I
 
     .line 15
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setText(I)V
@@ -1014,7 +1014,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f060259
+    sget v9, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1085,7 +1085,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f120c6e
+    sget v4, Lcom/resouce/module/ResSTRING;->et_toolbar_delete_cell:I
 
     .line 31
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V

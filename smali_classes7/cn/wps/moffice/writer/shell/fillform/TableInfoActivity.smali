@@ -123,7 +123,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f123437
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_user_table_add:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -144,7 +144,7 @@
 
     invoke-direct {v2, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f123438
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_user_table_edit:I
 
     .line 5
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -163,7 +163,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -219,7 +219,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f1232cf
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_is_keep:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -229,7 +229,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1232d0
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_is_save:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -244,7 +244,7 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f1232d1
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_keep:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -254,7 +254,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f1232d9
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_save:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -273,7 +273,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f1232d2
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_no_keep:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -283,7 +283,7 @@
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f1232d4
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_no_save:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -300,7 +300,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232bc
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_cancel:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

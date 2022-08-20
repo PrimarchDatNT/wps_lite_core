@@ -51,7 +51,7 @@
 
     move-result v0
 
-    const v1, 0x7f122392
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const/4 v2, 0x0
 
@@ -163,7 +163,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122b8c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_usertemplate_already_exists:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

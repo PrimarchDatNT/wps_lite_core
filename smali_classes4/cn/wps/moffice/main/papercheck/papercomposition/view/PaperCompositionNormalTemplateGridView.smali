@@ -240,11 +240,11 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0d5c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_normal_temlate_grid:I
 
     invoke-static {p1, p2, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1a5c
+    sget p1, Lcom/resouce/module/ResID;->normal_template_other_tv:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0549
+    sget p1, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionNormalTemplateGridView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b040b
+    sget p1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionNormalTemplateGridView;->T:Landroid/view/View;
 
-    const p1, 0x7f0b1a59
+    sget p1, Lcom/resouce/module/ResID;->normal_template_grid_college_item:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -331,7 +331,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionNormalTemplateGridView;->U:Lcn/wps/moffice/main/papercheck/papercomposition/view/NormalTemplateGridItemView;
 
-    const p1, 0x7f0b1a58
+    sget p1, Lcom/resouce/module/ResID;->normal_template_grid_bachelor_item:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionNormalTemplateGridView;->V:Lcn/wps/moffice/main/papercheck/papercomposition/view/NormalTemplateGridItemView;
 
-    const p1, 0x7f0b1a5a
+    sget p1, Lcom/resouce/module/ResID;->normal_template_grid_graduate_item:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionNormalTemplateGridView;->W:Lcn/wps/moffice/main/papercheck/papercomposition/view/NormalTemplateGridItemView;
 
-    const p1, 0x7f0b1a5b
+    sget p1, Lcom/resouce/module/ResID;->normal_template_grid_master_item:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -546,7 +546,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123093
+    sget v2, Lcom/resouce/module/ResSTRING;->template_none:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -583,7 +583,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1a5c
+    sget v0, Lcom/resouce/module/ResID;->normal_template_other_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -605,7 +605,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12250e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

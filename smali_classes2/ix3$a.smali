@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0600ea
+    sget p3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 

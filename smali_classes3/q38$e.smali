@@ -162,7 +162,7 @@
 
     iget-object p1, p1, Lq38;->B:Landroid/content/Context;
 
-    const v0, 0x7f120623
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -182,7 +182,7 @@
     :cond_7
     iget-object p1, v1, Lq38;->B:Landroid/content/Context;
 
-    const v0, 0x7f120649
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_open_failed:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -280,7 +280,7 @@
 
     iget-object p1, p1, Lq38;->B:Landroid/content/Context;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -292,7 +292,7 @@
 
     iget-object p1, p1, Lq38;->B:Landroid/content/Context;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 

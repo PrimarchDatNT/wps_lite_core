@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a0d
+    sget v1, Lcom/resouce/module/ResSTRING;->pickerview_year:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a0b
+    sget v1, Lcom/resouce/module/ResSTRING;->pickerview_month:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121a08
+    sget v1, Lcom/resouce/module/ResSTRING;->pickerview_day:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -127,7 +127,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0956
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_date_keyboard_date_picker:I
 
     .line 9
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/DatePicker$a;-><init>(Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/DatePicker;)V
 
-    const v0, 0x7f0b222c
+    sget v0, Lcom/resouce/module/ResID;->pickers:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/DatePicker;->a0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36e6
+    sget v0, Lcom/resouce/module/ResID;->year:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker;->setFormatter(Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker$d;)V
 
-    const v0, 0x7f0b18cb
+    sget v0, Lcom/resouce/module/ResID;->month:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
     .line 19
     invoke-virtual {v0, p1}, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker;->setOnValueChangedListener(Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker$f;)V
 
-    const v0, 0x7f0b062d
+    sget v0, Lcom/resouce/module/ResID;->day:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.WhRationFrameLayout android:orientation="vertical" android:id="@id/native_ad_parent" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/public_common_margin_8_dp" android:layout_marginRight="@dimen/public_common_margin_8_dp" android:layout_marginStart="@dimen/public_common_margin_8_dp" android:layout_marginEnd="@dimen/public_common_margin_8_dp" app:wh_ration="344:54"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/native_ad_main_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-    </FrameLayout>
-    <TextView android:layout_gravity="end" android:id="@id/close_button" android:background="@drawable/splash_ad_close_enlarged" android:layout_width="30.0dip" android:layout_height="30.0dip" />
-    <TextView android:textSize="9.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/ad_sign" android:background="@drawable/public_ad_splash_ad_sign_bg" android:layout_width="24.0dip" android:layout_height="18.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="2.0dip" android:minWidth="18.0dip" android:text="AD" android:layout_marginStart="2.0dip" />
-</cn.wps.moffice.common.WhRationFrameLayout>

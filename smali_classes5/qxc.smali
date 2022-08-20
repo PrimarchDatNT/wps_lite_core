@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d40
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_titlebar_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -66,7 +66,7 @@
     .line 6
     iput-object p3, p0, Lqxc;->U:Landroid/view/View;
 
-    const p1, 0x7f0b1f36
+    sget p1, Lcom/resouce/module/ResID;->pdf_small_title_text:I
 
     .line 7
     invoke-virtual {p3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     iput v0, p0, Lqxc;->X:I
 
-    const v0, 0x7f070816
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_small_title_bar_height:I
 
     .line 3
     invoke-virtual {p0, v0}, Lqxc;->e(I)I

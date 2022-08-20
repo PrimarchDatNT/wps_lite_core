@@ -35,7 +35,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f04042e
+    sget v0, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     .line 10
     invoke-direct {p0, p1, p2, v0}, Lcn/wps/moffice/common/beans/NewSpinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -92,7 +92,7 @@
 
     const/4 p2, 0x3
 
-    const p3, 0x7f081205
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg:I
 
     .line 6
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -103,7 +103,7 @@
 
     const/16 p2, 0xa
 
-    const p3, 0x7f081208
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_focused_bg:I
 
     .line 7
     invoke-virtual {p1, p2, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -372,7 +372,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f130783
+    sget p1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_below_anim_style:I
 
     .line 8
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/NewDropDownButton;->setDropDownAnimationStyle(I)V
@@ -381,7 +381,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f130782
+    sget p1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     .line 9
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/NewDropDownButton;->setDropDownAnimationStyle(I)V

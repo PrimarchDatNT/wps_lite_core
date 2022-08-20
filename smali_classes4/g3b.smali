@@ -21,14 +21,14 @@
     .line 1
     iget-object v0, p0, Le3b;->h0:Landroid/widget/TextView;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 2
     iget-object v0, p0, Le3b;->S:Landroid/view/View;
 
-    const v1, 0x7f0605e5
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -94,7 +94,7 @@
     .line 7
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -242,7 +242,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1203c5
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_fix_unsupoort_file_type:I
 
     const/4 v0, 0x0
 
@@ -286,7 +286,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f12039e
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_fix_check_file_no_exist:I
 
     const/4 v0, 0x0
 
@@ -385,7 +385,7 @@
 
     if-ltz v4, :cond_0
 
-    const v0, 0x7f1203a7
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_file_too_large:I
 
     const/4 v1, 0x0
 
@@ -448,7 +448,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f1203bd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_notification_is_open_content:I
 
     const/4 v1, 0x0
 
@@ -484,7 +484,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f1203a0
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_dex_eror:I
 
     .line 2
     invoke-static {p0, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -945,7 +945,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120147
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

@@ -802,7 +802,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d3b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
@@ -2713,7 +2713,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -2726,7 +2726,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011a
+    sget v1, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -2994,7 +2994,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011a
+    sget v3, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {v2, v3}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -5109,7 +5109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d3b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 

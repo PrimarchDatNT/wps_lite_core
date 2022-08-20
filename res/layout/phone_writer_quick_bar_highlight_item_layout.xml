@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" pressAlphaEnableWhenRipple="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/writer_quick_bar_highlight_btn" android:padding="8.0dip" android:focusable="true" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/comp_style_highlight1" android:scaleType="fitCenter" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

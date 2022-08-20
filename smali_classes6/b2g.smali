@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_file_size_reduce_tips_bar:I
 
     const/4 v2, 0x0
 
@@ -212,7 +212,7 @@
 
     iput-object v0, p0, Lb2g;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2fcc
+    sget v1, Lcom/resouce/module/ResID;->tipsbar_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
     .line 3
     iget-object v1, p0, Lb2g;->d:Landroid/view/View;
 
-    const v2, 0x7f0b2615
+    sget v2, Lcom/resouce/module/ResID;->public_go_to_file_size_reduce:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122a16
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ss_formtool_pop_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f122a15
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ss_formtool_pop_goto_tips:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

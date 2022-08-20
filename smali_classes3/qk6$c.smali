@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0420
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_novel_pic:I
 
     const/4 v2, 0x0
 
@@ -148,7 +148,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b2db9    # 1.850001E38f
+    sget v1, Lcom/resouce/module/ResID;->storyImage:I    # 1.850001E38f
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

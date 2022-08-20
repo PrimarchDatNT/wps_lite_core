@@ -260,7 +260,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0acb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_quickstyle_viewstub_pad:I
 
     const/4 v2, 0x0
 
@@ -568,7 +568,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_0
 
@@ -578,7 +578,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_1
 

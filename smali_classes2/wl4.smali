@@ -168,7 +168,7 @@
 .method public f(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b19bf
+    sget v0, Lcom/resouce/module/ResID;->nav_item_click_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f0b19bf
+    sget p4, Lcom/resouce/module/ResID;->nav_item_click_layout:I
 
     .line 3
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -287,7 +287,7 @@
     .line 4
     sget v0, Lvl4;->i:I
 
-    const v1, 0x7f0b19c3
+    sget v1, Lcom/resouce/module/ResID;->nav_item_sub_doc_close_btn:I
 
     if-ne v0, p1, :cond_6
 
@@ -419,7 +419,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p2, 0x7f0b19c4
+    sget p2, Lcom/resouce/module/ResID;->nav_item_title:I
 
     invoke-virtual {p3, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -896,7 +896,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19c1
+    sget v1, Lcom/resouce/module/ResID;->nav_item_icon:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -930,7 +930,7 @@
 
     :cond_1
     :goto_0
-    const p3, 0x7f0b19c4
+    sget p3, Lcom/resouce/module/ResID;->nav_item_title:I
 
     .line 8
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -975,7 +975,7 @@
     const/4 p3, 0x0
 
     :goto_1
-    const v0, 0x7f0b19c5
+    sget v0, Lcom/resouce/module/ResID;->nav_main_item_click_layout:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

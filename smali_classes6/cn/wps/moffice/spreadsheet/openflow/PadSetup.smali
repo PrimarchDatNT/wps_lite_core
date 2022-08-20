@@ -101,14 +101,14 @@
 
     new-array v3, v2, [Ljava/lang/String;
 
-    const v4, 0x7f0b2d79
+    sget v4, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     invoke-virtual {v0, v4, v1, v2, v3}, Lqif;->i(ILcn/wps/moffice/spreadsheet/baseframe/fragment/AbsFragment;Z[Ljava/lang/String;)V
 
     .line 6
     invoke-virtual {p0}, Llyg;->u()V
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 7
     invoke-virtual {p0, v0}, Llyg;->h(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/openflow/PadSetup;->e0:Lcn/wps/moffice/spreadsheet/control/grid/shell/GridSurfaceView;
 
-    const v0, 0x7f0b2d03
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_shadow_view:I
 
     .line 8
     invoke-virtual {p0, v0}, Llyg;->h(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 9
     new-instance v1, Lrqg;
 
-    const v2, 0x7f0b0ab3
+    sget v2, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 10
     new-instance v1, Lalf;
 
-    const v2, 0x7f0b0907
+    sget v2, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -167,7 +167,7 @@
 
     iget-object v4, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v2, 0x7f0b0bd9
+    sget v2, Lcom/resouce/module/ResID;->et_viewstub_keyboard:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
 
     check-cast v5, Landroid/view/ViewStub;
 
-    const v2, 0x7f0b33cf
+    sget v2, Lcom/resouce/module/ResID;->viewstub_edit_layout:I
 
     .line 12
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iget-object v7, p0, Llyg;->I:Lk2m;
 
-    const v2, 0x7f0b33d1
+    sget v2, Lcom/resouce/module/ResID;->viewstub_new_cell_edit_layout:I
 
     .line 13
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     iget-object v1, p0, Llyg;->B:Lcn/wps/moffice/spreadsheet/multiactivity/MultiSpreadSheet;
 
-    const v2, 0x7f0b33d4
+    sget v2, Lcom/resouce/module/ResID;->viewstub_progressbar:I
 
     invoke-virtual {p0, v2}, Llyg;->h(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
 
     iget-object v6, p0, Lcn/wps/moffice/spreadsheet/openflow/PadSetup;->h0:La0g;
 
-    const v1, 0x7f0b2d1c
+    sget v1, Lcom/resouce/module/ResID;->ss_moji_stub:I
 
     invoke-virtual {p0, v1}, Llyg;->h(I)Landroid/view/View;
 
@@ -636,7 +636,7 @@
     .line 12
     invoke-virtual {v0, v4}, Llyg;->b(Lcn/wps/moffice/spreadsheet/baseframe/AutoDestroy$a;)V
 
-    const v5, 0x7f0b33cb
+    sget v5, Lcom/resouce/module/ResID;->viewstub_animte_layout:I
 
     .line 13
     invoke-virtual {v0, v5}, Llyg;->h(I)Landroid/view/View;
@@ -734,7 +734,7 @@
     .line 24
     new-instance v7, Lcn/wps/moffice/spreadsheet/control/PadCellJumper;
 
-    const v8, 0x7f0b33cc
+    sget v8, Lcom/resouce/module/ResID;->viewstub_celljump_layout:I
 
     invoke-virtual {v0, v8}, Llyg;->h(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
     .line 27
     new-instance v8, Ltvf;
 
-    const v9, 0x7f0b0ab1
+    sget v9, Lcom/resouce/module/ResID;->et_main_top:I
 
     invoke-virtual {v0, v9}, Llyg;->h(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
 
     iget-object v10, v0, Lcn/wps/moffice/spreadsheet/openflow/PadSetup;->h0:La0g;
 
-    const v12, 0x7f0b0907
+    sget v12, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {v0, v12}, Llyg;->h(I)Landroid/view/View;
 
@@ -1305,7 +1305,7 @@
 
     move-object/from16 v41, v1
 
-    const v1, 0x7f0b33d2
+    sget v1, Lcom/resouce/module/ResID;->viewstub_note_edit_layout:I
 
     invoke-virtual {v0, v1}, Llyg;->h(I)Landroid/view/View;
 
@@ -1517,7 +1517,7 @@
 
     iget-object v4, v0, Lcn/wps/moffice/spreadsheet/openflow/PadSetup;->e0:Lcn/wps/moffice/spreadsheet/control/grid/shell/GridSurfaceView;
 
-    const v10, 0x7f0b33d6
+    sget v10, Lcom/resouce/module/ResID;->viewstub_shape_edit_layout:I
 
     invoke-virtual {v0, v10}, Llyg;->h(I)Landroid/view/View;
 
@@ -1967,9 +1967,9 @@
     .line 186
     new-instance v5, Lcn/wps/moffice/spreadsheet/openflow/PadSetup$5;
 
-    const v6, 0x7f080bce
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_history_et:I
 
-    const v10, 0x7f122262
+    sget v10, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     invoke-direct {v5, v0, v6, v10}, Lcn/wps/moffice/spreadsheet/openflow/PadSetup$5;-><init>(Lcn/wps/moffice/spreadsheet/openflow/PadSetup;II)V
 
@@ -2967,7 +2967,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b0907
+    sget v3, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     .line 292
     invoke-virtual {v0, v3}, Llyg;->h(I)Landroid/view/View;
@@ -2978,7 +2978,7 @@
 
     invoke-interface {v1, v3}, Lbif;->e(Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;)V
 
-    const v3, 0x7f0b0ab1
+    sget v3, Lcom/resouce/module/ResID;->et_main_top:I
 
     .line 293
     invoke-virtual {v0, v3}, Llyg;->h(I)Landroid/view/View;
@@ -3043,7 +3043,7 @@
 
     invoke-interface {v1, v3}, Lbif;->d(Lukf;)V
 
-    const v3, 0x7f0b0b73
+    sget v3, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     .line 304
     invoke-virtual {v0, v3}, Llyg;->h(I)Landroid/view/View;

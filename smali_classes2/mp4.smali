@@ -50,7 +50,7 @@
     .line 3
     iget-object v3, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v4, 0x7f122549
+    sget v4, Lcom/resouce/module/ResSTRING;->public_nospaceleft_member_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
     .line 5
     iget-object v3, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v4, 0x7f120fe8
+    sget v4, Lcom/resouce/module/ResSTRING;->home_multi_select_star_fail_content:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -107,7 +107,7 @@
     .line 2
     iget-object v2, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f120fef
+    sget v3, Lcom/resouce/module/ResSTRING;->home_multi_star_out_of_space_title:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -161,7 +161,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ed5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

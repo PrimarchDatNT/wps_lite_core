@@ -899,12 +899,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e074d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_recents_oversea_layout_v2:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e074c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_recents_layout_v2:I
 
     :goto_0
     const/4 v2, 0x0
@@ -917,7 +917,7 @@
 
     iput-object v0, p0, Lf1a;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b075a
+    sget v1, Lcom/resouce/module/ResID;->documentRecyclerView:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -984,7 +984,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c35
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_list_footer_layout:I
 
     iget-object v2, p0, Lf1a;->d:Lcn/wps/moffice/common/beans/ExtendRecyclerView;
 

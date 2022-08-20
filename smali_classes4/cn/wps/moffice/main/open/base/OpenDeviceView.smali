@@ -259,7 +259,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070343
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_item_available_max_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -276,7 +276,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070348
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_item_round_progress_txt_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

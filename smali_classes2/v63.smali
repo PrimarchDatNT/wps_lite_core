@@ -30,9 +30,9 @@
     .line 2
     check-cast p0, Landroid/app/Activity;
 
-    const v0, 0x7f01005c
+    sget v0, Lcom/resouce/module/ResANIM;->pad_activity_fade_in:I
 
-    const v1, 0x7f01003d
+    sget v1, Lcom/resouce/module/ResANIM;->empty:I
 
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -57,9 +57,9 @@
     .line 2
     check-cast p0, Landroid/app/Activity;
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
-    const v1, 0x7f01005d
+    sget v1, Lcom/resouce/module/ResANIM;->pad_activity_fade_out:I
 
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
 

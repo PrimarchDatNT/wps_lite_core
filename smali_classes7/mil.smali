@@ -359,7 +359,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0e79
+    sget v0, Lcom/resouce/module/ResID;->format_bg:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -540,7 +540,7 @@
 .method public final W2(Llhl;)V
     .locals 2
 
-    const v0, 0x7f0e1034
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_read_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -549,7 +549,7 @@
 
     invoke-virtual {p0, v0}, Loal;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b0e7c
+    sget v0, Lcom/resouce/module/ResID;->format_more:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -560,7 +560,7 @@
 
     iput-object v0, p0, Lmil;->n0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0e7b
+    sget v0, Lcom/resouce/module/ResID;->format_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     iput-object v0, p0, Lmil;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b1c7a
+    sget v0, Lcom/resouce/module/ResID;->pager:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -583,7 +583,7 @@
     .line 5
     new-instance v0, Lubl;
 
-    const v1, 0x7f0b2ff2
+    sget v1, Lcom/resouce/module/ResID;->title_container:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -626,7 +626,7 @@
 
     iput-object p1, p0, Lmil;->p0:Llil;
 
-    const p1, 0x7f0b0e79
+    sget p1, Lcom/resouce/module/ResID;->format_bg:I
 
     .line 9
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

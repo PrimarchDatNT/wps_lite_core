@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0bc1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_link_share_progress:I
 
     const/4 v1, 0x0
 
@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b30fa
+    sget v0, Lcom/resouce/module/ResID;->tvText:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

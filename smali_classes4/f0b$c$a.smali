@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203ed
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_copy:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

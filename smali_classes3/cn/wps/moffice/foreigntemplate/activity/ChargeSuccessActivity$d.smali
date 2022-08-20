@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1216ab
+    sget p2, Lcom/resouce/module/ResSTRING;->pay_processing:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f080fd7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->payment_ing:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -340,7 +340,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122755
+    sget p2, Lcom/resouce/module/ResSTRING;->public_purchase_restore_success_tip:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -353,7 +353,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f122752
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_restore_success:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -373,7 +373,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1216b9
+    sget v1, Lcom/resouce/module/ResSTRING;->pay_success_tips:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12275b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_version_attention:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123098
+    sget v1, Lcom/resouce/module/ResSTRING;->template_payment_success:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -457,7 +457,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f123097
+    sget v0, Lcom/resouce/module/ResSTRING;->template_payment_ok:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -483,7 +483,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081aaf
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_pay_success_icon:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -682,7 +682,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12274f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_pay_failed:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -712,7 +712,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1225fe
+    sget v1, Lcom/resouce/module/ResSTRING;->public_payment_failed:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -733,7 +733,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f123096    # 1.9431956E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->template_payment_failed:I    # 1.9431956E38f
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -757,7 +757,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081aac
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_pay_failed_icon:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 

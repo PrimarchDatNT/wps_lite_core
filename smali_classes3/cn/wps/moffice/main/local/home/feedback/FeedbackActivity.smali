@@ -265,7 +265,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b167c
+    sget v1, Lcom/resouce/module/ResID;->ll_help:I
 
     if-ne v0, v1, :cond_0
 
@@ -306,7 +306,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b170c
+    sget v0, Lcom/resouce/module/ResID;->ll_whtasapp_join_group:I
 
     if-ne p1, v0, :cond_3
 
@@ -319,7 +319,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1215c1
+    sget v1, Lcom/resouce/module/ResSTRING;->page_not_support:I
 
     if-nez p1, :cond_2
 
@@ -413,7 +413,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/feedback/FeedbackActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b167c
+    sget v1, Lcom/resouce/module/ResID;->ll_help:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -424,7 +424,7 @@
     .line 8
     iget-object v1, p0, Lcn/wps/moffice/main/local/home/feedback/FeedbackActivity;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0fc7
+    sget v2, Lcom/resouce/module/ResID;->help_view_devide:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/main/local/home/feedback/FeedbackActivity;->B:Landroid/view/View;
 
-    const v3, 0x7f0b170c
+    sget v3, Lcom/resouce/module/ResID;->ll_whtasapp_join_group:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
     .line 10
     iget-object v3, p0, Lcn/wps/moffice/main/local/home/feedback/FeedbackActivity;->B:Landroid/view/View;
 
-    const v4, 0x7f0b3396
+    sget v4, Lcom/resouce/module/ResID;->view_devide:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

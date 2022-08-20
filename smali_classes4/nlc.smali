@@ -308,7 +308,7 @@
     .line 2
     iget-object v0, p0, Lnlc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ffa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel_tilte_common:I
 
     const/4 v2, 0x0
 
@@ -320,7 +320,7 @@
 
     iput-object v0, p0, Lnlc;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f1224d4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_modify_format:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -388,12 +388,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0ff8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel_content:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0ff9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel_content_landscape:I
 
     return v0
 .end method
@@ -404,7 +404,7 @@
     .line 1
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0e52
+    sget v1, Lcom/resouce/module/ResID;->font_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
     .line 2
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1de6
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_textsize:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -435,7 +435,7 @@
     .line 4
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1dde
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_increase:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
     .line 6
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1ddc
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_decrease:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -467,7 +467,7 @@
     .line 8
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1ddb
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_bold:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
     .line 10
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1ddf
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_italic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 12
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1de0
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_underline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -515,7 +515,7 @@
     .line 14
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1ddd
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_panel_font_delete_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -531,7 +531,7 @@
     .line 16
     iget-object v0, p0, Lnlc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1dd9
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -553,7 +553,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030072
+    sget v2, Lcom/resouce/module/ResARRAY;->pdf_text_color:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;

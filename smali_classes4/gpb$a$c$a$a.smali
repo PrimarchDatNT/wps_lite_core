@@ -47,7 +47,7 @@
 
     iget-object v0, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v1, 0x7f122916
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_success:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -62,7 +62,7 @@
 
     iget-object v2, v2, Lgpb$a;->V:Landroid/content/Context;
 
-    const v3, 0x7f121538
+    sget v3, Lcom/resouce/module/ResSTRING;->online_security_error_code_request_sent:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

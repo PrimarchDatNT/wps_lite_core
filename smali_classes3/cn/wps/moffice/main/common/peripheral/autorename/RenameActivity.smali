@@ -177,7 +177,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f122392
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const/4 v1, 0x0
 
@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122514
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -232,7 +232,7 @@
     .line 4
     iget-object v3, p0, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity;->B:Lhd3;
 
-    const v4, 0x7f0b1991
+    sget v4, Lcom/resouce/module/ResID;->name_text:I
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
     .line 5
     iget-object v3, p0, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity;->B:Lhd3;
 
-    const v4, 0x7f0b2897
+    sget v4, Lcom/resouce/module/ResID;->rename_edit:I
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -477,7 +477,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity;->B:Lhd3;
 
-    const v0, 0x7f0e0bac
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_doc_auto_rename_layout:I
 
     invoke-virtual {p1, v0}, Lhd3;->setView(I)Lhd3;
 
@@ -493,7 +493,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity;->B:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity$b;
 
@@ -504,7 +504,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity;->B:Lhd3;
 
-    const v0, 0x7f121f40
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v1, Lcn/wps/moffice/main/common/peripheral/autorename/RenameActivity$c;
 

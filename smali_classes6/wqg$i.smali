@@ -88,7 +88,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f120ba6
+    sget p1, Lcom/resouce/module/ResSTRING;->et_notsupportsheettype:I
 
     .line 5
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -243,7 +243,7 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

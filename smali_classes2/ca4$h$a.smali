@@ -186,7 +186,7 @@
 
     sget-object v2, Laa4$a;->I:Laa4$a;
 
-    const v3, 0x7f1229e8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_shoot_image:I
 
     if-ne v1, v2, :cond_2
 

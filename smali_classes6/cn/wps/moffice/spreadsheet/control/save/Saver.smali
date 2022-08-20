@@ -339,9 +339,9 @@
     .line 24
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/save/Saver$45;
 
-    const v1, 0x7f080bf6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_save_et:I
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/save/Saver$45;-><init>(Lcn/wps/moffice/spreadsheet/control/save/Saver;II)V
 
@@ -354,15 +354,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0803db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_share_save_as:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080da4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_save_as_et:I
 
     :goto_0
-    const v2, 0x7f122820
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/save/Saver$49;-><init>(Lcn/wps/moffice/spreadsheet/control/save/Saver;II)V
 
@@ -375,15 +375,15 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f080314
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_pdf:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080cda
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pdf_pdf:I
 
     :goto_1
-    const v2, 0x7f12209f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/save/Saver$50;-><init>(Lcn/wps/moffice/spreadsheet/control/save/Saver;II)V
 
@@ -2427,7 +2427,7 @@
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 7
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -2725,7 +2725,7 @@
 
     if-gtz v0, :cond_1
 
-    const p1, 0x7f122fc2
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_export_pages_empty_tips:I
 
     const/4 p2, 0x1
 
@@ -3780,7 +3780,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/save/Saver;->T:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v1, 0x7f120802
+    sget v1, Lcom/resouce/module/ResSTRING;->et_csv_save_warning:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3788,9 +3788,9 @@
 
     sget-object v5, Lhd3$h;->I:Lhd3$h;
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
-    const v3, 0x7f121f5e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     move-object v4, p1
 
@@ -3803,7 +3803,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lcn/wps/moffice/spreadsheet/control/save/Saver$i;-><init>(Lcn/wps/moffice/spreadsheet/control/save/Saver;Lhd3;Lujg;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -3825,7 +3825,7 @@
 
     invoke-direct {v3, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f121f89
+    sget v1, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_save_file_failed:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3993,7 +3993,7 @@
     .line 7
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 8
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -4454,7 +4454,7 @@
 
     if-gtz v0, :cond_1
 
-    const p1, 0x7f122fc2
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_export_pages_empty_tips:I
 
     const/4 p2, 0x1
 
@@ -4603,7 +4603,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/save/Saver;->T:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v2, 0x7f0b2d04
+    sget v2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4962,7 +4962,7 @@
 
     move-result v1
 
-    const v2, 0x7f122b46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v3, 0x0
 
@@ -6247,7 +6247,7 @@
 
     const-string v3, " [save] "
 
-    const v4, 0x7f0b2d04
+    sget v4, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     if-eqz v2, :cond_4
 
@@ -6576,7 +6576,7 @@
 
     if-nez v0, :cond_7
 
-    const p1, 0x7f120689
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_sdcard_umount_saveDeny:I
 
     .line 19
     invoke-static {p1, v2}, Lsjf;->h(II)V

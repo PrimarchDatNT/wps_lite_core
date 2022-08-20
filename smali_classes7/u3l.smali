@@ -52,7 +52,7 @@
 
     invoke-direct {v0, p0}, Lu3l$a;-><init>(Lu3l;)V
 
-    const v1, 0x7f0b314e
+    sget v1, Lcom/resouce/module/ResID;->tv_done:I
 
     const-string v2, "format_brush_finish"
 
@@ -79,7 +79,7 @@
     .line 3
     iget-object v0, p0, Lu3l;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0e09df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_format_brush_bar:I
 
     const/4 v2, 0x1
 
@@ -103,7 +103,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b21b2
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_format_brush_panel:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

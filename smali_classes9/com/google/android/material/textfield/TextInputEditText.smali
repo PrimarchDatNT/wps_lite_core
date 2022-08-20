@@ -36,7 +36,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0401f1
+    sget v0, Lcom/resouce/module/ResATTR;->editTextStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/textfield/TextInputEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -76,7 +76,7 @@
 
     new-array v7, v0, [I
 
-    const v6, 0x7f13035c
+    sget v6, Lcom/resouce/module/ResSTYLE;->Widget.Design.TextInputEditText:I
 
     move-object v2, p1
 
@@ -211,7 +211,7 @@
 
     if-lt v3, v4, :cond_0
 
-    const v3, 0x7f0b2f56
+    sget v3, Lcom/resouce/module/ResID;->textinput_helper_text:I
 
     .line 6
     invoke-virtual {p0, v3}, Landroid/widget/EditText;->setLabelFor(I)V
@@ -554,7 +554,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f07047b
+    sget v5, Lcom/resouce/module/ResDIMEN;->mtrl_edittext_rectangle_top_offset:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

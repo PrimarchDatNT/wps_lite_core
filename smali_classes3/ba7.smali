@@ -201,7 +201,7 @@
     .line 1
     iget-object v0, p0, Lp97;->S:Landroid/view/View;
 
-    const v1, 0x7f0b34ac
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_filelist_item_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 8
     iget-object p3, p0, Lba7;->a0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2e69
+    sget v0, Lcom/resouce/module/ResID;->tag_drive_item_id:I
 
     invoke-virtual {p3, v0, p1}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V
 
@@ -369,7 +369,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13d2
+    sget p2, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -382,7 +382,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b0c3e
+    sget p2, Lcom/resouce/module/ResID;->extra_msg:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -395,7 +395,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13c7
+    sget p2, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 4
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b06cb
+    sget p2, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

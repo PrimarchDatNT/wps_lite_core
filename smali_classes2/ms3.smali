@@ -384,7 +384,7 @@
 .method public final o3()V
     .locals 5
 
-    const v0, 0x7f0b3411
+    sget v0, Lcom/resouce/module/ResID;->web_article_password:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
     .line 4
     iget-object v0, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122be7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_web_article_lookup_anyone:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -424,7 +424,7 @@
 
     iget-object v3, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v4, 0x7f121987
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_public_login_view_password:I
 
     .line 6
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -481,7 +481,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0473
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_web_article_publish_settings:I
 
     const/4 v1, 0x0
 
@@ -492,7 +492,7 @@
     .line 3
     invoke-virtual {p0, p1}, Lyc3;->setContentView(Landroid/view/View;)V
 
-    const p1, 0x7f122bf5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_web_article_setting:I
 
     .line 4
     invoke-virtual {p0, p1}, Lyc3;->W2(I)V
@@ -514,7 +514,7 @@
 .method public final p3()V
     .locals 8
 
-    const v0, 0x7f0b1f70
+    sget v0, Lcom/resouce/module/ResID;->period_item_container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
 
     iput-object v0, p0, Lms3;->X:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b341f
+    sget v1, Lcom/resouce/module/ResID;->web_article_seven_day:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -535,7 +535,7 @@
     .line 3
     new-instance v1, Lqs3;
 
-    const v4, 0x7f121351
+    sget v4, Lcom/resouce/module/ResSTRING;->link_share_info_expired_time_seven_days:I
 
     const-wide/32 v5, 0x93a80
 
@@ -555,7 +555,7 @@
     .line 5
     iget-object v0, p0, Lms3;->X:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b3410
+    sget v1, Lcom/resouce/module/ResID;->web_article_forever:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -564,7 +564,7 @@
     .line 6
     new-instance v1, Lqs3;
 
-    const v2, 0x7f1223f2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_link_period_forever:I
 
     const-wide/16 v3, 0x0
 
@@ -578,7 +578,7 @@
     .line 8
     iget-object v0, p0, Lms3;->X:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b340f
+    sget v1, Lcom/resouce/module/ResID;->web_article_custom_period:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -589,7 +589,7 @@
 
     iget-object v2, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121fa8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_custom_validity:I
 
     .line 10
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -598,7 +598,7 @@
 
     iget-object v3, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v4, 0x7f12293b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_set_doc_access_validity:I
 
     .line 11
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

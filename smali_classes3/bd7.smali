@@ -211,7 +211,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122392
+    sget p2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const/4 p3, 0x0
 
@@ -493,7 +493,7 @@
 
     :cond_2
     :goto_0
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 4
     invoke-static {p2, p1}, Lq48;->e(Landroid/content/Context;I)V

@@ -323,7 +323,7 @@
     .line 1
     iget-object p2, p0, Lqhg;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e06c0
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_et_multi_condition_filter_list_item:I
 
     new-instance v0, Landroid/widget/RelativeLayout;
 
@@ -340,7 +340,7 @@
 
     invoke-direct {p3, p0, p2}, Lqhg$a;-><init>(Lqhg;Landroid/view/View;)V
 
-    const v0, 0x7f0b0d70
+    sget v0, Lcom/resouce/module/ResID;->filter_key_tv:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v0, p3, Lqhg$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d7c
+    sget v0, Lcom/resouce/module/ResID;->filter_value_tv:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

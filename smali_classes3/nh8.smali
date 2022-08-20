@@ -192,7 +192,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0d87
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_fanyi_histroy_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -203,7 +203,7 @@
 
     invoke-direct {p3}, Lnh8$c;-><init>()V
 
-    const v1, 0x7f0b0c6b
+    sget v1, Lcom/resouce/module/ResID;->fanyi_time_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     iput-object v1, p3, Lnh8$c;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c6c
+    sget v1, Lcom/resouce/module/ResID;->fanyi_title:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v1, p3, Lnh8$c;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c69
+    sget v1, Lcom/resouce/module/ResID;->fanyi_page_num_text:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -236,7 +236,7 @@
 
     iput-object v1, p3, Lnh8$c;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c65
+    sget v1, Lcom/resouce/module/ResID;->fanyi_lang_from:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     iput-object v1, p3, Lnh8$c;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c66
+    sget v1, Lcom/resouce/module/ResID;->fanyi_lang_to:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     iput-object v1, p3, Lnh8$c;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c6a
+    sget v1, Lcom/resouce/module/ResID;->fanyi_state_text:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -328,7 +328,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1226eb
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_page_num:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -396,7 +396,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -415,7 +415,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cac
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_history_checking:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -471,7 +471,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cad
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_history_complete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -514,7 +514,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -533,7 +533,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cb0
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_history_failed:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

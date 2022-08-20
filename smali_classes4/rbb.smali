@@ -210,7 +210,7 @@
     .line 1
     iget-object p2, p0, Lrbb;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e03b3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_shortcut_fastaccess_list_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -222,7 +222,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f0b0cd3
+    sget v1, Lcom/resouce/module/ResID;->file_icon:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v1, 0x7f0b0ce6
+    sget v1, Lcom/resouce/module/ResID;->file_name:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0d41
+    sget v1, Lcom/resouce/module/ResID;->file_update_time:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0d31
+    sget v1, Lcom/resouce/module/ResID;->file_src:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
 
     invoke-virtual {v1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0b06cf
+    sget p3, Lcom/resouce/module/ResID;->divider:I
 
     .line 11
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

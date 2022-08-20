@@ -278,7 +278,7 @@
 
     iget-object p2, p0, Ldpd;->d0:Landroid/content/Context;
 
-    const v0, 0x7f121b4e
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_audio_extracting_audio_file:I
 
     invoke-direct {p1, p2, v0}, Lsod;-><init>(Landroid/content/Context;I)V
 

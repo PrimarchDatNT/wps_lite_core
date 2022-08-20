@@ -237,7 +237,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120869
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_style_unknown:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

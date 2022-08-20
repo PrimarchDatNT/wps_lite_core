@@ -212,7 +212,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0703a3
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -487,7 +487,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0fb9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_normal_item_layout:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -510,7 +510,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0fb6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_local_ppt_text_item:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -740,7 +740,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

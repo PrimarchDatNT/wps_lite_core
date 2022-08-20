@@ -21,7 +21,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0604ce
+    sget v0, Lcom/resouce/module/ResCOLOR;->ppt_phone_rom_read_light_bg:I
 
     return v0
 .end method
@@ -29,7 +29,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0604c1
+    sget v0, Lcom/resouce/module/ResCOLOR;->ppt_phone_navigation_color_light:I
 
     return v0
 .end method
@@ -45,7 +45,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f060217
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_text:I
 
     return v0
 .end method
@@ -53,7 +53,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f060214
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     return v0
 .end method

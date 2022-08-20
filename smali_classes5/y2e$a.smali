@@ -55,7 +55,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1223be
+    sget v0, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     return v0
 .end method

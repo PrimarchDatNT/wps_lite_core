@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/public_home_create_item_rounded_rectangle_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="120.0dip" />
-    <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
-    <Button android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/tool_button" android:background="@drawable/phone_public_list_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/public_cancel" />
-</LinearLayout>

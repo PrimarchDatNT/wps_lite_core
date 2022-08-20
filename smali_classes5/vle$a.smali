@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     const/4 v1, 0x0
 

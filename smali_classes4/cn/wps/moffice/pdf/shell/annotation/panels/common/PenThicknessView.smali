@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06042c
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_pdf_ink_color_black:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081604
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

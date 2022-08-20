@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0eff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scene_item_click_layout:I
 
     const/4 v2, 0x0
 
@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b05b3
+    sget v1, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
     .line 4
     iput-object v1, p2, Llb6$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1995
+    sget v1, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
     .line 6
     iput-object v1, p2, Llb6$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0210
+    sget v1, Lcom/resouce/module/ResID;->bg_ll:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
     :cond_1
     iget-object p3, p2, Llb6$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081e8b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

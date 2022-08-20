@@ -277,7 +277,7 @@
 .method public static E(Landroid/app/Activity;I)V
     .locals 4
 
-    const v0, 0x7f1218a4
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_max_count:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -362,7 +362,7 @@
     .line 2
     invoke-virtual {p1, v0}, Lhz4;->f2(Lhz4$s0;)V
 
-    const v0, 0x7f1204b9
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_funcname:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1076,7 +1076,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1204b9
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_funcname:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

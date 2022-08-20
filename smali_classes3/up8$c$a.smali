@@ -82,7 +82,7 @@
 
     iget-object v0, v0, Lup8$c;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f081723
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_task_center:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

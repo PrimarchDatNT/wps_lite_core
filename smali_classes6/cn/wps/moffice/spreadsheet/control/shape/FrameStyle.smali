@@ -205,7 +205,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -213,7 +213,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20fd
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,12 +222,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f1221f6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_frame_style:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b20fc
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -250,13 +250,13 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e1020
+    sget v4, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_frame_style_layout:I
 
     invoke-virtual {v3, v4, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2143
+    sget v4, Lcom/resouce/module/ResID;->phone_ss_frame_real_line:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     check-cast v4, Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b213a
+    sget v5, Lcom/resouce/module/ResID;->phone_ss_frame_dashed_line:I
 
     .line 8
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     check-cast v5, Landroid/view/ViewGroup;
 
-    const v6, 0x7f0b213e
+    sget v6, Lcom/resouce/module/ResID;->phone_ss_frame_dot_line:I
 
     .line 9
     invoke-virtual {v3, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -355,7 +355,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0602db
+    sget v7, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -452,7 +452,7 @@
 
     move-result p1
 
-    const v2, 0x7f0b2143
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_frame_real_line:I
 
     if-ne p1, v2, :cond_2
 
@@ -462,7 +462,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0b213a
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_frame_dashed_line:I
 
     if-ne p1, v2, :cond_3
 
@@ -472,7 +472,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b213e
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_frame_dot_line:I
 
     if-ne p1, v2, :cond_4
 

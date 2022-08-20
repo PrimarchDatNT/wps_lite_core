@@ -112,7 +112,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1225e9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_passlenlimit:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

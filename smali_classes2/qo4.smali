@@ -63,7 +63,7 @@
 .method public constructor <init>(Landroid/app/Activity;Landroid/view/ViewGroup;JLrxp;Lqo4$a;Z)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -147,7 +147,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0cb6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_link_period_choose_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -157,7 +157,7 @@
 
     iput-object p1, p0, Lqo4;->I:Landroid/view/View;
 
-    const p2, 0x7f0b25b2
+    sget p2, Lcom/resouce/module/ResID;->public_docinfo_doc_title:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object p1, p0, Lqo4;->S:Landroid/widget/TextView;
 
-    const p2, 0x7f1223e8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_link_modify_period:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -176,7 +176,7 @@
     .line 4
     iget-object p1, p0, Lqo4;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1f8d
+    sget p2, Lcom/resouce/module/ResID;->peroid_item_container:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

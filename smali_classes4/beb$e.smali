@@ -69,7 +69,7 @@
 
     iget-object v0, v0, Lvdb;->I:Landroid/app/Activity;
 
-    const v1, 0x7f121344
+    sget v1, Lcom/resouce/module/ResSTRING;->law_pric:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     iget-object v1, v1, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f1202cc
+    sget v2, Lcom/resouce/module/ResSTRING;->collection_provider_cn_url:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

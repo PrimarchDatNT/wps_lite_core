@@ -25,7 +25,7 @@
 
     move-result v1
 
-    const v2, 0x7f121bf6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_by_miracast:I
 
     invoke-direct {v0, p0, v1, v2}, Lc1e$a;-><init>(Lc1e;II)V
 
@@ -77,12 +77,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0814c3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_miracast:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d70
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_miracast_ppt:I
 
     :goto_0
     return v0

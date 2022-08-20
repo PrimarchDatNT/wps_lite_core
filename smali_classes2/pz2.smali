@@ -21,7 +21,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x0
 
@@ -36,7 +36,7 @@
 .method public V2()I
     .locals 1
 
-    const v0, 0x7f0e00d9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_base_invite_cooperation:I
 
     return v0
 .end method
@@ -61,7 +61,7 @@
     .line 1
     invoke-virtual {p0}, Lpz2;->c3()V
 
-    const v0, 0x7f0b2ff8
+    sget v0, Lcom/resouce/module/ResID;->title_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lpz2;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object v0, p0, Lpz2;->W:Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout;
 
-    const v0, 0x7f0b0d49
+    sget v0, Lcom/resouce/module/ResID;->fileinfo_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Lpz2;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d48
+    sget v0, Lcom/resouce/module/ResID;->fileinfo_info:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object v0, p0, Lpz2;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31c7
+    sget v0, Lcom/resouce/module/ResID;->tv_join_web:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
     .line 7
     iget-object v0, p0, Liz2;->B:Landroid/view/View;
 
-    const v1, 0x7f0b339e
+    sget v1, Lcom/resouce/module/ResID;->view_multiple_cooperation_doc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f0b0dba
+    sget v0, Lcom/resouce/module/ResID;->fl_invite_container:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
     .line 1
     iget-object v0, p0, Liz2;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3055
+    sget v1, Lcom/resouce/module/ResID;->toolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     .line 7
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v2, 0x7f121f70
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit:I
 
     .line 8
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

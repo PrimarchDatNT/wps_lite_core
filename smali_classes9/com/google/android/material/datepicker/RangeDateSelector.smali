@@ -181,7 +181,7 @@
 
     move-object/from16 v9, p0
 
-    const v0, 0x7f0e04bb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_picker_text_input_date_range:I
 
     const/4 v1, 0x0
 
@@ -194,7 +194,7 @@
 
     move-result-object v10
 
-    const v0, 0x7f0b193f
+    sget v0, Lcom/resouce/module/ResID;->mtrl_picker_text_input_range_start:I
 
     .line 2
     invoke-virtual {v10, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     check-cast v11, Lcom/google/android/material/textfield/TextInputLayout;
 
-    const v0, 0x7f0b193e
+    sget v0, Lcom/resouce/module/ResID;->mtrl_picker_text_input_range_end:I
 
     .line 3
     invoke-virtual {v10, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121413
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_invalid_range:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -710,7 +710,7 @@
 
     if-nez v1, :cond_0
 
-    const v0, 0x7f12141a
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_range_header_unselected:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -729,7 +729,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f121417
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_range_header_only_start_selected:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -754,7 +754,7 @@
     :cond_1
     if-nez v0, :cond_2
 
-    const v0, 0x7f121416
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_range_header_only_end_selected:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -782,7 +782,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121418
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_range_header_selected:I
 
     const/4 v4, 0x2
 
@@ -937,7 +937,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070460
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_maximum_default_fullscreen_minor_axis:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -955,12 +955,12 @@
 
     if-le v1, v0, :cond_0
 
-    const v0, 0x7f0403dc
+    sget v0, Lcom/resouce/module/ResATTR;->materialCalendarTheme:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0403d1
+    sget v0, Lcom/resouce/module/ResATTR;->materialCalendarFullscreenTheme:I
 
     .line 5
     :goto_0

@@ -176,7 +176,7 @@
 
     iget-object p1, p1, Lum4;->B:Landroid/content/Context;
 
-    const v0, 0x7f1221d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fontname_not_found:I
 
     const/4 v1, 0x1
 

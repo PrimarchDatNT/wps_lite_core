@@ -350,7 +350,7 @@
 
     const/4 v3, 0x2
 
-    const v4, 0x7f121c49
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     if-nez v1, :cond_2
 
@@ -526,7 +526,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123013
+    sget v2, Lcom/resouce/module/ResSTRING;->summary_edit_tip:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

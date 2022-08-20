@@ -70,7 +70,7 @@
     .line 10
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const v0, 0x7f12035a
+    sget v0, Lcom/resouce/module/ResSTRING;->decompress_local_folder_title:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

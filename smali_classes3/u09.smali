@@ -152,12 +152,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f081561
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_loading:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08155d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_search_results:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120690
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 

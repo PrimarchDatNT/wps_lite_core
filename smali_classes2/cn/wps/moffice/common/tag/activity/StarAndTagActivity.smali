@@ -165,12 +165,12 @@
     .line 2
     invoke-virtual {v0, v1, v2}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->f(IF)Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;
 
-    const v3, 0x7f06059b
+    sget v3, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_red_color:I
 
     .line 3
     invoke-virtual {v0, v3}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setSelectedColor(I)V
 
-    const v4, 0x7f06054c
+    sget v4, Lcom/resouce/module/ResCOLOR;->public_indicator_text_default_color:I
 
     .line 4
     invoke-virtual {v0, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->setDefaultUnderLineColor(I)V
@@ -183,7 +183,7 @@
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->g(I)Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;
 
-    const v6, 0x7f1206a7
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     invoke-virtual {p0, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -215,7 +215,7 @@
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->g(I)Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;
 
-    const v2, 0x7f122a62
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tag:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b117c
+    sget v1, Lcom/resouce/module/ResID;->home_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -306,7 +306,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/tag/activity/StarAndTagActivity;->V:Landroid/widget/TextView;
 
-    const v2, 0x7f12116b
+    sget v2, Lcom/resouce/module/ResSTRING;->home_star_and_tag:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -325,7 +325,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2107
+    sget v2, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_star_and_tag:I
 
     const/4 v2, 0x0
 
@@ -424,7 +424,7 @@
 .method public getViewTitle()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f12116b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_star_and_tag:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -446,7 +446,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -454,7 +454,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0872
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_filebrowser_titlebar:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -481,7 +481,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/tag/activity/StarAndTagActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2d80
+    sget v1, Lcom/resouce/module/ResID;->star_tag_kscrollbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/tag/activity/StarAndTagActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2d81
+    sget v1, Lcom/resouce/module/ResID;->star_tag_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

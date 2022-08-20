@@ -146,7 +146,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f121cc9
+    sget v2, Lcom/resouce/module/ResSTRING;->process_text_default_name:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -812,7 +812,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f070b8b
+    sget v7, Lcom/resouce/module/ResDIMEN;->public_o_dimen_16dp:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimension(I)F
 

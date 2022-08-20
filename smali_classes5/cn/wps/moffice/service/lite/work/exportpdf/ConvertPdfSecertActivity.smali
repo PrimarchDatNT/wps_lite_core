@@ -331,7 +331,7 @@
     .line 8
     new-instance p1, Ln5f;
 
-    const v1, 0x7f130496
+    sget v1, Lcom/resouce/module/ResSTYLE;->hw_secert_dialog_style:I
 
     invoke-direct {p1, p0, v1, v0}, Ln5f;-><init>(Landroid/content/Context;IZ)V
 

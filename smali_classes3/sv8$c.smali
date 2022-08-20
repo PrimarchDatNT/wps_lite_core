@@ -134,7 +134,7 @@
 
     iget-object p1, p1, Lqv8;->e:Landroid/app/Activity;
 
-    const p2, 0x7f120357
+    sget p2, Lcom/resouce/module/ResSTRING;->decompress_failed_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

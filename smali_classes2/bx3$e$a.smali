@@ -98,11 +98,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080716
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_cloud_font:I
 
-    const v3, 0x7f120296
+    sget v3, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_title:I
 
-    const v4, 0x7f120293
+    sget v4, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_desc:I
 
     .line 7
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

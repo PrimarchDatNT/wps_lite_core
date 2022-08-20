@@ -209,7 +209,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0804f4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->doc_fic_pic_preview_default:I
 
     .line 3
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0700ef
+    sget v1, Lcom/resouce/module/ResDIMEN;->doc_fix_pic_preview_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -320,7 +320,7 @@
     .line 1
     iget-object p2, p0, Lat3;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0108
+    sget p3, Lcom/resouce/module/ResLAYOUT;->doc_fix_item_layout:I
 
     const/4 v0, 0x0
 
@@ -333,7 +333,7 @@
 
     invoke-direct {p3}, Lat3$a;-><init>()V
 
-    const v0, 0x7f0b071a
+    sget v0, Lcom/resouce/module/ResID;->doc_fix_preview:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
 
     iput-object v0, p3, Lat3$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0718
+    sget v0, Lcom/resouce/module/ResID;->doc_fix_other_file_layout:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     iput-object v0, p3, Lat3$a;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0717
+    sget v0, Lcom/resouce/module/ResID;->doc_fix_other_file_img:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     iput-object v0, p3, Lat3$a;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0719
+    sget v0, Lcom/resouce/module/ResID;->doc_fix_other_file_type:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -375,7 +375,7 @@
 
     iput-object v0, p3, Lat3$a;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b079d
+    sget v0, Lcom/resouce/module/ResID;->dox_fix_preview_item_left:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -384,7 +384,7 @@
 
     iput-object v0, p3, Lat3$a;->e:Landroid/view/View;
 
-    const v0, 0x7f0b079e
+    sget v0, Lcom/resouce/module/ResID;->dox_fix_preview_item_right:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -429,9 +429,9 @@
     .line 14
     invoke-virtual {p0, p3}, Lat3;->k(Lat3$a;)V
 
-    const p1, 0x7f08082e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_icon_videonormal:I
 
-    const v0, 0x7f1203bf
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_other_file_audio:I
 
     .line 15
     invoke-virtual {p0, p3, p1, v0}, Lat3;->j(Lat3$a;II)V
@@ -449,9 +449,9 @@
     .line 17
     invoke-virtual {p0, p3}, Lat3;->k(Lat3$a;)V
 
-    const p1, 0x7f080829
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_icon_audio:I
 
-    const v0, 0x7f1203c0
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_other_file_music:I
 
     .line 18
     invoke-virtual {p0, p3, p1, v0}, Lat3;->j(Lat3$a;II)V
@@ -496,9 +496,9 @@
     :cond_3
     invoke-virtual {p0, p3}, Lat3;->k(Lat3$a;)V
 
-    const p1, 0x7f08082c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_icon_other:I
 
-    const v0, 0x7f1203c1
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_other_file_other:I
 
     .line 25
     invoke-virtual {p0, p3, p1, v0}, Lat3;->j(Lat3$a;II)V

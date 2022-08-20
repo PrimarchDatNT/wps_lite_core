@@ -62,12 +62,12 @@
 .method public init()V
     .locals 2
 
-    const v0, 0x7f121e1c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v0, p0}, Lbdc$a;-><init>(Lbdc;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

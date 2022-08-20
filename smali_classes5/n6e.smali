@@ -58,7 +58,7 @@
 
     move-result v2
 
-    const v3, 0x7f1226b6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-direct {v1, p0, v2, v3}, Ln6e$d;-><init>(Ln6e;II)V
 
@@ -365,12 +365,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0803d8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_share_printing:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080da1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_printing_ppt:I
 
     :goto_0
     return v0
@@ -384,7 +384,7 @@
 
     move-result v0
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v2, 0x0
 
@@ -411,7 +411,7 @@
     .line 3
     iget-object p1, p0, Ln6e;->B:Landroid/app/Activity;
 
-    const v0, 0x7f12271c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

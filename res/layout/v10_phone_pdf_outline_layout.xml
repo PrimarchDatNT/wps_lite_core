@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ListView android:scrollbarStyle="outsideOverlay" android:id="@id/outlines" android:background="@color/thirdBackgroundColor" android:paddingLeft="@dimen/pdf_outline_padding" android:paddingRight="@dimen/pdf_outline_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="-1.0px" android:paddingStart="@dimen/pdf_outline_padding" android:paddingEnd="@dimen/pdf_outline_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

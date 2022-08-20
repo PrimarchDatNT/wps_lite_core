@@ -1478,7 +1478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12074a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_backboard_sum:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1491,7 +1491,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120747
+    sget v1, Lcom/resouce/module/ResSTRING;->et_backboard_count:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1504,7 +1504,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120749
+    sget v1, Lcom/resouce/module/ResSTRING;->et_backboard_min:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1517,7 +1517,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120748
+    sget v1, Lcom/resouce/module/ResSTRING;->et_backboard_max:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1530,7 +1530,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120745
+    sget v1, Lcom/resouce/module/ResSTRING;->et_backboard_avg:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1559,7 +1559,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e05db
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_backboard_h:I
 
     .line 15
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1568,7 +1568,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->D0:Landroid/view/View;
 
-    const v1, 0x7f0e05dc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_backboard_v:I
 
     .line 16
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1580,7 +1580,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0930
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_backboard_h:I
 
     .line 17
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1589,7 +1589,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->D0:Landroid/view/View;
 
-    const v1, 0x7f0e0931
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_backboard_v:I
 
     .line 18
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1682,7 +1682,7 @@
 .method public final o()V
     .locals 2
 
-    const v0, 0x7f0b0906
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_sum:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1693,7 +1693,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->c0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b08f8
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_avg:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1704,7 +1704,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b08fe
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_count:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1715,7 +1715,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0902
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_min:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1726,7 +1726,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0901
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_max:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1737,7 +1737,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b08fb
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_cell:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1778,7 +1778,7 @@
 
     invoke-virtual {p0, v0}, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->n(Landroid/widget/TextView;)V
 
-    const v0, 0x7f0b08f9
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_avgandmin:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1789,7 +1789,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->i0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08fd
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_cellline:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1800,7 +1800,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->j0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08fa
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_blank:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1811,7 +1811,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->k0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0904
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_multicells:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1822,7 +1822,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->l0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0900
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_expand_toolbar:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1833,7 +1833,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->m0:Lcn/wps/moffice/spreadsheet/control/backboard/BackBoradExpandToolBarView;
 
-    const v0, 0x7f0b08fc
+    sget v0, Lcom/resouce/module/ResID;->et_backboard_cell_and_phonemsgview:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -2062,7 +2062,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f120746
+    sget v3, Lcom/resouce/module/ResSTRING;->et_backboard_clip_msg:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2465,7 +2465,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070156
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_v_max_height:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2474,7 +2474,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->B:I
 
-    const v1, 0x7f07014a
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_h_max_height:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2483,7 +2483,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->I:I
 
-    const v1, 0x7f070152
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_min_height_with_border:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2492,7 +2492,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->S:I
 
-    const v1, 0x7f070151
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_min_height_no_border:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2501,7 +2501,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->T:I
 
-    const v1, 0x7f070142
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_bottom_height:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2510,7 +2510,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->U:I
 
-    const v1, 0x7f070153
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_textview_min_width:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -2519,7 +2519,7 @@
 
     iput v1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoardView;->V:I
 
-    const v1, 0x7f070154
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_backboard_textview_padding_horizontal:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

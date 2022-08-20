@@ -434,7 +434,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f0b0deb
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_file_swipe_refresh_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnRefreshListener(Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout$k;)V
 
-    const v0, 0x7f0b0de7
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_file_list:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

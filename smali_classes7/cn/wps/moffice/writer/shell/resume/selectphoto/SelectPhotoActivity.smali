@@ -280,7 +280,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12017e
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_clip_img_failed_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

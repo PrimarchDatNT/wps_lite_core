@@ -40,7 +40,7 @@
 .method public final a(I)I
     .locals 0
 
-    const p1, 0x7f0808a8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_rechange_credits:I
 
     return p1
 .end method
@@ -98,13 +98,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0270
+    sget v2, Lcom/resouce/module/ResLAYOUT;->foreign_charge_config_item:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b051a
+    sget v1, Lcom/resouce/module/ResID;->config_icon:I
 
     .line 3
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object v1, p2, Lkb6$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0518
+    sget v1, Lcom/resouce/module/ResID;->config_credits:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v1, p2, Lkb6$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0521
+    sget v1, Lcom/resouce/module/ResID;->config_money:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object v1, p2, Lkb6$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0519
+    sget v1, Lcom/resouce/module/ResID;->config_discount_tips:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -257,7 +257,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f123070
+    sget v5, Lcom/resouce/module/ResSTRING;->template_charge_credits:I
 
     new-array v6, v3, [Ljava/lang/Object;
 
@@ -278,7 +278,7 @@
     .line 17
     iget v1, p1, Lcn/wps/moffice/foreigntemplate/bean/ChargeConfigBean;->discount:F
 
-    const v4, 0x7f123071
+    sget v4, Lcom/resouce/module/ResSTRING;->template_charge_money:I
 
     const-string v5, " "
 

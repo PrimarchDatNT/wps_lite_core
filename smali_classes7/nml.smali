@@ -1047,7 +1047,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120586
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1064,7 +1064,7 @@
 .method public O(Landroid/app/Activity;)V
     .locals 4
 
-    const v0, 0x7f120ccf
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_retry:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1271,7 +1271,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f1230a5
+    sget v0, Lcom/resouce/module/ResSTRING;->template_resume_no_data_tip:I
 
     .line 4
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1285,7 +1285,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f1230a6
+    sget v0, Lcom/resouce/module/ResSTRING;->template_resume_save_fail_tip:I
 
     .line 5
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1697,7 +1697,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201b6
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_template_list_failed_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

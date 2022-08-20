@@ -48,7 +48,7 @@
     .line 5
     iput-object p4, p0, Lib7;->f:Lib7$b;
 
-    const p1, 0x7f0b0e08
+    sget p1, Lcom/resouce/module/ResID;->folder_member_layout:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setBorderWidth(I)V
 
-    const v1, 0x7f081727
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_add_team:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V
@@ -207,7 +207,7 @@
 
     move-result v1
 
-    const v2, 0x7f0810b4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     if-eqz v1, :cond_0
 
@@ -271,7 +271,7 @@
 
     move-result v0
 
-    const v1, 0x7f1221a6    # 1.94242E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_only_mine:I    # 1.94242E38f
 
     const/4 v2, 0x0
 
@@ -291,7 +291,7 @@
     .line 3
     iget-object p1, p0, Lib7;->d:Landroid/content/Context;
 
-    const v0, 0x7f122c32
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_group_member_num_simple:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -349,7 +349,7 @@
     :goto_0
     iget-object v0, p0, Lib7;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e06d3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_setting_membertext:I
 
     iget-object v3, p0, Lib7;->c:Landroid/view/ViewGroup;
 
@@ -357,7 +357,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2ee9
+    sget v1, Lcom/resouce/module/ResID;->text:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setBorderWidth(I)V
 
-    const v2, 0x7f08179a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_team_member_more:I
 
     .line 3
     invoke-virtual {v0, v2}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V

@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c63
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_recognise:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c62
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_match:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c64    # 1.942147E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_result:I    # 1.942147E38f
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c5f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_diagram_changeresult:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

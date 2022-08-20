@@ -103,7 +103,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121f1c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     return v0
 .end method

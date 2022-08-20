@@ -153,7 +153,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122ef0    # 1.94311E38f
+    sget p3, Lcom/resouce/module/ResSTRING;->share_folder_created_success:I    # 1.94311E38f
 
     const/4 v0, 0x0
 

@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08a2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_move_to_secret_folder_item:I
 
     const/4 v2, 0x0
 

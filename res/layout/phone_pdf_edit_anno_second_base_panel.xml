@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/v10_phone_public_panel_item"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/public_ink_color" style="@style/v10_phone_public_panel_title_text_style" />
-    <cn.wps.moffice.pdf.shell.annotation.panels.common.AnnoColorsGridView android:id="@id/pdf_edit_anno_gridview" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape_noripple" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="12.0dip" />
-</LinearLayout>

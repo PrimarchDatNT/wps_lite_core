@@ -30,7 +30,7 @@
 
     move-result v1
 
-    const v2, 0x7f121b98
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pen_kit_hw:I
 
     invoke-direct {v0, p0, v1, v2}, Lcyd$a;-><init>(Lcyd;II)V
 
@@ -85,12 +85,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080375
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_drawing_board:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d65
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_drawing_board:I
 
     :goto_0
     return v0

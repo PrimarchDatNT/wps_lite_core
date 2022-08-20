@@ -340,7 +340,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b033b
+    sget v0, Lcom/resouce/module/ResID;->cancel:I
 
     if-ne p1, v0, :cond_0
 
@@ -348,7 +348,7 @@
     invoke-virtual {p0}, Lcn/wps/moffice/common/clipimage/ClipImageActivity;->onBackPressed()V
 
     :cond_0
-    const v0, 0x7f0b0439
+    sget v0, Lcom/resouce/module/ResID;->clip:I
 
     if-ne p1, v0, :cond_1
 
@@ -365,12 +365,12 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e008c
+    sget p1, Lcom/resouce/module/ResLAYOUT;->clip_image_activity:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    const p1, 0x7f0b043b
+    sget p1, Lcom/resouce/module/ResID;->clip_image_view:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -381,7 +381,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/clipimage/ClipImageActivity;->B:Lcn/wps/moffice/common/clipimage/ClipImageView;
 
-    const p1, 0x7f0b033b
+    sget p1, Lcom/resouce/module/ResID;->cancel:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -392,7 +392,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/clipimage/ClipImageActivity;->I:Landroid/widget/Button;
 
-    const p1, 0x7f0b0439
+    sget p1, Lcom/resouce/module/ResID;->clip:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060060
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonThirdColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -441,7 +441,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060061
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonThirdDisableColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -454,7 +454,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060044
+    sget v4, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -476,7 +476,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

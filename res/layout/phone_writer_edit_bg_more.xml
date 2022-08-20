@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:id="@id/gridview" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:stretchMode="spacingWidth" android:columnWidth="@dimen/v10_phone_public_letter_paper_gridview_item_size" android:numColumns="4" />
-</LinearLayout>

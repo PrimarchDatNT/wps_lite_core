@@ -59,7 +59,7 @@
     .line 9
     iget-object p1, p0, Ljwl;->g0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const p2, 0x7f080240
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -290,7 +290,7 @@
     .line 3
     iget-object v0, p0, Ljwl;->g0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f1225c8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_outline:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 

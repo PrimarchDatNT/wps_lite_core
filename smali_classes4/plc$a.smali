@@ -67,7 +67,7 @@
 
     invoke-virtual {v0, v2}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v2, 0x7f080760
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_file_encryption_pay:I
 
     .line 4
     invoke-static {}, Llgh;->I()Z
@@ -76,15 +76,15 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f1218db
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_set_password_title:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f1217f5
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     :goto_0
-    const v4, 0x7f1218fd
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_encryption_1:I
 
     const/4 v5, 0x2
 

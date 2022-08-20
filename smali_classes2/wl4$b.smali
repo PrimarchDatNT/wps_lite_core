@@ -65,7 +65,7 @@
 
     invoke-virtual {p1}, Landroid/widget/BaseExpandableListAdapter;->notifyDataSetChanged()V
 
-    const p1, 0x7f122552
+    sget p1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

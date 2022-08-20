@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0823
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_toolbar_rom_read:I
 
     const/4 v2, 0x0
 
@@ -85,7 +85,7 @@
     .line 2
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setBackgroundColor(I)V
 
-    const p1, 0x7f0b20a8
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_toolbar_content:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

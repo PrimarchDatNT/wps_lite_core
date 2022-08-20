@@ -164,7 +164,7 @@
     .line 1
     iget-object v0, p0, Ldgl;->k0:Ljava/util/ArrayList;
 
-    const v1, 0x7f08123d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_fontsize_select:I
 
     if-nez v0, :cond_1
 
@@ -432,7 +432,7 @@
 .method public final B2()V
     .locals 3
 
-    const v0, 0x7f0e09e5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_linespacing_more:I
 
     const/4 v1, 0x0
 
@@ -452,7 +452,7 @@
 
     iput-object v1, p0, Ldgl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f1223df
+    sget v2, Lcom/resouce/module/ResSTRING;->public_linespacing:I
 
     .line 3
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -470,7 +470,7 @@
     .line 6
     iget-object v1, p0, Ldgl;->f0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f080240
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -480,7 +480,7 @@
 
     invoke-virtual {p0, v1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v1, 0x7f0b21b6
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_linespacing_multi:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -491,7 +491,7 @@
 
     iput-object v1, p0, Ldgl;->i0:Landroid/widget/RadioButton;
 
-    const v1, 0x7f0b21b4
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_linespacing_exactly:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -502,7 +502,7 @@
 
     iput-object v1, p0, Ldgl;->j0:Landroid/widget/RadioButton;
 
-    const v1, 0x7f0b21b7
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_linespacing_multi_choose:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -513,7 +513,7 @@
 
     iput-object v1, p0, Ldgl;->g0:Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;
 
-    const v1, 0x7f0b21b5
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_linespacing_exactly_choose:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -533,7 +533,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

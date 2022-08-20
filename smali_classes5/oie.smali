@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0817
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_template_search:I
 
     const/4 v2, 0x0
 
@@ -191,7 +191,7 @@
 
     iput-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b246f
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_top_bars:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -237,7 +237,7 @@
     .line 9
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b246a
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -250,7 +250,7 @@
     .line 10
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b244c
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_cleansearch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -263,7 +263,7 @@
     .line 11
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2469
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_search_content_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -280,7 +280,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122877
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_no_found:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
     .line 13
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b246d
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_searching_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -302,7 +302,7 @@
     .line 14
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2468
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_search_blank_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -315,7 +315,7 @@
     .line 15
     iget-object v0, p0, Loie;->b:Landroid/view/View;
 
-    const v1, 0x7f0b246b
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_search_no_network_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 17
     iget-object v0, p0, Loie;->j:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f122a9b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_template_not_found:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -383,7 +383,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

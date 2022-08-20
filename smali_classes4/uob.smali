@@ -131,13 +131,13 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1214f6
+    sget p1, Lcom/resouce/module/ResSTRING;->offline_ready_connect:I
 
     return p1
 
     :cond_1
     :goto_0
-    const p1, 0x7f1214f3
+    sget p1, Lcom/resouce/module/ResSTRING;->offline_inaccessible:I
 
     return p1
 .end method
@@ -154,7 +154,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04f8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->offline_transfer_device_raw:I
 
     const/4 v1, 0x0
 
@@ -162,7 +162,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b1b46
+    sget p3, Lcom/resouce/module/ResID;->operation_item_icon:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     check-cast p3, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b1b47
+    sget v0, Lcom/resouce/module/ResID;->operation_item_label:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1b4a
+    sget v2, Lcom/resouce/module/ResID;->operation_item_sublabel:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b1afa
+    sget v3, Lcom/resouce/module/ResID;->offline_transfer_progress:I
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     check-cast v3, Lcn/wps/moffice/common/beans/CircleAnimProgressBar;
 
-    const v4, 0x7f0b1b49
+    sget v4, Lcom/resouce/module/ResID;->operation_item_subicon:I
 
     .line 6
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
     return-object p2
 
     :cond_0
-    const v5, 0x7f080822
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_gold_user_avatar_defalut:I
 
     .line 10
     invoke-virtual {p3, v5}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -345,7 +345,7 @@
 
     if-ne p3, v0, :cond_3
 
-    const p3, 0x7f122157
+    sget p3, Lcom/resouce/module/ResSTRING;->public_file_send_success:I
 
     .line 21
     invoke-virtual {v2, p3}, Landroid/widget/TextView;->setText(I)V

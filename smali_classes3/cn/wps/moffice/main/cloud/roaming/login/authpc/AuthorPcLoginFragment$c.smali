@@ -144,7 +144,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201db
+    sget v3, Lcom/resouce/module/ResSTRING;->author_pc_login_other_device:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201d7
+    sget v3, Lcom/resouce/module/ResSTRING;->author_pc_login_me_know:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -211,7 +211,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201dc
+    sget v3, Lcom/resouce/module/ResSTRING;->author_pc_login_please_scan_login:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -234,7 +234,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201dd
+    sget v3, Lcom/resouce/module/ResSTRING;->author_pc_login_scan_login:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

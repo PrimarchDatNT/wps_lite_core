@@ -283,7 +283,7 @@
 
     if-ne p1, v0, :cond_5
 
-    const p1, 0x7f12137d
+    sget p1, Lcom/resouce/module/ResSTRING;->low_version_tips_cn:I
 
     .line 15
     invoke-static {p0, p1, v3}, Lbih;->n(Landroid/content/Context;II)V
@@ -291,7 +291,7 @@
     goto :goto_2
 
     :cond_5
-    const p1, 0x7f12137e
+    sget p1, Lcom/resouce/module/ResSTRING;->low_version_tips_en:I
 
     .line 16
     invoke-static {p0, p1, v3}, Lbih;->n(Landroid/content/Context;II)V
@@ -338,7 +338,7 @@
     :goto_4
     sget-object p0, Lvab;->a:Landroid/app/Activity;
 
-    const p1, 0x7f1211a8
+    sget p1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_disable_select_prompt:I
 
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

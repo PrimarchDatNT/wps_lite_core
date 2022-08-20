@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f020001
+    sget v0, Lcom/resouce/module/ResANIMATOR;->ad_titlebar_animation:I
 
     invoke-static {p1, v0}, Landroid/animation/AnimatorInflater;->loadAnimator(Landroid/content/Context;I)Landroid/animation/Animator;
 

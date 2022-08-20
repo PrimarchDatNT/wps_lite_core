@@ -49,7 +49,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122650
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_savefail:I
 
     .line 2
     invoke-static {p1, p2}, Ljld;->e(II)V
@@ -57,7 +57,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f122824
+    sget p1, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     .line 3
     invoke-static {p1, p2}, Ljld;->e(II)V
@@ -75,7 +75,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1204a5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_save_to_album:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

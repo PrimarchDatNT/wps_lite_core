@@ -90,7 +90,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0686
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_add_file_menu_item_layout:I
 
     const/4 v1, 0x0
 

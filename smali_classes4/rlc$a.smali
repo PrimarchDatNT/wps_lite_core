@@ -54,7 +54,7 @@
     .line 2
     iget-object p1, p0, Lrlc$a;->B:Lrlc;
 
-    const p3, 0x7f0b0c13
+    sget p3, Lcom/resouce/module/ResID;->export_keynote_progressbar:I
 
     invoke-virtual {p1, p3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

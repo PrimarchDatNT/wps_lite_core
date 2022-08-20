@@ -203,9 +203,9 @@
     .line 5
     new-instance v0, Lgsd$d;
 
-    const v1, 0x7f080420
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_pen_color:I
 
-    const v2, 0x7f122376
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_pen:I
 
     const-string v3, "TIP_WRITING"
 
@@ -216,9 +216,9 @@
     .line 6
     new-instance v0, Lgsd$d;
 
-    const v1, 0x7f08040a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlighter_color:I
 
-    const v2, 0x7f122375
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_highlighter:I
 
     const-string v3, "TIP_HIGHLIGHTER"
 
@@ -229,9 +229,9 @@
     .line 7
     new-instance v0, Lgsd$d;
 
-    const v1, 0x7f0803f1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_eraser_color:I
 
-    const v2, 0x7f122374
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_eraser:I
 
     const-string v3, "TIP_ERASER"
 

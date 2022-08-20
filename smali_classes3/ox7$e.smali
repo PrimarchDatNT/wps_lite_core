@@ -62,7 +62,7 @@
 
     iget-object v0, v0, Lox7;->mSendCodeTextView:Landroid/widget/TextView;
 
-    const v1, 0x7f12246d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_send_verify_code:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -88,7 +88,7 @@
 
     iget-object v0, v0, Lox7;->mResource:Landroid/content/res/Resources;
 
-    const v2, 0x7f122469
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_resend:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

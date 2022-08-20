@@ -47,7 +47,7 @@
     .line 4
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f1302f9
+    sget v1, Lcom/resouce/module/ResSTYLE;->Translucent_NoTitle_NoAnim:I
 
     invoke-direct {v0, p1, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ef5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_global_progress_dialog:I
 
     const/4 v2, 0x0
 
@@ -85,12 +85,12 @@
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f122838
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_cloud_compat_tips:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122419
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loading:I
 
     :goto_0
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -99,7 +99,7 @@
 
     iput-object p1, p0, Lqxa;->e:Ljava/lang/String;
 
-    const p1, 0x7f0b254e
+    sget p1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2fd7
+    sget p1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 11
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

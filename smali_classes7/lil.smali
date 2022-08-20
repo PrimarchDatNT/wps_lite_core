@@ -90,7 +90,7 @@
     .line 10
     iput-object p4, p0, Llil;->w0:Lwbl;
 
-    const p1, 0x7f0b1c7a
+    sget p1, Lcom/resouce/module/ResID;->pager:I
 
     .line 11
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     invoke-direct {v0, p0, v1}, Lxal;-><init>(Lvzl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b0fcd
+    sget v1, Lcom/resouce/module/ResID;->hide_btn_linear:I
 
     const-string v2, "read-tool-downarrow"
 

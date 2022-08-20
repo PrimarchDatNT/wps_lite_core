@@ -61,7 +61,7 @@
 
     iget-object v0, v0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e44
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_all_bookmark:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -104,7 +104,7 @@
 
     iget-object v0, v0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e44
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_all_bookmark:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

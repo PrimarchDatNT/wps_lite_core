@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c33
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_homepage_list_pinned_header_data_item_layout_oversea:I
 
     const/4 v1, 0x0
 
@@ -61,7 +61,7 @@
     .line 4
     iget-object p1, p0, La18;->B:Landroid/view/View;
 
-    const p2, 0x7f0b223c
+    sget p2, Lcom/resouce/module/ResID;->pinned_btn_recent:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -74,7 +74,7 @@
     .line 5
     iget-object p1, p0, La18;->B:Landroid/view/View;
 
-    const p2, 0x7f0b223d
+    sget p2, Lcom/resouce/module/ResID;->pinned_btn_share:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
     .line 6
     iget-object p1, p0, La18;->B:Landroid/view/View;
 
-    const p2, 0x7f0b223e
+    sget p2, Lcom/resouce/module/ResID;->pinned_btn_star:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -100,7 +100,7 @@
     .line 7
     iget-object p1, p0, La18;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2240
+    sget p2, Lcom/resouce/module/ResID;->pinned_indicator:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

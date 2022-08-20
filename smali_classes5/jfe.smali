@@ -98,7 +98,7 @@
 
     invoke-direct {v1, p0}, Ljfe$a;-><init>(Ljfe;)V
 
-    const v3, 0x7f0b27c8
+    sget v3, Lcom/resouce/module/ResID;->rank_name_1:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object v3, v1, Ljfe$a;->e:Landroid/widget/TextView;
 
-    const v3, 0x7f0b27c9
+    sget v3, Lcom/resouce/module/ResID;->rank_name_2:I
 
     .line 5
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object v3, v1, Ljfe$a;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f0b27ca
+    sget v3, Lcom/resouce/module/ResID;->rank_name_3:I
 
     .line 6
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object v3, v1, Ljfe$a;->g:Landroid/widget/TextView;
 
-    const v3, 0x7f0b27cb
+    sget v3, Lcom/resouce/module/ResID;->rank_name_first:I
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     iput-object v3, v1, Ljfe$a;->d:Landroid/widget/TextView;
 
-    const v3, 0x7f0b27c7
+    sget v3, Lcom/resouce/module/ResID;->rank_icon:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object v3, v1, Ljfe$a;->b:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v3, 0x7f0b27cd
+    sget v3, Lcom/resouce/module/ResID;->rank_title:I
 
     .line 9
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object v3, v1, Ljfe$a;->a:Landroid/widget/TextView;
 
-    const v3, 0x7f0b27cc
+    sget v3, Lcom/resouce/module/ResID;->rank_right_top_icon:I
 
     .line 10
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060624
+    sget v5, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -214,7 +214,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0703a3
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -303,7 +303,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0809e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 25
     invoke-virtual {p1, v0}, Ljge;->e(I)Ljge;
@@ -614,7 +614,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b27ce
+    sget v0, Lcom/resouce/module/ResID;->ranklist_1:I
 
     if-ne p1, v0, :cond_0
 
@@ -648,7 +648,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b27cf
+    sget v0, Lcom/resouce/module/ResID;->ranklist_2:I
 
     if-ne p1, v0, :cond_1
 
@@ -702,14 +702,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fac
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_ranklist_section:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2ad8
+    sget v1, Lcom/resouce/module/ResID;->section_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -722,7 +722,7 @@
     .line 3
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b27ce
+    sget v1, Lcom/resouce/module/ResID;->ranklist_1:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
     .line 4
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b27cf
+    sget v1, Lcom/resouce/module/ResID;->ranklist_2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -751,7 +751,7 @@
     .line 6
     iget-object v0, p0, Lnee;->T:Landroid/app/Activity;
 
-    const v1, 0x7f12278b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rank_list:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -273,7 +273,7 @@
     .line 2
     iget-object v0, p0, Lllc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ffb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_panel_title:I
 
     const/4 v2, 0x0
 
@@ -347,7 +347,7 @@
     .line 1
     iget-object v0, p0, Lllc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ff6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_text_color_layout:I
 
     const/4 v2, 0x0
 
@@ -408,7 +408,7 @@
     .line 6
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -421,7 +421,7 @@
     .line 7
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -434,7 +434,7 @@
     .line 8
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -447,7 +447,7 @@
     .line 9
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
     .line 10
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 11
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04ad
+    sget v1, Lcom/resouce/module/ResID;->color_6:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
     .line 12
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04ae
+    sget v1, Lcom/resouce/module/ResID;->color_7:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 13
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04af
+    sget v1, Lcom/resouce/module/ResID;->color_8:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -512,7 +512,7 @@
     .line 14
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04b0
+    sget v1, Lcom/resouce/module/ResID;->color_9:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
     .line 15
     iget-object v0, p0, Lllc;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b04a8
+    sget v1, Lcom/resouce/module/ResID;->color_10:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -544,7 +544,7 @@
     .line 1
     iget-object v0, p0, Lllc;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1dd8
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_increase:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -560,7 +560,7 @@
     .line 3
     iget-object v0, p0, Lllc;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1dd7
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_decrease:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -576,7 +576,7 @@
     .line 5
     iget-object v0, p0, Lllc;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1dd5
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_bold:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -592,7 +592,7 @@
     .line 7
     iget-object v0, p0, Lllc;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b1dd6
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_color:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +691,7 @@
     .line 3
     iget-object v1, p0, Lllc;->Y:Landroid/view/View;
 
-    const v2, 0x7f0b04a7
+    sget v2, Lcom/resouce/module/ResID;->color_1:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -702,7 +702,7 @@
     .line 4
     iget-object v2, p0, Lllc;->Y:Landroid/view/View;
 
-    const v3, 0x7f0b04a9
+    sget v3, Lcom/resouce/module/ResID;->color_2:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -713,7 +713,7 @@
     .line 5
     iget-object v3, p0, Lllc;->Y:Landroid/view/View;
 
-    const v4, 0x7f0b04aa
+    sget v4, Lcom/resouce/module/ResID;->color_3:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -724,7 +724,7 @@
     .line 6
     iget-object v4, p0, Lllc;->Y:Landroid/view/View;
 
-    const v5, 0x7f0b04ab
+    sget v5, Lcom/resouce/module/ResID;->color_4:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -735,7 +735,7 @@
     .line 7
     iget-object v5, p0, Lllc;->Y:Landroid/view/View;
 
-    const v6, 0x7f0b04ac
+    sget v6, Lcom/resouce/module/ResID;->color_5:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -746,7 +746,7 @@
     .line 8
     iget-object v6, p0, Lllc;->Y:Landroid/view/View;
 
-    const v7, 0x7f0b04ad
+    sget v7, Lcom/resouce/module/ResID;->color_6:I
 
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
     .line 9
     iget-object v7, p0, Lllc;->Y:Landroid/view/View;
 
-    const v8, 0x7f0b04ae
+    sget v8, Lcom/resouce/module/ResID;->color_7:I
 
     invoke-virtual {v7, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -768,7 +768,7 @@
     .line 10
     iget-object v8, p0, Lllc;->Y:Landroid/view/View;
 
-    const v9, 0x7f0b04af
+    sget v9, Lcom/resouce/module/ResID;->color_8:I
 
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -779,7 +779,7 @@
     .line 11
     iget-object v9, p0, Lllc;->Y:Landroid/view/View;
 
-    const v10, 0x7f0b04b0
+    sget v10, Lcom/resouce/module/ResID;->color_9:I
 
     invoke-virtual {v9, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -790,7 +790,7 @@
     .line 12
     iget-object v10, p0, Lllc;->Y:Landroid/view/View;
 
-    const v11, 0x7f0b04a8
+    sget v11, Lcom/resouce/module/ResID;->color_10:I
 
     invoke-virtual {v10, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

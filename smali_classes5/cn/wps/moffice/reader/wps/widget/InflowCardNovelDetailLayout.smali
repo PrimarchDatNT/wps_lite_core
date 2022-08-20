@@ -118,13 +118,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0411
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_flow_card_novel_detail_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b1a7c
+    sget v0, Lcom/resouce/module/ResID;->novel_cover:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1a84
+    sget v0, Lcom/resouce/module/ResID;->novel_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a7b
+    sget v0, Lcom/resouce/module/ResID;->novel_author:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a83
+    sget v0, Lcom/resouce/module/ResID;->novel_tags:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3392
+    sget v0, Lcom/resouce/module/ResID;->view_count:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2b29
+    sget v0, Lcom/resouce/module/ResID;->serial_no:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b309b
+    sget v0, Lcom/resouce/module/ResID;->touch_view:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
-    const v0, 0x7f0b27ea
+    sget v0, Lcom/resouce/module/ResID;->read_btn:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
     .line 12
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1a80
+    sget v0, Lcom/resouce/module/ResID;->novel_introduction_wrapper:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->c0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b136f
+    sget v0, Lcom/resouce/module/ResID;->introduction:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2811
+    sget v0, Lcom/resouce/module/ResID;->reader_now_introduction:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,19 +476,19 @@
 
     move-result v0
 
-    const v1, 0x7f0b27ea
+    sget v1, Lcom/resouce/module/ResID;->read_btn:I
 
     if-eq v0, v1, :cond_1
 
-    const v2, 0x7f0b309b
+    sget v2, Lcom/resouce/module/ResID;->touch_view:I
 
     if-eq v0, v2, :cond_1
 
-    const v2, 0x7f0b1a80
+    sget v2, Lcom/resouce/module/ResID;->novel_introduction_wrapper:I
 
     if-eq v0, v2, :cond_1
 
-    const v2, 0x7f0b2811
+    sget v2, Lcom/resouce/module/ResID;->reader_now_introduction:I
 
     if-ne v0, v2, :cond_4
 

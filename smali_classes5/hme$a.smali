@@ -61,7 +61,7 @@
 
     iget-object p1, p1, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1229a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_tv_version_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

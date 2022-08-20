@@ -55,7 +55,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0b8d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_coupon_share_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -63,7 +63,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b05aa
+    sget v2, Lcom/resouce/module/ResID;->coupon_share_btn:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,14 +72,14 @@
 
     check-cast v2, Landroid/widget/Button;
 
-    const v3, 0x7f0b05ac
+    sget v3, Lcom/resouce/module/ResID;->coupon_share_close_layout:I
 
     .line 7
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2b77
+    sget v4, Lcom/resouce/module/ResID;->share_imgview:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0e0eed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->resumehelper_openfile_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -170,14 +170,14 @@
 
     move-result-object p0
 
-    const v1, 0x7f0b1afb
+    sget v1, Lcom/resouce/module/ResID;->ok:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b1b3a
+    sget v2, Lcom/resouce/module/ResID;->openfile:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

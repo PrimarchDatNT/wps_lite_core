@@ -148,7 +148,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0da3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_engine_item:I
 
     const/4 v1, 0x0
 
@@ -161,7 +161,7 @@
 
     invoke-direct {v0, p0}, Lnha$a;-><init>(Lnha;)V
 
-    const v1, 0x7f0b0892
+    sget v1, Lcom/resouce/module/ResID;->engine:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f081bea
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_select_engine_background:I
 
     invoke-virtual {p3, v2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

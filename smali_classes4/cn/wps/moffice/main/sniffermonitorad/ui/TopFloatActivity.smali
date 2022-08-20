@@ -185,7 +185,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0876
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_float_parent:I
 
     const/4 v1, 0x0
 
@@ -196,7 +196,7 @@
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    const p1, 0x7f0b20d4
+    sget p1, Lcom/resouce/module/ResID;->phone_public_float_parent_view:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

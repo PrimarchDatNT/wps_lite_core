@@ -112,7 +112,7 @@
     .line 10
     iget-object p1, p0, Ltwl$a;->a:Ltwl;
 
-    const v0, 0x7f12234e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_iat_time_too_short:I
 
     invoke-static {p1, v0}, Ltwl;->e(Ltwl;I)V
 
@@ -122,7 +122,7 @@
     :pswitch_3
     iget-object p1, p0, Ltwl$a;->a:Ltwl;
 
-    const v0, 0x7f12234a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_iat_record_fail:I
 
     invoke-static {p1, v0}, Ltwl;->e(Ltwl;I)V
 

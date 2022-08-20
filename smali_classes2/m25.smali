@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122cab
+    sget v1, Lcom/resouce/module/ResSTRING;->qc_address_02:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -208,7 +208,7 @@
     .line 5
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p3, 0x0
 
@@ -404,7 +404,7 @@
     .line 2
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     const/4 v1, 0x0
 
@@ -553,7 +553,7 @@
 
     move-result v1
 
-    const v2, 0x7f1229e0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     const-string v3, "projection"
 
@@ -604,7 +604,7 @@
 
     move-result v0
 
-    const v1, 0x7f12276e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_success:I
 
     const-string v5, "other_qrcode"
 
@@ -699,7 +699,7 @@
     .line 24
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121bd8
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_remote_tips_support_type:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -721,7 +721,7 @@
     .line 27
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121bd3
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_remote_lower_version:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1339,7 +1339,7 @@
     :cond_7
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p3, 0x0
 
@@ -1479,7 +1479,7 @@
     .line 2
     iget-object p1, p0, Lm25;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12240e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

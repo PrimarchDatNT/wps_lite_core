@@ -70,7 +70,7 @@
 
     iget-object v0, v0, Lzw7;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v3, 0x7f120396
+    sget v3, Lcom/resouce/module/ResSTRING;->dingtalk_auth_not_support_tip:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 

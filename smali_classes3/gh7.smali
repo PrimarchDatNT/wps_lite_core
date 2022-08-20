@@ -50,7 +50,7 @@
 
     invoke-static {v1, v0}, Lmo;->q(Ljava/lang/String;Z)V
 
-    const v0, 0x7f1205b6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

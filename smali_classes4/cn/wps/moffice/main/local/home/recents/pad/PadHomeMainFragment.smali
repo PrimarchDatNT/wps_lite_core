@@ -533,7 +533,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadHomeMainFragment;->V:Landroid/app/Activity;
 
-    const v1, 0x7f122552
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1283,7 +1283,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 2
 
-    const p3, 0x7f0e054e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_home_main_fragment:I
 
     const/4 v0, 0x0
 
@@ -1292,7 +1292,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b306b
+    sget p2, Lcom/resouce/module/ResID;->top_container:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1303,7 +1303,7 @@
 
     iput-object p3, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadHomeMainFragment;->Z:Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;
 
-    const p3, 0x7f0b1bfb
+    sget p3, Lcom/resouce/module/ResID;->pad_main_fragment_tab_title:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1350,7 +1350,7 @@
 
     invoke-virtual {v0, v1, p3}, Lcn/wps/moffice/main/local/home/PadHomeMainFragmentTabTitleView;->setItems(Ljava/util/List;I)V
 
-    const v0, 0x7f0b1bfc
+    sget v0, Lcom/resouce/module/ResID;->pad_main_fragment_view_pager:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1364,7 +1364,7 @@
     .line 10
     invoke-virtual {p0}, Lcn/wps/moffice/main/local/home/recents/pad/PadHomeMainFragment;->U()V
 
-    const v0, 0x7f0b1c09
+    sget v0, Lcom/resouce/module/ResID;->pad_open_doc:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1416,7 +1416,7 @@
 
     invoke-virtual {p2, p3}, Lcn/wps/moffice/main/local/home/PadHomeMainFragmentTabTitleView;->setOnItemClickListener(Lcn/wps/moffice/main/local/home/PadHomeMainFragmentTabTitleView$c;)V
 
-    const p2, 0x7f0b1c36
+    sget p2, Lcom/resouce/module/ResID;->pad_search_container:I
 
     .line 17
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1437,7 +1437,7 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b1c38
+    sget p2, Lcom/resouce/module/ResID;->pad_search_img:I
 
     .line 20
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1447,14 +1447,14 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const p2, 0x7f0b1c3a
+    sget p2, Lcom/resouce/module/ResID;->pad_search_scan_img:I
 
     .line 21
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b1c35
+    sget p3, Lcom/resouce/module/ResID;->pad_scan_big_img:I
 
     .line 22
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

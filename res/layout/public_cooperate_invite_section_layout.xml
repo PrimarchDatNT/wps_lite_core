@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/phone_public_dialog_list_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/secondaryColor" android:id="@id/tv_section" android:paddingLeft="16.0dip" android:paddingTop="17.0dip" android:paddingRight="16.0dip" android:paddingBottom="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cooperate_invite" />
-    <View android:layout_gravity="bottom" android:layout_marginLeft="16.0dip" style="@style/div_line" />
-</FrameLayout>

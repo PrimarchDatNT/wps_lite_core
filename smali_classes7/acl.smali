@@ -68,7 +68,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0a12
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_speechkeyboard_char_view:I
 
     iget-object v1, p0, Lacl;->U:Lcn/wps/moffice/common/beans/DynamicLinearLayout;
 
@@ -79,7 +79,7 @@
     move-result-object p2
 
     :cond_0
-    const v0, 0x7f0b038e
+    sget v0, Lcom/resouce/module/ResID;->char_key_icon:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

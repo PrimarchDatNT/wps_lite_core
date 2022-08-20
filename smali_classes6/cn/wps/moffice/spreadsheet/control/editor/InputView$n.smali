@@ -54,7 +54,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12084a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_edittoast_restore_nothing:I
 
     .line 3
     invoke-static {p1, v0}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->V(Lcn/wps/moffice/spreadsheet/control/editor/InputView;I)V

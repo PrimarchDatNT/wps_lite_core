@@ -52,7 +52,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0b36
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_input_layout:I
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -78,12 +78,12 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e083d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_chart_edit_input_layout:I
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     :goto_0
-    const p1, 0x7f0b25c6
+    sget p1, Lcom/resouce/module/ResID;->public_edit_btn_clean:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b25c7
+    sget p1, Lcom/resouce/module/ResID;->public_edit_btn_switch_keyboard:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->B:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b25c9
+    sget p1, Lcom/resouce/module/ResID;->public_edit_btn_tab:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b25ca
+    sget p1, Lcom/resouce/module/ResID;->public_edit_edittext:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819d8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_inputlayout_123_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -228,7 +228,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f08120d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_edit_123:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -247,7 +247,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819da
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_inputlayout_t_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -257,7 +257,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/chart/edit/InputViewLayout;->B:Landroid/widget/ImageView;
 
-    const v1, 0x7f081210
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_edit_t:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -149,7 +149,7 @@
 
     if-ne p1, v1, :cond_0
 
-    const p1, 0x7f080161
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->cloud_upload_finish:I
 
     goto :goto_1
 
@@ -166,13 +166,13 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f080160
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->cloud_upload_fail:I
 
     goto :goto_1
 
     :cond_2
     :goto_0
-    const p1, 0x7f080162
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->cloud_uploading_stat:I
 
     .line 6
     :goto_1

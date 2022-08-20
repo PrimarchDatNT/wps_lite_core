@@ -316,7 +316,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f9f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->task_center_menu:I
 
     const/4 v2, 0x0
 
@@ -324,7 +324,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0549
+    sget v1, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -359,7 +359,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121957
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_new_search_all:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122a74
+    sget v2, Lcom/resouce/module/ResSTRING;->public_task_center_tab_running:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -393,7 +393,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12116f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_task_already_complete:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1220cb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_failure:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -510,7 +510,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0600e5
+    sget v4, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -678,7 +678,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity$d;-><init>(Lcn/wps/moffice/main/taskcenter/impl/TaskCenterActivity;)V
 
-    const v1, 0x7f081708
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_filter_menu:I
 
     invoke-virtual {p1, v1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->d(ILandroid/view/View$OnClickListener;)V
 

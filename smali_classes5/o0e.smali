@@ -26,7 +26,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e04fe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->outine_header_layout:I
 
     const/4 v1, 0x0
 
@@ -36,7 +36,7 @@
 
     iput-object p1, p0, Lo0e;->c:Landroid/view/View;
 
-    const v0, 0x7f0b01ea
+    sget v0, Lcom/resouce/module/ResID;->banner_cycle_view:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

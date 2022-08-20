@@ -203,7 +203,7 @@
 .method public final c(Landroid/graphics/Bitmap;Landroid/widget/ImageView;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f0b2e6c
+    sget v0, Lcom/resouce/module/ResID;->tag_file_path:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->getTag(I)Ljava/lang/Object;
@@ -270,7 +270,7 @@
 .method public f(Ljava/lang/String;Landroid/widget/ImageView;)V
     .locals 2
 
-    const v0, 0x7f0b2e6c
+    sget v0, Lcom/resouce/module/ResID;->tag_file_path:I
 
     const/4 v1, 0x0
 
@@ -342,7 +342,7 @@
 .method public h(Ljava/lang/String;Ljava/lang/String;Landroid/widget/ImageView;)V
     .locals 3
 
-    const v0, 0x7f0b2e6c
+    sget v0, Lcom/resouce/module/ResID;->tag_file_path:I
 
     .line 1
     invoke-virtual {p3, v0, p1}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V

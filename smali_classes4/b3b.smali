@@ -99,7 +99,7 @@
     :cond_0
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v2, 0x0
 
@@ -674,7 +674,7 @@
     .line 4
     iget-object p1, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1204b5
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     const/4 v2, 0x1
 
@@ -808,7 +808,7 @@
     .line 6
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1204b5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array v5, v4, [Ljava/lang/Object;
 
@@ -862,7 +862,7 @@
     :cond_4
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12283e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_file_downloading:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

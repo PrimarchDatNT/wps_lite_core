@@ -2376,7 +2376,7 @@
 
     invoke-static {v0}, Lcom/mopub/nativeads/KsoAdReport;->getAdPlacement(Ljava/util/Map;)Ljava/lang/String;
 
-    const v0, 0x7f0b19a5
+    sget v0, Lcom/resouce/module/ResID;->native_ad_main_webView:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

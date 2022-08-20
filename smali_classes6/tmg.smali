@@ -86,7 +86,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0499
+    sget v1, Lcom/resouce/module/ResID;->col_index_tv:I
 
     .line 2
     invoke-virtual {p0, v1}, Lumg;->R(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120240
+    sget v3, Lcom/resouce/module/ResSTRING;->card_mode_title_index:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -130,7 +130,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f0b2865
+    sget v2, Lcom/resouce/module/ResID;->recyclerview_item:I
 
     .line 6
     invoke-virtual {p0, v2}, Lumg;->R(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0b0350
+    sget v2, Lcom/resouce/module/ResID;->card_list_root:I
 
     .line 19
     invoke-virtual {p0, v2}, Lumg;->R(I)Landroid/view/View;
@@ -218,12 +218,12 @@
 
     if-eqz v0, :cond_0
 
-    const v3, 0x7f080130
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->card_mode_card_bg_dark:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f080131
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->card_mode_card_bg_light:I
 
     .line 20
     :goto_0

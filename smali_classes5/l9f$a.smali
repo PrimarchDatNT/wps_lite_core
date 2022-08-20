@@ -83,7 +83,7 @@
 
     iget-object v0, v0, Ll9f;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122bcd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_maxline_tip:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

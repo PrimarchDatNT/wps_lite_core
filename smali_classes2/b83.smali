@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212b8
+    sget v2, Lcom/resouce/module/ResSTRING;->id_photo_oversea_deduct_times_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -313,7 +313,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -374,7 +374,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1212bb
+    sget v4, Lcom/resouce/module/ResSTRING;->id_photo_oversea_sku_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -476,7 +476,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212b9
+    sget v2, Lcom/resouce/module/ResSTRING;->id_photo_oversea_get_times_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -591,7 +591,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212ba
+    sget v1, Lcom/resouce/module/ResSTRING;->id_photo_oversea_report_order_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

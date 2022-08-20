@@ -109,7 +109,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0616
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_annotation_add_popwindow:I
 
     return v0
 .end method

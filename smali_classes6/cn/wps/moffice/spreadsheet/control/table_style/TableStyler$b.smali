@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d79
+    sget v1, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/table_style/TableStyler$b;->B:Lcn/wps/moffice/spreadsheet/control/table_style/TableStyler;
 

@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b4a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloud_pop_up_close_with_extra_dialog:I
 
     const/4 v2, 0x0
 
@@ -441,7 +441,7 @@
 
     check-cast v7, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b045f
+    sget v0, Lcom/resouce/module/ResID;->cloud_popup_img_view:I
 
     .line 4
     invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0c3d
+    sget v1, Lcom/resouce/module/ResID;->extra_main_text:I
 
     .line 5
     invoke-virtual {v7, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -459,7 +459,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0c41
+    sget v2, Lcom/resouce/module/ResID;->extra_sub_text:I
 
     .line 6
     invoke-virtual {v7, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b045d
+    sget v3, Lcom/resouce/module/ResID;->cloud_popup_btn_view:I
 
     .line 7
     invoke-virtual {v7, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -479,14 +479,14 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v3, 0x7f0b045e
+    sget v3, Lcom/resouce/module/ResID;->cloud_popup_close_view:I
 
     .line 8
     invoke-virtual {v7, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
-    const v3, 0x7f0b02ee
+    sget v3, Lcom/resouce/module/ResID;->btn_not_yet:I
 
     .line 9
     invoke-virtual {v7, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -500,7 +500,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f1223f8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_share_clipboard_dialog_title:I
 
     .line 11
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V

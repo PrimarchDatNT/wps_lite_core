@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070cd1
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_titlebar_document_title_max_width:I
 
     invoke-static {v0, v2}, Ldgh;->j(Landroid/content/Context;I)I
 
@@ -103,7 +103,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070cd2
+    sget v3, Lcom/resouce/module/ResDIMEN;->ss_titlebar_document_title_min_width:I
 
     invoke-static {v2, v3}, Ldgh;->j(Landroid/content/Context;I)I
 

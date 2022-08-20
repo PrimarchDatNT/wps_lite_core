@@ -23,12 +23,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f08093c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ic_premium_renew_payment_checked:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f08093d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ic_premium_renew_payment_normal:I
 
     .line 1
     :goto_0
@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060627
+    sget v0, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 

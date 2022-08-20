@@ -120,7 +120,7 @@
 .method public final L(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Ltc9;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e05bf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_new_left_navgation_item:I
 
     const/4 v1, 0x0
 
@@ -192,7 +192,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v1, 0x7f0b10ac
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v1, 0x7f0b10ab
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v1, 0x7f0b10aa
+    sget v1, Lcom/resouce/module/ResID;->home_my_roaming_userinfo_name_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v1, 0x7f0b1287
+    sget v1, Lcom/resouce/module/ResID;->image_pad_home_5g_show:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,21 +279,21 @@
 
     new-instance v8, Ltc9;
 
-    const v2, 0x7f081757
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_home_normal:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    const v2, 0x7f081758
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_home_selected:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v9, 0x7f080ec4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pad_left_nav_item_bg:I
 
     .line 6
     invoke-virtual {v0, v9}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -307,12 +307,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f122a97
+    sget v2, Lcom/resouce/module/ResSTRING;->public_template_home:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1221da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     :goto_0
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -367,12 +367,12 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f080f72
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_public_bottom_toolbar_document:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f081755
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_file_normal:I
 
     :goto_2
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -386,12 +386,12 @@
 
     if-eqz v3, :cond_3
 
-    const v3, 0x7f08118b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_document_selected:I
 
     goto :goto_3
 
     :cond_3
-    const v3, 0x7f081756
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_file_normal_selected:I
 
     :goto_3
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -410,12 +410,12 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f12060f
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_cloud:I
 
     goto :goto_4
 
     :cond_4
-    const v3, 0x7f122203
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fulltext_search_result_doc:I
 
     :goto_4
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -437,21 +437,21 @@
 
     new-instance v10, Ltc9;
 
-    const v3, 0x7f080eff
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_pub_btmbar_new_normal_96px:I
 
     .line 19
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
 
-    const v3, 0x7f080b44
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_add_button_image_click:I
 
     .line 20
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
-    const v3, 0x7f080ec5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_left_nav_item_oval_bg:I
 
     .line 21
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -549,14 +549,14 @@
 
     new-instance v8, Ltc9;
 
-    const v2, 0x7f081753
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_app_normal:I
 
     .line 29
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    const v2, 0x7f081754
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_pad_btmbar_app_normal_selected:I
 
     .line 30
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -568,7 +568,7 @@
 
     move-result-object v5
 
-    const v2, 0x7f122264
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     .line 32
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -609,14 +609,14 @@
 
     new-instance v8, Ltc9;
 
-    const v2, 0x7f080efd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_btmbar_docer_normal:I
 
     .line 36
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
-    const v2, 0x7f080efe
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_btmbar_docer_normal_selected:I
 
     .line 37
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -628,7 +628,7 @@
 
     move-result-object v5
 
-    const v2, 0x7f121ff7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_docer:I
 
     .line 39
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -701,7 +701,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0e05c0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_new_left_navgation_layout:I
 
     const/4 v1, 0x0
 
@@ -712,7 +712,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v1, 0x7f0b19d3
+    sget v1, Lcom/resouce/module/ResID;->navigation_container_limit_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -736,7 +736,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v0, 0x7f0b19d2
+    sget v0, Lcom/resouce/module/ResID;->navigation_container:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -894,7 +894,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->X:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v2, 0x7f080f5e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_mine_login_pic:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -982,11 +982,11 @@
 
     move-result-object v2
 
-    const v3, 0x7f060250
+    sget v3, Lcom/resouce/module/ResCOLOR;->largeIconSelectedBackgroundColor:I
 
-    const v4, 0x7f06025d
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     if-eqz v0, :cond_1
 
@@ -1134,7 +1134,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/main/local/home/PadLeftTabFragment;->V:Landroid/view/View;
 
-    const v2, 0x7f0b19d2
+    sget v2, Lcom/resouce/module/ResID;->navigation_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

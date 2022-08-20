@@ -39,7 +39,7 @@
     .line 2
     iput-object v1, v0, Lem3;->T:Ljava/lang/String;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -51,7 +51,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f081743
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_copylink:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -132,7 +132,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0808e0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_sendmail:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -140,7 +140,7 @@
 
     iput-object v2, v1, Lgm3;->I:Landroid/graphics/drawable/Drawable;
 
-    const v2, 0x7f120694
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

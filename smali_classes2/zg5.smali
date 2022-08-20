@@ -27,7 +27,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f121fc8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_develop_option:I
 
     return v0
 .end method
@@ -43,7 +43,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e00d5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->develop_fragment:I
 
     return v0
 .end method
@@ -59,7 +59,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0670
+    sget v0, Lcom/resouce/module/ResID;->develop_item_container:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

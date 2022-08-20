@@ -163,7 +163,7 @@
     .line 15
     invoke-virtual {v0, p1}, Ldn7;->p(Ljava/lang/Boolean;)Ldn7;
 
-    const p1, 0x7f0e0696
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_decompress_path_select_path_gallery:I
 
     .line 16
     invoke-virtual {v0, p1}, Ldn7;->s(I)Ldn7;
@@ -222,7 +222,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0634
+    sget v0, Lcom/resouce/module/ResID;->decompress_btn_add_folder:I
 
     if-ne p1, v0, :cond_1
 
@@ -236,7 +236,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0635
+    sget v0, Lcom/resouce/module/ResID;->decompress_btn_handle:I
 
     if-ne p1, v0, :cond_2
 
@@ -246,7 +246,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0636
+    sget v0, Lcom/resouce/module/ResID;->decompress_btn_local:I
 
     if-ne p1, v0, :cond_3
 

@@ -312,7 +312,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121c14
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_has_copy_accesscode:I
 
     const/4 v1, 0x0
 
@@ -409,7 +409,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f121bfe
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_agoraing_num:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -552,7 +552,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f121c2c
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_qq_share:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -590,7 +590,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f121c40
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_wechat_share:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -661,7 +661,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0e4c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_shareplay_play_pad_info:I
 
     invoke-virtual {p1, p2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -704,12 +704,12 @@
 
     if-eqz p2, :cond_3
 
-    const p2, 0x7f0e0e4b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_shareplay_play_info_land:I
 
     goto :goto_1
 
     :cond_3
-    const p2, 0x7f0e0e4a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_shareplay_play_info:I
 
     :goto_1
     invoke-virtual {p1, p2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -722,7 +722,7 @@
     :goto_2
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bcb
+    sget p2, Lcom/resouce/module/ResID;->shareplay_qrcode_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bd0
+    sget p2, Lcom/resouce/module/ResID;->shareplay_userlist_listview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -746,7 +746,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2429
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_share_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2732
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_popup_qrcode_img:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -770,7 +770,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2731
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_popup_access_code:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2bbd
+    sget v0, Lcom/resouce/module/ResID;->shareplay_agora_user_num:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -796,7 +796,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b242a
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_wechat_share:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -809,7 +809,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2427
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_qq_share:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2424
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_copy_url:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -835,7 +835,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2bcf
+    sget v0, Lcom/resouce/module/ResID;->shareplay_userlist_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -846,7 +846,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2bc3
+    sget v0, Lcom/resouce/module/ResID;->shareplay_invite_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -857,7 +857,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b2bc0
+    sget v0, Lcom/resouce/module/ResID;->shareplay_copy_accesscode:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -888,7 +888,7 @@
     .line 20
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bd1
+    sget p2, Lcom/resouce/module/ResID;->shareplay_userlist_to_invite:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -899,7 +899,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bc7    # 1.8499E38f
+    sget p2, Lcom/resouce/module/ResID;->shareplay_invite_to_userlist:I    # 1.8499E38f
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -910,7 +910,7 @@
     .line 22
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bcd
+    sget p2, Lcom/resouce/module/ResID;->shareplay_userlist_back:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -921,7 +921,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bc2
+    sget p2, Lcom/resouce/module/ResID;->shareplay_invite_has_join_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -934,7 +934,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mRootView:Landroid/view/View;
 
-    const p2, 0x7f0b2bce
+    sget p2, Lcom/resouce/module/ResID;->shareplay_userlist_join_num:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -985,14 +985,14 @@
 
     move-result p1
 
-    const v0, 0x7f0b242a
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_wechat_share:I
 
     if-ne p1, v0, :cond_0
 
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121c40
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_wechat_share:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1004,14 +1004,14 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2427
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_qq_share:I
 
     if-ne p1, v0, :cond_1
 
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121c2c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_qq_share:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1023,14 +1023,14 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2424
+    sget v0, Lcom/resouce/module/ResID;->ppt_shareplay_copy_url:I
 
     if-ne p1, v0, :cond_2
 
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121c0a
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_copy_url:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1042,7 +1042,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2bc0
+    sget v0, Lcom/resouce/module/ResID;->shareplay_copy_accesscode:I
 
     if-ne p1, v0, :cond_3
 
@@ -1054,7 +1054,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2bd1
+    sget v0, Lcom/resouce/module/ResID;->shareplay_userlist_to_invite:I
 
     if-ne p1, v0, :cond_4
 
@@ -1064,7 +1064,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b2bc7    # 1.8499E38f
+    sget v0, Lcom/resouce/module/ResID;->shareplay_invite_to_userlist:I    # 1.8499E38f
 
     if-ne p1, v0, :cond_5
 
@@ -1076,7 +1076,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b2bcd
+    sget v0, Lcom/resouce/module/ResID;->shareplay_userlist_back:I
 
     if-ne p1, v0, :cond_6
 
@@ -1156,7 +1156,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f121c16
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_shareplay_has_join_num:I
 
     invoke-virtual {v0, v3, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1173,7 +1173,7 @@
 
     aput-object p1, v1, v4
 
-    const p1, 0x7f121c17
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_has_join_num_userlist:I
 
     invoke-virtual {v2, p1, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="@dimen/home_dialog_list_padding_left" android:insetRight="@dimen/home_dialog_list_padding_right"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <shape>
-        <solid android:color="@color/lineColor" />
-    </shape>
-</inset>

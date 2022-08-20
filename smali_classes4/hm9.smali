@@ -86,7 +86,7 @@
 .method public final e(Landroid/view/View;Lcn/wps/moffice/main/push/common/PushBean;)V
     .locals 5
 
-    const v0, 0x7f0b0f41
+    sget v0, Lcom/resouce/module/ResID;->grid_item_image_selected:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
     :cond_1
     iget-object v1, p0, Lhm9;->a:Landroid/content/Context;
 
-    const v3, 0x7f12118d
+    sget v3, Lcom/resouce/module/ResSTRING;->home_theme_local_version:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -359,7 +359,7 @@
     :cond_4
     iget-object p1, p0, Lhm9;->a:Landroid/content/Context;
 
-    const v0, 0x7f120623
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     const/4 v1, 0x0
 
@@ -501,7 +501,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12118e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_theme_version_too_low:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -511,7 +511,7 @@
 
     invoke-direct {v1, p0}, Lhm9$a;-><init>(Lhm9;)V
 
-    const v2, 0x7f120574
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_checkUpdate:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -520,7 +520,7 @@
 
     invoke-direct {v1, p0}, Lhm9$b;-><init>(Lhm9;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -564,7 +564,7 @@
 
     move-result-object v6
 
-    const v0, 0x7f0b0f40
+    sget v0, Lcom/resouce/module/ResID;->grid_item_image:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -594,7 +594,7 @@
     .line 6
     invoke-virtual {p0, p1, p5}, Lhm9;->e(Landroid/view/View;Lcn/wps/moffice/main/push/common/PushBean;)V
 
-    const p2, 0x7f0b0f42
+    sget p2, Lcom/resouce/module/ResID;->grid_item_lock:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -640,7 +640,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

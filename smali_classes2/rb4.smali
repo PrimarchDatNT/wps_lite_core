@@ -117,7 +117,7 @@
     .line 1
     iget-object p2, p0, Lrb4;->T:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0478
+    sget v0, Lcom/resouce/module/ResLAYOUT;->lebo_cast_item_browse:I
 
     const/4 v1, 0x0
 

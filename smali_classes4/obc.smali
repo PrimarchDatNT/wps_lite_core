@@ -111,7 +111,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f0b0113
+    sget v1, Lcom/resouce/module/ResID;->annotation_insert_item_img_normal:I
 
     .line 3
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v1, p2, Lobc$a;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0112
+    sget v1, Lcom/resouce/module/ResID;->annotation_insert_item_img_color:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     iput-object v1, p2, Lobc$a;->c:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b010d
+    sget v1, Lcom/resouce/module/ResID;->annotation_check_icon:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     iput-object v1, p2, Lobc$a;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b010e
+    sget v1, Lcom/resouce/module/ResID;->annotation_colorview:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

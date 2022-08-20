@@ -46,7 +46,7 @@
     .line 4
     iput-object p2, p0, Ly6v$d;->j0:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b2ef5
+    sget p1, Lcom/resouce/module/ResID;->textView:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object p1, p0, Ly6v$d;->k0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1267
+    sget p1, Lcom/resouce/module/ResID;->imageView:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p1, p0, Ly6v$d;->m0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b03a0
+    sget p1, Lcom/resouce/module/ResID;->checkBox:I
 
     .line 7
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060654
+    sget p2, Lcom/resouce/module/ResCOLOR;->text_highlight:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -200,12 +200,12 @@
 
     if-ne p2, v0, :cond_0
 
-    const p2, 0x7f080703
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->friend_thumbnail:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0807ae
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->group_thumbnail:I
 
     .line 6
     :goto_0

@@ -28,7 +28,7 @@
 
     move-result v0
 
-    const v1, 0x7f122b22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     invoke-direct {p2, p0, v0, v1}, Ll8e$a;-><init>(Ll8e;II)V
 
@@ -71,7 +71,7 @@
     .line 1
     sget-boolean v0, Lskd;->a:Z
 
-    const v0, 0x7f080ddb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_use_hand:I
 
     return v0
 .end method

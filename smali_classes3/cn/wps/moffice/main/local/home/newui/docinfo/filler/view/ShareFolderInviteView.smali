@@ -101,7 +101,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v0, 0x0
 
@@ -218,7 +218,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setBorderWidth(I)V
 
-    const v1, 0x7f081727
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_add_team:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V
@@ -239,7 +239,7 @@
 
     move-result v1
 
-    const v2, 0x7f0810b4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     if-eqz v1, :cond_0
 
@@ -301,7 +301,7 @@
 
     move-result v0
 
-    const v1, 0x7f122c34
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpscloud_group_only_you_can_see:I
 
     const/4 v2, 0x0
 
@@ -323,7 +323,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122c31
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_group_member_num:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -391,13 +391,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06d3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_setting_membertext:I
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2ee9
+    sget v1, Lcom/resouce/module/ResID;->text:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -782,7 +782,7 @@
 
     invoke-virtual {v1, v0, v2}, Lcn/wps/moffice/main/cloud/drive/view/AutoOffsetViewLayout;->a(Landroid/view/View;I)V
 
-    const v0, 0x7f0b0618
+    sget v0, Lcom/resouce/module/ResID;->dataLayout:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -802,7 +802,7 @@
 .method public final j(Landroid/content/Context;)V
     .locals 4
 
-    const v0, 0x7f0e0eab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_view_share_folder_invite:I
 
     .line 1
     invoke-static {p1, v0, p0}, Landroid/widget/LinearLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -821,7 +821,7 @@
 
     invoke-virtual {v0, v1}, Lcj7;->i(Lcj7$d;)V
 
-    const v0, 0x7f0b2776
+    sget v0, Lcom/resouce/module/ResID;->public_wpsdrive_share_btn:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -830,7 +830,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    const v1, 0x7f0b0e08
+    sget v1, Lcom/resouce/module/ResID;->folder_member_layout:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -954,7 +954,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setBorderWidth(I)V
 
-    const v2, 0x7f08179a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_team_member_more:I
 
     .line 3
     invoke-virtual {v0, v2}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V

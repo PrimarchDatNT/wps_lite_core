@@ -32,7 +32,7 @@
     .line 2
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/PadHomeMainFragmentTabTitleView$b;->a:Landroid/view/View;
 
-    const p1, 0x7f0b17fa
+    sget p1, Lcom/resouce/module/ResID;->main_fragment_tab_title_text:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/PadHomeMainFragmentTabTitleView$b;->b:Landroid/widget/TextView;
 
-    const p1, 0x7f0b17f9
+    sget p1, Lcom/resouce/module/ResID;->main_fragment_tab_title_indicator:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

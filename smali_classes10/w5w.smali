@@ -31,13 +31,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f03
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_all_tab_feedback_view:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b157e
+    sget p2, Lcom/resouce/module/ResID;->layout_total_search_feedback:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122e9a
+    sget v2, Lcom/resouce/module/ResSTRING;->search_feedback_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122e99
+    sget v3, Lcom/resouce/module/ResSTRING;->search_feedback_product_name:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

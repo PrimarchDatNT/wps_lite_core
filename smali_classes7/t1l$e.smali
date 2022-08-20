@@ -67,7 +67,7 @@
 
     move-result-object p2
 
-    const p4, 0x7f12343a
+    sget p4, Lcom/resouce/module/ResSTRING;->writer_user_table_manager:I
 
     invoke-virtual {p2, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0440
+    sget v0, Lcom/resouce/module/ResID;->closeBtn:I
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v0, 0x7f0b0fcf
+    sget v0, Lcom/resouce/module/ResID;->hidecolBtn:I
 
     const-string v1, "et/mobileview/cardmode"
 
@@ -67,14 +67,14 @@
 
     if-eq p1, v0, :cond_6
 
-    const v0, 0x7f0b0fd0
+    sget v0, Lcom/resouce/module/ResID;->hidecolImageBtn:I
 
     if-ne p1, v0, :cond_1
 
     goto/16 :goto_1
 
     :cond_1
-    const v0, 0x7f0b0f1a
+    sget v0, Lcom/resouce/module/ResID;->go_next:I
 
     if-ne p1, v0, :cond_3
 
@@ -130,7 +130,7 @@
     goto/16 :goto_2
 
     :cond_3
-    const v0, 0x7f0b2b55
+    sget v0, Lcom/resouce/module/ResID;->share_card:I
 
     if-ne p1, v0, :cond_4
 
@@ -172,7 +172,7 @@
     goto/16 :goto_2
 
     :cond_4
-    const v0, 0x7f0b1352
+    sget v0, Lcom/resouce/module/ResID;->insert_cell_pic:I
 
     if-ne p1, v0, :cond_9
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/keyboardBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.spreadsheet.control.editor.DigitKeyboardView android:id="@id/et_edit_keyboard" android:paddingTop="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowRadius="0.0" app:keyBackground="@android:color/transparent" app:keyTextColor="@color/mainTextColor" app:keyTextSize="18.0sp" app:labelTextSize="18.0sp" />
-    <cn.wps.moffice.spreadsheet.control.editor.DataValidationListView android:id="@id/et_edit_dvcurrencylist" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

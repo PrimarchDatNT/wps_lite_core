@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/title_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:customLayout="@layout/phone_public_titlebar_search_layout" />
-</merge>

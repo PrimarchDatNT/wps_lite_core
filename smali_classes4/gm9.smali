@@ -564,7 +564,7 @@
 
     if-eqz v5, :cond_0
 
-    const v3, 0x7f0602c2
+    sget v3, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -926,7 +926,7 @@
     .line 1
     iget-object p1, p0, Lgm9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -940,7 +940,7 @@
     .line 2
     iget-object p1, p0, Lgm9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f120e68
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1029,7 +1029,7 @@
     .line 11
     iget-object v2, p0, Lgm9;->c:Landroid/app/Activity;
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

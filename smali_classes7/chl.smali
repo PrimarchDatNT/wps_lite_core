@@ -148,9 +148,9 @@
     .line 1
     new-instance v0, Lhhl;
 
-    const v1, 0x7f08040a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_highlighter_color:I
 
-    const v2, 0x7f122375
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_highlighter:I
 
     const-string v3, "ink-highlight-pen"
 
@@ -176,9 +176,9 @@
     .line 5
     new-instance v3, Lhhl;
 
-    const v4, 0x7f080420
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_style_pen_color:I
 
-    const v5, 0x7f122376
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ink_tip_pen:I
 
     const-string v6, "ink-pen"
 
@@ -200,9 +200,9 @@
     .line 9
     new-instance v4, Lhhl;
 
-    const v5, 0x7f0803f1
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_style_eraser_color:I
 
-    const v6, 0x7f122374
+    sget v6, Lcom/resouce/module/ResSTRING;->public_ink_tip_eraser:I
 
     const-string v7, "ink-eraser"
 
@@ -224,9 +224,9 @@
     .line 13
     new-instance v5, Lhhl;
 
-    const v6, 0x7f080425
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_style_swatch:I
 
-    const v7, 0x7f12236a
+    sget v7, Lcom/resouce/module/ResSTRING;->public_ink_color:I
 
     const-string v8, "ink-color"
 
@@ -245,9 +245,9 @@
     .line 16
     new-instance v6, Lhhl;
 
-    const v7, 0x7f080416
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_thickness:I
 
-    const v8, 0x7f122373
+    sget v8, Lcom/resouce/module/ResSTRING;->public_ink_stroke_width:I
 
     const-string v9, "ink-thickness"
 
@@ -326,9 +326,9 @@
     .line 6
     new-instance v6, Lhhl;
 
-    const v7, 0x7f0802ca
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
-    const v8, 0x7f121d07
+    sget v8, Lcom/resouce/module/ResSTRING;->public_add_picture:I
 
     const-string v9, "insert-picture"
 
@@ -368,9 +368,9 @@
     .line 10
     new-instance v7, Lchl$l;
 
-    const v8, 0x7f0802c4
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_mic:I
 
-    const v9, 0x7f121d57
+    sget v9, Lcom/resouce/module/ResSTRING;->public_audio_input:I
 
     const-string v10, "audio-input"
 
@@ -414,9 +414,9 @@
     :cond_2
     new-instance v9, Lhhl;
 
-    const v10, 0x7f080297
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
-    const v11, 0x7f12197f
+    sget v11, Lcom/resouce/module/ResSTRING;->phone_public_enter_auto_arrange:I
 
     const-string v12, "auto-wrap"
 
@@ -632,9 +632,9 @@
     .line 2
     new-instance v7, Lhhl;
 
-    const v2, 0x7f080271
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_openfile:I
 
-    const v3, 0x7f12259b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open_file:I
 
     const-string v4, "ole-open"
 
@@ -661,9 +661,9 @@
     .line 5
     new-instance v1, Lhhl;
 
-    const v9, 0x7f080221
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v10, 0x7f121fba
+    sget v10, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     const-string v11, "pic-del"
 
@@ -709,9 +709,9 @@
     .line 1
     new-instance v6, Lhhl;
 
-    const v1, 0x7f08033a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pic_editing:I
 
-    const v2, 0x7f121802
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_edit:I
 
     const-string v3, "pic_editor"
 
@@ -735,9 +735,9 @@
     .line 3
     new-instance v0, Lhhl;
 
-    const v8, 0x7f08029a
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_cutting:I
 
-    const v9, 0x7f12058c
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_crop:I
 
     const-string v10, "pic-crop"
 
@@ -761,9 +761,9 @@
     .line 5
     new-instance v2, Lhhl;
 
-    const v8, 0x7f0802b0
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
-    const v9, 0x7f120685
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_rotation:I
 
     const-string v10, "pic-rotate"
 
@@ -810,9 +810,9 @@
     :cond_0
     new-instance v4, Lhhl;
 
-    const v9, 0x7f0803ad
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_share_album:I
 
-    const v10, 0x7f122834
+    sget v10, Lcom/resouce/module/ResSTRING;->public_savepic:I
 
     const/4 v12, 0x1
 
@@ -844,9 +844,9 @@
     :goto_0
     new-instance v15, Lhhl;
 
-    const v10, 0x7f080221
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v11, 0x7f121fba
+    sget v11, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     const/4 v13, 0x1
 
@@ -868,9 +868,9 @@
     .line 13
     new-instance v5, Lhhl;
 
-    const v17, 0x7f0801e3
+    sget v17, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_surround:I
 
-    const v18, 0x7f1206c4
+    sget v18, Lcom/resouce/module/ResSTRING;->documentmanager_wrap:I
 
     const/16 v20, 0x1
 
@@ -988,9 +988,9 @@
     .line 2
     new-instance v3, Lhhl;
 
-    const v4, 0x7f0801d4
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_left:I
 
-    const v5, 0x7f121d1a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_align_left:I
 
     const-string v6, "align-left"
 
@@ -1006,9 +1006,9 @@
     .line 4
     new-instance v4, Lhhl;
 
-    const v5, 0x7f0801d3
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_horiz:I
 
-    const v6, 0x7f121d19
+    sget v6, Lcom/resouce/module/ResSTRING;->public_align_center:I
 
     const-string v7, "align-center"
 
@@ -1036,7 +1036,7 @@
 
     const-string v8, "table-cell-bg-white"
 
-    const v9, 0x7f0606e0
+    sget v9, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-direct {v6, v7, v5, v8, v9}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1050,7 +1050,7 @@
 
     const-string v9, "table-cell-bg-grey"
 
-    const v10, 0x7f0606bb
+    sget v10, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_grey:I
 
     invoke-direct {v7, v8, v5, v9, v10}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1064,7 +1064,7 @@
 
     const-string v10, "table-cell-bg-light-blue"
 
-    const v11, 0x7f0606bc
+    sget v11, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_light_blue:I
 
     invoke-direct {v8, v9, v5, v10, v11}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1078,7 +1078,7 @@
 
     const-string v11, "table-cell-bg-light-yellow"
 
-    const v12, 0x7f0606bd
+    sget v12, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_light_yellow:I
 
     invoke-direct {v9, v10, v5, v11, v12}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1092,7 +1092,7 @@
 
     const-string v12, "table-cell-bg-yellow"
 
-    const v13, 0x7f0606bf
+    sget v13, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_yellow:I
 
     invoke-direct {v10, v11, v5, v12, v13}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1106,7 +1106,7 @@
 
     const-string v13, "table-cell-bg-red"
 
-    const v14, 0x7f0606be
+    sget v14, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_red:I
 
     invoke-direct {v11, v12, v5, v13, v14}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
@@ -1120,16 +1120,16 @@
 
     const-string v14, "table-cell-bg-blue"
 
-    const v15, 0x7f0606ba
+    sget v15, Lcom/resouce/module/ResCOLOR;->v10_phone_table_cell_shade_color_blue:I
 
     invoke-direct {v12, v13, v5, v14, v15}, Lkhl;-><init>(Landroid/content/Context;Lkvl;Ljava/lang/String;I)V
 
     .line 21
     new-instance v13, Lchl$x;
 
-    const v14, 0x7f080403
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_style_format:I
 
-    const v15, 0x7f122a4b
+    sget v15, Lcom/resouce/module/ResSTRING;->public_table_cell_bg:I
 
     const-string v1, "table-cell-bg"
 
@@ -1192,9 +1192,9 @@
     .line 26
     new-instance v1, Lhhl;
 
-    const v10, 0x7f080487
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->comp_table_xls_red:I
 
-    const v11, 0x7f122a60
+    sget v11, Lcom/resouce/module/ResSTRING;->public_table_style:I
 
     const-string v12, "table-style-red"
 
@@ -1213,7 +1213,7 @@
     .line 29
     new-instance v10, Lhhl;
 
-    const v12, 0x7f080481
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_table_xls_blue:I
 
     const-string v15, "table-style-blue"
 
@@ -1232,7 +1232,7 @@
     .line 32
     new-instance v12, Lhhl;
 
-    const v15, 0x7f080486
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->comp_table_xls_orange:I
 
     const-string v8, "table-style-light-yellow"
 
@@ -1251,7 +1251,7 @@
     .line 35
     new-instance v8, Lhhl;
 
-    const v15, 0x7f080484
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->comp_table_xls_green:I
 
     const-string v7, "table-style-green"
 
@@ -1270,7 +1270,7 @@
     .line 38
     new-instance v7, Lhhl;
 
-    const v15, 0x7f080480
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->comp_table_xls_black_and_white:I
 
     const-string v6, "table-style-white"
 
@@ -1368,9 +1368,9 @@
     .line 3
     new-instance v3, Lhhl;
 
-    const v4, 0x7f0802ca
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
-    const v5, 0x7f121d07
+    sget v5, Lcom/resouce/module/ResSTRING;->public_add_picture:I
 
     const-string v6, "insert-picture"
 
@@ -1391,9 +1391,9 @@
     .line 6
     new-instance v5, Lhhl;
 
-    const v6, 0x7f080297
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
-    const v7, 0x7f12197f
+    sget v7, Lcom/resouce/module/ResSTRING;->phone_public_enter_auto_arrange:I
 
     const-string v8, "auto-wrap"
 
@@ -1437,9 +1437,9 @@
     .line 1
     new-instance v6, Lhhl;
 
-    const v1, 0x7f0802db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_words:I
 
-    const v2, 0x7f121d0c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_add_text_content:I
 
     const-string v3, "textbox-edit"
 
@@ -1479,9 +1479,9 @@
     :goto_0
     new-instance v0, Lhhl;
 
-    const v8, 0x7f0802b0
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
-    const v9, 0x7f120685
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_rotation:I
 
     const/4 v11, 0x1
 
@@ -1503,9 +1503,9 @@
     .line 7
     new-instance v1, Lhhl;
 
-    const v8, 0x7f080221
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v9, 0x7f121fba
+    sget v9, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     const-string v10, "textbox-del"
 
@@ -1525,9 +1525,9 @@
     .line 9
     new-instance v2, Lhhl;
 
-    const v8, 0x7f0801e3
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_surround:I
 
-    const v9, 0x7f1206c4
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_wrap:I
 
     const-string v10, "wrap-style-square"
 
@@ -1665,9 +1665,9 @@
 
     const-string v3, "item-style-line-1"
 
-    const v4, 0x7f12326a
+    sget v4, Lcom/resouce/module/ResSTRING;->write_frame_line_type_solid_text:I
 
-    const v5, 0x7f080413
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_1:I
 
     const/4 v6, 0x0
 
@@ -1684,9 +1684,9 @@
 
     const-string v10, "item-style-line-2"
 
-    const v11, 0x7f123267
+    sget v11, Lcom/resouce/module/ResSTRING;->write_frame_line_type_solid_Dash:I
 
-    const v12, 0x7f080414
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_2:I
 
     const/4 v13, 0x6
 
@@ -1703,9 +1703,9 @@
 
     const-string v16, "item-style-line-3"
 
-    const v17, 0x7f123268
+    sget v17, Lcom/resouce/module/ResSTRING;->write_frame_line_type_solid_long_dash:I
 
-    const v18, 0x7f080415
+    sget v18, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_4:I
 
     const/16 v19, 0x7
 
@@ -1716,9 +1716,9 @@
     .line 4
     new-instance v3, Lhhl;
 
-    const v4, 0x7f080242
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_revision_reject:I
 
-    const v5, 0x7f123269
+    sget v5, Lcom/resouce/module/ResSTRING;->write_frame_line_type_solid_none_line:I
 
     const-string v6, "item-style-line-4"
 
@@ -1739,9 +1739,9 @@
     .line 7
     new-instance v5, Lhhl;
 
-    const v9, 0x7f080dce
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_line_thickness_style:I
 
-    const v10, 0x7f121a94
+    sget v10, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_thinline:I
 
     const-string v11, "frame-line"
 
@@ -1790,9 +1790,9 @@
     .line 1
     new-instance v6, Lchl$m0;
 
-    const v2, 0x7f0803f3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_style_font:I
 
-    const v3, 0x7f122815
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     const-string v4, "font-type"
 
@@ -1814,9 +1814,9 @@
     .line 3
     new-instance v0, Lhhl;
 
-    const v1, 0x7f080421
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_size_add:I
 
-    const v2, 0x7f122358
+    sget v2, Lcom/resouce/module/ResSTRING;->public_increase_font_size:I
 
     const-string v3, "font-increase"
 
@@ -1834,9 +1834,9 @@
     .line 5
     new-instance v1, Lhhl;
 
-    const v2, 0x7f080422
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_style_size_minus:I
 
-    const v3, 0x7f121fad
+    sget v3, Lcom/resouce/module/ResSTRING;->public_decrease_font_size:I
 
     const-string v5, "font-decrease"
 
@@ -1852,9 +1852,9 @@
     .line 7
     new-instance v2, Lhhl;
 
-    const v3, 0x7f0803f5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_font_bold_selector:I
 
-    const v5, 0x7f1221b3
+    sget v5, Lcom/resouce/module/ResSTRING;->public_font_bold:I
 
     const-string v7, "bold"
 
@@ -1941,9 +1941,9 @@
     .line 20
     new-instance v10, Lhhl;
 
-    const v11, 0x7f080426
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->comp_style_toolbar_format:I
 
-    const v12, 0x7f1224d4
+    sget v12, Lcom/resouce/module/ResSTRING;->public_modify_format:I
 
     const-string v13, "font-format"
 
@@ -2007,9 +2007,9 @@
     .line 1
     new-instance v0, Lhhl;
 
-    const v1, 0x7f080404
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_format_painter:I
 
-    const v2, 0x7f1221e0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_format_brush:I
 
     const-string v3, "format-painter"
 
@@ -2020,9 +2020,9 @@
     .line 2
     new-instance v1, Lhhl;
 
-    const v6, 0x7f08025f
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_doc_copy_format:I
 
-    const v7, 0x7f1221e1
+    sget v7, Lcom/resouce/module/ResSTRING;->public_format_brush_copy:I
 
     const-string v8, "copy-format"
 
@@ -2047,9 +2047,9 @@
     .line 5
     new-instance v2, Lhhl;
 
-    const v6, 0x7f080236
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_common_paste_format:I
 
-    const v7, 0x7f1221e2
+    sget v7, Lcom/resouce/module/ResSTRING;->public_format_brush_paste:I
 
     const-string v8, "paste-format"
 
@@ -2096,9 +2096,9 @@
     .line 1
     new-instance v6, Lhhl;
 
-    const v1, 0x7f080278
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_postil:I
 
-    const v2, 0x7f121f1c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     const-string v3, "insert-comment"
 
@@ -2110,7 +2110,7 @@
 
     invoke-direct/range {v0 .. v5}, Lhhl;-><init>(IILjava/lang/String;ZZ)V
 
-    const v0, 0x7f0b1259
+    sget v0, Lcom/resouce/module/ResID;->id_quick_add_comment:I
 
     .line 2
     iput v0, v6, Lol3;->B:I
@@ -2130,9 +2130,9 @@
     .line 5
     new-instance v1, Lhhl;
 
-    const v8, 0x7f08044d
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame:I
 
-    const v9, 0x7f122a48
+    sget v9, Lcom/resouce/module/ResSTRING;->public_table:I
 
     const-string v10, "insert-table"
 
@@ -2156,9 +2156,9 @@
     .line 7
     new-instance v2, Lhhl;
 
-    const v8, 0x7f08026f
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_doc_mark:I
 
-    const v9, 0x7f12329d
+    sget v9, Lcom/resouce/module/ResSTRING;->writer_custom_drawing:I
 
     const-string v10, "ink-pen"
 
@@ -2176,9 +2176,9 @@
     .line 9
     new-instance v3, Lhhl;
 
-    const v4, 0x7f08022e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_insert:I
 
-    const v5, 0x7f122385
+    sget v5, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     const-string v7, "insert"
 
@@ -2327,9 +2327,9 @@
     .line 1
     new-instance v0, Lhhl;
 
-    const v1, 0x7f0802e6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_8:I
 
-    const v2, 0x7f1223be
+    sget v2, Lcom/resouce/module/ResSTRING;->public_item_number_symbol:I
 
     const-string v3, "item-symbol-1"
 
@@ -2352,9 +2352,9 @@
     .line 4
     new-instance v2, Lhhl;
 
-    const v3, 0x7f0802df
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_numbering_1:I
 
-    const v5, 0x7f1223bb
+    sget v5, Lcom/resouce/module/ResSTRING;->public_item_number_number:I
 
     const-string v6, "item-number-1"
 
@@ -2373,9 +2373,9 @@
     .line 7
     new-instance v3, Lhhl;
 
-    const v5, 0x7f0801df
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_l:I
 
-    const v6, 0x7f121fae
+    sget v6, Lcom/resouce/module/ResSTRING;->public_decrease_left_indent:I
 
     const-string v7, "decrease-left-indent"
 
@@ -2394,9 +2394,9 @@
     .line 10
     new-instance v5, Lhhl;
 
-    const v6, 0x7f0801e0
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_r:I
 
-    const v7, 0x7f122359
+    sget v7, Lcom/resouce/module/ResSTRING;->public_increase_left_indent:I
 
     const-string v8, "increase-left-indent"
 
@@ -2415,9 +2415,9 @@
     .line 13
     new-instance v6, Lhhl;
 
-    const v7, 0x7f0801d4
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_left:I
 
-    const v8, 0x7f121d1a
+    sget v8, Lcom/resouce/module/ResSTRING;->public_align_left:I
 
     const-string v9, "align-left"
 
@@ -2436,9 +2436,9 @@
     .line 16
     new-instance v8, Lhhl;
 
-    const v9, 0x7f0801d3
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_horiz:I
 
-    const v10, 0x7f121d19
+    sget v10, Lcom/resouce/module/ResSTRING;->public_align_center:I
 
     const-string v11, "align-center"
 
@@ -2457,7 +2457,7 @@
     .line 19
     new-instance v9, Lhhl;
 
-    const v10, 0x7f122813
+    sget v10, Lcom/resouce/module/ResSTRING;->public_ribbon_alignment:I
 
     const-string v11, "para"
 

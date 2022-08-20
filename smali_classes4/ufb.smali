@@ -299,7 +299,7 @@
     .line 13
     iget-object v0, p0, Lufb;->f:Landroid/content/Context;
 
-    const v3, 0x7f120d69
+    sget v3, Lcom/resouce/module/ResSTRING;->folder_unpinned:I
 
     invoke-static {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -432,7 +432,7 @@
     .line 13
     iget-object v0, p0, Lufb;->f:Landroid/content/Context;
 
-    const v3, 0x7f120d69
+    sget v3, Lcom/resouce/module/ResSTRING;->folder_unpinned:I
 
     invoke-static {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -689,7 +689,7 @@
     .line 26
     iget-object v2, p1, Lufb$i;->o0:Landroid/widget/TextView;
 
-    const v4, 0x7f121a10
+    sget v4, Lcom/resouce/module/ResSTRING;->pin_to_files:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -710,7 +710,7 @@
     .line 28
     iget-object v2, p1, Lufb$i;->o0:Landroid/widget/TextView;
 
-    const v4, 0x7f121548
+    sget v4, Lcom/resouce/module/ResSTRING;->open_files_unpinned:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -828,7 +828,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0312
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_files_list_item:I
 
     const/4 v2, 0x0
 
@@ -1332,7 +1332,7 @@
     .line 13
     iget-object v0, p0, Lufb;->f:Landroid/content/Context;
 
-    const v3, 0x7f120d69
+    sget v3, Lcom/resouce/module/ResSTRING;->folder_unpinned:I
 
     invoke-static {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1467,7 +1467,7 @@
     .line 14
     iget-object v0, p0, Lufb;->f:Landroid/content/Context;
 
-    const v3, 0x7f120d69
+    sget v3, Lcom/resouce/module/ResSTRING;->folder_unpinned:I
 
     invoke-static {v0, v3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

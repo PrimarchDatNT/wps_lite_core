@@ -55,7 +55,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2704
+    sget v0, Lcom/resouce/module/ResID;->public_scan_rectify_evaluate_nice:I
 
     const-string v1, "public_scan_rectify_feedback_click"
 
@@ -125,7 +125,7 @@
     goto/16 :goto_2
 
     :cond_2
-    const v0, 0x7f0b2703
+    sget v0, Lcom/resouce/module/ResID;->public_scan_rectify_evaluate_bad:I
 
     if-ne p1, v0, :cond_4
 
@@ -167,11 +167,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f12048c
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_feedback_tips:I
 
-    const v3, 0x7f12048f
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_goto_feedback:I
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v5, Lk3b$a$a;
 
@@ -242,7 +242,7 @@
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f0b3231    # 1.850233E38f
+    sget v0, Lcom/resouce/module/ResID;->tv_rectify_switch_button:I    # 1.850233E38f
 
     if-ne p1, v0, :cond_5
 

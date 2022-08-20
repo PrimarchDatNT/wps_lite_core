@@ -74,7 +74,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -215,7 +215,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0b33
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_dialog_item_layout:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -230,7 +230,7 @@
     check-cast p2, Landroid/widget/LinearLayout;
 
     :goto_0
-    const v1, 0x7f0b13f6
+    sget v1, Lcom/resouce/module/ResID;->item_view:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060657
+    sget v4, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -293,7 +293,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -454,7 +454,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0690
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_charts_dialog_item_layout:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     check-cast p2, Landroid/widget/RelativeLayout;
 
     :cond_1
-    const v1, 0x7f0b13f6
+    sget v1, Lcom/resouce/module/ResID;->item_view:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -511,7 +511,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060035
+    sget v4, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -526,7 +526,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060259
+    sget v4, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -545,7 +545,7 @@
     .line 10
     invoke-virtual {v1, v2, v0}, Landroid/widget/ImageView;->setLayerType(ILandroid/graphics/Paint;)V
 
-    const v0, 0x7f0b13ce
+    sget v0, Lcom/resouce/module/ResID;->item_layout:I
 
     .line 11
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

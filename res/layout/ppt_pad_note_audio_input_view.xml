@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.presentation.control.noteforedit.noteediting.NoteAudioRecordButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ppt_audio_record" android:background="@drawable/ppt_pad_audio_note_input_view_selector" android:layout_width="240.0dip" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layoutDirection="locale">
-        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pad_comp_multimedia_mic" />
-        <TextView android:textSize="13.0sp" android:textColor="@color/mainTextColor" android:id="@id/text" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_note_audio_speak_start" android:paddingStart="6.0dip" />
-    </LinearLayout>
-</cn.wps.moffice.presentation.control.noteforedit.noteediting.NoteAudioRecordButton>

@@ -63,7 +63,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 2
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

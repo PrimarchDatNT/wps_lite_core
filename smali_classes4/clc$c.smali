@@ -130,11 +130,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08075b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit:I
 
-    const v2, 0x7f1217b4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
-    const v3, 0x7f1217c6
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
     .line 15
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;

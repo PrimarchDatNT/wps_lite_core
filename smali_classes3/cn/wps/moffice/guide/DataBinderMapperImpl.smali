@@ -20,14 +20,14 @@
 
     sput-object v0, Lcn/wps/moffice/guide/DataBinderMapperImpl;->a:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0e02ba
+    sget v2, Lcom/resouce/module/ResLAYOUT;->guide_app_recomend_item:I
 
     const/4 v3, 0x1
 
     .line 2
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e02d4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_app_guide_select_layout:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V

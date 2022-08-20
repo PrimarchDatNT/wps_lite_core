@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205c7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -160,7 +160,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -174,7 +174,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -213,7 +213,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221dd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_send_url:I
 
     invoke-static {v0, p1, v1}, Ldkh;->i(Landroid/app/Activity;Ljava/lang/String;I)V
 

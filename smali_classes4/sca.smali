@@ -80,7 +80,7 @@
     .line 1
     iget-object v0, p0, Lsca;->I:Landroid/view/View;
 
-    const v1, 0x7f0b10c9
+    sget v1, Lcom/resouce/module/ResID;->home_mypursing_gridviewlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -93,7 +93,7 @@
     .line 2
     iget-object v0, p0, Lsca;->I:Landroid/view/View;
 
-    const v1, 0x7f0b10ca
+    sget v1, Lcom/resouce/module/ResID;->home_mypursing_purchasing_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     move-result v1
 
-    const v2, 0x7f081944
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_home_app_bg:I
 
     if-eqz v1, :cond_0
 
@@ -133,7 +133,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605ee
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -158,7 +158,7 @@
     :goto_0
     iget-object v0, p0, Lsca;->I:Landroid/view/View;
 
-    const v1, 0x7f0b335d
+    sget v1, Lcom/resouce/module/ResID;->v_left_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     const/4 v3, 0x0
 
@@ -186,7 +186,7 @@
     .line 11
     iget-object v0, p0, Lsca;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32ae
+    sget v1, Lcom/resouce/module/ResID;->tv_wallet_func_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -194,7 +194,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122502
+    sget v1, Lcom/resouce/module/ResSTRING;->public_my_wallet_pkg_service:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e035a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_mypursing_content_layout:I
 
     const/4 v2, 0x0
 
@@ -316,7 +316,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10ca
+    sget v1, Lcom/resouce/module/ResID;->home_mypursing_purchasing_gridview:I
 
     if-eqz v0, :cond_1
 
@@ -424,7 +424,7 @@
     .line 3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v1, 0x0
 

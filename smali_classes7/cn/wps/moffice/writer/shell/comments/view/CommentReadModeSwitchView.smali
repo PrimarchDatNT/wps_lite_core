@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e09f8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_read_mode_comment_swtich_button:I
 
     const/4 v1, 0x1
 
@@ -72,7 +72,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b365c
+    sget v0, Lcom/resouce/module/ResID;->writer_readmode_input_audio:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b04c7
+    sget v0, Lcom/resouce/module/ResID;->comment_audio_bottom_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b365d
+    sget v0, Lcom/resouce/module/ResID;->writer_readmode_input_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -110,7 +110,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b04d0
+    sget v0, Lcom/resouce/module/ResID;->comment_text_bottom_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b04c8
+    sget v0, Lcom/resouce/module/ResID;->comment_audio_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/comments/view/CommentReadModeSwitchView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b04d1
+    sget v0, Lcom/resouce/module/ResID;->comment_text_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -234,7 +234,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -274,7 +274,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -289,7 +289,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -322,7 +322,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b04c8
+    sget v1, Lcom/resouce/module/ResID;->comment_audio_view:I
 
     if-ne v0, v1, :cond_2
 
@@ -355,7 +355,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b04d1
+    sget v0, Lcom/resouce/module/ResID;->comment_text_view:I
 
     if-ne p1, v0, :cond_4
 

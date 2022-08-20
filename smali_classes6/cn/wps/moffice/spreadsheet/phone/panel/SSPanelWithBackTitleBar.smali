@@ -66,14 +66,14 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0987
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_panel_with_back_titlebar_layout:I
 
     invoke-virtual {p3, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const p2, 0x7f0b2164
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_nav_back:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->B:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b2162
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_logo:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->I:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b2161
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_keyboard:I
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->S:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b215c
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_div:I
 
     .line 10
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->T:Landroid/view/View;
 
-    const p2, 0x7f0b215b
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_content_div:I
 
     .line 11
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2167
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_title_view:I
 
     .line 12
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->V:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2166
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_title_layout:I
 
     .line 13
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->W:Landroid/view/View;
 
-    const p2, 0x7f0b2ff3
+    sget p2, Lcom/resouce/module/ResID;->title_content:I
 
     .line 14
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->a0:Landroid/view/View;
 
-    const p2, 0x7f0b215a
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_content:I
 
     .line 15
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->b0:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2165
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_panel_sub_title_container:I
 
     .line 16
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0602db
+    sget p2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -236,7 +236,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060657
+    sget v3, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -366,7 +366,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -393,7 +393,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -412,7 +412,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

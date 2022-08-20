@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1407
+    sget v0, Lcom/resouce/module/ResID;->iv_add_page_decrease:I
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b1408
+    sget v0, Lcom/resouce/module/ResID;->iv_add_page_increase:I
 
     if-ne p1, v0, :cond_2
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121989
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_new_pdf_dialog_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12154b
+    sget v1, Lcom/resouce/module/ResSTRING;->open_menber_text:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

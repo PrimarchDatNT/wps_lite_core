@@ -375,7 +375,7 @@
     .line 3
     iget-object p1, p0, Lel9;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -406,7 +406,7 @@
     .line 7
     iget-object p1, p0, Lel9;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121cd6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_3rd_cloud_storage_file_can_not_upload:I
 
     const/4 v2, 0x1
 
@@ -511,7 +511,7 @@
 
     iget-object v0, p0, Lel9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p2, v0, v1, p1}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 
@@ -532,7 +532,7 @@
     :goto_1
     iget-object p1, p0, Lel9;->a:Landroid/app/Activity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="@dimen/public_color_noneColorBtn_margin_v" android:paddingRight="15.0dip" android:paddingBottom="@dimen/public_color_noneColorBtn_margin_v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="15.0dip">
-        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/phone_bg_none" android:background="@drawable/public_gray_border_selector" android:layout_width="0.0dip" android:layout_height="@dimen/public_color_noneColorBtn_height" android:layout_marginLeft="0.0dip" android:layout_marginRight="15.0dip" android:text="@string/writer_noneColor" android:layout_weight="1.0" android:layout_marginStart="0.0dip" android:layout_marginEnd="15.0dip" />
-        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/phone_bg_pic_fill" android:background="@drawable/public_gray_border_selector" android:layout_width="0.0dip" android:layout_height="@dimen/public_color_noneColorBtn_height" android:text="@string/writer_page_background_pic_fill" android:layout_weight="1.0" />
-    </LinearLayout>
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/phone_bg_colors" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

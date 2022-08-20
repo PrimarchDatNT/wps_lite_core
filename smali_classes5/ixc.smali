@@ -184,7 +184,7 @@
     .line 2
     iget-object v0, p0, Lixc;->W:Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;
 
-    const v2, 0x7f121c26
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_leave_play:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->setExitButtonToTextMode(I)V
 
@@ -572,7 +572,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0680
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdfnew_tv_titlebar_phone:I
 
     return v0
 .end method
@@ -583,7 +583,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ebd
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_tv_meeting_functionbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -941,7 +941,7 @@
 .method public e(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f12011c
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

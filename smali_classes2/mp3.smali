@@ -151,7 +151,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120585
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

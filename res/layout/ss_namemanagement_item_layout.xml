@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/phone_ss_font_modify_panel_padding_w" android:paddingTop="@dimen/phone_ss_font_modify_panel_padding_h" android:paddingRight="@dimen/phone_ss_font_modify_panel_padding_w" android:paddingBottom="@dimen/phone_ss_font_modify_panel_padding_h" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_chart_attr_item_height" android:paddingStart="@dimen/phone_ss_font_modify_panel_padding_w" android:paddingEnd="@dimen/phone_ss_font_modify_panel_padding_w"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ss_chart_data_source_choose" android:singleLine="true" style="@style/et_function_select_name_text_style" />
-    <TextView android:ellipsize="middle" android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/et_function_select_desc_text_style" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/content_item_category_msg_push_settings_textView" android:layout_centerVertical="true" style="@style/new_ui_public_setting_item_text" />
-    <cn.wpsx.support.ui.KSwitchCompat android:id="@id/switch_item_category_msg_push_settings_KSwitchCompat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
-    <View android:id="@id/separator_item_category_msg_push_settings_view" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" style="@style/public_separator_line" />
-</RelativeLayout>

@@ -143,16 +143,16 @@
 
     move-result-object v0
 
-    const v1, 0x7f081526
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->premium_center_file_trans_bg:I
 
-    const v2, 0x7f120cd4
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f120cb7
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_introduction_2:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -187,7 +187,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030022
+    sget v2, Lcom/resouce/module/ResARRAY;->func_guide_pdf_privileges_names:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

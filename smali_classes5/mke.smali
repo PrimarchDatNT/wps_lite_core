@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -109,7 +109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20f7
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,12 +118,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f1221f6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_frame_style:I
 
     .line 3
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b20f6
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,13 +148,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e1005
+    sget v3, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_frame_style_layout:I
 
     invoke-virtual {v1, v3, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b208e
+    sget v3, Lcom/resouce/module/ResID;->phone_ppt_frame_real_line:I
 
     .line 7
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b208c
+    sget v4, Lcom/resouce/module/ResID;->phone_ppt_frame_dashed_line:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     check-cast v4, Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b208d
+    sget v5, Lcom/resouce/module/ResID;->phone_ppt_frame_dot_line:I
 
     .line 9
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -353,14 +353,14 @@
 
     move-result p1
 
-    const v2, 0x7f0b208e
+    sget v2, Lcom/resouce/module/ResID;->phone_ppt_frame_real_line:I
 
     if-ne p1, v2, :cond_2
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b208c
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_frame_dashed_line:I
 
     if-ne p1, v1, :cond_3
 
@@ -369,7 +369,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b208d
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_frame_dot_line:I
 
     if-ne p1, v1, :cond_4
 

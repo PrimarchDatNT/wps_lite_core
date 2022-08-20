@@ -126,7 +126,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060002
+    sget v2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -242,7 +242,7 @@
 
     invoke-virtual {p1, v2, p2}, Landroid/widget/TextView;->measure(II)V
 
-    const p2, 0x7f081a93
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_pad_titlebar_item_selector:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V

@@ -129,7 +129,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0126
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_process_dialog:I
 
     const/4 v1, 0x0
 

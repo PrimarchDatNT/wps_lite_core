@@ -1160,7 +1160,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1170,11 +1170,11 @@
 
     invoke-direct {v1, p0, p1}, Lwy3$a;-><init>(Landroid/content/Context;Lwy3$d;)V
 
-    const p0, 0x7f12293d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_set_network:I
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p1, 0x0
 
@@ -1208,12 +1208,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f1205cb
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage8:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 

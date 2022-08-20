@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213ca
+    sget v1, Lcom/resouce/module/ResSTRING;->micro_get_token_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213c8    # 1.9417E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->micro_get_authorize_url:I    # 1.9417E38f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -109,7 +109,7 @@
     .line 2
     iget-object p1, p0, Lg8d$b;->I:Lg8d;
 
-    const p2, 0x7f121359
+    sget p2, Lcom/resouce/module/ResSTRING;->load_photo_fail:I
 
     invoke-virtual {p1, p2}, Lg8d;->h(I)V
 

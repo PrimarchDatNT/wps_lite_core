@@ -69,7 +69,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f12026e
+    sget p1, Lcom/resouce/module/ResSTRING;->class_share_homework:I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -135,9 +135,9 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0b0416
+    sget v2, Lcom/resouce/module/ResID;->classroom_guide:I
 
-    const v3, 0x7f0810b3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_feedback:I
 
     .line 9
     new-instance v4, Lcn/wps/moffice/main/classroom/assignment/HomeworkShareLinkActivity$a;
@@ -147,9 +147,9 @@
     invoke-virtual {v0, v2, v3, v4}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->n(IILandroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v1, 0x7f0b3029
+    sget v1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
-    const v2, 0x7f081a3d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_more:I
 
     .line 10
     new-instance v3, Lcn/wps/moffice/main/classroom/assignment/HomeworkShareLinkActivity$b;

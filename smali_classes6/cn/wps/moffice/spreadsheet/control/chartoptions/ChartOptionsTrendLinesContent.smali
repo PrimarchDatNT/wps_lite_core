@@ -120,19 +120,19 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e01bf
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_trendlines_context_view:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e0944
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_trendlines_context_view:I
 
     :goto_0
     const/4 v1, 0x1
 
     invoke-virtual {p1, p2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b096f
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_add_btn:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
     .line 13
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setVisibility(I)V
 
-    const p1, 0x7f0b0970
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_del:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b096e
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_scrollview:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->a0:Lcn/wps/moffice/spreadsheet/control/common/CustomScrollView;
 
-    const p1, 0x7f0b0971
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_del_finish:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b096c
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_item_group:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->W:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b096d
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_nothingItem:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12079c
+    sget p2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_polynomial_order:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -223,7 +223,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12079b
+    sget p2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_moving_average_period:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12024b
+    sget v3, Lcom/resouce/module/ResSTRING;->chart_exponential_bmw:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -325,7 +325,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12024c
+    sget v3, Lcom/resouce/module/ResSTRING;->chart_linear_bmw:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12024d
+    sget v4, Lcom/resouce/module/ResSTRING;->chart_logarithmic_bmw:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -361,7 +361,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120250
+    sget v3, Lcom/resouce/module/ResSTRING;->chart_polynomaial_bmw:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f12079f
+    sget v4, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_type_power:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -401,7 +401,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f12079e
+    sget v6, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_type_moving_average:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1002,12 +1002,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f070853
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ss_droplist_item_height_L:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070283
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_simple_adapter_item_height:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1053,7 +1053,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b096f
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_add_btn:I
 
     if-ne v0, v1, :cond_0
 
@@ -1068,7 +1068,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0970
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_del:I
 
     const/16 v2, 0x8
 
@@ -1102,7 +1102,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0971
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_trendlines_squence_del_finish:I
 
     if-ne p1, v0, :cond_2
 
@@ -1489,7 +1489,7 @@
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->e0:[Ljava/lang/String;
 
     :goto_0
-    const v0, 0x7f0b30ca
+    sget v0, Lcom/resouce/module/ResID;->trendlines_type_listview:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1510,7 +1510,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e0250
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->e0:[Ljava/lang/String;
 
@@ -1526,7 +1526,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->B:Landroid/content/Context;
 
-    const v2, 0x7f0e099d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsTrendLinesContent;->e0:[Ljava/lang/String;
 
@@ -1545,7 +1545,7 @@
     .line 12
     sget-boolean v0, Ljif;->n:Z
 
-    const v1, 0x7f0819f9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg_special:I
 
     if-eqz v0, :cond_4
 

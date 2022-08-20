@@ -58,7 +58,7 @@
 
     iget-object p1, p1, Lru8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120cf8
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -69,7 +69,7 @@
 
     iget-object p1, p1, Lru8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1220cf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     iget-object p1, p1, Lru8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120cf6
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -91,7 +91,7 @@
 
     iget-object p1, p1, Lru8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1220e2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

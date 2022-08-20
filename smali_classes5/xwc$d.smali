@@ -42,7 +42,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b1c18
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_font_narrow:I
 
     if-ne p1, v1, :cond_0
 
@@ -63,7 +63,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v1, 0x7f0b1c17
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_font_enlarge:I
 
     const/4 v2, 0x1
 
@@ -86,7 +86,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b1c10
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_close:I
 
     if-ne p1, v1, :cond_2
 
@@ -107,7 +107,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v1, 0x7f0b1c12
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_middle:I
 
     if-ne p1, v1, :cond_3
 
@@ -128,7 +128,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f0b1c11
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_para_spacing_loose:I
 
     if-ne p1, v1, :cond_4
 
@@ -151,22 +151,22 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f0b1c15
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_insert_bookmark:I
 
     if-eq p1, v1, :cond_7
 
-    const v1, 0x7f0b1c13
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_all_bookmarks:I
 
     if-eq p1, v1, :cond_7
 
-    const v1, 0x7f0b1c0f
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_jump_to:I
 
     if-ne p1, v1, :cond_5
 
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b1c14
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_flip:I
 
     if-ne p1, v1, :cond_6
 
@@ -183,7 +183,7 @@
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f0b1c16
+    sget v0, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_scroll:I
 
     if-ne p1, v0, :cond_8
 

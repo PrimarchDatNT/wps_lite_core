@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0751
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_roaming_setting:I
 
     const/4 v2, 0x0
 
@@ -190,7 +190,7 @@
     :cond_0
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1173
+    sget v1, Lcom/resouce/module/ResID;->home_switch_cloud_auto_backup:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -219,7 +219,7 @@
     :goto_0
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2113
+    sget v1, Lcom/resouce/module/ResID;->phone_setting_auto_backup:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -233,7 +233,7 @@
     :goto_1
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2030
+    sget v1, Lcom/resouce/module/ResID;->phone_home_roaming_setting_network_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 9
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2031
+    sget v1, Lcom/resouce/module/ResID;->phone_home_roaming_setting_network_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 11
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b26fa
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 12
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b26f9
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_info:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 13
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b26fb
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
     .line 14
     iget-object v0, p0, Ltad;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b330a
+    sget v1, Lcom/resouce/module/ResID;->upgrade_space_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
 
     iget-object v1, p0, Ltad;->B:Landroid/app/Activity;
 
-    const v3, 0x7f13012d
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v4, 0x0
 
@@ -361,7 +361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0134
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documentmanager_circleprogress_layout:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -529,7 +529,7 @@
 .method public k(I)V
     .locals 2
 
-    const v0, 0x7f120673
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_wifi:I
 
     if-eqz p1, :cond_0
 
@@ -538,7 +538,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120672
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_all:I
 
     .line 1
     :goto_0
@@ -582,17 +582,17 @@
     .line 6
     invoke-virtual {v0, v1}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f120671
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_disable_upload_msg:I
 
     .line 7
     invoke-virtual {v0, p1}, Lvcd;->setMessage(I)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120677
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_disable:I
 
     .line 8
     invoke-virtual {v0, p1, v2}, Lvcd;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120676
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_continue:I
 
     .line 9
     invoke-virtual {v0, p1, v2}, Lvcd;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
@@ -640,7 +640,7 @@
     .line 5
     iget-object v3, p0, Ltad;->B:Landroid/app/Activity;
 
-    const v4, 0x7f120e6a
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_storage:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -771,12 +771,12 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f121e23
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_check_space:I
 
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f121eee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_space:I
 
     :goto_2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -806,7 +806,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2030
+    sget v1, Lcom/resouce/module/ResID;->phone_home_roaming_setting_network_item:I
 
     if-ne v0, v1, :cond_1
 

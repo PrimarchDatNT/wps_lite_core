@@ -456,7 +456,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -712,11 +712,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d78
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_custom_recycle_view:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -727,7 +727,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/recyclerview/AppFileRecyclerView;->B:Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout;
 
-    const v0, 0x7f0b0cff
+    sget v0, Lcom/resouce/module/ResID;->file_recyclerview:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -743,7 +743,7 @@
 
     invoke-virtual {v0, p0}, Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnRefreshListener(Lcn/wps/moffice/common/beans/swiperefreshlayout/widget/SwipeRefreshLayout$k;)V
 
-    const v0, 0x7f0b1a44
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_group:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -752,7 +752,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/recyclerview/AppFileRecyclerView;->T:Landroid/view/View;
 
-    const v0, 0x7f0b25a8
+    sget v0, Lcom/resouce/module/ResID;->public_custom_file_recycler_view_error_page:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

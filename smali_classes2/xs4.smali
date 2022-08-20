@@ -163,7 +163,7 @@
 
     iget-object v1, p0, Lxs4;->f:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -198,7 +198,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b33bd
+    sget v3, Lcom/resouce/module/ResID;->viewfinder_mask:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,14 +208,14 @@
     .line 7
     invoke-static {v3}, Lxih;->P(Landroid/view/View;)V
 
-    const v3, 0x7f0b33bf
+    sget v3, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2693
+    sget v4, Lcom/resouce/module/ResID;->public_ocr_btn:I
 
     .line 9
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -393,14 +393,14 @@
     .line 6
     iget-object v0, p0, Lxs4;->e:Lhd3;
 
-    const v1, 0x7f12252f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_camera_permission_message:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 7
     iget-object v0, p0, Lxs4;->e:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lxs4$b;
 
@@ -461,7 +461,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1229dd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_scanqrcode_tips:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 

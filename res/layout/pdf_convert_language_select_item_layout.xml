@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="37.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:id="@id/pdf_language_dialog_item_rb" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/en_public_radio_selector" android:layout_marginEnd="8.0dip" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:id="@id/pdf_language_dialog_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

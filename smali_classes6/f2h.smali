@@ -454,7 +454,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e097b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_options_layout:I
 
     const/4 v2, 0x0
 
@@ -483,7 +483,7 @@
     .line 5
     iget-object v0, p0, Lf2h;->V:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2d7b
+    sget v1, Lcom/resouce/module/ResID;->ss_vertical_child_widget:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
     .line 6
     iget-object v0, p0, Lf2h;->V:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2cdd
+    sget v1, Lcom/resouce/module/ResID;->ss_aliquots_widget:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -569,7 +569,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122ba9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_view:I
 
     return v0
 .end method

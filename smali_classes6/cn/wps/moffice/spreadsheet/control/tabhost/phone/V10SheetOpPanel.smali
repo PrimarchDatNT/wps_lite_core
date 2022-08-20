@@ -121,9 +121,9 @@
     .line 10
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$7;
 
-    const v2, 0x7f081f74
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_panel_copy_sheet:I
 
-    const v3, 0x7f1219bc
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_copy:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$7;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -132,9 +132,9 @@
     .line 11
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$8;
 
-    const v2, 0x7f080221
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$8;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -143,9 +143,9 @@
     .line 12
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$9;
 
-    const v2, 0x7f080459
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_hide:I
 
-    const v3, 0x7f122251
+    sget v3, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$9;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -154,9 +154,9 @@
     .line 13
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$10;
 
-    const v2, 0x7f08048c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
-    const v3, 0x7f1219be
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_extract_sheet:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$10;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -165,9 +165,9 @@
     .line 14
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$11;
 
-    const v2, 0x7f080441
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_extract_table:I
 
-    const v3, 0x7f1219b9
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$11;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -176,9 +176,9 @@
     .line 15
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$15;
 
-    const v2, 0x7f081432
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_hidesheets_icon:I
 
-    const v3, 0x7f122fe9
+    sget v3, Lcom/resouce/module/ResSTRING;->ss_show_hidden_sheet:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel$15;-><init>(Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;II)V
 
@@ -196,7 +196,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06068f
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_black:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060690
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_blue:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -224,7 +224,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060696
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_gray:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060697
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_green:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06069b
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_yellow:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060699
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_red:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -289,7 +289,7 @@
     .line 24
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->I:Lk2m;
 
-    const p2, 0x7f0b145e
+    sget p2, Lcom/resouce/module/ResID;->iv_full_mode_switch_icon:I
 
     .line 25
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -554,7 +554,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1026
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_sheet_op_layout:I
 
     const/4 v2, 0x0
 
@@ -566,7 +566,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217a
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -578,7 +578,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217d
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_other_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217b
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -602,7 +602,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217f
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_panel_hide_imgbtn_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -617,7 +617,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -635,7 +635,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b217c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_name_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -914,7 +914,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -922,7 +922,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b20fd
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -931,11 +931,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f120c19
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sheet_color:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b20fc
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -969,7 +969,7 @@
     .line 8
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const v5, 0x7f081f7a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_sheet_color:I
 
     invoke-static {v4, v5, v2, v3, v3}, Llrg;->e(Landroid/content/Context;IIII)Landroid/view/View;
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1010,7 +1010,7 @@
     .line 12
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const v4, 0x7f080242
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_revision_reject:I
 
     invoke-static {v3, v4, v2, v1, v1}, Llrg;->f(Landroid/content/Context;IIII)Landroid/view/View;
 
@@ -1210,7 +1210,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const p2, 0x7f01006c
+    sget p2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_in:I
 
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1219,7 +1219,7 @@
     .line 2
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const v1, 0x7f01006b
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_out:I
 
     invoke-static {p2, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1271,7 +1271,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const p2, 0x7f01006a
+    sget p2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_in:I
 
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1280,7 +1280,7 @@
     .line 11
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/V10SheetOpPanel;->f0:Landroid/content/Context;
 
-    const v1, 0x7f01006d
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_out:I
 
     invoke-static {p2, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

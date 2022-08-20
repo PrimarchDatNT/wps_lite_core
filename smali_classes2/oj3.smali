@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b2994
+    sget v0, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -27,7 +27,7 @@
 
     iput-object v0, p0, Loj3;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2997
+    sget v0, Lcom/resouce/module/ResID;->rom_read_more:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Loj3;->b:Landroid/view/View;
 
-    const v0, 0x7f0b299b
+    sget v0, Lcom/resouce/module/ResID;->rom_read_title:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

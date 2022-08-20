@@ -270,7 +270,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0187
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_phone_file_manage_view:I
 
     const/4 v2, 0x0
 
@@ -303,7 +303,7 @@
     .line 4
     iget-object v0, p0, Ls7a;->I:Landroid/view/View;
 
-    const v1, 0x7f0b210e
+    sget v1, Lcom/resouce/module/ResID;->phone_second_activity_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -364,7 +364,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122293
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_file_manager:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -389,7 +389,7 @@
     .line 11
     iget-object v0, p0, Ls7a;->V:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f08171a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_search:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSearchBtnBg(I)V
 
@@ -426,7 +426,7 @@
     .line 16
     iget-object v0, p0, Ls7a;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2001
+    sget v1, Lcom/resouce/module/ResID;->phone_home_main_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

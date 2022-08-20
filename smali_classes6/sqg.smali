@@ -132,7 +132,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e1022
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_hidden_sheet_item_view:I
 
     const/4 v1, 0x0
 

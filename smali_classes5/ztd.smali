@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v1, 0x0
 
@@ -73,7 +73,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lztd;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
     .line 3
     iget-object v0, p0, Lztd;->b:Lhd3;
 
-    const v1, 0x7f122419
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loading:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -166,7 +166,7 @@
     .line 4
     iget-object v0, p0, Lztd;->b:Lhd3;
 
-    const v1, 0x7f122836
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -196,7 +196,7 @@
 
     aput-object p4, v2, v1
 
-    const p4, 0x7f122614    # 1.94265E38f
+    sget p4, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {p1, p4, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -290,14 +290,14 @@
     :goto_0
     invoke-virtual {v0, p4}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f1223d4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_later:I
 
     const/4 p3, 0x0
 
     .line 8
     invoke-virtual {v0, p1, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122588
+    sget p1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 9
     new-instance p3, Lztd$b;
@@ -349,7 +349,7 @@
 
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance v1, Lztd$c;
@@ -365,7 +365,7 @@
 
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const p1, 0x7f121bdb
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 8
     new-instance v1, Lztd$e;

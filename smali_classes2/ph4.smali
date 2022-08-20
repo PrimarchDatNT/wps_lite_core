@@ -146,7 +146,7 @@
     .line 3
     iget-object v0, p0, Lph4;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v2, 0x0
 

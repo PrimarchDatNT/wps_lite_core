@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lo2h$a;
 
-    const v1, 0x7f080290
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_docer_chart_item:I
 
-    const v2, 0x7f121dce
+    sget v2, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     const/4 v3, 0x1
 

@@ -590,7 +590,7 @@
     :cond_2
     iget-object p1, p0, Llkb;->a:Landroid/content/Context;
 
-    const v0, 0x7f1231bd
+    sget v0, Lcom/resouce/module/ResSTRING;->website_function_link_support:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

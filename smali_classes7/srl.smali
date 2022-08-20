@@ -121,7 +121,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229ad
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_words_limit:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122bdf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

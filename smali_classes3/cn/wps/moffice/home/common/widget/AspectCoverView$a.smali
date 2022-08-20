@@ -49,11 +49,11 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f123210
+    sget v3, Lcom/resouce/module/ResSTRING;->wps_home_book_city_capital_free:I
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
-    const v5, 0x7f0809eb
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->item_free_bg:I
 
     move-object v0, v6
 
@@ -68,11 +68,11 @@
 
     const/4 v9, 0x1
 
-    const v10, 0x7f12321c
+    sget v10, Lcom/resouce/module/ResSTRING;->wps_home_novel_complete:I
 
-    const v11, 0x7f0606e0
+    sget v11, Lcom/resouce/module/ResCOLOR;->white:I
 
-    const v12, 0x7f0809ea
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->item_complete_tag_bg:I
 
     move-object v7, v0
 

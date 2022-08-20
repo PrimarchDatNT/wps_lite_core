@@ -126,7 +126,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0a7f
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_hyperlink_slide_grid_item:I
 
     const/4 v0, 0x0
 
@@ -140,7 +140,7 @@
 
     invoke-direct {p3, p0}, Ltxd$b;-><init>(Ltxd;)V
 
-    const v0, 0x7f0b22e1
+    sget v0, Lcom/resouce/module/ResID;->ppt_hyperlink_grid_item_img:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
 
     iput-object v0, p3, Ltxd$b;->a:Lcn/wps/moffice/presentation/control/common/slide/SlideThumbPictureView;
 
-    const v0, 0x7f0b22e2
+    sget v0, Lcom/resouce/module/ResID;->ppt_hyperlink_grid_item_index:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -305,7 +305,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_1
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I

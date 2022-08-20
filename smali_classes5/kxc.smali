@@ -47,7 +47,7 @@
     .line 4
     iput-object p3, p0, Lkxc;->l:Lcn/wps/moffice/common/beans/phone/apptoolbar/rom/RomAppTitleBar$i;
 
-    const p2, 0x7f0b301a
+    sget p2, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
     .line 6
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b298f
+    sget p2, Lcom/resouce/module/ResID;->rom_layout_search:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -70,7 +70,7 @@
     .line 7
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b29a0
+    sget p2, Lcom/resouce/module/ResID;->rom_search:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -81,7 +81,7 @@
     .line 8
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2a69
+    sget p2, Lcom/resouce/module/ResID;->search_desc:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -94,7 +94,7 @@
     .line 9
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b29a2
+    sget p2, Lcom/resouce/module/ResID;->rom_search_image_close:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
     .line 10
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2995
+    sget p2, Lcom/resouce/module/ResID;->rom_read_image_search:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 11
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2996
+    sget p2, Lcom/resouce/module/ResID;->rom_read_image_share:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -133,7 +133,7 @@
     .line 12
     iget-object p1, p0, Lkxc;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2a86
+    sget p2, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 1
     iget-object v0, p0, Lkxc;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0421
+    sget v1, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,12 +469,12 @@
 
     if-eqz v0, :cond_1
 
-    const v3, 0x7f08099c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_dark:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f08099d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_light:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
@@ -484,12 +484,12 @@
 
     if-eqz v0, :cond_2
 
-    const v3, 0x7f0809a6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_dark:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f0809a7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_search_light:I
 
     :goto_2
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -499,12 +499,12 @@
 
     if-eqz v0, :cond_3
 
-    const v3, 0x7f0809a8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_dark:I
 
     goto :goto_3
 
     :cond_3
-    const v3, 0x7f0809a9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_title_bar_share_light:I
 
     :goto_3
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -514,12 +514,12 @@
 
     if-eqz v0, :cond_4
 
-    const v3, 0x7f0809a0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_dark:I
 
     goto :goto_4
 
     :cond_4
-    const v3, 0x7f0809a1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_light:I
 
     :goto_4
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -558,12 +558,12 @@
 
     if-eqz v0, :cond_8
 
-    const v0, 0x7f08097c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_dark:I
 
     goto :goto_6
 
     :cond_8
-    const v0, 0x7f08097d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_light:I
 
     :goto_6
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

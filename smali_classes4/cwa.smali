@@ -82,7 +82,7 @@
     .line 7
     iget-object v0, p0, Lcwa;->W:Ln8b;
 
-    const v1, 0x7f081bc5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_scan_default_img_small:I
 
     invoke-virtual {v0, v1}, Ln8b;->u(I)V
 
@@ -216,7 +216,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f080f94
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_shape_doc_scan_image_normal:I
 
     .line 12
     invoke-virtual {v6, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -230,7 +230,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0804f4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->doc_fic_pic_preview_default:I
 
     move-object v5, p1
 
@@ -289,12 +289,12 @@
 
     if-eqz p3, :cond_2
 
-    const p3, 0x7f0e0588
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_item_doc_scan_group_land:I
 
     goto :goto_1
 
     :cond_2
-    const p3, 0x7f0e0589
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_item_doc_scan_group_portrait:I
 
     :goto_1
     const/4 v0, 0x0
@@ -308,7 +308,7 @@
 
     invoke-direct {p3, v0}, Lcwa$b;-><init>(Lcwa$a;)V
 
-    const v0, 0x7f0b3194
+    sget v0, Lcom/resouce/module/ResID;->tv_group_name:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -319,7 +319,7 @@
 
     iput-object v0, p3, Lcwa$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b146c
+    sget v0, Lcom/resouce/module/ResID;->iv_group_menu:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
 
     iput-object v0, p3, Lcwa$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1692
+    sget v0, Lcom/resouce/module/ResID;->ll_image_list:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
     .line 8
     invoke-virtual {p0, p3}, Lcwa;->m(Lcwa$b;)V
 
-    const v0, 0x7f0b13dc
+    sget v0, Lcom/resouce/module/ResID;->item_root:I
 
     .line 9
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

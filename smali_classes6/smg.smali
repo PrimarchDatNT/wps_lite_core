@@ -49,9 +49,9 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0219
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_list_item:I
 
-    const v2, 0x7f0e0223
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_phone_rom_read_cardmode_list_item:I
 
     if-eq p1, v2, :cond_1
 
@@ -73,7 +73,7 @@
 
     if-ne p1, v0, :cond_3
 
-    const p1, 0x7f0b0354
+    sget p1, Lcom/resouce/module/ResID;->card_mode_help:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 .method public static e(Landroid/app/Activity;)V
     .locals 4
 
-    const v0, 0x7f12074f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_card_mode_help_url:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -214,7 +214,7 @@
     .line 2
     new-instance v1, Ljl3;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v3, 0x1
 

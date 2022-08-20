@@ -30,7 +30,7 @@
     .line 2
     sget-object v1, Lj6o$b;->T:Lj6o$b;
 
-    const v2, 0x7f121ad4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_other:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -43,7 +43,7 @@
 
     sget-object v1, Lj6o$b;->V:Lj6o$b;
 
-    const v2, 0x7f121d55
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -56,7 +56,7 @@
 
     sget-object v1, Lj6o$b;->W:Lj6o$b;
 
-    const v2, 0x7f121a67
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_appear:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -69,7 +69,7 @@
 
     sget-object v1, Lj6o$b;->X:Lj6o$b;
 
-    const v2, 0x7f121a7f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fly:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -82,7 +82,7 @@
 
     sget-object v1, Lj6o$b;->Y:Lj6o$b;
 
-    const v2, 0x7f121a6a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_blinds:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -95,7 +95,7 @@
 
     sget-object v1, Lj6o$b;->Z:Lj6o$b;
 
-    const v2, 0x7f121a6d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_box:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -108,7 +108,7 @@
 
     sget-object v1, Lj6o$b;->a0:Lj6o$b;
 
-    const v2, 0x7f121a6e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_checkerboard:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -121,7 +121,7 @@
 
     sget-object v1, Lj6o$b;->b0:Lj6o$b;
 
-    const v2, 0x7f121a6f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_circle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -134,7 +134,7 @@
 
     sget-object v1, Lj6o$b;->c0:Lj6o$b;
 
-    const v2, 0x7f121a71
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_crawl:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -147,7 +147,7 @@
 
     sget-object v1, Lj6o$b;->d0:Lj6o$b;
 
-    const v2, 0x7f121a74
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_diamond:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -160,7 +160,7 @@
 
     sget-object v1, Lj6o$b;->e0:Lj6o$b;
 
-    const v2, 0x7f121a75
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_dissolve:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -173,7 +173,7 @@
 
     sget-object v1, Lj6o$b;->f0:Lj6o$b;
 
-    const v2, 0x7f121a79
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fade:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -186,7 +186,7 @@
 
     sget-object v1, Lj6o$b;->g0:Lj6o$b;
 
-    const v2, 0x7f121a7c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_flashonce:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -199,7 +199,7 @@
 
     sget-object v1, Lj6o$b;->h0:Lj6o$b;
 
-    const v2, 0x7f121a84
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_peek:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -212,7 +212,7 @@
 
     sget-object v1, Lj6o$b;->i0:Lj6o$b;
 
-    const v2, 0x7f121a86
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_plus:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -225,7 +225,7 @@
 
     sget-object v1, Lj6o$b;->j0:Lj6o$b;
 
-    const v2, 0x7f121a87
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_randombars:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -238,7 +238,7 @@
 
     sget-object v1, Lj6o$b;->k0:Lj6o$b;
 
-    const v2, 0x7f121a8d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_spiral:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -251,7 +251,7 @@
 
     sget-object v1, Lj6o$b;->l0:Lj6o$b;
 
-    const v2, 0x7f121a8e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_split:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -264,7 +264,7 @@
 
     sget-object v1, Lj6o$b;->m0:Lj6o$b;
 
-    const v2, 0x7f121a8f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_stretch:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -277,7 +277,7 @@
 
     sget-object v1, Lj6o$b;->n0:Lj6o$b;
 
-    const v2, 0x7f121a91
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_strips:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -290,7 +290,7 @@
 
     sget-object v1, Lj6o$b;->o0:Lj6o$b;
 
-    const v2, 0x7f121a93
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_swivel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -303,7 +303,7 @@
 
     sget-object v1, Lj6o$b;->p0:Lj6o$b;
 
-    const v2, 0x7f121a96
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_wedge:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -316,7 +316,7 @@
 
     sget-object v1, Lj6o$b;->q0:Lj6o$b;
 
-    const v2, 0x7f121a97
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_wheel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -329,7 +329,7 @@
 
     sget-object v1, Lj6o$b;->r0:Lj6o$b;
 
-    const v2, 0x7f121a99
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_wipe:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -342,7 +342,7 @@
 
     sget-object v1, Lj6o$b;->s0:Lj6o$b;
 
-    const v2, 0x7f121a9b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_zoom:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -355,7 +355,7 @@
 
     sget-object v1, Lj6o$b;->t0:Lj6o$b;
 
-    const v2, 0x7f121a88
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_randomeffects:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -368,7 +368,7 @@
 
     sget-object v1, Lj6o$b;->u0:Lj6o$b;
 
-    const v2, 0x7f121a6b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_boomerang:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -381,7 +381,7 @@
 
     sget-object v1, Lj6o$b;->v0:Lj6o$b;
 
-    const v2, 0x7f121a6c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_bounce:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -394,7 +394,7 @@
 
     sget-object v1, Lj6o$b;->w0:Lj6o$b;
 
-    const v2, 0x7f121a70
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_colorreveal:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -407,7 +407,7 @@
 
     sget-object v1, Lj6o$b;->x0:Lj6o$b;
 
-    const v2, 0x7f121a72
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_credits:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -420,7 +420,7 @@
 
     sget-object v1, Lj6o$b;->y0:Lj6o$b;
 
-    const v2, 0x7f121a76
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_easein:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -433,7 +433,7 @@
 
     sget-object v1, Lj6o$b;->z0:Lj6o$b;
 
-    const v2, 0x7f121a7e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_floats:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -446,7 +446,7 @@
 
     sget-object v1, Lj6o$b;->A0:Lj6o$b;
 
-    const v2, 0x7f121a82
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_growturn:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -459,7 +459,7 @@
 
     sget-object v1, Lj6o$b;->B0:Lj6o$b;
 
-    const v2, 0x7f121a83
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_lightspeed:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -472,7 +472,7 @@
 
     sget-object v1, Lj6o$b;->C0:Lj6o$b;
 
-    const v2, 0x7f121a85
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_pinwheel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -485,7 +485,7 @@
 
     sget-object v1, Lj6o$b;->D0:Lj6o$b;
 
-    const v2, 0x7f121a8a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_riseup:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -498,7 +498,7 @@
 
     sget-object v1, Lj6o$b;->E0:Lj6o$b;
 
-    const v2, 0x7f121a92
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_swish:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -511,7 +511,7 @@
 
     sget-object v1, Lj6o$b;->F0:Lj6o$b;
 
-    const v2, 0x7f121a94
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_thinline:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -524,7 +524,7 @@
 
     sget-object v1, Lj6o$b;->G0:Lj6o$b;
 
-    const v2, 0x7f121a95
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_unfold:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -537,7 +537,7 @@
 
     sget-object v1, Lj6o$b;->H0:Lj6o$b;
 
-    const v2, 0x7f121a98
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_whip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -550,7 +550,7 @@
 
     sget-object v1, Lj6o$b;->I0:Lj6o$b;
 
-    const v2, 0x7f121a69
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_ascend:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -563,7 +563,7 @@
 
     sget-object v1, Lj6o$b;->J0:Lj6o$b;
 
-    const v2, 0x7f121a89
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_revolve:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -576,7 +576,7 @@
 
     sget-object v1, Lj6o$b;->K0:Lj6o$b;
 
-    const v2, 0x7f121a7a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fade_swivel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -589,7 +589,7 @@
 
     sget-object v1, Lj6o$b;->L0:Lj6o$b;
 
-    const v2, 0x7f121a73
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_descend:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -602,7 +602,7 @@
 
     sget-object v1, Lj6o$b;->M0:Lj6o$b;
 
-    const v2, 0x7f121a8b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_sling:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -615,7 +615,7 @@
 
     sget-object v1, Lj6o$b;->N0:Lj6o$b;
 
-    const v2, 0x7f121a8c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_spinner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -628,7 +628,7 @@
 
     sget-object v1, Lj6o$b;->O0:Lj6o$b;
 
-    const v2, 0x7f121a90
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_stretchy:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -641,7 +641,7 @@
 
     sget-object v1, Lj6o$b;->P0:Lj6o$b;
 
-    const v2, 0x7f121a9a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_zip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -654,7 +654,7 @@
 
     sget-object v1, Lj6o$b;->Q0:Lj6o$b;
 
-    const v2, 0x7f121a68
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_arcup:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -667,7 +667,7 @@
 
     sget-object v1, Lj6o$b;->R0:Lj6o$b;
 
-    const v2, 0x7f121a7b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fadezoom:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -680,7 +680,7 @@
 
     sget-object v1, Lj6o$b;->S0:Lj6o$b;
 
-    const v2, 0x7f121a81
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_glide:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -693,7 +693,7 @@
 
     sget-object v1, Lj6o$b;->T0:Lj6o$b;
 
-    const v2, 0x7f121a78
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_expand:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -706,7 +706,7 @@
 
     sget-object v1, Lj6o$b;->U0:Lj6o$b;
 
-    const v2, 0x7f121a7d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_flip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -719,7 +719,7 @@
 
     sget-object v1, Lj6o$b;->V0:Lj6o$b;
 
-    const v2, 0x7f121a80
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_fold:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -732,7 +732,7 @@
 
     sget-object v1, Lj6o$b;->W0:Lj6o$b;
 
-    const v2, 0x7f121a4a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_fillcolor:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -745,7 +745,7 @@
 
     sget-object v1, Lj6o$b;->X0:Lj6o$b;
 
-    const v2, 0x7f121a4b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_font:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -758,7 +758,7 @@
 
     sget-object v1, Lj6o$b;->Y0:Lj6o$b;
 
-    const v2, 0x7f121a4c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_fontcolor:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -771,7 +771,7 @@
 
     sget-object v1, Lj6o$b;->Z0:Lj6o$b;
 
-    const v2, 0x7f121a4d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_fontsize:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -784,7 +784,7 @@
 
     sget-object v1, Lj6o$b;->a1:Lj6o$b;
 
-    const v2, 0x7f121a4e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_fontstyle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -797,7 +797,7 @@
 
     sget-object v1, Lj6o$b;->b1:Lj6o$b;
 
-    const v2, 0x7f121a5a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_grow_shrink:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -810,7 +810,7 @@
 
     sget-object v1, Lj6o$b;->c1:Lj6o$b;
 
-    const v2, 0x7f121a4f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_change_linecolor:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -823,7 +823,7 @@
 
     sget-object v1, Lj6o$b;->d1:Lj6o$b;
 
-    const v2, 0x7f121a5f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_spin:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -836,7 +836,7 @@
 
     sget-object v1, Lj6o$b;->e1:Lj6o$b;
 
-    const v2, 0x7f121a62
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_transparency:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -849,7 +849,7 @@
 
     sget-object v1, Lj6o$b;->f1:Lj6o$b;
 
-    const v2, 0x7f121a48
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_bold_flash:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -862,7 +862,7 @@
 
     sget-object v1, Lj6o$b;->g1:Lj6o$b;
 
-    const v2, 0x7f121a47
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_blast:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -875,7 +875,7 @@
 
     sget-object v1, Lj6o$b;->h1:Lj6o$b;
 
-    const v2, 0x7f121a49
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_bold_reveal:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -888,7 +888,7 @@
 
     sget-object v1, Lj6o$b;->i1:Lj6o$b;
 
-    const v2, 0x7f121a5d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_on_color:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -901,7 +901,7 @@
 
     sget-object v1, Lj6o$b;->j1:Lj6o$b;
 
-    const v2, 0x7f121a5e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_on_underline:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -914,7 +914,7 @@
 
     sget-object v1, Lj6o$b;->k1:Lj6o$b;
 
-    const v2, 0x7f121a50
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_color_blend:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -927,7 +927,7 @@
 
     sget-object v1, Lj6o$b;->l1:Lj6o$b;
 
-    const v2, 0x7f121a51
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_color_wave:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -940,7 +940,7 @@
 
     sget-object v1, Lj6o$b;->m1:Lj6o$b;
 
-    const v2, 0x7f121a52
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_complementary_color:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -953,7 +953,7 @@
 
     sget-object v1, Lj6o$b;->n1:Lj6o$b;
 
-    const v2, 0x7f121a53
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_complementary_color2:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -966,7 +966,7 @@
 
     sget-object v1, Lj6o$b;->o1:Lj6o$b;
 
-    const v2, 0x7f121a54
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_contrasting_color:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -979,7 +979,7 @@
 
     sget-object v1, Lj6o$b;->p1:Lj6o$b;
 
-    const v2, 0x7f121a55
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_darken:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -992,7 +992,7 @@
 
     sget-object v1, Lj6o$b;->q1:Lj6o$b;
 
-    const v2, 0x7f121a56
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_desaturate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1005,7 +1005,7 @@
 
     sget-object v1, Lj6o$b;->r1:Lj6o$b;
 
-    const v2, 0x7f121a58
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_flashbulb:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1018,7 +1018,7 @@
 
     sget-object v1, Lj6o$b;->s1:Lj6o$b;
 
-    const v2, 0x7f121a59
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_flicker:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1031,7 +1031,7 @@
 
     sget-object v1, Lj6o$b;->t1:Lj6o$b;
 
-    const v2, 0x7f121a5b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_growwith_color:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1044,7 +1044,7 @@
 
     sget-object v1, Lj6o$b;->u1:Lj6o$b;
 
-    const v2, 0x7f121a5c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_lighten:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1057,7 +1057,7 @@
 
     sget-object v1, Lj6o$b;->v1:Lj6o$b;
 
-    const v2, 0x7f121a60
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_style_emphasis:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1070,7 +1070,7 @@
 
     sget-object v1, Lj6o$b;->w1:Lj6o$b;
 
-    const v2, 0x7f121a61
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_teeter:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1083,7 +1083,7 @@
 
     sget-object v1, Lj6o$b;->x1:Lj6o$b;
 
-    const v2, 0x7f121a63
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_vertical_grow:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1096,7 +1096,7 @@
 
     sget-object v1, Lj6o$b;->y1:Lj6o$b;
 
-    const v2, 0x7f121a64
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_wave:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1109,7 +1109,7 @@
 
     sget-object v1, Lj6o$b;->z1:Lj6o$b;
 
-    const v2, 0x7f121a65
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_wink:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1122,7 +1122,7 @@
 
     sget-object v1, Lj6o$b;->A1:Lj6o$b;
 
-    const v2, 0x7f121a57
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_emph_flash:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1135,7 +1135,7 @@
 
     sget-object v1, Lj6o$b;->B1:Lj6o$b;
 
-    const v2, 0x7f121ae8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_customize:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1148,7 +1148,7 @@
 
     sget-object v1, Lj6o$b;->C1:Lj6o$b;
 
-    const v2, 0x7f121ae1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_circle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1161,7 +1161,7 @@
 
     sget-object v1, Lj6o$b;->D1:Lj6o$b;
 
-    const v2, 0x7f121b02
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_righttriangle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1174,7 +1174,7 @@
 
     sget-object v1, Lj6o$b;->E1:Lj6o$b;
 
-    const v2, 0x7f121aec
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_diamond:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1187,7 +1187,7 @@
 
     sget-object v1, Lj6o$b;->F1:Lj6o$b;
 
-    const v2, 0x7f121af4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_hexagon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1200,7 +1200,7 @@
 
     sget-object v1, Lj6o$b;->G1:Lj6o$b;
 
-    const v2, 0x7f121ad6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_5pointstar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1213,7 +1213,7 @@
 
     sget-object v1, Lj6o$b;->H1:Lj6o$b;
 
-    const v2, 0x7f121ae2
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_crescentmoon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1226,7 +1226,7 @@
 
     sget-object v1, Lj6o$b;->I1:Lj6o$b;
 
-    const v2, 0x7f121b09
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_square:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1239,7 +1239,7 @@
 
     sget-object v1, Lj6o$b;->J1:Lj6o$b;
 
-    const v2, 0x7f121b0d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_trapezoid:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1252,7 +1252,7 @@
 
     sget-object v1, Lj6o$b;->K1:Lj6o$b;
 
-    const v2, 0x7f121af2
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_heart:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1265,7 +1265,7 @@
 
     sget-object v1, Lj6o$b;->L1:Lj6o$b;
 
-    const v2, 0x7f121afb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_octagon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1278,7 +1278,7 @@
 
     sget-object v1, Lj6o$b;->M1:Lj6o$b;
 
-    const v2, 0x7f121ad7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_6pointstar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1291,7 +1291,7 @@
 
     sget-object v1, Lj6o$b;->N1:Lj6o$b;
 
-    const v2, 0x7f121af0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_football:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1304,7 +1304,7 @@
 
     sget-object v1, Lj6o$b;->O1:Lj6o$b;
 
-    const v2, 0x7f121aee
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_equaltriangle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1317,7 +1317,7 @@
 
     sget-object v1, Lj6o$b;->P1:Lj6o$b;
 
-    const v2, 0x7f121afc
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_parallelogram:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1330,7 +1330,7 @@
 
     sget-object v1, Lj6o$b;->Q1:Lj6o$b;
 
-    const v2, 0x7f121afe
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_pentagon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1343,7 +1343,7 @@
 
     sget-object v1, Lj6o$b;->R1:Lj6o$b;
 
-    const v2, 0x7f121ad5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_4pointstar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1356,7 +1356,7 @@
 
     sget-object v1, Lj6o$b;->S1:Lj6o$b;
 
-    const v2, 0x7f121ad8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_8pointstar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1369,7 +1369,7 @@
 
     sget-object v1, Lj6o$b;->T1:Lj6o$b;
 
-    const v2, 0x7f121b0c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_teardrop:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1382,7 +1382,7 @@
 
     sget-object v1, Lj6o$b;->U1:Lj6o$b;
 
-    const v2, 0x7f121b00
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_pointystar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1395,7 +1395,7 @@
 
     sget-object v1, Lj6o$b;->V1:Lj6o$b;
 
-    const v2, 0x7f121ae4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_curvedsquare:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1408,7 +1408,7 @@
 
     sget-object v1, Lj6o$b;->W1:Lj6o$b;
 
-    const v2, 0x7f121ae3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_curved_x:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1421,7 +1421,7 @@
 
     sget-object v1, Lj6o$b;->X1:Lj6o$b;
 
-    const v2, 0x7f121b13
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_verticalfigure8:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1434,7 +1434,7 @@
 
     sget-object v1, Lj6o$b;->Y1:Lj6o$b;
 
-    const v2, 0x7f121ae7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_curvystar:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1447,7 +1447,7 @@
 
     sget-object v1, Lj6o$b;->Z1:Lj6o$b;
 
-    const v2, 0x7f121af9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_loopdeloop:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1460,7 +1460,7 @@
 
     sget-object v1, Lj6o$b;->a2:Lj6o$b;
 
-    const v2, 0x7f121ae0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_buzzsaw:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1473,7 +1473,7 @@
 
     sget-object v1, Lj6o$b;->b2:Lj6o$b;
 
-    const v2, 0x7f121af5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_horzfigure8:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1486,7 +1486,7 @@
 
     sget-object v1, Lj6o$b;->c2:Lj6o$b;
 
-    const v2, 0x7f121afd
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_peanut:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1499,7 +1499,7 @@
 
     sget-object v1, Lj6o$b;->d2:Lj6o$b;
 
-    const v2, 0x7f121aef
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_figure8four:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1512,7 +1512,7 @@
 
     sget-object v1, Lj6o$b;->e2:Lj6o$b;
 
-    const v2, 0x7f121afa
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_neutron:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1525,7 +1525,7 @@
 
     sget-object v1, Lj6o$b;->f2:Lj6o$b;
 
-    const v2, 0x7f121b0b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_swoosh:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1538,7 +1538,7 @@
 
     sget-object v1, Lj6o$b;->g2:Lj6o$b;
 
-    const v2, 0x7f121add
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_bean:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1551,7 +1551,7 @@
 
     sget-object v1, Lj6o$b;->h2:Lj6o$b;
 
-    const v2, 0x7f121aff
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_plus:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1564,7 +1564,7 @@
 
     sget-object v1, Lj6o$b;->i2:Lj6o$b;
 
-    const v2, 0x7f121af7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_inverted_triangle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1577,7 +1577,7 @@
 
     sget-object v1, Lj6o$b;->j2:Lj6o$b;
 
-    const v2, 0x7f121af6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_inverted_square:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1590,7 +1590,7 @@
 
     sget-object v1, Lj6o$b;->k2:Lj6o$b;
 
-    const v2, 0x7f121af8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_left:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1603,7 +1603,7 @@
 
     sget-object v1, Lj6o$b;->l2:Lj6o$b;
 
-    const v2, 0x7f121b0f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_turndown_right:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1616,7 +1616,7 @@
 
     sget-object v1, Lj6o$b;->m2:Lj6o$b;
 
-    const v2, 0x7f121ada
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_arc_right:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1629,7 +1629,7 @@
 
     sget-object v1, Lj6o$b;->n2:Lj6o$b;
 
-    const v3, 0x7f121b15
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_zigzag:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1642,7 +1642,7 @@
 
     sget-object v1, Lj6o$b;->o2:Lj6o$b;
 
-    const v3, 0x7f121b04
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_s_curve2:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1655,7 +1655,7 @@
 
     sget-object v1, Lj6o$b;->p2:Lj6o$b;
 
-    const v3, 0x7f121b05
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_sinewave:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1668,7 +1668,7 @@
 
     sget-object v1, Lj6o$b;->q2:Lj6o$b;
 
-    const v3, 0x7f121ade
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_bounce_left:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1681,7 +1681,7 @@
 
     sget-object v1, Lj6o$b;->r2:Lj6o$b;
 
-    const v3, 0x7f121aed
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_down:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1694,7 +1694,7 @@
 
     sget-object v1, Lj6o$b;->s2:Lj6o$b;
 
-    const v3, 0x7f121b10
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_turnup:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1707,7 +1707,7 @@
 
     sget-object v1, Lj6o$b;->t2:Lj6o$b;
 
-    const v3, 0x7f121adc
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_arcup:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1720,7 +1720,7 @@
 
     sget-object v1, Lj6o$b;->u2:Lj6o$b;
 
-    const v3, 0x7f121af3
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_heartbeat:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1733,7 +1733,7 @@
 
     sget-object v1, Lj6o$b;->v2:Lj6o$b;
 
-    const v3, 0x7f121b07
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_spiral_right:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1746,7 +1746,7 @@
 
     sget-object v1, Lj6o$b;->w2:Lj6o$b;
 
-    const v3, 0x7f121b14
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_wave:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1759,7 +1759,7 @@
 
     sget-object v1, Lj6o$b;->x2:Lj6o$b;
 
-    const v3, 0x7f121ae5
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_curvy_left:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1772,7 +1772,7 @@
 
     sget-object v1, Lj6o$b;->y2:Lj6o$b;
 
-    const v3, 0x7f121aea
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_diagonal_downright:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1785,7 +1785,7 @@
 
     sget-object v1, Lj6o$b;->z2:Lj6o$b;
 
-    const v3, 0x7f121b0e
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_turndown:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1798,7 +1798,7 @@
 
     sget-object v1, Lj6o$b;->A2:Lj6o$b;
 
-    const v3, 0x7f121ad9
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_arc_left:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1811,7 +1811,7 @@
 
     sget-object v1, Lj6o$b;->B2:Lj6o$b;
 
-    const v3, 0x7f121af1
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_funnel:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1824,7 +1824,7 @@
 
     sget-object v1, Lj6o$b;->C2:Lj6o$b;
 
-    const v3, 0x7f121b08
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_spring:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1837,7 +1837,7 @@
 
     sget-object v1, Lj6o$b;->D2:Lj6o$b;
 
-    const v3, 0x7f121adf
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_bounce_right:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1850,7 +1850,7 @@
 
     sget-object v1, Lj6o$b;->E2:Lj6o$b;
 
-    const v3, 0x7f121b06
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_spiral_left:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1863,7 +1863,7 @@
 
     sget-object v1, Lj6o$b;->F2:Lj6o$b;
 
-    const v3, 0x7f121aeb
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_diagonal_upright:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1876,7 +1876,7 @@
 
     sget-object v1, Lj6o$b;->G2:Lj6o$b;
 
-    const v3, 0x7f121b11
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_turnup_right:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1896,7 +1896,7 @@
 
     sget-object v1, Lj6o$b;->I2:Lj6o$b;
 
-    const v2, 0x7f121b03
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_s_curve1:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1909,7 +1909,7 @@
 
     sget-object v1, Lj6o$b;->J2:Lj6o$b;
 
-    const v2, 0x7f121ae9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_decayingwave:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1922,7 +1922,7 @@
 
     sget-object v1, Lj6o$b;->K2:Lj6o$b;
 
-    const v2, 0x7f121ae6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_curvy_right:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1935,7 +1935,7 @@
 
     sget-object v1, Lj6o$b;->L2:Lj6o$b;
 
-    const v2, 0x7f121b0a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_stairs_down:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1948,7 +1948,7 @@
 
     sget-object v1, Lj6o$b;->M2:Lj6o$b;
 
-    const v2, 0x7f121b01
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_right:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1961,7 +1961,7 @@
 
     sget-object v1, Lj6o$b;->N2:Lj6o$b;
 
-    const v2, 0x7f121b12
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_path_up:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1974,7 +1974,7 @@
 
     sget-object v1, Lj6o$b;->O2:Lj6o$b;
 
-    const v2, 0x7f121a9c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_appear:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1987,7 +1987,7 @@
 
     sget-object v1, Lj6o$b;->P2:Lj6o$b;
 
-    const v2, 0x7f121ab4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fly:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2000,7 +2000,7 @@
 
     sget-object v1, Lj6o$b;->Q2:Lj6o$b;
 
-    const v2, 0x7f121a9f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_blinds:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2013,7 +2013,7 @@
 
     sget-object v1, Lj6o$b;->R2:Lj6o$b;
 
-    const v2, 0x7f121aa2
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_box:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2026,7 +2026,7 @@
 
     sget-object v1, Lj6o$b;->S2:Lj6o$b;
 
-    const v2, 0x7f121aa3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_checkerboard:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2039,7 +2039,7 @@
 
     sget-object v1, Lj6o$b;->T2:Lj6o$b;
 
-    const v2, 0x7f121aa4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_circle:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2052,7 +2052,7 @@
 
     sget-object v1, Lj6o$b;->U2:Lj6o$b;
 
-    const v2, 0x7f121aa6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_crawl:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2065,7 +2065,7 @@
 
     sget-object v1, Lj6o$b;->V2:Lj6o$b;
 
-    const v2, 0x7f121aa9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_diamond:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2078,7 +2078,7 @@
 
     sget-object v1, Lj6o$b;->W2:Lj6o$b;
 
-    const v2, 0x7f121aaa
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_dissolve:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2091,7 +2091,7 @@
 
     sget-object v1, Lj6o$b;->X2:Lj6o$b;
 
-    const v2, 0x7f121aae
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fade:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2104,7 +2104,7 @@
 
     sget-object v1, Lj6o$b;->Y2:Lj6o$b;
 
-    const v2, 0x7f121ab1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_flashonce:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2117,7 +2117,7 @@
 
     sget-object v1, Lj6o$b;->Z2:Lj6o$b;
 
-    const v2, 0x7f121ab9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_peek:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2130,7 +2130,7 @@
 
     sget-object v1, Lj6o$b;->a3:Lj6o$b;
 
-    const v2, 0x7f121abb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_plus:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2143,7 +2143,7 @@
 
     sget-object v1, Lj6o$b;->b3:Lj6o$b;
 
-    const v2, 0x7f121abc
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_randombars:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2156,7 +2156,7 @@
 
     sget-object v1, Lj6o$b;->c3:Lj6o$b;
 
-    const v2, 0x7f121ac2
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_spiral:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2169,7 +2169,7 @@
 
     sget-object v1, Lj6o$b;->d3:Lj6o$b;
 
-    const v2, 0x7f121ac3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_split:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2182,7 +2182,7 @@
 
     sget-object v1, Lj6o$b;->e3:Lj6o$b;
 
-    const v2, 0x7f121ac4
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_stretch:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2195,7 +2195,7 @@
 
     sget-object v1, Lj6o$b;->f3:Lj6o$b;
 
-    const v2, 0x7f121ac6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_strips:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2208,7 +2208,7 @@
 
     sget-object v1, Lj6o$b;->g3:Lj6o$b;
 
-    const v2, 0x7f121ac8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_swivel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2221,7 +2221,7 @@
 
     sget-object v1, Lj6o$b;->h3:Lj6o$b;
 
-    const v2, 0x7f121acb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_wedge:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2234,7 +2234,7 @@
 
     sget-object v1, Lj6o$b;->i3:Lj6o$b;
 
-    const v2, 0x7f121acc
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_wheel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2247,7 +2247,7 @@
 
     sget-object v1, Lj6o$b;->j3:Lj6o$b;
 
-    const v2, 0x7f121ace
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_wipe:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2260,7 +2260,7 @@
 
     sget-object v1, Lj6o$b;->k3:Lj6o$b;
 
-    const v2, 0x7f121ad0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_zoom:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2273,7 +2273,7 @@
 
     sget-object v1, Lj6o$b;->l3:Lj6o$b;
 
-    const v2, 0x7f121abd
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_randomeffects:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2286,7 +2286,7 @@
 
     sget-object v1, Lj6o$b;->m3:Lj6o$b;
 
-    const v2, 0x7f121aa0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_boomerang:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2299,7 +2299,7 @@
 
     sget-object v1, Lj6o$b;->n3:Lj6o$b;
 
-    const v2, 0x7f121aa1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_bounce:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2312,7 +2312,7 @@
 
     sget-object v1, Lj6o$b;->o3:Lj6o$b;
 
-    const v2, 0x7f121aa5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_colorreveal:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2325,7 +2325,7 @@
 
     sget-object v1, Lj6o$b;->p3:Lj6o$b;
 
-    const v2, 0x7f121aa7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_credits:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2338,7 +2338,7 @@
 
     sget-object v1, Lj6o$b;->q3:Lj6o$b;
 
-    const v2, 0x7f121aab
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_easein:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2351,7 +2351,7 @@
 
     sget-object v1, Lj6o$b;->r3:Lj6o$b;
 
-    const v2, 0x7f121ab3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_floats:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2364,7 +2364,7 @@
 
     sget-object v1, Lj6o$b;->s3:Lj6o$b;
 
-    const v2, 0x7f121ab7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_growturn:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2377,7 +2377,7 @@
 
     sget-object v1, Lj6o$b;->t3:Lj6o$b;
 
-    const v2, 0x7f121ab8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_lightspeed:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2390,7 +2390,7 @@
 
     sget-object v1, Lj6o$b;->u3:Lj6o$b;
 
-    const v2, 0x7f121aba
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_pinwheel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2403,7 +2403,7 @@
 
     sget-object v1, Lj6o$b;->v3:Lj6o$b;
 
-    const v2, 0x7f121abf
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_riseup:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2416,7 +2416,7 @@
 
     sget-object v1, Lj6o$b;->w3:Lj6o$b;
 
-    const v2, 0x7f121ac7
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_swish:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2429,7 +2429,7 @@
 
     sget-object v1, Lj6o$b;->x3:Lj6o$b;
 
-    const v2, 0x7f121ac9
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_thinline:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2442,7 +2442,7 @@
 
     sget-object v1, Lj6o$b;->y3:Lj6o$b;
 
-    const v2, 0x7f121aca
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_unfold:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2455,7 +2455,7 @@
 
     sget-object v1, Lj6o$b;->z3:Lj6o$b;
 
-    const v2, 0x7f121acd
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_whip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2468,7 +2468,7 @@
 
     sget-object v1, Lj6o$b;->D3:Lj6o$b;
 
-    const v2, 0x7f121aa8
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_descend:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2481,7 +2481,7 @@
 
     sget-object v1, Lj6o$b;->B3:Lj6o$b;
 
-    const v2, 0x7f121abe
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_revolve:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2494,7 +2494,7 @@
 
     sget-object v1, Lj6o$b;->C3:Lj6o$b;
 
-    const v2, 0x7f121aaf
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fade_swivel:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2507,7 +2507,7 @@
 
     sget-object v1, Lj6o$b;->A3:Lj6o$b;
 
-    const v2, 0x7f121a9e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_ascend:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2520,7 +2520,7 @@
 
     sget-object v1, Lj6o$b;->E3:Lj6o$b;
 
-    const v2, 0x7f121ac0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_sling:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2533,7 +2533,7 @@
 
     sget-object v1, Lj6o$b;->F3:Lj6o$b;
 
-    const v2, 0x7f121ac1
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_spinner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2546,7 +2546,7 @@
 
     sget-object v1, Lj6o$b;->G3:Lj6o$b;
 
-    const v2, 0x7f121ac5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_stretchy:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2559,7 +2559,7 @@
 
     sget-object v1, Lj6o$b;->H3:Lj6o$b;
 
-    const v2, 0x7f121acf
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_zip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2572,7 +2572,7 @@
 
     sget-object v1, Lj6o$b;->I3:Lj6o$b;
 
-    const v2, 0x7f121a9d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_arcup:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2585,7 +2585,7 @@
 
     sget-object v1, Lj6o$b;->J3:Lj6o$b;
 
-    const v2, 0x7f121ab0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fadezoom:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2598,7 +2598,7 @@
 
     sget-object v1, Lj6o$b;->K3:Lj6o$b;
 
-    const v2, 0x7f121ab6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_glide:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2611,7 +2611,7 @@
 
     sget-object v1, Lj6o$b;->L3:Lj6o$b;
 
-    const v2, 0x7f121aad
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_expand:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2624,7 +2624,7 @@
 
     sget-object v1, Lj6o$b;->M3:Lj6o$b;
 
-    const v2, 0x7f121ab2
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_flip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2637,7 +2637,7 @@
 
     sget-object v1, Lj6o$b;->N3:Lj6o$b;
 
-    const v2, 0x7f121ab5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_exit_fold:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2650,7 +2650,7 @@
 
     sget-object v1, Lj6o$b;->U:Lj6o$b;
 
-    const v2, 0x7f121a46
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_dynamic_digit:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

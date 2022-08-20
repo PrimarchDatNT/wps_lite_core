@@ -236,16 +236,16 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eqz p6, :cond_0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     :goto_0
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -259,12 +259,12 @@
 
     if-eqz p6, :cond_1
 
-    const p6, 0x7f0602db
+    sget p6, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_1
 
     :cond_1
-    const p6, 0x7f0606e2
+    sget p6, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     :goto_1
     invoke-virtual {v2, p6}, Landroid/content/res/Resources;->getColor(I)I
@@ -519,14 +519,14 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0fd3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->thirdpay_common_phone_base_titlebar:I
 
     const/4 v2, 0x1
 
     .line 3
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0033
+    sget v0, Lcom/resouce/module/ResID;->abs_title_bar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    const p1, 0x7f0b1a54
+    sget p1, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->T:Landroid/view/View;
 
-    const p1, 0x7f0b2696
+    sget p1, Lcom/resouce/module/ResID;->public_ok_cancle_title:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b3033
+    sget p1, Lcom/resouce/module/ResID;->titlebar_text:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->d0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b301f
+    sget p1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -620,7 +620,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b21a0
+    sget p1, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->U:Lcn/wps/moffice/main/thirdpay/view/ThemeTitleLinearLayout;
 
-    const p1, 0x7f0b301d
+    sget p1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->V:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b302e
+    sget p1, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->a0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b302d
+    sget p1, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -664,7 +664,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/thirdpay/view/ViewTitleBar;->W:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2fe6
+    sget p1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -673,7 +673,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p1, 0x7f0b2fdd
+    sget p1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -833,7 +833,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0606e2
+    sget p2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1223,13 +1223,13 @@
 
     const/4 v0, 0x6
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     const/4 v5, 0x1
 
@@ -1237,7 +1237,7 @@
 
     :cond_0
     :goto_0
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     const/4 v4, 0x1
 
@@ -1248,7 +1248,7 @@
 
     if-ne v6, p1, :cond_2
 
-    const v2, 0x7f060599
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_black_color:I
 
     :goto_1
     const/4 v4, 0x0
@@ -1276,14 +1276,14 @@
 
     if-ne v6, p1, :cond_5
 
-    const v2, 0x7f06059c
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_semi_transparent_color:I
 
     goto :goto_1
 
     :cond_5
     if-nez p1, :cond_6
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_1
 
@@ -1371,7 +1371,7 @@
 
     if-ne v1, p1, :cond_0
 
-    const v2, 0x7f0606e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteNavBackgroundColor:I
 
     goto :goto_0
 

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/task_center_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/task_center_page_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout>
-    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/task_center_page_errorpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:backgroupColor="@color/subBackgroundColor" app:extLayout="@layout/public_task_center_page_call_help_layout" app:tipsBtnText="@string/public_task_center_trip_more" app:tipsImgId="@drawable/pub_404_no_record" app:tipsText="@string/public_task_center_no_task" />
-</FrameLayout>

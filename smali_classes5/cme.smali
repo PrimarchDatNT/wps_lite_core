@@ -704,7 +704,7 @@
 
     aput-object v1, v3, v0
 
-    const v0, 0x7f121c35
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_speaker_reconnect_failed:I
 
     invoke-virtual {v2, v0, v3}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1049,7 +1049,7 @@
     .line 1
     iget-object v0, p0, Lcme;->b:Lkme;
 
-    const v1, 0x7f121c00
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_braodcast_exit:I
 
     invoke-virtual {v0, v1}, Lkme;->B1(I)V
 
@@ -1099,7 +1099,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1229db
+    sget p2, Lcom/resouce/module/ResSTRING;->public_shareplay_rtc_mute_tips:I
 
     invoke-virtual {p1, p2}, Ly4e;->Q(I)V
 
@@ -1161,7 +1161,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c3f
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_shareplay_wait_speaker_reconnect:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -1237,7 +1237,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1229e5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_web_rtc_mute_tips:I
 
     invoke-virtual {p1, v0}, Ly4e;->Q(I)V
 
@@ -1400,7 +1400,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f2e
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_audience_switch_file_invalid:I
 
     const/4 v1, 0x1
 
@@ -1492,7 +1492,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c36
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_shareplay_speaker_reconnect_success:I
 
     const/4 v4, 0x1
 
@@ -1586,7 +1586,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c19
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_incompatible_web:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1838,7 +1838,7 @@
     .line 1
     iget-object v0, p0, Lcme;->b:Lkme;
 
-    const v1, 0x7f121999
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     invoke-virtual {v0, v1}, Lz4e;->showCenteredToast(I)V
 
@@ -2010,7 +2010,7 @@
     .line 1
     iget-object v0, p0, Lcme;->b:Lkme;
 
-    const v1, 0x7f121c30
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_reconnect_success:I
 
     invoke-virtual {v0, v1}, Lkme;->B1(I)V
 
@@ -2034,7 +2034,7 @@
     .line 1
     iget-object v0, p0, Lcme;->b:Lkme;
 
-    const v1, 0x7f121c2a
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_network_unstable:I
 
     invoke-virtual {v0, v1}, Lkme;->B1(I)V
 
@@ -2384,7 +2384,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f122ffe
+    sget v4, Lcom/resouce/module/ResSTRING;->start_web_shareplay_fail:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

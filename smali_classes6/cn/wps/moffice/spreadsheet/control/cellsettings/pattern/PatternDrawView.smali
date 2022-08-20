@@ -77,7 +77,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060657
+    sget v0, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060259
+    sget p2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -333,7 +333,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -470,7 +470,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060467
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_normal_btn_press_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

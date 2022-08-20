@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011a
+    sget v1, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011d
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -327,7 +327,7 @@
 .method public getCustomDialogDefaultTheme()I
     .locals 1
 
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     return v0
 .end method
@@ -515,7 +515,7 @@
 .method public getShareContactStringRes()I
     .locals 1
 
-    const v0, 0x7f122959
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_contacts:I
 
     return v0
 .end method

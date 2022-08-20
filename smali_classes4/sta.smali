@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121771
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

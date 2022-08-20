@@ -217,7 +217,7 @@
 
     const/4 v0, 0x3
 
-    const v1, 0x7f0b0ab1
+    sget v1, Lcom/resouce/module/ResID;->et_main_top:I
 
     const/4 v3, 0x1
 
@@ -282,7 +282,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b2d79
+    sget v5, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v6, p0, Lhrg;->I:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolBarFragment;
 

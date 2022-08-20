@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0e08f9
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_titlebar:I
 
     .line 9
     invoke-virtual {p1, v2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -513,7 +513,7 @@
     .line 15
     iget-object v4, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->h0:Landroid/widget/TextView;
 
-    const v7, 0x7f122018
+    sget v7, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-static {v4, v7}, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->y(Landroid/widget/TextView;I)V
 
@@ -649,7 +649,7 @@
     .line 29
     iget-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->h0:Landroid/widget/TextView;
 
-    const v4, 0x7f1227a4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     invoke-static {v3, v4}, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->y(Landroid/widget/TextView;I)V
 
@@ -659,7 +659,7 @@
     :cond_8
     iget-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->h0:Landroid/widget/TextView;
 
-    const v4, 0x7f12203e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-static {v3, v4}, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->y(Landroid/widget/TextView;I)V
 
@@ -903,13 +903,13 @@
     .line 4
     new-instance v3, Lglh;
 
-    const v4, 0x7f0b26bd
+    sget v4, Lcom/resouce/module/ResID;->public_phone_title_logo:I
 
     invoke-direct {v3, v0, v4}, Lglh;-><init>(Landroid/content/Context;I)V
 
     iput-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->D0:Lglh;
 
-    const v4, 0x7f0b1272
+    sget v4, Lcom/resouce/module/ResID;->image_close:I
 
     const/4 v5, 0x2
 
@@ -923,7 +923,7 @@
     .line 6
     iget-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->D0:Lglh;
 
-    const v4, 0x7f0b02ea
+    sget v4, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     new-array v5, v2, [I
 
@@ -936,7 +936,7 @@
     .line 7
     iget-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->D0:Lglh;
 
-    const v4, 0x7f0b301b
+    sget v4, Lcom/resouce/module/ResID;->titlebar_ad_image:I
 
     new-array v5, v2, [I
 
@@ -947,7 +947,7 @@
     .line 8
     iget-object v3, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->D0:Lglh;
 
-    const v4, 0x7f0b128f
+    sget v4, Lcom/resouce/module/ResID;->image_quick_funcation_stub:I
 
     new-array v5, v2, [I
 
@@ -1073,12 +1073,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f060215
+    sget p1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_dark_background:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f060214
+    sget p1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     .line 6
     :goto_0
@@ -1447,7 +1447,7 @@
 .method public h()V
     .locals 3
 
-    const v0, 0x7f0b1a50
+    sget v0, Lcom/resouce/module/ResID;->normal_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1458,7 +1458,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b1293
+    sget v0, Lcom/resouce/module/ResID;->image_save:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1469,7 +1469,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b29e4    # 1.849802E38f
+    sget v0, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1480,7 +1480,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->T:Lcn/wps/moffice/common/SaveIconGroup;
 
-    const v0, 0x7f0b12a0
+    sget v0, Lcom/resouce/module/ResID;->image_undo:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1491,7 +1491,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->V:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1290
+    sget v0, Lcom/resouce/module/ResID;->image_redo:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1502,7 +1502,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b301b
+    sget v0, Lcom/resouce/module/ResID;->titlebar_ad_image:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1513,7 +1513,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->p0:Lcn/wps/moffice/common/beans/RedDotAlphaImageView;
 
-    const v0, 0x7f0b081a
+    sget v0, Lcom/resouce/module/ResID;->edit_layout:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1522,7 +1522,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1533,7 +1533,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b302a
+    sget v0, Lcom/resouce/module/ResID;->titlebar_online_security_image:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1544,7 +1544,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->s0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b26bd
+    sget v0, Lcom/resouce/module/ResID;->public_phone_title_logo:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1555,7 +1555,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->t0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0581
+    sget v0, Lcom/resouce/module/ResID;->cooperate_member_layout:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1566,7 +1566,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->k0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b02d2
+    sget v0, Lcom/resouce/module/ResID;->btn_edit:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1577,7 +1577,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->h0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b02ea
+    sget v0, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1586,7 +1586,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b02e8
+    sget v0, Lcom/resouce/module/ResID;->btn_multi:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1597,7 +1597,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->e0:Landroid/widget/Button;
 
-    const v0, 0x7f0b1272
+    sget v0, Lcom/resouce/module/ResID;->image_close:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1608,7 +1608,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->W:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b014d
+    sget v0, Lcom/resouce/module/ResID;->application_view:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1619,7 +1619,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->a0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1b8b
+    sget v0, Lcom/resouce/module/ResID;->other_layout:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1637,7 +1637,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b299e
+    sget v0, Lcom/resouce/module/ResID;->rom_read_titlebar_stub:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1712,7 +1712,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120682
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_ribbon_filetabs:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1727,7 +1727,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b3c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1742,7 +1742,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1935,7 +1935,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122552
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     if-eqz v0, :cond_9
 
@@ -2849,7 +2849,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080aae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->multi_doc_meeting:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2878,7 +2878,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080252
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_switch_white:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2943,12 +2943,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f060215
+    sget p1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_dark_background:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f060214
+    sget p1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     .line 3
     :goto_0
@@ -3020,7 +3020,7 @@
 
     const/16 v0, 0x8
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     const/4 v2, 0x0
 
@@ -3051,7 +3051,7 @@
 
     if-eqz v6, :cond_3
 
-    const v3, 0x7f06000a
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     .line 11
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -3077,7 +3077,7 @@
 
     if-eqz v6, :cond_4
 
-    const v3, 0x7f060003
+    sget v3, Lcom/resouce/module/ResCOLOR;->ETNavBackgroundColor:I
 
     .line 14
     invoke-virtual {p0, v3}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -3115,7 +3115,7 @@
     move v3, v9
 
     :goto_1
-    const v7, 0x7f0606e2
+    sget v7, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 18
     sget-object v8, Lie5$a;->I:Lie5$a;
@@ -3133,7 +3133,7 @@
     if-eqz v5, :cond_6
 
     :cond_5
-    const v7, 0x7f0606e6
+    sget v7, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
     .line 19
     :cond_6
@@ -3206,7 +3206,7 @@
     .line 24
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/AppTitleBar;->a0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08024a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_search_white:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3293,7 +3293,7 @@
 
     move-result v3
 
-    const v4, 0x7f0602c2
+    sget v4, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     if-eqz v3, :cond_d
 
@@ -3329,7 +3329,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060626
+    sget v5, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

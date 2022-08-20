@@ -189,7 +189,7 @@
 
     iput-object v0, p0, Ldsc;->k:Lrd3;
 
-    const v1, 0x7f1226ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_exporting_photos:I
 
     .line 2
     invoke-virtual {v0, v1}, Lrd3;->D(I)V

@@ -570,7 +570,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120723
+    sget v1, Lcom/resouce/module/ResSTRING;->en_third_doc_remind:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -582,7 +582,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -592,7 +592,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120722
+    sget v2, Lcom/resouce/module/ResSTRING;->en_third_doc_not_supporte:I
 
     .line 4
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
@@ -604,7 +604,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -614,7 +614,7 @@
 
     invoke-direct {v3, p0, v0}, Lcn/wps/moffice/main/cloud/EnDocsDownloadActivity$b;-><init>(Lcn/wps/moffice/main/cloud/EnDocsDownloadActivity;Lhd3;)V
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     invoke-virtual {v1, v4, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -625,7 +625,7 @@
 
     invoke-direct {v2, p0, v0}, Lcn/wps/moffice/main/cloud/EnDocsDownloadActivity$a;-><init>(Lcn/wps/moffice/main/cloud/EnDocsDownloadActivity;Lhd3;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v1, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -711,7 +711,7 @@
 
     invoke-static {v3, v0, v1, v2}, Lkgh;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f121119
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_faied_and_tip_try:I
 
     const/4 v1, 0x0
 
@@ -735,7 +735,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0151
+    sget p1, Lcom/resouce/module/ResLAYOUT;->en_drive_activity_main:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

@@ -113,7 +113,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f9b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->tag_list_item:I
 
     const/4 v1, 0x0
 
@@ -128,7 +128,7 @@
 
     invoke-direct {v0, v2, v1}, Lcn/wps/moffice/common/tag/widget/TagListView$m;-><init>(Lcn/wps/moffice/common/tag/widget/TagListView;Lcn/wps/moffice/common/tag/widget/TagListView$b;)V
 
-    const v1, 0x7f0b2e7f
+    sget v1, Lcom/resouce/module/ResID;->tag_name:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v1, v0, Lcn/wps/moffice/common/tag/widget/TagListView$m;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2e6b
+    sget v1, Lcom/resouce/module/ResID;->tag_file_num:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v1, v0, Lcn/wps/moffice/common/tag/widget/TagListView$m;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2e87
+    sget v1, Lcom/resouce/module/ResID;->tag_pop_operation:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f123039
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

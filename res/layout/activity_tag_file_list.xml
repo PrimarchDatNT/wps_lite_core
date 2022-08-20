@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.main.local.home.newui.common.animlistview.AnimListView android:id="@id/tag_filelist" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
-    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/no_taged_file" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/tag_open_all_document" app:tipsImgId="@drawable/public_tag_filelist_empty" app:tipsText="@string/tag_no_associated_file" />
-</FrameLayout>

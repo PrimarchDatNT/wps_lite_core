@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0280
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_promotion_acts:I
 
     const/4 v2, 0x0
 
@@ -82,7 +82,7 @@
 
     iput-object v0, p0, Lrt8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0084
+    sget v1, Lcom/resouce/module/ResID;->acts_list:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060463
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_list_press_color_noalpha:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120f1d
+    sget v1, Lcom/resouce/module/ResSTRING;->home_foreign_setting_promotion_default:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

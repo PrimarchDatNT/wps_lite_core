@@ -189,7 +189,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0624
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_convert_language_select_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -197,7 +197,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1e2c
+    sget v0, Lcom/resouce/module/ResID;->pdf_language_dialog_content_rv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object v0, p0, Lcic;->B:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0b1e2b
+    sget v0, Lcom/resouce/module/ResID;->pdf_language_dialog_confirm_tv:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

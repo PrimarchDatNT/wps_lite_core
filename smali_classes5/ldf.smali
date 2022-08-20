@@ -49,7 +49,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0707b8
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -274,7 +274,7 @@
 
     iget-object v2, p0, Lldf;->I:Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0e0f41
+    sget v3, Lcom/resouce/module/ResLAYOUT;->share_folder_welcome_avatar_view:I
 
     invoke-virtual {v1, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -397,7 +397,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e31
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_folder_use_guide_dialog:I
 
     const/4 v2, 0x0
 
@@ -406,7 +406,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -435,7 +435,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f122f0a
+    sget v4, Lcom/resouce/module/ResSTRING;->share_folder_welcome_dialog_title:I
 
     .line 6
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -444,7 +444,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b32b2
+    sget v1, Lcom/resouce/module/ResID;->tv_withhold:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -457,7 +457,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b1641
+    sget v2, Lcom/resouce/module/ResID;->ll_avatars:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     iput-object v2, p0, Lldf;->I:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b3140
+    sget v2, Lcom/resouce/module/ResID;->tv_desc:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b030d
+    sget v3, Lcom/resouce/module/ResID;->btn_upload_file:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -592,7 +592,7 @@
     .line 4
     iget-object v0, v0, Luwp;->T:Ljava/lang/String;
 
-    const v1, 0x7f080822
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_gold_user_avatar_defalut:I
 
     invoke-virtual {p0, v0, v1}, Lldf;->Z2(Ljava/lang/String;I)V
 

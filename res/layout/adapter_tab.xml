@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button android:textSize="13.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tabs" android:background="@android:color/transparent" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

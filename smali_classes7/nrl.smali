@@ -309,9 +309,9 @@
 
     const-string v3, "custom"
 
-    const v5, 0x7f081bf8
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_camera:I
 
-    const v6, 0x7f0606c5
+    sget v6, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v7, 0x0
 
@@ -341,9 +341,9 @@
 
     const-string v12, "indian"
 
-    const v14, 0x7f081c34
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_indian_scenes:I
 
-    const v15, 0x7f0606c5
+    sget v15, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/16 v16, 0x1
 
@@ -370,9 +370,9 @@
 
     const-string v4, "thoughtful"
 
-    const v6, 0x7f081c3d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_thoughtful:I
 
-    const v7, 0x7f0606c5
+    sget v7, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v8, 0x1
 
@@ -397,7 +397,7 @@
 
     const-string v12, "sun"
 
-    const v14, 0x7f081c31
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_funny_sun:I
 
     const/16 v18, 0x0
 
@@ -420,7 +420,7 @@
 
     const-string v4, "hindu"
 
-    const v6, 0x7f081c32
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_hindu:I
 
     move-object v3, v2
 
@@ -441,7 +441,7 @@
 
     const-string v12, "morning"
 
-    const v14, 0x7f081c37
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_morning:I
 
     move-object v11, v2
 
@@ -462,7 +462,7 @@
 
     const-string v4, "sikh"
 
-    const v6, 0x7f081c3c
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_sikh:I
 
     move-object v3, v2
 
@@ -483,7 +483,7 @@
 
     const-string v12, "buildings"
 
-    const v14, 0x7f081c33
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_ind_building:I
 
     move-object v11, v2
 
@@ -504,7 +504,7 @@
 
     const-string v4, "determination"
 
-    const v6, 0x7f081c2d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_determination:I
 
     move-object v3, v2
 
@@ -525,7 +525,7 @@
 
     const-string v12, "nature"
 
-    const v14, 0x7f081c39
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_nature:I
 
     move-object v11, v2
 
@@ -546,7 +546,7 @@
 
     const-string v4, "flowers"
 
-    const v6, 0x7f081c2f
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_flowers:I
 
     move-object v3, v2
 
@@ -567,7 +567,7 @@
 
     const-string v12, "lights"
 
-    const v14, 0x7f081c35
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_lights:I
 
     move-object v11, v2
 
@@ -586,7 +586,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_0
 
@@ -1162,7 +1162,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12017e
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_clip_img_failed_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1367,7 +1367,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122bd7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_unsave_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1378,14 +1378,14 @@
 
     invoke-direct {v1, p0, p1}, Lnrl$c;-><init>(Lnrl;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122234
+    sget p1, Lcom/resouce/module/ResSTRING;->public_go_back:I
 
     .line 3
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p1
 
-    const v0, 0x7f120639
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_continue_edit:I
 
     const/4 v1, 0x0
 

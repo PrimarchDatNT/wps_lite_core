@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121589
+    sget v1, Lcom/resouce/module/ResSTRING;->oversea_assisatnt_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12158a
+    sget v1, Lcom/resouce/module/ResSTRING;->oversea_assisatnt_url_scene:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -986,7 +986,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1222d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_module_h5_resume_resume_master:I
 
     const-string v2, "wpsoffice://wps.cn/resume-master"
 
@@ -1000,7 +1000,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f1222a2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_h5_attendance_record:I
 
     const-string v2, "wpsoffice://wps.cn/webview?type=readwebview&url=https%3A%2F%2Fsmartform.wps.com%2F%23%2Fclockin-edit%2F53443867a7bd4d518a4a112ecf6f0169"
 
@@ -1070,7 +1070,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0d36
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_oversea_assisant_bubble_layout:I
 
     const/4 v4, 0x0
 
@@ -1078,7 +1078,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2fac
+    sget v3, Lcom/resouce/module/ResID;->tips:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

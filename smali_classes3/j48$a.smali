@@ -159,7 +159,7 @@
 
     iget-object v0, v0, Lj48;->e0:Landroid/app/Activity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -231,7 +231,7 @@
 
     iget-object v0, v0, Lj48;->e0:Landroid/app/Activity;
 
-    const v1, 0x7f12061f
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_record_has_been_delete:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

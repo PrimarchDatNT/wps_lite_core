@@ -94,7 +94,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lkmb;)V
     .locals 1
 
-    const v0, 0x7f0e0fe3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->unpaid_home_myorders_activity:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lgmb;-><init>(Landroid/app/Activity;I)V
@@ -222,12 +222,12 @@
     goto :goto_0
 
     :pswitch_0
-    const p0, 0x7f122815
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     .line 4
     iput p0, v0, Lgf2;->b:I
 
-    const p0, 0x7f0819c7
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     .line 5
     iput p0, v0, Lgf2;->a:I
@@ -235,12 +235,12 @@
     goto :goto_0
 
     :pswitch_1
-    const p0, 0x7f121c87
+    sget p0, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     .line 6
     iput p0, v0, Lgf2;->b:I
 
-    const p0, 0x7f0810f5
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
     .line 7
     iput p0, v0, Lgf2;->a:I
@@ -248,12 +248,12 @@
     goto :goto_0
 
     :pswitch_2
-    const p0, 0x7f12260e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     .line 8
     iput p0, v0, Lgf2;->b:I
 
-    const p0, 0x7f0810fc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
     .line 9
     iput p0, v0, Lgf2;->a:I
@@ -261,12 +261,12 @@
     goto :goto_0
 
     :pswitch_3
-    const p0, 0x7f122a9d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     .line 10
     iput p0, v0, Lgf2;->b:I
 
-    const p0, 0x7f0810fe
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_template_privilege:I
 
     .line 11
     iput p0, v0, Lgf2;->a:I
@@ -274,12 +274,12 @@
     goto :goto_0
 
     :pswitch_4
-    const p0, 0x7f121c92
+    sget p0, Lcom/resouce/module/ResSTRING;->premium_member:I
 
     .line 12
     iput p0, v0, Lgf2;->b:I
 
-    const p0, 0x7f0806f1
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
     .line 13
     iput p0, v0, Lgf2;->a:I
@@ -346,7 +346,7 @@
     .line 2
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32fe
+    sget v1, Lcom/resouce/module/ResID;->unpaid_order_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -359,7 +359,7 @@
     .line 3
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b7f
+    sget v1, Lcom/resouce/module/ResID;->order_select_item_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -372,7 +372,7 @@
     .line 4
     iget-object v0, p0, Lgmb;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b7d
+    sget v1, Lcom/resouce/module/ResID;->order_select_item_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -492,7 +492,7 @@
     .line 4
     iget-object p1, p0, Lpmb;->b0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f12203e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {p1, v0, p0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -751,7 +751,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1b7d
+    sget v0, Lcom/resouce/module/ResID;->order_select_item_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -783,7 +783,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne p1, v0, :cond_4
 
@@ -1024,7 +1024,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060142
+    sget v1, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1040,7 +1040,7 @@
     .line 3
     iget-object v1, p0, Lpmb;->h0:Lhd3;
 
-    const v2, 0x7f121f44
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm_delete_selected_files:I
 
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
 
@@ -1051,7 +1051,7 @@
 
     invoke-direct {v2, p0}, Lpmb$d;-><init>(Lpmb;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1062,7 +1062,7 @@
 
     invoke-direct {v2, p0}, Lpmb$e;-><init>(Lpmb;)V
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {v1, v3, v0, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1236,7 +1236,7 @@
     .line 10
     iget-object v0, p0, Lpmb;->b0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f12203e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v0, v3, p0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -1268,7 +1268,7 @@
 
     iget-object v2, p0, Lgmb;->B:Landroid/app/Activity;
 
-    const v5, 0x7f122551
+    sget v5, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1290,7 +1290,7 @@
 
     iget-object v2, p0, Lgmb;->B:Landroid/app/Activity;
 
-    const v5, 0x7f1228d7
+    sget v5, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1331,7 +1331,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121fc2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete_orders:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

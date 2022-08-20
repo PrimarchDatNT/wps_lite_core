@@ -84,7 +84,7 @@
     .line 1
     iget-object v0, p0, Lit9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1c3b
+    sget v1, Lcom/resouce/module/ResID;->pad_search_tip_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1225d0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_oversea_search_tools:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122637
+    sget v1, Lcom/resouce/module/ResSTRING;->public_phone_search_app:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -116,7 +116,7 @@
     :goto_0
     iget-object v0, p0, Lit9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1099
+    sget v1, Lcom/resouce/module/ResID;->home_main_fragment_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
     .line 6
     iget-object v0, p0, Lit9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3029
+    sget v1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
     .line 3
     iget-object v0, p0, Lit9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1c2e
+    sget v1, Lcom/resouce/module/ResID;->pad_public_reddot_msg_img_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b26e0
+    sget v2, Lcom/resouce/module/ResID;->public_reddot_msg_text:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0530
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_apps_new_layout:I
 
     const/4 v2, 0x0
 
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Lit9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f9b
+    sget v1, Lcom/resouce/module/ResID;->phone_app_main_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,12 +419,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122b81
+    sget v0, Lcom/resouce/module/ResSTRING;->public_use:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     :goto_0
     return v0

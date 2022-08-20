@@ -50,7 +50,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/warning/FileRoamingWarningActivity$a;->B:Lcn/wps/moffice/main/cloud/roaming/warning/FileRoamingWarningActivity;
 
-    const v1, 0x7f120653
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_to_upragde_toast:I
 
     const/4 v2, 0x0
 

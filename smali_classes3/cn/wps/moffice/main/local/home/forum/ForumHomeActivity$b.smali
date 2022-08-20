@@ -47,7 +47,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/forum/ForumHomeActivity$b;->a:Lcn/wps/moffice/main/local/home/forum/ForumHomeActivity;
 
-    const v1, 0x7f12299a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_success:I
 
     const/4 v2, 0x0
 

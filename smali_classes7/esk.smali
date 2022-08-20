@@ -58,7 +58,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b03c6
+    sget p2, Lcom/resouce/module/ResID;->check_translate_icon:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -83,12 +83,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0804a0
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f080587
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->en_comp_tool_translate:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V

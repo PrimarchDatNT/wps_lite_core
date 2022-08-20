@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/doc_scan_gray_7d8187" android:padding="1.0dip" android:layout_width="@dimen/pic_to_ppt_thumb_width" android:layout_height="@dimen/pic_to_ppt_thumb_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/thumb_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <TextView android:textSize="10.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/index_text_view" android:background="@drawable/selector_doc_scan_selected_page_num" android:layout_width="25.0dip" android:layout_height="25.0dip" />
-</FrameLayout>

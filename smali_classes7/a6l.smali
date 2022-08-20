@@ -15,12 +15,12 @@
 .method public constructor <init>()V
     .locals 2
 
-    const v0, 0x7f0b3554
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_startgroup:I
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
 
-    const v0, 0x7f0b350e
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_fontBtn_btn:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 
     invoke-direct {v0}, Ln3l;-><init>()V
 
-    const v1, 0x7f0b3516
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_format_brush:I
 
     const-string v2, "edit-format-brush"
 
@@ -91,7 +91,7 @@
 
     invoke-direct {v0}, Lc6l;-><init>()V
 
-    const v1, 0x7f0b34f2
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_aligngroupBtn:I
 
     const-string v2, "edit-para-group"
 
@@ -104,7 +104,7 @@
 
     invoke-direct {v0, v1}, Lb6l;-><init>(Lq4l;)V
 
-    const v1, 0x7f0b3538
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_itemnumber_groupBtn:I
 
     const-string v2, "edit-item-number-group"
 
@@ -115,7 +115,7 @@
 
     invoke-direct {v0}, Lgvl;-><init>()V
 
-    const v1, 0x7f0b3555
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_styleBtn:I
 
     const-string v2, "edit-style"
 
@@ -126,7 +126,7 @@
 
     invoke-direct {v0}, Lfuk;-><init>()V
 
-    const v1, 0x7f0b354a
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_setbgBtn:I
 
     const-string v2, "edit-page-bg"
 
@@ -137,7 +137,7 @@
 
     invoke-direct {v0}, Lhuk;-><init>()V
 
-    const v1, 0x7f0b354b
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_setpageBtn:I
 
     const-string v2, "edit-page-setting"
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v0, v1}, Lx2l;-><init>(Z)V
 
-    const v2, 0x7f0b3512
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_font_plus_btn:I
 
     const-string v3, "font-increase"
 
@@ -190,7 +190,7 @@
 
     invoke-direct {v0, v1}, Lw2l;-><init>(Z)V
 
-    const v2, 0x7f0b3511
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_font_minus_btn:I
 
     const-string v3, "font-decrease"
 
@@ -201,7 +201,7 @@
 
     invoke-direct {v0, v1}, Ld6l;-><init>(Z)V
 
-    const v1, 0x7f0b3515
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_fontsize_view:I
 
     const-string v2, "font-fontsize"
 
@@ -212,7 +212,7 @@
 
     invoke-direct {v0}, Lu2l;-><init>()V
 
-    const v1, 0x7f0b34f4
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_boldBtn:I
 
     const-string v2, "font-bold"
 
@@ -223,7 +223,7 @@
 
     invoke-direct {v0}, Ly2l;-><init>()V
 
-    const v1, 0x7f0b3534
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_italicBtn:I
 
     const-string v2, "font-italic"
 
@@ -234,7 +234,7 @@
 
     invoke-direct {v0}, Lnsk;-><init>()V
 
-    const v1, 0x7f0b355e
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_underlineBtn:I
 
     const-string v2, "font-underline"
 
@@ -245,7 +245,7 @@
 
     invoke-direct {v0}, Lwvk;-><init>()V
 
-    const v1, 0x7f0b3557
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_textColorBtn:I
 
     const-string v2, "font-color"
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v0}, Lxvk;-><init>()V
 
-    const v1, 0x7f0b3558
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_textColorBtn_more:I
 
     const-string v2, "font-color-more"
 
@@ -267,7 +267,7 @@
 
     invoke-direct {v0}, Lyvk;-><init>()V
 
-    const v1, 0x7f0b3559
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_textHighlightColorBtn:I
 
     const-string v2, "font-highlight"
 
@@ -278,7 +278,7 @@
 
     invoke-direct {v0}, Lawk;-><init>()V
 
-    const v1, 0x7f0b34e8
+    sget v1, Lcom/resouce/module/ResID;->writer_editor_high_light_more_btn:I
 
     const-string v2, "font-highlight-more"
 
@@ -289,7 +289,7 @@
 
     invoke-direct {v0}, Lbwk;-><init>()V
 
-    const v1, 0x7f0b355a
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_textMoreBtn:I
 
     const-string v2, "font-more"
 
@@ -310,7 +310,7 @@
 
     invoke-direct {v0, v1, v2}, Ls4l;-><init>(Lq4l;Z)V
 
-    const v1, 0x7f0b3536
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_item_number_increase_indentation:I
 
     const-string v3, "item-number-increase"
 
@@ -323,7 +323,7 @@
 
     invoke-direct {v0, v1, v2}, Lr4l;-><init>(Lq4l;Z)V
 
-    const v1, 0x7f0b3535
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_item_number_decrease_indentation:I
 
     const-string v2, "item-number-decrease"
 
@@ -336,7 +336,7 @@
 
     invoke-direct {v0, v1}, Lt6l;-><init>(Lq4l;)V
 
-    const v1, 0x7f0b3537
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_item_number_start:I
 
     const-string v2, "item-number-start"
 
@@ -355,7 +355,7 @@
 
     invoke-direct {v0, v1}, Ltuk;-><init>(Lq4l;)V
 
-    const v1, 0x7f0b34f9
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_decreaseLeftInd:I
 
     const-string v2, "decrease left indent"
 
@@ -368,7 +368,7 @@
 
     invoke-direct {v0, v1}, Luuk;-><init>(Lq4l;)V
 
-    const v1, 0x7f0b351b
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_increaseLeftInd:I
 
     const-string v2, "increase left indent"
 
@@ -379,7 +379,7 @@
 
     invoke-direct {v0}, Lvuk;-><init>()V
 
-    const v1, 0x7f0b353d
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_paragraphsetBtn:I
 
     const-string v2, "align-octups"
 
@@ -392,7 +392,7 @@
 
     invoke-direct {v0, v1}, Lpul;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b3551
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_smartTypoBtn:I
 
     const-string v2, "smart-typo"
 
@@ -407,7 +407,7 @@
 
     invoke-direct {v0, v1}, Lx6l;-><init>(Lb5l;)V
 
-    const v1, 0x7f0b353a
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_linespacingBtn:I
 
     const-string v2, "align-lingspacing"
 
@@ -418,7 +418,7 @@
 
     invoke-direct {v0}, La7l;-><init>()V
 
-    const v1, 0x7f0b3549
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_section:I
 
     const-string v2, "section_prop"
 

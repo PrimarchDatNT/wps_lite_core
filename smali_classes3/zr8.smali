@@ -271,14 +271,14 @@
     .line 3
     iget-object p1, p0, Lzr8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v0, 0x7f12253d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
     .line 4
     iget-object p1, p0, Lzr8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v0, 0x7f081553
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
@@ -400,7 +400,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->new_home_wps_file_radar_items_layout:I
 
     const/4 v2, 0x0
 
@@ -410,7 +410,7 @@
 
     iput-object v0, p0, Lzr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1632
+    sget v1, Lcom/resouce/module/ResID;->listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121217
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     return v0
 .end method
@@ -567,14 +567,14 @@
     .line 4
     iget-object v0, p0, Lzr8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f120690
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
     .line 5
     iget-object v0, p0, Lzr8;->I:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f08155d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_search_results:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end|center" android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/rfab__content_label_list_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/rfab__content_label_list_label_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/rfab__content_label_list_icon_iv" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="0.0dip" />
-</LinearLayout>

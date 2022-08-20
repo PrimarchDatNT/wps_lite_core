@@ -138,7 +138,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b0229
+    sget v1, Lcom/resouce/module/ResID;->body:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/InfoFlowListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2f63
+    sget v1, Lcom/resouce/module/ResID;->textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
 
     const/4 v1, 0x4
 
-    const v2, 0x7f0b2f63
+    sget v2, Lcom/resouce/module/ResID;->textview:I
 
     if-eqz v0, :cond_0
 
@@ -257,7 +257,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/InfoFlowListView;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0229
+    sget v2, Lcom/resouce/module/ResID;->body:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_footer:I
 
     const/4 v2, 0x0
 
@@ -331,7 +331,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/infoflow/InfoFlowListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

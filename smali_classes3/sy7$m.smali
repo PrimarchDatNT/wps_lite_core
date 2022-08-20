@@ -106,7 +106,7 @@
 
     iget-object p1, p1, Lsy7;->U:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0

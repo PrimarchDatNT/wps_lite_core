@@ -462,7 +462,7 @@
     .line 1
     iget-object v0, p0, Lstc;->t0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -664,7 +664,7 @@
 
     iget-object v3, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v4, 0x7f12197c
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_public_all_bookmark:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -689,7 +689,7 @@
 
     iget-object v3, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v4, 0x7f1225c8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_outline:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -718,7 +718,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12298f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -811,7 +811,7 @@
 
     iget-object v3, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v4, 0x7f1227a7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -853,7 +853,7 @@
     :goto_1
     iget-object v0, p0, Lstc;->t0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080202
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_back:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1030,7 +1030,7 @@
     .line 2
     iget-object v0, p0, Lstc;->t0:Landroid/widget/ImageView;
 
-    const v2, 0x7f080240
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1083,7 +1083,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ffe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_tools_panel:I
 
     return v0
 .end method
@@ -1603,7 +1603,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2068
+    sget v1, Lcom/resouce/module/ResID;->phone_panel_topbar_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1616,7 +1616,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2067
+    sget v1, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1629,7 +1629,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2066
+    sget v1, Lcom/resouce/module/ResID;->phone_panel_topbar_logo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1642,7 +1642,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b18ef
+    sget v1, Lcom/resouce/module/ResID;->more_panel_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1662,7 +1662,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1c7a
+    sget v1, Lcom/resouce/module/ResID;->pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1675,7 +1675,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b12e3
+    sget v1, Lcom/resouce/module/ResID;->indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1716,7 +1716,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

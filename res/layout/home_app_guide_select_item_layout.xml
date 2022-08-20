@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="18.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@drawable/phone_public_gray_circle_background" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/introduce_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

@@ -202,7 +202,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b0981
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__fill_background_color_customdropdownbtn:I
 
     .line 1
     invoke-virtual {p0, v0}, Lr5h;->C4(I)Landroid/view/View;
@@ -676,7 +676,7 @@
     .line 3
     iget-object v1, p0, Lr5h;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0b9b
+    sget v2, Lcom/resouce/module/ResID;->et_search_resultlist:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1126,7 +1126,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0986
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format__frame_style_customdropdownbtn:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1163,7 +1163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b09b1
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_frame_style_scrollview:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1174,7 +1174,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f0b04b7
+    sget p1, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1193,7 +1193,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b04b3
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_listview:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2005,7 +2005,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0983
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format__fill_pattern_customdropdownbtn:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2042,7 +2042,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0a49
+    sget v1, Lcom/resouce/module/ResID;->et_filter_color_gridview:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2115,7 +2115,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0776
+    sget v4, Lcom/resouce/module/ResID;->documents_filebrowser_launcher_text:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2152,7 +2152,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f0b04b2
+    sget v0, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2161,7 +2161,7 @@
 
     check-cast v0, Landroid/widget/GridView;
 
-    const v1, 0x7f0b04b7
+    sget v1, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2231,7 +2231,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b05fb
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -2254,7 +2254,7 @@
 
     invoke-static {v3}, Ly4h;->c(Ljava/lang/Runnable;)V
 
-    const v1, 0x7f0b0cde
+    sget v1, Lcom/resouce/module/ResID;->file_listview:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -2278,7 +2278,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0c83
+    sget v5, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     .line 7
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2410,7 +2410,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b099c
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_font_font_color_customdropdownbtn:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2435,7 +2435,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0981
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__fill_background_color_customdropdownbtn:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2460,7 +2460,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0982
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__fill_front_color_customdropdownbtn:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2485,7 +2485,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0984
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__frame_color_customdropdownbtn:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2494,7 +2494,7 @@
     check-cast p1, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;
 
     :goto_0
-    const v0, 0x7f0b09c9
+    sget v0, Lcom/resouce/module/ResID;->et_custom_dd_imageview:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2537,7 +2537,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0b099c
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_font_font_color_customdropdownbtn:I
 
     .line 2
     invoke-virtual {p0, p1}, Lr5h;->C4(I)Landroid/view/View;
@@ -2556,7 +2556,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f0b0981
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format__fill_background_color_customdropdownbtn:I
 
     .line 4
     invoke-virtual {p0, p1}, Lr5h;->C4(I)Landroid/view/View;
@@ -2575,7 +2575,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f0b0982
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format__fill_front_color_customdropdownbtn:I
 
     .line 6
     invoke-virtual {p0, p1}, Lr5h;->C4(I)Landroid/view/View;
@@ -2594,7 +2594,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f0b0984
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format__frame_color_customdropdownbtn:I
 
     .line 8
     invoke-virtual {p0, p1}, Lr5h;->C4(I)Landroid/view/View;
@@ -2602,7 +2602,7 @@
     move-result-object p1
 
     :goto_0
-    const v0, 0x7f0b04b2
+    sget v0, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2714,7 +2714,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b099c
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_font_font_color_customdropdownbtn:I
 
     .line 1
     invoke-virtual {p0, v0}, Lr5h;->C4(I)Landroid/view/View;
@@ -2737,7 +2737,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b0a49
+    sget v0, Lcom/resouce/module/ResID;->et_filter_color_gridview:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2871,7 +2871,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b0982
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__fill_front_color_customdropdownbtn:I
 
     .line 1
     invoke-virtual {p0, v0}, Lr5h;->C4(I)Landroid/view/View;
@@ -3082,7 +3082,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b0984
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format__frame_color_customdropdownbtn:I
 
     .line 1
     invoke-virtual {p0, v0}, Lr5h;->C4(I)Landroid/view/View;

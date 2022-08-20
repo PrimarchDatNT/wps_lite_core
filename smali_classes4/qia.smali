@@ -78,16 +78,16 @@
 
     iget-object v1, p0, Lqia;->a:Landroid/app/Activity;
 
-    const v4, 0x7f121247
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wpsdrive_docs:I
 
     .line 5
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v4, 0x7f08110b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_home_bottom_toolbar_document:I
 
-    const v5, 0x7f08110c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_home_bottom_toolbar_document_selected:I
 
     .line 6
     invoke-virtual {v0, v2, v4, v5, v1}, Lcn/wps/moffice/main/pdfhome/PDFHomeBottomToolbar;->b(Ljava/lang/String;IILjava/lang/String;)V
@@ -97,16 +97,16 @@
 
     iget-object v1, p0, Lqia;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12260e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f081109
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_home_bottom_toolbar_application:I
 
-    const v4, 0x7f08110a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_home_bottom_toolbar_application_selected:I
 
     .line 9
     invoke-virtual {v0, v3, v2, v4, v1}, Lcn/wps/moffice/main/pdfhome/PDFHomeBottomToolbar;->b(Ljava/lang/String;IILjava/lang/String;)V
@@ -258,7 +258,7 @@
 
     if-nez v0, :cond_5
 
-    const v0, 0x7f0b2033
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_container:I
 
     .line 11
     invoke-virtual {p2, v0, v2, p1}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;

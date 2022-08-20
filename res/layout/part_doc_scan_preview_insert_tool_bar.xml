@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_image_preview_insert_bottom" android:background="@color/scanNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/bar_divide" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_edit" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:text="@string/public_edit" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/public_doc_scan_button" />
-    <TextView android:textSize="14.0sp" android:textColor="@drawable/selector_doc_scan_text_white_color" android:gravity="center" android:id="@id/tv_insert" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:minWidth="80.0dip" android:text="@string/public_insert" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/phone_public_buttonStyle_blue_4dp_corner" />
-</RelativeLayout>

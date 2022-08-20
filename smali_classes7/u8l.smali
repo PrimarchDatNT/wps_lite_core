@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f082079
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_pad_title_menu_bg_selector:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 

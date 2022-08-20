@@ -297,7 +297,7 @@
 
     move-result v1
 
-    const v2, 0x7f122bd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     const/4 v3, 0x1
 
@@ -828,7 +828,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d3e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -848,7 +848,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122007
+    sget v2, Lcom/resouce/module/ResSTRING;->public_documenet_scan_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -921,7 +921,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120446
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_long_press_qr_code_tips:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

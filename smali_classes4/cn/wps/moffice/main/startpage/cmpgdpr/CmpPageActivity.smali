@@ -890,7 +890,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122219
+    sget v2, Lcom/resouce/module/ResSTRING;->public_gdpr_load_fail:I
 
     invoke-static {v1, v2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -1872,7 +1872,7 @@
     return-void
 
     :cond_4
-    const v0, 0x7f110001
+    sget v0, Lcom/resouce/module/ResRAW;->cmp_gdpr_web_config:I
 
     .line 17
     invoke-virtual {p0, v0}, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->f(I)Lseb;
@@ -2287,9 +2287,9 @@
     :cond_0
     invoke-virtual {p0}, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->e()V
 
-    const v0, 0x7f01000e
+    sget v0, Lcom/resouce/module/ResANIM;->ad_loading_appear:I
 
-    const v1, 0x7f01000f
+    sget v1, Lcom/resouce/module/ResANIM;->ad_loading_disappear:I
 
     .line 4
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -2420,12 +2420,12 @@
 
     invoke-static {v0, v1}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v0, 0x7f0e0693
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_cmp_gdpr_activity:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0b1727
+    sget v0, Lcom/resouce/module/ResID;->loading_content:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2436,7 +2436,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b29b1
+    sget v0, Lcom/resouce/module/ResID;->root_view:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2447,7 +2447,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->B:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b172f
+    sget v0, Lcom/resouce/module/ResID;->loading_text:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2458,7 +2458,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0ecd
+    sget v0, Lcom/resouce/module/ResID;->gdpr_text_tips:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2469,7 +2469,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->T:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0ecc
+    sget v0, Lcom/resouce/module/ResID;->gdpr_scroll_tips:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2483,7 +2483,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->S:Landroid/widget/TextView;
 
-    const v2, 0x7f12221a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_gdpr_loading:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2505,7 +2505,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f110001
+    sget v0, Lcom/resouce/module/ResRAW;->cmp_gdpr_web_config:I
 
     .line 16
     invoke-virtual {p0, v0}, Lcn/wps/moffice/main/startpage/cmpgdpr/CmpPageActivity;->f(I)Lseb;
@@ -2611,9 +2611,9 @@
 .method public onDestroy()V
     .locals 2
 
-    const v0, 0x7f01000e
+    sget v0, Lcom/resouce/module/ResANIM;->ad_loading_appear:I
 
-    const v1, 0x7f01000f
+    sget v1, Lcom/resouce/module/ResANIM;->ad_loading_disappear:I
 
     .line 1
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V

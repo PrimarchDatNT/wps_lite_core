@@ -284,7 +284,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/common/overseapay/PayResultActivity;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f081aaf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_pay_success_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123098
+    sget v1, Lcom/resouce/module/ResSTRING;->template_payment_success:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/common/overseapay/PayResultActivity;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f081aac
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_pay_failed_icon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -320,7 +320,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225fe
+    sget v1, Lcom/resouce/module/ResSTRING;->public_payment_failed:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -61,7 +61,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0505
+    sget v4, Lcom/resouce/module/ResLAYOUT;->oversea_memo_notification_layout:I
 
     invoke-direct {v2, v3, v4}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -128,17 +128,17 @@
 
     if-lt v9, v8, :cond_1
 
-    const v8, 0x7f0b06b3
+    sget v8, Lcom/resouce/module/ResID;->dismiss_btn:I
 
     .line 12
     invoke-virtual {v2, v8, v3}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
-    const v3, 0x7f0b2b36
+    sget v3, Lcom/resouce/module/ResID;->setup_btn:I
 
     .line 13
     invoke-virtual {v2, v3, v6}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
-    const v3, 0x7f0b00b3
+    sget v3, Lcom/resouce/module/ResID;->add_memo_btn:I
 
     .line 14
     invoke-virtual {v2, v3, v7}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -146,9 +146,9 @@
     :cond_1
     const/16 v3, 0x18
 
-    const v6, 0x7f0602e2
+    sget v6, Lcom/resouce/module/ResCOLOR;->notification_small_icon_bg:I
 
-    const v7, 0x7f081a5d
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     if-lt v9, v3, :cond_2
 
@@ -230,7 +230,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f080b40
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->oversea_memo_notification_icon:I
 
     .line 25
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;

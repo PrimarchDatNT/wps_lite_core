@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -269,7 +269,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b3067
+    sget v2, Lcom/resouce/module/ResID;->top_bars:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0816fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -303,7 +303,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605ee
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -536,7 +536,7 @@
     .line 17
     iget-object p1, p0, Lac9;->L1:Landroid/app/FragmentTransaction;
 
-    const v0, 0x7f0b2a6f
+    sget v0, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     iget-object v1, p0, Lac9;->J1:Lcn/wps/moffice/main/local/home/SearchDrivePage;
 
@@ -926,7 +926,7 @@
     :cond_0
     iget-object v0, p0, Lwb9;->T:Landroid/view/View;
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1109,7 +1109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1126,7 +1126,7 @@
     .line 1
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2ab6
+    sget v1, Lcom/resouce/module/ResID;->search_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1136,7 +1136,7 @@
 
     iput-object v0, p0, Lac9;->H1:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b117c
+    sget v1, Lcom/resouce/module/ResID;->home_title_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1150,7 +1150,7 @@
     .line 3
     iget-object v0, p0, Lac9;->H1:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b157b
+    sget v1, Lcom/resouce/module/ResID;->layout_title_bar_contains:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1161,7 +1161,7 @@
     .line 4
     iget-object v0, p0, Lac9;->H1:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2a6f
+    sget v1, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1178,7 +1178,7 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f0b2107
+    sget v2, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1217,7 +1217,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120610
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1254,7 +1254,7 @@
     .line 1
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b1808
+    sget v1, Lcom/resouce/module/ResID;->main_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1795,7 +1795,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_filebrowser:I
 
     const/4 v2, 0x0
 
@@ -1812,7 +1812,7 @@
 
     iput-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2ac1
+    sget v1, Lcom/resouce/module/ResID;->searchparent:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2169,7 +2169,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1205f1
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_open_alldocuments:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2305,7 +2305,7 @@
     .line 3
     iget-object v0, p0, Lwb9;->c0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b156d
+    sget v1, Lcom/resouce/module/ResID;->layout_search_outer:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2371,7 +2371,7 @@
 
     invoke-static {v1, v2}, Lka3;->p0(Landroid/view/View;I)V
 
-    const v1, 0x7f080f91
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_search_background:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -2666,7 +2666,7 @@
     .line 1
     iget-object v0, p0, Lwb9;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b117d
+    sget v1, Lcom/resouce/module/ResID;->home_title_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2696,7 +2696,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

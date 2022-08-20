@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122918
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_template_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122917
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_template_size_out_of_limit:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

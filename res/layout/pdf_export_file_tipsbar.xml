@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/color_black" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/phone_public_default_text_size" android:textColor="#ff0ea7fa" android:gravity="start|center" android:id="@id/tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/public_export_pic_pdf_tips" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingTop="11.0dip" android:paddingRight="15.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" style="@style/public_image_bg_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/quickbar_item_img" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
-    <TextView android:textColor="@color/whiteMainTextColor" android:id="@id/quickbar_item_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

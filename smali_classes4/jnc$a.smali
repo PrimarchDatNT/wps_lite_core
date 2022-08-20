@@ -48,7 +48,7 @@
     .line 2
     iput v0, p0, Ljnc$a;->j0:I
 
-    const v0, 0x7f0b1e7a
+    sget v0, Lcom/resouce/module/ResID;->pdf_mode_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Ljnc$a;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b1e9b
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_mode_img:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object v0, p0, Ljnc$a;->l0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b1e97
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_bg_btn:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     iput-object v1, p0, Ljnc$a;->m0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v1, 0x7f0b1e98
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_btn:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iput-object v0, p0, Ljnc$a;->o0:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b1e9c
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_mode_tip:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081028
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pdf_pic_preview_mode_select_shape:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -178,7 +178,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081029
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pdf_pic_preview_mode_shape:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

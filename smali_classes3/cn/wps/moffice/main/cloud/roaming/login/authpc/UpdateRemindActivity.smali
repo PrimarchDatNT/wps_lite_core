@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_update_remind:I
 
     const/4 v2, 0x0
 
@@ -99,7 +99,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/UpdateRemindActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b02bb
+    sget v1, Lcom/resouce/module/ResID;->btn_aur_update:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/UpdateRemindActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b163f
+    sget v1, Lcom/resouce/module/ResID;->ll_aur_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -126,7 +126,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/UpdateRemindActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1418
+    sget v1, Lcom/resouce/module/ResID;->iv_aur_logo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12313a
+    sget v1, Lcom/resouce/module/ResSTRING;->udpate_remind_activity_update_remind:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -212,9 +212,9 @@
     .line 1
     iget v0, p1, Landroid/content/res/Configuration;->orientation:I
 
-    const v1, 0x7f07005b
+    sget v1, Lcom/resouce/module/ResDIMEN;->author_pc_login_button_height:I
 
-    const v2, 0x7f07005e
+    sget v2, Lcom/resouce/module/ResDIMEN;->author_pc_login_button_width:I
 
     const/4 v3, -0x2
 
@@ -236,7 +236,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070d0d
+    sget v4, Lcom/resouce/module/ResDIMEN;->update_remind_logo_hor_margin_top:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -283,7 +283,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d0a
+    sget v2, Lcom/resouce/module/ResDIMEN;->update_remind_hor_btn_mar_top:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -311,7 +311,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070d0e
+    sget v4, Lcom/resouce/module/ResDIMEN;->update_remind_logo_margin_top:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -358,7 +358,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d09
+    sget v2, Lcom/resouce/module/ResDIMEN;->update_remind_btn_mar_top:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

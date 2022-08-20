@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26f1
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

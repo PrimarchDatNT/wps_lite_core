@@ -221,7 +221,7 @@
     .line 3
     iget-object v1, p0, Lyqe;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f1229bc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -293,7 +293,7 @@
     .line 4
     iget-object v1, p0, Lyqe;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f121bcf
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_remote_connect_fail:I
 
     invoke-static {v1, v2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

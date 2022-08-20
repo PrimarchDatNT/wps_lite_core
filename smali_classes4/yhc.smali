@@ -32,7 +32,7 @@
     .line 2
     iput-object p2, p0, Lyhc;->B:Lyhc$d;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -87,25 +87,25 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1206b9
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     goto :goto_0
 
     :cond_0
     if-eqz p2, :cond_1
 
-    const p1, 0x7f121753
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback_msg:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12172f
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_error_dialog_msg:I
 
     .line 3
     :goto_0
     invoke-virtual {p0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121bdb
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     if-eqz p2, :cond_2
 
@@ -116,7 +116,7 @@
 
     invoke-virtual {p0, p1, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121751
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_feedback:I
 
     .line 5
     new-instance p2, Lyhc$b;

@@ -156,7 +156,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e07e9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_popularize_item_image_layout:I
 
     const/4 v2, 0x0
 

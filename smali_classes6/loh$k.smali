@@ -78,7 +78,7 @@
     return-void
 
     :cond_2
-    const p2, 0x7f12054e
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     if-nez p3, :cond_3
 

@@ -459,7 +459,7 @@
     goto :goto_0
 
     :cond_1
-    const p3, 0x7f12202e
+    sget p3, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     .line 4
     invoke-static {p1, p3, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -510,7 +510,7 @@
     goto :goto_1
 
     :cond_4
-    const p3, 0x7f12011c
+    sget p3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 11
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -550,7 +550,7 @@
     move-result-object p3
 
     :cond_5
-    const v0, 0x7f12056a
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_notNeed:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

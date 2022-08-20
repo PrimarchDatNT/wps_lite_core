@@ -523,13 +523,13 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080738
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_export_pages:I
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v4, 0x7f121906
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -555,11 +555,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08075d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_export_pages:I
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v3, 0x7f121906
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;

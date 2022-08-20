@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b03f9
+    sget v1, Lcom/resouce/module/ResID;->choose_position:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0486
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_list:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a02
+    sget v1, Lcom/resouce/module/ResID;->new_note:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a03
+    sget v1, Lcom/resouce/module/ResID;->new_notebook:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfd
+    sget v1, Lcom/resouce/module/ResID;->path_gallery_container:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -319,12 +319,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0537
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_mgr_saveas:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e070a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_mgr_saveas:I
 
     .line 3
     :goto_0
@@ -373,7 +373,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e02
+    sget v1, Lcom/resouce/module/ResID;->switch_login_type_name:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e01
+    sget v1, Lcom/resouce/module/ResID;->switch_login_type_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -555,7 +555,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -811,7 +811,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01b2
+    sget v1, Lcom/resouce/module/ResID;->back:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -846,7 +846,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20ca
+    sget v1, Lcom/resouce/module/ResID;->phone_public_cloudstorage_body:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

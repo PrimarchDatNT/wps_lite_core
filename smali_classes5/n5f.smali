@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e003c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_hw_secert_layout:I
 
     const/4 v1, 0x0
 
@@ -143,7 +143,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b0bf7
+    sget v0, Lcom/resouce/module/ResID;->exit:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
     .line 3
     iget-object p1, p0, Ln5f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b227d
+    sget v0, Lcom/resouce/module/ResID;->positive:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 4
     iget-object p1, p0, Ln5f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1883
+    sget v0, Lcom/resouce/module/ResID;->message:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -183,7 +183,7 @@
     .line 5
     iget-object p1, p0, Ln5f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1804
+    sget v0, Lcom/resouce/module/ResID;->main_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -196,7 +196,7 @@
     .line 6
     iget-object p1, p0, Ln5f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2c52
+    sget v0, Lcom/resouce/module/ResID;->small_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -209,7 +209,7 @@
     .line 7
     iget-object p1, p0, Ln5f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2ec3
+    sget v0, Lcom/resouce/module/ResID;->temp_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -600,7 +600,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12133f
+    sget v1, Lcom/resouce/module/ResSTRING;->law_content_link1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -613,7 +613,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121340
+    sget v1, Lcom/resouce/module/ResSTRING;->law_content_link2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

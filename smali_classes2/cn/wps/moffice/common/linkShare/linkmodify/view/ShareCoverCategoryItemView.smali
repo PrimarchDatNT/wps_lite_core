@@ -334,11 +334,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0cbc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_link_share_pics_category_item_view:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1732
+    sget p1, Lcom/resouce/module/ResID;->loading_view:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverCategoryItemView;->B:Lcn/wps/moffice/docer/widget/LoadingView;
 
-    const p1, 0x7f0b2863
+    sget p1, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

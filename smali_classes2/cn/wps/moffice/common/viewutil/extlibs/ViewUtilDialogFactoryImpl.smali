@@ -85,12 +85,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120d9b
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_erasure_data:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f120d98
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_appsflyer_delete_message:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -105,7 +105,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$j1;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f120d9a
+    sget p0, Lcom/resouce/module/ResSTRING;->gdpr_eliminate:I
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -114,7 +114,7 @@
 
     invoke-direct {p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$k1;-><init>()V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -246,7 +246,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121f68
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cooperate_dialog_title:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -279,7 +279,7 @@
 
     aput-object p2, v1, v2
 
-    const p2, 0x7f121f67
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cooperate_dialog_msg:I
 
     .line 3
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -294,7 +294,7 @@
 
     invoke-direct {v0, p0, p5}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$o;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Ljava/lang/Runnable;)V
 
-    const p5, 0x7f121f6e
+    sget p5, Lcom/resouce/module/ResSTRING;->public_cooperate_join:I
 
     .line 4
     invoke-virtual {p2, p5, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -305,7 +305,7 @@
 
     invoke-direct {p5, p0, p4}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$n;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Ljava/lang/Runnable;)V
 
-    const p4, 0x7f1227a4
+    sget p4, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     .line 5
     invoke-virtual {p2, p4, p5}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -328,7 +328,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f0605f1
+    sget p4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -347,12 +347,12 @@
 
     move-result-object v0
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f120648
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_not_upragde_dialog_content:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -372,12 +372,12 @@
     .line 6
     invoke-virtual {v0, p2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p2, 0x7f122b53
+    sget p2, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     .line 7
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121e1b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     .line 8
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -401,7 +401,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -411,7 +411,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1227a6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readOnlySaveOrNot:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -427,7 +427,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122820
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b45
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -498,7 +498,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e044f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->layout_home_cannot_share_dialog:I
 
     const/4 v3, 0x0
 
@@ -509,7 +509,7 @@
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v2, 0x7f0b263f
+    sget v2, Lcom/resouce/module/ResID;->public_home_open_auto_backup:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -522,7 +522,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f120e8c
+    sget p1, Lcom/resouce/module/ResSTRING;->home_cannot_share_title:I
 
     .line 5
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -534,12 +534,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1231c4
+    sget p1, Lcom/resouce/module/ResSTRING;->website_title_save_to_drive:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122b77
+    sget p1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_save:I
 
     .line 7
     :goto_0
@@ -549,7 +549,7 @@
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$j;
@@ -584,7 +584,7 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f122c3a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_not_exist:I
 
     const/4 v0, 0x0
 
@@ -599,12 +599,12 @@
 
     invoke-direct {v0, p0, p1}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$s2;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/Context;)V
 
-    const v1, 0x7f122c3b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_not_exist_to_search:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     new-instance v2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$v2;
@@ -615,7 +615,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c3c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_search_file:I
 
     new-instance v3, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$u2;
 
@@ -691,7 +691,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0712
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_confirm_dialog:I
 
     const/4 v3, 0x0
 
@@ -701,7 +701,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1883
+    sget v2, Lcom/resouce/module/ResID;->message:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2f5a
+    sget p1, Lcom/resouce/module/ResID;->textlink:I
 
     .line 4
     invoke-virtual {v1, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -737,7 +737,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p4, 0x7f122588
+    sget p4, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 5
     invoke-virtual {p1, p4}, Landroid/widget/TextView;->setText(I)V
@@ -749,7 +749,7 @@
 
     invoke-virtual {p1, p4}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f121fba
+    sget p1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 7
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -769,7 +769,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$l;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -789,7 +789,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122ae1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tip_save_txt_as_doc:I
 
     if-eqz p3, :cond_1
 
@@ -805,12 +805,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0e082c
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_alertdialog_content:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0e0b0d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_alertdialog_content:I
 
     .line 5
     :goto_0
@@ -820,7 +820,7 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b00e6
+    sget v3, Lcom/resouce/module/ResID;->alertdialog_text:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -832,7 +832,7 @@
     .line 7
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f0b00e5
+    sget v2, Lcom/resouce/module/ResID;->alertdialog_rememberme:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -841,7 +841,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v2, 0x7f12253e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/widget/CheckBox;->setText(I)V
@@ -858,7 +858,7 @@
     const/4 v1, 0x0
 
     :goto_1
-    const p3, 0x7f12281f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 12
     new-instance v2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$e;
@@ -869,7 +869,7 @@
 
     if-eqz p2, :cond_2
 
-    const p3, 0x7f122830
+    sget p3, Lcom/resouce/module/ResSTRING;->public_save_txt_only:I
 
     .line 13
     new-instance v2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$f;
@@ -884,7 +884,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -910,7 +910,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -919,7 +919,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v2, 0x7f121d3e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -930,7 +930,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f120643
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_need_upragde_dialog_content:I
 
     invoke-virtual {p1, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -947,12 +947,12 @@
     .line 6
     invoke-virtual {v0, v3}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p2, 0x7f120645
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_need_upragde_dialog_ok:I
 
     .line 7
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f120644
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_need_upragde_dialog_later:I
 
     .line 8
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -973,7 +973,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0712
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_confirm_dialog:I
 
     const/4 v2, 0x0
 
@@ -983,7 +983,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1883
+    sget v1, Lcom/resouce/module/ResID;->message:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -992,11 +992,11 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f12069b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_send_modified_file:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2f5a
+    sget v1, Lcom/resouce/module/ResID;->textlink:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1005,7 +1005,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122588
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -1025,7 +1025,7 @@
 
     invoke-direct {p1, p0, p3}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$a0;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/DialogInterface$OnClickListener;)V
 
-    const p2, 0x7f120693
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1034,7 +1034,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$b0;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1097,7 +1097,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0621
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pdf_close_save_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -1105,7 +1105,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1f16
+    sget v2, Lcom/resouce/module/ResID;->pdf_save_dialog_check_box:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1114,7 +1114,7 @@
 
     check-cast v2, Landroid/widget/CheckBox;
 
-    const v3, 0x7f0b1f17
+    sget v3, Lcom/resouce/module/ResID;->pdf_save_dialog_set_password:I
 
     .line 11
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1135,7 +1135,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12281f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1145,7 +1145,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f1223b2
+    sget v5, Lcom/resouce/module/ResSTRING;->public_isSaveOrNot:I
 
     .line 14
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1179,7 +1179,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f122b45
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1198,7 +1198,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1303,12 +1303,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e069e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_flow_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e013c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documents_flow_tip:I
 
     :goto_0
     const/4 v2, 0x0
@@ -1317,7 +1317,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0dd9
+    sget v1, Lcom/resouce/module/ResID;->flow_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1328,7 +1328,7 @@
 
     if-eqz p5, :cond_1
 
-    const p5, 0x7f1214cc
+    sget p5, Lcom/resouce/module/ResSTRING;->oem_flow_tips:I
 
     .line 5
     invoke-virtual {v1, p5}, Landroid/widget/TextView;->setText(I)V
@@ -1336,13 +1336,13 @@
     goto :goto_1
 
     :cond_1
-    const p5, 0x7f1214cd
+    sget p5, Lcom/resouce/module/ResSTRING;->oem_flow_tips_com:I
 
     .line 6
     invoke-virtual {v1, p5}, Landroid/widget/TextView;->setText(I)V
 
     :goto_1
-    const p5, 0x7f0b03a1
+    sget p5, Lcom/resouce/module/ResID;->checkBox_flow:I
 
     .line 7
     invoke-virtual {v0, p5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1356,7 +1356,7 @@
 
     invoke-direct {v1, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f1214ce
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_flow_tips_title:I
 
     .line 9
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1372,14 +1372,14 @@
 
     move-result-object v0
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     .line 11
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1394,7 +1394,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121f13
+    sget p2, Lcom/resouce/module/ResSTRING;->public_collection_notagree:I
 
     new-instance p3, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$a2;
 
@@ -1434,7 +1434,7 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p1, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -1461,7 +1461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e06a4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_documents_roaming_explain_dialog:I
 
     const/4 v3, 0x0
 
@@ -1469,7 +1469,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b301a
+    sget v2, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1478,7 +1478,7 @@
 
     check-cast v2, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f122816
+    sget v3, Lcom/resouce/module/ResSTRING;->public_roaming_instructions:I
 
     .line 6
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1535,21 +1535,21 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122b74
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f122001
+    sget v2, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_and_copy_upload_content:I
 
     .line 3
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f123263
+    sget v2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     new-instance v3, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$r;
 
@@ -1560,7 +1560,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$q;
 
@@ -1594,7 +1594,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0844
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_cloud_font_warning_dlg:I
 
     const/4 v2, 0x0
 
@@ -1602,14 +1602,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04a0
+    sget v1, Lcom/resouce/module/ResID;->collection_info_check_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b049f
+    sget v2, Lcom/resouce/module/ResID;->collection_info_check_checkbox:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1643,7 +1643,7 @@
 
     invoke-direct {p1, p0, v2, p2}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$m1;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/widget/CheckBox;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1663,7 +1663,7 @@
 .method public final Q(Landroid/content/Context;Landroid/app/Dialog;Landroid/view/View;Ljava/lang/Runnable;)V
     .locals 3
 
-    const v0, 0x7f0b26f2
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_explain_content:I
 
     .line 1
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1680,7 +1680,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setScrollBarStyle(I)V
 
-    const v1, 0x7f0b26f0
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_circle_progressBar:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1760,13 +1760,13 @@
 
     invoke-direct {p1, p0, p4}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$p2;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122820
+    sget p2, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     if-eqz p6, :cond_0
 
-    const p1, 0x7f121e1c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     .line 5
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$q2;
@@ -1776,7 +1776,7 @@
     invoke-virtual {v0, p1, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_0
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$r2;
@@ -1794,14 +1794,14 @@
 .method public U(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Runnable;Ljava/lang/Runnable;Ljava/lang/Runnable;)Lhd3;
     .locals 8
 
-    const v0, 0x7f1210fe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v0, 0x7f121e4b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_file_upload_error_msg:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1841,7 +1841,7 @@
 .method public V(Landroid/content/Context;ILjava/lang/Runnable;Ljava/lang/Runnable;Ljava/lang/Runnable;)Lhd3;
     .locals 8
 
-    const v0, 0x7f122b69
+    sget v0, Lcom/resouce/module/ResSTRING;->public_upload_file_fail:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1883,7 +1883,7 @@
 
     if-eqz v0, :cond_0
 
-    const v3, 0x7f122b6b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_upload_file_fail_tips:I
 
     move-object v1, p0
 
@@ -1912,7 +1912,7 @@
 
     if-eqz v0, :cond_1
 
-    const v3, 0x7f122b6a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_upload_file_fail_by_delete_tips:I
 
     move-object v1, p0
 
@@ -1953,7 +1953,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0712
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_confirm_dialog:I
 
     const/4 v3, 0x0
 
@@ -1963,7 +1963,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1883
+    sget v2, Lcom/resouce/module/ResID;->message:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1974,7 +1974,7 @@
 
     invoke-virtual {v2, p4}, Landroid/widget/TextView;->setText(I)V
 
-    const p4, 0x7f0b2f5a
+    sget p4, Lcom/resouce/module/ResID;->textlink:I
 
     .line 4
     invoke-virtual {v1, p4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1983,7 +1983,7 @@
 
     check-cast p4, Landroid/widget/TextView;
 
-    const v2, 0x7f122588
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 5
     invoke-virtual {p4, v2}, Landroid/widget/TextView;->setText(I)V
@@ -1995,7 +1995,7 @@
 
     invoke-virtual {p4, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f120577
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     .line 7
     invoke-virtual {v0, p2}, Lhd3;->setTitleById(I)Lhd3;
@@ -2023,7 +2023,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2075,7 +2075,7 @@
     .line 7
     invoke-virtual {v0, p4, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2092,16 +2092,16 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$r1;
 
-    const v1, 0x7f130125
+    sget v1, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, p0, p1, v1}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$r1;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/Context;I)V
 
-    const p1, 0x7f0e03b8
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_task_complete_dialog:I
 
     .line 2
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
-    const p1, 0x7f0b255c
+    sget p1, Lcom/resouce/module/ResID;->prompt:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -2160,12 +2160,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e069e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_flow_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e013c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documents_flow_tip:I
 
     :goto_0
     const/4 v2, 0x0
@@ -2174,7 +2174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0dd9
+    sget v1, Lcom/resouce/module/ResID;->flow_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2186,7 +2186,7 @@
     .line 5
     invoke-virtual {v1, p3}, Landroid/widget/TextView;->setText(I)V
 
-    const p3, 0x7f0b03a1
+    sget p3, Lcom/resouce/module/ResID;->checkBox_flow:I
 
     .line 6
     invoke-virtual {v0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2202,7 +2202,7 @@
 
     invoke-direct {v1, p1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v2, 0x7f1214ce
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_flow_tips_title:I
 
     .line 8
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2223,7 +2223,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2242,7 +2242,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2328,12 +2328,12 @@
 
     invoke-direct {v0, p0, p1, p3}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$s0;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    const v1, 0x7f1203a3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_doc_open_failure:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1203a1
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_doc_break_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -2348,7 +2348,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2365,7 +2365,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d60
+    sget v2, Lcom/resouce/module/ResSTRING;->fix_doc:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2397,7 +2397,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e070c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_collection_info_software:I
 
     const/4 v2, 0x0
 
@@ -2410,7 +2410,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b31d6
+    sget v2, Lcom/resouce/module/ResID;->tv_message:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2423,18 +2423,18 @@
 
     if-eqz v1, :cond_0
 
-    const v3, 0x7f120d97
+    sget v3, Lcom/resouce/module/ResSTRING;->gdpr_appsflyer_announcement:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f121955
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_home_collection_software_info:I
 
     .line 4
     :goto_0
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f0b04a1
+    sget v2, Lcom/resouce/module/ResID;->collection_info_provider:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2447,12 +2447,12 @@
 
     if-eqz v1, :cond_1
 
-    const v3, 0x7f121c9a
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_policy_private_policy:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f121954
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_home_collection_software_aboutmore:I
 
     .line 6
     :goto_1
@@ -2465,7 +2465,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b0647
+    sget v2, Lcom/resouce/module/ResID;->delete_data:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2497,7 +2497,7 @@
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     :goto_2
-    const v2, 0x7f0b04a0
+    sget v2, Lcom/resouce/module/ResID;->collection_info_check_root:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2512,7 +2512,7 @@
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
-    const v1, 0x7f0b049f
+    sget v1, Lcom/resouce/module/ResID;->collection_info_check_checkbox:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2569,12 +2569,12 @@
 
     if-eqz p2, :cond_5
 
-    const p1, 0x7f12054c
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_activation_statistics:I
 
     goto :goto_4
 
     :cond_5
-    const p1, 0x7f1206c2
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_usage_statistics:I
 
     .line 21
     :goto_4
@@ -2583,7 +2583,7 @@
     .line 22
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 23
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$h1;
@@ -2592,7 +2592,7 @@
 
     invoke-virtual {v1, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 24
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$i1;
@@ -2615,7 +2615,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f121def
+    sget p1, Lcom/resouce/module/ResSTRING;->public_clean_cache_msg:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -2625,11 +2625,11 @@
 
     invoke-direct {p1, p0, p2}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$m;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f120577
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -2670,13 +2670,13 @@
 
     aput-object p2, v2, v3
 
-    const p2, 0x7f121dc2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel_share_confirm_msg:I
 
     invoke-virtual {v1, p2, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
-    const v1, 0x7f121dc1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -2701,7 +2701,7 @@
 
     invoke-direct {p2, p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$s;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;)V
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {p1, p3, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2742,7 +2742,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2763,7 +2763,7 @@
     .line 1
     new-instance v0, Landroid/app/Dialog;
 
-    const v1, 0x7f130125
+    sget v1, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, p1, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -2772,7 +2772,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e056a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_explain_dialog:I
 
     const/4 v3, 0x0
 
@@ -2780,7 +2780,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0525
+    sget v2, Lcom/resouce/module/ResID;->confirm:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2799,7 +2799,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07056a
+    sget v3, Lcom/resouce/module/ResDIMEN;->pad_home_roaming_dialog_width:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -2810,7 +2810,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070568
+    sget v4, Lcom/resouce/module/ResDIMEN;->pad_home_roaming_dialog_height:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -2837,7 +2837,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2846,7 +2846,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f1223c0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_join_cooperation_file_editing:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2860,7 +2860,7 @@
 
     invoke-direct {v1, p0, p3}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$k;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/DialogInterface$OnClickListener;)V
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -2869,13 +2869,13 @@
 
     move-result-object p1
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const p3, 0x7f12259a
+    sget p3, Lcom/resouce/module/ResSTRING;->public_open_documents:I
 
     .line 6
     invoke-virtual {v0, p3, p1, p2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2891,7 +2891,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214d2
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_title_notification:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2902,7 +2902,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1214ca
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_expired_tips:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2917,7 +2917,7 @@
 
     invoke-direct {v1, p0, p2}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$o1;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/DialogInterface$OnClickListener;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 4
     invoke-virtual {p1, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -2952,12 +2952,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0713
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_download_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0b5c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_download:I
 
     :goto_0
     const/4 v2, 0x0
@@ -2966,7 +2966,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2985,7 +2985,7 @@
 
     invoke-direct {v1, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f12061e
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_checkversion_dialog_title:I
 
     .line 5
     invoke-virtual {v1, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -3000,7 +3000,7 @@
 
     invoke-virtual {v1, p1}, Lhd3;->setContentMinHeight(I)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance v0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$e2;
@@ -3009,7 +3009,7 @@
 
     invoke-virtual {v1, p1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f1229fe
+    sget p1, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 9
     new-instance v0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$f2;
@@ -3045,7 +3045,7 @@
     invoke-virtual {v0, p2}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
     :cond_0
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3108,12 +3108,12 @@
 
     if-eqz p2, :cond_3
 
-    const p2, 0x7f0e082c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_alertdialog_content:I
 
     goto :goto_1
 
     :cond_3
-    const p2, 0x7f0e0b0d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_alertdialog_content:I
 
     .line 9
     :goto_1
@@ -3123,7 +3123,7 @@
 
     check-cast p2, Landroid/widget/LinearLayout;
 
-    const p4, 0x7f0b00e6
+    sget p4, Lcom/resouce/module/ResID;->alertdialog_text:I
 
     .line 10
     invoke-virtual {p2, p4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -3140,7 +3140,7 @@
 
     invoke-direct {p3, p0, p8}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$t0;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Lka3$d0;)V
 
-    const p4, 0x7f0b00e5
+    sget p4, Lcom/resouce/module/ResID;->alertdialog_rememberme:I
 
     .line 13
     invoke-virtual {p2, p4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -3151,7 +3151,7 @@
 
     if-nez p7, :cond_4
 
-    const p4, 0x7f120680
+    sget p4, Lcom/resouce/module/ResSTRING;->documentmanager_rememberme:I
 
     .line 14
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -3186,12 +3186,12 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f122bdf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p1, 0x7f120652
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_switch_off_dialog_content:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -3208,12 +3208,12 @@
 
     invoke-virtual {v0, p2}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const p2, 0x7f122b22
+    sget p2, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     .line 6
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3237,7 +3237,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f1227f9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -3258,7 +3258,7 @@
 
     invoke-direct {p2, p0, p4}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$d0;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/DialogInterface$OnClickListener;)V
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p1, p3, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3301,7 +3301,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1210fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 5
     invoke-virtual {p2, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -3311,7 +3311,7 @@
 
     move-result v1
 
-    const v2, 0x7f120eae
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3337,7 +3337,7 @@
 
     invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f120eb2
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_save_in_local:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3357,7 +3357,7 @@
     :goto_0
     if-eqz v1, :cond_2
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance v2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$o0;
@@ -3366,14 +3366,14 @@
 
     invoke-virtual {p2, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 12
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3389,7 +3389,7 @@
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 14
     new-instance p5, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$q0;
@@ -3434,7 +3434,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f1205e7
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -3446,12 +3446,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f120630
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_logout_dialog_content:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1205e8
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_logout_message:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -3464,7 +3464,7 @@
     .line 5
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3511,7 +3511,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f122820
+    sget p4, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-virtual {p3, p4}, Landroid/widget/Button;->setText(I)V
 
@@ -3524,7 +3524,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f0605f1
+    sget p4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3537,7 +3537,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121fe2
+    sget p3, Lcom/resouce/module/ResSTRING;->public_doc_cooperation_direct_save:I
 
     invoke-virtual {p1, p3}, Landroid/widget/Button;->setText(I)V
 
@@ -3588,22 +3588,22 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f0e0574
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_updatepanel_v2:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e0573
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_updatepanel:I
 
     :goto_0
     if-eqz v1, :cond_1
 
-    const v3, 0x7f0e0749
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_updatepanel_v2:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f0e0748
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_updatepanel:I
 
     .line 5
     :goto_1
@@ -3632,7 +3632,7 @@
 
     check-cast v2, Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b0cae
+    sget v3, Lcom/resouce/module/ResID;->fhr_recyclerview:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -3677,7 +3677,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0601cf
+    sget v3, Lcom/resouce/module/ResCOLOR;->home_link_text_color:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3691,18 +3691,18 @@
 
     if-eqz v1, :cond_6
 
-    const p1, 0x7f12029a
+    sget p1, Lcom/resouce/module/ResSTRING;->cloud_has_new_version:I
 
     goto :goto_4
 
     :cond_6
-    const p1, 0x7f120574
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_checkUpdate:I
 
     .line 12
     :goto_4
     invoke-virtual {v0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p1, 0x7f12056d
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_updatebtn:I
 
     .line 13
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$h0;
@@ -3711,7 +3711,7 @@
 
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f12062a
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_update_dialog_close:I
 
     .line 14
     new-instance p2, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$i0;
@@ -3779,7 +3779,7 @@
     invoke-virtual {v0, p4, p5, p1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :goto_0
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3810,7 +3810,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v0, 0x1
 
@@ -3848,13 +3848,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f122256
+    sget v2, Lcom/resouce/module/ResSTRING;->public_history_delete_cannot_find_back:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f122254
+    sget v2, Lcom/resouce/module/ResSTRING;->public_history_confirm_delete:I
 
     .line 3
     invoke-virtual {v0, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -3870,7 +3870,7 @@
 
     invoke-direct {v2, p0, p1, p2}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$w;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121fba
+    sget p1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 5
     invoke-virtual {v1, p1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3881,7 +3881,7 @@
 
     invoke-direct {p2, p0}, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$u;-><init>(Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {p1, v1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -3913,7 +3913,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214ce
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_flow_tips_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -3930,12 +3930,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0e069e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_documents_flow_tip:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e013c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_flow_tip:I
 
     :goto_0
     const/4 v3, 0x0
@@ -3944,7 +3944,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0dd9
+    sget v2, Lcom/resouce/module/ResID;->flow_tips:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3953,12 +3953,12 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f1214cb
+    sget v3, Lcom/resouce/module/ResSTRING;->oem_flow_collection_tips:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f0b03a1
+    sget v2, Lcom/resouce/module/ResID;->checkBox_flow:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3975,7 +3975,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3992,7 +3992,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4052,7 +4052,7 @@
 
     move-result-object v9
 
-    const v0, 0x7f1210fe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 5
     invoke-virtual {v9, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -4062,7 +4062,7 @@
 
     move-result v0
 
-    const v1, 0x7f120eaa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -4088,7 +4088,7 @@
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f120eb2
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_save_in_local:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4108,7 +4108,7 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance v1, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$k0;
@@ -4117,14 +4117,14 @@
 
     invoke-virtual {v9, v0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v10, 0x7f1211bc
+    sget v10, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 12
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4152,7 +4152,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 14
     new-instance v1, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$m0;

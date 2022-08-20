@@ -391,7 +391,7 @@
     .line 1
     iget-object v0, p0, Ldhl;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0e1033
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_quickbar_layout:I
 
     invoke-static {v1}, Luqh;->inflate(I)Landroid/view/View;
 
@@ -402,7 +402,7 @@
     .line 2
     iget-object v0, p0, Ldhl;->d0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b26bc
+    sget v1, Lcom/resouce/module/ResID;->public_phone_quick_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -625,7 +625,7 @@
     .line 1
     iget-object v0, p0, Ldhl;->j0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -839,12 +839,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080255
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_tool:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f080240
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     :goto_1
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V

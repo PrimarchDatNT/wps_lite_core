@@ -55,12 +55,12 @@
 
     if-eqz v0, :cond_1
 
-    const p2, 0x7f0e095d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_edit_layout:I
 
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0e0522
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_et_edit_layout:I
 
     .line 5
     :goto_1
@@ -70,7 +70,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f08069f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->et_phone_input_view_bg:I
 
     .line 6
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06049e
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_ss_key_bg:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

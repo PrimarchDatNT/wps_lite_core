@@ -21,17 +21,17 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f120234
+    sget p0, Lcom/resouce/module/ResSTRING;->bundle_download_back_tips_text:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, p0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -198,17 +198,17 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f121335
+    sget p0, Lcom/resouce/module/ResSTRING;->language_download_back_tips_text:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 3
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, p0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070781
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_public_bottomtool_bar_rom_shadow_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -149,7 +149,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const v2, 0x7f0b26ff
+    sget v2, Lcom/resouce/module/ResID;->public_rom_bottom_tool_container_view:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setId(I)V
@@ -181,12 +181,12 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0b2700
+    sget v1, Lcom/resouce/module/ResID;->public_rom_bottom_tool_shadow_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
 
-    const v1, 0x7f0813c4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_rom_bottomtool_top_shadow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -254,7 +254,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2700
+    sget v1, Lcom/resouce/module/ResID;->public_rom_bottom_tool_shadow_view:I
 
     if-ne v0, v1, :cond_0
 
@@ -273,7 +273,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b26ff
+    sget v1, Lcom/resouce/module/ResID;->public_rom_bottom_tool_container_view:I
 
     if-ne v0, v1, :cond_1
 
@@ -324,7 +324,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2700
+    sget v2, Lcom/resouce/module/ResID;->public_rom_bottom_tool_shadow_view:I
 
     const/high16 v3, 0x40000000    # 2.0f
 
@@ -357,7 +357,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b26ff
+    sget v2, Lcom/resouce/module/ResID;->public_rom_bottom_tool_container_view:I
 
     if-ne v1, v2, :cond_1
 

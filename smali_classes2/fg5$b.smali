@@ -52,7 +52,7 @@
 .method public U()V
     .locals 1
 
-    const v0, 0x7f0b2fd3
+    sget v0, Lcom/resouce/module/ResID;->titleTextView:I
 
     .line 1
     invoke-virtual {p0, v0}, Lof5;->T(I)Landroid/view/View;

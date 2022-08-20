@@ -118,7 +118,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2d6a
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_indicator:I
 
     const-string v2, "et"
 
@@ -170,7 +170,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b2d73
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_undo:I
 
     if-ne v0, v1, :cond_3
 
@@ -208,7 +208,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0b2d70
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_redo:I
 
     if-ne v0, v1, :cond_4
 
@@ -246,7 +246,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b2d67
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_close:I
 
     if-ne v0, v1, :cond_5
 
@@ -262,7 +262,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b2d71
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_save:I
 
     if-ne v0, v1, :cond_6
 
@@ -296,7 +296,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f0b2d72
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_share:I
 
     if-ne v0, v1, :cond_7
 
@@ -316,7 +316,7 @@
     goto :goto_0
 
     :cond_7
-    const v1, 0x7f0b2d6d
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_multi:I
 
     if-ne v0, v1, :cond_8
 

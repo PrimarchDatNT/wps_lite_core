@@ -29,7 +29,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    const v1, 0x7f122a26
+    sget v1, Lcom/resouce/module/ResSTRING;->public_stop_diagno:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -39,7 +39,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f122a27
+    sget v1, Lcom/resouce/module/ResSTRING;->public_stop_diagno_message:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -57,12 +57,12 @@
 
     invoke-direct {v1, p1}, Lsf5$h;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a28
+    sget p0, Lcom/resouce/module/ResSTRING;->public_stop_diagno_negative:I
 
     .line 9
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -86,14 +86,14 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    const v1, 0x7f122829
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save_or_share:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f12282a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_save_or_share_tips:I
 
     .line 5
     invoke-virtual {v0, p2}, Lhd3;->setMessage(I)Lhd3;
@@ -120,17 +120,17 @@
 
     invoke-direct {v2, p0, p1}, Lsf5$c;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     invoke-virtual {v0, p0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122820
+    sget p0, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     .line 11
     invoke-virtual {v0, p0, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f120371
+    sget p0, Lcom/resouce/module/ResSTRING;->develop_share:I
 
     .line 12
     invoke-virtual {v0, p0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -154,14 +154,14 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    const v1, 0x7f122829
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save_or_share:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f12282a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_save_or_share_tips:I
 
     .line 5
     invoke-virtual {v0, p2}, Lhd3;->setMessage(I)Lhd3;
@@ -188,17 +188,17 @@
 
     invoke-direct {v2, p0, p1}, Lsf5$f;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     invoke-virtual {v0, p0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122820
+    sget p0, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     .line 11
     invoke-virtual {v0, p0, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f120372
+    sget p0, Lcom/resouce/module/ResSTRING;->develop_share_or_open:I
 
     .line 12
     invoke-virtual {v0, p0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

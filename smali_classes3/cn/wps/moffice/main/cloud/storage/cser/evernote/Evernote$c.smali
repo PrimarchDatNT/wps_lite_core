@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120ec1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_new_note_has_same_name:I
 
     invoke-virtual {p1, p2}, Lla8$j;->j(I)V
 

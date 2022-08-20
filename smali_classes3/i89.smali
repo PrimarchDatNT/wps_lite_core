@@ -34,7 +34,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0dbe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_search_app_item_head_view:I
 
     const/4 v1, 0x0
 
@@ -79,7 +79,7 @@
     .line 7
     iget-object p1, p0, Li89;->c:Landroid/view/View;
 
-    const p2, 0x7f0b20c0
+    sget p2, Lcom/resouce/module/ResID;->phone_public_category_more:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     :cond_0
     iget-object p1, p0, Li89;->c:Landroid/view/View;
 
-    const p2, 0x7f0b2a4e
+    sget p2, Lcom/resouce/module/ResID;->search_app_head_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,12 +114,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f122264
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f122b81
+    sget p2, Lcom/resouce/module/ResSTRING;->public_use:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V

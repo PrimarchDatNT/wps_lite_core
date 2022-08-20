@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e3d
+    sget v1, Lcom/resouce/module/ResID;->table_info_key:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

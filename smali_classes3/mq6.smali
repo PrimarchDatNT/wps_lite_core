@@ -23,7 +23,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121596
+    sget v1, Lcom/resouce/module/ResSTRING;->package_filter_aes_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e047e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->line_item:I
 
     const/4 v1, 0x0
 

@@ -360,7 +360,7 @@
 
     invoke-direct {v0, v1}, Ld5e;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122b2e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_tv_screen_over_msg:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -374,7 +374,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b2f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tv_screen_over_ok:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

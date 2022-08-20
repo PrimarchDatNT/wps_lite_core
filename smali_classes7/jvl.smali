@@ -421,12 +421,12 @@
 
     if-nez p1, :cond_2
 
-    const v1, 0x7f0820a2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_left_wrap_none:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0820a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_left_wrap_around:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -436,12 +436,12 @@
 
     if-nez p1, :cond_3
 
-    const v1, 0x7f0820a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_center_wrap_none:I
 
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f08209f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_center_wrap_around:I
 
     :goto_2
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -451,12 +451,12 @@
 
     if-nez p1, :cond_4
 
-    const p1, 0x7f0820a4
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_right_wrap_none:I
 
     goto :goto_3
 
     :cond_4
-    const p1, 0x7f0820a3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->writer_table_align_right_wrap_around:I
 
     :goto_3
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -471,12 +471,12 @@
 
     if-nez p1, :cond_6
 
-    const v1, 0x7f08147e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_left_wrap_none:I
 
     goto :goto_4
 
     :cond_6
-    const v1, 0x7f08147d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_left_wrap_around:I
 
     :goto_4
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -488,12 +488,12 @@
 
     if-nez p1, :cond_7
 
-    const v1, 0x7f08147c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_center_wrap_none:I
 
     goto :goto_5
 
     :cond_7
-    const v1, 0x7f08147b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_center_wrap_around:I
 
     :goto_5
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -505,12 +505,12 @@
 
     if-nez p1, :cond_8
 
-    const p1, 0x7f081480
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_right_wrap_none:I
 
     goto :goto_6
 
     :cond_8
-    const p1, 0x7f08147f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_writer_table_align_right_wrap_around:I
 
     :goto_6
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -715,7 +715,7 @@
     .line 1
     invoke-virtual {p0, p1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b368e
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_left_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -724,7 +724,7 @@
 
     iput-object v0, p0, Ljvl;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b368c
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_center_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -733,7 +733,7 @@
 
     iput-object v0, p0, Ljvl;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b3690
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_right_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -747,7 +747,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b368d
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_left:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -758,7 +758,7 @@
 
     iput-object v0, p0, Ljvl;->l0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b368b
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_center:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -769,7 +769,7 @@
 
     iput-object v0, p0, Ljvl;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b368f
+    sget v0, Lcom/resouce/module/ResID;->writer_table_alignment_right:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -781,7 +781,7 @@
     iput-object p1, p0, Ljvl;->n0:Landroid/widget/ImageView;
 
     :cond_0
-    const p1, 0x7f0b36b8
+    sget p1, Lcom/resouce/module/ResID;->writer_table_wrap_around_layout:I
 
     .line 9
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -790,7 +790,7 @@
 
     iput-object p1, p0, Ljvl;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b36bb
+    sget p1, Lcom/resouce/module/ResID;->writer_table_wrap_none_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -799,7 +799,7 @@
 
     iput-object p1, p0, Ljvl;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b36b9
+    sget p1, Lcom/resouce/module/ResID;->writer_table_wrap_layout:I
 
     .line 11
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

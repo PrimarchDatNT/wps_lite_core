@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     const/16 v1, 0x7d0
 

@@ -7,9 +7,9 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lrk9$b;)V
     .locals 8
 
-    const v4, 0x7f08106a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_qq_zone:I
 
-    const v5, 0x7f121975
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_qq_zone:I
 
     move-object v0, p0
 

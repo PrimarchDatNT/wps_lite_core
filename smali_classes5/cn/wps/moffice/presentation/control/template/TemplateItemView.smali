@@ -89,13 +89,13 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0ae5
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_template_item:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p2, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b2f31
+    sget p2, Lcom/resouce/module/ResID;->text_root_layout:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->W:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2511
+    sget p2, Lcom/resouce/module/ResID;->price_layout:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->a0:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b13b9
+    sget p2, Lcom/resouce/module/ResID;->item_docer_icon:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    const p2, 0x7f0b244e
+    sget p2, Lcom/resouce/module/ResID;->ppt_template_docer_superscript:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->V:Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;
 
-    const p2, 0x7f0b2460
+    sget p2, Lcom/resouce/module/ResID;->ppt_template_preview:I
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060044
+    sget v0, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -175,7 +175,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0703a3
+    sget p3, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -183,7 +183,7 @@
 
     invoke-virtual {p2, p1}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setRadius(F)V
 
-    const p1, 0x7f0b2465
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_progress:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->I:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const p1, 0x7f0b246e
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_title:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->S:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2463
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_price:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2464
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_price_sale:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/template/TemplateItemView;->U:Landroid/widget/TextView;
 
-    const p1, 0x7f0b244f
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_error_layer:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

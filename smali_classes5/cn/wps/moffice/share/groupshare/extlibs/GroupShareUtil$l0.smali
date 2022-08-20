@@ -126,7 +126,7 @@
     :catch_0
     iget-object p1, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$l0;->a:Landroid/content/Context;
 
-    const p2, 0x7f1205eb
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

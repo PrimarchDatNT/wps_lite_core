@@ -77,11 +77,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1046
+    sget v1, Lcom/resouce/module/ResLAYOUT;->view_error_retry:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1566
+    sget v0, Lcom/resouce/module/ResID;->layout_retry:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1566
+    sget v0, Lcom/resouce/module/ResID;->layout_retry:I
 
     if-ne p1, v0, :cond_0
 

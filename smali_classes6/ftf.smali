@@ -13,7 +13,7 @@
     .line 2
     iget-object p1, p0, Litf;->I:Landroid/view/View;
 
-    const v0, 0x7f0b09e0
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_integer_minvalue:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -26,7 +26,7 @@
     .line 3
     iget-object p1, p0, Litf;->I:Landroid/view/View;
 
-    const v0, 0x7f0b09df
+    sget v0, Lcom/resouce/module/ResID;->et_datavalidation_setting_integer_maxvalue:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

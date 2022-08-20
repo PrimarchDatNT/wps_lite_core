@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0401
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_more:I
 
     if-ne p1, v0, :cond_0
 
@@ -95,7 +95,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b30c7
+    sget v0, Lcom/resouce/module/ResID;->translations_text:I
 
     if-ne p1, v0, :cond_1
 

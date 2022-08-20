@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b267b
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_google:I
 
     if-ne p1, v0, :cond_0
 
@@ -57,7 +57,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b267a
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_facebook:I
 
     if-ne p1, v0, :cond_1
 
@@ -71,7 +71,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b267c
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_huawei:I
 
     if-ne p1, v0, :cond_2
 
@@ -85,7 +85,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b267e
+    sget v0, Lcom/resouce/module/ResID;->public_login_by_other:I
 
     if-ne p1, v0, :cond_3
 
@@ -99,7 +99,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2682
+    sget v0, Lcom/resouce/module/ResID;->public_login_cancel:I
 
     if-ne p1, v0, :cond_5
 

@@ -164,7 +164,7 @@
     .line 15
     iget-boolean p1, p0, Lgx3;->U:Z
 
-    const p1, 0x7f06025f
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 16
     iget-object p2, p0, Lgx3;->S:Landroid/content/Context;
@@ -206,7 +206,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121025
+    sget p2, Lcom/resouce/module/ResSTRING;->home_pay_cloud_font_vip:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -247,7 +247,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1208c1
+    sget p2, Lcom/resouce/module/ResSTRING;->et_function_category_list_1:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -262,7 +262,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1224d9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -299,7 +299,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1221de
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fontname_system:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -426,7 +426,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -443,7 +443,7 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f081a93
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_titlebar_item_selector:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -890,7 +890,7 @@
     .line 13
     iget-object p2, p1, Lgx3$n;->h:Landroid/widget/ImageView;
 
-    const v0, 0x7f081b06
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_premium_font_icon_gold_light:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1181,7 +1181,7 @@
     .line 3
     iget-object p1, p1, Lgx3$n;->q:Landroid/widget/ImageView;
 
-    const v0, 0x7f0816ac
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_font_nonexistent2:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1407,7 +1407,7 @@
     .line 12
     iget-object p2, p1, Lgx3$n;->k:Landroid/widget/TextView;
 
-    const p3, 0x7f120fb1
+    sget p3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1539,12 +1539,12 @@
 
     if-eqz p2, :cond_9
 
-    const p2, 0x7f1221c7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fontname_fonts_hint_phone:I
 
     goto :goto_4
 
     :cond_9
-    const p2, 0x7f1221c6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fontname_fonts_hint_pad:I
 
     .line 29
     :goto_4
@@ -3193,9 +3193,9 @@
 
     aget v0, v0, v2
 
-    const v2, 0x7f0b2920
+    sget v2, Lcom/resouce/module/ResID;->right_line:I
 
-    const v3, 0x7f0b1590
+    sget v3, Lcom/resouce/module/ResID;->left_line:I
 
     const/16 v4, 0x8
 
@@ -3357,7 +3357,7 @@
     invoke-virtual {p0, p3, p1}, Lgx3;->L(Lgx3$n;Lvx3;)V
 
     :goto_0
-    const p1, 0x7f0b1fdd
+    sget p1, Lcom/resouce/module/ResID;->phone_fontname_item_ll_view:I
 
     .line 30
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3562,7 +3562,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221d8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_online_display_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3575,7 +3575,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1228e5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_semicolon:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3914,12 +3914,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0884
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_fontname_item_new:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0c07
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_fontname_item:I
 
     .line 2
     :goto_0
@@ -3943,7 +3943,7 @@
     .line 4
     iput-object p1, v0, Lgx3$n;->v:Landroid/view/View;
 
-    const v1, 0x7f0b3074
+    sget v1, Lcom/resouce/module/ResID;->top_line:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3952,7 +3952,7 @@
 
     iput-object v1, v0, Lgx3$n;->w:Landroid/view/View;
 
-    const v1, 0x7f0b0262
+    sget v1, Lcom/resouce/module/ResID;->bottom_line:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3961,7 +3961,7 @@
 
     iput-object v1, v0, Lgx3$n;->z:Landroid/view/View;
 
-    const v1, 0x7f0b2920
+    sget v1, Lcom/resouce/module/ResID;->right_line:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3970,7 +3970,7 @@
 
     iput-object v1, v0, Lgx3$n;->y:Landroid/view/View;
 
-    const v1, 0x7f0b1590
+    sget v1, Lcom/resouce/module/ResID;->left_line:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3979,7 +3979,7 @@
 
     iput-object v1, v0, Lgx3$n;->x:Landroid/view/View;
 
-    const v1, 0x7f0b0e3b
+    sget v1, Lcom/resouce/module/ResID;->font_name_layout:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3988,7 +3988,7 @@
 
     iput-object v1, v0, Lgx3$n;->e:Landroid/view/View;
 
-    const v1, 0x7f0b06ba
+    sget v1, Lcom/resouce/module/ResID;->display_name:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3999,7 +3999,7 @@
 
     iput-object v1, v0, Lgx3$n;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b06bb
+    sget v1, Lcom/resouce/module/ResID;->display_thumbnail:I
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4010,7 +4010,7 @@
 
     iput-object v1, v0, Lgx3$n;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0e38
+    sget v1, Lcom/resouce/module/ResID;->font_level:I
 
     .line 12
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4021,7 +4021,7 @@
 
     iput-object v1, v0, Lgx3$n;->h:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b00f1
+    sget v1, Lcom/resouce/module/ResID;->all_cloud_font_btn:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4030,7 +4030,7 @@
 
     iput-object v1, v0, Lgx3$n;->i:Landroid/view/View;
 
-    const v1, 0x7f0b2f5e
+    sget v1, Lcom/resouce/module/ResID;->textual_hint:I
 
     .line 14
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4041,7 +4041,7 @@
 
     iput-object v1, v0, Lgx3$n;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f5f
+    sget v1, Lcom/resouce/module/ResID;->textual_hint_desc:I
 
     .line 15
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4052,7 +4052,7 @@
 
     iput-object v1, v0, Lgx3$n;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b05c6
+    sget v1, Lcom/resouce/module/ResID;->creat_font:I
 
     .line 16
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4063,7 +4063,7 @@
 
     iput-object v1, v0, Lgx3$n;->l:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0e16
+    sget v1, Lcom/resouce/module/ResID;->font_circleprogressbar:I
 
     .line 17
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4074,7 +4074,7 @@
 
     iput-object v1, v0, Lgx3$n;->m:Lcn/wps/moffice/common/fontname/CircleProgressBar;
 
-    const v1, 0x7f0b0794
+    sget v1, Lcom/resouce/module/ResID;->download_finish:I
 
     .line 18
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4085,7 +4085,7 @@
 
     iput-object v1, v0, Lgx3$n;->n:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0e26
+    sget v1, Lcom/resouce/module/ResID;->font_download:I
 
     .line 19
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4096,7 +4096,7 @@
 
     iput-object v1, v0, Lgx3$n;->o:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0e3e
+    sget v1, Lcom/resouce/module/ResID;->font_noexist:I
 
     .line 20
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4107,7 +4107,7 @@
 
     iput-object v1, v0, Lgx3$n;->p:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0e3f
+    sget v1, Lcom/resouce/module/ResID;->font_nosupport:I
 
     .line 21
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4118,7 +4118,7 @@
 
     iput-object v1, v0, Lgx3$n;->q:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1fdd
+    sget v1, Lcom/resouce/module/ResID;->phone_fontname_item_ll_view:I
 
     .line 22
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4134,7 +4134,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b1b00
+    sget v1, Lcom/resouce/module/ResID;->oldLayout:I
 
     .line 24
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4148,7 +4148,7 @@
     .line 25
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v1, 0x7f0b19e5
+    sget v1, Lcom/resouce/module/ResID;->newLayout:I
 
     .line 26
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4164,7 +4164,7 @@
     .line 27
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v1, 0x7f0b0066
+    sget v1, Lcom/resouce/module/ResID;->actionText:I
 
     .line 28
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4175,7 +4175,7 @@
 
     iput-object v1, v0, Lgx3$n;->k:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0759
+    sget v1, Lcom/resouce/module/ResID;->docker_icon:I
 
     .line 29
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4184,7 +4184,7 @@
 
     iput-object v1, v0, Lgx3$n;->j:Landroid/view/View;
 
-    const v1, 0x7f0b0e0e
+    sget v1, Lcom/resouce/module/ResID;->fontItemView:I
 
     .line 30
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4341,7 +4341,7 @@
 .method public final z(Lgx3$n;Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b1590
+    sget v0, Lcom/resouce/module/ResID;->left_line:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4352,7 +4352,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2920
+    sget v0, Lcom/resouce/module/ResID;->right_line:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

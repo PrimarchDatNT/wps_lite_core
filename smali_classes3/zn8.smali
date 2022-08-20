@@ -165,7 +165,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0774
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_myorders_view_layout:I
 
     const/4 v2, 0x0
 
@@ -177,7 +177,7 @@
 
     iput-object v0, p0, Lzn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2877
+    sget v1, Lcom/resouce/module/ResID;->redeem_recyclerview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
     .line 3
     iget-object v0, p0, Lzn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b286e
+    sget v1, Lcom/resouce/module/ResID;->redeem_cicle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -204,7 +204,7 @@
     .line 4
     iget-object v0, p0, Lzn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1731
+    sget v1, Lcom/resouce/module/ResID;->loading_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
     .line 5
     iget-object v0, p0, Lzn8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1726
+    sget v1, Lcom/resouce/module/ResID;->loading_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -362,7 +362,7 @@
     .line 5
     iget-object v0, p0, Lzn8;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f1212d8
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_loading:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -398,7 +398,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122e17
+    sget v0, Lcom/resouce/module/ResSTRING;->redeem_points_activity_title:I
 
     return v0
 .end method

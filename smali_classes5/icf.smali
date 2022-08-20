@@ -42,7 +42,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V

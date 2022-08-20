@@ -45,13 +45,13 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e065d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_play_titlebar_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b1ebe
+    sget p2, Lcom/resouce/module/ResID;->pdf_playtitlebar_autoplay:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/pdf/shell/play/PlayTitlebarLayout;->B:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const p2, 0x7f0b1ec0
+    sget p2, Lcom/resouce/module/ResID;->pdf_playtitlebar_loop_play:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/pdf/shell/play/PlayTitlebarLayout;->I:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const p2, 0x7f0b1ec3
+    sget p2, Lcom/resouce/module/ResID;->pdf_playtitlebar_switch_time:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/pdf/shell/play/PlayTitlebarLayout;->S:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const p2, 0x7f0b1ebf
+    sget p2, Lcom/resouce/module/ResID;->pdf_playtitlebar_exit_play:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605a9
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_titlebar_halfscreen_button_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -124,7 +124,7 @@
     invoke-virtual {p2, v0, v1}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     :cond_0
-    const p2, 0x7f0b1eb7
+    sget p2, Lcom/resouce/module/ResID;->pdf_play_rom_screening:I
 
     .line 10
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12208a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exit_play:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -414,7 +414,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008b
+    sget v1, Lcom/resouce/module/ResANIM;->public_play_top_push_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008a
+    sget v1, Lcom/resouce/module/ResANIM;->public_play_top_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -599,7 +599,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605a9
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_titlebar_halfscreen_button_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

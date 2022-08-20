@@ -35,21 +35,21 @@
 
     sput-object v0, Lhe5;->s0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b270d
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_show_entrance_item:I
 
     const/4 v2, 0x1
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b270b
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_open_switch:I
 
     const/4 v2, 0x2
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b2709
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_enter:I
 
     const/4 v2, 0x3
 

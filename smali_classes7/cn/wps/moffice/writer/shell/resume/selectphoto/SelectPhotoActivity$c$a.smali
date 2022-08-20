@@ -50,7 +50,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/writer/shell/resume/selectphoto/SelectPhotoActivity$c;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1230b3
+    sget v1, Lcom/resouce/module/ResSTRING;->template_upload_image_fail_tip:I
 
     const/4 v2, 0x0
 

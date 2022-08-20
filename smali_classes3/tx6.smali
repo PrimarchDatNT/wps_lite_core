@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e043e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_class_room_help:I
 
     const/4 v2, 0x0
 
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b33c2
+    sget v1, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,21 +108,21 @@
 
     check-cast v1, Landroidx/viewpager/widget/ViewPager;
 
-    const v2, 0x7f0b0d8e
+    sget v2, Lcom/resouce/module/ResID;->firstDot:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2ac6
+    sget v3, Lcom/resouce/module/ResID;->secondDot:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b30e6
+    sget v4, Lcom/resouce/module/ResID;->tvDesc:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

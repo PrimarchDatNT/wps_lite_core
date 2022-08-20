@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:layout_width="@dimen/phone_writer_infoflow_template_card_width" android:layout_height="@dimen/phone_writer_infoflow_template_card_height" />
-    <TextView android:textSize="11.0dip" android:textColor="#ff6d6c6c" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="17.0dip" android:singleLine="true" />
-</LinearLayout>

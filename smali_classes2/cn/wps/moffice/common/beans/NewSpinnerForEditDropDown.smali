@@ -79,12 +79,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f081205
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0818bf
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_dropdown_btn_default_selector:I
 
     :goto_0
     invoke-virtual {p0, p1}, Landroid/widget/Button;->setBackgroundResource(I)V
@@ -140,12 +140,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081205
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0818c0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_dropdown_btn_default_selector2:I
 
     :goto_0
     return v0
@@ -379,7 +379,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f130783
+    sget p1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_below_anim_style:I
 
     .line 8
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/NewDropDownButton;->setDropDownAnimationStyle(I)V
@@ -388,7 +388,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f130782
+    sget p1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     .line 9
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/NewDropDownButton;->setDropDownAnimationStyle(I)V

@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v3, 0x0
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b254e
+    sget v1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object v1, p0, Lbj4;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
     .line 11
     iget-object v1, p0, Lbj4;->b:Lhd3;
 
-    const v2, 0x7f120d3d
+    sget v2, Lcom/resouce/module/ResSTRING;->file_merge_check_file_permission:I
 
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -170,7 +170,7 @@
     .line 15
     iget-object p1, p0, Lbj4;->b:Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p2, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -217,7 +217,7 @@
     .line 6
     iget-object p3, p0, Lbj4;->g:Lhd3;
 
-    const v0, 0x7f12185e
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_unsupport_dialog_tips:I
 
     invoke-virtual {p3, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -227,7 +227,7 @@
     :cond_0
     iget-object p3, p0, Lbj4;->g:Lhd3;
 
-    const v0, 0x7f120d42
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_fail_dialog_tips:I
 
     invoke-virtual {p3, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -235,14 +235,14 @@
     :goto_0
     iget-object p3, p0, Lbj4;->g:Lhd3;
 
-    const v0, 0x7f1223d6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {p3, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 9
     iget-object p1, p0, Lbj4;->g:Lhd3;
 
-    const p3, 0x7f122bad
+    sget p3, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     invoke-virtual {p1, p3, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -298,22 +298,22 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1219ad
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_detect_empty_sheet_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1219ac
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_detect_empty_sheet_describe:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f1219b8
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_not_filter_empty_sheet:I
 
     .line 4
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f1219b0
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_filter_empty_sheet:I
 
     .line 5
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -375,7 +375,7 @@
     .line 6
     iget-object p3, p0, Lbj4;->f:Lhd3;
 
-    const v0, 0x7f121859
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_password_dialog_tips:I
 
     invoke-virtual {p3, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -385,7 +385,7 @@
     :cond_0
     iget-object p3, p0, Lbj4;->f:Lhd3;
 
-    const v0, 0x7f120d4c
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_password_dialog_tips:I
 
     invoke-virtual {p3, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -393,14 +393,14 @@
     :goto_0
     iget-object p3, p0, Lbj4;->f:Lhd3;
 
-    const v0, 0x7f1223d6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {p3, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 9
     iget-object p1, p0, Lbj4;->f:Lhd3;
 
-    const p3, 0x7f122bad
+    sget p3, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     const-string v0, "#3692F5"
 
@@ -524,7 +524,7 @@
     .line 6
     iget-object p4, p0, Lbj4;->e:Lhd3;
 
-    const v0, 0x7f12185e
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_unsupport_dialog_tips:I
 
     invoke-virtual {p4, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -534,7 +534,7 @@
     :cond_0
     iget-object p4, p0, Lbj4;->e:Lhd3;
 
-    const v0, 0x7f120d52
+    sget v0, Lcom/resouce/module/ResSTRING;->file_merge_unsupport_dialog_tips:I
 
     invoke-virtual {p4, v0}, Lhd3;->setMessage(I)Lhd3;
 
@@ -542,21 +542,21 @@
     :goto_0
     iget-object p4, p0, Lbj4;->e:Lhd3;
 
-    const v0, 0x7f1223d6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {p4, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 9
     iget-object p1, p0, Lbj4;->e:Lhd3;
 
-    const p4, 0x7f122bad
+    sget p4, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     invoke-virtual {p1, p4, p2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 10
     iget-object p1, p0, Lbj4;->e:Lhd3;
 
-    const p2, 0x7f1229fe
+    sget p2, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     invoke-virtual {p1, p2, p3}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

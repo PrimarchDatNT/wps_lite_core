@@ -30,12 +30,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -119,7 +119,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0707bc
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -192,7 +192,7 @@
 .method public V2(Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;)V
     .locals 4
 
-    const v0, 0x7f0b0f3e
+    sget v0, Lcom/resouce/module/ResID;->grid:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -215,9 +215,9 @@
 
     invoke-direct {v1, p0}, Lzab$a;-><init>(Lzab;)V
 
-    const v2, 0x7f121976
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_friend:I
 
-    const v3, 0x7f0818b6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_weixin:I
 
     invoke-direct {v0, v2, v3, v1}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -230,9 +230,9 @@
 
     invoke-direct {v1, p0}, Lzab$b;-><init>(Lzab;)V
 
-    const v2, 0x7f121977
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_moment:I
 
-    const v3, 0x7f081069
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_moment:I
 
     invoke-direct {v0, v2, v3, v1}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -245,9 +245,9 @@
 
     invoke-direct {v1, p0}, Lzab$c;-><init>(Lzab;)V
 
-    const v2, 0x7f1212e5
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
-    const v3, 0x7f0818b2
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_qq:I
 
     invoke-direct {v0, v2, v3, v1}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -275,7 +275,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ccd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_linkshare_webtips_layout:I
 
     const/4 v1, 0x0
 
@@ -338,7 +338,7 @@
 
     check-cast v1, Lrf3;
 
-    const v2, 0x7f0e0bc7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_item:I
 
     const/4 v3, 0x0
 
@@ -349,7 +349,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b1261
+    sget v3, Lcom/resouce/module/ResID;->image:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -358,7 +358,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2ee9
+    sget v4, Lcom/resouce/module/ResID;->text:I
 
     .line 6
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

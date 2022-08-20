@@ -94,7 +94,7 @@
     if-eqz v1, :cond_2
 
     :cond_0
-    const v1, 0x7f120024
+    sget v1, Lcom/resouce/module/ResSTRING;->TableDragFailedException:I
 
     .line 5
     invoke-static {v1, v0}, Lsjf;->h(II)V
@@ -324,7 +324,7 @@
     goto/16 :goto_0
 
     :catch_1
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 26
     :try_start_4
@@ -359,7 +359,7 @@
     goto :goto_0
 
     :catch_2
-    const v1, 0x7f120014
+    sget v1, Lcom/resouce/module/ResSTRING;->InvalidPasteException:I
 
     .line 31
     :try_start_5
@@ -394,7 +394,7 @@
     goto :goto_0
 
     :catch_3
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 36
     :try_start_6

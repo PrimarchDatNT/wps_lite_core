@@ -1702,7 +1702,7 @@
     .line 10
     iget-object v3, p0, Lewf;->c:Landroid/content/res/Resources;
 
-    const v4, 0x7f122fcf
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_func_params_prompt_col:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2043,7 +2043,7 @@
     .line 18
     iget-object v3, p0, Lewf;->c:Landroid/content/res/Resources;
 
-    const v4, 0x7f122fce
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_func_params_prompt_cell:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2143,7 +2143,7 @@
     .line 23
     iget-object v3, p0, Lewf;->c:Landroid/content/res/Resources;
 
-    const v4, 0x7f122fcd
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_func_params_prompt_area:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2277,7 +2277,7 @@
     .line 11
     iget-object v0, p0, Lewf;->c:Landroid/content/res/Resources;
 
-    const v1, 0x7f122fcf
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_func_params_prompt_col:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2315,7 +2315,7 @@
     .line 16
     iget-object v0, p0, Lewf;->c:Landroid/content/res/Resources;
 
-    const v1, 0x7f122fd0
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_func_params_prompt_row:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

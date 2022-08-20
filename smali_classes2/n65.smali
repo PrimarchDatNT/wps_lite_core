@@ -24,7 +24,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122a62
+    sget v0, Lcom/resouce/module/ResSTRING;->public_tag:I
 
     return v0
 .end method

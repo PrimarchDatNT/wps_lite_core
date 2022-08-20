@@ -47,7 +47,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f122472
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_sms_frequency_too_fast:I
 
     if-eqz v0, :cond_0
 
@@ -110,7 +110,7 @@
 
     iget-object v0, v0, Lhy7;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f122916
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_success:I
 
     const/4 v2, 0x0
 

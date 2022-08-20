@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c25
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_premium_top_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226ab
+    sget v1, Lcom/resouce/module/ResSTRING;->public_premium_top_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
 
     move-result p0
 
-    const v5, 0x7f0605c4
+    sget v5, Lcom/resouce/module/ResCOLOR;->quickpay_bottom_desc_def:I
 
     const/4 v6, 0x1
 
@@ -228,11 +228,11 @@
     const/4 v4, 0x0
 
     :goto_0
-    const v5, 0x7f0606e6
+    sget v5, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
-    const v6, 0x7f0606e2
+    sget v6, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
-    const v7, 0x7f081b0e
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_premium_orange_button:I
 
     if-ge v2, v0, :cond_2
 
@@ -310,7 +310,7 @@
     :cond_0
     iget-object v4, v8, Lst4;->c:Landroid/view/View;
 
-    const v5, 0x7f081b09
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_gray_button:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -321,7 +321,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -336,7 +336,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 

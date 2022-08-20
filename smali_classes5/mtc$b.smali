@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b020f
+    sget v0, Lcom/resouce/module/ResID;->bg_light_prink_item:I
 
     if-ne p1, v0, :cond_0
 
@@ -58,7 +58,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b0215
+    sget v0, Lcom/resouce/module/ResID;->bg_white_item:I
 
     if-ne p1, v0, :cond_1
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0207
+    sget v0, Lcom/resouce/module/ResID;->bg_cowhide_yellow_item:I
 
     if-ne p1, v0, :cond_2
 
@@ -94,7 +94,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0209
+    sget v0, Lcom/resouce/module/ResID;->bg_dark_brown_item:I
 
     if-ne p1, v0, :cond_3
 
@@ -112,7 +112,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0205
+    sget v0, Lcom/resouce/module/ResID;->bg_blue_green_item:I
 
     if-ne p1, v0, :cond_4
 
@@ -130,7 +130,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b020e
+    sget v0, Lcom/resouce/module/ResID;->bg_light_blue_item:I
 
     if-ne p1, v0, :cond_5
 
@@ -148,7 +148,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b020a
+    sget v0, Lcom/resouce/module/ResID;->bg_eye_protection_green_item:I
 
     if-ne p1, v0, :cond_6
 
@@ -166,7 +166,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b0208
+    sget v0, Lcom/resouce/module/ResID;->bg_dark_blue_item:I
 
     if-ne p1, v0, :cond_7
 

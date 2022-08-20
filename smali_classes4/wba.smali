@@ -106,7 +106,7 @@
     .line 4
     iget-object v0, p0, Lwba;->v:Lhd3;
 
-    const v1, 0x7f1206a6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sort_type:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -124,7 +124,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e075d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_sort_layout:I
 
     const/4 v3, 0x0
 
@@ -134,7 +134,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2c72
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_layout:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
 
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2c76
+    sget v2, Lcom/resouce/module/ResID;->sortby_time_layout:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2c73
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_radio:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b2c77
+    sget v3, Lcom/resouce/module/ResID;->sortby_time_radio:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 .method public final R(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1160
+    sget v0, Lcom/resouce/module/ResID;->home_scf_top_bar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b115f
+    sget v1, Lcom/resouce/module/ResID;->home_scf_select_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b115c
+    sget v1, Lcom/resouce/module/ResID;->home_scf_exit_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120642
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_location_from:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -478,7 +478,7 @@
 .method public n()I
     .locals 1
 
-    const v0, 0x7f0e0756
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_scf_tab_layout:I
 
     return v0
 .end method
@@ -500,7 +500,7 @@
 
     invoke-direct {v0, p0, v1}, Lwba$b;-><init>(Lwba;Lwba$a;)V
 
-    const v1, 0x7f0b1159
+    sget v1, Lcom/resouce/module/ResID;->home_scf_back:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -509,7 +509,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2a1e
+    sget v0, Lcom/resouce/module/ResID;->scf_bottom_bar_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -518,7 +518,7 @@
 
     iput-object v0, p0, Lwba;->s:Landroid/view/View;
 
-    const v0, 0x7f0b1163
+    sget v0, Lcom/resouce/module/ResID;->home_scf_top_bar_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -529,7 +529,7 @@
 
     iput-object v0, p0, Lwba;->x:Landroid/widget/TextView;
 
-    const v0, 0x7f0b115d
+    sget v0, Lcom/resouce/module/ResID;->home_scf_more_btn:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b115e
+    sget v1, Lcom/resouce/module/ResID;->home_scf_multidocument_btn:I
 
     if-eqz v0, :cond_0
 

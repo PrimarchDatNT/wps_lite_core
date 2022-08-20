@@ -262,7 +262,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b2dd7    # 1.850007E38f
+    sget v0, Lcom/resouce/module/ResID;->subject_view:I    # 1.850007E38f
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -349,14 +349,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fb1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_subject_section:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2dd4    # 1.8500064E38f
+    sget v1, Lcom/resouce/module/ResID;->subject_layout:I    # 1.8500064E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -369,7 +369,7 @@
     .line 3
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2dd5    # 1.8500066E38f
+    sget v1, Lcom/resouce/module/ResID;->subject_scrollview:I    # 1.8500066E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070327
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -401,7 +401,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070325
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -416,7 +416,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703a2
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -431,7 +431,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070326
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_shrink_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -524,7 +524,7 @@
 
     iget-object v2, p0, Llfe;->a0:Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0e0f8f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->subject_view:I
 
     const/4 v4, 0x0
 
@@ -532,7 +532,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2dd0    # 1.8500056E38f
+    sget v2, Lcom/resouce/module/ResID;->subject_icon:I    # 1.8500056E38f
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v3, 0x7f0b2dd7    # 1.850007E38f
+    sget v3, Lcom/resouce/module/ResID;->subject_view:I    # 1.850007E38f
 
     .line 4
     invoke-virtual {v2, v3, p1}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V
@@ -553,7 +553,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0703a3
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -571,7 +571,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -593,7 +593,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0809e2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     invoke-virtual {p1, v0}, Ljge;->e(I)Ljge;
 

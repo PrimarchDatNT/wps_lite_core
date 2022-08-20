@@ -59,7 +59,7 @@
     .line 1
     iget-object v0, p0, Lx68;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222ea
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_max_space_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -133,7 +133,7 @@
     .line 2
     iget-object v0, p0, Lx68;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1222ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_space_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -163,9 +163,9 @@
 
     invoke-direct {v8, p0}, Lx68$c;-><init>(Lx68;)V
 
-    const v5, 0x7f120e94
+    sget v5, Lcom/resouce/module/ResSTRING;->home_clouddocs_buy_membership:I
 
-    const v6, 0x7f060207
+    sget v6, Lcom/resouce/module/ResCOLOR;->home_pay_orange:I
 
     invoke-static/range {v3 .. v8}, Lt68;->b(Landroid/content/Context;Ljava/lang/String;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnDismissListener;)V
 
@@ -185,7 +185,7 @@
     .line 2
     iget-object v0, p0, Lx68;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1222e4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_document_max_filesize:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222ef
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_upload_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -286,9 +286,9 @@
 
     invoke-direct {v7, p0}, Lx68$a;-><init>(Lx68;)V
 
-    const v4, 0x7f122b5e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_upload:I
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-static/range {v2 .. v7}, Lt68;->b(Landroid/content/Context;Ljava/lang/String;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnDismissListener;)V
 
@@ -310,7 +310,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222e5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_error_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -366,7 +366,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222e3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_document_filesize:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -413,9 +413,9 @@
 
     invoke-direct {v8, p0}, Lx68$k;-><init>(Lx68;)V
 
-    const v5, 0x7f120e94
+    sget v5, Lcom/resouce/module/ResSTRING;->home_clouddocs_buy_membership:I
 
-    const v6, 0x7f060207
+    sget v6, Lcom/resouce/module/ResCOLOR;->home_pay_orange:I
 
     invoke-static/range {v3 .. v8}, Lt68;->b(Landroid/content/Context;Ljava/lang/String;IILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnDismissListener;)V
 

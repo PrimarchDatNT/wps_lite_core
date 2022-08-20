@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bbc
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_local_history_version_layout:I
 
     const/4 v0, 0x0
 
@@ -51,7 +51,7 @@
 
     iput-object p1, p0, Lnj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b083e
+    sget p2, Lcom/resouce/module/ResID;->edit_status_text:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
     .line 6
     iget-object p1, p0, Lnj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b0841
+    sget p2, Lcom/resouce/module/ResID;->edit_time_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -78,7 +78,7 @@
     .line 7
     iget-object p1, p0, Lnj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1b25
+    sget p2, Lcom/resouce/module/ResID;->open_history_version_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
     .line 8
     iget-object p1, p0, Lnj9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b173a
+    sget p2, Lcom/resouce/module/ResID;->local_history_upload_now:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

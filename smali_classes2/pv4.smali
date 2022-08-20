@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -173,7 +173,7 @@
     .line 4
     iget-object v1, p0, Lpv4;->b0:Lfv4;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lpv4$e;
 
@@ -183,7 +183,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v3, Lpv4$d;
 
@@ -423,12 +423,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122719
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_two_side:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122715
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_single_side:I
 
     .line 3
     :goto_0
@@ -452,12 +452,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f1226bc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_colorful:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f1226d1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_gray:I
 
     .line 6
     :goto_1
@@ -488,7 +488,7 @@
     .line 9
     iget-object v1, p0, Lpv4;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1226e9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_page_layout:I
 
     const/4 v3, 0x1
 
@@ -592,7 +592,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b02f6
+    sget v1, Lcom/resouce/module/ResID;->btn_preview:I
 
     if-ne v0, v1, :cond_0
 
@@ -607,7 +607,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b02f7
+    sget v1, Lcom/resouce/module/ResID;->btn_print:I
 
     if-ne v0, v1, :cond_1
 
@@ -622,7 +622,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0b2c24
+    sget p1, Lcom/resouce/module/ResID;->siv_print_option:I
 
     if-ne v0, p1, :cond_2
 
@@ -637,7 +637,7 @@
 .method public p(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b316a
+    sget v0, Lcom/resouce/module/ResID;->tv_filename:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -648,7 +648,7 @@
 
     iput-object v0, p0, Lpv4;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b147a
+    sget v0, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -659,7 +659,7 @@
 
     iput-object v0, p0, Lpv4;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b324b
+    sget v0, Lcom/resouce/module/ResID;->tv_select_file:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -670,7 +670,7 @@
 
     iput-object v0, p0, Lpv4;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2c25
+    sget v0, Lcom/resouce/module/ResID;->siv_printer:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -681,7 +681,7 @@
 
     iput-object v0, p0, Lpv4;->U:Lcn/wps/moffice/common/print/SettingItemView;
 
-    const v0, 0x7f0b2c23
+    sget v0, Lcom/resouce/module/ResID;->siv_print_num:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
 
     iput-object v0, p0, Lpv4;->V:Lcn/wps/moffice/common/print/SettingItemView;
 
-    const v0, 0x7f0b02f7
+    sget v0, Lcom/resouce/module/ResID;->btn_print:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -703,7 +703,7 @@
 
     iput-object v0, p0, Lpv4;->X:Landroid/widget/Button;
 
-    const v0, 0x7f0b02f6
+    sget v0, Lcom/resouce/module/ResID;->btn_preview:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -714,7 +714,7 @@
 
     iput-object v0, p0, Lpv4;->Y:Landroid/widget/Button;
 
-    const v0, 0x7f0b2c24
+    sget v0, Lcom/resouce/module/ResID;->siv_print_option:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -781,7 +781,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f1226e1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_number_unit:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1016,7 +1016,7 @@
 
     iget-object v0, p0, Lpv4;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122704
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_scan_empty_printer_tip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

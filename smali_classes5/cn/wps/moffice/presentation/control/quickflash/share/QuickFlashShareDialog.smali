@@ -48,12 +48,12 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/io/File;)V
     .locals 1
 
-    const v0, 0x7f130133
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Dark_Background:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const v0, 0x7f122cb1
+    sget v0, Lcom/resouce/module/ResSTRING;->quick_flash_record_finish:I
 
     .line 2
     iput v0, p0, Lcn/wps/moffice/presentation/control/quickflash/share/QuickFlashShareDialog;->mMessageId:I
@@ -167,7 +167,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1427
+    sget v1, Lcom/resouce/module/ResID;->iv_close:I
 
     if-ne v0, v1, :cond_1
 
@@ -203,7 +203,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b3042
+    sget v1, Lcom/resouce/module/ResID;->tiv_save_local:I
 
     const/4 v2, 0x1
 
@@ -212,7 +212,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/quickflash/share/QuickFlashShareDialog;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122cb6
+    sget v0, Lcom/resouce/module/ResSTRING;->quick_flash_record_save_succ:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -236,9 +236,9 @@
 
     move-result v0
 
-    const v1, 0x7f0b3043
+    sget v1, Lcom/resouce/module/ResID;->tiv_whatsapp:I
 
-    const v3, 0x7f121bcd
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_record_vedio_pre_share_error:I
 
     const-wide/32 v4, 0x1000000
 
@@ -291,7 +291,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b3041
+    sget v1, Lcom/resouce/module/ResID;->tiv_line:I
 
     if-ne v0, v1, :cond_6
 
@@ -340,7 +340,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b303f
+    sget v1, Lcom/resouce/module/ResID;->tiv_instagram:I
 
     if-ne v0, v1, :cond_7
 
@@ -367,7 +367,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b303e
+    sget v0, Lcom/resouce/module/ResID;->tiv_facebook:I
 
     if-ne p1, v0, :cond_9
 
@@ -432,7 +432,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/quickflash/share/QuickFlashShareDialog;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f0e0ac6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_quickflash_share:I
 
     const/4 v1, 0x0
 
@@ -443,7 +443,7 @@
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1427
+    sget v0, Lcom/resouce/module/ResID;->iv_close:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3042
+    sget v0, Lcom/resouce/module/ResID;->tiv_save_local:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3043
+    sget v0, Lcom/resouce/module/ResID;->tiv_whatsapp:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -470,7 +470,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3041
+    sget v0, Lcom/resouce/module/ResID;->tiv_line:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -479,7 +479,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b303f
+    sget v0, Lcom/resouce/module/ResID;->tiv_instagram:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b303e
+    sget v0, Lcom/resouce/module/ResID;->tiv_facebook:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -497,7 +497,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b31d6
+    sget v0, Lcom/resouce/module/ResID;->tv_message:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

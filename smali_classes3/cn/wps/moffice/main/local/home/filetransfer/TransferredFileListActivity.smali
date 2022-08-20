@@ -281,7 +281,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b053b
+    sget v0, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {p0, v0}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -417,7 +417,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b053b
+    sget v0, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {p0, v0}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -951,7 +951,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122535
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v0, 0x0
 
@@ -1245,7 +1245,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     .line 9
     invoke-virtual {v0, v1, p1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -1272,7 +1272,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_title_loading_action_layout:I
 
     const/4 v2, 0x0
 
@@ -1280,7 +1280,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2880
+    sget v1, Lcom/resouce/module/ResID;->refresh_loading_progress:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1303,7 +1303,7 @@
     .line 4
     invoke-virtual {v1, v2}, Landroid/graphics/drawable/RotateDrawable;->setToDegrees(F)V
 
-    const v1, 0x7f0b1729
+    sget v1, Lcom/resouce/module/ResID;->loading_layout:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->setId(I)V
@@ -1548,7 +1548,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->I:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -1572,7 +1572,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->I:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -1599,7 +1599,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->I:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -1632,7 +1632,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e93
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_transfer_file_list_activity:I
 
     const/4 v2, 0x0
 
@@ -1652,7 +1652,7 @@
 .method public getViewTitle()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f122b03
+    sget v0, Lcom/resouce/module/ResSTRING;->public_transfer_record:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1694,7 +1694,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0818e4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_expand_toggle_large_icon:I
 
     invoke-virtual {v0, v1, v1, v2, v1}, Landroid/widget/TextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
@@ -1726,7 +1726,7 @@
 .method public final initViews()V
     .locals 4
 
-    const v0, 0x7f0b08ba
+    sget v0, Lcom/resouce/module/ResID;->error_page_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1735,7 +1735,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->S:Landroid/view/View;
 
-    const v0, 0x7f0b172a
+    sget v0, Lcom/resouce/module/ResID;->loading_page_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1758,7 +1758,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b09
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_scan_web:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSecondText(I)V
 
@@ -1834,7 +1834,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2599
+    sget v1, Lcom/resouce/module/ResID;->public_common_error_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1874,7 +1874,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->I:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -1927,7 +1927,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/TransferredFileListActivity;->I:Landroid/app/FragmentManager;
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 

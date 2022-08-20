@@ -30,13 +30,13 @@
 
     move-result p1
 
-    const v0, 0x7f0e06e3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my:I
 
-    const v1, 0x7f0e0524
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_activity_layout_my:I
 
-    const v2, 0x7f0e06e5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas_b:I
 
-    const v3, 0x7f0e06e4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas:I
 
     if-eqz p1, :cond_1
 
@@ -49,12 +49,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e06e3
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0524
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_home_activity_layout_my:I
 
     goto :goto_0
 
@@ -66,12 +66,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0e06e5
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas_b:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0e06e4
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas:I
 
     .line 6
     :goto_0
@@ -102,12 +102,12 @@
 
     if-eqz p1, :cond_3
 
-    const v0, 0x7f0e06e5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas_b:I
 
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0e06e4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_activity_layout_my_overseas:I
 
     goto :goto_1
 
@@ -124,7 +124,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0e0524
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_activity_layout_my:I
 
     goto :goto_1
 
@@ -171,7 +171,7 @@
     :goto_2
     iget-object p1, p0, Lsl9;->a:Landroid/view/View;
 
-    const p2, 0x7f0b252a
+    sget p2, Lcom/resouce/module/ResID;->privilege_icon_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

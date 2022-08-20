@@ -58,12 +58,12 @@
 
     if-eqz p2, :cond_0
 
-    const v0, 0x7f13013f
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Half_Screen_Bottom_In_Out_With_Floating:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     :goto_0
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0cd4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_login_bind_phone_king_float_half_dialog:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -238,7 +238,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b2df2
+    sget v3, Lcom/resouce/module/ResID;->sv_king_auto_container:I
 
     aput v3, v0, v2
 
@@ -274,7 +274,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0cd3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_login_bind_phone_king_float_dialog:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -388,7 +388,7 @@
     .line 3
     iget-object p2, p0, Lcy7;->U:Landroid/app/Activity;
 
-    const v1, 0x7f121da3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     const/4 v2, 0x0
 
@@ -477,7 +477,7 @@
     .line 1
     invoke-virtual {p0}, Lcy7;->b3()V
 
-    const v0, 0x7f0b01ac
+    sget v0, Lcom/resouce/module/ResID;->avatarImageView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
 
     iput-object v0, p0, Lcy7;->I:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v0, 0x7f0b2c34
+    sget v0, Lcom/resouce/module/ResID;->skipTextView:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -499,7 +499,7 @@
 
     iput-object v0, p0, Lcy7;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -508,7 +508,7 @@
 
     iput-object v0, p0, Lcy7;->T:Landroid/view/View;
 
-    const v0, 0x7f0b1b08
+    sget v0, Lcom/resouce/module/ResID;->one_login_number_tv:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
 
     iput-object v0, p0, Lcy7;->Z:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1b0b
+    sget v0, Lcom/resouce/module/ResID;->one_login_type_tv:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -530,7 +530,7 @@
 
     iput-object v0, p0, Lcy7;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1b0a
+    sget v0, Lcom/resouce/module/ResID;->one_login_submit_tv:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 
     iput-object v0, p0, Lcy7;->b0:Landroid/widget/Button;
 
-    const v0, 0x7f0b1b09
+    sget v0, Lcom/resouce/module/ResID;->one_login_submit_other:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
 
     iput-object v0, p0, Lcy7;->c0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     iput-object v0, p0, Lcy7;->f0:Landroid/view/View;
 
-    const v0, 0x7f0b00da
+    sget v0, Lcom/resouce/module/ResID;->agreementTextView:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -572,7 +572,7 @@
 
     iput-object v0, p0, Lcy7;->h0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b00d9
+    sget v0, Lcom/resouce/module/ResID;->agreeCheckLayout:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -581,7 +581,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b00d8
+    sget v1, Lcom/resouce/module/ResID;->agreeCehckBox:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120216
+    sget v3, Lcom/resouce/module/ResSTRING;->bind_use_phone_regesiter_first_tips:I
 
     const/4 v4, 0x1
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120217
+    sget v3, Lcom/resouce/module/ResSTRING;->bind_use_phone_regesiter_second_tips:I
 
     new-array v5, v4, [Ljava/lang/Object;
 
@@ -748,7 +748,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120215
+    sget v3, Lcom/resouce/module/ResSTRING;->bind_use_phone_regesiter:I
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -788,7 +788,7 @@
 
     iget-object v1, p0, Lcy7;->h0:Landroid/widget/TextView;
 
-    const v2, 0x7f120209
+    sget v2, Lcom/resouce/module/ResSTRING;->bind_king_yun_phone_agreement_prefix:I
 
     iget-object v3, p0, Lcy7;->e0:Ljava/lang/String;
 
@@ -889,7 +889,7 @@
 
     const-string v2, "login_page_click_item"
 
-    const v3, 0x7f0b1b0a
+    sget v3, Lcom/resouce/module/ResID;->one_login_submit_tv:I
 
     if-ne v0, v3, :cond_1
 
@@ -987,7 +987,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b2c34
+    sget v3, Lcom/resouce/module/ResID;->skipTextView:I
 
     if-ne v0, v3, :cond_2
 
@@ -1010,7 +1010,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b0444
+    sget v3, Lcom/resouce/module/ResID;->closeImageView:I
 
     if-ne v0, v3, :cond_3
 
@@ -1025,7 +1025,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b1b09
+    sget v3, Lcom/resouce/module/ResID;->one_login_submit_other:I
 
     if-ne v0, v3, :cond_4
 
@@ -1051,7 +1051,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b00da
+    sget v0, Lcom/resouce/module/ResID;->agreementTextView:I
 
     if-ne p1, v0, :cond_5
 

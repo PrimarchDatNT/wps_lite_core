@@ -135,12 +135,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e056e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_record_list_footer:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0746
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_roaming_record_list_footer:I
 
     goto :goto_0
 
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Lsf8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e70
+    sget v1, Lcom/resouce/module/ResID;->footer_progressbar:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
     .line 6
     iget-object v0, p0, Lsf8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e6f
+    sget v1, Lcom/resouce/module/ResID;->footer_no_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

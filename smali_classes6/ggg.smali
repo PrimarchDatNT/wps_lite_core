@@ -269,7 +269,7 @@
     return p1
 
     :cond_0
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v0, 0x0
 

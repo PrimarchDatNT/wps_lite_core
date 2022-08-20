@@ -619,7 +619,7 @@
 
     iget-object v1, p0, Lst7;->c:Landroid/content/Context;
 
-    const v2, 0x7f1220f6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_download:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

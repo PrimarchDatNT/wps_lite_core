@@ -472,7 +472,7 @@
     .line 2
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x0
 
@@ -578,7 +578,7 @@
 
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1204c8
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_net_fail:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -589,7 +589,7 @@
     :cond_0
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1214c4
+    sget v1, Lcom/resouce/module/ResSTRING;->ocr_pic2text_network_error:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -806,7 +806,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask$c;-><init>(Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -829,7 +829,7 @@
     .line 1
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -838,7 +838,7 @@
 
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -865,7 +865,7 @@
     .line 1
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1206aa
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_storage_livespace_uploadingmsg_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -974,7 +974,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask;->h:Lkd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask$b;
 

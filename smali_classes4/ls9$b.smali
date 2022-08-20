@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b0ec3
+    sget v0, Lcom/resouce/module/ResID;->function_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -65,7 +65,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TextImageView;->setRedIconBorderColor(I)V
 
-    const v0, 0x7f0b0589
+    sget v0, Lcom/resouce/module/ResID;->corner_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p0, Lls9$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15b1
+    sget v0, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object v0, p0, Lls9$b;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31b3
+    sget v0, Lcom/resouce/module/ResID;->tv_inapp:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v0, p0, Lls9$b;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b33d9
+    sget v0, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

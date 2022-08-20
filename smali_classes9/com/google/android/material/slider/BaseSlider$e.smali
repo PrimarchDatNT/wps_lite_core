@@ -514,7 +514,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121398
+    sget v0, Lcom/resouce/module/ResSTRING;->material_slider_range_end:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -532,7 +532,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121399
+    sget v0, Lcom/resouce/module/ResSTRING;->material_slider_range_start:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

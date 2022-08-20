@@ -166,7 +166,7 @@
 .method public constructor <init>(Landroid/app/Activity;Landroid/view/ViewGroup;Lsf4;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -542,7 +542,7 @@
 
     const/4 v9, 0x0
 
-    const v10, 0x7f122743
+    sget v10, Lcom/resouce/module/ResSTRING;->public_publish_period:I
 
     move-object v0, p1
 
@@ -1357,7 +1357,7 @@
     .line 2
     iget-object v0, p0, Lef4;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122535
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v2, 0x0
 
@@ -1602,7 +1602,7 @@
     .line 17
     iget-object v1, p0, Lef4;->o0:Landroid/widget/Button;
 
-    const v3, 0x7f121f91
+    sget v3, Lcom/resouce/module/ResSTRING;->public_create_and_share:I
 
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -1765,7 +1765,7 @@
 
     iget-object v2, p0, Lef4;->I:Landroid/app/Activity;
 
-    const v3, 0x7f1223f4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_link_permission_modify_deny:I
 
     const/4 v4, 0x1
 
@@ -2432,7 +2432,7 @@
     :cond_1
     iget-object v0, p0, Lef4;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1225c6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_other_share:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3059,7 +3059,7 @@
     :goto_0
     iget-object v0, p0, Lef4;->I:Landroid/app/Activity;
 
-    const v1, 0x7f121cd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_30_day:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3486,7 +3486,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ccb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_linkshare_modify_permission_fullscreen_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -3885,7 +3885,7 @@
 
     iput-object v1, p0, Lef4;->h0:Lgf4;
 
-    const v0, 0x7f122979
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_link_company_cooperation:I
 
     .line 14
     invoke-virtual {v1, v0}, Lgf4;->o(I)V
@@ -4463,7 +4463,7 @@
     .line 8
     iget-object v1, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b15e5
+    sget v3, Lcom/resouce/module/ResID;->link_modify_send_by_new_link:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5424,7 +5424,7 @@
     .line 10
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f1229a1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_to_qq:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -5470,7 +5470,7 @@
     .line 13
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f121973
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_dingding:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -5494,7 +5494,7 @@
 
     move-result v2
 
-    const v3, 0x7f1229a6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_to_wetchat:I
 
     if-eqz v2, :cond_2
 
@@ -5606,7 +5606,7 @@
     .line 22
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f122923
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_to_woa:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -5635,7 +5635,7 @@
     .line 24
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f12295d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -5645,7 +5645,7 @@
     :cond_5
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f1227cd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_receive_link_setting:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -5661,14 +5661,14 @@
     .line 27
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0e08e4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_share_new_exception_notice_panel_two_title_bar_layout:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->x(I)V
 
     .line 28
     iget-object v0, p0, Lef4;->j0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b155f
+    sget v1, Lcom/resouce/module/ResID;->layout_phone_public_share_new_exception_notice_outer:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -5695,7 +5695,7 @@
     .line 1
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b263d
+    sget v1, Lcom/resouce/module/ResID;->public_home_link_modify_activity_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5708,7 +5708,7 @@
     .line 2
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15cc
+    sget v1, Lcom/resouce/module/ResID;->link_modify_bold_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5719,7 +5719,7 @@
     .line 3
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15dd
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_edit:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5730,7 +5730,7 @@
     .line 4
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15de
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_read:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5741,7 +5741,7 @@
     .line 5
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15db
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_company_member_edit:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5752,7 +5752,7 @@
     .line 6
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15dc
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_company_member_read:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5763,7 +5763,7 @@
     .line 7
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15ca
+    sget v1, Lcom/resouce/module/ResID;->link_modify_add_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5774,7 +5774,7 @@
     .line 8
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15e4
+    sget v1, Lcom/resouce/module/ResID;->link_modify_send_by_local_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5785,7 +5785,7 @@
     .line 9
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15e2
+    sget v1, Lcom/resouce/module/ResID;->link_modify_send_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5798,7 +5798,7 @@
     .line 10
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15d4
+    sget v1, Lcom/resouce/module/ResID;->link_modify_deny:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5811,7 +5811,7 @@
     .line 11
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15e3
+    sget v1, Lcom/resouce/module/ResID;->link_modify_send_btn_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5824,7 +5824,7 @@
     .line 12
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15cd
+    sget v1, Lcom/resouce/module/ResID;->link_modify_choose_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5837,7 +5837,7 @@
     .line 13
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2b8f
+    sget v1, Lcom/resouce/module/ResID;->share_pic_setting_list_entrance_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5850,7 +5850,7 @@
     .line 14
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2551
+    sget v1, Lcom/resouce/module/ResID;->progress_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5861,7 +5861,7 @@
     .line 15
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b266e
+    sget v1, Lcom/resouce/module/ResID;->public_link_modify_more_permission:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5881,7 +5881,7 @@
     .line 17
     iget-object v0, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b137a
+    sget v1, Lcom/resouce/module/ResID;->invite_other_cooperation_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -5967,7 +5967,7 @@
     .line 31
     iget-object p1, p0, Lef4;->k0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b266f
+    sget v0, Lcom/resouce/module/ResID;->public_link_modify_permission_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -6696,7 +6696,7 @@
 
     iget-object v1, p0, Lef4;->I:Landroid/app/Activity;
 
-    const v2, 0x7f12295c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_decode_file_spec_access:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

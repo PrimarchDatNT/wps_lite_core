@@ -91,7 +91,7 @@
 
     iget-object v1, p0, Lt4f;->B:Landroid/app/Activity;
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -117,7 +117,7 @@
     .line 7
     iget-object v0, p0, Lu4f;->S:Lhd3;
 
-    const v2, 0x7f0600ab
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_translucent_dialog:I
 
     invoke-virtual {v0, v2}, Lhd3;->setBackground(I)V
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0683
+    sget v2, Lcom/resouce/module/ResLAYOUT;->personal_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b01ce
+    sget v2, Lcom/resouce/module/ResID;->backgroundImg:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b044f
+    sget v2, Lcom/resouce/module/ResID;->close_img:I
 
     .line 15
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

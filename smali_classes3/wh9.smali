@@ -232,12 +232,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012f
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -867,7 +867,7 @@
     :cond_0
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f1205b6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_history_delete_file:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1093,7 +1093,7 @@
 
     move-result v3
 
-    const v4, 0x7f121fba
+    sget v4, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     if-nez v3, :cond_4
 
@@ -1124,7 +1124,7 @@
     :goto_0
     iget-object v3, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v5, 0x7f120592
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_delete_record:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1142,7 +1142,7 @@
 
     invoke-virtual {v2, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f12058e
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_deleteRecord:I
 
     .line 19
     new-instance v1, Lwh9$e0;
@@ -1170,7 +1170,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0e0ca8
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_layout_delete_roaming_record_dialog:I
 
     invoke-virtual {v1, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1208,7 +1208,7 @@
     :cond_6
     invoke-virtual {v2, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v4, 0x7f0b2572
+    sget v4, Lcom/resouce/module/ResID;->public_cb_delete_document:I
 
     .line 27
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1222,7 +1222,7 @@
 
     invoke-virtual {v2, v4}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v4, 0x7f120577
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     .line 29
     new-instance v5, Lwh9$f0;
@@ -1248,7 +1248,7 @@
     .line 31
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f12200b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_document_draft_delete_title:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1256,12 +1256,12 @@
 
     invoke-virtual {v2, p1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const p1, 0x7f12200a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_document_draft_delete_msg:I
 
     .line 32
     invoke-virtual {v2, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 33
     new-instance v1, Lwh9$g0;
@@ -1290,7 +1290,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060059
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonMainColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1303,7 +1303,7 @@
     invoke-virtual {v2, v4, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :goto_2
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 37
     invoke-virtual {v2, p1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1405,9 +1405,9 @@
 
     move-result v0
 
-    const v1, 0x7f121949
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_foler_v2:I
 
-    const v2, 0x7f122190
+    sget v2, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     const/4 v3, 0x1
 
@@ -1455,7 +1455,7 @@
 
     move-result v0
 
-    const v5, 0x7f121227
+    sget v5, Lcom/resouce/module/ResSTRING;->home_wps_drive_auto_upload_folder_intro:I
 
     if-eqz v0, :cond_2
 
@@ -1521,7 +1521,7 @@
     .line 16
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f122c77
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpsdrive_sharewith_me_desc:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1550,7 +1550,7 @@
     .line 20
     iget-object p4, p2, Lbh8;->e:Lcn/wps/moffice/main/docsinfo/common/UploadData;
 
-    const v0, 0x7f122762
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_upload_tips:I
 
     if-eqz p4, :cond_6
 
@@ -1562,7 +1562,7 @@
 
     if-eqz p4, :cond_5
 
-    const v0, 0x7f12122d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     :cond_5
     invoke-virtual {v5, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1593,7 +1593,7 @@
     .line 26
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f122842
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_longpress_introduce:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1654,7 +1654,7 @@
     .line 32
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f121153
+    sget v0, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1734,7 +1734,7 @@
 
     move-result v0
 
-    const v5, 0x7f1228a8
+    sget v5, Lcom/resouce/module/ResSTRING;->public_secfolder_use_introduce:I
 
     if-eqz v0, :cond_e
 
@@ -1812,7 +1812,7 @@
     .line 53
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f1228c2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_overdue_desc:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1991,7 +1991,7 @@
     .line 73
     iget-object p4, p0, Lwh9;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f121d4c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_apptype_wps_form:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2057,7 +2057,7 @@
 
     if-eqz p4, :cond_21
 
-    const v0, 0x7f0b1bb7
+    sget v0, Lcom/resouce/module/ResID;->ovs_gray_divide_line:I
 
     .line 83
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2190,7 +2190,7 @@
     .line 99
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f1221a7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder_share_common_description:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2200,7 +2200,7 @@
     :cond_1c
     iget-object p4, p0, Lwh9;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f122c45
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_share_group_desc:I
 
     invoke-virtual {p4, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2366,7 +2366,7 @@
     .line 118
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const p3, 0x7f122bb1
+    sget p3, Lcom/resouce/module/ResSTRING;->public_vip_expired:I
 
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2416,7 +2416,7 @@
     .line 125
     iget-object p1, p0, Lwh9;->S:Landroid/widget/TextView;
 
-    const p3, 0x7f12277b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_quick_access_more_sub_title:I
 
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
 
@@ -2468,7 +2468,7 @@
     goto :goto_7
 
     :cond_28
-    const v1, 0x7f122190
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     .line 132
     :goto_7
@@ -2988,7 +2988,7 @@
     .line 2
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f121239
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -3007,7 +3007,7 @@
     .line 4
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -3146,7 +3146,7 @@
     :goto_2
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f120ef1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3263,7 +3263,7 @@
     .line 2
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f121236
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_copy_unable_to_support_cloudstorage:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -3282,7 +3282,7 @@
     .line 4
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -3380,12 +3380,12 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f122762
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_upload_tips:I
 
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f122002
+    sget v0, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_and_copy_upload_toast_uploading:I
 
     :goto_1
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
@@ -3922,7 +3922,7 @@
     .line 2
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2b83
+    sget v1, Lcom/resouce/module/ResID;->share_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3988,17 +3988,17 @@
 
     move-result v1
 
-    const v2, 0x7f0b3167
+    sget v2, Lcom/resouce/module/ResID;->tv_file:I
 
-    const v3, 0x7f0b165f
+    sget v3, Lcom/resouce/module/ResID;->ll_file_1:I
 
-    const v4, 0x7f0b31cc
+    sget v4, Lcom/resouce/module/ResID;->tv_link:I
 
-    const v5, 0x7f0b169c
+    sget v5, Lcom/resouce/module/ResID;->ll_link_1:I
 
-    const v6, 0x7f0b16e3
+    sget v6, Lcom/resouce/module/ResID;->ll_share_title1:I
 
-    const v7, 0x7f0b16e2
+    sget v7, Lcom/resouce/module/ResID;->ll_share_title:I
 
     const/16 v13, 0x8
 
@@ -4138,7 +4138,7 @@
     .line 23
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b1551
+    sget v1, Lcom/resouce/module/ResID;->layout_module_oversea:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4173,7 +4173,7 @@
     .line 28
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0f3e
+    sget v1, Lcom/resouce/module/ResID;->grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4231,7 +4231,7 @@
     .line 33
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b18e3
+    sget v1, Lcom/resouce/module/ResID;->more_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4357,7 +4357,7 @@
     .line 47
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2f03
+    sget v1, Lcom/resouce/module/ResID;->text_authority_1:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4367,7 +4367,7 @@
 
     iput-object v0, v9, Lwh9;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f1227cc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     .line 48
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -4387,13 +4387,13 @@
     .line 50
     iget-object v3, v9, Lwh9;->f0:Landroid/view/View;
 
-    const v4, 0x7f081c0d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v5, 0x7f081bf9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v7, 0x7f060626
+    sget v7, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const/4 v8, 0x2
 
@@ -4411,13 +4411,13 @@
     .line 51
     iget-object v3, v9, Lwh9;->h0:Landroid/view/View;
 
-    const v4, 0x7f081bf9
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v5, 0x7f081c0d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v7, 0x7f0600ea
+    sget v7, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     const/4 v8, 0x1
 
@@ -4542,7 +4542,7 @@
     .line 66
     iget-object v0, v9, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b1640
+    sget v1, Lcom/resouce/module/ResID;->ll_authority_1:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4630,13 +4630,13 @@
     .line 78
     iget-object v3, v9, Lwh9;->f0:Landroid/view/View;
 
-    const v4, 0x7f081c0d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v5, 0x7f081bf9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v7, 0x7f060626
+    sget v7, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const/4 v8, 0x2
 
@@ -4654,13 +4654,13 @@
     .line 79
     iget-object v3, v9, Lwh9;->h0:Landroid/view/View;
 
-    const v4, 0x7f081bf9
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v5, 0x7f081c0d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v7, 0x7f0600ea
+    sget v7, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     const/4 v8, 0x1
 
@@ -4696,13 +4696,13 @@
     .line 83
     iget-object v3, v9, Lwh9;->f0:Landroid/view/View;
 
-    const v4, 0x7f081c0d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v5, 0x7f081bf9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v7, 0x7f060626
+    sget v7, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const/4 v8, 0x2
 
@@ -4738,13 +4738,13 @@
     .line 87
     iget-object v3, v9, Lwh9;->h0:Landroid/view/View;
 
-    const v4, 0x7f081bf9
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v5, 0x7f081c0d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v7, 0x7f0600ea
+    sget v7, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     const/4 v8, 0x1
 
@@ -4779,7 +4779,7 @@
     .line 2
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v2, 0x7f0b33e7
+    sget v2, Lcom/resouce/module/ResID;->vs_more_app_rec:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4875,7 +4875,7 @@
     .line 2
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b6
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_file_type:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4960,7 +4960,7 @@
 
     invoke-direct {v11}, Ljava/util/ArrayList;-><init>()V
 
-    const v0, 0x7f122965
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     .line 4
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4969,7 +4969,7 @@
 
     invoke-virtual {v8, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f122c05
+    sget v0, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     .line 5
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4978,7 +4978,7 @@
 
     invoke-virtual {v8, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v12, 0x7f1205f4
+    sget v12, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
     .line 6
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -4987,7 +4987,7 @@
 
     invoke-virtual {v8, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v13, 0x7f1224d9
+    sget v13, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 7
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -5122,11 +5122,11 @@
     const/4 v3, 0x0
 
     :goto_1
-    const v16, 0x7f1224c5
+    sget v16, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
-    const v17, 0x7f121138
+    sget v17, Lcom/resouce/module/ResSTRING;->home_scf_folder_hangouts:I
 
-    const v18, 0x7f1223dd
+    sget v18, Lcom/resouce/module/ResSTRING;->public_line:I
 
     const-string v13, "com.facebook.orca"
 
@@ -5318,7 +5318,7 @@
 
     move-result v1
 
-    const v4, 0x7f1212e6
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     const-string v3, "share.pc"
 
@@ -5764,7 +5764,7 @@
 
     move-object/from16 v15, v25
 
-    const v4, 0x7f1212e6
+    sget v4, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     goto/16 :goto_8
 
@@ -5931,7 +5931,7 @@
     .line 102
     iget-object v0, v9, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f1212e6
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5942,7 +5942,7 @@
     .line 103
     iget-object v0, v9, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f1205f4
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5957,7 +5957,7 @@
 
     iget-object v1, v9, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 105
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -5999,7 +5999,7 @@
     .line 2
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f121111
+    sget v0, Lcom/resouce/module/ResSTRING;->home_rename_unable_to_support_cloudstorage:I
 
     const/4 v1, 0x0
 
@@ -6476,7 +6476,7 @@
 
     const-string v3, "cn.wps.moffice.fake.mail"
 
-    const v4, 0x7f1224d9
+    sget v4, Lcom/resouce/module/ResSTRING;->public_more:I
 
     const/4 v14, 0x1
 
@@ -6484,7 +6484,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f1212e8
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     .line 8
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6493,7 +6493,7 @@
 
     invoke-interface {v9, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f1212e5
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     .line 9
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6551,7 +6551,7 @@
     .line 16
     invoke-static {v1}, Luc9;->e(Ljava/lang/String;)V
 
-    const v1, 0x7f122959
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_contacts:I
 
     .line 17
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6588,7 +6588,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f1212e6
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     .line 21
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6614,7 +6614,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f1212e4
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_mail:I
 
     .line 24
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6690,7 +6690,7 @@
 
     new-array v5, v1, [Ljava/lang/Integer;
 
-    const v16, 0x7f122965
+    sget v16, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     .line 32
     invoke-static/range {v16 .. v16}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -6699,7 +6699,7 @@
 
     aput-object v17, v5, v15
 
-    const v17, 0x7f1205f4
+    sget v17, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
     invoke-static/range {v17 .. v17}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -6707,7 +6707,7 @@
 
     aput-object v18, v5, v14
 
-    const v18, 0x7f122c05
+    sget v18, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     invoke-static/range {v18 .. v18}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -7127,7 +7127,7 @@
 .method public O3()I
     .locals 1
 
-    const v0, 0x7f0e0bc0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_layout:I
 
     return v0
 .end method
@@ -7227,7 +7227,7 @@
     .line 8
     iget-object v1, v0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f12159a
+    sget v2, Lcom/resouce/module/ResSTRING;->pad_documentmanager_info_star_roaming_file_hint:I
 
     invoke-static {v1, v2, v7}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -7237,7 +7237,7 @@
     :cond_2
     iget-object v1, v0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1205c0
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_info_star_roaming_file_hint:I
 
     invoke-static {v1, v2, v7}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -7563,7 +7563,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b1640
+    sget v1, Lcom/resouce/module/ResID;->ll_authority_1:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -7899,7 +7899,7 @@
     .line 25
     iget-object v0, v11, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -8193,7 +8193,7 @@
     .line 3
     iget-object p2, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const p3, 0x7f0b148f
+    sget p3, Lcom/resouce/module/ResID;->iv_link_a:I
 
     invoke-virtual {p2, p3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -8206,7 +8206,7 @@
     .line 4
     iget-object p2, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const p3, 0x7f0b1453
+    sget p3, Lcom/resouce/module/ResID;->iv_file_a:I
 
     invoke-virtual {p2, p3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -8307,7 +8307,7 @@
     .line 3
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1227cc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_receive_link_read_only:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -8319,7 +8319,7 @@
     :cond_0
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1223a5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_write:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -8339,7 +8339,7 @@
     .line 5
     iget-object v0, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f1221a9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_share_forever_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -8351,7 +8351,7 @@
     :cond_1
     iget-object v2, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v3, 0x7f1221af
+    sget v3, Lcom/resouce/module/ResSTRING;->public_folder_share_period_limit:I
 
     new-array v6, v5, [Ljava/lang/Object;
 
@@ -8377,7 +8377,7 @@
     :goto_2
     iget-object v1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f1221a8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_folder_share_description:I
 
     const/4 v3, 0x2
 
@@ -8462,7 +8462,7 @@
     :cond_0
     iget-object v0, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v1, 0x7f1222e2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_create_group_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -8615,7 +8615,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f121fc4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete_processing_doc:I
 
     goto :goto_0
 
@@ -8642,7 +8642,7 @@
 
     move-result-object v2
 
-    const v0, 0x7f120591
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_delete_modified_file:I
 
     goto :goto_0
 
@@ -9913,7 +9913,7 @@
     :cond_e
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const p2, 0x7f12280a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     invoke-static {p1, p2, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -10248,12 +10248,12 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f08162b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star_selected:I
 
     goto :goto_3
 
     :cond_5
-    const p1, 0x7f081628
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star:I
 
     :goto_3
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -10306,7 +10306,7 @@
 
     iput-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25ae
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_content_root:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -10327,7 +10327,7 @@
     .line 5
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b074f
+    sget v1, Lcom/resouce/module/ResID;->docinfo_share_friends_tv:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10337,7 +10337,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f12299f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_to_friend:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -10346,7 +10346,7 @@
     :cond_0
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25be
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_top_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10357,7 +10357,7 @@
     .line 8
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b5
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_file_top_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10368,7 +10368,7 @@
     .line 9
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25af
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_content_root_container:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10379,7 +10379,7 @@
     .line 10
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25bc
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_share_panel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10408,7 +10408,7 @@
     .line 13
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b1
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_doc_size:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10421,7 +10421,7 @@
     .line 14
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b3
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_doc_type:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10434,7 +10434,7 @@
     .line 15
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25bd
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_star:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10447,7 +10447,7 @@
     .line 16
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25c3
+    sget v1, Lcom/resouce/module/ResID;->public_doinfo_logo:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10460,7 +10460,7 @@
     .line 17
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25c4
+    sget v1, Lcom/resouce/module/ResID;->public_doinfo_logo_separator:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10471,7 +10471,7 @@
     .line 18
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25bb
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_folder_share_setting:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10482,7 +10482,7 @@
     .line 19
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b0
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_description:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10495,7 +10495,7 @@
     .line 20
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0f3a
+    sget v1, Lcom/resouce/module/ResID;->gray_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10506,7 +10506,7 @@
     .line 21
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b7
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_file_upload_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10519,7 +10519,7 @@
     .line 22
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b1b4f
+    sget v1, Lcom/resouce/module/ResID;->operations_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10532,7 +10532,7 @@
     .line 23
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b074c
+    sget v1, Lcom/resouce/module/ResID;->docinfo_messenger_share_loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10545,7 +10545,7 @@
 
     iget-object v1, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v2, 0x7f0b0c38
+    sget v2, Lcom/resouce/module/ResID;->ext_content:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -10659,7 +10659,7 @@
 
     iget-object v3, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v5, 0x7f12295a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share_createor:I
 
     new-array v6, v1, [Ljava/lang/Object;
 
@@ -10859,7 +10859,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0bbb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_local_file_guide_tips_layout:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -10875,13 +10875,13 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0bb4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_drive_file_guide_tips_layout:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b25ba
+    sget v0, Lcom/resouce/module/ResID;->public_docinfo_find_out_more_privileges:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -10971,7 +10971,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f122c0d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_woa:I
 
     .line 3
     sget v3, Lwh9$h1;->c:I
@@ -10988,7 +10988,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f121fd3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
     .line 5
     sget v3, Lwh9$h1;->b:I
@@ -11625,7 +11625,7 @@
     .line 3
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b160c
+    sget v1, Lcom/resouce/module/ResID;->link_share_item_permission_and_security_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -11825,7 +11825,7 @@
     .line 2
     iget-object v0, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b25b6
+    sget v1, Lcom/resouce/module/ResID;->public_docinfo_file_type:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -11922,12 +11922,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f080216
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_upload:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081700
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_cloud_document:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -11939,7 +11939,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -12055,7 +12055,7 @@
     :cond_0
     iget-object v2, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v4, 0x7f123035
+    sget v4, Lcom/resouce/module/ResSTRING;->tag_delete_file_from:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -12076,7 +12076,7 @@
     .line 9
     iget-object v0, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f123036
+    sget v2, Lcom/resouce/module/ResSTRING;->tag_delete_not_file:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -12084,7 +12084,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f121f40
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 10
     new-instance v2, Lwh9$z;
@@ -12093,7 +12093,7 @@
 
     invoke-virtual {v1, v0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance v0, Lwh9$a0;
@@ -12462,7 +12462,7 @@
     .line 3
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f120585
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -12499,7 +12499,7 @@
 
     move-result v2
 
-    const v4, 0x7f121f07
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloudstorage_unsupport_version:I
 
     if-eqz v2, :cond_1
 
@@ -12559,7 +12559,7 @@
     :cond_3
     iget-object v0, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f12064b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_record_open_incloudstorage_nosession:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -13024,7 +13024,7 @@
     invoke-static {p3, v0}, Lyhh;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    const p3, 0x7f1220f0
+    sget p3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 5
     invoke-static {p1, p3, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -13357,7 +13357,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f07062e
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -13661,7 +13661,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f07062e
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -13755,7 +13755,7 @@
     .line 2
     iget-object p1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -13779,7 +13779,7 @@
 
     iget-object v1, p0, Lwh9;->C0:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v1, v2, v0}, Lk87;-><init>(Landroid/content/Context;ILi87;)V
 
@@ -13983,7 +13983,7 @@
     .line 4
     iget-object p1, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v0, 0x7f0b25b4
+    sget v0, Lcom/resouce/module/ResID;->public_docinfo_file_doc_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -14056,7 +14056,7 @@
     :cond_5
     iget-object p1, p0, Lwh9;->s0:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v0, 0x7f0b25b2
+    sget v0, Lcom/resouce/module/ResID;->public_docinfo_doc_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -14274,7 +14274,7 @@
 
     const/16 v1, 0x8
 
-    const v2, 0x7f0b0cd1
+    sget v2, Lcom/resouce/module/ResID;->file_history_version_content:I
 
     if-eqz p1, :cond_4
 

@@ -149,7 +149,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f27
+    sget v1, Lcom/resouce/module/ResID;->pdf_sidebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -376,7 +376,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0671
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_sidebar_layout:I
 
     return v0
 .end method

@@ -333,7 +333,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const v0, 0x7f0b1935
+    sget v0, Lcom/resouce/module/ResID;->mtrl_child_content_container:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

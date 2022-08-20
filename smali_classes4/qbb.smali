@@ -219,7 +219,7 @@
     .line 1
     iget-object p2, p0, Lqbb;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e03b1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_shortcut_fastaccess_grid_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -231,7 +231,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0b1227
+    sget p3, Lcom/resouce/module/ResID;->icon:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p3, 0x7f0b150a
+    sget p3, Lcom/resouce/module/ResID;->label:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
     .line 7
     invoke-virtual {p3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0b123e
+    sget p3, Lcom/resouce/module/ResID;->icon_overlay:I
 
     .line 8
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

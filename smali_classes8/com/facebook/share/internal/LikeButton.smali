@@ -62,7 +62,7 @@
 .method public getDefaultStyleResource()I
     .locals 1
 
-    const v0, 0x7f1303fa
+    sget v0, Lcom/resouce/module/ResSTYLE;->com_facebook_button_like:I
 
     return v0
 .end method
@@ -77,7 +77,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08018d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->com_facebook_button_like_icon_selected:I
 
     const/4 v1, 0x0
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202d3
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_like_button_liked:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08018b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_button_icon:I
 
     invoke-static {v0, v1}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202d4
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_like_button_not_liked:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

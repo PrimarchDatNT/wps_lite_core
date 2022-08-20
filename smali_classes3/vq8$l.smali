@@ -139,7 +139,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121466
+    sget p1, Lcom/resouce/module/ResSTRING;->new_coupons_tips:I
 
     .line 5
     invoke-virtual {v1, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

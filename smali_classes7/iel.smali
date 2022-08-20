@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_mail:I
 
     const/4 v2, 0x0
 
@@ -255,7 +255,7 @@
     .line 4
     iget-object v1, p0, Liel;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v3, 0x7f120694
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
 
@@ -349,7 +349,7 @@
 
     move-result-object v4
 
-    const v1, 0x7f122bca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 14
     invoke-virtual {v10, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -384,7 +384,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122987
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 18
     invoke-virtual {v10, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

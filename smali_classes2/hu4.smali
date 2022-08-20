@@ -147,7 +147,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lhu4$f;
@@ -156,7 +156,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     new-instance v2, Lhu4$g;
@@ -165,7 +165,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122081
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_login_tip:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -200,7 +200,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lhu4$c;
@@ -209,7 +209,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     new-instance v2, Lhu4$d;
@@ -218,7 +218,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121cdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_cdkey_login_tip:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;

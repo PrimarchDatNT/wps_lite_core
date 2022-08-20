@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.docer.view.ZoomViewPager android:id="@id/zvp_preview" android:background="#d0000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textColor="#ffdcdcdc" android:id="@id/tv_index" android:background="@drawable/corner_bg_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingHorizontal="8.0dip" android:paddingVertical="2.0dip" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/top_layout" android:background="@color/picture_show_status_bar_color" android:layout_width="fill_parent" android:layout_height="68.0dip">
-        <ImageView android:id="@id/left_back" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:src="@drawable/pub_nav_back" android:layout_marginStart="16.0dip" />
-    </LinearLayout>
-</RelativeLayout>

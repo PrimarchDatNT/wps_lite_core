@@ -47,7 +47,7 @@
 
     move-result p1
 
-    const p2, 0x7f0818b1
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_more:I
 
     if-ne p1, p2, :cond_0
 

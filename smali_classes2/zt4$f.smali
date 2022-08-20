@@ -155,7 +155,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b3399
+    sget v1, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

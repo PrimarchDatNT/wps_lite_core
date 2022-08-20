@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0290
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_main_en_h5_view:I
 
     const/4 v2, 0x0
 
@@ -50,7 +50,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/EnH5TemplateOnLineHomeView;->mMainView:Landroid/view/View;
 
-    const v1, 0x7f0b2e5e
+    sget v1, Lcom/resouce/module/ResID;->tabview_ovs_docer:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0704e4
+    sget v3, Lcom/resouce/module/ResDIMEN;->new_phone_documents_maintoolbar_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

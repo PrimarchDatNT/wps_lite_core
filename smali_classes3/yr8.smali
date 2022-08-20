@@ -136,12 +136,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e030d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_file_radar_classify_items_layout_en:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e030c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_file_radar_classify_items_layout:I
 
     :goto_0
     return v0
@@ -278,7 +278,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -291,7 +291,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -317,7 +317,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f0602cc
+    sget v2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -334,7 +334,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b1b
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_fileradar_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -351,7 +351,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b1a
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_fileradar_indicator_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -377,7 +377,7 @@
     .line 1
     iget-object v0, p0, Lyr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cfc
+    sget v1, Lcom/resouce/module/ResID;->file_radar_top_tips_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -599,7 +599,7 @@
     :cond_0
     iget-object v0, p0, Lyr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cfb
+    sget v1, Lcom/resouce/module/ResID;->file_radar_tab_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -612,7 +612,7 @@
     .line 6
     iget-object v0, p0, Lyr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cfe
+    sget v1, Lcom/resouce/module/ResID;->file_radar_viewpager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -686,7 +686,7 @@
     .line 15
     iget-object v0, p0, Lyr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16d1
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_tip_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
     .line 16
     iget-object v1, p0, Lyr8;->B:Landroid/view/View;
 
-    const v2, 0x7f0b3232
+    sget v2, Lcom/resouce/module/ResID;->tv_recycle_tips:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -703,7 +703,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122144
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_radar_open_suggest:I
 
     .line 17
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -711,7 +711,7 @@
     .line 18
     iget-object v1, p0, Lyr8;->B:Landroid/view/View;
 
-    const v2, 0x7f0b3190
+    sget v2, Lcom/resouce/module/ResID;->tv_go:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -722,7 +722,7 @@
     .line 19
     iget-object v2, p0, Lyr8;->B:Landroid/view/View;
 
-    const v3, 0x7f0b16cd
+    sget v3, Lcom/resouce/module/ResID;->ll_recycle_close:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -735,7 +735,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f122b34
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unable_send_open_text:I
 
     .line 21
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -796,7 +796,7 @@
 
     move-result v0
 
-    const v1, 0x7f121217
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     if-eqz v0, :cond_0
 
@@ -823,7 +823,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f1227ce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_received:I
 
     return v0
 .end method

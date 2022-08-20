@@ -105,7 +105,7 @@
     .line 6
     iget-object v0, p0, Lkr3$b;->T:Landroid/app/Activity;
 
-    const v3, 0x7f122538
+    sget v3, Lcom/resouce/module/ResSTRING;->public_no_permission_open_file:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -186,7 +186,7 @@
     .line 15
     iget-object v0, p0, Lkr3$b;->T:Landroid/app/Activity;
 
-    const v3, 0x7f122416
+    sget v3, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 

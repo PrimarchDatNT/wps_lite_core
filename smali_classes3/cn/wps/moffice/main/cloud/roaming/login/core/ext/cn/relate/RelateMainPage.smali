@@ -193,7 +193,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->a(Ldy7;)V
 
-    const v2, 0x7f0b0532
+    sget v2, Lcom/resouce/module/ResID;->containerLayout:I
 
     .line 7
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -246,7 +246,7 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f122445
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_default_phone_account:I
 
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -284,7 +284,7 @@
     move-result-object p2
 
     :goto_0
-    const v1, 0x7f122423
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_already_bind_phone_tip:I
 
     const/4 v2, 0x2
 
@@ -320,7 +320,7 @@
     .line 9
     invoke-virtual {p2, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     new-instance v1, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateMainPage$b;
@@ -329,14 +329,14 @@
 
     invoke-virtual {p2, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122444
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_create_new_account:I
 
     .line 11
     invoke-virtual {v0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -374,7 +374,7 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f122445
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_default_phone_account:I
 
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -412,7 +412,7 @@
     move-result-object p2
 
     :goto_0
-    const v1, 0x7f122426
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_bind_phone_failed_tip:I
 
     const/4 v2, 0x2
 
@@ -448,7 +448,7 @@
     .line 9
     invoke-virtual {p2, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     new-instance v1, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateMainPage$e;
@@ -457,14 +457,14 @@
 
     invoke-virtual {p2, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122444
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_create_new_account:I
 
     .line 11
     invoke-virtual {v0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -488,7 +488,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    const p1, 0x7f122462
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_relate_account_title:I
 
     .line 2
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V
@@ -504,7 +504,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2882    # 1.8497302E38f
+    sget v0, Lcom/resouce/module/ResID;->relateAccountButton:I    # 1.8497302E38f
 
     if-ne p1, v0, :cond_0
 
@@ -519,7 +519,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b05c7
+    sget v0, Lcom/resouce/module/ResID;->createAccountButton:I
 
     if-ne p1, v0, :cond_1
 
@@ -539,7 +539,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0ee9
+    sget p3, Lcom/resouce/module/ResLAYOUT;->relate_account_main_page:I
 
     const/4 v0, 0x0
 
@@ -550,7 +550,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateMainPage;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2882    # 1.8497302E38f
+    sget p2, Lcom/resouce/module/ResID;->relateAccountButton:I    # 1.8497302E38f
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -564,7 +564,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateMainPage;->U:Landroid/view/View;
 
-    const p2, 0x7f0b05c7
+    sget p2, Lcom/resouce/module/ResID;->createAccountButton:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122462
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_relate_account_title:I
 
     .line 3
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V

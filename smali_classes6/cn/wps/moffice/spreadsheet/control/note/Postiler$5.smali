@@ -354,7 +354,7 @@
 
     invoke-direct {v0, v1, v3}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f120b7b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_input_username:I
 
     .line 10
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -370,7 +370,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0e0983
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_note_update_user_layout:I
 
     const/4 v5, 0x0
 
@@ -380,7 +380,7 @@
 
     check-cast v1, Landroid/widget/ScrollView;
 
-    const v4, 0x7f0b2d23
+    sget v4, Lcom/resouce/module/ResID;->ss_note_username_edittext:I
 
     .line 12
     invoke-virtual {v1, v4}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -441,12 +441,12 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 22
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 23
     sget-object v1, Leig;->B:Leig;

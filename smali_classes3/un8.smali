@@ -257,7 +257,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1221b8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_packs:I
 
     return v0
 .end method
@@ -298,7 +298,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e076b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_integralwalls_fontpreview_layout:I
 
     const/4 v2, 0x0
 
@@ -310,7 +310,7 @@
 
     iput-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1726
+    sget v1, Lcom/resouce/module/ResID;->loading_container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
     .line 3
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07e2
+    sget v1, Lcom/resouce/module/ResID;->earn_recyclerview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 4
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07d9
+    sget v1, Lcom/resouce/module/ResID;->earn_cicle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -371,7 +371,7 @@
     .line 8
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0e41
+    sget v1, Lcom/resouce/module/ResID;->font_pre_pack_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -384,7 +384,7 @@
     .line 9
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0e40
+    sget v1, Lcom/resouce/module/ResID;->font_pre_pack_describe:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -397,7 +397,7 @@
     .line 10
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0320
+    sget v1, Lcom/resouce/module/ResID;->button_confirm_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 11
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0322
+    sget v1, Lcom/resouce/module/ResID;->button_confirm_pre:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -419,7 +419,7 @@
     .line 12
     iget-object v0, p0, Lun8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0321
+    sget v1, Lcom/resouce/module/ResID;->button_confirm_next:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -567,7 +567,7 @@
 
     const-string v1, " )"
 
-    const v2, 0x7f121f98
+    sget v2, Lcom/resouce/module/ResSTRING;->public_credits:I
 
     const-string v3, " "
 

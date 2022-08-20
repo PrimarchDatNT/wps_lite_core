@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 

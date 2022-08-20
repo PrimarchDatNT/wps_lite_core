@@ -90,7 +90,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10d8
+    sget v0, Lcom/resouce/module/ResID;->home_numberpicker_increment:I
 
     if-ne p1, v0, :cond_1
 

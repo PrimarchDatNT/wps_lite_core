@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121468
+    sget v1, Lcom/resouce/module/ResSTRING;->new_create_home_more_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

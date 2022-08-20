@@ -217,7 +217,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122b61
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_and_new_folder_root_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -310,7 +310,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122b63
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_and_new_folder_view_current_folder:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -386,13 +386,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c29
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_clouddocs_uploadandnewfolder_bottom_bar:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0244
+    sget v0, Lcom/resouce/module/ResID;->bottom_add_folder:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -412,7 +412,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_0
 
@@ -422,7 +422,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b0244
+    sget v1, Lcom/resouce/module/ResID;->bottom_add_folder:I
 
     if-ne v0, v1, :cond_1
 
@@ -434,7 +434,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b302e
+    sget v1, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne v0, v1, :cond_2
 
@@ -466,11 +466,11 @@
     .line 2
     iget-object v0, p0, Luf7;->h0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080202
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_back:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b00ab
+    sget v0, Lcom/resouce/module/ResID;->add_folder:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -481,7 +481,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f121e1b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_close:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -527,7 +527,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122b62
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_and_new_folder_upload_btn:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -617,7 +617,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b64
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_and_new_folder_view_top_tips:I
 
     invoke-virtual {v0, v2, v1}, Lu87;->b(ILjava/lang/String;)V
 

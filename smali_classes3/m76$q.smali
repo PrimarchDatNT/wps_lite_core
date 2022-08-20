@@ -39,7 +39,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b1336
+    sget v2, Lcom/resouce/module/ResID;->input_content:I
 
     if-ne v0, v2, :cond_1
 

@@ -26,7 +26,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f12063b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_import:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

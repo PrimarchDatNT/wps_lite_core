@@ -220,7 +220,7 @@
     .line 4
     iget-object v0, p0, Lhuc;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122893
+    sget v2, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -341,7 +341,7 @@
     :cond_1
     iget-object p2, p0, Lhuc;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12068e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_searcheof:I
 
     invoke-static {p2, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -354,7 +354,7 @@
     :cond_2
     iget-object p2, p0, Lhuc;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12068c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_searchbof:I
 
     invoke-static {p2, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -367,7 +367,7 @@
     :cond_3
     iget-object p1, p0, Lhuc;->a:Landroid/app/Activity;
 
-    const p2, 0x7f122893
+    sget p2, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 

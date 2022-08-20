@@ -22,9 +22,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Undoer$1;
 
-    const v1, 0x7f080e71
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_titlebar_laststep:I
 
-    const v2, 0x7f122b3c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Undoer$1;-><init>(Lcn/wps/moffice/spreadsheet/control/Undoer;II)V
 

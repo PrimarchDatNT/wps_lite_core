@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08137d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_qq:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -178,14 +178,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f120605
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f081375
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_moments:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -235,14 +235,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f120606
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f081374
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_friend:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -434,7 +434,7 @@
     .line 22
     invoke-virtual {p3}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p0, 0x7f122950
+    sget p0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 23
     invoke-virtual {p3, p0}, Lhd3;->setTitleById(I)Lhd3;

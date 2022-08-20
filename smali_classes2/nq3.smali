@@ -495,7 +495,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1222a5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_local_file_activity_title_select:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -550,7 +550,7 @@
 
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f1222bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_local_upload_cloud_second:I
 
     .line 6
     invoke-virtual {v3, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSecondText(I)V
@@ -686,7 +686,7 @@
 
     move-result v1
 
-    const v3, 0x7f1228d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     if-lez v1, :cond_4
 
@@ -716,7 +716,7 @@
     goto :goto_2
 
     :cond_3
-    const v3, 0x7f1203d3
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     .line 24
     :goto_2
@@ -734,7 +734,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222a9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_local_file_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -986,7 +986,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1222a9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_local_file_tips:I
 
     return v0
 .end method
@@ -1001,7 +1001,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d96
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_home_transfrom_local_save_activity_view:I
 
     const/4 v2, 0x0
 
@@ -1014,7 +1014,7 @@
 
     iput-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b259b
+    sget v1, Lcom/resouce/module/ResID;->public_common_error_container_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1026,7 +1026,7 @@
     .line 4
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b259d
+    sget v1, Lcom/resouce/module/ResID;->public_common_error_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1037,7 +1037,7 @@
     .line 5
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2599
+    sget v1, Lcom/resouce/module/ResID;->public_common_error_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1055,7 +1055,7 @@
     .line 7
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
     .line 8
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1108
+    sget v1, Lcom/resouce/module/ResID;->home_page_listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1079,7 +1079,7 @@
     .line 9
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b30af
+    sget v1, Lcom/resouce/module/ResID;->transfrom_save_no_file_selected:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1090,7 +1090,7 @@
     .line 10
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b30ae
+    sget v1, Lcom/resouce/module/ResID;->transfrom_save_bottom_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1106,7 +1106,7 @@
     .line 12
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b19d9
+    sget v1, Lcom/resouce/module/ResID;->negative_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1126,7 +1126,7 @@
     .line 14
     iget-object v0, p0, Lnq3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b227f
+    sget v1, Lcom/resouce/module/ResID;->positive_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1167,7 +1167,7 @@
 
     iget-object v1, p0, Lnq3;->S:Lcn/wps/moffice/main/local/home/newui/common/animlistview/AnimListView;
 
-    const v2, 0x7f0e0c35
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_home_list_footer_layout:I
 
     .line 18
     invoke-virtual {v0, v2, v1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

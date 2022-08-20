@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203a2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_doc_download_error:I
 
     const/4 v2, 0x0
 

@@ -98,7 +98,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f0e0135
+    sget p4, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item:I
 
     invoke-direct {p2, p3, p4, p1}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 

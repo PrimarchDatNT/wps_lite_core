@@ -103,7 +103,7 @@
     .line 5
     iput-object p3, p0, Lqqc;->T:Lmqc;
 
-    const p2, 0x7f010086
+    sget p2, Lcom/resouce/module/ResANIM;->public_outline_expanded_rotate_anim:I
 
     .line 6
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a76
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_outline_expanded_status:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -127,7 +127,7 @@
 
     iput-object p2, p0, Lqqc;->Z:Landroid/graphics/drawable/Drawable;
 
-    const p2, 0x7f010087
+    sget p2, Lcom/resouce/module/ResANIM;->public_outline_shring_rotate_anim:I
 
     .line 8
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081a78
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_outline_shring_status:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070607
+    sget p2, Lcom/resouce/module/ResDIMEN;->pdf_outline_item_left_right_padding:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -173,7 +173,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070603
+    sget p2, Lcom/resouce/module/ResDIMEN;->pdf_out_line_secondary_level_Indentation:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070606
+    sget p2, Lcom/resouce/module/ResDIMEN;->pdf_outline_first_level_item_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -203,7 +203,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070609
+    sget p2, Lcom/resouce/module/ResDIMEN;->pdf_outline_secondary_level_item_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -214,7 +214,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070605
+    sget p2, Lcom/resouce/module/ResDIMEN;->pdf_outline_expand_status_img_size:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -351,12 +351,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0649
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_outline_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e07c8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_outline_item_layout:I
 
     :goto_0
     const/4 v1, 0x0

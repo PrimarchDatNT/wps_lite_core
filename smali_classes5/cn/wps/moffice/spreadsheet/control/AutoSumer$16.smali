@@ -67,7 +67,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v2, 0x7f0b08f3
+    sget v2, Lcom/resouce/module/ResID;->et_autosum_button_morefunc:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

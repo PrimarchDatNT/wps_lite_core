@@ -37,7 +37,7 @@
     .line 2
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f0b05b3
+    sget p1, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object p1, p0, Lk9a$c;->j0:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const p1, 0x7f0b1597
+    sget p1, Lcom/resouce/module/ResID;->left_padding_v:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object p1, p0, Lk9a$c;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b2922
+    sget p1, Lcom/resouce/module/ResID;->right_padding_v:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

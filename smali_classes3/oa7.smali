@@ -39,7 +39,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2929
+    sget p2, Lcom/resouce/module/ResID;->right_sub_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

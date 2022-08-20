@@ -24,7 +24,7 @@
 
     move-result v1
 
-    const v2, 0x7f121fab
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cut:I
 
     const/4 v3, 0x1
 
@@ -74,7 +74,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v0, 0x7f121b5f
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_cannot_delete:I
 
     const/4 v1, 0x0
 
@@ -152,12 +152,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08024e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_shear:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081b6d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_ribbonicon_copy:I
 
     :goto_0
     return v0

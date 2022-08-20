@@ -85,7 +85,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f01003f
+    sget v2, Lcom/resouce/module/ResANIM;->fade_in:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

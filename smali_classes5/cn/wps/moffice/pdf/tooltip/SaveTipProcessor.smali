@@ -166,7 +166,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220b0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf_success_top_tips:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -175,7 +175,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v2, 0x7f122a0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_spread_immediately_lookup:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

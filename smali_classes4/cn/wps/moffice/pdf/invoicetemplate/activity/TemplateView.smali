@@ -75,7 +75,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b18f7
+    sget v0, Lcom/resouce/module/ResID;->more_template_layout:I
 
     .line 2
     iput v0, p0, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView;->pathKey:I
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e019e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_template_preview_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView;->rootView:Landroid/view/View;
 
-    const v1, 0x7f0b2ece
+    sget v1, Lcom/resouce/module/ResID;->template_list:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView;->rootView:Landroid/view/View;
 
-    const v1, 0x7f0b24ec
+    sget v1, Lcom/resouce/module/ResID;->preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView;->rootView:Landroid/view/View;
 
-    const v1, 0x7f0b2fa5
+    sget v1, Lcom/resouce/module/ResID;->tip_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
 
     check-cast p1, Lcom/bumptech/glide/RequestBuilder;
 
-    const v0, 0x7f0805e1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_template_default:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->error(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -530,7 +530,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1218e6
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_template_preview_fail:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -548,7 +548,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -716,7 +716,7 @@
     .line 8
     iget-object v2, p0, Lcn/wps/moffice/pdf/invoicetemplate/activity/TemplateView;->tipView:Landroid/view/View;
 
-    const v3, 0x7f0b25e6
+    sget v3, Lcom/resouce/module/ResID;->public_file_radar_bottom_bar_tips:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -796,7 +796,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1220cb
+    sget v3, Lcom/resouce/module/ResSTRING;->public_failure:I
 
     invoke-static {v2, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1196,7 +1196,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227f7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

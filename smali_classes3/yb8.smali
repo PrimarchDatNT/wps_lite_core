@@ -484,7 +484,7 @@
     .line 13
     iget-object p1, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -664,7 +664,7 @@
 
     iget-object v1, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121cf9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_add_cloudstorage:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
     .line 5
     iget-object v2, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121003
+    sget v3, Lcom/resouce/module/ResSTRING;->home_original_cloudstorage:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -955,7 +955,7 @@
     .line 7
     iget-object v2, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v3, 0x7f1225c5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1621,7 +1621,7 @@
     .line 8
     iget-object p1, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const p2, 0x7f12067f
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_upload_file_size_limit:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1675,7 +1675,7 @@
 
     iget-object v0, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1228e3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_select_upload_position:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

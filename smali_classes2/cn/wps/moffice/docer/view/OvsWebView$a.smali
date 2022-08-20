@@ -106,7 +106,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080ae3
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->new_user_popup_bg:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->openRawResource(I)Ljava/io/InputStream;
 

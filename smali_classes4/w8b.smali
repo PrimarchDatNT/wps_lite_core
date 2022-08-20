@@ -427,7 +427,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/scan/bean/LanguageInfo;
 
-    const v2, 0x7f1204b4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_simplified_chinese:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/scan/bean/LanguageInfo;
 
-    const v2, 0x7f1203da
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_chinese_traditional:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -495,7 +495,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/scan/bean/LanguageInfo;
 
-    const v2, 0x7f1203fb
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_english:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

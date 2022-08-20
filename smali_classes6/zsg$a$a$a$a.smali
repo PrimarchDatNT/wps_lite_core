@@ -233,7 +233,7 @@
     goto :goto_2
 
     :catch_1
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 11
     :try_start_2
@@ -255,7 +255,7 @@
     goto :goto_1
 
     :catch_2
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 13
     :try_start_3

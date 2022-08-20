@@ -305,7 +305,7 @@
     invoke-interface {v0, v2, v1, v3}, Lx9e$m;->b(Ljava/lang/String;Lw8e;Ljava/lang/String;)V
 
     :goto_1
-    const v0, 0x7f0b2b7a
+    sget v0, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 32
     invoke-virtual {p1}, Landroid/view/View;->getId()I

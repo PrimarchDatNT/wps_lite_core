@@ -83,7 +83,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity$d;->b:Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity;
 
-    const v1, 0x7f120267
+    sget v1, Lcom/resouce/module/ResSTRING;->class_homework_assgin_error:I
 
     const/4 v2, 0x0
 

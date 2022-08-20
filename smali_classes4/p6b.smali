@@ -114,13 +114,13 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f120461
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf_desc:I
 
-    const v3, 0x7f120460
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
-    const v4, 0x7f0601a6
+    sget v4, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v5, 0x7f080740
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2pdf:I
 
     const/4 v6, 0x1
 

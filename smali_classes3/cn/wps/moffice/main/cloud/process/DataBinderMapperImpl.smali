@@ -20,14 +20,14 @@
 
     sput-object v0, Lcn/wps/moffice/main/cloud/process/DataBinderMapperImpl;->a:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0e029e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->fragment_batch_rename:I
 
     const/4 v3, 0x1
 
     .line 2
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e03fc
+    sget v2, Lcom/resouce/module/ResLAYOUT;->item_batch_rename:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V

@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1225c5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120693
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120e43
+    sget v3, Lcom/resouce/module/ResSTRING;->home_account_member_remind_tips_desc_expired:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -266,7 +266,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121256
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -287,7 +287,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122326
+    sget v1, Lcom/resouce/module/ResSTRING;->public_homepage_share_update:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -513,7 +513,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070af8
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_document_item_image_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -543,7 +543,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070b43
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_home_list_icon_layout_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -560,7 +560,7 @@
 .method public x()I
     .locals 1
 
-    const v0, 0x7f0e02fb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_common_file_item:I
 
     return v0
 .end method

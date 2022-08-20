@@ -396,7 +396,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b53
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -421,7 +421,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f121f26
+    sget v1, Lcom/resouce/module/ResSTRING;->public_comp_space_tip:I
 
     invoke-virtual {p1, v1, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -455,7 +455,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f121f25    # 1.94229E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_comp_limit_size_tip:I    # 1.94229E38f
 
     .line 3
     invoke-virtual {p1, v1, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;

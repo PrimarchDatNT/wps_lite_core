@@ -53,7 +53,7 @@
 
     const-string v3, "button_click"
 
-    const v4, 0x7f0b169c
+    sget v4, Lcom/resouce/module/ResID;->ll_link_1:I
 
     if-ne v0, v4, :cond_0
 
@@ -93,13 +93,13 @@
 
     move-result-object v3
 
-    const v4, 0x7f081bf9
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v5, 0x7f081c0d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v7, 0x7f0600ea
+    sget v7, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     const/4 v8, 0x1
 
@@ -113,7 +113,7 @@
 
     move-result v0
 
-    const v4, 0x7f0b165f
+    sget v4, Lcom/resouce/module/ResID;->ll_file_1:I
 
     if-ne v0, v4, :cond_1
 
@@ -153,13 +153,13 @@
 
     move-result-object v3
 
-    const v4, 0x7f081c0d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_share_no_choose:I
 
-    const v5, 0x7f081bf9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_choose:I
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v7, 0x7f060626
+    sget v7, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     const/4 v8, 0x2
 
@@ -173,7 +173,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1640
+    sget v0, Lcom/resouce/module/ResID;->ll_authority_1:I
 
     if-ne p1, v0, :cond_3
 

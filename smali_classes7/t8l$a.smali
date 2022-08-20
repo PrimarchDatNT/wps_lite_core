@@ -83,7 +83,7 @@
 .method public b()V
     .locals 4
 
-    const v0, 0x7f0b35f4
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_view_group_btn:I
 
     .line 1
     invoke-static {v0}, Ldzl;->m(I)Lezl;

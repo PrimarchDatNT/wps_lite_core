@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09b3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_unroaming_file_view:I
 
     const/4 v2, 0x0
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b02f8
+    sget v1, Lcom/resouce/module/ResID;->btn_roaming:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122b44
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unroaming_recentfile_edit_name:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12204e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_enable_auto_roaming:I
 
     invoke-static {v2, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 

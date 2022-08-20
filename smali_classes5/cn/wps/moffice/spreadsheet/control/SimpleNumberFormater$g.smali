@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05e5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_simple_format:I
 
     const/4 v2, 0x0
 
@@ -88,7 +88,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2d28
+    sget v1, Lcom/resouce/module/ResID;->ss_num_money:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2d2a
+    sget v1, Lcom/resouce/module/ResID;->ss_num_percent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2d2c
+    sget v1, Lcom/resouce/module/ResID;->ss_num_point:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2d26
+    sget v1, Lcom/resouce/module/ResID;->ss_num_0_00:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -133,7 +133,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2d24
+    sget v1, Lcom/resouce/module/ResID;->ss_num_00_0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -161,7 +161,7 @@
     .line 9
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2d2d
+    sget v2, Lcom/resouce/module/ResID;->ss_num_point_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -192,7 +192,7 @@
     :cond_0
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2d29
+    sget v2, Lcom/resouce/module/ResID;->ss_num_money_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
     .line 12
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2d2b
+    sget v2, Lcom/resouce/module/ResID;->ss_num_percent_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
     .line 13
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2d27
+    sget v2, Lcom/resouce/module/ResID;->ss_num_0_00_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -231,7 +231,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/SimpleNumberFormater$g;->U:Landroid/view/View;
 
-    const v2, 0x7f0b2d25
+    sget v2, Lcom/resouce/module/ResID;->ss_num_00_0_img:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

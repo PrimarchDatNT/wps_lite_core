@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120cbc
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_notification_forbidden:I
 
     const/4 v1, 0x0
 

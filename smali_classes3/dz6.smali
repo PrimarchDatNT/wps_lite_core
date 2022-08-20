@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1219e4
+    sget v2, Lcom/resouce/module/ResSTRING;->pic_store_album:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -120,7 +120,7 @@
 
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v2, 0x7f081654
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_album:I
 
     .line 6
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
@@ -158,7 +158,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122bf8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wechat_file:I
 
     .line 13
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -167,7 +167,7 @@
 
     invoke-virtual {v3, v4}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v4, 0x7f081659
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_wechat:I
 
     .line 14
     invoke-virtual {v3, v4}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
@@ -193,7 +193,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121cd7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_QQ_file:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -202,7 +202,7 @@
 
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v2, 0x7f081657
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_qq:I
 
     .line 20
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
@@ -226,7 +226,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f12263d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_phone_storage_file:I
 
     .line 25
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -235,7 +235,7 @@
 
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v2, 0x7f081656
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_local:I
 
     .line 26
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
@@ -258,7 +258,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121e0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_clear_file_recent_open_file:I
 
     .line 31
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -267,7 +267,7 @@
 
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v2, 0x7f081658
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_recent:I
 
     .line 32
     invoke-virtual {p1, v2}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
@@ -290,7 +290,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f12262d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_phone_cloud_file:I
 
     .line 37
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -299,7 +299,7 @@
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->c(Ljava/lang/String;)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;
 
-    const v1, 0x7f081655
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_import_file_cloud:I
 
     .line 38
     invoke-virtual {p1, v1}, Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;->b(I)Lcn/wps/moffice/main/cloud/drive/addmenu/addfile/bean/AddFileMenuItemData$a;

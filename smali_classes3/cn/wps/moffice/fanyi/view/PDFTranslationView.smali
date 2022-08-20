@@ -162,7 +162,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/fanyi/view/TranslationView;->B:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b0568
+    sget v3, Lcom/resouce/module/ResID;->convert_file_line:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
     invoke-virtual {p0, p1, v0}, Lcn/wps/moffice/fanyi/view/TranslationView;->D(II)V
 
     :cond_0
-    const p1, 0x7f0b1d23
+    sget p1, Lcom/resouce/module/ResID;->pay_icon:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

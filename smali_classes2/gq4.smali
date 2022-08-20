@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120367
+    sget v1, Lcom/resouce/module/ResSTRING;->deeplink_open_wps_space_manager:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -455,7 +455,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -944,7 +944,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e49
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_file_limit_dialog_positive:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e84
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_no_space_dialog_nature:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

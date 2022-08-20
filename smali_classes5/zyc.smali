@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080763
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_ocr:I
 
-    const v3, 0x7f121842
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
-    const v4, 0x7f121845
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_ocr_scan_img_transform_to_tx_instruction:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

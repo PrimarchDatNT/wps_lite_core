@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07007d
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_caret_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07007e
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_caret_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07007b
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_border_radius:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -380,7 +380,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600c5
+    sget v2, Lcom/resouce/module/ResCOLOR;->com_facebook_likeboxcountview_border_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -397,7 +397,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07007c
+    sget v2, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_border_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070080
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_text_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -485,7 +485,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600c6
+    sget v1, Lcom/resouce/module/ResCOLOR;->com_facebook_likeboxcountview_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -499,7 +499,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07007f
+    sget v0, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_text_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -512,7 +512,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07007d
+    sget v0, Lcom/resouce/module/ResDIMEN;->com_facebook_likeboxcountview_caret_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

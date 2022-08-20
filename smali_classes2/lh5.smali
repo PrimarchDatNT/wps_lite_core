@@ -47,7 +47,7 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f0b154b
+    sget v1, Lcom/resouce/module/ResID;->layout_launch_screen_novel:I
 
     :cond_1
     if-lez v1, :cond_2

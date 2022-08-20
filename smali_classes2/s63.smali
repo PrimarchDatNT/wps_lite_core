@@ -273,7 +273,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120d28
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_tomail_zh:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -283,7 +283,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120d26
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_tomail_en:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -345,7 +345,7 @@
 .method public static f(Landroid/content/Context;Ljava/lang/String;ZI)Ljava/lang/String;
     .locals 5
 
-    const v0, 0x7f121d3b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -736,7 +736,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120d34
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_version_tv:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -753,7 +753,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f120d32
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_version_pad:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -763,7 +763,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f120d33
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_version_phone:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -788,7 +788,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -848,7 +848,7 @@
 
     invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f12011a
+    sget v1, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

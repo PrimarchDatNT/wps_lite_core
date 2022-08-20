@@ -558,7 +558,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f3b
+    sget v1, Lcom/resouce/module/ResSTRING;->shareplay_switch_file_fail:I
 
     const/4 v2, 0x1
 
@@ -723,7 +723,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e0e4f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_shareplay_upload_custom_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -737,7 +737,7 @@
 
     invoke-virtual {v0, v2, v3, v1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const v1, 0x7f0b2723
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -746,7 +746,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v2, 0x7f0b2724
+    sget v2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -765,7 +765,7 @@
 
     invoke-direct {v2, p0, v0}, Lspg$i;-><init>(Lspg;Lhd3;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -837,7 +837,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c3d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_upload_file_fail:I
 
     const/4 v2, 0x1
 

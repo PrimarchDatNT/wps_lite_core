@@ -22,9 +22,9 @@
     .line 2
     new-instance v0, Lm2h$b;
 
-    const v1, 0x7f0801d7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_auto_wrap:I
 
-    const v2, 0x7f121d70
+    sget v2, Lcom/resouce/module/ResSTRING;->public_auto_wrap:I
 
     const/4 v3, 0x1
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/descriptionColor" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tv_number" android:layout_width="16.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="1.0px" android:text="10" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/tv_hot_word" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

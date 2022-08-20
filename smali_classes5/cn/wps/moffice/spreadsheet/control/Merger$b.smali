@@ -81,7 +81,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b187f
+    sget v1, Lcom/resouce/module/ResID;->merge_sheet_btn:I
 
     if-ne v0, v1, :cond_2
 
@@ -104,7 +104,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1874
+    sget v0, Lcom/resouce/module/ResID;->merge_file_icon:I
 
     if-ne p1, v0, :cond_3
 

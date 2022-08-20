@@ -81,7 +81,7 @@
 .method public final T2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b0eac
+    sget v0, Lcom/resouce/module/ResID;->func_guid_pdf_vip_list:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object v0, p0, Ly46;->I:Landroid/widget/ListView;
 
-    const v0, 0x7f0b24de
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_name:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Ly46;->S:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0b0f1d
+    sget v0, Lcom/resouce/module/ResID;->go_to_license:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Ly46;->T:Landroid/widget/Button;
 
-    const v0, 0x7f0b084b
+    sget v0, Lcom/resouce/module/ResID;->edu_activation_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object v0, p0, Ly46;->V:Landroid/view/View;
 
-    const v0, 0x7f0b0eb9
+    sget v0, Lcom/resouce/module/ResID;->func_img:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0800e8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->banner_edu:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -242,7 +242,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212c3
+    sget v2, Lcom/resouce/module/ResSTRING;->in_edu_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -264,7 +264,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0816f4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_mine_premium_edu:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -310,7 +310,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0035
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_edu_detail:I
 
     const/4 v2, 0x0
 
@@ -348,7 +348,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1212c3
+    sget v0, Lcom/resouce/module/ResSTRING;->in_edu_title:I
 
     return v0
 .end method
@@ -361,7 +361,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0f1d
+    sget v0, Lcom/resouce/module/ResID;->go_to_license:I
 
     if-ne p1, v0, :cond_0
 

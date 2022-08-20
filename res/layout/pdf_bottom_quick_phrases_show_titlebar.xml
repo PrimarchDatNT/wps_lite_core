@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/titlebar_content" android:background="@drawable/phone_public_panel_topbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_title_bar_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end|center" android:id="@id/phone_panel_topbar" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/pub_nav_edit" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pdf_fill_sign_quick_phrase" style="@style/v10_phone_public_bottombar_title_text.titlebar" />
-    <View android:layout_gravity="bottom" android:id="@id/phone_public_title_bottom_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</FrameLayout>

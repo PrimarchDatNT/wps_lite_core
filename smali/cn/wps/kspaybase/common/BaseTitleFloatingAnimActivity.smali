@@ -155,7 +155,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122419
+    sget v4, Lcom/resouce/module/ResSTRING;->public_loading:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
     :cond_2
     if-nez v6, :cond_3
 
-    const v6, 0x7f080a26
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->kspay_webview_default:I
 
     .line 17
     :cond_3
@@ -252,7 +252,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0602c2
+    sget v6, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -280,7 +280,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

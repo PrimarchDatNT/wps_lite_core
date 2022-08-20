@@ -194,9 +194,9 @@
 
     sget-object v3, Lgh8$b;->U:Lgh8$b;
 
-    const v4, 0x7f081717
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_nav_rename:I
 
-    const v5, 0x7f1227f7
+    sget v5, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-direct {v2, v4, v5, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -207,9 +207,9 @@
 
     sget-object v3, Lgh8$b;->d1:Lgh8$b;
 
-    const v4, 0x7f081d32
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->quick_access_add:I
 
-    const v5, 0x7f12276f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_quick_access_add:I
 
     invoke-direct {v2, v4, v5, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -220,9 +220,9 @@
 
     sget-object v3, Lgh8$b;->e0:Lgh8$b;
 
-    const v4, 0x7f080afe
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_location:I
 
-    const v5, 0x7f121476
+    sget v5, Lcom/resouce/module/ResSTRING;->new_ui_documentmanager_file_property_location:I
 
     invoke-direct {v2, v4, v5, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -233,9 +233,9 @@
 
     sget-object v3, Lgh8$b;->W:Lgh8$b;
 
-    const v4, 0x7f080221
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v5, 0x7f120577
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     invoke-direct {v2, v4, v5, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -246,9 +246,9 @@
 
     sget-object v3, Lgh8$b;->b0:Lgh8$b;
 
-    const v5, 0x7f0801fa
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_common_add_homescreen:I
 
-    const v6, 0x7f121d0f
+    sget v6, Lcom/resouce/module/ResSTRING;->public_add_to_homescreen:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -259,7 +259,7 @@
 
     sget-object v3, Lgh8$b;->g0:Lgh8$b;
 
-    const v5, 0x7f122262
+    sget v5, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     invoke-direct {v2, v1, v5, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -270,9 +270,9 @@
 
     sget-object v3, Lgh8$b;->h0:Lgh8$b;
 
-    const v5, 0x7f080216
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_upload:I
 
-    const v6, 0x7f122b74
+    sget v6, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -283,9 +283,9 @@
 
     sget-object v3, Lgh8$b;->i0:Lgh8$b;
 
-    const v5, 0x7f0811f4
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_doc_info_send_to_pc:I
 
-    const v6, 0x7f122bae
+    sget v6, Lcom/resouce/module/ResSTRING;->public_view_end_edit_on_pc:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -296,9 +296,9 @@
 
     sget-object v3, Lgh8$b;->j0:Lgh8$b;
 
-    const v5, 0x7f0815d2
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_move:I
 
-    const v6, 0x7f121234
+    sget v6, Lcom/resouce/module/ResSTRING;->home_wps_drive_move:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -309,7 +309,7 @@
 
     sget-object v3, Lgh8$b;->T0:Lgh8$b;
 
-    const v6, 0x7f121235
+    sget v6, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_and_copy:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -320,9 +320,9 @@
 
     sget-object v3, Lgh8$b;->k1:Lgh8$b;
 
-    const v7, 0x7f081712
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_nav_offline_transfer:I
 
-    const v8, 0x7f12157d
+    sget v8, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     invoke-direct {v2, v7, v8, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -342,9 +342,9 @@
 
     sget-object v3, Lgh8$b;->W0:Lgh8$b;
 
-    const v5, 0x7f08021c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_common_copy:I
 
-    const v6, 0x7f121232
+    sget v6, Lcom/resouce/module/ResSTRING;->home_wps_drive_make_duplicate:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -355,9 +355,9 @@
 
     sget-object v3, Lgh8$b;->l0:Lgh8$b;
 
-    const v5, 0x7f08171f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_nav_settings:I
 
-    const v6, 0x7f12060b
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -368,7 +368,7 @@
 
     sget-object v7, Lgh8$b;->m0:Lgh8$b;
 
-    const v8, 0x7f121947
+    sget v8, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_add_new_members:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -379,7 +379,7 @@
 
     sget-object v7, Lgh8$b;->n0:Lgh8$b;
 
-    const v8, 0x7f122285
+    sget v8, Lcom/resouce/module/ResSTRING;->public_home_clouddocs_group_remove_member:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -390,9 +390,9 @@
 
     sget-object v7, Lgh8$b;->o0:Lgh8$b;
 
-    const v8, 0x7f080495
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_tool_pdf_to_doc:I
 
-    const v9, 0x7f121769
+    sget v9, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-direct {v2, v8, v9, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -403,9 +403,9 @@
 
     sget-object v7, Lgh8$b;->p0:Lgh8$b;
 
-    const v8, 0x7f08103b
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pdf_set_password_icon:I
 
-    const v9, 0x7f1218d9
+    sget v9, Lcom/resouce/module/ResSTRING;->pdf_set_password:I
 
     invoke-direct {v2, v8, v9, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -416,7 +416,7 @@
 
     sget-object v7, Lgh8$b;->q0:Lgh8$b;
 
-    const v8, 0x7f121229
+    sget v8, Lcom/resouce/module/ResSTRING;->home_wps_drive_cancel_upload:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -427,7 +427,7 @@
 
     sget-object v7, Lgh8$b;->r0:Lgh8$b;
 
-    const v8, 0x7f121fd7
+    sget v8, Lcom/resouce/module/ResSTRING;->public_disable:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -438,7 +438,7 @@
 
     sget-object v7, Lgh8$b;->s0:Lgh8$b;
 
-    const v8, 0x7f122c35
+    sget v8, Lcom/resouce/module/ResSTRING;->public_wpscloud_invite_other_share:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -449,7 +449,7 @@
 
     sget-object v7, Lgh8$b;->t0:Lgh8$b;
 
-    const v8, 0x7f121256
+    sget v8, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-direct {v2, v1, v8, v7}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -467,9 +467,9 @@
 
     sget-object v3, Lgh8$b;->K0:Lgh8$b;
 
-    const v5, 0x7f0803a1
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_safty_power:I
 
-    const v6, 0x7f121248
+    sget v6, Lcom/resouce/module/ResSTRING;->home_wpsdrive_edit_share_permission:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -480,9 +480,9 @@
 
     sget-object v3, Lgh8$b;->L0:Lgh8$b;
 
-    const v5, 0x7f080232
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_common_messages:I
 
-    const v6, 0x7f120595
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_doc_info_detail:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -493,9 +493,9 @@
 
     sget-object v10, Lgh8$b;->v0:Lgh8$b;
 
-    const v8, 0x7f080226
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_common_edit:I
 
-    const v9, 0x7f121f70
+    sget v9, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit:I
 
     const/4 v11, 0x0
 
@@ -503,7 +503,7 @@
 
     const/4 v13, 0x1
 
-    const v14, 0x7f130171
+    sget v14, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance.SubTitle:I
 
     move-object v7, v2
 
@@ -516,9 +516,9 @@
 
     sget-object v3, Lgh8$b;->C0:Lgh8$b;
 
-    const v5, 0x7f080244
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_common_save:I
 
-    const v6, 0x7f12281f
+    sget v6, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -529,9 +529,9 @@
 
     sget-object v3, Lgh8$b;->F0:Lgh8$b;
 
-    const v5, 0x7f081706
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_nav_exit_group:I
 
-    const v6, 0x7f12208b
+    sget v6, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
     invoke-direct {v2, v5, v6, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -542,9 +542,9 @@
 
     sget-object v3, Lgh8$b;->G0:Lgh8$b;
 
-    const v6, 0x7f0816ff
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_nav_close_share:I
 
-    const v7, 0x7f121dc1
+    sget v7, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
     invoke-direct {v2, v6, v7, v1, v3}, Ldi9$f;-><init>(IIILgh8$b;)V
 
@@ -555,7 +555,7 @@
 
     sget-object v3, Lgh8$b;->H0:Lgh8$b;
 
-    const v6, 0x7f121fbf
+    sget v6, Lcom/resouce/module/ResSTRING;->public_delete_group:I
 
     invoke-direct {v2, v4, v6, v1, v3}, Ldi9$f;-><init>(IIILgh8$b;)V
 
@@ -566,7 +566,7 @@
 
     sget-object v3, Lgh8$b;->I0:Lgh8$b;
 
-    const v4, 0x7f122088
+    sget v4, Lcom/resouce/module/ResSTRING;->public_exit_group:I
 
     invoke-direct {v2, v5, v4, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -588,7 +588,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -596,7 +596,7 @@
 
     sget-object v4, Lgh8$b;->y0:Lgh8$b;
 
-    const v5, 0x7f1228b6
+    sget v5, Lcom/resouce/module/ResSTRING;->public_secret_folder_immediate_open:I
 
     invoke-direct {v2, v1, v5, v3, v4}, Ldi9$f;-><init>(IIILgh8$b;)V
 
@@ -607,7 +607,7 @@
 
     sget-object v3, Lgh8$b;->z0:Lgh8$b;
 
-    const v4, 0x7f1228c0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_secret_folder_not_to_use:I
 
     invoke-direct {v2, v1, v4, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -618,7 +618,7 @@
 
     sget-object v3, Lgh8$b;->A0:Lgh8$b;
 
-    const v4, 0x7f122805
+    sget v4, Lcom/resouce/module/ResSTRING;->public_reset_pswd:I
 
     invoke-direct {v2, v1, v4, v3}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -629,7 +629,7 @@
 
     iget-object v3, v0, Ldi9;->e:Landroid/content/res/Resources;
 
-    const v4, 0x7f06025d
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 43
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -638,7 +638,7 @@
 
     sget-object v4, Lgh8$b;->B0:Lgh8$b;
 
-    const v5, 0x7f120f68
+    sget v5, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-direct {v2, v1, v5, v3, v4}, Ldi9$f;-><init>(IIILgh8$b;)V
 
@@ -649,9 +649,9 @@
 
     sget-object v2, Lgh8$b;->c1:Lgh8$b;
 
-    const v3, 0x7f081e01
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->share_after_compression:I
 
-    const v4, 0x7f120fee
+    sget v4, Lcom/resouce/module/ResSTRING;->home_multi_select_zip:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -662,9 +662,9 @@
 
     sget-object v2, Lgh8$b;->e1:Lgh8$b;
 
-    const v3, 0x7f080210
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_device:I
 
-    const v4, 0x7f12291f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_send_to_pc_edit:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -693,9 +693,9 @@
 
     move-result-object v8
 
-    const v5, 0x7f0803a2
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_safty_private_folder:I
 
-    const v6, 0x7f12289d
+    sget v6, Lcom/resouce/module/ResSTRING;->public_secfolder_move:I
 
     const/4 v9, 0x0
 
@@ -708,7 +708,7 @@
     .line 49
     iget-object v4, v0, Ldi9;->e:Landroid/content/res/Resources;
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -726,9 +726,9 @@
 
     move-result-object v15
 
-    const v12, 0x7f0803a2
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_safty_private_folder:I
 
-    const v13, 0x7f12289d
+    sget v13, Lcom/resouce/module/ResSTRING;->public_secfolder_move:I
 
     const/16 v16, 0x0
 
@@ -752,9 +752,9 @@
 
     sget-object v2, Lgh8$b;->X0:Lgh8$b;
 
-    const v3, 0x7f081704
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_document_collect:I
 
-    const v4, 0x7f121f10
+    sget v4, Lcom/resouce/module/ResSTRING;->public_collection_file:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -765,9 +765,9 @@
 
     sget-object v2, Lgh8$b;->R0:Lgh8$b;
 
-    const v3, 0x7f08023f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_report:I
 
-    const v4, 0x7f1227fb
+    sget v4, Lcom/resouce/module/ResSTRING;->public_report:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -778,9 +778,9 @@
 
     sget-object v2, Lgh8$b;->g1:Lgh8$b;
 
-    const v3, 0x7f080490
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -791,9 +791,9 @@
 
     sget-object v2, Lgh8$b;->h1:Lgh8$b;
 
-    const v3, 0x7f081e35
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->splicing_tab_tab_output_pic:I
 
-    const v4, 0x7f1217dd
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -804,9 +804,9 @@
 
     sget-object v2, Lgh8$b;->i1:Lgh8$b;
 
-    const v3, 0x7f080314
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_pdf:I
 
-    const v4, 0x7f122987
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -817,9 +817,9 @@
 
     sget-object v2, Lgh8$b;->j1:Lgh8$b;
 
-    const v3, 0x7f081ab3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_pdf_export_pic_file_60x60:I
 
-    const v4, 0x7f1220ad
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -830,9 +830,9 @@
 
     sget-object v2, Lgh8$b;->a1:Lgh8$b;
 
-    const v3, 0x7f081718
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_save_as:I
 
-    const v4, 0x7f122820
+    sget v4, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-direct {v1, v3, v4, v2}, Ldi9$f;-><init>(IILgh8$b;)V
 
@@ -924,12 +924,12 @@
     :cond_4
     if-eqz v3, :cond_5
 
-    const p0, 0x7f120577
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     goto :goto_2
 
     :cond_5
-    const p0, 0x7f121fba
+    sget p0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 6
     :goto_2
@@ -1348,12 +1348,12 @@
 
     if-eqz p0, :cond_0
 
-    const v0, 0x7f081d35
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_delete:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081d32
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_add:I
 
     .line 2
     :goto_0
@@ -1361,12 +1361,12 @@
 
     if-eqz p0, :cond_1
 
-    const p0, 0x7f122773
+    sget p0, Lcom/resouce/module/ResSTRING;->public_quick_access_delete:I
 
     goto :goto_1
 
     :cond_1
-    const p0, 0x7f12276f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_quick_access_add:I
 
     .line 3
     :goto_1
@@ -1742,7 +1742,7 @@
 
     sget-object v3, Lgh8$b;->f1:Lgh8$b;
 
-    const v7, 0x7f130171
+    sget v7, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance.SubTitle:I
 
     move-object v0, v8
 
@@ -1911,7 +1911,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f121f71
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit_cooperation_label:I
 
     goto :goto_0
 
@@ -1921,7 +1921,7 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    const v0, 0x7f080230
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_kdocs_logo:I
 
     .line 3
     :cond_1
@@ -2460,7 +2460,7 @@
 
     move-result v1
 
-    const v2, 0x7f121256
+    sget v2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     if-eqz v1, :cond_1
 
@@ -2920,7 +2920,7 @@
 
     if-eqz v4, :cond_12
 
-    const v0, 0x7f12302b
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add:I
 
     if-eqz v1, :cond_11
 
@@ -2953,7 +2953,7 @@
     :cond_10
     new-instance v1, Ldi9$f;
 
-    const v0, 0x7f123045
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_remove_in_docinfo:I
 
     sget-object v4, Lgh8$b;->c0:Lgh8$b;
 
@@ -3644,7 +3644,7 @@
     .line 130
     iget-object v0, p0, Ldi9;->x:Ldi9$f;
 
-    const v1, 0x7f121253
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_move_out_share:I
 
     invoke-virtual {v0, v1}, Ldi9$f;->l(I)V
 
@@ -4161,11 +4161,11 @@
     .line 197
     iget-object p1, p0, Ldi9;->l:Ldi9$f;
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     iput v0, p1, Ldi9$f;->c:I
 
-    const v0, 0x7f080afc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_deletefile:I
 
     .line 198
     iput v0, p1, Ldi9$f;->a:I
@@ -4177,7 +4177,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4612,7 +4612,7 @@
     .line 20
     iget-object v0, p0, Ldi9;->Z:Ldi9$f;
 
-    const v1, 0x7f121d74
+    sget v1, Lcom/resouce/module/ResSTRING;->public_avoid_confusion:I
 
     invoke-virtual {v0, v1}, Ldi9$f;->k(I)V
 
@@ -5726,11 +5726,11 @@
     .line 158
     iget-object p1, p0, Ldi9;->l:Ldi9$f;
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     iput v0, p1, Ldi9$f;->c:I
 
-    const v0, 0x7f080221
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     .line 159
     iput v0, p1, Ldi9$f;->a:I

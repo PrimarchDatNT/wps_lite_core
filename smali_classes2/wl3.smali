@@ -155,7 +155,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707bc
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

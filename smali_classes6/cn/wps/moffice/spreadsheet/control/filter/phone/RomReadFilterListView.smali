@@ -218,7 +218,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605dd
+    sget v2, Lcom/resouce/module/ResCOLOR;->rom_read_blue:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -231,7 +231,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2993
+    sget v1, Lcom/resouce/module/ResID;->rom_read_filterlist_container:I
 
     const/4 v2, -0x1
 
@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080980
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_dark:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -256,7 +256,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f08095a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_dark_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -287,21 +287,21 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->r0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0809a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_dark:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->n0:Landroid/view/View;
 
-    const v1, 0x7f08097c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_dark:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->l0:Landroid/view/View;
 
-    const v1, 0x7f08099c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_dark:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -322,7 +322,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080981
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_light:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -336,7 +336,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->j0:Landroid/widget/TextView;
 
-    const v3, 0x7f08095c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_light_bg:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -365,21 +365,21 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->r0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0809a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_desc_light:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->n0:Landroid/view/View;
 
-    const v1, 0x7f08097d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_clear_light:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->l0:Landroid/view/View;
 
-    const v1, 0x7f08099d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_bg_light:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -449,7 +449,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->k0:Landroid/widget/TextView;
 
-    const v2, 0x7f120896
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_no_search_result:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -539,7 +539,7 @@
 .method public g(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e0992
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_rom_read_filterlist_item:I
 
     const/4 v1, 0x0
 
@@ -555,7 +555,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0b0d6c
+    sget p2, Lcom/resouce/module/ResID;->filter_content:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -654,7 +654,7 @@
 .method public h(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e0991
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_rom_read_filterlist_bottom:I
 
     const/4 v1, 0x1
 
@@ -677,7 +677,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0a48
+    sget v2, Lcom/resouce/module/ResID;->et_filter_circle_progressBar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->o0:Landroid/view/View;
 
-    const v1, 0x7f0b0a47
+    sget v1, Lcom/resouce/module/ResID;->et_filter_cancel:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -703,7 +703,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0a56
+    sget v1, Lcom/resouce/module/ResID;->et_filter_title:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -717,7 +717,7 @@
     .line 6
     invoke-static {v1}, Lmj4;->a(Landroid/widget/TextView;)V
 
-    const v1, 0x7f0b2a5a
+    sget v1, Lcom/resouce/module/ResID;->search_box_clean_view:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -733,7 +733,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2a69
+    sget v1, Lcom/resouce/module/ResID;->search_desc:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -744,7 +744,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->r0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0d78
+    sget v1, Lcom/resouce/module/ResID;->filter_search_layout:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -753,7 +753,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b0a4b
+    sget v1, Lcom/resouce/module/ResID;->et_filter_done:I
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -776,7 +776,7 @@
 
     invoke-static {v1}, Lmj4;->a(Landroid/widget/TextView;)V
 
-    const v1, 0x7f0b0a4c
+    sget v1, Lcom/resouce/module/ResID;->et_filter_empty_hint:I
 
     .line 14
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -790,7 +790,7 @@
     .line 15
     invoke-static {v1}, Lmj4;->a(Landroid/widget/TextView;)V
 
-    const v1, 0x7f0b0a50
+    sget v1, Lcom/resouce/module/ResID;->et_filter_list:I
 
     .line 16
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -815,7 +815,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setOnScrollListener(Landroid/widget/AbsListView$OnScrollListener;)V
 
-    const v1, 0x7f0b0dd1
+    sget v1, Lcom/resouce/module/ResID;->fliter_search_et:I
 
     .line 19
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -856,7 +856,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    const v1, 0x7f0b2ae5
+    sget v1, Lcom/resouce/module/ResID;->select_all_filter_items:I
 
     .line 24
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -867,7 +867,7 @@
 
     invoke-static {v1}, Lmj4;->a(Landroid/widget/TextView;)V
 
-    const v1, 0x7f0b2ae3
+    sget v1, Lcom/resouce/module/ResID;->select_all_check_state:I
 
     .line 25
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -878,7 +878,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->p0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2ae6
+    sget v1, Lcom/resouce/module/ResID;->select_all_filter_layout:I
 
     .line 26
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -894,7 +894,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0a53
+    sget v1, Lcom/resouce/module/ResID;->et_filter_list_viewpart:I
 
     .line 28
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1027,7 +1027,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1045,7 +1045,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ListView;->setVisibility(I)V
 
-    const p1, 0x7f0b2ae6
+    sget p1, Lcom/resouce/module/ResID;->select_all_filter_layout:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1054,7 +1054,7 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b0a54
+    sget p1, Lcom/resouce/module/ResID;->et_filter_op_layout:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120d5a
+    sget v0, Lcom/resouce/module/ResSTRING;->filter:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1112,7 +1112,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081d74
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->romread_checkbox_on:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1124,7 +1124,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081d73
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->romread_checkbox_off:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

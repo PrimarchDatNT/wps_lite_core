@@ -30,15 +30,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08044c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_format_cells:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e69
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_xls_black_and_white_et:I
 
     :goto_0
-    const v2, 0x7f1207cd
+    sget v2, Lcom/resouce/module/ResSTRING;->et_complex_format_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/cellsettings/CellSettings$1;-><init>(Lcn/wps/moffice/spreadsheet/control/cellsettings/CellSettings;II)V
 

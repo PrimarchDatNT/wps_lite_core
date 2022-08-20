@@ -23,7 +23,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040398
+    sget v0, Lcom/resouce/module/ResATTR;->linearProgressIndicatorStyle:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/progressindicator/LinearProgressIndicatorSpec;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -85,7 +85,7 @@
 
     new-array v5, p3, [I
 
-    const v3, 0x7f040398
+    sget v3, Lcom/resouce/module/ResATTR;->linearProgressIndicatorStyle:I
 
     move-object v0, p1
 

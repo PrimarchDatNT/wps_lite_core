@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231a6
+    sget v1, Lcom/resouce/module/ResSTRING;->vflynote_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -399,22 +399,22 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f12238c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_install_vflynote_apk:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f12202c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download_vflynote_apk:I
 
     :goto_0
     if-eqz v0, :cond_3
 
-    const v0, 0x7f12238d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_installd:I
 
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f1206ce
+    sget v0, Lcom/resouce/module/ResSTRING;->download:I
 
     .line 7
     :goto_1

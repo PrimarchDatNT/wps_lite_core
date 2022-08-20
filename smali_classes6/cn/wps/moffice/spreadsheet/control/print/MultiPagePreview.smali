@@ -184,7 +184,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06042a
+    sget p2, Lcom/resouce/module/ResCOLOR;->phone_level_3_preview_border_color:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

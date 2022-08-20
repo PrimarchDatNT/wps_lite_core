@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bc8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b79
+    sget v1, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
     :goto_0
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -230,7 +230,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2ba4
+    sget v2, Lcom/resouce/module/ResID;->share_sub_title:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(I)V
 
     :goto_2
-    const v1, 0x7f0b0d27
+    sget v1, Lcom/resouce/module/ResID;->file_size_reduce:I
 
     .line 20
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

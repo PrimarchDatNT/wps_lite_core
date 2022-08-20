@@ -809,9 +809,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f120461
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf_desc:I
 
-    const v4, 0x7f120460
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     const/4 v5, 0x1
 
@@ -835,9 +835,9 @@
     .line 6
     invoke-virtual {v1, v5}, Lkib;->n(Z)V
 
-    const v6, 0x7f080740
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2pdf:I
 
-    const v7, 0x7f0601a6
+    sget v7, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
     new-array v5, v5, [Lcib$b;
 
@@ -886,7 +886,7 @@
     .line 14
     invoke-virtual {v1, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f08076a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic2pdf:I
 
     new-array v5, v5, [Lcib$b;
 

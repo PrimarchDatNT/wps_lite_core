@@ -91,7 +91,7 @@
     .line 1
     iget-object v0, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
     .line 1
     iget-object v0, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -164,7 +164,7 @@
     .line 2
     iget-object p1, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -180,7 +180,7 @@
     :cond_0
     iget-object p1, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const p2, 0x7f1205c7
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -196,7 +196,7 @@
     :cond_1
     iget-object p1, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -234,7 +234,7 @@
     .line 2
     iget-object p1, p0, Lkr3$e;->a:Landroid/content/Context;
 
-    const p2, 0x7f121254
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     const/4 p3, 0x1
 

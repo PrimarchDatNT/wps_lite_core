@@ -544,7 +544,7 @@
     .line 4
     iget-object v1, p0, Lh88;->a:Landroid/content/Context;
 
-    const v2, 0x7f12054f
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_add_storage:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -718,7 +718,7 @@
 
     iget-object v2, p0, Lh88;->a:Landroid/content/Context;
 
-    const v3, 0x7f12282d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save_tab_local:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

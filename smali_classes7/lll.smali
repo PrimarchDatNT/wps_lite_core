@@ -233,12 +233,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f1226cb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_failed:I
 
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f1226d2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_has_start:I
 
     :goto_2
     const/4 v1, 0x0

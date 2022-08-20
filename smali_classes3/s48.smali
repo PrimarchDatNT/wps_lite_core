@@ -45,7 +45,7 @@
 
     if-nez p4, :cond_0
 
-    const p2, 0x7f122536
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network_toast:I
 
     .line 3
     invoke-static {p1, p2, p5}, Lbih;->n(Landroid/content/Context;II)V
@@ -62,7 +62,7 @@
 
     if-eqz p4, :cond_1
 
-    const p2, 0x7f1225d7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pad_open_form_unsupported:I
 
     .line 5
     invoke-static {p1, p2, p5}, Lbih;->n(Landroid/content/Context;II)V
@@ -77,7 +77,7 @@
 
     if-ge p4, p6, :cond_2
 
-    const p2, 0x7f1225a1
+    sget p2, Lcom/resouce/module/ResSTRING;->public_open_form_unsupported:I
 
     .line 7
     invoke-static {p1, p2, p5}, Lbih;->n(Landroid/content/Context;II)V

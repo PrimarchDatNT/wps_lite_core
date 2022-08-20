@@ -207,11 +207,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f122ab7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_unlimited_item:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081e87
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_down_load:I
 
     const/4 v7, 0x0
 
@@ -242,9 +242,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122aa9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_cross_platform_item:I
 
-    const v5, 0x7f081b2b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_all_in_one_office_icon:I
 
     move-object v1, v8
 
@@ -273,9 +273,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f121c93
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
-    const v5, 0x7f081b30
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_no_ad_icon:I
 
     move-object v1, v8
 
@@ -304,9 +304,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122aac
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_excellent_business_ppt:I
 
-    const v5, 0x7f081e8a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_excellent_ppt:I
 
     move-object v1, v8
 
@@ -335,9 +335,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122ab5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_resume_assistant:I
 
-    const v5, 0x7f081e97
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_resume_helper:I
 
     move-object v1, v8
 
@@ -366,9 +366,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122ab9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_wps_forms:I
 
-    const v5, 0x7f081e9b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_wps_forms:I
 
     move-object v1, v8
 
@@ -397,9 +397,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122aae
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_new_product_trial:I
 
-    const v5, 0x7f081e90
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_new_product_trail:I
 
     move-object v1, v8
 
@@ -428,9 +428,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122ab0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_online_charts:I
 
-    const v5, 0x7f081e91
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_online_charts:I
 
     move-object v1, v8
 
@@ -459,9 +459,9 @@
 
     move-result-object v6
 
-    const v3, 0x7f122ab3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_templates_relationship_diagrams:I
 
-    const v5, 0x7f081e96
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_relationship_diagrams:I
 
     move-object v1, v8
 
@@ -515,7 +515,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/TemplatePremiumFragment;->V:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0e82
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_template_premium_head_layout:I
 
     const/4 v1, 0x0
 
@@ -523,7 +523,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b27b2
+    sget v0, Lcom/resouce/module/ResID;->quickpay_temp_top_tip_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/TemplatePremiumFragment;->V:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0e83
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_template_premium_layout:I
 
     const/4 v0, 0x0
 
@@ -608,7 +608,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/TemplatePremiumFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2ed7
+    sget p2, Lcom/resouce/module/ResID;->template_premium_list:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -209,11 +209,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e7f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_template_detail_preview_gif_image_layout:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0f12
+    sget v0, Lcom/resouce/module/ResID;->gif_image:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object v0, p0, Loe6;->Y:Lcn/wps/moffice/docer/preview/RoundRectGifImageView;
 
-    const v0, 0x7f0b078b
+    sget v0, Lcom/resouce/module/ResID;->dot_progress_bar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iput-object v0, p0, Loe6;->a0:Lcn/wps/moffice/docer/preview/DotProgressBar;
 
-    const v0, 0x7f0b0260
+    sget v0, Lcom/resouce/module/ResID;->bottom_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
     .line 6
     iget-object p1, p0, Loe6;->Y:Lcn/wps/moffice/docer/preview/RoundRectGifImageView;
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/docer/preview/RoundRectGifImageView;->setBorderColorResId(I)V
 
@@ -267,7 +267,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703a3
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -323,7 +323,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setBorderWidth(F)V
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setBorderColorResId(I)V
@@ -335,7 +335,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060627
+    sget v2, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -350,7 +350,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a3
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -480,7 +480,7 @@
 
     if-nez v1, :cond_3
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 7
     invoke-static {v0, v1, v3}, Lbih;->n(Landroid/content/Context;II)V

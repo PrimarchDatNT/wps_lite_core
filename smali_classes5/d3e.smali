@@ -36,9 +36,9 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0801d4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_left:I
 
-    const v3, 0x7f121d1a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_align_left:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Ld3e$a;-><init>(Ld3e;III)V
 
@@ -49,9 +49,9 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0801d3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_horiz:I
 
-    const v3, 0x7f121d19
+    sget v3, Lcom/resouce/module/ResSTRING;->public_align_center:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Ld3e$a;-><init>(Ld3e;III)V
 
@@ -62,9 +62,9 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0801d5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_align_align_right:I
 
-    const v3, 0x7f121d1b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_align_right:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Ld3e$a;-><init>(Ld3e;III)V
 

@@ -455,11 +455,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cbe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_link_share_pics_entrance_view:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2b62
+    sget v0, Lcom/resouce/module/ResID;->share_cover_entrance_root:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -468,7 +468,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverEntranceView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2b60
+    sget v0, Lcom/resouce/module/ResID;->share_cover_entrance_list_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -479,7 +479,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverEntranceView;->B:Lcn/wps/moffice/common/linkShare/linkmodify/view/ShareCoverListView;
 
-    const v0, 0x7f0b2b61
+    sget v0, Lcom/resouce/module/ResID;->share_cover_entrance_more:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

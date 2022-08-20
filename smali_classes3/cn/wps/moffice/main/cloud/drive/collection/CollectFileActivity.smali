@@ -277,7 +277,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f121f12
+    sget v0, Lcom/resouce/module/ResSTRING;->public_collection_not_open:I
 
     const/4 v1, 0x0
 
@@ -297,9 +297,9 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f122a8a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_collec_tip_fail:I
 
-    const v1, 0x7f121f11
+    sget v1, Lcom/resouce/module/ResSTRING;->public_collection_mksure_login:I
 
     .line 8
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity$c;

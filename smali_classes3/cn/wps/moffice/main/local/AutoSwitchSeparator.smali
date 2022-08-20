@@ -39,7 +39,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060043
+    sget v0, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -76,7 +76,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 

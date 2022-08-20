@@ -64,7 +64,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f120647
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     if-ne v0, v1, :cond_0
 

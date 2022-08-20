@@ -51,7 +51,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0e0ca1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_invite_edit_member_list_item:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lge4;-><init>(Landroid/content/Context;I)V
@@ -156,7 +156,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f1223a3
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_read:I
 
     return p1
 
@@ -170,7 +170,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f1223a5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_write:I
 
     return p1
 
@@ -184,7 +184,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121f90
+    sget p1, Lcom/resouce/module/ResSTRING;->public_create:I
 
     return p1
 
@@ -225,7 +225,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b07f3
+    sget v0, Lcom/resouce/module/ResID;->edit_avator:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -236,7 +236,7 @@
 
     iput-object v0, p2, Lge4$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0821
+    sget v0, Lcom/resouce/module/ResID;->edit_name:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     iput-object v0, p2, Lge4$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0824
+    sget v0, Lcom/resouce/module/ResID;->edit_permission:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080861
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     .line 4
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

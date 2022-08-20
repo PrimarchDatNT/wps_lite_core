@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b0ba0
+    sget v2, Lcom/resouce/module/ResID;->et_search_tab:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -507,7 +507,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0ba0
+    sget v0, Lcom/resouce/module/ResID;->et_search_tab:I
 
     .line 2
     invoke-virtual {p0, v0}, La6h;->a(I)Landroid/view/View;
@@ -635,7 +635,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0ba0
+    sget v0, Lcom/resouce/module/ResID;->et_search_tab:I
 
     .line 2
     invoke-virtual {p0, v0}, La6h;->a(I)Landroid/view/View;

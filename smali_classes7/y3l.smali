@@ -582,7 +582,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1232f8
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_hyperlink_document_top:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -608,7 +608,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1232f7
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_hyperlink_document_bottom:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

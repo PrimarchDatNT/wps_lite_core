@@ -193,7 +193,7 @@
     :cond_0
     iget-object p1, p0, Lat4;->a:Landroid/app/Activity;
 
-    const p3, 0x7f121cea
+    sget p3, Lcom/resouce/module/ResSTRING;->public_activation_title:I
 
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -201,7 +201,7 @@
 
     iget-object v0, p0, Lat4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121ce5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_loading:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -275,7 +275,7 @@
     .line 3
     iget-object p1, p0, Lat4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f121ce0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_activation_cdkey_noinput:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -298,7 +298,7 @@
     .line 5
     iget-object p1, p0, Lat4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
     .line 8
     iget-object p1, p0, Lat4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f121ce7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_activation_not_support_ad_free:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -364,7 +364,7 @@
     .line 11
     iget-object p1, p0, Lat4;->a:Landroid/app/Activity;
 
-    const p2, 0x7f121ce8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_activation_not_support_premium:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -394,12 +394,12 @@
 
     if-ne v1, v0, :cond_0
 
-    const v0, 0x7f121cde
+    sget v0, Lcom/resouce/module/ResSTRING;->public_activation_ad_free_redeem_code_title:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f121ce1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_activation_enterkey:I
 
     return v0
 .end method
@@ -462,7 +462,7 @@
     :cond_0
     iget-object v0, p0, Lat4;->d:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0b2f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cdkey_view:I
 
     const/4 v2, 0x0
 
@@ -503,7 +503,7 @@
     .line 7
     iget-object v0, p0, Lat4;->b:Landroid/view/View;
 
-    const v2, 0x7f0b06a1
+    sget v2, Lcom/resouce/module/ResID;->dialog_title:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -520,7 +520,7 @@
     .line 8
     iget-object v0, p0, Lat4;->b:Landroid/view/View;
 
-    const v2, 0x7f0b037a
+    sget v2, Lcom/resouce/module/ResID;->cdkey_input:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -539,7 +539,7 @@
     .line 11
     iget-object p1, p0, Lat4;->b:Landroid/view/View;
 
-    const v3, 0x7f0b037b
+    sget v3, Lcom/resouce/module/ResID;->cdkey_scan:I
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -570,7 +570,7 @@
     :cond_1
     iget-object p1, p0, Lat4;->c:Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v4, Lat4$c;
 
@@ -581,7 +581,7 @@
     .line 16
     iget-object p1, p0, Lat4;->c:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lat4$d;
 
@@ -620,7 +620,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121ce2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_failed:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -633,7 +633,7 @@
 
     invoke-direct {p1, p0}, Lat4$h;-><init>(Lat4;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

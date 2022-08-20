@@ -70,7 +70,7 @@
     return p0
 
     :cond_1
-    const p1, 0x7f121745
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 5
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -204,7 +204,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d43
+    sget v2, Lcom/resouce/module/ResSTRING;->file_merge_file_common_name:I
 
     .line 14
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

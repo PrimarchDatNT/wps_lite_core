@@ -27,9 +27,9 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/FillCells$ToolbarFillcells;->this$0:Lcn/wps/moffice/spreadsheet/control/FillCells;
 
-    const p1, 0x7f080dfc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_fill_down_et:I
 
-    const v0, 0x7f122783
+    sget v0, Lcom/resouce/module/ResSTRING;->public_quickstyle_data_fill:I
 
     const/4 v1, 0x1
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -177,7 +177,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -274,7 +274,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -383,7 +383,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e01f0
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_fillcells_dialog:I
 
     const/4 v4, 0x0
 
@@ -577,7 +577,7 @@
 
     aget v7, v7, v6
 
-    const v8, 0x7f0b0a3f
+    sget v8, Lcom/resouce/module/ResID;->et_fillcells_left_layout:I
 
     if-ne v7, v8, :cond_5
 
@@ -597,7 +597,7 @@
 
     aget v7, v7, v6
 
-    const v8, 0x7f0b0a42
+    sget v8, Lcom/resouce/module/ResID;->et_fillcells_right_layout:I
 
     if-ne v7, v8, :cond_6
 
@@ -676,7 +676,7 @@
 
     aget v2, v2, v4
 
-    const v5, 0x7f0b0a39
+    sget v5, Lcom/resouce/module/ResID;->et_fillcells_down_layout:I
 
     if-ne v2, v5, :cond_a
 
@@ -696,7 +696,7 @@
 
     aget v2, v2, v4
 
-    const v5, 0x7f0b0a45
+    sget v5, Lcom/resouce/module/ResID;->et_fillcells_up_layout:I
 
     if-ne v2, v5, :cond_b
 

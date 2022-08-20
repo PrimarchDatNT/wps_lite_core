@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01a5
+    sget v0, Lcom/resouce/module/ResID;->autoplay_item:I
 
     if-ne p1, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2067
+    sget v0, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     if-ne p1, v0, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2f85
+    sget v0, Lcom/resouce/module/ResID;->thumbnails_item:I
 
     if-ne p1, v0, :cond_2
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b29b6
+    sget v0, Lcom/resouce/module/ResID;->rotate_screen_item:I
 
     if-ne p1, v0, :cond_3
 

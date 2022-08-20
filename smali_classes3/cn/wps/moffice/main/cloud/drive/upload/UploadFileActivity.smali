@@ -711,7 +711,7 @@
     .line 4
     new-instance p1, Lre7;
 
-    const p2, 0x7f13013a
+    sget p2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, p0, p2, v0}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 
@@ -772,7 +772,7 @@
     .line 4
     new-instance p2, Lre7;
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p2, p0, v0, p1}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 

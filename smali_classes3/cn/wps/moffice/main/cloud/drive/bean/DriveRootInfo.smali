@@ -95,7 +95,7 @@
 
     sput-object v0, Lcn/wps/moffice/main/cloud/drive/bean/DriveRootInfo;->TYPE_ICON_MAP:Landroid/util/SparseArray;
 
-    const v1, 0x7f081fe4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_drive_group_share:I
 
     .line 2
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -106,7 +106,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081fe0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_drive_file_item_contract:I
 
     .line 3
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -185,7 +185,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081fe6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_drive_member_trace:I
 
     .line 8
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -196,7 +196,7 @@
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081fe2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_drive_group_member:I
 
     .line 9
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

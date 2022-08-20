@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121599
+    sget v1, Lcom/resouce/module/ResSTRING;->pad_docer_dex_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0768
+    sget v1, Lcom/resouce/module/ResID;->document_root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0768
+    sget v1, Lcom/resouce/module/ResID;->document_root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e053b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_home_docer_layout:I
 
     const/4 p3, 0x0
 
@@ -191,7 +191,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2567
+    sget p2, Lcom/resouce/module/ResID;->ptr_super_webview:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b1c36
+    sget p2, Lcom/resouce/module/ResID;->pad_search_container:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b1c3b
+    sget p2, Lcom/resouce/module/ResID;->pad_search_tip_tv:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -235,14 +235,14 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p2, 0x7f121cdc
+    sget p2, Lcom/resouce/module/ResSTRING;->public_action_search:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b1bc9
+    sget p2, Lcom/resouce/module/ResID;->pad_docer_home_circle_progressBar:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f081fa6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->webview_black_progressbar:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -297,7 +297,7 @@
     .line 15
     iget-object p2, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b1bca
+    sget p3, Lcom/resouce/module/ResID;->pad_docer_home_mine:I
 
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -390,7 +390,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1204fe
+    sget p2, Lcom/resouce/module/ResSTRING;->docer_mall_default_url:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -411,7 +411,7 @@
     .line 28
     iget-object p2, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadDocerFragment;->V:Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b2ff5
+    sget p3, Lcom/resouce/module/ResID;->title_docer_pad:I
 
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

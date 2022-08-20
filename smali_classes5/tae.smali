@@ -22,7 +22,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b1781
+    sget v0, Lcom/resouce/module/ResID;->long_pic_share_preview_list:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -41,7 +41,7 @@
     .line 4
     iget-object v0, p0, Ltae;->e:Landroid/widget/ListView;
 
-    const v1, 0x7f081373
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_selector_null:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setSelector(I)V
 

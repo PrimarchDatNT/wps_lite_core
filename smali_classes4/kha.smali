@@ -34,7 +34,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f130132
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_No_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -42,12 +42,12 @@
     .line 2
     invoke-virtual {p0}, Lkha;->W2()V
 
-    const p1, 0x7f0e00de
+    sget p1, Lcom/resouce/module/ResLAYOUT;->dialog_date_picker:I
 
     .line 3
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f0b0625
+    sget p1, Lcom/resouce/module/ResID;->date_picker:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     iput-object p1, p0, Lkha;->S:Lcn/wps/moffice/main/cloud/roaming/account/setting/userinfo/birthday/DatePicker;
 
-    const p1, 0x7f0b0342
+    sget p1, Lcom/resouce/module/ResID;->cancel_tv:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -69,7 +69,7 @@
 
     iput-object p1, p0, Lkha;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0529
+    sget p1, Lcom/resouce/module/ResID;->confirm_tv:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     iput-object p1, p0, Lkha;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b3015
+    sget p1, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -306,7 +306,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0342
+    sget v0, Lcom/resouce/module/ResID;->cancel_tv:I
 
     if-ne p1, v0, :cond_0
 
@@ -321,7 +321,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0529
+    sget v0, Lcom/resouce/module/ResID;->confirm_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -334,7 +334,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1215d9
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_date_format:I
 
     const/4 v1, 0x3
 

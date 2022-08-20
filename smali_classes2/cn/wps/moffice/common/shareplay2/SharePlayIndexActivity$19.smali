@@ -81,7 +81,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity$19;->this$0:Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity;
 
-    const v1, 0x7f121c3d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_upload_file_fail:I
 
     const/4 v2, 0x0
 

@@ -700,7 +700,7 @@
     .line 38
     iget-object p1, p0, Lgvi;->a:Landroid/content/Context;
 
-    const p2, 0x7f121d23
+    sget p2, Lcom/resouce/module/ResSTRING;->public_amazon_autosave_finished:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 

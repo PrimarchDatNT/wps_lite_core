@@ -33,7 +33,7 @@
     .line 1
     invoke-super {p0}, Landroid/app/Activity;->finishAndRemoveTask()V
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 2
     invoke-virtual {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121271
+    sget v1, Lcom/resouce/module/ResSTRING;->hotfix_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -110,7 +110,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/fixtip/HotFixForcedRebootTipActivity$a;-><init>(Lcn/wps/moffice/common/fixtip/HotFixForcedRebootTipActivity;)V
 
-    const v2, 0x7f12126f    # 1.94163E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->hotfix_agree:I    # 1.94163E38f
 
     invoke-virtual {p1, v2, v0, v1}, Lhd3;->setNeutralButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

@@ -31,7 +31,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0b33b3
+    sget v2, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b124e
+    sget v1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -260,7 +260,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b307e
+    sget v0, Lcom/resouce/module/ResID;->top_shadow:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -306,7 +306,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081fa6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->webview_black_progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

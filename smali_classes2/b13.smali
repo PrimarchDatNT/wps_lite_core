@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00a4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->common_drive_base:I
 
     const/4 v2, 0x0
 
@@ -141,7 +141,7 @@
 
     iput-object v0, p0, Lb13;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07c3
+    sget v1, Lcom/resouce/module/ResID;->drive_container:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

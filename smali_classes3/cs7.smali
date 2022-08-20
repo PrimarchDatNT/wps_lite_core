@@ -21,7 +21,7 @@
     .line 1
     invoke-direct {p0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e06e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_account_setting_sex:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -42,7 +42,7 @@
     invoke-virtual {p0, p1}, Lhd3;->setLimitHeight(F)V
 
     :cond_0
-    const p1, 0x7f0b2b39
+    sget p1, Lcom/resouce/module/ResID;->sex_male:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
     .line 7
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2b37
+    sget p1, Lcom/resouce/module/ResID;->sex_female:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -119,12 +119,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f08081e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_gender_male_selected:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08081d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_gender_male:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -134,12 +134,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f08081b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_gender_female:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f08081c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_gender_female_selected:I
 
     :goto_1
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -155,7 +155,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b39
+    sget v0, Lcom/resouce/module/ResID;->sex_male:I
 
     if-ne p1, v0, :cond_0
 
@@ -167,7 +167,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2b37
+    sget v0, Lcom/resouce/module/ResID;->sex_female:I
 
     if-ne p1, v0, :cond_1
 

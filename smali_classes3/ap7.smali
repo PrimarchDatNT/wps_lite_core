@@ -452,7 +452,7 @@
 
     move-result-object v6
 
-    const v10, 0x7f122e2b
+    sget v10, Lcom/resouce/module/ResSTRING;->rename_file_item_new_name_prefix:I
 
     const/4 v11, 0x1
 
@@ -471,7 +471,7 @@
 
     move-result-object v6
 
-    const v10, 0x7f122e2c
+    sget v10, Lcom/resouce/module/ResSTRING;->rename_file_item_old_name_prefix:I
 
     new-array v11, v11, [Ljava/lang/Object;
 

@@ -92,19 +92,19 @@
 
     sget-boolean v1, Ljif;->o:Z
 
-    const v2, 0x7f080d78
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_remark_et:I
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080226
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_edit:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080d78
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_remark_et:I
 
     :goto_0
-    const v3, 0x7f121f1d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_comment_add:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$PostilerItem;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -117,10 +117,10 @@
 
     if-eqz v1, :cond_1
 
-    const v2, 0x7f080278
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_postil:I
 
     :cond_1
-    const v1, 0x7f121f1c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$1;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -133,15 +133,15 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f080221
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f080d63
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_delete_remark_et:I
 
     :goto_1
-    const v2, 0x7f120c7e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_postil_delete:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$2;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -154,15 +154,15 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f080284
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_show_postil:I
 
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f080d7e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_show_remark_et:I
 
     :goto_2
-    const v2, 0x7f121f21
+    sget v2, Lcom/resouce/module/ResSTRING;->public_comment_show_comment:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$3;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -175,22 +175,22 @@
 
     if-eqz v1, :cond_4
 
-    const v2, 0x7f080259
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_all_postil:I
 
     goto :goto_3
 
     :cond_4
-    const v2, 0x7f080ceb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_all_remark_et:I
 
     :goto_3
     if-eqz v1, :cond_5
 
-    const v1, 0x7f120c81
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_postil_show_all_note:I
 
     goto :goto_4
 
     :cond_5
-    const v1, 0x7f120c80
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_postil_show_all:I
 
     :goto_4
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$4;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
@@ -204,15 +204,15 @@
 
     if-eqz v1, :cond_6
 
-    const v1, 0x7f08025c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_changing_username:I
 
     goto :goto_5
 
     :cond_6
-    const v1, 0x7f080c17
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_doc_changing_username_et:I
 
     :goto_5
-    const v2, 0x7f1224d6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_modify_username:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$5;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -617,7 +617,7 @@
     .line 6
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 7
     invoke-static {p1, p3}, Lsjf;->h(II)V
@@ -795,9 +795,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/note/Postiler$11;
 
-    const v1, 0x7f080d77
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_remark:I
 
-    const v2, 0x7f121f1c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/note/Postiler$11;-><init>(Lcn/wps/moffice/spreadsheet/control/note/Postiler;II)V
 
@@ -814,11 +814,11 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/note/Postiler;->Y:Landroid/content/Context;
 
-    const v3, 0x7f121f1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_comment:I
 
-    const v4, 0x7f080278
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_doc_postil:I
 
-    const v5, 0x7f121f1c
+    sget v5, Lcom/resouce/module/ResSTRING;->public_comment:I
 
     move-object v0, v7
 

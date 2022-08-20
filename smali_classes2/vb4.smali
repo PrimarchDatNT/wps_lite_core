@@ -197,7 +197,7 @@
     .line 7
     iget-object v0, p0, Ltb4;->S:Landroid/content/Context;
 
-    const v1, 0x7f122855
+    sget v1, Lcom/resouce/module/ResSTRING;->public_screencast_scan_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -217,7 +217,7 @@
 
     iget-object v0, p0, Ltb4;->S:Landroid/content/Context;
 
-    const v2, 0x7f122b1d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_try_scan_screencast:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
 
     iget-object v0, p0, Ltb4;->S:Landroid/content/Context;
 
-    const v1, 0x7f122854
+    sget v1, Lcom/resouce/module/ResSTRING;->public_screencast_help:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -246,7 +246,7 @@
 
     iget-object v0, p0, Ltb4;->S:Landroid/content/Context;
 
-    const v1, 0x7f122b30
+    sget v1, Lcom/resouce/module/ResSTRING;->public_tv_screen_scan:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0479
+    sget v1, Lcom/resouce/module/ResLAYOUT;->lebo_cast_screen_layout:I
 
     const/4 v2, 0x0
 
@@ -309,7 +309,7 @@
 
     iput-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2860
+    sget v1, Lcom/resouce/module/ResID;->recycler_browse:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -323,7 +323,7 @@
     .line 4
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b287f
+    sget v1, Lcom/resouce/module/ResID;->refresh_browse:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 5
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2a6a
+    sget v1, Lcom/resouce/module/ResID;->search_device_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
     .line 6
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2a94
+    sget v1, Lcom/resouce/module/ResID;->search_no_device:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -353,7 +353,7 @@
 
     iput-object v0, p0, Ltb4;->X:Landroid/view/View;
 
-    const v1, 0x7f0b15a9
+    sget v1, Lcom/resouce/module/ResID;->lelink_loading_no_device:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
     .line 8
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2a6b
+    sget v1, Lcom/resouce/module/ResID;->search_device_list_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -376,7 +376,7 @@
     .line 9
     iget-object v0, p0, Ltb4;->X:Landroid/view/View;
 
-    const v1, 0x7f0b15aa
+    sget v1, Lcom/resouce/module/ResID;->lelink_retry:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -387,7 +387,7 @@
     .line 10
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0369
+    sget v1, Lcom/resouce/module/ResID;->cast_screen_scan_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
     .line 11
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b036a
+    sget v1, Lcom/resouce/module/ResID;->cast_screen_scan_tips_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -411,7 +411,7 @@
     .line 12
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0f25
+    sget v1, Lcom/resouce/module/ResID;->go_wifi_settings:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -422,7 +422,7 @@
     .line 13
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b29ff
+    sget v1, Lcom/resouce/module/ResID;->scan_code_cast_screen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
     .line 14
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2e14
+    sget v1, Lcom/resouce/module/ResID;->system_cast_screen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
     .line 15
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1586
+    sget v1, Lcom/resouce/module/ResID;->lebo_cast_screen_other_net:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
     .line 16
     iget-object v0, p0, Ltb4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1587
+    sget v1, Lcom/resouce/module/ResID;->lebo_cast_screen_wifi:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

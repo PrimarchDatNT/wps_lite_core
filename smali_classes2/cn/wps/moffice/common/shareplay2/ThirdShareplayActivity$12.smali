@@ -233,7 +233,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity$12;->this$0:Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity;
 
-    const v0, 0x7f121c0c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_download_file_fail:I
 
     const/4 v1, 0x1
 

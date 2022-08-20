@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0620
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pdf_ciba_bar:I
 
     const/4 p4, 0x1
 
@@ -234,7 +234,7 @@
 .method public final b()V
     .locals 5
 
-    const v0, 0x7f0b03fe
+    sget v0, Lcom/resouce/module/ResID;->ciba_more_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->U:Landroid/view/View;
 
-    const v0, 0x7f0b0401
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_more:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b30c7
+    sget v0, Lcom/resouce/module/ResID;->translations_text:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b03ff
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_error:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0402
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_ok:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b0405
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_word:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0404
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_symbols:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0400
+    sget v0, Lcom/resouce/module/ResID;->ciba_text_interpretation:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -451,7 +451,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/pdf/reader/controller/menu/ciba/CibaBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f122526
+    sget v1, Lcom/resouce/module/ResSTRING;->public_nfc_please_wait:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

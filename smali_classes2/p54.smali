@@ -335,7 +335,7 @@
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f0e00a2
+    sget p2, Lcom/resouce/module/ResLAYOUT;->commodity_item:I
 
     const/4 v1, 0x0
 
@@ -349,7 +349,7 @@
 
     invoke-direct {v0}, Lp54$c;-><init>()V
 
-    const v1, 0x7f0b04d8
+    sget v1, Lcom/resouce/module/ResID;->commodity_img:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
 
     iput-object v1, v0, Lp54$c;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b04d6
+    sget v1, Lcom/resouce/module/ResID;->commodity_content_text:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
 
     iput-object v1, v0, Lp54$c;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b04da
+    sget v1, Lcom/resouce/module/ResID;->commodity_price:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v1, v0, Lp54$c;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d18
+    sget v1, Lcom/resouce/module/ResID;->pay_count:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -393,7 +393,7 @@
 
     iput-object v1, v0, Lp54$c;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b04d9
+    sget v1, Lcom/resouce/module/ResID;->commodity_more:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -544,7 +544,7 @@
     .line 21
     iget-object p3, v0, Lp54$c;->d:Landroid/widget/TextView;
 
-    const v2, 0x7f1202ed
+    sget v2, Lcom/resouce/module/ResSTRING;->commodity_item_max_pay_count:I
 
     invoke-virtual {p3, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -560,7 +560,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1202ee
+    sget v5, Lcom/resouce/module/ResSTRING;->commodity_item_pay_count:I
 
     .line 23
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

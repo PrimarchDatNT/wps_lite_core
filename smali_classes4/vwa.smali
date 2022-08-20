@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -199,7 +199,7 @@
     .line 1
     iput-object p2, p0, Lvwa;->b:Landroid/widget/ListView;
 
-    const p2, 0x7f0e071e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_home_header_scan_tips:I
 
     const/4 v0, 0x0
 
@@ -210,7 +210,7 @@
 
     iput-object p1, p0, Lvwa;->c:Landroid/view/View;
 
-    const p2, 0x7f0b2058
+    sget p2, Lcom/resouce/module/ResID;->phone_message_close_button:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
     .line 2
     iget-object p1, p0, Lvwa;->c:Landroid/view/View;
 
-    const v0, 0x7f0b151e
+    sget v0, Lcom/resouce/module/ResID;->last_login_type_tips:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
     .line 3
     iget-object v0, p0, Lvwa;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12283d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_file_backup_tips:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
     .line 4
     iget-object v2, p0, Lvwa;->a:Landroid/app/Activity;
 
-    const v3, 0x7f12283c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_scan_file_backup_now:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -349,7 +349,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -452,7 +452,7 @@
     .line 6
     iget-object p1, p0, Lvwa;->c:Landroid/view/View;
 
-    const v1, 0x7f0b151e
+    sget v1, Lcom/resouce/module/ResID;->last_login_type_tips:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -478,7 +478,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f121109
+    sget v5, Lcom/resouce/module/ResSTRING;->home_recents_list_relogin_tips:I
 
     if-ne v1, v3, :cond_1
 
@@ -543,7 +543,7 @@
     :goto_0
     iget-object v1, p0, Lvwa;->a:Landroid/app/Activity;
 
-    const v3, 0x7f12110a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_recents_list_relogin_tips_highlight:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -583,7 +583,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0605f1
+    sget v6, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -661,7 +661,7 @@
     .line 2
     iget-object p1, p0, Lvwa;->c:Landroid/view/View;
 
-    const v1, 0x7f0b151e
+    sget v1, Lcom/resouce/module/ResID;->last_login_type_tips:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -712,7 +712,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

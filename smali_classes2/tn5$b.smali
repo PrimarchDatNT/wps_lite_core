@@ -34,7 +34,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f0819ce
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_template_thumbnail_bg:I
 
     .line 1
     invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setBackgroundResource(I)V

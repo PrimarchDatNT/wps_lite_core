@@ -86,7 +86,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f1304aa
+    sget v0, Lcom/resouce/module/ResSTYLE;->material_progressbar_horizontal:I
 
     .line 10
     invoke-direct {p0, p1, p2, v0}, Lcn/wps/moffice/plugin/common/view/MaterialProgressBarHorizontal;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -375,7 +375,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f06050f
+    sget v0, Lcom/resouce/module/ResCOLOR;->progressTrackColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -414,7 +414,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -24,7 +24,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -102,7 +102,7 @@
 .method public final Y2()V
     .locals 2
 
-    const v0, 0x7f0b2b5b
+    sget v0, Lcom/resouce/module/ResID;->share_choose_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setClickable(Z)V
 
-    const v0, 0x7f0b2b59
+    sget v0, Lcom/resouce/module/ResID;->share_choose_bg:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2b58
+    sget v0, Lcom/resouce/module/ResID;->share_choose_back:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
     .line 5
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121f7f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_copy_success:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -248,18 +248,18 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0592
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_part_share_dialog_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0785
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_part_share_dialog_layout:I
 
     .line 2
     :goto_0
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(I)V
 
-    const v0, 0x7f0b2b5b
+    sget v0, Lcom/resouce/module/ResID;->share_choose_dialog:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
     :cond_1
     iget-object v0, p0, Lbff;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2b5a
+    sget v1, Lcom/resouce/module/ResID;->share_choose_contain:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -358,7 +358,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0d67
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_part_share_contain_item:I
 
     const/4 v5, 0x0
 
@@ -366,7 +366,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b2b5c
+    sget v4, Lcom/resouce/module/ResID;->share_choose_icon:I
 
     .line 16
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -379,7 +379,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v4, 0x7f0b2b5d
+    sget v4, Lcom/resouce/module/ResID;->share_choose_text:I
 
     .line 17
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,11 +414,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b59
+    sget v0, Lcom/resouce/module/ResID;->share_choose_bg:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b2b58
+    sget v0, Lcom/resouce/module/ResID;->share_choose_back:I
 
     if-ne p1, v0, :cond_1
 

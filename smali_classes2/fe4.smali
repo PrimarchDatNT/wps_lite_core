@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0}, Lud4;-><init>()V
 
-    const v0, 0x7f0b1375
+    sget v0, Lcom/resouce/module/ResID;->invite_edit_empty_page:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -27,7 +27,7 @@
 
     iput-object v0, p0, Lfe4;->b:Landroid/view/View;
 
-    const v0, 0x7f0b085b
+    sget v0, Lcom/resouce/module/ResID;->empty_page_image:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lfe4;->c:Landroid/view/View;
 
-    const v0, 0x7f0b085c
+    sget v0, Lcom/resouce/module/ResID;->empty_page_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

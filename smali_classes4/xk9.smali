@@ -11,9 +11,9 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLandroid/app/Activity;Lrk9$b;ZLandroid/view/View$OnClickListener;)V
     .locals 10
 
-    const v4, 0x7f081f43
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_mm_24:I
 
-    const v5, 0x7f122bd8
+    sget v5, Lcom/resouce/module/ResSTRING;->public_vipshare_wechat:I
 
     move-object v0, p0
 
@@ -60,7 +60,7 @@
 
     move-result v0
 
-    const v1, 0x7f12299f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_to_friend:I
 
     if-eqz v0, :cond_0
 
@@ -74,7 +74,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228f4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_file_to_friend:I
 
     :goto_0
     return v1

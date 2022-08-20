@@ -194,7 +194,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d3b
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_commentsmode_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1215a9
+    sget v3, Lcom/resouce/module/ResSTRING;->pad_keyboard_unlocked:I
 
     invoke-static {v0, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100af
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -381,7 +381,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100b0
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -412,7 +412,7 @@
     .line 2
     new-instance v0, Lp5l;
 
-    const v1, 0x7f0b1c4b
+    sget v1, Lcom/resouce/module/ResID;->pad_write_comments_toolbar_layout:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -668,7 +668,7 @@
 
     iput p1, v0, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    const v0, 0x7f0b0245
+    sget v0, Lcom/resouce/module/ResID;->bottom_arrange:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -801,7 +801,7 @@
 
     invoke-direct {v0}, Lyyl;-><init>()V
 
-    const v1, 0x7f0b35a6
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_function:I
 
     .line 3
     invoke-virtual {v0, v1}, Lyyl;->w(I)V

@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122055
+    sget p2, Lcom/resouce/module/ResSTRING;->public_enter_correct_email_address:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

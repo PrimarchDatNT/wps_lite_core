@@ -56,13 +56,13 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e04dc
+    sget v2, Lcom/resouce/module/ResLAYOUT;->notify_switch_guide_item_view:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1a75    # 1.8490006E38f
+    sget v1, Lcom/resouce/module/ResID;->notify_tips_content:I    # 1.8490006E38f
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,21 +71,21 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1a74    # 1.8490004E38f
+    sget v2, Lcom/resouce/module/ResID;->notify_tips_confirm:I    # 1.8490004E38f
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b1a73    # 1.8490002E38f
+    sget v3, Lcom/resouce/module/ResID;->notify_tips_cancel:I    # 1.8490002E38f
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f122c9f
+    sget v4, Lcom/resouce/module/ResSTRING;->push_guide_home_recent_share:I
 
     .line 6
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
@@ -757,7 +757,7 @@
 
     invoke-direct {v0, p0}, Lhd9;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12157a    # 1.941788E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->open_push_switch_title:I    # 1.941788E38f
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -784,12 +784,12 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122ca1
+    sget v1, Lcom/resouce/module/ResSTRING;->push_guide_use_duration:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f122ca0
+    sget v1, Lcom/resouce/module/ResSTRING;->push_guide_msg_center:I
 
     :goto_0
     new-array v3, v2, [Z
@@ -814,14 +814,14 @@
     .line 8
     invoke-virtual {v0, v2}, Lhd3;->disableCollectDilaogForPadPhone(Z)V
 
-    const v1, 0x7f121577
+    sget v1, Lcom/resouce/module/ResSTRING;->open_push_switch_cancel:I
 
     const/4 v2, 0x0
 
     .line 9
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121578
+    sget v1, Lcom/resouce/module/ResSTRING;->open_push_switch_confirm:I
 
     .line 10
     new-instance v2, Lloa$b;

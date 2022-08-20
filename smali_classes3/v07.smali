@@ -205,7 +205,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121ee9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 
     invoke-virtual {v0, v1}, Lm07$a;->b(Ljava/lang/String;)Lm07$a;
 
-    const v1, 0x7f0816ab
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_font_nonexistent:I
 
     .line 4
     invoke-virtual {v0, v1}, Lm07$a;->c(I)Lm07$a;

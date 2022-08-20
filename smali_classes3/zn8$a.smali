@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081ce3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_webview_error:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

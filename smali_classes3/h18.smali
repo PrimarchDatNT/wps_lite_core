@@ -32,7 +32,7 @@
 .method public C()I
     .locals 1
 
-    const v0, 0x7f0e074f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_roaming_record_list:I
 
     return v0
 .end method
@@ -125,7 +125,7 @@
 .method public p()I
     .locals 1
 
-    const v0, 0x7f0e0743
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_roaming_import_process_stub:I
 
     return v0
 .end method

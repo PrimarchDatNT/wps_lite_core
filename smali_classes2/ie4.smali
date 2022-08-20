@@ -72,7 +72,7 @@
     .line 7
     invoke-virtual {v6, v0}, Lyl3;->t(I)Lyl3;
 
-    const v0, 0x7f1223a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_write:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -90,7 +90,7 @@
 
     invoke-virtual {v6, v0, v2, v1}, Lyl3;->g(Ljava/lang/String;ZLjava/lang/String;)Lyl3;
 
-    const v0, 0x7f1223a3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_read:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -106,7 +106,7 @@
 
     invoke-virtual {v6, v0, v2, v1}, Lyl3;->g(Ljava/lang/String;ZLjava/lang/String;)Lyl3;
 
-    const v0, 0x7f121253
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_move_out_share:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -125,7 +125,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025d
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -159,7 +159,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0818b8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

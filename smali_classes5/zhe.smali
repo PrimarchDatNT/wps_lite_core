@@ -43,7 +43,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0818
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_template_search_header_item:I
 
     const/4 v2, 0x0
 
@@ -53,7 +53,7 @@
 
     iput-object p1, p0, Lzhe;->b:Landroid/view/View;
 
-    const v0, 0x7f0b2451
+    sget v0, Lcom/resouce/module/ResID;->ppt_template_header_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

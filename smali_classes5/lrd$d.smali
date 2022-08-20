@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     .line 6
     :goto_0
@@ -128,7 +128,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f121fec
+    sget v4, Lcom/resouce/module/ResSTRING;->public_doc_end_preview_tip:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -147,7 +147,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0709dd
+    sget v5, Lcom/resouce/module/ResDIMEN;->ppt_pull_header_text_size:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -166,7 +166,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0709dc
+    sget v6, Lcom/resouce/module/ResDIMEN;->ppt_pull_header_margin_top:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

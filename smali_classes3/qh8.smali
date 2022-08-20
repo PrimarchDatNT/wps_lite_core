@@ -232,14 +232,14 @@
 
     iget-object v1, p0, Lqh8;->T:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0e0d86
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_fanyi_history_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 4
     iget-object v0, p0, Lqh8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c67
+    sget v1, Lcom/resouce/module/ResID;->fanyi_network_error:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -250,7 +250,7 @@
     .line 5
     iget-object v1, p0, Lqh8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c61
+    sget v2, Lcom/resouce/module/ResID;->fanyi_empty_tips:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
     .line 7
     iget-object v1, p0, Lqh8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c63
+    sget v2, Lcom/resouce/module/ResID;->fanyi_history_list:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -338,13 +338,13 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0d85
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_fanyi_history_footer_layout:I
 
     invoke-virtual {v0, v2, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v6
 
-    const v0, 0x7f0b0c5f
+    sget v0, Lcom/resouce/module/ResID;->fanyi_contact_custom_service:I
 
     .line 17
     invoke-virtual {v6, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d88
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_fanyi_main_layout:I
 
     const/4 v2, 0x0
 
@@ -460,7 +460,7 @@
     .line 2
     iget-object v1, p0, Lqh8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c60
+    sget v2, Lcom/resouce/module/ResID;->fanyi_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 3
     iget-object v1, p0, Lqh8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c6d
+    sget v2, Lcom/resouce/module/ResID;->fanyi_title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
 
     iput-object v1, p0, Lqh8;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f120cab
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_history:I
 
     .line 4
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -513,7 +513,7 @@
     .line 9
     iget-object v1, p0, Lqh8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c5e
+    sget v2, Lcom/resouce/module/ResID;->fanyi_circle_progressBar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -568,7 +568,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0c5f
+    sget v0, Lcom/resouce/module/ResID;->fanyi_contact_custom_service:I
 
     if-ne p1, v0, :cond_2
 

@@ -80,12 +80,12 @@
     .line 4
     iput v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;->I:I
 
-    const v0, 0x7f081628
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star:I
 
     .line 5
     iput v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;->S:I
 
-    const v0, 0x7f08162a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star_96px_selected:I
 
     .line 6
     iput v0, p0, Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;->T:I
@@ -171,7 +171,7 @@
     .line 3
     iput v1, p1, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    const v1, 0x7f08179f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_thumbnail_file_status_star_selected_bg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V

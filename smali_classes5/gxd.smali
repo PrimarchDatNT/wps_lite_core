@@ -93,9 +93,9 @@
     .line 5
     new-instance v1, Lgxd$e;
 
-    const v2, 0x7f080226
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_edit:I
 
-    const v5, 0x7f121dd0
+    sget v5, Lcom/resouce/module/ResSTRING;->public_chart_edit_data:I
 
     invoke-direct {v1, p0, v2, v5, v4}, Lgxd$e;-><init>(Lgxd;IIZ)V
 
@@ -104,18 +104,18 @@
     .line 6
     new-instance v1, Lgxd$f;
 
-    const v2, 0x7f081f18
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_chart_type:I
 
-    const v5, 0x7f122fb5
+    sget v5, Lcom/resouce/module/ResSTRING;->ss_chart_type:I
 
     invoke-direct {v1, p0, v2, v5, v4}, Lgxd$f;-><init>(Lgxd;IIZ)V
 
     .line 7
     new-instance v1, Lgxd$g;
 
-    const v2, 0x7f080476
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_switch_ranks:I
 
-    const v5, 0x7f121dd5
+    sget v5, Lcom/resouce/module/ResSTRING;->public_chart_switch_rowcol:I
 
     invoke-direct {v1, p0, v2, v5, v4}, Lgxd$g;-><init>(Lgxd;IIZ)V
 
@@ -261,12 +261,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802bd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_chart:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c74
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_chart:I
 
     :goto_0
     return v0
@@ -374,7 +374,7 @@
 
     iget-object v6, p0, Lgxd;->V:[Z
 
-    const v4, 0x7f121dce
+    sget v4, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     move-object v1, v0
 
@@ -404,7 +404,7 @@
 
     move-result v1
 
-    const v2, 0x7f121dce
+    sget v2, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     invoke-direct {v0, p0, v1, v2}, Lgxd$b;-><init>(Lgxd;II)V
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/phone_home_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/phone_home_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/phone_home_root_tab_bar" />
-    <cn.wps.moffice.main.pdfhome.PDFHomeBottomToolbar android:orientation="horizontal" android:id="@id/phone_home_root_tab_bar" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_home_bottom_toolbar_height" android:layout_alignParentBottom="true" />
-    <View android:background="@drawable/phone_home_bottom_toolbar_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_above="@id/phone_home_root_tab_bar" />
-</RelativeLayout>

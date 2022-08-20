@@ -183,12 +183,12 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12221e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f12221f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request_camera:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/scan/main/PreScanCameraActivity$c;-><init>(Lcn/wps/moffice/main/scan/main/PreScanCameraActivity;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -212,7 +212,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/scan/main/PreScanCameraActivity$d;-><init>(Lcn/wps/moffice/main/scan/main/PreScanCameraActivity;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -336,9 +336,9 @@
     if-eqz v0, :cond_2
 
     :cond_1
-    const v0, 0x7f010095
+    sget v0, Lcom/resouce/module/ResANIM;->push_right_in:I
 
-    const v1, 0x7f010096
+    sget v1, Lcom/resouce/module/ResANIM;->push_right_out:I
 
     .line 14
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -383,7 +383,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122552
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

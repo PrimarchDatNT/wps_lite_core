@@ -405,7 +405,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0858
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_doc_end_empty:I
 
     return v0
 
@@ -417,12 +417,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e085a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_doc_end_hongbao_new:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e0859
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_doc_end_hongbao:I
 
     :goto_0
     return v0
@@ -660,7 +660,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703b8
+    sget v1, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_empty_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -681,7 +681,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703b6
+    sget v1, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_ad_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -706,7 +706,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0703bc
+    sget v2, Lcom/resouce/module/ResDIMEN;->infoflow_page_count_view_height:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -735,7 +735,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703b7
+    sget v3, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_content_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1152,7 +1152,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2245
+    sget v1, Lcom/resouce/module/ResID;->place_holder_view:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1242,7 +1242,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f123299    # 1.9433E38f
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_count_words:I    # 1.9433E38f
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1345,7 +1345,7 @@
     return-void
 
     :cond_1
-    const v0, 0x7f0b070c
+    sget v0, Lcom/resouce/module/ResID;->doc_end_content:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1354,7 +1354,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView;->V:Landroid/view/View;
 
-    const v0, 0x7f0b070e
+    sget v0, Lcom/resouce/module/ResID;->doc_end_hongbao_txt:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1365,7 +1365,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0714
+    sget v0, Lcom/resouce/module/ResID;->doc_end_word_count:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

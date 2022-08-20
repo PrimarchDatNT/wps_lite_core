@@ -2927,14 +2927,14 @@
     .line 3
     invoke-static {v0}, Lza4;->h(Ljava/lang/String;)V
 
-    const v0, 0x7f081107
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_guide_areahighlight:I
 
     .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f1216e3
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_areahighlight:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2945,7 +2945,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1216e4
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_areahighlight_dialog_msg:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

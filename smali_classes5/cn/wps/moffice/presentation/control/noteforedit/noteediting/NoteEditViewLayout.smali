@@ -176,12 +176,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0808
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_noteedit_dlg_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0a8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_note_edit:I
 
     :goto_0
     const/4 v2, 0x1
@@ -192,7 +192,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2320
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_edit_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2329
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_page_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,14 +224,14 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->V:Lcn/wps/moffice/presentation/control/common/PptTitleBar;
 
-    const v2, 0x7f121b8c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_note_edit:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/presentation/control/common/PptTitleBar;->setTitle(I)V
 
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v2, 0x7f0b2321
+    sget v2, Lcom/resouce/module/ResID;->ppt_note_edit_page_bar:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v2, 0x7f0b231d    # 1.84945E38f
+    sget v2, Lcom/resouce/module/ResID;->ppt_note_audio_container:I    # 1.84945E38f
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2325
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_edit_undo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2323
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_edit_redo:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2324
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_edit_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b231f
+    sget v1, Lcom/resouce/module/ResID;->ppt_note_edit_cancle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -322,7 +322,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -372,7 +372,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->U:Landroid/view/View;
 
-    const v0, 0x7f122018
+    sget v0, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 19
     invoke-virtual {v2, v0}, Landroid/widget/Button;->setText(I)V
@@ -403,7 +403,7 @@
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->c0:Landroid/view/View;
 
-    const v3, 0x7f0b2296
+    sget v3, Lcom/resouce/module/ResID;->ppt_audio_record:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b3c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -461,7 +461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -319,7 +319,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1219e9
+    sget v0, Lcom/resouce/module/ResSTRING;->pic_store_download_failed:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 

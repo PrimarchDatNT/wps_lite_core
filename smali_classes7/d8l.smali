@@ -93,7 +93,7 @@
 
     invoke-direct {v0, p0}, Ld8l$b;-><init>(Ld8l;)V
 
-    const v1, 0x7f08199d    # 1.80908E38f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_sdcard:I    # 1.80908E38f
 
     const-string v2, "addpic-localfiles"
 
@@ -104,7 +104,7 @@
 
     invoke-direct {v0, p0}, Ld8l$c;-><init>(Ld8l;)V
 
-    const v1, 0x7f081995
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_gallery:I
 
     const-string v2, "addpic-photos"
 
@@ -115,7 +115,7 @@
 
     invoke-direct {v0, p0}, Ld8l$d;-><init>(Ld8l;)V
 
-    const v1, 0x7f081990
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_camera:I
 
     const-string v2, "addpic-camera"
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1228df
+    sget v1, Lcom/resouce/module/ResSTRING;->public_select_picture:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -206,9 +206,9 @@
     .line 2
     new-instance v1, Lrf3;
 
-    const v2, 0x7f122503
+    sget v2, Lcom/resouce/module/ResSTRING;->public_native_file:I
 
-    const v3, 0x7f08199d    # 1.80908E38f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon_sdcard:I    # 1.80908E38f
 
     invoke-direct {v1, v2, v3}, Lrf3;-><init>(II)V
 
@@ -228,9 +228,9 @@
     .line 4
     new-instance v1, Lrf3;
 
-    const v2, 0x7f12060d
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_pick_photo:I
 
-    const v3, 0x7f081995
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon_gallery:I
 
     invoke-direct {v1, v2, v3}, Lrf3;-><init>(II)V
 
@@ -247,9 +247,9 @@
     .line 6
     new-instance v1, Lrf3;
 
-    const v2, 0x7f1229e8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shoot_image:I
 
-    const v3, 0x7f081990
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon_camera:I
 
     invoke-direct {v1, v2, v3}, Lrf3;-><init>(II)V
 

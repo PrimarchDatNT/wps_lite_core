@@ -472,7 +472,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081325
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_radio_selector:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

@@ -83,7 +83,7 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -444,7 +444,7 @@
     .line 3
     iget-object v1, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v2, 0x7f1218a4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_pic_preview_max_count:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1480,7 +1480,7 @@
     .line 7
     iget-object v0, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v1, 0x7f122cb6
+    sget v1, Lcom/resouce/module/ResSTRING;->quick_flash_record_save_succ:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1668,7 +1668,7 @@
 
     const-string v2, "button_click"
 
-    const v3, 0x7f0b301f
+    sget v3, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v3, :cond_0
 
@@ -1710,7 +1710,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0b0c42
+    sget v3, Lcom/resouce/module/ResID;->extract_btn:I
 
     if-ne p1, v3, :cond_1
 
@@ -1752,7 +1752,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0b0645
+    sget v3, Lcom/resouce/module/ResID;->delete_btn:I
 
     const/4 v4, 0x1
 
@@ -1820,7 +1820,7 @@
     .line 31
     iget-object v1, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v2, 0x7f121865
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_deletepic:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1829,7 +1829,7 @@
     .line 32
     iget-object v2, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v3, 0x7f121866
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_deletepic_msg:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1862,7 +1862,7 @@
     :cond_2
     iget-object v1, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v2, 0x7f121861
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_delete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1871,7 +1871,7 @@
     .line 35
     iget-object v2, p0, Lyqc;->S:Landroid/content/Context;
 
-    const v3, 0x7f121864
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_delete_page_msg:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1896,7 +1896,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060470
+    sget v3, Lcom/resouce/module/ResCOLOR;->phone_public_red:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1912,7 +1912,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v3, 0x7f0b1351
+    sget v3, Lcom/resouce/module/ResID;->insert_btn:I
 
     if-ne p1, v3, :cond_6
 
@@ -1995,7 +1995,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v3, 0x7f0b00ca
+    sget v3, Lcom/resouce/module/ResID;->adjust_btn:I
 
     if-ne p1, v3, :cond_7
 
@@ -2037,7 +2037,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v3, 0x7f0b2211
+    sget v3, Lcom/resouce/module/ResID;->pic_replace_btn:I
 
     if-ne p1, v3, :cond_8
 
@@ -2089,7 +2089,7 @@
     goto :goto_0
 
     :cond_8
-    const v3, 0x7f0b2214
+    sget v3, Lcom/resouce/module/ResID;->pic_rotate_btn:I
 
     if-ne p1, v3, :cond_9
 
@@ -2133,7 +2133,7 @@
     goto :goto_0
 
     :cond_9
-    const v3, 0x7f0b29b2
+    sget v3, Lcom/resouce/module/ResID;->rotate_btn:I
 
     if-ne p1, v3, :cond_a
 
@@ -2363,7 +2363,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0651
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_page_adjust_layout:I
 
     const/4 v2, 0x0
 
@@ -2371,7 +2371,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b07a6
+    sget v1, Lcom/resouce/module/ResID;->drag_tips:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2380,7 +2380,7 @@
 
     iput-object v1, p0, Lyqc;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b1622
+    sget v1, Lcom/resouce/module/ResID;->list_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2391,7 +2391,7 @@
 
     iput-object v1, p0, Lyqc;->j0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b0645
+    sget v1, Lcom/resouce/module/ResID;->delete_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2400,7 +2400,7 @@
 
     iput-object v1, p0, Lyqc;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b1351
+    sget v1, Lcom/resouce/module/ResID;->insert_btn:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2409,7 +2409,7 @@
 
     iput-object v1, p0, Lyqc;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b1354
+    sget v1, Lcom/resouce/module/ResID;->insert_icon:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2420,7 +2420,7 @@
 
     iput-object v1, p0, Lyqc;->r0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v1, 0x7f0b0c42
+    sget v1, Lcom/resouce/module/ResID;->extract_btn:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2429,7 +2429,7 @@
 
     iput-object v1, p0, Lyqc;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b00ca
+    sget v1, Lcom/resouce/module/ResID;->adjust_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2438,7 +2438,7 @@
 
     iput-object v1, p0, Lyqc;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2211
+    sget v1, Lcom/resouce/module/ResID;->pic_replace_btn:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2447,7 +2447,7 @@
 
     iput-object v1, p0, Lyqc;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2214
+    sget v1, Lcom/resouce/module/ResID;->pic_rotate_btn:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2456,7 +2456,7 @@
 
     iput-object v1, p0, Lyqc;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b29b2
+    sget v1, Lcom/resouce/module/ResID;->rotate_btn:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2509,7 +2509,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0b0655
+    sget v2, Lcom/resouce/module/ResID;->delete_text:I
 
     .line 20
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2518,7 +2518,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f121865
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_deletepic:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -2563,11 +2563,11 @@
     .line 24
     iget-object v2, p0, Lyqc;->r0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v4, 0x7f081803
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_add_icon_pic:I
 
     invoke-virtual {v2, v4}, Lcn/wps/moffice/common/beans/TextImageView;->w(I)V
 
-    const v2, 0x7f0b1357
+    sget v2, Lcom/resouce/module/ResID;->insert_text:I
 
     .line 25
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2576,7 +2576,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f12186a
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_insertpic:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -3060,7 +3060,7 @@
 .method public final z3(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

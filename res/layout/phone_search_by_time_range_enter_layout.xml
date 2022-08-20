@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:id="@id/tv_general_search_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:gravity="left" android:id="@id/tv_general_search_time_from" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_search_general_from_search_time" android:layout_centerVertical="true" />
-    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/tv_general_search_time_entrance" android:background="@drawable/search_total_search_time_entry" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true">
-        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:paddingLeft="17.0dip" android:paddingTop="5.0dip" android:paddingRight="17.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_search_general_from_search_time_content" />
-    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
-</RelativeLayout>

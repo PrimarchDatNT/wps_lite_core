@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b252f
+    sget v2, Lcom/resouce/module/ResID;->privilege_viewpager:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

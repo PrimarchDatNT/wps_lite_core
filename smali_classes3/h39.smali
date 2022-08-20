@@ -169,7 +169,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setId(I)V
 
-    const v1, 0x7f120593
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_desktop:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -198,7 +198,7 @@
     .line 5
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setFolder(Z)V
 
-    const p0, 0x7f080566
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_desktop:I
 
     .line 6
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -315,7 +315,7 @@
 
     move-result v10
 
-    const v11, 0x7f120686
+    sget v11, Lcom/resouce/module/ResSTRING;->documentmanager_sdcard:I
 
     const-string v12, ")"
 
@@ -328,7 +328,7 @@
 
     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v14, 0x7f1206c3
+    sget v14, Lcom/resouce/module/ResSTRING;->documentmanager_usb:I
 
     invoke-virtual {p0, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -352,7 +352,7 @@
 
     invoke-virtual {v9, v10}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setName(Ljava/lang/String;)V
 
-    const v10, 0x7f080879
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->home_open_usb_icon:I
 
     .line 15
     invoke-virtual {v9, v10}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -387,7 +387,7 @@
 
     invoke-virtual {v9, v10}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setName(Ljava/lang/String;)V
 
-    const v10, 0x7f0808d8
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->home_sdcard_icon:I
 
     .line 17
     invoke-virtual {v9, v10}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -491,7 +491,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setId(I)V
 
-    const v1, 0x7f1205f7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -510,7 +510,7 @@
     .line 5
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setFolder(Z)V
 
-    const p0, 0x7f08056f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_phone:I
 
     .line 6
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -531,7 +531,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setId(I)V
 
-    const v1, 0x7f1205ea
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -567,7 +567,7 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f080f29
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     .line 7
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -575,7 +575,7 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f08169b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     .line 8
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -688,7 +688,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f1205ea
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -737,7 +737,7 @@
 
     if-eqz p0, :cond_2
 
-    const p0, 0x7f080f29
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     .line 13
     invoke-virtual {v1, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -745,7 +745,7 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f08169b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     .line 14
     invoke-virtual {v1, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -762,7 +762,7 @@
 
     invoke-direct {v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;-><init>()V
 
-    const v1, 0x7f1205f3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_open_recent:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -835,7 +835,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1205f7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -845,7 +845,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120686
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sdcard:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -881,7 +881,7 @@
     .line 8
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setFolder(Z)V
 
-    const v1, 0x7f0808d8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_sdcard_icon:I
 
     .line 9
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -1007,7 +1007,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f120ffb
+    sget p1, Lcom/resouce/module/ResSTRING;->home_open_phone:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1024,12 +1024,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1205f7
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120ffa
+    sget p1, Lcom/resouce/module/ResSTRING;->home_open_pad:I
 
     :goto_0
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1065,7 +1065,7 @@
     .line 7
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setFolder(Z)V
 
-    const p1, 0x7f0808d8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_sdcard_icon:I
 
     .line 8
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V
@@ -1189,7 +1189,7 @@
 
     invoke-direct {v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;-><init>()V
 
-    const v1, 0x7f1206c3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_usb:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1220,7 +1220,7 @@
     .line 6
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setFolder(Z)V
 
-    const p0, 0x7f080879
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->home_open_usb_icon:I
 
     .line 7
     invoke-virtual {v0, p0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setIconResId(I)V

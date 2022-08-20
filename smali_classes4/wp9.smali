@@ -169,7 +169,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f121769
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
 
     const-string v3, "native"
 
-    const v4, 0x7f08159e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_doc:I
 
     const/4 v5, 0x1
 
@@ -209,13 +209,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f121771
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v11, 0x7f0815a1
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_xls:I
 
     const/4 v12, 0x1
 
@@ -249,13 +249,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f0815a0
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_ppt:I
 
     const/4 v7, 0x1
 
@@ -289,13 +289,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f121c96
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f08159a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_sign:I
 
     const/4 v7, 0x1
 
@@ -329,13 +329,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12209f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f08157b
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_pdf:I
 
     const/4 v7, 0x1
 
@@ -369,13 +369,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f1216c8
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f081595
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_annotation:I
 
     const/4 v7, 0x1
 
@@ -409,13 +409,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f121925
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f0815bf
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_watermark:I
 
     const/4 v7, 0x1
 
@@ -455,19 +455,19 @@
 
     if-eqz v4, :cond_7
 
-    const v4, 0x7f1216c9
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     goto :goto_0
 
     :cond_7
-    const v4, 0x7f1216ca
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     :goto_0
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f08156d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_addtext:I
 
     const/4 v7, 0x1
 
@@ -501,13 +501,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f1225d8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f08158f
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_page_adjust:I
 
     const/4 v7, 0x1
 
@@ -541,13 +541,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f122c10
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f08157d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_file:I
 
     const/4 v7, 0x1
 
@@ -581,13 +581,13 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f081587
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_mergefile:I
 
     const/4 v7, 0x1
 
@@ -630,13 +630,13 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f081577
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docdownsizing:I
 
     const/4 v6, 0x1
 
@@ -715,7 +715,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12226e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_pdf_tools:I
 
     return v0
 .end method
@@ -730,7 +730,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0679
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_tools_layout:I
 
     const/4 v2, 0x0
 
@@ -740,7 +740,7 @@
 
     iput-object v0, p0, Lwp9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f23
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium_v:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -761,7 +761,7 @@
     .line 4
     iget-object v0, p0, Lwp9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1f5b
+    sget v1, Lcom/resouce/module/ResID;->pdf_tools_gv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

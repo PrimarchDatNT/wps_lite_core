@@ -88,7 +88,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0958
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_date_keyboard_time_picker:I
 
     .line 6
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/TimePicker$a;-><init>(Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/TimePicker;)V
 
-    const v0, 0x7f0b222c
+    sget v0, Lcom/resouce/module/ResID;->pickers:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/TimePicker;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1214
+    sget v0, Lcom/resouce/module/ResID;->hour:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
     .line 10
     invoke-virtual {v0, p1}, Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker;->setOnValueChangedListener(Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/NumberPicker$f;)V
 
-    const v0, 0x7f0b189c
+    sget v0, Lcom/resouce/module/ResID;->minute:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

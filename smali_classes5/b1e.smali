@@ -529,7 +529,7 @@
 
     iput-object v0, p0, Lb1e;->i:Li1e;
 
-    const v1, 0x7f121bf6
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_by_miracast:I
 
     const/16 v2, 0x11
 
@@ -539,7 +539,7 @@
     .line 3
     iget-object v0, p0, Lb1e;->i:Li1e;
 
-    const v1, 0x7f1229bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -550,7 +550,7 @@
 
     invoke-direct {v1, p0}, Lb1e$k;-><init>(Lb1e;)V
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -561,7 +561,7 @@
 
     invoke-direct {v1, p0}, Lb1e$l;-><init>(Lb1e;)V
 
-    const v2, 0x7f121b66
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_connect:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -572,7 +572,7 @@
 
     invoke-direct {v1, p0}, Lb1e$m;-><init>(Lb1e;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -639,7 +639,7 @@
     :cond_0
     iget-object v0, p0, Lb1e;->f:Lj1e;
 
-    const v1, 0x7f1229bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connection:I
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -708,7 +708,7 @@
 
     iput-object v0, p0, Lb1e;->e:Lh1e;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lb1e$f;
@@ -773,7 +773,7 @@
 
     iput-object v0, p0, Lb1e;->h:Li1e;
 
-    const v1, 0x7f121bf6
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_by_miracast:I
 
     const/16 v2, 0x11
 
@@ -783,14 +783,14 @@
     .line 4
     iget-object v0, p0, Lb1e;->h:Li1e;
 
-    const v1, 0x7f121bb4
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_select_wireless_display_devices:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 5
     iget-object v0, p0, Lb1e;->h:Li1e;
 
-    const v1, 0x7f12060b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     new-instance v2, Lb1e$c;
 
@@ -801,7 +801,7 @@
     .line 6
     iget-object v0, p0, Lb1e;->h:Li1e;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lb1e$d;
 
@@ -866,7 +866,7 @@
 
     iput-object v0, p0, Lb1e;->g:Li1e;
 
-    const v1, 0x7f121bf6
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_by_miracast:I
 
     const/16 v2, 0x11
 
@@ -876,14 +876,14 @@
     .line 4
     iget-object v0, p0, Lb1e;->g:Li1e;
 
-    const v1, 0x7f121bfc
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_wireless_display:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     .line 5
     iget-object v0, p0, Lb1e;->g:Li1e;
 
-    const v1, 0x7f12060b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     new-instance v2, Lb1e$r;
 
@@ -894,7 +894,7 @@
     .line 6
     iget-object v0, p0, Lb1e;->g:Li1e;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lb1e$a;
 

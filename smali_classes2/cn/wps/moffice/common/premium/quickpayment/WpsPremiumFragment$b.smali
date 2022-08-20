@@ -67,7 +67,7 @@
 
     move-result p1
 
-    const p3, 0x7f0b3399
+    sget p3, Lcom/resouce/module/ResID;->view_devide_white:I
 
     if-eqz p1, :cond_1
 

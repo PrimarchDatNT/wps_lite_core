@@ -29,7 +29,7 @@
     .line 10
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/LineStyleButton;->B:I
 
-    const p1, 0x7f1207be
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_style_none:I
 
     .line 11
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/LineStyleButton;->I:I
@@ -73,7 +73,7 @@
     .line 2
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/LineStyleButton;->B:I
 
-    const p1, 0x7f1207be
+    sget p1, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_style_none:I
 
     .line 3
     iput p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/LineStyleButton;->I:I

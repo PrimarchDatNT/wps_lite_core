@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/content/Context;La0h$a;)V
     .locals 1
 
-    const v0, 0x7f121dd4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_chart_style:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V

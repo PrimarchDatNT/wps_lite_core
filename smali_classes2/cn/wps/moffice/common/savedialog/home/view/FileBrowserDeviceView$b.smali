@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b10e7
+    sget v2, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
 
     iput-object v2, p2, Luz4$a;->a:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b10e9
+    sget v2, Lcom/resouce/module/ResID;->home_open_item_title:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     iput-object v2, p2, Luz4$a;->b:Landroid/widget/TextView;
 
-    const v2, 0x7f0b10de
+    sget v2, Lcom/resouce/module/ResID;->home_open_device_item_available:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     iput-object v2, p2, Lcn/wps/moffice/common/savedialog/home/view/FileBrowserDeviceView$b$a;->d:Landroid/widget/TextView;
 
-    const v2, 0x7f0b10df
+    sget v2, Lcom/resouce/module/ResID;->home_open_device_item_progress:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     iput-object v2, p2, Lcn/wps/moffice/common/savedialog/home/view/FileBrowserDeviceView$b$a;->e:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v2, 0x7f0b10eb
+    sget v2, Lcom/resouce/module/ResID;->home_open_item_underline:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,12 +352,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e072e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_open_device_list_with_icon_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e055b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_open_device_list_item:I
 
     :goto_0
     iput v0, p0, Luz4;->e:I

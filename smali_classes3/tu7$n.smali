@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122803
+    sget v1, Lcom/resouce/module/ResSTRING;->public_request_save_to_cloud:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -172,7 +172,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122261
+    sget v0, Lcom/resouce/module/ResSTRING;->public_history_upload_wpsdrive_tips:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

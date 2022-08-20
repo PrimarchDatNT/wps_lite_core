@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b1874
+    sget v0, Lcom/resouce/module/ResID;->merge_file_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -42,7 +42,7 @@
 
     iput-object v0, p0, Lnud$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1877
+    sget v0, Lcom/resouce/module/ResID;->merge_file_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Lnud$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1876
+    sget v0, Lcom/resouce/module/ResID;->merge_file_modify_time:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Lnud$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b186d
+    sget v0, Lcom/resouce/module/ResID;->merge_add_file_check_box:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

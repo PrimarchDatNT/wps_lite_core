@@ -75,7 +75,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120b9f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
     .line 2
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v1, 0x7f120b96
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_toolong_error:I
 
     invoke-interface {v0, v1}, Lyhg;->u(I)V
 
@@ -358,7 +358,7 @@
     .line 3
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v1, 0x7f120b91
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_fristname_error:I
 
     invoke-interface {v0, v1}, Lyhg;->u(I)V
 
@@ -372,7 +372,7 @@
     .line 4
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v1, 0x7f120b95
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_other_error:I
 
     invoke-interface {v0, v1}, Lyhg;->u(I)V
 
@@ -471,7 +471,7 @@
     .line 12
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v1, 0x7f120b90
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_exist_error:I
 
     invoke-interface {v0, v1}, Lyhg;->u(I)V
 
@@ -483,7 +483,7 @@
     .line 13
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v1, 0x7f120b6c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     invoke-interface {v0, v1}, Lyhg;->u(I)V
 
@@ -495,7 +495,7 @@
     .line 14
     iget-object v0, p0, Lzhg;->S:Lyhg;
 
-    const v2, 0x7f12072c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     invoke-interface {v0, v2}, Lyhg;->u(I)V
 

@@ -482,13 +482,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f122263
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_add:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f080593
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_home_top_add:I
 
     const/4 v6, 0x1
 
@@ -514,13 +514,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f080596
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_home_top_more:I
 
     const/4 v6, 0x1
 
@@ -553,13 +553,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805d0
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_pdf_to_doc:I
 
     const/4 v6, 0x1
 
@@ -586,13 +586,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f121c96
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805cf
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_pdf_sign:I
 
     const-string v4, "native"
 
@@ -617,13 +617,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f120460
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805d2
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_pic_to_pdf:I
 
     const-string v4, "native"
 
@@ -648,13 +648,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805cd
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_pages_export:I
 
     const-string v4, "native"
 
@@ -680,13 +680,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805d4
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_share_long_pic:I
 
     const-string v4, "native"
 
@@ -712,13 +712,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f121771
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805d1
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_pdf_to_xls:I
 
     const-string v4, "native"
 
@@ -737,13 +737,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f0d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805d5
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_smartform:I
 
     const-string v2, "collection"
 
@@ -770,13 +770,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v5, 0x7f0805cb
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_export_pdf:I
 
     const-string v4, "native"
 

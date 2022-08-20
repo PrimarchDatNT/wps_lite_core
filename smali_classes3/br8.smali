@@ -27,7 +27,7 @@
 .method public B()I
     .locals 1
 
-    const v0, 0x7f0e0715
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_enterprise_learn_dialog:I
 
     return v0
 .end method
@@ -35,7 +35,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f0e06a2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_documents_more_about:I
 
     return v0
 .end method

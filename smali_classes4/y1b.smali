@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0032
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_shortcut_guide:I
 
     const/4 v2, 0x0
 
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
     .line 7
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b02b7
+    sget v1, Lcom/resouce/module/ResID;->btn_add_shortcut:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -176,7 +176,7 @@
     .line 9
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b16fc
+    sget v1, Lcom/resouce/module/ResID;->ll_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
     .line 10
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b328f
+    sget v1, Lcom/resouce/module/ResID;->tv_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -200,7 +200,7 @@
     .line 11
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f98
+    sget v1, Lcom/resouce/module/ResID;->gv_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 12
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2937
+    sget v1, Lcom/resouce/module/ResID;->rl_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
     .line 15
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     .line 16
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1204b2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_shortcut_guide_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -262,7 +262,7 @@
     .line 17
     iget-object v0, p0, Ly1b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b340d
+    sget v1, Lcom/resouce/module/ResID;->wb_guide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -302,7 +302,7 @@
     .line 23
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1204b3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_shortcut_guide_url:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121262
+    sget v1, Lcom/resouce/module/ResSTRING;->honeycomb_url:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -454,7 +454,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121262
+    sget v2, Lcom/resouce/module/ResSTRING;->honeycomb_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -471,7 +471,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1213ee
+    sget v2, Lcom/resouce/module/ResSTRING;->moapi_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -488,7 +488,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12005f
+    sget v2, Lcom/resouce/module/ResSTRING;->account_wps_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -530,7 +530,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122508
+    sget v0, Lcom/resouce/module/ResSTRING;->public_net_diagno_net_title:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -565,7 +565,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122509
+    sget v0, Lcom/resouce/module/ResSTRING;->public_net_diagno_ping_title:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -600,7 +600,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12250b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_net_diagno_tracepath_title:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f122c20
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wps_net_diagno:I
 
     return v0
 .end method
@@ -776,7 +776,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e1060
+    sget v0, Lcom/resouce/module/ResLAYOUT;->wps_net_diagno_detail_layout:I
 
     return v0
 .end method
@@ -807,7 +807,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b19dd
+    sget v0, Lcom/resouce/module/ResID;->net_diagno_share_info:I
 
     if-ne p1, v0, :cond_0
 
@@ -862,7 +862,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b28c0
+    sget v0, Lcom/resouce/module/ResID;->result_net_diagno_progress:I
 
     .line 2
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;
@@ -888,7 +888,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2f1f
+    sget v0, Lcom/resouce/module/ResID;->text_net_diagno_result:I
 
     .line 2
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;
@@ -914,7 +914,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b19dc
+    sget v0, Lcom/resouce/module/ResID;->net_diagno_scrollview:I
 
     .line 2
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;
@@ -942,7 +942,7 @@
 
     invoke-virtual {v0}, Landroid/widget/ProgressBar;->bringToFront()V
 
-    const v0, 0x7f0b19dd
+    sget v0, Lcom/resouce/module/ResID;->net_diagno_share_info:I
 
     .line 2
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;
@@ -1036,7 +1036,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12250a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_net_diagno_share_exception:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1090,7 +1090,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121262
+    sget v2, Lcom/resouce/module/ResSTRING;->honeycomb_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -83,7 +83,7 @@
 .method public final m()V
     .locals 2
 
-    const v0, 0x7f0b2260
+    sget v0, Lcom/resouce/module/ResID;->plugin_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/plugin/common/framework/PluginBaseTitleActivity;->a0:Lcn/wps/moffice/plugin/common/view/ViewTitleBar;
 
-    const v1, 0x7f121a1a
+    sget v1, Lcom/resouce/module/ResSTRING;->plugin_cloud_page_sync_hint:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

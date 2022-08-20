@@ -51,7 +51,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1133
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_input_account:I
 
     const/4 v1, 0x0
 
@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1135
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_input_password:I
 
     if-ne p1, v0, :cond_4
 

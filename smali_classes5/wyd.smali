@@ -263,12 +263,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081f6b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_video_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c7c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_insert_video_ppt:I
 
     :goto_0
     return v0
@@ -363,7 +363,7 @@
 
     iget-object v5, p0, Lwyd;->W:[Z
 
-    const v3, 0x7f122ba1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_video:I
 
     move-object v0, v6
 
@@ -384,7 +384,7 @@
 
     move-result v1
 
-    const v2, 0x7f122ba1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_video:I
 
     invoke-direct {v0, p0, v1, v2}, Lwyd$g;-><init>(Lwyd;II)V
 
@@ -509,9 +509,9 @@
     .line 3
     new-instance v1, Lpwd$b;
 
-    const v2, 0x7f080c7b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_insert_video:I
 
-    const v3, 0x7f122b8b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_user_video:I
 
     new-instance v4, Lwyd$c;
 
@@ -524,9 +524,9 @@
     .line 4
     new-instance v1, Lpwd$b;
 
-    const v2, 0x7f080c86
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_photograph:I
 
-    const v3, 0x7f122ba6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_video_record:I
 
     new-instance v4, Lwyd$d;
 
@@ -541,7 +541,7 @@
 
     iget-object v2, p0, Lwyd;->B:Landroid/app/Activity;
 
-    const v3, 0x7f1228e4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_select_video:I
 
     invoke-direct {v1, v2, v3, v0}, Lpwd;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -581,7 +581,7 @@
     .line 2
     iget-object v0, p0, Lwyd;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1214d0
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_insertpic_gallery_camera_warning:I
 
     new-instance v3, Lwyd$i;
 

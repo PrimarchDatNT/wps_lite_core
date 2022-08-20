@@ -50,7 +50,7 @@
     .line 2
     iget-object p1, p1, Lc3b;->B:Landroid/app/Activity;
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

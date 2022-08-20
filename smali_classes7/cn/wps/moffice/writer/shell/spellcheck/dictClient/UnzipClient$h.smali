@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f12255a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121f5e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

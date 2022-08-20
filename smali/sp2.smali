@@ -38,7 +38,7 @@
 
     invoke-virtual {v0, v1}, Lop2;->e(Ljava/lang/String;)V
 
-    const v0, 0x7f1206a8
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_storage_insufficient:I
 
     .line 3
     invoke-static {v0}, Lsp2;->h(I)V

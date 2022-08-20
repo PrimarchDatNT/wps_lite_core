@@ -56,12 +56,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0b0340
+    sget p1, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/GridView;->setNextFocusLeftId(I)V
 
-    const p1, 0x7f0b0528
+    sget p1, Lcom/resouce/module/ResID;->confirm_button:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/GridView;->setNextFocusRightId(I)V

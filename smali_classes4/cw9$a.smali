@@ -119,7 +119,7 @@
 
     const/4 v5, 0x2
 
-    const v6, 0x7f1229e6
+    sget v6, Lcom/resouce/module/ResSTRING;->public_sharetab_template_head:I
 
     const/4 v7, 0x0
 

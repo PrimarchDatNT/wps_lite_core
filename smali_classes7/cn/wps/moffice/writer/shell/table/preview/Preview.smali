@@ -64,7 +64,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f070e0e
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_table_preview_default_min_width:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070e0d
+    sget p2, Lcom/resouce/module/ResDIMEN;->writer_table_preview_default_min_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 

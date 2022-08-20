@@ -202,7 +202,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f123299    # 1.9433E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_count_words:I    # 1.9433E38f
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -212,7 +212,7 @@
 
     invoke-direct {v1, p0}, Lczk$c;-><init>(Lczk;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -228,7 +228,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707b5
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_padding_left:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

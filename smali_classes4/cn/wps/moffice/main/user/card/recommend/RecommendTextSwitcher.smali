@@ -134,7 +134,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122b8a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_user_recommend_describe:I
 
     const/4 v4, 0x1
 

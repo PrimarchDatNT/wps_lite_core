@@ -127,9 +127,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/HighLighter$1;
 
-    const v1, 0x7f080e2d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_highlight_et:I
 
-    const v2, 0x7f120c73
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_highlight:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/HighLighter$1;-><init>(Lcn/wps/moffice/spreadsheet/control/HighLighter;II)V
 
@@ -144,9 +144,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/HighLighter$2;
 
-    const v1, 0x7f08045a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_highlight:I
 
-    const v2, 0x7f120c73
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_highlight:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/HighLighter$2;-><init>(Lcn/wps/moffice/spreadsheet/control/HighLighter;II)V
 

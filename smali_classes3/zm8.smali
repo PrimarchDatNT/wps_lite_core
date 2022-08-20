@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12134b
+    sget v1, Lcom/resouce/module/ResSTRING;->license_ent_android:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120da0
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_online_service_user_agreement:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -255,12 +255,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121343    # 1.941673E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_zh:I    # 1.941673E38f
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121342
+    sget v1, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_en:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

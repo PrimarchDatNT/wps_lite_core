@@ -162,7 +162,7 @@
     .line 3
     iget-object v0, p0, Lhod;->a:Landroid/content/Context;
 
-    const v1, 0x7f121c81
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_volume_is_too_low_tip:I
 
     const/4 v2, 0x0
 
@@ -408,7 +408,7 @@
     :cond_0
     iget-object p1, p0, Lhod;->a:Landroid/content/Context;
 
-    const v1, 0x7f121b48
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_play_online_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -425,7 +425,7 @@
     .line 8
     iget-object p1, p0, Lhod;->a:Landroid/content/Context;
 
-    const v1, 0x7f1211ad
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_no_supprt_outline_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -480,7 +480,7 @@
     :cond_3
     iget-object p1, p0, Lhod;->a:Landroid/content/Context;
 
-    const v1, 0x7f121b47
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_find_external_audio:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

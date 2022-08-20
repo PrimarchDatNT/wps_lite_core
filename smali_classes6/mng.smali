@@ -22,7 +22,7 @@
 
     invoke-direct {v0, v1}, Lfzg;-><init>(Lcn/wps/moffice/spreadsheet/Spreadsheet;)V
 
-    const v1, 0x7f122180
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fill_color:I
 
     invoke-direct {p0, p1, v1, v0}, Lb0h;-><init>(Landroid/content/Context;ILfzg;)V
 

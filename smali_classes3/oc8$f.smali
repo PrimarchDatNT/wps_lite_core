@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0c2b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_home_docinfo_operation_items_layout:I
 
     const/4 p3, 0x0
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1b46
+    sget p2, Lcom/resouce/module/ResID;->operation_item_icon:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,11 +83,11 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    const p3, 0x7f080b00
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->newui_docsinfo_share:I
 
     invoke-virtual {p2, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p2, 0x7f0b1b47
+    sget p2, Lcom/resouce/module/ResID;->operation_item_label:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const p3, 0x7f1221dd
+    sget p3, Lcom/resouce/module/ResSTRING;->public_fontname_send_url:I
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 

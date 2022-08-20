@@ -64,17 +64,17 @@
 
     if-eq p1, v0, :cond_0
 
-    const p1, 0x7f0602db
+    sget p1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f06003f
+    sget p1, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0606e1
+    sget p1, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     .line 1
     :goto_0
@@ -100,17 +100,17 @@
 
     if-eq p1, v0, :cond_0
 
-    const p1, 0x7f0602db
+    sget p1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f06003f
+    sget p1, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0606e1
+    sget p1, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     .line 1
     :goto_0

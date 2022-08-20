@@ -59,7 +59,7 @@
 
     iget-object p1, p1, Lvwa;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1204a7
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f08052d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->doc_scan_launcher:I
 
     invoke-static {p1, v0, v1, v4}, Lhcb;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
@@ -82,11 +82,11 @@
 
     iget-object p1, p1, Lvwa;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122bdf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
-    const v1, 0x7f1204b1
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_shortcut_dialog_tip:I
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-static {p1, v0, v1, v4, v3}, Laya;->l(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 

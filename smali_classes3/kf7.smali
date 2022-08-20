@@ -34,7 +34,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -90,7 +90,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e06ff
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_upload_fail_layout:I
 
     const/4 v1, 0x0
 
@@ -100,7 +100,7 @@
 
     iput-object p2, p0, Lkf7;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1ffc
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_upload_fail_listView:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
     .line 11
     iget-object p2, p0, Lkf7;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1ffd
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_upload_fail_title_view:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 12
     iget-object p2, p0, Lkf7;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1ffb
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_upload_fail_empty_text:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -140,7 +140,7 @@
     .line 13
     iget-object p2, p0, Lkf7;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3083
+    sget v0, Lcom/resouce/module/ResID;->top_tips_view:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
     .line 14
     iget-object p2, p0, Lkf7;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -454,7 +454,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120eb9
+    sget v2, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
 
     invoke-direct {v1, p0}, Lkf7$g;-><init>(Lkf7;)V
 
-    const v2, 0x7f120f23
+    sget v2, Lcom/resouce/module/ResSTRING;->home_history_record_clear:I
 
     invoke-virtual {v0, v2, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -601,7 +601,7 @@
     .line 1
     iget-object v0, p0, Lkf7;->W:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2fc8
+    sget v1, Lcom/resouce/module/ResID;->tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -612,7 +612,7 @@
     .line 2
     iget-object v1, p0, Lkf7;->W:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2fb6
+    sget v2, Lcom/resouce/module/ResID;->tips_button_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -907,7 +907,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120eb9
+    sget v3, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -982,12 +982,12 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f1224ec
+    sget v1, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_upload_fail_clear_record:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1224ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_upload_fail_clear_record_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -997,7 +997,7 @@
 
     invoke-direct {v1, p0, p1}, Lkf7$c;-><init>(Lkf7;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1007,7 +1007,7 @@
 
     invoke-direct {v1, p0}, Lkf7$b;-><init>(Lkf7;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p1, v3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

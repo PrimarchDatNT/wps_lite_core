@@ -718,7 +718,7 @@
 
     iget-object v0, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12060a
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_send_storage:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -765,7 +765,7 @@
 
     iget-object v0, p0, Lcb8;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121cf9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_add_cloudstorage:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

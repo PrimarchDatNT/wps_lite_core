@@ -217,12 +217,12 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f081a5c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_no_round_banner_default:I
 
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f08091c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ic_banner_default:I
 
     :goto_2
     const/4 v3, 0x0

@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -114,17 +114,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e097f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_namemanagement_list:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0f6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_namemanagement_list:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2d1f
+    sget v0, Lcom/resouce/module/ResID;->ss_namemanagement_list_listview:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v0, 0x7f0b2d20
+    sget v0, Lcom/resouce/module/ResID;->ss_namemanagement_list_new_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/name_management/NameManagementListView;->B:Laig;
 
-    const p1, 0x7f0b2d1f
+    sget p1, Lcom/resouce/module/ResID;->ss_namemanagement_list_listview:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -260,13 +260,13 @@
     invoke-virtual {v0, p1}, Laig;->b(Ljava/util/ArrayList;)V
 
     :cond_0
-    const v0, 0x7f0b2d1e
+    sget v0, Lcom/resouce/module/ResID;->ss_namemanagement_list_empty_tips:I
 
     const/16 v1, 0x8
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b2d1f
+    sget v3, Lcom/resouce/module/ResID;->ss_namemanagement_list_listview:I
 
     if-eqz p1, :cond_1
 

@@ -519,7 +519,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c24
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     if-eqz v0, :cond_7
 
@@ -532,7 +532,7 @@
 
     aget v0, v3, v0
 
-    const v3, 0x7f080886
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -542,7 +542,7 @@
     :pswitch_0
     iget-object v0, p0, Ldmb;->h:Lxk2;
 
-    const v2, 0x7f0806f1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
     invoke-virtual {v0, v2, v3}, Lxk2;->r(II)V
 
@@ -574,7 +574,7 @@
     :pswitch_1
     iget-object v0, p0, Ldmb;->h:Lxk2;
 
-    const v2, 0x7f0810fe
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_template_privilege:I
 
     invoke-virtual {v0, v2, v3}, Lxk2;->r(II)V
 
@@ -587,7 +587,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122a9d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -608,9 +608,9 @@
     :pswitch_2
     iget-object v0, p0, Ldmb;->h:Lxk2;
 
-    const v2, 0x7f0810f5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_ads_free:I
 
-    const v3, 0x7f0810fa
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_icon_base:I
 
     invoke-virtual {v0, v2, v3}, Lxk2;->r(II)V
 
@@ -623,7 +623,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c87
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -644,7 +644,7 @@
     :pswitch_3
     iget-object v0, p0, Ldmb;->h:Lxk2;
 
-    const v2, 0x7f0810fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_pdf_toolkit:I
 
     invoke-virtual {v0, v2, v3}, Lxk2;->r(II)V
 
@@ -657,7 +657,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12260e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -678,7 +678,7 @@
     :pswitch_4
     iget-object v0, p0, Ldmb;->h:Lxk2;
 
-    const v3, 0x7f0810f8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_font:I
 
     invoke-virtual {v0, v3, v2}, Lxk2;->r(II)V
 
@@ -691,7 +691,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1221b8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_font_packs:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

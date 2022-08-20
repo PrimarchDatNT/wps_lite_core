@@ -33,14 +33,14 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    const v1, 0x7f0b19a3
+    sget v1, Lcom/resouce/module/ResID;->native_ad_icon_image:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b19ae
+    sget v2, Lcom/resouce/module/ResID;->native_ad_text:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

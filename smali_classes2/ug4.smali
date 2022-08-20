@@ -32,7 +32,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122955
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_as_appendix_new:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -42,7 +42,7 @@
     return-object v0
 
     :cond_0
-    const v1, 0x7f122954
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -60,7 +60,7 @@
 
     move-result v0
 
-    const v1, 0x7f122954
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     if-eqz v0, :cond_0
 

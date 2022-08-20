@@ -95,7 +95,7 @@
     .line 8
     iget-object v0, p0, Lgd3;->a:Landroid/content/Context;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -107,7 +107,7 @@
     .line 10
     iget-object v0, p0, Lgd3;->a:Landroid/content/Context;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -118,12 +118,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0e082c
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_public_alertdialog_content:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0e0b0d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_alertdialog_content:I
 
     .line 12
     :goto_0
@@ -170,7 +170,7 @@
     :goto_1
     iget-object p1, p0, Lgd3;->h:Landroid/view/View;
 
-    const p3, 0x7f0b00e6
+    sget p3, Lcom/resouce/module/ResID;->alertdialog_text:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -186,7 +186,7 @@
     .line 17
     iget-object p1, p0, Lgd3;->h:Landroid/view/View;
 
-    const p2, 0x7f0b00e5
+    sget p2, Lcom/resouce/module/ResID;->alertdialog_rememberme:I
 
     .line 18
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
     :goto_2
     iget-object p1, p0, Lgd3;->h:Landroid/view/View;
 
-    const p2, 0x7f0b00e7
+    sget p2, Lcom/resouce/module/ResID;->alertdialog_viewstub:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

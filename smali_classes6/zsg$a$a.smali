@@ -82,7 +82,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f120877
+    sget v2, Lcom/resouce/module/ResSTRING;->et_fill_cells_to_series_fill:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
@@ -90,7 +90,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f120876
+    sget v2, Lcom/resouce/module/ResSTRING;->et_fill_cells_to_copy_fill:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
@@ -182,7 +182,7 @@
 
     invoke-direct {v1, v2}, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseButtonBar$BarItem_button;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f120c1c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_smart_fill:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V

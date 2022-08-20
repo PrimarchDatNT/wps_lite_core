@@ -184,7 +184,7 @@
     :catch_0
     iget-object p1, p0, Lra9;->a:Landroid/content/Context;
 
-    const v0, 0x7f12240e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     const/4 v1, 0x0
 

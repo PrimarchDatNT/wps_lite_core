@@ -144,13 +144,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b60
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_login_webview:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f080185
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->color_white:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -164,7 +164,7 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b340e
+    sget v0, Lcom/resouce/module/ResID;->webView:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/common/login/CloudStorageOAuthWebView;->I:Landroid/webkit/WebView;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -366,7 +366,7 @@
     .line 2
     invoke-virtual {p1, p3}, Landroid/webkit/WebView;->setVisibility(I)V
 
-    const p1, 0x7f122458
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_neterror:I
 
     const/4 p3, -0x8
 
@@ -393,7 +393,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/cser/common/login/CloudStorageOAuthWebView;->T:Lga8;
 
-    const p2, 0x7f12244b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-interface {p1, p2}, Lga8;->a(I)V
 

@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121848
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_pack_buy:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1218b1
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_privilege_description:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 

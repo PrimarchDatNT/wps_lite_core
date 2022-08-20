@@ -212,7 +212,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e042c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_recent_reading_vertical:I
 
     const/4 v1, 0x0
 
@@ -220,7 +220,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b1a7c
+    sget v0, Lcom/resouce/module/ResID;->novel_cover:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     iput-object v0, p2, Lg3f$a;->a:Lcn/wps/moffice/docer/view/RoundCompatImageView;
 
-    const v0, 0x7f0b1a84
+    sget v0, Lcom/resouce/module/ResID;->novel_title:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     iput-object v0, p2, Lg3f$a;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a7d
+    sget v0, Lcom/resouce/module/ResID;->novel_description:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object v0, p2, Lg3f$a;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2551
+    sget v0, Lcom/resouce/module/ResID;->progress_view:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

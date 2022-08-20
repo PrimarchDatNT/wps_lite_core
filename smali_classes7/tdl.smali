@@ -54,7 +54,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ltdl$f;)V
     .locals 1
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -437,7 +437,7 @@
     .line 7
     iget-object p1, p0, Ltdl;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -510,7 +510,7 @@
     .line 2
     iget-object p1, p0, Ltdl;->B:Landroid/app/Activity;
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
 
     iget-object p1, p0, Ltdl;->B:Landroid/app/Activity;
 
-    const p5, 0x7f123039
+    sget p5, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {p1, p5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -762,7 +762,7 @@
     .line 2
     iget-object v0, p0, Ltdl;->X:Landroid/widget/Button;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -801,7 +801,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1054
+    sget v1, Lcom/resouce/module/ResLAYOUT;->word_merge_add_files_layout:I
 
     const/4 v2, 0x0
 
@@ -818,7 +818,7 @@
     .line 4
     iget-object v1, p0, Ltdl;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2316
+    sget v2, Lcom/resouce/module/ResID;->ppt_merge_add_file_title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -835,7 +835,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12082f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -869,7 +869,7 @@
     .line 9
     iget-object v1, p0, Ltdl;->T:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v2, 0x7f06059d
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_title_bar_bg_white_color:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
@@ -908,7 +908,7 @@
     .line 14
     iget-object v0, p0, Ltdl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b186f
+    sget v1, Lcom/resouce/module/ResID;->merge_add_files_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -932,7 +932,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v0, 0x7f0b187e
+    sget v0, Lcom/resouce/module/ResID;->merge_no_file_tips:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -944,7 +944,7 @@
     .line 18
     iget-object v0, p0, Ltdl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -955,7 +955,7 @@
     .line 19
     iget-object v0, p0, Ltdl;->S:Landroid/view/View;
 
-    const v1, 0x7f0b186e
+    sget v1, Lcom/resouce/module/ResID;->merge_add_file_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

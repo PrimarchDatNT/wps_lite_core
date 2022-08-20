@@ -388,19 +388,19 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1212e8
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f12248e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_longpic_share_wx_limit_tips:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -425,12 +425,12 @@
 
     invoke-virtual {v0, p0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122bd1
+    sget p0, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     .line 5
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p1, 0x0
 
@@ -494,7 +494,7 @@
 .method public static d(Landroid/content/Context;Landroid/view/View;)Lhd3;
     .locals 1
 
-    const v0, 0x7f12298f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lr8f;->e(Landroid/content/Context;Landroid/view/View;I)Lhd3;
@@ -525,7 +525,7 @@
     :cond_0
     new-instance v0, Lhd3;
 
-    const v1, 0x7f1302ef
+    sget v1, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg:I
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -681,7 +681,7 @@
     .line 7
     invoke-virtual {v0, p3}, Lcn/wps/moffice/share/panel/AbsShareItemsPanel;->setData(Ljava/lang/Object;)V
 
-    const p1, 0x7f12298f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     .line 8
     invoke-static {p0, v0, p1}, Lr8f;->e(Landroid/content/Context;Landroid/view/View;I)Lhd3;
@@ -881,7 +881,7 @@
     :cond_0
     invoke-virtual {p1, p4}, Lcn/wps/moffice/share/panel/AbsShareItemsPanel;->setItemShareIntercepter(Lcn/wps/moffice/share/panel/AbsShareItemsPanel$b;)V
 
-    const p2, 0x7f122952
+    sget p2, Lcom/resouce/module/ResSTRING;->public_share_and_open:I
 
     .line 3
     invoke-static {p0, p1, p2}, Lr8f;->e(Landroid/content/Context;Landroid/view/View;I)Lhd3;

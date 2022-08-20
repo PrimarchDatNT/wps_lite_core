@@ -36,7 +36,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0441
+    sget v2, Lcom/resouce/module/ResLAYOUT;->layout_click_star_guide_upload_dialog:I
 
     const/4 v3, 0x0
 
@@ -44,7 +44,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2571
+    sget v2, Lcom/resouce/module/ResID;->public_btn_upload_to_drive:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2760
+    sget v2, Lcom/resouce/module/ResID;->public_upload_close:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0b3295
+    sget v2, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

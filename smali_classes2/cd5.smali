@@ -2738,7 +2738,7 @@
     invoke-static {v1, v3, p2, v2}, Lp2q;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
     :cond_0
-    const v1, 0x7f121f84
+    sget v1, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content:I
 
     .line 6
     iput v1, p0, Lcd5;->g:I
@@ -2748,7 +2748,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f121f87
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_corrupted:I
 
     .line 8
     iput v0, p0, Lcd5;->g:I
@@ -2766,7 +2766,7 @@
 
     if-eqz v1, :cond_2
 
-    const v0, 0x7f121f88
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_unknown:I
 
     .line 11
     iput v0, p0, Lcd5;->g:I
@@ -3131,7 +3131,7 @@
 
     if-eqz p1, :cond_4
 
-    const v0, 0x7f12011b
+    sget v0, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

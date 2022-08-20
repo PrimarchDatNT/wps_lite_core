@@ -164,7 +164,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122397
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invite_collaborators_file_copy_permission_denied:I
 
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -181,7 +181,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1228f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_send_file_no_upload:I
 
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
     :try_end_1
@@ -565,7 +565,7 @@
 
     invoke-virtual {p2, v0}, Lbg3$a;->c(Landroid/graphics/drawable/Drawable;)Lbg3$a;
 
-    const v0, 0x7f0816d0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_folder:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -574,7 +574,7 @@
 
     invoke-virtual {p2, v0}, Lbg3$a;->i(Landroid/graphics/drawable/Drawable;)Lbg3$a;
 
-    const v0, 0x7f121153
+    sget v0, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

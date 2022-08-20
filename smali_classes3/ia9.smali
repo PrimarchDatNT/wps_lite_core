@@ -47,7 +47,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0d7a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_doc_empty_search_item:I
 
     const/4 v1, 0x0
 
@@ -57,7 +57,7 @@
 
     iput-object p1, p0, Lia9;->b:Landroid/view/View;
 
-    const p2, 0x7f0b2f13
+    sget p2, Lcom/resouce/module/ResID;->text_empty_tips_content:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
     .line 5
     iget-object p1, p0, Lia9;->d:Landroid/widget/TextView;
 
-    const p2, 0x7f122ea7
+    sget p2, Lcom/resouce/module/ResSTRING;->search_result_tip:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -86,7 +86,7 @@
     :cond_0
     iget-object p1, p0, Lia9;->b:Landroid/view/View;
 
-    const p2, 0x7f0b2f21
+    sget p2, Lcom/resouce/module/ResID;->text_operation_tips:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 7
     iget-object p1, p0, Lia9;->b:Landroid/view/View;
 
-    const p2, 0x7f0b02d4
+    sget p2, Lcom/resouce/module/ResID;->btn_enter_operation:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     .line 8
     iget-object p1, p0, Lia9;->b:Landroid/view/View;
 
-    const p2, 0x7f0b2f02
+    sget p2, Lcom/resouce/module/ResID;->text_androidR_tips_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

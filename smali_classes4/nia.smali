@@ -161,7 +161,7 @@
 
     iget-object v2, p0, Lnia;->T:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v3, 0x7f122e7f
+    sget v3, Lcom/resouce/module/ResSTRING;->save_to_pdfhint:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e037b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_pdf_webtopdf_dialog_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -192,7 +192,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f0b331c
+    sget v1, Lcom/resouce/module/ResID;->urlText:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
     .line 15
     iget-object v0, p0, Lnia;->W:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lnia$b;
 
@@ -236,7 +236,7 @@
     .line 16
     iget-object v0, p0, Lnia;->W:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lnia$c;
 
@@ -304,7 +304,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060077
+    sget v2, Lcom/resouce/module/ResCOLOR;->cinnabar:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -467,7 +467,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122981
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -582,7 +582,7 @@
 .method public b3()V
     .locals 4
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 1
     invoke-virtual {p0, v0}, Lnia;->getColorValue(I)I
@@ -611,7 +611,7 @@
     .line 3
     iget-object v1, p0, Lnia;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f081173
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_back_black_icon:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -643,7 +643,7 @@
     .line 7
     iget-object v0, p0, Lnia;->I:Landroid/view/View;
 
-    const v1, 0x7f0b29f5
+    sget v1, Lcom/resouce/module/ResID;->savepdfEdit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -656,7 +656,7 @@
     .line 8
     iget-object v0, p0, Lnia;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b5
+    sget v1, Lcom/resouce/module/ResID;->error_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -669,7 +669,7 @@
     .line 9
     iget-object v0, p0, Lnia;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07ec
+    sget v1, Lcom/resouce/module/ResID;->editBackView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -687,7 +687,7 @@
     .line 11
     iget-object v0, p0, Lnia;->I:Landroid/view/View;
 
-    const v1, 0x7f0b14bb
+    sget v1, Lcom/resouce/module/ResID;->iv_save_as_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
 
     check-cast v0, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f081051
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdfentry_save_to_pdf_description_en:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -859,7 +859,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e037c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_pdf_webtopdf_layout:I
 
     const/4 v2, 0x0
 
@@ -879,7 +879,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122e7e
+    sget v0, Lcom/resouce/module/ResSTRING;->save_as_pdf:I
 
     return v0
 .end method

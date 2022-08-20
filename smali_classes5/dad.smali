@@ -180,7 +180,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f12029f
+    sget v0, Lcom/resouce/module/ResSTRING;->cloud_page_privilege:I
 
     return v0
 .end method
@@ -216,7 +216,7 @@
     return-object v0
 
     :cond_0
-    const v1, 0x7f12029f
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -393,7 +393,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0091
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cloud_page_privilege_detail_layout:I
 
     const/4 v2, 0x0
 
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Ldad;->W:Landroid/view/View;
 
-    const v1, 0x7f0b33a4
+    sget v1, Lcom/resouce/module/ResID;->view_pager_carousel:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
     .line 3
     iget-object v0, p0, Ldad;->W:Landroid/view/View;
 
-    const v1, 0x7f0b124b
+    sget v1, Lcom/resouce/module/ResID;->id_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -432,7 +432,7 @@
     .line 4
     iget-object v0, p0, Ldad;->W:Landroid/view/View;
 
-    const v1, 0x7f0b030c
+    sget v1, Lcom/resouce/module/ResID;->btn_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -445,7 +445,7 @@
     .line 5
     iget-object v0, p0, Ldad;->W:Landroid/view/View;
 
-    const v1, 0x7f0b3158
+    sget v1, Lcom/resouce/module/ResID;->tv_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -474,7 +474,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b030c
+    sget v0, Lcom/resouce/module/ResID;->btn_upgrade:I
 
     if-ne p1, v0, :cond_7
 
@@ -554,7 +554,7 @@
     .line 9
     iget-object p1, p0, Ldad;->I:Landroid/app/Activity;
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {p1, v0, v3}, Lled;->g(Landroid/content/Context;II)V
 
@@ -770,7 +770,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f030002
+    sget v1, Lcom/resouce/module/ResARRAY;->cloud_page_rights_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
@@ -925,7 +925,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f122c68
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_login_now:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
@@ -944,7 +944,7 @@
     :cond_2
     iget-boolean v1, p0, Ldad;->a0:Z
 
-    const v2, 0x7f120edc
+    sget v2, Lcom/resouce/module/ResSTRING;->home_continue_buy_membership:I
 
     if-eqz v1, :cond_3
 
@@ -959,7 +959,7 @@
     :cond_3
     iget-boolean v1, p0, Ldad;->b0:Z
 
-    const v3, 0x7f1224b0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_member_pay_upgrade_super:I
 
     if-eqz v1, :cond_5
 
@@ -999,7 +999,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f1202a5
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_page_privilege_purchasing_vip:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

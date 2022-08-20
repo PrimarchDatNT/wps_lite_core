@@ -25,9 +25,9 @@
     .line 3
     new-instance p1, Lxxd$a;
 
-    const v0, 0x7f0809e1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->insert_docer_material:I
 
-    const v1, 0x7f120503
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_material_mall:I
 
     invoke-direct {p1, p0, v0, v1}, Lxxd$a;-><init>(Lxxd;II)V
 

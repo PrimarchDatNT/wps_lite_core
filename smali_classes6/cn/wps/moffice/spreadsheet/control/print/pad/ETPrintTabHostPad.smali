@@ -27,7 +27,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0230
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_print_tabhost_pad:I
 
     const/4 v2, 0x0
 

@@ -106,7 +106,7 @@
 
     iget-object v3, v3, Lyff;->a:Landroid/content/Context;
 
-    const v4, 0x7f122950
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
 
     iget-object p1, p1, Lyff;->a:Landroid/content/Context;
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0

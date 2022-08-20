@@ -61,7 +61,7 @@
 
     invoke-direct {v0, p0}, Lh7l$b;-><init>(Lh7l;)V
 
-    const v1, 0x7f0b155b
+    sget v1, Lcom/resouce/module/ResID;->layout_pad_ink_setting_finger_stylus:I
 
     const-string v2, "pad-ink-setting-finger-stylus"
 
@@ -72,7 +72,7 @@
 
     invoke-direct {v0, p0}, Lh7l$c;-><init>(Lh7l;)V
 
-    const v1, 0x7f0b155c
+    sget v1, Lcom/resouce/module/ResID;->layout_pad_ink_setting_stylus:I
 
     const-string v2, "pad-ink-setting-stylus"
 
@@ -118,7 +118,7 @@
 .method public final p2()V
     .locals 2
 
-    const v0, 0x7f0e0586
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_ink_setting_layout:I
 
     const/4 v1, 0x0
 
@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b155c
+    sget v1, Lcom/resouce/module/ResID;->layout_pad_ink_setting_stylus:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v1, p0, Lh7l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b1bf7
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_setting_finger_stylus_checked:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v1, p0, Lh7l;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1bf8
+    sget v1, Lcom/resouce/module/ResID;->pad_ink_setting_stylus_checked:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

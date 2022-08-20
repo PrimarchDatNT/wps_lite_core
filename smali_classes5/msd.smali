@@ -21,7 +21,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121b98
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_pen_kit_hw:I
 
     return v0
 .end method

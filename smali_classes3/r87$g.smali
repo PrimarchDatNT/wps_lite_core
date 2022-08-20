@@ -76,7 +76,7 @@
 
     iget-object v0, v0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121534
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -95,7 +95,7 @@
 
     iget-object v0, v0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -134,7 +134,7 @@
 
     iget-object v0, v0, Lr87;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121ec8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_not_support_move:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

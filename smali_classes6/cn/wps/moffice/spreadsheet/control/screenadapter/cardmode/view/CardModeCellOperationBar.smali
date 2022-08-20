@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12203e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12075a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_cardmode_local:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f1225ee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_paste:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f121f7c
+    sget p3, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

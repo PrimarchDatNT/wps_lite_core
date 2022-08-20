@@ -246,7 +246,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1222ee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_unsupport_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -321,7 +321,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0707a6
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_button_fontsize_introduce:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -335,7 +335,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0600ea
+    sget p1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -353,7 +353,7 @@
     .line 13
     invoke-virtual {v0, v1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 14
     new-instance p1, Lzg8$a;
@@ -362,7 +362,7 @@
 
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 15
     new-instance p1, Lzg8$b;

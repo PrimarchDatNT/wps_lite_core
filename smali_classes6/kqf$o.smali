@@ -92,7 +92,7 @@
     .line 5
     iget-object v0, p0, Lkqf$o;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f121dd8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_checkPasswdFaild:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

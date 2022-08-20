@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206cf
+    sget v1, Lcom/resouce/module/ResSTRING;->download_139_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12299c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f122969
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_file_des:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -346,7 +346,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v1, 0x7f122974
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_from:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -978,7 +978,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f1205eb
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1045,7 +1045,7 @@
 
     invoke-direct {p2, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p3, 0x7f1205a0
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_feedback:I
 
     .line 25
     invoke-virtual {p2, p3}, Lhd3;->setTitleById(I)Lhd3;
@@ -1395,7 +1395,7 @@
 
     if-eqz p1, :cond_8
 
-    const p1, 0x7f1205eb
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 25
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1431,7 +1431,7 @@
 
     invoke-direct {p1, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f120575
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     .line 29
     invoke-virtual {p1, p2}, Lhd3;->setTitleById(I)Lhd3;
@@ -1683,7 +1683,7 @@
 
     if-eqz p1, :cond_9
 
-    const p1, 0x7f1205eb
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 25
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1719,7 +1719,7 @@
 
     invoke-direct {p1, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f120575
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     .line 29
     invoke-virtual {p1, p2}, Lhd3;->setTitleById(I)Lhd3;
@@ -1868,7 +1868,7 @@
     invoke-static {p1}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
 
     :cond_3
-    const p1, 0x7f1205eb
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

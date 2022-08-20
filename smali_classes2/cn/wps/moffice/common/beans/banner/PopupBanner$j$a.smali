@@ -80,7 +80,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b29
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_font_pop_banner_margin:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

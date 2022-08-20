@@ -75,7 +75,7 @@
     .line 5
     iget-object v1, v0, Lb6a$a;->o0:Landroid/view/View;
 
-    const v2, 0x7f0b2e88
+    sget v2, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -90,7 +90,7 @@
 
     iget-object v0, v0, Lb6a$a;->p0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08163d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_scan:I
 
     invoke-virtual {p2, v0, v1}, Lo6a;->e(Landroid/widget/ImageView;I)V
 
@@ -98,7 +98,7 @@
     :cond_0
     iget-object p1, p1, Lc6a$a;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f1204a7
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -108,7 +108,7 @@
 .method public o(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lc6a$a;
     .locals 2
 
-    const v0, 0x7f0e0e1b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_scan_grid_style_item:I
 
     const/4 v1, 0x0
 

@@ -567,7 +567,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080191
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_close:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -756,7 +756,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202d5
+    sget v2, Lcom/resouce/module/ResSTRING;->com_facebook_loading:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

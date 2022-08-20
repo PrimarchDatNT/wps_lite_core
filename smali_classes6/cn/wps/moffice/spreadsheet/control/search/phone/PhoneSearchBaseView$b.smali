@@ -89,7 +89,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->B:Landroid/content/Context;
 
-    const p3, 0x7f122860
+    sget p3, Lcom/resouce/module/ResSTRING;->public_search_empty:I
 
     invoke-static {p2, p3, p1}, Lbih;->n(Landroid/content/Context;II)V
 

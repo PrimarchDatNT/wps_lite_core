@@ -44,12 +44,12 @@
     .line 1
     invoke-direct {p0, p1}, Lozl;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e107a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_comment_insert_penkit_pad:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
 
-    const v0, 0x7f0b04ca
+    sget v0, Lcom/resouce/module/ResID;->comment_content_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->k0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1697
+    sget v0, Lcom/resouce/module/ResID;->ll_insert_penkit_pad:I
 
     .line 4
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 7
     iget-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->k0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b14d8
+    sget v0, Lcom/resouce/module/ResID;->iv_undo:I
 
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 8
     iget-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->k0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b14b4
+    sget v0, Lcom/resouce/module/ResID;->iv_redo:I
 
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -105,7 +105,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->h0:Landroid/view/View;
 
-    const p2, 0x7f0b339b
+    sget p2, Lcom/resouce/module/ResID;->view_divider:I
 
     .line 9
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->i0:Landroid/view/View;
 
-    const p2, 0x7f0b142d
+    sget p2, Lcom/resouce/module/ResID;->iv_commit:I
 
     .line 10
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b1f6d
+    sget p2, Lcom/resouce/module/ResID;->penkit_tips:I
 
     .line 11
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -141,18 +141,18 @@
 
     move-result v2
 
-    const v3, 0x7f121934
+    sget v3, Lcom/resouce/module/ResSTRING;->penkit_honor:I
 
-    const v4, 0x7f121935
+    sget v4, Lcom/resouce/module/ResSTRING;->penkit_huawei:I
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f121934
+    sget v2, Lcom/resouce/module/ResSTRING;->penkit_honor:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f121935
+    sget v2, Lcom/resouce/module/ResSTRING;->penkit_huawei:I
 
     :goto_0
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     aput-object v2, v1, p3
 
-    const v2, 0x7f123283
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_tips:I
 
     .line 13
     invoke-virtual {p1, v2, v1}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -200,7 +200,7 @@
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p2, 0x7f0b04cb
+    sget p2, Lcom/resouce/module/ResID;->comment_first_layout:I
 
     .line 18
     invoke-virtual {p0, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     move-result p2
 
-    const v1, 0x7f0b12b4
+    sget v1, Lcom/resouce/module/ResID;->img_comp_penkit_settings_tips:I
 
     if-eqz p2, :cond_1
 
@@ -243,7 +243,7 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    const v1, 0x7f080b3f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->oversea_comp_penkit_settings_tips:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -257,7 +257,7 @@
     .line 24
     iget-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b12b2
+    sget v1, Lcom/resouce/module/ResID;->img_comp_penkit_drawing_board:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
 
     check-cast p2, Landroid/widget/ImageView;
 
-    const v1, 0x7f080340
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_penkit_settings_tips:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -288,7 +288,7 @@
     :goto_1
     iget-object p2, p0, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b2fad
+    sget v1, Lcom/resouce/module/ResID;->tips1:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -296,7 +296,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v1, 0x7f123289
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_welcome_tip1:I
 
     new-array v2, v0, [Ljava/lang/Object;
 
@@ -310,7 +310,7 @@
     goto :goto_2
 
     :cond_3
-    const v3, 0x7f121935
+    sget v3, Lcom/resouce/module/ResSTRING;->penkit_huawei:I
 
     :goto_2
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -506,7 +506,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel$c;-><init>(Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b141a
+    sget v1, Lcom/resouce/module/ResID;->iv_back:I
 
     const-string v2, "commentPenKit-back"
 
@@ -517,7 +517,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel$d;-><init>(Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b1489
+    sget v1, Lcom/resouce/module/ResID;->iv_input:I
 
     const-string v2, "commentPenKit-textInput"
 
@@ -528,7 +528,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel$e;-><init>(Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b1417
+    sget v1, Lcom/resouce/module/ResID;->iv_audio:I
 
     const-string v2, "commentPenKit-audioInput"
 
@@ -561,7 +561,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel$h;-><init>(Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b14c2
+    sget v1, Lcom/resouce/module/ResID;->iv_settings:I
 
     const-string v2, "commentPenKit-settings"
 
@@ -583,7 +583,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b02f3
+    sget v0, Lcom/resouce/module/ResID;->btn_penkit_enter:I
 
     .line 9
     new-instance v1, Lcn/wps/moffice/writer/shell/comments/penkit/PenKitCommentEditDialogPanel$a;

@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cef
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ad_admob_i18n_application_id:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cee
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ad_admob_eng_application_id:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ced
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ad_admob_dev_application_id:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

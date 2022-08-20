@@ -90,7 +90,7 @@
 
     invoke-virtual {v3, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0812ce
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_list_white_selector:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/view/View;->setBackgroundResource(I)V

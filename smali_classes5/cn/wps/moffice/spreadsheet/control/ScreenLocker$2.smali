@@ -145,9 +145,9 @@
     .line 4
     invoke-virtual {p0, p1}, Lkrg;->W0(Z)V
 
-    const v1, 0x7f121984
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_lock_screen:I
 
-    const v2, 0x7f0802a1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
     .line 5
     invoke-virtual {p0, v2}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->L0(I)V
@@ -183,9 +183,9 @@
     .line 10
     invoke-virtual {p0, v0}, Lkrg;->W0(Z)V
 
-    const v1, 0x7f121995
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_rotate_screen:I
 
-    const p1, 0x7f081f5c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_screen_roration_icon:I
 
     .line 11
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->L0(I)V

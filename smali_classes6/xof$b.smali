@@ -121,7 +121,7 @@
     :cond_2
     if-ne v3, v0, :cond_3
 
-    const p1, 0x7f1208aa
+    sget p1, Lcom/resouce/module/ResSTRING;->et_font_size_error:I
 
     .line 8
     invoke-static {p1, v2}, Lsjf;->h(II)V

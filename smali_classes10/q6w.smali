@@ -20,7 +20,7 @@
     .line 1
     invoke-direct {p0, p1}, Lk6w;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b00fa
+    sget v0, Lcom/resouce/module/ResID;->all_tab_sub_model_skill_outer_item:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -82,7 +82,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229f1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shouldOverwrite:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -808,7 +808,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v0, 0x7f081a4b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_native_interstitial_ad_share_cloud:I
 
     if-ne p3, v0, :cond_1
 
@@ -824,7 +824,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v0, 0x7f081a4c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_native_interstitial_ad_share_email:I
 
     if-ne p3, v0, :cond_2
 
@@ -840,7 +840,7 @@
     goto/16 :goto_3
 
     :cond_2
-    const v0, 0x7f0818b6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_weixin:I
 
     if-ne p3, v0, :cond_3
 
@@ -854,7 +854,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0818b2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_qq:I
 
     if-ne p3, v0, :cond_4
 
@@ -868,7 +868,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f081a4d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_native_interstitial_ad_share_skype:I
 
     if-ne p3, v0, :cond_5
 
@@ -961,7 +961,7 @@
     .line 13
     iget-object p1, p0, Loa4;->b:Landroid/app/Activity;
 
-    const p2, 0x7f1205ee
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v0, 0x0
 
@@ -1261,7 +1261,7 @@
 
     check-cast v1, Lrf3;
 
-    const v2, 0x7f0e0d08
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_native_interstitial_ads_share_item:I
 
     .line 3
     iget-object v3, p0, Loa4;->a:Landroid/view/ViewGroup;
@@ -1291,7 +1291,7 @@
     .line 6
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v3, 0x7f0b1261
+    sget v3, Lcom/resouce/module/ResID;->image:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1300,7 +1300,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2ee9
+    sget v4, Lcom/resouce/module/ResID;->text:I
 
     .line 8
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

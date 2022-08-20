@@ -234,7 +234,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f1226b1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     return v0
 .end method
@@ -242,7 +242,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e0af8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->preview_fragment_search:I
 
     return v0
 .end method
@@ -264,7 +264,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b28b0
+    sget v0, Lcom/resouce/module/ResID;->request_param:I
 
     if-ne p1, v0, :cond_1
 
@@ -298,7 +298,7 @@
         .end annotation
     .end param
 
-    const p1, 0x7f0b28b0
+    sget p1, Lcom/resouce/module/ResID;->request_param:I
 
     .line 1
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -312,7 +312,7 @@
     .line 2
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b084a
+    sget p1, Lcom/resouce/module/ResID;->edtxtSearchText:I
 
     .line 3
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -323,7 +323,7 @@
 
     iput-object p1, p0, Lsg5;->T:Landroid/widget/EditText;
 
-    const p1, 0x7f0b2a33
+    sget p1, Lcom/resouce/module/ResID;->scrollView:I
 
     .line 4
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     iput-object p1, p0, Lsg5;->V:Landroid/widget/ScrollView;
 
-    const p1, 0x7f0b2ef5
+    sget p1, Lcom/resouce/module/ResID;->textView:I
 
     .line 5
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -345,7 +345,7 @@
 
     iput-object p1, p0, Lsg5;->W:Landroid/widget/TextView;
 
-    const p1, 0x7f0b02b1
+    sget p1, Lcom/resouce/module/ResID;->btnSearch:I
 
     .line 6
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b02ab
+    sget p1, Lcom/resouce/module/ResID;->btnClear:I
 
     .line 8
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -381,7 +381,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b02b0
+    sget p1, Lcom/resouce/module/ResID;->btnPrevious:I
 
     .line 10
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -399,7 +399,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b02ad
+    sget p1, Lcom/resouce/module/ResID;->btnNext:I
 
     .line 12
     invoke-virtual {p0, p1}, Lff5;->Z1(I)Landroid/view/View;
@@ -528,7 +528,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0604f5
+    sget v1, Lcom/resouce/module/ResCOLOR;->premium_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -639,7 +639,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226b4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_preview_search_tips:I
 
     const/4 v2, 0x0
 
@@ -869,7 +869,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0604f5
+    sget v1, Lcom/resouce/module/ResCOLOR;->premium_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

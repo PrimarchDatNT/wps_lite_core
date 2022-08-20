@@ -50,7 +50,7 @@
 
     iput-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f122734
+    sget p2, Lcom/resouce/module/ResSTRING;->public_protected_folder_android:I
 
     .line 6
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -64,7 +64,7 @@
     .line 7
     iget-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f122735
+    sget p2, Lcom/resouce/module/ResSTRING;->public_protected_folder_dcim:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -77,7 +77,7 @@
     .line 8
     iget-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f122737
+    sget p2, Lcom/resouce/module/ResSTRING;->public_protected_folder_pictures:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -90,7 +90,7 @@
     .line 9
     iget-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f122736
+    sget p2, Lcom/resouce/module/ResSTRING;->public_protected_folder_download:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -103,7 +103,7 @@
     .line 10
     iget-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f122739
+    sget p2, Lcom/resouce/module/ResSTRING;->public_protected_folder_tencent:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -116,7 +116,7 @@
     .line 11
     iget-object p1, p0, Lq19;->c:Ljava/util/Map;
 
-    const p2, 0x7f1205ea
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -259,7 +259,7 @@
     .line 2
     iget-object v1, p0, Lq19;->a:Landroid/content/Context;
 
-    const v2, 0x7f122738
+    sget v2, Lcom/resouce/module/ResSTRING;->public_protected_folder_select_to_delete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
     .line 3
     iget-object v1, p0, Lq19;->a:Landroid/content/Context;
 
-    const v3, 0x7f12273a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_protected_folder_tips_dialog:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -306,7 +306,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -319,7 +319,7 @@
     .line 8
     invoke-virtual {v0, v2, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

@@ -215,7 +215,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1205b3
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -261,12 +261,12 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f060411
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_txt:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f06040a
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_docs:I
 
     goto :goto_0
 
@@ -276,7 +276,7 @@
 
     if-ne v1, v0, :cond_2
 
-    const p0, 0x7f06040e
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_pdf:I
 
     goto :goto_0
 
@@ -286,7 +286,7 @@
 
     if-ne v1, v0, :cond_3
 
-    const p0, 0x7f060410
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_ppt:I
 
     goto :goto_0
 
@@ -304,7 +304,7 @@
 
     if-nez p0, :cond_5
 
-    const p0, 0x7f06040b
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_et:I
 
     goto :goto_0
 
@@ -318,12 +318,12 @@
 
     if-eqz p0, :cond_5
 
-    const p0, 0x7f06040f
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_pic:I
 
     goto :goto_0
 
     :cond_5
-    const p0, 0x7f06040d
+    sget p0, Lcom/resouce/module/ResCOLOR;->phone_docinfos_title_other:I
 
     .line 8
     :goto_0
@@ -464,7 +464,7 @@
 .method public static f(Lcn/wps/moffice/common/multi/bean/LabelRecord$b;Ljava/lang/String;)I
     .locals 2
 
-    const v0, 0x7f08082c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_other:I
 
     if-nez p0, :cond_3
 
@@ -477,7 +477,7 @@
 
     if-eqz p0, :cond_0
 
-    const v0, 0x7f08082d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_picturenormal:I
 
     goto/16 :goto_0
 
@@ -489,7 +489,7 @@
 
     if-eqz p0, :cond_1
 
-    const v0, 0x7f081cef
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_wps_form_pad_icon:I
 
     goto/16 :goto_0
 
@@ -508,9 +508,9 @@
 
     if-eqz p1, :cond_2
 
-    const p0, 0x7f080570
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pof:I
 
-    const v0, 0x7f080570
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pof:I
 
     goto :goto_0
 
@@ -524,9 +524,9 @@
 
     if-eqz p0, :cond_b
 
-    const p0, 0x7f080571
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pom:I
 
-    const v0, 0x7f080571
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pom:I
 
     goto :goto_0
 
@@ -545,7 +545,7 @@
 
     if-eqz p0, :cond_4
 
-    const v0, 0x7f080576
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_text:I
 
     goto :goto_0
 
@@ -562,7 +562,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f080567
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
     goto :goto_0
 
@@ -572,7 +572,7 @@
 
     if-ne v1, p0, :cond_7
 
-    const v0, 0x7f08056e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pdf:I
 
     goto :goto_0
 
@@ -582,7 +582,7 @@
 
     if-ne v1, p0, :cond_8
 
-    const v0, 0x7f08056d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ofd:I
 
     goto :goto_0
 
@@ -592,7 +592,7 @@
 
     if-ne v1, p0, :cond_9
 
-    const v0, 0x7f080572
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
     goto :goto_0
 
@@ -614,7 +614,7 @@
     goto :goto_0
 
     :cond_a
-    const v0, 0x7f080577
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_xls:I
 
     :cond_b
     :goto_0

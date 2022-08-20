@@ -59,9 +59,9 @@
 
     iget-object v0, v0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v1, 0x7f12252f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_camera_permission_message:I
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v3, Lm7b$c0$a;
 

@@ -135,7 +135,7 @@
 .method public c(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b07db
+    sget v0, Lcom/resouce/module/ResID;->earn_item_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Lyn8$e;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b07dd
+    sget v0, Lcom/resouce/module/ResID;->earn_item_title_txt:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Lyn8$e;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07da
+    sget v0, Lcom/resouce/module/ResID;->earn_item_content_txt:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Lyn8$e;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07de
+    sget v0, Lcom/resouce/module/ResID;->earn_item_value:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

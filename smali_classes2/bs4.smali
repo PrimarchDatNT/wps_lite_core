@@ -428,7 +428,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v6, 0x7f0e082a
+    sget v6, Lcom/resouce/module/ResLAYOUT;->phone_public_ads_premium_menu_layout:I
 
     const/4 v7, 0x0
 
@@ -444,7 +444,7 @@
 
     invoke-direct {v6, v1, v0, v7}, Lah3;-><init>(Landroid/view/View;Landroid/view/View;Z)V
 
-    const v1, 0x7f0b0f20
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -453,7 +453,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v8, 0x7f0b0f22
+    sget v8, Lcom/resouce/module/ResID;->go_to_premium_icon:I
 
     .line 11
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -462,7 +462,7 @@
 
     check-cast v8, Landroid/widget/ImageView;
 
-    const v9, 0x7f0b14e5
+    sget v9, Lcom/resouce/module/ResID;->join_membership:I
 
     .line 12
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -480,7 +480,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f081318
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_bg_black:I
 
     .line 14
     invoke-virtual {v6, v11}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->P(I)V
@@ -535,7 +535,7 @@
 
     if-ne v5, v8, :cond_4
 
-    const v5, 0x7f1212df
+    sget v5, Lcom/resouce/module/ResSTRING;->infoflow_no_ads_btn_defalut_txt:I
 
     .line 20
     invoke-virtual {v9, v5}, Landroid/widget/TextView;->setText(I)V
@@ -617,7 +617,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b1a35
+    sget v3, Lcom/resouce/module/ResID;->no_interested:I
 
     .line 33
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -626,7 +626,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1a36
+    sget v4, Lcom/resouce/module/ResID;->no_interested_icon:I
 
     .line 34
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -668,7 +668,7 @@
 
     if-eqz v4, :cond_9
 
-    const v4, 0x7f0b164b
+    sget v4, Lcom/resouce/module/ResID;->ll_complaint:I
 
     .line 38
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -689,7 +689,7 @@
     :goto_3
     invoke-virtual {v4, v8}, Landroid/view/View;->setVisibility(I)V
 
-    const v4, 0x7f0b16b2
+    sget v4, Lcom/resouce/module/ResID;->ll_not_interested:I
 
     .line 39
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -708,7 +708,7 @@
     :goto_4
     invoke-virtual {v4, v12}, Landroid/view/View;->setVisibility(I)V
 
-    const p0, 0x7f0b312a
+    sget p0, Lcom/resouce/module/ResID;->tv_complaint:I
 
     .line 40
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

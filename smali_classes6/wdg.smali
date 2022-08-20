@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f03001a
+    sget v0, Lcom/resouce/module/ResARRAY;->et_pivot_table_functions:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -120,11 +120,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f130135
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const v1, 0x7f0e01d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_custom_progressbarlarge:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V
@@ -209,12 +209,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e0228
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_pivottable_fieldname_list:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e06c3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_et_pivottable_fieldname_list:I
 
     .line 5
     :goto_0
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0af6
+    sget v1, Lcom/resouce/module/ResID;->et_pivot_table_viewpart:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

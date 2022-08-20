@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060187
+    sget v1, Lcom/resouce/module/ResCOLOR;->folder_manager_text_color_gray:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060180
+    sget v1, Lcom/resouce/module/ResCOLOR;->folder_manager_divide_line_light:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

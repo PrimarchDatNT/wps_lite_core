@@ -48,7 +48,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1221da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     aput v2, v0, v1
 
@@ -59,12 +59,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12060f
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_cloud:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f12116c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     :goto_0
     const/4 v2, 0x1
@@ -73,7 +73,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f12282d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save_tab_local:I
 
     aput v2, v0, v1
 

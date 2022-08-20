@@ -79,7 +79,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f13012d
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v1, p0, v2, v3}, Lsmc$a$b;-><init>(Lsmc$a;Landroid/content/Context;I)V
 

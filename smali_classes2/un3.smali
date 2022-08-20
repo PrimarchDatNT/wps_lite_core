@@ -20,7 +20,7 @@
 
     packed-switch p1, :pswitch_data_0
 
-    const p1, 0x7f120025
+    sget p1, Lcom/resouce/module/ResSTRING;->TableFailedException:I
 
     .line 1
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -28,7 +28,7 @@
     goto :goto_0
 
     :pswitch_0
-    const p1, 0x7f120024
+    sget p1, Lcom/resouce/module/ResSTRING;->TableDragFailedException:I
 
     .line 2
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -36,7 +36,7 @@
     goto :goto_0
 
     :pswitch_1
-    const p1, 0x7f120026
+    sget p1, Lcom/resouce/module/ResSTRING;->TableFillFailedException:I
 
     .line 3
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -44,7 +44,7 @@
     goto :goto_0
 
     :pswitch_2
-    const p1, 0x7f120029
+    sget p1, Lcom/resouce/module/ResSTRING;->TablePasteFailedException:I
 
     .line 4
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :pswitch_3
-    const p1, 0x7f120027
+    sget p1, Lcom/resouce/module/ResSTRING;->TableInsFailedException:I
 
     .line 5
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -60,7 +60,7 @@
     goto :goto_0
 
     :pswitch_4
-    const p1, 0x7f12002a
+    sget p1, Lcom/resouce/module/ResSTRING;->TableSortFailedException:I
 
     .line 6
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -68,7 +68,7 @@
     goto :goto_0
 
     :pswitch_5
-    const p1, 0x7f120023
+    sget p1, Lcom/resouce/module/ResSTRING;->TableCleanFailedException:I
 
     .line 7
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :pswitch_6
-    const p1, 0x7f120028
+    sget p1, Lcom/resouce/module/ResSTRING;->TableMergeFailedException:I
 
     .line 8
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V

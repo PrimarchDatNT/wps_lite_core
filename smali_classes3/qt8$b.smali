@@ -54,7 +54,7 @@
 
     const-string v0, "public_activating_statistics"
 
-    const v1, 0x7f12054c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_activation_statistics:I
 
     if-eq p1, v1, :cond_b
 
@@ -62,7 +62,7 @@
 
     move-result p1
 
-    const v1, 0x7f122223
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_user_policy_item_data_collection:I
 
     if-ne p1, v1, :cond_0
 
@@ -74,7 +74,7 @@
 
     move-result p1
 
-    const v1, 0x7f1206c2
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_usage_statistics:I
 
     const/4 v2, 0x0
 
@@ -129,7 +129,7 @@
 
     move-result p1
 
-    const v1, 0x7f1205b4
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_final_user_agreement:I
 
     if-ne p1, v1, :cond_4
 
@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12134a
+    sget v0, Lcom/resouce/module/ResSTRING;->license_cnt_android:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -173,7 +173,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12134b
+    sget v0, Lcom/resouce/module/ResSTRING;->license_ent_android:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
 
     move-result p1
 
-    const v1, 0x7f1206ab
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_technology_agreement:I
 
     if-ne p1, v1, :cond_6
 
@@ -211,7 +211,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12004f
+    sget v0, Lcom/resouce/module/ResSTRING;->about_license_url_zh:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -233,7 +233,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12004e
+    sget v0, Lcom/resouce/module/ResSTRING;->about_license_url_en:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -249,7 +249,7 @@
 
     move-result p1
 
-    const v1, 0x7f121c9a
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_policy_private_policy:I
 
     if-ne p1, v1, :cond_8
 
@@ -271,7 +271,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121343    # 1.941673E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_zh:I    # 1.941673E38f
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -293,7 +293,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121342
+    sget v0, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_en:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
 
     move-result p1
 
-    const v1, 0x7f12220c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_ad_data_setting_title_tips:I
 
     if-ne p1, v1, :cond_a
 
@@ -402,7 +402,7 @@
 
     move-result p1
 
-    const p2, 0x7f122224
+    sget p2, Lcom/resouce/module/ResSTRING;->public_gdpr_user_policy_setting_tips:I
 
     if-ne p1, p2, :cond_d
 

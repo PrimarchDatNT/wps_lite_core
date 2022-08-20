@@ -99,7 +99,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f123020
+    sget p2, Lcom/resouce/module/ResSTRING;->switch_document_tab:I
 
     invoke-static {p2}, Ltid;->c(I)Ljava/lang/String;
 

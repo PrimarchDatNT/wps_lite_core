@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cfa
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_center_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121467
+    sget v1, Lcom/resouce/module/ResSTRING;->new_create_exception_notice:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

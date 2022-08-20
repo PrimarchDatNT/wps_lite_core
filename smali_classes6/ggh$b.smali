@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122c1e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wps_link_url:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

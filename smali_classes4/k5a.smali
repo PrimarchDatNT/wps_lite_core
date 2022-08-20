@@ -33,7 +33,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f0e0743
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_roaming_import_process_stub:I
 
     return v0
 .end method
@@ -41,7 +41,7 @@
 .method public u()I
     .locals 1
 
-    const v0, 0x7f0e0750
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_roaming_record_list_v2:I
 
     return v0
 .end method

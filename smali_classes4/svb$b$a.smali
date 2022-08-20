@@ -124,7 +124,7 @@
 
     iget-object p1, p1, Lsvb$b;->B:Lsvb;
 
-    const v0, 0x7f1229e5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_web_rtc_mute_tips:I
 
     invoke-virtual {p1, v0}, Lsvb;->M(I)V
 

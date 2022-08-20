@@ -197,13 +197,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d63
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_template_detail:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2a3d
+    sget v1, Lcom/resouce/module/ResID;->scroller:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/docer/preview/TemplateScrollView;->setOnScrollListener(Lcn/wps/moffice/docer/preview/TemplateScrollView$c;)V
 
-    const v1, 0x7f0b01ea
+    sget v1, Lcom/resouce/module/ResID;->banner_cycle_view:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
     .line 10
     invoke-virtual {v1, v2}, Landroid/widget/RelativeLayout;->setOverScrollMode(I)V
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
     .line 13
     invoke-virtual {p0, p2}, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionTemplateView;->b(Lxha;)V
 
-    const v1, 0x7f0b18f8
+    sget v1, Lcom/resouce/module/ResID;->more_template_test:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1c99
+    sget v1, Lcom/resouce/module/ResID;->paper_composition:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1200ba
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_check_repeat:I
 
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200e0
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

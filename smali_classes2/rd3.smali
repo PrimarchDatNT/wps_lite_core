@@ -50,7 +50,7 @@
 .method public constructor <init>(Landroid/content/Context;ZLandroid/view/View$OnClickListener;)V
     .locals 1
 
-    const v0, 0x7f1220f6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_download:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2, p3}, Lrd3;-><init>(Landroid/content/Context;IZLandroid/view/View$OnClickListener;)V
@@ -403,12 +403,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0713
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_download_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0b5c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_download:I
 
     :goto_0
     const/4 v2, 0x0
@@ -420,7 +420,7 @@
 
     iput-object v0, p0, Lrd3;->d:Landroid/view/View;
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -439,7 +439,7 @@
     .line 6
     iget-object v0, p0, Lrd3;->d:Landroid/view/View;
 
-    const v1, 0x7f0b28bc
+    sget v1, Lcom/resouce/module/ResID;->resultView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 14
     iget-object p1, p0, Lrd3;->c:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lrd3$b;
 

@@ -199,7 +199,7 @@
 
     iget-object v2, p0, Lbq8;->V:Landroid/content/Context;
 
-    const v3, 0x7f122c1f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_login_tip:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -212,7 +212,7 @@
 
     iget-object v2, p0, Lbq8;->V:Landroid/content/Context;
 
-    const v3, 0x7f121f51
+    sget v3, Lcom/resouce/module/ResSTRING;->public_connected_to_windows:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -223,7 +223,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081a5d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;

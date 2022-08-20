@@ -133,7 +133,7 @@
     .line 8
     iget-object v0, p0, Leb3;->e:Lcn/wps/moffice/main/push/banner/internal/BannerView;
 
-    const v1, 0x7f0b30df
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e07ed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_popularize_small_item_image_layout:I
 
     const/4 v2, 0x0
 

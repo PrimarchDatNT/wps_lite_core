@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07cc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_play_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -92,7 +92,7 @@
 
     iput-object v0, p0, Lltc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b224c
+    sget v1, Lcom/resouce/module/ResID;->play_from_curpage_item:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
     .line 3
     iget-object v1, p0, Lltc;->B:Landroid/view/View;
 
-    const v2, 0x7f0b224d
+    sget v2, Lcom/resouce/module/ResID;->play_from_homepage_item:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 4
     iget-object v2, p0, Lltc;->B:Landroid/view/View;
 
-    const v3, 0x7f0b01a5
+    sget v3, Lcom/resouce/module/ResID;->autoplay_item:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
 
     check-cast v2, Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b1eb5
+    sget v3, Lcom/resouce/module/ResID;->pdf_play_panle:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122655
+    sget v0, Lcom/resouce/module/ResSTRING;->public_play:I
 
     return v0
 .end method

@@ -85,7 +85,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060214
+    sget v4, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -136,7 +136,7 @@
 .method public constructor <init>(Landroid/content/Context;Lbl2$a;Ldi2;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -188,7 +188,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0df4
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_purchase_process_dialog_layout:I
 
     const/4 v0, 0x0
 
@@ -196,7 +196,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b1a5d
+    sget p3, Lcom/resouce/module/ResID;->normal_titlebar:I
 
     .line 10
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
     .line 12
     invoke-virtual {p3, v0}, Lcn/wps/kspaybase/common/BusinessBaseTitle;->setIsNeedMultiDocBtn(Z)V
 
-    const v0, 0x7f1225fc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_payment:I
 
     .line 13
     invoke-virtual {p3, v0}, Lcn/wps/kspaybase/common/BusinessBaseTitle;->setTitleText(I)V
@@ -352,7 +352,7 @@
 .method public final X2(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2792
+    sget v0, Lcom/resouce/module/ResID;->purchase_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     iput-object v0, p0, Lqqb;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2fbd
+    sget v0, Lcom/resouce/module/ResID;->tips_info:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object v0, p0, Lqqb;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2fb8
+    sget v0, Lcom/resouce/module/ResID;->tips_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     iput-object v0, p0, Lqqb;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0525
+    sget v0, Lcom/resouce/module/ResID;->confirm:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -396,7 +396,7 @@
 
     iput-object v0, p0, Lqqb;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b26ec
+    sget v0, Lcom/resouce/module/ResID;->public_restore_purchase_help_tip_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Lqqb;->X:Landroid/view/View;
 
-    const v0, 0x7f0b2544
+    sget v0, Lcom/resouce/module/ResID;->progress_layout:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     iput-object v0, p0, Lqqb;->B:Landroid/view/View;
 
-    const v0, 0x7f0b28bf
+    sget v0, Lcom/resouce/module/ResID;->result_layout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -447,7 +447,7 @@
     :pswitch_0
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f121698
+    sget v0, Lcom/resouce/module/ResSTRING;->pay_gp_inapp_buy_text:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -461,7 +461,7 @@
     :pswitch_1
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f122ab2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_templates_pay_success_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -475,7 +475,7 @@
     :pswitch_2
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f12224b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_has_upgrade_pdf_toolkit:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -489,7 +489,7 @@
     :pswitch_3
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f122692
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_pay_success:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
     :pswitch_4
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f121c89
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_unlocked:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -517,7 +517,7 @@
     :pswitch_5
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f1221b9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_pay_ssusscess_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -531,7 +531,7 @@
     :pswitch_6
     iget-object p1, p0, Lqqb;->b0:Landroid/content/Context;
 
-    const v0, 0x7f122aa7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_unlocked:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -707,7 +707,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f12275b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_purchase_version_attention:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -729,7 +729,7 @@
 
     iget-object p2, p0, Lqqb;->S:Landroid/content/Context;
 
-    const p3, 0x7f122600
+    sget p3, Lcom/resouce/module/ResSTRING;->public_payment_successful:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -742,7 +742,7 @@
 
     iget-object p2, p0, Lqqb;->S:Landroid/content/Context;
 
-    const p3, 0x7f122567
+    sget p3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -753,7 +753,7 @@
     .line 22
     iget-object p1, p0, Lqqb;->T:Landroid/widget/ImageView;
 
-    const p2, 0x7f081aaf
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_pay_success_icon:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -805,7 +805,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f12274f
+    sget p4, Lcom/resouce/module/ResSTRING;->public_purchase_pay_failed:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -820,7 +820,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f12274a
+    sget p4, Lcom/resouce/module/ResSTRING;->public_purchase_failed_to_restore_tip:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -840,7 +840,7 @@
     .line 30
     iget-object p1, p0, Lqqb;->T:Landroid/widget/ImageView;
 
-    const p3, 0x7f081aac
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_pay_failed_icon:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -849,7 +849,7 @@
 
     iget-object p3, p0, Lqqb;->S:Landroid/content/Context;
 
-    const p4, 0x7f1225fe
+    sget p4, Lcom/resouce/module/ResSTRING;->public_payment_failed:I
 
     invoke-virtual {p3, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -862,7 +862,7 @@
 
     iget-object p3, p0, Lqqb;->S:Landroid/content/Context;
 
-    const p4, 0x7f123096    # 1.9431956E38f
+    sget p4, Lcom/resouce/module/ResSTRING;->template_payment_failed:I    # 1.9431956E38f
 
     invoke-virtual {p3, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

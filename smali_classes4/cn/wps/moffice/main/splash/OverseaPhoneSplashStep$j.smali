@@ -65,7 +65,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b2ca5
+    sget v2, Lcom/resouce/module/ResID;->splash_close_area:I
 
     if-eq v1, v2, :cond_0
 
@@ -73,7 +73,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b2ca6
+    sget v1, Lcom/resouce/module/ResID;->splash_close_button:I
 
     if-ne p1, v1, :cond_1
 
@@ -220,11 +220,11 @@
 
     invoke-virtual {v0, v2}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v2, 0x7f080711
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_free:I
 
-    const v3, 0x7f121c87
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v4, 0x7f12268d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v5, 0x2
 
@@ -316,7 +316,7 @@
 
     move-result p1
 
-    const v2, 0x7f0b3268
+    sget v2, Lcom/resouce/module/ResID;->tv_splash_ad_free:I
 
     if-ne p1, v2, :cond_2
 

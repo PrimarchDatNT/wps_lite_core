@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b141f
+    sget v0, Lcom/resouce/module/ResID;->iv_cancel:I
 
     if-ne p1, v0, :cond_0
 
@@ -57,7 +57,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b14b8
+    sget v0, Lcom/resouce/module/ResID;->iv_rotate:I
 
     if-ne p1, v0, :cond_1
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b142e
+    sget v0, Lcom/resouce/module/ResID;->iv_complete:I
 
     if-ne p1, v0, :cond_2
 
@@ -102,7 +102,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b142a
+    sget v0, Lcom/resouce/module/ResID;->iv_close_tip:I
 
     const/4 v1, 0x0
 
@@ -128,7 +128,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b3166
+    sget v0, Lcom/resouce/module/ResID;->tv_feedback:I
 
     if-ne p1, v0, :cond_4
 
@@ -154,7 +154,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b143a
+    sget v0, Lcom/resouce/module/ResID;->iv_delete:I
 
     if-ne p1, v0, :cond_5
 
@@ -166,7 +166,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b143b
+    sget v0, Lcom/resouce/module/ResID;->iv_detection:I
 
     if-ne p1, v0, :cond_6
 

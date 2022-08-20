@@ -103,7 +103,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/main/scan/ui/ThirdpartyImageToPdfActivity$c;->I:Lcn/wps/moffice/main/scan/ui/ThirdpartyImageToPdfActivity;
 
-    const v2, 0x7f1204cd
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

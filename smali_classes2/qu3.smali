@@ -133,7 +133,7 @@
     .line 1
     iget-object v0, p0, Lqu3;->U:Landroid/content/DialogInterface$OnClickListener;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -149,7 +149,7 @@
     .line 3
     iget-object v0, p0, Lqu3;->T:Landroid/content/DialogInterface$OnClickListener;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -208,12 +208,12 @@
     :goto_1
     if-eqz v0, :cond_3
 
-    const v0, 0x7f1224d2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f121cf7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_addPasswd:I
 
     .line 8
     :goto_2

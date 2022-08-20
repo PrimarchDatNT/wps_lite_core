@@ -304,7 +304,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e06fe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_upload_fail_item:I
 
     const/4 v1, 0x0
 

@@ -219,7 +219,7 @@
     .line 2
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c6
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -232,7 +232,7 @@
     .line 3
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c7
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
     .line 4
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c4
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_green:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -258,7 +258,7 @@
     .line 5
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c3
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_blue:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
     .line 6
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c5
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_purple:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -284,7 +284,7 @@
     .line 7
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c2
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0786
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_addtext:I
 
     const/4 v2, 0x0
 
@@ -381,7 +381,7 @@
     .line 3
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c9
+    sget v1, Lcom/resouce/module/ResID;->addtext_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -398,7 +398,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216ca
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -440,7 +440,7 @@
     .line 9
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b00c8
+    sget v2, Lcom/resouce/module/ResID;->addtext_content_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -574,7 +574,7 @@
     .line 2
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c6
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -605,7 +605,7 @@
     .line 3
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c7
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -632,7 +632,7 @@
     .line 4
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c4
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_green:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -659,7 +659,7 @@
     .line 5
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c3
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_blue:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -686,7 +686,7 @@
     .line 6
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c5
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_purple:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -713,7 +713,7 @@
     .line 7
     iget-object v0, p0, Ljbc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b00c2
+    sget v1, Lcom/resouce/module/ResID;->addtext_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

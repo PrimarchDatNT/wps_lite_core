@@ -110,7 +110,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -458,7 +458,7 @@
 
     invoke-direct {p3, p0, p2}, Lb1g$d;-><init>(Lb1g;Landroid/view/View;)V
 
-    const v0, 0x7f0b1a8c
+    sget v0, Lcom/resouce/module/ResID;->num_text:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -469,7 +469,7 @@
 
     iput-object v0, p3, Lb1g$d;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d6c
+    sget v0, Lcom/resouce/module/ResID;->filter_content:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -480,7 +480,7 @@
 
     iput-object v0, p3, Lb1g$d;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d69
+    sget v0, Lcom/resouce/module/ResID;->filter_check_state:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
     .line 4
     iget-object v3, p1, Lb1g$d;->b:Landroid/widget/TextView;
 
-    const v4, 0x7f12087f
+    sget v4, Lcom/resouce/module/ResSTRING;->et_filter_blank:I
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -720,7 +720,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d5f
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -736,7 +736,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d60
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

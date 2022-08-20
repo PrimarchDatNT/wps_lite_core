@@ -310,7 +310,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1221ae
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder_share_member_manager:I
 
     goto :goto_0
 
@@ -356,7 +356,7 @@
     .line 4
     iget-object v0, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -632,7 +632,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122efd
+    sget v2, Lcom/resouce/module/ResSTRING;->share_folder_member_role_change_failed:I
 
     if-nez v0, :cond_4
 
@@ -1034,12 +1034,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f121dc1
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f121fbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_delete_group:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -1053,7 +1053,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1087,12 +1087,12 @@
 
     if-eqz p2, :cond_3
 
-    const p2, 0x7f12208b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
     goto :goto_1
 
     :cond_3
-    const p2, 0x7f122088
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit_group:I
 
     :goto_1
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -1285,7 +1285,7 @@
 
     if-eqz p2, :cond_8
 
-    const v1, 0x7f121ec9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1295,7 +1295,7 @@
     goto :goto_2
 
     :cond_8
-    const v1, 0x7f121e5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1318,7 +1318,7 @@
 
     if-eqz p2, :cond_a
 
-    const p2, 0x7f121eca
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change_hint:I
 
     .line 20
     invoke-virtual {v0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1328,7 +1328,7 @@
     goto :goto_3
 
     :cond_a
-    const p2, 0x7f121e5f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change_hint:I
 
     .line 21
     invoke-virtual {v0, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1539,7 +1539,7 @@
 
     iget-object v2, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v3, 0x7f121e64
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_group_view_all_members:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1568,7 +1568,7 @@
     :cond_3
     iget-object p2, p0, Lce7;->c0:Landroid/view/View;
 
-    const p4, 0x7f0b0f59
+    sget p4, Lcom/resouce/module/ResID;->group_member_name:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1758,7 +1758,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06f2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_new_setting:I
 
     const/4 v2, 0x0
 
@@ -1773,7 +1773,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f57
+    sget v1, Lcom/resouce/module/ResID;->group_member_list_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1799,7 +1799,7 @@
     .line 4
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f5a
+    sget v1, Lcom/resouce/module/ResID;->group_member_name_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1813,7 +1813,7 @@
     .line 6
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f56
+    sget v1, Lcom/resouce/module/ResID;->group_member_link_setting_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1827,7 +1827,7 @@
     .line 8
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f58
+    sget v1, Lcom/resouce/module/ResID;->group_member_manager_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1862,7 +1862,7 @@
     :cond_0
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v2, 0x7f0b184d
+    sget v2, Lcom/resouce/module/ResID;->member_num:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1892,7 +1892,7 @@
     .line 14
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0f54
+    sget v2, Lcom/resouce/module/ResID;->group_member_event_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1920,7 +1920,7 @@
     :cond_2
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1ff3
+    sget v1, Lcom/resouce/module/ResID;->phone_home_clouddocs_team_guid_url:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1931,7 +1931,7 @@
     .line 18
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f5e
+    sget v1, Lcom/resouce/module/ResID;->group_operation_divide_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1942,7 +1942,7 @@
     .line 19
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f4b
+    sget v1, Lcom/resouce/module/ResID;->group_bottom_divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1953,7 +1953,7 @@
     .line 20
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1ff1
+    sget v1, Lcom/resouce/module/ResID;->phone_home_clouddocs_delete_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1964,7 +1964,7 @@
     .line 21
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0649
+    sget v1, Lcom/resouce/module/ResID;->delete_group_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1982,7 +1982,7 @@
     .line 23
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1ff2
+    sget v1, Lcom/resouce/module/ResID;->phone_home_clouddocs_exit_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1993,7 +1993,7 @@
     .line 24
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0bf9
+    sget v1, Lcom/resouce/module/ResID;->exit_group_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2027,7 +2027,7 @@
     .line 28
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16b9
+    sget v1, Lcom/resouce/module/ResID;->ll_owner_change:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2040,7 +2040,7 @@
     .line 29
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b33a1
+    sget v1, Lcom/resouce/module/ResID;->view_owner_change_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2051,7 +2051,7 @@
     .line 30
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b320f
+    sget v1, Lcom/resouce/module/ResID;->tv_owner_change_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2064,7 +2064,7 @@
     .line 31
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b320e
+    sget v1, Lcom/resouce/module/ResID;->tv_owner_change_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2476,7 +2476,7 @@
     :goto_3
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v1, 0x1
 
@@ -2537,7 +2537,7 @@
     .line 6
     iget-object v3, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v4, 0x7f122ef8
+    sget v4, Lcom/resouce/module/ResSTRING;->share_folder_member_add_max_tips:I
 
     const/4 v5, 0x1
 
@@ -2568,7 +2568,7 @@
     .line 11
     iget-object v0, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121f23
+    sget v1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2596,7 +2596,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06f0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_member_list:I
 
     const/4 v2, 0x0
 
@@ -2611,7 +2611,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f57
+    sget v1, Lcom/resouce/module/ResID;->group_member_list_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2642,7 +2642,7 @@
     .line 5
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f51
+    sget v1, Lcom/resouce/module/ResID;->group_member_add_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2675,7 +2675,7 @@
     .line 10
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f63
+    sget v1, Lcom/resouce/module/ResID;->group_top_add_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2694,7 +2694,7 @@
     .line 13
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b31d4
+    sget v1, Lcom/resouce/module/ResID;->tv_member_count_value:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2707,7 +2707,7 @@
     .line 14
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16a3
+    sget v1, Lcom/resouce/module/ResID;->ll_member_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2720,7 +2720,7 @@
     .line 15
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b31cd
+    sget v1, Lcom/resouce/module/ResID;->tv_linked_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2733,7 +2733,7 @@
     .line 16
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b170b
+    sget v1, Lcom/resouce/module/ResID;->ll_vip_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2756,7 +2756,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0818b8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2889,7 +2889,7 @@
     .line 4
     iget-object v1, v0, Lce7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3084,7 +3084,7 @@
     :goto_3
     iget-object v1, v0, Lce7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f122efd
+    sget v2, Lcom/resouce/module/ResSTRING;->share_folder_member_role_change_failed:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3208,7 +3208,7 @@
     :goto_0
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p3, 0x1
 
@@ -3320,7 +3320,7 @@
     :goto_0
     const-string p1, "GROUP_REMOVE_MEMBER"
 
-    const v1, 0x7f122efa
+    sget v1, Lcom/resouce/module/ResSTRING;->share_folder_member_remove:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -3340,7 +3340,7 @@
     :cond_5
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f121e5e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_group_owner_change:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3366,7 +3366,7 @@
     :cond_6
     iget-object p2, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f120631
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_member:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3396,7 +3396,7 @@
     .line 9
     iget-object p2, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121940
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_admin:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3786,15 +3786,15 @@
     const/4 v0, 0x0
 
     :goto_0
-    const p1, 0x7f121940
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_admin:I
 
-    const v1, 0x7f122f01
+    sget v1, Lcom/resouce/module/ResSTRING;->share_folder_member_role_member_read:I
 
-    const v6, 0x7f122f00
+    sget v6, Lcom/resouce/module/ResSTRING;->share_folder_member_role_member:I
 
     const-string v7, "GROUP_REMOVE_MEMBER"
 
-    const v8, 0x7f122efa
+    sget v8, Lcom/resouce/module/ResSTRING;->share_folder_member_remove:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -3814,7 +3814,7 @@
     :cond_6
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f121ec9
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_owner_change:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4048,7 +4048,7 @@
     .line 8
     iget-object v4, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v5, 0x7f122f02
+    sget v5, Lcom/resouce/module/ResSTRING;->share_folder_member_vip_upgrade_tips:I
 
     const/4 v6, 0x1
 
@@ -4071,7 +4071,7 @@
     .line 11
     iget-object v0, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4084,7 +4084,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4100,7 +4100,7 @@
     .line 14
     iget-object v0, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4151,7 +4151,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b0f51
+    sget v1, Lcom/resouce/module/ResID;->group_member_add_btn:I
 
     const-string v2, "startGroupMemberChooserActivity"
 
@@ -4262,9 +4262,9 @@
     goto/16 :goto_2
 
     :cond_3
-    const v1, 0x7f0b0f63
+    sget v1, Lcom/resouce/module/ResID;->group_top_add_member:I
 
-    const v8, 0x7f0b0f52
+    sget v8, Lcom/resouce/module/ResID;->group_member_add_btn_avator:I
 
     if-eq p1, v1, :cond_e
 
@@ -4273,7 +4273,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v0, 0x7f0b0f5a
+    sget v0, Lcom/resouce/module/ResID;->group_member_name_layout:I
 
     if-ne p1, v0, :cond_6
 
@@ -4296,7 +4296,7 @@
     goto/16 :goto_2
 
     :cond_6
-    const v0, 0x7f0b184d
+    sget v0, Lcom/resouce/module/ResID;->member_num:I
 
     if-ne p1, v0, :cond_7
 
@@ -4316,7 +4316,7 @@
     goto/16 :goto_2
 
     :cond_7
-    const v0, 0x7f0b0f54
+    sget v0, Lcom/resouce/module/ResID;->group_member_event_btn:I
 
     if-ne p1, v0, :cond_8
 
@@ -4331,7 +4331,7 @@
     goto/16 :goto_2
 
     :cond_8
-    const v0, 0x7f0b1ff3
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_team_guid_url:I
 
     if-ne p1, v0, :cond_9
 
@@ -4346,7 +4346,7 @@
     goto/16 :goto_2
 
     :cond_9
-    const v0, 0x7f0b1ff1
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_delete_group:I
 
     if-ne p1, v0, :cond_a
 
@@ -4366,7 +4366,7 @@
     goto/16 :goto_2
 
     :cond_a
-    const v0, 0x7f0b1ff2
+    sget v0, Lcom/resouce/module/ResID;->phone_home_clouddocs_exit_group:I
 
     if-ne p1, v0, :cond_b
 
@@ -4386,7 +4386,7 @@
     goto/16 :goto_2
 
     :cond_b
-    const v0, 0x7f0b0f56
+    sget v0, Lcom/resouce/module/ResID;->group_member_link_setting_btn:I
 
     if-ne p1, v0, :cond_c
 
@@ -4401,7 +4401,7 @@
     goto :goto_2
 
     :cond_c
-    const v0, 0x7f0b0f58
+    sget v0, Lcom/resouce/module/ResID;->group_member_manager_btn:I
 
     if-ne p1, v0, :cond_d
 
@@ -4418,7 +4418,7 @@
     goto :goto_2
 
     :cond_d
-    const v0, 0x7f0b16b9
+    sget v0, Lcom/resouce/module/ResID;->ll_owner_change:I
 
     if-ne p1, v0, :cond_11
 
@@ -4576,7 +4576,7 @@
     .line 4
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const p3, 0x7f120647
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p3, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -4867,7 +4867,7 @@
     :goto_0
     iget-object p1, p0, Lce7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f1224aa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_member_count_full_contract_creator_upgrade:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -5008,7 +5008,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122efb
+    sget v2, Lcom/resouce/module/ResSTRING;->share_folder_member_remove_failed:I
 
     if-nez v0, :cond_3
 

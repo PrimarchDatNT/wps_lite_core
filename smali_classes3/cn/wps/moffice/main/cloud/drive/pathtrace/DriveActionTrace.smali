@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120610
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -650,7 +650,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120610
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -672,7 +672,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120616
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_myspace:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -749,7 +749,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120610
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -823,7 +823,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1229e7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_sharewith_me_root:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

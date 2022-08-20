@@ -123,7 +123,7 @@
 
     aput-object v4, v3, v5
 
-    const v4, 0x7f122614    # 1.94265E38f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
     .line 8
     iget-object v0, p0, Lgkb;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f1231b4
+    sget v1, Lcom/resouce/module/ResSTRING;->website_converting:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -240,7 +240,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1050
+    sget v1, Lcom/resouce/module/ResLAYOUT;->website_convert_progress_dialog:I
 
     const/4 v2, 0x0
 
@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b254e
+    sget v1, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object v1, p0, Lgkb;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
 
     iput-object v1, p0, Lgkb;->S:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v1, 0x7f0b2546
+    sget v1, Lcom/resouce/module/ResID;->progress_msg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object v1, p0, Lgkb;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f1231bc
+    sget v1, Lcom/resouce/module/ResSTRING;->website_exporting:I
 
     .line 5
     invoke-virtual {p0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -322,7 +322,7 @@
 
     aput-object v4, v2, v0
 
-    const v0, 0x7f122614    # 1.94265E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {v3, v0, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
 
     invoke-direct {v0, p0}, Lgkb$a;-><init>(Lgkb;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -479,7 +479,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122614    # 1.94265E38f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     new-array v1, v1, [Ljava/lang/Object;
 

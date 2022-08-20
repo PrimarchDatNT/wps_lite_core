@@ -325,7 +325,7 @@
 .method public static g0(Landroid/view/View;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f0b0fea
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,11 +485,11 @@
 
     check-cast v0, Lcn/wps/moffice/common/cloud/history/datamodel/PinnedHeadRecord;
 
-    const v1, 0x7f0b0fed
+    sget v1, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v2, -0x1
 
-    const v3, 0x7f0b1630
+    sget v3, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_1
 
@@ -557,7 +557,7 @@
 
     invoke-direct {p3}, Loh9$x;-><init>()V
 
-    const v4, 0x7f0b2750
+    sget v4, Lcom/resouce/module/ResID;->public_title:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 
     iput-object v4, p3, Loh9$x;->a:Landroid/widget/TextView;
 
-    const v4, 0x7f0b2241
+    sget v4, Lcom/resouce/module/ResID;->pinned_right_btn:I
 
     .line 9
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     iput-object v4, p3, Loh9$x;->b:Landroid/widget/TextView;
 
-    const v4, 0x7f0b223c
+    sget v4, Lcom/resouce/module/ResID;->pinned_btn_recent:I
 
     .line 10
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     check-cast v4, Lcn/wps/moffice/common/BottomLineHandleClickTextView;
 
-    const v4, 0x7f0b223e
+    sget v4, Lcom/resouce/module/ResID;->pinned_btn_star:I
 
     .line 11
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
 
     check-cast v4, Lcn/wps/moffice/common/BottomLineHandleClickTextView;
 
-    const v4, 0x7f0b223d
+    sget v4, Lcom/resouce/module/ResID;->pinned_btn_share:I
 
     .line 12
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
 
     check-cast v4, Lcn/wps/moffice/common/BottomLineHandleClickTextView;
 
-    const v4, 0x7f0b108d
+    sget v4, Lcom/resouce/module/ResID;->home_list_pinned_header_layout:I
 
     .line 13
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
 
     iput-object v4, p3, Loh9$x;->d:Landroid/view/View;
 
-    const v4, 0x7f0b1c32
+    sget v4, Lcom/resouce/module/ResID;->pad_record_filter:I
 
     .line 14
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -631,7 +631,7 @@
 
     if-eqz v4, :cond_3
 
-    const v5, 0x7f0605ee
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     .line 16
     invoke-virtual {v4, v5}, Landroid/view/View;->setBackgroundResource(I)V
@@ -684,11 +684,11 @@
 .method public final B(Landroid/view/View;Landroid/view/ViewGroup;I)Landroid/view/View;
     .locals 6
 
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v1, 0x4
 
-    const v2, 0x7f0b1630
+    sget v2, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p1, :cond_1
 
@@ -728,7 +728,7 @@
     :goto_0
     iget-object p1, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0cef
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_main_scan_item_layout:I
 
     const/4 v4, 0x0
 
@@ -751,7 +751,7 @@
 
     invoke-direct {p1}, Loh9$y;-><init>()V
 
-    const v3, 0x7f0b13ee
+    sget v3, Lcom/resouce/module/ResID;->item_title:I
 
     .line 7
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -760,7 +760,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v3, 0x7f0b13b4
+    sget v3, Lcom/resouce/module/ResID;->item_description:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -769,7 +769,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v3, 0x7f0b286a
+    sget v3, Lcom/resouce/module/ResID;->red_point:I
 
     .line 9
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -778,7 +778,7 @@
 
     iput-object v3, p1, Loh9$y;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0fe8
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 10
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -890,11 +890,11 @@
 
     check-cast p1, Lcn/wps/moffice/common/cloud/history/datamodel/ShareSelectorRecord;
 
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v1, 0x7
 
-    const v2, 0x7f0b1630
+    sget v2, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_1
 
@@ -935,7 +935,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0cf0
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_main_share_selector_item_layout:I
 
     const/4 v4, 0x0
 
@@ -948,7 +948,7 @@
 
     invoke-direct {p3}, Loh9$z;-><init>()V
 
-    const v3, 0x7f0b2ba1
+    sget v3, Lcom/resouce/module/ResID;->share_selector_title:I
 
     .line 7
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -959,7 +959,7 @@
 
     iput-object v3, p3, Loh9$z;->a:Landroid/widget/TextView;
 
-    const v3, 0x7f0b2ba0
+    sget v3, Lcom/resouce/module/ResID;->share_selector_icon:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1076,13 +1076,13 @@
 .method public final G(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 8
 
-    const p3, 0x7f0b2e88
+    sget p3, Lcom/resouce/module/ResID;->tag_position:I
 
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/16 v1, 0x9
 
-    const v2, 0x7f0b1630
+    sget v2, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_1
 
@@ -1132,7 +1132,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e032e
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_listview_tranfrom_item:I
 
     const/4 v4, 0x0
 
@@ -1148,7 +1148,7 @@
     .line 7
     iput p1, v3, Loh9$a0;->f:I
 
-    const v4, 0x7f0b0fe2
+    sget v4, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1159,7 +1159,7 @@
 
     iput-object v4, v3, Loh9$a0;->b:Landroid/widget/ImageView;
 
-    const v4, 0x7f0b0fe9
+    sget v4, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 9
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1170,7 +1170,7 @@
 
     iput-object v4, v3, Loh9$a0;->a:Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;
 
-    const v4, 0x7f0b2840
+    sget v4, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 10
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1181,7 +1181,7 @@
 
     iput-object v4, v3, Loh9$a0;->g:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b0fe6
+    sget v4, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 11
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1199,7 +1199,7 @@
 
     invoke-virtual {v4, v5}, Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;->setAssociatedView(Landroid/view/View;)V
 
-    const v4, 0x7f0b0fe0
+    sget v4, Lcom/resouce/module/ResID;->history_record_item_checkbox:I
 
     .line 13
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1210,7 +1210,7 @@
 
     iput-object v4, v3, Loh9$a0;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v4, 0x7f0b06cb
+    sget v4, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 14
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1289,7 +1289,7 @@
     .line 23
     iget-object v1, v0, Loh9$a0;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f081fcc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1299,7 +1299,7 @@
     :cond_3
     iget-object v1, v0, Loh9$a0;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f081626    # 1.8089E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1479,9 +1479,9 @@
 .method public final H(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 4
 
-    const p3, 0x7f0b0fed
+    sget p3, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
-    const v0, 0x7f0b1630
+    sget v0, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_1
 
@@ -1521,7 +1521,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e032b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_listview_item:I
 
     const/4 v2, 0x0
 
@@ -1534,7 +1534,7 @@
 
     invoke-direct {v1}, Loh9$b0;-><init>()V
 
-    const v3, 0x7f0b0fe1
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_content:I
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1543,7 +1543,7 @@
 
     iput-object v3, v1, Loh9$b0;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0fe2
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 6
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1557,7 +1557,7 @@
     .line 7
     invoke-static {v3, v2}, Landroidx/core/view/ViewCompat;->w0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
-    const v2, 0x7f0b0fea
+    sget v2, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 8
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1568,7 +1568,7 @@
 
     iput-object v2, v1, Loh9$b0;->d:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0fe9
+    sget v2, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 9
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1579,7 +1579,7 @@
 
     iput-object v2, v1, Loh9$b0;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f0b0fe8
+    sget v2, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 10
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1590,7 +1590,7 @@
 
     iput-object v2, v1, Loh9$b0;->g:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0fe6
+    sget v2, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 11
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1601,7 +1601,7 @@
 
     iput-object v2, v1, Loh9$b0;->i:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2840
+    sget v2, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 12
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1612,7 +1612,7 @@
 
     iput-object v2, v1, Loh9$b0;->h:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0fe0
+    sget v2, Lcom/resouce/module/ResID;->history_record_item_checkbox:I
 
     .line 13
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1638,7 +1638,7 @@
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/local/home/newui/common/FileItemTextView;->setAssociatedView(Landroid/view/View;)V
 
     :cond_2
-    const v2, 0x7f0b06cb
+    sget v2, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 16
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2757,7 +2757,7 @@
     .line 21
     iget-object v4, p2, Loh9$b0;->c:Landroid/widget/ImageView;
 
-    const v5, 0x7f0807f3
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->home_cloud_item_icon:I
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2829,7 +2829,7 @@
     .line 31
     iget-object v4, p2, Loh9$b0;->d:Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2e88
+    sget v5, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2869,7 +2869,7 @@
     .line 36
     iget-object v4, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v5, 0x7f0b2e68
+    sget v5, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3005,7 +3005,7 @@
     .line 51
     iget-object p1, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p3, 0x7f081fcc
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3015,7 +3015,7 @@
     :cond_f
     iget-object p1, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p3, 0x7f081626    # 1.8089E38f
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3341,7 +3341,7 @@
     .line 20
     iget-object p4, p2, Loh9$b0;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e88
+    sget v1, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3381,7 +3381,7 @@
     .line 25
     iget-object p4, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f0b2e68
+    sget v1, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3432,7 +3432,7 @@
     .line 31
     iget-object p1, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p3, 0x7f081fcc
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -3442,7 +3442,7 @@
     :cond_7
     iget-object p1, p2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p3, 0x7f081626    # 1.8089E38f
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -4344,11 +4344,11 @@
 
     check-cast p1, Lcn/wps/moffice/common/cloud/history/datamodel/EmptyPageRecord;
 
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v1, 0x6
 
-    const v2, 0x7f0b1630
+    sget v2, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     const/4 v3, 0x0
 
@@ -4391,7 +4391,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e0cee
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_main_guidepage_item_layout:I
 
     invoke-virtual {p2, v4, p3, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -4402,7 +4402,7 @@
 
     invoke-direct {p3}, Loh9$t;-><init>()V
 
-    const v4, 0x7f0b0f7f
+    sget v4, Lcom/resouce/module/ResID;->guide_page_text:I
 
     .line 7
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4413,7 +4413,7 @@
 
     iput-object v4, p3, Loh9$t;->a:Landroid/widget/TextView;
 
-    const v4, 0x7f0b0f7e
+    sget v4, Lcom/resouce/module/ResID;->guide_page_login_text:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4424,7 +4424,7 @@
 
     iput-object v4, p3, Loh9$t;->c:Landroid/widget/TextView;
 
-    const v4, 0x7f0b0859
+    sget v4, Lcom/resouce/module/ResID;->empty_item_image:I
 
     .line 9
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4485,7 +4485,7 @@
     .line 17
     iget-object v0, p3, Loh9$t;->c:Landroid/widget/TextView;
 
-    const v2, 0x7f121469
+    sget v2, Lcom/resouce/module/ResSTRING;->new_features_login_now:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -4532,9 +4532,9 @@
 .method public final v(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 4
 
-    const p3, 0x7f0b0fed
+    sget p3, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
-    const v0, 0x7f0b1630
+    sget v0, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     const/4 v1, 0x0
 
@@ -4576,7 +4576,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e032c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_listview_item_en:I
 
     const/4 v3, 0x0
 
@@ -4589,7 +4589,7 @@
 
     invoke-direct {v2}, Loh9$b0;-><init>()V
 
-    const v3, 0x7f0b0fe1
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_content:I
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4598,7 +4598,7 @@
 
     iput-object v3, v2, Loh9$b0;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0fe2
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 6
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4609,7 +4609,7 @@
 
     iput-object v3, v2, Loh9$b0;->b:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0feb
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_status_icon:I
 
     .line 7
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4620,7 +4620,7 @@
 
     iput-object v3, v2, Loh9$b0;->c:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0fec
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_type_icon:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4629,7 +4629,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0fea
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 9
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4640,7 +4640,7 @@
 
     iput-object v3, v2, Loh9$b0;->d:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0fe7
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_more:I
 
     .line 10
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4651,7 +4651,7 @@
 
     iput-object v3, v2, Loh9$b0;->g:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0fe9
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 11
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4662,7 +4662,7 @@
 
     iput-object v3, v2, Loh9$b0;->f:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0fe6
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 12
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4673,7 +4673,7 @@
 
     iput-object v3, v2, Loh9$b0;->i:Landroid/widget/TextView;
 
-    const v3, 0x7f0b2840
+    sget v3, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 13
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4684,7 +4684,7 @@
 
     iput-object v3, v2, Loh9$b0;->h:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b0fe0
+    sget v3, Lcom/resouce/module/ResID;->history_record_item_checkbox:I
 
     .line 14
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4695,7 +4695,7 @@
 
     iput-object v3, v2, Loh9$b0;->e:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v3, 0x7f0b06cb
+    sget v3, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 15
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4777,11 +4777,11 @@
 
     check-cast v0, Lcn/wps/moffice/common/cloud/history/datamodel/FileRadarRecord;
 
-    const v1, 0x7f0b0fed
+    sget v1, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v2, 0x3
 
-    const v3, 0x7f0b1630
+    sget v3, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     const/4 v4, 0x0
 
@@ -4823,7 +4823,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0e0bfa
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_fileradar_item_layout:I
 
     invoke-virtual {p2, v5, p3, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -4844,7 +4844,7 @@
 
     invoke-direct {p2}, Loh9$u;-><init>()V
 
-    const v5, 0x7f0b13ee
+    sget v5, Lcom/resouce/module/ResID;->item_title:I
 
     .line 8
     invoke-virtual {p3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4855,7 +4855,7 @@
 
     iput-object v5, p2, Loh9$u;->a:Landroid/widget/TextView;
 
-    const v5, 0x7f0b13b4
+    sget v5, Lcom/resouce/module/ResID;->item_description:I
 
     .line 9
     invoke-virtual {p3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4866,7 +4866,7 @@
 
     iput-object v5, p2, Loh9$u;->b:Landroid/widget/TextView;
 
-    const v5, 0x7f0b286a
+    sget v5, Lcom/resouce/module/ResID;->red_point:I
 
     .line 10
     invoke-virtual {p3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4875,7 +4875,7 @@
 
     iput-object v5, p2, Loh9$u;->c:Landroid/view/View;
 
-    const v5, 0x7f0b0fe8
+    sget v5, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 11
     invoke-virtual {p3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4933,7 +4933,7 @@
 
     const/16 v2, 0x8
 
-    const v3, 0x7f121217
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar:I
 
     if-nez v1, :cond_2
 
@@ -4957,7 +4957,7 @@
     :cond_2
     iget-object v5, p0, Loh9;->S:Landroid/content/Context;
 
-    const v6, 0x7f121d3b
+    sget v6, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4997,7 +4997,7 @@
     :cond_4
     iget-object v3, p0, Loh9;->S:Landroid/content/Context;
 
-    const v6, 0x7f12217c
+    sget v6, Lcom/resouce/module/ResSTRING;->public_fileradar_file_receive_title:I
 
     .line 22
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -5065,13 +5065,13 @@
 
     check-cast p1, Lcn/wps/moffice/common/cloud/history/datamodel/MeetingRecord;
 
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v1, 0x5
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1630
+    sget v3, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_1
 
@@ -5112,7 +5112,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e0cf2
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_meeting_item_layout:I
 
     invoke-virtual {p2, v4, p3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -5133,7 +5133,7 @@
 
     invoke-direct {p2}, Loh9$v;-><init>()V
 
-    const v4, 0x7f0b13ee
+    sget v4, Lcom/resouce/module/ResID;->item_title:I
 
     .line 9
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5144,7 +5144,7 @@
 
     iput-object v4, p2, Loh9$v;->a:Landroid/widget/TextView;
 
-    const v4, 0x7f0b13b4
+    sget v4, Lcom/resouce/module/ResID;->item_description:I
 
     .line 10
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5179,7 +5179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c32
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_running:I
 
     const/4 v3, 0x1
 
@@ -5216,7 +5216,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121c04
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_click_and_back:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5242,13 +5242,13 @@
     return-object p2
 
     :cond_0
-    const v0, 0x7f0b0fed
+    sget v0, Lcom/resouce/module/ResID;->history_record_list_view_holder_key:I
 
     const/4 v1, 0x0
 
     const/16 v2, 0x8
 
-    const v3, 0x7f0b1630
+    sget v3, Lcom/resouce/module/ResID;->list_view_item_type_key:I
 
     if-eqz p2, :cond_2
 
@@ -5289,7 +5289,7 @@
     :goto_0
     iget-object p2, p0, Loh9;->I:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e0d21
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_novel_item_layout:I
 
     invoke-virtual {p2, v4, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -5310,7 +5310,7 @@
 
     invoke-direct {p2}, Loh9$w;-><init>()V
 
-    const v4, 0x7f0b13c5
+    sget v4, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 9
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5321,7 +5321,7 @@
 
     iput-object v4, p2, Loh9$w;->a:Landroid/widget/ImageView;
 
-    const v4, 0x7f0b13ee
+    sget v4, Lcom/resouce/module/ResID;->item_title:I
 
     .line 10
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5332,7 +5332,7 @@
 
     iput-object v4, p2, Loh9$w;->b:Landroid/widget/TextView;
 
-    const v4, 0x7f0b13b4
+    sget v4, Lcom/resouce/module/ResID;->item_description:I
 
     .line 11
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5343,7 +5343,7 @@
 
     iput-object v4, p2, Loh9$w;->c:Landroid/widget/TextView;
 
-    const v4, 0x7f0b286a
+    sget v4, Lcom/resouce/module/ResID;->red_point:I
 
     .line 12
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5352,7 +5352,7 @@
 
     iput-object v4, p2, Loh9$w;->d:Landroid/view/View;
 
-    const v4, 0x7f0b13d5
+    sget v4, Lcom/resouce/module/ResID;->item_novel_progress:I
 
     .line 13
     invoke-virtual {p3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5447,7 +5447,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08167a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_novel:I
 
     .line 26
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -5484,12 +5484,12 @@
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0e0c32
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_home_homepage_list_pinned_header_data_item_layout:I
 
     return p1
 
     :cond_0
-    const p1, 0x7f0e0c36
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_home_list_pinned_header_item_layout:I
 
     return p1
 .end method

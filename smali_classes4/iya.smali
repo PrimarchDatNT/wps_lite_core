@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f120445
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_long_pic_share_qrcode:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200ae
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_playurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -295,13 +295,13 @@
 
     aput-object p0, v0, v1
 
-    const p0, 0x7f08072b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v1, 0x7f0601a6
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v3, 0x7f1210b8
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     .line 2
     invoke-static {p0, v1, v2, v3, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;

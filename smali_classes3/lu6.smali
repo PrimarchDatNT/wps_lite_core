@@ -69,7 +69,7 @@
     .line 3
     new-instance v1, Llu6;
 
-    const v2, 0x7f12008d
+    sget v2, Lcom/resouce/module/ResSTRING;->ads_complaint_for_not_interested:I
 
     const-string v3, "not_interested"
 
@@ -82,7 +82,7 @@
 
     new-instance v1, Llu6;
 
-    const v2, 0x7f12008b
+    sget v2, Lcom/resouce/module/ResSTRING;->ads_complaint_for_inappropriate:I
 
     const-string v3, "inappropriate"
 
@@ -95,7 +95,7 @@
 
     new-instance v1, Llu6;
 
-    const v2, 0x7f12008c
+    sget v2, Lcom/resouce/module/ResSTRING;->ads_complaint_for_multiple_display:I
 
     const-string v3, "too_many_times"
 
@@ -108,7 +108,7 @@
 
     new-instance v1, Llu6;
 
-    const v2, 0x7f12008e
+    sget v2, Lcom/resouce/module/ResSTRING;->ads_complaint_for_other_reason:I
 
     const-string v3, "other"
 

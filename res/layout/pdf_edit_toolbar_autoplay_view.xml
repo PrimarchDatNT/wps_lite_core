@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.FillViewLinearLayout android:background="@color/componentToolbarBackgroundColor" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="10.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf_main_topbar_recycle_play" android:text="@string/public_recycle_play" android:drawableLeft="@drawable/pad_comp_ppt_playback" style="@style/pdf_toolbar_icon_edit_text_image" />
-    <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf_main_topbar_autoplay_intervals" android:text="@string/public_autoplay_change_time" android:drawableLeft="@drawable/pad_comp_ppt_switch_time" style="@style/pdf_toolbar_icon_edit_text_image" />
-</cn.wps.moffice.common.beans.FillViewLinearLayout>

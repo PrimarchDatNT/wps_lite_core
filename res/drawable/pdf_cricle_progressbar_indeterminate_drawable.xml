@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<bitmap android:gravity="fill" android:src="@drawable/phone_pdf_progress_spinner_black" android:antialias="true" android:filter="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

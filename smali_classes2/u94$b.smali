@@ -32,7 +32,7 @@
     .line 1
     iget-object v0, p0, Ls94;->c:Landroid/content/Context;
 
-    const v1, 0x7f122300
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_please_install_evernote:I
 
     const/4 v2, 0x0
 

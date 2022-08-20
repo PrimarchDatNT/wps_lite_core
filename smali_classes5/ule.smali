@@ -560,7 +560,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b07d2
+    sget v2, Lcom/resouce/module/ResID;->dropdown_imageview_image:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -826,7 +826,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b07d3
+    sget v2, Lcom/resouce/module/ResID;->dropdown_imageview_text:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

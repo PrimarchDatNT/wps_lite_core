@@ -24,7 +24,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120dda
+    sget v2, Lcom/resouce/module/ResSTRING;->gp_app_detail:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -70,7 +70,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122552
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

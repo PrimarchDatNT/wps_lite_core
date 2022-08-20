@@ -364,7 +364,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1217ec
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_extract:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -649,7 +649,7 @@
     :cond_0
     iget-object p1, p0, Lfdl;->b:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x1
 

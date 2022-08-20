@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_membership_gray_txt_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

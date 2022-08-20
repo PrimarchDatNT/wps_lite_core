@@ -49,7 +49,7 @@
     .line 3
     iput-object p2, p0, Lmxc;->I:Landroid/view/View;
 
-    const p1, 0x7f0b298d
+    sget p1, Lcom/resouce/module/ResID;->rom_layout:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
     .line 8
     iget-object p1, p0, Lmxc;->I:Landroid/view/View;
 
-    const p3, 0x7f0b299b
+    sget p3, Lcom/resouce/module/ResID;->rom_read_title:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
     .line 10
     iget-object p1, p0, Lmxc;->S:Landroid/view/View;
 
-    const p3, 0x7f0b1f36
+    sget p3, Lcom/resouce/module/ResID;->pdf_small_title_text:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,12 +486,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0809aa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_dark:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0809ab
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_titlebar_back_light:I
 
     .line 6
     :goto_1

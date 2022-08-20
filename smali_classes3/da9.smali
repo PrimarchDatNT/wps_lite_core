@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d7e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_doc_search_header_item:I
 
     const/4 v2, 0x0
 
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0d71
+    sget v0, Lcom/resouce/module/ResID;->filter_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
     .line 4
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0fb8
+    sget v0, Lcom/resouce/module/ResID;->header_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 5
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0fae
+    sget v0, Lcom/resouce/module/ResID;->header_assistant_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
     .line 6
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b32dd
+    sget v0, Lcom/resouce/module/ResID;->type_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
     .line 7
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2513
+    sget v0, Lcom/resouce/module/ResID;->price_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
     .line 8
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0790
+    sget v0, Lcom/resouce/module/ResID;->down_num_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -161,7 +161,7 @@
     .line 9
     iget-object p1, p0, Lda9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1423
+    sget v0, Lcom/resouce/module/ResID;->iv_change_list:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,14 +174,14 @@
     .line 10
     iget-object p1, p0, Lda9;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f12307e
+    sget v0, Lcom/resouce/module/ResSTRING;->template_filter_price:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 11
     iget-object p1, p0, Lda9;->Y:Landroid/widget/TextView;
 
-    const v0, 0x7f12307a
+    sget v0, Lcom/resouce/module/ResSTRING;->template_filter_complex:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

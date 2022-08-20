@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a27
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_tts_controlpanel:I
 
     const/4 v2, 0x0
 
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Ljxl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b21e6
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_settings:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
     .line 3
     iget-object v0, p0, Ljxl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b21e4
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_play:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     .line 4
     iget-object v0, p0, Ljxl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b21e5
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_play_imageview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -130,7 +130,7 @@
     .line 5
     iget-object v0, p0, Ljxl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b21e3
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_finish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081194
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_play:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -326,7 +326,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081193
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_pause:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

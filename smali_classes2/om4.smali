@@ -494,7 +494,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1214a9
+    sget p2, Lcom/resouce/module/ResSTRING;->notify_docs_state_unsave_tips1:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f1214aa
+    sget p3, Lcom/resouce/module/ResSTRING;->notify_docs_state_unsave_tips2:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

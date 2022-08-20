@@ -213,7 +213,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121148
+    sget v2, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -237,7 +237,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081514
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->ppt_shareplay_linker_icon_whatsapp:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -260,7 +260,7 @@
     invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    const v2, 0x7f121138
+    sget v2, Lcom/resouce/module/ResSTRING;->home_scf_folder_hangouts:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -281,7 +281,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081513
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->ppt_shareplay_linker_icon_hangouts:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -306,14 +306,14 @@
     invoke-virtual {v0, v2, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
-    const p2, 0x7f121c0a
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_copy_url:I
 
     .line 14
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
-    const v2, 0x7f081743
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_copylink:I
 
     .line 15
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -387,7 +387,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f121148
+    sget p2, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -425,7 +425,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f121138
+    sget p2, Lcom/resouce/module/ResSTRING;->home_scf_folder_hangouts:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -470,7 +470,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081514
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_shareplay_linker_icon_whatsapp:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -488,7 +488,7 @@
     .line 4
     iget-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mWeChatShareImg:Landroid/widget/TextView;
 
-    const v0, 0x7f121148
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -497,7 +497,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081513
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ppt_shareplay_linker_icon_hangouts:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -513,7 +513,7 @@
     .line 7
     iget-object p2, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mQQShareImg:Landroid/widget/TextView;
 
-    const v0, 0x7f121138
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_hangouts:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -522,7 +522,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081e0b    # 1.80931E38f
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->shareplay_copyurl_share:I    # 1.80931E38f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -546,14 +546,14 @@
 
     move-result v0
 
-    const v1, 0x7f0b242a
+    sget v1, Lcom/resouce/module/ResID;->ppt_shareplay_wechat_share:I
 
     if-ne v0, v1, :cond_0
 
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121148
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -570,14 +570,14 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b2427
+    sget v1, Lcom/resouce/module/ResID;->ppt_shareplay_qq_share:I
 
     if-ne v0, v1, :cond_1
 
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f121138
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_hangouts:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -594,14 +594,14 @@
     return-void
 
     :cond_1
-    const v1, 0x7f0b2424
+    sget v1, Lcom/resouce/module/ResID;->ppt_shareplay_copy_url:I
 
     if-ne v0, v1, :cond_2
 
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayPopupView;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121c0a
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_copy_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -618,7 +618,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b2bc0
+    sget v1, Lcom/resouce/module/ResID;->shareplay_copy_accesscode:I
 
     if-ne v0, v1, :cond_3
 

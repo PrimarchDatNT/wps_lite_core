@@ -151,7 +151,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122535
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     .line 2
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -186,7 +186,7 @@
     .line 5
     instance-of p1, p0, Lcn/wps/moffice/main/router/RouterActivity;
 
-    const p2, 0x7f12272e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_processon_nospace_newfile_msg:I
 
     if-nez p1, :cond_3
 
@@ -204,7 +204,7 @@
 
     move-result p1
 
-    const p3, 0x7f12272f
+    sget p3, Lcom/resouce/module/ResSTRING;->public_processon_nospace_newfile_title:I
 
     if-eqz p1, :cond_2
 
@@ -226,7 +226,7 @@
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f120eae
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -467,7 +467,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121cce
+    sget v3, Lcom/resouce/module/ResSTRING;->processon_import_file_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1022,7 +1022,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12212e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_mindmap:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1208,7 +1208,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     if-nez p1, :cond_0
 

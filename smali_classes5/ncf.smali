@@ -339,7 +339,7 @@
     :pswitch_0
     new-instance v0, Ly68;
 
-    const v1, 0x7f121fd3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -347,7 +347,7 @@
 
     if-eqz p3, :cond_7
 
-    const p2, 0x7f0816cf
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_dingding:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -383,7 +383,7 @@
     .line 5
     new-instance v0, Ly68;
 
-    const v1, 0x7f1229a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_to_tim:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     if-eqz p3, :cond_8
 
-    const p2, 0x7f080f52
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_tim:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -414,7 +414,7 @@
     :cond_9
     new-instance v0, Ly68;
 
-    const v1, 0x7f122226
+    sget v1, Lcom/resouce/module/ResSTRING;->public_general_qq_file:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -422,7 +422,7 @@
 
     if-eqz p3, :cond_a
 
-    const p2, 0x7f0816d3
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_qq:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -445,7 +445,7 @@
     :pswitch_2
     new-instance v0, Ly68;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -453,7 +453,7 @@
 
     if-eqz p3, :cond_b
 
-    const p2, 0x7f081780
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_share_link:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -476,7 +476,7 @@
     :pswitch_3
     new-instance v0, Ly68;
 
-    const v1, 0x7f121978
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_weixin_wework:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -484,7 +484,7 @@
 
     if-eqz p3, :cond_c
 
-    const p2, 0x7f08106f
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_wechat_wework:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -507,7 +507,7 @@
     :pswitch_4
     new-instance v0, Ly68;
 
-    const v1, 0x7f122228
+    sget v1, Lcom/resouce/module/ResSTRING;->public_general_wechat_file:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -515,7 +515,7 @@
 
     if-eqz p3, :cond_d
 
-    const p2, 0x7f0816d6
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_wechat:I
 
     .line 14
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -541,7 +541,7 @@
     :pswitch_5
     new-instance v0, Ly68;
 
-    const v1, 0x7f122c0d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_woa:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     if-eqz p3, :cond_e
 
-    const p2, 0x7f0816d7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_woa:I
 
     .line 16
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -572,7 +572,7 @@
     :pswitch_6
     new-instance v0, Ly68;
 
-    const v1, 0x7f122446
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_email:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -580,7 +580,7 @@
 
     if-eqz p3, :cond_f
 
-    const p2, 0x7f0816e6
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_login_mail_color:I
 
     .line 18
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;

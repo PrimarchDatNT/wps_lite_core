@@ -92,7 +92,7 @@
     :catch_0
     iget-object p1, p0, Lkk8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12240e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -166,7 +166,7 @@
     :catch_0
     iget-object p1, p0, Lkk8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12240e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

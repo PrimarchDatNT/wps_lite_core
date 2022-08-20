@@ -656,7 +656,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070655
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_en_file_listview_item_height_one_line:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -670,7 +670,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070656
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_en_file_listview_item_height_two_line:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -812,7 +812,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f070655
+    sget p3, Lcom/resouce/module/ResDIMEN;->phone_en_file_listview_item_height_one_line:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -826,7 +826,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f070656
+    sget p3, Lcom/resouce/module/ResDIMEN;->phone_en_file_listview_item_height_two_line:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

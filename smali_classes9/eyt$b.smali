@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b18d2
+    sget v0, Lcom/resouce/module/ResID;->month_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
     .line 3
     invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->u0(Landroid/view/View;Z)V
 
-    const v1, 0x7f0b18cd
+    sget v1, Lcom/resouce/module/ResID;->month_grid:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

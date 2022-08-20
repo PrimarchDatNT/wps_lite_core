@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/share_choose_icon" style="@style/v10_phone_public_panel_list_img" />
-    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/share_choose_text" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

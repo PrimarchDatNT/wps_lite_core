@@ -35,7 +35,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e069c
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_documents_filebrowser_launcher:I
 
     const/4 v0, 0x0
 
@@ -43,7 +43,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b014c
+    sget p3, Lcom/resouce/module/ResID;->applauncher_list:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
     .line 12
     invoke-virtual {p0, p2}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p1, 0x7f122950
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 13
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -135,9 +135,9 @@
     .line 3
     new-instance v2, Lrf3;
 
-    const v3, 0x7f12069d
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_send_weibo_sina:I
 
-    const v4, 0x7f081089
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_documents_sina:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 
@@ -146,9 +146,9 @@
     .line 4
     new-instance v2, Lrf3;
 
-    const v3, 0x7f120605
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
-    const v4, 0x7f081375
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_moments:I
 
     invoke-direct {v2, v3, v4, v0}, Lrf3;-><init>(IILrf3$c;)V
 

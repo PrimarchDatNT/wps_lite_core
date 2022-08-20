@@ -254,7 +254,7 @@
 .method public final i(Landroid/content/Context;Ljava/lang/String;Lcn/wps/moffice/common/doc2web/extlibs/Doc2WebShareInvokerImpl$d;Lcn/wps/moffice/main/local/home/newui/docinfo/sharePanelItem/FileArgsBean;)V
     .locals 7
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 1
     :try_start_0

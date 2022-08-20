@@ -29,7 +29,7 @@
     .line 2
     iput v0, p0, Lik6;->o0:I
 
-    const v1, 0x7f0b01e6
+    sget v1, Lcom/resouce/module/ResID;->banner_container:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v1, p0, Lik6;->j0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b33e3
+    sget v1, Lcom/resouce/module/ResID;->vp_banner:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     invoke-virtual {v1, v3}, Landroidx/viewpager/widget/ViewPager;->setOffscreenPageLimit(I)V
 
-    const v1, 0x7f0b12e8
+    sget v1, Lcom/resouce/module/ResID;->indicator_banner:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

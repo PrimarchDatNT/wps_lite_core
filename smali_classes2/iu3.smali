@@ -37,12 +37,12 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const v0, 0x7f081a5d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     :goto_1
     return v0
@@ -83,7 +83,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f122029
+    sget v2, Lcom/resouce/module/ResSTRING;->public_download_task_complete:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const v5, 0x7f12202b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_download_task_pause:I
 
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     move-result-object p1
 
-    const v5, 0x7f12202a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_download_task_loading:I
 
     invoke-virtual {p1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -221,7 +221,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f122bad
+    sget v2, Lcom/resouce/module/ResSTRING;->public_view_details:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

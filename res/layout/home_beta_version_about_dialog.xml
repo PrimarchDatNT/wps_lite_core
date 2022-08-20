@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/beta_version_checkbox_root" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="24.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/beta_version_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_using_beta_version_toast_cn" />
-    <cn.wps.moffice.common.CustomCheckButton android:textSize="@dimen/phone_public_fontsize_sp_m" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/beta_version_checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/public_using_beta_version_update_cn" />
-</LinearLayout>

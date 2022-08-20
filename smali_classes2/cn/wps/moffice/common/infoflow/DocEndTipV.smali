@@ -255,7 +255,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e085c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_doc_end_tip_v:I
 
     .line 2
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/infoflow/DocEndTipV;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0713
+    sget v1, Lcom/resouce/module/ResID;->doc_end_tip_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/DocEndTipV;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0726
+    sget v1, Lcom/resouce/module/ResID;->doc_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -291,7 +291,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0703ba
+    sget v1, Lcom/resouce/module/ResDIMEN;->infoflow_doc_end_tip_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -461,7 +461,7 @@
 .method public setTipText(I)V
     .locals 1
 
-    const v0, 0x7f0b0713
+    sget v0, Lcom/resouce/module/ResID;->doc_end_tip_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

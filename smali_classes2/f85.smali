@@ -421,7 +421,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122555
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_supported_to_upload_content:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -440,7 +440,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -450,7 +450,7 @@
 
     invoke-direct {v2, p0, p3, v0, p1}, Lf85$a;-><init>(Landroid/app/Activity;Ljava/lang/Runnable;Lhd3;Ljava/lang/String;)V
 
-    const p0, 0x7f122496
+    sget p0, Lcom/resouce/module/ResSTRING;->public_manually_upload:I
 
     .line 5
     invoke-virtual {v0, p0, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -460,7 +460,7 @@
 
     invoke-direct {p0, p2}, Lf85$b;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121e1c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

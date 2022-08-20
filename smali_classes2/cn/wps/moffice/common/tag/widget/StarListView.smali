@@ -127,7 +127,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/StarListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d4a
+    sget v1, Lcom/resouce/module/ResID;->filelist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -140,7 +140,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/StarListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0cdc
+    sget v1, Lcom/resouce/module/ResID;->file_list_empty_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09aa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_star_listview:I
 
     const/4 v2, 0x0
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TableRow android:id="@id/table_style_options_layout_land_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-    <TableRow android:id="@id/table_style_options_layout_land_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-    <TableRow android:id="@id/table_style_options_layout_land_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-</TableLayout>

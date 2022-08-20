@@ -157,13 +157,13 @@
     .line 6
     invoke-virtual {v1, v0}, Lkib;->C(I)V
 
-    const v0, 0x7f0815b8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_smart_form_filling_pic:I
 
-    const v2, 0x7f06019f
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v3, 0x7f122c11
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
-    const v4, 0x7f12105d
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_fill_table:I
 
     const/4 v5, 0x1
 
@@ -410,7 +410,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d58
+    sget v2, Lcom/resouce/module/ResSTRING;->fill_table_access_key:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -425,7 +425,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120d59
+    sget v3, Lcom/resouce/module/ResSTRING;->fill_table_secret_key:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

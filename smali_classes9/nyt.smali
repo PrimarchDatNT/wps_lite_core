@@ -24,7 +24,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0401fa
+    sget v0, Lcom/resouce/module/ResATTR;->elevationOverlayEnabled:I
 
     const/4 v1, 0x0
 
@@ -35,7 +35,7 @@
 
     iput-boolean v0, p0, Lnyt;->a:Z
 
-    const v0, 0x7f0401f9
+    sget v0, Lcom/resouce/module/ResATTR;->elevationOverlayColor:I
 
     .line 3
     invoke-static {p1, v0, v1}, Luxt;->b(Landroid/content/Context;II)I
@@ -44,7 +44,7 @@
 
     iput v0, p0, Lnyt;->b:I
 
-    const v0, 0x7f040140
+    sget v0, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 4
     invoke-static {p1, v0, v1}, Luxt;->b(Landroid/content/Context;II)I

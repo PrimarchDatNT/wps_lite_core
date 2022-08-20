@@ -73,11 +73,11 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f080759
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2xls:I
 
-    const v2, 0x7f121772
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls_guide:I
 
-    const v3, 0x7f121059
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_xls_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -96,11 +96,11 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f080758
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2ppt:I
 
-    const v2, 0x7f12176e
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt_guide:I
 
-    const v3, 0x7f121058
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_ppt_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -119,11 +119,11 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080757
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2doc:I
 
-    const v2, 0x7f12173f
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_guide:I
 
-    const v3, 0x7f121057
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_doc_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -176,11 +176,11 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f080759
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2xls:I
 
-    const v4, 0x7f121771
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
-    const v5, 0x7f122696
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_xls_desc:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -206,11 +206,11 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f080758
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2ppt:I
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
-    const v5, 0x7f122695
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_ppt_desc:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -236,11 +236,11 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080757
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2doc:I
 
-    const v4, 0x7f121769
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
-    const v5, 0x7f122694
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_doc_desc:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -622,12 +622,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121746
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_member_guide_dialog_cn:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121747
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_member_guide_dialog_en:I
 
     .line 2
     :goto_0
@@ -654,14 +654,14 @@
 
     invoke-virtual {v1, p4}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p4, 0x7f121767
+    sget p4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_star_recovery_ok:I
 
     .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v2, 0x7f06005d
+    sget v2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -673,7 +673,7 @@
 
     invoke-virtual {v1, p4, v0, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p4, 0x7f120fb1
+    sget p4, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 5
     new-instance v0, Logc$b;
@@ -694,7 +694,7 @@
 
     invoke-virtual {v1, p4, v0}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance p1, Logc$c;

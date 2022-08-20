@@ -256,7 +256,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c48
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_transfer_file_activity:I
 
     const/4 v2, 0x0
 
@@ -276,7 +276,7 @@
 .method public getViewTitle()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f122294
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_file_trans:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -289,7 +289,7 @@
 .method public final initViews()V
     .locals 3
 
-    const v0, 0x7f0b2b11
+    sget v0, Lcom/resouce/module/ResID;->send_file_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/HomeTransferFileActivity;->I:Landroid/view/View;
 
-    const v0, 0x7f0b281c
+    sget v0, Lcom/resouce/module/ResID;->receive_file_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b0d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_transfer_to_device:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSecondText(I)V
 
@@ -387,7 +387,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0, p1, p2}, Lbih;->n(Landroid/content/Context;II)V
@@ -453,12 +453,12 @@
 
     invoke-direct {p1, p0, p2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p2, 0x7f122b75
+    sget p2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_warning_title:I
 
     .line 11
     invoke-virtual {p1, p2}, Lhd3;->setMessage(I)Lhd3;
 
-    const p2, 0x7f123263
+    sget p2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 12
     new-instance p3, Lcn/wps/moffice/main/local/home/HomeTransferFileActivity$e;
@@ -473,7 +473,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Lcn/wps/moffice/main/local/home/HomeTransferFileActivity$d;
 

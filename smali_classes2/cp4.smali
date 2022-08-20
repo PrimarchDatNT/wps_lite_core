@@ -87,7 +87,7 @@
     .line 3
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e28
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_file_size_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -109,7 +109,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e67
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_icon_file_size_limit_cant_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -138,7 +138,7 @@
     .line 10
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e2a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_space_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -160,7 +160,7 @@
     :cond_2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e29
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_comp_click_space_limit_can_not_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

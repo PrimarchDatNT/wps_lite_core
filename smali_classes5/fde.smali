@@ -53,9 +53,9 @@
     .line 4
     new-instance v0, Lfde$a;
 
-    const v1, 0x7f0803f7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_font_color:I
 
-    const v2, 0x7f1221b4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     const/4 v3, 0x0
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068f
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060699
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060698
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_orange:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06069b
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060697
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_green:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -151,7 +151,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060690
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_blue:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -250,7 +250,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -258,7 +258,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b20f7
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b20f6
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     iput-object v1, p0, Lfde;->b0:Lcn/wps/moffice/presentation/control/common/HalveLayout;
 
-    const v1, 0x7f1221b4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -336,7 +336,7 @@
 
     iget-object v1, p0, Lfde;->V:Landroid/content/Context;
 
-    const v3, 0x7f080233
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     invoke-static {v1, v3, v2}, Lsle;->g(Landroid/content/Context;II)Lcn/wps/moffice/presentation/control/common/SelectChangeImageView;
 

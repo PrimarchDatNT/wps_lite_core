@@ -103,12 +103,12 @@
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    const p1, 0x7f060625
+    sget p1, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     .line 2
     iput p1, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/MySurfaceView;->B:I
 
-    const p1, 0x7f060259
+    sget p1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 3
     iput p1, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/MySurfaceView;->I:I
@@ -122,7 +122,7 @@
 
     iput p1, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/MySurfaceView;->S:I
 
-    const p2, 0x7f060626
+    sget p2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 5
     iput p2, p0, Lcn/wps/moffice/writer/shell/pagesetting/view/MySurfaceView;->T:I
@@ -2010,7 +2010,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070c15
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_text_size:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

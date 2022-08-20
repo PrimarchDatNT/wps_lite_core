@@ -58,7 +58,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/PDFFuncFragment$a;->a:Lcn/wps/moffice/main/local/home/recommend/fragment/detail/PDFFuncFragment;
 
-    const v1, 0x7f1217ba
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form:I
 
     invoke-virtual {v0, v1}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/PDFFuncFragment$a;->a:Lcn/wps/moffice/main/local/home/recommend/fragment/detail/PDFFuncFragment;
 
-    const v1, 0x7f1216ca
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     invoke-virtual {v0, v1}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 

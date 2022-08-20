@@ -64,7 +64,7 @@
     :cond_0
     iget-object v0, p0, Lb1a$c;->B:Landroid/content/Context;
 
-    const v1, 0x7f12031a
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_upgrade_fail:I
 
     const/4 v2, 0x0
 

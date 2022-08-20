@@ -93,7 +93,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f1200be
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_content_error_by_charnum:I
 
     if-eqz p1, :cond_3
 

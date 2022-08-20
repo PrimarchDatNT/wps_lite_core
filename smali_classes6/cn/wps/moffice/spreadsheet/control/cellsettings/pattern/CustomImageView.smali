@@ -38,7 +38,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e01c3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_checkable_imageview:I
 
     invoke-virtual {p2, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/pattern/CustomImageView;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0972
+    sget v0, Lcom/resouce/module/ResID;->et_checkable_imageview_src_img:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/pattern/CustomImageView;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0973
+    sget v0, Lcom/resouce/module/ResID;->et_checkable_imageview_src_img_group:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060657
+    sget v0, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -97,7 +97,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/cellsettings/pattern/CustomImageView;->B:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0813e8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_color_item_selector:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

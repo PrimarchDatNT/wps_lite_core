@@ -21,7 +21,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0996
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_search_new:I
 
     const/4 v0, 0x1
 
@@ -225,7 +225,7 @@
     .line 1
     invoke-super {p0}, Lcn/wps/moffice/spreadsheet/control/search/phone/PhoneSearchBaseView;->q()V
 
-    const v0, 0x7f0b0ba0
+    sget v0, Lcom/resouce/module/ResID;->et_search_tab:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122856
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -268,7 +268,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227f9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

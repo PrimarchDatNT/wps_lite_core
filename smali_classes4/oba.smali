@@ -187,7 +187,7 @@
 
     invoke-direct {v0}, Lcn/wps/moffice/main/local/scfolder/model/SCFileAttribute;-><init>()V
 
-    const v1, 0x7f121135
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_from_frequently:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/local/scfolder/model/SCFileAttribute;->setId(I)V
@@ -232,12 +232,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e053a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_customfilelist_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e069d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_documents_files_item:I
 
     .line 2
     :goto_0
@@ -265,7 +265,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c70
+    sget v1, Lcom/resouce/module/ResID;->fb_checkbox:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     move-result p0
 
-    const v1, 0x7f0b0c7c
+    sget v1, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     if-eqz p0, :cond_1
 
@@ -292,7 +292,7 @@
 
     check-cast p0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0808c9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_download:I
 
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -306,12 +306,12 @@
 
     check-cast p0, Landroid/widget/ImageView;
 
-    const v1, 0x7f080f41
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_download:I
 
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :goto_1
-    const p0, 0x7f0b0c7d
+    sget p0, Lcom/resouce/module/ResID;->fb_file_last_modified_date_text:I
 
     .line 9
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     invoke-virtual {p0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p0, 0x7f0b0c86
+    sget p0, Lcom/resouce/module/ResID;->fb_filesize_text:I
 
     .line 10
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     invoke-virtual {p0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p0, 0x7f0b0c83
+    sget p0, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     .line 11
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -343,12 +343,12 @@
     .line 12
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->setSingleLine(Z)V
 
-    const v1, 0x7f121137
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_go_to_download_folder:I
 
     .line 13
     invoke-virtual {p0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const p0, 0x7f0b0c8e
+    sget p0, Lcom/resouce/module/ResID;->fb_thumbtack_checkbox:I
 
     .line 14
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -357,7 +357,7 @@
 
     invoke-virtual {p0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p0, 0x7f0b0c8d
+    sget p0, Lcom/resouce/module/ResID;->fb_select_radio:I
 
     .line 15
     invoke-virtual {v0, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

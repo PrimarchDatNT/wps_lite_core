@@ -183,9 +183,9 @@
     .line 2
     new-instance v0, Laxd$d;
 
-    const v1, 0x7f08036f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_background:I
 
-    const v2, 0x7f121ba5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pic_set_background:I
 
     invoke-direct {v0, p0, v1, v2}, Laxd$d;-><init>(Laxd;II)V
 
@@ -209,9 +209,9 @@
     .line 2
     new-instance v0, Laxd$a;
 
-    const v1, 0x7f08036f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_background:I
 
-    const v2, 0x7f121ba5
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_pic_set_background:I
 
     const/4 v3, 0x1
 

@@ -157,7 +157,7 @@
     goto :goto_0
 
     :cond_7
-    const p3, 0x7f1229ab
+    sget p3, Lcom/resouce/module/ResSTRING;->public_share_via_shareit:I
 
     .line 12
     :try_start_0
@@ -170,7 +170,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f08174d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_shareit:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

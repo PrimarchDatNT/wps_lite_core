@@ -176,12 +176,12 @@
 .method public final r()V
     .locals 1
 
-    const v0, 0x7f0b02ea
+    sget v0, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/shell/view/WriterDecorateViewBase;->f(I)V
 
-    const v0, 0x7f0b1272
+    sget v0, Lcom/resouce/module/ResID;->image_close:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/shell/view/WriterDecorateViewBase;->f(I)V

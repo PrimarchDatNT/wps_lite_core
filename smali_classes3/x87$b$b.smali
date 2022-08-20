@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ffd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_folder_can_not_copy:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122000
+    sget v1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_move_and_copy_fail_common_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -235,7 +235,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ffd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_folder_can_not_copy:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

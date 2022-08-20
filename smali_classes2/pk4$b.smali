@@ -64,7 +64,7 @@
 
     iget-object p1, p1, Lpk4$e;->a:Landroid/view/View;
 
-    const v0, 0x7f0812fb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_multi_doc_droplist_selector_bg_pressed:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 

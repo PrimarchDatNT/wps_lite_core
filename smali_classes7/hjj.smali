@@ -231,7 +231,7 @@
 
     invoke-direct {p3, v0, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v0, 0x7f122b8d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_usertemplate_save:I
 
     .line 3
     invoke-virtual {p3, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -246,12 +246,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0837
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_bookmark_rename_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0b1a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_bookmark_rename_dialog:I
 
     :goto_0
     invoke-static {v0, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -261,7 +261,7 @@
     .line 6
     invoke-virtual {p3, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f0b134c
+    sget v1, Lcom/resouce/module/ResID;->input_rename_edit:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
     .line 15
     invoke-virtual {v0}, Landroid/widget/EditText;->selectAll()V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 16
     new-instance v1, Lhjj$k;
@@ -339,7 +339,7 @@
 
     invoke-virtual {p3, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 17
     new-instance p2, Lhjj$a;
@@ -591,7 +591,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1217e0
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12318c
+    sget v1, Lcom/resouce/module/ResSTRING;->url_receive_file_guide:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12318f
+    sget v1, Lcom/resouce/module/ResSTRING;->url_transfer_guide:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

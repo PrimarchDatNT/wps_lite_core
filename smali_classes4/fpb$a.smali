@@ -49,7 +49,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e10d1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_qing_uploading_tip:I
 
     const/4 v3, 0x0
 
@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12257c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_mark_toast:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

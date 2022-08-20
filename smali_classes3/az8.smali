@@ -277,7 +277,7 @@
     :cond_0
     iget-object v1, v0, Laz8;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

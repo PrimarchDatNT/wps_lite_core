@@ -131,12 +131,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e07f6
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_drawarea_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e059f
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_ppt_drawarea_layout:I
 
     .line 13
     :goto_0
@@ -151,7 +151,7 @@
     .line 14
     invoke-virtual {p0}, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewEdit;->l()V
 
-    const p2, 0x7f0b22af
+    sget p2, Lcom/resouce/module/ResID;->ppt_editslideview:I
 
     .line 15
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     invoke-virtual {p2, p0}, Lcn/wps/moffice/presentation/control/show/shell/slide/view/EditSlideView;->setModeChangedListener(Lcn/wps/moffice/presentation/control/show/shell/slide/view/EditSlideView$a;)V
 
-    const p2, 0x7f0b247f
+    sget p2, Lcom/resouce/module/ResID;->ppt_thumblistview:I
 
     .line 18
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
     .line 19
     sget-boolean v0, Lskd;->a:Z
 
-    const v2, 0x7f060627
+    sget v2, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     if-eqz v0, :cond_1
 
@@ -194,7 +194,7 @@
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0b1c24
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_animation_list:I
 
     .line 21
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->setOnGenericMotionListener(Landroid/view/View$OnGenericMotionListener;)V
 
-    const p2, 0x7f0b1c25
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_edit_root:I
 
     .line 23
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewEdit;->I:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b1c26
+    sget p2, Lcom/resouce/module/ResID;->pad_ppt_editslideview_root:I
 
     .line 24
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -248,7 +248,7 @@
 
     invoke-virtual {p2, v1, v0}, Lcn/wps/moffice/presentation/control/show/shell/slide/view/ThumbSlideView;->setDivLine(II)V
 
-    const p2, 0x7f0b22ad
+    sget p2, Lcom/resouce/module/ResID;->ppt_edit_layout_container:I
 
     .line 26
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewEdit;->V:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b22ec
+    sget p2, Lcom/resouce/module/ResID;->ppt_ink_by_finger_button:I
 
     .line 27
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/presentation/control/drawarea/DrawAreaViewEdit;->f0:Landroid/view/View;
 
-    const p2, 0x7f0b2295
+    sget p2, Lcom/resouce/module/ResID;->ppt_anim_tran_preview:I
 
     .line 28
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070a41
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -303,7 +303,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070a42
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h_pad:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -324,7 +324,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070a3f
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -338,7 +338,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070a40
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v_pad:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -354,7 +354,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0708e3
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_anim_list_width_h_pad:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -369,7 +369,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0708e2
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_anim_list_height_v_pad:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -486,7 +486,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070d40
+    sget p2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_titlebar_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -512,7 +512,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070d37
+    sget p2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_quick_bar_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -965,7 +965,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f0b2de3    # 1.8500095E38f
+    sget v0, Lcom/resouce/module/ResID;->summary_top_tip_layout:I    # 1.8500095E38f
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -981,7 +981,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2de2    # 1.8500093E38f
+    sget v0, Lcom/resouce/module/ResID;->summary_top_tip:I    # 1.8500093E38f
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

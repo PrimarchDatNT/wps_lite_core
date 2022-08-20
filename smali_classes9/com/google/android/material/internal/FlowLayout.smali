@@ -143,7 +143,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0b29bf
+    sget v0, Lcom/resouce/module/ResID;->row_index_key:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -357,7 +357,7 @@
 
     const/16 v6, 0x8
 
-    const v7, 0x7f0b29bf
+    sget v7, Lcom/resouce/module/ResID;->row_index_key:I
 
     if-ne v5, v6, :cond_4
 

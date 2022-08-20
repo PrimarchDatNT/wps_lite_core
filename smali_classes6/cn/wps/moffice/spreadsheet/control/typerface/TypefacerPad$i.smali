@@ -85,7 +85,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    const v0, 0x7f1208aa
+    sget v0, Lcom/resouce/module/ResSTRING;->et_font_size_error:I
 
     const/4 v2, 0x0
 

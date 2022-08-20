@@ -120,7 +120,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e09a4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_titlebar_otherlayout_part:I
 
     const/4 v3, 0x1
 
@@ -130,7 +130,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->H0:Landroid/view/View;
 
-    const v0, 0x7f0b127c
+    sget v0, Lcom/resouce/module/ResID;->image_infoflow_layout_wrapper:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b128f
+    sget v0, Lcom/resouce/module/ResID;->image_quick_funcation_stub:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
     .line 11
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->x0()V
 
-    const v0, 0x7f0b301c
+    sget v0, Lcom/resouce/module/ResID;->titlebar_ad_image_wrapper:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->I0:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const p2, 0x7f0b2fd8
+    sget p2, Lcom/resouce/module/ResID;->title_bar_ad_icon:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -479,7 +479,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b2e5c
+    sget v1, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b218c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_titlebar_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -748,7 +748,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1227a4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -901,7 +901,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b218c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_titlebar_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -909,7 +909,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e5c
+    sget v1, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     if-eqz p1, :cond_0
 
@@ -934,7 +934,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->R0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080688
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_nav_change_table_icon:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -949,7 +949,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -981,7 +981,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->R0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080687
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_nav_change_card_icon:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1597,7 +1597,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0939
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_card_mode_title:I
 
     const/4 v2, 0x1
 
@@ -1606,7 +1606,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1faa
+    sget v0, Lcom/resouce/module/ResID;->phone_card_mode_title_bar:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1622,7 +1622,7 @@
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    const p1, 0x7f0b2b09
+    sget p1, Lcom/resouce/module/ResID;->selection_info:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1651,7 +1651,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/phone/view/EtAppTitleBar;->I0:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v0, 0x7f0b2fe2
+    sget v0, Lcom/resouce/module/ResID;->title_bar_img_switcher:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2403,7 +2403,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2d0b
+    sget v1, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2416,7 +2416,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    const v2, 0x7f0b2187
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2429,7 +2429,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b2155
+    sget v3, Lcom/resouce/module/ResID;->phone_ss_mock_state_bar:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2755,7 +2755,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121db9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_calc:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2907,7 +2907,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e1
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2929,7 +2929,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

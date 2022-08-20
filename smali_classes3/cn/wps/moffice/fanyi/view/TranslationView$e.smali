@@ -40,12 +40,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1230cd
+    sget p1, Lcom/resouce/module/ResSTRING;->title_trans_all:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1230ce
+    sget p1, Lcom/resouce/module/ResSTRING;->title_trans_selection:I
 
     .line 1
     :goto_0

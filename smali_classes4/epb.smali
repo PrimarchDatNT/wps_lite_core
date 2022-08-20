@@ -32,7 +32,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f12153b
+    sget v0, Lcom/resouce/module/ResSTRING;->online_security_error_code_unknown_local:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -64,7 +64,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f12257d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f122581
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_server_error:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -15,7 +15,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/graphics/Point;)V
     .locals 1
 
-    const v0, 0x7f130136
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Pull_And_Fade_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bd3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dropdown_title_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -69,7 +69,7 @@
     .line 3
     iput-object v0, p0, Lxw4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0530
+    sget v1, Lcom/resouce/module/ResID;->container:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     iput-object v1, p0, Lxw4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0db0
+    sget v1, Lcom/resouce/module/ResID;->fl_constraint:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

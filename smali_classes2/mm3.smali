@@ -48,7 +48,7 @@
     .line 1
     iget-object v0, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2758
+    sget v1, Lcom/resouce/module/ResID;->public_top_back_title_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -57,7 +57,7 @@
     .line 2
     iget-object v1, p0, Llm3;->a:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b256e
+    sget v2, Lcom/resouce/module/ResID;->public_bottom_dialog_back:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
     :goto_0
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b256f
+    sget v1, Lcom/resouce/module/ResID;->public_bottom_dialog_title:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

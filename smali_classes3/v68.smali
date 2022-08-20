@@ -1110,7 +1110,7 @@
     .line 7
     new-instance v2, Ly68;
 
-    const v3, 0x7f121453
+    sget v3, Lcom/resouce/module/ResSTRING;->multishare_share_wework:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1155,7 +1155,7 @@
     .line 11
     new-instance v1, Ly68;
 
-    const v3, 0x7f121452
+    sget v3, Lcom/resouce/module/ResSTRING;->multishare_share_tim:I
 
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

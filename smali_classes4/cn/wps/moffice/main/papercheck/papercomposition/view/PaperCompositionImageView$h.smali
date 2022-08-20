@@ -127,7 +127,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h;->X:Landroid/content/Context;
 
-    const v3, 0x7f1200c7
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_download_ing:I
 
     new-instance v4, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h$a;
 
@@ -172,7 +172,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h;->X:Landroid/content/Context;
 
-    const v1, 0x7f1200ca
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_error_by_path:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -279,7 +279,7 @@
     :cond_3
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$h;->X:Landroid/content/Context;
 
-    const v1, 0x7f121668
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_repetition_download_fail_msg:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123446
+    sget v1, Lcom/resouce/module/ResSTRING;->wx_min_pic_path:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123231
+    sget v2, Lcom/resouce/module/ResSTRING;->wps_icon_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -113,7 +113,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1201be
+    sget v4, Lcom/resouce/module/ResSTRING;->apps_resume_wx_miniprogram_share_title:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -142,7 +142,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122aa6
+    sget v4, Lcom/resouce/module/ResSTRING;->public_template_share_des:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

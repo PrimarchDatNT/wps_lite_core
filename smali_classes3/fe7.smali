@@ -99,7 +99,7 @@
     .line 1
     iget-object v0, p0, Lce7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f5b
+    sget v1, Lcom/resouce/module/ResID;->group_member_name_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f122971
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_folder_name:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -242,7 +242,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f120eac
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_path:I
 
     invoke-virtual {v1, v3, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

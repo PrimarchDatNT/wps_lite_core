@@ -436,7 +436,7 @@
 
     iget-object v1, p0, Ltn9;->d:Lcn/wps/moffice/common/beans/ExtendRecyclerView;
 
-    const v2, 0x7f0e0c35
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_home_list_footer_layout:I
 
     const/4 v3, 0x0
 
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10cb
+    sget v1, Lcom/resouce/module/ResID;->home_no_record_viewstub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2838
+    sget v1, Lcom/resouce/module/ResID;->recordRecyclerView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -530,7 +530,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1218
+    sget v1, Lcom/resouce/module/ResID;->huawei_audio_assist_open_file_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1269,7 +1269,7 @@
 .method public x()I
     .locals 1
 
-    const v0, 0x7f0e054a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_history_record_file_list_v2:I
 
     return v0
 .end method

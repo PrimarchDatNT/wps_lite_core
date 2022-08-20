@@ -229,7 +229,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1116
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_translation_selectlanguage_layout:I
 
     const/4 v2, 0x0
 
@@ -239,7 +239,7 @@
 
     iput-object v0, p0, Lqmc;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0782
+    sget v1, Lcom/resouce/module/ResID;->done:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
     .line 3
     iget-object v0, p0, Lqmc;->a:Landroid/view/View;
 
-    const v2, 0x7f0b033b
+    sget v2, Lcom/resouce/module/ResID;->cancel:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -266,7 +266,7 @@
     .line 4
     iget-object v0, p0, Lqmc;->a:Landroid/view/View;
 
-    const v2, 0x7f0b342e
+    sget v2, Lcom/resouce/module/ResID;->wheelLayout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
     .line 6
     iget-object v0, p0, Lqmc;->a:Landroid/view/View;
 
-    const v1, 0x7f0b05b2
+    sget v1, Lcom/resouce/module/ResID;->coverView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -474,7 +474,7 @@
     .line 12
     iget-object v0, p0, Lqmc;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b0c
+    sget v1, Lcom/resouce/module/ResID;->selectlanguage_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

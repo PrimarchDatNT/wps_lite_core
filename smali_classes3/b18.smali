@@ -891,7 +891,7 @@
 
     iget-object v1, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v1, v2, v0}, Lk87;-><init>(Landroid/content/Context;ILi87;)V
 
@@ -998,7 +998,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12125c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_unsupport_share_folder:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1087,7 +1087,7 @@
     .line 2
     iget-object p1, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121239
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -1106,7 +1106,7 @@
     .line 4
     iget-object p1, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -1213,7 +1213,7 @@
     :goto_2
     iget-object p1, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120ef1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     const/4 v1, 0x0
 
@@ -2347,7 +2347,7 @@
     .line 5
     iget-object v0, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -2586,7 +2586,7 @@
     .line 3
     iget-object v0, p0, Lz58;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

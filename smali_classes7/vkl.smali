@@ -369,7 +369,7 @@
     .line 2
     new-instance v0, Ldbl;
 
-    const v1, 0x7f0b0282
+    sget v1, Lcom/resouce/module/ResID;->bottom_tools:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -462,7 +462,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b171a
+    sget v1, Lcom/resouce/module/ResID;->load_progressbar_sec:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -504,7 +504,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b025b
+    sget v1, Lcom/resouce/module/ResID;->bottom_expand_switcher:I
 
     invoke-virtual {v0, v1}, Ltf6;->g(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b21e1
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_tool_bottom:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -769,7 +769,7 @@
     .line 2
     new-instance v0, Lnkl;
 
-    const v1, 0x7f0b21e2
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tool_top:I
 
     invoke-virtual {p0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -811,7 +811,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b34c0
+    sget v1, Lcom/resouce/module/ResID;->writer_audiocomment_view:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -859,7 +859,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b21e7
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_tvmeeting_titlebar_layout:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -923,7 +923,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b3609
+    sget v0, Lcom/resouce/module/ResID;->writer_phone_decorate:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;
@@ -949,7 +949,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b35a7
+    sget v0, Lcom/resouce/module/ResID;->writer_ink_pen_close:I
 
     .line 2
     invoke-virtual {p0, v0}, Lxyl;->m(I)Landroid/view/View;

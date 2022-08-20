@@ -41,9 +41,9 @@
     .line 3
     new-instance v0, Lq7e$b;
 
-    const v1, 0x7f080c6d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_layer_quick_style_ppt:I
 
-    const v2, 0x7f121bca
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_quick_style:I
 
     invoke-direct {v0, p0, v1, v2}, Lq7e$b;-><init>(Lq7e;II)V
 

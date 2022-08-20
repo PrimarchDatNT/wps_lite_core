@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Ltol$e;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122e4b
+    sget v1, Lcom/resouce/module/ResSTRING;->resume_share_fail:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

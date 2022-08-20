@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0915
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_scan_long_pic_share_preview_footer:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
     .line 3
     iput-object p1, p0, Loya;->p:Landroid/content/Context;
 
-    const v1, 0x7f0b0214
+    sget v1, Lcom/resouce/module/ResID;->bg_stub:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
     .line 5
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2bb5
+    sget v1, Lcom/resouce/module/ResID;->share_type_normal_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
     .line 6
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1a51
+    sget v1, Lcom/resouce/module/ResID;->normal_line_left:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
     .line 7
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1a52
+    sget v1, Lcom/resouce/module/ResID;->normal_line_right:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     .line 8
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b185c
+    sget v1, Lcom/resouce/module/ResID;->membership_line_left:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 9
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b185d
+    sget v1, Lcom/resouce/module/ResID;->membership_line_right:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -139,7 +139,7 @@
     .line 10
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b349c
+    sget v1, Lcom/resouce/module/ResID;->wps_send:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 11
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b97
+    sget v1, Lcom/resouce/module/ResID;->share_qrcode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
     .line 12
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2b98
+    sget v1, Lcom/resouce/module/ResID;->share_qrcode_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -176,7 +176,7 @@
     .line 13
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2bb3
+    sget v1, Lcom/resouce/module/ResID;->share_type_membership_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     .line 14
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b349d
+    sget v1, Lcom/resouce/module/ResID;->wps_send_membership:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
     .line 15
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1858
+    sget v1, Lcom/resouce/module/ResID;->membership_bg_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 16
     iget-object v0, p0, Loya;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1786
+    sget v1, Lcom/resouce/module/ResID;->long_press_tips_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121d3e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -857,7 +857,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122007
+    sget v4, Lcom/resouce/module/ResSTRING;->public_documenet_scan_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

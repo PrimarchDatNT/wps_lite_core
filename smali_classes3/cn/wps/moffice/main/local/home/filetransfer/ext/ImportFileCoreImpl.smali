@@ -353,7 +353,7 @@
 
     if-nez p4, :cond_0
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 6
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V

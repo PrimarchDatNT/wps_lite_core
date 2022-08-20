@@ -38,7 +38,7 @@
     .line 1
     iget-object p1, p0, Luij$e;->B:Luij;
 
-    const v0, 0x7f0b3653
+    sget v0, Lcom/resouce/module/ResID;->writer_progressbar:I
 
     invoke-virtual {p1, v0}, Lozl;->Z0(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1205e5
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastpassword:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

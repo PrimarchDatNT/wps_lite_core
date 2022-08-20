@@ -132,7 +132,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f13012d
+    sget v4, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     iget-object v5, p1, Lbj3;->c:Ljava/lang/String;
 

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="@dimen/phone_public_keyboard_tool_swtich_size" android:layout_height="@dimen/phone_public_keyboard_tool_swtich_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/keyboard_button" android:visibility="gone" android:layout_width="@dimen/phone_public_keyboard_tool_swtich_size" android:layout_height="@dimen/phone_public_keyboard_tool_swtich_size" android:scaleType="fitXY" />
-    <ImageView android:layout_gravity="center" android:id="@id/tool_button" android:visibility="gone" android:layout_width="@dimen/phone_public_keyboard_tool_swtich_size" android:layout_height="@dimen/phone_public_keyboard_tool_swtich_size" android:scaleType="fitXY" />
-</FrameLayout>

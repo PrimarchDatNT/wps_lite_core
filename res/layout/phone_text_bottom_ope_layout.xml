@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/home_bottom_operator_share" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_image_bg_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/operator_icon" android:scaleType="center" style="@style/public_bottom_operation_button_style" />
-    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/operator_txt" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:paddingStart="1.0dip" android:paddingEnd="1.0dip" MaxLine="1" style="@style/public_bottom_operation_textview_style" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

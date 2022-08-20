@@ -675,7 +675,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d4a
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_ppt_slide_list_new:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

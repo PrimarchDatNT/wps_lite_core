@@ -49,7 +49,7 @@
 .method public constructor <init>(Landroid/content/Context;Lk2m;Lo2m;Lf2n;)V
     .locals 5
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0226
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_pivottable_export_dialog:I
 
     const/4 v2, 0x0
 
@@ -110,7 +110,7 @@
     .line 7
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v1, 0x7f0b0af5
+    sget v1, Lcom/resouce/module/ResID;->et_pivot_table_title_bar:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
     .line 10
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/beans/TitleBar;->setBottomShadowVisibility(I)V
 
-    const v3, 0x7f0b2fe6
+    sget v3, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     .line 11
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f120bd0
+    sget v4, Lcom/resouce/module/ResSTRING;->et_pivot_table_export:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -158,7 +158,7 @@
     .line 13
     invoke-direct {p0, p1}, Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableDialog;->setExportBtnEnabled(Z)V
 
-    const v3, 0x7f0b2fdd
+    sget v3, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 14
     invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/insert/pivottable/PivotTableDialog;->I:Landroid/widget/Button;
 
-    const v3, 0x7f0b0af7
+    sget v3, Lcom/resouce/module/ResID;->et_pivottable_preview:I
 
     .line 15
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

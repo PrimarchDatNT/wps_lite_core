@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e063d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_file_popmenu:I
 
     const/4 v2, 0x0
 
@@ -184,57 +184,57 @@
     .line 3
     invoke-virtual {p0}, Ltwc;->f()V
 
-    const v0, 0x7f0b1e63
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_save:I
 
     .line 4
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e64
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_saveas:I
 
     .line 5
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e65
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_share:I
 
     .line 6
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e4a
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_clip:I
 
     .line 7
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e4e
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_doc_infos:I
 
     .line 8
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e5e
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_print:I
 
     .line 9
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e59
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_meeting_request:I
 
     .line 10
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e66
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_share_play_request:I
 
     .line 11
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v0, 0x7f0b1e57
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_history_version:I
 
     .line 12
     invoke-virtual {p0, v0}, Ltwc;->j(I)V
 
-    const v1, 0x7f0b1e53
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_feedback:I
 
     .line 13
     invoke-virtual {p0, v1}, Ltwc;->j(I)V
 
-    const v1, 0x7f0b1e54
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_file_reduce:I
 
     .line 14
     invoke-virtual {p0, v1}, Ltwc;->j(I)V
@@ -307,7 +307,7 @@
     .line 2
     iget-object v0, p0, Ltwc;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1e59
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_meeting_request:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -361,7 +361,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b1e63
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_save:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -484,7 +484,7 @@
     .line 2
     iget-object v0, p0, Ltwc;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1e65
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_share:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -515,7 +515,7 @@
     .line 4
     iget-object v0, p0, Ltwc;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1e59
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_meeting_request:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -534,7 +534,7 @@
     .line 6
     iget-object v0, p0, Ltwc;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1e66
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_share_play_request:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -553,7 +553,7 @@
     .line 8
     iget-object v0, p0, Ltwc;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1e54
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_file_reduce:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
-    const v0, 0x7f0b0d05
+    sget v0, Lcom/resouce/module/ResID;->file_reduce_limit_free_btn:I
 
     .line 9
     sget-object v1, Lys9$b;->Y:Lys9$b;
@@ -616,7 +616,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f07060a
+    sget v4, Lcom/resouce/module/ResDIMEN;->pdf_pad_file_left:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -653,7 +653,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1e63
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_save:I
 
     if-ne p1, v3, :cond_0
 
@@ -690,7 +690,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0b1e64
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_saveas:I
 
     const-string v4, "edit"
 
@@ -715,7 +715,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0b1e5e
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_print:I
 
     if-ne p1, v3, :cond_2
 
@@ -758,7 +758,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0b1e53
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_feedback:I
 
     if-ne p1, v3, :cond_3
 
@@ -801,7 +801,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v3, 0x7f0b1e59
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_meeting_request:I
 
     if-ne p1, v3, :cond_5
 
@@ -842,7 +842,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122552
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-static {p1, v0, v5}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -899,7 +899,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v3, 0x7f0b1e66
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_share_play_request:I
 
     if-ne p1, v3, :cond_6
 
@@ -918,7 +918,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v3, 0x7f0b1e57
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_history_version:I
 
     if-ne p1, v3, :cond_7
 
@@ -949,7 +949,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v3, 0x7f0b1e65
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_share:I
 
     if-ne p1, v3, :cond_a
 
@@ -1030,7 +1030,7 @@
     goto :goto_0
 
     :cond_a
-    const v0, 0x7f0b1e4a
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_clip:I
 
     if-ne p1, v0, :cond_b
 
@@ -1045,7 +1045,7 @@
     goto :goto_0
 
     :cond_b
-    const v0, 0x7f0b1e4e
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_doc_infos:I
 
     if-ne p1, v0, :cond_c
 
@@ -1073,7 +1073,7 @@
     goto :goto_0
 
     :cond_c
-    const v0, 0x7f0b1e54
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_file_reduce:I
 
     if-ne p1, v0, :cond_d
 

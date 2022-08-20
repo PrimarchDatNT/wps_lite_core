@@ -150,7 +150,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -174,7 +174,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120eec
+    sget p2, Lcom/resouce/module/ResSTRING;->home_docs_search_others_documentroam:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122503
+    sget p2, Lcom/resouce/module/ResSTRING;->public_native_file:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -211,7 +211,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12116c
+    sget p2, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -540,12 +540,12 @@
 
     if-ge v1, v2, :cond_6
 
-    const v1, 0x7f0810a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_graypoint_background:I
 
     goto :goto_2
 
     :cond_6
-    const v1, 0x7f0810a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_grayrectangle_background:I
 
     :goto_2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -1479,7 +1479,7 @@
 
     move-result v8
 
-    const v10, 0x7f0605f1
+    sget v10, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-nez v8, :cond_24
 
@@ -2070,7 +2070,7 @@
     .line 124
     iget-object v5, v0, Lj29;->h0:Landroid/widget/TextView;
 
-    const v6, 0x7f0605f1
+    sget v6, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-static {v5, v1, v4, v6}, Lcv8;->e(Landroid/widget/TextView;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -2299,7 +2299,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f12116c
+    sget v4, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2671,7 +2671,7 @@
     .line 182
     iget-object v5, v0, Lj29;->k0:Landroid/widget/TextView;
 
-    const v6, 0x7f0605f1
+    sget v6, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-static {v5, v1, v4, v6}, Lcv8;->e(Landroid/widget/TextView;Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -2805,7 +2805,7 @@
     .line 200
     iget-object v1, v0, Lf29;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0c7f
+    sget v2, Lcom/resouce/module/ResID;->fb_file_news_detail:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2824,7 +2824,7 @@
     :cond_48
     iget-object v1, v0, Lf29;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0c81
+    sget v2, Lcom/resouce/module/ResID;->fb_file_subtitle_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2913,7 +2913,7 @@
     .line 2
     iget-object v0, p0, Lf29;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0c79
+    sget v1, Lcom/resouce/module/ResID;->fb_file_enter_arrow_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3278,7 +3278,7 @@
 
     iput-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c8a
+    sget v0, Lcom/resouce/module/ResID;->fb_listview_item_layout:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3290,7 +3290,7 @@
     .line 6
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c70
+    sget v0, Lcom/resouce/module/ResID;->fb_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3308,7 +3308,7 @@
     .line 8
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c8b
+    sget v0, Lcom/resouce/module/ResID;->fb_more_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3322,7 +3322,7 @@
     :cond_0
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c7c
+    sget v0, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3335,7 +3335,7 @@
     .line 10
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c7d
+    sget v0, Lcom/resouce/module/ResID;->fb_file_last_modified_date_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3348,7 +3348,7 @@
     .line 11
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c80
+    sget v0, Lcom/resouce/module/ResID;->fb_file_subs_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3359,7 +3359,7 @@
     .line 12
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c86
+    sget v0, Lcom/resouce/module/ResID;->fb_filesize_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3380,7 +3380,7 @@
     :cond_1
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c75
+    sget v0, Lcom/resouce/module/ResID;->fb_file_attatch_author_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3393,7 +3393,7 @@
     .line 15
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c77
+    sget v0, Lcom/resouce/module/ResID;->fb_file_attatch_news_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3406,7 +3406,7 @@
     .line 16
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c76
+    sget v0, Lcom/resouce/module/ResID;->fb_file_attatch_news_red_point:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3421,13 +3421,13 @@
 
     move-result p1
 
-    const v0, 0x7f0b0c88
+    sget v0, Lcom/resouce/module/ResID;->fb_filetype_text:I
 
-    const v1, 0x7f0b0c85
+    sget v1, Lcom/resouce/module/ResID;->fb_filepath_text_from:I
 
-    const v3, 0x7f0b0c84
+    sget v3, Lcom/resouce/module/ResID;->fb_filepath_text:I
 
-    const v4, 0x7f0b0c83
+    sget v4, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     if-nez p1, :cond_3
 
@@ -3452,7 +3452,7 @@
     .line 19
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v4, 0x7f0b0c7a
+    sget v4, Lcom/resouce/module/ResID;->fb_file_format_symbol:I
 
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3498,7 +3498,7 @@
     .line 23
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c7b
+    sget v0, Lcom/resouce/module/ResID;->fb_file_full_text_match_content_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3516,7 +3516,7 @@
     .line 25
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c72
+    sget v0, Lcom/resouce/module/ResID;->fb_divide_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3527,7 +3527,7 @@
     .line 26
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c73
+    sget v0, Lcom/resouce/module/ResID;->fb_divide_line_whole_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3538,7 +3538,7 @@
     .line 27
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0feb
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_status_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3611,7 +3611,7 @@
     :cond_4
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b1bd6
+    sget v0, Lcom/resouce/module/ResID;->pad_fb_divide_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3640,7 +3640,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3684,7 +3684,7 @@
     :cond_6
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c87
+    sget v0, Lcom/resouce/module/ResID;->fb_filetime_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3697,7 +3697,7 @@
     .line 40
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c82
+    sget v0, Lcom/resouce/module/ResID;->fb_fileext_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3710,7 +3710,7 @@
     .line 41
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c8e
+    sget v0, Lcom/resouce/module/ResID;->fb_thumbtack_checkbox:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3723,7 +3723,7 @@
     .line 42
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0c8d
+    sget v0, Lcom/resouce/module/ResID;->fb_select_radio:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3924,12 +3924,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0fdf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->tv_home_customfilelist_item_pad:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0fde
+    sget v0, Lcom/resouce/module/ResLAYOUT;->tv_home_customfilelist_item:I
 
     :goto_0
     return v0
@@ -3940,12 +3940,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e053a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_customfilelist_item:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0e069d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_documents_files_item:I
 
     :goto_1
     return v0
@@ -4055,7 +4055,7 @@
     .line 12
     iget-object v0, p0, Lf29;->T:Landroid/view/View;
 
-    const v1, 0x7f0b13ac
+    sget v1, Lcom/resouce/module/ResID;->item_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

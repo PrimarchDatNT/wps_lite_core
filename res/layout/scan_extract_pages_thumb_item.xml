@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.main.scan.view.ThumbnailItem android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style_bounded"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/scan_extract_pages_thumb_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:scaleType="fitCenter" />
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/scan_extract_pages_thumb_loading" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip">
-        <ImageView android:src="@drawable/internal_template_default_item_bg" style="@style/phone_pdf_thumbnail_loading_img" />
-    </LinearLayout>
-    <CheckBox android:layout_gravity="end" android:id="@id/scan_extract_pages_check_box" android:background="@drawable/selector_doc_scan_selected_image" android:focusable="false" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="5.0dip" android:button="@null" android:layout_marginStart="0.0dip" android:layout_marginEnd="5.0dip" />
-</cn.wps.moffice.main.scan.view.ThumbnailItem>

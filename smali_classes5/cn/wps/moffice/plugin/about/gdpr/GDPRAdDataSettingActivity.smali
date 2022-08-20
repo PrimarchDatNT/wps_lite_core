@@ -45,7 +45,7 @@
 .method public B2()I
     .locals 1
 
-    const v0, 0x7f12220c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_gdpr_ad_data_setting_title_tips:I
 
     return v0
 .end method
@@ -56,7 +56,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d95    # 1.8499937E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_agree_btn:I    # 1.8499937E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122018
+    sget v1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -81,7 +81,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->I:Lcn/wps/moffice/plugin/about/gdpr/ADDataCancelFragment;
 
-    const v2, 0x7f0b0e80
+    sget v2, Lcom/resouce/module/ResID;->fragment_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -97,7 +97,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d95    # 1.8499937E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_agree_btn:I    # 1.8499937E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -105,7 +105,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -129,7 +129,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->S:Lcn/wps/moffice/plugin/about/gdpr/AdDataSettingFragment;
 
-    const v2, 0x7f0b0e80
+    sget v2, Lcom/resouce/module/ResID;->fragment_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -145,7 +145,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d95    # 1.8499937E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_agree_btn:I    # 1.8499937E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122018
+    sget v1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -170,7 +170,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->B:Lcn/wps/moffice/plugin/about/gdpr/ADDataSureFragment;
 
-    const v2, 0x7f0b0e80
+    sget v2, Lcom/resouce/module/ResID;->fragment_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -202,7 +202,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a49
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_about_phone_gdpr_ad_data_fragment_layout:I
 
     const/4 v2, 0x0
 
@@ -295,7 +295,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/plugin/about/gdpr/GDPRAdDataSettingActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d95    # 1.8499937E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_agree_btn:I    # 1.8499937E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

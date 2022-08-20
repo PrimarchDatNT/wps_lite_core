@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/CustomDropDownBtn;->I:Landroid/widget/Button;
 
-    const v1, 0x7f0813f1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_dropdown_btn_default_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 

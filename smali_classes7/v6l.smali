@@ -528,7 +528,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1233b5
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_linespacing_exactly_size_toast:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -612,7 +612,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1233b8
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_linespacing_multi_size_toast:I
 
     invoke-static {v0, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -987,7 +987,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0820ac
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_theme_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -1062,7 +1062,7 @@
     .line 7
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
-    const v6, 0x7f081a93
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_pad_titlebar_item_selector:I
 
     .line 8
     invoke-virtual {v4, v6}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -1121,7 +1121,7 @@
     .line 1
     iget-object v0, p0, Lv6l;->d0:Lcn/wps/moffice/common/beans/CustomTabHost;
 
-    const v1, 0x7f0e10b1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_linespacing_size_list:I
 
     const/4 v2, 0x0
 
@@ -1129,7 +1129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b35d3
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_list_scroll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1147,7 +1147,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/common/ScrollChildView;->setMaxHeight(I)V
 
-    const v1, 0x7f0b35d1
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_edit:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1158,7 +1158,7 @@
 
     iput-object v1, p0, Lv6l;->g0:Lcn/wps/moffice/writer/shell/phone/edittoolbar/common/PreKeyEditText;
 
-    const v1, 0x7f0b35d2
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_list:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1187,7 +1187,7 @@
     .line 1
     iget-object v0, p0, Lv6l;->d0:Lcn/wps/moffice/common/beans/CustomTabHost;
 
-    const v1, 0x7f0e10b1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_linespacing_size_list:I
 
     const/4 v2, 0x0
 
@@ -1195,7 +1195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b35d3
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_list_scroll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1213,7 +1213,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/common/ScrollChildView;->setMaxHeight(I)V
 
-    const v1, 0x7f0b35d1
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_edit:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1224,7 +1224,7 @@
 
     iput-object v1, p0, Lv6l;->f0:Lcn/wps/moffice/writer/shell/phone/edittoolbar/common/PreKeyEditText;
 
-    const v1, 0x7f0b35d2
+    sget v1, Lcom/resouce/module/ResID;->writer_linespacing_size_list:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1346,7 +1346,7 @@
 .method public final z2()V
     .locals 3
 
-    const v0, 0x7f0e10b0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_linespacing_size_dialog:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -1360,7 +1360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070db5
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_menu_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1368,7 +1368,7 @@
 
     iput v0, p0, Lv6l;->m0:I
 
-    const v0, 0x7f0b15c8
+    sget v0, Lcom/resouce/module/ResID;->linespacing_toggle:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1379,7 +1379,7 @@
 
     iput-object v0, p0, Lv6l;->e0:Lcn/wps/moffice/writer/shell/common/ToggleButton;
 
-    const v1, 0x7f1233b6
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_linespacing_multi:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/common/ToggleButton;->setLeftText(I)V
@@ -1387,7 +1387,7 @@
     .line 5
     iget-object v0, p0, Lv6l;->e0:Lcn/wps/moffice/writer/shell/common/ToggleButton;
 
-    const v1, 0x7f123336
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_para_linespace_exact:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/common/ToggleButton;->setRightText(I)V
 
@@ -1396,7 +1396,7 @@
 
     invoke-virtual {v0, p0}, Lcn/wps/moffice/writer/shell/common/ToggleButton;->setOnToggleListener(Lcn/wps/moffice/writer/shell/common/ToggleButton$a;)V
 
-    const v0, 0x7f0b2e25
+    sget v0, Lcom/resouce/module/ResID;->tab_linespacing_tabhost:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

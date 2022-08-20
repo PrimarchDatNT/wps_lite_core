@@ -172,7 +172,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122653
+    sget v0, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     goto :goto_0
 
@@ -190,7 +190,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f12263f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     goto :goto_0
 
@@ -208,7 +208,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f121842
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     goto :goto_0
 
@@ -226,7 +226,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f12046d
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_pic_translation:I
 
     goto :goto_0
 
@@ -315,17 +315,17 @@
     goto :goto_1
 
     :pswitch_0
-    const v1, 0x7f12263f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     goto :goto_1
 
     :pswitch_1
-    const v1, 0x7f121842
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     goto :goto_1
 
     :pswitch_2
-    const v1, 0x7f122653
+    sget v1, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     :goto_1
     if-eqz v1, :cond_3

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.local.home.phone.applicationv2.all.TabLayout android:id="@id/tab_layout" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:layout_alignBottom="@id/tab_layout" style="@style/phone_home_top_shadow" />
-    <cn.wps.moffice.main.local.home.phone.applicationv2.all.AppsRecyclerView android:id="@id/category_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_below="@id/tab_layout" />
-</RelativeLayout>

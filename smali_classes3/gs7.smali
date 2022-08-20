@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_it:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fd
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_financial:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211f9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_business:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -284,7 +284,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_engineering:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121200
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_transportation:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_cultural:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -359,7 +359,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_entertainment:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -384,7 +384,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121202
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_utilities:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -418,7 +418,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_it:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e03cb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_it_layout:I
 
     if-eqz v0, :cond_0
 
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1211fd
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_financial:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -454,7 +454,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f0e03ca
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_financial_layout:I
 
     return p1
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1211f9
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_business:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -478,7 +478,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f0e03c6
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_business_layout:I
 
     return p1
 
@@ -490,7 +490,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1211fb
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_engineering:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f0e03c8
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_engineering_layout:I
 
     return p1
 
@@ -514,7 +514,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121200
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_transportation:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     if-eqz v0, :cond_4
 
-    const p1, 0x7f0e03cd
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_transportation_layout:I
 
     return p1
 
@@ -538,7 +538,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1211fa
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_cultural:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -550,7 +550,7 @@
 
     if-eqz v0, :cond_5
 
-    const p1, 0x7f0e03c7
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_cultural_layout:I
 
     return p1
 
@@ -562,7 +562,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1211fc
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_entertainment:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -574,7 +574,7 @@
 
     if-eqz v0, :cond_6
 
-    const p1, 0x7f0e03c9
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_entertainment_layout:I
 
     return p1
 
@@ -586,7 +586,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121202
+    sget v2, Lcom/resouce/module/ResSTRING;->home_user_account_job_title_utilities:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -598,7 +598,7 @@
 
     if-eqz p1, :cond_7
 
-    const p1, 0x7f0e03ce
+    sget p1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_utilities_layout:I
 
     return p1
 
@@ -612,7 +612,7 @@
     .line 1
     iget-object v0, p0, Lgs7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14e3
+    sget v1, Lcom/resouce/module/ResID;->job_title_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -628,7 +628,7 @@
     .line 3
     iget-object v0, p0, Lgs7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a1e
+    sget v1, Lcom/resouce/module/ResID;->next_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -656,7 +656,7 @@
     .line 7
     iget-object v0, p0, Lgs7;->B:Landroid/view/View;
 
-    const v2, 0x7f0b03f1
+    sget v2, Lcom/resouce/module/ResID;->choice_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -808,7 +808,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03cc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_user_info_job_layout:I
 
     const/4 v2, 0x0
 
@@ -875,7 +875,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e2d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_job_hobby:I
 
     return v0
 .end method
@@ -896,7 +896,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1a1e
+    sget v1, Lcom/resouce/module/ResID;->next_button:I
 
     if-ne v0, v1, :cond_0
 

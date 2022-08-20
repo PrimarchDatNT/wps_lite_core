@@ -66,7 +66,7 @@
     .line 2
     iget-object v0, p0, Luuc$a;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v2, 0x0
 

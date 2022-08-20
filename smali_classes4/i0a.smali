@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07036e
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_record_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070353
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_pad_record_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

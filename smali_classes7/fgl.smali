@@ -17,7 +17,7 @@
     .line 2
     iput-object p1, p0, Lfgl;->o0:Lb5l;
 
-    const p1, 0x7f1233b6
+    sget p1, Lcom/resouce/module/ResSTRING;->writer_linespacing_multi:I
 
     .line 3
     invoke-virtual {p0, p1}, Llbl;->X2(I)V
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1233b8
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_linespacing_multi_size_toast:I
 
     const/4 v2, 0x1
 

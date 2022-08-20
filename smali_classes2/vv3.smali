@@ -69,7 +69,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     return v0
 .end method
@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1229dd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_scanqrcode_tips:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 
@@ -128,7 +128,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12246b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_scan_help_tip:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b33bf
+    sget v2, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -175,7 +175,7 @@
     .line 10
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f12276d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

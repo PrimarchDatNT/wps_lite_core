@@ -1513,7 +1513,7 @@
 
     if-lez v1, :cond_1
 
-    const v1, 0x7f12081a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_date_min_max_warning:I
 
     .line 5
     invoke-static {v1, v4}, Lsjf;->h(II)V
@@ -1568,7 +1568,7 @@
 
     :cond_2
     :goto_0
-    const v1, 0x7f120819
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_date_min_max_null_warning:I
 
     .line 9
     invoke-static {v1, v4}, Lsjf;->h(II)V
@@ -1659,7 +1659,7 @@
 
     if-lez v3, :cond_1
 
-    const v3, 0x7f120825
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_min_max_warning:I
 
     .line 3
     invoke-static {v3, v2}, Lsjf;->h(II)V
@@ -1714,7 +1714,7 @@
 
     :cond_2
     :goto_0
-    const v3, 0x7f120821
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_exceed_number_range_warning:I
 
     .line 7
     invoke-static {v3, v2}, Lsjf;->h(II)V
@@ -1724,7 +1724,7 @@
     return v1
 
     :catch_0
-    const v3, 0x7f12081b
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_decimal_must_be_decimal_warning:I
 
     .line 8
     invoke-static {v3, v2}, Lsjf;->h(II)V
@@ -1963,7 +1963,7 @@
 
     if-lez v2, :cond_2
 
-    const p1, 0x7f120825
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_min_max_warning:I
 
     .line 4
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -2016,7 +2016,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f120824
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_double_warning:I
 
     .line 8
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -2025,7 +2025,7 @@
 
     :cond_4
     :goto_1
-    const p1, 0x7f120821
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_exceed_number_range_warning:I
 
     .line 9
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -2035,7 +2035,7 @@
     return v0
 
     :catch_0
-    const p1, 0x7f120826
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_must_be_integer_warning:I
 
     .line 10
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -2100,7 +2100,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f120810
+    sget p1, Lcom/resouce/module/ResSTRING;->et_data_validation_sequence_formula_tips:I
 
     .line 7
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -2243,7 +2243,7 @@
 
     if-lez v1, :cond_3
 
-    const v1, 0x7f120825
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_min_max_warning:I
 
     .line 6
     invoke-static {v1, v3}, Lsjf;->h(II)V
@@ -2298,7 +2298,7 @@
 
     :cond_4
     :goto_0
-    const v1, 0x7f12082e
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_stringlen_must_be_positive_warning:I
 
     .line 10
     invoke-static {v1, v3}, Lsjf;->h(II)V
@@ -2307,7 +2307,7 @@
 
     :cond_5
     :goto_1
-    const v1, 0x7f120821
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_exceed_number_range_warning:I
 
     .line 11
     invoke-static {v1, v3}, Lsjf;->h(II)V
@@ -2316,7 +2316,7 @@
 
     :cond_6
     :goto_2
-    const v1, 0x7f12082d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_string_len_min_max_null_warning:I
 
     .line 12
     invoke-static {v1, v3}, Lsjf;->h(II)V
@@ -2326,7 +2326,7 @@
     return v2
 
     :catch_0
-    const v1, 0x7f120826
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_integer_must_be_integer_warning:I
 
     .line 13
     invoke-static {v1, v3}, Lsjf;->h(II)V
@@ -2408,7 +2408,7 @@
 
     if-lez v1, :cond_1
 
-    const v1, 0x7f120831
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_time_min_max_warning:I
 
     .line 5
     invoke-static {v1, v4}, Lsjf;->h(II)V
@@ -2463,7 +2463,7 @@
 
     :cond_2
     :goto_0
-    const v1, 0x7f120830
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_time_min_max_null_warning:I
 
     .line 9
     invoke-static {v1, v4}, Lsjf;->h(II)V

@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f120647
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -430,7 +430,7 @@
     .line 6
     iget-object p1, p0, Lts3;->V:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b341b
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_subtitle:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -450,7 +450,7 @@
     .line 8
     iget-object p1, p0, Lts3;->V:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b3419
+    sget v0, Lcom/resouce/module/ResID;->web_article_publish_read_user_count:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 9
     iget-object p1, p0, Lts3;->V:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2714
+    sget v0, Lcom/resouce/module/ResID;->public_server_error_message:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
     .line 10
     iget-object p1, p0, Lts3;->V:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b341d
+    sget v0, Lcom/resouce/module/ResID;->web_article_read_user:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -489,7 +489,7 @@
     .line 11
     invoke-virtual {p0, p2}, Lts3;->g(Llxp;)V
 
-    const p1, 0x7f0b2766
+    sget p1, Lcom/resouce/module/ResID;->public_web_article_publish_show_access_record:I
 
     .line 12
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -501,7 +501,7 @@
     .line 13
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2762
+    sget p1, Lcom/resouce/module/ResID;->public_web_article_publish_cancel:I
 
     .line 14
     invoke-virtual {p0, p1}, Lss3;->a(I)Landroid/view/View;
@@ -648,7 +648,7 @@
 
     iput-object v0, p0, Lts3;->Z:Lhd3;
 
-    const v1, 0x7f122beb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_web_article_publish_cancel_msg:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -665,14 +665,14 @@
     .line 5
     iget-object p2, p0, Lts3;->Z:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p2, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 6
     iget-object p2, p0, Lts3;->Z:Lhd3;
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p2, v0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -769,7 +769,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b034e
+    sget v0, Lcom/resouce/module/ResID;->card_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Lss3;->a(I)Landroid/view/View;
@@ -839,7 +839,7 @@
     .line 8
     iget-object v1, p0, Lts3;->f0:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0eb2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_web_article_publish_release_layout:I
 
     iget-object v3, p0, Lts3;->V:Landroid/view/ViewGroup;
 
@@ -855,7 +855,7 @@
     :cond_4
     iget-object v1, p0, Lts3;->f0:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0eb1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_web_article_publish_no_release_layout:I
 
     iget-object v3, p0, Lts3;->V:Landroid/view/ViewGroup;
 

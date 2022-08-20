@@ -499,13 +499,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0c63
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_spread_layout:I
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const v0, 0x7f0e0c64
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_spread_layout_test:I
 
     :goto_1
     const/4 v1, 0x1
@@ -602,7 +602,7 @@
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2569
+    sget p1, Lcom/resouce/module/ResID;->public_ads_premium_content:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -611,7 +611,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/SpreadView;->B:Landroid/view/View;
 
-    const p1, 0x7f0b2568
+    sget p1, Lcom/resouce/module/ResID;->public_ads_premium_arrow_image:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -681,7 +681,7 @@
 
     move-result v4
 
-    const v5, 0x7f0b19a0
+    sget v5, Lcom/resouce/module/ResID;->native_ad_choice_container:I
 
     if-eq v4, v5, :cond_1
 
@@ -690,7 +690,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b19a9
+    sget v4, Lcom/resouce/module/ResID;->native_ad_privacy_information_icon_image:I
 
     if-eq v3, v4, :cond_1
 
@@ -712,7 +712,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0097
+    sget v1, Lcom/resouce/module/ResID;->ad_space:I
 
     if-eq v0, v1, :cond_4
 
@@ -746,7 +746,7 @@
 .method public setAdLogoSign(Ljava/lang/String;Z)V
     .locals 4
 
-    const v0, 0x7f0b256a
+    sget v0, Lcom/resouce/module/ResID;->public_ads_premium_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -765,7 +765,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212e9
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_spread:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -787,7 +787,7 @@
 
     move-result-object p2
 
-    const v3, 0x7f1212dd
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_media_third_logo:I
 
     invoke-virtual {p2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -844,7 +844,7 @@
 .method public setAdPremiumTextColor(I)V
     .locals 1
 
-    const v0, 0x7f0b256a
+    sget v0, Lcom/resouce/module/ResID;->public_ads_premium_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -915,7 +915,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1212e9
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_spread:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -954,7 +954,7 @@
     move-result-object p1
 
     :goto_0
-    const p2, 0x7f0b256a
+    sget p2, Lcom/resouce/module/ResID;->public_ads_premium_text:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -993,7 +993,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/SpreadView;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f0819bb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_close:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1021,7 +1021,7 @@
 .method public setPremiumArrowImage(I)V
     .locals 1
 
-    const v0, 0x7f0b2568
+    sget v0, Lcom/resouce/module/ResID;->public_ads_premium_arrow_image:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1042,7 +1042,7 @@
 .method public setRemoveInnerView()V
     .locals 2
 
-    const v0, 0x7f0b256a
+    sget v0, Lcom/resouce/module/ResID;->public_ads_premium_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1053,7 +1053,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2568
+    sget v0, Lcom/resouce/module/ResID;->public_ads_premium_arrow_image:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

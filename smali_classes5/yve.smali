@@ -73,7 +73,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f1205f0
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     const/4 p3, 0x0
 

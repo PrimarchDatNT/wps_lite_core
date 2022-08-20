@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02d5
+    sget v0, Lcom/resouce/module/ResID;->btn_export:I
 
     if-ne p1, v0, :cond_5
 
@@ -207,7 +207,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b3200
+    sget v0, Lcom/resouce/module/ResID;->tv_ocr_language:I
 
     if-ne p1, v0, :cond_7
 

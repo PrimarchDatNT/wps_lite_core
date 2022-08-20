@@ -252,12 +252,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f1226cb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_failed:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f1226d2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_has_start:I
 
     :goto_1
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V

@@ -585,7 +585,7 @@
     .line 2
     iget-object v0, p0, Luwd;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1214cf
+    sget v2, Lcom/resouce/module/ResSTRING;->oem_insertpic_audio_warning:I
 
     new-instance v3, Luwd$q;
 
@@ -628,9 +628,9 @@
     .line 3
     new-instance v1, Lpwd$b;
 
-    const v2, 0x7f080c82
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_music:I
 
-    const v3, 0x7f122b84
+    sget v3, Lcom/resouce/module/ResSTRING;->public_user_audio:I
 
     new-instance v4, Luwd$g;
 
@@ -643,9 +643,9 @@
     .line 4
     new-instance v1, Lpwd$b;
 
-    const v2, 0x7f080c81
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_mic:I
 
-    const v3, 0x7f121d6b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_audio_record:I
 
     new-instance v4, Luwd$h;
 
@@ -660,7 +660,7 @@
 
     iget-object v1, p0, Luwd;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1228d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_select_audio:I
 
     invoke-direct {p1, v1, v2, v0}, Lpwd;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -789,7 +789,7 @@
     :cond_3
     iget-object p1, p0, Luwd;->B:Landroid/app/Activity;
 
-    const v0, 0x7f121d6a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio_no_recorder_found_tips:I
 
     const/4 v1, 0x0
 
@@ -881,7 +881,7 @@
 
     move-result v3
 
-    const v4, 0x7f1228d9
+    sget v4, Lcom/resouce/module/ResSTRING;->public_select_audio:I
 
     if-nez v3, :cond_4
 
@@ -1240,12 +1240,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802bc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_change_audio:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c82
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_music:I
 
     :goto_0
     return v0
@@ -1266,12 +1266,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802bb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_bgmusic:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c72
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_bgmusic_ppt:I
 
     :goto_0
     return v0
@@ -1282,12 +1282,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0802c7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_music:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f080c83
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_music_ppt:I
 
     :goto_1
     return v0
@@ -1303,7 +1303,7 @@
 
     move-result v1
 
-    const v2, 0x7f121d55
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio:I
 
     invoke-direct {v0, p0, v1, v2}, Luwd$n;-><init>(Luwd;II)V
 
@@ -1324,7 +1324,7 @@
 
     iget-object v5, p0, Luwd;->Y:[Z
 
-    const v3, 0x7f121b4a
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_audio_change_audio_source:I
 
     move-object v0, v6
 
@@ -1345,16 +1345,16 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f121d77
+    sget v0, Lcom/resouce/module/ResSTRING;->public_background_audio:I
 
-    const v4, 0x7f121d77
+    sget v4, Lcom/resouce/module/ResSTRING;->public_background_audio:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121d55
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio:I
 
-    const v4, 0x7f121d55
+    sget v4, Lcom/resouce/module/ResSTRING;->public_audio:I
 
     .line 2
     :goto_0
@@ -1387,12 +1387,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f121d77
+    sget v0, Lcom/resouce/module/ResSTRING;->public_background_audio:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121d55
+    sget v0, Lcom/resouce/module/ResSTRING;->public_audio:I
 
     .line 2
     :goto_0

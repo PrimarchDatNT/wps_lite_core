@@ -1161,7 +1161,7 @@
 
     invoke-direct {v0, p0}, Lcd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122a79
+    sget v1, Lcom/resouce/module/ResSTRING;->public_task_center_tips_entrance_guide:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1180,7 +1180,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f0600e5
+    sget v3, Lcom/resouce/module/ResCOLOR;->cyan_blue:I
 
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1200,7 +1200,7 @@
     .line 6
     new-instance p0, Lcd3$b;
 
-    const v1, 0x7f081799
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_task_center_entrance_guide:I
 
     invoke-direct {p0, v2, v1}, Lcd3$b;-><init>(Landroid/text/SpannableStringBuilder;I)V
 

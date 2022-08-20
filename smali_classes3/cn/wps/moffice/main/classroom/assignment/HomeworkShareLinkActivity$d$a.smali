@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12026a
+    sget v2, Lcom/resouce/module/ResSTRING;->class_no_whatsapp:I
 
     invoke-static {p1, v0, v1, v2}, Lio4;->e(Lydf;Landroid/content/Context;Ljava/lang/String;I)V
 

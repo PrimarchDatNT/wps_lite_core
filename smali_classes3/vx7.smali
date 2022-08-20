@@ -73,7 +73,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f122472
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_sms_frequency_too_fast:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -92,7 +92,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f122473
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_sms_limit_reached:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -111,7 +111,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f122394
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalid_phone:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -130,7 +130,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f12243d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_captcha_incorrect:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -149,7 +149,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f12243b
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_captcha_expired:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -159,7 +159,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f122b9b    # 1.942937E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_verify_fail:I    # 1.942937E38f
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -187,7 +187,7 @@
     .line 2
     iget-object p1, p0, Lvx7;->U:Landroid/app/Activity;
 
-    const v0, 0x7f12020f
+    sget v0, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_empty:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -208,7 +208,7 @@
     .line 4
     iget-object p1, p0, Lvx7;->U:Landroid/app/Activity;
 
-    const v0, 0x7f120210
+    sget v0, Lcom/resouce/module/ResSTRING;->bind_phone_error_phone_format:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

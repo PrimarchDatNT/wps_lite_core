@@ -46,7 +46,7 @@
 .method public b0()I
     .locals 1
 
-    const v0, 0x7f0e03fc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_batch_rename:I
 
     return v0
 .end method

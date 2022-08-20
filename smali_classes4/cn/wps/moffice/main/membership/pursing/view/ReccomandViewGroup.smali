@@ -20,7 +20,7 @@
     .line 9
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f080858
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_membership_recommand_rect_img:I
 
     .line 10
     iput p1, p0, Lcn/wps/moffice/main/membership/pursing/view/ReccomandViewGroup;->B:I
@@ -39,7 +39,7 @@
     .line 5
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    const p1, 0x7f080858
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_membership_recommand_rect_img:I
 
     .line 6
     iput p1, p0, Lcn/wps/moffice/main/membership/pursing/view/ReccomandViewGroup;->B:I
@@ -61,7 +61,7 @@
     .line 1
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f080858
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_membership_recommand_rect_img:I
 
     .line 2
     iput p1, p0, Lcn/wps/moffice/main/membership/pursing/view/ReccomandViewGroup;->B:I

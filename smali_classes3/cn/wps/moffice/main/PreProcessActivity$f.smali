@@ -66,7 +66,7 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f120d0c
+    sget v4, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_title:I
 
     if-eqz v0, :cond_3
 
@@ -75,16 +75,16 @@
 
     move-result v0
 
-    const v5, 0x7f120d09
+    sget v5, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_msg_wechat:I
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120d09
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_msg_wechat:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120d0a
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_msg_wechat2:I
 
     .line 4
     :goto_0
@@ -103,7 +103,7 @@
 
     if-eqz v0, :cond_1
 
-    const v5, 0x7f120d0b
+    sget v5, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_msg_wechat_miui:I
 
     :cond_1
     move v0, v5
@@ -134,7 +134,7 @@
 
     invoke-virtual {v5, v0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 9
     new-instance v4, Lcn/wps/moffice/main/PreProcessActivity$f$a;
@@ -192,7 +192,7 @@
     .line 19
     iget-object v4, p0, Lcn/wps/moffice/main/PreProcessActivity$f;->S:Lcn/wps/moffice/main/PreProcessActivity;
 
-    const v5, 0x7f120d08
+    sget v5, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_msg:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -200,7 +200,7 @@
 
     invoke-virtual {v0, v4}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v4, 0x7f120d07
+    sget v4, Lcom/resouce/module/ResSTRING;->feedback_openfile_failed_btn:I
 
     .line 20
     new-instance v5, Lcn/wps/moffice/main/PreProcessActivity$f$c;
@@ -209,7 +209,7 @@
 
     invoke-virtual {v0, v4, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 21
     new-instance v5, Lcn/wps/moffice/main/PreProcessActivity$f$d;
@@ -272,7 +272,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12240e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

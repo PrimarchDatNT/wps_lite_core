@@ -316,12 +316,12 @@
 
     if-nez v0, :cond_0
 
-    const v1, 0x7f0e0515
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_crash_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0694
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_crash_layout:I
 
     .line 2
     :goto_0

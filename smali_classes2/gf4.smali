@@ -172,7 +172,7 @@
     .line 2
     iput-object p2, p0, Lrf4;->d:Ljava/lang/String;
 
-    const v0, 0x7f0b15df
+    sget v0, Lcom/resouce/module/ResID;->link_modify_rect_tip:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object v0, p0, Lgf4;->j:Landroid/widget/Button;
 
-    const v0, 0x7f0b15d5
+    sget v0, Lcom/resouce/module/ResID;->link_modify_desc:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v0, 0x7f0b15e0
+    sget v0, Lcom/resouce/module/ResID;->link_modify_second_desc:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -310,7 +310,7 @@
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_2
-    const v0, 0x7f0b15d6
+    sget v0, Lcom/resouce/module/ResID;->link_modify_divide_line:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -319,7 +319,7 @@
 
     iput-object v0, p0, Lgf4;->i:Landroid/view/View;
 
-    const v0, 0x7f0b15e1
+    sget v0, Lcom/resouce/module/ResID;->link_modify_selected:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -330,7 +330,7 @@
 
     iput-object v0, p0, Lrf4;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b15e7
+    sget v0, Lcom/resouce/module/ResID;->link_modify_text:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -346,7 +346,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -400,7 +400,7 @@
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p3, 0x7f0b16df
+    sget p3, Lcom/resouce/module/ResID;->ll_selected_tip:I
 
     .line 25
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -435,7 +435,7 @@
 .method public final i(Landroid/view/View;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f0b324e
+    sget v0, Lcom/resouce/module/ResID;->tv_selected_tip:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -444,7 +444,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b14be
+    sget v1, Lcom/resouce/module/ResID;->iv_selected_icon:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -462,12 +462,12 @@
 
     if-eqz v1, :cond_0
 
-    const p2, 0x7f121d06
+    sget p2, Lcom/resouce/module/ResSTRING;->public_add_member_tip:I
 
     .line 4
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f0816c4
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_right_arrow_blue:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -484,12 +484,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f122931
+    sget p2, Lcom/resouce/module/ResSTRING;->public_set_as_cooperation_docs_after_share_tip:I
 
     .line 7
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f081622
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_help:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -546,12 +546,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f080a2e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->link_modify_choose:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080a2f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->link_modify_choose_invalidate:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V

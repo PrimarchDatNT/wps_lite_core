@@ -107,7 +107,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1216da
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_annotation_shape_mode_tips:I
 
     const/4 v2, 0x0
 

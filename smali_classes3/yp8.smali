@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e24
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_select_pay_way_item:I
 
     const/4 v2, 0x0
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1d39
+    sget v1, Lcom/resouce/module/ResID;->pay_way_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b1d3a
+    sget v2, Lcom/resouce/module/ResID;->pay_way_text:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,9 +336,9 @@
 
     if-eqz v1, :cond_1
 
-    const v4, 0x7f080857
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_membership_pay_wx:I
 
-    const v5, 0x7f120fdb
+    sget v5, Lcom/resouce/module/ResSTRING;->home_membership_wx_pay:I
 
     move-object v1, p0
 
@@ -365,9 +365,9 @@
 
     if-eqz v1, :cond_2
 
-    const v4, 0x7f080853
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_membership_pay_ali:I
 
-    const v5, 0x7f120f61
+    sget v5, Lcom/resouce/module/ResSTRING;->home_membership_ali_pay:I
 
     move-object v1, p0
 
@@ -403,7 +403,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12114d
+    sget p2, Lcom/resouce/module/ResSTRING;->home_select_pay_way:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -118,7 +118,7 @@
     .line 1
     iget v0, p0, Lrql;->d0:I
 
-    const v1, 0x7f12294b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shape_style1:I
 
     if-nez v0, :cond_0
 
@@ -129,7 +129,7 @@
 
     if-ne v0, v2, :cond_1
 
-    const v0, 0x7f12294c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shape_style2:I
 
     return v0
 
@@ -138,7 +138,7 @@
 
     if-ne v0, v2, :cond_2
 
-    const v0, 0x7f12294d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shape_style3:I
 
     return v0
 
@@ -147,7 +147,7 @@
 
     if-ne v0, v2, :cond_3
 
-    const v0, 0x7f12294e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shape_style4:I
 
     return v0
 
@@ -193,7 +193,7 @@
 .method public final q2()V
     .locals 3
 
-    const v0, 0x7f0e0c9a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_insertshape_flow_view:I
 
     const/4 v1, 0x0
 
@@ -206,7 +206,7 @@
 
     iput-object v0, p0, Lrql;->e0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2719
+    sget v1, Lcom/resouce/module/ResID;->public_shape_selected_dialog_gridview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
     .line 3
     iget-object v0, p0, Lrql;->e0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2718
+    sget v1, Lcom/resouce/module/ResID;->public_shape_selected_dialog_btn_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -233,7 +233,7 @@
     .line 4
     iget-object v0, p0, Lrql;->e0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2717
+    sget v1, Lcom/resouce/module/ResID;->public_shape_selected_dialog_btn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -243,7 +243,7 @@
 
     iput-object v0, p0, Lrql;->h0:Landroid/widget/Button;
 
-    const v1, 0x7f12329d
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_custom_drawing:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

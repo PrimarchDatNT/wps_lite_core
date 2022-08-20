@@ -960,11 +960,11 @@
     const/4 v5, 0x0
 
     :goto_0
-    const v6, 0x7f0606e6
+    sget v6, Lcom/resouce/module/ResCOLOR;->whiteSubTextColor:I
 
-    const v7, 0x7f0606e2
+    sget v7, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
-    const v8, 0x7f081b0e
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_premium_orange_button:I
 
     if-ge v4, v0, :cond_2
 
@@ -1045,7 +1045,7 @@
     :cond_0
     iget-object v6, v9, Lau4;->c:Landroid/view/View;
 
-    const v7, 0x7f081b09
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_premium_gray_button:I
 
     invoke-virtual {v6, v7}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -1058,7 +1058,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f060626
+    sget v8, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1075,7 +1075,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0600ea
+    sget v8, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1193,7 +1193,7 @@
     .line 2
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2ed6
+    sget v1, Lcom/resouce/module/ResID;->template_premium_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1204,7 +1204,7 @@
     .line 3
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1d25
+    sget v1, Lcom/resouce/module/ResID;->pay_items_ll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1215,7 +1215,7 @@
     .line 4
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b06c6
+    sget v1, Lcom/resouce/module/ResID;->divide1_v:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1224,7 +1224,7 @@
     .line 5
     iget-object v1, p0, Lzt4;->a:Landroid/view/View;
 
-    const v2, 0x7f0b1d0e
+    sget v2, Lcom/resouce/module/ResID;->pay1_rl:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1235,7 +1235,7 @@
     .line 6
     iget-object v2, p0, Lzt4;->a:Landroid/view/View;
 
-    const v3, 0x7f0b1d0d
+    sget v3, Lcom/resouce/module/ResID;->pay1_fl:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1244,7 +1244,7 @@
     .line 7
     iget-object v3, p0, Lzt4;->a:Landroid/view/View;
 
-    const v4, 0x7f0b1d0c
+    sget v4, Lcom/resouce/module/ResID;->pay1_bt:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1255,7 +1255,7 @@
     .line 8
     iget-object v4, p0, Lzt4;->a:Landroid/view/View;
 
-    const v5, 0x7f0b1d0f
+    sget v5, Lcom/resouce/module/ResID;->pay1_tip_tv:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1266,7 +1266,7 @@
     .line 9
     iget-object v5, p0, Lzt4;->a:Landroid/view/View;
 
-    const v6, 0x7f0b2ec1
+    sget v6, Lcom/resouce/module/ResID;->tem_pay1_desc:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1312,7 +1312,7 @@
     .line 19
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b06c7
+    sget v1, Lcom/resouce/module/ResID;->divide2_v:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1321,7 +1321,7 @@
     .line 20
     iget-object v1, p0, Lzt4;->a:Landroid/view/View;
 
-    const v2, 0x7f0b0e8e
+    sget v2, Lcom/resouce/module/ResID;->freetrail_rl:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1332,7 +1332,7 @@
     .line 21
     iget-object v2, p0, Lzt4;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0e8d
+    sget v3, Lcom/resouce/module/ResID;->freetrail_fl:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1341,7 +1341,7 @@
     .line 22
     iget-object v3, p0, Lzt4;->a:Landroid/view/View;
 
-    const v4, 0x7f0b0e8c
+    sget v4, Lcom/resouce/module/ResID;->freetrail_bt:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1352,7 +1352,7 @@
     .line 23
     iget-object v4, p0, Lzt4;->a:Landroid/view/View;
 
-    const v5, 0x7f0b0e8f
+    sget v5, Lcom/resouce/module/ResID;->freetrail_tip_tv:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1363,7 +1363,7 @@
     .line 24
     iget-object v5, p0, Lzt4;->a:Landroid/view/View;
 
-    const v6, 0x7f0b2ec0
+    sget v6, Lcom/resouce/module/ResID;->tem_freetrail_desc:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1403,7 +1403,7 @@
     :cond_0
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b06c8
+    sget v1, Lcom/resouce/module/ResID;->divide3_v:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1412,7 +1412,7 @@
     .line 34
     iget-object v1, p0, Lzt4;->a:Landroid/view/View;
 
-    const v2, 0x7f0b1d12
+    sget v2, Lcom/resouce/module/ResID;->pay3_rl:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1423,7 +1423,7 @@
     .line 35
     iget-object v2, p0, Lzt4;->a:Landroid/view/View;
 
-    const v3, 0x7f0b1d11
+    sget v3, Lcom/resouce/module/ResID;->pay3_fl:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1432,7 +1432,7 @@
     .line 36
     iget-object v3, p0, Lzt4;->a:Landroid/view/View;
 
-    const v4, 0x7f0b1d10
+    sget v4, Lcom/resouce/module/ResID;->pay3_bt:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1443,7 +1443,7 @@
     .line 37
     iget-object v4, p0, Lzt4;->a:Landroid/view/View;
 
-    const v5, 0x7f0b1d13
+    sget v5, Lcom/resouce/module/ResID;->pay3_tip_tv:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1454,7 +1454,7 @@
     .line 38
     iget-object v5, p0, Lzt4;->a:Landroid/view/View;
 
-    const v6, 0x7f0b2ec2
+    sget v6, Lcom/resouce/module/ResID;->tem_pay3_desc:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1626,7 +1626,7 @@
     .line 2
     iget-object v1, p0, Lzt4;->a:Landroid/view/View;
 
-    const v2, 0x7f0b1d27
+    sget v2, Lcom/resouce/module/ResID;->pay_more_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1638,7 +1638,7 @@
     .line 4
     iget-object v2, p0, Lzt4;->a:Landroid/view/View;
 
-    const v3, 0x7f0b3325
+    sget v3, Lcom/resouce/module/ResID;->use_referral_pay_more_ll:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1647,7 +1647,7 @@
     .line 5
     iget-object v3, p0, Lzt4;->a:Landroid/view/View;
 
-    const v4, 0x7f0b3326
+    sget v4, Lcom/resouce/module/ResID;->use_referral_pay_more_tv:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1659,7 +1659,7 @@
     .line 7
     iget-object v0, p0, Lzt4;->a:Landroid/view/View;
 
-    const v3, 0x7f0b3324
+    sget v3, Lcom/resouce/module/ResID;->use_referral_code_tv:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2263,7 +2263,7 @@
     goto :goto_2
 
     :cond_5
-    const v1, 0x7f0b0e8c
+    sget v1, Lcom/resouce/module/ResID;->freetrail_bt:I
 
     .line 35
     invoke-virtual {v4}, Landroid/widget/TextView;->getId()I
@@ -2357,7 +2357,7 @@
     .line 3
     iget-object p1, p0, Lzt4;->d:Landroid/app/Activity;
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v0, 0x0
 
@@ -2376,7 +2376,7 @@
     .line 5
     iget-object p1, p0, Lzt4;->d:Landroid/app/Activity;
 
-    const p2, 0x7f12274e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2458,7 +2458,7 @@
     .line 2
     iget-object p1, p0, Lzt4;->d:Landroid/app/Activity;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2475,7 +2475,7 @@
     .line 4
     iget-object p1, p0, Lzt4;->d:Landroid/app/Activity;
 
-    const v0, 0x7f12274e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2691,7 +2691,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b3325
+    sget v1, Lcom/resouce/module/ResID;->use_referral_pay_more_ll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

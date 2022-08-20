@@ -532,13 +532,13 @@
 
     move-result-object v1
 
-    const v4, 0x7f0e017e
+    sget v4, Lcom/resouce/module/ResLAYOUT;->en_pay_ads_free_btn_bg_weak:I
 
     invoke-virtual {v1, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b086a
+    sget v3, Lcom/resouce/module/ResID;->en_pay_ads_free_txt_weak:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -572,7 +572,7 @@
     .line 7
     iget-object v3, p0, Lyg6;->h1:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v5, 0x7f1225f3
+    sget v5, Lcom/resouce/module/ResSTRING;->public_pay_ads_free_weak:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -598,13 +598,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e017d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_pay_ads_free_btn_bg_strengthen:I
 
     invoke-virtual {v0, v1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    const v0, 0x7f0b0869
+    sget v0, Lcom/resouce/module/ResID;->en_pay_ads_free_txt_strengthen:I
 
     .line 9
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -699,7 +699,7 @@
     :cond_0
     iget-object v0, p0, Lyg6;->T0:Lag6;
 
-    const v1, 0x7f0e0614
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pay_page_coupon_list_layout:I
 
     invoke-virtual {p0}, Lyg6;->b0()Ljava/util/List;
 
@@ -942,7 +942,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0195
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_premium_center_banner_layout:I
 
     const/4 v2, 0x0
 
@@ -952,7 +952,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b086e
+    sget v1, Lcom/resouce/module/ResID;->en_premium_banner_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -961,7 +961,7 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b086c
+    sget v2, Lcom/resouce/module/ResID;->en_premium_banner_icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -970,7 +970,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b086f
+    sget v4, Lcom/resouce/module/ResID;->en_premium_banner_title:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -979,7 +979,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b086b
+    sget v5, Lcom/resouce/module/ResID;->en_premium_banner_description:I
 
     .line 5
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -988,7 +988,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b086d
+    sget v6, Lcom/resouce/module/ResID;->en_premium_banner_multi_icon:I
 
     .line 6
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1002,7 +1002,7 @@
 
     if-eqz v7, :cond_0
 
-    const v7, 0x7f0805c0
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_wps:I
 
     .line 8
     invoke-virtual {v2, v7}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1014,7 +1014,7 @@
 
     move-result-object v2
 
-    const v7, 0x7f12188e
+    sget v7, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
     invoke-virtual {v2, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1029,7 +1029,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121c94
+    sget v4, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1037,12 +1037,12 @@
 
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f06015b
+    sget v2, Lcom/resouce/module/ResCOLOR;->en_premium_banner_wps_bg:I
 
     .line 11
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
-    const v2, 0x7f0805c1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_wps_bg:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -1053,7 +1053,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0805bf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_template:I
 
     .line 14
     invoke-virtual {v2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1065,7 +1065,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1230b5
+    sget v2, Lcom/resouce/module/ResSTRING;->template_wps_txt:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1080,7 +1080,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1230b4
+    sget v2, Lcom/resouce/module/ResSTRING;->template_wps_dec_txt:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1088,7 +1088,7 @@
 
     invoke-virtual {v5, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f06015d
+    sget v1, Lcom/resouce/module/ResCOLOR;->en_template_banner_bg:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1213,7 +1213,7 @@
     .line 1
     iget-object v0, v6, Lqg6;->S:Landroid/app/Activity;
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1652,7 +1652,7 @@
 
     const-string v13, "show"
 
-    const v14, 0x7f12169c
+    sget v14, Lcom/resouce/module/ResSTRING;->pay_page_checkout_coupon:I
 
     if-eqz v0, :cond_e
 
@@ -1723,7 +1723,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1962,7 +1962,7 @@
     .line 1
     iget-object v1, v0, Lqg6;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122759
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2442,7 +2442,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2470,7 +2470,7 @@
 
     iget-object v2, v0, Lqg6;->S:Landroid/app/Activity;
 
-    const v3, 0x7f12169c
+    sget v3, Lcom/resouce/module/ResSTRING;->pay_page_checkout_coupon:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2643,7 +2643,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121890
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_scroll_notify:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2764,7 +2764,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122a9d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2786,7 +2786,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081e94
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_privileges_icon:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2814,7 +2814,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12188e
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2836,7 +2836,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080710
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_premium_icon:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3066,7 +3066,7 @@
 
     iget-object v3, p0, Lqg6;->S:Landroid/app/Activity;
 
-    const v4, 0x7f122608
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pdf_to_doc_premium_bottom_guide:I
 
     const/4 v5, 0x2
 
@@ -3296,7 +3296,7 @@
     .line 10
     iget-object v4, p0, Lqg6;->S:Landroid/app/Activity;
 
-    const v5, 0x7f1216a1
+    sget v5, Lcom/resouce/module/ResSTRING;->pay_page_days_free:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3343,7 +3343,7 @@
 
     iget-object v5, p0, Lqg6;->S:Landroid/app/Activity;
 
-    const v6, 0x7f1216a4
+    sget v6, Lcom/resouce/module/ResSTRING;->pay_page_save:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3565,7 +3565,7 @@
     .line 6
     iget-boolean v0, p0, Lyg6;->X0:Z
 
-    const v3, 0x7f12169d
+    sget v3, Lcom/resouce/module/ResSTRING;->pay_page_coupon_available:I
 
     if-eqz v0, :cond_1
 
@@ -3761,7 +3761,7 @@
     .line 6
     iget-boolean v0, p0, Lyg6;->U0:Z
 
-    const v4, 0x7f12169d
+    sget v4, Lcom/resouce/module/ResSTRING;->pay_page_coupon_available:I
 
     if-eqz v0, :cond_1
 
@@ -4021,7 +4021,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0805bf
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_template:I
 
     .line 3
     invoke-virtual {v1, v2}, Lef3$a;->e(I)Lef3$a;
@@ -4033,7 +4033,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1230b5
+    sget v3, Lcom/resouce/module/ResSTRING;->template_wps_txt:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4048,7 +4048,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1230b4
+    sget v3, Lcom/resouce/module/ResSTRING;->template_wps_dec_txt:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4061,7 +4061,7 @@
     .line 6
     invoke-virtual {v1, v2}, Lef3$a;->f(Z)Lef3$a;
 
-    const v3, 0x7f06015d
+    sget v3, Lcom/resouce/module/ResCOLOR;->en_template_banner_bg:I
 
     .line 7
     invoke-virtual {v1, v3}, Lef3$a;->b(I)Lef3$a;
@@ -4076,7 +4076,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0805df
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->en_template_banner_pic_material:I
 
     .line 10
     invoke-virtual {v3, v4}, Lef3$a;->e(I)Lef3$a;
@@ -4088,7 +4088,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f123099
+    sget v5, Lcom/resouce/module/ResSTRING;->template_picture_material:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4103,7 +4103,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12309a
+    sget v5, Lcom/resouce/module/ResSTRING;->template_picture_material_dec:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4114,7 +4114,7 @@
     .line 13
     invoke-virtual {v3, v2}, Lef3$a;->f(Z)Lef3$a;
 
-    const v4, 0x7f06015e
+    sget v4, Lcom/resouce/module/ResCOLOR;->en_template_banner_pic_material_bg:I
 
     .line 14
     invoke-virtual {v3, v4}, Lef3$a;->b(I)Lef3$a;
@@ -4129,7 +4129,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0805e0
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_template_banner_resume_master:I
 
     .line 17
     invoke-virtual {v4, v5}, Lef3$a;->e(I)Lef3$a;
@@ -4141,7 +4141,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1230a3
+    sget v6, Lcom/resouce/module/ResSTRING;->template_resume_master:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4156,7 +4156,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1230a4
+    sget v6, Lcom/resouce/module/ResSTRING;->template_resume_master_dec:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4167,7 +4167,7 @@
     .line 20
     invoke-virtual {v4, v2}, Lef3$a;->f(Z)Lef3$a;
 
-    const v2, 0x7f06015f
+    sget v2, Lcom/resouce/module/ResCOLOR;->en_template_banner_resume_master_bg:I
 
     .line 21
     invoke-virtual {v4, v2}, Lef3$a;->b(I)Lef3$a;
@@ -4210,7 +4210,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0805c0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_wps:I
 
     .line 3
     invoke-virtual {v1, v2}, Lef3$a;->e(I)Lef3$a;
@@ -4222,7 +4222,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12188e
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4237,7 +4237,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c94
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4250,12 +4250,12 @@
     .line 6
     invoke-virtual {v1, v2}, Lef3$a;->f(Z)Lef3$a;
 
-    const v2, 0x7f06015b
+    sget v2, Lcom/resouce/module/ResCOLOR;->en_premium_banner_wps_bg:I
 
     .line 7
     invoke-virtual {v1, v2}, Lef3$a;->b(I)Lef3$a;
 
-    const v2, 0x7f0805c1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_wps_bg:I
 
     .line 8
     invoke-virtual {v1, v2}, Lef3$a;->c(I)Lef3$a;
@@ -4270,7 +4270,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0805bc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_pdf2word:I
 
     .line 11
     invoke-virtual {v2, v3}, Lef3$a;->e(I)Lef3$a;
@@ -4282,7 +4282,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121769
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4297,7 +4297,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122694
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_doc_desc:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4310,7 +4310,7 @@
     .line 14
     invoke-virtual {v2, v3}, Lef3$a;->f(Z)Lef3$a;
 
-    const v4, 0x7f060158
+    sget v4, Lcom/resouce/module/ResCOLOR;->en_premium_banner_pdf2word_bg:I
 
     .line 15
     invoke-virtual {v2, v4}, Lef3$a;->b(I)Lef3$a;
@@ -4325,7 +4325,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0805bd
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_pdf_edit:I
 
     .line 18
     invoke-virtual {v4, v5}, Lef3$a;->e(I)Lef3$a;
@@ -4337,7 +4337,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1217b4
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4352,7 +4352,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1217c6
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4363,7 +4363,7 @@
     .line 21
     invoke-virtual {v4, v3}, Lef3$a;->f(Z)Lef3$a;
 
-    const v5, 0x7f060159
+    sget v5, Lcom/resouce/module/ResCOLOR;->en_premium_banner_pdf_edit_bg:I
 
     .line 22
     invoke-virtual {v4, v5}, Lef3$a;->b(I)Lef3$a;
@@ -4378,7 +4378,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0805be
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->en_premium_banner_pdf_signature:I
 
     .line 25
     invoke-virtual {v5, v6}, Lef3$a;->e(I)Lef3$a;
@@ -4390,7 +4390,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f121c96
+    sget v7, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4405,7 +4405,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f122699
+    sget v7, Lcom/resouce/module/ResSTRING;->public_premium_pdf_signature_desc:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4416,7 +4416,7 @@
     .line 28
     invoke-virtual {v5, v3}, Lef3$a;->f(Z)Lef3$a;
 
-    const v3, 0x7f06015a
+    sget v3, Lcom/resouce/module/ResCOLOR;->en_premium_banner_pdf_signature_bg:I
 
     .line 29
     invoke-virtual {v5, v3}, Lef3$a;->b(I)Lef3$a;
@@ -4509,7 +4509,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121c87
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4643,7 +4643,7 @@
     .line 1
     iget-object v0, p0, Lqg6;->S:Landroid/app/Activity;
 
-    const v1, 0x7f010045
+    sget v1, Lcom/resouce/module/ResANIM;->func_guide_pay_arrow_shake:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -5035,7 +5035,7 @@
 .method public l()I
     .locals 1
 
-    const v0, 0x7f0e02ae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->func_pdf_pay_new_style_view:I
 
     return v0
 .end method
@@ -5055,7 +5055,7 @@
     .line 2
     iget-object v0, p0, Lyg6;->C0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f08078c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_privileges_list_drak_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -5065,7 +5065,7 @@
     :cond_0
     iget-object v0, p0, Lyg6;->C0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f08078d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_privileges_list_white_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
@@ -5326,7 +5326,7 @@
 .method public final n0(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b0eb6
+    sget v0, Lcom/resouce/module/ResID;->func_head_img_relative_main:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5337,7 +5337,7 @@
 
     iput-object v0, p0, Lyg6;->v0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b0eb7
+    sget v0, Lcom/resouce/module/ResID;->func_head_img_relative_other:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5348,7 +5348,7 @@
 
     iput-object v0, p0, Lyg6;->w0:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b0eac
+    sget v0, Lcom/resouce/module/ResID;->func_guid_pdf_vip_list:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5359,7 +5359,7 @@
 
     iput-object v0, p0, Lyg6;->z0:Landroid/widget/ListView;
 
-    const v0, 0x7f0b0eb9
+    sget v0, Lcom/resouce/module/ResID;->func_img:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5370,7 +5370,7 @@
 
     iput-object v0, p0, Lyg6;->r0:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b0ebb
+    sget v0, Lcom/resouce/module/ResID;->func_img_other:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5381,7 +5381,7 @@
 
     iput-object v0, p0, Lyg6;->x0:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b0ec1
+    sget v0, Lcom/resouce/module/ResID;->func_title_text:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5392,7 +5392,7 @@
 
     iput-object v0, p0, Lyg6;->s0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0ec2
+    sget v0, Lcom/resouce/module/ResID;->func_title_text_other:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5403,7 +5403,7 @@
 
     iput-object v0, p0, Lyg6;->y0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v0, 0x7f0b06e0
+    sget v0, Lcom/resouce/module/ResID;->dlg_func_annual_view:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5414,7 +5414,7 @@
 
     iput-object v0, p0, Lyg6;->t0:Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;
 
-    const v0, 0x7f0b06e1
+    sget v0, Lcom/resouce/module/ResID;->dlg_func_month_view:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5425,7 +5425,7 @@
 
     iput-object v0, p0, Lyg6;->u0:Lcn/wps/moffice/func/pdf/view/PDFFuncSKUNewView;
 
-    const v0, 0x7f0b0eab
+    sget v0, Lcom/resouce/module/ResID;->func_guid_pay_page_arrow:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5436,7 +5436,7 @@
 
     iput-object v0, p0, Lyg6;->B0:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b0eae
+    sget v0, Lcom/resouce/module/ResID;->func_guide_pay_page_arrow_bg:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5447,7 +5447,7 @@
 
     iput-object v0, p0, Lyg6;->C0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0eb0
+    sget v0, Lcom/resouce/module/ResID;->func_guide_pay_page_scroll:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5458,7 +5458,7 @@
 
     iput-object v0, p0, Lyg6;->D0:Landroidx/core/widget/NestedScrollView;
 
-    const v0, 0x7f0b1e93
+    sget v0, Lcom/resouce/module/ResID;->pdf_pay_notify_dec_tv:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5469,7 +5469,7 @@
 
     iput-object v0, p0, Lyg6;->I0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v0, 0x7f0b1740
+    sget v0, Lcom/resouce/module/ResID;->local_price_banner:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5480,7 +5480,7 @@
 
     iput-object v0, p0, Lyg6;->J0:Lcn/wps/moffice/pay/view/FiveTextView;
 
-    const v0, 0x7f0b24de
+    sget v0, Lcom/resouce/module/ResID;->premium_privileges_name:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5491,7 +5491,7 @@
 
     iput-object v0, p0, Lyg6;->K0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v0, 0x7f0b24c3
+    sget v0, Lcom/resouce/module/ResID;->premium_center_banner:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5502,7 +5502,7 @@
 
     iput-object v0, p0, Lyg6;->M0:Lcn/wps/moffice/func/pdf/view/PremiumCenterBanner;
 
-    const v0, 0x7f0b1d30
+    sget v0, Lcom/resouce/module/ResID;->pay_page_user_story_list:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5513,7 +5513,7 @@
 
     iput-object v0, p0, Lyg6;->O0:Lcn/wps/moffice/pay/view/PDFPayPageListView;
 
-    const v0, 0x7f0b1699
+    sget v0, Lcom/resouce/module/ResID;->ll_jp_cd_key:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5541,7 +5541,7 @@
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b1d24
+    sget v0, Lcom/resouce/module/ResID;->pay_item_container:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5552,7 +5552,7 @@
 
     iput-object v0, p0, Lyg6;->Q0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1d17
+    sget v0, Lcom/resouce/module/ResID;->pay_button_container:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5563,7 +5563,7 @@
 
     iput-object v0, p0, Lqg6;->e0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1d19
+    sget v0, Lcom/resouce/module/ResID;->pay_coupon_container:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5574,7 +5574,7 @@
 
     iput-object v0, p0, Lyg6;->S0:Lcn/wps/moffice/common/beans/RippleAlphaLinearLayout;
 
-    const v0, 0x7f0b1d2c
+    sget v0, Lcom/resouce/module/ResID;->pay_page_coupon_available:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5585,7 +5585,7 @@
 
     iput-object v0, p0, Lyg6;->c1:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0868
+    sget v0, Lcom/resouce/module/ResID;->en_pay_ads_free_layout:I
 
     .line 24
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5599,7 +5599,7 @@
     .line 25
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b06ed
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_pdf2doc_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5612,7 +5612,7 @@
     .line 26
     iget-object v0, p0, Lqg6;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1e92
+    sget v1, Lcom/resouce/module/ResID;->pdf_pay_bottom_cancel_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5622,7 +5622,7 @@
 
     iput-object v0, p0, Lyg6;->p1:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0b0c01
+    sget v0, Lcom/resouce/module/ResID;->expireTimeText:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5633,7 +5633,7 @@
 
     iput-object v0, p0, Lyg6;->q1:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2b20
+    sget v0, Lcom/resouce/module/ResID;->separateLine:I
 
     .line 28
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5642,7 +5642,7 @@
 
     iput-object v0, p0, Lyg6;->r1:Landroid/view/View;
 
-    const v0, 0x7f0b0870
+    sget v0, Lcom/resouce/module/ResID;->en_premium_head_container:I
 
     .line 29
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5893,7 +5893,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b06e0
+    sget v2, Lcom/resouce/module/ResID;->dlg_func_annual_view:I
 
     if-ne v1, v2, :cond_0
 
@@ -5908,7 +5908,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b06e1
+    sget v2, Lcom/resouce/module/ResID;->dlg_func_month_view:I
 
     if-ne v1, v2, :cond_1
 
@@ -5923,7 +5923,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b1699
+    sget v2, Lcom/resouce/module/ResID;->ll_jp_cd_key:I
 
     if-ne v1, v2, :cond_2
 
@@ -5946,7 +5946,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0eab
+    sget v2, Lcom/resouce/module/ResID;->func_guid_pay_page_arrow:I
 
     if-ne v1, v2, :cond_3
 
@@ -5972,7 +5972,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b06ec
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_pay_btn:I
 
     if-ne v0, v1, :cond_4
 
@@ -5999,7 +5999,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1d19
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_container:I
 
     if-ne v0, v1, :cond_5
 
@@ -6014,7 +6014,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0868
+    sget v1, Lcom/resouce/module/ResID;->en_pay_ads_free_layout:I
 
     const/4 v2, 0x1
 
@@ -6046,7 +6046,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06ed
+    sget v0, Lcom/resouce/module/ResID;->dlg_opt_pdf2doc_btn:I
 
     if-ne p1, v0, :cond_7
 
@@ -6100,7 +6100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b06eb
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_fun_sub_title_other:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6111,7 +6111,7 @@
 
     iput-object v1, p0, Lyg6;->G0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b06ea
+    sget v1, Lcom/resouce/module/ResID;->dlg_opt_fun_sub_title:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6143,7 +6143,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6162,7 +6162,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080708
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2pic_share:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6179,7 +6179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217e0
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6198,7 +6198,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080704
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2annotation:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6215,7 +6215,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121769
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6234,7 +6234,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080705
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2doc:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6251,7 +6251,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217b4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6270,7 +6270,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080706
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2edit:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6287,7 +6287,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c96
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6306,7 +6306,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080709
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guid_pdf_2sign:I
 
     invoke-static {p1, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -6478,7 +6478,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f12169d
+    sget v3, Lcom/resouce/module/ResSTRING;->pay_page_coupon_available:I
 
     const-string v4, "stripe"
 
@@ -6891,7 +6891,7 @@
     .line 6
     iget-object v0, p0, Lyg6;->c1:Landroid/widget/TextView;
 
-    const v1, 0x7f12169d
+    sget v1, Lcom/resouce/module/ResSTRING;->pay_page_coupon_available:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

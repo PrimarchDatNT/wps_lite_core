@@ -76,7 +76,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070b53
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_insert_pic_album_cover_width:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -85,7 +85,7 @@
 
     iput v0, p0, Lea4;->I:I
 
-    const v0, 0x7f070b52
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_insert_pic_album_cover_height:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -200,7 +200,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f070b54
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_insert_pic_album_item_height:I
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -225,7 +225,7 @@
     :goto_0
     iget-object p2, p0, Lea4;->B:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0c96
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_albums_item:I
 
     invoke-virtual {p2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

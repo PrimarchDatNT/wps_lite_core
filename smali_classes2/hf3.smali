@@ -50,7 +50,7 @@
     .line 5
     iput-object p2, p0, Lhf3;->I:Lhf3$e;
 
-    const p1, 0x7f122710
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_select_print_service:I
 
     .line 6
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cce
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_list_dialog:I
 
     const/4 v2, 0x0
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2675
+    sget v1, Lcom/resouce/module/ResID;->public_list:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -118,12 +118,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0e0857
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_dialog_list_item:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0e05a5
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_public_dialog_list_item:I
 
     .line 4
     :goto_0
@@ -137,7 +137,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b2664
+    sget v5, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 5
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     invoke-virtual {v6, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v6, 0x7f0b2667
+    sget v6, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 6
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,11 +159,11 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f122716
+    sget v8, Lcom/resouce/module/ResSTRING;->public_print_system_print_service:I
 
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setText(I)V
 
-    const v7, 0x7f0b2665
+    sget v7, Lcom/resouce/module/ResID;->public_item_layout:I
 
     .line 7
     invoke-virtual {v4, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f121e8c
+    sget v9, Lcom/resouce/module/ResSTRING;->public_cloud_print:I
 
     invoke-virtual {v8, v9}, Landroid/widget/TextView;->setText(I)V
 
@@ -290,7 +290,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f1226c7
+    sget v9, Lcom/resouce/module/ResSTRING;->public_print_enterprise_epson:I
 
     invoke-virtual {v8, v9}, Landroid/widget/TextView;->setText(I)V
 
@@ -347,7 +347,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f1226ba
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_as_ps:I
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -374,22 +374,22 @@
 .method public final W2()V
     .locals 1
 
-    const v0, 0x7f081b4c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_system:I
 
     .line 1
     iput v0, p0, Lhf3;->T:I
 
-    const v0, 0x7f081b49
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_cloud:I
 
     .line 2
     iput v0, p0, Lhf3;->U:I
 
-    const v0, 0x7f081b4a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_epson:I
 
     .line 3
     iput v0, p0, Lhf3;->V:I
 
-    const v0, 0x7f081b4b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_saveas_file:I
 
     .line 4
     iput v0, p0, Lhf3;->W:I

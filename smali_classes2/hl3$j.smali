@@ -56,7 +56,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b03cb
+    sget v0, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

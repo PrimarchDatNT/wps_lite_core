@@ -148,7 +148,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e0e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_recent_open_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e0d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_recent_no_open_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121df4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_big_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

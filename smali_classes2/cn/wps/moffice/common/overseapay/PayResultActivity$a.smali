@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d6c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pay_result_show:I
 
     const/4 v2, 0x0
 
@@ -56,7 +56,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/overseapay/PayResultActivity$a;->B:Lcn/wps/moffice/common/overseapay/PayResultActivity;
 
-    const v2, 0x7f0b2daa    # 1.849998E38f
+    sget v2, Lcom/resouce/module/ResID;->state_img:I    # 1.849998E38f
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -69,7 +69,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/overseapay/PayResultActivity$a;->B:Lcn/wps/moffice/common/overseapay/PayResultActivity;
 
-    const v2, 0x7f0b1d3e
+    sget v2, Lcom/resouce/module/ResID;->payment_state:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -82,7 +82,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/common/overseapay/PayResultActivity$a;->B:Lcn/wps/moffice/common/overseapay/PayResultActivity;
 
-    const v2, 0x7f0b2fbd
+    sget v2, Lcom/resouce/module/ResID;->tips_info:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
 
     invoke-static {v1, v2}, Lcn/wps/moffice/common/overseapay/PayResultActivity;->E2(Lcn/wps/moffice/common/overseapay/PayResultActivity;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v1, 0x7f0b0525
+    sget v1, Lcom/resouce/module/ResID;->confirm:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0b26b3
+    sget v1, Lcom/resouce/module/ResID;->public_pay_result_bottom_tip:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225fc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_payment:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

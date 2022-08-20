@@ -378,7 +378,7 @@
 
     invoke-direct {p1, p2, p2}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    const p2, 0x7f0b2035
+    sget p2, Lcom/resouce/module/ResID;->phone_home_root_tab_bar:I
 
     .line 5
     invoke-virtual {p1, v1, p2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -441,7 +441,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0b2035
+    sget v2, Lcom/resouce/module/ResID;->phone_home_root_tab_bar:I
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -1195,7 +1195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0752
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_root:I
 
     const/4 v2, 0x0
 
@@ -1335,7 +1335,7 @@
 .method public k3()V
     .locals 3
 
-    const v0, 0x7f0b2034
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_content:I
 
     .line 1
     :try_start_0
@@ -1345,7 +1345,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/HomeRootActivity;->X:Landroid/view/View;
 
-    const v0, 0x7f0b2035
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_tab_bar:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1713,7 +1713,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f0e0c3d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_home_root_layout:I
 
     const/4 v3, 0x0
 
@@ -1968,7 +1968,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025d
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v4, p0, v2, v5}, Lsq6;->o(Landroid/app/Activity;ZI)V
 
@@ -2627,9 +2627,9 @@
     .line 8
     invoke-static {p0, p1}, Lsb5;->e(Landroid/content/Context;Landroid/content/Intent;)V
 
-    const p1, 0x7f010013
+    sget p1, Lcom/resouce/module/ResANIM;->backkey_activity_enter:I
 
-    const p2, 0x7f010014
+    sget p2, Lcom/resouce/module/ResANIM;->backkey_activity_exit:I
 
     .line 9
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -3377,7 +3377,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2036
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_tab_bar_operator:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

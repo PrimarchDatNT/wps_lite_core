@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lgf9$a;->B:Landroid/content/Context;
 
-    const v1, 0x7f122b1c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_try_open_file_collection_fail_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

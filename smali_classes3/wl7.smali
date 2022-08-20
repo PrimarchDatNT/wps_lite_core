@@ -131,7 +131,7 @@
     .line 3
     iget-object v1, p0, Lwl7;->U:Landroid/app/Activity;
 
-    const v2, 0x7f12034b
+    sget v2, Lcom/resouce/module/ResSTRING;->create_folder_auto_fill_wechat_name:I
 
     const/4 v3, 0x1
 
@@ -201,7 +201,7 @@
 
     iget-object v2, p0, Lwl7;->U:Landroid/app/Activity;
 
-    const v3, 0x7f0b0530
+    sget v3, Lcom/resouce/module/ResID;->container:I
 
     invoke-direct {v1, v2, v3}, Lun7;-><init>(Landroid/app/Activity;I)V
 
@@ -256,7 +256,7 @@
     .line 1
     iget-object v0, p0, Lwl7;->W:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -324,7 +324,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0eb7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_wechat_new_sharefolder_layout:I
 
     new-instance v2, Landroid/widget/FrameLayout;
 
@@ -356,7 +356,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1229b3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_sharefolder_template_wechat_folder:I
 
     return v0
 .end method

@@ -220,7 +220,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f08166f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_company_files:I
 
     goto :goto_0
 
@@ -246,7 +246,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f0e0575
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_record_listview_item_v2:I
 
     return v0
 .end method
@@ -349,7 +349,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121256
+    sget v2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -393,7 +393,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023e
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -404,7 +404,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -421,7 +421,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c74
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_home:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -435,7 +435,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c71
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_home:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -444,7 +444,7 @@
     .line 11
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImageWidth(I)V
 
-    const v0, 0x7f081688
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_upload:I
 
     .line 12
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
@@ -583,7 +583,7 @@
     .line 2
     iget-object p1, p1, Lsp9$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081fcc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -593,7 +593,7 @@
     :cond_0
     iget-object p1, p1, Lsp9$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081626    # 1.8089E38f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -829,7 +829,7 @@
 
     if-eqz p2, :cond_5
 
-    const v0, 0x7f08162c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     .line 18
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -874,7 +874,7 @@
     :cond_1
     iget-boolean v2, p2, Ld08;->c0:Z
 
-    const v4, 0x7f08162c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     const/4 v5, 0x1
 
@@ -891,7 +891,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121129
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_source_this_device:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -966,7 +966,7 @@
 
     if-eqz p2, :cond_5
 
-    const v4, 0x7f081621
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_device:I
 
     :goto_0
     move-object v0, v2
@@ -986,7 +986,7 @@
 
     if-eqz p2, :cond_6
 
-    const v4, 0x7f08161e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_cloud:I
 
     .line 15
     invoke-virtual {p0, v2}, Lsp9;->a0(Ljava/lang/String;)Ljava/lang/String;
@@ -1005,7 +1005,7 @@
 
     if-eqz p2, :cond_7
 
-    const v4, 0x7f08161f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_company:I
 
     goto :goto_0
 
@@ -1411,7 +1411,7 @@
     :goto_0
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b26f1
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     if-eqz v1, :cond_4
 
@@ -1940,7 +1940,7 @@
     .line 8
     iget-object v0, p1, Lsp9$h;->n0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08162e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_warn:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1975,7 +1975,7 @@
     .line 14
     iget-object p3, p1, Lsp9$h;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b26f1
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     invoke-virtual {p3, v0, p2}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V
 
@@ -2280,7 +2280,7 @@
     .line 20
     iget-object v2, p1, Lsp9$h;->m0:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2e71
+    sget v3, Lcom/resouce/module/ResID;->tag_icon_key:I
 
     iget-object v4, v0, Ld08;->U:Ljava/lang/String;
 
@@ -2400,7 +2400,7 @@
     .line 33
     iget-object v1, p1, Lsp9$h;->o0:Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;
 
-    const v2, 0x7f0b2e88
+    sget v2, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2442,7 +2442,7 @@
     :goto_6
     iget-object v1, p1, Lsp9$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f0b2e68
+    sget v2, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2844,7 +2844,7 @@
     .line 9
     iget-object p2, p3, Lsp9$h;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b26f1
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     invoke-virtual {p2, v0, p1}, Landroid/widget/ImageView;->setTag(ILjava/lang/Object;)V
 
@@ -2900,7 +2900,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b2981
+    sget v0, Lcom/resouce/module/ResID;->roaming_record_list_view_holder_key:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -3148,7 +3148,7 @@
     .line 3
     iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2981
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_list_view_holder_key:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -3159,7 +3159,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2982
+    sget v2, Lcom/resouce/module/ResID;->roaming_record_list_view_position_key:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 

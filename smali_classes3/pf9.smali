@@ -27,7 +27,7 @@
 .method public static X3(Landroid/content/Context;)V
     .locals 3
 
-    const v0, 0x7f122269
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_transfer_to_pc:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -50,12 +50,12 @@
 
     move-result-object v1
 
-    const v2, 0x7f081cc7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_transfer_to_pc_shortcut:I
 
     invoke-static {p0, v0, v1, v2}, Lhcb;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
     :cond_0
-    const v0, 0x7f122ec1
+    sget v0, Lcom/resouce/module/ResSTRING;->send_file_radar_to_desktop_toast:I
 
     const/4 v1, 0x0
 
@@ -98,7 +98,7 @@
 .method public K3()I
     .locals 1
 
-    const v0, 0x7f0e02e3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_transfer_to_pc_introduce_layout:I
 
     return v0
 .end method
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1943
+    sget v1, Lcom/resouce/module/ResID;->multi_btn_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,28 +122,28 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b024d
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b024e
+    sget v3, Lcom/resouce/module/ResID;->bottom_btn_right:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b024b
+    sget v4, Lcom/resouce/module/ResID;->bottom_btn_bottom:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b05cb
+    sget v5, Lcom/resouce/module/ResID;->create_shortcut:I
 
     .line 6
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b027c
+    sget v6, Lcom/resouce/module/ResID;->bottom_text_left:I
 
     .line 7
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b027d
+    sget v7, Lcom/resouce/module/ResID;->bottom_text_right:I
 
     .line 8
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b027b
+    sget v8, Lcom/resouce/module/ResID;->bottom_text_bottom:I
 
     .line 9
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0b0fc6
+    sget v9, Lcom/resouce/module/ResID;->help_text:I
 
     .line 10
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     new-array v11, v11, [Ljava/lang/Object;
 
-    const v12, 0x7f122269
+    sget v12, Lcom/resouce/module/ResSTRING;->public_home_app_file_transfer_to_pc:I
 
     .line 12
     invoke-virtual {v10, v12}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -202,7 +202,7 @@
 
     aput-object v12, v11, v2
 
-    const v2, 0x7f12193d
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_ad_shortcut_title:I
 
     .line 13
     invoke-virtual {v10, v2, v11}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -211,17 +211,17 @@
 
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f121c01
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_choose_document:I
 
     .line 14
     invoke-virtual {v6, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f1228df
+    sget v2, Lcom/resouce/module/ResSTRING;->public_select_picture:I
 
     .line 15
     invoke-virtual {v7, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v2, 0x7f122b03
+    sget v2, Lcom/resouce/module/ResSTRING;->public_transfer_record:I
 
     .line 16
     invoke-virtual {v8, v2}, Landroid/widget/TextView;->setText(I)V
@@ -262,7 +262,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b05cb
+    sget v1, Lcom/resouce/module/ResID;->create_shortcut:I
 
     if-ne v0, v1, :cond_0
 
@@ -282,7 +282,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0fc6
+    sget v1, Lcom/resouce/module/ResID;->help_text:I
 
     if-ne v0, v1, :cond_1
 
@@ -299,7 +299,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b024d
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_left:I
 
     const/4 v2, 0x1
 
@@ -387,7 +387,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b024e
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_right:I
 
     if-ne v0, v1, :cond_5
 
@@ -465,7 +465,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b024b
+    sget v0, Lcom/resouce/module/ResID;->bottom_btn_bottom:I
 
     if-ne p1, v0, :cond_7
 

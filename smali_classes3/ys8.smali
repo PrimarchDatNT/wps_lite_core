@@ -433,7 +433,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1227bd
+    sget v6, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -482,7 +482,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f12217e
+    sget v7, Lcom/resouce/module/ResSTRING;->public_fileradar_file_yesterday:I
 
     invoke-virtual {v6, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -528,7 +528,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f12217d
+    sget v7, Lcom/resouce/module/ResSTRING;->public_fileradar_file_seventoday:I
 
     invoke-virtual {v6, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -576,7 +576,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f12217b
+    sget v6, Lcom/resouce/module/ResSTRING;->public_fileradar_file_early:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

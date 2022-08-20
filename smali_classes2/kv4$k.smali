@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1226c1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_connect_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -42,7 +42,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04053e
+    sget v0, Lcom/resouce/module/ResATTR;->sliderStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/slider/Slider;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

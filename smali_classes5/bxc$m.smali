@@ -32,7 +32,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const p1, 0x7f0b1e5a
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_outline:I
 
     .line 2
     iput p1, p0, Lbxc$m;->a:I

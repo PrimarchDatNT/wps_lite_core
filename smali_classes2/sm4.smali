@@ -24,7 +24,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121023
+    sget p2, Lcom/resouce/module/ResSTRING;->home_pay_cloud_font:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120ded
+    sget v3, Lcom/resouce/module/ResSTRING;->hand_written_my_font:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -144,12 +144,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f1221c7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_fonts_hint_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f1221c6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_fonts_hint_pad:I
 
     .line 4
     :goto_0

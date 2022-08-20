@@ -252,7 +252,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v2, 0x0
 

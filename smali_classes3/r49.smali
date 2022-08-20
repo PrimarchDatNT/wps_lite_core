@@ -149,7 +149,7 @@
     .line 1
     iget-object v0, p0, Lv49;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0d13
+    sget v1, Lcom/resouce/module/ResID;->file_search_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,14 +168,14 @@
 
     iget-object v1, p0, Lv49;->c:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0868
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_filebrowser_search_assistant_page:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 3
     iget-object v0, p0, Lv49;->b:Landroid/view/View;
 
-    const v1, 0x7f0b20fa
+    sget v1, Lcom/resouce/module/ResID;->phone_public_recommend_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -186,7 +186,7 @@
     .line 4
     iget-object v0, p0, Lv49;->b:Landroid/view/View;
 
-    const v1, 0x7f0b20f9
+    sget v1, Lcom/resouce/module/ResID;->phone_public_recommend_flowlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
     .line 5
     iget-object v0, p0, Lv49;->b:Landroid/view/View;
 
-    const v1, 0x7f0b20c3    # 1.849328E38f
+    sget v1, Lcom/resouce/module/ResID;->phone_public_change_hotword:I    # 1.849328E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
 
     iget-object v4, p0, Lv49;->d:Landroid/app/Activity;
 
-    const v6, 0x7f0e087b
+    sget v6, Lcom/resouce/module/ResLAYOUT;->phone_public_flow_recommend_item:I
 
     aget-object v7, v2, v1
 

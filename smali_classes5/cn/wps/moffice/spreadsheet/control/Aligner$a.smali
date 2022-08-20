@@ -74,7 +74,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p2, 0x7f081cbc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundResource(I)V
@@ -141,7 +141,7 @@
 
     if-ne p1, p3, :cond_0
 
-    const p1, 0x7f081cbe
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_selected_bg_roundrect:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
@@ -179,7 +179,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f0b08ca
+    sget p1, Lcom/resouce/module/ResID;->et_align_dialog_item_img:I
 
     .line 8
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

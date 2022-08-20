@@ -40,7 +40,7 @@
 
     move-result v1
 
-    const v2, 0x7f122a01
+    sget v2, Lcom/resouce/module/ResSTRING;->public_slide_scaler:I
 
     invoke-direct {v0, p0, v1, v2}, Lcde$a;-><init>(Lcde;II)V
 
@@ -174,12 +174,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080392
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_slide_size:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d82
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_slide_size_ppt:I
 
     :goto_0
     return v0

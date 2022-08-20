@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1159
+    sget v0, Lcom/resouce/module/ResID;->home_scf_back:I
 
     if-ne p1, v0, :cond_0
 

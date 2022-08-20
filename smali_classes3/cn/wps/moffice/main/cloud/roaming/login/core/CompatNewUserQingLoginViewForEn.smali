@@ -503,7 +503,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0360
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_new_login_flipper_item:I
 
     const/4 v2, 0x0
 
@@ -511,7 +511,7 @@
 
     move-result-object v5
 
-    const v0, 0x7f0b114e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_logo:I
 
     .line 9
     invoke-virtual {v5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
 
     check-cast v0, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f0b108e
+    sget v1, Lcom/resouce/module/ResID;->home_login_des_tv:I
 
     .line 10
     invoke-virtual {v5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1419,7 +1419,7 @@
 .method public setNewIndexLoginView(Landroid/view/View;)V
     .locals 12
 
-    const v0, 0x7f0b114e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_logo:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1430,7 +1430,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1141
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_third_button_Container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1457,7 +1457,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v1, 0x7f080a78
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->login_free_premium:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1467,12 +1467,12 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v1, 0x7f080a83
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->login_mutiple_platforms:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :goto_0
-    const v0, 0x7f0b1524
+    sget v0, Lcom/resouce/module/ResID;->later:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1484,7 +1484,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0c57
+    sget v1, Lcom/resouce/module/ResID;->facebook_login_iv:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1496,7 +1496,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b121a
+    sget v2, Lcom/resouce/module/ResID;->huawei_login_iv:I
 
     .line 10
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1508,7 +1508,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b084f
+    sget v3, Lcom/resouce/module/ResID;->email_login_iv:I
 
     .line 12
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1520,7 +1520,7 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b114c
+    sget v3, Lcom/resouce/module/ResID;->home_roaming_login_with_google_layout:I
 
     .line 14
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1532,7 +1532,7 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b1149
+    sget v4, Lcom/resouce/module/ResID;->home_roaming_login_with_facebook_layout:I
 
     .line 16
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1583,7 +1583,7 @@
     invoke-virtual {v1, v7}, Landroid/view/View;->setVisibility(I)V
 
     :goto_1
-    const v1, 0x7f0b2c1e
+    sget v1, Lcom/resouce/module/ResID;->sing_up_tv:I
 
     .line 27
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1598,7 +1598,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b34a1
+    sget v2, Lcom/resouce/module/ResID;->wps_user_sign_in_layout:I
 
     if-eqz v1, :cond_2
 
@@ -1629,7 +1629,7 @@
 
     const-string v4, "launch_strict"
 
-    const v5, 0x7f0b30fb
+    sget v5, Lcom/resouce/module/ResID;->tvTip:I
 
     const/4 v8, 0x1
 
@@ -1855,7 +1855,7 @@
 
     if-eqz v1, :cond_6
 
-    const v1, 0x7f0b108e
+    sget v1, Lcom/resouce/module/ResID;->home_login_des_tv:I
 
     .line 55
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1864,7 +1864,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f12244e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_free:I
 
     .line 56
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -1903,7 +1903,7 @@
     invoke-static {v0, v1}, Lgdb;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_7
-    const v0, 0x7f0b176b
+    sget v0, Lcom/resouce/module/ResID;->logo_des_vf:I
 
     .line 62
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2163,7 +2163,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0387
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_qing_login_index_new_content:I
 
     const/4 v2, 0x0
 

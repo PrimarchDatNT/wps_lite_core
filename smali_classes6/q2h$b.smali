@@ -40,7 +40,7 @@
     .line 1
     iget-object v0, p0, Lql3;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2a41
+    sget v1, Lcom/resouce/module/ResID;->scrolltabbar_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -65,7 +65,7 @@
 .method public N()I
     .locals 1
 
-    const v0, 0x7f0e08bd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_quick_bar_font_item_layout:I
 
     return v0
 .end method
@@ -360,7 +360,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

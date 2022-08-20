@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1f18
+    sget v0, Lcom/resouce/module/ResID;->pdf_screenback:I
 
     if-ne p1, v0, :cond_1
 

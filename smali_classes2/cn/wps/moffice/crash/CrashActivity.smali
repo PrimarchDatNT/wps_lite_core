@@ -229,7 +229,7 @@
 
     const-string v1, "CRASH_MESSAGE"
 
-    const v2, 0x7f121f84
+    sget v2, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content:I
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
@@ -300,7 +300,7 @@
 .method public final g(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b0695
+    sget v0, Lcom/resouce/module/ResID;->dialog_msg:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -590,12 +590,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0515
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_crash_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0694
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_crash_layout:I
 
     .line 7
     :goto_0
@@ -645,7 +645,7 @@
     goto :goto_1
 
     :catch_0
-    const p1, 0x7f12011b
+    sget p1, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

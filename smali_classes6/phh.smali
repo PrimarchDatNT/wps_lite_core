@@ -66,12 +66,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_otl:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08167d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_otl:I
 
     return v0
 .end method
@@ -122,7 +122,7 @@
 .method public final B()I
     .locals 1
 
-    const v0, 0x7f08056e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pdf:I
 
     return v0
 .end method
@@ -135,12 +135,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_pdf:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08167e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf:I
 
     return v0
 .end method
@@ -148,7 +148,7 @@
 .method public D()I
     .locals 1
 
-    const v0, 0x7f08056f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_phone:I
 
     return v0
 .end method
@@ -156,7 +156,7 @@
 .method public final E()I
     .locals 1
 
-    const v0, 0x7f08082d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_picturenormal:I
 
     return v0
 .end method
@@ -169,12 +169,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f14
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_image:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081674
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_image:I
 
     return v0
 .end method
@@ -182,7 +182,7 @@
 .method public final G()I
     .locals 1
 
-    const v0, 0x7f080570
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pof:I
 
     return v0
 .end method
@@ -195,12 +195,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f16
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_mindmap:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081676
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_mindmap:I
 
     return v0
 .end method
@@ -208,7 +208,7 @@
 .method public final I()I
     .locals 1
 
-    const v0, 0x7f080571
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pom:I
 
     return v0
 .end method
@@ -221,12 +221,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f12
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_flowchart:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081672
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_flowchart:I
 
     return v0
 .end method
@@ -234,7 +234,7 @@
 .method public final K()I
     .locals 1
 
-    const v0, 0x7f080572
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
     return v0
 .end method
@@ -247,12 +247,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_ppt:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081680
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt:I
 
     return v0
 .end method
@@ -260,7 +260,7 @@
 .method public final M()I
     .locals 1
 
-    const v0, 0x7f080573
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_processon_import:I
 
     return v0
 .end method
@@ -273,12 +273,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f17
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_mindmap_thirdparty:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081677
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_mindmap_thirdparty:I
 
     return v0
 .end method
@@ -286,7 +286,7 @@
 .method public O()I
     .locals 1
 
-    const v0, 0x7f0808d8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_sdcard_icon:I
 
     return v0
 .end method
@@ -303,12 +303,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809c0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_secret_folder:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0816a2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_private:I
 
     return v0
 .end method
@@ -316,7 +316,7 @@
 .method public final Q()I
     .locals 1
 
-    const v0, 0x7f080576
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_text:I
 
     return v0
 .end method
@@ -329,12 +329,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_txt:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081685
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_txt:I
 
     return v0
 .end method
@@ -342,7 +342,7 @@
 .method public S()I
     .locals 1
 
-    const v0, 0x7f080879
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_open_usb_icon:I
 
     return v0
 .end method
@@ -350,7 +350,7 @@
 .method public final T()I
     .locals 1
 
-    const v0, 0x7f08082e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_videonormal:I
 
     return v0
 .end method
@@ -363,12 +363,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f20
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_video:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081689
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_video:I
 
     return v0
 .end method
@@ -385,7 +385,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809ce
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_company:I
 
     return v0
 
@@ -395,12 +395,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f28
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_company:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f081699
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_company:I
 
     return v0
 .end method
@@ -417,7 +417,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809d2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_my_pc:I
 
     return v0
 
@@ -427,12 +427,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f2a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_desktop:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f08169c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_desktop:I
 
     return v0
 .end method
@@ -449,7 +449,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_my_phone_device:I
 
     return v0
 
@@ -459,12 +459,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f2d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_phone:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f0816a1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_phone:I
 
     return v0
 .end method
@@ -481,7 +481,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809d1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_my_device_root:I
 
     return v0
 
@@ -491,12 +491,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f2b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_device:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f08169d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_device:I
 
     return v0
 .end method
@@ -509,12 +509,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f0d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_docer_resource:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08169e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_docer_resource:I
 
     return v0
 .end method
@@ -527,7 +527,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f26
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_build:I
 
     return v0
 
@@ -539,12 +539,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f081734
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_new_sharefolder_en:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f081733
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_new_sharefolder:I
 
     return v0
 .end method
@@ -615,7 +615,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0809cf
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_folder:I
 
     return p1
 
@@ -625,12 +625,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080f29
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f08169b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     return p1
 .end method
@@ -701,7 +701,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809d4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_share_with_me:I
 
     return v0
 
@@ -711,12 +711,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f30
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_shared:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f0816a4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_shared:I
 
     return v0
 .end method
@@ -729,12 +729,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081fdf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_drive_cloud_vip_icon:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081697
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_cloud_privileges:I
 
     return v0
 .end method
@@ -742,7 +742,7 @@
 .method public final d0()I
     .locals 1
 
-    const v0, 0x7f080578
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_zip:I
 
     return v0
 .end method
@@ -757,7 +757,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f081cef
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_wps_form_pad_icon:I
 
     return p1
 
@@ -767,12 +767,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080f13
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_formtool:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f081673
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_formtool:I
 
     return p1
 .end method
@@ -785,12 +785,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f33
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_zip:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081690
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_zip:I
 
     return v0
 .end method
@@ -811,7 +811,7 @@
 .method public final f0()I
     .locals 1
 
-    const v0, 0x7f08056c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_note:I
 
     return v0
 .end method
@@ -859,7 +859,7 @@
     :cond_2
     if-ne v0, p2, :cond_3
 
-    const p2, 0x7f08082c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_icon_other:I
 
     :cond_3
     return p2
@@ -873,12 +873,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f19
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_note:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081679
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_note:I
 
     return v0
 .end method
@@ -891,12 +891,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f0e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_3d_model:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081668
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_3d_model:I
 
     return v0
 .end method
@@ -940,7 +940,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f081650
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_home_recent_item_type_pdf:I
 
     return p1
 
@@ -958,7 +958,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f08164f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_home_recent_item_type_doc:I
 
     return p1
 
@@ -976,7 +976,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f081652
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_home_recent_item_type_xcls:I
 
     return p1
 
@@ -994,7 +994,7 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f081651
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_home_recent_item_type_ppt:I
 
     return p1
 
@@ -1012,12 +1012,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f0f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_apk:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08166a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_apk:I
 
     return v0
 .end method
@@ -1028,7 +1028,7 @@
     .line 1
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121134
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_download:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1051,7 +1051,7 @@
     :cond_0
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121136
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_gmail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1074,7 +1074,7 @@
     :cond_1
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f12113a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_mailmaster:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1097,7 +1097,7 @@
     :cond_2
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f12113b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_nfc:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1120,7 +1120,7 @@
     :cond_3
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f12113c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1143,7 +1143,7 @@
     :cond_4
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f12113f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqbrowser:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1166,7 +1166,7 @@
     :cond_5
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121140
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqmail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1189,7 +1189,7 @@
     :cond_6
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121146
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_ucbrowser:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1212,7 +1212,7 @@
     :cond_7
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121147
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_wechat:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1235,7 +1235,7 @@
     :cond_8
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f121149
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_yahoo:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1264,7 +1264,7 @@
 .method public final j()I
     .locals 1
 
-    const v0, 0x7f080829
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_audio:I
 
     return v0
 .end method
@@ -1272,7 +1272,7 @@
 .method public j0()I
     .locals 1
 
-    const v0, 0x7f0808c9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_download:I
 
     return v0
 .end method
@@ -1285,12 +1285,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f18
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_music:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f081678
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_music:I
 
     return v0
 .end method
@@ -1298,7 +1298,7 @@
 .method public k0()I
     .locals 1
 
-    const v0, 0x7f0808ca
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_gmail:I
 
     return v0
 .end method
@@ -1893,7 +1893,7 @@
 .method public l0()I
     .locals 1
 
-    const v0, 0x7f0808cc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_mailmaster:I
 
     return v0
 .end method
@@ -1906,12 +1906,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f11
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_ckt:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08166d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ckt:I
 
     return v0
 .end method
@@ -1919,7 +1919,7 @@
 .method public m0()I
     .locals 1
 
-    const v0, 0x7f0808cd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_nfc:I
 
     return v0
 .end method
@@ -1930,7 +1930,7 @@
     .line 1
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f1205ea
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1953,7 +1953,7 @@
     :cond_0
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f1205f7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1976,7 +1976,7 @@
     :cond_1
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f120686
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sdcard:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2009,7 +2009,7 @@
     :cond_2
     iget-object v0, p0, Lphh;->b:Landroid/content/Context;
 
-    const v1, 0x7f1206c3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_usb:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2066,7 +2066,7 @@
 .method public n0()I
     .locals 1
 
-    const v0, 0x7f0808ce
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qq:I
 
     return v0
 .end method
@@ -2074,7 +2074,7 @@
 .method public final o()I
     .locals 1
 
-    const v0, 0x7f080567
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
     return v0
 .end method
@@ -2082,7 +2082,7 @@
 .method public o0()I
     .locals 1
 
-    const v0, 0x7f0808cf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qqbrowser:I
 
     return v0
 .end method
@@ -2095,12 +2095,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f22
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_word:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08168c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     return v0
 .end method
@@ -2108,7 +2108,7 @@
 .method public p0()I
     .locals 1
 
-    const v0, 0x7f0808d0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qqmail:I
 
     return v0
 .end method
@@ -2116,7 +2116,7 @@
 .method public final q()I
     .locals 1
 
-    const v0, 0x7f080577
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_xls:I
 
     return v0
 .end method
@@ -2124,7 +2124,7 @@
 .method public q0()I
     .locals 1
 
-    const v0, 0x7f0808d4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_ucbrowser:I
 
     return v0
 .end method
@@ -2137,12 +2137,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f23
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_xls:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08168e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls:I
 
     return v0
 .end method
@@ -2150,7 +2150,7 @@
 .method public r0()I
     .locals 1
 
-    const v0, 0x7f0808d5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_wechat:I
 
     return v0
 .end method
@@ -2171,7 +2171,7 @@
 .method public s0()I
     .locals 1
 
-    const v0, 0x7f0808d7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_yahoo:I
 
     return v0
 .end method
@@ -2252,7 +2252,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f080575
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->documents_icon_star:I
 
     return v0
 .end method
@@ -2269,7 +2269,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0809cf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_folder:I
 
     return v0
 
@@ -2279,12 +2279,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f29
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f08169b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     return v0
 .end method
@@ -2317,7 +2317,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f0808ed
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_unknown_icon:I
 
     goto :goto_0
 
@@ -2336,12 +2336,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0808ec
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_txt_icon:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0808e8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_doc_icon:I
 
     goto :goto_0
 
@@ -2351,7 +2351,7 @@
 
     if-ne v0, p1, :cond_3
 
-    const p1, 0x7f0808e9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_et_icon:I
 
     goto :goto_0
 
@@ -2361,7 +2361,7 @@
 
     if-ne v0, p1, :cond_4
 
-    const p1, 0x7f0808ee
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_wpp_icon:I
 
     goto :goto_0
 
@@ -2371,7 +2371,7 @@
 
     if-ne v0, p1, :cond_5
 
-    const p1, 0x7f0808eb
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_star_pdf_icon:I
 
     goto :goto_0
 
@@ -2403,12 +2403,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_unknow:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081686
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_unknow:I
 
     :goto_0
     return v0
@@ -2428,7 +2428,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f081fe1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->wps_drive_group:I
 
     return p1
 
@@ -2438,12 +2438,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080f31
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_sharedfolder:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f0816a5
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_sharedfolder:I
 
     return p1
 .end method
@@ -2479,12 +2479,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f21
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_website:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08168b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_website:I
 
     return v0
 .end method
@@ -2662,12 +2662,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f29
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08169b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     return v0
 .end method
@@ -2730,12 +2730,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080f1a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_ofd:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f08167b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ofd:I
 
     return v0
 .end method

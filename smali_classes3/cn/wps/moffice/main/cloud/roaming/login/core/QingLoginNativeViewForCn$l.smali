@@ -52,7 +52,7 @@
     .line 2
     iget-object p2, p2, Lzw7;->mRootView:Landroid/view/View;
 
-    const v0, 0x7f0b00d8
+    sget v0, Lcom/resouce/module/ResID;->agreeCehckBox:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

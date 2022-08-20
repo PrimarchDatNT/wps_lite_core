@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13012c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_RightIn_RightOut_TransparentDialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -71,7 +71,7 @@
     .line 1
     invoke-super {p0, p1}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1c02
+    sget v0, Lcom/resouce/module/ResID;->pad_multi_doc_container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

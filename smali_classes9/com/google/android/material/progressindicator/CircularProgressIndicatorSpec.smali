@@ -29,7 +29,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f04010a
+    sget v0, Lcom/resouce/module/ResATTR;->circularProgressIndicatorStyle:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0704b6
+    sget v1, Lcom/resouce/module/ResDIMEN;->mtrl_progress_circular_size_medium:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -98,7 +98,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0704b1
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_progress_circular_inset_medium:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

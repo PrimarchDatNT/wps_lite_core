@@ -125,14 +125,14 @@
     .line 1
     iget-object p2, p0, Lea6;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e031d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_shortcut_common_file_list_layout_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0b162b
+    sget p3, Lcom/resouce/module/ResID;->list_layout_item_line:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
     invoke-virtual {p3, v0}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    const p3, 0x7f0b162a
+    sget p3, Lcom/resouce/module/ResID;->list_layout_item_img:I
 
     .line 7
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b162c
+    sget v0, Lcom/resouce/module/ResID;->list_layout_item_modify_text:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b162d
+    sget v1, Lcom/resouce/module/ResID;->list_layout_item_title_text:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

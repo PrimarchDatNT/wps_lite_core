@@ -230,7 +230,7 @@
     .line 2
     iget-object v0, p0, Lhpg;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0f7b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_share_preview_item:I
 
     const/4 v2, 0x0
 
@@ -238,7 +238,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b2b7d
+    sget v0, Lcom/resouce/module/ResID;->share_item_img:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     iput-object v0, p2, Lhpg$a;->a:Lcn/wps/moffice/common/beans/V10RoundRectImageView;
 
-    const v0, 0x7f0b1848
+    sget v0, Lcom/resouce/module/ResID;->member_img:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -260,7 +260,7 @@
 
     iput-object v0, p2, Lhpg$a;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0799
+    sget v0, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     iput-object v0, p2, Lhpg$a;->c:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b15b4
+    sget v0, Lcom/resouce/module/ResID;->limit_free_tv:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

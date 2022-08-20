@@ -75,7 +75,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12134a
+    sget v2, Lcom/resouce/module/ResSTRING;->license_cnt_android:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1205b4
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_final_user_agreement:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

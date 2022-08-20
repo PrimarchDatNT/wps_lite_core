@@ -232,7 +232,7 @@
     :goto_3
     iget-object v2, p0, Lqrl$h;->B:Lqrl;
 
-    const v3, 0x7f0b2553
+    sget v3, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {v2, v3}, Lozl;->Z0(I)Landroid/view/View;
 

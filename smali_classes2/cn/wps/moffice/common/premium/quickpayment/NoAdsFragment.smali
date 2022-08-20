@@ -167,7 +167,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24ea
+    sget v1, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -308,7 +308,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->a0:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0db6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_quick_pay_head_layout:I
 
     const/4 v1, 0x0
 
@@ -316,7 +316,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0fa7
+    sget v0, Lcom/resouce/module/ResID;->head_no_ads_view:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -332,7 +332,7 @@
 
     invoke-virtual {v0, p1, v1, v2}, Landroid/widget/ListView;->addHeaderView(Landroid/view/View;Ljava/lang/Object;Z)V
 
-    const v0, 0x7f0b27b3
+    sget v0, Lcom/resouce/module/ResID;->quickpay_top_tip_text:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -389,7 +389,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -407,18 +407,18 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d27
+    sget v0, Lcom/resouce/module/ResID;->pay_more_tv:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b3326
+    sget v0, Lcom/resouce/module/ResID;->use_referral_pay_more_tv:I
 
     if-ne p1, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b24e1
+    sget v0, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     if-ne p1, v0, :cond_5
 
@@ -570,7 +570,7 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->a0:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0db3
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_no_ads_layout:I
 
     const/4 v0, 0x0
 
@@ -581,7 +581,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b24e2
+    sget p2, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey_tv:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1a40
+    sget p2, Lcom/resouce/module/ResID;->noads_pay1_desc:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -608,7 +608,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b14e7
+    sget p2, Lcom/resouce/module/ResID;->jpcdkey_tip_tv:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -621,7 +621,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b24e1
+    sget p2, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -689,7 +689,7 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b24dd
+    sget p2, Lcom/resouce/module/ResID;->premium_privileges_list:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -777,7 +777,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24ea
+    sget v1, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -839,7 +839,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3399
+    sget v2, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -944,7 +944,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24ea
+    sget v1, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3399
+    sget v2, Lcom/resouce/module/ResID;->view_devide_white:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -999,11 +999,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f121c93
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f081b30
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_quick_pay_no_ad_icon:I
 
     const/4 v7, 0x0
 
@@ -1022,7 +1022,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d27
+    sget v1, Lcom/resouce/module/ResID;->pay_more_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1034,7 +1034,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3325
+    sget v2, Lcom/resouce/module/ResID;->use_referral_pay_more_ll:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1043,7 +1043,7 @@
     .line 4
     iget-object v2, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3326
+    sget v3, Lcom/resouce/module/ResID;->use_referral_pay_more_tv:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1055,7 +1055,7 @@
     .line 6
     iget-object v2, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3324
+    sget v3, Lcom/resouce/module/ResID;->use_referral_code_tv:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1136,7 +1136,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/premium/quickpayment/NoAdsFragment;->I:Landroid/view/View;
 
-    const v0, 0x7f0b24ea
+    sget v0, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

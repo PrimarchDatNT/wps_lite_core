@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1225d6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pad_ole_sub_doc_dialog_msg:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -60,7 +60,7 @@
 
     invoke-direct {v1, p0}, Luig$a$a;-><init>(Luig$a;)V
 
-    const v2, 0x7f122189
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

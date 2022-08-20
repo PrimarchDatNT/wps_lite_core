@@ -52,9 +52,9 @@
     .line 4
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$5;
 
-    const v1, 0x7f08043a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_delete_duplicates:I
 
-    const v2, 0x7f120c6d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_deduplication:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$5;-><init>(Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication;II)V
 
@@ -85,11 +85,11 @@
     .line 9
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$1;
 
-    const v3, 0x7f120b67
+    sget v3, Lcom/resouce/module/ResSTRING;->et_highlight_delete_duplication:I
 
-    const v4, 0x7f08045b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_table_highlight_dissection:I
 
-    const v5, 0x7f120b67
+    sget v5, Lcom/resouce/module/ResSTRING;->et_highlight_delete_duplication:I
 
     move-object v0, p1
 
@@ -134,9 +134,9 @@
     :cond_0
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$2;
 
-    const p2, 0x7f080e2c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_highlight_dissection_et:I
 
-    const p3, 0x7f12083f
+    sget p3, Lcom/resouce/module/ResSTRING;->et_duplication:I
 
     const/4 v0, 0x1
 
@@ -525,7 +525,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0959
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_deduplication_sheet_cancel:I
 
     const/4 v3, 0x0
 
@@ -539,7 +539,7 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v1, 0x7f120c6d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_deduplication:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -549,7 +549,7 @@
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setCanAutoDismiss(Z)V
 
-    const v3, 0x7f0b09fc
+    sget v3, Lcom/resouce/module/ResID;->et_deduplication_sheet_delete_rows_show:I
 
     .line 7
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     check-cast v3, Landroid/widget/CheckBox;
 
-    const v4, 0x7f0b09fb
+    sget v4, Lcom/resouce/module/ResID;->et_deduplication_sheet_counts:I
 
     .line 8
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -581,7 +581,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120c7c
+    sget v6, Lcom/resouce/module/ResSTRING;->et_toolbar_mul_deduplication_found:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -629,7 +629,7 @@
     :goto_0
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 13
     new-instance v2, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$c;
@@ -650,7 +650,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 14
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/datatab/DeDuplication$d;
@@ -659,7 +659,7 @@
 
     invoke-virtual {v0, p2, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f0b09fa
+    sget p2, Lcom/resouce/module/ResID;->et_deduplication_delete_rows:I
 
     .line 15
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -683,7 +683,7 @@
 
     if-ne v0, p3, :cond_0
 
-    const p1, 0x7f12083c
+    sget p1, Lcom/resouce/module/ResSTRING;->et_deduplication_error_invalid_data_toast:I
 
     const/4 p2, 0x0
 
@@ -735,7 +735,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -795,7 +795,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e058a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_menu_popup_list_item:I
 
     const/4 v2, 0x0
 
@@ -826,7 +826,7 @@
     .line 4
     iput v3, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    const v1, 0x7f0b2277
+    sget v1, Lcom/resouce/module/ResID;->popup_list_item_image:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -835,7 +835,7 @@
 
     check-cast v1, Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v3, 0x7f080df4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_delete_duplicates_et:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -857,7 +857,7 @@
     iput-boolean v2, v1, Lcn/wpsx/support/ui/KNormalImageView;->I:Z
 
     :cond_0
-    const v1, 0x7f0b2278
+    sget v1, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -866,7 +866,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f120c6d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_deduplication:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -900,7 +900,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 2
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -971,7 +971,7 @@
 
     if-ne v2, v1, :cond_2
 
-    const p1, 0x7f12084c
+    sget p1, Lcom/resouce/module/ResSTRING;->et_eduplication_error_single_toast:I
 
     .line 11
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -987,7 +987,7 @@
 
     if-ne v2, v1, :cond_3
 
-    const p1, 0x7f12083d
+    sget p1, Lcom/resouce/module/ResSTRING;->et_deduplication_error_merge_toast:I
 
     .line 14
     invoke-static {p1, v0}, Lsjf;->h(II)V

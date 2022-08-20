@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e010a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_limit_save_banner:I
 
     const/4 v2, 0x0
 
@@ -130,7 +130,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0723
+    sget v1, Lcom/resouce/module/ResID;->doc_limit_save:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -355,11 +355,11 @@
 
     invoke-virtual {v1, v4, v2, v3}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f08071d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_extract_highlight:I
 
-    const v3, 0x7f1233ca
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
-    const v4, 0x7f1233cb
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text_desc:I
 
     const/4 v5, 0x1
 
@@ -814,11 +814,11 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f08071d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_guide_extract_highlight:I
 
-    const v4, 0x7f1233ca
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
-    const v5, 0x7f1233cb
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text_desc:I
 
     .line 7
     invoke-static {v3, v4, v5, v2}, Lcib;->j(III[Lcib$b;)Lcib;

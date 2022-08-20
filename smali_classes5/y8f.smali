@@ -59,14 +59,14 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    const v1, 0x7f122c05
+    sget v1, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0818b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_whatsapp:I
 
     invoke-virtual {p0, v1, v2, p1}, Ly8f;->g(Ljava/lang/String;ILandroid/content/Context;)Ly8f$a;
 
@@ -74,14 +74,14 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f120694
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sendEmail:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f081746
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_email:I
 
     invoke-virtual {p0, v1, v2, p1}, Ly8f;->g(Ljava/lang/String;ILandroid/content/Context;)Ly8f$a;
 
@@ -96,14 +96,14 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12299b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_telegram:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0818b5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_telegram:I
 
     invoke-virtual {p0, v1, v2, p1}, Ly8f;->g(Ljava/lang/String;ILandroid/content/Context;)Ly8f$a;
 
@@ -119,14 +119,14 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1224c5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0818af
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger:I
 
     invoke-virtual {p0, v1, v2, p1}, Ly8f;->g(Ljava/lang/String;ILandroid/content/Context;)Ly8f$a;
 
@@ -140,14 +140,14 @@
     iput v1, p0, Ly8f;->T:I
 
     :goto_0
-    const v1, 0x7f1223dd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_line:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0818ae
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_line:I
 
     invoke-virtual {p0, v1, v2, p1}, Ly8f;->g(Ljava/lang/String;ILandroid/content/Context;)Ly8f$a;
 

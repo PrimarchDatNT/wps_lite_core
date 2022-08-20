@@ -131,7 +131,7 @@
     .line 3
     iget-object v1, p0, Lzce;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122a00
+    sget v2, Lcom/resouce/module/ResSTRING;->public_slide_scale_switching:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     iget-object v1, p0, Lzce;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

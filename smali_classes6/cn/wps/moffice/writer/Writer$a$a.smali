@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/writer/Writer$a;->b:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f122ae3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_tips_help_file:I
 
     const/4 v2, 0x0
 

@@ -526,7 +526,7 @@
 .method public W2()I
     .locals 1
 
-    const v0, 0x7f12145b
+    sget v0, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     return v0
 .end method
@@ -861,7 +861,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0292
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_mine_activity:I
 
     const/4 v2, 0x0
 
@@ -871,7 +871,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b175a
+    sget v1, Lcom/resouce/module/ResID;->login_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -883,7 +883,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b197f
+    sget v1, Lcom/resouce/module/ResID;->my_template:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -903,7 +903,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1767
+    sget v1, Lcom/resouce/module/ResID;->login_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -918,7 +918,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1246
+    sget v1, Lcom/resouce/module/ResID;->id_DragHeaderLayoutViewPager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -936,7 +936,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1243
+    sget v1, Lcom/resouce/module/ResID;->id_DragHeaderLayoutIndicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1174,7 +1174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080ad0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->new_file_customer:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1262,7 +1262,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
     :cond_0
-    const v1, 0x7f122494
+    sget v1, Lcom/resouce/module/ResSTRING;->public_manage:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1272,7 +1272,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1321,7 +1321,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMineActivity;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f12145b
+    sget v1, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -1353,7 +1353,7 @@
     :cond_0
     if-eqz p1, :cond_1
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1366,7 +1366,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1414,7 +1414,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1224f4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_my_collection:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1436,7 +1436,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12145b
+    sget v0, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1561,7 +1561,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1576,7 +1576,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1625,7 +1625,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12145b
+    sget v2, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1642,7 +1642,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1224f4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_my_collection:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -574,7 +574,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f7f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_copy_success:I
 
     const/4 v2, 0x0
 
@@ -736,7 +736,7 @@
     return-void
 
     :cond_5
-    const v1, 0x7f0b30b7
+    sget v1, Lcom/resouce/module/ResID;->translate_document:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -765,7 +765,7 @@
 
     if-lt v0, v1, :cond_6
 
-    const v0, 0x7f0b0586
+    sget v0, Lcom/resouce/module/ResID;->copy_translate_to_txt_text:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -774,7 +774,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b30b8
+    sget v0, Lcom/resouce/module/ResID;->translate_document_text:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -833,7 +833,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e61
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_slip_ml_kit_translate_layout:I
 
     const/4 v2, 0x0
 
@@ -918,7 +918,7 @@
     .line 20
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const p1, 0x7f0b2c4f
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_translate_content_layout:I
 
     .line 21
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -927,7 +927,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->V:Landroid/view/View;
 
-    const p1, 0x7f0b18b8
+    sget p1, Lcom/resouce/module/ResID;->ml_loading_cicle:I
 
     .line 22
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -943,7 +943,7 @@
 
     invoke-virtual {p1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b028b
+    sget p1, Lcom/resouce/module/ResID;->brandProgressBarCycleTxt:I
 
     .line 24
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -966,7 +966,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->c0:Landroid/os/Handler;
 
-    const p1, 0x7f0b18b7
+    sget p1, Lcom/resouce/module/ResID;->ml_from:I
 
     .line 27
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -990,7 +990,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setFocusableInTouchMode(Z)V
 
-    const p1, 0x7f0b18b9
+    sget p1, Lcom/resouce/module/ResID;->ml_to:I
 
     .line 31
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1004,7 +1004,7 @@
     .line 32
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setHorizontallyScrolling(Z)V
 
-    const p1, 0x7f0b18ba
+    sget p1, Lcom/resouce/module/ResID;->ml_to_scroll:I
 
     .line 33
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1015,7 +1015,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->S:Landroid/widget/ScrollView;
 
-    const p1, 0x7f0b0585
+    sget p1, Lcom/resouce/module/ResID;->copy_translate_to_txt:I
 
     .line 34
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1035,7 +1035,7 @@
 
     iput p1, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->l0:I
 
-    const p1, 0x7f0b2c48
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_from_choose_language_txt:I
 
     .line 36
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1046,7 +1046,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitTranslateContentView;->g0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2c4c
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_to_choose_language_txt:I
 
     .line 37
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2c47
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_from_choose_language_drop_icon:I
 
     .line 40
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1105,7 +1105,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1113,7 +1113,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const p1, 0x7f0b2c4b
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_to_choose_language_drop_icon:I
 
     .line 42
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1137,7 +1137,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const p1, 0x7f0b2c4a
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_to_choose_language:I
 
     .line 44
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1153,7 +1153,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2c46
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_from_choose_language:I
 
     .line 46
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1169,7 +1169,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2c49
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_from_scrollview:I
 
     .line 48
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1196,7 +1196,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V
 
-    const p1, 0x7f0b2c4d
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_translate_content_close:I
 
     .line 51
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1231,7 +1231,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2c4e
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_translate_content_close_contianer:I
 
     .line 54
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

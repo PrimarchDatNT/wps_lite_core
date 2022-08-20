@@ -209,7 +209,7 @@
 
     if-gtz v6, :cond_3
 
-    const v0, 0x7f122170
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_no_found:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -233,7 +233,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v6, 0x7f122172
+    sget v6, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_result_tips:I
 
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

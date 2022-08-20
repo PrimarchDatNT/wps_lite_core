@@ -28,9 +28,9 @@
     .line 2
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$1;
 
-    const v0, 0x7f080ddb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_use_hand:I
 
-    const v1, 0x7f122b22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     invoke-direct {p2, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$1;-><init>(Lcn/wps/moffice/spreadsheet/control/MotionRecorder;II)V
 
@@ -39,9 +39,9 @@
     .line 3
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$2;
 
-    const v0, 0x7f080db4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_eraser_color:I
 
-    const v1, 0x7f121e1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-direct {p2, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$2;-><init>(Lcn/wps/moffice/spreadsheet/control/MotionRecorder;II)V
 
@@ -50,9 +50,9 @@
     .line 4
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$3;
 
-    const v0, 0x7f08181b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_arrowbtn_right:I
 
-    const v1, 0x7f122655
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play:I
 
     invoke-direct {p2, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/MotionRecorder$3;-><init>(Lcn/wps/moffice/spreadsheet/control/MotionRecorder;II)V
 

@@ -520,7 +520,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f0e02a1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_cartoon_reader:I
 
     return v0
 .end method
@@ -944,7 +944,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lgu2;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const v0, 0x7f0b2df1
+    sget v0, Lcom/resouce/module/ResID;->suspendLayout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -955,7 +955,7 @@
 
     iput-object v0, p0, Ldy2;->X:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b33a6
+    sget v0, Lcom/resouce/module/ResID;->view_retry:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -994,7 +994,7 @@
     iput-object v0, p0, Ldy2;->d0:Lcn/wps/moffice/cartoon/modules/main/CartoonReaderActivity;
 
     :cond_0
-    const v0, 0x7f0b0367
+    sget v0, Lcom/resouce/module/ResID;->cartoon_reader_rcv_view:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1005,7 +1005,7 @@
 
     iput-object v0, p0, Ldy2;->T:Lcn/wps/moffice/cartoon/view/CartoonRecyclerView;
 
-    const v0, 0x7f0b01a1
+    sget v0, Lcom/resouce/module/ResID;->auto_play_view:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

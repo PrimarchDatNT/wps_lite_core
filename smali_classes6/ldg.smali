@@ -43,7 +43,7 @@
 .method public constructor <init>(Landroid/content/Context;Lk2m;Ljava/lang/String;)V
     .locals 3
 
-    const v0, 0x7f13013e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_template_detail:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -63,7 +63,7 @@
     .line 4
     iget-object v1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f120768
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chart_clustered:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120766
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_bar:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -86,7 +86,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120769
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_line:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -99,7 +99,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f12076a
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_pie:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -112,7 +112,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120765
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_area:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -125,7 +125,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f12076d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_xy:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -138,7 +138,7 @@
 
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f12076b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chart_radar:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -515,7 +515,7 @@
     .line 2
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f122f75
+    sget p2, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -613,7 +613,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b35
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_docer_combine_dialog:I
 
     const/4 v2, 0x0
 
@@ -629,7 +629,7 @@
     .line 3
     iget-object v0, p0, Lldg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b12e3
+    sget v1, Lcom/resouce/module/ResID;->indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -642,7 +642,7 @@
     .line 4
     iget-object v0, p0, Lldg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c7a
+    sget v1, Lcom/resouce/module/ResID;->pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -664,7 +664,7 @@
     .line 6
     iget-object v0, p0, Lldg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24f7
+    sget v1, Lcom/resouce/module/ResID;->preview_dialog:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07034e
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -833,9 +833,9 @@
 
     invoke-virtual {v1, v0}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setHeight(I)V
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 5
     iget-object v2, p0, Lldg;->I:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
@@ -851,7 +851,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070b44
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_indicator_new_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -996,7 +996,7 @@
     .line 1
     iget-object v0, p0, Lldg;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1038,7 +1038,7 @@
     .line 7
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f121dce
+    sget v1, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     .line 8
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1299,7 +1299,7 @@
     .line 5
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121d48
+    sget v1, Lcom/resouce/module/ResSTRING;->public_apply_failed:I
 
     const/4 v2, 0x0
 

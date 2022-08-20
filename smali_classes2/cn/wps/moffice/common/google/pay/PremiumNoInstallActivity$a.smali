@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0de6
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_premium_noinstall_layout:I
 
     const/4 v3, 0x0
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26ca
+    sget v1, Lcom/resouce/module/ResID;->public_premium_sub_no_install_download:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

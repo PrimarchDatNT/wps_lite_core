@@ -55,7 +55,7 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p0, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -84,7 +84,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f130027
+    sget p1, Lcom/resouce/module/ResSTYLE;->Animations_Ad_Loading_Dialog:I
 
     invoke-virtual {p0, p1}, Landroid/view/Window;->setWindowAnimations(I)V
     :try_end_0
@@ -131,7 +131,7 @@
 .method public static c(Landroid/content/Context;J)V
     .locals 2
 
-    const v0, 0x7f0e0c9d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_interstitial_ad_loading:I
 
     const/4 v1, 0x0
 
@@ -182,7 +182,7 @@
 
     invoke-static {p0, p1}, Lp8q;->a(Landroid/content/Context;Z)V
 
-    const p1, 0x7f0e0cd2
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_loading_ad:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0640
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_image_seekbar:I
 
     const/4 v2, 0x0
 
@@ -224,7 +224,7 @@
     .line 2
     invoke-virtual {p1, v0}, Lvg3$c;->g(Landroid/view/View;)Lvg3$c;
 
-    const p1, 0x7f0b31af
+    sget p1, Lcom/resouce/module/ResID;->tv_image_seekbar_cur:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iput-object p1, p0, La7c;->e0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b29f7
+    sget p1, Lcom/resouce/module/ResID;->sb_image_seekbar:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

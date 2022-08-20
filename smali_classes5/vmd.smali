@@ -714,7 +714,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f121b5f
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_cannot_delete:I
 
     const/4 v1, 0x0
 

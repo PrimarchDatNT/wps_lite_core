@@ -123,7 +123,7 @@
     goto :goto_0
 
     :catch_0
-    const v1, 0x7f120019
+    sget v1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 6
     invoke-static {v1, v0}, Lsjf;->k(II)V

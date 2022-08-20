@@ -25,7 +25,7 @@
     .line 2
     iput-object p1, p0, Lvi6;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b0232
+    sget v0, Lcom/resouce/module/ResID;->bookTitle:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -39,7 +39,7 @@
     .line 4
     iget-object v0, p0, Lvi6;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b022f
+    sget v1, Lcom/resouce/module/ResID;->bookAuthor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -52,7 +52,7 @@
     .line 5
     iget-object v0, p0, Lvi6;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b0230
+    sget v1, Lcom/resouce/module/ResID;->bookDesc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lvi6;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0349
+    sget v0, Lcom/resouce/module/ResID;->cardView:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

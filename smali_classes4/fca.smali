@@ -70,7 +70,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0b1544
+    sget v1, Lcom/resouce/module/ResID;->layout_fit_pad_outer_root_node:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

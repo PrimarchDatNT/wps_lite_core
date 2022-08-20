@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0654
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_page_preview_item:I
 
     const/4 v2, 0x0
 
@@ -123,14 +123,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2244
+    sget v1, Lcom/resouce/module/ResID;->place_holder:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b1c6d
+    sget v3, Lcom/resouce/module/ResID;->page_img:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

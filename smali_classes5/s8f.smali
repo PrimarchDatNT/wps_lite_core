@@ -526,7 +526,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1206de
+    sget v2, Lcom/resouce/module/ResSTRING;->download_tim_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v1, 0x0
 
@@ -662,7 +662,7 @@
 
     if-eqz p2, :cond_3
 
-    const p1, 0x7f12197a
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_with_dingding:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -995,7 +995,7 @@
 
     if-eqz v0, :cond_3
 
-    const p1, 0x7f120cdc
+    sget p1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_fileformat_error:I
 
     const/4 p2, 0x0
 
@@ -1010,7 +1010,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120693
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1071,7 +1071,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 3
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1079,7 +1079,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f12205a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     .line 4
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1153,7 +1153,7 @@
     invoke-virtual {v0, p1}, Landroid/text/ClipboardManager;->setText(Ljava/lang/CharSequence;)V
 
     :goto_0
-    const p1, 0x7f12295f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_success_msg:I
 
     const/4 v0, 0x1
 
@@ -1165,7 +1165,7 @@
     goto :goto_1
 
     :catch_0
-    const p1, 0x7f12011b
+    sget p1, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     const/4 v0, 0x0
 
@@ -1214,7 +1214,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f12011b
+    sget p1, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     const/4 p2, 0x0
 
@@ -2049,7 +2049,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122bce
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_qq:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

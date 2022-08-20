@@ -216,7 +216,7 @@
     .line 2
     iget-object p1, p0, Lhya;->X:Landroid/app/Activity;
 
-    const v1, 0x7f122131
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_not_exist_download_again:I
 
     const/4 v2, 0x0
 
@@ -373,7 +373,7 @@
     .line 4
     iget-object p1, p0, Lhya;->X:Landroid/app/Activity;
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -394,7 +394,7 @@
     .line 6
     iget-object p1, p0, Lhya;->X:Landroid/app/Activity;
 
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

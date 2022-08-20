@@ -45,12 +45,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f080703
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->friend_thumbnail:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0807ae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->group_thumbnail:I
 
     .line 3
     :goto_0
@@ -85,11 +85,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f9e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->target_user_thumbnail:I
 
     invoke-static {v0, v1, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2ef6
+    sget v0, Lcom/resouce/module/ResID;->textViewDisplayName:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     iput-object v0, p0, Lcom/linecorp/linesdk/dialog/internal/UserThumbnailView;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b126a
+    sget v0, Lcom/resouce/module/ResID;->imageViewTargetUser:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

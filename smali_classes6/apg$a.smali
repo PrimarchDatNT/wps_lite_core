@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e01ff
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_longpic_tips_popup_text_layout:I
 
     const/4 v3, 0x0
 

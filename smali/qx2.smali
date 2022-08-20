@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0103
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_suspendgift:I
 
     const/4 v2, 0x0
 
@@ -94,7 +94,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b0f28
+    sget v1, Lcom/resouce/module/ResID;->goldText:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object v1, p0, Lqx2;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c00
+    sget v1, Lcom/resouce/module/ResID;->expireText:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object v1, p0, Lqx2;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0f31
+    sget v1, Lcom/resouce/module/ResID;->gotText:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
     .line 9
     iget-object v2, p0, Lqx2;->k0:Landroid/widget/TextView;
 
-    const v3, 0x7f12301b
+    sget v3, Lcom/resouce/module/ResSTRING;->suspend_gift_dialog_ok:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -147,7 +147,7 @@
     :cond_0
     iget-object v2, p0, Lqx2;->k0:Landroid/widget/TextView;
 
-    const v3, 0x7f123241
+    sget v3, Lcom/resouce/module/ResSTRING;->wps_novel_sign_in:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -171,7 +171,7 @@
     .line 13
     iget-object v2, p0, Lqx2;->j0:Landroid/widget/TextView;
 
-    const v4, 0x7f12301a
+    sget v4, Lcom/resouce/module/ResSTRING;->suspend_gift_dialog_expire:I
 
     invoke-virtual {p0, v4}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_1
-    const v2, 0x7f0b0443
+    sget v2, Lcom/resouce/module/ResID;->closeImage:I
 
     .line 14
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
     .line 4
     iget-object v0, p0, Lqx2;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f12301b
+    sget v1, Lcom/resouce/module/ResSTRING;->suspend_gift_dialog_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -327,7 +327,7 @@
     :cond_0
     iget-object v0, p0, Lqx2;->k0:Landroid/widget/TextView;
 
-    const v1, 0x7f123241
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_novel_sign_in:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -467,7 +467,7 @@
     .line 4
     iget-object p1, p0, Lqx2;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f12301a
+    sget v0, Lcom/resouce/module/ResSTRING;->suspend_gift_dialog_expire:I
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 

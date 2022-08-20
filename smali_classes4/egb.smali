@@ -276,21 +276,21 @@
 
     invoke-direct {p2, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f1205e8
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_logout_message:I
 
     .line 3
     invoke-virtual {p2, p1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p1
 
-    const p3, 0x7f1205e7
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     .line 4
     invoke-virtual {p1, p3, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p1
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p1, p3, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

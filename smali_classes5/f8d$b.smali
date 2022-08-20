@@ -86,7 +86,7 @@
     .line 2
     iget-object p1, p0, Lf8d$b;->b:Lf8d;
 
-    const v0, 0x7f122537
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network_toast_msg:I
 
     invoke-virtual {p1, v0}, Lf8d;->g(I)V
 

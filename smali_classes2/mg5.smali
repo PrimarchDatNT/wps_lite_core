@@ -43,12 +43,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122c26
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wps_real_net_diagno:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122c20
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wps_net_diagno:I
 
     :goto_0
     return v0
@@ -124,7 +124,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121484
+    sget p3, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

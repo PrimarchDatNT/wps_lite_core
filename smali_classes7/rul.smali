@@ -31,9 +31,9 @@
     .line 2
     new-instance v3, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v4, 0x7f0801de
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_r:I
 
-    const v5, 0x7f123411
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_smart_typography_first_line_indentation:I
 
     invoke-direct {v3, v4, v5}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -43,9 +43,9 @@
 
     new-instance v3, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v5, 0x7f0801dd
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_l:I
 
-    const v6, 0x7f123410
+    sget v6, Lcom/resouce/module/ResSTRING;->writer_smart_typography_delete_spaces_bofore_first_line:I
 
     invoke-direct {v3, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -53,9 +53,9 @@
 
     new-instance v0, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v3, 0x7f0801c8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_align_add_blank_segment:I
 
-    const v5, 0x7f12340e
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_smart_typography_add_empty_paragraphs:I
 
     invoke-direct {v0, v3, v5}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -65,9 +65,9 @@
 
     new-instance v0, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v3, 0x7f0801d9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_align_delete_blank_segment:I
 
-    const v5, 0x7f12340f
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_smart_typography_delete_empty_paragraphs:I
 
     invoke-direct {v0, v3, v5}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -143,7 +143,7 @@
 
     invoke-direct {v0}, Lnul$e;-><init>()V
 
-    const v1, 0x7f0801de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_r:I
 
     const-string v2, "smart-typo-indents"
 
@@ -154,7 +154,7 @@
 
     invoke-direct {v0}, Lnul$d;-><init>()V
 
-    const v1, 0x7f0801dd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_l:I
 
     const-string v2, "smart-typo-delete-spaces"
 
@@ -165,7 +165,7 @@
 
     invoke-direct {v0}, Lnul$b;-><init>()V
 
-    const v1, 0x7f0801c8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_add_blank_segment:I
 
     const-string v2, "smart-typo-add-paragraphs"
 
@@ -176,7 +176,7 @@
 
     invoke-direct {v0}, Lnul$c;-><init>()V
 
-    const v1, 0x7f0801d9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_delete_blank_segment:I
 
     const-string v2, "smart-typo-delete-paragraphs"
 
@@ -250,7 +250,7 @@
 
     iput-object v1, p0, Lrul;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v2, 0x7f12340d
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_smart_typography:I
 
     .line 7
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -273,7 +273,7 @@
     .line 11
     iget-object v0, p0, Lrul;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 

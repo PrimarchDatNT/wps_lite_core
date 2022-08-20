@@ -52,7 +52,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView$1;->this$0:Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;
 
-    const v2, 0x7f0b2418
+    sget v2, Lcom/resouce/module/ResID;->ppt_remote_page_view_top_androidn:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -76,7 +76,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView$1;->this$0:Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;
 
-    const v3, 0x7f0b2417
+    sget v3, Lcom/resouce/module/ResID;->ppt_remote_page_view_top:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -89,7 +89,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView$1;->this$0:Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;
 
-    const v3, 0x7f0b240b
+    sget v3, Lcom/resouce/module/ResID;->ppt_remote_img_clicker:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -170,7 +170,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView$1;->this$0:Lcn/wps/moffice/common/remotecontrol/RemoteControllerPageView;
 
-    const v3, 0x7f0b240c
+    sget v3, Lcom/resouce/module/ResID;->ppt_remote_img_move:I
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

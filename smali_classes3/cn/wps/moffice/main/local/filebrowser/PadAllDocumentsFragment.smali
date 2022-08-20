@@ -283,7 +283,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120691
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_searchnotfound:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 

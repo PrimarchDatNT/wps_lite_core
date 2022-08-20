@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1204a5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_save_to_album:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122824
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122650
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture_savefail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

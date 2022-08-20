@@ -62,7 +62,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e0816
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ppt_slidemasters_item:I
 
     return v0
 .end method
@@ -75,7 +75,7 @@
 
     iget-object v1, p0, Lczd;->B:Landroid/content/Context;
 
-    const v2, 0x7f13013c
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0814
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_slidelayouts_dialog:I
 
     const/4 v2, 0x0
 
@@ -98,7 +98,7 @@
 
     iput-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22aa
+    sget v1, Lcom/resouce/module/ResID;->ppt_circle_progressbar_root:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
     .line 5
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2054
+    sget v1, Lcom/resouce/module/ResID;->phone_layout_change_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -144,14 +144,14 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f1224d0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_mode:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 9
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b20a3
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_slideLayouts_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

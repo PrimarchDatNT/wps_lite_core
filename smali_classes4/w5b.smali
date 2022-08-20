@@ -85,13 +85,13 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f08078e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_scan_hd_guide:I
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f12046d
+    sget p0, Lcom/resouce/module/ResSTRING;->doc_scan_pic_translation:I
 
-    const v3, 0x7f12046e
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_translation_guidetext:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -110,9 +110,9 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f120463
+    sget p0, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd:I
 
-    const v3, 0x7f120466
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guidetext:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -199,11 +199,11 @@
 
     aput-object v0, p2, v1
 
-    const v0, 0x7f08078e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_scan_hd_guide:I
 
-    const v1, 0x7f120463
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd:I
 
-    const v2, 0x7f120466
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guidetext:I
 
     .line 4
     invoke-static {v0, v1, v2, p2}, Lcib;->j(III[Lcib$b;)Lcib;

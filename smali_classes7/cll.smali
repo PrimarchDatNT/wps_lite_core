@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f070dda
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_print_setup_body_margin:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

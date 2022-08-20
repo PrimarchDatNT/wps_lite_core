@@ -204,7 +204,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f07044f
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_calendar_day_height:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -319,7 +319,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0b18cf
+    sget v0, Lcom/resouce/module/ResID;->month_navigation_fragment_toggle:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->t0(Landroid/view/View;Lh9;)V
 
-    const v1, 0x7f0b18d1
+    sget v1, Lcom/resouce/module/ResID;->month_navigation_previous:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setTag(Ljava/lang/Object;)V
 
-    const v2, 0x7f0b18d0
+    sget v2, Lcom/resouce/module/ResID;->month_navigation_next:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -368,7 +368,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setTag(Ljava/lang/Object;)V
 
-    const v3, 0x7f0b1933
+    sget v3, Lcom/resouce/module/ResID;->mtrl_calendar_year_selector_frame:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -377,7 +377,7 @@
 
     iput-object v3, p0, Layt;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b192c
+    sget v3, Lcom/resouce/module/ResID;->mtrl_calendar_day_selector_frame:I
 
     .line 9
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -621,14 +621,14 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e04ad
+    sget v1, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_vertical:I
 
     const/4 v9, 0x1
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e04a8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_horizontal:I
 
     const/4 v9, 0x0
 
@@ -638,7 +638,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b192d
+    sget p2, Lcom/resouce/module/ResID;->mtrl_calendar_days_of_week:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -669,7 +669,7 @@
     .line 11
     invoke-virtual {p2, v3}, Landroid/widget/GridView;->setEnabled(Z)V
 
-    const p2, 0x7f0b1930
+    sget p2, Lcom/resouce/module/ResID;->mtrl_calendar_months:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -733,13 +733,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c001a
+    sget v1, Lcom/resouce/module/ResINTEGER;->mtrl_calendar_year_selector_span:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 
     move-result v0
 
-    const v1, 0x7f0b1933
+    sget v1, Lcom/resouce/module/ResID;->mtrl_calendar_year_selector_frame:I
 
     .line 20
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -783,7 +783,7 @@
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->u(Landroidx/recyclerview/widget/RecyclerView$l;)V
 
     :cond_1
-    const v0, 0x7f0b18cf
+    sget v0, Lcom/resouce/module/ResID;->month_navigation_fragment_toggle:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

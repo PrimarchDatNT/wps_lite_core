@@ -252,7 +252,7 @@
 
     if-eqz v1, :cond_2
 
-    const v2, 0x7f122e7a
+    sget v2, Lcom/resouce/module/ResSTRING;->s5:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -269,7 +269,7 @@
 
     if-eqz v1, :cond_3
 
-    const v2, 0x7f122e7b
+    sget v2, Lcom/resouce/module/ResSTRING;->s6:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -286,7 +286,7 @@
 
     if-eqz v1, :cond_4
 
-    const v2, 0x7f122e77
+    sget v2, Lcom/resouce/module/ResSTRING;->s3:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -308,7 +308,7 @@
 
     if-eqz v1, :cond_5
 
-    const v2, 0x7f122e79
+    sget v2, Lcom/resouce/module/ResSTRING;->s4:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

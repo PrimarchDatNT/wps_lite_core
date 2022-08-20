@@ -836,11 +836,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e10d7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_right_switch_view_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0f99
+    sget v0, Lcom/resouce/module/ResID;->handle:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -856,7 +856,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -865,7 +865,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/view/RightSwitchView;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0539
+    sget v0, Lcom/resouce/module/ResID;->content:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -899,7 +899,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/view/RightSwitchView;->S:Landroid/widget/ListView;
 
-    const v1, 0x7f060406
+    sget v1, Lcom/resouce/module/ResCOLOR;->phoneWriterRightPanelColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setBackgroundResource(I)V
 
@@ -909,7 +909,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/view/RightSwitchView;->S:Landroid/widget/ListView;
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setBackgroundResource(I)V
 

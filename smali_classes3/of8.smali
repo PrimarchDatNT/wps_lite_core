@@ -21,7 +21,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0920
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_share_pc_result_dialog:I
 
     const/4 v2, 0x0
 
@@ -32,7 +32,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v1, 0x7f0b3239
+    sget v1, Lcom/resouce/module/ResID;->tv_result_msg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object v1, p0, Lof8;->B:Landroid/widget/TextView;
 
-    const v1, 0x7f0b311d
+    sget v1, Lcom/resouce/module/ResID;->tv_choose_more:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

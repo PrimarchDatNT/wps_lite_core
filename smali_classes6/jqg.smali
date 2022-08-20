@@ -125,7 +125,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Lk2m;Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;)V
     .locals 3
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -220,7 +220,7 @@
     .line 25
     iget-object p1, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const p2, 0x7f120c3f
+    sget p2, Lcom/resouce/module/ResSTRING;->et_split_table_col:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -231,7 +231,7 @@
     .line 26
     iget-object p1, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const p2, 0x7f120c4f
+    sget p2, Lcom/resouce/module/ResSTRING;->et_split_table_row:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -246,7 +246,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070ccf
+    sget p2, Lcom/resouce/module/ResDIMEN;->ss_split_table_preview_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070cce
+    sget p2, Lcom/resouce/module/ResDIMEN;->ss_split_table_preview_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -276,7 +276,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070ccc
+    sget p2, Lcom/resouce/module/ResDIMEN;->ss_split_table_bottom_panel_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1249,7 +1249,7 @@
 
     iget-object v0, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const v1, 0x7f120c4b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table_no_head_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1556,7 +1556,7 @@
 
     iget-object v1, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const v2, 0x7f120c47
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_head_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1573,7 +1573,7 @@
 
     iget-object v1, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const v2, 0x7f120c50
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_rule:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1672,7 +1672,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1683,7 +1683,7 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0b065c
+    sget p2, Lcom/resouce/module/ResID;->desc:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1815,7 +1815,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f83
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_split_table_layout:I
 
     const/4 v2, 0x0
 
@@ -1849,7 +1849,7 @@
     .line 5
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0fb7
+    sget v1, Lcom/resouce/module/ResID;->header_synced_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1862,7 +1862,7 @@
     .line 6
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0fb4
+    sget v1, Lcom/resouce/module/ResID;->header_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1875,7 +1875,7 @@
     .line 7
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2506
+    sget v1, Lcom/resouce/module/ResID;->preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1888,7 +1888,7 @@
     .line 8
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1905,7 +1905,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c40
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_content:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1939,7 +1939,7 @@
     .line 13
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1732
+    sget v1, Lcom/resouce/module/ResID;->loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1950,7 +1950,7 @@
     .line 14
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1c7d
+    sget v1, Lcom/resouce/module/ResID;->panel_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1963,7 +1963,7 @@
     .line 15
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2acb
+    sget v1, Lcom/resouce/module/ResID;->second_panel_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1976,7 +1976,7 @@
     .line 16
     iget-object v0, p0, Ljqg;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3079
+    sget v1, Lcom/resouce/module/ResID;->top_panel_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2033,7 +2033,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0f84
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_split_table_select_save_type_layout:I
 
     const/4 v3, 0x0
 
@@ -2052,7 +2052,7 @@
 
     move-result v2
 
-    const v4, 0x7f0b0533
+    sget v4, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 4
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2093,7 +2093,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0707b8
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2113,7 +2113,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b068e
+    sget v3, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2173,7 +2173,7 @@
 
     invoke-direct {v2, p0, v0}, Ljqg$h;-><init>(Ljqg;Lhd3;)V
 
-    const v3, 0x7f0b29eb
+    sget v3, Lcom/resouce/module/ResID;->save_sheet:I
 
     .line 21
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2182,7 +2182,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b29de
+    sget v3, Lcom/resouce/module/ResID;->save_book:I
 
     .line 22
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2361,7 +2361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120c49
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table_network_error:I
 
     const/4 v2, 0x0
 
@@ -2610,7 +2610,7 @@
 
     iget-object v3, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const v4, 0x7f120c2a
+    sget v4, Lcom/resouce/module/ResSTRING;->et_split:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2637,7 +2637,7 @@
 
     iget-object v0, p0, Ljqg;->S:Landroid/app/Activity;
 
-    const v4, 0x7f120c33
+    sget v4, Lcom/resouce/module/ResSTRING;->et_split_group:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2733,12 +2733,12 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f0e0f86
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_split_table_top_panel_layout_land:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e0f85
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_split_table_top_panel_layout:I
 
     :goto_0
     iget-object v3, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
@@ -2748,7 +2748,7 @@
     .line 7
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b024c
+    sget v2, Lcom/resouce/module/ResID;->bottom_btn_layout:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2759,7 +2759,7 @@
     .line 8
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b33d9
+    sget v2, Lcom/resouce/module/ResID;->vip_icon:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2785,7 +2785,7 @@
     :cond_2
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b29e0
+    sget v2, Lcom/resouce/module/ResID;->save_btn:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2798,7 +2798,7 @@
     .line 12
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b14ec
+    sget v2, Lcom/resouce/module/ResID;->jump_range:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2809,7 +2809,7 @@
     .line 13
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b0fa0
+    sget v2, Lcom/resouce/module/ResID;->head:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -2820,7 +2820,7 @@
     .line 14
     iget-object v1, p0, Ljqg;->y0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b2cc6
+    sget v2, Lcom/resouce/module/ResID;->split_rule:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

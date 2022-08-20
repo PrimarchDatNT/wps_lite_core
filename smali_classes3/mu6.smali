@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lmu6;->e0:Ljava/util/List;
 
-    const v0, 0x7f0e0068
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ad_download_dialog:I
 
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -186,7 +186,7 @@
 
     if-eq p1, p2, :cond_0
 
-    const p1, 0x7f122023
+    sget p1, Lcom/resouce/module/ResSTRING;->public_download_immediately:I
 
     .line 1
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -196,7 +196,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122588
+    sget p1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 2
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -206,7 +206,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12007f
+    sget p1, Lcom/resouce/module/ResSTRING;->ad_install_immediately:I
 
     .line 3
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -216,7 +216,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f121f60
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue_download:I
 
     .line 4
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -226,7 +226,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f120078
+    sget p1, Lcom/resouce/module/ResSTRING;->ad_download_percent:I
 
     .line 5
     invoke-static {p1}, Lnu6;->g(I)Ljava/lang/String;
@@ -648,7 +648,7 @@
     .line 24
     invoke-virtual {v0, v1}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v1, 0x7f08006d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ad_download_pop_apk_icon:I
 
     .line 25
     invoke-virtual {v0, v1, v6}, Lf54;->j(IZ)Lf54;
@@ -976,7 +976,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3150
+    sget v1, Lcom/resouce/module/ResID;->tv_download_center:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -991,7 +991,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b14b2
+    sget v1, Lcom/resouce/module/ResID;->iv_red_point:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1006,7 +1006,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b147a
+    sget v1, Lcom/resouce/module/ResID;->iv_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1021,7 +1021,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1427
+    sget v1, Lcom/resouce/module/ResID;->iv_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1036,7 +1036,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1051,7 +1051,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3140
+    sget v1, Lcom/resouce/module/ResID;->tv_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b02d0
+    sget v1, Lcom/resouce/module/ResID;->btn_download:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1081,7 +1081,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b16cc
+    sget v1, Lcom/resouce/module/ResID;->ll_recommend:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1096,7 +1096,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b322e
+    sget v1, Lcom/resouce/module/ResID;->tv_recommend_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1149,7 +1149,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3150
+    sget v0, Lcom/resouce/module/ResID;->tv_download_center:I
 
     if-ne p1, v0, :cond_0
 
@@ -1159,7 +1159,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1427
+    sget v0, Lcom/resouce/module/ResID;->iv_close:I
 
     if-ne p1, v0, :cond_1
 
@@ -1169,7 +1169,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b02d0
+    sget v0, Lcom/resouce/module/ResID;->btn_download:I
 
     if-ne p1, v0, :cond_2
 

@@ -135,7 +135,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122e95
+    sget v0, Lcom/resouce/module/ResSTRING;->search_by_time_start_select_error:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -227,7 +227,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122e8f
+    sget v0, Lcom/resouce/module/ResSTRING;->search_by_time_end_select_error:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

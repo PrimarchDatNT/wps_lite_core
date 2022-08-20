@@ -247,7 +247,7 @@
 .method public c3()I
     .locals 1
 
-    const v0, 0x7f0e06f9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_move_bottombar_layout:I
 
     return v0
 .end method
@@ -258,7 +258,7 @@
 .method public e3()I
     .locals 1
 
-    const v0, 0x7f122039
+    sget v0, Lcom/resouce/module/ResSTRING;->public_drive_move_to_curfolder:I
 
     return v0
 .end method
@@ -266,7 +266,7 @@
 .method public f3()I
     .locals 1
 
-    const v0, 0x7f0e06f8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_move_base_layout:I
 
     return v0
 .end method
@@ -346,7 +346,7 @@
 .method public h3(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b00ab
+    sget v0, Lcom/resouce/module/ResID;->add_folder:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3047
+    sget v0, Lcom/resouce/module/ResID;->to_move:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
     .line 1
     iget-object v0, p0, Li87;->T:Landroid/view/View;
 
-    const v1, 0x7f0b07c3
+    sget v1, Lcom/resouce/module/ResID;->drive_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
     .line 1
     invoke-virtual {p0}, Li87;->i3()V
 
-    const v0, 0x7f0b1faf
+    sget v0, Lcom/resouce/module/ResID;->phone_docs_move_titlebar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b0248
+    sget v0, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -487,7 +487,7 @@
     .line 11
     iget-object p1, p0, Li87;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f121e1b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {p1, v0, p0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -593,7 +593,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     const/4 v2, 0x0
 
@@ -609,7 +609,7 @@
     .line 5
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12254c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_allow_new_folder:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -624,7 +624,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b3047
+    sget v1, Lcom/resouce/module/ResID;->to_move:I
 
     if-ne v0, v1, :cond_5
 
@@ -651,7 +651,7 @@
     .line 9
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121deb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_choose_move_device:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -665,7 +665,7 @@
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f0b1cfa
+    sget p1, Lcom/resouce/module/ResID;->path_close:I
 
     if-ne v0, p1, :cond_6
 
@@ -680,7 +680,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0b302e
+    sget p1, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne v0, p1, :cond_7
 
@@ -773,7 +773,7 @@
     .line 4
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v2}, Lq48;->e(Landroid/content/Context;I)V
 

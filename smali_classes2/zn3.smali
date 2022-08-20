@@ -69,7 +69,7 @@
 
     iput v1, p0, Lzn3;->p0:F
 
-    const v1, 0x7f0e0229
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_popup:I
 
     const/4 v2, 0x0
 
@@ -85,7 +85,7 @@
     .line 7
     invoke-virtual {p0, v0}, Ljd3;->x(Landroid/view/View;)V
 
-    const v1, 0x7f0b30a1
+    sget v1, Lcom/resouce/module/ResID;->tracks:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
     .line 1
     iget-object v0, p0, Lzn3;->o0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 

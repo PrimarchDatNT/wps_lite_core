@@ -34,7 +34,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0b37
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_inputview_root_layout:I
 
     const/4 v0, 0x1
 

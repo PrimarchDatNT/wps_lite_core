@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120ed2
+    sget v1, Lcom/resouce/module/ResSTRING;->home_cloudstorage_signout:I
 
     const/4 v2, 0x1
 

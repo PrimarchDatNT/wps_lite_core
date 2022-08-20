@@ -25,7 +25,7 @@
     .line 2
     iput-object p1, p0, Lls3;->b:Landroid/view/View;
 
-    const v0, 0x7f0b13ee
+    sget v0, Lcom/resouce/module/ResID;->item_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -39,7 +39,7 @@
     .line 4
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0b13dd
+    sget p2, Lcom/resouce/module/ResID;->item_second_title:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
     .line 6
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0b0701
+    sget p2, Lcom/resouce/module/ResID;->doc2web_image_checked:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object p2, p0, Lls3;->a:Landroid/view/View;
 
-    const p2, 0x7f0b0706
+    sget p2, Lcom/resouce/module/ResID;->doc2web_setting_switch:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object p2, p0, Lls3;->e:Landroid/widget/CompoundButton;
 
-    const p2, 0x7f0b1230
+    sget p2, Lcom/resouce/module/ResID;->icon_doc2web_recommend:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

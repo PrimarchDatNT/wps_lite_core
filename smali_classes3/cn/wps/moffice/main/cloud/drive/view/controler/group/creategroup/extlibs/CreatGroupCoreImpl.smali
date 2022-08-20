@@ -46,7 +46,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p2, 0x0
 
@@ -118,7 +118,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122391
+    sget p1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v0, 0x1
 
@@ -144,7 +144,7 @@
 
     move-result-object v9
 
-    const v0, 0x7f0b0aa1
+    sget v0, Lcom/resouce/module/ResID;->et_input_group_name:I
 
     .line 2
     invoke-virtual {v9, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
     .line 6
     invoke-virtual {v10}, Landroid/widget/EditText;->requestFocus()Z
 
-    const v0, 0x7f12194a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     .line 7
     invoke-virtual {v9, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -185,16 +185,16 @@
 
     if-eqz p4, :cond_1
 
-    const v0, 0x7f121d49
+    sget v0, Lcom/resouce/module/ResSTRING;->public_applying:I
 
-    const v12, 0x7f121d49
+    sget v12, Lcom/resouce/module/ResSTRING;->public_applying:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v12, 0x7f122567
+    sget v12, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     :goto_0
     new-instance v13, Lcn/wps/moffice/main/cloud/drive/view/controler/group/creategroup/extlibs/CreatGroupCoreImpl$b;
@@ -224,7 +224,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/view/controler/group/creategroup/extlibs/CreatGroupCoreImpl$a;
 

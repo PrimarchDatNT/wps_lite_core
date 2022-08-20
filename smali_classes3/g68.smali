@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081620
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_detail_white:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -518,7 +518,7 @@
     .line 1
     iget-object v0, p0, Lg68;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1179
+    sget v1, Lcom/resouce/module/ResID;->home_tip_from_title_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -538,7 +538,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1063
+    sget v1, Lcom/resouce/module/ResID;->home_bottom_title_tip_textview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -47,7 +47,7 @@
 .method public f(Lccf;)Z
     .locals 6
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v1, 0x0
 
@@ -64,7 +64,7 @@
 
     iget-object v4, v4, Lyff;->a:Landroid/content/Context;
 
-    const v5, 0x7f122950
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

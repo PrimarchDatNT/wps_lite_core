@@ -1133,11 +1133,11 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p1, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const p1, 0x7f0e0cd2
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_loading_ad:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3$g;->setContentView(I)V

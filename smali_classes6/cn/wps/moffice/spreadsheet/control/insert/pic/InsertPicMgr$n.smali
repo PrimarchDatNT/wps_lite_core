@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121b60
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_change_pic_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

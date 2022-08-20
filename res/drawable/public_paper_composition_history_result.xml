@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/secondBackgroundColor" />
-    <stroke android:width="0.33000004dip" android:color="@color/buttonSecondaryColor" />
-    <corners android:radius="2.0dip" />
-    <padding android:left="0.5dip" android:top="0.5dip" android:right="0.5dip" android:bottom="0.5dip" />
-</shape>

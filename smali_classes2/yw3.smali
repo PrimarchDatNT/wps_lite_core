@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0880
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_font_buy_member_tip:I
 
     const/4 v2, 0x0
 

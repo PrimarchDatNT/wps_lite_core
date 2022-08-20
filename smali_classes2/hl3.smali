@@ -118,7 +118,7 @@
 
     invoke-direct {v0, p0}, Lhl3$c;-><init>(Lhl3;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -206,12 +206,12 @@
     .line 3
     invoke-virtual {p0, v0}, Lhl3$l;->e(Ljava/lang/String;)Lhl3$l;
 
-    const v0, 0x7f121de6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_check_request_camera_permission:I
 
     .line 4
     invoke-virtual {p0, v0}, Lhl3$l;->i(I)Lhl3$l;
 
-    const v0, 0x7f121de2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_check_open_camera:I
 
     .line 5
     invoke-virtual {p0, v0}, Lhl3$l;->d(I)Lhl3$l;
@@ -258,12 +258,12 @@
     .line 3
     invoke-virtual {p0, v0}, Lhl3$l;->e(Ljava/lang/String;)Lhl3$l;
 
-    const v0, 0x7f121de7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_check_request_location_permission:I
 
     .line 4
     invoke-virtual {p0, v0}, Lhl3$l;->i(I)Lhl3$l;
 
-    const v0, 0x7f121de3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_check_open_location:I
 
     .line 5
     invoke-virtual {p0, v0}, Lhl3$l;->d(I)Lhl3$l;
@@ -317,12 +317,12 @@
     .line 4
     invoke-virtual {p0, v0}, Lhl3$l;->e(Ljava/lang/String;)Lhl3$l;
 
-    const p1, 0x7f121de7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_request_location_permission:I
 
     .line 5
     invoke-virtual {p0, p1}, Lhl3$l;->i(I)Lhl3$l;
 
-    const p1, 0x7f121de4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_open_location_2:I
 
     .line 6
     invoke-virtual {p0, p1}, Lhl3$l;->d(I)Lhl3$l;
@@ -363,12 +363,12 @@
     .line 13
     invoke-virtual {p0, v0}, Lhl3$l;->e(Ljava/lang/String;)Lhl3$l;
 
-    const p1, 0x7f121dde
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_get_contacts_permission:I
 
     .line 14
     invoke-virtual {p0, p1}, Lhl3$l;->i(I)Lhl3$l;
 
-    const p1, 0x7f121ddd
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_get_contacts:I
 
     .line 15
     invoke-virtual {p0, p1}, Lhl3$l;->d(I)Lhl3$l;
@@ -409,12 +409,12 @@
     .line 22
     invoke-virtual {p0, v0}, Lhl3$l;->e(Ljava/lang/String;)Lhl3$l;
 
-    const p1, 0x7f121de6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_request_camera_permission:I
 
     .line 23
     invoke-virtual {p0, p1}, Lhl3$l;->i(I)Lhl3$l;
 
-    const p1, 0x7f121de2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_open_camera:I
 
     .line 24
     invoke-virtual {p0, p1}, Lhl3$l;->d(I)Lhl3$l;
@@ -492,7 +492,7 @@
     .line 6
     iget-object v0, p0, Lhl3;->a:Lhd3;
 
-    const v1, 0x7f122b22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     new-instance v2, Lhl3$k;
 
@@ -687,7 +687,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -695,7 +695,7 @@
 
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v5, 0x7f0707e3
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_fontsize_sp_s:I
 
     int-to-float v5, v5
 
@@ -709,7 +709,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1200,7 +1200,7 @@
 
     invoke-direct {v1, p0}, Lhl3$b;-><init>(Lhl3;)V
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1240,7 +1240,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1248,7 +1248,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v3, 0x7f0707e3
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_fontsize_sp_s:I
 
     int-to-float v3, v3
 
@@ -1260,7 +1260,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1279,7 +1279,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121ddc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_enter_setting_when_reject_location:I
 
     .line 8
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1298,7 +1298,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f121ddb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_enter_setting_when_reject_contacts:I
 
     .line 10
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1317,14 +1317,14 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f121dda
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_enter_setting_when_reject_camera:I
 
     .line 12
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     :cond_2
     :goto_0
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 13
     new-instance v2, Lhl3$e;
@@ -1363,7 +1363,7 @@
     .line 3
     iget-object p2, p0, Lhl3;->a:Lhd3;
 
-    const v0, 0x7f0e0b90
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_custom_dialog_checkbox_panel:I
 
     invoke-virtual {p2, v0}, Lhd3;->setView(I)Lhd3;
 
@@ -1374,7 +1374,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b03cc
+    sget v0, Lcom/resouce/module/ResID;->checkbox_layout:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1387,7 +1387,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b03cb
+    sget v1, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1419,7 +1419,7 @@
     .line 8
     iget-object p2, p0, Lhl3;->a:Lhd3;
 
-    const v0, 0x7f122b22
+    sget v0, Lcom/resouce/module/ResSTRING;->public_turn_on:I
 
     new-instance v1, Lhl3$i;
 
@@ -1430,7 +1430,7 @@
     .line 9
     iget-object p2, p0, Lhl3;->a:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lhl3$j;
 
@@ -1501,7 +1501,7 @@
     .line 5
     iget-object p1, p0, Lhl3;->a:Lhd3;
 
-    const p2, 0x7f122617
+    sget p2, Lcom/resouce/module/ResSTRING;->public_permission_allow:I
 
     new-instance p3, Lhl3$f;
 
@@ -1512,7 +1512,7 @@
     .line 6
     iget-object p1, p0, Lhl3;->a:Lhd3;
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p3, Lhl3$g;
 

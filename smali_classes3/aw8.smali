@@ -121,7 +121,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122191
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folderExist:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -151,7 +151,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122391
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v1, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0d1a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_new_folder_dialog:I
 
     const/4 v3, 0x0
 
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0e09
+    sget v1, Lcom/resouce/module/ResID;->folder_name:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     check-cast v1, Landroid/widget/EditText;
 
-    const v2, 0x7f0b08b6
+    sget v2, Lcom/resouce/module/ResID;->error_info:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
     .line 5
     invoke-virtual {p0, v3}, Lhd3;->setCanAutoDismiss(Z)V
 
-    const v2, 0x7f12250f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
     .line 6
     invoke-virtual {p0, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -237,7 +237,7 @@
 
     invoke-direct {p1, p0, v1}, Lnv8;-><init>(Law8;Landroid/widget/EditText;)V
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -246,7 +246,7 @@
 
     invoke-direct {p1, p0}, Lov8;-><init>(Law8;)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

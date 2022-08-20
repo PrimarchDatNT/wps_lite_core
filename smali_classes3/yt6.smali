@@ -36,12 +36,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0063
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ad_close_dialog:I
 
     const/4 v1, 0x0
 
@@ -240,7 +240,7 @@
 .method public final V2(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b311f
+    sget v0, Lcom/resouce/module/ResID;->tv_close:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b312a
+    sget v1, Lcom/resouce/module/ResID;->tv_complaint:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b1648
+    sget v0, Lcom/resouce/module/ResID;->ll_close:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b164b
+    sget v0, Lcom/resouce/module/ResID;->ll_complaint:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f0b1648
+    sget v1, Lcom/resouce/module/ResID;->ll_close:I
 
     if-ne p1, v1, :cond_0
 
@@ -337,7 +337,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b164b
+    sget v1, Lcom/resouce/module/ResID;->ll_complaint:I
 
     if-ne p1, v1, :cond_1
 

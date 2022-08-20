@@ -189,7 +189,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04a6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_day_of_week:I
 
     .line 3
     invoke-virtual {p2, v0, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12140f
+    sget p2, Lcom/resouce/module/ResSTRING;->mtrl_picker_day_of_week_column_header:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

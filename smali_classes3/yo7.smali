@@ -74,42 +74,42 @@
 
     sput-object v0, Lyo7;->K0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b3238
+    sget v1, Lcom/resouce/module/ResID;->tv_rename_tip:I
 
     const/16 v2, 0xb
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b15b6
+    sget v1, Lcom/resouce/module/ResID;->line1:I
 
     const/16 v2, 0xc
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b3271
+    sget v1, Lcom/resouce/module/ResID;->tv_start_number_tip:I
 
     const/16 v2, 0xd
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b15b7
+    sget v1, Lcom/resouce/module/ResID;->line2:I
 
     const/16 v2, 0xe
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b31ba
+    sget v1, Lcom/resouce/module/ResID;->tv_interval_number_tip:I
 
     const/16 v2, 0xf
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b15b8
+    sget v1, Lcom/resouce/module/ResID;->line3:I
 
     const/16 v2, 0x10
 
@@ -896,7 +896,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1201f5
+    sget v0, Lcom/resouce/module/ResSTRING;->batch_rename_file_new_file_folder_name:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -112,7 +112,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f121e56
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_group_create_title:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -342,7 +342,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f122272
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_wps_note:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -770,7 +770,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122272
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_app_wps_note:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

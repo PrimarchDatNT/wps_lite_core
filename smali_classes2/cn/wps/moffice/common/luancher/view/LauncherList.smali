@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e069c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_documents_filebrowser_launcher:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0547
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_home_filebrowser_launcher:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -123,7 +123,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/common/luancher/view/LauncherList;->I:Landroid/view/View;
 
-    const v1, 0x7f0b014c
+    sget v1, Lcom/resouce/module/ResID;->applauncher_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

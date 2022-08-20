@@ -178,7 +178,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2d04
+    sget p2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

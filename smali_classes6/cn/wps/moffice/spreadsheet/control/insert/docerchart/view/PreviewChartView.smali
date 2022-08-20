@@ -108,7 +108,7 @@
 
     const/16 v1, 0x8
 
-    const v2, 0x7f081b84
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     const/4 v3, 0x3
 
@@ -134,7 +134,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f081b9d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_orange_bg_4dp_1px_selector:I
 
     if-nez v0, :cond_1
 
@@ -203,13 +203,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b3c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_preview_view:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b24f5
+    sget v0, Lcom/resouce/module/ResID;->preview_chart_img:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/docerchart/view/PreviewChartView;->I:Lcn/wps/moffice/docer/picstore/V10RoundRectImageView;
 
-    const v0, 0x7f0b2947
+    sget v0, Lcom/resouce/module/ResID;->rl_dialog:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/docerchart/view/PreviewChartView;->V:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b1444
+    sget v0, Lcom/resouce/module/ResID;->iv_docer_icon:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/docerchart/view/PreviewChartView;->a0:Landroid/view/View;
 
-    const v0, 0x7f0b311b
+    sget v0, Lcom/resouce/module/ResID;->tv_chart_title:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f060657
+    sget v3, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -307,7 +307,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703a3
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -322,7 +322,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060624
+    sget v4, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -335,7 +335,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/RelativeLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b0394
+    sget v0, Lcom/resouce/module/ResID;->chart_apply:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1428
+    sget v0, Lcom/resouce/module/ResID;->iv_close_dialog:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -369,7 +369,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2960
+    sget v0, Lcom/resouce/module/ResID;->rl_preview_chart:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0819c7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {p1, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 

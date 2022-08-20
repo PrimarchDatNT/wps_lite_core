@@ -52,7 +52,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/HDGuideActivity$a;->B:Lcn/wps/moffice/main/scan/ui/HDGuideActivity;
 
-    const v1, 0x7f120465
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guide_enable_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

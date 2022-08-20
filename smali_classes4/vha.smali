@@ -457,7 +457,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f12010e
+    sget p1, Lcom/resouce/module/ResSTRING;->app_paper_composition_unsupport_encryption:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -496,13 +496,13 @@
     move-object p1, p0
 
     :goto_0
-    const p3, 0x7f122567
+    sget p3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p3, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     if-eqz p2, :cond_2
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     if-eqz p4, :cond_1
 

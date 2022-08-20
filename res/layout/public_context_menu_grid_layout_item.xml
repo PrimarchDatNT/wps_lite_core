@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.TextImageView android:ellipsize="end" android:layout_gravity="center" android:id="@id/tiv_item" android:maxLines="2" android:includeFontPadding="false" style="@style/public_context_menu_text_image_item"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

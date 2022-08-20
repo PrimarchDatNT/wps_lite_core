@@ -78,7 +78,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f123260
+    sget v3, Lcom/resouce/module/ResSTRING;->wps_update_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
     .line 7
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

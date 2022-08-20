@@ -115,7 +115,7 @@
     .line 3
     new-instance v1, Ldtb$b;
 
-    const v2, 0x7f0b1e6e
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_backBtn:I
 
     invoke-direct {v1, v2}, Ldtb$b;-><init>(I)V
 
@@ -126,9 +126,9 @@
 
     new-instance v1, Ldtb$d;
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
-    const v3, 0x7f0b2ab4
+    sget v3, Lcom/resouce/module/ResID;->search_titlebar:I
 
     invoke-direct {v1, v3, v2}, Ldtb$d;-><init>(II)V
 
@@ -139,7 +139,7 @@
 
     new-instance v1, Ldtb$d;
 
-    const v2, 0x7f0b2fde
+    sget v2, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-direct {v1, v3, v2}, Ldtb$d;-><init>(II)V
 
@@ -178,7 +178,7 @@
     .line 3
     new-instance v1, Ldtb$b;
 
-    const v2, 0x7f0b1272
+    sget v2, Lcom/resouce/module/ResID;->image_close:I
 
     invoke-direct {v1, v2}, Ldtb$b;-><init>(I)V
 
@@ -189,7 +189,7 @@
 
     new-instance v1, Ldtb$b;
 
-    const v2, 0x7f0b02ea
+    sget v2, Lcom/resouce/module/ResID;->btn_multi_wrap:I
 
     invoke-direct {v1, v2}, Ldtb$b;-><init>(I)V
 
@@ -200,7 +200,7 @@
 
     new-instance v1, Ldtb$b;
 
-    const v2, 0x7f0b02d2
+    sget v2, Lcom/resouce/module/ResID;->btn_edit:I
 
     invoke-direct {v1, v2}, Ldtb$b;-><init>(I)V
 
@@ -211,7 +211,7 @@
 
     new-instance v1, Ldtb$b;
 
-    const v2, 0x7f0b29e4    # 1.849802E38f
+    sget v2, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     invoke-direct {v1, v2}, Ldtb$b;-><init>(I)V
 

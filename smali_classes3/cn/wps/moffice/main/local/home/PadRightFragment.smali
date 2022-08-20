@@ -260,7 +260,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1835
+    sget v0, Lcom/resouce/module/ResID;->md__drawer:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/PadRightFragment;->W:Lcn/wps/moffice/common/beans/menudrawer/MenuDrawer;
 
-    const v0, 0x7f0b1834
+    sget v0, Lcom/resouce/module/ResID;->md__content:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1588
+    sget v0, Lcom/resouce/module/ResID;->left:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

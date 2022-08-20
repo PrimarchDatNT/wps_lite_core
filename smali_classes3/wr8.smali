@@ -55,7 +55,7 @@
     .line 3
     iput p1, p0, Lwr8;->a0:I
 
-    const p1, 0x7f0b1174
+    sget p1, Lcom/resouce/module/ResID;->home_switch_cloud_backup_switch:I
 
     .line 4
     invoke-virtual {p0, p1}, Lvr8;->a(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const p1, 0x7f0b0cf3
+    sget p1, Lcom/resouce/module/ResID;->file_radar_backup_status:I
 
     .line 6
     invoke-virtual {p0, p1}, Lvr8;->a(I)Landroid/view/View;
@@ -458,7 +458,7 @@
     :cond_1
     iget-object p1, p0, Lwr8;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f1210eb
+    sget v0, Lcom/resouce/module/ResSTRING;->home_public_backup_finish:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -468,7 +468,7 @@
     :cond_2
     iget-object p1, p0, Lwr8;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f121d7b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_backup_sync_pause:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -478,7 +478,7 @@
     :cond_3
     iget-object p1, p0, Lwr8;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f1210ea
+    sget v0, Lcom/resouce/module/ResSTRING;->home_public_backup_doing:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -494,12 +494,12 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f121ebe
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_setting_receive_file_backup_detail_androidR:I
 
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f1210e8
+    sget v0, Lcom/resouce/module/ResSTRING;->home_public_backup_close:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -684,12 +684,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f121ebe
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_setting_receive_file_backup_detail_androidR:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f1210e8
+    sget v0, Lcom/resouce/module/ResSTRING;->home_public_backup_close:I
 
     :goto_0
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V

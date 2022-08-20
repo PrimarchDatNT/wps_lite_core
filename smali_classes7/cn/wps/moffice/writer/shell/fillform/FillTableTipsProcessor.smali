@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1232da
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_tips:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c11
+    sget v1, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

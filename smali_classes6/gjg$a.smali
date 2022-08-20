@@ -47,7 +47,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b0afa
+    sget v2, Lcom/resouce/module/ResID;->et_preview_pre_page_btn:I
 
     if-ne p1, v2, :cond_1
 
@@ -99,7 +99,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b0af9
+    sget v2, Lcom/resouce/module/ResID;->et_preview_next_page_btn:I
 
     if-ne p1, v2, :cond_3
 

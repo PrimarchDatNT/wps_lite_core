@@ -127,7 +127,7 @@
     .line 9
     iget-object p2, p0, Lorb$c;->b:Landroid/content/Context;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {p2, v0, p3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -137,7 +137,7 @@
     :cond_2
     iget-object p2, p0, Lorb$c;->b:Landroid/content/Context;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p2, v0, p3}, Lbih;->n(Landroid/content/Context;II)V
 

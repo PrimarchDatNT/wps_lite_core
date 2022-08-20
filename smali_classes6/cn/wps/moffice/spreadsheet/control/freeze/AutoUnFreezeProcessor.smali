@@ -291,7 +291,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/freeze/AutoUnFreezeProcessor;->d:Landroid/content/Context;
 
-    const v1, 0x7f1208be
+    sget v1, Lcom/resouce/module/ResSTRING;->et_freeze_cancel_tip:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -302,7 +302,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/freeze/AutoUnFreezeProcessor;->d:Landroid/content/Context;
 
-    const v1, 0x7f122b3c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

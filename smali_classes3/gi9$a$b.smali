@@ -562,7 +562,7 @@
 
     iget-object v1, v1, Lgi9$a;->b:Landroid/app/Activity;
 
-    const v2, 0x7f1205ee
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 

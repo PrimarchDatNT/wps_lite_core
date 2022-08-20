@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/section_bottom_layout" android:layout_width="fill_parent" android:layout_height="38.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="top" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/section_more_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/public_view_all" auto_alpha="false" />
-</FrameLayout>

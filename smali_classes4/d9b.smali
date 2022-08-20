@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07ba
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_input_datesign_dialog:I
 
     const/4 v2, 0x0
 
@@ -245,7 +245,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b1338
+    sget v0, Lcom/resouce/module/ResID;->input_datesign_edit:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -290,7 +290,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setSelection(I)V
 
-    const v0, 0x7f1217b1
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_date_sign:I
 
     .line 8
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -298,14 +298,14 @@
     .line 9
     iget-object v0, p0, Ld9b;->U:Landroid/content/DialogInterface$OnClickListener;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 10
     iget-object v0, p0, Ld9b;->T:Landroid/content/DialogInterface$OnClickListener;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

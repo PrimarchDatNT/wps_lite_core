@@ -188,7 +188,7 @@
 
     iget-object v5, p0, Lnhg;->b:Landroid/content/Context;
 
-    const v6, 0x7f120c3f
+    sget v6, Lcom/resouce/module/ResSTRING;->et_split_table_col:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

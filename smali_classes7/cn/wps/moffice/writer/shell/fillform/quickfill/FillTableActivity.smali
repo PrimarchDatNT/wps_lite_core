@@ -101,7 +101,7 @@
 
     invoke-direct {v2, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f123439
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_user_table_finish:I
 
     .line 5
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -120,7 +120,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -156,7 +156,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1232cf
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_is_keep:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232d1
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_keep:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232d2
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_no_keep:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232bc
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_cancel:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

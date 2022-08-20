@@ -45,13 +45,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aaa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_shareplay_setting:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2118
+    sget v0, Lcom/resouce/module/ResID;->phone_shareplayt_setting_agora:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/tvproject/PptSharePlaySettingView;->I:Landroid/view/View;
 
-    const v0, 0x7f0b211b
+    sget v0, Lcom/resouce/module/ResID;->phone_shareplayt_setting_switch_doc:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -69,7 +69,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/tvproject/PptSharePlaySettingView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2119
+    sget v0, Lcom/resouce/module/ResID;->phone_shareplayt_setting_agora_image:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/tvproject/PptSharePlaySettingView;->T:Lcn/wpsx/support/ui/KNormalImageView;
 
-    const v0, 0x7f0b211a
+    sget v0, Lcom/resouce/module/ResID;->phone_shareplayt_setting_agora_text:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -174,12 +174,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f121c38
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_stop_agora_call:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121a11
+    sget p1, Lcom/resouce/module/ResSTRING;->play_agora_call:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

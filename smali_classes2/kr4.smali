@@ -109,7 +109,7 @@
     .line 4
     iget-object v1, p0, Lkr4;->a:Landroid/content/Context;
 
-    const v2, 0x7f121d5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_audio_input_language:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a13
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_speechkeyboard_choose_language_view:I
 
     const/4 v3, 0x0
 
@@ -135,7 +135,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1515
+    sget v2, Lcom/resouce/module/ResID;->language_choose_rg:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -163,11 +163,11 @@
 
     invoke-direct {p1, p0, v2, p2}, Lkr4$f;-><init>(Lkr4;Landroid/widget/RadioGroup;Lkr4$p;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {v0, p1, v3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -213,7 +213,7 @@
 
     iget-object v1, p0, Lkr4;->a:Landroid/content/Context;
 
-    const v2, 0x7f1219d0
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_complete_record:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -232,7 +232,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600a1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_gray_text:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -259,14 +259,14 @@
     :cond_0
     iget-object v0, p0, Lkr4;->c:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 10
     iget-object p1, p0, Lkr4;->c:Lhd3;
 
-    const v0, 0x7f122018
+    sget v0, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -315,7 +315,7 @@
 
     iget-object v1, p0, Lkr4;->a:Landroid/content/Context;
 
-    const v2, 0x7f1219d1
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_confirm_delete:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600a1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_gray_text:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -361,14 +361,14 @@
     :cond_0
     iget-object v0, p0, Lkr4;->e:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 10
     iget-object p1, p0, Lkr4;->e:Lhd3;
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -405,7 +405,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a31
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phonetic_export_layout:I
 
     const/4 v2, 0x0
 
@@ -433,7 +433,7 @@
     :cond_0
     iget-object v0, p0, Lkr4;->i:Landroid/view/View;
 
-    const v1, 0x7f0b21f1
+    sget v1, Lcom/resouce/module/ResID;->phonetic_export_word_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
     .line 6
     iget-object v1, p0, Lkr4;->i:Landroid/view/View;
 
-    const v2, 0x7f0b21f0
+    sget v2, Lcom/resouce/module/ResID;->phonetic_export_to_phonetic_file:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
     .line 7
     iget-object v2, p0, Lkr4;->i:Landroid/view/View;
 
-    const v3, 0x7f0b21ef
+    sget v3, Lcom/resouce/module/ResID;->phonetic_export_file_name:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1219d3
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_export_phonetic_loading:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -616,12 +616,12 @@
 
     invoke-virtual {v0, v1, v2, p1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p1, 0x7f121d59
+    sget p1, Lcom/resouce/module/ResSTRING;->public_audio_input_grant_record_permission:I
 
     .line 3
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f122617
+    sget p1, Lcom/resouce/module/ResSTRING;->public_permission_allow:I
 
     .line 4
     invoke-virtual {v0, p1, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -631,7 +631,7 @@
 
     invoke-direct {p1, p0, p3}, Lkr4$i;-><init>(Lkr4;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -662,7 +662,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -673,7 +673,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12253e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -694,7 +694,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -739,7 +739,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12255a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -749,11 +749,11 @@
 
     invoke-direct {v1, p0, p1}, Lkr4$e;-><init>(Lkr4;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -796,7 +796,7 @@
 
     invoke-direct {p1, p0, p4}, Lkr4$c;-><init>(Lkr4;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -958,7 +958,7 @@
 
     iput-object v1, p0, Lkr4;->f:Lhd3;
 
-    const p1, 0x7f1227f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 20
     invoke-virtual {v1, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -976,7 +976,7 @@
     :cond_2
     iget-object p1, p0, Lkr4;->f:Lhd3;
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v0, Lkr4$b;
 
@@ -986,7 +986,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p3, Lkr4$a;
 
@@ -1040,7 +1040,7 @@
 
     iget-object v1, p0, Lkr4;->a:Landroid/content/Context;
 
-    const v2, 0x7f1219da
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_save_record_state:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1059,7 +1059,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600a1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_gray_text:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1086,14 +1086,14 @@
     :cond_0
     iget-object v0, p0, Lkr4;->b:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 10
     iget-object p1, p0, Lkr4;->b:Lhd3;
 
-    const v0, 0x7f12281f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

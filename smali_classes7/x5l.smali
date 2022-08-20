@@ -217,7 +217,7 @@
 .method public final o2()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0e10b7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_pad_frame_type_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

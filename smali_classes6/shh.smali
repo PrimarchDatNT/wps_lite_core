@@ -374,7 +374,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120db7
+    sget v2, Lcom/resouce/module/ResSTRING;->get_ipv4_ip_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

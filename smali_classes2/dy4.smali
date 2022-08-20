@@ -302,7 +302,7 @@
 
     if-eqz p1, :cond_0
 
-    const p0, 0x7f121e1d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_close_not_backup:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -310,13 +310,13 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f121ea4
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cloud_romaing_auto_check_tips_dlg_title:I
 
     .line 4
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
     :goto_0
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 5
     new-instance p1, Ldy4$a;
@@ -325,7 +325,7 @@
 
     invoke-virtual {v0, p0, p1}, Liq3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance p1, Ldy4$b;

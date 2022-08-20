@@ -225,7 +225,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f0b04dd
+    sget v3, Lcom/resouce/module/ResID;->commonErrorPage:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -224,9 +224,9 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
-    const v0, 0x7f122811
+    sget v0, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
-    const v2, 0x7f120577
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     const/high16 v3, 0x41800000    # 16.0f
 
@@ -290,7 +290,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f1228d7
+    sget v6, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -328,7 +328,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f1203d3
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -664,7 +664,7 @@
     :cond_0
     iget-object p1, p0, Ldm8;->mActivity:Lcn/wps/moffice/main/framework/BaseActivity;
 
-    const v0, 0x7f122811
+    sget v0, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -767,13 +767,13 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04067a
+    sget v3, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Lcn/wps/moffice/common/beans/phone/AlphaImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     iput-object v0, p0, Lbra;->I:Landroid/widget/ImageView;
 
-    const v1, 0x7f08170c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_help:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -787,7 +787,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

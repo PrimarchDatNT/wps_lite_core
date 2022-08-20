@@ -136,7 +136,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f1200fb
+    sget p3, Lcom/resouce/module/ResSTRING;->app_paper_composition_school_unvalid:I
 
     invoke-static {p2, p3, p1}, Lbih;->n(Landroid/content/Context;II)V
 

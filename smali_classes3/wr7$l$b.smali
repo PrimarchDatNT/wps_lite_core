@@ -98,7 +98,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f120f51
+    sget v1, Lcom/resouce/module/ResSTRING;->home_me_exam_avatar_fail_message:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -109,7 +109,7 @@
     :cond_2
     const/16 v1, -0x37
 
-    const v3, 0x7f1224d3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_modify_failed_retry_tip:I
 
     if-ne v1, v0, :cond_4
 

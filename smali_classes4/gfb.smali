@@ -29,7 +29,7 @@
     .line 2
     iget-object v0, p0, Lkfb;->V:Landroid/widget/Button;
 
-    const v1, 0x7f122b39
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unboxing_start_explore:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -64,7 +64,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1755
+    sget v0, Lcom/resouce/module/ResID;->login_guide_confirm_btn:I
 
     if-ne p1, v0, :cond_0
 

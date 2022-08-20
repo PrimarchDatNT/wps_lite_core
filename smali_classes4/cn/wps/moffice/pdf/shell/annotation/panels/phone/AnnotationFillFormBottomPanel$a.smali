@@ -34,7 +34,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2c1a
+    sget v0, Lcom/resouce/module/ResID;->sign_type:I
 
     if-ne p1, v0, :cond_0
 

@@ -671,12 +671,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f120346
+    sget v1, Lcom/resouce/module/ResSTRING;->crash_upload_url:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f120719
+    sget v1, Lcom/resouce/module/ResSTRING;->en_public_crash_info_url:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

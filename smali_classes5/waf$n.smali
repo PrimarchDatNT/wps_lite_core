@@ -82,7 +82,7 @@
 
     iget-object p1, p1, Lwaf;->c:Landroid/content/Context;
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0
@@ -96,7 +96,7 @@
 
     iget-object p1, p1, Lwaf;->c:Landroid/content/Context;
 
-    const v1, 0x7f1205eb
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

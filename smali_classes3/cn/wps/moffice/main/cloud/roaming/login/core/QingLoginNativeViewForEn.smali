@@ -397,7 +397,7 @@
 
     if-eqz v2, :cond_0
 
-    const v0, 0x7f1205e3
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastEmailAddress:I
 
     .line 4
     invoke-virtual {p0, v0, v3}, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->setErrorText(IZ)V
@@ -412,7 +412,7 @@
 
     if-eqz v2, :cond_1
 
-    const v0, 0x7f1205e5
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastpassword:I
 
     .line 6
     invoke-virtual {p0, v0, v3}, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->setErrorText(IZ)V
@@ -453,7 +453,7 @@
 
     :cond_3
     :goto_0
-    const v0, 0x7f121114
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_account_or_pwd_error:I
 
     const/4 v1, 0x1
 
@@ -645,7 +645,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b108e
+    sget v1, Lcom/resouce/module/ResID;->home_login_des_tv:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -666,14 +666,14 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mLoginDesTv:Landroid/widget/TextView;
 
-    const v1, 0x7f12151c
+    sget v1, Lcom/resouce/module/ResSTRING;->online_device_list_text_noLogin:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v1, 0x7f081cc0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_transfer_file_grid_bg:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -755,7 +755,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1133
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_input_account:I
 
     if-eq v0, v1, :cond_0
 
@@ -763,7 +763,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b1135
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_input_password:I
 
     if-ne v0, v2, :cond_3
 
@@ -856,7 +856,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122237
+    sget v1, Lcom/resouce/module/ResSTRING;->public_go_sign_up_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -872,7 +872,7 @@
 
     invoke-direct {v2, p0}, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn$g;-><init>(Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;)V
 
-    const v3, 0x7f1229fa
+    sget v3, Lcom/resouce/module/ResSTRING;->public_sign:I
 
     invoke-virtual {v0, v3, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -881,7 +881,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn$h;-><init>(Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -929,7 +929,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0157
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_home_native_login_email_content:I
 
     const/4 v1, 0x0
 
@@ -993,7 +993,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0158
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_home_relogin_main_content:I
 
     const/4 v1, 0x0
 
@@ -1526,7 +1526,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0159
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_home_roaming_login:I
 
     const/4 v3, 0x0
 
@@ -1536,7 +1536,7 @@
 
     iput-object v0, p0, Lzw7;->mRootView:Landroid/view/View;
 
-    const v2, 0x7f0b112d
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_container:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1550,7 +1550,7 @@
     .line 5
     iget-object v0, p0, Lzw7;->mRootView:Landroid/view/View;
 
-    const v2, 0x7f0b1140
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_shadow:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1828,7 +1828,7 @@
     .line 2
     iget-object p1, p0, Lzw7;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v0, 0x7f120f4c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_unable_get_phone_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1868,7 +1868,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122048
+    sget v0, Lcom/resouce/module/ResSTRING;->public_email_login:I
 
     return v0
 .end method
@@ -2190,7 +2190,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b112e
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_enable_button:I
 
     if-nez v0, :cond_1
 
@@ -2238,20 +2238,20 @@
     goto/16 :goto_5
 
     :cond_2
-    const p1, 0x7f0b2c1e
+    sget p1, Lcom/resouce/module/ResID;->sing_up_tv:I
 
     const-string v1, "click"
 
     if-eq v0, p1, :cond_14
 
-    const v2, 0x7f0b113d
+    sget v2, Lcom/resouce/module/ResID;->home_roaming_login_register:I
 
     if-ne v0, v2, :cond_3
 
     goto/16 :goto_3
 
     :cond_3
-    const p1, 0x7f0b1132
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_login_forget_pwd:I
 
     const/4 v2, 0x2
 
@@ -2297,7 +2297,7 @@
     goto/16 :goto_5
 
     :cond_5
-    const p1, 0x7f0b15be
+    sget p1, Lcom/resouce/module/ResID;->line_login_iv:I
 
     const/4 v4, 0x0
 
@@ -2372,7 +2372,7 @@
     goto/16 :goto_5
 
     :cond_6
-    const p1, 0x7f0b32bb
+    sget p1, Lcom/resouce/module/ResID;->twitter_login_iv:I
 
     if-ne v0, p1, :cond_7
 
@@ -2445,7 +2445,7 @@
     goto/16 :goto_5
 
     :cond_7
-    const p1, 0x7f0b07cf
+    sget p1, Lcom/resouce/module/ResID;->dropbox_login_iv:I
 
     if-ne v0, p1, :cond_8
 
@@ -2518,7 +2518,7 @@
     goto/16 :goto_5
 
     :cond_8
-    const p1, 0x7f0b1136
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_login_more:I
 
     if-ne v0, p1, :cond_9
 
@@ -2560,7 +2560,7 @@
     goto/16 :goto_5
 
     :cond_9
-    const p1, 0x7f0b1151
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_relogin_more:I
 
     if-ne v0, p1, :cond_a
 
@@ -2597,7 +2597,7 @@
     goto/16 :goto_5
 
     :cond_a
-    const p1, 0x7f0b112c
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_login_back_native:I
 
     if-ne v0, p1, :cond_d
 
@@ -2672,7 +2672,7 @@
     goto/16 :goto_5
 
     :cond_d
-    const p1, 0x7f0b2885
+    sget p1, Lcom/resouce/module/ResID;->relogin_third_btn_layout:I
 
     if-ne v0, p1, :cond_11
 
@@ -2750,7 +2750,7 @@
     goto/16 :goto_5
 
     :cond_11
-    const p1, 0x7f0b1146
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_login_with_email_or_phone_layout:I
 
     if-ne v0, p1, :cond_12
 
@@ -2800,7 +2800,7 @@
     goto/16 :goto_5
 
     :cond_12
-    const p1, 0x7f0b114f
+    sget p1, Lcom/resouce/module/ResID;->home_roaming_relogin_clear:I
 
     if-ne v0, p1, :cond_13
 
@@ -2841,7 +2841,7 @@
     goto :goto_5
 
     :cond_13
-    const p1, 0x7f0b0f2f
+    sget p1, Lcom/resouce/module/ResID;->google_login_iv:I
 
     if-ne v0, p1, :cond_17
 
@@ -3378,7 +3378,7 @@
 .method public setEmailLoginView(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b114e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_logo:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3389,7 +3389,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1133
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_input_account:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3400,7 +3400,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mAccountText:Lcn/wps/moffice/main/cloud/roaming/login/core/view/AccountEditText;
 
-    const v0, 0x7f0b1135
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_input_password:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3411,7 +3411,7 @@
 
     iput-object v0, p0, Lzw7;->mPassWordText:Landroid/widget/EditText;
 
-    const v0, 0x7f0b1139
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_password_clear:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3420,7 +3420,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mPwdClearButton:Landroid/view/View;
 
-    const v0, 0x7f0b112b
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_account_clear:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3429,7 +3429,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mAccountClearButton:Landroid/view/View;
 
-    const v0, 0x7f0b112f
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_error:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3440,7 +3440,7 @@
 
     iput-object v0, p0, Lzw7;->mErorText:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1131
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_error_tip:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3449,7 +3449,7 @@
 
     iput-object v0, p0, Lzw7;->mAccountErrorTip:Landroid/view/View;
 
-    const v0, 0x7f0b1130
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_error_ll:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3458,7 +3458,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mLoginErrorLl:Landroid/view/View;
 
-    const v0, 0x7f0b112c
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_back_native:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3467,7 +3467,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mLoginBackNative:Landroid/view/View;
 
-    const v0, 0x7f0b114d
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_content:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3494,7 +3494,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
-    const v0, 0x7f0b112e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_enable_button:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3503,7 +3503,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mLoginEnableButton:Landroid/view/View;
 
-    const v0, 0x7f0b113d
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_register:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3512,7 +3512,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mRegisterButton:Landroid/view/View;
 
-    const v0, 0x7f0b1132
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_forget_pwd:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3521,7 +3521,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mForgetPwdButton:Landroid/view/View;
 
-    const v0, 0x7f0b1a48
+    sget v0, Lcom/resouce/module/ResID;->non_internationnal_account_tip:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3539,7 +3539,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b34a1
+    sget v0, Lcom/resouce/module/ResID;->wps_user_sign_in_layout:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3801,7 +3801,7 @@
 .method public setIndexLoginView(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b114e
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_wps_logo:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3812,7 +3812,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mWpsTipLogo:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1141
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_third_button_Container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3823,7 +3823,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mThirdLoginContainer:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1146
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_with_email_or_phone_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3839,7 +3839,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08058e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_home_login_native_item_bg:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3856,7 +3856,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0f2f
+    sget v0, Lcom/resouce/module/ResID;->google_login_iv:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3870,7 +3870,7 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v0, 0x7f0b32bb
+    sget v0, Lcom/resouce/module/ResID;->twitter_login_iv:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3880,7 +3880,7 @@
     .line 10
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b07cf
+    sget v0, Lcom/resouce/module/ResID;->dropbox_login_iv:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3890,14 +3890,14 @@
     .line 12
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2c1e
+    sget v0, Lcom/resouce/module/ResID;->sing_up_tv:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v2, 0x7f0b15be
+    sget v2, Lcom/resouce/module/ResID;->line_login_iv:I
 
     .line 14
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3936,7 +3936,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b34a1
+    sget v0, Lcom/resouce/module/ResID;->wps_user_sign_in_layout:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3980,7 +3980,7 @@
 .method public setReloginView(Landroid/view/View;)V
     .locals 12
 
-    const v0, 0x7f0b1150
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_relogin_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3989,7 +3989,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const v1, 0x7f0b1152
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_relogin_name:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3998,14 +3998,14 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2885
+    sget v2, Lcom/resouce/module/ResID;->relogin_third_btn_layout:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2884
+    sget v3, Lcom/resouce/module/ResID;->relogin_third_btn_icon:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4014,21 +4014,21 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2883
+    sget v4, Lcom/resouce/module/ResID;->relogin_third_btn_corner_bg:I
 
     .line 5
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b06d4
+    sget v5, Lcom/resouce/module/ResID;->divider_line:I
 
     .line 6
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b2886
+    sget v6, Lcom/resouce/module/ResID;->relogin_third_btn_name:I
 
     .line 7
     invoke-virtual {p1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4037,7 +4037,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b114f
+    sget v7, Lcom/resouce/module/ResID;->home_roaming_relogin_clear:I
 
     .line 8
     invoke-virtual {p1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4046,14 +4046,14 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b1151
+    sget v8, Lcom/resouce/module/ResID;->home_roaming_relogin_more:I
 
     .line 9
     invoke-virtual {p1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
-    const v9, 0x7f0b2887
+    sget v9, Lcom/resouce/module/ResID;->relogin_tips:I
 
     .line 10
     invoke-virtual {p1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4211,7 +4211,7 @@
     .line 28
     invoke-virtual {v5, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f060241
+    sget v0, Lcom/resouce/module/ResCOLOR;->huawei_brand_color:I
 
     .line 29
     invoke-virtual {v5, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -4227,7 +4227,7 @@
     .line 31
     invoke-virtual {v5, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f06005f
+    sget v0, Lcom/resouce/module/ResCOLOR;->buttonSecondaryPressedColor:I
 
     .line 32
     invoke-virtual {v5, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -4275,14 +4275,14 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120e55
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_possible_error:I
 
     const v2, 0x800003
 
     .line 2
     invoke-virtual {v0, v1, v2}, Lhd3;->setTitleById(II)Lhd3;
 
-    const v1, 0x7f120e57
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_possible_error_tips_en:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -4292,7 +4292,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn$c;-><init>(Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;)V
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -4352,7 +4352,7 @@
     .line 7
     iget-object v1, p0, Lzw7;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f120ff6
+    sget v2, Lcom/resouce/module/ResSTRING;->home_non_en_account_tip_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4363,7 +4363,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mNonEnAccountTipDialog:Lhd3;
 
-    const v1, 0x7f120ff5
+    sget v1, Lcom/resouce/module/ResSTRING;->home_non_en_account_tip:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -4377,7 +4377,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn;->mNonEnAccountTipDialog:Lhd3;
 
-    const v1, 0x7f121e1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_close:I
 
     new-instance v2, Lcn/wps/moffice/main/cloud/roaming/login/core/QingLoginNativeViewForEn$e;
 
@@ -4440,7 +4440,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0386
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_qing_login_index_content:I
 
     const/4 v1, 0x0
 

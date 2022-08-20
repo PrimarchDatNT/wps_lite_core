@@ -65,7 +65,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b01a0
+    sget v0, Lcom/resouce/module/ResID;->auto_offset_layout_offset:I
 
     invoke-virtual {p1, v0, p2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -118,7 +118,7 @@
 .method public c(Landroid/view/View;)I
     .locals 1
 
-    const v0, 0x7f0b01a0
+    sget v0, Lcom/resouce/module/ResID;->auto_offset_layout_offset:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

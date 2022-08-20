@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e002f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_ocr_text:I
 
     const/4 v2, 0x0
 

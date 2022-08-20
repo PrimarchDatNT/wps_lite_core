@@ -37,7 +37,7 @@
 .method public A(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lsp9$h;
     .locals 2
 
-    const v0, 0x7f0e0393
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_roaming_grid_style_history_item:I
 
     const/4 v1, 0x0
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c75
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_v2:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -152,7 +152,7 @@
     .line 2
     iget-object p1, p1, Lsp9$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081613
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_checked:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -162,7 +162,7 @@
     :cond_0
     iget-object p1, p1, Lsp9$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f081614
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_default:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -366,7 +366,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2e88
+    sget v2, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -407,7 +407,7 @@
     :cond_0
     iget-object v6, p1, Lpp9$b;->z0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e71
+    sget v1, Lcom/resouce/module/ResID;->tag_icon_key:I
 
     .line 11
     iget-object v2, p2, Ld08;->U:Ljava/lang/String;
@@ -428,7 +428,7 @@
 
     iget-object p1, p1, Lpp9$b;->z0:Landroid/widget/ImageView;
 
-    const v0, 0x7f081632
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_file_thumbnail_folder:I
 
     invoke-virtual {p2, p1, v0}, Lo6a;->e(Landroid/widget/ImageView;I)V
 

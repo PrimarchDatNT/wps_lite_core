@@ -53,9 +53,9 @@
     .line 3
     new-instance v0, Lvle$a;
 
-    const v1, 0x7f08048a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_document_projection:I
 
-    const v2, 0x7f122b2b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tv_screen:I
 
     invoke-direct {v0, p0, v1, v2}, Lvle$a;-><init>(Lvle;II)V
 
@@ -64,9 +64,9 @@
     .line 4
     new-instance v0, Lvle$f;
 
-    const v1, 0x7f08029e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_projection:I
 
-    const v2, 0x7f121bf6
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_by_miracast:I
 
     invoke-direct {v0, p0, v1, v2}, Lvle$f;-><init>(Lvle;II)V
 
@@ -171,7 +171,7 @@
 
     invoke-direct {v0, p0}, Ld5e;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1225bb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_wifi_tips:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -189,7 +189,7 @@
 
     invoke-direct {v1}, Lvle$l;-><init>()V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -208,7 +208,7 @@
 
     invoke-direct {v2, p0}, Lvle$m;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f122c71
+    sget p0, Lcom/resouce/module/ResSTRING;->public_wpsdrive_open_now:I
 
     .line 7
     invoke-virtual {v0, p0, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -349,7 +349,7 @@
     .line 2
     iget-object v0, p0, Lvle;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f122552
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -370,7 +370,7 @@
     .line 4
     iget-object v0, p0, Lvle;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f12257e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_not_support:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -458,7 +458,7 @@
     :cond_4
     iget-object v0, p0, Lvle;->B:Lcn/wps/moffice/presentation/Presentation;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

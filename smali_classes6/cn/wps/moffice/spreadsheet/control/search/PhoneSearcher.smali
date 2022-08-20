@@ -106,9 +106,9 @@
     .line 7
     new-instance p2, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher$1;
 
-    const v0, 0x7f080249
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_search:I
 
-    const v1, 0x7f122856
+    sget v1, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-direct {p2, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher$1;-><init>(Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;II)V
 
@@ -117,7 +117,7 @@
     .line 8
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const p2, 0x7f0b0ab2
+    sget p2, Lcom/resouce/module/ResID;->et_main_top_title_layout:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->W:Landroid/view/View;
 
-    const p2, 0x7f0b2060
+    sget p2, Lcom/resouce/module/ResID;->phone_new_search_and_replace:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->X:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2131
+    sget p2, Lcom/resouce/module/ResID;->phone_ss_bottom_toolbar_container:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
     .line 12
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->q0()V
 
-    const p2, 0x7f0b2aaa
+    sget p2, Lcom/resouce/module/ResID;->search_replace_detail_layout:I
 
     .line 13
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -735,7 +735,7 @@
     .line 13
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f122fe2
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_search_formula_too_long:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -981,7 +981,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const p2, 0x7f12068e
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_searcheof:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1008,7 +1008,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const p2, 0x7f12068c
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_searchbof:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1128,7 +1128,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const p2, 0x7f122860
+    sget p2, Lcom/resouce/module/ResSTRING;->public_search_empty:I
 
     const/4 v0, 0x1
 
@@ -1663,7 +1663,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f120c16
+    sget v2, Lcom/resouce/module/ResSTRING;->et_search_turnto:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2301,12 +2301,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0224
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_phone_search_detail_land_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0225
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_phone_search_detail_layout:I
 
     :goto_0
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->f0:Landroid/view/ViewGroup;
@@ -2632,7 +2632,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b2a73
+    sget v1, Lcom/resouce/module/ResID;->search_findtool:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2686,7 +2686,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2abe
+    sget v1, Lcom/resouce/module/ResID;->searcher:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3066,7 +3066,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PhoneSearcher;->V:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f0b334e
+    sget v2, Lcom/resouce/module/ResID;->v10_phone_quick_bar:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -3221,12 +3221,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e0993
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_search_land_layout:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0e0995
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_search_layout:I
 
     :goto_1
     const/4 v3, 0x0

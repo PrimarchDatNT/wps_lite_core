@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:id="@id/create_new_gridview" android:background="@color/navBackgroundColor" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="columnWidth" android:columnWidth="86.0dip" android:numColumns="auto_fit" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
-</merge>

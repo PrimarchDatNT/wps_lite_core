@@ -77,9 +77,9 @@
     .line 6
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewer$1;
 
-    const v1, 0x7f080492
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewer$1;-><init>(Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewer;II)V
 
@@ -91,7 +91,7 @@
     .line 8
     iput-object p2, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewer;->X:Lk2m;
 
-    const p2, 0x7f0b2d04
+    sget p2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -493,7 +493,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/share/exportpages/ExportPagesPreviewer;->S:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -852,13 +852,13 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080738
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_export_pages:I
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v4, 0x7f121906
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -884,11 +884,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08075d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_export_pages:I
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v3, 0x7f121906
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -1440,7 +1440,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f122fc2
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_export_pages_empty_tips:I
 
     .line 12
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1457,7 +1457,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f121fef
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     .line 14
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1513,7 +1513,7 @@
 
     if-nez v0, :cond_3
 
-    const p1, 0x7f122fc4
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_export_pages_limit_unuse:I
 
     .line 21
     invoke-static {p1, v1}, Lsjf;->h(II)V

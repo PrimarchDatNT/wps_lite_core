@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="doc_scan_pager_image_width">320.0dip</dimen>
-    <dimen name="pic_to_ppt_thumb_height">108.0dip</dimen>
-    <dimen name="pic_to_ppt_thumb_width">143.0dip</dimen>
-    <dimen name="share_panel_title_icon_padding">6.0dip</dimen>
-</resources>

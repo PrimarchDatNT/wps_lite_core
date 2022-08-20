@@ -108,7 +108,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0b1fdb
+    sget p1, Lcom/resouce/module/ResID;->phone_flow_item_text:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122eb0
+    sget v1, Lcom/resouce/module/ResSTRING;->search_total_search_invalid:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

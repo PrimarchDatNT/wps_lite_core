@@ -345,7 +345,7 @@
 
     invoke-direct {v1, v3}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->setBackgroundResource(I)V
@@ -399,7 +399,7 @@
     .line 10
     invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0812c4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_list_item_selector:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -409,7 +409,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -579,7 +579,7 @@
 .method public final L2()V
     .locals 4
 
-    const v0, 0x7f0b36a6
+    sget v0, Lcom/resouce/module/ResID;->writer_table_shade_color_spinner:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -612,7 +612,7 @@
     .line 1
     invoke-virtual {p0, p1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b36a4
+    sget v0, Lcom/resouce/module/ResID;->writer_table_shade_apply_to_spinner:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -628,7 +628,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b36a3
+    sget v0, Lcom/resouce/module/ResID;->writer_table_shade_apply_to_port:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -637,7 +637,7 @@
 
     iput-object v0, p0, Llvl;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b36a2
+    sget v0, Lcom/resouce/module/ResID;->writer_table_shade_apply_to_land:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -646,7 +646,7 @@
 
     iput-object v0, p0, Llvl;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b36a5
+    sget v0, Lcom/resouce/module/ResID;->writer_table_shade_apply_to_spinner_pad_land:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -658,7 +658,7 @@
     iput-object v0, p0, Llvl;->i0:Lcn/wps/moffice/writer/shell/view/MySpinner;
 
     :cond_0
-    const v0, 0x7f0b36a1
+    sget v0, Lcom/resouce/module/ResID;->writer_table_preview_shade:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -676,7 +676,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070b77
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_list_text_item_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

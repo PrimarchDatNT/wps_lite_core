@@ -58,7 +58,7 @@
 
     iget-object p1, p0, Layt$f;->d:Layt;
 
-    const v0, 0x7f121425
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_toggle_to_year_selection:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -70,7 +70,7 @@
     :cond_0
     iget-object p1, p0, Layt$f;->d:Layt;
 
-    const v0, 0x7f121423
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_toggle_to_day_selection:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;

@@ -81,7 +81,7 @@
     .line 3
     iget-object p1, p0, Lqm3;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f120fd1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_toast_no_network:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

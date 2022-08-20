@@ -154,7 +154,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122385
+    sget v0, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     return v0
 .end method

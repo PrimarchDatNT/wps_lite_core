@@ -19,13 +19,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0979
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_modify_font_layout:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0e3a
+    sget p1, Lcom/resouce/module/ResID;->font_name_btn:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;

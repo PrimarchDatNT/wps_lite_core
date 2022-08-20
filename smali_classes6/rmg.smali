@@ -158,7 +158,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1749
+    sget v0, Lcom/resouce/module/ResID;->locol2cell_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -294,7 +294,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0353
+    sget v0, Lcom/resouce/module/ResID;->card_mode_edit:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1026,7 +1026,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e103f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_public_simpleitem_select_layout:I
 
     const/4 v4, 0x0
 
@@ -1050,7 +1050,7 @@
 
     move-result v6
 
-    const v7, 0x7f0e0988
+    sget v7, Lcom/resouce/module/ResLAYOUT;->phone_ss_phonenum_list_dropdown_hint:I
 
     if-eqz v6, :cond_2
 
@@ -1223,7 +1223,7 @@
     .line 9
     iget-object v0, p0, Lrmg;->z0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080467
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_pocket_mail:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1252,7 +1252,7 @@
     .line 13
     iget-object v1, p0, Lrmg;->z0:Landroid/widget/ImageView;
 
-    const v2, 0x7f080468
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_pocket_phone:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1545,7 +1545,7 @@
 .method public final a0()V
     .locals 4
 
-    const v0, 0x7f0b30e3
+    sget v0, Lcom/resouce/module/ResID;->tv1:I
 
     .line 1
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -1556,7 +1556,7 @@
 
     iput-object v0, p0, Lrmg;->p0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0355
+    sget v0, Lcom/resouce/module/ResID;->card_mode_tv:I
 
     .line 2
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -1579,7 +1579,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1749
+    sget v1, Lcom/resouce/module/ResID;->locol2cell_btn:I
 
     .line 5
     invoke-virtual {p0, v1}, Lumg;->R(I)Landroid/view/View;
@@ -1645,24 +1645,24 @@
 
     if-eqz v0, :cond_2
 
-    const v3, 0x7f08097a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_card_item_edit_bg_dark:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f08097b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->icon_miui_card_item_edit_bg_light:I
 
     :goto_2
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->setBackgroundResource(I)V
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f080982
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_et_cardmode_local2cell_dark:I
 
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f080983
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_et_cardmode_local2cell_light:I
 
     .line 13
     :goto_3
@@ -1671,7 +1671,7 @@
     goto :goto_4
 
     :cond_4
-    const v0, 0x7f0b0353
+    sget v0, Lcom/resouce/module/ResID;->card_mode_edit:I
 
     .line 14
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -1692,7 +1692,7 @@
 
     iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v2, 0x7f0b034c
+    sget v2, Lcom/resouce/module/ResID;->card_item_bg_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1705,7 +1705,7 @@
 
     invoke-virtual {v0, p0}, Lcn/wps/moffice/spreadsheet/control/screenadapter/cardmode/view/CardModeEditText;->q(Lrmg;)V
 
-    const v0, 0x7f0b034d
+    sget v0, Lcom/resouce/module/ResID;->card_item_img:I
 
     .line 18
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -1716,7 +1716,7 @@
 
     iput-object v0, p0, Lrmg;->z0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0352
+    sget v0, Lcom/resouce/module/ResID;->card_mode_cell_pic:I
 
     .line 19
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -1734,7 +1734,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2549
+    sget v0, Lcom/resouce/module/ResID;->progress_progressbar:I
 
     .line 21
     invoke-virtual {p0, v0}, Lumg;->R(I)Landroid/view/View;
@@ -2117,7 +2117,7 @@
     :cond_5
     iget-object v0, p0, Lrmg;->y0:Lllg;
 
-    const v1, 0x7f120752
+    sget v1, Lcom/resouce/module/ResSTRING;->et_card_mode_reach_end_item:I
 
     invoke-virtual {v0, v1}, Lllg;->Z0(I)V
 
@@ -2150,7 +2150,7 @@
     .line 4
     iget-object p1, p0, Lrmg;->y0:Lllg;
 
-    const v0, 0x7f120751
+    sget v0, Lcom/resouce/module/ResSTRING;->et_card_mode_item_cannot_edit:I
 
     invoke-virtual {p1, v0}, Lllg;->Z0(I)V
 

@@ -258,7 +258,7 @@
 .method public static e(Landroid/app/Activity;)I
     .locals 0
 
-    const p0, 0x7f081a7f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_oversea_update_finish:I
 
     return p0
 .end method
@@ -268,12 +268,12 @@
 
     if-eqz p1, :cond_0
 
-    const p0, 0x7f0e0d44
+    sget p0, Lcom/resouce/module/ResLAYOUT;->public_oversea_update_notification_pause:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f0e0d45
+    sget p0, Lcom/resouce/module/ResLAYOUT;->public_oversea_update_notification_start:I
 
     return p0
 .end method
@@ -281,7 +281,7 @@
 .method public static g(Landroid/app/Activity;)I
     .locals 0
 
-    const p0, 0x7f081a81
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_oversea_update_pause:I
 
     return p0
 .end method
@@ -289,7 +289,7 @@
 .method public static h(Landroid/app/Activity;)I
     .locals 0
 
-    const p0, 0x7f081a84
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_oversea_update_start:I
 
     return p0
 .end method
@@ -366,12 +366,12 @@
 
     if-lt v7, v8, :cond_1
 
-    const v7, 0x7f081a5d
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_0
 
     :cond_1
-    const v7, 0x7f081984
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 5
     :goto_0
@@ -397,7 +397,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f12056c
+    sget v10, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -486,18 +486,18 @@
 
     move-result-object v13
 
-    const v15, 0x7f0b1f6f
+    sget v15, Lcom/resouce/module/ResID;->percentage:I
 
     invoke-virtual {v9, v15, v13}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v13, 0x7f0b2534
+    sget v13, Lcom/resouce/module/ResID;->progress:I
 
     const/16 v15, 0x64
 
     .line 17
     invoke-virtual {v9, v13, v15, v1, v8}, Landroid/widget/RemoteViews;->setProgressBar(IIIZ)V
 
-    const v13, 0x7f0b031a
+    sget v13, Lcom/resouce/module/ResID;->button:I
 
     if-ne v1, v15, :cond_2
 
@@ -581,11 +581,11 @@
 
     move-result-object v6
 
-    const v10, 0x7f0b1f6f
+    sget v10, Lcom/resouce/module/ResID;->percentage:I
 
     invoke-virtual {v9, v10, v6}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v6, 0x7f12201e
+    sget v6, Lcom/resouce/module/ResSTRING;->public_download_completed:I
 
     .line 27
     invoke-virtual {v0, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -672,7 +672,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b3304
+    sget v2, Lcom/resouce/module/ResID;->update_notification_view:I
 
     .line 40
     invoke-virtual {v9, v2, v0}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V

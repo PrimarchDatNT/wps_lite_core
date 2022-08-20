@@ -115,7 +115,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040231
+    sget v0, Lcom/resouce/module/ResATTR;->floatingActionButtonStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -282,7 +282,7 @@
 
     move-result-object v5
 
-    const v8, 0x7f070491
+    sget v8, Lcom/resouce/module/ResDIMEN;->mtrl_fab_min_touch_target:I
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1046,7 +1046,7 @@
 
     if-eq p1, v2, :cond_1
 
-    const p1, 0x7f0700ad
+    sget p1, Lcom/resouce/module/ResDIMEN;->design_fab_size_normal:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1056,7 +1056,7 @@
     return p1
 
     :cond_1
-    const p1, 0x7f0700ac
+    sget p1, Lcom/resouce/module/ResDIMEN;->design_fab_size_mini:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

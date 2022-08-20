@@ -312,7 +312,7 @@
 
     if-eqz p1, :cond_d
 
-    const p2, 0x7f0b2f56
+    sget p2, Lcom/resouce/module/ResID;->textinput_helper_text:I
 
     .line 30
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->setLabelFor(I)V

@@ -45,12 +45,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122361
+    sget v0, Lcom/resouce/module/ResSTRING;->public_infoflow_url_cn:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122362
+    sget v0, Lcom/resouce/module/ResSTRING;->public_infoflow_url_en:I
 
     .line 2
     :goto_0

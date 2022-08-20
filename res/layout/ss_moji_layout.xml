@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.spreadsheet.control.ink.InkGestureView android:id="@id/ss_moji_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:layout_gravity="start|center|top" android:id="@id/ss_moji_close" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/public_ink_close" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip" style="@style/public_more_list_button_bg_style" />
-</FrameLayout>

@@ -35,105 +35,105 @@
 
     sput-object v0, Lwo2;->C0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b0f75
+    sget v1, Lcom/resouce/module/ResID;->guide_edit_icon:I
 
     const/4 v2, 0x1
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f76
+    sget v1, Lcom/resouce/module/ResID;->guide_edit_text:I
 
     const/4 v2, 0x2
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f72
+    sget v1, Lcom/resouce/module/ResID;->guide_edit_arrow:I
 
     const/4 v2, 0x3
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f73
+    sget v1, Lcom/resouce/module/ResID;->guide_edit_desc:I
 
     const/4 v2, 0x4
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f8e
+    sget v1, Lcom/resouce/module/ResID;->guide_tools_icon:I
 
     const/4 v2, 0x5
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f8f
+    sget v1, Lcom/resouce/module/ResID;->guide_tools_text:I
 
     const/4 v2, 0x6
 
     .line 7
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f8b
+    sget v1, Lcom/resouce/module/ResID;->guide_tools_arrow:I
 
     const/4 v2, 0x7
 
     .line 8
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f8c
+    sget v1, Lcom/resouce/module/ResID;->guide_tools_desc:I
 
     const/16 v2, 0x8
 
     .line 9
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f82
+    sget v1, Lcom/resouce/module/ResID;->guide_pdf_to_doc_icon:I
 
     const/16 v2, 0x9
 
     .line 10
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f83
+    sget v1, Lcom/resouce/module/ResID;->guide_pdf_to_doc_text:I
 
     const/16 v2, 0xa
 
     .line 11
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f80
+    sget v1, Lcom/resouce/module/ResID;->guide_pdf_to_doc_arrow:I
 
     const/16 v2, 0xb
 
     .line 12
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f81
+    sget v1, Lcom/resouce/module/ResID;->guide_pdf_to_doc_desc:I
 
     const/16 v2, 0xc
 
     .line 13
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f74
+    sget v1, Lcom/resouce/module/ResID;->guide_edit_group:I
 
     const/16 v2, 0xd
 
     .line 14
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f8d
+    sget v1, Lcom/resouce/module/ResID;->guide_tools_group:I
 
     const/16 v2, 0xe
 
     .line 15
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b0f71
+    sget v1, Lcom/resouce/module/ResID;->guide_convert_group:I
 
     const/16 v2, 0xf
 

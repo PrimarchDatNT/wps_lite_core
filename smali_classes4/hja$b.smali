@@ -296,7 +296,7 @@
     .line 21
     iget-object v0, p0, Lhja$b;->a:Landroid/app/Notification$Builder;
 
-    const v1, 0x7f081a5d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
@@ -318,7 +318,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081984
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-static {v1, v2}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;
 
@@ -496,7 +496,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f081a5d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;

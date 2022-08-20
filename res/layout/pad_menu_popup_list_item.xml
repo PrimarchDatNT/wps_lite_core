@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/pad_menu" android:background="@drawable/public_pad_titlebar_item_selector" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/pad_second_toolbar_height" android:paddingStart="0.0dip" android:paddingEnd="12.0dip" pressAlphaEnabled="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:id="@id/popup_list_item_image" android:layout_width="@dimen/pad_title_image_height" android:layout_height="@dimen/pad_title_image_height" android:layout_marginStart="16.0dip" />
-    <TextView android:textSize="@dimen/pad_titlebar_menu_textsize" android:textColor="@color/mainTextColor" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/popup_list_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" />
-    <TextView android:gravity="start|center" android:layout_gravity="center" android:id="@id/limit_free_btn" android:visibility="gone" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/share_title" android:layout_toEndOf="@id/share_title" style="@style/limit_free_btn_style" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

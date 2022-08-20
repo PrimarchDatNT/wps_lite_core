@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -72,7 +72,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -137,7 +137,7 @@
 .method public e(Lah3;Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b3669
+    sget v0, Lcom/resouce/module/ResID;->writer_revision_show_revision_text:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v1, p0, Lqwk;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3664
+    sget v1, Lcom/resouce/module/ResID;->writer_revision_revision_state_text:I
 
     .line 2
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     iput-object v2, p0, Lqwk;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f0b366a
+    sget v2, Lcom/resouce/module/ResID;->writer_revision_show_revision_underline:I
 
     .line 3
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     iput-object v2, p0, Lqwk;->g:Landroid/widget/TextView;
 
-    const v2, 0x7f0b3665
+    sget v2, Lcom/resouce/module/ResID;->writer_revision_revision_state_underline:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     iput-object v2, p0, Lqwk;->h:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2907
+    sget v2, Lcom/resouce/module/ResID;->revision_info_detail_text_0:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     iput-object v2, p0, Lqwk;->i:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2908
+    sget v2, Lcom/resouce/module/ResID;->revision_info_detail_text_1:I
 
     .line 6
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     iput-object v2, p0, Lqwk;->j:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2905
+    sget v2, Lcom/resouce/module/ResID;->revision_info_detail_radio_btn_0:I
 
     .line 7
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     iput-object v2, p0, Lqwk;->k:Landroid/widget/RadioButton;
 
-    const v2, 0x7f0b2906
+    sget v2, Lcom/resouce/module/ResID;->revision_info_detail_radio_btn_1:I
 
     .line 8
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2902
+    sget v0, Lcom/resouce/module/ResID;->revision_info_detail_0:I
 
     .line 14
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -277,7 +277,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2903
+    sget v0, Lcom/resouce/module/ResID;->revision_info_detail_1:I
 
     .line 15
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -290,7 +290,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2909
+    sget v0, Lcom/resouce/module/ResID;->revision_info_show_revision_btn_cover:I
 
     .line 16
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -303,7 +303,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b290a
+    sget v0, Lcom/resouce/module/ResID;->revision_info_show_revision_btn_cover_layout:I
 
     .line 17
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e1088
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_edittoolbar_editmode_show_revision_popwindow:I
 
     const/4 v2, 0x0
 
@@ -493,14 +493,14 @@
     .line 6
     iget-object v0, p0, Lqwk;->i:Landroid/widget/TextView;
 
-    const v3, 0x7f12340c
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_show_revision_final_state:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
     iget-object v0, p0, Lqwk;->j:Landroid/widget/TextView;
 
-    const v3, 0x7f1233f5
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_revision_final:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -637,14 +637,14 @@
     .line 28
     iget-object v0, p0, Lqwk;->i:Landroid/widget/TextView;
 
-    const v3, 0x7f1233f6
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_revision_in_right_bollom_panel:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
     .line 29
     iget-object v0, p0, Lqwk;->j:Landroid/widget/TextView;
 
-    const v3, 0x7f1233f7
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_revision_inline_mode:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 

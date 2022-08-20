@@ -131,15 +131,15 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f06019d
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     if-eq p0, v2, :cond_0
 
-    const p0, 0x7f08076f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_editor:I
 
-    const v2, 0x7f122bc0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_share_pic_editor:I
 
-    const v4, 0x7f1210ba
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_share_pic_editor_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -158,11 +158,11 @@
     return-object p0
 
     :cond_0
-    const p0, 0x7f080738
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_export_pages:I
 
-    const p1, 0x7f1217dd
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v2, 0x7f121906
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_pdf_export_pages_pay_tips:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -181,13 +181,13 @@
     return-object p0
 
     :cond_1
-    const p0, 0x7f08072b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f1210b8
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -507,12 +507,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121359
+    sget p1, Lcom/resouce/module/ResSTRING;->load_photo_fail:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120019
+    sget p1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     :goto_0
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

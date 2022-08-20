@@ -24,7 +24,7 @@
     .line 2
     iput-object p1, p0, Lwub;->c:Landroid/content/Context;
 
-    const v0, 0x7f120474
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_processing:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -2312,11 +2312,11 @@
 
     invoke-direct {v1, p0, p1, p2}, Lxp3$b;-><init>(Lxp3;Lu73$b;Ljava/lang/Object;)V
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     new-instance v3, Lxp3$c;
@@ -2332,7 +2332,7 @@
 
     invoke-virtual {v0, p1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const p1, 0x7f1223b2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_isSaveOrNot:I
 
     .line 6
     invoke-static {p1}, Lxp3;->F(I)Ljava/lang/String;

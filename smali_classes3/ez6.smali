@@ -89,7 +89,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12168a
+    sget v2, Lcom/resouce/module/ResSTRING;->path_mini_program_import_file:I
 
     const/4 v3, 0x2
 

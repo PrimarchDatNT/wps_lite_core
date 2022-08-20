@@ -96,7 +96,7 @@
 
     invoke-direct {v0, p0, p4}, Lel7$c;-><init>(Lel7;Ljava/lang/String;)V
 
-    const p4, 0x7f081782
+    sget p4, Lcom/resouce/module/ResDRAWABLE;->pub_share_more:I
 
     if-ne p3, p4, :cond_0
 
@@ -112,7 +112,7 @@
     :cond_0
     const/4 p4, 0x0
 
-    const v1, 0x7f081781
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_share_link2:I
 
     if-eq p3, v1, :cond_1
 
@@ -292,7 +292,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0816d6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_wechat:I
 
     if-ne p1, v3, :cond_0
 
@@ -305,7 +305,7 @@
     goto :goto_2
 
     :cond_0
-    const v3, 0x7f0816d3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_qq:I
 
     if-ne p1, v3, :cond_1
 
@@ -318,7 +318,7 @@
     goto :goto_2
 
     :cond_1
-    const v3, 0x7f081781
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_share_link2:I
 
     if-ne p1, v3, :cond_2
 
@@ -330,7 +330,7 @@
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f08177a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_share_contact:I
 
     if-ne p1, v1, :cond_3
 
@@ -339,7 +339,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f081782
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_share_more:I
 
     if-ne p1, v0, :cond_4
 
@@ -427,17 +427,17 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0e2f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_share_folder_invite_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f122ae9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_title_invite:I
 
     .line 3
     invoke-virtual {p0, p1}, Lyc3;->W2(I)V
 
-    const p1, 0x7f0b29cb
+    sget p1, Lcom/resouce/module/ResID;->rv_share_list:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
 
     iput-object p1, p0, Lel7;->a0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const p1, 0x7f0b315d    # 1.85019E38f
+    sget p1, Lcom/resouce/module/ResID;->tv_enter_share_folder:I    # 1.85019E38f
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

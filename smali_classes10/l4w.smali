@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f01
+    sget v1, Lcom/resouce/module/ResLAYOUT;->search_activity_home_search:I
 
     const/4 v2, 0x0
 
@@ -184,7 +184,7 @@
 
     if-lt v1, v2, :cond_0
 
-    const v1, 0x7f0b2ac4
+    sget v1, Lcom/resouce/module/ResID;->searchroot:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

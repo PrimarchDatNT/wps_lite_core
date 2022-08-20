@@ -93,7 +93,7 @@
     .line 1
     invoke-virtual {p0, v0}, Lhdc;->b1(Z)V
 
-    const v0, 0x7f0b1d9a
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object v0, p0, Ldcc;->h0:Lcn/wps/moffice/pdf/shell/annotation/panels/common/AnnoColorsGridView;
 
-    const v0, 0x7f0b1d9d
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Ldcc;->i0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1d9c
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh_area:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 .method public Y0()I
     .locals 1
 
-    const v0, 0x7f0e07a3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_high_light:I
 
     return v0
 .end method

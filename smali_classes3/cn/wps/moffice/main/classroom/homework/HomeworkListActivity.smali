@@ -120,7 +120,7 @@
     .line 1
     new-instance v0, Ley6;
 
-    const v1, 0x7f12125f
+    sget v1, Lcom/resouce/module/ResSTRING;->homework_request_list:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -242,9 +242,9 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0b0416
+    sget v2, Lcom/resouce/module/ResID;->classroom_guide:I
 
-    const v3, 0x7f0810b3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_feedback:I
 
     .line 9
     new-instance v4, Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity$a;
@@ -254,9 +254,9 @@
     invoke-virtual {v0, v2, v3, v4}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->n(IILandroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v1, 0x7f0b3029
+    sget v1, Lcom/resouce/module/ResID;->titlebar_more_icon:I
 
-    const v2, 0x7f081a3d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_more:I
 
     .line 10
     new-instance v3, Lcn/wps/moffice/main/classroom/homework/HomeworkListActivity$b;
@@ -433,7 +433,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f120267
+    sget p1, Lcom/resouce/module/ResSTRING;->class_homework_assgin_error:I
 
     const/4 p2, 0x0
 

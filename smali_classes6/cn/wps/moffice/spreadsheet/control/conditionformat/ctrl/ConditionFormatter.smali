@@ -32,15 +32,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080432
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_conditional_formatting:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080de9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_conditional_formatting:I
 
     :goto_0
-    const v2, 0x7f1207ec
+    sget v2, Lcom/resouce/module/ResSTRING;->et_conditional_formatting:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/conditionformat/ctrl/ConditionFormatter$2;-><init>(Lcn/wps/moffice/spreadsheet/control/conditionformat/ctrl/ConditionFormatter;II)V
 

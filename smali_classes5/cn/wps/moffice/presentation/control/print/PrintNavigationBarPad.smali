@@ -55,7 +55,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -68,7 +68,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605af
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_titlebar_ppt_bg:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0aba
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_print_dialog_left_tabbar_pad:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -107,7 +107,7 @@
 .method public b()V
     .locals 2
 
-    const v0, 0x7f0b23d8
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_setting_btn:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/PrintNavigationBarPad;->B:Landroid/widget/Button;
 
-    const v0, 0x7f0b23ce    # 1.849486E38f
+    sget v0, Lcom/resouce/module/ResID;->ppt_print_preview_btn:I    # 1.849486E38f
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

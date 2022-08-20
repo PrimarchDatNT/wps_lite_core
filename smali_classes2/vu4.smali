@@ -35,7 +35,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0af6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->premium_upgrade_dialog:I
 
     const/4 v1, 0x0
 
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Lvu4;->S:Landroid/view/View;
 
-    const v0, 0x7f0b1359
+    sget v0, Lcom/resouce/module/ResID;->instance_upgrade_tv:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -59,7 +59,7 @@
     .line 5
     iget-object p1, p0, Lvu4;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0452
+    sget v0, Lcom/resouce/module/ResID;->close_ll:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -204,7 +204,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1359
+    sget v0, Lcom/resouce/module/ResID;->instance_upgrade_tv:I
 
     if-ne p1, v0, :cond_2
 
@@ -297,7 +297,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b0452
+    sget v0, Lcom/resouce/module/ResID;->close_ll:I
 
     if-ne p1, v0, :cond_3
 

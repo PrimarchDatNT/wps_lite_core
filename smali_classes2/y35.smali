@@ -265,7 +265,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f121c2c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_qq_share:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -279,7 +279,7 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f0808ce
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qq:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -289,7 +289,7 @@
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f080f4b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_qq:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -313,14 +313,14 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f121c40
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_wechat_share:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v4, 0x7f081374
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_send_wechat_friend:I
 
     .line 14
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -336,14 +336,14 @@
     invoke-virtual {v0, v2, v5}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
-    const v2, 0x7f121c0a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_copy_url:I
 
     .line 17
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v4, 0x7f081743
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_copylink:I
 
     .line 18
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -387,7 +387,7 @@
     :cond_0
     iget-object v0, p0, Ly35;->b:Li9a;
 
-    const v1, 0x7f1229d1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_invite_weichat_title:I
 
     const/4 v2, 0x1
 
@@ -405,7 +405,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229cf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_invite_weichat_content:I
 
     .line 4
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -459,7 +459,7 @@
     .line 4
     iget-object v0, p0, Ly35;->a:Le9a;
 
-    const v1, 0x7f1229cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_invite_weichat_content:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -471,7 +471,7 @@
     :cond_0
     iget-object v0, p0, Ly35;->a:Le9a;
 
-    const v1, 0x7f1229d1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_invite_weichat_title:I
 
     const/4 v2, 0x1
 

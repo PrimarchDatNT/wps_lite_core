@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f060002
+    sget v5, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -137,7 +137,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f060657
+    sget v5, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -170,7 +170,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0602c2
+    sget v5, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -269,7 +269,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0707c2
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_divide_line_black_padding_v:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -290,7 +290,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f060485
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_vertical_divide_line_color:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 

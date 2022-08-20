@@ -51,7 +51,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b14ab    # 1.8487E38f
+    sget v2, Lcom/resouce/module/ResID;->iv_pursing_default_empty:I    # 1.8487E38f
 
     if-eqz v0, :cond_0
 

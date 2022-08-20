@@ -124,7 +124,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -673,7 +673,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -693,7 +693,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

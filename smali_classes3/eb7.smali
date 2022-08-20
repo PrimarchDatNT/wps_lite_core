@@ -27,7 +27,7 @@
 
     iget-object v0, p0, Ldb7;->e:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0e1057
+    sget v1, Lcom/resouce/module/ResLAYOUT;->wps_drive_group_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -35,7 +35,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b3497
+    sget v0, Lcom/resouce/module/ResID;->wps_group_create_btn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
     nop
 
     :goto_0
-    const v0, 0x7f0b36e4
+    sget v0, Lcom/resouce/module/ResID;->wsdrive_group_inner_layout_image:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f081941
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_group_introduce_image:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -92,7 +92,7 @@
     goto :goto_1
 
     :cond_0
-    const v1, 0x7f080f6f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_pic_teamwork:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -198,7 +198,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b34ae    # 1.8503622E38f
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_group_inner_layout:I    # 1.8503622E38f
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

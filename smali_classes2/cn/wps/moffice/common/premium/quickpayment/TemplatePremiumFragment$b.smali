@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2ed6
+    sget p2, Lcom/resouce/module/ResID;->template_premium_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
 
     move-result p1
 
-    const p3, 0x7f0b3399
+    sget p3, Lcom/resouce/module/ResID;->view_devide_white:I
 
     if-eqz p1, :cond_1
 

@@ -78,12 +78,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0960
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_edittext_dropdown_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0bd9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_edittext_dropdown_layout:I
 
     :goto_0
     const/4 v1, 0x0
@@ -102,7 +102,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ETEditTextDropDown;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2596
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ETEditTextDropDown;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2597
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_edittext:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ETEditTextDropDown;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2598
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_sprinner:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081319
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

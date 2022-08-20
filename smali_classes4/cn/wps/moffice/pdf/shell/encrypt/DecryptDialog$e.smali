@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205e5
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastpassword:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -73,7 +73,7 @@
     :cond_0
     iget-object p1, p0, Lz87;->b:Landroid/app/Activity;
 
-    const p2, 0x7f121f7f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_copy_success:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -96,7 +96,7 @@
     .line 2
     iget-object v0, p0, Lz87;->b:Landroid/app/Activity;
 
-    const v3, 0x7f121238
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_to:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -112,7 +112,7 @@
     :cond_0
     iget-object v0, p0, Lz87;->b:Landroid/app/Activity;
 
-    const v3, 0x7f12122a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wps_drive_copy_to:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -128,7 +128,7 @@
 
     iget-object v1, p0, Lz87;->b:Landroid/app/Activity;
 
-    const v2, 0x7f122ba9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_view:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

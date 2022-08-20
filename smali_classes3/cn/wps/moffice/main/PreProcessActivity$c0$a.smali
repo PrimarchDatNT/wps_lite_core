@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/PreProcessActivity$c0;->B:Lcn/wps/moffice/main/PreProcessActivity;
 
-    const v1, 0x7f12281c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_root_tips:I
 
     const/4 v2, 0x1
 

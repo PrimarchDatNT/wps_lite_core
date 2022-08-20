@@ -987,7 +987,7 @@
 
     move-result-object p2
 
-    const p4, 0x7f1201d9
+    sget p4, Lcom/resouce/module/ResSTRING;->author_pc_login_notify_title:I
 
     invoke-virtual {p2, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -998,7 +998,7 @@
 
     move-result-object p4
 
-    const p5, 0x7f1201d8
+    sget p5, Lcom/resouce/module/ResSTRING;->author_pc_login_notify_content:I
 
     invoke-virtual {p4, p5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1027,7 +1027,7 @@
 
     move-result-object p3
 
-    const p5, 0x7f081984
+    sget p5, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 20
     invoke-static {p0, p5}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;
@@ -1242,7 +1242,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 14
     invoke-static {p0, v0}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;

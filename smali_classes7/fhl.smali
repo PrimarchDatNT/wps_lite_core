@@ -18,7 +18,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08be
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_quick_bar_frame_type_item_layout:I
 
     const/4 v2, 0x0
 
@@ -85,7 +85,7 @@
     .line 2
     iget-object v0, p0, Lql3;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b27ac
+    sget v1, Lcom/resouce/module/ResID;->quick_bar_frame_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122f75
+    sget p2, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     const/4 p3, 0x0
 

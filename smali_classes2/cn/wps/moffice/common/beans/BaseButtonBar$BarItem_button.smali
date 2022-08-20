@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07015b
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_base_button_bar_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07015c
+    sget v2, Lcom/resouce/module/ResDIMEN;->et_base_button_bar_item_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f07015d
+    sget v3, Lcom/resouce/module/ResDIMEN;->et_base_button_bar_textsize:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -77,7 +77,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f060163
+    sget v3, Lcom/resouce/module/ResCOLOR;->et_base_button_bar_item_text_color:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -85,7 +85,7 @@
 
     iput p1, p0, Lcn/wps/moffice/common/beans/BaseButtonBar$BarItem_button;->T:I
 
-    const v3, 0x7f0819e8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_item_selected_bg_selector:I
 
     .line 6
     iput v3, p0, Lcn/wps/moffice/common/beans/BaseButtonBar$BarItem_button;->U:I

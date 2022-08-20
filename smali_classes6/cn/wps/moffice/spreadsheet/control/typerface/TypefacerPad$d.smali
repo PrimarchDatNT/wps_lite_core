@@ -89,7 +89,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    const p1, 0x7f1208aa
+    sget p1, Lcom/resouce/module/ResSTRING;->et_font_size_error:I
 
     .line 4
     invoke-static {p1, p3}, Lsjf;->h(II)V

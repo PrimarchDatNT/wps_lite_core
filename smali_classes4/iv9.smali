@@ -93,17 +93,17 @@
     goto/16 :goto_4
 
     :cond_0
-    const v1, 0x7f0b167f
+    sget v1, Lcom/resouce/module/ResID;->ll_home_top_animation:I
 
-    const v2, 0x7f0b300a
+    sget v2, Lcom/resouce/module/ResID;->title_search_bar:I
 
-    const v3, 0x7f0b1fe3
+    sget v3, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_bg:I
 
-    const v4, 0x7f0b1680
+    sget v4, Lcom/resouce/module/ResID;->ll_home_top_container:I
 
-    const v5, 0x7f0b1fe4
+    sget v5, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_container:I
 
-    const v6, 0x7f0b21a0
+    sget v6, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     const/4 v7, 0x0
 

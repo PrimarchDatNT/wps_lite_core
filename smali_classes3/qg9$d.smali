@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

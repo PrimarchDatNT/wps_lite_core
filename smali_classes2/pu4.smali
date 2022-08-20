@@ -72,7 +72,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 
@@ -89,7 +89,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f12274e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

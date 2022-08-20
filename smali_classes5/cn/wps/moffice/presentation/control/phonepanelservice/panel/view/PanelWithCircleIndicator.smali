@@ -47,13 +47,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e080b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_panel_with_circle_indicator_layout:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b209e
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_panel_viewpager:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/panel/view/PanelWithCircleIndicator;->B:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const p1, 0x7f0b209f
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_panel_viewpager_indicator:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/panel/view/PanelWithCircleIndicator;->I:Lcn/wps/moffice/common/beans/phone/indicator/PanelIndicator;
 
-    const p1, 0x7f0b20a0
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_panel_viewpager_indicator_pop:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/phonepanelservice/panel/view/PanelWithCircleIndicator;->S:Lcn/wps/moffice/common/beans/phone/indicator/PanelIndicatorPopView;
 
-    const p1, 0x7f0b2095
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_panel_mainpanel_container:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

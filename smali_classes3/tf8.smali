@@ -22,7 +22,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0906
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_recovery_file_footer:I
 
     return v0
 .end method
@@ -36,7 +36,7 @@
     .line 2
     iget-object v0, p0, Lsf8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e6d
+    sget v1, Lcom/resouce/module/ResID;->footer_load_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
 
     iget-object p2, p0, Lsf8;->a:Landroid/content/Context;
 
-    const v2, 0x7f12214d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_recovered_load_more_file:I
 
     invoke-virtual {p2, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -214,7 +214,7 @@
 
     iget-object p2, p0, Lsf8;->a:Landroid/content/Context;
 
-    const v0, 0x7f12214e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_file_recovered_loading_more_file:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

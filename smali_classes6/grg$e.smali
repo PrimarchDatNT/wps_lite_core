@@ -80,7 +80,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1219a8
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_select:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -142,7 +142,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 

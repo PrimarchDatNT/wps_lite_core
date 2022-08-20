@@ -297,7 +297,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122846
+    sget p3, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122846
+    sget p3, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -491,11 +491,11 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/SummarySlide;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ddc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt_insert_summary_template_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1356
+    sget v0, Lcom/resouce/module/ResID;->insert_summary_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -630,7 +630,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/SummarySlide;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121c49
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -94,7 +94,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask;->j:Lcn/wps/moffice/main/scan/imgConvert/Task/OnlineKaiConvertTask$h;
 
-    const p2, 0x7f1204c8
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_translation_net_fail:I
 
     const/4 v0, 0x1
 
@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1203a9
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_fix_file_upload_error:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1214c4
+    sget v0, Lcom/resouce/module/ResSTRING;->ocr_pic2text_network_error:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -62,7 +62,7 @@
 
     iget-object p1, p1, Lhql;->y0:Landroid/widget/ImageView;
 
-    const v0, 0x7f08191a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_find_replace_pull_btn:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122db7
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_writer_hide:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -98,7 +98,7 @@
 
     iget-object p1, p1, Lhql;->y0:Landroid/widget/ImageView;
 
-    const v0, 0x7f081918
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_find_replace_fold_btn:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dc2
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_writer_more:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

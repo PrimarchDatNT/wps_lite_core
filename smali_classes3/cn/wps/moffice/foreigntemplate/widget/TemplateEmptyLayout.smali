@@ -37,13 +37,13 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0fb8
+    sget p3, Lcom/resouce/module/ResLAYOUT;->template_my_empty_layout:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2ed2
+    sget p1, Lcom/resouce/module/ResID;->template_my_empty_tips_img:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

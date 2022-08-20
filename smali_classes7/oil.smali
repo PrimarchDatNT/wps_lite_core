@@ -255,7 +255,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     const/4 v1, 0x0
 
@@ -431,7 +431,7 @@
 
     sget-object v2, Loik;->j:Loik;
 
-    const v3, 0x7f081f10
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_bg_with_margin:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -444,7 +444,7 @@
 
     sget-object v2, Loik;->q:Loik;
 
-    const v3, 0x7f081f96
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_eye_protection_green:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -457,7 +457,7 @@
 
     sget-object v2, Loik;->r:Loik;
 
-    const v3, 0x7f081f97
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_light_blue:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -470,7 +470,7 @@
 
     sget-object v2, Loik;->s:Loik;
 
-    const v3, 0x7f081f98
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_light_pink:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -483,7 +483,7 @@
 
     sget-object v2, Loik;->m:Loik;
 
-    const v3, 0x7f081f95
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_public_read_background_drak_blue:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -496,7 +496,7 @@
 
     sget-object v2, Loik;->p:Loik;
 
-    const v3, 0x7f081f0e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_background_parchment:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -509,7 +509,7 @@
 
     sget-object v2, Loik;->t:Loik;
 
-    const v3, 0x7f081f0d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_background_green_landscape:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 
@@ -522,7 +522,7 @@
 
     sget-object v2, Loik;->u:Loik;
 
-    const v3, 0x7f081f0f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_background_winter_forest:I
 
     invoke-direct {v1, v2, v3}, Lyjl;-><init>(Loik;I)V
 

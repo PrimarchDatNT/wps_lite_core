@@ -49,16 +49,16 @@
 
     move-result-object p1
 
-    const v0, 0x7f0803a2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_private_folder:I
 
-    const v1, 0x7f12289d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secfolder_move:I
 
     .line 2
     invoke-static {v0, v1, p1}, Ldi9;->x(IILjava/lang/String;)Ldi9$f;
 
     move-result-object p1
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 3
     invoke-static {v0}, Ll57;->a(I)I

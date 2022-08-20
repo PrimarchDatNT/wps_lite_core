@@ -166,7 +166,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070abc
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_margin_v:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -199,7 +199,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f081452
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_writer_none_color_selector:I
 
     invoke-virtual {p1, p3}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -210,12 +210,12 @@
 
     if-ne v0, p3, :cond_7
 
-    const p3, 0x7f12335e
+    sget p3, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     goto :goto_1
 
     :cond_7
-    const p3, 0x7f1233c4
+    sget p3, Lcom/resouce/module/ResSTRING;->writer_noneColor:I
 
     :goto_1
     invoke-virtual {p1, p3}, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->setAutoBtnText(I)V
@@ -273,7 +273,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e09c6
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_writer_color_panel_notitlebar_layout:I
 
     invoke-virtual {p1, p3, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -384,7 +384,7 @@
 
     move-result v2
 
-    const v3, 0x7f070abc
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_margin_v:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -405,7 +405,7 @@
     .line 9
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/view/View;->setPadding(IIII)V
 
-    const p1, 0x7f070ab8
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -507,7 +507,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080ecc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_operator_btn_bg:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -516,7 +516,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070dc5
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_titlebar_popup_btn_padding_left_right:I
 
     invoke-static {p1, v1}, Ldgh;->j(Landroid/content/Context;I)I
 
@@ -555,11 +555,11 @@
     .line 11
     iget-object p1, p0, Ljyk;->e0:Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;
 
-    const v1, 0x7f1233c4
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_noneColor:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->setAutoBtnText(I)V
 
-    const p1, 0x7f070ab8
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     .line 12
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -815,7 +815,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080ecc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_operator_btn_bg:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -824,7 +824,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070dc5
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_pad_titlebar_popup_btn_padding_left_right:I
 
     invoke-static {p1, v1}, Ldgh;->j(Landroid/content/Context;I)I
 
@@ -863,11 +863,11 @@
     .line 11
     iget-object p1, p0, Ljyk;->e0:Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;
 
-    const v1, 0x7f12335e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->setAutoBtnText(I)V
 
-    const p1, 0x7f070db1
+    sget p1, Lcom/resouce/module/ResDIMEN;->writer_pad_popup_auto_color_color_select_height:I
 
     .line 12
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

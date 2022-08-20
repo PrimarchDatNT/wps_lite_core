@@ -71,7 +71,7 @@
     .line 3
     iget-object p1, p0, Lnrf$a;->B:Lnrf;
 
-    const p2, 0x7f1207d4
+    sget p2, Lcom/resouce/module/ResSTRING;->et_condition_no_param:I
 
     invoke-static {p1, p2}, Lnrf;->l(Lnrf;I)V
 

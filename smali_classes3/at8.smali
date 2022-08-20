@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12030d
+    sget v1, Lcom/resouce/module/ResSTRING;->company_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123265
+    sget v1, Lcom/resouce/module/ResSTRING;->wpsdrive_tab_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0809ba
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_public_home_company:I
 
     .line 4
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->error(I)Lcom/bumptech/glide/request/BaseRequestOptions;

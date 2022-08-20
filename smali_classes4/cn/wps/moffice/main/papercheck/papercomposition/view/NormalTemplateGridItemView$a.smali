@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12250e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

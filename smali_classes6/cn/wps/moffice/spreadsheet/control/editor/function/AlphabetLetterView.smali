@@ -307,12 +307,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0805e9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->et_alphabetlistview_index_bg_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0805e8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->et_alphabetlistview_index_bg:I
 
     :goto_0
     invoke-virtual {p0, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -463,7 +463,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f060169
+    sget v10, Lcom/resouce/module/ResCOLOR;->et_func_listview_index_selected_bg:I
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -498,7 +498,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0602db
+    sget v10, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getColor(I)I
 

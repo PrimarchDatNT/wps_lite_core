@@ -132,7 +132,7 @@
     :cond_0
     iget-object v0, p0, Lb1a$k;->S:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
     .line 9
     iget-object v0, p0, Lb1a$k;->S:Landroid/content/Context;
 
-    const v1, 0x7f1202bf
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_network_error:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

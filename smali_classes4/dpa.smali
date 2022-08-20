@@ -37,11 +37,11 @@
 
     const-string v0, "notification"
 
-    const v1, 0x7f1214d2
+    sget v1, Lcom/resouce/module/ResSTRING;->oem_title_notification:I
 
     const-string v2, "default"
 
-    const v3, 0x7f122c94
+    sget v3, Lcom/resouce/module/ResSTRING;->push_channel_default:I
 
     .line 3
     invoke-virtual {p0, v0, v1, v2, v3}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -57,11 +57,11 @@
 
     const-string v0, "activity"
 
-    const v1, 0x7f122c9c
+    sget v1, Lcom/resouce/module/ResSTRING;->push_group_activity:I
 
     const-string v2, "userActivity"
 
-    const v3, 0x7f122c9b
+    sget v3, Lcom/resouce/module/ResSTRING;->push_channel_user_activity:I
 
     .line 5
     invoke-virtual {p0, v0, v1, v2, v3}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -70,7 +70,7 @@
 
     const-string v3, "trialAndDiscount"
 
-    const v4, 0x7f122c9a
+    sget v4, Lcom/resouce/module/ResSTRING;->push_channel_trial_discount:I
 
     .line 6
     invoke-virtual {p0, v0, v1, v3, v4}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -79,7 +79,7 @@
 
     const-string v4, "officeTips"
 
-    const v5, 0x7f122c97
+    sget v5, Lcom/resouce/module/ResSTRING;->push_channel_office_tips:I
 
     .line 7
     invoke-virtual {p0, v0, v1, v4, v5}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -103,11 +103,11 @@
 
     const-string v0, "docUsage"
 
-    const v1, 0x7f122c9d
+    sget v1, Lcom/resouce/module/ResSTRING;->push_group_doc_usage:I
 
     const-string v2, "guide"
 
-    const v3, 0x7f122c96
+    sget v3, Lcom/resouce/module/ResSTRING;->push_channel_guide:I
 
     .line 11
     invoke-virtual {p0, v0, v1, v2, v3}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -116,7 +116,7 @@
 
     const-string v3, "receivedFiles"
 
-    const v4, 0x7f122c99
+    sget v4, Lcom/resouce/module/ResSTRING;->push_channel_received_files:I
 
     .line 12
     invoke-virtual {p0, v0, v1, v3, v4}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -125,7 +125,7 @@
 
     const-string v4, "quickAccess"
 
-    const v5, 0x7f122c98
+    sget v5, Lcom/resouce/module/ResSTRING;->push_channel_quick_access:I
 
     .line 13
     invoke-virtual {p0, v0, v1, v4, v5}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -134,7 +134,7 @@
 
     const-string v5, "cloud"
 
-    const v6, 0x7f122c93
+    sget v6, Lcom/resouce/module/ResSTRING;->push_channel_cloud:I
 
     .line 14
     invoke-virtual {p0, v0, v1, v5, v6}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;
@@ -163,11 +163,11 @@
 
     const-string v0, "other"
 
-    const v1, 0x7f122c9e
+    sget v1, Lcom/resouce/module/ResSTRING;->push_group_other:I
 
     const-string v2, "download"
 
-    const v3, 0x7f122c95
+    sget v3, Lcom/resouce/module/ResSTRING;->push_channel_download:I
 
     .line 19
     invoke-virtual {p0, v0, v1, v2, v3}, Ldpa;->a(Ljava/lang/String;ILjava/lang/String;I)Lcpa;

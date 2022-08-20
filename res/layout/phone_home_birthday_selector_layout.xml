@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/navBackgroundColor" android:layout_width="300.0dip" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.cloud.roaming.account.setting.userinfo.birthday.DatePicker android:id="@id/birthday_date_picker" android:layout_width="fill_parent" android:layout_height="192.0dip" />
-</LinearLayout>

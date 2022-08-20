@@ -486,7 +486,7 @@
     .line 3
     iget-object v1, v0, Lcn/wps/moffice/presentation/control/template/supporting/OnlineInsertSlide;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120cbb
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {v1, v2, v8}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -782,11 +782,11 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/OnlineInsertSlide;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ddb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt_insert_online_template_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2ec6
+    sget v0, Lcom/resouce/module/ResID;->template_bottom_tips_layout_container:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -850,7 +850,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/docer/cntemplate/mainview/MemberShipIntroduceView;->setSCSceneFlag(Z)V
 
-    const v0, 0x7f0b3068
+    sget v0, Lcom/resouce/module/ResID;->top_button:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -868,7 +868,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/local/filebrowser/search/common/TopTipsImageView;->setOnScrollTopListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2ece
+    sget v0, Lcom/resouce/module/ResID;->template_list:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

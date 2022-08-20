@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1228be
+    sget v2, Lcom/resouce/module/ResSTRING;->public_secret_folder_not_bind_email:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -129,7 +129,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1228c6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_secret_folder_reset_email_sent:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

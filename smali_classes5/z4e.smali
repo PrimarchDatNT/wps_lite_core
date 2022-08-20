@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c81
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_volume_is_too_low_tip:I
 
     const/4 v2, 0x0
 
@@ -488,12 +488,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f06000b
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
@@ -1069,7 +1069,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122366
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1079,7 +1079,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121be2
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_save_ink_isSaveOrNot:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1095,7 +1095,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1217cb
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_edit_keep:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1121,12 +1121,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1203e9
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122528
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1149,7 +1149,7 @@
 
     invoke-virtual {p2, p3}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
 
-    const p3, 0x7f0b069c
+    sget p3, Lcom/resouce/module/ResID;->dialog_scrollview:I
 
     .line 9
     invoke-virtual {p2, p3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1160,7 +1160,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080b02
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->none_bg_selector:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1179,7 +1179,7 @@
 
     invoke-direct {v0, p1}, Ld5e;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121ba6
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_exit_shareplay_mode:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1195,7 +1195,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122c82
+    sget v2, Lcom/resouce/module/ResSTRING;->public_yes:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1215,7 +1215,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122528
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1855,7 +1855,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f3d
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_use_laser_pen_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1973,7 +1973,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_mode_eraser_setting:I
 
     const/4 v2, 0x0
 
@@ -1983,7 +1983,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2386
+    sget v1, Lcom/resouce/module/ResID;->ppt_play_pen_eraser_clear:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2875,7 +2875,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080171
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->color_back_background:I
 
     invoke-virtual {v1, v3}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -2950,12 +2950,12 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f121bb0
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_mouse_toast:I
 
     goto :goto_1
 
     :cond_5
-    const v1, 0x7f121bb5
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_turn_t_page_toast:I
 
     :goto_1
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -4761,7 +4761,7 @@
 .method public onPlayMediaError(Lnun;)V
     .locals 0
 
-    const p1, 0x7f121b52
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_audio_unsupport_format_audio:I
 
     .line 1
     invoke-virtual {p0, p1}, Lz4e;->showCenteredToast(I)V
@@ -5802,7 +5802,7 @@
 .method public playToEnd()V
     .locals 1
 
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V
@@ -5813,7 +5813,7 @@
 .method public playToHead()V
     .locals 1
 
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V

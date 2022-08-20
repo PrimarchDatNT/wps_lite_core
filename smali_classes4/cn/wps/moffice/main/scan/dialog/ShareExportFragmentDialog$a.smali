@@ -50,7 +50,7 @@
 
     const-string v1, "value"
 
-    const v2, 0x7f0b0c1b
+    sget v2, Lcom/resouce/module/ResID;->export_pdf:I
 
     if-ne p1, v2, :cond_0
 
@@ -67,7 +67,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b0c0a
+    sget v2, Lcom/resouce/module/ResID;->export_doc:I
 
     if-ne p1, v2, :cond_1
 

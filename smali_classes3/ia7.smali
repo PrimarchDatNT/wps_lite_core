@@ -149,7 +149,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -161,7 +161,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b25a2
+    sget v0, Lcom/resouce/module/ResID;->public_company_invite_colleague:I
 
     const-string v1, "invite"
 
@@ -193,7 +193,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b25a4
+    sget v0, Lcom/resouce/module/ResID;->public_company_member_approve:I
 
     if-ne p1, v0, :cond_4
 
@@ -219,7 +219,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b25a3
+    sget v0, Lcom/resouce/module/ResID;->public_company_member:I
 
     if-ne p1, v0, :cond_5
 
@@ -245,7 +245,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b25a5
+    sget v0, Lcom/resouce/module/ResID;->public_company_more:I
 
     if-ne p1, v0, :cond_6
 
@@ -336,12 +336,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e03e7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wpsdrive_item_manage_compeny:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e03e8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wpsdrive_item_manage_compeny_oversea:I
 
     :goto_0
     const/4 v2, 0x0
@@ -359,7 +359,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b25a2
+    sget p2, Lcom/resouce/module/ResID;->public_company_invite_colleague:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b25a4
+    sget p2, Lcom/resouce/module/ResID;->public_company_member_approve:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -381,7 +381,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b25a3
+    sget p2, Lcom/resouce/module/ResID;->public_company_member:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -392,7 +392,7 @@
     .line 4
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b25a5
+    sget p2, Lcom/resouce/module/ResID;->public_company_more:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

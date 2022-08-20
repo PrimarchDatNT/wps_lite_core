@@ -184,7 +184,7 @@
     .line 13
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12110d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_rename_has_duplicate:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -625,7 +625,7 @@
     :cond_3
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120ede
+    sget v0, Lcom/resouce/module/ResSTRING;->home_current_folder:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -704,7 +704,7 @@
     :cond_1
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12110f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_rename_no_permission:I
 
     const/4 v1, 0x1
 

@@ -114,7 +114,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f04042e
+    sget v0, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcn/wps/moffice/common/beans/MyAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -185,7 +185,7 @@
     .line 14
     new-instance v3, Lcn/wps/moffice/common/beans/RecordPopWindow;
 
-    const v4, 0x7f04042e
+    sget v4, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     invoke-direct {v3, p1, p2, v4}, Lcn/wps/moffice/common/beans/RecordPopWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -2245,7 +2245,7 @@
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/common/beans/MyAutoCompleteTextView;->g0:Lcn/wps/moffice/common/beans/DropDownListView;
 
-    const v6, 0x7f060035
+    sget v6, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v6}, Landroid/widget/ListView;->setBackgroundResource(I)V
 

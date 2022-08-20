@@ -1328,7 +1328,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b2a17
+    sget v1, Lcom/resouce/module/ResID;->scan_recommend_banner_title:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1337,7 +1337,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2a16
+    sget v2, Lcom/resouce/module/ResID;->scan_recommend_banner_jump:I
 
     .line 4
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1370,7 +1370,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f122848
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_recommend_banner_jump:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

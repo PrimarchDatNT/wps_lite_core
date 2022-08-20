@@ -39,13 +39,13 @@
     :cond_1
     new-instance v0, Lw17;
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081720
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_share:I
 
     const/4 v4, 0x1
 
@@ -62,13 +62,13 @@
     .line 4
     new-instance v0, Lw17;
 
-    const v1, 0x7f121234
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_move:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081a44
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_move:I
 
     const/4 v10, 0x2
 
@@ -85,13 +85,13 @@
     .line 5
     new-instance v0, Lw17;
 
-    const v1, 0x7f121228
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_bottom_tab_move_and_copy:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081a44
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_move:I
 
     const/4 v4, 0x5
 
@@ -106,13 +106,13 @@
     .line 6
     new-instance v0, Lw17;
 
-    const v1, 0x7f120577
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081a42
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_delete:I
 
     const/4 v10, 0x3
 
@@ -127,13 +127,13 @@
     .line 7
     new-instance v0, Lw17;
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081a43
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_more:I
 
     const/4 v4, 0x4
 
@@ -148,13 +148,13 @@
     .line 8
     new-instance v0, Lw17;
 
-    const v1, 0x7f1206a7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f0815d5
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_star:I
 
     const/4 v10, 0x7
 
@@ -169,13 +169,13 @@
     .line 9
     new-instance v0, Lw17;
 
-    const v1, 0x7f121826
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_merge:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f080491
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
     const/16 v4, 0x8
 
@@ -190,13 +190,13 @@
     .line 10
     new-instance v0, Lw17;
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v9, 0x7f081717
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_nav_rename:I
 
     const/16 v10, 0x9
 
@@ -292,7 +292,7 @@
     .line 7
     check-cast v2, Lw17;
 
-    const v4, 0x7f081a53
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_new_home_multiselect_delete:I
 
     invoke-virtual {v2, v4}, Lw17;->b(I)V
 
@@ -305,7 +305,7 @@
     .line 9
     check-cast v3, Lw17;
 
-    const v2, 0x7f081a54
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_new_home_multiselect_move:I
 
     invoke-virtual {v3, v2}, Lw17;->b(I)V
 
@@ -354,12 +354,12 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f120608
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_removestar:I
 
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f1206a7
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     .line 14
     :goto_1
@@ -481,7 +481,7 @@
     .line 5
     check-cast v0, Lw17;
 
-    const v2, 0x7f081a42
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_delete:I
 
     invoke-virtual {v0, v2}, Lw17;->b(I)V
 
@@ -494,7 +494,7 @@
     .line 7
     check-cast v1, Lw17;
 
-    const v0, 0x7f081a44
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_move:I
 
     invoke-virtual {v1, v0}, Lw17;->b(I)V
 
@@ -539,7 +539,7 @@
     .line 3
     check-cast p1, Lw17;
 
-    const p0, 0x7f121fba
+    sget p0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {p2, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -553,7 +553,7 @@
     :cond_0
     check-cast p1, Lw17;
 
-    const p0, 0x7f120577
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_clear:I
 
     invoke-virtual {p2, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

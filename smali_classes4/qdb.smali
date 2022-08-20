@@ -187,12 +187,12 @@
     :goto_1
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e0c17
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_gdpr_first_start_layout_en_land:I
 
     goto :goto_2
 
     :cond_2
-    const v0, 0x7f0e0c16
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_gdpr_first_start_layout_en:I
 
     :goto_2
     return v0
@@ -702,7 +702,7 @@
     .line 1
     iget-object v0, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v1, 0x7f0e0c14
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_gdpr_agree_popwindow:I
 
     const/4 v2, 0x0
 
@@ -710,14 +710,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0eca
+    sget v1, Lcom/resouce/module/ResID;->gdpr_popwindow_finish:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b316d
+    sget v2, Lcom/resouce/module/ResID;->tv_finish:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
     .line 14
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2267
+    sget v1, Lcom/resouce/module/ResID;->pop_window_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
 
     iput-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1768
+    sget v1, Lcom/resouce/module/ResID;->logo:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1169,7 +1169,7 @@
     .line 5
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2243
+    sget v1, Lcom/resouce/module/ResID;->placeHolder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1180,7 +1180,7 @@
     .line 6
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1b92
+    sget v1, Lcom/resouce/module/ResID;->outerContainer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1193,7 +1193,7 @@
     .line 7
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1204,7 +1204,7 @@
     .line 8
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2eec
+    sget v1, Lcom/resouce/module/ResID;->textContent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1215,7 +1215,7 @@
     .line 9
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b13f7
+    sget v1, Lcom/resouce/module/ResID;->items:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1226,7 +1226,7 @@
     .line 10
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b02a7
+    sget v1, Lcom/resouce/module/ResID;->btnAgree:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1239,7 +1239,7 @@
     .line 11
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b02ae
+    sget v1, Lcom/resouce/module/ResID;->btnNotAgree:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1252,7 +1252,7 @@
     .line 12
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f9e
+    sget v1, Lcom/resouce/module/ResID;->tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1263,7 +1263,7 @@
     .line 13
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1500,7 +1500,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f060542
+    sget v8, Lcom/resouce/module/ResCOLOR;->public_gdpr_blue_text_color_selector:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1548,7 +1548,7 @@
 
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1572,7 +1572,7 @@
 
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1614,7 +1614,7 @@
     :goto_0
     iget-object v0, p0, Lqdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30f7
+    sget v1, Lcom/resouce/module/ResID;->tvPrivacy:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1625,7 +1625,7 @@
     .line 9
     iget-object v1, p0, Lqdb;->S:Landroid/view/View;
 
-    const v2, 0x7f0b30e9
+    sget v2, Lcom/resouce/module/ResID;->tvEndUser:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1636,7 +1636,7 @@
     .line 10
     iget-object v2, p0, Lqdb;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1b07
+    sget v3, Lcom/resouce/module/ResID;->onLineService:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1851,7 +1851,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12220d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_content_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1871,7 +1871,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d13
+    sget v2, Lcom/resouce/module/ResSTRING;->public_agree_page_gdpr:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

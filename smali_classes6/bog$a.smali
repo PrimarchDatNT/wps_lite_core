@@ -54,7 +54,7 @@
     .line 2
     iget-boolean p2, p1, Llog;->a:Z
 
-    const p3, 0x7f120856
+    sget p3, Lcom/resouce/module/ResSTRING;->et_export_card_finish_tv_content:I
 
     const/4 v0, 0x0
 
@@ -140,7 +140,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120859
+    sget p2, Lcom/resouce/module/ResSTRING;->et_export_card_limit_min_tip:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -229,7 +229,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120858
+    sget p2, Lcom/resouce/module/ResSTRING;->et_export_card_limit_max_tip:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -331,7 +331,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0819b9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_card_bg_selector:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

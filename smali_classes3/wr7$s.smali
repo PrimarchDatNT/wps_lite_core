@@ -64,7 +64,7 @@
     .line 2
     iget-object p1, p0, Lwr7$s;->B:Landroid/widget/TextView;
 
-    const p2, 0x7f120059
+    sget p2, Lcom/resouce/module/ResSTRING;->account_update_nickname_net_error:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -114,12 +114,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f12205c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_error_input:I
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f12005b
+    sget p2, Lcom/resouce/module/ResSTRING;->account_update_nickname_special_characters:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V

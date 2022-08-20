@@ -84,7 +84,7 @@
     .line 3
     iput-object p1, p0, Lm3e;->b:Lcn/wps/moffice/presentation/control/phonepanelservice/ToolLayerView;
 
-    const p2, 0x7f0b334c
+    sget p2, Lcom/resouce/module/ResID;->v10_phone_ppt_tool_box:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
     .line 5
     iget-object p1, p0, Lm3e;->b:Lcn/wps/moffice/presentation/control/phonepanelservice/ToolLayerView;
 
-    const p2, 0x7f0b3348
+    sget p2, Lcom/resouce/module/ResID;->v10_phone_ppt_quick_bar:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
     .line 6
     iget-object p1, p0, Lm3e;->b:Lcn/wps/moffice/presentation/control/phonepanelservice/ToolLayerView;
 
-    const p2, 0x7f0b3051
+    sget p2, Lcom/resouce/module/ResID;->tool_layer_item_divideline:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 7
     iget-object p1, p0, Lm3e;->b:Lcn/wps/moffice/presentation/control/phonepanelservice/ToolLayerView;
 
-    const p2, 0x7f0b3347
+    sget p2, Lcom/resouce/module/ResID;->v10_phone_ppt_panel_container:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
 
     iget-object v0, p0, Lm3e;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0091
+    sget v1, Lcom/resouce/module/ResID;->ad_position:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c8f
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_h5_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231ac
+    sget v1, Lcom/resouce/module/ResSTRING;->wallet_h5_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1214ab
+    sget v1, Lcom/resouce/module/ResSTRING;->notify_h5_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->get_notify_notify_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12169a
+    sget v1, Lcom/resouce/module/ResSTRING;->pay_half_screen_premium_h5_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

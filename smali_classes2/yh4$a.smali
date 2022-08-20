@@ -66,7 +66,7 @@
     :cond_0
     iget-object v0, p0, Lyh4$a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121479
+    sget v1, Lcom/resouce/module/ResSTRING;->new_user_vas_popup_window_coupon_bind_error:I
 
     const/4 v2, 0x0
 

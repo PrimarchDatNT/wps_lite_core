@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e035e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_mywallet_more_menu:I
 
     const/4 v2, 0x0
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10c8
+    sget v1, Lcom/resouce/module/ResID;->home_mypursing_deposite_rices_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0d04
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_mypursing_dialog_view:I
 
     const/4 v3, 0x0
 
@@ -332,7 +332,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b1983
+    sget v2, Lcom/resouce/module/ResID;->mypursing_close:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b1984
+    sget v2, Lcom/resouce/module/ResID;->mypursing_img:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b068e
+    sget v0, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -658,7 +658,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060035
+    sget v2, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -678,7 +678,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080a9e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->mine_member_pursing_wallet_title_bg:I
 
     invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -736,7 +736,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f0b124e
+    sget v1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -836,7 +836,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600b1
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

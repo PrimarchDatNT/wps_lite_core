@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c1
+    sget v1, Lcom/resouce/module/ResSTRING;->clouddocs_group_events_white_list_1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c2
+    sget v1, Lcom/resouce/module/ResSTRING;->clouddocs_group_events_white_list_2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c3
+    sget v1, Lcom/resouce/module/ResSTRING;->clouddocs_group_events_white_list_3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c4
+    sget v1, Lcom/resouce/module/ResSTRING;->clouddocs_group_events_white_list_4:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c5
+    sget v1, Lcom/resouce/module/ResSTRING;->clouddocs_group_events_white_list_5:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -133,7 +133,7 @@
     .line 1
     iget-object v0, p0, Lw98;->I:Landroid/content/Context;
 
-    const v1, 0x7f120e93
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_allgroup_events_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -147,12 +147,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12193e
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_all_event:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f122061
+    sget v0, Lcom/resouce/module/ResSTRING;->public_event:I
 
     return v0
 .end method
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06ef
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_events:I
 
     const/4 v2, 0x0
 
@@ -177,7 +177,7 @@
 
     iput-object v0, p0, Lw98;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f4f
+    sget v1, Lcom/resouce/module/ResID;->group_events_webview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
     .line 4
     iget-object v0, p0, Lw98;->B:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

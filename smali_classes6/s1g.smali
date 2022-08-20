@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070128
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_autofilter_custom_button_padding_left_v:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -52,7 +52,7 @@
 
     iput p2, p0, Ls1g;->O0:I
 
-    const p2, 0x7f070127
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_autofilter_custom_button_padding_left_h:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -63,7 +63,7 @@
 
     iput p2, p0, Ls1g;->P0:I
 
-    const p2, 0x7f070126
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_autofilter_custom_button_margin_right_v:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -74,7 +74,7 @@
 
     iput p2, p0, Ls1g;->Q0:I
 
-    const p2, 0x7f070125
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_autofilter_custom_button_margin_right_h:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -113,7 +113,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -178,7 +178,7 @@
 .method public G3(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e01ad
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_autofilter_custom_color_grid:I
 
     const/4 v1, 0x0
 
@@ -213,7 +213,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -265,7 +265,7 @@
 .method public K3(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e01ae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_autofilter_custom_dialog_pad:I
 
     const/4 v1, 0x0
 
@@ -274,7 +274,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b08cf
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_button_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     iput-object v0, p0, Ls1g;->K0:Landroid/view/View;
 
-    const v0, 0x7f0b08d2
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition1_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     iput-object v0, p0, Ls1g;->L0:Landroid/view/View;
 
-    const v0, 0x7f0b08d5
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition2_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -301,7 +301,7 @@
 
     iput-object v0, p0, Ls1g;->M0:Landroid/view/View;
 
-    const v0, 0x7f0b08df
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_color_layout:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 .method public Q3(Landroid/widget/LinearLayout;Lz0g$m;)V
     .locals 1
 
-    const v0, 0x7f081208
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_focused_bg:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -340,7 +340,7 @@
 .method public R3(Landroid/widget/LinearLayout;Lz0g$m;)V
     .locals 1
 
-    const v0, 0x7f081208
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_focused_bg:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

@@ -148,9 +148,9 @@
     .line 3
     new-instance v0, Lund$k;
 
-    const v1, 0x7f080cf0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_apply_all_ppt:I
 
-    const v2, 0x7f121b1d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_apply_to_all:I
 
     invoke-direct {v0, p0, v1, v2}, Lund$k;-><init>(Lund;II)V
 
@@ -161,7 +161,7 @@
 
     sget v1, Lsle;->a:I
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-direct {v0, p0, v1, v2}, Lund$l;-><init>(Lund;II)V
 
@@ -170,9 +170,9 @@
     .line 5
     new-instance v0, Lund$o0;
 
-    const v1, 0x7f080be8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_nothing_ppt:I
 
-    const v2, 0x7f122543
+    sget v2, Lcom/resouce/module/ResSTRING;->public_none:I
 
     const/4 v3, -0x1
 
@@ -183,9 +183,9 @@
     .line 6
     new-instance v0, Lund$o0;
 
-    const v1, 0x7f080d41
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_random_ppt:I
 
-    const v2, 0x7f121c73
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_tran_random_text:I
 
     const/4 v3, 0x1
 
@@ -196,9 +196,9 @@
     .line 7
     new-instance v0, Lund$g0;
 
-    const v1, 0x7f080d10
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_cut_out_ppt:I
 
-    const v2, 0x7f121b2a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_cut:I
 
     const/4 v4, 0x0
 
@@ -209,9 +209,9 @@
     .line 8
     new-instance v0, Lund$i0;
 
-    const v1, 0x7f080d22
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_fade_out_ppt:I
 
-    const v2, 0x7f121b2d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_fade:I
 
     const/4 v5, 0x6
 
@@ -222,9 +222,9 @@
     .line 9
     new-instance v0, Lund$j0;
 
-    const v1, 0x7f080cf2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_boost_ppt:I
 
-    const v2, 0x7f121c72
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_tran_push_text:I
 
     const/16 v6, 0x14
 
@@ -235,9 +235,9 @@
     .line 10
     new-instance v0, Lund$k0;
 
-    const v1, 0x7f080d1e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_erasure_ppt:I
 
-    const v2, 0x7f121b41
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_wipe:I
 
     const/16 v6, 0xa
 
@@ -248,9 +248,9 @@
     .line 11
     new-instance v0, Lund$l0;
 
-    const v1, 0x7f080d1a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_division_ppt:I
 
-    const v2, 0x7f121b3c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_split:I
 
     const/16 v6, 0xd
 
@@ -261,9 +261,9 @@
     .line 12
     new-instance v0, Lund$m0;
 
-    const v1, 0x7f080d43
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_random_weight_ppt:I
 
-    const v2, 0x7f121b38
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_random_bars:I
 
     const/16 v6, 0x8
 
@@ -274,9 +274,9 @@
     .line 13
     new-instance v0, Lund$n0;
 
-    const v1, 0x7f080d2c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_form_ppt:I
 
-    const v2, 0x7f122946
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     const/16 v6, 0x1b
 
@@ -287,9 +287,9 @@
     .line 14
     new-instance v0, Lund$a;
 
-    const v1, 0x7f080d16
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_disclose_ppt:I
 
-    const v2, 0x7f121b3f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_uncover:I
 
     const/4 v6, 0x7
 
@@ -300,9 +300,9 @@
     .line 15
     new-instance v0, Lund$b;
 
-    const v1, 0x7f080cf9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_cover_ppt:I
 
-    const v2, 0x7f121b29
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_cover:I
 
     const/4 v6, 0x4
 
@@ -313,9 +313,9 @@
     .line 16
     new-instance v0, Lund$p0;
 
-    const v1, 0x7f080d28
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_flicker_dropmenu_ppt:I
 
-    const v2, 0x7f121b30
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flash:I
 
     const/16 v6, 0x67
 
@@ -326,9 +326,9 @@
     .line 17
     new-instance v0, Lund$p0;
 
-    const v1, 0x7f080d18
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_dissolve_dropmenu_ppt:I
 
-    const v2, 0x7f121c70
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_tran_dissolve_text:I
 
     const/4 v6, 0x5
 
@@ -339,9 +339,9 @@
     .line 18
     new-instance v0, Lund$c;
 
-    const v1, 0x7f080cf4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_checkerboard_dropmenu_ppt:I
 
-    const v2, 0x7f121b25
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_checkerboard:I
 
     const/4 v6, 0x3
 
@@ -352,9 +352,9 @@
     .line 19
     new-instance v0, Lund$d;
 
-    const v1, 0x7f080d58
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_window_shades_dropmenu_ppt:I
 
-    const v2, 0x7f121b22
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_blinds:I
 
     const/4 v6, 0x2
 
@@ -365,9 +365,9 @@
     .line 20
     new-instance v0, Lund$e;
 
-    const v1, 0x7f080d4e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_time_dropmenu_ppt:I
 
-    const v2, 0x7f121b26
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_clock:I
 
     const/16 v6, 0x1a
 
@@ -378,9 +378,9 @@
     .line 21
     new-instance v0, Lund$f;
 
-    const v1, 0x7f080d5a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_zoom_dropmenu_ppt:I
 
-    const v2, 0x7f121b42
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_zoom:I
 
     const/16 v7, 0x74
 
@@ -391,9 +391,9 @@
     .line 22
     new-instance v0, Lund$g;
 
-    const v1, 0x7f080cee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_appear_dropmenu_ppt:I
 
-    const v2, 0x7f121c6d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_tran_appear_text:I
 
     const/16 v7, 0x77
 
@@ -404,9 +404,9 @@
     .line 23
     new-instance v0, Lund$h;
 
-    const v1, 0x7f080d4a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_switch_dropmenu_ppt:I
 
-    const v2, 0x7f121b3d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_switch:I
 
     const/16 v7, 0x72
 
@@ -417,9 +417,9 @@
     .line 24
     new-instance v0, Lund$i;
 
-    const v1, 0x7f080d36
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_overturn_vertical_dropmenu_ppt:I
 
-    const v2, 0x7f121b31
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flip:I
 
     const/16 v7, 0x68
 
@@ -430,9 +430,9 @@
     .line 25
     new-instance v0, Lund$j;
 
-    const v1, 0x7f080d32
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_library_dropmenu_ppt:I
 
-    const v2, 0x7f121b33
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_gallery:I
 
     const/16 v7, 0x6a
 
@@ -443,9 +443,9 @@
     .line 26
     new-instance v0, Lund$m;
 
-    const v1, 0x7f080d1c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_door_dropmenu_ppt:I
 
-    const v2, 0x7f121b2b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_doors:I
 
     const/16 v7, 0x65
 
@@ -456,9 +456,9 @@
     .line 27
     new-instance v0, Lund$n;
 
-    const v1, 0x7f080d54
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_twist_dropmenu_ppt:I
 
-    const v2, 0x7f121b3e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_ties:I
 
     const/16 v7, 0x78
 
@@ -469,9 +469,9 @@
     .line 28
     new-instance v0, Lund$o;
 
-    const v1, 0x7f080d30
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_inversion_dropmenu_ppt:I
 
-    const v2, 0x7f121b23
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_blocks:I
 
     const/16 v7, 0xc7
 
@@ -482,9 +482,9 @@
     .line 29
     new-instance v0, Lund$p;
 
-    const v1, 0x7f080d4c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_tease_dropmenu_ppt:I
 
-    const v2, 0x7f121b27
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_comb:I
 
     const/16 v7, 0x15
 
@@ -495,9 +495,9 @@
     .line 30
     new-instance v0, Lund$q;
 
-    const v1, 0x7f080d3a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_peel_dropmenu_ppt:I
 
-    const v2, 0x7f121b37
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_peeloff:I
 
     const/16 v7, 0xd0
 
@@ -508,9 +508,9 @@
     .line 31
     new-instance v0, Lund$r;
 
-    const v1, 0x7f080d24
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_fall_dropmenu_ppt:I
 
-    const v2, 0x7f121b2e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_fallover:I
 
     const/16 v7, 0xc9
 
@@ -521,9 +521,9 @@
     .line 32
     new-instance v0, Lund$s;
 
-    const v1, 0x7f080d3c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_plane_dropmenu_ppt:I
 
-    const v2, 0x7f121b21
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_airplane:I
 
     const/16 v7, 0xd3
 
@@ -534,9 +534,9 @@
     .line 33
     new-instance v0, Lund$t;
 
-    const v1, 0x7f080cfb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_cube_dropmenu_ppt:I
 
-    const v2, 0x7f121c6e
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_tran_cube_text:I
 
     const/16 v7, 0x6e
 
@@ -547,9 +547,9 @@
     .line 34
     new-instance v0, Lund$u;
 
-    const v1, 0x7f080d2e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_frame_dropmenu_ppt:I
 
-    const v2, 0x7f121b24
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_box:I
 
     invoke-direct {v0, p0, v1, v2, v7}, Lund$u;-><init>(Lund;III)V
 
@@ -558,9 +558,9 @@
     .line 35
     new-instance v0, Lund$v;
 
-    const v1, 0x7f080d38
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_pathway_dropmenu_ppt:I
 
-    const v2, 0x7f121b35
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_orbit:I
 
     invoke-direct {v0, p0, v1, v2, v7}, Lund$v;-><init>(Lund;III)V
 
@@ -569,9 +569,9 @@
     .line 36
     new-instance v0, Lund$w;
 
-    const v1, 0x7f080d50
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_translation_dropmenu_ppt:I
 
-    const v2, 0x7f121b36
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_pan:I
 
     const/16 v8, 0x6d
 
@@ -582,9 +582,9 @@
     .line 37
     new-instance v0, Lund$x;
 
-    const v1, 0x7f080d2a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_fly_over_dropmenu_ppt:I
 
-    const v2, 0x7f121b32
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_flythrough:I
 
     const/16 v8, 0x69
 
@@ -595,9 +595,9 @@
     .line 38
     new-instance v0, Lund$y;
 
-    const v1, 0x7f080d56
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_window_dropmenu_ppt:I
 
-    const v2, 0x7f121b40
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_windows:I
 
     const/16 v8, 0x76
 
@@ -608,9 +608,9 @@
     .line 39
     new-instance v0, Lund$z;
 
-    const v1, 0x7f080cf7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_conveyor_dropmenu_ppt:I
 
-    const v2, 0x7f121b28
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_conveyor:I
 
     const/16 v8, 0x64
 
@@ -621,9 +621,9 @@
     .line 40
     new-instance v0, Lund$a0;
 
-    const v1, 0x7f080d26
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_ferris_wheel_dropmenu_ppt:I
 
-    const v2, 0x7f121b2f
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_ferriswheel:I
 
     const/16 v8, 0x66
 
@@ -634,9 +634,9 @@
     .line 41
     new-instance v0, Lund$b0;
 
-    const v1, 0x7f080d48
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_show_dropmenu_ppt:I
 
-    const v2, 0x7f121b39
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_reveal:I
 
     const/16 v8, 0x6f
 
@@ -647,9 +647,9 @@
     .line 42
     new-instance v0, Lund$c0;
 
-    const v1, 0x7f080d34
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_overturn_horizontal_dropmenu_ppt:I
 
-    const v2, 0x7f120685
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_rotation:I
 
     invoke-direct {v0, p0, v1, v2, v7}, Lund$c0;-><init>(Lund;III)V
 
@@ -658,9 +658,9 @@
     .line 43
     new-instance v0, Lund$d0;
 
-    const v1, 0x7f080d20
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_explode_dropmenu_ppt:I
 
-    const v2, 0x7f121b2c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_explode:I
 
     const/16 v7, 0x79
 
@@ -671,9 +671,9 @@
     .line 44
     new-instance v0, Lund$e0;
 
-    const v1, 0x7f080d12
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_debris_dropmenu_ppt:I
 
-    const v2, 0x7f121b3b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_shred:I
 
     const/16 v7, 0x71
 
@@ -684,9 +684,9 @@
     .line 45
     new-instance v0, Lund$f0;
 
-    const v1, 0x7f080d52
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_twinkle_dropmenu_ppt:I
 
-    const v2, 0x7f121b34
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_glitter:I
 
     const/16 v7, 0x6b
 
@@ -697,9 +697,9 @@
     .line 46
     new-instance v0, Lund$h0;
 
-    const v1, 0x7f080d46
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_animation_seesaw_dropmenu_ppt:I
 
-    const v2, 0x7f121b3a
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_anim_tran_effect_seesaw:I
 
     const/16 v7, 0x7a
 

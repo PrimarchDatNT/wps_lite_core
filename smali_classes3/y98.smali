@@ -249,7 +249,7 @@
 .method public n()I
     .locals 1
 
-    const v0, 0x7f122241
+    sget v0, Lcom/resouce/module/ResSTRING;->public_grouoinfo:I
 
     return v0
 .end method
@@ -264,7 +264,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06f3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_setting:I
 
     const/4 v2, 0x0
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06fa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_other_setting:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -292,7 +292,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0f57
+    sget v2, Lcom/resouce/module/ResID;->group_member_list_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -311,7 +311,7 @@
 
     iput-object v1, p0, Ly98;->V:Ly98$f;
 
-    const v1, 0x7f0b0f53
+    sget v1, Lcom/resouce/module/ResID;->group_member_add_sperate:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     iput-object v1, p0, Ly98;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b0f51
+    sget v1, Lcom/resouce/module/ResID;->group_member_add_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0f5d
+    sget v1, Lcom/resouce/module/ResID;->group_member_setting_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

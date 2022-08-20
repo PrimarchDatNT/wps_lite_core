@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d22
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ntf_member_main:I
 
     const/4 v2, 0x0
 

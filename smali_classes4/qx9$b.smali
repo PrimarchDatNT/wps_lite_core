@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_1
 
@@ -98,7 +98,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne p1, v0, :cond_2
 

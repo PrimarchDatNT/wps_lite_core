@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b2ee9
+    sget v0, Lcom/resouce/module/ResID;->text:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0e0fe9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_oversea_ss_backboard_content_item_view:I
 
     const/4 v2, 0x0
 

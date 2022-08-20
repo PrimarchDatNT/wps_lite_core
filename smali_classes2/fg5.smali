@@ -70,7 +70,7 @@
 
     if-ne p3, v1, :cond_0
 
-    const p3, 0x7f0e006f
+    sget p3, Lcom/resouce/module/ResLAYOUT;->app_info_list_item_title:I
 
     .line 1
     invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -80,7 +80,7 @@
     return-object p1
 
     :cond_0
-    const p3, 0x7f0e006e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->app_info_list_item:I
 
     .line 2
     invoke-virtual {p1, p3, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

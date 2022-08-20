@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wpsx.support.ui.KNormalImageView android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="@style/public_image_bg_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

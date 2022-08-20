@@ -448,7 +448,7 @@
 .method public w(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Ltp9$b;
     .locals 2
 
-    const v0, 0x7f0e054c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_list_pinned_header_item_layout_v2:I
 
     const/4 v1, 0x0
 

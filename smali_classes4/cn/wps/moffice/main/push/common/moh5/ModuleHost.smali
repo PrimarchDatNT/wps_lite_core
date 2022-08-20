@@ -352,7 +352,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1231be
+    sget p1, Lcom/resouce/module/ResSTRING;->website_function_no_online:I
 
     const/4 v0, 0x0
 

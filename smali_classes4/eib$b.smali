@@ -68,7 +68,7 @@
 
     iget-object p1, p1, Lbib;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1201a0
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_import_net_err_tip:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

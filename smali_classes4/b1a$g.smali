@@ -183,7 +183,7 @@
     :cond_6
     iget-object v0, p0, Lb1a$g;->S:Landroid/content/Context;
 
-    const v1, 0x7f12031a
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_upgrade_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -401,7 +401,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f130494
+    sget v2, Lcom/resouce/module/ResSTYLE;->home_translucent_activity_style:I
 
     invoke-virtual {v1, v2, v0}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 
@@ -425,12 +425,12 @@
     invoke-static {p0}, Ldgh;->h1(Landroid/app/Activity;)V
 
     :cond_0
-    const v0, 0x7f0e0140
+    sget v0, Lcom/resouce/module/ResLAYOUT;->documents_qing_updateactivity:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0b3305    # 1.850276E38f
+    sget v0, Lcom/resouce/module/ResID;->updateactivity:I    # 1.850276E38f
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

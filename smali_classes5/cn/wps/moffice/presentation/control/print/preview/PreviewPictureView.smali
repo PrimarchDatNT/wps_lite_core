@@ -127,7 +127,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07074d
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_default_frame_width_unselect:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060436
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_ppt_8e8e8e_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -221,7 +221,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

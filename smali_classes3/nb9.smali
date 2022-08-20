@@ -69,12 +69,12 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f080929
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_summary_assistant_portrait:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f080928
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_summary_assistant_landscape:I
 
     goto :goto_0
 
@@ -90,12 +90,12 @@
 
     if-eqz p0, :cond_2
 
-    const p0, 0x7f080927
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_resume_assistant_portrait:I
 
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080926
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_resume_assistant_landscape:I
 
     goto :goto_0
 
@@ -111,12 +111,12 @@
 
     if-eqz p0, :cond_4
 
-    const p0, 0x7f080925
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_paper_composition_portrait:I
 
     goto :goto_0
 
     :cond_4
-    const p0, 0x7f080924
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->ic_default_paper_composition_landscape:I
 
     goto :goto_0
 

@@ -262,7 +262,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221e9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_forum_domain:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -286,7 +286,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v1, 0x0
 
@@ -362,7 +362,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09ae
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_title_view_layout:I
 
     const/4 v2, 0x0
 
@@ -376,7 +376,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/forum/ForumHomeActivity;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0606e0
+    sget v1, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
@@ -421,7 +421,7 @@
     invoke-static {p0}, Ldgh;->m1(Landroid/app/Activity;)V
 
     :cond_1
-    const v0, 0x7f0b33b3
+    sget v0, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBarLayout:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0548
+    sget v0, Lcom/resouce/module/ResID;->content_lay:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mMiddleLayout:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

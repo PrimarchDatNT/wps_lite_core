@@ -191,7 +191,7 @@
     .line 1
     iget-object p2, p0, Laql;->B:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0a03
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_search_pic_gridview_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

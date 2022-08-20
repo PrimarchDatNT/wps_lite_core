@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/sort" android:text="@string/public_sort" style="@style/phone_public_popumenu_textlist_item" />
-    <TextView android:id="@id/encoding" android:text="@string/writer_file_encoding" style="@style/phone_public_popumenu_textlist_item" />
-</LinearLayout>

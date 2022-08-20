@@ -74,7 +74,7 @@
 .method public constructor <init>(Lcn/wps/moffice/presentation/Presentation;Lcn/wps/show/app/KmoPresentation;)V
     .locals 2
 
-    const v0, 0x7f13013e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_template_detail:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -325,7 +325,7 @@
     .line 1
     iget-object p1, p0, Ltde;->I:Landroid/app/Activity;
 
-    const v0, 0x7f122f75
+    sget v0, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     const/4 v1, 0x0
 
@@ -360,7 +360,7 @@
     :cond_0
     iget-object v0, p0, Ltde;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122f75
+    sget v1, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     const/4 v2, 0x0
 
@@ -384,7 +384,7 @@
     .line 2
     iget-object p1, p0, Ltde;->I:Landroid/app/Activity;
 
-    const v0, 0x7f122f75
+    sget v0, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ad9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_table_beauty_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -509,7 +509,7 @@
     .line 3
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2508
+    sget v1, Lcom/resouce/module/ResID;->preview_table_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -539,7 +539,7 @@
     .line 7
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2ed1
+    sget v1, Lcom/resouce/module/ResID;->template_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -567,7 +567,7 @@
     .line 11
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2440
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_beauty_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -588,7 +588,7 @@
     .line 14
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2e34
+    sget v1, Lcom/resouce/module/ResID;->table_beauty_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -632,7 +632,7 @@
     .line 20
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1659
+    sget v1, Lcom/resouce/module/ResID;->ll_error:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -643,7 +643,7 @@
     .line 21
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b296c
+    sget v1, Lcom/resouce/module/ResID;->rl_table_beauty_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -947,7 +947,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2440
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_beauty_save:I
 
     if-ne v0, v1, :cond_3
 
@@ -1104,7 +1104,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1114,7 +1114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1223b2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_isSaveOrNot:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1147,7 +1147,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b45
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1169,7 +1169,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1235,7 +1235,7 @@
     .line 1
     iget-object v0, p0, Ltde;->U:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1277,7 +1277,7 @@
     .line 7
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f121b6f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_form_beauty:I
 
     .line 8
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -1289,7 +1289,7 @@
 
     iput-object v1, p0, Ltde;->c0:Landroid/widget/TextView;
 
-    const v2, 0x7f121b70
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_form_beauty_clear:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V

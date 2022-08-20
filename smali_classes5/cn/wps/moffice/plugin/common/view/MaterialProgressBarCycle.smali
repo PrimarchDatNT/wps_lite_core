@@ -161,7 +161,7 @@
     .line 41
     iput-boolean v0, p0, Lcn/wps/moffice/plugin/common/view/MaterialProgressBarCycle;->m0:Z
 
-    const v0, 0x7f1304a8
+    sget v0, Lcom/resouce/module/ResSTYLE;->material_progressbar_cycle:I
 
     .line 42
     invoke-virtual {p0, p1, p2, v0}, Lcn/wps/moffice/plugin/common/view/MaterialProgressBarCycle;->b(Landroid/content/Context;Landroid/util/AttributeSet;I)V

@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12005e
+    sget v1, Lcom/resouce/module/ResSTRING;->account_wechat_mini_qrcode_login_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -632,7 +632,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12243a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_by_wechat:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -641,7 +641,7 @@
 
     invoke-interface {v0, v1}, Lsw7;->H(Ljava/lang/String;)V
 
-    const v1, 0x7f1231cb
+    sget v1, Lcom/resouce/module/ResSTRING;->wechat_login_by_sdk_tip:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

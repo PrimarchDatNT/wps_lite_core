@@ -61,7 +61,7 @@
 .method private initView()V
     .locals 2
 
-    const v0, 0x7f0b30fe
+    sget v0, Lcom/resouce/module/ResID;->tv_RedirectUrls:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v1, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvredirectUrl:Landroid/widget/TextView;
 
-    const v1, 0x7f0b31d7
+    sget v1, Lcom/resouce/module/ResID;->tv_mid:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object v1, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvMid:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3117
+    sget v1, Lcom/resouce/module/ResID;->tv_cardType:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvOrderId:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3106
+    sget v0, Lcom/resouce/module/ResID;->tv_acsUrlRequested:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvAcsUrlRequested:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3116
+    sget v0, Lcom/resouce/module/ResID;->tv_cardIssuer:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvCardUser:Landroid/widget/TextView;
 
-    const v0, 0x7f0b310a
+    sget v0, Lcom/resouce/module/ResID;->tv_appName:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvAppName:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3263
+    sget v0, Lcom/resouce/module/ResID;->tv_smsPermission:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvSmspermission:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31bf
+    sget v0, Lcom/resouce/module/ResID;->tv_isSubmitted:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvIsSubmitted:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3104
+    sget v0, Lcom/resouce/module/ResID;->tv_acsUrl:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvAcsUrl:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31be
+    sget v0, Lcom/resouce/module/ResID;->tv_isSMSRead:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvIsSmsRead:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31bc
+    sget v0, Lcom/resouce/module/ResID;->tv_isAssistEnable:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvIsAssistEnabled:Landroid/widget/TextView;
 
-    const v0, 0x7f0b320d
+    sget v0, Lcom/resouce/module/ResID;->tv_otp:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvOtp:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3105
+    sget v0, Lcom/resouce/module/ResID;->tv_acsUrlLoaded:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvAcsUrlLoaded:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3254
+    sget v0, Lcom/resouce/module/ResID;->tv_sender:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object v0, p0, Leasypay/AnalyticsManagerInfoDisplayActivity;->mTvSender:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31bd
+    sget v0, Lcom/resouce/module/ResID;->tv_isAssistPopped:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -526,7 +526,7 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e001f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->activity_analytics_manager_info_display:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

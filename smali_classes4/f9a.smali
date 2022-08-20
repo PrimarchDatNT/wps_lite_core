@@ -284,7 +284,7 @@
     .line 2
     iget-object v1, p0, Lf9a;->V:Ljava/lang/String;
 
-    const v2, 0x7f081089
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_documents_sina:I
 
     invoke-interface {v0, v1, v2}, Lcn/wps/moffice/extlibs/sina/IWeibo;->share(Ljava/lang/String;I)Z
 
@@ -295,7 +295,7 @@
     .line 3
     iget-object v0, p0, Lf9a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122303
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_please_install_weibo:I
 
     const/4 v2, 0x1
 

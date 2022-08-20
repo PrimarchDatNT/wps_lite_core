@@ -46,11 +46,11 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f060232
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_theme_color_blue:I
 
-    const v3, 0x7f0808f8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_theme_blue_selector:I
 
-    const v4, 0x7f081804
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_add_image_selector_blue:I
 
     invoke-direct {v0, v1, v2, v3, v4}, Lsw9;-><init>(IIII)V
 
@@ -112,11 +112,11 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f060234
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_theme_color_green:I
 
-    const v3, 0x7f0808fa
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_theme_green_selector:I
 
-    const v4, 0x7f081805
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_add_image_selector_green:I
 
     invoke-direct {v0, v1, v2, v3, v4}, Lsw9;-><init>(IIII)V
 
@@ -131,11 +131,11 @@
 
     const/4 v1, 0x4
 
-    const v2, 0x7f060236
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_theme_color_purple:I
 
-    const v3, 0x7f0808fd
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_theme_purple_selector:I
 
-    const v4, 0x7f081806
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_add_image_selector_purple:I
 
     invoke-direct {v0, v1, v2, v3, v4}, Lsw9;-><init>(IIII)V
 
@@ -150,11 +150,11 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f060424
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_home_pink_statusbar_color:I
 
-    const v3, 0x7f0808fe
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_theme_red_selector:I
 
-    const v4, 0x7f081807
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_add_image_selector_red:I
 
     invoke-direct {v0, v1, v2, v3, v4}, Lsw9;-><init>(IIII)V
 

@@ -34,7 +34,7 @@
     .line 2
     invoke-static {p1, p2}, Llk6;->S(Llk6;Landroid/view/View;)Landroid/view/View;
 
-    const p1, 0x7f0b282e
+    sget p1, Lcom/resouce/module/ResID;->recommendText:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Llk6$b;->j0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0349
+    sget p1, Lcom/resouce/module/ResID;->cardView:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

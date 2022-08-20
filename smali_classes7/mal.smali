@@ -80,9 +80,9 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f1233da
+    sget p0, Lcom/resouce/module/ResSTRING;->writer_panel_paper_report_dialog_paper_check_tips:I
 
-    const v0, 0x7f1233d8
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_panel_paper_report_dialog_check_again:I
 
     const/4 v3, 0x1
 
@@ -102,9 +102,9 @@
 
     if-eqz p0, :cond_4
 
-    const p0, 0x7f1233db
+    sget p0, Lcom/resouce/module/ResSTRING;->writer_panel_paper_report_dialog_paper_down_tips:I
 
-    const v0, 0x7f121670
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_down_repetition_once_more:I
 
     const/4 v3, 0x0
 
@@ -126,7 +126,7 @@
     .line 9
     invoke-virtual {v4, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f1233d9
+    sget p0, Lcom/resouce/module/ResSTRING;->writer_panel_paper_report_dialog_check_report:I
 
     .line 10
     invoke-virtual {v4}, Landroid/app/Dialog;->getContext()Landroid/content/Context;
@@ -137,7 +137,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06005d
+    sget p2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -145,7 +145,7 @@
 
     invoke-virtual {v4, p0, p1, v5}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {v4, p0, v5}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

@@ -100,7 +100,7 @@
 
     move-result v4
 
-    const v5, 0x7f12203e
+    sget v5, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     if-eqz v4, :cond_0
 
@@ -128,7 +128,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121769
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -160,7 +160,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1217a7
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_converter_pro_btn:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -252,7 +252,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122588
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

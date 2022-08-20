@@ -187,18 +187,18 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0602cc
+    sget v0, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     .line 11
     invoke-static {p0, v0}, Ldgh;->n1(Landroid/app/Activity;I)V
 
     :cond_3
-    const v0, 0x7f0e0022
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_camera:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0b29b1
+    sget v0, Lcom/resouce/module/ResID;->root_view:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

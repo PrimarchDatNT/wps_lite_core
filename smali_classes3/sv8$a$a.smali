@@ -92,7 +92,7 @@
 
     iget-object p1, p1, Lqv8;->e:Landroid/app/Activity;
 
-    const v0, 0x7f120ed8
+    sget v0, Lcom/resouce/module/ResSTRING;->home_compressfile_error_others:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

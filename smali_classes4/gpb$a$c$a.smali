@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -107,7 +107,7 @@
 
     iget-object v0, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v1, 0x7f12153e
+    sget v1, Lcom/resouce/module/ResSTRING;->online_security_waitfor_auth:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

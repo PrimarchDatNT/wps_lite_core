@@ -58,12 +58,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08199f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_tickbox_checked:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08199e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_tickbox:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

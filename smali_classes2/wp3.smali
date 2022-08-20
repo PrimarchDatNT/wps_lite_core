@@ -21,7 +21,7 @@
 .method private constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_container_layout:I
 
     const/4 v1, 0x0
 

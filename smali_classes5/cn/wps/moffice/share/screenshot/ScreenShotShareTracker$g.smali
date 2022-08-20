@@ -208,7 +208,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02ed
+    sget v0, Lcom/resouce/module/ResID;->btn_no_warn:I
 
     if-ne p1, v0, :cond_4
 

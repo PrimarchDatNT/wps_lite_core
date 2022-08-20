@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="34.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/pad_all_document_title_content" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <cn.wps.moffice.common.beans.phone.scrollbar.KPadScrollBarColorRect android:layout_gravity="bottom" android:id="@id/pad_all_document_title_color_rect" android:layout_width="fill_parent" android:layout_height="2.0dip" />
-</FrameLayout>

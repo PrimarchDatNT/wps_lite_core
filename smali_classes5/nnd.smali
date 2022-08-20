@@ -260,7 +260,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e059d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_anim_text_item_empty:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -281,7 +281,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e059e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_anim_text_view_item:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

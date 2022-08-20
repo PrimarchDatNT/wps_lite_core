@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textColor="@color/whiteMainTextColor" android:id="@id/ppt_menuitem_text" MaxLine="1" style="@style/public_pad_titlebar_menu_item_text"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

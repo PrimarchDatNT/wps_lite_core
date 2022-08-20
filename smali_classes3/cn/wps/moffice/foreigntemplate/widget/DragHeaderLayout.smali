@@ -228,7 +228,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b1244
+    sget v1, Lcom/resouce/module/ResID;->id_DragHeaderLayoutInnerAbsListView:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -524,7 +524,7 @@
     .line 1
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
-    const v0, 0x7f0b1245
+    sget v0, Lcom/resouce/module/ResID;->id_DragHeaderLayoutTopView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -533,7 +533,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/widget/DragHeaderLayout;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1243
+    sget v0, Lcom/resouce/module/ResID;->id_DragHeaderLayoutIndicator:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/widget/DragHeaderLayout;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1246
+    sget v0, Lcom/resouce/module/ResID;->id_DragHeaderLayoutViewPager:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

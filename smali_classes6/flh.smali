@@ -57,14 +57,14 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f122514
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f122515
+    sget v3, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -99,7 +99,7 @@
 
     if-eqz v2, :cond_4
 
-    const v0, 0x7f121b84
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_new_document_name:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -120,7 +120,7 @@
 
     if-eqz v2, :cond_5
 
-    const v0, 0x7f120b9f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

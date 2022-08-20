@@ -70,7 +70,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -87,7 +87,7 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f0819f6
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cce
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_list_dialog:I
 
     const/4 v2, 0x0
 
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2675
+    sget v1, Lcom/resouce/module/ResID;->public_list:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0e0cd0
+    sget v7, Lcom/resouce/module/ResLAYOUT;->public_list_icon_text_item:I
 
     invoke-virtual {v6, v7, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -200,7 +200,7 @@
     .line 8
     invoke-virtual {v6, v4}, Landroid/view/View;->setFocusable(Z)V
 
-    const v7, 0x7f0b2664
+    sget v7, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 9
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    const v8, 0x7f0b2667
+    sget v8, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 10
     invoke-virtual {v6, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;

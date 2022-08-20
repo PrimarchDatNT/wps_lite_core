@@ -222,7 +222,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12301d
+    sget v3, Lcom/resouce/module/ResSTRING;->suspend_gift_receive_failure:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

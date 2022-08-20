@@ -87,7 +87,7 @@
 
     check-cast v1, Landroid/view/View;
 
-    const v2, 0x7f0b228f
+    sget v2, Lcom/resouce/module/ResID;->ppt_anim_effect_imageview_text:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f121ad4
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_other:I
 
     .line 3
     invoke-virtual {p0, v0}, Llnd$c;->V0(I)V
@@ -289,7 +289,7 @@
 
     if-le p1, v2, :cond_8
 
-    const p1, 0x7f121ad1
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_more:I
 
     .line 12
     invoke-virtual {p0, p1}, Llnd$c;->V0(I)V

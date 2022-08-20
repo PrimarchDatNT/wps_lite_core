@@ -181,7 +181,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121153
+    sget p1, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     .line 3
     invoke-static {p1}, Ll57;->b(I)Ljava/lang/String;
@@ -194,7 +194,7 @@
 
     :cond_1
     :goto_0
-    const p1, 0x7f121949
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_foler_v2:I
 
     .line 4
     invoke-static {p1}, Ll57;->b(I)Ljava/lang/String;

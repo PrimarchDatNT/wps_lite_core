@@ -111,7 +111,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0818bb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_drag:I
 
     invoke-virtual {p0, v0}, Lphh;->c(I)Landroid/graphics/Bitmap;
 

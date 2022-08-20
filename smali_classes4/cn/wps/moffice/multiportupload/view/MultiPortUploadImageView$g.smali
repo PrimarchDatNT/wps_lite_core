@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121445
+    sget v4, Lcom/resouce/module/ResSTRING;->multi_port_upload_process_status:I
 
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f121446
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_process_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

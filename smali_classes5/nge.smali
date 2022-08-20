@@ -30,7 +30,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v1, 0x0
 
@@ -71,7 +71,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1224ca
+    sget v0, Lcom/resouce/module/ResSTRING;->public_mine_templates:I
 
     return v0
 .end method
@@ -79,7 +79,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12145b
+    sget v0, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     return v0
 .end method

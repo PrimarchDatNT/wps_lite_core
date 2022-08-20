@@ -161,7 +161,7 @@
 
     move-result p2
 
-    const p3, 0x7f0819c7
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     if-eqz p2, :cond_2
 
@@ -298,7 +298,7 @@
 
     move-result p2
 
-    const p3, 0x7f0819c7
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     if-eqz p2, :cond_2
 
@@ -432,7 +432,7 @@
 
     move-result p2
 
-    const p3, 0x7f0819c7
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     if-eqz p2, :cond_1
 
@@ -515,7 +515,7 @@
 .method public f(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b07db
+    sget v0, Lcom/resouce/module/ResID;->earn_item_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -526,7 +526,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b07dd
+    sget v0, Lcom/resouce/module/ResID;->earn_item_title_txt:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -537,7 +537,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07da
+    sget v0, Lcom/resouce/module/ResID;->earn_item_content_txt:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -548,7 +548,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07de
+    sget v0, Lcom/resouce/module/ResID;->earn_item_value:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -559,7 +559,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b07dc
+    sget v0, Lcom/resouce/module/ResID;->earn_item_line_bottom:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->g:Landroid/view/View;
 
-    const v0, 0x7f0b07e0
+    sget v0, Lcom/resouce/module/ResID;->earn_item_value_exchange:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -577,7 +577,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/integralwalls/commonview/OrderTypeView$c;->h:Landroid/view/View;
 
-    const v0, 0x7f0b07df
+    sget v0, Lcom/resouce/module/ResID;->earn_item_value_contianer:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

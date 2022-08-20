@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" style="@style/phone_public_buttonStyle_thumbBackgroundColor_4dp_corner_dark_compat">
-        <cn.wpsx.support.ui.KNormalImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
-        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
-    </LinearLayout>
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/phone_wpsdrive_titlebar" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/phone_wpsdrive_multi_select_titlebar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

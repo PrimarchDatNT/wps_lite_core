@@ -239,7 +239,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0606e1
+    sget v5, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -272,7 +272,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060009
+    sget v6, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 

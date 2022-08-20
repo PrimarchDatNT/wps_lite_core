@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="fill_parent" android:layout_height="@dimen/home_open_path_gallery_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="false" android:layout_alignParentStart="true" layout="@layout/pad_home_path_gallery" />
-</merge>

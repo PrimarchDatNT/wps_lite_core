@@ -58,7 +58,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b1c15
+    sget v4, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_insert_bookmark:I
 
     if-ne v0, v4, :cond_0
 
@@ -91,7 +91,7 @@
 
     move-result v0
 
-    const v4, 0x7f0b1c13
+    sget v4, Lcom/resouce/module/ResID;->pad_pdf_read_arrange_all_bookmarks:I
 
     if-ne v0, v4, :cond_1
 
@@ -127,7 +127,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1c0f
+    sget v1, Lcom/resouce/module/ResID;->pad_pdf_jump_to:I
 
     if-ne v0, v1, :cond_3
 

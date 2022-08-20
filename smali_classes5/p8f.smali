@@ -20,7 +20,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121470
+    sget v1, Lcom/resouce/module/ResSTRING;->new_server_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -39,7 +39,7 @@
 .method public static a(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b129d
+    sget v0, Lcom/resouce/module/ResID;->image_share_notice_close:I
 
     .line 1
     :try_start_0
@@ -63,7 +63,7 @@
 
     invoke-virtual {v1, v0, v2}, Lkm8;->putBoolean(Ljava/lang/String;Z)Z
 
-    const v0, 0x7f0b1576
+    sget v0, Lcom/resouce/module/ResID;->layout_share_new_exception_notice_one:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120cfa
+    sget v9, Lcom/resouce/module/ResSTRING;->feedback_center_url:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -276,7 +276,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f121467
+    sget v9, Lcom/resouce/module/ResSTRING;->new_create_exception_notice:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -298,7 +298,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f122ee7
+    sget v9, Lcom/resouce/module/ResSTRING;->share_exception_notice:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -735,7 +735,7 @@
     const/4 p0, 0x0
 
     :goto_2
-    const v5, 0x7f0b1576
+    sget v5, Lcom/resouce/module/ResID;->layout_share_new_exception_notice_one:I
 
     .line 13
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -753,14 +753,14 @@
     :goto_3
     invoke-virtual {v5, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2f35
+    sget v0, Lcom/resouce/module/ResID;->text_share_new_notice_check:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v6, 0x7f0b129d
+    sget v6, Lcom/resouce/module/ResID;->image_share_notice_close:I
 
     .line 16
     invoke-virtual {p1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -809,7 +809,7 @@
 
     if-eqz p0, :cond_4
 
-    const p0, 0x7f0b2f36
+    sget p0, Lcom/resouce/module/ResID;->text_share_new_notice_tip:I
 
     .line 23
     invoke-virtual {p1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1026,7 +1026,7 @@
     const/4 p0, 0x0
 
     :goto_2
-    const v0, 0x7f0b129c
+    sget v0, Lcom/resouce/module/ResID;->image_share_new_exception_notice_panel_two:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1037,7 +1037,7 @@
 
     if-eqz p3, :cond_4
 
-    const p3, 0x7f0b155f
+    sget p3, Lcom/resouce/module/ResID;->layout_phone_public_share_new_exception_notice_outer:I
 
     .line 12
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

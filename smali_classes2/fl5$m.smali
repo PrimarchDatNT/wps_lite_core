@@ -146,7 +146,7 @@
     :cond_2
     iget-object v0, p0, Lfl5$m;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122d0e
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_no_support:I
 
     const/4 v2, 0x0
 

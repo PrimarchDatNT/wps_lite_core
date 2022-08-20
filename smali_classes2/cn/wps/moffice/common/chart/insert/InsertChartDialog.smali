@@ -185,7 +185,7 @@
     :goto_0
     sget-object v0, Lcn/wps/moffice/common/chart/insert/InsertChartDialog;->e:Lro3;
 
-    const v1, 0x7f060511
+    sget v1, Lcom/resouce/module/ResCOLOR;->ptt_color_insert_chart_titlebar_bg:I
 
     invoke-virtual {v0, v1}, Lro3;->G(I)V
 

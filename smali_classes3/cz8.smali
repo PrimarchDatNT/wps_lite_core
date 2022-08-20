@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e8d
+    sget v1, Lcom/resouce/module/ResSTRING;->search_by_time_all:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122e8e
+    sget v2, Lcom/resouce/module/ResSTRING;->search_by_time_empty_keyword_hint:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120eeb
+    sget v2, Lcom/resouce/module/ResSTRING;->home_docs_search_only_edit_hint:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -179,7 +179,7 @@
 .method public c0(Lrog$a;I)V
     .locals 6
 
-    const v0, 0x7f060624
+    sget v0, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     .line 1
     :try_start_0
@@ -312,7 +312,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f57
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ss_exportpages_item_layout:I
 
     const/4 v1, 0x0
 
@@ -326,7 +326,7 @@
 
     invoke-direct {p2, p1}, Lrog$a;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1261
+    sget v0, Lcom/resouce/module/ResID;->image:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     iput-object v0, p2, Lrog$a;->j0:Lcn/wps/moffice/spreadsheet/control/share/WaterMarkImageView;
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

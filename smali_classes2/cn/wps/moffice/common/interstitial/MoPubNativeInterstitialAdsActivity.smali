@@ -206,7 +206,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f060261
+    sget v6, Lcom/resouce/module/ResCOLOR;->maskBackgroundColor:I
 
     invoke-virtual {v1, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -307,7 +307,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060623
+    sget v3, Lcom/resouce/module/ResCOLOR;->subBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -356,12 +356,12 @@
 .method public final initViews()V
     .locals 4
 
-    const v0, 0x7f0e0cf9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_interstitial_ads_activity:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -370,7 +370,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->S:Landroid/view/View;
 
-    const v0, 0x7f0b1575
+    sget v0, Lcom/resouce/module/ResID;->layout_share:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -381,7 +381,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->a0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b157d
+    sget v0, Lcom/resouce/module/ResID;->layout_top:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b0088
+    sget v0, Lcom/resouce/module/ResID;->ad_content:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->W:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b043f
+    sget v0, Lcom/resouce/module/ResID;->close:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->T:Landroid/view/View;
 
-    const v0, 0x7f0b163a
+    sget v0, Lcom/resouce/module/ResID;->ll_ad_complaint_btn:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -421,7 +421,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->U:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0087
+    sget v0, Lcom/resouce/module/ResID;->ad_container:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->V:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b009a
+    sget v0, Lcom/resouce/module/ResID;->ad_top_info_for_video:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->Z:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2b5e
+    sget v0, Lcom/resouce/module/ResID;->share_content:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b0092
+    sget v0, Lcom/resouce/module/ResID;->ad_root_content:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/interstitial/MoPubNativeInterstitialAdsActivity;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b1c6c
+    sget v0, Lcom/resouce/module/ResID;->page_content:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -483,7 +483,7 @@
 
     const-string v2, "adThemeColor"
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 

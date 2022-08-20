@@ -153,7 +153,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f08082c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_icon_other:I
 
     return v0
 .end method

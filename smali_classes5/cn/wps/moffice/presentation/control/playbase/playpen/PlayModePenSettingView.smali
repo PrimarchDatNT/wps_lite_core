@@ -83,13 +83,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ab1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_mode_ink_setting:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1f68
+    sget v0, Lcom/resouce/module/ResID;->pen_color_txt:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playpen/PlayModePenSettingView;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1f6c
+    sget v0, Lcom/resouce/module/ResID;->pen_stroke_width_txt:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/playbase/playpen/PlayModePenSettingView;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b22f0
+    sget v0, Lcom/resouce/module/ResID;->ppt_ink_color_group:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/playbase/playpen/PlayModePenSettingView;->T:[Lcn/wps/moffice/presentation/control/playbase/playpen/PlayModeThicknessView;
 
-    const v0, 0x7f0b22f8
+    sget v0, Lcom/resouce/module/ResID;->ppt_ink_stroke_width_1:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     aput-object v0, p1, v1
 
-    const v0, 0x7f0b22f9
+    sget v0, Lcom/resouce/module/ResID;->ppt_ink_stroke_width_2:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     const/4 v0, 0x2
 
-    const v2, 0x7f0b22fa
+    sget v2, Lcom/resouce/module/ResID;->ppt_ink_stroke_width_3:I
 
     .line 15
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     const/4 v0, 0x3
 
-    const v2, 0x7f0b22fb
+    sget v2, Lcom/resouce/module/ResID;->ppt_ink_stroke_width_4:I
 
     .line 16
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -573,12 +573,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f121bab
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_mode_high_light_color:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121bad
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_play_mode_pen_color:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -588,12 +588,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f121bac
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_play_mode_high_light_stroke_width:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f121bae
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_play_mode_pen_stroke_width:I
 
     :goto_1
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

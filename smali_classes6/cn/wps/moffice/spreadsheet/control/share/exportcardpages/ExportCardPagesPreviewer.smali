@@ -97,7 +97,7 @@
     .line 7
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/share/exportcardpages/ExportCardPagesPreviewer$6;
 
-    const v2, 0x7f12085b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
     invoke-direct {v1, p0, v0, v2}, Lcn/wps/moffice/spreadsheet/control/share/exportcardpages/ExportCardPagesPreviewer$6;-><init>(Lcn/wps/moffice/spreadsheet/control/share/exportcardpages/ExportCardPagesPreviewer;II)V
 
@@ -458,7 +458,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b42
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -654,7 +654,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f121fef
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     const/4 v0, 0x1
 
@@ -751,7 +751,7 @@
 
     iget-object p3, p0, Lcn/wps/moffice/spreadsheet/control/share/exportcardpages/ExportCardPagesPreviewer;->I:Landroid/app/Activity;
 
-    const v0, 0x7f120869
+    sget v0, Lcom/resouce/module/ResSTRING;->et_export_card_style_unknown:I
 
     invoke-virtual {p3, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1172,7 +1172,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/exportcardpages/ExportCardPagesPreviewer;->I:Landroid/app/Activity;
 
-    const v1, 0x7f120857
+    sget v1, Lcom/resouce/module/ResSTRING;->et_export_card_height_limit_tips:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1212,11 +1212,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080786
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_member_guide_export_card_pages:I
 
-    const v2, 0x7f12085b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
-    const v3, 0x7f12085f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_pics_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -1242,11 +1242,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080786
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_member_guide_export_card_pages:I
 
-    const v2, 0x7f12085b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
-    const v3, 0x7f12085f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_export_card_pics_pay_tips:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;

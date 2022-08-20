@@ -39,7 +39,7 @@
     .line 1
     iget-object p2, p0, Lyva;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e011f
+    sget p3, Lcom/resouce/module/ResLAYOUT;->doc_scan_item_share_app:I
 
     const/4 v0, 0x0
 
@@ -52,7 +52,7 @@
 
     invoke-direct {p3, v0}, Lkwa$b;-><init>(Lkwa$a;)V
 
-    const v0, 0x7f0b31c3
+    sget v0, Lcom/resouce/module/ResID;->tv_item_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     iput-object v0, p3, Lkwa$b;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b148d
+    sget v0, Lcom/resouce/module/ResID;->iv_item_icon:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

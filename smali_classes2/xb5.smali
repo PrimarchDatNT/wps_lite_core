@@ -104,7 +104,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00fe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_share_tb_case:I
 
     const/4 v1, 0x0
 
@@ -873,7 +873,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f120f02
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -995,7 +995,7 @@
 
     const-string v0, "click"
 
-    const v1, 0x7f0b2eb8
+    sget v1, Lcom/resouce/module/ResID;->tb_share_origin_layout:I
 
     if-ne p1, v1, :cond_0
 
@@ -1012,7 +1012,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2eaf
+    sget v1, Lcom/resouce/module/ResID;->tb_share_can_view_layout:I
 
     if-ne p1, v1, :cond_1
 
@@ -1029,7 +1029,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2eb3
+    sget v1, Lcom/resouce/module/ResID;->tb_share_edit_view_layout:I
 
     if-ne p1, v1, :cond_2
 
@@ -1046,7 +1046,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b2eb5
+    sget v1, Lcom/resouce/module/ResID;->tb_share_modify_delay_text:I
 
     if-ne p1, v1, :cond_3
 
@@ -1061,7 +1061,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2eb9
+    sget v0, Lcom/resouce/module/ResID;->tb_share_send_button:I
 
     if-ne p1, v0, :cond_4
 
@@ -1118,7 +1118,7 @@
     .line 6
     iget-object v0, p0, Lxb5;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1223e7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_modify:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -1140,7 +1140,7 @@
     .line 1
     iput-object p1, p0, Lxb5;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2ebc
+    sget v0, Lcom/resouce/module/ResID;->tb_share_title_bar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1151,7 +1151,7 @@
 
     iput-object v0, p0, Lxb5;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f0b2eb4
+    sget v0, Lcom/resouce/module/ResID;->tb_share_file_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1162,7 +1162,7 @@
 
     iput-object v0, p0, Lxb5;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2ebb
+    sget v0, Lcom/resouce/module/ResID;->tb_share_title:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1173,7 +1173,7 @@
 
     iput-object v0, p0, Lxb5;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2eba
+    sget v0, Lcom/resouce/module/ResID;->tb_share_time:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1184,7 +1184,7 @@
 
     iput-object v0, p0, Lxb5;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2eb0
+    sget v0, Lcom/resouce/module/ResID;->tb_share_divide:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1193,7 +1193,7 @@
 
     iput-object v0, p0, Lxb5;->W:Landroid/view/View;
 
-    const v0, 0x7f0b2ebd
+    sget v0, Lcom/resouce/module/ResID;->tb_share_view:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1204,7 +1204,7 @@
 
     iput-object v0, p0, Lxb5;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2eb8
+    sget v0, Lcom/resouce/module/ResID;->tb_share_origin_layout:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1215,7 +1215,7 @@
 
     iput-object v0, p0, Lxb5;->Y:Lcn/wpsx/support/ui/alpha/KAlphaFrameLayout;
 
-    const v0, 0x7f0b2eaf
+    sget v0, Lcom/resouce/module/ResID;->tb_share_can_view_layout:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1226,7 +1226,7 @@
 
     iput-object v0, p0, Lxb5;->Z:Lcn/wpsx/support/ui/alpha/KAlphaRelativeLayout;
 
-    const v0, 0x7f0b2eb3
+    sget v0, Lcom/resouce/module/ResID;->tb_share_edit_view_layout:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1271,7 +1271,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/alpha/KAlphaRelativeLayout;->setEnablePressAlpha(Z)V
 
-    const v0, 0x7f0b2eb7
+    sget v0, Lcom/resouce/module/ResID;->tb_share_origin_checked:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1282,7 +1282,7 @@
 
     iput-object v0, p0, Lxb5;->b0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2ebe
+    sget v0, Lcom/resouce/module/ResID;->tb_share_view_checked:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1293,7 +1293,7 @@
 
     iput-object v0, p0, Lxb5;->c0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2eb1
+    sget v0, Lcom/resouce/module/ResID;->tb_share_edit_checked:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1304,7 +1304,7 @@
 
     iput-object v0, p0, Lxb5;->d0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2eb6
+    sget v0, Lcom/resouce/module/ResID;->tb_share_modify_period:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1315,7 +1315,7 @@
 
     iput-object v0, p0, Lxb5;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2eb5
+    sget v0, Lcom/resouce/module/ResID;->tb_share_modify_delay_text:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1326,7 +1326,7 @@
 
     iput-object v0, p0, Lxb5;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2eb9
+    sget v0, Lcom/resouce/module/ResID;->tb_share_send_button:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2072,7 +2072,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1223ed
+    sget v3, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2089,7 +2089,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1223f0
+    sget v6, Lcom/resouce/module/ResSTRING;->public_link_overtime:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -2268,7 +2268,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122f23
+    sget v2, Lcom/resouce/module/ResSTRING;->share_send_to_app:I
 
     const/4 v3, 0x1
 
@@ -2337,7 +2337,7 @@
     :cond_1
     const/4 v5, 0x2
 
-    const v6, 0x7f122f17
+    sget v6, Lcom/resouce/module/ResSTRING;->share_login_continue:I
 
     if-ne p1, v5, :cond_3
 
@@ -2369,7 +2369,7 @@
     .line 18
     iget-object p1, p0, Lxb5;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f122f25
+    sget v1, Lcom/resouce/module/ResSTRING;->share_setting_anyone_view:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2452,7 +2452,7 @@
     .line 29
     iget-object p1, p0, Lxb5;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f122f24
+    sget v1, Lcom/resouce/module/ResSTRING;->share_setting_anyone_edit:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2518,7 +2518,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1223ed
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2533,7 +2533,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1223f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_overtime:I
 
     const/4 v2, 0x1
 

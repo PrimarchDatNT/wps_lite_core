@@ -486,7 +486,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/beans/menudrawer/TopbarStaticDrawer;->R0:Lcn/wps/moffice/common/beans/menudrawer/BuildLayerFrameLayout;
 
-    const v0, 0x7f0b1837
+    sget v0, Lcom/resouce/module/ResID;->md__toolbar:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/widget/FrameLayout;->setId(I)V

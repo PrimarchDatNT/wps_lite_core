@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081c47
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_share_via_dropbox:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122960
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_label:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

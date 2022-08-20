@@ -48,7 +48,7 @@
 
     invoke-virtual {p1, v0}, Lyy7;->a(Lcx7;)V
 
-    const p1, 0x7f0b2f7b
+    sget p1, Lcom/resouce/module/ResID;->thirdButtonContainer:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->a(Ldy7;)V
 
-    const v2, 0x7f0b0532
+    sget v2, Lcom/resouce/module/ResID;->containerLayout:I
 
     .line 7
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -118,7 +118,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    const p1, 0x7f122462
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_relate_account_title:I
 
     .line 2
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V
@@ -134,7 +134,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b18df
+    sget v0, Lcom/resouce/module/ResID;->moreLoginWaysView:I
 
     if-ne p1, v0, :cond_0
 
@@ -148,7 +148,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0ee8
+    sget p3, Lcom/resouce/module/ResLAYOUT;->relate_account_login_page:I
 
     const/4 v0, 0x0
 
@@ -157,7 +157,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b18df
+    sget p2, Lcom/resouce/module/ResID;->moreLoginWaysView:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122462
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_relate_account_title:I
 
     .line 3
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V

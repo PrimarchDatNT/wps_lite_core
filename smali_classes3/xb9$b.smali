@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -99,7 +99,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0702cf
+    sget v4, Lcom/resouce/module/ResDIMEN;->folder_manager_pop_btn_margin_bottom:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 

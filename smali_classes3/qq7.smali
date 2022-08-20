@@ -339,7 +339,7 @@
 
     iput-object v0, p0, Lqq7;->a:Lhd3;
 
-    const v1, 0x7f120ff9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_offline_reminder:I
 
     const/16 v2, 0x11
 
@@ -349,14 +349,14 @@
     .line 4
     iget-object v0, p0, Lqq7;->a:Lhd3;
 
-    const v1, 0x7f0e0d27
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_offline_reminder_dialog_layout:I
 
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
 
     .line 5
     iget-object v0, p0, Lqq7;->a:Lhd3;
 
-    const v1, 0x7f0b065c
+    sget v1, Lcom/resouce/module/ResID;->desc:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -367,7 +367,7 @@
     .line 6
     iget-object v1, p0, Lqq7;->a:Lhd3;
 
-    const v2, 0x7f0b2fac
+    sget v2, Lcom/resouce/module/ResID;->tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -382,12 +382,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f120e0c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_Offline_reminder_desc_cn:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f120e0e
+    sget v0, Lcom/resouce/module/ResSTRING;->home_Offline_reminder_tips_cn:I
 
     .line 9
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -395,12 +395,12 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f120e0d
+    sget v2, Lcom/resouce/module/ResSTRING;->home_Offline_reminder_desc_en:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f120e0f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_Offline_reminder_tips_en:I
 
     .line 11
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -409,7 +409,7 @@
     :goto_0
     iget-object v0, p0, Lqq7;->a:Lhd3;
 
-    const v1, 0x7f121d75
+    sget v1, Lcom/resouce/module/ResSTRING;->public_back:I
 
     new-instance v2, Lqq7$c;
 
@@ -420,7 +420,7 @@
     .line 13
     iget-object v0, p0, Lqq7;->a:Lhd3;
 
-    const v1, 0x7f1227f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_relogin:I
 
     new-instance v2, Lqq7$d;
 

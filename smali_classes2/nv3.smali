@@ -94,7 +94,7 @@
 .method public e(Landroid/content/Context;I)Lrv3;
     .locals 2
 
-    const v0, 0x7f121520
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_single_tip_text:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -145,7 +145,7 @@
 
     move-result v0
 
-    const v1, 0x7f121520
+    sget v1, Lcom/resouce/module/ResSTRING;->online_device_single_tip_text:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -216,7 +216,7 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f122315
+    sget p3, Lcom/resouce/module/ResSTRING;->public_home_tip_devices_text:I
 
     const-string v1, "tip_text"
 
@@ -254,7 +254,7 @@
 
     invoke-virtual {v1, p3}, Lrv3$b;->r(Ljava/lang/String;)Lrv3$b;
 
-    const p3, 0x7f122314
+    sget p3, Lcom/resouce/module/ResSTRING;->public_home_tip_devices_sync:I
 
     const-string v2, "button_text"
 

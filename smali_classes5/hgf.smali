@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12344e
+    sget v1, Lcom/resouce/module/ResSTRING;->youdao_note_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
     .line 2
     iget-object v0, p0, Lhgf;->a:Landroid/content/Context;
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -118,7 +118,7 @@
     .line 4
     iget-object v2, p0, Lhgf;->a:Landroid/content/Context;
 
-    const v3, 0x7f122c8a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_youdao_note_not_installed:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     iget-object v4, p0, Lhgf;->a:Landroid/content/Context;
 
-    const v5, 0x7f122c89
+    sget v5, Lcom/resouce/module/ResSTRING;->public_youdao_note_download_warn:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f12055e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_ok:I
 
     .line 8
     new-instance v2, Lhgf$a;
@@ -183,7 +183,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     new-instance v2, Lhgf$b;
@@ -375,7 +375,7 @@
     .line 13
     iget-object v5, p0, Lhgf;->a:Landroid/content/Context;
 
-    const v6, 0x7f122950
+    sget v6, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

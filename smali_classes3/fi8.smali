@@ -206,7 +206,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0fdb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->translation_preview_item:I
 
     const/4 v1, 0x0
 
@@ -219,7 +219,7 @@
 
     invoke-direct {p3}, Lfi8$c;-><init>()V
 
-    const v0, 0x7f0b30c4
+    sget v0, Lcom/resouce/module/ResID;->translation_preview_item_img:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

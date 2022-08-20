@@ -269,7 +269,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07f2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_audio_seekbar_with_text:I
 
     const/4 v2, 0x0
 
@@ -304,7 +304,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->I:Landroid/graphics/Bitmap;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,7 +318,7 @@
     .line 6
     invoke-virtual {p0}, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->i()V
 
-    const v1, 0x7f0b055e
+    sget v1, Lcom/resouce/module/ResID;->controller:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->U:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b2ae0
+    sget v1, Lcom/resouce/module/ResID;->seekbar_root:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b254f
+    sget v1, Lcom/resouce/module/ResID;->progress_time_curr:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2550
+    sget v1, Lcom/resouce/module/ResID;->progress_time_max:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/audio/AudioPlayerView;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f0b055d
+    sget v1, Lcom/resouce/module/ResID;->control_img:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08136e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_seekbar_thumb_orange:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

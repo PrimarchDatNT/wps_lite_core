@@ -28,7 +28,7 @@
     .line 1
     invoke-direct {p0, p1}, Lcn/wps/moffice/main/open/newoverseastyle/bottompager/tabpage/AbsPageListView$c;-><init>(Landroid/view/View;)V
 
-    const p2, 0x7f0b10e6
+    sget p2, Lcom/resouce/module/ResID;->home_open_item_clear_local_file_view:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -291,7 +291,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10e6
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_clear_local_file_view:I
 
     if-ne p1, v0, :cond_0
 

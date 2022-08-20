@@ -40,7 +40,7 @@
 
     iget-object v0, v0, Ln64;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122301
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_please_install_skype:I
 
     const/4 v2, 0x0
 

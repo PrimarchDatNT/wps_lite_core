@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d72
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_assistant_search_item:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lv99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0168
+    sget v0, Lcom/resouce/module/ResID;->assistant_search_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
     .line 4
     iget-object p1, p0, Lv99;->a:Landroid/view/View;
 
-    const v0, 0x7f0b18c1
+    sget v0, Lcom/resouce/module/ResID;->model_divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

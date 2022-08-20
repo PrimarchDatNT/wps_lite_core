@@ -99,7 +99,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1227d4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_recommend:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -451,7 +451,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f122671
+    sget v10, Lcom/resouce/module/ResSTRING;->public_ppt_docer_group_template:I
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

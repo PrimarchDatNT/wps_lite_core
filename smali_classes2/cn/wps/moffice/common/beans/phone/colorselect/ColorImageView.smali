@@ -42,7 +42,7 @@
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f0811d7
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_colorimage_bg:I
 
     const/4 p3, 0x0
 
@@ -53,7 +53,7 @@
 
     move-result p1
 
-    const v0, 0x7f0811d8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_colorimage_in_selector:I
 
     const-string v1, "selector_color"
 

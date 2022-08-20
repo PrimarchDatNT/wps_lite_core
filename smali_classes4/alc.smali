@@ -202,7 +202,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f1217b9
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_edit_dailog_txt_edit_tips:I
 
     .line 5
     invoke-virtual {v1, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -217,7 +217,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f1217b8
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_edit_dailog_img_edit_tips:I
 
     .line 7
     invoke-virtual {v1, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -229,7 +229,7 @@
     .line 8
     invoke-virtual {v1, p1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f121f23
+    sget p1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     const/4 v0, 0x0
 

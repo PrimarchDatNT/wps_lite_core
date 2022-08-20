@@ -43,7 +43,7 @@
 .method public constructor <init>(Landroid/content/Context;Lfge$a;ILege$a;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -76,7 +76,7 @@
     .line 7
     iget-object p2, p0, Lage;->B:Landroid/content/Context;
 
-    const p4, 0x7f1227d4
+    sget p4, Lcom/resouce/module/ResSTRING;->public_recommend:I
 
     invoke-virtual {p2, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -438,7 +438,7 @@
     .line 1
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -527,7 +527,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d19
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_file_template_detail_layout:I
 
     const/4 v2, 0x0
 
@@ -545,7 +545,7 @@
     .line 4
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b86
+    sget v1, Lcom/resouce/module/ResID;->orientation_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
     .line 6
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0dd3
+    sget v1, Lcom/resouce/module/ResID;->float_preview_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -574,7 +574,7 @@
     .line 7
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b161d
+    sget v1, Lcom/resouce/module/ResID;->list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -641,7 +641,7 @@
     .line 16
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3044
+    sget v1, Lcom/resouce/module/ResID;->tl_bottom_toolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -670,7 +670,7 @@
     .line 19
     iget-object v0, p0, Lage;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3323
+    sget v1, Lcom/resouce/module/ResID;->use_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -777,7 +777,7 @@
     .line 2
     iget-object p1, p0, Lage;->B:Landroid/content/Context;
 
-    const p2, 0x7f120cbb
+    sget p2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1121,7 +1121,7 @@
     .line 2
     iget-object v0, p0, Lage;->B:Landroid/content/Context;
 
-    const v2, 0x7f120cbb
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

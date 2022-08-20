@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120623
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     const/4 v2, 0x0
 
@@ -67,7 +67,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 2
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0f43
+    sget v0, Lcom/resouce/module/ResID;->grid_item_progress:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

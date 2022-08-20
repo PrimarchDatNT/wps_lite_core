@@ -65,7 +65,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b0f6b
+    sget v2, Lcom/resouce/module/ResID;->guide_card_btn:I
 
     const-string v3, "popclick"
 
@@ -91,7 +91,7 @@
     goto/16 :goto_d
 
     :cond_2
-    const v2, 0x7f0b1459
+    sget v2, Lcom/resouce/module/ResID;->iv_flashLight:I
 
     const/4 v5, 0x0
 
@@ -280,7 +280,7 @@
     goto/16 :goto_d
 
     :cond_6
-    const v2, 0x7f0b0309
+    sget v2, Lcom/resouce/module/ResID;->btn_take_picture:I
 
     const-string v8, "downloadOpenCvPlugin status : "
 
@@ -349,7 +349,7 @@
 
     iget-object v0, v0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f1201bf
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_sacn_download_so_tips:I
 
     invoke-static {v0, v2, v7}, Lbih;->p(Landroid/content/Context;II)V
 
@@ -459,7 +459,7 @@
     goto/16 :goto_d
 
     :cond_e
-    const v2, 0x7f0b31b2
+    sget v2, Lcom/resouce/module/ResID;->tv_import:I
 
     const-string v10, "scan_pictxt"
 
@@ -485,14 +485,14 @@
 
     if-eq v0, v2, :cond_2b
 
-    const v2, 0x7f0b1694
+    sget v2, Lcom/resouce/module/ResID;->ll_img_import:I
 
     if-ne v0, v2, :cond_f
 
     goto/16 :goto_8
 
     :cond_f
-    const v2, 0x7f0b00df
+    sget v2, Lcom/resouce/module/ResID;->al_thumbnail:I
 
     if-ne v0, v2, :cond_15
 
@@ -719,18 +719,18 @@
     goto/16 :goto_d
 
     :cond_15
-    const v2, 0x7f0b312d
+    sget v2, Lcom/resouce/module/ResID;->tv_confirm:I
 
     if-eq v0, v2, :cond_25
 
-    const v2, 0x7f0b1693
+    sget v2, Lcom/resouce/module/ResID;->ll_img_export:I
 
     if-ne v0, v2, :cond_16
 
     goto/16 :goto_5
 
     :cond_16
-    const v2, 0x7f0b3230
+    sget v2, Lcom/resouce/module/ResID;->tv_rectify_guide_button:I
 
     if-ne v0, v2, :cond_17
 
@@ -762,7 +762,7 @@
     goto/16 :goto_d
 
     :cond_17
-    const v2, 0x7f0b14b1
+    sget v2, Lcom/resouce/module/ResID;->iv_rectify_help_tips:I
 
     if-ne v0, v2, :cond_18
 
@@ -799,7 +799,7 @@
     goto/16 :goto_d
 
     :cond_18
-    const v2, 0x7f0b145a
+    sget v2, Lcom/resouce/module/ResID;->iv_folder:I
 
     if-ne v0, v2, :cond_1a
 
@@ -833,7 +833,7 @@
     goto/16 :goto_d
 
     :cond_1a
-    const v2, 0x7f0b1400
+    sget v2, Lcom/resouce/module/ResID;->iv_HD:I
 
     if-ne v0, v2, :cond_1e
 
@@ -921,7 +921,7 @@
 
     iget-object v0, v0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f120464
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guide_disable_tips:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -988,7 +988,7 @@
 
     iget-object v0, v0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v8, 0x7f120465
+    sget v8, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guide_enable_tips:I
 
     invoke-virtual {v0, v8}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1079,7 +1079,7 @@
     goto/16 :goto_d
 
     :cond_1e
-    const v2, 0x7f0b3284
+    sget v2, Lcom/resouce/module/ResID;->tv_switch_wide_camera:I
 
     if-ne v0, v2, :cond_1f
 
@@ -1116,7 +1116,7 @@
     goto/16 :goto_d
 
     :cond_1f
-    const v2, 0x7f0b3283
+    sget v2, Lcom/resouce/module/ResID;->tv_switch_normal_camera:I
 
     if-ne v0, v2, :cond_21
 
@@ -1173,7 +1173,7 @@
     goto/16 :goto_d
 
     :cond_21
-    const v2, 0x7f0b3282
+    sget v2, Lcom/resouce/module/ResID;->tv_switch_larger_camera:I
 
     if-ne v0, v2, :cond_24
 
@@ -1254,7 +1254,7 @@
     goto/16 :goto_d
 
     :cond_24
-    const v2, 0x7f0b14c8
+    sget v2, Lcom/resouce/module/ResID;->iv_sign_close:I
 
     if-ne v0, v2, :cond_36
 
@@ -1549,7 +1549,7 @@
 
     iget-object v0, v0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f1201bf
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_sacn_download_so_tips:I
 
     const/4 v3, 0x0
 

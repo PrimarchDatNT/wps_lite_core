@@ -290,7 +290,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122823
+    sget v0, Lcom/resouce/module/ResSTRING;->public_saveDocumentError:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -328,7 +328,7 @@
 
     if-eqz v3, :cond_5
 
-    const v2, 0x7f12257d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     .line 19
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -351,7 +351,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122581
+    sget v3, Lcom/resouce/module/ResSTRING;->public_online_security_server_error:I
 
     if-eqz v2, :cond_6
 
@@ -364,7 +364,7 @@
 
     if-ne v2, v4, :cond_6
 
-    const v3, 0x7f121534
+    sget v3, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     .line 22
     :cond_6
@@ -399,7 +399,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121f89
+    sget v4, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_save_file_failed:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f122824
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     .line 31
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

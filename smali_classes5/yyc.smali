@@ -45,15 +45,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12182c
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122c12
+    sget v1, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     :goto_0
-    const v2, 0x7f121051
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_merge:I
 
     const/4 v3, 0x2
 
@@ -76,7 +76,7 @@
 
     aput-object v5, v3, v4
 
-    const v4, 0x7f080762
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_merge:I
 
     .line 5
     invoke-static {v4, v1, v2, v3}, Lcib;->j(III[Lcib$b;)Lcib;

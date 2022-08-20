@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0, p1}, Lhk6;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b0349
+    sget v0, Lcom/resouce/module/ResID;->cardView:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -29,7 +29,7 @@
 
     iput-object v0, p0, Lwi6;->j0:Lcn/wps/moffice/home/common/widget/AspectCoverView;
 
-    const v0, 0x7f0b0232
+    sget v0, Lcom/resouce/module/ResID;->bookTitle:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lwi6;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0230
+    sget v0, Lcom/resouce/module/ResID;->bookDesc:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

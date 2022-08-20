@@ -171,16 +171,16 @@
 
     invoke-direct {v1, v3, v4}, Lzbd;-><init>(Landroid/content/Context;I)V
 
-    const v4, 0x7f08169a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_dasktop:I
 
-    const v3, 0x7f121da5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_bind_pc_device:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v3, 0x7f121da6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_bind_pc_device_detail:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -249,16 +249,16 @@
 
     invoke-direct {v7, v1, v2}, Lzbd;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f081692
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_article:I
 
-    const v1, 0x7f121ef8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloudsetting_collection_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f121ef7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloudsetting_collection_desc:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -403,9 +403,9 @@
     const/4 v2, 0x0
 
     :goto_1
-    const v3, 0x7f081693
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_backup:I
 
-    const v4, 0x7f121ebc
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_setting_receive_file_backup:I
 
     .line 6
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -419,12 +419,12 @@
 
     if-eqz v5, :cond_1
 
-    const v5, 0x7f121ebe
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_setting_receive_file_backup_detail_androidR:I
 
     goto :goto_2
 
     :cond_1
-    const v5, 0x7f121ebd
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_setting_receive_file_backup_detail:I
 
     :goto_2
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -521,16 +521,16 @@
 
     invoke-direct {v7, v1, v2}, Lzbd;-><init>(Landroid/content/Context;I)V
 
-    const v2, 0x7f0816a6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_trash:I
 
-    const v1, 0x7f122059
+    sget v1, Lcom/resouce/module/ResSTRING;->public_enterprise_text_tips_find_document:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f121ebf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_setting_recovery_file_detail:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -614,7 +614,7 @@
 
     iput-object v8, p0, Lbcd;->j:Lzbd;
 
-    const v2, 0x7f0814ab
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->plugin_pub_list_folder_private:I
 
     .line 5
     :try_start_1
@@ -633,17 +633,17 @@
     goto :goto_1
 
     :catchall_1
-    const v3, 0x7f0814ab
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->plugin_pub_list_folder_private:I
 
     :goto_1
-    const v2, 0x7f1228bd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v2, 0x7f121ec0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_setting_secret_folder_detail:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -796,12 +796,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0814a8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->plugin_pad_pub_list_folder_sharedfolder:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0814ac
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->plugin_pub_list_folder_sharedfolder:I
 
     .line 5
     :goto_0
@@ -819,14 +819,14 @@
     :catchall_0
     move v2, v1
 
-    const v1, 0x7f121153
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f12296d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_folder_description:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -861,7 +861,7 @@
 .method public j(IZ)V
     .locals 5
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v1, 0x1
 
@@ -1304,7 +1304,7 @@
     .line 5
     iget-object p1, p0, Lbcd;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v1, 0x0
 

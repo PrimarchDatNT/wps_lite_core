@@ -10,7 +10,7 @@
     .line 1
     invoke-direct {p0}, Loal;-><init>()V
 
-    const v0, 0x7f0e09bb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_arrage_choose:I
 
     .line 2
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -24,7 +24,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1233e6
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_read_arrange_modes:I
 
     invoke-direct {v1, v2, v3, v0}, Lij3;-><init>(Landroid/content/Context;ILandroid/view/View;)V
 
@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f080240
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v0, v1}, Lkkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b3657
+    sget v1, Lcom/resouce/module/ResID;->writer_read_arrange_flip:I
 
     const-string v2, "arrange-flip"
 
@@ -92,7 +92,7 @@
 
     invoke-direct {v0, v1}, Llkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b3658
+    sget v1, Lcom/resouce/module/ResID;->writer_read_arrange_scroll:I
 
     const-string v2, "arrange-scroll"
 
@@ -103,7 +103,7 @@
 
     invoke-direct {v0, p0}, Lwal;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b20e0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn_root:I
 
     const-string v2, "arrange-choose-downarrow"
 

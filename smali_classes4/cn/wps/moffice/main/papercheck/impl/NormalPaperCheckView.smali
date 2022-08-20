@@ -24,7 +24,7 @@
 .method public g()V
     .locals 1
 
-    const v0, 0x7f0b0893
+    sget v0, Lcom/resouce/module/ResID;->engine_gv:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -35,7 +35,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->B:Lcn/wps/moffice/templatecommon/ext/widget/ExpandGridView;
 
-    const v0, 0x7f0b03a8
+    sget v0, Lcom/resouce/module/ResID;->check_field_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/NormalPaperCheckView;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b03a7
+    sget v0, Lcom/resouce/module/ResID;->check_field_text:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/NormalPaperCheckView;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d35
+    sget v0, Lcom/resouce/module/ResID;->file_title_et:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->V:Landroid/widget/EditText;
 
-    const v0, 0x7f0b0d36
+    sget v0, Lcom/resouce/module/ResID;->file_title_flag_tv:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0392
+    sget v0, Lcom/resouce/module/ResID;->char_num_tv:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b08c4
+    sget v0, Lcom/resouce/module/ResID;->estimate_price_tv:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->b0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2fab
+    sget v0, Lcom/resouce/module/ResID;->tip_tv:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->c0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2aed
+    sget v0, Lcom/resouce/module/ResID;->select_engine_tv:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0390
+    sget v0, Lcom/resouce/module/ResID;->char_num_flag_tv:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b08c3
+    sget v0, Lcom/resouce/module/ResID;->estimate_price_flag_tv:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b06c5
+    sget v0, Lcom/resouce/module/ResID;->divide0_v:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b06c6
+    sget v0, Lcom/resouce/module/ResID;->divide1_v:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckTypeBaseView;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b06c7
+    sget v0, Lcom/resouce/module/ResID;->divide2_v:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0dab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_type_normal_layout:I
 
     return v0
 .end method
@@ -209,7 +209,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -224,7 +224,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -243,7 +243,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1215e0
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_engine_name_suffix:I
 
     const/4 v3, 0x1
 
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1215df
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_engine_desc:I
 
     const/4 v4, 0x3
 

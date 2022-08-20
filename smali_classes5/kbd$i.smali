@@ -97,7 +97,7 @@
 
     aput-object v1, v4, v0
 
-    const v0, 0x7f121a22
+    sget v0, Lcom/resouce/module/ResSTRING;->plugin_public_cloud_space_usage:I
 
     invoke-virtual {v3, v0, v4}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     iget-object v1, v1, Lkbd;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f121ee9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_hint:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -161,7 +161,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -182,7 +182,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0816c4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_right_arrow_blue:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -214,7 +214,7 @@
 
     iget-object v1, v1, Lkbd;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f121e6c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_less_space_upgrade:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -233,7 +233,7 @@
 
     iget-object v1, v1, Lkbd;->e0:Landroid/widget/TextView;
 
-    const v2, 0x7f121e85
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_no_space_upgrade:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -258,7 +258,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0816c5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_right_arrow_red:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

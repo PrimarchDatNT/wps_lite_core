@@ -81,7 +81,7 @@
     .line 2
     iget-object p1, p0, Lz84;->d0:Landroid/widget/Button;
 
-    const p2, 0x7f122023
+    sget p2, Lcom/resouce/module/ResSTRING;->public_download_immediately:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
     .line 5
     iget-object p1, p0, Lz84;->d0:Landroid/widget/Button;
 
-    const p2, 0x7f122588
+    sget p2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     :cond_2
     iget-object p1, p0, Lz84;->d0:Landroid/widget/Button;
 
-    const p2, 0x7f12238d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_installd:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -162,7 +162,7 @@
     :cond_3
     iget-object p1, p0, Lz84;->d0:Landroid/widget/Button;
 
-    const p2, 0x7f121f60
+    sget p2, Lcom/resouce/module/ResSTRING;->public_continue_download:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -178,7 +178,7 @@
 
     if-nez p1, :cond_5
 
-    const p1, 0x7f122030
+    sget p1, Lcom/resouce/module/ResSTRING;->public_downloading_percent:I
 
     .line 13
     invoke-virtual {p0, p1}, Lya3;->f(I)Ljava/lang/String;
@@ -235,7 +235,7 @@
     :cond_6
     iget-object p1, p0, Lz84;->d0:Landroid/widget/Button;
 
-    const p2, 0x7f122bde
+    sget p2, Lcom/resouce/module/ResSTRING;->public_waiting_download:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
     .line 4
     iget v4, p0, Lya3;->V:I
 
-    const v5, 0x7f120647
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v6, 0x0
 

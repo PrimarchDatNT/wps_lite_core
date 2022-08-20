@@ -108,7 +108,7 @@
     goto :goto_1
 
     :catch_0
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     const/4 v1, 0x1
 

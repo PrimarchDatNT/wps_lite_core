@@ -82,9 +82,9 @@
 
     sget-object v2, Lz56;->T:Lz56;
 
-    const v3, 0x7f080567
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->documents_icon_doc:I
 
-    const v4, 0x7f122514
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -95,9 +95,9 @@
 
     sget-object v2, Lz56;->I:Lz56;
 
-    const v3, 0x7f080572
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->documents_icon_ppt:I
 
-    const v4, 0x7f121b84
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_new_document_name:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -108,9 +108,9 @@
 
     sget-object v2, Lz56;->B:Lz56;
 
-    const v3, 0x7f080577
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->documents_icon_xls:I
 
-    const v4, 0x7f122517
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_spreadsheet_name:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -121,9 +121,9 @@
 
     sget-object v2, Lz56;->W:Lz56;
 
-    const v3, 0x7f08056e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->documents_icon_pdf:I
 
-    const v4, 0x7f122136
+    sget v4, Lcom/resouce/module/ResSTRING;->public_file_pdf:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -134,9 +134,9 @@
 
     sget-object v2, Lz56;->S:Lz56;
 
-    const v3, 0x7f08172e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_txt:I
 
-    const v4, 0x7f122515
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -147,9 +147,9 @@
 
     sget-object v2, Lz56;->U:Lz56;
 
-    const v3, 0x7f08172d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_new_file_scanner:I
 
-    const v4, 0x7f1204a7
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-direct {v1, v3, v4, v2}, Lok4$d;-><init>(IILz56;)V
 
@@ -668,7 +668,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08a4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_multi_create_new_content_item:I
 
     const/4 v2, 0x0
 
@@ -676,7 +676,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b13c7
+    sget v0, Lcom/resouce/module/ResID;->item_image:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b13ec
+    sget v0, Lcom/resouce/module/ResID;->item_text:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

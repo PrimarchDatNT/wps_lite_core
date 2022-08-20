@@ -132,7 +132,7 @@
 
     iget-object v1, p0, Lp1u;->b:Landroid/content/Context;
 
-    const v2, 0x7f080aa8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->mtrl_ic_cancel:I
 
     .line 2
     invoke-static {v1, v2}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12027a
+    sget v2, Lcom/resouce/module/ResSTRING;->clear_text_end_icon_content_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

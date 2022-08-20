@@ -75,7 +75,7 @@
 
     iget-object v1, v1, Luxd;->B:Landroid/content/Context;
 
-    const v2, 0x7f121b78
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_hyperlink_slide_index:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

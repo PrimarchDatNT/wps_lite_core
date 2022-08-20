@@ -85,7 +85,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0daf
+    sget v0, Lcom/resouce/module/ResID;->fl_connect:I
 
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

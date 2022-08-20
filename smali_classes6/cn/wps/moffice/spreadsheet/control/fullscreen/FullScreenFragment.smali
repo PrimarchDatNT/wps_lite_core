@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f7a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_screenback_btn_layout:I
 
     const/4 v2, 0x0
 
@@ -205,7 +205,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreenFragment;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b0aac
+    sget v0, Lcom/resouce/module/ResID;->et_main_screenbackBtn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0b73
+    sget p2, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

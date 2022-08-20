@@ -112,7 +112,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0f1e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->search_phone_search_home_birthday_datavalidation_date_picker:I
 
     .line 8
     invoke-virtual {v0, p1, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -120,7 +120,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0f0f
+    sget p1, Lcom/resouce/module/ResLAYOUT;->search_pad_search_home_birthday_datavalidation_date_picker:I
 
     .line 9
     invoke-virtual {v0, p1, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     invoke-direct {p1, p0}, Lcom/wps/moffice/timerangedialog/DatePicker$a;-><init>(Lcom/wps/moffice/timerangedialog/DatePicker;)V
 
-    const v0, 0x7f0b222c
+    sget v0, Lcom/resouce/module/ResID;->pickers:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     iput-object v0, p0, Lcom/wps/moffice/timerangedialog/DatePicker;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b062d
+    sget v0, Lcom/resouce/module/ResID;->day:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
     .line 15
     invoke-virtual {v0, p1}, Lcom/wps/moffice/timerangedialog/NumberPicker;->setOnValueChangedListener(Lcom/wps/moffice/timerangedialog/NumberPicker$j;)V
 
-    const v3, 0x7f0b10d9
+    sget v3, Lcom/resouce/module/ResID;->home_numberpicker_input:I
 
     .line 16
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -177,7 +177,7 @@
 
     iput-object v0, p0, Lcom/wps/moffice/timerangedialog/DatePicker;->U:Landroid/widget/EditText;
 
-    const v0, 0x7f0b18cb
+    sget v0, Lcom/resouce/module/ResID;->month:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     iput-object v0, p0, Lcom/wps/moffice/timerangedialog/DatePicker;->V:Landroid/widget/EditText;
 
-    const v0, 0x7f0b36e6
+    sget v0, Lcom/resouce/module/ResID;->year:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1068,7 +1068,7 @@
     const/4 p2, 0x6
 
     :goto_0
-    const p3, 0x7f0b10d9
+    sget p3, Lcom/resouce/module/ResID;->home_numberpicker_input:I
 
     .line 1
     invoke-virtual {p1, p3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1742,7 +1742,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

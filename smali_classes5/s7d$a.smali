@@ -86,7 +86,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06050e
+    sget v2, Lcom/resouce/module/ResCOLOR;->progressBarBackgroundColor:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I

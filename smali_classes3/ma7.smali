@@ -92,14 +92,14 @@
     .line 2
     iget-object p2, p0, Lv97;->l0:Landroid/widget/TextView;
 
-    const p3, 0x7f122190
+    sget p3, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object p2, p0, Lv97;->l0:Landroid/widget/TextView;
 
-    const p3, 0x7f0816bf
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_new_bounds:I
 
     const/16 v0, 0x10
 
@@ -108,7 +108,7 @@
     .line 4
     iget-object p2, p0, Lv97;->k0:Landroid/widget/TextView;
 
-    const p3, 0x7f0816ca
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_sort:I
 
     invoke-virtual {p0, p2, p3, v0}, Lma7;->A(Landroid/widget/TextView;II)V
 
@@ -195,7 +195,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1c08
+    sget p2, Lcom/resouce/module/ResID;->pad_multiselect:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13b0
+    sget p2, Lcom/resouce/module/ResID;->item_control_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
 .method public t()I
     .locals 1
 
-    const v0, 0x7f0e0543
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_tag_file_item:I
 
     return v0
 .end method
@@ -241,7 +241,7 @@
     .line 2
     iget-object p1, p0, Lv97;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f122190
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

@@ -228,7 +228,7 @@
     .line 4
     invoke-virtual {v1, v2, v2, v2, v3}, Landroid/widget/TextView;->setPadding(IIII)V
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -237,7 +237,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f0704ff
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_color_title_size:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -246,7 +246,7 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v2, 0x7f121598
+    sget v2, Lcom/resouce/module/ResSTRING;->pad_color_title:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -255,7 +255,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0e05e9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_stroke_width_layout:I
 
     const/4 v2, 0x0
 
@@ -264,7 +264,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b1c3d
+    sget v2, Lcom/resouce/module/ResID;->pad_stroke_title:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     iput-object v2, p0, Llyk;->k0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b1c5a
+    sget v2, Lcom/resouce/module/ResID;->pad_writer_stroke_progress:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
     .line 2
     iget-object v0, p0, Llyk;->g0:Landroid/content/Context;
 
-    const v1, 0x7f0e0513
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     const/4 v2, 0x0
 
@@ -358,7 +358,7 @@
 
     iput-object v0, p0, Llyk;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1bc7
+    sget v1, Lcom/resouce/module/ResID;->pad_color_select_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
     .line 4
     iget-object v0, p0, Llyk;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b1bc8
+    sget v1, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
     .line 13
     iget v2, p0, Llyk;->h0:I
 
-    const v3, 0x7f1233c4
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_noneColor:I
 
     const/4 v4, 0x0
 
@@ -468,7 +468,7 @@
     .line 16
     iget-object v0, p0, Llyk;->e0:Lzi3;
 
-    const v2, 0x7f1233cf
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_page_background_pic_fill:I
 
     invoke-virtual {v0, v2}, Lzi3;->e0(I)V
 

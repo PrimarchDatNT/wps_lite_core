@@ -960,14 +960,14 @@
     .line 4
     iget-object p1, p0, Lhml;->c:Liml;
 
-    const v0, 0x7f12013b
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_deliver_resume:I
 
     invoke-virtual {p1, v0}, Liml;->setTitle(I)V
 
     .line 5
     iget-object p1, p0, Lhml;->c:Liml;
 
-    const v0, 0x7f12018a
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_deliver_choice:I
 
     invoke-virtual {p1, v0}, Liml;->Y2(I)V
 
@@ -982,14 +982,14 @@
     .line 7
     iget-object p1, p0, Lhml;->c:Liml;
 
-    const v0, 0x7f1201b7
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_train:I
 
     invoke-virtual {p1, v0}, Liml;->setTitle(I)V
 
     .line 8
     iget-object p1, p0, Lhml;->c:Liml;
 
-    const v0, 0x7f12019c
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_import_choice:I
 
     invoke-virtual {p1, v0}, Liml;->Y2(I)V
 

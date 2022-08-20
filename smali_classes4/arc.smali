@@ -107,7 +107,7 @@
     .line 1
     iget-object v0, p0, Larc;->d:Landroid/content/Context;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -141,14 +141,14 @@
     .line 1
     iget-object v0, p0, Larc;->b:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f12186d
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_pictitle:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
     .line 2
     iget-object v0, p0, Larc;->b:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
 
@@ -195,7 +195,7 @@
     .line 7
     iget-object v3, p0, Larc;->d:Landroid/content/Context;
 
-    const v4, 0x7f122551
+    sget v4, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -242,14 +242,14 @@
     .line 1
     iget-object v0, p0, Larc;->b:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f121875
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
     .line 2
     iget-object v0, p0, Larc;->b:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
 
@@ -292,7 +292,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0817cc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -308,7 +308,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0808a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -473,7 +473,7 @@
     .line 1
     iget-object v0, p0, Larc;->d:Landroid/content/Context;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -482,7 +482,7 @@
     .line 2
     iget-object v1, p0, Larc;->d:Landroid/content/Context;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -514,7 +514,7 @@
     .line 1
     iget-object v0, p0, Larc;->d:Landroid/content/Context;
 
-    const v1, 0x7f121be7
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_seleted_item:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

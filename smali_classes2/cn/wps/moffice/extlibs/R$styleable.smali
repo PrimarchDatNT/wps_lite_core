@@ -83,7 +83,7 @@
 
     new-array v6, v0, [I
 
-    const v7, 0x7f04029c
+    sget v7, Lcom/resouce/module/ResATTR;->image_filter:I
 
     aput v7, v6, v3
 
@@ -151,7 +151,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f040036
+    sget v8, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v8, v7, v3
 
@@ -277,7 +277,7 @@
 
     new-array v10, v0, [I
 
-    const v11, 0x7f040313
+    sget v11, Lcom/resouce/module/ResATTR;->kmui_colorfilter_type:I
 
     aput v11, v10, v3
 
@@ -347,7 +347,7 @@
 
     new-array v5, v0, [I
 
-    const v9, 0x7f0405b6
+    sget v9, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v9, v5, v3
 

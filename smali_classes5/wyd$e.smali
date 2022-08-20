@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122ba2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_video_add_failed:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

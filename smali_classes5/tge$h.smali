@@ -186,7 +186,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0e0ae1
+    sget v5, Lcom/resouce/module/ResLAYOUT;->ppt_template_beauty_preview_image_item:I
 
     const/4 v6, 0x0
 
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b01fd
+    sget v3, Lcom/resouce/module/ResID;->beauty_preview_index_tv:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     const/16 v7, 0x10
 
-    const v8, 0x7f081b9b
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_gray_bg_8dp:I
 
     if-ge v5, v7, :cond_1
 
@@ -265,7 +265,7 @@
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
-    const v3, 0x7f0b01fc
+    sget v3, Lcom/resouce/module/ResID;->beauty_preview_img:I
 
     .line 11
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -288,7 +288,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0703a3
+    sget v6, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimension(I)F
 

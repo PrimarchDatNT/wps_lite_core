@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e1a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_saveicon_uploadlimit_status_panel:I
 
     const/4 v2, 0x0
 
@@ -47,7 +47,7 @@
 
     iput-object p2, p0, Lt15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b3307
+    sget v0, Lcom/resouce/module/ResID;->upgrade_button:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
     .line 3
     iget-object p2, p0, Lt15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b226c
+    sget v0, Lcom/resouce/module/ResID;->poppanel_title:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -74,7 +74,7 @@
     .line 4
     iget-object p2, p0, Lt15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b2268
+    sget v0, Lcom/resouce/module/ResID;->poppanel_description:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

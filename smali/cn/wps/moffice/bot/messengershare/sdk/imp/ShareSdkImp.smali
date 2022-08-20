@@ -34,7 +34,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1224c7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_messenger_share_priview:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -45,7 +45,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c1e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_link_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f12266c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_please_open_messenger:I
 
     const/4 p3, 0x0
 

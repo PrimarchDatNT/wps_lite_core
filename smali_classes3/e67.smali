@@ -39,9 +39,9 @@
     .line 1
     sget-object p1, Lgh8$b;->b1:Lgh8$b;
 
-    const v0, 0x7f080233
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-static {v0, v1, p1}, Ldi9;->w(IILgh8$b;)Ldi9$f;
 

@@ -18,7 +18,7 @@
 .method public V2()I
     .locals 1
 
-    const v0, 0x7f120f28
+    sget v0, Lcom/resouce/module/ResSTRING;->home_info_setting_delete_account:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public W2()I
     .locals 1
 
-    const v0, 0x7f0e0a45
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_about_home_delete_account_layout:I
 
     return v0
 .end method
@@ -43,13 +43,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f03002c
+    sget v1, Lcom/resouce/module/ResARRAY;->home_account_setting_delete_account_content:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f0b0542
+    sget v1, Lcom/resouce/module/ResID;->content_container:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

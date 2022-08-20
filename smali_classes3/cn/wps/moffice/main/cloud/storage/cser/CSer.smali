@@ -849,7 +849,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12250d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1093,7 +1093,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1229f1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shouldOverwrite:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1151,7 +1151,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v2, 0x1
 
@@ -1182,12 +1182,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0b61
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_progress:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e070b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_progress:I
 
     .line 3
     :goto_0
@@ -1225,14 +1225,14 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->g0:Lhd3;
 
-    const v1, 0x7f1205e1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastConnecting:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->g0:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/main/cloud/storage/cser/CSer$c;
 
@@ -1424,7 +1424,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v4, 0x7f122588
+    sget v4, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2063,7 +2063,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const p2, 0x7f120eca
+    sget p2, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_send_select_note_toast:I
 
     invoke-static {p1, p2, v2}, Le88;->a(Landroid/content/Context;II)V
 
@@ -2200,7 +2200,7 @@
 
     invoke-direct {v0}, Llk3;-><init>()V
 
-    const v1, 0x7f122588
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 2
     invoke-static {v1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -3023,7 +3023,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const p2, 0x7f120eca
+    sget p2, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_send_select_note_toast:I
 
     invoke-static {p1, p2, v2}, Le88;->a(Landroid/content/Context;II)V
 
@@ -3310,7 +3310,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122546
+    sget v3, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3890,7 +3890,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3993,7 +3993,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -4028,7 +4028,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120618
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_upload_forbid_0kb:I
 
     invoke-static {v0, v2, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -4093,7 +4093,7 @@
     .line 13
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121f06
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloudstorage_send_fail:I
 
     invoke-static {v2, v3, v1}, Le88;->a(Landroid/content/Context;II)V
 

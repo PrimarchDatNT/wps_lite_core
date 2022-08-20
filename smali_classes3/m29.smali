@@ -41,7 +41,7 @@
 
     iget-object v1, p0, Lf29;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122059
+    sget v2, Lcom/resouce/module/ResSTRING;->public_enterprise_text_tips_find_document:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     iget-object v1, p0, Lf29;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122058
+    sget v2, Lcom/resouce/module/ResSTRING;->public_enterprise_text_operation_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

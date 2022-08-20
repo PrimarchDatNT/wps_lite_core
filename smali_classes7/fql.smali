@@ -71,7 +71,7 @@
     .line 2
     iget-object p1, p0, Lfql;->a:Landroid/content/Context;
 
-    const v0, 0x7f122893
+    sget v0, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -83,7 +83,7 @@
     :cond_1
     iget-object v0, p0, Lfql;->a:Landroid/content/Context;
 
-    const v1, 0x7f122185
+    sget v1, Lcom/resouce/module/ResSTRING;->public_find_replaceallcount:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
     .line 6
     iget-object v0, p0, Lfql;->b:Lhd3;
 
-    const v1, 0x7f122186
+    sget v1, Lcom/resouce/module/ResSTRING;->public_find_replacealltitle:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -139,7 +139,7 @@
 
     iget-object v0, p0, Lfql;->a:Landroid/content/Context;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lxk7;->X:Lvk7;
 
-    const v1, 0x7f122525
+    sget v1, Lcom/resouce/module/ResSTRING;->public_next_step:I
 
     invoke-virtual {v0, v1}, Lvk7;->b(I)V
 
@@ -63,7 +63,7 @@
 
     iget-object v0, v0, Lxk7;->X:Lvk7;
 
-    const v1, 0x7f122525
+    sget v1, Lcom/resouce/module/ResSTRING;->public_next_step:I
 
     invoke-virtual {v0, v1}, Lvk7;->b(I)V
 
@@ -94,7 +94,7 @@
 
     iget-object v0, v0, Lxk7;->X:Lvk7;
 
-    const v1, 0x7f120eee
+    sget v1, Lcom/resouce/module/ResSTRING;->home_drive_group_introduce_create_button_text:I
 
     invoke-virtual {v0, v1}, Lvk7;->b(I)V
 

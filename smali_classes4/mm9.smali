@@ -339,12 +339,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e075e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_theme_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e057e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_theme_layout:I
 
     .line 3
     :goto_0
@@ -364,7 +364,7 @@
 
     iput-object v0, p0, Lmm9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f47
+    sget v1, Lcom/resouce/module/ResID;->gridview:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -426,7 +426,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121211
+    sget v1, Lcom/resouce/module/ResSTRING;->home_user_theme:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

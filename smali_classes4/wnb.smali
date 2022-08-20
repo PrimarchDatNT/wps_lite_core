@@ -54,7 +54,7 @@
 
     if-eqz v2, :cond_0
 
-    const v0, 0x7f08206d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->writer_noteconverwps_audio:I
 
     goto :goto_0
 
@@ -66,7 +66,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08206e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->writer_noteconverwps_vedio:I
 
     :goto_0
     const/high16 v2, 0x41600000    # 14.0f

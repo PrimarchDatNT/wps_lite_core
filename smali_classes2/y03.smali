@@ -34,7 +34,7 @@
 .method public constructor <init>(Landroid/content/Context;Lbh8;)V
     .locals 2
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     const/4 v1, 0x0
 
@@ -101,7 +101,7 @@
 .method public V2()I
     .locals 1
 
-    const v0, 0x7f0e0bb2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_docinfo_detail_info:I
 
     return v0
 .end method
@@ -154,7 +154,7 @@
     .line 6
     iget-object v2, p0, Ly03;->S:Landroid/widget/TextView;
 
-    const v3, 0x7f121d4c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_apptype_wps_form:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -269,7 +269,7 @@
 .method public Y2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b0742
+    sget v0, Lcom/resouce/module/ResID;->docinfo_detail_titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     check-cast v0, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b073b
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_file_icon:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     iput-object v1, p0, Ly03;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b073c
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_file_name:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -300,7 +300,7 @@
 
     iput-object v1, p0, Ly03;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0740
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_size:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     iput-object v1, p0, Ly03;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0743
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_type:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
 
     iput-object v1, p0, Ly03;->S:Landroid/widget/TextView;
 
-    const v1, 0x7f0b073e
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_location:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     iput-object v1, p0, Ly03;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f0b073d
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_file_name_part:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     iput-object v1, p0, Ly03;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b0741
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_size_part:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v1, p0, Ly03;->X:Landroid/view/View;
 
-    const v1, 0x7f0b0744
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_type_part:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
 
     iput-object v1, p0, Ly03;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b073f
+    sget v1, Lcom/resouce/module/ResID;->docinfo_detail_location_part:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -369,7 +369,7 @@
 
     iput-object p1, p0, Ly03;->Y:Landroid/view/View;
 
-    const p1, 0x7f120595
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_doc_info_detail:I
 
     .line 11
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

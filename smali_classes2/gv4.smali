@@ -61,7 +61,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b33bf
+    sget p2, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -74,7 +74,7 @@
     .line 7
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p2, 0x7f12276d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -224,7 +224,7 @@
     .line 2
     iget-object p1, p0, Lgv4;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -244,7 +244,7 @@
     .line 5
     iget-object p1, p0, Lgv4;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -367,7 +367,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122709
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_scan_tip:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 
@@ -376,7 +376,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226d6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_how_to_use:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -464,7 +464,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     return v0
 .end method

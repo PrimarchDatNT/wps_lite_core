@@ -228,7 +228,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -417,7 +417,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b13f7
+    sget v0, Lcom/resouce/module/ResID;->items:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -461,7 +461,7 @@
 .method public final Z2()V
     .locals 4
 
-    const v0, 0x7f0b0b69
+    sget v0, Lcom/resouce/module/ResID;->et_protsheet_titleBar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f120bec
+    sget v1, Lcom/resouce/module/ResSTRING;->et_prot_sheet_dialog_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -511,7 +511,7 @@
 
     iput-object v0, p0, Ljjg;->d0:Landroid/widget/Button;
 
-    const v0, 0x7f0b0b56
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_scrollview:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -527,7 +527,7 @@
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->setSmoothScrollingEnabled(Z)V
 
-    const v0, 0x7f0b13f7
+    sget v0, Lcom/resouce/module/ResID;->items:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
     .line 15
     check-cast v0, Landroid/widget/CheckedTextView;
 
-    const v3, 0x7f0806a0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->et_phone_prot_sheet_dialog_dark_checkbox_selector:I
 
     invoke-virtual {v0, v3}, Landroid/widget/CheckedTextView;->setCheckMarkDrawable(I)V
 
@@ -584,7 +584,7 @@
     :cond_1
     check-cast v0, Landroid/widget/CheckedTextView;
 
-    const v3, 0x7f0811b9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_checkbox_selector:I
 
     invoke-virtual {v0, v3}, Landroid/widget/CheckedTextView;->setCheckMarkDrawable(I)V
 
@@ -595,7 +595,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0ba9
+    sget v0, Lcom/resouce/module/ResID;->et_sheet_prot:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -609,7 +609,7 @@
     .line 18
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b57
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_sel_lock_cell:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -623,7 +623,7 @@
     .line 20
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b58
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_sel_unlock_cell:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -637,7 +637,7 @@
     .line 22
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b59
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_set_cell:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -651,7 +651,7 @@
     .line 24
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b5a
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_set_col:I
 
     .line 25
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -665,7 +665,7 @@
     .line 26
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b5b
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_set_row:I
 
     .line 27
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -679,7 +679,7 @@
     .line 28
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4d
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_insert_col:I
 
     .line 29
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -693,7 +693,7 @@
     .line 30
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4f
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_insert_row:I
 
     .line 31
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -707,7 +707,7 @@
     .line 32
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4e
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_insert_link:I
 
     .line 33
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -721,7 +721,7 @@
     .line 34
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b48
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_del_col:I
 
     .line 35
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -735,7 +735,7 @@
     .line 36
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b49
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_del_row:I
 
     .line 37
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -749,7 +749,7 @@
     .line 38
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b5c
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_sort:I
 
     .line 39
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -763,7 +763,7 @@
     .line 40
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4b
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_filter:I
 
     .line 41
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -777,7 +777,7 @@
     .line 42
     iget-object v0, p0, Ljjg;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b4a
+    sget v1, Lcom/resouce/module/ResID;->et_prot_sheet_edit_obj:I
 
     .line 43
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
 
     iput-object v0, p0, Ljjg;->w0:Landroid/widget/CheckedTextView;
 
-    const v0, 0x7f0b0b51
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_pw_diag:I
 
     .line 44
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -802,7 +802,7 @@
     .line 45
     sget-object v0, Lijg;->B:Lijg;
 
-    const v1, 0x7f0b0b63
+    sget v1, Lcom/resouce/module/ResID;->et_prot_tips_btn:I
 
     .line 46
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -816,7 +816,7 @@
     .line 47
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v1, 0x7f0b0b3f
+    sget v1, Lcom/resouce/module/ResID;->et_prot_pw_btn:I
 
     .line 48
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -830,7 +830,7 @@
     .line 49
     invoke-virtual {v1, v0}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
-    const v0, 0x7f0b0b68
+    sget v0, Lcom/resouce/module/ResID;->et_protsheet_tabhost:I
 
     .line 50
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -844,7 +844,7 @@
     .line 51
     invoke-virtual {v0, v2}, Landroid/widget/TabHost;->setVisibility(I)V
 
-    const v0, 0x7f0b0b62
+    sget v0, Lcom/resouce/module/ResID;->et_prot_tips:I
 
     .line 52
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -855,7 +855,7 @@
 
     iput-object v0, p0, Ljjg;->f0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b52
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_pw_diag_disable:I
 
     .line 53
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -866,7 +866,7 @@
 
     iput-object v0, p0, Ljjg;->X:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b53
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_pw_diag_enable_btn:I
 
     .line 54
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -877,7 +877,7 @@
 
     iput-object v0, p0, Ljjg;->Z:Landroid/widget/Button;
 
-    const v0, 0x7f0b0b54
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_pw_diag_layout:I
 
     .line 55
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1000,7 +1000,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -1010,7 +1010,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -1158,7 +1158,7 @@
     .line 1
     iget-object v0, p0, Ljjg;->W:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b61
+    sget v1, Lcom/resouce/module/ResID;->et_prot_tab_group:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1247,7 +1247,7 @@
 .method public onBackPressed()V
     .locals 1
 
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1265,7 +1265,7 @@
     .line 1
     instance-of v0, p1, Landroid/widget/CheckedTextView;
 
-    const v1, 0x7f0b0ba9
+    sget v1, Lcom/resouce/module/ResID;->et_sheet_prot:I
 
     const/4 v2, 0x1
 
@@ -1291,7 +1291,7 @@
 
     move-result v4
 
-    const v5, 0x7f0b0b57
+    sget v5, Lcom/resouce/module/ResID;->et_prot_sheet_sel_lock_cell:I
 
     if-ne v4, v5, :cond_0
 
@@ -1313,7 +1313,7 @@
 
     move-result v4
 
-    const v5, 0x7f0b0b58
+    sget v5, Lcom/resouce/module/ResID;->et_prot_sheet_sel_unlock_cell:I
 
     if-ne v4, v5, :cond_1
 
@@ -1344,7 +1344,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_3
 
@@ -1361,7 +1361,7 @@
     goto/16 :goto_2
 
     :cond_3
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_4
 
@@ -1378,17 +1378,17 @@
     goto/16 :goto_2
 
     :cond_4
-    const v0, 0x7f0b0b63
+    sget v0, Lcom/resouce/module/ResID;->et_prot_tips_btn:I
 
     const/4 v4, 0x4
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
-    const v7, 0x7f060626
+    sget v7, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v8, 0x7f060002
+    sget v8, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     const/16 v9, 0x8
 
@@ -1515,7 +1515,7 @@
     goto/16 :goto_2
 
     :cond_7
-    const v0, 0x7f0b0b3f
+    sget v0, Lcom/resouce/module/ResID;->et_prot_pw_btn:I
 
     if-ne p1, v0, :cond_a
 
@@ -1665,7 +1665,7 @@
     goto :goto_2
 
     :cond_b
-    const v0, 0x7f0b2fe6
+    sget v0, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne p1, v0, :cond_c
 
@@ -1675,7 +1675,7 @@
     goto :goto_2
 
     :cond_c
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-ne p1, v0, :cond_d
 
@@ -1703,7 +1703,7 @@
     goto :goto_2
 
     :cond_d
-    const v0, 0x7f0b0b53
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_pw_diag_enable_btn:I
 
     if-ne p1, v0, :cond_f
 
@@ -1789,7 +1789,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0241
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_prot_sheet_v:I
 
     .line 4
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1815,7 +1815,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0e0155
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_et_prot_sheet:I
 
     .line 7
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1829,7 +1829,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e023d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_prot_sheet:I
 
     .line 8
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1844,7 +1844,7 @@
     :goto_0
     iget-object p1, p0, Ljjg;->W:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b64
+    sget v0, Lcom/resouce/module/ResID;->et_prot_tips_divide_line:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1855,7 +1855,7 @@
     .line 10
     iget-object p1, p0, Ljjg;->W:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0b40
+    sget v0, Lcom/resouce/module/ResID;->et_prot_pw_divide_line:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1926,7 +1926,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 21
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I

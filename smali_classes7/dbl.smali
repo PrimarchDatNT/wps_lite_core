@@ -168,7 +168,7 @@
 
     iput-object p2, p0, Ldbl;->y0:Lpkl;
 
-    const p2, 0x7f0b0540
+    sget p2, Lcom/resouce/module/ResID;->contentView:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object p2, p0, Ldbl;->e0:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b0249
+    sget p2, Lcom/resouce/module/ResID;->bottom_bar_container:I
 
     .line 11
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     iput-object p2, p0, Ldbl;->g0:Landroid/view/View;
 
-    const p2, 0x7f0b2be9
+    sget p2, Lcom/resouce/module/ResID;->shortcut_container:I
 
     .line 12
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     iput-object p2, p0, Ldbl;->f0:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b34ba
+    sget p2, Lcom/resouce/module/ResID;->write_comments_toolbar_framelayout:I
 
     .line 13
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -811,7 +811,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0245
+    sget v1, Lcom/resouce/module/ResID;->bottom_arrange:I
 
     if-nez v0, :cond_0
 
@@ -864,7 +864,7 @@
     .line 6
     invoke-static {v1, v0}, Lp0m;->a(Ljava/lang/String;Lczl;)V
 
-    const v0, 0x7f0b0275
+    sget v0, Lcom/resouce/module/ResID;->bottom_share_tool:I
 
     .line 7
     new-instance v1, Leil;
@@ -877,7 +877,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0246
+    sget v0, Lcom/resouce/module/ResID;->bottom_assistant_item:I
 
     .line 8
     new-instance v1, Ldbl$d0;
@@ -888,7 +888,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0274
+    sget v0, Lcom/resouce/module/ResID;->bottom_share_to_pc:I
 
     .line 9
     new-instance v1, Ljbl;
@@ -923,7 +923,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0281
+    sget v1, Lcom/resouce/module/ResID;->bottom_tool_item:I
 
     if-eqz v0, :cond_2
 
@@ -1032,7 +1032,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b026f
+    sget v0, Lcom/resouce/module/ResID;->bottom_school_tool:I
 
     .line 22
     new-instance v1, Libl;
@@ -1156,7 +1156,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    const v0, 0x7f0b0245
+    sget v0, Lcom/resouce/module/ResID;->bottom_arrange:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1176,7 +1176,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1227b0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_reader:I
 
     .line 5
     invoke-virtual {p0, v1}, Ldbl;->F3(I)Ljava/lang/String;
@@ -1188,7 +1188,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f12197f
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_enter_auto_arrange:I
 
     .line 6
     invoke-virtual {p0, v1}, Ldbl;->F3(I)Ljava/lang/String;
@@ -1198,7 +1198,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_0
-    const v1, 0x7f080297
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
     .line 7
     invoke-virtual {p0, v1, p1}, Ldbl;->u3(IZ)Landroid/graphics/drawable/Drawable;
@@ -1247,7 +1247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070781
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_bottomtool_bar_rom_shadow_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -1275,7 +1275,7 @@
 .method public final E4(Z)V
     .locals 6
 
-    const v0, 0x7f0b0274
+    sget v0, Lcom/resouce/module/ResID;->bottom_share_to_pc:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1654,7 +1654,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100af
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1694,7 +1694,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b0281
+    sget v0, Lcom/resouce/module/ResID;->bottom_tool_item:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1766,7 +1766,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100b0
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1896,21 +1896,21 @@
 
     if-eqz p1, :cond_e
 
-    const p1, 0x7f0b0275
+    sget p1, Lcom/resouce/module/ResID;->bottom_share_tool:I
 
     .line 17
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0b026e
+    sget p2, Lcom/resouce/module/ResID;->bottom_review:I
 
     .line 18
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b025e
+    sget p3, Lcom/resouce/module/ResID;->bottom_ink_sign_tool:I
 
     .line 19
     invoke-virtual {p0, p3}, Luzl;->Z0(I)Landroid/view/View;
@@ -3161,7 +3161,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d3b
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_commentsmode_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -3175,7 +3175,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d3c
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -3243,7 +3243,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d1a
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_bottombar_item_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -3810,7 +3810,7 @@
     .line 12
     new-instance v0, Lyyl;
 
-    const v1, 0x7f0b0281
+    sget v1, Lcom/resouce/module/ResID;->bottom_tool_item:I
 
     invoke-direct {v0, v1}, Lyyl;-><init>(I)V
 
@@ -4288,7 +4288,7 @@
 
     :cond_4
     :goto_1
-    const v0, 0x7f0b0245
+    sget v0, Lcom/resouce/module/ResID;->bottom_arrange:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -5020,7 +5020,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070d3b
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_commentsmode_height:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5331,7 +5331,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070d3b
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_title_bar_commentsmode_height:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5770,12 +5770,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f06000c
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0602db
+    sget p2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     :goto_0
     invoke-virtual {v0, p2}, Landroid/content/res/Resources;->getColor(I)I
@@ -5973,7 +5973,7 @@
 .method public final w4()V
     .locals 3
 
-    const v0, 0x7f0b0275
+    sget v0, Lcom/resouce/module/ResID;->bottom_share_tool:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -6108,7 +6108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2be8
+    sget v2, Lcom/resouce/module/ResID;->shortcut:I
 
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -6199,7 +6199,7 @@
 
     monitor-enter p0
 
-    const v0, 0x7f0b0246
+    sget v0, Lcom/resouce/module/ResID;->bottom_assistant_item:I
 
     .line 1
     :try_start_0
@@ -6209,7 +6209,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v1, 0x7f0b026f
+    sget v1, Lcom/resouce/module/ResID;->bottom_school_tool:I
 
     .line 2
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -6236,7 +6236,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081f12
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_bottom_toolbar_assitant_oversea:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

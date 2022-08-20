@@ -462,7 +462,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08e1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_share_launcher:I
 
     const/4 v2, 0x1
 
@@ -483,7 +483,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/share/panel/ShareItemsPhonePanel;->b0:Lkef;
 
-    const v1, 0x7f0b0119
+    sget v1, Lcom/resouce/module/ResID;->appList:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/share/panel/ShareItemsPhonePanel;->W:Landroid/widget/ListView;
 
-    const v1, 0x7f0b3081
+    sget v1, Lcom/resouce/module/ResID;->top_tip:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -513,7 +513,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/share/panel/ShareItemsPhonePanel;->W:Landroid/widget/ListView;
 
-    const v2, 0x7f0812cb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_list_transparent_selector:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setSelector(I)V
 
@@ -534,7 +534,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v1, 0x7f0b338b
+    sget v1, Lcom/resouce/module/ResID;->view_all:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

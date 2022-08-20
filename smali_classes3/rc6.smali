@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121593
+    sget v1, Lcom/resouce/module/ResSTRING;->oversea_template_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12158e
+    sget v2, Lcom/resouce/module/ResSTRING;->oversea_new_host_port:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -343,7 +343,7 @@
     .line 2
     iget-object p1, p0, Lj48;->e0:Landroid/app/Activity;
 
-    const p2, 0x7f121254
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -353,7 +353,7 @@
     :cond_0
     iget-object p1, p0, Lj48;->e0:Landroid/app/Activity;
 
-    const p2, 0x7f120623
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -363,7 +363,7 @@
     :cond_1
     iget-object p1, p0, Lj48;->e0:Landroid/app/Activity;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -523,7 +523,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f12148e
+    sget v2, Lcom/resouce/module/ResSTRING;->note_function_disable:I
 
     if-eqz v0, :cond_0
 
@@ -1540,7 +1540,7 @@
     :cond_1
     iget-object p1, p0, Lj48;->e0:Landroid/app/Activity;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -1550,7 +1550,7 @@
     :cond_2
     iget-object p1, p0, Lj48;->e0:Landroid/app/Activity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 

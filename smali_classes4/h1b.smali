@@ -193,7 +193,7 @@
 
     aput p2, v1, p0
 
-    const p0, 0x7f130782
+    sget p0, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     .line 10
     invoke-virtual {p1, p0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -387,11 +387,11 @@
 
     invoke-direct {v1, p0}, Lh1b$f;-><init>(Lh1b;)V
 
-    const v2, 0x7f1203ea
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_discard_edit:I
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static {v0, v2, v3, v4, v1}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -592,7 +592,7 @@
     .line 3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f010037
+    sget v0, Lcom/resouce/module/ResANIM;->doc_scan_top_bar_appear:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -626,7 +626,7 @@
     :cond_2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f010038
+    sget v0, Lcom/resouce/module/ResANIM;->doc_scan_top_bar_dismiss:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -918,7 +918,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0031
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_pre_image:I
 
     const/4 v2, 0x0
 
@@ -929,7 +929,7 @@
 
     iput-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b29c7
+    sget v1, Lcom/resouce/module/ResID;->rv_filter_panel:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1046,7 +1046,7 @@
     .line 17
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v4, 0x7f0b141f
+    sget v4, Lcom/resouce/module/ResID;->iv_cancel:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1057,7 +1057,7 @@
     .line 18
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v4, 0x7f0b142e
+    sget v4, Lcom/resouce/module/ResID;->iv_complete:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1068,7 +1068,7 @@
     .line 19
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v4, 0x7f0b14b8
+    sget v4, Lcom/resouce/module/ResID;->iv_rotate:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1079,7 +1079,7 @@
     .line 20
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v4, 0x7f0b0db2
+    sget v4, Lcom/resouce/module/ResID;->fl_content:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1097,14 +1097,14 @@
 
     invoke-direct {v0, v2, v2}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    const v2, 0x7f0b0d74
+    sget v2, Lcom/resouce/module/ResID;->filter_panel:I
 
     .line 23
     invoke-virtual {v0, v3, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
 
     const/4 v3, 0x3
 
-    const v4, 0x7f0b17ee
+    sget v4, Lcom/resouce/module/ResID;->magnifying_glass:I
 
     .line 24
     invoke-virtual {v0, v3, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -1128,7 +1128,7 @@
     .line 27
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b04a3
+    sget v2, Lcom/resouce/module/ResID;->collection_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1139,7 +1139,7 @@
     .line 28
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b3166
+    sget v2, Lcom/resouce/module/ResID;->tv_feedback:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1150,7 +1150,7 @@
     .line 29
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b142a
+    sget v2, Lcom/resouce/module/ResID;->iv_close_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1196,7 +1196,7 @@
     :cond_0
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b143a
+    sget v2, Lcom/resouce/module/ResID;->iv_delete:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1207,7 +1207,7 @@
     .line 35
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v2, 0x7f0b143b
+    sget v2, Lcom/resouce/module/ResID;->iv_detection:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1342,7 +1342,7 @@
 
     if-eqz v0, :cond_4
 
-    const v1, 0x7f0804db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->cyan_blue_btn_selector:I
 
     .line 54
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V

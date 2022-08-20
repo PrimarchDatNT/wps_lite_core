@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e014e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_country_region_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -155,7 +155,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/country/CountryRegionGuideViewImp;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0591
+    sget v1, Lcom/resouce/module/ResID;->country_region_lv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/country/CountryRegionGuideViewImp;->I:Landroid/view/View;
 
-    const v1, 0x7f0b058f
+    sget v1, Lcom/resouce/module/ResID;->country_region_confirm_bt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/country/CountryRegionGuideViewImp;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0592
+    sget v1, Lcom/resouce/module/ResID;->country_region_set_latter_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b058f
+    sget v1, Lcom/resouce/module/ResID;->country_region_confirm_bt:I
 
     if-ne v0, v1, :cond_2
 
@@ -533,7 +533,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b0592
+    sget v1, Lcom/resouce/module/ResID;->country_region_set_latter_tv:I
 
     if-ne v0, v1, :cond_3
 

@@ -327,7 +327,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1219dc
+    sget v0, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
     return v0
 .end method
@@ -385,7 +385,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e004b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_phonetic_shorthand_layout:I
 
     const/4 v2, 0x0
 

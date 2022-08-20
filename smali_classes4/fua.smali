@@ -45,7 +45,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121925
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

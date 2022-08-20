@@ -167,7 +167,7 @@
 
     invoke-direct {v0, v2, v1}, Laoh;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const v2, 0x7f0e015f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_link_clip_dialog_layout:I
 
     .line 13
     invoke-virtual {v0, v2}, Laoh;->U2(I)V

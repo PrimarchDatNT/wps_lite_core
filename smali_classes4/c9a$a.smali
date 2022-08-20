@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f120606
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
     if-ne p1, v0, :cond_0
 
@@ -65,7 +65,7 @@
 
     move-result p1
 
-    const p2, 0x7f120605
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
     if-ne p1, p2, :cond_1
 

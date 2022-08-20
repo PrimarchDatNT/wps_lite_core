@@ -72,7 +72,7 @@
 
     iget-object v3, v3, Lya5$b;->B:Landroid/content/Context;
 
-    const v4, 0x7f121fdf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_doc_apply_permission_notified_other_party:I
 
     invoke-static {v3, v4}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 

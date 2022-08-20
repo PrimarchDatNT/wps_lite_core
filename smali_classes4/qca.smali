@@ -122,7 +122,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e03d4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wallet_ad_act_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -138,7 +138,7 @@
 
     check-cast p1, Lcn/wps/moffice/main/ad/s2s/CommonBean;
 
-    const v1, 0x7f0b12a8
+    sget v1, Lcom/resouce/module/ResID;->img:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2fcd
+    sget v2, Lcom/resouce/module/ResID;->title:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2dce    # 1.8500052E38f
+    sget v3, Lcom/resouce/module/ResID;->sub_title:I    # 1.8500052E38f
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -184,7 +184,7 @@
     .line 8
     invoke-virtual {p3, v0}, Lf54;->c(Z)Lf54;
 
-    const v0, 0x7f081c57
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_small_image_placeholder:I
 
     .line 9
     invoke-virtual {p3, v0}, Lf54;->b(I)Lf54;

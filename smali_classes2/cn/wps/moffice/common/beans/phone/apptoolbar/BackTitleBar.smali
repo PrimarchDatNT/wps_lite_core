@@ -64,13 +64,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e08db
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_second_panel_back_titlebar:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b20ba
+    sget p1, Lcom/resouce/module/ResID;->phone_public_back_titlebar_back:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/BackTitleBar;->B:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b20bd
+    sget p1, Lcom/resouce/module/ResID;->phone_public_back_titlebar_titletext:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/BackTitleBar;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b20bb
+    sget p1, Lcom/resouce/module/ResID;->phone_public_back_titlebar_hide:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/apptoolbar/BackTitleBar;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b20bc
+    sget p1, Lcom/resouce/module/ResID;->phone_public_back_titlebar_hide_root:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

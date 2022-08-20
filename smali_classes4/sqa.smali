@@ -181,7 +181,7 @@
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     :cond_0
-    const p1, 0x7f122f65
+    sget p1, Lcom/resouce/module/ResSTRING;->smart_form:I
 
     .line 2
     invoke-static {p0, p1}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -224,7 +224,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f1217b4
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     .line 5
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -247,7 +247,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const p3, 0x7f121769
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     .line 7
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -268,7 +268,7 @@
     goto :goto_0
 
     :cond_3
-    const p3, 0x7f1217ba
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_edit_fill_form:I
 
     .line 9
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -289,7 +289,7 @@
     goto :goto_0
 
     :cond_4
-    const p3, 0x7f1217f5
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     .line 11
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -310,7 +310,7 @@
     goto :goto_0
 
     :cond_5
-    const p3, 0x7f1216ca
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     .line 13
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -331,7 +331,7 @@
     goto :goto_0
 
     :cond_6
-    const p3, 0x7f1216c8
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
     .line 15
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;
@@ -352,7 +352,7 @@
     goto :goto_0
 
     :cond_7
-    const p3, 0x7f12176d
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     .line 17
     invoke-static {p0, p3}, Lsqa;->c(Landroid/content/Context;I)Ljava/lang/String;

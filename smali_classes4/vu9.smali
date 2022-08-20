@@ -156,7 +156,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1218b9
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -420,7 +420,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12226e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_pdf_tools:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -615,7 +615,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122629
+    sget v3, Lcom/resouce/module/ResSTRING;->public_phone_app_pic_convert:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -210,7 +210,7 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v1, 0x7f12298f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -228,7 +228,7 @@
 
     xor-int/lit8 v0, v0, 0x1
 
-    const v1, 0x7f0e08e1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_share_launcher:I
 
     const/4 v2, 0x0
 
@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0119
+    sget v2, Lcom/resouce/module/ResID;->appList:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -260,7 +260,7 @@
 
     invoke-virtual {v3, v2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    const v2, 0x7f0b338b
+    sget v2, Lcom/resouce/module/ResID;->view_all:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

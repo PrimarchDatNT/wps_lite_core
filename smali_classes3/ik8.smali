@@ -45,7 +45,7 @@
 
     if-lez v2, :cond_0
 
-    const p2, 0x7f1214b7
+    sget p2, Lcom/resouce/module/ResSTRING;->object_3d_sdk_file_length_error:I
 
     .line 1
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
@@ -89,7 +89,7 @@
 
     if-lez v4, :cond_1
 
-    const p2, 0x7f1214b7
+    sget p2, Lcom/resouce/module/ResSTRING;->object_3d_sdk_file_length_error:I
 
     .line 4
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V

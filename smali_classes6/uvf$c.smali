@@ -283,7 +283,7 @@
     goto :goto_2
 
     :catch_2
-    const v3, 0x7f12072c
+    sget v3, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 19
     :try_start_5

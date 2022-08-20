@@ -85,7 +85,7 @@
 
     iget-object v0, v0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f120585
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-static {v0, v1, p1}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0
@@ -99,7 +99,7 @@
 
     iget-object v0, v0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f1206be
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_toast_login_ok:I
 
     invoke-static {v0, v1, p1}, Lbih;->n(Landroid/content/Context;II)V
 

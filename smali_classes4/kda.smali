@@ -77,7 +77,7 @@
     .line 4
     iget-object v0, p0, Lkda;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1048
+    sget v3, Lcom/resouce/module/ResID;->home_active_task_tab_indicator:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     .line 5
     iget-object v0, p0, Lkda;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1066
+    sget v1, Lcom/resouce/module/ResID;->home_common_task_tab_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 4
     iget-object v0, p0, Lkda;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1048
+    sget v3, Lcom/resouce/module/ResID;->home_active_task_tab_indicator:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -143,7 +143,7 @@
     .line 5
     iget-object v0, p0, Lkda;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1066
+    sget v1, Lcom/resouce/module/ResID;->home_common_task_tab_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03b6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_task_activity:I
 
     const/4 v2, 0x0
 
@@ -190,7 +190,7 @@
 
     iput-object v0, p0, Lkda;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1178
+    sget v1, Lcom/resouce/module/ResID;->home_task_tab_container:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
     .line 4
     iget-object v0, p0, Lkda;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1047
+    sget v1, Lcom/resouce/module/ResID;->home_active_task_tab:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 5
     iget-object v0, p0, Lkda;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1065
+    sget v1, Lcom/resouce/module/ResID;->home_common_task_tab:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0081
+    sget v1, Lcom/resouce/module/ResID;->active_task_fragment:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -272,7 +272,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04de
+    sget v1, Lcom/resouce/module/ResID;->common_task_fragment:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -292,7 +292,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e4b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_my_tasks:I
 
     return v0
 .end method

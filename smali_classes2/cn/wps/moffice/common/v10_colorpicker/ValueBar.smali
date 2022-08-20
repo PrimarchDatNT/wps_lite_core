@@ -180,7 +180,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070d4a
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_bar_thickness:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -196,7 +196,7 @@
 
     iput v0, p0, Lcn/wps/moffice/common/v10_colorpicker/ValueBar;->B:I
 
-    const v0, 0x7f070d47
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_bar_length:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -213,7 +213,7 @@
     .line 7
     iput v0, p0, Lcn/wps/moffice/common/v10_colorpicker/ValueBar;->S:I
 
-    const v0, 0x7f070d49
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_bar_pointer_radius:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -229,7 +229,7 @@
 
     iput v0, p0, Lcn/wps/moffice/common/v10_colorpicker/ValueBar;->T:I
 
-    const v0, 0x7f070d48
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_bar_pointer_halo_radius:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

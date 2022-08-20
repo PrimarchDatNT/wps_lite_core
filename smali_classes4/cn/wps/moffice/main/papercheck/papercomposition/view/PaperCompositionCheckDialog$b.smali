@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120111
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_verify_wrong_size:I
 
     const/4 v3, 0x1
 

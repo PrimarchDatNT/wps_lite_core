@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -55,7 +55,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060002
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01c6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_base_pad:I
 
     const/4 v2, 0x0
 
@@ -191,7 +191,7 @@
 
     iput-object v0, p0, Lfmf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b09b3
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_left:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
     .line 3
     iget-object v0, p0, Lfmf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b09b5
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_main_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -220,7 +220,7 @@
     .line 4
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v3, 0x7f0b09b8
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_numformat_btn:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -234,7 +234,7 @@
 
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v4, 0x7f0b0989
+    sget v4, Lcom/resouce/module/ResID;->et_complex_format_align_btn:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
 
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v5, 0x7f0b099a
+    sget v5, Lcom/resouce/module/ResID;->et_complex_format_font_btn:I
 
     .line 5
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v6, 0x7f0b09a6
+    sget v6, Lcom/resouce/module/ResID;->et_complex_format_frame_btn:I
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -277,7 +277,7 @@
 
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v7, 0x7f0b0995
+    sget v7, Lcom/resouce/module/ResID;->et_complex_format_fill_cellse_btn:I
 
     .line 6
     invoke-virtual {v2, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     iget-object v2, p0, Lfmf;->T:Landroid/view/View;
 
-    const v8, 0x7f0b09ba
+    sget v8, Lcom/resouce/module/ResID;->et_complex_format_protect_btn:I
 
     invoke-virtual {v2, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -329,7 +329,7 @@
 
     iget-object v2, p0, Lfmf;->B:Landroid/content/Context;
 
-    const v9, 0x7f13013a
+    sget v9, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v1, v2, v9}, Ldmf;-><init>(Landroid/content/Context;I)V
 
@@ -597,22 +597,22 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq v0, v2, :cond_9
 
-    const v2, 0x7f0b2fdd
+    sget v2, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq v0, v2, :cond_9
 
-    const v2, 0x7f0b2fde
+    sget v2, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v2, :cond_0
 
     goto/16 :goto_1
 
     :cond_0
-    const v2, 0x7f0b2fe6
+    sget v2, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     const/4 v3, 0x1
 
@@ -625,7 +625,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f120bab
+    sget p1, Lcom/resouce/module/ResSTRING;->et_number_custom_format_warning:I
 
     .line 4
     invoke-static {p1, v3}, Lsjf;->k(II)V
@@ -670,7 +670,7 @@
     goto :goto_3
 
     :cond_3
-    const p1, 0x7f0b09b8
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_numformat_btn:I
 
     if-ne v0, p1, :cond_4
 
@@ -680,7 +680,7 @@
     goto :goto_3
 
     :cond_4
-    const p1, 0x7f0b0989
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_align_btn:I
 
     if-ne v0, p1, :cond_5
 
@@ -690,7 +690,7 @@
     goto :goto_3
 
     :cond_5
-    const p1, 0x7f0b099a
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_font_btn:I
 
     if-ne v0, p1, :cond_6
 
@@ -702,7 +702,7 @@
     goto :goto_3
 
     :cond_6
-    const p1, 0x7f0b09a6
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_frame_btn:I
 
     if-ne v0, p1, :cond_7
 
@@ -714,7 +714,7 @@
     goto :goto_3
 
     :cond_7
-    const p1, 0x7f0b0995
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_fill_cellse_btn:I
 
     if-ne v0, p1, :cond_8
 
@@ -726,7 +726,7 @@
     goto :goto_3
 
     :cond_8
-    const p1, 0x7f0b09ba
+    sget p1, Lcom/resouce/module/ResID;->et_complex_format_protect_btn:I
 
     if-ne v0, p1, :cond_b
 
@@ -858,7 +858,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f120bab
+    sget p1, Lcom/resouce/module/ResSTRING;->et_number_custom_format_warning:I
 
     const/4 v0, 0x1
 

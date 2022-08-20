@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1bf0
+    sget v0, Lcom/resouce/module/ResID;->pad_home_filebrowser_more_dialog_more_sort:I
 
     if-ne p1, v0, :cond_0
 
@@ -81,7 +81,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1bef
+    sget v0, Lcom/resouce/module/ResID;->pad_home_filebrowser_more_dialog_more_delete:I
 
     if-ne p1, v0, :cond_1
 

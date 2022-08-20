@@ -839,7 +839,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19f6
+    sget v1, Lcom/resouce/module/ResID;->new_folder_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1034,7 +1034,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f1228a3
+    sget p3, Lcom/resouce/module/ResSTRING;->public_secfolder_open_success:I
 
     invoke-static {p1, p3, p2}, Lbih;->n(Landroid/content/Context;II)V
 

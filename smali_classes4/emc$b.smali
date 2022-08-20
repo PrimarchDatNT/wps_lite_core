@@ -82,9 +82,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1217c6
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_edit_func_guide:I
 
-    const v4, 0x7f1217b4
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     const/4 v5, 0x1
 
@@ -110,7 +110,7 @@
     .line 8
     invoke-virtual {v0, v1}, Lkib;->C(I)V
 
-    const v1, 0x7f08075b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit:I
 
     new-array v6, v5, [Lcib$b;
 
@@ -158,7 +158,7 @@
 
     invoke-virtual {v0, v6}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const v6, 0x7f08075c
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_edit_oversea:I
 
     const/4 v7, 0x2
 

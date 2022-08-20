@@ -96,7 +96,7 @@
     .line 6
     iput-object p1, p0, Lmpg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f0b2d5c
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_stub:I
 
     .line 7
     invoke-virtual {p0, v0}, Lmpg;->v(I)V
@@ -106,23 +106,23 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2d38
+    sget v0, Lcom/resouce/module/ResID;->ss_play_show_title_btn_stub:I
 
     .line 9
     invoke-virtual {p0, v0}, Lmpg;->v(I)V
 
-    const v0, 0x7f0b2d58
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_agora_microphone_layoutstub_stub:I
 
     .line 10
     invoke-virtual {p0, v0}, Lmpg;->v(I)V
 
-    const v0, 0x7f0b2d59
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_invite_btn_layout_stub:I
 
     .line 11
     invoke-virtual {p0, v0}, Lmpg;->v(I)V
 
     :cond_0
-    const v0, 0x7f0b2d5a
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2d31
+    sget v0, Lcom/resouce/module/ResID;->ss_play_agora_layout:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     iput-object v0, p0, Lmpg;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2d35
+    sget v0, Lcom/resouce/module/ResID;->ss_play_share_play:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     iput-object v0, p0, Lmpg;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2d36
+    sget v0, Lcom/resouce/module/ResID;->ss_play_show_title_btn:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lmpg;->U:Landroid/view/View;
 
-    const v0, 0x7f0b2d37
+    sget v0, Lcom/resouce/module/ResID;->ss_play_show_title_btn_icon:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v0, 0x7f0b2d0b
+    sget v0, Lcom/resouce/module/ResID;->ss_main_tabshost:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
     .line 18
     iget-object p1, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2d5b
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_close_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -774,7 +774,7 @@
     :try_start_0
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2d5b
+    sget v1, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_close_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -791,7 +791,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080142
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->checkjob_dialog_close:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -883,7 +883,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->play_titlebar_more_popmenu:I
 
     const/4 v2, 0x0
 
@@ -891,7 +891,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2255
+    sget v1, Lcom/resouce/module/ResID;->playtitlebar_more_share_to_tv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1040,7 +1040,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b218c
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_titlebar_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1076,7 +1076,7 @@
     .line 2
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2d5d
+    sget v1, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1096,7 +1096,7 @@
     .line 4
     iget-object p1, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2b92
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_change_web_shareplay:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1109,7 +1109,7 @@
     .line 5
     iget-object p1, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2b94
+    sget v1, Lcom/resouce/module/ResID;->share_play_tip_bar_incompatible_no_show:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1133,7 +1133,7 @@
     .line 2
     iget-object p5, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2d5d
+    sget v0, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_tips:I
 
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1153,7 +1153,7 @@
     .line 4
     iget-object p1, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b2b92
+    sget v0, Lcom/resouce/module/ResID;->share_play_tip_bar_change_web_shareplay:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1162,7 +1162,7 @@
     .line 5
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2b94
+    sget v1, Lcom/resouce/module/ResID;->share_play_tip_bar_incompatible_no_show:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1439,7 +1439,7 @@
     :try_start_0
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2d5b
+    sget v1, Lcom/resouce/module/ResID;->ss_shareplay_tips_bar_close_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1461,7 +1461,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c3b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_tip_close:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1534,7 +1534,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b218f
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar_container:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1565,7 +1565,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e5c
+    sget v1, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1895,7 +1895,7 @@
     .line 2
     iget-object v0, p0, Lmpg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b218e
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1976,7 +1976,7 @@
     .line 3
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2b92
+    sget v2, Lcom/resouce/module/ResID;->share_play_tip_bar_change_web_shareplay:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1987,7 +1987,7 @@
     .line 4
     iget-object v0, p0, Lmpg;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2b94
+    sget v2, Lcom/resouce/module/ResID;->share_play_tip_bar_incompatible_no_show:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2247,7 +2247,7 @@
     .line 1
     iget-object v0, p0, Lmpg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b218e
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2258,7 +2258,7 @@
     .line 2
     iget-object v0, p0, Lmpg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f0b2d7a
+    sget v2, Lcom/resouce/module/ResID;->ss_tvmeeting_bar_layout:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2396,7 +2396,7 @@
     :cond_2
     iget-object v0, p0, Lmpg;->T:Lcn/wps/moffice/spreadsheet/control/shareplay/SsTvPlayTitleBar;
 
-    const v2, 0x7f121c26
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_shareplay_leave_play:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->setExitButtonToTextMode(I)V
 
@@ -2420,7 +2420,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2e5c
+    sget v2, Lcom/resouce/module/ResID;->tabshost_layout:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2435,7 +2435,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b218f
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_tvmeeting_bar_container:I
 
     .line 24
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

@@ -28,7 +28,7 @@
 
     move-result v1
 
-    const v2, 0x7f1224d0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_mode:I
 
     invoke-direct {v0, p0, v1, v2}, Lfzd$b;-><init>(Lfzd;II)V
 
@@ -71,12 +71,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080376
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_format:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d67
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_format_ppt:I
 
     :goto_0
     return v0

@@ -62,7 +62,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f12171b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_check_again_text:I
 
     return v0
 .end method
@@ -70,7 +70,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f121737
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_feedback_convert_title:I
 
     return v0
 .end method
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030078
+    sget v1, Lcom/resouce/module/ResARRAY;->public_pdf_convert_feedback_result:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f120330
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_title_pdf:I
 
     return v0
 .end method
@@ -279,7 +279,7 @@
     .line 11
     iget-object p1, p0, Ld86;->a:Landroid/content/Context;
 
-    const v0, 0x7f12032f
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_thanks:I
 
     const/4 v1, 0x0
 
@@ -427,7 +427,7 @@
     .line 2
     iget-object v0, p0, Ld86;->a:Landroid/content/Context;
 
-    const v1, 0x7f12032f
+    sget v1, Lcom/resouce/module/ResSTRING;->convert_effect_thanks:I
 
     const/4 v2, 0x0
 

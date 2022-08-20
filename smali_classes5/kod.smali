@@ -12,15 +12,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802b9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_autoplay:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d5c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_autoplay_ppt:I
 
     :goto_0
-    const v1, 0x7f121d71
+    sget v1, Lcom/resouce/module/ResSTRING;->public_autoplay:I
 
     invoke-direct {p0, v0, v1}, Lule;-><init>(II)V
 
@@ -60,7 +60,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     const/4 v1, 0x0
 

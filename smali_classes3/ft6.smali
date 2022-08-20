@@ -91,7 +91,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 5
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V

@@ -133,7 +133,7 @@
     .line 4
     new-instance v0, Lf0u;
 
-    const v1, 0x7f130254
+    sget v1, Lcom/resouce/module/ResSTYLE;->TextAppearance.MaterialComponents.Badge:I
 
     invoke-direct {v0, p1, v1}, Lf0u;-><init>(Landroid/content/Context;I)V
 
@@ -146,7 +146,7 @@
 
     iput v0, p0, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->I:I
 
-    const v0, 0x7f121403
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_badge_numberless_content_description:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -160,7 +160,7 @@
     .line 7
     iput p1, p0, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->W:I
 
-    const p1, 0x7f121405
+    sget p1, Lcom/resouce/module/ResSTRING;->mtrl_exceed_max_badge_number_content_description:I
 
     .line 8
     iput p1, p0, Lcom/google/android/material/badge/BadgeDrawable$SavedState;->X:I

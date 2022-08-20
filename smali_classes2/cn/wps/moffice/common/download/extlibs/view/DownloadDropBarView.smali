@@ -150,7 +150,7 @@
 .method private getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e085e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_download_dropbar_down:I
 
     return v0
 .end method
@@ -298,7 +298,7 @@
     .line 2
     iput v0, v6, Landroid/view/WindowManager$LayoutParams;->gravity:I
 
-    const v0, 0x7f130011
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.PopDownMenu.Ribbon:I
 
     .line 3
     iput v0, v6, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -364,7 +364,7 @@
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b060c
+    sget v0, Lcom/resouce/module/ResID;->d_dropbar_apk_install:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    const v1, 0x7f0811fe
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_drop_bar_install_button_bg:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
@@ -385,7 +385,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b060e
+    sget v0, Lcom/resouce/module/ResID;->d_dropbar_close:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -449,7 +449,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b060b
+    sget v1, Lcom/resouce/module/ResID;->d_dropbar_apk_icon:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -512,7 +512,7 @@
 
     :cond_2
     :goto_0
-    const v1, 0x7f0b060d
+    sget v1, Lcom/resouce/module/ResID;->d_dropbar_apk_name:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 
     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
 
-    const v2, 0x7f0b060c
+    sget v2, Lcom/resouce/module/ResID;->d_dropbar_apk_install:I
 
     const/high16 v3, 0x40400000    # 3.0f
 

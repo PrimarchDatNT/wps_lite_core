@@ -57,7 +57,7 @@
 
     if-eqz p0, :cond_0
 
-    const v0, 0x7f0b3053
+    sget v0, Lcom/resouce/module/ResID;->tool_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
     .line 4
     check-cast p0, Landroid/widget/TextView;
 
-    const v0, 0x7f121997
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_public_toolbox:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V
@@ -281,7 +281,7 @@
     :cond_0
     new-instance v0, Lhd3;
 
-    const v1, 0x7f13012f
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a37
+    sget v2, Lcom/resouce/module/ResLAYOUT;->photo_viewer_cover_func_panel:I
 
     const/4 v3, 0x0
 
@@ -298,7 +298,7 @@
 
     move-result-object v7
 
-    const v1, 0x7f0b0533
+    sget v1, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 4
     invoke-virtual {v7, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -406,7 +406,7 @@
 
     const/4 v10, 0x0
 
-    const v11, 0x7f0b221b
+    sget v11, Lcom/resouce/module/ResID;->pic_to_et:I
 
     if-eqz v3, :cond_4
 
@@ -473,7 +473,7 @@
 
     move-result v3
 
-    const v8, 0x7f0b2224
+    sget v8, Lcom/resouce/module/ResID;->pic_to_text:I
 
     if-nez v3, :cond_7
 
@@ -516,7 +516,7 @@
 
     move-result v3
 
-    const v12, 0x7f0b2221
+    sget v12, Lcom/resouce/module/ResID;->pic_to_ppt:I
 
     if-eqz v3, :cond_8
 
@@ -543,7 +543,7 @@
 
     move-result-object v3
 
-    const v6, 0x7f07062e
+    sget v6, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v3, v6}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -607,7 +607,7 @@
     .line 37
     invoke-virtual {v7, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p0, 0x7f0b07d0
+    sget p0, Lcom/resouce/module/ResID;->dropdown_imageview_dropdown:I
 
     .line 38
     invoke-virtual {v7, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -616,7 +616,7 @@
 
     invoke-virtual {p0, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p0, 0x7f0b221e
+    sget p0, Lcom/resouce/module/ResID;->pic_to_pdf:I
 
     .line 39
     invoke-virtual {v7, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

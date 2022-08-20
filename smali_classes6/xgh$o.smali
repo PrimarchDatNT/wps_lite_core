@@ -178,7 +178,7 @@
     .line 1
     iget-object p2, p0, Lxgh$o;->B:Landroid/content/Context;
 
-    const p3, 0x7f0e0413
+    sget p3, Lcom/resouce/module/ResLAYOUT;->item_gp_judge_reason:I
 
     const/4 v0, 0x0
 
@@ -191,7 +191,7 @@
 
     invoke-direct {p3, p0, v0}, Lxgh$o$b;-><init>(Lxgh$o;Lxgh$f;)V
 
-    const v0, 0x7f0b2942
+    sget v0, Lcom/resouce/module/ResID;->rl_content:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object v0, p3, Lxgh$o$b;->a:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b1425
+    sget v0, Lcom/resouce/module/ResID;->iv_choose:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     iput-object v0, p3, Lxgh$o$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b31e6
+    sget v0, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

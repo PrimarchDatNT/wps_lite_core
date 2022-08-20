@@ -116,12 +116,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f122361
+    sget v2, Lcom/resouce/module/ResSTRING;->public_infoflow_url_cn:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f122362
+    sget v2, Lcom/resouce/module/ResSTRING;->public_infoflow_url_en:I
 
     .line 6
     :goto_0
@@ -133,7 +133,7 @@
 
     if-ne v4, v5, :cond_1
 
-    const v2, 0x7f122363
+    sget v2, Lcom/resouce/module/ResSTRING;->public_infoflow_url_home:I
 
     .line 7
     :cond_1
@@ -538,7 +538,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

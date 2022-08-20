@@ -112,11 +112,11 @@
 
     invoke-virtual {p1, v1}, Lkib;->Y(Ljava/lang/String;)V
 
-    const v1, 0x7f080716
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_cloud_font:I
 
-    const v2, 0x7f120296
+    sget v2, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_title:I
 
-    const v3, 0x7f120293
+    sget v3, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_desc:I
 
     const/4 v4, 0x2
 

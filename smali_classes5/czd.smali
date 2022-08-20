@@ -282,7 +282,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121c45
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_slide_master:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -316,7 +316,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2432
+    sget v3, Lcom/resouce/module/ResID;->ppt_slidemaster_title:I
 
     .line 10
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -328,7 +328,7 @@
     .line 11
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b242d
+    sget v1, Lcom/resouce/module/ResID;->ppt_slideLayouts_grid:I
 
     .line 12
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     check-cast v1, Landroid/widget/GridView;
 
-    const v3, 0x7f081cbb
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_grid_item_selector_roundrect:I
 
     .line 13
     invoke-virtual {v1, v3}, Landroid/widget/GridView;->setSelector(I)V

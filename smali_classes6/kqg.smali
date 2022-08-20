@@ -89,7 +89,7 @@
 
     if-le p1, v1, :cond_1
 
-    const p1, 0x7f120c39
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_sheet_limit_tips:I
 
     .line 3
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -225,11 +225,11 @@
     .line 6
     invoke-virtual {v0, p0}, Lkib;->C(I)V
 
-    const p0, 0x7f0815bb
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_split_table_by_content_pic:I
 
-    const v1, 0x7f120c3e
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table:I
 
-    const v2, 0x7f120c43
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_descript_text1:I
 
     const/4 v3, 0x1
 
@@ -300,11 +300,11 @@
     .line 4
     invoke-virtual {v0, v2, p0, v1}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f0815bb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_split_table_by_content_pic:I
 
-    const v2, 0x7f120c3e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table:I
 
-    const v3, 0x7f120c43
+    sget v3, Lcom/resouce/module/ResSTRING;->et_split_table_descript_text1:I
 
     const/4 v4, 0x1
 

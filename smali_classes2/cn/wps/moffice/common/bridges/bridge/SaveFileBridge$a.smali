@@ -60,7 +60,7 @@
 
     iget-object p1, p1, Lqm3;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

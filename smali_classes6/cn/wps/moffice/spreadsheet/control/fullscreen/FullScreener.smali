@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreener$2;
 
-    const v1, 0x7f080c52
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_fullscreen_et:I
 
-    const v2, 0x7f1221fd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fullscreen:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreener$2;-><init>(Lcn/wps/moffice/spreadsheet/control/fullscreen/FullScreener;II)V
 

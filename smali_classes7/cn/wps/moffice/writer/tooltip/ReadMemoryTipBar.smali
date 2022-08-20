@@ -60,7 +60,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/writer/tooltip/ReadMemoryTipBar;->b:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0e10d5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_readmemory_bar:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

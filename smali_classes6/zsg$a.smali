@@ -239,7 +239,7 @@
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f120c1d
+    sget v3, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed:I
 
     .line 11
     invoke-static {v3, v1}, Lsjf;->k(II)V
@@ -445,7 +445,7 @@
     const/4 v3, 0x0
 
     :catch_3
-    const v2, 0x7f12072c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 24
     :try_start_3
@@ -494,7 +494,7 @@
     const/4 v3, 0x0
 
     :catch_5
-    const v2, 0x7f12072f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 29
     :try_start_4

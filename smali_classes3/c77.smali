@@ -61,13 +61,13 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121947
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_add_new_members:I
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const p1, 0x7f121256
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     :goto_1
     const/4 v0, 0x0

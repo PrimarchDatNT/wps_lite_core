@@ -296,11 +296,11 @@
 
     iget-object v1, p0, Lyk3;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0a40
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pickerview_time:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b30fc
+    sget v0, Lcom/resouce/module/ResID;->tvTitle:I
 
     .line 2
     invoke-virtual {p0, v0}, Lyk3;->i(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b29cf
+    sget v1, Lcom/resouce/module/ResID;->rv_topbar:I
 
     .line 3
     invoke-virtual {p0, v1}, Lyk3;->i(I)Landroid/view/View;
@@ -318,7 +318,7 @@
 
     check-cast v1, Landroid/widget/RelativeLayout;
 
-    const v2, 0x7f0b02b3
+    sget v2, Lcom/resouce/module/ResID;->btnSubmit:I
 
     .line 4
     invoke-virtual {p0, v2}, Lyk3;->i(I)Landroid/view/View;
@@ -327,7 +327,7 @@
 
     check-cast v2, Landroid/widget/Button;
 
-    const v3, 0x7f0b02aa
+    sget v3, Lcom/resouce/module/ResID;->btnCancel:I
 
     .line 5
     invoke-virtual {p0, v3}, Lyk3;->i(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -398,7 +398,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -623,7 +623,7 @@
     invoke-interface {v0, p1}, Lbl3$a;->a(Landroid/view/View;)V
 
     :goto_0
-    const p1, 0x7f0b2f9d
+    sget p1, Lcom/resouce/module/ResID;->timepicker:I
 
     .line 6
     invoke-virtual {p0, p1}, Lyk3;->i(I)Landroid/view/View;

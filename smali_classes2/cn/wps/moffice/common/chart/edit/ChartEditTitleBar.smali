@@ -50,7 +50,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -67,19 +67,19 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0b3b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_titlebar_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e083f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_chart_edit_titlebar_layout:I
 
     :goto_0
     const/4 v1, 0x1
 
     invoke-virtual {p2, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b2589
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_titlebar_cancel:I
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0b258b
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_titlebar_switchrowcol:I
 
     .line 11
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
     invoke-virtual {p2, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_1
-    const p1, 0x7f0b258a
+    sget p1, Lcom/resouce/module/ResID;->public_chart_edit_titlebar_ok:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a99
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_titlebar_btn_okcancel_width:I
 
     invoke-virtual {p0, v1}, Lcn/wps/moffice/common/chart/edit/ChartEditTitleBar;->a(I)I
 
@@ -218,7 +218,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a9c
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_titlebar_btn_switchrowcol_width:I
 
     invoke-virtual {p0, v1}, Lcn/wps/moffice/common/chart/edit/ChartEditTitleBar;->a(I)I
 
@@ -279,7 +279,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

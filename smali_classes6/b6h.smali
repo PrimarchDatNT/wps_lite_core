@@ -255,7 +255,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -313,7 +313,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2172
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_sheet_op_colorview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -431,7 +431,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -440,7 +440,7 @@
 
     check-cast v1, Landroid/widget/GridView;
 
-    const v2, 0x7f0b04b7
+    sget v2, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

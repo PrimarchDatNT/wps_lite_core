@@ -219,17 +219,17 @@
     .line 6
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const p0, 0x7f1224cf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_mobile_net_ensure_tip:I
 
     .line 7
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 8
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

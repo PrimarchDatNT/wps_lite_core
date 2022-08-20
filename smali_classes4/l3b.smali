@@ -70,14 +70,14 @@
     .line 1
     iget-object v0, p0, Le3b;->h0:Landroid/widget/TextView;
 
-    const v1, 0x7f1203fd
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_export_document:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 2
     iget-object v0, p0, Le3b;->S:Landroid/view/View;
 
-    const v1, 0x7f0605e5
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -90,7 +90,7 @@
     .line 1
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0605e1
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanDefaultBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -109,42 +109,42 @@
     .line 4
     iget-object v0, p0, Le3b;->Y:Landroid/widget/ImageView;
 
-    const v2, 0x7f080509
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_cut:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 5
     iget-object v0, p0, Le3b;->Z:Landroid/widget/ImageView;
 
-    const v2, 0x7f080543
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_rotate:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 6
     iget-object v0, p0, Le3b;->a0:Landroid/widget/ImageView;
 
-    const v2, 0x7f080512
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_filter:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 7
     iget-object v0, p0, Le3b;->b0:Landroid/widget/ImageView;
 
-    const v2, 0x7f08050b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_delete:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 8
     iget-object v0, p0, Le3b;->f0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v2, 0x7f0605e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
     .line 9
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v3, 0x7f0b0d6d
+    sget v3, Lcom/resouce/module/ResID;->filter_divide:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -155,7 +155,7 @@
     .line 10
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b14b0
+    sget v1, Lcom/resouce/module/ResID;->iv_rectify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
 
     iput-object v0, p0, Ll3b;->H0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08053a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_pic_prerecity_white:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -220,7 +220,7 @@
     .line 17
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -355,7 +355,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122950
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -372,7 +372,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f122bd1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122840
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v1, 0x0
 

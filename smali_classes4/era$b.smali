@@ -61,7 +61,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f121d22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_allready_is_wps_vip:I
 
     const/4 v2, 0x0
 

@@ -103,7 +103,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1212e0
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_page_end:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -174,7 +174,7 @@
     :try_start_0
     iget-object p2, p0, Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView$b;->B:Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView;
 
-    const v4, 0x7f0b070d
+    sget v4, Lcom/resouce/module/ResID;->doc_end_hongbao_pic:I
 
     invoke-virtual {p2, v4}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
     .line 23
     iget-object p1, p0, Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView$b;->B:Lcn/wps/moffice/common/infoflow/hongbao/DocEndAdHongbaoView;
 
-    const p2, 0x7f0b070b
+    sget p2, Lcom/resouce/module/ResID;->doc_end_ad_container:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

@@ -51,7 +51,7 @@
 
     const-string v3, ""
 
-    const v4, 0x7f0b1554
+    sget v4, Lcom/resouce/module/ResID;->layout_netbanking:I
 
     if-eq v0, v1, :cond_1
 

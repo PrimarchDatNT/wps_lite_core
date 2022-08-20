@@ -64,9 +64,9 @@
     .line 3
     new-instance v0, Lq2h$b;
 
-    const v1, 0x7f0803f7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_font_color:I
 
-    const v2, 0x7f1221b4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     const/4 v3, 0x0
 
@@ -77,9 +77,9 @@
     .line 4
     new-instance v0, Lq2h$c;
 
-    const v1, 0x7f080403
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_format:I
 
-    const v2, 0x7f122180
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fill_color:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lq2h$c;-><init>(Lq2h;IIZ)V
 
@@ -88,9 +88,9 @@
     .line 5
     new-instance v0, Lq2h$d;
 
-    const v1, 0x7f081f70
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_chart_select_data_src:I
 
-    const v2, 0x7f122fb4
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_chart_data_source_choose:I
 
     const/4 v3, 0x1
 
@@ -101,9 +101,9 @@
     .line 6
     new-instance v0, Lq2h$e;
 
-    const v1, 0x7f081f06
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ppt_quick_bar_edit_data:I
 
-    const v2, 0x7f121dd4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_chart_style:I
 
     invoke-direct {v0, p0, v1, v2, v3}, Lq2h$e;-><init>(Lq2h;IIZ)V
 
@@ -240,7 +240,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060066
+    sget p2, Lcom/resouce/module/ResCOLOR;->c535252:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -261,7 +261,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0606a5
+    sget p2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_black:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -282,7 +282,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0600b1
+    sget p2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -498,7 +498,7 @@
     .line 10
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 11
     invoke-static {p1, v4}, Lsjf;->h(II)V

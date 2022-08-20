@@ -125,7 +125,7 @@
     .line 2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -144,7 +144,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120541
+    sget v0, Lcom/resouce/module/ResSTRING;->docker_vip_expired:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -322,7 +322,7 @@
 
     iput-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b20
+    sget v1, Lcom/resouce/module/ResID;->open_docker_vip_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
     .line 3
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1b1f
+    sget v1, Lcom/resouce/module/ResID;->open_docer_vip_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
     .line 4
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b289b
+    sget v1, Lcom/resouce/module/ResID;->renew_docer_vip_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -356,7 +356,7 @@
     .line 5
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b288f
+    sget v1, Lcom/resouce/module/ResID;->remind_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
 
     iget-object v2, p0, Loge;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fae
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_privilege:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -383,7 +383,7 @@
 
     iget-object v2, p0, Loge;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121587
+    sget v3, Lcom/resouce/module/ResSTRING;->overdue:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -409,7 +409,7 @@
     .line 8
     iget-object v0, p0, Loge;->I:Landroid/view/View;
 
-    const v3, 0x7f0b032f
+    sget v3, Lcom/resouce/module/ResID;->buy_member_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -458,7 +458,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122bc1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vip_templates:I
 
     return v0
 .end method
@@ -466,7 +466,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12145b
+    sget v0, Lcom/resouce/module/ResSTRING;->name_my_templates:I
 
     return v0
 .end method

@@ -101,7 +101,7 @@
     .line 7
     invoke-static {p1}, Lxhf;->h(Ljava/lang/String;)V
 
-    const p1, 0x7f122fd5
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_long_pic_preview_limit_tips:I
 
     const/4 v0, 0x1
 

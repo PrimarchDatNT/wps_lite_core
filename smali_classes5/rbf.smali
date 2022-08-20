@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b01ae
+    sget v0, Lcom/resouce/module/ResID;->avatar_image_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -29,7 +29,7 @@
 
     iput-object v0, p0, Lrbf;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1992
+    sget v0, Lcom/resouce/module/ResID;->name_text_view:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lrbf;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b139d
+    sget v0, Lcom/resouce/module/ResID;->item_check_box_view:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

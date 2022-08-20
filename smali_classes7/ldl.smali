@@ -80,7 +80,7 @@
     return p1
 
     :cond_0
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v0, 0x0
 
@@ -137,7 +137,7 @@
     :cond_0
     iget-object p1, p0, Lldl;->b:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x1
 

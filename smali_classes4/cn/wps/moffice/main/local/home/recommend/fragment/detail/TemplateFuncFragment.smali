@@ -57,7 +57,7 @@
 .method public E()I
     .locals 1
 
-    const v0, 0x7f0e0edb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_document_item:I
 
     return v0
 .end method
@@ -65,7 +65,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f081d58
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->recommend_template_main_bg:I
 
     return v0
 .end method
@@ -73,7 +73,7 @@
 .method public J(Landroid/view/View;)V
     .locals 6
 
-    const v0, 0x7f0b3394
+    sget v0, Lcom/resouce/module/ResID;->view_cover:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ded
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_templete:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122def
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_templete_des:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -107,11 +107,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f122df1
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_templete_more:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b0e82
+    sget v0, Lcom/resouce/module/ResID;->frame_main:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b285e
+    sget v0, Lcom/resouce/module/ResID;->recycler:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -256,13 +256,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f122dee
+    sget v3, Lcom/resouce/module/ResSTRING;->recommend_func_templete_chart:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f08013b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->chart_icon:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -277,13 +277,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f122df2
+    sget v3, Lcom/resouce/module/ResSTRING;->recommend_func_templete_schedule:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d9a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->schdule_icon:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -298,13 +298,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f122df0
+    sget v3, Lcom/resouce/module/ResSTRING;->recommend_func_templete_invoice:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f0809e6
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->invoice_icon:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -319,13 +319,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f122df3
+    sget v3, Lcom/resouce/module/ResSTRING;->recommend_func_templete_todo:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081eb9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->todo_icon:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 

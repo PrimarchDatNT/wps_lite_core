@@ -167,7 +167,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0e16
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_s2s_interstitial_ads_native:I
 
     if-eqz v0, :cond_0
 
@@ -185,7 +185,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0e15
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_s2s_interstitial_ads_fullscreen:I
 
     return v0
 
@@ -209,7 +209,7 @@
 .method public final h()V
     .locals 3
 
-    const v0, 0x7f0b18d3
+    sget v0, Lcom/resouce/module/ResID;->mopub_interstitial_page:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialActivity;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0449
+    sget v0, Lcom/resouce/module/ResID;->close_button:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialActivity;->I:Landroid/view/View;
 
-    const v0, 0x7f0b163a
+    sget v0, Lcom/resouce/module/ResID;->ll_ad_complaint_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0449
+    sget v0, Lcom/resouce/module/ResID;->close_button:I
 
     if-ne p1, v0, :cond_0
 
@@ -305,7 +305,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->addFlags(I)V
 
-    const p1, 0x7f0e0e14
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_s2s_interstitial_ads_activity:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

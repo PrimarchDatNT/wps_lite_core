@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12317a
+    sget v1, Lcom/resouce/module/ResSTRING;->upload_resume_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -547,7 +547,7 @@
     .line 4
     iget-object p1, p0, Liba;->X:Landroid/content/Context;
 
-    const v0, 0x7f1206bc
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_upload_error:I
 
     const/4 v1, 0x0
 
@@ -623,7 +623,7 @@
 
     invoke-direct {v2, p0}, Liba$a;-><init>(Liba;)V
 
-    const v3, 0x7f122bdc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 v4, 0x0
 

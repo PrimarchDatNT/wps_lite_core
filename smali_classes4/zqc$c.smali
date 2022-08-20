@@ -61,11 +61,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1225da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_page_adjust_new_func_guide:I
 
-    const v3, 0x7f1225d8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
-    const v4, 0x7f080764
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_page_adjust:I
 
     const/4 v5, 0x1
 

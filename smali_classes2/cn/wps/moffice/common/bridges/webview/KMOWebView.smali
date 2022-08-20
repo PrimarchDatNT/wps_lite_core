@@ -88,7 +88,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 p3, 0x0
 
@@ -122,12 +122,12 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f12201b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 7
     new-instance v2, Lcn/wps/moffice/common/bridges/webview/KMOWebView$2;
@@ -136,7 +136,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance p2, Lcn/wps/moffice/common/bridges/webview/KMOWebView$3;

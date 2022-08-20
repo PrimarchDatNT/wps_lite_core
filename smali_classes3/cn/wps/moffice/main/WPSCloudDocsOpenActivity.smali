@@ -94,7 +94,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f12240e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     const/4 v0, 0x1
 
@@ -379,7 +379,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122540
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_support_international_version:I
 
     const/4 v1, 0x0
 
@@ -561,7 +561,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0602cd
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     .line 5
     invoke-static {p0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
@@ -569,7 +569,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     .line 6
     invoke-static {p0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
@@ -597,7 +597,7 @@
 
     if-nez v0, :cond_1
 
-    const v1, 0x7f12240e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentError:I
 
     const/4 v2, 0x1
 

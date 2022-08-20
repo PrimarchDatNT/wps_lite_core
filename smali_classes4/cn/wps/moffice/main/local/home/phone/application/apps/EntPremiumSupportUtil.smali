@@ -678,7 +678,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f12148a
+    sget v1, Lcom/resouce/module/ResSTRING;->not_support_premium_please_login:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -708,7 +708,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121487
+    sget v1, Lcom/resouce/module/ResSTRING;->not_support_premium_due_to_activate_fail:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -734,7 +734,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121489
+    sget v1, Lcom/resouce/module/ResSTRING;->not_support_premium_please_buy_vip_member:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

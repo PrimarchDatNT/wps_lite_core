@@ -31,15 +31,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01b7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_chart_title:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e093e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_chart_title:I
 
     :goto_0
-    const v1, 0x7f120249
+    sget v1, Lcom/resouce/module/ResSTRING;->chart_defaultChartTitle_bmw:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -77,7 +77,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0962
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_show_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -90,7 +90,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0965
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0964
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_title_pos_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -123,7 +123,7 @@
     .line 13
     iget-object v0, p0, Ltpf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v1, 0x7f120793
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -146,7 +146,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120798
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chartoptions_title_pos_top:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f12076f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_center_overlap_title:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v3, 0x7f0e0250
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v1, v2, v3, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -199,7 +199,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v1, v2, v3, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -466,7 +466,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0962
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_title:I
 
     if-ne v0, p1, :cond_0
 
@@ -751,14 +751,14 @@
 
     move-result-object v2
 
-    const v3, 0x7f120798
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chartoptions_title_pos_top:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f12076f
+    sget v4, Lcom/resouce/module/ResSTRING;->et_chartoptions_center_overlap_title:I
 
     .line 7
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

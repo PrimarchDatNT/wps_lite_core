@@ -108,7 +108,7 @@
 
     iget-object v5, v5, Lb1a$k;->S:Landroid/content/Context;
 
-    const v6, 0x7f1202ba
+    sget v6, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_download_fail_msg:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -140,7 +140,7 @@
 
     iget-object v1, v1, Lb1a$k;->S:Landroid/content/Context;
 
-    const v5, 0x7f1202bb
+    sget v5, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_download_fail_one_msg:I
 
     invoke-virtual {v1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -164,9 +164,9 @@
 
     iget-object v3, v1, Lb1a$k;->S:Landroid/content/Context;
 
-    const v5, 0x7f1229fe
+    sget v5, Lcom/resouce/module/ResSTRING;->public_skip:I
 
-    const v6, 0x7f121dbf
+    sget v6, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v7, 0x0
 

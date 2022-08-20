@@ -139,7 +139,7 @@
     .line 1
     iget-object v0, p0, Lnn6;->c:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0083
+    sget v1, Lcom/resouce/module/ResLAYOUT;->card:I
 
     const/4 v2, 0x0
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b022a
+    sget v1, Lcom/resouce/module/ResID;->body_scroll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v1, p0, Lon6;->f:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b2516
+    sget v1, Lcom/resouce/module/ResID;->primary_button:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v1, p0, Lon6;->g:Landroid/widget/Button;
 
-    const v1, 0x7f0b2ad2
+    sget v1, Lcom/resouce/module/ResID;->secondary_button:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object v1, p0, Lon6;->h:Landroid/widget/Button;
 
-    const v1, 0x7f0b12a2
+    sget v1, Lcom/resouce/module/ResID;->image_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
 
     iput-object v1, p0, Lon6;->i:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1884
+    sget v1, Lcom/resouce/module/ResID;->message_body:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object v1, p0, Lon6;->j:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1885    # 1.8489E38f
+    sget v1, Lcom/resouce/module/ResID;->message_title:I    # 1.8489E38f
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     iput-object v1, p0, Lon6;->k:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0359
+    sget v1, Lcom/resouce/module/ResID;->card_root:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object v1, p0, Lon6;->d:Lcn/wps/moffice/inappmessage/layout/FiamCardView;
 
-    const v1, 0x7f0b034b
+    sget v1, Lcom/resouce/module/ResID;->card_content_root:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

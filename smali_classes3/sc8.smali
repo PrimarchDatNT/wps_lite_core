@@ -65,12 +65,12 @@
 
     if-eqz p2, :cond_0
 
-    const v1, 0x7f0e0534
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_listitem:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0704
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_listitem:I
 
     .line 6
     :goto_0
@@ -78,12 +78,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0e013b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->documents_files_item_tag:I
 
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0e0722
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_home_listview_item_tag:I
 
     .line 7
     :goto_1
@@ -134,7 +134,7 @@
 .method public final d(Lcn/wps/moffice/main/cloud/storage/model/CSConfig;Landroid/view/View;Lsc8$e;)V
     .locals 3
 
-    const v0, 0x7f0b13c5
+    sget v0, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object v0, p3, Lsc8$e;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b13ee
+    sget v0, Lcom/resouce/module/ResID;->item_title:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     iput-object v0, p3, Lsc8$e;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b13bb
+    sget v0, Lcom/resouce/module/ResID;->item_edit:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
 
     iput-object v0, p3, Lsc8$e;->e:Landroid/view/View;
 
-    const v0, 0x7f0b13b2
+    sget v0, Lcom/resouce/module/ResID;->item_delete:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b2057
+    sget p3, Lcom/resouce/module/ResID;->phone_listview_sticky_title_textview:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
 
     if-nez p3, :cond_5
 
-    const p3, 0x7f0b10e8
+    sget p3, Lcom/resouce/module/ResID;->home_open_item_subtitle:I
 
     .line 16
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

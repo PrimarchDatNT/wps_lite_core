@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0688
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_all_document_search_cloud_empty:I
 
     const/4 v1, 0x0
 
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Ll19;->k:Landroid/view/View;
 
-    const v0, 0x7f0b2a98
+    sget v0, Lcom/resouce/module/ResID;->search_page_guide_login:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -711,12 +711,12 @@
 
     if-eqz v0, :cond_0
 
-    const v5, 0x7f07034e
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     goto :goto_0
 
     :cond_0
-    const v5, 0x7f070585
+    sget v5, Lcom/resouce/module/ResDIMEN;->pad_open_path_gallery_height:I
 
     :goto_0
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -726,9 +726,9 @@
     .line 7
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setHeight(I)V
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 8
     invoke-virtual {v3, v5}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
@@ -746,12 +746,12 @@
 
     if-eqz v0, :cond_1
 
-    const v7, 0x7f0703d6
+    sget v7, Lcom/resouce/module/ResDIMEN;->ks_scroll_bar_indicator_width:I
 
     goto :goto_1
 
     :cond_1
-    const v7, 0x7f070581
+    sget v7, Lcom/resouce/module/ResDIMEN;->pad_ks_scroll_bar_indicator_width:I
 
     :goto_1
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

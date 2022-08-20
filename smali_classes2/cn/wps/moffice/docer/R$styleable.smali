@@ -152,7 +152,7 @@
 
     new-array v8, v0, [I
 
-    const v9, 0x7f040036
+    sget v9, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v9, v8, v3
 
@@ -166,7 +166,7 @@
 
     new-array v8, v0, [I
 
-    const v9, 0x7f04012a
+    sget v9, Lcom/resouce/module/ResATTR;->color:I
 
     aput v9, v8, v3
 
@@ -492,7 +492,7 @@
 
     new-array v5, v0, [I
 
-    const v9, 0x7f040655
+    sget v9, Lcom/resouce/module/ResATTR;->textStyle:I
 
     aput v9, v5, v3
 
@@ -500,7 +500,7 @@
 
     new-array v5, v0, [I
 
-    const v9, 0x7f04043e
+    sget v9, Lcom/resouce/module/ResATTR;->novel_night_mode:I
 
     aput v9, v5, v3
 
@@ -526,7 +526,7 @@
 
     new-array v5, v0, [I
 
-    const v9, 0x7f0405b6
+    sget v9, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v9, v5, v3
 
@@ -602,7 +602,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f0401a3
+    sget v2, Lcom/resouce/module/ResATTR;->defaultState:I
 
     aput v2, v1, v3
 
@@ -610,7 +610,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f04055e
+    sget v2, Lcom/resouce/module/ResATTR;->spv_include_title_bar:I
 
     aput v2, v1, v3
 
@@ -632,7 +632,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f0402a2
+    sget v1, Lcom/resouce/module/ResATTR;->img_position:I
 
     aput v1, v0, v3
 

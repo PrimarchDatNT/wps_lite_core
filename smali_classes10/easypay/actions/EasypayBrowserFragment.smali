@@ -824,7 +824,7 @@
     .line 1
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b16a6
+    sget v1, Lcom/resouce/module/ResID;->ll_nb_login:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
     .line 2
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0376
+    sget v1, Lcom/resouce/module/ResID;->cb_nb_userId:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -850,7 +850,7 @@
     .line 3
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0ac0
+    sget v1, Lcom/resouce/module/ResID;->et_nb_password:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -863,7 +863,7 @@
     .line 4
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0ac2
+    sget v1, Lcom/resouce/module/ResID;->et_nb_userIdCustomerId:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -876,7 +876,7 @@
     .line 5
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b16a8
+    sget v1, Lcom/resouce/module/ResID;->ll_nb_user_id_Selector:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -889,7 +889,7 @@
     .line 6
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b1ce1
+    sget v1, Lcom/resouce/module/ResID;->parentPanel:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -902,7 +902,7 @@
     .line 7
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b19d5
+    sget v1, Lcom/resouce/module/ResID;->nb_bt_submit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -915,7 +915,7 @@
     .line 8
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b32a4
+    sget v1, Lcom/resouce/module/ResID;->tv_user_id_one:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -928,7 +928,7 @@
     .line 9
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b32a6
+    sget v1, Lcom/resouce/module/ResID;->tv_user_id_two:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -941,7 +941,7 @@
     .line 10
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b32a5
+    sget v1, Lcom/resouce/module/ResID;->tv_user_id_three:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -954,7 +954,7 @@
     .line 11
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b19d7
+    sget v1, Lcom/resouce/module/ResID;->nb_image_bt_previous:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -967,7 +967,7 @@
     .line 12
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b19d6
+    sget v1, Lcom/resouce/module/ResID;->nb_image_bt_next:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -980,7 +980,7 @@
     .line 13
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b12c2
+    sget v1, Lcom/resouce/module/ResID;->img_pwd_show:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1047,7 +1047,7 @@
     .line 22
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->mNbUserName:Landroid/widget/CheckBox;
 
-    const v1, 0x7f08091d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ic_checkbox_selected:I
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setButtonDrawable(I)V
 
@@ -1069,7 +1069,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080943
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ic_show_passcode:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1096,7 +1096,7 @@
     .line 1
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b12ca
+    sget v1, Lcom/resouce/module/ResID;->img_show_assist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1109,7 +1109,7 @@
     .line 2
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b3146
+    sget v1, Lcom/resouce/module/ResID;->tv_detection_status:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1122,7 +1122,7 @@
     .line 3
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b12b9
+    sget v1, Lcom/resouce/module/ResID;->img_hide_assist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1135,7 +1135,7 @@
     .line 4
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0840
+    sget v1, Lcom/resouce/module/ResID;->edit_text_otp:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1148,7 +1148,7 @@
     .line 5
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b3277
+    sget v1, Lcom/resouce/module/ResID;->tv_submit_otp_time:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1161,7 +1161,7 @@
     .line 6
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b3286
+    sget v1, Lcom/resouce/module/ResID;->tv_tap_to_pause:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1174,7 +1174,7 @@
     .line 7
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0305
+    sget v1, Lcom/resouce/module/ResID;->btn_submit_otp:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1187,7 +1187,7 @@
     .line 8
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0415
+    sget v1, Lcom/resouce/module/ResID;->cl_show_assist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1200,7 +1200,7 @@
     .line 9
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b0414
+    sget v1, Lcom/resouce/module/ResID;->cl_hide_assist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1213,7 +1213,7 @@
     .line 10
     iget-object v0, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b12bf
+    sget v1, Lcom/resouce/module/ResID;->img_paytm_assist_banner:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -2200,7 +2200,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f1231ab
+    sget v2, Lcom/resouce/module/ResSTRING;->waiting_for_otp_label:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4230,7 +4230,7 @@
 
     if-eqz p2, :cond_0
 
-    const v1, 0x7f08091d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ic_checkbox_selected:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/widget/CheckBox;->setButtonDrawable(I)V
@@ -4289,7 +4289,7 @@
 
     if-eqz p2, :cond_1
 
-    const v1, 0x7f08091e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ic_checkbox_unselected:I
 
     .line 11
     invoke-virtual {p2, v1}, Landroid/widget/CheckBox;->setButtonDrawable(I)V
@@ -4333,7 +4333,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b12b9
+    sget v4, Lcom/resouce/module/ResID;->img_hide_assist:I
 
     if-ne v3, v4, :cond_0
 
@@ -4346,7 +4346,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b12ca
+    sget v4, Lcom/resouce/module/ResID;->img_show_assist:I
 
     if-ne v3, v4, :cond_1
 
@@ -4359,7 +4359,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b12bf
+    sget v4, Lcom/resouce/module/ResID;->img_paytm_assist_banner:I
 
     if-ne v3, v4, :cond_2
 
@@ -4374,7 +4374,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b3146
+    sget v4, Lcom/resouce/module/ResID;->tv_detection_status:I
 
     if-ne v3, v4, :cond_3
 
@@ -4389,7 +4389,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b32a4
+    sget v4, Lcom/resouce/module/ResID;->tv_user_id_one:I
 
     const/4 v5, 0x0
 
@@ -4434,7 +4434,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b32a6
+    sget v4, Lcom/resouce/module/ResID;->tv_user_id_two:I
 
     if-ne v3, v4, :cond_5
 
@@ -4477,7 +4477,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b32a5
+    sget v4, Lcom/resouce/module/ResID;->tv_user_id_three:I
 
     if-ne v3, v4, :cond_6
 
@@ -4515,7 +4515,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b19d5
+    sget v4, Lcom/resouce/module/ResID;->nb_bt_submit:I
 
     if-ne v3, v4, :cond_8
 
@@ -4556,7 +4556,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b19d6
+    sget v3, Lcom/resouce/module/ResID;->nb_image_bt_next:I
 
     if-ne v0, v3, :cond_9
 
@@ -4579,7 +4579,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b19d7
+    sget v2, Lcom/resouce/module/ResID;->nb_image_bt_previous:I
 
     if-ne v0, v2, :cond_a
 
@@ -4604,7 +4604,7 @@
     :try_end_0
     .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_2
 
-    const v1, 0x7f0b3286
+    sget v1, Lcom/resouce/module/ResID;->tv_tap_to_pause:I
 
     if-ne v0, v1, :cond_c
 
@@ -4659,7 +4659,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0305
+    sget v1, Lcom/resouce/module/ResID;->btn_submit_otp:I
 
     if-ne v0, v1, :cond_d
 
@@ -4674,7 +4674,7 @@
     :try_end_2
     .catch Ljava/lang/NullPointerException; {:try_start_2 .. :try_end_2} :catch_2
 
-    const v0, 0x7f0b12c2
+    sget v0, Lcom/resouce/module/ResID;->img_pwd_show:I
 
     if-ne p1, v0, :cond_f
 
@@ -4718,7 +4718,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f08092d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ic_hide_passcode:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4735,7 +4735,7 @@
     .line 43
     iget-object p1, p0, Leasypay/actions/EasypayBrowserFragment;->nbPwdViewer:Landroid/widget/TextView;
 
-    const v0, 0x7f120df7
+    sget v0, Lcom/resouce/module/ResSTRING;->hide:I
 
     invoke-virtual {p0, v0}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4769,7 +4769,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f080943
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->ic_show_passcode:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4786,7 +4786,7 @@
     .line 49
     iget-object p1, p0, Leasypay/actions/EasypayBrowserFragment;->nbPwdViewer:Landroid/widget/TextView;
 
-    const v0, 0x7f122f42
+    sget v0, Lcom/resouce/module/ResSTRING;->show:I
 
     invoke-virtual {p0, v0}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4850,7 +4850,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0146
+    sget p3, Lcom/resouce/module/ResLAYOUT;->easypay_browser_frag_revamp:I
 
     const/4 v0, 0x0
 
@@ -6066,7 +6066,7 @@
 .method public setOtpDetectedTimer(Z)V
     .locals 8
 
-    const v0, 0x7f12300f
+    sget v0, Lcom/resouce/module/ResSTRING;->submit_time:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
@@ -6549,7 +6549,7 @@
     .line 2
     iget-object v1, p0, Leasypay/actions/EasypayBrowserFragment;->activity:Landroid/app/Activity;
 
-    const v2, 0x7f0b1ce1
+    sget v2, Lcom/resouce/module/ResID;->parentPanel:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -6580,7 +6580,7 @@
 
     move-result v1
 
-    const v4, 0x7f0b1b8c
+    sget v4, Lcom/resouce/module/ResID;->otpHelper:I
 
     if-eqz v1, :cond_2
 
@@ -6623,7 +6623,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f0b1554
+    sget v1, Lcom/resouce/module/ResID;->layout_netbanking:I
 
     if-ne p1, v1, :cond_4
 

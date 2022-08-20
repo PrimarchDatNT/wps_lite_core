@@ -492,7 +492,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120573
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cannot_delete_some_file:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -551,7 +551,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120572
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cannot_delete_file:I
 
     const/4 v1, 0x0
 
@@ -1060,7 +1060,7 @@
 
     const/16 v1, 0x8
 
-    const v2, 0x7f0b0c72
+    sget v2, Lcom/resouce/module/ResID;->fb_divide_line:I
 
     if-ge p3, v0, :cond_2
 

@@ -21,7 +21,7 @@
     .line 2
     iput-object p1, p0, Lqs3;->a:Landroid/view/View;
 
-    const p3, 0x7f0b2b33
+    sget p3, Lcom/resouce/module/ResID;->setting_period_checkbox:I
 
     .line 3
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -30,7 +30,7 @@
 
     iput-object p3, p0, Lqs3;->b:Landroid/view/View;
 
-    const p3, 0x7f0b2b34
+    sget p3, Lcom/resouce/module/ResID;->setting_period_text:I
 
     .line 4
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
     .line 7
     iput-object p1, p0, Lqs3;->a:Landroid/view/View;
 
-    const p3, 0x7f0b2b33
+    sget p3, Lcom/resouce/module/ResID;->setting_period_checkbox:I
 
     .line 8
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
     :goto_0
     invoke-virtual {p3, p4}, Landroid/view/View;->setVisibility(I)V
 
-    const p3, 0x7f0b2b34
+    sget p3, Lcom/resouce/module/ResID;->setting_period_text:I
 
     .line 10
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -398,7 +398,7 @@
     .line 2
     invoke-static {v1, v0}, Ldjd;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     return v0

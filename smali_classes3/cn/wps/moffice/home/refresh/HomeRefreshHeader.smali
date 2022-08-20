@@ -34,7 +34,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e105c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->wps_home_refresh:I
 
     const/4 p3, 0x1
 
@@ -42,7 +42,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1098
+    sget p2, Lcom/resouce/module/ResID;->home_logo_anim:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/home/refresh/HomeRefreshHeader;->T:Lcn/wps/moffice/home/refresh/HomeLogoAnimView;
 
-    const p2, 0x7f0b2635
+    sget p2, Lcom/resouce/module/ResID;->public_home_bouncingball:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/home/refresh/HomeRefreshHeader;->U:Lcn/wps/moffice/home/refresh/PullBounceBallAnimView;
 
-    const p2, 0x7f0b26d8
+    sget p2, Lcom/resouce/module/ResID;->public_pull_tip:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081cf1
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_wps_pull_refresh_logo:I
 
     invoke-static {p2, p3}, Lu6;->f(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -272,7 +272,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/home/refresh/HomeRefreshHeader;->V:Landroid/widget/TextView;
 
-    const p2, 0x7f123220
+    sget p2, Lcom/resouce/module/ResSTRING;->wps_home_page_update:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -334,7 +334,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/home/refresh/HomeRefreshHeader;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f122304
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_pulldown_refresh:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

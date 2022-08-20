@@ -214,7 +214,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121438
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_pc_disconnect_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -223,7 +223,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121436
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_pc_disconnect_before_upload_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -232,7 +232,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12143c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -301,7 +301,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121438
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_pc_disconnect_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -310,7 +310,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121437
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_pc_disconnect_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -319,7 +319,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12143c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -388,7 +388,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121448
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_request_error_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -397,7 +397,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121447
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_request_error_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -406,7 +406,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12143c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -550,7 +550,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04bc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->multi_port_upload_image_layout:I
 
     const/4 v2, 0x0
 
@@ -560,7 +560,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1964
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_status_img:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -574,7 +574,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b195f
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_connect_status_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -587,7 +587,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1960
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_connect_tip_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -600,7 +600,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1963
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_network_speed_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +613,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b195a
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_album_image_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -626,7 +626,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1959
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_album_image_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -639,7 +639,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b195d
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_complete_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,7 +652,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b195c
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_cancel_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -665,7 +665,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b195b
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_album_image_tip_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -678,7 +678,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1968
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_select_image_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +691,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1961
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -704,7 +704,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1966
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_image_uploading_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12143d
+    sget v0, Lcom/resouce/module/ResSTRING;->multi_port_upload_image_fun_text:I
 
     return v0
 .end method
@@ -800,7 +800,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060035
+    sget v2, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -817,7 +817,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -834,7 +834,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -881,7 +881,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060519
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -892,7 +892,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/multiportupload/view/MultiPortUploadImageView;->W:Landroid/view/ViewGroup;
 
-    const v1, 0x7f081b98
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_gray_bg_4dp_1px_selector:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -1346,7 +1346,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f121442
+    sget p2, Lcom/resouce/module/ResSTRING;->multi_port_upload_params_error_msg:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1355,7 +1355,7 @@
 
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f12143c
+    sget p2, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1411,7 +1411,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1968
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_select_image_btn:I
 
     const-string v2, "connect_success"
 
@@ -1424,7 +1424,7 @@
     .line 3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121443
+    sget v0, Lcom/resouce/module/ResSTRING;->multi_port_upload_pc_txt:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1503,7 +1503,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b195a
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_album_image_layout:I
 
     if-ne v0, v1, :cond_2
 
@@ -1552,7 +1552,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b195d
+    sget v1, Lcom/resouce/module/ResID;->multi_port_upload_complete_btn:I
 
     if-ne v0, v1, :cond_3
 
@@ -1605,7 +1605,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b195c
+    sget v0, Lcom/resouce/module/ResID;->multi_port_upload_cancel_btn:I
 
     if-ne p1, v0, :cond_4
 
@@ -1661,7 +1661,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121432
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_disconnect_pc_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1670,7 +1670,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121430
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_disconnect_pc_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1679,7 +1679,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121433
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_disconnect_pc_yes:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1688,7 +1688,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121431
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_disconnect_pc_no:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1755,7 +1755,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12142e
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_cancel_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1764,7 +1764,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12142c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_cancel_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1773,7 +1773,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121428
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_cancel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1782,7 +1782,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12142d
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_cancel_no:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1849,7 +1849,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121435
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_network_disconnect_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1858,7 +1858,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12142f
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_disconnect_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1867,7 +1867,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12143c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1936,7 +1936,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121435
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_network_disconnect_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1945,7 +1945,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121434
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_dialog_network_disconnect_before_upload_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1954,7 +1954,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f12143c
+    sget v1, Lcom/resouce/module/ResSTRING;->multi_port_upload_i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

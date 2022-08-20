@@ -79,7 +79,7 @@
     .line 1
     iget-object v0, p0, Laab;->S:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0efe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_viewpage_item_scroll:I
 
     const/4 v2, 0x0
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b31d0
+    sget v1, Lcom/resouce/module/ResID;->tv_ll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b30e2
+    sget v1, Lcom/resouce/module/ResID;->tv:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1c6f
+    sget v1, Lcom/resouce/module/ResID;->page_num:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

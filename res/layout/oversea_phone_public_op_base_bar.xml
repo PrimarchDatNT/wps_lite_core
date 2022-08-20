@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="270.0dip" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.contextview.OverseaContextOpBaseButtonBar android:id="@id/btnsbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
-    <cn.wps.moffice.common.beans.phone.contextview.OverseaContextOpBaseBarArrows android:id="@id/arrow" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:src="@drawable/comp_press_pul_up" android:scaleType="center" android:layout_below="@id/btnsbar" android:layout_centerHorizontal="true" />
-</RelativeLayout>

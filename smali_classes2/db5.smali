@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03008d
+    sget v1, Lcom/resouce/module/ResARRAY;->web_white_list:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

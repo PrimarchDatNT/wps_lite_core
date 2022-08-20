@@ -206,7 +206,7 @@
 
     invoke-virtual {v6, v2}, Ld5m;->A(Z)V
 
-    const v6, 0x7f120c1d
+    sget v6, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed:I
 
     const-string v7, ""
 
@@ -219,14 +219,14 @@
     goto :goto_0
 
     :cond_1
-    const v6, 0x7f120c1f
+    sget v6, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed_target_empty:I
 
     const-string v7, "noActiveCell"
 
     goto :goto_0
 
     :cond_2
-    const v6, 0x7f120c1e
+    sget v6, Lcom/resouce/module/ResSTRING;->et_smart_fill_failed_base_empty:I
 
     const-string v7, "noExamples"
 
@@ -348,7 +348,7 @@
     goto :goto_2
 
     :catch_1
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 25
     invoke-static {v1, v0}, Lsjf;->k(II)V
@@ -356,7 +356,7 @@
     goto :goto_2
 
     :catch_2
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 26
     invoke-static {v1, v0}, Lsjf;->k(II)V

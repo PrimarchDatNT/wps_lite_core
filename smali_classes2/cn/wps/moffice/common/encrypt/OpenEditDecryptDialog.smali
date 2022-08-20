@@ -117,12 +117,12 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0e0850
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_decrypt_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e0b98
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_decrypt_dialog:I
 
     :goto_0
     invoke-virtual {p1, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1350
+    sget v1, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1cec
+    sget v1, Lcom/resouce/module/ResID;->passwd_input:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12237f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_inputPasswd:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -220,7 +220,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v2, 0x7f0b0cec
+    sget v2, Lcom/resouce/module/ResID;->file_path:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const p2, 0x7f0b1cf3
+    sget p2, Lcom/resouce/module/ResID;->passwd_input_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     if-nez p4, :cond_3
 
-    const p2, 0x7f12237b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEditPasswdTextReadOnly:I
 
     .line 25
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -263,7 +263,7 @@
     goto :goto_1
 
     :cond_3
-    const p2, 0x7f12237a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEditPasswdText:I
 
     .line 26
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -271,7 +271,7 @@
     :goto_1
     if-eqz p4, :cond_4
 
-    const p1, 0x7f1227a4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     .line 27
     iget-object p2, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->a0:Landroid/content/DialogInterface$OnClickListener;
@@ -282,7 +282,7 @@
     :cond_4
     iget-object p1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const p2, 0x7f0b06b5
+    sget p2, Lcom/resouce/module/ResID;->display_check:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -300,7 +300,7 @@
     .line 30
     iget-object p2, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const p3, 0x7f0b06b8
+    sget p3, Lcom/resouce/module/ResID;->display_check_layout:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -316,7 +316,7 @@
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->d3(Landroid/widget/CompoundButton;)V
 
     :cond_5
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 32
     iget-object p2, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->Z:Landroid/content/DialogInterface$OnClickListener;
@@ -328,7 +328,7 @@
 
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 34
     iget-object p2, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->b0:Landroid/content/DialogInterface$OnClickListener;
@@ -343,7 +343,7 @@
     .line 36
     invoke-virtual {p0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p1, 0x7f121faf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_decryptDocument:I
 
     .line 37
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -453,7 +453,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f121dd8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_checkPasswdFaild:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -465,7 +465,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v1, 0x7f0b25a9
+    sget v1, Lcom/resouce/module/ResID;->public_decrypt_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -505,7 +505,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f122804
+    sget v1, Lcom/resouce/module/ResSTRING;->public_request_senior_password:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -517,7 +517,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v1, 0x7f0b25a9
+    sget v1, Lcom/resouce/module/ResID;->public_decrypt_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -544,7 +544,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v1, 0x7f0b25a9
+    sget v1, Lcom/resouce/module/ResID;->public_decrypt_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -605,7 +605,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v2, 0x7f0b25ac
+    sget v2, Lcom/resouce/module/ResID;->public_display_check_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -619,7 +619,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/encrypt/OpenEditDecryptDialog;->U:Landroid/view/View;
 
-    const v2, 0x7f0b06b8
+    sget v2, Lcom/resouce/module/ResID;->display_check_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -650,7 +650,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122d5f
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -664,7 +664,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122d60
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -715,7 +715,7 @@
 .method public e3()V
     .locals 2
 
-    const v0, 0x7f0b25a9
+    sget v0, Lcom/resouce/module/ResID;->public_decrypt_progressbar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

@@ -98,7 +98,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121846
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_outline_invalid_line:I
 
     const/4 v1, 0x0
 

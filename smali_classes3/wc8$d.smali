@@ -128,7 +128,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08199b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_refresh_rotate:I
 
     invoke-static {p1, v0}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080256
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_update:I
 
     invoke-static {p1, v0}, La0;->d(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 

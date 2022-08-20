@@ -69,7 +69,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 39
     invoke-direct {p0, p1, v0}, Ldo3;-><init>(Landroid/content/Context;I)V
@@ -149,7 +149,7 @@
 .method public constructor <init>(Landroid/content/Context;Lbr5;Ldz2;)V
     .locals 3
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v1, 0x0
 
@@ -570,7 +570,7 @@
 .method public final i3()V
     .locals 2
 
-    const v0, 0x7f0b2588
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -657,7 +657,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b258c
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_top_title:I
 
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1052,7 +1052,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e0b3a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_layout_pad:I
 
     .line 3
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -1060,7 +1060,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e0b39
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_layout:I
 
     .line 4
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -1100,7 +1100,7 @@
 
     iget-object v2, p0, Ldo3;->I:Lk2m;
 
-    const v3, 0x7f0b2577    # 1.8495722E38f
+    sget v3, Lcom/resouce/module/ResID;->public_chart_edit_inputview:I    # 1.8495722E38f
 
     invoke-virtual {p0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1140,7 +1140,7 @@
 
     iget-object v4, p0, Ldo3;->B:Lcn/wps/moffice/common/beans/ActivityController;
 
-    const v5, 0x7f0b33cb
+    sget v5, Lcom/resouce/module/ResID;->viewstub_animte_layout:I
 
     .line 13
     invoke-virtual {p0, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1157,7 +1157,7 @@
 
     iput-object v0, p0, Ldo3;->a0:Leo3;
 
-    const v0, 0x7f0b2574
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_grid_root:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1232,7 +1232,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0b2573
+    sget p1, Lcom/resouce/module/ResID;->public_chart_edit_content_root:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1624,7 +1624,7 @@
 
     invoke-static {v0}, Lcn/wps/core/runtime/Platform;->N0(Ljava/lang/String;)V
 
-    const v0, 0x7f0b04dc
+    sget v0, Lcom/resouce/module/ResID;->commom_grid_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

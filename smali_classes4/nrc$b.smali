@@ -40,7 +40,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2f94
+    sget v1, Lcom/resouce/module/ResID;->time_3s_item:I
 
     if-ne v0, v1, :cond_0
 
@@ -73,7 +73,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0b2f95
+    sget v1, Lcom/resouce/module/ResID;->time_5s_item:I
 
     if-ne v0, v1, :cond_1
 
@@ -106,7 +106,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2f91
+    sget v1, Lcom/resouce/module/ResID;->time_10s_item:I
 
     if-ne v0, v1, :cond_2
 
@@ -139,7 +139,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b2f92
+    sget v1, Lcom/resouce/module/ResID;->time_15s_item:I
 
     if-ne v0, v1, :cond_3
 
@@ -172,7 +172,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b2f93
+    sget v1, Lcom/resouce/module/ResID;->time_20s_item:I
 
     if-ne v0, v1, :cond_4
 

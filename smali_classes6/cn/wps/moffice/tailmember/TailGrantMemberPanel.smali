@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230bc
+    sget v1, Lcom/resouce/module/ResSTRING;->thai_member_aes_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0105
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_tail_memeber_share:I
 
     const/4 v2, 0x1
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b53
+    sget v1, Lcom/resouce/module/ResID;->share_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    const v1, 0x7f0b2fd2
+    sget v1, Lcom/resouce/module/ResID;->titleText:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
-    const v1, 0x7f0b285f
+    sget v1, Lcom/resouce/module/ResID;->recyclerView:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/tailmember/TailGrantMemberPanel;->V:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b2b84
+    sget v1, Lcom/resouce/module/ResID;->share_link:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -262,7 +262,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b53
+    sget v0, Lcom/resouce/module/ResID;->share_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121945
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_share_dialog_url_copy_tip:I
 
     const/4 v1, 0x0
 
@@ -551,7 +551,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0804db
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->cyan_blue_btn_selector:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -565,7 +565,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080109
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->bg_tail_member_share_btn:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

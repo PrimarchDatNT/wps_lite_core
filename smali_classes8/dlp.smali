@@ -124,7 +124,7 @@
 
     move-result v1
 
-    const v9, 0x7f1220f0
+    sget v9, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     if-eqz v1, :cond_a
 
@@ -452,7 +452,7 @@
     .line 23
     invoke-static {v8, v7, v0, v3}, Lp2q;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 24
     invoke-static {v6, v3, v5}, Lbih;->n(Landroid/content/Context;II)V
@@ -484,7 +484,7 @@
 
     move-object v6, v15
 
-    const v3, 0x7f1220f0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v5, 0x0
 
@@ -550,7 +550,7 @@
     goto :goto_9
 
     :cond_b
-    const v0, 0x7f12148e
+    sget v0, Lcom/resouce/module/ResSTRING;->note_function_disable:I
 
     .line 33
     invoke-static {v6, v0, v5}, Lbih;->n(Landroid/content/Context;II)V

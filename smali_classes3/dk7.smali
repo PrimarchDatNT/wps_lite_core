@@ -101,7 +101,7 @@
 
     if-ne p2, v0, :cond_0
 
-    const p2, 0x7f121ec7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_share_folder_not_support_add:I
 
     .line 1
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V

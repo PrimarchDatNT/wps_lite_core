@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v8, 0x7f121a2e
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_3d_object_choose_file:I
 
     invoke-virtual {v0, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

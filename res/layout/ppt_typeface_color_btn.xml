@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ppt_typeface_color_item" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center_horizontal" android:id="@id/ppt_typeface_color_item_img" android:focusable="true" android:layout_width="18.0dip" android:layout_height="16.0dip" android:src="@drawable/pad_comp_style_font_color" android:scaleType="centerInside" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_ppt_font_color" pressAlphaEnabled="false" />
-    <cn.wps.moffice.common.beans.phone.ColorView android:layout_gravity="center_horizontal" android:id="@id/ppt_typeface_colorview" android:background="@color/mainTextColor" android:layout_width="15.0dip" android:layout_height="2.0dip" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

@@ -340,7 +340,7 @@
     .line 9
     iget-object v1, v0, Lnpc;->I:Landroid/app/Activity;
 
-    const v2, 0x7f121745
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -375,7 +375,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0646
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_merge_add_files_layout:I
 
     const/4 v2, 0x0
 
@@ -392,7 +392,7 @@
     .line 4
     iget-object v1, p0, Lnpc;->U:Landroid/view/View;
 
-    const v2, 0x7f0b1e79
+    sget v2, Lcom/resouce/module/ResID;->pdf_merge_add_file_title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -409,7 +409,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12082f
+    sget v3, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -459,7 +459,7 @@
     .line 11
     iget-object v0, p0, Lnpc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b186f
+    sget v1, Lcom/resouce/module/ResID;->merge_add_files_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v0, 0x7f0b187e
+    sget v0, Lcom/resouce/module/ResID;->merge_no_file_tips:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
     .line 15
     iget-object v0, p0, Lnpc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
     .line 16
     iget-object v0, p0, Lnpc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b186e
+    sget v1, Lcom/resouce/module/ResID;->merge_add_file_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -568,7 +568,7 @@
     .line 2
     iget-object p1, p0, Lnpc;->I:Landroid/app/Activity;
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -601,7 +601,7 @@
 
     iget-object p1, p0, Lnpc;->I:Landroid/app/Activity;
 
-    const p5, 0x7f123039
+    sget p5, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {p1, p5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -721,7 +721,7 @@
     .line 2
     iget-object v0, p0, Lnpc;->Z:Landroid/widget/Button;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 

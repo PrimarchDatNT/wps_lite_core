@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e030f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_files_item_grid:I
 
     const/4 v2, 0x0
 

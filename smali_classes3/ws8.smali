@@ -379,7 +379,7 @@
     .line 20
     invoke-virtual {v0, p3}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v1, 0x7f1227bd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     .line 21
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -411,7 +411,7 @@
     .line 25
     invoke-virtual {v1, p3}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v3, 0x7f12217e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileradar_file_yesterday:I
 
     .line 26
     invoke-virtual {p2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -445,7 +445,7 @@
     .line 30
     invoke-virtual {v1, p3}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v3, 0x7f12217d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileradar_file_seventoday:I
 
     .line 31
     invoke-virtual {p2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -481,7 +481,7 @@
     .line 35
     invoke-virtual {p1, p3}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const p3, 0x7f12217b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_fileradar_file_early:I
 
     .line 36
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -775,7 +775,7 @@
     .line 21
     invoke-virtual {v2, v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v4, 0x7f1227bd
+    sget v4, Lcom/resouce/module/ResSTRING;->public_readlater_remind_today:I
 
     .line 22
     invoke-virtual {p2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -812,7 +812,7 @@
     .line 26
     invoke-virtual {v4, v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v5, 0x7f12217e
+    sget v5, Lcom/resouce/module/ResSTRING;->public_fileradar_file_yesterday:I
 
     .line 27
     invoke-virtual {p2, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -846,7 +846,7 @@
     .line 31
     invoke-virtual {v4, v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v5, 0x7f12217d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_fileradar_file_seventoday:I
 
     .line 32
     invoke-virtual {p2, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -882,7 +882,7 @@
     .line 36
     invoke-virtual {p3, v0}, Lcn/wps/moffice/main/local/filebrowser/model/FileAttribute;->setTag(Z)V
 
-    const v3, 0x7f12217b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fileradar_file_early:I
 
     .line 37
     invoke-virtual {p2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

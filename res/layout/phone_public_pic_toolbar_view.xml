@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.AlphaRelativeLayout android:orientation="horizontal" android:id="@id/edit_insert_pic" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item_third"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/mIvPicToolBar" android:src="@drawable/comp_multimedia_pic" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
-    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/mTvPicToolBar" android:layout_width="wrap_content" android:text="@string/public_picture" android:layout_toRightOf="@id/mIvPicToolBar" style="@style/v10_phone_public_panel_list_item_text_style" />
-    <View android:id="@id/mVIconToolBarDivider" android:background="@color/lineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="36.0dip" android:layout_alignParentBottom="true" />
-</cn.wps.moffice.common.beans.AlphaRelativeLayout>

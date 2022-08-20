@@ -204,7 +204,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121d3e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

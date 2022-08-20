@@ -71,7 +71,7 @@
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p3, 0x7f122603
+    sget p3, Lcom/resouce/module/ResSTRING;->public_pc_sync_look:I
 
     .line 5
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -82,14 +82,14 @@
 
     move-result-object p3
 
-    const v0, 0x7f12258b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_auto_backup_document_tip:I
 
     .line 6
     invoke-virtual {p3, v0}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p3
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -113,7 +113,7 @@
 
     invoke-direct {v1, p0, p1}, Lme9$a;-><init>(Lme9;Landroid/app/Activity;)V
 
-    const p1, 0x7f122b34
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unable_send_open_text:I
 
     .line 9
     invoke-virtual {p3, p1, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;

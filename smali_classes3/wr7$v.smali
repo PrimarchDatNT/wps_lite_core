@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e68
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -179,7 +179,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e67
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_invalid_argumemts:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -276,7 +276,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p1, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

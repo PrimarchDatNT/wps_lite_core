@@ -170,7 +170,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2d2f
+    sget v1, Lcom/resouce/module/ResID;->ss_padsearcher:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f78
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_quote_search_pad:I
 
     const/4 v2, 0x0
 
@@ -544,7 +544,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2d2f
+    sget v1, Lcom/resouce/module/ResID;->ss_padsearcher:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

@@ -21,7 +21,7 @@
 .method public l0()I
     .locals 1
 
-    const v0, 0x7f0e0aea
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_toolbar_font_biu:I
 
     return v0
 .end method

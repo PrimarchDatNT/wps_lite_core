@@ -1138,7 +1138,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080185
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->color_white:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1368,7 +1368,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0653
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_page_adjust_thumb_item:I
 
     const/4 v0, 0x0
 
@@ -1420,7 +1420,7 @@
     .line 4
     iget-object v0, p0, Lxqc;->S:Landroid/content/Context;
 
-    const v1, 0x7f121862
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_delete_all_tips:I
 
     const/4 v2, 0x0
 

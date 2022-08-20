@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0196
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_process_text:I
 
     const/4 v2, 0x0
 
@@ -87,7 +87,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->S:Landroid/widget/TextView;
 
-    const v3, 0x7f0b0782
+    sget v3, Lcom/resouce/module/ResID;->done:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->T:Landroid/widget/TextView;
 
-    const v3, 0x7f0b1261
+    sget v3, Lcom/resouce/module/ResID;->image:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->U:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0539
+    sget v3, Lcom/resouce/module/ResID;->content:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->V:Landroid/widget/EditText;
 
-    const v4, 0x7f0b2ddd    # 1.8500083E38f
+    sget v4, Lcom/resouce/module/ResID;->success:I    # 1.8500083E38f
 
     .line 11
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->W:Landroid/widget/TextView;
 
-    const v4, 0x7f0b033b
+    sget v4, Lcom/resouce/module/ResID;->cancel:I
 
     .line 12
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->X:Landroid/widget/TextView;
 
-    const v5, 0x7f0b29d3
+    sget v5, Lcom/resouce/module/ResID;->save:I
 
     .line 13
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     invoke-virtual {v3, v5}, Landroid/widget/EditText;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    const v5, 0x7f122515
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     .line 16
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(I)V
@@ -511,7 +511,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122018
+    sget v5, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -547,14 +547,14 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f121ccb
+    sget v1, Lcom/resouce/module/ResSTRING;->process_text_quit:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/processtext/ProcessTextActivity$c;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f122ba9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_view:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 

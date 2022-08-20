@@ -243,7 +243,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070cc7
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_spacing_vertical:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -254,7 +254,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cb3
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_icon_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -429,7 +429,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070cca
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_two_gridview_distance:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -466,7 +466,7 @@
     :cond_0
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc4
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_padding_topbottom:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -479,7 +479,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc7
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_spacing_vertical:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -492,7 +492,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc5
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_spacing_horizonl:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -505,7 +505,7 @@
     .line 8
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc6
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_spacing_horizonl_portrait:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -518,7 +518,7 @@
     .line 9
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc8
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -531,7 +531,7 @@
     .line 10
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f070cc9
+    sget v2, Lcom/resouce/module/ResDIMEN;->ss_quickstyle_pre_fill_gridview_width_portrait:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -563,7 +563,7 @@
     .line 13
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f0705d6
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_pre_fill_gridview_spacing_horizonl:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -576,7 +576,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f0705d7
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_pre_fill_gridview_spacing_horizonl_portrait:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -591,7 +591,7 @@
     .line 15
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f0705d8
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_pre_fill_gridview_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -605,7 +605,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shapestyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f0705d9
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_quickstyle_pre_fill_gridview_width_portrait:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

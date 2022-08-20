@@ -190,16 +190,16 @@
 
     move-result v0
 
-    const v1, 0x7f081328
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081f7d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_writer_mode_tips_bg:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081328
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     :goto_0
     if-eqz p2, :cond_1
@@ -216,7 +216,7 @@
 .method public B(Landroid/view/View;Z)V
     .locals 5
 
-    const v0, 0x7f0b268b
+    sget v0, Lcom/resouce/module/ResID;->public_mode_switch_tips_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,17 +234,17 @@
 
     if-eqz p2, :cond_0
 
-    const v1, 0x7f081183
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_adjust_phone_selected_rom:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081182
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_adjust_phone_rom:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f080298
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen_white:I
 
     .line 3
     :goto_0
@@ -269,7 +269,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -282,7 +282,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b268c
+    sget v0, Lcom/resouce/module/ResID;->public_mode_switch_tips_text:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -293,12 +293,12 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f122057
+    sget p2, Lcom/resouce/module/ResSTRING;->public_enter_phonemode:I
 
     goto :goto_1
 
     :cond_2
-    const p2, 0x7f122089
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit_phonemode:I
 
     :goto_1
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -355,7 +355,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1218d7
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_school:I
 
     return v0
 .end method
@@ -440,7 +440,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1f38
+    sget v0, Lcom/resouce/module/ResID;->pdf_switch_nightmode:I
 
     if-ne p1, v0, :cond_0
 
@@ -450,7 +450,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1e0f
+    sget v0, Lcom/resouce/module/ResID;->pdf_fit_mobile_view:I
 
     if-ne p1, v0, :cond_1
 
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e8a
+    sget v1, Lcom/resouce/module/ResSTRING;->school_tools_hit:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -500,7 +500,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e89
+    sget v1, Lcom/resouce/module/ResSTRING;->school_tools_app:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -513,7 +513,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120cf6
+    sget v1, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e8b
+    sget v1, Lcom/resouce/module/ResSTRING;->school_tools_suggestions:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
     :goto_0
     iget-object v1, p0, Lotc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1f39
+    sget v2, Lcom/resouce/module/ResID;->pdf_switch_nightmode_divider:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -647,7 +647,7 @@
     .line 3
     iget-object v1, p0, Lotc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1f3a
+    sget v2, Lcom/resouce/module/ResID;->pdf_switch_nightmode_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -668,7 +668,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07d5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_school_tool_layout:I
 
     const/4 v2, 0x0
 
@@ -678,7 +678,7 @@
 
     iput-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e0f
+    sget v1, Lcom/resouce/module/ResID;->pdf_fit_mobile_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
     .line 3
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1f38
+    sget v1, Lcom/resouce/module/ResID;->pdf_switch_nightmode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -705,7 +705,7 @@
     .line 4
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d5b
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_super_note:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -716,7 +716,7 @@
     .line 5
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d58
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_pen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -727,7 +727,7 @@
     .line 6
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d51
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_add_text_comment:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -738,7 +738,7 @@
     .line 7
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d53
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_export_focus:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -749,7 +749,7 @@
     .line 8
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d55
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_extract_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -760,7 +760,7 @@
     .line 9
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e7b
+    sget v1, Lcom/resouce/module/ResID;->pdf_new_feature_suggestions:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -771,7 +771,7 @@
     .line 10
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d5c
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_super_note_divideline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 11
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d59
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_pen_divideline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -793,7 +793,7 @@
     .line 12
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d52
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_add_text_divideline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -804,7 +804,7 @@
     .line 13
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d54
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_export_focus_divideline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -815,7 +815,7 @@
     .line 14
     iget-object v0, p0, Lotc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d56
+    sget v1, Lcom/resouce/module/ResID;->pdf_annotation_extract_text_divideline:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -940,7 +940,7 @@
     :goto_0
     iget-object v0, p0, Lotc;->g0:Lfj3;
 
-    const v1, 0x7f070d54
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     if-nez v0, :cond_1
 
@@ -960,7 +960,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e103d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_public_mode_switch_tips:I
 
     const/4 v3, 0x0
 

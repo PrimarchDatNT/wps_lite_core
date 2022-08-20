@@ -34,7 +34,7 @@
 
     move-result v1
 
-    const v2, 0x7f121b89
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_note:I
 
     invoke-direct {v0, p0, v1, v2}, Lyxd$b;-><init>(Lyxd;II)V
 
@@ -86,12 +86,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08038d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_remark:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d7a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_remark_ppt:I
 
     :goto_0
     return v0

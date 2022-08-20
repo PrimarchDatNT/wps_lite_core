@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a79
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ppt_fontsize_dialog:I
 
     const/4 v3, 0x0
 
@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b22c9
+    sget v2, Lcom/resouce/module/ResID;->ppt_fontsize_scroll:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b22c6
+    sget v2, Lcom/resouce/module/ResID;->ppt_fontsize_edit:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b22c8
+    sget v2, Lcom/resouce/module/ResID;->ppt_fontsize_list:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

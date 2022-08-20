@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01b2
+    sget v1, Lcom/resouce/module/ResID;->back:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0285
+    sget v1, Lcom/resouce/module/ResID;->bottombar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -290,7 +290,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b043f
+    sget v1, Lcom/resouce/module/ResID;->close:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -325,7 +325,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0e78
+    sget v1, Lcom/resouce/module/ResID;->format:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -374,7 +374,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19ff
+    sget v1, Lcom/resouce/module/ResID;->new_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -455,12 +455,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e05d0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_upload_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e08fd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_upload_dialog:I
 
     :goto_0
     const/4 v2, 0x0
@@ -524,7 +524,7 @@
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0b29ee
+    sget v1, Lcom/resouce/module/ResID;->save_title_head:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -566,7 +566,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b05fb
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -627,7 +627,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3311
+    sget v1, Lcom/resouce/module/ResID;->upload:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

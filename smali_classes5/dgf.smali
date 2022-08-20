@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02d1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_guide_more_menu_layout:I
 
     const/4 v2, 0x0
 
@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c94
+    sget v1, Lcom/resouce/module/ResID;->feedback_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f1220ed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_title:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -71,7 +71,7 @@
     :cond_0
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b033f
+    sget v1, Lcom/resouce/module/ResID;->cancel_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,12 +129,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1220d1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_feedback_hint:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120cf8
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     .line 2
     :goto_0
@@ -147,7 +147,7 @@
     .line 3
     iget-object v1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f1220cf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -156,7 +156,7 @@
     .line 4
     iget-object v2, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f120cf6
+    sget v3, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -165,7 +165,7 @@
     .line 5
     iget-object v3, p0, Lagf;->B:Landroid/app/Activity;
 
-    const v4, 0x7f1220e2
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -233,7 +233,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0c94
+    sget v1, Lcom/resouce/module/ResID;->feedback_btn:I
 
     if-ne v0, v1, :cond_4
 
@@ -325,7 +325,7 @@
     :cond_2
     iget-object v0, p0, Lagf;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122eda
+    sget v1, Lcom/resouce/module/ResSTRING;->service_center_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -352,7 +352,7 @@
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f0b033f
+    sget p1, Lcom/resouce/module/ResID;->cancel_btn:I
 
     if-ne v0, p1, :cond_5
 

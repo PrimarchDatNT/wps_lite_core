@@ -61,11 +61,11 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e09a8
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_ss_toolbar_toggle_item_view:I
 
     invoke-virtual {p1, p3, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2d75
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_icon:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2d77
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_title:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2752
+    sget p1, Lcom/resouce/module/ResID;->public_togglebutton:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -384,7 +384,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

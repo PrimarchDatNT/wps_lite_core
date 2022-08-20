@@ -261,7 +261,7 @@
     .line 2
     iget-object p2, p0, Leyl;->U:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a2c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_txt_encoding_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     :cond_0
     iget-object p2, p0, Leyl;->U:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e1119
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_txt_encoding_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -287,7 +287,7 @@
 
     invoke-direct {p3, p0, v1}, Leyl$b;-><init>(Leyl;Leyl$a;)V
 
-    const v1, 0x7f0b32c2
+    sget v1, Lcom/resouce/module/ResID;->txt_encoding_title:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     iput-object v1, p3, Leyl$b;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b32c1
+    sget v1, Lcom/resouce/module/ResID;->txt_encoding_content:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     iput-object v1, p3, Leyl$b;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b32c0
+    sget v1, Lcom/resouce/module/ResID;->txt_encoding_checked:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_3
 
@@ -409,7 +409,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I

@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    const v0, 0x7f0b355f
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_viewgroup:I
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
@@ -23,7 +23,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b3544
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_readBtn:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b350d
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_fitpads:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121981
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_fit_screen:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -97,7 +97,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b3544
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_readBtn:I
 
     .line 2
     new-instance v1, Lxtk;
@@ -109,7 +109,7 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f0b350d
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_fitpads:I
 
     .line 3
     new-instance v1, Llsk;
@@ -120,7 +120,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34f3
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_autoWrapBtn:I
 
     .line 4
     new-instance v1, Lwtk;
@@ -131,7 +131,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3545
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_readSetBtn:I
 
     .line 5
     new-instance v1, Lk8l;
@@ -142,7 +142,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34f5
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_bookmark_manage:I
 
     .line 6
     new-instance v1, Lkrk;
@@ -155,7 +155,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3556
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_tableOfContentsBtn:I
 
     .line 7
     new-instance v1, Lgwl;
@@ -166,7 +166,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b355c
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_thumbnailBtn:I
 
     .line 8
     new-instance v1, Lmwl;
@@ -177,7 +177,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3539
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_jumpToPages:I
 
     .line 9
     new-instance v1, Lyal;
@@ -188,7 +188,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34f8
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_countWordsBtn:I
 
     .line 10
     new-instance v1, Lyyk;
@@ -199,7 +199,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3548
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_searchBtn:I
 
     .line 11
     new-instance v1, Lkvk;
@@ -210,7 +210,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b350a
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_fanyi:I
 
     .line 12
     new-instance v1, Lesk;

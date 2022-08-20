@@ -277,7 +277,7 @@
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    const v1, 0x7f121fd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_devices_manager:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -383,7 +383,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081a62
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_online_device_settings:I
 
     new-instance v1, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$b;
 

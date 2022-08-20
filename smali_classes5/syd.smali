@@ -221,12 +221,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08044d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_frame:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080e6b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_xls_ppt:I
 
     :goto_0
     return v0
@@ -246,7 +246,7 @@
 
     iget-object v5, p0, Lsyd;->V:[Z
 
-    const v3, 0x7f122a48
+    sget v3, Lcom/resouce/module/ResSTRING;->public_table:I
 
     move-object v0, v6
 
@@ -267,7 +267,7 @@
 
     move-result v1
 
-    const v2, 0x7f122a48
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table:I
 
     invoke-direct {v0, p0, v1, v2}, Lsyd$c;-><init>(Lsyd;II)V
 

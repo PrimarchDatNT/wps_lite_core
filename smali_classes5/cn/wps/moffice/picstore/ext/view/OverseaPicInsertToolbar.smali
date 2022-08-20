@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08b4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_pic_toolbar_view:I
 
     const/4 v2, 0x0
 
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/picstore/ext/view/OverseaPicInsertToolbar;->mItemView:Landroid/view/View;
 
-    const v0, 0x7f0b17ca
+    sget v0, Lcom/resouce/module/ResID;->mTvPicToolBar:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/picstore/ext/view/OverseaPicInsertToolbar;->mItemView:Landroid/view/View;
 
-    const v0, 0x7f0b17a8
+    sget v0, Lcom/resouce/module/ResID;->mIvPicToolBar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -143,7 +143,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/picstore/ext/view/OverseaPicInsertToolbar;->mItemView:Landroid/view/View;
 
-    const v0, 0x7f0b17da
+    sget v0, Lcom/resouce/module/ResID;->mVIconToolBarDivider:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -267,7 +267,7 @@
 
     invoke-interface {p2, p3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    const p2, 0x7f12056c
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     const/4 p3, 0x0
 

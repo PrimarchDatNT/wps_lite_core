@@ -164,7 +164,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0b32d4
+    sget v0, Lcom/resouce/module/ResID;->txt_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b2dee
+    sget v1, Lcom/resouce/module/ResID;->super_script_view:I
 
     .line 2
     invoke-virtual {p1, v1}, Lpke;->Q(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e08f3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_textboc_style_font_item:I
 
     const/4 v1, 0x0
 
@@ -450,7 +450,7 @@
 .method public final l0(Lpke;Lrke$a;)V
     .locals 1
 
-    const v0, 0x7f0b32d4
+    sget v0, Lcom/resouce/module/ResID;->txt_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;
@@ -480,7 +480,7 @@
 .method public final m0(Landroid/widget/ProgressBar;Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;)V
     .locals 2
 
-    const v0, 0x7f0b2e6e
+    sget v0, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->getTag(I)Ljava/lang/Object;
@@ -525,7 +525,7 @@
 .method public final n0(Landroid/widget/ProgressBar;Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;)V
     .locals 2
 
-    const v0, 0x7f0b2e6e
+    sget v0, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->getTag(I)Ljava/lang/Object;
@@ -566,7 +566,7 @@
 .method public final o0(Landroid/widget/ProgressBar;Lcn/wps/moffice/docer/store/view/DocerSuperscriptView;I)V
     .locals 4
 
-    const v0, 0x7f0b2e6e
+    sget v0, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/ProgressBar;->getTag(I)Ljava/lang/Object;
@@ -644,7 +644,7 @@
 .method public final p0(Lpke;Lrke$a;)V
     .locals 4
 
-    const v0, 0x7f0b2539
+    sget v0, Lcom/resouce/module/ResID;->progress_bar_download:I
 
     .line 1
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;
@@ -653,7 +653,7 @@
 
     check-cast v0, Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0b2dee
+    sget v1, Lcom/resouce/module/ResID;->super_script_view:I
 
     .line 2
     invoke-virtual {p1, v1}, Lpke;->Q(I)Landroid/view/View;
@@ -684,7 +684,7 @@
     return-void
 
     :cond_1
-    const p2, 0x7f0b2e6e
+    sget p2, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 5
     invoke-virtual {v0, p2}, Landroid/widget/ProgressBar;->getTag(I)Ljava/lang/Object;
@@ -774,7 +774,7 @@
 .method public final r0(Lpke;Lrke$a;)V
     .locals 6
 
-    const v0, 0x7f0b2539
+    sget v0, Lcom/resouce/module/ResID;->progress_bar_download:I
 
     .line 1
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;
@@ -783,7 +783,7 @@
 
     check-cast v0, Landroid/widget/ProgressBar;
 
-    const v1, 0x7f0b2dee
+    sget v1, Lcom/resouce/module/ResID;->super_script_view:I
 
     .line 2
     invoke-virtual {p1, v1}, Lpke;->Q(I)Landroid/view/View;
@@ -990,7 +990,7 @@
 
     move-result p2
 
-    const v0, 0x7f0b32d4
+    sget v0, Lcom/resouce/module/ResID;->txt_title:I
 
     .line 2
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;

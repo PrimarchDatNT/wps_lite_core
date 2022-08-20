@@ -444,7 +444,7 @@
     .line 5
     iget-object p1, p0, Lze7;->a:Lxe7;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -480,7 +480,7 @@
     :cond_4
     iget-object p1, p0, Lze7;->a:Lxe7;
 
-    const v0, 0x7f1224e4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_fail_list_upgrade_btn:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -635,7 +635,7 @@
     .line 6
     iget-object v1, p0, Lze7;->a:Lxe7;
 
-    const v2, 0x7f1224e1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_multi_upload_fail_list_upgrade_pt:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -651,7 +651,7 @@
     :cond_2
     iget-object v2, p0, Lze7;->a:Lxe7;
 
-    const v5, 0x7f1224e2
+    sget v5, Lcom/resouce/module/ResSTRING;->public_multi_upload_fail_list_upgrade_silver:I
 
     const/4 v6, 0x2
 
@@ -1033,7 +1033,7 @@
     .line 3
     iget-object p1, p0, Lze7;->a:Lxe7;
 
-    const v0, 0x7f1224e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_re_upload_fail_no_exist:I
 
     const/4 v1, 0x0
 

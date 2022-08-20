@@ -1095,7 +1095,7 @@
 
     iget-object p1, p1, Lqza;->c:Landroid/app/Activity;
 
-    const v1, 0x7f120433
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_identifying_txt:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1174,7 +1174,7 @@
 
     iget-object v1, v1, Lqza;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1203f1
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_process_num_text:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

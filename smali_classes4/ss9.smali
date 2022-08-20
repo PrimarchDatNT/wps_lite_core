@@ -188,7 +188,7 @@
     goto :goto_0
 
     :cond_3
-    const p0, 0x7f12226d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_home_app_openplatform:I
 
     if-eqz v4, :cond_7
 

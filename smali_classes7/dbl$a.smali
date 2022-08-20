@@ -86,7 +86,7 @@
     .line 9
     new-instance p1, Lyyl;
 
-    const v0, 0x7f0b0281
+    sget v0, Lcom/resouce/module/ResID;->bottom_tool_item:I
 
     invoke-direct {p1, v0}, Lyyl;-><init>(I)V
 

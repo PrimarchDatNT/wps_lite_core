@@ -35,9 +35,9 @@
     .line 3
     new-instance v0, Losd$a;
 
-    const v1, 0x7f080c4b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_hardware_cutting:I
 
-    const v2, 0x7f12058c
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_crop:I
 
     invoke-direct {v0, p0, v1, v2}, Losd$a;-><init>(Losd;II)V
 
@@ -46,9 +46,9 @@
     .line 4
     new-instance v0, Losd$b;
 
-    const v1, 0x7f080d75
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_pic_extract_ppt:I
 
-    const v2, 0x7f1215b1
+    sget v2, Lcom/resouce/module/ResSTRING;->pad_ppt_image_ai_corp:I
 
     invoke-direct {v0, p0, v1, v2}, Losd$b;-><init>(Losd;II)V
 

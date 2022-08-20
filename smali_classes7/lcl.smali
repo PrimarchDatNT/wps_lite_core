@@ -47,7 +47,7 @@
 
     invoke-direct {v0, v1}, Lmtk;-><init>(Lgtk;)V
 
-    const v2, 0x7f0b07b7
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_rotate:I
 
     const-string v3, "object-edit-rotate"
 
@@ -58,7 +58,7 @@
 
     invoke-direct {v0, v1}, Lbtk;-><init>(Lgtk;)V
 
-    const v1, 0x7f0b07b0
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_delete:I
 
     const-string v2, "object-edit-delete"
 
@@ -69,7 +69,7 @@
 
     invoke-direct {v0}, Lysk;-><init>()V
 
-    const v1, 0x7f0b07ab
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_add_text:I
 
     const-string v2, "object-draw-addtext"
 
@@ -85,7 +85,7 @@
 
     invoke-direct {v1}, Llgl;-><init>()V
 
-    const v2, 0x7f0b07be
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_wrap_embedded:I
 
     const-string v3, "wrap-style-inline"
 
@@ -96,7 +96,7 @@
 
     invoke-direct {v1}, Lngl;-><init>()V
 
-    const v2, 0x7f0b07c1
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_wrap_up_down:I
 
     const-string v3, "wrap-style-topbottom"
 
@@ -107,7 +107,7 @@
 
     invoke-direct {v1}, Lmgl;-><init>()V
 
-    const v2, 0x7f0b07bf
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_wrap_surround:I
 
     const-string v3, "wrap-style-square"
 
@@ -118,7 +118,7 @@
 
     invoke-direct {v1}, Lkgl;-><init>()V
 
-    const v2, 0x7f0b07bd
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_wrap_above_character:I
 
     const-string v3, "wrap-style-topoftext"
 
@@ -129,7 +129,7 @@
 
     invoke-direct {v1}, Ljgl;-><init>()V
 
-    const v2, 0x7f0b07c0
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_wrap_under_character:I
 
     const-string v3, "wrap-style-bottomoftext"
 
@@ -142,7 +142,7 @@
 
     invoke-direct {v1, v2, v2}, Lrcl;-><init>(IZ)V
 
-    const v3, 0x7f0b07ae
+    sget v3, Lcom/resouce/module/ResID;->draw_shape_border_line_solid:I
 
     const-string v4, "line-solid"
 
@@ -155,7 +155,7 @@
 
     invoke-direct {v1, v3, v2}, Lrcl;-><init>(IZ)V
 
-    const v3, 0x7f0b07ac
+    sget v3, Lcom/resouce/module/ResID;->draw_shape_border_line_dotted:I
 
     const-string v4, "line-dotted"
 
@@ -168,7 +168,7 @@
 
     invoke-direct {v1, v3, v2}, Lrcl;-><init>(IZ)V
 
-    const v3, 0x7f0b07af
+    sget v3, Lcom/resouce/module/ResID;->draw_shape_border_line_thin_dotted:I
 
     const-string v4, "line-thin-sys"
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v1, v2, v2}, Lqcl;-><init>(ZZ)V
 
-    const v2, 0x7f0b07ad
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_border_line_none:I
 
     const-string v3, "line-none"
 
@@ -188,7 +188,7 @@
     .line 14
     new-instance v1, Locl;
 
-    const v2, 0x7f0606a0
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_highlight_color_5:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -196,7 +196,7 @@
 
     invoke-direct {v1, v2}, Locl;-><init>(I)V
 
-    const v2, 0x7f0b07b5
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_frame_red:I
 
     const-string v3, "line-color-yellow"
 
@@ -205,7 +205,7 @@
     .line 15
     new-instance v1, Locl;
 
-    const v2, 0x7f06068a
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_2:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -213,7 +213,7 @@
 
     invoke-direct {v1, v2}, Locl;-><init>(I)V
 
-    const v2, 0x7f0b07b3
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_frame_orange:I
 
     const-string v3, "line-color-red"
 
@@ -222,7 +222,7 @@
     .line 16
     new-instance v1, Locl;
 
-    const v2, 0x7f06069c
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_highlight_color_1:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -230,7 +230,7 @@
 
     invoke-direct {v1, v2}, Locl;-><init>(I)V
 
-    const v2, 0x7f0b07b6
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_frame_yellow:I
 
     const-string v3, "line-color-light-yellow"
 
@@ -239,7 +239,7 @@
     .line 17
     new-instance v1, Locl;
 
-    const v2, 0x7f060697
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_green:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -247,7 +247,7 @@
 
     invoke-direct {v1, v2}, Locl;-><init>(I)V
 
-    const v2, 0x7f0b07b4
+    sget v2, Lcom/resouce/module/ResID;->draw_shape_frame_pink:I
 
     const-string v3, "line-color-green"
 
@@ -256,7 +256,7 @@
     .line 18
     new-instance v1, Locl;
 
-    const v2, 0x7f060690
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_blue:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -264,7 +264,7 @@
 
     invoke-direct {v1, v0}, Locl;-><init>(I)V
 
-    const v0, 0x7f0b07b1
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_frame_blue:I
 
     const-string v2, "line-color-blue"
 
@@ -277,7 +277,7 @@
 
     invoke-direct {v0, v1}, Lpcl;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b07b2
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_frame_more:I
 
     const-string v2, "line-color-more"
 
@@ -290,7 +290,7 @@
 
     invoke-direct {v0, v1}, Lscl;-><init>(F)V
 
-    const v1, 0x7f0b07ba
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_thickness_size_s:I
 
     const-string v2, "line-size-s"
 
@@ -303,7 +303,7 @@
 
     invoke-direct {v0, v1}, Lscl;-><init>(F)V
 
-    const v1, 0x7f0b07b9
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_thickness_size_m:I
 
     const-string v2, "line-size-m"
 
@@ -316,7 +316,7 @@
 
     invoke-direct {v0, v1}, Lscl;-><init>(F)V
 
-    const v1, 0x7f0b07b8
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_thickness_size_l:I
 
     const-string v2, "line-size-l"
 
@@ -329,7 +329,7 @@
 
     invoke-direct {v0, v1}, Lscl;-><init>(F)V
 
-    const v1, 0x7f0b07bb
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_thickness_size_xl:I
 
     const-string v2, "line-size-xl"
 
@@ -342,7 +342,7 @@
 
     invoke-direct {v0, v1}, Lscl;-><init>(F)V
 
-    const v1, 0x7f0b07bc
+    sget v1, Lcom/resouce/module/ResID;->draw_shape_thickness_size_xll:I
 
     const-string v2, "line-size-xll"
 
@@ -357,7 +357,7 @@
     .line 1
     invoke-super {p0}, Lvzl;->E1()V
 
-    const v0, 0x7f0b07ba
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_thickness_size_s:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -384,7 +384,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f12326c
+    sget v5, Lcom/resouce/module/ResSTRING;->write_frame_size_text_lb:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -402,7 +402,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b07b9
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_thickness_size_m:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b07b8
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_thickness_size_l:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -472,7 +472,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b07bb
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_thickness_size_xl:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -507,7 +507,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b07bc
+    sget v0, Lcom/resouce/module/ResID;->draw_shape_thickness_size_xll:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -636,7 +636,7 @@
 
     :cond_3
     :goto_1
-    const v1, 0x7f0b1657
+    sget v1, Lcom/resouce/module/ResID;->ll_draw_tool_frame_style:I
 
     .line 11
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -706,7 +706,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f123266
+    sget v0, Lcom/resouce/module/ResSTRING;->write_frame_draw_tool_title_text:I
 
     return v0
 .end method
@@ -754,7 +754,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e0ec5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_draw_tool_layout:I
 
     .line 2
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

@@ -144,11 +144,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e84
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_template_preview_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b24ff
+    sget v0, Lcom/resouce/module/ResID;->preview_image_view_pager:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/docer/preview/TemplateFloatPreviewPager;->I:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v0, 0x7f0b05b4
+    sget v0, Lcom/resouce/module/ResID;->cover_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/docer/preview/TemplateFloatPreviewPager;->U:Landroid/view/View;
 
-    const v0, 0x7f0b2501
+    sget v0, Lcom/resouce/module/ResID;->preview_image_view_pager_indicator:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

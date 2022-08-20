@@ -60,7 +60,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f122552
+    sget p2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

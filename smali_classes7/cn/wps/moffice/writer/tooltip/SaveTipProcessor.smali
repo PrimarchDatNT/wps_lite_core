@@ -238,7 +238,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v2, 0x7f122a0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_spread_immediately_lookup:I
 
     .line 10
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -461,7 +461,7 @@
     :goto_1
     packed-switch v0, :pswitch_data_0
 
-    const p2, 0x7f1220b6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_success_top_tips:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -474,7 +474,7 @@
     :pswitch_0
     iput-boolean v2, p0, Lcn/wps/moffice/writer/tooltip/SaveTipProcessor;->d:Z
 
-    const p2, 0x7f1220c6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_extract_table_savesucess_tip:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -484,7 +484,7 @@
     goto :goto_2
 
     :pswitch_1
-    const p2, 0x7f1220a0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pdf_success_top_tips:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -494,7 +494,7 @@
     goto :goto_2
 
     :pswitch_2
-    const p2, 0x7f1220aa
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pic_file_success:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

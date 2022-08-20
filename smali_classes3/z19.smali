@@ -509,7 +509,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120690
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
@@ -520,7 +520,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081561
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_loading:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 

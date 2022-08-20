@@ -417,7 +417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0394
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_header_tips:I
 
     iget-object v2, p0, Les8;->a:Landroid/widget/FrameLayout;
 
@@ -429,7 +429,7 @@
 
     iput-object v0, p0, Les8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2058
+    sget v1, Lcom/resouce/module/ResID;->phone_message_close_button:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
     .line 6
     iget-object v0, p0, Les8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205d
+    sget v1, Lcom/resouce/module/ResID;->phone_message_update_now_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
     .line 7
     iget-object v0, p0, Les8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205a
+    sget v1, Lcom/resouce/module/ResID;->phone_message_msg_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -489,7 +489,7 @@
     .line 8
     iget-object v0, p0, Les8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205c
+    sget v1, Lcom/resouce/module/ResID;->phone_message_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
     .line 9
     iget-object v0, p0, Les8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0273
+    sget v1, Lcom/resouce/module/ResID;->bottom_separator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -716,7 +716,7 @@
     .line 2
     iget-object v0, p0, Les8;->g:Landroid/app/Activity;
 
-    const v2, 0x7f120f14
+    sget v2, Lcom/resouce/module/ResSTRING;->home_fileradar_tips_space_usage:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -756,7 +756,7 @@
     .line 6
     iget-object v0, p0, Les8;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -842,7 +842,7 @@
     .line 4
     iget-object p1, p0, Les8;->g:Landroid/app/Activity;
 
-    const v1, 0x7f12217f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileradar_space_not_enough_msg:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -874,7 +874,7 @@
     .line 8
     iget-object v2, p0, Les8;->g:Landroid/app/Activity;
 
-    const v5, 0x7f120f15
+    sget v5, Lcom/resouce/module/ResSTRING;->home_fileradar_x_file_out_of_limit:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -923,7 +923,7 @@
     .line 12
     iget-object p1, p0, Les8;->g:Landroid/app/Activity;
 
-    const v1, 0x7f12112b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_roaming_tips_no_space_left:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -953,7 +953,7 @@
     .line 15
     iget-object v4, p0, Les8;->d:Landroid/widget/TextView;
 
-    const v5, 0x7f1211bc
+    sget v5, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 

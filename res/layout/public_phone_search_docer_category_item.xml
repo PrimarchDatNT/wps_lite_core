@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/iv_categoty_search" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="centerInside" />
-    <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/tv_categoty_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

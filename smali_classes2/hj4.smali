@@ -35,7 +35,7 @@
     .line 2
     iput-object p1, p0, Lhj4;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b2bdd
+    sget v0, Lcom/resouce/module/ResID;->sheet_extract_sheet_thumb_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Lhj4;->n0:Lcn/wps/moffice/common/merge/ui/mergesheet/SheetThumbnailItem;
 
-    const v0, 0x7f0b0c51
+    sget v0, Lcom/resouce/module/ResID;->extract_sheet_thumb_preview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lhj4;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2bde
+    sget v0, Lcom/resouce/module/ResID;->sheet_extract_thumb_check_box:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
     .line 4
     iget-object p1, p0, Lhj4;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f081fca
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->word_extract_default_loading_img:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

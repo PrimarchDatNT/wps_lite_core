@@ -63,7 +63,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123204
+    sget v2, Lcom/resouce/module/ResSTRING;->wps_gp_download_link_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -75,7 +75,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c15
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_comp_download_guide_tip:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1231fe
+    sget v2, Lcom/resouce/module/ResSTRING;->wps_fb_group_link_url:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f1223c4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_join_wps_community:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231fe
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_fb_group_link_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

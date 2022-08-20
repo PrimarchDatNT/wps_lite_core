@@ -18,7 +18,7 @@
 .method public constructor <init>(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0e0b87
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cooperate_invite_section_layout:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lax4$b;-><init>(Landroid/view/ViewGroup;I)V

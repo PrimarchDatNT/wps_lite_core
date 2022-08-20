@@ -225,7 +225,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122195
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_jump_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -836,7 +836,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19f6
+    sget v1, Lcom/resouce/module/ResID;->new_folder_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -121,7 +121,7 @@
 
     if-eqz v1, :cond_0
 
-    const p0, 0x7f122bdc
+    sget p0, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 p2, 0x0
 
@@ -315,7 +315,7 @@
     return-object p0
 
     :cond_3
-    const p0, 0x7f120ede
+    sget p0, Lcom/resouce/module/ResSTRING;->home_current_folder:I
 
     .line 11
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -342,14 +342,14 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f12110e
+    sget v2, Lcom/resouce/module/ResSTRING;->home_rename_has_openning_file:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -365,7 +365,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121e1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -384,7 +384,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -188,17 +188,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f080711
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_free:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080712
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_privilege:I
 
     :goto_1
-    const v2, 0x7f121c87
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v3, 0x7f12268d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v4, 0x2
 

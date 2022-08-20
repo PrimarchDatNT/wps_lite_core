@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212e8
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -115,7 +115,7 @@
     return-object p0
 
     :cond_0
-    const v1, 0x7f1212e5
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -133,7 +133,7 @@
     return-object p0
 
     :cond_1
-    const v1, 0x7f121fd3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -151,7 +151,7 @@
     return-object p0
 
     :cond_2
-    const v1, 0x7f1212e6
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -169,7 +169,7 @@
     return-object p0
 
     :cond_3
-    const v1, 0x7f1212e4
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_share_mail:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

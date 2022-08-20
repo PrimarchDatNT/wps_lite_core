@@ -73,7 +73,7 @@
 
     iget-object v1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f122bfe
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wechat_sharefolder_title_error:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v0, 0x0
 
@@ -150,7 +150,7 @@
     .line 3
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f120363
+    sget v2, Lcom/resouce/module/ResSTRING;->deeplink_home_recent_share:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

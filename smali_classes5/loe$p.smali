@@ -49,7 +49,7 @@
 
     iget-object v0, v0, Lmoe;->W:Landroid/content/Context;
 
-    const v1, 0x7f121b8d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_note_hidden_toast:I
 
     const/4 v2, 0x0
 

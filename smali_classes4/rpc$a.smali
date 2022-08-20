@@ -40,7 +40,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_1
 
@@ -75,7 +75,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b08a3
+    sget v0, Lcom/resouce/module/ResID;->enter_delete_mode_btn:I
 
     if-ne p1, v0, :cond_2
 
@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne p1, v0, :cond_3
 
@@ -101,7 +101,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0646
+    sget v0, Lcom/resouce/module/ResID;->delete_confirm_btn:I
 
     if-ne p1, v0, :cond_4
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     if-ne p1, v0, :cond_5
 
@@ -125,7 +125,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b1870
+    sget v0, Lcom/resouce/module/ResID;->merge_btn:I
 
     if-ne p1, v0, :cond_6
 

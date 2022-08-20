@@ -195,7 +195,7 @@
     .line 16
     iput-boolean p2, p0, Lz0g;->J0:Z
 
-    const p2, 0x7f120882
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_by_fontcolor:I
 
     .line 17
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -204,7 +204,7 @@
 
     iput-object p2, p0, Lz0g;->F0:Ljava/lang/String;
 
-    const p2, 0x7f120880
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_by_bgcolor:I
 
     .line 18
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -218,7 +218,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06060c
+    sget v0, Lcom/resouce/module/ResCOLOR;->ss_filter_color_layout:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -980,7 +980,7 @@
 .method public final P3()V
     .locals 3
 
-    const v0, 0x7f0b08d1
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition1:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -991,7 +991,7 @@
 
     iput-object v0, p0, Lz0g;->T:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v0, 0x7f0b08d3
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition1_value:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1002,7 +1002,7 @@
 
     iput-object v0, p0, Lz0g;->U:Lcn/wps/moffice/common/beans/EditTextDropDown;
 
-    const v0, 0x7f0b08d4
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition2:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1013,7 +1013,7 @@
 
     iput-object v0, p0, Lz0g;->V:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v0, 0x7f0b08d6
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_condition2_value:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1035,7 +1035,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f030005
+    sget v2, Lcom/resouce/module/ResARRAY;->et_autofilter_custom_conditions:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1149,7 +1149,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030005
+    sget v1, Lcom/resouce/module/ResARRAY;->et_autofilter_custom_conditions:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1405,12 +1405,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e01af
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_autofilter_dropdown_hint:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e068c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_autofilter_dropdown_hint:I
 
     .line 3
     :goto_0
@@ -1473,12 +1473,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e01af
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_autofilter_dropdown_hint:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e068c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_autofilter_dropdown_hint:I
 
     .line 3
     :goto_0
@@ -1548,7 +1548,7 @@
 
     invoke-virtual {v0, p0}, Lz0g$o;->d(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b08e8
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_titleBar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1566,7 +1566,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12088b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_custom:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1574,7 +1574,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(Ljava/lang/String;)V
 
-    const v0, 0x7f0b08db
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_toggle_button:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1590,7 +1590,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12087e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_and:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1605,7 +1605,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120899
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_or:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1613,7 +1613,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/filter/bean/ToggleButton;->setRightText(Ljava/lang/String;)V
 
-    const v0, 0x7f0b08dc
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_top10:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1624,7 +1624,7 @@
 
     iput-object v0, p0, Lz0g;->f0:Landroid/widget/Button;
 
-    const v0, 0x7f0b08cc
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_average_higher:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1635,7 +1635,7 @@
 
     iput-object v0, p0, Lz0g;->g0:Landroid/widget/Button;
 
-    const v0, 0x7f0b08cd
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_average_lower:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1646,7 +1646,7 @@
 
     iput-object v0, p0, Lz0g;->h0:Landroid/widget/Button;
 
-    const v0, 0x7f0b08ce
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_bgcolor:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1657,7 +1657,7 @@
 
     iput-object v0, p0, Lz0g;->o0:Landroid/widget/Button;
 
-    const v0, 0x7f0b08da
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_fontcolor:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1706,7 +1706,7 @@
     .line 19
     iget-object v0, p0, Lz0g;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b0a49
+    sget v1, Lcom/resouce/module/ResID;->et_filter_color_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1727,7 +1727,7 @@
 
     iput-object v0, p0, Lz0g;->e0:Landroid/widget/GridView;
 
-    const v0, 0x7f0b08d0
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_custom_color_spinner:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1738,7 +1738,7 @@
 
     iput-object v0, p0, Lz0g;->t0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v0, 0x7f0b08e1
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_conditions_parent:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1749,7 +1749,7 @@
 
     iput-object v0, p0, Lz0g;->m0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08dd
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_bgcolor:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1760,7 +1760,7 @@
 
     iput-object v0, p0, Lz0g;->k0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08e3
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_fontcolor:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1783,7 +1783,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setFocusable(Z)V
 
-    const v0, 0x7f0b08de
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_bgcolor_layout:I
 
     .line 27
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1794,7 +1794,7 @@
 
     iput-object v0, p0, Lz0g;->i0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08e4
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_fontcolor_layout:I
 
     .line 28
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1805,7 +1805,7 @@
 
     iput-object v0, p0, Lz0g;->j0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b08e2
+    sget v0, Lcom/resouce/module/ResID;->et_autofilter_dialog_conditions_replace:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1825,7 +1825,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120885
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_choose_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2020,7 +2020,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120731
+    sget v0, Lcom/resouce/module/ResSTRING;->et_autofilter_custom_condition_err:I
 
     const/4 v1, 0x0
 
@@ -2324,7 +2324,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 9
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I

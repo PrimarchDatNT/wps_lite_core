@@ -22,9 +22,9 @@
     .line 2
     new-instance v0, Lyme$a;
 
-    const v1, 0x7f0803f4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_font_bold:I
 
-    const v2, 0x7f1221b3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_font_bold:I
 
     const/4 v3, 0x0
 

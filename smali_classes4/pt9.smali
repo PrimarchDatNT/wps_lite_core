@@ -140,7 +140,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f06005d
+    sget v0, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -157,7 +157,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f060009
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -174,7 +174,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f060002
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -472,7 +472,7 @@
     .line 15
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2ff2
+    sget v0, Lcom/resouce/module/ResID;->title_container:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -568,12 +568,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e052c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_main_item_layout:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e02c2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_all_item_layout:I
 
     :goto_0
     const/4 v1, 0x0
@@ -588,7 +588,7 @@
 
     invoke-direct {p2, p1}, Lpt9$b;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b013e
+    sget v0, Lcom/resouce/module/ResID;->app_tab_title:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
 
     iput-object v0, p2, Lpt9$b;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b06cf
+    sget v0, Lcom/resouce/module/ResID;->divider:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -608,7 +608,7 @@
 
     iput-object v0, p2, Lpt9$b;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b013a
+    sget v0, Lcom/resouce/module/ResID;->app_recycler_view:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f0b2fef
+    sget v0, Lcom/resouce/module/ResID;->title_color_block:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

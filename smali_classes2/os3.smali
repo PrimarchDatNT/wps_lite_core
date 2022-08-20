@@ -289,7 +289,7 @@
     :cond_2
     iget-object p2, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const p3, 0x7f120647
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -403,7 +403,7 @@
     .line 5
     iget-object v0, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v3, 0x7f121d11
+    sget v3, Lcom/resouce/module/ResSTRING;->public_after_share_filelink_can_see_record:I
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -419,7 +419,7 @@
     .line 7
     iget-object v0, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f08155b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_record:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -603,14 +603,14 @@
     .line 2
     iget-object v0, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12250e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 3
     iget-object v0, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f1201ca
+    sget v1, Lcom/resouce/module/ResSTRING;->as_retry:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -630,7 +630,7 @@
     .line 5
     iget-object v0, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081555
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -675,7 +675,7 @@
     .line 3
     iget-object p1, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f122be8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_web_article_no_record_tips:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -691,7 +691,7 @@
     .line 5
     iget-object p1, p0, Los3;->h0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f08155b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_record:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -771,7 +771,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b74
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_tips_layout:I
 
     const/4 v2, 0x0
 
@@ -779,7 +779,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b127b
+    sget v1, Lcom/resouce/module/ResID;->image_guide_arrow:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -897,7 +897,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121cd8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_access_record:I
 
     .line 2
     invoke-virtual {p0, v0}, Lyc3;->W2(I)V
@@ -934,7 +934,7 @@
 .method public final initView()V
     .locals 1
 
-    const v0, 0x7f0b1827
+    sget v0, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -945,7 +945,7 @@
 
     iput-object v0, p0, Los3;->i0:Lcn/wps/moffice/common/beans/MaterialProgressBarCycle;
 
-    const v0, 0x7f0b0700
+    sget v0, Lcom/resouce/module/ResID;->doc2web_error_page:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -959,7 +959,7 @@
     .line 3
     invoke-virtual {p0}, Los3;->A3()V
 
-    const v0, 0x7f0b2764
+    sget v0, Lcom/resouce/module/ResID;->public_web_article_publish_read_count:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -983,7 +983,7 @@
     invoke-virtual {p0, v0}, Los3;->D3(Ljs3;)V
 
     :cond_0
-    const v0, 0x7f0b25c0
+    sget v0, Lcom/resouce/module/ResID;->public_document_access_record_help:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1001,7 +1001,7 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0eaf
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_web_article_publish_access_record_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -1051,7 +1051,7 @@
     .line 2
     iget-object p1, p0, Lyc3;->U:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0446
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_doc2web_footer_vip_guide_item:I
 
     iget-object v2, p0, Los3;->X:Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView;
 
@@ -1074,7 +1074,7 @@
     .line 5
     iget-object v0, p0, Los3;->a0:Landroid/view/View;
 
-    const v1, 0x7f0b0707
+    sget v1, Lcom/resouce/module/ResID;->doc2web_upgrade_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1159,7 +1159,7 @@
     .line 4
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f122f75
+    sget v1, Lcom/resouce/module/ResSTRING;->smart_layout_no_network:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -1266,7 +1266,7 @@
 
     iget-object v1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0e0eb0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_web_article_publish_access_record_list_item:I
 
     invoke-direct {v0, v1, v2}, Lcs3;-><init>(Landroid/content/Context;I)V
 
@@ -1307,7 +1307,7 @@
 .method public final v3()V
     .locals 2
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1327,7 +1327,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setColorSchemeResources([I)V
 
-    const v0, 0x7f0b341e
+    sget v0, Lcom/resouce/module/ResID;->web_article_recycler_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

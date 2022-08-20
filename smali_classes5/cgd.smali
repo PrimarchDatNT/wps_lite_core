@@ -475,7 +475,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120585
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-static {v0, v2, v1}, Lled;->g(Landroid/content/Context;II)V
 
@@ -641,7 +641,7 @@
     .line 3
     iget-object v1, p0, Lcgd;->a:Landroid/app/Activity;
 
-    const v3, 0x7f121724
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_open_phone_app_document:I
 
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
 
@@ -671,7 +671,7 @@
     :cond_0
     iget-object v1, p0, Lcgd;->a:Landroid/app/Activity;
 
-    const v3, 0x7f121723
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_open_pad_app_document:I
 
     invoke-static {v3}, Ltid;->c(I)Ljava/lang/String;
 

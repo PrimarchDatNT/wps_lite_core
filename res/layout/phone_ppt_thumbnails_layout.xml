@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_thumbnails_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
-    <cn.wps.moffice.presentation.control.common.AutoRotateScreenGridView android:id="@id/ppt_thumbnails_grid" android:layout_below="@id/ppt_thumbnails_titlebar" android:layoutDirection="ltr" style="@style/phone_ppt_default_gridview" />
-</RelativeLayout>

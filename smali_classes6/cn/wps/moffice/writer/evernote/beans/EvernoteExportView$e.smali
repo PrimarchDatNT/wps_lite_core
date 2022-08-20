@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122383
+    sget v0, Lcom/resouce/module/ResSTRING;->public_input_overLitmit_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

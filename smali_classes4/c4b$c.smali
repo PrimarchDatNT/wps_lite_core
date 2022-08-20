@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1650
+    sget v0, Lcom/resouce/module/ResID;->ll_copy:I
 
     if-ne p1, v0, :cond_0
 
@@ -66,7 +66,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_1
 
@@ -80,22 +80,22 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b1655
+    sget v0, Lcom/resouce/module/ResID;->ll_destlanguage_select:I
 
     if-eq p1, v0, :cond_8
 
-    const v0, 0x7f0b16e9
+    sget v0, Lcom/resouce/module/ResID;->ll_srclanguage_select:I
 
     if-eq p1, v0, :cond_8
 
-    const v0, 0x7f0b2e99
+    sget v0, Lcom/resouce/module/ResID;->target_language:I
 
     if-ne p1, v0, :cond_2
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b066a
+    sget v0, Lcom/resouce/module/ResID;->dest_target_language:I
 
     if-ne p1, v0, :cond_3
 
@@ -109,7 +109,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b2dfc
+    sget v0, Lcom/resouce/module/ResID;->switchLanguage:I
 
     if-ne p1, v0, :cond_4
 
@@ -138,7 +138,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b30c0
+    sget v0, Lcom/resouce/module/ResID;->translation_distinguish_result_content:I
 
     if-ne p1, v0, :cond_6
 
@@ -150,7 +150,7 @@
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f0b3222
+    sget v0, Lcom/resouce/module/ResID;->tv_pre:I
 
     if-ne p1, v0, :cond_7
 
@@ -162,7 +162,7 @@
     goto :goto_1
 
     :cond_7
-    const v0, 0x7f0b31f9
+    sget v0, Lcom/resouce/module/ResID;->tv_next:I
 
     if-ne p1, v0, :cond_9
 

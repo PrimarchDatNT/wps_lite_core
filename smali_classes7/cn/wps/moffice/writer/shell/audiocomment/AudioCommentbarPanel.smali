@@ -63,7 +63,7 @@
     .line 6
     invoke-virtual {p0, v0}, Lvzl;->e2(Z)V
 
-    const v1, 0x7f0b34bf
+    sget v1, Lcom/resouce/module/ResID;->writer_audiocomment_btn_done:I
 
     .line 7
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -75,7 +75,7 @@
     .line 8
     invoke-virtual {v1, v0}, Landroid/view/View;->setClickable(Z)V
 
-    const v0, 0x7f0b21d8
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_padding_top:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/audiocomment/AudioCommentbarPanel;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b017a
+    sget v0, Lcom/resouce/module/ResID;->audiocomment_record_img:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/audiocomment/AudioCommentbarPanel;->f0:Lcn/wps/moffice/writer/shell/audiocomment/AudioRecordView;
 
-    const v0, 0x7f0b017b
+    sget v0, Lcom/resouce/module/ResID;->audiocomment_record_time:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/audiocomment/AudioCommentbarPanel;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b017c
+    sget v0, Lcom/resouce/module/ResID;->audiocomment_record_title:I
 
     .line 12
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -120,7 +120,7 @@
     .line 13
     invoke-virtual {p0}, Lcn/wps/moffice/writer/shell/audiocomment/AudioCommentbarPanel;->u2()V
 
-    const v0, 0x7f0b3027
+    sget v0, Lcom/resouce/module/ResID;->titlebar_group:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

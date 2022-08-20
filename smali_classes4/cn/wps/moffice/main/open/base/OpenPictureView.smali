@@ -37,13 +37,13 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0732
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_home_open_picture_item:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p2, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b295e
+    sget p2, Lcom/resouce/module/ResID;->rl_phone_home_open_picture_item:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

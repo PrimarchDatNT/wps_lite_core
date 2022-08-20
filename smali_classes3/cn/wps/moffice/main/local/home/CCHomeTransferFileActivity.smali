@@ -151,7 +151,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 5
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -217,12 +217,12 @@
 
     invoke-direct {p1, p0, v1}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p2, 0x7f122b75
+    sget p2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_warning_title:I
 
     .line 13
     invoke-virtual {p1, p2}, Lhd3;->setMessage(I)Lhd3;
 
-    const p2, 0x7f123263
+    sget p2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 14
     new-instance p3, Lcn/wps/moffice/main/local/home/CCHomeTransferFileActivity$b;
@@ -237,7 +237,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v0, Lcn/wps/moffice/main/local/home/CCHomeTransferFileActivity$a;
 

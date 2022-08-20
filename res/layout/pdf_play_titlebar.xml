@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="top" android:id="@id/pdf_play_titlebar_back_cover" android:background="@color/navBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
-    <cn.wps.moffice.pdf.shell.play.PlayTitlebarLayout android:id="@id/pdf_play_titlebar_functionbar" android:background="@color/navBackgroundColor" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

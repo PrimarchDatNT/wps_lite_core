@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e7f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_template_detail_preview_gif_image_layout:I
 
     const/4 v2, 0x0
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f12
+    sget v1, Lcom/resouce/module/ResID;->gif_image:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/docer/preview/TemplateFloatPreviewPager$d;->I:Lcn/wps/moffice/docer/preview/RoundRectGifImageView;
 
-    const v1, 0x7f0b078b
+    sget v1, Lcom/resouce/module/ResID;->dot_progress_bar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/docer/preview/TemplateFloatPreviewPager$d;->T:Lcn/wps/moffice/docer/preview/DotProgressBar;
 
-    const v1, 0x7f0b0260
+    sget v1, Lcom/resouce/module/ResID;->bottom_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/docer/preview/TemplateFloatPreviewPager$d;->I:Lcn/wps/moffice/docer/preview/RoundRectGifImageView;
 
-    const v2, 0x7f060640
+    sget v2, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_normal:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/docer/preview/RoundRectGifImageView;->setBorderColorResId(I)V
 
@@ -181,7 +181,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703a3
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -372,7 +372,7 @@
 
     check-cast p1, Lcom/bumptech/glide/RequestBuilder;
 
-    const v1, 0x7f0809e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 10
     invoke-virtual {p1, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -472,7 +472,7 @@
 
     if-nez v1, :cond_3
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 7
     invoke-static {v0, v1, v3}, Lbih;->n(Landroid/content/Context;II)V

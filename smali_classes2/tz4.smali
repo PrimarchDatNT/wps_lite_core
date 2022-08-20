@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10dc
+    sget v1, Lcom/resouce/module/ResID;->home_open_cloudstorage_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10dd
+    sget v1, Lcom/resouce/module/ResID;->home_open_common_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10f0
+    sget v1, Lcom/resouce/module/ResID;->home_open_phone_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

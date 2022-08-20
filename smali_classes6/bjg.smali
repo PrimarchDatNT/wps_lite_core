@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0235
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_print_tabhost_print_preview:I
 
     const/4 v1, 0x0
 
@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0b31
+    sget v0, Lcom/resouce/module/ResID;->et_print_single_preview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -52,7 +52,7 @@
 
     invoke-virtual {v0}, Lcn/wps/moffice/spreadsheet/control/print/SinglePagePreview;->e()V
 
-    const v0, 0x7f0b0b10
+    sget v0, Lcom/resouce/module/ResID;->et_print_multi_preview:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

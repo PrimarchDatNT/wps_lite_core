@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lvrf;-><init>(Lcn/wps/moffice/spreadsheet/Spreadsheet;Lk2m;Lcn/wps/moffice/spreadsheet/control/editor/InputView;)V
 
-    const p2, 0x7f010061
+    sget p2, Lcom/resouce/module/ResANIM;->phone_bottom_push_in:I
 
     .line 2
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -27,7 +27,7 @@
 
     iput-object p2, p0, Lxrf;->Z:Landroid/view/animation/Animation;
 
-    const p2, 0x7f010062
+    sget p2, Lcom/resouce/module/ResANIM;->phone_bottom_push_out:I
 
     .line 3
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -113,7 +113,7 @@
     .line 2
     iget-object v0, p0, Lvrf;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b04fa
+    sget v1, Lcom/resouce/module/ResID;->condition_format_layout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -154,7 +154,7 @@
 
     iget-object v3, p0, Lvrf;->U:Landroid/view/View;
 
-    const v4, 0x7f0b04fd
+    sget v4, Lcom/resouce/module/ResID;->condition_manage_view:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -195,7 +195,7 @@
     .line 2
     iget-object v0, p0, Lvrf;->U:Landroid/view/View;
 
-    const v1, 0x7f0b04fe
+    sget v1, Lcom/resouce/module/ResID;->condition_out_touch_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 4
     iget-object v0, p0, Lvrf;->U:Landroid/view/View;
 
-    const v1, 0x7f0b04f9
+    sget v1, Lcom/resouce/module/ResID;->condition_drag_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -237,7 +237,7 @@
     .line 8
     iget-object v1, p0, Lvrf;->U:Landroid/view/View;
 
-    const v2, 0x7f0b07a5
+    sget v2, Lcom/resouce/module/ResID;->drag_child:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -317,7 +317,7 @@
     .line 3
     iget-object v0, p0, Lvrf;->U:Landroid/view/View;
 
-    const v1, 0x7f0b07a5
+    sget v1, Lcom/resouce/module/ResID;->drag_child:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/write_file_record_group" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.TextImageView android:id="@id/writer_record_start" android:text="@string/public_turn_on" android:drawableTop="@drawable/pad_comp_style_use_hand" style="@style/writer_toolbar_icon_text_image" />
-    <cn.wps.moffice.common.beans.TextImageView android:id="@id/writer_record_stop" android:text="@string/public_close" android:drawableTop="@drawable/pad_comp_style_eraser_color" style="@style/writer_toolbar_icon_text_image" />
-    <cn.wps.moffice.common.beans.TextImageView android:id="@id/writer_record_play" android:text="@string/public_play" android:drawableTop="@drawable/public_arrowbtn_right" style="@style/writer_toolbar_icon_text_image" />
-</LinearLayout>

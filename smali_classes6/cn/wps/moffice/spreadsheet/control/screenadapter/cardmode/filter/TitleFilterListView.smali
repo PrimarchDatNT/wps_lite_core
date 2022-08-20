@@ -351,7 +351,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f122fb1
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_card_mode_filter_title_text:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -439,7 +439,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

@@ -20,7 +20,7 @@
 
     sput-object v0, Lcn/wps/moffice/cloud/base/DataBinderMapperImpl;->a:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0e0024
+    sget v2, Lcom/resouce/module/ResLAYOUT;->activity_cloud_base:I
 
     .line 2
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V

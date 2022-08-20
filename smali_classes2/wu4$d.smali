@@ -43,11 +43,11 @@
 
     move-result p1
 
-    const v0, 0x7f1214d0
+    sget v0, Lcom/resouce/module/ResSTRING;->oem_insertpic_gallery_camera_warning:I
 
     const-string v1, "flow_tip_gallery_camera"
 
-    const v2, 0x7f0b00a5
+    sget v2, Lcom/resouce/module/ResID;->add_document_layout:I
 
     if-ne p1, v2, :cond_1
 
@@ -98,7 +98,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b00a6
+    sget v2, Lcom/resouce/module/ResID;->add_document_layout_viewgroup:I
 
     if-ne p1, v2, :cond_3
 

@@ -292,7 +292,7 @@
     .line 3
     iget-object p1, p0, Lime;->b:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f12257e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_online_security_not_support:I
 
     const/4 v0, 0x1
 
@@ -355,7 +355,7 @@
     .line 8
     iget-object p1, p0, Lime;->b:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f122097
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -440,7 +440,7 @@
     :goto_0
     iget-object p1, p0, Lime;->b:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 

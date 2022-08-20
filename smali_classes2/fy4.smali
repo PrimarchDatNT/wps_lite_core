@@ -172,7 +172,7 @@
 .method public final f(Landroid/app/Dialog;Landroid/view/View;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f0b26f2
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_explain_content:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     check-cast v0, Landroid/webkit/WebView;
 
-    const v1, 0x7f0b26f0
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_circle_progressBar:I
 
     .line 2
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
     .line 1
     new-instance v0, Lhd3;
 
-    const v1, 0x7f1302f0
+    sget v1, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg_FullScreen:I
 
     invoke-direct {v0, p1, v1}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -242,7 +242,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e056a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_explain_dialog:I
 
     const/4 v2, 0x0
 
@@ -250,7 +250,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121de8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_roaming_dialog_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -260,7 +260,7 @@
 
     invoke-direct {v1, p0}, Lfy4$b;-><init>(Lfy4;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -288,7 +288,7 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f13013a
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p1, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -313,7 +313,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e06a4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_documents_roaming_explain_dialog:I
 
     const/4 v2, 0x0
 
@@ -321,7 +321,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f121de8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_check_roaming_dialog_title:I
 
     .line 9
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

@@ -375,7 +375,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0b09
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_afterlogin_dialog_view:I
 
     const/4 v3, 0x0
 
@@ -383,7 +383,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b00d2
+    sget v2, Lcom/resouce/module/ResID;->afterlogin_cancel:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
 
     if-nez v2, :cond_1
 
-    const v2, 0x7f0b00d1
+    sget v2, Lcom/resouce/module/ResID;->afterlogin_action:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
     invoke-virtual {v2, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const p3, 0x7f0b00d4
+    sget p3, Lcom/resouce/module/ResID;->afterlogin_img:I
 
     .line 10
     invoke-virtual {v0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -446,7 +446,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const p4, 0x7f0b00d5
+    sget p4, Lcom/resouce/module/ResID;->afterlogin_loadimg:I
 
     .line 11
     invoke-virtual {v0, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
 
     check-cast p4, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b00d6
+    sget v2, Lcom/resouce/module/ResID;->afterlogin_progress_bar:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b068e
+    sget p3, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -609,7 +609,7 @@
     .line 1
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 2
     invoke-virtual {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -623,7 +623,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 7
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 1
     invoke-virtual {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

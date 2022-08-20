@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12275d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_account_test_url:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12275e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_account_url:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

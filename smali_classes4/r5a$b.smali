@@ -34,7 +34,7 @@
     .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1396
+    sget v0, Lcom/resouce/module/ResID;->itemLayout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -45,7 +45,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2f80
+    sget v0, Lcom/resouce/module/ResID;->thumbImageView:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -58,7 +58,7 @@
     .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b12ed
+    sget v0, Lcom/resouce/module/ResID;->infoLayout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -69,7 +69,7 @@
     .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b18dd
+    sget v0, Lcom/resouce/module/ResID;->moreIconLayout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -95,7 +95,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c75
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_v2:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

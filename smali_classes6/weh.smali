@@ -65,7 +65,7 @@
 
     if-eqz v2, :cond_0
 
-    const v1, 0x7f120e25
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_duration_stat_notification_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -94,7 +94,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120e24
+    sget v3, Lcom/resouce/module/ResSTRING;->home_account_duration_stat_notification_content:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081a5d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -114,7 +114,7 @@
 
     iget-object v1, p0, Lweh;->a:Landroid/content/Context;
 
-    const v3, 0x7f081984
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 9
     invoke-static {v1, v3}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;

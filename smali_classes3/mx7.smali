@@ -88,7 +88,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     if-ne p1, v0, :cond_1
 
@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b02af
+    sget v0, Lcom/resouce/module/ResID;->btnOtherPhoneLogin:I
 
     if-ne p1, v0, :cond_2
 
@@ -142,7 +142,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 3
 
-    const v0, 0x7f0e0335
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_bind_phone_guide_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -159,7 +159,7 @@
     .line 3
     invoke-virtual {p0, p1, v0, v1}, Llx7;->fitDialog(III)V
 
-    const p1, 0x7f0b02ac
+    sget p1, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b02af
+    sget p1, Lcom/resouce/module/ResID;->btnOtherPhoneLogin:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -177,7 +177,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2535
+    sget p1, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object p1, p0, Lmx7;->progressBar:Landroid/view/View;
 
-    const p1, 0x7f0b30f4
+    sget p1, Lcom/resouce/module/ResID;->tvPhoneNumber:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b30f6
+    sget p1, Lcom/resouce/module/ResID;->tvPolicy:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     iput-object p1, p0, Lmx7;->mPolicy:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0373
+    sget p1, Lcom/resouce/module/ResID;->cbAgree:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -236,9 +236,9 @@
 
     iget-object v0, p0, Lmx7;->mPolicy:Landroid/widget/TextView;
 
-    const v1, 0x7f120208
+    sget v1, Lcom/resouce/module/ResSTRING;->bind_cmcc_phone_agreement_prefix:I
 
-    const v2, 0x7f120f39
+    sget v2, Lcom/resouce/module/ResSTRING;->home_login_china_mobile_policy:I
 
     invoke-static {p1, v0, v1, v2}, Low7;->e(Landroid/app/Activity;Landroid/widget/TextView;II)V
 
@@ -279,7 +279,7 @@
     .line 1
     iget-object v0, p0, Lmx7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121da7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v2, 0x0
 
@@ -373,7 +373,7 @@
     .line 1
     invoke-super {p0}, Llx7;->updateUI()V
 
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

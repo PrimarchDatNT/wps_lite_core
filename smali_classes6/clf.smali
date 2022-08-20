@@ -109,7 +109,7 @@
     .line 8
     iput-object p4, p0, Lclf;->U:La0g;
 
-    const p2, 0x7f0b1bbe
+    sget p2, Lcom/resouce/module/ResID;->pad_back_board:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object p2, p0, Lclf;->W:Landroid/view/View;
 
-    const p3, 0x7f0b0adb
+    sget p3, Lcom/resouce/module/ResID;->et_pad_condition_formatter:I
 
     .line 10
     invoke-virtual {p1, p3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
 
     invoke-direct {p1, p0}, Lclf$k;-><init>(Lclf;)V
 
-    const p3, 0x7f0b01b9
+    sget p3, Lcom/resouce/module/ResID;->back_board_sum:I
 
     .line 13
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
     .line 14
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b01b4
+    sget p3, Lcom/resouce/module/ResID;->back_board_avg:I
 
     .line 15
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
     .line 16
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b01b6
+    sget p3, Lcom/resouce/module/ResID;->back_board_count:I
 
     .line 17
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
     .line 18
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b01b7
+    sget p3, Lcom/resouce/module/ResID;->back_board_max:I
 
     .line 19
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
     .line 20
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b01b8
+    sget p3, Lcom/resouce/module/ResID;->back_board_min:I
 
     .line 21
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
     .line 22
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b01b5
+    sget p3, Lcom/resouce/module/ResID;->back_board_cal_count:I
 
     .line 23
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1771,7 +1771,7 @@
 
     iget-object p1, p0, Lclf;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v3, 0x7f120746
+    sget v3, Lcom/resouce/module/ResSTRING;->et_backboard_clip_msg:I
 
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

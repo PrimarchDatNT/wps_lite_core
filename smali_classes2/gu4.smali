@@ -92,11 +92,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f12267e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_all_in_one_office:I
 
-    const v4, 0x7f12267f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_all_in_one_office_desc:I
 
-    const v5, 0x7f081b18
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_all_in_one_office_icon:I
 
     const/4 v7, 0x0
 
@@ -127,11 +127,11 @@
 
     move-result-object v6
 
-    const v3, 0x7f121c93
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
-    const v4, 0x7f12268d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
-    const v5, 0x7f081b1e
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_no_ad_icon:I
 
     move-object v1, v8
 
@@ -155,11 +155,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f1217f2
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_extract_title:I
 
-    const v4, 0x7f122697
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_extract_desc:I
 
-    const v5, 0x7f081b22
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_extract_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -190,11 +190,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f12182c
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
-    const v4, 0x7f122698
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_merge_desc:I
 
-    const v5, 0x7f081b23
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_merge_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -223,11 +223,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f121b6d
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_extract:I
 
-    const v4, 0x7f12269c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_ppt_extract_desc:I
 
-    const v5, 0x7f081b22
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_extract_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -258,11 +258,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f121b82
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_merge:I
 
-    const v4, 0x7f12269d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_ppt_merge_desc:I
 
-    const v5, 0x7f081b23
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_merge_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -291,11 +291,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f122a3b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_support_for_odf:I
 
-    const v4, 0x7f122a3c
+    sget v4, Lcom/resouce/module/ResSTRING;->public_support_for_odf_list:I
 
-    const v5, 0x7f081b1f
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_odf_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -327,11 +327,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f121c96
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
-    const v4, 0x7f122699
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_signature_desc:I
 
-    const v5, 0x7f081b24
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_signature_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -371,11 +371,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
-    const v4, 0x7f122694
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_doc_desc:I
 
-    const v5, 0x7f081b21
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_convert_to_doc_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -418,11 +418,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f122011
+    sget v3, Lcom/resouce/module/ResSTRING;->public_document_recovery_title:I
 
-    const v4, 0x7f122682
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_document_recovery_desc:I
 
-    const v5, 0x7f081b1a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_document_recovery_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -463,11 +463,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f1227a7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
-    const v4, 0x7f1226a3
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_reading_background_desc:I
 
-    const v5, 0x7f081b27
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_reading_background_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -499,11 +499,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f122bc6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
-    const v4, 0x7f122681
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_bookmark_sharing_desc:I
 
-    const v5, 0x7f081b19
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_bookmark_sharing_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -534,11 +534,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f12269a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_picture_sharing_desc:I
 
-    const v5, 0x7f081b25
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_picture_sharing_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -576,11 +576,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f1216c8
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
-    const v4, 0x7f122693
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_annotation_desc:I
 
-    const v5, 0x7f081b20
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_pdf_annotation_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -611,11 +611,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v4, 0x7f122683
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_file_compressor_desc:I
 
-    const v5, 0x7f081b1b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_file_compressor_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -658,11 +658,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v3, 0x7f12040e
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo:I
 
-    const v4, 0x7f120429
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_twice_free:I
 
-    const v5, 0x7f081b26
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_quick_pay_id_photo_icon:I
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -741,11 +741,11 @@
 
     new-instance v8, Lgu4$e;
 
-    const v2, 0x7f121c85
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_20g_cloud_disk:I
 
-    const v3, 0x7f12267c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_20g_cloud_disk_desc:I
 
-    const v4, 0x7f081b17
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_premium_privileges_20g_cloud_disk:I
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -856,7 +856,7 @@
     .line 3
     iget-object p1, p0, Lgu4;->Y:Landroid/widget/TextView;
 
-    const v1, 0x7f121f50
+    sget v1, Lcom/resouce/module/ResSTRING;->public_congratulations_have_to_be_wps_premium_tip:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -892,7 +892,7 @@
     .line 8
     iget-object p1, p0, Lgu4;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f122b5c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_upgrade_to_premium_tip:I
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -961,7 +961,7 @@
     .line 19
     iget-object p1, p0, Lgu4;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f120f5d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membercenter_earn_credits:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1005,7 +1005,7 @@
     :cond_5
     iget-object p1, p0, Lgu4;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f1221f8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_free_access:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1029,7 +1029,7 @@
     :cond_7
     iget-object p1, p0, Lgu4;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f122086
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exchange_usekey:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1070,7 +1070,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0db2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1088,7 +1088,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0d4d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_pad_premium_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1100,7 +1100,7 @@
     :goto_0
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24e5
+    sget v1, Lcom/resouce/module/ResID;->premium_restore_purchase:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1111,7 +1111,7 @@
     .line 6
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b24e8
+    sget v2, Lcom/resouce/module/ResID;->premium_upgrade_button:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1122,7 +1122,7 @@
     .line 7
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v3, 0x7f0b24ea
+    sget v3, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1144,7 +1144,7 @@
     .line 9
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b24c5
+    sget v2, Lcom/resouce/module/ResID;->premium_congratulation_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1164,7 +1164,7 @@
     .line 11
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24e1
+    sget v1, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1177,7 +1177,7 @@
     .line 12
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24e7
+    sget v1, Lcom/resouce/module/ResID;->premium_top_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1190,7 +1190,7 @@
     .line 13
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24e6
+    sget v1, Lcom/resouce/module/ResID;->premium_top_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1203,7 +1203,7 @@
     .line 14
     iget-object v0, p0, Lgu4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b24dd
+    sget v1, Lcom/resouce/module/ResID;->premium_privileges_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1365,7 +1365,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b24e5
+    sget v0, Lcom/resouce/module/ResID;->premium_restore_purchase:I
 
     if-ne p1, v0, :cond_0
 
@@ -1379,7 +1379,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b24e8
+    sget v0, Lcom/resouce/module/ResID;->premium_upgrade_button:I
 
     if-ne p1, v0, :cond_1
 
@@ -1393,7 +1393,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b24e1
+    sget v0, Lcom/resouce/module/ResID;->premium_purchase_jpcdkey:I
 
     if-ne p1, v0, :cond_5
 

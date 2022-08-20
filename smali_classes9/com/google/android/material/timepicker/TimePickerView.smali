@@ -82,11 +82,11 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0490
+    sget p2, Lcom/resouce/module/ResLAYOUT;->material_timepicker:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b181d
+    sget p1, Lcom/resouce/module/ResID;->material_clock_face:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/timepicker/TimePickerView;->p0:Lcom/google/android/material/timepicker/ClockFaceView;
 
-    const p1, 0x7f0b1821
+    sget p1, Lcom/resouce/module/ResID;->material_clock_period_toggle:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     invoke-virtual {p1, p2}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->g(Lcom/google/android/material/button/MaterialButtonToggleGroup$e;)V
 
-    const p1, 0x7f0b1826
+    sget p1, Lcom/resouce/module/ResID;->material_minute_tv:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/timepicker/TimePickerView;->m0:Lcom/google/android/material/chip/Chip;
 
-    const p1, 0x7f0b1823
+    sget p1, Lcom/resouce/module/ResID;->material_hour_tv:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p1, p0, Lcom/google/android/material/timepicker/TimePickerView;->n0:Lcom/google/android/material/chip/Chip;
 
-    const p1, 0x7f0b181e
+    sget p1, Lcom/resouce/module/ResID;->material_clock_hand:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2b0a
+    sget v2, Lcom/resouce/module/ResID;->selection_type:I
 
     invoke-virtual {v0, v2, v1}, Landroid/widget/CheckBox;->setTag(ILjava/lang/Object;)V
 
@@ -312,7 +312,7 @@
     const/4 v2, 0x2
 
     :cond_1
-    const v1, 0x7f0b181c
+    sget v1, Lcom/resouce/module/ResID;->material_clock_display:I
 
     .line 5
     invoke-virtual {v0, v1, v2}, Lf6;->h(II)V

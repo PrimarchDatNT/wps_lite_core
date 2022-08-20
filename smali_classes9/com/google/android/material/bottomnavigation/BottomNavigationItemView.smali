@@ -32,7 +32,7 @@
     .annotation build Landroidx/annotation/DimenRes;
     .end annotation
 
-    const v0, 0x7f0700a3
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_margin:I
 
     return v0
 .end method
@@ -42,7 +42,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e00c4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->design_bottom_navigation_item:I
 
     return v0
 .end method

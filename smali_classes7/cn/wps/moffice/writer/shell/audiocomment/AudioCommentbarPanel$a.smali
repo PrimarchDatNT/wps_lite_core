@@ -220,7 +220,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12234c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_iat_record_stop_resttime:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -276,7 +276,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12234d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_iat_record_stop_up:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12234b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_iat_record_start_longpress:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 

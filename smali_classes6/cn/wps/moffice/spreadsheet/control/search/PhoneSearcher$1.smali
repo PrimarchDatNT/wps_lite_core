@@ -92,7 +92,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122856
+    sget p1, Lcom/resouce/module/ResSTRING;->public_search:I
 
     .line 6
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->P0(I)V
@@ -107,7 +107,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f122857
+    sget p1, Lcom/resouce/module/ResSTRING;->public_search_and_replace:I
 
     .line 8
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->P0(I)V
@@ -115,7 +115,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120c09
+    sget p1, Lcom/resouce/module/ResSTRING;->et_search_and_replace:I
 
     .line 9
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->P0(I)V

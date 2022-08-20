@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d46
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_ppt_panel_tab_underline_indicator_stoke_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -120,7 +120,7 @@
 
     invoke-virtual {p2, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    const p2, 0x7f0708a9
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_tool_panel_indicator_length:I
 
     .line 10
     invoke-static {p1, p2}, Ldgh;->j(Landroid/content/Context;I)I

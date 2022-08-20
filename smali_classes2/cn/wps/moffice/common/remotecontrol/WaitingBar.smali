@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081d63
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->remote_pc_to_mobile_one_point:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

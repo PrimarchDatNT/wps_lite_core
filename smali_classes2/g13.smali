@@ -31,7 +31,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12116c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -49,7 +49,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120610
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12194a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

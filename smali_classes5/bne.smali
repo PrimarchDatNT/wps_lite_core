@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aef
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_typeface_color_btn:I
 
     const/4 v2, 0x0
 
@@ -133,7 +133,7 @@
 
     iput-object p1, p0, Lbne;->W:Landroid/view/View;
 
-    const v0, 0x7f0b24a0
+    sget v0, Lcom/resouce/module/ResID;->ppt_typeface_color_item:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
     .line 4
     iget-object p1, p0, Lbne;->W:Landroid/view/View;
 
-    const v0, 0x7f0b24a3
+    sget v0, Lcom/resouce/module/ResID;->ppt_typeface_colorview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

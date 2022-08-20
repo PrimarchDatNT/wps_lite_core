@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0708cf
+    sget v1, Lcom/resouce/module/ResDIMEN;->pic_to_ppt_thumb_width:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -502,7 +502,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1226b1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     return v0
 .end method
@@ -528,7 +528,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070093
+    sget v2, Lcom/resouce/module/ResDIMEN;->convert_2_ppt_btn_land_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -612,7 +612,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e004d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_pic_2_ppt:I
 
     const/4 v2, 0x0
 
@@ -622,7 +622,7 @@
 
     iput-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1732
+    sget v1, Lcom/resouce/module/ResID;->loading_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -634,7 +634,7 @@
     .line 3
     iget-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -647,7 +647,7 @@
     .line 4
     iget-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2533
+    sget v1, Lcom/resouce/module/ResID;->processing_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -660,7 +660,7 @@
     .line 5
     iget-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b061c
+    sget v1, Lcom/resouce/module/ResID;->data_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -671,7 +671,7 @@
     .line 6
     iget-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0564
+    sget v1, Lcom/resouce/module/ResID;->convert_2_ppt_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +691,7 @@
     .line 8
     iget-object v0, p0, Ld0b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b220f
+    sget v1, Lcom/resouce/module/ResID;->pic_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 2
     iget-object p1, p0, Ld0b;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f120475
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_processing_image_with_huawei:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -832,7 +832,7 @@
     :cond_0
     iget-object p1, p0, Ld0b;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f121d3e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

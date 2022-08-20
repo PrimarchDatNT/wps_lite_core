@@ -948,7 +948,7 @@
 .method public A0(Lxva$b;)I
     .locals 2
 
-    const v0, 0x7f1203d8
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_certification:I
 
     if-nez p1, :cond_0
 
@@ -977,22 +977,22 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f120459
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_other_card:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f12045c
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_passport_card:I
 
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f12049a
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_residence_card:I
 
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f120434
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_identity_card:I
 
     :goto_0
     return v0
@@ -1091,7 +1091,7 @@
     .line 2
     iget-object v0, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v1, 0x7f121247
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_docs:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1103,7 +1103,7 @@
     :cond_0
     iget-object v0, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v1, 0x7f12283b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_doc_mode_name:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1609,7 +1609,7 @@
 
     const/16 p1, 0x8
 
-    const p2, 0x7f12023b
+    sget p2, Lcom/resouce/module/ResSTRING;->camera_not_support_wide:I
 
     const/4 v0, 0x0
 
@@ -2018,7 +2018,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f1218dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_sign:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2036,13 +2036,13 @@
     :cond_1
     iget-boolean v3, v2, Lcn/wps/moffice/main/scan/main/params/StartCameraParams;->isSingleTabMode:Z
 
-    const v4, 0x7f122b15
+    sget v4, Lcom/resouce/module/ResSTRING;->public_translate:I
 
-    const v5, 0x7f122847
+    sget v5, Lcom/resouce/module/ResSTRING;->public_scan_ppt_mode_name:I
 
-    const v6, 0x7f120488
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_deviation:I
 
-    const v7, 0x7f1203f3
+    sget v7, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_recognize_txt:I
 
     if-eqz v3, :cond_3
 
@@ -2089,7 +2089,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f120437
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_image_to_pdf:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2310,7 +2310,7 @@
 
     iget-object v3, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v5, 0x7f1203d8
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_certification:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2341,7 +2341,7 @@
 
     iget-object v3, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v5, 0x7f12040e
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2388,7 +2388,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f1204cf
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scn_recognize_txt:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2541,7 +2541,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f121247
+    sget v3, Lcom/resouce/module/ResSTRING;->home_wpsdrive_docs:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2751,7 +2751,7 @@
     :cond_0
     iget-object v1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f1203eb
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_discard_num_picture_tip:I
 
     const/4 v3, 0x1
 
@@ -2781,7 +2781,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f1203e9
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2790,7 +2790,7 @@
 
     iget-object v3, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3363,7 +3363,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f1204a4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_save_num_picture_tip:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -4258,7 +4258,7 @@
     .line 1
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0727
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_guidecard_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4269,7 +4269,7 @@
     .line 2
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0f6e
+    sget v1, Lcom/resouce/module/ResID;->guide_card_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4280,7 +4280,7 @@
     .line 3
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0f6d
+    sget v1, Lcom/resouce/module/ResID;->guide_card_introdece:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4293,7 +4293,7 @@
     .line 4
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0f6c
+    sget v1, Lcom/resouce/module/ResID;->guide_card_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4304,7 +4304,7 @@
     .line 5
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0f6b
+    sget v1, Lcom/resouce/module/ResID;->guide_card_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4826,13 +4826,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f120459
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_other_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v5, 0x7f081984
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     const/4 v6, 0x0
 
@@ -4861,13 +4861,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f12045c
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_passport_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v10
 
-    const v11, 0x7f081984
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     const/4 v12, 0x0
 
@@ -4896,13 +4896,13 @@
 
     move-result-object v1
 
-    const v3, 0x7f12049a
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_residence_card:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f081984
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     const/4 v5, 0x1
 
@@ -4934,13 +4934,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f120434
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_identity_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v9
 
-    const v10, 0x7f081984
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     const/4 v11, 0x1
 
@@ -5214,7 +5214,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122e88
+    sget v2, Lcom/resouce/module/ResSTRING;->scanner_pdf_sign_guide_toast_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5317,7 +5317,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070100
+    sget v1, Lcom/resouce/module/ResDIMEN;->doc_scan_min_take_picture_btn_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5330,7 +5330,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0700fd
+    sget v2, Lcom/resouce/module/ResDIMEN;->doc_scan_max_take_picture_btn_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -5490,7 +5490,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0e54
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_sign_focusbar:I
 
     const/4 v3, 0x0
 
@@ -5610,7 +5610,7 @@
     .line 1
     iget-object v0, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v1, 0x7f010036
+    sget v1, Lcom/resouce/module/ResANIM;->doc_scan_take_picture:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -5709,7 +5709,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030074
+    sget v1, Lcom/resouce/module/ResARRAY;->pref_camera_focusmode_default_array:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -6175,7 +6175,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0704e4
+    sget v1, Lcom/resouce/module/ResDIMEN;->new_phone_documents_maintoolbar_height:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -6219,7 +6219,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0700ff
+    sget v1, Lcom/resouce/module/ResDIMEN;->doc_scan_min_camera_bar_height:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -6554,7 +6554,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12023b
+    sget v1, Lcom/resouce/module/ResSTRING;->camera_not_support_wide:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7184,7 +7184,7 @@
 
     iget-object v1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v4, 0x7f1204ca
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_translation_tab_tip_text:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -7252,7 +7252,7 @@
     .line 60
     iget-object p1, p0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v3, 0x7f120487
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_camera_tips:I
 
     invoke-virtual {p1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -7309,7 +7309,7 @@
     .line 72
     iget-object p1, p0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v1, 0x7f1203d5
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_certificate_pattern_tip:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -7511,12 +7511,12 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f1203f2
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_recognize_tips:I
 
     goto :goto_2
 
     :cond_4
-    const v1, 0x7f1203d1
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_camera_tip:I
 
     :goto_2
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
@@ -7669,7 +7669,7 @@
     .line 126
     iget-object p1, p0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v1, 0x7f1204b6
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_cameratipstext_content:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -7684,7 +7684,7 @@
     .line 128
     iget-object p1, p0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v1, 0x7f122837
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_bottom_bar_doc_tip:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -7891,7 +7891,7 @@
 
     move-result v0
 
-    const v2, 0x7f120443
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_load_img_error:I
 
     const/4 v3, 0x1
 
@@ -8233,7 +8233,7 @@
     .line 2
     iget-object v0, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v4, 0x7f120430
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_identified_image_at_most:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -8269,7 +8269,7 @@
     .line 5
     iget-object v0, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v1, 0x7f120442
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_insufficient_space:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -9275,7 +9275,7 @@
 
     move-result v0
 
-    const v3, 0x7f1203ec
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_click:I
 
     if-eqz v0, :cond_7
 
@@ -9315,7 +9315,7 @@
 
     iget-object v3, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v4, 0x7f120406
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_file_export:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -10074,7 +10074,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060068
+    sget v3, Lcom/resouce/module/ResCOLOR;->camera_select_wide:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -10092,7 +10092,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060069
+    sget v3, Lcom/resouce/module/ResCOLOR;->camera_unselect_wide:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -10243,7 +10243,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12023c
+    sget v2, Lcom/resouce/module/ResSTRING;->camera_wide:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -10286,7 +10286,7 @@
     .line 11
     iget-object p1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const p2, 0x7f12284d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_start_camera_fail:I
 
     const/4 v0, 0x1
 
@@ -10408,7 +10408,7 @@
 
     iget-object v1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f1203ec
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_click:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -10426,7 +10426,7 @@
 
     iget-object v1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v2, 0x7f120406
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_file_export:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -10482,7 +10482,7 @@
     .line 1
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0dac
+    sget v1, Lcom/resouce/module/ResID;->fl_camera_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10500,7 +10500,7 @@
     .line 3
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b293b
+    sget v1, Lcom/resouce/module/ResID;->rl_camera_top_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10534,18 +10534,18 @@
     .line 7
     iget-object v0, p0, Lm7b;->s:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b1459
+    sget v1, Lcom/resouce/module/ResID;->iv_flashLight:I
 
-    const v3, 0x7f080516
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->doc_scan_flash_light_off:I
 
     invoke-virtual {v0, v1, v3, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->m(III)V
 
     .line 8
     iget-object v0, p0, Lm7b;->s:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f0b14b1
+    sget v3, Lcom/resouce/module/ResID;->iv_rectify_help_tips:I
 
-    const v4, 0x7f081bd5
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_scan_rectify_help_guide:I
 
     const/16 v5, 0x8
 
@@ -10556,9 +10556,9 @@
 
     iget-object v4, p0, Lm7b;->r1:Landroid/view/View$OnClickListener;
 
-    const v6, 0x7f0b145a
+    sget v6, Lcom/resouce/module/ResID;->iv_folder:I
 
-    const v7, 0x7f0809f0
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->iv_scan_folder:I
 
     invoke-virtual {v0, v6, v7, v4}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->n(IILandroid/view/View$OnClickListener;)V
 
@@ -10572,7 +10572,7 @@
     .line 11
     iget-object v0, p0, Lm7b;->s:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v4, 0x7f0b141b
+    sget v4, Lcom/resouce/module/ResID;->iv_block:I
 
     const/4 v8, 0x4
 
@@ -10587,7 +10587,7 @@
     .line 13
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v4, 0x7f0b1716
+    sget v4, Lcom/resouce/module/ResID;->ll_zoom_container:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10600,7 +10600,7 @@
     .line 14
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v4, 0x7f0b3284
+    sget v4, Lcom/resouce/module/ResID;->tv_switch_wide_camera:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10613,7 +10613,7 @@
     .line 15
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v4, 0x7f0b3283
+    sget v4, Lcom/resouce/module/ResID;->tv_switch_normal_camera:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10626,7 +10626,7 @@
     .line 16
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v4, 0x7f0b3282
+    sget v4, Lcom/resouce/module/ResID;->tv_switch_larger_camera:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10639,7 +10639,7 @@
     .line 17
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v4, 0x7f0b0309
+    sget v4, Lcom/resouce/module/ResID;->btn_take_picture:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10672,7 +10672,7 @@
     .line 20
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b2dc5    # 1.8500034E38f
+    sget v1, Lcom/resouce/module/ResID;->stv_tab_pattern:I    # 1.8500034E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10685,7 +10685,7 @@
     .line 21
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b00de
+    sget v1, Lcom/resouce/module/ResID;->al_album:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10696,7 +10696,7 @@
     .line 22
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b31b2
+    sget v1, Lcom/resouce/module/ResID;->tv_import:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10707,7 +10707,7 @@
     .line 23
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b312d
+    sget v1, Lcom/resouce/module/ResID;->tv_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10720,7 +10720,7 @@
     .line 24
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b293a
+    sget v1, Lcom/resouce/module/ResID;->rl_camera_bottom_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10731,7 +10731,7 @@
     .line 25
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0337
+    sget v1, Lcom/resouce/module/ResID;->camera_shade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10742,7 +10742,7 @@
     .line 26
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b1420
+    sget v1, Lcom/resouce/module/ResID;->iv_capture_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10755,7 +10755,7 @@
     .line 27
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b3114
+    sget v1, Lcom/resouce/module/ResID;->tv_camera_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10768,7 +10768,7 @@
     .line 28
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b3197
+    sget v1, Lcom/resouce/module/ResID;->tv_guide_focus_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10781,7 +10781,7 @@
     .line 29
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b00df
+    sget v1, Lcom/resouce/module/ResID;->al_thumbnail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10792,7 +10792,7 @@
     .line 30
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b14d1
+    sget v1, Lcom/resouce/module/ResID;->iv_thumbnail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10805,7 +10805,7 @@
     .line 31
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b328c
+    sget v1, Lcom/resouce/module/ResID;->tv_thumbnail_num:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10818,7 +10818,7 @@
     .line 32
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b141e
+    sget v1, Lcom/resouce/module/ResID;->iv_camera_guide_bound:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10831,7 +10831,7 @@
     .line 33
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0f92
+    sget v1, Lcom/resouce/module/ResID;->gv_card_type:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10844,7 +10844,7 @@
     .line 34
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b293d
+    sget v1, Lcom/resouce/module/ResID;->rl_card_type:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10855,7 +10855,7 @@
     .line 35
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b293c
+    sget v1, Lcom/resouce/module/ResID;->rl_card_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10866,7 +10866,7 @@
     .line 36
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0e81
+    sget v1, Lcom/resouce/module/ResID;->frame_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10879,7 +10879,7 @@
     .line 37
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b14a5
+    sget v1, Lcom/resouce/module/ResID;->iv_photo_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10892,7 +10892,7 @@
     .line 38
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b3113
+    sget v1, Lcom/resouce/module/ResID;->tv_camera_guide_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10905,7 +10905,7 @@
     .line 39
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b2965
+    sget v1, Lcom/resouce/module/ResID;->rl_scanner_sign:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10925,7 +10925,7 @@
     .line 41
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b14c9
+    sget v1, Lcom/resouce/module/ResID;->iv_simple:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10940,7 +10940,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -10952,7 +10952,7 @@
     :cond_1
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b14c8
+    sget v1, Lcom/resouce/module/ResID;->iv_sign_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10965,7 +10965,7 @@
     .line 44
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0da2
+    sget v1, Lcom/resouce/module/ResID;->fl_ac_many_mode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10978,7 +10978,7 @@
     .line 45
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b14f5
+    sget v1, Lcom/resouce/module/ResID;->kiv_ac_single_many_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10989,7 +10989,7 @@
     .line 46
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b3103
+    sget v1, Lcom/resouce/module/ResID;->tv_ac_single_many_mode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11000,7 +11000,7 @@
     .line 47
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b1694
+    sget v1, Lcom/resouce/module/ResID;->ll_img_import:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11028,7 +11028,7 @@
     .line 49
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b1693
+    sget v1, Lcom/resouce/module/ResID;->ll_img_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11041,7 +11041,7 @@
     .line 50
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b31b0
+    sget v1, Lcom/resouce/module/ResID;->tv_img_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11172,7 +11172,7 @@
     .line 65
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0dc3
+    sget v1, Lcom/resouce/module/ResID;->fl_rectify_guide_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11183,7 +11183,7 @@
     .line 66
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b3230
+    sget v1, Lcom/resouce/module/ResID;->tv_rectify_guide_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11197,7 +11197,7 @@
     .line 68
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b2a01
+    sget v1, Lcom/resouce/module/ResID;->scan_dynamic_edge_detection:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11210,7 +11210,7 @@
     .line 69
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b2858
+    sget v1, Lcom/resouce/module/ResID;->rectify_guide_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11223,7 +11223,7 @@
     .line 70
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0729
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_rectify_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11261,7 +11261,7 @@
     .line 74
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b1400
+    sget v1, Lcom/resouce/module/ResID;->iv_HD:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11286,7 +11286,7 @@
     .line 77
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b0728
+    sget v1, Lcom/resouce/module/ResID;->doc_scan_id_photo_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11380,7 +11380,7 @@
     .line 90
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b289a
+    sget v1, Lcom/resouce/module/ResID;->render_overlay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11393,7 +11393,7 @@
     .line 91
     iget-object v0, p0, Lm7b;->r:Landroid/view/View;
 
-    const v1, 0x7f0b2509
+    sget v1, Lcom/resouce/module/ResID;->preview_texture_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -11464,7 +11464,7 @@
     .line 99
     iget-object v0, p0, Lm7b;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f081bd4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_scan_rectify_guide_oversea:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -11841,7 +11841,7 @@
     .line 3
     iget-object p1, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const p2, 0x7f12044f
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -12313,7 +12313,7 @@
 
     iget-object v2, p0, Lm7b;->q:Lcn/wps/moffice/main/scan/util/camera/CameraActivity;
 
-    const v3, 0x7f1204c9
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_translation_tab_card_text:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -12722,13 +12722,13 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f04067a
+    sget v3, Lcom/resouce/module/ResATTR;->titleBarBtnStyle:I
 
     invoke-direct {v0, v1, v2, v3}, Lcn/wps/moffice/main/scan/view/ScanHDView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     iput-object v0, p0, Lm7b;->E:Lcn/wps/moffice/main/scan/view/ScanHDView;
 
-    const v1, 0x7f0b1400
+    sget v1, Lcom/resouce/module/ResID;->iv_HD:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setId(I)V
@@ -13012,7 +13012,7 @@
     .line 4
     iget-object v0, p0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v2, 0x7f1203d5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_certificate_pattern_tip:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -14506,7 +14506,7 @@
     .line 2
     iget-object v0, p0, Lm7b;->w:Landroid/widget/ImageView;
 
-    const v1, 0x7f080517
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_flash_light_on:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -14516,7 +14516,7 @@
     :cond_0
     iget-object v0, p0, Lm7b;->w:Landroid/widget/ImageView;
 
-    const v1, 0x7f080516
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_flash_light_off:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -14612,7 +14612,7 @@
 
     if-eqz v0, :cond_0
 
-    const v8, 0x7f0815da
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pub_camera_wide_unselected:I
 
     .line 3
     invoke-virtual {v0, v8}, Landroid/view/View;->setBackgroundResource(I)V
@@ -14661,7 +14661,7 @@
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
     :cond_0
-    const v0, 0x7f0815d9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_camera_wide_selected:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -15472,7 +15472,7 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f0b293b
+    sget v2, Lcom/resouce/module/ResID;->rl_camera_top_bar:I
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V

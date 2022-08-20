@@ -126,11 +126,11 @@
 
     invoke-direct {p0, p2}, Lcn/wps/moffice/common/fontname/online/OnlineFontDownload$i;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p1, 0x0
 
@@ -365,7 +365,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f1221bd
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fontname_cloud_download_missing:I
 
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -375,11 +375,11 @@
 
     invoke-direct {p1, p0, p2}, Lcn/wps/moffice/common/fontname/online/OnlineFontDownload$d;-><init>(Lcn/wps/moffice/common/fontname/online/OnlineFontDownload;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122023
+    sget p2, Lcom/resouce/module/ResSTRING;->public_download_immediately:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -679,7 +679,7 @@
 
     if-eqz p3, :cond_3
 
-    const p3, 0x7f12201c
+    sget p3, Lcom/resouce/module/ResSTRING;->public_download_by_login:I
 
     .line 7
     new-instance p4, Lcn/wps/moffice/common/fontname/online/OnlineFontDownload$e;
@@ -703,7 +703,7 @@
     goto :goto_0
 
     :cond_3
-    const p3, 0x7f12201b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 8
     new-instance p4, Lcn/wps/moffice/common/fontname/online/OnlineFontDownload$f;
@@ -725,7 +725,7 @@
     invoke-virtual {p5, p3, p4}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :goto_0
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -768,9 +768,9 @@
 
     instance-of v0, v0, Lva6;
 
-    const v1, 0x7f1221ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_monotype_getfree:I
 
-    const v3, 0x7f1221c4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_download_now:I
 
     if-eqz v0, :cond_1
 
@@ -794,7 +794,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e4f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_font_get_member:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -883,7 +883,7 @@
 
     move-result v0
 
-    const v1, 0x7f1221cb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_monotype_getfree_by_login:I
 
     if-eqz v0, :cond_2
 
@@ -995,7 +995,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f12255c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm_with_font_size:I
 
     const/4 v1, 0x1
 
@@ -1029,7 +1029,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f12255a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

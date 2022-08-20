@@ -122,7 +122,7 @@
 
     iget-object p1, p1, Lhbb;->a:Landroid/content/Context;
 
-    const v0, 0x7f1229ee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shortcut_install_success:I
 
     const/4 v1, 0x1
 

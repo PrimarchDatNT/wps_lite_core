@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e095a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_dlg_panel_with_back_layout:I
 
     const/4 v2, 0x0
 
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lypg;->c:Landroid/view/View;
 
-    const v1, 0x7f0b215a
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
     .line 4
     iget-object v0, p0, Lypg;->c:Landroid/view/View;
 
-    const v1, 0x7f0b2167
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_title_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 5
     iget-object v0, p0, Lypg;->c:Landroid/view/View;
 
-    const v1, 0x7f0b2164
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_nav_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -177,7 +177,7 @@
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
     .locals 2
 
-    const p3, 0x7f0b0bfe
+    sget p3, Lcom/resouce/module/ResID;->expand_item:I
 
     if-nez p2, :cond_0
 
@@ -188,7 +188,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0836
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_bookmark_item_layout:I
 
     const/4 v1, 0x0
 
@@ -310,14 +310,14 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0793
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_bookmark_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0b1d6f
+    sget p3, Lcom/resouce/module/ResID;->pdf_bookmark_item_icon:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     check-cast p3, Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b1d6e
+    sget v0, Lcom/resouce/module/ResID;->pdf_bookmark_item_content:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -335,7 +335,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d75
+    sget v1, Lcom/resouce/module/ResID;->pdf_bookmark_time_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -344,7 +344,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1d72
+    sget v2, Lcom/resouce/module/ResID;->pdf_bookmark_progress:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0835
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_bookmark_delete:I
 
     invoke-virtual {p1, p2, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -489,7 +489,7 @@
 .method public m()I
     .locals 1
 
-    const v0, 0x7f0b1fa3
+    sget v0, Lcom/resouce/module/ResID;->phone_bookmark_item_delete:I
 
     return v0
 .end method
@@ -497,7 +497,7 @@
 .method public n()I
     .locals 1
 
-    const v0, 0x7f0b1fa5    # 1.84927E38f
+    sget v0, Lcom/resouce/module/ResID;->phone_bookmark_item_rename:I    # 1.84927E38f
 
     return v0
 .end method

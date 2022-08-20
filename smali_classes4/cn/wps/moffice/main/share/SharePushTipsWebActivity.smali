@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0810d0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_home_message_tips_close_white:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/title/BusinessBaseTitle;->setBackBg(I)V
 
@@ -289,7 +289,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setNeedSecondText(ZI)V
 

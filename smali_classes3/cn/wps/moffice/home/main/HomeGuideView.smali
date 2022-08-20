@@ -782,7 +782,7 @@
 
     move-result-object v8
 
-    const v11, 0x7f0603c2
+    sget v11, Lcom/resouce/module/ResCOLOR;->novels_chapter_text_select_color:I
 
     invoke-virtual {v8, v11}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1074,7 +1074,7 @@
     invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
     :cond_1
-    const v0, 0x7f060666
+    sget v0, Lcom/resouce/module/ResCOLOR;->transparent:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V

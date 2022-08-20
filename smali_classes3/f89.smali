@@ -226,7 +226,7 @@
     .line 2
     iget-object v1, p0, Lf89;->h0:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e08d9
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_search_app_show_page:I
 
     const/4 v3, 0x1
 
@@ -274,7 +274,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b20da
+    sget v0, Lcom/resouce/module/ResID;->phone_public_history_clean:I
 
     if-ne p1, v0, :cond_1
 
@@ -293,7 +293,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b20c0
+    sget v0, Lcom/resouce/module/ResID;->phone_public_category_more:I
 
     if-ne p1, v0, :cond_3
 
@@ -357,7 +357,7 @@
     .line 1
     iget-object v0, p0, Lf89;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b29ad
+    sget v1, Lcom/resouce/module/ResID;->root_hot_search_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
 
     iput-object v0, p0, Lf89;->g0:Landroid/view/View;
 
-    const v1, 0x7f0b20f9
+    sget v1, Lcom/resouce/module/ResID;->phone_public_recommend_flowlayout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -379,7 +379,7 @@
     .line 3
     iget-object v0, p0, Lf89;->g0:Landroid/view/View;
 
-    const v1, 0x7f0b20da
+    sget v1, Lcom/resouce/module/ResID;->phone_public_history_clean:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -442,7 +442,7 @@
     .line 1
     iget-object v0, p0, Lf89;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2834
+    sget v1, Lcom/resouce/module/ResID;->recommend_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -453,7 +453,7 @@
     .line 2
     iget-object v0, p0, Lf89;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2835
+    sget v1, Lcom/resouce/module/ResID;->recommend_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -504,7 +504,7 @@
     .line 7
     iget-object v0, p0, Lg89;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b20c0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_category_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -515,7 +515,7 @@
     .line 8
     iget-object v0, p0, Lg89;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b20c1
+    sget v1, Lcom/resouce/module/ResID;->phone_public_category_more_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,7 +652,7 @@
 
     iget-object v4, p0, Lg89;->S:Landroid/app/Activity;
 
-    const v6, 0x7f0e082e
+    sget v6, Lcom/resouce/module/ResLAYOUT;->phone_public_app_recommend_item:I
 
     const/4 v8, 0x0
 

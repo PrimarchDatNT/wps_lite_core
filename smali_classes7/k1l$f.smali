@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120ce0
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_translation_hint:I
 
     const/4 v1, 0x1
 

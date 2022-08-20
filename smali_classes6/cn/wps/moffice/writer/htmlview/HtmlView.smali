@@ -515,7 +515,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1232f5
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_html_editor_not_supported:I
 
     const/4 v1, 0x0
 

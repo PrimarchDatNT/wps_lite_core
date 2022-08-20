@@ -26,9 +26,9 @@
     .line 2
     new-instance v0, Ltrd$a;
 
-    const v1, 0x7f080dcf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_pen_color:I
 
-    const v2, 0x7f122376
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_pen:I
 
     invoke-direct {v0, p0, v1, v2}, Ltrd$a;-><init>(Ltrd;II)V
 
@@ -37,9 +37,9 @@
     .line 3
     new-instance v0, Ltrd$b;
 
-    const v1, 0x7f080dca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_highlighter_color:I
 
-    const v2, 0x7f122375
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_highlighter:I
 
     invoke-direct {v0, p0, v1, v2}, Ltrd$b;-><init>(Ltrd;II)V
 
@@ -48,9 +48,9 @@
     .line 4
     new-instance v0, Ltrd$c;
 
-    const v1, 0x7f080db4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_eraser_color:I
 
-    const v2, 0x7f122374
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_eraser:I
 
     invoke-direct {v0, p0, v1, v2}, Ltrd$c;-><init>(Ltrd;II)V
 

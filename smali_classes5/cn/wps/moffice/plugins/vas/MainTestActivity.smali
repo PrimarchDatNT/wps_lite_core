@@ -21,12 +21,12 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0a50
+    sget p1, Lcom/resouce/module/ResLAYOUT;->plugin_activity_main:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    const p1, 0x7f0b2ee4
+    sget p1, Lcom/resouce/module/ResID;->test:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0
-    const p1, 0x7f0b2d87    # 1.8499908E38f
+    sget p1, Lcom/resouce/module/ResID;->start_convert_pdf:I    # 1.8499908E38f
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

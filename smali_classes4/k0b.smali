@@ -410,7 +410,7 @@
     .line 1
     iget-object p1, p0, Lk0b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1066,7 +1066,7 @@
     .line 2
     iget-object p1, p0, Lk0b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122840
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1734,7 +1734,7 @@
     :goto_0
     iget-object p1, p0, Lk0b;->B:Landroid/app/Activity;
 
-    const p2, 0x7f120450
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_tip:I
 
     const/4 v0, 0x0
 
@@ -1922,7 +1922,7 @@
 
     iget-object v1, p0, Lk0b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f1204a7
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2026,7 +2026,7 @@
     .line 2
     iget-object p1, p0, Lk0b;->B:Landroid/app/Activity;
 
-    const p2, 0x7f122840
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v0, 0x0
 

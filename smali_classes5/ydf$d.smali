@@ -49,7 +49,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f121972
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_share_panel_share_to_clipboard:I
 
     return v0
 .end method

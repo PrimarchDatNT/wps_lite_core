@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
-        <TextView android:textSize="18.0sp" android:textColor="@color/subTextColor" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <ImageView android:id="@id/drop_down_iv" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/all_category_arrow_down" android:scaleType="fitXY" android:layout_marginStart="4.0dip" />
-    </LinearLayout>
-    <View android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</LinearLayout>

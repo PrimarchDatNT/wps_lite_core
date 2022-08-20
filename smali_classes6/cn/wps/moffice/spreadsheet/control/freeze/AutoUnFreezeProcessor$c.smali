@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1208bf
+    sget v0, Lcom/resouce/module/ResSTRING;->et_freeze_restore_tip:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

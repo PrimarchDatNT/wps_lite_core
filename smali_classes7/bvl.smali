@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a19
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_st_translation_dialog:I
 
     const/4 v2, 0x0
 
@@ -387,7 +387,7 @@
     .line 3
     iget-object v0, p0, Lbvl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b02d5
+    sget v1, Lcom/resouce/module/ResID;->btn_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
     .line 4
     iget-object v0, p0, Lbvl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b326d
+    sget v1, Lcom/resouce/module/ResID;->tv_st_result:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
     .line 5
     iget-object v0, p0, Lbvl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b326a
+    sget v1, Lcom/resouce/module/ResID;->tv_st_language:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -424,7 +424,7 @@
     .line 6
     iget-object v0, p0, Lbvl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b326b
+    sget v1, Lcom/resouce/module/ResID;->tv_st_language_first:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -437,7 +437,7 @@
     .line 7
     iget-object v0, p0, Lbvl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b326c
+    sget v1, Lcom/resouce/module/ResID;->tv_st_language_second:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
     .line 11
     iget-object v0, p0, Lbvl;->d:Landroid/widget/Button;
 
-    const v1, 0x7f122ff5
+    sget v1, Lcom/resouce/module/ResSTRING;->st_convert_fullconversion:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -479,7 +479,7 @@
     :cond_0
     iget-object v0, p0, Lbvl;->d:Landroid/widget/Button;
 
-    const v1, 0x7f122ff3
+    sget v1, Lcom/resouce/module/ResSTRING;->st_convert_convertnow:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -523,7 +523,7 @@
     .line 1
     new-instance v6, Lbvl$d;
 
-    const v3, 0x7f130131
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_Alpha:I
 
     const/4 v4, 0x1
 
@@ -773,7 +773,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122fee
+    sget v2, Lcom/resouce/module/ResSTRING;->st_convert_converting:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -788,7 +788,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -857,11 +857,11 @@
     .line 5
     invoke-virtual {v1, v0}, Lkib;->C(I)V
 
-    const v0, 0x7f08077d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_st_convert:I
 
-    const v2, 0x7f122ff7
+    sget v2, Lcom/resouce/module/ResSTRING;->st_convert_title:I
 
-    const v3, 0x7f122ff4
+    sget v3, Lcom/resouce/module/ResSTRING;->st_convert_desc:I
 
     const/4 v4, 0x1
 
@@ -995,9 +995,9 @@
     .line 2
     iget p1, p0, Lbvl;->b:I
 
-    const v0, 0x7f122fef
+    sget v0, Lcom/resouce/module/ResSTRING;->st_convert_converting_arrow_sim:I
 
-    const v1, 0x7f122ff0
+    sget v1, Lcom/resouce/module/ResSTRING;->st_convert_converting_arrow_tran:I
 
     const/4 v2, 0x1
 

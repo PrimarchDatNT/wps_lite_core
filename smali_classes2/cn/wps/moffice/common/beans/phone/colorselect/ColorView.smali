@@ -1245,7 +1245,7 @@
 
     iput p1, p0, Lcn/wps/moffice/common/beans/phone/colorselect/ColorView;->c0:F
 
-    const p1, 0x7f08193a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_grid_item_bg_selector:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1403,7 +1403,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0811d9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_coloritem_select:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1424,7 +1424,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f08193a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_grid_item_bg_selector:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V

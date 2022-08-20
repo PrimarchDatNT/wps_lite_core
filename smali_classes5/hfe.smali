@@ -283,14 +283,14 @@
     .line 9
     iget-object p2, p0, Lhfe;->d0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f08155e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_template:I
 
     invoke-virtual {p2, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
     .line 10
     iget-object p2, p0, Lhfe;->d0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f123093
+    sget v1, Lcom/resouce/module/ResSTRING;->template_none:I
 
     invoke-virtual {p2, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -434,7 +434,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703a8
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_template_section_padding:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -983,14 +983,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fa9
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_list_section:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b085a
+    sget v1, Lcom/resouce/module/ResID;->empty_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1006,7 +1006,7 @@
     .line 4
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2ed0
+    sget v1, Lcom/resouce/module/ResID;->template_list_section_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1042,7 +1042,7 @@
     .line 8
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b054c
+    sget v1, Lcom/resouce/module/ResID;->content_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

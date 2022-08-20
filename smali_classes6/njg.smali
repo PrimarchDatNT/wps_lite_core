@@ -255,7 +255,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d79
+    sget v0, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v1, p0, Lnjg;->I:Lcn/wps/moffice/spreadsheet/control/quicklayout/QuickLayoutFragment;
 

@@ -293,7 +293,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205c7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -307,7 +307,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -321,7 +321,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -340,7 +340,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205cb
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage8:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -354,7 +354,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120649
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_open_failed:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 
@@ -368,7 +368,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 

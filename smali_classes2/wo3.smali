@@ -206,7 +206,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c02
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_flow_view:I
 
     const/4 v1, 0x0
 

@@ -435,7 +435,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121501
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_transfer_fail_wifi:I
 
     .line 2
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -448,7 +448,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1214f9
+    sget v0, Lcom/resouce/module/ResSTRING;->offline_search_fail_wifi:I
 
     .line 4
     invoke-static {p0, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -767,7 +767,7 @@
 .method public a3()I
     .locals 1
 
-    const v0, 0x7f12157d
+    sget v0, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     return v0
 .end method
@@ -1138,7 +1138,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0062
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_wifi_direct:I
 
     const/4 v2, 0x0
 
@@ -1160,7 +1160,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2f41
+    sget v1, Lcom/resouce/module/ResID;->text_views:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1173,7 +1173,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b27b8
+    sget v1, Lcom/resouce/module/ResID;->radarView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1186,7 +1186,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0677
+    sget v1, Lcom/resouce/module/ResID;->device_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1199,7 +1199,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2ab1
+    sget v1, Lcom/resouce/module/ResID;->search_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1212,7 +1212,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1815
+    sget v1, Lcom/resouce/module/ResID;->marquee_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1225,7 +1225,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2a4a
+    sget v1, Lcom/resouce/module/ResID;->search_again_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1238,7 +1238,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2a4b
+    sget v1, Lcom/resouce/module/ResID;->search_again_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1313,7 +1313,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/offlinetransfer/WifiDirectActivity;->Y:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f12157d
+    sget v2, Lcom/resouce/module/ResSTRING;->operation_offline_transfer:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

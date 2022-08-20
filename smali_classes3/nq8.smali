@@ -69,11 +69,11 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1205e7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
-    const v2, 0x7f12066d
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_logout_dialog_content_hasedit:I
 
-    const v3, 0x7f1205e7
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     const/4 v5, 0x0
 

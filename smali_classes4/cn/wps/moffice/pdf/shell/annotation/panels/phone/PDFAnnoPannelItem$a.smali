@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1db9
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_annotation_check_icon:I
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1db8    # 1.84917E38f
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_annotation_bottom_item_img:I    # 1.84917E38f
 
     if-ne p1, v0, :cond_1
 

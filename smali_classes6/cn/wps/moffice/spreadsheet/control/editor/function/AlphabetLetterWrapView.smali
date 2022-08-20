@@ -67,13 +67,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01aa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_alphabetletterwrapview_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0a74
+    sget v0, Lcom/resouce/module/ResID;->et_function_alphabltletterview:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

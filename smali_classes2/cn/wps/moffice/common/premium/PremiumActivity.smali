@@ -91,17 +91,17 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/common/beans/CommonErrorPage;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f081555
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     .line 3
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 5
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -139,17 +139,17 @@
     :cond_1
     iput p1, p0, Lcn/wps/moffice/common/premium/PremiumActivity;->S:I
 
-    const v0, 0x7f0b26cc
+    sget v0, Lcom/resouce/module/ResID;->public_premium_title_tab_fonts_btn:I
 
     const-string v1, "show"
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     const/4 v3, 0x0
 
     const/4 v4, 0x4
 
-    const v5, 0x7f06048b
+    sget v5, Lcom/resouce/module/ResCOLOR;->phone_public_white_unselected:I
 
     if-ne p1, v0, :cond_3
 
@@ -530,11 +530,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f122815
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
-    const v0, 0x7f0b26cc
+    sget v0, Lcom/resouce/module/ResID;->public_premium_title_tab_fonts_btn:I
 
     .line 4
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/premium/PremiumActivity;->E2(I)V
@@ -553,11 +553,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c8e
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
-    const v0, 0x7f0b26d0
+    sget v0, Lcom/resouce/module/ResID;->public_premium_title_tab_subs_btn:I
 
     .line 7
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/premium/PremiumActivity;->E2(I)V
@@ -574,7 +574,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dea
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_premium_title_tab_layout:I
 
     const/4 v2, 0x0
 
@@ -582,7 +582,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26d0
+    sget v1, Lcom/resouce/module/ResID;->public_premium_title_tab_subs_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -593,7 +593,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/premium/PremiumActivity;->T:Landroid/widget/Button;
 
-    const v1, 0x7f0b26d1
+    sget v1, Lcom/resouce/module/ResID;->public_premium_title_tab_subs_divide_line:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -602,7 +602,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/premium/PremiumActivity;->U:Landroid/view/View;
 
-    const v1, 0x7f0b26cc
+    sget v1, Lcom/resouce/module/ResID;->public_premium_title_tab_fonts_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -613,7 +613,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/premium/PremiumActivity;->V:Landroid/widget/Button;
 
-    const v1, 0x7f0b26cd
+    sget v1, Lcom/resouce/module/ResID;->public_premium_title_tab_fonts_divide_line:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

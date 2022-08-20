@@ -197,7 +197,7 @@
 
     iget-object v2, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v3, 0x7f12108a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -252,7 +252,7 @@
 
     invoke-direct {v0, p0}, Lsil$d;-><init>(Lsil;)V
 
-    const v1, 0x7f0b24ef
+    sget v1, Lcom/resouce/module/ResID;->preview_back_img:I
 
     const-string v2, "read-preview-back"
 
@@ -263,7 +263,7 @@
 
     invoke-direct {v0, p0}, Lsil$e;-><init>(Lsil;)V
 
-    const v1, 0x7f0b3045
+    sget v1, Lcom/resouce/module/ResID;->to_buy_member_btn:I
 
     const-string v2, "to_buy_member"
 
@@ -274,7 +274,7 @@
 
     invoke-direct {v0, p0}, Lsil$f;-><init>(Lsil;)V
 
-    const v1, 0x7f0b3046
+    sget v1, Lcom/resouce/module/ResID;->to_buy_premium_btn:I
 
     const-string v2, "to_buy_premium"
 
@@ -327,7 +327,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x0
 
@@ -371,7 +371,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ecf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_writer_read_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -381,7 +381,7 @@
 
     iput-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b24ef
+    sget v1, Lcom/resouce/module/ResID;->preview_back_img:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -404,7 +404,7 @@
     :cond_0
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b3012
+    sget v1, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 6
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b0552
+    sget v1, Lcom/resouce/module/ResID;->content_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -430,7 +430,7 @@
     .line 7
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b24f1
+    sget v1, Lcom/resouce/module/ResID;->preview_bg_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 8
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2553
+    sget v1, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -599,7 +599,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120fb1
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -611,7 +611,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f1211bc
+    sget v0, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -642,7 +642,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c8d
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_free_button:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -689,7 +689,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b53
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -751,7 +751,7 @@
 
     iget-object v1, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v2, 0x7f1227a7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_read_background:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -771,7 +771,7 @@
     .line 3
     iget-object v0, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v2, 0x7f1210ce
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_writer_read_option_desc:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -786,7 +786,7 @@
 
     const/16 v3, 0x14
 
-    const v4, 0x7f0b3045
+    sget v4, Lcom/resouce/module/ResID;->to_buy_member_btn:I
 
     const/4 v5, 0x1
 
@@ -799,7 +799,7 @@
 
     iget-object v5, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v6, 0x7f120fd8
+    sget v6, Lcom/resouce/module/ResSTRING;->home_membership_type_silver:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -816,7 +816,7 @@
     .line 6
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b1844
+    sget v1, Lcom/resouce/module/ResID;->member_card_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -852,7 +852,7 @@
 
     iget-object v5, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v6, 0x7f120fd7
+    sget v6, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -869,7 +869,7 @@
     .line 12
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2de4    # 1.8500097E38f
+    sget v1, Lcom/resouce/module/ResID;->super_member_card_layout:I    # 1.8500097E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -930,7 +930,7 @@
 
     iget-object v2, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v3, 0x7f1226a2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_read_background_tip:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -944,7 +944,7 @@
 
     iget-object v2, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v3, 0x7f1226a1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_read_background_desc:I
 
     .line 20
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -965,7 +965,7 @@
     .line 22
     iget-object v0, p0, Lsil;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b3046
+    sget v2, Lcom/resouce/module/ResID;->to_buy_premium_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
     .line 5
     iget-object v0, p0, Lsil;->e0:Landroid/app/Activity;
 
-    const v1, 0x7f1211ab
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     const/4 v2, 0x0
 

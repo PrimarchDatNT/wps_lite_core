@@ -1737,7 +1737,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122a2d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_help_url_zh:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1747,7 +1747,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122a2c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant_help_url:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2191,7 +2191,7 @@
 
     invoke-virtual {v0, v2, v3, v1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const v1, 0x7f0e0e69
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_storage_permission_grant_tip_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -2208,11 +2208,11 @@
 
     invoke-direct {v1, v0}, Lb65$b;-><init>(Lhd3;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f0b32c7
+    sget v1, Lcom/resouce/module/ResID;->txt_go_for_help:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -2230,7 +2230,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2240,7 +2240,7 @@
 
     invoke-direct {v2, p0, p1, p2}, Lb65$d;-><init>(Landroid/content/Context;Ljava/lang/String;Z)V
 
-    const p0, 0x7f122a2a
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_grant:I
 
     invoke-virtual {v0, p0, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

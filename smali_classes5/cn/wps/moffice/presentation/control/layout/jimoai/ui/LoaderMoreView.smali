@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0f47
+    sget p2, Lcom/resouce/module/ResLAYOUT;->smart_layout_load_more:I
 
     const/4 p3, 0x1
 

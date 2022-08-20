@@ -287,7 +287,7 @@
     .line 7
     aget v1, v1, v4
 
-    const v4, 0x7f0b2e7e
+    sget v4, Lcom/resouce/module/ResID;->tag_map:I
 
     .line 8
     invoke-virtual {p2, v4}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -444,7 +444,7 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f0606a8
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_red:I
 
     .line 23
     invoke-virtual {p1, v1}, Landroid/view/View;->setBackgroundResource(I)V

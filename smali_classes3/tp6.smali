@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00e7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_guessed_match_files_select:I
 
     const/4 v2, 0x0
 
@@ -123,7 +123,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b162f
+    sget v0, Lcom/resouce/module/ResID;->list_view_content:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object v0, p0, Ltp6;->I:Landroid/widget/ListView;
 
-    const v0, 0x7f0b02eb
+    sget v0, Lcom/resouce/module/ResID;->btn_negative:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object v0, p0, Ltp6;->S:Landroid/widget/Button;
 
-    const v0, 0x7f0b02f5
+    sget v0, Lcom/resouce/module/ResID;->btn_positive:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02eb
+    sget v0, Lcom/resouce/module/ResID;->btn_negative:I
 
     if-ne p1, v0, :cond_0
 
@@ -279,7 +279,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b02f5
+    sget v0, Lcom/resouce/module/ResID;->btn_positive:I
 
     if-ne p1, v0, :cond_1
 

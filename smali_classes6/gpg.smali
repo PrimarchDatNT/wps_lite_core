@@ -225,7 +225,7 @@
     :cond_0
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817bc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_member_42:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -236,7 +236,7 @@
     :cond_1
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817cc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -247,7 +247,7 @@
     :cond_2
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817a8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_42:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -277,7 +277,7 @@
     .line 11
     invoke-virtual {p0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0808a3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -552,7 +552,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1228,7 +1228,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f122fd7
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_longpic_click_title_tips:I
 
     .line 9
     invoke-static {p1, v1}, Lsjf;->h(II)V

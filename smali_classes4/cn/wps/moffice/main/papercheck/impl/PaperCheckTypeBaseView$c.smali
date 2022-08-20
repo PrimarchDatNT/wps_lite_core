@@ -54,7 +54,7 @@
 
     const-string p4, ""
 
-    const p5, 0x7f1215e3
+    sget p5, Lcom/resouce/module/ResSTRING;->paper_check_engine_paper_name_too_long_tip:I
 
     const/4 p6, 0x1
 

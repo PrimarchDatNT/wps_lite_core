@@ -80,12 +80,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e06ed
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_birthday_selector_layout:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0e0532
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_birthday_selector_layout:I
 
     :goto_1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -194,7 +194,7 @@
     .line 2
     invoke-virtual {p3, p1, p2}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    const p1, 0x7f0b0221
+    sget p1, Lcom/resouce/module/ResID;->birthday_date_picker:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

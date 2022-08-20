@@ -277,7 +277,7 @@
 
     invoke-static {p1, v0}, Lhh5;->e(Landroid/view/Window;Z)V
 
-    const p1, 0x7f0e0034
+    sget p1, Lcom/resouce/module/ResLAYOUT;->activity_drive_photo_viewer:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V

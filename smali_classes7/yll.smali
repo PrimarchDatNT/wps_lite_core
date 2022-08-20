@@ -155,7 +155,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122710
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_select_print_service:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -196,7 +196,7 @@
     .line 3
     new-instance v3, Lrf3;
 
-    const v4, 0x7f122716
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_system_print_service:I
 
     iget v5, p0, Lyll;->g0:I
 
@@ -240,7 +240,7 @@
     :cond_2
     new-instance v1, Lrf3;
 
-    const v2, 0x7f121e8c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_print:I
 
     iget v3, p0, Lyll;->h0:I
 
@@ -261,7 +261,7 @@
     .line 8
     new-instance v1, Lrf3;
 
-    const v2, 0x7f1226c7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_enterprise_epson:I
 
     iget v3, p0, Lyll;->i0:I
 
@@ -273,7 +273,7 @@
     :cond_4
     new-instance v1, Lrf3;
 
-    const v2, 0x7f1226ba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_as_ps:I
 
     iget v3, p0, Lyll;->j0:I
 
@@ -294,22 +294,22 @@
 .method public final t2()V
     .locals 1
 
-    const v0, 0x7f081b4c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_system:I
 
     .line 1
     iput v0, p0, Lyll;->g0:I
 
-    const v0, 0x7f081b49
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_cloud:I
 
     .line 2
     iput v0, p0, Lyll;->h0:I
 
-    const v0, 0x7f081b4a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_epson:I
 
     .line 3
     iput v0, p0, Lyll;->i0:I
 
-    const v0, 0x7f081b4b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_print_service_saveas_file:I
 
     .line 4
     iput v0, p0, Lyll;->j0:I
@@ -353,7 +353,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1226cc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_file_with_plain_watermark:I
 
     goto :goto_0
 
@@ -361,7 +361,7 @@
     :cond_0
     iget-object p1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v0, 0x7f1226cd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_file_without_plain_watermark:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12006e
+    sget v2, Lcom/resouce/module/ResSTRING;->ad_complaint_choose_reason:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120073
+    sget v2, Lcom/resouce/module/ResSTRING;->ad_complaint_problem_hint:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -231,7 +231,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120075
+    sget v4, Lcom/resouce/module/ResSTRING;->ad_complaint_submit_success:I
 
     invoke-static {v3, v4, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -300,7 +300,7 @@
 
     iget-object v1, p0, Liu6;->S:Landroid/widget/RadioGroup;
 
-    const v2, 0x7f0e0b05
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_ad_complaint_option_item:I
 
     const/4 v3, 0x0
 
@@ -551,7 +551,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0d35
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_oversea_ad_complaint_view:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
@@ -561,7 +561,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120076
+    sget v0, Lcom/resouce/module/ResSTRING;->ad_complaint_title:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -569,7 +569,7 @@
 
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setTitle(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2910
+    sget p1, Lcom/resouce/module/ResID;->rg_options:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     iput-object p1, p0, Liu6;->S:Landroid/widget/RadioGroup;
 
-    const p1, 0x7f0b0b38
+    sget p1, Lcom/resouce/module/ResID;->et_problem:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -591,7 +591,7 @@
 
     iput-object p1, p0, Liu6;->T:Landroid/widget/EditText;
 
-    const p1, 0x7f0b328a
+    sget p1, Lcom/resouce/module/ResID;->tv_text_length:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -602,7 +602,7 @@
 
     iput-object p1, p0, Liu6;->U:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0306
+    sget p1, Lcom/resouce/module/ResID;->btn_summit:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

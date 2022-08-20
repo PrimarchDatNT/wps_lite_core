@@ -23,7 +23,7 @@
 .method public constructor <init>(Llnf;I)V
     .locals 1
 
-    const v0, 0x7f0e0204
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_number_numeric:I
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lynf;-><init>(Llnf;II)V
@@ -31,7 +31,7 @@
     .line 2
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const p2, 0x7f0b0acd
+    sget p2, Lcom/resouce/module/ResID;->et_number_numeric_preview:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -74,7 +74,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f12205a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v0, 0x1
 
@@ -411,7 +411,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -429,7 +429,7 @@
     .line 1
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0ace
+    sget v0, Lcom/resouce/module/ResID;->et_number_numeric_spinner01:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -446,7 +446,7 @@
     .line 2
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0acf
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_spinner02:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -461,7 +461,7 @@
     .line 3
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0acc
+    sget v1, Lcom/resouce/module/ResID;->et_number_numeric_edittext_spinner:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

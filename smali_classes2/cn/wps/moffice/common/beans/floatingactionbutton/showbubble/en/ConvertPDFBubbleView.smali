@@ -771,13 +771,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e083c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_bubble_picture_convert:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b14a6
+    sget v0, Lcom/resouce/module/ResID;->iv_picture_display:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -791,7 +791,7 @@
     .line 3
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0297
+    sget v0, Lcom/resouce/module/ResID;->bt_bubble_picture_display:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -803,7 +803,7 @@
     .line 5
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b141d
+    sget v0, Lcom/resouce/module/ResID;->iv_bubble_close:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -856,18 +856,18 @@
 
     const-string v8, "pic2pdf"
 
-    const v9, 0x7f0b14a6
+    sget v9, Lcom/resouce/module/ResID;->iv_picture_display:I
 
     if-eq p1, v9, :cond_1
 
-    const v9, 0x7f0b0297
+    sget v9, Lcom/resouce/module/ResID;->bt_bubble_picture_display:I
 
     if-ne p1, v9, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v9, 0x7f0b141d
+    sget v9, Lcom/resouce/module/ResID;->iv_bubble_close:I
 
     if-ne p1, v9, :cond_5
 
@@ -996,7 +996,7 @@
     .line 18
     invoke-virtual {v9, v10, v13}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    const v10, 0x7f122981
+    sget v10, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     .line 19
     invoke-virtual {p1, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;

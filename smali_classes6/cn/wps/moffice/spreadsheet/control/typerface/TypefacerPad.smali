@@ -219,7 +219,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0701da
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_font_size_dialog_item_height:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -232,7 +232,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070ab8
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -241,7 +241,7 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
     .line 3
     invoke-virtual {p1}, Landroid/widget/EditText;->selectAll()V
 
-    const p1, 0x7f1208aa
+    sget p1, Lcom/resouce/module/ResSTRING;->et_font_size_error:I
 
     .line 4
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -752,7 +752,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->T:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b04b7
+    sget v1, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -767,7 +767,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->T:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -843,7 +843,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->d0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b0a58
+    sget v1, Lcom/resouce/module/ResID;->et_font_size_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1136,7 +1136,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->d0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b0a58
+    sget v2, Lcom/resouce/module/ResID;->et_font_size_edittext:I
 
     if-nez v1, :cond_0
 
@@ -1147,7 +1147,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e01f3
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_font_size_dialog:I
 
     const/4 v4, 0x0
 
@@ -1172,7 +1172,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->d0:Landroid/widget/FrameLayout;
 
-    const v3, 0x7f0b0a59
+    sget v3, Lcom/resouce/module/ResID;->et_font_size_list_view:I
 
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1509,7 +1509,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1881,7 +1881,7 @@
     .line 14
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/TypefacerPad;->S:Landroid/content/Context;
 
-    const v3, 0x7f0e0513
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     const/4 v4, 0x0
 
@@ -1889,7 +1889,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b1bc8
+    sget v3, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

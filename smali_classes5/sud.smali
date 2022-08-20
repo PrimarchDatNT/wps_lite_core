@@ -58,7 +58,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lcn/wps/show/app/KmoPresentation;Lsud$g;)V
     .locals 1
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -423,7 +423,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cf6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_merge_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -461,13 +461,13 @@
 
     move-result-object v0
 
-    const v2, 0x7f0606b3
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v2, 0x7f0b2fdf
+    sget v2, Lcom/resouce/module/ResID;->title_bar_container:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
 
     iput-object v2, p0, Lsud;->X:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v4, 0x7f121826
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_merge:I
 
     .line 7
     invoke-virtual {v2, v4}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -486,9 +486,9 @@
     .line 8
     iget-object v2, p0, Lsud;->X:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v4, 0x7f0b08a3
+    sget v4, Lcom/resouce/module/ResID;->enter_delete_mode_btn:I
 
-    const v5, 0x7f08189c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_delete:I
 
     invoke-virtual {v2, v4, v5, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->m(III)V
 
@@ -541,7 +541,7 @@
     .line 15
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0b00a9
+    sget v0, Lcom/resouce/module/ResID;->add_file_tips:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
 
     iput-object v0, p0, Lsud;->d0:Ltud;
 
-    const v0, 0x7f0b187a
+    sget v0, Lcom/resouce/module/ResID;->merge_files_list:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -584,11 +584,11 @@
     .line 20
     iget-object v0, p0, Lsud;->c0:Lcn/wps/moffice/common/beans/DragSortListView;
 
-    const v1, 0x7f0b1873
+    sget v1, Lcom/resouce/module/ResID;->merge_file_handle:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/DragSortListView;->setDragHandleId(I)V
 
-    const v0, 0x7f0b0248
+    sget v0, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -597,7 +597,7 @@
 
     iput-object v0, p0, Lsud;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -606,7 +606,7 @@
 
     iput-object v0, p0, Lsud;->f0:Landroid/view/View;
 
-    const v0, 0x7f0b1870
+    sget v0, Lcom/resouce/module/ResID;->merge_btn:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -615,7 +615,7 @@
 
     iput-object v0, p0, Lsud;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b1882
+    sget v0, Lcom/resouce/module/ResID;->merge_sort_desc:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -624,7 +624,7 @@
 
     iput-object v0, p0, Lsud;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b0646
+    sget v0, Lcom/resouce/module/ResID;->delete_confirm_btn:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -740,7 +740,7 @@
     .line 6
     iget-object p1, p0, Lsud;->X:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-virtual {p1, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -787,7 +787,7 @@
     .line 14
     iget-object p1, p0, Lsud;->X:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f121826
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_merge:I
 
     invoke-virtual {p1, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -858,7 +858,7 @@
     .line 5
     iget-object v2, p0, Lsud;->a0:Landroid/widget/TextView;
 
-    const v3, 0x7f122551
+    sget v3, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -868,7 +868,7 @@
     :cond_0
     iget-object v2, p0, Lsud;->a0:Landroid/widget/TextView;
 
-    const v3, 0x7f1228d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -876,7 +876,7 @@
     :goto_0
     iget-object v2, p0, Lsud;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121fbd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete_doc_count:I
 
     const/4 v4, 0x1
 

@@ -329,7 +329,7 @@
     :cond_0
     iget-object v1, p0, Lcn/wps/moffice/presentation/control/miracastplay/miui/RomMiracastPlayer;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f1229bc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

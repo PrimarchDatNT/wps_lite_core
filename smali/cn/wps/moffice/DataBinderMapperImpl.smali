@@ -20,77 +20,77 @@
 
     sput-object v0, Lcn/wps/moffice/DataBinderMapperImpl;->a:Landroid/util/SparseIntArray;
 
-    const v2, 0x7f0e006c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->adapter_item_premium_renew_payment:I
 
     const/4 v3, 0x1
 
     .line 2
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e00f5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_premium_renew_notify:I
 
     const/4 v3, 0x2
 
     .line 3
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e03c4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_user_fragment:I
 
     const/4 v3, 0x3
 
     .line 4
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e03d2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_user_property_item:I
 
     const/4 v3, 0x4
 
     .line 5
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e044d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->layout_guide_file_tips_content_binding:I
 
     const/4 v3, 0x5
 
     .line 6
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e091e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_secret_folder_introduce_layout:I
 
     const/4 v3, 0x6
 
     .line 7
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e09d7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_item_layout:I
 
     const/4 v3, 0x7
 
     .line 8
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e0a1b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_info:I
 
     const/16 v3, 0x8
 
     .line 9
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e0a1c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_table_info_item:I
 
     const/16 v3, 0x9
 
     .line 10
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e0a30
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_user_table_item:I
 
     const/16 v3, 0xa
 
     .line 11
     invoke-virtual {v0, v2, v3}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v2, 0x7f0e0e23
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_secret_folder_settings_layout:I
 
     .line 12
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseIntArray;->put(II)V

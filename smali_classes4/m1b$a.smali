@@ -53,7 +53,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0ef9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_rectify_direction_popup_tip:I
 
     const/4 v2, 0x0
 
@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b14b8
+    sget v2, Lcom/resouce/module/ResID;->iv_rotate:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

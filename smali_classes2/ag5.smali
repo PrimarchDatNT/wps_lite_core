@@ -18,7 +18,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f122a44
+    sget v0, Lcom/resouce/module/ResSTRING;->public_sys_setting:I
 
     return v0
 .end method

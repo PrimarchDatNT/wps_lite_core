@@ -198,7 +198,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121d3b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
@@ -469,7 +469,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122684
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_lost_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -483,7 +483,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1226a0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_privilege_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -501,7 +501,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1226ad
+    sget v0, Lcom/resouce/module/ResSTRING;->public_premium_unlock_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

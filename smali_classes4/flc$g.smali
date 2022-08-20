@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1217cc
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_edit_keep_modify:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -59,7 +59,7 @@
 
     invoke-direct {v1, p0}, Lflc$g$a;-><init>(Lflc$g;)V
 
-    const v2, 0x7f1223d6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -68,7 +68,7 @@
 
     invoke-direct {v1, p0}, Lflc$g$b;-><init>(Lflc$g;)V
 
-    const v2, 0x7f1217cb
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_edit_keep:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

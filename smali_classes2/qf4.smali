@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00fd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_set_as_editable_docs_prompt:I
 
     const/4 v2, 0x0
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b02d8
+    sget v1, Lcom/resouce/module/ResID;->btn_got_it:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

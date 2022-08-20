@@ -16,7 +16,7 @@
 .method public static a(Landroid/widget/TextView;)V
     .locals 2
 
-    const v0, 0x7f0b2e6e
+    sget v0, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->getTag(I)Ljava/lang/Object;
@@ -76,7 +76,7 @@
 
     invoke-direct {v0, p0, p1}, Lmk5;-><init>(Llk5;Landroid/widget/TextView;)V
 
-    const p0, 0x7f0b2e6e
+    sget p0, Lcom/resouce/module/ResID;->tag_font_request:I
 
     .line 5
     invoke-virtual {p1, p0, v0}, Landroid/widget/TextView;->setTag(ILjava/lang/Object;)V

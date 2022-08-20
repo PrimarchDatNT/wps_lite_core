@@ -126,11 +126,11 @@
     .line 11
     invoke-virtual {v1, v0}, Lkib;->C(I)V
 
-    const v0, 0x7f080713
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_audiocomment:I
 
-    const v3, 0x7f122340
+    sget v3, Lcom/resouce/module/ResSTRING;->public_iat_audiocomment:I
 
-    const v4, 0x7f12233b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_iat_addAudioComment_description:I
 
     const/4 v5, 0x1
 

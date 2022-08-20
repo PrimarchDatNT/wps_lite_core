@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0718
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_home_gradient_banner_layout:I
 
     const/4 v0, 0x0
 
@@ -115,7 +115,7 @@
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
-    const p1, 0x7f0b0f36
+    sget p1, Lcom/resouce/module/ResID;->gradient_banner_img:I
 
     .line 10
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
     .line 11
     invoke-virtual {p1, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0f35
+    sget p1, Lcom/resouce/module/ResID;->gradient_banner_container:I
 
     .line 12
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     iput-object p1, p0, Lcna;->I:Landroid/view/View;
 
-    const p1, 0x7f0b0f33
+    sget p1, Lcom/resouce/module/ResID;->gradient_banner_ad_sign:I
 
     .line 13
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     iput-object p1, p0, Lcna;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0f34
+    sget p1, Lcom/resouce/module/ResID;->gradient_banner_ad_spread_close:I
 
     .line 14
     invoke-virtual {p2, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

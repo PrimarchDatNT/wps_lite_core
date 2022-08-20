@@ -43,7 +43,7 @@
 
     iget-object p1, p1, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v0, 0x7f0b1e42
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_add_sign:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

@@ -64,7 +64,7 @@
 .method public constructor <init>(Llnf;)V
     .locals 4
 
-    const v0, 0x7f1226f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_pagesize_custom:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lgof;-><init>(Llnf;I)V
@@ -99,7 +99,7 @@
 
     iget-object v1, p0, Lynf;->a:Landroid/content/Context;
 
-    const v2, 0x7f0e0250
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v0, p0, v1, v2}, Lbof$d;-><init>(Lbof;Landroid/content/Context;I)V
 
@@ -108,7 +108,7 @@
     .line 6
     iget-object v1, p0, Lynf;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0acc
+    sget v2, Lcom/resouce/module/ResID;->et_number_numeric_edittext_spinner:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
     .line 8
     iget-object v2, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0ac9
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_checkbox02:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
     .line 15
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const v0, 0x7f0b0ad1
+    sget v0, Lcom/resouce/module/ResID;->et_number_numeric_spinner_layout02:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -186,7 +186,7 @@
     .line 16
     iget-object p1, p0, Lynf;->b:Landroid/view/View;
 
-    const v3, 0x7f0b0acf
+    sget v3, Lcom/resouce/module/ResID;->et_number_numeric_spinner02:I
 
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
     .line 17
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    const p1, 0x7f120baa
+    sget p1, Lcom/resouce/module/ResSTRING;->et_number_custom_format:I
 
     .line 18
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(I)V
@@ -556,7 +556,7 @@
 
     iput-object v2, v3, Lgmf$e;->b:Ljava/lang/String;
 
-    const v2, 0x7f1226f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_pagesize_custom:I
 
     .line 26
     invoke-virtual {v1, v2}, Lemf;->p(I)V

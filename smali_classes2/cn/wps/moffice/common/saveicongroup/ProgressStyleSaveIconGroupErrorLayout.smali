@@ -67,7 +67,7 @@
 .method public b()V
     .locals 2
 
-    const v0, 0x7f0b1295
+    sget v0, Lcom/resouce/module/ResID;->image_save_error_icon:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/saveicongroup/ProgressStyleSaveIconGroupErrorLayout;->B:Lcn/wps/moffice/common/fileupload/RoundImageView;
 
-    const v0, 0x7f0b1296
+    sget v0, Lcom/resouce/module/ResID;->image_save_error_progress:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/saveicongroup/ProgressStyleSaveIconGroupErrorLayout;->B:Lcn/wps/moffice/common/fileupload/RoundImageView;
 
-    const v1, 0x7f081cb6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_titlebar_upload_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/fileupload/RoundImageView;->setImage(I)V
 
@@ -188,12 +188,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e08d5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_saveicon_group_error_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05cc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_saveicon_group_error_layout_progressstyle:I
 
     :goto_0
     return v0

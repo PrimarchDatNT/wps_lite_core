@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f58
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_exportpages_pagestyle_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -77,7 +77,7 @@
     .line 3
     iget-object v0, p0, Lsog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b336e
+    sget v1, Lcom/resouce/module/ResID;->vertical_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     .line 4
     iget-object v0, p0, Lsog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1204
+    sget v1, Lcom/resouce/module/ResID;->horizontal_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 5
     iget-object v0, p0, Lsog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b336f
+    sget v1, Lcom/resouce/module/ResID;->vertical_item_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -110,7 +110,7 @@
     .line 6
     iget-object v0, p0, Lsog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1205
+    sget v1, Lcom/resouce/module/ResID;->horizontal_item_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122fc5
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_export_pages_splite:I
 
     return v0
 .end method
@@ -163,7 +163,7 @@
     .line 1
     iget-object v0, p0, Lsog;->V:Landroid/view/View;
 
-    const v1, 0x7f122fc3
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_export_pages_limit_unswitch:I
 
     const/4 v2, 0x0
 

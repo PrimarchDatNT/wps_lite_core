@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e014f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_country_region_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -131,7 +131,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/country/activity/CountryRegionSettingActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0591
+    sget v1, Lcom/resouce/module/ResID;->country_region_lv:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -446,7 +446,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12033d
+    sget v1, Lcom/resouce/module/ResSTRING;->country_region:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

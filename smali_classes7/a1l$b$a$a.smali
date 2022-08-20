@@ -60,7 +60,7 @@
 
     iget-object v0, v0, La1l$b;->b:Landroid/content/Context;
 
-    const v2, 0x7f12280a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -96,7 +96,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1231b6
+    sget v3, Lcom/resouce/module/ResSTRING;->website_export_long_pic_failed:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

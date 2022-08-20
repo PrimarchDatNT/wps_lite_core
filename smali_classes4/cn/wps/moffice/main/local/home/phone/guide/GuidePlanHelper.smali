@@ -41,7 +41,7 @@
     .line 1
     invoke-static {p0}, Lcn/wps/moffice/main/local/home/phone/guide/GuidePlanHelper;->p(Landroid/view/View;)V
 
-    const v0, 0x7f0b178f
+    sget v0, Lcom/resouce/module/ResID;->lottie_view:I
 
     const/4 v1, 0x1
 
@@ -49,7 +49,7 @@
 
     if-eqz p0, :cond_3
 
-    const p1, 0x7f0b1c67
+    sget p1, Lcom/resouce/module/ResID;->page_anim_view:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f0e0482
+    sget p0, Lcom/resouce/module/ResLAYOUT;->login_guide_page_item_pad:I
 
     return p0
 
@@ -157,7 +157,7 @@
 
     move-result p0
 
-    const v0, 0x7f0e0483
+    sget v0, Lcom/resouce/module/ResLAYOUT;->login_guide_page_item_plan_b:I
 
     if-eqz p0, :cond_1
 
@@ -174,7 +174,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e0481
+    sget v0, Lcom/resouce/module/ResLAYOUT;->login_guide_page_item:I
 
     :goto_0
     return v0
@@ -288,7 +288,7 @@
     :goto_0
     if-eqz v2, :cond_4
 
-    const v0, 0x7f0b175b
+    sget v0, Lcom/resouce/module/ResID;->login_new_feature:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -327,7 +327,7 @@
     iput v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     :cond_3
-    const v0, 0x7f0b1759
+    sget v0, Lcom/resouce/module/ResID;->login_jump:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -550,9 +550,9 @@
 .method public static k(Landroid/view/View;Landroid/view/View;I)V
     .locals 3
 
-    const v0, 0x7f0b178f
+    sget v0, Lcom/resouce/module/ResID;->lottie_view:I
 
-    const v1, 0x7f0b1c67
+    sget v1, Lcom/resouce/module/ResID;->page_anim_view:I
 
     const/4 v2, 0x1
 

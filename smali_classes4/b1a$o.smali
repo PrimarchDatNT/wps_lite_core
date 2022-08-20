@@ -77,7 +77,7 @@
 
     move-result v0
 
-    const v1, 0x7f120312
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_no_permission:I
 
     const/4 v2, 0x0
 
@@ -127,7 +127,7 @@
     :cond_1
     iget-object v1, p0, Lb1a$o;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120313
+    sget v3, Lcom/resouce/module/ResSTRING;->compressed_batch_share_no_permission_tip:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

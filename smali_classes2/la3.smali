@@ -502,7 +502,7 @@
     .line 17
     iget-object v12, v0, Lla3$c;->f:Ljava/lang/String;
 
-    const v13, 0x7f12011c
+    sget v13, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v9, v13}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

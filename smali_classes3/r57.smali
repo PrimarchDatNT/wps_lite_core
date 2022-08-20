@@ -45,22 +45,22 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f081d35
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_delete:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081d32
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->quick_access_add:I
 
     :goto_0
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122773
+    sget p1, Lcom/resouce/module/ResSTRING;->public_quick_access_delete:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f12276f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_quick_access_add:I
 
     .line 2
     :goto_1

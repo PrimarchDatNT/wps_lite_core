@@ -381,7 +381,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0598
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_play_mode_view:I
 
     if-eqz v0, :cond_0
 
@@ -390,7 +390,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e07e8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_play_mode_view:I
 
     invoke-virtual {v0, v2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -421,7 +421,7 @@
     move-result-object v0
 
     :cond_1
-    const p1, 0x7f0b27bb
+    sget p1, Lcom/resouce/module/ResID;->radio_autoplay:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->aRadioButton:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0b27bf
+    sget p1, Lcom/resouce/module/ResID;->radio_manualPlay:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->mRadioButton:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0b27bc
+    sget p1, Lcom/resouce/module/ResID;->radio_autoplay_txt:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->aRadioTxt:Landroid/widget/TextView;
 
-    const p1, 0x7f0b27c0
+    sget p1, Lcom/resouce/module/ResID;->radio_manualPlay_txt:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -465,7 +465,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->mRadioTxt:Landroid/widget/TextView;
 
-    const p1, 0x7f0b01a9
+    sget p1, Lcom/resouce/module/ResID;->autoplay_setting_pre:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->preButton:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b01a8
+    sget p1, Lcom/resouce/module/ResID;->autoplay_setting_next:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -487,7 +487,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->nextButton:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b01a7
+    sget p1, Lcom/resouce/module/ResID;->autoplay_setting_content_txt:I
 
     .line 11
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -498,7 +498,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->textView:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2248
+    sget p1, Lcom/resouce/module/ResID;->playGroup:I
 
     .line 12
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -512,14 +512,14 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->preButton:Landroid/widget/ImageView;
 
-    const v0, 0x7f0807e6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_noenable:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/TvPlayerMainView;->nextButton:Landroid/widget/ImageView;
 
-    const v0, 0x7f0807e3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_noenable:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -698,7 +698,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f1211b4
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_tv_show_dialog_second:I
 
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

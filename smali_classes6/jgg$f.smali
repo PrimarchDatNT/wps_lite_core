@@ -177,17 +177,17 @@
 
     if-eq p2, p1, :cond_0
 
-    const p1, 0x7f1219aa
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_add_sheet_error:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1219c5
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_protect_book_error:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1219b7
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_no_permission_error:I
 
     .line 3
     :goto_0

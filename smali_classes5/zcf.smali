@@ -23,7 +23,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f121dc4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cannot_new_folder_here:I
 
     .line 2
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V

@@ -51,7 +51,7 @@
 .method public final a(Landroid/util/AttributeSet;I)V
     .locals 4
 
-    const v0, 0x7f0e104e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_switch_img_right:I
 
     if-eqz p1, :cond_1
 
@@ -95,7 +95,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e104d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_switch_img_left:I
 
     invoke-virtual {p2, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -163,7 +163,7 @@
 .method public setResource(III)V
     .locals 2
 
-    const v0, 0x7f0b3281
+    sget v0, Lcom/resouce/module/ResID;->tv_switch:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f0b12ce
+    sget p1, Lcom/resouce/module/ResID;->img_switch:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

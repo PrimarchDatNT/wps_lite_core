@@ -244,7 +244,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cf9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_add_cloudstorage:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -409,7 +409,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f1205e7
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     if-eqz v2, :cond_0
 
@@ -420,7 +420,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12066d
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_logout_dialog_content_hasedit:I
 
     invoke-static {v0, v2, v4, v1, v3}, Loc8;->a(Landroid/content/Context;IILjava/lang/Runnable;Ljava/lang/Runnable;)V
 
@@ -441,7 +441,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12066e
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_common_logout_dialog_content_hasupload:I
 
     invoke-static {v0, v2, v4, v1, v3}, Loc8;->a(Landroid/content/Context;IILjava/lang/Runnable;Ljava/lang/Runnable;)V
 
@@ -491,7 +491,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f120ed2
+    sget v3, Lcom/resouce/module/ResSTRING;->home_cloudstorage_signout:I
 
     if-eqz v0, :cond_0
 

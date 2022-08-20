@@ -107,7 +107,7 @@
     .line 9
     iput-object p4, p0, Lrbl;->t0:Lwbl;
 
-    const p1, 0x7f0b1c7a
+    sget p1, Lcom/resouce/module/ResID;->pager:I
 
     .line 10
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

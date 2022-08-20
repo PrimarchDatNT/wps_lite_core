@@ -305,7 +305,7 @@
     .line 3
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v2, 0x0
 
@@ -361,7 +361,7 @@
     .line 3
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v2, 0x0
 
@@ -654,7 +654,7 @@
     .line 3
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v2, 0x0
 
@@ -1301,7 +1301,7 @@
 
     iget-object v4, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v5, 0x7f122996
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share_space_hint_from:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1346,7 +1346,7 @@
     .line 20
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v5, 0x7f122998
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share_space_hint_member_none:I
 
     invoke-virtual {v0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1362,7 +1362,7 @@
     .line 22
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v7, 0x7f122997
+    sget v7, Lcom/resouce/module/ResSTRING;->public_share_space_hint_member:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1387,7 +1387,7 @@
     :cond_9
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122240
+    sget v1, Lcom/resouce/module/ResSTRING;->public_goto:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1438,7 +1438,7 @@
 
     iget-object v3, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v4, 0x7f122999
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_space_hint_space:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1834,7 +1834,7 @@
 
     iget-object v2, v0, Lfcd;->T:Landroid/app/Activity;
 
-    const v3, 0x7f080158
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->cloud_space_usage_progress_color1_selector:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2036,7 +2036,7 @@
     .line 28
     iget-object v2, v0, Lfcd;->o0:Landroid/widget/ProgressBar;
 
-    const v3, 0x7f080ad8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->new_space_usage_progress_red_selector:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2131,7 +2131,7 @@
 
     iget-object p4, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121ed1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_space_hint:I
 
     const/4 v1, 0x2
 
@@ -2200,7 +2200,7 @@
 
     iget-object p1, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v0, 0x7f122f84
+    sget v0, Lcom/resouce/module/ResSTRING;->space_manager_get_coupons_and_upgrade:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2220,7 +2220,7 @@
 
     iget-object v0, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122f95
+    sget v1, Lcom/resouce/module/ResSTRING;->space_manager_page_upgrade_now:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2420,7 +2420,7 @@
     :goto_0
     iget-object p1, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const p2, 0x7f121484
+    sget p2, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 p3, 0x0
 
@@ -2432,7 +2432,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f121e77
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_manage:I
 
     return v0
 .end method
@@ -2488,7 +2488,7 @@
     .line 4
     iget-object p1, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {p1, v0, v1}, Lled;->g(Landroid/content/Context;II)V
 
@@ -2505,7 +2505,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0304
+    sget v0, Lcom/resouce/module/ResID;->btn_space_upgrade:I
 
     if-ne p1, v0, :cond_4
 
@@ -2568,7 +2568,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const v0, 0x7f0b293f
+    sget v0, Lcom/resouce/module/ResID;->rl_cloud_file_sync:I
 
     const-string v2, "Space"
 
@@ -2635,7 +2635,7 @@
     goto/16 :goto_1
 
     :cond_6
-    const v0, 0x7f0b2966
+    sget v0, Lcom/resouce/module/ResID;->rl_secret_folder:I
 
     if-ne p1, v0, :cond_7
 
@@ -2668,7 +2668,7 @@
     goto :goto_1
 
     :cond_7
-    const v0, 0x7f0b295d
+    sget v0, Lcom/resouce/module/ResID;->rl_personal_folder:I
 
     if-ne p1, v0, :cond_8
 
@@ -2714,7 +2714,7 @@
     goto :goto_1
 
     :cond_8
-    const v0, 0x7f0b32a1
+    sget v0, Lcom/resouce/module/ResID;->tv_upgrade_right_now:I
 
     const-string v1, "edu_button"
 
@@ -2747,7 +2747,7 @@
     goto :goto_1
 
     :cond_a
-    const v0, 0x7f0b0dcb
+    sget v0, Lcom/resouce/module/ResID;->fl_upgrade_to365g:I
 
     if-ne p1, v0, :cond_b
 
@@ -2760,7 +2760,7 @@
     goto :goto_1
 
     :cond_b
-    const v0, 0x7f0b2969
+    sget v0, Lcom/resouce/module/ResID;->rl_share_space:I
 
     if-ne p1, v0, :cond_c
 
@@ -2826,7 +2826,7 @@
 
     iget-object v2, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v5, 0x7f0814b1
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->point_green:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2882,7 +2882,7 @@
 
     iget-object v2, p0, Lfcd;->T:Landroid/app/Activity;
 
-    const v5, 0x7f0809c5
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->icon_space_share:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3053,7 +3053,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b53
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloud_space_manage_layout:I
 
     const/4 v2, 0x0
 
@@ -3065,7 +3065,7 @@
 
     iput-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2a3b
+    sget v1, Lcom/resouce/module/ResID;->scroll_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3079,7 +3079,7 @@
     .line 3
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3264
+    sget v1, Lcom/resouce/module/ResID;->tv_space_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3092,7 +3092,7 @@
     .line 4
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0304
+    sget v1, Lcom/resouce/module/ResID;->btn_space_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3108,7 +3108,7 @@
     .line 6
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b293f
+    sget v1, Lcom/resouce/module/ResID;->rl_cloud_file_sync:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3119,7 +3119,7 @@
     .line 7
     iget-object v1, p0, Lfcd;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3122
+    sget v3, Lcom/resouce/module/ResID;->tv_cloud_file_sync_size:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3135,7 +3135,7 @@
     .line 9
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2966
+    sget v1, Lcom/resouce/module/ResID;->rl_secret_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3146,7 +3146,7 @@
     .line 10
     iget-object v1, p0, Lfcd;->I:Landroid/view/View;
 
-    const v3, 0x7f0b3248
+    sget v3, Lcom/resouce/module/ResID;->tv_secret_folder_size:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3162,7 +3162,7 @@
     .line 12
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b295d
+    sget v1, Lcom/resouce/module/ResID;->rl_personal_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3175,7 +3175,7 @@
     .line 13
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b321a
+    sget v1, Lcom/resouce/module/ResID;->tv_personal_folder_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3193,7 +3193,7 @@
     .line 15
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b329e
+    sget v1, Lcom/resouce/module/ResID;->tv_unused_space_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3206,7 +3206,7 @@
     .line 16
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2969
+    sget v1, Lcom/resouce/module/ResID;->rl_share_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3219,7 +3219,7 @@
     .line 17
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b16e4
+    sget v1, Lcom/resouce/module/ResID;->ll_space_share_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3232,7 +3232,7 @@
     .line 18
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b06d7
+    sget v1, Lcom/resouce/module/ResID;->divider_share_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3243,7 +3243,7 @@
     .line 19
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b14c5
+    sget v1, Lcom/resouce/module/ResID;->iv_share_space_point:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3254,7 +3254,7 @@
     .line 20
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b325f
+    sget v1, Lcom/resouce/module/ResID;->tv_share_space_size:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3267,7 +3267,7 @@
     .line 21
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b325e
+    sget v1, Lcom/resouce/module/ResID;->tv_share_space_hint:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3285,7 +3285,7 @@
     .line 23
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3125
+    sget v1, Lcom/resouce/module/ResID;->tv_cloud_space_upgrade_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3298,7 +3298,7 @@
     .line 24
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32a1
+    sget v1, Lcom/resouce/module/ResID;->tv_upgrade_right_now:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3311,7 +3311,7 @@
     .line 25
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0dcb
+    sget v1, Lcom/resouce/module/ResID;->fl_upgrade_to365g:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3334,7 +3334,7 @@
     .line 28
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32a7
+    sget v1, Lcom/resouce/module/ResID;->tv_user_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3347,7 +3347,7 @@
     .line 29
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32b7
+    sget v1, Lcom/resouce/module/ResID;->tv_wps_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3360,7 +3360,7 @@
     .line 30
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b327d
+    sget v1, Lcom/resouce/module/ResID;->tv_super_space:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3373,7 +3373,7 @@
     .line 31
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32a3
+    sget v1, Lcom/resouce/module/ResID;->tv_user_file_limit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3386,7 +3386,7 @@
     .line 32
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32b4
+    sget v1, Lcom/resouce/module/ResID;->tv_wps_file_limit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3399,7 +3399,7 @@
     .line 33
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b327c
+    sget v1, Lcom/resouce/module/ResID;->tv_super_file_limit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3412,7 +3412,7 @@
     .line 34
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d43
+    sget v1, Lcom/resouce/module/ResID;->pb_space_manage_color1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3425,7 +3425,7 @@
     .line 35
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d44
+    sget v1, Lcom/resouce/module/ResID;->pb_space_manage_color2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3438,7 +3438,7 @@
     .line 36
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d45
+    sget v1, Lcom/resouce/module/ResID;->pb_space_manage_color3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3451,7 +3451,7 @@
     .line 37
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1d46
+    sget v1, Lcom/resouce/module/ResID;->pb_space_manage_color4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3464,7 +3464,7 @@
     .line 38
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0bdf
+    sget v1, Lcom/resouce/module/ResID;->ev_cloud_sync:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3477,7 +3477,7 @@
     .line 39
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0be2
+    sget v1, Lcom/resouce/module/ResID;->ev_we_chat_backup:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3490,7 +3490,7 @@
     .line 40
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0be0
+    sget v1, Lcom/resouce/module/ResID;->ev_new_share_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3503,7 +3503,7 @@
     .line 41
     iget-object v0, p0, Lfcd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0be1
+    sget v1, Lcom/resouce/module/ResID;->ev_use_secret_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

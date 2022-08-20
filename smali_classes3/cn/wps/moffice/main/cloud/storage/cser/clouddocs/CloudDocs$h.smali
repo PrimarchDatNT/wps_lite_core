@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b8e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cs_group_create_layout:I
 
     const/4 v2, 0x0
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1347
+    sget v1, Lcom/resouce/module/ResID;->input_name_edittext:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12194a
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     invoke-virtual {v2, v3}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v3, Lcn/wps/moffice/main/cloud/storage/cser/clouddocs/CloudDocs$h$c;
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/main/cloud/storage/cser/clouddocs/CloudDocs$h$b;
 

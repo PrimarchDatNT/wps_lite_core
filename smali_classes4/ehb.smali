@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e78
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_task_center_list_footer:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
     .line 3
     iget-object v0, p0, Lehb;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e70
+    sget v1, Lcom/resouce/module/ResID;->footer_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 4
     iget-object v0, p0, Lehb;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e6f
+    sget v1, Lcom/resouce/module/ResID;->footer_no_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 5
     iget-object v0, p0, Lehb;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0e6c
+    sget v1, Lcom/resouce/module/ResID;->footer_click_to_load:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

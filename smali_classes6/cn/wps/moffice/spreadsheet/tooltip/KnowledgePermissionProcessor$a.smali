@@ -47,7 +47,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/tooltip/KnowledgePermissionProcessor;->c:Landroid/content/Context;
 
-    const v1, 0x7f121321
+    sget v1, Lcom/resouce/module/ResSTRING;->knowledge_page_permission_dialog_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -77,12 +77,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f12131f
+    sget v2, Lcom/resouce/module/ResSTRING;->knowledge_page_permission_dialog_copy:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f121320
+    sget v2, Lcom/resouce/module/ResSTRING;->knowledge_page_permission_dialog_no_copy_permission:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

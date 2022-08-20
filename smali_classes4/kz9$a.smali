@@ -52,7 +52,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0b2e6f
+    sget p2, Lcom/resouce/module/ResID;->tag_home_record_list_position:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

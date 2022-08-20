@@ -294,7 +294,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01a6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_adjust_resizedlg:I
 
     const/4 v2, 0x0
 
@@ -306,7 +306,7 @@
 
     iput-object v0, p0, Lm0h;->U:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a66
+    sget v1, Lcom/resouce/module/ResID;->et_freeze_list_item_fix_cell_height_ctl:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
     .line 4
     iget-object v0, p0, Lm0h;->U:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0a67
+    sget v1, Lcom/resouce/module/ResID;->et_freeze_list_item_fix_col_width_ctl:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -390,7 +390,7 @@
     .line 12
     iget-object v0, p0, Lm0h;->T:Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithHideTitleBar;
 
-    const v1, 0x7f120c5f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/phone/panel/SSPanelWithBackTitleBar;->setTitleText(I)V
 
@@ -1196,7 +1196,7 @@
 
     iput-object v0, p0, Lm0h;->X:Lcn/wps/moffice/spreadsheet/control/common/PreKeyEditText;
 
-    const v0, 0x7f1207a4
+    sget v0, Lcom/resouce/module/ResSTRING;->et_col_size_error:I
 
     .line 5
     invoke-static {v0, v1}, Lsjf;->h(II)V
@@ -1222,7 +1222,7 @@
 
     iput-object v0, p0, Lm0h;->X:Lcn/wps/moffice/spreadsheet/control/common/PreKeyEditText;
 
-    const v0, 0x7f120764
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cell_size_error:I
 
     .line 10
     invoke-static {v0, v1}, Lsjf;->h(II)V

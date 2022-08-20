@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/phone_public_list_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/tv_item_icon" android:layout_width="58.0dip" android:layout_height="58.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/subTextColor" android:id="@id/tv_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/tv_item_icon" android:layout_centerHorizontal="true" />
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_vip_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="56.0dip" android:src="@drawable/pub_vip_wps_member_42" android:layout_toRightOf="@id/tv_item_name" />
-</RelativeLayout>

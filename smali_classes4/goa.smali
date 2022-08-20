@@ -169,7 +169,7 @@
     .line 15
     iget-object p2, p0, Lgoa;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2cab
+    sget v0, Lcom/resouce/module/ResID;->splash_jump_area:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -182,7 +182,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1229fe
+    sget p2, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
     .line 18
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2ca6
+    sget p2, Lcom/resouce/module/ResID;->splash_close_button:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -225,7 +225,7 @@
     .line 19
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2ca5
+    sget p2, Lcom/resouce/module/ResID;->splash_close_area:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
     .line 20
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2caa
+    sget p2, Lcom/resouce/module/ResID;->splash_jump:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     .line 21
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2cae
+    sget p2, Lcom/resouce/module/ResID;->splash_remove_ad:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 22
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b3269
+    sget p2, Lcom/resouce/module/ResID;->tv_splash_remove_ad:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -296,7 +296,7 @@
     :cond_3
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2ca7
+    sget p2, Lcom/resouce/module/ResID;->splash_complaint_ad:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -309,7 +309,7 @@
     .line 27
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2cad
+    sget p2, Lcom/resouce/module/ResID;->splash_no_ad_small:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -322,7 +322,7 @@
     .line 28
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b2cac
+    sget p2, Lcom/resouce/module/ResID;->splash_no_ad_large:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 29
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b3268
+    sget p2, Lcom/resouce/module/ResID;->tv_splash_ad_free:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -358,7 +358,7 @@
     :cond_4
     iget-object p1, p0, Lgoa;->a:Landroid/view/View;
 
-    const p2, 0x7f0b3267
+    sget p2, Lcom/resouce/module/ResID;->tv_splash_ad_complaint:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

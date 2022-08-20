@@ -55,7 +55,7 @@
     .line 3
     iget-object v1, p0, Ltn9;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122324
+    sget v2, Lcom/resouce/module/ResSTRING;->public_homepage_share_tab_no_record_unlogin:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

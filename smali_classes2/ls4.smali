@@ -149,9 +149,9 @@
 
     invoke-direct {v0}, Lxk2;-><init>()V
 
-    const v1, 0x7f0806f1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_premium:I
 
-    const v2, 0x7f080886
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_pay_logo_bg:I
 
     .line 2
     invoke-virtual {v0, v1, v2}, Lxk2;->r(II)V
@@ -522,7 +522,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216b7
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_stripe_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -543,7 +543,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216b8
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_stripe_type:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -844,7 +844,7 @@
 
     instance-of v0, p1, Lcn/wps/moffice/func/pdf/OverseaPayActivity;
 
-    const v1, 0x7f122759
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     if-eqz v0, :cond_0
 

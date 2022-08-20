@@ -244,12 +244,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0e009e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->com_facebook_smart_device_dialog_fragment:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e009c
+    sget p1, Lcom/resouce/module/ResLAYOUT;->com_facebook_device_auth_dialog_fragment:I
 
     :goto_0
     return p1
@@ -317,7 +317,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -326,7 +326,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/DeviceAuthDialog;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b052a
+    sget v0, Lcom/resouce/module/ResID;->confirmation_code:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/DeviceAuthDialog;->h0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0340
+    sget v0, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b04bd
+    sget v0, Lcom/resouce/module/ResID;->com_facebook_device_auth_instructions:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -364,7 +364,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/DeviceAuthDialog;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f1202cf
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_device_auth_instructions:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -599,7 +599,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202e4
+    sget v1, Lcom/resouce/module/ResSTRING;->com_facebook_smart_login_confirmation_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -610,7 +610,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202e3
+    sget v2, Lcom/resouce/module/ResSTRING;->com_facebook_smart_login_confirmation_continue_as:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -621,7 +621,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1202e2
+    sget v3, Lcom/resouce/module/ResSTRING;->com_facebook_smart_login_confirmation_cancel:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -964,7 +964,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1303f7
+    sget v1, Lcom/resouce/module/ResSTYLE;->com_facebook_auth_dialog:I
 
     invoke-direct {p1, v0, v1}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 

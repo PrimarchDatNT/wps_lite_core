@@ -1331,7 +1331,7 @@
 
     invoke-direct {v0, p0, v1}, Ly83;-><init>(Landroid/app/Activity;Ly83$h;)V
 
-    const p2, 0x7f122451
+    sget p2, Lcom/resouce/module/ResSTRING;->public_login_guide_dialog_save_tips:I
 
     .line 2
     invoke-virtual {v0, p2}, Ly83;->m(I)Ly83;
@@ -1492,7 +1492,7 @@
 
     invoke-direct {v0, p0, v1}, Ly83;-><init>(Landroid/app/Activity;Ly83$h;)V
 
-    const p0, 0x7f122451
+    sget p0, Lcom/resouce/module/ResSTRING;->public_login_guide_dialog_save_tips:I
 
     .line 5
     invoke-virtual {v0, p0}, Ly83;->m(I)Ly83;

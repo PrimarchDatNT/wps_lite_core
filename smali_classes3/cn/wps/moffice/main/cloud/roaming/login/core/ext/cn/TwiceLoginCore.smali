@@ -837,7 +837,7 @@
     .line 4
     iget-object p1, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f120586
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v0, 0x0
 
@@ -1325,7 +1325,7 @@
     :cond_1
     iget-object p1, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1227ef
+    sget v0, Lcom/resouce/module/ResSTRING;->public_register_fail:I
 
     const/4 v1, 0x0
 
@@ -1814,7 +1814,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f121121
+    sget p1, Lcom/resouce/module/ResSTRING;->home_roaming_login_user_suspend:I
 
     goto :goto_0
 
@@ -1826,12 +1826,12 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f121119
+    sget p1, Lcom/resouce/module/ResSTRING;->home_roaming_login_faied_and_tip_try:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     :goto_0
@@ -1956,14 +1956,14 @@
     .line 2
     iget-object p1, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
     return-void
 
     :cond_0
-    const v0, 0x7f122b9b    # 1.942937E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_fail:I    # 1.942937E38f
 
     .line 3
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/TwiceLoginCore;->mCurTwiceVerify3rdType:Ljava/lang/String;
@@ -2015,7 +2015,7 @@
     .line 6
     iget-object p1, p0, Lix7;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122b9c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_verify_no_bind:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

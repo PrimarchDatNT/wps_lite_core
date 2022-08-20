@@ -40,7 +40,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v2, 0x7f0b08ef
+    sget v2, Lcom/resouce/module/ResID;->et_autosum_button_average:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

@@ -18,7 +18,7 @@
 
     const/16 v0, -0x2f
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     if-eq p0, v0, :cond_0
 
@@ -71,7 +71,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121e4c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_folder_exits_sharefolder:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

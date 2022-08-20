@@ -64,7 +64,7 @@
     .line 2
     iget-object p1, p0, Lzc9$b;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122535
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -92,7 +92,7 @@
     .line 5
     iget-object p1, p0, Lzc9$b;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121f58
+    sget v0, Lcom/resouce/module/ResSTRING;->public_contact_over_error:I
 
     const/4 v2, 0x1
 

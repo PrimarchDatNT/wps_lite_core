@@ -49,14 +49,14 @@
 
     move-result p1
 
-    const v0, 0x7f0b2ad7
+    sget v0, Lcom/resouce/module/ResID;->section_more_text:I
 
     if-ne p1, v0, :cond_1
 
     .line 2
     iget-object p1, p0, Lnee;->T:Landroid/app/Activity;
 
-    const v0, 0x7f121963
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_new_search_hotword:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -303,14 +303,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fae
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_recommend_section:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 5
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2ad6
+    sget v1, Lcom/resouce/module/ResID;->section_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -333,7 +333,7 @@
     .line 8
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2ad8
+    sget v1, Lcom/resouce/module/ResID;->section_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -373,7 +373,7 @@
     .line 12
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b2ad7
+    sget v1, Lcom/resouce/module/ResID;->section_more_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

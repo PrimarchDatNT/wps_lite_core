@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081e02
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->share_conpon_red:I
 
     new-instance v2, Lcn/wps/moffice/writer/shell/resume/preview/ResumePreviewActivity$c$a;
 

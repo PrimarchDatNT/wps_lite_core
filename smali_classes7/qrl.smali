@@ -372,7 +372,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     const-string v2, "sharePreview-close"
 
@@ -383,7 +383,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "sharePreview-return"
 
@@ -394,7 +394,7 @@
 
     invoke-direct {v0, p0}, Lqrl$g;-><init>(Lqrl;)V
 
-    const v1, 0x7f0b2fe1
+    sget v1, Lcom/resouce/module/ResID;->title_bar_edit:I
 
     const-string v2, "sharePreview-edit"
 
@@ -405,13 +405,13 @@
 
     invoke-direct {v0, p0}, Lqrl$h;-><init>(Lqrl;)V
 
-    const v1, 0x7f0b2bd3
+    sget v1, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     const-string v2, "sharePreview-share"
 
     invoke-virtual {p0, v1, v0, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2bd2
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_savepic:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -1128,7 +1128,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -1177,11 +1177,11 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080715
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_bookmark_share:I
 
-    const v2, 0x7f122bc6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
-    const v3, 0x7f1210b7
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_share_bookmark_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -1204,13 +1204,13 @@
     return-object p1
 
     :cond_0
-    const p1, 0x7f08072b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f1210b8
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -1242,11 +1242,11 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080715
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_bookmark_share:I
 
-    const v2, 0x7f122bc6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
-    const v3, 0x7f122bc4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -1265,13 +1265,13 @@
     return-object p1
 
     :cond_0
-    const p1, 0x7f08072b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f122bc7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -1433,7 +1433,7 @@
     invoke-static {v2, v1}, Lza4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
-    const v2, 0x7f0b2553
+    sget v2, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 7
     invoke-virtual {p0, v2}, Lozl;->Z0(I)Landroid/view/View;
@@ -1604,7 +1604,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f0b2553
+    sget v0, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 4
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;

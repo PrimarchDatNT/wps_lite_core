@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09b4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_website_long_pic_share_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -89,7 +89,7 @@
     .line 1
     iget-object v0, p0, Lnkb;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1784
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
@@ -118,7 +118,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070c22
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_title_bar_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -126,7 +126,7 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -155,7 +155,7 @@
 
     invoke-static {v1}, Lxih;->P(Landroid/view/View;)V
 
-    const v1, 0x7f1226b1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     .line 9
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
@@ -176,7 +176,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -193,7 +193,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -211,7 +211,7 @@
     .line 14
     iget-object v0, p0, Lnkb;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1785
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -222,7 +222,7 @@
     .line 15
     iget-object v0, p0, Lnkb;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1781
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -261,7 +261,7 @@
     .line 20
     iget-object v0, p0, Lnkb;->c:Landroid/view/View;
 
-    const v1, 0x7f0b0278
+    sget v1, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f070b7a
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     .line 23
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -336,7 +336,7 @@
 
     invoke-virtual {v1, v3}, Lukb;->h(Lukb$b;)V
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 31
     new-instance v3, Lnkb$c;

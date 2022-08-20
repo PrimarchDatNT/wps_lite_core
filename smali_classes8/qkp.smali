@@ -224,7 +224,7 @@
 .method public static e(Lskp;)Ljava/lang/String;
     .locals 9
 
-    const v0, 0x7f12011e
+    sget v0, Lcom/resouce/module/ResSTRING;->app_widget_calendar_all_day:I
 
     if-eqz p0, :cond_7
 

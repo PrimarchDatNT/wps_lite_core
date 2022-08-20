@@ -49,7 +49,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070def
+    sget v0, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_margin:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070dee
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

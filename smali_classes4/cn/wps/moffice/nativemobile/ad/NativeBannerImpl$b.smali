@@ -29,7 +29,7 @@
 .method public getAdChoiceContainerId()I
     .locals 1
 
-    const v0, 0x7f0b19b4
+    sget v0, Lcom/resouce/module/ResID;->native_banner_ad_choices_container:I
 
     return v0
 .end method
@@ -37,7 +37,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0d06
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_native_banner_ad_mopub_layout:I
 
     return v0
 .end method
@@ -45,7 +45,7 @@
 .method public getPrivacyInformationIconImageId()I
     .locals 1
 
-    const v0, 0x7f0b19b5
+    sget v0, Lcom/resouce/module/ResID;->native_banner_ad_privacy_info:I
 
     return v0
 .end method

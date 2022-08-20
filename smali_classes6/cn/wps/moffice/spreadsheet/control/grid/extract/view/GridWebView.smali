@@ -112,7 +112,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/grid/extract/view/GridWebView;->d0:Lm3g;
 
-    const v0, 0x7f01003f
+    sget v0, Lcom/resouce/module/ResANIM;->fade_in:I
 
     .line 8
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -121,7 +121,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/grid/extract/view/GridWebView;->c0:Landroid/view/animation/Animation;
 
-    const v0, 0x7f010040
+    sget v0, Lcom/resouce/module/ResANIM;->fade_out:I
 
     .line 9
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;

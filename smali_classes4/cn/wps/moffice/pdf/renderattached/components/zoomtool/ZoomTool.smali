@@ -158,7 +158,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f0e067b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pdf_zoom_tool_for_hw_screent_view:I
 
     invoke-virtual {p2, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -213,7 +213,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/renderattached/components/zoomtool/ZoomTool;->W:Ld8c;
 
-    const p1, 0x7f0b1f61
+    sget p1, Lcom/resouce/module/ResID;->pdf_zoom_tool_layout:I
 
     .line 27
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/renderattached/components/zoomtool/ZoomTool;->B:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b1ec4
+    sget p1, Lcom/resouce/module/ResID;->pdf_plus:I
 
     .line 28
     invoke-virtual {p2, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/pdf/renderattached/components/zoomtool/ZoomTool;->I:Landroid/widget/ImageButton;
 
-    const v2, 0x7f0b1f10
+    sget v2, Lcom/resouce/module/ResID;->pdf_reduce:I
 
     .line 29
     invoke-virtual {p2, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/pdf/renderattached/components/zoomtool/ZoomTool;->S:Landroid/widget/ImageButton;
 
-    const v3, 0x7f0b1f60
+    sget v3, Lcom/resouce/module/ResID;->pdf_zoom_percent_text:I
 
     .line 30
     invoke-virtual {p2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -384,7 +384,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b1ec4
+    sget v0, Lcom/resouce/module/ResID;->pdf_plus:I
 
     const/4 v1, 0x0
 
@@ -396,7 +396,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1f10
+    sget v0, Lcom/resouce/module/ResID;->pdf_reduce:I
 
     if-ne p1, v0, :cond_2
 
@@ -522,7 +522,7 @@
     .line 2
     invoke-virtual {v0, v2}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    const v3, 0x7f070dad
+    sget v3, Lcom/resouce/module/ResDIMEN;->writer_pad_mouse_scale_press_radius:I
 
     int-to-float v3, v3
 
@@ -580,7 +580,7 @@
     .line 6
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(Landroid/content/res/ColorStateList;)V
 
-    const p1, 0x7f070dae
+    sget p1, Lcom/resouce/module/ResDIMEN;->writer_pad_mouse_scale_radius:I
 
     int-to-float p1, p1
 
@@ -648,7 +648,7 @@
 
     iget v1, p0, Lcn/wps/moffice/pdf/renderattached/components/zoomtool/ZoomTool;->a0:I
 
-    const v2, 0x7f0b1ec4
+    sget v2, Lcom/resouce/module/ResID;->pdf_plus:I
 
     if-ne v1, v2, :cond_0
 
@@ -792,7 +792,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08104a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_zoom_tool_bg_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -809,7 +809,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081017
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_pad_btn_plus_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -826,7 +826,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081019
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_pad_btn_reduce_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -863,7 +863,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060400
+    sget v2, Lcom/resouce/module/ResCOLOR;->pdf_pad_zoom_tool_text_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -883,7 +883,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081049
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_zoom_tool_bg:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -900,7 +900,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081016
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_pad_btn_plus:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -917,7 +917,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081018
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_pad_btn_reduce:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -954,7 +954,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060041
+    sget v2, Lcom/resouce/module/ResCOLOR;->black_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

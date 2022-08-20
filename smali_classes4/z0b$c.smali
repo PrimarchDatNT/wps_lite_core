@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b064b
+    sget v0, Lcom/resouce/module/ResID;->delete_layout:I
 
     if-ne p1, v0, :cond_3
 
@@ -128,7 +128,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b2070
+    sget v0, Lcom/resouce/module/ResID;->phone_pdf_entery_doc2pdf_layout:I
 
     if-ne p1, v0, :cond_4
 
@@ -144,7 +144,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0560
+    sget v0, Lcom/resouce/module/ResID;->convertPdf_layout:I
 
     if-ne p1, v0, :cond_6
 
@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122840
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v1, 0x0
 

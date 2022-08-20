@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e02b5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->grid_item:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e02b7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->grid_list_item:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -294,7 +294,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e02b6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->grid_item_layout:I
 
     const/4 v1, 0x0
 
@@ -324,7 +324,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e02b8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->grid_list_item_layout:I
 
     invoke-virtual {p3, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

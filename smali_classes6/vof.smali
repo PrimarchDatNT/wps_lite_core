@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e06b3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_et_complex_format_dialog_base:I
 
     const/4 v1, 0x0
 
@@ -60,7 +60,7 @@
     .line 3
     iget-object p1, p0, Lemf;->I:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0992
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_base_title_bar:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

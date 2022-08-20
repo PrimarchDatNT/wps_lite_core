@@ -120,7 +120,7 @@
 
     iget-object p3, p0, Lzr3;->k0:Ljava/lang/Runnable;
 
-    const p4, 0x7f122a3e
+    sget p4, Lcom/resouce/module/ResSTRING;->public_sync_loading:I
 
     const/4 v0, 0x1
 
@@ -342,7 +342,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -486,7 +486,7 @@
     .line 1
     iget-object v0, p0, Lzr3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2763
+    sget v1, Lcom/resouce/module/ResID;->public_web_article_publish_go_settings:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
     .line 3
     iget-object v0, p0, Lzr3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2767
+    sget v1, Lcom/resouce/module/ResID;->public_web_article_publish_tip_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -607,7 +607,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122741
+    sget v0, Lcom/resouce/module/ResSTRING;->public_publish_by_web_article:I
 
     return v0
 .end method
@@ -696,7 +696,7 @@
     .line 3
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -776,7 +776,7 @@
 
     iput-object v0, p0, Lzr3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b25ad
+    sget v1, Lcom/resouce/module/ResID;->public_doc2web_top_tips_viewstub:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -811,7 +811,7 @@
     .line 4
     iget-object v0, p0, Lzr3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0702
+    sget v1, Lcom/resouce/module/ResID;->doc2web_modify_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -825,7 +825,7 @@
     .line 6
     iget-object v0, p0, Lzr3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3424
+    sget v1, Lcom/resouce/module/ResID;->web_period_password:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -888,7 +888,7 @@
 .method public final j3()I
     .locals 1
 
-    const v0, 0x7f0e046f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_web_article_publish_main_page:I
 
     return v0
 .end method
@@ -1074,7 +1074,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f12295d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1129,7 +1129,7 @@
     .line 9
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 

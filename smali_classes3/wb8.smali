@@ -366,7 +366,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01b2
+    sget v1, Lcom/resouce/module/ResID;->back:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -420,7 +420,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20ca
+    sget v1, Lcom/resouce/module/ResID;->phone_public_cloudstorage_body:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0486
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b18ed
+    sget v1, Lcom/resouce/module/ResID;->more_option:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -608,7 +608,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0536
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_mgr_moreoption:I
 
     invoke-virtual {p0}, Lwb8;->e()Landroid/view/ViewGroup;
 
@@ -622,35 +622,35 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b08a5
+    sget v1, Lcom/resouce/module/ResID;->enter_manage:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b0153
+    sget v2, Lcom/resouce/module/ResID;->arrange:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2c6f
+    sget v3, Lcom/resouce/module/ResID;->sort:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b06cf
+    sget v4, Lcom/resouce/module/ResID;->divider:I
 
     .line 7
     invoke-virtual {v0, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b1770
+    sget v5, Lcom/resouce/module/ResID;->logout:I
 
     .line 8
     invoke-virtual {v0, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -760,7 +760,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -777,7 +777,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -814,7 +814,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -853,7 +853,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0538
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_mgr_send:I
 
     const/4 v2, 0x0
 
@@ -877,7 +877,7 @@
     .line 4
     iget-object v0, p0, Lwb8;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0489
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_mgr_send_head:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -905,7 +905,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e02
+    sget v1, Lcom/resouce/module/ResID;->switch_login_type_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -999,7 +999,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e01
+    sget v1, Lcom/resouce/module/ResID;->switch_login_type_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1051,7 +1051,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1094,7 +1094,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3311
+    sget v1, Lcom/resouce/module/ResID;->upload:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

@@ -371,7 +371,7 @@
     .line 6
     iget-object v0, p0, Llae;->c:Lcn/wps/moffice/presentation/control/common/AutoRotateScreenGridView;
 
-    const v1, 0x7f081373
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_selector_null:I
 
     invoke-virtual {v0, v1}, Landroid/widget/GridView;->setSelector(I)V
 
@@ -400,7 +400,7 @@
     .line 1
     iget-object v0, p0, Llae;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -422,7 +422,7 @@
 
     invoke-static {v1}, Lxih;->P(Landroid/view/View;)V
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -431,12 +431,12 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2fe9
+    sget v1, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -447,7 +447,7 @@
 
     iput-object v1, p0, Llae;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -463,7 +463,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v2, 0x7f06046d
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -513,7 +513,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e018b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->en_phone_ppt_long_pic_share_select_ppt_dialog_layout:I
 
     invoke-virtual {p1, p2, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -529,7 +529,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0803
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_long_pic_share_select_ppt_dialog_layout:I
 
     invoke-virtual {p1, p2, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -541,7 +541,7 @@
     :goto_0
     iget-object p1, p0, Llae;->a:Landroid/view/View;
 
-    const p2, 0x7f0b230f
+    sget p2, Lcom/resouce/module/ResID;->ppt_long_pic_share_select_slide_grid:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
     .line 9
     iget-object p1, p0, Llae;->a:Landroid/view/View;
 
-    const p2, 0x7f0b230d
+    sget p2, Lcom/resouce/module/ResID;->ppt_long_pic_share_select_button:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1139,7 +1139,7 @@
     .line 1
     iget-object v0, p0, Llae;->h:Landroid/content/Context;
 
-    const v1, 0x7f121b81
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_long_pic_share_length_limited:I
 
     const/4 v2, 0x0
 
@@ -1172,13 +1172,13 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1199,7 +1199,7 @@
 
     iget-object v3, p0, Llae;->h:Landroid/content/Context;
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

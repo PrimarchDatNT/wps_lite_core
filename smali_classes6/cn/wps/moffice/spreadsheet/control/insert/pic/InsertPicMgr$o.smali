@@ -227,7 +227,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f12054e
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     .line 16
     invoke-static {p1, v0}, Lsjf;->h(II)V

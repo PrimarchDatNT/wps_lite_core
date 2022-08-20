@@ -27,7 +27,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e0953
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_datavalidation_setting:I
 
     return v0
 .end method
@@ -35,7 +35,7 @@
 .method public c3()I
     .locals 1
 
-    const v0, 0x7f0e099d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     return v0
 .end method

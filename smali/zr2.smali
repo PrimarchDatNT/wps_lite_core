@@ -133,7 +133,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f081998
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_notification:I
 
     invoke-virtual {p1, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
@@ -236,7 +236,7 @@
     .line 4
     iget-object v0, p0, Lzr2;->a:Landroid/content/Context;
 
-    const v1, 0x7f120565
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_hasapk_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -244,7 +244,7 @@
 
     iget-object v1, p0, Lzr2;->a:Landroid/content/Context;
 
-    const v2, 0x7f12056b
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_notification_install:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

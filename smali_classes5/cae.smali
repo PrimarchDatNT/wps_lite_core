@@ -44,9 +44,9 @@
     .line 4
     new-instance v0, Lcae$c;
 
-    const v1, 0x7f080492
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcae$c;-><init>(Lcae;II)V
 
@@ -299,7 +299,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122b46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     if-eqz v0, :cond_1
 

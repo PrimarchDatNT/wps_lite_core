@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a36
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phonetic_speak_layout:I
 
     const/4 v2, 0x0
 
@@ -112,7 +112,7 @@
     :cond_0
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2203
+    sget v1, Lcom/resouce/module/ResID;->phonetic_record_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -125,7 +125,7 @@
     .line 4
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21fa
+    sget v1, Lcom/resouce/module/ResID;->phonetic_language_select_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 5
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21f9
+    sget v1, Lcom/resouce/module/ResID;->phonetic_language_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 6
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2202
+    sget v1, Lcom/resouce/module/ResID;->phonetic_record:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -162,7 +162,7 @@
     .line 7
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21f3
+    sget v1, Lcom/resouce/module/ResID;->phonetic_file_select:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
     .line 8
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21f4
+    sget v1, Lcom/resouce/module/ResID;->phonetic_file_select_shade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
     .line 9
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2205
+    sget v1, Lcom/resouce/module/ResID;->phonetic_sound_effect:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
     .line 11
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2206
+    sget v1, Lcom/resouce/module/ResID;->phonetic_speak_display:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     .line 12
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2204
+    sget v1, Lcom/resouce/module/ResID;->phonetic_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 13
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21e8
+    sget v1, Lcom/resouce/module/ResID;->phonetic_complete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     .line 14
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b21ea
+    sget v1, Lcom/resouce/module/ResID;->phonetic_complete_shade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
     .line 24
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1261
+    sget v1, Lcom/resouce/module/ResID;->image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -341,7 +341,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -408,7 +408,7 @@
     .line 1
     iget-object v0, p0, Lsr4;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -424,14 +424,14 @@
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setIsNeedSearchBtn(Z)V
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 4
     invoke-virtual {v0, v2, v3, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(IIZ)V
 
-    const v2, 0x7f1219dc
+    sget v2, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
     .line 5
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V

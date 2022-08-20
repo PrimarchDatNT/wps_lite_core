@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0865
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_feedback_webview:I
 
     const/4 v2, 0x0
 
@@ -210,7 +210,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b25d8
+    sget v1, Lcom/resouce/module/ResID;->public_feedback_webview_circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b25d9
+    sget v1, Lcom/resouce/module/ResID;->public_feedback_webview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b25d5
+    sget v1, Lcom/resouce/module/ResID;->public_feedback_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

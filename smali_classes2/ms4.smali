@@ -103,7 +103,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0de7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_premium_pop_tip_layout:I
 
     const/4 v2, 0x0
 
@@ -112,35 +112,35 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24d8
+    sget v1, Lcom/resouce/module/ResID;->premium_pop_tip_done:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b24d5
+    sget v2, Lcom/resouce/module/ResID;->premium_pop_tip_arrow:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b24d9
+    sget v3, Lcom/resouce/module/ResID;->premium_pop_tip_layout:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v3, 0x7f0b24d6
+    sget v3, Lcom/resouce/module/ResID;->premium_pop_tip_conetnt_layout:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
-    const v3, 0x7f0b24d7
+    sget v3, Lcom/resouce/module/ResID;->premium_pop_tip_content:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -308,7 +308,7 @@
     :goto_0
     iget-object v0, p0, Lu15;->e:Landroid/view/View;
 
-    const v1, 0x7f0b226d
+    sget v1, Lcom/resouce/module/ResID;->poppanel_top_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -340,7 +340,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0e19
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_saveicon_upload_or_success_status_panel_en:I
 
     const/4 v3, 0x1
 
@@ -362,7 +362,7 @@
     .line 10
     iget-object p1, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b226b
+    sget v0, Lcom/resouce/module/ResID;->poppanel_progress_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
     .line 11
     iget-object p1, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b226a
+    sget v0, Lcom/resouce/module/ResID;->poppanel_progress:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -426,7 +426,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206aa
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_storage_livespace_uploadingmsg_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -450,7 +450,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12122d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -474,7 +474,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122b72
+    sget v0, Lcom/resouce/module/ResSTRING;->public_upload_success_tips:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -924,7 +924,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f122b7a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_uploading_now_with_percent:I
 
     new-array v1, v9, [Ljava/lang/Object;
 
@@ -963,7 +963,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f12122d
+    sget p3, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -984,7 +984,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122b72
+    sget p3, Lcom/resouce/module/ResSTRING;->public_upload_success_tips:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1016,7 +1016,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e18
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_saveicon_upload_or_success_status_panel:I
 
     const/4 v2, 0x0
 
@@ -1032,7 +1032,7 @@
     .line 3
     iget-object p2, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b226c
+    sget v0, Lcom/resouce/module/ResID;->poppanel_title:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1045,7 +1045,7 @@
     .line 4
     iget-object p2, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b33ba
+    sget v0, Lcom/resouce/module/ResID;->viewall_button:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1060,7 +1060,7 @@
     .line 5
     iget-object p2, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b0e72
+    sget v0, Lcom/resouce/module/ResID;->force_upload_layout:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1071,7 +1071,7 @@
     .line 6
     iget-object p2, p0, Lu15;->e:Landroid/view/View;
 
-    const v0, 0x7f0b0e71
+    sget v0, Lcom/resouce/module/ResID;->force_upload_btn:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1092,7 +1092,7 @@
 
     iget-object v1, p0, Lu15;->e:Landroid/view/View;
 
-    const v2, 0x7f0b0fd7
+    sget v2, Lcom/resouce/module/ResID;->history_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1180,7 +1180,7 @@
     .line 1
     iget-object v0, p0, Lu15;->e:Landroid/view/View;
 
-    const v1, 0x7f0b2269
+    sget v1, Lcom/resouce/module/ResID;->poppanel_history_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

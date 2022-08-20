@@ -440,7 +440,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1e3c
+    sget p2, Lcom/resouce/module/ResID;->pdf_main_toolbar_night_mode:I
 
     .line 33
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -956,7 +956,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e067c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdfnew_main_layout:I
 
     const/4 v2, 0x0
 
@@ -980,7 +980,7 @@
     .line 4
     iget-object v0, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f14
+    sget v1, Lcom/resouce/module/ResID;->pdf_renderview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -996,7 +996,7 @@
     .line 6
     iget-object v0, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f25
+    sget v1, Lcom/resouce/module/ResID;->pdf_shell_top_panel:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1013,7 +1013,7 @@
     .line 7
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f1e
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_bottom_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1028,7 +1028,7 @@
     .line 8
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f22
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_left_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1043,7 +1043,7 @@
     .line 9
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f24
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_right_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1058,7 +1058,7 @@
     .line 10
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f1f
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_above_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1073,7 +1073,7 @@
     .line 11
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f20
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_below_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1088,7 +1088,7 @@
     .line 12
     iget-object v2, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v3, 0x7f0b1f21
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_float_panel:I
 
     invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1107,7 +1107,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1f26
+    sget v3, Lcom/resouce/module/ResID;->pdf_shell_top_panel_shadow:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1120,7 +1120,7 @@
     .line 14
     iget-object v0, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f13
+    sget v1, Lcom/resouce/module/ResID;->pdf_renderattachedview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1133,7 +1133,7 @@
     .line 15
     iget-object v0, p0, Lrwb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f23
+    sget v1, Lcom/resouce/module/ResID;->pdf_shell_misclay:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1180,7 +1180,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1f49
+    sget v1, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

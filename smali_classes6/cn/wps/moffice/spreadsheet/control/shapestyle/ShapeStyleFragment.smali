@@ -472,11 +472,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_1
 
@@ -511,7 +511,7 @@
 
     if-nez p3, :cond_1
 
-    const p3, 0x7f0e0f73
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ss_quickstyle_viewstub_pad:I
 
     .line 3
     invoke-virtual {p1, p3, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

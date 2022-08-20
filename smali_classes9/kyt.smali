@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121414
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_navigate_to_year_description:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -347,7 +347,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04ae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_year:I
 
     const/4 v1, 0x0
 

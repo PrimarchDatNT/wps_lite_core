@@ -118,7 +118,7 @@
 
     iget-object v2, p0, Lb1a$l;->B:Landroid/content/Context;
 
-    const v0, 0x7f1202b9
+    sget v0, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_cannot_download_msg:I
 
     invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x7f1202be
+    sget v6, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_i_know:I
 
     const/4 v7, 0x0
 
@@ -148,7 +148,7 @@
 
     const/4 v12, 0x0
 
-    const v13, 0x7f1202be
+    sget v13, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_i_know:I
 
     const/4 v14, 0x0
 

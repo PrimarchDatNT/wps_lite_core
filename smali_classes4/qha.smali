@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12163d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121685
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -86,7 +86,7 @@
     .line 2
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f12164a
+    sget p1, Lcom/resouce/module/ResSTRING;->paper_check_verify_failed_title:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -115,7 +115,7 @@
 
     invoke-direct {p0, p2}, Lqha$f;-><init>(Landroid/app/Dialog;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -225,7 +225,7 @@
 
     invoke-direct {v1}, Lqha$c;-><init>()V
 
-    const v2, 0x7f121624
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_result_loading:I
 
     const/4 v3, 0x0
 
@@ -261,12 +261,12 @@
 
     if-eqz p2, :cond_1
 
-    const v1, 0x7f1215fc
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_notify_tips:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f12165d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_notify_tips:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -531,7 +531,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081a5d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -1611,7 +1611,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12164a
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verify_failed_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1632,7 +1632,7 @@
 
     invoke-direct {p1, p3, p0}, Lqha$m;-><init>(Lqha$q;Landroid/content/Context;)V
 
-    const p0, 0x7f1215cc
+    sget p0, Lcom/resouce/module/ResSTRING;->paper_check_continue:I
 
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1641,7 +1641,7 @@
 
     invoke-direct {p0, p2}, Lqha$n;-><init>(Landroid/app/Dialog;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1681,7 +1681,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12164a
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verify_failed_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1712,7 +1712,7 @@
 
     invoke-direct/range {v2 .. v7}, Lqha$p;-><init>(Landroid/content/Context;Landroid/app/Dialog;Lqha$q;J)V
 
-    const p3, 0x7f12164e    # 1.941831E38f
+    sget p3, Lcom/resouce/module/ResSTRING;->paper_check_verify_input_now:I    # 1.941831E38f
 
     invoke-virtual {v0, p3, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1731,7 +1731,7 @@
 
     invoke-direct/range {v2 .. v7}, Lqha$a;-><init>(JLandroid/content/Context;ILandroid/app/Dialog;)V
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p0, p3}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1770,7 +1770,7 @@
 
     move-object v8, p1
 
-    const v0, 0x7f0e0d79
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_dialog_input_layout:I
 
     const/4 v1, 0x0
 
@@ -1779,7 +1779,7 @@
 
     move-result-object v9
 
-    const v0, 0x7f0b083f
+    sget v0, Lcom/resouce/module/ResID;->edit_text:I
 
     .line 2
     invoke-virtual {v9, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1848,7 +1848,7 @@
 
     invoke-direct/range {v0 .. v6}, Lqha$i;-><init>(Landroid/widget/EditText;Landroid/content/Context;Landroid/app/Dialog;Lqha$q;J)V
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v11, v0, v13}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1859,11 +1859,11 @@
 
     invoke-direct {v0, p0, p1, v1}, Lqha$j;-><init>(Landroid/content/Context;Landroid/app/Dialog;Lqha$q;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v11, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f1215f7
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_input_author_title:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

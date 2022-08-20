@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a7d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_horizon_tabbar_item:I
 
     const/4 v2, 0x0
 
@@ -181,7 +181,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2434
+    sget v1, Lcom/resouce/module/ResID;->ppt_tabbar_itembtn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2564
+    sget v2, Lcom/resouce/module/ResID;->pt_print_select_divide_line:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -340,7 +340,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -355,7 +355,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

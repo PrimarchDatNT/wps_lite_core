@@ -50,7 +50,7 @@
 
     iget-object p1, p1, Ltsb$b;->B:Landroid/app/Activity;
 
-    const v0, 0x7f121849
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_pack_buyok:I
 
     const/4 v1, 0x0
 

@@ -182,7 +182,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e081e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_ppt_thumnails_grid_item:I
 
     const/4 v0, 0x0
 
@@ -199,7 +199,7 @@
     .line 4
     iput-object p2, p3, Lipd$a;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2481
+    sget v0, Lcom/resouce/module/ResID;->ppt_thumbnails_grid_item_img:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

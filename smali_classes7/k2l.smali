@@ -185,7 +185,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f1232be
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_fill_table_conflict_dialog_title:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -202,7 +202,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1232bd
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_fill_table_conflict_dialog_content:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -227,7 +227,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1232bf
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_cover:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -244,7 +244,7 @@
 
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1232d5
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_not_cover:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -261,7 +261,7 @@
 
     iget-object p2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const p3, 0x7f1232bc
+    sget p3, Lcom/resouce/module/ResSTRING;->writer_fill_table_cancel:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -344,7 +344,7 @@
     .line 1
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1543
+    sget v1, Lcom/resouce/module/ResID;->layout_feedback:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -357,7 +357,7 @@
     .line 2
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c9d
+    sget v1, Lcom/resouce/module/ResID;->feedback_good:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -368,7 +368,7 @@
     .line 3
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c93
+    sget v1, Lcom/resouce/module/ResID;->feedback_bad:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -379,7 +379,7 @@
     .line 4
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c96
+    sget v1, Lcom/resouce/module/ResID;->feedback_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09d9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_quick_layout:I
 
     const/4 v2, 0x0
 
@@ -454,7 +454,7 @@
 
     iput-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b33c2
+    sget v1, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -479,7 +479,7 @@
     .line 5
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -492,7 +492,7 @@
     .line 6
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d62
+    sget v1, Lcom/resouce/module/ResID;->fill_table:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -505,7 +505,7 @@
     .line 7
     iget-object v0, p0, Lk2l;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d64
+    sget v1, Lcom/resouce/module/ResID;->fill_table_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -540,7 +540,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122c11
+    sget v0, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
     return v0
 .end method
@@ -710,7 +710,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e09db
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_quick_table_layout:I
 
     const/4 v4, 0x0
 
@@ -718,7 +718,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2e52
+    sget v3, Lcom/resouce/module/ResID;->table_record:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -845,7 +845,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0d62
+    sget v0, Lcom/resouce/module/ResID;->fill_table:I
 
     const-string v1, "titletip"
 
@@ -867,7 +867,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0c9d
+    sget v0, Lcom/resouce/module/ResID;->feedback_good:I
 
     const/16 v2, 0x8
 
@@ -876,7 +876,7 @@
     .line 4
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1232c7
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_feedback_good_toast:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -890,7 +890,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0c93
+    sget v0, Lcom/resouce/module/ResID;->feedback_bad:I
 
     if-ne p1, v0, :cond_4
 
@@ -948,7 +948,7 @@
     return-void
 
     :cond_4
-    const v0, 0x7f0b0c96
+    sget v0, Lcom/resouce/module/ResID;->feedback_close:I
 
     if-ne p1, v0, :cond_5
 

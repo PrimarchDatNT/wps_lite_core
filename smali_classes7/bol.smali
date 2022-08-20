@@ -262,7 +262,7 @@
     .line 2
     iget-object v0, p0, Lbol;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0e0d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_resume_item:I
 
     const/4 v2, 0x0
 
@@ -270,7 +270,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b13ca
+    sget v0, Lcom/resouce/module/ResID;->item_img:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object v0, p2, Lbol$a;->a:Lcn/wps/moffice/common/beans/V10RoundRectImageView;
 
-    const v0, 0x7f0b0799
+    sget v0, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

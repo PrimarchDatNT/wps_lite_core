@@ -111,7 +111,7 @@
     .line 8
     iget-object v0, p0, Laql$a;->e:Landroid/widget/ImageView;
 
-    const v2, 0x7f0819c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

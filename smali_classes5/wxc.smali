@@ -21,7 +21,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -115,7 +115,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121927
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_delete_tips:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

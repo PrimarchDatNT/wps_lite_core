@@ -20,7 +20,7 @@
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const p1, 0x7f0e0fe2
+    sget p1, Lcom/resouce/module/ResLAYOUT;->tv_picture_viewer_circle_progress:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V

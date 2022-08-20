@@ -130,7 +130,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f12032c
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_check_again_text_pic:I
 
     return v0
 .end method
@@ -138,7 +138,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f12032d
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_feedback_convert_title_pic:I
 
     return v0
 .end method
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030079
+    sget v1, Lcom/resouce/module/ResARRAY;->public_pic_convert_feedback_result:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -199,7 +199,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f120331
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_title_pic:I
 
     return v0
 .end method
@@ -349,7 +349,7 @@
     .line 11
     iget-object p1, p0, Ld86;->a:Landroid/content/Context;
 
-    const v0, 0x7f12032f
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_effect_thanks:I
 
     const/4 v1, 0x0
 
@@ -415,7 +415,7 @@
     .line 2
     iget-object v0, p0, Ld86;->a:Landroid/content/Context;
 
-    const v1, 0x7f12032f
+    sget v1, Lcom/resouce/module/ResSTRING;->convert_effect_thanks:I
 
     const/4 v2, 0x0
 

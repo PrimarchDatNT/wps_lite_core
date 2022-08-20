@@ -148,7 +148,7 @@
 
     iget-object v2, p0, Lqbc;->h0:Ljava/util/List;
 
-    const v3, 0x7f0e0790
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_secodepanel_textedit_item:I
 
     invoke-direct {v0, v1, v2, v3}, Lobc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 

@@ -522,7 +522,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e02f1
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_common_task:I
 
     const/4 v0, 0x0
 

@@ -1679,7 +1679,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122f52
+    sget v3, Lcom/resouce/module/ResSTRING;->skydrive:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

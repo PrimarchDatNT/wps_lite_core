@@ -91,7 +91,7 @@
     .line 6
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/Toolbar;->mToolbarAnimationLayout:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarAnimationLayout;
 
-    const v0, 0x7f0b0ab0
+    sget v0, Lcom/resouce/module/ResID;->et_main_toolbar_scrolllayout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/Toolbar;->mToolbarAnimationLayout:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarAnimationLayout;
 
-    const v0, 0x7f0b0aae
+    sget v0, Lcom/resouce/module/ResID;->et_main_toolbar_scroll:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/Toolbar;->mToolbarAnimationLayout:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarAnimationLayout;
 
-    const v0, 0x7f0b2a3a
+    sget v0, Lcom/resouce/module/ResID;->scroll_to_right_edge:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -141,7 +141,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/toolbar/Toolbar;->mToolbarAnimationLayout:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarAnimationLayout;
 
-    const v0, 0x7f0b2a39
+    sget v0, Lcom/resouce/module/ResID;->scroll_to_left_edge:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

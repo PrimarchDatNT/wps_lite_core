@@ -229,7 +229,7 @@
     :cond_5
     iget-object v0, p0, Lcn/wps/moffice/share/groupshare/extlibs/GroupShareUtil$y;->I:Landroid/content/Context;
 
-    const v1, 0x7f121951
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     invoke-static {v0, v1, v3}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_0

@@ -111,7 +111,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e065e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_popballon_with_arrow:I
 
     .line 9
     invoke-virtual {p1, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -122,7 +122,7 @@
 
     iput-object p1, p0, Lo8c;->B:Lcn/wps/moffice/pdf/reader/decorators/annotation/PDFCustomArrowPopViewBg;
 
-    const p2, 0x7f0b1ec5
+    sget p2, Lcom/resouce/module/ResID;->pdf_popballoon_container:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
 
     iput-object p2, p0, Lo8c;->I:Lcn/wps/moffice/common/beans/EditScrollView;
 
-    const v0, 0x7f0b1ecc
+    sget v0, Lcom/resouce/module/ResID;->pdf_popballoon_progressbar:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
     .line 13
     invoke-virtual {p0}, Lo8c;->f()V
 
-    const v0, 0x7f0b1ec6
+    sget v0, Lcom/resouce/module/ResID;->pdf_popballoon_content:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070dd5
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_popballoon_arrow_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070dd4
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_popballoon_arrow_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

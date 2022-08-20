@@ -55,7 +55,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f122840
+    sget v3, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     packed-switch v0, :pswitch_data_0
 

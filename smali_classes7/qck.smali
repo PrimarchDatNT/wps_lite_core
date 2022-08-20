@@ -81,7 +81,7 @@
 .method public final Q2()V
     .locals 2
 
-    const v0, 0x7f0e09e8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_mi_preview_search_ctrl:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     invoke-virtual {p0, v0}, Loal;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b2aa9
+    sget v0, Lcom/resouce/module/ResID;->search_prev:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lqck;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2a93
+    sget v0, Lcom/resouce/module/ResID;->search_next:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070def
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -181,7 +181,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070dee
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -245,12 +245,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08099e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_dark:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f08099f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_light:I
 
     :goto_1
     invoke-virtual {v1, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;

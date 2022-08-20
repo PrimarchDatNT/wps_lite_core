@@ -507,7 +507,7 @@
 
     invoke-direct {p4, p1, v0}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f12035f
+    sget v1, Lcom/resouce/module/ResSTRING;->decompress_upload_network_state_tips:I
 
     new-array p5, p5, [Ljava/lang/Object;
 
@@ -542,7 +542,7 @@
 
     invoke-virtual {p4, p1}, Lqe3;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    const p1, 0x7f122b76
+    sget p1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_with_wift:I
 
     .line 8
     new-instance p2, Lix8;
@@ -553,7 +553,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f123263
+    sget p2, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     new-instance p3, Lex8;
 

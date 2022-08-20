@@ -305,7 +305,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0428
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_reader_home_history:I
 
     const/4 v1, 0x0
 

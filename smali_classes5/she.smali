@@ -94,7 +94,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0b1fdb
+    sget p1, Lcom/resouce/module/ResID;->phone_flow_item_text:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

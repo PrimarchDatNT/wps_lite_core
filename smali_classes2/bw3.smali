@@ -1052,7 +1052,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122138
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_radar_auto_open_tips:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1062,7 +1062,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1072,11 +1072,11 @@
 
     invoke-direct {v1}, Lbw3$a;-><init>()V
 
-    const v2, 0x7f122189
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     invoke-virtual {v0, v2, p0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122c0b
+    sget p0, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     const/4 v1, 0x0
 

@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0b42
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v3, 0x0
 
@@ -205,7 +205,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121844
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext_selectpages_savingimg:I
 
     invoke-virtual {v1, v3}, Lrd3;->D(I)V
 

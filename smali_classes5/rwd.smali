@@ -32,7 +32,7 @@
 
     move-result v1
 
-    const v2, 0x7f121c42
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_slide:I
 
     const/4 v3, 0x1
 
@@ -165,12 +165,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080384
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_new:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d80
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_slide:I
 
     :goto_0
     return v0

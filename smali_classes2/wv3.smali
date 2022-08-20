@@ -29,7 +29,7 @@
     .line 2
     iput-object p1, p0, Lwv3;->a:Landroid/view/View;
 
-    const v0, 0x7f0b153b
+    sget v0, Lcom/resouce/module/ResID;->layout_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -38,7 +38,7 @@
 
     iput-object v0, p0, Lwv3;->b:Landroid/view/View;
 
-    const v0, 0x7f0b3206
+    sget v0, Lcom/resouce/module/ResID;->tv_online_devices:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object v0, p0, Lwv3;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3290
+    sget v0, Lcom/resouce/module/ResID;->tv_tip_icon:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     iput-object v0, p0, Lwv3;->d:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3285
+    sget v0, Lcom/resouce/module/ResID;->tv_sync:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Lwv3;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1427
+    sget v0, Lcom/resouce/module/ResID;->iv_close:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -155,7 +155,7 @@
     .line 8
     invoke-virtual {v0, v2}, Lf54;->c(Z)Lf54;
 
-    const v3, 0x7f081a63
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_online_device_tip:I
 
     .line 9
     invoke-virtual {v0, v3}, Lf54;->b(I)Lf54;

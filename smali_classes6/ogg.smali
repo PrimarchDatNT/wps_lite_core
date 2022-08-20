@@ -166,7 +166,7 @@
     .line 1
     iget-object p2, p0, Logg;->S:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0974
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_merge_dialog_item_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

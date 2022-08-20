@@ -160,7 +160,7 @@
 
     iget-object v0, p0, Lu5w;->f:Landroid/app/Activity;
 
-    const v1, 0x7f121da2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_begin_use:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
     :cond_0
     iget-object v0, p0, Lu5w;->f:Landroid/app/Activity;
 
-    const v1, 0x7f12101c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_buy_now:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f0a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->search_home_full_text_search_introduce_layout:I
 
     const/4 v2, 0x0
 
@@ -202,7 +202,7 @@
 
     iput-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b13ac
+    sget v0, Lcom/resouce/module/ResID;->item_content:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
     .line 3
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b13ae
+    sget v0, Lcom/resouce/module/ResID;->item_content_new:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -225,7 +225,7 @@
     .line 4
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -236,7 +236,7 @@
     .line 5
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2f32
+    sget v0, Lcom/resouce/module/ResID;->text_search_empty_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -247,7 +247,7 @@
     .line 6
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2f18
+    sget v0, Lcom/resouce/module/ResID;->text_hint:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 7
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b156a
+    sget v0, Lcom/resouce/module/ResID;->layout_search:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
     .line 8
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0328
+    sget v0, Lcom/resouce/module/ResID;->button_search:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -284,7 +284,7 @@
     .line 9
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b1366
+    sget v0, Lcom/resouce/module/ResID;->introduce_switch:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -297,7 +297,7 @@
     .line 10
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c88
+    sget v0, Lcom/resouce/module/ResID;->fb_filetype_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 11
     iget-object p1, p0, Lu5w;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0c8c
+    sget v0, Lcom/resouce/module/ResID;->fb_no_doc_msg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -388,7 +388,7 @@
     .line 2
     iget-object v0, p0, Lu5w;->f:Landroid/app/Activity;
 
-    const v2, 0x7f122202
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fulltext_search_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -401,7 +401,7 @@
     .line 4
     iget-object v0, p0, Lu5w;->f:Landroid/app/Activity;
 
-    const v1, 0x7f1221ff
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fulltext_search_building:I
 
     const/4 v2, 0x1
 
@@ -604,7 +604,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

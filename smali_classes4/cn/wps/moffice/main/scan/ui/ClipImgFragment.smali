@@ -225,7 +225,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->I:Landroid/app/Activity;
 
-    const v2, 0x7f12205a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -306,7 +306,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->I:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x1
 
@@ -705,7 +705,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02a3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->fragment_doc_scan_clip_image:I
 
     const/4 v2, 0x0
 
@@ -716,7 +716,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b141f
+    sget v1, Lcom/resouce/module/ResID;->iv_cancel:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -728,7 +728,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b14a1
+    sget v1, Lcom/resouce/module/ResID;->iv_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0607
+    sget v1, Lcom/resouce/module/ResID;->cv_cut:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -752,7 +752,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07f4
+    sget v1, Lcom/resouce/module/ResID;->edit_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -789,7 +789,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/scan/ui/ClipImgFragment;->B:Landroid/view/View;
 
-    const v1, 0x7f0b143b
+    sget v1, Lcom/resouce/module/ResID;->iv_detection:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1007,7 +1007,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p2, 0x7f0e02a3
+    sget p2, Lcom/resouce/module/ResLAYOUT;->fragment_doc_scan_clip_image:I
 
     const/4 p3, 0x0
 

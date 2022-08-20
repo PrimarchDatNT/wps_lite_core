@@ -646,12 +646,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0803dd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_share_share:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080daa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_share_et:I
 
     :goto_0
     return v0
@@ -784,7 +784,7 @@
 
     move-result v1
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Sharer$11;-><init>(Lcn/wps/moffice/spreadsheet/control/Sharer;II)V
 
@@ -807,7 +807,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12298f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     invoke-direct {v0, p0, v1, v3, v2}, Lcn/wps/moffice/spreadsheet/control/Sharer$12;-><init>(Lcn/wps/moffice/spreadsheet/control/Sharer;II[I)V
 
@@ -816,9 +816,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Sharer$13;
 
-    const v1, 0x7f080490
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Sharer$13;-><init>(Lcn/wps/moffice/spreadsheet/control/Sharer;II)V
 
@@ -924,7 +924,7 @@
 
     sget v1, Laef;->a:I
 
-    const v2, 0x7f1205ee
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v3, 0x0
 
@@ -1597,7 +1597,7 @@
     .line 4
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 5
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1883,7 +1883,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/Sharer;->I:Landroid/content/Context;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 
@@ -2227,7 +2227,7 @@
     .line 42
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/Sharer;->I:Landroid/content/Context;
 
-    const p2, 0x7f12280a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     const/4 v0, 0x0
 
@@ -2322,7 +2322,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/Sharer;->I:Landroid/content/Context;
 
-    const v0, 0x7f122fd2
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_long_pic_blank_cell_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2649,7 +2649,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122fdd
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_openplatform_ss_export_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2896,7 +2896,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -3225,7 +3225,7 @@
 
     check-cast v1, Landroid/app/Activity;
 
-    const v3, 0x7f0b2d04
+    sget v3, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -3253,7 +3253,7 @@
 
     if-nez v1, :cond_4
 
-    const p1, 0x7f122fd4
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_long_pic_limit_tips:I
 
     .line 7
     invoke-static {p1, v0}, Lsjf;->h(II)V

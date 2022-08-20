@@ -93,7 +93,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/PreProcessActivity$h0;->S:Lcn/wps/moffice/main/PreProcessActivity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

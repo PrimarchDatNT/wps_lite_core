@@ -69,7 +69,7 @@
     .line 5
     iget-object p1, p0, Leq9$p;->I:Landroid/app/Activity;
 
-    const v0, 0x7f122552
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0602db
+    sget p2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -218,7 +218,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -449,7 +449,7 @@
     .line 2
     iget-object p1, p0, Lro3;->I:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
@@ -551,12 +551,12 @@
 
     if-eqz p1, :cond_0
 
-    const v5, 0x7f0e0c02
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_flow_view:I
 
     goto :goto_1
 
     :cond_0
-    const v5, 0x7f0e087d
+    sget v5, Lcom/resouce/module/ResLAYOUT;->phone_public_flow_view:I
 
     :goto_1
     const/4 v6, 0x0
@@ -566,7 +566,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b258e
+    sget v6, Lcom/resouce/module/ResID;->public_chart_selected_dialog_gridview:I
 
     .line 7
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -816,22 +816,22 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fe6
+    sget v0, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne p1, v0, :cond_5
 
@@ -927,7 +927,7 @@
     .line 3
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f120768
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_clustered:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -937,7 +937,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f120766
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_bar:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -950,7 +950,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f120769
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_line:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -963,7 +963,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f12076a
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_pie:I
 
     .line 6
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -976,7 +976,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f120765
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_area:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -989,7 +989,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f12076d
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_xy:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1002,7 +1002,7 @@
 
     iget-object v2, p0, Lro3;->B:Landroid/content/Context;
 
-    const v3, 0x7f12076b
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_radar:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1031,7 +1031,7 @@
 
     iget-object v3, p0, Lro3;->B:Landroid/content/Context;
 
-    const v4, 0x7f0e0e57
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_hint:I
 
     invoke-direct {v2, p0, v3, v4, v0}, Lro3$a;-><init>(Lro3;Landroid/content/Context;I[Ljava/lang/String;)V
 
@@ -1043,7 +1043,7 @@
 
     iget-object v3, p0, Lro3;->B:Landroid/content/Context;
 
-    const v4, 0x7f0e08e6
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_public_simple_dropdown_hint:I
 
     invoke-direct {v2, p0, v3, v4, v0}, Lro3$b;-><init>(Lro3;Landroid/content/Context;I[Ljava/lang/String;)V
 
@@ -1091,7 +1091,7 @@
     .line 1
     iget-object v0, p0, Lro3;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b33c1
+    sget v1, Lcom/resouce/module/ResID;->viewflow:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1175,12 +1175,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0b3e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_selected_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0841
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_chart_selected_dialog:I
 
     :goto_0
     const/4 v2, 0x0
@@ -1210,7 +1210,7 @@
     .line 6
     iget-object v0, p0, Lro3;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0399
+    sget v1, Lcom/resouce/module/ResID;->chart_selected_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

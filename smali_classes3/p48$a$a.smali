@@ -100,7 +100,7 @@
 
     iget-object v0, v0, Lp48;->B:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -144,7 +144,7 @@
 
     iget-object v0, v0, Lp48;->B:Landroid/content/Context;
 
-    const v1, 0x7f120e95
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_can_not_add_star_tips:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

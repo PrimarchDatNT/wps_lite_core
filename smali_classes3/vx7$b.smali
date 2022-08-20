@@ -66,7 +66,7 @@
     .line 5
     iget-object p2, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0347
+    sget p3, Lcom/resouce/module/ResID;->captchaImageView:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -79,7 +79,7 @@
     .line 6
     iget-object p2, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0346
+    sget p3, Lcom/resouce/module/ResID;->captchaEditText:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
     .line 7
     iget-object p2, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const p3, 0x7f0b0422
+    sget p3, Lcom/resouce/module/ResID;->clearCaptchaView:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
     .line 8
     iget-object p2, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const p3, 0x7f0b2c65
+    sget p3, Lcom/resouce/module/ResID;->smsCaptchaButton:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -116,7 +116,7 @@
     .line 9
     iget-object p2, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const p3, 0x7f0b287d
+    sget p3, Lcom/resouce/module/ResID;->refreshTextView:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -671,7 +671,7 @@
 
     iget-object v0, v0, Lvx7;->U:Landroid/app/Activity;
 
-    const v1, 0x7f12318d
+    sget v1, Lcom/resouce/module/ResSTRING;->url_request_captcha:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -703,7 +703,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2c65
+    sget v0, Lcom/resouce/module/ResID;->smsCaptchaButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -737,18 +737,18 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b0347
+    sget v0, Lcom/resouce/module/ResID;->captchaImageView:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b287d
+    sget v0, Lcom/resouce/module/ResID;->refreshTextView:I
 
     if-ne p1, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0422
+    sget v0, Lcom/resouce/module/ResID;->clearCaptchaView:I
 
     if-ne p1, v0, :cond_3
 

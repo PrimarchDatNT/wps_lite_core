@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120338
+    sget v1, Lcom/resouce/module/ResSTRING;->cookie_domain:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -556,7 +556,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f120c93
+    sget v4, Lcom/resouce/module/ResSTRING;->evernote_user_agent:I
 
     new-array v3, v3, [Ljava/lang/Object;
 

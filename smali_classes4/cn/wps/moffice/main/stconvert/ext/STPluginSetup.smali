@@ -175,7 +175,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/stconvert/ext/STPluginSetup;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f120586
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

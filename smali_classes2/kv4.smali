@@ -733,7 +733,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e0df1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_print_scan_tip_dialog:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -758,7 +758,7 @@
     .line 6
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p0, 0x7f0b029b
+    sget p0, Lcom/resouce/module/ResID;->btn:I
 
     .line 7
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -873,7 +873,7 @@
     :cond_0
     iget-object p1, p0, Lkv4;->b:Landroid/app/Activity;
 
-    const p2, 0x7f12316d
+    sget p2, Lcom/resouce/module/ResSTRING;->unavailable_for_current_ver:I
 
     const/4 v0, 0x1
 
@@ -904,7 +904,7 @@
     .line 2
     iget-object p1, p0, Lkv4;->b:Landroid/app/Activity;
 
-    const p2, 0x7f122552
+    sget p2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     const/4 p3, 0x1
 

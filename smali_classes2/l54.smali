@@ -36,7 +36,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -49,7 +49,7 @@
     .line 3
     iget-object v0, p1, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v1, 0x7f1212d3
+    sget v1, Lcom/resouce/module/ResSTRING;->infoflow_card_wps_news:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleColor(I)V
 
-    const v0, 0x7f0809df
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->infoflow_bg:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V

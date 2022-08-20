@@ -121,7 +121,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f0703a3
+    sget v6, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -193,12 +193,12 @@
 
     if-eqz v1, :cond_2
 
-    const v3, 0x7f060641
+    sget v3, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_selected:I
 
     goto :goto_1
 
     :cond_2
-    const v3, 0x7f060640
+    sget v3, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_normal:I
 
     .line 15
     :goto_1
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081e8b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     .line 19
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

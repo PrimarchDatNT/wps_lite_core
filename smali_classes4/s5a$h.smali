@@ -53,7 +53,7 @@
     .line 1
     invoke-direct {p0, p1}, Lkz9$c;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1396
+    sget v0, Lcom/resouce/module/ResID;->itemLayout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Ls5a$h;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b0fe3
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_icon_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Ls5a$h;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b0fe2
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     iput-object v0, p0, Ls5a$h;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0feb
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_status_icon:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     iput-object v0, p0, Ls5a$h;->n0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0c76
+    sget v0, Lcom/resouce/module/ResID;->fb_file_attatch_news_red_point:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fea
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object v0, p0, Ls5a$h;->o0:Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;
 
-    const v0, 0x7f0b0fe8
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object v0, p0, Ls5a$h;->t0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fe9
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v0, p0, Ls5a$h;->p0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fe6
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v0, p0, Ls5a$h;->q0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fe4
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_info_icon:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v0, p0, Ls5a$h;->s0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fe0
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_checkbox:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v0, p0, Ls5a$h;->r0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v0, 0x7f0b29bd
+    sget v0, Lcom/resouce/module/ResID;->round_progress_bar:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object v0, p0, Ls5a$h;->v0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v0, 0x7f0b0fef
+    sget v0, Lcom/resouce/module/ResID;->history_record_progress_pause_icon:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object v0, p0, Ls5a$h;->w0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fee
+    sget v0, Lcom/resouce/module/ResID;->history_record_local_flag_icon:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,11 +202,11 @@
     .line 16
     iget-object v0, p0, Ls5a$h;->v0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v1, 0x7f080906
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_upload_round_progress_et_icon:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
 
-    const v0, 0x7f0b2840
+    sget v0, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,14 +253,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023e
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f06023c
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_background_color:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -284,7 +284,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c71
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_home:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -301,7 +301,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c74
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_home:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -314,7 +314,7 @@
     .line 15
     iget-object p1, p1, Ls5a$h;->v0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v0, 0x7f081688
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_upload:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
 

@@ -125,7 +125,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f0e0888
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_func_guide_purchase_item:I
 
     return v0
 .end method
@@ -133,7 +133,7 @@
 .method public f()I
     .locals 1
 
-    const v0, 0x7f0e0886
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_func_guide_layout:I
 
     return v0
 .end method
@@ -144,7 +144,7 @@
     .line 1
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ea2
+    sget v1, Lcom/resouce/module/ResID;->func_btm_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     .line 1
     iget-object v0, p0, Lbib;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ebd
+    sget v1, Lcom/resouce/module/ResID;->func_member_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

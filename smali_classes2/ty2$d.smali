@@ -48,7 +48,7 @@
     .line 2
     invoke-virtual {p0, p2}, Lty2$d;->R(Z)V
 
-    const p2, 0x7f0b0542
+    sget p2, Lcom/resouce/module/ResID;->content_container:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object p2, p0, Lty2$d;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b2c36
+    sget p2, Lcom/resouce/module/ResID;->sku_coins:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p2, p0, Lty2$d;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0498
+    sget p2, Lcom/resouce/module/ResID;->coin_unit_tv:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
 
     iput-object p2, p0, Lty2$d;->l0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2514
+    sget p2, Lcom/resouce/module/ResID;->price_tv:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object p2, p0, Lty2$d;->m0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b022e
+    sget p2, Lcom/resouce/module/ResID;->bonus_tv:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object p2, p0, Lty2$d;->n0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0663
+    sget p2, Lcom/resouce/module/ResID;->description_tv:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object p2, p0, Lty2$d;->o0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0497
+    sget p2, Lcom/resouce/module/ResID;->coin_icon:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object p2, p0, Lty2$d;->p0:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b06ac
+    sget p2, Lcom/resouce/module/ResID;->discount_info_tv:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object p2, p0, Lty2$d;->q0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b123f
+    sget p2, Lcom/resouce/module/ResID;->icon_selected:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
     .line 4
     iget-object p2, p0, Lty2$d;->p0:Landroid/widget/ImageView;
 
-    const v0, 0x7f080b1a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->novel_sku_coin_icon:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -235,7 +235,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f123242
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_novel_user_bonus:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -315,7 +315,7 @@
     .line 12
     iget-object p2, p0, Lty2$d;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f12321e
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_home_only_for_first:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -336,7 +336,7 @@
     .line 14
     iget-object p2, p0, Lty2$d;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f123243
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_novel_user_coin:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -367,20 +367,20 @@
     .line 1
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0542
+    sget v1, Lcom/resouce/module/ResID;->content_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f080b16
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->novel_selector_item_coin_sku_bg:I
 
     invoke-static {v0, v1, p1}, Lw1f;->d(Landroid/view/View;IZ)V
 
     .line 2
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2c36
+    sget v1, Lcom/resouce/module/ResID;->sku_coins:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -388,14 +388,14 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0603a2
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 3
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0498
+    sget v2, Lcom/resouce/module/ResID;->coin_unit_tv:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -403,14 +403,14 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f060330
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {v0, v2, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 4
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2514
+    sget v3, Lcom/resouce/module/ResID;->price_tv:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -423,7 +423,7 @@
     .line 5
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0663
+    sget v1, Lcom/resouce/module/ResID;->description_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -436,7 +436,7 @@
     .line 6
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b022e
+    sget v1, Lcom/resouce/module/ResID;->bonus_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0602e9
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_NovelsThirdColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 

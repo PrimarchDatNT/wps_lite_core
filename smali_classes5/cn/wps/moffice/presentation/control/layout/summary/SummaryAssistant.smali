@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c49
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -221,7 +221,7 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/presentation/control/layout/summary/SummaryAssistant$a;
 
-    const v2, 0x7f080393
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_summary:I
 
     const/4 v4, 0x1
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c49
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_summary_assistant:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -378,7 +378,7 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/presentation/control/layout/summary/SummaryAssistant$b;
 
-    const v2, 0x7f080393
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_summary:I
 
     move-object v1, v0
 
@@ -556,7 +556,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

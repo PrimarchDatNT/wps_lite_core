@@ -210,7 +210,7 @@
     .line 4
     iget-object p1, p0, Lpme;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121c7c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_play_online_video:I
 
     invoke-static {p1, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -235,7 +235,7 @@
     .line 6
     iget-object p1, p0, Lpme;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1211ae
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tv_meeting_no_supprt_outline_video:I
 
     invoke-static {p1, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -267,7 +267,7 @@
     .line 9
     iget-object v0, p0, Lpme;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121c7b
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_video_cannot_find_external_video:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

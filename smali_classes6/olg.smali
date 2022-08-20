@@ -171,7 +171,7 @@
 
     iget-object v1, p0, Lolg;->S:Landroid/content/Context;
 
-    const v2, 0x7f0e0221
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_phone_rom_read_cardmode_item:I
 
     .line 3
     invoke-static {v1, v2, v0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iget-object v1, p0, Lolg;->S:Landroid/content/Context;
 
-    const v2, 0x7f0e0217
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_item:I
 
     .line 5
     invoke-static {v1, v2, v0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0216
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_foot:I
 
     .line 8
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;

@@ -226,7 +226,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070def
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -239,7 +239,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070dee
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_searchreplace_bottombar_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -383,7 +383,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0a07
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_searchreplace_bottombar:I
 
     const/4 v3, 0x0
 
@@ -391,7 +391,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2aba
+    sget v1, Lcom/resouce/module/ResID;->searchbackward:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     iput-object v1, p0, Lxpl;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2abf
+    sget v1, Lcom/resouce/module/ResID;->searchforward:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -409,7 +409,7 @@
 
     iput-object v1, p0, Lxpl;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2abc
+    sget v1, Lcom/resouce/module/ResID;->searchbtn_read:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

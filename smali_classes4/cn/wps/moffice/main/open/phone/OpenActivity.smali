@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08171a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_search:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSearchBtnBg(I)V
 
@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0816fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setBackBg(I)V
 

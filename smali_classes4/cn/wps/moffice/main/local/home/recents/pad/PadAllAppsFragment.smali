@@ -166,7 +166,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b01ba
+    sget p2, Lcom/resouce/module/ResID;->back_btn:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

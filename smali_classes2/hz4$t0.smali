@@ -573,7 +573,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e08d3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_saveas_encrypt_dialog:I
 
     const/4 v3, 0x0
 
@@ -586,7 +586,7 @@
 
     iget-object v2, v2, Lhz4;->a:Landroid/app/Activity;
 
-    const v3, 0x7f122050
+    sget v3, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -605,7 +605,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b1b14
+    sget v3, Lcom/resouce/module/ResID;->online_security:I
 
     if-eqz v2, :cond_0
 
@@ -630,7 +630,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b088b
+    sget v2, Lcom/resouce/module/ResID;->encrypt_password:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

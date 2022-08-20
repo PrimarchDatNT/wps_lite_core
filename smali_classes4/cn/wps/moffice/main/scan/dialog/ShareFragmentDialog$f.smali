@@ -68,7 +68,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const p3, 0x7f12044f
+    sget p3, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {p1, p3, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -226,7 +226,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const p4, 0x7f122bd1
+    sget p4, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     invoke-virtual {p2, p4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -276,7 +276,7 @@
 
     iget-object v3, v3, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v4, 0x7f121d33
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_finish_pic_save_path:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -303,7 +303,7 @@
 
     iget-object p2, p2, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const p4, 0x7f1204bc
+    sget p4, Lcom/resouce/module/ResSTRING;->doc_scan_splicing_save_pic:I
 
     invoke-static {p2, p4, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -77,7 +77,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsDialog;->mParentView:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b161b
+    sget p2, Lcom/resouce/module/ResID;->link_time_tips:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsDialog;->mTipsText:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2fb8
+    sget p2, Lcom/resouce/module/ResID;->tips_content:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 .method private getLayout()I
     .locals 1
 
-    const v0, 0x7f0e02f5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_docinfo_link_tips_dialog:I
 
     return v0
 .end method
@@ -255,7 +255,7 @@
 .method private initRenewText(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2fc5
+    sget v0, Lcom/resouce/module/ResID;->tips_renewal_time:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f1206b7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_modify:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -419,7 +419,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsDialog;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f1223ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsDialog;->mContext:Landroid/app/Activity;
 
-    const v2, 0x7f1206b6
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_expire_time_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -101,7 +101,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b1249
+    sget v2, Lcom/resouce/module/ResID;->id_home_drive_header_item:I
 
     if-nez v1, :cond_1
 
@@ -114,7 +114,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b0fb6
+    sget v1, Lcom/resouce/module/ResID;->header_name:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122c6e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsdrive_new_folder_location:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     invoke-virtual {v0}, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;->n()V
 
-    const v0, 0x7f0b2afa
+    sget v0, Lcom/resouce/module/ResID;->select_share_folder_category_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -209,15 +209,15 @@
 
     iget-object v4, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper$d;->W:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0e0475
+    sget v5, Lcom/resouce/module/ResLAYOUT;->layout_wpsdrive_choose_category_item:I
 
     invoke-virtual {v4, v5, v0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v0
 
-    const v4, 0x7f121153
+    sget v4, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
-    const v6, 0x7f12296e
+    sget v6, Lcom/resouce/module/ResSTRING;->public_share_folder_description_v1:I
 
     const-string v7, "normal"
 
@@ -234,9 +234,9 @@
 
     move-result-object v4
 
-    const v6, 0x7f122c16
+    sget v6, Lcom/resouce/module/ResSTRING;->public_wps_drive_classes_folder:I
 
-    const v8, 0x7f122c17
+    sget v8, Lcom/resouce/module/ResSTRING;->public_wps_drive_classes_folder_description:I
 
     const-string v9, "class"
 
@@ -253,9 +253,9 @@
 
     move-result-object v2
 
-    const v5, 0x7f122c1b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_wps_drive_work_folder:I
 
-    const v6, 0x7f122c1c
+    sget v6, Lcom/resouce/module/ResSTRING;->public_wps_drive_work_folder_description:I
 
     const-string v8, "work"
 
@@ -266,7 +266,7 @@
 
     iget-object v5, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper$d;->Y:Landroid/view/ViewGroup;
 
-    const v6, 0x7f081607
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_comp_radio_ios_checked:I
 
     const/4 v8, -0x1
 
@@ -286,17 +286,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f081790
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_sharedfolder_share:I
 
     .line 13
     invoke-virtual {v3, v1}, Lok7;->e(I)V
 
-    const v1, 0x7f08178f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_sharedfolder_class:I
 
     .line 14
     invoke-virtual {v0, v1}, Lok7;->e(I)V
 
-    const v0, 0x7f081791
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_sharedfolder_work:I
 
     .line 15
     invoke-virtual {v4, v0}, Lok7;->e(I)V
@@ -315,7 +315,7 @@
 .method public final c3()V
     .locals 9
 
-    const v0, 0x7f0b03f3
+    sget v0, Lcom/resouce/module/ResID;->choose_folder_type_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper$d;->W:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0caf
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_layout_wpsdrive_select_folder_type:I
 
     const/4 v4, 0x0
 
@@ -343,7 +343,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f122c1a
+    sget v6, Lcom/resouce/module/ResSTRING;->public_wps_drive_personal_folder:I
 
     .line 5
     invoke-direct {v1, v2, v6, v4, v5}, Lok7;-><init>(Landroid/view/View;IILjava/lang/Object;)V
@@ -365,13 +365,13 @@
 
     move-result-object v6
 
-    const v7, 0x7f121153
+    sget v7, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
-    const v8, 0x7f12296d
+    sget v8, Lcom/resouce/module/ResSTRING;->public_share_folder_description:I
 
     invoke-direct {v2, v3, v7, v8, v6}, Lok7;-><init>(Landroid/view/View;IILjava/lang/Object;)V
 
-    const v3, 0x7f081e7b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->tag_sharefolder:I
 
     .line 9
     invoke-virtual {v2, v3}, Lok7;->h(I)V
@@ -379,9 +379,9 @@
     .line 10
     new-instance v3, Lpk7;
 
-    const v6, 0x7f081605
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_comp_radio_checked:I
 
-    const v7, 0x7f0815fd
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checkbox_default:I
 
     invoke-direct {v3, v0, v6, v7}, Lpk7;-><init>(Landroid/view/ViewGroup;II)V
 
@@ -436,7 +436,7 @@
     :cond_0
     iget-object v0, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121153
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -542,7 +542,7 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0caa
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_layout_wps_drive_choose_folder_type:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
@@ -550,7 +550,7 @@
     .line 3
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f12250f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -572,7 +572,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper$d;->Z:Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;
 
-    const v0, 0x7f0b34a8
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_edittext_folder_name:I
 
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -610,7 +610,7 @@
     .line 9
     iget-object p1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f122c6f    # 1.94298E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpsdrive_newsharefolder_title:I    # 1.94298E38f
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -628,7 +628,7 @@
     :goto_0
     invoke-virtual {p0}, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper$d;->a3()V
 
-    const p1, 0x7f0b1a08
+    sget p1, Lcom/resouce/module/ResID;->new_sharefolder_button_now_create:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

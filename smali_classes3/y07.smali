@@ -187,7 +187,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f121130
+    sget v7, Lcom/resouce/module/ResSTRING;->home_roaming_tips_x_file_out_of_limit_upgrade:I
 
     const/4 v8, 0x2
 
@@ -266,7 +266,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b53
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -274,7 +274,7 @@
 
     invoke-virtual {v0, v1}, Lm07$a;->b(Ljava/lang/String;)Lm07$a;
 
-    const v1, 0x7f0816ab
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_font_nonexistent:I
 
     .line 4
     invoke-virtual {v0, v1}, Lm07$a;->c(I)Lm07$a;

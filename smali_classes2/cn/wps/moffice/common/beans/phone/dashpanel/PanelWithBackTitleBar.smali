@@ -52,11 +52,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e08b3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_panel_with_back_titlebar_layout:I
 
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b20f3
+    sget p1, Lcom/resouce/module/ResID;->phone_public_panel_with_back_titlebar_titlebar:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/dashpanel/PanelWithBackTitleBar;->B:Lcn/wps/moffice/common/beans/phone/apptoolbar/BackTitleBar;
 
-    const p1, 0x7f0b20f1
+    sget p1, Lcom/resouce/module/ResID;->phone_public_panel_with_back_titlebar_content:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

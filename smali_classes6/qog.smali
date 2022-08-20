@@ -159,7 +159,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -237,7 +237,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -598,7 +598,7 @@
     .line 16
     invoke-static {p0, p1, v0, v0}, Landroid/media/MediaScannerConnection;->scanFile(Landroid/content/Context;[Ljava/lang/String;[Ljava/lang/String;Landroid/media/MediaScannerConnection$OnScanCompletedListener;)V
 
-    const p1, 0x7f122bd2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

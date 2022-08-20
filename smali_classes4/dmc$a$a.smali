@@ -110,7 +110,7 @@
 
     move-result v0
 
-    const v3, 0x7f0b1e0a
+    sget v3, Lcom/resouce/module/ResID;->pdf_extract_search_nopic_tips:I
 
     const/4 v4, 0x0
 

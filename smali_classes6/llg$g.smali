@@ -70,7 +70,7 @@
     return-void
 
     :cond_1
-    const v1, 0x7f0b0353
+    sget v1, Lcom/resouce/module/ResID;->card_mode_edit:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
     return-void
 
     :cond_3
-    const v2, 0x7f0b2865
+    sget v2, Lcom/resouce/module/ResID;->recyclerview_item:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

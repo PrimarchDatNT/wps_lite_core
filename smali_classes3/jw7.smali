@@ -41,7 +41,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 p3, 0x0
 
@@ -76,7 +76,7 @@
 
     if-nez v0, :cond_0
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 p3, 0x0
 

@@ -227,7 +227,7 @@
     .line 9
     iget-object p2, p0, Lot4;->c:Landroid/app/FragmentTransaction;
 
-    const v0, 0x7f0b252f
+    sget v0, Lcom/resouce/module/ResID;->privilege_viewpager:I
 
     invoke-virtual {p2, v0, p1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 

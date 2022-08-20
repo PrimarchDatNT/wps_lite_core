@@ -198,7 +198,7 @@
     .line 20
     iget-object p1, p0, Leasypay/actions/NetBankingHelper;->activity:Landroid/app/Activity;
 
-    const p2, 0x7f0b0376
+    sget p2, Lcom/resouce/module/ResID;->cb_nb_userId:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
 
     iput-object p1, p0, Leasypay/actions/NetBankingHelper;->etUserName:Landroid/widget/CheckBox;
 
-    const p2, 0x7f08091d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->ic_checkbox_selected:I
 
     .line 21
     invoke-virtual {p1, p2}, Landroid/widget/CheckBox;->setButtonDrawable(I)V
@@ -216,7 +216,7 @@
     .line 22
     iget-object p1, p0, Leasypay/actions/NetBankingHelper;->activity:Landroid/app/Activity;
 
-    const p2, 0x7f0b0ac0
+    sget p2, Lcom/resouce/module/ResID;->et_nb_password:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     .line 23
     iget-object p1, p0, Leasypay/actions/NetBankingHelper;->activity:Landroid/app/Activity;
 
-    const p2, 0x7f0b19d5
+    sget p2, Lcom/resouce/module/ResID;->nb_bt_submit:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
     .line 24
     iget-object p1, p0, Leasypay/actions/NetBankingHelper;->activity:Landroid/app/Activity;
 
-    const p2, 0x7f0b12c2
+    sget p2, Lcom/resouce/module/ResID;->img_pwd_show:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -974,7 +974,7 @@
     :try_start_0
     iget-object v0, p0, Leasypay/actions/NetBankingHelper;->activity:Landroid/app/Activity;
 
-    const v1, 0x7f0b1554
+    sget v1, Lcom/resouce/module/ResID;->layout_netbanking:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

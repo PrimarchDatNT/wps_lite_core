@@ -58,7 +58,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b2a93
+    sget v1, Lcom/resouce/module/ResID;->search_next:I
 
     if-ne p1, v1, :cond_0
 

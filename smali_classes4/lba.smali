@@ -85,7 +85,7 @@
     .line 4
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808c9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_download:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -98,7 +98,7 @@
     .line 5
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808ca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_gmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -111,7 +111,7 @@
     .line 6
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808cc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_mailmaster:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -124,7 +124,7 @@
     .line 7
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808cd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_nfc:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -137,7 +137,7 @@
     .line 8
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808ce
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qq:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -164,7 +164,7 @@
     .line 11
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808cf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qqbrowser:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -177,7 +177,7 @@
     .line 12
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_qqmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -190,7 +190,7 @@
     .line 13
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_ucbrowser:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -203,7 +203,7 @@
     .line 14
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_wechat:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -216,7 +216,7 @@
     .line 15
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_yahoo:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -229,7 +229,7 @@
     .line 16
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_tim:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -242,7 +242,7 @@
     .line 17
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_whatsapp:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -255,7 +255,7 @@
     .line 18
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_telegram:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -270,7 +270,7 @@
     .line 19
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808d1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_shareit:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -285,7 +285,7 @@
     .line 20
     sget-object v0, Llba;->j:Ljava/util/HashMap;
 
-    const v1, 0x7f0808cb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_line:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -300,7 +300,7 @@
     .line 21
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f41
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_download:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -311,7 +311,7 @@
     .line 22
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f47
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_gmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -322,7 +322,7 @@
     .line 23
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f49
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_mailmaster:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -333,7 +333,7 @@
     .line 24
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f4a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_nfc:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -344,7 +344,7 @@
     .line 25
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f2f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_qq:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -365,7 +365,7 @@
     .line 28
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f4c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_qqbrowser:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -376,7 +376,7 @@
     .line 29
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f4d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_qqmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -387,7 +387,7 @@
     .line 30
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f53
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_uc:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -398,7 +398,7 @@
     .line 31
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f32
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_wechat:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -409,7 +409,7 @@
     .line 32
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f57
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_yahoo:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -420,7 +420,7 @@
     .line 33
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f52
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_tim:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -431,7 +431,7 @@
     .line 34
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f56
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_whatsapp:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -446,7 +446,7 @@
     .line 35
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f51
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_teregram:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -459,7 +459,7 @@
     .line 36
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f4e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_shareit:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -472,7 +472,7 @@
     .line 37
     sget-object v0, Llba;->k:Ljava/util/HashMap;
 
-    const v1, 0x7f080f48
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_line:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -483,7 +483,7 @@
     .line 38
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121145
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_tim:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -494,7 +494,7 @@
     .line 39
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121134
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_download:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -505,7 +505,7 @@
     .line 40
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121136
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_gmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -516,7 +516,7 @@
     .line 41
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_mailmaster:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -527,7 +527,7 @@
     .line 42
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_nfc:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -538,7 +538,7 @@
     .line 43
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -549,7 +549,7 @@
     .line 44
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113d
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq_i18n:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -560,7 +560,7 @@
     .line 45
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qq_lite:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -571,7 +571,7 @@
     .line 46
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f12113f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqbrowser:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -582,7 +582,7 @@
     .line 47
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121140
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_qqmail:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -593,7 +593,7 @@
     .line 48
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121146
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_ucbrowser:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -604,7 +604,7 @@
     .line 49
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121147
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_wechat:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -615,7 +615,7 @@
     .line 50
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121149
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_yahoo:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -628,7 +628,7 @@
     .line 51
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121135
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_from_frequently:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -641,7 +641,7 @@
     .line 52
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121148
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_whatsapp:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -654,7 +654,7 @@
     .line 53
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121144
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_telegram:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -667,7 +667,7 @@
     .line 54
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121139
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_line:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -678,7 +678,7 @@
     .line 55
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121143
+    sget v1, Lcom/resouce/module/ResSTRING;->home_scf_folder_shareit:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -689,7 +689,7 @@
     .line 56
     sget-object v0, Llba;->l:Ljava/util/HashMap;
 
-    const v1, 0x7f121fd3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

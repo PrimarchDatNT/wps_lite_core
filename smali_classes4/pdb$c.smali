@@ -75,7 +75,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b29b1
+    sget v0, Lcom/resouce/module/ResID;->root_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

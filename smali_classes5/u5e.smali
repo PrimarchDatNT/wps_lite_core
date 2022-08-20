@@ -1215,7 +1215,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225fb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pay_try_end:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1223,7 +1223,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f122662
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play_record_try_end_desc:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -1235,12 +1235,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12101c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_buy_now:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121c8e
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     .line 6
     :goto_0
@@ -1250,7 +1250,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1262,7 +1262,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122665
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play_save_record:I
 
     .line 7
     new-instance v2, Lu5e$g;
@@ -1271,7 +1271,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122087
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     .line 8
     new-instance v2, Lu5e$h;

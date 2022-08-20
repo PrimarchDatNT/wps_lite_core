@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b3514
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_fontsize_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122d71
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_public_font_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

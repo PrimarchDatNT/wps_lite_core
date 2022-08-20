@@ -206,7 +206,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120edc
+    sget v3, Lcom/resouce/module/ResSTRING;->home_continue_buy_membership:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -280,7 +280,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f121105
+    sget v4, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_superwps:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -304,7 +304,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f121106
+    sget v4, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_wps:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -328,7 +328,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f121100
+    sget v4, Lcom/resouce/module/ResSTRING;->home_qing_vip_level_name_docer:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f12249e
+    sget v9, Lcom/resouce/module/ResSTRING;->public_me_member_top_middle_vip_expire_tips:I
 
     const/4 v10, 0x2
 
@@ -406,7 +406,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f120e38
+    sget v9, Lcom/resouce/module/ResSTRING;->home_account_member_effect_tips_today:I
 
     new-array v3, v3, [Ljava/lang/Object;
 

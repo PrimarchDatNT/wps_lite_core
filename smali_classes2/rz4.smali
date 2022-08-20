@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v2, 0x0
 
@@ -201,7 +201,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122814
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ribbon_common:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -226,12 +226,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08169b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_default:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f080f29
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     return v0
 .end method

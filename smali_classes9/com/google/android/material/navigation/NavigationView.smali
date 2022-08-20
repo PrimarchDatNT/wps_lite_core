@@ -94,7 +94,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040434
+    sget v0, Lcom/resouce/module/ResATTR;->navigationViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/navigation/NavigationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -644,7 +644,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f040139
+    sget v4, Lcom/resouce/module/ResATTR;->colorPrimary:I
 
     .line 6
     invoke-virtual {v3, v4, v0, v2}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z

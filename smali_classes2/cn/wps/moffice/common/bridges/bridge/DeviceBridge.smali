@@ -245,7 +245,7 @@
 
     const-string v1, "extra_tips_string_id"
 
-    const v3, 0x7f12155b
+    sget v3, Lcom/resouce/module/ResSTRING;->open_platform_extra_barcode_tips:I
 
     .line 5
     invoke-virtual {v0, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;

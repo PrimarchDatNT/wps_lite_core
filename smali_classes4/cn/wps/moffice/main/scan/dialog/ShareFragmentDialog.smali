@@ -420,7 +420,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e012b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_share_dialog:I
 
     return v0
 .end method
@@ -428,7 +428,7 @@
 .method public b(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b179b
+    sget v0, Lcom/resouce/module/ResID;->lv_share_app:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -439,7 +439,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareFragmentDialog;->X:Landroid/widget/ListView;
 
-    const v0, 0x7f0b14c6
+    sget v0, Lcom/resouce/module/ResID;->iv_share_thumb:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -450,7 +450,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareFragmentDialog;->Y:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b325b
+    sget v0, Lcom/resouce/module/ResID;->tv_share_image_count:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -508,7 +508,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f1204b0
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_share_image_count:I
 
     invoke-virtual {v1, v3, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -521,7 +521,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2baa
+    sget v0, Lcom/resouce/module/ResID;->share_top_title:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -533,7 +533,7 @@
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2cbe
+    sget v0, Lcom/resouce/module/ResID;->splicing_share_top_title:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -543,7 +543,7 @@
     .line 11
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b2cbc
+    sget v0, Lcom/resouce/module/ResID;->splicing_share_back:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -607,7 +607,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f121fcf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_device_upload_to_cloud:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -622,7 +622,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802b3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_local_share_cloud:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -696,7 +696,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122ec9
+    sget v2, Lcom/resouce/module/ResSTRING;->send_to_pc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -711,7 +711,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802b4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_local_share_computer:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -743,7 +743,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12242d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_login_button_email:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -758,7 +758,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802b5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_local_share_mail:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -790,7 +790,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/scan/dialog/BaseFragmentDialog;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122bd1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -805,7 +805,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081749
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_pic:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1487,7 +1487,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0700f5
+    sget v2, Lcom/resouce/module/ResDIMEN;->doc_scan_camera_share_top_img_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

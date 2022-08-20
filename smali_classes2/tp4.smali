@@ -352,7 +352,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060456
+    sget v7, Lcom/resouce/module/ResCOLOR;->phone_public_dialog_highlight_color:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ae3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_tips_help_file:I
 
     const/4 v2, 0x0
 

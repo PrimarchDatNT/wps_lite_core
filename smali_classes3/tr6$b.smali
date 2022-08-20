@@ -138,7 +138,7 @@
     :cond_0
     iget p1, p0, Lya3;->V:I
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x1
 
@@ -424,7 +424,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12056c
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -505,7 +505,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121f48
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm_title_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -525,17 +525,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f12255b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm_download:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f122c06
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wifi_and_confirm_download:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121f5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 6
     new-instance v2, Ltr6$b$a;
@@ -544,7 +544,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     new-instance v2, Ltr6$b$b;

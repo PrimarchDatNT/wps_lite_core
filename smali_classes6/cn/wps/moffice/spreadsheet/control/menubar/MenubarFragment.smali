@@ -1377,7 +1377,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->l0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0e0f64
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_menubar_item_text:I
 
     const/4 v2, 0x0
 
@@ -1432,7 +1432,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->m0:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0e0f63
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_menubar_item_bg:I
 
     const/4 v3, 0x0
 
@@ -1572,7 +1572,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f070baf
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_menu_item_width:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1585,7 +1585,7 @@
 
     if-nez p3, :cond_0
 
-    const p3, 0x7f0e0f89
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ss_titlebar_container:I
 
     const/4 v0, 0x0
 
@@ -1761,7 +1761,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06065d
+    sget v2, Lcom/resouce/module/ResCOLOR;->titlebarIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1776,7 +1776,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0f54
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ss_complex_titlebar_ver:I
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
@@ -1796,7 +1796,7 @@
     .line 8
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b2d6b
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_indicator_image:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1810,7 +1810,7 @@
     .line 10
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b2d6e
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_multi_btn:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1830,7 +1830,7 @@
     .line 12
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b2d71
+    sget v3, Lcom/resouce/module/ResID;->ss_titlebar_save:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1916,7 +1916,7 @@
 
     move-result-object v4
 
-    const v7, 0x7f0b2d79
+    sget v7, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     invoke-virtual {v4, v7}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1948,7 +1948,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0f65
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_menubar_layout:I
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->c0:Landroid/widget/HorizontalScrollView;
 
@@ -1960,7 +1960,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->k0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b2d0f
+    sget v2, Lcom/resouce/module/ResID;->ss_menubar_item_text_container:I
 
     .line 25
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1974,7 +1974,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->k0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b2d0e
+    sget v2, Lcom/resouce/module/ResID;->ss_menubar_item_bg_container:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1991,7 +1991,7 @@
     :cond_3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2d6a
+    sget v2, Lcom/resouce/module/ResID;->ss_titlebar_indicator:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2002,7 +2002,7 @@
     .line 29
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2d69
+    sget v2, Lcom/resouce/module/ResID;->ss_titlebar_document_title:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2015,7 +2015,7 @@
     .line 30
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2d6c
+    sget v2, Lcom/resouce/module/ResID;->ss_titlebar_menubar_container:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2064,7 +2064,7 @@
     .line 36
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2d73
+    sget v2, Lcom/resouce/module/ResID;->ss_titlebar_undo:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2077,7 +2077,7 @@
     .line 37
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b2d70
+    sget v4, Lcom/resouce/module/ResID;->ss_titlebar_redo:I
 
     invoke-virtual {v0, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2101,7 +2101,7 @@
     .line 39
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v7, 0x7f0b2d67
+    sget v7, Lcom/resouce/module/ResID;->ss_titlebar_close:I
 
     invoke-virtual {v0, v7}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2129,7 +2129,7 @@
     .line 43
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v8, 0x7f0b2d72
+    sget v8, Lcom/resouce/module/ResID;->ss_titlebar_share:I
 
     invoke-virtual {v0, v8}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2156,7 +2156,7 @@
     :cond_5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v8, 0x7f0b2d6d
+    sget v8, Lcom/resouce/module/ResID;->ss_titlebar_multi:I
 
     invoke-virtual {v0, v8}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2260,7 +2260,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122b3c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2275,7 +2275,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1227e8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2286,7 +2286,7 @@
     .line 66
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/menubar/MenubarFragment;->Y:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2d6f
+    sget v2, Lcom/resouce/module/ResID;->ss_titlebar_online_secrurity:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2578,7 +2578,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008c
+    sget v1, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -2591,7 +2591,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01008d
+    sget v1, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

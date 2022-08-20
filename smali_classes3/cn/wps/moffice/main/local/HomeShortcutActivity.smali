@@ -105,12 +105,12 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/main/framework/BaseActivity;->onCreateReady(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0e52
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_shortcut_ad_dialog:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
 
-    const p1, 0x7f0b2739
+    sget p1, Lcom/resouce/module/ResID;->public_shortcut_backgroud:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/HomeShortcutActivity;->Y:Landroid/view/View;
 
-    const p1, 0x7f0b273a
+    sget p1, Lcom/resouce/module/ResID;->public_shortcut_cancel:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/HomeShortcutActivity;->Z:Landroid/view/View;
 
-    const p1, 0x7f0b273b
+    sget p1, Lcom/resouce/module/ResID;->public_shortcut_ok:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/HomeShortcutActivity;->a0:Landroid/view/View;
 
-    const p1, 0x7f0b273c
+    sget p1, Lcom/resouce/module/ResID;->public_shortcut_title:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -286,7 +286,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12193d
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_home_ad_shortcut_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

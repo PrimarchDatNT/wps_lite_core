@@ -206,7 +206,7 @@
 
     move-result-object v2
 
-    const v0, 0x7f122678
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ppt_send_by_h5:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -292,7 +292,7 @@
 
     sget-object v4, Lu9e$o;->T:Lu9e$o;
 
-    const v0, 0x7f122266
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -553,7 +553,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e3c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_second_panel:I
 
     const/4 v2, 0x0
 
@@ -563,7 +563,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b271b
+    sget v1, Lcom/resouce/module/ResID;->public_share_second_panel_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -593,7 +593,7 @@
     const/4 v3, 0x0
 
     :goto_0
-    const v4, 0x7f0b013b
+    sget v4, Lcom/resouce/module/ResID;->app_share_link:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -700,7 +700,7 @@
 
     move-result-object v4
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 15
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -758,7 +758,7 @@
 
     move-result-object v4
 
-    const v2, 0x7f1217dd
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 22
     invoke-virtual {v10, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -811,7 +811,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12264a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_picfunc_item_share_text:I
 
     .line 27
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -834,7 +834,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122987
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 31
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -863,7 +863,7 @@
 
     move-result-object v4
 
-    const v2, 0x7f1220b2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt:I
 
     .line 36
     invoke-virtual {v10, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

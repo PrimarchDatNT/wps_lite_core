@@ -1084,11 +1084,11 @@
     .line 3
     invoke-virtual {v0, v1, v2, v2}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080712
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_privilege:I
 
-    const v2, 0x7f121c87
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v3, 0x7f12268d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v4, 0x2
 
@@ -1951,7 +1951,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f070b21
+    sget v9, Lcom/resouce/module/ResDIMEN;->public_float_view_width:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1976,7 +1976,7 @@
 
     move-result-object v6
 
-    const v8, 0x7f070b20
+    sget v8, Lcom/resouce/module/ResDIMEN;->public_float_view_height:I
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getDimension(I)F
 

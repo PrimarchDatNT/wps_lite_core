@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122cbf
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_commic_add_collect_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -325,7 +325,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122cbb
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_add_library_failed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -394,7 +394,7 @@
 .method public M()I
     .locals 1
 
-    const v0, 0x7f0e0023
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_cartoon_reader:I
 
     return v0
 .end method
@@ -411,7 +411,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f122d0c
+    sget p2, Lcom/resouce/module/ResSTRING;->reader_login_success:I
 
     .line 2
     invoke-static {p0, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -426,7 +426,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f122d0b
+    sget p2, Lcom/resouce/module/ResSTRING;->reader_login_failed:I
 
     .line 4
     invoke-static {p0, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -501,7 +501,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122cbb
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_add_library_failed:I
 
     const/4 v0, 0x0
 
@@ -790,7 +790,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0366
+    sget v2, Lcom/resouce/module/ResID;->cartoon_main_reader:I
 
     const-class v3, Ldy2;
 
@@ -1341,7 +1341,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/cartoon/modules/main/CartoonReaderActivity;->V:Ljava/lang/String;
 
-    const v1, 0x7f12320b
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_auto_unlock_loading:I
 
     invoke-virtual {p1, p2, v0, v1}, Lix2;->C(Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -1392,7 +1392,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d95
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_remove_collect_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1505,7 +1505,7 @@
     .line 11
     invoke-virtual {v2, v0}, Lbd;->f(Ljava/lang/String;)Lbd;
 
-    const v3, 0x7f0b0365
+    sget v3, Lcom/resouce/module/ResID;->cartoon_fragment_container:I
 
     .line 12
     invoke-virtual {v2, v3, v1, v0}, Lbd;->b(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Lbd;
@@ -1547,7 +1547,7 @@
 .method public initView()V
     .locals 1
 
-    const v0, 0x7f0b33a6
+    sget v0, Lcom/resouce/module/ResID;->view_retry:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -1967,7 +1967,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

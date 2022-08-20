@@ -319,7 +319,7 @@
     :goto_0
     iget-object p2, p0, Li64;->B:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0c82
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_infoflow_recent_records_listview_item:I
 
     const/4 v0, 0x0
 
@@ -332,7 +332,7 @@
 
     invoke-direct {p3, p0}, Li64$a;-><init>(Li64;)V
 
-    const v0, 0x7f0b0fe1
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_content:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     iput-object v0, p3, Li64$a;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0fe2
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 
     iput-object v0, p3, Li64$a;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0feb
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_status_icon:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     iput-object v0, p3, Li64$a;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fe9
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object v0, p3, Li64$a;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fe6
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 9
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     iput-object v0, p3, Li64$a;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2840
+    sget v0, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -396,7 +396,7 @@
 
     iput-object v0, p3, Li64$a;->e:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2cc3
+    sget v0, Lcom/resouce/module/ResID;->split_line:I
 
     .line 11
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

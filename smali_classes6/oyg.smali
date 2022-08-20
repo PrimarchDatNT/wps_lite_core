@@ -394,7 +394,7 @@
     .line 43
     iput-object p2, p0, Loyg;->I:Lcn/wps/moffice/spreadsheet/phone/view/MainTitleBarLayout;
 
-    const p4, 0x7f0b0b70
+    sget p4, Lcom/resouce/module/ResID;->et_quit_full_screen:I
 
     .line 44
     invoke-virtual {p2, p4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -416,7 +416,7 @@
     :cond_0
     iget-object p2, p0, Loyg;->h0:Landroid/app/Activity;
 
-    const p4, 0x7f0b0e91
+    sget p4, Lcom/resouce/module/ResID;->full_screen_divider:I
 
     invoke-virtual {p2, p4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -460,7 +460,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f07022f
+    sget p3, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -473,7 +473,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f070d40
+    sget p3, Lcom/resouce/module/ResDIMEN;->v10_phone_public_titlebar_height:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -490,7 +490,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f070d53
+    sget p3, Lcom/resouce/module/ResDIMEN;->v10_public_mi_titlebar_height:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -505,7 +505,7 @@
     .line 55
     invoke-virtual {p0}, Loyg;->E0()V
 
-    const p2, 0x7f0b2d04
+    sget p2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     .line 56
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -953,7 +953,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f070816
+    sget p4, Lcom/resouce/module/ResDIMEN;->phone_public_small_title_bar_height:I
 
     .line 105
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1179,7 +1179,7 @@
     .line 132
     invoke-virtual {p0}, Loyg;->t0()V
 
-    const p2, 0x7f0b0db9
+    sget p2, Lcom/resouce/module/ResID;->fl_full_mode_switch:I
 
     .line 133
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1188,7 +1188,7 @@
 
     iput-object p2, p0, Loyg;->V:Landroid/view/View;
 
-    const p3, 0x7f0b145e
+    sget p3, Lcom/resouce/module/ResID;->iv_full_mode_switch_icon:I
 
     .line 134
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1202,7 +1202,7 @@
     .line 135
     invoke-virtual {p2, p3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b0604
+    sget p2, Lcom/resouce/module/ResID;->custom_tabhost_tablist:I
 
     .line 136
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1213,7 +1213,7 @@
 
     iput-object p2, p0, Loyg;->X:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b0602
+    sget p2, Lcom/resouce/module/ResID;->custom_tabhost_more_btn:I
 
     .line 137
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1222,7 +1222,7 @@
 
     iput-object p2, p0, Loyg;->Y:Landroid/view/View;
 
-    const p2, 0x7f0b18e4
+    sget p2, Lcom/resouce/module/ResID;->more_btn_start_divider:I
 
     .line 138
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1234,7 +1234,7 @@
     .line 139
     iget-object p1, p0, Loyg;->I:Lcn/wps/moffice/spreadsheet/phone/view/MainTitleBarLayout;
 
-    const p2, 0x7f0b2e5d
+    sget p2, Lcom/resouce/module/ResID;->tabshost_layout_container:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2177,7 +2177,7 @@
     .line 1
     iget-object v0, p0, Loyg;->h0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2be1
+    sget v1, Lcom/resouce/module/ResID;->sheet_notch_padding:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -3099,7 +3099,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07022f
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3308,7 +3308,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f07022f
+    sget v4, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3339,7 +3339,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070214
+    sget v4, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_add_btn_height:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -3430,7 +3430,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0600b1
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4148,7 +4148,7 @@
     .line 1
     iget-object v0, p0, Loyg;->h0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2be1
+    sget v1, Lcom/resouce/module/ResID;->sheet_notch_padding:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4283,7 +4283,7 @@
     .line 1
     iget-object v0, p0, Loyg;->h0:Landroid/app/Activity;
 
-    const v1, 0x7f0b2be1
+    sget v1, Lcom/resouce/module/ResID;->sheet_notch_padding:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

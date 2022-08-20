@@ -58,7 +58,7 @@
     .line 5
     invoke-static {p0, v0}, Lcn/wps/moffice/main/common/Start;->L(Landroid/app/Activity;Landroid/content/Intent;)V
 
-    const v0, 0x7f01003d
+    sget v0, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 6
     invoke-virtual {p0, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -705,7 +705,7 @@
     :cond_b
     invoke-static {p0, v0}, Lcn/wps/moffice/main/common/Start;->L(Landroid/app/Activity;Landroid/content/Intent;)V
 
-    const p1, 0x7f01003d
+    sget p1, Lcom/resouce/module/ResANIM;->empty:I
 
     .line 29
     invoke-virtual {p0, v2, p1}, Landroid/app/Activity;->overridePendingTransition(II)V

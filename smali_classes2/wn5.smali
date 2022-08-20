@@ -129,7 +129,7 @@
     :cond_0
     iget-object v0, p0, Lwn5;->j:Landroid/view/View;
 
-    const v1, 0x7f0b2ecb
+    sget v1, Lcom/resouce/module/ResID;->template_inner_ad_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -163,7 +163,7 @@
     .line 6
     iget-object v0, p0, Lwn5;->j:Landroid/view/View;
 
-    const v1, 0x7f0b132d
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122ae8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_tips_wps_art:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
     .line 8
     iget-object v0, p0, Lwn5;->j:Landroid/view/View;
 
-    const v1, 0x7f0b132b
+    sget v1, Lcom/resouce/module/ResID;->innaer_ad_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

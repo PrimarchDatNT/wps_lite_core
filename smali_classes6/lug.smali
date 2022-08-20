@@ -525,20 +525,20 @@
     return-void
 
     :catch_1
-    const p1, 0x7f12072f
+    sget p1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     const/4 p1, 0x0
 
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     goto :goto_0
 
     :catch_2
-    const p1, 0x7f12072e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_data_overflow:I
 
     const/4 p1, 0x0
 
-    const v0, 0x7f12072e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_data_overflow:I
 
     goto :goto_0
 
@@ -856,11 +856,11 @@
     .line 9
     iget v1, p0, Lmug;->c0:I
 
-    const v4, 0x7f121fba
+    sget v4, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     const/4 v5, 0x0
 
-    const v6, 0x7f122385
+    sget v6, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     const/4 v7, 0x2
 
@@ -1459,7 +1459,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f12074e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 2
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1630,7 +1630,7 @@
 
     if-nez v1, :cond_5
 
-    const v1, 0x7f120bb8
+    sget v1, Lcom/resouce/module/ResSTRING;->et_on_firsttime_gesture_cellop:I
 
     .line 20
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F

@@ -154,7 +154,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06045a
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_public_fontcolor_gray:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -182,7 +182,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

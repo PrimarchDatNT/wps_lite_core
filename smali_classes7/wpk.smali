@@ -1803,7 +1803,7 @@
     .line 41
     iget-object v0, p0, Lwpk;->e:Landroid/content/Context;
 
-    const v1, 0x7f121dad
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bookmark_insert_success:I
 
     const/16 v2, 0x3e8
 
@@ -1912,7 +1912,7 @@
     .line 3
     iget-object p1, p0, Lwpk;->e:Landroid/content/Context;
 
-    const v0, 0x7f123273
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_bookmark_not_support_tips:I
 
     const/4 v1, 0x0
 
@@ -2367,7 +2367,7 @@
     :cond_0
     iget-object v1, p0, Lwpk;->e:Landroid/content/Context;
 
-    const v2, 0x7f121daa
+    sget v2, Lcom/resouce/module/ResSTRING;->public_bookmark:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

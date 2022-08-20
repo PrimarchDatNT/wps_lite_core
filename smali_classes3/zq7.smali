@@ -394,7 +394,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f120e6b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_account_storage_max:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1773,11 +1773,11 @@
     :cond_0
     iget-wide v4, v2, Lk08$c;->e:J
 
-    const v6, 0x7f0817a1
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer:I
 
     const-wide/16 v7, 0x28
 
-    const v9, 0x7f0817c2
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip:I
 
     const-wide/16 v10, 0xc
 
@@ -1878,7 +1878,7 @@
 
     iget-object v4, v4, Lbr7;->s:Landroid/widget/ImageView;
 
-    const v5, 0x7f0817b6
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip:I
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1994,7 +1994,7 @@
 
     iget-object v1, v1, Lbr7;->s:Landroid/widget/ImageView;
 
-    const v2, 0x7f0817b6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -2390,7 +2390,7 @@
 
     iget-object v0, v0, Lbr7;->A:Landroid/view/View;
 
-    const v1, 0x7f0b1d22
+    sget v1, Lcom/resouce/module/ResID;->pay_detail_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2622,12 +2622,12 @@
     :cond_1
     if-eqz v2, :cond_2
 
-    const v1, 0x7f0604ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->premiumGoldTextColor:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 6
     :goto_0
@@ -2644,9 +2644,9 @@
     :cond_3
     iget-object v4, v3, Lbr7;->e:Landroid/widget/TextView;
 
-    const v5, 0x7f0606e4
+    sget v5, Lcom/resouce/module/ResCOLOR;->whiteMainTextPressedColor:I
 
-    const v6, 0x7f060089
+    sget v6, Lcom/resouce/module/ResCOLOR;->color_alpha_40_black:I
 
     if-eq p1, v4, :cond_7
 
@@ -2664,12 +2664,12 @@
 
     if-eqz v1, :cond_5
 
-    const v2, 0x7f060089
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_alpha_40_black:I
 
     goto :goto_1
 
     :cond_5
-    const v2, 0x7f0606e4
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextPressedColor:I
 
     .line 10
     :goto_1
@@ -2688,7 +2688,7 @@
 
     if-eqz v1, :cond_6
 
-    const v5, 0x7f060089
+    sget v5, Lcom/resouce/module/ResCOLOR;->color_alpha_40_black:I
 
     .line 12
     :cond_6
@@ -2719,7 +2719,7 @@
     :cond_8
     if-eqz v2, :cond_9
 
-    const v1, 0x7f0604ed
+    sget v1, Lcom/resouce/module/ResCOLOR;->premiumSubGoldTextColor:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I

@@ -151,7 +151,7 @@
 
     if-eqz v1, :cond_0
 
-    const v3, 0x7f0e0138
+    sget v3, Lcom/resouce/module/ResLAYOUT;->documents_download_dialog:I
 
     .line 3
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0e053c
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_home_download_dialog:I
 
     .line 4
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -169,7 +169,7 @@
     move-result-object v0
 
     :goto_0
-    const v2, 0x7f0b079c
+    sget v2, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     iput-object v2, p0, Lfx3;->b:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v2, 0x7f0b28bc
+    sget v2, Lcom/resouce/module/ResID;->resultView:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
     .line 8
     iget-object v3, p0, Lfx3;->a:Landroid/content/Context;
 
-    const v4, 0x7f12202e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -217,7 +217,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122251
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     new-instance v3, Lfx3$c;
 

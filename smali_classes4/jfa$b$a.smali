@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120fa1
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_no_more_message:I
 
     const/4 v2, 0x0
 

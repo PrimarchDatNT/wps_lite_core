@@ -42,12 +42,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0f87
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_tabhost_normal_button_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05e6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_tabhost_normal_button_layout:I
 
     :goto_0
     invoke-static {v0, v1, p0}, Landroid/widget/LinearLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -63,7 +63,7 @@
 .method public getButton()Landroid/widget/Button;
     .locals 1
 
-    const v0, 0x7f0b2d65
+    sget v0, Lcom/resouce/module/ResID;->ss_tabhost_normalbtn:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 .method public getEditText()Landroid/widget/EditText;
     .locals 1
 
-    const v0, 0x7f0b2d64
+    sget v0, Lcom/resouce/module/ResID;->ss_tabhost_normal_edittext:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 .method public getHideSheetIcon()Landroid/widget/ImageView;
     .locals 1
 
-    const v0, 0x7f0b2d66
+    sget v0, Lcom/resouce/module/ResID;->ss_tabhost_normalbtn_hide_icon:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

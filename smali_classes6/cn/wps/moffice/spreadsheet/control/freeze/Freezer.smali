@@ -48,9 +48,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$3;
 
-    const v1, 0x7f080457
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_freeze_panes:I
 
-    const v2, 0x7f1208b9
+    sget v2, Lcom/resouce/module/ResSTRING;->et_freez:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$3;-><init>(Lcn/wps/moffice/spreadsheet/control/freeze/Freezer;II)V
 
@@ -71,16 +71,16 @@
 
     sget-boolean v3, Ljif;->o:Z
 
-    const v4, 0x7f080e23
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_freeze_current_pane:I
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f080457
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_freeze_panes:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f080e23
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_freeze_current_pane:I
 
     :goto_0
     invoke-direct {v0, p0, v3, v2}, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$8;-><init>(Lcn/wps/moffice/spreadsheet/control/freeze/Freezer;II)V
@@ -95,10 +95,10 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080e23
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_freeze_current_pane:I
 
     :goto_1
-    const v3, 0x7f1208ba
+    sget v3, Lcom/resouce/module/ResSTRING;->et_freez_cell:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$9;-><init>(Lcn/wps/moffice/spreadsheet/control/freeze/Freezer;II)V
 
@@ -111,15 +111,15 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f081435
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_top_row:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080e07
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_first_line:I
 
     :goto_2
-    const v3, 0x7f1208bc
+    sget v3, Lcom/resouce/module/ResSTRING;->et_freez_row:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$10;-><init>(Lcn/wps/moffice/spreadsheet/control/freeze/Freezer;II)V
 
@@ -132,15 +132,15 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f081434
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_top_column:I
 
     goto :goto_3
 
     :cond_3
-    const v1, 0x7f080de1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_begin_column:I
 
     :goto_3
-    const v3, 0x7f1208bb
+    sget v3, Lcom/resouce/module/ResSTRING;->et_freez_col:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$11;-><init>(Lcn/wps/moffice/spreadsheet/control/freeze/Freezer;II)V
 
@@ -198,11 +198,11 @@
     .line 17
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$1;
 
-    const v6, 0x7f1208b9
+    sget v6, Lcom/resouce/module/ResSTRING;->et_freez:I
 
-    const v7, 0x7f080457
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_table_freeze_panes:I
 
-    const v8, 0x7f1208b9
+    sget v8, Lcom/resouce/module/ResSTRING;->et_freez:I
 
     move-object v3, p1
 
@@ -254,7 +254,7 @@
     :cond_4
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/freeze/Freezer$2;
 
-    const p2, 0x7f080e24
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_freeze_panes:I
 
     const/4 p3, 0x1
 
@@ -402,7 +402,7 @@
     .line 5
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 6
     invoke-static {p1, v0}, Lsjf;->h(II)V

@@ -24,7 +24,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e40
+    sget v1, Lcom/resouce/module/ResSTRING;->resume_coupon_share_dialog_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

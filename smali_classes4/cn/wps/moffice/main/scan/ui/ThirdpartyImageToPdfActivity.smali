@@ -859,7 +859,7 @@
 
     if-nez v0, :cond_4
 
-    const v0, 0x7f120452
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_not_supported_not:I
 
     .line 14
     invoke-static {p0, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -955,7 +955,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

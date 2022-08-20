@@ -59,7 +59,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/cloud/drive/secretfolder/extlibs/SecretFolderCtrl$g;->V:Landroid/app/Activity;
 
-    const v1, 0x7f122384
+    sget v1, Lcom/resouce/module/ResSTRING;->public_input_pswd_limit:I
 
     const/4 v2, 0x0
 

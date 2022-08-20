@@ -91,7 +91,7 @@
     .line 3
     new-instance v0, Landroid/text/SpannableString;
 
-    const v1, 0x7f12174b
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_notification_success:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     invoke-direct {v0, v1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121790
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_state_committing:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -208,7 +208,7 @@
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const p4, 0x7f12202e
+    sget p4, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     invoke-virtual {p2, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -233,7 +233,7 @@
 
     aput-object p1, p4, v0
 
-    const p1, 0x7f122614    # 1.94265E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {p2, p1, p4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -355,7 +355,7 @@
 
     invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const p4, 0x7f121796
+    sget p4, Lcom/resouce/module/ResSTRING;->pdf_convert_state_uploading:I
 
     invoke-virtual {p2, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
 
     aput-object p1, p4, v0
 
-    const p1, 0x7f122614    # 1.94265E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     invoke-virtual {p2, p1, p4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -954,12 +954,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_shape:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c92
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_shape_ppt:I
 
     :goto_0
     return v0
@@ -979,7 +979,7 @@
 
     iget-object v5, p0, Lryd;->Y:[Z
 
-    const v3, 0x7f122946
+    sget v3, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     move-object v0, v6
 
@@ -1000,7 +1000,7 @@
 
     move-result v1
 
-    const v2, 0x7f122946
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-direct {v0, p0, v1, v2}, Lryd$b;-><init>(Lryd;II)V
 

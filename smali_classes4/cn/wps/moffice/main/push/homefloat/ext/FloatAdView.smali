@@ -87,11 +87,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ced
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_main_floatingview:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b044c
+    sget v0, Lcom/resouce/module/ResID;->close_floatiamge_iv:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0819bb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_close:I
 
     .line 8
     :try_start_0
@@ -117,7 +117,7 @@
 
     :cond_0
     :goto_0
-    const v0, 0x7f0b00ec
+    sget v0, Lcom/resouce/module/ResID;->alive_floatiamge:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/homefloat/ext/FloatAdView;->g0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2c37
+    sget v0, Lcom/resouce/module/ResID;->sleep_floatiamge:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/homefloat/ext/FloatAdView;->h0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b044b
+    sget v0, Lcom/resouce/module/ResID;->close_floatiamge:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -217,7 +217,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070b21
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_float_view_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -232,7 +232,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070b1c
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_float_alive_image_view_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

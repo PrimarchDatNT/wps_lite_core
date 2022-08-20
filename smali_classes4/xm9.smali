@@ -314,7 +314,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04c9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->new_theme_shop_layout:I
 
     const/4 v2, 0x0
 
@@ -324,7 +324,7 @@
 
     iput-object v0, p0, Lxm9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1a10
+    sget v1, Lcom/resouce/module/ResID;->new_theme_webview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
     .line 3
     iget-object v0, p0, Lxm9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -351,7 +351,7 @@
     .line 4
     iget-object v0, p0, Lxm9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2f75
+    sget v1, Lcom/resouce/module/ResID;->theme_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -421,7 +421,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121475
+    sget v1, Lcom/resouce/module/ResSTRING;->new_thme_my:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSecondText(I)V
 
@@ -720,7 +720,7 @@
     .line 2
     iget-object v1, p0, Lxm9;->B:Lcn/wps/moffice/main/local/home/newui/theme/ThemeActivity;
 
-    const v2, 0x7f121473
+    sget v2, Lcom/resouce/module/ResSTRING;->new_theme_feedback_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -733,7 +733,7 @@
     .line 3
     iget-object v1, p0, Lxm9;->B:Lcn/wps/moffice/main/local/home/newui/theme/ThemeActivity;
 
-    const v2, 0x7f121472
+    sget v2, Lcom/resouce/module/ResSTRING;->new_theme_feedback_content:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -932,7 +932,7 @@
 .method public final s3(Landroid/view/View;Ljava/lang/String;Z)Landroid/webkit/WebView;
     .locals 3
 
-    const v0, 0x7f0b1a0f
+    sget v0, Lcom/resouce/module/ResID;->new_theme_webView:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/superwebview/KWebView;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -956,7 +956,7 @@
     .line 4
     invoke-static {v0}, Ltda;->c(Landroid/webkit/WebView;)V
 
-    const v2, 0x7f0b1a0e
+    sget v2, Lcom/resouce/module/ResID;->new_theme_progress:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1250,7 +1250,7 @@
 
     iget-object v1, p0, Lxm9;->B:Lcn/wps/moffice/main/local/home/newui/theme/ThemeActivity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -1263,7 +1263,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08aa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_new_theme_my_layout:I
 
     const/4 v2, 0x0
 
@@ -1287,7 +1287,7 @@
     .line 4
     iget-object v0, p0, Lxm9;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

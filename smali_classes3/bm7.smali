@@ -284,7 +284,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f120eac
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_path:I
 
     const/4 v3, 0x1
 
@@ -318,7 +318,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f120ead
+    sget v3, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_url:I
 
     .line 7
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

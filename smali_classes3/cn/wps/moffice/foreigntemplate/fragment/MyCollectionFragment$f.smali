@@ -114,7 +114,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1227f6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_remove_success:I
 
     invoke-static {p2, v0, p1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -193,7 +193,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1227f1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_remove_fail:I
 
     invoke-static {p2, v0, p1}, Lbih;->n(Landroid/content/Context;II)V
 

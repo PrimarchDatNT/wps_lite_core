@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingLeft="0.0dip" android:paddingRight="@dimen/et_function_select_letterwrapview_margin_right" android:layout_width="@dimen/et_function_select_index_wrap_width" android:layout_height="fill_parent" android:paddingStart="0.0dip" android:paddingEnd="@dimen/et_function_select_letterwrapview_margin_right"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.spreadsheet.control.editor.function.AlphabetLetterView android:id="@id/et_function_alphabltletterview" android:background="@android:color/transparent" android:layout_width="@dimen/et_function_select_index_width" android:layout_height="fill_parent" />
-</LinearLayout>

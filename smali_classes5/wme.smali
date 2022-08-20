@@ -80,7 +80,7 @@
 
     iput-object p1, p0, Lwme;->W:Landroid/view/View;
 
-    const v0, 0x7f0b22c2
+    sget v0, Lcom/resouce/module/ResID;->ppt_font_bold:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
     .line 3
     iget-object p1, p0, Lwme;->W:Landroid/view/View;
 
-    const v0, 0x7f0b22c3
+    sget v0, Lcom/resouce/module/ResID;->ppt_font_italic:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
     .line 4
     iget-object p1, p0, Lwme;->W:Landroid/view/View;
 
-    const v0, 0x7f0b22c5
+    sget v0, Lcom/resouce/module/ResID;->ppt_font_underline:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -147,7 +147,7 @@
     :cond_0
     iget-object p1, p0, Lwme;->W:Landroid/view/View;
 
-    const v0, 0x7f0b22c4
+    sget v0, Lcom/resouce/module/ResID;->ppt_font_shadow:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

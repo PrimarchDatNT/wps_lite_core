@@ -56,7 +56,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1010
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_style_center_image_color_circle_view:I
 
     const/4 v1, 0x0
 
@@ -77,7 +77,7 @@
     .line 4
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setEnableCenterImage(Z)V
 
-    const p1, 0x7f081604
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     .line 5
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setCenterImageResource(I)V
@@ -98,7 +98,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1011
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_style_select_change_imageview:I
 
     const/4 v1, 0x0
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1006
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -139,7 +139,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b20f7
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_panel_common_item_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -161,7 +161,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1008
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_item_thickness_view:I
 
     const/4 v1, 0x0
 
@@ -169,7 +169,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b13ed
+    sget v0, Lcom/resouce/module/ResID;->item_thinness_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

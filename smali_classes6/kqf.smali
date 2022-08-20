@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e01b3
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_bookprotect_setpassword:I
 
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -58,14 +58,14 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0933
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_bookprotect_setpassword:I
 
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
     :goto_0
-    const v2, 0x7f120be4
+    sget v2, Lcom/resouce/module/ResSTRING;->et_prot_book:I
 
     .line 4
     invoke-virtual {v9, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -116,7 +116,7 @@
     .line 13
     invoke-virtual {v1, v2}, Landroid/view/Window;->setSoftInputMode(I)V
 
-    const v1, 0x7f0b1cf2
+    sget v1, Lcom/resouce/module/ResID;->passwd_input_edittext:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     check-cast v1, Landroid/widget/EditText;
 
-    const v2, 0x7f0b1ced
+    sget v2, Lcom/resouce/module/ResID;->passwd_input_confirm_edittext:I
 
     .line 15
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     check-cast v11, Landroid/widget/EditText;
 
-    const v2, 0x7f0b133b
+    sget v2, Lcom/resouce/module/ResID;->input_diff_text:I
 
     .line 16
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v2, 0x7f0b041d
+    sget v2, Lcom/resouce/module/ResID;->clean_input_btn:I
 
     .line 17
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b041c
+    sget v2, Lcom/resouce/module/ResID;->clean_confirm_btn:I
 
     .line 18
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b06b5
+    sget v2, Lcom/resouce/module/ResID;->display_check:I
 
     .line 19
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0b06b9
+    sget v2, Lcom/resouce/module/ResID;->display_check_linearlayout:I
 
     .line 21
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
     .line 29
     invoke-virtual {v11, v0}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 30
     new-instance v1, Lkqf$k;
@@ -256,7 +256,7 @@
 
     invoke-virtual {v9, v0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 31
     new-instance v1, Lkqf$l;
@@ -296,7 +296,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -364,7 +364,7 @@
 
     invoke-direct {p0, v0, p5}, Lkqf$y;-><init>(Lhd3;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -396,7 +396,7 @@
 
     invoke-direct {p0, v0}, Lkqf$w;-><init>(Lhd3;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -418,7 +418,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120807
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_clear_dv_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -434,7 +434,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120806
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_clear_dv_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -450,7 +450,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -470,7 +470,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12080a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_expand_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -519,7 +519,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12080e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_is_expand_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -535,7 +535,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120809
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_expand:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -555,7 +555,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12080f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_data_validation_not_expand:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -575,7 +575,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -602,12 +602,12 @@
 
     invoke-direct {v0, p0, p3}, Lkqf$b0;-><init>(Landroid/content/Context;Ljava/lang/Runnable;)V
 
-    const v1, 0x7f1203a3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_doc_open_failure:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f1203a1
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_fix_doc_break_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -622,7 +622,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d60
+    sget v2, Lcom/resouce/module/ResSTRING;->fix_doc:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -648,7 +648,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -679,7 +679,7 @@
 .method public static j(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Runnable;Lhd3$h;)Lhd3;
     .locals 1
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 1
     invoke-static {p0, p1, v0, p2, p3}, Lkqf;->e(Landroid/content/Context;Ljava/lang/String;ILjava/lang/Runnable;Lhd3$h;)Lhd3;
@@ -695,7 +695,7 @@
     .line 1
     sget-object v6, Lhd3$h;->T:Lhd3$h;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     move-object v0, p0
 
@@ -727,7 +727,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -743,7 +743,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227a6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_readOnlySaveOrNot:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -759,7 +759,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122820
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -779,7 +779,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -857,7 +857,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e01b2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_bookprotect_removepassword:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -871,7 +871,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0932
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_bookprotect_removepassword:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -884,7 +884,7 @@
     .line 5
     invoke-virtual {v6}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v1, 0x7f120be6
+    sget v1, Lcom/resouce/module/ResSTRING;->et_prot_book_removepassword:I
 
     .line 6
     invoke-virtual {v6, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -926,7 +926,7 @@
     .line 12
     invoke-virtual {v1, v2}, Landroid/view/Window;->setSoftInputMode(I)V
 
-    const v1, 0x7f0b1cec
+    sget v1, Lcom/resouce/module/ResID;->passwd_input:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -937,7 +937,7 @@
 
     check-cast v8, Landroid/widget/EditText;
 
-    const v1, 0x7f0b06b5
+    sget v1, Lcom/resouce/module/ResID;->display_check:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -948,7 +948,7 @@
 
     check-cast v9, Landroid/widget/CheckBox;
 
-    const v1, 0x7f0b133b
+    sget v1, Lcom/resouce/module/ResID;->input_diff_text:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -964,7 +964,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b06b9
+    sget v1, Lcom/resouce/module/ResID;->display_check_linearlayout:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1020,7 +1020,7 @@
 
     invoke-virtual {v9, p0}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 24
     new-instance p1, Lkqf$s;
@@ -1029,7 +1029,7 @@
 
     invoke-virtual {v6, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 25
     new-instance p1, Lkqf$t;

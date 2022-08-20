@@ -256,7 +256,7 @@
     :cond_0
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0817bc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_member_42:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -267,7 +267,7 @@
     :cond_1
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0817cc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -278,7 +278,7 @@
     :cond_2
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0817a8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_42:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -305,7 +305,7 @@
     :cond_4
     invoke-virtual {p1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0808a3
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -379,7 +379,7 @@
     .line 2
     iget-object p2, p0, Lujl;->B:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e10d2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_read_option_item:I
 
     invoke-virtual {p2, v2, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -414,7 +414,7 @@
     invoke-virtual {p2, p3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     :cond_1
-    const p3, 0x7f0b020d
+    sget p3, Lcom/resouce/module/ResID;->bg_item_img:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606c9
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_public_tick_color_black_with_alpha:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -447,7 +447,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606c5
+    sget v3, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -465,7 +465,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e0
+    sget v3, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -480,7 +480,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06011e
+    sget v3, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -489,7 +489,7 @@
     invoke-virtual {p3, v2}, Lcn/wps/moffice/common/beans/V10RoundRectImageView;->setSelectedCoverColor(I)V
 
     :goto_0
-    const v2, 0x7f0b1848
+    sget v2, Lcom/resouce/module/ResID;->member_img:I
 
     .line 11
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -498,7 +498,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0799
+    sget v3, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 12
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

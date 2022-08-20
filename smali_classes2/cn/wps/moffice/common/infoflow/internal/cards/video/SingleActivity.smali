@@ -148,7 +148,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0c8a
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_video_single:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -250,7 +250,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/SingleActivity;->X:Lcn/wps/moffice/main/ad/s2s/CommonBean;
 
-    const p1, 0x7f0b3382
+    sget p1, Lcom/resouce/module/ResID;->videoview:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

@@ -135,7 +135,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12145d
+    sget v0, Lcom/resouce/module/ResSTRING;->name_recommanded:I
 
     .line 2
     invoke-virtual {p0, v0}, Li84;->g(I)V

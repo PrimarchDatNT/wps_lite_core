@@ -2356,7 +2356,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2d04
+    sget v2, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3110,7 +3110,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3730,7 +3730,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0bd3
+    sget v1, Lcom/resouce/module/ResID;->et_underground_edittext:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3764,7 +3764,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0ac3
+    sget v2, Lcom/resouce/module/ResID;->et_new_cell_edit_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -4123,7 +4123,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b0b73
+    sget v3, Lcom/resouce/module/ResID;->et_root_viewgroup:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4163,7 +4163,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b0a0c
+    sget v3, Lcom/resouce/module/ResID;->et_edit_btn_switch_keyboard_container:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -4800,7 +4800,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080ea7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_et_edit_layout_edit_text_enable_bg:I
 
     .line 4
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->c1()Landroid/content/Context;
@@ -4833,7 +4833,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080ea8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_et_edit_layout_edit_text_normal_bg:I
 
     .line 8
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->c1()Landroid/content/Context;
@@ -4937,7 +4937,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06003f
+    sget v2, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4952,7 +4952,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081e5c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ss_tabhost_keyboard_btn_select_bg:I
 
     .line 5
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->c1()Landroid/content/Context;
@@ -4977,7 +4977,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081e5b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->ss_tabhost_keyboard_btn_bg_selector:I
 
     .line 8
     invoke-virtual {p0}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->c1()Landroid/content/Context;
@@ -5577,7 +5577,7 @@
     .line 1
     iput-object p1, p0, La0g;->V2:Lcn/wps/moffice/spreadsheet/control/tabhost/EvolutionTabsHost;
 
-    const v0, 0x7f0b0a11
+    sget v0, Lcom/resouce/module/ResID;->et_edit_digit_btn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -5598,7 +5598,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    const v0, 0x7f0b0a2f
+    sget v0, Lcom/resouce/module/ResID;->et_edit_word_btn:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -5619,7 +5619,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v0, 0x7f0b0a12
+    sget v0, Lcom/resouce/module/ResID;->et_edit_divider:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -5628,7 +5628,7 @@
 
     iput-object v0, p0, La0g;->U2:Landroid/view/View;
 
-    const v0, 0x7f0b0a2d
+    sget v0, Lcom/resouce/module/ResID;->et_edit_tab_btn:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -6337,7 +6337,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->R0:Landroid/view/View;
 
-    const v1, 0x7f0b0a10
+    sget v1, Lcom/resouce/module/ResID;->et_edit_currencylist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6494,7 +6494,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a08
+    sget v1, Lcom/resouce/module/ResID;->et_edit_btn_clean:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6507,7 +6507,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a0b
+    sget v1, Lcom/resouce/module/ResID;->et_edit_btn_switch_keyboard:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -6528,7 +6528,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b1bd5
+    sget v1, Lcom/resouce/module/ResID;->pad_edit_layout_btn_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

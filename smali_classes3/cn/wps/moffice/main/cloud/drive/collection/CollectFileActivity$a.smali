@@ -48,7 +48,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0b67
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_collection_main_layout:I
 
     const/4 v3, 0x0
 
@@ -60,7 +60,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity$a;->B:Lcn/wps/moffice/main/cloud/drive/collection/CollectFileActivity;
 
-    const v2, 0x7f0b2534
+    sget v2, Lcom/resouce/module/ResID;->progress:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

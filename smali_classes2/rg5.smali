@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0681
+    sget v1, Lcom/resouce/module/ResLAYOUT;->permission_check:I
 
     const/4 v2, 0x0
 
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Lrg5;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1f76
+    sget v1, Lcom/resouce/module/ResID;->permissionListView:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12261a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_permission_check:I
 
     return v0
 .end method

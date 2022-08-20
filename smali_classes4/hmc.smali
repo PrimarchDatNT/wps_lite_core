@@ -346,7 +346,7 @@
     .line 1
     iget-object p2, p0, Lhmc;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e063b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_extract_pics_thumb_item:I
 
     const/4 v1, 0x0
 

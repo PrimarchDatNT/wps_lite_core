@@ -18,7 +18,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e10f0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_lights_layout:I
 
     return v0
 .end method

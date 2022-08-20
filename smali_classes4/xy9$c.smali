@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -130,7 +130,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0605ee
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

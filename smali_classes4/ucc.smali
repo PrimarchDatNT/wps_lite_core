@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcyc;-><init>(Landroid/content/Context;I)V
@@ -92,7 +92,7 @@
 .method public final initViews()V
     .locals 4
 
-    const v0, 0x7f0e061b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_bookmark_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(I)V
@@ -102,7 +102,7 @@
 
     invoke-virtual {p0, v0}, Lqe3;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
-    const v0, 0x7f0b0236
+    sget v0, Lcom/resouce/module/ResID;->bookmark_empty:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lucc;->V:Landroid/view/View;
 
-    const v0, 0x7f0b1d70
+    sget v0, Lcom/resouce/module/ResID;->pdf_bookmark_list:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/pdf/shell/common/views/gridview/GridViewBase;->setConfigurationChangedListener(Lcn/wps/moffice/pdf/shell/common/views/gridview/GridViewBase$e;)V
 
-    const v0, 0x7f0b1d6d
+    sget v0, Lcom/resouce/module/ResID;->pdf_bookmark_header:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12197c
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_all_bookmark:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

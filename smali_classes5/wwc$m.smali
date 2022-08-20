@@ -113,7 +113,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1e6c
+    sget v0, Lcom/resouce/module/ResID;->pdf_maintoolbar_annotation:I
 
     const-string v1, "button_click"
 
@@ -250,7 +250,7 @@
     goto/16 :goto_2
 
     :cond_5
-    const v0, 0x7f0b1e78
+    sget v0, Lcom/resouce/module/ResID;->pdf_maintoolbar_view:I
 
     if-ne p1, v0, :cond_6
 
@@ -273,7 +273,7 @@
     goto :goto_2
 
     :cond_6
-    const v0, 0x7f0b1e70
+    sget v0, Lcom/resouce/module/ResID;->pdf_maintoolbar_edit:I
 
     if-ne p1, v0, :cond_7
 
@@ -296,7 +296,7 @@
     goto :goto_2
 
     :cond_7
-    const v0, 0x7f0b1e39
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_convert:I
 
     if-ne p1, v0, :cond_8
 
@@ -319,7 +319,7 @@
     goto :goto_2
 
     :cond_8
-    const v0, 0x7f0b1e75
+    sget v0, Lcom/resouce/module/ResID;->pdf_maintoolbar_play:I
 
     if-ne p1, v0, :cond_9
 
@@ -362,7 +362,7 @@
     goto :goto_2
 
     :cond_9
-    const v0, 0x7f0b1e6d
+    sget v0, Lcom/resouce/module/ResID;->pdf_maintoolbar_autoplay:I
 
     if-ne p1, v0, :cond_a
 

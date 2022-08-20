@@ -74,7 +74,7 @@
     .line 2
     iget-object p1, p1, Lt1a$a;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f1204a7
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -84,7 +84,7 @@
 .method public m(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lt1a$a;
     .locals 2
 
-    const v0, 0x7f0e0cef
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_main_scan_item_layout:I
 
     const/4 v1, 0x0
 

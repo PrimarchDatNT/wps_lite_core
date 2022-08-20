@@ -81,7 +81,7 @@
 
     move-result p1
 
-    const v2, 0x7f0b0ad5
+    sget v2, Lcom/resouce/module/ResID;->et_number_suggestion_text_layout:I
 
     const/4 v3, 0x1
 
@@ -168,7 +168,7 @@
     goto/16 :goto_2
 
     :cond_2
-    const v2, 0x7f0b0ad3
+    sget v2, Lcom/resouce/module/ResID;->et_number_suggestion_scientific_layout:I
 
     if-ne p1, v2, :cond_4
 
@@ -222,15 +222,15 @@
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f0b0bb6
+    sget v2, Lcom/resouce/module/ResID;->et_suggestion_fraction_num_layout:I
 
     if-eq p1, v2, :cond_5
 
-    const v4, 0x7f0b0bb9
+    sget v4, Lcom/resouce/module/ResID;->et_suggestion_fraction_txt_layout:I
 
     if-eq p1, v4, :cond_5
 
-    const v4, 0x7f0b0bba
+    sget v4, Lcom/resouce/module/ResID;->et_suggestion_num_connect_layout:I
 
     if-ne p1, v4, :cond_8
 

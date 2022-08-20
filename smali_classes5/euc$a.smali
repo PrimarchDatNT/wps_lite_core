@@ -85,7 +85,7 @@
     .line 6
     iget-object p1, p0, Leuc$a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b1f1f
+    sget v1, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_above_panel:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

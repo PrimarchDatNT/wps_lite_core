@@ -142,7 +142,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0898
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_home_plus_left_toolbar_item:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0897
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_home_plus_above_toolbar_item:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0891
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_home_bottom_toolbar_item:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -193,7 +193,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b204a
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_text:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -222,7 +222,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -233,7 +233,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2045
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_app_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -247,7 +247,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2049
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b204c
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_tips_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b204d
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -559,7 +559,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b204a
+    sget v1, Lcom/resouce/module/ResID;->phone_home_toolbar_item_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

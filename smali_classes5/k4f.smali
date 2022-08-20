@@ -43,7 +43,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ca0
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_renew_whitelist_key:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120058
+    sget v1, Lcom/resouce/module/ResSTRING;->account_server_en:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -429,7 +429,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c9f
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_renew_whitelist_filter_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1109,7 +1109,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c9e
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_renew_subscription_state_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

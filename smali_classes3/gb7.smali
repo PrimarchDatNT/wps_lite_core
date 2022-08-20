@@ -34,7 +34,7 @@
 
     iget-object v0, p0, Ldb7;->e:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0e03d9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_empty_folder_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -42,7 +42,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b00a8
+    sget v0, Lcom/resouce/module/ResID;->add_file_op_container:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,9 +60,9 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12250f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
-    const v2, 0x7f081711
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_new_folder:I
 
     const/4 v3, 0x3
 
@@ -72,16 +72,16 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122c61
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_empty_guide_import_file:I
 
-    const v3, 0x7f081726
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_upload:I
 
     .line 5
     invoke-virtual {p0, v0, v1, v3, v2}, Lgb7;->g(Landroid/view/ViewGroup;III)V
 
-    const v1, 0x7f122c62
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_empty_guide_upload_picture:I
 
-    const v2, 0x7f081714
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_pic:I
 
     const/4 v3, 0x1
 
@@ -95,9 +95,9 @@
 
     invoke-virtual {p0, v0, v1}, Lgb7;->f(Landroid/view/ViewGroup;Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;)V
 
-    const v1, 0x7f12251b    # 1.9425995E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newfile_doc_label:I    # 1.9425995E38f
 
-    const v2, 0x7f0816f9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_add_v2:I
 
     const/4 v3, 0x2
 
@@ -159,9 +159,9 @@
     if-eqz p2, :cond_2
 
     :cond_1
-    const p2, 0x7f122c60
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpsdrive_empty_guide_file_collection:I
 
-    const v0, 0x7f081702
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_collect:I
 
     const/4 v1, 0x4
 
@@ -198,7 +198,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03d8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_empty_folder_guide_item:I
 
     const/4 v2, 0x0
 
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1227
+    sget v2, Lcom/resouce/module/ResID;->icon:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

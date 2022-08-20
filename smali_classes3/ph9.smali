@@ -55,7 +55,7 @@
 
     if-ne v6, v1, :cond_0
 
-    const v0, 0x7f120f0c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_month_modified:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -95,7 +95,7 @@
 
     if-ltz v0, :cond_2
 
-    const v0, 0x7f120eff
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_day:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -125,7 +125,7 @@
 
     if-ltz v0, :cond_3
 
-    const v0, 0x7f120f03
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_hour:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -149,7 +149,7 @@
     return-object p0
 
     :cond_3
-    const p1, 0x7f120f07
+    sget p1, Lcom/resouce/module/ResSTRING;->home_file_date_minute:I
 
     const-wide/32 v0, 0xea60
 
@@ -212,7 +212,7 @@
 
     if-ltz v4, :cond_0
 
-    const v4, 0x7f120f0e
+    sget v4, Lcom/resouce/module/ResSTRING;->home_file_date_month_simple:I
 
     .line 1
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -242,7 +242,7 @@
 
     if-ltz v4, :cond_1
 
-    const v4, 0x7f120f02
+    sget v4, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     .line 2
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -272,7 +272,7 @@
 
     if-ltz v4, :cond_2
 
-    const v4, 0x7f120f06
+    sget v4, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     .line 3
     invoke-virtual {p0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -296,7 +296,7 @@
     return-object p0
 
     :cond_2
-    const v0, 0x7f120f0a
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_minute_simple:I
 
     const-wide/32 v4, 0xea60
 
@@ -398,7 +398,7 @@
 
     sub-long/2addr v0, p1
 
-    const p1, 0x7f122e0a
+    sget p1, Lcom/resouce/module/ResSTRING;->recovery_file_left_time_hint:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -548,7 +548,7 @@
 
     if-ne v6, v1, :cond_0
 
-    const v0, 0x7f120f0b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_month:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -588,7 +588,7 @@
 
     if-ltz v0, :cond_2
 
-    const v0, 0x7f120eff
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_day:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -618,7 +618,7 @@
 
     if-ltz v0, :cond_3
 
-    const v0, 0x7f120f03
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_hour:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -642,7 +642,7 @@
     return-object p0
 
     :cond_3
-    const p1, 0x7f120f07
+    sget p1, Lcom/resouce/module/ResSTRING;->home_file_date_minute:I
 
     const-wide/32 v0, 0xea60
 
@@ -756,7 +756,7 @@
 
     if-ne v1, p3, :cond_0
 
-    const p3, 0x7f120f0e
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_month_simple:I
 
     .line 5
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -806,7 +806,7 @@
 
     if-ltz p3, :cond_2
 
-    const p3, 0x7f120f02
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     .line 7
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -846,7 +846,7 @@
 
     if-ltz p3, :cond_3
 
-    const p3, 0x7f120f06
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     .line 8
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -882,7 +882,7 @@
     :cond_3
     const-wide/32 v0, 0xea60
 
-    const p3, 0x7f120f0a
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_minute_simple:I
 
     cmp-long v2, p1, v0
 

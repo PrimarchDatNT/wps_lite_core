@@ -16,7 +16,7 @@
     .line 1
     invoke-direct {p0, p1}, Lg3l;-><init>(Le3l;)V
 
-    const p1, 0x7f1221b6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_font_highlight:I
 
     .line 2
     invoke-virtual {p0, p1}, Lpyk;->G2(I)V
@@ -32,7 +32,7 @@
     .line 5
     iget-object p1, p0, Lpyk;->i0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const p2, 0x7f080240
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 

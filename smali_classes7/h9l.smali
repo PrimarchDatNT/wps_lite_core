@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122df7
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_letter_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213d2
+    sget v1, Lcom/resouce/module/ResSTRING;->mine_letter_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206da
+    sget v1, Lcom/resouce/module/ResSTRING;->download_letter_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121349
+    sget v1, Lcom/resouce/module/ResSTRING;->letter_buying_state_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1372,7 +1372,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f12011c
+    sget v8, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

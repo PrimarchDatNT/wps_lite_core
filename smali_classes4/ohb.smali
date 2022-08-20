@@ -268,7 +268,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03bb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_third_login:I
 
     const/4 v2, 0x0
 
@@ -298,7 +298,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7d
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -316,7 +316,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121191
+    sget v0, Lcom/resouce/module/ResSTRING;->home_third_login_wps:I
 
     return v0
 .end method
@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f7c
+    sget v1, Lcom/resouce/module/ResID;->third_login_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -690,7 +690,7 @@
 .method public final p3()V
     .locals 1
 
-    const v0, 0x7f121190
+    sget v0, Lcom/resouce/module/ResSTRING;->home_third_auth_error:I
 
     .line 1
     invoke-virtual {p0, v0}, Lohb;->u3(I)V
@@ -868,7 +868,7 @@
     goto :goto_1
 
     :catch_0
-    const p1, 0x7f12118f
+    sget p1, Lcom/resouce/module/ResSTRING;->home_third_app_uninstall:I
 
     .line 17
     invoke-virtual {p0, p1}, Lohb;->u3(I)V
@@ -977,7 +977,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 2
     invoke-virtual {p0, v0}, Lohb;->u3(I)V
@@ -995,7 +995,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f121192
+    sget v0, Lcom/resouce/module/ResSTRING;->home_third_start_error:I
 
     .line 5
     invoke-virtual {p0, v0}, Lohb;->u3(I)V

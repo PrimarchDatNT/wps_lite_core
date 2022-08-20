@@ -80,7 +80,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2924
+    sget p2, Lcom/resouce/module/ResID;->right_pos_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -90,7 +90,7 @@
 
     if-eqz p1, :cond_0
 
-    const p2, 0x7f0b2926
+    sget p2, Lcom/resouce/module/ResID;->right_pos_text:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
     .line 3
     iget-object p1, p0, Lu97;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b2923
+    sget p2, Lcom/resouce/module/ResID;->right_pos_image:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
     :cond_0
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13d2
+    sget p2, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
     .line 5
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13c7
+    sget p2, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -144,7 +144,7 @@
     .line 6
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2776
+    sget p2, Lcom/resouce/module/ResID;->public_wpsdrive_share_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
     .line 7
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2772
+    sget p2, Lcom/resouce/module/ResID;->public_wpsdrive_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
     .line 8
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b276e
+    sget p2, Lcom/resouce/module/ResID;->public_wpsdrive_group_num:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

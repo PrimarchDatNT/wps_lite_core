@@ -506,7 +506,7 @@
 
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1204c8
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_net_fail:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -517,7 +517,7 @@
     :cond_0
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12044d
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_network_unavailable_tip:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -650,13 +650,13 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f080742
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v1, 0x7f06019d
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v4, 0x7f12046f
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v5, 0x7f12043d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     new-array v3, v3, [Lcib$b;
 
@@ -675,13 +675,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08073f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2et:I
 
-    const v1, 0x7f06019f
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v4, 0x7f12263f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
-    const v5, 0x7f122641
+    sget v5, Lcom/resouce/module/ResSTRING;->public_pic2et_guide_desc:I
 
     new-array v3, v3, [Lcib$b;
 
@@ -1100,7 +1100,7 @@
 
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1204c8
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_net_fail:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1111,7 +1111,7 @@
     :cond_0
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1128,7 +1128,7 @@
 
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1204c4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_translation_fail:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1139,7 +1139,7 @@
     :cond_2
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120454
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_recognized_failed:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2198,7 +2198,7 @@
 
     iput-object v0, p0, Lg2b;->o:Lhd3;
 
-    const v1, 0x7f1214bb
+    sget v1, Lcom/resouce/module/ResSTRING;->ocr_ai_engine_dialog_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -2210,7 +2210,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00e1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_engine_choice_layout:I
 
     const/4 v2, 0x0
 
@@ -2218,21 +2218,21 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b089a
+    sget v1, Lcom/resouce/module/ResID;->engine_type_handwriting:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b089c
+    sget v3, Lcom/resouce/module/ResID;->engine_type_print:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b089b
+    sget v4, Lcom/resouce/module/ResID;->engine_type_mix:I
 
     .line 7
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

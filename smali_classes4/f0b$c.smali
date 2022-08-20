@@ -61,7 +61,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1203ed
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_copy:I
 
     if-nez v0, :cond_5
 

@@ -17,17 +17,17 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    const p1, 0x7f0e0fdd
+    sget p1, Lcom/resouce/module/ResLAYOUT;->tv_auto_close_tip_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V
 
-    const p1, 0x7f0b019e
+    sget p1, Lcom/resouce/module/ResID;->auto_close_count_down_text:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122732
+    sget v0, Lcom/resouce/module/ResSTRING;->public_project_count_down_to_close:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -125,14 +125,14 @@
 
     move-result-object v2
 
-    const v3, 0x7f060669
+    sget v3, Lcom/resouce/module/ResCOLOR;->tv_auto_close_count_down_tip:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v3
 
-    const v5, 0x7f060668
+    sget v5, Lcom/resouce/module/ResCOLOR;->tv_auto_close_count_down_seconds_tip:I
 
     .line 6
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getColor(I)I

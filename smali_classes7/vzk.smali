@@ -50,7 +50,7 @@
 
     invoke-virtual {p0, p2}, Luzl;->m2(Landroid/view/View;)V
 
-    const p2, 0x7f0b3450
+    sget p2, Lcom/resouce/module/ResID;->wl_drop_caps_lines:I
 
     .line 4
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object p2, p0, Lvzk;->d0:Lcn/wps/moffice/common/beans/phone/horizontalwheel/HorizontalWheelLayout;
 
-    const p2, 0x7f0b3451
+    sget p2, Lcom/resouce/module/ResID;->wl_drop_caps_spans_cm:I
 
     .line 5
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v0, p0, v1}, Lvzk$c;-><init>(Lvzk;Lszk;)V
 
-    const v1, 0x7f0b303c
+    sget v1, Lcom/resouce/module/ResID;->tiv_drop_caps_none:I
 
     const-string v2, "drop-caps-none"
 
@@ -192,7 +192,7 @@
 
     invoke-direct {v0, p0, v1}, Lvzk$d;-><init>(Lvzk;Lszk;)V
 
-    const v1, 0x7f0b303d
+    sget v1, Lcom/resouce/module/ResID;->tiv_drop_caps_sink:I
 
     const-string v2, "drop-caps-sink"
 
@@ -205,7 +205,7 @@
 
     invoke-direct {v0, p0, v1}, Lvzk$e;-><init>(Lvzk;Lszk;)V
 
-    const v1, 0x7f0b303b
+    sget v1, Lcom/resouce/module/ResID;->tiv_drop_caps_hang:I
 
     const-string v2, "drop-caps-hang"
 
@@ -293,7 +293,7 @@
 .method public q2()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0e1080
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_drop_caps_panel_pad:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

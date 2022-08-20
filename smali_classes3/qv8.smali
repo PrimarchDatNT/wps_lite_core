@@ -59,7 +59,7 @@
 
     iput-object p1, p0, Lqv8;->b:Lhd3;
 
-    const p2, 0x7f120359
+    sget p2, Lcom/resouce/module/ResSTRING;->decompress_ing_tips:I
 
     .line 8
     invoke-virtual {p1, p2}, Lhd3;->setTitleById(I)Lhd3;
@@ -186,7 +186,7 @@
 
     iget-object v1, p0, Lqv8;->e:Landroid/app/Activity;
 
-    const v2, 0x7f12035a
+    sget v2, Lcom/resouce/module/ResSTRING;->decompress_local_folder_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

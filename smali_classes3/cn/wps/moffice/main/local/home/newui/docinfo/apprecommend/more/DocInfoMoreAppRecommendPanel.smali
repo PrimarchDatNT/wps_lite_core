@@ -191,7 +191,7 @@
 .method public final A()V
     .locals 3
 
-    const v0, 0x7f0b141a
+    sget v0, Lcom/resouce/module/ResID;->iv_back:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/apprecommend/more/DocInfoMoreAppRecommendPanel;->m0:Lcn/wps/moffice/common/beans/RippleAlphaImageView;
 
-    const v0, 0x7f0b335e
+    sget v0, Lcom/resouce/module/ResID;->v_recycler:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0818b8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->setBackgroundResource(I)V

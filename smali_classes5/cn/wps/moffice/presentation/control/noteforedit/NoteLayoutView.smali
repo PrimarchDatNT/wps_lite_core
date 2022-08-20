@@ -1046,7 +1046,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070717
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_edit_note_view_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1061,7 +1061,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070715
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_edit_note_view_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1076,7 +1076,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a41
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1091,7 +1091,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a3f
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_slide_list_height_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1140,17 +1140,17 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e0807
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_note_edit_layout:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0a8c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_note_edit_layout:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b231e
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_contentview_root:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1164,7 +1164,7 @@
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b232a
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_view_audio:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1175,7 +1175,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/NoteLayoutView;->V:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2326
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_labelview:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1186,7 +1186,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/NoteLayoutView;->I:Lcn/wps/moffice/presentation/control/noteforedit/NoteLabelImageView;
 
-    const v0, 0x7f0b2327
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_labelview_divideline:I
 
     .line 15
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1206,7 +1206,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/NoteLayoutView;->i0:Landroid/widget/LinearLayout$LayoutParams;
 
-    const v0, 0x7f0b232c
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_view_edit:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1217,7 +1217,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/NoteLayoutView;->T:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b232b
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_view_delete:I
 
     .line 18
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1237,7 +1237,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1264,7 +1264,7 @@
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     :cond_2
-    const v0, 0x7f0b232d
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_view_edittext:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1275,7 +1275,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/NoteLayoutView;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b231c
+    sget v0, Lcom/resouce/module/ResID;->ppt_note_audio:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -76,7 +76,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    const v0, 0x7f0e0e23
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_secret_folder_settings_layout:I
 
     .line 1
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->z(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;

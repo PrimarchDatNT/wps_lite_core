@@ -581,7 +581,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f081fa6
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->webview_black_progressbar:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1169,7 +1169,7 @@
 
     check-cast v0, Lcn/wps/moffice/main/common/viewcontrols/AbsTitleBar;
 
-    const v2, 0x7f080256
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_update:I
 
     new-instance v3, Lrma;
 
@@ -1357,7 +1357,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120255
+    sget v2, Lcom/resouce/module/ResSTRING;->chat_whatup_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

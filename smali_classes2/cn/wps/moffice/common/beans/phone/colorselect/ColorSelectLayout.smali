@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ab4
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_grid_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ab5
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_grid_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070abd
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070abe
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -255,7 +255,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ab4
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_grid_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -266,7 +266,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ab5
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_grid_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -277,7 +277,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070abd
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_width_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -288,7 +288,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070abe
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_noneColorBtn_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -329,7 +329,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->S:Landroid/widget/Button;
 
-    const p2, 0x7f0811d6
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_color_none_item_hover_bg:I
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -348,7 +348,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/beans/phone/colorselect/ColorSelectLayout;->S:Landroid/widget/Button;
 
-    const p2, 0x7f081356
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_roundbtn_selector:I
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -405,7 +405,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0849
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_color_select_layout:I
 
     const/4 v1, 0x0
 
@@ -460,7 +460,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e084a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_color_select_merge_layout:I
 
     invoke-virtual {p1, v0, p0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -539,7 +539,7 @@
 .method public final c(Landroid/content/Context;I)V
     .locals 3
 
-    const p1, 0x7f0b04b2
+    sget p1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/GridView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    const p1, 0x7f0b04b7
+    sget p1, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -588,12 +588,12 @@
 
     if-ne p2, v0, :cond_0
 
-    const p2, 0x7f12197d
+    sget p2, Lcom/resouce/module/ResSTRING;->phone_public_complex_format_frame_color_no_fill:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f12335e
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setText(I)V
@@ -805,7 +805,7 @@
 
     if-ne v1, p1, :cond_0
 
-    const p1, 0x7f06000c
+    sget p1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     goto :goto_0
 
@@ -815,7 +815,7 @@
 
     if-ne v1, p1, :cond_1
 
-    const p1, 0x7f060009
+    sget p1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     goto :goto_0
 
@@ -827,17 +827,17 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f060002
+    sget p1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f06057a
+    sget p1, Lcom/resouce/module/ResCOLOR;->public_pdf_theme_color:I
 
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f06058d
+    sget p1, Lcom/resouce/module/ResCOLOR;->public_ss_theme_color:I
 
     .line 5
     :goto_0

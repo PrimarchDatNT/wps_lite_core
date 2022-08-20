@@ -169,7 +169,7 @@
     .line 4
     iget-object p2, p0, Lz9c;->a:Landroid/content/Context;
 
-    const v0, 0x7f1205a6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -247,7 +247,7 @@
     .line 2
     iget-object p2, p0, Lz9c;->a:Landroid/content/Context;
 
-    const v0, 0x7f1205a6
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_file_loading:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -301,7 +301,7 @@
     .line 2
     iget-object p4, p0, Lz9c;->a:Landroid/content/Context;
 
-    const v0, 0x7f1218c6
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_read_arrange_loading:I
 
     invoke-virtual {p4, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -513,7 +513,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06000b
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -566,7 +566,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

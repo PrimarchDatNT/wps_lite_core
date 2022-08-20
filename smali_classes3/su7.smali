@@ -440,7 +440,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12225c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_history_recovery_import_content:I
 
     const/4 v4, 0x0
 
@@ -497,7 +497,7 @@
 
     :cond_2
     :goto_0
-    const v0, 0x7f12225d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_history_recovery_import_content_v1:I
 
     .line 4
     invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -623,7 +623,7 @@
     .line 2
     iget-object p1, p0, Lsu7;->b:Landroid/app/Activity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -691,7 +691,7 @@
 
     :cond_1
     :goto_0
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V

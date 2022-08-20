@@ -601,15 +601,15 @@
 .method public final I1(I)V
     .locals 3
 
-    const v0, 0x7f0b1e0e
+    sget v0, Lcom/resouce/module/ResID;->pdf_fill_restart:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b1e0d
+    sget v0, Lcom/resouce/module/ResID;->pdf_fill_pre:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b1e0c
+    sget v0, Lcom/resouce/module/ResID;->pdf_fill_next:I
 
     if-ne p1, v0, :cond_0
 
@@ -652,7 +652,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b1dcb
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_ok:I
 
     if-ne v0, p1, :cond_1
 
@@ -695,7 +695,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1dce
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_save:I
 
     if-ne v0, p1, :cond_2
 
@@ -1980,7 +1980,7 @@
     :cond_1
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b206c
+    sget v2, Lcom/resouce/module/ResID;->phone_pdf_edit_titlebar_panel:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2471,7 +2471,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07b0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_titlebar_layout:I
 
     return v0
 .end method
@@ -2916,7 +2916,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dcb
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2925,7 +2925,7 @@
     .line 6
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dc6
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_insert:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2936,7 +2936,7 @@
     .line 7
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1e0e
+    sget v2, Lcom/resouce/module/ResID;->pdf_fill_restart:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2947,7 +2947,7 @@
     .line 8
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1e0d
+    sget v2, Lcom/resouce/module/ResID;->pdf_fill_pre:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2958,7 +2958,7 @@
     .line 9
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1e0c
+    sget v2, Lcom/resouce/module/ResID;->pdf_fill_next:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2969,7 +2969,7 @@
     .line 10
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dce
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_save:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2980,7 +2980,7 @@
     .line 11
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dee
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2991,7 +2991,7 @@
     .line 12
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dcd
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_redo:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3002,7 +3002,7 @@
     .line 13
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0d5f
+    sget v2, Lcom/resouce/module/ResID;->fill_action:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3013,7 +3013,7 @@
     .line 14
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dcc
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_panel:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3240,7 +3240,7 @@
 .method public final z1(I)Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f0b1dcb
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_ok:I
 
     if-ne p1, v0, :cond_0
 
@@ -3249,7 +3249,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1dce
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_save:I
 
     if-ne p1, v0, :cond_1
 
@@ -3258,7 +3258,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1dee
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     if-ne p1, v0, :cond_2
 
@@ -3267,7 +3267,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1dcd
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_redo:I
 
     if-ne p1, v0, :cond_3
 
@@ -3276,7 +3276,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1dc6
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_insert:I
 
     if-ne p1, v0, :cond_4
 

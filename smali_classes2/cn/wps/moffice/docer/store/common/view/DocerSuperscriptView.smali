@@ -77,12 +77,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f081ac5
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_phone_home_search_free:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f08094a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_docer_mark_flag:I
 
     .line 2
     :goto_0

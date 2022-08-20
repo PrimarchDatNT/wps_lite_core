@@ -389,7 +389,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0500
+    sget v3, Lcom/resouce/module/ResLAYOUT;->outlinemb_item_layout:I
 
     const/4 v4, 0x0
 
@@ -408,7 +408,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/presentation/control/layout/summary/view/InsertSummaryView$a;->a:Landroid/view/View;
 
-    const v3, 0x7f0b13d2
+    sget v3, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/presentation/control/layout/summary/view/InsertSummaryView$a;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0661
+    sget v3, Lcom/resouce/module/ResID;->description:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -446,7 +446,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/presentation/control/layout/summary/view/InsertSummaryView$a;->a:Landroid/view/View;
 
-    const v3, 0x7f0b0533
+    sget v3, Lcom/resouce/module/ResID;->container_layout:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

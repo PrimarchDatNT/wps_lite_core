@@ -72,7 +72,7 @@
     :cond_0
     iget-object p1, p0, Lh1e;->B:Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e0a89
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_miracast_devices_list:I
 
     const/4 v0, 0x0
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    const p1, 0x7f121bf8
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_sharedplay_miracast_device_list_title:I
 
     const/16 p2, 0x11
 

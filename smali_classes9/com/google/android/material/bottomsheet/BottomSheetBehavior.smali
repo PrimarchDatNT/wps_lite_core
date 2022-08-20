@@ -342,7 +342,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f07049d
+    sget v7, Lcom/resouce/module/ResDIMEN;->mtrl_min_touch_target_size:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1883,7 +1883,7 @@
 
     if-eq v1, v2, :cond_3
 
-    const v1, 0x7f12022b
+    sget v1, Lcom/resouce/module/ResSTRING;->bottomsheet_action_expand_halfway:I
 
     .line 9
     invoke-virtual {p0, v0, v1, v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->n(Landroid/view/View;II)I
@@ -2772,7 +2772,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0700a8
+    sget v4, Lcom/resouce/module/ResDIMEN;->design_bottom_sheet_peek_height_min:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -4104,7 +4104,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0400ac
+    sget v0, Lcom/resouce/module/ResATTR;->bottomSheetStyle:I
 
     .line 2
     sget v1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->Y:I

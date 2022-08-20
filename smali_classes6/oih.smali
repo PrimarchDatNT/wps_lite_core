@@ -562,7 +562,7 @@
 
     invoke-interface {v0, v6, v5}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v5, 0x7f12011a
+    sget v5, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     .line 50
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;

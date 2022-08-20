@@ -49,7 +49,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -57,7 +57,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1228b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_immediate_open:I
 
     .line 2
     invoke-static {v0, v1, p1}, Ldi9;->u(III)Ldi9$f;

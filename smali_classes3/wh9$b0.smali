@@ -54,7 +54,7 @@
 
     iget-object p1, p1, Lwh9;->C0:Landroid/app/Activity;
 
-    const v0, 0x7f12302e
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add_success:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

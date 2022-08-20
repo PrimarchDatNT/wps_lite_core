@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00ec
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_join_persons_collaboration_edit:I
 
     const/4 v2, 0x0
 
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b3140
+    sget v2, Lcom/resouce/module/ResID;->tv_desc:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_1
-    const v1, 0x7f0b02c0
+    sget v1, Lcom/resouce/module/ResID;->btn_cancel:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b02df
+    sget v1, Lcom/resouce/module/ResID;->btn_jon:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

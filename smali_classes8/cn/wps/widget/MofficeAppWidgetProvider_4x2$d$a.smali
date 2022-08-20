@@ -175,7 +175,7 @@
 
     aget v6, v6, v5
 
-    const v7, 0x7f06000c
+    sget v7, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v4, v6, v7}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 

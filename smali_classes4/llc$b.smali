@@ -44,7 +44,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b1dd5
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_bold:I
 
     if-ne v0, v3, :cond_0
 
@@ -84,7 +84,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0b1dd6
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_color:I
 
     if-ne v0, v3, :cond_2
 
@@ -129,7 +129,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0b1dd8
+    sget v3, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_increase:I
 
     const/high16 v4, 0x3f800000    # 1.0f
 
@@ -159,7 +159,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b1dd7
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_text_float_font_decrease:I
 
     if-ne v0, v1, :cond_4
 
@@ -187,43 +187,43 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b04a7
+    sget v1, Lcom/resouce/module/ResID;->color_1:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04a9
+    sget v1, Lcom/resouce/module/ResID;->color_2:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04aa
+    sget v1, Lcom/resouce/module/ResID;->color_3:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04ab
+    sget v1, Lcom/resouce/module/ResID;->color_4:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04ac
+    sget v1, Lcom/resouce/module/ResID;->color_5:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04ad
+    sget v1, Lcom/resouce/module/ResID;->color_6:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04ae
+    sget v1, Lcom/resouce/module/ResID;->color_7:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04af
+    sget v1, Lcom/resouce/module/ResID;->color_8:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04b0
+    sget v1, Lcom/resouce/module/ResID;->color_9:I
 
     if-eq v0, v1, :cond_5
 
-    const v1, 0x7f0b04a8
+    sget v1, Lcom/resouce/module/ResID;->color_10:I
 
     if-ne v0, v1, :cond_6
 

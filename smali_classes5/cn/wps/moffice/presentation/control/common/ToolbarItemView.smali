@@ -53,13 +53,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0822
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_toolbar_linear_item_view:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b304f
+    sget p1, Lcom/resouce/module/ResID;->tool_bar_item_red_dot_layout:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->a0:Lcn/wps/moffice/common/RedDotLinearLayout;
 
-    const p1, 0x7f0b2495
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_icon:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2498
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_title:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2494
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_ext_text:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->W:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2497
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_recommend_icon:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2496
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_limit_free_icon:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121bb3
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_play_record:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

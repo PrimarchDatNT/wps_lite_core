@@ -61,7 +61,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0820aa
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_selector:I
 
     .line 2
     invoke-virtual {p2, v1, p3}, Landroid/content/res/TypedArray;->getResourceId(II)I
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

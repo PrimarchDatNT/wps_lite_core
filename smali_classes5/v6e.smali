@@ -223,17 +223,17 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1226d2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_has_start:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122539
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_print_data:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f1226cb
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_failed:I
 
     :goto_0
     if-le p1, v0, :cond_3
@@ -280,12 +280,12 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f122836
+    sget v2, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f121be0
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_save_after_loading_finish:I
 
     :goto_0
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V
@@ -604,7 +604,7 @@
     .line 2
     iget-object v0, p0, Lv6e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b2310
+    sget v1, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

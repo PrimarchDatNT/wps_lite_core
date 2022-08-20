@@ -47,7 +47,7 @@
     .line 2
     iget-object p2, p0, Ll8h;->b:Landroid/content/Context;
 
-    const p3, 0x7f121d3e
+    sget p3, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

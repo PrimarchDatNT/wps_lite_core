@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const p1, 0x7f0b2651
+    sget p1, Lcom/resouce/module/ResID;->public_insert_pic_imgview:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object p1, p0, Lfa4$c;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2659
+    sget p1, Lcom/resouce/module/ResID;->public_insert_pic_selected_layer:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object p1, p0, Lfa4$c;->b:Landroid/view/View;
 
-    const p1, 0x7f0b264e
+    sget p1, Lcom/resouce/module/ResID;->public_insert_pic_checkbox:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

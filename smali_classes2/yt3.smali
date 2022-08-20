@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12203e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f1206d0
+    sget v2, Lcom/resouce/module/ResSTRING;->download_center:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12203e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -180,7 +180,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f1206d0
+    sget v2, Lcom/resouce/module/ResSTRING;->download_center:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -221,7 +221,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v2, 0x7f12203e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

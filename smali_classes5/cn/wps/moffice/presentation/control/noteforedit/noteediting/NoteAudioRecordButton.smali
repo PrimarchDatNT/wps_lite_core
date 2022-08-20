@@ -53,7 +53,7 @@
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->setLongClickable(Z)V
 
-    const v0, 0x7f0b1227
+    sget v0, Lcom/resouce/module/ResID;->icon:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2ee9
+    sget v0, Lcom/resouce/module/ResID;->text:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b34b9
+    sget v0, Lcom/resouce/module/ResID;->wrapper:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

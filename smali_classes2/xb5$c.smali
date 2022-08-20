@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122f23
+    sget v2, Lcom/resouce/module/ResSTRING;->share_send_to_app:I
 
     const/4 v3, 0x1
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/public_toolbar_grid_item_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="84.0dip" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:id="@id/img" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/phone_home_member_my_tasks" />
-        <ImageView android:id="@id/red_point" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/public_membercenter_red_icon" android:layout_marginStart="18.0dip" android:layout_marginEnd="0.0dip" />
-    </RelativeLayout>
-    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:maxLines="2" style="@style/appItemMainText" />
-</LinearLayout>

@@ -61,7 +61,7 @@
     .line 4
     iput-boolean v0, p1, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s0:Z
 
-    const v0, 0x7f120caa
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_get_fail:I
 
     .line 5
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s(I)V
@@ -244,7 +244,7 @@
     :cond_0
     iput-boolean v1, v0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s0:Z
 
-    const v1, 0x7f120caa
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_get_fail:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s(I)V
@@ -319,7 +319,7 @@
     :cond_2
     iput-boolean v1, p1, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s0:Z
 
-    const v0, 0x7f120cbb
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     .line 18
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->s(I)V

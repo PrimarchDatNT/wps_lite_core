@@ -295,7 +295,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1204a2
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_save_as_to_album:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -311,7 +311,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

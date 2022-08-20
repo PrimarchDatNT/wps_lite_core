@@ -96,11 +96,11 @@
     .line 4
     iget-object p1, p1, Lipd$a;->b:Lcn/wps/moffice/presentation/control/common/slide/SlideThumbPictureView;
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const/16 v0, 0x18
 
-    const v1, 0x7f0805b7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_pdf_thumb_checked:I
 
     invoke-virtual {p1, p2, v0, v1}, Lcn/wps/moffice/presentation/control/common/slide/SlideThumbPictureView;->setBgColorAndLabelSize(III)V
 

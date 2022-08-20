@@ -432,7 +432,7 @@
 .method public final n2()V
     .locals 2
 
-    const v0, 0x7f0b359d
+    sget v0, Lcom/resouce/module/ResID;->writer_fontmore_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object v0, p0, Lh6l;->d0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f122815
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -455,7 +455,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setPadHalfScreenStyle(Lie5$a;)V
 
-    const v0, 0x7f0b358e
+    sget v0, Lcom/resouce/module/ResID;->writer_font_boldBtn:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     iput-object v0, p0, Lh6l;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b3592
+    sget v0, Lcom/resouce/module/ResID;->writer_font_italicBtn:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     iput-object v0, p0, Lh6l;->f0:Landroid/view/View;
 
-    const v0, 0x7f0b3598
+    sget v0, Lcom/resouce/module/ResID;->writer_font_upBtn:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -482,7 +482,7 @@
 
     iput-object v0, p0, Lh6l;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b3591
+    sget v0, Lcom/resouce/module/ResID;->writer_font_downBtn:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -491,7 +491,7 @@
 
     iput-object v0, p0, Lh6l;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b358f
+    sget v0, Lcom/resouce/module/ResID;->writer_font_delLineBtn:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -500,7 +500,7 @@
 
     iput-object v0, p0, Lh6l;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b3590
+    sget v0, Lcom/resouce/module/ResID;->writer_font_doubleDelLineBtn:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -509,7 +509,7 @@
 
     iput-object v0, p0, Lh6l;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b3596
+    sget v0, Lcom/resouce/module/ResID;->writer_font_smallCapitalBtn:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -518,7 +518,7 @@
 
     iput-object v0, p0, Lh6l;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b358d
+    sget v0, Lcom/resouce/module/ResID;->writer_font_allCapitalBtn:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 .method public final o2(Z)V
     .locals 2
 
-    const p1, 0x7f0b359e
+    sget p1, Lcom/resouce/module/ResID;->writer_fontmore_toolbar_middle_group:I
 
     .line 1
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -554,14 +554,14 @@
     .line 2
     invoke-virtual {p1}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    const v0, 0x7f0e10a1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_fontmore_toolbar_middle:I
 
     const/4 v1, 0x1
 
     .line 3
     invoke-static {v0, p1, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b359b
+    sget p1, Lcom/resouce/module/ResID;->writer_fontmore_fontsize:I
 
     .line 4
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -572,7 +572,7 @@
 
     iput-object p1, p0, Lh6l;->p0:Lcn/wps/moffice/writer/beans/FontSizeView;
 
-    const p1, 0x7f0b359a
+    sget p1, Lcom/resouce/module/ResID;->writer_fontmore_color:I
 
     .line 5
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -583,7 +583,7 @@
 
     iput-object p1, p0, Lh6l;->m0:Lcn/wps/moffice/writer/shell/view/MySpinner;
 
-    const p1, 0x7f0b359c
+    sget p1, Lcom/resouce/module/ResID;->writer_fontmore_highlight:I
 
     .line 6
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -594,7 +594,7 @@
 
     iput-object p1, p0, Lh6l;->n0:Lcn/wps/moffice/writer/shell/view/MySpinner;
 
-    const p1, 0x7f0b359f
+    sget p1, Lcom/resouce/module/ResID;->writer_fontmore_underline:I
 
     .line 7
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

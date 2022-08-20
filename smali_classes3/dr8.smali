@@ -395,7 +395,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0020
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_app_log:I
 
     const/4 v2, 0x0
 
@@ -405,7 +405,7 @@
 
     iput-object v0, p0, Ldr8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0cda
+    sget v1, Lcom/resouce/module/ResID;->file_list_activity_app_log_listView:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -433,7 +433,7 @@
     .line 5
     iget-object v0, p0, Ldr8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0132
+    sget v1, Lcom/resouce/module/ResID;->app_log_operate_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
     .line 6
     iget-object v0, p0, Ldr8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0133
+    sget v1, Lcom/resouce/module/ResID;->app_log_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -453,7 +453,7 @@
     .line 7
     iget-object v1, p0, Ldr8;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0134
+    sget v2, Lcom/resouce/module/ResID;->app_log_share:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -817,7 +817,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1200ab
+    sget v0, Lcom/resouce/module/ResSTRING;->app_log_activity_title:I
 
     return v0
 .end method

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pickers" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.spreadsheet.control.editor.inputview.date.NumberPicker android:id="@id/hour" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
-    <cn.wps.moffice.spreadsheet.control.editor.inputview.date.NumberPicker android:id="@id/minute" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
-</LinearLayout>

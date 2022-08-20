@@ -537,7 +537,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->S:Lcn/wps/moffice/common/superwebview/WebviewErrorPage;
 
-    const v3, 0x7f0b08bb
+    sget v3, Lcom/resouce/module/ResID;->error_page_send_email:I
 
     invoke-virtual {v0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -557,7 +557,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->S:Lcn/wps/moffice/common/superwebview/WebviewErrorPage;
 
-    const v1, 0x7f0b3428
+    sget v1, Lcom/resouce/module/ResID;->webview_error_img:I
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -572,7 +572,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f081560
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_404_page_error:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -586,7 +586,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->S:Lcn/wps/moffice/common/superwebview/WebviewErrorPage;
 
-    const v1, 0x7f0b342a
+    sget v1, Lcom/resouce/module/ResID;->webview_error_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
@@ -601,7 +601,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1231c0
+    sget v2, Lcom/resouce/module/ResSTRING;->website_load_fail_click_retry:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -739,12 +739,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f1231c2
+    sget v0, Lcom/resouce/module/ResSTRING;->website_title_export_long_pic:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122e7e
+    sget v0, Lcom/resouce/module/ResSTRING;->save_as_pdf:I
 
     .line 2
     :goto_0
@@ -789,7 +789,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0060
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_website_export:I
 
     const/4 v2, 0x0
 
@@ -799,7 +799,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b340e
+    sget v1, Lcom/resouce/module/ResID;->webView:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -813,7 +813,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -826,7 +826,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b02d5
+    sget v1, Lcom/resouce/module/ResID;->btn_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -837,7 +837,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/website/internal/WebsiteExportView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1785
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1074,7 +1074,7 @@
     .line 12
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1231c6
+    sget v0, Lcom/resouce/module/ResSTRING;->website_url_empty:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1118,7 +1118,7 @@
     .line 17
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1231c7
+    sget v1, Lcom/resouce/module/ResSTRING;->website_url_not_support:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

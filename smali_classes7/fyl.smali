@@ -137,7 +137,7 @@
     .line 5
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f070daa
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_pad_custom_dialog_padding:I
 
     invoke-static {v1, v2}, Ldgh;->j(Landroid/content/Context;I)I
 

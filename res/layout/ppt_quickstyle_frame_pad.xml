@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:paddingLeft="@dimen/ppt_quickstyle_frame_padding_leftright" android:paddingRight="@dimen/ppt_quickstyle_frame_padding_leftright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ppt_quickstyle_frame_padding_leftright" android:paddingEnd="@dimen/ppt_quickstyle_frame_padding_leftright"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.presentation.control.quickstyle.QuickStyleFrameLine android:id="@id/ppt_quickstle_frame_line_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppt_quickstyle_frame_subview_margin_leftright" android:layout_marginRight="0.0dip" android:layout_marginStart="@dimen/ppt_quickstyle_frame_subview_margin_leftright" android:layout_marginEnd="0.0dip" />
-    <View android:layout_marginTop="@dimen/ppt_quickstyle_frame_separeteline_margin_topbottom" style="@style/ppt_content_horizonl_separate_line" />
-    <cn.wps.moffice.presentation.control.quickstyle.QuickStyleFrameColor android:gravity="center" android:id="@id/ppt_quickstle_frame_color_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</merge>

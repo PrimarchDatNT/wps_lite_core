@@ -68,7 +68,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e049a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->mi_printpdf_layout:I
 
     const/4 v3, 0x0
 
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lnj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b251d
+    sget v1, Lcom/resouce/module/ResID;->print_pdf_root:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
     .line 5
     iget-object v0, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213c4
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_pdf_print_converting:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -105,12 +105,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08095b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_dark_disable_bg:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08095d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_light_disable_bg:I
 
     .line 7
     :goto_0

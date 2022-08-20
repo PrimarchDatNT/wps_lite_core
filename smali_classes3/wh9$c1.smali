@@ -289,7 +289,7 @@
     :cond_2
     iget-object p1, p0, Lwh9$c1;->V:Landroid/content/Context;
 
-    const v0, 0x7f120572
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cannot_delete_file:I
 
     const/4 v1, 0x0
 

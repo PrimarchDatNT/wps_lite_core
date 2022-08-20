@@ -701,7 +701,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a7b
+    sget v1, Lcom/resouce/module/ResDIMEN;->ptr_header_ball_radius:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

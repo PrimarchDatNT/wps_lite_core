@@ -39,9 +39,9 @@
     .line 3
     new-instance v0, Lyyd$d;
 
-    const v1, 0x7f0802db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_words:I
 
-    const v2, 0x7f121d0c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_add_text_content:I
 
     const/4 v3, 0x1
 

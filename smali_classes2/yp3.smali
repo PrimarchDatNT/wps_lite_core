@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010095
+    sget v1, Lcom/resouce/module/ResANIM;->push_right_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -373,7 +373,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010096
+    sget v1, Lcom/resouce/module/ResANIM;->push_right_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010093
+    sget v1, Lcom/resouce/module/ResANIM;->push_left_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -416,7 +416,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f010094
+    sget v1, Lcom/resouce/module/ResANIM;->push_left_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

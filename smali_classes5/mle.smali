@@ -65,7 +65,7 @@
     .line 3
     iput-object p1, p0, Lmle;->a0:Landroid/content/Context;
 
-    const v0, 0x7f01008c
+    sget v0, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_in:I
 
     .line 4
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -74,7 +74,7 @@
 
     iput-object v0, p0, Lmle;->B:Landroid/view/animation/Animation;
 
-    const v0, 0x7f01008d
+    sget v0, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_out:I
 
     .line 5
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Lmle;->S:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a86
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_menubar_layout:I
 
     const/4 v2, 0x0
 
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lmle;->T:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b2314
+    sget v1, Lcom/resouce/module/ResID;->ppt_menubar_item_text_container:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
     .line 9
     iget-object v0, p0, Lmle;->T:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b2313
+    sget v1, Lcom/resouce/module/ResID;->ppt_menubar_item_bg_container:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070bab
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_pad_titlebar_height_hor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

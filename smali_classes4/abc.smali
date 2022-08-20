@@ -89,14 +89,14 @@
 
     invoke-direct {v0, p1}, Labc$c;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f081107
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_guide_areahighlight:I
 
     .line 4
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f1216e3
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_areahighlight:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1216e4
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_areahighlight_dialog_msg:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
 
     if-ne p1, p2, :cond_0
 
-    const p1, 0x7f1216d6
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_annotation_privilege_freetext:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -427,7 +427,7 @@
 
     if-ne p1, p2, :cond_1
 
-    const p1, 0x7f1217af
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_coverpen_privilege_desc:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -444,7 +444,7 @@
 
     if-ne p1, p2, :cond_2
 
-    const p1, 0x7f1216d8
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_annotation_privilege_shapes:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -460,18 +460,18 @@
 
     move-result-object p0
 
-    const p1, 0x7f0605f1
+    sget p1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p0
 
-    const p1, 0x7f120fb1
+    sget p1, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 10
     invoke-virtual {v0, p1, p0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

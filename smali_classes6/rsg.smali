@@ -809,7 +809,7 @@
     .line 5
     iget-object p1, p0, Lmug;->e0:Landroid/widget/Toast;
 
-    const v0, 0x7f12072e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_data_overflow:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Toast;->setText(I)V
 
@@ -824,7 +824,7 @@
     .line 7
     iget-object p1, p0, Lmug;->e0:Landroid/widget/Toast;
 
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Toast;->setText(I)V
 
@@ -1043,7 +1043,7 @@
     .line 20
     iget v8, v0, Lmug;->c0:I
 
-    const v10, 0x7f122385
+    sget v10, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     const/16 v11, 0x32
 
@@ -1265,7 +1265,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 39
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1521,7 +1521,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121fba
+    sget v3, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 62
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

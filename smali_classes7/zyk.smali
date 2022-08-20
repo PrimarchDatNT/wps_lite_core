@@ -79,7 +79,7 @@
     .line 10
     iget-object p1, p0, Lzyk;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const p2, 0x7f080240
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -372,7 +372,7 @@
 
     iput-object v0, p0, Lzyk;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f123299    # 1.9433E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_count_words:I    # 1.9433E38f
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V

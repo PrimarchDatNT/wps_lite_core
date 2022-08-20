@@ -34,7 +34,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cde
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_login_pc_bind_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -156,7 +156,7 @@
     .line 3
     iget-object v0, p0, Lb37;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2103
+    sget v1, Lcom/resouce/module/ResID;->phone_public_titlebar_content_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setCustomBackOpt(Ljava/lang/Runnable;)V
 
-    const v1, 0x7f122c6b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_my_device:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -186,7 +186,7 @@
     .line 7
     iget-object v0, p0, Lb37;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02e6
+    sget v1, Lcom/resouce/module/ResID;->btn_look_pc_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
     .line 9
     iget-object v0, p0, Lb37;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02e7
+    sget v1, Lcom/resouce/module/ResID;->btn_look_phone_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -230,7 +230,7 @@
     .line 2
     iget-object v0, p0, Lb37;->B:Landroid/view/View;
 
-    const v1, 0x7f0b276b
+    sget v1, Lcom/resouce/module/ResID;->public_wpsdrive_bindmypc_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -302,7 +302,7 @@
 
     const-string v0, "public_clouddocs_mydevice_click"
 
-    const v1, 0x7f0b02e6
+    sget v1, Lcom/resouce/module/ResID;->btn_look_pc_file:I
 
     if-ne p1, v1, :cond_0
 
@@ -335,7 +335,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b02e7
+    sget v1, Lcom/resouce/module/ResID;->btn_look_phone_file:I
 
     if-ne p1, v1, :cond_1
 

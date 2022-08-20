@@ -41,7 +41,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f120f99
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     const/4 v0, 0x0
 
@@ -68,7 +68,7 @@
 
     move-object/from16 v0, p1
 
-    const v1, 0x7f120f99
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     const/4 v2, 0x0
 

@@ -278,12 +278,12 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f120bbd
+    sget v1, Lcom/resouce/module/ResSTRING;->et_paste_merge_cell_warnning:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f120594
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_dialog_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -293,7 +293,7 @@
 
     invoke-direct {v1, p0, p1}, Leo3$j;-><init>(Leo3;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -302,7 +302,7 @@
 
     invoke-direct {p1, p0}, Leo3$a;-><init>(Leo3;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

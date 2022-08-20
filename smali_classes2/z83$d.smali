@@ -63,12 +63,12 @@
 
     invoke-direct {v0, v1, v2}, Ly83;-><init>(Landroid/app/Activity;Ly83$h;)V
 
-    const v1, 0x7f081a11
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_login_guide_star_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Ly83;->j(I)Ly83;
 
-    const v1, 0x7f122453
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_guide_dialog_star_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Ly83;->m(I)Ly83;

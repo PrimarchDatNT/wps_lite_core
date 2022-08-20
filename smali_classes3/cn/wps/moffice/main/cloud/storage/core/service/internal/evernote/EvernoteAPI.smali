@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120324
+    sget v1, Lcom/resouce/module/ResSTRING;->consumer_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120325
+    sget v2, Lcom/resouce/module/ResSTRING;->consumer_secret:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -869,7 +869,7 @@
 
     invoke-direct {v1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;-><init>()V
 
-    const v2, 0x7f122066
+    sget v2, Lcom/resouce/module/ResSTRING;->public_evernote_my_notebook:I
 
     .line 6
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -964,7 +964,7 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f122063
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_business_notebook:I
 
     .line 18
     invoke-virtual {p1, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -1027,7 +1027,7 @@
     invoke-interface {v0, v3}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     :cond_3
-    const v1, 0x7f12206b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_shared_notebook:I
 
     .line 28
     invoke-virtual {p1, v1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
@@ -3310,12 +3310,12 @@
 
     invoke-static {v5, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    const v0, 0x7f122063
+    sget v0, Lcom/resouce/module/ResSTRING;->public_evernote_business_notebook:I
 
     .line 37
     invoke-virtual {v4, v0, v6}, Landroid/util/SparseArray;->append(ILjava/lang/Object;)V
 
-    const v0, 0x7f12206b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_evernote_shared_notebook:I
 
     .line 38
     invoke-virtual {v4, v0, v5}, Landroid/util/SparseArray;->append(ILjava/lang/Object;)V
@@ -6674,7 +6674,7 @@
 
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setCreateTime(Ljava/lang/Long;)V
 
-    const p1, 0x7f0818e2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_evernote_notebook_icon:I
 
     .line 9
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V
@@ -6779,7 +6779,7 @@
 
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setCreateTime(Ljava/lang/Long;)V
 
-    const p1, 0x7f0818e2
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_evernote_notebook_icon:I
 
     .line 9
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V
@@ -6880,7 +6880,7 @@
     .line 10
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setTag(Z)V
 
-    const p1, 0x7f0818e1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_evernote_note_icon:I
 
     .line 11
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V
@@ -6959,7 +6959,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setModifyTime(Ljava/lang/Long;)V
 
-    const v1, 0x7f0818e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_evernote_notebook_icon:I
 
     .line 8
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/cloud/storage/model/CSFileData;->setDrawableIconId(I)V

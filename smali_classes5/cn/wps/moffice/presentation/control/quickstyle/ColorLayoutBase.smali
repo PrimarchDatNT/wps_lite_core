@@ -222,7 +222,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a09
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_two_gridview_distance:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
@@ -259,7 +259,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a03
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_padding_topbottom:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -272,7 +272,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a06
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_spacing_vertical:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -285,7 +285,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a04
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_spacing_horizonl:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -298,7 +298,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a05
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_spacing_horizonl_portrait:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -311,7 +311,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a07
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -347,7 +347,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a08
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_width_portrait:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -395,7 +395,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v1, 0x7f070a06
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_pre_fill_gridview_spacing_vertical:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -406,7 +406,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/ColorLayoutBase;->S:Landroid/content/res/Resources;
 
-    const v2, 0x7f0709f2
+    sget v2, Lcom/resouce/module/ResDIMEN;->ppt_quickstyle_icon_size:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

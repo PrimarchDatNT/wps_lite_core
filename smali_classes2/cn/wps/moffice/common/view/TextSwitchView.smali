@@ -60,12 +60,12 @@
     .line 5
     iput p2, p0, Lcn/wps/moffice/common/view/TextSwitchView;->V:I
 
-    const p2, 0x7f01003e
+    sget p2, Lcom/resouce/module/ResANIM;->fade_bottom_in:I
 
     .line 6
     invoke-virtual {p0, p1, p2}, Landroid/widget/TextSwitcher;->setInAnimation(Landroid/content/Context;I)V
 
-    const p2, 0x7f010041
+    sget p2, Lcom/resouce/module/ResANIM;->fade_top_out:I
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroid/widget/TextSwitcher;->setOutAnimation(Landroid/content/Context;I)V

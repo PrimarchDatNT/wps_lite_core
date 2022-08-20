@@ -288,7 +288,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1554
+    sget v1, Lcom/resouce/module/ResID;->layout_netbanking:I
 
     sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 

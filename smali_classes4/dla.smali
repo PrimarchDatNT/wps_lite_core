@@ -525,7 +525,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -533,7 +533,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v3, 0x7f0707e3
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_fontsize_sp_s:I
 
     int-to-float v3, v3
 
@@ -545,7 +545,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -553,7 +553,7 @@
 
     invoke-virtual {v2, p1}, Landroid/widget/Button;->setTextColor(I)V
 
-    const p1, 0x7f121ddf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_check_have_not_location_in_system:I
 
     .line 7
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -563,7 +563,7 @@
 
     invoke-direct {p1, p0}, Ldla$d;-><init>(Ldla;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

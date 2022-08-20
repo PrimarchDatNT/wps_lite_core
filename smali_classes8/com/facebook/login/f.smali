@@ -48,7 +48,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e009d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->com_facebook_login_fragment:I
 
     return v0
 .end method
@@ -273,7 +273,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b04bf
+    sget p2, Lcom/resouce/module/ResID;->com_facebook_login_fragment_progress_bar:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b04bf
+    sget v1, Lcom/resouce/module/ResID;->com_facebook_login_fragment_progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -127,22 +127,22 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pay/view/PayDialogRadioButton;->a0:Landroid/graphics/Paint;
 
-    const v0, 0x7f0603f3
+    sget v0, Lcom/resouce/module/ResCOLOR;->pay_dialog_text_less:I
 
     .line 3
     iput v0, p0, Lcn/wps/moffice/pay/view/PayDialogRadioButton;->d0:I
 
-    const v0, 0x7f0600b1
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     .line 4
     iput v0, p0, Lcn/wps/moffice/pay/view/PayDialogRadioButton;->e0:I
 
-    const v0, 0x7f0603f2
+    sget v0, Lcom/resouce/module/ResCOLOR;->pay_dialog_radio_disc:I
 
     .line 5
     iput v0, p0, Lcn/wps/moffice/pay/view/PayDialogRadioButton;->f0:I
 
-    const v0, 0x7f0603ef
+    sget v0, Lcom/resouce/module/ResCOLOR;->pay_dialog_button_confirm:I
 
     .line 6
     iput v0, p0, Lcn/wps/moffice/pay/view/PayDialogRadioButton;->g0:I
@@ -382,7 +382,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0603f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->pay_dialog_radio_button_frame:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

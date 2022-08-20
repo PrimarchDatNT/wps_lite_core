@@ -43,7 +43,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e039f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_secret_folder_setting:I
 
     const/4 v2, 0x0
 
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Lwd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b116b
+    sget v1, Lcom/resouce/module/ResID;->home_secret_folder_reset_pswd:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1228bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     return v0
 .end method

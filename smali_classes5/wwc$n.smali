@@ -122,7 +122,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b1e74
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_paint_tool:I
 
     const/4 v3, 0x0
 
@@ -258,7 +258,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const v2, 0x7f0b1e6e
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_backBtn:I
 
     if-ne v1, v2, :cond_6
 
@@ -295,7 +295,7 @@
     goto/16 :goto_1
 
     :cond_6
-    const v2, 0x7f0b1e71
+    sget v2, Lcom/resouce/module/ResID;->pdf_maintoolbar_exitplay:I
 
     if-ne v1, v2, :cond_7
 
@@ -353,7 +353,7 @@
     goto/16 :goto_1
 
     :cond_7
-    const v2, 0x7f0b1f49
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_saveBtn:I
 
     if-ne v1, v2, :cond_c
 
@@ -433,7 +433,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e10d1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_qing_uploading_tip:I
 
     new-instance v2, Landroid/widget/LinearLayout;
 
@@ -584,7 +584,7 @@
     goto/16 :goto_1
 
     :cond_c
-    const v2, 0x7f0b1e1a
+    sget v2, Lcom/resouce/module/ResID;->pdf_image_share:I
 
     if-ne v1, v2, :cond_f
 
@@ -690,7 +690,7 @@
     goto/16 :goto_1
 
     :cond_f
-    const v2, 0x7f0b1f45
+    sget v2, Lcom/resouce/module/ResID;->pdf_titlebar_multi:I
 
     if-ne v1, v2, :cond_11
 
@@ -735,7 +735,7 @@
 
     if-nez v0, :cond_10
 
-    const v0, 0x7f0b1f46
+    sget v0, Lcom/resouce/module/ResID;->pdf_titlebar_multi_btn:I
 
     .line 88
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -775,7 +775,7 @@
     goto/16 :goto_1
 
     :cond_11
-    const p1, 0x7f0b1e72
+    sget p1, Lcom/resouce/module/ResID;->pdf_maintoolbar_file:I
 
     if-ne v1, p1, :cond_13
 
@@ -817,7 +817,7 @@
     goto :goto_1
 
     :cond_13
-    const p1, 0x7f0b1f48
+    sget p1, Lcom/resouce/module/ResID;->pdf_titlebar_redo:I
 
     if-ne v1, p1, :cond_14
 
@@ -862,7 +862,7 @@
     goto :goto_1
 
     :cond_14
-    const p1, 0x7f0b1f4a
+    sget p1, Lcom/resouce/module/ResID;->pdf_titlebar_undo:I
 
     if-ne v1, p1, :cond_15
 

@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e05da
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_ss_backboard_expand_toolbar_view:I
 
     invoke-virtual {p1, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -75,7 +75,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e092f
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_backboard_expand_toolbar_view:I
 
     invoke-virtual {p1, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -93,7 +93,7 @@
 
     invoke-virtual {p0, p1, p2, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;II)V
 
-    const p1, 0x7f0b0905
+    sget p1, Lcom/resouce/module/ResID;->et_backboard_phone:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoradExpandToolBarView;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b08ff
+    sget p1, Lcom/resouce/module/ResID;->et_backboard_email:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -115,7 +115,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/backboard/BackBoradExpandToolBarView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b0903
+    sget p1, Lcom/resouce/module/ResID;->et_backboard_msg:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -97,7 +97,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0811fb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_drag_left:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -123,7 +123,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0811fc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_drag_right:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -155,12 +155,12 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f0811fa
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_drag_divider:I
 
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f0818bc
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_drag_divider:I
 
     :goto_0
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -172,7 +172,7 @@
     .line 13
     iget-object p2, p0, Lcn/wps/moffice/writer/shell/view/RightDividerView;->B:Landroid/graphics/drawable/Drawable;
 
-    const p3, 0x7f0605f1
+    sget p3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, p2, p3}, Lcn/wps/moffice/writer/shell/view/RightDividerView;->k(Landroid/graphics/drawable/Drawable;I)V
 

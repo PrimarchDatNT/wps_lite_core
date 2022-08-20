@@ -18,9 +18,9 @@
 .method public constructor <init>(Landroid/view/View;Lcn/wps/moffice/presentation/control/show/shell/slide/view/EditSlideView;Lcn/wps/show/app/KmoPresentation;Landroid/app/Activity;Landroid/graphics/Rect;)V
     .locals 0
 
-    const p1, 0x7f080370
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_capacity_capacity_format:I
 
-    const p2, 0x7f121a34
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_ai_layout:I
 
     const/4 p3, 0x1
 

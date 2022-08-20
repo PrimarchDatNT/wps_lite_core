@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0737
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_passcode_layout_setting:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b110f
+    sget v1, Lcom/resouce/module/ResID;->home_passcode_turn_off:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b110d
+    sget v1, Lcom/resouce/module/ResID;->home_passcode_change_passcode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
 
     const-string v1, "public"
 
-    const v2, 0x7f0b110f
+    sget v2, Lcom/resouce/module/ResID;->home_passcode_turn_off:I
 
     if-ne p1, v2, :cond_0
 
@@ -151,7 +151,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b110d
+    sget v2, Lcom/resouce/module/ResID;->home_passcode_change_passcode:I
 
     if-ne p1, v2, :cond_1
 

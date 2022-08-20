@@ -40,7 +40,7 @@
 .method public a(I)V
     .locals 3
 
-    const v0, 0x7f120623
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     const/4 v1, 0x1
 
@@ -68,7 +68,7 @@
     :cond_0
     iget-object p1, p0, Lnt7;->a:Landroid/content/Context;
 
-    const v0, 0x7f12148d
+    sget v0, Lcom/resouce/module/ResSTRING;->note_deleted:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -81,7 +81,7 @@
     :cond_1
     iget-object p1, p0, Lnt7;->a:Landroid/content/Context;
 
-    const v0, 0x7f121492
+    sget v0, Lcom/resouce/module/ResSTRING;->note_not_exist:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -91,7 +91,7 @@
     :cond_2
     iget-object p1, p0, Lnt7;->a:Landroid/content/Context;
 
-    const v0, 0x7f121496
+    sget v0, Lcom/resouce/module/ResSTRING;->note_syncing:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 

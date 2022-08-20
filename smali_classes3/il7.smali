@@ -157,7 +157,7 @@
     .line 1
     new-instance v0, Ljl7;
 
-    const v1, 0x7f0b01af
+    sget v1, Lcom/resouce/module/ResID;->avator:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     .line 1
     new-instance v0, Lll7;
 
-    const v1, 0x7f0b24ec
+    sget v1, Lcom/resouce/module/ResID;->preview:I
 
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 1
     new-instance v10, Lml7;
 
-    const v0, 0x7f0b2b5e
+    sget v0, Lcom/resouce/module/ResID;->share_content:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
 .method public final Y2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -398,7 +398,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dc6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_sharefolder_module_preview_layout:I
 
     const/4 v2, 0x0
 

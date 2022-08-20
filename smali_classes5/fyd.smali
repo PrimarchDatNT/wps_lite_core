@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0812
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_set_background_preview_layout:I
 
     const/4 v2, 0x0
 
@@ -311,7 +311,7 @@
 
     iput-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17e9
+    sget v1, Lcom/resouce/module/ResID;->mVPptSetBgLoadingView:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
     .line 3
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17aa
+    sget v1, Lcom/resouce/module/ResID;->mIvPptSetBgPreView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -338,7 +338,7 @@
     .line 4
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17d0
+    sget v1, Lcom/resouce/module/ResID;->mVBgSelectContainer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -351,7 +351,7 @@
     .line 5
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17b3
+    sget v1, Lcom/resouce/module/ResID;->mRvBgList:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -364,7 +364,7 @@
     .line 6
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17ea
+    sget v1, Lcom/resouce/module/ResID;->mVPptSetBgSaveBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
     .line 7
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17cc
+    sget v1, Lcom/resouce/module/ResID;->mTvPptSetBgSaveBtnText:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -388,7 +388,7 @@
     .line 8
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17ec
+    sget v1, Lcom/resouce/module/ResID;->mVPptSetBgSaveBtnDocer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -399,7 +399,7 @@
     .line 9
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17e8
+    sget v1, Lcom/resouce/module/ResID;->mVPptSetBgApplyAll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -410,7 +410,7 @@
     .line 10
     iget-object v0, p0, Lfyd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17a9
+    sget v1, Lcom/resouce/module/ResID;->mIvPptSetBgApplyIcon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -589,7 +589,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1219f5
+    sget v0, Lcom/resouce/module/ResSTRING;->pic_store_insert_bg:I
 
     return v0
 .end method
@@ -779,12 +779,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f121a01
+    sget v1, Lcom/resouce/module/ResSTRING;->pic_store_save_status2all:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f121a00
+    sget v1, Lcom/resouce/module/ResSTRING;->pic_store_save_status:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -927,7 +927,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0138
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_download_dialog:I
 
     const/4 v3, 0x0
 
@@ -936,7 +936,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b079c
+    sget v2, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -947,7 +947,7 @@
 
     iput-object v2, p0, Lfyd;->l0:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v2, 0x7f0b28bc
+    sget v2, Lcom/resouce/module/ResID;->resultView:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -979,7 +979,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1219e5
+    sget v4, Lcom/resouce/module/ResSTRING;->pic_store_bg_loading:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -994,7 +994,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lfyd$d;
 
@@ -1249,7 +1249,7 @@
 
     iget-object v2, p0, Lfyd;->U:Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView;
 
-    const v3, 0x7f0e0455
+    sget v3, Lcom/resouce/module/ResLAYOUT;->layout_insert_bg_header:I
 
     const/4 v4, 0x0
 
@@ -1257,7 +1257,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b22a1
+    sget v2, Lcom/resouce/module/ResID;->ppt_background_pure_color_layout:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1268,7 +1268,7 @@
 
     iput-object v2, p0, Lfyd;->b0:Lcn/wps/moffice/common/v10_colorpicker/SpectrumPalette;
 
-    const v2, 0x7f0b17db
+    sget v2, Lcom/resouce/module/ResID;->mVInsertBgHeaderMore:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne p1, v0, :cond_0
 
@@ -1349,7 +1349,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b17db
+    sget v0, Lcom/resouce/module/ResID;->mVInsertBgHeaderMore:I
 
     const/4 v1, 0x1
 
@@ -1361,7 +1361,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b17ea
+    sget v0, Lcom/resouce/module/ResID;->mVPptSetBgSaveBtn:I
 
     if-ne p1, v0, :cond_2
 
@@ -1371,7 +1371,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b17e8
+    sget v0, Lcom/resouce/module/ResID;->mVPptSetBgApplyAll:I
 
     if-ne p1, v0, :cond_3
 
@@ -1711,12 +1711,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121a01
+    sget v0, Lcom/resouce/module/ResSTRING;->pic_store_save_status2all:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121a00
+    sget v0, Lcom/resouce/module/ResSTRING;->pic_store_save_status:I
 
     .line 2
     :goto_0

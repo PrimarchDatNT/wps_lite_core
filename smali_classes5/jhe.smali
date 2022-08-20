@@ -195,7 +195,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12149a
+    sget v0, Lcom/resouce/module/ResSTRING;->notice_download_failed:I
 
     const/4 v1, 0x0
 
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0138
+    sget v1, Lcom/resouce/module/ResLAYOUT;->documents_download_dialog:I
 
     const/4 v3, 0x0
 
@@ -358,7 +358,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -369,7 +369,7 @@
 
     iput-object v1, p0, Ljhe;->d:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v1, 0x7f0b28bc
+    sget v1, Lcom/resouce/module/ResID;->resultView:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -380,7 +380,7 @@
 
     iput-object v1, p0, Ljhe;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b12f7
+    sget v1, Lcom/resouce/module/ResID;->info_text:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -399,7 +399,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1206af
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_template_title_downloading:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1206b1
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_template_title_open:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Ljhe$b;
 

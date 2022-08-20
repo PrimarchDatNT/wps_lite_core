@@ -55,7 +55,7 @@
     .line 2
     iput-object v0, p0, Lgh6;->a:Ljava/lang/String;
 
-    const v0, 0x7f06019d
+    sget v0, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
     .line 3
     iput v0, p0, Lgh6;->d:I
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0817d0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_96:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Lgh6;->i:Landroid/graphics/drawable/Drawable;
 
-    const v0, 0x7f123176
+    sget v0, Lcom/resouce/module/ResSTRING;->upgrade_member:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081abd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_pdftoolkit_introduc_premium_icon:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -115,7 +115,7 @@
 
     iput-object v0, p0, Lgh6;->i:Landroid/graphics/drawable/Drawable;
 
-    const v0, 0x7f1218ef    # 1.9419675E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips:I    # 1.9419675E38f
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -124,7 +124,7 @@
 
     iput-object v0, p0, Lgh6;->j:Ljava/lang/String;
 
-    const v0, 0x7f121c8e
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -141,7 +141,7 @@
     .line 12
     iput-object v0, p0, Lgh6;->n:[Ljava/lang/String;
 
-    const v0, 0x7f121c01
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_choose_document:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

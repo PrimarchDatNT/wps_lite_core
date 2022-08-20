@@ -62,7 +62,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b261a
+    sget v0, Lcom/resouce/module/ResID;->public_group_invite_btn:I
 
     if-ne p1, v0, :cond_1
 

@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0916
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_scan_long_pic_share_preview_header:I
 
     const/4 v1, 0x0
 
@@ -38,7 +38,7 @@
 
     iput-object p1, p0, Lpya;->d:Landroid/view/View;
 
-    const v0, 0x7f0b2a0f
+    sget v0, Lcom/resouce/module/ResID;->scan_long_pic_share_preview_item_header_img:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -52,7 +52,7 @@
     .line 5
     iget-object p1, p0, Lpya;->d:Landroid/view/View;
 
-    const v0, 0x7f0b2a10
+    sget v0, Lcom/resouce/module/ResID;->scan_long_pic_share_preview_item_header_img_content:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

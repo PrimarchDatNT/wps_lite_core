@@ -199,7 +199,7 @@
     .line 1
     iget-object p2, p0, Lpr4;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e0a33
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phonetic_filelist_item:I
 
     const/4 v0, 0x0
 
@@ -212,7 +212,7 @@
 
     invoke-direct {p3}, Lpr4$d;-><init>()V
 
-    const v0, 0x7f0b21f2
+    sget v0, Lcom/resouce/module/ResID;->phonetic_file:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     iput-object v0, p3, Lpr4$d;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b21f5
+    sget v0, Lcom/resouce/module/ResID;->phonetic_filelist_item_more_layout:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     iput-object v0, p3, Lpr4$d;->c:Landroid/view/View;
 
-    const v0, 0x7f0b21f6
+    sget v0, Lcom/resouce/module/ResID;->phonetic_filelist_item_more_view:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

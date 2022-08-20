@@ -551,7 +551,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e08d8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_screenshot_share_new:I
 
     const/4 v3, 0x0
 
@@ -600,7 +600,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060676
+    sget v6, Lcom/resouce/module/ResCOLOR;->ui_filereceived_choose_shadow:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -619,7 +619,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;->b0:Lk83;
 
-    const v4, 0x7f0b1427
+    sget v4, Lcom/resouce/module/ResID;->iv_close:I
 
     .line 12
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -632,7 +632,7 @@
 
     invoke-virtual {v4, v5}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b1298
+    sget v4, Lcom/resouce/module/ResID;->image_screenshot:I
 
     .line 13
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -641,7 +641,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b0f97
+    sget v5, Lcom/resouce/module/ResID;->gv_share:I
 
     .line 14
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -707,7 +707,7 @@
     .line 22
     invoke-static {v5, v6}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    const v6, 0x7f0b0539
+    sget v6, Lcom/resouce/module/ResID;->content:I
 
     .line 23
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1067,7 +1067,7 @@
     .line 9
     invoke-virtual {v13, v12}, Landroid/widget/PopupWindow;->setFocusable(Z)V
 
-    const v0, 0x7f130026
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_right_in_right_out:I
 
     .line 10
     invoke-virtual {v13, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -1103,7 +1103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08d7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_screenshot_share:I
 
     const/4 v2, 0x0
 
@@ -1115,7 +1115,7 @@
     .line 17
     invoke-virtual {v13, v14}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1298
+    sget v0, Lcom/resouce/module/ResID;->image_screenshot:I
 
     .line 18
     invoke-virtual {v14, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1126,7 +1126,7 @@
 
     check-cast v15, Landroid/widget/ImageView;
 
-    const v0, 0x7f0b02e5
+    sget v0, Lcom/resouce/module/ResID;->btn_long_pic:I
 
     .line 19
     invoke-virtual {v14, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1156,7 +1156,7 @@
     :goto_0
     invoke-virtual {v5, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b02b8
+    sget v0, Lcom/resouce/module/ResID;->btn_advance_share:I
 
     .line 21
     invoke-virtual {v14, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1173,7 +1173,7 @@
     :cond_3
     invoke-virtual {v4, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b02ed
+    sget v0, Lcom/resouce/module/ResID;->btn_no_warn:I
 
     .line 23
     invoke-virtual {v14, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1242,7 +1242,7 @@
     .line 31
     invoke-static {v0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     .line 32
     invoke-virtual {v14, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1598,7 +1598,7 @@
     return-void
 
     :cond_1
-    const v0, 0x7f0b1298
+    sget v0, Lcom/resouce/module/ResID;->image_screenshot:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2063,7 +2063,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121e1f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2106,7 +2106,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122965
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2211,7 +2211,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122bcb
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

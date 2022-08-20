@@ -49,7 +49,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06005e
+    sget v0, Lcom/resouce/module/ResCOLOR;->buttonSecondaryDisableColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -57,17 +57,17 @@
 
     iput p1, p0, Lfv4;->U:I
 
-    const p1, 0x7f1224d5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_modify_print_number:I
 
     .line 5
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p1, 0x7f0e049e
+    sget p1, Lcom/resouce/module/ResLAYOUT;->modify_print_number_dialog:I
 
     .line 6
     invoke-virtual {p0, p1}, Lhd3;->setView(I)Lhd3;
 
-    const p1, 0x7f0b1403
+    sget p1, Lcom/resouce/module/ResID;->iv_add:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object p1, p0, Lfv4;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1493
+    sget p1, Lcom/resouce/module/ResID;->iv_minus:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const p1, 0x7f0b0ac6
+    sget p1, Lcom/resouce/module/ResID;->et_number:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

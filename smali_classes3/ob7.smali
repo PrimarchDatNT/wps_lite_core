@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02fe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_drive_item_multi_scene_entry:I
 
     const/4 v2, 0x0
 
@@ -183,7 +183,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b10a3
+    sget p2, Lcom/resouce/module/ResID;->home_multi_entry_list_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

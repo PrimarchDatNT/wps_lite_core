@@ -386,7 +386,7 @@
     :goto_0
     iget-object p1, p0, Lkpl;->V:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f122893
+    sget v0, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

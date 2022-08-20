@@ -297,7 +297,7 @@
     .line 2
     iget-object p2, p0, Lgza;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e019b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_scan_extract_pages_thumb_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -309,7 +309,7 @@
     :cond_0
     iget-object p2, p0, Lgza;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0ef4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->scan_extract_pages_thumb_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

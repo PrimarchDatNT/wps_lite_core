@@ -82,7 +82,7 @@
     :pswitch_1
     iget-object p1, p0, Lq1e$b;->a:Lq1e;
 
-    const v0, 0x7f12234a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_iat_record_fail:I
 
     invoke-static {p1, v0}, Lq1e;->f(Lq1e;I)V
 

@@ -119,7 +119,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0408
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_delete_other_cloud_files_select:I
 
     const/4 v1, 0x0
 
@@ -138,7 +138,7 @@
 
     iput-object p3, p0, Lmra$b;->I:Lmra$c;
 
-    const v0, 0x7f0b0ce6
+    sget v0, Lcom/resouce/module/ResID;->file_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

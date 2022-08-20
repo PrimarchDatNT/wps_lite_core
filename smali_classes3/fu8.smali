@@ -43,7 +43,7 @@
 
     sput-boolean v0, Lfu8;->c:Z
 
-    const v0, 0x7f0809cd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_assistant:I
 
     .line 3
     sput v0, Lfu8;->d:I
@@ -693,7 +693,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201cb
+    sget v1, Lcom/resouce/module/ResSTRING;->as_shortcut_name:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

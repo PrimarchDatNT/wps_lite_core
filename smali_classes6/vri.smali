@@ -76,7 +76,7 @@
     .line 1
     iget-object v0, p0, Lvri;->V:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -85,7 +85,7 @@
 
     iget-object v2, p0, Lvri;->V:Lcn/wps/moffice/writer/Writer;
 
-    const v3, 0x7f122065
+    sget v3, Lcom/resouce/module/ResSTRING;->public_evernote_insert_note_loading:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0819a0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_unmute:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -74,7 +74,7 @@
 .method public e(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f1211ba
+    sget v0, Lcom/resouce/module/ResSTRING;->home_unmute:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -92,7 +92,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081996
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon_mute:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -104,7 +104,7 @@
 .method public g(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f120ff2
+    sget v0, Lcom/resouce/module/ResSTRING;->home_mute:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -192,21 +192,21 @@
 
     move-result-object p1
 
-    const v0, 0x7f07033e
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_mute_countdown_width:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    const v1, 0x7f07033b
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_mute_countdown_height:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v1
 
-    const v3, 0x7f07033c
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_mute_countdown_radius:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -238,7 +238,7 @@
 
     invoke-virtual {v6, v2}, Landroid/text/TextPaint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    const v2, 0x7f0601f3
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_mute_countdown_bg_color:I
 
     .line 14
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -267,7 +267,7 @@
     .line 16
     invoke-virtual {v6, v2}, Landroid/text/TextPaint;->setColor(I)V
 
-    const v2, 0x7f07033d
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_mute_countdown_textsize:I
 
     .line 17
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

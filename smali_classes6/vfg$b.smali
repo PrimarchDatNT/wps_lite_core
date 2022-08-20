@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12259d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_file_failed:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

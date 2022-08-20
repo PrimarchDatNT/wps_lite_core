@@ -206,7 +206,7 @@
     :cond_1
     invoke-interface {p2, v1}, Lvkc$a;->a(Z)V
 
-    const p2, 0x7f1217a1
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_toast_not_network:I
 
     .line 6
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

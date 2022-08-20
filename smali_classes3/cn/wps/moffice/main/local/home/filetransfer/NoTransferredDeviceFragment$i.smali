@@ -63,7 +63,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/local/home/filetransfer/NoTransferredDeviceFragment;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1218c1
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_promote_send_email_failed:I
 
     const/4 v2, 0x0
 

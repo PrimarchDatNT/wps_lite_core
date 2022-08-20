@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07b9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_home_tool_page:I
 
     const/4 v2, 0x0
 
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/pdfhome/page/PDFToolPage$a;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2001
+    sget v1, Lcom/resouce/module/ResID;->phone_home_main_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/pdfhome/page/PDFToolPage$a;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1fe7
+    sget v2, Lcom/resouce/module/ResID;->phone_home_activity_titlebar_wrap:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

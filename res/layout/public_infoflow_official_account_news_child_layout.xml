@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:textColor="@color/child_news_title_color" android:ellipsize="end" android:id="@id/child_news_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="textStart" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/child_news_content_color" android:ellipsize="end" android:id="@id/child_news_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" android:layout_below="@id/child_news_title" android:textAlignment="textStart" />
-    <TextView android:textSize="10.0sp" android:textColor="@color/child_news_tag_color" android:id="@id/child_news_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.329987dip" android:maxLines="1" android:layout_below="@id/child_news_title" />
-    <TextView android:textSize="10.0sp" android:textColor="@color/child_news_tag_color" android:id="@id/child_news_reading_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.329987dip" android:maxLines="1" android:drawablePadding="2.6299744dip" android:layout_below="@id/child_news_title" android:layout_alignParentRight="true" android:drawableStart="@drawable/official_account_news_read_count" android:layout_alignParentEnd="true" />
-    <View android:id="@id/news_divider" android:background="@color/color_news_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="14.0dip" android:layout_below="@id/child_news_reading_count" />
-</merge>

@@ -159,7 +159,7 @@
     .line 2
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12044f
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -202,7 +202,7 @@
     .line 6
     iget-object v0, p0, Liza;->a:Landroid/app/Activity;
 
-    const v3, 0x7f1204b5
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     const/4 v4, 0x1
 

@@ -62,7 +62,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f070a7e
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_amazon_leftmenu_item_padding_left:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -75,7 +75,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070a7f
+    sget p2, Lcom/resouce/module/ResDIMEN;->public_amazon_leftmenu_item_textsize:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -251,14 +251,14 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0b10
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_amazon_leftmenu_row_category:I
 
     invoke-virtual {p1, p2, p3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
     :cond_0
-    const p1, 0x7f0b15a3
+    sget p1, Lcom/resouce/module/ResID;->leftmenu_row_category_title:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     move-result-object p2
 
-    const v3, 0x7f0e0b11
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_amazon_leftmenu_row_item:I
 
     invoke-virtual {p2, v3, p3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -325,7 +325,7 @@
     .line 9
     iput-object p2, p3, Ljb4$b;->a:Landroid/view/View;
 
-    const v3, 0x7f0b15a1
+    sget v3, Lcom/resouce/module/ResID;->leftmenu_item_textview:I
 
     .line 10
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -339,7 +339,7 @@
     .line 11
     iget-object p3, p0, Ljb4;->U:Ljb4$b;
 
-    const v3, 0x7f0b15a0
+    sget v3, Lcom/resouce/module/ResID;->leftmenu_item_progressbar:I
 
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -350,7 +350,7 @@
     .line 12
     iget-object p3, p0, Ljb4;->U:Ljb4$b;
 
-    const v3, 0x7f0b159f
+    sget v3, Lcom/resouce/module/ResID;->leftmenu_item_gap:I
 
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -454,7 +454,7 @@
 
     if-ne p3, v0, :cond_5
 
-    const p3, 0x7f1229f7
+    sget p3, Lcom/resouce/module/ResSTRING;->public_show_more:I
 
     .line 26
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
@@ -467,7 +467,7 @@
 
     if-ne p3, v0, :cond_6
 
-    const p3, 0x7f1229f6
+    sget p3, Lcom/resouce/module/ResSTRING;->public_show_less:I
 
     .line 28
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
@@ -487,7 +487,7 @@
 
     invoke-virtual {p3, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const p3, 0x7f1206bb
+    sget p3, Lcom/resouce/module/ResSTRING;->documentmanager_tips_refreshing:I
 
     .line 31
     invoke-virtual {p1, p3}, Landroid/widget/TextView;->setText(I)V
@@ -539,7 +539,7 @@
 
     iget-object p1, p1, Ljb4$b;->a:Landroid/view/View;
 
-    const p3, 0x7f081813    # 1.809E38f
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_amazon_leftmenu_list_selector_bg_pressed:I    # 1.809E38f
 
     invoke-virtual {p1, p3}, Landroid/view/View;->setBackgroundResource(I)V
 

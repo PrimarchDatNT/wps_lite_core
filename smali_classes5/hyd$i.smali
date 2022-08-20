@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {v0, v1, p1}, Lbih;->n(Landroid/content/Context;II)V
 

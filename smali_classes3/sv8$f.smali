@@ -639,14 +639,14 @@
 
     move-result p1
 
-    const v0, 0x7f121dd8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_checkPasswdFaild:I
 
     if-eq p1, v1, :cond_2
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f120edb
+    sget v0, Lcom/resouce/module/ResSTRING;->home_compressfile_unsupported_password:I
 
     .line 7
     :goto_0
@@ -732,7 +732,7 @@
 
     invoke-direct {v2, p0}, Lsv8$f$a;-><init>(Lsv8$f;)V
 
-    const v3, 0x7f120ed9
+    sget v3, Lcom/resouce/module/ResSTRING;->home_compressfile_extracting:I
 
     const/4 v4, 0x1
 

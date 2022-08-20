@@ -38,7 +38,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1207be
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_frame_style_none:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c80
+    sget v1, Lcom/resouce/module/ResDIMEN;->ss_cellsetting_content_divider_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -115,7 +115,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025f
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

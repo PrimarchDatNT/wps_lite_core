@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lpc4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121158
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_cloud_no_space_left_supervip:I
 
     const/4 v2, 0x1
 

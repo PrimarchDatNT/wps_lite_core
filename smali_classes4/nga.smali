@@ -126,7 +126,7 @@
     :cond_0
     invoke-virtual {p0}, Lnga;->f()V
 
-    const v0, 0x7f0b0539
+    sget v0, Lcom/resouce/module/ResID;->content:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     invoke-virtual {v1, v0}, Landroidx/viewpager/widget/ViewPager;->setAdapter(Lzh;)V
 
-    const v0, 0x7f0b223f
+    sget v0, Lcom/resouce/module/ResID;->pinned_head:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1205d1
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_liveSpace_setupFromLocal:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

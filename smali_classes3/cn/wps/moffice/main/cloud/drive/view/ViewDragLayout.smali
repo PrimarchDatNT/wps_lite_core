@@ -391,7 +391,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/cloud/drive/view/ViewDragLayout;->I:Landroid/view/View;
 
-    const v2, 0x7f0b25bf
+    sget v2, Lcom/resouce/module/ResID;->public_docinfo_top_root_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -870,7 +870,7 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/main/cloud/drive/view/ViewDragLayout;->I:Landroid/view/View;
 
-    const v0, 0x7f0818b8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V

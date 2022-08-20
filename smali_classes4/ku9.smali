@@ -142,7 +142,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122b81
+    sget v0, Lcom/resouce/module/ResSTRING;->public_use:I
 
     return v0
 .end method

@@ -109,7 +109,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$j;->b:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v2, 0x7f1220f6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_download:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     invoke-direct {v2, p0, v1}, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$j$a;-><init>(Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$j;Lt7b;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v3, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

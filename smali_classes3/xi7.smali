@@ -594,7 +594,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b3026
+    sget v1, Lcom/resouce/module/ResID;->titlebar_func_icon:I
 
     if-eqz p1, :cond_2
 
@@ -612,11 +612,11 @@
     :try_start_0
     iget-object v0, p0, Lxi7;->a:Lvi7;
 
-    const v1, 0x7f0b3026
+    sget v1, Lcom/resouce/module/ResID;->titlebar_func_icon:I
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0816fa
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_announcement:I
 
     const/4 v4, 0x0
 

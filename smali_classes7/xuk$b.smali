@@ -454,7 +454,7 @@
 
     iget-object p1, p1, Lxuk;->a:Lcn/wps/moffice/writer/Writer;
 
-    const v0, 0x7f12343f
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_vertical_text_not_supported:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

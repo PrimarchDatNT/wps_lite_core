@@ -94,12 +94,12 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f1217d4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_modify_success:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1217d3
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_encryption_modify_failure:I
 
     :goto_0
     const/4 v3, 0x0

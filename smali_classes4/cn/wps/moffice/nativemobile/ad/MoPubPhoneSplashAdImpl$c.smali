@@ -29,7 +29,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0922
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_splash_huawei_splash_ad:I
 
     return v0
 .end method

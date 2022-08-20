@@ -126,7 +126,7 @@
 
     iget-object p1, p1, Llf4;->b0:Landroid/app/Activity;
 
-    const p2, 0x7f1206b8
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_permission_denied:I
 
     const/4 v0, 0x0
 

@@ -525,7 +525,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b0f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_amazon_leftmenu:I
 
     const/4 v2, 0x0
 
@@ -535,7 +535,7 @@
 
     iput-object v0, p0, Lib4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b15a2
+    sget v1, Lcom/resouce/module/ResID;->leftmenu_list:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -549,7 +549,7 @@
     .line 4
     iget-object v0, p0, Lib4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b159e
+    sget v1, Lcom/resouce/module/ResID;->leftmenu_empty_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -560,7 +560,7 @@
     .line 5
     iget-object v0, p0, Lib4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b159d
+    sget v1, Lcom/resouce/module/ResID;->leftmenu_empty_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -84,7 +84,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/beans/menudrawer/MenuDrawer;->g0:Lcn/wps/moffice/common/beans/menudrawer/BuildLayerFrameLayout;
 
-    const v1, 0x7f0b1588
+    sget v1, Lcom/resouce/module/ResID;->left:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

@@ -45,7 +45,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b039b
+    sget v1, Lcom/resouce/module/ResID;->chart_style_layout:I
 
     if-ne p1, v1, :cond_1
 
@@ -97,7 +97,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b0396
+    sget v1, Lcom/resouce/module/ResID;->chart_quick_layout:I
 
     if-ne p1, v1, :cond_3
 
@@ -149,7 +149,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b039d
+    sget v0, Lcom/resouce/module/ResID;->chart_type_layout:I
 
     if-ne p1, v0, :cond_4
 
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b061b
+    sget v0, Lcom/resouce/module/ResID;->data_source_layout:I
 
     if-ne p1, v0, :cond_5
 

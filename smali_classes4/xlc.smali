@@ -396,7 +396,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0638
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_extract_pages_layout:I
 
     const/4 v2, 0x0
 
@@ -430,7 +430,7 @@
     .line 5
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1e02
+    sget v2, Lcom/resouce/module/ResID;->pdf_extract_pages_title_bar:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -447,7 +447,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f1217ec
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_extract:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -493,7 +493,7 @@
     .line 12
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v4, 0x7f0b1dfd
+    sget v4, Lcom/resouce/module/ResID;->pdf_extract_pages_btn:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -504,7 +504,7 @@
     .line 13
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v4, 0x7f0b0c55
+    sget v4, Lcom/resouce/module/ResID;->extract_vip_icon:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -515,7 +515,7 @@
     .line 14
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v4, 0x7f0b0c43
+    sget v4, Lcom/resouce/module/ResID;->extract_btn_text:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -535,7 +535,7 @@
     .line 16
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v4, 0x7f0b024c
+    sget v4, Lcom/resouce/module/ResID;->bottom_btn_layout:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -557,7 +557,7 @@
     .line 18
     iget-object v0, p0, Lxlc;->I:Landroid/view/View;
 
-    const v4, 0x7f0b1dff
+    sget v4, Lcom/resouce/module/ResID;->pdf_extract_pages_grid_view:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f1220bc
+    sget p1, Lcom/resouce/module/ResSTRING;->public_extract_count:I
 
     invoke-virtual {v0, p1, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -1048,7 +1048,7 @@
 
     iget-object v1, p0, Lxlc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1066,7 +1066,7 @@
 
     iget-object v1, p0, Lxlc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

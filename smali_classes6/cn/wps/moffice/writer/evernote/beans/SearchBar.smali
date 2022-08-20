@@ -134,12 +134,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e1096
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_evernote_search_bar:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e09d2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_evernote_search_bar:I
 
     .line 2
     :goto_0
@@ -156,7 +156,7 @@
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setClickable(Z)V
 
-    const v0, 0x7f0b2a87
+    sget v0, Lcom/resouce/module/ResID;->search_input_clean:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v0, 0x7f0b2a6e
+    sget v0, Lcom/resouce/module/ResID;->search_dosearch:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setEnabled(Z)V
 
-    const v0, 0x7f0b2a86
+    sget v0, Lcom/resouce/module/ResID;->search_input:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

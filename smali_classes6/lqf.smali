@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0980
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_newline_tips:I
 
     const/4 v2, 0x0
 
@@ -110,7 +110,7 @@
     .line 3
     iget-object p1, v1, Lpqf;->l0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f08140d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_newline_bg_selector:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0981
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_newline_tips_l:I
 
     const/4 v2, 0x0
 

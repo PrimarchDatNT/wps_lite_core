@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070327
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070325
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -94,7 +94,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0703a2
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -109,7 +109,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070326
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_docer_template_subject_shrink_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -219,7 +219,7 @@
 
     iget-object v0, p0, Lme6;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0e0f8f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->subject_view:I
 
     const/4 v2, 0x0
 
@@ -227,7 +227,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b2dd0    # 1.8500056E38f
+    sget v0, Lcom/resouce/module/ResID;->subject_icon:I    # 1.8500056E38f
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0703a3
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -276,13 +276,13 @@
 
     move-result-object p2
 
-    const v1, 0x7f060627
+    sget v1, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p2
 
-    const v1, 0x7f081e8b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     invoke-virtual {p1, v1, p2}, Lf54;->i(II)Lf54;
 
@@ -637,7 +637,7 @@
 .method public final o(Landroid/view/View;ZI)V
     .locals 6
 
-    const v0, 0x7f0b2dd0    # 1.8500056E38f
+    sget v0, Lcom/resouce/module/ResID;->subject_icon:I    # 1.8500056E38f
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

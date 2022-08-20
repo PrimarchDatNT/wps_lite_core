@@ -140,7 +140,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0150
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_country_reigon_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -151,7 +151,7 @@
 
     invoke-direct {p3, p0}, Leg8$b;-><init>(Leg8;)V
 
-    const v1, 0x7f0b0593
+    sget v1, Lcom/resouce/module/ResID;->country_region_tv:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
 
     iput-object v1, p3, Leg8$b;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1743
+    sget v1, Lcom/resouce/module/ResID;->location_iv:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b03d2
+    sget v1, Lcom/resouce/module/ResID;->checked_rb:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -340,7 +340,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081862
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_circle_color_selected_black:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -356,7 +356,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081863
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_circle_color_selected_write:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

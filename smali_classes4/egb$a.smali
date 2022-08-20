@@ -59,7 +59,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2856
+    sget v0, Lcom/resouce/module/ResID;->rectangle2_logout:I
 
     if-ne p1, v0, :cond_3
 

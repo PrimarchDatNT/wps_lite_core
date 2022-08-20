@@ -194,12 +194,12 @@
 
     if-lt v0, v1, :cond_0
 
-    const v0, 0x7f081a5d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 2
     :goto_0
@@ -412,7 +412,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121d3f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name_beta:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -426,7 +426,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121d3e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -430,7 +430,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0a14
+    sget p2, Lcom/resouce/module/ResID;->et_edit_edittext:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2940,7 +2940,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0a14
+    sget p2, Lcom/resouce/module/ResID;->et_edit_edittext:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

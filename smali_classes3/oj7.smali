@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03de
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_notification_layout:I
 
     const/4 v2, 0x0
 

@@ -45,7 +45,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1201cb
+    sget v2, Lcom/resouce/module/ResSTRING;->as_shortcut_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

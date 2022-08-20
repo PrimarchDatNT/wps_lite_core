@@ -358,7 +358,7 @@
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setGravity(I)V
 
-    const v0, 0x7f120233
+    sget v0, Lcom/resouce/module/ResSTRING;->btn_line_login:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060655
+    sget v1, Lcom/resouce/module/ResCOLOR;->text_login_btn:I
 
     invoke-static {v0, v1}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -376,7 +376,7 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0800e0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->background_login_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroidx/appcompat/widget/AppCompatTextView;->setBackgroundResource(I)V

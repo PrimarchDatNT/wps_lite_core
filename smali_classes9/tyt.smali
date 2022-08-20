@@ -1781,7 +1781,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f020003
+    sget v1, Lcom/resouce/module/ResANIMATOR;->design_fab_hide_motion_spec:I
 
     invoke-static {v0, v1}, Lext;->d(Landroid/content/Context;I)Lext;
 
@@ -1816,7 +1816,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f020004
+    sget v1, Lcom/resouce/module/ResANIMATOR;->design_fab_show_motion_spec:I
 
     invoke-static {v0, v1}, Lext;->d(Landroid/content/Context;I)Lext;
 

@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081f65
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_textimageview_ppt_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081604
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080417
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_width_1:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

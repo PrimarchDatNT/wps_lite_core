@@ -64,7 +64,7 @@
 .method public B1()V
     .locals 3
 
-    const v0, 0x7f0b26c1
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_exit_play:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b26c4
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_laserpen:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b26c6
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_switch_doc:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b26be
+    sget v0, Lcom/resouce/module/ResID;->public_playtitlebar_agora_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -180,7 +180,7 @@
     .line 2
     iget-object v0, p0, Lbyl;->d0:Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;
 
-    const v1, 0x7f121c26
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_leave_play:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;->setExitButtonToTextMode(I)V
 
@@ -437,7 +437,7 @@
     .line 2
     iget-object v0, p0, Lbyl;->d0:Lcn/wps/moffice/common/shareplay/playtitlebar/TvMeetingBarPublic;
 
-    const v1, 0x7f0b26bf
+    sget v1, Lcom/resouce/module/ResID;->public_playtitlebar_agora_play:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

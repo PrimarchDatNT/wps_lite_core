@@ -24,7 +24,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12305a
+    sget v1, Lcom/resouce/module/ResSTRING;->taskcenter_access_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12305b
+    sget v1, Lcom/resouce/module/ResSTRING;->taskcenter_secret_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230cf
+    sget v1, Lcom/resouce/module/ResSTRING;->tmc_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

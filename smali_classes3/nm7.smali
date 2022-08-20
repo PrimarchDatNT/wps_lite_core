@@ -40,7 +40,7 @@
 .method public G5()I
     .locals 1
 
-    const v0, 0x7f121946
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_tab_setting:I
 
     return v0
 .end method

@@ -529,7 +529,7 @@
     .line 1
     iget-object v0, p0, Lu8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122824
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saveDocumentLackOfStorageError:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -560,7 +560,7 @@
     .line 2
     iget-object p1, p0, Lu8e;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12257d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -604,7 +604,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122581
+    sget p1, Lcom/resouce/module/ResSTRING;->public_online_security_server_error:I
 
     .line 7
     iget-object v0, p0, Lu8e;->a:Landroid/app/Activity;
@@ -667,7 +667,7 @@
     .line 5
     iget-object v0, p0, Lu8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121f89
+    sget v1, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_save_file_failed:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

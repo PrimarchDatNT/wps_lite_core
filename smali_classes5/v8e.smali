@@ -119,7 +119,7 @@
 
     move-result v2
 
-    const v3, 0x7f12281f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v1, p0, v2, v3}, Lv8e$u;-><init>(Lv8e;II)V
 
@@ -132,7 +132,7 @@
 
     move-result v2
 
-    const v3, 0x7f122820
+    sget v3, Lcom/resouce/module/ResSTRING;->public_saveAs:I
 
     invoke-direct {v1, p0, v2, v3}, Lv8e$x;-><init>(Lv8e;II)V
 
@@ -145,7 +145,7 @@
 
     move-result v2
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-direct {v1, p0, v2, v3}, Lv8e$y;-><init>(Lv8e;II)V
 
@@ -158,7 +158,7 @@
 
     move-result v2
 
-    const v3, 0x7f1220b2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt:I
 
     invoke-direct {v1, p0, v2, v3}, Lv8e$z;-><init>(Lv8e;II)V
 
@@ -167,9 +167,9 @@
     .line 12
     new-instance v1, Lv8e$a0;
 
-    const v2, 0x7f0803db
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_share_save_as:I
 
-    const v3, 0x7f122822
+    sget v3, Lcom/resouce/module/ResSTRING;->public_saveAs_pic:I
 
     invoke-direct {v1, p0, v2, v3}, Lv8e$a0;-><init>(Lv8e;II)V
 
@@ -625,7 +625,7 @@
     .line 9
     iget-object p1, p0, Lv8e;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1220a6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     const/4 v0, 0x1
 
@@ -693,12 +693,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0803db
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_share_save_as:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080da7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_save_as_ppt:I
 
     :goto_0
     return v0
@@ -712,12 +712,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080314
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_pdf:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080cda
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pdf_pdf:I
 
     :goto_0
     return v0
@@ -726,7 +726,7 @@
 .method public final H()I
     .locals 1
 
-    const v0, 0x7f0802f0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_output_ppt:I
 
     return v0
 .end method
@@ -747,12 +747,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080244
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_save:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080bf8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_save_ppt:I
 
     :goto_0
     return v0
@@ -2537,7 +2537,7 @@
     .line 2
     iget-object p1, p0, Lv8e;->B:Landroid/app/Activity;
 
-    const p2, 0x7f122094
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_mp4_exit_tips:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

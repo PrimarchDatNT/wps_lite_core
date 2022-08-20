@@ -1630,12 +1630,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f07079f
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_default_text_size:I
 
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f070c16
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_text_size_dip:I
 
     :goto_0
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1692,12 +1692,12 @@
 
     if-eqz p1, :cond_6
 
-    const p1, 0x7f121999
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     goto :goto_2
 
     :cond_6
-    const p1, 0x7f12199a
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     :goto_2
     invoke-virtual {v0, p1}, Landroid/widget/Toast;->setText(I)V

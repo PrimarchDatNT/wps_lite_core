@@ -55,7 +55,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f082011
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->wps_reader_light_day:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f082012
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->wps_reader_light_night:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

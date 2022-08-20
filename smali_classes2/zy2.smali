@@ -107,7 +107,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0aff
+    sget v0, Lcom/resouce/module/ResLAYOUT;->progress_auto_unlock:I
 
     const/4 v1, 0x0
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2bef
+    sget v0, Lcom/resouce/module/ResID;->showText:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b171e
+    sget v0, Lcom/resouce/module/ResID;->loadingView:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

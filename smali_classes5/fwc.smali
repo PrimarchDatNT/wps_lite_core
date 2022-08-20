@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -410,7 +410,7 @@
     .line 2
     iget-object p1, p0, Lfwc;->S:Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e07db
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_thumbnail_item:I
 
     const/4 v1, 0x0
 
@@ -437,7 +437,7 @@
     const/4 p1, -0x1
 
     :goto_1
-    const v1, 0x7f0b1f3e
+    sget v1, Lcom/resouce/module/ResID;->pdf_thumbnail_item_preview:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

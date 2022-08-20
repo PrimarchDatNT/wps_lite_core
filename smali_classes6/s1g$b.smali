@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Ls1g$b;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f081205
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

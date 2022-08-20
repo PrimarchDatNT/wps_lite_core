@@ -42,7 +42,7 @@
 
     move-result p1
 
-    const v0, 0x7f121769
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     if-ne p1, v0, :cond_0
 
@@ -58,7 +58,7 @@
 
     move-result p1
 
-    const v0, 0x7f122bca
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     if-ne p1, v0, :cond_1
 
@@ -74,7 +74,7 @@
 
     move-result p1
 
-    const v0, 0x7f1217f2
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_extract_title:I
 
     if-ne p1, v0, :cond_2
 

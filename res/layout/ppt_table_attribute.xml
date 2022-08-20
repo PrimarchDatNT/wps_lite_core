@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_table_attribute_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
-    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/public_subwin_maintoolbar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ppt_maintoolbar_height">
-        <TextView android:textColor="@drawable/color_black" android:gravity="center" android:id="@id/ppt_table_attribute_style_tab" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/public_table_style" />
-    </RelativeLayout>
-    <include android:id="@id/ppt_table_content_anchor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ppt_table_attribute_toolbar" layout="@layout/ppt_table_attribute_content" />
-</RelativeLayout>

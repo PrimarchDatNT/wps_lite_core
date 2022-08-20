@@ -60,7 +60,7 @@
     .line 2
     sget-object v1, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->B:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v2, 0x7f080f22
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_word:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -73,7 +73,7 @@
 
     sget-object v1, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->I:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v2, 0x7f080f23
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_xls:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -86,7 +86,7 @@
 
     sget-object v1, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->S:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v2, 0x7f080f1d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_ppt:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -99,7 +99,7 @@
 
     sget-object v1, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->U:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v2, 0x7f080f1c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_pdf:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -112,7 +112,7 @@
 
     sget-object v1, Lcn/wps/moffice/common/multi/bean/LabelRecord$b;->V:Lcn/wps/moffice/common/multi/bean/LabelRecord$b;
 
-    const v2, 0x7f080f1a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_file_ofd:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -144,7 +144,7 @@
 
     iput-object p1, p0, Lkk4;->I:Landroid/view/LayoutInflater;
 
-    const p1, 0x7f0e05bb
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_public_multi_doc_droplist_item:I
 
     .line 5
     iput p1, p0, Lkk4;->T:I
@@ -220,7 +220,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f121c32
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_running:I
 
     invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -412,7 +412,7 @@
 
     iput-object p3, p0, Lkk4;->U:Lkk4$d;
 
-    const v0, 0x7f0b1c05
+    sget v0, Lcom/resouce/module/ResID;->pad_multi_doc_list_item:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -424,7 +424,7 @@
     .line 4
     iget-object p3, p0, Lkk4;->U:Lkk4$d;
 
-    const v0, 0x7f0b13c5
+    sget v0, Lcom/resouce/module/ResID;->item_icon:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -437,7 +437,7 @@
     .line 5
     iget-object p3, p0, Lkk4;->U:Lkk4$d;
 
-    const v0, 0x7f0b13d2
+    sget v0, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -450,7 +450,7 @@
     .line 6
     iget-object p3, p0, Lkk4;->U:Lkk4$d;
 
-    const v0, 0x7f0b13a9
+    sget v0, Lcom/resouce/module/ResID;->item_close:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
 
     iget-object v1, v1, Lkk4$d;->b:Landroid/widget/ImageView;
 
-    const v2, 0x7f081292    # 1.8087143E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_shareplay:I    # 1.8087143E38f
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -584,7 +584,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060071
+    sget v0, Lcom/resouce/module/ResCOLOR;->cellSelectedColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -617,7 +617,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0600df
+    sget v0, Lcom/resouce/module/ResCOLOR;->componentToolbarBackgroundColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 

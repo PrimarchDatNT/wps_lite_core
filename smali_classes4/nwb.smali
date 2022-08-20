@@ -427,7 +427,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     const/4 v1, 0x0
 
@@ -1417,7 +1417,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f3e
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_user_in_black_list:I
 
     const/4 v1, 0x1
 

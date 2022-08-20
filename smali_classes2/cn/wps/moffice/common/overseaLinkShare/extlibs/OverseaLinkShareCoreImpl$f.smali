@@ -332,7 +332,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/overseaLinkShare/extlibs/OverseaLinkShareCoreImpl;->g:Landroid/app/Activity;
 
-    const v0, 0x7f120e68
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

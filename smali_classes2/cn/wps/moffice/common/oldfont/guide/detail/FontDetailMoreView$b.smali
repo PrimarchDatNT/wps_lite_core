@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213e5
+    sget v1, Lcom/resouce/module/ResSTRING;->missing_font_detail_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -312,7 +312,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e026a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->font_func_missing_detail_item:I
 
     const/4 v1, 0x0
 

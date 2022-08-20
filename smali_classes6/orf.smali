@@ -46,7 +46,7 @@
     .line 4
     iput-object p2, p0, Lorf;->c:Lk2m;
 
-    const p4, 0x7f0b27c4
+    sget p4, Lcom/resouce/module/ResID;->range_contain_rule_title:I
 
     .line 5
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object p4, p0, Lorf;->d:Landroid/widget/TextView;
 
-    const p4, 0x7f0b00b7
+    sget p4, Lcom/resouce/module/ResID;->add_rule:I
 
     .line 6
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     invoke-virtual {p4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p4, 0x7f0b180d
+    sget p4, Lcom/resouce/module/ResID;->manage_range_rule_container:I
 
     .line 8
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -236,12 +236,12 @@
 
     if-lez p1, :cond_0
 
-    const p1, 0x7f1207dc
+    sget p1, Lcom/resouce/module/ResSTRING;->et_condition_range_contains_rule:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1207db
+    sget p1, Lcom/resouce/module/ResSTRING;->et_condition_range_contains_no_rule:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

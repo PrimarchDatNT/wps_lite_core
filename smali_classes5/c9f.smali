@@ -254,7 +254,7 @@
     :cond_1
     iget-object v0, v8, Lc9f;->b:Landroid/app/Activity;
 
-    const v1, 0x7f122bd3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_share_dialog_tip:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

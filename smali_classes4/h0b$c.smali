@@ -53,11 +53,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b16e5
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing:I
 
     const-string v1, "k2ym_scan_cloud_wait"
 
-    const v2, 0x7f122840
+    sget v2, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     const/4 v3, 0x0
 
@@ -124,7 +124,7 @@
     goto/16 :goto_3
 
     :cond_3
-    const v0, 0x7f0b163d
+    sget v0, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     if-ne p1, v0, :cond_4
 
@@ -138,7 +138,7 @@
     goto/16 :goto_3
 
     :cond_4
-    const v0, 0x7f0b1652
+    sget v0, Lcom/resouce/module/ResID;->ll_delete:I
 
     const-string v4, "url"
 
@@ -205,7 +205,7 @@
     goto/16 :goto_3
 
     :cond_5
-    const v0, 0x7f0b3224
+    sget v0, Lcom/resouce/module/ResID;->tv_preview:I
 
     const/16 v9, 0x200
 
@@ -246,7 +246,7 @@
     goto/16 :goto_3
 
     :cond_7
-    const v0, 0x7f0b31b6
+    sget v0, Lcom/resouce/module/ResID;->tv_insert:I
 
     if-ne p1, v0, :cond_a
 
@@ -298,7 +298,7 @@
     goto/16 :goto_3
 
     :cond_a
-    const v0, 0x7f0b16e1
+    sget v0, Lcom/resouce/module/ResID;->ll_share:I
 
     if-ne p1, v0, :cond_c
 
@@ -353,7 +353,7 @@
     goto/16 :goto_3
 
     :cond_c
-    const v0, 0x7f0b165a
+    sget v0, Lcom/resouce/module/ResID;->ll_export:I
 
     if-ne p1, v0, :cond_10
 
@@ -482,7 +482,7 @@
     goto :goto_3
 
     :cond_10
-    const v0, 0x7f0b2972
+    sget v0, Lcom/resouce/module/ResID;->rl_to_text:I
 
     if-ne p1, v0, :cond_12
 
@@ -521,7 +521,7 @@
     goto :goto_3
 
     :cond_12
-    const v0, 0x7f0b296f
+    sget v0, Lcom/resouce/module/ResID;->rl_to_et:I
 
     if-ne p1, v0, :cond_13
 
@@ -537,7 +537,7 @@
     goto :goto_3
 
     :cond_13
-    const v0, 0x7f0b2971
+    sget v0, Lcom/resouce/module/ResID;->rl_to_pdf:I
 
     if-ne p1, v0, :cond_14
 
@@ -553,7 +553,7 @@
     goto :goto_3
 
     :cond_14
-    const v0, 0x7f0b0577
+    sget v0, Lcom/resouce/module/ResID;->convert_to_ppt:I
 
     if-ne p1, v0, :cond_15
 
@@ -569,7 +569,7 @@
     goto :goto_3
 
     :cond_15
-    const v0, 0x7f0b16d7
+    sget v0, Lcom/resouce/module/ResID;->ll_save_as_album:I
 
     if-ne p1, v0, :cond_16
 

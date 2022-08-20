@@ -2215,7 +2215,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f070ac1
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_component_window_min_width:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

@@ -54,7 +54,7 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b0609
+    sget v0, Lcom/resouce/module/ResID;->cv_member_icon:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     iput-object v0, p3, Lhe7$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b31d5
+    sget v0, Lcom/resouce/module/ResID;->tv_member_name:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     iput-object v0, p3, Lhe7$b;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0375
+    sget v0, Lcom/resouce/module/ResID;->cb_item_checkbox:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080861
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     .line 8
     invoke-virtual {p2, v0}, Lf54;->b(I)Lf54;
@@ -140,7 +140,7 @@
     :cond_2
     iget-object p2, p3, Lhe7$b;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0816ee
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_mine_login_pic2:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -157,7 +157,7 @@
     .line 14
     iget-object p1, p3, Lhe7$b;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p2, 0x7f081fcc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -167,7 +167,7 @@
     :cond_3
     iget-object p1, p3, Lhe7$b;->c:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const p2, 0x7f081626    # 1.8089E38f
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -384,7 +384,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f3f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->share_folder_member_list_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

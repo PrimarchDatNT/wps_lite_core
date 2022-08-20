@@ -82,7 +82,7 @@
 
     if-gt v2, v1, :cond_0
 
-    const p1, 0x7f1219bf
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_hide_warning:I
 
     .line 5
     invoke-static {p1, v1}, Lsjf;->h(II)V

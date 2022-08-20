@@ -160,7 +160,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0bf7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_filebrowser_extra_item_layout:I
 
     const/4 v3, 0x0
 
@@ -524,7 +524,7 @@
     .line 2
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b1067
+    sget v1, Lcom/resouce/module/ResID;->home_delete_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -565,7 +565,7 @@
     .line 7
     iget-object v0, p0, Lwb9;->a0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     const/4 v2, 0x0
 
@@ -637,7 +637,7 @@
     .line 2
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b02ce
+    sget v1, Lcom/resouce/module/ResID;->btn_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

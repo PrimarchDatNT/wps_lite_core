@@ -145,9 +145,9 @@
     .line 15
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ink/Inker$3;
 
-    const v1, 0x7f080be7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_nothing_et:I
 
-    const v2, 0x7f122372
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_stop:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ink/Inker$3;-><init>(Lcn/wps/moffice/spreadsheet/control/ink/Inker;II)V
 
@@ -178,15 +178,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122368
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_by_keymouse:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122367
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ink_by_finger:I
 
     :goto_0
-    const v2, 0x7f080ddb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_use_hand:I
 
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/ink/Inker$4;-><init>(Lcn/wps/moffice/spreadsheet/control/ink/Inker;II)V
 
@@ -1499,7 +1499,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     const/4 v1, 0x1
 
@@ -2150,7 +2150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d1a
+    sget v1, Lcom/resouce/module/ResID;->ss_moji:I
 
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/ink/Inker;->j:Lcn/wps/moffice/spreadsheet/control/ink/InkerFragment;
 

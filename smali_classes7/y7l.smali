@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b35a5
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_float_view:I
 
     invoke-virtual {v0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -87,7 +87,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b0dd2
+    sget v2, Lcom/resouce/module/ResID;->float_container:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b35aa
+    sget v1, Lcom/resouce/module/ResID;->writer_ink_tool_highlight_red:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

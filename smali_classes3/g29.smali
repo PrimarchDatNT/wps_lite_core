@@ -18,7 +18,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122b52
+    sget v1, Lcom/resouce/module/ResSTRING;->public_updatejar:I
 
     const/4 v2, 0x0
 
@@ -71,7 +71,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122b52
+    sget v1, Lcom/resouce/module/ResSTRING;->public_updatejar:I
 
     const/4 v2, 0x0
 
@@ -167,7 +167,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122b52
+    sget v1, Lcom/resouce/module/ResSTRING;->public_updatejar:I
 
     const/4 v2, 0x0
 

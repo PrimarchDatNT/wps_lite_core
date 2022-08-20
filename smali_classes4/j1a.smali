@@ -140,7 +140,7 @@
     .line 8
     iget-object v0, p1, Lj1a$c;->l0:Landroid/widget/TextView;
 
-    const v3, 0x7f121469
+    sget v3, Lcom/resouce/module/ResSTRING;->new_features_login_now:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -199,7 +199,7 @@
 .method public r(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lj1a$c;
     .locals 2
 
-    const v0, 0x7f0e0cee
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_main_guidepage_item_layout:I
 
     const/4 v1, 0x0
 

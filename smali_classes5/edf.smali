@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e3e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_sharefolder_invite_finish_dialog:I
 
     const/4 v2, 0x0
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1afb
+    sget v1, Lcom/resouce/module/ResID;->ok:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b137b
+    sget v1, Lcom/resouce/module/ResID;->invite_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122249
+    sget v3, Lcom/resouce/module/ResSTRING;->public_has_shared:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b1373
+    sget v1, Lcom/resouce/module/ResID;->invite_desc:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12224a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_has_shared_desc:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b1379
+    sget v1, Lcom/resouce/module/ResID;->invite_image:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081792
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_sharefolder_pic_creat_share_group:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

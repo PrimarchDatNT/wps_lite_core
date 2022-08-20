@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e101d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_encrypter_layout:I
 
     const/4 v2, 0x0
 
@@ -102,7 +102,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mRoot:Landroid/view/View;
 
-    const v0, 0x7f0b334f
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ss_encrypt_divider:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mRoot:Landroid/view/View;
 
-    const v0, 0x7f0b3350
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ss_encrypt_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0803a0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_password_encryption:I
 
     .line 8
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->setImage(I)V
@@ -137,14 +137,14 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mEncryptView:Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;
 
-    const v0, 0x7f122575
+    sget v0, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_password:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->setText(I)V
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f08039f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_encryption:I
 
     .line 10
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->setImage(I)V
@@ -152,7 +152,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mEncryptView:Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;
 
-    const v0, 0x7f122050
+    sget v0, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToggleToolbarItemView;->setText(I)V
 
@@ -167,7 +167,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mRoot:Landroid/view/View;
 
-    const v0, 0x7f0b3351
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ss_modify_pw_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mModifyPWView:Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;
 
-    const v0, 0x7f08039e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_change_password:I
 
     .line 14
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->setImage(I)V
@@ -185,7 +185,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/encrypt/PhoneEncryptItem;->mModifyPWView:Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;
 
-    const v0, 0x7f1224d2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/ToolbarItemView;->setText(I)V
 
@@ -246,7 +246,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fb9    # 1.94232E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     const/4 v1, 0x0
 

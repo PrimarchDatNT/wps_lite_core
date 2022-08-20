@@ -53,7 +53,7 @@
 
     check-cast v0, Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b1a8f
+    sget v1, Lcom/resouce/module/ResID;->number_layout:I
 
     .line 3
     invoke-static {v0, v1}, Lz6h;->c(Landroid/view/View;I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     check-cast v0, Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0e81
+    sget v1, Lcom/resouce/module/ResID;->frame_layout:I
 
     .line 3
     invoke-static {v0, v1}, Lz6h;->c(Landroid/view/View;I)Landroid/view/View;
@@ -279,7 +279,7 @@
     .line 2
     iget-object v0, p0, Lc6h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -490,7 +490,7 @@
 
     check-cast v0, Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0206
+    sget v1, Lcom/resouce/module/ResID;->bg_color_layout:I
 
     .line 3
     invoke-static {v0, v1}, Lz6h;->c(Landroid/view/View;I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     check-cast v0, Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b0e1c
+    sget v1, Lcom/resouce/module/ResID;->font_color_layout:I
 
     .line 3
     invoke-static {v0, v1}, Lz6h;->c(Landroid/view/View;I)Landroid/view/View;
@@ -610,7 +610,7 @@
     .line 2
     iget-object v0, p0, Lc6h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -619,7 +619,7 @@
 
     check-cast v1, Landroid/widget/GridView;
 
-    const v2, 0x7f0b04b7
+    sget v2, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

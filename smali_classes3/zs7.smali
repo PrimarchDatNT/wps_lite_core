@@ -232,7 +232,7 @@
     :cond_1
     iget-object v1, p0, Lzs7;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12112d
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_tips_space_usage:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -400,7 +400,7 @@
     .line 2
     iget-object v2, p0, Lzs7;->a:Landroid/app/Activity;
 
-    const v3, 0x7f12112f
+    sget v3, Lcom/resouce/module/ResSTRING;->home_roaming_tips_x_file_out_of_limit:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1039,7 +1039,7 @@
     .line 9
     iget-object v1, p0, Lzs7;->a:Landroid/app/Activity;
 
-    const v3, 0x7f12112b
+    sget v3, Lcom/resouce/module/ResSTRING;->home_roaming_tips_no_space_left:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

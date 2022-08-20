@@ -57,9 +57,9 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f121220
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_novel_confirm_message:I
 
-    const v1, 0x7f121221
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_novel_confirm_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -67,7 +67,7 @@
     .line 4
     invoke-virtual {v0, p1}, Lhd3;->setMessage(I)Lhd3;
 
-    const p1, 0x7f121fd7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_disable:I
 
     .line 5
     new-instance v1, Lyl9$b$a;
@@ -76,7 +76,7 @@
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance v1, Lyl9$b$b;

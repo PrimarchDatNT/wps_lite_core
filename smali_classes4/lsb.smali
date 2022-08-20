@@ -84,7 +84,7 @@
 .method public final c(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b30ab
+    sget v0, Lcom/resouce/module/ResID;->transfer_to_computer_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Llsb;->S:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f0b30ac
+    sget v0, Lcom/resouce/module/ResID;->transfer_to_other_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v0, p0, Llsb;->T:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f0b30a5
+    sget v0, Lcom/resouce/module/ResID;->transfer_collect_files_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,63 +125,63 @@
     .line 5
     iget-object p1, p0, Llsb;->S:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f1230e9
+    sget v0, Lcom/resouce/module/ResSTRING;->transfer_to_computer:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->c(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 6
     iget-object p1, p0, Llsb;->S:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f0814a1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pic_transfer_to_pc_transfer:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->b(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 7
     iget-object p1, p0, Llsb;->S:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f080582
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->drawable_transfer_to_computer:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
     .line 8
     iget-object p1, p0, Llsb;->T:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f1230eb
+    sget v0, Lcom/resouce/module/ResSTRING;->transfer_to_others:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->c(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 9
     iget-object p1, p0, Llsb;->T:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f081497
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pic_send_files_transfer:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->b(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 10
     iget-object p1, p0, Llsb;->T:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f080583
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->drawable_transfer_to_other:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
     .line 11
     iget-object p1, p0, Llsb;->U:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f1230e1
+    sget v0, Lcom/resouce/module/ResSTRING;->transfer_collect_files:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->c(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 12
     iget-object p1, p0, Llsb;->U:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f081496
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pic_collect_files_transfer:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;->b(I)Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
     .line 13
     iget-object p1, p0, Llsb;->U:Lcn/wps/moffice/pc/transfer/view/TransferItemLayout;
 
-    const v0, 0x7f080581
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->drawable_transfer_collect_files:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -267,7 +267,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d1c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_home_transfer_file_activity:I
 
     const/4 v2, 0x0
 
@@ -290,7 +290,7 @@
     .line 1
     iget-object v0, p0, Llsb;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122294
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_file_trans:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -307,7 +307,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b30ab
+    sget v0, Lcom/resouce/module/ResID;->transfer_to_computer_layout:I
 
     if-ne p1, v0, :cond_0
 
@@ -317,7 +317,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b30ac
+    sget v0, Lcom/resouce/module/ResID;->transfer_to_other_layout:I
 
     if-ne p1, v0, :cond_1
 
@@ -327,7 +327,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b30a5
+    sget v0, Lcom/resouce/module/ResID;->transfer_collect_files_layout:I
 
     if-ne p1, v0, :cond_2
 

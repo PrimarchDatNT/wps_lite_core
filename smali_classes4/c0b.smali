@@ -139,7 +139,7 @@
     :goto_1
     iget-object p1, p0, Lc0b;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v1, 0x1
 

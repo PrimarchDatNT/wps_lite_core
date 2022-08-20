@@ -437,7 +437,7 @@
 
     iget-object v6, p0, Lcn/wps/moffice/spreadsheet/tooltip/FileFixNormalProcessor;->d:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v7, 0x7f120dee
+    sget v7, Lcom/resouce/module/ResSTRING;->has_fix_doc:I
 
     invoke-virtual {v6, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

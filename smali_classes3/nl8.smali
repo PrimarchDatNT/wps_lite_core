@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e027d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_mywallet_layout_content:I
 
     const/4 v2, 0x0
 
@@ -134,7 +134,7 @@
 
     iput-object v0, p0, Lnl8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f45
+    sget v1, Lcom/resouce/module/ResID;->grid_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     iget-object v6, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v12, 0x7f0e027e
+    sget v12, Lcom/resouce/module/ResLAYOUT;->foreign_home_mywallet_layout_content_item:I
 
     filled-new-array {v10, v9}, [Ljava/lang/String;
 
@@ -478,7 +478,7 @@
     .line 3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f122546
+    sget p2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, p2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -489,7 +489,7 @@
     return-void
 
     :cond_1
-    const p1, 0x7f080864
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_mypursing_ordercenter:I
 
     const-string v1, "click"
 
@@ -548,7 +548,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const p1, 0x7f080862
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_mypursing_coupon_en:I
 
     if-ne p2, p1, :cond_4
 
@@ -572,7 +572,7 @@
     :cond_3
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f121de8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_check_roaming_dialog_title:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -585,7 +585,7 @@
     goto :goto_1
 
     :cond_4
-    const p1, 0x7f0806ed
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->foreign_coupon_icon:I
 
     if-ne p2, p1, :cond_7
 
@@ -658,7 +658,7 @@
     goto :goto_1
 
     :cond_7
-    const p1, 0x7f080863
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_mypursing_my_restore:I
 
     if-ne p2, p1, :cond_8
 

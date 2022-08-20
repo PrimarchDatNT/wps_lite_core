@@ -50,12 +50,12 @@
     .line 3
     invoke-virtual {p0, p2}, Lvzl;->f2(Z)V
 
-    const v0, 0x7f0e1077
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_comment_insert_ink_pad:I
 
     .line 4
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
 
-    const v0, 0x7f0b04c9
+    sget v0, Lcom/resouce/module/ResID;->comment_content_ink:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -74,7 +74,7 @@
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f0b142d
+    sget p1, Lcom/resouce/module/ResID;->iv_commit:I
 
     .line 8
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -85,7 +85,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;->h0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b1487
+    sget p1, Lcom/resouce/module/ResID;->iv_ink:I
 
     .line 9
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;->i0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b144a
+    sget p1, Lcom/resouce/module/ResID;->iv_eraser:I
 
     .line 10
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;->j0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b14c2
+    sget p1, Lcom/resouce/module/ResID;->iv_settings:I
 
     .line 11
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel$b;-><init>(Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b1427
+    sget v1, Lcom/resouce/module/ResID;->iv_close:I
 
     const-string v2, "commentEdit-cancel"
 
@@ -275,7 +275,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel$c;-><init>(Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b1489
+    sget v1, Lcom/resouce/module/ResID;->iv_input:I
 
     const-string v2, "commentEdit-input"
 
@@ -286,7 +286,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel$d;-><init>(Lcn/wps/moffice/writer/shell/comments/ink/InkCommentEditDialogPanel;)V
 
-    const v1, 0x7f0b1417
+    sget v1, Lcom/resouce/module/ResID;->iv_audio:I
 
     const-string v2, "commentEdit-audio"
 

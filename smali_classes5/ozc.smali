@@ -127,12 +127,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122c37
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_recovery_edit_not_save_tips:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f1227e1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_recory_edit_not_save_tips:I
 
     .line 4
     :goto_0

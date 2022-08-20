@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122eaa
+    sget v0, Lcom/resouce/module/ResSTRING;->search_templates:I
 
     invoke-virtual {p1, v0}, Landroid/widget/EditText;->setHint(I)V
 

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.main.scan.util.camera.FocusBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="1.0dip" android:progressDrawable="@drawable/focusbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/focusbar_thumb_btn" android:thumbOffset="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

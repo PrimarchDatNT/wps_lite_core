@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1003
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_encrypter_layout:I
 
     const/4 v2, 0x0
 
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lxtd;->X:Landroid/view/View;
 
-    const v0, 0x7f0b3344
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ppt_encrypt_divider:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
     .line 6
     iget-object p1, p0, Lxtd;->X:Landroid/view/View;
 
-    const v0, 0x7f0b3345
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ppt_encrypt_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lxtd;->Z:Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;
 
-    const v0, 0x7f08039f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_encryption:I
 
     .line 7
     invoke-virtual {p1, v0}, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->setImage(I)V
@@ -122,7 +122,7 @@
     .line 8
     iget-object p1, p0, Lxtd;->Z:Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;
 
-    const v0, 0x7f122050
+    sget v0, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->setText(I)V
 
@@ -136,7 +136,7 @@
     .line 10
     iget-object p1, p0, Lxtd;->X:Landroid/view/View;
 
-    const v0, 0x7f0b3346
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ppt_modify_pw_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
 
     iput-object p1, p0, Lxtd;->a0:Lcn/wps/moffice/presentation/control/common/ToolbarItemView;
 
-    const v0, 0x7f08039e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_safty_change_password:I
 
     .line 11
     invoke-virtual {p1, v0}, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->setImage(I)V
@@ -154,7 +154,7 @@
     .line 12
     iget-object p1, p0, Lxtd;->a0:Lcn/wps/moffice/presentation/control/common/ToolbarItemView;
 
-    const v0, 0x7f1224d2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->setText(I)V
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fb9    # 1.94232E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     const/4 v1, 0x0
 

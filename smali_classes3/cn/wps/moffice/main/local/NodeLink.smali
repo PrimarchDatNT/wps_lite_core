@@ -419,7 +419,7 @@
 
     if-eqz p0, :cond_0
 
-    const v0, 0x7f0b2e82
+    sget v0, Lcom/resouce/module/ResID;->tag_node_link:I
 
     .line 1
     :try_start_0
@@ -497,7 +497,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b2e82
+    sget v0, Lcom/resouce/module/ResID;->tag_node_link:I
 
     .line 1
     invoke-virtual {p0, v0, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V

@@ -1963,12 +1963,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f07088a
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ss_long_pic_sharepreview_style_panel_new_height:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070889
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ss_long_pic_sharepreview_style_panel_height:I
 
     .line 6
     :goto_0
@@ -2153,7 +2153,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView;->F0:Lhd3;
 
-    const v1, 0x7f0b083f
+    sget v1, Lcom/resouce/module/ResID;->edit_text:I
 
     if-nez v0, :cond_0
 
@@ -2176,7 +2176,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f122fd8
+    sget v3, Lcom/resouce/module/ResSTRING;->ss_longpic_title_rename_text:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2187,7 +2187,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView;->F0:Lhd3;
 
-    const v0, 0x7f0e0f62
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ss_longpic_modify_title:I
 
     invoke-virtual {p1, v0}, Lhd3;->setView(I)Lhd3;
 
@@ -2210,7 +2210,7 @@
     .line 8
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView;->F0:Lhd3;
 
-    const v4, 0x7f0b1a8c
+    sget v4, Lcom/resouce/module/ResID;->num_text:I
 
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -2234,7 +2234,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView;->F0:Lhd3;
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v4, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView$b;
 
@@ -2245,7 +2245,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView;->F0:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v4, Lcn/wps/moffice/spreadsheet/control/share/view/KPreviewView$c;
 

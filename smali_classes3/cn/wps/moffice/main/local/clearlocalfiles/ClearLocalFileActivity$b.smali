@@ -75,9 +75,9 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/clearlocalfiles/ClearLocalFileActivity$b;->a:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v2, 0x7f060526
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_start_color:I
 
-    const v3, 0x7f0600b1
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v0, v2, v3, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setStyle(IIZ)V
 

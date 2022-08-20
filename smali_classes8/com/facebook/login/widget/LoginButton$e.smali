@@ -242,7 +242,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1202da
+    sget v2, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_log_out_action:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -255,7 +255,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1202d6
+    sget v3, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_cancel_action:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -285,7 +285,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1202dc
+    sget v6, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_logged_in_as:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -318,7 +318,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f1202dd
+    sget v5, Lcom/resouce/module/ResSTRING;->com_facebook_loginview_logged_in_using_facebook:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

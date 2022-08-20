@@ -103,7 +103,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f12264f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     return v0
 .end method

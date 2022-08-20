@@ -247,7 +247,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f12050e
+    sget p1, Lcom/resouce/module/ResSTRING;->docer_mb_download_unknow_err:I
 
     .line 2
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -341,7 +341,7 @@
 
     if-nez v2, :cond_4
 
-    const p1, 0x7f122546
+    sget p1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 14
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -399,7 +399,7 @@
 
     :cond_6
     :goto_0
-    const p1, 0x7f12050d
+    sget p1, Lcom/resouce/module/ResSTRING;->docer_mb_download_relogin:I
 
     .line 18
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V

@@ -149,7 +149,7 @@
     .line 7
     iget-object p1, p0, Lx8d$a;->b:Landroid/content/Context;
 
-    const p2, 0x7f120d9c
+    sget p2, Lcom/resouce/module/ResSTRING;->gdpr_erasure_success:I
 
     const/4 v0, 0x0
 

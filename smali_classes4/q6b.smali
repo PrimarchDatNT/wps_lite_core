@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0e0114
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_group_list_menu:I
 
     const/4 v1, 0x0
 
@@ -67,7 +67,7 @@
 
     if-ge v1, v2, :cond_0
 
-    const v1, 0x7f0b1869
+    sget v1, Lcom/resouce/module/ResID;->menu_cardview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
     :cond_0
-    const v1, 0x7f0b1797
+    sget v1, Lcom/resouce/module/ResID;->lv_item_menu:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 .method public static b(Landroid/content/Context;)Landroid/widget/PopupWindow;
     .locals 2
 
-    const v0, 0x7f0e012e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_small_bubble:I
 
     const/4 v1, 0x0
 

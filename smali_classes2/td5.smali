@@ -77,7 +77,7 @@
 
     sput-object v0, Ltd5;->I0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b3329
+    sget v1, Lcom/resouce/module/ResID;->user_avatar:I
 
     const/16 v2, 0x10
 

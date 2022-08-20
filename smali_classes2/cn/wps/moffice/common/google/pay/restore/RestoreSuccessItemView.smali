@@ -27,13 +27,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0285
+    sget v0, Lcom/resouce/module/ResLAYOUT;->foreign_my_restore_success_item_view:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b28b9
+    sget p1, Lcom/resouce/module/ResID;->restore_purchase_icon:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const p1, 0x7f0b28bb
+    sget p1, Lcom/resouce/module/ResID;->restore_purchase_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b28b8
+    sget p1, Lcom/resouce/module/ResID;->restore_purchase_content:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -93,9 +93,9 @@
 
     aget v0, v1, v0
 
-    const v1, 0x7f12145f
+    sget v1, Lcom/resouce/module/ResSTRING;->name_templates:I
 
-    const v2, 0x7f08084d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_template:I
 
     const/4 v3, 0x0
 
@@ -117,14 +117,14 @@
     :pswitch_0
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f08084b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_inapp:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f121699
+    sget v1, Lcom/resouce/module/ResSTRING;->pay_gp_inapp_restore_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -134,14 +134,14 @@
     :pswitch_1
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f08084e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_template_privilege:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f1230a1
+    sget v1, Lcom/resouce/module/ResSTRING;->template_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -173,14 +173,14 @@
     :pswitch_3
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f080849
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_ad:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f121c87
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -199,14 +199,14 @@
     :pswitch_4
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f08084c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_pdf:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f1218b8
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privileges:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -225,14 +225,14 @@
     :pswitch_5
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f08084a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_font:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f1221b8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_font_packs:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -249,14 +249,14 @@
     :pswitch_6
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->B:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v1, 0x7f08084f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_membercenter_my_restore_wps_premium:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V
 
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/common/google/pay/restore/RestoreSuccessItemView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f122c24
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -268,7 +268,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122753
+    sget v2, Lcom/resouce/module/ResSTRING;->public_purchase_restore_success_item_content:I
 
     const/4 v3, 0x1
 

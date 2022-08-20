@@ -104,7 +104,7 @@
 
     iget-object v0, v0, Lonl$b;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120196
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_has_fetch_docker_member:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     iget-object v0, v0, Lonl$b;->a:Landroid/app/Activity;
 
-    const v2, 0x7f120197
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_has_join_share:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -213,7 +213,7 @@
 
     iget-object v0, v0, Lonl$b;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12250e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_network_error_message:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

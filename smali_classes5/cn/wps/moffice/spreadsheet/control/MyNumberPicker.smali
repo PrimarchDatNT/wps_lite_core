@@ -296,7 +296,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f081e4b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->ss_numberpicker_selection_divider:I
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -309,7 +309,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060624
+    sget v5, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -428,7 +428,7 @@
 
     if-eqz v4, :cond_4
 
-    const v4, 0x7f0e0205
+    sget v4, Lcom/resouce/module/ResLAYOUT;->et_number_picker:I
 
     .line 34
     invoke-virtual {v1, v4, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -436,7 +436,7 @@
     goto :goto_4
 
     :cond_4
-    const v4, 0x7f0e0984
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_number_picker:I
 
     .line 35
     invoke-virtual {v1, v4, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -452,7 +452,7 @@
 
     invoke-direct {v4, p0}, Lcn/wps/moffice/spreadsheet/control/MyNumberPicker$c;-><init>(Lcn/wps/moffice/spreadsheet/control/MyNumberPicker;)V
 
-    const v5, 0x7f0b0ad8
+    sget v5, Lcom/resouce/module/ResID;->et_numberpicker_increment:I
 
     .line 38
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -469,7 +469,7 @@
     .line 40
     invoke-virtual {v5, v4}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v5, 0x7f0b0ad7
+    sget v5, Lcom/resouce/module/ResID;->et_numberpicker_decrement:I
 
     .line 41
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -486,7 +486,7 @@
     .line 43
     invoke-virtual {v5, v4}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v1, 0x7f0b0ad9
+    sget v1, Lcom/resouce/module/ResID;->et_numberpicker_input:I
 
     .line 44
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -497,7 +497,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/MyNumberPicker;->T:Landroid/widget/EditText;
 
-    const v4, 0x7f0b0ada
+    sget v4, Lcom/resouce/module/ResID;->et_numberpicker_input_invisible:I
 
     .line 45
     invoke-virtual {p0, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -616,7 +616,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getColor(I)I
 

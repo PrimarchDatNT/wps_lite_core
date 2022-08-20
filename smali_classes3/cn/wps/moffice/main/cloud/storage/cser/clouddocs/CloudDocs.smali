@@ -858,7 +858,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b5e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_layout:I
 
     const/4 v2, 0x0
 
@@ -2442,7 +2442,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/main/cloud/storage/cser/CSer;->B:Landroid/app/Activity;
 
-    const v5, 0x7f120ead
+    sget v5, Lcom/resouce/module/ResSTRING;->home_clouddocs_group_events_url:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

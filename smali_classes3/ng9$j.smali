@@ -75,7 +75,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    const p2, 0x7f1211a1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_transfer_unsupport_type:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 

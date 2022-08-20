@@ -472,7 +472,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0f0d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->search_moffice_search_by_time_dialog_cell:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -503,14 +503,14 @@
     move-result-object v2
 
     :goto_0
-    const v3, 0x7f0b156e
+    sget v3, Lcom/resouce/module/ResID;->layout_search_time_outer:I
 
     .line 4
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2f3b
+    sget v4, Lcom/resouce/module/ResID;->text_time_sort_name:I
 
     .line 5
     invoke-virtual {p2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,21 +519,21 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b338e
+    sget v5, Lcom/resouce/module/ResID;->view_bottom:I
 
     .line 6
     invoke-virtual {p2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b1271
+    sget v6, Lcom/resouce/module/ResID;->image_cell_selected:I
 
     .line 7
     invoke-virtual {p2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b2f3a
+    sget v7, Lcom/resouce/module/ResID;->text_time_show:I
 
     .line 8
     invoke-virtual {p2, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     move-result v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     const/16 v8, 0x8
 
@@ -657,7 +657,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_4
 
@@ -677,7 +677,7 @@
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     :goto_5
-    const v1, 0x7f0b06d4
+    sget v1, Lcom/resouce/module/ResID;->divider_line:I
 
     .line 22
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

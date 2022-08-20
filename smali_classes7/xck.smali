@@ -391,7 +391,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12150e
+    sget v1, Lcom/resouce/module/ResSTRING;->ole_insert_max_size_limited_dialog:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -406,7 +406,7 @@
 
     invoke-direct {v1, p0}, Lxck$c;-><init>(Lxck;)V
 
-    const v2, 0x7f122189
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fine:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

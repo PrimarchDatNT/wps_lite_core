@@ -96,7 +96,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13d2
+    sget p2, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -109,7 +109,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b13c7
+    sget p2, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -122,7 +122,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b06cb
+    sget p2, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 5
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2924
+    sget p2, Lcom/resouce/module/ResID;->right_pos_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -181,12 +181,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e053f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_drive_share_special_item:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0302
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_share_special_item:I
 
     return v0
 .end method

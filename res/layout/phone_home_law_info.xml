@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/phone_public_dialog_padding_left" android:paddingRight="@dimen/phone_public_dialog_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/phone_public_dialog_padding_left" android:paddingEnd="@dimen/phone_public_dialog_padding_right">
-        <TextView android:id="@id/law_info" android:text="@string/miit_law_info_text" style="@style/phone_public_dialog_text" />
-        <TextView android:id="@id/private_policy" android:visibility="gone" android:text="@string/premium_policy_private_policy" style="@style/phone_public_dialog_text" />
-        <cn.wps.moffice.common.CustomCheckButton android:textSize="@dimen/phone_public_fontsize_sp_m" android:textColor="@color/mainTextColor" android:id="@id/checkBox_flow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_no_remind" />
-    </LinearLayout>
-</ScrollView>

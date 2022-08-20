@@ -53,7 +53,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2967
+    sget v0, Lcom/resouce/module/ResID;->rl_selected_image:I
 
     const/4 v1, 0x1
 
@@ -192,7 +192,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1203c8
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_99_image_at_most:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -222,7 +222,7 @@
     goto/16 :goto_3
 
     :cond_7
-    const v0, 0x7f0b312d
+    sget v0, Lcom/resouce/module/ResID;->tv_confirm:I
 
     if-ne p1, v0, :cond_8
 
@@ -234,7 +234,7 @@
     goto/16 :goto_3
 
     :cond_8
-    const v0, 0x7f0b1482
+    sget v0, Lcom/resouce/module/ResID;->iv_image_preview_back:I
 
     if-ne p1, v0, :cond_9
 
@@ -246,7 +246,7 @@
     goto/16 :goto_3
 
     :cond_9
-    const v0, 0x7f0b3153
+    sget v0, Lcom/resouce/module/ResID;->tv_edit:I
 
     const/16 v2, 0x10
 
@@ -324,14 +324,14 @@
 
     move-result-object p1
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
     goto :goto_3
 
     :cond_c
-    const v0, 0x7f0b1492
+    sget v0, Lcom/resouce/module/ResID;->iv_menu:I
 
     if-ne p1, v0, :cond_f
 
@@ -374,7 +374,7 @@
     goto :goto_3
 
     :cond_f
-    const v0, 0x7f0b31b8
+    sget v0, Lcom/resouce/module/ResID;->tv_insert_image:I
 
     if-ne p1, v0, :cond_10
 

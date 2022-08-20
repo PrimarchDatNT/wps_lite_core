@@ -52,9 +52,9 @@
 
     move-result v0
 
-    const v1, 0x7f0807e4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_noselect:I
 
-    const v2, 0x7f0807e7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_noselect:I
 
     const/4 v3, 0x1
 
@@ -200,7 +200,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0807e8
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_pre_selected:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -268,7 +268,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0807e5
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_auto_play_time_next_selected:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

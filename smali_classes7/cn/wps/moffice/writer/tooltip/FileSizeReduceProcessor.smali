@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122171
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_pop_tips:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -218,7 +218,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v2, 0x7f122238
+    sget v2, Lcom/resouce/module/ResSTRING;->public_go_to_file_size_reduce:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f9a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->tag_in_empty_search:I
 
     const/4 v2, 0x0
 
@@ -172,7 +172,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/tag/search/BlankSeachTagsView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b00fb
+    sget v1, Lcom/resouce/module/ResID;->all_tags:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/tag/search/BlankSeachTagsView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2bfd
+    sget v1, Lcom/resouce/module/ResID;->show_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -293,7 +293,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f081818
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_arrow_down:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V

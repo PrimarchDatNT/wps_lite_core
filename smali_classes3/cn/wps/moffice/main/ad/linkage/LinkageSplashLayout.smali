@@ -151,11 +151,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e006a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ad_linkage_splash:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b29a6
+    sget p1, Lcom/resouce/module/ResID;->root:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/ad/linkage/LinkageSplashLayout;->B:Landroid/view/View;
 
-    const p1, 0x7f0b2db0    # 1.8499991E38f
+    sget p1, Lcom/resouce/module/ResID;->status_bar:I    # 1.8499991E38f
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/ad/linkage/LinkageSplashLayout;->I:Landroid/view/View;
 
-    const p1, 0x7f0b2ca8
+    sget p1, Lcom/resouce/module/ResID;->splash_container:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

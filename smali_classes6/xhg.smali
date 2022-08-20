@@ -310,7 +310,7 @@
     .line 4
     new-instance v1, Lm7h;
 
-    const v2, 0x7f0e01fc
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_hyperlink_dropdown_hint:I
 
     iget-object v3, p0, Lxhg;->e0:Lxhg$g;
 
@@ -326,7 +326,7 @@
     :cond_1
     new-instance v1, Lm7h;
 
-    const v2, 0x7f0e099d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v3, p0, Lxhg;->e0:Lxhg$g;
 
@@ -491,7 +491,7 @@
 
     iput-object v0, p0, Lxhg;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2fce
+    sget v1, Lcom/resouce/module/ResID;->titleBar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -505,14 +505,14 @@
     .line 3
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f120b8e
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_define:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 4
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0abc
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_name_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
     .line 5
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0abb
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_local_src_cell:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -538,7 +538,7 @@
     .line 6
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0aba
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_local_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
     .line 7
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0abe
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_select_cells:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
     .line 8
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0ab5
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
     .line 11
     iget-object v0, p0, Lxhg;->U:Landroid/view/View;
 
-    const v1, 0x7f0b0ab6
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +613,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne v0, v1, :cond_0
 
@@ -626,7 +626,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_1
 
@@ -639,7 +639,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne v0, v1, :cond_4
 
@@ -684,7 +684,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-ne v0, v1, :cond_5
 
@@ -697,7 +697,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b0ab5
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_delete:I
 
     if-ne v0, v1, :cond_7
 
@@ -721,7 +721,7 @@
     goto :goto_0
 
     :cond_7
-    const v1, 0x7f0b0abe
+    sget v1, Lcom/resouce/module/ResID;->et_name_management_select_cells:I
 
     if-ne v0, v1, :cond_9
 
@@ -779,7 +779,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0203
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_name_management_dialog_pad:I
 
     .line 5
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -793,7 +793,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0202
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_name_management_dialog:I
 
     .line 6
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -837,7 +837,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 11
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -1055,7 +1055,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070195
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_complex_common_edittextdropdown_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

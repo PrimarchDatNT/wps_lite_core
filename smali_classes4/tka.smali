@@ -105,7 +105,7 @@
     .line 4
     invoke-virtual {p2, p3}, Lf54;->c(Z)Lf54;
 
-    const p3, 0x7f0809e2
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 5
     invoke-virtual {p2, p3}, Lf54;->b(I)Lf54;

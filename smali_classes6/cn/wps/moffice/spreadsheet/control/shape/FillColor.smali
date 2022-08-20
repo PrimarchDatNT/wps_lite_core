@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060689
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068a
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -107,7 +107,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068b
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068c
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_4:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068d
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_cell_fill_color_5:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -330,7 +330,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -341,7 +341,7 @@
     .line 3
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/shape/FillColor;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b20fd
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -350,11 +350,11 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f122180
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fill_color:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b20fc
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

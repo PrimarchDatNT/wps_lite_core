@@ -400,7 +400,7 @@
 
     if-eqz p1, :cond_4
 
-    const v0, 0x7f0b1300
+    sget v0, Lcom/resouce/module/ResID;->infoflow_mopub_native_ad_root:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

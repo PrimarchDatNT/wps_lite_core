@@ -348,21 +348,21 @@
 
     move-result-object p1
 
-    const v0, 0x7f121421
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_text_input_year_abbr:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f121420
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_text_input_month_abbr:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f12141f
+    sget v2, Lcom/resouce/module/ResSTRING;->mtrl_picker_text_input_day_abbr:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

@@ -40,7 +40,7 @@
     .line 2
     iput-object p1, p0, Llwl$d;->a:Landroid/view/View;
 
-    const v0, 0x7f0b36bc
+    sget v0, Lcom/resouce/module/ResID;->writer_thumbnail_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Llwl$d;->b:Lcn/wps/moffice/writer/shell/phone/edittoolbar/modify/file/extract_merge/extract/view/ThumbnailItem;
 
-    const v0, 0x7f0b36bf
+    sget v0, Lcom/resouce/module/ResID;->writer_thumbnail_preview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Llwl$d;->c:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b36bd
+    sget v0, Lcom/resouce/module/ResID;->writer_thumbnail_loading:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 
     iput-object v0, p0, Llwl$d;->d:Landroid/view/View;
 
-    const v0, 0x7f0b36be
+    sget v0, Lcom/resouce/module/ResID;->writer_thumbnail_number:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060624
+    sget v1, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

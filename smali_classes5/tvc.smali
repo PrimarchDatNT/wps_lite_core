@@ -114,7 +114,7 @@
 .method public V0(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1dab
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_pager:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Ltvc;->h0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1da5
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_ink:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -151,7 +151,7 @@
 .method public Y0()I
     .locals 1
 
-    const v0, 0x7f0e07a4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen:I
 
     return v0
 .end method
@@ -495,7 +495,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e07a7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_highlight:I
 
     const/4 v2, 0x0
 
@@ -505,7 +505,7 @@
 
     iput-object v0, p0, Ltvc;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1db4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
     .line 4
     iget-object v0, p0, Ltvc;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1d91
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_alpha_seekbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -532,7 +532,7 @@
     .line 5
     iget-object v0, p0, Ltvc;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1d9a
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -545,7 +545,7 @@
     .line 6
     iget-object v0, p0, Ltvc;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b0fd3
+    sget v1, Lcom/resouce/module/ResID;->highlight_line_mode_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -558,7 +558,7 @@
     .line 7
     iget-object v0, p0, Ltvc;->m0:Landroid/view/View;
 
-    const v1, 0x7f0b1a28
+    sget v1, Lcom/resouce/module/ResID;->night_mode_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -691,7 +691,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0e07aa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_pencil:I
 
     const/4 v2, 0x0
 
@@ -701,7 +701,7 @@
 
     iput-object v0, p0, Ltvc;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b1db4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -715,7 +715,7 @@
     .line 4
     iget-object v0, p0, Ltvc;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b1d9a
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

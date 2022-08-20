@@ -87,7 +87,7 @@
 
     iget-object p1, p1, Lnsc;->S:Landroid/content/Context;
 
-    const v0, 0x7f122823
+    sget v0, Lcom/resouce/module/ResSTRING;->public_saveDocumentError:I
 
     invoke-static {p1, v0, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

@@ -71,7 +71,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120be6
+    sget v3, Lcom/resouce/module/ResSTRING;->et_prot_book_removepassword:I
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$g;->B:Lcn/wps/moffice/spreadsheet/control/protect/Protector;
 
@@ -84,7 +84,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120be7
+    sget v5, Lcom/resouce/module/ResSTRING;->et_prot_book_unsupport_op_input_tips:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

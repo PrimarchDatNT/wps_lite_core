@@ -83,7 +83,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f130162
+    sget v0, Lcom/resouce/module/ResSTYLE;->HomeTheme_NoBackground:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setTheme(I)V

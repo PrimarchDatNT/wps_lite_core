@@ -23,7 +23,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f121215
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_assistant:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

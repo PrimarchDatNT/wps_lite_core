@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07027f
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_sheet_op_bar_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070280
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_sheet_op_bar_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->V:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -113,7 +113,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->W:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v2, 0x7f1227f7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -129,7 +129,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->b0:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v3, 0x7f121f7c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     .line 13
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -145,7 +145,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->a0:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v4, 0x7f120c19
+    sget v4, Lcom/resouce/module/ResSTRING;->et_sheet_color:I
 
     .line 15
     invoke-virtual {p1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->c0:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v5, 0x7f122385
+    sget v5, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     .line 17
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -177,7 +177,7 @@
 
     iput-object v5, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar;->d0:Lcn/wps/moffice/spreadsheet/control/tabhost/PhoneSheetOpBar$SheetBarItemButton;
 
-    const v6, 0x7f122251
+    sget v6, Lcom/resouce/module/ResSTRING;->public_hide:I
 
     .line 19
     invoke-virtual {p1, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;

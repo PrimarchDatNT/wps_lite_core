@@ -737,7 +737,7 @@
 
     if-nez v1, :cond_a
 
-    const v1, 0x7f122893
+    sget v1, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     .line 70
     invoke-static {v1, v3}, Lsjf;->h(II)V

@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07074d
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_default_frame_width_unselect:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -144,7 +144,7 @@
     .line 4
     sget-boolean v0, Lskd;->a:Z
 
-    const v1, 0x7f060461
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_horizon_divideline_color:I
 
     if-eqz v0, :cond_0
 

@@ -140,7 +140,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e103f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_public_simpleitem_select_layout:I
 
     const/4 v3, 0x0
 
@@ -163,7 +163,7 @@
 
     move-result v5
 
-    const v6, 0x7f0e0988
+    sget v6, Lcom/resouce/module/ResLAYOUT;->phone_ss_phonenum_list_dropdown_hint:I
 
     if-eqz v5, :cond_4
 

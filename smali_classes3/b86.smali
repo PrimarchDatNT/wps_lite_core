@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e062a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_convert_switch_engine_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -67,21 +67,21 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e00
+    sget v1, Lcom/resouce/module/ResID;->switch_left:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2e0a
+    sget v2, Lcom/resouce/module/ResID;->switch_right:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b1284
+    sget v3, Lcom/resouce/module/ResID;->image_mode_left:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b31da
+    sget v4, Lcom/resouce/module/ResID;->tv_mode_left:I
 
     .line 5
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b3141
+    sget v5, Lcom/resouce/module/ResID;->tv_desc_mode_left:I
 
     .line 6
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v5, 0x7f0b1285
+    sget v5, Lcom/resouce/module/ResID;->image_mode_right:I
 
     .line 7
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v6, 0x7f0b31db
+    sget v6, Lcom/resouce/module/ResID;->tv_mode_right:I
 
     .line 8
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b3142
+    sget v7, Lcom/resouce/module/ResID;->tv_desc_mode_right:I
 
     .line 9
     invoke-virtual {v2, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,17 +135,17 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v7, 0x7f12179a
+    sget v7, Lcom/resouce/module/ResSTRING;->pdf_convert_switch_engine_mode2_tips:I
 
-    const v8, 0x7f121799
+    sget v8, Lcom/resouce/module/ResSTRING;->pdf_convert_switch_engine_mode2:I
 
-    const v9, 0x7f08032f
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_word_pic2:I
 
-    const v10, 0x7f121798
+    sget v10, Lcom/resouce/module/ResSTRING;->pdf_convert_switch_engine_mode1_tips:I
 
-    const v11, 0x7f121797
+    sget v11, Lcom/resouce/module/ResSTRING;->pdf_convert_switch_engine_mode1:I
 
-    const v12, 0x7f08032e
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_word_pic1:I
 
     if-eqz p1, :cond_0
 
@@ -229,7 +229,7 @@
     invoke-virtual {v2, v7}, Landroid/widget/TextView;->setText(I)V
 
     :goto_0
-    const p1, 0x7f0b043f
+    sget p1, Lcom/resouce/module/ResID;->close:I
 
     .line 22
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2dfe
+    sget p1, Lcom/resouce/module/ResID;->switch_btn:I
 
     .line 23
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0c94
+    sget p1, Lcom/resouce/module/ResID;->feedback_btn:I
 
     .line 24
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b043f
+    sget v0, Lcom/resouce/module/ResID;->close:I
 
     if-ne p1, v0, :cond_0
 
@@ -287,7 +287,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0c94
+    sget v0, Lcom/resouce/module/ResID;->feedback_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -307,7 +307,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2dfe
+    sget v0, Lcom/resouce/module/ResID;->switch_btn:I
 
     if-ne p1, v0, :cond_2
 

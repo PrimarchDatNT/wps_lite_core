@@ -49,7 +49,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b1e94
+    sget v3, Lcom/resouce/module/ResID;->pdf_pen_select_normal:I
 
     if-ne p1, v3, :cond_1
 
@@ -100,7 +100,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0b1e95
+    sget v3, Lcom/resouce/module/ResID;->pdf_pen_select_smart:I
 
     if-ne p1, v3, :cond_2
 

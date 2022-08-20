@@ -836,7 +836,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pay_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -847,7 +847,7 @@
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const v1, 0x7f0b0fb9
+    sget v1, Lcom/resouce/module/ResID;->header_tips_container:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -858,7 +858,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->U:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0fba
+    sget v1, Lcom/resouce/module/ResID;->header_tips_info:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -869,7 +869,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0fb3
+    sget v1, Lcom/resouce/module/ResID;->header_divider_view:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -878,7 +878,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2538
+    sget v1, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -887,7 +887,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->S0:Landroid/view/View;
 
-    const v1, 0x7f0b1289
+    sget v1, Lcom/resouce/module/ResID;->image_pay_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -898,7 +898,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->a0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b128a
+    sget v1, Lcom/resouce/module/ResID;->image_pay_icon_base:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -909,7 +909,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->b0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b176d
+    sget v1, Lcom/resouce/module/ResID;->logo_layout:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -918,7 +918,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2f25
+    sget v1, Lcom/resouce/module/ResID;->text_pay_title:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -929,7 +929,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->d0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1288
+    sget v1, Lcom/resouce/module/ResID;->image_pay_close:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -940,7 +940,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b27bd
+    sget v1, Lcom/resouce/module/ResID;->radio_group:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -951,7 +951,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->f0:Landroid/widget/RadioGroup;
 
-    const v1, 0x7f0b2f28
+    sget v1, Lcom/resouce/module/ResID;->text_payment_expiry_date_layout:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -960,7 +960,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->g0:Landroid/view/View;
 
-    const v1, 0x7f0b2f27
+    sget v1, Lcom/resouce/module/ResID;->text_payment_expiry_date:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -971,7 +971,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->h0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b155e
+    sget v1, Lcom/resouce/module/ResID;->layout_payment_mode:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -980,7 +980,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2f29
+    sget v1, Lcom/resouce/module/ResID;->text_payment_mode:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -991,7 +991,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f2b
+    sget v1, Lcom/resouce/module/ResID;->text_payment_select_iv:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1002,7 +1002,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->k0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2879
+    sget v1, Lcom/resouce/module/ResID;->referral_code_arrow:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1013,7 +1013,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->b1:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2f09
+    sget v1, Lcom/resouce/module/ResID;->text_credits_left:I
 
     .line 19
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1029,7 +1029,7 @@
     .line 20
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f0b2f24
+    sget v1, Lcom/resouce/module/ResID;->text_original_price:I
 
     .line 21
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1040,7 +1040,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->m0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f2e
+    sget v1, Lcom/resouce/module/ResID;->text_price:I
 
     .line 22
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1051,7 +1051,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->n0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2f08
+    sget v1, Lcom/resouce/module/ResID;->text_credits:I
 
     .line 23
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1062,7 +1062,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b031f
+    sget v1, Lcom/resouce/module/ResID;->button_confirm:I
 
     .line 24
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1071,7 +1071,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->H0:Landroid/view/View;
 
-    const v1, 0x7f0b153a
+    sget v1, Lcom/resouce/module/ResID;->layout_button_charge:I
 
     .line 25
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1080,7 +1080,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->I0:Landroid/view/View;
 
-    const v1, 0x7f0b0323
+    sget v1, Lcom/resouce/module/ResID;->button_free_of_charge:I
 
     .line 26
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1106,7 +1106,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setVisibility(I)V
 
     :cond_0
-    const v1, 0x7f0b031e
+    sget v1, Lcom/resouce/module/ResID;->button_charge:I
 
     .line 29
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1117,7 +1117,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->K0:Landroid/widget/Button;
 
-    const v1, 0x7f0b1637
+    sget v1, Lcom/resouce/module/ResID;->listview_payment_mode:I
 
     .line 30
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1128,7 +1128,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->L0:Landroid/widget/ListView;
 
-    const v1, 0x7f0b155d
+    sget v1, Lcom/resouce/module/ResID;->layout_pay:I
 
     .line 31
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1137,7 +1137,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->N0:Landroid/view/View;
 
-    const v1, 0x7f0b1573
+    sget v1, Lcom/resouce/module/ResID;->layout_select_payment_mode:I
 
     .line 32
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1146,7 +1146,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->O0:Landroid/view/View;
 
-    const v1, 0x7f0b1538
+    sget v1, Lcom/resouce/module/ResID;->layout_back:I
 
     .line 33
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1155,7 +1155,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->P0:Landroid/view/View;
 
-    const v1, 0x7f0b06cf
+    sget v1, Lcom/resouce/module/ResID;->divider:I
 
     .line 34
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1164,7 +1164,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b153d
+    sget v1, Lcom/resouce/module/ResID;->layout_coupon:I
 
     .line 35
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1173,7 +1173,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b2f0c
+    sget v1, Lcom/resouce/module/ResID;->text_discount:I
 
     .line 36
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1184,7 +1184,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->v0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0599
+    sget v1, Lcom/resouce/module/ResID;->coupon_divider:I
 
     .line 37
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1193,7 +1193,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->w0:Landroid/view/View;
 
-    const v1, 0x7f0b1572
+    sget v1, Lcom/resouce/module/ResID;->layout_select_coupon:I
 
     .line 38
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1202,7 +1202,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->x0:Landroid/view/View;
 
-    const v1, 0x7f0b153e
+    sget v1, Lcom/resouce/module/ResID;->layout_coupon_back:I
 
     .line 39
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1211,7 +1211,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->y0:Landroid/view/View;
 
-    const v1, 0x7f0b1633
+    sget v1, Lcom/resouce/module/ResID;->listview_coupon:I
 
     .line 40
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1222,7 +1222,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->z0:Landroid/widget/ListView;
 
-    const v1, 0x7f0b1a31
+    sget v1, Lcom/resouce/module/ResID;->no_coupon_tips:I
 
     .line 41
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1241,7 +1241,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b1565
+    sget v1, Lcom/resouce/module/ResID;->layout_referral_code:I
 
     .line 44
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1250,7 +1250,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->F0:Landroid/view/View;
 
-    const v1, 0x7f0b287a
+    sget v1, Lcom/resouce/module/ResID;->referral_code_divider:I
 
     .line 45
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1259,7 +1259,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->G0:Landroid/view/View;
 
-    const v1, 0x7f0b1845
+    sget v1, Lcom/resouce/module/ResID;->member_desc_text:I
 
     .line 46
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1270,7 +1270,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->p0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b19ca
+    sget v1, Lcom/resouce/module/ResID;->navgation_open_flag_container:I
 
     .line 47
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1279,7 +1279,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->r0:Landroid/view/View;
 
-    const v1, 0x7f0b330c
+    sget v1, Lcom/resouce/module/ResID;->upgrade_switch:I
 
     .line 48
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1290,7 +1290,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->q0:Landroid/widget/CompoundButton;
 
-    const v1, 0x7f0b19cc
+    sget v1, Lcom/resouce/module/ResID;->navgation_txt:I
 
     .line 49
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1301,7 +1301,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/pay/view/PayView;->t0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b19cb
+    sget v1, Lcom/resouce/module/ResID;->navgation_tips_diver:I
 
     .line 50
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2359,7 +2359,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/pay/view/PayView;->p0:Landroid/widget/TextView;
 
-    const p2, 0x7f122505
+    sget p2, Lcom/resouce/module/ResSTRING;->public_navgation_upgrade_wps_title:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2369,7 +2369,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/pay/view/PayView;->p0:Landroid/widget/TextView;
 
-    const p2, 0x7f122504
+    sget p2, Lcom/resouce/module/ResSTRING;->public_navgation_upgrade_template_title:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2702,7 +2702,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/pay/view/PayView;->v0:Landroid/widget/TextView;
 
-    const v0, 0x7f121486
+    sget v0, Lcom/resouce/module/ResSTRING;->no_usable_coupon:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -3472,7 +3472,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1225f7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pay_credits_left:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3549,7 +3549,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121f9b
+    sget v5, Lcom/resouce/module/ResSTRING;->public_credits_left:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3811,7 +3811,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/pay/view/PayView;->t0:Landroid/widget/TextView;
 
-    const v2, 0x7f121ca5
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_upgrade:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -4001,7 +4001,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0603f2
+    sget v2, Lcom/resouce/module/ResCOLOR;->pay_dialog_radio_disc:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4046,7 +4046,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0603f3
+    sget v4, Lcom/resouce/module/ResCOLOR;->pay_dialog_text_less:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4087,7 +4087,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0603f2
+    sget v4, Lcom/resouce/module/ResCOLOR;->pay_dialog_radio_disc:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 

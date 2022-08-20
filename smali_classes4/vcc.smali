@@ -203,7 +203,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1fa6
+    sget v1, Lcom/resouce/module/ResID;->phone_bookmark_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0fef
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_bookmark_all:I
 
     return v0
 .end method

@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0356
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_mute_popup_menu:I
 
     const/4 v2, 0x0
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070341
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_mute_popup_offset_y:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -103,7 +103,7 @@
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->Q(Z)V
 
-    const v0, 0x7f0b1971
+    sget v0, Lcom/resouce/module/ResID;->mute_2h:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     .line 3
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1972
+    sget v0, Lcom/resouce/module/ResID;->mute_unlimited:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b1971
+    sget v1, Lcom/resouce/module/ResID;->mute_2h:I
 
     if-ne p1, v1, :cond_0
 
@@ -179,7 +179,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b1972
+    sget v1, Lcom/resouce/module/ResID;->mute_unlimited:I
 
     if-ne p1, v1, :cond_1
 

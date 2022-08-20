@@ -86,7 +86,7 @@
 .method public l(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lao9$e;
     .locals 2
 
-    const v0, 0x7f0e036a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_pad_grid_style_history_item:I
 
     const/4 v1, 0x0
 
@@ -227,7 +227,7 @@
     iput-object v0, p0, Lao9;->W:Landroid/view/View$OnClickListener;
 
     :cond_2
-    const v0, 0x7f0b2e88
+    sget v0, Lcom/resouce/module/ResID;->tag_position:I
 
     .line 5
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -338,7 +338,7 @@
     .line 5
     iget-object p2, p1, Lao9$e;->o0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081613
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_checked:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -348,7 +348,7 @@
     :cond_1
     iget-object p2, p1, Lao9$e;->o0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v1, 0x7f081614
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_document_checkbox_default:I
 
     invoke-virtual {p2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -587,7 +587,7 @@
     .line 13
     iget-object v1, p1, Lao9$e;->p0:Landroid/view/View;
 
-    const v2, 0x7f0b2e88
+    sget v2, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -675,7 +675,7 @@
     .line 4
     iget-object p1, p1, Lao9$e;->n0:Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;
 
-    const p2, 0x7f0b2e88
+    sget p2, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

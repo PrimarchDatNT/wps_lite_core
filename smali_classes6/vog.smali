@@ -88,11 +88,11 @@
 
     invoke-virtual {v0, v1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f081527
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->premium_center_pay_bg:I
 
-    const v1, 0x7f12188e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
-    const v2, 0x7f121c94
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     const/4 v3, 0x1
 
@@ -289,11 +289,11 @@
     .line 8
     invoke-virtual {v0, p0}, Lkib;->C(I)V
 
-    const p0, 0x7f08192b
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_formular2num_guide:I
 
-    const v1, 0x7f1208b5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
-    const v2, 0x7f1208ad
+    sget v2, Lcom/resouce/module/ResSTRING;->et_formula2num_descript_text:I
 
     const/4 v3, 0x1
 

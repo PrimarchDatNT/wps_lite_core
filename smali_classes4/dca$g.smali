@@ -52,7 +52,7 @@
 
     iget-object p1, p1, Ldca;->T:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v0, 0x7f121175
+    sget v0, Lcom/resouce/module/ResSTRING;->home_task_get_rice_prompt:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -75,7 +75,7 @@
 
     iget-object p1, p1, Ldca;->T:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v0, 0x7f121174
+    sget v0, Lcom/resouce/module/ResSTRING;->home_task_get_exp_prompt:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -128,7 +128,7 @@
 
     iget-object p1, p1, Ldca;->T:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -144,7 +144,7 @@
 
     iget-object p1, p1, Ldca;->T:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f120e68
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

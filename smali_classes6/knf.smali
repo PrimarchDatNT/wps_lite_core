@@ -50,9 +50,9 @@
 .method public constructor <init>(Lfmf;)V
     .locals 2
 
-    const v0, 0x7f122786
+    sget v0, Lcom/resouce/module/ResSTRING;->public_quickstyle_shape_outline:I
 
-    const v1, 0x7f0e01cd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_frame_dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0, v1}, Lhnf;-><init>(Lfmf;II)V
@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070ab4
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_color_grid_width_h:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -194,7 +194,7 @@
 
     const v0, 0xffffff
 
-    const v1, 0x7f12335e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;->setColorAndText(II)V
 
@@ -337,7 +337,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e06b0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_et_cellsetting_linestyle_list:I
 
     const/4 v3, 0x0
 
@@ -361,7 +361,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v2, 0x7f0b04b7
+    sget v2, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -375,7 +375,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b04b3
+    sget v2, Lcom/resouce/module/ResID;->color_dialog_listview:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
     .line 5
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0986
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format__frame_style_customdropdownbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -524,7 +524,7 @@
     .line 7
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0984
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format__frame_color_customdropdownbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -546,7 +546,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -555,7 +555,7 @@
     .line 10
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v2, 0x7f0b09ae
+    sget v2, Lcom/resouce/module/ResID;->et_complex_format_frame_quickstyle_none_btn:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -583,7 +583,7 @@
     :cond_0
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09af
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_quickstyle_outside_btn:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -609,7 +609,7 @@
     :cond_1
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09ad
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_quickstyle_inside_btn:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -635,7 +635,7 @@
     :cond_2
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09b2
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_top:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -661,7 +661,7 @@
     :cond_3
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09a9
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_inside_horizontal:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -687,7 +687,7 @@
     :cond_4
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09a5
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_bottom:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -713,7 +713,7 @@
     :cond_5
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09ab
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_left:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     :cond_6
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09aa
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_inside_vertical:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -765,7 +765,7 @@
     :cond_7
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09b0
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_right:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -791,7 +791,7 @@
     :cond_8
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09a7
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_diagdown:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -817,7 +817,7 @@
     :cond_9
     iget-object v1, p0, Lemf;->S:Landroid/view/View;
 
-    const v3, 0x7f0b09a8
+    sget v3, Lcom/resouce/module/ResID;->et_complex_format_frame_diagup:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -843,7 +843,7 @@
     :cond_a
     iget-object v0, p0, Lemf;->S:Landroid/view/View;
 
-    const v1, 0x7f0b09ac
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_frame_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1433,7 +1433,7 @@
 
     if-eqz v0, :cond_1e
 
-    const v0, 0x7f081e47
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->ss_gridview_item_selected_selector:I
 
     goto :goto_5
 
@@ -1462,7 +1462,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f081e47
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->ss_gridview_item_selected_selector:I
 
     goto :goto_0
 
@@ -1585,7 +1585,7 @@
 
     check-cast v5, Ljava/lang/Boolean;
 
-    const v6, 0x7f081e47
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->ss_gridview_item_selected_selector:I
 
     const v7, 0x106000d
 
@@ -2481,7 +2481,7 @@
     .line 86
     iget-object p2, p0, Lknf;->X:Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;
 
-    const v0, 0x7f12335e
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     const v1, 0xffffff
 
@@ -2596,7 +2596,7 @@
 
     const v0, 0xffffff
 
-    const v1, 0x7f12335e
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p1, v0, v1}, Lcn/wps/moffice/spreadsheet/control/cellsettings/common/ColorButton;->setColorAndText(II)V
 
@@ -3783,7 +3783,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0813d8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_ss_autobtn_selector:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setBackgroundResource(I)V
 

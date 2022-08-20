@@ -112,7 +112,7 @@
     .line 2
     iget-object v0, p0, Lrae;->b:Lcn/wps/moffice/presentation/control/common/PptTitleBar;
 
-    const v1, 0x7f1226b1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/PptTitleBar;->setTitle(I)V
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07ff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_long_pic_share_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -160,7 +160,7 @@
 
     iput-object v0, p0, Lrae;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0278
+    sget v1, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b7a
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -246,9 +246,9 @@
     .line 15
     iget-object p1, p0, Lrae;->g:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;
 
-    const p2, 0x7f122950
+    sget p2, Lcom/resouce/module/ResSTRING;->public_share:I
 
-    const v0, 0x7f0b2bd3
+    sget v0, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {p1, p2, v0}, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->setActionButton(II)V
 
@@ -315,7 +315,7 @@
     .line 22
     iget-object p1, p0, Lrae;->a:Landroid/view/View;
 
-    const p2, 0x7f0b1783
+    sget p2, Lcom/resouce/module/ResID;->long_pic_share_preview_ppt_titlebar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

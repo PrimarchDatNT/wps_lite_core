@@ -130,7 +130,7 @@
 
     move-result v1
 
-    const v9, 0x7f120647
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v10, 0x0
 
@@ -453,7 +453,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122748
+    sget v3, Lcom/resouce/module/ResSTRING;->public_purchase_already_owned:I
 
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -528,7 +528,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122759
+    sget p3, Lcom/resouce/module/ResSTRING;->public_purchase_unavailable:I
 
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

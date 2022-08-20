@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c24
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -140,7 +140,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122a9d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12260e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c93
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -364,7 +364,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lcn/wps/moffice/common/premium/quickpayment/QuickPayViewTab$i;
@@ -373,7 +373,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     new-instance v2, Lcn/wps/moffice/common/premium/quickpayment/QuickPayViewTab$j;
@@ -382,7 +382,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122081
+    sget v1, Lcom/resouce/module/ResSTRING;->public_exchange_login_tip:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -417,7 +417,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     new-instance v2, Lcn/wps/moffice/common/premium/quickpayment/QuickPayViewTab$f;
@@ -426,7 +426,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     new-instance v2, Lcn/wps/moffice/common/premium/quickpayment/QuickPayViewTab$g;
@@ -435,7 +435,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121cdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_activation_cdkey_login_tip:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;

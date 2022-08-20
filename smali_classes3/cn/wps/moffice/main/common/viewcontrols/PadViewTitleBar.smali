@@ -205,14 +205,14 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e050f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_base_titlebar:I
 
     const/4 v2, 0x1
 
     .line 3
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1a54
+    sget v0, Lcom/resouce/module/ResID;->normal_mode_title:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -221,7 +221,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->U:Landroid/view/View;
 
-    const v0, 0x7f0b0072
+    sget v0, Lcom/resouce/module/ResID;->action_icon_container:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->T:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b3024
+    sget v0, Lcom/resouce/module/ResID;->titlebar_custom_layout_container:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b3033
+    sget v0, Lcom/resouce/module/ResID;->titlebar_text:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -261,7 +261,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
     .line 10
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/AlphaLinearLayout;->setPressAlphaEnabled(Z)V
 
-    const v0, 0x7f0b1c41
+    sget v0, Lcom/resouce/module/ResID;->pad_titlebar:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -286,7 +286,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->a0:Lcn/wps/moffice/main/local/home/newui/theme/title/ThemeTitleLinearLayout;
 
-    const v0, 0x7f0b301d
+    sget v0, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     const/4 v2, 0x0
 
@@ -414,9 +414,9 @@
 
     const/4 p1, 0x1
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     .line 1
     invoke-virtual {p0, v1, v0, p1}, Lcn/wps/moffice/main/common/viewcontrols/PadViewTitleBar;->setStyle(IIZ)V

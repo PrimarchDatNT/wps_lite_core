@@ -60,7 +60,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f1301e6
+    sget v0, Lcom/resouce/module/ResSTYLE;->Setting_Dialog_Style:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -185,21 +185,21 @@
     .line 2
     iget-object v0, p0, Ln0f;->b0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082033
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_setting_light_up_night:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 3
     iget-object v0, p0, Ln0f;->c0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082031
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_setting_light_down_night:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 4
     iget-object v0, p0, Ln0f;->a0:Landroid/view/View;
 
-    const v1, 0x7f082037
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_settings_seek_bg_night:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -211,7 +211,7 @@
     .line 6
     iget-object v0, p0, Ln0f;->f0:Landroid/view/View;
 
-    const v1, 0x7f082035
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_settings_normal_bg_night:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -236,7 +236,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060353
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_lineColor_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -281,14 +281,14 @@
     .line 12
     iget-object v0, p0, Ln0f;->d0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082028
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_reader_space_add_night_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 13
     iget-object v0, p0, Ln0f;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f08202a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_reader_space_reduce_night_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -303,7 +303,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060721
+    sget v2, Lcom/resouce/module/ResCOLOR;->wps_reader_settings_center_text_color_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -373,7 +373,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060725
+    sget v2, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_night:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -387,21 +387,21 @@
     :cond_0
     iget-object v0, p0, Ln0f;->b0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082032
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_setting_light_up_day:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 20
     iget-object v0, p0, Ln0f;->c0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082030
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_setting_light_down_day:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 21
     iget-object v0, p0, Ln0f;->a0:Landroid/view/View;
 
-    const v1, 0x7f082036
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_settings_seek_bg_day:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -413,7 +413,7 @@
     .line 23
     iget-object v0, p0, Ln0f;->f0:Landroid/view/View;
 
-    const v1, 0x7f082034
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_settings_normal_bg_day:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -430,14 +430,14 @@
     .line 26
     iget-object v0, p0, Ln0f;->d0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082027
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_reader_space_add_day_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 27
     iget-object v0, p0, Ln0f;->e0:Landroid/widget/ImageView;
 
-    const v1, 0x7f082029
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wps_reader_space_reduce_day_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -452,7 +452,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060352
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -505,7 +505,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060720
+    sget v2, Lcom/resouce/module/ResCOLOR;->wps_reader_settings_center_text_color_day:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -575,7 +575,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060724
+    sget v2, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_day:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -901,7 +901,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1a26
+    sget v0, Lcom/resouce/module/ResID;->night_color:I
 
     if-ne p1, v0, :cond_0
 
@@ -927,7 +927,7 @@
     return-void
 
     :cond_2
-    const v0, 0x7f0b063b
+    sget v0, Lcom/resouce/module/ResID;->default_color:I
 
     if-ne p1, v0, :cond_3
 
@@ -939,7 +939,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b36e7
+    sget v0, Lcom/resouce/module/ResID;->yellow_color:I
 
     if-ne p1, v0, :cond_4
 
@@ -951,7 +951,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0f3d
+    sget v0, Lcom/resouce/module/ResID;->green_color:I
 
     if-ne p1, v0, :cond_5
 
@@ -996,7 +996,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b2f38
+    sget v1, Lcom/resouce/module/ResID;->text_size_del:I
 
     const-string v2, "font-size"
 
@@ -1018,7 +1018,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b2f37
+    sget v1, Lcom/resouce/module/ResID;->text_size_add:I
 
     if-ne p1, v1, :cond_2
 
@@ -1036,7 +1036,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b18c0
+    sget v1, Lcom/resouce/module/ResID;->mode_scroll:I
 
     if-ne p1, v1, :cond_3
 
@@ -1058,7 +1058,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b18be
+    sget v1, Lcom/resouce/module/ResID;->mode_flip:I
 
     if-ne p1, v1, :cond_4
 
@@ -1080,7 +1080,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b00b0
+    sget v1, Lcom/resouce/module/ResID;->add_line_space:I
 
     const-string v2, "line_space"
 
@@ -1100,7 +1100,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b2878
+    sget v1, Lcom/resouce/module/ResID;->reduce_line_space:I
 
     if-ne p1, v1, :cond_6
 
@@ -1135,7 +1135,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1062
+    sget v0, Lcom/resouce/module/ResLAYOUT;->wps_setting_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -1145,7 +1145,7 @@
 
     iput-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b1571
+    sget v0, Lcom/resouce/module/ResID;->layout_seek_bar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1157,7 +1157,7 @@
     .line 4
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2adf
+    sget v0, Lcom/resouce/module/ResID;->seekbar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1170,7 +1170,7 @@
     .line 5
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2f38
+    sget v0, Lcom/resouce/module/ResID;->text_size_del:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1183,7 +1183,7 @@
     .line 6
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2f37
+    sget v0, Lcom/resouce/module/ResID;->text_size_add:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1196,7 +1196,7 @@
     .line 7
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b18c0
+    sget v0, Lcom/resouce/module/ResID;->mode_scroll:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1209,7 +1209,7 @@
     .line 8
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b18be
+    sget v0, Lcom/resouce/module/ResID;->mode_flip:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1222,7 +1222,7 @@
     .line 9
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b3303
+    sget v0, Lcom/resouce/module/ResID;->up:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1235,7 +1235,7 @@
     .line 10
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b078e
+    sget v0, Lcom/resouce/module/ResID;->down:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1248,7 +1248,7 @@
     .line 11
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b1579
+    sget v0, Lcom/resouce/module/ResID;->layout_text_size:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1259,7 +1259,7 @@
     .line 12
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b1569
+    sget v0, Lcom/resouce/module/ResID;->layout_scroll_mode:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1270,7 +1270,7 @@
     .line 13
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b1552
+    sget v0, Lcom/resouce/module/ResID;->layout_more:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1281,7 +1281,7 @@
     .line 14
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b15b6
+    sget v0, Lcom/resouce/module/ResID;->line1:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1292,7 +1292,7 @@
     .line 15
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b15b7
+    sget v0, Lcom/resouce/module/ResID;->line2:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1303,7 +1303,7 @@
     .line 16
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b15b8
+    sget v0, Lcom/resouce/module/ResID;->line3:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1314,7 +1314,7 @@
     .line 17
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b00b0
+    sget v0, Lcom/resouce/module/ResID;->add_line_space:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1327,7 +1327,7 @@
     .line 18
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2878
+    sget v0, Lcom/resouce/module/ResID;->reduce_line_space:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1340,7 +1340,7 @@
     .line 19
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b2c80
+    sget v0, Lcom/resouce/module/ResID;->space_size_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1386,7 +1386,7 @@
     .line 27
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b063b
+    sget v0, Lcom/resouce/module/ResID;->default_color:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1399,7 +1399,7 @@
     .line 28
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b36e7
+    sget v0, Lcom/resouce/module/ResID;->yellow_color:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1412,7 +1412,7 @@
     .line 29
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b0f3d
+    sget v0, Lcom/resouce/module/ResID;->green_color:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1425,7 +1425,7 @@
     .line 30
     iget-object p1, p0, Ln0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b1a26
+    sget v0, Lcom/resouce/module/ResID;->night_color:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_expansion_upgrade:I
 
     const/4 v1, 0x0
 
@@ -44,7 +44,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b141a
+    sget v0, Lcom/resouce/module/ResID;->iv_back:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b32a0
+    sget v0, Lcom/resouce/module/ResID;->tv_upgrade_member:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b141a
+    sget v0, Lcom/resouce/module/ResID;->iv_back:I
 
     if-ne p1, v0, :cond_0
 
@@ -105,7 +105,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b32a0
+    sget v0, Lcom/resouce/module/ResID;->tv_upgrade_member:I
 
     if-ne p1, v0, :cond_1
 

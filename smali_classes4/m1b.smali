@@ -62,7 +62,7 @@
     .line 3
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28f7
+    sget v1, Lcom/resouce/module/ResID;->retake_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -70,7 +70,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

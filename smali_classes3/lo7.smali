@@ -61,7 +61,7 @@
 
     const/4 v1, -0x1
 
-    const v2, 0x7f0b02de
+    sget v2, Lcom/resouce/module/ResID;->btn_join_coop:I
 
     if-ne v0, v2, :cond_0
 
@@ -75,7 +75,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b030e
+    sget v0, Lcom/resouce/module/ResID;->btn_withhold:I
 
     if-ne p1, v0, :cond_1
 
@@ -116,7 +116,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0bad
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_doc_cooperation_dialog:I
 
     const/4 v1, 0x0
 
@@ -135,7 +135,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0533
+    sget v1, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b068e
+    sget v1, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 12
     invoke-virtual {p0, p1}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b02de
+    sget v0, Lcom/resouce/module/ResID;->btn_join_coop:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b030e
+    sget v0, Lcom/resouce/module/ResID;->btn_withhold:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

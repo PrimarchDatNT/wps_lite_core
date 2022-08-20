@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060450
+    sget p2, Lcom/resouce/module/ResCOLOR;->phone_public_default_icon_color:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -65,7 +65,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081f84
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_ppt_btn_toolbar_txt_color_selector:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setTextColor(Landroid/content/res/ColorStateList;)V
 
-    const p1, 0x7f06046d
+    sget p1, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     .line 11
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGround(I)V

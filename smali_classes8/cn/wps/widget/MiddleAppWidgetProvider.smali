@@ -18,7 +18,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0e049b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->middle_app_widget_provider:I
 
     return v0
 .end method

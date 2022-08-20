@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12160d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -152,7 +152,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121615
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_published_paper_start_check_info_detail:I
 
     .line 3
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;

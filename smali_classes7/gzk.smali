@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1217f6
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_file_prefix_keynote:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e010a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_limit_save_banner:I
 
     const/4 v2, 0x0
 
@@ -218,7 +218,7 @@
 
     const/16 v3, 0x8
 
-    const v4, 0x7f0b0723
+    sget v4, Lcom/resouce/module/ResID;->doc_limit_save:I
 
     if-nez v2, :cond_1
 
@@ -255,7 +255,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -657,13 +657,13 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f1217e1
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_dialog_msg:I
 
-    const v5, 0x7f1217e0
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
-    const v6, 0x7f0601a6
+    sget v6, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v7, 0x7f080725
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_export_keynote:I
 
     if-eqz v1, :cond_1
 

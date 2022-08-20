@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122893
+    sget v2, Lcom/resouce/module/ResSTRING;->public_searchnotfound:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -147,7 +147,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12068e
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_searcheof:I
 
     invoke-static {v2, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -172,7 +172,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12068c
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_searchbof:I
 
     invoke-static {v2, v3, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -214,7 +214,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    const v5, 0x7f120c16
+    sget v5, Lcom/resouce/module/ResSTRING;->et_search_turnto:I
 
     const-string v6, "\""
 

@@ -131,7 +131,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040129
+    sget v0, Lcom/resouce/module/ResATTR;->collapsingToolbarLayoutStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/appbar/CollapsingToolbarLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -348,12 +348,12 @@
 
     invoke-virtual {p0, p3}, Lcom/google/android/material/appbar/CollapsingToolbarLayout;->setTitle(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f130249
+    sget p3, Lcom/resouce/module/ResSTYLE;->TextAppearance.Design.CollapsingToolbar.Expanded:I
 
     .line 31
     invoke-virtual {v8, p3}, Lwyt;->i0(I)V
 
-    const p3, 0x7f13022f
+    sget p3, Lcom/resouce/module/ResSTYLE;->TextAppearance.AppCompat.Widget.ActionBar.Title:I
 
     .line 32
     invoke-virtual {v8, p3}, Lwyt;->Z(I)V
@@ -599,7 +599,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    const v0, 0x7f0b33a0
+    sget v0, Lcom/resouce/module/ResID;->view_offset_helper:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -3316,7 +3316,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070099
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_appbar_elevation:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

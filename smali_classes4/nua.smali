@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f122811
+    sget p3, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

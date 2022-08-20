@@ -147,7 +147,7 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f08186a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_close:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -190,7 +190,7 @@
 
     if-ge p1, v1, :cond_2
 
-    const p1, 0x7f1231bf
+    sget p1, Lcom/resouce/module/ResSTRING;->website_function_no_support:I
 
     .line 10
     invoke-static {p0, p1, v0}, Lbih;->p(Landroid/content/Context;II)V
@@ -198,7 +198,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f1231be
+    sget p1, Lcom/resouce/module/ResSTRING;->website_function_no_online:I
 
     .line 11
     invoke-static {p0, p1, v0}, Lbih;->p(Landroid/content/Context;II)V

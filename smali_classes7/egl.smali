@@ -17,7 +17,7 @@
     .line 2
     iput-object p1, p0, Legl;->o0:Lb5l;
 
-    const p1, 0x7f1233b4
+    sget p1, Lcom/resouce/module/ResSTRING;->writer_linespacing_exactly_more:I
 
     .line 3
     invoke-virtual {p0, p1}, Llbl;->X2(I)V
@@ -227,7 +227,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1233b5
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_linespacing_exactly_size_toast:I
 
     const/4 v2, 0x1
 

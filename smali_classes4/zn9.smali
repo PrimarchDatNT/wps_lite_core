@@ -10,7 +10,7 @@
     .line 1
     invoke-direct {p0, p1}, Lun9;-><init>(Landroid/app/Activity;)V
 
-    const p1, 0x7f0e0558
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_home_no_star_record_view:I
 
     .line 2
     invoke-virtual {p0, p1}, Ltn9;->a0(I)V

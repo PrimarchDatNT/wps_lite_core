@@ -155,7 +155,7 @@
 
     iget-object v1, p0, Lx1e;->B:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Lw1e;-><init>(Landroid/content/Context;I)V
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f130023
+    sget v1, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setWindowAnimations(I)V
 

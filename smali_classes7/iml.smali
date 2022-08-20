@@ -46,7 +46,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lhml;Lhml$f;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -170,7 +170,7 @@
     .line 7
     iget-object p1, p0, Liml;->Z:Landroid/widget/TextView;
 
-    const v0, 0x7f12019e
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_import_err_tip:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -180,7 +180,7 @@
     :cond_1
     sget-object v0, Liml$c;->B:Liml$c;
 
-    const v1, 0x7f1201a0
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_import_net_err_tip:I
 
     if-ne p1, v0, :cond_2
 
@@ -213,7 +213,7 @@
     .line 13
     iget-object p1, p0, Liml;->Z:Landroid/widget/TextView;
 
-    const v0, 0x7f12019f
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_import_file_too_large_err_tip:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_main_layout:I
 
     const/4 v2, 0x0
 
@@ -259,7 +259,7 @@
     .line 3
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0530
+    sget v2, Lcom/resouce/module/ResID;->container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,14 +283,14 @@
 
     iget-object v3, p0, Liml;->V:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0e0e0c
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_resume_import_dialog_layout:I
 
     invoke-virtual {v1, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 6
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b323a
+    sget v3, Lcom/resouce/module/ResID;->tv_resume_import_error_tip:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -303,7 +303,7 @@
     .line 7
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b1206
+    sget v3, Lcom/resouce/module/ResID;->horizontal_progress_bar_layout:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
     .line 9
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b079c
+    sget v3, Lcom/resouce/module/ResID;->downloadbar:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -337,7 +337,7 @@
     .line 11
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b0536
+    sget v3, Lcom/resouce/module/ResID;->container_resume_import:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
     .line 13
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2af2
+    sget v3, Lcom/resouce/module/ResID;->select_file_text:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -368,7 +368,7 @@
     .line 14
     iget-object v1, p0, Liml;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2fd7
+    sget v3, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -378,7 +378,7 @@
 
     iput-object v1, p0, Liml;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f12019b
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_resume_import:I
 
     .line 15
     invoke-virtual {v1, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -473,7 +473,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02c6
+    sget v0, Lcom/resouce/module/ResID;->btn_close:I
 
     if-eq p1, v0, :cond_1
 

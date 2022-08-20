@@ -66,7 +66,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f06025f
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -74,12 +74,12 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 8
     invoke-virtual {v0, p0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 9
     invoke-virtual {v0, p0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -149,7 +149,7 @@
 
     move-result-object p5
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p5, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -168,12 +168,12 @@
 
     invoke-virtual {v0, p2, p0, p4}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122a35
+    sget p0, Lcom/resouce/module/ResSTRING;->public_storage_permission_regrant:I
 
     .line 9
     invoke-virtual {v0, p0, p4}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f1229fe
+    sget p0, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     .line 10
     invoke-virtual {v0, p0, p4}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -228,7 +228,7 @@
 
     invoke-direct {v1}, Landroid/text/SpannableStringBuilder;-><init>()V
 
-    const v2, 0x7f1222e9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_name_title:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -238,7 +238,7 @@
     .line 8
     new-instance v3, Landroid/text/style/TextAppearanceSpan;
 
-    const v4, 0x7f1301fd
+    sget v4, Lcom/resouce/module/ResSTYLE;->ShareDialogText:I
 
     invoke-direct {v3, p0, v4}, Landroid/text/style/TextAppearanceSpan;-><init>(Landroid/content/Context;I)V
 
@@ -271,7 +271,7 @@
 
     aput-object p1, v3, p2
 
-    const p1, 0x7f1222e2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_multi_share_create_group_tips:I
 
     invoke-virtual {p0, p1, v3}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -279,7 +279,7 @@
 
     new-instance v3, Landroid/text/style/TextAppearanceSpan;
 
-    const v5, 0x7f1301fc
+    sget v5, Lcom/resouce/module/ResSTYLE;->ShareDialogSubText:I
 
     invoke-direct {v3, p0, v5}, Landroid/text/style/TextAppearanceSpan;-><init>(Landroid/content/Context;I)V
 
@@ -299,7 +299,7 @@
     .line 15
     invoke-virtual {p1, p2}, Ltr3$b;->j(Z)Ltr3$b;
 
-    const p0, 0x7f080abf
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->multi_share_bottom_bg:I
 
     .line 16
     invoke-virtual {p1, p0}, Ltr3$b;->e(I)Ltr3$b;

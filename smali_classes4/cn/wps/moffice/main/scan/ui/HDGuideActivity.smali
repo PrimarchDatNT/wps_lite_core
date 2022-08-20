@@ -51,24 +51,24 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0055
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_scan_pic_hd_guide_land:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0054
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_scan_pic_hd_guide:I
 
     :goto_0
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0b2a13
+    sget v0, Lcom/resouce/module/ResID;->scan_pic_guide_button:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2a14
+    sget v1, Lcom/resouce/module/ResID;->scan_pic_guide_button_text:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1b84
+    sget v2, Lcom/resouce/module/ResID;->ordinary_img:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/main/scan/ui/HDGuideActivity;->T:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b0f9c
+    sget v2, Lcom/resouce/module/ResID;->hd_img:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -109,19 +109,19 @@
     .line 7
     iget-object v2, p0, Lcn/wps/moffice/main/scan/ui/HDGuideActivity;->T:Landroid/widget/ImageView;
 
-    const v3, 0x7f080792
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_scan_hd_guide_ordinary_img_oversea:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 8
     iget-object v2, p0, Lcn/wps/moffice/main/scan/ui/HDGuideActivity;->U:Landroid/widget/ImageView;
 
-    const v3, 0x7f080790
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->func_scan_hd_guide_hd_img_oversea:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_1
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 9
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -130,16 +130,16 @@
 
     check-cast v2, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v3, 0x7f0605e5
+    sget v3, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     const/4 v5, 0x0
 
     .line 10
     invoke-virtual {v2, v3, v4, v5}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(IIZ)V
 
-    const v3, 0x7f12046b
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_hd_guidetext_title:I
 
     .line 11
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -229,7 +229,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122980
+    sget v4, Lcom/resouce/module/ResSTRING;->public_share_long_pic_limit_free:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -265,7 +265,7 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 27
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

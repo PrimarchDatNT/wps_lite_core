@@ -46,7 +46,7 @@
     .line 1
     iget-object p2, p0, Lvva;->T:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e006d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->adapter_tab:I
 
     const/4 v0, 0x0
 

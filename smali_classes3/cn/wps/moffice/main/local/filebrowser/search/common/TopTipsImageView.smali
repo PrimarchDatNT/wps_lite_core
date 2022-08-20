@@ -58,13 +58,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e8d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_toptip_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1231
+    sget v0, Lcom/resouce/module/ResID;->icon_group:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/search/common/TopTipsImageView;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1a8e
+    sget v0, Lcom/resouce/module/ResID;->number_group:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/filebrowser/search/common/TopTipsImageView;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1a90
+    sget v0, Lcom/resouce/module/ResID;->number_top:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a8d
+    sget v0, Lcom/resouce/module/ResID;->number_bottom:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

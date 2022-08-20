@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lkib;Leo4;)V
     .locals 0
 
-    const p2, 0x7f13012d
+    sget p2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 p3, 0x1
 

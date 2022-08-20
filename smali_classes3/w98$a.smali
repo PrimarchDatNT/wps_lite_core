@@ -43,7 +43,7 @@
 
     iget-object p1, p1, Lw98;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2610
+    sget p2, Lcom/resouce/module/ResID;->public_frequent_circle_progressBar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -74,7 +74,7 @@
 
     iget-object p1, p1, Lw98;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2610
+    sget p2, Lcom/resouce/module/ResID;->public_frequent_circle_progressBar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
 
     iget-object p2, p2, Lw98;->B:Landroid/view/View;
 
-    const p3, 0x7f0b2610
+    sget p3, Lcom/resouce/module/ResID;->public_frequent_circle_progressBar:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -110,7 +110,7 @@
 .method public E1()V
     .locals 1
 
-    const v0, 0x7f12301d
+    sget v0, Lcom/resouce/module/ResSTRING;->suspend_gift_receive_failure:I
 
     .line 1
     invoke-virtual {p0, v0}, Lrx2;->u(I)V
@@ -350,7 +350,7 @@
     .line 3
     invoke-virtual {p0}, Lrx2;->i1()V
 
-    const p1, 0x7f12301e
+    sget p1, Lcom/resouce/module/ResSTRING;->suspend_gift_receive_success:I
 
     .line 4
     invoke-virtual {p0, p1}, Lrx2;->u(I)V
@@ -380,7 +380,7 @@
     .line 6
     invoke-virtual {p0}, Lrx2;->i1()V
 
-    const p1, 0x7f12301c
+    sget p1, Lcom/resouce/module/ResSTRING;->suspend_gift_not_new_user:I
 
     .line 7
     invoke-virtual {p0, p1}, Lrx2;->u(I)V
@@ -449,7 +449,7 @@
     :cond_2
     invoke-virtual {p0}, Lrx2;->i1()V
 
-    const p1, 0x7f12301d
+    sget p1, Lcom/resouce/module/ResSTRING;->suspend_gift_receive_failure:I
 
     .line 12
     invoke-virtual {p0, p1}, Lrx2;->u(I)V
@@ -477,7 +477,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e104c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->view_suspend_bottom:I
 
     const/4 v2, 0x0
 
@@ -487,7 +487,7 @@
 
     iput-object v0, p0, Lrx2;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0f13
+    sget v1, Lcom/resouce/module/ResID;->giftImage:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -499,7 +499,7 @@
     .line 4
     iget-object v0, p0, Lrx2;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0443
+    sget v1, Lcom/resouce/module/ResID;->closeImage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -673,7 +673,7 @@
 
     const-string v0, "click"
 
-    const v1, 0x7f0b0f13
+    sget v1, Lcom/resouce/module/ResID;->giftImage:I
 
     if-ne p1, v1, :cond_0
 
@@ -690,7 +690,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b0443
+    sget v1, Lcom/resouce/module/ResID;->closeImage:I
 
     if-ne p1, v1, :cond_1
 

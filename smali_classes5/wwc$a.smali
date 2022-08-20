@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lwwc;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1f46
+    sget v1, Lcom/resouce/module/ResID;->pdf_titlebar_multi_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

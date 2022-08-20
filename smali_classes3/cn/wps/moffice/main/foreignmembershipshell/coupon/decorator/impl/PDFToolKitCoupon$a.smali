@@ -51,7 +51,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/main/foreignmembershipshell/coupon/decorator/impl/PDFToolKitCoupon$a;->a:Landroid/content/Context;
 
-    const v0, 0x7f123195
+    sget v0, Lcom/resouce/module/ResSTRING;->use_coupon_has_privilege:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

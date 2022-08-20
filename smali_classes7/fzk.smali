@@ -68,7 +68,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e09d4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_file_property_content:I
 
     const/4 v2, 0x0
 
@@ -131,7 +131,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1205af
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_not_saved_yet:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
     return-void
 
     :cond_1
-    const v2, 0x7f0b21aa
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_file_property_more_info:I
 
     .line 12
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
 .method public final d(La4i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3571
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_author_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3570
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_author_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -257,7 +257,7 @@
 .method public final e(Lz3i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3573
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_category_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3572
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_category_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -303,7 +303,7 @@
 .method public final f(Lz3i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3575
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_company_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -312,7 +312,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3574
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_company_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -349,7 +349,7 @@
 .method public final g(La4i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3577
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_create_date_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1205b3
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
     move-result-object p1
 
     :goto_0
-    const v0, 0x7f0b3576
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_create_date_content:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 .method public final h(La4i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3579
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_key_words_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3578
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_key_words_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -474,7 +474,7 @@
 .method public final i(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b357f
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_modify_date_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -494,7 +494,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b357e
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_modify_date_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 .method public final j(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b357b
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_location_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -588,7 +588,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b357a
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_location_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -673,7 +673,7 @@
 .method public final k(Lz3i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b357d
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_manager_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -682,7 +682,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b357c
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_manager_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -719,7 +719,7 @@
 .method public final l(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b3581
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_name_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -739,7 +739,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b3580
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_name_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -779,7 +779,7 @@
 .method public final m(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b3583
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_size_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -799,7 +799,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b3582
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_size_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -866,7 +866,7 @@
 .method public final n(La4i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3585
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_subject_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -875,7 +875,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3584
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_subject_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -912,7 +912,7 @@
 .method public final o(La4i;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3587
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_title_title:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -921,7 +921,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b3586
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_title_content:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -958,7 +958,7 @@
 .method public final p(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b3589
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_type_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -978,7 +978,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b3588
+    sget v0, Lcom/resouce/module/ResID;->writer_file_propert_dialog_file_type_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1033,7 +1033,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205b3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_file_property_unknown:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

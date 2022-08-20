@@ -351,7 +351,7 @@
 
     const/16 v1, 0xc
 
-    const v3, 0x7f081347
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_light_corner:I
 
     if-eq v2, v1, :cond_2
 
@@ -369,7 +369,7 @@
     :cond_0
     iget-object v1, p0, Lxjb;->h:Lyb;
 
-    const v2, 0x7f0604ec
+    sget v2, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -384,7 +384,7 @@
     .line 5
     iget-object v0, p0, Lxjb;->i:Lyb;
 
-    const v1, 0x7f081345
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_dark_corner:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -398,7 +398,7 @@
     :cond_1
     iget-object v1, p0, Lxjb;->h:Lyb;
 
-    const v2, 0x7f060202
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_pay_member_yellow:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -425,7 +425,7 @@
     :cond_2
     iget-object v1, p0, Lxjb;->h:Lyb;
 
-    const v2, 0x7f060142
+    sget v2, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -477,9 +477,9 @@
 
     const/16 v1, 0xc
 
-    const v3, 0x7f081347
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_light_corner:I
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     const/high16 v5, 0xa000000
 
@@ -493,9 +493,9 @@
 
     const/16 v1, 0x28
 
-    const v3, 0x7f081345
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_dark_corner:I
 
-    const v4, 0x7f0604ec
+    sget v4, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     if-eq v2, v1, :cond_0
 
@@ -590,7 +590,7 @@
     .line 10
     iget-object v1, p0, Lxjb;->c:Lyb;
 
-    const v2, 0x7f0604ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->premiumGoldTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -704,7 +704,7 @@
     .line 19
     iget-object v1, p0, Lxjb;->h:Lyb;
 
-    const v2, 0x7f060202
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_pay_member_yellow:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -779,7 +779,7 @@
     .line 25
     iget-object v1, p0, Lxjb;->h:Lyb;
 
-    const v2, 0x7f060142
+    sget v2, Lcom/resouce/module/ResCOLOR;->docerMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -843,7 +843,7 @@
 
     iget-object v2, p0, Lxjb;->l:Landroid/content/Context;
 
-    const v3, 0x7f1224a3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_member_check_level:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -918,7 +918,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120e5b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_remind_expire_data:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -960,7 +960,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0604ec
+    sget v2, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -977,7 +977,7 @@
 
     iget-object v1, p0, Lxjb;->l:Landroid/content/Context;
 
-    const v2, 0x7f120f68
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1025,7 +1025,7 @@
     .line 11
     iget-object v0, p0, Lxjb;->i:Lyb;
 
-    const v2, 0x7f081348
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_svip_corner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1048,7 +1048,7 @@
     .line 13
     iget-object v0, p0, Lxjb;->i:Lyb;
 
-    const v2, 0x7f081349
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_vip_corner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1071,7 +1071,7 @@
     .line 15
     iget-object v0, p0, Lxjb;->i:Lyb;
 
-    const v2, 0x7f081346
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_pay_member_docer_corner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

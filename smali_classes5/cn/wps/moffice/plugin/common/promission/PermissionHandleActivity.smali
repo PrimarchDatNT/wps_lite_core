@@ -197,7 +197,7 @@
 
     invoke-direct {v0, p1}, Lvcd;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12221e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request:I
 
     .line 2
     invoke-virtual {v0, v1}, Lvcd;->setTitleById(I)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
@@ -225,7 +225,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12221f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request_camera:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -235,7 +235,7 @@
     .line 5
     invoke-virtual {v0, v1}, Lvcd;->setMessage(Ljava/lang/CharSequence;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance v2, Lcn/wps/moffice/plugin/common/promission/PermissionHandleActivity$a;
@@ -244,7 +244,7 @@
 
     invoke-virtual {v0, v1, v2}, Lvcd;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 7
     new-instance v2, Lcn/wps/moffice/plugin/common/promission/PermissionHandleActivity$b;
@@ -302,7 +302,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -319,7 +319,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/plugin/common/promission/PermissionHandleActivity$e;-><init>(Lcn/wps/moffice/plugin/common/promission/PermissionHandleActivity;)V
 
-    const p2, 0x7f122e64
+    sget p2, Lcom/resouce/module/ResSTRING;->retain_dialog_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lvcd;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
@@ -651,7 +651,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12060b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     .line 20
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -685,7 +685,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1227a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_re_licensing:I
 
     .line 25
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

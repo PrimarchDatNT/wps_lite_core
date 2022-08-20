@@ -184,7 +184,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07049e
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_navigation_bar_item_default_icon_size:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

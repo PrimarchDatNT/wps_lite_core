@@ -87,9 +87,9 @@
     .line 7
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/protect/Protector$3;
 
-    const v2, 0x7f080e4c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_protect_et:I
 
-    const v3, 0x7f120be8
+    sget v3, Lcom/resouce/module/ResSTRING;->et_prot_sheet:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/protect/Protector$3;-><init>(Lcn/wps/moffice/spreadsheet/control/protect/Protector;II)V
 
@@ -98,9 +98,9 @@
     .line 8
     new-instance v1, Lcn/wps/moffice/spreadsheet/control/protect/Protector$4;
 
-    const v2, 0x7f080e4e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_protect_xls_et:I
 
-    const v3, 0x7f120be4
+    sget v3, Lcom/resouce/module/ResSTRING;->et_prot_book:I
 
     invoke-direct {v1, p0, v2, v3}, Lcn/wps/moffice/spreadsheet/control/protect/Protector$4;-><init>(Lcn/wps/moffice/spreadsheet/control/protect/Protector;II)V
 
@@ -133,9 +133,9 @@
     .line 13
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$15;
 
-    const v1, 0x7f08046d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_protect:I
 
-    const v2, 0x7f120bec
+    sget v2, Lcom/resouce/module/ResSTRING;->et_prot_sheet_dialog_title:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/protect/Protector$15;-><init>(Lcn/wps/moffice/spreadsheet/control/protect/Protector;II)V
 
@@ -144,7 +144,7 @@
     .line 14
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$16;
 
-    const v1, 0x7f08046e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_protect_xls:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/protect/Protector$16;-><init>(Lcn/wps/moffice/spreadsheet/control/protect/Protector;II)V
 
@@ -153,9 +153,9 @@
     .line 15
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$17;
 
-    const v1, 0x7f0818ee
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_file_final_icon:I
 
-    const v2, 0x7f122119
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_final:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/protect/Protector$17;-><init>(Lcn/wps/moffice/spreadsheet/control/protect/Protector;II)V
 
@@ -637,7 +637,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->I:Landroid/content/Context;
 
-    const v3, 0x7f13012d
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v3}, Ljjg;-><init>(Landroid/content/Context;I)V
 
@@ -758,7 +758,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->d0:Lhd3;
 
-    const v1, 0x7f0e023e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_prot_sheet_cancel:I
 
     .line 25
     iget-object v3, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->I:Landroid/content/Context;
@@ -769,7 +769,7 @@
 
     if-eqz v3, :cond_6
 
-    const v1, 0x7f0e0989
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_prot_sheet_cancel:I
 
     .line 26
     :cond_6
@@ -820,7 +820,7 @@
 
     invoke-virtual {v3, v4, v5}, Liyg;->a(Liyg$a;[Ljava/lang/Object;)V
 
-    const v3, 0x7f0b0b42
+    sget v3, Lcom/resouce/module/ResID;->et_prot_sheet_cancel_password:I
 
     .line 31
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -829,7 +829,7 @@
 
     check-cast v3, Landroid/widget/EditText;
 
-    const v4, 0x7f0b1350
+    sget v4, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     .line 32
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -838,7 +838,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b0b43
+    sget v5, Lcom/resouce/module/ResID;->et_prot_sheet_cancel_show:I
 
     .line 33
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -857,7 +857,7 @@
     .line 35
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->d0:Lhd3;
 
-    const v6, 0x7f120bf0
+    sget v6, Lcom/resouce/module/ResSTRING;->et_prot_sheet_no2:I
 
     const/16 v7, 0x11
 
@@ -872,7 +872,7 @@
 
     if-eqz v5, :cond_8
 
-    const v5, 0x7f0b0b44
+    sget v5, Lcom/resouce/module/ResID;->et_prot_sheet_cancel_show_tv:I
 
     .line 37
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -896,7 +896,7 @@
     .line 39
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->d0:Lhd3;
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v6, Lcn/wps/moffice/spreadsheet/control/protect/Protector$c;
 
@@ -907,7 +907,7 @@
     .line 40
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector;->d0:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v4, Lcn/wps/moffice/spreadsheet/control/protect/Protector$d;
 

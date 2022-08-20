@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060056
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonFourthColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -143,7 +143,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f06025f
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColor(I)I
 

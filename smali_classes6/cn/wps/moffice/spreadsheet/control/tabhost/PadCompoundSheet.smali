@@ -75,13 +75,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05e4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_sheet_compound:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2d61
+    sget v0, Lcom/resouce/module/ResID;->ss_sheet_compound_pager:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/PadCompoundSheet;->B:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v0, 0x7f0b2d5f
+    sget v0, Lcom/resouce/module/ResID;->ss_sheet_compound_indicator:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
     .line 5
     invoke-virtual {p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/tabhost/PadCompoundSheet;->setIndicatorColor(II)V
 
-    const v0, 0x7f0b2d62
+    sget v0, Lcom/resouce/module/ResID;->ss_sheet_compound_pager_layout:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06061e
+    sget v3, Lcom/resouce/module/ResCOLOR;->ss_quote_keyboard_key_white:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -158,7 +158,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06061b
+    sget v3, Lcom/resouce/module/ResCOLOR;->ss_quote_keyboard_key_divider_color:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -174,7 +174,7 @@
 
     invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b2d60
+    sget v0, Lcom/resouce/module/ResID;->ss_sheet_compound_indicator_layout:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

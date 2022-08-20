@@ -70,7 +70,7 @@
 
     const/4 v3, -0x1
 
-    const v4, 0x7f122fb4
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_chart_data_source_choose:I
 
     invoke-direct {v0, v3, v4, v1, v2}, Lcn/wps/moffice/spreadsheet/control/chart/ChartDataSource;-><init>(IILk2m;Landroid/content/Context;)V
 
@@ -83,7 +83,7 @@
 
     iget-object v2, p0, Lqpf;->B:Landroid/content/Context;
 
-    const v4, 0x7f122fb5
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_chart_type:I
 
     invoke-direct {v0, v3, v4, v1, v2}, Lcn/wps/moffice/spreadsheet/control/chart/ChartType;-><init>(IILk2m;Landroid/content/Context;)V
 
@@ -96,7 +96,7 @@
 
     iget-object v2, p0, Lqpf;->B:Landroid/content/Context;
 
-    const v3, 0x7f121dd4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_chart_style:I
 
     invoke-direct {v0, v3, v1, v2}, Lcn/wps/moffice/spreadsheet/control/chart/ChartStyle;-><init>(ILk2m;Landroid/content/Context;)V
 
@@ -113,7 +113,7 @@
 
     const/4 v5, -0x1
 
-    const v6, 0x7f121dd2
+    sget v6, Lcom/resouce/module/ResSTRING;->public_chart_quicklayout:I
 
     move-object v4, v0
 

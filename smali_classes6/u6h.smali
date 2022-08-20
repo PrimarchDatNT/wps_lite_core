@@ -420,7 +420,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2d71
+    sget v0, Lcom/resouce/module/ResID;->ss_titlebar_save:I
 
     goto :goto_0
 
@@ -434,7 +434,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b2d73
+    sget v0, Lcom/resouce/module/ResID;->ss_titlebar_undo:I
 
     goto :goto_0
 
@@ -448,7 +448,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b2d70
+    sget v0, Lcom/resouce/module/ResID;->ss_titlebar_redo:I
 
     goto :goto_0
 
@@ -618,7 +618,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0b2d71
+    sget p1, Lcom/resouce/module/ResID;->ss_titlebar_save:I
 
     goto :goto_0
 
@@ -632,7 +632,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f0b2d73
+    sget p1, Lcom/resouce/module/ResID;->ss_titlebar_undo:I
 
     goto :goto_0
 
@@ -646,7 +646,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0b2d70
+    sget p1, Lcom/resouce/module/ResID;->ss_titlebar_redo:I
 
     goto :goto_0
 
@@ -765,7 +765,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d0e
+    sget v1, Lcom/resouce/module/ResID;->ss_menubar_item_bg_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -120,7 +120,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b3267
+    sget v0, Lcom/resouce/module/ResID;->tv_splash_ad_complaint:I
 
     if-ne p1, v0, :cond_1
 

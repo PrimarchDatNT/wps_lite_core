@@ -102,13 +102,13 @@
 
     move-result p1
 
-    const v0, 0x7f0b1458
+    sget v0, Lcom/resouce/module/ResID;->iv_five:I
 
     const/4 v4, 0x0
 
     const-string v5, "click"
 
-    const v6, 0x7f081c63
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_star_choose:I
 
     if-ne p1, v0, :cond_1
 
@@ -198,7 +198,7 @@
     .line 18
     iget-object v8, p0, Lxgh$b;->I:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v9, 0x7f081c62
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_star:I
 
     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -222,7 +222,7 @@
 
     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v8, 0x7f0b14a2
+    sget v8, Lcom/resouce/module/ResID;->iv_one:I
 
     if-ne p1, v8, :cond_2
 
@@ -240,7 +240,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b14d7
+    sget v0, Lcom/resouce/module/ResID;->iv_two:I
 
     if-ne p1, v0, :cond_3
 
@@ -265,7 +265,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b14d0
+    sget v0, Lcom/resouce/module/ResID;->iv_three:I
 
     if-ne p1, v0, :cond_4
 
@@ -295,7 +295,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b145b
+    sget v0, Lcom/resouce/module/ResID;->iv_four:I
 
     if-ne p1, v0, :cond_5
 

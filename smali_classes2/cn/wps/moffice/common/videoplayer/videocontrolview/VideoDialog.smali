@@ -481,7 +481,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b337f
+    sget v1, Lcom/resouce/module/ResID;->video_player_surface:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b337c
+    sget v1, Lcom/resouce/module/ResID;->video_player_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b337d
+    sget v1, Lcom/resouce/module/ResID;->video_player_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -522,7 +522,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b337b    # 1.8503E38f
+    sget v1, Lcom/resouce/module/ResID;->video_player_center_pause:I    # 1.8503E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -535,7 +535,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3380
+    sget v1, Lcom/resouce/module/ResID;->video_player_surfaceContainer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -583,17 +583,17 @@
     .line 13
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->q(Z)Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;
 
-    const v1, 0x7f0816fd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back_white:I
 
     .line 14
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->s(I)Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;
 
-    const v1, 0x7f080385
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_pause:I
 
     .line 15
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->t(I)Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;
 
-    const v1, 0x7f08038c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_play:I
 
     .line 16
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;->u(I)Lcn/wps/moffice/common/videoplayer/videocontrolview/VideoControllerView$g;
@@ -727,7 +727,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f130155
+    sget v0, Lcom/resouce/module/ResSTYLE;->FullScreenDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Landroid/app/DialogFragment;->setStyle(II)V
@@ -762,7 +762,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0ea9
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_video_player_layout:I
 
     const/4 v0, 0x0
 

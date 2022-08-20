@@ -11,7 +11,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f130138
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Right_In_Right_Out:I
 
     const/4 v1, 0x0
 
@@ -55,7 +55,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a44
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_about_home_account_layout:I
 
     const/4 v2, 0x0
 
@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2fda
+    sget v2, Lcom/resouce/module/ResID;->title_bar_area:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b0530
+    sget v3, Lcom/resouce/module/ResID;->container:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

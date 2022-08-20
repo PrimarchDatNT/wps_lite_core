@@ -77,12 +77,12 @@
 
     if-eqz v1, :cond_0
 
-    const v4, 0x7f1215bc
+    sget v4, Lcom/resouce/module/ResSTRING;->pad_smart_brush:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f1215aa
+    sget v4, Lcom/resouce/module/ResSTRING;->pad_normal_brush:I
 
     :goto_0
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -96,16 +96,16 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eqz v1, :cond_1
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     :goto_1
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -122,7 +122,7 @@
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     :goto_2
     invoke-virtual {v4, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -143,12 +143,12 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f080bb4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_ai:I
 
     goto :goto_3
 
     :cond_3
-    const v1, 0x7f080bb3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush:I
 
     :goto_3
     invoke-virtual {v3, v1}, Landroid/widget/ImageView;->setImageResource(I)V

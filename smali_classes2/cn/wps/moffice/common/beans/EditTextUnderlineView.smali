@@ -83,12 +83,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0605f1
+    sget p1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f060259
+    sget p1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getColor(I)I

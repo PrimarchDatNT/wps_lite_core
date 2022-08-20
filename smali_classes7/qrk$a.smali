@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123444
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_words_exceeds_not_operated:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

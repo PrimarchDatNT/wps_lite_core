@@ -1714,7 +1714,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0145
+    sget v1, Lcom/resouce/module/ResLAYOUT;->easy_pay_toolbar:I
 
     const/4 v2, 0x0
 
@@ -1722,7 +1722,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b07e9
+    sget v1, Lcom/resouce/module/ResID;->easy_pay_toolbar_tv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

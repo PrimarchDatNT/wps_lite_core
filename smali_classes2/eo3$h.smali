@@ -238,7 +238,7 @@
     goto :goto_1
 
     :catch_1
-    const v2, 0x7f120bf2
+    sget v2, Lcom/resouce/module/ResSTRING;->et_prot_sheet_no_operator:I
 
     .line 15
     :try_start_3
@@ -260,7 +260,7 @@
     goto :goto_0
 
     :catch_2
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     const/4 v2, 0x1
 
@@ -283,7 +283,7 @@
     goto :goto_0
 
     :catch_3
-    const v2, 0x7f120014
+    sget v2, Lcom/resouce/module/ResSTRING;->InvalidPasteException:I
 
     .line 19
     invoke-static {v2, v1}, Lxn3;->d(II)V
@@ -304,7 +304,7 @@
     goto :goto_0
 
     :catch_4
-    const v2, 0x7f12072f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 21
     invoke-static {v2, v1}, Lxn3;->d(II)V

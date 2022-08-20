@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0e3d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_share_wps_token_layout:I
 
     const/4 v3, 0x0
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b0eb9
+    sget v2, Lcom/resouce/module/ResID;->func_img:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b0ebe
+    sget v4, Lcom/resouce/module/ResID;->func_name:I
 
     .line 3
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b0ea4
+    sget v5, Lcom/resouce/module/ResID;->func_desc:I
 
     .line 4
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b2b73
+    sget v6, Lcom/resouce/module/ResID;->share_from:I
 
     .line 5
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b279f
+    sget v7, Lcom/resouce/module/ResID;->qr_code_img:I
 
     .line 6
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    const v8, 0x7f0b2ba5
+    sget v8, Lcom/resouce/module/ResID;->share_superfunc:I
 
     .line 7
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     invoke-virtual {v8, v9}, Landroid/view/View;->setVisibility(I)V
 
-    const v8, 0x7f0b2b76
+    sget v8, Lcom/resouce/module/ResID;->share_imgblock:I
 
     .line 8
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,12 +208,12 @@
 
     if-eqz v10, :cond_0
 
-    const v10, 0x7f08154e
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_12_qr_share_card_bg:I
 
     .line 11
     iget-object v13, v1, Lfgf;->a:Landroid/app/Activity;
 
-    const v14, 0x7f120fd5
+    sget v14, Lcom/resouce/module/ResSTRING;->home_membership_type_docer:I
 
     invoke-virtual {v13, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -230,7 +230,7 @@
     goto :goto_0
 
     :cond_0
-    const v10, 0x7f08154d
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_10_qr_share_card_bg:I
 
     const v13, -0xc9c1ab
 
@@ -254,12 +254,12 @@
 
     if-eqz v17, :cond_1
 
-    const v10, 0x7f08154f
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_20_qr_share_card_bg:I
 
     .line 13
     iget-object v13, v1, Lfgf;->a:Landroid/app/Activity;
 
-    const v14, 0x7f120fd8
+    sget v14, Lcom/resouce/module/ResSTRING;->home_membership_type_silver:I
 
     invoke-virtual {v13, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -282,12 +282,12 @@
 
     if-eqz v14, :cond_2
 
-    const v10, 0x7f081567
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_40_qr_share_card_bg:I
 
     .line 15
     iget-object v13, v1, Lfgf;->a:Landroid/app/Activity;
 
-    const v14, 0x7f120fd7
+    sget v14, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {v13, v14}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -307,7 +307,7 @@
     :try_start_0
     iget-object v3, v1, Lfgf;->a:Landroid/app/Activity;
 
-    const v9, 0x7f122c2c
+    sget v9, Lcom/resouce/module/ResSTRING;->public_wps_token_from_no_name:I
 
     invoke-virtual {v3, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -347,7 +347,7 @@
 
     move-object/from16 v18, v7
 
-    const v7, 0x7f122c2b
+    sget v7, Lcom/resouce/module/ResSTRING;->public_wps_token_from:I
 
     invoke-virtual {v3, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -524,7 +524,7 @@
 
     iget-object v2, v1, Lfgf;->a:Landroid/app/Activity;
 
-    const v4, 0x7f122c2d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wps_token_no_desc_def:I
 
     .line 39
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -755,7 +755,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230d2
+    sget v1, Lcom/resouce/module/ResSTRING;->token_share_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -887,7 +887,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f06003e
+    sget v2, Lcom/resouce/module/ResCOLOR;->black:I
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -900,7 +900,7 @@
 
     move-result-object p3
 
-    const v2, 0x7f0606e0
+    sget v2, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getColor(I)I
 

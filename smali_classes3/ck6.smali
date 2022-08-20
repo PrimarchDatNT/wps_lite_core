@@ -305,7 +305,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f0e02a7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_home_search_result_list_layout:I
 
     return v0
 .end method
@@ -317,7 +317,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0b2863
+    sget v0, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
     invoke-virtual {v0, v1, v2}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;->x(J)V
 
     :cond_0
-    const v0, 0x7f0b171c
+    sget v0, Lcom/resouce/module/ResID;->loadingLayout:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     iput-object v0, p0, Lck6;->W:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b171e
+    sget v0, Lcom/resouce/module/ResID;->loadingView:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     iput-object v0, p0, Lck6;->X:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b171d
+    sget v0, Lcom/resouce/module/ResID;->loadingText:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122d04
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_loading_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -491,7 +491,7 @@
 
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->u(Landroidx/recyclerview/widget/RecyclerView$l;)V
 
-    const v0, 0x7f0b287c
+    sget v0, Lcom/resouce/module/ResID;->refreshLayout:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/home/refresh/KRefreshLayout;->b(Lll6;)Lal6;
 
-    const v0, 0x7f0b0225
+    sget v0, Lcom/resouce/module/ResID;->blank_data_layout:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

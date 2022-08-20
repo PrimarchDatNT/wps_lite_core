@@ -174,7 +174,7 @@
 
     if-eqz v2, :cond_3
 
-    const v2, 0x7f120ba5
+    sget v2, Lcom/resouce/module/ResSTRING;->et_not_support_when_filter_on:I
 
     .line 5
     invoke-static {v2, v1}, Lsjf;->k(II)V
@@ -350,7 +350,7 @@
     goto/16 :goto_2
 
     :catch_1
-    const v0, 0x7f12072e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_data_overflow:I
 
     .line 17
     :try_start_4
@@ -416,7 +416,7 @@
     goto/16 :goto_2
 
     :catch_3
-    const v1, 0x7f12072c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 25
     :try_start_6
@@ -446,7 +446,7 @@
     goto :goto_2
 
     :catch_4
-    const v0, 0x7f120014
+    sget v0, Lcom/resouce/module/ResSTRING;->InvalidPasteException:I
 
     .line 29
     :try_start_7
@@ -476,7 +476,7 @@
     goto :goto_2
 
     :catch_5
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 33
     :try_start_8

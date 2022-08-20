@@ -114,7 +114,7 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f121711
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc:I
 
     invoke-virtual {v0, v2, v1}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -125,13 +125,13 @@
 
     sget-object v2, Lcn/wps/moffice/plugin/bridge/vas/pdf/shell/convert/cloud/TaskType;->TO_CAD:Lcn/wps/moffice/plugin/bridge/vas/pdf/shell/convert/cloud/TaskType;
 
-    const v4, 0x7f0b2fa6
+    sget v4, Lcom/resouce/module/ResID;->tip_text:I
 
-    const v5, 0x7f0b2fa1    # 1.8501E38f
+    sget v5, Lcom/resouce/module/ResID;->tip_content_des:I    # 1.8501E38f
 
     if-ne v1, v2, :cond_0
 
-    const v1, 0x7f121710
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_custom_pdf2cad_tip:I
 
     .line 3
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -225,7 +225,7 @@
     .line 5
     iput-boolean v0, p0, Lrid;->T:Z
 
-    const v1, 0x7f12173e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_finish_dialog_title:I
 
     .line 6
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -234,7 +234,7 @@
 
     invoke-virtual {p0, v1}, Lvcd;->setTitle(Ljava/lang/String;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f12241c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loc_at_my_doc:I
 
     .line 7
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -246,7 +246,7 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f122599
+    sget v4, Lcom/resouce/module/ResSTRING;->public_open_document:I
 
     const/4 v5, 0x0
 
@@ -264,7 +264,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a5c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->plugin_pdf_home_send_to_desktop_dialog_tips:I
 
     invoke-virtual {v1, v2, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -284,14 +284,14 @@
 
     invoke-virtual {p0, v1, v2}, Lvcd;->setNegativeButton(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v1, 0x7f122ec8
+    sget v1, Lcom/resouce/module/ResSTRING;->send_to_desktop:I
 
     .line 13
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 14
     invoke-static {v2}, Ltid;->a(I)I
@@ -314,7 +314,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121711
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc:I
 
     new-array v4, v3, [Ljava/lang/Object;
 
@@ -344,7 +344,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f0e0a5e
+    sget v6, Lcom/resouce/module/ResLAYOUT;->plugin_task_done_tips_dialog:I
 
     invoke-virtual {v2, v6, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -353,7 +353,7 @@
     .line 18
     invoke-virtual {p0, v2}, Lvcd;->setView(Landroid/view/View;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const v6, 0x7f0b2fa6
+    sget v6, Lcom/resouce/module/ResID;->tip_text:I
 
     .line 19
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -373,12 +373,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f1223d4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_later:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f121757
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_i_see:I
 
     .line 21
     :goto_0
@@ -406,7 +406,7 @@
     goto :goto_1
 
     :cond_3
-    const v1, 0x7f121727
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_cloud_save_dialog_open_file:I
 
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
 

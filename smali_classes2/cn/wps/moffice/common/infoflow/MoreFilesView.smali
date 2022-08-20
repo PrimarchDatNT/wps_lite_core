@@ -57,13 +57,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c76
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_more_files_view:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b18e7
+    sget v0, Lcom/resouce/module/ResID;->more_files_tv:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e1
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -164,7 +164,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/MoreFilesView;->B:Landroid/widget/TextView;
 
-    const v1, 0x7f080067
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ad_download_center_delete_btn_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -189,7 +189,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0604b1
+    sget v3, Lcom/resouce/module/ResCOLOR;->phontic_title_bar_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

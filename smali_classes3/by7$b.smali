@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e2
+    sget v1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0601d2
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_login_button_disable:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

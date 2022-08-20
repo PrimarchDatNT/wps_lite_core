@@ -134,7 +134,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0504
+    sget v1, Lcom/resouce/module/ResLAYOUT;->oversea_home_pop_tip_layout:I
 
     const/4 v2, 0x0
 
@@ -145,7 +145,7 @@
 
     iput-object v0, p0, Lr6a;->h:Landroid/view/View;
 
-    const v1, 0x7f0b1114
+    sget v1, Lcom/resouce/module/ResID;->home_pop_tip_arrow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
     .line 4
     iget-object v0, p0, Lr6a;->h:Landroid/view/View;
 
-    const v1, 0x7f0b1116
+    sget v1, Lcom/resouce/module/ResID;->home_pop_tip_content_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
     .line 5
     iget-object v0, p0, Lr6a;->h:Landroid/view/View;
 
-    const v1, 0x7f0b1115
+    sget v1, Lcom/resouce/module/ResID;->home_pop_tip_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

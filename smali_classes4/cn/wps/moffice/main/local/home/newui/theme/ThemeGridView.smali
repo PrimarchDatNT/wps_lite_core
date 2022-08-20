@@ -101,7 +101,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/local/home/newui/theme/ThemeGridView;->V:Landroid/view/View;
 
-    const v2, 0x7f0b2ac9
+    sget v2, Lcom/resouce/module/ResID;->second_full_screen_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

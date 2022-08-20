@@ -99,7 +99,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -528,7 +528,7 @@
 
     const-string v2, "950"
 
-    const v3, 0x7f121646
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_verify_char_too_less:I
 
     const/4 v4, 0x0
 
@@ -565,7 +565,7 @@
     return-void
 
     :cond_1
-    const v6, 0x7f121647
+    sget v6, Lcom/resouce/module/ResSTRING;->paper_check_verify_char_too_much:I
 
     const v7, 0x249f0
 
@@ -615,7 +615,7 @@
 
     move-result v0
 
-    const v8, 0x7f1215fa
+    sget v8, Lcom/resouce/module/ResSTRING;->paper_check_network_error:I
 
     if-nez v0, :cond_3
 
@@ -862,7 +862,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v2, 0x7f1215fd
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_only_support_chinese_language:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -892,7 +892,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v2, 0x7f121630
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_support_chinese_and_english_language:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1103,7 +1103,7 @@
     .line 9
     iget-object p2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v0, 0x7f121633
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_tab_paper_report:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1354,7 +1354,7 @@
 .method public final G3(Landroid/view/View;)V
     .locals 9
 
-    const v0, 0x7f0b19e0
+    sget v0, Lcom/resouce/module/ResID;->network_error_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1363,7 +1363,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b0860
+    sget v1, Lcom/resouce/module/ResID;->empty_tips:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1377,7 +1377,7 @@
     .line 3
     invoke-virtual {v5, p0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->p(Landroid/view/View$OnClickListener;)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b0fdc
+    sget v1, Lcom/resouce/module/ResID;->history_list:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1425,7 +1425,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b040b
+    sget v0, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1447,13 +1447,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0da5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_history_footer_layout:I
 
     invoke-virtual {p1, v0, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v6
 
-    const p1, 0x7f0b052e
+    sget p1, Lcom/resouce/module/ResID;->contact_custom_service:I
 
     .line 15
     invoke-virtual {v6, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1462,7 +1462,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2e98    # 1.8500462E38f
+    sget p1, Lcom/resouce/module/ResID;->take_lesson:I    # 1.8500462E38f
 
     .line 16
     invoke-virtual {v6, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1478,7 +1478,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0daa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_result_tips_layout:I
 
     invoke-virtual {p1, v0, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1547,7 +1547,7 @@
 .method public final H3(Landroid/view/View;)V
     .locals 9
 
-    const v0, 0x7f0b19e0
+    sget v0, Lcom/resouce/module/ResID;->network_error_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1556,7 +1556,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b0860
+    sget v1, Lcom/resouce/module/ResID;->empty_tips:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1567,7 +1567,7 @@
 
     check-cast v5, Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12167d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_down_repetition_select_file:I
 
     .line 3
     invoke-virtual {v5, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -1579,7 +1579,7 @@
     .line 4
     invoke-virtual {v5, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->p(Landroid/view/View$OnClickListener;)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f0b0fdc
+    sget v1, Lcom/resouce/module/ResID;->history_list:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1597,7 +1597,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0daa
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_result_tips_layout:I
 
     const/4 v3, 0x0
 
@@ -1645,7 +1645,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b040b
+    sget v0, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1670,13 +1670,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0db1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_down_history_footer_layout:I
 
     invoke-virtual {v0, v1, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v6
 
-    const v0, 0x7f0b052e
+    sget v0, Lcom/resouce/module/ResID;->contact_custom_service:I
 
     .line 19
     invoke-virtual {v6, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1689,7 +1689,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2e98    # 1.8500462E38f
+    sget v0, Lcom/resouce/module/ResID;->take_lesson:I    # 1.8500462E38f
 
     .line 20
     invoke-virtual {v6, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1937,9 +1937,9 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->h0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {p1, v0, v2, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(IIZ)V
 
@@ -2032,7 +2032,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v1, 0x7f1215e2
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_engine_nosupport:I
 
     const/4 v2, 0x0
 
@@ -2465,14 +2465,14 @@
     .line 17
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f121638
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->h0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f12160d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     new-instance v2, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog$n0;
 
@@ -2516,7 +2516,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_failed_layout:I
 
     iget-object v2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
@@ -2525,14 +2525,14 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f12162b
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_result_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b052e
+    sget v1, Lcom/resouce/module/ResID;->contact_custom_service:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2592,7 +2592,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v3, 0x7f130125
+    sget v3, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, v2, v3}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
@@ -2603,7 +2603,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e8a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_title_image_checkbox_dialog:I
 
     const/4 v4, 0x0
 
@@ -2620,7 +2620,7 @@
     .line 7
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
-    const v1, 0x7f0b2ffa    # 1.850118E38f
+    sget v1, Lcom/resouce/module/ResID;->title_image_checkbox_dialog_checkbox:I    # 1.850118E38f
 
     .line 8
     invoke-virtual {v2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2629,7 +2629,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v3, 0x7f0b2ff9
+    sget v3, Lcom/resouce/module/ResID;->title_image_checkbox_dialog_btn:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2746,7 +2746,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_checking_layout:I
 
     iget-object v2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
@@ -2755,14 +2755,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f121657
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verifying_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b2f05
+    sget v1, Lcom/resouce/module/ResID;->text_checking:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2773,7 +2773,7 @@
     .line 8
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2f97
+    sget v2, Lcom/resouce/module/ResID;->time_checking:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2784,7 +2784,7 @@
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v3, 0x7f1215c9
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_checking_now:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2796,7 +2796,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b03d4
+    sget v2, Lcom/resouce/module/ResID;->checking_history:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2937,7 +2937,7 @@
 
     const/4 v11, 0x1
 
-    const v12, 0x7f1215ca
+    sget v12, Lcom/resouce/module/ResSTRING;->paper_check_checking_predict:I
 
     if-ge v8, v9, :cond_2
 
@@ -3052,7 +3052,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v2, 0x7f1215e1
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_engine_none_usable_tip:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3065,7 +3065,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog$g;-><init>(Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;)V
 
-    const v2, 0x7f1215db
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_date_picker_confirm:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -3095,7 +3095,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3129,7 +3129,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v2, 0x7f12160d
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_paper_start_check_info:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3149,18 +3149,18 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f1215fb
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_normal_paper_start_check_info_detail:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121615
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_published_paper_start_check_info_detail:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     :cond_1
-    const v1, 0x7f121177
+    sget v1, Lcom/resouce/module/ResSTRING;->home_task_know:I
 
     const/4 v2, 0x0
 
@@ -3193,7 +3193,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3476,7 +3476,7 @@
     .line 17
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f12164d
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verify_history:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -3487,7 +3487,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d57
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_check_result_layout:I
 
     iget-object v2, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
@@ -3496,7 +3496,7 @@
     .line 19
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1ba4
+    sget v1, Lcom/resouce/module/ResID;->output_detail_report:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3507,7 +3507,7 @@
     .line 20
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b03bd
+    sget v2, Lcom/resouce/module/ResID;->check_simple_report:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3547,7 +3547,7 @@
     .line 24
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b3012
+    sget v1, Lcom/resouce/module/ResID;->title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3560,7 +3560,7 @@
     .line 25
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b0189
+    sget v1, Lcom/resouce/module/ResID;->author_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3573,7 +3573,7 @@
     .line 26
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b038c
+    sget v1, Lcom/resouce/module/ResID;->char_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3586,7 +3586,7 @@
     .line 27
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c86
+    sget v1, Lcom/resouce/module/ResID;->paper_advice:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3599,7 +3599,7 @@
     .line 28
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c88
+    sget v1, Lcom/resouce/module/ResID;->paper_advice_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3608,7 +3608,7 @@
     .line 29
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c91
+    sget v1, Lcom/resouce/module/ResID;->paper_check_repeat_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3617,7 +3617,7 @@
     .line 30
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c93
+    sget v1, Lcom/resouce/module/ResID;->paper_check_repeat_rate_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3626,7 +3626,7 @@
     .line 31
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c92
+    sget v1, Lcom/resouce/module/ResID;->paper_check_repeat_rate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3639,7 +3639,7 @@
     .line 32
     iget-object v0, v9, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b1c96
+    sget v1, Lcom/resouce/module/ResID;->paper_check_result_progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3808,7 +3808,7 @@
     .line 45
     iget-object v5, v3, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
-    const v6, 0x7f0b03a4
+    sget v6, Lcom/resouce/module/ResID;->check_again:I
 
     invoke-virtual {v5, v6}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -3835,7 +3835,7 @@
     .line 48
     iget-object v5, v3, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
-    const v7, 0x7f0b1ca2
+    sget v7, Lcom/resouce/module/ResID;->paper_down:I
 
     invoke-virtual {v5, v7}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -3860,7 +3860,7 @@
     .line 51
     iget-wide v7, v10, Ldha;->g0:D
 
-    const v5, 0x7f121621
+    sget v5, Lcom/resouce/module/ResSTRING;->paper_check_result_advice_repeat_low:I
 
     const-wide/16 v9, 0x0
 
@@ -3871,7 +3871,7 @@
     .line 52
     iget-object v4, v3, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v7, 0x7f0b1c95
+    sget v7, Lcom/resouce/module/ResID;->paper_check_result_bottom_help:I
 
     invoke-virtual {v4, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3887,7 +3887,7 @@
     .line 54
     invoke-virtual {v4, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v7, 0x7f0b2e98    # 1.8500462E38f
+    sget v7, Lcom/resouce/module/ResID;->take_lesson:I    # 1.8500462E38f
 
     .line 55
     invoke-virtual {v4, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3911,7 +3911,7 @@
 
     invoke-virtual {v4, v1, v7, v1, v1}, Landroid/view/View;->setPadding(IIII)V
 
-    const v7, 0x7f0b052e
+    sget v7, Lcom/resouce/module/ResID;->contact_custom_service:I
 
     .line 57
     invoke-virtual {v4, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3949,7 +3949,7 @@
 
     if-lez v11, :cond_b
 
-    const v0, 0x7f12161f
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_result_advice_repeat_height:I
 
     .line 60
     invoke-virtual {v9, v0}, Landroid/widget/TextView;->setText(I)V
@@ -3972,7 +3972,7 @@
 
     if-lez v11, :cond_d
 
-    const v0, 0x7f121622
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_result_advice_repeat_middle:I
 
     .line 62
     invoke-virtual {v9, v0}, Landroid/widget/TextView;->setText(I)V
@@ -4141,7 +4141,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v1, 0x7f1215c8
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_checking_loading:I
 
     const/4 v2, 0x0
 
@@ -4306,7 +4306,7 @@
 
     iget-object p2, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->n0:Landroid/widget/FrameLayout;
 
-    const p3, 0x7f0e0dad
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_verify_layout:I
 
     invoke-virtual {p1, p3, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -4317,7 +4317,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b13a0
+    sget p2, Lcom/resouce/module/ResID;->item_check_format:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4330,7 +4330,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b13a2
+    sget p2, Lcom/resouce/module/ResID;->item_check_size:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4343,7 +4343,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b13a4
+    sget p2, Lcom/resouce/module/ResID;->item_check_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4356,7 +4356,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b139e
+    sget p2, Lcom/resouce/module/ResID;->item_check_char:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4369,7 +4369,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const p2, 0x7f0b139b
+    sget p2, Lcom/resouce/module/ResID;->item_check_auth:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4382,35 +4382,35 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->i0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f12164c
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_format:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->j0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f12164f
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_size:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->k0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f121650
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_title:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->l0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f121645
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_char:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->m0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const p2, 0x7f121640
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_auth:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
@@ -4430,7 +4430,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0da8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_check_main_layout:I
 
     const/4 v2, 0x0
 
@@ -4448,7 +4448,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b0530
+    sget v2, Lcom/resouce/module/ResID;->container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4461,7 +4461,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4471,7 +4471,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->h0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f12163f
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_verify:I
 
     .line 5
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -4491,7 +4491,7 @@
     .line 8
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2b3c
+    sget v2, Lcom/resouce/module/ResID;->shadow:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4521,7 +4521,7 @@
     .line 12
     iget-object v1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b040b
+    sget v2, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4657,7 +4657,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v2, 0x7f1215c8
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_checking_loading:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -4716,7 +4716,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02c6
+    sget v0, Lcom/resouce/module/ResID;->btn_close:I
 
     if-eq p1, v0, :cond_1a
 
@@ -4728,7 +4728,7 @@
     goto/16 :goto_4
 
     :cond_1
-    const v0, 0x7f0b2d86    # 1.8499906E38f
+    sget v0, Lcom/resouce/module/ResID;->start_check:I    # 1.8499906E38f
 
     const-string v1, "published"
 
@@ -4899,7 +4899,7 @@
     .line 18
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v0, 0x7f1224de
+    sget v0, Lcom/resouce/module/ResSTRING;->public_msg_network_timeout:I
 
     invoke-static {p1, v0, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -5046,7 +5046,7 @@
     :goto_2
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperCheckDialog;->U:Landroid/app/Activity;
 
-    const v0, 0x7f121651
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_check_verify_title_format_error:I
 
     invoke-static {p1, v0, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -5055,7 +5055,7 @@
     return-void
 
     :cond_d
-    const v0, 0x7f0b03b0
+    sget v0, Lcom/resouce/module/ResID;->check_info:I
 
     if-ne p1, v0, :cond_e
 
@@ -5065,7 +5065,7 @@
     goto/16 :goto_5
 
     :cond_e
-    const v0, 0x7f0b03d4
+    sget v0, Lcom/resouce/module/ResID;->checking_history:I
 
     if-ne p1, v0, :cond_f
 
@@ -5118,7 +5118,7 @@
     goto/16 :goto_5
 
     :cond_f
-    const v0, 0x7f0b052e
+    sget v0, Lcom/resouce/module/ResID;->contact_custom_service:I
 
     if-ne p1, v0, :cond_10
 
@@ -5128,7 +5128,7 @@
     goto/16 :goto_5
 
     :cond_10
-    const v0, 0x7f0b03bd
+    sget v0, Lcom/resouce/module/ResID;->check_simple_report:I
 
     const-string v5, "getreport"
 
@@ -5167,7 +5167,7 @@
     goto/16 :goto_5
 
     :cond_11
-    const v0, 0x7f0b1ba4
+    sget v0, Lcom/resouce/module/ResID;->output_detail_report:I
 
     if-ne p1, v0, :cond_14
 
@@ -5216,7 +5216,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -5239,7 +5239,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120362
+    sget v0, Lcom/resouce/module/ResSTRING;->deeplink_home_document_paper_check_result:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5269,7 +5269,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121602
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_paper_cloud_folder:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5281,7 +5281,7 @@
     goto/16 :goto_5
 
     :cond_14
-    const v0, 0x7f0b2599
+    sget v0, Lcom/resouce/module/ResID;->public_common_error_btn:I
 
     const/16 v2, 0xc
 
@@ -5293,7 +5293,7 @@
     goto :goto_5
 
     :cond_15
-    const v0, 0x7f0b2e98    # 1.8500462E38f
+    sget v0, Lcom/resouce/module/ResID;->take_lesson:I    # 1.8500462E38f
 
     if-ne p1, v0, :cond_16
 
@@ -5305,7 +5305,7 @@
     goto :goto_5
 
     :cond_16
-    const v0, 0x7f0b03a4
+    sget v0, Lcom/resouce/module/ResID;->check_again:I
 
     if-ne p1, v0, :cond_18
 
@@ -5363,7 +5363,7 @@
     goto :goto_5
 
     :cond_18
-    const v0, 0x7f0b1ca2
+    sget v0, Lcom/resouce/module/ResID;->paper_down:I
 
     if-ne p1, v0, :cond_19
 
@@ -5385,7 +5385,7 @@
     goto :goto_5
 
     :cond_19
-    const v0, 0x7f0b1ca3
+    sget v0, Lcom/resouce/module/ResID;->paper_down_help_tips:I
 
     if-ne p1, v0, :cond_1b
 

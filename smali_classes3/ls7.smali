@@ -25,7 +25,7 @@
 .method public V2()I
     .locals 1
 
-    const v0, 0x7f120f4f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_manage_account:I
 
     return v0
 .end method
@@ -33,7 +33,7 @@
 .method public W2()I
     .locals 1
 
-    const v0, 0x7f0e0348
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_manage_account_layout:I
 
     return v0
 .end method
@@ -41,7 +41,7 @@
 .method public X2(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b02cf
+    sget v0, Lcom/resouce/module/ResID;->btn_delete_account:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02cf
+    sget v0, Lcom/resouce/module/ResID;->btn_delete_account:I
 
     if-ne p1, v0, :cond_1
 

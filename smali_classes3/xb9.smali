@@ -253,7 +253,7 @@
     :cond_0
     iget-object v0, p0, Lwb9;->T:Landroid/view/View;
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,7 +652,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e031b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_pop_view:I
 
     const/4 v4, 0x0
 
@@ -750,7 +750,7 @@
     .line 19
     iget-object v2, p0, Lxb9;->H1:Landroid/view/View;
 
-    const v3, 0x7f0b0e03
+    sget v3, Lcom/resouce/module/ResID;->folder_manager_pop_view_button:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -930,7 +930,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_filebrowser:I
 
     const/4 v2, 0x0
 
@@ -947,7 +947,7 @@
 
     iput-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2ac1
+    sget v1, Lcom/resouce/module/ResID;->searchparent:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1129,7 +1129,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1205f2
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_open_folders:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1165,7 +1165,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122385
+    sget v2, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

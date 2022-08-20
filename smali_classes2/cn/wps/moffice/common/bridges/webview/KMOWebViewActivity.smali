@@ -618,7 +618,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0b33b3
+    sget v2, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -633,7 +633,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b124e
+    sget v1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -907,7 +907,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122419
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loading:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -946,7 +946,7 @@
     :cond_3
     if-nez v4, :cond_4
 
-    const v4, 0x7f081fa7
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->webview_default:I
 
     .line 19
     :cond_4
@@ -1071,7 +1071,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2798
+    sget v1, Lcom/resouce/module/ResID;->push_tips_ptr_super_webview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1082,7 +1082,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/bridges/webview/KMOWebViewActivity;->mPtrExtendWebView:Lcn/wps/moffice/common/bridges/webview/PtrExtendsWebView;
 
-    const v1, 0x7f0b2610
+    sget v1, Lcom/resouce/module/ResID;->public_frequent_circle_progressBar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1194,7 +1194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b33b3
+    sget v1, Lcom/resouce/module/ResID;->view_title_lay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1594,7 +1594,7 @@
 
     if-eqz v0, :cond_0
 
-    const v2, 0x7f0b33b3
+    sget v2, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1609,7 +1609,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b124e
+    sget v1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

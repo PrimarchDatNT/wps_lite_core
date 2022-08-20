@@ -113,9 +113,9 @@
 
     move-result-object v1
 
-    const v2, 0x7f0806cf
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->fill_sign_attr:I
 
-    const v3, 0x7f1216e1
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_app_fill_sign:I
 
     .line 3
     invoke-static {v2, v3, v0, v1}, Lms9;->a(IIZLjava/lang/String;)Lms9;

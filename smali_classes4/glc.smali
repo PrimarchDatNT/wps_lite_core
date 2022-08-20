@@ -484,7 +484,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ff4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_edit_bottombar:I
 
     return v0
 .end method
@@ -600,7 +600,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dec
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_toolbar_quickbar_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +613,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dc3
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -626,7 +626,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dc4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_text_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -637,7 +637,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dc1
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -650,7 +650,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dc2
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_img_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -661,7 +661,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dbf
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_fill_form:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -674,7 +674,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dc0
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_fill_form_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dbd
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_annotation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -698,7 +698,7 @@
     .line 10
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dbe
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_bootom_bar_annotation_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -722,7 +722,7 @@
 
     move-result v0
 
-    const v1, 0x7f0804ea
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->distingush_oversea_preium:I
 
     if-nez v0, :cond_0
 

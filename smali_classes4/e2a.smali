@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e00f9
+    sget p2, Lcom/resouce/module/ResLAYOUT;->dialog_remind_member:I
 
     const/4 p3, 0x0
 
@@ -1314,7 +1314,7 @@
     .line 13
     invoke-virtual {p0, v0}, Lhd3;->setBackground(I)V
 
-    const v0, 0x7f0b29a6
+    sget v0, Lcom/resouce/module/ResID;->root:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1325,7 +1325,7 @@
 
     iput-object v0, p0, Le2a;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b288e
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_tip_title:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1336,7 +1336,7 @@
 
     iput-object v0, p0, Le2a;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b288d
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_tip_des:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1347,7 +1347,7 @@
 
     iput-object v0, p0, Le2a;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b288c
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_pay_btn:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
     .line 18
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b288a
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_close:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1375,7 +1375,7 @@
     .line 20
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b288b
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_img:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1494,7 +1494,7 @@
     .line 32
     iget-object p1, p0, Le2a;->T:Landroid/widget/Button;
 
-    const v0, 0x7f1210c5
+    sget v0, Lcom/resouce/module/ResSTRING;->home_pay_to_use_now:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -1504,7 +1504,7 @@
     :cond_1
     iget-object p1, p0, Le2a;->T:Landroid/widget/Button;
 
-    const v0, 0x7f120f68
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_buy_now_continue:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -1609,7 +1609,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b288c
+    sget v1, Lcom/resouce/module/ResID;->remind_member_dialog_pay_btn:I
 
     if-ne v0, v1, :cond_0
 
@@ -1699,7 +1699,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b288a
+    sget v0, Lcom/resouce/module/ResID;->remind_member_dialog_close:I
 
     if-ne p1, v0, :cond_1
 

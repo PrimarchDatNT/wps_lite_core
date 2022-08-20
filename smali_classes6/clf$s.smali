@@ -54,7 +54,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0aa3
+    sget v2, Lcom/resouce/module/ResID;->et_input_view:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

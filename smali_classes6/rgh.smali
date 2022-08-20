@@ -493,7 +493,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122011
+    sget v1, Lcom/resouce/module/ResSTRING;->public_document_recovery_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -520,7 +520,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v5, 0x7f12280e
+    sget v5, Lcom/resouce/module/ResSTRING;->public_resume_document_tips_cn:I
 
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -557,7 +557,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v5, 0x7f1233f1
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_resume_document_tips_system_cn:I
 
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -592,7 +592,7 @@
     .line 10
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const p0, 0x7f12280f
+    sget p0, Lcom/resouce/module/ResSTRING;->public_resume_document_yes:I
 
     .line 11
     new-instance v1, Lrgh$a;
@@ -601,7 +601,7 @@
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f12280c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_resume_document_no:I
 
     .line 12
     new-instance v1, Lrgh$b;

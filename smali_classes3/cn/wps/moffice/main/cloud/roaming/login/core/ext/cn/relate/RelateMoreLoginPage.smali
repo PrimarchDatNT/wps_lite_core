@@ -67,7 +67,7 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0b2f7b
+    sget p1, Lcom/resouce/module/ResID;->thirdButtonContainer:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Fragment;->onAttach(Landroid/app/Activity;)V
 
-    const p1, 0x7f122457
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_more_login_ways:I
 
     .line 2
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V
@@ -107,7 +107,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b005d
+    sget v0, Lcom/resouce/module/ResID;->accountLoginButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -126,7 +126,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1217
+    sget v0, Lcom/resouce/module/ResID;->huaweiLoginButton:I
 
     if-ne p1, v0, :cond_1
 
@@ -155,7 +155,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e0eea
+    sget p3, Lcom/resouce/module/ResLAYOUT;->relate_account_more_login_page:I
 
     const/4 v0, 0x0
 
@@ -164,7 +164,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1217
+    sget p2, Lcom/resouce/module/ResID;->huaweiLoginButton:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
     .line 3
     invoke-virtual {p2, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f0b005d
+    sget p2, Lcom/resouce/module/ResID;->accountLoginButton:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f122457
+    sget p1, Lcom/resouce/module/ResSTRING;->public_login_more_login_ways:I
 
     .line 3
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->d(I)V

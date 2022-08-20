@@ -133,7 +133,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1231cf
+    sget p1, Lcom/resouce/module/ResSTRING;->weiyun_upload_not_install:I
 
     const/4 p2, 0x1
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -453,7 +453,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f120623
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     const/4 v5, 0x1
 

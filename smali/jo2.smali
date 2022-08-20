@@ -52,12 +52,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f12116c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f120610
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     :goto_0
     invoke-direct {v0, v1, v2}, Leq2;-><init>(Ljava/lang/String;I)V

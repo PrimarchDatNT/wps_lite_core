@@ -62,7 +62,7 @@
     .line 3
     iget-object v0, v0, Luxl;->B:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f1229d4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_net_error:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -72,7 +72,7 @@
     :cond_0
     iget-object v0, v0, Luxl;->B:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f1229bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -115,7 +115,7 @@
 
     iget-object v0, v0, Luxl;->B:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f1229d5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_net_restore:I
 
     const/4 v2, 0x1
 

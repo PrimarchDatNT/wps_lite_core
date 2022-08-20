@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -154,7 +154,7 @@
 
     iget-object v1, p0, Lpc7$b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122391
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

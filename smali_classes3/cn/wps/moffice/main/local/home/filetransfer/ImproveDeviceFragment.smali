@@ -207,7 +207,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f12151a
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_list_text_login_is_cloud:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -226,7 +226,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081b84
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -243,7 +243,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06051a
+    sget p2, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector_light:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -288,16 +288,16 @@
 
     move-result-object v0
 
-    const v1, 0x7f122294
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_file_trans:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
-    const v0, 0x7f12151b
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_list_text_login_is_no_cloud:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f121fcf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_device_upload_to_cloud:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/widget/Button;->setText(I)V
@@ -567,7 +567,7 @@
 
     invoke-static {v0}, Lfg9;->s(Ljava/lang/String;)V
 
-    const v0, 0x7f1229fc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/widget/Button;->setText(I)V
@@ -602,7 +602,7 @@
 .method public O(Landroid/widget/TextView;)V
     .locals 1
 
-    const v0, 0x7f12151c
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_list_text_noLogin:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1084,7 +1084,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b053b
+    sget p2, Lcom/resouce/module/ResID;->contentFrame:I
 
     .line 5
     invoke-static {}, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->T()Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;
@@ -1173,7 +1173,7 @@
         .end annotation
     .end param
 
-    const p3, 0x7f0e0e90
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_transfer_empty_device_list_fragment:I
 
     const/4 v0, 0x0
 
@@ -1182,7 +1182,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b08ba
+    sget p2, Lcom/resouce/module/ResID;->error_page_layout:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1191,7 +1191,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/NoTransferredDeviceFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b172a
+    sget p2, Lcom/resouce/module/ResID;->loading_page_layout:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1200,7 +1200,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/NoTransferredDeviceFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b1b10
+    sget p2, Lcom/resouce/module/ResID;->online_device_list_text:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1211,7 +1211,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->d0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b0f85
+    sget p2, Lcom/resouce/module/ResID;->guide_text:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1220,7 +1220,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const p3, 0x7f0b02e3
+    sget p3, Lcom/resouce/module/ResID;->btn_login_pc:I
 
     .line 6
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1231,12 +1231,12 @@
 
     iput-object p3, p0, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->e0:Landroid/widget/Button;
 
-    const v1, 0x7f122841
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_login_to_pc:I
 
     .line 7
     invoke-virtual {p3, v1}, Landroid/widget/Button;->setText(I)V
 
-    const p3, 0x7f0b02d7
+    sget p3, Lcom/resouce/module/ResID;->btn_get_pc_client:I
 
     .line 8
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1261,7 +1261,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f122294
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_file_trans:I
 
     invoke-virtual {p3, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -1297,7 +1297,7 @@
     .line 14
     iget-object p2, p0, Lcn/wps/moffice/main/local/home/filetransfer/NoTransferredDeviceFragment;->T:Landroid/view/View;
 
-    const p3, 0x7f0b2599
+    sget p3, Lcom/resouce/module/ResID;->public_common_error_btn:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

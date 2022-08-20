@@ -361,7 +361,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f122adc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_time_limit_free:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -423,12 +423,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e052e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_topic_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e02c1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_all_inner_item_layout:I
 
     :goto_0
     const/4 v1, 0x0

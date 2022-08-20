@@ -552,7 +552,7 @@
 
     iget-object v1, p0, Lqge;->B:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, p0, v1, v2}, Lqge$j;-><init>(Lqge;Landroid/content/Context;I)V
 
@@ -767,7 +767,7 @@
 
     move-result v0
 
-    const v1, 0x7f12108a
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     if-eqz v0, :cond_0
 
@@ -786,7 +786,7 @@
 
     iget-object v2, p0, Lqge;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fd5
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_type_docer:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -826,7 +826,7 @@
 
     iget-object v1, p0, Lqge;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120fd7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

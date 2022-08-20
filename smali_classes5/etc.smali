@@ -846,7 +846,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07a0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -866,7 +866,7 @@
     .line 3
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0ed8
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_layout_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -877,7 +877,7 @@
     .line 4
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0eda
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -893,7 +893,7 @@
     :cond_0
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0ed7
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -904,7 +904,7 @@
     .line 6
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0ed6
+    sget v1, Lcom/resouce/module/ResID;->get_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -918,7 +918,7 @@
     :goto_0
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b252d
+    sget v1, Lcom/resouce/module/ResID;->privilege_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -938,7 +938,7 @@
     .line 9
     iget-object v0, p0, Letc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f0806eb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->font_purchase_orange_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -959,7 +959,7 @@
     :goto_1
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1b8e
+    sget v1, Lcom/resouce/module/ResID;->out_put_other_format:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -996,7 +996,7 @@
     .line 17
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b07f1
+    sget v1, Lcom/resouce/module/ResID;->edit_and_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1033,7 +1033,7 @@
     .line 22
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2c0d
+    sget v1, Lcom/resouce/module/ResID;->sign_and_annotation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1070,7 +1070,7 @@
     .line 27
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0767
+    sget v1, Lcom/resouce/module/ResID;->document_processing:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1107,7 +1107,7 @@
     .line 32
     iget-object v0, p0, Letc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0cbe
+    sget v1, Lcom/resouce/module/ResID;->file_encryption:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1177,7 +1177,7 @@
 
     check-cast v3, Landroid/widget/ScrollView;
 
-    const v4, 0x7f0b1dcc
+    sget v4, Lcom/resouce/module/ResID;->pdf_edit_panel:I
 
     .line 39
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1507,7 +1507,7 @@
     :cond_15
     iget v0, p1, Lms9;->a:I
 
-    const v1, 0x7f0806cf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->fill_sign_attr:I
 
     if-ne v0, v1, :cond_16
 
@@ -1517,7 +1517,7 @@
     goto :goto_0
 
     :cond_16
-    const v1, 0x7f081034
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pdf_promote_edit:I
 
     if-ne v0, v1, :cond_19
 
@@ -1526,7 +1526,7 @@
 
     if-eqz v0, :cond_18
 
-    const v0, 0x7f0b0ec3
+    sget v0, Lcom/resouce/module/ResID;->function_icon:I
 
     .line 48
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1624,14 +1624,14 @@
     .line 6
     iget-object v0, p0, Letc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f121848
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_pack_buy:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 7
     iget-object v0, p0, Letc;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f1218b2
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_description:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1641,14 +1641,14 @@
     :cond_2
     iget-object v0, p0, Letc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f122b53
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 9
     iget-object v0, p0, Letc;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f122b5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade_pdf_toolkit:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1865,9 +1865,9 @@
 
     move-result v1
 
-    const v2, 0x7f0b1b8f
+    sget v2, Lcom/resouce/module/ResID;->out_put_other_format_div_line:I
 
-    const v3, 0x7f0b1b8e
+    sget v3, Lcom/resouce/module/ResID;->out_put_other_format:I
 
     const/4 v4, 0x0
 
@@ -2348,9 +2348,9 @@
 
     move-result v1
 
-    const v2, 0x7f0b2530
+    sget v2, Lcom/resouce/module/ResID;->process_div_line:I
 
-    const v3, 0x7f0b0767
+    sget v3, Lcom/resouce/module/ResID;->document_processing:I
 
     if-nez v1, :cond_1c
 
@@ -2431,7 +2431,7 @@
     .line 87
     iget-object v1, p0, Letc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0cbf
+    sget v2, Lcom/resouce/module/ResID;->file_encryption_div_line:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2442,7 +2442,7 @@
     .line 88
     iget-object v1, p0, Letc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0cbe
+    sget v2, Lcom/resouce/module/ResID;->file_encryption:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2534,9 +2534,9 @@
 
     move-result v0
 
-    const v1, 0x7f0b07f2
+    sget v1, Lcom/resouce/module/ResID;->edit_and_export_div_line:I
 
-    const v2, 0x7f0b07f1
+    sget v2, Lcom/resouce/module/ResID;->edit_and_export:I
 
     if-nez v0, :cond_21
 
@@ -2617,7 +2617,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f12203e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     return v0
 .end method

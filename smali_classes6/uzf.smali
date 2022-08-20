@@ -138,7 +138,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120350
+    sget p2, Lcom/resouce/module/ResSTRING;->currency_unit:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

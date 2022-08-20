@@ -29,9 +29,9 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/Filter$ColorChangeFilterItem;->this$0:Lcn/wps/moffice/spreadsheet/control/Filter;
 
-    const p1, 0x7f080246
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_screen:I
 
-    const v0, 0x7f120d5a
+    sget v0, Lcom/resouce/module/ResSTRING;->filter:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V
@@ -45,9 +45,9 @@
     .line 3
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/Filter$ColorChangeFilterItem;->this$0:Lcn/wps/moffice/spreadsheet/control/Filter;
 
-    const p1, 0x7f080246
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_screen:I
 
-    const v0, 0x7f120d5a
+    sget v0, Lcom/resouce/module/ResSTRING;->filter:I
 
     .line 4
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V
@@ -80,7 +80,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06058f
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_ss_theme_textcolor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -91,7 +91,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

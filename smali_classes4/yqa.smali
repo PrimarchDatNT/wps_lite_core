@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2850
+    sget v1, Lcom/resouce/module/ResID;->recover_search_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -200,7 +200,7 @@
     .line 5
     iget-object v0, p0, Lyqa;->e:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b2a86
+    sget v2, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 6
     iget-object v0, p0, Lyqa;->e:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0b2c9b
+    sget v2, Lcom/resouce/module/ResID;->speechsearch_divider:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -233,7 +233,7 @@
     .line 8
     iget-object v0, p0, Lyqa;->e:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b0421
+    sget v1, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

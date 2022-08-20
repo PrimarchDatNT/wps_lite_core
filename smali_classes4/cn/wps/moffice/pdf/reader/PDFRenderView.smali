@@ -347,7 +347,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e064b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pdf_pad_enter_pen_dialog:I
 
     const/4 v5, 0x0
 
@@ -364,7 +364,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1215c0
+    sget v4, Lcom/resouce/module/ResSTRING;->pad_writer_pen_dialog_positive_enter:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -374,7 +374,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06005d
+    sget v5, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -393,7 +393,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122c0b
+    sget v4, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b12af
+    sget v0, Lcom/resouce/module/ResID;->img_cartoon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Laz2$e;->j0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b3210
+    sget v0, Lcom/resouce/module/ResID;->tv_page:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

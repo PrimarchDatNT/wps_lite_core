@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1066
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer:I
 
     const/4 v2, 0x0
 
@@ -136,7 +136,7 @@
     .line 9
     iget-object p2, p0, Lxyl;->c:Landroid/view/View;
 
-    const p3, 0x7f0b2f12
+    sget p3, Lcom/resouce/module/ResID;->text_editor:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
 
     check-cast p2, Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b1302
+    sget p3, Lcom/resouce/module/ResID;->infoflow_vertical:I
 
     new-instance v0, Lu1m;
 
@@ -633,7 +633,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b360a
+    sget v1, Lcom/resouce/module/ResID;->writer_play_agora_layout:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
     invoke-virtual {v0, v1}, Lzri;->x(Z)Ltfk;
 
     :cond_0
-    const v0, 0x7f0e106f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_balloonview:I
 
     const/4 v1, 0x0
 
@@ -938,7 +938,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3599
+    sget v1, Lcom/resouce/module/ResID;->writer_font_view:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -966,7 +966,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b367a
+    sget v1, Lcom/resouce/module/ResID;->writer_search_view:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1049,7 +1049,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3681
+    sget v1, Lcom/resouce/module/ResID;->writer_share_view:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1092,7 +1092,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b3692
+    sget v1, Lcom/resouce/module/ResID;->writer_table_attribute_pad:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1122,7 +1122,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b1216
+    sget v1, Lcom/resouce/module/ResID;->htmlview:I
 
     invoke-virtual {v0, v1}, Ltf6;->g(I)Landroid/view/View;
 
@@ -1199,7 +1199,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b1719
+    sget v1, Lcom/resouce/module/ResID;->load_progressbar:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1346,7 +1346,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b35d9
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -1615,7 +1615,7 @@
     .line 1
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b023c
+    sget v1, Lcom/resouce/module/ResID;->border_ruler_view:I
 
     invoke-virtual {v0, v1}, Ltf6;->g(I)Landroid/view/View;
 
@@ -1731,7 +1731,7 @@
 
     iget-object v1, p0, Lxyl;->d:Ltf6;
 
-    const v2, 0x7f0b3654
+    sget v2, Lcom/resouce/module/ResID;->writer_projection_title:I
 
     invoke-virtual {v1, v2}, Ltf6;->m(I)Landroid/view/View;
 
@@ -2073,7 +2073,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b360e
+    sget v1, Lcom/resouce/module/ResID;->writer_play_share_play:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 
@@ -2185,7 +2185,7 @@
     .line 2
     iget-object v0, p0, Lxyl;->d:Ltf6;
 
-    const v1, 0x7f0b2b95
+    sget v1, Lcom/resouce/module/ResID;->share_play_tip_bar_layout:I
 
     invoke-virtual {v0, v1}, Ltf6;->m(I)Landroid/view/View;
 

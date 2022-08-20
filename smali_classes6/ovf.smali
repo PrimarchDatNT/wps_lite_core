@@ -362,12 +362,12 @@
 
     if-eqz p3, :cond_0
 
-    const p2, 0x7f130782
+    sget p2, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f130783
+    sget p2, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_below_anim_style:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
@@ -383,7 +383,7 @@
 
     sget-boolean v1, Ljif;->o:Z
 
-    const v1, 0x7f081af7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_popmenu_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 

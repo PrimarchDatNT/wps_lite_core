@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cdb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_login_guide_tips_bar:I
 
     const/4 v2, 0x0
 
@@ -121,7 +121,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2594
+    sget v1, Lcom/resouce/module/ResID;->public_close:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0600b1
+    sget v4, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -152,7 +152,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2684
+    sget v2, Lcom/resouce/module/ResID;->public_login_guide_tips:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iget-object v3, p0, Lzh4;->a:Landroid/app/Activity;
 
-    const v4, 0x7f1229fc
+    sget v4, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2677
+    sget v3, Lcom/resouce/module/ResID;->public_login:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -45,7 +45,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0061
+    sget v2, Lcom/resouce/module/ResLAYOUT;->activity_week_choice:I
 
     const/4 v3, 0x0
 

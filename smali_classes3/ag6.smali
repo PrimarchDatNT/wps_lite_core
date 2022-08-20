@@ -36,7 +36,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -256,7 +256,7 @@
     .line 6
     iget-object p1, p0, Lag6;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1d2e
+    sget v0, Lcom/resouce/module/ResID;->pay_page_coupon_listview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -269,7 +269,7 @@
     .line 7
     iget-object p1, p0, Lag6;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1d2d
+    sget v0, Lcom/resouce/module/ResID;->pay_page_coupon_list_back:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
     .line 8
     iget-object p1, p0, Lag6;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1d2f
+    sget v0, Lcom/resouce/module/ResID;->pay_page_coupon_not_use:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -410,7 +410,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1d2d
+    sget v1, Lcom/resouce/module/ResID;->pay_page_coupon_list_back:I
 
     if-ne v0, v1, :cond_0
 
@@ -425,7 +425,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d2f
+    sget v0, Lcom/resouce/module/ResID;->pay_page_coupon_not_use:I
 
     if-ne p1, v0, :cond_2
 

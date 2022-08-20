@@ -259,7 +259,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122633
+    sget v4, Lcom/resouce/module/ResSTRING;->public_phone_joint_debug_message_valid:I
 
     new-array v5, v1, [Ljava/lang/Object;
 
@@ -281,7 +281,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122632
+    sget v4, Lcom/resouce/module/ResSTRING;->public_phone_joint_debug_message_invalid:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -301,7 +301,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122634
+    sget v6, Lcom/resouce/module/ResSTRING;->public_phone_joint_debug_title:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -312,7 +312,7 @@
     .line 7
     invoke-virtual {v4, v3}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const-string v5, "#3692F5"
 
@@ -327,7 +327,7 @@
 
     invoke-virtual {v4, v3, v5, v6}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const-string v5, "#a0222222"
 
@@ -404,7 +404,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f122631
+    sget v0, Lcom/resouce/module/ResSTRING;->public_phone_joint_debug_default_days:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

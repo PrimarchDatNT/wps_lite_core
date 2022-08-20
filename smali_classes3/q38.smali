@@ -681,7 +681,7 @@
     :cond_1
     iget-object v1, p0, Lq38;->B:Landroid/content/Context;
 
-    const v3, 0x7f12064b
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_record_open_incloudstorage_nosession:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

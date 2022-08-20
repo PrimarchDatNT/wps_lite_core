@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c0e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_fontpackage_purcharse_pageitem:I
 
     const/4 v2, 0x0
 
@@ -93,13 +93,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c0c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_fontpackage_purcharse_head:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2602
+    sget v1, Lcom/resouce/module/ResID;->public_fontpackage_fontname:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2600    # 1.8496E38f
+    sget v2, Lcom/resouce/module/ResID;->public_fontpackage_describle:I    # 1.8496E38f
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,7 +120,7 @@
     .line 6
     iget-object v3, p0, Lgn4$j;->I:Landroid/view/View;
 
-    const v4, 0x7f0b2601
+    sget v4, Lcom/resouce/module/ResID;->public_fontpackage_fontlist:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

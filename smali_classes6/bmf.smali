@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f07022f
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_main_tabhost_tab_btn_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

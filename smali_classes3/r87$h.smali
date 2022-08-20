@@ -73,7 +73,7 @@
 
     iget-object v1, v1, Lr87;->a:Landroid/app/Activity;
 
-    const v4, 0x7f121238
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_to:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
 
     iget-object v1, v1, Lr87;->a:Landroid/app/Activity;
 
-    const v4, 0x7f12123b
+    sget v4, Lcom/resouce/module/ResSTRING;->home_wps_drive_multi_move_to:I
 
     invoke-virtual {v1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -1242,7 +1242,7 @@
     .line 3
     iget-object v0, p0, Liyd;->c:Lcn/wps/moffice/presentation/control/insert/pic/InsertPictureBgActivity;
 
-    const v1, 0x7f1219e9
+    sget v1, Lcom/resouce/module/ResSTRING;->pic_store_download_failed:I
 
     const/4 v2, 0x0
 

@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12167f
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_down_repetition_upload_fail_msg:I
 
     const/4 v1, 0x0
 

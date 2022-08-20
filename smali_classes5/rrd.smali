@@ -35,9 +35,9 @@
     .line 2
     new-instance v0, Lrrd$a;
 
-    const v1, 0x7f080dda
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_swatch:I
 
-    const v2, 0x7f12236a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_color:I
 
     invoke-direct {v0, p0, v1, v2}, Lrrd$a;-><init>(Lrrd;II)V
 
@@ -162,13 +162,13 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0513
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     invoke-static {v2, v3, v1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b1bc8
+    sget v3, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -48,7 +48,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120f98
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_message_not_access_permission:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -77,7 +77,7 @@
 
     aput-object p1, v2, v1
 
-    const p1, 0x7f120f9a
+    sget p1, Lcom/resouce/module/ResSTRING;->home_membership_message_requeest_permission:I
 
     .line 7
     invoke-virtual {p0, p1, v2}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -89,7 +89,7 @@
     .line 8
     sget-object p0, Loea;->B:Loea;
 
-    const p1, 0x7f121f23
+    sget p1, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -132,7 +132,7 @@
     .line 1
     instance-of v0, p2, Lose;
 
-    const v1, 0x7f120f99
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     const/4 v2, 0x0
 
@@ -262,7 +262,7 @@
     :cond_3
     invoke-virtual {p0, v2}, Lqea;->g(Z)V
 
-    const p2, 0x7f120f98
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_message_not_access_permission:I
 
     .line 19
     invoke-static {p1, p2, v2}, Lbih;->p(Landroid/content/Context;II)V
@@ -369,7 +369,7 @@
 
     const/4 v1, 0x0
 
-    const v3, 0x7f120f99
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     if-eqz v0, :cond_0
 

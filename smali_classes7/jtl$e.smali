@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2c13
+    sget v1, Lcom/resouce/module/ResID;->sign_get_authenticate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    const v2, 0x7f1216f1
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_being_certified:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2c0e
+    sget v2, Lcom/resouce/module/ResID;->sign_authentication_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -137,13 +137,13 @@
 
     const/16 v2, 0x8
 
-    const v3, 0x7f0b2c0e
+    sget v3, Lcom/resouce/module/ResID;->sign_authentication_icon:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b2c0f
+    sget v5, Lcom/resouce/module/ResID;->sign_authentication_text:I
 
-    const v6, 0x7f0b2c13
+    sget v6, Lcom/resouce/module/ResID;->sign_get_authenticate:I
 
     const/4 v7, 0x5
 
@@ -156,7 +156,7 @@
 
     move-result p1
 
-    const v0, 0x7f1216ee
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authentication:I
 
     if-eqz p1, :cond_1
 
@@ -227,7 +227,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f1216f0
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authentication_unavailable:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -271,7 +271,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    const v0, 0x7f1216ef
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authentication_activation:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
@@ -344,7 +344,7 @@
 
     move-result v7
 
-    const v8, 0x7f1216e8
+    sget v8, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate:I
 
     if-ne v0, v7, :cond_3
 
@@ -361,7 +361,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f121707
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_uncertified_ca_ing:I
 
     .line 21
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -456,7 +456,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f121706
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_uncertified:I
 
     .line 28
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -478,7 +478,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f121708
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_uncertified_ca_no:I
 
     .line 30
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V

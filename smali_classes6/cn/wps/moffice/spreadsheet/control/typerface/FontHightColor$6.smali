@@ -68,7 +68,7 @@
     .line 3
     check-cast p1, Landroid/app/Activity;
 
-    const v0, 0x7f0b2cf3
+    sget v0, Lcom/resouce/module/ResID;->ss_fill_color_item_colorview:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

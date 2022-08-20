@@ -89,7 +89,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     if-nez v2, :cond_2
 
@@ -120,7 +120,7 @@
 
     if-ne v2, v4, :cond_3
 
-    const v0, 0x7f121dc0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel_selectAll:I
 
     :cond_3
     invoke-virtual {v3, v0}, Landroid/widget/Button;->setText(I)V

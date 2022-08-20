@@ -40,7 +40,7 @@
 
     new-array v1, v1, [Ljava/lang/Object;
 
-    const v2, 0x7f0b0bae
+    sget v2, Lcom/resouce/module/ResID;->et_split_button_comma:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

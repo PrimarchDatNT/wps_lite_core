@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_contacts_permission_read:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

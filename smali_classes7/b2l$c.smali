@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232d3
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_fill_table_no_net:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07b8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_home_root:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
 .method public getViewTitle()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f12260e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2035
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_tab_bar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    const p2, 0x7f01000d
+    sget p2, Lcom/resouce/module/ResANIM;->activity_exit:I
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -251,7 +251,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 

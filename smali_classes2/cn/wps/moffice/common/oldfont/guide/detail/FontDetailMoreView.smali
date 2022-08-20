@@ -109,11 +109,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e026c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->font_func_missing_detail_sys_more:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b18af
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_recycle_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->u(Landroidx/recyclerview/widget/RecyclerView$l;)V
 
-    const v0, 0x7f0b189f
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_confirm:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

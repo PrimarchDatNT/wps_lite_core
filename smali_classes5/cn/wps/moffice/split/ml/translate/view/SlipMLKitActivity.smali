@@ -361,7 +361,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f122535
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     .line 2
     invoke-static {p0, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -421,9 +421,9 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/main/framework/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f01008e
+    sget p1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
-    const v0, 0x7f010091
+    sget v0, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

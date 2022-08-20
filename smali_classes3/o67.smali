@@ -132,7 +132,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f122c77
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_sharewith_me_desc:I
 
     .line 4
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;
@@ -151,7 +151,7 @@
 
     if-ne v0, v1, :cond_2
 
-    const p1, 0x7f122842
+    sget p1, Lcom/resouce/module/ResSTRING;->public_scan_longpress_introduce:I
 
     .line 6
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;
@@ -191,7 +191,7 @@
 
     if-eqz v0, :cond_4
 
-    const p1, 0x7f122190
+    sget p1, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     .line 10
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;
@@ -212,7 +212,7 @@
 
     if-eqz p1, :cond_7
 
-    const p1, 0x7f1228c2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_secret_folder_overdue_desc:I
 
     .line 12
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;
@@ -225,7 +225,7 @@
 
     :cond_5
     :goto_0
-    const p1, 0x7f1228a8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_secfolder_use_introduce:I
 
     .line 13
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;
@@ -238,7 +238,7 @@
 
     :cond_6
     :goto_1
-    const p1, 0x7f121227
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wps_drive_auto_upload_folder_intro:I
 
     .line 14
     invoke-virtual {p0, p1}, Lg57;->h(I)Ljava/lang/String;

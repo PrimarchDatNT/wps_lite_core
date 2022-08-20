@@ -117,12 +117,12 @@
 .method public final s()V
     .locals 1
 
-    const v0, 0x7f0b35df
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_indicator:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/shell/view/WriterDecorateViewBase;->f(I)V
 
-    const v0, 0x7f0b35da
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_backBtn:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/shell/view/WriterDecorateViewBase;->f(I)V

@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122bdc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 v1, 0x0
 
@@ -94,7 +94,7 @@
 
     check-cast p1, Lbdc;
 
-    const v0, 0x7f12170f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_close_doc_will_stop_merge:I
 
     .line 5
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;

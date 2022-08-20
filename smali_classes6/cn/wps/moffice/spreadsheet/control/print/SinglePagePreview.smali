@@ -792,7 +792,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/print/SinglePagePreview;->c0:Lcjg;
 
-    const v0, 0x7f122539
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_print_data:I
 
     invoke-interface {p1, v0}, Lcjg;->a(I)V
 

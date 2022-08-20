@@ -25,7 +25,7 @@
     .line 1
     iget-object v0, p0, Lc3b;->I:Ljava/util/List;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x0
 
@@ -572,11 +572,11 @@
     .line 3
     iget-object v1, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12049e
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_retake_change_save_tips:I
 
-    const v3, 0x7f12281f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_save:I
 
-    const v4, 0x7f1203e9
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     new-instance v5, Ly2b$c;
 

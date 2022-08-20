@@ -53,7 +53,7 @@
     .line 3
     iput-object p1, p0, Lysd;->T:Landroid/content/Context;
 
-    const v0, 0x7f080ee1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_ppt_text2dirgram_holder_image:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -331,7 +331,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a96
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_pic_anim_image_item:I
 
     const/4 v2, 0x0
 

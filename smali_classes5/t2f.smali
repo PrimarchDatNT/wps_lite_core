@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a5f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->popup_inflow_card_close_menu_layout:I
 
     const/4 v2, 0x0
 
@@ -53,7 +53,7 @@
     .line 3
     invoke-virtual {v1, v0}, Landroid/widget/PopupWindow;->setContentView(Landroid/view/View;)V
 
-    const v2, 0x7f0b1a37
+    sget v2, Lcom/resouce/module/ResID;->no_interests:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b19e4
+    sget v2, Lcom/resouce/module/ResID;->never_show_again:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0713
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_download_dialog:I
 
     const/4 v2, 0x0
 
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
     .line 3
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setIndeterminate(Z)V
 
-    const v1, 0x7f0b28bc
+    sget v1, Lcom/resouce/module/ResID;->resultView:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

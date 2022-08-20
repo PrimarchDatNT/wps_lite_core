@@ -275,7 +275,7 @@
 
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f12060f
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_cloud:I
 
     goto :goto_0
 
@@ -283,7 +283,7 @@
     :cond_0
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122c19
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_drive_personal_file:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

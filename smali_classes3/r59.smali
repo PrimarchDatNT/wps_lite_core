@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205ba
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_search:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -445,7 +445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_oversea_search_hint:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -865,7 +865,7 @@
 
     iget-object v2, p0, Lu49;->I:Landroid/view/View;
 
-    const v3, 0x7f0b0d08
+    sget v3, Lcom/resouce/module/ResID;->file_search_ad_place_holder:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

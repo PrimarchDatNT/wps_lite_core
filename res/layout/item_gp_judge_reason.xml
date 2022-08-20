@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:id="@id/rl_content" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/en_public_radionbutton_noselected" android:layout_centerVertical="true" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/iv_choose" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/iv_choose" />
-</RelativeLayout>

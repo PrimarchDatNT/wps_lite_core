@@ -53,24 +53,24 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f120702
+    sget p0, Lcom/resouce/module/ResSTRING;->editor_delete_text_title:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p0, 0x7f120701
+    sget p0, Lcom/resouce/module/ResSTRING;->editor_delete_text_tip:I
 
     .line 4
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
     .line 5
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121fba
+    sget p0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 6
     new-instance v1, Lsm6;

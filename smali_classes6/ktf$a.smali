@@ -43,15 +43,15 @@
 
     move-result p1
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v2, 0x1
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b09f2
+    sget v4, Lcom/resouce/module/ResID;->et_datavalidation_setting_time_minvalue:I
 
     if-ne p1, v4, :cond_0
 
@@ -87,7 +87,7 @@
     .line 5
     invoke-virtual {p1, v2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f12082b
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_start_time:I
 
     .line 6
     invoke-virtual {p1, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -114,7 +114,7 @@
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f0b09f1
+    sget v4, Lcom/resouce/module/ResID;->et_datavalidation_setting_time_maxvalue:I
 
     if-ne p1, v4, :cond_1
 
@@ -150,7 +150,7 @@
     .line 13
     invoke-virtual {p1, v2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f12081f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_end_time:I
 
     .line 14
     invoke-virtual {p1, v2}, Lhd3;->setTitleById(I)Lhd3;

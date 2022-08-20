@@ -38,7 +38,7 @@
     .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p1, 0x7f081f6f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_chart_item_foreground:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V

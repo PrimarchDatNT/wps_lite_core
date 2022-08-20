@@ -57,7 +57,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e104a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_recent_reading_vertical_layout:I
 
     const/4 v1, 0x0
 
@@ -67,7 +67,7 @@
 
     iput-object p2, p0, Lk3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0640
+    sget v0, Lcom/resouce/module/ResID;->deleteImageView:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -79,7 +79,7 @@
     .line 7
     iget-object p2, p0, Lk3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1a76    # 1.8490008E38f
+    sget v0, Lcom/resouce/module/ResID;->novelRecentListView:I    # 1.8490008E38f
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
     .line 8
     iget-object p2, p0, Lk3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b18e0
+    sget v0, Lcom/resouce/module/ResID;->moreView:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
     .line 9
     iget-object p2, p0, Lk3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b078f
+    sget v0, Lcom/resouce/module/ResID;->downImageView:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -268,7 +268,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b18e0
+    sget v0, Lcom/resouce/module/ResID;->moreView:I
 
     if-ne p1, v0, :cond_3
 
@@ -375,7 +375,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b0640
+    sget v0, Lcom/resouce/module/ResID;->deleteImageView:I
 
     if-ne p1, v0, :cond_4
 

@@ -137,7 +137,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1224d9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
     .line 1
     iget-object p2, p0, Lfb6;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e029a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_top_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -194,7 +194,7 @@
 
     invoke-direct {p3}, Lfb6$b;-><init>()V
 
-    const v1, 0x7f0b164d
+    sget v1, Lcom/resouce/module/ResID;->ll_container:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     invoke-static {p3, v1}, Lfb6$b;->b(Lfb6$b;Landroid/widget/LinearLayout;)Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b036e
+    sget v1, Lcom/resouce/module/ResID;->category_icon:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object v1, p3, Lfb6$b;->b:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b036f
+    sget v1, Lcom/resouce/module/ResID;->category_name:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -262,7 +262,7 @@
     .line 10
     iget-object v0, p3, Lfb6$b;->b:Landroid/widget/ImageView;
 
-    const v2, 0x7f081611
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_docer_classify_all:I
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -282,7 +282,7 @@
 
     move-result v3
 
-    const v4, 0x7f081e8b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     if-nez v3, :cond_2
 

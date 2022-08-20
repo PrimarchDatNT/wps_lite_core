@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0165
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_category_card_view:I
 
     const/4 v2, 0x0
 
@@ -117,7 +117,7 @@
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
     :cond_0
-    const v1, 0x7f0b1995
+    sget v1, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/AllCategoryCardView;->I:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0290
+    sget v1, Lcom/resouce/module/ResID;->browse_more_ll:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1c5f    # 1.8491E38f
+    sget v1, Lcom/resouce/module/ResID;->padding_v:I    # 1.8491E38f
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/AllCategoryCardView;->T:Landroid/view/View;
 
-    const v1, 0x7f0b036d
+    sget v1, Lcom/resouce/module/ResID;->category_gv:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -201,7 +201,7 @@
 
     invoke-direct {v2, p1, p2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const p1, 0x7f1227f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 17
     invoke-virtual {v2, p1}, Lhd3;->setTitleById(I)Lhd3;
@@ -212,7 +212,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v1, Ln95$h;
 
@@ -222,7 +222,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance p3, Ln95$g;
 
@@ -268,7 +268,7 @@
     .line 4
     iget-object v0, p0, Ln95;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122bdc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wait_for_doc_process_end:I
 
     const/4 v3, 0x0
 
@@ -305,14 +305,14 @@
 
     invoke-direct {v0, p0, p1}, Ln95$c;-><init>(Ln95;Landroid/content/Context;)V
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f12110e
+    sget v2, Lcom/resouce/module/ResSTRING;->home_rename_has_openning_file:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -327,7 +327,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121e1c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_close_document:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -346,7 +346,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -98,7 +98,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
     if-eq p0, v2, :cond_3
 
@@ -119,11 +119,11 @@
     goto/16 :goto_0
 
     :cond_0
-    const p0, 0x7f0815a3
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_cad_to_pdf:I
 
-    const v2, 0x7f06019d
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v3, 0x7f120236
+    sget v3, Lcom/resouce/module/ResSTRING;->cad2pdf_func_name:I
 
     new-array v4, v1, [Lcib$b;
 
@@ -134,7 +134,7 @@
 
     aput-object v5, v4, v0
 
-    const v5, 0x7f12104b
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_about_cad_to_pdf_page_limit:I
 
     .line 3
     invoke-static {p0, v2, v3, v5, v4}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -178,9 +178,9 @@
     goto/16 :goto_0
 
     :cond_1
-    const p0, 0x7f0815a4
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_pdf_to_cad:I
 
-    const v2, 0x7f1216c6
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf2cad_func_name:I
 
     new-array v4, v1, [Lcib$b;
 
@@ -191,7 +191,7 @@
 
     aput-object v5, v4, v0
 
-    const v5, 0x7f121055
+    sget v5, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_cad_page_limit:I
 
     .line 9
     invoke-static {p0, v3, v2, v5, v4}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -235,13 +235,13 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080733
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2xls:I
 
-    const v2, 0x7f06019f
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v3, 0x7f121772
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls_guide:I
 
-    const v4, 0x7f121059
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_xls_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -260,11 +260,11 @@
     goto :goto_0
 
     :cond_3
-    const p0, 0x7f080731
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2ppt:I
 
-    const v2, 0x7f12176e
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt_guide:I
 
-    const v4, 0x7f121058
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_ppt_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -283,11 +283,11 @@
     goto :goto_0
 
     :cond_4
-    const p0, 0x7f080757
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2doc:I
 
-    const v2, 0x7f12173f
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_guide:I
 
-    const v3, 0x7f121057
+    sget v3, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_doc_page_limit:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -338,13 +338,13 @@
     goto/16 :goto_0
 
     :cond_0
-    const p0, 0x7f080733
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2xls:I
 
-    const v3, 0x7f06019f
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v4, 0x7f121771
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
-    const v5, 0x7f122696
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_xls_desc:I
 
     new-array v6, v1, [Lcib$b;
 
@@ -384,13 +384,13 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f080731
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2ppt:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
-    const v5, 0x7f122695
+    sget v5, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_ppt_desc:I
 
     new-array v6, v1, [Lcib$b;
 
@@ -430,11 +430,11 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080757
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2doc:I
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
-    const v4, 0x7f122694
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_pdf_convert_to_doc_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -725,7 +725,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1217a0
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_to_select_pages:I
 
     const/4 v2, 0x1
 
@@ -744,11 +744,11 @@
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f080733
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2xls:I
 
-    const v3, 0x7f06019f
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v4, 0x7f121059
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_xls_page_limit:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -767,11 +767,11 @@
     goto :goto_0
 
     :cond_1
-    const p0, 0x7f080731
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2ppt:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f121058
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_ppt_page_limit:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -790,11 +790,11 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f080732
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf2word:I
 
-    const v3, 0x7f06019d
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v4, 0x7f121057
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_doc_page_limit:I
 
     new-array v2, v2, [Lcib$b;
 

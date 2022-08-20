@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const p2, 0x7f0e0e46
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_shareplay_join:I
 
     const/4 v1, 0x0
 
@@ -258,7 +258,7 @@
 
     invoke-virtual {v1, v0, v5}, Landroid/view/ViewGroup;->addView(Landroid/view/View;I)V
 
-    const v1, 0x7f0b33bd
+    sget v1, Lcom/resouce/module/ResID;->viewfinder_mask:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -273,14 +273,14 @@
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_2
-    const v1, 0x7f0b33bf
+    sget v1, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v3, 0x7f0b2693
+    sget v3, Lcom/resouce/module/ResID;->public_ocr_btn:I
 
     .line 13
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
     :cond_4
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mScanQrCode:Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;
 
-    const v1, 0x7f121c33
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_scan_launcher_qrcode:I
 
     invoke-interface {v0, v1}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 
@@ -430,7 +430,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2728
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_join_progress_bar_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mProgressLayout:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2729
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_join_progress_cancel_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2738
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_titlebar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -496,7 +496,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setCustomBackOpt(Ljava/lang/Runnable;)V
 
-    const v0, 0x7f0b2735
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_scan_qrcode_tab:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -507,7 +507,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mQrcodeTab:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1331
+    sget v1, Lcom/resouce/module/ResID;->input_access_code_btn:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b271e
+    sget v0, Lcom/resouce/module/ResID;->public_shareplay_access_code_tab:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -529,7 +529,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mAccessCodeTab:Landroid/view/View;
 
-    const v1, 0x7f0b271c
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_access_code_edittext:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -627,7 +627,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mTitleBar:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1224a1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_meeting_meeting_id:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -768,7 +768,7 @@
     .line 3
     iget-object v0, v9, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mProgressLayout:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2723
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_materialBar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -783,7 +783,7 @@
     .line 6
     iget-object v1, v9, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mProgressLayout:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b2724
+    sget v2, Lcom/resouce/module/ResID;->public_shareplay_custom_progressbar_percent:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1028,7 +1028,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mAccessCodeTab:Landroid/view/View;
 
-    const v1, 0x7f0b271d
+    sget v1, Lcom/resouce/module/ResID;->public_shareplay_access_code_error_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1100,7 +1100,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;->mTitleBar:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1224a0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_meeting_join:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 

@@ -128,12 +128,12 @@
 
     invoke-virtual {v0, v1, v3, v2}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const v1, 0x7f122591
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_cloud_keeper_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f122c0b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     .line 5
     new-instance v2, Ldq3$a;
@@ -142,14 +142,14 @@
 
     invoke-virtual {v0, v1, v2}, Liq3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f12273b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_protection:I
 
     .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -109,7 +109,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12327d
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_comment_content_overLitmit_tips:I
 
     const/16 v1, 0x1f4
 

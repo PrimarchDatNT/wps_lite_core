@@ -309,7 +309,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e07a5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_conver:I
 
     return v0
 .end method
@@ -344,7 +344,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f081103
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_coverpen_white:I
 
     return p1
 
@@ -356,12 +356,12 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f081101
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_coverpen_black:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f081102
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_coverpen_unselect:I
 
     return p1
 .end method
@@ -390,7 +390,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e07a7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_highlight:I
 
     return v0
 .end method
@@ -487,12 +487,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f081116
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_red:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f081113
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_red:I
 
     :goto_0
     return p1
@@ -507,12 +507,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f081118
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_yellow:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f081115
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_yellow:I
 
     :goto_1
     return p1
@@ -527,12 +527,12 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f08110f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_green:I
 
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f081112
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_green:I
 
     :goto_2
     return p1
@@ -547,12 +547,12 @@
 
     if-eqz p1, :cond_6
 
-    const p1, 0x7f08110e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_blue:I
 
     goto :goto_3
 
     :cond_6
-    const p1, 0x7f081111
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_blue:I
 
     :goto_3
     return p1
@@ -567,12 +567,12 @@
 
     if-eqz p1, :cond_8
 
-    const p1, 0x7f08110d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_black:I
 
     goto :goto_4
 
     :cond_8
-    const p1, 0x7f081110
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_black:I
 
     :goto_4
     return p1
@@ -580,12 +580,12 @@
     :cond_9
     if-eqz p1, :cond_a
 
-    const p1, 0x7f081117
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_unselect:I
 
     goto :goto_5
 
     :cond_a
-    const p1, 0x7f081114
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_ink_hi_unselect:I
 
     :goto_5
     return p1
@@ -603,12 +603,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e07aa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_pencil:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e07ab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen_pencil_landscape:I
 
     return v0
 .end method
@@ -786,7 +786,7 @@
 
     iput-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1db4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -800,7 +800,7 @@
     .line 4
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d93
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_circle_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -811,7 +811,7 @@
     .line 5
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d96
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_square_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 6
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d94
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_circle_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -835,7 +835,7 @@
     .line 7
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d97
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_square_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -848,7 +848,7 @@
     .line 8
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d92
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_circle_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -859,7 +859,7 @@
     .line 9
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d95
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_square_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -870,7 +870,7 @@
     .line 10
     iget-object v0, p0, Lecc;->u0:Landroid/view/View;
 
-    const v1, 0x7f0b1d9a
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1013,7 +1013,7 @@
 
     iput-object v0, p0, Lecc;->o0:Landroid/view/View;
 
-    const v1, 0x7f0b1db4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1027,7 +1027,7 @@
     .line 4
     iget-object v0, p0, Lecc;->o0:Landroid/view/View;
 
-    const v1, 0x7f0b1d91
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_alpha_seekbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1040,7 +1040,7 @@
     .line 5
     iget-object v0, p0, Lecc;->o0:Landroid/view/View;
 
-    const v1, 0x7f0b1d9a
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
     .line 6
     iget-object v0, p0, Lecc;->o0:Landroid/view/View;
 
-    const v1, 0x7f0b0fd3
+    sget v1, Lcom/resouce/module/ResID;->highlight_line_mode_switch:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1183,7 +1183,7 @@
 
     iput-object v0, p0, Lecc;->k0:Landroid/view/View;
 
-    const v1, 0x7f0b1db4
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_size_seekbar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1197,7 +1197,7 @@
     .line 4
     iget-object v0, p0, Lecc;->k0:Landroid/view/View;
 
-    const v1, 0x7f0b1d9a
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1439,7 +1439,7 @@
 
     iput-object v0, p0, Lbcc;->g0:Lncc;
 
-    const v0, 0x7f0b1dab
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_pager:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1450,7 +1450,7 @@
 
     iput-object v0, p0, Lecc;->h0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1da5
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_ink:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1461,7 +1461,7 @@
 
     iput-object v0, p0, Lecc;->j0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b1da3
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_hight:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1472,7 +1472,7 @@
 
     iput-object v0, p0, Lecc;->n0:Lcn/wps/moffice/common/beans/TextImageView;
 
-    const v0, 0x7f0b1da1
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_cover:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1514,7 +1514,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b1446
+    sget v0, Lcom/resouce/module/ResID;->iv_edit_anno_pen_cover_en_vip:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1762,7 +1762,7 @@
 .method public Y0()I
     .locals 1
 
-    const v0, 0x7f0e07a4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen:I
 
     return v0
 .end method

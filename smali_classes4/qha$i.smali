@@ -84,7 +84,7 @@
     .line 4
     iget-object v1, p0, Lqha$i;->I:Landroid/content/Context;
 
-    const v2, 0x7f121644
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_verify_author_too_long:I
 
     iget-object v3, p0, Lqha$i;->S:Landroid/app/Dialog;
 
@@ -128,7 +128,7 @@
     :goto_0
     iget-object v0, p0, Lqha$i;->I:Landroid/content/Context;
 
-    const v1, 0x7f121643
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_verify_auth_format_error:I
 
     iget-object v2, p0, Lqha$i;->S:Landroid/app/Dialog;
 
@@ -175,7 +175,7 @@
     .line 14
     iget-object p1, p0, Lqha$i;->I:Landroid/content/Context;
 
-    const p2, 0x7f121642
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_verify_auth_failed_suggest:I
 
     iget-object v0, p0, Lqha$i;->S:Landroid/app/Dialog;
 

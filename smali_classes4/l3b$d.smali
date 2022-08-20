@@ -218,7 +218,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122840
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_file_syning:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -29,14 +29,14 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f120672
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_all:I
 
     return p0
 
     :cond_0
     const/4 v0, 0x1
 
-    const v1, 0x7f120673
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_network_type_wifi:I
 
     if-ne v0, p0, :cond_1
 

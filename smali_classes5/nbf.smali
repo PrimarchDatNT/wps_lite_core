@@ -265,12 +265,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081fcc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08122b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     .line 2
     :goto_0
@@ -470,7 +470,7 @@
     .line 2
     new-instance v0, Lrbf;
 
-    const v1, 0x7f0e0b4f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloud_share_folder_contacts_item_layout:I
 
     const/4 v2, 0x0
 

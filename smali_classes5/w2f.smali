@@ -649,7 +649,7 @@
     .line 5
     new-instance v1, Lw2f$b;
 
-    const v2, 0x7f0e0410
+    sget v2, Lcom/resouce/module/ResLAYOUT;->item_flow_card_c_layout:I
 
     invoke-virtual {p2, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

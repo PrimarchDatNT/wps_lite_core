@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0100ae
+    sget v0, Lcom/resouce/module/ResANIM;->view_shake_animation_less:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

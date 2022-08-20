@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d93    # 1.8499933E38f
+    sget v0, Lcom/resouce/module/ResID;->start_operate_left:I    # 1.8499933E38f
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lhde;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d94    # 1.8499935E38f
+    sget v0, Lcom/resouce/module/ResID;->start_operate_right:I    # 1.8499935E38f
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

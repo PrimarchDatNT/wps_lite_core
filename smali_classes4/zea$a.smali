@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -96,7 +96,7 @@
 
     invoke-static {v1, v0}, Lgp6;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 2
     :try_start_0

@@ -387,7 +387,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060657
+    sget v6, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 

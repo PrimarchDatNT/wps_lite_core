@@ -52,7 +52,7 @@
 .method public N()I
     .locals 1
 
-    const v0, 0x7f0e08c2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_quickbar_image_text_red_dot_item:I
 
     return v0
 .end method
@@ -129,7 +129,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/layout/summary/SummaryAssistant$a;->v0:Landroid/app/Activity;
 
-    const v1, 0x7f121c5e
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_template_waitting_for_io_ready:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -166,7 +166,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1206b9
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

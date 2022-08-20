@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@drawable/public_panel_item_third_bg_selector" style="@style/phone_public_dialog_list_item_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/documents_filebrowser_launcher_image" style="@style/phone_public_dialog_list_item_image" />
-    <TextView android:id="@id/documents_filebrowser_launcher_text" style="@style/phone_public_dialog_list_item_imagetext" />
-</LinearLayout>

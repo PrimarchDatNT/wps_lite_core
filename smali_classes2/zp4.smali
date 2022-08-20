@@ -190,12 +190,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f121f23
+    sget v0, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     return v0
 .end method
@@ -235,7 +235,7 @@
     .line 5
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e6a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_icon_space_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -255,7 +255,7 @@
     :cond_1
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f120eae
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -272,7 +272,7 @@
     .line 8
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e68
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_icon_file_size_limit_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -307,7 +307,7 @@
     .line 10
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f12123e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -319,7 +319,7 @@
     :cond_4
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v3, 0x7f121e67
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_icon_file_size_limit_cant_upgrade:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -381,7 +381,7 @@
     .line 5
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ed5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -393,7 +393,7 @@
     :cond_2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121e4a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_file_size_out_of_limit:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0ba4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v3, 0x0
 
@@ -488,7 +488,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b254e
+    sget v2, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -499,7 +499,7 @@
 
     iput-object v2, p0, Ldmc;->g0:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2538
+    sget v2, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -513,7 +513,7 @@
     .line 9
     iget-object v2, p0, Ldmc;->f0:Lhd3;
 
-    const v3, 0x7f121804
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_image_extract_converting:I
 
     invoke-virtual {v2, v3}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -525,7 +525,7 @@
     .line 11
     iget-object v0, p0, Ldmc;->f0:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -549,7 +549,7 @@
 
     iget-object v0, p0, Ldmc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122614    # 1.94265E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     const/4 v3, 0x1
 
@@ -663,7 +663,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f122614    # 1.94265E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_percent:I    # 1.94265E38f
 
     const/4 v2, 0x0
 
@@ -836,7 +836,7 @@
 
     iget-object v1, p0, Ldmc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -854,7 +854,7 @@
 
     iget-object v1, p0, Ldmc;->S:Landroid/app/Activity;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -903,7 +903,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e063a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_extract_pics_layout:I
 
     const/4 v2, 0x0
 
@@ -937,7 +937,7 @@
     .line 5
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e09
+    sget v1, Lcom/resouce/module/ResID;->pdf_extract_pics_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -954,7 +954,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121803
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1000,7 +1000,7 @@
     .line 12
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1e03
+    sget v2, Lcom/resouce/module/ResID;->pdf_extract_pics_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1011,7 +1011,7 @@
     .line 13
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c55
+    sget v2, Lcom/resouce/module/ResID;->extract_vip_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1022,7 +1022,7 @@
     .line 14
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0c43
+    sget v2, Lcom/resouce/module/ResID;->extract_btn_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1073,7 +1073,7 @@
     .line 19
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e05
+    sget v1, Lcom/resouce/module/ResID;->pdf_extract_pics_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1107,7 +1107,7 @@
     .line 23
     iget-object v0, p0, Ldmc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e06
+    sget v1, Lcom/resouce/module/ResID;->pdf_extract_pics_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1348,7 +1348,7 @@
 
     aput-object p1, v1, v2
 
-    const p1, 0x7f1220bc
+    sget p1, Lcom/resouce/module/ResSTRING;->public_extract_count:I
 
     invoke-virtual {v0, p1, v1}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

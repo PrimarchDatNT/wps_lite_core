@@ -56,7 +56,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0d75
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_compresssharemodule_share:I
 
     const/4 v1, 0x0
 
@@ -64,7 +64,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b03fb
+    sget v0, Lcom/resouce/module/ResID;->choose_send_group:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,9 +365,9 @@
 
     iget-object v2, p0, Lr0a;->h:Lrf3$c;
 
-    const v3, 0x7f122228
+    sget v3, Lcom/resouce/module/ResSTRING;->public_general_wechat_file:I
 
-    const v4, 0x7f081789
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_wechat:I
 
     invoke-virtual {p0, v1, v3, v4, v2}, Lr0a;->h(Lydf;IILrf3$c;)Lrf3;
 
@@ -380,9 +380,9 @@
 
     iget-object v2, p0, Lr0a;->h:Lrf3$c;
 
-    const v3, 0x7f122226
+    sget v3, Lcom/resouce/module/ResSTRING;->public_general_qq_file:I
 
-    const v4, 0x7f081784
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_qq:I
 
     invoke-virtual {p0, v1, v3, v4, v2}, Lr0a;->h(Lydf;IILrf3$c;)Lrf3;
 
@@ -395,9 +395,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
-    const v4, 0x7f0816d2
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_more:I
 
     invoke-virtual {p0, v2, v3, v4, v1}, Lr0a;->h(Lydf;IILrf3$c;)Lrf3;
 
@@ -417,7 +417,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e40
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_sharefolder_share_item:I
 
     invoke-virtual {v1, v2, v3, v0}, Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;->setViewsWithCommonLayout(Landroid/content/Context;ILjava/util/List;)V
 

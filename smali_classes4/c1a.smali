@@ -263,7 +263,7 @@
     .line 3
     iget-object v0, p0, Lc1a;->c:Landroid/content/Context;
 
-    const v1, 0x7f1202bc
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_tab_batch_compress_folder_download:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -305,7 +305,7 @@
     .line 3
     iget-object v0, p0, Lc1a;->c:Landroid/content/Context;
 
-    const v2, 0x7f12254f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_logged_in:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

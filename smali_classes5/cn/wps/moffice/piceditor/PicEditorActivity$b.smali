@@ -73,7 +73,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/piceditor/PicEditorActivity$b;->b:Lcn/wps/moffice/piceditor/PicEditorActivity;
 
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

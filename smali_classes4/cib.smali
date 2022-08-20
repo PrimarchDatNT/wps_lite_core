@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081b9d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_orange_bg_4dp_1px_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -81,11 +81,11 @@
 
     const/16 v1, 0x14
 
-    const v2, 0x7f120fb3
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_vip:I
 
-    const v3, 0x7f120f59
+    sget v3, Lcom/resouce/module/ResSTRING;->home_member_view_normal_privilege:I
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -105,18 +105,18 @@
 
     move-result v0
 
-    const v1, 0x7f0601a3
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_purchase_yellow:I
 
     .line 2
     invoke-static {v1}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    const v2, 0x7f122b5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upgrade_pdf_toolkit:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 3
     invoke-static {v0, v2, v3, v4, v1}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -136,18 +136,18 @@
 
     move-result v0
 
-    const v1, 0x7f0601a2
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_purchase_orange:I
 
     .line 2
     invoke-static {v1}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    const v2, 0x7f121ca5
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_upgrade:I
 
-    const v3, 0x7f120256
+    sget v3, Lcom/resouce/module/ResSTRING;->check_all_premium_privilege:I
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 3
     invoke-static {v0, v2, v3, v4, v1}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -173,7 +173,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081b9d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_orange_bg_4dp_1px_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -181,11 +181,11 @@
 
     const/16 v1, 0x28
 
-    const v2, 0x7f120fb2
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_svip:I
 
-    const v3, 0x7f120f5a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_member_view_super_privilege:I
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d88
+    sget v1, Lcom/resouce/module/ResSTRING;->free_get_some_days_member_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -249,9 +249,9 @@
 
     move-result v1
 
-    const v2, 0x7f0606e0
+    sget v2, Lcom/resouce/module/ResCOLOR;->white:I
 
-    const v3, 0x7f0601a2
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_purchase_orange:I
 
     .line 6
     invoke-static {v2, v3}, Lcib;->p(II)Landroid/graphics/drawable/Drawable;
@@ -763,18 +763,18 @@
 
     move-result v0
 
-    const v1, 0x7f0601a3
+    sget v1, Lcom/resouce/module/ResCOLOR;->func_guide_purchase_yellow:I
 
     .line 2
     invoke-static {v1}, Lcib;->r(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    const v2, 0x7f121c8a
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege_upgrade:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0606e0
+    sget v4, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 3
     invoke-static {v0, v2, v3, v4, v1}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -800,7 +800,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081baf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_yellow_bg_4dp_1px_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -808,11 +808,11 @@
 
     const v1, 0x61a8b
 
-    const v2, 0x7f120295
+    sget v2, Lcom/resouce/module/ResSTRING;->cloud_font_priviege_pack_title:I
 
     const/4 v3, 0x0
 
-    const v4, 0x7f06051a
+    sget v4, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector_light:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;
@@ -838,7 +838,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081b9d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_orange_bg_4dp_1px_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -846,11 +846,11 @@
 
     const/16 v1, 0xc
 
-    const v2, 0x7f120fb0
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_docervip:I
 
-    const v3, 0x7f120f58
+    sget v3, Lcom/resouce/module/ResSTRING;->home_member_view_docer_privilege:I
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->l(IIIILandroid/graphics/drawable/Drawable;)Lcib$b;

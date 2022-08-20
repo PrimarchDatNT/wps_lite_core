@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b12a2
+    sget v0, Lcom/resouce/module/ResID;->image_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Ly25$c;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2b06
+    sget v0, Lcom/resouce/module/ResID;->selected_mask:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Ly25$c;->b:Landroid/view/View;
 
-    const v0, 0x7f0b2b07
+    sget v0, Lcom/resouce/module/ResID;->selected_order_text:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object v0, p0, Ly25$c;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2b08
+    sget v0, Lcom/resouce/module/ResID;->selected_pic_checkbox:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Ly25$c;->d:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0438
+    sget v0, Lcom/resouce/module/ResID;->click_view:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

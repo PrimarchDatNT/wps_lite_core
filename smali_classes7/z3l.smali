@@ -62,7 +62,7 @@
 
     invoke-direct {v0, p0}, Le4l;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b121f
+    sget v1, Lcom/resouce/module/ResID;->hyperlink_delete:I
 
     const-string v2, "hyperlink-delete"
 
@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "hyperlink-return"
 
@@ -84,7 +84,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     const-string v2, "hyperlink-close"
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     const-string v2, "hyperlink-cancel"
 
@@ -106,7 +106,7 @@
 
     invoke-direct {v0, p0}, Lz3l$a;-><init>(Lz3l;)V
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     const-string v2, "hyperlink-ok"
 
@@ -246,7 +246,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 

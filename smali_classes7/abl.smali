@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

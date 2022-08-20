@@ -344,7 +344,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e078e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -364,7 +364,7 @@
     .line 3
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0eda
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_wps:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -377,7 +377,7 @@
     .line 4
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ed9
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_layout_wps_premium:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -391,7 +391,7 @@
     :cond_0
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ed6
+    sget v1, Lcom/resouce/module/ResID;->get_privilege:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -404,7 +404,7 @@
     .line 6
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0ed7
+    sget v1, Lcom/resouce/module/ResID;->get_privilege_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
     :goto_0
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b252d
+    sget v1, Lcom/resouce/module/ResID;->privilege_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -436,7 +436,7 @@
     .line 9
     iget-object v0, p0, Lbtc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f0806eb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->font_purchase_orange_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -457,7 +457,7 @@
     :goto_1
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2de5    # 1.8500099E38f
+    sget v1, Lcom/resouce/module/ResID;->super_note_ll:I    # 1.8500099E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -473,7 +473,7 @@
     .line 14
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2de6
+    sget v1, Lcom/resouce/module/ResID;->super_note_tag_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
     .line 15
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2de7    # 1.8500103E38f
+    sget v1, Lcom/resouce/module/ResID;->super_note_tv:I    # 1.8500103E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
     .line 17
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c0d
+    sget v1, Lcom/resouce/module/ResID;->export_keynote:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -517,7 +517,7 @@
     .line 18
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c14
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_recommend:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     .line 19
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c16
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_text_label:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -548,7 +548,7 @@
     .line 21
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2c0d
+    sget v1, Lcom/resouce/module/ResID;->sign_and_annotation:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
     .line 26
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2b44
+    sget v1, Lcom/resouce/module/ResID;->shape_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -607,7 +607,7 @@
 
     iget-object v3, p0, Lbtc;->Z:Ljava/util/List;
 
-    const v4, 0x7f0e0787
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_add_item_shape:I
 
     invoke-direct {v1, v2, v3, v4}, Llbc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
@@ -626,7 +626,7 @@
     .line 31
     iget-object v0, p0, Lbtc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2d7c
+    sget v1, Lcom/resouce/module/ResID;->stamp_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -648,7 +648,7 @@
 
     iget-object v3, p0, Lbtc;->a0:Ljava/util/List;
 
-    const v4, 0x7f0e0788
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_add_item_stamp:I
 
     invoke-direct {v1, v2, v3, v4}, Llbc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
@@ -715,7 +715,7 @@
 
     check-cast v2, Landroid/widget/ScrollView;
 
-    const v3, 0x7f0b206a
+    sget v3, Lcom/resouce/module/ResID;->phone_pdf_annotation_panel:I
 
     .line 39
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -908,14 +908,14 @@
     .line 6
     iget-object v0, p0, Lbtc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f121848
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_pack_buy:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 7
     iget-object v0, p0, Lbtc;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f1218b2
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_description:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -925,14 +925,14 @@
     :cond_2
     iget-object v0, p0, Lbtc;->T:Landroid/widget/Button;
 
-    const v1, 0x7f122b53
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 9
     iget-object v0, p0, Lbtc;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f122b5a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upgrade_pdf_toolkit:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1206,7 +1206,7 @@
 
     new-instance v1, Libc;
 
-    const v3, 0x7f08041f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_square:I
 
     invoke-direct {v1, v2, v3}, Libc;-><init>(II)V
 
@@ -1219,7 +1219,7 @@
 
     const/16 v2, 0x9
 
-    const v3, 0x7f08041e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_circle:I
 
     invoke-direct {v1, v2, v3}, Libc;-><init>(II)V
 
@@ -1232,7 +1232,7 @@
 
     const/16 v2, 0xa
 
-    const v3, 0x7f08041c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_arrow:I
 
     invoke-direct {v1, v2, v3}, Libc;-><init>(II)V
 
@@ -1245,7 +1245,7 @@
 
     const/16 v2, 0xb
 
-    const v3, 0x7f08041d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_beeline:I
 
     invoke-direct {v1, v2, v3}, Libc;-><init>(II)V
 
@@ -1268,11 +1268,11 @@
 
     const-string v1, "Cross"
 
-    const v2, 0x7f08031e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_close:I
 
     const-string v3, "Check"
 
-    const v4, 0x7f080320
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_confirm:I
 
     const-string v5, "NotApproved"
 
@@ -1285,7 +1285,7 @@
 
     new-instance v7, Libc;
 
-    const v8, 0x7f080325
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_passed:I
 
     const-string v9, "zh-CN"
 
@@ -1298,7 +1298,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f08031c
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_agree:I
 
     const-string v8, "Agreed"
 
@@ -1311,7 +1311,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080326
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_qualified:I
 
     const-string v8, "Qualified"
 
@@ -1324,7 +1324,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080327
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_read:I
 
     const-string v8, "Read"
 
@@ -1337,7 +1337,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080328
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_reject:I
 
     invoke-direct {v6, v7, v5, v9}, Libc;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
@@ -1348,7 +1348,7 @@
 
     new-instance v5, Libc;
 
-    const v6, 0x7f080323
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_not_agree:I
 
     const-string v7, "NotAgreed"
 
@@ -1382,7 +1382,7 @@
 
     new-instance v7, Libc;
 
-    const v8, 0x7f08031d
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_approved:I
 
     const-string v9, "en"
 
@@ -1395,7 +1395,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f08031f
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_completed:I
 
     const-string v8, "Completed"
 
@@ -1408,7 +1408,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080321
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_draft:I
 
     const-string v8, "Draft"
 
@@ -1421,7 +1421,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080322
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_final:I
 
     const-string v8, "Final"
 
@@ -1434,7 +1434,7 @@
 
     new-instance v6, Libc;
 
-    const v7, 0x7f080324
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_not_approved:I
 
     invoke-direct {v6, v7, v5, v9}, Libc;-><init>(ILjava/lang/String;Ljava/lang/String;)V
 
@@ -1445,7 +1445,7 @@
 
     new-instance v5, Libc;
 
-    const v6, 0x7f080329
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_stamp_void:I
 
     const-string v7, "Void"
 
@@ -1542,7 +1542,7 @@
     .line 5
     iget-object v1, p0, Lbtc;->U:Landroid/widget/TextView;
 
-    const v2, 0x7f1218b4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_effecttoday:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1554,7 +1554,7 @@
 
     iget-object v3, p0, Lbtc;->B:Landroid/app/Activity;
 
-    const v4, 0x7f1218b3
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_privilege_editboard_effectday:I
 
     const/4 v5, 0x1
 
@@ -1576,7 +1576,7 @@
     :goto_0
     iget-object v1, p0, Lbtc;->T:Landroid/widget/Button;
 
-    const v2, 0x7f12184a
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_pack_continue_buy:I
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -1609,7 +1609,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f1218e2
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_tab_annotation:I
 
     return v0
 .end method

@@ -89,11 +89,11 @@
 
     move-result-object v2
 
-    const v4, 0x7f0e08f8
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_public_title_bar:I
 
     invoke-virtual {v2, v4, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v2, 0x7f0b2103
+    sget v2, Lcom/resouce/module/ResID;->phone_public_titlebar_content_root:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/common/beans/TitleBar;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2fe7
+    sget v2, Lcom/resouce/module/ResID;->title_bar_other_layout:I
 
     .line 8
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -154,11 +154,11 @@
 
     move-result-object p1
 
-    const v2, 0x7f0e0e89
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_title_bar:I
 
     invoke-virtual {p1, v2, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2751
+    sget p1, Lcom/resouce/module/ResID;->public_titlebar_content_root:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
     .line 18
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    const p1, 0x7f0b2feb
+    sget p1, Lcom/resouce/module/ResID;->title_bar_switcher_layout:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -187,7 +187,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->I:Landroid/view/View;
 
-    const p1, 0x7f0b2fe9
+    sget p1, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     .line 20
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->f0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2fe8
+    sget p1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -225,13 +225,13 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f080f67
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_nav_close:I
 
     .line 24
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_2
-    const p1, 0x7f0b2fe1
+    sget p1, Lcom/resouce/module/ResID;->title_bar_edit:I
 
     .line 25
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b2fe6
+    sget p1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     .line 26
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->V:Landroid/widget/Button;
 
-    const p1, 0x7f0b2fdd
+    sget p1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 27
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -262,7 +262,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->W:Landroid/widget/Button;
 
-    const p1, 0x7f0b2fec
+    sget p1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 28
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
     .line 29
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2fea
+    sget p1, Lcom/resouce/module/ResID;->title_bar_spinner:I
 
     .line 30
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -287,7 +287,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->b0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const p1, 0x7f0b2fdc
+    sget p1, Lcom/resouce/module/ResID;->title_bar_bottom_shadow:I
 
     .line 31
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2fe0
+    sget p2, Lcom/resouce/module/ResID;->title_bar_edge_view:I
 
     .line 32
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -313,14 +313,14 @@
     .line 34
     iget-object v1, p0, Lcn/wps/moffice/common/beans/TitleBar;->b0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f081206
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg_small_padding:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/NewSpinner;->setDefaultSelector(I)V
 
     .line 35
     iget-object v1, p0, Lcn/wps/moffice/common/beans/TitleBar;->b0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v2, 0x7f081209
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_focused_bg_small_padding:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/NewSpinner;->setFocusedSelector(I)V
 
@@ -349,7 +349,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0602c2
+    sget p1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 40
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -363,7 +363,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->d0:Landroid/view/View;
 
-    const p1, 0x7f0b2757
+    sget p1, Lcom/resouce/module/ResID;->public_toolbar_undoRdo:I
 
     .line 42
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->g0:Landroid/view/View;
 
-    const p1, 0x7f0b2756
+    sget p1, Lcom/resouce/module/ResID;->public_toolbar_undo:I
 
     .line 43
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -383,7 +383,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/TitleBar;->h0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2755
+    sget p1, Lcom/resouce/module/ResID;->public_toolbar_redo:I
 
     .line 44
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -463,16 +463,16 @@
     .line 1
     iget-boolean v0, p0, Lcn/wps/moffice/common/beans/TitleBar;->k0:Z
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBottomLineColor(I)V
@@ -484,7 +484,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -763,12 +763,12 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBottomLineColor(I)V
@@ -786,7 +786,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -801,7 +801,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -846,7 +846,7 @@
     sget-object p1, Lie5$a;->B:Lie5$a;
 
     :cond_1
-    const p1, 0x7f0602c2
+    sget p1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 6
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
@@ -996,7 +996,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0602c2
+    sget p1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

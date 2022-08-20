@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0616
+    sget v0, Lcom/resouce/module/ResID;->dash_space:I
 
     if-ne p1, v0, :cond_0
 

@@ -43,7 +43,7 @@
     invoke-virtual {p0, p1}, Llv4;->setContentView(Landroid/view/View;)V
 
     :cond_0
-    const p1, 0x7f1226f9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_preview:I
 
     .line 4
     invoke-virtual {p0, p1}, Llv4;->U2(I)V

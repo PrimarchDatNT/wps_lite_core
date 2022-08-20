@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c7
+    sget v1, Lcom/resouce/module/ResSTRING;->cn_host_v1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202c8
+    sget v1, Lcom/resouce/module/ResSTRING;->cn_host_v2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12070a
+    sget v1, Lcom/resouce/module/ResSTRING;->en_host_v2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -663,7 +663,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121784
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_queue_time_seconds:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -708,7 +708,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121782
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_queue_time_mins:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -734,7 +734,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121783
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_queue_time_more_than_30_m:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

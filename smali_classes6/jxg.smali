@@ -233,7 +233,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f0b2187
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b0aa3
+    sget v3, Lcom/resouce/module/ResID;->et_input_view:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -530,7 +530,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b212e
+    sget v3, Lcom/resouce/module/ResID;->phone_ss_bottom_root:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f0b0ab4
+    sget v3, Lcom/resouce/module/ResID;->et_modify_panel_container:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -574,7 +574,7 @@
 
     check-cast v3, Landroid/app/Activity;
 
-    const v5, 0x7f0b0ab3
+    sget v5, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v3, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

@@ -1498,17 +1498,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0d46
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pad_custom_file_list_view:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d76
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_custom_file_list_view:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1538,7 +1538,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b0cde
+    sget v2, Lcom/resouce/module/ResID;->file_listview:I
 
     if-eqz v0, :cond_1
 
@@ -1653,7 +1653,7 @@
 
     invoke-virtual {v0, v3}, Lcn/wps/moffice/common/PinnedSectionListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    const v0, 0x7f0b1a44
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_group:I
 
     .line 19
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1662,7 +1662,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->W:Landroid/view/View;
 
-    const v0, 0x7f0b0d30
+    sget v0, Lcom/resouce/module/ResID;->file_speech_stub:I
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1671,7 +1671,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->T:Landroid/view/View;
 
-    const v0, 0x7f0b25a7
+    sget v0, Lcom/resouce/module/ResID;->public_custom_file_list_view_error_page:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1682,7 +1682,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f0b1a45
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_recover:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1693,7 +1693,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->c0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a47
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_recover_layout:I
 
     .line 23
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1702,7 +1702,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b1a43
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_fulltextsearch:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1713,7 +1713,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1a42
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_android_R_prompt:I
 
     .line 25
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1749,7 +1749,7 @@
     :goto_2
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b1a41
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_android_R_empty:I
 
     .line 27
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1775,7 +1775,7 @@
     :goto_3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b2a4c
+    sget v0, Lcom/resouce/module/ResID;->search_all_folder:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1784,7 +1784,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->h0:Landroid/view/View;
 
-    const v0, 0x7f0b2a4d
+    sget v0, Lcom/resouce/module/ResID;->search_all_txt:I
 
     .line 30
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1827,7 +1827,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122811
+    sget v1, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1838,7 +1838,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122153
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_recovered_tips_one_lines:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1868,7 +1868,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2663,7 +2663,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122204
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fulltext_search_title:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2674,7 +2674,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120f1e
+    sget v2, Lcom/resouce/module/ResSTRING;->home_full_text_search_show_btn:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2704,7 +2704,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3546,7 +3546,7 @@
     .line 11
     iget-object p2, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f1205ef
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nofilesindirectory:I
 
     invoke-virtual {p2, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -4325,7 +4325,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f1206b9
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p2, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -4340,7 +4340,7 @@
     .line 14
     iget-object p2, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->a0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f1205ef
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_nofilesindirectory:I
 
     invoke-virtual {p2, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -4642,7 +4642,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e069a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_documents_doc_recovery_item:I
 
     const/4 v1, 0x0
 
@@ -4652,7 +4652,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b1a46
+    sget v0, Lcom/resouce/module/ResID;->nofilemessage_recover_btn:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4668,7 +4668,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f122811
+    sget v0, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -4838,7 +4838,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0819f6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -4871,7 +4871,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4882,7 +4882,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/beans/KCustomFileListView;->U:Landroid/widget/Button;
 
-    const v1, 0x7f12068b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_search_all_folder:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

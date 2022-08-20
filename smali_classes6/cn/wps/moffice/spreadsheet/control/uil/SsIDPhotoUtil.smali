@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12197b
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_id_photo_make:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f08048f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_identification_photo:I
 
     invoke-static {}, Lf44;->h()Ljava/lang/String;
 

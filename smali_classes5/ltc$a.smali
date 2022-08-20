@@ -46,7 +46,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b224c
+    sget v3, Lcom/resouce/module/ResID;->play_from_curpage_item:I
 
     if-ne p1, v3, :cond_0
 
@@ -58,7 +58,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b224d
+    sget v3, Lcom/resouce/module/ResID;->play_from_homepage_item:I
 
     if-ne p1, v3, :cond_1
 
@@ -72,7 +72,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b01a5
+    sget v2, Lcom/resouce/module/ResID;->autoplay_item:I
 
     if-ne p1, v2, :cond_2
 

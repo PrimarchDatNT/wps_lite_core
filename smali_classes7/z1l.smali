@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0e0f98
+    sget v0, Lcom/resouce/module/ResLAYOUT;->table_spinner_item:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;ILjava/util/List;)V
@@ -83,7 +83,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0f97
+    sget v0, Lcom/resouce/module/ResLAYOUT;->table_spinner_dropdown_item:I
 
     const/4 v1, 0x0
 
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -140,7 +140,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06000c
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

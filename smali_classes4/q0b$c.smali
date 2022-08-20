@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b142e
+    sget v0, Lcom/resouce/module/ResID;->iv_complete:I
 
     if-ne p1, v0, :cond_0
 
@@ -66,7 +66,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b141f
+    sget v0, Lcom/resouce/module/ResID;->iv_cancel:I
 
     if-ne p1, v0, :cond_1
 
@@ -82,7 +82,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1456
+    sget v0, Lcom/resouce/module/ResID;->iv_filter:I
 
     if-ne p1, v0, :cond_2
 

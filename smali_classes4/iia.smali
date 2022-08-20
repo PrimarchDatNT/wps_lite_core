@@ -17,7 +17,7 @@
 .method public constructor <init>(Landroid/content/Context;ZLjia$j;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -46,7 +46,7 @@
 .method public final V2(Landroid/view/View;Z)V
     .locals 2
 
-    const v0, 0x7f0b1e84
+    sget v0, Lcom/resouce/module/ResID;->pdf_note_page_titleBar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12185a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_pdf_page:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12251e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_newfile_pdf_label:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e062b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_create_new_page_layout:I
 
     const/4 v2, 0x0
 

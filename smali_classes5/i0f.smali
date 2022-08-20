@@ -462,7 +462,7 @@
 
     iput-object v0, p0, Li0f;->S:Landroidx/drawerlayout/widget/DrawerLayout;
 
-    const v0, 0x7f0b3057
+    sget v0, Lcom/resouce/module/ResID;->toolbar_space:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -471,7 +471,7 @@
 
     iput-object v0, p0, Li0f;->U:Landroid/view/View;
 
-    const v0, 0x7f0b3055
+    sget v0, Lcom/resouce/module/ResID;->toolbar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -487,7 +487,7 @@
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/reader/view/NovelTypefaceToolbar;->setTitle(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b023f
+    sget v0, Lcom/resouce/module/ResID;->bottom:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -496,7 +496,7 @@
 
     iput-object v0, p0, Li0f;->W:Landroid/view/View;
 
-    const v0, 0x7f0b0276
+    sget v0, Lcom/resouce/module/ResID;->bottom_space:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
 
     iput-object v0, p0, Li0f;->X:Landroid/view/View;
 
-    const v0, 0x7f0b1574
+    sget v0, Lcom/resouce/module/ResID;->layout_setting:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -514,7 +514,7 @@
 
     iput-object v0, p0, Li0f;->Y:Landroid/view/View;
 
-    const v0, 0x7f0b2f71
+    sget v0, Lcom/resouce/module/ResID;->theme:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
 
     iput-object v0, p0, Li0f;->g0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2809
+    sget v0, Lcom/resouce/module/ResID;->read_progress:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -536,7 +536,7 @@
 
     iput-object v0, p0, Li0f;->e0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2b2c
+    sget v0, Lcom/resouce/module/ResID;->setting:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     iput-object v0, p0, Li0f;->f0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b036b
+    sget v0, Lcom/resouce/module/ResID;->catalog:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -558,7 +558,7 @@
 
     iput-object v0, p0, Li0f;->d0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b154c
+    sget v0, Lcom/resouce/module/ResID;->layout_left:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -567,7 +567,7 @@
 
     iput-object v0, p0, Li0f;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b186c
+    sget v0, Lcom/resouce/module/ResID;->menu_space:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -576,7 +576,7 @@
 
     iput-object v0, p0, Li0f;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b314c
+    sget v0, Lcom/resouce/module/ResID;->tv_directory:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -587,7 +587,7 @@
 
     iput-object v0, p0, Li0f;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3111
+    sget v0, Lcom/resouce/module/ResID;->tv_black:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     iput-object v0, p0, Li0f;->b0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0388
+    sget v0, Lcom/resouce/module/ResID;->chapter_list:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1009,7 +1009,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060395
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_secondBackgroundColor:I
 
     if-eqz v0, :cond_1
 
@@ -1020,12 +1020,12 @@
 
     if-eqz p1, :cond_0
 
-    const v2, 0x7f060396
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_secondBackgroundColor_night:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f060395
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_secondBackgroundColor:I
 
     :goto_0
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1052,7 +1052,7 @@
     :cond_1
     iget-object v0, p0, Li0f;->e0:Landroid/widget/ImageView;
 
-    const v2, 0x7f060362
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_normalIconColor:I
 
     invoke-static {v0, v2, p1}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
@@ -1069,14 +1069,14 @@
     .line 8
     iget-object v0, p0, Li0f;->a0:Landroid/widget/TextView;
 
-    const v3, 0x7f0603a2
+    sget v3, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v0, v3, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
     .line 9
     iget-object v0, p0, Li0f;->b0:Landroid/widget/TextView;
 
-    const v3, 0x7f060330
+    sget v3, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {v0, v3, p1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
@@ -1110,12 +1110,12 @@
 
     if-eqz p1, :cond_2
 
-    const v1, 0x7f060725
+    sget v1, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_night:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f060724
+    sget v1, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_day:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -1129,7 +1129,7 @@
 
     if-eqz p1, :cond_3
 
-    const v2, 0x7f0602e8
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_NovelMainColor_night:I
 
     :cond_3
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1297,7 +1297,7 @@
 .method public final P2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b036b
+    sget v0, Lcom/resouce/module/ResID;->catalog:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1310,7 +1310,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2809
+    sget v0, Lcom/resouce/module/ResID;->read_progress:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1323,7 +1323,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2b2c
+    sget v0, Lcom/resouce/module/ResID;->setting:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1336,7 +1336,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b2f71
+    sget v0, Lcom/resouce/module/ResID;->theme:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1349,7 +1349,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0539
+    sget v0, Lcom/resouce/module/ResID;->content:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1415,7 +1415,7 @@
     .line 4
     iget-object p1, p0, Li0f;->o0:Landroid/view/MenuItem;
 
-    const v0, 0x7f082013
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->wps_reader_menu_book_collected_heart:I
 
     invoke-interface {p1, v0}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
@@ -1427,9 +1427,9 @@
 
     move-result-object v0
 
-    const v1, 0x7f0603a2
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
-    const v2, 0x7f082014
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->wps_reader_menu_book_not_collected_heart:I
 
     invoke-static {v0, v2, v1, p1}, Lw1f;->b(Landroid/content/Context;IIZ)Landroid/graphics/drawable/Drawable;
 
@@ -1506,7 +1506,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f0e02a9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_navigation_layout:I
 
     return v0
 .end method
@@ -1653,7 +1653,7 @@
 .method public onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
     .locals 6
 
-    const v0, 0x7f0f0001
+    sget v0, Lcom/resouce/module/ResMENU;->option_menu_read_activity:I
 
     .line 1
     invoke-virtual {p2, v0, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
@@ -1698,7 +1698,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v3, 0x7f0b1867
+    sget v3, Lcom/resouce/module/ResID;->menu_add_library_status:I
 
     .line 4
     invoke-interface {p1, v3}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
@@ -1710,7 +1710,7 @@
     .line 5
     invoke-virtual {p0, v0}, Li0f;->R2(Z)V
 
-    const v0, 0x7f0b186b
+    sget v0, Lcom/resouce/module/ResID;->menu_reading_time:I
 
     .line 6
     invoke-interface {p1, v0}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
@@ -1759,7 +1759,7 @@
     move-result v3
 
     :goto_2
-    const v5, 0x7f0b2930
+    sget v5, Lcom/resouce/module/ResID;->ringProgressBar:I
 
     .line 11
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1770,7 +1770,7 @@
 
     iput-object v5, p0, Li0f;->m0:Lcn/wps/moffice/reader/view/RingProgressBar;
 
-    const v5, 0x7f0b3359
+    sget v5, Lcom/resouce/module/ResID;->vPoint:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1901,7 +1901,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1867
+    sget v1, Lcom/resouce/module/ResID;->menu_add_library_status:I
 
     if-ne v0, v1, :cond_0
 

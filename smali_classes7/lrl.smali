@@ -35,7 +35,7 @@
     .line 4
     invoke-virtual {p0, v0}, Lvzl;->e2(Z)V
 
-    const v0, 0x7f0b367e
+    sget v0, Lcom/resouce/module/ResID;->writer_share_btn_cancel:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Llrl;->f0:Landroid/view/View;
 
-    const v0, 0x7f0b367f
+    sget v0, Lcom/resouce/module/ResID;->writer_share_btn_ok:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     iput-object v0, p0, Llrl;->g0:Landroid/view/View;
 
-    const v0, 0x7f0b21d8
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_padding_top:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Llrl;->d0:Landroid/view/View;
 
-    const v0, 0x7f0b3680
+    sget v0, Lcom/resouce/module/ResID;->writer_share_txt_num:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -101,7 +101,7 @@
     :cond_0
     invoke-virtual {p0}, Llrl;->r2()V
 
-    const v0, 0x7f0b3027
+    sget v0, Lcom/resouce/module/ResID;->titlebar_group:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

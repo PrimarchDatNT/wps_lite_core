@@ -838,7 +838,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f070d8a
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_extract_padding:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1028,7 +1028,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0962
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_extract_dialog_item_layout:I
 
     const/4 v1, 0x0
 

@@ -61,9 +61,9 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/CellJumper$9;
 
-    const v1, 0x7f08045f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_jumpto:I
 
-    const v2, 0x7f121dca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cell_go:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/CellJumper$9;-><init>(Lcn/wps/moffice/spreadsheet/control/CellJumper;II)V
 
@@ -321,7 +321,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120b6c
+    sget v3, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     const/4 v4, 0x2
 
@@ -404,7 +404,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v1, 0x7f122fb2
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_celljump_can_not_find_cell:I
 
     invoke-static {v0, v1, v5}, Lsjf;->m(Landroid/app/Activity;II)V
 
@@ -635,7 +635,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e093a
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_cell_jump_history_list_layout:I
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/CellJumper;->X:Ljava/util/List;
 
@@ -682,7 +682,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e093c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_celljump_layout:I
 
     const/4 v2, 0x0
 
@@ -692,7 +692,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/CellJumper;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2136
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_celljump_edittextdropdown:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -706,7 +706,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/CellJumper;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2135
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_celljump_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -723,7 +723,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -758,7 +758,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122fb3
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_celljump_hint_text:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -844,7 +844,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e093a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_cell_jump_history_list_layout:I
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/CellJumper;->X:Ljava/util/List;
 

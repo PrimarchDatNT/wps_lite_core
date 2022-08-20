@@ -132,7 +132,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12148e
+    sget p2, Lcom/resouce/module/ResSTRING;->note_function_disable:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 

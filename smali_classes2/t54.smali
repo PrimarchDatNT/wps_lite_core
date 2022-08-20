@@ -674,7 +674,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -712,7 +712,7 @@
     .line 8
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c72
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_function_card2:I
 
     invoke-virtual {p1}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
 
@@ -729,7 +729,7 @@
     .line 9
     iput-object p1, p0, Lt54;->f:Landroid/view/View;
 
-    const p1, 0x7f0b1261
+    sget p1, Lcom/resouce/module/ResID;->image:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -743,7 +743,7 @@
     .line 11
     iget-object p1, p0, Lt54;->g:Landroid/view/View;
 
-    const v0, 0x7f0b0d8d
+    sget v0, Lcom/resouce/module/ResID;->finishimage:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 12
     iget-object p1, p0, Lt54;->g:Landroid/view/View;
 
-    const v0, 0x7f0b0539
+    sget v0, Lcom/resouce/module/ResID;->content:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -769,7 +769,7 @@
     .line 13
     iget-object p1, p0, Lt54;->g:Landroid/view/View;
 
-    const v0, 0x7f0b031a
+    sget v0, Lcom/resouce/module/ResID;->button:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     .line 14
     iget-object p1, p0, Lt54;->g:Landroid/view/View;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

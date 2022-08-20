@@ -31,7 +31,7 @@
 
     move-result v1
 
-    const v2, 0x7f121fed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_doc_info:I
 
     invoke-direct {v0, p0, v1, v2}, Lgrd$b;-><init>(Lgrd;II)V
 
@@ -88,12 +88,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080232
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_messages:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080bdc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_messages_ppt:I
 
     :goto_0
     return v0

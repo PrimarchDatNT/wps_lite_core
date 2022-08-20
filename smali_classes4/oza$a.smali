@@ -117,7 +117,7 @@
 
     move-result p1
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     if-nez p1, :cond_1
 
@@ -128,7 +128,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f122535
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f121bdb
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -192,7 +192,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f1204ce
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_using_mobile_network_tip:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -205,7 +205,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f121f5e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {p1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

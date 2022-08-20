@@ -69,7 +69,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f12044c
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_net_erro_tip:I
 
     if-eq v0, v2, :cond_2
 
@@ -137,9 +137,9 @@
 
     iget-object p1, p1, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$j;->b:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v0, 0x7f120442
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_insufficient_space:I
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$j$b$a;
 

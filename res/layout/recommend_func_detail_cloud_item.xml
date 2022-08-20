@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="35.329987dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/include_cloud" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/recommend_func_detail_cloud_pic" />
-    <include android:id="@id/include_fill" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/recommend_func_detail_fill_pic" />
-    <include android:id="@id/include_scan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/recommend_func_detail_scan_pic" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/tv_func_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="33.0dip" android:text="@string/recommend_func_cloud_tip" android:layout_marginStart="33.0dip" android:layout_marginEnd="33.0dip" />
-</LinearLayout>

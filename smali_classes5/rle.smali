@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0705df
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_toolbar_divider_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -58,7 +58,7 @@
 
     invoke-direct {p1, v0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

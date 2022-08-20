@@ -106,7 +106,7 @@
 
     check-cast v3, Landroid/view/View;
 
-    const v4, 0x7f080f95
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_share_play_share_view_bg:I
 
     const/4 v5, 0x0
 
@@ -152,7 +152,7 @@
 
     check-cast v3, Landroid/view/View;
 
-    const v4, 0x7f080f95
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_share_play_share_view_bg:I
 
     const/4 v5, 0x0
 

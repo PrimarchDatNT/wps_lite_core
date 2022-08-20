@@ -40,7 +40,7 @@
 .method public B2()I
     .locals 1
 
-    const v0, 0x7f1222a9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_local_file_tips:I
 
     return v0
 .end method
@@ -82,7 +82,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudActivity;->I:Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudPreFragment;
 
-    const v1, 0x7f0b01c8
+    sget v1, Lcom/resouce/module/ResID;->back_local_uploading_fragment_content:I
 
     invoke-virtual {p1, v1, v0}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -111,7 +111,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/common/comptexit/view/BackLocalToCloudActivity;->S:Lcn/wps/moffice/common/comptexit/view/TransfromAllSaveFragment;
 
-    const v2, 0x7f0b01c8
+    sget v2, Lcom/resouce/module/ResID;->back_local_uploading_fragment_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d98
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_home_transfrom_local_uploading_activity_view:I
 
     const/4 v2, 0x0
 

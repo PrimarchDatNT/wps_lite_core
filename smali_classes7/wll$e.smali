@@ -62,7 +62,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1226de
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_no_valid_page:I
 
     if-ne p1, v0, :cond_0
 

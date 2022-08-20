@@ -46,7 +46,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lzb4$a;Landroid/view/ViewGroup;Llxp;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -284,7 +284,7 @@
     :goto_0
     iget-object v3, p0, Lbe4;->T:Landroid/view/View;
 
-    const v4, 0x7f0b339e
+    sget v4, Lcom/resouce/module/ResID;->view_multiple_cooperation_doc:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
     .line 8
     iget-object v3, p0, Lbe4;->I:Landroid/app/Activity;
 
-    const v4, 0x7f1212f0
+    sget v4, Lcom/resouce/module/ResSTRING;->invite_edit_set_cooperation_document_desc:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -328,7 +328,7 @@
     .line 11
     iget-object v3, p0, Lbe4;->T:Landroid/view/View;
 
-    const v4, 0x7f0b022d
+    sget v4, Lcom/resouce/module/ResID;->bold_line_set_as_cooperation_doc:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -386,7 +386,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ca3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_invite_edit_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -396,7 +396,7 @@
 
     iput-object p1, p0, Lbe4;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2df6
+    sget v0, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -496,7 +496,7 @@
     .line 7
     iget-object v0, p0, Lbe4;->U:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f121f70
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cooperate_multimember_edit:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -628,12 +628,12 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122033
+    sget v1, Lcom/resouce/module/ResSTRING;->public_draft_define_tip_dialog_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f122031
+    sget v1, Lcom/resouce/module/ResSTRING;->public_draft_define_tip_dialog_desc:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -643,7 +643,7 @@
 
     invoke-direct {v1, p0}, Lbe4$f;-><init>(Lbe4;)V
 
-    const v2, 0x7f122032
+    sget v2, Lcom/resouce/module/ResSTRING;->public_draft_define_tip_dialog_know_it:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -672,7 +672,7 @@
     .line 1
     iget-object v0, p0, Lbe4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b263d
+    sget v1, Lcom/resouce/module/ResID;->public_home_link_modify_activity_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -685,7 +685,7 @@
     .line 2
     iget-object v0, p0, Lbe4;->T:Landroid/view/View;
 
-    const v1, 0x7f0b31c7
+    sget v1, Lcom/resouce/module/ResID;->tv_join_web:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

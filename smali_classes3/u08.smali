@@ -49,7 +49,7 @@
 .method public Q()I
     .locals 1
 
-    const v0, 0x7f0e032b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_listview_item:I
 
     return v0
 .end method
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605be
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_upload_file_progress_foreground_color_spreadsheet:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

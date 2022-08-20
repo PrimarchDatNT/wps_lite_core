@@ -363,7 +363,7 @@
 
     iget-object p1, p1, Lhz4;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12011b
+    sget v0, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     const/4 v1, 0x0
 

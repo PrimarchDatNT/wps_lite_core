@@ -50,7 +50,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2972
+    sget v0, Lcom/resouce/module/ResID;->rl_to_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -91,7 +91,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b296f
+    sget v0, Lcom/resouce/module/ResID;->rl_to_et:I
 
     if-ne p1, v0, :cond_2
 
@@ -107,7 +107,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2971
+    sget v0, Lcom/resouce/module/ResID;->rl_to_pdf:I
 
     if-ne p1, v0, :cond_3
 
@@ -123,7 +123,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0577
+    sget v0, Lcom/resouce/module/ResID;->convert_to_ppt:I
 
     if-ne p1, v0, :cond_4
 
@@ -139,7 +139,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b2970
+    sget v0, Lcom/resouce/module/ResID;->rl_to_file:I
 
     if-ne p1, v0, :cond_5
 

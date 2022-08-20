@@ -79,7 +79,7 @@
         }
     .end annotation
 
-    const p7, 0x7f13013a
+    sget p7, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v0, 0x1
 
@@ -694,7 +694,7 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setEnabled(Z)V
 
     :goto_1
-    const v0, 0x7f122a86
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_buy_dorcervip:I
 
     .line 9
     iget-object v1, p0, Ljf4;->Z:Lwf4;
@@ -705,7 +705,7 @@
 
     if-eqz v1, :cond_3
 
-    const v0, 0x7f121231
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_login_use_now:I
 
     .line 10
     iget-object v1, p0, Ljf4;->V:Landroid/widget/ImageView;
@@ -738,7 +738,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e33
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_link_pic_layout:I
 
     const/4 v2, 0x0
 
@@ -772,7 +772,7 @@
     .line 6
     iget-object v0, p0, Ljf4;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -789,7 +789,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122992
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_setting_front_pic:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -841,7 +841,7 @@
     .line 13
     iget-object v0, p0, Ljf4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b1d16
+    sget v2, Lcom/resouce/module/ResID;->pay_btn:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -852,7 +852,7 @@
     .line 14
     iget-object v0, p0, Ljf4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2b85
+    sget v2, Lcom/resouce/module/ResID;->share_link_edit_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -865,7 +865,7 @@
     .line 15
     iget-object v0, p0, Ljf4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b184c
+    sget v2, Lcom/resouce/module/ResID;->member_name_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -878,7 +878,7 @@
     .line 16
     iget-object v0, p0, Ljf4;->B:Landroid/view/View;
 
-    const v2, 0x7f0b33d9
+    sget v2, Lcom/resouce/module/ResID;->vip_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -920,7 +920,7 @@
     :goto_0
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    const v0, 0x7f0b2b5f
+    sget v0, Lcom/resouce/module/ResID;->share_cover_category_view:I
 
     .line 21
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

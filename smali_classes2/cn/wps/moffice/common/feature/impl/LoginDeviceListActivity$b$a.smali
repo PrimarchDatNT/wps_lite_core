@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0425
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_online_device:I
 
     const/4 v1, 0x0
 
@@ -53,7 +53,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b143e
+    sget p2, Lcom/resouce/module/ResID;->iv_device_type:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -66,7 +66,7 @@
     .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b3149
+    sget p2, Lcom/resouce/module/ResID;->tv_device_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -79,7 +79,7 @@
     .line 5
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b313d
+    sget p2, Lcom/resouce/module/ResID;->tv_date_location:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$b$a;->j0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0818a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_dev_type_pc:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

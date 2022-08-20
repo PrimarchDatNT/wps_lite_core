@@ -35,14 +35,14 @@
 
     sput-object v0, Lbe5;->y0:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0b2e4a
+    sget v1, Lcom/resouce/module/ResID;->table_key_contain:I
 
     const/4 v2, 0x6
 
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    const v1, 0x7f0b2e3a
+    sget v1, Lcom/resouce/module/ResID;->table_info:I
 
     const/4 v2, 0x7
 

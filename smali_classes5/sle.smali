@@ -39,7 +39,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1010
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_style_center_image_color_circle_view:I
 
     const/4 v1, 0x0
 
@@ -71,7 +71,7 @@
     .line 6
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setEnableOutSideCircle(Z)V
 
-    const p1, 0x7f081604
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     .line 7
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setCenterImageResource(I)V
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_color_filter_imageview:I
 
     const/4 v2, 0x0
 
@@ -153,7 +153,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0512
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_color_select_item:I
 
     const/4 v1, 0x0
 
@@ -161,7 +161,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b1bc6
+    sget v0, Lcom/resouce/module/ResID;->pad_color_select_iv:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1000
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_color_filter_textview:I
 
     const/4 v1, 0x0
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1007
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_identity_operate_layout:I
 
     const/4 v2, 0x0
 
@@ -247,7 +247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1011
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ppt_style_select_change_imageview:I
 
     const/4 v2, 0x0
 
@@ -262,7 +262,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -334,7 +334,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e05a2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_titlebar_anim_image_text_view:I
 
     const/4 v2, 0x0
 
@@ -343,7 +343,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b2290
+    sget v0, Lcom/resouce/module/ResID;->ppt_anim_imageview_image:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -352,7 +352,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2291
+    sget v1, Lcom/resouce/module/ResID;->ppt_anim_imageview_text:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e059c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ppt_anim_list_item:I
 
     const/4 v2, 0x0
 
@@ -399,7 +399,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b228e
+    sget v1, Lcom/resouce/module/ResID;->ppt_anim_effect_imageview_image:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b228f
+    sget v3, Lcom/resouce/module/ResID;->ppt_anim_effect_imageview_text:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a98
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_pad_public_popmenu_item:I
 
     const/4 v2, 0x0
 
@@ -515,7 +515,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b2479
+    sget v0, Lcom/resouce/module/ResID;->ppt_textalign_item_icon:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -524,7 +524,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b247b
+    sget v1, Lcom/resouce/module/ResID;->ppt_textalign_item_text:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -562,7 +562,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e058a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_menu_popup_list_item:I
 
     const/4 v2, 0x0
 
@@ -571,7 +571,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b2277
+    sget v0, Lcom/resouce/module/ResID;->popup_list_item_image:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2278
+    sget v1, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
     .line 7
     invoke-virtual {v1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p2, 0x7f0b15b1
+    sget p2, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0aeb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_toolbar_group:I
 
     const/4 v1, 0x0
 
@@ -706,12 +706,12 @@
 
     if-ne p1, v1, :cond_0
 
-    const p1, 0x7f0e05ee
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_text_dropdown_view:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e05ef
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_text_view:I
 
     :goto_0
     const/4 v1, 0x0
@@ -721,7 +721,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b07d2
+    sget v0, Lcom/resouce/module/ResID;->dropdown_imageview_image:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -747,7 +747,7 @@
     invoke-virtual {v0, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :goto_1
-    const v1, 0x7f0b07d3
+    sget v1, Lcom/resouce/module/ResID;->dropdown_imageview_text:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -759,7 +759,7 @@
     .line 10
     invoke-virtual {v1, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0602db
+    sget p3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     if-nez p4, :cond_2
 
@@ -913,17 +913,17 @@
 
     if-eq p2, p6, :cond_3
 
-    const p2, 0x7f0e081c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_textimage_view:I
 
     goto :goto_1
 
     :cond_3
-    const p2, 0x7f0e07ef
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_aliquots_textimage_view:I
 
     goto :goto_1
 
     :cond_4
-    const p2, 0x7f0e08f7
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_public_textimage_view:I
 
     :goto_1
     const/4 p6, 0x0

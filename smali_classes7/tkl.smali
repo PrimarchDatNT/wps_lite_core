@@ -431,7 +431,7 @@
 
     check-cast v1, Lcn/wps/moffice/common/beans/phone/AlphaAutoText;
 
-    const v2, 0x7f1227a4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

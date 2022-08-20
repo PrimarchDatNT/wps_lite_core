@@ -7,9 +7,9 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lrk9$b;)V
     .locals 8
 
-    const v4, 0x7f081f44
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_ribbonicon_share_moment_24:I
 
-    const v5, 0x7f12290f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_send_link_to_moment:I
 
     move-object v0, p0
 

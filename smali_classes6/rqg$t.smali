@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070ab8
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0813d8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_autobtn_selector:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12197d
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_complex_format_frame_color_no_fill:I
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 

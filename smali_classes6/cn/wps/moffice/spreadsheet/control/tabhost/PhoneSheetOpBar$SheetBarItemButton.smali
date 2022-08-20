@@ -41,7 +41,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -49,7 +49,7 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/Button;->setTextColor(I)V
 
-    const p2, 0x7f081cbb
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_grid_item_selector_roundrect:I
 
     .line 6
     invoke-virtual {p0, p2}, Landroid/widget/Button;->setBackgroundResource(I)V

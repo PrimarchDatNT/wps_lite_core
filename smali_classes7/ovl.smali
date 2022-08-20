@@ -84,7 +84,7 @@
 .method public final A2()V
     .locals 6
 
-    const v0, 0x7f0b36b6
+    sget v0, Lcom/resouce/module/ResID;->writer_table_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -103,7 +103,7 @@
     .line 3
     iget-object v0, p0, Lovl;->m0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f122a49
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_attribute:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
 
@@ -116,7 +116,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b3696
+    sget v0, Lcom/resouce/module/ResID;->writer_table_attribute_tabs_content:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Lovl;->n0:Landroid/view/View;
 
-    const v0, 0x7f0b3694
+    sget v0, Lcom/resouce/module/ResID;->writer_table_attribute_style_tab:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v0, p0, Lovl;->p0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3693
+    sget v0, Lcom/resouce/module/ResID;->writer_table_attribute_shade_tab:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lovl;->q0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3691
+    sget v0, Lcom/resouce/module/ResID;->writer_table_attribute_align_wrap_tab:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lovl;->r0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3695
+    sget v0, Lcom/resouce/module/ResID;->writer_table_attribute_tabhost:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -172,7 +172,7 @@
     .line 10
     invoke-virtual {v0}, Landroid/widget/TabHost;->setup()V
 
-    const v0, 0x7f0b36b3
+    sget v0, Lcom/resouce/module/ResID;->writer_table_style_tab:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object v1, p0, Lovl;->j0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b36aa
+    sget v1, Lcom/resouce/module/ResID;->writer_table_shade_tab:I
 
     .line 12
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     iput-object v2, p0, Lovl;->k0:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b3687
+    sget v2, Lcom/resouce/module/ResID;->writer_table_align_warp_tab:I
 
     .line 13
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -208,21 +208,21 @@
     .line 14
     iget-object v3, p0, Lovl;->j0:Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0e110a
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_table_style_pad:I
 
     invoke-static {v4, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 15
     iget-object v3, p0, Lovl;->k0:Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0e1105
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_table_shade_pad:I
 
     invoke-static {v4, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 16
     iget-object v3, p0, Lovl;->l0:Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0e110b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_tatle_alignment_wrap:I
 
     invoke-static {v4, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

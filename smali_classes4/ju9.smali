@@ -433,7 +433,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e02d8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_more_item_layout:I
 
     const/4 v1, 0x0
 

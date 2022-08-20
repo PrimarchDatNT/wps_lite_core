@@ -412,7 +412,7 @@
 
     iget-object v1, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -429,7 +429,7 @@
 
     iget-object v1, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -465,7 +465,7 @@
 
     iget-object v4, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -543,12 +543,12 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0e0189
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_phone_pdf_long_pic_share_select_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e07c4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_long_pic_share_select_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -565,7 +565,7 @@
     .line 4
     iget-object v0, p0, Lepc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -582,7 +582,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -593,7 +593,7 @@
     .line 6
     iget-object v0, p0, Lepc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b177a
+    sget v1, Lcom/resouce/module/ResID;->long_pic_select_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -606,7 +606,7 @@
     .line 7
     iget-object v0, p0, Lepc;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2fe9
+    sget v1, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
     .line 9
     iget-object v0, p0, Lepc;->U:Landroid/view/View;
 
-    const v2, 0x7f0b2fd7
+    sget v2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -660,7 +660,7 @@
     .line 13
     iget-object v0, p0, Lepc;->U:Landroid/view/View;
 
-    const v2, 0x7f0b177b
+    sget v2, Lcom/resouce/module/ResID;->long_pic_select_grid:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -811,7 +811,7 @@
     .line 5
     iget-object p1, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v0, 0x7f121b81
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_long_pic_share_length_limited:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1061,7 +1061,7 @@
     .line 3
     iget-object v0, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v1, 0x7f121745
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v2, 0x1
 
@@ -1317,7 +1317,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07095a
+    sget v2, Lcom/resouce/module/ResDIMEN;->ppt_long_pic_share_preview_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1386,7 +1386,7 @@
     .line 2
     iget-object v1, p0, Lepc;->U:Landroid/view/View;
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1593,7 +1593,7 @@
     :cond_0
     iget-object v1, p0, Lepc;->V:Landroid/app/Activity;
 
-    const v2, 0x7f121b81
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_long_pic_share_length_limited:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

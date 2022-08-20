@@ -45,7 +45,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -216,7 +216,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0394
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_header_tips:I
 
     iget-object v2, p0, Lvs8;->a:Landroid/widget/FrameLayout;
 
@@ -228,7 +228,7 @@
 
     iput-object v0, p0, Lvs8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2058
+    sget v1, Lcom/resouce/module/ResID;->phone_message_close_button:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
     .line 5
     iget-object v0, p0, Lvs8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205d
+    sget v1, Lcom/resouce/module/ResID;->phone_message_update_now_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 6
     iget-object v0, p0, Lvs8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205a
+    sget v1, Lcom/resouce/module/ResID;->phone_message_msg_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 7
     iget-object v0, p0, Lvs8;->b:Landroid/view/View;
 
-    const v1, 0x7f0b205c
+    sget v1, Lcom/resouce/module/ResID;->phone_message_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
     .line 2
     iget-object v1, p0, Lvs8;->g:Landroid/app/Activity;
 
-    const v2, 0x7f12112d
+    sget v2, Lcom/resouce/module/ResSTRING;->home_roaming_tips_space_usage:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -480,7 +480,7 @@
     .line 5
     iget-object v0, p0, Lvs8;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f120fd9
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_upgrade_member:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -529,7 +529,7 @@
 
     move-result-wide v0
 
-    const v2, 0x7f120eae
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     const/4 v3, 0x1
 
@@ -571,7 +571,7 @@
     .line 7
     iget-object v0, p0, Lvs8;->g:Landroid/app/Activity;
 
-    const v1, 0x7f120eb8
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_x_file_out_of_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -623,7 +623,7 @@
     :goto_0
     iget-object v1, p0, Lvs8;->d:Landroid/widget/TextView;
 
-    const v2, 0x7f120fd9
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_upgrade_member:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

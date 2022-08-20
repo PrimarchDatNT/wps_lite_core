@@ -148,9 +148,9 @@
 
     const/4 v1, 0x3
 
-    const v2, 0x7f070d1d
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_inner_circle_width:I
 
-    const v3, 0x7f070d1e
+    sget v3, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_outside_circle_width:I
 
     const/4 v4, 0x1
 
@@ -240,7 +240,7 @@
 
     const/4 p4, 0x7
 
-    const v2, 0x7f081604
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     .line 11
     invoke-virtual {p2, p4, v2}, Landroid/content/res/TypedArray;->getResourceId(II)I

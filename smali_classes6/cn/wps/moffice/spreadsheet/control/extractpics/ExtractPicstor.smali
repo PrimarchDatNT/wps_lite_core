@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/extractpics/ExtractPicstor$1;
 
-    const v1, 0x7f080492
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
-    const v2, 0x7f121803
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/extractpics/ExtractPicstor$1;-><init>(Lcn/wps/moffice/spreadsheet/control/extractpics/ExtractPicstor;II)V
 

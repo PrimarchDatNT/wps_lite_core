@@ -54,11 +54,11 @@
 
     invoke-direct {p1, p0}, Lte3$a;-><init>(Lte3;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p2, 0x0
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ca7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_jump_to_dialog:I
 
     const/4 v2, 0x0
 
@@ -134,7 +134,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f122233
+    sget v0, Lcom/resouce/module/ResSTRING;->public_go:I
 
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -151,7 +151,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const v0, 0x7f0b1342
+    sget v0, Lcom/resouce/module/ResID;->input_jump_number:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -162,7 +162,7 @@
 
     iput-object v0, p0, Lte3;->S:Landroid/widget/EditText;
 
-    const v0, 0x7f0b14ec
+    sget v0, Lcom/resouce/module/ResID;->jump_range:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

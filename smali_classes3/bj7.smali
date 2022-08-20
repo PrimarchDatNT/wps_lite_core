@@ -49,7 +49,7 @@
     .line 2
     iput-object p1, p0, Lbj7;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1d05
+    sget v0, Lcom/resouce/module/ResID;->path_tips_container:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b1d06
+    sget v0, Lcom/resouce/module/ResID;->path_trace:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
 
     iput-object v0, p0, Lbj7;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1cfa
+    sget v0, Lcom/resouce/module/ResID;->path_close:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1cfa
+    sget v0, Lcom/resouce/module/ResID;->path_close:I
 
     if-ne p1, v0, :cond_0
 

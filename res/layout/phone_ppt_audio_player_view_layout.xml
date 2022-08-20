@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="80.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.presentation.control.audio.AudioPlayerView android:layout_gravity="center" android:id="@id/audio_player_view" android:layout_width="fill_parent" android:layout_height="58.0dip" />
-</FrameLayout>

@@ -179,7 +179,7 @@
 
     iget-object v1, v0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->U:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0362
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_new_roaming_settings_banner_layout:I
 
     iget-object v0, v0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->I:Lcn/wps/moffice/plugin/cloudPage/banner/PluginCustomViewPager;
 
@@ -191,7 +191,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0d95
+    sget v1, Lcom/resouce/module/ResID;->first_text_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2acc
+    sget v2, Lcom/resouce/module/ResID;->second_text_view:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f0b01d6
+    sget v4, Lcom/resouce/module/ResID;->background_image_view:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -255,7 +255,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080180
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->color_light_gray:I
 
     .line 12
     invoke-virtual {p1, v1, v3}, Lzad;->c(IZ)Lzad;

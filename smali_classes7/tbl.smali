@@ -428,7 +428,7 @@
 .method public final B3(Lvzl;)V
     .locals 5
 
-    const v0, 0x7f0b20e6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn_root:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -440,7 +440,7 @@
     return-void
 
     :cond_0
-    const v2, 0x7f0b20e5
+    sget v2, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn:I
 
     .line 2
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -485,7 +485,7 @@
     move-object v1, v0
 
     :cond_2
-    const v0, 0x7f080231
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_keyboard:I
 
     .line 7
     invoke-virtual {v3, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -990,7 +990,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b20e6
+    sget v0, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn_root:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1808,7 +1808,7 @@
     invoke-static {v0}, Lcph;->d(Ljava/lang/Runnable;)Z
 
     :cond_6
-    const v0, 0x7f0b20e5
+    sget v0, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn:I
 
     .line 15
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2736,7 +2736,7 @@
 .method public final o3(Llhl;)V
     .locals 2
 
-    const v0, 0x7f0e1032
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_writer_modify_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -2751,7 +2751,7 @@
     .line 3
     new-instance v0, Lubl;
 
-    const v1, 0x7f0b2ff2
+    sget v1, Lcom/resouce/module/ResID;->title_container:I
 
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
@@ -2763,7 +2763,7 @@
 
     iput-object v0, p0, Ltbl;->m0:Lubl;
 
-    const p1, 0x7f0b0e7b
+    sget p1, Lcom/resouce/module/ResID;->format_layout:I
 
     .line 4
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2785,7 +2785,7 @@
 
     iput-object v0, p0, Ltbl;->l0:Lrbl;
 
-    const p1, 0x7f0b0e7c
+    sget p1, Lcom/resouce/module/ResID;->format_more:I
 
     .line 6
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2796,7 +2796,7 @@
 
     iput-object p1, p0, Ltbl;->p0:Landroid/widget/FrameLayout;
 
-    const p1, 0x7f0b1c7a
+    sget p1, Lcom/resouce/module/ResID;->pager:I
 
     .line 7
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2807,7 +2807,7 @@
 
     iput-object p1, p0, Ltbl;->B0:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const p1, 0x7f0b0e79
+    sget p1, Lcom/resouce/module/ResID;->format_bg:I
 
     .line 8
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;

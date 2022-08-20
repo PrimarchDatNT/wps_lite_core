@@ -281,7 +281,7 @@
 
     invoke-direct {v3, v4}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f12060d
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_pick_photo:I
 
     .line 28
     invoke-virtual {v3, v4}, Lhd3;->setTitleById(I)Lhd3;

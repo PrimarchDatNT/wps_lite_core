@@ -120,14 +120,14 @@
     .line 6
     iget-object p1, p0, Lpj9;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f120e91
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cloud_space_not_enough:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 7
     iget-object p1, p0, Lpj9;->g:Landroid/widget/TextView;
 
-    const v0, 0x7f1211a2
+    sget v0, Lcom/resouce/module/ResSTRING;->home_try_again_after_clean_space:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -137,7 +137,7 @@
     :cond_1
     iget-object v1, p0, Lpj9;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f120e92
+    sget v2, Lcom/resouce/module/ResSTRING;->home_cloud_space_notenough_cannot_upload:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -146,7 +146,7 @@
 
     iget-object v2, p0, Lpj9;->a:Landroid/content/Context;
 
-    const v3, 0x7f121212
+    sget v3, Lcom/resouce/module/ResSTRING;->home_vip_max_support_365g_space:I
 
     new-array p1, p1, [Ljava/lang/Object;
 
@@ -166,7 +166,7 @@
     :goto_0
     iget-object p1, p0, Lpj9;->b:Landroid/view/View;
 
-    const v0, 0x7f0b3083
+    sget v0, Lcom/resouce/module/ResID;->top_tips_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 5
     iget-object v1, p0, Lpj9;->f:Landroid/widget/TextView;
 
-    const v2, 0x7f120f11
+    sget v2, Lcom/resouce/module/ResSTRING;->home_file_over_upload_limit:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -252,7 +252,7 @@
 
     iget-object v2, p0, Lpj9;->a:Landroid/content/Context;
 
-    const v3, 0x7f120ff8
+    sget v3, Lcom/resouce/module/ResSTRING;->home_notsupport_upload_over_1g_file:I
 
     new-array v4, p1, [Ljava/lang/Object;
 
@@ -284,7 +284,7 @@
 
     iget-object v2, p0, Lpj9;->a:Landroid/content/Context;
 
-    const v3, 0x7f121213
+    sget v3, Lcom/resouce/module/ResSTRING;->home_vip_upload_limit_tip:I
 
     new-array p1, p1, [Ljava/lang/Object;
 
@@ -304,7 +304,7 @@
     :goto_0
     iget-object p1, p0, Lpj9;->b:Landroid/view/View;
 
-    const v0, 0x7f0b3083
+    sget v0, Lcom/resouce/module/ResID;->top_tips_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -536,7 +536,7 @@
     .line 2
     iget-object v0, p0, Lpj9;->b:Landroid/view/View;
 
-    const v1, 0x7f0b33ce
+    sget v1, Lcom/resouce/module/ResID;->viewstub_docinfo_uploadfail_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
 
     iput-object v0, p0, Lpj9;->d:Landroid/view/View;
 
-    const v1, 0x7f0b3315
+    sget v1, Lcom/resouce/module/ResID;->upload_error_title:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -565,7 +565,7 @@
     .line 5
     iget-object v0, p0, Lpj9;->d:Landroid/view/View;
 
-    const v1, 0x7f0b3314
+    sget v1, Lcom/resouce/module/ResID;->upload_error_subtitle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
     .line 6
     iget-object v0, p0, Lpj9;->d:Landroid/view/View;
 
-    const v1, 0x7f0b330f
+    sget v1, Lcom/resouce/module/ResID;->upgrade_vip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -592,7 +592,7 @@
     :cond_0
     iget-object v0, p0, Lpj9;->b:Landroid/view/View;
 
-    const v1, 0x7f0b154e
+    sget v1, Lcom/resouce/module/ResID;->layout_local_roaming_file_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -648,7 +648,7 @@
     .line 13
     iget-object p1, p0, Lpj9;->a:Landroid/content/Context;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v3}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -74,7 +74,7 @@
 
     invoke-direct {v1, p0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f081a3b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_module_wps_promotion:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

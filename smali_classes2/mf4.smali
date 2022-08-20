@@ -98,7 +98,7 @@
     .line 7
     iput-object p5, p0, Lmf4;->l:Landroid/view/View;
 
-    const v0, 0x7f0b1f73
+    sget v0, Lcom/resouce/module/ResID;->period_text:I
 
     .line 8
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lmf4;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1f72
+    sget v0, Lcom/resouce/module/ResID;->period_second_text:I
 
     .line 9
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
     .line 10
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b15d6
+    sget v0, Lcom/resouce/module/ResID;->link_modify_divide_line:I
 
     .line 11
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object v0, p0, Lmf4;->c:Landroid/view/View;
 
-    const v0, 0x7f0b1f71
+    sget v0, Lcom/resouce/module/ResID;->period_member_icon:I
 
     .line 12
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object v0, p0, Lmf4;->g:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b15ec
+    sget v0, Lcom/resouce/module/ResID;->link_period_selected:I
 
     .line 13
     invoke-virtual {p5, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
     .line 15
     iget-object p1, p0, Lmf4;->d:Landroid/widget/TextView;
 
-    const p2, 0x7f121fa8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_custom_validity:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -195,7 +195,7 @@
     .line 17
     iget-object p1, p0, Lmf4;->e:Landroid/widget/TextView;
 
-    const p2, 0x7f12293b
+    sget p2, Lcom/resouce/module/ResSTRING;->public_set_doc_access_validity:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -224,7 +224,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f120f06
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     new-array v2, p4, [Ljava/lang/Object;
 
@@ -250,7 +250,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1223f1
+    sget v5, Lcom/resouce/module/ResSTRING;->public_link_period:I
 
     new-array p4, p4, [Ljava/lang/Object;
 
@@ -279,7 +279,7 @@
     :goto_0
     iget-object p1, p0, Lmf4;->d:Landroid/widget/TextView;
 
-    const p2, 0x7f1223f2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_link_period_forever:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -427,7 +427,7 @@
 .method public e()I
     .locals 1
 
-    const v0, 0x7f0e0cb7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_link_period_choose_item_layout:I
 
     return v0
 .end method

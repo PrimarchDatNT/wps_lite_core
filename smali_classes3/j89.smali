@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dbd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_search_app_item:I
 
     const/4 v2, 0x0
 
@@ -167,7 +167,7 @@
 
     iput-object p1, p0, Lj89;->c:Landroid/view/View;
 
-    const v0, 0x7f0b2a4f
+    sget v0, Lcom/resouce/module/ResID;->search_app_item_text_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
     .line 5
     iget-object p1, p0, Lj89;->c:Landroid/view/View;
 
-    const v0, 0x7f0b12c7
+    sget v0, Lcom/resouce/module/ResID;->img_search_app_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -194,7 +194,7 @@
     .line 6
     iget-object p1, p0, Lj89;->c:Landroid/view/View;
 
-    const v0, 0x7f0b15b1
+    sget v0, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     .line 3
     iget-object v1, p0, Lj89;->c:Landroid/view/View;
 
-    const v7, 0x7f0b2e67
+    sget v7, Lcom/resouce/module/ResID;->tag_app_skip_stat:I
 
     sget-object v8, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 

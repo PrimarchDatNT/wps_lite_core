@@ -335,7 +335,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0806f0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->foreign_home_member_go:I
 
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -354,7 +354,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f06045b
+    sget v3, Lcom/resouce/module/ResCOLOR;->phone_public_fontcolor_gray_2:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 

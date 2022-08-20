@@ -274,7 +274,7 @@
     .line 11
     iget-object p1, p0, Lcom/mopub/nativeads/GoogleAppOpenAdRender;->d:Landroid/view/View;
 
-    const p2, 0x7f0817ea
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_ad_app_open_background:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundResource(I)V
 

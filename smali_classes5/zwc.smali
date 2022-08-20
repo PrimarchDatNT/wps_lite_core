@@ -44,7 +44,7 @@
 .method public final a(I)V
     .locals 2
 
-    const v0, 0x7f0b1e86
+    sget v0, Lcom/resouce/module/ResID;->pdf_pad_setting_finger_and_pen:I
 
     if-ne p1, v0, :cond_0
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e064f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_pad_pen_setting_popmenu:I
 
     const/4 v2, 0x0
 
@@ -154,7 +154,7 @@
 
     iput-object v0, p0, Lzwc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e8a
+    sget v1, Lcom/resouce/module/ResID;->pdf_pad_setting_just_pen_text_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
     .line 3
     iget-object v0, p0, Lzwc;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1e88
+    sget v1, Lcom/resouce/module/ResID;->pdf_pad_setting_just_pen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
     .line 4
     iget-object v0, p0, Lzwc;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1e87
+    sget v2, Lcom/resouce/module/ResID;->pdf_pad_setting_finger_and_pen_checked:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -188,7 +188,7 @@
     .line 5
     iget-object v0, p0, Lzwc;->I:Landroid/view/View;
 
-    const v3, 0x7f0b1e89
+    sget v3, Lcom/resouce/module/ResID;->pdf_pad_setting_just_pen_checked:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -196,7 +196,7 @@
 
     iput-object v0, p0, Lzwc;->S:Landroid/view/View;
 
-    const v0, 0x7f0b1e86
+    sget v0, Lcom/resouce/module/ResID;->pdf_pad_setting_finger_and_pen:I
 
     .line 6
     invoke-virtual {p0, v0}, Lzwc;->d(I)V
@@ -390,7 +390,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1e86
+    sget v0, Lcom/resouce/module/ResID;->pdf_pad_setting_finger_and_pen:I
 
     if-ne p1, v0, :cond_0
 
@@ -405,7 +405,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1e88
+    sget v0, Lcom/resouce/module/ResID;->pdf_pad_setting_just_pen:I
 
     if-ne p1, v0, :cond_1
 

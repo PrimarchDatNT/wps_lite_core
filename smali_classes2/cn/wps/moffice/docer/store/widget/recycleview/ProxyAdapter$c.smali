@@ -34,7 +34,7 @@
 
     invoke-direct {p3, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    const p1, 0x7f0b1735
+    sget p1, Lcom/resouce/module/ResID;->loading_view_show:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/docer/store/widget/recycleview/ProxyAdapter$c;->k0:Landroid/view/View;
 
-    const p1, 0x7f0b1734
+    sget p1, Lcom/resouce/module/ResID;->loading_view_error:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -52,7 +52,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/docer/store/widget/recycleview/ProxyAdapter$c;->l0:Landroid/view/View;
 
-    const p1, 0x7f0b1733
+    sget p1, Lcom/resouce/module/ResID;->loading_view_end:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

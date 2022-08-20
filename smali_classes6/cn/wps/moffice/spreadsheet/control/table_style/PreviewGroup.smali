@@ -244,7 +244,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f07028e
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_table_style_preview_horizontal_gap:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

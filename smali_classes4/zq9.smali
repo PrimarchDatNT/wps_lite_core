@@ -84,7 +84,7 @@
     .line 1
     iget-object v0, p0, Lzq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b221e
+    sget v1, Lcom/resouce/module/ResID;->pic_to_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     .line 4
     iget-object v0, p0, Lzq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2224
+    sget v1, Lcom/resouce/module/ResID;->pic_to_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -147,7 +147,7 @@
     .line 8
     iget-object v0, p0, Lzq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2221
+    sget v1, Lcom/resouce/module/ResID;->pic_to_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
     .line 9
     iget-object v1, p0, Lzq9;->B:Landroid/view/View;
 
-    const v4, 0x7f0b2223
+    sget v4, Lcom/resouce/module/ResID;->pic_to_ppt_title:I
 
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
 
     if-ne v4, v5, :cond_2
 
-    const v4, 0x7f122642
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2ppt:I
 
     .line 11
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
@@ -185,7 +185,7 @@
     .line 13
     iget-object v0, p0, Lzq9;->B:Landroid/view/View;
 
-    const v1, 0x7f0b221b
+    sget v1, Lcom/resouce/module/ResID;->pic_to_et:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -232,7 +232,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_select_item_layout:I
 
     const/4 v2, 0x0
 
@@ -252,7 +252,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12226f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_picture_conversion:I
 
     return v0
 .end method
@@ -265,7 +265,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b221e
+    sget v0, Lcom/resouce/module/ResID;->pic_to_pdf:I
 
     if-ne p1, v0, :cond_0
 
@@ -284,7 +284,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2224
+    sget v0, Lcom/resouce/module/ResID;->pic_to_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -303,7 +303,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b221b
+    sget v0, Lcom/resouce/module/ResID;->pic_to_et:I
 
     if-ne p1, v0, :cond_2
 
@@ -322,7 +322,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2221
+    sget v0, Lcom/resouce/module/ResID;->pic_to_ppt:I
 
     if-ne p1, v0, :cond_3
 

@@ -125,7 +125,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f04042e
+    sget v0, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcn/wps/moffice/common/beans/NewDropDownButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -222,7 +222,7 @@
     .line 20
     new-instance v4, Lcn/wps/moffice/common/beans/RecordPopWindow;
 
-    const v5, 0x7f04042e
+    sget v5, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     invoke-direct {v4, p1, p2, v5}, Lcn/wps/moffice/common/beans/RecordPopWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -2357,7 +2357,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f06065e
+    sget v7, Lcom/resouce/module/ResCOLOR;->titlebarIconDisabledColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2403,7 +2403,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f081c5a
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_spinner_list_divider_color:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

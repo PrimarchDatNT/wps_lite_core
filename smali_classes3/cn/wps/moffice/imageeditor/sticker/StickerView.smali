@@ -279,7 +279,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060622
+    sget v2, Lcom/resouce/module/ResCOLOR;->stroke_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -380,7 +380,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/sticker/StickerView;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f08020e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_close:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -429,7 +429,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/imageeditor/sticker/StickerView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f080219
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_control_point:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

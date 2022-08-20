@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201bf
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_sacn_download_so_tips:I
 
     const/4 v2, 0x1
 
@@ -68,7 +68,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1439
+    sget v1, Lcom/resouce/module/ResID;->iv_cut:I
 
     if-ne v0, v1, :cond_1
 
@@ -118,7 +118,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const v1, 0x7f0b14b9
+    sget v1, Lcom/resouce/module/ResID;->iv_rotation:I
 
     if-ne v0, v1, :cond_4
 
@@ -180,7 +180,7 @@
     goto/16 :goto_2
 
     :cond_4
-    const v1, 0x7f0b1456
+    sget v1, Lcom/resouce/module/ResID;->iv_filter:I
 
     if-ne v0, v1, :cond_8
 
@@ -254,7 +254,7 @@
     goto :goto_2
 
     :cond_8
-    const v1, 0x7f0b143a
+    sget v1, Lcom/resouce/module/ResID;->iv_delete:I
 
     if-ne v0, v1, :cond_a
 
@@ -290,7 +290,7 @@
     goto :goto_2
 
     :cond_a
-    const v1, 0x7f0b323b
+    sget v1, Lcom/resouce/module/ResID;->tv_retake:I
 
     if-ne v0, v1, :cond_b
 
@@ -304,7 +304,7 @@
     goto :goto_2
 
     :cond_b
-    const v1, 0x7f0b3204
+    sget v1, Lcom/resouce/module/ResID;->tv_ok:I
 
     if-ne v0, v1, :cond_c
 
@@ -316,7 +316,7 @@
     goto :goto_2
 
     :cond_c
-    const v1, 0x7f0b316e
+    sget v1, Lcom/resouce/module/ResID;->tv_free_ok:I
 
     if-ne v0, v1, :cond_d
 
@@ -328,7 +328,7 @@
     goto :goto_2
 
     :cond_d
-    const v1, 0x7f0b31b6
+    sget v1, Lcom/resouce/module/ResID;->tv_insert:I
 
     if-ne v0, v1, :cond_e
 
@@ -342,7 +342,7 @@
     goto :goto_2
 
     :cond_e
-    const v1, 0x7f0b3153
+    sget v1, Lcom/resouce/module/ResID;->tv_edit:I
 
     if-ne v0, v1, :cond_f
 

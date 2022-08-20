@@ -118,7 +118,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f12205a
+    sget p0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -133,7 +133,7 @@
 
     invoke-direct {p1}, Lup2$h;-><init>()V
 
-    const v1, 0x7f121e1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {p0, v1, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -721,7 +721,7 @@
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -732,7 +732,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1205c1
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_isSave2Cloud:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -759,7 +759,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -778,7 +778,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -809,7 +809,7 @@
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f120693
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -820,7 +820,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1223b3
+    sget v3, Lcom/resouce/module/ResSTRING;->public_isSendEmail:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -835,7 +835,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -854,7 +854,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

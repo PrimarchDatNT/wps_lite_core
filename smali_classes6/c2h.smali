@@ -107,7 +107,7 @@
 
     invoke-direct {v1}, Lozg;-><init>()V
 
-    const v2, 0x7f0b1389
+    sget v2, Lcom/resouce/module/ResID;->italic_btn:I
 
     invoke-virtual {v0, v2, v1}, Lfzg;->f(ILgzg;)V
 
@@ -118,7 +118,7 @@
 
     invoke-direct {v1}, Lqzg;-><init>()V
 
-    const v2, 0x7f0b32e5
+    sget v2, Lcom/resouce/module/ResID;->underline_btn:I
 
     invoke-virtual {v0, v2, v1}, Lfzg;->f(ILgzg;)V
 
@@ -129,7 +129,7 @@
 
     invoke-direct {v1}, Lkzg;-><init>()V
 
-    const v2, 0x7f0b022c
+    sget v2, Lcom/resouce/module/ResID;->bold_btn:I
 
     invoke-virtual {v0, v2, v1}, Lfzg;->f(ILgzg;)V
 
@@ -162,7 +162,7 @@
 
     invoke-direct {v1}, Lbzg;-><init>()V
 
-    const v2, 0x7f0b0e10
+    sget v2, Lcom/resouce/module/ResID;->font_align_btn:I
 
     invoke-virtual {v0, v2, v1}, Lfzg;->f(ILgzg;)V
 
@@ -235,7 +235,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122a1a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_start:I
 
     return v0
 .end method

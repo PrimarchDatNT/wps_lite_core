@@ -88,7 +88,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1216e5
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_areahighlight_mode_tips:I
 
     const/4 v2, 0x0
 
@@ -195,7 +195,7 @@
 
     iget-object v2, p0, Lqbc;->h0:Ljava/util/List;
 
-    const v3, 0x7f0e0790
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_pdf_annotation_secodepanel_textedit_item:I
 
     invoke-direct {v0, v1, v2, v3}, Lobc;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 

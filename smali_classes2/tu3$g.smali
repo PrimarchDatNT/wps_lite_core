@@ -128,7 +128,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f1225e9
+    sget v6, Lcom/resouce/module/ResSTRING;->public_passlenlimit:I
 
     invoke-virtual {v2, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122380
+    sget v2, Lcom/resouce/module/ResSTRING;->public_inputPasswdInvalid:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -354,7 +354,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122378
+    sget v0, Lcom/resouce/module/ResSTRING;->public_inputDiff:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

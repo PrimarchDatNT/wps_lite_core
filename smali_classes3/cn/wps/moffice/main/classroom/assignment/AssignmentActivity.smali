@@ -106,7 +106,7 @@
     .line 5
     new-instance v0, Lcy6;
 
-    const v1, 0x7f121260
+    sget v1, Lcom/resouce/module/ResSTRING;->homework_request_submit_list:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

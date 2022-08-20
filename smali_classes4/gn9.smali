@@ -45,12 +45,12 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f0816cb
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_thumbnail:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f122adb
+    sget p1, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     .line 4
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -58,12 +58,12 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0816bd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_list:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f12240b
+    sget p1, Lcom/resouce/module/ResSTRING;->public_list:I
 
     .line 6
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V

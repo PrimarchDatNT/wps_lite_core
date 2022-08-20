@@ -206,7 +206,7 @@
     .line 3
     iget-object v0, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v1, 0x7f12237c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -223,7 +223,7 @@
     .line 5
     iget-object v0, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v1, 0x7f120557
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_specialchar:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -284,7 +284,7 @@
 
     invoke-direct {v1, p0}, Lopk$c;-><init>(Lopk;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -293,7 +293,7 @@
 
     invoke-direct {v1, p0}, Lopk$d;-><init>(Lopk;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -310,12 +310,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_input_author_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10aa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_input_author_dialog:I
 
     :goto_0
     const/4 v1, 0x0
@@ -333,7 +333,7 @@
 
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b1334
+    sget v0, Lcom/resouce/module/ResID;->input_author_tips:I
 
     .line 3
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b1333
+    sget v0, Lcom/resouce/module/ResID;->input_author_edit:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -409,12 +409,12 @@
 
     if-ne v1, v2, :cond_1
 
-    const v1, 0x7f1224d6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_modify_username:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f120b7b
+    sget v1, Lcom/resouce/module/ResSTRING;->et_input_username:I
 
     :goto_1
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;

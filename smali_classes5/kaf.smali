@@ -24,7 +24,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ee5
+    sget v1, Lcom/resouce/module/ResSTRING;->share_company_icon_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f2c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_invite_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

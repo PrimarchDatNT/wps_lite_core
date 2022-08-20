@@ -72,7 +72,7 @@
     .line 1
     iget-object v0, p0, Lh58$a;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -85,7 +85,7 @@
     .line 1
     iget-object v0, p0, Lh58$a;->b:Landroid/app/Activity;
 
-    const v1, 0x7f12061f
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_record_has_been_delete:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -120,7 +120,7 @@
     .line 4
     iget-object p1, p0, Lh58$a;->b:Landroid/app/Activity;
 
-    const p2, 0x7f121254
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -130,7 +130,7 @@
     :cond_1
     iget-object p1, p0, Lh58$a;->b:Landroid/app/Activity;
 
-    const p2, 0x7f120623
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -140,7 +140,7 @@
     :cond_2
     iget-object p1, p0, Lh58$a;->b:Landroid/app/Activity;
 
-    const p2, 0x7f122412
+    sget p2, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 

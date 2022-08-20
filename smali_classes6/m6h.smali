@@ -48,7 +48,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2d63
+    sget v1, Lcom/resouce/module/ResID;->ss_sheet_name_textview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

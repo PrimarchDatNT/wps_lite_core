@@ -59,7 +59,7 @@
 
     if-ne p1, v0, :cond_2
 
-    const p1, 0x7f122fb5
+    sget p1, Lcom/resouce/module/ResSTRING;->ss_chart_type:I
 
     .line 5
     :cond_2

@@ -55,7 +55,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12047a
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_chinese:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -82,7 +82,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f12047b
+    sget v9, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_english:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -109,7 +109,7 @@
 
     move-result-object v8
 
-    const v13, 0x7f12047c
+    sget v13, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_french:I
 
     invoke-virtual {v8, v13}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 
     move-result-object v8
 
-    const v5, 0x7f12047d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_german:I
 
     invoke-virtual {v8, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -161,7 +161,7 @@
 
     move-result-object v8
 
-    const v4, 0x7f12047e
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_italian:I
 
     invoke-virtual {v8, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120481
+    sget v9, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_portuguese:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -209,7 +209,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120483
+    sget v9, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_spanish:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -232,7 +232,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120482
+    sget v9, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_russian:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -257,7 +257,7 @@
 
     move-result-object v4
 
-    const v8, 0x7f12047f
+    sget v8, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_japanese:I
 
     invoke-virtual {v4, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -282,7 +282,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120480
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_korean:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -310,7 +310,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12047b
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_english:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
 
     move-result-object v4
 
-    const v11, 0x7f12047c
+    sget v11, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_french:I
 
     invoke-virtual {v4, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12047d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_german:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12047e
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_italian:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -406,7 +406,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120481
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_portuguese:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -431,7 +431,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120483
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_spanish:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -456,7 +456,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12047a
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_chinese:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -481,7 +481,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f123129
+    sget v5, Lcom/resouce/module/ResSTRING;->twslang_ru:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -504,7 +504,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12311a
+    sget v5, Lcom/resouce/module/ResSTRING;->twslang_ja:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -527,7 +527,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12311d
+    sget v5, Lcom/resouce/module/ResSTRING;->twslang_ko:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -944,7 +944,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0a80
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_item_selected_translate_language:I
 
     const/4 v0, 0x0
 
@@ -958,7 +958,7 @@
 
     invoke-direct {p3, v0}, Lj8e$c;-><init>(Lj8e$a;)V
 
-    const v0, 0x7f0b27de
+    sget v0, Lcom/resouce/module/ResID;->rb_language:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

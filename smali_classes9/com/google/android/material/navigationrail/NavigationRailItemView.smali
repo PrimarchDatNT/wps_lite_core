@@ -32,7 +32,7 @@
     .annotation build Landroidx/annotation/DimenRes;
     .end annotation
 
-    const v0, 0x7f0704aa
+    sget v0, Lcom/resouce/module/ResDIMEN;->mtrl_navigation_rail_icon_margin:I
 
     return v0
 .end method
@@ -42,7 +42,7 @@
     .annotation build Landroidx/annotation/LayoutRes;
     .end annotation
 
-    const v0, 0x7f0e04b1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_navigation_rail_item:I
 
     return v0
 .end method

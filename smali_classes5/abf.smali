@@ -671,7 +671,7 @@
 
     if-le p1, v1, :cond_2
 
-    const v0, 0x7f1222e6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_multi_share_file_count_limit:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -815,7 +815,7 @@
 
     invoke-direct {v0, p0}, Lbm3$c;-><init>(Landroid/app/Activity;)V
 
-    const v1, 0x7f12194a
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -824,14 +824,14 @@
 
     invoke-virtual {v0, v1}, Lbm3$c;->g(Ljava/lang/String;)Lbm3$c;
 
-    const v1, 0x7f121f27
+    sget v1, Lcom/resouce/module/ResSTRING;->public_company_applying_group:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0801ff
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_applying_team:I
 
     const/4 v3, 0x0
 
@@ -871,7 +871,7 @@
 
     aput-object p2, v0, p1
 
-    const p1, 0x7f123191
+    sget p1, Lcom/resouce/module/ResSTRING;->url_work_apply:I
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -1295,7 +1295,7 @@
 
     if-nez v1, :cond_1
 
-    const p1, 0x7f1224a9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_count_full_arrive_max_count:I
 
     new-array v1, v2, [Ljava/lang/Object;
 
@@ -1345,7 +1345,7 @@
 
     :cond_3
     :goto_0
-    const p1, 0x7f1224aa
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_count_full_contract_creator_upgrade:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1473,7 +1473,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f1224a9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_count_full_arrive_max_count:I
 
     new-array v0, v4, [Ljava/lang/Object;
 
@@ -1507,7 +1507,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f1224aa
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_count_full_contract_creator_upgrade:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1519,7 +1519,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f1224ac
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_count_full_upgrade_by_creator:I
 
     .line 7
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V

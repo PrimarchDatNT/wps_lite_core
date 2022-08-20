@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0b38
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_chart_edit_keyboard_layout:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e083e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_chart_edit_keyboard_layout:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -98,7 +98,7 @@
     .line 13
     iput-object v0, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->B:[Landroid/widget/Button;
 
-    const v2, 0x7f0b2579
+    sget v2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_0:I
 
     .line 14
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
     .line 15
     iget-object p2, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->B:[Landroid/widget/Button;
 
-    const v0, 0x7f0b257a
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_1:I
 
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
 
     const/4 v0, 0x2
 
-    const v1, 0x7f0b257b
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_2:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
 
     const/4 v0, 0x3
 
-    const v1, 0x7f0b257c
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_3:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -157,7 +157,7 @@
 
     const/4 v0, 0x4
 
-    const v1, 0x7f0b257d
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_4:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -172,7 +172,7 @@
 
     const/4 v0, 0x5
 
-    const v1, 0x7f0b257e
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_5:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
 
     const/4 v0, 0x6
 
-    const v1, 0x7f0b257f
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_6:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
 
     const/4 v0, 0x7
 
-    const v1, 0x7f0b2580
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_7:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
 
     const/16 v0, 0x8
 
-    const v1, 0x7f0b2581
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_8:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -232,7 +232,7 @@
 
     const/16 v0, 0x9
 
-    const v1, 0x7f0b2582
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_9:I
 
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
 
     aput-object v1, p2, v0
 
-    const p2, 0x7f0b2585
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_dot:I
 
     .line 24
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->I:Landroid/widget/Button;
 
-    const p2, 0x7f0b2586
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_enter:I
 
     .line 25
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -264,7 +264,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->S:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b2584
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_delete:I
 
     .line 26
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->T:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b2587
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_invert:I
 
     .line 27
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -286,7 +286,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/common/chart/edit/ChartEditKeyBoard;->V:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b2583
+    sget p2, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_close:I
 
     .line 28
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -321,28 +321,28 @@
 
     move-result-object p1
 
-    const v0, 0x7f070a90
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_chart_edit_keyboard_btn_margin_seperate:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v0
 
-    const v1, 0x7f070a94
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_keyboard_btn_width:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v8
 
-    const v1, 0x7f070a8e
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_keyboard_btn_height:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v9
 
-    const v1, 0x7f070a96
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_keyboard_btn_zero_width:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -458,7 +458,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a91
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_chart_edit_keyboard_btn_margin_seperate_phone:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

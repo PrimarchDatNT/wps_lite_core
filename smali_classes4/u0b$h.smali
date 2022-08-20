@@ -80,7 +80,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b296a
+    sget v2, Lcom/resouce/module/ResID;->rl_simplified_chinese:I
 
     if-ne p1, v2, :cond_0
 
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1204b4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_simplified_chinese:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b293e
+    sget v2, Lcom/resouce/module/ResID;->rl_chinese_traditional:I
 
     if-ne p1, v2, :cond_1
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203da
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_chinese_traditional:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b2949
+    sget v2, Lcom/resouce/module/ResID;->rl_english:I
 
     if-ne p1, v2, :cond_2
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1203fb
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_english:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

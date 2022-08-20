@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12280a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     const/4 v1, 0x0
 
@@ -90,7 +90,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b35ed
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_share:I
 
     const/4 v2, 0x0
 
@@ -109,7 +109,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b354c
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_share_file:I
 
     if-ne p1, v0, :cond_2
 

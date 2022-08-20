@@ -226,7 +226,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1213b2
+    sget v1, Lcom/resouce/module/ResSTRING;->merge_not_support_csv:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

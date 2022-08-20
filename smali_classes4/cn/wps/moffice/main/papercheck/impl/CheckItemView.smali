@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d56
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_check_progress_view:I
 
     const/4 v2, 0x0
 
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->I:Landroid/widget/ImageView;
 
-    const p1, 0x7f08190f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_file_size_reduce_item_done:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -240,7 +240,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

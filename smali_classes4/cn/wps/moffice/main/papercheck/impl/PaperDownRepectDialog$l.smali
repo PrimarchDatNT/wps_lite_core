@@ -146,7 +146,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122929
+    sget v0, Lcom/resouce/module/ResSTRING;->public_server_error_tip:I
 
     const/4 v1, 0x0
 

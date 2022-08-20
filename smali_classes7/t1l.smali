@@ -258,7 +258,7 @@
 
     invoke-direct {v0, v1}, Lr1l;-><init>(I)V
 
-    const v1, 0x7f0b05f1
+    sget v1, Lcom/resouce/module/ResID;->cursor_left:I
 
     const-string v2, "cursor_left"
 
@@ -271,7 +271,7 @@
 
     invoke-direct {v0, v1}, Lr1l;-><init>(I)V
 
-    const v1, 0x7f0b05f3
+    sget v1, Lcom/resouce/module/ResID;->cursor_up:I
 
     const-string v2, "cursor_up"
 
@@ -284,7 +284,7 @@
 
     invoke-direct {v0, v1}, Lr1l;-><init>(I)V
 
-    const v1, 0x7f0b05f0
+    sget v1, Lcom/resouce/module/ResID;->cursor_down:I
 
     const-string v2, "cursor_down"
 
@@ -297,7 +297,7 @@
 
     invoke-direct {v0, v1}, Lr1l;-><init>(I)V
 
-    const v1, 0x7f0b05f2
+    sget v1, Lcom/resouce/module/ResID;->cursor_right:I
 
     const-string v2, "cursor_right"
 
@@ -380,7 +380,7 @@
     :goto_0
     iget-object p1, p0, Lt1l;->d0:Landroid/content/Context;
 
-    const v0, 0x7f1232d7
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_quick_disable_toast:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -444,7 +444,7 @@
     .line 1
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e42
+    sget v1, Lcom/resouce/module/ResID;->table_information:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -470,7 +470,7 @@
 
     sget v3, Leo2;->h:I
 
-    const v4, 0x7f0e09d7
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_item_layout:I
 
     invoke-direct {v0, v1, v2, v4, v3}, Lnjb;-><init>(Landroid/content/Context;Ljava/util/List;II)V
 
@@ -500,7 +500,7 @@
     .line 7
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e2f
+    sget v1, Lcom/resouce/module/ResID;->table_add_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -513,7 +513,7 @@
     .line 8
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e30
+    sget v1, Lcom/resouce/module/ResID;->table_add_text_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -526,7 +526,7 @@
     .line 9
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e2d
+    sget v1, Lcom/resouce/module/ResID;->table_add:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -559,7 +559,7 @@
     .line 1
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b0d65
+    sget v1, Lcom/resouce/module/ResID;->fill_table_tool:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -572,7 +572,7 @@
     .line 2
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b333b
+    sget v1, Lcom/resouce/module/ResID;->user_tables:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -636,7 +636,7 @@
     .line 8
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e50
+    sget v1, Lcom/resouce/module/ResID;->table_operate_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -653,7 +653,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -666,7 +666,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06000c
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -679,7 +679,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080288
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling_arrow_keys:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -718,27 +718,27 @@
 
     invoke-virtual {p0, v2, v1}, Lt1l;->G2(Landroid/graphics/drawable/Drawable;I)V
 
-    const v1, 0x7f08028b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling_keys_left:I
 
     .line 15
     invoke-virtual {p0, v1, v0}, Lt1l;->F2(II)V
 
-    const v2, 0x7f08028d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling_keys_up:I
 
     .line 16
     invoke-virtual {p0, v2, v0}, Lt1l;->F2(II)V
 
-    const v3, 0x7f08028c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling_keys_right:I
 
     .line 17
     invoke-virtual {p0, v3, v0}, Lt1l;->F2(II)V
 
-    const v4, 0x7f08028a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling_keys_down:I
 
     .line 18
     invoke-virtual {p0, v4, v0}, Lt1l;->F2(II)V
 
-    const v0, 0x7f0b05f1
+    sget v0, Lcom/resouce/module/ResID;->cursor_left:I
 
     .line 19
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -749,7 +749,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b05f3
+    sget v0, Lcom/resouce/module/ResID;->cursor_up:I
 
     .line 20
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -760,7 +760,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b05f2
+    sget v0, Lcom/resouce/module/ResID;->cursor_right:I
 
     .line 21
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -771,7 +771,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b05f0
+    sget v0, Lcom/resouce/module/ResID;->cursor_down:I
 
     .line 22
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -785,7 +785,7 @@
     .line 23
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2e51
+    sget v1, Lcom/resouce/module/ResID;->table_operate_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -805,7 +805,7 @@
     .line 25
     iget-object v0, p0, Lt1l;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b0d63
+    sget v1, Lcom/resouce/module/ResID;->fill_table_quick:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -843,7 +843,7 @@
 
     iput-object v0, p0, Lt1l;->g0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f122c11
+    sget v1, Lcom/resouce/module/ResSTRING;->public_word_fill_table:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -859,7 +859,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->setFillViewport(Z)V
 
-    const v0, 0x7f0e09d8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_panel_layout:I
 
     .line 4
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -1056,12 +1056,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080202
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_back:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080240
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     :goto_0
     invoke-virtual {v0, p1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
@@ -1269,7 +1269,7 @@
     .line 6
     iget-object v2, p0, Lt1l;->w0:Landroid/widget/TextView;
 
-    const v3, 0x7f1232ba
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_fill_table_add_1_no_info:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1376,7 +1376,7 @@
 
     iget-object v2, p0, Lt1l;->d0:Landroid/content/Context;
 
-    const v3, 0x7f12343a
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_user_table_manager:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1546,7 +1546,7 @@
     .line 25
     iget-object p1, p0, Lt1l;->w0:Landroid/widget/TextView;
 
-    const v0, 0x7f1232b9
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_fill_table_add_1:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

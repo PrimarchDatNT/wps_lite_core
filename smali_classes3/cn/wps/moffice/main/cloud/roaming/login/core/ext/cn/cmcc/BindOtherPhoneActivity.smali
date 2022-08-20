@@ -162,7 +162,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060067
+    sget v2, Lcom/resouce/module/ResCOLOR;->c9b9b9b:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -205,7 +205,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0334
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_bind_other_phone_activity:I
 
     return v0
 .end method
@@ -260,7 +260,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    const v0, 0x7f0b08c6
+    sget v0, Lcom/resouce/module/ResID;->etPhoneNumber:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->B:Landroid/widget/EditText;
 
-    const v0, 0x7f0b08c8
+    sget v0, Lcom/resouce/module/ResID;->etSmsCode:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->I:Landroid/widget/EditText;
 
-    const v0, 0x7f0b30f8
+    sget v0, Lcom/resouce/module/ResID;->tvSendCode:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b30f1
+    sget v0, Lcom/resouce/module/ResID;->tvInputCorrectCode:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -304,7 +304,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b02a8
+    sget v0, Lcom/resouce/module/ResID;->btnBind:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -313,7 +313,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->U:Landroid/view/View;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -400,7 +400,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b30f8
+    sget v1, Lcom/resouce/module/ResID;->tvSendCode:I
 
     if-ne p1, v1, :cond_1
 
@@ -437,7 +437,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b02a8
+    sget v1, Lcom/resouce/module/ResID;->btnBind:I
 
     if-ne p1, v1, :cond_4
 
@@ -558,7 +558,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindOtherPhoneActivity;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f120f3b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_input_correct_auth_code:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -603,7 +603,7 @@
 .method public onLoginSuccess()V
     .locals 2
 
-    const v0, 0x7f121da7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v1, 0x0
 

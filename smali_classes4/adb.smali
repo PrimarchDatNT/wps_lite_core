@@ -278,7 +278,7 @@
 .method public f()I
     .locals 1
 
-    const v0, 0x7f0e0875
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_float_notify:I
 
     return v0
 .end method

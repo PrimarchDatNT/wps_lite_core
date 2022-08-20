@@ -134,7 +134,7 @@
     .line 2
     iget-object p3, p0, Lcn/wps/moffice/foldermanager/CommonFolderActivity$e;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0313
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_common_files_list_item:I
 
     const/4 v1, 0x0
 
@@ -142,7 +142,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b0de8
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_file_list_item_icon_img:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,7 +153,7 @@
 
     iput-object v0, p2, Lcn/wps/moffice/foldermanager/CommonFolderActivity$f;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0de9
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_file_list_item_name_tv:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     iput-object v0, p2, Lcn/wps/moffice/foldermanager/CommonFolderActivity$f;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0dea
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_common_file_list_item_num_tv:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

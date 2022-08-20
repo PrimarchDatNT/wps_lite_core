@@ -133,7 +133,7 @@
 
     new-array p2, p2, [Landroid/view/animation/Interpolator;
 
-    const v2, 0x7f02000b
+    sget v2, Lcom/resouce/module/ResANIMATOR;->linear_indeterminate_line1_head_interpolator:I
 
     .line 5
     invoke-static {p1, v2}, Lph;->b(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
@@ -142,7 +142,7 @@
 
     aput-object v2, p2, v1
 
-    const v1, 0x7f02000c
+    sget v1, Lcom/resouce/module/ResANIMATOR;->linear_indeterminate_line1_tail_interpolator:I
 
     .line 6
     invoke-static {p1, v1}, Lph;->b(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
@@ -153,7 +153,7 @@
 
     aput-object v1, p2, v2
 
-    const v1, 0x7f02000d
+    sget v1, Lcom/resouce/module/ResANIMATOR;->linear_indeterminate_line2_head_interpolator:I
 
     .line 7
     invoke-static {p1, v1}, Lph;->b(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
@@ -162,7 +162,7 @@
 
     aput-object v1, p2, v0
 
-    const v0, 0x7f02000e
+    sget v0, Lcom/resouce/module/ResANIMATOR;->linear_indeterminate_line2_tail_interpolator:I
 
     .line 8
     invoke-static {p1, v0}, Lph;->b(Landroid/content/Context;I)Landroid/view/animation/Interpolator;

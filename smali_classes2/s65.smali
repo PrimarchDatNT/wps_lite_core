@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00d6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_account_security_reminder:I
 
     const/4 v2, 0x0
 
@@ -204,7 +204,7 @@
     .line 1
     iget-object p1, p0, Ls65;->B:Landroid/widget/TextView;
 
-    const p2, 0x7f12037d
+    sget p2, Lcom/resouce/module/ResSTRING;->dialog_account_security_reminder_moment:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -259,7 +259,7 @@
 .method public final X2(Landroid/view/View;Landroid/content/Context;)V
     .locals 3
 
-    const v0, 0x7f0b125f
+    sget v0, Lcom/resouce/module/ResID;->ignore_account_security_reminder_dialog_textView:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b066d
+    sget v0, Lcom/resouce/module/ResID;->detail_account_security_reminder_dialog_textView:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b0678
+    sget v1, Lcom/resouce/module/ResID;->device_name_account_security_reminder_dialog_textView:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b2f96
+    sget v1, Lcom/resouce/module/ResID;->time_account_security_reminder_dialog_textView:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     invoke-virtual {p0, v1, v2, p2}, Ls65;->W2(JLandroid/content/Context;)V
 
-    const v1, 0x7f0b00bb
+    sget v1, Lcom/resouce/module/ResID;->address_account_security_reminder_dialog_textView:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -420,7 +420,7 @@
 
     if-gez v0, :cond_0
 
-    const p1, 0x7f12037d
+    sget p1, Lcom/resouce/module/ResSTRING;->dialog_account_security_reminder_moment:I
 
     .line 3
     invoke-virtual {p5, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -444,7 +444,7 @@
     .line 5
     div-long/2addr p1, p3
 
-    const p3, 0x7f120f07
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_minute:I
 
     new-array p4, v3, [Ljava/lang/Object;
 
@@ -472,7 +472,7 @@
     .line 8
     div-long/2addr p1, v0
 
-    const p3, 0x7f120f03
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_hour:I
 
     new-array p4, v3, [Ljava/lang/Object;
 
@@ -500,7 +500,7 @@
     .line 11
     div-long/2addr p1, p3
 
-    const p3, 0x7f120eff
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_day:I
 
     new-array p4, v3, [Ljava/lang/Object;
 
@@ -528,7 +528,7 @@
     .line 14
     div-long/2addr p1, v0
 
-    const p3, 0x7f120f0c
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_month_modified:I
 
     new-array p4, v3, [Ljava/lang/Object;
 
@@ -549,7 +549,7 @@
     :cond_4
     div-long/2addr p1, p3
 
-    const p3, 0x7f120f0f
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_year_modified:I
 
     new-array p4, v3, [Ljava/lang/Object;
 

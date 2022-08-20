@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0, p1}, Ls0f$c;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b2bef
+    sget v0, Lcom/resouce/module/ResID;->showText:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Ls0f$b;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1729
+    sget v0, Lcom/resouce/module/ResID;->loading_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Ls0f$b;->k0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b28fb
+    sget v0, Lcom/resouce/module/ResID;->retry_default_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     .line 5
     iget-object p2, p0, Ls0f$b;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f060330
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {p2, v0, p3}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 

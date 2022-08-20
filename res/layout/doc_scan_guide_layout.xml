@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/scan_guide_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <cn.wps.moffice.main.scan.view.BubbleTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/guide_textview" android:padding="8.0dip" android:layout_width="184.0dip" android:layout_height="54.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="140.0dip" android:text="@string/doc_scan_guide_mask_text" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-        <ImageView android:id="@id/image_gesture" android:layout_width="52.0dip" android:layout_height="55.0dip" android:layout_marginRight="34.0dip" android:layout_marginBottom="90.0dip" android:src="@drawable/doc_scan_guide_gusture" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-</RelativeLayout>

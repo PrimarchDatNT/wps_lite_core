@@ -1981,7 +1981,7 @@
 
     iget-object p3, p0, Lfx4;->f:Landroid/app/Activity;
 
-    const v1, 0x7f121f67
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cooperate_dialog_msg:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -2514,7 +2514,7 @@
     .line 2
     iget-object p1, p0, Lfx4;->f:Landroid/app/Activity;
 
-    const v0, 0x7f1203a2
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_doc_download_error:I
 
     const/4 v1, 0x1
 
@@ -2723,7 +2723,7 @@
 
     iget-object v1, p0, Lfx4;->f:Landroid/app/Activity;
 
-    const v2, 0x7f1227a4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2736,7 +2736,7 @@
 
     iget-object v1, p0, Lfx4;->f:Landroid/app/Activity;
 
-    const v2, 0x7f121f75
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cooperate_read_only_tip:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2751,7 +2751,7 @@
 
     invoke-direct {v1, p0}, Lfx4$d;-><init>(Lfx4;)V
 
-    const v2, 0x7f121f40
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     .line 4
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

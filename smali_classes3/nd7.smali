@@ -147,7 +147,7 @@
 
     move-result v0
 
-    const v1, 0x7f1210e6
+    sget v1, Lcom/resouce/module/ResSTRING;->home_pswd_size_short_erro:I
 
     if-eqz v0, :cond_0
 
@@ -188,7 +188,7 @@
     .line 6
     iget-object p1, p0, Lnd7;->X:Landroid/widget/TextView;
 
-    const v0, 0x7f1210e5
+    sget v0, Lcom/resouce/module/ResSTRING;->home_pswd_size_long_erro:I
 
     invoke-virtual {p0, p1, v0}, Lnd7;->h3(Landroid/widget/TextView;I)V
 
@@ -230,7 +230,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e037f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_phone_secretfolder_settingn_layout:I
 
     return v0
 .end method
@@ -372,7 +372,7 @@
 
     iput-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b270e
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_subtitle:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -393,7 +393,7 @@
     .line 5
     iget-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b270a
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_input_pswd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
     .line 9
     iget-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2707
+    sget v1, Lcom/resouce/module/ResID;->public_secret_folder_confirm_pswd:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -447,7 +447,7 @@
     .line 11
     iget-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b02fe
+    sget v1, Lcom/resouce/module/ResID;->btn_secret_folder_finish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -472,7 +472,7 @@
     .line 14
     iget-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b315f
+    sget v1, Lcom/resouce/module/ResID;->tv_error_text_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -485,7 +485,7 @@
     .line 15
     iget-object v0, p0, Lnd7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3160
+    sget v1, Lcom/resouce/module/ResID;->tv_error_text_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -562,7 +562,7 @@
     .line 7
     iget-object p1, p0, Lnd7;->Y:Landroid/widget/TextView;
 
-    const v0, 0x7f1228c4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_pswd_diff:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -585,7 +585,7 @@
     :cond_1
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f1210e4
+    sget v0, Lcom/resouce/module/ResSTRING;->home_pswd_must_include_double_type:I
 
     const/4 v1, 0x0
 

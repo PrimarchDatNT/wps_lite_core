@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d76
+    sget v1, Lcom/resouce/module/ResSTRING;->public_back_read_source_doc:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -191,7 +191,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v1, 0x7f122233
+    sget v1, Lcom/resouce/module/ResSTRING;->public_go:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -309,7 +309,7 @@
 
     if-nez v2, :cond_2
 
-    const v1, 0x7f122416
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     const/4 v2, 0x1
 

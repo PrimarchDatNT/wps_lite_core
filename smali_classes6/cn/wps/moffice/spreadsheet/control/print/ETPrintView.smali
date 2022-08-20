@@ -122,7 +122,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f0b0b26
+    sget v0, Lcom/resouce/module/ResID;->et_print_printsetting_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -284,7 +284,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b33
+    sget v1, Lcom/resouce/module/ResID;->et_print_title_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -349,14 +349,14 @@
 
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f1226b6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -370,7 +370,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -463,7 +463,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0b32
+    sget v1, Lcom/resouce/module/ResID;->et_print_tab_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,13 +499,13 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->d0:Landroid/content/Context;
 
-    const v2, 0x7f122714
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_setting:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0b0b2a
+    sget v2, Lcom/resouce/module/ResID;->et_print_setting:I
 
     invoke-virtual {v0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->a(Ljava/lang/String;I)V
 
@@ -571,7 +571,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fdd
+    sget v0, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -787,7 +787,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->d0:Landroid/content/Context;
 
-    const v1, 0x7f1226f9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_preview:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -807,7 +807,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->d0:Landroid/content/Context;
 
-    const v1, 0x7f1225e1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_page_setting:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -827,7 +827,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;->d0:Landroid/content/Context;
 
-    const v1, 0x7f122714
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_setting:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -874,20 +874,20 @@
 
     move-result p1
 
-    const v0, 0x7f0b0b26
+    sget v0, Lcom/resouce/module/ResID;->et_print_printsetting_btn:I
 
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-eq p1, v1, :cond_5
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v1, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-ne p1, v1, :cond_1
 
@@ -897,7 +897,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v1, :cond_3
 
@@ -932,11 +932,11 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b0b19
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_setting_btn:I
 
     if-ne p1, v0, :cond_4
 
-    const p1, 0x7f0b0b1a
+    sget p1, Lcom/resouce/module/ResID;->et_print_pagesetting_btn:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -948,11 +948,11 @@
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f0b0b02
+    sget v0, Lcom/resouce/module/ResID;->et_print_area_setting_btn:I
 
     if-ne p1, v0, :cond_7
 
-    const p1, 0x7f0b0b22
+    sget p1, Lcom/resouce/module/ResID;->et_print_printarea_btn:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

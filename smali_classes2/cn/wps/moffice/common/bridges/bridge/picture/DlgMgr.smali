@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0a39
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pic_select_layout:I
 
     const/4 v3, 0x0
 
@@ -77,21 +77,21 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b1b1e
+    sget v2, Lcom/resouce/module/ResID;->open_camera:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2af6
+    sget v3, Lcom/resouce/module/ResID;->select_pic:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b033b
+    sget v4, Lcom/resouce/module/ResID;->cancel:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

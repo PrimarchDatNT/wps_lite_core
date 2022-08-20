@@ -70,7 +70,7 @@
     goto :goto_0
 
     :catch_0
-    const v0, 0x7f122302
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_please_install_wechat:I
 
     const/4 v1, 0x0
 

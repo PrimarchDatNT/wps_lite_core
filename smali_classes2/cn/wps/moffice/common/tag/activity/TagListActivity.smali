@@ -65,7 +65,7 @@
 .method public getViewTitle()Ljava/lang/String;
     .locals 1
 
-    const v0, 0x7f122a62
+    sget v0, Lcom/resouce/module/ResSTRING;->public_tag:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

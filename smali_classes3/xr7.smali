@@ -547,18 +547,18 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e06dc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0523
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_account_info_setting:I
 
     :goto_0
     return v0
 
     :cond_1
-    const v0, 0x7f0e06e1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_international:I
 
     return v0
 .end method
@@ -710,7 +710,7 @@
     :cond_5
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f120f1a
+    sget v0, Lcom/resouce/module/ResSTRING;->home_foreign_member_userdetail_level_go:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -854,7 +854,7 @@
 
     iput-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1019
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_account:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -868,7 +868,7 @@
     .line 4
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b101e
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_avatar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -881,7 +881,7 @@
     .line 5
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b102e
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_nickname:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -894,7 +894,7 @@
     .line 6
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1038
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_use_duration:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -905,7 +905,7 @@
     .line 7
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b103a
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_userid:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -918,7 +918,7 @@
     .line 8
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1031
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_phone:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -931,7 +931,7 @@
     .line 9
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b101a
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_address:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -944,7 +944,7 @@
     .line 10
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b102a
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_levelname:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 11
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b102d
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_member_level_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -968,7 +968,7 @@
     .line 12
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1024
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_gender:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -981,7 +981,7 @@
     .line 13
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1020
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_birthday:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -994,7 +994,7 @@
     .line 14
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1027
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_job_hobby:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1007,7 +1007,7 @@
     .line 15
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1064
+    sget v1, Lcom/resouce/module/ResID;->home_circle_progressbar_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1018,7 +1018,7 @@
     .line 16
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1023
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_complete_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1031,7 +1031,7 @@
     .line 17
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b06c2
+    sget v1, Lcom/resouce/module/ResID;->div_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1042,7 +1042,7 @@
     .line 18
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1035
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_setting_identitylayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
     .line 19
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1034
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_setting_identity:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
     .line 20
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1037
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_setting_ownedEnterprisesLayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1077,7 +1077,7 @@
     .line 21
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1036
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_setting_ownedEnterprises:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1090,7 +1090,7 @@
     .line 22
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b101f
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_avatar_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1101,7 +1101,7 @@
     .line 23
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1032
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_phone_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1112,7 +1112,7 @@
     .line 24
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b102f
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_nickname_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1123,7 +1123,7 @@
     .line 25
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1021
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_birthday_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1134,7 +1134,7 @@
     .line 26
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1025
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_gender_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1145,7 +1145,7 @@
     .line 27
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1028
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_job_hobby_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1156,7 +1156,7 @@
     .line 28
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b101b
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_address_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1174,7 +1174,7 @@
     .line 30
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1039
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_use_duration_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1200,7 +1200,7 @@
     .line 33
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b109b
+    sget v1, Lcom/resouce/module/ResID;->home_manage_account_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1212,7 +1212,7 @@
     :cond_1
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b102b
+    sget v1, Lcom/resouce/module/ResID;->home_account_info_levelname_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1224,7 +1224,7 @@
     :cond_2
     iget-boolean v0, p0, Lxr7;->k0:Z
 
-    const v1, 0x7f0b1770
+    sget v1, Lcom/resouce/module/ResID;->logout:I
 
     if-eqz v0, :cond_3
 
@@ -1273,7 +1273,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e50
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_personal_info:I
 
     return v0
 .end method
@@ -1525,7 +1525,7 @@
     .line 15
     iget-object v2, p0, Lxr7;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f122852
+    sget v3, Lcom/resouce/module/ResSTRING;->public_school_premium:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1535,7 +1535,7 @@
     :cond_4
     iget-object v2, p0, Lxr7;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f120f1a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_foreign_member_userdetail_level_go:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1546,7 +1546,7 @@
     :goto_2
     iget-object v2, p0, Lxr7;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f120f1b
+    sget v3, Lcom/resouce/module/ResSTRING;->home_foreign_member_userdetail_level_premium:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1574,11 +1574,11 @@
 
     move-result v3
 
-    const v4, 0x7f120e19
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_address_undefine:I
 
     if-eqz v3, :cond_7
 
-    const v3, 0x7f120e19
+    sget v3, Lcom/resouce/module/ResSTRING;->home_account_address_undefine:I
 
     goto :goto_4
 
@@ -1596,12 +1596,12 @@
 
     if-eqz v3, :cond_8
 
-    const v3, 0x7f120e28
+    sget v3, Lcom/resouce/module/ResSTRING;->home_account_gender_male:I
 
     goto :goto_4
 
     :cond_8
-    const v3, 0x7f120e27
+    sget v3, Lcom/resouce/module/ResSTRING;->home_account_gender_female:I
 
     .line 21
     :goto_4
@@ -1769,7 +1769,7 @@
     .line 39
     iget-object v2, p0, Lxr7;->f0:Landroid/widget/TextView;
 
-    const v4, 0x7f120e1b
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_admin:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1779,7 +1779,7 @@
     :cond_c
     iget-object v2, p0, Lxr7;->f0:Landroid/widget/TextView;
 
-    const v4, 0x7f120e2f
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_member:I
 
     invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1887,15 +1887,15 @@
 
     move-result v0
 
-    const v2, 0x7f0b103b
+    sget v2, Lcom/resouce/module/ResID;->home_account_info_userid_group:I
 
-    const v4, 0x7f0b1028
+    sget v4, Lcom/resouce/module/ResID;->home_account_info_job_hobby_group:I
 
-    const v5, 0x7f0b1032
+    sget v5, Lcom/resouce/module/ResID;->home_account_info_phone_group:I
 
-    const v6, 0x7f0b1025
+    sget v6, Lcom/resouce/module/ResID;->home_account_info_gender_group:I
 
-    const v7, 0x7f0b1021
+    sget v7, Lcom/resouce/module/ResID;->home_account_info_birthday_group:I
 
     if-nez v0, :cond_13
 
@@ -1920,7 +1920,7 @@
     .line 55
     iget-object v0, p0, Lxr7;->B:Landroid/view/View;
 
-    const v2, 0x7f0b101b
+    sget v2, Lcom/resouce/module/ResID;->home_account_info_address_group:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1942,7 +1942,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b109b
+    sget v2, Lcom/resouce/module/ResID;->home_manage_account_group:I
 
     if-eqz v0, :cond_12
 
@@ -2240,7 +2240,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b101f
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_avatar_group:I
 
     if-ne p1, v0, :cond_1
 
@@ -2259,7 +2259,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b1032
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_phone_group:I
 
     if-ne p1, v0, :cond_2
 
@@ -2271,7 +2271,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v0, 0x7f0b102f
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_nickname_group:I
 
     if-ne p1, v0, :cond_3
 
@@ -2283,7 +2283,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1021
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_birthday_group:I
 
     if-ne p1, v0, :cond_4
 
@@ -2295,7 +2295,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b1025
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_gender_group:I
 
     if-ne p1, v0, :cond_5
 
@@ -2307,7 +2307,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b1028
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_job_hobby_group:I
 
     if-ne p1, v0, :cond_6
 
@@ -2319,7 +2319,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b101b
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_address_group:I
 
     if-ne p1, v0, :cond_7
 
@@ -2331,7 +2331,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0b102b
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_levelname_group:I
 
     if-ne p1, v0, :cond_8
 
@@ -2350,7 +2350,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0b1770
+    sget v0, Lcom/resouce/module/ResID;->logout:I
 
     if-ne p1, v0, :cond_9
 
@@ -2367,7 +2367,7 @@
     goto :goto_0
 
     :cond_9
-    const v0, 0x7f0b109b
+    sget v0, Lcom/resouce/module/ResID;->home_manage_account_group:I
 
     if-ne p1, v0, :cond_a
 
@@ -2379,7 +2379,7 @@
     goto :goto_0
 
     :cond_a
-    const v0, 0x7f0b1039
+    sget v0, Lcom/resouce/module/ResID;->home_account_info_use_duration_group:I
 
     if-ne p1, v0, :cond_b
 
@@ -2447,7 +2447,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120e19
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_address_undefine:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

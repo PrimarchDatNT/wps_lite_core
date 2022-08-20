@@ -63,7 +63,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f123281
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_comment_modify_username_tip:I
 
     return v0
 .end method

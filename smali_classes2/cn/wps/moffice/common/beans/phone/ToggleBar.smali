@@ -58,7 +58,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0e8c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_togglebutton_bar_layout:I
 
     const/4 v1, 0x1
 
@@ -72,7 +72,7 @@
     .line 3
     new-instance v0, Landroid/view/ViewGroup$LayoutParams;
 
-    const v2, 0x7f070728
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_ppt_panel_content_row_height_50:I
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f07082b
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_togglebar_left_right_space:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimension(I)F
@@ -105,7 +105,7 @@
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->setGravity(I)V
 
-    const v0, 0x7f0b2752
+    sget v0, Lcom/resouce/module/ResID;->public_togglebutton:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/phone/ToggleBar;->S:Landroid/widget/CompoundButton;
 
-    const v0, 0x7f0b2754
+    sget v0, Lcom/resouce/module/ResID;->public_togglebutton_lefttext:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
     .line 9
     invoke-virtual {v0, v1, v3}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 10
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I

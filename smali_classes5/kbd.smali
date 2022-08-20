@@ -723,7 +723,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03007c
+    sget v1, Lcom/resouce/module/ResARRAY;->public_super_member_function_texts:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -769,7 +769,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030077
+    sget v1, Lcom/resouce/module/ResARRAY;->public_member_function_texts:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -830,7 +830,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -867,7 +867,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060035
+    sget v4, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -885,7 +885,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121ebb
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cloud_setting_privacy:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -978,7 +978,7 @@
     .line 2
     iget-object v0, p0, Lbdd;->B:Landroid/app/Activity;
 
-    const v1, 0x7f0b2260
+    sget v1, Lcom/resouce/module/ResID;->plugin_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1001,7 +1001,7 @@
     .line 1
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b329f
+    sget v1, Lcom/resouce/module/ResID;->tv_upgrade_cloud:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1014,7 +1014,7 @@
     .line 2
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b14db
+    sget v1, Lcom/resouce/module/ResID;->iv_upgrade_cloud_arrow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1027,7 +1027,7 @@
     .line 3
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26fa
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1040,7 +1040,7 @@
     .line 4
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26f8
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1053,7 +1053,7 @@
     .line 5
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b3228
+    sget v1, Lcom/resouce/module/ResID;->tv_progress_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
     .line 6
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26fc
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_progress_normal:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1079,7 +1079,7 @@
     .line 7
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26fd
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_space_usage_progress_red:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1092,7 +1092,7 @@
     .line 8
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b1173
+    sget v1, Lcom/resouce/module/ResID;->home_switch_cloud_auto_backup:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1105,7 +1105,7 @@
     .line 9
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b2e05
+    sget v1, Lcom/resouce/module/ResID;->switch_only_wifi:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1118,7 +1118,7 @@
     .line 10
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b1846
+    sget v1, Lcom/resouce/module/ResID;->member_func_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1131,7 +1131,7 @@
     .line 11
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26f6
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_settings_user_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1144,7 +1144,7 @@
     .line 12
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26f7
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_settings_user_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
     .line 13
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b116e
+    sget v1, Lcom/resouce/module/ResID;->home_setting_cloud_teach_banner_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1170,7 +1170,7 @@
     .line 14
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b02f2
+    sget v1, Lcom/resouce/module/ResID;->btn_pay_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1183,7 +1183,7 @@
     .line 15
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b024c
+    sget v1, Lcom/resouce/module/ResID;->bottom_btn_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1264,7 +1264,7 @@
     :cond_0
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b3124
+    sget v1, Lcom/resouce/module/ResID;->tv_cloud_space_manage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1277,7 +1277,7 @@
     .line 3
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0284
+    sget v1, Lcom/resouce/module/ResID;->bottom_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1431,7 +1431,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606c5
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1446,7 +1446,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1499,7 +1499,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1514,7 +1514,7 @@
 .method public Q(Lcn/wps/moffice/plugin/bridge/page/appointment/CPUserInfo;)V
     .locals 6
 
-    const v0, 0x7f0816ee
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_mine_login_pic2:I
 
     if-eqz p1, :cond_1
 
@@ -1568,7 +1568,7 @@
 
     iget-object v2, p0, Lbdd;->B:Landroid/app/Activity;
 
-    const v3, 0x7f121ec4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_setting_user_reg_time_tips:I
 
     const/4 v4, 0x1
 
@@ -1608,7 +1608,7 @@
 
     iget-object v0, p0, Lbdd;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121ec2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_setting_user_login_guide_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1915,7 +1915,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600b1
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1994,7 +1994,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2017,7 +2017,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2108,7 +2108,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f120f7f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_cloud_service:I
 
     return v0
 .end method
@@ -2277,7 +2277,7 @@
     .line 8
     iget-object p3, p0, Lbdd;->B:Landroid/app/Activity;
 
-    const v4, 0x7f122c7f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsmember_cloudspace_limit:I
 
     new-array v5, v1, [Ljava/lang/Object;
 
@@ -2300,7 +2300,7 @@
     .line 10
     iget-object p3, p0, Lbdd;->B:Landroid/app/Activity;
 
-    const v2, 0x7f122c80
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wpsmember_upload_limit:I
 
     new-array v4, v1, [Ljava/lang/Object;
 
@@ -2387,7 +2387,7 @@
     :cond_0
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v2, 0x7f0b1175
+    sget v2, Lcom/resouce/module/ResID;->home_switch_cloud_cant_use_tag:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2400,7 +2400,7 @@
     .line 4
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v3, 0x7f0b2e06
+    sget v3, Lcom/resouce/module/ResID;->switch_only_wifi_cant_use_tag:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2426,7 +2426,7 @@
 
     iget-object v1, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b116c
+    sget v2, Lcom/resouce/module/ResID;->home_setting_cloud_items_group:I
 
     const/4 v3, 0x1
 
@@ -2524,7 +2524,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0493
+    sget v4, Lcom/resouce/module/ResLAYOUT;->member_list_group_item:I
 
     invoke-virtual {v3, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -2545,7 +2545,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0494
+    sget v4, Lcom/resouce/module/ResLAYOUT;->member_list_super_group_item:I
 
     invoke-virtual {v3, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -2567,7 +2567,7 @@
 
     move-result-object v3
 
-    const v7, 0x7f0e039a
+    sget v7, Lcom/resouce/module/ResLAYOUT;->home_roaming_settings_member_func_item:I
 
     const/4 v8, 0x0
 
@@ -2584,7 +2584,7 @@
 
     new-array v7, v6, [Landroid/view/View;
 
-    const v9, 0x7f0b148a
+    sget v9, Lcom/resouce/module/ResID;->iv_item1:I
 
     .line 17
     invoke-virtual {v3, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2593,7 +2593,7 @@
 
     aput-object v9, v7, v8
 
-    const v9, 0x7f0b148b
+    sget v9, Lcom/resouce/module/ResID;->iv_item2:I
 
     invoke-virtual {v3, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2603,7 +2603,7 @@
 
     aput-object v9, v7, v10
 
-    const v9, 0x7f0b148c
+    sget v9, Lcom/resouce/module/ResID;->iv_item3:I
 
     invoke-virtual {v3, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2613,7 +2613,7 @@
 
     new-array v9, v6, [Landroid/widget/ImageView;
 
-    const v11, 0x7f0b147c
+    sget v11, Lcom/resouce/module/ResID;->iv_icon_1:I
 
     .line 18
     invoke-virtual {v3, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2624,7 +2624,7 @@
 
     aput-object v11, v9, v8
 
-    const v11, 0x7f0b147d
+    sget v11, Lcom/resouce/module/ResID;->iv_icon_2:I
 
     .line 19
     invoke-virtual {v3, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2635,7 +2635,7 @@
 
     aput-object v11, v9, v10
 
-    const v11, 0x7f0b147e
+    sget v11, Lcom/resouce/module/ResID;->iv_icon_3:I
 
     invoke-virtual {v3, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2647,7 +2647,7 @@
 
     new-array v11, v6, [Landroid/widget/TextView;
 
-    const v12, 0x7f0b31e7
+    sget v12, Lcom/resouce/module/ResID;->tv_name_1:I
 
     .line 20
     invoke-virtual {v3, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2658,7 +2658,7 @@
 
     aput-object v12, v11, v8
 
-    const v12, 0x7f0b31e8
+    sget v12, Lcom/resouce/module/ResID;->tv_name_2:I
 
     .line 21
     invoke-virtual {v3, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2669,7 +2669,7 @@
 
     aput-object v12, v11, v10
 
-    const v10, 0x7f0b31e9
+    sget v10, Lcom/resouce/module/ResID;->tv_name_3:I
 
     invoke-virtual {v3, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2797,7 +2797,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0363
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_new_roaming_settings_layout:I
 
     const/4 v2, 0x0
 
@@ -2809,7 +2809,7 @@
 
     iput-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1622
+    sget v1, Lcom/resouce/module/ResID;->list_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2823,7 +2823,7 @@
     .line 4
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2a3b
+    sget v1, Lcom/resouce/module/ResID;->scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2861,7 +2861,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0361
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_new_roaming_settings:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -2869,7 +2869,7 @@
 
     iput-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b26f5
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_settings_header_view:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2992,7 +2992,7 @@
     .line 28
     iget-object v0, p0, Lkbd;->d0:Landroid/widget/Button;
 
-    const v1, 0x7f122c68
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_login_now:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -3047,7 +3047,7 @@
     :cond_0
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v2, 0x7f0b1175
+    sget v2, Lcom/resouce/module/ResID;->home_switch_cloud_cant_use_tag:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3060,7 +3060,7 @@
     .line 4
     iget-object v0, p0, Lkbd;->c0:Landroid/view/View;
 
-    const v3, 0x7f0b2e06
+    sget v3, Lcom/resouce/module/ResID;->switch_only_wifi_cant_use_tag:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3091,7 +3091,7 @@
 
     iget-object v1, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b116c
+    sget v2, Lcom/resouce/module/ResID;->home_setting_cloud_items_group:I
 
     const/4 v3, 0x1
 
@@ -3204,17 +3204,17 @@
     .line 7
     invoke-virtual {v1, v0}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f120671
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_disable_upload_msg:I
 
     .line 8
     invoke-virtual {v1, p1}, Lvcd;->setMessage(I)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120677
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_disable:I
 
     .line 9
     invoke-virtual {v1, p1, v2}, Lvcd;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120676
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_continue:I
 
     .line 10
     invoke-virtual {v1, p1, v2}, Lvcd;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
@@ -3697,7 +3697,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b26f6
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_settings_user_icon:I
 
     if-ne p1, v0, :cond_2
 
@@ -3772,7 +3772,7 @@
     invoke-static {v3, v4, v2}, Lbbd;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_1
-    const v2, 0x7f120edc
+    sget v2, Lcom/resouce/module/ResSTRING;->home_continue_buy_membership:I
 
     const/16 v3, 0x28
 
@@ -3797,16 +3797,16 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    const p1, 0x7f1224b0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_member_pay_upgrade_super:I
 
-    const v2, 0x7f1224b0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_member_pay_upgrade_super:I
 
     goto :goto_2
 
     :cond_1
-    const p1, 0x7f120fb2
+    sget p1, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_svip:I
 
-    const v2, 0x7f120fb2
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_svip:I
 
     .line 6
     :goto_2
@@ -3827,7 +3827,7 @@
     goto :goto_3
 
     :cond_3
-    const v2, 0x7f120fb3
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_vip:I
 
     .line 8
     iput p1, p0, Lkbd;->y0:I

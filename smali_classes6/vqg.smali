@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060457
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_divide_line_color:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -101,12 +101,12 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f0e0227
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_pivottable_field_name_item:I
 
     goto :goto_1
 
     :cond_1
-    const p2, 0x7f0e06c2
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_et_pivottable_field_name_item:I
 
     .line 4
     :goto_1
@@ -121,7 +121,7 @@
     move-result-object p2
 
     :cond_2
-    const p3, 0x7f0b0af3
+    sget p3, Lcom/resouce/module/ResID;->et_pivot_table_field_checked:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     invoke-virtual {p3, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p3, 0x7f0b0af4
+    sget p3, Lcom/resouce/module/ResID;->et_pivot_table_field_name:I
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

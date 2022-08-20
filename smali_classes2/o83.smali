@@ -69,7 +69,7 @@
 
     const-string v2, "\u6d3b\u52a8\u901a\u77e5"
 
-    const v5, 0x7f120066
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_activity_description:I
 
     move-object v1, p0
 
@@ -105,7 +105,7 @@
 
     const-string v2, "\u589e\u503c\u670d\u52a1"
 
-    const v5, 0x7f120067
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_add_value_description:I
 
     move-object v1, p0
 
@@ -139,7 +139,7 @@
     .line 1
     sget-object v0, Lo83;->a:Le83;
 
-    const v1, 0x7f120068
+    sget v1, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_community_description:I
 
     invoke-interface {v0, p0, p1, p2, v1}, Le83;->d(Landroid/content/Context;ZLg93;I)Landroid/app/Notification$Builder;
 
@@ -199,7 +199,7 @@
 
     const-string v2, "\u91cd\u8981\u901a\u77e5"
 
-    const v5, 0x7f120069
+    sget v5, Lcom/resouce/module/ResSTRING;->activity_msg_push_settings_importance_description:I
 
     move-object v1, p0
 

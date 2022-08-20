@@ -533,7 +533,7 @@
 .method public final X2()V
     .locals 2
 
-    const v0, 0x7f0b33b3
+    sget v0, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -543,7 +543,7 @@
     .line 2
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b301d
+    sget v0, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1122,7 +1122,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->B:Lga6;
 
-    const v1, 0x7f0b0e04
+    sget v1, Lcom/resouce/module/ResID;->folder_manager_progress_list_ll:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -1130,7 +1130,7 @@
 
     invoke-virtual {v0, v1}, Lga6;->k(Landroid/view/View;)V
 
-    const v0, 0x7f0b0df5
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_layout_available_size_unit_ptv:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1141,7 +1141,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->U:Lcn/wps/moffice/foldermanager/view/ProgressTextView;
 
-    const v0, 0x7f0b0df4
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_layout_available_size_progressbar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1152,7 +1152,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->X:Lcn/wps/moffice/foldermanager/view/ColorArcProgressBar;
 
-    const v0, 0x7f0b0df6
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_pic_num_tv:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1163,7 +1163,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->V:Lcn/wps/moffice/foldermanager/view/ProgressTextView;
 
-    const v0, 0x7f0b0dfd
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_time_tv:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1174,7 +1174,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->W:Lcn/wps/moffice/foldermanager/view/ProgressTextView;
 
-    const v0, 0x7f0b0de6
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_big_files_list_ll:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1199,7 +1199,7 @@
 
     invoke-virtual {v0, v1}, Lfa6;->b(Lfa6$a;)V
 
-    const v0, 0x7f0b0de5
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_big_files_delete_ll:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1208,7 +1208,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b0e02
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_not_big_file_tv:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1219,7 +1219,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0e01
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_not_big_file_line:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1228,7 +1228,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->e0:Landroid/view/View;
 
-    const v0, 0x7f0b0de4
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_big_file_limit_tv:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1244,7 +1244,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0314
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_folder_manager_find_big_file_bifile_list_bottom_del_text:I
 
     const/4 v2, 0x0
 
@@ -1254,7 +1254,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerFindBigFileActivity;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b0df2
+    sget v1, Lcom/resouce/module/ResID;->folder_manager_find_big_file_delete_view_tv:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1268,7 +1268,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0df3
+    sget v0, Lcom/resouce/module/ResID;->folder_manager_find_big_file_fz:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1282,7 +1282,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122278
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_back_tips_readtime_suffix:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1388,7 +1388,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06017c
+    sget v1, Lcom/resouce/module/ResCOLOR;->folder_manager_common_background:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

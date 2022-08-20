@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d2f
+    sget v1, Lcom/resouce/module/ResID;->ss_padsearcher:I
 
     iget-object v3, p0, Lhng$g;->B:Lhng;
 

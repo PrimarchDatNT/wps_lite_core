@@ -87,7 +87,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e00b3
+    sget p2, Lcom/resouce/module/ResLAYOUT;->component_app_guide:I
 
     const/4 p3, 0x0
 
@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Lcq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b04e4
+    sget p2, Lcom/resouce/module/ResID;->component_app_guide_recommand_container:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
     .line 7
     iget-object p1, p0, Lcq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b04e2
+    sget p2, Lcom/resouce/module/ResID;->component_app_guide_list_container:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
     .line 8
     iget-object p1, p0, Lcq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b04e6
+    sget p2, Lcom/resouce/module/ResID;->component_app_guide_recommand_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
     .line 9
     iget-object p1, p0, Lcq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b04e3
+    sget p2, Lcom/resouce/module/ResID;->component_app_guide_list_title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -163,7 +163,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121f3d
+    sget p3, Lcom/resouce/module/ResSTRING;->public_component_apps_list_title:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f1218b9
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -195,7 +195,7 @@
     :goto_0
     iget-object p1, p0, Lcq3;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2fd7
+    sget p2, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -416,7 +416,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e00b4
+    sget v4, Lcom/resouce/module/ResLAYOUT;->component_app_recommand_item_view:I
 
     invoke-virtual {v3, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -428,7 +428,7 @@
     .line 4
     invoke-virtual {v3, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b04ed
+    sget v0, Lcom/resouce/module/ResID;->component_app_recommand_item_image:I
 
     .line 5
     invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -487,7 +487,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f122adc
+    sget v6, Lcom/resouce/module/ResSTRING;->public_time_limit_free:I
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -507,7 +507,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :catch_0
-    const v4, 0x7f0b04ee
+    sget v4, Lcom/resouce/module/ResID;->component_app_recommand_item_name:I
 
     .line 13
     :try_start_2
@@ -541,7 +541,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e00b5
+    sget v4, Lcom/resouce/module/ResLAYOUT;->component_app_recommand_list_view:I
 
     invoke-virtual {v3, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -553,7 +553,7 @@
     .line 17
     invoke-virtual {v3, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b04e9
+    sget v0, Lcom/resouce/module/ResID;->component_app_list_item_image:I
 
     .line 18
     invoke-virtual {v3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -562,7 +562,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b04ea
+    sget v4, Lcom/resouce/module/ResID;->component_app_list_item_name:I
 
     .line 19
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -571,7 +571,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b04ec
+    sget v5, Lcom/resouce/module/ResID;->component_app_list_item_subname:I
 
     .line 20
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b15b1
+    sget v6, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 21
     invoke-virtual {v3, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -639,7 +639,7 @@
 
     move-result v6
 
-    const v7, 0x7f0819c8
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     if-eqz v6, :cond_3
 
@@ -648,7 +648,7 @@
     goto :goto_2
 
     :cond_3
-    const v8, 0x7f0819c8
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     .line 26
     :goto_2
@@ -682,7 +682,7 @@
     goto :goto_3
 
     :cond_4
-    const v6, 0x7f0819c8
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     .line 30
     :goto_3
@@ -1246,7 +1246,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122264
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     return v0
 .end method
@@ -1257,7 +1257,7 @@
     .line 1
     iget-object v0, p0, Lcq3;->U:Landroid/view/View;
 
-    const v1, 0x7f0b04e7
+    sget v1, Lcom/resouce/module/ResID;->component_app_guide_recommand_title_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1270,7 +1270,7 @@
     .line 2
     iget-object v0, p0, Lcq3;->U:Landroid/view/View;
 
-    const v2, 0x7f0b052d
+    sget v2, Lcom/resouce/module/ResID;->conponent_app_recommand_deliver:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

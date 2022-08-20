@@ -526,7 +526,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12234d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_iat_record_stop_up:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1233ec
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_record_default_hint:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

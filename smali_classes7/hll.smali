@@ -239,7 +239,7 @@
     .line 1
     iget-object v0, p0, Lhll;->B:Landroid/content/Context;
 
-    const v1, 0x7f1226de
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_no_valid_page:I
 
     const/4 v2, 0x0
 
@@ -277,7 +277,7 @@
     .line 4
     iget-object v0, p0, Lhll;->U:Lcn/wps/moffice/common/beans/PopUpProgressBar;
 
-    const v1, 0x7f122836
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V
 

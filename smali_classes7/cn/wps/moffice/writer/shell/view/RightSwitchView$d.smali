@@ -261,12 +261,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09fd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_right_switch_view_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e10d6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_right_switch_view_item_layout:I
 
     :goto_0
     const/4 v1, 0x0
@@ -288,7 +288,7 @@
     .line 4
     iput-object p2, p3, Lcn/wps/moffice/writer/shell/view/RightSwitchView$e;->a:Landroid/view/View;
 
-    const v0, 0x7f0b12e3
+    sget v0, Lcom/resouce/module/ResID;->indicator:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
 
     iput-object v0, p3, Lcn/wps/moffice/writer/shell/view/RightSwitchView$e;->b:Landroid/view/View;
 
-    const v0, 0x7f0b138a
+    sget v0, Lcom/resouce/module/ResID;->item:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
 
     iput-object v0, p3, Lcn/wps/moffice/writer/shell/view/RightSwitchView$e;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b043f
+    sget v0, Lcom/resouce/module/ResID;->close:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -98,7 +98,7 @@
     .line 1
     iget-object v0, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122421
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
     .line 1
     iget-object p2, p0, Lh5w;->c:Landroid/app/Activity;
 
-    const v0, 0x7f122533
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_login_text_operation_tips:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

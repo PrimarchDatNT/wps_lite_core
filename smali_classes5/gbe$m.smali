@@ -34,15 +34,15 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f080382
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_meeting:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f080c0d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_wpsmeeting_ppt:I
 
     :goto_0
-    const v0, 0x7f121bf5
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-direct {p0, p1, v0}, Lule;-><init>(II)V
 
@@ -177,7 +177,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122097
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_not_surport_play_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -443,7 +443,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

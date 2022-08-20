@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lhld$a;
 
-    const v1, 0x7f080221
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     const/4 v3, 0x1
 
@@ -87,7 +87,7 @@
 
     if-ne v1, v2, :cond_0
 
-    const v0, 0x7f121b5f
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_cannot_delete:I
 
     const/4 v1, 0x0
 

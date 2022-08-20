@@ -35,7 +35,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e012d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_share_export_layout:I
 
     return v0
 .end method
@@ -267,7 +267,7 @@
 .method public final h(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b0c0a
+    sget v0, Lcom/resouce/module/ResID;->export_doc:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareExportFragmentDialog;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0c1b
+    sget v0, Lcom/resouce/module/ResID;->export_pdf:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

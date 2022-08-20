@@ -71,7 +71,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e06fd
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_team_share_dialog_content_item:I
 
     const/4 v0, 0x0
 
@@ -87,7 +87,7 @@
 
     invoke-virtual {p2, p3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const p3, 0x7f0b1ff9
+    sget p3, Lcom/resouce/module/ResID;->phone_home_clouddocs_team_share_dialog_item_text:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p3, 0x7f0b1ff8
+    sget p3, Lcom/resouce/module/ResID;->phone_home_clouddocs_team_share_dialog_item_image:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,11 +143,11 @@
 
     move-result v0
 
-    const v1, 0x7f121953
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_send_url:I
 
     if-ne v0, v1, :cond_1
 
-    const p1, 0x7f0810ab
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_url_send:I
 
     .line 7
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -166,11 +166,11 @@
 
     move-result p1
 
-    const v0, 0x7f121952
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_share_dialog_content_item_copy_url:I
 
     if-ne p1, v0, :cond_2
 
-    const p1, 0x7f0810aa
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_home_clouddocs_url_copy:I
 
     .line 9
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageResource(I)V

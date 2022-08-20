@@ -449,7 +449,7 @@
 
     new-array v0, v0, [Landroid/view/View;
 
-    const v1, 0x7f0b3073
+    sget v1, Lcom/resouce/module/ResID;->top_left_space:I
 
     .line 1
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -460,7 +460,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f0b0fb2
+    sget v1, Lcom/resouce/module/ResID;->header_container:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -471,7 +471,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f0b2863
+    sget v1, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -482,7 +482,7 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f0b279c
+    sget v1, Lcom/resouce/module/ResID;->qa_tv:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -493,7 +493,7 @@
 
     aput-object v2, v0, v3
 
-    const v2, 0x7f0b0276
+    sget v2, Lcom/resouce/module/ResID;->bottom_space:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -504,7 +504,7 @@
 
     aput-object v2, v0, v3
 
-    const v2, 0x7f0b031d
+    sget v2, Lcom/resouce/module/ResID;->button_background:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -515,23 +515,23 @@
 
     aput-object v2, v0, v3
 
-    const v2, 0x7f0603ac
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_thirdBackgroundColor:I
 
     .line 7
     invoke-static {v2, p2, v0}, Lw1f;->c(IZ[Landroid/view/View;)V
 
-    const v0, 0x7f0b2b3d
+    sget v0, Lcom/resouce/module/ResID;->shadow_bg:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v3, 0x7f080b1d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->novel_wps_home_vertical_gradient_shadow:I
 
     invoke-static {v0, v3, p2}, Lw1f;->d(Landroid/view/View;IZ)V
 
-    const v0, 0x7f0b306d
+    sget v0, Lcom/resouce/module/ResID;->top_decor_bar_view:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
 
     invoke-static {v0, v2, p2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0638
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow_bg:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -553,7 +553,7 @@
 
     invoke-static {v0, v2, p2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b1746
+    sget v0, Lcom/resouce/module/ResID;->lock_icon_img:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -562,11 +562,11 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v2, 0x7f0603a2
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     invoke-static {v0, v2, p2}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 
-    const v0, 0x7f0b0637
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -584,11 +584,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f060330
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {v0, v1, p2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b1d0b
+    sget v0, Lcom/resouce/module/ResID;->pay:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,11 +597,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0603b8
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_whiteMainTextColor:I
 
     invoke-static {v0, v1, p2}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 
-    const v0, 0x7f0b1512
+    sget v0, Lcom/resouce/module/ResID;->label_price_tip_tv:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -878,7 +878,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d0b
+    sget v0, Lcom/resouce/module/ResID;->pay:I
 
     if-ne p1, v0, :cond_3
 
@@ -927,7 +927,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     if-ne p1, v0, :cond_4
 
@@ -958,7 +958,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f130110
+    sget v0, Lcom/resouce/module/ResSTYLE;->BottomSheetDialog:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Lmc;->n2(II)V
@@ -1063,14 +1063,14 @@
 
     if-eqz p1, :cond_2
 
-    const p2, 0x7f0b3080
+    sget p2, Lcom/resouce/module/ResID;->top_space_container:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b32f3
+    sget p3, Lcom/resouce/module/ResID;->unlock_decor_container:I
 
     .line 9
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1245,7 +1245,7 @@
 .method public q2()I
     .locals 1
 
-    const v0, 0x7f0e02aa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_nc_coins_buy_layout:I
 
     return v0
 .end method
@@ -1258,7 +1258,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2863
+    sget v1, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1347,7 +1347,7 @@
     .line 8
     invoke-virtual {p0, p1, v0}, Lny2;->D2(Landroid/view/View;Z)V
 
-    const v0, 0x7f0b1d0b
+    sget v0, Lcom/resouce/module/ResID;->pay:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
     .line 10
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b19db
+    sget v0, Lcom/resouce/module/ResID;->nested_scroll_view:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1372,7 +1372,7 @@
 
     iput-object v0, p0, Lny2;->k0:Landroidx/core/widget/NestedScrollView;
 
-    const v0, 0x7f0b32f3
+    sget v0, Lcom/resouce/module/ResID;->unlock_decor_container:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1397,7 +1397,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
 
-    const v0, 0x7f0b0638
+    sget v0, Lcom/resouce/module/ResID;->decor_arrow_bg:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1406,7 +1406,7 @@
 
     iput-object v0, p0, Lny2;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b3390
+    sget v0, Lcom/resouce/module/ResID;->view_close:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

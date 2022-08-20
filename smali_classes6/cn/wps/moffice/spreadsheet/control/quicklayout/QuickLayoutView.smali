@@ -47,13 +47,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e01c1
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_chart_quicklayout_layout:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b092b
+    sget p1, Lcom/resouce/module/ResID;->et_chart_quicklayout_title_bar:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/quicklayout/QuickLayoutView;->B:Lcn/wps/moffice/spreadsheet/control/EtTitleBar;
 
-    const p1, 0x7f0b092c
+    sget p1, Lcom/resouce/module/ResID;->et_chart_quicklayout_view:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -106,11 +106,11 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const p2, 0x7f121dd2
+    sget p2, Lcom/resouce/module/ResSTRING;->public_chart_quicklayout:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f0b2fe8
+    sget p1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2fde
+    sget p1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -331,11 +331,11 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_1
 

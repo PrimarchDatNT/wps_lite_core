@@ -184,7 +184,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0121
+    sget v0, Lcom/resouce/module/ResLAYOUT;->doc_scan_long_pic_share_layout:I
 
     return v0
 .end method
@@ -192,7 +192,7 @@
 .method public b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2b86
+    sget v0, Lcom/resouce/module/ResID;->share_longpic:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2067
+    sget v0, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->T:Landroid/view/View;
 
-    const v0, 0x7f0b297e
+    sget v0, Lcom/resouce/module/ResID;->rll_wecha_item:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->U:Landroid/view/View;
 
-    const v0, 0x7f0b297c
+    sget v0, Lcom/resouce/module/ResID;->rll_qq_item:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->V:Landroid/view/View;
 
-    const v0, 0x7f0b297d
+    sget v0, Lcom/resouce/module/ResID;->rll_tim_item:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -237,7 +237,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->W:Landroid/view/View;
 
-    const v0, 0x7f0b297a
+    sget v0, Lcom/resouce/module/ResID;->rll_dingding_item:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ShareLongPicFragmentDialog;->X:Landroid/view/View;
 
-    const v0, 0x7f0b297b
+    sget v0, Lcom/resouce/module/ResID;->rll_more_item:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -940,7 +940,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f12044f
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     if-eqz v0, :cond_3
 

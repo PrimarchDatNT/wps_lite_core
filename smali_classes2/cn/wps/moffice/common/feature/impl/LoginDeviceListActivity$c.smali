@@ -328,7 +328,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d28
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_online_device_list:I
 
     const/4 v2, 0x0
 
@@ -338,7 +338,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1629
+    sget v1, Lcom/resouce/module/ResID;->list_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->W:Landroid/view/View;
 
-    const v1, 0x7f0b3209
+    sget v1, Lcom/resouce/module/ResID;->tv_open_files:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -359,7 +359,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0676
+    sget v1, Lcom/resouce/module/ResID;->device_list_bottom_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -372,7 +372,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b08b9
+    sget v1, Lcom/resouce/module/ResID;->error_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -385,7 +385,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1b13
+    sget v1, Lcom/resouce/module/ResID;->online_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -398,7 +398,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b171b
+    sget v1, Lcom/resouce/module/ResID;->loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -409,7 +409,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1658
+    sget v1, Lcom/resouce/module/ResID;->ll_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +465,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->Y:Landroid/widget/TextView;
 
-    const v2, 0x7f121516
+    sget v2, Lcom/resouce/module/ResSTRING;->online_device_list_bottom_tip_oversea:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -486,7 +486,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->B:Landroid/view/View;
 
-    const v2, 0x7f0b02e3
+    sget v2, Lcom/resouce/module/ResID;->btn_login_pc:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -507,7 +507,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b02e2
+    sget v2, Lcom/resouce/module/ResID;->btn_login_devices:I
 
     if-nez v0, :cond_2
 
@@ -834,7 +834,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121525
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_title:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -852,7 +852,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08171e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_nav_set_up:I
 
     new-instance v1, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c$f;
 
@@ -965,7 +965,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity$c;->b0:Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity;
 
-    const v2, 0x7f121fd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_devices_manager:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

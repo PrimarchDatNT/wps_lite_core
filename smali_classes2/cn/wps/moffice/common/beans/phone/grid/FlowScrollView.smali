@@ -576,7 +576,7 @@
 
     check-cast v0, Lrf3;
 
-    const v2, 0x7f0e0bc7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_item:I
 
     .line 7
     invoke-virtual {v0}, Lrf3;->e()I
@@ -587,7 +587,7 @@
 
     if-ne v3, v4, :cond_1
 
-    const v2, 0x7f0e0bcd
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_round_item:I
 
     .line 8
     :cond_1
@@ -619,7 +619,7 @@
     .line 10
     invoke-virtual {v2, v3, v1, v3, v1}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    const v3, 0x7f0b1261
+    sget v3, Lcom/resouce/module/ResID;->image:I
 
     .line 11
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -628,7 +628,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b2ee9
+    sget v5, Lcom/resouce/module/ResID;->text:I
 
     .line 12
     invoke-virtual {v2, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -860,7 +860,7 @@
 
     check-cast v3, Lrf3;
 
-    const v4, 0x7f0e0bc7
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_item:I
 
     .line 9
     invoke-virtual {v3}, Lrf3;->e()I
@@ -871,7 +871,7 @@
 
     if-ne v5, v6, :cond_1
 
-    const v4, 0x7f0e0bcd
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_docinfo_share_round_item:I
 
     .line 10
     :cond_1
@@ -891,7 +891,7 @@
 
     check-cast v4, Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0b1261
+    sget v5, Lcom/resouce/module/ResID;->image:I
 
     .line 11
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -900,7 +900,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v7, 0x7f0b2ee9
+    sget v7, Lcom/resouce/module/ResID;->text:I
 
     .line 12
     invoke-virtual {v4, v7}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

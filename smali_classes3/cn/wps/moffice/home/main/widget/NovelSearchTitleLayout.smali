@@ -90,7 +90,7 @@
     return v1
 
     :cond_0
-    const v2, 0x7f0b33a3
+    sget v2, Lcom/resouce/module/ResID;->view_pager:I
 
     .line 2
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -120,11 +120,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e105e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->wps_home_root_main_search_title_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2a66
+    sget v0, Lcom/resouce/module/ResID;->search_container:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -141,13 +141,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result p1
 
-    const v0, 0x7f0b27c7
+    sget v0, Lcom/resouce/module/ResID;->rank_icon:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -166,7 +166,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v0, 0x7f0b0200
+    sget v0, Lcom/resouce/module/ResID;->benefit_icon:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v0, 0x7f0b15ac
+    sget v0, Lcom/resouce/module/ResID;->library_icon:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b2a66
+    sget v1, Lcom/resouce/module/ResID;->search_container:I
 
     if-ne p1, v1, :cond_3
 
@@ -278,7 +278,7 @@
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f0b27c7
+    sget v1, Lcom/resouce/module/ResID;->rank_icon:I
 
     if-ne p1, v1, :cond_4
 
@@ -293,7 +293,7 @@
     goto :goto_2
 
     :cond_4
-    const v1, 0x7f0b0200
+    sget v1, Lcom/resouce/module/ResID;->benefit_icon:I
 
     if-ne p1, v1, :cond_5
 
@@ -308,7 +308,7 @@
     goto :goto_2
 
     :cond_5
-    const v0, 0x7f0b15ac
+    sget v0, Lcom/resouce/module/ResID;->library_icon:I
 
     if-ne p1, v0, :cond_6
 

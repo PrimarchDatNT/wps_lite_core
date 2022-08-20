@@ -136,7 +136,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f070b3e
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_geoShape_line_width:I
 
     invoke-virtual {p4, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -242,22 +242,22 @@
 
     if-eqz p2, :cond_1
 
-    const p3, 0x7f070510
+    sget p3, Lcom/resouce/module/ResDIMEN;->pad_et_insert_shape_shapes_width:I
 
     goto :goto_1
 
     :cond_1
-    const p3, 0x7f07020f
+    sget p3, Lcom/resouce/module/ResDIMEN;->et_insert_shape_shapes_width:I
 
     :goto_1
     if-eqz p2, :cond_2
 
-    const p2, 0x7f07050f
+    sget p2, Lcom/resouce/module/ResDIMEN;->pad_et_insert_shape_shapes_height:I
 
     goto :goto_2
 
     :cond_2
-    const p2, 0x7f07020a
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_insert_shape_shapes_height:I
 
     .line 22
     :goto_2
@@ -413,7 +413,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V

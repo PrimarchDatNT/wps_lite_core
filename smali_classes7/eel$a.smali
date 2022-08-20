@@ -51,7 +51,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b2bb0
+    sget v2, Lcom/resouce/module/ResID;->share_type_1_img:I
 
     if-ne v0, v2, :cond_0
 
@@ -66,7 +66,7 @@
     goto :goto_1
 
     :cond_0
-    const v2, 0x7f0b2bb1
+    sget v2, Lcom/resouce/module/ResID;->share_type_2_img:I
 
     if-ne v0, v2, :cond_1
 
@@ -78,7 +78,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b2bb2
+    sget v2, Lcom/resouce/module/ResID;->share_type_3_img:I
 
     if-ne v0, v2, :cond_2
 

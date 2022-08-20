@@ -108,7 +108,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0e01b5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_base:I
 
     invoke-virtual {p1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -130,7 +130,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->I:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b092f
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_base_title_bar:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -236,7 +236,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06011e
+    sget v0, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -520,7 +520,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const v0, 0x7f0b092a
+    sget v0, Lcom/resouce/module/ResID;->et_chart_preview_root:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -551,7 +551,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07017c
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_chartoptions_chart_preview_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -568,7 +568,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07017a
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_chartoptions_chart_preview_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -585,7 +585,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07017b
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_chartoptions_chart_preview_margin_left:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -602,7 +602,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07017e
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_chartoptions_checkedview_margin_top:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

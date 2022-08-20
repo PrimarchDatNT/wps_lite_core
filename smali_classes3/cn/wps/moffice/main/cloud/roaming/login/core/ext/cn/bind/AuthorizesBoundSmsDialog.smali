@@ -178,7 +178,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v2, 0x0
 
@@ -209,7 +209,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f120211
+    sget p1, Lcom/resouce/module/ResSTRING;->bind_phone_error_sms_code_empty:I
 
     .line 8
     invoke-direct {p0, p1}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->getString(I)Ljava/lang/String;
@@ -329,7 +329,7 @@
     .line 1
     invoke-super {p0}, Llx7;->initViews()V
 
-    const v0, 0x7f0b29a7
+    sget v0, Lcom/resouce/module/ResID;->rootScrollView:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mScrollView:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b2c66
+    sget v0, Lcom/resouce/module/ResID;->smsCodeEditText:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mSmsCodeEditText:Landroid/widget/EditText;
 
-    const v0, 0x7f0b2b0f
+    sget v0, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mSendCodeTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0b12e0
+    sget v0, Lcom/resouce/module/ResID;->incorrectCodeTipTextView:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mIncorrectCodeTipTextView:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2535
+    sget v0, Lcom/resouce/module/ResID;->progressBar:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mProgressBar:Landroid/view/View;
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -424,7 +424,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2b0f
+    sget v0, Lcom/resouce/module/ResID;->sendCodeTextView:I
 
     if-ne p1, v0, :cond_1
 
@@ -434,7 +434,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b344e
+    sget v0, Lcom/resouce/module/ResID;->withholdTextView:I
 
     if-ne p1, v0, :cond_2
 
@@ -449,7 +449,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    const v0, 0x7f0e0339
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_bound_phone_guide_trust_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -502,7 +502,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mResource:Landroid/content/res/Resources;
 
-    const v0, 0x7f120f3b
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_input_correct_auth_code:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -537,7 +537,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12022c
+    sget v0, Lcom/resouce/module/ResSTRING;->bound_phone_check_sms_common_error:I
 
     const/4 v1, 0x0
 
@@ -750,7 +750,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/bind/AuthorizesBoundSmsDialog;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120cbb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     const/4 v2, 0x0
 
@@ -892,7 +892,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12022e
+    sget v2, Lcom/resouce/module/ResSTRING;->bound_phone_guide_trust_device_tip:I
 
     const/4 v3, 0x1
 
@@ -926,13 +926,13 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f080828
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_guide_bind_phone_icon:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
     :cond_2
-    const v0, 0x7f0b02ac
+    sget v0, Lcom/resouce/module/ResID;->btnLocalPhoneLogin:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -943,7 +943,7 @@
 
     if-eqz v0, :cond_3
 
-    const v1, 0x7f120f2f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_bind_immediately:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

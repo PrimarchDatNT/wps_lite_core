@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0888
+    sget v1, Lcom/resouce/module/ResID;->encoding_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0889
+    sget v1, Lcom/resouce/module/ResID;->encoding_preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b088a
+    sget v1, Lcom/resouce/module/ResID;->encoding_preview_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0887
+    sget v1, Lcom/resouce/module/ResID;->encoding_choose:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
 
     iget-object v2, p0, Lsw8;->a:Landroid/app/Activity;
 
-    const v3, 0x7f0e0e58
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     sget-object v4, Lbw8;->b:Ljava/util/List;
 
@@ -265,7 +265,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -295,7 +295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e070f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_compressfile_encoding:I
 
     const/4 v2, 0x0
 

@@ -117,7 +117,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity$i;->S:Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;
 
-    const p2, 0x7f123076
+    sget p2, Lcom/resouce/module/ResSTRING;->template_favor_fail:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/foreigntemplate/activity/TemplatePreviewActivity;->Z2(I)V
 

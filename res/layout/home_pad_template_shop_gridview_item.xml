@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/grid_item_image" android:background="@drawable/home_shop_template_item_round_bg" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:paddingStart="1.0px" android:paddingEnd="1.0px" />
-    <TextView android:textSize="@dimen/home_template_item_name_text_size" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/filename_text" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:maxLines="2" />
-</LinearLayout>

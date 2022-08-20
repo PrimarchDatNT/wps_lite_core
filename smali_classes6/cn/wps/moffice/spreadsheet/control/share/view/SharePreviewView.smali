@@ -283,7 +283,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0f4e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_alertdialog_sharepreview:I
 
     const/4 v2, 0x0
 
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2bd6
+    sget v1, Lcom/resouce/module/ResID;->sharepreview_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     iget-object p4, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2553
+    sget v0, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
     .line 7
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const p4, 0x7f0b05b4
+    sget p4, Lcom/resouce/module/ResID;->cover_view:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -342,7 +342,7 @@
     .line 8
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const p4, 0x7f0b29fc
+    sget p4, Lcom/resouce/module/ResID;->scale_image:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -382,7 +382,7 @@
     .line 12
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const p4, 0x7f0b0278
+    sget p4, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -431,7 +431,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f070b7a
+    sget p4, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -489,16 +489,16 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->c0:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;
 
-    const p3, 0x7f122950
+    sget p3, Lcom/resouce/module/ResSTRING;->public_share:I
 
-    const p4, 0x7f0b2bd3
+    sget p4, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {p1, p3, p4}, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->setActionButton(II)V
 
     .line 27
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->S:Landroid/view/View;
 
-    const p3, 0x7f0b2bd5
+    sget p3, Lcom/resouce/module/ResID;->sharepreview_title:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -508,7 +508,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;->T:Lcn/wps/moffice/spreadsheet/control/EtTitleBar;
 
-    const p3, 0x7f122bca
+    sget p3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 28
     invoke-virtual {p1, p3}, Lcn/wps/moffice/spreadsheet/control/EtTitleBar;->setTitleId(I)V

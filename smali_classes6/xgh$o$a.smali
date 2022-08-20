@@ -60,7 +60,7 @@
     .line 2
     iget-object p1, p1, Lxgh$o$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0805db
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_public_radionbutton_selected:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -88,7 +88,7 @@
     :cond_0
     iget-object p1, p1, Lxgh$o$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0805da
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_public_radionbutton_noselected:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

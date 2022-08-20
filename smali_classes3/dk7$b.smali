@@ -99,7 +99,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121225
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_dirive_file_has_not_upload_finish:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

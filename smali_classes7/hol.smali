@@ -33,7 +33,7 @@
 
     new-array p2, v3, [Ljava/lang/Object;
 
-    const v0, 0x7f122e54
+    sget v0, Lcom/resouce/module/ResSTRING;->resume_share_mail_name:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -56,7 +56,7 @@
 
     new-array p6, v3, [Ljava/lang/Object;
 
-    const v0, 0x7f122e53
+    sget v0, Lcom/resouce/module/ResSTRING;->resume_share_mail_job:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -75,14 +75,14 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f122e4f
+    sget v1, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_one:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v4, 0x7f122e52
+    sget v4, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_two:I
 
     .line 7
     invoke-virtual {p1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -101,21 +101,21 @@
 
     move-result-object p6
 
-    const v4, 0x7f122e51
+    sget v4, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_three:I
 
     .line 8
     invoke-virtual {p1, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v6, 0x7f122e4e
+    sget v6, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_four:I
 
     .line 9
     invoke-virtual {p1, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v7, 0x7f122e4d
+    sget v7, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_five:I
 
     .line 10
     invoke-virtual {p1, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -211,7 +211,7 @@
 
     if-nez p3, :cond_4
 
-    const p3, 0x7f122e50
+    sget p3, Lcom/resouce/module/ResSTRING;->resume_share_mail_body_six:I
 
     .line 22
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -280,7 +280,7 @@
 
     if-eqz v0, :cond_0
 
-    const p2, 0x7f122e54
+    sget p2, Lcom/resouce/module/ResSTRING;->resume_share_mail_name:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -295,7 +295,7 @@
 
     if-eqz v0, :cond_1
 
-    const p3, 0x7f122e53
+    sget p3, Lcom/resouce/module/ResSTRING;->resume_share_mail_job:I
 
     .line 4
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

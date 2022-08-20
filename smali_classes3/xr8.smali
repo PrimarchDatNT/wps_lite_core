@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0383
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_public_fileradar_backup_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -229,7 +229,7 @@
     .line 5
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cf6
+    sget v1, Lcom/resouce/module/ResID;->file_radar_only_wifi_upload_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 6
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1176
+    sget v1, Lcom/resouce/module/ResID;->home_switch_only_wifi_sync:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -258,7 +258,7 @@
     .line 8
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cfa
+    sget v1, Lcom/resouce/module/ResID;->file_radar_show_upload_fail_files:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -272,7 +272,7 @@
     .line 10
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cfd
+    sget v1, Lcom/resouce/module/ResID;->file_radar_unbackup_file_count:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -285,7 +285,7 @@
     .line 11
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cf9
+    sget v1, Lcom/resouce/module/ResID;->file_radar_show_backup_files:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -296,7 +296,7 @@
     .line 12
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cf2
+    sget v1, Lcom/resouce/module/ResID;->file_radar_backup_location_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -309,7 +309,7 @@
     .line 13
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0cf8
+    sget v1, Lcom/resouce/module/ResID;->file_radar_setting_more:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 15
     iget-object v0, p0, Lxr8;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0d59
+    sget v1, Lcom/resouce/module/ResID;->fileradar_bottom_landing_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1210ef
+    sget v0, Lcom/resouce/module/ResSTRING;->home_public_backup_setting:I
 
     return v0
 .end method
@@ -509,7 +509,7 @@
     .line 5
     iget-object v0, p0, Lxr8;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f1210ed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_backup_location_auto_upload:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -744,7 +744,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0cfa
+    sget v0, Lcom/resouce/module/ResID;->file_radar_show_upload_fail_files:I
 
     const/4 v1, 0x0
 
@@ -766,7 +766,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0cf9
+    sget v0, Lcom/resouce/module/ResID;->file_radar_show_backup_files:I
 
     if-ne p1, v0, :cond_2
 
@@ -786,7 +786,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0cf8
+    sget v0, Lcom/resouce/module/ResID;->file_radar_setting_more:I
 
     if-ne p1, v0, :cond_4
 

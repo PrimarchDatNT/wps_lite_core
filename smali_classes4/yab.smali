@@ -85,12 +85,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e057d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_sendlog_choose_type:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0758
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_sendlog_choose_type:I
 
     :goto_0
     const/4 v2, 0x0
@@ -99,28 +99,28 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b1e
+    sget v1, Lcom/resouce/module/ResID;->sendlog_choose_type_save_error:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b2b1c
+    sget v2, Lcom/resouce/module/ResID;->sendlog_choose_type_crash_error:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b2b1b
+    sget v3, Lcom/resouce/module/ResID;->sendlog_choose_type_cloudstorage_error:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2b1d
+    sget v4, Lcom/resouce/module/ResID;->sendlog_choose_type_fileroaming_error:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0808df
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_sendlog:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120699
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_send_log:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -211,12 +211,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120692
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_select_log_type:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120699
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send_log:I
 
     :goto_0
     invoke-virtual {p1, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -261,7 +261,7 @@
 
     iput-object v0, p0, Lyab;->d:Lhd3;
 
-    const v1, 0x7f1205d8
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_log_list_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;

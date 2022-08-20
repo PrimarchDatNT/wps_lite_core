@@ -47,7 +47,7 @@
 
     iput-object p1, p0, Lykc;->T:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e062d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_document_info:I
 
     const/4 v1, 0x0
 
@@ -58,7 +58,7 @@
 
     iput-object p1, p0, Lykc;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1d8d
+    sget v0, Lcom/resouce/module/ResID;->pdf_document_info_name:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
     .line 6
     iget-object p1, p0, Lykc;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1d8f
+    sget v0, Lcom/resouce/module/ResID;->pdf_document_info_type:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -85,7 +85,7 @@
     .line 7
     iget-object p1, p0, Lykc;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1d8c
+    sget v0, Lcom/resouce/module/ResID;->pdf_document_info_location:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -98,7 +98,7 @@
     .line 8
     iget-object p1, p0, Lykc;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1d8e
+    sget v0, Lcom/resouce/module/ResID;->pdf_document_info_size:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -111,7 +111,7 @@
     .line 9
     iget-object p1, p0, Lykc;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1d90
+    sget v0, Lcom/resouce/module/ResID;->pdf_document_info_update_time:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -145,13 +145,13 @@
 
     iget-object v1, p0, Lykc;->B:Landroid/content/Context;
 
-    const v2, 0x7f1302ef
+    sget v2, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
     iput-object v0, p0, Lykc;->a0:Lhd3;
 
-    const v1, 0x7f121fed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_doc_info:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -166,7 +166,7 @@
     .line 5
     iget-object v0, p0, Lykc;->a0:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v2, 0x0
 

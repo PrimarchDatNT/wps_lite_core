@@ -75,7 +75,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120647
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

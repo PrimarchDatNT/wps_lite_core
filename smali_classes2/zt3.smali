@@ -66,7 +66,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e06ac
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_download_center_item_layout:I
 
     const/4 v1, 0x0
 
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b0f61
+    sget p2, Lcom/resouce/module/ResID;->group_title:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
     .line 7
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b0530
+    sget p2, Lcom/resouce/module/ResID;->container:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     .line 8
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b03ca
+    sget p2, Lcom/resouce/module/ResID;->checkbox:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 9
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b1227
+    sget p2, Lcom/resouce/module/ResID;->icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 10
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b2fcd
+    sget p2, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -141,7 +141,7 @@
     .line 11
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b2a29
+    sget p2, Lcom/resouce/module/ResID;->score_icon:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -154,7 +154,7 @@
     .line 12
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b2a28
+    sget p2, Lcom/resouce/module/ResID;->score:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -167,7 +167,7 @@
     .line 13
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b12ec
+    sget p2, Lcom/resouce/module/ResID;->info:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
     .line 14
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b065c
+    sget p2, Lcom/resouce/module/ResID;->desc:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
     .line 15
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b031a
+    sget p2, Lcom/resouce/module/ResID;->button:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -206,7 +206,7 @@
     .line 16
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b13b8
+    sget p2, Lcom/resouce/module/ResID;->item_divider:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -217,7 +217,7 @@
     .line 17
     iget-object p1, p0, Lzt3;->b0:Landroid/view/View;
 
-    const p2, 0x7f0b0f4d
+    sget p2, Lcom/resouce/module/ResID;->group_divider:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206d2
+    sget v1, Lcom/resouce/module/ResSTRING;->download_center_default_desc:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -352,7 +352,7 @@
     .line 1
     iget-object p1, p0, Lzt3;->l0:Landroid/widget/Button;
 
-    const p2, 0x7f122023
+    sget p2, Lcom/resouce/module/ResSTRING;->public_download_immediately:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -371,7 +371,7 @@
     .line 3
     iget-object p1, p0, Lzt3;->l0:Landroid/widget/Button;
 
-    const p2, 0x7f122588
+    sget p2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -397,7 +397,7 @@
     :pswitch_1
     iget-object p1, p0, Lzt3;->l0:Landroid/widget/Button;
 
-    const p2, 0x7f12238d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_installd:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -423,7 +423,7 @@
     :pswitch_2
     iget-object p1, p0, Lzt3;->l0:Landroid/widget/Button;
 
-    const p2, 0x7f121f5e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {p0, p2}, Lya3;->f(I)Ljava/lang/String;
 
@@ -609,7 +609,7 @@
 
     if-nez v2, :cond_3
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 9
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -847,7 +847,7 @@
 
     const/4 v6, 0x3
 
-    const v7, 0x7f08006d
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->ad_download_pop_apk_icon:I
 
     if-eqz v4, :cond_5
 

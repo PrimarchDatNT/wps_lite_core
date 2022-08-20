@@ -173,12 +173,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f1220a0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pdf_success_top_tips:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f1208b6
+    sget v1, Lcom/resouce/module/ResSTRING;->et_formula2num_title_tips:I
 
     :goto_0
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -197,7 +197,7 @@
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/tooltip/SaveTipProcessor;->c:Landroid/content/Context;
 
-    const v2, 0x7f122a0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_spread_immediately_lookup:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

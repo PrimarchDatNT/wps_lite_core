@@ -107,7 +107,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-static {v2}, Lvyg;->d0(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1219be
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_extract_sheet:I
 
     invoke-static {v2}, Lvyg;->e0(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1219c1
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_merge_sheet:I
 
     invoke-static {v2}, Lvyg;->f0(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f1219b9
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
     invoke-static {v2}, Lvyg;->g0(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f122266
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-static {v2}, Lvyg;->h0(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
 
     new-instance v1, Lcn/wps/moffice/main/local/home/phone/applicationv2/HomeAppBean;
 
-    const v2, 0x7f120147
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-static {v2}, Lvyg;->i0(I)Ljava/lang/String;
 

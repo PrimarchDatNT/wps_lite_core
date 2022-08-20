@@ -407,7 +407,7 @@
 
     iput-object v0, p0, Lo84;->f:Landroid/view/View;
 
-    const v1, 0x7f0b1261
+    sget v1, Lcom/resouce/module/ResID;->image:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -421,7 +421,7 @@
     .line 4
     iget-object v0, p0, Lo84;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -434,7 +434,7 @@
     .line 5
     iget-object v0, p0, Lo84;->f:Landroid/view/View;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -470,7 +470,7 @@
     .line 9
     iget-object p1, p0, Lo84;->f:Landroid/view/View;
 
-    const v0, 0x7f0b2ccc
+    sget v0, Lcom/resouce/module/ResID;->spread:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -525,7 +525,7 @@
 .method public y()I
     .locals 1
 
-    const v0, 0x7f0e0c61
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_smallpic:I
 
     return v0
 .end method

@@ -339,7 +339,7 @@
     .line 3
     iget-object p1, p1, Leyt$b;->k0:Lcom/google/android/material/datepicker/MaterialCalendarGridView;
 
-    const v0, 0x7f0b18cd
+    sget v0, Lcom/resouce/module/ResID;->month_grid:I
 
     invoke-virtual {p1, v0}, Landroid/widget/GridView;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e04aa
+    sget v0, Lcom/resouce/module/ResLAYOUT;->mtrl_calendar_month_labeled:I
 
     const/4 v1, 0x0
 

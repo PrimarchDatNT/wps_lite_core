@@ -461,7 +461,7 @@
     .line 2
     iget-object v0, p0, Lxw7;->a:Landroid/content/Context;
 
-    const v1, 0x7f122486
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_with_other_phone:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
     :cond_0
     iget-object v0, p0, Lxw7;->a:Landroid/content/Context;
 
-    const v1, 0x7f120f43
+    sget v1, Lcom/resouce/module/ResSTRING;->home_login_other_account_login:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -511,7 +511,7 @@
     .line 2
     iget-object v0, p0, Lxw7;->a:Landroid/content/Context;
 
-    const v1, 0x7f122487
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_with_phone:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -523,7 +523,7 @@
     :cond_0
     iget-object v0, p0, Lxw7;->a:Landroid/content/Context;
 
-    const v1, 0x7f122488
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_with_phone_or_email:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

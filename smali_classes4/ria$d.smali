@@ -113,14 +113,14 @@
     .line 7
     iget-object v0, p0, Lria$d;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120623
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
     return-void
 
     :cond_1
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     :try_start_1
     const-string v2, "\u672a\u547d\u540d\u6587\u4ef6.pof"

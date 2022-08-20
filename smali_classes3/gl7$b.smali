@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f3e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->share_folder_guide_item:I
 
     const/4 v2, 0x0
 
@@ -46,7 +46,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3196
+    sget v0, Lcom/resouce/module/ResID;->tv_guide_desc:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -59,7 +59,7 @@
     .line 4
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v0, 0x7f0b31e1
+    sget v0, Lcom/resouce/module/ResID;->tv_msg_1:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

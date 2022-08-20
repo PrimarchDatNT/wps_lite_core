@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/public_login_guide_button_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/public_login_by_phone" android:layout_centerInParent="true" />
-    <View android:id="@id/dividerDeep" android:background="@color/dividerDark" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="44.0dip" android:layout_marginStart="44.0dip" />
-    <View android:background="@color/dividerLight" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toRightOf="@id/dividerDeep" android:layout_toEndOf="@id/dividerDeep" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/pub_login_button_phone" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-</RelativeLayout>

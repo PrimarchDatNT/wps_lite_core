@@ -773,7 +773,7 @@
 
     move-result v1
 
-    const v2, 0x7f081674
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_image:I
 
     if-eq v1, v2, :cond_2
 
@@ -782,7 +782,7 @@
 
     move-result v1
 
-    const v2, 0x7f08082d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_icon_picturenormal:I
 
     if-eq v1, v2, :cond_2
 

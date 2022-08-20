@@ -10,7 +10,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lpff;)V
     .locals 0
 
-    const p2, 0x7f1302ec
+    sget p2, Lcom/resouce/module/ResSTYLE;->Theme_NoTitleBar_TransparentDialog_Fade_Animation:I
 
     .line 1
     invoke-direct {p0, p1, p2}, Lhd3$g;-><init>(Landroid/content/Context;I)V

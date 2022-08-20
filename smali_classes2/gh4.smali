@@ -79,7 +79,7 @@
 
     invoke-direct {v0, p0}, Lyl3;-><init>(Landroid/app/Activity;)V
 
-    const v1, 0x7f121f77
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cooperation_permission:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -95,7 +95,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121dbb
+    sget v3, Lcom/resouce/module/ResSTRING;->public_can_edit_anybody:I
 
     .line 4
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -104,7 +104,7 @@
 
     invoke-virtual {v1, v3}, Lfm3$b;->p(Ljava/lang/String;)Lfm3$b;
 
-    const v3, 0x7f12240a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_linkshare_write_permission_desc:I
 
     .line 5
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -129,7 +129,7 @@
     .line 7
     invoke-virtual {v1, v5}, Lfm3$b;->m(Z)Lfm3$b;
 
-    const v6, 0x7f0e0b20
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog_choose_item_two_line_layout:I
 
     .line 8
     invoke-virtual {v1, v6}, Lfm3$b;->l(I)Lfm3$b;
@@ -147,7 +147,7 @@
 
     move-result-object v1
 
-    const v7, 0x7f121dbe
+    sget v7, Lcom/resouce/module/ResSTRING;->public_can_read_anybody:I
 
     .line 12
     invoke-virtual {p0, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -156,7 +156,7 @@
 
     invoke-virtual {v1, v7}, Lfm3$b;->p(Ljava/lang/String;)Lfm3$b;
 
-    const v7, 0x7f122409
+    sget v7, Lcom/resouce/module/ResSTRING;->public_linkshare_read_only_desc:I
 
     .line 13
     invoke-virtual {p0, v7}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -188,7 +188,7 @@
     .line 18
     invoke-virtual {v0, v1}, Lyl3;->a(Lfm3;)Lyl3;
 
-    const v1, 0x7f0e0b1f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog_choose_item_one_line_layout:I
 
     if-eqz p2, :cond_0
 
@@ -197,7 +197,7 @@
 
     move-result-object p2
 
-    const v4, 0x7f121f32
+    sget v4, Lcom/resouce/module/ResSTRING;->public_company_member_write:I
 
     .line 20
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -234,7 +234,7 @@
 
     move-result-object p2
 
-    const v3, 0x7f121f30
+    sget v3, Lcom/resouce/module/ResSTRING;->public_company_member_read_only:I
 
     .line 27
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -277,7 +277,7 @@
     .line 34
     iput-boolean v5, p3, Lfm3;->T:Z
 
-    const v3, 0x7f122403
+    sget v3, Lcom/resouce/module/ResSTRING;->public_link_spec_member:I
 
     .line 35
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -286,7 +286,7 @@
 
     iput-object v3, p3, Lfm3;->I:Ljava/lang/String;
 
-    const v3, 0x7f121d06
+    sget v3, Lcom/resouce/module/ResSTRING;->public_add_member_tip:I
 
     .line 36
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -295,7 +295,7 @@
 
     iput-object v3, p3, Lfm3;->S:Ljava/lang/String;
 
-    const v3, 0x7f0605f1
+    sget v3, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 37
     invoke-static {p0, v3}, Lu6;->d(Landroid/content/Context;I)I
@@ -337,7 +337,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f0818b8
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

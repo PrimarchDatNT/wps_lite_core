@@ -47,7 +47,7 @@
 
     if-nez p2, :cond_0
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 p3, 0x0
 

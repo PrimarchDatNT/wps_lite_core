@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/item_view" android:background="@drawable/ss_chart_dialog_item_frame_shape" android:padding="@dimen/phone_ss_chart_style_item_padding" android:layout_width="@dimen/public_insert_chart_layout_item_width_pad" android:layout_height="@dimen/public_insert_chart_layout_item_height_pad" android:scaleType="fitXY" android:layout_centerInParent="true" android:paddingStart="@dimen/phone_ss_chart_style_item_padding" android:paddingEnd="@dimen/phone_ss_chart_style_item_padding" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

@@ -221,7 +221,7 @@
     :cond_4
     iget-object v0, p0, Lvaf;->I:Landroid/content/Context;
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v2, 0x0
 

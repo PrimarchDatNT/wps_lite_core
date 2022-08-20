@@ -148,7 +148,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06023e
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_new_foreground_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -161,7 +161,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06023c
+    sget v2, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_background_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -184,7 +184,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c74
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_home:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -199,7 +199,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c71
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_home:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -210,7 +210,7 @@
     .line 10
     iget-object v0, p0, Lt97;->r0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v1, 0x7f081688
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_upload:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/fileupload/RoundProgressBar;->setImage(I)V
 
@@ -611,7 +611,7 @@
     .line 12
     iget-object v1, p0, Lt97;->l0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f0b2e68
+    sget v2, Lcom/resouce/module/ResID;->tag_checkbox_position:I
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -642,12 +642,12 @@
 
     if-eqz p1, :cond_4
 
-    const p1, 0x7f081fcc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     goto :goto_1
 
     :cond_4
-    const p1, 0x7f081626    # 1.8089E38f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     :goto_1
     invoke-virtual {p2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -744,7 +744,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f070335
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_listview_item_padding_right:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -810,12 +810,12 @@
 
     if-eqz v1, :cond_4
 
-    const v1, 0x7f081fcc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f08122b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     :goto_1
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1146,7 +1146,7 @@
     .line 5
     iget-object v0, p0, Lt97;->i0:Landroid/view/View;
 
-    const v1, 0x7f0b2e69
+    sget v1, Lcom/resouce/module/ResID;->tag_drive_item_id:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -1323,7 +1323,7 @@
     .line 16
     iget-object p1, p0, Lt97;->r0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const p2, 0x7f0b26f1
+    sget p2, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     invoke-virtual {p1, p2, p3}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -1533,7 +1533,7 @@
     .line 1
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b13c7
+    sget v0, Lcom/resouce/module/ResID;->item_image:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1546,7 +1546,7 @@
     .line 2
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b13d2
+    sget v0, Lcom/resouce/module/ResID;->item_name:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1559,7 +1559,7 @@
     .line 3
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0c3f
+    sget v0, Lcom/resouce/module/ResID;->extra_msg_content_layout:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1570,7 +1570,7 @@
     .line 4
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0e7d
+    sget v0, Lcom/resouce/module/ResID;->format_symbol:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1583,7 +1583,7 @@
     .line 5
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0c3e
+    sget v0, Lcom/resouce/module/ResID;->extra_msg:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1596,7 +1596,7 @@
     .line 6
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0c76
+    sget v0, Lcom/resouce/module/ResID;->fb_file_attatch_news_red_point:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1609,7 +1609,7 @@
     .line 7
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b07cd
+    sget v0, Lcom/resouce/module/ResID;->drive_star:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1620,7 +1620,7 @@
     .line 8
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b34ab
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_filelist_item_checkbox:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1633,7 +1633,7 @@
     .line 9
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b13c2
+    sget v0, Lcom/resouce/module/ResID;->item_file_container:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1646,7 +1646,7 @@
     .line 10
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b06cb
+    sget v0, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1657,7 +1657,7 @@
     .line 11
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2b6b
+    sget v0, Lcom/resouce/module/ResID;->share_flag:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1670,7 +1670,7 @@
     .line 12
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b29bd
+    sget v0, Lcom/resouce/module/ResID;->round_progress_bar:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1686,7 +1686,7 @@
     .line 14
     iget-object p2, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b13f5
+    sget v0, Lcom/resouce/module/ResID;->item_upload_pause:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1973,7 +1973,7 @@
     :goto_1
     iget-object v0, p0, Lt97;->d0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2e71
+    sget v1, Lcom/resouce/module/ResID;->tag_icon_key:I
 
     invoke-virtual {p1}, Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;->getId()Ljava/lang/String;
 

@@ -88,7 +88,7 @@
 .method public constructor <init>(Landroid/app/Activity;Landroid/view/ViewGroup;Lrxp;ZLjava/lang/String;ZLfef;Lmo4$h;Ljava/lang/String;Ljava/lang/String;)V
     .locals 2
 
-    const p7, 0x7f13013a
+    sget p7, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 2
     invoke-direct {p0, p1, p7}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -288,7 +288,7 @@
     .line 1
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b263d
+    sget v1, Lcom/resouce/module/ResID;->public_home_link_modify_activity_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 2
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15de
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_read:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -312,7 +312,7 @@
     .line 3
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15dd
+    sget v1, Lcom/resouce/module/ResID;->link_modify_permission_edit:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -323,7 +323,7 @@
     .line 4
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15ca
+    sget v1, Lcom/resouce/module/ResID;->link_modify_add_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 5
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15e2
+    sget v1, Lcom/resouce/module/ResID;->link_modify_send_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
     .line 6
     iget-object v0, p0, Lmo4;->a0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b15d4
+    sget v1, Lcom/resouce/module/ResID;->link_modify_deny:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -396,7 +396,7 @@
     .line 11
     iget-object v0, p0, Lmo4;->c0:Landroid/widget/Button;
 
-    const v1, 0x7f121f91
+    sget v1, Lcom/resouce/module/ResSTRING;->public_create_and_share:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -546,7 +546,7 @@
     .line 1
     iget-object v0, p0, Lmo4;->I:Landroid/app/Activity;
 
-    const v1, 0x7f1225c6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_other_share:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -563,7 +563,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e019a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_public_linkshare_modify_permission_fullscreen_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -773,7 +773,7 @@
     .line 6
     iget-object v0, p0, Lmo4;->Z:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v1, 0x7f1223e7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_modify:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -966,7 +966,7 @@
 
     iget-object v1, p0, Lmo4;->I:Landroid/app/Activity;
 
-    const v4, 0x7f1223f4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_link_permission_modify_deny:I
 
     new-array v2, v2, [Ljava/lang/Object;
 

@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b2339
+    sget v0, Lcom/resouce/module/ResID;->ppt_pad_pic2anim_image_item:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lysd$f;->k0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b233a
+    sget v0, Lcom/resouce/module/ResID;->ppt_pad_pic2anim_image_root:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object v0, p0, Lysd$f;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b2363
+    sget v0, Lcom/resouce/module/ResID;->ppt_pic2anim_apply_loading:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

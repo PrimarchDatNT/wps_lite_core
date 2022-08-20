@@ -1232,7 +1232,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1205c9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage5:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1249,7 +1249,7 @@
 .method public final e(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f120e68
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     const/4 v1, 0x0
 
@@ -1459,7 +1459,7 @@
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f12011c
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1484,7 +1484,7 @@
 
     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v0, 0x7f12011a
+    sget v0, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1497,7 +1497,7 @@
     move-result-object v0
 
     :cond_0
-    const v2, 0x7f12056a
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_notNeed:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1584,7 +1584,7 @@
     goto :goto_0
 
     :pswitch_5
-    const p2, 0x7f120569
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_netError:I
 
     const/4 v0, 0x0
 

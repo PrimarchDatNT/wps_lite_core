@@ -127,7 +127,7 @@
     .line 1
     iget-object p2, p0, Ltpl;->B:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0a01
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_search_highlight_item:I
 
     const/4 v1, 0x0
 

@@ -39,7 +39,7 @@
     .line 1
     invoke-direct {p0, p1}, Lkz9$c;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1396
+    sget v0, Lcom/resouce/module/ResID;->itemLayout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lm1a$c;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b0fe2
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -64,7 +64,7 @@
     .line 4
     invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->w0(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
-    const v0, 0x7f0b0fea
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_star_icon:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Lm1a$c;->m0:Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;
 
-    const v0, 0x7f0b0fe9
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_name:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
 
     iput-object v0, p0, Lm1a$c;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0fe8
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_more_icon:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lm1a$c;->p0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0fe6
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_modify_time:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lm1a$c;->r0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2840
+    sget v0, Lcom/resouce/module/ResID;->record_info_layout:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object v0, p0, Lm1a$c;->q0:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0fe0
+    sget v0, Lcom/resouce/module/ResID;->history_record_item_checkbox:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

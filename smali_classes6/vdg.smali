@@ -176,7 +176,7 @@
 
     iput-object v2, p0, Lvdg;->j:Landroid/widget/ImageView;
 
-    const v2, 0x7f0b14ba
+    sget v2, Lcom/resouce/module/ResID;->iv_save:I
 
     .line 18
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

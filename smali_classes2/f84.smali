@@ -18,7 +18,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0601c6
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_jobtitle_green:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f081256
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_function_card_wr_to_pdf:I
 
     return v0
 .end method
@@ -41,12 +41,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121967
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_new_search_pdf:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122987
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     :goto_0
     return v0

@@ -190,7 +190,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121bcb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_record_finish_text:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -225,7 +225,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c4c
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_talking:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

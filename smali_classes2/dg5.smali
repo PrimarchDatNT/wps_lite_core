@@ -22,7 +22,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f121d47
+    sget v0, Lcom/resouce/module/ResSTRING;->public_appinfo:I
 
     return v0
 .end method
@@ -43,7 +43,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e0f94
+    sget v0, Lcom/resouce/module/ResLAYOUT;->sys_info_fragment:I
 
     return v0
 .end method
@@ -79,7 +79,7 @@
     .line 2
     new-instance v1, Lhg5;
 
-    const v2, 0x7f121d46
+    sget v2, Lcom/resouce/module/ResSTRING;->public_appdata:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -92,7 +92,7 @@
     .line 3
     new-instance v1, Lgg5;
 
-    const v2, 0x7f1225d2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_package_name:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -107,7 +107,7 @@
     .line 4
     new-instance v1, Lgg5;
 
-    const v2, 0x7f1225d4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_package_version_name:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
     .line 5
     new-instance v1, Lgg5;
 
-    const v2, 0x7f1225d3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_package_version_code:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -141,7 +141,7 @@
     .line 6
     new-instance v1, Lgg5;
 
-    const v2, 0x7f12218b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_firstInstallTime:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
     .line 7
     new-instance v1, Lgg5;
 
-    const v2, 0x7f1223d2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_lastUpdateTime:I
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -179,7 +179,7 @@
     .line 8
     new-instance v0, Lgg5;
 
-    const v1, 0x7f121fca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_deviceId_md5:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
     .line 10
     new-instance v0, Lgg5;
 
-    const v1, 0x7f1224c9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_min_version_code:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -237,7 +237,7 @@
     :cond_0
     new-instance v0, Lgg5;
 
-    const v1, 0x7f122a66
+    sget v1, Lcom/resouce/module/ResSTRING;->public_targe_version_code:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -275,7 +275,7 @@
     .line 17
     new-instance v2, Lgg5;
 
-    const v3, 0x7f12261a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_permission_check:I
 
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -322,7 +322,7 @@
     .line 1
     new-instance v0, Lhg5;
 
-    const v1, 0x7f121fcc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_device_info:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -335,7 +335,7 @@
     .line 2
     new-instance v0, Lgg5;
 
-    const v1, 0x7f121fcd
+    sget v1, Lcom/resouce/module/ResSTRING;->public_device_model:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
     .line 3
     new-instance v0, Lgg5;
 
-    const v1, 0x7f121fd0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_device_version:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -378,7 +378,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f122a68
+    sget v3, Lcom/resouce/module/ResSTRING;->public_task_center_item_come_from_android:I
 
     .line 4
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -415,7 +415,7 @@
     .line 6
     new-instance v0, Lgg5;
 
-    const v1, 0x7f121fcb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_device_abi:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -432,7 +432,7 @@
     .line 7
     new-instance v0, Lgg5;
 
-    const v1, 0x7f12036f
+    sget v1, Lcom/resouce/module/ResSTRING;->dev_sysinfo_ext_storage_free:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -453,7 +453,7 @@
     .line 8
     new-instance v0, Lgg5;
 
-    const v1, 0x7f120370
+    sget v1, Lcom/resouce/module/ResSTRING;->dev_sysinfo_rom_free:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -474,7 +474,7 @@
     .line 9
     new-instance v0, Lgg5;
 
-    const v1, 0x7f122a43
+    sget v1, Lcom/resouce/module/ResSTRING;->public_sys_prop:I
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -516,7 +516,7 @@
     .line 15
     new-instance v1, Lgg5;
 
-    const v3, 0x7f122a40
+    sget v3, Lcom/resouce/module/ResSTRING;->public_sys_build:I
 
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -658,7 +658,7 @@
 .method public final m2()V
     .locals 3
 
-    const v0, 0x7f0b12f5
+    sget v0, Lcom/resouce/module/ResID;->info_list:I
 
     .line 1
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;

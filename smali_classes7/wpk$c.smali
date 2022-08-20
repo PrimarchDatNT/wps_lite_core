@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dad
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bookmark_insert_success:I
 
     const/4 v2, 0x0
 

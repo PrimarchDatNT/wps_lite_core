@@ -44,7 +44,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f121fd4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_dir_check:I
 
     return v0
 .end method

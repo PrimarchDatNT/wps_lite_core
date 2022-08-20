@@ -51,7 +51,7 @@
     .line 8
     iget-object p1, p0, Lzel;->h0:Lafl;
 
-    const p2, 0x7f0b1f9e
+    sget p2, Lcom/resouce/module/ResID;->phone_back_imgbtn:I
 
     invoke-virtual {p1, p2}, Lby3;->d(I)Landroid/view/View;
 
@@ -59,7 +59,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p2, 0x7f080240
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
 

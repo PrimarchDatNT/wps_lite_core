@@ -81,7 +81,7 @@
 
     if-eqz v3, :cond_1
 
-    const v1, 0x7f120599
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_erase_converting_file_record:I
 
     :goto_0
     const/4 v0, 0x1
@@ -108,7 +108,7 @@
 
     if-ne p2, v3, :cond_2
 
-    const v1, 0x7f12059a
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_erase_modified_file_record:I
 
     goto :goto_0
 

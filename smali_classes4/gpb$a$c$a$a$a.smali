@@ -65,7 +65,7 @@
 
     iget-object v0, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v1, 0x7f123447
+    sget v1, Lcom/resouce/module/ResSTRING;->wx_public_account:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -135,7 +135,7 @@
 
     iget-object v0, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v1, 0x7f120339
+    sget v1, Lcom/resouce/module/ResSTRING;->copy_wx_public_account:I
 
     const/4 v2, 0x0
 

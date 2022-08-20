@@ -48,7 +48,7 @@
     .line 1
     iget-object v0, p0, Luk7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b03f3
+    sget v1, Lcom/resouce/module/ResID;->choose_folder_type_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -63,7 +63,7 @@
 
     iget-object v2, p0, Luk7;->c:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0caf
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_layout_wpsdrive_select_folder_type:I
 
     const/4 v4, 0x0
 
@@ -77,7 +77,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122c1a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wps_drive_personal_folder:I
 
     .line 5
     invoke-direct {v1, v0, v2, v4, v5}, Lok7;-><init>(Landroid/view/View;IILjava/lang/Object;)V
@@ -101,9 +101,9 @@
 
     move-result-object v7
 
-    const v8, 0x7f121153
+    sget v8, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
-    const v9, 0x7f12296f
+    sget v9, Lcom/resouce/module/ResSTRING;->public_share_folder_description_v2:I
 
     invoke-direct {v0, v2, v8, v9, v7}, Lok7;-><init>(Landroid/view/View;IILjava/lang/Object;)V
 
@@ -125,13 +125,13 @@
 
     move-result-object v7
 
-    const v8, 0x7f1229b3
+    sget v8, Lcom/resouce/module/ResSTRING;->public_sharefolder_template_wechat_folder:I
 
-    const v9, 0x7f1229ba
+    sget v9, Lcom/resouce/module/ResSTRING;->public_sharefolder_wechat_folder_shareback_guide_tips_v2:I
 
     invoke-direct {v2, v3, v8, v9, v7}, Lok7;-><init>(Landroid/view/View;IILjava/lang/Object;)V
 
-    const v3, 0x7f081e7b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->tag_sharefolder:I
 
     .line 11
     invoke-virtual {v0, v3}, Lok7;->h(I)V
@@ -139,7 +139,7 @@
     .line 12
     invoke-virtual {v0, v6}, Lok7;->d(Z)V
 
-    const v3, 0x7f0803e5
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_share_wechat_color:I
 
     .line 13
     invoke-virtual {v2, v3}, Lok7;->h(I)V
@@ -152,9 +152,9 @@
 
     iget-object v4, p0, Luk7;->b:Landroid/view/ViewGroup;
 
-    const v6, 0x7f081605
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_comp_radio_checked:I
 
-    const v7, 0x7f0815fd
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checkbox_default:I
 
     invoke-direct {v3, v4, v6, v7}, Lpk7;-><init>(Landroid/view/ViewGroup;II)V
 

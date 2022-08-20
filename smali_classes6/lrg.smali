@@ -198,7 +198,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_style_center_image_color_circle_view:I
 
     const/4 v1, 0x0
 
@@ -238,7 +238,7 @@
     .line 7
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setEnableOutSideCircle(Z)V
 
-    const p1, 0x7f081604
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     .line 8
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/V10CircleColorView;->setCenterImageResource(I)V
@@ -254,7 +254,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_style_center_image_color_circle_view:I
 
     const/4 v1, 0x0
 
@@ -315,7 +315,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e1019
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_color_filter_imageview:I
 
     const/4 v1, 0x0
 
@@ -325,7 +325,7 @@
 
     check-cast p0, Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2ce8
+    sget v0, Lcom/resouce/module/ResID;->ss_colorfilterImageView_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e101a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_color_filter_textview:I
 
     const/4 v1, 0x0
 
@@ -386,7 +386,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_style_select_change_imageview:I
 
     const/4 v1, 0x0
 
@@ -423,7 +423,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_style_select_change_imageview:I
 
     const/4 v1, 0x0
 
@@ -453,7 +453,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_style_select_change_imageview:I
 
     const/4 v1, 0x0
 
@@ -486,7 +486,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e102c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_text_fomat_change_item:I
 
     const/4 v1, 0x0
 
@@ -616,7 +616,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0259
+    sget p3, Lcom/resouce/module/ResLAYOUT;->et_toolbar_group:I
 
     const/4 v0, 0x0
 
@@ -683,7 +683,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0259
+    sget p3, Lcom/resouce/module/ResLAYOUT;->et_toolbar_group:I
 
     const/4 p4, 0x0
 
@@ -734,7 +734,7 @@
     return-object p0
 
     :cond_0
-    const v1, 0x7f0e0f5c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_fill_color_layout:I
 
     const/4 v2, 0x0
 
@@ -743,7 +743,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2cf4
+    sget v1, Lcom/resouce/module/ResID;->ss_fill_color_item_img:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -764,7 +764,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -847,7 +847,7 @@
 
     if-eqz v2, :cond_1
 
-    const p0, 0x7f0e09a2
+    sget p0, Lcom/resouce/module/ResLAYOUT;->phone_ss_textimage_view:I
 
     .line 3
     invoke-virtual {v0, p0, v1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -859,7 +859,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0f8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_toolbar_item:I
 
     .line 4
     invoke-virtual {v0, v1, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -924,7 +924,7 @@
 
     if-eqz v2, :cond_1
 
-    const p0, 0x7f0e09a2
+    sget p0, Lcom/resouce/module/ResLAYOUT;->phone_ss_textimage_view:I
 
     .line 3
     invoke-virtual {v0, p0, v1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -936,7 +936,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e0f8b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_toolbar_item:I
 
     .line 4
     invoke-virtual {v0, v1, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1030,17 +1030,17 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f0b07d3
+    sget v2, Lcom/resouce/module/ResID;->dropdown_imageview_text:I
 
     const/4 v3, -0x1
 
-    const v4, 0x7f0b07d2
+    sget v4, Lcom/resouce/module/ResID;->dropdown_imageview_image:I
 
     const/4 v5, 0x0
 
@@ -1048,7 +1048,7 @@
 
     if-eq p2, v3, :cond_2
 
-    const p3, 0x7f0e05ef
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_text_view:I
 
     .line 3
     invoke-virtual {v0, p3, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1084,7 +1084,7 @@
     goto :goto_0
 
     :cond_2
-    const p2, 0x7f0e05f0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_view:I
 
     .line 9
     invoke-virtual {v0, p2, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1111,7 +1111,7 @@
     :cond_3
     if-ne p2, v3, :cond_4
 
-    const p2, 0x7f0e05ed
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_dropdown_view:I
 
     .line 13
     invoke-virtual {v0, p2, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1136,7 +1136,7 @@
     goto :goto_0
 
     :cond_4
-    const p3, 0x7f0e05ee
+    sget p3, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_text_dropdown_view:I
 
     .line 17
     invoke-virtual {v0, p3, p0, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

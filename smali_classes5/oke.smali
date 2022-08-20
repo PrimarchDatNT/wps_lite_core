@@ -249,7 +249,7 @@
     .line 1
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1683
+    sget v1, Lcom/resouce/module/ResID;->ll_horizontal_align:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 2
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0da5
+    sget v1, Lcom/resouce/module/ResID;->fl_align_left:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 3
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0da4
+    sget v1, Lcom/resouce/module/ResID;->fl_align_center:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 4
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0da6
+    sget v1, Lcom/resouce/module/ResID;->fl_align_right:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
     .line 5
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b15ba
+    sget v1, Lcom/resouce/module/ResID;->line_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 6
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b15bb
+    sget v1, Lcom/resouce/module/ResID;->line_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 7
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b15bc
+    sget v1, Lcom/resouce/module/ResID;->line_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -332,7 +332,7 @@
     .line 8
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1645
+    sget v1, Lcom/resouce/module/ResID;->ll_bullet:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -343,7 +343,7 @@
     .line 9
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0daa
+    sget v1, Lcom/resouce/module/ResID;->fl_bullet_dot:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -356,7 +356,7 @@
     .line 10
     iget-object v0, p0, Loke;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b0dab
+    sget v1, Lcom/resouce/module/ResID;->fl_bullet_num:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -586,12 +586,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f060009
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0602db
+    sget p2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     .line 4
     :goto_0
@@ -785,7 +785,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f122abb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_textBox:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -806,7 +806,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08f6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_textbox_style_panel:I
 
     const/4 v2, 0x0
 
@@ -814,7 +814,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29c4
+    sget v1, Lcom/resouce/module/ResID;->rv_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -839,7 +839,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e08f5
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_textbox_style_header:I
 
     invoke-virtual {v1, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1383,7 +1383,7 @@
 
     iget-object v1, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v2, 0x7f1230ba
+    sget v2, Lcom/resouce/module/ResSTRING;->text_box_font_list_api:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

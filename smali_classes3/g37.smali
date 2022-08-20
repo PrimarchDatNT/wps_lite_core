@@ -65,7 +65,7 @@
 .method public O3()I
     .locals 1
 
-    const v0, 0x7f0e0d18
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_new_docinfo_panel_layout:I
 
     return v0
 .end method

@@ -100,7 +100,7 @@
     .line 1
     iget-object p2, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView$h;->T:Landroid/content/Context;
 
-    const p3, 0x7f0e0d5a
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_history_item:I
 
     invoke-static {p2, p3, p1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     :cond_0
     iget-object p2, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionHistoryView$h;->T:Landroid/content/Context;
 
-    const p3, 0x7f0e0d59
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_history_footer:I
 
     invoke-static {p2, p3, p1}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -209,7 +209,7 @@
 
     if-ne v4, v3, :cond_0
 
-    const v2, 0x7f0b1c9a
+    sget v2, Lcom/resouce/module/ResID;->paper_composition_call_qq:I
 
     .line 1
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v4, 0x7f0b1ca9
+    sget v4, Lcom/resouce/module/ResID;->paper_no_pay_img_tips:I
 
     .line 3
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     check-cast v4, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b1cb7
+    sget v5, Lcom/resouce/module/ResID;->paper_right_tips:I
 
     .line 4
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,7 +249,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b1cb9
+    sget v6, Lcom/resouce/module/ResID;->paper_title:I
 
     .line 5
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b1cb8
+    sget v7, Lcom/resouce/module/ResID;->paper_status:I
 
     .line 6
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b1caa
+    sget v8, Lcom/resouce/module/ResID;->paper_pages:I
 
     .line 7
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0b1cb6
+    sget v9, Lcom/resouce/module/ResID;->paper_price:I
 
     .line 8
     invoke-virtual {v1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,21 +285,21 @@
 
     check-cast v9, Landroid/widget/TextView;
 
-    const v10, 0x7f0b1c9e
+    sget v10, Lcom/resouce/module/ResID;->paper_composition_status_detail:I
 
     .line 9
     invoke-virtual {v1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v11, 0x7f0b1cac
+    sget v11, Lcom/resouce/module/ResID;->paper_pay_time_layout:I
 
     .line 10
     invoke-virtual {v1, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
-    const v12, 0x7f0b1cab
+    sget v12, Lcom/resouce/module/ResID;->paper_pay_time:I
 
     .line 11
     invoke-virtual {v1, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
 
     check-cast v12, Landroid/widget/TextView;
 
-    const v13, 0x7f0b0259
+    sget v13, Lcom/resouce/module/ResID;->bottom_driver:I
 
     .line 12
     invoke-virtual {v1, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -335,7 +335,7 @@
     :goto_0
     invoke-virtual {v6, v14}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v6, 0x7f1200d1
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_all_pages:I
 
     new-array v14, v3, [Ljava/lang/Object;
 
@@ -363,7 +363,7 @@
 
     if-eq v6, v14, :cond_8
 
-    const v14, 0x7f0600ea
+    sget v14, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     if-eqz v6, :cond_7
 
@@ -377,7 +377,7 @@
 
     const/4 v15, 0x3
 
-    const v3, 0x7f1200da
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_success:I
 
     if-eq v6, v15, :cond_6
 
@@ -420,7 +420,7 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f1200c5
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_docer_buy_tips:I
 
     .line 21
     invoke-virtual {v5, v3}, Landroid/widget/TextView;->setText(I)V
@@ -428,7 +428,7 @@
     goto :goto_1
 
     :cond_4
-    const v3, 0x7f1200d7
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_orderid:I
 
     const/4 v7, 0x1
 
@@ -463,7 +463,7 @@
     .line 25
     invoke-virtual {v9, v6}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v3, 0x7f1200d8
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_price:I
 
     const/4 v4, 0x1
 
@@ -551,7 +551,7 @@
 
     move-result-wide v2
 
-    const v7, 0x7f1200d6
+    sget v7, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_nopay_time:I
 
     const/4 v10, 0x1
 
@@ -590,7 +590,7 @@
     goto :goto_3
 
     :cond_7
-    const v2, 0x7f1200db
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_upload:I
 
     .line 43
     invoke-virtual {v7, v2}, Landroid/widget/TextView;->setText(I)V
@@ -619,7 +619,7 @@
     .line 47
     invoke-virtual {v4, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v1, 0x7f1200d5
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_nopay:I
 
     .line 48
     invoke-virtual {v13, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -640,11 +640,11 @@
     goto :goto_3
 
     :cond_8
-    const v1, 0x7f1200d5
+    sget v1, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_nopay:I
 
     const/16 v2, 0x8
 
-    const v3, 0x7f1200d9
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_failed:I
 
     .line 52
     invoke-virtual {v7, v3}, Landroid/widget/TextView;->setText(I)V

@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f65
+    sget v1, Lcom/resouce/module/ResSTRING;->smart_form:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -298,12 +298,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0d10
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_create_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d11
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_create_item_layout_en:I
 
     :goto_0
     const/4 v2, 0x0
@@ -411,7 +411,7 @@
     .line 14
     iget-object v0, p0, Lvh3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1651
+    sget v1, Lcom/resouce/module/ResID;->ll_create_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -424,7 +424,7 @@
     .line 15
     iget-object v0, p0, Lvh3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2939
+    sget v1, Lcom/resouce/module/ResID;->rl_bottom_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -444,7 +444,7 @@
     .line 17
     iget-object v0, p0, Lvh3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b338d
+    sget v1, Lcom/resouce/module/ResID;->view_banner_create_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -455,7 +455,7 @@
     .line 18
     iget-object v0, p0, Lvh3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0db4
+    sget v1, Lcom/resouce/module/ResID;->fl_control_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -585,7 +585,7 @@
 
     if-eqz p1, :cond_2
 
-    const v0, 0x7f0b16a9
+    sget v0, Lcom/resouce/module/ResID;->ll_new_file_bottom_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -619,7 +619,7 @@
     .line 6
     iget-object p1, p0, Lvh3;->B:Landroid/view/View;
 
-    const v2, 0x7f0b16f9
+    sget v2, Lcom/resouce/module/ResID;->ll_template:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -630,7 +630,7 @@
     .line 7
     iget-object p1, p0, Lvh3;->B:Landroid/view/View;
 
-    const v2, 0x7f0b167b
+    sget v2, Lcom/resouce/module/ResID;->ll_h5_module:I
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -675,7 +675,7 @@
     :goto_0
     iget-object p1, p0, Lvh3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1704
+    sget v0, Lcom/resouce/module/ResID;->ll_upload_file:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -686,7 +686,7 @@
     .line 13
     iget-object p1, p0, Lvh3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b16c2
+    sget v0, Lcom/resouce/module/ResID;->ll_pic_convert:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -697,7 +697,7 @@
     .line 14
     iget-object p1, p0, Lvh3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1662
+    sget v0, Lcom/resouce/module/ResID;->ll_fill_sign:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -968,7 +968,7 @@
     .line 5
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0b16f9
+    sget v1, Lcom/resouce/module/ResID;->ll_template:I
 
     if-ne p1, v1, :cond_0
 
@@ -991,7 +991,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0b1704
+    sget v1, Lcom/resouce/module/ResID;->ll_upload_file:I
 
     const-string v2, "value"
 
@@ -1074,7 +1074,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b16c2
+    sget v1, Lcom/resouce/module/ResID;->ll_pic_convert:I
 
     if-ne p1, v1, :cond_4
 
@@ -1100,7 +1100,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b167b
+    sget v0, Lcom/resouce/module/ResID;->ll_h5_module:I
 
     if-ne p1, v0, :cond_5
 
@@ -1117,7 +1117,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b1662
+    sget v0, Lcom/resouce/module/ResID;->ll_fill_sign:I
 
     if-ne p1, v0, :cond_6
 
@@ -1273,7 +1273,7 @@
 
     iget-object v1, p0, Lvh3;->Z:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v1, v2, v0}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 
@@ -1363,12 +1363,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0b1651
+    sget v2, Lcom/resouce/module/ResID;->ll_create_view:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f0b16cf
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_corner_fill:I
 
     :goto_1
     invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -1606,7 +1606,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0b16cf
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_corner_fill:I
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -1742,7 +1742,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0e0ef0
+    sget v6, Lcom/resouce/module/ResLAYOUT;->rfab__new_content_label_list_item:I
 
     const/4 v7, 0x0
 
@@ -1750,7 +1750,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b290d
+    sget v6, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 9
     invoke-static {v5, v6}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -1759,7 +1759,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b290c
+    sget v7, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 10
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1782,7 +1782,7 @@
     goto/16 :goto_4
 
     :cond_1
-    const v9, 0x7f0b2867
+    sget v9, Lcom/resouce/module/ResID;->red_dot_layout:I
 
     .line 12
     invoke-virtual {v5, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1818,7 +1818,7 @@
 
     move-result-object v3
 
-    const v9, 0x7f0819c8
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder_round:I
 
     invoke-virtual {v3, v9, v1}, Lf54;->j(IZ)Lf54;
 

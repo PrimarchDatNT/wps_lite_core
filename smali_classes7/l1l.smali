@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120ca5
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_convert:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

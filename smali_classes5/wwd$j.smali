@@ -52,7 +52,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f121b9a
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_photo_background:I
 
     const/4 v4, 0x0
 

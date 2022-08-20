@@ -174,7 +174,7 @@
     :goto_1
     iget-object p1, p0, Lc8d;->V:Landroid/app/Activity;
 
-    const v0, 0x7f121358
+    sget v0, Lcom/resouce/module/ResSTRING;->load_data_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -466,7 +466,7 @@
     :goto_0
     iget-object p1, p0, Lc8d;->V:Landroid/app/Activity;
 
-    const v0, 0x7f122f1b
+    sget v0, Lcom/resouce/module/ResSTRING;->share_photo_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -561,7 +561,7 @@
     :goto_1
     iget-object p1, p0, Lc8d;->V:Landroid/app/Activity;
 
-    const v0, 0x7f121358
+    sget v0, Lcom/resouce/module/ResSTRING;->load_data_fail:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -711,7 +711,7 @@
 
     const-string v2, "default_need_download_path"
 
-    const v3, 0x7f060046
+    sget v3, Lcom/resouce/module/ResCOLOR;->bottom_bar_start_color:I
 
     const-string v4, "PhotoViewerUtil"
 

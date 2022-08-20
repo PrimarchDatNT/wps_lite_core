@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060002
+    sget p2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
@@ -113,7 +113,7 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p2, 0x7f060009
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
@@ -126,7 +126,7 @@
 
     invoke-virtual {p0, p2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p2, 0x7f06000c
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     .line 13
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I

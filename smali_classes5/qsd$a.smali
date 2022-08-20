@@ -102,7 +102,7 @@
 
     invoke-static {p1}, Lqsd;->b(Lqsd;)V
 
-    const p1, 0x7f1215b3
+    sget p1, Lcom/resouce/module/ResSTRING;->pad_ppt_image_ai_corp_toast:I
 
     .line 3
     invoke-static {p1, v0}, Ljld;->e(II)V

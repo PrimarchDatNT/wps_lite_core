@@ -145,7 +145,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120e79
+    sget v1, Lcom/resouce/module/ResSTRING;->home_app_more_recent_clear_desc:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -172,7 +172,7 @@
 
     invoke-direct {v1, p0, p1}, Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity$b;-><init>(Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity;Landroid/app/Activity;)V
 
-    const v2, 0x7f120c69
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_clear:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -181,7 +181,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity$c;-><init>(Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -260,7 +260,7 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity$a;-><init>(Lcn/wps/moffice/main/local/home/phone/header/entop/RecentlyUseActivity;)V
 
-    const v1, 0x7f120f23
+    sget v1, Lcom/resouce/module/ResSTRING;->home_history_record_clear:I
 
     invoke-virtual {p1, v1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 

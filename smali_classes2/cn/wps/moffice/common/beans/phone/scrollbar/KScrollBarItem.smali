@@ -98,12 +98,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f07056f
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_home_title_larger_size:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f07063e
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_documentmanager_homepage_listview_item_text_default_size:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -233,12 +233,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f07056f
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_home_title_larger_size:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f07063e
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_documentmanager_homepage_listview_item_text_default_size:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -352,12 +352,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0603df
+    sget v0, Lcom/resouce/module/ResCOLOR;->pad_home_titlebar_text_color:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0600ea
+    sget v0, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     :goto_0
     iput v0, p0, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBarItem;->V:I

@@ -539,7 +539,7 @@
     .line 2
     iget-object v0, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213c1
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_pdf_converter_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -559,7 +559,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0499
+    sget v2, Lcom/resouce/module/ResLAYOUT;->mi_converterpdf:I
 
     const/4 v3, 0x0
 
@@ -569,7 +569,7 @@
 
     iput-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b057a
+    sget v1, Lcom/resouce/module/ResID;->converter_pdf_content:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -581,7 +581,7 @@
     .line 6
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b1a4d
+    sget v1, Lcom/resouce/module/ResID;->normal_converter:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -597,7 +597,7 @@
     .line 8
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b33f0
+    sget v1, Lcom/resouce/module/ResID;->water_converter:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +613,7 @@
     .line 10
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b33f1
+    sget v1, Lcom/resouce/module/ResID;->water_converter_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -624,7 +624,7 @@
     .line 11
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b0579
+    sget v1, Lcom/resouce/module/ResID;->converter_cancel_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -661,7 +661,7 @@
     .line 16
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b346d
+    sget v1, Lcom/resouce/module/ResID;->wordcounts_progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -672,7 +672,7 @@
     .line 17
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b057e
+    sget v1, Lcom/resouce/module/ResID;->converter_success_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -683,7 +683,7 @@
     .line 18
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b057c
+    sget v1, Lcom/resouce/module/ResID;->converter_success:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -699,7 +699,7 @@
     .line 20
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b0580
+    sget v1, Lcom/resouce/module/ResID;->converter_success_open_tip_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -715,7 +715,7 @@
     .line 22
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b057d
+    sget v1, Lcom/resouce/module/ResID;->converter_success_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
     .line 24
     iget-object v0, p0, Llj4;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b057f
+    sget v1, Lcom/resouce/module/ResID;->converter_success_open:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -829,7 +829,7 @@
 
     iget-object v2, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v3, 0x7f1213be
+    sget v3, Lcom/resouce/module/ResSTRING;->mi_pdf_converter_success:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -921,7 +921,7 @@
     .line 2
     iget-object v0, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213c0
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_pdf_converter_success_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -966,7 +966,7 @@
     .line 1
     iget-object v0, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213c1
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_pdf_converter_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1015,7 +1015,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1a4d
+    sget v0, Lcom/resouce/module/ResID;->normal_converter:I
 
     if-ne p1, v0, :cond_1
 
@@ -1039,7 +1039,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b33f1
+    sget v0, Lcom/resouce/module/ResID;->water_converter_content:I
 
     if-ne p1, v0, :cond_3
 
@@ -1058,7 +1058,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b057c
+    sget v0, Lcom/resouce/module/ResID;->converter_success:I
 
     if-ne p1, v0, :cond_4
 
@@ -1068,7 +1068,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0579
+    sget v0, Lcom/resouce/module/ResID;->converter_cancel_btn:I
 
     if-ne p1, v0, :cond_5
 
@@ -1078,7 +1078,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b057d
+    sget v0, Lcom/resouce/module/ResID;->converter_success_cancel:I
 
     if-ne p1, v0, :cond_6
 
@@ -1088,7 +1088,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b057f
+    sget v0, Lcom/resouce/module/ResID;->converter_success_open:I
 
     if-ne p1, v0, :cond_8
 
@@ -1301,7 +1301,7 @@
     :cond_0
     iget-object v0, p0, Lkj4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213c3
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_pdf_convertering_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

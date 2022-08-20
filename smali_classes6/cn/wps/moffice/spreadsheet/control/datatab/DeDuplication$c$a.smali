@@ -149,7 +149,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f120c7b
+    sget v7, Lcom/resouce/module/ResSTRING;->et_toolbar_mul_deduplication_deleted:I
 
     const/4 v8, 0x1
 

@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/content/Context;Lfzg;)V
     .locals 1
 
-    const v0, 0x7f1221b4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lb0h;-><init>(Landroid/content/Context;ILfzg;)V

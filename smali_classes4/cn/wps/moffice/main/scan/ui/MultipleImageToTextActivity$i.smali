@@ -95,7 +95,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$i;->a:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v0, 0x7f12044c
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_net_erro_tip:I
 
     const/4 v1, 0x1
 

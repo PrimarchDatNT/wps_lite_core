@@ -138,7 +138,7 @@
 
     move-result-object p2
 
-    const p4, 0x7f12197d
+    sget p4, Lcom/resouce/module/ResSTRING;->phone_public_complex_format_frame_color_no_fill:I
 
     invoke-virtual {p2, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

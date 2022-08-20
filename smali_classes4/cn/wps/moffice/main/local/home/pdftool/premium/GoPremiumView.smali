@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02b4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->go_to_premium_layout:I
 
     const/4 v2, 0x0
 
@@ -93,7 +93,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/pdftool/premium/GoPremiumView;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0f21
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium_bt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b0f21
+    sget v1, Lcom/resouce/module/ResID;->go_to_premium_bt:I
 
     if-ne p1, v1, :cond_3
 

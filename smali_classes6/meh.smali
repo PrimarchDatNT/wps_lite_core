@@ -135,7 +135,7 @@
     return-void
 
     :cond_3
-    const p1, 0x7f121d78
+    sget p1, Lcom/resouce/module/ResSTRING;->public_background_running_tips:I
 
     .line 6
     invoke-static {p0, p1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;

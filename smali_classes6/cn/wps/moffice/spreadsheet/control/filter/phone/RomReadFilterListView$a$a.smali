@@ -45,9 +45,9 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;->i0:Landroid/widget/EditText;
 
-    const v1, 0x7f081d74
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->romread_checkbox_on:I
 
-    const v2, 0x7f081d73
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->romread_checkbox_off:I
 
     if-eqz v0, :cond_1
 
@@ -164,7 +164,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView$a;->B:Lcn/wps/moffice/spreadsheet/control/filter/phone/RomReadFilterListView;
 
-    const v2, 0x7f0b2ae5
+    sget v2, Lcom/resouce/module/ResID;->select_all_filter_items:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -200,7 +200,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1228d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -231,12 +231,12 @@
 
     if-eqz v3, :cond_5
 
-    const v3, 0x7f122d5f
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     goto :goto_1
 
     :cond_5
-    const v3, 0x7f122d60
+    sget v3, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     :goto_1
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

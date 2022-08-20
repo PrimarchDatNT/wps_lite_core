@@ -84,13 +84,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0444
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_copy_and_move_recent_user_folders:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b13c7
+    sget v1, Lcom/resouce/module/ResID;->item_image:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,14 +99,14 @@
 
     check-cast v2, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v3, 0x7f0b138a
+    sget v3, Lcom/resouce/module/ResID;->item:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b13d2
+    sget v4, Lcom/resouce/module/ResID;->item_name:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -115,12 +115,12 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f081696
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_list_folder_cloud:I
 
     .line 5
     invoke-virtual {v2, v6}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v2, 0x7f120616
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_myspace:I
 
     .line 6
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(I)V
@@ -136,7 +136,7 @@
 
     invoke-virtual {v3, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b2820
+    sget v2, Lcom/resouce/module/ResID;->recentFolderContainer:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f0e0458
+    sget v9, Lcom/resouce/module/ResLAYOUT;->layout_item_recent_folder:I
 
     invoke-virtual {v8, v9, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

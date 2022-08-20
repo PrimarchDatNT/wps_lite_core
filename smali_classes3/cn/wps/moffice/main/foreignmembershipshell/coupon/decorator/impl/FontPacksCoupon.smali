@@ -21,7 +21,7 @@
     .line 1
     iget-object p1, p1, Lgj2;->T:Ljava/lang/String;
 
-    const p1, 0x7f081921
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_font_packs_icon:I
 
     .line 2
     iput p1, p2, Lul8$b;->f:I

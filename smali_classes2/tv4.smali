@@ -298,7 +298,7 @@
     return-void
 
     :cond_4
-    const v1, 0x7f12271c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_unsupported:I
 
     .line 7
     invoke-virtual {v2, v1}, Luv4;->k(I)V

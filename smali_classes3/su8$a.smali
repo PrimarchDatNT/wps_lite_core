@@ -45,7 +45,7 @@
     .line 3
     iput-object p2, p0, Lsu8$a;->p0:Landroid/view/View;
 
-    const v0, 0x7f0b2c2b
+    sget v0, Lcom/resouce/module/ResID;->size_text_view:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object v0, p0, Lsu8$a;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1992
+    sget v0, Lcom/resouce/module/ResID;->name_text_view:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lsu8$a;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1232
+    sget v0, Lcom/resouce/module/ResID;->icon_image_view:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lsu8$a;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b139d
+    sget v0, Lcom/resouce/module/ResID;->item_check_box_view:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object v0, p0, Lsu8$a;->n0:Lcn/wps/moffice/main/local/clearlocalfiles/widget/CheckBoxImageView;
 
-    const v0, 0x7f0b0f39
+    sget v0, Lcom/resouce/module/ResID;->gray_divide_bottom_line:I
 
     .line 8
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f0b0ccf
+    sget v0, Lcom/resouce/module/ResID;->file_from_text_view:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

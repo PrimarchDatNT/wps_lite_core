@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1232f7
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_hyperlink_document_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -417,7 +417,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12233a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

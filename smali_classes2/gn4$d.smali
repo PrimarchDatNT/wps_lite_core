@@ -169,7 +169,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1221b9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_pay_ssusscess_tip:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -192,7 +192,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12275b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_purchase_version_attention:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

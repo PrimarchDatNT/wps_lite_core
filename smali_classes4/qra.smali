@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e02f0
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_common_bottom_tips_dialog:I
 
     const/4 v4, 0x0
 
@@ -177,7 +177,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2fcd
+    sget v3, Lcom/resouce/module/ResID;->title:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b031a
+    sget v4, Lcom/resouce/module/ResID;->button:I
 
     .line 9
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     invoke-virtual {v0, v3, v9, v10}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
 
-    const v0, 0x7f0b2fb8
+    sget v0, Lcom/resouce/module/ResID;->tips_content:I
 
     .line 19
     invoke-virtual {v2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

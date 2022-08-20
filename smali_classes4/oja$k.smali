@@ -49,7 +49,7 @@
 
     iget-object v0, v0, Loja;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f12299a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_success:I
 
     const/4 v2, 0x0
 

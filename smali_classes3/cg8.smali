@@ -29,7 +29,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f150002
+    sget v0, Lcom/resouce/module/ResXML;->country_region:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 

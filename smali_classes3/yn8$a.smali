@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
-    const v0, 0x7f081ae1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_0:I
 
     .line 2
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -38,7 +38,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_1:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -46,7 +46,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_2:I
 
     .line 3
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -55,7 +55,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_3:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -63,7 +63,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_4:I
 
     .line 4
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -72,7 +72,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_5:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -80,7 +80,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_6:I
 
     .line 5
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -89,7 +89,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae8
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_7:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -97,7 +97,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081ae9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_8:I
 
     .line 6
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -106,7 +106,7 @@
 
     invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v0, 0x7f081aea
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_phone_tapjoy_credit_9:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

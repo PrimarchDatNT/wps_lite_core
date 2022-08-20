@@ -521,7 +521,7 @@
     .line 1
     iget-object v0, p0, Lpqf;->l0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f081319
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
 

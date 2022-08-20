@@ -93,7 +93,7 @@
 .method public B2()I
     .locals 1
 
-    const v0, 0x7f121459
+    sget v0, Lcom/resouce/module/ResSTRING;->name_all_categories:I
 
     return v0
 .end method
@@ -108,7 +108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ac7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->my_template:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -191,7 +191,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2815
+    sget v2, Lcom/resouce/module/ResID;->real_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2815
+    sget v2, Lcom/resouce/module/ResID;->real_content:I
 
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -316,7 +316,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2815
+    sget v3, Lcom/resouce/module/ResID;->real_content:I
 
     .line 12
     iget-object v4, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateListActivity;->S:Ljava/lang/String;
@@ -360,7 +360,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e028f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_list_activity:I
 
     const/4 v2, 0x0
 
@@ -370,7 +370,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/EnTemplateListActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2ecf
+    sget v1, Lcom/resouce/module/ResID;->template_list_progress_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,11 +485,11 @@
     :cond_3
     iget-object p1, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v1, 0x7f12145a
+    sget v1, Lcom/resouce/module/ResSTRING;->name_my_offline_templates:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
-    const p1, 0x7f0b124e
+    sget p1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -520,7 +520,7 @@
     :cond_6
     iget-object p1, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v0, 0x7f12145d
+    sget v0, Lcom/resouce/module/ResSTRING;->name_recommanded:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

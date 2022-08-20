@@ -572,7 +572,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060002
+    sget v2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

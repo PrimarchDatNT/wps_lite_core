@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="@dimen/v10_phone_public_letter_paper_gridview_item_size" android:layout_height="@dimen/v10_phone_public_letter_paper_gridview_item_size"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="@dimen/v10_phone_public_letter_paper_gridview_item_size" android:layout_height="@dimen/v10_phone_public_letter_paper_gridview_item_size">
-        <cn.wps.moffice.common.beans.V10RoundRectImageView android:layout_gravity="center" android:id="@id/background_color_imageview" android:visibility="visible" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:scaleType="fitXY" app:selected_cover_color="@color/maskBackgroundColor" />
-        <ProgressBar android:layout_gravity="center" android:id="@id/background_download_progressbar" android:visibility="gone" android:layout_width="@dimen/v10_phone_public_letter_paper_progress_bar_width" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:progressDrawable="@drawable/home_theme_download_progress" android:minHeight="4.0dip" style="?android:progressBarStyleHorizontal" />
-        <ImageView android:layout_gravity="center|right|top" android:id="@id/background_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/pub_vip_docer_member_42" />
-    </FrameLayout>
-</LinearLayout>

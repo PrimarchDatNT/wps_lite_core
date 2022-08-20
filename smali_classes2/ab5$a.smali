@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b13f2
+    sget v0, Lcom/resouce/module/ResID;->item_tv_date:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lab5$a;->j0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b13cc
+    sget v0, Lcom/resouce/module/ResID;->item_kciv_image:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,7 +51,7 @@
 
     iput-object v0, p0, Lab5$a;->k0:Lcn/wpsx/support/ui/KCircleImageView;
 
-    const v0, 0x7f0b13f3
+    sget v0, Lcom/resouce/module/ResID;->item_tv_nickname:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

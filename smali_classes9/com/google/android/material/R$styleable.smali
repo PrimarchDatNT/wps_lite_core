@@ -160,7 +160,7 @@
 
     new-array v10, v0, [I
 
-    const v11, 0x7f0402d0
+    sget v11, Lcom/resouce/module/ResATTR;->itemHorizontalTranslationEnabled:I
 
     aput v11, v10, v3
 
@@ -176,7 +176,7 @@
 
     new-array v11, v0, [I
 
-    const v12, 0x7f040036
+    sget v12, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v12, v11, v3
 
@@ -326,7 +326,7 @@
 
     new-array v14, v0, [I
 
-    const v15, 0x7f04008c
+    sget v15, Lcom/resouce/module/ResATTR;->behavior_autoHide:I
 
     aput v15, v14, v3
 
@@ -634,7 +634,7 @@
 
     new-array v6, v0, [I
 
-    const v7, 0x7f0405b6
+    sget v7, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v7, v6, v3
 
@@ -648,7 +648,7 @@
 
     new-array v6, v0, [I
 
-    const v7, 0x7f0403df
+    sget v7, Lcom/resouce/module/ResATTR;->materialCircleRadius:I
 
     aput v7, v6, v3
 
@@ -674,7 +674,7 @@
 
     new-array v6, v0, [I
 
-    const v7, 0x7f0402ba
+    sget v7, Lcom/resouce/module/ResATTR;->insetForeground:I
 
     aput v7, v6, v3
 
@@ -682,7 +682,7 @@
 
     new-array v6, v0, [I
 
-    const v7, 0x7f040093
+    sget v7, Lcom/resouce/module/ResATTR;->behavior_overlapTop:I
 
     aput v7, v6, v3
 
@@ -754,7 +754,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f0401a3
+    sget v2, Lcom/resouce/module/ResATTR;->defaultState:I
 
     aput v2, v1, v3
 
@@ -770,7 +770,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f0406b5
+    sget v2, Lcom/resouce/module/ResATTR;->useMaterialThemeColors:I
 
     aput v2, v1, v3
 
@@ -800,7 +800,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f04064b
+    sget v2, Lcom/resouce/module/ResATTR;->textInputLayoutFocusedRectEnabled:I
 
     aput v2, v1, v3
 

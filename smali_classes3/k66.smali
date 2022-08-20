@@ -221,7 +221,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0d3e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_oversea_phone_fanyi_histroy_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -232,7 +232,7 @@
 
     invoke-direct {p3}, Lk66$c;-><init>()V
 
-    const v1, 0x7f0b0c6b
+    sget v1, Lcom/resouce/module/ResID;->fanyi_time_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     iput-object v1, p3, Lk66$c;->a:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c6c
+    sget v1, Lcom/resouce/module/ResID;->fanyi_title:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     iput-object v1, p3, Lk66$c;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c69
+    sget v1, Lcom/resouce/module/ResID;->fanyi_page_num_text:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     iput-object v1, p3, Lk66$c;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c65
+    sget v1, Lcom/resouce/module/ResID;->fanyi_lang_from:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -276,7 +276,7 @@
 
     iput-object v1, p3, Lk66$c;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c66
+    sget v1, Lcom/resouce/module/ResID;->fanyi_lang_to:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -287,7 +287,7 @@
 
     iput-object v1, p3, Lk66$c;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0c6a
+    sget v1, Lcom/resouce/module/ResID;->fanyi_state_text:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -345,7 +345,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f1226eb
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_page_num:I
 
     invoke-virtual {p0, v3}, Lk66;->c(I)Ljava/lang/String;
 
@@ -429,7 +429,7 @@
 
     iget-object v1, p0, Lk66;->S:Landroid/app/Activity;
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -440,7 +440,7 @@
     .line 19
     iget-object p1, p3, Lk66$c;->f:Lcn/wps/moffice/common/beans/phone/AlphaAutoText;
 
-    const v1, 0x7f120cac
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_history_checking:I
 
     invoke-virtual {p0, v1}, Lk66;->c(I)Ljava/lang/String;
 
@@ -471,7 +471,7 @@
 
     iget-object v1, p0, Lk66;->S:Landroid/app/Activity;
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -482,7 +482,7 @@
     .line 24
     iget-object v0, p3, Lk66$c;->f:Lcn/wps/moffice/common/beans/phone/AlphaAutoText;
 
-    const v1, 0x7f120cad
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_history_complete:I
 
     invoke-virtual {p0, v1}, Lk66;->c(I)Ljava/lang/String;
 
@@ -519,7 +519,7 @@
 
     iget-object v1, p0, Lk66;->S:Landroid/app/Activity;
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
 
@@ -530,7 +530,7 @@
     .line 29
     iget-object p1, p3, Lk66$c;->f:Lcn/wps/moffice/common/beans/phone/AlphaAutoText;
 
-    const v1, 0x7f120cb0
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_history_failed:I
 
     invoke-virtual {p0, v1}, Lk66;->c(I)Ljava/lang/String;
 

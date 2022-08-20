@@ -147,7 +147,7 @@
 .method public E()I
     .locals 1
 
-    const v0, 0x7f0e0edb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_document_item:I
 
     return v0
 .end method
@@ -155,7 +155,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f081d47
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->recommend_document_main_bg:I
 
     return v0
 .end method
@@ -168,11 +168,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de7
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_docuemnt:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b0e82
+    sget v0, Lcom/resouce/module/ResID;->frame_main:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b285e
+    sget v0, Lcom/resouce/module/ResID;->recycler:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     invoke-virtual {v2, v3}, Lj8a;->d0(Lr8a;)V
 
-    const v2, 0x7f0b31d1
+    sget v2, Lcom/resouce/module/ResID;->tv_loading:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/detail/DocumentFuncFragment;->j0:Landroid/widget/TextView;
 
-    const v2, 0x7f122dfc
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_seraching_tip:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -800,7 +800,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de7
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_docuemnt:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -817,7 +817,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122dde
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_5_more_tip:I
 
     const/4 v3, 0x1
 
@@ -859,7 +859,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ddf
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_appologize:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -868,7 +868,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de0
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_appologize_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

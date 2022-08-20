@@ -141,13 +141,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e71
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_tab_navigation_bar_lr:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2e1f
+    sget v0, Lcom/resouce/module/ResID;->tab_btn_left:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->I:Lcn/wps/moffice/common/beans/NavigationBarBtn;
 
-    const v0, 0x7f0b2e20
+    sget v0, Lcom/resouce/module/ResID;->tab_btn_right:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->S:Lcn/wps/moffice/common/beans/NavigationBarBtn;
 
-    const v0, 0x7f0b2e22
+    sget v0, Lcom/resouce/module/ResID;->tab_divider:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/common/beans/TabNavigationBarLR;->T:Landroid/view/View;
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -232,7 +232,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081c8a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_tab_style_gray_text_selector:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -252,7 +252,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f081c8b
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_tab_style_text_selector_ppt:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -304,7 +304,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070cd7
+    sget v1, Lcom/resouce/module/ResDIMEN;->tab_navigation_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

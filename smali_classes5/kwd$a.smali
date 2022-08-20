@@ -189,7 +189,7 @@
     .line 13
     iget-object p1, p0, Lkwd$a;->I:Landroid/app/Activity;
 
-    const v0, 0x7f12233a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

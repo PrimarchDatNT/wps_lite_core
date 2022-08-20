@@ -63,7 +63,7 @@
     .line 12
     iget-object p1, p0, Leqk;->h0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const p2, 0x7f080240
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setBackImgRes(I)V
 
@@ -292,7 +292,7 @@
 
     iput-object v0, p0, Leqk;->h0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f12197c
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_all_bookmark:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -318,7 +318,7 @@
     .line 5
     iget-object v0, p0, Leqk;->h0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v3, 0x7f0e09c3
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_bookmark_all:I
 
     const/4 v4, 0x0
 
@@ -333,7 +333,7 @@
 
     invoke-virtual {p0, v0}, Luzl;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b1fa6
+    sget v0, Lcom/resouce/module/ResID;->phone_bookmark_list:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

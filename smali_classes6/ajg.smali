@@ -521,7 +521,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0239
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_print_wheel_wraper:I
 
     const/4 v2, 0x0
 
@@ -530,7 +530,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0b35
+    sget v1, Lcom/resouce/module/ResID;->et_print_wheel_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 
     iput-object v1, p0, Lajg;->j:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b36
+    sget v1, Lcom/resouce/module/ResID;->et_print_wheel_left:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
 
     iput-object v1, p0, Lajg;->k:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b0b37
+    sget v1, Lcom/resouce/module/ResID;->et_print_wheel_right:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -896,7 +896,7 @@
 
     if-eqz v1, :cond_0
 
-    const p1, 0x7f1226f5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_letter:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -915,7 +915,7 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f1226f8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_tabloid:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -934,7 +934,7 @@
 
     if-eqz v1, :cond_2
 
-    const p1, 0x7f1226f4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_legal:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -953,7 +953,7 @@
 
     if-eqz v1, :cond_3
 
-    const p1, 0x7f1226f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_statement:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -972,7 +972,7 @@
 
     if-eqz v1, :cond_4
 
-    const p1, 0x7f1226f1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_executive:I
 
     .line 11
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -993,7 +993,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226f5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_letter:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1011,7 +1011,7 @@
     return-object p1
 
     :cond_0
-    const v1, 0x7f1226f8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_tabloid:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1029,7 +1029,7 @@
     return-object p1
 
     :cond_1
-    const v1, 0x7f1226f4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_legal:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1047,7 +1047,7 @@
     return-object p1
 
     :cond_2
-    const v1, 0x7f1226f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_statement:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1065,7 +1065,7 @@
     return-object p1
 
     :cond_3
-    const v1, 0x7f1226f1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_pagesize_executive:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1276,7 +1276,7 @@
 
     iput-object v0, p0, Lajg;->s:Lrd3;
 
-    const v1, 0x7f1226ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_exporting_photos:I
 
     .line 4
     invoke-virtual {v0, v1}, Lrd3;->D(I)V

@@ -343,7 +343,7 @@
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f1210dd
+    sget p2, Lcom/resouce/module/ResSTRING;->home_please_install_wx:I
 
     .line 17
     invoke-static {p1, p2, v3}, Lbih;->n(Landroid/content/Context;II)V

@@ -274,12 +274,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0188
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_phone_home_main:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0723
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_main:I
 
     .line 2
     :goto_0
@@ -293,7 +293,7 @@
 
     iput-object v0, p0, Lbq9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2001
+    sget v1, Lcom/resouce/module/ResID;->phone_home_main_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -377,7 +377,7 @@
     :cond_2
     iget-object v0, p0, Lbq9;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2055
+    sget v1, Lcom/resouce/module/ResID;->phone_layout_dragAndDropView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -57,7 +57,7 @@
 
     iget-object v0, v0, Lm25;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1229e0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     const/4 v2, 0x0
 
@@ -98,7 +98,7 @@
 
     iget-object v0, v0, Lm25;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1226fa
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_qrcode_expired:I
 
     const/4 v2, 0x0
 
@@ -194,7 +194,7 @@
 
     iget-object p1, p1, Lm25;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

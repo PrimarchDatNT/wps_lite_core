@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121a15
+    sget v2, Lcom/resouce/module/ResSTRING;->player_switching_doc:I
 
     const/4 v3, 0x1
 

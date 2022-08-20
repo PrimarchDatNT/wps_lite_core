@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1205fa
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_phone_document_trip_no_more_record:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -58,7 +58,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b07ca
+    sget v3, Lcom/resouce/module/ResID;->drive_sort_name:I
 
     if-ne p1, v3, :cond_0
 
@@ -67,7 +67,7 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0b07cc
+    sget v3, Lcom/resouce/module/ResID;->drive_sort_time:I
 
     if-ne p1, v3, :cond_1
 
@@ -78,7 +78,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0b07cb
+    sget v3, Lcom/resouce/module/ResID;->drive_sort_size:I
 
     if-ne p1, v3, :cond_2
 

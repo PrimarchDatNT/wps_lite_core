@@ -62,7 +62,7 @@
 
     invoke-direct {v0, p0}, Lsrk;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b29ab
+    sget v1, Lcom/resouce/module/ResID;->root_container:I
 
     const-string v2, "panel-dismiss"
 
@@ -73,7 +73,7 @@
 
     invoke-direct {v0, p0, p0}, Lzpl$a;-><init>(Lzpl;Lvzl;)V
 
-    const v1, 0x7f0b0d83
+    sget v1, Lcom/resouce/module/ResID;->find_matchcase:I
 
     const-string v2, "panel-dismiss-from-find-match-case"
 
@@ -84,7 +84,7 @@
 
     invoke-direct {v0, p0, p0}, Lzpl$b;-><init>(Lzpl;Lvzl;)V
 
-    const v1, 0x7f0b0d84
+    sget v1, Lcom/resouce/module/ResID;->find_matchword:I
 
     const-string v2, "panel-dismiss-from-find-match-word"
 
@@ -230,7 +230,7 @@
 .method public final q2()V
     .locals 1
 
-    const v0, 0x7f0e0a06
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_searchreplace_advanced:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;

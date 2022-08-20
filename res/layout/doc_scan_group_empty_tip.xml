@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_group_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_add_image_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="207.0dip" android:src="@drawable/doc_scan_add_image_icon" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/tv_group_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="72.0dip" android:text="@string/doc_scan_group_empty_tip" android:layout_below="@id/iv_add_image_icon" android:layout_centerHorizontal="true" />
-</RelativeLayout>

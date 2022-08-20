@@ -68,7 +68,7 @@
     .line 2
     iget-object v0, v0, Laf8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120ef2
+    sget v1, Lcom/resouce/module/ResSTRING;->home_drive_rename_operation_error_tips:I
 
     const/4 v2, 0x0
 

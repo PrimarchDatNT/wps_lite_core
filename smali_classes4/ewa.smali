@@ -39,7 +39,7 @@
     .line 1
     iget-object p2, p0, Lyva;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e011e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->doc_scan_item_menu:I
 
     const/4 v0, 0x0
 
@@ -52,7 +52,7 @@
 
     invoke-direct {p3, v0}, Lewa$b;-><init>(Lewa$a;)V
 
-    const v0, 0x7f0b31c3
+    sget v0, Lcom/resouce/module/ResID;->tv_item_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     iput-object v0, p3, Lewa$b;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2b26
+    sget v0, Lcom/resouce/module/ResID;->separator_view:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     move-result v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     if-eqz v0, :cond_2
 
@@ -183,7 +183,7 @@
 
     move-result p1
 
-    const p1, 0x7f081a9c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_panel_item_third_bg_selector:I
 
     invoke-virtual {p2, p1}, Landroid/view/View;->setBackgroundResource(I)V
 

@@ -89,7 +89,7 @@
 
     invoke-virtual {p3, p1}, Lcn/wps/moffice/main/scan/model/ScanSignView;->setStateListener(Lcn/wps/moffice/main/scan/model/ScanSignView$c;)V
 
-    const p1, 0x7f0b0c18
+    sget p1, Lcom/resouce/module/ResID;->export_layout:I
 
     .line 8
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object p1, p0, Lf3b;->W:Landroid/view/View;
 
-    const p1, 0x7f0b14c7
+    sget p1, Lcom/resouce/module/ResID;->iv_sign:I
 
     .line 9
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object p1, p0, Lf3b;->X:Landroid/view/View;
 
-    const p1, 0x7f0b1457
+    sget p1, Lcom/resouce/module/ResID;->iv_finish:I
 
     .line 10
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object p1, p0, Lf3b;->Y:Landroid/view/View;
 
-    const p1, 0x7f0b025d
+    sget p1, Lcom/resouce/module/ResID;->bottom_id:I
 
     .line 11
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object p1, p0, Lf3b;->Z:Landroid/view/View;
 
-    const p1, 0x7f0b0284
+    sget p1, Lcom/resouce/module/ResID;->bottom_view:I
 
     .line 12
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     iput-object p1, p0, Lf3b;->a0:Landroid/view/View;
 
-    const p1, 0x7f0b1a0c
+    sget p1, Lcom/resouce/module/ResID;->new_sign:I
 
     .line 13
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object p1, p0, Lf3b;->c0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b2c16
+    sget p1, Lcom/resouce/module/ResID;->sign_layout:I
 
     .line 14
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     iput-object p1, p0, Lf3b;->d0:Landroid/view/View;
 
-    const p1, 0x7f0b2c15
+    sget p1, Lcom/resouce/module/ResID;->sign_ink:I
 
     .line 15
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2c10
+    sget p1, Lcom/resouce/module/ResID;->sign_delete_button:I
 
     .line 19
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b19fd
+    sget p1, Lcom/resouce/module/ResID;->new_initials_sign_text:I
 
     .line 20
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     iput-object p1, p0, Lf3b;->f0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b1305
+    sget p1, Lcom/resouce/module/ResID;->initials_sign_layout:I
 
     .line 21
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     iput-object p1, p0, Lf3b;->g0:Landroid/view/View;
 
-    const p1, 0x7f0b1304
+    sget p1, Lcom/resouce/module/ResID;->initials_sign_ink:I
 
     .line 22
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1303
+    sget p1, Lcom/resouce/module/ResID;->initials_sign_delete_button:I
 
     .line 26
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b19e9
+    sget p1, Lcom/resouce/module/ResID;->new_date_sign_text:I
 
     .line 27
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -253,7 +253,7 @@
 
     iput-object p1, p0, Lf3b;->i0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b0628
+    sget p1, Lcom/resouce/module/ResID;->date_sign_layout:I
 
     .line 28
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -262,7 +262,7 @@
 
     iput-object p1, p0, Lf3b;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b0629
+    sget p1, Lcom/resouce/module/ResID;->date_sign_text:I
 
     .line 29
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0627
+    sget p1, Lcom/resouce/module/ResID;->date_sign_delete_button:I
 
     .line 32
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0340
+    sget p1, Lcom/resouce/module/ResID;->cancel_button:I
 
     .line 33
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -301,7 +301,7 @@
 
     invoke-virtual {p1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b1afc
+    sget p1, Lcom/resouce/module/ResID;->ok_bt:I
 
     .line 34
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -519,7 +519,7 @@
     .line 2
     iget-object v0, p0, Lf3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1afc
+    sget v1, Lcom/resouce/module/ResID;->ok_bt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,11 +543,11 @@
 
     invoke-direct {p1}, Ljs4;-><init>()V
 
-    const p2, 0x7f080765
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf_sign:I
 
-    const v0, 0x7f12284a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_sign_premium_title:I
 
-    const v1, 0x7f122849
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_sign_premium_content:I
 
     const/4 v2, 0x1
 
@@ -822,9 +822,9 @@
 
     iget-object v0, v0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12049e
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_retake_change_save_tips:I
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     const/high16 v3, 0x1040000
 
@@ -1334,7 +1334,7 @@
     :cond_0
     iget-object v0, p0, Lf3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2c7b
+    sget v1, Lcom/resouce/module/ResID;->space_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1347,7 +1347,7 @@
     .line 3
     iget-object v1, p0, Lf3b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0549
+    sget v2, Lcom/resouce/module/ResID;->content_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1763,7 +1763,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b14c7
+    sget v1, Lcom/resouce/module/ResID;->iv_sign:I
 
     if-ne v1, v0, :cond_0
 
@@ -1785,7 +1785,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0b1457
+    sget v1, Lcom/resouce/module/ResID;->iv_finish:I
 
     if-ne v1, v0, :cond_2
 
@@ -1803,7 +1803,7 @@
     :cond_1
     iget-object p1, p0, Lf3b;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3204
+    sget v0, Lcom/resouce/module/ResID;->tv_ok:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1814,7 +1814,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b0340
+    sget v1, Lcom/resouce/module/ResID;->cancel_button:I
 
     if-ne v0, v1, :cond_4
 
@@ -1840,7 +1840,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v1, 0x7f0b1afc
+    sget v1, Lcom/resouce/module/ResID;->ok_bt:I
 
     if-ne v0, v1, :cond_5
 
@@ -1855,7 +1855,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v1, 0x7f0b1a0c
+    sget v1, Lcom/resouce/module/ResID;->new_sign:I
 
     const-string v2, "pdf_sign"
 
@@ -1883,7 +1883,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v1, 0x7f0b2c16
+    sget v1, Lcom/resouce/module/ResID;->sign_layout:I
 
     if-ne v0, v1, :cond_7
 
@@ -1900,7 +1900,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v1, 0x7f0b2c10
+    sget v1, Lcom/resouce/module/ResID;->sign_delete_button:I
 
     if-ne v0, v1, :cond_8
 
@@ -1916,7 +1916,7 @@
     goto/16 :goto_0
 
     :cond_8
-    const v1, 0x7f0b19fd
+    sget v1, Lcom/resouce/module/ResID;->new_initials_sign_text:I
 
     const-string v2, "pdf_initialsSign"
 
@@ -1944,7 +1944,7 @@
     goto :goto_0
 
     :cond_9
-    const v1, 0x7f0b1305
+    sget v1, Lcom/resouce/module/ResID;->initials_sign_layout:I
 
     if-ne v0, v1, :cond_a
 
@@ -1961,7 +1961,7 @@
     goto :goto_0
 
     :cond_a
-    const v1, 0x7f0b1303
+    sget v1, Lcom/resouce/module/ResID;->initials_sign_delete_button:I
 
     if-ne v0, v1, :cond_b
 
@@ -1977,7 +1977,7 @@
     goto :goto_0
 
     :cond_b
-    const v1, 0x7f0b19e9
+    sget v1, Lcom/resouce/module/ResID;->new_date_sign_text:I
 
     if-ne v0, v1, :cond_c
 
@@ -2003,7 +2003,7 @@
     goto :goto_0
 
     :cond_c
-    const v1, 0x7f0b0628
+    sget v1, Lcom/resouce/module/ResID;->date_sign_layout:I
 
     if-ne v0, v1, :cond_d
 
@@ -2022,7 +2022,7 @@
     goto :goto_0
 
     :cond_d
-    const p1, 0x7f0b0627
+    sget p1, Lcom/resouce/module/ResID;->date_sign_delete_button:I
 
     if-ne v0, p1, :cond_e
 

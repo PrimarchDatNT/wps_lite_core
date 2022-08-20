@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim$b;->S:Lcn/wps/moffice/main/cloud/drive/view/animation/WpsCloudingIconAnim;
 
-    const v1, 0x7f08195f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_home_wps_cloud_upload:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

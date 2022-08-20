@@ -45,7 +45,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0809c8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_type_sheet:I
 
     goto :goto_0
 
@@ -59,7 +59,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f0809c7
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_type_ppt:I
 
     goto :goto_0
 
@@ -73,7 +73,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f0809c9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->icon_type_word:I
 
     goto :goto_0
 
@@ -169,7 +169,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0fbe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->template_simple_item_layout:I
 
     const/4 v1, 0x0
 
@@ -182,7 +182,7 @@
 
     invoke-direct {p3}, Lhb6$a;-><init>()V
 
-    const v0, 0x7f0b13c5
+    sget v0, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     iput-object v0, p3, Lhb6$a;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b13f4
+    sget v0, Lcom/resouce/module/ResID;->item_type_icon:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     iput-object v0, p3, Lhb6$a;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b13d2
+    sget v0, Lcom/resouce/module/ResID;->item_name:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -239,7 +239,7 @@
     .line 9
     iget-object v0, p3, Lhb6$a;->a:Landroid/widget/ImageView;
 
-    const v1, 0x7f081e8b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

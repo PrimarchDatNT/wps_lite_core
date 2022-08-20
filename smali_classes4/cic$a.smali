@@ -299,7 +299,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0625
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_convert_language_select_item_layout:I
 
     const/4 v2, 0x0
 

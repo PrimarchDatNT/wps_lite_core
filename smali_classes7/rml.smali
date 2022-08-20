@@ -1226,7 +1226,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216bf
+    sget v2, Lcom/resouce/module/ResSTRING;->pc_resume_doc_export_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216c0
+    sget v2, Lcom/resouce/module/ResSTRING;->pc_resume_pdf_export_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1392,7 +1392,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216c1
+    sget v2, Lcom/resouce/module/ResSTRING;->pc_resume_pic_export_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1968,7 +1968,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1216c2
+    sget v4, Lcom/resouce/module/ResSTRING;->pc_resume_thumb_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

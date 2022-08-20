@@ -30,7 +30,7 @@
     .line 3
     iput-object p3, p0, Ld3a;->p0:Lr2a;
 
-    const p2, 0x7f0b27a7
+    sget p2, Lcom/resouce/module/ResID;->quick_access_itemLayout:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -39,7 +39,7 @@
 
     iput-object p2, p0, Ld3a;->l0:Landroid/view/View;
 
-    const p2, 0x7f0b27a3
+    sget p2, Lcom/resouce/module/ResID;->quick_access_doc_icon:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object p2, p0, Ld3a;->m0:Landroid/widget/ImageView;
 
-    const p2, 0x7f0b27a5
+    sget p2, Lcom/resouce/module/ResID;->quick_access_doc_name:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object p2, p0, Ld3a;->n0:Landroid/widget/TextView;
 
-    const p2, 0x7f0b27a4
+    sget p2, Lcom/resouce/module/ResID;->quick_access_doc_more:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
     .line 10
     iget-object v2, p0, Ld3a;->m0:Landroid/widget/ImageView;
 
-    const v3, 0x7f081686
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_unknow:I
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 

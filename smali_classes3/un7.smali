@@ -283,13 +283,13 @@
 
     if-eqz p2, :cond_2
 
-    const p2, 0x7f02001c
+    sget p2, Lcom/resouce/module/ResANIMATOR;->push_left_in_animator:I
 
-    const v1, 0x7f02001d
+    sget v1, Lcom/resouce/module/ResANIMATOR;->push_left_out_animator:I
 
-    const v2, 0x7f02001e
+    sget v2, Lcom/resouce/module/ResANIMATOR;->push_right_in_animator:I
 
-    const v3, 0x7f02001f
+    sget v3, Lcom/resouce/module/ResANIMATOR;->push_right_out_animator:I
 
     .line 6
     invoke-virtual {v0, p2, v1, v2, v3}, Landroid/app/FragmentTransaction;->setCustomAnimations(IIII)Landroid/app/FragmentTransaction;

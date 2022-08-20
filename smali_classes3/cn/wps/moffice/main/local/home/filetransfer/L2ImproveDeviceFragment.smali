@@ -205,7 +205,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1230e8
+    sget v0, Lcom/resouce/module/ResSTRING;->transfer_sign_in_first:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -213,7 +213,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12151c
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_list_text_noLogin:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -598,7 +598,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->d0:Landroid/widget/TextView;
 
-    const v1, 0x7f1230e7
+    sget v1, Lcom/resouce/module/ResSTRING;->transfer_send_pc_successful:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -616,7 +616,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081b84
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -631,7 +631,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06051a
+    sget v3, Lcom/resouce/module/ResCOLOR;->public_btn_text_selector_light:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -642,7 +642,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->c0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0676
+    sget v2, Lcom/resouce/module/ResID;->device_list_bottom_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

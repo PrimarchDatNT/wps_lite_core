@@ -70,7 +70,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120110
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_verify_wrong_format:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

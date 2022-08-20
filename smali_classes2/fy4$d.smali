@@ -138,7 +138,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
-    const v1, 0x7f12025a
+    sget v1, Lcom/resouce/module/ResSTRING;->check_open_document_roaming_url:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -162,7 +162,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12011c
+    sget v5, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 6
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;

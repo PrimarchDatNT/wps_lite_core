@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0817e8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_abroad_loading_logo_white:I
 
     invoke-static {v1, v2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

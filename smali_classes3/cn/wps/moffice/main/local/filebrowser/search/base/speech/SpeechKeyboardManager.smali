@@ -450,7 +450,7 @@
 
     check-cast v2, Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0871
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_filebrowser_speechkeyboard_v:I
 
     .line 4
     iget-object v4, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->a:Landroid/view/ViewGroup;
@@ -461,7 +461,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2c97
+    sget v3, Lcom/resouce/module/ResID;->speech_root:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -469,7 +469,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v3, 0x7f0b2c92
+    sget v3, Lcom/resouce/module/ResID;->speech_record:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -483,7 +483,7 @@
     .line 6
     iget-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v3, 0x7f0b2c99
+    sget v3, Lcom/resouce/module/ResID;->speech_title_tips:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -494,7 +494,7 @@
     .line 7
     iget-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v3, 0x7f0b284a
+    sget v3, Lcom/resouce/module/ResID;->record_volume_state:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -507,7 +507,7 @@
     .line 8
     iget-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v3, 0x7f0b2538
+    sget v3, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
     .line 10
     iget-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v3, 0x7f0b2c91
+    sget v3, Lcom/resouce/module/ResID;->speech_delete:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -547,7 +547,7 @@
     .line 12
     iget-object v2, p0, Lcn/wps/moffice/main/local/filebrowser/search/base/speech/SpeechKeyboardManager;->f:Landroid/view/View;
 
-    const v4, 0x7f0b2c95
+    sget v4, Lcom/resouce/module/ResID;->speech_record_icon:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122cad
+    sget v1, Lcom/resouce/module/ResSTRING;->qr_code_decode_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -198,7 +198,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122cae
+    sget v1, Lcom/resouce/module/ResSTRING;->qr_code_decode_image_delete:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -224,7 +224,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121e05
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_network_error_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

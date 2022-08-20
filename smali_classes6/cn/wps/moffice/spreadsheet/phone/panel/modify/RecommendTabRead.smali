@@ -314,7 +314,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f12145d
+    sget v0, Lcom/resouce/module/ResSTRING;->name_recommanded:I
 
     return v0
 .end method
@@ -384,13 +384,13 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0812a5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_hypelink_icon:I
 
-    const v3, 0x7f122334
+    sget v3, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
-    const v2, 0x7f122334
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
-    const v6, 0x7f0812a5
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_public_hypelink_icon:I
 
     goto :goto_0
 

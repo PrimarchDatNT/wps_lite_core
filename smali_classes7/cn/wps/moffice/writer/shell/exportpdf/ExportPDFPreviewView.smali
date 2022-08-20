@@ -375,11 +375,11 @@
     .line 18
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f080782
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_water_mark:I
 
-    const v1, 0x7f122be0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
-    const v2, 0x7f122611
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdfwatermark_desc:I
 
     new-array v3, v5, [Lcib$b;
 
@@ -443,11 +443,11 @@
     .line 27
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f08076e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_document_export:I
 
-    const v1, 0x7f1220a7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v2, 0x7f1220a8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
     new-array v3, v5, [Lcib$b;
 
@@ -515,11 +515,11 @@
     .line 36
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f081a5a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_no_ad_logo:I
 
-    const v1, 0x7f12252b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_ad_logo:I
 
-    const v2, 0x7f122051
+    sget v2, Lcom/resouce/module/ResSTRING;->public_enjoy_no_ad_logo:I
 
     new-array v3, v5, [Lcib$b;
 
@@ -631,11 +631,11 @@
     .line 50
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f080717
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_document2pdf:I
 
-    const v1, 0x7f122014
+    sget v1, Lcom/resouce/module/ResSTRING;->public_document_to_pdf:I
 
-    const v2, 0x7f122015
+    sget v2, Lcom/resouce/module/ResSTRING;->public_document_to_pdf_tips:I
 
     new-array v3, v5, [Lcib$b;
 
@@ -767,7 +767,7 @@
     .line 65
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->B:Landroid/content/Context;
 
-    const v0, 0x7f1220a6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     invoke-static {p1, v0, v5}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1227,7 +1227,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e1067
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_alertdialog_exportpdfpreview:I
 
     const/4 v2, 0x0
 
@@ -1237,7 +1237,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c35
+    sget v1, Lcom/resouce/module/ResID;->exportpdf_scroll_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1249,7 +1249,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0c34
+    sget v2, Lcom/resouce/module/ResID;->exportpdf_preview_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1267,7 +1267,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b2553
+    sget v3, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1280,7 +1280,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b0c32
+    sget v3, Lcom/resouce/module/ResID;->exportpdf_preview_tip:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1291,7 +1291,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0c31
+    sget v2, Lcom/resouce/module/ResID;->exportpdf_preview_superCanvas:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1323,7 +1323,7 @@
     .line 11
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0c2e
+    sget v2, Lcom/resouce/module/ResID;->exportpdf_bottom_ctrl:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1332,7 +1332,7 @@
     .line 12
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v3, 0x7f0b0c2f
+    sget v3, Lcom/resouce/module/ResID;->exportpdf_bottom_ctrl_en:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1399,7 +1399,7 @@
     .line 20
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0db8
+    sget v2, Lcom/resouce/module/ResID;->fl_export_pdf_preview_content:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1506,7 +1506,7 @@
     .line 32
     iget-object v1, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v2, 0x7f0b268d
+    sget v2, Lcom/resouce/module/ResID;->public_monglian:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1546,7 +1546,7 @@
     .line 37
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c33
+    sget v1, Lcom/resouce/module/ResID;->exportpdf_preview_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1556,7 +1556,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/exportpdf/ExportPDFPreviewView;->T:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f12209f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     .line 38
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -1641,7 +1641,7 @@
 
     check-cast v0, Lcn/wps/moffice/writer/shell/exportpdf/BottomUpPop;
 
-    const v1, 0x7f0b0c1e
+    sget v1, Lcom/resouce/module/ResID;->export_pdf_item_original:I
 
     .line 48
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1670,7 +1670,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f082072
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->writer_pad_style_item_color_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -1854,11 +1854,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f1220a8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
-    const v3, 0x7f1220a7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v4, 0x7f08076e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_document_export:I
 
     const/4 v5, 0x1
 
@@ -1879,7 +1879,7 @@
 
     invoke-virtual {v0, v6}, Lkib;->Y(Ljava/lang/String;)V
 
-    const v6, 0x7f0601a4
+    sget v6, Lcom/resouce/module/ResCOLOR;->func_guide_purple_bg:I
 
     new-array v7, v5, [Lcib$b;
 
@@ -2019,11 +2019,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122611
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdfwatermark_desc:I
 
-    const v3, 0x7f122be0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
-    const v4, 0x7f080782
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_water_mark:I
 
     const/4 v5, 0x1
 

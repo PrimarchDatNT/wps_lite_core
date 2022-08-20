@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0077
+    sget p2, Lcom/resouce/module/ResLAYOUT;->audiocomments_input_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -92,7 +92,7 @@
 .method public final b(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b017f
+    sget v0, Lcom/resouce/module/ResID;->author:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b016b
+    sget v0, Lcom/resouce/module/ResID;->audio_comment_loading:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0179
+    sget v0, Lcom/resouce/module/ResID;->audiobackground:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->T:Lcn/wps/moffice/writer/shell/comments/view/AudioTimeView;
 
-    const v0, 0x7f0b017d
+    sget v0, Lcom/resouce/module/ResID;->audiocomments_voiceview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->U:Lcn/wps/moffice/writer/port/balloon/edit/VoiceAnimationView;
 
-    const v0, 0x7f0b0178
+    sget v0, Lcom/resouce/module/ResID;->audio_time:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->V:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0176
+    sget v0, Lcom/resouce/module/ResID;->audio_layout:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/view/AudioCommentsView;->W:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b0dda
+    sget v0, Lcom/resouce/module/ResID;->focusView:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -332,7 +332,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0179
+    sget v0, Lcom/resouce/module/ResID;->audiobackground:I
 
     if-ne p1, v0, :cond_3
 

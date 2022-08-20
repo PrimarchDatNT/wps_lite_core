@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ViewAnimator android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/va_layout" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/wait_for_connect_layout" />
-    <include layout="@layout/print_setting_layout" />
-    <include layout="@layout/commit_print_task_layout" />
-    <include layout="@layout/commit_print_task_success_layout" />
-</ViewAnimator>

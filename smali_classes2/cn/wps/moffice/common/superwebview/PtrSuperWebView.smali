@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081984
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-static {v0, v1}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;
 
@@ -159,7 +159,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -346,7 +346,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f070a7d
+    sget v5, Lcom/resouce/module/ResDIMEN;->ptr_progress_height:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -383,7 +383,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0eb6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_webview_errorpage:I
 
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

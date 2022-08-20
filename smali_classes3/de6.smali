@@ -267,7 +267,7 @@
     .line 5
     iget-object v0, p0, Lde6;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2ee1
+    sget v1, Lcom/resouce/module/ResID;->template_usertemplate:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -279,7 +279,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122b8e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_usertemplate_title:I
 
     return v0
 .end method

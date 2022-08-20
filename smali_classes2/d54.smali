@@ -1244,7 +1244,7 @@
     .line 4
     iget-object v1, p1, Lf54;->b:Landroid/widget/ImageView;
 
-    const v2, 0x7f0819c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_placeholder:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 

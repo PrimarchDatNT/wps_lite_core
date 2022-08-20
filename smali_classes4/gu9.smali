@@ -355,12 +355,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e050d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_app_recommend_item_layout:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e02de
+    sget p2, Lcom/resouce/module/ResLAYOUT;->home_app_recommend_item_layout:I
 
     .line 2
     :goto_0

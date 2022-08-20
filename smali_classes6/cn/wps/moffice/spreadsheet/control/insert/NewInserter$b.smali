@@ -93,7 +93,7 @@
 
     if-gt v2, v0, :cond_2
 
-    const p1, 0x7f120bda
+    sget p1, Lcom/resouce/module/ResSTRING;->et_pivot_table_no_enough_record:I
 
     .line 6
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -108,7 +108,7 @@
 
     if-nez v2, :cond_3
 
-    const p1, 0x7f120bd9
+    sget p1, Lcom/resouce/module/ResSTRING;->et_pivot_table_invalid_name:I
 
     .line 8
     invoke-static {p1, v0}, Lsjf;->k(II)V

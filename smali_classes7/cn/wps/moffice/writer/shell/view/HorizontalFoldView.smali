@@ -75,7 +75,7 @@
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/HorizontalScrollView;->setHorizontalScrollBarEnabled(Z)V
 
-    const p1, 0x7f0818db
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_edittoolbar_foldmenu_bg:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/HorizontalScrollView;->setBackgroundResource(I)V

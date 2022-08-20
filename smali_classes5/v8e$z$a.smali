@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1220a6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     const/4 v3, 0x1
 

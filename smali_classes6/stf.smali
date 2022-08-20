@@ -73,12 +73,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f0e06ba
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_et_datavalidation_timepicker:I
 
     goto :goto_1
 
     :cond_1
-    const p1, 0x7f0e0521
+    sget p1, Lcom/resouce/module/ResLAYOUT;->pad_et_datavalidation_timepicker:I
 
     :goto_1
     invoke-virtual {p0, p1}, Lhd3;->setView(I)Lhd3;
@@ -174,7 +174,7 @@
     .line 2
     invoke-virtual {p3, p1, p2}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    const p1, 0x7f0b09f7
+    sget p1, Lcom/resouce/module/ResID;->et_datavalidation_time_picker:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

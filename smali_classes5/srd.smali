@@ -27,9 +27,9 @@
     .line 2
     new-instance v0, Lsrd$a;
 
-    const v1, 0x7f080dcc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_line_thickness:I
 
-    const v2, 0x7f122373
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_stroke_width:I
 
     invoke-direct {v0, p0, v1, v2}, Lsrd$a;-><init>(Lsrd;II)V
 
@@ -158,7 +158,7 @@
     .line 8
     invoke-virtual {v4, v5, v6, v6}, Landroid/widget/ScrollView;->addView(Landroid/view/View;II)V
 
-    const v6, 0x7f122370
+    sget v6, Lcom/resouce/module/ResSTRING;->public_ink_pt:I
 
     .line 9
     invoke-virtual {v0, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -189,7 +189,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0e0e6b
+    sget v10, Lcom/resouce/module/ResLAYOUT;->public_stroke_width_layout:I
 
     invoke-virtual {v9, v10, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -198,14 +198,14 @@
     .line 13
     invoke-virtual {v9, v3}, Landroid/view/View;->setFocusable(Z)V
 
-    const v10, 0x7f0b2742
+    sget v10, Lcom/resouce/module/ResID;->public_stroke_width_item_image:I
 
     .line 14
     invoke-virtual {v9, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v11, 0x7f0b2743
+    sget v11, Lcom/resouce/module/ResID;->public_stroke_width_item_text:I
 
     .line 15
     invoke-virtual {v9, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
     .line 22
     iget-object v8, p0, Lsrd;->S:[Landroid/widget/ImageView;
 
-    const v10, 0x7f0b2741
+    sget v10, Lcom/resouce/module/ResID;->public_stroke_width_item_checked:I
 
     invoke-virtual {v9, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

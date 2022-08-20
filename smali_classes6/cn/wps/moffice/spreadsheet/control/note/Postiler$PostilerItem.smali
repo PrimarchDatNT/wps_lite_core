@@ -388,7 +388,7 @@
 
     invoke-direct {v0, v3, v1}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v3, 0x7f120b7b
+    sget v3, Lcom/resouce/module/ResSTRING;->et_input_username:I
 
     .line 12
     invoke-virtual {v0, v3}, Lhd3;->setTitleById(I)Lhd3;
@@ -404,7 +404,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0983
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_note_update_user_layout:I
 
     const/4 v5, 0x0
 
@@ -415,7 +415,7 @@
 
     check-cast v3, Landroid/widget/ScrollView;
 
-    const v4, 0x7f0b2d23
+    sget v4, Lcom/resouce/module/ResID;->ss_note_username_edittext:I
 
     .line 15
     invoke-virtual {v3, v4}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
@@ -463,12 +463,12 @@
     .line 22
     invoke-virtual {v0, v3}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 23
     invoke-virtual {v0, p1, v5}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 24
     sget-object v1, Lpig;->B:Lpig;
@@ -764,7 +764,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f1e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_comment_edit:I
 
     if-eqz v0, :cond_0
 
@@ -803,7 +803,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f121f1d
+    sget p1, Lcom/resouce/module/ResSTRING;->public_comment_add:I
 
     .line 8
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->P0(I)V

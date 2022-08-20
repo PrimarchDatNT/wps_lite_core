@@ -124,7 +124,7 @@
 
     move-result v2
 
-    const v2, 0x7f120ef1
+    sget v2, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

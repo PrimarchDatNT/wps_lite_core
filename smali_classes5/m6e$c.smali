@@ -55,7 +55,7 @@
 .method public getTitleId()I
     .locals 1
 
-    const v0, 0x7f1226f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_preview:I
 
     return v0
 .end method

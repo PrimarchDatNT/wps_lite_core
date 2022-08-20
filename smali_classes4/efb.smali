@@ -81,7 +81,7 @@
 .method public static final f(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b25ff
+    sget v0, Lcom/resouce/module/ResID;->public_first_start_webview:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 .method public static final h(Landroid/view/View;)Z
     .locals 1
 
-    const v0, 0x7f0b25ff
+    sget v0, Lcom/resouce/module/ResID;->public_first_start_webview:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2d97    # 1.849994E38f
+    sget v0, Lcom/resouce/module/ResID;->start_page_browser:I    # 1.849994E38f
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -207,14 +207,14 @@
     .line 1
     invoke-virtual {p1, p2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(Ljava/lang/String;)V
 
-    const p1, 0x7f0b2d9c    # 1.849995E38f
+    sget p1, Lcom/resouce/module/ResID;->start_page_progressBar:I    # 1.849995E38f
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0b2d97    # 1.849994E38f
+    sget p2, Lcom/resouce/module/ResID;->start_page_browser:I    # 1.849994E38f
 
     .line 3
     invoke-virtual {p0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -392,7 +392,7 @@
 .method public static final l(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
-    const v0, 0x7f0b25ff
+    sget v0, Lcom/resouce/module/ResID;->public_first_start_webview:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -403,7 +403,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -471,7 +471,7 @@
 .method public static final m(Landroid/view/View;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Runnable;)V
     .locals 4
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -485,7 +485,7 @@
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setStyle(I)V
 
-    const v1, 0x7f0b21a0
+    sget v1, Lcom/resouce/module/ResID;->phone_titlebar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

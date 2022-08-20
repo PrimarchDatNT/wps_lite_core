@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e24
+    sget v1, Lcom/resouce/module/ResSTRING;->register_url_evernote:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d82
+    sget v1, Lcom/resouce/module/ResSTRING;->forgot_url_evernote:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -343,12 +343,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e1095
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_evernote_login_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e1094
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_evernote_login_pad:I
 
     :goto_0
     const/4 v2, 0x0
@@ -369,7 +369,7 @@
     .line 3
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1758
+    sget v1, Lcom/resouce/module/ResID;->login_head:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
     .line 5
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2e0b
+    sget v1, Lcom/resouce/module/ResID;->switch_service:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
     .line 6
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2e0d
+    sget v1, Lcom/resouce/module/ResID;->switch_service_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
     .line 10
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
     .line 11
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2535
+    sget v1, Lcom/resouce/module/ResID;->progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -479,7 +479,7 @@
     .line 1
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b340e
+    sget v1, Lcom/resouce/module/ResID;->webView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -673,7 +673,7 @@
     .line 1
     iget-object v0, p0, Lrqi;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1752
+    sget v1, Lcom/resouce/module/ResID;->login_desktop:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -816,7 +816,7 @@
     :cond_0
     iget-object v0, p0, Lrqi;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f12206e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -826,7 +826,7 @@
     :cond_1
     iget-object v0, p0, Lrqi;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f12206f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_evernote_title_zh:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

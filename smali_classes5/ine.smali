@@ -21,7 +21,7 @@
 .method public t()I
     .locals 1
 
-    const v0, 0x7f0e0882
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_font_more_tab:I
 
     return v0
 .end method
@@ -32,7 +32,7 @@
     .line 1
     invoke-super {p0}, Lxw3;->u()V
 
-    const v0, 0x7f0b18f9
+    sget v0, Lcom/resouce/module/ResID;->more_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;

@@ -37,7 +37,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e05d9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_ss_abslistview_cal_textview:I
 
     invoke-virtual {p0, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -51,14 +51,14 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e092b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_abslistview_cal_textview:I
 
     invoke-virtual {p0, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p0
 
     :goto_0
-    const v0, 0x7f0b2eea
+    sget v0, Lcom/resouce/module/ResID;->text1:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

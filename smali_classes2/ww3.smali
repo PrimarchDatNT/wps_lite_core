@@ -45,7 +45,7 @@
 .method public b()Landroid/view/ViewGroup;
     .locals 1
 
-    const v0, 0x7f0b0e22
+    sget v0, Lcom/resouce/module/ResID;->font_content_footer:I
 
     .line 1
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707db
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_fontname_list_gap:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -145,7 +145,7 @@
 .method public u()V
     .locals 2
 
-    const v0, 0x7f0b0e23
+    sget v0, Lcom/resouce/module/ResID;->font_content_listview:I
 
     .line 1
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;

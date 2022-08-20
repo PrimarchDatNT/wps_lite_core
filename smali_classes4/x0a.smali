@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c37
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_multi_select_share_dialog:I
 
     const/4 v2, 0x0
 
@@ -186,7 +186,7 @@
 
     iput-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b276a
+    sget v1, Lcom/resouce/module/ResID;->public_wps_recovery_filename:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
     .line 4
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b3140
+    sget v1, Lcom/resouce/module/ResID;->tv_desc:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 5
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b3259
+    sget v1, Lcom/resouce/module/ResID;->tv_share_desc:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 6
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0c7c
+    sget v1, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 7
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2968
+    sget v1, Lcom/resouce/module/ResID;->rl_share:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 8
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2979
+    sget v1, Lcom/resouce/module/ResID;->rl_zip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
     .line 9
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b15b5
+    sget v1, Lcom/resouce/module/ResID;->line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -276,7 +276,7 @@
     .line 10
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b1947
+    sget v1, Lcom/resouce/module/ResID;->multi_doc_divider:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
     .line 11
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2959
+    sget v1, Lcom/resouce/module/ResID;->rl_multi_doc_root:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -300,7 +300,7 @@
     .line 12
     iget-object v0, p0, Lx0a;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b31e5
+    sget v1, Lcom/resouce/module/ResID;->tv_multi_doc_des:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -343,7 +343,7 @@
 
     new-array p1, p1, [I
 
-    const v1, 0x7f0b2a38
+    sget v1, Lcom/resouce/module/ResID;->scroll_parent:I
 
     const/4 v2, 0x0
 

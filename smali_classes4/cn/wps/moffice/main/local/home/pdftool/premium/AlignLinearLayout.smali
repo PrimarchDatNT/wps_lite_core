@@ -40,7 +40,7 @@
 .method public final a()V
     .locals 7
 
-    const v0, 0x7f0b1238
+    sget v0, Lcom/resouce/module/ResID;->icon_iv:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0660
+    sget v1, Lcom/resouce/module/ResID;->describe_tv:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0f21
+    sget v2, Lcom/resouce/module/ResID;->go_to_premium_bt:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

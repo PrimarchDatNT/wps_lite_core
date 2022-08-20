@@ -182,7 +182,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f1220f0
+    sget v5, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v6, 0x0
 

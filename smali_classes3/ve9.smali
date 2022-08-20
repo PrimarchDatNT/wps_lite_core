@@ -273,7 +273,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f122536
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network_toast:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -343,7 +343,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1206e6
+    sget p1, Lcom/resouce/module/ResSTRING;->drag_local_welcome_file:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     invoke-direct {v0, p1, p2}, Lve9$d;-><init>(Ld08;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f1206e8
+    sget p2, Lcom/resouce/module/ResSTRING;->drag_source_dialog_message_cloud:I
 
     .line 2
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -603,7 +603,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1206e7
+    sget v3, Lcom/resouce/module/ResSTRING;->drag_source_dialog_message:I
 
     new-array v4, v1, [Ljava/lang/Object;
 
@@ -645,19 +645,19 @@
     .line 12
     invoke-virtual {p1, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p2, 0x7f1215da
+    sget p2, Lcom/resouce/module/ResSTRING;->paper_check_date_picker_cancel:I
 
     .line 13
     invoke-virtual {p1, p2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f122a0a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_spread_immediately_download:I
 
     .line 14
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -850,7 +850,7 @@
     move-result-object p1
 
     :cond_1
-    const v0, 0x7f1206e9
+    sget v0, Lcom/resouce/module/ResSTRING;->drag_source_record_drag_incloudstorage_nosession:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -1223,7 +1223,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1206e6
+    sget p1, Lcom/resouce/module/ResSTRING;->drag_local_welcome_file:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

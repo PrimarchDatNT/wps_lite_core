@@ -31,7 +31,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f1221ea
+    sget p2, Lcom/resouce/module/ResSTRING;->public_forum_end_download:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

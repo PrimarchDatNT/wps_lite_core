@@ -124,7 +124,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120114
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_vip_has_times:I
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120113
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_vip_free_tips:I
 
     new-array v3, v3, [Ljava/lang/Object;
 

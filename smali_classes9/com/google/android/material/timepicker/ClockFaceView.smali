@@ -71,7 +71,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0403e0
+    sget v0, Lcom/resouce/module/ResATTR;->materialClockStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/timepicker/ClockFaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -131,7 +131,7 @@
     .line 8
     sget-object v1, Lcn/wps/moffice_eng/R$styleable;->ClockFaceView:[I
 
-    const v2, 0x7f1303cb
+    sget v2, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.TimePicker.Clock:I
 
     .line 9
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
@@ -157,11 +157,11 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e048b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->material_clockface_view:I
 
     invoke-virtual {v3, v4, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v3, 0x7f0b181e
+    sget v3, Lcom/resouce/module/ResID;->material_clock_hand:I
 
     .line 13
     invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iput-object v3, p0, Lcom/google/android/material/timepicker/ClockFaceView;->p0:Lcom/google/android/material/timepicker/ClockHandView;
 
-    const v4, 0x7f0703e2
+    sget v4, Lcom/resouce/module/ResDIMEN;->material_clock_hand_padding:I
 
     .line 14
     invoke-virtual {p3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -219,7 +219,7 @@
     .line 18
     invoke-virtual {v3, p0}, Lcom/google/android/material/timepicker/ClockHandView;->b(Lcom/google/android/material/timepicker/ClockHandView$d;)V
 
-    const v0, 0x7f060282
+    sget v0, Lcom/resouce/module/ResCOLOR;->material_timepicker_clockface:I
 
     .line 19
     invoke-static {p1, v0}, La0;->c(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -287,7 +287,7 @@
     .line 30
     invoke-virtual {p0, p1, v6}, Lcom/google/android/material/timepicker/ClockFaceView;->setValues([Ljava/lang/String;I)V
 
-    const p1, 0x7f0703fe
+    sget p1, Lcom/resouce/module/ResDIMEN;->material_time_picker_minimum_screen_height:I
 
     .line 31
     invoke-virtual {p3, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -296,7 +296,7 @@
 
     iput p1, p0, Lcom/google/android/material/timepicker/ClockFaceView;->x0:I
 
-    const p1, 0x7f0703ff
+    sget p1, Lcom/resouce/module/ResDIMEN;->material_time_picker_minimum_screen_width:I
 
     .line 32
     invoke-virtual {p3, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -305,7 +305,7 @@
 
     iput p1, p0, Lcom/google/android/material/timepicker/ClockFaceView;->y0:I
 
-    const p1, 0x7f0703e8
+    sget p1, Lcom/resouce/module/ResDIMEN;->material_clock_size:I
 
     .line 33
     invoke-virtual {p3, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -590,7 +590,7 @@
     :cond_0
     if-nez v4, :cond_1
 
-    const v4, 0x7f0e048a
+    sget v4, Lcom/resouce/module/ResLAYOUT;->material_clockface_textview:I
 
     .line 8
     invoke-virtual {v0, v4, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -618,7 +618,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v5, 0x7f0b182f
+    sget v5, Lcom/resouce/module/ResID;->material_value_index:I
 
     .line 13
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

@@ -43,9 +43,9 @@
 
     move-result v0
 
-    const v1, 0x7f0b02db
+    sget v1, Lcom/resouce/module/ResID;->btn_iknow:I
 
-    const v2, 0x7f0b2f3c
+    sget v2, Lcom/resouce/module/ResID;->text_tips:I
 
     if-ne v0, v2, :cond_0
 
@@ -60,7 +60,7 @@
 
     invoke-direct {v0, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0b76
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_company_empty_tip_dialog:I
 
     .line 3
     invoke-virtual {v0, v2}, Lhd3;->setView(I)Lhd3;

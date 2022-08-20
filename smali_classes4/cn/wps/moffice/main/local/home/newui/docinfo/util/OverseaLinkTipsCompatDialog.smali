@@ -140,7 +140,7 @@
 .method private getLayout()I
     .locals 1
 
-    const v0, 0x7f0e02f5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_docinfo_link_tips_dialog:I
 
     return v0
 .end method
@@ -148,7 +148,7 @@
 .method private initRenewText(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2fc5
+    sget v0, Lcom/resouce/module/ResID;->tips_renewal_time:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f1206b7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_modify:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -256,7 +256,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsCompatDialog;->mParentView:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b161b
+    sget v1, Lcom/resouce/module/ResID;->link_time_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/util/OverseaLinkTipsCompatDialog;->mParentView:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2fb8
+    sget v1, Lcom/resouce/module/ResID;->tips_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -330,7 +330,7 @@
     .line 4
     iget-object v0, p0, Lkra;->mContext:Landroid/app/Activity;
 
-    const v1, 0x7f1223ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -378,7 +378,7 @@
     .line 7
     iget-object v1, p0, Lkra;->mContext:Landroid/app/Activity;
 
-    const v2, 0x7f1206b6
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_expire_time_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

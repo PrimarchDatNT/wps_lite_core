@@ -278,17 +278,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0808f0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_regist_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f12117a
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_regist:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f12117b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_regist_reward:I
 
     .line 4
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -307,17 +307,17 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0808f1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_registration_icon:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f12117c
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_registration:I
 
     .line 7
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f12117d
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_registration_reward:I
 
     .line 8
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -336,17 +336,17 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0808f3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_share_article_icon:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f121180
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_share_article:I
 
     .line 11
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f121181
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_share_article_reward:I
 
     .line 12
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -365,17 +365,17 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0808ef
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_display_time_icon:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f121171
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_display_time:I
 
     .line 15
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f121172
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_display_time_reward:I
 
     .line 16
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -394,17 +394,17 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0808f4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_software_rate_icon:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f121183
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_software_praise:I
 
     .line 19
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f121184
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_software_praise_reward:I
 
     .line 20
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -423,17 +423,17 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f0808f5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_task_view_ad_icon:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const p1, 0x7f121185
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_view_ad:I
 
     .line 23
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f121187
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_view_ad_reward:I
 
     .line 24
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -475,7 +475,7 @@
 
     if-eqz p1, :cond_8
 
-    const p1, 0x7f12116f
+    sget p1, Lcom/resouce/module/ResSTRING;->home_task_already_complete:I
 
     .line 30
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V
@@ -485,7 +485,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06021e
+    sget p2, Lcom/resouce/module/ResCOLOR;->home_task_already_complete_color:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -501,7 +501,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06021f
+    sget p2, Lcom/resouce/module/ResCOLOR;->home_task_reward_color:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

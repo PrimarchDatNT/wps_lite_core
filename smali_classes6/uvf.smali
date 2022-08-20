@@ -210,7 +210,7 @@
     .line 2
     iget-object p2, p0, Luvf;->b:Landroid/content/Context;
 
-    const v0, 0x7f120805
+    sget v0, Lcom/resouce/module/ResSTRING;->et_data_validation_autoAdded_series:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -322,9 +322,9 @@
     .line 3
     sget-object v5, Ld4m$b;->I:Ld4m$b;
 
-    const v7, 0x7f120827
+    sget v7, Lcom/resouce/module/ResSTRING;->et_datavalidation_max_value:I
 
-    const v8, 0x7f120828
+    sget v8, Lcom/resouce/module/ResSTRING;->et_datavalidation_min_value:I
 
     const/4 v9, 0x1
 
@@ -341,7 +341,7 @@
 
     iget-object v13, v6, Luvf;->b:Landroid/content/Context;
 
-    const v14, 0x7f120844
+    sget v14, Lcom/resouce/module/ResSTRING;->et_dv_int_error_warning:I
 
     invoke-virtual {v13, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     iget-object v7, v6, Luvf;->b:Landroid/content/Context;
 
-    const v8, 0x7f120846
+    sget v8, Lcom/resouce/module/ResSTRING;->et_dv_series_error_warning_add_data:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -542,7 +542,7 @@
 
     iget-object v7, v6, Luvf;->b:Landroid/content/Context;
 
-    const v8, 0x7f120845
+    sget v8, Lcom/resouce/module/ResSTRING;->et_dv_series_error_warning:I
 
     .line 29
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -587,7 +587,7 @@
 
     iget-object v7, v6, Luvf;->b:Landroid/content/Context;
 
-    const v8, 0x7f120841
+    sget v8, Lcom/resouce/module/ResSTRING;->et_dv_date_error_warning:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -620,7 +620,7 @@
 
     iget-object v2, v6, Luvf;->b:Landroid/content/Context;
 
-    const v7, 0x7f12082a
+    sget v7, Lcom/resouce/module/ResSTRING;->et_datavalidation_start_date:I
 
     .line 37
     invoke-virtual {v2, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -650,7 +650,7 @@
 
     iget-object v2, v6, Luvf;->b:Landroid/content/Context;
 
-    const v7, 0x7f12081e
+    sget v7, Lcom/resouce/module/ResSTRING;->et_datavalidation_end_date:I
 
     .line 41
     invoke-virtual {v2, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -686,7 +686,7 @@
 
     iget-object v1, v6, Luvf;->b:Landroid/content/Context;
 
-    const v2, 0x7f120840
+    sget v2, Lcom/resouce/module/ResSTRING;->et_dv_custom_error_warning:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -707,7 +707,7 @@
 
     iget-object v13, v6, Luvf;->b:Landroid/content/Context;
 
-    const v14, 0x7f120847
+    sget v14, Lcom/resouce/module/ResSTRING;->et_dv_text_len_error_warning:I
 
     invoke-virtual {v13, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -834,7 +834,7 @@
 
     iget-object v13, v6, Luvf;->b:Landroid/content/Context;
 
-    const v14, 0x7f120842
+    sget v14, Lcom/resouce/module/ResSTRING;->et_dv_decimal_error_warning:I
 
     invoke-virtual {v13, v14}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -956,7 +956,7 @@
 
     iget-object v7, v6, Luvf;->b:Landroid/content/Context;
 
-    const v8, 0x7f120848
+    sget v8, Lcom/resouce/module/ResSTRING;->et_dv_time_error_warning:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -989,7 +989,7 @@
 
     iget-object v2, v6, Luvf;->b:Landroid/content/Context;
 
-    const v7, 0x7f12082b
+    sget v7, Lcom/resouce/module/ResSTRING;->et_datavalidation_start_time:I
 
     .line 82
     invoke-virtual {v2, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1019,7 +1019,7 @@
 
     iget-object v2, v6, Luvf;->b:Landroid/content/Context;
 
-    const v7, 0x7f12081f
+    sget v7, Lcom/resouce/module/ResSTRING;->et_datavalidation_end_time:I
 
     .line 86
     invoke-virtual {v2, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;

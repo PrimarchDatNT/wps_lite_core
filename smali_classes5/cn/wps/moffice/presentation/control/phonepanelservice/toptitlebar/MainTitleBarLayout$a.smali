@@ -68,7 +68,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06000a
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPPNavBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -93,7 +93,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

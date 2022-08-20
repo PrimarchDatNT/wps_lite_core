@@ -158,7 +158,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120585
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     .line 9
     invoke-static {p0, p1, p2}, Lbih;->p(Landroid/content/Context;II)V

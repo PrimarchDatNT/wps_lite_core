@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0aec
+    sget v0, Lcom/resouce/module/ResID;->et_page_size_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -95,7 +95,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0ba6
+    sget v0, Lcom/resouce/module/ResID;->et_select_header_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -147,7 +147,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0ba5
+    sget v0, Lcom/resouce/module/ResID;->et_select_footer_btn:I
 
     if-ne p1, v0, :cond_2
 

@@ -89,7 +89,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121806
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_image_extract_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -132,7 +132,7 @@
     return p0
 
     :cond_0
-    const v0, 0x7f121745
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v1, 0x0
 
@@ -164,7 +164,7 @@
 
     if-nez p2, :cond_0
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -369,7 +369,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121803
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -672,7 +672,7 @@
     .line 21
     invoke-static {p0, p1, v1, v1}, Landroid/media/MediaScannerConnection;->scanFile(Landroid/content/Context;[Ljava/lang/String;[Ljava/lang/String;Landroid/media/MediaScannerConnection$OnScanCompletedListener;)V
 
-    const p1, 0x7f121807
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_image_extract_savetopath_success:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

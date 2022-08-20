@@ -35,7 +35,7 @@
     .line 1
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b12c5
+    sget v0, Lcom/resouce/module/ResID;->img_record:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,7 +46,7 @@
 
     iput-object v0, p0, Llj6$b;->j0:Lcn/wps/moffice/docer/view/RoundCompatImageView;
 
-    const v0, 0x7f0b0349
+    sget v0, Lcom/resouce/module/ResID;->cardView:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Llj6$b;->k0:Landroidx/cardview/widget/CardView;
 
-    const v0, 0x7f0b0233
+    sget v0, Lcom/resouce/module/ResID;->book_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object v0, p0, Llj6$b;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2551
+    sget v0, Lcom/resouce/module/ResID;->progress_view:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

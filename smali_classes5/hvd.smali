@@ -24,9 +24,9 @@
     .line 2
     new-instance v0, Lhvd$a;
 
-    const v1, 0x7f0803b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_share_computer:I
 
-    const v2, 0x7f122ec9
+    sget v2, Lcom/resouce/module/ResSTRING;->send_to_pc:I
 
     invoke-direct {v0, p0, v1, v2}, Lhvd$a;-><init>(Lhvd;II)V
 

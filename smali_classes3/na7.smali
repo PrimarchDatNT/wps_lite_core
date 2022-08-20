@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ec2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_wpsdrive_list_pinned_header_item_layout:I
 
     const/4 v2, 0x0
 
@@ -92,7 +92,7 @@
 
     iput-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2750
+    sget v0, Lcom/resouce/module/ResID;->public_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
     .line 4
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const v0, 0x7f0b02e9
+    sget v0, Lcom/resouce/module/ResID;->btn_multi_selectView:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

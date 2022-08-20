@@ -112,7 +112,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_doc2web_date_item_layout:I
 
     const/4 v2, 0x0
 
@@ -230,7 +230,7 @@
     :goto_0
     iget-object p1, p0, Lcs3;->T:Landroid/content/Context;
 
-    const v0, 0x7f121cd9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_account_has_delete:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -284,7 +284,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b06ff
+    sget v1, Lcom/resouce/module/ResID;->doc2web_date_text_line:I
 
     if-nez p2, :cond_1
 
@@ -299,7 +299,7 @@
     :goto_0
     invoke-virtual {p1, v1, p2}, Lks3;->U(II)V
 
-    const p2, 0x7f0b06fe
+    sget p2, Lcom/resouce/module/ResID;->doc2web_date_text:I
 
     .line 5
     invoke-virtual {v0}, Ljs3$a;->a()Ljava/lang/String;
@@ -311,7 +311,7 @@
     goto :goto_2
 
     :cond_2
-    const p2, 0x7f0b2848
+    sget p2, Lcom/resouce/module/ResID;->record_user_name:I
 
     .line 6
     invoke-virtual {p0, v0}, Lcs3;->i0(Ljs3$a;)Ljava/lang/String;
@@ -377,12 +377,12 @@
     move-result-object p2
 
     :goto_1
-    const v1, 0x7f0b3335
+    sget v1, Lcom/resouce/module/ResID;->user_record_time:I
 
     .line 13
     invoke-virtual {p1, v1, p2}, Lks3;->S(ILjava/lang/String;)V
 
-    const p2, 0x7f0b2847
+    sget p2, Lcom/resouce/module/ResID;->record_user_avator:I
 
     .line 14
     new-instance v1, Lcs3$a;

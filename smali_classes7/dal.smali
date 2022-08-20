@@ -187,7 +187,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -224,12 +224,12 @@
 .method public final s2()V
     .locals 3
 
-    const v0, 0x7f0e10be
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_pagesetting:I
 
     .line 1
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
 
-    const v0, 0x7f0b3607
+    sget v0, Lcom/resouce/module/ResID;->writer_pagesetting_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     iput-object v0, p0, Ldal;->e0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f1225e1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_page_setting:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -254,7 +254,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b1c76
+    sget v0, Lcom/resouce/module/ResID;->page_setting_scrollview:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;

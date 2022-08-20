@@ -34,7 +34,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a5d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->plugin_phone_overlap_title_view_layout:I
 
     const/4 v2, 0x0
 
@@ -51,7 +51,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0600b1
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setBackgroundResource(I)V
@@ -84,7 +84,7 @@
     :cond_1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b2257
+    sget v0, Lcom/resouce/module/ResID;->plugin_content_lay:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

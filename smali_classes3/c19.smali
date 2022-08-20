@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1070
+    sget v1, Lcom/resouce/module/ResID;->home_filelist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -208,7 +208,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1070
+    sget v1, Lcom/resouce/module/ResID;->home_filelist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -342,7 +342,7 @@
     .line 5
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setItemWidth(I)V
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 6
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;->setSelectViewIcoColor(I)V
@@ -360,12 +360,12 @@
 
     if-eqz v0, :cond_0
 
-    const v6, 0x7f0703d6
+    sget v6, Lcom/resouce/module/ResDIMEN;->ks_scroll_bar_indicator_width:I
 
     goto :goto_0
 
     :cond_0
-    const v6, 0x7f070581
+    sget v6, Lcom/resouce/module/ResDIMEN;->pad_ks_scroll_bar_indicator_width:I
 
     :goto_0
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -385,7 +385,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0703d7
+    sget v6, Lcom/resouce/module/ResDIMEN;->ks_scroll_bar_padding_horizental:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -396,7 +396,7 @@
 
     const/high16 v7, 0x41600000    # 14.0f
 
-    const v8, 0x7f070585
+    sget v8, Lcom/resouce/module/ResDIMEN;->pad_open_path_gallery_height:I
 
     const/4 v9, 0x0
 
@@ -408,9 +408,9 @@
 
     if-eqz v6, :cond_2
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
-    const v6, 0x7f060626
+    sget v6, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 10
     iget-object v10, p0, Lc19;->a:Lwb9;
@@ -425,7 +425,7 @@
 
     if-eqz v0, :cond_1
 
-    const v8, 0x7f0704e3
+    sget v8, Lcom/resouce/module/ResDIMEN;->new_ks_scroll_bar_hight:I
 
     :cond_1
     invoke-virtual {v10, v8}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -464,12 +464,12 @@
     .line 15
     invoke-virtual {v10, v11}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v11, 0x7f0806ce
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->file_type_bar_normal_bg:I
 
     .line 16
     invoke-virtual {v10, v11}, Lcn/wps/moffice/common/beans/phone/scrollbar/CutomScrollBarItem;->setNolmalBackgroundId(I)V
 
-    const v11, 0x7f0806cd
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->file_type_bar_focus_bg:I
 
     .line 17
     invoke-virtual {v10, v11}, Lcn/wps/moffice/common/beans/phone/scrollbar/CutomScrollBarItem;->setFocusBackgroundId(I)V
@@ -513,7 +513,7 @@
     goto :goto_1
 
     :cond_2
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 24
     iget-object v6, p0, Lc19;->a:Lwb9;
@@ -528,7 +528,7 @@
 
     if-eqz v0, :cond_3
 
-    const v8, 0x7f07034e
+    sget v8, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     :cond_3
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -881,17 +881,17 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f081553
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f08155d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_search_results:I
 
     :goto_1
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
 
-    const v2, 0x7f120690
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_searching_tips:I
 
     .line 6
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V

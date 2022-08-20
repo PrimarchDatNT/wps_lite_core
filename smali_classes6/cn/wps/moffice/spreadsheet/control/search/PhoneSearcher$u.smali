@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b334e
+    sget v2, Lcom/resouce/module/ResID;->v10_phone_quick_bar:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

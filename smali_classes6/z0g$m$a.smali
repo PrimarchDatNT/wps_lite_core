@@ -168,7 +168,7 @@
     .line 12
     iget-object v1, p0, Lz0g$m$a;->I:Lz0g$m;
 
-    const v2, 0x7f130782
+    sget v2, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     invoke-virtual {v1, v2}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 
@@ -287,7 +287,7 @@
     :cond_2
     iget-object v0, p0, Lz0g$m$a;->I:Lz0g$m;
 
-    const v1, 0x7f130783
+    sget v1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_below_anim_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

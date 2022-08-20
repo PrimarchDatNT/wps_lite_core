@@ -289,7 +289,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -306,7 +306,7 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f081f54
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_rounded_rectangle_2dp_shape:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -378,12 +378,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0a6b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_background_phone_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0a6a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_background_pad_layout:I
 
     .line 3
     :goto_0
@@ -419,7 +419,7 @@
     :cond_1
     iget-object v0, p0, Lwwd;->X:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b23e4
+    sget v1, Lcom/resouce/module/ResID;->ppt_public_background_color_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -427,7 +427,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f121b65
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_color_background:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -440,7 +440,7 @@
     .line 9
     iget-object p1, p0, Lwwd;->X:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b208a
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_background_clear:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -461,7 +461,7 @@
     .line 12
     iget-object p1, p0, Lwwd;->X:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b2089
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_background_apply_to_all:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -489,7 +489,7 @@
     .line 16
     iget-object p1, p0, Lwwd;->X:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b2358
+    sget v0, Lcom/resouce/module/ResID;->ppt_phone_background_pic_store:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -503,7 +503,7 @@
     .line 18
     iget-object p1, p0, Lwwd;->X:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b17c4
+    sget v0, Lcom/resouce/module/ResID;->mTvPhoneDesignPicBgText:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -516,12 +516,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f12264f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f121b57
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_background_select_from_album:I
 
     :goto_1
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -628,7 +628,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0138
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_download_dialog:I
 
     const/4 v3, 0x0
 
@@ -637,7 +637,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b079c
+    sget v2, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -648,7 +648,7 @@
 
     iput-object v2, p0, Lwwd;->d0:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v2, 0x7f0b28bc
+    sget v2, Lcom/resouce/module/ResID;->resultView:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -680,7 +680,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121b45
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_apply_background_all_slide_dialog:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -695,7 +695,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lwwd$a;
 
@@ -724,7 +724,7 @@
 .method public final i(Landroid/view/View;Z)V
     .locals 8
 
-    const v0, 0x7f0b20f4
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ppt_background_color_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -824,7 +824,7 @@
     .line 13
     iget-object p2, p0, Lwwd;->I:Landroid/content/Context;
 
-    const v1, 0x7f080233
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     invoke-static {p2, v1, v0}, Lsle;->g(Landroid/content/Context;II)Lcn/wps/moffice/presentation/control/common/SelectChangeImageView;
 
@@ -1045,7 +1045,7 @@
     .line 3
     iget-object v0, p0, Lwwd;->I:Landroid/content/Context;
 
-    const v2, 0x7f121484
+    sget v2, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

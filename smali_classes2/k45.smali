@@ -188,7 +188,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f121a12
+    sget v0, Lcom/resouce/module/ResSTRING;->play_agora_full_people:I
 
     if-nez p1, :cond_4
 

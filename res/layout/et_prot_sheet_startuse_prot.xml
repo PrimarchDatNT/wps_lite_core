@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:id="@id/et_prot_sheet_startuse_prot" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
-        <TextView android:textSize="@dimen/et_prot_sheet_allow_prot_textsize" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_prot_sheet_allow_prot" />
-    </LinearLayout>
-    <ImageView android:id="@id/et_prot_sheet_switch_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

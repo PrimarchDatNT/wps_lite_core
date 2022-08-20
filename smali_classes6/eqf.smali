@@ -169,7 +169,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->W:Lis;
 
-    const v2, 0x7f12024c
+    sget v2, Lcom/resouce/module/ResSTRING;->chart_linear_bmw:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -189,7 +189,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f12024b
+    sget v2, Lcom/resouce/module/ResSTRING;->chart_exponential_bmw:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -207,7 +207,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f12024d
+    sget v2, Lcom/resouce/module/ResSTRING;->chart_logarithmic_bmw:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -225,7 +225,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f120250
+    sget v2, Lcom/resouce/module/ResSTRING;->chart_polynomaial_bmw:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -243,7 +243,7 @@
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f12079f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_type_power:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -261,7 +261,7 @@
     goto :goto_0
 
     :cond_5
-    const v2, 0x7f12079e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_trend_lines_type_moving_average:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

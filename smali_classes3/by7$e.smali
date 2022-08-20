@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0396
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_login_dialog_item:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const p1, 0x7f0b1764
+    sget p1, Lcom/resouce/module/ResID;->login_third_dialog_icon:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b1766
+    sget v1, Lcom/resouce/module/ResID;->login_third_dialog_name:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -153,9 +153,9 @@
 
     move-result-object p1
 
-    const v1, 0x7f0808c2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_qq:I
 
-    const v2, 0x7f122b97
+    sget v2, Lcom/resouce/module/ResSTRING;->public_verify_by_qq:I
 
     const-string v3, "qq"
 
@@ -188,9 +188,9 @@
 
     move-result-object p1
 
-    const v1, 0x7f0808c5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_wechat:I
 
-    const v2, 0x7f122b98
+    sget v2, Lcom/resouce/module/ResSTRING;->public_verify_by_wechat:I
 
     const-string v3, "wechat"
 
@@ -215,9 +215,9 @@
 
     move-result-object p1
 
-    const v1, 0x7f0808c1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_phone:I
 
-    const v2, 0x7f122b96
+    sget v2, Lcom/resouce/module/ResSTRING;->public_verify_by_phone:I
 
     const-string v3, "phone"
 

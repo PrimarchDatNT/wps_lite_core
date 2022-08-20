@@ -344,7 +344,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f122bd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

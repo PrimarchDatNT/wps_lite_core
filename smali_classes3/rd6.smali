@@ -99,7 +99,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0164
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_card_word_template_item:I
 
     if-eqz v0, :cond_0
 
@@ -117,7 +117,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0e0163
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_card_ppt_template_item:I
 
     goto :goto_0
 
@@ -133,7 +133,7 @@
 
     if-eqz v0, :cond_2
 
-    const v1, 0x7f0e0162
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_card_excel_template_item:I
 
     :cond_2
     :goto_0
@@ -343,7 +343,7 @@
 
     invoke-direct {v0}, Lrd6$b;-><init>()V
 
-    const v1, 0x7f0b05b3
+    sget v1, Lcom/resouce/module/ResID;->cover_iv:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     iput-object v1, v0, Lrd6$b;->a:Lcn/wps/moffice/common/beans/ForeignRoundRectImageView;
 
-    const v1, 0x7f0b1995
+    sget v1, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070a89
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -391,7 +391,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -408,7 +408,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -416,7 +416,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setBackgroundColor(I)V
 
-    const v1, 0x7f0b1383
+    sget v1, Lcom/resouce/module/ResID;->is_pay_template_icon:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -427,7 +427,7 @@
 
     iput-object v1, v0, Lrd6$b;->c:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0588
+    sget v1, Lcom/resouce/module/ResID;->corner_icon:I
 
     .line 9
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -492,7 +492,7 @@
 
     move-result v2
 
-    const v3, 0x7f081e8b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     if-nez v2, :cond_2
 

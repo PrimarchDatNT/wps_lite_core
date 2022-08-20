@@ -27,7 +27,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const p1, 0x7f0b2646
+    sget p1, Lcom/resouce/module/ResID;->public_insert_pic_album_cover:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -38,7 +38,7 @@
 
     iput-object p1, p0, Lea4$c;->a:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2648
+    sget p1, Lcom/resouce/module/ResID;->public_insert_pic_album_name:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -186,7 +186,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/impl/PaperDownRepectDialog$p;->d:Landroid/app/Activity;
 
-    const v0, 0x7f121668
+    sget v0, Lcom/resouce/module/ResSTRING;->paper_down_repetition_download_fail_msg:I
 
     const/4 v1, 0x0
 

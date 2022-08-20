@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2c94
+    sget v1, Lcom/resouce/module/ResID;->speech_record_container:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2c96
+    sget v2, Lcom/resouce/module/ResID;->speech_record_middle_content:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -75,7 +75,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2c93
+    sget v3, Lcom/resouce/module/ResID;->speech_record_bottom_container:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

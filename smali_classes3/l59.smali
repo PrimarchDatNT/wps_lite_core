@@ -27,7 +27,7 @@
 .method public constructor <init>(Landroid/content/Context;Ldf9;)V
     .locals 1
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lk59;-><init>(Landroid/content/Context;I)V
@@ -101,7 +101,7 @@
     .line 2
     iget-object v0, p0, Lk59;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0c9a
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_scroller:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -117,7 +117,7 @@
     .line 4
     iget-object v0, p0, Lk59;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0c9c
+    sget v2, Lcom/resouce/module/ResID;->feedback_file_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220cf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -304,7 +304,7 @@
     .line 28
     iget-object v0, p0, Lk59;->j0:Landroid/widget/TextView;
 
-    const v1, 0x7f121547
+    sget v1, Lcom/resouce/module/ResSTRING;->open_error_tips_title:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -315,14 +315,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f121545
+    sget v1, Lcom/resouce/module/ResSTRING;->open_error_tips_1:I
 
     .line 30
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f121546
+    sget v2, Lcom/resouce/module/ResSTRING;->open_error_tips_2:I
 
     .line 31
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -350,7 +350,7 @@
     .line 34
     new-instance v5, Landroid/text/style/BulletSpan;
 
-    const v6, 0x7f0600ea
+    sget v6, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -434,7 +434,7 @@
 .method public e3(Landroid/view/WindowManager$LayoutParams;)V
     .locals 1
 
-    const v0, 0x7f130453
+    sget v0, Lcom/resouce/module/ResSTYLE;->home_dialog_window_animation_style:I
 
     .line 1
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_file_too_large:I
 
     const/4 v2, 0x0
 
@@ -545,7 +545,7 @@
 
     iget-object v1, p0, Lk59;->W:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e030b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_feedback_item:I
 
     const/4 v3, 0x0
 
@@ -553,7 +553,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c9b
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -569,7 +569,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0c99
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_delete:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -683,7 +683,7 @@
     .line 5
     iget-object p1, p0, Lk59;->B:Landroid/content/Context;
 
-    const v0, 0x7f1205eb
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     const/4 v1, 0x1
 

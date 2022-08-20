@@ -123,7 +123,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f040047
+    sget v0, Lcom/resouce/module/ResATTR;->appBarLayoutStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/appbar/AppBarLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -1528,7 +1528,7 @@
 
     if-eqz v2, :cond_1
 
-    const v3, 0x7f0405ba
+    sget v3, Lcom/resouce/module/ResATTR;->state_liftable:I
 
     goto :goto_0
 
@@ -1547,7 +1547,7 @@
 
     if-eqz v3, :cond_2
 
-    const v3, 0x7f0405bb
+    sget v3, Lcom/resouce/module/ResATTR;->state_lifted:I
 
     goto :goto_1
 
@@ -1561,7 +1561,7 @@
 
     if-eqz v2, :cond_3
 
-    const v3, 0x7f0405b8
+    sget v3, Lcom/resouce/module/ResATTR;->state_collapsible:I
 
     goto :goto_2
 
@@ -1581,7 +1581,7 @@
 
     if-eqz v2, :cond_4
 
-    const v2, 0x7f0405b7
+    sget v2, Lcom/resouce/module/ResATTR;->state_collapsed:I
 
     goto :goto_3
 
@@ -2404,7 +2404,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070099
+    sget v1, Lcom/resouce/module/ResDIMEN;->design_appbar_elevation:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -2463,7 +2463,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0c0002
+    sget v1, Lcom/resouce/module/ResINTEGER;->app_bar_elevation_anim_duration:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 

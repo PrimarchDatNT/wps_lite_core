@@ -183,7 +183,7 @@
     .line 8
     iget-object p1, p0, Lhc6;->a:Landroid/content/Context;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 
@@ -242,7 +242,7 @@
     .line 7
     iget-object v0, p0, Lhc6;->a:Landroid/content/Context;
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v2, 0x0
 
@@ -339,7 +339,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e028a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_account_binding_dialog:I
 
     const/4 v2, 0x0
 
@@ -347,7 +347,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b28b6
+    sget v1, Lcom/resouce/module/ResID;->restore_bind_credits_show:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -371,7 +371,7 @@
 
     invoke-direct {p1, p0}, Lhc6$f;-><init>(Lhc6;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06041b
+    sget p2, Lcom/resouce/module/ResCOLOR;->phone_home_color_red:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -392,7 +392,7 @@
 
     invoke-direct {p2, p0}, Lhc6$g;-><init>(Lhc6;)V
 
-    const v1, 0x7f120d70
+    sget v1, Lcom/resouce/module/ResSTRING;->foreign_account_binding:I
 
     invoke-virtual {v0, v1, p1, p2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -412,7 +412,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122757
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_to_signin_google:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -422,7 +422,7 @@
 
     invoke-direct {v1, p0}, Lhc6$a;-><init>(Lhc6;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -433,7 +433,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06041b
+    sget v2, Lcom/resouce/module/ResCOLOR;->phone_home_color_red:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -443,7 +443,7 @@
 
     invoke-direct {v2, p0}, Lhc6$b;-><init>(Lhc6;)V
 
-    const v3, 0x7f1229fc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     invoke-virtual {v0, v3, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

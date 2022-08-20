@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f122380
+    sget v5, Lcom/resouce/module/ResSTRING;->public_inputPasswdInvalid:I
 
     invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(I)V
 
@@ -265,7 +265,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122378
+    sget v0, Lcom/resouce/module/ResSTRING;->public_inputDiff:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

@@ -149,12 +149,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f121ee1
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_title:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f12035a
+    sget p1, Lcom/resouce/module/ResSTRING;->decompress_local_folder_title:I
 
     :goto_0
     invoke-virtual {v0, p1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -357,7 +357,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->b0:Landroid/app/Activity;
 
-    const v0, 0x7f122191
+    sget v0, Lcom/resouce/module/ResSTRING;->public_folderExist:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -380,7 +380,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->b0:Landroid/app/Activity;
 
-    const v0, 0x7f120d67
+    sget v0, Lcom/resouce/module/ResSTRING;->folder_creating_failed_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -416,11 +416,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0697
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_decompress_path_select_v2:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0db7
+    sget v0, Lcom/resouce/module/ResID;->fl_decompress_container:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -431,7 +431,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->B:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0dbd
+    sget v0, Lcom/resouce/module/ResID;->fl_local_container:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -442,7 +442,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->I:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b0636
+    sget v0, Lcom/resouce/module/ResID;->decompress_btn_local:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
     .line 5
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0635
+    sget v0, Lcom/resouce/module/ResID;->decompress_btn_handle:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -484,7 +484,7 @@
 
     invoke-virtual {v0, v1}, Lcj7;->i(Lcj7$d;)V
 
-    const v0, 0x7f0b1fae
+    sget v0, Lcom/resouce/module/ResID;->phone_decompress_file_titlebar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -545,7 +545,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/main/local/compress/view/PathSelectViewBaseLayer;->B:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b0634
+    sget v2, Lcom/resouce/module/ResID;->decompress_btn_add_folder:I
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

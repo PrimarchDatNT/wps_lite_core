@@ -101,13 +101,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e026e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->font_item_new_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b01c3
+    sget v0, Lcom/resouce/module/ResID;->back_image:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->I:Lcn/wps/moffice/common/beans/RoundRectImageView;
 
-    const v0, 0x7f0b2e17
+    sget v0, Lcom/resouce/module/ResID;->system_font_layout:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0e39
+    sget v0, Lcom/resouce/module/ResID;->font_name:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0e83
+    sget v0, Lcom/resouce/module/ResID;->free:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->U:Landroid/view/View;
 
-    const v0, 0x7f0b1a34
+    sget v0, Lcom/resouce/module/ResID;->no_exist:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->V:Landroid/view/View;
 
-    const v0, 0x7f0b2af4
+    sget v0, Lcom/resouce/module/ResID;->select_icon:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->a0:Landroid/view/View;
 
-    const v0, 0x7f0b0795
+    sget v0, Lcom/resouce/module/ResID;->download_icon:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->W:Landroid/view/View;
 
-    const v0, 0x7f0b0798
+    sget v0, Lcom/resouce/module/ResID;->download_progress_layout:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/custom/FontItemView;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b0799
+    sget v0, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     const/4 v5, 0x3
 
-    const v6, 0x7f081ae0
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_phone_system_font_bg:I
 
     const/4 v7, 0x0
 
@@ -459,7 +459,7 @@
 
     invoke-virtual {v1, v3}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v3, 0x7f081ac1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_phone_font_default_bg:I
 
     .line 23
     invoke-virtual {v1, v3, v4}, Lf54;->j(IZ)Lf54;

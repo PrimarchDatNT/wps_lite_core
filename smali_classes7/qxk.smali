@@ -73,7 +73,7 @@
     .line 2
     iget-object v0, p0, Lqxk;->a:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f123400
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_revision_unsupportedRevisionSubDocument:I
 
     const/4 v2, 0x0
 

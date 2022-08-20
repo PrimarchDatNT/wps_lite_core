@@ -238,7 +238,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/presentation/tooltip/SaveTipProcessor;->c:Landroid/content/Context;
 
-    const v2, 0x7f122a0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_spread_immediately_lookup:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -398,7 +398,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/presentation/tooltip/SaveTipProcessor;->c:Landroid/content/Context;
 
-    const v0, 0x7f1220a0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_pdf_success_top_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/presentation/tooltip/SaveTipProcessor;->c:Landroid/content/Context;
 
-    const v0, 0x7f1220b6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_success_top_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/presentation/tooltip/SaveTipProcessor;->c:Landroid/content/Context;
 
-    const v0, 0x7f1220c6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_extract_table_savesucess_tip:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -317,7 +317,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fea
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_oversea_ss_backboard_content_view:I
 
     const/4 v2, 0x0
 
@@ -330,7 +330,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/backboard/V10BackBoardView;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2cdf
+    sget v1, Lcom/resouce/module/ResID;->ss_backboard_sum_group:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

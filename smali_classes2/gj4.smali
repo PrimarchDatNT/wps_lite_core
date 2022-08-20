@@ -56,7 +56,7 @@
     .line 1
     iget-object v0, p0, Lij4;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

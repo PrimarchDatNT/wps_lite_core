@@ -514,7 +514,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1217dc
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_title:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -533,7 +533,7 @@
     .line 8
     iget-object v1, p0, Lh0l;->W:Landroid/app/Activity;
 
-    const v2, 0x7f1212e8
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -545,7 +545,7 @@
     :cond_2
     iget-object v1, p0, Lh0l;->W:Landroid/app/Activity;
 
-    const v2, 0x7f1212e5
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -555,7 +555,7 @@
     :goto_2
     iget-object v2, p0, Lh0l;->W:Landroid/app/Activity;
 
-    const v5, 0x7f1217db
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_tips:I
 
     invoke-virtual {v2, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -571,7 +571,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f122bd1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     .line 11
     new-instance v2, Lh0l$e;
@@ -580,7 +580,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f1217da
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_qq_share_dialog_confirm:I
 
     .line 12
     new-instance v2, Lh0l$f;
@@ -811,7 +811,7 @@
     :goto_1
     iget-object p1, p0, Lh0l;->W:Landroid/app/Activity;
 
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -882,7 +882,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122bd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -969,7 +969,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -246,7 +246,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d51
+    sget v2, Lcom/resouce/module/ResSTRING;->public_assistant_component_dialog_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -261,7 +261,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -281,7 +281,7 @@
 
     invoke-direct {v1, p0}, Lufa$a;-><init>(Lufa;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -321,7 +321,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214b5
+    sget v1, Lcom/resouce/module/ResSTRING;->object_3d_sdk_dowloader_no:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -332,7 +332,7 @@
 
     invoke-direct {v1, p0}, Lufa$d;-><init>(Lufa;)V
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -370,7 +370,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214b6
+    sget v1, Lcom/resouce/module/ResSTRING;->object_3d_sdk_dowloader_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -381,7 +381,7 @@
 
     invoke-direct {v1, p0}, Lufa$g;-><init>(Lufa;)V
 
-    const v2, 0x7f12201b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -392,7 +392,7 @@
 
     invoke-direct {v1, p0}, Lufa$f;-><init>(Lufa;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -430,7 +430,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1214b4
+    sget v1, Lcom/resouce/module/ResSTRING;->object_3d_sdk_dowloader_error:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -441,7 +441,7 @@
 
     invoke-direct {v1, p0}, Lufa$k;-><init>(Lufa;)V
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 3
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -452,7 +452,7 @@
 
     invoke-direct {v1, p0}, Lufa$j;-><init>(Lufa;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -495,7 +495,7 @@
     .line 2
     iget-object v0, p0, Lufa;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122535
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v2, 0x0
 

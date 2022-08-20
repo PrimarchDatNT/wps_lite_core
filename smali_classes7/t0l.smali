@@ -30,7 +30,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0ead
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_water_mark_view:I
 
     const/4 p4, 0x0
 

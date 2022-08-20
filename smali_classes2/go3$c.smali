@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2579
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_0:I
 
     if-ne p1, v0, :cond_0
 
@@ -57,7 +57,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0b257a
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_1:I
 
     if-ne p1, v0, :cond_1
 
@@ -71,7 +71,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0b257b
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_2:I
 
     if-ne p1, v0, :cond_2
 
@@ -85,7 +85,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b257c
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_3:I
 
     if-ne p1, v0, :cond_3
 
@@ -99,7 +99,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b257d
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_4:I
 
     if-ne p1, v0, :cond_4
 
@@ -113,7 +113,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b257e
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_5:I
 
     if-ne p1, v0, :cond_5
 
@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b257f
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_6:I
 
     if-ne p1, v0, :cond_6
 
@@ -141,7 +141,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b2580
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_7:I
 
     if-ne p1, v0, :cond_7
 
@@ -155,7 +155,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0b2581
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_8:I
 
     if-ne p1, v0, :cond_8
 
@@ -169,7 +169,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0b2582
+    sget v0, Lcom/resouce/module/ResID;->public_chart_edit_keyboard_key_9:I
 
     if-ne p1, v0, :cond_9
 

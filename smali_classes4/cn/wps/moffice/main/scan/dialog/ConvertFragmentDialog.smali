@@ -81,12 +81,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0610
+    sget v0, Lcom/resouce/module/ResLAYOUT;->part_pic_convert_doc_scan_panel:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0611
+    sget v0, Lcom/resouce/module/ResLAYOUT;->part_pic_convert_panel:I
 
     return v0
 .end method
@@ -94,7 +94,7 @@
 .method public b(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b2972
+    sget v0, Lcom/resouce/module/ResID;->rl_to_text:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ConvertFragmentDialog;->S:Landroid/view/View;
 
-    const v0, 0x7f0b296f
+    sget v0, Lcom/resouce/module/ResID;->rl_to_et:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ConvertFragmentDialog;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0577
+    sget v0, Lcom/resouce/module/ResID;->convert_to_ppt:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/scan/dialog/ConvertFragmentDialog;->U:Landroid/view/View;
 
-    const v0, 0x7f0b2971
+    sget v0, Lcom/resouce/module/ResID;->rl_to_pdf:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b2970
+    sget v0, Lcom/resouce/module/ResID;->rl_to_file:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b141a
+    sget v0, Lcom/resouce/module/ResID;->iv_back:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

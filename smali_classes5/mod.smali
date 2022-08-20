@@ -202,7 +202,7 @@
     .line 5
     iget-object v0, p0, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f121b48
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_play_online_audio:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -223,7 +223,7 @@
     .line 7
     iget-object v0, p0, Lz4e;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f121b47
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_audio_cannot_find_external_audio:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

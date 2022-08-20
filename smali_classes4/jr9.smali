@@ -41,12 +41,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0c24
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_app_divider:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d4a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pad_home_app_divider:I
 
     :goto_0
     const/4 v2, 0x0
@@ -81,7 +81,7 @@
     :try_start_0
     iget-object v1, v1, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemBean;->name:Ljava/lang/String;
 
-    const v2, 0x7f0b1fed
+    sget v2, Lcom/resouce/module/ResID;->phone_home_app_item_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

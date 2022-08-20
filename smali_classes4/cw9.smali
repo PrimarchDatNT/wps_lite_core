@@ -503,7 +503,7 @@
 
     const/high16 v2, 0x42700000    # 60.0f
 
-    const v3, 0x7f120f0a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_file_date_minute_simple:I
 
     const/4 v4, 0x0
 
@@ -614,7 +614,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120f06
+    sget p1, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -665,7 +665,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120f02
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -800,18 +800,18 @@
 
     if-eqz p0, :cond_1
 
-    const p0, 0x7f12208b
+    sget p0, Lcom/resouce/module/ResSTRING;->public_exit_share:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f121dc1
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel_share:I
 
     return p0
 
     :cond_2
     :goto_0
-    const p0, 0x7f121fba
+    sget p0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     return p0
 .end method
@@ -826,13 +826,13 @@
 
     move-result v0
 
-    const v1, 0x7f121256
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     const/16 v2, 0x8
 
     const-string v3, "    "
 
-    const v4, 0x7f122326
+    sget v4, Lcom/resouce/module/ResSTRING;->public_homepage_share_update:I
 
     const-string v5, ""
 
@@ -1275,12 +1275,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122325
+    sget v1, Lcom/resouce/module/ResSTRING;->public_homepage_share_tab_share_with_me:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f122321
+    sget v1, Lcom/resouce/module/ResSTRING;->public_homepage_share_tab_my_share:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1309,15 +1309,15 @@
     :cond_0
     new-instance v8, Lf08;
 
-    const v1, 0x7f081733
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_new_sharefolder:I
 
     const/4 v2, 0x0
 
     const/4 v3, 0x1
 
-    const v4, 0x7f122c6f    # 1.94298E38f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsdrive_newsharefolder_title:I    # 1.94298E38f
 
-    const v5, 0x7f12296d
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share_folder_description:I
 
     const/4 v6, 0x0
 
@@ -1403,13 +1403,13 @@
     :cond_0
     new-instance v8, Lf08;
 
-    const v1, 0x7f081684
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_sharedfile:I
 
     const/4 v2, 0x1
 
     const/4 v3, 0x0
 
-    const v4, 0x7f122c7d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsdrive_view_share_files:I
 
     const/4 v5, -0x1
 
@@ -1559,7 +1559,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f122320
+    sget v1, Lcom/resouce/module/ResSTRING;->public_homepage_share_partly_text:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1649,7 +1649,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0347
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_main_share_selector:I
 
     const/4 v2, 0x0
 
@@ -1667,7 +1667,7 @@
     .line 3
     invoke-virtual {v1}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->useCardViewMenu()V
 
-    const v3, 0x7f0b1171
+    sget v3, Lcom/resouce/module/ResID;->home_share_with_me:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1676,7 +1676,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b10ae
+    sget v4, Lcom/resouce/module/ResID;->home_my_share:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1695,7 +1695,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1719,7 +1719,7 @@
 
     move-result v5
 
-    const v6, 0x7f0605f1
+    sget v6, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     if-eqz v5, :cond_0
 

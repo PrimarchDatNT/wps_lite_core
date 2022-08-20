@@ -195,14 +195,14 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fe9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_deleted_by_author:I
 
     .line 2
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v0, 0x7f121fea
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_deleted_by_author_tips:I
 
     .line 3
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
@@ -216,12 +216,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12075f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cardmode_tips_iknow:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121ff5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_sharing_stopped_ok:I
 
     :goto_0
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
@@ -271,28 +271,28 @@
 .method public static g(Landroid/content/Context;Ljava/lang/Runnable;Ljava/lang/Runnable;Ljava/lang/String;)V
     .locals 8
 
-    const v0, 0x7f121ff1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_no_permission:I
 
     .line 1
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v0, 0x7f121ff2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_no_permission_apply_for_owner:I
 
     .line 2
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v0, 0x7f12221e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request:I
 
     .line 4
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
@@ -340,14 +340,14 @@
 .method public static h(Landroid/content/Context;Ljava/lang/String;)V
     .locals 8
 
-    const v0, 0x7f121ff1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_no_permission:I
 
     .line 1
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v0, 0x7f121ff3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_no_permission_notify_open:I
 
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;
 
@@ -360,12 +360,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12075f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cardmode_tips_iknow:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121ff5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_sharing_stopped_ok:I
 
     :goto_0
     invoke-static {p0, v0}, Lya5;->a(Landroid/content/Context;I)Ljava/lang/String;

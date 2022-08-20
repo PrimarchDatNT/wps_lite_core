@@ -90,7 +90,7 @@
 
     iget-object v0, v0, Ljt7;->a:Landroid/content/Context;
 
-    const v2, 0x7f1224a4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_member_cloud_download_accelerating:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
     .line 9
     iget-object v1, v0, Ljt7;->e:Lsd3;
 
-    const v2, 0x7f1229fe
+    sget v2, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     iget-object v0, v0, Ljt7;->a:Landroid/content/Context;
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -63,7 +63,7 @@
     .line 3
     iget-object v0, p0, Lb1a$m;->B:Landroid/content/Context;
 
-    const v1, 0x7f121d22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_allready_is_wps_vip:I
 
     const/4 v2, 0x0
 

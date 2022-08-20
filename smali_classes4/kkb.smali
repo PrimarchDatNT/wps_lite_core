@@ -615,7 +615,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1200ac
+    sget v0, Lcom/resouce/module/ResSTRING;->app_market_myappurl:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -637,7 +637,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1200ae
+    sget v0, Lcom/resouce/module/ResSTRING;->app_market_playurl:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -888,13 +888,13 @@
     .line 4
     invoke-virtual {v0, v1}, Lkib;->C(I)V
 
-    const v1, 0x7f08072b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f1210cc
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_website_to_longpic_desc:I
 
     const/4 v5, 0x1
 
@@ -951,11 +951,11 @@
     .line 3
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f08180a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_advanced_filter_pics:I
 
-    const v1, 0x7f120879
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode:I
 
-    const v2, 0x7f12087a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_advanced_mode_desc:I
 
     const/4 v3, 0x1
 
@@ -1274,7 +1274,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v0, 0x7f122bd2
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

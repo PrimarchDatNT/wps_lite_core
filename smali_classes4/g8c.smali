@@ -1256,12 +1256,12 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121999
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f12199a
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     .line 5
     :goto_0

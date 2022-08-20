@@ -274,7 +274,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0637
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_exportkeynote_preview:I
 
     const/4 v2, 0x0
 
@@ -290,7 +290,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c10
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -314,7 +314,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c15
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -344,7 +344,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c12
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_preview_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -354,7 +354,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->T:Lcn/wps/moffice/pdf/shell/common/views/PDFTitleBar;
 
-    const v1, 0x7f120ed4
+    sget v1, Lcom/resouce/module/ResSTRING;->home_compressfile_encoding_preview:I
 
     .line 10
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
@@ -401,7 +401,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/pdf/shell/exportkeynote/preview/ExportPreviewView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0c0e
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,7 +433,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0c0f
+    sget v1, Lcom/resouce/module/ResID;->export_keynote_button_imgvip:I
 
     if-nez v0, :cond_2
 
@@ -489,9 +489,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1217e0
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
-    const v4, 0x7f08071c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_export_keynote:I
 
     if-eqz v0, :cond_1
 
@@ -534,7 +534,7 @@
 
     invoke-virtual {v0, v5}, Lkib;->E(Lcn/wps/moffice/main/local/NodeLink;)V
 
-    const v5, 0x7f1217e6
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_text_desc:I
 
     new-array v1, v1, [Lcib$b;
 
@@ -575,7 +575,7 @@
     .line 12
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f1217e1
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_dialog_msg:I
 
     const/4 v5, 0x2
 

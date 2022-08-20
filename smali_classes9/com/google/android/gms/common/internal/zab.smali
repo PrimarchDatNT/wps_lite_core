@@ -51,7 +51,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f1202f6
+    sget v0, Lcom/resouce/module/ResSTRING;->common_google_play_services_notification_channel_name:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
     return-object v1
 
     :pswitch_b
-    const p0, 0x7f1202f2
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_enable_title:I
 
     .line 16
     invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -213,7 +213,7 @@
     return-object p0
 
     :pswitch_c
-    const p0, 0x7f1202fc
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_update_title:I
 
     .line 17
     invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -223,7 +223,7 @@
     return-object p0
 
     :pswitch_d
-    const p0, 0x7f1202f5
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_install_title:I
 
     .line 18
     invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -460,7 +460,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f1202f8
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_unknown_issue:I
 
     .line 3
     invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -572,7 +572,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1202f7
+    sget p1, Lcom/resouce/module/ResSTRING;->common_google_play_services_notification_ticker:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -630,7 +630,7 @@
 
     packed-switch p1, :pswitch_data_0
 
-    const p0, 0x7f1202f8
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_unknown_issue:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -644,7 +644,7 @@
     return-object p0
 
     :pswitch_0
-    const p0, 0x7f1202fd
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_updating_text:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -688,7 +688,7 @@
     return-object p0
 
     :cond_1
-    const p0, 0x7f1202f9
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_unsupported_text:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -722,7 +722,7 @@
     return-object p0
 
     :cond_4
-    const p0, 0x7f1202f1
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_enable_text:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -743,7 +743,7 @@
 
     if-eqz p0, :cond_6
 
-    const p0, 0x7f1202fe
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_wear_update_text:I
 
     .line 13
     invoke-virtual {v0, p0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -753,7 +753,7 @@
     return-object p0
 
     :cond_6
-    const p0, 0x7f1202fb
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_update_text:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -767,7 +767,7 @@
     return-object p0
 
     :cond_7
-    const p0, 0x7f1202f4
+    sget p0, Lcom/resouce/module/ResSTRING;->common_google_play_services_install_text:I
 
     new-array p1, v3, [Ljava/lang/Object;
 
@@ -860,7 +860,7 @@
     return-object p0
 
     :cond_0
-    const p1, 0x7f1202f0
+    sget p1, Lcom/resouce/module/ResSTRING;->common_google_play_services_enable_button:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -870,7 +870,7 @@
     return-object p0
 
     :cond_1
-    const p1, 0x7f1202fa
+    sget p1, Lcom/resouce/module/ResSTRING;->common_google_play_services_update_button:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -880,7 +880,7 @@
     return-object p0
 
     :cond_2
-    const p1, 0x7f1202f3
+    sget p1, Lcom/resouce/module/ResSTRING;->common_google_play_services_install_button:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

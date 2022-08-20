@@ -196,11 +196,11 @@
 
     invoke-virtual {v1, v2, v3, v3}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f080711
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_free:I
 
-    const v3, 0x7f121c87
+    sget v3, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v4, 0x7f12268d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v5, 0x2
 

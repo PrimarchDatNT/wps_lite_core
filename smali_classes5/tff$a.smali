@@ -52,7 +52,7 @@
     .line 2
     iget-object v1, p0, Ltff$a;->B:Landroid/content/Context;
 
-    const v2, 0x7f122905
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_gift_dialog_pick_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -70,7 +70,7 @@
 
     invoke-direct {v1, p0}, Ltff$a$a;-><init>(Ltff$a;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

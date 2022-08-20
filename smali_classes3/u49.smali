@@ -1034,7 +1034,7 @@
     .line 2
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1084,7 +1084,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0869
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_filebrowser_search_base:I
 
     const/4 v2, 0x0
 
@@ -1094,7 +1094,7 @@
 
     iput-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2ab6
+    sget v1, Lcom/resouce/module/ResID;->search_view_layout:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1106,7 +1106,7 @@
     .line 4
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2ac4
+    sget v1, Lcom/resouce/module/ResID;->searchroot:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1123,7 +1123,7 @@
 
     iput-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1166
+    sget v1, Lcom/resouce/module/ResID;->home_search_bar:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1157,9 +1157,9 @@
     .line 9
     iget-object v0, p0, Lu49;->b0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0808dd
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_search_speech_white_icon:I
 
-    const v3, 0x7f0b2c9a
+    sget v3, Lcom/resouce/module/ResID;->speechsearch:I
 
     const/4 v4, 0x0
 
@@ -1168,14 +1168,14 @@
     .line 10
     iget-object v0, p0, Lu49;->b0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0816fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
     .line 11
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2107
+    sget v2, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1206,7 +1206,7 @@
     .line 15
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0421
+    sget v2, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1247,7 +1247,7 @@
     .line 18
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2c9b
+    sget v2, Lcom/resouce/module/ResID;->speechsearch_divider:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1273,7 +1273,7 @@
     .line 21
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1286,7 +1286,7 @@
     .line 22
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b328b
+    sget v1, Lcom/resouce/module/ResID;->tv_think_tab:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1308,7 +1308,7 @@
     .line 24
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d0c
+    sget v1, Lcom/resouce/module/ResID;->file_search_content_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1321,7 +1321,7 @@
     .line 25
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d0e
+    sget v1, Lcom/resouce/module/ResID;->file_search_content_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1359,7 +1359,7 @@
     .line 29
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d0d
+    sget v1, Lcom/resouce/module/ResID;->file_search_content_list_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1376,7 +1376,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122877
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_no_found:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1387,7 +1387,7 @@
     .line 31
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d1d
+    sget v1, Lcom/resouce/module/ResID;->file_searching_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1398,7 +1398,7 @@
     .line 32
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d2f
+    sget v1, Lcom/resouce/module/ResID;->file_speech_searching_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1409,7 +1409,7 @@
     .line 33
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d1b
+    sget v1, Lcom/resouce/module/ResID;->file_search_think_layout_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1422,7 +1422,7 @@
     .line 34
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0fbb
+    sget v1, Lcom/resouce/module/ResID;->header_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1435,7 +1435,7 @@
     .line 35
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b07aa
+    sget v1, Lcom/resouce/module/ResID;->draw_filter:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1459,7 +1459,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_titlebar_btn_border_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1470,7 +1470,7 @@
     .line 38
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d09
+    sget v1, Lcom/resouce/module/ResID;->file_search_blank_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1483,7 +1483,7 @@
     .line 39
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b20dd
+    sget v1, Lcom/resouce/module/ResID;->phone_public_no_network_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1496,7 +1496,7 @@
     .line 40
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2ac1
+    sget v1, Lcom/resouce/module/ResID;->searchparent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1509,7 +1509,7 @@
     .line 41
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d30
+    sget v1, Lcom/resouce/module/ResID;->file_speech_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1520,7 +1520,7 @@
     .line 42
     iget-object v0, p0, Lu49;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d2e
+    sget v1, Lcom/resouce/module/ResID;->file_speech_network_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1831,7 +1831,7 @@
     .line 13
     iget-object v0, p0, Lu49;->B0:Landroid/app/FragmentTransaction;
 
-    const v1, 0x7f0b2a6f
+    sget v1, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     invoke-virtual {v0, v1, p1}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
 
@@ -1882,7 +1882,7 @@
     .line 1
     iget-object v0, p0, Lu49;->Y:Lcn/wps/moffice/common/beans/phone/AlphaImageView;
 
-    const v1, 0x7f0808dd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_search_speech_white_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1921,7 +1921,7 @@
     .line 1
     iget-object v0, p0, Lu49;->S:Landroid/view/View;
 
-    const v1, 0x7f0b117c
+    sget v1, Lcom/resouce/module/ResID;->home_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1934,7 +1934,7 @@
     .line 2
     iget-object v0, p0, Lu49;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a6f
+    sget v1, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1963,7 +1963,7 @@
     .line 5
     iget-object v0, p0, Lu49;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2107
+    sget v1, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1998,7 +1998,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120610
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

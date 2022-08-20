@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e05cf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_share_launcher:I
 
     const/4 v2, 0x1
 
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0f3e
+    sget v1, Lcom/resouce/module/ResID;->grid:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/share/panel/ShareItemsPadPanel;->W:Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;
 
-    const v1, 0x7f0b338b
+    sget v1, Lcom/resouce/module/ResID;->view_all:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

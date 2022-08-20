@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="31.669983dip" android:paddingStart="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/doc2web_date_text_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <TextView android:id="@id/doc2web_date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-</LinearLayout>

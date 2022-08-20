@@ -236,7 +236,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b1d01
+    sget p3, Lcom/resouce/module/ResID;->path_item_text:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -299,7 +299,7 @@
 .method public final e()V
     .locals 7
 
-    const v0, 0x7f0b19cd
+    sget v0, Lcom/resouce/module/ResID;->navigation_bar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0d92
+    sget v2, Lcom/resouce/module/ResID;->first_path:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     sub-int/2addr v1, v3
 
-    const v3, 0x7f0b2a35
+    sget v3, Lcom/resouce/module/ResID;->scroll_container:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

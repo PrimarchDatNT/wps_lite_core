@@ -94,7 +94,7 @@
     :goto_0
     sget v0, Laef;->c:I
 
-    const v3, 0x7f1205ee
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     if-ne p1, v0, :cond_2
 

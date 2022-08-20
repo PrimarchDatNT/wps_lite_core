@@ -70,9 +70,9 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f06008e
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_b3b3b3:I
 
-    const v2, 0x7f060095
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_e8e8e8:I
 
     if-eqz p1, :cond_3
 

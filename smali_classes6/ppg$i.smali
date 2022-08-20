@@ -314,7 +314,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c3d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_upload_file_fail:I
 
     const/4 v2, 0x1
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1229bc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -141,7 +141,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     const/4 v3, 0x0
 
@@ -349,7 +349,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0813dc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_card_mode_col_title_icon:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -491,7 +491,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -530,7 +530,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -636,7 +636,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e01ec
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_pics_item_header:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -661,7 +661,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e01ea
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_pics_item:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -686,7 +686,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e01eb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_pics_item_footer:I
 
     invoke-virtual {p2, v1, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

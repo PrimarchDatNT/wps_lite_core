@@ -234,7 +234,7 @@
 
     invoke-direct {v0}, Lnjl;-><init>()V
 
-    const v1, 0x7f0b1c59
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_read_font_narrow:I
 
     const-string v2, "read-check-narrow"
 
@@ -245,7 +245,7 @@
 
     invoke-direct {v0}, Lojl;-><init>()V
 
-    const v1, 0x7f0b1c58
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_read_font_enlarge:I
 
     const-string v2, "read-check-enlarge"
 
@@ -256,7 +256,7 @@
 
     invoke-direct {v0}, Lhjl;-><init>()V
 
-    const v1, 0x7f0b1c53
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_para_spacing_close:I
 
     const-string v2, "read-check-close-space"
 
@@ -267,7 +267,7 @@
 
     invoke-direct {v0}, Ljjl;-><init>()V
 
-    const v1, 0x7f0b1c55
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_para_spacing_middle:I
 
     const-string v2, "read-check-middle-space"
 
@@ -278,7 +278,7 @@
 
     invoke-direct {v0}, Lijl;-><init>()V
 
-    const v1, 0x7f0b1c54
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_para_spacing_loose:I
 
     const-string v2, "read-check-loose-space"
 
@@ -291,7 +291,7 @@
 
     invoke-direct {v0, v1}, Lkkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b1c30
+    sget v1, Lcom/resouce/module/ResID;->pad_read_arrange_flip:I
 
     const-string v2, "arrange-flip"
 
@@ -304,7 +304,7 @@
 
     invoke-direct {v0, v1}, Llkl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0b1c31
+    sget v1, Lcom/resouce/module/ResID;->pad_read_arrange_scroll:I
 
     const-string v2, "arrange-scroll"
 
@@ -317,7 +317,7 @@
 
     invoke-direct {v0, p0, v1}, Lo8l$f;-><init>(Lo8l;Lo8l$a;)V
 
-    const v2, 0x7f0b1c50
+    sget v2, Lcom/resouce/module/ResID;->pad_writer_jump_to:I
 
     const-string v3, "read-check-jumpto-pages"
 
@@ -328,7 +328,7 @@
 
     invoke-direct {v0, p0, v1}, Lo8l$e;-><init>(Lo8l;Lo8l$a;)V
 
-    const v2, 0x7f0b1c57
+    sget v2, Lcom/resouce/module/ResID;->pad_writer_read_arrange_insert_bookmark:I
 
     const-string v3, "read-check-add-bookmark"
 
@@ -339,7 +339,7 @@
 
     invoke-direct {v0, p0, v1}, Lo8l$g;-><init>(Lo8l;Lwbl;)V
 
-    const v1, 0x7f0b1c56
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_read_arrange_all_bookmarks:I
 
     const-string v2, "read-check-all-bookmarks"
 
@@ -525,7 +525,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100af
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_in:I
 
     .line 3
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -559,7 +559,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100b0
+    sget v1, Lcom/resouce/module/ResANIM;->writer_push_bottom_out:I
 
     .line 3
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -583,7 +583,7 @@
 .method public final G2()V
     .locals 3
 
-    const v0, 0x7f0b1bbf
+    sget v0, Lcom/resouce/module/ResID;->pad_background_gridview:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -599,14 +599,14 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/GridView;->setOverScrollMode(I)V
 
-    const v0, 0x7f0b1c4f
+    sget v0, Lcom/resouce/module/ResID;->pad_writer_document_progress_host:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1c4e
+    sget v1, Lcom/resouce/module/ResID;->pad_writer_document_progress:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -53,7 +53,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Lg65;)V
     .locals 4
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -452,9 +452,9 @@
 
     move-result v0
 
-    const v1, 0x7f120402
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_extract_to_et:I
 
-    const v2, 0x7f08071e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_extract_table:I
 
     const/4 v3, 0x0
 
@@ -493,7 +493,7 @@
     .line 5
     invoke-virtual {v0, p2}, Lkib;->Y(Ljava/lang/String;)V
 
-    const p2, 0x7f1220c5
+    sget p2, Lcom/resouce/module/ResSTRING;->public_extract_table_desc:I
 
     new-array v5, v4, [Lcib$b;
 
@@ -586,7 +586,7 @@
     .line 18
     invoke-virtual {v0, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f12204c
+    sget p1, Lcom/resouce/module/ResSTRING;->public_en_extract_table_desc:I
 
     new-array p2, v4, [Lcib$b;
 
@@ -633,7 +633,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0be5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_extract_table_layout:I
 
     const/4 v2, 0x0
 
@@ -649,7 +649,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/tableextract/impl/TableExtractDialog;->B:Landroid/view/View;
 
-    const v1, 0x7f0b25d2
+    sget v1, Lcom/resouce/module/ResID;->public_extract_table_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -666,7 +666,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120402
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_extract_to_et:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -705,7 +705,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/tableextract/impl/TableExtractDialog;->B:Landroid/view/View;
 
-    const v1, 0x7f0b25d0
+    sget v1, Lcom/resouce/module/ResID;->public_extract_table_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/tableextract/impl/TableExtractDialog;->B:Landroid/view/View;
 
-    const v1, 0x7f0b25d1
+    sget v1, Lcom/resouce/module/ResID;->public_extract_table_progressbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -738,7 +738,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/tableextract/impl/TableExtractDialog;->B:Landroid/view/View;
 
-    const v1, 0x7f0b25ce
+    sget v1, Lcom/resouce/module/ResID;->public_extract_table_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -750,7 +750,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b25cf
+    sget v0, Lcom/resouce/module/ResID;->public_extract_table_btn_text:I
 
     .line 13
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -766,7 +766,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12204b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_en_extract_table_btn:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -795,7 +795,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122980
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_long_pic_limit_free:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

@@ -121,7 +121,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060517
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_btn_bg_color_hi:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -138,7 +138,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06009a
+    sget v0, Lcom/resouce/module/ResCOLOR;->color_ffebebeb:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

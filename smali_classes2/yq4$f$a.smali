@@ -112,7 +112,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1219dd
+    sget v0, Lcom/resouce/module/ResSTRING;->phonetic_switch_language:I
 
     const/4 v1, 0x0
 

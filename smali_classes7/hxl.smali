@@ -93,7 +93,7 @@
 
     iget-object p2, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0e1118
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_tts_native_bar_layout:I
 
     invoke-virtual {p1, v0, p2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 11
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b21e4
+    sget p2, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_play:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
     .line 12
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b21e6
+    sget p2, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_settings:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -142,7 +142,7 @@
     .line 13
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b12a6
+    sget p2, Lcom/resouce/module/ResID;->imageview_phone_writer_tts_controlpanel_play:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -155,7 +155,7 @@
     .line 14
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b21e3
+    sget p2, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_finish:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -166,7 +166,7 @@
     .line 15
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b128c
+    sget p2, Lcom/resouce/module/ResID;->image_play_show:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     .line 16
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b1582
+    sget p2, Lcom/resouce/module/ResID;->layout_tts_native_setting_detail:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -201,7 +201,7 @@
     .line 18
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b2f0b
+    sget p2, Lcom/resouce/module/ResID;->text_default_setting:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -214,7 +214,7 @@
     .line 19
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b2f3d
+    sget p2, Lcom/resouce/module/ResID;->text_tts_custom_setting_title:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
     .line 20
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b2f0a
+    sget p2, Lcom/resouce/module/ResID;->text_custom_setting_detail:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 21
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b1540
+    sget p2, Lcom/resouce/module/ResID;->layout_default_setting:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     .line 22
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b153f
+    sget p2, Lcom/resouce/module/ResID;->layout_custom_setting:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 23
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b1277
+    sget p2, Lcom/resouce/module/ResID;->image_default_setting:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 24
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b1276
+    sget p2, Lcom/resouce/module/ResID;->image_custom_setting:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     .line 25
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b12a7
+    sget p2, Lcom/resouce/module/ResID;->imageview_phone_writer_tts_controlpanel_settings:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
     .line 26
     iget-object p1, p0, Lhxl;->I:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b1581
+    sget p2, Lcom/resouce/module/ResID;->layout_tts_native_outer:I
 
     invoke-virtual {p1, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -320,12 +320,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f080281
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_doc_reading_background_night:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080280
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_doc_reading_background:I
 
     :goto_0
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -716,12 +716,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f081ecd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->tts_native_play_night:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f081ecc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->tts_native_play:I
 
     .line 3
     :goto_0
@@ -775,12 +775,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f081ecb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->tts_native_pause_night:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f081eca
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->tts_native_pause:I
 
     .line 3
     :goto_0
@@ -924,18 +924,18 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f060659
+    sget v0, Lcom/resouce/module/ResCOLOR;->tipGreyColor:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f06050e
+    sget v0, Lcom/resouce/module/ResCOLOR;->progressBarBackgroundColor:I
 
     goto :goto_1
 
     :cond_3
     :goto_0
-    const v0, 0x7f0605f6
+    sget v0, Lcom/resouce/module/ResCOLOR;->selectBlue:I
 
     .line 4
     :goto_1
@@ -1154,7 +1154,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1230f5
+    sget v3, Lcom/resouce/module/ResSTRING;->tts_setting_no_support:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1183,7 +1183,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1540
+    sget v0, Lcom/resouce/module/ResID;->layout_default_setting:I
 
     if-ne p1, v0, :cond_0
 
@@ -1195,7 +1195,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b153f
+    sget v0, Lcom/resouce/module/ResID;->layout_custom_setting:I
 
     if-ne p1, v0, :cond_1
 
@@ -1276,12 +1276,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0605e6
+    sget v0, Lcom/resouce/module/ResCOLOR;->scanScrollWhiteColor:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f06003f
+    sget v0, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     .line 3
     :goto_0
@@ -1291,12 +1291,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f060160
+    sget v1, Lcom/resouce/module/ResCOLOR;->errorTipsTextColor:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0605e8
+    sget v1, Lcom/resouce/module/ResCOLOR;->scanTipTextBgColor:I
 
     .line 4
     :goto_1

@@ -65,15 +65,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01bd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_grid_lines:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0942
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_grid_lines:I
 
     :goto_0
-    const v1, 0x7f120780
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_grid_lines:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -154,7 +154,7 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b095f
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_grid_lines_h:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0960
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_grid_lines_v:I
 
     .line 29
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
     .line 30
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b094d
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_root_h:I
 
     .line 31
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
     .line 32
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0953
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_root_h:I
 
     .line 33
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
     .line 34
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b094e
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_root_v:I
 
     .line 35
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
     .line 36
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0954
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_root_v:I
 
     .line 37
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
     .line 38
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0950
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_textview_h:I
 
     .line 39
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
     .line 40
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0956
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_textview_h:I
 
     .line 41
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -266,7 +266,7 @@
     .line 42
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0951
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_textview_v:I
 
     .line 43
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
     .line 44
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0957
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_textview_v:I
 
     .line 45
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
     .line 46
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b094c
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_h:I
 
     .line 47
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
     .line 48
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0952
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_h:I
 
     .line 49
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
     .line 50
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b094f
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_v:I
 
     .line 51
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
     .line 52
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0955
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_v:I
 
     .line 53
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -350,14 +350,14 @@
     .line 54
     iget-object p1, p0, Lxpf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f120791
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_h_grid_lines:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
     .line 55
     iget-object p1, p0, Lxpf;->f0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f120794
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_v_grid_lines:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -516,7 +516,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b095f
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_grid_lines_h:I
 
     if-ne p1, v0, :cond_0
 
@@ -526,7 +526,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0960
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_grid_lines_v:I
 
     if-ne p1, v0, :cond_1
 
@@ -536,7 +536,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b094d
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_root_h:I
 
     if-ne p1, v0, :cond_2
 
@@ -548,7 +548,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b094c
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_h:I
 
     if-ne p1, v0, :cond_3
 
@@ -558,7 +558,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b0953
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_root_h:I
 
     if-ne p1, v0, :cond_4
 
@@ -570,7 +570,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b0952
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_h:I
 
     if-ne p1, v0, :cond_5
 
@@ -580,7 +580,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b094e
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_root_v:I
 
     if-ne p1, v0, :cond_6
 
@@ -592,7 +592,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0b094f
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_primary_grid_lines_checkbox_v:I
 
     if-ne p1, v0, :cond_7
 
@@ -602,7 +602,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0b0954
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_root_v:I
 
     if-ne p1, v0, :cond_8
 
@@ -614,7 +614,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0b0955
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_secondary_grid_lines_checkbox_v:I
 
     if-ne p1, v0, :cond_9
 

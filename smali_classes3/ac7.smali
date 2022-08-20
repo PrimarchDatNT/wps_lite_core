@@ -32,7 +32,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -350,7 +350,7 @@
 
     iget-object v2, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v3, 0x7f122588
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open:I
 
     .line 2
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

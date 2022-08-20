@@ -162,7 +162,7 @@
 
     iget-object p1, p1, Luj8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121855
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_file_num_tips:I
 
     const/4 v1, 0x1
 

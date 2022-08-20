@@ -59,7 +59,7 @@
     .line 2
     iget-object p1, p0, Lmqi$d;->a:Lmqi;
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {p1, v0}, Lmqi;->c(Lmqi;I)V
 
@@ -69,7 +69,7 @@
     :cond_0
     iget-object p1, p0, Lmqi$d;->a:Lmqi;
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-static {p1, v0}, Lmqi;->c(Lmqi;I)V
 
@@ -98,7 +98,7 @@
     :cond_0
     iget-object p1, p0, Lmqi$d;->a:Lmqi;
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-static {p1, v0}, Lmqi;->c(Lmqi;I)V
 

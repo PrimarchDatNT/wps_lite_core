@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080780
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_translate:I
 
-    const v3, 0x7f120cd4
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
-    const v4, 0x7f120cc9
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_1:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

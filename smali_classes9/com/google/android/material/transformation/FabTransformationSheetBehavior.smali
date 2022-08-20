@@ -52,12 +52,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f02001b
+    sget p2, Lcom/resouce/module/ResANIMATOR;->mtrl_fab_transformation_sheet_expand_spec:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f02001a
+    sget p2, Lcom/resouce/module/ResANIMATOR;->mtrl_fab_transformation_sheet_collapse_spec:I
 
     .line 1
     :goto_0

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/phone_public_list_selector" android:layout_width="fill_parent" android:layout_height="56.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/indicator" android:background="@color/WPSMainColor" android:layout_width="4.0dip" android:layout_height="24.0dip" />
-    <TextView android:ellipsize="end" android:gravity="start|center" android:id="@id/item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" style="@style/writer_font_m_black_highlight" />
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/close" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/phone_home_message_tips_close" android:scaleType="fitXY" android:contentDescription="@string/reader_public_close" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/public_image_bg_style" />
-</LinearLayout>

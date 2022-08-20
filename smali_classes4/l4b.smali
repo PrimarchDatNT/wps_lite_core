@@ -16,7 +16,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f120484
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_recognizing_txt:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, p0}, Ll4b$a;-><init>(Ll4b;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

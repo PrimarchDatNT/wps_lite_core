@@ -51,7 +51,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e04c3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->new_home_page_list_view_header:I
 
     const/4 v1, 0x0
 
@@ -107,7 +107,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b1634
+    sget v1, Lcom/resouce/module/ResID;->listview_header_gap:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
     .line 2
     iget-object v0, p0, Lrv9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f32
+    sget v1, Lcom/resouce/module/ResID;->gradient_banner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
     .line 2
     iget-object v0, p0, Lrv9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1bb0
+    sget v1, Lcom/resouce/module/ResID;->oversea_novel_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
     .line 2
     iget-object v0, p0, Lrv9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b226e
+    sget v1, Lcom/resouce/module/ResID;->popularize_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -444,7 +444,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0b92
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_custom_notification:I
 
     invoke-direct {v2, v3, v4}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -491,17 +491,17 @@
 
     move-result v3
 
-    const v6, 0x7f081d0e
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->push:I
 
-    const v7, 0x7f0b1a6d    # 1.848999E38f
+    sget v7, Lcom/resouce/module/ResID;->notification_style1:I    # 1.848999E38f
 
     const/16 v12, 0x8
 
-    const v13, 0x7f0b1a67
+    sget v13, Lcom/resouce/module/ResID;->notification_bg:I
 
     const/4 v14, 0x0
 
-    const v15, 0x7f0b1a69
+    sget v15, Lcom/resouce/module/ResID;->notification_icon:I
 
     if-eqz v3, :cond_8
 
@@ -586,14 +586,14 @@
     .line 22
     invoke-virtual {v2, v7, v14}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v1, 0x7f0b1a6f    # 1.8489994E38f
+    sget v1, Lcom/resouce/module/ResID;->notification_style1_title:I    # 1.8489994E38f
 
     .line 23
     iget-object v3, v8, Lcn/wps/moffice/main/push/util/PushPenetrateMsgBean;->ad_title:Ljava/lang/String;
 
     invoke-virtual {v2, v1, v3}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v1, 0x7f0b1a6e    # 1.8489992E38f
+    sget v1, Lcom/resouce/module/ResID;->notification_style1_content:I    # 1.8489992E38f
 
     .line 24
     iget-object v3, v8, Lcn/wps/moffice/main/push/util/PushPenetrateMsgBean;->ad_content:Ljava/lang/String;

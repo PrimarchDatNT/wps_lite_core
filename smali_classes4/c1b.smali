@@ -437,11 +437,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080508
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_certificate_premium_guide:I
 
-    const v2, 0x7f1203d7
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_certificate_premium_title:I
 
-    const v3, 0x7f1203d6
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_certificate_premium_des:I
 
     .line 2
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -1584,7 +1584,7 @@
     .line 1
     iget-object v0, p0, Lc1b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x1
 

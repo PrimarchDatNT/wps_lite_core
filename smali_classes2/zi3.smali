@@ -341,7 +341,7 @@
 
     if-nez p2, :cond_0
 
-    const v2, 0x7f0e0512
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_color_select_item:I
 
     .line 2
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -353,7 +353,7 @@
 
     invoke-direct {v0, p0, p1, p2}, Lzi3$d;-><init>(Lzi3;Landroid/view/View;I)V
 
-    const p2, 0x7f0b1bc6
+    sget p2, Lcom/resouce/module/ResID;->pad_color_select_iv:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -369,11 +369,11 @@
     :cond_0
     const/4 v2, 0x2
 
-    const v3, 0x7f0b1bc4
+    sget v3, Lcom/resouce/module/ResID;->pad_color_select_btn:I
 
     if-ne p2, v2, :cond_1
 
-    const v2, 0x7f0e0514
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_color_select_two_btn_header:I
 
     .line 5
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     iput-object p2, v0, Lzi3$d;->k0:Landroid/widget/Button;
 
-    const p2, 0x7f0b1bc5
+    sget p2, Lcom/resouce/module/ResID;->pad_color_select_extra_btn:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e0511
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_color_select_header:I
 
     .line 9
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

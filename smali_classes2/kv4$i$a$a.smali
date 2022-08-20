@@ -65,7 +65,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122705
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_scan_from_scan:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

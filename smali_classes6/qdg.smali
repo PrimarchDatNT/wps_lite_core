@@ -222,7 +222,7 @@
     .line 6
     iget-object p1, p0, Lqdg;->I:Landroid/app/Activity;
 
-    const v1, 0x7f12233a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -391,7 +391,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120b6c
+    sget v3, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     if-eq p3, v0, :cond_3
 
@@ -546,7 +546,7 @@
     .line 5
     invoke-virtual {p3, v0, v1}, Lp2m;->F(II)V
 
-    const p3, 0x7f120b6b
+    sget p3, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_file:I
 
     const/4 v0, 0x0
 
@@ -612,7 +612,7 @@
 
     if-eqz p2, :cond_1
 
-    const p1, 0x7f120b6a
+    sget p1, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_directory:I
 
     .line 11
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -793,7 +793,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120b6c
+    sget p1, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     const/4 p3, 0x0
 

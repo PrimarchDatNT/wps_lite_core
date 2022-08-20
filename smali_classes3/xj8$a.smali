@@ -159,7 +159,7 @@
 
     iget-object p1, p1, Luj8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f12149a
+    sget v0, Lcom/resouce/module/ResSTRING;->notice_download_failed:I
 
     const/4 v1, 0x1
 

@@ -117,12 +117,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f070d53
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_public_mi_titlebar_height:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070828
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_titlebar_height:I
 
     .line 3
     :goto_0

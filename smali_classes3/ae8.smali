@@ -178,7 +178,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0134
+    sget p2, Lcom/resouce/module/ResLAYOUT;->documentmanager_circleprogress_layout:I
 
     const/4 v1, 0x0
 

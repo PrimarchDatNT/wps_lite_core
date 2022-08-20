@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/documents_about_item" style="@style/home_drop_down_dialog_item"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/documents_about_item_img" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="20.0dip" android:scaleType="centerInside" android:layout_marginStart="18.0dip" android:layout_marginEnd="20.0dip" />
-    <TextView android:id="@id/documents_about_item_text" android:layout_marginLeft="0.0dip" android:layout_marginRight="18.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="18.0dip" style="@style/home_dialog_list_item_text" />
-</LinearLayout>

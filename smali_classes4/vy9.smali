@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1109
+    sget v1, Lcom/resouce/module/ResID;->home_page_loading:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f0e0743
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_qing_roaming_import_process_stub:I
 
     return v0
 .end method
@@ -246,7 +246,7 @@
 .method public u()I
     .locals 1
 
-    const v0, 0x7f0e074e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_roaming_oversea_record_list:I
 
     return v0
 .end method

@@ -408,7 +408,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v1, 0x0
 
@@ -991,12 +991,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0584
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_wps_drive_layout:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e03dd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_layout:I
 
     return v0
 .end method
@@ -1159,7 +1159,7 @@
     .line 1
     iget-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b348c
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_path_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1321,7 +1321,7 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0b3485
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_login_describe:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2177,7 +2177,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2273,12 +2273,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0585
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_wps_drive_path_gallery_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0765
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_wps_drive_path_gallery_layout:I
 
     .line 2
     :goto_0
@@ -2292,7 +2292,7 @@
 
     invoke-virtual {v1, v0, p1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1cfc
+    sget v0, Lcom/resouce/module/ResID;->path_gallery:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2761,7 +2761,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03dc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_footer_stub_layout:I
 
     const/4 v2, 0x0
 
@@ -3027,7 +3027,7 @@
     .line 3
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f122c46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_auto_backup_open_success:I
 
     const/4 v2, 0x0
 
@@ -3280,7 +3280,7 @@
 
     iput-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0cd9
+    sget v1, Lcom/resouce/module/ResID;->file_list:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -3294,7 +3294,7 @@
     .line 5
     iget-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2df6
+    sget v1, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3331,7 +3331,7 @@
     :cond_0
     iget-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2036
+    sget v1, Lcom/resouce/module/ResID;->phone_home_root_tab_bar_operator:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3351,7 +3351,7 @@
     .line 11
     iget-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b348b
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_path_gallary_div_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3468,7 +3468,7 @@
     .line 30
     iget-object v0, p0, Lgj7;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2051
+    sget v1, Lcom/resouce/module/ResID;->phone_home_wpsdrive_full_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -4570,7 +4570,7 @@
     .line 2
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v0, 0x0
 

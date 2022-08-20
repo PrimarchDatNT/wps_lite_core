@@ -361,7 +361,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0de5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_premium_guide_layout:I
 
     const/4 v2, 0x0
 
@@ -374,7 +374,7 @@
 
     iput-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1708
+    sget v1, Lcom/resouce/module/ResID;->ll_vip_guide_close_content:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -386,7 +386,7 @@
     .line 7
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1709
+    sget v2, Lcom/resouce/module/ResID;->ll_vip_guide_content:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -406,7 +406,7 @@
     .line 9
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1257
+    sget v1, Lcom/resouce/module/ResID;->id_photo_progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 10
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32ac
+    sget v1, Lcom/resouce/module/ResID;->tv_vip_guide_original_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -430,7 +430,7 @@
     .line 11
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32ad
+    sget v1, Lcom/resouce/module/ResID;->tv_vip_guide_pay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 12
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b32ab
+    sget v1, Lcom/resouce/module/ResID;->tv_vip_guide_declare:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 13
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1707
+    sget v1, Lcom/resouce/module/ResID;->ll_vip_guide_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -471,7 +471,7 @@
     .line 14
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b170a
+    sget v1, Lcom/resouce/module/ResID;->ll_vip_guide_pay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,7 +652,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f122bbe
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vip_guide_upgrade_premium:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -683,7 +683,7 @@
 
     iget-object v3, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f122bbc
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vip_guide_trial_cancel:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -734,7 +734,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -743,7 +743,7 @@
     .line 4
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122bb7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_guide_original_price:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
     .line 6
     iget-object v0, p0, Lis4;->I:Landroid/view/View;
 
-    const v5, 0x7f0b1708
+    sget v5, Lcom/resouce/module/ResID;->ll_vip_guide_close_content:I
 
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1001,17 +1001,17 @@
 
     iput-object p1, p0, Lis4;->c0:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f08155a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_network:I
 
     .line 14
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 15
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 16
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -1062,7 +1062,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122bbb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_guide_start_trial:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1094,7 +1094,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122bbc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_guide_trial_cancel:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1133,7 +1133,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122bbe
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_guide_upgrade_premium:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1159,7 +1159,7 @@
     .line 32
     iget-object p1, p0, Lis4;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f121885    # 1.941946E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_paypage_cancel_txt:I    # 1.941946E38f
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

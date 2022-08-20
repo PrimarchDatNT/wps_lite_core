@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="68.0dip" android:layout_height="68.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.V10RoundRectImageView android:layout_gravity="bottom" android:id="@id/bg_item_img" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@color/v10_public_edit_background_80_gray" android:scaleType="fitXY" app:selected_cover_color="@color/maskBackgroundColor" />
-    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/download_progressbar" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="2.0dip" android:maxHeight="4.0dip" android:progressDrawable="@drawable/home_theme_download_progress" android:minHeight="4.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" style="?android:progressBarStyleHorizontal" />
-    <ImageView android:layout_gravity="end|center|top" android:id="@id/member_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0df8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_receive_pc_file_view:I
 
     const/4 v2, 0x0
 
@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/TopReceiveTipsBar;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2819
+    sget v1, Lcom/resouce/module/ResID;->receive_content:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/TopReceiveTipsBar;->a:Landroid/view/View;
 
-    const v1, 0x7f0b281a
+    sget v1, Lcom/resouce/module/ResID;->receive_fileName:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -73,7 +73,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/filetransfer/ext/TopReceiveTipsBar;->a:Landroid/view/View;
 
-    const v1, 0x7f0b281b
+    sget v1, Lcom/resouce/module/ResID;->receive_file_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

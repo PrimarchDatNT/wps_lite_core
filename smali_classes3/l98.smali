@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1231cd
+    sget v1, Lcom/resouce/module/ResSTRING;->wei_yun_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122c02
+    sget v0, Lcom/resouce/module/ResSTRING;->public_weiyun_get_userinfo_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -605,7 +605,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

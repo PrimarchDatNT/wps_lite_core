@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01c7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_complex_format_dialog:I
 
     const/4 v2, 0x0
 
@@ -205,7 +205,7 @@
 
     iput-object v1, p0, Lfmf;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b09b4
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
     .line 4
     iget-object v0, p0, Lfmf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b09b9
+    sget v1, Lcom/resouce/module/ResID;->et_complex_format_origin_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -234,7 +234,7 @@
 
     iget-object v1, p0, Lfmf;->B:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Ldmf;-><init>(Landroid/content/Context;I)V
 
@@ -361,22 +361,22 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq v0, v1, :cond_2
 
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq v0, v1, :cond_2
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     if-ne v0, v1, :cond_3
 
@@ -387,7 +387,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f120bab
+    sget p1, Lcom/resouce/module/ResSTRING;->et_number_custom_format_warning:I
 
     const/4 v0, 0x1
 
@@ -565,7 +565,7 @@
 
     iget-object v2, p0, Lfmf;->B:Landroid/content/Context;
 
-    const v4, 0x7f0e01c9
+    sget v4, Lcom/resouce/module/ResLAYOUT;->et_complex_format_dialog_listitem:I
 
     const/4 v0, 0x2
 

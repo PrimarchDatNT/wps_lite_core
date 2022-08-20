@@ -1417,7 +1417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1bc1
+    sget v1, Lcom/resouce/module/ResID;->pad_bottom_comments_tools:I
 
     invoke-virtual {v0, v1}, Lxyl;->m(I)Landroid/view/View;
 

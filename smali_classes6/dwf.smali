@@ -230,7 +230,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e096f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_function_itemv:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -246,7 +246,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e01fa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_function_itemv:I
 
     invoke-virtual {p2, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -258,7 +258,7 @@
 
     invoke-direct {v1, p0, v0}, Ldwf$c;-><init>(Ldwf;Ldwf$a;)V
 
-    const v2, 0x7f0b0a7a
+    sget v2, Lcom/resouce/module/ResID;->et_function_itemv_name:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     iput-object v2, v1, Ldwf$c;->a:Landroid/widget/TextView;
 
-    const v2, 0x7f0b0a7b
+    sget v2, Lcom/resouce/module/ResID;->et_function_itemv_params:I
 
     .line 6
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -296,7 +296,7 @@
     if-eqz v2, :cond_2
 
     :cond_1
-    const v2, 0x7f0b0a79
+    sget v2, Lcom/resouce/module/ResID;->et_function_itemv_desc:I
 
     .line 8
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -424,7 +424,7 @@
 
     move-result-object p1
 
-    const v4, 0x7f081616
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_excel_func_guide:I
 
     invoke-virtual {p1, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

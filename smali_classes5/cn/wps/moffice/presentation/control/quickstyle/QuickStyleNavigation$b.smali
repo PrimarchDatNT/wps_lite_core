@@ -65,7 +65,7 @@
 
     invoke-static {v0}, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;->d(Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;)V
 
-    const v0, 0x7f0b23fc
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_styleBtn_pad:I
 
     if-ne p1, v0, :cond_1
 
@@ -105,7 +105,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b23e9
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_fillBtn_pad:I
 
     if-ne p1, v0, :cond_2
 
@@ -145,7 +145,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b23f9
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_outlineBtn_pad:I
 
     if-ne p1, v0, :cond_3
 

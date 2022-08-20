@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121c47
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_slidelayout_loading:I
 
     const/4 v2, 0x0
 

@@ -334,7 +334,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0917
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_scan_long_pic_share_preview_item:I
 
     const/4 v2, 0x0
 
@@ -347,7 +347,7 @@
 
     invoke-direct {v0}, Lmya$f;-><init>()V
 
-    const v2, 0x7f0b2a11
+    sget v2, Lcom/resouce/module/ResID;->scan_long_pic_share_preview_item_img:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -358,7 +358,7 @@
 
     iput-object v2, v0, Lmya$f;->b:Lcn/wps/moffice/main/scan/dialog/longpicture/preview/PreviewPageView;
 
-    const v2, 0x7f0b2a0e
+    sget v2, Lcom/resouce/module/ResID;->scan_long_pic_share_preview_item_bgview:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     iput-object v2, v0, Lmya$f;->c:Landroid/view/View;
 
-    const v2, 0x7f0b2a12
+    sget v2, Lcom/resouce/module/ResID;->scan_long_pic_share_preview_item_supercanvas:I
 
     .line 6
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

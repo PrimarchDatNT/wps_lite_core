@@ -719,7 +719,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e00f6
+    sget v3, Lcom/resouce/module/ResLAYOUT;->dialog_privacy_changed:I
 
     invoke-virtual {v2, v3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -751,7 +751,7 @@
     invoke-virtual {v2, v3, v3, v3, v3}, Landroid/view/ViewGroup;->setPaddingRelative(IIII)V
 
     :cond_1
-    const v2, 0x7f0b06f4
+    sget v2, Lcom/resouce/module/ResID;->dlg_privacy_policy_title:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -760,7 +760,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f0b06f3
+    sget v4, Lcom/resouce/module/ResID;->dlg_privacy_policy_content:I
 
     .line 10
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -769,7 +769,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b32cd
+    sget v5, Lcom/resouce/module/ResID;->txt_read_and_agree:I
 
     .line 11
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -799,7 +799,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f122b4d
+    sget v7, Lcom/resouce/module/ResSTRING;->public_update_privacy_title:I
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -827,7 +827,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f122b4b
+    sget v8, Lcom/resouce/module/ResSTRING;->public_update_privacy_content:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -855,7 +855,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120389
+    sget v9, Lcom/resouce/module/ResSTRING;->dialog_pricacy_changed_sub_list:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -875,7 +875,7 @@
 
     new-array v4, v2, [Landroid/view/View;
 
-    const v5, 0x7f0b06f0
+    sget v5, Lcom/resouce/module/ResID;->dlg_pricacy_policy_lay:I
 
     .line 24
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -884,7 +884,7 @@
 
     aput-object v5, v4, v3
 
-    const v5, 0x7f0b06df
+    sget v5, Lcom/resouce/module/ResID;->dlg_final_user_agreement_lay:I
 
     .line 25
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -895,7 +895,7 @@
 
     aput-object v5, v4, v6
 
-    const v5, 0x7f0b06e9
+    sget v5, Lcom/resouce/module/ResID;->dlg_online_user_agreement_lay:I
 
     .line 26
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -906,7 +906,7 @@
 
     aput-object v5, v4, v7
 
-    const v5, 0x7f0b06f2
+    sget v5, Lcom/resouce/module/ResID;->dlg_privacy_cancel:I
 
     .line 27
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -919,7 +919,7 @@
 
     const/4 v5, 0x4
 
-    const v9, 0x7f0b06f1
+    sget v9, Lcom/resouce/module/ResID;->dlg_privacy_agree:I
 
     .line 28
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -930,7 +930,7 @@
 
     const/4 v5, 0x5
 
-    const v9, 0x7f0b06ee
+    sget v9, Lcom/resouce/module/ResID;->dlg_pricacy_policy:I
 
     .line 29
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -941,7 +941,7 @@
 
     const/4 v5, 0x6
 
-    const v9, 0x7f0b06dd
+    sget v9, Lcom/resouce/module/ResID;->dlg_final_user_agreement:I
 
     .line 30
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -952,7 +952,7 @@
 
     const/4 v5, 0x7
 
-    const v9, 0x7f0b06e7
+    sget v9, Lcom/resouce/module/ResID;->dlg_online_user_agreement:I
 
     .line 31
     invoke-virtual {v0, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -992,7 +992,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0b06ef
+    sget p1, Lcom/resouce/module/ResID;->dlg_pricacy_policy_cb:I
 
     .line 36
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1101,7 +1101,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e00f6
+    sget v3, Lcom/resouce/module/ResLAYOUT;->dialog_privacy_changed:I
 
     invoke-virtual {v2, v3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1133,7 +1133,7 @@
     invoke-virtual {v2, v3, v3, v3, v3}, Landroid/view/ViewGroup;->setPaddingRelative(IIII)V
 
     :cond_1
-    const v2, 0x7f0b06f4
+    sget v2, Lcom/resouce/module/ResID;->dlg_privacy_policy_title:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1142,7 +1142,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v4, 0x7f0b06f3
+    sget v4, Lcom/resouce/module/ResID;->dlg_privacy_policy_content:I
 
     .line 10
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1151,7 +1151,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b32cd
+    sget v5, Lcom/resouce/module/ResID;->txt_read_and_agree:I
 
     .line 11
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1181,7 +1181,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f122b51
+    sget v7, Lcom/resouce/module/ResSTRING;->public_update_user_agreement_title:I
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1209,7 +1209,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f122b50
+    sget v8, Lcom/resouce/module/ResSTRING;->public_update_user_agreement_content:I
 
     invoke-virtual {v7, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1237,7 +1237,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f120389
+    sget v9, Lcom/resouce/module/ResSTRING;->dialog_pricacy_changed_sub_list:I
 
     invoke-virtual {v8, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1257,7 +1257,7 @@
 
     new-array v4, v2, [Landroid/view/View;
 
-    const v5, 0x7f0b06f0
+    sget v5, Lcom/resouce/module/ResID;->dlg_pricacy_policy_lay:I
 
     .line 24
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1266,7 +1266,7 @@
 
     aput-object v6, v4, v3
 
-    const v6, 0x7f0b06df
+    sget v6, Lcom/resouce/module/ResID;->dlg_final_user_agreement_lay:I
 
     .line 25
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1277,7 +1277,7 @@
 
     aput-object v6, v4, v7
 
-    const v6, 0x7f0b06e9
+    sget v6, Lcom/resouce/module/ResID;->dlg_online_user_agreement_lay:I
 
     .line 26
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1288,7 +1288,7 @@
 
     aput-object v6, v4, v8
 
-    const v6, 0x7f0b06f2
+    sget v6, Lcom/resouce/module/ResID;->dlg_privacy_cancel:I
 
     .line 27
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1301,7 +1301,7 @@
 
     const/4 v6, 0x4
 
-    const v10, 0x7f0b06f1
+    sget v10, Lcom/resouce/module/ResID;->dlg_privacy_agree:I
 
     .line 28
     invoke-virtual {v0, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1312,7 +1312,7 @@
 
     const/4 v6, 0x5
 
-    const v10, 0x7f0b06ee
+    sget v10, Lcom/resouce/module/ResID;->dlg_pricacy_policy:I
 
     .line 29
     invoke-virtual {v0, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1323,7 +1323,7 @@
 
     const/4 v6, 0x6
 
-    const v10, 0x7f0b06dd
+    sget v10, Lcom/resouce/module/ResID;->dlg_final_user_agreement:I
 
     .line 30
     invoke-virtual {v0, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1334,7 +1334,7 @@
 
     const/4 v6, 0x7
 
-    const v10, 0x7f0b06e7
+    sget v10, Lcom/resouce/module/ResID;->dlg_online_user_agreement:I
 
     .line 31
     invoke-virtual {v0, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1373,7 +1373,7 @@
     :cond_6
     new-array v5, v8, [Landroid/widget/CheckBox;
 
-    const v6, 0x7f0b06de
+    sget v6, Lcom/resouce/module/ResID;->dlg_final_user_agreement_cb:I
 
     .line 35
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1384,7 +1384,7 @@
 
     aput-object v6, v5, v3
 
-    const v6, 0x7f0b06e8
+    sget v6, Lcom/resouce/module/ResID;->dlg_online_user_agreement_cb:I
 
     .line 36
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;

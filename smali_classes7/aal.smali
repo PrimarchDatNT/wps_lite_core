@@ -41,7 +41,7 @@
     .line 2
     iput-object p1, p0, Laal;->a:Landroid/view/View;
 
-    const v0, 0x7f0b01d9
+    sget v0, Lcom/resouce/module/ResID;->background_mine_imageview:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -537,11 +537,11 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v2, 0x7f0b01de
+    sget v2, Lcom/resouce/module/ResID;->background_type_light_orange_layout:I
 
     const/16 v3, 0x8
 
-    const v4, 0x7f0b01da
+    sget v4, Lcom/resouce/module/ResID;->background_mine_layout:I
 
     if-eqz v1, :cond_7
 

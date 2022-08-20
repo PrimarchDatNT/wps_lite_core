@@ -423,7 +423,7 @@
     .line 2
     iget-object v0, p0, Lbxc;->g:Landroid/view/View;
 
-    const v1, 0x7f0b1def
+    sget v1, Lcom/resouce/module/ResID;->pdf_edittoolbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     :goto_0
     iget-object v2, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v3, 0x7f0b1e44
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_all_bookmark:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -475,7 +475,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1de7
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_annotation:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -494,7 +494,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1ded
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_view:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -513,7 +513,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1dea
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_edit:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -532,7 +532,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1deb
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_play:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -551,7 +551,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1de8
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_autoplay:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -570,7 +570,7 @@
 
     iget-object v4, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v5, 0x7f0b1de9
+    sget v5, Lcom/resouce/module/ResID;->pdf_edit_toolbar_convert:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -584,27 +584,27 @@
     .line 11
     invoke-virtual {p0}, Lbxc;->L()V
 
-    const v0, 0x7f0b1e4b
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_coverpen:I
 
     .line 12
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e4f
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2doc:I
 
     .line 13
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e50
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2ppt:I
 
     .line 14
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e51
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2xls:I
 
     .line 15
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e40
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_add_bookmark:I
 
     .line 16
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
@@ -612,142 +612,142 @@
     .line 17
     invoke-virtual {p0, v3}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e5a
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_outline:I
 
     .line 18
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e68
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_thumbnails:I
 
     .line 19
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e3e
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_search:I
 
     .line 20
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e3f
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_translate:I
 
     .line 21
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e3a
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_fit_pad:I
 
     .line 22
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e3b
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_jump:I
 
     .line 23
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1e3c
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_night_mode:I
 
     .line 24
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e38
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_toolbar_annotation:I
 
     .line 25
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e62
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_recycle_play:I
 
     .line 26
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e48
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_autoplay_intervals:I
 
     .line 27
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e5d
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_homepage:I
 
     .line 28
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e5c
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_curpage:I
 
     .line 29
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e47
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_autoplay:I
 
     .line 30
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v2, 0x7f0b1e60
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     .line 31
     invoke-virtual {p0, v2}, Lbxc;->U(I)V
 
-    const v3, 0x7f0b1e55
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_highlight_pen_one:I
 
     .line 32
     invoke-virtual {p0, v3}, Lbxc;->U(I)V
 
-    const v3, 0x7f0b1e5b
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_pen_one:I
 
     .line 33
     invoke-virtual {p0, v3}, Lbxc;->U(I)V
 
-    const v3, 0x7f0b1e69
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_underline:I
 
     .line 34
     invoke-virtual {p0, v3}, Lbxc;->U(I)V
 
-    const v4, 0x7f0b1e6a
+    sget v4, Lcom/resouce/module/ResID;->pdf_main_topbar_wavy:I
 
     .line 35
     invoke-virtual {p0, v4}, Lbxc;->U(I)V
 
-    const v5, 0x7f0b1e67
+    sget v5, Lcom/resouce/module/ResID;->pdf_main_topbar_text_highlight:I
 
     .line 36
     invoke-virtual {p0, v5}, Lbxc;->U(I)V
 
-    const v6, 0x7f0b1e4c    # 1.8492E38f
+    sget v6, Lcom/resouce/module/ResID;->pdf_main_topbar_del_line:I    # 1.8492E38f
 
     .line 37
     invoke-virtual {p0, v6}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e52
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_eraser:I
 
     .line 38
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e56
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_hightlight_area:I
 
     .line 39
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e41
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_add_shape:I
 
     .line 40
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e43
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_add_text:I
 
     .line 41
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e42
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_add_sign:I
 
     .line 42
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e49
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_circle_select:I
 
     .line 43
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v7, 0x7f0b1e45
+    sget v7, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     .line 44
     invoke-virtual {p0, v7}, Lbxc;->U(I)V
 
-    const v8, 0x7f0b1e58
+    sget v8, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     .line 45
     invoke-virtual {p0, v8}, Lbxc;->U(I)V
@@ -811,7 +811,7 @@
     .line 50
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v8, 0x7f0b1dbb
+    sget v8, Lcom/resouce/module/ResID;->pdf_edit_arrow_left:I
 
     invoke-virtual {v0, v8}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 51
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v8, 0x7f0b1dbc
+    sget v8, Lcom/resouce/module/ResID;->pdf_edit_arrow_right:I
 
     invoke-virtual {v0, v8}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -833,7 +833,7 @@
     .line 52
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v8, 0x7f0b1e3d
+    sget v8, Lcom/resouce/module/ResID;->pdf_main_toolbar_scroll:I
 
     invoke-virtual {v0, v8}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -901,7 +901,7 @@
     .line 60
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v2, 0x7f0b1e4d
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_divider:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1060,7 +1060,7 @@
     .line 11
     iget-object v1, p0, Lbxc;->g:Landroid/view/View;
 
-    const v2, 0x7f0b1e62
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_recycle_play:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1117,7 +1117,7 @@
     .line 7
     iget-object v2, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v3, 0x7f0b1e5c
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_curpage:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1130,7 +1130,7 @@
     .line 8
     iget-object v2, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v4, 0x7f0b1e5d
+    sget v4, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_homepage:I
 
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1183,7 +1183,7 @@
     :goto_0
     iget-object v1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v2, 0x7f0b1e44
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_all_bookmark:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1221,7 +1221,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b1e4f
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2doc:I
 
     .line 3
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1229,7 +1229,7 @@
     .line 4
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1d4b
+    sget v0, Lcom/resouce/module/ResID;->pdf2doc_limit_free_btn:I
 
     .line 5
     sget-object v2, Lys9$b;->T:Lys9$b;
@@ -1250,7 +1250,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b1e50
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2ppt:I
 
     .line 7
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1258,7 +1258,7 @@
     .line 8
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1d4f
+    sget v0, Lcom/resouce/module/ResID;->pdf2ppt_limit_free_btn:I
 
     .line 9
     sget-object v2, Lys9$b;->e0:Lys9$b;
@@ -1279,7 +1279,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b1e51
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2xls:I
 
     .line 11
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1287,7 +1287,7 @@
     .line 12
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1d50
+    sget v0, Lcom/resouce/module/ResID;->pdf2xls_limit_free_btn:I
 
     .line 13
     sget-object v2, Lys9$b;->f0:Lys9$b;
@@ -1306,7 +1306,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b0c26
+    sget v0, Lcom/resouce/module/ResID;->export_pic_pdf_item:I
 
     .line 15
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1314,7 +1314,7 @@
     .line 16
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b0c25
+    sget v0, Lcom/resouce/module/ResID;->export_pic_limit_free_btn:I
 
     .line 17
     sget-object v2, Lys9$b;->y0:Lys9$b;
@@ -1333,7 +1333,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0b1777
+    sget v0, Lcom/resouce/module/ResID;->long_pic_item:I
 
     .line 19
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1341,7 +1341,7 @@
     .line 20
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1778
+    sget v0, Lcom/resouce/module/ResID;->long_pic_limit_free_btn:I
 
     .line 21
     sget-object v2, Lys9$b;->I:Lys9$b;
@@ -1360,7 +1360,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f0b1d4d
+    sget v0, Lcom/resouce/module/ResID;->pdf2pics_item:I
 
     .line 23
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1368,7 +1368,7 @@
     .line 24
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1d4e
+    sget v0, Lcom/resouce/module/ResID;->pdf2pics_limit_free_btn:I
 
     .line 25
     sget-object v2, Lys9$b;->p0:Lys9$b;
@@ -1415,7 +1415,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v3, 0x7f0b220d
+    sget v3, Lcom/resouce/module/ResID;->pic2pdfs_item:I
 
     .line 29
     invoke-virtual {p0, v3, v0}, Lbxc;->V(IZ)V
@@ -1425,7 +1425,7 @@
 
     if-eqz v0, :cond_7
 
-    const v0, 0x7f0b220e
+    sget v0, Lcom/resouce/module/ResID;->pic2pdfs_limit_free_btn:I
 
     .line 31
     sget-object v3, Lys9$b;->O0:Lys9$b;
@@ -1444,7 +1444,7 @@
 
     if-eqz v0, :cond_8
 
-    const v0, 0x7f0b1e3f
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_toolbar_translate:I
 
     .line 33
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1460,7 +1460,7 @@
 
     if-eqz v0, :cond_9
 
-    const v0, 0x7f0b13bb
+    sget v0, Lcom/resouce/module/ResID;->item_edit:I
 
     .line 36
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1468,7 +1468,7 @@
     .line 37
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b081b
+    sget v0, Lcom/resouce/module/ResID;->edit_limit_free_btn:I
 
     .line 38
     sget-object v3, Lys9$b;->w0:Lys9$b;
@@ -1485,13 +1485,13 @@
 
     move-result v0
 
-    const v3, 0x7f0b127f
+    sget v3, Lcom/resouce/module/ResID;->image_limit_free_btn:I
 
-    const v4, 0x7f0b0c4b
+    sget v4, Lcom/resouce/module/ResID;->extract_pics_limit_free_btn:I
 
-    const v5, 0x7f0b0c49
+    sget v5, Lcom/resouce/module/ResID;->extract_pics_btn:I
 
-    const v6, 0x7f0b13c7
+    sget v6, Lcom/resouce/module/ResID;->item_image:I
 
     if-eqz v0, :cond_a
 
@@ -1581,7 +1581,7 @@
 
     if-eqz v0, :cond_c
 
-    const v0, 0x7f0b0c53
+    sget v0, Lcom/resouce/module/ResID;->extract_text:I
 
     .line 55
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1589,7 +1589,7 @@
     .line 56
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b0c54
+    sget v0, Lcom/resouce/module/ResID;->extract_text_limit_free_btn:I
 
     .line 57
     sget-object v3, Lys9$b;->a0:Lys9$b;
@@ -1608,7 +1608,7 @@
 
     if-eqz v0, :cond_d
 
-    const v0, 0x7f0b1dfd
+    sget v0, Lcom/resouce/module/ResID;->pdf_extract_pages_btn:I
 
     .line 59
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1616,7 +1616,7 @@
     .line 60
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b0c48
+    sget v0, Lcom/resouce/module/ResID;->extract_pages_limit_free_btn:I
 
     .line 61
     sget-object v3, Lys9$b;->V:Lys9$b;
@@ -1635,7 +1635,7 @@
 
     if-eqz v0, :cond_e
 
-    const v0, 0x7f0b1870
+    sget v0, Lcom/resouce/module/ResID;->merge_btn:I
 
     .line 63
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1643,7 +1643,7 @@
     .line 64
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b187d
+    sget v0, Lcom/resouce/module/ResID;->merge_limit_free_btn:I
 
     .line 65
     sget-object v3, Lys9$b;->W:Lys9$b;
@@ -1662,7 +1662,7 @@
 
     if-eqz v0, :cond_f
 
-    const v0, 0x7f0b3401
+    sget v0, Lcom/resouce/module/ResID;->watermark_item:I
 
     .line 67
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1670,7 +1670,7 @@
     .line 68
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b3403
+    sget v0, Lcom/resouce/module/ResID;->watermark_limit_free_btn:I
 
     .line 69
     sget-object v3, Lys9$b;->j0:Lys9$b;
@@ -1689,7 +1689,7 @@
 
     if-eqz v0, :cond_10
 
-    const v0, 0x7f0b1e9d
+    sget v0, Lcom/resouce/module/ResID;->pdf_pic_pageadjust:I
 
     .line 71
     invoke-virtual {p0, v0, v1}, Lbxc;->V(IZ)V
@@ -1697,7 +1697,7 @@
     .line 72
     invoke-virtual {p0, v0}, Lbxc;->U(I)V
 
-    const v0, 0x7f0b1c79
+    sget v0, Lcom/resouce/module/ResID;->pageadjust_limit_free_btn:I
 
     .line 73
     sget-object v1, Lys9$b;->i0:Lys9$b;
@@ -1712,7 +1712,7 @@
     :cond_10
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e42
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_add_sign:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2025,7 +2025,7 @@
 
     iget-object v1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v2, 0x7f0b1e5a
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_outline:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -2038,7 +2038,7 @@
     .line 5
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e38
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_toolbar_annotation:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2064,7 +2064,7 @@
     .line 1
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e4b
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_coverpen:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2084,7 +2084,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f1217b0
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_coverpen_save_tips:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2210,7 +2210,7 @@
     .line 1
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e60
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2247,7 +2247,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0674
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_smart_pen_select_popmenu:I
 
     const/4 v2, 0x0
 
@@ -2257,7 +2257,7 @@
 
     iput-object v0, p0, Lbxc;->o:Landroid/view/View;
 
-    const v1, 0x7f0b1e94
+    sget v1, Lcom/resouce/module/ResID;->pdf_pen_select_normal:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2271,7 +2271,7 @@
     .line 7
     iget-object v0, p0, Lbxc;->o:Landroid/view/View;
 
-    const v1, 0x7f0b1e95
+    sget v1, Lcom/resouce/module/ResID;->pdf_pen_select_smart:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2289,11 +2289,11 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b1e85
+    sget v2, Lcom/resouce/module/ResID;->pdf_pad_normal_pen_checked:I
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b1e8b
+    sget v5, Lcom/resouce/module/ResID;->pdf_pad_smart_pen_checked:I
 
     if-eqz v0, :cond_2
 
@@ -2367,7 +2367,7 @@
     .line 1
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e3c
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_toolbar_night_mode:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2406,9 +2406,9 @@
     .line 5
     iget-object v1, p0, Lbxc;->q:Landroid/view/View;
 
-    const v2, 0x7f0b1e7e
+    sget v2, Lcom/resouce/module/ResID;->pdf_night_select_night:I
 
-    const v4, 0x7f0b1e7f
+    sget v4, Lcom/resouce/module/ResID;->pdf_night_select_normal:I
 
     if-nez v1, :cond_1
 
@@ -2417,7 +2417,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0e0648
+    sget v5, Lcom/resouce/module/ResLAYOUT;->pdf_night_mode_select_popmenu:I
 
     const/4 v6, 0x0
 
@@ -2702,7 +2702,7 @@
 
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e45
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3302,7 +3302,7 @@
     .line 13
     iget-object p1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v0, 0x7f0b1e58
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3335,7 +3335,7 @@
     .line 16
     iget-object p1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v0, 0x7f0b1e60
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3409,7 +3409,7 @@
     .line 20
     iget-object p1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v0, 0x7f0b1e46
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting_view:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3483,7 +3483,7 @@
     .line 1
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e58
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3582,7 +3582,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0b1e3c
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_toolbar_night_mode:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -3692,7 +3692,7 @@
     .line 1
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e5f
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3796,7 +3796,7 @@
     .line 14
     iget-object v2, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v3, 0x7f0b1e61
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_arrow:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -3811,7 +3811,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1215bc
+    sget v3, Lcom/resouce/module/ResSTRING;->pad_smart_brush:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3829,7 +3829,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080bb4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_ai:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3842,7 +3842,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06005d
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3850,7 +3850,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p1, 0x7f080bac
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_arrow_down_blue:I
 
     .line 19
     invoke-virtual {v2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -3863,7 +3863,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1215aa
+    sget v3, Lcom/resouce/module/ResSTRING;->pad_normal_brush:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3876,7 +3876,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080bb7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_pdf:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -3889,7 +3889,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3897,7 +3897,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const p1, 0x7f080bab
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_arrow_down:I
 
     .line 23
     invoke-virtual {v2, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -4143,13 +4143,13 @@
 
     move-result v0
 
-    const v1, 0x7f0b1e60
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     if-nez v0, :cond_a
 
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v2, 0x7f0b1e58
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4212,7 +4212,7 @@
     .line 2
     iget-object v0, p0, Lbxc;->g:Landroid/view/View;
 
-    const v1, 0x7f0b1df0
+    sget v1, Lcom/resouce/module/ResID;->pdf_edittoolbar_view_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4244,7 +4244,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e6c
+    sget v3, Lcom/resouce/module/ResID;->pdf_maintoolbar_annotation:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4265,7 +4265,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e78
+    sget v3, Lcom/resouce/module/ResID;->pdf_maintoolbar_view:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4286,7 +4286,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e39
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_toolbar_convert:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4307,7 +4307,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e70
+    sget v3, Lcom/resouce/module/ResID;->pdf_maintoolbar_edit:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4328,7 +4328,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e75
+    sget v3, Lcom/resouce/module/ResID;->pdf_maintoolbar_play:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4349,7 +4349,7 @@
 
     iget-object v2, p0, Lbxc;->g:Landroid/view/View;
 
-    const v3, 0x7f0b1e6d
+    sget v3, Lcom/resouce/module/ResID;->pdf_maintoolbar_autoplay:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4423,7 +4423,7 @@
     .line 4
     iget-object p1, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v0, 0x7f0b1e58
+    sget v0, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4481,7 +4481,7 @@
     .line 7
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v1, 0x7f0b1e5c
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_curpage:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -4494,7 +4494,7 @@
     .line 8
     iget-object v0, p0, Lbxc;->c:Lcn/wps/moffice/common/beans/KAnimationLayout;
 
-    const v2, 0x7f0b1e5d
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_homepage:I
 
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

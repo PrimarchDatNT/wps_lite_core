@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122546
+    sget v2, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -489,7 +489,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121175
+    sget v2, Lcom/resouce/module/ResSTRING;->home_task_get_rice_prompt:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -527,7 +527,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f121174
+    sget v2, Lcom/resouce/module/ResSTRING;->home_task_get_exp_prompt:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -630,7 +630,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
 
-    const p3, 0x7f0e02bf
+    sget p3, Lcom/resouce/module/ResLAYOUT;->home_active_task:I
 
     const/4 v0, 0x0
 
@@ -641,7 +641,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/membership/task/ActiveTaskFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b1046
+    sget p2, Lcom/resouce/module/ResID;->home_active_task_list:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -653,7 +653,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/membership/task/ActiveTaskFragment;->I:Landroid/view/View;
 
-    const p2, 0x7f0b2553
+    sget p2, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -54,7 +54,7 @@
     .line 1
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0278
+    sget v1, Lcom/resouce/module/ResID;->bottom_tab_ctrl:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -81,7 +81,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b7a
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_long_pic_share_btn_small_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -159,9 +159,9 @@
     .line 15
     iget-object v0, p0, Leff;->i:Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;
 
-    const v2, 0x7f122985
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_now:I
 
-    const v3, 0x7f0b2bd3
+    sget v3, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {v0, v2, v3}, Lcn/wps/moffice/common/beans/phone/bottomup/BottomUpPopTaber;->setActionButton(II)V
 
@@ -243,7 +243,7 @@
     .line 1
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1784
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -253,7 +253,7 @@
 
     iput-object v0, p0, Leff;->b:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v1, 0x7f1226b1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
@@ -286,7 +286,7 @@
     .line 6
     iget-object v0, p0, Leff;->b:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
@@ -299,7 +299,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -316,7 +316,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d68
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_part_share_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -360,7 +360,7 @@
 
     iput-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1785
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_progress:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
     .line 4
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b177c
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -385,7 +385,7 @@
     .line 5
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1782
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_pic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 8
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b177e
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_header:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -431,7 +431,7 @@
     .line 9
     iget-object v0, p0, Leff;->a:Landroid/view/View;
 
-    const v1, 0x7f0b177d
+    sget v1, Lcom/resouce/module/ResID;->long_pic_share_preview_footer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

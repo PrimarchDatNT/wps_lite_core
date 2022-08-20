@@ -50,7 +50,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122514
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -283,13 +283,13 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08073a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pdf_ocr:I
 
-    const v3, 0x7f0601a5
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_red_bg:I
 
-    const v4, 0x7f121842
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
-    const v5, 0x7f121845
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_ocr_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -308,13 +308,13 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080742
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v3, 0x7f06019d
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v4, 0x7f12046f
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v5, 0x7f12043d
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -515,11 +515,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f08076c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic2text:I
 
-    const v3, 0x7f12046f
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v4, 0x7f12043d
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -593,7 +593,7 @@
     .line 2
     iget-object p1, p0, Lg1b;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1204c2
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_translation_bottom_fail:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

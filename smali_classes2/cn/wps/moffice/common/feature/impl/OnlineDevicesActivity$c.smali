@@ -341,7 +341,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3288
+    sget v1, Lcom/resouce/module/ResID;->tv_temporary_devices_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -375,7 +375,7 @@
 
     aput-object p1, v3, v4
 
-    const p1, 0x7f121522
+    sget p1, Lcom/resouce/module/ResSTRING;->online_device_temporary_text:I
 
     invoke-virtual {v2, p1, v3}, Landroid/app/Activity;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -383,7 +383,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b31c8
+    sget p1, Lcom/resouce/module/ResID;->tv_kitout:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -396,7 +396,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b142a
+    sget p1, Lcom/resouce/module/ResID;->iv_close_tip:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -539,12 +539,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122af6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_transfer_device_online:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1226c5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_device_offline:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -578,7 +578,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08ac
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_online_devices_layout:I
 
     const/4 v2, 0x0
 
@@ -595,7 +595,7 @@
 
     const/16 v1, 0x8
 
-    const v2, 0x7f0b02f0
+    sget v2, Lcom/resouce/module/ResID;->btn_open_device_files:I
 
     if-eqz v0, :cond_0
 
@@ -631,7 +631,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b324f
+    sget v2, Lcom/resouce/module/ResID;->tv_send_file:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -639,7 +639,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v2, 0x7f1228ef
+    sget v2, Lcom/resouce/module/ResSTRING;->public_send_file:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
@@ -648,7 +648,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0303
+    sget v2, Lcom/resouce/module/ResID;->btn_send_file:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -667,7 +667,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3149
+    sget v2, Lcom/resouce/module/ResID;->tv_device_name:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -680,7 +680,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b14a3
+    sget v2, Lcom/resouce/module/ResID;->iv_online_signal:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -693,7 +693,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3207
+    sget v2, Lcom/resouce/module/ResID;->tv_online_signal:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b3287
+    sget v2, Lcom/resouce/module/ResID;->tv_temporary:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b33e9
+    sget v2, Lcom/resouce/module/ResID;->vs_tips:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -768,7 +768,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v2, 0x7f0b144b
+    sget v2, Lcom/resouce/module/ResID;->iv_expand:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -782,7 +782,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/common/feature/impl/OnlineDevicesActivity$c;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1647
+    sget v1, Lcom/resouce/module/ResID;->ll_change_device:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

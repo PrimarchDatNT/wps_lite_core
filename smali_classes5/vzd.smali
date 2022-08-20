@@ -265,7 +265,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e01a4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->entryslide_item_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -276,7 +276,7 @@
 
     invoke-direct {v1}, Lvzd$a;-><init>()V
 
-    const v2, 0x7f0b13ab
+    sget v2, Lcom/resouce/module/ResID;->item_container_layout:I
 
     .line 3
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     iput-object v2, v1, Lvzd$a;->a:Landroid/view/View;
 
-    const v2, 0x7f0b127e
+    sget v2, Lcom/resouce/module/ResID;->image_layout:I
 
     .line 4
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     iput-object v2, v1, Lvzd$a;->b:Landroid/view/View;
 
-    const v2, 0x7f0b13c5
+    sget v2, Lcom/resouce/module/ResID;->item_icon:I
 
     .line 5
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060624
+    sget v4, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -332,7 +332,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703a3
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -340,7 +340,7 @@
 
     invoke-virtual {v2, v3}, Lcn/wps/moffice/common/beans/RoundRectImageView;->setRadius(F)V
 
-    const v2, 0x7f0b13d2
+    sget v2, Lcom/resouce/module/ResID;->item_name:I
 
     .line 9
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
 
     iput-object v2, v1, Lvzd$a;->d:Landroid/widget/TextView;
 
-    const v2, 0x7f0b0798
+    sget v2, Lcom/resouce/module/ResID;->download_progress_layout:I
 
     .line 10
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
 
     iput-object v2, v1, Lvzd$a;->e:Landroid/view/View;
 
-    const v2, 0x7f0b0799
+    sget v2, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 11
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
     .line 23
     invoke-virtual {p1, p3}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const p3, 0x7f0809e2
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 24
     invoke-virtual {p0}, Landroid/widget/ArrayAdapter;->getContext()Landroid/content/Context;
@@ -486,7 +486,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0600b1
+    sget v2, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

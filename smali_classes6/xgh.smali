@@ -445,7 +445,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120dda
+    sget v6, Lcom/resouce/module/ResSTRING;->gp_app_detail:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -508,7 +508,7 @@
 
     :cond_1
     :goto_0
-    const p4, 0x7f122a38
+    sget p4, Lcom/resouce/module/ResSTRING;->public_submit:I
 
     .line 3
     invoke-virtual {p0, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -519,7 +519,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -531,7 +531,7 @@
 
     invoke-virtual {p1, p4, v0, v1}, Lhd3;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f122087
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -542,7 +542,7 @@
 
     move-result-object p0
 
-    const p3, 0x7f060626
+    sget p3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p0, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -727,7 +727,7 @@
 
     invoke-direct {v14, v12}, Lxgh$n;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e00e4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_gp_judge_end:I
 
     const/4 v1, 0x0
 
@@ -736,28 +736,28 @@
 
     move-result-object v15
 
-    const v0, 0x7f0b16eb
+    sget v0, Lcom/resouce/module/ResID;->ll_star:I
 
     .line 3
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b002b
+    sget v1, Lcom/resouce/module/ResID;->View_devide:I
 
     .line 4
     invoke-virtual {v15, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v1, 0x7f0b2962
+    sget v1, Lcom/resouce/module/ResID;->rl_reason:I
 
     .line 5
     invoke-virtual {v15, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
-    const v1, 0x7f0b326f
+    sget v1, Lcom/resouce/module/ResID;->tv_star:I
 
     .line 6
     invoke-virtual {v15, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -775,7 +775,7 @@
 
     invoke-virtual {v1, v9}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
-    const v1, 0x7f0b322c
+    sget v1, Lcom/resouce/module/ResID;->tv_reason:I
 
     .line 8
     invoke-virtual {v15, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -858,7 +858,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f0b14a2
+    sget v0, Lcom/resouce/module/ResID;->iv_one:I
 
     .line 20
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -869,7 +869,7 @@
 
     check-cast v7, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b14d7
+    sget v0, Lcom/resouce/module/ResID;->iv_two:I
 
     .line 21
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -880,7 +880,7 @@
 
     check-cast v6, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b14d0
+    sget v0, Lcom/resouce/module/ResID;->iv_three:I
 
     .line 22
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -891,7 +891,7 @@
 
     check-cast v5, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b145b
+    sget v0, Lcom/resouce/module/ResID;->iv_four:I
 
     .line 23
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -902,7 +902,7 @@
 
     check-cast v4, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b1458
+    sget v0, Lcom/resouce/module/ResID;->iv_five:I
 
     .line 24
     invoke-virtual {v15, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -918,7 +918,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    const v1, 0x7f12252a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_ad:I
 
     .line 26
     invoke-virtual {v12, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -927,7 +927,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f122532
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_func:I
 
     .line 27
     invoke-virtual {v12, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -936,7 +936,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f12224c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_have_pay:I
 
     .line 28
     invoke-virtual {v12, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -945,7 +945,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f121582
+    sget v1, Lcom/resouce/module/ResSTRING;->other_role:I
 
     .line 29
     invoke-virtual {v12, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -954,7 +954,7 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    const v1, 0x7f0b1794
+    sget v1, Lcom/resouce/module/ResID;->lv:I
 
     .line 30
     invoke-virtual {v15, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1088,7 +1088,7 @@
     .line 1
     invoke-static {v0, v1, v2, v1}, Lg8h;->G(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0e00e5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_gp_judge_first:I
 
     const/4 v1, 0x0
 
@@ -1097,7 +1097,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b31cb
+    sget v1, Lcom/resouce/module/ResID;->tv_like:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1131,7 +1131,7 @@
     .line 8
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v0, 0x7f1203e9
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_discard:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1142,7 +1142,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06000c
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1154,7 +1154,7 @@
 
     invoke-virtual {v1, v0, v2, v3}, Lhd3;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f122550
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_really:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1165,7 +1165,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1209,7 +1209,7 @@
 
     invoke-direct {v0, p0}, Lxgh$j;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e00e6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_gp_judge_sceond:I
 
     const/4 v2, 0x0
 
@@ -1231,7 +1231,7 @@
     .line 6
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f1223d8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_let_go:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1242,7 +1242,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f06000c
+    sget v3, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1254,7 +1254,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lhd3;->setPositiveButton(Ljava/lang/String;ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122d9a
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_shortcut_add_cancel:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1265,7 +1265,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060626
+    sget v3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

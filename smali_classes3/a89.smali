@@ -606,7 +606,7 @@
 
     move-result p2
 
-    const v0, 0x7f0e052e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_topic_item_layout:I
 
     if-eqz p2, :cond_1
 
@@ -618,7 +618,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e02e1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_topic_item_layout:I
 
     goto :goto_0
 
@@ -631,7 +631,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e02e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_topic_item_layout_en:I
 
     .line 4
     :goto_0
@@ -660,7 +660,7 @@
 
     if-eqz p2, :cond_3
 
-    const p2, 0x7f0b2ee9
+    sget p2, Lcom/resouce/module/ResID;->text:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

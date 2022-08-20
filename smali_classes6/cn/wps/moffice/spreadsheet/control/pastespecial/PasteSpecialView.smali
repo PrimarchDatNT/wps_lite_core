@@ -129,7 +129,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -142,7 +142,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06011e
+    sget p2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -262,7 +262,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->r0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b6d
+    sget v1, Lcom/resouce/module/ResID;->et_ps_operation_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -282,7 +282,7 @@
     .line 6
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->r0:Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b0bac
+    sget v3, Lcom/resouce/module/ResID;->et_skip_blanks_radio:I
 
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -302,7 +302,7 @@
     .line 8
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->r0:Landroid/widget/LinearLayout;
 
-    const v5, 0x7f0b0bd1
+    sget v5, Lcom/resouce/module/ResID;->et_transpose_radio:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -677,7 +677,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0b6b
+    sget v2, Lcom/resouce/module/ResID;->et_ps_content_dlg:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -748,7 +748,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f070ccb
+    sget v5, Lcom/resouce/module/ResDIMEN;->ss_radiobtn_height:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -887,7 +887,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070277
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_ps_radio_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -923,7 +923,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070275
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_ps_paste_btn_width_v:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -948,7 +948,7 @@
     .line 1
     iput v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->e0:I
 
-    const v0, 0x7f0b0bda
+    sget v0, Lcom/resouce/module/ResID;->et_whole_radio:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -959,7 +959,7 @@
 
     invoke-virtual {v0}, Landroid/widget/RadioButton;->performClick()Z
 
-    const v0, 0x7f0b0b6d
+    sget v0, Lcom/resouce/module/ResID;->et_ps_operation_spinner:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -968,7 +968,7 @@
 
     check-cast v0, Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f0b0bac
+    sget v1, Lcom/resouce/module/ResID;->et_skip_blanks_radio:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -977,7 +977,7 @@
 
     check-cast v1, Landroid/widget/CheckBox;
 
-    const v2, 0x7f0b0bd1
+    sget v2, Lcom/resouce/module/ResID;->et_transpose_radio:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1018,7 +1018,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
 
-    const v0, 0x7f0b0bad
+    sget v0, Lcom/resouce/module/ResID;->et_skip_blanks_radio_tv:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1027,7 +1027,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b0bd2
+    sget v1, Lcom/resouce/module/ResID;->et_transpose_radio_tv:I
 
     .line 15
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1156,7 +1156,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e020f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_paste_special_pad_h:I
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1167,7 +1167,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->q0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0e0210
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_paste_special_pad_v:I
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1181,7 +1181,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e020e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_paste_special_h:I
 
     .line 5
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1192,7 +1192,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->q0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0e0211
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_paste_special_v:I
 
     .line 6
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -1214,7 +1214,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->q0:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0b6f
+    sget v1, Lcom/resouce/module/ResID;->et_ps_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1307,7 +1307,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07026d
+    sget v1, Lcom/resouce/module/ResDIMEN;->et_ps_content_margin_h:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1438,7 +1438,7 @@
 .method public final j(Landroid/view/View;)V
     .locals 14
 
-    const v0, 0x7f0b0bda
+    sget v0, Lcom/resouce/module/ResID;->et_whole_radio:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1460,7 +1460,7 @@
     iput v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->e0:I
 
     :cond_0
-    const v0, 0x7f0b090c
+    sget v0, Lcom/resouce/module/ResID;->et_borders_except_radio:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1471,7 +1471,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->T:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0a5e
+    sget v0, Lcom/resouce/module/ResID;->et_formulas_radio:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1482,7 +1482,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->U:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b097d
+    sget v0, Lcom/resouce/module/ResID;->et_col_width_radio:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1493,7 +1493,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->V:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0bd6
+    sget v0, Lcom/resouce/module/ResID;->et_value_radio:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1504,7 +1504,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->W:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0a5c
+    sget v0, Lcom/resouce/module/ResID;->et_formulas_num_radio:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1515,7 +1515,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->a0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0a5a
+    sget v0, Lcom/resouce/module/ResID;->et_formats_radio:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1526,7 +1526,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->b0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0bd4
+    sget v0, Lcom/resouce/module/ResID;->et_value_num_radio:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1537,7 +1537,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->c0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0aa6
+    sget v0, Lcom/resouce/module/ResID;->et_links_radio:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1607,7 +1607,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->j0:[Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0b6d
+    sget v0, Lcom/resouce/module/ResID;->et_ps_operation_spinner:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1623,7 +1623,7 @@
     .line 14
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v12, 0x7f122543
+    sget v12, Lcom/resouce/module/ResSTRING;->public_none:I
 
     invoke-virtual {v2, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1633,7 +1633,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v12, 0x7f120b8c
+    sget v12, Lcom/resouce/module/ResSTRING;->et_multiply_radio:I
 
     .line 15
     invoke-virtual {v2, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1644,7 +1644,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v12, 0x7f12072d
+    sget v12, Lcom/resouce/module/ResSTRING;->et_add_radio:I
 
     .line 16
     invoke-virtual {v2, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1655,7 +1655,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v12, 0x7f12083e
+    sget v12, Lcom/resouce/module/ResSTRING;->et_divide_radio:I
 
     .line 17
     invoke-virtual {v2, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1666,7 +1666,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v12, 0x7f120c59
+    sget v12, Lcom/resouce/module/ResSTRING;->et_subtract_radio:I
 
     .line 18
     invoke-virtual {v2, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1680,7 +1680,7 @@
 
     iget-object v12, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->I:Landroid/content/Context;
 
-    const v13, 0x7f0e099d
+    sget v13, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v2, v12, v13, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -1694,7 +1694,7 @@
 
     invoke-virtual {v0, v4}, Lcn/wps/moffice/common/beans/NewDropDownButton;->setSelection(I)V
 
-    const v0, 0x7f0b0bac
+    sget v0, Lcom/resouce/module/ResID;->et_skip_blanks_radio:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1705,7 +1705,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->f0:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0bd1
+    sget v0, Lcom/resouce/module/ResID;->et_transpose_radio:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1721,7 +1721,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b0bad
+    sget v0, Lcom/resouce/module/ResID;->et_skip_blanks_radio_tv:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1732,7 +1732,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->h0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0bd2
+    sget v0, Lcom/resouce/module/ResID;->et_transpose_radio_tv:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1744,7 +1744,7 @@
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->i0:Landroid/widget/TextView;
 
     :cond_1
-    const v0, 0x7f0b0b6f
+    sget v0, Lcom/resouce/module/ResID;->et_ps_title_bar:I
 
     .line 27
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1758,11 +1758,11 @@
     .line 28
     iget-object v0, v0, Lcn/wps/moffice/common/beans/TitleBar;->a0:Landroid/widget/TextView;
 
-    const v2, 0x7f120bbe
+    sget v2, Lcom/resouce/module/ResSTRING;->et_paste_special:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 29
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1773,7 +1773,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->l0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 30
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1804,7 +1804,7 @@
 
     move-result-object v2
 
-    const v12, 0x7f0602db
+    sget v12, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v12}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1815,7 +1815,7 @@
     invoke-virtual {v0, v2, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     :goto_0
-    const v0, 0x7f0b0aef
+    sget v0, Lcom/resouce/module/ResID;->et_paste_btn:I
 
     .line 34
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1867,7 +1867,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->t0:[Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0b6a
+    sget v0, Lcom/resouce/module/ResID;->et_ps_checks_content_group:I
 
     .line 36
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1901,7 +1901,7 @@
     .line 40
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/pastespecial/PasteSpecialView;->n0:Lcn/wps/moffice/spreadsheet/control/EtTitleBar;
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBottomLineColor(I)V
 
@@ -2126,68 +2126,68 @@
 
     move-result p1
 
-    const v0, 0x7f0b0bda
+    sget v0, Lcom/resouce/module/ResID;->et_whole_radio:I
 
     const/4 v1, 0x1
 
     if-eq p1, v0, :cond_15
 
-    const v2, 0x7f0b0bdb
+    sget v2, Lcom/resouce/module/ResID;->et_whole_radio_root:I
 
     if-ne p1, v2, :cond_0
 
     goto/16 :goto_9
 
     :cond_0
-    const v0, 0x7f0b090c
+    sget v0, Lcom/resouce/module/ResID;->et_borders_except_radio:I
 
     if-eq p1, v0, :cond_14
 
-    const v2, 0x7f0b090d
+    sget v2, Lcom/resouce/module/ResID;->et_borders_except_radio_root:I
 
     if-ne p1, v2, :cond_1
 
     goto/16 :goto_8
 
     :cond_1
-    const v0, 0x7f0b0a5e
+    sget v0, Lcom/resouce/module/ResID;->et_formulas_radio:I
 
     if-eq p1, v0, :cond_13
 
-    const v2, 0x7f0b0a5f
+    sget v2, Lcom/resouce/module/ResID;->et_formulas_radio_root:I
 
     if-ne p1, v2, :cond_2
 
     goto/16 :goto_7
 
     :cond_2
-    const v0, 0x7f0b097d
+    sget v0, Lcom/resouce/module/ResID;->et_col_width_radio:I
 
     if-eq p1, v0, :cond_12
 
-    const v2, 0x7f0b097e
+    sget v2, Lcom/resouce/module/ResID;->et_col_width_radio_root:I
 
     if-ne p1, v2, :cond_3
 
     goto/16 :goto_6
 
     :cond_3
-    const v0, 0x7f0b0bd6
+    sget v0, Lcom/resouce/module/ResID;->et_value_radio:I
 
     if-eq p1, v0, :cond_11
 
-    const v2, 0x7f0b0bd7
+    sget v2, Lcom/resouce/module/ResID;->et_value_radio_root:I
 
     if-ne p1, v2, :cond_4
 
     goto/16 :goto_5
 
     :cond_4
-    const v0, 0x7f0b0a5c
+    sget v0, Lcom/resouce/module/ResID;->et_formulas_num_radio:I
 
     if-eq p1, v0, :cond_10
 
-    const v2, 0x7f0b0a5d
+    sget v2, Lcom/resouce/module/ResID;->et_formulas_num_radio_root:I
 
     if-ne p1, v2, :cond_5
 
@@ -2196,51 +2196,51 @@
     :cond_5
     const/4 v0, 0x0
 
-    const v2, 0x7f0b0a5a
+    sget v2, Lcom/resouce/module/ResID;->et_formats_radio:I
 
     if-eq p1, v2, :cond_f
 
-    const v3, 0x7f0b0a5b
+    sget v3, Lcom/resouce/module/ResID;->et_formats_radio_root:I
 
     if-ne p1, v3, :cond_6
 
     goto/16 :goto_3
 
     :cond_6
-    const v2, 0x7f0b0bd4
+    sget v2, Lcom/resouce/module/ResID;->et_value_num_radio:I
 
     if-eq p1, v2, :cond_e
 
-    const v3, 0x7f0b0bd5
+    sget v3, Lcom/resouce/module/ResID;->et_value_num_radio_root:I
 
     if-ne p1, v3, :cond_7
 
     goto :goto_2
 
     :cond_7
-    const v2, 0x7f0b0aa6
+    sget v2, Lcom/resouce/module/ResID;->et_links_radio:I
 
     if-eq p1, v2, :cond_d
 
-    const v3, 0x7f0b0aa7
+    sget v3, Lcom/resouce/module/ResID;->et_links_radio_root:I
 
     if-ne p1, v3, :cond_8
 
     goto :goto_1
 
     :cond_8
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq p1, v0, :cond_c
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v0, :cond_9
 
     goto :goto_0
 
     :cond_9
-    const v0, 0x7f0b0bad
+    sget v0, Lcom/resouce/module/ResID;->et_skip_blanks_radio_tv:I
 
     if-ne p1, v0, :cond_a
 
@@ -2252,7 +2252,7 @@
     goto/16 :goto_a
 
     :cond_a
-    const v0, 0x7f0b0bd2
+    sget v0, Lcom/resouce/module/ResID;->et_transpose_radio_tv:I
 
     if-ne p1, v0, :cond_b
 
@@ -2264,7 +2264,7 @@
     goto/16 :goto_a
 
     :cond_b
-    const v0, 0x7f0b0aef
+    sget v0, Lcom/resouce/module/ResID;->et_paste_btn:I
 
     if-ne p1, v0, :cond_16
 
@@ -2474,7 +2474,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0b2fdd
+    sget p1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

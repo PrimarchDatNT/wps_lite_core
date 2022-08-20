@@ -118,7 +118,7 @@
     :try_start_0
     iget-object v0, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v1, 0x7f0e0826
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_prestart_splash_logo_bg:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setContentView(I)V
 
@@ -140,12 +140,12 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v2, 0x7f0e0101
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_splash_agreement:I
 
     .line 6
     invoke-virtual {v0, v2}, Lhd3;->setView(I)Lhd3;
 
-    const v2, 0x7f0b2fd3
+    sget v2, Lcom/resouce/module/ResID;->titleTextView:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
     .line 8
     iget-object v3, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v4, 0x7f121d18
+    sget v4, Lcom/resouce/module/ResSTRING;->public_agreement_update_title:I
 
     const/4 v5, 0x1
 
@@ -176,7 +176,7 @@
     .line 9
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b053e
+    sget v1, Lcom/resouce/module/ResID;->contentScrollView:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/common/beans/MaxHeightScrollView;->setMaxHeight(I)V
 
-    const v1, 0x7f0b053f
+    sget v1, Lcom/resouce/module/ResID;->contentTextView:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
     .line 14
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b2263
+    sget v1, Lcom/resouce/module/ResID;->policyTextView:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 
     iget-object v3, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v5, 0x7f121d15
+    sget v5, Lcom/resouce/module/ResSTRING;->public_agreement_look_over_msg:I
 
     iget-object v7, p0, Lddb;->T:Lcn/wps/moffice/main/agreement/bean/AgreementBean;
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06005d
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -378,7 +378,7 @@
 
     invoke-direct {v1, p0}, Lddb$i;-><init>(Lddb;)V
 
-    const v2, 0x7f121f23
+    sget v2, Lcom/resouce/module/ResSTRING;->public_common_i_know:I
 
     invoke-virtual {p1, v2, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -412,7 +412,7 @@
 
     invoke-direct {v1, p0, p1}, Lddb$f;-><init>(Lddb;Lhd3;)V
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     invoke-virtual {p1, v2, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -421,7 +421,7 @@
 
     invoke-direct {v0, p0, p1}, Lddb$g;-><init>(Lddb;Lhd3;)V
 
-    const v1, 0x7f121f13
+    sget v1, Lcom/resouce/module/ResSTRING;->public_collection_notagree:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -445,7 +445,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -456,7 +456,7 @@
 
     invoke-direct {v1, p0}, Lddb$c;-><init>(Lddb;)V
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     invoke-virtual {p1, v2, v0, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -465,7 +465,7 @@
 
     invoke-direct {v0, p0}, Lddb$d;-><init>(Lddb;)V
 
-    const v1, 0x7f121d16
+    sget v1, Lcom/resouce/module/ResSTRING;->public_agreement_not_agree_and_exit:I
 
     invoke-virtual {p1, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -605,7 +605,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e00d8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_agreement_check_tip:I
 
     const/4 v3, 0x0
 
@@ -613,7 +613,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1903
+    sget v2, Lcom/resouce/module/ResID;->msgTextView:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f121d17
+    sget v3, Lcom/resouce/module/ResSTRING;->public_agreement_online_retain_tip:I
 
     .line 7
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
@@ -637,7 +637,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -647,7 +647,7 @@
 
     invoke-direct {v2, p0}, Lddb$k;-><init>(Lddb;)V
 
-    const v3, 0x7f121d14
+    sget v3, Lcom/resouce/module/ResSTRING;->public_agreement_agree_and_continue:I
 
     invoke-virtual {v0, v3, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -656,7 +656,7 @@
 
     invoke-direct {v1, p0}, Lddb$a;-><init>(Lddb;)V
 
-    const v2, 0x7f121d16
+    sget v2, Lcom/resouce/module/ResSTRING;->public_agreement_not_agree_and_exit:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

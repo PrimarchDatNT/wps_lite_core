@@ -110,7 +110,7 @@
     .line 6
     iget-object v1, p0, Lsx3;->a:Landroid/content/Context;
 
-    const v3, 0x7f1221c1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_fontname_customize_font:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -126,12 +126,12 @@
 
     invoke-direct {v1, p0, v0}, Lsx3$a;-><init>(Lsx3;Landroid/widget/EditText;)V
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-virtual {v2, v3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 10
     invoke-virtual {v2, v3, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -188,7 +188,7 @@
     .line 3
     iget-object v1, p0, Lsx3;->a:Landroid/content/Context;
 
-    const v4, 0x7f1221c2
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fontname_customize_font_not_exist:I
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -214,12 +214,12 @@
 
     invoke-direct {v1, p0, p1}, Lsx3$c;-><init>(Lsx3;Lhx3;)V
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 7
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

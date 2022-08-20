@@ -104,7 +104,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0808c9
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_scf_folder_icon_download:I
 
     .line 9
     iput p1, p0, Llba$a;->c:I
@@ -143,7 +143,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f080f41
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_share_download:I
 
     .line 12
     iput p1, p0, Llba$a;->c:I

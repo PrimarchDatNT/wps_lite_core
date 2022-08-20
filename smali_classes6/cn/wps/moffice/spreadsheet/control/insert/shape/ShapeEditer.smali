@@ -851,9 +851,9 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$6;
 
-    const v1, 0x7f0802af
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_left:I
 
-    const v2, 0x7f122fde
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_pic_roate_left:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$6;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer;II)V
 
@@ -862,9 +862,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$7;
 
-    const v1, 0x7f0802b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
-    const v2, 0x7f122fdf
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_pic_roate_right:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$7;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer;II)V
 
@@ -873,9 +873,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$8;
 
-    const v1, 0x7f080221
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer$8;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/shape/ShapeEditer;II)V
 

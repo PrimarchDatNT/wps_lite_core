@@ -150,12 +150,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0533
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_cloudstorage_evernote_new_notebook:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0703
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_evernote_new_notebook:I
 
     .line 3
     :goto_0
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b19ff
+    sget v1, Lcom/resouce/module/ResID;->new_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -227,7 +227,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1a62
+    sget v2, Lcom/resouce/module/ResID;->notebook_type:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -249,7 +249,7 @@
 
     iput-object v1, p0, Lla8$h;->d:Lhd3;
 
-    const v2, 0x7f122067
+    sget v2, Lcom/resouce/module/ResSTRING;->public_evernote_new_note:I
 
     .line 9
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
@@ -315,7 +315,7 @@
     .line 18
     iget-object v1, p0, Lla8$h;->d:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lla8$h$e;
 
@@ -325,7 +325,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v3, Lla8$h$d;
 
@@ -358,7 +358,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a01
+    sget v1, Lcom/resouce/module/ResID;->new_name_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

@@ -56,7 +56,7 @@
 
     iget-object p1, p1, Lk59;->B:Landroid/content/Context;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -113,7 +113,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220da
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_question_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d19
+    sget v2, Lcom/resouce/module/ResSTRING;->feedback_send_contactnum_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -222,7 +222,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1220d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_file_too_large:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -325,7 +325,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120d1a
+    sget v2, Lcom/resouce/module/ResSTRING;->feedback_send_filezip_need:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -369,12 +369,12 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 30
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v12, 0x7f120d29
+    sget v12, Lcom/resouce/module/ResSTRING;->feedback_upload_confirm:I
 
     .line 31
     new-instance v13, Ll59$c$a;
@@ -397,7 +397,7 @@
 
     invoke-virtual {v0, v12, v13}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v12, 0x7f120d2a
+    sget v12, Lcom/resouce/module/ResSTRING;->feedback_upload_wifi:I
 
     .line 32
     new-instance v13, Ll59$c$b;

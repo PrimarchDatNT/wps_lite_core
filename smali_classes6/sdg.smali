@@ -539,12 +539,12 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0e099e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint_ltr:I
 
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f0e0136
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item_ltr:I
 
     :goto_1
     invoke-direct {p1, v1, v2, v0}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
@@ -819,7 +819,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e01fc
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_hyperlink_dropdown_hint:I
 
     invoke-direct {v0, v2, v3, v1}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -836,7 +836,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v0, v2, v3, v1}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1084,7 +1084,7 @@
 
     iget-object v0, v0, Lrdg;->c0:Landroid/widget/EditText;
 
-    const v1, 0x7f122338
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hyperlink_disable_label:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(I)V
@@ -2295,7 +2295,7 @@
 
     const/4 v9, -0x1
 
-    const v10, 0x7f120b6c
+    sget v10, Lcom/resouce/module/ResSTRING;->et_hyperlink_disable_reference:I
 
     if-eq v8, v9, :cond_c
 
@@ -2553,7 +2553,7 @@
 
     if-eqz v8, :cond_15
 
-    const v0, 0x7f120b72
+    sget v0, Lcom/resouce/module/ResSTRING;->et_hyperlink_illegal_tip:I
 
     .line 80
     invoke-static {v0, v6}, Lsjf;->h(II)V
@@ -3550,7 +3550,7 @@
 
     iget-object v1, v1, Lrdg;->W:Landroid/content/Context;
 
-    const v2, 0x7f0e0135
+    sget v2, Lcom/resouce/module/ResLAYOUT;->documents_autocomplete_item:I
 
     invoke-direct {p1, v1, v2, v0}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 

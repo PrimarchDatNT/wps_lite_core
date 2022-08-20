@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/home_no_record_viewstub" android:layout="@layout/pad_home_no_history_record_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <cn.wps.moffice.common.beans.ExtendRecyclerView android:id="@id/recordRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textSize="10.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/huawei_audio_assist_open_file_tips" android:background="@drawable/huawei_audio_assist_open_file_tips_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="51.0dip" android:text="@string/huawei_audio_assist_open_file_tips" android:layout_marginStart="24.0dip" />
-</FrameLayout>

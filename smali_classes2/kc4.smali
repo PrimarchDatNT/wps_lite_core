@@ -310,14 +310,14 @@
     .line 3
     iget-object v0, p0, Lkc4;->V:Lhd3;
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 4
     iget-object v0, p0, Lkc4;->V:Lhd3;
 
-    const v1, 0x7f121154
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_file_upload_tips:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -344,7 +344,7 @@
 
     invoke-direct {v1, p0}, Lkc4$j;-><init>(Lkc4;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -357,7 +357,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -367,7 +367,7 @@
 
     invoke-direct {v2, p0, p1}, Lkc4$a;-><init>(Lkc4;I)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -580,7 +580,7 @@
     .line 19
     iget-object v0, p0, Lkc4;->T:Landroid/app/Activity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v2, 0x0
 
@@ -836,7 +836,7 @@
     :pswitch_0
     iget-object p1, p0, Lkc4;->T:Landroid/app/Activity;
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -914,7 +914,7 @@
     :cond_4
     iget-object p1, p0, Lkc4;->T:Landroid/app/Activity;
 
-    const v0, 0x7f1206ba
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_timeout:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -990,7 +990,7 @@
     .line 2
     iget-object v0, p0, Lkc4;->T:Landroid/app/Activity;
 
-    const v1, 0x7f1206b9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     const/4 v2, 0x0
 

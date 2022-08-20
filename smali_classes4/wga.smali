@@ -85,7 +85,7 @@
 .method public b3()I
     .locals 1
 
-    const v0, 0x7f0e0559
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_open:I
 
     return v0
 .end method
@@ -93,14 +93,14 @@
 .method public f3(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b10da
+    sget v0, Lcom/resouce/module/ResID;->home_open_all_docs:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b10e7
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,12 +109,12 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f080f29
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_default:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0b10e9
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_title:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f1205f1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_open_alldocuments:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -149,7 +149,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1c3f
+    sget v1, Lcom/resouce/module/ResID;->pad_title_bar_container:I
 
     .line 2
     :try_start_0
@@ -169,7 +169,7 @@
     .line 4
     iget-object v0, p0, Lyfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b19c6
+    sget v1, Lcom/resouce/module/ResID;->nav_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -183,7 +183,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122588
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
     .line 5
     iget-object v0, p0, Lyfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1a06
+    sget v1, Lcom/resouce/module/ResID;->new_search_doc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -207,7 +207,7 @@
     .line 6
     iget-object v0, p0, Lyfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c38
+    sget v1, Lcom/resouce/module/ResID;->pad_search_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -220,7 +220,7 @@
     .line 7
     iget-object v0, p0, Lyfa;->B:Landroid/view/View;
 
-    const v1, 0x7f0b19bb
+    sget v1, Lcom/resouce/module/ResID;->nav_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

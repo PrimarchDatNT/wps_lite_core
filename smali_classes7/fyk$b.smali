@@ -251,7 +251,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1232ff
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_layout_comment_comment_revise:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -283,7 +283,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121bcc
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_record_time_short:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

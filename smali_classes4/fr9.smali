@@ -69,7 +69,7 @@
     .line 2
     iget-object v0, p0, Lrq9;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c23
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_app_banner:I
 
     const/4 v2, 0x0
 
@@ -116,7 +116,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b1fe8
+    sget v1, Lcom/resouce/module/ResID;->phone_home_app_item_banner:I
 
     const/16 v2, 0x8
 

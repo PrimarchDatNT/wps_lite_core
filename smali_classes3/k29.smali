@@ -129,12 +129,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0d8f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_fulltext_empty_search_item:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d49
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pad_fulltext_empty_search_item:I
 
     :goto_0
     const/4 v2, 0x0
@@ -145,7 +145,7 @@
 
     iput-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e9e
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
     .line 4
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e95
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -179,7 +179,7 @@
     .line 6
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0ea0
+    sget v0, Lcom/resouce/module/ResID;->fulltext_cn_bottom_parent:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -207,7 +207,7 @@
     .line 8
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0ea1
+    sget v0, Lcom/resouce/module/ResID;->fulltext_oversea_bottom_parent:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -229,7 +229,7 @@
     :cond_3
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e9f
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_top_divider:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -240,7 +240,7 @@
     .line 11
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e97
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_local:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -251,7 +251,7 @@
     .line 12
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e9b
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_search_local_img:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -262,7 +262,7 @@
     .line 13
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e9c
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_search_local_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -273,7 +273,7 @@
     .line 14
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2f18
+    sget v0, Lcom/resouce/module/ResID;->text_hint:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 15
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b02fc
+    sget v0, Lcom/resouce/module/ResID;->btn_search:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -297,7 +297,7 @@
     .line 16
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b2f32
+    sget v0, Lcom/resouce/module/ResID;->text_search_empty_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -310,7 +310,7 @@
     .line 17
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e96
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_cell:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -321,7 +321,7 @@
     .line 18
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e9d
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 19
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0e98
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_recoveryfile:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
     .line 20
     iget-object p1, p0, Lf29;->T:Landroid/view/View;
 
-    const v0, 0x7f0b02fd
+    sget v0, Lcom/resouce/module/ResID;->btn_search_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -672,7 +672,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12116c
+    sget v4, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -784,7 +784,7 @@
 
     move-result v1
 
-    const v3, 0x7f0b0e9a
+    sget v3, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_recoveryfile_layout:I
 
     if-eqz v1, :cond_8
 
@@ -793,7 +793,7 @@
 
     iget-object v5, p0, Lk29;->Z:Landroid/widget/TextView;
 
-    const v6, 0x7f122862
+    sget v6, Lcom/resouce/module/ResSTRING;->public_search_fulltext_bottom_text:I
 
     iget-object v1, p0, Lk29;->a0:Lj29$g;
 
@@ -802,7 +802,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0605f1
+    sget v8, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v9, "\""
 
@@ -858,9 +858,9 @@
 
     iget-object v5, p0, Lk29;->h0:Landroid/widget/TextView;
 
-    const v6, 0x7f122bbf
+    sget v6, Lcom/resouce/module/ResSTRING;->public_vip_login_text_operation_tips:I
 
-    const v8, 0x7f0605f1
+    sget v8, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v9, "\""
 
@@ -1196,7 +1196,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02fc
+    sget v0, Lcom/resouce/module/ResID;->btn_search:I
 
     if-ne p1, v0, :cond_0
 
@@ -1206,7 +1206,7 @@
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b0e96
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_cell:I
 
     if-ne p1, v0, :cond_1
 
@@ -1216,7 +1216,7 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b0e97
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_local:I
 
     if-ne p1, v0, :cond_2
 
@@ -1226,7 +1226,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b0e98
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_recoveryfile:I
 
     if-ne p1, v0, :cond_4
 

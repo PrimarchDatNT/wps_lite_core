@@ -636,7 +636,7 @@
 .method public k(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b0b31
+    sget v0, Lcom/resouce/module/ResID;->et_print_single_preview:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -647,7 +647,7 @@
 
     iput-object v0, p0, Lyig;->y:Lcn/wps/moffice/spreadsheet/control/print/SinglePagePreview;
 
-    const v0, 0x7f0b0b10
+    sget v0, Lcom/resouce/module/ResID;->et_print_multi_preview:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -666,7 +666,7 @@
 
     invoke-virtual {v0, p0}, Lcn/wps/moffice/spreadsheet/control/print/SinglePagePreview;->setPreviewBridge(Lcjg;)V
 
-    const v0, 0x7f0b0ae8
+    sget v0, Lcom/resouce/module/ResID;->et_page_preview_margin:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -675,7 +675,7 @@
 
     iput-object v0, p0, Lyig;->A:Landroid/view/View;
 
-    const v0, 0x7f0b0afa
+    sget v0, Lcom/resouce/module/ResID;->et_preview_pre_page_btn:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -686,7 +686,7 @@
 
     iput-object v0, p0, Lyig;->B:Landroid/widget/Button;
 
-    const v0, 0x7f0b0af9
+    sget v0, Lcom/resouce/module/ResID;->et_preview_next_page_btn:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -697,7 +697,7 @@
 
     iput-object v0, p0, Lyig;->C:Landroid/widget/Button;
 
-    const v0, 0x7f0b0afb
+    sget v0, Lcom/resouce/module/ResID;->et_preview_print_btn:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -708,7 +708,7 @@
 
     iput-object v0, p0, Lyig;->D:Landroid/widget/Button;
 
-    const v0, 0x7f0b0af8
+    sget v0, Lcom/resouce/module/ResID;->et_preview_btn_group:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

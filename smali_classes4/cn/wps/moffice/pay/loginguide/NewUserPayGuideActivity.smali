@@ -208,9 +208,9 @@
 
     if-lt p1, v1, :cond_0
 
-    const p1, 0x7f010093
+    sget p1, Lcom/resouce/module/ResANIM;->push_left_in:I
 
-    const v1, 0x7f010094
+    sget v1, Lcom/resouce/module/ResANIM;->push_left_out:I
 
     .line 4
     invoke-virtual {p0, p1, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -228,7 +228,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f080adc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->new_user_guide_close:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

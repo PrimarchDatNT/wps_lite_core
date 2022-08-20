@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0507
+    sget v0, Lcom/resouce/module/ResLAYOUT;->oversea_phone_file_manager_slide_list_holder:I
 
     const/4 v1, 0x0
 

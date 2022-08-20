@@ -32,7 +32,7 @@
     .line 2
     iget-object v0, p0, Lp84;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2ccc
+    sget v1, Lcom/resouce/module/ResID;->spread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -49,7 +49,7 @@
     :cond_0
     iget-object v0, p0, Lp84;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1227
+    sget v1, Lcom/resouce/module/ResID;->icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -62,7 +62,7 @@
     .line 5
     iget-object v0, p0, Lp84;->a:Landroid/view/View;
 
-    const v1, 0x7f0b30dd
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
 .method public d()I
     .locals 1
 
-    const v0, 0x7f0e0c60
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_ad_small_pic_download:I
 
     return v0
 .end method

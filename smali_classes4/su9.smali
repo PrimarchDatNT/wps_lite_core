@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120117
+    sget v1, Lcom/resouce/module/ResSTRING;->app_recommend_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -206,7 +206,7 @@
 
     move-object/from16 v3, p3
 
-    const v4, 0x7f0b011f
+    sget v4, Lcom/resouce/module/ResID;->app_finish_dialog_title:I
 
     .line 1
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b011e
+    sget v5, Lcom/resouce/module/ResID;->app_finish_dialog_position:I
 
     .line 2
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b0124
+    sget v6, Lcom/resouce/module/ResID;->app_finish_rec_app_name:I
 
     .line 3
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b0123
+    sget v7, Lcom/resouce/module/ResID;->app_finish_rec_app_introduce:I
 
     .line 4
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b0122
+    sget v8, Lcom/resouce/module/ResID;->app_finish_rec_app_img:I
 
     .line 5
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -251,7 +251,7 @@
 
     check-cast v8, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v9, 0x7f0b011a
+    sget v9, Lcom/resouce/module/ResID;->app_finish_button:I
 
     .line 6
     invoke-virtual {v1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -260,7 +260,7 @@
 
     check-cast v9, Landroid/widget/TextView;
 
-    const v10, 0x7f0b0125
+    sget v10, Lcom/resouce/module/ResID;->app_finish_rec_linear_layout:I
 
     .line 7
     invoke-virtual {v1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -275,7 +275,7 @@
     .line 9
     invoke-virtual {v9, v11}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v12, 0x7f0b011b
+    sget v12, Lcom/resouce/module/ResID;->app_finish_close:I
 
     .line 10
     invoke-virtual {v1, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f121d30
+    sget v12, Lcom/resouce/module/ResSTRING;->public_app_finish_convert_title:I
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -300,7 +300,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f121711
+    sget v13, Lcom/resouce/module/ResSTRING;->pdf_cloud_at_my_doc:I
 
     invoke-virtual {v12, v13}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -362,12 +362,12 @@
 
     if-eqz v11, :cond_0
 
-    const v11, 0x7f122bd2
+    sget v11, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     goto :goto_0
 
     :cond_0
-    const v11, 0x7f121d35
+    sget v11, Lcom/resouce/module/ResSTRING;->public_app_finish_save_pic_title:I
 
     :goto_0
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -385,7 +385,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f1232fc
+    sget v11, Lcom/resouce/module/ResSTRING;->writer_hyperlink_position:I
 
     invoke-virtual {v10, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -416,7 +416,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f121d32
+    sget v5, Lcom/resouce/module/ResSTRING;->public_app_finish_open_photo:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -439,7 +439,7 @@
 
     move-result-object v0
 
-    const v9, 0x7f12215f    # 1.9424056E38f
+    sget v9, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_finish:I    # 1.9424056E38f
 
     invoke-virtual {v0, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d36
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_finish_slim_success:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d43
+    sget v1, Lcom/resouce/module/ResSTRING;->public_app_translate_success:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -497,7 +497,7 @@
 
     move-result-object v0
 
-    const v9, 0x7f121827
+    sget v9, Lcom/resouce/module/ResSTRING;->pdf_merge_complete:I
 
     invoke-virtual {v0, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -555,7 +555,7 @@
 
     move-result-object v0
 
-    const v9, 0x7f1217ed
+    sget v9, Lcom/resouce/module/ResSTRING;->pdf_extract_complete:I
 
     invoke-virtual {v0, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -824,7 +824,7 @@
 
     iget-object v1, p1, Lru9;->a:Landroid/content/Context;
 
-    const v2, 0x7f130125
+    sget v2, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 

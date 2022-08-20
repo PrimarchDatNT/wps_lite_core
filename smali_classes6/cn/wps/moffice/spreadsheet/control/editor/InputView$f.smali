@@ -51,7 +51,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0813fa
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_func:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

@@ -592,7 +592,7 @@
     .line 1
     iget-object p2, p0, Lvfg;->V:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0962
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_extract_dialog_item_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -995,7 +995,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d8a
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_extract_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

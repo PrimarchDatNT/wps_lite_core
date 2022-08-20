@@ -405,7 +405,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070081
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeview_edge_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -418,7 +418,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070082
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeview_internal_padding:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600c7
+    sget v1, Lcom/resouce/module/ResCOLOR;->com_facebook_likeview_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -610,7 +610,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f070083
+    sget v1, Lcom/resouce/module/ResDIMEN;->com_facebook_likeview_text_size:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimension(I)F
 

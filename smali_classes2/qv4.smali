@@ -21,7 +21,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b327b
+    sget v0, Lcom/resouce/module/ResID;->tv_success_text:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -32,7 +32,7 @@
 
     iput-object v0, p0, Lqv4;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3137
+    sget v0, Lcom/resouce/module/ResID;->tv_continue:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1226be
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_commit_printer_success:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

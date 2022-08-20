@@ -509,7 +509,7 @@
 
     check-cast p0, Landroid/content/Context;
 
-    const v0, 0x7f121fea
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc_deleted_by_author_tips:I
 
     const/4 v1, 0x0
 
@@ -961,7 +961,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f121597
+    sget v1, Lcom/resouce/module/ResSTRING;->packing_multiple_files:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1024,7 +1024,7 @@
 
     if-nez v0, :cond_1
 
-    const p0, 0x7f1206b9
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 4
     invoke-static {p1, p0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1109,7 +1109,7 @@
 
     if-le v0, v2, :cond_5
 
-    const p0, 0x7f120202
+    sget p0, Lcom/resouce/module/ResSTRING;->batch_share_file_exceed_tips:I
 
     const/4 p2, 0x1
 
@@ -1146,17 +1146,17 @@
     .line 15
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 16
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f121154
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_file_upload_tips:I
 
     .line 17
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 18
     new-instance v2, Lu8f$c;
@@ -1165,14 +1165,14 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f121f5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 19
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

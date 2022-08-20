@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_account_top_bg" android:background="@drawable/mine_member_pursing_wallet_top_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/local_layout" android:background="@drawable/public_home_app_bg" android:layout_width="fill_parent" android:layout_height="104.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" />
-</FrameLayout>

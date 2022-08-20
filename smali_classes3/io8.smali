@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12156e
+    sget v1, Lcom/resouce/module/ResSTRING;->open_platform_server_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12071c
+    sget v1, Lcom/resouce/module/ResSTRING;->en_sdk_config_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -306,7 +306,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -572,7 +572,7 @@
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     :try_start_0
     const-string v2, "appver"
@@ -1322,7 +1322,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

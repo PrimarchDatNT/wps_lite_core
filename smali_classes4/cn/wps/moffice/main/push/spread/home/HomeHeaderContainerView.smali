@@ -29,7 +29,7 @@
 .method public b()V
     .locals 2
 
-    const v0, 0x7f0b0fac
+    sget v0, Lcom/resouce/module/ResID;->header_anim_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b108a
+    sget v0, Lcom/resouce/module/ResID;->home_header_anim_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

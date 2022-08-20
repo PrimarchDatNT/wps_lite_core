@@ -78,7 +78,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122364
+    sget v1, Lcom/resouce/module/ResSTRING;->public_infoflow_yidian_api:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122365
+    sget v1, Lcom/resouce/module/ResSTRING;->public_infoflow_yidian_key:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

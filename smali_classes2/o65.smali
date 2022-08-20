@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_tag_file_list:I
 
     const/4 v2, 0x0
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e6d
+    sget v1, Lcom/resouce/module/ResID;->tag_filelist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a3e
+    sget v1, Lcom/resouce/module/ResID;->no_taged_file:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

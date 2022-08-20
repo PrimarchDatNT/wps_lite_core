@@ -270,7 +270,7 @@
 .method public V2()I
     .locals 1
 
-    const v0, 0x7f0e0ea5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_type_filter_layout:I
 
     return v0
 .end method
@@ -295,7 +295,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f0e0dba
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_record_filter_layout:I
 
     return v0
 .end method
@@ -337,7 +337,7 @@
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
-    const v0, 0x7f0b32d9
+    sget v0, Lcom/resouce/module/ResID;->type_filter_grid:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -346,7 +346,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b041e
+    sget v1, Lcom/resouce/module/ResID;->clean_record_filter:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -357,7 +357,7 @@
 
     iput-object v1, p0, Lmw3;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b113b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_progressBar:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -366,7 +366,7 @@
 
     iput-object v1, p0, Lmw3;->V:Landroid/view/View;
 
-    const v1, 0x7f0b283e
+    sget v1, Lcom/resouce/module/ResID;->record_filter_title:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -768,12 +768,12 @@
 
     if-eqz v7, :cond_1
 
-    const v7, 0x7f0e0ea4
+    sget v7, Lcom/resouce/module/ResLAYOUT;->public_type_filter_item_oversea:I
 
     goto :goto_1
 
     :cond_1
-    const v7, 0x7f0e0ea3
+    sget v7, Lcom/resouce/module/ResLAYOUT;->public_type_filter_item:I
 
     :goto_1
     const/4 v8, 0x0
@@ -856,12 +856,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I

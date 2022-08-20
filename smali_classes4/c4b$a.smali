@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1204c1
+    sget p2, Lcom/resouce/module/ResSTRING;->doc_scan_translating:I
 
     const/4 p3, 0x1
 

@@ -1137,7 +1137,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f12199a
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     .line 2
     invoke-virtual {p0, p1}, Lz4e;->showCenteredToast(I)V
@@ -1570,7 +1570,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     .line 11
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V
@@ -1672,7 +1672,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     .line 12
     invoke-virtual {p0, v0}, Lz4e;->showCenteredToast(I)V

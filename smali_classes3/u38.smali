@@ -359,7 +359,7 @@
     .line 5
     iget-object p1, p0, Lu38;->V:Landroid/content/Context;
 
-    const v0, 0x7f1205c7
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage1:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -369,7 +369,7 @@
     :cond_0
     iget-object p1, p0, Lu38;->V:Landroid/content/Context;
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -389,7 +389,7 @@
     :cond_2
     iget-object p1, p0, Lu38;->V:Landroid/content/Context;
 
-    const v0, 0x7f1205cb
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_listView_canNotFindDownloadMessage8:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -399,7 +399,7 @@
     :cond_3
     iget-object p1, p0, Lu38;->V:Landroid/content/Context;
 
-    const v0, 0x7f120649
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_open_failed:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -409,7 +409,7 @@
     :cond_4
     iget-object p1, p0, Lu38;->V:Landroid/content/Context;
 
-    const v0, 0x7f120584
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 

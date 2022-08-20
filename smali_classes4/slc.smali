@@ -177,7 +177,7 @@
     :goto_0
     iget-object p1, p0, Lslc;->W:Landroid/app/Activity;
 
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -252,7 +252,7 @@
 
     iget-object v1, p0, Lslc;->W:Landroid/app/Activity;
 
-    const v2, 0x7f122bd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

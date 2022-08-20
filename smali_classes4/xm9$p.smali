@@ -103,7 +103,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I

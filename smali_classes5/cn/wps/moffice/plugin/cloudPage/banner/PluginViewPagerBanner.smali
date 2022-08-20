@@ -70,7 +70,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->U:Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e1048
+    sget p2, Lcom/resouce/module/ResLAYOUT;->view_pager_dot_indicator_layout:I
 
     const/4 p3, 0x1
 
@@ -83,7 +83,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->B:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2261
+    sget p2, Lcom/resouce/module/ResID;->plugin_view_pager:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->B:Landroid/view/ViewGroup;
 
-    const p2, 0x7f0b2258
+    sget p2, Lcom/resouce/module/ResID;->plugin_dot_indicator:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600b1
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -384,7 +384,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/plugin/cloudPage/banner/PluginViewPagerBanner;->V:Landroid/content/Context;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-static {p1, v1, v0}, Lled;->g(Landroid/content/Context;II)V
 

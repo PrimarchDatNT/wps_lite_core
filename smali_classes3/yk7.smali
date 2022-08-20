@@ -59,7 +59,7 @@
     .line 6
     iput-object p3, p0, Lyk7;->c:Lyk7$c;
 
-    const p1, 0x7f0e0cad
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_layout_wps_drive_newsharefolder_header:I
 
     .line 7
     invoke-virtual {v1, p1, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     iput-object p1, p0, Lyk7;->a:Landroid/view/View;
 
-    const p3, 0x7f0b34a8
+    sget p3, Lcom/resouce/module/ResID;->wpsdrive_edittext_folder_name:I
 
     .line 8
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iget-object p3, p0, Lyk7;->a:Landroid/view/View;
 
-    const p4, 0x7f0b03f4
+    sget p4, Lcom/resouce/module/ResID;->choose_folder_type_root:I
 
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
     :cond_5
     iget-object p1, p0, Lyk7;->f:Landroid/app/Activity;
 
-    const v1, 0x7f12034b
+    sget v1, Lcom/resouce/module/ResSTRING;->create_folder_auto_fill_wechat_name:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -261,7 +261,7 @@
     :cond_6
     iget-object p1, p0, Lyk7;->f:Landroid/app/Activity;
 
-    const v1, 0x7f12034a
+    sget v1, Lcom/resouce/module/ResSTRING;->create_folder_auto_fill_share_name:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -317,7 +317,7 @@
     .line 1
     iget-object v0, p0, Lyk7;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1249
+    sget v1, Lcom/resouce/module/ResID;->id_home_drive_header_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
 
     invoke-direct {v3, p0}, Lyk7$a;-><init>(Lyk7;)V
 
-    const v4, 0x7f0e02fc
+    sget v4, Lcom/resouce/module/ResLAYOUT;->home_drive_common_header_item:I
 
     invoke-direct {v1, v2, v0, v3, v4}, Lkn7;-><init>(Landroid/app/Activity;Landroid/view/ViewGroup;Landroid/view/View$OnClickListener;I)V
 

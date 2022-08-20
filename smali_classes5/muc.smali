@@ -709,7 +709,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e066b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_search:I
 
     return v0
 .end method
@@ -982,7 +982,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2ab4
+    sget v1, Lcom/resouce/module/ResID;->search_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1023,14 +1023,14 @@
     .line 7
     iget-object v0, p0, Lmuc;->r0:Lcn/wps/moffice/pdf/shell/common/views/PDFTitleBar;
 
-    const v1, 0x7f122856
+    sget v1, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
 
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a99
+    sget v1, Lcom/resouce/module/ResID;->search_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1041,7 +1041,7 @@
     .line 9
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1054,7 +1054,7 @@
     .line 10
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b041f
+    sget v1, Lcom/resouce/module/ResID;->clean_search:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1065,7 +1065,7 @@
     .line 11
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2a5b
+    sget v1, Lcom/resouce/module/ResID;->search_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1076,7 +1076,7 @@
     .line 12
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0d85
+    sget v1, Lcom/resouce/module/ResID;->find_searchbtn_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1087,7 +1087,7 @@
     .line 13
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2aba
+    sget v1, Lcom/resouce/module/ResID;->searchbackward:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1098,7 +1098,7 @@
     .line 14
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2abf
+    sget v1, Lcom/resouce/module/ResID;->searchforward:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

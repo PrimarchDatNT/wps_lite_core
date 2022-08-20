@@ -120,7 +120,7 @@
 .method public constructor <init>(Landroid/content/Context;Lba4;Ljava/lang/Boolean;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 2
     invoke-direct {p0, p1, v0, p2, p3}, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;-><init>(Landroid/content/Context;ILba4;Ljava/lang/Boolean;)V
@@ -379,12 +379,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e089d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_insert_pic_dialog_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05b2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_insert_pic_dialog_layout:I
 
     :goto_0
     const/4 v2, 0x0
@@ -396,7 +396,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b264f
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_dialog_root:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b265a
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_titlebar:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -421,7 +421,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b264d
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_back:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -434,7 +434,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b264a
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_album_spinner_layout:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -445,7 +445,7 @@
     .line 8
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b264b
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_album_spinner_text:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -458,7 +458,7 @@
     .line 9
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2649
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_album_spinner_arrow:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -471,7 +471,7 @@
     .line 10
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2653
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_ok:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -484,7 +484,7 @@
     .line 11
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2650
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_gridview:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -497,7 +497,7 @@
     .line 12
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2654
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_preview:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -523,7 +523,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060556
+    sget v4, Lcom/resouce/module/ResCOLOR;->public_insert_pic_preview_btn_selector_v1:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -535,7 +535,7 @@
     :cond_1
     iget-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2652
+    sget v3, Lcom/resouce/module/ResID;->public_insert_pic_mask:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->d0:Landroid/view/View;
 
-    const v1, 0x7f0e0c97
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_albums_list:I
 
     .line 16
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -552,7 +552,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/insertpic/ui/InsertPicDialog;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b264c
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_albums_list:I
 
     .line 17
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -870,7 +870,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060550
+    sget v3, Lcom/resouce/module/ResCOLOR;->public_insert_pic_albums_unselected:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 

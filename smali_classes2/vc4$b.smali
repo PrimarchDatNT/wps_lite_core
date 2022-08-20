@@ -110,7 +110,7 @@
 
     iget-object v0, p0, Lvc4$b;->S:Landroid/content/Context;
 
-    const v1, 0x7f122c46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_auto_backup_open_success:I
 
     invoke-static {p1, v0, v1}, Lvc4;->c(Lvc4;Landroid/content/Context;I)V
 

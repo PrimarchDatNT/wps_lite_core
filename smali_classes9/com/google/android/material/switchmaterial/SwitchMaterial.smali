@@ -124,7 +124,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0405f1
+    sget v0, Lcom/resouce/module/ResATTR;->switchStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/switchmaterial/SwitchMaterial;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -201,14 +201,14 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f040140
+    sget v0, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 2
     invoke-static {p0, v0}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v0
 
-    const v1, 0x7f04012f
+    sget v1, Lcom/resouce/module/ResATTR;->colorControlActivated:I
 
     .line 3
     invoke-static {p0, v1}, Luxt;->d(Landroid/view/View;I)I
@@ -220,7 +220,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0704d0
+    sget v3, Lcom/resouce/module/ResDIMEN;->mtrl_switch_thumb_elevation:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -319,21 +319,21 @@
 
     new-array v1, v1, [I
 
-    const v2, 0x7f040140
+    sget v2, Lcom/resouce/module/ResATTR;->colorSurface:I
 
     .line 3
     invoke-static {p0, v2}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v2
 
-    const v3, 0x7f04012f
+    sget v3, Lcom/resouce/module/ResATTR;->colorControlActivated:I
 
     .line 4
     invoke-static {p0, v3}, Luxt;->d(Landroid/view/View;I)I
 
     move-result v3
 
-    const v4, 0x7f040138
+    sget v4, Lcom/resouce/module/ResATTR;->colorOnSurface:I
 
     .line 5
     invoke-static {p0, v4}, Luxt;->d(Landroid/view/View;I)I

@@ -213,7 +213,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/presentation/tooltip/FileSizeReduceProcessor;->d:Landroid/content/Context;
 
-    const v2, 0x7f122171
+    sget v2, Lcom/resouce/module/ResSTRING;->public_file_size_reduce_pop_tips:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -224,7 +224,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/presentation/tooltip/FileSizeReduceProcessor;->d:Landroid/content/Context;
 
-    const v2, 0x7f122238
+    sget v2, Lcom/resouce/module/ResSTRING;->public_go_to_file_size_reduce:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

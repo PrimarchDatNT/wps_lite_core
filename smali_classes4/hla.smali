@@ -88,7 +88,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f1231fd
+    sget v5, Lcom/resouce/module/ResSTRING;->wps_facebook_group_id:I
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1231fe
+    sget v2, Lcom/resouce/module/ResSTRING;->wps_fb_group_link_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

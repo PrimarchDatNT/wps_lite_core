@@ -56,13 +56,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0824
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ppt_toolbar_toggle_item_view:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2495
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_icon:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2498
+    sget p1, Lcom/resouce/module/ResID;->ppt_toolbar_item_title:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2752
+    sget p1, Lcom/resouce/module/ResID;->public_togglebutton:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

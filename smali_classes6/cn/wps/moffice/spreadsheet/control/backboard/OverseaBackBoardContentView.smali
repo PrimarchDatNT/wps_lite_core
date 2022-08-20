@@ -294,7 +294,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f130427
+    sget v3, Lcom/resouce/module/ResSTYLE;->etPhoneBackboardTextView:I
 
     invoke-direct {v0, v2, v1, v4, v3}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 

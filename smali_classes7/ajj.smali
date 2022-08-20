@@ -304,7 +304,7 @@
     .line 4
     iget-object v0, p0, Lajj;->e:Lcn/wps/moffice/common/beans/PopUpProgressBar;
 
-    const v1, 0x7f1220ab
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_title:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V
 
@@ -317,7 +317,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220b5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_share_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

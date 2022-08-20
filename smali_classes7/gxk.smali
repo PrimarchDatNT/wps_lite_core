@@ -358,7 +358,7 @@
     .line 1
     iget-object v0, p0, Lgxk;->B:Landroid/content/Context;
 
-    const v1, 0x7f123282
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_comment_penkit_ink_tips:I
 
     const/4 v2, 0x1
 
@@ -392,7 +392,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f12328c
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_comment_save_tips:I
 
     if-eq p1, v1, :cond_4
 
@@ -411,12 +411,12 @@
     goto :goto_1
 
     :cond_0
-    const v3, 0x7f12328d
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_comment_save_tips_audio:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f123290
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_comment_save_tips_text:I
 
     goto :goto_1
 
@@ -426,7 +426,7 @@
 
     if-ne v0, p1, :cond_3
 
-    const v3, 0x7f12328e
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_comment_save_tips_ink:I
 
     goto :goto_1
 
@@ -455,7 +455,7 @@
 
     if-ne v0, p1, :cond_6
 
-    const v3, 0x7f12328f
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_comment_save_tips_penkit:I
 
     :cond_6
     :goto_1
@@ -483,7 +483,7 @@
 
     xor-int/2addr p1, v1
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 12
     new-instance v2, Lgxk$a;
@@ -492,7 +492,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 13
     new-instance p2, Lgxk$b;

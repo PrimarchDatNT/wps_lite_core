@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0faf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_beauty_section_divider_layout:I
 
     invoke-virtual {v0, v1, p1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fbc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->template_section_load_more_title_layout:I
 
     const/4 v2, 0x0
 
@@ -169,7 +169,7 @@
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f0b0737
+    sget p1, Lcom/resouce/module/ResID;->docer_recommend_component_title:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const v0, 0x7f1230aa
+    sget v0, Lcom/resouce/module/ResSTRING;->template_section_like:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -661,14 +661,14 @@
 
     iget-object v1, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v2, 0x7f0e0fab
+    sget v2, Lcom/resouce/module/ResLAYOUT;->template_beauty_main_header:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     iget-object v0, p0, Lnee;->B:Lcn/wps/moffice/presentation/control/template/beauty/widget/TemplateView;
 
-    const v1, 0x7f0b0549
+    sget v1, Lcom/resouce/module/ResID;->content_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

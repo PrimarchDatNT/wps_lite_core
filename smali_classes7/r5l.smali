@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    const v0, 0x7f0b34fe
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_draw_tool_group:I
 
     .line 1
     invoke-direct {p0, v0}, Ln5l;-><init>(I)V
@@ -25,7 +25,7 @@
 
     invoke-direct {v0}, Lysk;-><init>()V
 
-    const v1, 0x7f0b34ff
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_add_text_btn:I
 
     const-string v2, "pad-draw-addtext"
 
@@ -38,7 +38,7 @@
 
     invoke-direct {v0, v1}, Lmtk;-><init>(Lgtk;)V
 
-    const v2, 0x7f0b3504
+    sget v2, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_rotation_btn:I
 
     const-string v3, "pad-edit-rotate"
 
@@ -49,7 +49,7 @@
 
     invoke-direct {v0, v1}, Lbtk;-><init>(Lgtk;)V
 
-    const v1, 0x7f0b3500
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_delete_btn:I
 
     const-string v2, "pad-edit-delete"
 
@@ -64,7 +64,7 @@
 
     invoke-direct {v0, v1}, Lt5l;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b3505
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_wrap_btn:I
 
     const-string v2, "pad-edit-wrap"
 
@@ -79,7 +79,7 @@
 
     invoke-direct {v0, v1}, Lt5l;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b3503
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_frame_type_btn:I
 
     const-string v2, "pad-edit-frame-type"
 
@@ -94,7 +94,7 @@
 
     invoke-direct {v0, v1}, Lt5l;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b3501
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_frame_color_btn:I
 
     const-string v2, "pad-edit-frame-color"
 
@@ -105,7 +105,7 @@
 
     invoke-direct {v0}, Lu5l;-><init>()V
 
-    const v1, 0x7f0b3502
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_drawtool_group_frame_size_btn:I
 
     const-string v2, "pad-edit-frame-size"
 

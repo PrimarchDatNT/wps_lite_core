@@ -94,21 +94,21 @@
     .line 3
     sget-object v1, Lys9$b;->a1:Lys9$b;
 
-    const v2, 0x7f08156e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_audio_input_recognizer:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 4
     sget-object v1, Lys9$b;->c1:Lys9$b;
 
-    const v2, 0x7f08156f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_audio_shorthand:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 5
     sget-object v1, Lys9$b;->Q0:Lys9$b;
 
-    const v2, 0x7f081572
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_camera_scan:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -124,63 +124,63 @@
     .line 7
     sget-object v1, Lys9$b;->Y:Lys9$b;
 
-    const v2, 0x7f081577
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docdownsizing:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 8
     sget-object v1, Lys9$b;->X0:Lys9$b;
 
-    const v2, 0x7f081578
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_docfix:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 9
     sget-object v1, Lys9$b;->U:Lys9$b;
 
-    const v2, 0x7f08157b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_pdf:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 10
     sget-object v1, Lys9$b;->y0:Lys9$b;
 
-    const v2, 0x7f0815ad
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pureimagedocument:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 11
     sget-object v1, Lys9$b;->V:Lys9$b;
 
-    const v2, 0x7f08157d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_file:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 12
     sget-object v1, Lys9$b;->z0:Lys9$b;
 
-    const v2, 0x7f08157e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_pictures:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 13
     sget-object v1, Lys9$b;->q0:Lys9$b;
 
-    const v2, 0x7f081582
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_file_evidence:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 14
     sget-object v1, Lys9$b;->Z0:Lys9$b;
 
-    const v2, 0x7f081585
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_formtool:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 15
     sget-object v1, Lys9$b;->E0:Lys9$b;
 
-    const v2, 0x7f08156c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_formular2num:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -196,119 +196,119 @@
     .line 17
     sget-object v1, Lys9$b;->W:Lys9$b;
 
-    const v2, 0x7f081587
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_mergefile:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 18
     sget-object v1, Lys9$b;->B0:Lys9$b;
 
-    const v2, 0x7f08157f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_extract_table:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 19
     sget-object v3, Lys9$b;->p0:Lys9$b;
 
-    const v4, 0x7f081590
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pages_export:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 20
     sget-object v3, Lys9$b;->Z:Lys9$b;
 
-    const v4, 0x7f081593
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_papercheck:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 21
     sget-object v3, Lys9$b;->r0:Lys9$b;
 
-    const v4, 0x7f081591
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_paper_composition:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 22
     sget-object v3, Lys9$b;->c0:Lys9$b;
 
-    const v4, 0x7f081592
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_paper_down_repetition:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 23
     sget-object v3, Lys9$b;->T:Lys9$b;
 
-    const v4, 0x7f08159e
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_doc:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 24
     sget-object v3, Lys9$b;->e0:Lys9$b;
 
-    const v4, 0x7f0815a0
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_ppt:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 25
     sget-object v3, Lys9$b;->f0:Lys9$b;
 
-    const v4, 0x7f0815a1
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_xls:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 26
     sget-object v3, Lys9$b;->v1:Lys9$b;
 
-    const v4, 0x7f08159d    # 1.8088723E38f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_to_cad:I    # 1.8088723E38f
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 27
     sget-object v3, Lys9$b;->w1:Lys9$b;
 
-    const v4, 0x7f081571
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_cad_to_pdf:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 28
     sget-object v3, Lys9$b;->g0:Lys9$b;
 
-    const v4, 0x7f08156d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_addtext:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 29
     sget-object v5, Lys9$b;->b0:Lys9$b;
 
-    const v6, 0x7f081595
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_annotation:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 30
     sget-object v5, Lys9$b;->w0:Lys9$b;
 
-    const v6, 0x7f08159c
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_textedit:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 31
     sget-object v5, Lys9$b;->a0:Lys9$b;
 
-    const v6, 0x7f081598
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_extracttext:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 32
     sget-object v5, Lys9$b;->i0:Lys9$b;
 
-    const v6, 0x7f08158f
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_page_adjust:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 33
     sget-object v5, Lys9$b;->X:Lys9$b;
 
-    const v6, 0x7f08159a
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_sign:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -342,84 +342,84 @@
     .line 37
     sget-object v5, Lys9$b;->L0:Lys9$b;
 
-    const v6, 0x7f0815a5
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_to_doc:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 38
     sget-object v5, Lys9$b;->O0:Lys9$b;
 
-    const v6, 0x7f0815a6
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_to_pdf:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 39
     sget-object v5, Lys9$b;->M0:Lys9$b;
 
-    const v6, 0x7f0815a7
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_to_ppt:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 40
     sget-object v5, Lys9$b;->N0:Lys9$b;
 
-    const v6, 0x7f0815a8
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pic_to_xls:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 41
     sget-object v5, Lys9$b;->d0:Lys9$b;
 
-    const v6, 0x7f0815a9
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_play_record:I
 
     invoke-virtual {v0, v6, v5}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 42
     sget-object v6, Lys9$b;->m0:Lys9$b;
 
-    const v7, 0x7f0815ab
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_print:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 43
     sget-object v6, Lys9$b;->g1:Lys9$b;
 
-    const v7, 0x7f0815ac
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_processon:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 44
     sget-object v6, Lys9$b;->T0:Lys9$b;
 
-    const v7, 0x7f0815ae
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_qrcode_scan:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 45
     sget-object v6, Lys9$b;->h1:Lys9$b;
 
-    const v7, 0x7f0815af
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_recoveryfile:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 46
     sget-object v6, Lys9$b;->R0:Lys9$b;
 
-    const v7, 0x7f0815b0
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_resume_helper:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 47
     sget-object v6, Lys9$b;->I:Lys9$b;
 
-    const v7, 0x7f0815b5
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_share_long_pic:I
 
     invoke-virtual {v0, v7, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 48
     sget-object v7, Lys9$b;->U0:Lys9$b;
 
-    const v8, 0x7f081586
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_meeting:I
 
     invoke-virtual {v0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -435,14 +435,14 @@
     .line 50
     sget-object v7, Lys9$b;->V0:Lys9$b;
 
-    const v8, 0x7f081293
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_super_ppt:I
 
     invoke-virtual {v0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 51
     sget-object v7, Lys9$b;->n0:Lys9$b;
 
-    const v8, 0x7f0815bd
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_translate:I
 
     invoke-virtual {v0, v8, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -451,14 +451,14 @@
 
     sget-object v8, Lys9$b;->W0:Lys9$b;
 
-    const v9, 0x7f0815be
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_tv_projection:I
 
     invoke-virtual {v0, v9, v8}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 53
     sget-object v8, Lys9$b;->S0:Lys9$b;
 
-    const v9, 0x7f08158d
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_note:I
 
     invoke-virtual {v0, v9, v8}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -474,21 +474,21 @@
     .line 55
     sget-object v9, Lys9$b;->F0:Lys9$b;
 
-    const v10, 0x7f0815ba
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_split_table_by_content:I
 
     invoke-virtual {v0, v10, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 56
     sget-object v9, Lys9$b;->G0:Lys9$b;
 
-    const v10, 0x7f0815b7
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_smart_form_filling:I
 
     invoke-virtual {v0, v10, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 57
     sget-object v10, Lys9$b;->P0:Lys9$b;
 
-    const v11, 0x7f0815b3
+    sget v11, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_send_to_pc:I
 
     invoke-virtual {v0, v11, v10}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -498,21 +498,21 @@
     .line 59
     sget-object v3, Lys9$b;->i1:Lys9$b;
 
-    const v4, 0x7f081584
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_fill_sign:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 60
     sget-object v3, Lys9$b;->j1:Lys9$b;
 
-    const v4, 0x7f081260
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_assistant_h5:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 61
     sget-object v3, Lys9$b;->k1:Lys9$b;
 
-    const v4, 0x7f081579
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_edit_on_pc:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -528,7 +528,7 @@
     .line 63
     sget-object v3, Lys9$b;->m1:Lys9$b;
 
-    const v4, 0x7f08128d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_print:I
 
     invoke-virtual {v0, v4, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -538,21 +538,21 @@
     .line 65
     sget-object v1, Lys9$b;->n1:Lys9$b;
 
-    const v2, 0x7f081599
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_fill_form:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 66
     sget-object v1, Lys9$b;->p1:Lys9$b;
 
-    const v2, 0x7f0815a2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_tookit:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 67
     sget-object v1, Lys9$b;->o1:Lys9$b;
 
-    const v2, 0x7f0815bc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_supernote:I
 
     invoke-virtual {v0, v2, v1}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -563,61 +563,61 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0815b4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_set_password:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081581
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_file_encryption:I
 
     :goto_0
     sget-object v2, Lys9$b;->G1:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081575
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_classroom:I
 
     .line 69
     sget-object v2, Lys9$b;->q1:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0805d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_pub_app_tool_smartform:I
 
     .line 70
     sget-object v2, Lys9$b;->y1:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f08157a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_highlighted_text:I
 
     .line 71
     sget-object v2, Lys9$b;->x1:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f0815b1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_scan_extract_text:I
 
     .line 72
     sget-object v2, Lys9$b;->z1:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081574
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_card_pics_by_content:I
 
     .line 73
     sget-object v2, Lys9$b;->I0:Lys9$b;
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f081594
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_papercheck_job:I
 
     .line 74
     sget-object v3, Lys9$b;->J0:Lys9$b;
 
     invoke-virtual {v0, v1, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
-    const v1, 0x7f08158e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_offline_transfer:I
 
     .line 75
     sget-object v3, Lys9$b;->B1:Lys9$b;
@@ -631,7 +631,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080490
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -644,7 +644,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0804a0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -659,7 +659,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f081f1f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_composition_icon:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -674,7 +674,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f081f20
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_down_icon:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -689,7 +689,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f081e32
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->splicing_tab_export_to_pdf:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08048c
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -719,7 +719,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080491
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -734,7 +734,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f080492
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -749,7 +749,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f081f1d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_check_icon:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -764,7 +764,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f08048e
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_slimmer:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -779,7 +779,7 @@
 
     move-result-object v1
 
-    const v6, 0x7f080489
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_tool_doc_repair:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -787,7 +787,7 @@
 
     invoke-interface {v0, v1, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f080263
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_derive_highlighter:I
 
     .line 87
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -803,7 +803,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080287
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_doc_smart_form_filling:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -818,7 +818,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f08048d
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_final:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -831,7 +831,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f0802ca
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -872,7 +872,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080463
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_numerical:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -885,7 +885,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0802d0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_recording:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -893,7 +893,7 @@
 
     invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v2, 0x7f0809b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_ppt_preview_beauty:I
 
     .line 95
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -911,7 +911,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0802f0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_output_ppt:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -926,7 +926,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080495
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_pdf_to_doc:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -941,7 +941,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080338
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pdftoppt:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -956,7 +956,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080337
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_pdftoet:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -971,7 +971,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080334
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_extract_text:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -986,7 +986,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080493
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_pdf_annotation:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080285
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_doc_signature:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1016,7 +1016,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0802c1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_insert_text:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1031,7 +1031,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f08033d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_toolkit_watermark:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1057,7 +1057,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080313
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_page_settings:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1324,7 +1324,7 @@
 
     move-result v0
 
-    const v1, 0x7f081576
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     if-nez v0, :cond_0
 
@@ -1570,7 +1570,7 @@
 
     new-instance v5, Lvt9;
 
-    const v6, 0x7f0815bf
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_watermark:I
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
@@ -1595,7 +1595,7 @@
 
     new-instance v5, Lvt9;
 
-    const v6, 0x7f081576
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     invoke-virtual {v1, v2}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 

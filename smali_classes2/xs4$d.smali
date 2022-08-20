@@ -141,7 +141,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -172,7 +172,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f12276e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_success:I
 
     invoke-static {p2, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

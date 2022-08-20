@@ -161,7 +161,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122053
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ent_ppt_record:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

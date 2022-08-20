@@ -51,7 +51,7 @@
 
     if-eqz p4, :cond_0
 
-    const p1, 0x7f12074e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     const/4 p2, 0x1
 

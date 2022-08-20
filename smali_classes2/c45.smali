@@ -160,7 +160,7 @@
 
     iput-object p2, p0, Lc45;->d:Lhd3;
 
-    const v0, 0x7f1229df
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_transfile:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -174,7 +174,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0ea2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_tvmeeting_phone_uploadtip:I
 
     const/4 v1, 0x0
 
@@ -182,7 +182,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b331a
+    sget v0, Lcom/resouce/module/ResID;->upload_progress_network:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b3319
+    sget p1, Lcom/resouce/module/ResID;->upload_progress_bar:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -80,7 +80,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121b90    # 1.942104E38f
+    sget p3, Lcom/resouce/module/ResSTRING;->ppt_note_null:I    # 1.942104E38f
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

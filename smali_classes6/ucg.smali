@@ -682,7 +682,7 @@
 
     if-ne p1, v1, :cond_2
 
-    const p1, 0x7f12072e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_data_overflow:I
 
     .line 5
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -695,7 +695,7 @@
 
     if-ne p1, v1, :cond_3
 
-    const p1, 0x7f12072f
+    sget p1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 7
     invoke-static {p1, v0}, Lsjf;->h(II)V

@@ -338,7 +338,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b207f
+    sget v1, Lcom/resouce/module/ResID;->phone_pdf_play_sidebar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -370,7 +370,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081048
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_verticla_thumb:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

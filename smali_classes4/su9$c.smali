@@ -120,7 +120,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00b2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->component_app_finish:I
 
     invoke-virtual {p1, v0, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0121
+    sget v1, Lcom/resouce/module/ResID;->app_finish_linear_layout:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -149,7 +149,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0b0125
+    sget v2, Lcom/resouce/module/ResID;->app_finish_rec_linear_layout:I
 
     .line 9
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e00b2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->component_app_finish:I
 
     const/4 v3, 0x0
 

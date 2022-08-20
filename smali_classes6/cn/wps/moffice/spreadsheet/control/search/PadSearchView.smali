@@ -196,7 +196,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f03001c
+    sget p2, Lcom/resouce/module/ResARRAY;->et_search_textrange_list:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f03001b
+    sget p2, Lcom/resouce/module/ResARRAY;->et_search_textdirection_list:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -222,7 +222,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f03001d
+    sget p2, Lcom/resouce/module/ResARRAY;->et_search_textsearchrange_list:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -235,7 +235,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f03001e
+    sget p2, Lcom/resouce/module/ResARRAY;->et_search_textsearchrange_replace_list:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -919,7 +919,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -934,13 +934,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0247
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_search:I
 
     const/4 v3, 0x1
 
     invoke-virtual {v1, v2, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v1, 0x7f0b0b7b
+    sget v1, Lcom/resouce/module/ResID;->et_search_detail:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -951,7 +951,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0b9b
+    sget v1, Lcom/resouce/module/ResID;->et_search_resultlist:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -962,7 +962,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->I:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b0ba0
+    sget v1, Lcom/resouce/module/ResID;->et_search_tab:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -973,7 +973,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->U:Lcn/wps/moffice/spreadsheet/control/TabListHorizontal;
 
-    const v1, 0x7f0b0b7c
+    sget v1, Lcom/resouce/module/ResID;->et_search_detailbtn:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -985,7 +985,7 @@
     .line 7
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b18f3
+    sget v1, Lcom/resouce/module/ResID;->more_search_img:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -996,7 +996,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->T:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0b9d
+    sget v1, Lcom/resouce/module/ResID;->et_search_searchallbtn:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1015,7 +1015,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0b89
+    sget v1, Lcom/resouce/module/ResID;->et_search_replace_btn:I
 
     .line 12
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1036,7 +1036,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setVisibility(I)V
 
-    const v1, 0x7f0b0b92
+    sget v1, Lcom/resouce/module/ResID;->et_search_replaceall_btn:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1075,7 +1075,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/Button;->setMaxHeight(I)V
 
-    const v1, 0x7f0b2aba
+    sget v1, Lcom/resouce/module/ResID;->searchbackward:I
 
     .line 20
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1087,7 +1087,7 @@
     .line 21
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2abf
+    sget v1, Lcom/resouce/module/ResID;->searchforward:I
 
     .line 22
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1099,7 +1099,7 @@
     .line 23
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2abb
+    sget v1, Lcom/resouce/module/ResID;->searchbackward_img:I
 
     .line 24
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1110,7 +1110,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->d0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2ac0
+    sget v1, Lcom/resouce/module/ResID;->searchforward_img:I
 
     .line 25
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1126,7 +1126,7 @@
     .line 26
     invoke-virtual {p0, v1}, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->setSearchWardsEnable(Z)V
 
-    const v3, 0x7f0b0b82
+    sget v3, Lcom/resouce/module/ResID;->et_search_find_input_pad:I
 
     .line 27
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1137,7 +1137,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->f0:Landroid/widget/FrameLayout;
 
-    const v3, 0x7f0b0b84
+    sget v3, Lcom/resouce/module/ResID;->et_search_find_input_pad_edittext:I
 
     .line 28
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1166,7 +1166,7 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/EditText;->setNextFocusRightId(I)V
 
-    const v3, 0x7f0b0b83
+    sget v3, Lcom/resouce/module/ResID;->et_search_find_input_pad_clean_input_btn:I
 
     .line 33
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1199,7 +1199,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
-    const v3, 0x7f0b0b8c
+    sget v3, Lcom/resouce/module/ResID;->et_search_replace_input_pad:I
 
     .line 38
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1210,7 +1210,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->g0:Landroid/widget/FrameLayout;
 
-    const v3, 0x7f0b0b8e
+    sget v3, Lcom/resouce/module/ResID;->et_search_replace_input_pad_edittext:I
 
     .line 39
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1239,7 +1239,7 @@
 
     invoke-virtual {v4, v3}, Landroid/widget/EditText;->setNextFocusRightId(I)V
 
-    const v3, 0x7f0b0b8d
+    sget v3, Lcom/resouce/module/ResID;->et_search_replace_input_pad_clean_input_btn:I
 
     .line 44
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1258,7 +1258,7 @@
 
     invoke-virtual {v3, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v3, 0x7f0b0b8f
+    sget v3, Lcom/resouce/module/ResID;->et_search_replace_input_pad_find_btn:I
 
     .line 47
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1292,7 +1292,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v0, 0x7f0b0b76
+    sget v0, Lcom/resouce/module/ResID;->et_search_Range:I
 
     .line 52
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1311,7 +1311,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setFocusable(Z)V
 
-    const v0, 0x7f0b0b75
+    sget v0, Lcom/resouce/module/ResID;->et_search_Direction:I
 
     .line 55
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1330,7 +1330,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setFocusable(Z)V
 
-    const v0, 0x7f0b0b93
+    sget v0, Lcom/resouce/module/ResID;->et_search_result:I
 
     .line 58
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1349,7 +1349,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setFocusable(Z)V
 
-    const v0, 0x7f0b0b90
+    sget v0, Lcom/resouce/module/ResID;->et_search_replace_result:I
 
     .line 61
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1373,7 +1373,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
 
-    const v0, 0x7f0b0b78
+    sget v0, Lcom/resouce/module/ResID;->et_search_checkbox_matchcase:I
 
     .line 65
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1384,7 +1384,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->p0:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0b79
+    sget v0, Lcom/resouce/module/ResID;->et_search_checkbox_matchcell:I
 
     .line 66
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1395,7 +1395,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->q0:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0b7a
+    sget v0, Lcom/resouce/module/ResID;->et_search_checkbox_matchwordwidth:I
 
     .line 67
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1438,7 +1438,7 @@
 
     invoke-virtual {v2, v0}, Landroid/widget/CheckBox;->setMaxWidth(I)V
 
-    const v0, 0x7f0b0b9c
+    sget v0, Lcom/resouce/module/ResID;->et_search_scrollview:I
 
     .line 72
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1449,7 +1449,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->s0:Landroid/widget/ScrollView;
 
-    const v0, 0x7f0b0b9e
+    sget v0, Lcom/resouce/module/ResID;->et_search_searchprogressbar:I
 
     .line 73
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1496,7 +1496,7 @@
 
     iget-object v4, p0, Lcn/wps/moffice/spreadsheet/control/search/PadSearchView;->v0:[Ljava/lang/String;
 
-    const v5, 0x7f0e0250
+    sget v5, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v2, v3, v5, v4}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -1626,7 +1626,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122856
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1647,7 +1647,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1227f9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_replace:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2172,7 +2172,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070ccb
+    sget v3, Lcom/resouce/module/ResDIMEN;->ss_radiobtn_height:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -2297,7 +2297,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080f7a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_public_find_replace_pull_btn:I
 
     goto :goto_0
 
@@ -2306,7 +2306,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080f76
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_public_find_replace_fold_btn:I
 
     :goto_0
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;

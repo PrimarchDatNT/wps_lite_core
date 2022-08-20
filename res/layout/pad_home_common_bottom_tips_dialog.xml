@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/tips_content" android:background="@drawable/phone_public_bottombar_bg" android:layout_width="360.0dip" android:layout_height="48.0dip" android:layout_marginBottom="18.0dip" android:layout_marginHorizontal="100.0dip">
-        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_marginTop="11.0dip" android:layout_marginBottom="10.0dip" android:maxLines="2" style="@style/phone_public_bottombar_tip" />
-        <TextView android:textColor="@color/secondaryColor" android:id="@id/button" android:text="@string/public_retrieve" style="@style/phone_public_bottombar_tipbtn" />
-    </LinearLayout>
-</FrameLayout>

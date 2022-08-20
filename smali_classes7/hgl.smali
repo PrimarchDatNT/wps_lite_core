@@ -54,13 +54,13 @@
 
     move-result v2
 
-    const v3, 0x7f08048f
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_identification_photo:I
 
     if-eqz v2, :cond_0
 
     new-instance v2, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v4, 0x7f12193c
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_app_search_id_photo:I
 
     invoke-direct {v2, v3, v4}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -88,9 +88,9 @@
     .line 4
     new-instance v2, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v4, 0x7f0802c0
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_icon_library:I
 
-    const v5, 0x7f1219f4
+    sget v5, Lcom/resouce/module/ResSTRING;->pic_store_icons_lirary:I
 
     invoke-direct {v2, v4, v5}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -105,9 +105,9 @@
     .line 5
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v5, 0x7f08029a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_cutting:I
 
-    const v6, 0x7f12058c
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_crop:I
 
     invoke-direct {v4, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -115,9 +115,9 @@
 
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v5, 0x7f0802b0
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
-    const v6, 0x7f120685
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_rotation:I
 
     invoke-direct {v4, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -125,9 +125,9 @@
 
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v7, 0x7f080221
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
-    const v8, 0x7f121fba
+    sget v8, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     invoke-direct {v4, v7, v8}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -172,9 +172,9 @@
     .line 8
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v5, 0x7f0801e5
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_align_wrapping_embedded:I
 
-    const v6, 0x7f1206c7
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_inlinetext:I
 
     invoke-direct {v4, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -182,9 +182,9 @@
 
     new-instance v3, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v4, 0x7f0801e2
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_around_up_and_down:I
 
-    const v5, 0x7f1206ca
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_topbottom:I
 
     invoke-direct {v3, v4, v5}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -192,9 +192,9 @@
 
     new-instance v0, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v3, 0x7f0801e3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_surround:I
 
-    const v6, 0x7f1206c8
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_square:I
 
     invoke-direct {v0, v3, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -202,9 +202,9 @@
 
     new-instance v0, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v7, 0x7f0801e1
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_above_character:I
 
-    const v8, 0x7f1206c6
+    sget v8, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_in_front_of_text:I
 
     invoke-direct {v0, v7, v8}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -214,9 +214,9 @@
 
     new-instance v1, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v9, 0x7f0801e4
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_under_character:I
 
-    const v10, 0x7f1206c5
+    sget v10, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_behind_text:I
 
     invoke-direct {v1, v9, v10}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -241,7 +241,7 @@
 
     invoke-direct {v0, v9, v10}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
-    const v0, 0x7f123266
+    sget v0, Lcom/resouce/module/ResSTRING;->write_frame_draw_tool_title_text:I
 
     .line 10
     iput v0, p0, Lhgl;->l0:I
@@ -283,7 +283,7 @@
 
     invoke-direct {v0, v1}, Lctk;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f0802c0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_icon_library:I
 
     const-string v2, "shape-pic-icon"
 
@@ -296,7 +296,7 @@
 
     invoke-direct {v0, v1}, Lzsk;-><init>(Z)V
 
-    const v1, 0x7f08029a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_cutting:I
 
     const-string v2, "pic-pop"
 
@@ -309,7 +309,7 @@
 
     invoke-direct {v0, v1}, Lmtk;-><init>(Lgtk;)V
 
-    const v2, 0x7f0802b0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_layer_rotate_right:I
 
     const-string v3, "pic-rotate"
 
@@ -320,7 +320,7 @@
 
     invoke-direct {v0, v1}, Lbtk;-><init>(Lgtk;)V
 
-    const v1, 0x7f080221
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     const-string v2, "shape-delete"
 
@@ -331,7 +331,7 @@
 
     invoke-direct {v0}, Lysk;-><init>()V
 
-    const v1, 0x7f0802db
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_words:I
 
     const-string v2, "shape-addtext"
 
@@ -342,7 +342,7 @@
 
     invoke-direct {v0}, Llgl;-><init>()V
 
-    const v1, 0x7f0801e5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_wrapping_embedded:I
 
     const-string v2, "wrap-style-inline"
 
@@ -353,7 +353,7 @@
 
     invoke-direct {v0}, Lngl;-><init>()V
 
-    const v1, 0x7f0801e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_around_up_and_down:I
 
     const-string v2, "wrap-style-topbottom"
 
@@ -364,7 +364,7 @@
 
     invoke-direct {v0}, Lmgl;-><init>()V
 
-    const v1, 0x7f0801e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_surround:I
 
     const-string v2, "wrap-style-square"
 
@@ -375,7 +375,7 @@
 
     invoke-direct {v0}, Lkgl;-><init>()V
 
-    const v1, 0x7f0801e1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_above_character:I
 
     const-string v2, "wrap-style-topoftext"
 
@@ -386,7 +386,7 @@
 
     invoke-direct {v0}, Ljgl;-><init>()V
 
-    const v1, 0x7f0801e4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_align_text_wrapping_under_character:I
 
     const-string v2, "wrap-style-bottomoftext"
 
@@ -399,7 +399,7 @@
 
     invoke-direct {v0, v1}, Lkfl;-><init>(Ljava/lang/String;)V
 
-    const v1, 0x7f08048f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_identification_photo:I
 
     const-string v2, "id_photo_make"
 
@@ -424,15 +424,15 @@
 
     move-result p1
 
-    const v0, 0x7f080221
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f080226
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_edit:I
 
     if-eq p1, v0, :cond_0
 
-    const v0, 0x7f0802db
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_words:I
 
     if-ne p1, v0, :cond_1
 
@@ -940,7 +940,7 @@
 
     if-ne v0, v1, :cond_2
 
-    const v0, 0x7f123266
+    sget v0, Lcom/resouce/module/ResSTRING;->write_frame_draw_tool_title_text:I
 
     .line 3
     iput v0, p0, Lhgl;->l0:I
@@ -949,7 +949,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f12264f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     .line 4
     iput v0, p0, Lhgl;->l0:I

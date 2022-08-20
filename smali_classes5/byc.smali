@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -179,7 +179,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12192a
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_keep_modify:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -189,7 +189,7 @@
 
     invoke-direct {v1, p2}, Lbyc$a;-><init>(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f1223d6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_leave:I
 
     invoke-virtual {v0, p2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -198,7 +198,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f06005d
+    sget p2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -208,7 +208,7 @@
 
     invoke-direct {p2, p1}, Lbyc$b;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f12281f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v0, p1, p0, p2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -226,7 +226,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12192e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_purchasing_dialog_msg:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -236,7 +236,7 @@
 
     invoke-direct {v1, p3}, Lbyc$e;-><init>(Ljava/lang/Runnable;)V
 
-    const p3, 0x7f121d75
+    sget p3, Lcom/resouce/module/ResSTRING;->public_back:I
 
     invoke-virtual {v0, p3, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -245,7 +245,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f06005d
+    sget v1, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -255,7 +255,7 @@
 
     invoke-direct {v1, p1, p2, p0}, Lbyc$f;-><init>(Ljava/lang/String;Ljava/lang/Runnable;Landroid/app/Activity;)V
 
-    const p0, 0x7f120386
+    sget p0, Lcom/resouce/module/ResSTRING;->dialog_new_func_guide_more:I
 
     .line 5
     invoke-virtual {v0, p0, p3, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;

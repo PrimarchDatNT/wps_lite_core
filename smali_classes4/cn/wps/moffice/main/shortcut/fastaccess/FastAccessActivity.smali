@@ -317,7 +317,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->U:Landroid/view/View;
 
-    const v0, 0x7f0808e5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_shortcut_popup_bg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -333,7 +333,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07038b
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_shortcut_grid_holder_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -352,7 +352,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->U:Landroid/view/View;
 
-    const v0, 0x7f0808e6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_shortcut_popup_bg_2line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07038c
+    sget v1, Lcom/resouce/module/ResDIMEN;->home_shortcut_grid_holder_height_2line:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -423,7 +423,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0806c5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->fast_access_folder_pressed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -436,7 +436,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0806c6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->fast_access_folder_unpressed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -466,7 +466,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0806c7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->fast_access_scan_pressed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -479,7 +479,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0806c8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->fast_access_scan_unpressed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -575,7 +575,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070838
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_shortcut_popup_margin_w:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1006,7 +1006,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1227
+    sget v1, Lcom/resouce/module/ResID;->icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1015,7 +1015,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b150a
+    sget v2, Lcom/resouce/module/ResID;->label:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1064,7 +1064,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1227
+    sget v1, Lcom/resouce/module/ResID;->icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1073,7 +1073,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b150a
+    sget v2, Lcom/resouce/module/ResID;->label:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1092,7 +1092,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1126,7 +1126,7 @@
 .method public final initViews()V
     .locals 4
 
-    const v0, 0x7f0b17f1
+    sget v0, Lcom/resouce/module/ResID;->main:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1135,7 +1135,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->U:Landroid/view/View;
 
-    const v0, 0x7f0b161d
+    sget v0, Lcom/resouce/module/ResID;->list:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1153,7 +1153,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->I:Landroid/widget/ListView;
 
-    const v2, 0x7f0e03b0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_shortcut_fastaccess_footer:I
 
     const/4 v3, 0x0
 
@@ -1187,7 +1187,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    const v1, 0x7f0b0f3f
+    sget v1, Lcom/resouce/module/ResID;->grid_holder:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1203,7 +1203,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->X:Lqbb;
 
-    const v1, 0x7f0b305b
+    sget v1, Lcom/resouce/module/ResID;->tools:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1230,7 +1230,7 @@
     .line 14
     iput-object v1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->V:Lcn/wps/moffice/main/shortcut/fastaccess/MultiRowGrid;
 
-    const v1, 0x7f0b0d5b
+    sget v1, Lcom/resouce/module/ResID;->files_empty:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1239,7 +1239,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/shortcut/fastaccess/FastAccessActivity;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0d5c
+    sget v1, Lcom/resouce/module/ResID;->files_more:I
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1255,7 +1255,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b3474
+    sget v1, Lcom/resouce/module/ResID;->wps_assist_settings:I
 
     .line 18
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
 .method public final onCreateReadyReplace()V
     .locals 2
 
-    const v0, 0x7f0e03af
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_shortcut_fastaccess:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V

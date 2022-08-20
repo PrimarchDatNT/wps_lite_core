@@ -290,7 +290,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0809d8
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->image_placeholder:I
 
     invoke-virtual {p2}, Lnn6;->e()Landroid/widget/ImageView;
 

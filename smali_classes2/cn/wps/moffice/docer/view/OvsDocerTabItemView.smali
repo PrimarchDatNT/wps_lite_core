@@ -335,7 +335,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0f95
+    sget p2, Lcom/resouce/module/ResLAYOUT;->tabitem_ovs_docer:I
 
     .line 4
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -355,7 +355,7 @@
     invoke-virtual {p2}, Lap5;->e()V
 
     :cond_0
-    const p2, 0x7f0b3423
+    sget p2, Lcom/resouce/module/ResID;->web_ovs:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -366,7 +366,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/docer/view/OvsDocerTabItemView;->B:Lcn/wps/moffice/docer/view/OvsWebView;
 
-    const v0, 0x7f0b3420
+    sget v0, Lcom/resouce/module/ResID;->web_custom_container:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -382,7 +382,7 @@
 
     invoke-static {p2}, Lto5;->q(Landroid/webkit/WebView;)V
 
-    const p2, 0x7f0b1d40
+    sget p2, Lcom/resouce/module/ResID;->pb_ovs:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

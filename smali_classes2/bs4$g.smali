@@ -61,7 +61,7 @@
 
     move-result v1
 
-    const v2, 0x7f12108a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     if-eqz v1, :cond_1
 
@@ -80,7 +80,7 @@
 
     iget-object v1, p0, Lbs4$g;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fd4
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_type_bronze:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -117,7 +117,7 @@
 
     iget-object v1, p0, Lbs4$g;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fd5
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_type_docer:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -154,7 +154,7 @@
 
     iget-object v1, p0, Lbs4$g;->B:Landroid/app/Activity;
 
-    const v3, 0x7f120fd8
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_type_silver:I
 
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -191,7 +191,7 @@
 
     iget-object v1, p0, Lbs4$g;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120fd7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -218,7 +218,7 @@
     .line 11
     iget-object v0, p0, Lbs4$g;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1218b5
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_privilege_enterprise:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

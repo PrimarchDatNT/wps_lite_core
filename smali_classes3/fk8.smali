@@ -232,7 +232,7 @@
     .line 1
     iget-object p2, p0, Lfk8;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0497
+    sget v1, Lcom/resouce/module/ResLAYOUT;->merge_file_select_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

@@ -487,7 +487,7 @@
 .method public getLoginButtonTextResID()I
     .locals 1
 
-    const v0, 0x7f122048
+    sget v0, Lcom/resouce/module/ResSTRING;->public_email_login:I
 
     return v0
 .end method
@@ -518,7 +518,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0395
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_login:I
 
     const/4 v2, 0x0
 
@@ -528,7 +528,7 @@
 
     iput-object v0, p0, Lzw7;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b112d
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_container:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -542,7 +542,7 @@
     .line 5
     iget-object v0, p0, Lzw7;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b1140
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -579,7 +579,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1205de
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     return v0
 .end method
@@ -682,7 +682,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f121116
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_content_title_cn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -690,7 +690,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121117
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_content_title_en:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -830,7 +830,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f12205f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_error_request_too_often:I
 
     .line 7
     invoke-virtual {p0, p1, v2}, Lzw7;->setErrorText(IZ)V
@@ -867,7 +867,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121121
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_user_suspend:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -892,7 +892,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121119
+    sget v0, Lcom/resouce/module/ResSTRING;->home_roaming_login_faied_and_tip_try:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -910,7 +910,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f121114
+    sget p1, Lcom/resouce/module/ResSTRING;->home_roaming_login_account_or_pwd_error:I
 
     .line 17
     invoke-virtual {p0, p1, v2}, Lzw7;->setErrorText(IZ)V
@@ -1192,7 +1192,7 @@
 .method public setupView(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1138
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_native_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1204,7 +1204,7 @@
     .line 2
     iget-object v0, p0, Lzw7;->mRootView:Landroid/view/View;
 
-    const v1, 0x7f0b113b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1212,7 +1212,7 @@
 
     iput-object v0, p0, Lzw7;->mProgressBar:Landroid/view/View;
 
-    const v0, 0x7f0b1137
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_login_native_scrollview:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

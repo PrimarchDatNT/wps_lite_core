@@ -54,7 +54,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b06ee
+    sget v0, Lcom/resouce/module/ResID;->dlg_pricacy_policy:I
 
     if-ne p1, v0, :cond_0
 
@@ -66,7 +66,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f0b06dd
+    sget v0, Lcom/resouce/module/ResID;->dlg_final_user_agreement:I
 
     if-ne p1, v0, :cond_1
 
@@ -82,7 +82,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v0, 0x7f0b06e7
+    sget v0, Lcom/resouce/module/ResID;->dlg_online_user_agreement:I
 
     if-ne p1, v0, :cond_2
 
@@ -98,7 +98,7 @@
     goto/16 :goto_3
 
     :cond_2
-    const v0, 0x7f0b06f2
+    sget v0, Lcom/resouce/module/ResID;->dlg_privacy_cancel:I
 
     const-string v1, "data1"
 
@@ -177,7 +177,7 @@
     goto :goto_3
 
     :cond_5
-    const v0, 0x7f0b06f1
+    sget v0, Lcom/resouce/module/ResID;->dlg_privacy_agree:I
 
     if-ne p1, v0, :cond_a
 

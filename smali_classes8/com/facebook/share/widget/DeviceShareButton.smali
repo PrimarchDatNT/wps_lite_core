@@ -263,7 +263,7 @@
 .method public getDefaultStyleResource()I
     .locals 1
 
-    const v0, 0x7f1303fc
+    sget v0, Lcom/resouce/module/ResSTYLE;->com_facebook_button_share:I
 
     return v0
 .end method

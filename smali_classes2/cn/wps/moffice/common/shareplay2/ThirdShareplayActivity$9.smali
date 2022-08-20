@@ -123,7 +123,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity$9;->this$0:Lcn/wps/moffice/common/shareplay2/ThirdShareplayActivity;
 
-    const v1, 0x7f121c3d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_upload_file_fail:I
 
     const/4 v2, 0x1
 

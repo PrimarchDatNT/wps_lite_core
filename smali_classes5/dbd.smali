@@ -111,7 +111,7 @@
     .line 5
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b116d
+    sget v1, Lcom/resouce/module/ResID;->home_setting_cloud_items_group_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 6
     iget-object v1, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b116e
+    sget v2, Lcom/resouce/module/ResID;->home_setting_cloud_teach_banner_view:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -235,7 +235,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f120f7f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_cloud_service:I
 
     return v0
 .end method
@@ -309,7 +309,7 @@
     return-object v0
 
     :cond_0
-    const v1, 0x7f120f7f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_cloud_service:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -504,13 +504,13 @@
 
     invoke-virtual {v0, v2, v1}, Ljs4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f08072b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f122bc7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_desc:I
 
     const/4 v5, 0x1
 
@@ -932,7 +932,7 @@
 
     iget-object v1, p0, Lapg;->I:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -979,7 +979,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b2553
+    sget p3, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {p2, p3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -1118,7 +1118,7 @@
     .line 3
     iget-object p1, p0, Lapg;->B:Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;
 
-    const p2, 0x7f0b2fe1
+    sget p2, Lcom/resouce/module/ResID;->title_bar_edit:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1137,7 +1137,7 @@
     .line 4
     iget-object p1, p0, Lapg;->B:Lcn/wps/moffice/spreadsheet/control/share/view/SharePreviewView;
 
-    const p2, 0x7f0b2bd3
+    sget p2, Lcom/resouce/module/ResID;->sharepreview_item_share:I
 
     invoke-virtual {p1, p2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

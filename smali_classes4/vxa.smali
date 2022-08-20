@@ -308,13 +308,13 @@
 
     invoke-direct {v5}, Lvxa$a;-><init>()V
 
-    const v1, 0x7f1203df
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_collection_dialog_title:I
 
-    const v2, 0x7f120456
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_open_improvement_tip:I
 
-    const v3, 0x7f121f0e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
-    const v4, 0x7f120498
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_reject:I
 
     move-object v0, p0
 

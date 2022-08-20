@@ -63,7 +63,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0dd5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_popup_privilege_textimage_item:I
 
     const/4 v3, 0x0
 

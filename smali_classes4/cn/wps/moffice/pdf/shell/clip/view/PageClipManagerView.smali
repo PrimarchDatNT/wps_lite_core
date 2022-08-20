@@ -202,7 +202,7 @@
 
     iput v0, p0, Lcn/wps/moffice/pdf/shell/clip/view/PageClipManagerView;->e0:I
 
-    const v0, 0x7f0b1e8d
+    sget v0, Lcom/resouce/module/ResID;->pdf_pageclip_operationview:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 .method public final e()V
     .locals 3
 
-    const v0, 0x7f0b1d86
+    sget v0, Lcom/resouce/module/ResID;->pdf_clip_parity_align:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

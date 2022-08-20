@@ -102,7 +102,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0a98
+    sget v4, Lcom/resouce/module/ResLAYOUT;->ppt_pad_public_popmenu_item:I
 
     const/4 v5, 0x0
 
@@ -111,7 +111,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b2479
+    sget v4, Lcom/resouce/module/ResID;->ppt_textalign_item_icon:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v4, 0x7f0b247b
+    sget v4, Lcom/resouce/module/ResID;->ppt_textalign_item_text:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v4, 0x7f0b247a
+    sget v4, Lcom/resouce/module/ResID;->ppt_textalign_item_root:I
 
     .line 11
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

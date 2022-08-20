@@ -446,7 +446,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f0b0530
+    sget v0, Lcom/resouce/module/ResID;->container:I
 
     return v0
 .end method

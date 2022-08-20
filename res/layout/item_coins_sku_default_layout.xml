@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_centerInParent="true">
-        <ImageView android:layout_gravity="center_horizontal" android:id="@id/retry_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_home_retry_icon" />
-        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="14.0dip" android:textColor="#66000000" android:layout_gravity="center_horizontal" android:id="@id/network_error_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="27.0dip" android:text="@string/reader_network_error" />
-        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="14.0dip" android:textColor="#b3000000" android:layout_gravity="center_horizontal" android:id="@id/retry_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="27.0dip" android:text="@string/wps_home_retry" app:textStyle="bold" />
-    </LinearLayout>
-</RelativeLayout>

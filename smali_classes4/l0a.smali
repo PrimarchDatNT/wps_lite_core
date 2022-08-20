@@ -766,7 +766,7 @@
 
     if-ne v1, v2, :cond_2
 
-    const v1, 0x7f0b19a4
+    sget v1, Lcom/resouce/module/ResID;->native_ad_main_image:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

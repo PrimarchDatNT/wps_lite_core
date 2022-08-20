@@ -237,7 +237,7 @@
     .line 3
     iget-object p1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -605,12 +605,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12116c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120610
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     :goto_0
     return v0

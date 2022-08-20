@@ -23,7 +23,7 @@
     .line 4
     iget-object p1, p0, Li5l;->d0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v0, 0x7f1224f3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multiselect:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
 

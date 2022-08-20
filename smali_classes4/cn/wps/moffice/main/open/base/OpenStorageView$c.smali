@@ -107,7 +107,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b10e8
+    sget v0, Lcom/resouce/module/ResID;->home_open_item_subtitle:I
 
     .line 7
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_1
-    const p3, 0x7f0b10e7
+    sget p3, Lcom/resouce/module/ResID;->home_open_item_icon:I
 
     .line 12
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -173,12 +173,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0733
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_open_storage_list_item:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e055d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_open_storage_list_item:I
 
     :goto_0
     iput v0, p0, Lzfa;->e:I

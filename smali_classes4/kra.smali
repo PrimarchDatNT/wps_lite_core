@@ -54,7 +54,7 @@
 
     iput-object p1, p0, Lkra;->mPopupWindow:Landroid/widget/PopupWindow;
 
-    const p2, 0x7f1307bf
+    sget p2, Lcom/resouce/module/ResSTYLE;->v10_popup_tips_animation:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V

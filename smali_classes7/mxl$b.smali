@@ -55,7 +55,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b21e6
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_settings:I
 
     if-ne p1, v0, :cond_3
 
@@ -146,7 +146,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b21e4
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_play:I
 
     if-ne p1, v0, :cond_5
 
@@ -198,7 +198,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b21e3
+    sget v0, Lcom/resouce/module/ResID;->phone_writer_tts_controlpanel_finish:I
 
     if-ne p1, v0, :cond_7
 

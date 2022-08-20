@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12134c
+    sget v1, Lcom/resouce/module/ResSTRING;->lie_pin_proto_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120204
+    sget v1, Lcom/resouce/module/ResSTRING;->beike_proto_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f123457
+    sget v1, Lcom/resouce/module/ResSTRING;->zhilian_proto_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e0a
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_resume_deliver_checkjob_dialog:I
 
     const/4 v4, 0x0
 
@@ -267,7 +267,7 @@
 
     move-result-object v8
 
-    const v2, 0x7f0b03b2
+    sget v2, Lcom/resouce/module/ResID;->check_job_btn:I
 
     .line 5
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,35 +278,35 @@
 
     check-cast v9, Landroid/widget/Button;
 
-    const v2, 0x7f0b0036
+    sget v2, Lcom/resouce/module/ResID;->accept_secret_beike:I
 
     .line 6
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
-    const v3, 0x7f0b0035
+    sget v3, Lcom/resouce/module/ResID;->accept_secret_and:I
 
     .line 7
     invoke-virtual {v8, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b003a
+    sget v4, Lcom/resouce/module/ResID;->accept_secret_zhilian:I
 
     .line 8
     invoke-virtual {v8, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v5, 0x7f0b03dd
+    sget v5, Lcom/resouce/module/ResID;->checkjob_close_layout:I
 
     .line 9
     invoke-virtual {v8, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v10, 0x7f0b03d9
+    sget v10, Lcom/resouce/module/ResID;->checkjob_beike_checkbox:I
 
     .line 10
     invoke-virtual {v8, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
 
     check-cast v10, Landroid/widget/CheckBox;
 
-    const v11, 0x7f0b03de
+    sget v11, Lcom/resouce/module/ResID;->checkjob_zhilian_checkbox:I
 
     .line 11
     invoke-virtual {v8, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     check-cast v11, Landroid/widget/CheckBox;
 
-    const v12, 0x7f0b0037
+    sget v12, Lcom/resouce/module/ResID;->accept_secret_checkbox:I
 
     .line 12
     invoke-virtual {v8, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -333,21 +333,21 @@
 
     check-cast v12, Landroid/widget/CheckBox;
 
-    const v13, 0x7f0b0038
+    sget v13, Lcom/resouce/module/ResID;->accept_secret_checkbox_layout:I
 
     .line 13
     invoke-virtual {v8, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v13
 
-    const v14, 0x7f0b03e0
+    sget v14, Lcom/resouce/module/ResID;->checkjob_zhilian_layout:I
 
     .line 14
     invoke-virtual {v8, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v14
 
-    const v15, 0x7f0b03db
+    sget v15, Lcom/resouce/module/ResID;->checkjob_beike_layout:I
 
     .line 15
     invoke-virtual {v8, v15}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -564,7 +564,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e0b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_resume_deliver_lp_proto_dialog:I
 
     const/4 v2, 0x0
 
@@ -572,7 +572,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1791
+    sget v1, Lcom/resouce/module/ResID;->lp_dialog_check_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -585,7 +585,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1792
+    sget v1, Lcom/resouce/module/ResID;->lp_dialog_check_text2:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1790
+    sget v1, Lcom/resouce/module/ResID;->lp_dialog_check_btn:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -643,19 +643,19 @@
     .line 13
     invoke-virtual {p3, v0}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    const v0, 0x7f1201ad
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_preview_lp_dialog_title:I
 
     .line 14
     invoke-virtual {p3, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f121f0e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     .line 15
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -664,7 +664,7 @@
     .line 16
     invoke-virtual {p3, v0, p0, p1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121f13
+    sget p0, Lcom/resouce/module/ResSTRING;->public_collection_notagree:I
 
     .line 17
     invoke-virtual {p3, p0, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -683,7 +683,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12018c
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_deliver_nojob:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -692,7 +692,7 @@
 
     invoke-virtual {v0, p0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -711,7 +711,7 @@
     .line 1
     new-instance v6, Lgd3;
 
-    const v0, 0x7f1201b0
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_preview_lp_user_dialog_content:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -729,7 +729,7 @@
 
     invoke-direct/range {v0 .. v5}, Lgd3;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    const v0, 0x7f1201b3
+    sget v0, Lcom/resouce/module/ResSTRING;->apps_resume_save:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -738,7 +738,7 @@
 
     invoke-virtual {v6, v0}, Lgd3;->h(Ljava/lang/String;)V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -790,7 +790,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0606e2
+    sget p1, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -811,7 +811,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0606e3
+    sget p1, Lcom/resouce/module/ResCOLOR;->whiteMainTextDisabledColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 

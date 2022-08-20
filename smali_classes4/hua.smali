@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121639
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check_job:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -1195,7 +1195,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1212f7
+    sget v3, Lcom/resouce/module/ResSTRING;->jingdong_scheme:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip">
-        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerInParent="true" app:barColor1="@color/secondaryColor" app:barColor2="@color/secondaryColor" app:barColor3="@color/secondaryColor" app:barColor4="@color/secondaryColor" />
-    </RelativeLayout>
-</RelativeLayout>

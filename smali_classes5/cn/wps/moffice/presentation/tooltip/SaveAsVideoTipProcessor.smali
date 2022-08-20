@@ -143,7 +143,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/presentation/tooltip/SaveAsVideoTipProcessor;->c:Landroid/content/Context;
 
-    const v0, 0x7f122091
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_mp4_background_top_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

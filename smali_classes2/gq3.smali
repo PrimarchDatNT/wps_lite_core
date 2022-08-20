@@ -732,7 +732,7 @@
 
     invoke-direct {v0, p0}, Liq3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0e0d92
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_home_check_close_on_uploading_dlg_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setView(I)Lhd3;
@@ -742,7 +742,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -753,7 +753,7 @@
 
     invoke-direct {v1, p1}, Lgq3$g;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f1222a7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_local_file_back_to_hiding:I
 
     invoke-virtual {v0, p1, p0, v1}, Lhd3;->setNegativeButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -762,7 +762,7 @@
 
     invoke-direct {p1, p2}, Lgq3$h;-><init>(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, p2, p0, p1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -834,7 +834,7 @@
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f1210fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -846,7 +846,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120eae
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -860,7 +860,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120eaa
+    sget p1, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -870,7 +870,7 @@
     :goto_0
     invoke-virtual {v0, p0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 9
     new-instance p1, Lgq3$b;
@@ -905,7 +905,7 @@
 
     invoke-virtual {v0, v1, v2, p0}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p0, 0x7f121c29
+    sget p0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_network_type_tip:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
@@ -915,7 +915,7 @@
 
     invoke-direct {p0, p2}, Lgq3$d;-><init>(Ljava/lang/Runnable;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p0}, Liq3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -924,7 +924,7 @@
 
     invoke-direct {p0, p1}, Lgq3$e;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f121c13
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_go_on:I
 
     invoke-virtual {v0, p1, p0}, Liq3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

@@ -87,7 +87,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0dc9
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_phone_sharefoldermodule_share:I
 
     const/4 p4, 0x0
 
@@ -95,7 +95,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b03fb
+    sget p3, Lcom/resouce/module/ResID;->choose_send_group:I
 
     .line 13
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object p3, p0, Lml7;->a:Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;
 
-    const p3, 0x7f0b08a4
+    sget p3, Lcom/resouce/module/ResID;->enter_folder:I
 
     .line 14
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
     .line 2
     iget-object p2, p0, Lml7;->f:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p2, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -435,9 +435,9 @@
 
     iget-object v2, p0, Lml7;->m:Lrf3$c;
 
-    const v3, 0x7f122228
+    sget v3, Lcom/resouce/module/ResSTRING;->public_general_wechat_file:I
 
-    const v4, 0x7f081789
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_wechat:I
 
     invoke-virtual {p0, v1, v3, v4, v2}, Lml7;->i(Lydf;IILrf3$c;)Lrf3;
 
@@ -450,9 +450,9 @@
 
     iget-object v2, p0, Lml7;->m:Lrf3$c;
 
-    const v3, 0x7f122226
+    sget v3, Lcom/resouce/module/ResSTRING;->public_general_qq_file:I
 
-    const v4, 0x7f081784
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_share_qq:I
 
     invoke-virtual {p0, v1, v3, v4, v2}, Lml7;->i(Lydf;IILrf3$c;)Lrf3;
 
@@ -465,9 +465,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
-    const v4, 0x7f0816d2
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_more:I
 
     invoke-virtual {p0, v2, v3, v4, v1}, Lml7;->i(Lydf;IILrf3$c;)Lrf3;
 
@@ -487,7 +487,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0e40
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_sharefolder_share_item:I
 
     invoke-virtual {v1, v2, v3, v0}, Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;->setViewsWithCommonLayout(Landroid/content/Context;ILjava/util/List;)V
 

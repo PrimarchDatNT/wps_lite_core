@@ -278,7 +278,7 @@
 
     if-nez p3, :cond_1
 
-    const p3, 0x7f122eda
+    sget p3, Lcom/resouce/module/ResSTRING;->service_center_title:I
 
     .line 10
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -359,28 +359,28 @@
 .method public final h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 5
 
-    const v0, 0x7f120cf8
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_body_tips:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f1220cf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f120cf6
+    sget v2, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f1220e2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

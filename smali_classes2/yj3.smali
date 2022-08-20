@@ -183,7 +183,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v4, 0x7f070b23
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_font_color_item_width:I
 
     if-nez p1, :cond_1
 
@@ -208,12 +208,12 @@
 
     if-eqz v1, :cond_2
 
-    const p1, 0x7f070a85
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_bg_color_item_height:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f070a86
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_bg_color_item_height_h:I
 
     .line 5
     :goto_1
@@ -225,12 +225,12 @@
 
     if-eqz v1, :cond_3
 
-    const p1, 0x7f070a87
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_bg_color_item_width:I
 
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f070a88
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_bg_color_item_width_h:I
 
     .line 6
     :goto_2
@@ -259,7 +259,7 @@
     goto :goto_3
 
     :cond_5
-    const v4, 0x7f070b24
+    sget v4, Lcom/resouce/module/ResDIMEN;->public_font_color_item_width_h:I
 
     .line 8
     :goto_3
@@ -276,7 +276,7 @@
 
     if-ne p1, v1, :cond_7
 
-    const p1, 0x7f070b22
+    sget p1, Lcom/resouce/module/ResDIMEN;->public_font_color_item_small_width:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

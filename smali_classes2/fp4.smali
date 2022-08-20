@@ -86,7 +86,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ffb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_docinfo_cloud_copy_no_space_left:I
 
     const/4 v2, 0x1
 
@@ -110,7 +110,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f1210f0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_cannot_upload_file_please_clean_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -132,7 +132,7 @@
     .line 2
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -144,7 +144,7 @@
     :cond_0
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -168,7 +168,7 @@
     .line 1
     iget-object v0, p0, Lbp4;->e:Landroid/content/Context;
 
-    const v1, 0x7f121ed5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

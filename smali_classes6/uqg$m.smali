@@ -175,7 +175,7 @@
     return p1
 
     :catch_0
-    const p1, 0x7f12001e
+    sget p1, Lcom/resouce/module/ResSTRING;->SheetNameReservedException:I
 
     .line 8
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -183,7 +183,7 @@
     goto :goto_1
 
     :catch_1
-    const p1, 0x7f12001d
+    sget p1, Lcom/resouce/module/ResSTRING;->SheetNameConflictException:I
 
     .line 9
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -191,7 +191,7 @@
     goto :goto_1
 
     :catch_2
-    const p1, 0x7f120015
+    sget p1, Lcom/resouce/module/ResSTRING;->InvalidSheetNameException:I
 
     .line 10
     invoke-static {p1, v0}, Lsjf;->k(II)V
@@ -238,7 +238,7 @@
 
     if-gt v3, v2, :cond_0
 
-    const v0, 0x7f1219bf
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_hide_warning:I
 
     .line 4
     invoke-static {v0, v2}, Lsjf;->h(II)V
@@ -422,7 +422,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1219bd
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_delete_warning:I
 
     const/4 v0, 0x1
 
@@ -465,7 +465,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12001c
+    sget v2, Lcom/resouce/module/ResSTRING;->SheetDeleteToast:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -476,7 +476,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121fba
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 10
     invoke-virtual {p1, v1}, Lhd3;->setTitleById(I)Lhd3;

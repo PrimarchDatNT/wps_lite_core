@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0647
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_new_note_page_item:I
 
     const/4 v0, 0x0
 

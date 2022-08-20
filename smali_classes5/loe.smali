@@ -3382,7 +3382,7 @@
 
     if-nez v2, :cond_2
 
-    const v2, 0x7f0b22ac
+    sget v2, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 17
     invoke-virtual {p0, v2}, Lmoe;->J(I)Landroid/view/View;
@@ -4927,7 +4927,7 @@
 
     if-nez v1, :cond_3
 
-    const v1, 0x7f0b22ac
+    sget v1, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 41
     invoke-virtual {v0, v1}, Lmoe;->J(I)Landroid/view/View;
@@ -7869,7 +7869,7 @@
     .line 426
     iget-object v3, v5, Lrwd;->U:Lule;
 
-    const v6, 0x7f080384
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_new:I
 
     const-string v7, "insertslide"
 
@@ -8074,7 +8074,7 @@
     .line 460
     iget-object v10, v4, Lvrd;->S:Lule;
 
-    const v13, 0x7f0802ad
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_up:I
 
     move-object/from16 v45, v5
 
@@ -8091,7 +8091,7 @@
     .line 463
     iget-object v10, v4, Lvrd;->I:Lule;
 
-    const v13, 0x7f0802a9
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gototop:I
 
     move-object/from16 v32, v11
 
@@ -8108,7 +8108,7 @@
     .line 466
     iget-object v10, v4, Lvrd;->U:Lule;
 
-    const v13, 0x7f0802ac
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_down:I
 
     move-object/from16 v35, v7
 
@@ -8125,7 +8125,7 @@
     .line 469
     iget-object v10, v4, Lvrd;->T:Lule;
 
-    const v13, 0x7f0802a8
+    sget v13, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gotobottom:I
 
     const-string v6, "ppt_quickbar_bottom"
 
@@ -8164,7 +8164,7 @@
     .line 476
     iget-object v13, v4, Lvrd;->S:Lule;
 
-    const v14, 0x7f0802ad
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_up:I
 
     .line 477
     invoke-static {v13, v14, v5}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8177,7 +8177,7 @@
     .line 479
     iget-object v13, v4, Lvrd;->I:Lule;
 
-    const v14, 0x7f0802a9
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gototop:I
 
     .line 480
     invoke-static {v13, v14, v11}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8190,7 +8190,7 @@
     .line 482
     iget-object v13, v4, Lvrd;->U:Lule;
 
-    const v14, 0x7f0802ac
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_down:I
 
     .line 483
     invoke-static {v13, v14, v7}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8203,7 +8203,7 @@
     .line 485
     iget-object v13, v4, Lvrd;->T:Lule;
 
-    const v14, 0x7f0802a8
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gotobottom:I
 
     .line 486
     invoke-static {v13, v14, v6}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8233,7 +8233,7 @@
     .line 491
     iget-object v13, v4, Lvrd;->S:Lule;
 
-    const v14, 0x7f0802ad
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_up:I
 
     .line 492
     invoke-static {v13, v14, v5}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8246,7 +8246,7 @@
     .line 494
     iget-object v13, v4, Lvrd;->I:Lule;
 
-    const v14, 0x7f0802a9
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gototop:I
 
     .line 495
     invoke-static {v13, v14, v11}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8259,7 +8259,7 @@
     .line 497
     iget-object v13, v4, Lvrd;->U:Lule;
 
-    const v14, 0x7f0802ac
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_down:I
 
     .line 498
     invoke-static {v13, v14, v7}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8272,7 +8272,7 @@
     .line 500
     iget-object v13, v4, Lvrd;->T:Lule;
 
-    const v14, 0x7f0802a8
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gotobottom:I
 
     .line 501
     invoke-static {v13, v14, v6}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8419,7 +8419,7 @@
     .line 523
     iget-object v7, v12, Lhyd;->Z:Lmpe;
 
-    const v14, 0x7f121d07
+    sget v14, Lcom/resouce/module/ResSTRING;->public_add_picture:I
 
     invoke-static {v7, v14, v6}, Lh7e;->b(Lmpe;ILjava/lang/String;)Lql3;
 
@@ -8792,7 +8792,7 @@
     .line 572
     iget-object v3, v4, Lvrd;->S:Lule;
 
-    const v8, 0x7f0802ad
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_up:I
 
     .line 573
     invoke-static {v3, v8, v5}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8805,7 +8805,7 @@
     .line 575
     iget-object v3, v4, Lvrd;->I:Lule;
 
-    const v5, 0x7f0802a9
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gototop:I
 
     .line 576
     invoke-static {v3, v5, v11}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8820,7 +8820,7 @@
 
     move-object/from16 v5, v22
 
-    const v8, 0x7f0802ac
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_layer_move_down:I
 
     .line 579
     invoke-static {v3, v8, v5}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -8835,7 +8835,7 @@
 
     move-object/from16 v5, v17
 
-    const v8, 0x7f0802a8
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->comp_layer_gotobottom:I
 
     .line 582
     invoke-static {v3, v8, v5}, Lh7e;->a(Lmpe;ILjava/lang/String;)Lql3;
@@ -10917,7 +10917,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b22ac
+    sget v0, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 5
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -11269,7 +11269,7 @@
     .line 1
     invoke-super {p0}, Lmoe;->setup()V
 
-    const v0, 0x7f0b2310
+    sget v0, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -11306,7 +11306,7 @@
 
     iget-object v1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f0b23e3
+    sget v2, Lcom/resouce/module/ResID;->ppt_progressbar_stub:I
 
     invoke-virtual {p0, v2}, Lmoe;->J(I)Landroid/view/View;
 
@@ -11334,7 +11334,7 @@
 
     iput-object v0, p0, Lmoe;->b0:Llrd;
 
-    const v0, 0x7f0b2090
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_root:I
 
     .line 9
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -11345,7 +11345,7 @@
 
     iput-object v0, p0, Lloe;->v0:Lcn/wps/moffice/presentation/control/phonepanelservice/toptitlebar/MainTitleBarLayout;
 
-    const v0, 0x7f0b20a6
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_toolbar:I
 
     .line 10
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -11356,7 +11356,7 @@
 
     iput-object v0, p0, Lloe;->w0:Lcn/wps/moffice/presentation/control/phonepanelservice/toolbar/PhoneToolbarLayout;
 
-    const v0, 0x7f0b334d
+    sget v0, Lcom/resouce/module/ResID;->v10_phone_ppt_tool_layer:I
 
     .line 11
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -11392,7 +11392,7 @@
     .line 14
     iget-object v0, p0, Lloe;->u0:Lcn/wps/moffice/presentation/control/common/PptRootFrameLayout;
 
-    const v1, 0x7f0b0c40
+    sget v1, Lcom/resouce/module/ResID;->extra_panel_container:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 

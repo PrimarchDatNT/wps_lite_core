@@ -61,13 +61,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e09a5
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_toolbar_combine_item_view:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2d75
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_icon:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/CombineToolbarItemView;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2d77
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_item_title:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/common/CombineToolbarItemView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2d78
+    sget p1, Lcom/resouce/module/ResID;->ss_toolbar_subitem_container:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/common/CombineToolbarItemView;->U:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e09a6
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_toolbar_combine_subitem:I
 
     const/4 v3, 0x0
 
@@ -155,19 +155,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f080233
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     if-eq p1, v1, :cond_0
 
-    const v1, 0x7f08041f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_square:I
 
     if-eq p1, v1, :cond_0
 
-    const v1, 0x7f08041e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_circle:I
 
     if-eq p1, v1, :cond_0
 
-    const v1, 0x7f08041c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_arrow:I
 
     if-ne p1, v1, :cond_1
 
@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -212,7 +212,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/common/CombineToolbarItemView;->U:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e09a6
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_toolbar_combine_subitem:I
 
     const/4 v3, 0x0
 
@@ -239,19 +239,19 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f080233
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     if-eq p2, p1, :cond_0
 
-    const p1, 0x7f08041f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_square:I
 
     if-eq p2, p1, :cond_0
 
-    const p1, 0x7f08041e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_circle:I
 
     if-eq p2, p1, :cond_0
 
-    const p1, 0x7f08041c
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_style_mark_arrow:I
 
     if-ne p2, p1, :cond_1
 
@@ -265,7 +265,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0602db
+    sget p2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

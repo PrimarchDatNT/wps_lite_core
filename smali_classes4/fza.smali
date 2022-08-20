@@ -309,7 +309,7 @@
     .line 4
     iget-object p1, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v0, 0x7f121b81
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_long_pic_share_length_limited:I
 
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -339,7 +339,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0190
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_phone_scan_long_pic_share_select_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -357,7 +357,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0919
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_scan_long_pic_share_select_layout:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -374,7 +374,7 @@
     .line 5
     iget-object v0, p0, Lfza;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -391,7 +391,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -408,7 +408,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -419,7 +419,7 @@
     .line 8
     iget-object v0, p0, Lfza;->T:Landroid/view/View;
 
-    const v1, 0x7f0b177a
+    sget v1, Lcom/resouce/module/ResID;->long_pic_select_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -432,7 +432,7 @@
     .line 9
     iget-object v0, p0, Lfza;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -459,7 +459,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -475,7 +475,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -486,7 +486,7 @@
     .line 13
     iget-object v1, p0, Lfza;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2fe9
+    sget v2, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -519,7 +519,7 @@
     .line 16
     iget-object v1, p0, Lfza;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2fde
+    sget v3, Lcom/resouce/module/ResID;->title_bar_close:I
 
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -547,7 +547,7 @@
     .line 20
     iget-object v0, p0, Lfza;->T:Landroid/view/View;
 
-    const v1, 0x7f0b177b
+    sget v1, Lcom/resouce/module/ResID;->long_pic_select_grid:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -566,7 +566,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060261
+    sget v4, Lcom/resouce/module/ResCOLOR;->maskBackgroundColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -709,7 +709,7 @@
     .line 2
     iget-object v0, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v1, 0x7f121745
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     const/4 v2, 0x1
 
@@ -798,7 +798,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0700fb
+    sget v0, Lcom/resouce/module/ResDIMEN;->doc_scan_long_pic_share_preview_item_padding:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -833,7 +833,7 @@
     .line 2
     iget-object v1, p0, Lfza;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2fe8
+    sget v2, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1056,7 +1056,7 @@
     :cond_0
     iget-object v1, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v2, 0x7f121b81
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_long_pic_share_length_limited:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1383,7 +1383,7 @@
 
     iget-object v1, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1400,7 +1400,7 @@
 
     iget-object v1, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v2, 0x7f122551
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1436,7 +1436,7 @@
 
     iget-object v4, p0, Lfza;->U:Landroid/app/Activity;
 
-    const v5, 0x7f122567
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

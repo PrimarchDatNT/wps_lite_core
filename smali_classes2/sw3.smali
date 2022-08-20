@@ -74,7 +74,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121271
+    sget v0, Lcom/resouce/module/ResSTRING;->hotfix_tips:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -82,7 +82,7 @@
 
     invoke-virtual {p3, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p2, 0x7f121270
+    sget p2, Lcom/resouce/module/ResSTRING;->hotfix_disagree:I
 
     .line 8
     new-instance v0, Lsw3$a;
@@ -91,14 +91,14 @@
 
     invoke-virtual {p3, p2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f12126f    # 1.94163E38f
+    sget p2, Lcom/resouce/module/ResSTRING;->hotfix_agree:I    # 1.94163E38f
 
     .line 9
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

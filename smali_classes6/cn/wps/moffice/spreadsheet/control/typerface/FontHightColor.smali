@@ -49,7 +49,7 @@
     .line 5
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/typerface/FontHightColor$6;
 
-    const v1, 0x7f080dc2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_format:I
 
     const/4 v2, -0x1
 
@@ -68,7 +68,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070ab8
+    sget p2, Lcom/resouce/module/ResDIMEN;->public_color_layout_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -499,7 +499,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/FontHightColor;->B:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b04b7
+    sget v1, Lcom/resouce/module/ResID;->color_noneColorBtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -514,7 +514,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/FontHightColor;->B:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b04b2
+    sget v1, Lcom/resouce/module/ResID;->color_dialog_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -653,7 +653,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/typerface/FontHightColor;->I:Landroid/content/Context;
 
-    const v2, 0x7f0e0513
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_color_select_pad:I
 
     const/4 v3, 0x0
 
@@ -661,7 +661,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1bc8
+    sget v2, Lcom/resouce/module/ResID;->pad_color_select_rv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -748,7 +748,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/typerface/FontHightColor;->U:Lzi3;
 
-    const v1, 0x7f12197d
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_complex_format_frame_color_no_fill:I
 
     invoke-virtual {v0, v1}, Lzi3;->j0(I)V
 

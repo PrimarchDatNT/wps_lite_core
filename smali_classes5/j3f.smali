@@ -62,7 +62,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e1049
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_recent_reading_horizontal_layout:I
 
     const/4 v1, 0x0
 
@@ -72,7 +72,7 @@
 
     iput-object p2, p0, Lj3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2863
+    sget v0, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 6
     iget-object p2, p0, Lj3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b287d
+    sget v0, Lcom/resouce/module/ResID;->refreshTextView:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -97,7 +97,7 @@
     .line 7
     iget-object p2, p0, Lj3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 8
     iget-object p2, p0, Lj3f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0ffa
+    sget v0, Lcom/resouce/module/ResID;->history_top_padding:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
     .line 17
     iget-object p1, p0, Lj3f;->B:Landroid/view/View;
 
-    const p2, 0x7f0b04f3
+    sget p2, Lcom/resouce/module/ResID;->con_reading_label:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -222,7 +222,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -809,7 +809,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b287d
+    sget v1, Lcom/resouce/module/ResID;->refreshTextView:I
 
     if-ne v0, v1, :cond_1
 
@@ -852,7 +852,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0444
+    sget v0, Lcom/resouce/module/ResID;->closeImageView:I
 
     if-ne p1, v0, :cond_2
 

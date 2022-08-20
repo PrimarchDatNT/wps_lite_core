@@ -446,7 +446,7 @@
 
     move-result-object v2
 
-    const v5, 0x7f120fc0
+    sget v5, Lcom/resouce/module/ResSTRING;->home_membership_text:I
 
     invoke-virtual {v2, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

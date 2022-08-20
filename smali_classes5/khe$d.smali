@@ -126,7 +126,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121b5b
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_beauty_template_apply:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -134,7 +134,7 @@
 
     invoke-virtual {v1, v2}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V

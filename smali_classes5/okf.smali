@@ -1054,7 +1054,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f122d5d
+    sget v9, Lcom/resouce/module/ResSTRING;->reader_preview_row_num_info:I
 
     new-array v8, v8, [Ljava/lang/Object;
 
@@ -1154,7 +1154,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122d5e
+    sget v5, Lcom/resouce/module/ResSTRING;->reader_preview_select_button_name:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1852,7 +1852,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f122d5a
+    sget v9, Lcom/resouce/module/ResSTRING;->reader_preview_column_num_info:I
 
     new-array v8, v8, [Ljava/lang/Object;
 
@@ -1889,7 +1889,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0271
+    sget v2, Lcom/resouce/module/ResID;->bottom_search_root:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1902,7 +1902,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b299f
+    sget v3, Lcom/resouce/module/ResID;->rom_read_tool_bar_layout:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

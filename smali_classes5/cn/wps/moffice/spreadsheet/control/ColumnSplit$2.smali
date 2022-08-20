@@ -95,7 +95,7 @@
 
     if-nez p1, :cond_1
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v0, 0x0
 

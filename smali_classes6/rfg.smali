@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e094b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_concat_info_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -37,7 +37,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0b2fcd
+    sget p2, Lcom/resouce/module/ResID;->title:I
 
     .line 5
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -46,12 +46,12 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v1, 0x7f122fc8
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_filter_row_num:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f0b002d
+    sget p2, Lcom/resouce/module/ResID;->a1:I
 
     .line 7
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -60,12 +60,12 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    const v1, 0x7f122fc9
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_filter_row_tips:I
 
     .line 8
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f0b279a
+    sget p2, Lcom/resouce/module/ResID;->q1:I
 
     .line 9
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p2, 0x7f0b002e
+    sget p2, Lcom/resouce/module/ResID;->a2:I
 
     .line 10
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -85,7 +85,7 @@
 
     invoke-virtual {p2, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p2, 0x7f0b279b
+    sget p2, Lcom/resouce/module/ResID;->q2:I
 
     .line 11
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
     .line 16
     invoke-virtual {p0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p2, 0x7f0b0527
+    sget p2, Lcom/resouce/module/ResID;->confirm_btn:I
 
     .line 17
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

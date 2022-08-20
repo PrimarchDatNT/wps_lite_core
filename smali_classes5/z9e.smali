@@ -78,7 +78,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lcn/wps/show/app/KmoPresentation;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -293,7 +293,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07f8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_export_share_image_dialog:I
 
     const/4 v2, 0x0
 
@@ -309,7 +309,7 @@
     .line 3
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -354,7 +354,7 @@
     .line 8
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v3, 0x7f0b2fec
+    sget v3, Lcom/resouce/module/ResID;->title_bar_title:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -362,7 +362,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
@@ -370,7 +370,7 @@
     .line 10
     iget-object v3, p0, Lz9e;->e0:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v4, 0x7f0b2fe8
+    sget v4, Lcom/resouce/module/ResID;->title_bar_return:I
 
     invoke-virtual {v3, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -381,7 +381,7 @@
     .line 11
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b0f9d
+    sget v5, Lcom/resouce/module/ResID;->hd_item:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -394,7 +394,7 @@
     .line 12
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b2799
+    sget v5, Lcom/resouce/module/ResID;->pv_item:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -412,7 +412,7 @@
     .line 14
     iget-object v4, p0, Lz9e;->e0:Lcn/wps/moffice/common/beans/TitleBar;
 
-    const v5, 0x7f0b2fe9
+    sget v5, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -425,7 +425,7 @@
     .line 15
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b0c2c
+    sget v5, Lcom/resouce/module/ResID;->export_share_btn:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -438,7 +438,7 @@
     .line 16
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b2f81
+    sget v5, Lcom/resouce/module/ResID;->thumb_grid_view:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
     .line 17
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b2c1f
+    sget v5, Lcom/resouce/module/ResID;->single_image:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -464,7 +464,7 @@
     .line 18
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b2c20
+    sget v5, Lcom/resouce/module/ResID;->single_image_layout:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -478,7 +478,7 @@
     .line 20
     iget-object v4, p0, Lz9e;->U:Landroid/view/View;
 
-    const v5, 0x7f0b1827
+    sget v5, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -592,7 +592,7 @@
     :cond_0
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v2, 0x7f0b33f4
+    sget v2, Lcom/resouce/module/ResID;->water_mark_ll:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -616,7 +616,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b0f9e
+    sget v2, Lcom/resouce/module/ResID;->hd_item_img:I
 
     if-eqz v0, :cond_1
 
@@ -629,7 +629,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v3, 0x7f0817cc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -645,7 +645,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v3, 0x7f0808a3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -746,7 +746,7 @@
     .line 1
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v1, 0x7f0b2506
+    sget v1, Lcom/resouce/module/ResID;->preview_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -757,7 +757,7 @@
     .line 2
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v1, 0x7f0b250e
+    sget v1, Lcom/resouce/module/ResID;->preview_view_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -804,7 +804,7 @@
     .line 7
     iget-object v0, p0, Lz9e;->U:Landroid/view/View;
 
-    const v1, 0x7f0b12ea
+    sget v1, Lcom/resouce/module/ResID;->indicator_tv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1000,9 +1000,9 @@
     :cond_0
     iget-object v0, p0, Lz9e;->T:Lhpd;
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
-    const v2, 0x7f121f45
+    sget v2, Lcom/resouce/module/ResSTRING;->public_confirm_export:I
 
     const/4 v3, 0x1
 
@@ -1101,12 +1101,12 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f122551
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v5, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1213,7 +1213,7 @@
     goto :goto_3
 
     :cond_6
-    const v2, 0x7f1220b9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_picture:I
 
     :goto_3
     invoke-virtual {v6, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1511,7 +1511,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v1, :cond_1
 
@@ -1535,7 +1535,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b2fe9
+    sget v1, Lcom/resouce/module/ResID;->title_bar_select_all_switcher:I
 
     if-ne p1, v1, :cond_2
 
@@ -1545,7 +1545,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v1, 0x7f0b0f9d
+    sget v1, Lcom/resouce/module/ResID;->hd_item:I
 
     if-ne p1, v1, :cond_3
 
@@ -1555,7 +1555,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const v1, 0x7f0b2799
+    sget v1, Lcom/resouce/module/ResID;->pv_item:I
 
     const/4 v2, 0x1
 
@@ -1567,7 +1567,7 @@
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f0b0c2c
+    sget v1, Lcom/resouce/module/ResID;->export_share_btn:I
 
     if-ne p1, v1, :cond_7
 
@@ -1670,7 +1670,7 @@
     goto :goto_1
 
     :cond_7
-    const v0, 0x7f0b2fe1
+    sget v0, Lcom/resouce/module/ResID;->title_bar_edit:I
 
     if-ne p1, v0, :cond_8
 

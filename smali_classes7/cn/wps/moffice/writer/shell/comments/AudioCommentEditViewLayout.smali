@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09bd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_audio_comment_edit_dlg_layout:I
 
     const/4 v2, 0x1
 
@@ -78,7 +78,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f0f
+    sget v1, Lcom/resouce/module/ResID;->text_edit_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f11
+    sget v1, Lcom/resouce/module/ResID;->text_edit_save:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -103,7 +103,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f0e
+    sget v1, Lcom/resouce/module/ResID;->text_edit_cancle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1c77
+    sget v1, Lcom/resouce/module/ResID;->page_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,14 +132,14 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->U:Lcn/wps/moffice/writer/shell/comments/AudioCommentEditDialogTitleBar;
 
-    const v1, 0x7f12203e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_edit:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditDialogTitleBar;->setTitle(I)V
 
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/comments/AudioCommentEditViewLayout;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f10
+    sget v1, Lcom/resouce/module/ResID;->text_edit_page_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

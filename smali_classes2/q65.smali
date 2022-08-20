@@ -202,7 +202,7 @@
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    const v1, 0x7f121fd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_devices_manager:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -256,14 +256,14 @@
     return-void
 
     :cond_2
-    const p2, 0x7f12037f
+    sget p2, Lcom/resouce/module/ResSTRING;->dialog_account_security_reminder_title:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p2
 
-    const v0, 0x7f12149c
+    sget v0, Lcom/resouce/module/ResSTRING;->notification_account_security_reminder_prompt:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -291,7 +291,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081984
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     .line 9
     invoke-static {p0, v2}, La73;->a(Landroid/content/Context;I)Landroid/graphics/Bitmap;

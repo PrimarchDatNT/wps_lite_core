@@ -48,7 +48,7 @@
 
     move-result p1
 
-    const v0, 0x7f12069d
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_send_weibo_sina:I
 
     if-ne p1, v0, :cond_0
 
@@ -67,7 +67,7 @@
 
     move-result p1
 
-    const v0, 0x7f120606
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
     if-ne p1, v0, :cond_1
 
@@ -86,7 +86,7 @@
 
     move-result p1
 
-    const v0, 0x7f120605
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
     if-ne p1, v0, :cond_2
 
@@ -105,7 +105,7 @@
 
     move-result p1
 
-    const v0, 0x7f122967
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_facebook:I
 
     if-ne p1, v0, :cond_3
 
@@ -122,7 +122,7 @@
 
     move-result p1
 
-    const v0, 0x7f122f0e
+    sget v0, Lcom/resouce/module/ResSTRING;->share_googleplus:I
 
     if-ne p1, v0, :cond_4
 
@@ -139,7 +139,7 @@
 
     move-result p1
 
-    const v0, 0x7f122c05
+    sget v0, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     if-ne p1, v0, :cond_5
 
@@ -156,7 +156,7 @@
 
     move-result p1
 
-    const p2, 0x7f122965
+    sget p2, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     if-ne p1, p2, :cond_6
 

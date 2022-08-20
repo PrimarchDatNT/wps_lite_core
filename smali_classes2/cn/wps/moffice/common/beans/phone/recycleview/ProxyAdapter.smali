@@ -757,7 +757,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0468
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_recycler_loading:I
 
     const/4 v1, 0x0
 

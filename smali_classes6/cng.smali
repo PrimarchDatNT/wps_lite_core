@@ -91,7 +91,7 @@
 .method public final a()V
     .locals 7
 
-    const v0, 0x7f0b0917
+    sget v0, Lcom/resouce/module/ResID;->et_cardmode_tips_iknow:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b0919
+    sget v1, Lcom/resouce/module/ResID;->et_cardmode_tips_title:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b091a
+    sget v2, Lcom/resouce/module/ResID;->et_cardmode_tips_vtitle:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -118,7 +118,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b0915
+    sget v3, Lcom/resouce/module/ResID;->et_cardmode_tips_content1:I
 
     .line 4
     invoke-virtual {p0, v3}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b0916
+    sget v4, Lcom/resouce/module/ResID;->et_cardmode_tips_content2:I
 
     .line 5
     invoke-virtual {p0, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b0361
+    sget v5, Lcom/resouce/module/ResID;->cardmode_tips:I
 
     .line 6
     invoke-virtual {p0, v5}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     if-eqz v6, :cond_0
 
-    const v6, 0x7f080980
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_dark:I
 
     .line 9
     invoke-virtual {v5, v6}, Landroid/view/View;->setBackgroundResource(I)V
@@ -167,7 +167,7 @@
     .line 10
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v5, 0x7f0806d2
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->filter_bottom_btn_night_selector:I
 
     .line 11
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setBackgroundResource(I)V
@@ -255,7 +255,7 @@
     .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e021b
+    sget p1, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_tips:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(I)V

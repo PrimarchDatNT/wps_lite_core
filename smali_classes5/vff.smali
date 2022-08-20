@@ -123,7 +123,7 @@
     invoke-virtual {v0, p1}, Landroid/text/ClipboardManager;->setText(Ljava/lang/CharSequence;)V
 
     :goto_0
-    const p1, 0x7f12295f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_success_msg:I
 
     const/4 v0, 0x1
 
@@ -240,7 +240,7 @@
     :goto_0
     iget-object p1, p0, Lvff;->B:Landroid/content/Context;
 
-    const v1, 0x7f12295f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_create_link_success_msg:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
     :try_end_1

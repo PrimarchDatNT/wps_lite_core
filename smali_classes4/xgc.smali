@@ -895,7 +895,7 @@
     .line 6
     iget-object v1, p0, Lxgc;->a:Landroid/app/Activity;
 
-    const v2, 0x7f121765
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_star_recovery:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -903,12 +903,12 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f1217a2    # 1.9419E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_upload_hint:I    # 1.9419E38f
 
     .line 7
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -922,13 +922,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f121fa2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cta_agree_and_continue:I
 
     .line 10
     new-instance v3, Lxgc$k;
@@ -1026,11 +1026,11 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f12175b
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_not_recommend:I
 
-    const v1, 0x7f12175e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_over_limited_size:I
 
-    const v2, 0x7f12175d
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_not_recommend_ok:I
 
     .line 8
     new-instance v3, Lhd3;
@@ -1051,7 +1051,7 @@
     .line 10
     invoke-virtual {v3, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -1164,21 +1164,21 @@
 
     invoke-direct {v1, v2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f121761
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_title:I
 
     .line 15
     invoke-virtual {v1, v2}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f121760
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_content:I
 
     .line 16
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v1
 
-    const v2, 0x7f12175f
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_split_confirm:I
 
     iget-object v3, p0, Lxgc;->a:Landroid/app/Activity;
 
@@ -1187,7 +1187,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1198,7 +1198,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122528
+    sget v2, Lcom/resouce/module/ResSTRING;->public_no:I
 
     .line 19
     invoke-virtual {v1, v2, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1580,14 +1580,14 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121762
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_page_too_large:I
 
     .line 11
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v2, 0x0
 

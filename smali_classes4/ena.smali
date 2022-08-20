@@ -224,7 +224,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121ff7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_docer:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -269,7 +269,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f081192
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_mall:I
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -286,7 +286,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f081196
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_redenvelopes:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -303,7 +303,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f081191
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_jd:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -320,7 +320,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f081199
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_tb:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -337,7 +337,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f081189
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_cart:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -354,7 +354,7 @@
 
     move-result-object v1
 
-    const v8, 0x7f08118e
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_gift:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -365,7 +365,7 @@
     .line 9
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0812a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_mall:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -376,7 +376,7 @@
     .line 10
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0812a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_redenvelopes:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -387,7 +387,7 @@
     .line 11
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f08129f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_jd:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -398,7 +398,7 @@
     .line 12
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0812a2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_tb:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -409,7 +409,7 @@
     .line 13
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f08129b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_cart:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -420,7 +420,7 @@
     .line 14
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f08129d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_gift:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -431,7 +431,7 @@
     .line 15
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f08129c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_foreign_template:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -444,7 +444,7 @@
     .line 16
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f08129e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_opreate_toolbar_internal_template:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -457,7 +457,7 @@
     .line 17
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f081184
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_assistant:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -470,7 +470,7 @@
     .line 18
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f081188
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_camera_scan:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -483,7 +483,7 @@
     .line 19
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0815d3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_normal:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -496,7 +496,7 @@
     .line 20
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0815c7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_app_normal:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -525,13 +525,13 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08118a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_document:I
 
     goto :goto_1
 
     :cond_1
     :goto_0
-    const v1, 0x7f0815cb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_file_normal:I
 
     :goto_1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -546,7 +546,7 @@
     .line 24
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f0815d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_me_normal:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -561,7 +561,7 @@
 
     sget-object v1, Lfna;->a:Ljava/lang/String;
 
-    const v6, 0x7f0815c9
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_docer_normal:I
 
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -574,7 +574,7 @@
 
     sget-object v6, Lfna;->b:Ljava/lang/String;
 
-    const v7, 0x7f08118c
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_foreign_template:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -591,7 +591,7 @@
 
     move-result-object v2
 
-    const v8, 0x7f0815d4
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_normal_selected:I
 
     invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -606,7 +606,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0815c8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_app_normal_selected:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -637,13 +637,13 @@
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f08118b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_document_selected:I
 
     goto :goto_3
 
     :cond_3
     :goto_2
-    const v3, 0x7f0815cc
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_file_normal_selected:I
 
     :goto_3
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -660,7 +660,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0815d7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_me_normal_selected:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -675,7 +675,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0815ca
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_docer_normal_selected:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -690,7 +690,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08118d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_bottom_toolbar_foreign_template_selected:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -701,7 +701,7 @@
     .line 35
     sget-object v0, Lena;->d:Ljava/util/Map;
 
-    const v1, 0x7f081646
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_float_btn_upload:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -771,7 +771,7 @@
 
     sget-object v1, Lre5;->I:Lre5;
 
-    const v2, 0x7f12145f
+    sget v2, Lcom/resouce/module/ResSTRING;->name_templates:I
 
     if-ne v0, v1, :cond_3
 
@@ -886,7 +886,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1649,12 +1649,12 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f121dae
+    sget v4, Lcom/resouce/module/ResSTRING;->public_bottom_bar_home_page:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f1221da
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     :goto_0
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1707,7 +1707,7 @@
 
     if-eqz v5, :cond_1
 
-    const v5, 0x7f122a47
+    sget v5, Lcom/resouce/module/ResSTRING;->public_tab_files:I
 
     .line 14
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1719,7 +1719,7 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f12060f
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_qing_cloud:I
 
     .line 15
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1829,7 +1829,7 @@
     .line 25
     iput-object v3, v2, Lcn/wps/moffice/main/push/hometoolbar/HomeToolbarItemBean;->itemTag:Ljava/lang/String;
 
-    const v5, 0x7f122264
+    sget v5, Lcom/resouce/module/ResSTRING;->public_home_app_application:I
 
     .line 26
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -2036,7 +2036,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120f50
+    sget v3, Lcom/resouce/module/ResSTRING;->home_me:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2920,12 +2920,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f1222f6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_operate_server_data_cn_url:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f1222f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_operate_server_data_en_url:I
 
     .line 11
     :goto_0

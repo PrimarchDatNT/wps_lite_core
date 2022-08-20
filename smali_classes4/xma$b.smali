@@ -420,7 +420,7 @@
 
     move-result p2
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     if-nez p2, :cond_1
 
@@ -471,7 +471,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {p2, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -753,7 +753,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f1216be
+    sget v4, Lcom/resouce/module/ResSTRING;->pc_install_url2:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -778,7 +778,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f1216bd
+    sget v4, Lcom/resouce/module/ResSTRING;->pc_install_url:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1396,7 +1396,7 @@
 .method public final V0()V
     .locals 5
 
-    const v0, 0x7f0b1c49
+    sget v0, Lcom/resouce/module/ResID;->pad_toolbar_line_div:I
 
     .line 1
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -1421,7 +1421,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
@@ -1443,7 +1443,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080e6f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_titlebar_dropshadow:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -1511,7 +1511,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b22ac
+    sget v0, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 4
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -1993,7 +1993,7 @@
 
     iget-object v2, p0, Lmoe;->S:Lcn/wps/show/app/KmoPresentation;
 
-    const v3, 0x7f0b249b
+    sget v3, Lcom/resouce/module/ResID;->ppt_toparea_bar:I
 
     invoke-virtual {p0, v3}, Lmoe;->J(I)Landroid/view/View;
 
@@ -2158,7 +2158,7 @@
 
     invoke-virtual {v0}, Lwod;->e()V
 
-    const v0, 0x7f0b3079
+    sget v0, Lcom/resouce/module/ResID;->top_panel_container:I
 
     .line 8
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -2256,7 +2256,7 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f0b22ac
+    sget v1, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 19
     invoke-virtual {p0, v1}, Lmoe;->J(I)Landroid/view/View;
@@ -2697,7 +2697,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2485
+    sget v2, Lcom/resouce/module/ResID;->ppt_titlebar_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3273,7 +3273,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0b22ac
+    sget v1, Lcom/resouce/module/ResID;->ppt_drawarea_event_dispatch:I
 
     .line 50
     invoke-virtual {v0, v1}, Lmoe;->J(I)Landroid/view/View;
@@ -6990,7 +6990,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06000b
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 
@@ -7008,7 +7008,7 @@
 
     invoke-virtual {v0, v1, v2}, Lzkd;->f(Lzkd$a;Lzkd$b;)V
 
-    const v0, 0x7f0b2310
+    sget v0, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     .line 5
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;
@@ -7024,7 +7024,7 @@
 
     iget-object v1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f0b23e3
+    sget v2, Lcom/resouce/module/ResID;->ppt_progressbar_stub:I
 
     invoke-virtual {p0, v2}, Lmoe;->J(I)Landroid/view/View;
 
@@ -7062,7 +7062,7 @@
 
     iput-object v0, p0, Lmoe;->b0:Llrd;
 
-    const v0, 0x7f0b2485
+    sget v0, Lcom/resouce/module/ResID;->ppt_titlebar_container:I
 
     .line 11
     invoke-virtual {p0, v0}, Lmoe;->J(I)Landroid/view/View;

@@ -148,7 +148,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122064
+    sget p2, Lcom/resouce/module/ResSTRING;->public_evernote_error_insert_note:I
 
     const/4 p3, 0x0
 

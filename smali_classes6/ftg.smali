@@ -222,7 +222,7 @@
 
     if-nez v5, :cond_2
 
-    const v1, 0x7f120c72
+    sget v1, Lcom/resouce/module/ResSTRING;->et_toolbar_format_painter_invalid:I
 
     .line 7
     invoke-static {v1, v3}, Lsjf;->k(II)V
@@ -260,7 +260,7 @@
 
     if-nez v5, :cond_4
 
-    const v1, 0x7f12072f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 13
     invoke-static {v1, v3}, Lsjf;->k(II)V
@@ -1162,9 +1162,9 @@
 
     invoke-virtual {v5}, Ll4m;->o()V
 
-    const v5, 0x7f12072f
+    sget v5, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
-    const v6, 0x7f120c72
+    sget v6, Lcom/resouce/module/ResSTRING;->et_toolbar_format_painter_invalid:I
 
     const/4 v7, -0x1
 
@@ -1410,7 +1410,7 @@
     const/4 v3, 0x1
 
     :catch_5
-    const v4, 0x7f120019
+    sget v4, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 31
     :try_start_4

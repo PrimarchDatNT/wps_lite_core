@@ -44,7 +44,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b1d93
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_circle_layout:I
 
     if-ne p1, v2, :cond_0
 
@@ -87,7 +87,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b1d96
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_anno_cover_square_layout:I
 
     if-ne p1, v2, :cond_1
 

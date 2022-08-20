@@ -92,7 +92,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121254
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_service_fail:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -110,7 +110,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120646
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

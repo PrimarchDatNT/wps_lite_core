@@ -1669,7 +1669,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122c2f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wps_token_no_support_tips_no_name:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1687,7 +1687,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122c2e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wps_token_no_support_tips:I
 
     const/4 v3, 0x1
 

@@ -309,7 +309,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222c1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_module_h5_beautify_resume:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/doc2web_setting_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/link_share_info_expired_time_seven_days" />
-    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center" android:id="@id/doc2web_setting_item_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_selected" android:layout_marginEnd="16.0dip" />
-    <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</FrameLayout>

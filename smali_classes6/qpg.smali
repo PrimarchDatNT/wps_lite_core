@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bf7
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_shareplay_popup_info_qrcode_bitmap_dimen:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -572,7 +572,7 @@
     :goto_0
     iget-object p1, p0, Lqpg;->B:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v0, 0x7f0b0ab3
+    sget v0, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -607,7 +607,7 @@
 
     check-cast v3, Landroid/view/View;
 
-    const v4, 0x7f080f95
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_share_play_share_view_bg:I
 
     iget p1, p0, Lqpg;->V:I
 

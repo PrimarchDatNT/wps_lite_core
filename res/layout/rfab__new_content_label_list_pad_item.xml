@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rfab__content_label_list_root_view" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.RedDotLayout android:id="@id/red_dot_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/rfab__content_label_list_icon_iv" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="fitXY" style="@style/public_image_bg_style" />
-    </cn.wps.moffice.common.beans.RedDotLayout>
-    <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="marquee" android:gravity="center" android:id="@id/rfab__content_label_list_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="1233213" android:singleLine="true" />
-</LinearLayout>

@@ -424,12 +424,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f120358
+    sget v0, Lcom/resouce/module/ResSTRING;->decompress_file:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120355
+    sget v0, Lcom/resouce/module/ResSTRING;->decompress_cloud:I
 
     :goto_0
     invoke-virtual {v1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -549,12 +549,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f1205f0
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f120ed8
+    sget v0, Lcom/resouce/module/ResSTRING;->home_compressfile_error_others:I
 
     :goto_0
     return v0

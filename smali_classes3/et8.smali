@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29a6
+    sget v1, Lcom/resouce/module/ResID;->root:I
 
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -92,7 +92,7 @@
 
     invoke-direct {v1, p0}, Let8$a;-><init>(Let8;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -107,7 +107,7 @@
 
     invoke-direct {v1, p0}, Let8$b;-><init>(Let8;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120ef5
+    sget v1, Lcom/resouce/module/ResSTRING;->home_enterprise_activate:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -191,7 +191,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0308
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_enterprise_activate_content:I
 
     const/4 v1, 0x0
 
@@ -201,7 +201,7 @@
 
     iput-object p1, p0, Let8;->b:Landroid/view/View;
 
-    const v0, 0x7f0b08a7
+    sget v0, Lcom/resouce/module/ResID;->enterprise_activate_code_edit:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

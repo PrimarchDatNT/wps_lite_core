@@ -53,7 +53,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1102
+    sget v1, Lcom/resouce/module/ResID;->home_open_whatsapp_doc:I
 
     if-ne v0, v1, :cond_1
 
@@ -78,7 +78,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1100
+    sget v1, Lcom/resouce/module/ResID;->home_open_telegram_doc:I
 
     if-ne v0, v1, :cond_2
 
@@ -103,7 +103,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b10e1
+    sget v1, Lcom/resouce/module/ResID;->home_open_download:I
 
     if-ne v0, v1, :cond_3
 
@@ -128,7 +128,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b10ec
+    sget v1, Lcom/resouce/module/ResID;->home_open_mydoc:I
 
     if-ne v0, v1, :cond_4
 
@@ -151,7 +151,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b10db
+    sget v1, Lcom/resouce/module/ResID;->home_open_camera:I
 
     if-ne v0, v1, :cond_5
 
@@ -170,7 +170,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10ef
+    sget v0, Lcom/resouce/module/ResID;->home_open_phone_storage:I
 
     if-ne p1, v0, :cond_6
 

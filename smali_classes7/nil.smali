@@ -89,9 +89,9 @@
     .line 4
     new-instance v2, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v3, 0x7f08029b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_keep_light:I
 
-    const v4, 0x7f1219cb
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_writer_screen_always_on:I
 
     const/4 v5, 0x0
 
@@ -101,9 +101,9 @@
 
     new-instance v2, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v3, 0x7f08029d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_page_turning:I
 
-    const v4, 0x7f121998
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_public_voice_key_paging:I
 
     invoke-direct {v2, v3, v4, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(IIZZ)V
 
@@ -114,9 +114,9 @@
     .line 5
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v7, 0x7f080297
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
-    const v8, 0x7f12198b    # 1.9419991E38f
+    sget v8, Lcom/resouce/module/ResSTRING;->phone_public_open_arrange_default:I    # 1.9419991E38f
 
     invoke-direct {v4, v7, v8, v5, v6}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(IIZZ)V
 
@@ -135,9 +135,9 @@
     .line 6
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v9, 0x7f08028f
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->comp_doc_turn_pages:I
 
-    const v10, 0x7f1225e3
+    sget v10, Lcom/resouce/module/ResSTRING;->public_page_turning:I
 
     invoke-direct {v4, v9, v10}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;-><init>(II)V
 
@@ -145,15 +145,15 @@
 
     new-instance v4, Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;
 
-    const v12, 0x7f0801de
+    sget v12, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_r:I
 
-    const v13, 0x7f123411
+    sget v13, Lcom/resouce/module/ResSTRING;->writer_smart_typography_first_line_indentation:I
 
     const/4 v14, 0x0
 
     const/4 v15, 0x1
 
-    const v16, 0x7f123411
+    sget v16, Lcom/resouce/module/ResSTRING;->writer_smart_typography_first_line_indentation:I
 
     move-object v11, v4
 
@@ -247,7 +247,7 @@
 
     invoke-direct {v0}, Lkvk;-><init>()V
 
-    const v1, 0x7f0b2f4e
+    sget v1, Lcom/resouce/module/ResID;->textimageview_search:I
 
     const-string v2, "read-check-search"
 
@@ -260,7 +260,7 @@
 
     invoke-direct {v0, v1}, Lyyk;-><init>(Lwbl;)V
 
-    const v1, 0x7f0b2f47
+    sget v1, Lcom/resouce/module/ResID;->textimageview_countwords:I
 
     const-string v2, "read-check-countwords"
 
@@ -273,12 +273,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b087d
+    sget v0, Lcom/resouce/module/ResID;->en_textimageview_nightmode:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2f4b
+    sget v0, Lcom/resouce/module/ResID;->textimageview_nightmode:I
 
     :goto_0
     new-instance v1, Lfjl;
@@ -296,12 +296,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b087c
+    sget v0, Lcom/resouce/module/ResID;->en_textimageview_eye_protection_mode:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0b2f49
+    sget v0, Lcom/resouce/module/ResID;->textimageview_eye_protection_mode:I
 
     :goto_1
     new-instance v1, Lcjl;
@@ -312,7 +312,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2f53
+    sget v0, Lcom/resouce/module/ResID;->textimageview_tts:I
 
     .line 5
     new-instance v1, Luvk;
@@ -323,7 +323,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b280a
+    sget v0, Lcom/resouce/module/ResID;->read_progress_jumpto:I
 
     .line 6
     new-instance v1, Lyal;
@@ -349,7 +349,7 @@
     iput-object v0, p0, Lnil;->o0:Lqil;
 
     :cond_2
-    const v0, 0x7f0b01df
+    sget v0, Lcom/resouce/module/ResID;->background_type_more:I
 
     .line 9
     iget-object v1, p0, Lnil;->o0:Lqil;
@@ -358,7 +358,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b27ed    # 1.8497E38f
+    sget v0, Lcom/resouce/module/ResID;->read_font_narrow:I    # 1.8497E38f
 
     .line 10
     new-instance v1, Lnjl;
@@ -369,7 +369,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b27ec
+    sget v0, Lcom/resouce/module/ResID;->read_font_enlarge:I
 
     .line 11
     new-instance v1, Lojl;
@@ -380,7 +380,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd5
+    sget v0, Lcom/resouce/module/ResID;->para_spacing_close:I
 
     .line 12
     new-instance v1, Lhjl;
@@ -391,7 +391,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd7
+    sget v0, Lcom/resouce/module/ResID;->para_spacing_middle:I
 
     .line 13
     new-instance v1, Ljjl;
@@ -402,7 +402,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd6
+    sget v0, Lcom/resouce/module/ResID;->para_spacing_loose:I
 
     .line 14
     new-instance v1, Lijl;
@@ -426,7 +426,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b2f4f
+    sget v0, Lcom/resouce/module/ResID;->textimageview_sign:I
 
     .line 16
     new-instance v1, Lgrk;
@@ -440,7 +440,7 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_3
-    const v0, 0x7f0b2f4a
+    sget v0, Lcom/resouce/module/ResID;->textimageview_insertbookmark:I
 
     .line 17
     new-instance v1, Lnil$b;
@@ -453,7 +453,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2f45
+    sget v0, Lcom/resouce/module/ResID;->textimageview_bookmark:I
 
     .line 18
     new-instance v1, Lkrk;
@@ -466,7 +466,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2f50
+    sget v0, Lcom/resouce/module/ResID;->textimageview_thumbnail:I
 
     .line 19
     new-instance v1, Lnwl;
@@ -479,7 +479,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b2f4c
+    sget v0, Lcom/resouce/module/ResID;->textimageview_outline:I
 
     .line 20
     new-instance v1, Lhwl;
@@ -492,12 +492,12 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b03c5
+    sget v0, Lcom/resouce/module/ResID;->check_translate:I
 
     .line 21
     new-instance v1, Lesk;
 
-    const v3, 0x7f0b03c7
+    sget v3, Lcom/resouce/module/ResID;->check_translate_recommend:I
 
     .line 22
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -515,12 +515,12 @@
     .line 23
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b03b6
+    sget v0, Lcom/resouce/module/ResID;->check_lock_screen_checkbox:I
 
     .line 24
     new-instance v1, Lkjl;
 
-    const v3, 0x7f0b03b5
+    sget v3, Lcom/resouce/module/ResID;->check_lock_screen:I
 
     .line 25
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -534,7 +534,7 @@
     .line 26
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->J1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b03ba
+    sget v0, Lcom/resouce/module/ResID;->check_rotate_screen:I
 
     .line 27
     new-instance v1, Lpjl;
@@ -552,7 +552,7 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f0b03ad
+    sget v0, Lcom/resouce/module/ResID;->check_hardware_keep_light_checkbox:I
 
     .line 29
     new-instance v1, Ldjl;
@@ -564,7 +564,7 @@
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->J1(ILczl;Ljava/lang/String;)V
 
     :cond_4
-    const v0, 0x7f0b03af
+    sget v0, Lcom/resouce/module/ResID;->check_hardware_page_turning_checkbox:I
 
     .line 30
     new-instance v1, Lljl;
@@ -575,7 +575,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->J1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f08028f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_doc_turn_pages:I
 
     .line 31
     new-instance v1, Ljkl;
@@ -586,12 +586,12 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0801de
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_align_indent_firstline_r:I
 
     .line 32
     new-instance v1, Lnul$f;
 
-    const v3, 0x7f0b2810
+    sget v3, Lcom/resouce/module/ResID;->read_viewsetting_layout:I
 
     .line 33
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -600,7 +600,7 @@
 
     check-cast v3, Landroid/widget/LinearLayout;
 
-    const v4, 0x7f123411
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_smart_typography_first_line_indentation:I
 
     invoke-virtual {v3, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -613,7 +613,7 @@
     .line 34
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->J1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f080297
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
     .line 35
     new-instance v1, Lbjl;
@@ -665,7 +665,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2f4e
+    sget v1, Lcom/resouce/module/ResID;->textimageview_search:I
 
     if-eq v0, v1, :cond_0
 
@@ -674,7 +674,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b280a
+    sget v1, Lcom/resouce/module/ResID;->read_progress_jumpto:I
 
     if-eq v0, v1, :cond_0
 
@@ -683,7 +683,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2f4a
+    sget v1, Lcom/resouce/module/ResID;->textimageview_insertbookmark:I
 
     if-eq v0, v1, :cond_0
 
@@ -692,7 +692,7 @@
 
     move-result v0
 
-    const v1, 0x7f08028f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_turn_pages:I
 
     if-eq v0, v1, :cond_0
 
@@ -701,7 +701,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b03c5
+    sget v1, Lcom/resouce/module/ResID;->check_translate:I
 
     if-eq v0, v1, :cond_0
 
@@ -716,7 +716,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2f4f
+    sget v0, Lcom/resouce/module/ResID;->textimageview_sign:I
 
     if-ne p1, v0, :cond_1
 
@@ -812,7 +812,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122ba9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_view:I
 
     return v0
 .end method
@@ -1104,7 +1104,7 @@
 
     iput-object v0, p0, Lnil;->i0:Ljava/util/ArrayList;
 
-    const v1, 0x7f0b21a7
+    sget v1, Lcom/resouce/module/ResID;->phone_writer_document_progress:I
 
     .line 3
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1179,7 +1179,7 @@
     :goto_0
     invoke-virtual {v1, v2}, Lcn/wps/moffice/writer/beans/GroupLinearLayout;->setGroups([[Lcn/wps/moffice/writer/beans/GroupLinearLayout$c;)V
 
-    const v2, 0x7f0b2810
+    sget v2, Lcom/resouce/module/ResID;->read_viewsetting_layout:I
 
     .line 7
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -1233,7 +1233,7 @@
     const/16 v4, 0x8
 
     :goto_2
-    const v5, 0x7f0b1bb3
+    sget v5, Lcom/resouce/module/ResID;->oversea_read_settings_layout_wrapper:I
 
     .line 11
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1242,7 +1242,7 @@
 
     invoke-virtual {v5, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v5, 0x7f0b2813
+    sget v5, Lcom/resouce/module/ResID;->reading_setting_divider:I
 
     .line 12
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1251,7 +1251,7 @@
 
     invoke-virtual {v5, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b1b01
+    sget v1, Lcom/resouce/module/ResID;->old_read_mode_layout_wrapper:I
 
     .line 13
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1287,7 +1287,7 @@
     const/16 v4, 0x8
 
     :goto_4
-    const v5, 0x7f0b01d4
+    sget v5, Lcom/resouce/module/ResID;->background_divider:I
 
     .line 15
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1296,7 +1296,7 @@
 
     invoke-virtual {v5, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v4, 0x7f0b01d7
+    sget v4, Lcom/resouce/module/ResID;->background_layout:I
 
     .line 16
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
@@ -1359,7 +1359,7 @@
     const/16 v4, 0x8
 
     :goto_7
-    const v5, 0x7f0b27ef
+    sget v5, Lcom/resouce/module/ResID;->read_font_para_layout:I
 
     .line 21
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1368,7 +1368,7 @@
 
     invoke-virtual {v5, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v5, 0x7f0b27f0
+    sget v5, Lcom/resouce/module/ResID;->read_font_para_title:I
 
     .line 22
     invoke-virtual {p0, v5}, Luzl;->Z0(I)Landroid/view/View;
@@ -1377,7 +1377,7 @@
 
     invoke-virtual {v5, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v4, 0x7f0b27ee
+    sget v4, Lcom/resouce/module/ResID;->read_font_para_divide_view:I
 
     .line 23
     invoke-virtual {p0, v4}, Luzl;->Z0(I)Landroid/view/View;
@@ -1442,7 +1442,7 @@
     .line 3
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b028e
+    sget v1, Lcom/resouce/module/ResID;->brightness_seekbar:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1467,7 +1467,7 @@
     :cond_1
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b028d
+    sget v1, Lcom/resouce/module/ResID;->brightness_adjustment_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1508,7 +1508,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e0ed0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_read_view_layout:I
 
     .line 3
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -1528,7 +1528,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b365b
+    sget v1, Lcom/resouce/module/ResID;->writer_read_text_book_oversea:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1540,7 +1540,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b365a
+    sget v1, Lcom/resouce/module/ResID;->writer_read_text_book_cn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1553,7 +1553,7 @@
     :goto_0
     invoke-virtual {v1}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
 
-    const v2, 0x7f0b2f50
+    sget v2, Lcom/resouce/module/ResID;->textimageview_thumbnail:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/view/ViewStub;->findViewById(I)Landroid/view/View;
@@ -1581,14 +1581,14 @@
 
     invoke-virtual {p0, v1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v1, 0x7f0b280b
+    sget v1, Lcom/resouce/module/ResID;->read_progress_progressbar:I
 
     .line 12
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b21a7
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_document_progress:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1623,7 +1623,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06000c
+    sget v4, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1643,7 +1643,7 @@
 
     iput-object v2, p0, Lnil;->h0:Lwil;
 
-    const v1, 0x7f0b24fa
+    sget v1, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 17
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1729,7 +1729,7 @@
 
     iget-object v4, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v5, 0x7f0b01df
+    sget v5, Lcom/resouce/module/ResID;->background_type_more:I
 
     invoke-virtual {v4, v5}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1784,7 +1784,7 @@
     .line 28
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b01d4
+    sget v1, Lcom/resouce/module/ResID;->background_divider:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1795,7 +1795,7 @@
     .line 29
     iget-object v0, p0, Lnyl;->d0:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b01d7
+    sget v1, Lcom/resouce/module/ResID;->background_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 
@@ -1888,7 +1888,7 @@
 .method public v2()V
     .locals 3
 
-    const v0, 0x7f0b280f
+    sget v0, Lcom/resouce/module/ResID;->read_tools_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

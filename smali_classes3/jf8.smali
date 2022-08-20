@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122ebf    # 1.9431E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->send2pc_access_id:I    # 1.9431E38f
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122ec0
+    sget v3, Lcom/resouce/module/ResSTRING;->send2pc_secret_key:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120707
+    sget v1, Lcom/resouce/module/ResSTRING;->email_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -621,7 +621,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1218c1
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_promote_send_email_failed:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -872,7 +872,7 @@
     :cond_0
     iget-object v0, p0, Ljf8;->c:Landroid/app/Activity;
 
-    const v1, 0x7f1218c7
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_recommend_pc_download_url:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1069,7 +1069,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

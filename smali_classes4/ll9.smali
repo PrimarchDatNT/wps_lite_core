@@ -159,7 +159,7 @@
     .line 2
     iget-object v0, p0, Lll9;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1206b9
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -174,7 +174,7 @@
     .line 4
     iget-object v0, p0, Lll9;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -422,7 +422,7 @@
     .line 20
     iget-object v0, p0, Lll9;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v0, v1, v4}, Lbih;->n(Landroid/content/Context;II)V
 

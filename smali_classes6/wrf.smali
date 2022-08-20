@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0207
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_pad_condition_format_fragment_layout:I
 
     const/4 v2, 0x0
 
@@ -160,7 +160,7 @@
 
     iget-object v3, p0, Lvrf;->U:Landroid/view/View;
 
-    const v4, 0x7f0b04fd
+    sget v4, Lcom/resouce/module/ResID;->condition_manage_view:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -324,7 +324,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b0adb
+    sget v2, Lcom/resouce/module/ResID;->et_pad_condition_formatter:I
 
     iget-object v3, p0, Lwrf;->Z:Lcn/wps/moffice/spreadsheet/control/conditionformat/carrier/ConditionFormatFragment;
 

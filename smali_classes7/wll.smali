@@ -553,7 +553,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->P1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b3624
+    sget v0, Lcom/resouce/module/ResID;->writer_print_btn:I
 
     .line 15
     new-instance v1, Lwll$e;
@@ -928,7 +928,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e10cd
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_print_setup:I
 
     iget-object v5, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
@@ -951,7 +951,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0193
+    sget v4, Lcom/resouce/module/ResLAYOUT;->en_phone_writer_print_setup:I
 
     iget-object v5, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
@@ -967,12 +967,12 @@
 
     if-eqz v3, :cond_5
 
-    const v3, 0x7f0e09f4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_print_setup_support:I
 
     goto :goto_2
 
     :cond_5
-    const v3, 0x7f0e09f3
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_writer_print_setup:I
 
     .line 9
     :goto_2
@@ -1005,7 +1005,7 @@
     .line 13
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b363a
+    sget v5, Lcom/resouce/module/ResID;->writer_print_page_num_all:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1018,7 +1018,7 @@
     .line 14
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b363d
+    sget v5, Lcom/resouce/module/ResID;->writer_print_page_selfdef:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1031,7 +1031,7 @@
     .line 15
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b363b
+    sget v5, Lcom/resouce/module/ResID;->writer_print_page_num_present:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1070,7 +1070,7 @@
     .line 20
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b363e
+    sget v5, Lcom/resouce/module/ResID;->writer_print_page_selfdef_input:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1095,7 +1095,7 @@
     .line 23
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b363c
+    sget v4, Lcom/resouce/module/ResID;->writer_print_page_open_page_setting:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1113,7 +1113,7 @@
     .line 25
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b361d
+    sget v5, Lcom/resouce/module/ResID;->writer_print_area_all:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1126,7 +1126,7 @@
     .line 26
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b361e
+    sget v5, Lcom/resouce/module/ResID;->writer_print_area_even:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1139,7 +1139,7 @@
     .line 27
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b3620
+    sget v5, Lcom/resouce/module/ResID;->writer_print_area_odd:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1186,7 +1186,7 @@
     .line 32
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b3629
+    sget v4, Lcom/resouce/module/ResID;->writer_print_copy_line:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1200,7 +1200,7 @@
     .line 34
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b362a
+    sget v5, Lcom/resouce/module/ResID;->writer_print_copy_view:I
 
     invoke-virtual {v3, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1224,7 +1224,7 @@
     .line 37
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b3628
+    sget v5, Lcom/resouce/module/ResID;->writer_print_copy_count_input:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1242,9 +1242,9 @@
 
     invoke-direct {v3, p0}, Lwll$k;-><init>(Lwll;)V
 
-    const v4, 0x7f0b3627
+    sget v4, Lcom/resouce/module/ResID;->writer_print_copy_count_increase:I
 
-    const v5, 0x7f0b3626
+    sget v5, Lcom/resouce/module/ResID;->writer_print_copy_count_decrease:I
 
     if-eqz v0, :cond_8
 
@@ -1307,7 +1307,7 @@
     .line 47
     iget-object v4, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b3641
+    sget v5, Lcom/resouce/module/ResID;->writer_print_pages_per_sheet_input:I
 
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1335,7 +1335,7 @@
     .line 51
     iget-object v5, p0, Lwll;->d0:Landroid/content/Context;
 
-    const v6, 0x7f1226e0
+    sget v6, Lcom/resouce/module/ResSTRING;->public_print_number_pages:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1377,7 +1377,7 @@
 
     iget-object v5, p0, Lwll;->d0:Landroid/content/Context;
 
-    const v6, 0x7f0e0e58
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v3, v5, v6, v4}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -1400,7 +1400,7 @@
     .line 56
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b3638
+    sget v4, Lcom/resouce/module/ResID;->writer_print_merge_print_divider:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1416,7 +1416,7 @@
     .line 58
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b362e
+    sget v4, Lcom/resouce/module/ResID;->writer_print_merge_order_ltor:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1429,7 +1429,7 @@
     .line 59
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b3630
+    sget v4, Lcom/resouce/module/ResID;->writer_print_merge_order_ttob:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1442,7 +1442,7 @@
     .line 60
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b362f
+    sget v4, Lcom/resouce/module/ResID;->writer_print_merge_order_repeat:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1470,7 +1470,7 @@
     .line 64
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3631
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_1:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1483,7 +1483,7 @@
     .line 65
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3632
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_2:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1496,7 +1496,7 @@
     .line 66
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3633
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_3:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1509,7 +1509,7 @@
     .line 67
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3634
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_4:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1522,7 +1522,7 @@
     .line 68
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3635
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_5:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1535,7 +1535,7 @@
     .line 69
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b3636
+    sget v3, Lcom/resouce/module/ResID;->writer_print_merge_preview_6:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1569,7 +1569,7 @@
     .line 74
     iget-object v3, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b3624
+    sget v4, Lcom/resouce/module/ResID;->writer_print_btn:I
 
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1602,7 +1602,7 @@
     .line 77
     iget-object v1, p0, Lwll;->e0:Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b33ea
+    sget v4, Lcom/resouce/module/ResID;->vs_watermark_setup:I
 
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1620,7 +1620,7 @@
     .line 79
     invoke-static {v1, v2}, Lka3;->r0(Landroid/view/View;I)V
 
-    const v4, 0x7f0b364e
+    sget v4, Lcom/resouce/module/ResID;->writer_print_show_watermark_check_btn:I
 
     .line 80
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1629,14 +1629,14 @@
 
     check-cast v4, Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v5, 0x7f0b362d
+    sget v5, Lcom/resouce/module/ResID;->writer_print_line_show_watermark_divider:I
 
     .line 81
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b364f
+    sget v6, Lcom/resouce/module/ResID;->writer_print_show_watermark_title:I
 
     .line 82
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1719,7 +1719,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 92
     new-instance v2, Lg8q;
@@ -1762,7 +1762,7 @@
     .line 98
     invoke-virtual {v3, v1}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v1, 0x7f0606e0
+    sget v1, Lcom/resouce/module/ResCOLOR;->white:I
 
     .line 99
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -2181,7 +2181,7 @@
     .line 1
     iget-object v0, p0, Lwll;->d0:Landroid/content/Context;
 
-    const v1, 0x7f122711
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_selfdef_cant_null:I
 
     const/4 v2, 0x0
 
@@ -2196,7 +2196,7 @@
     .line 1
     iget-object v0, p0, Lwll;->d0:Landroid/content/Context;
 
-    const v1, 0x7f121bc1
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_print_scope_custom_tip:I
 
     const/4 v2, 0x0
 
@@ -2659,7 +2659,7 @@
     .line 1
     iget-object v0, p0, Lwll;->d0:Landroid/content/Context;
 
-    const v1, 0x7f1226e0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_number_pages:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

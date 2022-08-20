@@ -18,7 +18,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122946
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     return v0
 .end method

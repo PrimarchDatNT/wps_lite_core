@@ -87,7 +87,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120c2a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -164,15 +164,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080472
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_split_table_by_content:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e55
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_split_table_by_content_et:I
 
     :goto_0
-    const v2, 0x7f120c4c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_panel_entrance:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$6;-><init>(Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;II)V
 
@@ -201,7 +201,7 @@
     .line 14
     new-instance p2, Lgqg;
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -586,7 +586,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f120c2c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_error:I
 
     move-object v0, p0
 
@@ -605,7 +605,7 @@
 
     :cond_2
     :goto_0
-    const v3, 0x7f120c34
+    sget v3, Lcom/resouce/module/ResSTRING;->et_split_nospace_error:I
 
     move-object v2, p0
 
@@ -642,7 +642,7 @@
     invoke-virtual {p1}, Lhd3;->dismiss()V
 
     :cond_3
-    const v1, 0x7f120c35
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_oom_error:I
 
     move-object v0, p0
 
@@ -1157,7 +1157,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f121fef
+    sget p1, Lcom/resouce/module/ResSTRING;->public_doc_io_no_ready:I
 
     .line 2
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1225,7 +1225,7 @@
 
     if-nez v0, :cond_2
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 8
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1271,7 +1271,7 @@
 
     if-eq v0, v3, :cond_3
 
-    const p1, 0x7f120cdc
+    sget p1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_fileformat_error:I
 
     .line 11
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -1453,7 +1453,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->f0:Lhd3;
 
-    const v1, 0x7f120c58
+    sget v1, Lcom/resouce/module/ResSTRING;->et_spliting:I
 
     const/4 v2, 0x0
 
@@ -1488,7 +1488,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0f56
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ss_dialog_horizontal_progress_layout:I
 
     const/4 v4, 0x0
 
@@ -1496,7 +1496,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b254e
+    sget v3, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1507,7 +1507,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->g0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b1929
+    sget v3, Lcom/resouce/module/ResID;->msg_text:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1518,7 +1518,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->h0:Landroid/widget/TextView;
 
-    const v3, 0x7f0b2538
+    sget v3, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1542,7 +1542,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->f0:Lhd3;
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v3, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1590,7 +1590,7 @@
 
     iget-object p2, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->B:Landroid/app/Activity;
 
-    const v0, 0x7f120c3a
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_sheets_tips:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1848,7 +1848,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200a9
+    sget v2, Lcom/resouce/module/ResSTRING;->app_folder_split_table:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1944,7 +1944,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->B:Landroid/app/Activity;
 
-    const v0, 0x7f122fd2
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_long_pic_blank_cell_tips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1963,7 +1963,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;->B:Landroid/app/Activity;
 
-    const v0, 0x7f120c36
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_row_limit:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

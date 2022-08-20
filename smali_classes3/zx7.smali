@@ -45,7 +45,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0391
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_choose_account_page:I
 
     const/4 v2, 0x0
 
@@ -85,7 +85,7 @@
 
     iput-object v0, p0, Lzx7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
     .line 4
     iget-object v0, p0, Lzx7;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -122,7 +122,7 @@
     .line 6
     iget-object v0, p0, Lzx7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1129
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_choose_account_listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
     .line 7
     iget-object v0, p0, Lzx7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b113b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

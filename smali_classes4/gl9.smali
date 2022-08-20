@@ -98,7 +98,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1218b5
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_privilege_enterprise:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -117,7 +117,7 @@
 
     move-result v0
 
-    const v2, 0x7f12108a
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_membership_ok_pretip:I
 
     if-eqz v0, :cond_1
 
@@ -132,7 +132,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f120fd8
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_silver:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f120fd7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membership_type_pt:I
 
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -517,7 +517,7 @@
     move-object v11, v5
 
     :cond_2
-    const v5, 0x7f1231ca
+    sget v5, Lcom/resouce/module/ResSTRING;->wechat_file_size_limit_neutral_string_upgrade_member_and_send_file:I
 
     .line 12
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -539,7 +539,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f060456
+    sget v6, Lcom/resouce/module/ResCOLOR;->phone_public_dialog_highlight_color:I
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -709,7 +709,7 @@
     move-object v4, v11
 
     :goto_1
-    const v5, 0x7f1228eb
+    sget v5, Lcom/resouce/module/ResSTRING;->public_send_by_link:I
 
     .line 34
     invoke-virtual {p0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -721,7 +721,7 @@
 
     move-result-object v6
 
-    const v8, 0x7f0605f1
+    sget v8, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v6, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1125,7 +1125,7 @@
     .line 3
     iget-object v0, p0, Lgl9;->a:Lhd3;
 
-    const v1, 0x7f121159
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_time_limit_tips:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -1136,7 +1136,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f06025d
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1146,14 +1146,14 @@
 
     invoke-direct {v1, p0}, Lgl9$d;-><init>(Lgl9;)V
 
-    const v2, 0x7f122b4e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_update_to_membership:I
 
     invoke-virtual {v0, v2, p1, v1}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 5
     iget-object p1, p0, Lgl9;->a:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
@@ -1208,7 +1208,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121158
+    sget p2, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare_cloud_no_space_left_supervip:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

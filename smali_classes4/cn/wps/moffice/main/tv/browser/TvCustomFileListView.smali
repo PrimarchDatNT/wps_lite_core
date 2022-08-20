@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081ed1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->tv_home_browser_file_item_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setSelector(I)V
 
@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081ecf
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->tv_browser_item_devider:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -123,7 +123,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
     :cond_1
-    const v0, 0x7f0604ee
+    sget v0, Lcom/resouce/module/ResCOLOR;->premiumSubWhiteTextColor:I
 
     .line 11
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setCommonErrorPageTipColor(I)V

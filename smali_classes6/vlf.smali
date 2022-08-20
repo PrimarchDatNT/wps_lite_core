@@ -331,7 +331,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 6
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -430,7 +430,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 12
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -1307,7 +1307,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 6
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -1378,7 +1378,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 6
     invoke-static {p1, v0}, Lsjf;->h(II)V
@@ -2454,7 +2454,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b2d79
+    sget v3, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     iget-object v4, p0, Lvlf;->b0:Lcn/wps/moffice/spreadsheet/control/toolbar/ToolBarFragment;
 

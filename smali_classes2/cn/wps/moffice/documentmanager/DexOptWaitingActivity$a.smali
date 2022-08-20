@@ -48,9 +48,9 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/documentmanager/DexOptWaitingActivity$a;->a:Lcn/wps/moffice/documentmanager/DexOptWaitingActivity;
 
-    const v1, 0x7f01003f
+    sget v1, Lcom/resouce/module/ResANIM;->fade_in:I
 
-    const v2, 0x7f01004d
+    sget v2, Lcom/resouce/module/ResANIM;->hold:I
 
     invoke-virtual {v0, v1, v2}, Landroid/app/Activity;->overridePendingTransition(II)V
 

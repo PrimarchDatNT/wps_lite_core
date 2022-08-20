@@ -755,7 +755,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f3c
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_use_ink_pen_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

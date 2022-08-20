@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lwy3$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f12250c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_net_error_download_error:I
 
     const/4 v2, 0x1
 

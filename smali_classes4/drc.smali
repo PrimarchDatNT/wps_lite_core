@@ -96,7 +96,7 @@
 .method public constructor <init>(Landroid/content/Context;[I)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -194,7 +194,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0604ec
+    sget p2, Lcom/resouce/module/ResCOLOR;->premiumSubBlackTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -224,7 +224,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060259
+    sget p2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -239,7 +239,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060059
+    sget p2, Lcom/resouce/module/ResCOLOR;->buttonMainColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -254,7 +254,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12186b
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_keep_size:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -594,7 +594,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0656
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdf_page_resize_layout:I
 
     const/4 v2, 0x0
 
@@ -605,7 +605,7 @@
     .line 2
     invoke-virtual {p0, v0}, Ldrc;->m3(Landroid/view/View;)V
 
-    const v1, 0x7f0b2503
+    sget v1, Lcom/resouce/module/ResID;->preview_img:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -616,7 +616,7 @@
 
     iput-object v1, p0, Ldrc;->f0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2c2a
+    sget v1, Lcom/resouce/module/ResID;->size_text:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -627,7 +627,7 @@
 
     iput-object v1, p0, Ldrc;->g0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2afc
+    sget v1, Lcom/resouce/module/ResID;->select_text:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -638,7 +638,7 @@
 
     iput-object v1, p0, Ldrc;->h0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2c7a
+    sget v1, Lcom/resouce/module/ResID;->sp_resize_page_bg_color:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -649,7 +649,7 @@
 
     iput-object v1, p0, Ldrc;->u0:Lcn/wps/moffice/common/v10_colorpicker/SpectrumPalette;
 
-    const v1, 0x7f0b14f2
+    sget v1, Lcom/resouce/module/ResID;->keep_text:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -660,7 +660,7 @@
 
     iput-object v1, p0, Ldrc;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b002f
+    sget v1, Lcom/resouce/module/ResID;->a3_text:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -671,7 +671,7 @@
 
     iput-object v1, p0, Ldrc;->U:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0030
+    sget v1, Lcom/resouce/module/ResID;->a4_text:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -682,7 +682,7 @@
 
     iput-object v1, p0, Ldrc;->V:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0031
+    sget v1, Lcom/resouce/module/ResID;->a5_text:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -693,7 +693,7 @@
 
     iput-object v1, p0, Ldrc;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f0b01b0
+    sget v1, Lcom/resouce/module/ResID;->b4_text:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -704,7 +704,7 @@
 
     iput-object v1, p0, Ldrc;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f0b01b1
+    sget v1, Lcom/resouce/module/ResID;->b5_text:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -771,7 +771,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060054
+    sget v5, Lcom/resouce/module/ResCOLOR;->buttonCommonWhiteVipColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -886,7 +886,7 @@
     .line 39
     iget-object v1, p0, Ldrc;->I:Landroid/content/Context;
 
-    const v4, 0x7f12187a
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_page_resize_select_tips:I
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -915,7 +915,7 @@
 
     invoke-virtual {v4, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b1c75
+    sget v1, Lcom/resouce/module/ResID;->page_resize_btn:I
 
     .line 41
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -936,7 +936,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0b33d9
+    sget v1, Lcom/resouce/module/ResID;->vip_icon:I
 
     .line 44
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1174,7 +1174,7 @@
 .method public final m3(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1202,7 +1202,7 @@
     .line 4
     iget-object p1, p0, Ldrc;->S:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v0, 0x7f1225e1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_page_setting:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -1220,7 +1220,7 @@
 
     invoke-direct {v1, p0}, Ldrc$b;-><init>(Ldrc;)V
 
-    const v2, 0x7f08170c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_help:I
 
     invoke-virtual {p1, v2, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->d(ILandroid/view/View$OnClickListener;)V
 
@@ -1410,7 +1410,7 @@
 
     const-string v2, "button_click"
 
-    const v3, 0x7f0b002f
+    sget v3, Lcom/resouce/module/ResID;->a3_text:I
 
     if-ne p1, v3, :cond_0
 
@@ -1425,7 +1425,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0b0030
+    sget v3, Lcom/resouce/module/ResID;->a4_text:I
 
     if-ne p1, v3, :cond_1
 
@@ -1440,7 +1440,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0b0031
+    sget v3, Lcom/resouce/module/ResID;->a5_text:I
 
     if-ne p1, v3, :cond_2
 
@@ -1455,7 +1455,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0b01b0
+    sget v3, Lcom/resouce/module/ResID;->b4_text:I
 
     if-ne p1, v3, :cond_3
 
@@ -1470,7 +1470,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v3, 0x7f0b01b1
+    sget v3, Lcom/resouce/module/ResID;->b5_text:I
 
     if-ne p1, v3, :cond_4
 
@@ -1485,7 +1485,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v3, 0x7f0b14f2
+    sget v3, Lcom/resouce/module/ResID;->keep_text:I
 
     if-ne p1, v3, :cond_5
 
@@ -1496,7 +1496,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f12186b
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_keep_size:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1510,7 +1510,7 @@
     goto :goto_0
 
     :cond_5
-    const v3, 0x7f0b1c75
+    sget v3, Lcom/resouce/module/ResID;->page_resize_btn:I
 
     if-ne p1, v3, :cond_7
 
@@ -1579,7 +1579,7 @@
     goto :goto_0
 
     :cond_7
-    const v3, 0x7f0b301f
+    sget v3, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v3, :cond_8
 
@@ -2484,23 +2484,23 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f1225e1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_page_setting:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121874
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_setting:I
 
     .line 4
     :goto_0
     invoke-virtual {v0, v1}, Lwib;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f12187b
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_resize_setting_tips:I
 
     .line 5
     invoke-virtual {v0, v1}, Lwib;->setMessage(I)Lhd3;
 
-    const v1, 0x7f12075f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_cardmode_tips_iknow:I
 
     .line 6
     new-instance v2, Ldrc$e;

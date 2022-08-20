@@ -317,7 +317,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2cc7
+    sget v1, Lcom/resouce/module/ResID;->splsh_ad_join_member_ship:I
 
     const-string v2, "in_edu_privilege"
 
@@ -332,7 +332,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0e0827
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_prestart_splash_mopub_style_page:I
 
     invoke-virtual {v0, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -340,7 +340,7 @@
 
     iput-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v3, 0x7f0b108b
+    sget v3, Lcom/resouce/module/ResID;->home_identification:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -375,7 +375,7 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f081955
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_home_identification_promote_wps_edu:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -383,7 +383,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f081954
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_home_identification_promote_wps:I
 
     .line 7
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
@@ -423,7 +423,7 @@
     .line 14
     iget-object v2, p0, Lcoa;->b:Landroid/view/View;
 
-    const v3, 0x7f0b2ca4
+    sget v3, Lcom/resouce/module/ResID;->splash_brand_page:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -456,7 +456,7 @@
     .line 18
     iget-object v2, p0, Lcoa;->b:Landroid/view/View;
 
-    const v4, 0x7f0b2ca6
+    sget v4, Lcom/resouce/module/ResID;->splash_close_button:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -467,7 +467,7 @@
     .line 19
     iget-object v4, p0, Lcoa;->b:Landroid/view/View;
 
-    const v5, 0x7f0b2ca5
+    sget v5, Lcom/resouce/module/ResID;->splash_close_area:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -478,7 +478,7 @@
     .line 20
     iget-object v5, p0, Lcoa;->b:Landroid/view/View;
 
-    const v6, 0x7f0b2cab
+    sget v6, Lcom/resouce/module/ResID;->splash_jump_area:I
 
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0e0828
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_prestart_splash_server_style_page:I
 
     invoke-virtual {v0, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -599,7 +599,7 @@
 
     iput-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v3, 0x7f0b24bb
+    sget v3, Lcom/resouce/module/ResID;->pre_splash:I
 
     .line 37
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -615,12 +615,12 @@
 
     if-eqz v3, :cond_6
 
-    const v3, 0x7f081520
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pre_splash_bottom_mi:I
 
     goto :goto_3
 
     :cond_6
-    const v3, 0x7f081521
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pre_splash_bottom_promote_wps:I
 
     :goto_3
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -651,7 +651,7 @@
 
     if-eqz v2, :cond_7
 
-    const v2, 0x7f081522
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pre_splash_bottom_promote_wps_edu:I
 
     .line 41
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -722,7 +722,7 @@
     .line 50
     iget-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b163a
+    sget v1, Lcom/resouce/module/ResID;->ll_ad_complaint_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
     .line 51
     iget-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b3107
+    sget v1, Lcom/resouce/module/ResID;->tv_ad_complaint_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -754,7 +754,7 @@
     :goto_4
     iget-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b211f
+    sget v1, Lcom/resouce/module/ResID;->phone_splash_root_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -870,7 +870,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0829
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_prestart_splash_standby_layout:I
 
     const/4 v2, 0x0
 
@@ -884,7 +884,7 @@
     :cond_0
     iget-object v0, p0, Lcoa;->m:Landroid/view/View;
 
-    const v1, 0x7f0b17fb
+    sget v1, Lcom/resouce/module/ResID;->main_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1149,7 +1149,7 @@
     .line 1
     iget-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v1, 0x7f0b0094
+    sget v1, Lcom/resouce/module/ResID;->ad_sign:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1179,12 +1179,12 @@
 
     if-ne v4, v5, :cond_0
 
-    const v4, 0x7f121cf4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ad_sign:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f121cf5
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ad_sign_en:I
 
     :goto_0
     invoke-virtual {v2, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1244,7 +1244,7 @@
     .line 10
     iget-object v0, p0, Lcoa;->b:Landroid/view/View;
 
-    const v2, 0x7f0b0096
+    sget v2, Lcom/resouce/module/ResID;->ad_sign_info_root:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1268,7 +1268,7 @@
     .line 2
     iget-object p3, p0, Lcoa;->b:Landroid/view/View;
 
-    const p4, 0x7f0b18d6
+    sget p4, Lcom/resouce/module/ResID;->mopub_splash_page:I
 
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1420,7 +1420,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f07038e
+    sget p4, Lcom/resouce/module/ResDIMEN;->home_splash_membership_margin_left:I
 
     goto :goto_1
 
@@ -1431,7 +1431,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f07038f
+    sget p4, Lcom/resouce/module/ResDIMEN;->home_splash_membership_margin_left_non_ad_sign:I
 
     :goto_1
     invoke-virtual {p1, p4}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1462,7 +1462,7 @@
     :cond_5
     iget-object p1, p0, Lcoa;->b:Landroid/view/View;
 
-    const p3, 0x7f0b211f
+    sget p3, Lcom/resouce/module/ResID;->phone_splash_root_view:I
 
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1473,7 +1473,7 @@
     .line 25
     iget-object p3, p0, Lcoa;->b:Landroid/view/View;
 
-    const p4, 0x7f0b199f
+    sget p4, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     invoke-virtual {p3, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1553,7 +1553,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b18d6
+    sget v1, Lcom/resouce/module/ResID;->mopub_splash_page:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

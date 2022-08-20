@@ -194,7 +194,7 @@
     :cond_0
     iget-object p1, p0, Lwob;->Y:Landroid/app/Activity;
 
-    const p2, 0x7f121500
+    sget p2, Lcom/resouce/module/ResSTRING;->offline_transfer_device_busy:I
 
     const/4 p3, 0x0
 
@@ -235,7 +235,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e04f9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->offline_transfer_nearby_devices_list_dialog:I
 
     const/4 v1, 0x1
 
@@ -437,7 +437,7 @@
     .line 1
     iget-object v0, p0, Lwob;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f01008f
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in_half:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -448,7 +448,7 @@
     .line 2
     iget-object v0, p0, Lwob;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f010022
+    sget v1, Lcom/resouce/module/ResANIM;->center_rotate:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -915,7 +915,7 @@
     .line 4
     iget-object p1, p0, Lwob;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2c6a
+    sget v0, Lcom/resouce/module/ResID;->snackBar_stub:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -926,7 +926,7 @@
     .line 5
     iget-object p1, p0, Lwob;->S:Landroid/view/View;
 
-    const v0, 0x7f0b067a
+    sget v0, Lcom/resouce/module/ResID;->devices_list:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -978,7 +978,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e04f8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->offline_transfer_device_raw:I
 
     iget-object v2, p0, Lwob;->X:Ljava/util/List;
 
@@ -994,7 +994,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    const p1, 0x7f0b287b
+    sget p1, Lcom/resouce/module/ResID;->refresh:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

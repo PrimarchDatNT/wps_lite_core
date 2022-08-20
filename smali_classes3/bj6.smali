@@ -288,7 +288,7 @@
 .method public final Q1(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1a7f
+    sget v0, Lcom/resouce/module/ResID;->novel_home_tab_bar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -299,7 +299,7 @@
 
     iput-object v0, p0, Lbj6;->W:Lcn/wps/moffice/home/main/widget/NovelHomeTabBar;
 
-    const v0, 0x7f0b33a3
+    sget v0, Lcom/resouce/module/ResID;->view_pager:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b1b02
+    sget v0, Lcom/resouce/module/ResID;->old_wps_home_menu_header:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -425,7 +425,7 @@
 
     iput-object v0, p0, Lbj6;->T:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1b03
+    sget v0, Lcom/resouce/module/ResID;->old_wps_home_title_bar_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -488,7 +488,7 @@
     invoke-virtual {p0, v0, v1}, Lbj6;->K1(Landroid/view/View;Landroid/widget/FrameLayout;)V
 
     :cond_1
-    const v0, 0x7f0b1ce4
+    sget v0, Lcom/resouce/module/ResID;->parent_scroll_view:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -499,7 +499,7 @@
 
     iput-object v0, p0, Lbj6;->V:Lcn/wps/moffice/home/main/widget/NovelHomeNestedScrollView;
 
-    const v0, 0x7f0b1a7e
+    sget v0, Lcom/resouce/module/ResID;->novel_home_header:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -518,7 +518,7 @@
     .line 13
     invoke-virtual {v1, p0}, Lgj6;->X0(Lcn/wps/moffice/home/main/header/HeaderView$c;)V
 
-    const v0, 0x7f0b1a82
+    sget v0, Lcom/resouce/module/ResID;->novel_search_title_layout:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -535,7 +535,7 @@
     .line 16
     invoke-virtual {p0, p1}, Lbj6;->O1(Landroid/view/View;)V
 
-    const v0, 0x7f0b287c
+    sget v0, Lcom/resouce/module/ResID;->refreshLayout:I
 
     .line 17
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -649,7 +649,7 @@
     .line 4
     iget-object v0, p0, Lbj6;->d0:Landroid/view/View;
 
-    const v2, 0x7f060261
+    sget v2, Lcom/resouce/module/ResCOLOR;->maskBackgroundColor:I
 
     if-eqz v0, :cond_2
 
@@ -684,7 +684,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f123218
+    sget v3, Lcom/resouce/module/ResSTRING;->wps_home_guide_tip_first:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -769,7 +769,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f123219
+    sget v3, Lcom/resouce/module/ResSTRING;->wps_home_guide_tip_second:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -919,7 +919,7 @@
     :cond_0
     iget-object v0, p0, Lbj6;->V:Lcn/wps/moffice/home/main/widget/NovelHomeNestedScrollView;
 
-    const v1, 0x7f0b3072
+    sget v1, Lcom/resouce/module/ResID;->top_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1226,7 +1226,7 @@
         .end annotation
     .end param
 
-    const p3, 0x7f0e105d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->wps_home_root_main_layout:I
 
     const/4 v0, 0x0
 

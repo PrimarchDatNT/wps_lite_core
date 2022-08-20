@@ -89,7 +89,7 @@
 
     const/4 v0, 0x3
 
-    const v1, 0x7f0b09eb
+    sget v1, Lcom/resouce/module/ResID;->et_datavalidation_setting_squence_btns_group:I
 
     const/4 v2, 0x0
 

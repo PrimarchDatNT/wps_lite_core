@@ -294,7 +294,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122226
+    sget v0, Lcom/resouce/module/ResSTRING;->public_general_qq_file:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -312,7 +312,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122227
+    sget v0, Lcom/resouce/module/ResSTRING;->public_general_tim:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122228
+    sget v0, Lcom/resouce/module/ResSTRING;->public_general_wechat_file:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -348,7 +348,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122965
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

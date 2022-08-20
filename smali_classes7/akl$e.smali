@@ -46,7 +46,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122e8a
+    sget v0, Lcom/resouce/module/ResSTRING;->school_tools_hit:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -63,7 +63,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122e89
+    sget v0, Lcom/resouce/module/ResSTRING;->school_tools_app:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120cf6
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_addfile_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122e8b
+    sget v0, Lcom/resouce/module/ResSTRING;->school_tools_suggestions:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

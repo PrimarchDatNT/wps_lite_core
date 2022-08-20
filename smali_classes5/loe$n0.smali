@@ -210,7 +210,7 @@
 
     iget-object p1, p1, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f1220a6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     const/4 v0, 0x1
 

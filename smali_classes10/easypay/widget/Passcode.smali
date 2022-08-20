@@ -590,7 +590,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f040130
+    sget v3, Lcom/resouce/module/ResATTR;->colorControlHighlight:I
 
     invoke-virtual {p1, v3, v1, v5}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 

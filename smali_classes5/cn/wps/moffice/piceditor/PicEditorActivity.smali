@@ -718,19 +718,19 @@
 
     invoke-direct {p2, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f122950
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 5
     invoke-virtual {p2, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f1212e8
+    sget v0, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f12248e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_longpic_share_wx_limit_tips:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -755,7 +755,7 @@
 
     invoke-virtual {p2, v0}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v0, 0x7f122bd1
+    sget v0, Lcom/resouce/module/ResSTRING;->public_vipshare_savepic:I
 
     .line 8
     new-instance v1, Li8d;
@@ -764,7 +764,7 @@
 
     invoke-virtual {p2, v0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     new-instance v0, Lm8d;
@@ -987,17 +987,17 @@
 
     if-eq v0, v1, :cond_2
 
-    const v0, 0x7f122950
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f122018
+    sget v0, Lcom/resouce/module/ResSTRING;->public_done:I
 
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f12281f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 19
     :goto_0
@@ -1142,7 +1142,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0052
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_picture_editor_layout:I
 
     const/4 v2, 0x0
 
@@ -1150,7 +1150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1b42
+    sget v1, Lcom/resouce/module/ResID;->operate_mode_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1161,7 +1161,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/piceditor/PicEditorActivity;->a0:Lcn/wps/moffice/imageeditor/view/OperateModeView;
 
-    const v1, 0x7f0b0848
+    sget v1, Lcom/resouce/module/ResID;->editor_progress:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1271,7 +1271,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a41
+    sget v1, Lcom/resouce/module/ResLAYOUT;->picture_editor_header_view:I
 
     const/4 v2, 0x0
 
@@ -1279,7 +1279,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b01c6
+    sget v1, Lcom/resouce/module/ResID;->back_iv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1288,7 +1288,7 @@
 
     invoke-virtual {v1, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2bab
+    sget v1, Lcom/resouce/module/ResID;->share_tv:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1362,12 +1362,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12278a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_quit_pic_editor_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f122c0b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     const/4 v2, 0x0
 
@@ -1379,7 +1379,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/piceditor/PicEditorActivity$e;-><init>(Lcn/wps/moffice/piceditor/PicEditorActivity;)V
 
-    const v2, 0x7f122087
+    sget v2, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1448,7 +1448,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01c6
+    sget v0, Lcom/resouce/module/ResID;->back_iv:I
 
     if-ne p1, v0, :cond_0
 
@@ -1458,7 +1458,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2bab
+    sget v0, Lcom/resouce/module/ResID;->share_tv:I
 
     if-ne p1, v0, :cond_1
 
@@ -1487,7 +1487,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06003e
+    sget v0, Lcom/resouce/module/ResCOLOR;->black:I
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->setBackgroundDrawableResource(I)V
 

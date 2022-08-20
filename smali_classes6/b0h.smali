@@ -80,7 +80,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f080240
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -174,7 +174,7 @@
 
     iput-object v0, p0, Lb0h;->V:Lcn/wps/moffice/common/v10_colorpicker/ColorPickerLayout;
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V

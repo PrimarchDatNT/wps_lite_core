@@ -666,7 +666,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2069
+    sget v3, Lcom/resouce/module/ResID;->phone_payview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -711,7 +711,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2069
+    sget v3, Lcom/resouce/module/ResID;->phone_payview:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

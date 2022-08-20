@@ -220,14 +220,14 @@
 
     invoke-direct {v0}, Lxk2;-><init>()V
 
-    const v1, 0x7f0810f7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_credits:I
 
     const/4 v2, 0x0
 
     .line 2
     invoke-virtual {v0, v1, v2}, Lxk2;->r(II)V
 
-    const v1, 0x7f120d7c
+    sget v1, Lcom/resouce/module/ResSTRING;->foreign_my_credits:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -294,7 +294,7 @@
 
     aput-object p1, v4, v2
 
-    const p1, 0x7f123070
+    sget p1, Lcom/resouce/module/ResSTRING;->template_charge_credits:I
 
     invoke-virtual {v3, p1, v4}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -333,7 +333,7 @@
 .method public J2()I
     .locals 1
 
-    const v0, 0x7f120d73
+    sget v0, Lcom/resouce/module/ResSTRING;->foreign_charge:I
 
     return v0
 .end method
@@ -628,7 +628,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0294
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_my_charge_activity:I
 
     const/4 v2, 0x0
 
@@ -638,7 +638,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMyChargeActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b01ad
+    sget v1, Lcom/resouce/module/ResID;->avatar_fragment:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -659,7 +659,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMyChargeActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0393
+    sget v1, Lcom/resouce/module/ResID;->charge_pick_listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -672,7 +672,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMyChargeActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f2b
+    sget v1, Lcom/resouce/module/ResID;->gold_shadow_back:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -696,7 +696,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0299
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_restore_text:I
 
     invoke-virtual {v0, v1, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -732,7 +732,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0270
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_charge_config_item:I
 
     iget-object v2, p0, Lcn/wps/moffice/foreigntemplate/activity/TemplateMyChargeActivity;->T:Landroid/widget/ListView;
 
@@ -742,7 +742,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0518
+    sget v1, Lcom/resouce/module/ResID;->config_credits:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -755,7 +755,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f123070
+    sget v4, Lcom/resouce/module/ResSTRING;->template_charge_credits:I
 
     const/4 v5, 0x1
 
@@ -775,7 +775,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0521
+    sget v1, Lcom/resouce/module/ResID;->config_money:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -788,7 +788,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120d7e
+    sget v3, Lcom/resouce/module/ResSTRING;->foreign_price_free:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

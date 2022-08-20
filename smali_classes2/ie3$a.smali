@@ -100,7 +100,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1205ea
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_myDocumentsRootName:I
 
     return p1
 

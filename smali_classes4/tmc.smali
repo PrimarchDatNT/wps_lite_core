@@ -27,7 +27,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f122b46
+    sget v4, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     if-eqz v1, :cond_1
 

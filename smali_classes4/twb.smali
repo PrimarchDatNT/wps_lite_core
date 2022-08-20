@@ -62,7 +62,7 @@
 
     invoke-direct {v3, v4}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f0e0b42
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v5, 0x0
 

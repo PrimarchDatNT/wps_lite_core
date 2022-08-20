@@ -43,7 +43,7 @@
 
     iput-boolean p2, p1, Lcy7;->g0:Z
 
-    const v0, 0x7f0b1b0a
+    sget v0, Lcom/resouce/module/ResID;->one_login_submit_tv:I
 
     if-eqz p2, :cond_0
 

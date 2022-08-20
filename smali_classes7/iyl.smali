@@ -25,14 +25,14 @@
 .method public a(I)Landroid/view/View;
     .locals 5
 
-    const v0, 0x7f0e05fc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_writer_txt_encoding_padding:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1c4a
+    sget v1, Lcom/resouce/module/ResID;->pad_txt_encoding_listview:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0706dc
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_phone_dropdown_btn_arrow_bottom_padding:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

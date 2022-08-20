@@ -253,7 +253,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f1200fc
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_1:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f1200fd
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_2:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -287,7 +287,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f1200fe
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_search_item_name_3:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

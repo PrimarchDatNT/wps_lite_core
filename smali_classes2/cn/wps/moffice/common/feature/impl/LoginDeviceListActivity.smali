@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/feature/impl/LoginDeviceListActivity;->B:Ljava/util/Map;
 
-    const v1, 0x7f0818a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_dev_type_pc:I
 
     .line 4
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -73,7 +73,7 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f08189f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_dev_type_android:I
 
     .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -84,7 +84,7 @@
 
     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const v1, 0x7f0818a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_dev_type_iphone:I
 
     .line 6
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

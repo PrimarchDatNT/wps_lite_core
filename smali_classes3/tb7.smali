@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e008d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cloud_notice_tips_layout:I
 
     const/4 v2, 0x0
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b3296
+    sget v0, Lcom/resouce/module/ResID;->tv_title_content:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -85,7 +85,7 @@
 
     iput-object v0, p0, Ltb7;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b16fd
+    sget v0, Lcom/resouce/module/ResID;->ll_tip_root:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -96,7 +96,7 @@
 
     iput-object v0, p0, Ltb7;->Y:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b16ed
+    sget v0, Lcom/resouce/module/ResID;->ll_suffix_root:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setSelected(Z)V
 
-    const v0, 0x7f0b14d4
+    sget v0, Lcom/resouce/module/ResID;->iv_title_suffix_icon:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -284,12 +284,12 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f08161c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_ad_closed_n:I
 
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0816c3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_right_arrow:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V

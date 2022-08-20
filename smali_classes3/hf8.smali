@@ -47,7 +47,7 @@
 
     move-result v1
 
-    const v2, 0x7f122392
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     const/4 v3, 0x0
 
@@ -72,7 +72,7 @@
 
     move-result v0
 
-    const v1, 0x7f120635
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_rename_success:I
 
     const/4 v4, 0x1
 
@@ -166,7 +166,7 @@
     .line 15
     new-instance p1, Leq6$a;
 
-    const p2, 0x7f12110d
+    sget p2, Lcom/resouce/module/ResSTRING;->home_rename_has_duplicate:I
 
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -433,7 +433,7 @@
     if-nez v1, :cond_3
 
     :cond_2
-    const p2, 0x7f12110f
+    sget p2, Lcom/resouce/module/ResSTRING;->home_rename_no_permission:I
 
     new-array v1, v2, [Ljava/lang/Object;
 

@@ -71,7 +71,7 @@
 .method public l(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Leo9$c;
     .locals 1
 
-    const p2, 0x7f0e054d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_home_local_history_list_item:I
 
     const/4 v0, 0x0
 
@@ -142,7 +142,7 @@
     .line 5
     iget-object p2, p1, Leo9$c;->q0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f081fcc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -152,7 +152,7 @@
     :cond_1
     iget-object p2, p1, Leo9$c;->q0:Lcn/wps/moffice/main/local/home/phone/multiselect/CheckBoxImageView;
 
-    const v2, 0x7f081626    # 1.8089E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_option:I    # 1.8089E38f
 
     invoke-virtual {p2, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -426,7 +426,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b2e88
+    sget v3, Lcom/resouce/module/ResID;->tag_position:I
 
     invoke-virtual {v1, v3, v2}, Landroid/widget/FrameLayout;->setTag(ILjava/lang/Object;)V
 

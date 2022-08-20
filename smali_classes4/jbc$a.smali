@@ -178,7 +178,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b00c6
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_red:I
 
     if-ne p1, v0, :cond_3
 
@@ -194,7 +194,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f0b00c7
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_yellow:I
 
     if-ne p1, v0, :cond_4
 
@@ -210,7 +210,7 @@
     goto :goto_2
 
     :cond_4
-    const v0, 0x7f0b00c4
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_green:I
 
     if-ne p1, v0, :cond_5
 
@@ -226,7 +226,7 @@
     goto :goto_2
 
     :cond_5
-    const v0, 0x7f0b00c3
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_blue:I
 
     if-ne p1, v0, :cond_6
 
@@ -242,7 +242,7 @@
     goto :goto_2
 
     :cond_6
-    const v0, 0x7f0b00c5
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_purple:I
 
     if-ne p1, v0, :cond_7
 
@@ -258,7 +258,7 @@
     goto :goto_2
 
     :cond_7
-    const v0, 0x7f0b00c2
+    sget v0, Lcom/resouce/module/ResID;->addtext_color_black:I
 
     if-ne p1, v0, :cond_9
 

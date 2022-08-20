@@ -326,7 +326,7 @@
     .line 11
     new-instance v0, Lyb;
 
-    const v2, 0x7f0817a2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -346,7 +346,7 @@
     .line 13
     new-instance v0, Lyb;
 
-    const v2, 0x7f0817b3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -832,7 +832,7 @@
 
     iget-object v4, p0, Lyjb;->x:Landroid/content/Context;
 
-    const v5, 0x7f120e3f
+    sget v5, Lcom/resouce/module/ResSTRING;->home_account_member_login:I
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -849,7 +849,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -869,7 +869,7 @@
 
     iget-object v2, p0, Lyjb;->x:Landroid/content/Context;
 
-    const v4, 0x7f120e32
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_member_click:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -880,7 +880,7 @@
     .line 7
     iget-object v0, p0, Lyjb;->n:Lyb;
 
-    const v2, 0x7f081b84
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1018,7 +1018,7 @@
     .line 4
     iget-object v0, p0, Lyjb;->b:Lyb;
 
-    const v1, 0x7f081341
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_member_gray_bg_corner:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1043,7 +1043,7 @@
     :cond_0
     iget-object v0, p0, Lyjb;->b:Lyb;
 
-    const v1, 0x7f0817c0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_unable_background:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1054,7 +1054,7 @@
     .line 7
     iget-object v0, p0, Lyjb;->o:Lyb;
 
-    const v1, 0x7f0817bf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_unable:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1068,7 +1068,7 @@
     :cond_1
     iget-object v0, p0, Lyjb;->b:Lyb;
 
-    const v1, 0x7f0817c7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip_unable_background:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1079,7 +1079,7 @@
     .line 9
     iget-object v0, p0, Lyjb;->o:Lyb;
 
-    const v1, 0x7f0817c6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip_unable:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1093,7 +1093,7 @@
     :cond_2
     iget-object v0, p0, Lyjb;->b:Lyb;
 
-    const v1, 0x7f0817ac
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_unable_background:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1104,7 +1104,7 @@
     .line 11
     iget-object v0, p0, Lyjb;->o:Lyb;
 
-    const v1, 0x7f0817ab
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_unable:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1266,7 +1266,7 @@
 
     iget-object v2, p0, Lyjb;->x:Landroid/content/Context;
 
-    const v3, 0x7f120fb1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1277,7 +1277,7 @@
     .line 4
     iget-object v1, p0, Lyjb;->n:Lyb;
 
-    const v2, 0x7f08133b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_button_maincolor_corner:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1338,15 +1338,15 @@
 
     const/16 v3, 0xc
 
-    const v4, 0x7f0606e2
+    sget v4, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eq v2, v3, :cond_3
 
     const/16 v3, 0x14
 
-    const v5, 0x7f0817b3
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px:I
 
-    const v6, 0x7f0817a2
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px:I
 
     if-eq v2, v3, :cond_2
 
@@ -1357,7 +1357,7 @@
     .line 11
     iget-object v2, p0, Lyjb;->b:Lyb;
 
-    const v3, 0x7f081341
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_member_gray_bg_corner:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1379,7 +1379,7 @@
     .line 13
     iget-object v2, p0, Lyjb;->f:Lyb;
 
-    const v3, 0x7f060089
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_alpha_40_black:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1408,7 +1408,7 @@
     :cond_1
     iget-object v2, p0, Lyjb;->b:Lyb;
 
-    const v3, 0x7f0817b8
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_background:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1419,7 +1419,7 @@
     .line 16
     iget-object v2, p0, Lyjb;->d:Lyb;
 
-    const v3, 0x7f0604ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->premiumGoldTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1434,7 +1434,7 @@
     .line 17
     iget-object v2, p0, Lyjb;->f:Lyb;
 
-    const v3, 0x7f0604ed
+    sget v3, Lcom/resouce/module/ResCOLOR;->premiumSubGoldTextColor:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1467,7 +1467,7 @@
     .line 20
     iget-object v1, p0, Lyjb;->o:Lyb;
 
-    const v2, 0x7f0817b6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1481,7 +1481,7 @@
     :cond_2
     iget-object v2, p0, Lyjb;->b:Lyb;
 
-    const v3, 0x7f0817c3
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip_background:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1534,7 +1534,7 @@
     .line 26
     iget-object v1, p0, Lyjb;->o:Lyb;
 
-    const v2, 0x7f0817c2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_vip:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1548,7 +1548,7 @@
     :cond_3
     iget-object v2, p0, Lyjb;->b:Lyb;
 
-    const v3, 0x7f0817a4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_background:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1583,7 +1583,7 @@
     .line 30
     iget-object v1, p0, Lyjb;->j:Lyb;
 
-    const v2, 0x7f0817a3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_48px_2:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1594,7 +1594,7 @@
     .line 31
     iget-object v1, p0, Lyjb;->l:Lyb;
 
-    const v2, 0x7f0817b4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_pdf_privilege_48px_2:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1605,7 +1605,7 @@
     .line 32
     iget-object v1, p0, Lyjb;->o:Lyb;
 
-    const v2, 0x7f0817a1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

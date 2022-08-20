@@ -65,7 +65,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    const v0, 0x7f0b1936
+    sget v0, Lcom/resouce/module/ResID;->mtrl_internal_children_alpha_tag:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->getTag(I)Ljava/lang/Object;
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1936
+    sget v1, Lcom/resouce/module/ResID;->mtrl_internal_children_alpha_tag:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/ViewGroup;->setTag(ILjava/lang/Object;)V
 

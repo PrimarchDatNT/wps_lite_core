@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122b46
+    sget p2, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const-string v0, "et"
 

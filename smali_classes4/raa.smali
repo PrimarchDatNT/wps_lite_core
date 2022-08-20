@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cea
+    sget v1, Lcom/resouce/module/ResID;->passcode_hint_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -199,7 +199,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0735
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_passcode_layout_keyboard_multiwindow_v:I
 
     goto :goto_0
 
@@ -212,12 +212,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0734
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_passcode_layout_keyboard_h:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0e0736
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_passcode_layout_keyboard_v:I
 
     :goto_0
     return v0
@@ -252,7 +252,7 @@
 
     iput-object v0, p0, Lraa;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b110e
+    sget v1, Lcom/resouce/module/ResID;->home_passcode_top_bar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -313,7 +313,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b12e4
+    sget v2, Lcom/resouce/module/ResID;->indicator_0:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -330,7 +330,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b12e5
+    sget v2, Lcom/resouce/module/ResID;->indicator_1:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b12e6
+    sget v2, Lcom/resouce/module/ResID;->indicator_2:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -364,7 +364,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b12e7
+    sget v2, Lcom/resouce/module/ResID;->indicator_3:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -389,7 +389,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10cc
+    sget v1, Lcom/resouce/module/ResID;->home_number_0:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10cd
+    sget v1, Lcom/resouce/module/ResID;->home_number_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10ce
+    sget v1, Lcom/resouce/module/ResID;->home_number_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -428,7 +428,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10cf
+    sget v1, Lcom/resouce/module/ResID;->home_number_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -441,7 +441,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d0
+    sget v1, Lcom/resouce/module/ResID;->home_number_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -454,7 +454,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d1    # 1.8485E38f
+    sget v1, Lcom/resouce/module/ResID;->home_number_5:I    # 1.8485E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d2
+    sget v1, Lcom/resouce/module/ResID;->home_number_6:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d3
+    sget v1, Lcom/resouce/module/ResID;->home_number_7:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d4
+    sget v1, Lcom/resouce/module/ResID;->home_number_8:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -506,7 +506,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d5
+    sget v1, Lcom/resouce/module/ResID;->home_number_9:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -519,7 +519,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b10d6
+    sget v1, Lcom/resouce/module/ResID;->home_number_del:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -689,7 +689,7 @@
 
     iput-object v0, p0, Lraa;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b110e
+    sget v1, Lcom/resouce/module/ResID;->home_passcode_top_bar:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -831,7 +831,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b10d6
+    sget v1, Lcom/resouce/module/ResID;->home_number_del:I
 
     if-ne v0, v1, :cond_0
 
@@ -1027,7 +1027,7 @@
     .line 9
     iget-object v0, p0, Lraa;->I:Landroid/content/Context;
 
-    const v1, 0x7f121017
+    sget v1, Lcom/resouce/module/ResSTRING;->home_passcode_set_success:I
 
     const/4 v2, 0x0
 
@@ -1111,7 +1111,7 @@
     .line 2
     iget-object v0, p0, Lraa;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b110e
+    sget v1, Lcom/resouce/module/ResID;->home_passcode_top_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1143,7 +1143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1ceb
+    sget v1, Lcom/resouce/module/ResID;->passcode_indicator_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1156,7 +1156,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070651
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_documents_maintoolbar_height:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1208,7 +1208,7 @@
     .line 12
     iget-object v0, p0, Lraa;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ce9
+    sget v1, Lcom/resouce/module/ResID;->passcode_code_choice:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1267,7 +1267,7 @@
 
     iput-object v0, p0, Lraa;->Z:Ljava/lang/String;
 
-    const v0, 0x7f121dd8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_checkPasswdFaild:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1288,7 +1288,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3033
+    sget v1, Lcom/resouce/module/ResID;->titlebar_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1356,7 +1356,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1ceb
+    sget v1, Lcom/resouce/module/ResID;->passcode_indicator_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1365,7 +1365,7 @@
     .line 2
     iget-object v1, p0, Lraa;->I:Landroid/content/Context;
 
-    const v2, 0x7f01004f
+    sget v2, Lcom/resouce/module/ResANIM;->home_passcode_wrong_code_vibration:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

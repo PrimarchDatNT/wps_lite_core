@@ -96,7 +96,7 @@
     .line 6
     iget-object p1, p0, Lla8$h$d;->I:Lla8$h;
 
-    const p2, 0x7f12237c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-virtual {p1, p2}, Lla8$h;->h(I)V
 
@@ -115,7 +115,7 @@
     .line 8
     iget-object p1, p0, Lla8$h$d;->I:Lla8$h;
 
-    const p2, 0x7f120557
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_specialchar:I
 
     invoke-virtual {p1, p2}, Lla8$h;->h(I)V
 

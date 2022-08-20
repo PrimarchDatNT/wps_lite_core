@@ -305,7 +305,7 @@
 
     if-gt v0, v1, :cond_0
 
-    const v0, 0x7f12340a
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_share_weibo_not_support:I
 
     const/4 v1, 0x1
 
@@ -381,7 +381,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -615,7 +615,7 @@
     goto :goto_0
 
     :catch_1
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -679,7 +679,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -720,7 +720,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -823,7 +823,7 @@
     move-result-object p1
 
     :cond_1
-    const p2, 0x7f122e04
+    sget p2, Lcom/resouce/module/ResSTRING;->recommend_whatsapp_web_url:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -846,7 +846,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f122ddb
+    sget p1, Lcom/resouce/module/ResSTRING;->recomend_googleplus_web_url:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -860,7 +860,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f122dda
+    sget p1, Lcom/resouce/module/ResSTRING;->recomend_facebook_web_url:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -874,7 +874,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f122e01
+    sget p1, Lcom/resouce/module/ResSTRING;->recommend_share_weibo:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -902,7 +902,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122ddc
+    sget v0, Lcom/resouce/module/ResSTRING;->recomend_weibo_web_url:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -179,7 +179,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f120647
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0}, Lgt6;->B(I)V
@@ -189,7 +189,7 @@
     :cond_0
     if-eqz p4, :cond_1
 
-    const p0, 0x7f12056c
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     .line 4
     invoke-static {p0}, Lgt6;->B(I)V
@@ -227,7 +227,7 @@
 
     if-nez v0, :cond_0
 
-    const p0, 0x7f120647
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 2
     invoke-static {p0}, Lgt6;->B(I)V
@@ -956,7 +956,7 @@
 
     if-nez p0, :cond_0
 
-    const p0, 0x7f120647
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0}, Lgt6;->B(I)V
@@ -1000,7 +1000,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f121f48
+    sget p0, Lcom/resouce/module/ResSTRING;->public_confirm_title_tips:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -1012,18 +1012,18 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f12255b
+    sget p0, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm_download:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f122c06
+    sget p0, Lcom/resouce/module/ResSTRING;->public_wifi_and_confirm_download:I
 
     .line 4
     :goto_0
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121f5e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 5
     new-instance v1, Lgt6$c;
@@ -1032,7 +1032,7 @@
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance p3, Lgt6$d;
@@ -1409,7 +1409,7 @@
 
     if-nez v0, :cond_7
 
-    const v0, 0x7f12118f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_third_app_uninstall:I
 
     .line 38
     invoke-static {v0}, Lgt6;->B(I)V
@@ -1439,7 +1439,7 @@
 
     if-nez v0, :cond_a
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 44
     invoke-static {v0}, Lgt6;->B(I)V

@@ -57,19 +57,19 @@
 
     sget-boolean v1, Ljif;->o:Z
 
-    const v2, 0x7f080201
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_ascending:I
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080201
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_ascending:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080bae
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_ascending_et:I
 
     :goto_0
-    const v3, 0x7f120c24
+    sget v3, Lcom/resouce/module/ResSTRING;->et_sort_order_0:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/sort/Sorter$AscSort;-><init>(Lcn/wps/moffice/spreadsheet/control/sort/Sorter;II)V
 
@@ -85,10 +85,10 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f080bad
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_ascending:I
 
     :goto_1
-    const v1, 0x7f120c20
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sort_ascend:I
 
     const/4 v3, 0x0
 
@@ -106,19 +106,19 @@
 
     sget-boolean v1, Ljif;->o:Z
 
-    const v2, 0x7f080223
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_descending:I
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f080223
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_descending:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080bc4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_descending_et:I
 
     :goto_2
-    const v4, 0x7f120c25
+    sget v4, Lcom/resouce/module/ResSTRING;->et_sort_order_1:I
 
     invoke-direct {v0, p0, v1, v4}, Lcn/wps/moffice/spreadsheet/control/sort/Sorter$DesSort;-><init>(Lcn/wps/moffice/spreadsheet/control/sort/Sorter;II)V
 
@@ -134,10 +134,10 @@
     goto :goto_3
 
     :cond_3
-    const v2, 0x7f080bc3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_descending:I
 
     :goto_3
-    const v1, 0x7f120c22
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sort_descend:I
 
     invoke-direct {v0, p0, v2, v1, v3}, Lcn/wps/moffice/spreadsheet/control/sort/Sorter$DesSort;-><init>(Lcn/wps/moffice/spreadsheet/control/sort/Sorter;IIZ)V
 
@@ -277,7 +277,7 @@
     .line 4
     invoke-static {p1, p2}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 p2, 0x0
 
@@ -490,7 +490,7 @@
     goto :goto_0
 
     :catch_0
-    const p2, 0x7f120c23
+    sget p2, Lcom/resouce/module/ResSTRING;->et_sort_empty:I
 
     const/4 v0, 0x1
 
@@ -662,7 +662,7 @@
 
     invoke-direct {v11, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120c27
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sorter_expand_selection:I
 
     .line 8
     invoke-virtual {v11, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -672,7 +672,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -694,7 +694,7 @@
 
     invoke-direct/range {v1 .. v8}, Lcn/wps/moffice/spreadsheet/control/sort/Sorter$c;-><init>(Lcn/wps/moffice/spreadsheet/control/sort/Sorter;Lhd3;Lo2m;Lf2n;ZIZ)V
 
-    const v1, 0x7f120c29
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sorter_expand_selection_ok:I
 
     invoke-virtual {v11, v1, v0, v10}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -713,7 +713,7 @@
 
     invoke-direct/range {v5 .. v10}, Lcn/wps/moffice/spreadsheet/control/sort/Sorter$d;-><init>(Lcn/wps/moffice/spreadsheet/control/sort/Sorter;Lhd3;ZIZ)V
 
-    const p1, 0x7f120c28
+    sget p1, Lcom/resouce/module/ResSTRING;->et_sorter_expand_selection_cancel:I
 
     invoke-virtual {v11, p1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -747,7 +747,7 @@
     .line 3
     iget-object v0, v0, Lcn/wps/moffice/spreadsheet/control/sort/SortTitleWarnBar;->I:Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseButtonBar$BarItem_button;
 
-    const v1, 0x7f120c26
+    sget v1, Lcom/resouce/module/ResSTRING;->et_sort_title_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

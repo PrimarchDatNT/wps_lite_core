@@ -120,7 +120,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f040036
+    sget v8, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v8, v7, v3
 
@@ -222,7 +222,7 @@
 
     new-array v4, v0, [I
 
-    const v5, 0x7f0405b6
+    sget v5, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v5, v4, v3
 

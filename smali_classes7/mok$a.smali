@@ -90,7 +90,7 @@
     .line 6
     iget-object p1, p0, Lmok$a;->a:Lcn/wps/moffice/writer/Writer;
 
-    const v1, 0x7f0b025b
+    sget v1, Lcom/resouce/module/ResID;->bottom_expand_switcher:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/writer/WriterBase;->superFindViewById(I)Landroid/view/View;
 

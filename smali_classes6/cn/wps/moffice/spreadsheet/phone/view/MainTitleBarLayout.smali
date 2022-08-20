@@ -100,7 +100,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2153
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_main_titlebar_small_ad_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2154
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_main_titlebar_small_ad_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2181
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_small_title_selection:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2152
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_main_titlebar_small_ad_icon:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -232,7 +232,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2188
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_title_bar_small_title_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b218d
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_titlebar_small_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -284,7 +284,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2187
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_title_bar:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0ab2
+    sget v0, Lcom/resouce/module/ResID;->et_main_top_title_layout:I
 
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -554,7 +554,7 @@
 
     move-result v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     if-eqz v1, :cond_3
 
@@ -592,7 +592,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -656,7 +656,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b218d
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_titlebar_small_title:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

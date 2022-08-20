@@ -232,12 +232,12 @@
     .line 3
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->q(I)V
 
-    const v2, 0x7f0807a7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->general_qq_checked:I
 
     .line 4
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->o(I)V
 
-    const v2, 0x7f0807a8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->general_qq_unchecked:I
 
     .line 5
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->u(I)V
@@ -249,7 +249,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122226
+    sget v3, Lcom/resouce/module/ResSTRING;->public_general_qq_file:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -267,12 +267,12 @@
     .line 8
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->q(I)V
 
-    const v3, 0x7f081fb0
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wechat_checked:I
 
     .line 9
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->o(I)V
 
-    const v3, 0x7f081fb1
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wechat_unchecked:I
 
     .line 10
     invoke-virtual {v2, v3}, Lcn/wps/moffice/main/local/filebrowser/generalfile/otherdex/view/CheckTextGroupView$a;->u(I)V
@@ -284,7 +284,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122228
+    sget v4, Lcom/resouce/module/ResSTRING;->public_general_wechat_file:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -307,7 +307,7 @@
     .line 1
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b03a3
+    sget v1, Lcom/resouce/module/ResID;->checkTextGroupView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -421,7 +421,7 @@
     .line 1
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2983
+    sget v1, Lcom/resouce/module/ResID;->roaming_record_refresh_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -439,7 +439,7 @@
     .line 3
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d1f
+    sget v1, Lcom/resouce/module/ResID;->file_select_recent_content_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -452,7 +452,7 @@
     .line 4
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b040b
+    sget v1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -465,7 +465,7 @@
     .line 5
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b154d
+    sget v1, Lcom/resouce/module/ResID;->layout_listview_main:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -482,7 +482,7 @@
     .line 1
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0d5d
+    sget v1, Lcom/resouce/module/ResID;->fileselect_list_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -493,7 +493,7 @@
     .line 2
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b26de
+    sget v1, Lcom/resouce/module/ResID;->public_recent_file_tips_no_found:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -650,7 +650,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06db
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_general_file_view:I
 
     const/4 v2, 0x0
 
@@ -771,7 +771,7 @@
     .line 1
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1166
+    sget v1, Lcom/resouce/module/ResID;->home_search_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -804,7 +804,7 @@
     .line 4
     iget-object v0, p0, Lf09;->Z:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v2, 0x7f0816fc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -820,7 +820,7 @@
     .line 6
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0421
+    sget v2, Lcom/resouce/module/ResID;->cleansearch:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -833,7 +833,7 @@
     .line 7
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v2, 0x7f0b2c9b
+    sget v2, Lcom/resouce/module/ResID;->speechsearch_divider:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -852,7 +852,7 @@
     .line 10
     iget-object v0, p0, Lf09;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2a86
+    sget v1, Lcom/resouce/module/ResID;->search_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -874,7 +874,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122865
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_general_file_edittext_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -982,7 +982,7 @@
     .line 2
     iget-object v0, p0, Lf09;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f08155d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_search_results:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -996,7 +996,7 @@
 
     move-result v0
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     if-eqz v0, :cond_1
 
@@ -1038,7 +1038,7 @@
     .line 2
     iget-object v0, p0, Lf09;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f122861
+    sget v1, Lcom/resouce/module/ResSTRING;->public_search_empty_tips_content:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1048,7 +1048,7 @@
     :cond_0
     iget-object v0, p0, Lf09;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12286a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_search_general_tips:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -1070,7 +1070,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2a86
+    sget v0, Lcom/resouce/module/ResID;->search_input:I
 
     if-ne p1, v0, :cond_0
 

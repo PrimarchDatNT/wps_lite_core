@@ -48,7 +48,7 @@
 
     invoke-static {p1}, Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;->V2(Lcn/wps/moffice/common/feature/impl/GuideLoginPcActivity$d;)V
 
-    const p1, 0x7f0b02fa
+    sget p1, Lcom/resouce/module/ResID;->btn_scan:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

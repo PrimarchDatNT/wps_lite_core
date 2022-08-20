@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_new_link:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -635,7 +635,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -712,7 +712,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f120585
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

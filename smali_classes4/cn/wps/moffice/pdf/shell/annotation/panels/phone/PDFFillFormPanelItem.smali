@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e079f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_annotation_panel_item:I
 
     const/4 v2, 0x1
 
@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b1db7
+    sget p2, Lcom/resouce/module/ResID;->pdf_edit_annotation_bottom_item:I
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFFillFormPanelItem;->T:Landroid/widget/LinearLayout;
 
-    const p2, 0x7f0b1db8    # 1.84917E38f
+    sget p2, Lcom/resouce/module/ResID;->pdf_edit_annotation_bottom_item_img:I    # 1.84917E38f
 
     .line 10
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

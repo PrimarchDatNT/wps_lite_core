@@ -328,7 +328,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12011b
+    sget v5, Lcom/resouce/module/ResSTRING;->app_unknownError:I
 
     invoke-static {v4, v5, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -362,7 +362,7 @@
 
     check-cast v1, Landroid/content/Context;
 
-    const v2, 0x7f120572
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_cannot_delete_file:I
 
     invoke-static {v1, v2, v3}, Lbih;->n(Landroid/content/Context;II)V
 

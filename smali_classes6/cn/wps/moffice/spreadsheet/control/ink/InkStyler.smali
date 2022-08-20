@@ -25,9 +25,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$1;
 
-    const v1, 0x7f080dcf
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_pen_color:I
 
-    const v2, 0x7f122376
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_pen:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$1;-><init>(Lcn/wps/moffice/spreadsheet/control/ink/InkStyler;II)V
 
@@ -36,9 +36,9 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$2;
 
-    const v1, 0x7f080dca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_highlighter_color:I
 
-    const v2, 0x7f122375
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_highlighter:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$2;-><init>(Lcn/wps/moffice/spreadsheet/control/ink/InkStyler;II)V
 
@@ -47,9 +47,9 @@
     .line 4
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$3;
 
-    const v1, 0x7f080db4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_style_eraser_color:I
 
-    const v2, 0x7f122374
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ink_tip_eraser:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/ink/InkStyler$3;-><init>(Lcn/wps/moffice/spreadsheet/control/ink/InkStyler;II)V
 

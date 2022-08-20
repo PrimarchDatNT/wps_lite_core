@@ -163,7 +163,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -296,7 +296,7 @@
 
     const-string v4, "value"
 
-    const v5, 0x7f12153d
+    sget v5, Lcom/resouce/module/ResSTRING;->online_security_title_no_permission:I
 
     const/4 v6, 0x0
 
@@ -329,7 +329,7 @@
     .line 5
     iget-object v2, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v9, 0x7f121539
+    sget v9, Lcom/resouce/module/ResSTRING;->online_security_error_code_send_request:I
 
     new-array v7, v7, [Ljava/lang/Object;
 
@@ -352,13 +352,13 @@
 
     move-result-object v11
 
-    const v13, 0x7f12152a
+    sget v13, Lcom/resouce/module/ResSTRING;->online_security_btn_send_request:I
 
     new-instance v14, Lgpb$a$c;
 
     invoke-direct {v14, v0}, Lgpb$a$c;-><init>(Lgpb$a;)V
 
-    const v15, 0x7f121dbf
+    sget v15, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lgpb$a$d;
 
@@ -401,7 +401,7 @@
     :cond_3
     iget-object v2, v0, Lgpb$a;->V:Landroid/content/Context;
 
-    const v9, 0x7f12152b
+    sget v9, Lcom/resouce/module/ResSTRING;->online_security_error_code_account_no_permission:I
 
     new-array v7, v7, [Ljava/lang/Object;
 

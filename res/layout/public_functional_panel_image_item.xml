@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@android:color/transparent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="70.0dip" style="@style/public_image_bg_style">
-        <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_horizontal" android:id="@id/function_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip" />
-        <TextView android:textSize="11.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:id="@id/corner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="nihao" />
-    </LinearLayout>
-</FrameLayout>

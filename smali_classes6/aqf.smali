@@ -177,7 +177,7 @@
     .line 20
     iget-object p1, p0, Laqf;->T:Landroid/view/View;
 
-    const p2, 0x7f0b0963
+    sget p2, Lcom/resouce/module/ResID;->et_chartoptions_title_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
 
     iget-object p2, p0, Laqf;->B:Landroid/content/Context;
 
-    const v0, 0x7f120767
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chart_chartoptions:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -236,7 +236,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060002
+    sget p2, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -251,7 +251,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060626
+    sget p2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -574,7 +574,7 @@
 
     iget-object v5, p0, Laqf;->B:Landroid/content/Context;
 
-    const v7, 0x7f0e01c9
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_complex_format_dialog_listitem:I
 
     new-array v9, v11, [I
 
@@ -614,7 +614,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01bb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_dialog_pad:I
 
     const/4 v2, 0x0
 
@@ -624,7 +624,7 @@
 
     iput-object v0, p0, Laqf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b094b
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_main_content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
     .line 3
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0933
+    sget v2, Lcom/resouce/module/ResID;->et_chartoptions_chart_title_btn:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -657,7 +657,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v3, 0x7f0b0945
+    sget v3, Lcom/resouce/module/ResID;->et_chartoptions_legend_btn:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -672,7 +672,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v3, 0x7f0b0934
+    sget v3, Lcom/resouce/module/ResID;->et_chartoptions_coordinate_axis_btn:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -687,7 +687,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v4, 0x7f0b0936
+    sget v4, Lcom/resouce/module/ResID;->et_chartoptions_data_options_btn:I
 
     .line 7
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -702,7 +702,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v4, 0x7f0b0943
+    sget v4, Lcom/resouce/module/ResID;->et_chartoptions_grid_lines_btn:I
 
     .line 8
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -717,7 +717,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v5, 0x7f0b0966
+    sget v5, Lcom/resouce/module/ResID;->et_chartoptions_trend_lines_btn:I
 
     .line 9
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -732,7 +732,7 @@
 
     iget-object v1, p0, Laqf;->T:Landroid/view/View;
 
-    const v6, 0x7f0b093d
+    sget v6, Lcom/resouce/module/ResID;->et_chartoptions_error_lines_btn:I
 
     .line 10
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -819,7 +819,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01ba
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_dialog:I
 
     const/4 v2, 0x0
 
@@ -836,7 +836,7 @@
 
     iput-object v1, p0, Laqf;->S:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b094a
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_listview:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -850,7 +850,7 @@
     .line 4
     iget-object v0, p0, Laqf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b092d
+    sget v1, Lcom/resouce/module/ResID;->et_chartopitons_origin_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -871,7 +871,7 @@
 
     iget-object v1, p0, Laqf;->B:Landroid/content/Context;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v2}, Liqf;-><init>(Landroid/content/Context;I)V
 
@@ -995,22 +995,22 @@
 
     move-result v0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-eq v0, v1, :cond_b
 
-    const v1, 0x7f0b2fdd
+    sget v1, Lcom/resouce/module/ResID;->title_bar_cancel:I
 
     if-eq v0, v1, :cond_b
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne v0, v1, :cond_1
 
     goto/16 :goto_1
 
     :cond_1
-    const v1, 0x7f0b2fe6
+    sget v1, Lcom/resouce/module/ResID;->title_bar_ok:I
 
     const/4 v2, 0x0
 
@@ -1063,7 +1063,7 @@
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f0b0933
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_chart_title_btn:I
 
     if-ne v0, p1, :cond_5
 
@@ -1073,7 +1073,7 @@
     goto :goto_2
 
     :cond_5
-    const p1, 0x7f0b0945
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_legend_btn:I
 
     if-ne v0, p1, :cond_6
 
@@ -1085,7 +1085,7 @@
     goto :goto_2
 
     :cond_6
-    const p1, 0x7f0b0934
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_coordinate_axis_btn:I
 
     if-ne v0, p1, :cond_7
 
@@ -1097,7 +1097,7 @@
     goto :goto_2
 
     :cond_7
-    const p1, 0x7f0b0936
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_data_options_btn:I
 
     if-ne v0, p1, :cond_8
 
@@ -1109,7 +1109,7 @@
     goto :goto_2
 
     :cond_8
-    const p1, 0x7f0b0943
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_grid_lines_btn:I
 
     if-ne v0, p1, :cond_9
 
@@ -1121,7 +1121,7 @@
     goto :goto_2
 
     :cond_9
-    const p1, 0x7f0b0966
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_trend_lines_btn:I
 
     if-ne v0, p1, :cond_a
 
@@ -1133,7 +1133,7 @@
     goto :goto_2
 
     :cond_a
-    const p1, 0x7f0b093d
+    sget p1, Lcom/resouce/module/ResID;->et_chartoptions_error_lines_btn:I
 
     if-ne v0, p1, :cond_c
 
@@ -1400,7 +1400,7 @@
 
     aget-object v3, v0, v2
 
-    const v4, 0x7f080f8f
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_public_print_button_bg_selector:I
 
     .line 2
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setBackgroundResource(I)V

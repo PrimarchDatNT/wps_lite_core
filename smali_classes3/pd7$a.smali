@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120706
+    sget v1, Lcom/resouce/module/ResSTRING;->email_kingsoft:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f7f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_copy_success:I
 
     const/4 v2, 0x0
 

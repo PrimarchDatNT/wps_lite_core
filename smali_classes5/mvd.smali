@@ -952,7 +952,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1253,12 +1253,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0814bb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_full_sreen_note_selected:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0814bc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_full_sreen_note_unselected:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -1287,7 +1287,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d34
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_ppt_note_selected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1307,7 +1307,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d36
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_ppt_note_unselected:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

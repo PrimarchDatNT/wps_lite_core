@@ -122,7 +122,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/group/home/web/HomeGroupBrowseWebActivity;->b0:Ljava/lang/String;
 
-    const v0, 0x7f121cfb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_add_contact_success:I
 
     const-string v1, "func_text"
 

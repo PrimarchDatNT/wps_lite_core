@@ -13,7 +13,7 @@
 .method public constructor <init>(Landroid/content/Context;Lfzg;)V
     .locals 1
 
-    const v0, 0x7f122786
+    sget v0, Lcom/resouce/module/ResSTRING;->public_quickstyle_shape_outline:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V
@@ -79,13 +79,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e101b    # 1.88834E38f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_divide_grid_text_item_layout:I    # 1.88834E38f
 
     invoke-virtual {v1, v2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b2190
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_vertical_divide_item_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b2ce8
+    sget v0, Lcom/resouce/module/ResID;->ss_colorfilterImageView_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

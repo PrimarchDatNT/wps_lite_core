@@ -33,7 +33,7 @@
 .method public M()I
     .locals 1
 
-    const v0, 0x7f0e045c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->layout_novel_launch_screen:I
 
     return v0
 .end method

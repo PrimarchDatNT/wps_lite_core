@@ -444,11 +444,11 @@
     .line 3
     invoke-virtual {v0, v1, v1}, Ljs4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080722
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_history_version:I
 
-    const v2, 0x7f122262
+    sget v2, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
-    const v3, 0x7f120709
+    sget v3, Lcom/resouce/module/ResSTRING;->en_home_pay_history_version:I
 
     const/4 v4, 0x1
 
@@ -545,7 +545,7 @@
 
     invoke-virtual {v0, v2, v3, v1}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const v1, 0x7f1227fe
+    sget v1, Lcom/resouce/module/ResSTRING;->public_request_login_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -556,7 +556,7 @@
 
     invoke-direct {v1, p0, p1}, Lav7$g;-><init>(Landroid/app/Activity;Ljava/lang/Runnable;)V
 
-    const p0, 0x7f1205de
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 4
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -567,7 +567,7 @@
 
     invoke-direct {p1}, Lav7$f;-><init>()V
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p0, v0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

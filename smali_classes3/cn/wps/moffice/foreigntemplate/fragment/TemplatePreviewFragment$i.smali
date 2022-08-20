@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ca7
+    sget v1, Lcom/resouce/module/ResSTRING;->preview_purchase_use:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -91,7 +91,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121231
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_login_use_now:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

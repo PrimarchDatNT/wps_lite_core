@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060707
+    sget v1, Lcom/resouce/module/ResCOLOR;->wps_novel_recommend_romance:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060713
+    sget v1, Lcom/resouce/module/ResCOLOR;->wps_reader_progress_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

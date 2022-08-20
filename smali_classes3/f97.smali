@@ -41,7 +41,7 @@
 .method public G()I
     .locals 1
 
-    const v0, 0x7f0e03e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_titlebar:I
 
     return v0
 .end method
@@ -52,11 +52,11 @@
     .line 1
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b34b5
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_titlebar_upload_fail_button:I
 
     const/4 v2, 0x1
 
-    const v3, 0x7f081701
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pub_nav_cloud_document_upload_failed:I
 
     const/4 v4, 0x1
 
@@ -263,7 +263,7 @@
     .line 1
     iget-object v0, p0, Lf97;->r:Landroid/widget/TextView;
 
-    const v1, 0x7f1224f3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_multiselect:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -317,12 +317,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -353,7 +353,7 @@
     .line 1
     iget-object v2, p0, Lf97;->r:Landroid/widget/TextView;
 
-    const v3, 0x7f1228e2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_select_tips:I
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -367,7 +367,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1204aa
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -410,7 +410,7 @@
     .line 1
     invoke-super/range {p0 .. p5}, Lmj7;->h(Landroid/app/Activity;Landroid/view/ViewGroup;ILandroid/view/View;Lui7;)V
 
-    const p3, 0x7f0b21a3
+    sget p3, Lcom/resouce/module/ResID;->phone_wpsdrive_multi_select_titlebar:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

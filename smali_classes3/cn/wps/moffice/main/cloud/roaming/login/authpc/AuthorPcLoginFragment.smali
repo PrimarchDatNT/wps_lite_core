@@ -204,7 +204,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b02b5
+    sget v0, Lcom/resouce/module/ResID;->btn_aappl_confirm_login:I
 
     if-ne p1, v0, :cond_2
 
@@ -228,7 +228,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201dd
+    sget v1, Lcom/resouce/module/ResSTRING;->author_pc_login_scan_login:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -270,7 +270,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201d5
+    sget v1, Lcom/resouce/module/ResSTRING;->author_pc_login_confim_login:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -306,7 +306,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1201d7
+    sget v1, Lcom/resouce/module/ResSTRING;->author_pc_login_me_know:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -324,7 +324,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b3101
+    sget v0, Lcom/resouce/module/ResID;->tv_aappl_only_one:I
 
     if-ne p1, v0, :cond_3
 
@@ -342,7 +342,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b301d
+    sget v0, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     if-ne p1, v0, :cond_4
 
@@ -371,7 +371,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p3, 0x7f0e029d
+    sget p3, Lcom/resouce/module/ResLAYOUT;->fragment_author_pc_push_login:I
 
     const/4 v0, 0x0
 
@@ -421,7 +421,7 @@
     .line 5
     invoke-static {p2}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
 
-    const p2, 0x7f0b30ff
+    sget p2, Lcom/resouce/module/ResID;->tv_aappl_device_location:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcLoginFragment;->T:Landroid/widget/TextView;
 
-    const p2, 0x7f0b3100
+    sget p2, Lcom/resouce/module/ResID;->tv_aappl_device_name:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -443,7 +443,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcLoginFragment;->U:Landroid/widget/TextView;
 
-    const p2, 0x7f0b02b5
+    sget p2, Lcom/resouce/module/ResID;->btn_aappl_confirm_login:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -454,7 +454,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcLoginFragment;->X:Landroid/widget/Button;
 
-    const p2, 0x7f0b3101
+    sget p2, Lcom/resouce/module/ResID;->tv_aappl_only_one:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -465,7 +465,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcLoginFragment;->V:Landroid/widget/TextView;
 
-    const p2, 0x7f0b3102
+    sget p2, Lcom/resouce/module/ResID;->tv_aappl_remind_info:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/main/cloud/roaming/login/authpc/AuthorPcLoginFragment;->W:Landroid/widget/TextView;
 
-    const p2, 0x7f0b33eb
+    sget p2, Lcom/resouce/module/ResID;->vtb_titlebar:I
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -499,7 +499,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f08186a
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_close:I
 
     .line 14
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -509,7 +509,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -613,7 +613,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1201dc
+    sget v0, Lcom/resouce/module/ResSTRING;->author_pc_login_please_scan_login:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -632,7 +632,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f1201dd
+    sget v0, Lcom/resouce/module/ResSTRING;->author_pc_login_scan_login:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -104,11 +104,11 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e08fb
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_toolbar_info_layout:I
 
     invoke-virtual {v1, v2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b20e0
+    sget v0, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn_root:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->U:Landroid/view/View;
 
-    const v1, 0x7f0b20e6
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn_root:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->V:Landroid/view/View;
 
-    const v1, 0x7f0b20df
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->a0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20e1
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_logo:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->W:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b20e5
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_show_keyboard_imgbtn:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -171,7 +171,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b2105
+    sget v0, Lcom/resouce/module/ResID;->phone_public_toolbar_info_title:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2104
+    sget v0, Lcom/resouce/module/ResID;->phone_public_toolbar_info_content:I
 
     .line 11
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -193,7 +193,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->I:Lcn/wps/moffice/common/beans/LockableScrollView;
 
-    const v0, 0x7f0b21a1
+    sget v0, Lcom/resouce/module/ResID;->phone_toolbar_content:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -231,7 +231,7 @@
 .method public getBackTitleBar()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b20be
+    sget v0, Lcom/resouce/module/ResID;->phone_public_bottompanem_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

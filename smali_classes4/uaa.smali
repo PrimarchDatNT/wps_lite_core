@@ -32,7 +32,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f121018
+    sget v0, Lcom/resouce/module/ResSTRING;->home_passcode_trun_off:I
 
     .line 2
     invoke-virtual {p0, v0}, Lraa;->t(I)V
@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -153,7 +153,7 @@
     .line 6
     iget-object v1, p0, Lraa;->I:Landroid/content/Context;
 
-    const v3, 0x7f12100a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_passcode_disabled:I
 
     const/4 v4, 0x0
 

@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b86
+    sget v0, Lcom/resouce/module/ResID;->share_longpic:I
 
     if-ne p1, v0, :cond_0
 
@@ -60,7 +60,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v0, 0x7f0b2067
+    sget v0, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     if-ne p1, v0, :cond_1
 
@@ -72,7 +72,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v0, 0x7f0b297e
+    sget v0, Lcom/resouce/module/ResID;->rll_wecha_item:I
 
     if-ne p1, v0, :cond_2
 
@@ -101,7 +101,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b297c
+    sget v0, Lcom/resouce/module/ResID;->rll_qq_item:I
 
     if-ne p1, v0, :cond_3
 
@@ -130,7 +130,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b297d
+    sget v0, Lcom/resouce/module/ResID;->rll_tim_item:I
 
     if-ne p1, v0, :cond_5
 
@@ -175,7 +175,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b297a
+    sget v0, Lcom/resouce/module/ResID;->rll_dingding_item:I
 
     if-ne p1, v0, :cond_6
 
@@ -204,7 +204,7 @@
     goto :goto_1
 
     :cond_6
-    const v0, 0x7f0b297b
+    sget v0, Lcom/resouce/module/ResID;->rll_more_item:I
 
     if-ne p1, v0, :cond_7
 

@@ -144,7 +144,7 @@
 
     move-result v0
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     const/16 v2, 0x8
 
@@ -235,7 +235,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -253,7 +253,7 @@
     .line 7
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2702
+    sget v1, Lcom/resouce/module/ResID;->public_scan_preview_rectify_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -264,7 +264,7 @@
     .line 8
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2704
+    sget v1, Lcom/resouce/module/ResID;->public_scan_rectify_evaluate_nice:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -275,7 +275,7 @@
     .line 9
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2703
+    sget v1, Lcom/resouce/module/ResID;->public_scan_rectify_evaluate_bad:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -286,7 +286,7 @@
     .line 10
     iget-object v0, p0, Le3b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3231    # 1.850233E38f
+    sget v1, Lcom/resouce/module/ResID;->tv_rectify_switch_button:I    # 1.850233E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -364,7 +364,7 @@
     :cond_0
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120494
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_revert_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -375,7 +375,7 @@
     .line 20
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120495
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_success_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -442,7 +442,7 @@
     .line 1
     iget-object v0, p0, Le3b;->l0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1226b1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_preview_file:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -523,7 +523,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120495
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_rectify_success_tips:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

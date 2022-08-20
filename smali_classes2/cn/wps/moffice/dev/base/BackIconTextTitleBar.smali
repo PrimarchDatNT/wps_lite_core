@@ -58,11 +58,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b15
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_back_icon_text_titlebar:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1270
+    sget v0, Lcom/resouce/module/ResID;->image_back_icon:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/dev/base/BackIconTextTitleBar;->B:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/dev/base/BackIconTextTitleBar;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1291
+    sget v0, Lcom/resouce/module/ResID;->image_right_attr:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

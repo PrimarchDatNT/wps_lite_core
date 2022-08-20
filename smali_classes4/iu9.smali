@@ -430,7 +430,7 @@
     .line 10
     iget-object v2, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2e78
+    sget v3, Lcom/resouce/module/ResID;->tag_key_func_name:I
 
     const-string v4, "apps"
 
@@ -523,7 +523,7 @@
     .line 20
     iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v2, 0x7f0b2e77
+    sget v2, Lcom/resouce/module/ResID;->tag_key_data:I
 
     invoke-virtual {v1, v2, p2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -573,7 +573,7 @@
 
     move-result p2
 
-    const v0, 0x7f0e052e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_app_topic_item_layout:I
 
     if-eqz p2, :cond_1
 
@@ -585,7 +585,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e02e1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_topic_item_layout:I
 
     goto :goto_0
 
@@ -598,7 +598,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e02e2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_topic_item_layout_en:I
 
     .line 4
     :goto_0

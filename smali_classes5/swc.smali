@@ -343,7 +343,7 @@
 .method public o(Landroid/view/View;Landroid/view/View;ZII)Z
     .locals 7
 
-    const v6, 0x7f080ce7
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pad_comp_pop_track:I
 
     move-object v0, p0
 
@@ -716,7 +716,7 @@
     .line 12
     iget-object v0, p0, Lswc;->b:Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;
 
-    const v1, 0x7f081318
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_bg_black:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;->P(I)V
 

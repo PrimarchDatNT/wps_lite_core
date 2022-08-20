@@ -69,13 +69,13 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e10fe
+    sget p3, Lcom/resouce/module/ResLAYOUT;->writer_tab_group_switcher_layout:I
 
     const/4 v0, 0x1
 
     invoke-virtual {p2, p3, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p2, 0x7f0b13de
+    sget p2, Lcom/resouce/module/ResID;->item_selected_bg:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/TabGroupSwitcher;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2e21
+    sget p2, Lcom/resouce/module/ResID;->tab_content:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/TabGroupSwitcher;->U:Lqf3;
 
-    const p2, 0x7f01008c
+    sget p2, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_in:I
 
     .line 10
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -111,7 +111,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/TabGroupSwitcher;->V:Landroid/view/animation/Animation;
 
-    const p2, 0x7f01008d
+    sget p2, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_out:I
 
     .line 11
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -252,7 +252,7 @@
 
     invoke-virtual {p1, p0}, Lcn/wps/moffice/writer/shell/pad/titletoolbar/view/TabItem;->setOnTabClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p2, 0x7f080fb4
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_titlebar_menu_text_hover_background:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V

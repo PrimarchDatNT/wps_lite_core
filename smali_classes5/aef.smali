@@ -146,27 +146,27 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122953
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_as_addition:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122955
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_as_appendix_new:I
 
     :goto_0
     sput v0, Laef;->S:I
 
-    const v0, 0x7f1224dd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_more_share_way:I
 
     .line 2
     sput v0, Laef;->T:I
 
-    const v0, 0x7f121155
+    sget v0, Lcom/resouce/module/ResSTRING;->home_share_panel_linkshare:I
 
     .line 3
     sput v0, Laef;->U:I
 
-    const v0, 0x7f122f27
+    sget v0, Lcom/resouce/module/ResSTRING;->share_to:I
 
     .line 4
     sput v0, Laef;->V:I
@@ -178,37 +178,37 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f12299d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f122968
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_file:I
 
     :goto_1
     sput v0, Laef;->W:I
 
-    const v0, 0x7f1212e6
+    sget v0, Lcom/resouce/module/ResSTRING;->infoflow_share_sendtopc:I
 
     .line 6
     sput v0, Laef;->X:I
 
-    const v0, 0x7f1223fc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_share_invide_cooperation_edit:I
 
     .line 7
     sput v0, Laef;->Y:I
 
-    const v0, 0x7f1223ff
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_share_shareplay:I
 
     .line 8
     sput v0, Laef;->Z:I
 
-    const v0, 0x7f122959
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_contacts:I
 
     .line 9
     sput v0, Laef;->a0:I
 
-    const v0, 0x7f12291f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_to_pc_edit:I
 
     .line 10
     sput v0, Laef;->b0:I
@@ -242,7 +242,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e3a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_panel_new_tip_ext_item:I
 
     const/4 v2, 0x0
 
@@ -257,7 +257,7 @@
     .line 4
     invoke-virtual {v0, p4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b2b75
+    sget p3, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 5
     invoke-virtual {v0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p1, 0x7f0b2ba8
+    sget p1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2b7a
+    sget p1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -306,7 +306,7 @@
 
     invoke-virtual {p1, p7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b2b74
+    sget p1, Lcom/resouce/module/ResID;->share_hot_tips:I
 
     .line 10
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,12 +365,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0b71
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_horizonal:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0b72
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_horizonal_oversea:I
 
     :goto_0
     const/4 v2, 0x0
@@ -380,7 +380,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -389,7 +389,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -464,7 +464,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b6f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_commonlyuses_item_horizonal:I
 
     const/4 v2, 0x0
 
@@ -472,7 +472,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -481,7 +481,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2ba8
+    sget v3, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -598,7 +598,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f43
+    sget v1, Lcom/resouce/module/ResLAYOUT;->share_item_tag:I
 
     const/4 v2, 0x0
 
@@ -606,7 +606,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e7f
+    sget v1, Lcom/resouce/module/ResID;->tag_name:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -724,7 +724,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 4
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -784,7 +784,7 @@
 
     sget-object v3, Lydf;->V:Lydf;
 
-    const v4, 0x7f1205ee
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     const/4 v5, 0x1
 
@@ -1230,7 +1230,7 @@
     return v0
 
     :catch_0
-    const p1, 0x7f1205ee
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 16
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -1258,7 +1258,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f122954
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_as_appendix:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1331,7 +1331,7 @@
 
     if-nez v0, :cond_0
 
-    const v1, 0x7f1205eb
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1351,7 +1351,7 @@
 
     if-eqz p0, :cond_0
 
-    const v0, 0x7f0b1b12
+    sget v0, Lcom/resouce/module/ResID;->online_edit_avatars_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1373,7 +1373,7 @@
 .method public static Q(Landroid/content/Context;Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2b68
+    sget v0, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1393,7 +1393,7 @@
 .method public static R(Landroid/view/View;Lydf;Ljava/lang/String;Laef$g0;Landroid/view/View$OnClickListener;)Z
     .locals 9
 
-    const v0, 0x7f0b1601
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1438,7 +1438,7 @@
 
     move-result p1
 
-    const p1, 0x7f12299f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_to_friend:I
 
     .line 6
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -1487,7 +1487,7 @@
 
     move-result-object p1
 
-    const p4, 0x7f12290f
+    sget p4, Lcom/resouce/module/ResSTRING;->public_send_link_to_moment:I
 
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1509,7 +1509,7 @@
 
     if-eqz p1, :cond_2
 
-    const v3, 0x7f1228f4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_file_to_friend:I
 
     .line 12
     sget v4, Laef;->r:I
@@ -1527,7 +1527,7 @@
     goto/16 :goto_5
 
     :cond_2
-    const p1, 0x7f1228f4
+    sget p1, Lcom/resouce/module/ResSTRING;->public_send_file_to_friend:I
 
     .line 13
     invoke-static {p0, p1}, Laef;->M(Landroid/view/View;I)Ljava/lang/String;
@@ -1550,9 +1550,9 @@
     :cond_3
     sget-object v2, Lydf;->V:Lydf;
 
-    const p4, 0x7f1229a2
+    sget p4, Lcom/resouce/module/ResSTRING;->public_share_to_qq_friend:I
 
-    const v3, 0x7f1228f5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_send_file_to_qq_friend:I
 
     if-ne p1, v2, :cond_6
 
@@ -1576,7 +1576,7 @@
     goto :goto_1
 
     :cond_4
-    const p4, 0x7f1228f5
+    sget p4, Lcom/resouce/module/ResSTRING;->public_send_file_to_qq_friend:I
 
     .line 16
     :goto_1
@@ -1630,7 +1630,7 @@
     goto :goto_3
 
     :cond_7
-    const p4, 0x7f1228f5
+    sget p4, Lcom/resouce/module/ResSTRING;->public_send_file_to_qq_friend:I
 
     .line 21
     :goto_3
@@ -1682,11 +1682,11 @@
 
     if-ne p1, v2, :cond_c
 
-    const p1, 0x7f1228f2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_send_file_to_dingding:I
 
     if-eqz v1, :cond_a
 
-    const p1, 0x7f12299e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_to_dingding:I
 
     .line 26
     :cond_a
@@ -1735,11 +1735,11 @@
 
     if-ne p1, v2, :cond_f
 
-    const p1, 0x7f1228f7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_send_file_to_woa:I
 
     if-eqz v1, :cond_d
 
-    const p1, 0x7f1229a7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_to_woa:I
 
     .line 31
     :cond_d
@@ -1852,13 +1852,13 @@
 
     move-result v4
 
-    const v5, 0x7f0816cf
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_dingding:I
 
-    const v6, 0x7f121fd3
+    sget v6, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
-    const v7, 0x7f0816d7
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_woa:I
 
-    const v8, 0x7f122c0d
+    sget v8, Lcom/resouce/module/ResSTRING;->public_woa:I
 
     const-string v9, "com.alibaba.android.rimet"
 
@@ -1925,9 +1925,9 @@
     :goto_2
     sget-object v13, Lydf;->T:Lydf;
 
-    const v14, 0x7f1212e8
+    sget v14, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
-    const v15, 0x7f0816d6
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_wechat:I
 
     invoke-static {v2, v13, v14, v15, v1}, Laef;->B(Lcn/wps/moffice/common/beans/phone/grid/FlowScrollView;Lydf;IILaef$g0;)V
 
@@ -1949,9 +1949,9 @@
     .line 10
     sget-object v13, Lydf;->V:Lydf;
 
-    const v14, 0x7f1212e5
+    sget v14, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
-    const v15, 0x7f0816d3
+    sget v15, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_qq:I
 
     invoke-static {v2, v13, v14, v15, v1}, Laef;->B(Lcn/wps/moffice/common/beans/phone/grid/FlowScrollView;Lydf;IILaef$g0;)V
 
@@ -2025,7 +2025,7 @@
 
     sget v6, Laef;->a0:I
 
-    const v7, 0x7f0816cd
+    sget v7, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_contact:I
 
     new-instance v8, Laef$e;
 
@@ -2039,7 +2039,7 @@
 
     move-result v5
 
-    const v6, 0x7f0816cc
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_computer:I
 
     if-eqz v5, :cond_7
 
@@ -2182,7 +2182,7 @@
     :goto_5
     const/4 v0, 0x0
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 32
     sget v4, Laef;->v:I
@@ -2274,7 +2274,7 @@
 .method public static U(Ljava/lang/String;Landroid/view/View;Laef$g0;Z)Z
     .locals 10
 
-    const v0, 0x7f0b1602
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container_last_vertical:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2340,7 +2340,7 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f0e0b6d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_big_item:I
 
     .line 9
     sget v2, Laef;->o:I
@@ -2350,21 +2350,21 @@
     .line 10
     invoke-static {v0}, Laef;->o(Landroid/view/ViewGroup;)V
 
-    const p3, 0x7f0e0b6e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_item:I
 
     .line 11
     sget v1, Laef;->n:I
 
     move v5, v1
 
-    const v2, 0x7f0e0b6e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_item:I
 
     goto :goto_0
 
     :cond_2
     move v5, v2
 
-    const v2, 0x7f0e0b6d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_big_item:I
 
     :goto_0
     const/4 v3, 0x0
@@ -2473,9 +2473,9 @@
 
     move-result v1
 
-    const v2, 0x7f121fd3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
-    const v3, 0x7f122c0d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_woa:I
 
     const-string v4, "com.alibaba.android.rimet"
 
@@ -2546,7 +2546,7 @@
     :goto_2
     sget-object v8, Lydf;->T:Lydf;
 
-    const v9, 0x7f1212e8
+    sget v9, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     sget v10, Ljef;->c:I
 
@@ -2570,7 +2570,7 @@
     .line 10
     sget-object v8, Lydf;->V:Lydf;
 
-    const v9, 0x7f1212e5
+    sget v9, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     sget v10, Ljef;->d:I
 
@@ -2802,7 +2802,7 @@
 .method public static X(Ljava/lang/String;Landroid/view/View;Laef$g0;Landroid/view/View$OnClickListener;)V
     .locals 10
 
-    const p3, 0x7f0b1601
+    sget p3, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     .line 1
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2817,7 +2817,7 @@
     .line 3
     invoke-static {p1, p0, p2}, Laef;->d0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
 
-    const v0, 0x7f0b2ff2
+    sget v0, Lcom/resouce/module/ResID;->title_container:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2869,7 +2869,7 @@
     .line 10
     sget-object v4, Lydf;->c0:Lydf;
 
-    const v5, 0x7f122965
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     sget v6, Laef;->u:I
 
@@ -2884,13 +2884,13 @@
 
     move-result-object v4
 
-    const v5, 0x7f1224c5
+    sget v5, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
-    const v6, 0x7f1223dd
+    sget v6, Lcom/resouce/module/ResSTRING;->public_line:I
 
-    const v7, 0x7f1205f4
+    sget v7, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
-    const v8, 0x7f122c05
+    sget v8, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     if-eqz v4, :cond_4
 
@@ -3040,7 +3040,7 @@
     :goto_2
     const/4 v0, 0x0
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 25
     sget v2, Laef;->v:I
@@ -3056,7 +3056,7 @@
 .method public static Y(Landroid/app/Activity;Ljava/lang/String;Landroid/view/View;Laef$g0;Ljava/lang/Runnable;Lff4$d;)Landroid/view/View;
     .locals 8
 
-    const v0, 0x7f0b1601
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3071,7 +3071,7 @@
     .line 3
     invoke-static {p2, p1, p3}, Laef;->a0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
 
-    const v1, 0x7f0b2ff2
+    sget v1, Lcom/resouce/module/ResID;->title_container:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3123,7 +3123,7 @@
     :cond_0
     sget-object p0, Lydf;->c0:Lydf;
 
-    const p1, 0x7f122965
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     sget p2, Laef;->u:I
 
@@ -3139,7 +3139,7 @@
     .line 12
     sget-object p0, Lydf;->b0:Lydf;
 
-    const p1, 0x7f1205f4
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
     sget p2, Laef;->w:I
 
@@ -3200,11 +3200,11 @@
 
     move-result-object p4
 
-    const p5, 0x7f1223dd
+    sget p5, Lcom/resouce/module/ResSTRING;->public_line:I
 
-    const v1, 0x7f1224c5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
-    const v2, 0x7f122c05
+    sget v2, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     if-eqz p4, :cond_4
 
@@ -3290,7 +3290,7 @@
     :goto_1
     const/4 p0, 0x0
 
-    const p1, 0x7f1224d9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 26
     sget p2, Laef;->v:I
@@ -3304,7 +3304,7 @@
 .method public static Z(Ljava/lang/String;Landroid/view/View;Laef$g0;Landroid/view/View$OnClickListener;)V
     .locals 12
 
-    const v0, 0x7f0b1601
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3319,7 +3319,7 @@
     .line 3
     invoke-static {p1, p0, p2}, Laef;->a0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
 
-    const v1, 0x7f0b2ff2
+    sget v1, Lcom/resouce/module/ResID;->title_container:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3335,7 +3335,7 @@
 
     move-result v1
 
-    const v3, 0x7f1224d9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_more:I
 
     const/4 v4, 0x0
 
@@ -3346,7 +3346,7 @@
     .line 6
     sget-object v5, Lydf;->T:Lydf;
 
-    const v6, 0x7f1212e8
+    sget v6, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     sget v7, Laef;->r:I
 
@@ -3370,7 +3370,7 @@
     .line 8
     sget-object v1, Lydf;->V:Lydf;
 
-    const v5, 0x7f1212e5
+    sget v5, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     sget v6, Laef;->t:I
 
@@ -3382,7 +3382,7 @@
     :cond_0
     sget-object v5, Lydf;->W:Lydf;
 
-    const v6, 0x7f1212e7
+    sget v6, Lcom/resouce/module/ResSTRING;->infoflow_share_tim:I
 
     sget v7, Laef;->s:I
 
@@ -3408,7 +3408,7 @@
     .line 11
     sget-object v5, Lydf;->Z:Lydf;
 
-    const v6, 0x7f121fd3
+    sget v6, Lcom/resouce/module/ResSTRING;->public_dingding:I
 
     sget v7, Laef;->G:I
 
@@ -3454,7 +3454,7 @@
 
     if-eqz p0, :cond_d
 
-    const p0, 0x7f0b0d27
+    sget p0, Lcom/resouce/module/ResID;->file_size_reduce:I
 
     .line 16
     invoke-virtual {p1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3511,7 +3511,7 @@
     .line 24
     sget-object v6, Lydf;->c0:Lydf;
 
-    const v7, 0x7f122965
+    sget v7, Lcom/resouce/module/ResSTRING;->public_share_email:I
 
     sget v8, Laef;->u:I
 
@@ -3526,13 +3526,13 @@
 
     move-result-object v6
 
-    const v7, 0x7f1224c5
+    sget v7, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
-    const v8, 0x7f1223dd
+    sget v8, Lcom/resouce/module/ResSTRING;->public_line:I
 
-    const v9, 0x7f1205f4
+    sget v9, Lcom/resouce/module/ResSTRING;->documentmanager_open_storage:I
 
-    const v10, 0x7f122c05
+    sget v10, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     if-eqz v6, :cond_8
 
@@ -3705,7 +3705,7 @@
 .method public static a0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
     .locals 3
 
-    const v0, 0x7f0b2ff2
+    sget v0, Lcom/resouce/module/ResID;->title_container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3717,7 +3717,7 @@
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b2fcd
+    sget v2, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3771,13 +3771,13 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f1229a2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_share_to_qq_friend:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
 
     :cond_3
-    const p1, 0x7f0b160c
+    sget p1, Lcom/resouce/module/ResID;->link_share_item_permission_and_security_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3852,7 +3852,7 @@
 .method public static b0(Ljava/lang/String;Landroid/view/View;Laef$g0;)Z
     .locals 11
 
-    const v0, 0x7f0b1604
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container_shareplay:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3967,7 +3967,7 @@
     :goto_3
     if-eqz p0, :cond_5
 
-    const v2, 0x7f0e0b6e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_item:I
 
     const/4 v3, 0x0
 
@@ -4011,7 +4011,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b6f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_commonlyuses_item_horizonal:I
 
     const/4 v2, 0x0
 
@@ -4019,7 +4019,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4028,7 +4028,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4168,7 +4168,7 @@
 .method public static c0(Landroid/app/Activity;Ljava/lang/String;Landroid/view/View;Laef$g0;Ljava/lang/Runnable;Lff4$d;Z)Landroid/view/View;
     .locals 1
 
-    const p4, 0x7f0b1601
+    sget p4, Lcom/resouce/module/ResID;->link_share_child_container:I
 
     .line 1
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4183,7 +4183,7 @@
     .line 3
     invoke-static {p2, p1, p3}, Laef;->a0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
 
-    const p5, 0x7f0b2ff2
+    sget p5, Lcom/resouce/module/ResID;->title_container:I
 
     .line 4
     invoke-virtual {p2, p5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4232,7 +4232,7 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -4255,7 +4255,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f070725
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_ppt_panel_content_left_right_space:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -4312,7 +4312,7 @@
 .method public static d0(Landroid/view/View;Ljava/lang/String;Laef$g0;)V
     .locals 0
 
-    const p1, 0x7f0b2ff2
+    sget p1, Lcom/resouce/module/ResID;->title_container:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4324,7 +4324,7 @@
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b2fcd
+    sget p1, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4360,7 +4360,7 @@
 .method public static e(Ljava/lang/String;Landroid/view/View;Laef$g0;Z)Z
     .locals 10
 
-    const v0, 0x7f0b1602
+    sget v0, Lcom/resouce/module/ResID;->link_share_child_container_last_vertical:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4383,7 +4383,7 @@
 
     if-eqz v2, :cond_1
 
-    const v0, 0x7f0e0b6d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_big_item:I
 
     .line 4
     sget v5, Laef;->q:I
@@ -4393,14 +4393,14 @@
     .line 5
     invoke-static {v1}, Laef;->o(Landroid/view/ViewGroup;)V
 
-    const p3, 0x7f0e0b6e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_item:I
 
-    const v2, 0x7f0e0b6e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_item:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e0b6d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_common_share_edit_panel_big_item:I
 
     :goto_0
     const/4 v3, 0x0
@@ -4493,7 +4493,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e38
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_panel_ext_item:I
 
     const/4 v2, 0x0
 
@@ -4508,7 +4508,7 @@
     .line 4
     invoke-virtual {v0, p4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b2b75
+    sget p3, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 5
     invoke-virtual {v0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4519,7 +4519,7 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p1, 0x7f0b2ba8
+    sget p1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4530,7 +4530,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2b7a
+    sget p1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4638,7 +4638,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -4646,7 +4646,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4655,7 +4655,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4664,7 +4664,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2b79
+    sget v3, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4718,7 +4718,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -4726,7 +4726,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4735,7 +4735,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4744,7 +4744,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2b79
+    sget v3, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4756,7 +4756,7 @@
     .line 5
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v3, 0x7f0b15b1
+    sget v3, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4811,7 +4811,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -4819,7 +4819,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b68
+    sget v1, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4828,7 +4828,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2b80
+    sget v2, Lcom/resouce/module/ResID;->share_item_introduce:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4897,7 +4897,7 @@
     invoke-virtual {v2, v5}, Landroid/widget/TextView;->setVisibility(I)V
 
     :cond_2
-    const v2, 0x7f0b2b75
+    sget v2, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4906,7 +4906,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b2ba8
+    sget v4, Lcom/resouce/module/ResID;->share_title:I
 
     .line 11
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4915,7 +4915,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b2b79
+    sget v5, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4971,7 +4971,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -4979,7 +4979,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b68
+    sget v1, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4988,7 +4988,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2b80
+    sget v3, Lcom/resouce/module/ResID;->share_item_introduce:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5055,7 +5055,7 @@
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
     :cond_2
-    const v2, 0x7f0b2b75
+    sget v2, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5064,7 +5064,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2ba8
+    sget v3, Lcom/resouce/module/ResID;->share_title:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5073,7 +5073,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v5, 0x7f0b15b1
+    sget v5, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5082,7 +5082,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b2b79
+    sget v6, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 13
     invoke-virtual {v0, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5197,7 +5197,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -5205,7 +5205,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5214,7 +5214,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2ba8
+    sget v3, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5223,7 +5223,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b2b79
+    sget v4, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5235,7 +5235,7 @@
     .line 5
     invoke-virtual {v4, v5}, Landroid/view/View;->setVisibility(I)V
 
-    const v4, 0x7f0b1849
+    sget v4, Lcom/resouce/module/ResID;->member_iv:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5270,7 +5270,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     :try_start_0
     const-string v2, "share_tim_download"
@@ -5300,7 +5300,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1206de
+    sget v5, Lcom/resouce/module/ResSTRING;->download_tim_url:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5361,7 +5361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -5369,7 +5369,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5378,7 +5378,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5387,7 +5387,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2b79
+    sget v3, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5398,7 +5398,7 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v3, 0x7f0b2b68
+    sget v3, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5488,7 +5488,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -5496,7 +5496,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5505,7 +5505,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5514,7 +5514,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2b79
+    sget v3, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5525,7 +5525,7 @@
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
-    const v3, 0x7f0b2b68
+    sget v3, Lcom/resouce/module/ResID;->share_export_img_recommend:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5598,7 +5598,7 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0605f0
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBoldLineColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -6055,7 +6055,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2b75
+    sget v0, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6064,7 +6064,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2ba8
+    sget v1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6077,7 +6077,7 @@
 
     if-eqz p7, :cond_0
 
-    const v3, 0x7f0b2b80
+    sget v3, Lcom/resouce/module/ResID;->share_item_introduce:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6093,7 +6093,7 @@
     invoke-virtual {v3, p7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
-    const p7, 0x7f0b2b79
+    sget p7, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 7
     invoke-virtual {p1, p7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6303,7 +6303,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -6311,7 +6311,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6320,7 +6320,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6333,7 +6333,7 @@
 
     if-eqz p6, :cond_0
 
-    const v4, 0x7f0b2b80
+    sget v4, Lcom/resouce/module/ResID;->share_item_introduce:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6349,7 +6349,7 @@
     invoke-virtual {v4, p6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
-    const p6, 0x7f0b2b79
+    sget p6, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 7
     invoke-virtual {v0, p6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6407,7 +6407,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b70
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_share_panel_item_default:I
 
     const/4 v2, 0x0
 
@@ -6415,7 +6415,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6424,7 +6424,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6433,14 +6433,14 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b0d27
+    sget v3, Lcom/resouce/module/ResID;->file_size_reduce:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b2b79
+    sget v4, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6691,7 +6691,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d0a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_common_share_panel_item_horizonal:I
 
     const/4 v2, 0x0
 
@@ -6699,7 +6699,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6708,7 +6708,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -6869,7 +6869,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f1205ee
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     .line 1
     :try_start_0
@@ -6971,7 +6971,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122950
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7102,7 +7102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e39
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_panel_new_ext_item:I
 
     const/4 v2, 0x0
 
@@ -7117,7 +7117,7 @@
     .line 4
     invoke-virtual {v0, p4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b2b75
+    sget p3, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 5
     invoke-virtual {v0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7128,7 +7128,7 @@
 
     invoke-virtual {p3, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const p1, 0x7f0b2ba8
+    sget p1, Lcom/resouce/module/ResID;->share_title:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7139,7 +7139,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b2b7a
+    sget p1, Lcom/resouce/module/ResID;->share_item_ext:I
 
     .line 7
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7222,7 +7222,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d0a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_common_share_panel_item_horizonal:I
 
     const/4 v2, 0x0
 
@@ -7230,7 +7230,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7239,7 +7239,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b2ba8
+    sget v2, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7303,7 +7303,7 @@
 .method public static y0(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b1b12
+    sget v0, Lcom/resouce/module/ResID;->online_edit_avatars_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7330,7 +7330,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0e0b6c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_common_kdocs_logo:I
 
     invoke-virtual {p0, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -7350,7 +7350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d0a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_new_common_share_panel_item_horizonal:I
 
     const/4 v2, 0x0
 
@@ -7358,7 +7358,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b75
+    sget v1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7367,7 +7367,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2ba8
+    sget v3, Lcom/resouce/module/ResID;->share_title:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7419,7 +7419,7 @@
     .line 6
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    const v1, 0x7f1224d9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_more:I
 
     .line 7
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(I)V
@@ -7487,7 +7487,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b1b12
+    sget v0, Lcom/resouce/module/ResID;->online_edit_avatars_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -7588,7 +7588,7 @@
 
     if-le p0, v3, :cond_5
 
-    const p0, 0x7f081c05
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_share_invite_edit_more:I
 
     .line 11
     invoke-static {v0, p0, v2}, Laef;->u(Landroid/widget/FrameLayout;II)V

@@ -169,7 +169,7 @@
 
     move-result v0
 
-    const v1, 0x7f121c1d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_launch_version_low:I
 
     const/4 v2, 0x1
 
@@ -187,7 +187,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121c1e
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_unsupport:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -217,7 +217,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121c1c
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_join_version_low:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -247,7 +247,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     const/4 v1, 0x0
 

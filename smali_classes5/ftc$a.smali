@@ -63,7 +63,7 @@
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b29f0
+    sget v5, Lcom/resouce/module/ResID;->saveas_item:I
 
     if-ne p1, v5, :cond_1
 
@@ -152,7 +152,7 @@
     goto/16 :goto_4
 
     :cond_1
-    const v5, 0x7f0b056c
+    sget v5, Lcom/resouce/module/ResID;->convert_pdf_item:I
 
     if-ne p1, v5, :cond_2
 
@@ -164,7 +164,7 @@
     goto/16 :goto_4
 
     :cond_2
-    const v5, 0x7f0b2ba2
+    sget v5, Lcom/resouce/module/ResID;->share_send_item:I
 
     if-ne p1, v5, :cond_3
 
@@ -176,7 +176,7 @@
     goto/16 :goto_4
 
     :cond_3
-    const v5, 0x7f0b1777
+    sget v5, Lcom/resouce/module/ResID;->long_pic_item:I
 
     if-ne p1, v5, :cond_4
 
@@ -188,7 +188,7 @@
     goto/16 :goto_4
 
     :cond_4
-    const v5, 0x7f0b0d38
+    sget v5, Lcom/resouce/module/ResID;->file_transfer_item:I
 
     if-ne p1, v5, :cond_5
 
@@ -200,7 +200,7 @@
     goto/16 :goto_4
 
     :cond_5
-    const v5, 0x7f0b251a
+    sget v5, Lcom/resouce/module/ResID;->print_item:I
 
     if-ne p1, v5, :cond_6
 
@@ -212,7 +212,7 @@
     goto/16 :goto_4
 
     :cond_6
-    const v5, 0x7f0b1000
+    sget v5, Lcom/resouce/module/ResID;->history_version_item:I
 
     if-ne p1, v5, :cond_7
 
@@ -224,7 +224,7 @@
     goto/16 :goto_4
 
     :cond_7
-    const v5, 0x7f0b0749
+    sget v5, Lcom/resouce/module/ResID;->docinfo_item:I
 
     if-ne p1, v5, :cond_8
 
@@ -236,7 +236,7 @@
     goto/16 :goto_4
 
     :cond_8
-    const v5, 0x7f0b0ca4
+    sget v5, Lcom/resouce/module/ResID;->feedback_item:I
 
     if-ne p1, v5, :cond_9
 
@@ -248,7 +248,7 @@
     goto/16 :goto_4
 
     :cond_9
-    const v5, 0x7f0b2556
+    sget v5, Lcom/resouce/module/ResID;->projection_item:I
 
     if-ne p1, v5, :cond_a
 
@@ -260,7 +260,7 @@
     goto/16 :goto_4
 
     :cond_a
-    const v5, 0x7f0b2b90
+    sget v5, Lcom/resouce/module/ResID;->share_play_item:I
 
     if-ne p1, v5, :cond_b
 
@@ -272,7 +272,7 @@
     goto/16 :goto_4
 
     :cond_b
-    const v5, 0x7f0b1d4d
+    sget v5, Lcom/resouce/module/ResID;->pdf2pics_item:I
 
     if-ne p1, v5, :cond_c
 
@@ -284,7 +284,7 @@
     goto/16 :goto_4
 
     :cond_c
-    const v5, 0x7f0b0c26
+    sget v5, Lcom/resouce/module/ResID;->export_pic_pdf_item:I
 
     if-ne p1, v5, :cond_d
 
@@ -296,9 +296,9 @@
     goto/16 :goto_4
 
     :cond_d
-    const v5, 0x7f0b2baf
+    sget v5, Lcom/resouce/module/ResID;->share_type_0_img:I
 
-    const v6, 0x7f1205ee
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     if-ne p1, v5, :cond_10
 
@@ -376,7 +376,7 @@
     goto/16 :goto_4
 
     :cond_10
-    const v5, 0x7f0b2bb0
+    sget v5, Lcom/resouce/module/ResID;->share_type_1_img:I
 
     if-ne p1, v5, :cond_17
 
@@ -588,7 +588,7 @@
     goto/16 :goto_4
 
     :cond_17
-    const v1, 0x7f0b2bb1
+    sget v1, Lcom/resouce/module/ResID;->share_type_2_img:I
 
     const-string v5, "whatsapp"
 
@@ -750,7 +750,7 @@
     goto/16 :goto_4
 
     :cond_1c
-    const v1, 0x7f0b2bb2
+    sget v1, Lcom/resouce/module/ResID;->share_type_3_img:I
 
     if-ne p1, v1, :cond_22
 
@@ -951,7 +951,7 @@
     goto :goto_4
 
     :cond_22
-    const v0, 0x7f0b2bb4
+    sget v0, Lcom/resouce/module/ResID;->share_type_more_img:I
 
     if-ne p1, v0, :cond_23
 
@@ -963,7 +963,7 @@
     goto :goto_4
 
     :cond_23
-    const v0, 0x7f0b18fd
+    sget v0, Lcom/resouce/module/ResID;->move_to_secret_folder_item:I
 
     if-ne p1, v0, :cond_24
 
@@ -1004,7 +1004,7 @@
     goto :goto_4
 
     :cond_24
-    const v0, 0x7f0b2228
+    sget v0, Lcom/resouce/module/ResID;->picfunc_item:I
 
     if-ne p1, v0, :cond_25
 
@@ -1020,7 +1020,7 @@
     goto :goto_4
 
     :cond_25
-    const v0, 0x7f0b1f1d
+    sget v0, Lcom/resouce/module/ResID;->pdf_set_password_item:I
 
     if-ne p1, v0, :cond_26
 

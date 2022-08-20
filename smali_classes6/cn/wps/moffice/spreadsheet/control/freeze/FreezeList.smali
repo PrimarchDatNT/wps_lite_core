@@ -86,13 +86,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01f6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_freeze_dialog:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b0a63
+    sget v0, Lcom/resouce/module/ResID;->et_freeze_list_item_cell:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/freeze/FreezeList;->B:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0a6a
+    sget v0, Lcom/resouce/module/ResID;->et_freeze_list_item_row:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/freeze/FreezeList;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0a65
+    sget v0, Lcom/resouce/module/ResID;->et_freeze_list_item_col:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

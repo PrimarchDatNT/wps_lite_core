@@ -165,7 +165,7 @@
     :cond_0
     iget-object p1, p0, Llfa;->b:Landroid/app/Activity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

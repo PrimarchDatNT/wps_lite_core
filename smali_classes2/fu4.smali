@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0de3
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_premium_font_layout:I
 
     const/4 v0, 0x0
 
@@ -96,7 +96,7 @@
 
     iput-object p1, p0, Lfu4;->d:Landroid/view/View;
 
-    const p2, 0x7f0b24c6
+    sget p2, Lcom/resouce/module/ResID;->premium_font_gridview:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -284,7 +284,7 @@
     .line 6
     iget-object v0, p0, Lfu4;->b:Landroid/app/Activity;
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v2, 0x0
 
@@ -364,7 +364,7 @@
     .line 6
     iget-object v0, p0, Lfu4;->b:Landroid/app/Activity;
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v2, 0x0
 
@@ -511,7 +511,7 @@
     .line 8
     iget-object p1, p0, Lfu4;->d:Landroid/view/View;
 
-    const v0, 0x7f0b01f6
+    sget v0, Lcom/resouce/module/ResID;->bar_block:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

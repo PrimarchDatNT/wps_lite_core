@@ -1334,7 +1334,7 @@
     move-object v3, v2
 
     :goto_3
-    const v4, 0x7f121f86
+    sget v4, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_get_new_file_template_failed:I
 
     .line 27
     :try_start_3

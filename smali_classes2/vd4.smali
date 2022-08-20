@@ -158,7 +158,7 @@
 
     if-eqz v0, :cond_0
 
-    const p0, 0x7f081666
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_cooperation_file_word:I
 
     return p0
 
@@ -170,7 +170,7 @@
 
     if-eqz v0, :cond_1
 
-    const p0, 0x7f081667
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_cooperation_file_xls:I
 
     return p0
 
@@ -182,7 +182,7 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f081665
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_cooperation_file_ppt:I
 
     return p0
 
@@ -194,12 +194,12 @@
 
     if-eqz p0, :cond_3
 
-    const p0, 0x7f081664
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_cooperation_file_pdf:I
 
     return p0
 
     :cond_3
-    const p0, 0x7f081686
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_unknow:I
 
     return p0
 .end method
@@ -805,7 +805,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 2
     invoke-static {p0, v0}, Lbih;->r(Landroid/content/Context;I)V
@@ -813,7 +813,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122592
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_cooperation_failure:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

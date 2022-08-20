@@ -121,12 +121,12 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f122b75
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_warning_title:I
 
     .line 8
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f123263
+    sget v1, Lcom/resouce/module/ResSTRING;->wpscloud_upload_now:I
 
     .line 9
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$c$c;
@@ -137,7 +137,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122b76
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_net_with_wift:I
 
     new-instance v3, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$c$b;
 
@@ -148,7 +148,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lcn/wps/moffice/main/cloud/drive/view/controler/addFile/extlibs/AddFileHelper$c$a;
 

@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f48
+    sget v1, Lcom/resouce/module/ResSTRING;->signed_server_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123065
+    sget v2, Lcom/resouce/module/ResSTRING;->tempalate_server_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212f3
+    sget v1, Lcom/resouce/module/ResSTRING;->invite_user_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120ddb
+    sget v2, Lcom/resouce/module/ResSTRING;->gp_font_host:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -352,7 +352,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12011c
+    sget p2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1250,7 +1250,7 @@
 
     invoke-virtual {v0, v2, p1}, Lgnb;->b(Ljava/lang/String;Ljava/lang/String;)Lgnb;
 
-    const p1, 0x7f12011c
+    sget p1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 5
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

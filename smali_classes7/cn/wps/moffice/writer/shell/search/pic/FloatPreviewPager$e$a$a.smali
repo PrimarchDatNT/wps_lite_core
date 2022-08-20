@@ -53,12 +53,12 @@
 
     invoke-direct {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f081caa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_tips_warning_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120247
+    sget v1, Lcom/resouce/module/ResSTRING;->chart_NotSupportedPic_bmw:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;

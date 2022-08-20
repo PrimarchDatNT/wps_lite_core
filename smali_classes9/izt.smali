@@ -25,7 +25,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f040139
+    sget v2, Lcom/resouce/module/ResATTR;->colorPrimary:I
 
     const/4 v3, 0x0
 
@@ -36,7 +36,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f04013c
+    sget v1, Lcom/resouce/module/ResATTR;->colorPrimaryVariant:I
 
     aput v1, v0, v3
 
@@ -119,7 +119,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0402be
+    sget v0, Lcom/resouce/module/ResATTR;->isMaterialTheme:I
 
     invoke-virtual {p3, v0, p1, p2}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 

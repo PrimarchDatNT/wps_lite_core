@@ -115,7 +115,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0fd5
+    sget p2, Lcom/resouce/module/ResLAYOUT;->top_module_view:I
 
     const/4 v0, 0x0
 
@@ -125,7 +125,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b01ea
+    sget p2, Lcom/resouce/module/ResID;->banner_cycle_view:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b036c
+    sget p2, Lcom/resouce/module/ResID;->category_grid_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b2dd7    # 1.850007E38f
+    sget p2, Lcom/resouce/module/ResID;->subject_view:I    # 1.850007E38f
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
 
     iget-object p2, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mSubjectsView:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0e0fd7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->top_module_view_subject:I
 
     const/4 v1, 0x1
 
@@ -192,7 +192,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b19e8
+    sget p2, Lcom/resouce/module/ResID;->new_category_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b1802
+    sget p2, Lcom/resouce/module/ResID;->main_recommand_title_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/mainview/OverseaMainHeaderView;->mMainView:Landroid/view/View;
 
-    const p2, 0x7f0b2b25
+    sget p2, Lcom/resouce/module/ResID;->separator_title_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

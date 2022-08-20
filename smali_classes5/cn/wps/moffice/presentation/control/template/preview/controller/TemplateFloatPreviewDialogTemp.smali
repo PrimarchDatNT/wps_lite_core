@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ae6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_template_preview_layout:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -231,7 +231,7 @@
 
     float-to-int v0, v0
 
-    const v1, 0x7f0b24ff
+    sget v1, Lcom/resouce/module/ResID;->preview_image_view_pager:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -242,7 +242,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/template/preview/controller/TemplateFloatPreviewDialogTemp;->S:Lcn/wps/moffice/common/beans/phone/tab/ViewPager;
 
-    const v1, 0x7f0b2501
+    sget v1, Lcom/resouce/module/ResID;->preview_image_view_pager_indicator:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

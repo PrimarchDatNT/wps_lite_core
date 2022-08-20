@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1afd
+    sget v0, Lcom/resouce/module/ResID;->ok_btn:I
 
     if-ne p1, v0, :cond_2
 

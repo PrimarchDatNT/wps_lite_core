@@ -680,7 +680,7 @@
 .method public final F(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)V
     .locals 2
 
-    const v0, 0x7f0e02a5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_foreign_template_preview:I
 
     const/4 v1, 0x0
 
@@ -691,7 +691,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b0248
+    sget p2, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -705,7 +705,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b250b
+    sget p2, Lcom/resouce/module/ResID;->preview_use:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2edc    # 1.85006E38f
+    sget p2, Lcom/resouce/module/ResID;->template_purchase_icon_iv:I    # 1.85006E38f
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -731,7 +731,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b250c
+    sget p2, Lcom/resouce/module/ResID;->preview_use_ll:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -745,7 +745,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b0260
+    sget p2, Lcom/resouce/module/ResID;->bottom_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -756,7 +756,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2538
+    sget p2, Lcom/resouce/module/ResID;->progress_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -767,7 +767,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2507
+    sget p2, Lcom/resouce/module/ResID;->preview_refresh_list_view:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->U:Landroid/view/View;
 
-    const p2, 0x7f0b2dbf    # 1.8500022E38f
+    sget p2, Lcom/resouce/module/ResID;->stub_send_email_layout:I    # 1.8500022E38f
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -807,7 +807,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0286
+    sget p2, Lcom/resouce/module/ResLAYOUT;->foreign_preview_float_page_layout:I
 
     const/4 v0, 0x0
 
@@ -1082,7 +1082,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0298
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_preview_title_layout:I
 
     const/4 v2, 0x0
 
@@ -1123,7 +1123,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->T:Landroid/app/Activity;
 
-    const v1, 0x7f0e029b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_template_withdraw_layout:I
 
     const/4 v2, 0x0
 
@@ -1177,7 +1177,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121ca7
+    sget v1, Lcom/resouce/module/ResSTRING;->preview_purchase_use:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1296,7 +1296,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f121ca9
+    sget v3, Lcom/resouce/module/ResSTRING;->preview_use_now_zero:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1323,7 +1323,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->Y:Landroid/widget/TextView;
 
-    const v3, 0x7f121ca7
+    sget v3, Lcom/resouce/module/ResSTRING;->preview_purchase_use:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1423,7 +1423,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0480
+    sget v1, Lcom/resouce/module/ResLAYOUT;->listview_loading_view:I
 
     iget-object v2, p0, Lcn/wps/moffice/foreigntemplate/fragment/TemplatePreviewFragment;->h0:Landroid/widget/ListView;
 
@@ -1616,7 +1616,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b250c
+    sget v0, Lcom/resouce/module/ResID;->preview_use_ll:I
 
     if-ne p1, v0, :cond_b
 

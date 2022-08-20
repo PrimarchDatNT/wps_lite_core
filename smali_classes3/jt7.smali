@@ -410,7 +410,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f120623
+    sget p4, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-virtual {p3, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -900,7 +900,7 @@
 
     iget-object v2, p0, Ljt7;->a:Landroid/content/Context;
 
-    const v3, 0x7f1220f6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_download:I
 
     const/4 v4, 0x1
 
@@ -962,7 +962,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f1229fe
+    sget v4, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     if-eqz v2, :cond_3
 
@@ -1018,7 +1018,7 @@
     return-void
 
     :cond_1
-    const v5, 0x7f1224ad
+    sget v5, Lcom/resouce/module/ResSTRING;->public_member_enable_cloud_accelerate:I
 
     .line 10
     iget-object v6, p0, Ljt7;->a:Landroid/content/Context;
@@ -1027,7 +1027,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0605f1
+    sget v7, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1053,7 +1053,7 @@
 
     iget-object v2, p0, Ljt7;->a:Landroid/content/Context;
 
-    const v5, 0x7f1224a4
+    sget v5, Lcom/resouce/module/ResSTRING;->public_member_cloud_download_accelerating:I
 
     invoke-virtual {v2, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

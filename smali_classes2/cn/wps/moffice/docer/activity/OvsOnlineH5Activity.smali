@@ -211,7 +211,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f0b29b1
+    sget v0, Lcom/resouce/module/ResID;->root_view:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/docer/activity/OvsOnlineH5Activity;->U:Lap5;
 
-    const v0, 0x7f0b3423
+    sget v0, Lcom/resouce/module/ResID;->web_ovs:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/docer/activity/OvsOnlineH5Activity;->B:Lcn/wps/moffice/docer/view/OvsWebView;
 
-    const v1, 0x7f0b3420
+    sget v1, Lcom/resouce/module/ResID;->web_custom_container:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/docer/view/OvsWebView;->setCustomViewContainer(Landroid/view/ViewGroup;)V
 
-    const v0, 0x7f0b1d40
+    sget v0, Lcom/resouce/module/ResID;->pb_ovs:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -431,7 +431,7 @@
 
     invoke-static {p0, p1, v0}, Lto5;->m(Landroid/app/Activity;IZ)V
 
-    const p1, 0x7f0e0047
+    sget p1, Lcom/resouce/module/ResLAYOUT;->activity_ovs_online_h5:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

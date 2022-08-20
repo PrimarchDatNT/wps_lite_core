@@ -100,7 +100,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e08ff
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_wpsdrive_sharefolder_guide_header_layout:I
 
     const/4 v1, 0x0
 
@@ -110,7 +110,7 @@
 
     iput-object p1, p0, Lb87;->d:Landroid/view/View;
 
-    const p2, 0x7f0b2fcd
+    sget p2, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
     .line 4
     iget-object p1, p0, Lb87;->d:Landroid/view/View;
 
-    const p2, 0x7f0b031a
+    sget p2, Lcom/resouce/module/ResID;->button:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
     .line 5
     iget-object p1, p0, Lb87;->d:Landroid/view/View;
 
-    const p2, 0x7f0b043f
+    sget p2, Lcom/resouce/module/ResID;->close:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -148,7 +148,7 @@
     .line 6
     iget-object p1, p0, Lb87;->e:Landroid/widget/TextView;
 
-    const p2, 0x7f122c63
+    sget p2, Lcom/resouce/module/ResSTRING;->public_wpsdrive_header_share_folder_over_limit_guide_tips:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -161,12 +161,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f121ee7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_and_expand:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f121c8e
+    sget p2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V

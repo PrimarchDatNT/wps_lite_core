@@ -123,9 +123,9 @@
     .line 11
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$9;
 
-    const v1, 0x7f080e26
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_functions_et:I
 
-    const v2, 0x7f122fcc
+    sget v2, Lcom/resouce/module/ResSTRING;->ss_func:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$9;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -134,9 +134,9 @@
     .line 12
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$10;
 
-    const v1, 0x7f080475
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_summation:I
 
-    const v3, 0x7f120c68
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_sum:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$10;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -145,9 +145,9 @@
     .line 13
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$11;
 
-    const v1, 0x7f081427
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autosum_average:I
 
-    const v3, 0x7f120c63
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_average:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$11;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -156,9 +156,9 @@
     .line 14
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$12;
 
-    const v1, 0x7f081428
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autosum_count:I
 
-    const v3, 0x7f120c64
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_count:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$12;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -167,9 +167,9 @@
     .line 15
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$13;
 
-    const v1, 0x7f081429
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autosum_max:I
 
-    const v3, 0x7f120c65
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_max:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$13;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -178,9 +178,9 @@
     .line 16
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$14;
 
-    const v1, 0x7f08142a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autosum_min:I
 
-    const v3, 0x7f120c66
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_min:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$14;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -189,9 +189,9 @@
     .line 17
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$15;
 
-    const v1, 0x7f08142b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autosum_morefunc:I
 
-    const v3, 0x7f120c67
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum_morefunc:I
 
     invoke-direct {v0, p0, v1, v3}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$15;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -200,7 +200,7 @@
     .line 18
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/AutoSumer$16;
 
-    const v1, 0x7f080458
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_functions:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/AutoSumer$16;-><init>(Lcn/wps/moffice/spreadsheet/control/AutoSumer;II)V
 
@@ -242,11 +242,11 @@
     .line 24
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/AutoSumer$1;
 
-    const v3, 0x7f120c62
+    sget v3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum:I
 
-    const v4, 0x7f080475
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_table_summation:I
 
-    const v5, 0x7f120c62
+    sget v5, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum:I
 
     move-object v0, p1
 
@@ -335,9 +335,9 @@
     :cond_0
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/AutoSumer$3;
 
-    const p2, 0x7f080e56
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_summation:I
 
-    const p3, 0x7f120c62
+    sget p3, Lcom/resouce/module/ResSTRING;->et_toolbar_autosum:I
 
     const/4 v0, 0x1
 
@@ -430,7 +430,7 @@
 
     invoke-static {p1}, Leif;->d(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f0b08f4
+    sget p1, Lcom/resouce/module/ResID;->et_autosum_button_sum:I
 
     if-ne p2, p1, :cond_0
 
@@ -442,7 +442,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0b08ef
+    sget p1, Lcom/resouce/module/ResID;->et_autosum_button_average:I
 
     if-ne p2, p1, :cond_1
 
@@ -454,7 +454,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0b08f0
+    sget p1, Lcom/resouce/module/ResID;->et_autosum_button_count:I
 
     if-ne p2, p1, :cond_2
 
@@ -466,7 +466,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0b08f1
+    sget p1, Lcom/resouce/module/ResID;->et_autosum_button_max:I
 
     if-ne p2, p1, :cond_3
 
@@ -478,7 +478,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0b08f2
+    sget p1, Lcom/resouce/module/ResID;->et_autosum_button_min:I
 
     if-ne p2, p1, :cond_4
 
@@ -690,7 +690,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/AutoSumer;->S:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b08f3
+    sget v2, Lcom/resouce/module/ResID;->et_autosum_button_morefunc:I
 
     if-nez v1, :cond_1
 
@@ -702,7 +702,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0e01b1
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_autosum_dialog:I
 
     const/4 v4, 0x0
 
@@ -891,7 +891,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I

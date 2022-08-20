@@ -73,7 +73,7 @@
 
     iget-object v0, v0, Luj8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120d51
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_unselect_file:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

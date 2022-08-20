@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b1e2f
+    sget v0, Lcom/resouce/module/ResID;->pdf_linear_one:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Loq2$b;->d:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b1f02
+    sget v0, Lcom/resouce/module/ResID;->pdf_privileges_name_tv:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Loq2$b;->a:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0b1f00
+    sget v0, Lcom/resouce/module/ResID;->pdf_privileges_basic_tv:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Loq2$b;->b:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0b1f04
+    sget v0, Lcom/resouce/module/ResID;->pdf_privileges_premium_tv:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object v0, p0, Loq2$b;->c:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0b252b
+    sget v0, Lcom/resouce/module/ResID;->privilege_icon_new_hot:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

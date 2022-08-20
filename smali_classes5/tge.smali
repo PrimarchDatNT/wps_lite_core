@@ -620,7 +620,7 @@
     .line 1
     iget-object v0, p0, Ltge;->b:Landroid/view/View;
 
-    const v1, 0x7f0b24fe
+    sget v1, Lcom/resouce/module/ResID;->preview_image_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -653,7 +653,7 @@
     .line 4
     iget-object v0, p0, Ltge;->b:Landroid/view/View;
 
-    const v1, 0x7f0b24fd
+    sget v1, Lcom/resouce/module/ResID;->preview_image_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1185,7 +1185,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0e7e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_template_detail_open_docer_dlg_layout:I
 
     const/4 v3, 0x0
 
@@ -1203,7 +1203,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06063d
+    sget v2, Lcom/resouce/module/ResCOLOR;->template_preview_copyright_warning_dlg_positive_btn:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1213,7 +1213,7 @@
 
     invoke-direct {v2, p0}, Ltge$d;-><init>(Ltge;)V
 
-    const v3, 0x7f120fb1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     .line 5
     invoke-virtual {v0, v3, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1226,7 +1226,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06063c
+    sget v2, Lcom/resouce/module/ResCOLOR;->template_preview_copyright_warning_dlg_negative_btn:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1236,7 +1236,7 @@
 
     invoke-direct {v2, p0}, Ltge$e;-><init>(Ltge;)V
 
-    const v3, 0x7f122597
+    sget v3, Lcom/resouce/module/ResSTRING;->public_open_docer_to_view_later:I
 
     .line 8
     invoke-virtual {v0, v3, v1, v2}, Lhd3;->setNegativeButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1288,7 +1288,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070c09
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_template_copyright_dlg_btn_top_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

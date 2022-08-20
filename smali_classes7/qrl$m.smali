@@ -45,7 +45,7 @@
     .line 2
     iput-object p2, p0, Lqrl$m;->V:Ljava/lang/String;
 
-    const p2, 0x7f0b2553
+    sget p2, Lcom/resouce/module/ResID;->progressbar:I
 
     .line 3
     invoke-virtual {p1, p2}, Lozl;->Z0(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120019
+    sget v1, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

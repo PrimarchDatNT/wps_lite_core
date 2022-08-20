@@ -296,7 +296,7 @@
     .line 7
     iget-object p1, p0, Lfj3;->g:Landroid/widget/PopupWindow;
 
-    const v0, 0x7f1302f3
+    sget v0, Lcom/resouce/module/ResSTYLE;->ToastAnim:I
 
     invoke-virtual {p1, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

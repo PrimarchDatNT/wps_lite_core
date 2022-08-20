@@ -48,7 +48,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0ee7
+    sget p2, Lcom/resouce/module/ResLAYOUT;->recommend_welcome_loading:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -74,7 +74,7 @@
 .method public final b()V
     .locals 8
 
-    const v0, 0x7f0b0530
+    sget v0, Lcom/resouce/module/ResID;->container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

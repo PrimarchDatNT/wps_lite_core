@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1325
+    sget v1, Lcom/resouce/module/ResID;->ink_tool_set_default_pen:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -80,12 +80,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080bb5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush_ai_writer_black:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080bb3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_brush:I
 
     .line 4
     :goto_0

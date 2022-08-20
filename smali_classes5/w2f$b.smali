@@ -34,7 +34,7 @@
     .line 1
     invoke-direct {p0, p1}, Lw2f$a;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b1a78
+    sget v0, Lcom/resouce/module/ResID;->novel_1:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object v0, p0, Lw2f$b;->W:Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;
 
-    const v0, 0x7f0b1a79
+    sget v0, Lcom/resouce/module/ResID;->novel_2:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object v0, p0, Lw2f$b;->X:Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;
 
-    const v0, 0x7f0b1a7a
+    sget v0, Lcom/resouce/module/ResID;->novel_3:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lw2f$b;->Y:Lcn/wps/moffice/reader/wps/widget/InflowCardNovelDetailLayout;
 
-    const v0, 0x7f0b18f5
+    sget v0, Lcom/resouce/module/ResID;->more_store:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -223,7 +223,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b18f5
+    sget v1, Lcom/resouce/module/ResID;->more_store:I
 
     if-ne v0, v1, :cond_0
 

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/pad_color_select_layout" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/pad_color_select_rv" android:background="@color/thirdBackgroundColor" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="252.0dip" android:layout_height="264.0dip" android:overScrollMode="never" style="@style/public_keyboard_mouse_no_background_style" />
-</LinearLayout>

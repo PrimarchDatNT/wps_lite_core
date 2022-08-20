@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1206ed
+    sget v0, Lcom/resouce/module/ResSTRING;->dropbox_key:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1206ee
+    sget v0, Lcom/resouce/module/ResSTRING;->dropbox_secret:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1531,7 +1531,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1206ec
+    sget v2, Lcom/resouce/module/ResSTRING;->dropbox:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

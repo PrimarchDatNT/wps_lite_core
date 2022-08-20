@@ -369,7 +369,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f1206d7
+    sget v4, Lcom/resouce/module/ResSTRING;->download_center_url:I
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -583,14 +583,14 @@
     .line 8
     iget-object v1, p0, Lbu3;->Z:Lhd3;
 
-    const v2, 0x7f1206d1
+    sget v2, Lcom/resouce/module/ResSTRING;->download_center_confirm_delete:I
 
     invoke-virtual {v1, v2}, Lhd3;->setMessage(I)Lhd3;
 
     .line 9
     iget-object v1, p0, Lbu3;->Z:Lhd3;
 
-    const v2, 0x7f121fba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     new-instance v3, Lbu3$c;
 
@@ -601,7 +601,7 @@
     .line 10
     iget-object v0, p0, Lbu3;->Z:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -781,7 +781,7 @@
 
     move-result-object v8
 
-    const v10, 0x7f1206d5
+    sget v10, Lcom/resouce/module/ResSTRING;->download_center_downloading:I
 
     invoke-virtual {v8, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -929,7 +929,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f1206d4
+    sget v9, Lcom/resouce/module/ResSTRING;->download_center_downloaded:I
 
     invoke-virtual {v7, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1195,7 +1195,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06ad
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_download_center_layout:I
 
     const/4 v2, 0x0
 
@@ -1207,7 +1207,7 @@
 
     iput-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1623
+    sget v1, Lcom/resouce/module/ResID;->list_empty_bg:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1219,7 +1219,7 @@
     .line 3
     iget-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1632
+    sget v1, Lcom/resouce/module/ResID;->listview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1232,7 +1232,7 @@
     .line 4
     iget-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0260
+    sget v1, Lcom/resouce/module/ResID;->bottom_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1243,7 +1243,7 @@
     .line 5
     iget-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b03ca
+    sget v1, Lcom/resouce/module/ResID;->checkbox:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1256,7 +1256,7 @@
     .line 6
     iget-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b02ce
+    sget v1, Lcom/resouce/module/ResID;->btn_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1269,7 +1269,7 @@
     .line 7
     iget-object v0, p0, Lbu3;->S:Landroid/view/View;
 
-    const v1, 0x7f0b324a
+    sget v1, Lcom/resouce/module/ResID;->tv_select_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12201d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_download_center:I
 
     return v0
 .end method

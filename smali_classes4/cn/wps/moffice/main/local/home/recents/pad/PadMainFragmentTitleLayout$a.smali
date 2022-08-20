@@ -73,7 +73,7 @@
 
     iget-object v2, v2, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->l0:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1c46
+    sget v3, Lcom/resouce/module/ResID;->pad_titlebar_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -113,14 +113,14 @@
     return-void
 
     :cond_0
-    const v3, 0x7f1204aa
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     .line 8
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v4, 0x7f1228e2
+    sget v4, Lcom/resouce/module/ResSTRING;->public_select_tips:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;

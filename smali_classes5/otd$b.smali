@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0a9c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_pad_text2diagram_bottom_layout:I
 
     const/4 v1, 0x0
 
@@ -46,7 +46,7 @@
     .line 2
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2478
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -59,7 +59,7 @@
     .line 3
     iget-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const p2, 0x7f0b2471
+    sget p2, Lcom/resouce/module/ResID;->ppt_text2diagram_circle_progressbar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

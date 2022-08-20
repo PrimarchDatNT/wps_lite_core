@@ -898,7 +898,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122d5c
+    sget v4, Lcom/resouce/module/ResSTRING;->reader_preview_page_num_info:I
 
     const/4 v5, 0x1
 
@@ -1923,7 +1923,7 @@
 
     check-cast v1, Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f0b20a6
+    sget v2, Lcom/resouce/module/ResID;->phone_ppt_toolbar:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

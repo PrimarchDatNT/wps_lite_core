@@ -1481,7 +1481,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1227a5
+    sget p2, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -5282,7 +5282,7 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    const p2, 0x7f0b0ac3
+    sget p2, Lcom/resouce/module/ResID;->et_new_cell_edit_text:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -5485,7 +5485,7 @@
 
     check-cast v0, Landroid/app/Activity;
 
-    const v3, 0x7f0b0ac3
+    sget v3, Lcom/resouce/module/ResID;->et_new_cell_edit_text:I
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

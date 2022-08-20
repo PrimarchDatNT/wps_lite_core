@@ -68,7 +68,7 @@
     .line 3
     sget-object v1, Lwy6;->G:Lcn/wps/moffice/main/cloud/drive/bean/DriveRootInfo;
 
-    const v2, 0x7f121e80
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_my_cloud_service_item:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -108,7 +108,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f121eb5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_service_message_no_vip_oversea:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f121eb4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_service_message_no_vip:I
 
     const/4 v3, 0x1
 
@@ -147,7 +147,7 @@
 
     :cond_2
     :goto_0
-    const v2, 0x7f121eb6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cloud_service_message_vip:I
 
     .line 13
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

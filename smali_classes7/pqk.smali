@@ -204,7 +204,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0843
+    sget v2, Lcom/resouce/module/ResID;->edit_writer_sign_division:I
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

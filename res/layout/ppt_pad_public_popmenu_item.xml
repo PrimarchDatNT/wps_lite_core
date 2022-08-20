@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/ppt_textalign_item_root" android:background="@drawable/ppt_pad_popmenu_item_hover_bg" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/public_pad_drop_item_selector" android:layout_width="150.0dip" android:layout_height="@dimen/pad_second_toolbar_height" pressAlphaEnabled="false">
-        <cn.wpsx.support.ui.KNormalImageView android:id="@id/ppt_textalign_item_icon" android:layout_width="@dimen/pad_title_image_height" android:layout_height="@dimen/pad_title_image_height" android:layout_marginLeft="12.0dip" android:layout_marginStart="12.0dip" />
-        <TextView android:textSize="@dimen/pad_titlebar_menu_textsize" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/ppt_textalign_item_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
-    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

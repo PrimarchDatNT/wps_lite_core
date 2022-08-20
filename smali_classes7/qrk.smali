@@ -278,7 +278,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12131e
+    sget v0, Lcom/resouce/module/ResSTRING;->knowledge_page_option_unsupported:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

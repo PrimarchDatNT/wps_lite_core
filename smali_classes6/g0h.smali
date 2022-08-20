@@ -526,7 +526,7 @@
     .line 2
     iget-object v0, p0, Lg0h;->T:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e096a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_fontsize_input_layout:I
 
     const/4 v2, 0x0
 
@@ -536,7 +536,7 @@
 
     iput-object v0, p0, Lg0h;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0849
+    sget v1, Lcom/resouce/module/ResID;->edittext:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -601,7 +601,7 @@
 .method public final m()V
     .locals 2
 
-    const v0, 0x7f1208aa
+    sget v0, Lcom/resouce/module/ResSTRING;->et_font_size_error:I
 
     const/4 v1, 0x1
 

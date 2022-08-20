@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606b3
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -241,7 +241,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    const v0, 0x7f06046d
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_public_panel_bg_color:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
@@ -272,7 +272,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060009
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -342,7 +342,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a7d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_horizon_tabbar_item:I
 
     const/4 v2, 0x0
 
@@ -350,7 +350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2434
+    sget v1, Lcom/resouce/module/ResID;->ppt_tabbar_itembtn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -359,7 +359,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2564
+    sget v2, Lcom/resouce/module/ResID;->pt_print_select_divide_line:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

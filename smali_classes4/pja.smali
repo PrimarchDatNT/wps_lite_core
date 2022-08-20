@@ -458,7 +458,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1201e1
+    sget v3, Lcom/resouce/module/ResSTRING;->baidu_search_url:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -480,7 +480,7 @@
     .line 6
     sget-object p1, Lvma;->b:Ljava/lang/String;
 
-    const v1, 0x7f122ebe
+    sget v1, Lcom/resouce/module/ResSTRING;->selection_search_return:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

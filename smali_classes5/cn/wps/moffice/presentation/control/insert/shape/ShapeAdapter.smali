@@ -151,7 +151,7 @@
 
     move-result-object p2
 
-    const p5, 0x7f070b3e
+    sget p5, Lcom/resouce/module/ResDIMEN;->public_geoShape_line_width:I
 
     invoke-virtual {p2, p5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -287,12 +287,12 @@
 
     if-eqz p4, :cond_2
 
-    const p4, 0x7f070b67
+    sget p4, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size:I
 
     goto :goto_2
 
     :cond_2
-    const p4, 0x7f070b68
+    sget p4, Lcom/resouce/module/ResDIMEN;->public_insert_shape_shapeitem_rect_size_pad:I
 
     .line 25
     :goto_2
@@ -451,7 +451,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081cbc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_hovered_bg_roundrect:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -704,7 +704,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122d69
+    sget v1, Lcom/resouce/module/ResSTRING;->reader_public_empty:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -719,7 +719,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08193e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_grid_item_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

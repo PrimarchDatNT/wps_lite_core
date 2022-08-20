@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2209
+    sget p2, Lcom/resouce/module/ResID;->photo_view:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b29bb
+    sget p2, Lcom/resouce/module/ResID;->rotation_img_view:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
     .line 1
     iget-object v0, p0, Lzva;->T:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e011b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_item_gallery:I
 
     const/4 v2, 0x0
 
@@ -245,7 +245,7 @@
 
     check-cast p2, Lcn/wps/moffice/main/scan/bean/ScanBean;
 
-    const v1, 0x7f0b2209
+    sget v1, Lcom/resouce/module/ResID;->photo_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -254,7 +254,7 @@
 
     check-cast v1, Lcn/wps/moffice/main/scan/view/photoview/PhotoView;
 
-    const v2, 0x7f0b29bb
+    sget v2, Lcom/resouce/module/ResID;->rotation_img_view:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

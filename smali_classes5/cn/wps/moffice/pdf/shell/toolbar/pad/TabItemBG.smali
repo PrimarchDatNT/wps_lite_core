@@ -53,7 +53,7 @@
 .method public final a(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f01008c
+    sget v0, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_in:I
 
     .line 1
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/shell/toolbar/pad/TabItemBG;->B:Landroid/view/animation/Animation;
 
-    const v0, 0x7f01008d
+    sget v0, Lcom/resouce/module/ResANIM;->public_titlebar_menu_item_fade_out:I
 
     .line 2
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;

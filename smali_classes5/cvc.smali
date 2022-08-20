@@ -490,7 +490,7 @@
 .method public A0(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f121702
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_file_overpages:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -505,7 +505,7 @@
 .method public B0(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f121703
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_file_oversize:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -520,7 +520,7 @@
 .method public C0(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f121700
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_file_again:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -548,12 +548,12 @@
     .line 3
     invoke-virtual {v0, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p2, 0x7f121bdb
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 4
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f1216fe
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_cancel:I
 
     .line 5
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -577,17 +577,17 @@
 
     invoke-direct {p1, p0, p3, p2}, Lcvc$a;-><init>(Lcvc;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
-    const p2, 0x7f1216eb
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate_verify_msg_wait:I
 
     .line 3
     invoke-virtual {v0, p2}, Lhd3;->setMessage(I)Lhd3;
 
-    const p2, 0x7f1216ed
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate_verify_wait:I
 
     .line 4
     invoke-virtual {v0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f1216fe
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_cancel:I
 
     .line 5
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -624,7 +624,7 @@
     .line 3
     iget-object v0, p0, Llub;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121704
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_neterror:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -690,7 +690,7 @@
     :cond_1
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a5
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_fail:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -701,7 +701,7 @@
     :cond_2
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a7
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_success:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -712,7 +712,7 @@
     :cond_3
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a6
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign_loading:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -725,7 +725,7 @@
     .line 8
     invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p2, 0x7f0803a4
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->comp_safty_sign:I
 
     .line 9
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -785,7 +785,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1216ec
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate_verify_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -798,7 +798,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1216ea
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate_verify_msg:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -831,7 +831,7 @@
     .line 2
     iget-object p1, p0, Llub;->B:Landroid/app/Activity;
 
-    const v0, 0x7f12170a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_verifying_toast:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -861,7 +861,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121709
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_verifying:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1429,7 +1429,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1216f4
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_modify:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1445,7 +1445,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1465,7 +1465,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1505,7 +1505,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f1216fc
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_bestsign_showguide:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1514,14 +1514,14 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f1216e9
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_bestsign_authenticate_go:I
 
     .line 5
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1534,7 +1534,7 @@
     .line 6
     invoke-virtual {v0, v1, p1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f122c0b
+    sget p1, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     .line 7
     new-instance p3, Lcvc$i;
@@ -1543,7 +1543,7 @@
 
     invoke-virtual {v0, p1, p3}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f12253e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     .line 8
     new-instance p3, Lcvc$j;
@@ -1604,7 +1604,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_text_cycle_progress_layout:I
 
     const/4 v2, 0x0
 
@@ -1617,7 +1617,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b254e
+    sget v2, Lcom/resouce/module/ResID;->progress_text:I
 
     if-eqz v0, :cond_1
 
@@ -1671,7 +1671,7 @@
 .method public z0(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f121701
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_bestsign_signing_file_encrypt:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

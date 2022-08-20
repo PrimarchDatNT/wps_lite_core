@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12164b
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_verify_file_oversize:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

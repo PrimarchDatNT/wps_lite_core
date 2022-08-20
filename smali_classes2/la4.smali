@@ -309,7 +309,7 @@
     .line 2
     iget-object v0, p0, Lla4;->b:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0c99
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_preview_imgview:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

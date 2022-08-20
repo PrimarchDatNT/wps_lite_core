@@ -26,9 +26,9 @@
     .line 2
     new-instance v0, Lqmd$a;
 
-    const v1, 0x7f0803ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_share_album:I
 
-    const v2, 0x7f121be3
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_save_picture:I
 
     const/4 v3, 0x1
 
@@ -39,7 +39,7 @@
     .line 3
     new-instance v0, Lqmd$b;
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-direct {v0, p0, v1, v2}, Lqmd$b;-><init>(Lqmd;II)V
 

@@ -188,7 +188,7 @@
     :cond_0
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v1, 0x1
 
@@ -224,7 +224,7 @@
     .line 3
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     const/4 v1, 0x1
 
@@ -327,7 +327,7 @@
     .line 3
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     const/4 v1, 0x1
 
@@ -442,7 +442,7 @@
     .line 3
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     const/4 v1, 0x1
 
@@ -566,7 +566,7 @@
     :cond_0
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v1, 0x1
 
@@ -680,7 +680,7 @@
     :cond_0
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1203e4
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v1, 0x1
 
@@ -724,7 +724,7 @@
     .line 4
     iget-object p2, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v1, 0x7f120474
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_processing:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -743,7 +743,7 @@
     .line 6
     iget-object p2, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v1, 0x7f120440
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_import_pic_from_camera_doc_pattern:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -766,7 +766,7 @@
     :cond_3
     iget-object p2, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v1, 0x7f120441
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_import_pic_from_camera_ppt_pattern:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -834,7 +834,7 @@
     .line 3
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204cd
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_unable_decode_image_tip:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

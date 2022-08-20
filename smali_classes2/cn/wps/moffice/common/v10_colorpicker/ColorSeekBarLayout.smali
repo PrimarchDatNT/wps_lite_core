@@ -52,11 +52,11 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const p2, 0x7f0e103c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->v10_public_colorseekbar_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b04a6
+    sget p1, Lcom/resouce/module/ResID;->colorSlider:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorSeekBarLayout;->B:Lcn/wps/moffice/common/v10_colorpicker/ColorSeekBar;
 
-    const p1, 0x7f0b3362
+    sget p1, Lcom/resouce/module/ResID;->valuebar:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -78,7 +78,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorSeekBarLayout;->I:Lcn/wps/moffice/common/v10_colorpicker/ValueBar;
 
-    const p1, 0x7f0b04b4
+    sget p1, Lcom/resouce/module/ResID;->color_diplay:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/v10_colorpicker/ColorSeekBarLayout;->S:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b04b1
+    sget p1, Lcom/resouce/module/ResID;->color_confirm:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

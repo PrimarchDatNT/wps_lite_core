@@ -54,7 +54,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f110002
+    sget v2, Lcom/resouce/module/ResRAW;->js_receiver:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->openRawResource(I)Ljava/io/InputStream;
 

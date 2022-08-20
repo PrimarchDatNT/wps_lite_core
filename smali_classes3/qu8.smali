@@ -55,7 +55,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060526
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_start_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060525
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_clear_file_bg_end_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -332,7 +332,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f121df7
+    sget v4, Lcom/resouce/module/ResSTRING;->public_clear_file_clear_confirm_btn:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -461,7 +461,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121df9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_clear_file_clearing_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -485,7 +485,7 @@
     .line 1
     iget-object v0, p0, Lqu8;->B:Landroid/app/Activity;
 
-    const v1, 0x7f010084
+    sget v1, Lcom/resouce/module/ResANIM;->public_constantly_rotate_anim:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -531,7 +531,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b3087
+    sget v3, Lcom/resouce/module/ResID;->top_view_layout:I
 
     invoke-virtual {v0, v1, v2, v3}, Lru8;->o(Landroidx/core/widget/NestedScrollView;II)V
 
@@ -635,7 +635,7 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f121e07
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_no_net_error:I
 
     .line 5
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -665,7 +665,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f121e08
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clear_file_no_server_error:I
 
     .line 8
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -985,7 +985,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121df8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_clear_file_clearing:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1045,7 +1045,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d2f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_open_clear_local_file_layout:I
 
     const/4 v2, 0x0
 
@@ -1055,7 +1055,7 @@
 
     iput-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17f7
+    sget v1, Lcom/resouce/module/ResID;->main_content_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1067,7 +1067,7 @@
     .line 4
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17f6
+    sget v1, Lcom/resouce/module/ResID;->main_content_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1080,7 +1080,7 @@
     .line 5
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3087
+    sget v1, Lcom/resouce/module/ResID;->top_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1091,7 +1091,7 @@
     .line 6
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0cdd
+    sget v1, Lcom/resouce/module/ResID;->file_list_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1104,7 +1104,7 @@
     .line 7
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0426
+    sget v1, Lcom/resouce/module/ResID;->clear_file_btn_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1117,7 +1117,7 @@
     .line 8
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0555
+    sget v1, Lcom/resouce/module/ResID;->content_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1128,7 +1128,7 @@
     .line 9
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3070
+    sget v1, Lcom/resouce/module/ResID;->top_files_num_text_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1141,7 +1141,7 @@
     .line 10
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b306a
+    sget v1, Lcom/resouce/module/ResID;->top_clearing_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1152,7 +1152,7 @@
     .line 11
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3069
+    sget v1, Lcom/resouce/module/ResID;->top_clear_loading_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1165,7 +1165,7 @@
     .line 12
     iget-object v0, p0, Lqu8;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0c3b
+    sget v1, Lcom/resouce/module/ResID;->extra_content_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1197,7 +1197,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121dff
+    sget v0, Lcom/resouce/module/ResSTRING;->public_clear_file_dialog_title:I
 
     return v0
 .end method

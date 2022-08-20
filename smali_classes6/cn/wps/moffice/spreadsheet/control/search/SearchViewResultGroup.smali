@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e024c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_search_resultsgroup:I
 
     const/4 v2, 0x1
 
@@ -102,7 +102,7 @@
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b0b98
+    sget v0, Lcom/resouce/module/ResID;->et_search_resultgroup_sheetname:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/SearchViewResultGroup;->B:Landroid/widget/Button;
 
-    const v0, 0x7f0b0b99
+    sget v0, Lcom/resouce/module/ResID;->et_search_resultgroup_sheetname_img:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/search/SearchViewResultGroup;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0b97
+    sget v0, Lcom/resouce/module/ResID;->et_search_resultgroup_content:I
 
     .line 9
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

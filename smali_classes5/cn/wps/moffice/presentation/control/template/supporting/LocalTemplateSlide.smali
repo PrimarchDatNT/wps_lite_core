@@ -311,7 +311,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/presentation/control/template/supporting/LocalTemplateSlide;->I:Landroid/app/Activity;
 
-    const p2, 0x7f120cbb
+    sget p2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -485,11 +485,11 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/LocalTemplateSlide;->I:Landroid/app/Activity;
 
-    const v1, 0x7f0e0ddd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_ppt_local_template_layout:I
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2ece
+    sget v0, Lcom/resouce/module/ResID;->template_list:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -500,7 +500,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/LocalTemplateSlide;->T:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0b1899
+    sget v0, Lcom/resouce/module/ResID;->mine_error_default:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -511,7 +511,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/template/supporting/LocalTemplateSlide;->S:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f0b2ed1
+    sget v0, Lcom/resouce/module/ResID;->template_loading:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

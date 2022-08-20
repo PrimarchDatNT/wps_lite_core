@@ -97,7 +97,7 @@
 
     new-array v6, v7, [I
 
-    const v5, 0x7f130359
+    sget v5, Lcom/resouce/module/ResSTYLE;->Widget.Design.ScrimInsetsFrameLayout:I
 
     move-object v1, p1
 

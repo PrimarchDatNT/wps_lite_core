@@ -93,7 +93,7 @@
     .line 2
     iget-object v0, p0, Llx7;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f120cbb
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -112,7 +112,7 @@
     .line 4
     iget-object v0, p0, Llx7;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f120212
+    sget v2, Lcom/resouce/module/ResSTRING;->bind_phone_error_wechat_not_install:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -164,7 +164,7 @@
     .line 1
     invoke-super {p0}, Llx7;->initViews()V
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b021a
+    sget v0, Lcom/resouce/module/ResID;->bindButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -206,7 +206,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 1
 
-    const v0, 0x7f0e0338
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_login_bind_wechat_miniprogram_guide_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;

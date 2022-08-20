@@ -124,7 +124,7 @@
 
     invoke-direct {v0, v1, v2}, Ltel;-><init>(Le3l;Lwbl;)V
 
-    const v1, 0x7f0b0e52
+    sget v1, Lcom/resouce/module/ResID;->font_size:I
 
     const-string v2, "font-size"
 
@@ -135,16 +135,16 @@
 
     move-result v0
 
-    const v1, 0x7f0b0e39
+    sget v1, Lcom/resouce/module/ResID;->font_name:I
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b0e60
+    sget v0, Lcom/resouce/module/ResID;->font_title_more:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0e39
+    sget v0, Lcom/resouce/module/ResID;->font_name:I
 
     .line 3
     :goto_0
@@ -166,7 +166,7 @@
 
     invoke-virtual {p0, v0, v2, v1}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e12
+    sget v0, Lcom/resouce/module/ResID;->font_bold:I
 
     .line 4
     new-instance v1, Lu2l;
@@ -177,7 +177,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e36
+    sget v0, Lcom/resouce/module/ResID;->font_italic:I
 
     .line 5
     new-instance v1, Ly2l;
@@ -188,7 +188,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e63
+    sget v0, Lcom/resouce/module/ResID;->font_underline_pop:I
 
     .line 6
     new-instance v1, La3l;
@@ -199,7 +199,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e25
+    sget v0, Lcom/resouce/module/ResID;->font_delline:I
 
     .line 7
     new-instance v1, Lr2l;
@@ -217,14 +217,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0e18
+    sget v1, Lcom/resouce/module/ResID;->font_color_black:I
 
     .line 9
     new-instance v2, Lpel;
 
     iget-object v3, p0, Lbfl;->f0:Le3l;
 
-    const v4, 0x7f060090
+    sget v4, Lcom/resouce/module/ResCOLOR;->color_black:I
 
     .line 10
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -238,14 +238,14 @@
     .line 11
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b0e19
+    sget v1, Lcom/resouce/module/ResID;->font_color_blue:I
 
     .line 12
     new-instance v2, Lpel;
 
     iget-object v3, p0, Lbfl;->f0:Le3l;
 
-    const v4, 0x7f060690
+    sget v4, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_blue:I
 
     .line 13
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -259,14 +259,14 @@
     .line 14
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b0e1b
+    sget v1, Lcom/resouce/module/ResID;->font_color_green:I
 
     .line 15
     new-instance v2, Lpel;
 
     iget-object v3, p0, Lbfl;->f0:Le3l;
 
-    const v4, 0x7f060697
+    sget v4, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_green:I
 
     .line 16
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -280,14 +280,14 @@
     .line 17
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b0e20
+    sget v1, Lcom/resouce/module/ResID;->font_color_yellow:I
 
     .line 18
     new-instance v2, Lpel;
 
     iget-object v3, p0, Lbfl;->f0:Le3l;
 
-    const v4, 0x7f06069b
+    sget v4, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_yellow:I
 
     .line 19
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -301,14 +301,14 @@
     .line 20
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b0e1e
+    sget v1, Lcom/resouce/module/ResID;->font_color_red:I
 
     .line 21
     new-instance v2, Lpel;
 
     iget-object v3, p0, Lbfl;->f0:Le3l;
 
-    const v4, 0x7f060699
+    sget v4, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_red:I
 
     .line 22
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getColor(I)I
@@ -322,7 +322,7 @@
     .line 23
     invoke-virtual {p0, v1, v2, v0}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e1d
+    sget v0, Lcom/resouce/module/ResID;->font_color_more:I
 
     .line 24
     new-instance v1, Lqel;
@@ -337,7 +337,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e17
+    sget v0, Lcom/resouce/module/ResID;->font_color_auto:I
 
     .line 25
     new-instance v1, Lv2l;
@@ -350,7 +350,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e33
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_yellow:I
 
     .line 26
     new-instance v1, Lrel;
@@ -365,7 +365,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e2e
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_green:I
 
     .line 27
     new-instance v1, Lrel;
@@ -380,7 +380,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e32
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_red:I
 
     .line 28
     new-instance v1, Lrel;
@@ -395,7 +395,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e2d
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_cyan:I
 
     .line 29
     new-instance v1, Lrel;
@@ -410,7 +410,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e31
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_pink:I
 
     .line 30
     new-instance v1, Lrel;
@@ -425,7 +425,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e30
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_none:I
 
     .line 31
     new-instance v1, Lrel;
@@ -440,7 +440,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e2f
+    sget v0, Lcom/resouce/module/ResID;->font_highlight_more:I
 
     .line 32
     new-instance v1, Lsel;
@@ -455,7 +455,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc7
+    sget v0, Lcom/resouce/module/ResID;->para_linespace:I
 
     .line 33
     new-instance v1, Lzfl;
@@ -470,7 +470,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cde
+    sget v0, Lcom/resouce/module/ResID;->para_style_normal:I
 
     .line 34
     new-instance v1, Lqgl;
@@ -481,7 +481,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd9
+    sget v0, Lcom/resouce/module/ResID;->para_style_heading1:I
 
     .line 35
     new-instance v1, Lqgl;
@@ -492,7 +492,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cda
+    sget v0, Lcom/resouce/module/ResID;->para_style_heading2:I
 
     .line 36
     new-instance v1, Lqgl;
@@ -503,7 +503,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cdb
+    sget v0, Lcom/resouce/module/ResID;->para_style_heading3:I
 
     .line 37
     new-instance v1, Lqgl;
@@ -514,7 +514,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cdd
+    sget v0, Lcom/resouce/module/ResID;->para_style_more:I
 
     .line 38
     new-instance v1, Lkcl;
@@ -527,7 +527,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cbd
+    sget v0, Lcom/resouce/module/ResID;->para_align_left:I
 
     .line 39
     new-instance v1, Lquk;
@@ -540,7 +540,7 @@
 
     invoke-virtual {p0, v0, v1, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cbb
+    sget v0, Lcom/resouce/module/ResID;->para_align_center:I
 
     .line 40
     new-instance v1, Louk;
@@ -551,7 +551,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cbe
+    sget v0, Lcom/resouce/module/ResID;->para_align_right:I
 
     .line 41
     new-instance v1, Lruk;
@@ -562,7 +562,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cba
+    sget v0, Lcom/resouce/module/ResID;->para_align_both:I
 
     .line 42
     new-instance v1, Lnuk;
@@ -573,7 +573,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cbc
+    sget v0, Lcom/resouce/module/ResID;->para_align_dispersion:I
 
     .line 43
     new-instance v1, Lpuk;
@@ -584,7 +584,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1ccf
+    sget v0, Lcom/resouce/module/ResID;->para_number_symbol_number_symbol1:I
 
     .line 44
     new-instance v1, Lu4l;
@@ -599,7 +599,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cce
+    sget v0, Lcom/resouce/module/ResID;->para_number_number_symbol_4:I
 
     .line 45
     new-instance v1, Lu4l;
@@ -612,7 +612,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1ccd
+    sget v0, Lcom/resouce/module/ResID;->para_number_number_1:I
 
     .line 46
     new-instance v1, Lu4l;
@@ -625,7 +625,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc2
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_multi_number_2:I
 
     .line 47
     new-instance v1, Lu4l;
@@ -638,7 +638,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc6
+    sget v0, Lcom/resouce/module/ResID;->para_left_to_right:I
 
     .line 48
     new-instance v1, Lduk;
@@ -649,7 +649,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd3
+    sget v0, Lcom/resouce/module/ResID;->para_right_to_left:I
 
     .line 49
     new-instance v1, Leuk;
@@ -660,7 +660,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc3
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_none:I
 
     .line 50
     new-instance v1, Lvfl;
@@ -673,7 +673,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1ccc
+    sget v0, Lcom/resouce/module/ResID;->para_number_more:I
 
     .line 51
     new-instance v1, Lwfl;
@@ -688,7 +688,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc1
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_increase_indentation:I
 
     .line 52
     new-instance v1, Ls4l;
@@ -703,7 +703,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc0
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_decrease_indentation:I
 
     .line 53
     new-instance v1, Lr4l;
@@ -716,7 +716,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cc4
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_restart:I
 
     .line 54
     new-instance v1, Lt4l;
@@ -729,7 +729,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cbf
+    sget v0, Lcom/resouce/module/ResID;->para_item_number_continue:I
 
     .line 55
     new-instance v1, Lp4l;
@@ -742,7 +742,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd2
+    sget v0, Lcom/resouce/module/ResID;->para_paragraphset:I
 
     .line 56
     new-instance v1, Lvuk;
@@ -753,7 +753,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b1cd4
+    sget v0, Lcom/resouce/module/ResID;->para_smart_typography:I
 
     .line 57
     new-instance v1, Lpul;
@@ -766,7 +766,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e64
+    sget v0, Lcom/resouce/module/ResID;->font_upsign:I
 
     .line 58
     new-instance v1, Ld3l;
@@ -779,7 +779,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e27
+    sget v0, Lcom/resouce/module/ResID;->font_downsign:I
 
     .line 59
     new-instance v1, Lt2l;
@@ -792,7 +792,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e56
+    sget v0, Lcom/resouce/module/ResID;->font_smallcaps:I
 
     .line 60
     new-instance v1, Lc3l;
@@ -805,7 +805,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0e15
+    sget v0, Lcom/resouce/module/ResID;->font_caps:I
 
     .line 61
     new-instance v1, Lq2l;
@@ -818,7 +818,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d1
+    sget v0, Lcom/resouce/module/ResID;->writer_comp_section_1:I
 
     .line 62
     new-instance v1, Lork;
@@ -831,7 +831,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d2
+    sget v0, Lcom/resouce/module/ResID;->writer_comp_section_2:I
 
     .line 63
     new-instance v1, Lork;
@@ -844,7 +844,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d3
+    sget v0, Lcom/resouce/module/ResID;->writer_comp_section_3:I
 
     .line 64
     new-instance v1, Lork;
@@ -857,7 +857,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d4
+    sget v0, Lcom/resouce/module/ResID;->writer_comp_section_left:I
 
     .line 65
     new-instance v1, Lprk;
@@ -870,7 +870,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v0, 0x7f0b34d5
+    sget v0, Lcom/resouce/module/ResID;->writer_comp_section_right:I
 
     .line 66
     new-instance v1, Lprk;
@@ -913,13 +913,13 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b0e12
+    sget v2, Lcom/resouce/module/ResID;->font_bold:I
 
     const/4 v3, 0x1
 
     const/4 v4, 0x0
 
-    const v5, 0x7f0b0e1c
+    sget v5, Lcom/resouce/module/ResID;->font_color_layout:I
 
     const/4 v6, 0x1
 
@@ -966,7 +966,7 @@
 
     xor-int/lit8 v0, v0, 0x1
 
-    const v1, 0x7f0b1cc5
+    sget v1, Lcom/resouce/module/ResID;->para_left_right_layout:I
 
     .line 4
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1070,7 +1070,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f122a1a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_start:I
 
     return v0
 .end method
@@ -1132,7 +1132,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e0ec7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_font_para_layout:I
 
     .line 2
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -1158,7 +1158,7 @@
 
     invoke-virtual {p0, v1}, Luzl;->m2(Landroid/view/View;)V
 
-    const v1, 0x7f0b0e5e
+    sget v1, Lcom/resouce/module/ResID;->font_title_container:I
 
     .line 6
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1176,7 +1176,7 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0e0ec6
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_font_cloud_layout:I
 
     .line 8
     invoke-static {v2, v1, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1189,13 +1189,13 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0e0ec8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_writer_edit_font_title_layout:I
 
     .line 10
     invoke-static {v2, v1, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     :goto_0
-    const v1, 0x7f0b1cde
+    sget v1, Lcom/resouce/module/ResID;->para_style_normal:I
 
     .line 11
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1210,7 +1210,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b1cd9
+    sget v1, Lcom/resouce/module/ResID;->para_style_heading1:I
 
     .line 12
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1223,7 +1223,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b1cda
+    sget v1, Lcom/resouce/module/ResID;->para_style_heading2:I
 
     .line 13
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1238,7 +1238,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b1cdb
+    sget v1, Lcom/resouce/module/ResID;->para_style_heading3:I
 
     .line 14
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1253,7 +1253,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    const v1, 0x7f0b0e39
+    sget v1, Lcom/resouce/module/ResID;->font_name:I
 
     .line 15
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -1308,7 +1308,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b1cd0
+    sget v0, Lcom/resouce/module/ResID;->para_panel_divider:I
 
     .line 19
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1317,7 +1317,7 @@
 
     iput-object v0, p0, Lbfl;->j0:Landroid/view/View;
 
-    const v0, 0x7f0b1cd1
+    sget v0, Lcom/resouce/module/ResID;->para_panel_layout:I
 
     .line 20
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1326,7 +1326,7 @@
 
     iput-object v0, p0, Lbfl;->k0:Landroid/view/View;
 
-    const v0, 0x7f0b1cca
+    sget v0, Lcom/resouce/module/ResID;->para_number_divider:I
 
     .line 21
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1335,7 +1335,7 @@
 
     iput-object v0, p0, Lbfl;->l0:Landroid/view/View;
 
-    const v0, 0x7f0b1ccb
+    sget v0, Lcom/resouce/module/ResID;->para_number_layout:I
 
     .line 22
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1344,7 +1344,7 @@
 
     iput-object v0, p0, Lbfl;->m0:Landroid/view/View;
 
-    const v0, 0x7f0b1cd8
+    sget v0, Lcom/resouce/module/ResID;->para_style_divider:I
 
     .line 23
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1353,7 +1353,7 @@
 
     iput-object v0, p0, Lbfl;->n0:Landroid/view/View;
 
-    const v0, 0x7f0b1cdc
+    sget v0, Lcom/resouce/module/ResID;->para_style_layout:I
 
     .line 24
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1443,7 +1443,7 @@
     invoke-static {v0, v1}, Lka3;->r0(Landroid/view/View;I)V
 
     :cond_2
-    const v0, 0x7f0b1cd2
+    sget v0, Lcom/resouce/module/ResID;->para_paragraphset:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

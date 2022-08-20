@@ -93,7 +93,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f122ffe
+    sget v0, Lcom/resouce/module/ResSTRING;->start_web_shareplay_fail:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -152,7 +152,7 @@
     :cond_2
     iget-object v0, p0, Lg45$b;->B:Landroid/content/Context;
 
-    const v1, 0x7f1229c3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_enter_error:I
 
     invoke-static {v0, v1, p2}, Lbih;->n(Landroid/content/Context;II)V
 

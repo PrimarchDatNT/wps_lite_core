@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.presentation.control.common.ToggleToolbarItemView android:id="@id/v10_phone_ppt_encrypt_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:id="@id/v10_phone_ppt_encrypt_divider" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/v10_phone_public_paneltab_div_line_margin" android:layout_marginRight="0.0dip" android:layout_marginStart="@dimen/v10_phone_public_paneltab_div_line_margin" android:layout_marginEnd="0.0dip" />
-    <cn.wps.moffice.presentation.control.common.ToolbarItemView android:id="@id/v10_phone_ppt_modify_pw_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" />
-</LinearLayout>

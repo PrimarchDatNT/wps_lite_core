@@ -28,7 +28,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b054b
+    sget v0, Lcom/resouce/module/ResID;->content_list:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

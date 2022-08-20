@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0707b8
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

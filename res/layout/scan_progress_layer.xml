@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
-</cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout>

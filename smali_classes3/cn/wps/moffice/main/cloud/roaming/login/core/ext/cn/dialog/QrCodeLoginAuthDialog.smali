@@ -38,7 +38,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Lsw7$a;)V
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e033d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_login_qrcode_auth_dialog:I
 
     const/4 v2, 0x0
 
@@ -206,7 +206,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/dialog/QrCodeLoginAuthDialog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fce
+    sget v1, Lcom/resouce/module/ResID;->titleBar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/dialog/QrCodeLoginAuthDialog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b27a0
+    sget v1, Lcom/resouce/module/ResID;->qrcodeWebView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -287,7 +287,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/dialog/QrCodeLoginAuthDialog;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1b89
+    sget v1, Lcom/resouce/module/ResID;->otherWayTextView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -325,7 +325,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1b89
+    sget v0, Lcom/resouce/module/ResID;->otherWayTextView:I
 
     if-ne p1, v0, :cond_0
 

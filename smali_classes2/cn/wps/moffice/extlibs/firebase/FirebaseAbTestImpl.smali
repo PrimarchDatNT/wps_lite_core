@@ -216,7 +216,7 @@
     .line 4
     invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setConfigSettings(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;)V
 
-    const v1, 0x7f150004
+    sget v1, Lcom/resouce/module/ResXML;->default_config:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setDefaults(I)V

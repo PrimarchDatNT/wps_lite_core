@@ -129,7 +129,7 @@
 .method public final r2()V
     .locals 2
 
-    const v0, 0x7f0e08c9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_revision_state_detail:I
 
     const/4 v1, 0x0
 
@@ -151,7 +151,7 @@
 
     iput-object v0, p0, Lrjl;->e0:Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;
 
-    const v1, 0x7f1233f8
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_revision_revision_state:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/shell/phone/WriterWithBackTitleBar;->setTitleText(I)V
@@ -171,7 +171,7 @@
     .line 6
     invoke-virtual {p0}, Lrjl;->s2()V
 
-    const v0, 0x7f0b3666
+    sget v0, Lcom/resouce/module/ResID;->writer_revision_show_revision_final_state:I
 
     .line 7
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -184,7 +184,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3661
+    sget v0, Lcom/resouce/module/ResID;->writer_revision_revision_final:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -215,13 +215,13 @@
 
     move-result v0
 
-    const v1, 0x7f0b3662
+    sget v1, Lcom/resouce/module/ResID;->writer_revision_revision_final_img:I
 
-    const v2, 0x7f0b3667
+    sget v2, Lcom/resouce/module/ResID;->writer_revision_show_revision_final_state_img:I
 
-    const v3, 0x7f0b3663
+    sget v3, Lcom/resouce/module/ResID;->writer_revision_revision_final_text:I
 
-    const v4, 0x7f0b3668
+    sget v4, Lcom/resouce/module/ResID;->writer_revision_show_revision_final_state_text:I
 
     const/4 v5, 0x1
 

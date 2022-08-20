@@ -26,9 +26,9 @@
     .line 2
     new-instance v0, Lgle$b;
 
-    const v1, 0x7f080396
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_ppt_thumbnail:I
 
-    const v2, 0x7f122adb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     invoke-direct {v0, p0, v1, v2}, Lgle$b;-><init>(Lgle;II)V
 

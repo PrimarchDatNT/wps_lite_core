@@ -166,7 +166,7 @@
 
     iget-object v1, p0, Lozl;->c0:Landroid/content/Context;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -313,12 +313,12 @@
 .method public final C2()V
     .locals 2
 
-    const v0, 0x7f0e1071
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_bookmark_dialog:I
 
     .line 1
     invoke-virtual {p0, v0}, Lozl;->l2(I)V
 
-    const v0, 0x7f0b0237
+    sget v0, Lcom/resouce/module/ResID;->bookmark_list:I
 
     .line 2
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     iput-object v0, p0, Lbqk;->f0:Lzpk;
 
-    const v0, 0x7f0b0236
+    sget v0, Lcom/resouce/module/ResID;->bookmark_empty:I
 
     .line 4
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     iput-object v0, p0, Lbqk;->i0:Landroid/view/View;
 
-    const v0, 0x7f0b34c7
+    sget v0, Lcom/resouce/module/ResID;->writer_bookmark_title:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -358,7 +358,7 @@
 
     iput-object v0, p0, Lbqk;->j0:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f12197c
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_all_bookmark:I
 
     .line 6
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -490,14 +490,14 @@
     iput-object v1, p0, Lbqk;->h0:Lcn/wps/moffice/common/beans/contextmenu/PopupMenu;
 
     :cond_2
-    const v0, 0x7f0e1073
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_bookmark_popup_menu:I
 
     .line 8
     invoke-static {v0, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b34c6
+    sget v1, Lcom/resouce/module/ResID;->writer_bookmark_rename:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -506,7 +506,7 @@
 
     check-cast v1, Landroid/widget/Button;
 
-    const v2, 0x7f0b34c2
+    sget v2, Lcom/resouce/module/ResID;->writer_bookmark_delete:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -597,12 +597,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f070d72
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_padding_left_right_port:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f070d71
+    sget v1, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_padding_left_right_land:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -618,12 +618,12 @@
 
     if-eqz p1, :cond_1
 
-    const v2, 0x7f070d74
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_padding_top_bottom_port:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f070d73
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_padding_top_bottom_land:I
 
     :goto_1
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -646,12 +646,12 @@
 
     if-eqz p1, :cond_2
 
-    const v2, 0x7f070d76
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_vertical_space_port:I
 
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f070d75
+    sget v2, Lcom/resouce/module/ResDIMEN;->writer_bookmark_grid_vertical_space_land:I
 
     :goto_2
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

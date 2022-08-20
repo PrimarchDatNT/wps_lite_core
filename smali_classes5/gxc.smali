@@ -36,7 +36,7 @@
     .line 2
     iget-object p2, p0, Lexc;->I:Landroid/view/View;
 
-    const v0, 0x7f0b1f15
+    sget v0, Lcom/resouce/module/ResID;->pdf_rom_bottom_layout:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -85,7 +85,7 @@
     .line 9
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b29a3
+    sget p2, Lcom/resouce/module/ResID;->rom_search_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -96,7 +96,7 @@
     .line 10
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b298d
+    sget p2, Lcom/resouce/module/ResID;->rom_layout:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
     .line 11
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b29a4
+    sget p2, Lcom/resouce/module/ResID;->rom_search_next:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
     .line 12
     iget-object p1, p0, Lexc;->I:Landroid/view/View;
 
-    const p2, 0x7f0b29a5
+    sget p2, Lcom/resouce/module/ResID;->rom_search_prev:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -433,12 +433,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f08099e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_dark:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f08099f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_miui_search_btn_bg_light:I
 
     :goto_1
     invoke-virtual {v1, v0}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -475,7 +475,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b29a4
+    sget v0, Lcom/resouce/module/ResID;->rom_search_next:I
 
     if-ne p1, v0, :cond_0
 
@@ -509,7 +509,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b29a5
+    sget v0, Lcom/resouce/module/ResID;->rom_search_prev:I
 
     if-ne p1, v0, :cond_1
 
@@ -588,7 +588,7 @@
     .line 5
     iget-object p1, p0, Lexc;->B:Landroid/app/Activity;
 
-    const v3, 0x7f0602cd
+    sget v3, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {p1, v3}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -642,7 +642,7 @@
     .line 10
     iget-object p1, p0, Lexc;->B:Landroid/app/Activity;
 
-    const p2, 0x7f0602cc
+    sget p2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {p1, p2}, Ldgh;->n1(Landroid/app/Activity;I)V
 

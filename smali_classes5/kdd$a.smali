@@ -31,7 +31,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f1227ed
+    sget v0, Lcom/resouce/module/ResSTRING;->public_refuse_give_permission:I
 
     .line 2
     iput v0, p0, Lkdd$a;->a:I

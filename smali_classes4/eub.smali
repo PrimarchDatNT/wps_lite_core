@@ -96,7 +96,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f070a80
+    sget v5, Lcom/resouce/module/ResDIMEN;->public_battery_height:I
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

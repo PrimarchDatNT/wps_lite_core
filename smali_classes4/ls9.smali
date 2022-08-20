@@ -165,7 +165,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0dd5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_popup_privilege_textimage_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

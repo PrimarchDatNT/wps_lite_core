@@ -25,7 +25,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00ef
+    sget v0, Lcom/resouce/module/ResLAYOUT;->dialog_new_func_guide:I
 
     const/4 v1, 0x0
 
@@ -147,7 +147,7 @@
 .method public final V2(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b0454
+    sget v0, Lcom/resouce/module/ResID;->close_new_func_guide_dialog_imageView:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0ed5
+    sget v0, Lcom/resouce/module/ResID;->get_more_new_func_guide_dialog_textView:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -191,7 +191,7 @@
     :cond_0
     invoke-virtual {v0, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1928
+    sget v0, Lcom/resouce/module/ResID;->msg_new_func_guide_dialog_textView:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setMovementMethod(Landroid/text/method/MovementMethod;)V
 
-    const v0, 0x7f0b3007
+    sget v0, Lcom/resouce/module/ResID;->title_new_func_guide_dialog_textView:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0454
+    sget v0, Lcom/resouce/module/ResID;->close_new_func_guide_dialog_imageView:I
 
     if-ne p1, v0, :cond_0
 
@@ -380,7 +380,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0ed5
+    sget v0, Lcom/resouce/module/ResID;->get_more_new_func_guide_dialog_textView:I
 
     if-ne p1, v0, :cond_1
 

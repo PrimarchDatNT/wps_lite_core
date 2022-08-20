@@ -74,7 +74,7 @@
     :goto_0
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$k;->I:Landroid/view/View;
 
-    const v2, 0x7f0b0b42
+    sget v2, Lcom/resouce/module/ResID;->et_prot_sheet_cancel_password:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

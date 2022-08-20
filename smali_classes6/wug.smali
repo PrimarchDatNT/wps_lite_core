@@ -582,7 +582,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1227a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_readOnlyNotSupport:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -668,7 +668,7 @@
 
     invoke-interface {v0, v1}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     .line 14
     :try_start_0

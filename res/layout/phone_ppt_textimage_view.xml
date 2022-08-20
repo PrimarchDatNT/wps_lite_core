@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.TextImageView android:textColor="@color/whiteMainTextColor" android:layout_width="@dimen/v10_phone_public_bottombar_item_width" android:layout_weight="0.0" app:drawableColor="@color/normalIconColor" style="@style/phone_public_bottom_image_text"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

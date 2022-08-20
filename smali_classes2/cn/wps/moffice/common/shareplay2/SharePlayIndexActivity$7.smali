@@ -133,7 +133,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity$7;->val$context:Landroid/content/Context;
 
-    const v0, 0x7f121f87
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_corrupted:I
 
     const/4 v1, 0x1
 
@@ -200,7 +200,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity$7;->val$context:Landroid/content/Context;
 
-    const p2, 0x7f121b86
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_no_slide_for_play:I
 
     const/4 p3, 0x1
 

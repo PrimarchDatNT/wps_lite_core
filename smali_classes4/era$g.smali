@@ -236,7 +236,7 @@
 
     iget-object p1, p1, Lera;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121ea1
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cloud_recovery_space_insufficient:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -259,7 +259,7 @@
 
     iget-object p1, p1, Lera;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1206b9
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 

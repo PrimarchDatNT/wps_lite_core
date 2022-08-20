@@ -31,7 +31,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e00df
+    sget p2, Lcom/resouce/module/ResLAYOUT;->dialog_delete_comfirm:I
 
     const/4 v0, 0x0
 
@@ -86,7 +86,7 @@
 .method public final Y2(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b1926
+    sget v0, Lcom/resouce/module/ResID;->msg_dialog_delete_confirm_textView:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b1728
+    sget v0, Lcom/resouce/module/ResID;->loading_dialog_delete_confirm_MaterialProgressBarCycle:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -166,7 +166,7 @@
 
     invoke-virtual {v0, v4}, Lcn/wps/moffice/common/beans/MaterialProgressBarCycle;->setRimColor(I)V
 
-    const v0, 0x7f0b36e8
+    sget v0, Lcom/resouce/module/ResID;->yes_dialog_delete_confirm_textView:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1a33
+    sget v0, Lcom/resouce/module/ResID;->no_dialog_delete_confirm_textView:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

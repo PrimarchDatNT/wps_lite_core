@@ -50,7 +50,7 @@
 .method public final a()V
     .locals 1
 
-    const v0, 0x7f0b19b1
+    sget v0, Lcom/resouce/module/ResID;->native_ad_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b19ae
+    sget v0, Lcom/resouce/module/ResID;->native_ad_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -72,7 +72,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b199f
+    sget v0, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     .line 3
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b19a4
+    sget v0, Lcom/resouce/module/ResID;->native_ad_main_image:I
 
     .line 4
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->f:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b19a3
+    sget v0, Lcom/resouce/module/ResID;->native_ad_icon_image:I
 
     .line 5
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -105,7 +105,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->e:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0096
+    sget v0, Lcom/resouce/module/ResID;->ad_sign_info_root:I
 
     .line 6
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->g:Landroid/view/View;
 
-    const v0, 0x7f0b19a5
+    sget v0, Lcom/resouce/module/ResID;->native_ad_main_webView:I
 
     .line 7
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->h:Lcom/mopub/mobileads/KS2SBaseAdWebView;
 
-    const v0, 0x7f0b19b2
+    sget v0, Lcom/resouce/module/ResID;->native_ad_webview_bg:I
 
     .line 8
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->j:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b009b
+    sget v0, Lcom/resouce/module/ResID;->ad_top_info_root:I
 
     .line 9
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->adInfoForWebView:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b043f
+    sget v0, Lcom/resouce/module/ResID;->close:I
 
     .line 10
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->closeButton:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0095
+    sget v0, Lcom/resouce/module/ResID;->ad_sign_for_webview:I
 
     .line 11
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;
@@ -169,7 +169,7 @@
 
     iput-object v0, p0, Lcom/mopub/mobileads/S2SInterstitialView;->i:Landroid/widget/TextView;
 
-    const v0, 0x7f0b163a
+    sget v0, Lcom/resouce/module/ResID;->ll_ad_complaint_btn:I
 
     .line 12
     invoke-virtual {p0, v0}, Lcom/mopub/mobileads/S2SInterstitialView;->findViewById(I)Landroid/view/View;

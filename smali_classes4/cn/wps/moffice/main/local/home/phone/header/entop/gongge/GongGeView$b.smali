@@ -515,13 +515,13 @@
 
     move-result-object v3
 
-    const v6, 0x7f122263
+    sget v6, Lcom/resouce/module/ResSTRING;->public_home_add:I
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v10, 0x7f080593
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->en_home_top_add:I
 
     const/4 v11, 0x1
 
@@ -566,13 +566,13 @@
 
     move-result-object v3
 
-    const v6, 0x7f1224d9
+    sget v6, Lcom/resouce/module/ResSTRING;->public_more:I
 
     invoke-virtual {v3, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v8
 
-    const v10, 0x7f080596
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->en_home_top_more:I
 
     const/4 v11, 0x1
 

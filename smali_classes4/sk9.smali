@@ -7,7 +7,7 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lrk9$b;)V
     .locals 8
 
-    const v4, 0x7f081068
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_share_panel_email_middle:I
 
     const/4 v5, 0x0
 
@@ -49,12 +49,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12290e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_link_to_email:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f1228f3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_send_file_to_email:I
 
     return v0
 .end method

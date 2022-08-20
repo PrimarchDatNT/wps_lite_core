@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e074b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_recents_layout:I
 
     const/4 v2, 0x0
 
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Lmq9;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1108
+    sget v1, Lcom/resouce/module/ResID;->home_page_listview:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     iget-object p2, p0, Lmq9;->d:Lcn/wps/moffice/main/local/home/phone/homedataprovider/scrolllayout/ScrollManagerListView;
 
-    const v0, 0x7f0e0c35
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_list_footer_layout:I
 
     invoke-virtual {p1, v0, p2, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

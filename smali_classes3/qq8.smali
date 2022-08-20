@@ -39,7 +39,7 @@
     .line 2
     iget-object v1, p0, Lqq8;->a:Landroid/view/View;
 
-    const v2, 0x7f0b1742
+    sget v2, Lcom/resouce/module/ResID;->location_country_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

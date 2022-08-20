@@ -184,7 +184,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e08c4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_public_rating_choose_dialog_content:I
 
     invoke-virtual {v2, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -192,7 +192,7 @@
 
     iput-object v1, p0, Lmqa;->c:Landroid/view/View;
 
-    const v2, 0x7f0b0119
+    sget v2, Lcom/resouce/module/ResID;->appList:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
     .line 10
     invoke-virtual {p2}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v0, 0x7f122793
+    sget v0, Lcom/resouce/module/ResSTRING;->public_rating_choose_app_title:I
 
     .line 11
     invoke-virtual {p2, v0}, Lhd3;->setTitleById(I)Lhd3;

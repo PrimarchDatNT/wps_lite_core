@@ -229,12 +229,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0a2d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_underline_index:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e111b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_underline_index:I
 
     :goto_0
     const/4 v1, 0x0
@@ -273,7 +273,7 @@
 .method public q2()V
     .locals 2
 
-    const v0, 0x7f0b36db
+    sget v0, Lcom/resouce/module/ResID;->writer_underlinescrollview:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

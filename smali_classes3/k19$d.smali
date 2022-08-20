@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b302e
+    sget v0, Lcom/resouce/module/ResID;->titlebar_second_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -118,7 +118,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_2
 

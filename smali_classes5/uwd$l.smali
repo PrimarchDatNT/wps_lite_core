@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f121b4b    # 1.94209E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_audio_change_fail:I    # 1.94209E38f
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

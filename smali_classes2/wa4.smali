@@ -78,7 +78,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0ba4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     const/4 v1, 0x0
 
@@ -86,7 +86,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b254e
+    sget v0, Lcom/resouce/module/ResID;->progress_text:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lwa4;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2538
+    sget v0, Lcom/resouce/module/ResID;->progress_bar:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
     .line 9
     iget-object v0, p0, Lwa4;->b:Lhd3;
 
-    const v1, 0x7f121315
+    sget v1, Lcom/resouce/module/ResSTRING;->knowledge_comm_loading:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 

@@ -74,7 +74,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1231b6
+    sget v2, Lcom/resouce/module/ResSTRING;->website_export_long_pic_failed:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

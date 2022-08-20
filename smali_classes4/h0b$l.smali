@@ -117,7 +117,7 @@
 
     move-result-object p3
 
-    const p5, 0x7f1204b5
+    sget p5, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array p2, p2, [Ljava/lang/Object;
 

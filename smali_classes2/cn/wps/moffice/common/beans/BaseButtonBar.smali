@@ -57,7 +57,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b17
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_base_buttonbar:I
 
     const/4 v1, 0x0
 
@@ -67,7 +67,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/BaseButtonBar;->I:Landroid/view/View;
 
-    const v0, 0x7f0b01fa
+    sget v0, Lcom/resouce/module/ResID;->base_buttonbar_scrollView:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/beans/BaseButtonBar;->I:Landroid/view/View;
 
-    const v0, 0x7f0b01f9
+    sget v0, Lcom/resouce/module/ResID;->base_buttonbar_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

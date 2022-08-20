@@ -454,7 +454,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0713
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_download_dialog:I
 
     const/4 v2, 0x0
 
@@ -464,7 +464,7 @@
 
     iput-object v0, p0, Lmt7;->f:Landroid/view/View;
 
-    const v1, 0x7f0b079c
+    sget v1, Lcom/resouce/module/ResID;->downloadbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -483,7 +483,7 @@
     .line 4
     iget-object v0, p0, Lmt7;->f:Landroid/view/View;
 
-    const v1, 0x7f0b28bc
+    sget v1, Lcom/resouce/module/ResID;->resultView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -496,7 +496,7 @@
     .line 5
     iget-object v0, p0, Lmt7;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2c9d
+    sget v1, Lcom/resouce/module/ResID;->speedView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -509,7 +509,7 @@
     .line 6
     iget-object v0, p0, Lmt7;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2c9c
+    sget v1, Lcom/resouce/module/ResID;->speedPlusView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -588,7 +588,7 @@
     .line 16
     iget-object p1, p0, Lmt7;->e:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lmt7$b;
 

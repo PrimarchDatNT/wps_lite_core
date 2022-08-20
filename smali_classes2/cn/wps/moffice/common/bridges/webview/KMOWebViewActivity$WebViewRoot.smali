@@ -49,7 +49,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/bridges/webview/KMOWebViewActivity$WebViewRoot;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f0e08ab
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_normal_webview:I
 
     const/4 v2, 0x0
 

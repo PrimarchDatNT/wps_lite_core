@@ -38,13 +38,13 @@
 .method public a(Z)V
     .locals 5
 
-    const v0, 0x7f0b10b1
+    sget v0, Lcom/resouce/module/ResID;->home_my_user_go_member_text:I
 
     const-string v1, "show"
 
     const/16 v2, 0x8
 
-    const v3, 0x7f0b078d
+    sget v3, Lcom/resouce/module/ResID;->dot_v:I
 
     const/4 v4, 0x0
 
@@ -104,7 +104,7 @@
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_0
-    const v2, 0x7f120645
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_need_upragde_dialog_ok:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -239,7 +239,7 @@
 
     if-nez v0, :cond_3
 
-    const v0, 0x7f121c8e
+    sget v0, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V

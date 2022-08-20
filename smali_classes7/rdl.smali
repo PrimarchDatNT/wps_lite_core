@@ -119,7 +119,7 @@
     return p1
 
     :cond_1
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 5
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -186,7 +186,7 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f1220f0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     if-eqz v2, :cond_1
 

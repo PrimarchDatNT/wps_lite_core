@@ -209,7 +209,7 @@
 
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    const v0, 0x7f12233a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_hyperlink_linkto:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -262,7 +262,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122333
+    sget p1, Lcom/resouce/module/ResSTRING;->public_hypelink_filenotfound:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0357
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_mypursing_account_activity:I
 
     const/4 v2, 0x0
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0061
+    sget v1, Lcom/resouce/module/ResID;->account_fragment:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b30
+    sget v1, Lcom/resouce/module/ResID;->setting_fragment:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1977
+    sget v1, Lcom/resouce/module/ResID;->my_pursing_ad_fragment:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1978
+    sget v1, Lcom/resouce/module/ResID;->my_pursing_banner_fragment:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
@@ -207,7 +207,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e59
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_pursing:I
 
     return v0
 .end method

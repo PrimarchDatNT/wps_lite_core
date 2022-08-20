@@ -251,7 +251,7 @@
     :cond_1
     iget-object v4, p0, Lz34;->d:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0e00eb
+    sget v5, Lcom/resouce/module/ResLAYOUT;->dialog_hotkey_item:I
 
     invoke-virtual {v4, v5, v0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -259,7 +259,7 @@
 
     check-cast v4, Landroid/view/ViewGroup;
 
-    const v5, 0x7f0b1213
+    sget v5, Lcom/resouce/module/ResID;->hotkey_name:I
 
     .line 11
     invoke-virtual {v4, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -268,7 +268,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b1211
+    sget v6, Lcom/resouce/module/ResID;->hotkey_key:I
 
     .line 12
     invoke-virtual {v4, v6}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -302,7 +302,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0606e2
+    sget v8, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 

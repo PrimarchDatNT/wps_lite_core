@@ -164,7 +164,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0843
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_cloud_anim_container:I
 
     const/4 v3, 0x0
 
@@ -176,7 +176,7 @@
 
     iput-object v0, p0, Lmj7;->o:Landroid/view/View;
 
-    const v2, 0x7f0b0480
+    sget v2, Lcom/resouce/module/ResID;->cloud_upload_anim:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -276,9 +276,9 @@
     .line 1
     iget-object v0, p0, Lmj7;->a:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0b34b4
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_setting:I
 
-    const v2, 0x7f081a43
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_multiselect_more:I
 
     const/16 v3, 0x8
 
@@ -623,7 +623,7 @@
     .line 3
     iput-object p1, p0, Lmj7;->j:Landroid/app/Activity;
 
-    const p5, 0x7f0b21a4
+    sget p5, Lcom/resouce/module/ResID;->phone_wpsdrive_titlebar:I
 
     .line 4
     invoke-virtual {p2, p5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -706,7 +706,7 @@
 
     if-eqz p2, :cond_1
 
-    const p5, 0x7f1205ba
+    sget p5, Lcom/resouce/module/ResSTRING;->documentmanager_history_record_search:I
 
     .line 18
     invoke-virtual {p1, p5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

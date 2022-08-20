@@ -220,7 +220,7 @@
 
     iget-object p1, p1, Lhy7;->Y:Landroid/app/Activity;
 
-    const p2, 0x7f121da3
+    sget p2, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     const/4 p3, 0x0
 

@@ -106,7 +106,7 @@
     .line 1
     iget-object p2, p0, Lm2l;->B:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e09d6
+    sget p3, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_item:I
 
     const/4 v0, 0x0
 
@@ -119,7 +119,7 @@
 
     invoke-direct {p3, v0}, Lm2l$b;-><init>(Lm2l$a;)V
 
-    const v0, 0x7f0b2e4f
+    sget v0, Lcom/resouce/module/ResID;->table_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     iput-object v0, p3, Lm2l$b;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0c04
+    sget v0, Lcom/resouce/module/ResID;->explain:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

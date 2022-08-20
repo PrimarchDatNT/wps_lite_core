@@ -41,7 +41,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1069
+    sget p2, Lcom/resouce/module/ResID;->home_drive_tag_item:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -52,7 +52,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b34a9
+    sget p2, Lcom/resouce/module/ResID;->wpsdrive_extra_divide_bar:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -66,7 +66,7 @@
 .method public t()I
     .locals 1
 
-    const v0, 0x7f0e0307
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_drive_tag_file_item:I
 
     return v0
 .end method

@@ -864,7 +864,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f0e0c9d
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_interstitial_ad_loading:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -888,7 +888,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f06025d
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, v2, v3}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 

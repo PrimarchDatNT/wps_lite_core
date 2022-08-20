@@ -52,13 +52,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aa9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_select_projection_setting:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b20ab
+    sget v0, Lcom/resouce/module/ResID;->phone_projection_to_wifi:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -69,7 +69,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b20a9
+    sget v0, Lcom/resouce/module/ResID;->phone_projection_scan:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b20ac
+    sget v0, Lcom/resouce/module/ResID;->phone_projection_to_wifi_image:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -94,7 +94,7 @@
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v0, 0x7f0b20aa
+    sget v0, Lcom/resouce/module/ResID;->phone_projection_scan_image:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

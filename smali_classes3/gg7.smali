@@ -132,7 +132,7 @@
 
     if-eqz v0, :cond_0
 
-    const p0, 0x7f0801bf
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_txt:I
 
     goto/16 :goto_0
 
@@ -153,7 +153,7 @@
 
     if-eqz v0, :cond_1
 
-    const p0, 0x7f0801c1
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_word:I
 
     goto/16 :goto_0
 
@@ -174,7 +174,7 @@
 
     if-eqz v0, :cond_2
 
-    const p0, 0x7f0801b9
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_et:I
 
     goto/16 :goto_0
 
@@ -195,7 +195,7 @@
 
     if-eqz v0, :cond_3
 
-    const p0, 0x7f0801be
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_ppt:I
 
     goto :goto_0
 
@@ -216,7 +216,7 @@
 
     if-eqz v0, :cond_4
 
-    const p0, 0x7f0801bd
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_pdf:I
 
     goto :goto_0
 
@@ -237,7 +237,7 @@
 
     if-eqz v0, :cond_5
 
-    const p0, 0x7f0801bb
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_image:I
 
     goto :goto_0
 
@@ -258,7 +258,7 @@
 
     if-eqz v0, :cond_6
 
-    const p0, 0x7f0801ba
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_flowchart:I
 
     goto :goto_0
 
@@ -279,7 +279,7 @@
 
     if-eqz v0, :cond_7
 
-    const p0, 0x7f0801bc
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_mindmap:I
 
     goto :goto_0
 
@@ -300,12 +300,12 @@
 
     if-eqz p0, :cond_8
 
-    const p0, 0x7f0801c2
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_zip:I
 
     goto :goto_0
 
     :cond_8
-    const p0, 0x7f0801c0
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->community_filetype_website:I
 
     :goto_0
     return p0
@@ -321,7 +321,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f1223e5
+    sget p1, Lcom/resouce/module/ResSTRING;->public_link_has_copy_publish_content:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -419,13 +419,13 @@
     :goto_0
     if-eqz p1, :cond_8
 
-    const v0, 0x7f1223f9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_link_share_copy_succeed:I
 
     if-eq p1, v6, :cond_7
 
     new-array p1, v6, [Ljava/lang/Object;
 
-    const v1, 0x7f1223a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_read:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -444,7 +444,7 @@
     :cond_7
     new-array p1, v6, [Ljava/lang/Object;
 
-    const v1, 0x7f1223a5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_permission_write:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -461,7 +461,7 @@
     return-object p0
 
     :cond_8
-    const p1, 0x7f1223fa
+    sget p1, Lcom/resouce/module/ResSTRING;->public_link_share_copy_succeed_spec_person:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1118,7 +1118,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1223f6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_link_settings:I
 
     .line 7
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

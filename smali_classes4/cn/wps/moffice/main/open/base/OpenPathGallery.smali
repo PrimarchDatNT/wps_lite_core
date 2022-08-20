@@ -66,7 +66,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b0d92
+    sget v0, Lcom/resouce/module/ResID;->first_path:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d94
+    sget v1, Lcom/resouce/module/ResID;->first_path_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -120,7 +120,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b2a35
+    sget v0, Lcom/resouce/module/ResID;->scroll_container:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1d04
+    sget v0, Lcom/resouce/module/ResID;->path_scroll_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -241,7 +241,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1d01
+    sget v4, Lcom/resouce/module/ResID;->path_item_text:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -434,7 +434,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -155,7 +155,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12245c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_login_other_wps_account_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -165,7 +165,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity$b;-><init>(Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity;)V
 
-    const v2, 0x7f1229fc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -174,7 +174,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity$c;-><init>(Lcn/wps/moffice/common/google/pay/restore/RestorePurchaseFailActivity;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

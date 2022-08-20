@@ -22,7 +22,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b15da
+    sget v0, Lcom/resouce/module/ResID;->link_modify_period:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -33,7 +33,7 @@
 
     iput-object v0, p0, Ljo4;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b15d3
+    sget v0, Lcom/resouce/module/ResID;->link_modify_delay_button:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -57,7 +57,7 @@
 .method public static c(Landroid/content/Context;Lrxp;Z)Ljava/lang/String;
     .locals 0
 
-    const p1, 0x7f1206b7
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_link_modify:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -102,7 +102,7 @@
     .line 1
     iget-object p2, p0, Ljo4;->c:Landroid/content/Context;
 
-    const p3, 0x7f120f02
+    sget p3, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -194,7 +194,7 @@
     .line 4
     iget-object v1, p0, Ljo4;->c:Landroid/content/Context;
 
-    const v2, 0x7f1223ed
+    sget v2, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -206,7 +206,7 @@
     :cond_2
     iget-object v4, p0, Ljo4;->c:Landroid/content/Context;
 
-    const v5, 0x7f1223f0
+    sget v5, Lcom/resouce/module/ResSTRING;->public_link_overtime:I
 
     new-array v1, v1, [Ljava/lang/Object;
 

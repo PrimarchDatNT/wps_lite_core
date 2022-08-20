@@ -271,7 +271,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e060f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->part_ocr_scan_txt_img_item:I
 
     const/4 v1, 0x0
 

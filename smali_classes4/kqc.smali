@@ -141,7 +141,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ffc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_outline_layout:I
 
     return v0
 .end method

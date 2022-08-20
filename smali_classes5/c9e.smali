@@ -53,7 +53,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lcn/wps/show/app/KmoPresentation;Lc9e$l;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v1, 0x1
 
@@ -548,11 +548,11 @@
     .line 26
     invoke-virtual {p2, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f080782
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_water_mark:I
 
-    const v0, 0x7f122be0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
-    const v1, 0x7f122611
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pdfwatermark_desc:I
 
     new-array v2, v7, [Lcib$b;
 
@@ -614,11 +614,11 @@
     .line 35
     invoke-virtual {p2, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f08076e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic_document_export:I
 
-    const v0, 0x7f1220a7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
-    const v1, 0x7f1220a8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_des:I
 
     new-array v2, v7, [Lcib$b;
 
@@ -684,11 +684,11 @@
     .line 44
     invoke-virtual {p2, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f081a5a
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_no_ad_logo:I
 
-    const v0, 0x7f12252b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_ad_logo:I
 
-    const v1, 0x7f122051
+    sget v1, Lcom/resouce/module/ResSTRING;->public_enjoy_no_ad_logo:I
 
     new-array v2, v7, [Lcib$b;
 
@@ -774,11 +774,11 @@
     .line 55
     invoke-virtual {p2, p1}, Ljs4;->n(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f080717
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_document2pdf:I
 
-    const v0, 0x7f122014
+    sget v0, Lcom/resouce/module/ResSTRING;->public_document_to_pdf:I
 
-    const v1, 0x7f122015
+    sget v1, Lcom/resouce/module/ResSTRING;->public_document_to_pdf_tips:I
 
     new-array v2, v7, [Lcib$b;
 
@@ -886,7 +886,7 @@
     .line 67
     iget-object p1, p0, Lc9e;->V:Landroid/app/Activity;
 
-    const p2, 0x7f1220a6
+    sget p2, Lcom/resouce/module/ResSTRING;->public_export_pic_document_num_tips:I
 
     invoke-static {p1, p2, v7}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1289,7 +1289,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e080f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_savepdf_preview_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -1305,7 +1305,7 @@
     .line 3
     iget-object v0, p0, Lc9e;->B:Landroid/view/View;
 
-    const v1, 0x7f0b22ba
+    sget v1, Lcom/resouce/module/ResID;->ppt_exportpdf_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1322,7 +1322,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12209f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1342,7 +1342,7 @@
     .line 6
     iget-object v0, p0, Lc9e;->B:Landroid/view/View;
 
-    const v3, 0x7f0b22b9
+    sget v3, Lcom/resouce/module/ResID;->ppt_exportpdf_progressbar:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1362,7 +1362,7 @@
     .line 8
     iget-object v0, p0, Lc9e;->B:Landroid/view/View;
 
-    const v3, 0x7f0b22b8
+    sget v3, Lcom/resouce/module/ResID;->ppt_exportpdf_preview_list:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1384,7 +1384,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0e08fe
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_public_watermark_preview_footer:I
 
     invoke-virtual {v0, v4, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1495,7 +1495,7 @@
     .line 21
     iget-object v0, p0, Lc9e;->B:Landroid/view/View;
 
-    const v2, 0x7f0b22b4
+    sget v2, Lcom/resouce/module/ResID;->ppt_exportpdf_bottom_ctrl:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1504,7 +1504,7 @@
     .line 22
     iget-object v2, p0, Lc9e;->B:Landroid/view/View;
 
-    const v4, 0x7f0b22b5
+    sget v4, Lcom/resouce/module/ResID;->ppt_exportpdf_bottom_ctrl_en:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1606,7 +1606,7 @@
     .line 35
     iget-object v0, p0, Lc9e;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0db8
+    sget v2, Lcom/resouce/module/ResID;->fl_export_pdf_preview_content:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1711,7 +1711,7 @@
     .line 47
     iget-object p1, p0, Lc9e;->B:Landroid/view/View;
 
-    const v0, 0x7f0b268d
+    sget v0, Lcom/resouce/module/ResID;->public_monglian:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2057,11 +2057,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122611
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pdfwatermark_desc:I
 
-    const v3, 0x7f122be0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_watermark:I
 
-    const v4, 0x7f080782
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_water_mark:I
 
     const/4 v5, 0x1
 

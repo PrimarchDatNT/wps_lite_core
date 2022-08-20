@@ -159,7 +159,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aab
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_phone_smart_img_loading:I
 
     const/4 v2, 0x1
 
@@ -170,7 +170,7 @@
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v0, 0x7f0b1491
+    sget v0, Lcom/resouce/module/ResID;->iv_loading:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

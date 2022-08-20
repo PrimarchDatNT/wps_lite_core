@@ -18,7 +18,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f121827
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merge_complete:I
 
     return v0
 .end method
@@ -26,7 +26,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f12182a
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_merge_fail_try_again:I
 
     return v0
 .end method
@@ -34,7 +34,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f1224c3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_merging:I
 
     return v0
 .end method

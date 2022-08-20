@@ -64,7 +64,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2fb0
+    sget v0, Lcom/resouce/module/ResID;->tips_bar:I
 
     if-ne p1, v0, :cond_0
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b2fb2
+    sget v0, Lcom/resouce/module/ResID;->tips_bar_close_image:I
 
     if-ne p1, v0, :cond_1
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205a
+    sget v1, Lcom/resouce/module/ResID;->phone_message_msg_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205d
+    sget v1, Lcom/resouce/module/ResID;->phone_message_update_now_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -261,7 +261,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2058
+    sget v1, Lcom/resouce/module/ResID;->phone_message_close_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26fe
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_tips_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,7 +313,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205c
+    sget v1, Lcom/resouce/module/ResID;->phone_message_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
     .line 2
     iget-object v0, p0, Lc5a;->c:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0572
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_tips_bar_stub:I
 
     const/4 v2, 0x0
 
@@ -345,7 +345,7 @@
 
     iput-object v0, p0, Ljp9;->v:Landroid/view/View;
 
-    const v1, 0x7f0b2fb0
+    sget v1, Lcom/resouce/module/ResID;->tips_bar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -357,7 +357,7 @@
     .line 4
     iget-object v0, p0, Ljp9;->v:Landroid/view/View;
 
-    const v1, 0x7f0b2fb2
+    sget v1, Lcom/resouce/module/ResID;->tips_bar_close_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -400,7 +400,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2fb1
+    sget v1, Lcom/resouce/module/ResID;->tips_bar_bottom_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -422,7 +422,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f0e056b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_import_process_stub:I
 
     return v0
 .end method
@@ -600,7 +600,7 @@
 .method public u()I
     .locals 1
 
-    const v0, 0x7f0e0571
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_home_qing_roaming_tab_v2:I
 
     return v0
 .end method

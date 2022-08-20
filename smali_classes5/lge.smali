@@ -222,7 +222,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070d56
+    sget v3, Lcom/resouce/module/ResDIMEN;->wps_docer_login_bottom_margin:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -240,7 +240,7 @@
     .line 4
     iget-object v4, p0, Llge;->U:Landroid/view/View;
 
-    const v5, 0x7f0b3479
+    sget v5, Lcom/resouce/module/ResID;->wps_docer_login_layout_img:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -270,7 +270,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d57
+    sget v1, Lcom/resouce/module/ResDIMEN;->wps_docer_login_top_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -435,7 +435,7 @@
 
     iget-object v1, p0, Llge;->Z:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -448,7 +448,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03ef
+    sget v1, Lcom/resouce/module/ResLAYOUT;->internal_ppt_template_beauty_mine_cn_view:I
 
     const/4 v2, 0x0
 
@@ -458,7 +458,7 @@
 
     iput-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -540,7 +540,7 @@
     .line 12
     iget-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b175a
+    sget v1, Lcom/resouce/module/ResID;->login_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -548,7 +548,7 @@
 
     iput-object v0, p0, Llge;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3478
+    sget v1, Lcom/resouce/module/ResID;->wps_docer_login_layout_content:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -560,7 +560,7 @@
     .line 14
     iget-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b3477
+    sget v1, Lcom/resouce/module/ResID;->wps_docer_login_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -573,7 +573,7 @@
     .line 15
     iget-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b245f
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_no_network_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -584,7 +584,7 @@
     .line 16
     iget-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1c7a
+    sget v1, Lcom/resouce/module/ResID;->pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -597,7 +597,7 @@
     .line 17
     iget-object v0, p0, Llge;->I:Landroid/view/View;
 
-    const v1, 0x7f0b12e3
+    sget v1, Lcom/resouce/module/ResID;->indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -711,7 +711,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -734,7 +734,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -778,7 +778,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -801,7 +801,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -848,12 +848,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f07056f
+    sget v3, Lcom/resouce/module/ResDIMEN;->pad_home_title_larger_size:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f07063e
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_documentmanager_homepage_listview_item_text_default_size:I
 
     :goto_0
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -900,7 +900,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f12145a
+    sget v3, Lcom/resouce/module/ResSTRING;->name_my_offline_templates:I
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -981,7 +981,7 @@
     .line 1
     iget-object v0, p0, Llge;->S:Landroid/view/View;
 
-    const v1, 0x7f0b347b
+    sget v1, Lcom/resouce/module/ResID;->wps_docer_login_layout_top_shadow:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

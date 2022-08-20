@@ -363,7 +363,7 @@
 
     iput-object v0, p0, Lcom/facebook/login/widget/ToolTipPopup;->d:Lcom/facebook/login/widget/ToolTipPopup$PopupContentView;
 
-    const v1, 0x7f0b04c3
+    sget v1, Lcom/resouce/module/ResID;->com_facebook_tooltip_bubble_view_text_body:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -391,7 +391,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08019a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_blue_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08019b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_blue_bottomnub:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08019c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_blue_topnub:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -424,7 +424,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08019d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_blue_xout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080196
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_black_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -449,7 +449,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080197
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_black_bottomnub:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -460,7 +460,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080198
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_black_topnub:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -471,7 +471,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080199
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->com_facebook_tooltip_black_xout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

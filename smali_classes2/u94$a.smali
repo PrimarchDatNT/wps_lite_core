@@ -68,46 +68,46 @@
 
     move-result p1
 
-    const p2, 0x7f081380
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_weixin:I
 
     if-ne p1, p2, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f08137d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_qq:I
 
     if-ne p1, p2, :cond_2
 
     goto :goto_0
 
     :cond_2
-    const p2, 0x7f08137c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_mail:I
 
     if-eq p1, p2, :cond_6
 
-    const p2, 0x7f0819cc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_mail:I
 
     if-ne p1, p2, :cond_3
 
     goto :goto_0
 
     :cond_3
-    const p2, 0x7f08137e
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_social_ad_send_to_computer:I
 
     if-ne p1, p2, :cond_4
 
     goto :goto_0
 
     :cond_4
-    const p2, 0x7f0819cb
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_evernote:I
 
     if-ne p1, p2, :cond_5
 
     goto :goto_0
 
     :cond_5
-    const p2, 0x7f0819cd
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_infoflow_share_skype:I
 
     .line 4
     :cond_6

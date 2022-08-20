@@ -58,7 +58,7 @@
     .line 3
     new-instance v0, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;
 
-    const v1, 0x7f0b35d0
+    sget v1, Lcom/resouce/module/ResID;->writer_layout:I
 
     invoke-direct {v0, p1, v1}, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;-><init>(Landroid/app/Activity;I)V
 

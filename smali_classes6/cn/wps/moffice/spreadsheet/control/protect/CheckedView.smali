@@ -33,19 +33,19 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e098b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_prot_sheet_startuse_prot:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e0240
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_prot_sheet_startuse_prot:I
 
     :goto_0
     const/4 v0, 0x1
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b0b5e
+    sget p1, Lcom/resouce/module/ResID;->et_prot_sheet_switch_state:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/protect/CheckedView;->I:Landroid/widget/ImageView;
 
-    const p2, 0x7f0813b1
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_toggle_off:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -91,12 +91,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0813b3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_toggle_on:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0813b1
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_toggle_off:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V

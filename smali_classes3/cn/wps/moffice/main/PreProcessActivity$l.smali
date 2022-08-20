@@ -43,7 +43,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/main/PreProcessActivity$l;->B:Lcn/wps/moffice/main/PreProcessActivity;
 
-    const v0, 0x7f01003f
+    sget v0, Lcom/resouce/module/ResANIM;->fade_in:I
 
     iput v0, p1, Lcn/wps/moffice/main/PreProcessActivity;->B:I
 

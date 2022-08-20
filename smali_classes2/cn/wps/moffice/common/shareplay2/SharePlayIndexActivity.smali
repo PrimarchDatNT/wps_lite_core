@@ -514,7 +514,7 @@
 
     move-result v0
 
-    const v1, 0x7f121c1d
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_launch_version_low:I
 
     const/4 v2, 0x1
 
@@ -528,7 +528,7 @@
     invoke-direct {p0}, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity;->restartPreview()V
 
     :cond_3
-    const p1, 0x7f121c1e
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_unsupport:I
 
     .line 8
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -558,7 +558,7 @@
     invoke-direct {p0}, Lcn/wps/moffice/common/shareplay2/SharePlayIndexActivity;->restartPreview()V
 
     :cond_7
-    const p1, 0x7f121c1c
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_join_fail_join_version_low:I
 
     .line 12
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -728,7 +728,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1229e0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     .line 2
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -779,7 +779,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f12276e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_success:I
 
     .line 9
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -1335,7 +1335,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b33b3
+    sget v0, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 29
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1490,9 +1490,9 @@
     return-void
 
     :cond_0
-    const v0, 0x7f010067
+    sget v0, Lcom/resouce/module/ResANIM;->phone_public_switch_view_bottom_in:I
 
-    const v1, 0x7f010069
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_keep:I
 
     .line 2
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -1513,9 +1513,9 @@
     return-void
 
     :cond_0
-    const v0, 0x7f010069
+    sget v0, Lcom/resouce/module/ResANIM;->phone_public_switch_view_keep:I
 
-    const v1, 0x7f010068
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_bottom_out:I
 
     .line 2
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -1734,7 +1734,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ffe
+    sget v1, Lcom/resouce/module/ResSTRING;->start_web_shareplay_fail:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1942,7 +1942,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 4
     invoke-static {p1}, Ldgh;->K0(Landroid/content/Context;)Z
@@ -1951,7 +1951,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f130139
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Shareplay_Pad:I
 
     .line 5
     :cond_1
@@ -2049,7 +2049,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 4
     invoke-static {p1}, Ldgh;->K0(Landroid/content/Context;)Z
@@ -2058,7 +2058,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f130139
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Shareplay_Pad:I
 
     .line 5
     :cond_1
@@ -2546,7 +2546,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

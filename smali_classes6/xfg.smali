@@ -216,7 +216,7 @@
 .method private c3()V
     .locals 2
 
-    const v0, 0x7f0b0248
+    sget v0, Lcom/resouce/module/ResID;->bottom_bar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v0, p0, Lxfg;->G0:Landroid/view/View;
 
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     iput-object v0, p0, Lxfg;->H0:Landroid/view/View;
 
-    const v0, 0x7f0b1a22
+    sget v0, Lcom/resouce/module/ResID;->next_step:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     iput-object v0, p0, Lxfg;->I0:Landroid/view/View;
 
-    const v0, 0x7f0b187f
+    sget v0, Lcom/resouce/module/ResID;->merge_sheet_btn:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b04f7
+    sget v0, Lcom/resouce/module/ResID;->concat_vip_icon:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 .method private e3()V
     .locals 3
 
-    const v0, 0x7f0b2fd7
+    sget v0, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -310,7 +310,7 @@
 
     invoke-static {v1, v2}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     iput-object v1, p0, Lxfg;->u0:Landroid/widget/ImageView;
 
-    const v1, 0x7f0b2fec
+    sget v1, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -332,7 +332,7 @@
 
     iput-object v0, p0, Lxfg;->v0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2fde
+    sget v0, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -351,7 +351,7 @@
     .line 9
     iget-object v0, p0, Lxfg;->w0:Landroid/widget/ImageView;
 
-    const v1, 0x7f080229
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_feedback:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -364,7 +364,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -707,7 +707,7 @@
 .method public final M3()V
     .locals 6
 
-    const v0, 0x7f0b0d76
+    sget v0, Lcom/resouce/module/ResID;->filter_row_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -716,7 +716,7 @@
 
     iput-object v0, p0, Lxfg;->A0:Landroid/view/View;
 
-    const v0, 0x7f0b2c0a
+    sget v0, Lcom/resouce/module/ResID;->show_row_tips:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -725,7 +725,7 @@
 
     iput-object v0, p0, Lxfg;->B0:Landroid/view/View;
 
-    const v0, 0x7f0b2c08
+    sget v0, Lcom/resouce/module/ResID;->show_row_chooser:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -734,7 +734,7 @@
 
     iput-object v0, p0, Lxfg;->C0:Landroid/view/View;
 
-    const v0, 0x7f0b0d77
+    sget v0, Lcom/resouce/module/ResID;->filter_row_text:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -754,7 +754,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b2c09
+    sget v0, Lcom/resouce/module/ResID;->show_row_chooser_img:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e094a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_concat_filter_row_pop_menu:I
 
     const/4 v3, 0x0
 
@@ -841,7 +841,7 @@
 .method public final N3()V
     .locals 5
 
-    const v0, 0x7f0b187a
+    sget v0, Lcom/resouce/module/ResID;->merge_files_list:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -890,7 +890,7 @@
     .line 5
     iget-object v0, p0, Ltgg;->V:Lcn/wps/moffice/spreadsheet/control/mergesheet/merge/MergeDragSortListView;
 
-    const v1, 0x7f0b04f4
+    sget v1, Lcom/resouce/module/ResID;->concat_file_handle:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/DragSortListView;->setDragHandleId(I)V
 
@@ -903,7 +903,7 @@
     .line 1
     iget-object v0, p0, Lxfg;->t0:Lcn/wps/moffice/spreadsheet/control/mergesheet/concat/InterceptFrameLayout;
 
-    const v1, 0x7f0b04f6
+    sget v1, Lcom/resouce/module/ResID;->concat_sheet_thumb_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -943,7 +943,7 @@
     .line 5
     iget-object v0, p0, Lxfg;->y0:Lcn/wps/moffice/spreadsheet/control/mergesheet/merge/MergeDragSortListView;
 
-    const v1, 0x7f0b0c45
+    sget v1, Lcom/resouce/module/ResID;->extract_file_handle:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/DragSortListView;->setDragHandleId(I)V
 
@@ -1147,7 +1147,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1219b9
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1334,7 +1334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0949
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_concat_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -1351,7 +1351,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b2bdf
+    sget v0, Lcom/resouce/module/ResID;->sheet_merge_progress_bar_cycle:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1363,7 +1363,7 @@
     .line 4
     invoke-direct {p0}, Lxfg;->e3()V
 
-    const v0, 0x7f0b2be0
+    sget v0, Lcom/resouce/module/ResID;->sheet_merge_sort_desc:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -1450,7 +1450,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     if-ne p1, v1, :cond_2
 
@@ -1490,7 +1490,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     if-ne p1, v1, :cond_3
 
@@ -1511,7 +1511,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v0, 0x7f0b00aa
+    sget v0, Lcom/resouce/module/ResID;->add_files_btn:I
 
     if-ne p1, v0, :cond_4
 
@@ -1526,7 +1526,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v0, 0x7f0b1a22
+    sget v0, Lcom/resouce/module/ResID;->next_step:I
 
     if-ne p1, v0, :cond_5
 
@@ -1551,7 +1551,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b2c0a
+    sget v0, Lcom/resouce/module/ResID;->show_row_tips:I
 
     if-ne p1, v0, :cond_7
 
@@ -1580,7 +1580,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0b2c08
+    sget v0, Lcom/resouce/module/ResID;->show_row_chooser:I
 
     if-ne p1, v0, :cond_8
 
@@ -1590,7 +1590,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0b187f
+    sget v0, Lcom/resouce/module/ResID;->merge_sheet_btn:I
 
     if-ne p1, v0, :cond_9
 
@@ -1825,7 +1825,7 @@
     .line 2
     iget-object v0, p0, Lxfg;->v0:Landroid/widget/TextView;
 
-    const v4, 0x7f122fb6
+    sget v4, Lcom/resouce/module/ResSTRING;->ss_choose_merge_sheet:I
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1870,7 +1870,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f1219b6
+    sget v6, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_merge_word:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1979,7 +1979,7 @@
     :cond_5
     iget-object v0, p0, Lxfg;->v0:Landroid/widget/TextView;
 
-    const v4, 0x7f1219b9
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_op_concat_sheet:I
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -1992,7 +1992,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1219ab
+    sget v5, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_concat_word:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -62,11 +62,11 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e111d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->zoom_photo_layout:I
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b315e
+    sget p1, Lcom/resouce/module/ResID;->tv_error:I
 
     .line 9
     invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lf8d;->d:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2e76
+    sget p1, Lcom/resouce/module/ResID;->tag_key:I
 
     .line 10
     invoke-virtual {v0, p1, p0}, Landroid/widget/FrameLayout;->setTag(ILjava/lang/Object;)V

@@ -356,7 +356,7 @@
 
     if-nez v0, :cond_2
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -468,7 +468,7 @@
     .line 15
     invoke-static {v0, p2}, Lza4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f12274e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

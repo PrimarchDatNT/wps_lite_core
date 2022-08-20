@@ -199,7 +199,7 @@
 
     const/4 p3, 0x0
 
-    const v0, 0x7f0e0773
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_myorders_type_view_layout:I
 
     if-nez p2, :cond_0
 

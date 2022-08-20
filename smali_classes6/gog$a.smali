@@ -36,7 +36,7 @@
 
     iput-object v0, p0, Lgog$a;->j0:Landroid/content/Context;
 
-    const v0, 0x7f0b2865
+    sget v0, Lcom/resouce/module/ResID;->recyclerview_item:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -47,7 +47,7 @@
 
     iput-object v0, p0, Lgog$a;->k0:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v0, 0x7f0b33f3
+    sget v0, Lcom/resouce/module/ResID;->water_mark_iv:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -314,7 +314,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f080624
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->et_export_card_preview_bg:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

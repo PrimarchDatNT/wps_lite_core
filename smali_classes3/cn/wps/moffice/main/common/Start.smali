@@ -2439,21 +2439,21 @@
 
     move-result-object v0
 
-    const v1, 0x7f12188e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f121c94
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v2, 0x7f081527
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->premium_center_pay_bg:I
 
     const-string v5, "premium_center"
 
@@ -2534,21 +2534,21 @@
 
     move-result-object v0
 
-    const v1, 0x7f12188e
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_privileges_premium_txt:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    const v1, 0x7f121c94
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_pay_center_dec_txt:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v4
 
-    const v2, 0x7f081527
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->premium_center_pay_bg:I
 
     const-string v5, "premium_center"
 

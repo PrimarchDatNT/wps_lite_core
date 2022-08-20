@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120c05
+    sget v2, Lcom/resouce/module/ResSTRING;->et_save_book_tips:I
 
     const/4 v3, 0x1
 
@@ -212,7 +212,7 @@
     .line 5
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->f:Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;
 
-    const v2, 0x7f120c4a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_network_error2:I
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->c:Lz7m;
 
@@ -241,7 +241,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->f:Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;
 
-    const v2, 0x7f120c55
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_wps_drive_no_space_left:I
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->c:Lz7m;
 
@@ -270,7 +270,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->f:Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;
 
-    const v1, 0x7f120c56
+    sget v1, Lcom/resouce/module/ResSTRING;->et_split_table_wps_drive_upload_limit:I
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->c:Lz7m;
 
@@ -292,7 +292,7 @@
     :cond_3
     iget-object v6, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->f:Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler;
 
-    const v7, 0x7f120c46
+    sget v7, Lcom/resouce/module/ResSTRING;->et_split_table_fail:I
 
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/splittable/SplitTabler$d;->c:Lz7m;
 

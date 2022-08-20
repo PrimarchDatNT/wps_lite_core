@@ -70,7 +70,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1214c8
+    sget v3, Lcom/resouce/module/ResSTRING;->oem_cannot_insert_pic_form_camera:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121dba
+    sget v2, Lcom/resouce/module/ResSTRING;->public_camera_unable:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

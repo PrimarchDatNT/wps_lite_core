@@ -187,7 +187,7 @@
 
     check-cast v0, Lvq3;
 
-    const v1, 0x7f0b35df
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_indicator:I
 
     .line 3
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -235,7 +235,7 @@
     iput-object v0, p0, Lt8l;->x0:Lxtk;
 
     :cond_1
-    const v0, 0x7f0b35f1
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_toggleedit_btn:I
 
     .line 9
     iget-object v1, p0, Lt8l;->x0:Lxtk;
@@ -245,7 +245,7 @@
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     :cond_2
-    const v0, 0x7f0b35ec
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lvzl;->M1(Landroid/view/View;Lczl;Ljava/lang/String;)V
 
-    const v1, 0x7f0b35f3
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_undo:I
 
     .line 12
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122b3c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_undo:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -300,7 +300,7 @@
 
     invoke-static {v1, v2}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
-    const v2, 0x7f0b35eb
+    sget v2, Lcom/resouce/module/ResID;->writer_maintoolbar_redo:I
 
     .line 15
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -321,7 +321,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1227e8
+    sget v4, Lcom/resouce/module/ResSTRING;->public_redo:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -329,7 +329,7 @@
 
     invoke-static {v2, v3}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
-    const v3, 0x7f0b35ed
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_share:I
 
     .line 18
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -350,7 +350,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122950
+    sget v5, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -358,7 +358,7 @@
 
     invoke-static {v3, v4}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
-    const v3, 0x7f0b35a6
+    sget v3, Lcom/resouce/module/ResID;->writer_ink_function:I
 
     .line 21
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -379,7 +379,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12236f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ink_pen_title:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -387,7 +387,7 @@
 
     invoke-static {v3, v4}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
-    const v3, 0x7f0b35da
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_backBtn:I
 
     .line 24
     new-instance v4, Lxrk;
@@ -398,7 +398,7 @@
 
     invoke-virtual {p0, v3, v4, v5}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v3, 0x7f0b35de
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_file_btns_container:I
 
     .line 25
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -421,7 +421,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1220ef
+    sget v5, Lcom/resouce/module/ResSTRING;->public_file:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -430,7 +430,7 @@
     invoke-static {v3, v4}, Ltkh;->e(Landroid/view/View;Ljava/lang/String;)V
 
     :cond_3
-    const v3, 0x7f0b35e6
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_multi:I
 
     .line 28
     invoke-virtual {p0, v3}, Luzl;->Z0(I)Landroid/view/View;
@@ -456,7 +456,7 @@
 
     if-eqz v3, :cond_5
 
-    const v3, 0x7f0b2994
+    sget v3, Lcom/resouce/module/ResID;->rom_read_image_close:I
 
     .line 31
     new-instance v4, Lxrk;
@@ -467,7 +467,7 @@
 
     invoke-virtual {p0, v3, v4, v5}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
-    const v3, 0x7f0b2997
+    sget v3, Lcom/resouce/module/ResID;->rom_read_more:I
 
     .line 32
     new-instance v4, Lt8l$h;
@@ -856,7 +856,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f0b35f0
+    sget v4, Lcom/resouce/module/ResID;->writer_maintoolbar_title:I
 
     if-nez p2, :cond_1
 
@@ -894,21 +894,21 @@
 
     check-cast v9, Landroid/widget/TextView;
 
-    const p2, 0x7f0b35dc
+    sget p2, Lcom/resouce/module/ResID;->writer_maintoolbar_btns_container:I
 
     .line 8
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object v10
 
-    const p2, 0x7f0b35f2
+    sget p2, Lcom/resouce/module/ResID;->writer_maintoolbar_top_layout:I
 
     .line 9
     invoke-virtual {p0, p2}, Luzl;->Z0(I)Landroid/view/View;
 
     move-result-object p2
 
-    const v0, 0x7f0b35de
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_file_btns_container:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1039,7 +1039,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b35dc
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_btns_container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1061,7 +1061,7 @@
 
     move-result v2
 
-    const v3, 0x7f0b35de
+    sget v3, Lcom/resouce/module/ResID;->writer_maintoolbar_file_btns_container:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1137,7 +1137,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b35e4
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1148,7 +1148,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35da
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_backBtn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1157,7 +1157,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35e5
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group_layout:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1310,7 +1310,7 @@
 .method public L2()V
     .locals 3
 
-    const v0, 0x7f0b35f0
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_title:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1321,7 +1321,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35ec
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1330,7 +1330,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35f3
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_undo:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1339,7 +1339,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35eb
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_redo:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1348,7 +1348,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35ed
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_share:I
 
     .line 5
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1357,7 +1357,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35e0
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_indicator_text:I
 
     .line 6
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1374,7 +1374,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b35df
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_indicator:I
 
     .line 8
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1385,7 +1385,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    const v0, 0x7f0b35de
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_file_btns_container:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1394,7 +1394,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    const v0, 0x7f0b35e4
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group:I
 
     .line 10
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1403,7 +1403,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35e5
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group_layout:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1419,7 +1419,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b2997
+    sget v0, Lcom/resouce/module/ResID;->rom_read_more:I
 
     .line 13
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2028,7 +2028,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b35ec
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2037,7 +2037,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35f3
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_undo:I
 
     .line 2
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2046,7 +2046,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b35eb
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar_redo:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2282,7 +2282,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x7f0b35f0
+    sget v6, Lcom/resouce/module/ResID;->writer_maintoolbar_title:I
 
     .line 12
     invoke-virtual {v2, v6}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2316,7 +2316,7 @@
     invoke-virtual {v6, v7}, Landroid/widget/TextView;->setMaxWidth(I)V
 
     :cond_4
-    const v6, 0x7f0b35ef
+    sget v6, Lcom/resouce/module/ResID;->writer_maintoolbar_tab_group:I
 
     .line 15
     invoke-virtual {p0, v6}, Luzl;->Z0(I)Landroid/view/View;
@@ -2338,7 +2338,7 @@
     const/4 v7, 0x0
 
     :goto_2
-    const v8, 0x7f0b35ec
+    sget v8, Lcom/resouce/module/ResID;->writer_maintoolbar_save:I
 
     .line 17
     invoke-virtual {v2, v8}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2352,7 +2352,7 @@
 
     move-result v10
 
-    const v11, 0x7f0b35f2
+    sget v11, Lcom/resouce/module/ResID;->writer_maintoolbar_top_layout:I
 
     if-eqz v10, :cond_6
 
@@ -2363,13 +2363,13 @@
     if-nez v10, :cond_7
 
     :cond_6
-    const v10, 0x7f0e10b5
+    sget v10, Lcom/resouce/module/ResLAYOUT;->writer_maintoolbar_ver:I
 
     .line 19
     invoke-static {v10, v2}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     :cond_7
-    const v10, 0x7f0b3021
+    sget v10, Lcom/resouce/module/ResID;->titlebar_carousel_view:I
 
     .line 20
     invoke-virtual {v2, v10}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2566,7 +2566,7 @@
 
     if-eqz v1, :cond_e
 
-    const v1, 0x7f0b35f1
+    sget v1, Lcom/resouce/module/ResID;->writer_maintoolbar_toggleedit_btn:I
 
     .line 47
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2593,7 +2593,7 @@
     invoke-virtual {p0}, Lt8l;->L2()V
 
     :cond_f
-    const p1, 0x7f0b35e8
+    sget p1, Lcom/resouce/module/ResID;->writer_maintoolbar_online_secrurity:I
 
     .line 52
     invoke-virtual {v2, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2632,12 +2632,12 @@
 .method public final c3(Landroid/view/ViewGroup;)V
     .locals 2
 
-    const v0, 0x7f0e05c5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_rom_read_titlebar:I
 
     .line 1
     invoke-static {v0, p1}, Luqh;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b299d
+    sget p1, Lcom/resouce/module/ResID;->rom_read_titlebar:I
 
     .line 2
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2669,7 +2669,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060214
+    sget v1, Lcom/resouce/module/ResCOLOR;->home_rom_read_title_bar_background:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2699,7 +2699,7 @@
     move-result-object p1
 
     :cond_0
-    const v0, 0x7f0b299b
+    sget v0, Lcom/resouce/module/ResID;->rom_read_title:I
 
     .line 9
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -2710,7 +2710,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b35f2
+    sget p1, Lcom/resouce/module/ResID;->writer_maintoolbar_top_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2721,7 +2721,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b35e4
+    sget p1, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group:I
 
     .line 11
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2730,7 +2730,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b35e5
+    sget p1, Lcom/resouce/module/ResID;->writer_maintoolbar_menu_group_layout:I
 
     .line 12
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -2744,7 +2744,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b3056
+    sget v1, Lcom/resouce/module/ResID;->toolbar_bottom_hline:I
 
     invoke-virtual {p1, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -2757,7 +2757,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b36cd
+    sget v1, Lcom/resouce/module/ResID;->writer_toolbar_shadow:I
 
     invoke-virtual {p1, v1}, Lxyl;->m(I)Landroid/view/View;
 

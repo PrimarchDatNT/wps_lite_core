@@ -52,7 +52,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/main/scan/main/PreScanCameraActivity$c;->B:Lcn/wps/moffice/main/scan/main/PreScanCameraActivity;
 
-    const p2, 0x7f12252f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_camera_permission_message:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -61,7 +61,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/scan/main/PreScanCameraActivity$c;->B:Lcn/wps/moffice/main/scan/main/PreScanCameraActivity;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

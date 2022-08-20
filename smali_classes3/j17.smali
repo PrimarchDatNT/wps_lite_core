@@ -77,7 +77,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0b65
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_collect_failed_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -86,7 +86,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1226
+    sget v1, Lcom/resouce/module/ResID;->i_know:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b043f
+    sget v1, Lcom/resouce/module/ResID;->close:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b2dce    # 1.8500052E38f
+    sget v1, Lcom/resouce/module/ResID;->sub_title:I    # 1.8500052E38f
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
 
     iput-object v1, p0, Lj17;->T:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

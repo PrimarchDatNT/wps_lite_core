@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e048e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->material_time_chip:I
 
     const/4 p3, 0x0
 
@@ -93,7 +93,7 @@
 
     iput-object p2, p0, Lcom/google/android/material/timepicker/ChipTextInputComboView;->B:Lcom/google/android/material/chip/Chip;
 
-    const v0, 0x7f0e048f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->material_time_input:I
 
     .line 6
     invoke-virtual {p1, v0, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -137,7 +137,7 @@
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f0b1824
+    sget p1, Lcom/resouce/module/ResID;->material_label:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

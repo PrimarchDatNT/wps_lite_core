@@ -2787,15 +2787,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0e0a17
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_spellcheckview_item2:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e10fd
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_spellcheckview_item2:I
 
     :goto_0
-    const v3, 0x7f0b08c2
+    sget v3, Lcom/resouce/module/ResID;->error_words:I
 
     invoke-direct {v0, v1, v2, v3, p1}, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView$f;-><init>(Landroid/content/Context;IILjava/util/List;)V
 
@@ -2854,15 +2854,15 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0e0a16
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_spellcheckview_item1:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0e10fc
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_spellcheckview_item1:I
 
     :goto_0
-    const v3, 0x7f0b00f4
+    sget v3, Lcom/resouce/module/ResID;->all_error_words:I
 
     invoke-direct {v0, v1, v2, v3, p1}, Lcn/wps/moffice/writer/shell/spellcheck/SpellCheckView$f;-><init>(Landroid/content/Context;IILjava/util/List;)V
 
@@ -3032,15 +3032,15 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f0e0a17
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_writer_spellcheckview_item2:I
 
     goto :goto_0
 
     :cond_1
-    const v4, 0x7f0e10fd
+    sget v4, Lcom/resouce/module/ResLAYOUT;->writer_spellcheckview_item2:I
 
     :goto_0
-    const v5, 0x7f0b08c2
+    sget v5, Lcom/resouce/module/ResID;->error_words:I
 
     .line 8
     invoke-virtual {p0, p1}, Lsul;->a0(Lyzl;)Ljava/util/List;
@@ -3056,7 +3056,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0819f7
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg_focus:I
 
     invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

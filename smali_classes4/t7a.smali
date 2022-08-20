@@ -185,7 +185,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0156
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_home_file_manage_top_gridview:I
 
     const/4 v2, 0x0
 
@@ -195,7 +195,7 @@
 
     iput-object v0, p0, Lt7a;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b3071
+    sget v1, Lcom/resouce/module/ResID;->top_folder_gv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

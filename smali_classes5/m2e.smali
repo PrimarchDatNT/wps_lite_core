@@ -102,7 +102,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e1076
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_circle_progressbar:I
 
     const/4 v3, 0x0
 
@@ -401,7 +401,7 @@
     .line 7
     iget-object p1, p0, Lm2e;->a:Landroid/content/Context;
 
-    const p2, 0x7f121b93
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_ole_parse_fail:I
 
     const/4 v0, 0x0
 
@@ -464,7 +464,7 @@
     .line 5
     iget-object p1, p0, Lm2e;->a:Landroid/content/Context;
 
-    const p2, 0x7f121b93
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_ole_parse_fail:I
 
     const/4 p3, 0x0
 

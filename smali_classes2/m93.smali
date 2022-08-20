@@ -122,7 +122,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0819a1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_icon_wps_home:I
 
     invoke-static {p0, v1, p1, v2}, Lhcb;->a(Landroid/content/Context;Ljava/lang/String;Landroid/content/Intent;I)V
 
@@ -156,7 +156,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122bdf
+    sget v5, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -164,12 +164,12 @@
 
     invoke-virtual {v1, v4}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v4, 0x7f122f41
+    sget v4, Lcom/resouce/module/ResSTRING;->shortcut_warning_content:I
 
     .line 8
     invoke-virtual {v1, v4}, Lhd3;->setMessage(I)Lhd3;
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v5, 0x0
 
@@ -198,7 +198,7 @@
     invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     :cond_0
-    const p1, 0x7f122ec6
+    sget p1, Lcom/resouce/module/ResSTRING;->send_pdf_toolkit_to_desktop_prompt:I
 
     .line 15
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -214,7 +214,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0740
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_pdf_send_to_desktop_dialog_tips:I
 
     const/4 v1, 0x0
 
@@ -222,7 +222,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b2fa6
+    sget v0, Lcom/resouce/module/ResID;->tip_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

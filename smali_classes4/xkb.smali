@@ -23,7 +23,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f122546
+    sget p1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     const/4 v0, 0x0
 
@@ -51,7 +51,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f4c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm_upload_xml_no_wifi_tips:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lxkb$b;
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     new-instance v2, Lxkb$a;
 
@@ -104,7 +104,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -798,7 +798,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f121de5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_check_out_files:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -809,7 +809,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f4b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm_upload_xml_file_content:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -820,14 +820,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p1
 
-    const v0, 0x7f121f4a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm_upload_xml_file_btn:I
 
     .line 5
     invoke-virtual {p1, v0, p2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -843,7 +843,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -860,11 +860,11 @@
     .line 1
     new-instance v0, Lhd3$g;
 
-    const v1, 0x7f130135
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     invoke-direct {v0, p0, v1}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setContentView(I)V

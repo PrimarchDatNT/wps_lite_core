@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f12313c
+    sget v4, Lcom/resouce/module/ResSTRING;->uimode_guide_info:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f12313b
+    sget v4, Lcom/resouce/module/ResSTRING;->uimode_agree:I
 
     invoke-virtual {v0, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -171,7 +171,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

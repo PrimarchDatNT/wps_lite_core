@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/missing_font_detail_item_sys_layout" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="13.0sp" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.669983dip" android:text="@string/missing_font_detail_sys" />
-        <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/missing_font_detail_sys_copyright" />
-    </LinearLayout>
-    <TextView android:textSize="13.0sp" android:textColor="@color/descriptionColor" android:id="@id/missing_font_detail_item_docer_tv" android:paddingTop="8.669983dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/missing_font_detail_cloud" />
-</LinearLayout>

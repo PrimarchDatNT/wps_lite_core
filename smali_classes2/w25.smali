@@ -295,7 +295,7 @@
     .line 5
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1224e9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_select_limit:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -309,7 +309,7 @@
     :cond_0
     iget-object p1, p0, Lw25;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204b5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     new-array v1, p2, [Ljava/lang/Object;
 
@@ -772,7 +772,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -828,7 +828,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01ba
+    sget v0, Lcom/resouce/module/ResID;->back_btn:I
 
     if-ne p1, v0, :cond_0
 
@@ -838,7 +838,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b24f3
+    sget v0, Lcom/resouce/module/ResID;->preview_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -859,7 +859,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2af2
+    sget v0, Lcom/resouce/module/ResID;->select_file_text:I
 
     if-ne p1, v0, :cond_2
 
@@ -885,7 +885,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b0565
+    sget v0, Lcom/resouce/module/ResID;->convert_btn:I
 
     if-ne p1, v0, :cond_3
 
@@ -895,7 +895,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b00e0
+    sget v0, Lcom/resouce/module/ResID;->album_select_pic_checkbox:I
 
     if-ne p1, v0, :cond_4
 

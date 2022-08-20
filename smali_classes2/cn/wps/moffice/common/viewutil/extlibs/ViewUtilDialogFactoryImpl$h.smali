@@ -55,7 +55,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/common/viewutil/extlibs/ViewUtilDialogFactoryImpl$h;->I:Landroid/content/Context;
 
-    const v0, 0x7f122c46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpsdrive_auto_backup_open_success:I
 
     const/4 v1, 0x0
 

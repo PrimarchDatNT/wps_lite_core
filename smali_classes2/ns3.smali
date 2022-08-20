@@ -44,17 +44,17 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0471
+    sget p1, Lcom/resouce/module/ResLAYOUT;->layout_web_article_publish_not_support:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f122741
+    sget p1, Lcom/resouce/module/ResSTRING;->public_publish_by_web_article:I
 
     .line 3
     invoke-virtual {p0, p1}, Lyc3;->W2(I)V
 
-    const p1, 0x7f0b0700
+    sget p1, Lcom/resouce/module/ResID;->doc2web_error_page:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

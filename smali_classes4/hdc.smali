@@ -183,7 +183,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0794
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_bottom_sheet_layout:I
 
     return v0
 .end method
@@ -220,7 +220,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d79
+    sget v1, Lcom/resouce/module/ResID;->pdf_bottom_sheet_content_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

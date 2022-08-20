@@ -157,7 +157,7 @@
 
     invoke-direct {v0, p0}, Lwal;-><init>(Lvzl;)V
 
-    const v1, 0x7f0b20e0
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_hide_panel_imgbtn_root:I
 
     const-string v2, "text-to-speech-down-arrow"
 
@@ -341,7 +341,7 @@
 
     iget-object v1, p0, Llxl;->l0:Lcn/wps/moffice/writer/Writer;
 
-    const v2, 0x7f122ac0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_text_to_speech:I
 
     const/4 v3, 0x0
 
@@ -352,7 +352,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080240
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_common_retract:I
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -368,7 +368,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0a29
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_writer_tts_settings_panel:I
 
     invoke-virtual {v1, v2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -386,7 +386,7 @@
     .line 6
     iget-object v1, p0, Llxl;->m0:Landroid/view/View;
 
-    const v2, 0x7f0b21e0
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_text_to_speech_settings_speaker:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -397,7 +397,7 @@
     .line 7
     iget-object v1, p0, Llxl;->m0:Landroid/view/View;
 
-    const v2, 0x7f0b21df
+    sget v2, Lcom/resouce/module/ResID;->phone_writer_text_to_speech_settings_progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

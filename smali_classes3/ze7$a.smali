@@ -145,7 +145,7 @@
 
     iget-object p1, p1, Lze7;->a:Lxe7;
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     new-array v0, v1, [Ljava/lang/Object;
 

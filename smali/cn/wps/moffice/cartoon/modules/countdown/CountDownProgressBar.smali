@@ -111,12 +111,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0603a3
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_subTextColor_night:I
 
     .line 2
     iput v0, p0, Lcn/wps/moffice/cartoon/modules/countdown/CountDownProgressBar;->d0:I
 
-    const v0, 0x7f060364
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_normalIconDisabledColor:I
 
     .line 3
     iput v0, p0, Lcn/wps/moffice/cartoon/modules/countdown/CountDownProgressBar;->e0:I
@@ -124,12 +124,12 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0603a2
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_subTextColor:I
 
     .line 4
     iput v0, p0, Lcn/wps/moffice/cartoon/modules/countdown/CountDownProgressBar;->d0:I
 
-    const v0, 0x7f060365
+    sget v0, Lcom/resouce/module/ResCOLOR;->novel_normalIconDisabledColor_night:I
 
     .line 5
     iput v0, p0, Lcn/wps/moffice/cartoon/modules/countdown/CountDownProgressBar;->e0:I

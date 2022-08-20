@@ -81,7 +81,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0c2b
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_home_docinfo_operation_items_layout:I
 
     const/4 v0, 0x0
 
@@ -94,13 +94,13 @@
 
     iget-object v0, p0, Lo95$a;->B:Lo95;
 
-    const v1, 0x7f0b1b46
+    sget v1, Lcom/resouce/module/ResID;->operation_item_icon:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b1b47
+    sget v2, Lcom/resouce/module/ResID;->operation_item_label:I
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

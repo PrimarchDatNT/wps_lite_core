@@ -211,7 +211,7 @@
     :goto_0
     if-nez v2, :cond_3
 
-    const v2, 0x7f081576
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     .line 6
     :cond_3
@@ -354,7 +354,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e040a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_doc_info_more_app_rec:I
 
     const/4 v2, 0x0
 

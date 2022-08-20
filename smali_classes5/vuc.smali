@@ -449,7 +449,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -664,7 +664,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -857,7 +857,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07d8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_sign:I
 
     return v0
 .end method
@@ -1146,7 +1146,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f2e
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_padding_top:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1157,7 +1157,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1286
+    sget v1, Lcom/resouce/module/ResID;->image_ok_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1168,7 +1168,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2c0c
+    sget v1, Lcom/resouce/module/ResID;->sign_add:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1179,7 +1179,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2c1b
+    sget v1, Lcom/resouce/module/ResID;->sign_verify:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1196,7 +1196,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1214,7 +1214,7 @@
     .line 8
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1f2f
+    sget v1, Lcom/resouce/module/ResID;->pdf_sign_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1266,7 +1266,7 @@
     .line 14
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b12a3
+    sget v1, Lcom/resouce/module/ResID;->image_vip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -27,7 +27,7 @@
 .method public final a()I
     .locals 1
 
-    const v0, 0x7f0e0a48
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_about_phone_gdpr_ad_data_cancel_layout:I
 
     return v0
 .end method

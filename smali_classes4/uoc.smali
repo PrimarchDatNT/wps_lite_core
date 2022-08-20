@@ -59,7 +59,7 @@
 
     iput-object v0, p0, Luoc;->c:Landroid/content/Context;
 
-    const v0, 0x7f0b24fb
+    sget v0, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -70,7 +70,7 @@
 
     iput-object v0, p0, Luoc;->e:Landroid/widget/HorizontalScrollView;
 
-    const v0, 0x7f0b24fa
+    sget v0, Lcom/resouce/module/ResID;->preview_gridview:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
     .line 5
     iget-object p1, p0, Luoc;->c:Landroid/content/Context;
 
-    const v0, 0x7f1211ab
+    sget v0, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

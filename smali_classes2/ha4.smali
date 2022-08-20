@@ -120,7 +120,7 @@
     .line 1
     iget-object p2, p0, Lfa4;->B:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c98
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_gridview_item:I
 
     invoke-virtual {p2, v0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

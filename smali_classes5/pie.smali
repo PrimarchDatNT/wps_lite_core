@@ -35,7 +35,7 @@
     .line 4
     iput-object p4, p0, Lpie;->g:Ljava/lang/String;
 
-    const p1, 0x7f0b245c
+    sget p1, Lcom/resouce/module/ResID;->ppt_template_membership_top:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object p1, p0, Lpie;->b:Landroid/view/View;
 
-    const p2, 0x7f0b2fa6
+    sget p2, Lcom/resouce/module/ResID;->tip_text:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
     .line 7
     iget-object p1, p0, Lpie;->b:Landroid/view/View;
 
-    const p2, 0x7f0b032e
+    sget p2, Lcom/resouce/module/ResID;->buy_member_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     const/16 v1, 0x28
 
-    const v2, 0x7f081335
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_blue_3px_corner:I
 
     const/4 v3, 0x0
 
@@ -187,14 +187,14 @@
     .line 2
     iget-object v0, p0, Lpie;->c:Landroid/widget/TextView;
 
-    const v4, 0x7f12308a
+    sget v4, Lcom/resouce/module/ResSTRING;->template_membership_header_super_vip_renew:I
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     .line 3
     iget-object v0, p0, Lpie;->d:Landroid/widget/Button;
 
-    const v4, 0x7f12184a
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_pack_continue_buy:I
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setText(I)V
 
@@ -211,7 +211,7 @@
     .line 6
     iget-object p1, p0, Lpie;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1223b5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_is_super_vip_now:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -234,14 +234,14 @@
     .line 8
     iget-object v0, p0, Lpie;->c:Landroid/widget/TextView;
 
-    const v4, 0x7f123089
+    sget v4, Lcom/resouce/module/ResSTRING;->template_membership_header_super_vip_introduce:I
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
     .line 9
     iget-object v0, p0, Lpie;->d:Landroid/widget/Button;
 
-    const v4, 0x7f120e6d
+    sget v4, Lcom/resouce/module/ResSTRING;->home_account_update:I
 
     invoke-virtual {v0, v4}, Landroid/widget/Button;->setText(I)V
 
@@ -258,7 +258,7 @@
     .line 12
     iget-object p1, p0, Lpie;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1223b4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_is_docer_vip_now:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -272,21 +272,21 @@
     :cond_1
     iget-object p1, p0, Lpie;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f123088
+    sget v0, Lcom/resouce/module/ResSTRING;->template_membership_header_docer_vip_introduce:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 14
     iget-object p1, p0, Lpie;->d:Landroid/widget/Button;
 
-    const v0, 0x7f120f64
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_buy_describe_string:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 15
     iget-object p1, p0, Lpie;->d:Landroid/widget/Button;
 
-    const v0, 0x7f08134d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_ripple_red_3px_corner:I
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setBackgroundResource(I)V
 

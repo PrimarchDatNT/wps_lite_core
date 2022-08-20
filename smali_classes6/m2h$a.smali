@@ -71,7 +71,7 @@
     .line 2
     invoke-static {p1, v0}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 3
     invoke-static {p1, p2}, Lsjf;->h(II)V

@@ -239,7 +239,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v0, 0x7f120cc4
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_preview:I
 
     .line 7
     invoke-virtual {p0, v0}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->c(I)V
@@ -378,7 +378,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f120ce9
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_start:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -409,7 +409,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v3, 0x7f120ce9
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_translation_start:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -487,7 +487,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120cd7
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_document_starting:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -548,7 +548,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 
@@ -602,7 +602,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v3, 0x7f120cea
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_translation_starting:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -962,7 +962,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f120cda
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_failed_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -983,7 +983,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView$d;-><init>(Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;)V
 
-    const v2, 0x7f120ccf
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_retry:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -992,7 +992,7 @@
 
     invoke-direct {v1}, Lzc3;-><init>()V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1015,7 +1015,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f120cdd
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_finished_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1037,7 +1037,7 @@
     .line 6
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     .line 7
     invoke-static {v1, v2}, Lu6;->d(Landroid/content/Context;I)I
@@ -1048,7 +1048,7 @@
 
     invoke-direct {v2, p0, p1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView$e;-><init>(Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;Ljava/lang/String;)V
 
-    const p1, 0x7f120cbe
+    sget p1, Lcom/resouce/module/ResSTRING;->fanyigo_open_result:I
 
     .line 8
     invoke-virtual {v0, p1, v1, v2}, Lhd3;->setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1058,7 +1058,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView$f;-><init>(Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;)V
 
-    const v1, 0x7f120cb3
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_history_restart:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1067,7 +1067,7 @@
 
     invoke-direct {p1}, Lzc3;-><init>()V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v1, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1080,7 +1080,7 @@
 .method public l(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b29a6
+    sget v0, Lcom/resouce/module/ResID;->root:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1247,7 +1247,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f120cea
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_starting:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1453,7 +1453,7 @@
     invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
-    const p1, 0x7f120cd4
+    sget p1, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     .line 10
     invoke-virtual {p0, p1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->c(I)V
@@ -1505,7 +1505,7 @@
     .line 3
     iget-object v1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->h0:Landroid/content/Context;
 
-    const v2, 0x7f120ce6
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_preview_backdialog_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1525,7 +1525,7 @@
 
     invoke-direct {v1}, Lzc3;-><init>()V
 
-    const v2, 0x7f120ce5
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_preview_backdialog_continue:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1536,7 +1536,7 @@
 
     invoke-direct {v1, p0, p1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView$b;-><init>(Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122087
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

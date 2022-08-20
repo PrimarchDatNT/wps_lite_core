@@ -44,17 +44,17 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f0e0c4c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_huawei_native_big_ad_item:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f0e0c4d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_huawei_native_medium_ad_item:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f0e0c4b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_huawei_native_ad_item:I
 
     return v0
 .end method

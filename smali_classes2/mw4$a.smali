@@ -315,7 +315,7 @@
     .line 9
     invoke-virtual {v3, v4}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v5, 0x7f1227a4
+    sget v5, Lcom/resouce/module/ResSTRING;->public_readOnlyMode:I
 
     .line 10
     invoke-virtual {v0, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -357,7 +357,7 @@
 
     if-eqz v6, :cond_1
 
-    const p1, 0x7f1227aa
+    sget p1, Lcom/resouce/module/ResSTRING;->public_read_only_reason_group:I
 
     .line 16
     invoke-virtual {v3, p1}, Lhd3;->setMessage(I)Lhd3;
@@ -370,7 +370,7 @@
     goto :goto_0
 
     :cond_1
-    const v6, 0x7f1227ab
+    sget v6, Lcom/resouce/module/ResSTRING;->public_read_only_reason_link:I
 
     new-array v4, v4, [Ljava/lang/Object;
 

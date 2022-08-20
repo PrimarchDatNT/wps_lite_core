@@ -94,7 +94,7 @@
     .line 2
     iget-object v0, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0b2310
+    sget v1, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1076
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_circle_progressbar:I
 
     const/4 v2, 0x0
 
@@ -191,7 +191,7 @@
     .line 1
     iget-object v0, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1226b0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_prepare_pdf_export:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -212,7 +212,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f1220a1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pdf_to:I
 
     if-eqz v0, :cond_0
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121cb2
+    sget v4, Lcom/resouce/module/ResSTRING;->private_app_cloud_floder:I
 
     const/4 v5, 0x2
 
@@ -309,7 +309,7 @@
     :cond_1
     iget-object p1, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121be0
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_save_after_loading_finish:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -329,7 +329,7 @@
     .line 1
     iget-object v0, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1220ab
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
 
     iget-object v1, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1220b5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_share_tips:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -395,7 +395,7 @@
     :cond_0
     iget-object p1, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121be0
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_save_after_loading_finish:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -474,7 +474,7 @@
     .line 1
     iget-object v0, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122836
+    sget v1, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -500,7 +500,7 @@
     :cond_0
     iget-object p1, p0, Ls8e;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121be0
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_save_after_loading_finish:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

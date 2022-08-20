@@ -356,7 +356,7 @@
     .line 2
     iget-object v0, p0, Ljdb;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d95    # 1.8499937E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_agree_btn:I    # 1.8499937E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -367,7 +367,7 @@
     .line 3
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f121f0e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_collection_agree:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -382,7 +382,7 @@
     .line 4
     iget-object v1, p0, Ljdb;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2d99    # 1.8499945E38f
+    sget v2, Lcom/resouce/module/ResID;->start_page_disagree_btn:I    # 1.8499945E38f
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -393,7 +393,7 @@
     .line 5
     iget-object v2, p0, Ljdb;->T:Landroid/view/View;
 
-    const v3, 0x7f0b2d9f    # 1.8499957E38f
+    sget v3, Lcom/resouce/module/ResID;->start_page_text_content_url:I    # 1.8499957E38f
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -588,7 +588,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c15
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_gdpr_first_start_layout:I
 
     const/4 v2, 0x0
 
@@ -598,7 +598,7 @@
 
     iput-object v0, p0, Ljdb;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d9e    # 1.8499955E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_text_content:I    # 1.8499955E38f
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -612,7 +612,7 @@
     .line 3
     iget-object v0, p0, Ljdb;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2d98    # 1.8499943E38f
+    sget v1, Lcom/resouce/module/ResID;->start_page_content:I    # 1.8499943E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -684,7 +684,7 @@
     :cond_0
     iget-object v1, p0, Ljdb;->T:Landroid/view/View;
 
-    const v2, 0x7f0b2d9a    # 1.8499947E38f
+    sget v2, Lcom/resouce/module/ResID;->start_page_logo:I    # 1.8499947E38f
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

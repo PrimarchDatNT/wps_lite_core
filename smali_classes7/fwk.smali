@@ -97,7 +97,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b0d45
+    sget v1, Lcom/resouce/module/ResID;->file_word_merge:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

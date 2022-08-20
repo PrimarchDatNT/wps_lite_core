@@ -129,7 +129,7 @@
 
     const/4 v0, 0x3
 
-    const v6, 0x7f120584
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_download_fail:I
 
     if-eq v3, v0, :cond_c
 

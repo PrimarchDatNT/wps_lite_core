@@ -175,14 +175,14 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v1, 0x7f0816fc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setBackBg(I)V
 
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/framework/BaseTitleActivity;->mTitleBar:Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v1, 0x7f08171a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_search:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setSearchBtnBg(I)V
 

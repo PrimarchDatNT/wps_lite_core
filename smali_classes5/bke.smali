@@ -607,7 +607,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122846
+    sget p3, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -801,7 +801,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122846
+    sget p3, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -957,7 +957,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121b88
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_normal_template:I
 
     return v0
 .end method
@@ -965,7 +965,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e0816
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ppt_slidemasters_item:I
 
     return v0
 .end method
@@ -1136,7 +1136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07fd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_insert_template_slide_dialog:I
 
     const/4 v2, 0x0
 
@@ -1146,7 +1146,7 @@
 
     iput-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22aa
+    sget v1, Lcom/resouce/module/ResID;->ppt_circle_progressbar_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1158,7 +1158,7 @@
     .line 3
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b22a2
+    sget v1, Lcom/resouce/module/ResID;->ppt_bottom_tips_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1171,7 +1171,7 @@
     .line 4
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b208b
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_dialog_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1187,7 +1187,7 @@
     .line 6
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v2, 0x7f0b2450
+    sget v2, Lcom/resouce/module/ResID;->ppt_template_header_footer_gridview:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1205,7 +1205,7 @@
     .line 8
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v2, 0x7f0b307e
+    sget v2, Lcom/resouce/module/ResID;->top_shadow:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1216,7 +1216,7 @@
     .line 9
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b1356
+    sget v1, Lcom/resouce/module/ResID;->insert_summary_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1232,7 +1232,7 @@
     .line 11
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b20a4
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_slideLayouts_scroll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1271,7 +1271,7 @@
     .line 16
     iget-object v0, p0, Lczd;->U:Landroid/view/View;
 
-    const v1, 0x7f0b20a3
+    sget v1, Lcom/resouce/module/ResID;->phone_ppt_slideLayouts_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1835,7 +1835,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07fe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_insert_template_slide_title:I
 
     const/4 v2, 0x0
 
@@ -1949,7 +1949,7 @@
 
     iget-object v1, p0, Lczd;->B:Landroid/content/Context;
 
-    const v2, 0x7f121c59
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_template_no_network_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

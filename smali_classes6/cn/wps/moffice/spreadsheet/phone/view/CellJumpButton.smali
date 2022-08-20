@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060044
+    sget v0, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060044
+    sget p2, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -148,7 +148,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f060044
+    sget p2, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -230,7 +230,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060060
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonThirdColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -276,7 +276,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060062
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonThirdPressedColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -311,12 +311,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0805f7
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_cell_jumpbtn_bg:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08045f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_jumpto:I
 
     :goto_0
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
@@ -335,7 +335,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f07015f
+    sget v3, Lcom/resouce/module/ResDIMEN;->et_cell_jump_btn_width:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -350,7 +350,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f07015e
+    sget v3, Lcom/resouce/module/ResDIMEN;->et_cell_jump_btn_height:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getDimension(I)F
 

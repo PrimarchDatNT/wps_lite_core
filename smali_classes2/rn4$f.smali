@@ -74,7 +74,7 @@
 
     iget-object p1, p1, Lrn4;->B:Landroid/content/Context;
 
-    const v1, 0x7f1219e9
+    sget v1, Lcom/resouce/module/ResSTRING;->pic_store_download_failed:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

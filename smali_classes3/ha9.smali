@@ -102,7 +102,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dcd
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_wps_skill_search_item:I
 
     const/4 v2, 0x0
 
@@ -112,7 +112,7 @@
 
     iput-object p1, p0, Lha9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b34a0
+    sget v0, Lcom/resouce/module/ResID;->wps_skill_search_name:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
     .line 4
     iget-object p1, p0, Lha9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b321c
+    sget v0, Lcom/resouce/module/ResID;->tv_play_time:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -139,7 +139,7 @@
     .line 5
     iget-object p1, p0, Lha9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b18c1
+    sget v0, Lcom/resouce/module/ResID;->model_divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 6
     iget-object p1, p0, Lha9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b12aa
+    sget v0, Lcom/resouce/module/ResID;->img_app_search:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
 
     move-result v0
 
-    const v1, 0x7f081e2b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_wps:I
 
     if-eqz v0, :cond_7
 
@@ -348,7 +348,7 @@
 
     if-eqz v0, :cond_3
 
-    const v1, 0x7f081e25
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_doc:I
 
     goto :goto_1
 
@@ -366,7 +366,7 @@
 
     if-eqz v0, :cond_4
 
-    const v1, 0x7f081e2c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_xls:I
 
     goto :goto_1
 
@@ -384,7 +384,7 @@
 
     if-eqz v0, :cond_5
 
-    const v1, 0x7f081e28
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_ppt:I
 
     goto :goto_1
 
@@ -418,12 +418,12 @@
 
     if-eqz v0, :cond_8
 
-    const v1, 0x7f081e27
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_pdf:I
 
     goto :goto_1
 
     :cond_7
-    const v1, 0x7f081e26
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->skill_jpk:I
 
     .line 14
     :cond_8

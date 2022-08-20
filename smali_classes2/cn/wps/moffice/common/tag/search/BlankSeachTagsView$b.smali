@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081c8e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_tag_arrow_up:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -133,7 +133,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f081c8d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_tag_arrow_down:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -421,7 +421,7 @@
     .line 4
     invoke-virtual {v2, v1}, Lcn/wps/moffice/main/info/DeviceInfo;->c(Landroid/content/Context;)V
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1205,7 +1205,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120da1
+    sget v4, Lcom/resouce/module/ResSTRING;->general_param_api_map_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

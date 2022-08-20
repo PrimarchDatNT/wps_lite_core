@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0426
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_pdf_tips:I
 
     const/4 v2, 0x0
 

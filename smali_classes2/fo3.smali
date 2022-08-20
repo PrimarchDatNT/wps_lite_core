@@ -93,7 +93,7 @@
     .line 1
     iget-object v0, p0, Lfo3;->a:Lcn/wps/moffice/common/chart/edit/InputViewRoot;
 
-    const v1, 0x7f0b2576
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_input:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -107,7 +107,7 @@
 
     iget-object v0, p0, Lfo3;->a:Lcn/wps/moffice/common/chart/edit/InputViewRoot;
 
-    const v1, 0x7f0b2578
+    sget v1, Lcom/resouce/module/ResID;->public_chart_edit_keyboard:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

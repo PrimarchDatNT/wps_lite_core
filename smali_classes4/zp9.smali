@@ -796,7 +796,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1206e4
+    sget v0, Lcom/resouce/module/ResSTRING;->drag_and_drop_recent_tab:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -884,7 +884,7 @@
 .method public final g(Landroid/content/Context;)V
     .locals 2
 
-    const v0, 0x7f1206e3
+    sget v0, Lcom/resouce/module/ResSTRING;->drag_and_drop_no_support_document:I
 
     const/4 v1, 0x1
 

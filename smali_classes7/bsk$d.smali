@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12280a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_restriction_share_error:I
 
     const/4 v0, 0x0
 

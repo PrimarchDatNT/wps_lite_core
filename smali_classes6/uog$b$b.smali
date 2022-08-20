@@ -237,7 +237,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1208b2
+    sget v3, Lcom/resouce/module/ResSTRING;->et_formula2num_success_text1:I
 
     const/4 v5, 0x1
 
@@ -292,7 +292,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1208b3
+    sget v3, Lcom/resouce/module/ResSTRING;->et_formula2num_success_text2:I
 
     new-array v5, v5, [Ljava/lang/Object;
 

@@ -301,7 +301,7 @@
     .line 21
     invoke-virtual {v3, v4}, Landroid/widget/RelativeLayout$LayoutParams;->removeRule(I)V
 
-    const v4, 0x7f0b2bec
+    sget v4, Lcom/resouce/module/ResID;->showModeButton:I
 
     .line 22
     invoke-virtual {v3, v6, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(II)V
@@ -420,7 +420,7 @@
 .method public u(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lv5a$d;
     .locals 2
 
-    const v0, 0x7f0e0c3a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_home_record_list_group_header_item:I
 
     const/4 v1, 0x0
 

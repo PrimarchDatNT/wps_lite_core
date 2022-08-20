@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e07dc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_thumbnails:I
 
     const/4 v1, 0x0
 
@@ -316,7 +316,7 @@
 
     iput-object p1, p0, Lmwc;->B:Landroid/view/View;
 
-    const v0, 0x7f0b1f3f
+    sget v0, Lcom/resouce/module/ResID;->pdf_thumbnails_header:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,7 +334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122adb
+    sget v1, Lcom/resouce/module/ResSTRING;->public_thumbnail:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -370,7 +370,7 @@
     .line 7
     iget-object p1, p0, Lmwc;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2082
+    sget v0, Lcom/resouce/module/ResID;->phone_pdf_thumbnail_gridview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

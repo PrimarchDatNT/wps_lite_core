@@ -356,7 +356,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0817d5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vipbutton_vip_54px:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -438,7 +438,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07bc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_insert_pic_preview_bottom:I
 
     return v0
 .end method
@@ -467,7 +467,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e99
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_mode:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -483,7 +483,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1e9d
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_pageadjust:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea3
+    sget v1, Lcom/resouce/module/ResID;->pdf_pic_preview_save_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

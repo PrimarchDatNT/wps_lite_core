@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f0b2e67
+    sget v0, Lcom/resouce/module/ResID;->tag_app_skip_stat:I
 
     .line 5
     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;

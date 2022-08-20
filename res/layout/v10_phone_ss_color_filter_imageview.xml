@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.spreadsheet.control.common.ChildSelectedProxyLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_image_bg_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.spreadsheet.control.common.ColorFilterImageView android:layout_gravity="center" android:id="@id/ss_colorfilterImageView_layout" android:layout_width="28.0dip" android:layout_height="28.0dip" app:background_selected_color="@color/componentToolbarSelectedColor" app:round_radius="2.0dip" app:selected_tint="@color/ETMainColor" />
-</cn.wps.moffice.spreadsheet.control.common.ChildSelectedProxyLayout>

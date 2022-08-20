@@ -13,7 +13,7 @@
     .line 1
     invoke-direct {p0, p1}, Lhk6;-><init>(Landroid/view/View;)V
 
-    const v0, 0x7f0b29aa
+    sget v0, Lcom/resouce/module/ResID;->root_card_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_0
-    const v0, 0x7f0b0ed3
+    sget v0, Lcom/resouce/module/ResID;->get_btn:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

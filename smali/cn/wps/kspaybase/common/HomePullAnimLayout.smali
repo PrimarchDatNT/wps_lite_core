@@ -80,7 +80,7 @@
 .method public a()V
     .locals 1
 
-    const v0, 0x7f0b1098
+    sget v0, Lcom/resouce/module/ResID;->home_logo_anim:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -91,7 +91,7 @@
 
     iput-object v0, p0, Lcn/wps/kspaybase/common/HomePullAnimLayout;->B:Lcn/wps/kspaybase/common/HomeLogoAnimView;
 
-    const v0, 0x7f0b2635
+    sget v0, Lcom/resouce/module/ResID;->public_home_bouncingball:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object v0, p0, Lcn/wps/kspaybase/common/HomePullAnimLayout;->I:Lcn/wps/kspaybase/common/PullBounceBallAnimView;
 
-    const v0, 0x7f0b26d8
+    sget v0, Lcom/resouce/module/ResID;->public_pull_tip:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

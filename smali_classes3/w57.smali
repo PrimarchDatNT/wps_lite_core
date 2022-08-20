@@ -27,12 +27,12 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fba
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delete:I
 
     .line 2
     iput v0, p1, Ldi9$f;->c:I
 
-    const v0, 0x7f0815cf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_btmbar_home_delete:I
 
     .line 3
     iput v0, p1, Ldi9$f;->a:I

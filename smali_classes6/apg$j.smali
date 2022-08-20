@@ -125,13 +125,13 @@
 
     invoke-virtual {v1, v0}, Lkib;->E(Lcn/wps/moffice/main/local/NodeLink;)V
 
-    const v0, 0x7f08072b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v4, 0x7f1210b8
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     const/4 v5, 0x1
 

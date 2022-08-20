@@ -801,12 +801,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0804
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_main_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0a83
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_main_layout_pad:I
 
     :goto_0
     const/4 v2, 0x0
@@ -1011,7 +1011,7 @@
 .method public N()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b2310
+    sget v0, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1988,7 +1988,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2090
+    sget v0, Lcom/resouce/module/ResID;->phone_ppt_main_titlebar_root:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1998,7 +1998,7 @@
     return-object v0
 
     :cond_0
-    const v0, 0x7f0b249b
+    sget v0, Lcom/resouce/module/ResID;->ppt_toparea_bar:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

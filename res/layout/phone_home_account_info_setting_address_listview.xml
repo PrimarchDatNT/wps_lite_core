@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/public_home_address_listview" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/home_listview_divider" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/home_setting_group_item_txt" />
-    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/public_home_address_city_listview" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/home_listview_divider" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/home_setting_group_item_txt" />
-</LinearLayout>

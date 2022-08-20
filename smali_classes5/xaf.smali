@@ -28,7 +28,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -82,7 +82,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06d2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_setting_avator_with_name:I
 
     const/4 v2, 0x0
 
@@ -90,7 +90,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b1841
+    sget v0, Lcom/resouce/module/ResID;->member_avator:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     check-cast v0, Lcn/wpsx/support/ui/KCircleImageView;
 
-    const v1, 0x7f0b184b
+    sget v1, Lcom/resouce/module/ResID;->member_name:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     move-result v1
 
-    const v3, 0x7f0810b4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_loginavatar:I
 
     if-eqz v1, :cond_0
 
@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06d2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_folder_setting_avator_with_name:I
 
     const/4 v2, 0x0
 
@@ -176,7 +176,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b1841
+    sget v0, Lcom/resouce/module/ResID;->member_avator:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     check-cast v0, Lcn/wpsx/support/ui/KCircleImageView;
 
-    const v1, 0x7f0b184b
+    sget v1, Lcom/resouce/module/ResID;->member_name:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f08179a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_team_member_more:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcn/wpsx/support/ui/KCircleImageView;->setImageResource(I)V
@@ -274,7 +274,7 @@
 .method public final X2(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b0f7d
+    sget v0, Lcom/resouce/module/ResID;->guide_message:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,12 +283,12 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122194
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_invite_permission_message:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b135d
+    sget v0, Lcom/resouce/module/ResID;->introduce:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -297,7 +297,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122193
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_invite_permission_introduce:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -331,7 +331,7 @@
 .method public final Z2(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b1f8a
+    sget v0, Lcom/resouce/module/ResID;->permission_role_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -404,7 +404,7 @@
 .method public final a3(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -427,7 +427,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setCustomBackOpt(Ljava/lang/Runnable;)V
 
-    const v0, 0x7f1223af
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_member:I
 
     .line 4
     invoke-virtual {p1, v0}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -443,7 +443,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e06d0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_folder_invite_member_permission_guide_layout:I
 
     const/4 v1, 0x0
 
@@ -495,7 +495,7 @@
     .line 3
     iget-object v0, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f121951
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     const/4 v2, 0x0
 

@@ -168,7 +168,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e038d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_recent_template_view_layout:I
 
     const/4 v2, 0x0
 
@@ -178,7 +178,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/template/imp/controller/TemplateViewImp;->a:Landroid/view/View;
 
-    const v1, 0x7f0b3015
+    sget v1, Lcom/resouce/module/ResID;->title_tv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/template/imp/controller/TemplateViewImp;->a:Landroid/view/View;
 
-    const v1, 0x7f0b0452
+    sget v1, Lcom/resouce/module/ResID;->close_ll:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -201,7 +201,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/template/imp/controller/TemplateViewImp;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2edd
+    sget v1, Lcom/resouce/module/ResID;->template_rv:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

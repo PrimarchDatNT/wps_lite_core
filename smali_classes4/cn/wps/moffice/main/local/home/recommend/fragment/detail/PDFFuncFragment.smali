@@ -47,7 +47,7 @@
 .method public E()I
     .locals 1
 
-    const v0, 0x7f0e0edb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_detail_document_item:I
 
     return v0
 .end method
@@ -55,7 +55,7 @@
 .method public F()I
     .locals 1
 
-    const v0, 0x7f081d51
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->recommend_pdf_main_bg:I
 
     return v0
 .end method
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122de9
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_func_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -77,11 +77,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dfb
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_ready_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b0e82
+    sget v0, Lcom/resouce/module/ResID;->frame_main:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f0b285e
+    sget v0, Lcom/resouce/module/ResID;->recycler:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03008b
+    sget v1, Lcom/resouce/module/ResARRAY;->user_recommend_titles:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f03008a
+    sget v2, Lcom/resouce/module/ResARRAY;->user_recommend_icons:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->obtainTypedArray(I)Landroid/content/res/TypedArray;
 
@@ -221,7 +221,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f030089
+    sget v3, Lcom/resouce/module/ResARRAY;->user_recommend_colors:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getIntArray(I)[I
 

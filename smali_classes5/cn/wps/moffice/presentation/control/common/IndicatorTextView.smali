@@ -47,7 +47,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f060009
+    sget p3, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -60,7 +60,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f060626
+    sget p3, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -73,7 +73,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f07081a
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_public_tab_underline_height:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

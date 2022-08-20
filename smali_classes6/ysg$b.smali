@@ -86,7 +86,7 @@
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
-    const v1, 0x7f122035
+    sget v1, Lcom/resouce/module/ResSTRING;->public_drag_in_not_support_data:I
 
     .line 3
     :try_start_0

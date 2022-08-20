@@ -423,7 +423,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1218b9
+    sget v5, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -619,7 +619,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f122292
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_divider_picture:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -759,7 +759,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122292
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_divider_picture:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -907,7 +907,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1218b9
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1345,7 +1345,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12226e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_pdf_tools:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1362,7 +1362,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12226f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_picture_conversion:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1379,7 +1379,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1396,7 +1396,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1201c9
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_tv_projection:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1413,7 +1413,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122266
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1430,7 +1430,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1230a2
+    sget v3, Lcom/resouce/module/ResSTRING;->template_resume_helper:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1447,7 +1447,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1201c0
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_super_ppt:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1464,7 +1464,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1204a7
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_scan:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1481,7 +1481,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121d6b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_audio_record:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1498,7 +1498,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122272
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_app_wps_note:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1515,7 +1515,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12276d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1532,7 +1532,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121bf5
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_sharedplay:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1549,7 +1549,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121638
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1566,7 +1566,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121bb3
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_play_record:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1583,7 +1583,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122c10
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1600,7 +1600,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122c12
+    sget v3, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1617,7 +1617,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120147
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1634,7 +1634,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122724
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_wps_doc:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1651,7 +1651,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12013d
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_formtool:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1668,7 +1668,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120cd4
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1685,7 +1685,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1702,7 +1702,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122106
+    sget v3, Lcom/resouce/module/ResSTRING;->public_file_evidence_name:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1719,7 +1719,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1200e0
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1736,7 +1736,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12248a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_long_audio_input:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1753,7 +1753,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120139
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_cooperative_doc:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1770,7 +1770,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f1219dc
+    sget v3, Lcom/resouce/module/ResSTRING;->phonetic_shorthand_title:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1787,7 +1787,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f12046d
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_translation:I
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1853,7 +1853,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081276
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_pdf_toolkit:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1870,7 +1870,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081264
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_convert_image:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1887,7 +1887,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081291
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_share_long_pic:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1904,7 +1904,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081265
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_doc_downsizing:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1921,7 +1921,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08128f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_resume_helper:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1938,7 +1938,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081293
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_super_ppt:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1955,7 +1955,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081263
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_camera_scan:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1972,7 +1972,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081261
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_audio_record:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1989,7 +1989,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081298
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_wps_note:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2006,7 +2006,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08128e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_qrcode_scan:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2023,7 +2023,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_id_photo:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2040,7 +2040,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081297
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_tv_projection:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2057,7 +2057,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081292    # 1.8087143E38f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_shareplay:I    # 1.8087143E38f
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2074,7 +2074,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081271
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_paper_check:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2091,7 +2091,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081275
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_paper_down:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2108,7 +2108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_gift:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2134,7 +2134,7 @@
     .line 20
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f08126e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_jd:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2147,7 +2147,7 @@
     .line 21
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f081294
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_tb:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2160,7 +2160,7 @@
     .line 22
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f081299
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_wps_skill:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2179,7 +2179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08128c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_play_record:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2196,7 +2196,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081267
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_extract_file:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2213,7 +2213,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081270
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_merge_file:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2230,7 +2230,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081266
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_doc_fix:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2247,7 +2247,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081290
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_scan_print:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2264,7 +2264,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081269
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_formtool_pic:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2281,7 +2281,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081296
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2298,7 +2298,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081228
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_export_pages_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2315,7 +2315,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081268
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_file_evidence:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2332,7 +2332,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081272
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_paper_composition:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2349,7 +2349,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_long_audio_input:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2366,7 +2366,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080acc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->new_cooperative_doc_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2383,7 +2383,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081262
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_audio_shorthand:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2400,7 +2400,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_image_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2417,7 +2417,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_image_processon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2434,7 +2434,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0815a2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_tookit:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2485,7 +2485,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_pdf_toolbox:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2502,7 +2502,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_pic_to_doc:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2519,7 +2519,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_share_long_pic:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2536,7 +2536,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_docdownsizing:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2553,7 +2553,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_resume_helper:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2570,7 +2570,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef1
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_pdf_camerascan:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2587,7 +2587,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081261
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_audio_record:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2604,7 +2604,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eed
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_note:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2621,7 +2621,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_qrcordscan:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2638,7 +2638,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eea
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_id_photo:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2655,7 +2655,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080efa
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_tv_projection:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2672,7 +2672,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eeb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_meeting:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2689,7 +2689,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_papercheck:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2706,7 +2706,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eef
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_paper_down_repetition:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2723,7 +2723,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_gift:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2749,7 +2749,7 @@
     .line 19
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f08126e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_jd:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2762,7 +2762,7 @@
     .line 20
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f081294
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_tb:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2775,7 +2775,7 @@
     .line 21
     sget-object v0, Lsq9;->c:Ljava/util/Map;
 
-    const v1, 0x7f080efb
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_wps_skills:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2794,7 +2794,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_play_record:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2811,7 +2811,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee8
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_extract_file:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2828,7 +2828,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eec
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_mergefile:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2845,7 +2845,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_docfix:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2862,7 +2862,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_print:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2879,7 +2879,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_formtool:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2896,7 +2896,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ef9
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2913,7 +2913,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081228
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_export_pages_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2930,7 +2930,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_evidence:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2947,7 +2947,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080eee
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_paper_composition:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2964,7 +2964,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_audioinput:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2981,7 +2981,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080acc
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->new_cooperative_doc_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2998,7 +2998,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080ee3
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_pub_app_tool_audio_shorthand:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3015,7 +3015,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08126d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_image_translate:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3032,7 +3032,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0815a2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_tookit:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3078,7 +3078,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3388,7 +3388,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1208b5
+    sget v1, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3403,7 +3403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220ac
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_v1:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3418,7 +3418,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120271
+    sget v1, Lcom/resouce/module/ResSTRING;->class_title_home_work_list:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3433,7 +3433,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1217e0
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3448,7 +3448,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e89
+    sget v1, Lcom/resouce/module/ResSTRING;->school_tools_app:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3463,7 +3463,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230d6
+    sget v1, Lcom/resouce/module/ResSTRING;->tools_pdf_extract_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3478,7 +3478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e81
+    sget v1, Lcom/resouce/module/ResSTRING;->scan_extract_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3518,7 +3518,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08156c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_formular2num:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3533,7 +3533,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0815ad
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pureimagedocument:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3548,7 +3548,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081575
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_classroom:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3563,7 +3563,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08157a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_export_highlighted_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3578,7 +3578,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0815b2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_school:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3593,7 +3593,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081598
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_pdf_extracttext:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3608,7 +3608,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0815b1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_scan_extract_text:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

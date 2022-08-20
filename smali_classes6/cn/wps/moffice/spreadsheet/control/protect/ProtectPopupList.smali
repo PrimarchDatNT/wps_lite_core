@@ -86,13 +86,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_droplist_protect:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b09fe
+    sget v0, Lcom/resouce/module/ResID;->et_droplist_protect_book:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/protect/ProtectPopupList;->B:Landroid/view/View;
 
-    const v0, 0x7f0b09ff
+    sget v0, Lcom/resouce/module/ResID;->et_droplist_protect_sheet:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -113,7 +113,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/protect/ProtectPopupList;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0aa4
+    sget v1, Lcom/resouce/module/ResID;->et_insert_list_item_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081cbd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_selected_bg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081cbd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_toolbar_item_selected_bg:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -236,7 +236,7 @@
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->setEnabled(Z)V
 
-    const v0, 0x7f0b0aa5
+    sget v0, Lcom/resouce/module/ResID;->et_insert_list_item_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -277,7 +277,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f0b0aa4
+    sget v0, Lcom/resouce/module/ResID;->et_insert_list_item_image:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

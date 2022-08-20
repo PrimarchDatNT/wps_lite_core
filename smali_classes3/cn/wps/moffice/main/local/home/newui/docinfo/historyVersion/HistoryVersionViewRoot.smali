@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0bb8
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_history_version_layout:I
 
     const/4 p3, 0x1
 
@@ -79,7 +79,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->a0:Landroid/view/ViewGroup;
 
-    const p1, 0x7f0b0746
+    sget p1, Lcom/resouce/module/ResID;->docinfo_history_version_content:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->b0:Landroid/widget/FrameLayout;
 
-    const p1, 0x7f0b0fd8
+    sget p1, Lcom/resouce/module/ResID;->history_content_divider:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b0748
+    sget p1, Lcom/resouce/module/ResID;->docinfo_history_version_progress_view:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->I:Landroid/view/View;
 
-    const p1, 0x7f0b0747
+    sget p1, Lcom/resouce/module/ResID;->docinfo_history_version_no_net_view:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1718
+    sget p2, Lcom/resouce/module/ResID;->load_err_tips:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1717
+    sget p2, Lcom/resouce/module/ResID;->load_err_extra_tips:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -348,14 +348,14 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f120f26
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_special_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f120f25
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_special_content:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -365,14 +365,14 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f120f27
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_title:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/newui/docinfo/historyVersion/HistoryVersionViewRoot;->U:Landroid/widget/TextView;
 
-    const v0, 0x7f120f24
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_content:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

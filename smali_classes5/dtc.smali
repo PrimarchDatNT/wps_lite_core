@@ -143,7 +143,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0e0b13
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_app_list_item_view:I
 
     const/4 v1, 0x0
 
@@ -151,7 +151,7 @@
 
     move-result-object p4
 
-    const v0, 0x7f0b012f
+    sget v0, Lcom/resouce/module/ResID;->app_list_item_image:I
 
     .line 2
     invoke-virtual {p4, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -160,7 +160,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0130
+    sget v1, Lcom/resouce/module/ResID;->app_list_item_name:I
 
     .line 3
     invoke-virtual {p4, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
     .line 5
     invoke-virtual {v1, p2}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f0b15b1
+    sget p2, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 6
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -307,7 +307,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ff3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->v10_phone_pdf_convert_panel_layout:I
 
     return v0
 .end method
@@ -390,7 +390,7 @@
     .line 3
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b3022
+    sget v2, Lcom/resouce/module/ResID;->titlebar_content:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +401,7 @@
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v2, 0x7f0b2067
+    sget v2, Lcom/resouce/module/ResID;->phone_panel_topbar_nav_img:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -414,7 +414,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v2, 0x7f0b3012
+    sget v2, Lcom/resouce/module/ResID;->title_text:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -423,7 +423,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f12198d    # 1.9419995E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_pdf_convert:I    # 1.9419995E38f
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -431,7 +431,7 @@
     .line 8
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b0569
+    sget v2, Lcom/resouce/module/ResID;->convert_panel_container:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -448,11 +448,11 @@
 
     if-eqz v2, :cond_0
 
-    const v4, 0x7f121769
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
-    const v5, 0x7f08032d
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_word:I
 
-    const v6, 0x7f121770
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_word_sub_des:I
 
     .line 10
     sget-object v2, Lys9$b;->T:Lys9$b;
@@ -483,11 +483,11 @@
 
     if-eqz v2, :cond_1
 
-    const v4, 0x7f12176d
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
-    const v5, 0x7f08032c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_ppt:I
 
-    const v6, 0x7f12176f
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt_sub_des:I
 
     .line 14
     sget-object v2, Lys9$b;->e0:Lys9$b;
@@ -518,11 +518,11 @@
 
     if-eqz v2, :cond_2
 
-    const v4, 0x7f121771
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
-    const v5, 0x7f08032a
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_et:I
 
-    const v6, 0x7f121773
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls_sub_des:I
 
     .line 18
     sget-object v2, Lys9$b;->f0:Lys9$b;
@@ -563,11 +563,11 @@
 
     if-eqz v2, :cond_3
 
-    const v4, 0x7f12176b
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_pic:I
 
-    const v5, 0x7f08032b
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_to_pic:I
 
-    const v6, 0x7f12176c
+    sget v6, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_pic_sub_des:I
 
     const/4 v7, 0x0
 
@@ -608,11 +608,11 @@
 
     if-eqz v2, :cond_4
 
-    const v4, 0x7f120460
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
-    const v5, 0x7f080497
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_tool_pic_pdf:I
 
-    const v6, 0x7f1219e1
+    sget v6, Lcom/resouce/module/ResSTRING;->pic_convert_pdf_to_pdf_sub_des:I
 
     .line 26
     sget-object v2, Lys9$b;->O0:Lys9$b;

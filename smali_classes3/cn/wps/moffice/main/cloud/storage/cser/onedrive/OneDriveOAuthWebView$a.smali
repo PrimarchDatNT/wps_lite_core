@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12244b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login_error:I
 
     invoke-interface {p1, v0}, Lga8;->a(I)V
 

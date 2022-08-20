@@ -80,9 +80,9 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f121984
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_public_lock_screen:I
 
-    const v1, 0x7f0802a1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_screen_lock:I
 
     .line 4
     invoke-virtual {p0, v1}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->L0(I)V
@@ -117,9 +117,9 @@
     :cond_2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->O0(Z)V
 
-    const p1, 0x7f121995
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_public_rotate_screen:I
 
-    const v0, 0x7f081f5c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_screen_roration_icon:I
 
     .line 9
     invoke-virtual {p0, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;->L0(I)V

@@ -32,7 +32,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f121fde
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc2web_upload_space_limit:I
 
     return v0
 .end method
@@ -40,7 +40,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f121fdd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_doc2web_upload_size_limit:I
 
     return v0
 .end method

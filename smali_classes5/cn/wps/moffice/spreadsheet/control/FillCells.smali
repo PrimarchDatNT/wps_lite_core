@@ -324,9 +324,9 @@
     .line 33
     new-instance p1, Lcn/wps/moffice/spreadsheet/control/FillCells$1;
 
-    const v2, 0x7f080443
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_down:I
 
-    const v3, 0x7f122783
+    sget v3, Lcom/resouce/module/ResSTRING;->public_quickstyle_data_fill:I
 
     new-instance v4, Ld0h;
 
@@ -358,9 +358,9 @@
 
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;
 
-    const v0, 0x7f080443
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_down:I
 
-    const v1, 0x7f120b84
+    sget v1, Lcom/resouce/module/ResSTRING;->et_main_toolbar_fill_cells_down:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;-><init>(Lcn/wps/moffice/spreadsheet/control/FillCells;II)V
 
@@ -376,9 +376,9 @@
 
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;
 
-    const v0, 0x7f080445
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_right:I
 
-    const v1, 0x7f120b87
+    sget v1, Lcom/resouce/module/ResSTRING;->et_main_toolbar_fill_cells_right:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;-><init>(Lcn/wps/moffice/spreadsheet/control/FillCells;II)V
 
@@ -394,9 +394,9 @@
 
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;
 
-    const v0, 0x7f080446
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_up:I
 
-    const v1, 0x7f120b88
+    sget v1, Lcom/resouce/module/ResSTRING;->et_main_toolbar_fill_cells_up:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;-><init>(Lcn/wps/moffice/spreadsheet/control/FillCells;II)V
 
@@ -412,9 +412,9 @@
 
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;
 
-    const v0, 0x7f080444
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_left:I
 
-    const v1, 0x7f120b86
+    sget v1, Lcom/resouce/module/ResSTRING;->et_main_toolbar_fill_cells_left:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;-><init>(Lcn/wps/moffice/spreadsheet/control/FillCells;II)V
 
@@ -430,9 +430,9 @@
 
     new-instance p3, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;
 
-    const v0, 0x7f08043d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_drag_fill:I
 
-    const v1, 0x7f120b85
+    sget v1, Lcom/resouce/module/ResSTRING;->et_main_toolbar_fill_cells_drag:I
 
     invoke-direct {p3, p0, v0, v1}, Lcn/wps/moffice/spreadsheet/control/FillCells$FillBtn;-><init>(Lcn/wps/moffice/spreadsheet/control/FillCells;II)V
 
@@ -851,7 +851,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0a3c
+    sget v1, Lcom/resouce/module/ResID;->et_fillcells_drag_layout:I
 
     if-ne p1, v1, :cond_0
 
@@ -864,14 +864,14 @@
     :cond_0
     sget-object v1, Ld5m$d;->B:Ld5m$d;
 
-    const v2, 0x7f0b0a39
+    sget v2, Lcom/resouce/module/ResID;->et_fillcells_down_layout:I
 
     if-ne p1, v2, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b0a42
+    sget v2, Lcom/resouce/module/ResID;->et_fillcells_right_layout:I
 
     if-ne p1, v2, :cond_2
 
@@ -881,7 +881,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0b0a45
+    sget v2, Lcom/resouce/module/ResID;->et_fillcells_up_layout:I
 
     if-ne p1, v2, :cond_3
 
@@ -891,7 +891,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b0a3f
+    sget v2, Lcom/resouce/module/ResID;->et_fillcells_left_layout:I
 
     if-ne p1, v2, :cond_4
 

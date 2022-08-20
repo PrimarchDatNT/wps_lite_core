@@ -425,7 +425,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121889
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_func_subscription:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -440,7 +440,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121478
+    sget v2, Lcom/resouce/module/ResSTRING;->new_user_value_add_notify:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -455,7 +455,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121884
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_paypage_cancel_subscription:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1418,7 +1418,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121883
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_btn_upgrade_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1435,7 +1435,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121881
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_btn_freetrial_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1452,7 +1452,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121888
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_flexible_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1469,7 +1469,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12188c
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_paypage_popular_txt:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1486,7 +1486,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ad9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_three_days_trial:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

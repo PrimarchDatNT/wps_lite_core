@@ -153,7 +153,7 @@
     goto :goto_2
 
     :cond_1
-    const v2, 0x7f12292e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_setPasswdSucc:I
 
     const/4 v3, 0x4
 
@@ -248,7 +248,7 @@
     :cond_8
     iget-object v0, p0, Lsu3;->a:Landroid/content/Context;
 
-    const v1, 0x7f121fb9    # 1.94232E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     invoke-static {v0, v1, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -288,12 +288,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0bda
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_encrypt_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0863
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_encrypt_view:I
 
     .line 2
     :goto_0
@@ -333,7 +333,7 @@
     .line 2
     iget-object v0, p0, Lsu3;->c:Landroid/view/View;
 
-    const v1, 0x7f0b1b21
+    sget v1, Lcom/resouce/module/ResID;->open_encrypt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -341,42 +341,42 @@
 
     iput-object v0, v2, Ltu3$j;->a:Landroid/view/View;
 
-    const v0, 0x7f0b06b6
+    sget v0, Lcom/resouce/module/ResID;->display_check1:I
 
     .line 3
     iput v0, v2, Ltu3$j;->e:I
 
-    const v0, 0x7f0b0433
+    sget v0, Lcom/resouce/module/ResID;->clear_password1:I
 
     .line 4
     iput v0, v2, Ltu3$j;->b:I
 
-    const v0, 0x7f0b1ced
+    sget v0, Lcom/resouce/module/ResID;->passwd_input_confirm_edittext:I
 
     .line 5
     iput v0, v2, Ltu3$j;->d:I
 
-    const v0, 0x7f0b1341
+    sget v0, Lcom/resouce/module/ResID;->input_invalid_openPassText2:I
 
     .line 6
     iput v0, v2, Ltu3$j;->h:I
 
-    const v0, 0x7f0b133a
+    sget v0, Lcom/resouce/module/ResID;->input_diff_openPassText:I
 
     .line 7
     iput v0, v2, Ltu3$j;->i:I
 
-    const v0, 0x7f0b1343
+    sget v0, Lcom/resouce/module/ResID;->input_limit_text1:I
 
     .line 8
     iput v0, v2, Ltu3$j;->f:I
 
-    const v0, 0x7f0b1340
+    sget v0, Lcom/resouce/module/ResID;->input_invalid_openPassText1:I
 
     .line 9
     iput v0, v2, Ltu3$j;->g:I
 
-    const v0, 0x7f0b1cf2
+    sget v0, Lcom/resouce/module/ResID;->passwd_input_edittext:I
 
     .line 10
     iput v0, v2, Ltu3$j;->c:I
@@ -389,7 +389,7 @@
     .line 12
     iget-object v0, p0, Lsu3;->c:Landroid/view/View;
 
-    const v1, 0x7f0b18c8
+    sget v1, Lcom/resouce/module/ResID;->modify_encrypt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -397,42 +397,42 @@
 
     iput-object v0, v5, Ltu3$j;->a:Landroid/view/View;
 
-    const v1, 0x7f0b06b7
+    sget v1, Lcom/resouce/module/ResID;->display_check2:I
 
     .line 13
     iput v1, v5, Ltu3$j;->e:I
 
-    const v1, 0x7f0b0434
+    sget v1, Lcom/resouce/module/ResID;->clear_password2:I
 
     .line 14
     iput v1, v5, Ltu3$j;->b:I
 
-    const v1, 0x7f0b1cef
+    sget v1, Lcom/resouce/module/ResID;->passwd_input_edit_confirm_text:I
 
     .line 15
     iput v1, v5, Ltu3$j;->d:I
 
-    const v1, 0x7f0b133f
+    sget v1, Lcom/resouce/module/ResID;->input_invalid_editPassText2:I
 
     .line 16
     iput v1, v5, Ltu3$j;->h:I
 
-    const v1, 0x7f0b1339
+    sget v1, Lcom/resouce/module/ResID;->input_diff_editPassText:I
 
     .line 17
     iput v1, v5, Ltu3$j;->i:I
 
-    const v1, 0x7f0b1345
+    sget v1, Lcom/resouce/module/ResID;->input_limit_text3:I
 
     .line 18
     iput v1, v5, Ltu3$j;->f:I
 
-    const v1, 0x7f0b133e
+    sget v1, Lcom/resouce/module/ResID;->input_invalid_editPassText1:I
 
     .line 19
     iput v1, v5, Ltu3$j;->g:I
 
-    const v1, 0x7f0b1cf1
+    sget v1, Lcom/resouce/module/ResID;->passwd_input_edit_text:I
 
     .line 20
     iput v1, v5, Ltu3$j;->c:I

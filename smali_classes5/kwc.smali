@@ -60,7 +60,7 @@
     .line 3
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f010088
+    sget v1, Lcom/resouce/module/ResANIM;->public_play_bottom_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -205,7 +205,7 @@
     .line 3
     iget-object p1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v0, 0x7f010089
+    sget v0, Lcom/resouce/module/ResANIM;->public_play_bottom_push_out:I
 
     invoke-static {p1, v0}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -378,7 +378,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_play_sidebar_layout:I
 
     return v0
 .end method
@@ -415,7 +415,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060006
+    sget v2, Lcom/resouce/module/ResCOLOR;->PDFMainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -426,7 +426,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2100
+    sget v1, Lcom/resouce/module/ResID;->phone_public_thumbnail_titlebar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -437,7 +437,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2083
+    sget v1, Lcom/resouce/module/ResID;->phone_play_titlebar_back_cover:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

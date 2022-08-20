@@ -48,7 +48,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0e106c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_arrow_rectangle_view_layout:I
 
     .line 2
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     if-eqz v1, :cond_1
 
-    const v4, 0x7f0b1313
+    sget v4, Lcom/resouce/module/ResID;->ink_function_tip_text:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,11 +75,11 @@
 
     check-cast v4, Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const v5, 0x7f12236e
+    sget v5, Lcom/resouce/module/ResSTRING;->public_ink_function_guide_text:I
 
     new-array v6, v3, [Ljava/lang/Object;
 
-    const v7, 0x7f120132
+    sget v7, Lcom/resouce/module/ResSTRING;->app_widget_doc_label:I
 
     .line 5
     invoke-virtual {v1, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

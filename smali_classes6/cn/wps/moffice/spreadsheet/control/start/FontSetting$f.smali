@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2d88    # 1.849991E38f
+    sget v0, Lcom/resouce/module/ResID;->start_font_font_size:I    # 1.849991E38f
 
     if-ne p1, v0, :cond_0
 
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0e60
+    sget v0, Lcom/resouce/module/ResID;->font_title_more:I
 
     if-ne p1, v0, :cond_3
 

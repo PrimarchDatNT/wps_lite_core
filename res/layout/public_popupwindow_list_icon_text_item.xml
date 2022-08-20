@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingLeft="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" android:paddingRight="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" android:focusable="false" android:layout_width="@dimen/writer_pad_third_popup_menu_item_width" android:layout_height="@dimen/writer_pad_popup_menu_list_icon_height" android:paddingStart="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" android:paddingEnd="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" style="@style/public_toolbar_popupwindow_btn_withicon_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wpsx.support.ui.KNormalImageView android:id="@id/public_item_image" android:layout_width="@dimen/writer_pad_popup_menu_icon_size" android:layout_height="@dimen/writer_pad_popup_menu_icon_size" style="@style/public_toolbar_popupwindow_icon" />
-    <TextView android:textSize="@dimen/writer_pad_popup_menu_radio_item_height" android:id="@id/public_item_text" android:paddingLeft="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" android:layout_height="@dimen/writer_pad_popup_menu_list_icon_height" android:paddingStart="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" style="@style/public_toolbar_popupwindow_btn_withicon" />
-</LinearLayout>

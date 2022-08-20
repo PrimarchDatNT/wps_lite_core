@@ -132,7 +132,7 @@
 
     move-result v1
 
-    const v2, 0x7f1201cf
+    sget v2, Lcom/resouce/module/ResSTRING;->attch_file_name:I
 
     const-string v3, "\n"
 
@@ -231,7 +231,7 @@
     .line 12
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p1, 0x7f121d3b
+    sget p1, Lcom/resouce/module/ResSTRING;->public_app_language:I
 
     .line 13
     :try_start_1
@@ -304,7 +304,7 @@
     .line 19
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p2, 0x7f121f8d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_crash_dialog_thank:I
 
     .line 20
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -366,7 +366,7 @@
     return-object p0
 
     :catchall_0
-    const v0, 0x7f120d1d
+    sget v0, Lcom/resouce/module/ResSTRING;->feedback_subject:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -973,14 +973,14 @@
 .method public static i(Landroid/content/Context;)Ljava/lang/String;
     .locals 3
 
-    const v0, 0x7f12011c
+    sget v0, Lcom/resouce/module/ResSTRING;->app_version:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f12011a
+    sget v1, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1224,12 +1224,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f123258
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_secrete_refer_url_zh:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f123257
+    sget v0, Lcom/resouce/module/ResSTRING;->wps_secrete_refer_url:I
 
     .line 2
     :goto_0
@@ -1314,7 +1314,7 @@
 
     move-result v5
 
-    const v6, 0x7f1205eb
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_noEmailApp:I
 
     const/4 v7, 0x0
 
@@ -1413,7 +1413,7 @@
 
     invoke-virtual {v8, v10}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    const v10, 0x7f120575
+    sget v10, Lcom/resouce/module/ResSTRING;->documentmanager_chooseEmail:I
 
     .line 14
     invoke-virtual {v0, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0eeb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->relate_account_root:I
 
     const/4 v2, 0x0
 
@@ -82,7 +82,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/RelateAccountActivity;->B:Landroid/view/View;
 
-    const v1, 0x7f0b171e
+    sget v1, Lcom/resouce/module/ResID;->loadingView:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/relate/BaseRelatePage;->c(Ljava/lang/String;)V
 
-    const v2, 0x7f0b0532
+    sget v2, Lcom/resouce/module/ResID;->containerLayout:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;

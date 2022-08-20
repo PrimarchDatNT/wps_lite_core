@@ -243,7 +243,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081a8e
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_rectangle_bg:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -474,7 +474,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p0, 0x7f081a8e
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_rectangle_bg:I
 
     .line 2
     invoke-virtual {p1, p0}, Landroid/view/View;->setBackgroundResource(I)V
@@ -640,7 +640,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -665,7 +665,7 @@
     move-result-object p1
 
     :goto_0
-    const v0, 0x7f0b20fd
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -674,7 +674,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f120b68
+    sget v1, Lcom/resouce/module/ResSTRING;->et_highlight_duplication:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -732,7 +732,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/datatab/HighLightItem;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f120b98
+    sget p2, Lcom/resouce/module/ResSTRING;->et_need_choose_valid_selection:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -742,7 +742,7 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/datatab/HighLightItem;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f1207a0
+    sget p2, Lcom/resouce/module/ResSTRING;->et_choose_hightlight_selection:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -794,21 +794,21 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122a22
+    sget v1, Lcom/resouce/module/ResSTRING;->public_start_page_gdpr_title:I
 
     .line 15
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f120b69
+    sget v1, Lcom/resouce/module/ResSTRING;->et_highlight_duplication_tips:I
 
     .line 16
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     sget-object v2, Lvtf;->B:Lvtf;
 
@@ -817,7 +817,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f40
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v2, Lytf;
 
@@ -952,7 +952,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e051f
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_duplication_ss_halve_image_text_item_layout:I
 
     const/4 v10, 0x0
 
@@ -960,7 +960,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f0b1c2f
+    sget v3, Lcom/resouce/module/ResID;->pad_public_ss_panel_common_item_layout:I
 
     .line 8
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1057,7 +1057,7 @@
     .line 19
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/datatab/HighLightItem;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f080e3d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_letter_a:I
 
     const/4 v7, 0x1
 
@@ -1153,7 +1153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1021
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_halve_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -1161,7 +1161,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b20fc
+    sget v0, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1235,7 +1235,7 @@
     .line 8
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/datatab/HighLightItem;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f080460
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->comp_table_letter_a:I
 
     invoke-static {v5, v1, v3, v6}, Llrg;->b(Landroid/content/Context;IZI)Landroid/view/View;
 

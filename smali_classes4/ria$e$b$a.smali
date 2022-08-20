@@ -70,7 +70,7 @@
 
     iget-object v0, v0, Lria$e;->B:Landroid/app/Activity;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -103,7 +103,7 @@
 
     move-result v0
 
-    const v1, 0x7f12272d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_processon_nospace_importfile_title:I
 
     if-eqz v0, :cond_2
 
@@ -125,7 +125,7 @@
 
     iget-object v2, v2, Lria$e;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12272c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_processon_nospace_importfile_msg:I
 
     .line 8
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -147,7 +147,7 @@
 
     iget-object v0, v0, Lria$e;->B:Landroid/app/Activity;
 
-    const v2, 0x7f120eae
+    sget v2, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

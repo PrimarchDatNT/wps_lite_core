@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -192,7 +192,7 @@
     .line 5
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2b18
+    sget v3, Lcom/resouce/module/ResID;->send_to_pc_image:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,12 +202,12 @@
 
     if-eqz p1, :cond_1
 
-    const v3, 0x7f081d98
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->scan_result_success:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f081d97
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->scan_result_fail:I
 
     .line 6
     :goto_1
@@ -216,7 +216,7 @@
     .line 7
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2b19
+    sget v3, Lcom/resouce/module/ResID;->send_to_pc_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,12 +226,12 @@
 
     if-eqz p1, :cond_2
 
-    const v3, 0x7f122ed2
+    sget v3, Lcom/resouce/module/ResSTRING;->send_to_pc_success:I
 
     goto :goto_2
 
     :cond_2
-    const v3, 0x7f122eca
+    sget v3, Lcom/resouce/module/ResSTRING;->send_to_pc_fail:I
 
     .line 8
     :goto_2
@@ -240,7 +240,7 @@
     .line 9
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v3, 0x7f0b2b1a
+    sget v3, Lcom/resouce/module/ResID;->send_to_pc_tip_text:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -261,7 +261,7 @@
     .line 10
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v3, 0x7f0b29fe
+    sget v3, Lcom/resouce/module/ResID;->scan_btn:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,7 +313,7 @@
     .line 1
     iget-object v0, p0, Leef;->I:Landroid/app/Activity;
 
-    const v1, 0x7f0e0f3a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->send_to_pc_result_layout:I
 
     const/4 v2, 0x0
 
@@ -323,7 +323,7 @@
 
     iput-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b301f
+    sget v1, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
     .line 1
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b28bf
+    sget v1, Lcom/resouce/module/ResID;->result_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -390,7 +390,7 @@
     .line 3
     iget-object v0, p0, Leef;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2544
+    sget v1, Lcom/resouce/module/ResID;->progress_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

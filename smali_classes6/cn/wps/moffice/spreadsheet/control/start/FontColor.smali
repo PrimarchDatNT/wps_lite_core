@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06068f
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_black:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060699
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06069b
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_yellow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060697
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_green:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -129,7 +129,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060690
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_font_default_color_blue:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e101e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_phone_ss_font_color_image_text_item_layout:I
 
     const/4 v2, 0x0
 
@@ -217,7 +217,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20fd
+    sget v1, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -226,7 +226,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v3, 0x7f0b20fc
+    sget v3, Lcom/resouce/module/ResID;->phone_public_ss_panel_common_item_halve_layout:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     check-cast v3, Lcn/wps/moffice/spreadsheet/control/common/HalveLayout;
 
-    const v4, 0x7f0b20fe
+    sget v4, Lcom/resouce/module/ResID;->phone_public_ss_text_auto_wrap:I
 
     .line 4
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -246,7 +246,7 @@
 
     iput-object v4, p0, Lcn/wps/moffice/spreadsheet/control/start/FontColor;->mAuto:Landroid/widget/TextView;
 
-    const v4, 0x7f1221b4
+    sget v4, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     .line 5
     invoke-virtual {v1, v4}, Landroid/widget/TextView;->setText(I)V
@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -313,7 +313,7 @@
     .line 13
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/start/FontColor;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f080233
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->comp_common_more:I
 
     invoke-static {v1, v4, v2, p1, p1}, Llrg;->f(Landroid/content/Context;IIII)Landroid/view/View;
 
@@ -638,12 +638,12 @@
 
     if-ne p1, v2, :cond_2
 
-    const v3, 0x7f060002
+    sget v3, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_0
 
     :cond_2
-    const v3, 0x7f06025f
+    sget v3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_0
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getColor(I)I

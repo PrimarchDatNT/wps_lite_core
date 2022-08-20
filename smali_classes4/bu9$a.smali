@@ -61,7 +61,7 @@
 
     iget-object v1, p1, Lbu9;->S:Landroid/app/Activity;
 
-    const p1, 0x7f1221da
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fontname_recent:I
 
     invoke-virtual {v1, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

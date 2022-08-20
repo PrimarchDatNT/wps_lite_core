@@ -46,7 +46,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -280,12 +280,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f1228d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -305,7 +305,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01e4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_filter_col_dialog:I
 
     const/4 v2, 0x0
 
@@ -355,7 +355,7 @@
     .line 7
     iget-object v0, p0, Lcog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2863
+    sget v1, Lcom/resouce/module/ResID;->recycler_view:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -402,7 +402,7 @@
     .line 12
     iget-object v0, p0, Lcog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0342
+    sget v1, Lcom/resouce/module/ResID;->cancel_tv:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -413,7 +413,7 @@
     .line 13
     iget-object v0, p0, Lcog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2db5    # 1.8500002E38f
+    sget v1, Lcom/resouce/module/ResID;->status_tv:I    # 1.8500002E38f
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -429,7 +429,7 @@
     .line 15
     iget-object v0, p0, Lcog;->I:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0d8c
+    sget v1, Lcom/resouce/module/ResID;->finish_tv:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -451,7 +451,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0342
+    sget v0, Lcom/resouce/module/ResID;->cancel_tv:I
 
     if-ne p1, v0, :cond_0
 
@@ -461,7 +461,7 @@
     goto/16 :goto_3
 
     :cond_0
-    const v0, 0x7f0b2db5    # 1.8500002E38f
+    sget v0, Lcom/resouce/module/ResID;->status_tv:I    # 1.8500002E38f
 
     if-ne p1, v0, :cond_3
 
@@ -512,12 +512,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f122551
+    sget v0, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f1228d7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     :goto_1
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -525,7 +525,7 @@
     goto :goto_3
 
     :cond_3
-    const v0, 0x7f0b0d8c
+    sget v0, Lcom/resouce/module/ResID;->finish_tv:I
 
     if-ne p1, v0, :cond_7
 

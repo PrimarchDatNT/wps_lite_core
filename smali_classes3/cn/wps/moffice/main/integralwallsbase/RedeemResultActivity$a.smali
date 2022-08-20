@@ -50,7 +50,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0e04
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_redeem_result_layout:I
 
     const/4 v3, 0x0
 
@@ -67,7 +67,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0525
+    sget v2, Lcom/resouce/module/ResID;->confirm:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122e17
+    sget v0, Lcom/resouce/module/ResSTRING;->redeem_points_activity_title:I
 
     return v0
 .end method

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.TitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height" app:title_bar_level="3" />
-</merge>

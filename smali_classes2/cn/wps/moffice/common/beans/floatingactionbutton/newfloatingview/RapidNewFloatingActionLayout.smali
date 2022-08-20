@@ -497,7 +497,7 @@
 
     move-result v0
 
-    const v2, 0x7f13012e
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     if-eqz v0, :cond_2
 
@@ -521,7 +521,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f13012f
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
 
     invoke-direct {v0, v2, v3}, Lgk5;-><init>(Landroid/content/Context;I)V
 
@@ -591,7 +591,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b0db6
+    sget v2, Lcom/resouce/module/ResID;->fl_create_item:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -629,7 +629,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b170d
+    sget v2, Lcom/resouce/module/ResID;->ll_word:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -640,7 +640,7 @@
     .line 17
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16ea
+    sget v2, Lcom/resouce/module/ResID;->ll_ss:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -651,7 +651,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16c5
+    sget v2, Lcom/resouce/module/ResID;->ll_ppt:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -662,7 +662,7 @@
     .line 19
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16fa
+    sget v2, Lcom/resouce/module/ResID;->ll_text:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -673,7 +673,7 @@
     .line 20
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16bb
+    sget v2, Lcom/resouce/module/ResID;->ll_pdf:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -684,7 +684,7 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16d8
+    sget v2, Lcom/resouce/module/ResID;->ll_scanner:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -695,7 +695,7 @@
     .line 22
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16bf
+    sget v2, Lcom/resouce/module/ResID;->ll_pdf_land:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
     .line 23
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16fb
+    sget v2, Lcom/resouce/module/ResID;->ll_text_land:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -717,7 +717,7 @@
     .line 24
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16d9
+    sget v2, Lcom/resouce/module/ResID;->ll_scanner_land:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -728,7 +728,7 @@
     .line 25
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16cd
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_close:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -739,7 +739,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16ce
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_content:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -750,7 +750,7 @@
     .line 27
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16aa
+    sget v2, Lcom/resouce/module/ResID;->ll_new_folder:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -761,7 +761,7 @@
     .line 28
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b1705
+    sget v2, Lcom/resouce/module/ResID;->ll_upload_file_f:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -772,7 +772,7 @@
     .line 29
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16ab
+    sget v2, Lcom/resouce/module/ResID;->ll_new_folder_land:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 30
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b1706
+    sget v2, Lcom/resouce/module/ResID;->ll_upload_file_f_land:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -794,7 +794,7 @@
     .line 31
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16d0
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -805,7 +805,7 @@
     .line 32
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b16cf
+    sget v2, Lcom/resouce/module/ResID;->ll_recycle_corner_fill:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -817,7 +817,7 @@
     :try_start_0
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v2, 0x7f0b3232
+    sget v2, Lcom/resouce/module/ResID;->tv_recycle_tips:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -834,7 +834,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122e15
+    sget v3, Lcom/resouce/module/ResSTRING;->recycle_bin_tip_info:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -998,7 +998,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0e0ef0
+    sget v8, Lcom/resouce/module/ResLAYOUT;->rfab__new_content_label_list_item:I
 
     const/4 v9, 0x0
 
@@ -1006,14 +1006,14 @@
 
     move-result-object v7
 
-    const v8, 0x7f0b290e
+    sget v8, Lcom/resouce/module/ResID;->rfab__content_label_list_root_view:I
 
     .line 9
     invoke-static {v7, v8}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v8
 
-    const v9, 0x7f0b290d
+    sget v9, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 10
     invoke-static {v7, v9}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -1022,7 +1022,7 @@
 
     check-cast v9, Landroid/widget/TextView;
 
-    const v10, 0x7f0b290c
+    sget v10, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 11
     invoke-static {v7, v10}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -1042,7 +1042,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0b290f
+    sget v11, Lcom/resouce/module/ResID;->rfab__id_content_label_list_item_position:I
 
     invoke-virtual {v9, v11, v10}, Landroid/widget/TextView;->setTag(ILjava/lang/Object;)V
 
@@ -1350,7 +1350,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b338d
+    sget v1, Lcom/resouce/module/ResID;->view_banner_create_item:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1387,19 +1387,19 @@
 
     iget v0, v0, Landroid/content/res/Configuration;->orientation:I
 
-    const v4, 0x7f0b1706
+    sget v4, Lcom/resouce/module/ResID;->ll_upload_file_f_land:I
 
-    const v5, 0x7f0b16ab
+    sget v5, Lcom/resouce/module/ResID;->ll_new_folder_land:I
 
     const-string v6, "oversea_cloud_doc"
 
-    const v7, 0x7f0b1646
+    sget v7, Lcom/resouce/module/ResID;->ll_buttom_three:I
 
-    const v8, 0x7f0b16d9
+    sget v8, Lcom/resouce/module/ResID;->ll_scanner_land:I
 
-    const v9, 0x7f0b16fb
+    sget v9, Lcom/resouce/module/ResID;->ll_text_land:I
 
-    const v10, 0x7f0b16bf
+    sget v10, Lcom/resouce/module/ResID;->ll_pdf_land:I
 
     if-ne v0, v1, :cond_f
 
@@ -1422,7 +1422,7 @@
     .line 50
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v1, 0x7f0b16bb
+    sget v1, Lcom/resouce/module/ResID;->ll_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1433,7 +1433,7 @@
     .line 51
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v1, 0x7f0b16aa
+    sget v1, Lcom/resouce/module/ResID;->ll_new_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1444,7 +1444,7 @@
     .line 52
     iget-object v0, p0, Lcn/wps/moffice/common/beans/floatingactionbutton/newfloatingview/RapidNewFloatingActionLayout;->n0:Landroid/view/View;
 
-    const v1, 0x7f0b1705
+    sget v1, Lcom/resouce/module/ResID;->ll_upload_file_f:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1742,7 +1742,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->o1(Landroid/content/Context;I)V
 
@@ -1792,7 +1792,7 @@
 
     if-eqz v2, :cond_1
 
-    const v1, 0x7f0b290f
+    sget v1, Lcom/resouce/module/ResID;->rfab__id_content_label_list_item_position:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -1817,7 +1817,7 @@
 
     if-eqz v2, :cond_4
 
-    const v0, 0x7f0b290d
+    sget v0, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     if-ne p1, v0, :cond_2
 
@@ -1845,7 +1845,7 @@
     goto/16 :goto_4
 
     :cond_2
-    const v0, 0x7f0b290c
+    sget v0, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     if-ne p1, v0, :cond_3
 
@@ -1873,7 +1873,7 @@
     goto/16 :goto_4
 
     :cond_3
-    const v0, 0x7f0b290e
+    sget v0, Lcom/resouce/module/ResID;->rfab__content_label_list_root_view:I
 
     if-ne p1, v0, :cond_13
 
@@ -1901,7 +1901,7 @@
     goto/16 :goto_4
 
     :cond_4
-    const v1, 0x7f0b16cd
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_close:I
 
     if-ne p1, v1, :cond_5
 
@@ -1911,7 +1911,7 @@
     goto/16 :goto_4
 
     :cond_5
-    const v1, 0x7f0b16ce
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_content:I
 
     if-ne p1, v1, :cond_6
 
@@ -1939,7 +1939,7 @@
     goto/16 :goto_4
 
     :cond_6
-    const v1, 0x7f0b170d
+    sget v1, Lcom/resouce/module/ResID;->ll_word:I
 
     if-ne p1, v1, :cond_7
 
@@ -1951,7 +1951,7 @@
     goto/16 :goto_4
 
     :cond_7
-    const v0, 0x7f0b16c5
+    sget v0, Lcom/resouce/module/ResID;->ll_ppt:I
 
     if-ne p1, v0, :cond_8
 
@@ -1965,7 +1965,7 @@
     goto/16 :goto_4
 
     :cond_8
-    const v0, 0x7f0b16ea
+    sget v0, Lcom/resouce/module/ResID;->ll_ss:I
 
     if-ne p1, v0, :cond_9
 
@@ -1979,55 +1979,55 @@
     goto :goto_4
 
     :cond_9
-    const v0, 0x7f0b16fa
+    sget v0, Lcom/resouce/module/ResID;->ll_text:I
 
     if-eq p1, v0, :cond_12
 
-    const v0, 0x7f0b16fb
+    sget v0, Lcom/resouce/module/ResID;->ll_text_land:I
 
     if-ne p1, v0, :cond_a
 
     goto :goto_3
 
     :cond_a
-    const v0, 0x7f0b16d8
+    sget v0, Lcom/resouce/module/ResID;->ll_scanner:I
 
     if-eq p1, v0, :cond_11
 
-    const v0, 0x7f0b16d9
+    sget v0, Lcom/resouce/module/ResID;->ll_scanner_land:I
 
     if-ne p1, v0, :cond_b
 
     goto :goto_2
 
     :cond_b
-    const v0, 0x7f0b16bb
+    sget v0, Lcom/resouce/module/ResID;->ll_pdf:I
 
     if-eq p1, v0, :cond_10
 
-    const v0, 0x7f0b16bf
+    sget v0, Lcom/resouce/module/ResID;->ll_pdf_land:I
 
     if-ne p1, v0, :cond_c
 
     goto :goto_1
 
     :cond_c
-    const v0, 0x7f0b16aa
+    sget v0, Lcom/resouce/module/ResID;->ll_new_folder:I
 
     if-eq p1, v0, :cond_f
 
-    const v0, 0x7f0b16ab
+    sget v0, Lcom/resouce/module/ResID;->ll_new_folder_land:I
 
     if-ne p1, v0, :cond_d
 
     goto :goto_0
 
     :cond_d
-    const v0, 0x7f0b1705
+    sget v0, Lcom/resouce/module/ResID;->ll_upload_file_f:I
 
     if-eq p1, v0, :cond_e
 
-    const v0, 0x7f0b1706
+    sget v0, Lcom/resouce/module/ResID;->ll_upload_file_f_land:I
 
     if-ne p1, v0, :cond_13
 
@@ -2188,7 +2188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060546
+    sget v1, Lcom/resouce/module/ResCOLOR;->public_home_create_item:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

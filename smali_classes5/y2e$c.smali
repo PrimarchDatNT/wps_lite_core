@@ -184,7 +184,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0a6e
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ppt_buchars_dialog_item:I
 
     const/4 v0, 0x0
 
@@ -193,7 +193,7 @@
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0b22a6
+    sget p3, Lcom/resouce/module/ResID;->ppt_buchars_item_img:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     aget v0, v0, p1
 
-    const v4, 0x7f080ca4
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_12_dropmenu_ppt:I
 
     if-eq v0, v4, :cond_1
 
@@ -355,13 +355,13 @@
 
     aget v4, v0, p1
 
-    const v5, 0x7f080cb5
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_5_dropmenu_ppt:I
 
     if-eq v4, v5, :cond_7
 
     aget v0, v0, p1
 
-    const v4, 0x7f080cc4
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->pad_comp_numbering_english_version3_dropmenu_ppt:I
 
     if-ne v0, v4, :cond_8
 
@@ -448,7 +448,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d7d
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_public_none:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -468,7 +468,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d69
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_public_empty:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

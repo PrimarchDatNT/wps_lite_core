@@ -54,7 +54,7 @@
     .line 2
     iget-object v1, p0, Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog$5;->this$0:Lcn/wps/moffice/common/shareplay2/SharePlayJoinDialog;
 
-    const v2, 0x7f0b1332
+    sget v2, Lcom/resouce/module/ResID;->input_access_code_btn_container:I
 
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 

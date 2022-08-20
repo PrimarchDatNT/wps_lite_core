@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29ec
+    sget v1, Lcom/resouce/module/ResID;->save_tab_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    const v1, 0x7f0804e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->dialog_bg:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V

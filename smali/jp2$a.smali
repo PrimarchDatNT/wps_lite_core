@@ -39,7 +39,7 @@
 
     move-result p1
 
-    const p2, 0x7f0816fc
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     .line 3
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -55,7 +55,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0816fd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back_white:I
 
     .line 4
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -65,7 +65,7 @@
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_0
-    const p1, 0x7f0e09ae
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_title_view_layout:I
 
     .line 5
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -76,7 +76,7 @@
 
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0b33b3
+    sget p1, Lcom/resouce/module/ResID;->view_title_lay:I
 
     .line 6
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -87,7 +87,7 @@
 
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0b124e
+    sget p1, Lcom/resouce/module/ResID;->id_phone_home_top_shadow:I
 
     .line 7
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -98,7 +98,7 @@
 
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0b0548
+    sget p1, Lcom/resouce/module/ResID;->content_lay:I
 
     .line 8
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -109,7 +109,7 @@
 
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0b301a
+    sget p1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 9
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -120,7 +120,7 @@
 
     invoke-virtual {p0, v0, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0606b3
+    sget p1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_titlebar_text_color:I
 
     .line 10
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -136,7 +136,7 @@
     .line 11
     invoke-virtual {p0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f0803dd
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_share_share:I
 
     .line 12
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -147,7 +147,7 @@
 
     invoke-virtual {p0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f010067
+    sget p1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_bottom_in:I
 
     .line 13
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -158,7 +158,7 @@
 
     invoke-virtual {p0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f010069
+    sget p1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_keep:I
 
     .line 14
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -169,7 +169,7 @@
 
     invoke-virtual {p0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f010068
+    sget p1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_bottom_out:I
 
     .line 15
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -180,7 +180,7 @@
 
     invoke-virtual {p0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f13012d
+    sget p1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 16
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -191,7 +191,7 @@
 
     invoke-virtual {p0, p2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    const p1, 0x7f1302fb
+    sget p1, Lcom/resouce/module/ResSTYLE;->Transluent:I
 
     .line 17
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

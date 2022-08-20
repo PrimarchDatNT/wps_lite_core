@@ -36,9 +36,9 @@
 .method public b(Le37;)Ldi9$f;
     .locals 1
 
-    const p1, 0x7f081706
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_exit_group:I
 
-    const v0, 0x7f122088
+    sget v0, Lcom/resouce/module/ResSTRING;->public_exit_group:I
 
     .line 1
     invoke-static {p1, v0}, Ldi9;->t(II)Ldi9$f;

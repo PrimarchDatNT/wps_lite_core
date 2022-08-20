@@ -155,7 +155,7 @@
 
     move-result v0
 
-    const v2, 0x7f0b04be
+    sget v2, Lcom/resouce/module/ResID;->com_facebook_fragment_container:I
 
     if-eqz v0, :cond_2
 
@@ -350,7 +350,7 @@
     invoke-static {v0}, Lfqq;->F(Landroid/content/Context;)V
 
     :cond_0
-    const v0, 0x7f0e009b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->com_facebook_activity_layout:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V

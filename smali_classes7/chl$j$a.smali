@@ -55,7 +55,7 @@
 
     const-string v0, "font"
 
-    const v1, 0x7f0b1cd0
+    sget v1, Lcom/resouce/module/ResID;->para_panel_divider:I
 
     invoke-virtual {p1, v0, v1}, Ltbl;->v3(Ljava/lang/String;I)V
 

@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122dc4
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_writer_page_num:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -573,7 +573,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1219ca
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_writer_readoptions_page_loading:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

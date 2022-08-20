@@ -239,7 +239,7 @@
 
     iget-object v0, v0, Lqlc$b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f1217e3
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_export_noresult:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -64,7 +64,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lty7;)V
     .locals 2
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -492,7 +492,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f121377
+    sget v3, Lcom/resouce/module/ResSTRING;->login_request_url_prefix:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -526,7 +526,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0344
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_login_webview_dialog:I
 
     const/4 v2, 0x0
 
@@ -536,7 +536,7 @@
 
     iput-object v0, p0, Lsy7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b301a
+    sget v1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -547,7 +547,7 @@
 
     iput-object v0, p0, Lsy7;->B:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1205de
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_btnLogin:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
@@ -564,7 +564,7 @@
     .line 5
     iget-object v0, p0, Lsy7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b113b
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -575,7 +575,7 @@
     .line 6
     iget-object v0, p0, Lsy7;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1143
+    sget v1, Lcom/resouce/module/ResID;->home_roaming_login_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -985,7 +985,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120057
+    sget v1, Lcom/resouce/module/ResSTRING;->account_server_cn:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

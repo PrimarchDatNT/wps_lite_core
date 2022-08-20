@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1233c5
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_ole_parse_fail:I
 
     const/4 v1, 0x0
 

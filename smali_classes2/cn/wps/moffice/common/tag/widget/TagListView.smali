@@ -226,7 +226,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->B:Landroid/content/Context;
 
-    const v0, 0x7f12302e
+    sget v0, Lcom/resouce/module/ResSTRING;->tag_add_success:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -311,7 +311,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e005e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_tag_manager_dialog_input:I
 
     const/4 v2, 0x0
 
@@ -319,7 +319,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2e80
+    sget v1, Lcom/resouce/module/ResID;->tag_new:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
     .line 3
     iget-object v2, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->B:Landroid/content/Context;
 
-    const v3, 0x7f12302f
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_add_tag_hint:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -374,7 +374,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->B:Landroid/content/Context;
 
-    const v3, 0x7f12302b
+    sget v3, Lcom/resouce/module/ResSTRING;->tag_add:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -391,7 +391,7 @@
 
     invoke-direct {v2, p0}, Lcn/wps/moffice/common/tag/widget/TagListView$e;-><init>(Lcn/wps/moffice/common/tag/widget/TagListView;)V
 
-    const v3, 0x7f121f40
+    sget v3, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {v1, v3, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -402,7 +402,7 @@
 
     invoke-direct {v2, p0}, Lcn/wps/moffice/common/tag/widget/TagListView$f;-><init>(Lcn/wps/moffice/common/tag/widget/TagListView;)V
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v1, v4, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -432,7 +432,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->B:Landroid/content/Context;
 
-    const v2, 0x7f12303a
+    sget v2, Lcom/resouce/module/ResSTRING;->tag_giveup_tip:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -480,7 +480,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f9d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->tag_list_view:I
 
     const/4 v2, 0x0
 
@@ -490,7 +490,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1a3d
+    sget v1, Lcom/resouce/module/ResID;->no_tag_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -502,7 +502,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2e7d
+    sget v1, Lcom/resouce/module/ResID;->tag_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -529,7 +529,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/tag/widget/TagListView;->I:Landroid/view/View;
 
-    const v1, 0x7f0b00b9
+    sget v1, Lcom/resouce/module/ResID;->add_tag:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

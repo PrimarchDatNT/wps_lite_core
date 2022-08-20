@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.scan.view.photoview.PhotoView android:id="@id/photo_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <cn.wps.moffice.main.scan.view.RotationImageView android:id="@id/rotation_img_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

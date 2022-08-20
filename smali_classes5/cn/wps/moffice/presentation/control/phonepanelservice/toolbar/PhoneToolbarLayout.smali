@@ -57,11 +57,11 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e07f5
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_dash_bar_layout:I
 
     invoke-virtual {p1, v1, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b20a7
+    sget p1, Lcom/resouce/module/ResID;->phone_ppt_toolbar_container:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
     goto :goto_2
 
     :cond_3
-    const p1, 0x7f08115f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_toolbar_divide_background:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

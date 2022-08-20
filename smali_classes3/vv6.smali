@@ -524,7 +524,7 @@
     .line 3
     iget-object v0, p0, Lvv6;->f:Landroid/content/Context;
 
-    const v1, 0x7f122360
+    sget v1, Lcom/resouce/module/ResSTRING;->public_infoflow_recommend_document_already_open:I
 
     const/4 v2, 0x0
 
@@ -662,7 +662,7 @@
     .line 5
     iput p1, p0, Lvv6;->a:I
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 6
     invoke-virtual {p0, p1}, Lvv6;->z(I)V

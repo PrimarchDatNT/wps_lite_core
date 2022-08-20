@@ -40,7 +40,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1dc9
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_text:I
 
     if-ne v0, v1, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b1dc8
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_pic:I
 
     if-ne v0, v1, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b1dc7
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_insert_annot_text:I
 
     if-ne v0, v1, :cond_2
 
@@ -76,7 +76,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b1dca
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_insert_popup_quick_phrases:I
 
     if-ne v0, v1, :cond_3
 

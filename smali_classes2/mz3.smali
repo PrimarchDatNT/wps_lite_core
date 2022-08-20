@@ -7,7 +7,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 4
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e07
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_restore_purchase_failed_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1a5d
+    sget v1, Lcom/resouce/module/ResID;->normal_titlebar:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     invoke-virtual {v1, v2}, Lcn/wps/kspaybase/common/BusinessBaseTitle;->setGrayStyle(Landroid/view/Window;)V
 
-    const v2, 0x7f120f5f
+    sget v2, Lcom/resouce/module/ResSTRING;->home_membercenter_my_restore:I
 
     .line 7
     invoke-virtual {v1, v2}, Lcn/wps/kspaybase/common/BusinessBaseTitle;->setTitleText(I)V
@@ -75,7 +75,7 @@
 
     invoke-virtual {v2, p1, v1}, Lkv2;->G0(Landroid/app/Activity;Landroid/view/View;)V
 
-    const v2, 0x7f0b26ec
+    sget v2, Lcom/resouce/module/ResID;->public_restore_purchase_help_tip_text:I
 
     .line 9
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

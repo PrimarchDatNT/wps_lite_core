@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/pdf_long_pic_share_preview_item_header_img_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppt_long_pic_preview_margin" android:layout_marginRight="@dimen/ppt_long_pic_preview_margin" android:layout_marginStart="@dimen/ppt_long_pic_preview_margin" android:layout_marginEnd="@dimen/ppt_long_pic_preview_margin">
-        <ImageView android:id="@id/pdf_long_pic_share_preview_item_header_img" android:layout_width="fill_parent" android:layout_height="64.0dip" android:scaleType="fitXY"
-          xmlns:android="http://schemas.android.com/apk/res/android" />
-    </FrameLayout>
-</FrameLayout>

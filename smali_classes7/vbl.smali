@@ -21,7 +21,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01006c
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -32,7 +32,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f01006b
+    sget v2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_out:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -43,7 +43,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f010065
+    sget v3, Lcom/resouce/module/ResANIM;->phone_public_dashbar_fade_in:I
 
     invoke-static {v2, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -54,7 +54,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f010066
+    sget v3, Lcom/resouce/module/ResANIM;->phone_public_dashbar_fade_out:I
 
     invoke-static {p0, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f01006a
+    sget v1, Lcom/resouce/module/ResANIM;->phone_public_switch_view_left_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -172,7 +172,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f01006d
+    sget v2, Lcom/resouce/module/ResANIM;->phone_public_switch_view_right_out:I
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -183,7 +183,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f010065
+    sget v3, Lcom/resouce/module/ResANIM;->phone_public_dashbar_fade_in:I
 
     invoke-static {v2, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -194,7 +194,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f010066
+    sget v3, Lcom/resouce/module/ResANIM;->phone_public_dashbar_fade_out:I
 
     invoke-static {p0, v3}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 

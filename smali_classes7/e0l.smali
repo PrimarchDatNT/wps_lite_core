@@ -86,12 +86,12 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f0e09d0
+    sget p1, Lcom/resouce/module/ResLAYOUT;->phone_writer_encrypt_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0e108c
+    sget p1, Lcom/resouce/module/ResLAYOUT;->writer_encrypt_dialog:I
 
     :goto_0
     const/4 p2, 0x0
@@ -321,7 +321,7 @@
 
     invoke-direct {v0, p0}, Le0l$h;-><init>(Le0l;)V
 
-    const v1, 0x7f0b06b6
+    sget v1, Lcom/resouce/module/ResID;->display_check1:I
 
     const-string v2, "encrypt-toggle-password-visible"
 
@@ -477,7 +477,7 @@
     .line 7
     iget-object v0, p0, Le0l;->d0:Landroid/content/Context;
 
-    const v1, 0x7f121fb9    # 1.94232E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -510,7 +510,7 @@
     .line 12
     iget-object v0, p0, Le0l;->d0:Landroid/content/Context;
 
-    const v1, 0x7f12292e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_setPasswdSucc:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -666,7 +666,7 @@
     .line 1
     iput-boolean v0, p0, Le0l;->o0:Z
 
-    const v1, 0x7f0b0433
+    sget v1, Lcom/resouce/module/ResID;->clear_password1:I
 
     .line 2
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -677,7 +677,7 @@
 
     iput-object v1, p0, Le0l;->j0:Landroid/widget/Button;
 
-    const v1, 0x7f0b1cf2
+    sget v1, Lcom/resouce/module/ResID;->passwd_input_edittext:I
 
     .line 3
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;
@@ -737,7 +737,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    const v2, 0x7f0b1ced
+    sget v2, Lcom/resouce/module/ResID;->passwd_input_confirm_edittext:I
 
     .line 9
     invoke-virtual {p0, v2}, Luzl;->Z0(I)Landroid/view/View;
@@ -759,7 +759,7 @@
 
     invoke-virtual {v2, v0}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
-    const v0, 0x7f0b1343
+    sget v0, Lcom/resouce/module/ResID;->input_limit_text1:I
 
     .line 11
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -770,7 +770,7 @@
 
     iput-object v0, p0, Le0l;->k0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1340
+    sget v0, Lcom/resouce/module/ResID;->input_invalid_openPassText1:I
 
     .line 12
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -781,7 +781,7 @@
 
     iput-object v0, p0, Le0l;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1341
+    sget v0, Lcom/resouce/module/ResID;->input_invalid_openPassText2:I
 
     .line 13
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -792,7 +792,7 @@
 
     iput-object v0, p0, Le0l;->m0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b133a
+    sget v0, Lcom/resouce/module/ResID;->input_diff_openPassText:I
 
     .line 14
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -808,7 +808,7 @@
 
     invoke-direct {v0, p0}, Le0l$a;-><init>(Le0l;)V
 
-    const v1, 0x7f0b06b6
+    sget v1, Lcom/resouce/module/ResID;->display_check1:I
 
     .line 16
     invoke-virtual {p0, v1}, Luzl;->Z0(I)Landroid/view/View;

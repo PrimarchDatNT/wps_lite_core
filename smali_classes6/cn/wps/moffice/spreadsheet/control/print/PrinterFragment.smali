@@ -227,7 +227,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrinterFragment;->Z:Lcn/wps/moffice/spreadsheet/control/print/ETPrintView;
 
-    const v1, 0x7f081877
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_common_tab_btn_default:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -292,7 +292,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b0907
+    sget p2, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -401,7 +401,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0907
+    sget v1, Lcom/resouce/module/ResID;->et_backboard_view:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

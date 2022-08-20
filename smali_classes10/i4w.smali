@@ -32,7 +32,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 4
 
-    const v0, 0x7f130131
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_Alpha:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -134,12 +134,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0f1a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_phone_moffice_search_time_selector_layout:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0e0f0e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_pad_moffice_search_time_selector_layout:I
 
     :goto_1
     invoke-virtual {p0, v0}, Lhd3;->setView(I)Lhd3;
@@ -237,7 +237,7 @@
     .line 2
     invoke-virtual {p3, p1, p2}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
-    const p1, 0x7f0b2ab2
+    sget p1, Lcom/resouce/module/ResID;->search_time_date_picker:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

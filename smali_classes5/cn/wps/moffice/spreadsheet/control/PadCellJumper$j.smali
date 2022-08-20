@@ -103,7 +103,7 @@
 
     check-cast p1, Landroid/app/Activity;
 
-    const p2, 0x7f122fb2
+    sget p2, Lcom/resouce/module/ResSTRING;->ss_celljump_can_not_find_cell:I
 
     const/4 p3, 0x0
 
@@ -174,7 +174,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f0e0f50
+    sget p4, Lcom/resouce/module/ResLAYOUT;->ss_cell_jump_history_list_layout:I
 
     iget-object p5, p0, Lcn/wps/moffice/spreadsheet/control/PadCellJumper$j;->a:Lcn/wps/moffice/spreadsheet/control/PadCellJumper;
 

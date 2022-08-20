@@ -98,7 +98,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b00ab
+    sget v1, Lcom/resouce/module/ResID;->add_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b03f9
+    sget v1, Lcom/resouce/module/ResID;->choose_position:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -165,7 +165,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d56
+    sget v1, Lcom/resouce/module/ResID;->filelist_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -248,7 +248,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -282,12 +282,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e05c9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_public_saveas_dialog_tab_local:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e08d2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_saveas_dialog_tab_local:I
 
     .line 3
     :goto_0

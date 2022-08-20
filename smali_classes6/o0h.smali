@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f122946
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V
@@ -170,7 +170,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0972
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_insert_shape_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -181,7 +181,7 @@
 
     iput-object v1, p0, Lo0h;->V:Landroid/view/View;
 
-    const v3, 0x7f0b33c2
+    sget v3, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 4
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f060610
+    sget v6, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style1_fill_color:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -219,7 +219,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060611
+    sget v7, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style1_line_color:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -240,7 +240,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f060612
+    sget v7, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style2_fill_color:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -253,7 +253,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f060613
+    sget v8, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style2_line_color:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -274,7 +274,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f060614
+    sget v8, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style3_fill_color:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -287,7 +287,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f060615
+    sget v9, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style3_line_color:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -308,7 +308,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f060616
+    sget v9, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style4_fill_color:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -321,7 +321,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f060617
+    sget v10, Lcom/resouce/module/ResCOLOR;->ss_insert_shape_style4_line_color:I
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -333,7 +333,7 @@
 
     aput-object v3, v1, v7
 
-    const v3, 0x7f0e0997
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_shape_grid:I
 
     .line 14
     invoke-virtual {v0, v3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -355,7 +355,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b216d
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_shape_style_grid:I
 
     .line 18
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
     .line 30
     iget-object v1, p0, Lo0h;->X:Lnk3;
 
-    const v2, 0x7f12294b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style1:I
 
     invoke-virtual {p0, v2, v8}, Lo0h;->r(ILandroid/view/View;)Lnk3$a;
 
@@ -439,7 +439,7 @@
     .line 31
     iget-object v1, p0, Lo0h;->X:Lnk3;
 
-    const v2, 0x7f12294c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style2:I
 
     invoke-virtual {p0, v2, v9}, Lo0h;->r(ILandroid/view/View;)Lnk3$a;
 
@@ -450,7 +450,7 @@
     .line 32
     iget-object v1, p0, Lo0h;->X:Lnk3;
 
-    const v2, 0x7f12294d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style3:I
 
     invoke-virtual {p0, v2, v10}, Lo0h;->r(ILandroid/view/View;)Lnk3$a;
 
@@ -461,7 +461,7 @@
     .line 33
     iget-object v1, p0, Lo0h;->X:Lnk3;
 
-    const v2, 0x7f12294e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape_style4:I
 
     invoke-virtual {p0, v2, v0}, Lo0h;->r(ILandroid/view/View;)Lnk3$a;
 
@@ -479,7 +479,7 @@
     .line 35
     iget-object v0, p0, Lo0h;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2168
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_viewpager_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -490,7 +490,7 @@
     .line 36
     iget-object v1, p0, Lo0h;->V:Landroid/view/View;
 
-    const v2, 0x7f0b2169
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_panel_viewpager_indicator_pop:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

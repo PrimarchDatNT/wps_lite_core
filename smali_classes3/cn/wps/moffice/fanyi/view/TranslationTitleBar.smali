@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d3a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_oversea_fanyi_panel_title_bar:I
 
     const/4 v2, 0x1
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -67,7 +67,7 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    const v0, 0x7f0b2fec
+    sget v0, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -91,7 +91,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0b2fe8
+    sget v0, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

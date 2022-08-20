@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213f2
+    sget v1, Lcom/resouce/module/ResSTRING;->model_hotword_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122e05
+    sget v1, Lcom/resouce/module/ResSTRING;->recommend_word_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230b7
+    sget v1, Lcom/resouce/module/ResSTRING;->tern_word_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213f1
+    sget v1, Lcom/resouce/module/ResSTRING;->model_home_rec_word_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122dd2    # 1.943052E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->rec_like_url:I    # 1.943052E38f
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

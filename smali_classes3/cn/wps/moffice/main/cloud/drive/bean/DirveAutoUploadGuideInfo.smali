@@ -46,7 +46,7 @@
 .method public getIconRes()I
     .locals 1
 
-    const v0, 0x7f0809d0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->icon_wps_drive_introduce_backup_guide:I
 
     return v0
 .end method
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c49
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_backup_now:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122c47
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_backup_introduce:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

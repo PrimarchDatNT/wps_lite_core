@@ -91,7 +91,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122bc8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_limit:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -65,7 +65,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e09bf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_audiocomment_guide_landscape:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e09c0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_audiocomment_guide_portrait:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

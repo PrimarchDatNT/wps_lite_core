@@ -354,7 +354,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0703a3
+    sget v5, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -371,7 +371,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060624
+    sget v5, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -504,7 +504,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0fb9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->template_normal_item_layout:I
 
     const/4 v1, 0x0
 
@@ -700,7 +700,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0703a2
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_template_item_padding:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimension(I)F
 

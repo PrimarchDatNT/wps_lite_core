@@ -192,7 +192,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e042b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_recent_reading_horizontal:I
 
     const/4 v1, 0x0
 

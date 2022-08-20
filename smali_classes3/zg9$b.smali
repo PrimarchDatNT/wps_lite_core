@@ -61,7 +61,7 @@
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v1, 0x7f1229e4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_shareplay_upload_tips:I
 
     .line 4
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -72,7 +72,7 @@
 
     invoke-direct {v1, p0}, Lzg9$b$c;-><init>(Lzg9$b;)V
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -83,7 +83,7 @@
 
     invoke-direct {v1, p0}, Lzg9$b$b;-><init>(Lzg9$b;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

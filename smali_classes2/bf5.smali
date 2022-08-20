@@ -18,7 +18,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f12261a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_permission_check:I
 
     return v0
 .end method
@@ -61,7 +61,7 @@
     .line 1
     invoke-static {p1, p2, v0}, Lbih;->o(Landroid/content/Context;Ljava/lang/CharSequence;I)V
 
-    const p2, 0x7f0b0672
+    sget p2, Lcom/resouce/module/ResID;->develop_item_text:I
 
     .line 2
     invoke-virtual {p3, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

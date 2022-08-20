@@ -123,7 +123,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121951
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_unable_invite_member:I
 
     const/4 v1, 0x0
 

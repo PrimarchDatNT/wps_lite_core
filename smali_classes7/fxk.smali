@@ -137,7 +137,7 @@
 
     iget-object p2, p0, Lfxk;->b:Landroid/content/Context;
 
-    const p3, 0x7f12327e
+    sget p3, Lcom/resouce/module/ResSTRING;->writer_comment_edit_warn:I
 
     .line 3
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -146,7 +146,7 @@
 
     iget-object v0, p0, Lfxk;->b:Landroid/content/Context;
 
-    const v1, 0x7f12253e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -159,7 +159,7 @@
 
     iput-object p1, p0, Lfxk;->a:Lgd3;
 
-    const p2, 0x7f12327f
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_comment_edit_warn_title:I
 
     .line 5
     invoke-virtual {p1, p2}, Lgd3;->k(I)V
@@ -169,7 +169,7 @@
 
     iget-object p2, p0, Lfxk;->b:Landroid/content/Context;
 
-    const p3, 0x7f121f5e
+    sget p3, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

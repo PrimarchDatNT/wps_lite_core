@@ -269,7 +269,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f1203f0
+    sget p4, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_fail_text:I
 
     const/4 v0, 0x1
 

@@ -214,7 +214,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0a56
+    sget v2, Lcom/resouce/module/ResLAYOUT;->plugin_indicator_item:I
 
     const/4 v3, 0x0
 
@@ -225,7 +225,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b31b5
+    sget v1, Lcom/resouce/module/ResID;->tv_indicator_text:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1486
+    sget v2, Lcom/resouce/module/ResID;->iv_indicator_icon:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -273,7 +273,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b1486
+    sget v1, Lcom/resouce/module/ResID;->iv_indicator_icon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b1485
+    sget v2, Lcom/resouce/module/ResID;->iv_indicator_bg:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -291,7 +291,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b31b5
+    sget v3, Lcom/resouce/module/ResID;->tv_indicator_text:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -337,7 +337,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0809de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->indicator_gradient_icon_sel_bg:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -491,7 +491,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f030002
+    sget v0, Lcom/resouce/module/ResARRAY;->cloud_page_rights_title:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -658,7 +658,7 @@
 
     if-eqz v1, :cond_1
 
-    const v2, 0x7f0b1486
+    sget v2, Lcom/resouce/module/ResID;->iv_indicator_icon:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -667,7 +667,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b1485
+    sget v3, Lcom/resouce/module/ResID;->iv_indicator_bg:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -676,7 +676,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b31b5
+    sget v4, Lcom/resouce/module/ResID;->tv_indicator_text:I
 
     .line 6
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -692,7 +692,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0809dd
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->indicator_gradient_icon_normal_bg:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

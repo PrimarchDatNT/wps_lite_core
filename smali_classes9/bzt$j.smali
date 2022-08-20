@@ -22,7 +22,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0e00cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->design_navigation_item_separator:I
 
     const/4 v1, 0x0
 

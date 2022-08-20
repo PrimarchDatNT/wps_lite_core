@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/ppt_phone_remote_page_controller_main" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY">
-        <cn.wpsx.support.ui.KImageView android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:paddingRight="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:layout_width="@dimen/ppt_phone_remote_main_guide_width" android:layout_height="@dimen/ppt_phone_remote_main_guide_height" android:layout_marginTop="@dimen/ppt_phone_remote_guide_connection_margin_top_androidn" android:src="@drawable/ppt_phone_remote_operator_run" android:paddingStart="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:paddingEnd="@dimen/ppt_phone_remote_page_tip_pandding_left_right" />
-        <TextView android:textSize="@dimen/ppt_phone_remote_operator_tip_text_size" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppt_phone_remote_operator_tip_margin_top" android:text="@string/ppt_remote_operator_tip" />
-    </LinearLayout>
-    <ImageView android:id="@id/ppt_remote_img_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-</LinearLayout>

@@ -297,7 +297,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f080617
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->et_edit_ref_choise_divider:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -406,7 +406,7 @@
 
     if-eqz v5, :cond_4
 
-    const v5, 0x7f0e0205
+    sget v5, Lcom/resouce/module/ResLAYOUT;->et_number_picker:I
 
     .line 34
     invoke-virtual {v1, v5, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -414,7 +414,7 @@
     goto :goto_3
 
     :cond_4
-    const v5, 0x7f0e0984
+    sget v5, Lcom/resouce/module/ResLAYOUT;->phone_ss_number_picker:I
 
     .line 35
     invoke-virtual {v1, v5, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -430,7 +430,7 @@
 
     invoke-direct {v5, p0}, Lcn/wps/moffice/spreadsheet/control/composeedit/MyNumberPicker$c;-><init>(Lcn/wps/moffice/spreadsheet/control/composeedit/MyNumberPicker;)V
 
-    const v7, 0x7f0b0ad8
+    sget v7, Lcom/resouce/module/ResID;->et_numberpicker_increment:I
 
     .line 38
     invoke-virtual {p0, v7}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -447,7 +447,7 @@
     .line 40
     invoke-virtual {v7, v5}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v8, 0x7f0b0ad7
+    sget v8, Lcom/resouce/module/ResID;->et_numberpicker_decrement:I
 
     .line 41
     invoke-virtual {p0, v8}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -469,12 +469,12 @@
 
     if-eqz v1, :cond_5
 
-    const v1, 0x7f080618
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_edit_ref_picker_down_btn:I
 
     .line 45
     invoke-virtual {v8, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f08061a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_edit_ref_picker_up_btn:I
 
     .line 46
     invoke-virtual {v7, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -529,12 +529,12 @@
     goto :goto_4
 
     :cond_5
-    const v1, 0x7f081303
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_numberpicker_down_bg:I
 
     .line 50
     invoke-virtual {v8, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f081304
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_numberpicker_up_bg:I
 
     .line 51
     invoke-virtual {v7, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -550,7 +550,7 @@
     invoke-virtual {v7, v6, v1}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     :goto_4
-    const v1, 0x7f0b0ada
+    sget v1, Lcom/resouce/module/ResID;->et_numberpicker_input_invisible:I
 
     .line 54
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -566,7 +566,7 @@
     .line 55
     invoke-virtual {v1, v2}, Landroid/widget/EditText;->setVisibility(I)V
 
-    const v1, 0x7f0b0ad9
+    sget v1, Lcom/resouce/module/ResID;->et_numberpicker_input:I
 
     .line 56
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

@@ -104,7 +104,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b1775
+    sget v2, Lcom/resouce/module/ResID;->long_pic:I
 
     .line 2
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b0356
+    sget v2, Lcom/resouce/module/ResID;->card_pic:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     const/4 v1, 0x2
 
-    const v2, 0x7f0b1776
+    sget v2, Lcom/resouce/module/ResID;->long_pic1:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0dce
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_pic_func_layout:I
 
     const/4 v3, 0x0
 
@@ -491,7 +491,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b0533
+    sget v4, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 4
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -505,7 +505,7 @@
     .line 5
     invoke-virtual {v4, v3, v5, v3, v5}, Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;->setLimitedSize(IIII)V
 
-    const v3, 0x7f0b15b1
+    sget v3, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -514,7 +514,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b15b2
+    sget v4, Lcom/resouce/module/ResID;->limit_free_btn1:I
 
     .line 7
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -523,7 +523,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v6, 0x7f0b034f
+    sget v6, Lcom/resouce/module/ResID;->card_limit_free_btn:I
 
     .line 8
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -532,35 +532,35 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v8, 0x7f0b1777
+    sget v8, Lcom/resouce/module/ResID;->long_pic_item:I
 
     .line 9
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
-    const v9, 0x7f0b0357
+    sget v9, Lcom/resouce/module/ResID;->card_pic_item:I
 
     .line 10
     invoke-virtual {v1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
-    const v10, 0x7f0b1c71
+    sget v10, Lcom/resouce/module/ResID;->page_pic_item:I
 
     .line 11
     invoke-virtual {v1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
-    const v11, 0x7f0b0d90
+    sget v11, Lcom/resouce/module/ResID;->first_divide_line:I
 
     .line 12
     invoke-virtual {v1, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
-    const v12, 0x7f0b2ac8
+    sget v12, Lcom/resouce/module/ResID;->second_divide_line:I
 
     .line 13
     invoke-virtual {v1, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -794,7 +794,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0707b8
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_shadow_elevation:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -816,7 +816,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b068e
+    sget v2, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

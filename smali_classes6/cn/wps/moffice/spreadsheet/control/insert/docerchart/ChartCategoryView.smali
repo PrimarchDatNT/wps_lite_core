@@ -297,7 +297,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -318,7 +318,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0807d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_ad_rounded_rectangle_btn:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -342,7 +342,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -363,7 +363,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0807d5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_ad_rounded_rectangle_btn_blue_2px:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -410,11 +410,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b34
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_chart_docer_category_view:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b33c2
+    sget v0, Lcom/resouce/module/ResID;->viewpager:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -430,7 +430,7 @@
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/tab/ViewPager;->setOffscreenPageLimit(I)V
 
-    const v0, 0x7f0b16f7
+    sget v0, Lcom/resouce/module/ResID;->ll_tab_category:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -441,7 +441,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/docerchart/ChartCategoryView;->U:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0dc7
+    sget v0, Lcom/resouce/module/ResID;->fl_tab_category:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -476,7 +476,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0901
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_public_wrap_flow_text:I
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/insert/docerchart/ChartCategoryView;->U:Landroid/widget/LinearLayout;
 
@@ -484,7 +484,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1fdb
+    sget v4, Lcom/resouce/module/ResID;->phone_flow_item_text:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

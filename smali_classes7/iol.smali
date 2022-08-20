@@ -162,7 +162,7 @@
     .line 6
     iget-object v1, p0, Liol;->c:Landroid/app/Activity;
 
-    const v2, 0x7f1201b4
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_share_open_member:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0804b9
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->copy_link_resume_share:I
 
     .line 16
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -771,7 +771,7 @@
 
     aget v1, v1, v2
 
-    const v2, 0x7f12299d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_to:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -787,14 +787,14 @@
     goto :goto_1
 
     :pswitch_0
-    const v1, 0x7f122e4c
+    sget v1, Lcom/resouce/module/ResSTRING;->resume_share_mail:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f080586
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->email_resume_share:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -809,7 +809,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081eb2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->tim_resume_share:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -819,14 +819,14 @@
     goto :goto_0
 
     :pswitch_2
-    const v1, 0x7f122bd8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_wechat:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0820b5
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->wx_resume_share:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -841,7 +841,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081d2f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->qq_resume_share:I
 
     .line 10
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -851,14 +851,14 @@
     goto :goto_0
 
     :pswitch_4
-    const v1, 0x7f1201a6
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_pdf_share:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f081035
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_resume_share:I
 
     .line 12
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -868,14 +868,14 @@
     goto :goto_0
 
     :pswitch_5
-    const v1, 0x7f120194
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_doc_share:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f0804fb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_resume_share:I
 
     .line 14
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -885,14 +885,14 @@
     goto :goto_0
 
     :pswitch_6
-    const v1, 0x7f1201a4
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_link_share:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f080a30
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->link_resume_share:I
 
     .line 16
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -973,14 +973,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f122bd8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_wechat:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v1, 0x7f0820b5
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->wx_resume_share:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;

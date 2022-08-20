@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/subSecondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/contentFrame" android:background="@color/subSecondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <include android:id="@id/error_page_layout" android:visibility="gone" layout="@layout/public_transfer_error_page" />
-    <RelativeLayout android:gravity="center" android:id="@id/loading_page_layout" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </RelativeLayout>
-</RelativeLayout>

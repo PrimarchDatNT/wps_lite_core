@@ -32,7 +32,7 @@
 .method public constructor <init>(Landroid/content/Context;Lqv7;Lyy7;)V
     .locals 3
 
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -47,7 +47,7 @@
     .line 3
     sget-object v1, Lcx7;->Z:Lcx7;
 
-    const v2, 0x7f0808ba
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_dropbox_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -60,7 +60,7 @@
 
     sget-object v1, Lcx7;->a0:Lcx7;
 
-    const v2, 0x7f0808c4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_roaming_login_twitter_icon:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0397
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_roaming_login_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -145,7 +145,7 @@
     :cond_0
     iget-object v0, p0, Lwy7;->T:Landroid/view/View;
 
-    const v3, 0x7f0b1765
+    sget v3, Lcom/resouce/module/ResID;->login_third_dialog_layout:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0e0396
+    sget v7, Lcom/resouce/module/ResLAYOUT;->home_roaming_login_dialog_item:I
 
     invoke-virtual {v6, v7, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -196,7 +196,7 @@
     .line 9
     invoke-virtual {v6, v7}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v7, 0x7f0b1764
+    sget v7, Lcom/resouce/module/ResID;->login_third_dialog_icon:I
 
     .line 10
     invoke-virtual {v6, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    const v8, 0x7f0b1766
+    sget v8, Lcom/resouce/module/ResID;->login_third_dialog_name:I
 
     .line 11
     invoke-virtual {v6, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;

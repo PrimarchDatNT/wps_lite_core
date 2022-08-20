@@ -526,7 +526,7 @@
     .line 1
     iget-object v0, p0, Lz4l;->a:Lcn/wps/moffice/writer/WriterBase;
 
-    const v1, 0x7f1233b2
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_leftmenu_document_structure:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

@@ -177,14 +177,14 @@
     .line 2
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f0e0ee5
+    sget v2, Lcom/resouce/module/ResLAYOUT;->recommend_page_main_layout:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->setContentView(I)V
 
     .line 3
     iget-object v1, p0, Lvdb;->I:Landroid/app/Activity;
 
-    const v2, 0x7f0b0e7e
+    sget v2, Lcom/resouce/module/ResID;->fragment_container:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 

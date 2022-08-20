@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1217f6
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_file_prefix_keynote:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -231,7 +231,7 @@
 
     if-nez p2, :cond_1
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 5
     invoke-static {p0, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -527,7 +527,7 @@
     .line 1
     new-instance v0, Lrd3;
 
-    const v1, 0x7f1217e4
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_exporting:I
 
     const/4 v2, 0x0
 
@@ -1008,14 +1008,14 @@
     .line 11
     invoke-static {v0}, Lza4;->h(Ljava/lang/String;)V
 
-    const v0, 0x7f081108
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_pdf_guide_export_keynote:I
 
     .line 12
     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f1217e0
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1026,7 +1026,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1217e1
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote_dialog_msg:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

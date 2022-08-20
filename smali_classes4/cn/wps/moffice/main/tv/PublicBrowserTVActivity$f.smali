@@ -169,7 +169,7 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/main/tv/PublicBrowserTVActivity$f;->a:Lcn/wps/moffice/main/tv/PublicBrowserTVActivity;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 

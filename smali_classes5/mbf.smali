@@ -61,7 +61,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0e7e
+    sget v2, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 7
     invoke-virtual {v1, v2, v0}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b52
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_cloud_share_with_share_folder_main_layout:I
 
     const/4 v2, 0x0
 
@@ -173,7 +173,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121153
+    sget v0, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     return v0
 .end method
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0e7e
+    sget v1, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;

@@ -202,7 +202,7 @@
     invoke-static {v2, v0}, Lyhh;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 4
     invoke-static {p0, v0, v1}, Lbih;->n(Landroid/content/Context;II)V

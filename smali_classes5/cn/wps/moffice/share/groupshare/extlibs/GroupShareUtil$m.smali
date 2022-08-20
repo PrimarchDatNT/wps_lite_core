@@ -60,7 +60,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v3, 0x0
 

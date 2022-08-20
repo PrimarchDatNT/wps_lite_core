@@ -51,7 +51,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljgg$e;Lngg;)V
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -262,7 +262,7 @@
     .line 7
     iget-object p1, p0, Ljgg;->B:Landroid/content/Context;
 
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -344,7 +344,7 @@
     .line 2
     iget-object p1, p0, Ljgg;->B:Landroid/content/Context;
 
-    const p2, 0x7f122567
+    sget p2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -371,7 +371,7 @@
     .line 5
     iget-object p2, p0, Ljgg;->B:Landroid/content/Context;
 
-    const p5, 0x7f123039
+    sget p5, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {p2, p5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -488,7 +488,7 @@
     .line 1
     iget-object v0, p0, Ljgg;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b186e
+    sget v1, Lcom/resouce/module/ResID;->merge_add_file_confirm_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -521,7 +521,7 @@
     .line 2
     iget-object p1, p0, Ljgg;->b0:Landroid/view/View;
 
-    const v0, 0x7f0b186f
+    sget v0, Lcom/resouce/module/ResID;->merge_add_files_list:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
     .line 1
     iget-object v0, p0, Ljgg;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b2d11
+    sget v1, Lcom/resouce/module/ResID;->ss_merge_add_file_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -595,7 +595,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12082f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -694,7 +694,7 @@
     .line 8
     iget-object v0, p0, Ljgg;->U:Landroid/widget/Button;
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -730,7 +730,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e099a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheet_merge_add_files_layout:I
 
     const/4 v2, 0x0
 
@@ -750,7 +750,7 @@
     .line 5
     invoke-virtual {p0, v0}, Ljgg;->a3(Landroid/view/LayoutInflater;)V
 
-    const v0, 0x7f0b187e
+    sget v0, Lcom/resouce/module/ResID;->merge_no_file_tips:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -762,7 +762,7 @@
     .line 7
     iget-object v0, p0, Ljgg;->b0:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

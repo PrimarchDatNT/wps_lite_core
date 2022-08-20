@@ -310,7 +310,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0819ed
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->public_laserpen_dot:I
 
     invoke-static {p1, p2}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -1280,7 +1280,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0819ed
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_laserpen_dot:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -2304,7 +2304,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0819ed
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_laserpen_dot:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

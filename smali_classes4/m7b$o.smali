@@ -108,7 +108,7 @@
 
     if-eq v0, v4, :cond_7
 
-    const v4, 0x7f080535
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->doc_scan_other_card_bg:I
 
     if-eq v0, v5, :cond_4
 
@@ -145,7 +145,7 @@
 
     iget-object v0, v0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v1, 0x7f12045a
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_other_card_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -183,7 +183,7 @@
 
     iget-object v0, v0, Lm7b;->N:Landroid/widget/TextView;
 
-    const v1, 0x7f12045d
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_passport_card_tip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -192,7 +192,7 @@
 
     iget-object v0, v0, Lm7b;->R:Landroid/widget/ImageView;
 
-    const v1, 0x7f080538
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_passport_bg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -259,7 +259,7 @@
 
     iget-object v0, v0, Lm7b;->Z:Lcn/wps/moffice/main/scan/view/AutoOrientationAnimTextView;
 
-    const v1, 0x7f12049c
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_residence_personal_page:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -271,7 +271,7 @@
 
     iget-object v0, v0, Lm7b;->Z:Lcn/wps/moffice/main/scan/view/AutoOrientationAnimTextView;
 
-    const v1, 0x7f12049b
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_residence_main_page:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -331,7 +331,7 @@
 
     iget-object v0, v0, Lm7b;->R:Landroid/widget/ImageView;
 
-    const v1, 0x7f080506
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_certificate_background:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -340,7 +340,7 @@
 
     iget-object v0, v0, Lm7b;->Z:Lcn/wps/moffice/main/scan/view/AutoOrientationAnimTextView;
 
-    const v1, 0x7f1204c0
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_take_opposite:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -352,7 +352,7 @@
 
     iget-object v0, v0, Lm7b;->R:Landroid/widget/ImageView;
 
-    const v1, 0x7f080507
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_certificate_front:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -361,7 +361,7 @@
 
     iget-object v0, v0, Lm7b;->Z:Lcn/wps/moffice/main/scan/view/AutoOrientationAnimTextView;
 
-    const v1, 0x7f1204bf
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_take_front:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

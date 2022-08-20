@@ -725,9 +725,9 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f080314
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_pdf_pdf:I
 
-    const v1, 0x7f12209f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     goto/16 :goto_1
 
@@ -741,9 +741,9 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f080490
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_long_pic:I
 
-    const v1, 0x7f122bca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     goto/16 :goto_1
 
@@ -757,9 +757,9 @@
 
     if-eqz v1, :cond_2
 
-    const v0, 0x7f08048e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_file_slimmer:I
 
-    const v1, 0x7f122266
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     goto/16 :goto_1
 
@@ -773,9 +773,9 @@
 
     if-eqz v1, :cond_3
 
-    const v0, 0x7f080286
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_doc_simplified_conversion:I
 
-    const v1, 0x7f122ff7
+    sget v1, Lcom/resouce/module/ResSTRING;->st_convert_title:I
 
     goto :goto_1
 
@@ -789,9 +789,9 @@
 
     if-eqz v1, :cond_4
 
-    const v0, 0x7f08048c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_extract_pages:I
 
-    const v1, 0x7f122c10
+    sget v1, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     goto :goto_1
 
@@ -805,9 +805,9 @@
 
     if-eqz v1, :cond_5
 
-    const v0, 0x7f080491
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
-    const v1, 0x7f122c12
+    sget v1, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     goto :goto_1
 
@@ -821,9 +821,9 @@
 
     if-eqz v1, :cond_6
 
-    const v0, 0x7f080263
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_doc_derive_highlighter:I
 
-    const v1, 0x7f1233ca
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
     goto :goto_1
 
@@ -837,9 +837,9 @@
 
     if-eqz v1, :cond_7
 
-    const v0, 0x7f080492
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_output_pic:I
 
-    const v1, 0x7f1217dd
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     goto :goto_1
 
@@ -853,9 +853,9 @@
 
     if-eqz v1, :cond_8
 
-    const v0, 0x7f080489
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_doc_repair:I
 
-    const v1, 0x7f120147
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     goto :goto_1
 
@@ -876,15 +876,15 @@
 
     if-eqz v0, :cond_9
 
-    const v0, 0x7f0804a0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     goto :goto_0
 
     :cond_9
-    const v0, 0x7f080587
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->en_comp_tool_translate:I
 
     :goto_0
-    const v1, 0x7f120cd4
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     goto :goto_1
 
@@ -1289,7 +1289,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f12145d
+    sget v0, Lcom/resouce/module/ResSTRING;->name_recommanded:I
 
     return v0
 .end method
@@ -1345,14 +1345,14 @@
 .method public final r2(Lzy3;)V
     .locals 6
 
-    const v0, 0x7f0e06d5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_functional_panel_item_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b13ec
+    sget v1, Lcom/resouce/module/ResID;->item_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1361,7 +1361,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b13ca
+    sget v2, Lcom/resouce/module/ResID;->item_img:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1370,7 +1370,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b15b1
+    sget v3, Lcom/resouce/module/ResID;->limit_free_btn:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1437,7 +1437,7 @@
     .line 10
     invoke-virtual {v4, v5}, Lf54;->c(Z)Lf54;
 
-    const v5, 0x7f081576
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->pub_app_tool_default:I
 
     invoke-virtual {v4, v5}, Lf54;->b(I)Lf54;
 
@@ -1888,7 +1888,7 @@
     :cond_0
     iget-object v0, p0, Lx3l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b1c8f
+    sget v1, Lcom/resouce/module/ResID;->paper_check_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1896,7 +1896,7 @@
 
     iput-object v0, p0, Lx3l;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b0545
+    sget v1, Lcom/resouce/module/ResID;->content_grid_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1908,7 +1908,7 @@
     .line 4
     iget-object v0, p0, Lx3l;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b054a
+    sget v1, Lcom/resouce/module/ResID;->content_linearlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1928,7 +1928,7 @@
     .line 6
     iget-object v0, p0, Lx3l;->e0:Landroid/view/View;
 
-    const v1, 0x7f0b0f45
+    sget v1, Lcom/resouce/module/ResID;->grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1946,7 +1946,7 @@
     .line 8
     iget-object v1, p0, Lx3l;->e0:Landroid/view/View;
 
-    const v2, 0x7f0b2fcd
+    sget v2, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1954,7 +1954,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f121635
+    sget v2, Lcom/resouce/module/ResSTRING;->paper_check_tab_tool:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -2100,14 +2100,14 @@
 
     check-cast v2, Lqpk;
 
-    const v3, 0x7f0e06d5
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_functional_panel_item_layout:I
 
     .line 23
     invoke-static {v3}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b13ec
+    sget v4, Lcom/resouce/module/ResID;->item_text:I
 
     .line 24
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2116,7 +2116,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b13ca
+    sget v5, Lcom/resouce/module/ResID;->item_img:I
 
     .line 25
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2190,7 +2190,7 @@
     :cond_0
     iget-object v0, p0, Lx3l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b28d2
+    sget v1, Lcom/resouce/module/ResID;->resume_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2198,7 +2198,7 @@
 
     iput-object v0, p0, Lx3l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b0545
+    sget v1, Lcom/resouce/module/ResID;->content_grid_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2210,7 +2210,7 @@
     .line 4
     iget-object v0, p0, Lx3l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b054a
+    sget v1, Lcom/resouce/module/ResID;->content_linearlayout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2230,7 +2230,7 @@
     .line 6
     iget-object v0, p0, Lx3l;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b0f45
+    sget v1, Lcom/resouce/module/ResID;->grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2241,7 +2241,7 @@
     .line 7
     iget-object v1, p0, Lx3l;->f0:Landroid/view/View;
 
-    const v2, 0x7f0b2fcd
+    sget v2, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2249,7 +2249,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122e56
+    sget v2, Lcom/resouce/module/ResSTRING;->resume_tool:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -2380,14 +2380,14 @@
 
     check-cast v2, Lqpk;
 
-    const v3, 0x7f0e06d5
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_functional_panel_item_layout:I
 
     .line 22
     invoke-static {v3}, Luqh;->inflate(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b13ec
+    sget v4, Lcom/resouce/module/ResID;->item_text:I
 
     .line 23
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2396,7 +2396,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b13ca
+    sget v5, Lcom/resouce/module/ResID;->item_img:I
 
     .line 24
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2453,7 +2453,7 @@
 .method public final y2()V
     .locals 2
 
-    const v0, 0x7f0e09e0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_functional_panel_layout:I
 
     .line 1
     invoke-static {v0}, Luqh;->inflate(I)Landroid/view/View;
@@ -2462,7 +2462,7 @@
 
     iput-object v0, p0, Lx3l;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

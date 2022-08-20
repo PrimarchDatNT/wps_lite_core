@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/phone_flow_item_text" android:background="@drawable/home_ad_rounded_rectangle_btn" android:layout_width="75.0dip" android:layout_height="28.0dip" android:maxEms="16" android:singleLine="true" />
-</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

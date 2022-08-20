@@ -107,7 +107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0707db
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_public_fontname_list_gap:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -138,7 +138,7 @@
 .method public u()V
     .locals 2
 
-    const v0, 0x7f0b0e21
+    sget v0, Lcom/resouce/module/ResID;->font_content:I
 
     .line 1
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     iput-object v0, p0, Lxw3;->c:Landroid/view/View;
 
-    const v0, 0x7f0b0e23
+    sget v0, Lcom/resouce/module/ResID;->font_content_listview:I
 
     .line 2
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lxw3;->d:Landroid/widget/ListView;
 
-    const v0, 0x7f0b0e24
+    sget v0, Lcom/resouce/module/ResID;->font_content_recycle_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     invoke-virtual {p0, v0}, Lxw3;->s(Landroid/widget/ListView;)V
 
-    const v0, 0x7f0b1f9d
+    sget v0, Lcom/resouce/module/ResID;->phone_back:I
 
     .line 7
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     iput-object v0, p0, Lxw3;->e:Landroid/view/View;
 
-    const v0, 0x7f0b18f9
+    sget v0, Lcom/resouce/module/ResID;->more_title:I
 
     .line 8
     invoke-virtual {p0, v0}, Lby3;->d(I)Landroid/view/View;

@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0813fe
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_t:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -117,7 +117,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0813f7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ss_edit_123:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

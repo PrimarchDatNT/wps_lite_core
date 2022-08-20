@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0820aa
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_text_color_selector:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081604
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_comp_checked2:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

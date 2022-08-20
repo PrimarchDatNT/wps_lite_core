@@ -117,7 +117,7 @@
     .line 3
     iget-object v0, p0, Lzvg;->B:Landroid/content/Context;
 
-    const v1, 0x7f12237c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     const/4 v2, 0x0
 
@@ -143,7 +143,7 @@
 .method public final initView()V
     .locals 3
 
-    const v0, 0x7f122be5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_watermark_text:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -158,7 +158,7 @@
 
     invoke-direct {v0, p0}, Lzvg$a;-><init>(Lzvg;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -167,7 +167,7 @@
 
     invoke-direct {v0, p0}, Lzvg$b;-><init>(Lzvg;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e089c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_input_watermark_dialog:I
 
     const/4 v2, 0x0
 
@@ -189,7 +189,7 @@
     .line 6
     invoke-virtual {p0, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f0b134f
+    sget v0, Lcom/resouce/module/ResID;->input_watermark_tips:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     iput-object v0, p0, Lzvg;->I:Landroid/widget/TextView;
 
-    const v0, 0x7f0b134e
+    sget v0, Lcom/resouce/module/ResID;->input_watermark_edit:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

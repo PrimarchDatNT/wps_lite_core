@@ -135,7 +135,7 @@
     .line 2
     invoke-static {p0, p1, p1}, Lto5;->m(Landroid/app/Activity;IZ)V
 
-    const v0, 0x7f0e0042
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_img_preview:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
@@ -174,7 +174,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v2, 0x7f0b36ec
+    sget v2, Lcom/resouce/module/ResID;->zvp_preview:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/docer/activity/ImagePreviewActivity;->B:Lcn/wps/moffice/docer/view/ZoomViewPager;
 
-    const v2, 0x7f0b31b4
+    sget v2, Lcom/resouce/module/ResID;->tv_index:I
 
     .line 8
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/docer/activity/ImagePreviewActivity;->S:Landroid/widget/TextView;
 
-    const v2, 0x7f0b158b
+    sget v2, Lcom/resouce/module/ResID;->left_back:I
 
     .line 9
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -212,7 +212,7 @@
     .line 10
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v2, 0x7f0b3072
+    sget v2, Lcom/resouce/module/ResID;->top_layout:I
 
     .line 11
     invoke-virtual {p0, v2}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;

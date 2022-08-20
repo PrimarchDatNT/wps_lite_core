@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e00e3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->dialog_gift_book:I
 
     const/4 v2, 0x0
 
@@ -99,7 +99,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0b0349
+    sget v1, Lcom/resouce/module/ResID;->cardView:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     iput-object v1, p0, Lm3f;->h0:Lcn/wps/moffice/home/common/widget/AspectCoverView;
 
-    const v1, 0x7f0b0232
+    sget v1, Lcom/resouce/module/ResID;->bookTitle:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v1, p0, Lm3f;->i0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v1, 0x7f0b0231
+    sget v1, Lcom/resouce/module/ResID;->bookTag:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     iput-object v1, p0, Lm3f;->j0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v1, 0x7f0b0230
+    sget v1, Lcom/resouce/module/ResID;->bookDesc:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
 
     iput-object v1, p0, Lm3f;->k0:Lcn/wps/moffice/reader/view/NovelTypefaceTextView;
 
-    const v1, 0x7f0b27e6
+    sget v1, Lcom/resouce/module/ResID;->readBtn:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
     .line 10
     invoke-virtual {v1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b0443
+    sget v1, Lcom/resouce/module/ResID;->closeImage:I
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0443
+    sget v0, Lcom/resouce/module/ResID;->closeImage:I
 
     if-ne p1, v0, :cond_0
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/phone_public_dropdown_arrow_default_selector" android:bottom="@dimen/phone_phone_dropdown_btn_arrow_bottom_padding" />
-    <item android:drawable="@drawable/phone_public_dropdown_btn_default_selector" android:bottom="@dimen/phone_phone_dropdown_btn_line_bottom_space" />
-    <item android:drawable="@drawable/phone_public_dropdown_btn_hold_space_drawable_small_padding" />
-</layer-list>

@@ -272,7 +272,7 @@
 .method public d(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b147b
+    sget v0, Lcom/resouce/module/ResID;->iv_icon2:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -283,7 +283,7 @@
 
     iput-object v0, p0, Lmv4;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b316b
+    sget v0, Lcom/resouce/module/ResID;->tv_filename2:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -294,7 +294,7 @@
 
     iput-object v0, p0, Lmv4;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3217
+    sget v0, Lcom/resouce/module/ResID;->tv_percent:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -305,7 +305,7 @@
 
     iput-object v0, p0, Lmv4;->T:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1902
+    sget v0, Lcom/resouce/module/ResID;->mpbh_progress:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
 
     iput-object v0, p0, Lmv4;->U:Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;
 
-    const v0, 0x7f0b30dc
+    sget v0, Lcom/resouce/module/ResID;->ts_switcher:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f03007a
+    sget v0, Lcom/resouce/module/ResARRAY;->public_print_switchr_text:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

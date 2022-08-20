@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08b1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_panel_popbar:I
 
     const/4 v2, 0x0
 
@@ -109,7 +109,7 @@
 
     iput-object v0, p0, Lul3;->a:Landroid/view/View;
 
-    const v1, 0x7f0b20e2
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_popbar:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -123,7 +123,7 @@
     .line 8
     iget-object v0, p0, Lul3;->a:Landroid/view/View;
 
-    const v1, 0x7f0b20ee
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_quick_action:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
     .line 9
     iget-object v0, p0, Lul3;->a:Landroid/view/View;
 
-    const v1, 0x7f0b20eb
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_item_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     .line 15
     iget-object v0, p0, Lul3;->e:Landroid/widget/PopupWindow;
 
-    const v1, 0x7f130782
+    sget v1, Lcom/resouce/module/ResSTYLE;->sprinner_popwindow_above_anim_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 
@@ -325,7 +325,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3088
+    sget v1, Lcom/resouce/module/ResID;->topmost_layer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -443,7 +443,7 @@
     .line 1
     iget-object v0, p0, Lul3;->b:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b20ed
+    sget v1, Lcom/resouce/module/ResID;->phone_public_panel_topbar_more_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

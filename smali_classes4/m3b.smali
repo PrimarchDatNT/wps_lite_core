@@ -71,7 +71,7 @@
     .line 5
     iget-object v0, p0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12044f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v2, 0x0
 

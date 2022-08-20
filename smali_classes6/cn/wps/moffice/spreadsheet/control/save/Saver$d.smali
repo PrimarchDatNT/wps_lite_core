@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121534
+    sget v2, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

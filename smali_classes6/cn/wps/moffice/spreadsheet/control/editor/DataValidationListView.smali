@@ -30,11 +30,11 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0f75
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ss_quote_dvlistview_layout:I
 
     invoke-static {p1, p2, p0}, Landroid/widget/RelativeLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b2e10
+    sget p1, Lcom/resouce/module/ResID;->symbol_dvcontent:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/editor/DataValidationListView;->B:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0b07d5
+    sget p1, Lcom/resouce/module/ResID;->dvrange:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -56,7 +56,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/editor/DataValidationListView;->S:Landroid/widget/TextView;
 
-    const p1, 0x7f0b07d6
+    sget p1, Lcom/resouce/module/ResID;->dvtips:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

@@ -141,22 +141,22 @@
 
     if-eq p1, v0, :cond_0
 
-    const p1, 0x7f120e8a
+    sget p1, Lcom/resouce/module/ResSTRING;->home_cannot_share_message:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f12271a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_unable_close_backup:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f122b36
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unable_send_tips:I
 
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f120e8b
+    sget p1, Lcom/resouce/module/ResSTRING;->home_cannot_share_message_v1:I
 
     :goto_0
     return p1
@@ -167,7 +167,7 @@
     .annotation build Landroidx/annotation/StringRes;
     .end annotation
 
-    const v0, 0x7f120e8c
+    sget v0, Lcom/resouce/module/ResSTRING;->home_cannot_share_title:I
 
     if-eqz p1, :cond_2
 
@@ -186,12 +186,12 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12271b
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_unable_print:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122b35
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unable_send_text:I
 
     :cond_2
     :goto_0
@@ -214,7 +214,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0450
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_home_guide_roaming_dialog:I
 
     const/4 v7, 0x0
 
@@ -222,7 +222,7 @@
 
     move-result-object v8
 
-    const v0, 0x7f0b0344
+    sget v0, Lcom/resouce/module/ResID;->cannot_share_msg:I
 
     .line 4
     invoke-virtual {v8, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f0b2636
+    sget v0, Lcom/resouce/module/ResID;->public_home_btn_open_backup:I
 
     .line 6
     invoke-virtual {v8, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,14 +281,14 @@
 
     invoke-direct {v0, p0, p2, p3}, Lvc4$c;-><init>(Lvc4;ILvc4$e;)V
 
-    const p3, 0x7f122b74
+    sget p3, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive:I
 
     .line 9
     invoke-virtual {p1, p3, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p1
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 10
     invoke-virtual {p1, p3, v7}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

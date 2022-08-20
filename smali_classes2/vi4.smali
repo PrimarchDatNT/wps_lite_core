@@ -21,7 +21,7 @@
 
     move-result v0
 
-    const v1, 0x7f121cb4
+    sget v1, Lcom/resouce/module/ResSTRING;->private_app_drive_upload_extract_error_msg:I
 
     const/4 v2, 0x0
 
@@ -31,7 +31,7 @@
 
     new-array p2, v3, [Ljava/lang/Object;
 
-    const v0, 0x7f121ed5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -57,7 +57,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f120eaa
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f120eb9
+    sget p2, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -168,7 +168,7 @@
 
     move-result v0
 
-    const v1, 0x7f121cb6
+    sget v1, Lcom/resouce/module/ResSTRING;->private_app_drive_upload_merge_error_msg:I
 
     const-string v2, ""
 
@@ -180,7 +180,7 @@
 
     new-array p2, v4, [Ljava/lang/Object;
 
-    const v0, 0x7f121ed5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -213,7 +213,7 @@
 
     if-eqz v0, :cond_1
 
-    const p2, 0x7f120eaa
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_file_size_out_of_limit:I
 
     .line 5
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -251,7 +251,7 @@
 
     if-nez p2, :cond_2
 
-    const p2, 0x7f120eb9
+    sget p2, Lcom/resouce/module/ResSTRING;->home_cloudfile_upload_fail:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

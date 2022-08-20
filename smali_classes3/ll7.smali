@@ -40,7 +40,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0dc8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_sharefoldermodule_preview:I
 
     const/4 v1, 0x0
 
@@ -51,7 +51,7 @@
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f0b1261
+    sget p1, Lcom/resouce/module/ResID;->image:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

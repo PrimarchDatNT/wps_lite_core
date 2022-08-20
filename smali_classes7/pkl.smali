@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606e0
+    sget v1, Lcom/resouce/module/ResCOLOR;->white:I
 
     invoke-virtual {p0, v1}, Lpkl;->c(I)I
 
@@ -155,7 +155,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e103d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->v10_public_mode_switch_tips:I
 
     const/4 v2, 0x0
 
@@ -165,7 +165,7 @@
 
     iput-object v0, p0, Lpkl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b268b
+    sget v1, Lcom/resouce/module/ResID;->public_mode_switch_tips_icon:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
     .line 5
     iget-object v0, p0, Lpkl;->c:Landroid/view/View;
 
-    const v1, 0x7f0b268c
+    sget v1, Lcom/resouce/module/ResID;->public_mode_switch_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -353,7 +353,7 @@
     .line 1
     iget-object v0, p0, Lpkl;->c:Landroid/view/View;
 
-    const v1, 0x7f081328
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -369,12 +369,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f080958
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_adjust_phone_normal:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080959
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_adjust_phone_press:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -419,7 +419,7 @@
     :cond_2
     iget-object v0, p0, Lpkl;->d:Landroid/widget/ImageView;
 
-    const v1, 0x7f080297
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
     invoke-virtual {p0, v1}, Lpkl;->e(I)Landroid/graphics/drawable/Drawable;
 
@@ -433,17 +433,17 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f122057
+    sget p1, Lcom/resouce/module/ResSTRING;->public_enter_phonemode:I
 
     goto :goto_3
 
     :cond_3
-    const p1, 0x7f122089
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit_phonemode:I
 
     :goto_3
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
 
-    const p1, 0x7f070d54
+    sget p1, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     .line 10
     invoke-virtual {p0, p1}, Lpkl;->d(I)I
@@ -490,7 +490,7 @@
     .line 1
     iget-object v0, p0, Lpkl;->c:Landroid/view/View;
 
-    const v1, 0x7f081328
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_read_mode_tips_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -499,12 +499,12 @@
 
     if-eqz p1, :cond_0
 
-    const v1, 0x7f081f90
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_public_mode_switch_tips_read:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081f8f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_public_mode_switch_tips_edit:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -514,17 +514,17 @@
 
     if-eqz p1, :cond_1
 
-    const v1, 0x7f1227a9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_read_mode:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f122fbe
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_edit_mode:I
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f070d54
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_mode_switch_tips_margin_top:I
 
     .line 4
     invoke-virtual {p0, v0}, Lpkl;->d(I)I

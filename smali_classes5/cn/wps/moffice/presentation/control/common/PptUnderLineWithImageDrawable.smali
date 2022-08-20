@@ -196,7 +196,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d1c
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_border_style_width:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060009
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -233,7 +233,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0602db
+    sget v0, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -354,7 +354,7 @@
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f080414
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_2:I
 
     .line 10
     iput v0, p0, Lcn/wps/moffice/presentation/control/common/PptUnderLineWithImageDrawable;->f0:I
@@ -366,7 +366,7 @@
 
     if-ne v0, v2, :cond_2
 
-    const v0, 0x7f080415
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_4:I
 
     .line 11
     iput v0, p0, Lcn/wps/moffice/presentation/control/common/PptUnderLineWithImageDrawable;->f0:I
@@ -374,7 +374,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f080413
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_style_line_style_1:I
 
     .line 12
     iput v0, p0, Lcn/wps/moffice/presentation/control/common/PptUnderLineWithImageDrawable;->f0:I

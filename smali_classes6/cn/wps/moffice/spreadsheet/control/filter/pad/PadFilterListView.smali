@@ -176,7 +176,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f120887
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_clear_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -186,7 +186,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f12087d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all_serach:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -205,7 +205,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f122551
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_selectAll:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -215,7 +215,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->o0:Landroid/widget/TextView;
 
-    const v1, 0x7f12087c
+    sget v1, Lcom/resouce/module/ResSTRING;->et_filter_all:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1069,7 +1069,7 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->m0:Landroid/widget/TextView;
 
-    const v2, 0x7f120896
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_no_search_result:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1245,7 +1245,7 @@
 .method public h(Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e01f2
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_filterlist_dialog:I
 
     const/4 v1, 0x1
 
@@ -1268,7 +1268,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0705c3
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_ss_filter_popupwindow_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1295,7 +1295,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1303,7 +1303,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
-    const v0, 0x7f0b0a55
+    sget v0, Lcom/resouce/module/ResID;->et_filter_select_all:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1314,7 +1314,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0a4c
+    sget v0, Lcom/resouce/module/ResID;->et_filter_empty_hint:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1330,7 +1330,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0705c1
+    sget v1, Lcom/resouce/module/ResDIMEN;->pad_ss_filter_emptylist_hint_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1338,7 +1338,7 @@
 
     iput v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->n0:I
 
-    const v0, 0x7f0b0a52
+    sget v0, Lcom/resouce/module/ResID;->et_filter_list_rv:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1354,7 +1354,7 @@
     .line 10
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setDividerHeight(I)V
 
-    const v0, 0x7f0b0dd1
+    sget v0, Lcom/resouce/module/ResID;->fliter_search_et:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1368,7 +1368,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/FilterListView;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0a48
+    sget v1, Lcom/resouce/module/ResID;->et_filter_circle_progressBar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1378,7 +1378,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->j0:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0a4b
+    sget v0, Lcom/resouce/module/ResID;->et_filter_done:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1544,7 +1544,7 @@
     :goto_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/filter/pad/PadFilterListView;->m0:Landroid/widget/TextView;
 
-    const p2, 0x7f120895
+    sget p2, Lcom/resouce/module/ResSTRING;->et_filter_no_filterstrs:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1598,7 +1598,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const p1, 0x7f0b2a5a
+    sget p1, Lcom/resouce/module/ResID;->search_box_clean_view:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

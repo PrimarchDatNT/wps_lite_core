@@ -97,12 +97,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0d8f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_fulltext_empty_search_item:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0d49
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_pad_fulltext_empty_search_item:I
 
     :goto_0
     const/4 v2, 0x0
@@ -113,7 +113,7 @@
 
     iput-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e9e
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_title:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 4
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e95
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 5
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e97
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_search_local:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 6
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e9f
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_top_divider:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
     .line 7
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2a63
+    sget v0, Lcom/resouce/module/ResID;->search_cloud_and_search_local_separator1:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -171,7 +171,7 @@
     .line 8
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2a64
+    sget v0, Lcom/resouce/module/ResID;->search_cloud_and_search_local_separator2:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -189,7 +189,7 @@
     .line 10
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b2f18
+    sget v0, Lcom/resouce/module/ResID;->text_hint:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -202,7 +202,7 @@
     .line 11
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b02fc
+    sget v0, Lcom/resouce/module/ResID;->btn_search:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -213,7 +213,7 @@
     .line 12
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e9d
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 13
     iget-object p1, p0, Lca9;->a:Landroid/view/View;
 
-    const v0, 0x7f0b0e96
+    sget v0, Lcom/resouce/module/ResID;->fulltext_bottom_parent_cell:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -347,7 +347,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221fc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_full_text_found_empty_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -397,7 +397,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221fc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_full_text_found_empty_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -606,11 +606,11 @@
 
     iget-object v2, p0, Lca9;->m:Landroid/widget/TextView;
 
-    const v3, 0x7f122862
+    sget v3, Lcom/resouce/module/ResSTRING;->public_search_fulltext_bottom_text:I
 
     iget-object v4, p0, Lca9;->d:Ljava/lang/String;
 
-    const v5, 0x7f0605f1
+    sget v5, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v6, "\""
 
@@ -621,11 +621,11 @@
 
     iget-object v8, p0, Lca9;->e:Landroid/widget/TextView;
 
-    const v9, 0x7f122862
+    sget v9, Lcom/resouce/module/ResSTRING;->public_search_fulltext_bottom_text:I
 
     iget-object v10, p0, Lca9;->d:Ljava/lang/String;
 
-    const v11, 0x7f0605f1
+    sget v11, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v12, "\""
 

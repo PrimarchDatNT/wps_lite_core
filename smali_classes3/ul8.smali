@@ -144,7 +144,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0273
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_coupon_item:I
 
     .line 2
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -245,7 +245,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f08192a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_foreign_coupon_lower_bg:I
 
     invoke-static {v2, v3, v4}, Lvrb;->x(Landroid/view/View;Landroid/content/Context;I)V
 
@@ -289,7 +289,7 @@
     .line 21
     iget-object p1, p3, Lul8$a;->h:Landroid/widget/TextView;
 
-    const v2, 0x7f0804be
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->coupon_type_rtl_bg:I
 
     invoke-virtual {p1, v2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

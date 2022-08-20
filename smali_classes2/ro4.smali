@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1f73
+    sget v1, Lcom/resouce/module/ResID;->period_text:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -49,7 +49,7 @@
 
     iput-object v1, p0, Lro4;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1f71
+    sget v1, Lcom/resouce/module/ResID;->period_member_icon:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -58,7 +58,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b15ec
+    sget v1, Lcom/resouce/module/ResID;->link_period_selected:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
     .line 7
     iget-object p1, p0, Lro4;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f1223f2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_period_forever:I
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -106,7 +106,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120f06
+    sget v2, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     new-array v3, v6, [Ljava/lang/Object;
 
@@ -132,7 +132,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1223f1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_link_period:I
 
     new-array v4, v6, [Ljava/lang/Object;
 
@@ -186,7 +186,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cb7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_link_period_choose_item_layout:I
 
     const/4 v2, 0x0
 

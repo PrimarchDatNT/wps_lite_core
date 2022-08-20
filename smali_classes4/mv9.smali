@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f65
+    sget v1, Lcom/resouce/module/ResSTRING;->smart_form:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -308,13 +308,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0c47
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_home_top_item_layout:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b164c
+    sget v1, Lcom/resouce/module/ResID;->ll_contain:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -325,7 +325,7 @@
 
     iput-object v1, p2, Lmv9$b;->a:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b147a
+    sget v1, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -336,7 +336,7 @@
 
     iput-object v1, p2, Lmv9$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f0b31e6
+    sget v1, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -347,7 +347,7 @@
 
     iput-object v1, p2, Lmv9$b;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3396
+    sget v1, Lcom/resouce/module/ResID;->view_devide:I
 
     .line 7
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -356,7 +356,7 @@
 
     iput-object v1, p2, Lmv9$b;->d:Landroid/view/View;
 
-    const v1, 0x7f0b2868
+    sget v1, Lcom/resouce/module/ResID;->red_dot_num_tv:I
 
     .line 8
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     iput-object v1, p2, Lmv9$b;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1381
+    sget v1, Lcom/resouce/module/ResID;->is_charge:I
 
     .line 9
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -411,7 +411,7 @@
     .line 14
     iget-object v1, p2, Lmv9$b;->a:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b2e82
+    sget v2, Lcom/resouce/module/ResID;->tag_node_link:I
 
     iget-object v3, p0, Lmv9;->V:Lcn/wps/moffice/main/local/NodeLink;
 
@@ -465,7 +465,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080594
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->en_home_top_default:I
 
     .line 23
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

@@ -147,7 +147,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3022
+    sget v1, Lcom/resouce/module/ResID;->titlebar_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
     .line 5
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b220c
+    sget v2, Lcom/resouce/module/ResID;->phrases_recycle:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
     .line 6
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b00b6
+    sget v2, Lcom/resouce/module/ResID;->add_phrases:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -318,7 +318,7 @@
 .method public final d1(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b2065
+    sget v0, Lcom/resouce/module/ResID;->phone_panel_topbar:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -502,7 +502,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0ed4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->quick_phrases_bottom:I
 
     return v0
 .end method

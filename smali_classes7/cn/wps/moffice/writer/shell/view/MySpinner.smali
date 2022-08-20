@@ -75,7 +75,7 @@
 
     iput-boolean p2, p0, Lcn/wps/moffice/writer/shell/view/MySpinner;->U:Z
 
-    const p2, 0x7f081205
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->phone_public_dropdown_btn_default_bg:I
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/view/View;->setBackgroundResource(I)V
@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070bfd
+    sget p2, Lcom/resouce/module/ResDIMEN;->public_spinner_text_size:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -125,7 +125,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -532,7 +532,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f12335e
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_layout_revision_run_font_auto:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0806
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_modify_options_layout:I
 
     const/4 v2, 0x0
 
@@ -106,7 +106,7 @@
     .line 4
     iget-object v0, p0, Lutd;->e:Landroid/widget/ScrollView;
 
-    const v1, 0x7f0b24a4
+    sget v1, Lcom/resouce/module/ResID;->ppt_vertical_child_widget:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ScrollView;->findViewById(I)Landroid/view/View;
 

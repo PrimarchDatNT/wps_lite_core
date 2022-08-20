@@ -38,14 +38,14 @@
 
     if-eq p1, v2, :cond_0
 
-    const p1, 0x7f120585
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v2, 0x7f121d82
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_download_file_unknow_error:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -72,14 +72,14 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121d81
+    sget p1, Lcom/resouce/module/ResSTRING;->public_batch_download_file_not_permission_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v2, 0x7f121d80
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_download_file_not_permission:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -106,14 +106,14 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f120e68
+    sget p1, Lcom/resouce/module/ResSTRING;->home_account_setting_netword_error:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v0, 0x7f121d7e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_batch_download_file_network_error:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -128,14 +128,14 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f12039e
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_fix_check_file_no_exist:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    const v2, 0x7f121d7f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_download_file_not_found:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -342,7 +342,7 @@
 
     invoke-direct {p1, p3}, Lxt7$c;-><init>(Lxt7$g;)V
 
-    const p2, 0x7f121bdb
+    sget p2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -352,7 +352,7 @@
 
     invoke-direct {p1, p3}, Lxt7$b;-><init>(Lxt7$g;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {p0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -389,7 +389,7 @@
 
     invoke-direct {p1, p3}, Lxt7$f;-><init>(Lxt7$g;)V
 
-    const p2, 0x7f1229fe
+    sget p2, Lcom/resouce/module/ResSTRING;->public_skip:I
 
     invoke-virtual {p0, p2, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -399,7 +399,7 @@
 
     invoke-direct {p1, p3}, Lxt7$e;-><init>(Lxt7$g;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {p0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

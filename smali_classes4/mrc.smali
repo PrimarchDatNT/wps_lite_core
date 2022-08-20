@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0618
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pdf_autoplay_set_interval_layout:I
 
     const/4 v4, 0x0
 
@@ -198,7 +198,7 @@
     .line 4
     iget-object v0, p0, Lmrc;->T:Landroid/view/View;
 
-    const v3, 0x7f0b1d62
+    sget v3, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_3s:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     iget-object v0, p0, Lmrc;->T:Landroid/view/View;
 
-    const v3, 0x7f0b1d63
+    sget v3, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_5s:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     iget-object v3, p0, Lmrc;->T:Landroid/view/View;
 
-    const v4, 0x7f0b1d5f
+    sget v4, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_10s:I
 
     .line 7
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iget-object v3, p0, Lmrc;->T:Landroid/view/View;
 
-    const v4, 0x7f0b1d60
+    sget v4, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_15s:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     iget-object v3, p0, Lmrc;->T:Landroid/view/View;
 
-    const v4, 0x7f0b1d61
+    sget v4, Lcom/resouce/module/ResID;->pdf_autoplay_switch_time_20s:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

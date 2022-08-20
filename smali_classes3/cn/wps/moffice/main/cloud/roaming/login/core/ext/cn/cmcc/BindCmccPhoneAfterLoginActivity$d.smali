@@ -38,7 +38,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f120f33
+    sget v0, Lcom/resouce/module/ResSTRING;->home_login_bind_phone:I
 
     return v0
 .end method

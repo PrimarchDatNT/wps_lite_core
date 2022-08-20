@@ -118,7 +118,7 @@
 
     move-result v0
 
-    const v1, 0x7f1225c5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_other:I
 
     if-eqz v0, :cond_0
 
@@ -748,7 +748,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0fd2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->third_th_id_gdpr:I
 
     const/4 v2, 0x0
 
@@ -758,7 +758,7 @@
 
     iput-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b13f9
+    sget v1, Lcom/resouce/module/ResID;->ivBg:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -770,7 +770,7 @@
     .line 8
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b13fc
+    sget v1, Lcom/resouce/module/ResID;->ivDocument:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -783,7 +783,7 @@
     .line 9
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30ec
+    sget v1, Lcom/resouce/module/ResID;->tvFileName:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -796,7 +796,7 @@
     .line 10
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30ed
+    sget v1, Lcom/resouce/module/ResID;->tvFrom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -809,7 +809,7 @@
     .line 11
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30e4
+    sget v1, Lcom/resouce/module/ResID;->tvAgree:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -822,7 +822,7 @@
     .line 12
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f9e
+    sget v1, Lcom/resouce/module/ResID;->tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -833,7 +833,7 @@
     .line 13
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b30fb
+    sget v1, Lcom/resouce/module/ResID;->tvTip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -846,7 +846,7 @@
     .line 14
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -857,7 +857,7 @@
     .line 15
     iget-object v0, p0, Lzdb;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2ddb    # 1.8500079E38f
+    sget v1, Lcom/resouce/module/ResID;->subtitle:I    # 1.8500079E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1068,7 +1068,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122de2
+    sget v3, Lcom/resouce/module/ResSTRING;->recommend_from_tip:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

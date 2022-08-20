@@ -112,7 +112,7 @@
 
     iget-object v0, v0, Lc3b;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12043c
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_img_not_found_for_ocr:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -350,7 +350,7 @@
     .line 7
     iget-object v1, p0, Lokg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v2, 0x7f0b33d0
+    sget v2, Lcom/resouce/module/ResID;->viewstub_grid_webview:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -563,7 +563,7 @@
     .line 2
     iget-object v0, p0, Lokg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b035f
+    sget v1, Lcom/resouce/module/ResID;->cardmode_layout_fullscreen:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -647,7 +647,7 @@
     .line 3
     iget-object v0, p0, Lokg;->V:Landroid/view/View;
 
-    const v5, 0x7f0b2d05
+    sget v5, Lcom/resouce/module/ResID;->ss_grid_webview:I
 
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -887,7 +887,7 @@
     .line 2
     iget-object v0, p0, Lokg;->I:Lcn/wps/moffice/spreadsheet/Spreadsheet;
 
-    const v1, 0x7f0b035f
+    sget v1, Lcom/resouce/module/ResID;->cardmode_layout_fullscreen:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -934,7 +934,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f12074d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_cannot_enter_adaptive_screen:I
 
     if-eqz v0, :cond_0
 

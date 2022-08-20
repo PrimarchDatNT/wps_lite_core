@@ -20,7 +20,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ed7
+    sget v1, Lcom/resouce/module/ResSTRING;->server_notice:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122ed4
+    sget v1, Lcom/resouce/module/ResSTRING;->server_android:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213fc
+    sget v1, Lcom/resouce/module/ResSTRING;->msg_center_android:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213fc
+    sget v1, Lcom/resouce/module/ResSTRING;->msg_center_android:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

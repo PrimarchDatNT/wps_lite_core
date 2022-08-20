@@ -593,7 +593,7 @@
 .method public a2()I
     .locals 1
 
-    const v0, 0x7f0e02a8
+    sget v0, Lcom/resouce/module/ResLAYOUT;->fragment_main_v2_reader:I
 
     return v0
 .end method
@@ -675,7 +675,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f12320b
+    sget v1, Lcom/resouce/module/ResSTRING;->wps_home_auto_unlock_loading:I
 
     invoke-virtual {p1, p2, v0, v1}, Lq2f;->u1(Ljava/lang/String;ZI)V
 
@@ -1070,7 +1070,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Lgu2;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p2, 0x7f0b2df1
+    sget p2, Lcom/resouce/module/ResID;->suspendLayout:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1081,7 +1081,7 @@
 
     iput-object p2, p0, Lu0f;->g0:Landroid/widget/FrameLayout;
 
-    const p2, 0x7f0b3084
+    sget p2, Lcom/resouce/module/ResID;->top_title:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1090,7 +1090,7 @@
 
     iput-object p2, p0, Lu0f;->S:Landroid/view/View;
 
-    const p2, 0x7f0b038b
+    sget p2, Lcom/resouce/module/ResID;->chapter_title:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1101,7 +1101,7 @@
 
     iput-object p2, p0, Lu0f;->T:Landroid/widget/TextView;
 
-    const p2, 0x7f0b2812
+    sget p2, Lcom/resouce/module/ResID;->reader_view:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1112,7 +1112,7 @@
 
     iput-object p2, p0, Lu0f;->U:Lcn/wps/moffice/reader/view/ReaderView;
 
-    const p2, 0x7f0b2863
+    sget p2, Lcom/resouce/module/ResID;->recycler_view:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1423,7 +1423,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d0d
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_network_error:I
 
     invoke-static {v1, v2, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2019,7 +2019,7 @@
     .line 6
     iget-object v0, p0, Lu0f;->T:Landroid/widget/TextView;
 
-    const v2, 0x7f060330
+    sget v2, Lcom/resouce/module/ResCOLOR;->novel_descriptionColor:I
 
     invoke-static {v0, v2, v1}, Lw1f;->f(Landroid/widget/TextView;IZ)V
 

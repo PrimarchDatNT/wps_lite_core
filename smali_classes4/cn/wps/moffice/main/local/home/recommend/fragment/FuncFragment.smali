@@ -73,7 +73,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0e0ee3
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_func_fragment_layout:I
 
     return v0
 .end method
@@ -97,13 +97,13 @@
     .line 2
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122de7
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_docuemnt:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d46
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_document_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -112,13 +112,13 @@
     .line 3
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122ded
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_templete:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d59
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_templete_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -127,13 +127,13 @@
     .line 4
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122de3
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_cloud:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d42
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_cloud_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -142,13 +142,13 @@
     .line 5
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122deb
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_scan:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d52
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_scan_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -157,13 +157,13 @@
     .line 6
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122de9
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_pdf:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d50
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_pdf_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -172,13 +172,13 @@
     .line 7
     new-instance v1, Ln8a;
 
-    const v2, 0x7f122de8
+    sget v2, Lcom/resouce/module/ResSTRING;->recommend_func_fill:I
 
     invoke-virtual {p0, v2}, Landroid/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f081d48
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->recommend_fill_bg:I
 
     invoke-direct {v1, v2, v3}, Ln8a;-><init>(Ljava/lang/String;I)V
 
@@ -195,7 +195,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/FuncFragment;->I:Landroid/util/SparseArray;
 
-    const v1, 0x7f0b0f3e
+    sget v1, Lcom/resouce/module/ResID;->grid:I
 
     .line 9
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -206,7 +206,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/local/home/recommend/fragment/FuncFragment;->S:Landroidx/recyclerview/widget/RecyclerView;
 
-    const v1, 0x7f0b15c7
+    sget v1, Lcom/resouce/module/ResID;->liner:I
 
     .line 10
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -280,7 +280,7 @@
 
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$m;)V
 
-    const v0, 0x7f0b3262
+    sget v0, Lcom/resouce/module/ResID;->tv_skip:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

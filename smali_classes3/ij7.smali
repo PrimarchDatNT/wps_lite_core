@@ -334,7 +334,7 @@
     .line 2
     iget-object v0, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v1, 0x7f121d24
+    sget v1, Lcom/resouce/module/ResSTRING;->public_amazon_doc_library:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     iget-object v3, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v4, 0x7f121f2a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_company_guide:I
 
     .line 2
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

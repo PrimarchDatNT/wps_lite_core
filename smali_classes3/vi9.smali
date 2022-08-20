@@ -117,7 +117,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 4
     invoke-static {p2, p1, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -132,7 +132,7 @@
 
     invoke-direct {p1, p2, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    const v1, 0x7f1227fc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_report_file:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

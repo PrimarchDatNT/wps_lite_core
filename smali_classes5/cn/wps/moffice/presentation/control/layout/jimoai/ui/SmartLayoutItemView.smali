@@ -65,13 +65,13 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0f48
+    sget p2, Lcom/resouce/module/ResLAYOUT;->smart_layout_preview_item:I
 
     const/4 p3, 0x1
 
     invoke-virtual {p1, p2, p0, p3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2c5c
+    sget p1, Lcom/resouce/module/ResID;->smart_layout_thumb_item:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2c5b
+    sget p1, Lcom/resouce/module/ResID;->smart_layout_thumb_check:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -89,7 +89,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2c5f
+    sget p1, Lcom/resouce/module/ResID;->smart_layout_thumb_progress:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/layout/jimoai/ui/SmartLayoutItemView;->B:Landroid/view/View;
 
-    const p1, 0x7f0b2c5e
+    sget p1, Lcom/resouce/module/ResID;->smart_layout_thumb_mark:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -107,7 +107,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/layout/jimoai/ui/SmartLayoutItemView;->I:Landroid/view/View;
 
-    const p1, 0x7f0b1443
+    sget p1, Lcom/resouce/module/ResID;->iv_docer:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -116,7 +116,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/presentation/control/layout/jimoai/ui/SmartLayoutItemView;->S:Landroid/view/View;
 
-    const p1, 0x7f0b0739
+    sget p1, Lcom/resouce/module/ResID;->docer_superscript:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

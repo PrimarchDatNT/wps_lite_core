@@ -38,7 +38,7 @@
     .line 1
     iget-object v0, p0, Ltfh$a;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1205ed
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_app:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -57,7 +57,7 @@
     .line 1
     iget-object p1, p0, Ltfh$a;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1205ed
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_app:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

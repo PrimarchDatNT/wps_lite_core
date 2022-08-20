@@ -152,7 +152,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e039b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_scfolder_more_menu:I
 
     const/4 v4, 0x0
 
@@ -162,7 +162,7 @@
 
     iput-object v1, p0, Lxba;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2a23
+    sget v2, Lcom/resouce/module/ResID;->scf_more_menu_text:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -174,7 +174,7 @@
     .line 5
     iget-object v1, p0, Lxba;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2a24
+    sget v2, Lcom/resouce/module/ResID;->scf_more_sort_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     .line 6
     iget-object v1, p0, Lxba;->b:Landroid/view/View;
 
-    const v2, 0x7f0b2a22
+    sget v2, Lcom/resouce/module/ResID;->scf_more_delete_text:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -303,12 +303,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121133
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_added:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121142
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_removed:I
 
     .line 2
     :goto_0
@@ -336,7 +336,7 @@
     .line 2
     iget-object v0, p0, Lxba;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2a23
+    sget v1, Lcom/resouce/module/ResID;->scf_more_menu_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -349,7 +349,7 @@
     .line 3
     iget-object v0, p0, Lxba;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2a22
+    sget v1, Lcom/resouce/module/ResID;->scf_more_delete_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -393,12 +393,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f121141
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_remove_shortcut:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f121132
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_add_shortcut:I
 
     .line 8
     :goto_0

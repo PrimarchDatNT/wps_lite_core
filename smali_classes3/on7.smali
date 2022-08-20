@@ -117,7 +117,7 @@
 
     iput-object v1, p0, Lon7;->r1:Lkn7;
 
-    const v0, 0x7f060625
+    sget v0, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     .line 6
     invoke-virtual {v1, v0}, Lkn7;->d(I)V
@@ -127,7 +127,7 @@
 
     iget-object v1, p0, Lgj7;->T:Landroid/app/Activity;
 
-    const v2, 0x7f12203a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_driveselect_path_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     invoke-direct {v1, p0}, Lon7$a;-><init>(Lon7;)V
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-interface {v0, v2, v1}, Lvi7;->o(ILandroid/view/View$OnClickListener;)V
 

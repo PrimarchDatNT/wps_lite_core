@@ -141,7 +141,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0811
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_searchreplace_advanced:I
 
     const/4 v2, 0x0
 
@@ -168,7 +168,7 @@
     .line 1
     iget-object v0, p0, Lh9e;->T:Landroid/view/View;
 
-    const v1, 0x7f0b29ab
+    sget v1, Lcom/resouce/module/ResID;->root_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -179,9 +179,9 @@
     .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const v1, 0x7f0b0d84
+    sget v1, Lcom/resouce/module/ResID;->find_matchword:I
 
-    const v2, 0x7f0b0d83
+    sget v2, Lcom/resouce/module/ResID;->find_matchcase:I
 
     const/16 v3, 0x15
 
@@ -309,7 +309,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0d83
+    sget v0, Lcom/resouce/module/ResID;->find_matchcase:I
 
     if-ne p1, v0, :cond_0
 
@@ -330,7 +330,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0d84
+    sget v0, Lcom/resouce/module/ResID;->find_matchword:I
 
     if-ne p1, v0, :cond_1
 

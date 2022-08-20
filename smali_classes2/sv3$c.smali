@@ -39,7 +39,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f0b31c0
+    sget v1, Lcom/resouce/module/ResID;->tv_is_temp:I
 
     if-ne p3, v1, :cond_1
 

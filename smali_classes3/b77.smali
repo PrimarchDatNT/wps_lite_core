@@ -38,7 +38,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f121fd7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_disable:I
 
     .line 1
     invoke-static {p1, v0}, Ldi9;->t(II)Ldi9$f;

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/phone_ofd_annotation_panel" android:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.ExpandGridView android:gravity="center" android:id="@id/annotation_grid" android:layout_width="wrap_content" android:layout_height="48.0dip" android:listSelector="@android:color/transparent" android:stretchMode="columnWidth" android:numColumns="7" />
-    <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" />
-</FrameLayout>

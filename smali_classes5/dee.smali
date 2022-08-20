@@ -44,9 +44,9 @@
     .line 2
     new-instance v0, Ldee$d;
 
-    const v1, 0x7f08043b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_delete_row:I
 
-    const v2, 0x7f122a4f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_delete_row:I
 
     invoke-direct {v0, p0, v1, v2}, Ldee$d;-><init>(Ldee;II)V
 
@@ -55,9 +55,9 @@
     .line 3
     new-instance v0, Ldee$e;
 
-    const v1, 0x7f080439
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_delete_column:I
 
-    const v2, 0x7f122a4e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_delete_column:I
 
     invoke-direct {v0, p0, v1, v2}, Ldee$e;-><init>(Ldee;II)V
 
@@ -66,9 +66,9 @@
     .line 4
     new-instance v0, Ldee$f;
 
-    const v1, 0x7f08045e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_insert_row:I
 
-    const v2, 0x7f122a58
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_insert_row:I
 
     invoke-direct {v0, p0, v1, v2}, Ldee$f;-><init>(Ldee;II)V
 
@@ -77,9 +77,9 @@
     .line 5
     new-instance v0, Ldee$g;
 
-    const v1, 0x7f08045d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_insert_column:I
 
-    const v2, 0x7f122a57
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_insert_column:I
 
     invoke-direct {v0, p0, v1, v2}, Ldee$g;-><init>(Ldee;II)V
 
@@ -88,9 +88,9 @@
     .line 6
     new-instance v0, Ldee$h;
 
-    const v1, 0x7f08046c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_properties:I
 
-    const v2, 0x7f122a49
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_attribute:I
 
     invoke-direct {v0, p0, v1, v2}, Ldee$h;-><init>(Ldee;II)V
 
@@ -99,9 +99,9 @@
     .line 7
     new-instance v0, Ldee$i;
 
-    const v3, 0x7f080428
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_table_beauty:I
 
-    const v4, 0x7f121b6f
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_form_beauty:I
 
     invoke-direct {v0, p0, v3, v4}, Ldee$i;-><init>(Ldee;II)V
 
@@ -110,9 +110,9 @@
     .line 8
     new-instance v0, Ldee$j;
 
-    const v5, 0x7f080293
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->comp_extract_table:I
 
-    const v6, 0x7f120402
+    sget v6, Lcom/resouce/module/ResSTRING;->doc_scan_extract_to_et:I
 
     invoke-direct {v0, p0, v5, v6}, Ldee$j;-><init>(Ldee;II)V
 

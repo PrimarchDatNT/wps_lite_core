@@ -26,7 +26,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcn/wps/moffice/spreadsheet/control/Sharer;Lk2m;Lcn/wps/moffice/spreadsheet/control/save/Saver;Lydf;Lcn/wps/moffice/spreadsheet/control/thin/FileSizeReduce$h;)V
     .locals 1
 
-    const v0, 0x7f1229a6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_wetchat:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lw0h;-><init>(Landroid/content/Context;I)V
@@ -58,7 +58,7 @@
 
     check-cast p2, Landroid/view/ViewGroup;
 
-    const p3, 0x7f0b2167
+    sget p3, Lcom/resouce/module/ResID;->phone_ss_panel_title_view:I
 
     .line 9
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -279,7 +279,7 @@
 
     move-result-object v5
 
-    const v0, 0x7f122266
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 6
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -535,7 +535,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e3c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_share_second_panel:I
 
     const/4 v2, 0x0
 
@@ -545,7 +545,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b271b
+    sget v1, Lcom/resouce/module/ResID;->public_share_second_panel_root:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -554,7 +554,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b013b
+    sget v3, Lcom/resouce/module/ResID;->app_share_link:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -698,7 +698,7 @@
 
     move-result-object v4
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 17
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -761,7 +761,7 @@
 
     move-result-object v4
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 25
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -803,7 +803,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12264a
+    sget v4, Lcom/resouce/module/ResSTRING;->public_picfunc_item_share_text:I
 
     .line 30
     invoke-virtual {v10, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -835,7 +835,7 @@
 
     move-result-object v4
 
-    const v3, 0x7f1208b1
+    sget v3, Lcom/resouce/module/ResSTRING;->et_formula2num_share_title:I
 
     .line 35
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -875,7 +875,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122987
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_pdf_file:I
 
     .line 40
     invoke-virtual {v10, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

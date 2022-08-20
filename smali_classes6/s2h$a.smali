@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e099c
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_sheetname_tips:I
 
     const/4 v3, 0x0
 
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2d63
+    sget v2, Lcom/resouce/module/ResID;->ss_sheet_name_textview:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

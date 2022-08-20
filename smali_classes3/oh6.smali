@@ -153,17 +153,17 @@
 .method public static c(Landroid/content/Context;I)Ljava/lang/String;
     .locals 6
 
-    const v0, 0x7f122aee
+    sget v0, Lcom/resouce/module/ResSTRING;->public_tools_print:I
 
-    const v1, 0x7f1217dd
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
-    const v2, 0x7f121925
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
-    const v3, 0x7f1216c8
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
-    const v4, 0x7f122266
+    sget v4, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
-    const v5, 0x7f122bca
+    sget v5, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     packed-switch p1, :pswitch_data_0
 
@@ -173,7 +173,7 @@
     return-object p0
 
     :pswitch_1
-    const p1, 0x7f121639
+    sget p1, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check_job:I
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -183,7 +183,7 @@
     return-object p0
 
     :pswitch_2
-    const p1, 0x7f12085b
+    sget p1, Lcom/resouce/module/ResSTRING;->et_export_card_pics:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -193,7 +193,7 @@
     return-object p0
 
     :pswitch_3
-    const p1, 0x7f12143d
+    sget p1, Lcom/resouce/module/ResSTRING;->multi_port_upload_image_fun_text:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -203,7 +203,7 @@
     return-object p0
 
     :pswitch_4
-    const p1, 0x7f120c3e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_table:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -221,7 +221,7 @@
     return-object p0
 
     :pswitch_6
-    const p1, 0x7f122269
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_app_file_transfer_to_pc:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -231,7 +231,7 @@
     return-object p0
 
     :pswitch_7
-    const p1, 0x7f1208b5
+    sget p1, Lcom/resouce/module/ResSTRING;->et_formula2num_title:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -249,7 +249,7 @@
     return-object p0
 
     :pswitch_9
-    const p1, 0x7f123250
+    sget p1, Lcom/resouce/module/ResSTRING;->wps_ppt_shareplay:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -259,7 +259,7 @@
     return-object p0
 
     :pswitch_a
-    const p1, 0x7f1220bf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_extract_pics:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -269,7 +269,7 @@
     return-object p0
 
     :pswitch_b
-    const p1, 0x7f1220a7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -279,7 +279,7 @@
     return-object p0
 
     :pswitch_c
-    const p1, 0x7f1217b4
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_edit:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -289,7 +289,7 @@
     return-object p0
 
     :pswitch_d
-    const p1, 0x7f122651
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_splicing:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -299,7 +299,7 @@
     return-object p0
 
     :pswitch_e
-    const p1, 0x7f122654
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_to_translation:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -309,7 +309,7 @@
     return-object p0
 
     :pswitch_f
-    const p1, 0x7f1217e0
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -319,7 +319,7 @@
     return-object p0
 
     :pswitch_10
-    const p1, 0x7f1200e0
+    sget p1, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     .line 16
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -329,7 +329,7 @@
     return-object p0
 
     :pswitch_11
-    const p1, 0x7f120198
+    sget p1, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     .line 17
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -339,7 +339,7 @@
     return-object p0
 
     :pswitch_12
-    const p1, 0x7f122106
+    sget p1, Lcom/resouce/module/ResSTRING;->public_file_evidence_name:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -349,7 +349,7 @@
     return-object p0
 
     :pswitch_13
-    const p1, 0x7f12013d
+    sget p1, Lcom/resouce/module/ResSTRING;->apps_formtool:I
 
     .line 19
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -367,7 +367,7 @@
     return-object p0
 
     :pswitch_15
-    const p1, 0x7f120cd4
+    sget p1, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     .line 21
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -377,7 +377,7 @@
     return-object p0
 
     :pswitch_16
-    const p1, 0x7f122724
+    sget p1, Lcom/resouce/module/ResSTRING;->public_print_wps_doc:I
 
     .line 22
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -395,7 +395,7 @@
     return-object p0
 
     :pswitch_18
-    const p1, 0x7f120147
+    sget p1, Lcom/resouce/module/ResSTRING;->apps_introduce_doucument_fix_title:I
 
     .line 24
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -405,7 +405,7 @@
     return-object p0
 
     :pswitch_19
-    const p1, 0x7f122c12
+    sget p1, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     .line 25
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -415,7 +415,7 @@
     return-object p0
 
     :pswitch_1a
-    const p1, 0x7f122c10
+    sget p1, Lcom/resouce/module/ResSTRING;->public_word_extract:I
 
     .line 26
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -441,7 +441,7 @@
     return-object p0
 
     :pswitch_1d
-    const p1, 0x7f1225d8
+    sget p1, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     .line 29
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -459,7 +459,7 @@
     return-object p0
 
     :pswitch_1f
-    const p1, 0x7f121771
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     .line 31
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -469,7 +469,7 @@
     return-object p0
 
     :pswitch_20
-    const p1, 0x7f12176d
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     .line 32
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -479,7 +479,7 @@
     return-object p0
 
     :pswitch_21
-    const p1, 0x7f121bb3
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_play_record:I
 
     .line 33
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -489,7 +489,7 @@
     return-object p0
 
     :pswitch_22
-    const p1, 0x7f121661
+    sget p1, Lcom/resouce/module/ResSTRING;->paper_down_repetition:I
 
     .line 34
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -499,7 +499,7 @@
     return-object p0
 
     :pswitch_23
-    const p1, 0x7f122643
+    sget p1, Lcom/resouce/module/ResSTRING;->public_pic2ppt2:I
 
     .line 35
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -509,7 +509,7 @@
     return-object p0
 
     :pswitch_24
-    const p1, 0x7f121842
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     .line 36
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -535,7 +535,7 @@
     return-object p0
 
     :pswitch_27
-    const p1, 0x7f121638
+    sget p1, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     .line 39
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -545,7 +545,7 @@
     return-object p0
 
     :pswitch_28
-    const p1, 0x7f122270
+    sget p1, Lcom/resouce/module/ResSTRING;->public_home_app_title_tv_projection:I
 
     .line 40
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -579,7 +579,7 @@
     return-object p0
 
     :pswitch_2c
-    const p1, 0x7f121c96
+    sget p1, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     .line 44
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -589,7 +589,7 @@
     return-object p0
 
     :pswitch_2d
-    const p1, 0x7f12182c
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_merge_title:I
 
     .line 45
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -599,7 +599,7 @@
     return-object p0
 
     :pswitch_2e
-    const p1, 0x7f1217f2
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_extract_title:I
 
     .line 46
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -609,7 +609,7 @@
     return-object p0
 
     :pswitch_2f
-    const p1, 0x7f12209f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     .line 47
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -619,7 +619,7 @@
     return-object p0
 
     :pswitch_30
-    const p1, 0x7f121769
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     .line 48
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -629,7 +629,7 @@
     return-object p0
 
     :pswitch_31
-    const p1, 0x7f122653
+    sget p1, Lcom/resouce/module/ResSTRING;->public_picture_to_DOC:I
 
     .line 49
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -639,7 +639,7 @@
     return-object p0
 
     :pswitch_32
-    const p1, 0x7f12263f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
     .line 50
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -649,7 +649,7 @@
     return-object p0
 
     :pswitch_33
-    const p1, 0x7f120460
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     .line 51
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

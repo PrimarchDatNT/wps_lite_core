@@ -43,12 +43,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0954
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_datavalidation_slider:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e05df
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_ss_datavalidation_slider:I
 
     :goto_0
     const/4 v2, 0x1
@@ -156,7 +156,7 @@
 .method public final b()V
     .locals 3
 
-    const v0, 0x7f0b09d2
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_seekbar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/Slider;->B:Landroid/widget/SeekBar;
 
-    const v0, 0x7f0b09d0
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_more_btn:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
-    const v1, 0x7f0b09d3
+    sget v1, Lcom/resouce/module/ResID;->et_data_validation_stepper_add_btn:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/Slider;->S:Lcn/wps/moffice/spreadsheet/control/data_validation/StepperButton;
 
-    const v1, 0x7f0b09d5
+    sget v1, Lcom/resouce/module/ResID;->et_data_validation_stepper_sub_btn:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

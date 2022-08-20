@@ -117,7 +117,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0e068e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_bottom_dialog_community:I
 
     const/4 v2, 0x0
 
@@ -128,7 +128,7 @@
 
     iput-object v1, p0, Ljb5;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0549
+    sget v2, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -142,7 +142,7 @@
     .line 5
     iget-object v1, p0, Ljb5;->B:Landroid/view/View;
 
-    const v2, 0x7f0b06cf
+    sget v2, Lcom/resouce/module/ResID;->divider:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -153,7 +153,7 @@
     .line 6
     iget-object v1, p0, Ljb5;->B:Landroid/view/View;
 
-    const v2, 0x7f0b3050
+    sget v2, Lcom/resouce/module/ResID;->tool_button:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -172,7 +172,7 @@
     .line 8
     iget-object v1, p0, Ljb5;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e068f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_bottom_dialog_community_item:I
 
     const/4 v3, 0x0
 
@@ -180,7 +180,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0b1227
+    sget v4, Lcom/resouce/module/ResID;->icon:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v6, 0x7f0b2fcd
+    sget v6, Lcom/resouce/module/ResID;->title:I
 
     .line 10
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,12 +198,12 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0818b6
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_weixin:I
 
     .line 11
     invoke-virtual {v5, v8}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v5, 0x7f120606
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechatfriend:I
 
     .line 12
     invoke-virtual {v7, v5}, Landroid/widget/TextView;->setText(I)V
@@ -242,12 +242,12 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f081bf4
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_send_wechat_moments:I
 
     .line 19
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f120605
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_more_recommend_wechat_moments:I
 
     .line 20
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(I)V

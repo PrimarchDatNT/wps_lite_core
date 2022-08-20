@@ -217,7 +217,7 @@
     .line 4
     iget-object v1, p0, Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator$b;->a0:Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator;
 
-    const v3, 0x7f121fe6
+    sget v3, Lcom/resouce/module/ResSTRING;->public_doc_cooperation_save_online_editing:I
 
     const/4 v4, 0x0
 
@@ -253,7 +253,7 @@
     .line 7
     iget-object v1, p0, Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator$b;->a0:Lcn/wps/moffice/common/qing/cooperation/ext/DocCooperator;
 
-    const v3, 0x7f121fe5
+    sget v3, Lcom/resouce/module/ResSTRING;->public_doc_cooperation_save_maybe_overwrite:I
 
     iget-object v4, p1, Lvx4;->b:Lgtp;
 

@@ -149,7 +149,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e075f
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_home_toolbar_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -157,7 +157,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeBottomToolbar;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2046
+    sget p2, Lcom/resouce/module/ResID;->phone_home_toolbar_container:I
 
     .line 12
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -180,7 +180,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeBottomToolbar;->S:Landroid/view/View;
 
-    const p2, 0x7f0b204e
+    sget p2, Lcom/resouce/module/ResID;->phone_home_toolbar_left_shadow:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/main/push/hometoolbar/HomeBottomToolbar;->S:Landroid/view/View;
 
-    const p2, 0x7f0b204f
+    sget p2, Lcom/resouce/module/ResID;->phone_home_toolbar_top_shadow:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -391,7 +391,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0704fd
+    sget v1, Lcom/resouce/module/ResDIMEN;->ovs_home_side_bottom_bar_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -500,7 +500,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1223ce
+    sget v0, Lcom/resouce/module/ResSTRING;->public_label_home:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1337,7 +1337,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0704fd
+    sget v0, Lcom/resouce/module/ResDIMEN;->ovs_home_side_bottom_bar_width:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

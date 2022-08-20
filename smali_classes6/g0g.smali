@@ -97,7 +97,7 @@
     .line 8
     iput-object p4, p0, Lg0g;->e:Landroid/view/View;
 
-    const p2, 0x7f0b0620
+    sget p2, Lcom/resouce/module/ResID;->datePicker:I
 
     .line 9
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object p2, p0, Lg0g;->f:Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/DatePicker;
 
-    const p2, 0x7f0b2f8f
+    sget p2, Lcom/resouce/module/ResID;->timePicker:I
 
     .line 10
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object p2, p0, Lg0g;->g:Lcn/wps/moffice/spreadsheet/control/editor/inputview/date/TimePicker;
 
-    const p2, 0x7f0b305f
+    sget p2, Lcom/resouce/module/ResID;->topLayerDateTxt:I
 
     .line 11
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     iput-object p2, p0, Lg0g;->s:Landroid/widget/TextView;
 
-    const p2, 0x7f0b3060
+    sget p2, Lcom/resouce/module/ResID;->topLayerTimeTxt:I
 
     .line 12
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     iput-object p2, p0, Lg0g;->t:Landroid/widget/TextView;
 
-    const p2, 0x7f0b305d
+    sget p2, Lcom/resouce/module/ResID;->topDivider:I
 
     .line 13
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object p2, p0, Lg0g;->u:Landroid/view/View;
 
-    const p2, 0x7f0b0241
+    sget p2, Lcom/resouce/module/ResID;->bottomDivider:I
 
     .line 14
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     iput-object p2, p0, Lg0g;->v:Landroid/view/View;
 
-    const p2, 0x7f0b061f
+    sget p2, Lcom/resouce/module/ResID;->dateCheckboxWrapper:I
 
     .line 15
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object p2, p0, Lg0g;->i:Landroid/view/View;
 
-    const p2, 0x7f0b061e
+    sget p2, Lcom/resouce/module/ResID;->dateCheckbox:I
 
     .line 16
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object p2, p0, Lg0g;->h:Landroid/widget/CheckBox;
 
-    const p2, 0x7f0b2f8e
+    sget p2, Lcom/resouce/module/ResID;->timeCheckboxWrapper:I
 
     .line 17
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -188,7 +188,7 @@
 
     iput-object p2, p0, Lg0g;->k:Landroid/view/View;
 
-    const p2, 0x7f0b2f8d
+    sget p2, Lcom/resouce/module/ResID;->timeCheckbox:I
 
     .line 18
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -199,7 +199,7 @@
 
     iput-object p2, p0, Lg0g;->j:Landroid/widget/CheckBox;
 
-    const p2, 0x7f0b0417
+    sget p2, Lcom/resouce/module/ResID;->cleanBtn:I
 
     .line 19
     invoke-virtual {p4, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -215,7 +215,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f06025f
+    sget p3, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -228,7 +228,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06011e
+    sget p2, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -236,7 +236,7 @@
 
     iput p1, p0, Lg0g;->n:I
 
-    const p1, 0x7f0b0526
+    sget p1, Lcom/resouce/module/ResID;->confirmBtn:I
 
     .line 22
     invoke-virtual {p4, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -627,7 +627,7 @@
     .line 9
     iget-object p1, p0, Lg0g;->t:Landroid/widget/TextView;
 
-    const p2, 0x7f120834
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_now:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1533,14 +1533,14 @@
     .line 29
     iget-object v0, p0, Lg0g;->s:Landroid/widget/TextView;
 
-    const v2, 0x7f120838
+    sget v2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_today:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
     .line 30
     iget-object v0, p0, Lg0g;->t:Landroid/widget/TextView;
 
-    const v2, 0x7f120834
+    sget v2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_now:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1693,7 +1693,7 @@
     .line 5
     iget-object p1, p0, Lg0g;->s:Landroid/widget/TextView;
 
-    const p2, 0x7f120838
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_today:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1709,37 +1709,37 @@
     goto :goto_0
 
     :pswitch_0
-    const p2, 0x7f120835
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_saturday:I
 
     goto :goto_0
 
     :pswitch_1
-    const p2, 0x7f120832
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_friday:I
 
     goto :goto_0
 
     :pswitch_2
-    const p2, 0x7f120837
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_thursday:I
 
     goto :goto_0
 
     :pswitch_3
-    const p2, 0x7f12083a
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_wednesday:I
 
     goto :goto_0
 
     :pswitch_4
-    const p2, 0x7f120839
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_tuesday:I
 
     goto :goto_0
 
     :pswitch_5
-    const p2, 0x7f120833
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_monday:I
 
     goto :goto_0
 
     :pswitch_6
-    const p2, 0x7f120836
+    sget p2, Lcom/resouce/module/ResSTRING;->et_date_keyboard_sunday:I
 
     :goto_0
     if-eq p2, p1, :cond_1

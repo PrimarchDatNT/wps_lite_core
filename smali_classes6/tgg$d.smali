@@ -104,7 +104,7 @@
 
     iget-object v0, v0, Ltgg;->U:Landroid/content/Context;
 
-    const v1, 0x7f12259d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_file_failed:I
 
     const/4 v2, 0x0
 

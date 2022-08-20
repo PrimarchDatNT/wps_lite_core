@@ -75,7 +75,7 @@
 
     check-cast p0, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c7a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_news_threepic:I
 
     const/4 v1, 0x0
 
@@ -84,7 +84,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b1262
+    sget v0, Lcom/resouce/module/ResID;->image1:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -147,7 +147,7 @@
     :cond_2
     iget-object p2, p0, Lt09;->d:Landroid/content/Context;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -216,7 +216,7 @@
     .line 1
     iget-object v0, p0, Lt09;->d:Landroid/content/Context;
 
-    const v1, 0x7f12058e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_deleteRecord:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

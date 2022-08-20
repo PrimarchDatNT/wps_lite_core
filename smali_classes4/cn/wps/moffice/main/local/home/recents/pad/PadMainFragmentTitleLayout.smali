@@ -178,7 +178,7 @@
 .method public final a()V
     .locals 3
 
-    const v0, 0x7f0b1558
+    sget v0, Lcom/resouce/module/ResID;->layout_open_outer:I
 
     .line 1
     :try_start_0
@@ -188,7 +188,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->f0:Landroid/view/View;
 
-    const v1, 0x7f0b2f20
+    sget v1, Lcom/resouce/module/ResID;->text_open:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->l0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1c45
+    sget v1, Lcom/resouce/module/ResID;->pad_titlebar_multiselect_backbtn:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -913,7 +913,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->l0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1bc3
+    sget v2, Lcom/resouce/module/ResID;->pad_clean_multi_file:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -956,7 +956,7 @@
 
     if-nez v2, :cond_0
 
-    const v2, 0x7f0b1c36
+    sget v2, Lcom/resouce/module/ResID;->pad_search_container:I
 
     .line 9
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -965,7 +965,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->T:Landroid/view/View;
 
-    const v3, 0x7f0b1c38
+    sget v3, Lcom/resouce/module/ResID;->pad_search_img:I
 
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -988,7 +988,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->U:Landroid/view/View;
 
-    const v2, 0x7f0b1c39
+    sget v2, Lcom/resouce/module/ResID;->pad_search_img_wrap:I
 
     .line 13
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -997,7 +997,7 @@
 
     iput-object v2, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->g0:Landroid/view/View;
 
-    const v2, 0x7f0b1c3a
+    sget v2, Lcom/resouce/module/ResID;->pad_search_scan_img:I
 
     .line 14
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1006,7 +1006,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->V:Landroid/view/View;
 
-    const v1, 0x7f0b1c35
+    sget v1, Lcom/resouce/module/ResID;->pad_scan_big_img:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1015,7 +1015,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/local/home/recents/pad/PadMainFragmentTitleLayout;->W:Landroid/view/View;
 
-    const v1, 0x7f0b1c5d
+    sget v1, Lcom/resouce/module/ResID;->padding:I
 
     .line 16
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

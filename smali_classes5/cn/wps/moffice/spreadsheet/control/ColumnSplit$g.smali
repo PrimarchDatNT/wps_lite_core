@@ -60,7 +60,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const p1, 0x7f120c3b
+    sget p1, Lcom/resouce/module/ResSTRING;->et_split_success:I
 
     .line 2
     invoke-static {p1, v2}, Lsjf;->h(II)V
@@ -156,7 +156,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120c37
+    sget v4, Lcom/resouce/module/ResSTRING;->et_split_running:I
 
     new-instance v5, Lcn/wps/moffice/spreadsheet/control/ColumnSplit$g$a;
 

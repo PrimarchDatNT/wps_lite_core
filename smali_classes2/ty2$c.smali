@@ -39,14 +39,14 @@
     .line 1
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0603ac
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_thirdBackgroundColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->d(Landroid/view/View;IZ)V
 
     .line 2
     iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$a0;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2c35
+    sget v1, Lcom/resouce/module/ResID;->sku_blank_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -54,7 +54,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0603a4
+    sget v1, Lcom/resouce/module/ResCOLOR;->novel_subThirdBackgroundColor:I
 
     invoke-static {v0, v1, p1}, Lw1f;->e(Landroid/widget/ImageView;IZ)V
 

@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03e6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wpsdrive_item_create_compeny:I
 
     const/4 v2, 0x0
 
@@ -119,7 +119,7 @@
     .line 4
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b263b
+    sget p2, Lcom/resouce/module/ResID;->public_home_company_guide_top_divider:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

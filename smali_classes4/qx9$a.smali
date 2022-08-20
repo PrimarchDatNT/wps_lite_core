@@ -1123,7 +1123,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1229de
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_select_file:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1147,7 +1147,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1204aa
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

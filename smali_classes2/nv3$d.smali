@@ -84,7 +84,7 @@
     .line 4
     iget-object p1, p0, Lnv3$d;->B:Landroid/content/Context;
 
-    const v0, 0x7f122535
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e00af
+    sget v1, Lcom/resouce/module/ResLAYOUT;->comp_upload_panel_history_content:I
 
     const/4 v2, 0x0
 
@@ -147,7 +147,7 @@
 
     iput-object v1, p0, Lc25;->b:Lx15;
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

@@ -639,7 +639,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f130023
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
 
     .line 2
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I
@@ -705,7 +705,7 @@
     .line 3
     iget-object v0, p0, Ljl3;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f081175
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_back_white_icon:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -725,7 +725,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081fa6
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->webview_black_progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -989,7 +989,7 @@
     .line 1
     iget-object v0, p0, Ljl3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2567
+    sget v1, Lcom/resouce/module/ResID;->ptr_super_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1018,7 +1018,7 @@
     .line 4
     iget-object v0, p0, Ljl3;->B:Landroid/view/View;
 
-    const v1, 0x7f0b30dd
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1147,7 +1147,7 @@
 
     check-cast p1, Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0eb5
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_webview_dialog:I
 
     const/4 v1, 0x0
 
@@ -1158,7 +1158,7 @@
 
     iput-object p1, p0, Ljl3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b301a
+    sget v0, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1172,7 +1172,7 @@
     .line 5
     iget-object p1, p0, Ljl3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2567
+    sget v0, Lcom/resouce/module/ResID;->ptr_super_webview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1192,7 +1192,7 @@
     .line 7
     iget-object p1, p0, Ljl3;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3030
+    sget v0, Lcom/resouce/module/ResID;->titlebar_shadow:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

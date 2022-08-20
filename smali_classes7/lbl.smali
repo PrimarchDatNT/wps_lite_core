@@ -18,7 +18,7 @@
     .line 1
     invoke-direct {p0}, Loal;-><init>()V
 
-    const v0, 0x7f0e0a0f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_size_input:I
 
     const/4 v1, 0x0
 
@@ -29,7 +29,7 @@
 
     invoke-virtual {p0, v0}, Loal;->m2(Landroid/view/View;)V
 
-    const v0, 0x7f0b2c2c
+    sget v0, Lcom/resouce/module/ResID;->size_title:I
 
     .line 3
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Llbl;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2c27
+    sget v0, Lcom/resouce/module/ResID;->size_input:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;

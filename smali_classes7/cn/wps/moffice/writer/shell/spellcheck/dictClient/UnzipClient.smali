@@ -784,7 +784,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/spellcheck/dictClient/UnzipClient;->a:Landroid/content/Context;
 
-    const v3, 0x7f1200ad
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -926,7 +926,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12011c
+    sget v3, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1361,7 +1361,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0605f1
+    sget p2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1379,7 +1379,7 @@
 
     invoke-direct {p2, p0, p4}, Lcn/wps/moffice/writer/shell/spellcheck/dictClient/UnzipClient$j;-><init>(Lcn/wps/moffice/writer/shell/spellcheck/dictClient/UnzipClient;Ljava/lang/Runnable;)V
 
-    const p3, 0x7f121dbf
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 4
     invoke-virtual {p1, p3, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1401,7 +1401,7 @@
     .line 2
     iget-object v2, p0, Lcn/wps/moffice/writer/shell/spellcheck/dictClient/UnzipClient;->a:Landroid/content/Context;
 
-    const v0, 0x7f12341f
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_spellcheck_download_dict:I
 
     invoke-virtual {v2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1409,7 +1409,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/spellcheck/dictClient/UnzipClient;->a:Landroid/content/Context;
 
-    const v1, 0x7f12201b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

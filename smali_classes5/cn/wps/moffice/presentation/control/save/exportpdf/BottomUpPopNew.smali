@@ -249,7 +249,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f01008e
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_in:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -345,7 +345,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f010091
+    sget v1, Lcom/resouce/module/ResANIM;->push_bottom_out:I
 
     invoke-static {p1, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -447,11 +447,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0be1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_exportpdf_bottom_layout_en:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0c1c
+    sget v0, Lcom/resouce/module/ResID;->export_pdf_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -469,7 +469,7 @@
     .line 4
     iput-boolean v0, p0, Lcn/wps/moffice/presentation/control/save/exportpdf/BottomUpPopNew;->W:Z
 
-    const v1, 0x7f0b0c30
+    sget v1, Lcom/resouce/module/ResID;->exportpdf_bottom_panel_container:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -480,7 +480,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/save/exportpdf/BottomUpPopNew;->B:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2752
+    sget v1, Lcom/resouce/module/ResID;->public_togglebutton:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -507,13 +507,13 @@
 
     move-result v1
 
-    const v2, 0x7f0b165c
+    sget v2, Lcom/resouce/module/ResID;->ll_export_pdf_image_only_vip:I
 
     const/16 v3, 0x8
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b0c27
+    sget v1, Lcom/resouce/module/ResID;->export_pic_switch:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -534,7 +534,7 @@
     :goto_0
     invoke-virtual {v1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b3165
+    sget v0, Lcom/resouce/module/ResID;->tv_export_pdf_remove_wps_logo:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -550,7 +550,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b3164
+    sget v0, Lcom/resouce/module/ResID;->tv_export_pdf_basic:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -580,7 +580,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0b1450
+    sget v0, Lcom/resouce/module/ResID;->iv_export_pdf_remove_wps_logo:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -610,7 +610,7 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0b165e
+    sget v1, Lcom/resouce/module/ResID;->ll_export_pdf_top:I
 
     .line 19
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -635,7 +635,7 @@
 
     if-nez v1, :cond_2
 
-    const v1, 0x7f0b1451
+    sget v1, Lcom/resouce/module/ResID;->iv_export_to_pdf_vip:I
 
     .line 22
     invoke-virtual {p0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

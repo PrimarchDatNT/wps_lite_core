@@ -84,7 +84,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -218,7 +218,7 @@
     return-void
 
     :cond_1
-    const v0, 0x7f120cbd
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_notification_suc:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

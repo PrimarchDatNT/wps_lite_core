@@ -18,7 +18,7 @@
 .method public E2()V
     .locals 1
 
-    const v0, 0x7f0b219f
+    sget v0, Lcom/resouce/module/ResID;->phone_title_view_root:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

@@ -100,9 +100,9 @@
     .line 6
     new-instance v0, Lx9e$h;
 
-    const v1, 0x7f0803dd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_share_share:I
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-direct {v0, p0, v1, v2}, Lx9e$h;-><init>(Lx9e;II)V
 
@@ -814,7 +814,7 @@
     .line 2
     iget-object p1, p0, Lx9e;->X:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v1, 0x0
 
@@ -848,7 +848,7 @@
     .line 2
     iget-object p1, p0, Lx9e;->X:Lcn/wps/moffice/presentation/Presentation;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v0, 0x0
 
@@ -1069,12 +1069,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0803dd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_share_share:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080dad
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_share_share_ppt:I
 
     :goto_0
     return v0
@@ -1222,7 +1222,7 @@
 
     iget-object v5, p0, Lx9e;->W:[Z
 
-    const v3, 0x7f12298f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share_send:I
 
     move-object v0, v6
 
@@ -1245,7 +1245,7 @@
 
     move-result v1
 
-    const v2, 0x7f122950
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-direct {v0, p0, v1, v2}, Lx9e$i;-><init>(Lx9e;II)V
 

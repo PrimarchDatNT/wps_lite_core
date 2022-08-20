@@ -252,7 +252,7 @@
     :cond_2
     iget-object p1, p0, Lt44;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121484
+    sget v0, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v1, 0x0
 
@@ -353,7 +353,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b24fc
+    sget v5, Lcom/resouce/module/ResID;->preview_image:I
 
     .line 7
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -362,7 +362,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    const v6, 0x7f0b1988
+    sget v6, Lcom/resouce/module/ResID;->name:I
 
     .line 8
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -478,7 +478,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -587,12 +587,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f0e10a9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_infoflow_template_card:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e01fe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_infoflow_template_card:I
 
     :goto_0
     return v0

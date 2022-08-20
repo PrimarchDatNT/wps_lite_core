@@ -120,15 +120,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080466
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_pivottable:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e45
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_pivottable_et:I
 
     :goto_0
-    const v2, 0x7f120bc0
+    sget v2, Lcom/resouce/module/ResSTRING;->et_pivot_table:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$1;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -209,15 +209,15 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0802c3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_link:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f080c7e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_link_et:I
 
     :goto_1
-    const v2, 0x7f122334
+    sget v2, Lcom/resouce/module/ResSTRING;->public_hyperlink:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$2;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -270,15 +270,15 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f0802d6
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_textbox:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080c95
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_textbox_et:I
 
     :goto_2
-    const v2, 0x7f122abb
+    sget v2, Lcom/resouce/module/ResSTRING;->public_textBox:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$8;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -291,7 +291,7 @@
 
     move-result v1
 
-    const v2, 0x7f120762
+    sget v2, Lcom/resouce/module/ResSTRING;->et_cell_pic:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$21;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -304,7 +304,7 @@
 
     move-result v1
 
-    const v2, 0x7f120c06
+    sget v2, Lcom/resouce/module/ResSTRING;->et_scan_code_input:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$24;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -814,7 +814,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e058a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_menu_popup_list_item:I
 
     const/4 v2, 0x0
 
@@ -867,7 +867,7 @@
     invoke-virtual {v1, p2}, Lwhf;->Z(Lwhf$a;)Z
 
     :cond_1
-    const v1, 0x7f0b2278
+    sget v1, Lcom/resouce/module/ResID;->popup_list_item_text:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -883,7 +883,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
-    const v1, 0x7f0b2277
+    sget v1, Lcom/resouce/module/ResID;->popup_list_item_image:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1047,12 +1047,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802bd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_chart:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c74
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_chart:I
 
     :goto_0
     return v0
@@ -1066,12 +1066,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08042e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_cell_picture:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080de5
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_cell_picture_et:I
 
     :goto_0
     return v0
@@ -1085,12 +1085,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f08044a
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_floating_picture:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080e0d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_floating_picture_et:I
 
     :goto_0
     return v0
@@ -1104,12 +1104,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0810b6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_home_drawer_icon_scan_qrcode:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080d7c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_ppt_sacn_to_play_et:I
 
     :goto_0
     return v0
@@ -1123,12 +1123,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0802d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_shape:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080c90
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_shape_et:I
 
     :goto_0
     return v0
@@ -1144,7 +1144,7 @@
 
     move-result v1
 
-    const v2, 0x7f121dce
+    sget v2, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$14;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -1227,7 +1227,7 @@
 
     iget-object v5, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->a0:[I
 
-    const v4, 0x7f121dce
+    sget v4, Lcom/resouce/module/ResSTRING;->public_chart:I
 
     move-object v1, v0
 
@@ -1266,15 +1266,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080e2e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_icon_et:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0802c0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_icon_library:I
 
     :goto_0
-    const v2, 0x7f1219f7
+    sget v2, Lcom/resouce/module/ResSTRING;->pic_store_insert_icons:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$18;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -1324,7 +1324,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1376,7 +1376,7 @@
 
     move-result v0
 
-    const v1, 0x7f1208a7
+    sget v1, Lcom/resouce/module/ResSTRING;->et_floating_pic:I
 
     if-eqz v0, :cond_0
 
@@ -1415,7 +1415,7 @@
 
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const v2, 0x7f120763
+    sget v2, Lcom/resouce/module/ResSTRING;->et_cell_pic_ext_str:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1436,7 +1436,7 @@
 
     move-result v1
 
-    const v2, 0x7f1208a7
+    sget v2, Lcom/resouce/module/ResSTRING;->et_floating_pic:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$15;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -1445,9 +1445,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$ToolbarItemInsertPicGroup;
 
-    const v1, 0x7f080c88
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_pic_et:I
 
-    const v2, 0x7f12264f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$ToolbarItemInsertPicGroup;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -1466,7 +1466,7 @@
 
     move-result v1
 
-    const v2, 0x7f122946
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$12;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II)V
 
@@ -1487,7 +1487,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->b0:[I
 
-    const v3, 0x7f122946
+    sget v3, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-direct {v0, p0, v1, v3, v2}, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$11;-><init>(Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;II[I)V
 
@@ -1846,7 +1846,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const p2, 0x7f120c08
+    sget p2, Lcom/resouce/module/ResSTRING;->et_scan_fail:I
 
     const/4 v0, 0x0
 
@@ -1893,7 +1893,7 @@
 
     if-eqz v0, :cond_1
 
-    const p1, 0x7f12074e
+    sget p1, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     const/4 v0, 0x1
 
@@ -2007,7 +2007,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const v3, 0x7f13012d
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v1, v2, v3}, Lrdg;-><init>(Landroid/content/Context;I)V
 
@@ -2752,7 +2752,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const v2, 0x7f122552
+    sget v2, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2970,21 +2970,21 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120b7d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_insert_cell_pic:I
 
     .line 8
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f120b7e
+    sget v1, Lcom/resouce/module/ResSTRING;->et_insert_cell_pic_dialog_msg:I
 
     .line 9
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object v0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$e;
 
@@ -2995,7 +2995,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121f40
+    sget v1, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     new-instance v2, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter$d;
 
@@ -3117,7 +3117,7 @@
     .line 9
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const v3, 0x7f120c07
+    sget v3, Lcom/resouce/module/ResSTRING;->et_scan_code_tips:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3135,7 +3135,7 @@
     .line 11
     iget-object v1, p0, Lcn/wps/moffice/spreadsheet/control/insert/NewInserter;->W:Landroid/content/Context;
 
-    const v2, 0x7f120c06
+    sget v2, Lcom/resouce/module/ResSTRING;->et_scan_code_input:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

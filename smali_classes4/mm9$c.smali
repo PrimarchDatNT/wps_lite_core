@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0703ae
+    sget p2, Lcom/resouce/module/ResDIMEN;->home_theme_item_padding:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -72,7 +72,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e03ba
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_theme_gridview_item:I
 
     const/4 v1, 0x0
 

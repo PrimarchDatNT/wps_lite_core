@@ -45,7 +45,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0430
+    sget v0, Lcom/resouce/module/ResLAYOUT;->kmui_internal_switch_compat:I
 
     const/4 v1, 0x1
 
@@ -53,7 +53,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b14f0
+    sget v0, Lcom/resouce/module/ResID;->k_internal_switch_compat:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

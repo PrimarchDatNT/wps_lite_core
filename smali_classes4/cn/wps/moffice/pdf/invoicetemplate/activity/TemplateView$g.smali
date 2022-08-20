@@ -453,7 +453,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e019f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_template_preview_thumbnail_layout:I
 
     const/4 v2, 0x0
 
@@ -512,7 +512,7 @@
 
     check-cast v0, Lcom/bumptech/glide/RequestBuilder;
 
-    const v1, 0x7f0805e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_template_net_default:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;

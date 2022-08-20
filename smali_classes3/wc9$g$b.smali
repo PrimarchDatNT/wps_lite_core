@@ -110,7 +110,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f121f54
+    sget v0, Lcom/resouce/module/ResSTRING;->public_contact_member_receive:I
 
     const/4 v1, 0x1
 

@@ -71,7 +71,7 @@
 
     iget-object v2, v2, Lyff;->a:Landroid/content/Context;
 
-    const v3, 0x7f122950
+    sget v3, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -119,7 +119,7 @@
 
     iget-object p1, p1, Lyff;->a:Landroid/content/Context;
 
-    const v0, 0x7f12205a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_error:I
 
     const/4 v1, 0x0
 

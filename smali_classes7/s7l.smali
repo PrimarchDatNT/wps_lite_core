@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3520
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_inkgroup:I
 
     invoke-virtual {v0, v1}, Lxyl;->m(I)Landroid/view/View;
 
@@ -61,7 +61,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b3517
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_highlight_image:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -220,7 +220,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b351c
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_ink_pen_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

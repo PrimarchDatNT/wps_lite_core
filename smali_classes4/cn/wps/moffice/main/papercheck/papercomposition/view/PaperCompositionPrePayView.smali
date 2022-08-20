@@ -115,11 +115,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d5e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_paper_composition_prepay_page:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1caf
+    sget v0, Lcom/resouce/module/ResID;->paper_prepay_name:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b1cb0
+    sget v1, Lcom/resouce/module/ResID;->paper_prepay_pages:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b1cb1
+    sget v2, Lcom/resouce/module/ResID;->paper_prepay_single_price:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b2faf
+    sget v3, Lcom/resouce/module/ResID;->tips_1:I
 
     .line 8
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f1200ea
+    sget v8, Lcom/resouce/module/ResSTRING;->app_paper_composition_prepay_tips_1:I
 
     const/4 v9, 0x2
 
@@ -216,7 +216,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v3, 0x7f0b1cb3
+    sget v3, Lcom/resouce/module/ResID;->paper_prepay_tips_wait_text:I
 
     .line 12
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionPrePayView;->S:Landroid/widget/TextView;
 
-    const v3, 0x7f0b040b
+    sget v3, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 13
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -236,7 +236,7 @@
 
     iput-object v3, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionPrePayView;->T:Landroid/view/View;
 
-    const v3, 0x7f0b24b6
+    sget v3, Lcom/resouce/module/ResID;->pre_pay_vip_tips_layout:I
 
     .line 14
     invoke-virtual {p0, v3}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -274,14 +274,14 @@
     .line 19
     invoke-virtual {v3}, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionVipTipsView;->c()V
 
-    const v4, 0x7f0b1d0b
+    sget v4, Lcom/resouce/module/ResID;->pay:I
 
     .line 20
     invoke-virtual {p0, v4}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
-    const v7, 0x7f0b24ec
+    sget v7, Lcom/resouce/module/ResID;->preview:I
 
     .line 21
     invoke-virtual {p0, v7}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -317,7 +317,7 @@
 
     aput-object v4, v3, v6
 
-    const v4, 0x7f1200b8
+    sget v4, Lcom/resouce/module/ResSTRING;->app_paper_composition_check_page_count:I
 
     invoke-virtual {p1, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -458,7 +458,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200c6
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_down:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

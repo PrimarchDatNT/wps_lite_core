@@ -88,7 +88,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0ecc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_writer_group_item:I
 
     iget-object v2, p0, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a;->I:Landroid/view/ViewGroup;
 
@@ -101,7 +101,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a$a;-><init>(Lcn/wps/moffice/writer/beans/GroupLinearLayout$a;)V
 
-    const v2, 0x7f0b277c
+    sget v2, Lcom/resouce/module/ResID;->public_writer_item:I
 
     .line 3
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     check-cast v2, Lcn/wps/moffice/common/beans/phone/SelectLinearLayout;
 
-    const v3, 0x7f0b277e
+    sget v3, Lcom/resouce/module/ResID;->public_writer_item_icon:I
 
     .line 4
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -121,7 +121,7 @@
 
     iput-object v3, v1, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a$a;->a:Landroid/widget/ImageView;
 
-    const v3, 0x7f0b2781
+    sget v3, Lcom/resouce/module/ResID;->public_writer_item_title:I
 
     .line 5
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     iput-object v3, v1, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a$a;->b:Landroid/widget/TextView;
 
-    const v3, 0x7f0b277d
+    sget v3, Lcom/resouce/module/ResID;->public_writer_item_divider:I
 
     .line 6
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     iput-object v3, v1, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a$a;->c:Landroid/view/View;
 
-    const v3, 0x7f0b277f
+    sget v3, Lcom/resouce/module/ResID;->public_writer_item_right_arrow:I
 
     .line 7
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     iput-object v3, v1, Lcn/wps/moffice/writer/beans/GroupLinearLayout$a$a;->d:Landroid/view/View;
 
-    const v3, 0x7f0b2780
+    sget v3, Lcom/resouce/module/ResID;->public_writer_item_right_checkbox:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->setId(I)V
 
-    const v4, 0x7f081f33
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_panel_item_selector:I
 
     .line 17
     invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V

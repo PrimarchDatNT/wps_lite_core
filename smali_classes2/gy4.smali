@@ -877,7 +877,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f122515
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -924,7 +924,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f122514
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -964,7 +964,7 @@
 
     move-result v4
 
-    const v6, 0x7f121b84
+    sget v6, Lcom/resouce/module/ResSTRING;->ppt_new_document_name:I
 
     if-eqz v4, :cond_3
 
@@ -1063,7 +1063,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f120b9f
+    sget v4, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -3350,7 +3350,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3475,7 +3475,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f121e21
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cloud_async_closed:I
 
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4755,7 +4755,7 @@
 
     if-eqz v0, :cond_2
 
-    const p1, 0x7f120618
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc_upload_forbid_0kb:I
 
     .line 13
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

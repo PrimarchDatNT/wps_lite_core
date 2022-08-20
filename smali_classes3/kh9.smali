@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0445
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_dialog_new_file_open_guide:I
 
     const/4 v2, 0x0
 
@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b13fb
+    sget v1, Lcom/resouce/module/ResID;->ivDocuIcon:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b30e8
+    sget v2, Lcom/resouce/module/ResID;->tvDocTitle:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b30e7
+    sget v3, Lcom/resouce/module/ResID;->tvDocSubTitle:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b30f2    # 1.8501683E38f
+    sget v4, Lcom/resouce/module/ResID;->tvNotNow:I    # 1.8501683E38f
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b30f3
+    sget v5, Lcom/resouce/module/ResID;->tvOpenDocument:I
 
     .line 6
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;

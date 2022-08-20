@@ -99,12 +99,12 @@
 .method public init()V
     .locals 3
 
-    const v0, 0x7f12281f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v1, 0x7f122827
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save_file_tips:I
 
     .line 2
     invoke-virtual {p0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -112,7 +112,7 @@
     .line 3
     iget-object v1, p0, Lcdc;->S:Landroid/content/DialogInterface$OnClickListener;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

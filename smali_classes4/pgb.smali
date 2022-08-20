@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122811
+    sget v1, Lcom/resouce/module/ResSTRING;->public_retrieve:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 .method public se()I
     .locals 1
 
-    const v0, 0x7f080802
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_browse_recycle:I
 
     return v0
 .end method

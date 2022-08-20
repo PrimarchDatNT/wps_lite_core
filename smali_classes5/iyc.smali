@@ -46,7 +46,7 @@
     .line 5
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setInterruptTouchEvent(Z)V
 
-    const v0, 0x7f122836
+    sget v0, Lcom/resouce/module/ResSTRING;->public_saving:I
 
     .line 6
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CustomProgressBar;->setProgerssInfoText(I)V

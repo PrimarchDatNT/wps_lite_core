@@ -65,7 +65,7 @@
 .method public final d()I
     .locals 1
 
-    const v0, 0x7f0e009a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->collection_app_widget_provider_layout:I
 
     return v0
 .end method
@@ -181,15 +181,15 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x7f0b00a0
+    sget v6, Lcom/resouce/module/ResID;->add_app_widget_btn:I
 
-    const v7, 0x7f0b2552
+    sget v7, Lcom/resouce/module/ResID;->progress_widget:I
 
-    const v8, 0x7f0b00a1
+    sget v8, Lcom/resouce/module/ResID;->add_app_widget_iv:I
 
     if-eqz v4, :cond_0
 
-    const v1, 0x7f121e18
+    sget v1, Lcom/resouce/module/ResSTRING;->public_clipboard_collecting:I
 
     .line 7
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -234,7 +234,7 @@
     .line 12
     invoke-virtual {v0, v7, v4}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v1, 0x7f123078
+    sget v1, Lcom/resouce/module/ResSTRING;->template_favored:I
 
     .line 13
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -252,7 +252,7 @@
     :cond_1
     invoke-virtual {v0, v7, v4}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v2, 0x7f122a9a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_template_mine_collection:I
 
     .line 16
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -314,7 +314,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b287e
+    sget v2, Lcom/resouce/module/ResID;->refresh_app_widget_iv:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -368,7 +368,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b338c
+    sget v2, Lcom/resouce/module/ResID;->view_all_app_widget_iv:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
@@ -413,7 +413,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b043d
+    sget v2, Lcom/resouce/module/ResID;->clipboard_text:I
 
     if-nez v1, :cond_0
 
@@ -423,7 +423,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121e1a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_clipboard_is_empty:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

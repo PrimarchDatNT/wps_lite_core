@@ -191,7 +191,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08173f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_bluetooth:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -356,7 +356,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08173f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_bluetooth:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -444,7 +444,7 @@
     .line 1
     iget-object v0, p0, Lyff;->a:Landroid/content/Context;
 
-    const v1, 0x7f123409
+    sget v1, Lcom/resouce/module/ResSTRING;->writer_share_sms:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -457,7 +457,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081748
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -533,7 +533,7 @@
     :cond_0
     iget-object v1, p0, Lyff;->a:Landroid/content/Context;
 
-    const v2, 0x7f1229a8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_share_to_youdao_note:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -546,7 +546,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081752
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_youdao:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -666,7 +666,7 @@
     .line 1
     iget-object v0, p0, Lyff;->a:Landroid/content/Context;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -693,7 +693,7 @@
     .line 1
     iget-object v0, p0, Lyff;->a:Landroid/content/Context;
 
-    const v1, 0x7f12295d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_dropbox_copy_link_lable:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -706,7 +706,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081743
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_copylink:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

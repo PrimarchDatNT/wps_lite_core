@@ -74,7 +74,7 @@
     .line 1
     iget-object p2, p0, Lvt4;->I:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0825
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_premium_quick_pay_horizontal_item:I
 
     const/4 v1, 0x0
 
@@ -84,7 +84,7 @@
 
     check-cast p2, Landroid/widget/LinearLayout;
 
-    const p3, 0x7f0b2525
+    sget p3, Lcom/resouce/module/ResID;->privilege_contain_first:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0b2526
+    sget v3, Lcom/resouce/module/ResID;->privilege_contain_second:I
 
     if-ne v0, p3, :cond_0
 
@@ -211,7 +211,7 @@
     .line 13
     invoke-virtual {p3, v4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p3, 0x7f0b2527
+    sget p3, Lcom/resouce/module/ResID;->privilege_contain_third:I
 
     .line 14
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

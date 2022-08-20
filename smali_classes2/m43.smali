@@ -472,7 +472,7 @@
     :goto_1
     if-eqz p1, :cond_2
 
-    const v2, 0x7f08162c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     .line 5
     invoke-virtual {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;->setSubExtIconRes(I)V
@@ -543,7 +543,7 @@
 
     invoke-direct {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/DriveFileInfoV3Ctime;-><init>(Lc0q;)V
 
-    const v2, 0x7f08162c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     .line 5
     invoke-virtual {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;->setSubExtIconRes(I)V
@@ -655,7 +655,7 @@
 
     if-eqz p1, :cond_2
 
-    const v2, 0x7f08162c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     .line 6
     invoke-virtual {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;->setSubExtIconRes(I)V
@@ -730,7 +730,7 @@
 
     invoke-virtual {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/DriveShareLinkFile;->setSpecialDesc(Ljava/lang/String;)V
 
-    const v2, 0x7f08162c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_team:I
 
     .line 6
     invoke-virtual {v3, v2}, Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;->setSubExtIconRes(I)V

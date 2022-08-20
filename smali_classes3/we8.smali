@@ -173,7 +173,7 @@
     .line 1
     iget-object v0, p0, Lwe8;->a:Landroid/content/Context;
 
-    const v1, 0x7f12057e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_clearallhistory:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -182,7 +182,7 @@
 
     iget-object v2, p0, Lwe8;->a:Landroid/content/Context;
 
-    const v3, 0x7f12057f
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_clearallhistory_confirm_text:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -191,7 +191,7 @@
 
     iget-object v3, p0, Lwe8;->a:Landroid/content/Context;
 
-    const v4, 0x7f120f23
+    sget v4, Lcom/resouce/module/ResSTRING;->home_history_record_clear:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -265,7 +265,7 @@
     .line 2
     iget-object v0, p0, Lwe8;->a:Landroid/content/Context;
 
-    const v1, 0x7f1206b2
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_tips_delete_title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -274,7 +274,7 @@
 
     iget-object v2, p0, Lwe8;->a:Landroid/content/Context;
 
-    const v3, 0x7f1206b3
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_tips_deleting:I
 
     .line 4
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

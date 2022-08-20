@@ -58,7 +58,7 @@
 .method public T2()I
     .locals 1
 
-    const v0, 0x7f0e0a4c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->plugin_about_phone_gdpr_use_legal_provision_layout:I
 
     return v0
 .end method
@@ -93,7 +93,7 @@
 
     iput-object v0, p0, Lm9d;->B:Landroid/view/View;
 
-    const v1, 0x7f0b061a
+    sget v1, Lcom/resouce/module/ResID;->data_collection_setting_txt:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
     .line 5
     iget-object v0, p0, Lm9d;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0064
+    sget v1, Lcom/resouce/module/ResID;->account_setting_txt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -132,7 +132,7 @@
     .line 7
     iget-object v0, p0, Lm9d;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0089
+    sget v1, Lcom/resouce/module/ResID;->ad_data_setting_txt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122224
+    sget v0, Lcom/resouce/module/ResSTRING;->public_gdpr_user_policy_setting_tips:I
 
     return v0
 .end method

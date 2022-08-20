@@ -397,7 +397,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12203b
+    sget v3, Lcom/resouce/module/ResSTRING;->public_drop_box_login_success_dialog:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -408,7 +408,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/core/service/internal/loginbind/DropboxLoginBind;->c:Lhd3;
 
-    const v2, 0x7f122ba9
+    sget v2, Lcom/resouce/module/ResSTRING;->public_view:I
 
     iget-object v3, p0, Lcc8;->b:Landroid/app/Activity;
 
@@ -416,7 +416,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f06000c
+    sget v4, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -431,7 +431,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/core/service/internal/loginbind/DropboxLoginBind;->c:Lhd3;
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lcn/wps/moffice/main/cloud/storage/core/service/internal/loginbind/DropboxLoginBind$c;
 

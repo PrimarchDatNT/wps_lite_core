@@ -216,7 +216,7 @@
     :cond_1
     and-int/lit8 v0, p1, 0x8
 
-    const v1, 0x7f1203d3
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_cancel_selected:I
 
     const/4 v2, 0x1
 
@@ -262,7 +262,7 @@
     :goto_0
     and-int/lit8 v0, p1, 0x10
 
-    const v3, 0x7f1228d7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     if-eqz v0, :cond_4
 
@@ -295,7 +295,7 @@
     .line 13
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v5, 0x7f1204aa
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_selected_num:I
 
     new-array v6, v2, [Ljava/lang/Object;
 
@@ -444,7 +444,7 @@
     .line 27
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122385
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -538,7 +538,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0700f8
+    sget v5, Lcom/resouce/module/ResDIMEN;->doc_scan_detail_grid_view_padding_bottom:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -671,7 +671,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f01002e
+    sget v1, Lcom/resouce/module/ResANIM;->doc_scan_bottom_bar_dismiss:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -708,7 +708,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f01002e
+    sget v1, Lcom/resouce/module/ResANIM;->doc_scan_bottom_bar_dismiss:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -752,7 +752,7 @@
 
     iget-object v1, p0, Lh0b;->t0:Landroid/view/View$OnClickListener;
 
-    const v2, 0x7f1228d7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_selectAll:I
 
     invoke-virtual {v0, v2, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setNeedSecondText(ILandroid/view/View$OnClickListener;)V
 
@@ -828,7 +828,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1227f7
+    sget v3, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -845,7 +845,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f1228d8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_selectText:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1018,12 +1018,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0030
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_pad_group_detail:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e002d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_doc_scan_group_detail:I
 
     :goto_0
     const/4 v2, 0x0
@@ -1034,7 +1034,7 @@
 
     iput-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2534
+    sget v1, Lcom/resouce/module/ResID;->progress:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1046,7 +1046,7 @@
     .line 5
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1105,7 +1105,7 @@
     .line 10
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b163d
+    sget v1, Lcom/resouce/module/ResID;->ll_add_scan:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1116,7 +1116,7 @@
     .line 11
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b16e1
+    sget v1, Lcom/resouce/module/ResID;->ll_share:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1127,7 +1127,7 @@
     .line 12
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b16d7
+    sget v1, Lcom/resouce/module/ResID;->ll_save_as_album:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1138,7 +1138,7 @@
     .line 13
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b165a
+    sget v1, Lcom/resouce/module/ResID;->ll_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1149,7 +1149,7 @@
     .line 14
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b164f
+    sget v1, Lcom/resouce/module/ResID;->ll_convert_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1160,7 +1160,7 @@
     .line 15
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0f93
+    sget v1, Lcom/resouce/module/ResID;->gv_doc_scan_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1173,7 +1173,7 @@
     .line 16
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1679
+    sget v1, Lcom/resouce/module/ResID;->ll_group_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1184,7 +1184,7 @@
     .line 17
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1652
+    sget v1, Lcom/resouce/module/ResID;->ll_delete:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1195,7 +1195,7 @@
     .line 18
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1696
+    sget v1, Lcom/resouce/module/ResID;->ll_insert_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1206,7 +1206,7 @@
     .line 19
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b16e5
+    sget v1, Lcom/resouce/module/ResID;->ll_splicing:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1217,7 +1217,7 @@
     .line 20
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b31b6
+    sget v1, Lcom/resouce/module/ResID;->tv_insert:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1230,7 +1230,7 @@
     .line 21
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3224
+    sget v1, Lcom/resouce/module/ResID;->tv_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1243,7 +1243,7 @@
     .line 22
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2950
+    sget v1, Lcom/resouce/module/ResID;->rl_group_empty:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1254,7 +1254,7 @@
     .line 23
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2972
+    sget v1, Lcom/resouce/module/ResID;->rl_to_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1265,7 +1265,7 @@
     .line 24
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b296f
+    sget v1, Lcom/resouce/module/ResID;->rl_to_et:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1276,7 +1276,7 @@
     .line 25
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0577
+    sget v1, Lcom/resouce/module/ResID;->convert_to_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1287,7 +1287,7 @@
     .line 26
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2971
+    sget v1, Lcom/resouce/module/ResID;->rl_to_pdf:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1298,7 +1298,7 @@
     .line 27
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2cdb
+    sget v1, Lcom/resouce/module/ResID;->srl_doc_scan_detail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1651,7 +1651,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f01002d
+    sget v1, Lcom/resouce/module/ResANIM;->doc_scan_bottom_bar_appear:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1691,11 +1691,11 @@
 
     invoke-direct {v1, p0, p1}, Lh0b$b;-><init>(Lh0b;Ljava/util/List;)V
 
-    const p1, 0x7f1203e8
+    sget p1, Lcom/resouce/module/ResSTRING;->doc_scan_delete_picture_tip:I
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-static {v0, p1, v2, v3, v1}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
 
@@ -1761,7 +1761,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f01002d
+    sget v1, Lcom/resouce/module/ResANIM;->doc_scan_bottom_bar_appear:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1835,7 +1835,7 @@
     .line 1
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f1227f7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rename:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2009,7 +2009,7 @@
     :goto_2
     iget-object p1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f12044f
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_default_tip:I
 
     const/4 v1, 0x1
 
@@ -2125,7 +2125,7 @@
     .line 4
     iget-object v0, p0, Lh0b;->S:Landroid/view/View;
 
-    const v1, 0x7f0b3163
+    sget v1, Lcom/resouce/module/ResID;->tv_export:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2136,7 +2136,7 @@
     .line 5
     iget-object v2, p0, Lh0b;->S:Landroid/view/View;
 
-    const v4, 0x7f0b144c
+    sget v4, Lcom/resouce/module/ResID;->iv_export:I
 
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2153,12 +2153,12 @@
 
     if-eqz v5, :cond_3
 
-    const v5, 0x7f120400
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_export_to_ppt:I
 
     .line 7
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080511
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->doc_scan_export_to_ppt:I
 
     .line 8
     invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -2175,12 +2175,12 @@
 
     if-eqz v5, :cond_4
 
-    const v5, 0x7f1203ff
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_export_to_pdf:I
 
     .line 10
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f081e32
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->splicing_tab_export_to_pdf:I
 
     .line 11
     invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -2188,12 +2188,12 @@
     goto :goto_2
 
     :cond_4
-    const v5, 0x7f1203fd
+    sget v5, Lcom/resouce/module/ResSTRING;->doc_scan_export_document:I
 
     .line 12
     invoke-virtual {v0, v5}, Landroid/widget/TextView;->setText(I)V
 
-    const v0, 0x7f080510
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->doc_scan_export:I
 
     .line 13
     invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -2204,21 +2204,21 @@
 
     move-result v0
 
-    const v2, 0x7f0b2f39
+    sget v2, Lcom/resouce/module/ResID;->text_splicing:I
 
-    const v5, 0x7f0b3242
+    sget v5, Lcom/resouce/module/ResID;->tv_save:I
 
-    const v6, 0x7f0b3258
+    sget v6, Lcom/resouce/module/ResID;->tv_share:I
 
-    const v7, 0x7f0b313e
+    sget v7, Lcom/resouce/module/ResID;->tv_delete:I
 
-    const v8, 0x7f0b129e
+    sget v8, Lcom/resouce/module/ResID;->image_splicing:I
 
-    const v9, 0x7f0b14ba
+    sget v9, Lcom/resouce/module/ResID;->iv_save:I
 
-    const v10, 0x7f0b14c4
+    sget v10, Lcom/resouce/module/ResID;->iv_share:I
 
-    const v11, 0x7f0b143a
+    sget v11, Lcom/resouce/module/ResID;->iv_delete:I
 
     if-eqz v0, :cond_5
 
@@ -2491,21 +2491,21 @@
 
     move-result v0
 
-    const v1, 0x7f0b313b
+    sget v1, Lcom/resouce/module/ResID;->tv_convert_to_ppt:I
 
-    const v2, 0x7f0b313c
+    sget v2, Lcom/resouce/module/ResID;->tv_convert_to_text:I
 
-    const v3, 0x7f0b3138
+    sget v3, Lcom/resouce/module/ResID;->tv_convert_to_et:I
 
-    const v4, 0x7f0b313a
+    sget v4, Lcom/resouce/module/ResID;->tv_convert_to_pdf:I
 
-    const v5, 0x7f0b1434
+    sget v5, Lcom/resouce/module/ResID;->iv_convert_to_ppt:I
 
-    const v6, 0x7f0b1435
+    sget v6, Lcom/resouce/module/ResID;->iv_convert_to_text:I
 
-    const v7, 0x7f0b1431
+    sget v7, Lcom/resouce/module/ResID;->iv_convert_to_et:I
 
-    const v8, 0x7f0b1433
+    sget v8, Lcom/resouce/module/ResID;->iv_convert_to_pdf:I
 
     const/4 v9, 0x0
 

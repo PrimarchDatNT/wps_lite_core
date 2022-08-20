@@ -260,7 +260,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1a50
+    sget v2, Lcom/resouce/module/ResID;->normal_layout:I
 
     .line 2
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b1f42
+    sget v3, Lcom/resouce/module/ResID;->pdf_titlebar:I
 
     .line 3
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     iget-object v3, p0, Lkdc;->S:Landroid/view/View;
 
-    const v4, 0x7f0b1f37
+    sget v4, Lcom/resouce/module/ResID;->pdf_small_titlebar:I
 
     .line 4
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2991
+    sget v1, Lcom/resouce/module/ResID;->rom_layout_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -332,7 +332,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b298d
+    sget v2, Lcom/resouce/module/ResID;->rom_layout:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -341,7 +341,7 @@
 
     iget-object v2, p0, Lkdc;->S:Landroid/view/View;
 
-    const v3, 0x7f0b301a
+    sget v3, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 5
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -350,7 +350,7 @@
 
     iget-object v3, p0, Lkdc;->S:Landroid/view/View;
 
-    const v4, 0x7f0b2c53
+    sget v4, Lcom/resouce/module/ResID;->small_titlebar:I
 
     .line 6
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -541,7 +541,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2c53
+    sget v1, Lcom/resouce/module/ResID;->small_titlebar:I
 
     goto :goto_0
 
@@ -550,7 +550,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1f37
+    sget v1, Lcom/resouce/module/ResID;->pdf_small_titlebar:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1453,7 +1453,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e10d1
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_qing_uploading_tip:I
 
     new-instance v3, Landroid/widget/LinearLayout;
 
@@ -1480,7 +1480,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121709
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_verifying:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1502,7 +1502,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1216f6
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_ok:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1524,7 +1524,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1216f5
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_no:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1546,7 +1546,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1216f3
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_error:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2159,7 +2159,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e067f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdfnew_titlebar_phone:I
 
     return v0
 .end method

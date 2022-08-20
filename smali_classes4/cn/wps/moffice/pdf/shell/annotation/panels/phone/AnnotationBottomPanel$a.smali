@@ -34,7 +34,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1d9f
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_more_insert:I
 
     if-ne p1, v0, :cond_0
 

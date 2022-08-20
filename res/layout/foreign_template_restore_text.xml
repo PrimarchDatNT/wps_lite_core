@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/restore_previous_purchase" android:background="@drawable/phone_public_list_transparent_selector" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="14.0dip" android:text="@string/public_purchase_restore"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

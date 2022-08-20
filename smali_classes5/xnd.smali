@@ -77,7 +77,7 @@
 .method public getPageTitleId()I
     .locals 1
 
-    const v0, 0x7f121b1a
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_anim_tran:I
 
     return v0
 .end method

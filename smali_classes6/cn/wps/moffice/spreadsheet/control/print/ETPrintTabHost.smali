@@ -39,7 +39,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0152
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_et_print_tabhost:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -53,7 +53,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->I:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e022f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_print_tabhost:I
 
     invoke-virtual {v0, v2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081acb
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_phone_redeem_points:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

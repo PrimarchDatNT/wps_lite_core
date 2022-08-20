@@ -62,7 +62,7 @@
     .line 1
     invoke-static {p1}, Lah5;->b(Z)V
 
-    const p1, 0x7f121fc9
+    sget p1, Lcom/resouce/module/ResSTRING;->public_develop_tip:I
 
     const/4 v0, 0x0
 

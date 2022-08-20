@@ -72,7 +72,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e0064
+    sget p3, Lcom/resouce/module/ResLAYOUT;->ad_close_popup_window:I
 
     const/4 p4, 0x0
 
@@ -117,7 +117,7 @@
     .line 14
     invoke-virtual {p0, p0}, Landroid/widget/PopupWindow;->setOnDismissListener(Landroid/widget/PopupWindow$OnDismissListener;)V
 
-    const p3, 0x7f0b164b
+    sget p3, Lcom/resouce/module/ResID;->ll_complaint:I
 
     .line 15
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 16
     invoke-virtual {p3, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b0dbc
+    sget p3, Lcom/resouce/module/ResID;->fl_items:I
 
     .line 17
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
     .line 18
     invoke-virtual {p0, p1}, Lzt6;->c(Landroid/content/Context;)V
 
-    const p3, 0x7f0b015e
+    sget p3, Lcom/resouce/module/ResID;->arrow_up:I
 
     .line 19
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     move-result-object p4
 
-    const p5, 0x7f0605ee
+    sget p5, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {p4, p5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -165,7 +165,7 @@
 
     invoke-virtual {p3, p4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const p3, 0x7f0b0159
+    sget p3, Lcom/resouce/module/ResID;->arrow_down:I
 
     .line 21
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -595,7 +595,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0065
+    sget v3, Lcom/resouce/module/ResLAYOUT;->ad_close_popup_window_item:I
 
     iget-object v4, p0, Lzt6;->B:Lcn/wps/moffice/main/local/filebrowser/search/common/FlowLayout;
 
@@ -730,7 +730,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b164b
+    sget v1, Lcom/resouce/module/ResID;->ll_complaint:I
 
     if-ne v0, v1, :cond_0
 

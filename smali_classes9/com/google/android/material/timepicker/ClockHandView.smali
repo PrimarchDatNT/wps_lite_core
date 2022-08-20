@@ -78,7 +78,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0403e0
+    sget v0, Lcom/resouce/module/ResATTR;->materialClockStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/timepicker/ClockHandView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -120,7 +120,7 @@
     .line 7
     sget-object v1, Lcn/wps/moffice_eng/R$styleable;->ClockHandView:[I
 
-    const v2, 0x7f1303cb
+    sget v2, Lcom/resouce/module/ResSTYLE;->Widget.MaterialComponents.TimePicker.Clock:I
 
     .line 8
     invoke-virtual {p1, p2, v1, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
@@ -152,7 +152,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0703e3
+    sget v4, Lcom/resouce/module/ResDIMEN;->material_clock_hand_stroke_width:I
 
     .line 12
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -161,7 +161,7 @@
 
     iput v4, p0, Lcom/google/android/material/timepicker/ClockHandView;->e0:I
 
-    const v4, 0x7f0703e1
+    sget v4, Lcom/resouce/module/ResDIMEN;->material_clock_hand_center_dot_radius:I
 
     .line 13
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

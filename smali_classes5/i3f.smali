@@ -241,7 +241,7 @@
     :cond_1
     iget-object v0, p0, Li3f;->B:Landroid/content/Context;
 
-    const v2, 0x7f122d12
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_novel_recommend_remove_tip:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
     .line 4
     iget-object v0, p0, Li3f;->B:Landroid/content/Context;
 
-    const v2, 0x7f122c0b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_withhold:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -259,7 +259,7 @@
     .line 5
     iget-object v0, p0, Li3f;->B:Landroid/content/Context;
 
-    const v2, 0x7f122c82
+    sget v2, Lcom/resouce/module/ResSTRING;->public_yes:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -233,7 +233,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121cf9
+    sget v3, Lcom/resouce/module/ResSTRING;->public_add_cloudstorage:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12054f
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_add_storage:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -575,14 +575,14 @@
     .line 3
     new-instance v1, Lcn/wps/moffice/main/cloud/storage/model/CSConfig;
 
-    const v2, 0x7f12022f
+    sget v2, Lcom/resouce/module/ResSTRING;->boxnet:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v15
 
-    const v2, 0x7f120230
+    sget v2, Lcom/resouce/module/ResSTRING;->boxneturl:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -607,14 +607,14 @@
     .line 5
     new-instance v2, Lcn/wps/moffice/main/cloud/storage/model/CSConfig;
 
-    const v3, 0x7f12344b
+    sget v3, Lcom/resouce/module/ResSTRING;->yandex:I
 
     .line 6
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v25
 
-    const v3, 0x7f12344c
+    sget v3, Lcom/resouce/module/ResSTRING;->yandexurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -16,7 +16,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0a22
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_text_color_more_layout:I
 
     const/4 v1, 0x0
 
@@ -26,12 +26,12 @@
 
     if-eqz p3, :cond_0
 
-    const v0, 0x7f1221b6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_highlight:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1221b4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_font_color:I
 
     :goto_0
     const/4 v1, 0x0

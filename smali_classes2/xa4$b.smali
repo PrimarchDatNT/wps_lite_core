@@ -144,7 +144,7 @@
     :goto_0
     iget-object v0, p0, Lxa4$b;->I:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1, v3}, Lbih;->n(Landroid/content/Context;II)V
 

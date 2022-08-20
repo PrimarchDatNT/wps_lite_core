@@ -472,7 +472,7 @@
 .method public static f(Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;Z)V
     .locals 4
 
-    const v0, 0x7f0b2e74
+    sget v0, Lcom/resouce/module/ResID;->tag_is_star:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->getTag(I)Ljava/lang/Object;
@@ -544,18 +544,18 @@
 .method public static h(Landroid/widget/ImageView;ZZ)V
     .locals 1
 
-    const v0, 0x7f0b2e74
+    sget v0, Lcom/resouce/module/ResID;->tag_is_star:I
 
     if-eqz p1, :cond_1
 
     if-eqz p2, :cond_0
 
-    const p1, 0x7f08179e
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_thumbnail_file_status_star_selected:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f08162b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star_selected:I
 
     .line 1
     :goto_0
@@ -571,12 +571,12 @@
     :cond_1
     if-eqz p2, :cond_2
 
-    const p1, 0x7f08179d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_thumbnail_file_status_star_normal:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f081628
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_file_status_star:I
 
     .line 3
     :goto_1
@@ -594,7 +594,7 @@
 .method public static i(Lcn/wps/moffice/main/cloud/drive/view/animstar/AnimStarView;Z)V
     .locals 2
 
-    const v0, 0x7f0b2e74
+    sget v0, Lcom/resouce/module/ResID;->tag_is_star:I
 
     if-eqz p1, :cond_0
 

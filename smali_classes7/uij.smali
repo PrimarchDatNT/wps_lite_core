@@ -37,7 +37,7 @@
     .line 2
     iput-object p2, p0, Luij;->e0:Luij$g;
 
-    const p1, 0x7f0b0cec
+    sget p1, Lcom/resouce/module/ResID;->file_path:I
 
     .line 3
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -53,7 +53,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f0b1cec
+    sget p1, Lcom/resouce/module/ResID;->passwd_input:I
 
     .line 5
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f12237f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_inputPasswd:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    const p1, 0x7f0b06b5
+    sget p1, Lcom/resouce/module/ResID;->display_check:I
 
     .line 10
     invoke-virtual {p0, p1}, Lozl;->Z0(I)Landroid/view/View;
@@ -344,12 +344,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e09ca
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_writer_decrypt_input_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e107f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_decrypt_input_dialog:I
 
     :goto_0
     const/4 v2, 0x0
@@ -370,7 +370,7 @@
     .line 4
     invoke-virtual {v1, v0}, Lhd3;->setView(Landroid/view/View;)Lhd3;
 
-    const v0, 0x7f121faf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_decryptDocument:I
 
     .line 5
     invoke-virtual {v1, v0}, Lhd3;->setTitleById(I)Lhd3;
@@ -400,7 +400,7 @@
     .line 10
     iput-boolean v3, p0, Luij;->f0:Z
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 11
     new-instance v2, Luij$c;
@@ -409,7 +409,7 @@
 
     invoke-virtual {v1, v0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 12
     new-instance v2, Luij$d;
@@ -478,7 +478,7 @@
 
     invoke-static {v0}, Lej3;->a(Landroid/widget/EditText;)Z
 
-    const v0, 0x7f0b1350
+    sget v0, Lcom/resouce/module/ResID;->input_wrong_text:I
 
     .line 3
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;
@@ -492,7 +492,7 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b3653
+    sget v0, Lcom/resouce/module/ResID;->writer_progressbar:I
 
     .line 5
     invoke-virtual {p0, v0}, Lozl;->Z0(I)Landroid/view/View;

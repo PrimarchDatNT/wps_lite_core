@@ -497,7 +497,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e07b0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_titlebar_layout:I
 
     return v0
 .end method
@@ -555,7 +555,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dcb
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_ok:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -564,7 +564,7 @@
     .line 5
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dc6
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_insert:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -580,7 +580,7 @@
     .line 7
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dce
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_save:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -591,7 +591,7 @@
     .line 8
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dee
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_undo:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -602,7 +602,7 @@
     .line 9
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b1dcd
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_redo:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -646,7 +646,7 @@
     .line 15
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1dcc
+    sget v1, Lcom/resouce/module/ResID;->pdf_edit_panel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

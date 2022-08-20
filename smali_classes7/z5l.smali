@@ -30,7 +30,7 @@
 
     invoke-direct {v0}, Llgl;-><init>()V
 
-    const v1, 0x7f0b1bcc
+    sget v1, Lcom/resouce/module/ResID;->pad_draw_wrap_embedded:I
 
     const-string v2, "wrap-style-inline"
 
@@ -41,7 +41,7 @@
 
     invoke-direct {v0}, Lngl;-><init>()V
 
-    const v1, 0x7f0b1bcf
+    sget v1, Lcom/resouce/module/ResID;->pad_draw_wrap_up_down:I
 
     const-string v2, "wrap-style-topbottom"
 
@@ -52,7 +52,7 @@
 
     invoke-direct {v0}, Lmgl;-><init>()V
 
-    const v1, 0x7f0b1bcd
+    sget v1, Lcom/resouce/module/ResID;->pad_draw_wrap_surround:I
 
     const-string v2, "wrap-style-square"
 
@@ -63,7 +63,7 @@
 
     invoke-direct {v0}, Lkgl;-><init>()V
 
-    const v1, 0x7f0b1bcb    # 1.84907E38f
+    sget v1, Lcom/resouce/module/ResID;->pad_draw_wrap_above_character:I    # 1.84907E38f
 
     const-string v2, "wrap-style-topoftext"
 
@@ -74,7 +74,7 @@
 
     invoke-direct {v0}, Ljgl;-><init>()V
 
-    const v1, 0x7f0b1bce
+    sget v1, Lcom/resouce/module/ResID;->pad_draw_wrap_under_character:I
 
     const-string v2, "wrap-style-bottomoftext"
 
@@ -94,7 +94,7 @@
 .method public final n2()Landroid/view/View;
     .locals 2
 
-    const v0, 0x7f0e1064
+    sget v0, Lcom/resouce/module/ResLAYOUT;->write_drawtool_wrap_popupwindow_layout:I
 
     const/4 v1, 0x0
 

@@ -268,7 +268,7 @@
     .line 15
     sget-boolean v2, Ljif;->o:Z
 
-    const v3, 0x7f081e4b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ss_numberpicker_selection_divider:I
 
     if-eqz v2, :cond_0
 
@@ -288,7 +288,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060624
+    sget v4, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -317,7 +317,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060002
+    sget v4, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -417,7 +417,7 @@
 
     check-cast v3, Landroid/view/LayoutInflater;
 
-    const v4, 0x7f0e0952
+    sget v4, Lcom/resouce/module/ResLAYOUT;->phone_ss_datavalidation_number_picker:I
 
     .line 33
     invoke-virtual {v3, v4, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -432,7 +432,7 @@
 
     invoke-direct {v4, p0}, Lcn/wps/moffice/spreadsheet/control/data_validation/NumberPicker$c;-><init>(Lcn/wps/moffice/spreadsheet/control/data_validation/NumberPicker;)V
 
-    const v5, 0x7f0b0ad8
+    sget v5, Lcom/resouce/module/ResID;->et_numberpicker_increment:I
 
     .line 36
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -449,7 +449,7 @@
     .line 38
     invoke-virtual {v5, v4}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v5, 0x7f0b0ad7
+    sget v5, Lcom/resouce/module/ResID;->et_numberpicker_decrement:I
 
     .line 39
     invoke-virtual {p0, v5}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
     .line 41
     invoke-virtual {v5, v4}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v3, 0x7f0b0ad9
+    sget v3, Lcom/resouce/module/ResID;->et_numberpicker_input:I
 
     .line 42
     invoke-virtual {p0, v3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -2359,7 +2359,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060626
+    sget v5, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -52,19 +52,19 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080491
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
-    const v3, 0x7f080491
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_tool_merge_doc:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080e91
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_merge_doc_ppt:I
 
-    const v3, 0x7f080e91
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->pad_comp_tool_merge_doc_ppt:I
 
     :goto_0
-    const v4, 0x7f122c12
+    sget v4, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     move-object v1, v0
 
@@ -246,7 +246,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f1220f0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 3
     invoke-static {p0, p1, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -318,7 +318,7 @@
     return p1
 
     :cond_1
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 5
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -418,7 +418,7 @@
 
     move-result v0
 
-    const v1, 0x7f122b46
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     const/4 v2, 0x0
 

@@ -47,9 +47,9 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/main/framework/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f010093
+    sget p1, Lcom/resouce/module/ResANIM;->push_left_in:I
 
-    const v0, 0x7f010094
+    sget v0, Lcom/resouce/module/ResANIM;->push_left_out:I
 
     .line 2
     invoke-virtual {p0, p1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V

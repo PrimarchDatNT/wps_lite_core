@@ -132,7 +132,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0400a9
+    sget v0, Lcom/resouce/module/ResATTR;->bottomAppBarStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/bottomappbar/BottomAppBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -319,7 +319,7 @@
 
     move-result-object v0
 
-    const v7, 0x7f07042b
+    sget v7, Lcom/resouce/module/ResDIMEN;->mtrl_bottomappbar_fabOffsetEndMode:I
 
     invoke-virtual {v0, v7}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 

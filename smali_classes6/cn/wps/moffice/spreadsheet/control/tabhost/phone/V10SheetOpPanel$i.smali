@@ -115,7 +115,7 @@
 
     move-result p1
 
-    const v3, 0x7f080242
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->comp_common_revision_reject:I
 
     if-ne p1, v3, :cond_3
 

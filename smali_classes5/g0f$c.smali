@@ -112,12 +112,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f122cba
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_add_collect_success:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f122d95
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_remove_collect_success:I
 
     :goto_0
     invoke-interface {p1, v0}, Lfu2;->u(I)V

@@ -81,12 +81,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e0539
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pad_home_common_bottom_tips_dialog:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e02f0
+    sget p2, Lcom/resouce/module/ResLAYOUT;->home_common_bottom_tips_dialog:I
 
     .line 8
     :goto_0
@@ -100,7 +100,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 9
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lora;->S:Landroid/widget/TextView;
 
-    const v0, 0x7f0b031a
+    sget v0, Lcom/resouce/module/ResID;->button:I
 
     .line 10
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p3, 0x7f0b2fb8
+    sget p3, Lcom/resouce/module/ResID;->tips_content:I
 
     .line 12
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     iput-object p3, p0, Lora;->B:Landroid/widget/PopupWindow;
 
-    const v0, 0x7f1307bf
+    sget v0, Lcom/resouce/module/ResSTYLE;->v10_popup_tips_animation:I
 
     .line 15
     invoke-virtual {p3, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V

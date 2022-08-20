@@ -195,7 +195,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f120753
+    sget v1, Lcom/resouce/module/ResSTRING;->et_cardmode:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -204,7 +204,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08095f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cardmode_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -213,7 +213,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08095e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cardmode_dark:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -252,7 +252,7 @@
     .line 1
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f120d5a
+    sget v1, Lcom/resouce/module/ResSTRING;->filter:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -261,7 +261,7 @@
     .line 2
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080964
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_filter_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -270,7 +270,7 @@
     .line 3
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080962
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_filter_dark:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -279,7 +279,7 @@
     .line 4
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080965
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_filter_light_seleced:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -288,7 +288,7 @@
     .line 5
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080963
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_filter_dark_selected:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -347,7 +347,7 @@
     .line 1
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f1208b9
+    sget v1, Lcom/resouce/module/ResSTRING;->et_freez:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -356,7 +356,7 @@
     .line 2
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08096c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_freezer_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -365,7 +365,7 @@
     .line 3
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08096a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_freezer_dark:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -374,7 +374,7 @@
     .line 4
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08096d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_freezer_light_selected:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -383,7 +383,7 @@
     .line 5
     iget-object v0, v15, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f08096b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_freezer_dark_selected:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -440,7 +440,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f122a05
+    sget v1, Lcom/resouce/module/ResSTRING;->public_sort:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -449,7 +449,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080979
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_sorter_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -458,7 +458,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080978
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_sorter_dark:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1188,7 +1188,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f1213b5
+    sget v1, Lcom/resouce/module/ResSTRING;->mi_func_extract_sheet:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1197,7 +1197,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080985
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_exact_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1206,7 +1206,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/mipreview/mibottom/MiBottomToolBar;->B:Landroid/content/Context;
 
-    const v1, 0x7f080984
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_exact_dark:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

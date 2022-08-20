@@ -315,7 +315,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121153
+    sget v2, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122395
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_collaborators_after_check:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -548,7 +548,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    const p3, 0x7f0e0b50
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_cloud_share_folder_contacts_layout:I
 
     const/4 v0, 0x0
 
@@ -557,7 +557,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b049b
+    sget p2, Lcom/resouce/module/ResID;->collaborator_list:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -568,7 +568,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/InviteCollaboratorsFragment;->B:Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView;
 
-    const p2, 0x7f0b1371
+    sget p2, Lcom/resouce/module/ResID;->invite_collaborator_titlebar_layout:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/InviteCollaboratorsFragment;->I:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const p2, 0x7f0b06fc
+    sget p2, Lcom/resouce/module/ResID;->do_invite:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -590,7 +590,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/InviteCollaboratorsFragment;->S:Landroid/widget/TextView;
 
-    const p2, 0x7f0b06fd
+    sget p2, Lcom/resouce/module/ResID;->do_not_invite:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -599,7 +599,7 @@
 
     iput-object p2, p0, Lcn/wps/moffice/share/groupshare/createfolder/fragment/InviteCollaboratorsFragment;->T:Landroid/view/View;
 
-    const p2, 0x7f0b2df6
+    sget p2, Lcom/resouce/module/ResID;->swipe_refresh_layout:I
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

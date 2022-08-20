@@ -54,13 +54,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0daf
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_composition_pre_read:I
 
     invoke-static {p1, v0, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b1ca7
+    sget v0, Lcom/resouce/module/ResID;->paper_image_list:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
     .line 4
     invoke-virtual {p1, v0}, Landroid/widget/ListView;->setOverScrollMode(I)V
 
-    const p1, 0x7f0b040b
+    sget p1, Lcom/resouce/module/ResID;->circle_progressBar:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b24b8
+    sget p1, Lcom/resouce/module/ResID;->pre_read_vip_tips_layout:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView$e;-><init>(Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionImageView;)V
 
-    const p2, 0x7f0b24b7
+    sget p2, Lcom/resouce/module/ResID;->pre_read_download:I
 
     .line 17
     invoke-virtual {p0, p2}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -354,7 +354,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200ee
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_preview:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

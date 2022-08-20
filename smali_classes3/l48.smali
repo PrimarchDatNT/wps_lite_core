@@ -53,7 +53,7 @@
 
     const/16 v2, 0x41
 
-    const v3, 0x7f121d8c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_has_pwd:I
 
     if-ne v1, v2, :cond_0
 
@@ -123,7 +123,7 @@
 
     const/16 v2, 0x41
 
-    const v3, 0x7f121d8c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_batch_slim_checking_error_has_pwd:I
 
     if-ne v1, v2, :cond_0
 

@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0eb4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_webview_base_errorpage:I
 
     const/4 v1, 0x0
 
@@ -178,7 +178,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3429
+    sget v0, Lcom/resouce/module/ResID;->webview_error_retry:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b342a
+    sget v0, Lcom/resouce/module/ResID;->webview_error_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b27a2
+    sget v0, Lcom/resouce/module/ResID;->question_tip:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -218,7 +218,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b0c91
+    sget v0, Lcom/resouce/module/ResID;->feed_back_tip:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -231,7 +231,7 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b273e
+    sget v0, Lcom/resouce/module/ResID;->public_start_email:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -244,7 +244,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b3428
+    sget v0, Lcom/resouce/module/ResID;->webview_error_img:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -257,7 +257,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->I:Landroid/view/View;
 
-    const v0, 0x7f0b08bb
+    sget v0, Lcom/resouce/module/ResID;->error_page_send_email:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

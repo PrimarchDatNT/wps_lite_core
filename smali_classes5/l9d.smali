@@ -35,12 +35,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f121343    # 1.941673E38f
+    sget v1, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_zh:I    # 1.941673E38f
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121342
+    sget v1, Lcom/resouce/module/ResSTRING;->law_info_privacy_polity_en:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d9d
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_facebook_privacy_policy:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d9e
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_google_privacy_policy:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120d9f
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_mopub_privacy_policy:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -213,7 +213,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f07062e
+    sget v3, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

@@ -199,15 +199,15 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f0b2441
+    sget v3, Lcom/resouce/module/ResID;->ppt_table_border_and_color_tab:I
 
-    const v4, 0x7f0b2446
+    sget v4, Lcom/resouce/module/ResID;->ppt_table_style_tab:I
 
-    const v5, 0x7f0b243c
+    sget v5, Lcom/resouce/module/ResID;->ppt_table_attribute_style_tab:I
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b243e
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_tabs_content:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -216,7 +216,7 @@
 
     iput-object v1, p0, Laee;->U:Landroid/view/View;
 
-    const v1, 0x7f0b243a
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_pad_content:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v1, p0, Laee;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2435
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_back:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -234,7 +234,7 @@
 
     iput-object v1, p0, Laee;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2437
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_close:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v1, p0, Laee;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2436
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_attribute_border_tab:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -292,7 +292,7 @@
 
     if-nez v1, :cond_0
 
-    const v1, 0x7f0e0adc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_table_style_pad:I
 
     .line 12
     iget-object v3, p0, Laee;->c0:Landroid/widget/LinearLayout;
@@ -320,7 +320,7 @@
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b2442
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_content_anchor:I
 
     .line 15
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -329,7 +329,7 @@
 
     iput-object v1, p0, Laee;->V:Landroid/view/View;
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     .line 16
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     iput-object v1, p0, Laee;->W:Landroid/view/View;
 
-    const v1, 0x7f0b2fde
+    sget v1, Lcom/resouce/module/ResID;->title_bar_close:I
 
     .line 17
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -376,7 +376,7 @@
 
     check-cast p1, Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0e0adb
+    sget p1, Lcom/resouce/module/ResLAYOUT;->ppt_table_style:I
 
     .line 21
     iget-object v1, p0, Laee;->c0:Landroid/widget/LinearLayout;

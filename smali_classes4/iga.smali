@@ -637,7 +637,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f080f27
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_cloud:I
 
     return v0
 

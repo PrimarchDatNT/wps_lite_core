@@ -635,7 +635,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d02
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_multifile_merge_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -792,7 +792,7 @@
     .line 10
     iget-object v0, p0, Lek8;->S:Lhd3;
 
-    const v1, 0x7f120d47
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_file_edit_can_save:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -804,7 +804,7 @@
     .line 12
     iget-object v0, p0, Lek8;->S:Lhd3;
 
-    const v1, 0x7f122b45
+    sget v1, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     new-instance v2, Lek8$g;
 
@@ -815,7 +815,7 @@
     .line 13
     iget-object v0, p0, Lek8;->S:Lhd3;
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     new-instance v2, Lek8$h;
 
@@ -1151,7 +1151,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120d51
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_unselect_file:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1235,7 +1235,7 @@
     :cond_1
     iget-object v0, p0, Lek8;->c0:Lcn/wps/moffice/main/fileselect/multiselect/view/listview/MergeFileDragSortListView;
 
-    const v1, 0x7f0b1541
+    sget v1, Lcom/resouce/module/ResID;->layout_drag:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/DragSortListView;->setDragHandleId(I)V
 
@@ -1331,7 +1331,7 @@
     .line 1
     iget-object v0, p0, Lek8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b25da
+    sget v1, Lcom/resouce/module/ResID;->public_file_not_found_tips_no_found:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1386,7 +1386,7 @@
     .line 6
     iget-object v0, p0, Lek8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b3462
+    sget v1, Lcom/resouce/module/ResID;->word_merge_sort_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1399,7 +1399,7 @@
     .line 7
     iget-object v0, p0, Lek8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b187a
+    sget v1, Lcom/resouce/module/ResID;->merge_files_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1412,7 +1412,7 @@
     .line 8
     iget-object v0, p0, Lek8;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2688
+    sget v1, Lcom/resouce/module/ResID;->public_merge_doc_tool_tips_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1420,7 +1420,7 @@
 
     iput-object v0, p0, Lek8;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b3054
+    sget v1, Lcom/resouce/module/ResID;->tool_title_ll:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1441,7 +1441,7 @@
     .line 11
     iget-object v0, p0, Lek8;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b0cb5
+    sget v1, Lcom/resouce/module/ResID;->file_doc_num:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1454,7 +1454,7 @@
     .line 12
     iget-object v0, p0, Lek8;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b3053
+    sget v1, Lcom/resouce/module/ResID;->tool_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1467,7 +1467,7 @@
     .line 13
     iget-object v0, p0, Lek8;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b12be    # 1.8486E38f
+    sget v1, Lcom/resouce/module/ResID;->img_merge_vip_icon:I    # 1.8486E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1737,7 +1737,7 @@
     .line 4
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f123039
+    sget v2, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1782,7 +1782,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1799,7 +1799,7 @@
     .line 4
     iget-object v0, p0, Lek8;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f120d44
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_file_delete_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1812,7 +1812,7 @@
     .line 1
     iget-object v0, p0, Lek8;->a0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f120d9a
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_eliminate:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setSecondText(I)V
 
@@ -1881,7 +1881,7 @@
     .line 10
     iget-object v0, p0, Lek8;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f1219b6
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_sheet_merge_word:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1891,7 +1891,7 @@
     :cond_1
     iget-object v0, p0, Lek8;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f120d46
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_file_drag_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

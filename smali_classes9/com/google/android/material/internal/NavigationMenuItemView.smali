@@ -125,7 +125,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e00d0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->design_navigation_menu_item:I
 
     const/4 v1, 0x1
 
@@ -136,7 +136,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0700b2
+    sget p3, Lcom/resouce/module/ResDIMEN;->design_navigation_icon_size:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -144,7 +144,7 @@
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/internal/NavigationMenuItemView;->setIconSize(I)V
 
-    const p1, 0x7f0b0667
+    sget p1, Lcom/resouce/module/ResID;->design_menu_item_text:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -178,7 +178,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b0666
+    sget v0, Lcom/resouce/module/ResID;->design_menu_item_action_area_stub:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -308,7 +308,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f040130
+    sget v2, Lcom/resouce/module/ResATTR;->colorControlHighlight:I
 
     const/4 v3, 0x1
 
@@ -712,7 +712,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f080aca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->navigation_empty_icon:I
 
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 

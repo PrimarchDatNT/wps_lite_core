@@ -280,14 +280,14 @@
 
     if-eq v0, v1, :cond_0
 
-    const v0, 0x7f1217be
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_edit_form_shrink:I
 
     const/16 v1, -0x3b8
 
     .line 2
     invoke-virtual {p1, v0, v1}, Lvg3$c;->b(II)Lvg3$c;
 
-    const v0, 0x7f121a9a
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_anim_effect_enter_zip:I
 
     const/16 v1, -0x3b9
 

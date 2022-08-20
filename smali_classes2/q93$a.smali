@@ -73,7 +73,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1777
+    sget v1, Lcom/resouce/module/ResID;->long_pic_item:I
 
     const-string v2, "exporttype"
 
@@ -130,7 +130,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1c71
+    sget v1, Lcom/resouce/module/ResID;->page_pic_item:I
 
     if-ne v0, v1, :cond_2
 
@@ -183,7 +183,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0357
+    sget v0, Lcom/resouce/module/ResID;->card_pic_item:I
 
     if-ne p1, v0, :cond_3
 

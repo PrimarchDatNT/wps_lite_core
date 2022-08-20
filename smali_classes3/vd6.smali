@@ -272,7 +272,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0171
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_new_use_head_view:I
 
     const/4 v2, 0x0
 
@@ -303,7 +303,7 @@
     .line 1
     iget-object v0, p0, Lvd6;->a:Landroid/view/View;
 
-    const v1, 0x7f0b3321
+    sget v1, Lcom/resouce/module/ResID;->use_head_gv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

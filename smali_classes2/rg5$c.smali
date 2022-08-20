@@ -39,7 +39,7 @@
     .line 3
     iput-object p1, p0, Lrg5$c;->a:Ljava/lang/String;
 
-    const p1, 0x7f0600ea
+    sget p1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 4
     iput p1, p0, Lrg5$c;->c:I
@@ -52,7 +52,7 @@
     .line 5
     iput-object p1, p0, Lrg5$c;->a:Ljava/lang/String;
 
-    const p1, 0x7f060141
+    sget p1, Lcom/resouce/module/ResCOLOR;->docerCollectedColor:I
 
     .line 6
     iput p1, p0, Lrg5$c;->c:I

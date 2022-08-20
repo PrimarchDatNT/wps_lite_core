@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0692
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_cloud_roaming_back_nav_tips_dialog:I
 
     const/4 v2, 0x0
 
@@ -149,7 +149,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -158,7 +158,7 @@
 
     check-cast v0, Lcn/wps/moffice/title/BusinessBaseTitle;
 
-    const v1, 0x7f12060c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_wpscloud_service:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
@@ -245,7 +245,7 @@
     .line 14
     iget-object v0, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->I:Landroid/view/View;
 
-    const v3, 0x7f0b2d9f    # 1.8499957E38f
+    sget v3, Lcom/resouce/module/ResID;->start_page_text_content_url:I    # 1.8499957E38f
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -265,7 +265,7 @@
     .line 16
     iget-object v0, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->I:Landroid/view/View;
 
-    const v3, 0x7f0b01bb
+    sget v3, Lcom/resouce/module/ResID;->back_cloud_uploaded_finish:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -283,7 +283,7 @@
     .line 18
     iget-object v0, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->I:Landroid/view/View;
 
-    const v3, 0x7f0b019b
+    sget v3, Lcom/resouce/module/ResID;->auto_back_sync_switch:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -366,7 +366,7 @@
 
     if-eqz v0, :cond_6
 
-    const v0, 0x7f121eaa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cloud_romaing_func_open:I
 
     .line 28
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -420,7 +420,7 @@
     .line 34
     iget-object v0, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0476
+    sget v1, Lcom/resouce/module/ResID;->cloud_roaming_back_nav_wps_syn_file_image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -440,7 +440,7 @@
     .line 36
     iget-object p1, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f080b4b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_cloud_roaming_back_nav_wps_syn_file_bg:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -450,7 +450,7 @@
     :cond_9
     iget-object p1, p0, Lcn/wps/moffice/common/qing/dialog/impl/CloudRoamingBackContentFragment;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f081061
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_cloud_roaming_back_nav_wps_syn_file_bg:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -486,13 +486,13 @@
 
     move-result p1
 
-    const v0, 0x7f081061
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_cloud_roaming_back_nav_wps_syn_file_bg:I
 
     if-eqz p1, :cond_3
 
     const/4 v1, 0x1
 
-    const v2, 0x7f080b4b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_cloud_roaming_back_nav_wps_syn_file_bg:I
 
     if-eq p1, v1, :cond_2
 

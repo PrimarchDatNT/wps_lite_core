@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0b26f1
+    sget v0, Lcom/resouce/module/ResID;->public_roaming_data_id:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

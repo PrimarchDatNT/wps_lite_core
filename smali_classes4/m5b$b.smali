@@ -68,7 +68,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1212bc
+    sget v4, Lcom/resouce/module/ResSTRING;->id_photo_oversea_third_part_url:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

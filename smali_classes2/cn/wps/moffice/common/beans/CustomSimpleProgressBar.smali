@@ -63,7 +63,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CustomSimpleProgressBar;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0e5c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_simple_progressbar_layout:I
 
     const/4 v2, 0x1
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b172d
+    sget v1, Lcom/resouce/module/ResID;->loading_progressbar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,12 +93,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0604ac
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_writer_io_porgressbar_color:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f060731
+    sget v1, Lcom/resouce/module/ResCOLOR;->writer_io_porgressbar_color:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/MaterialProgressBarHorizontal;->setProgressColor(I)V
@@ -216,12 +216,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f060434
+    sget p1, Lcom/resouce/module/ResCOLOR;->phone_pdf_io_porgressbar_color:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0603fd
+    sget p1, Lcom/resouce/module/ResCOLOR;->pdf_io_porgressbar_color:I
 
     .line 3
     :goto_0
@@ -251,12 +251,12 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f0604ac
+    sget p1, Lcom/resouce/module/ResCOLOR;->phone_writer_io_porgressbar_color:I
 
     goto :goto_1
 
     :cond_3
-    const p1, 0x7f060731
+    sget p1, Lcom/resouce/module/ResCOLOR;->writer_io_porgressbar_color:I
 
     .line 5
     :goto_1

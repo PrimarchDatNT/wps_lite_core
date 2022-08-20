@@ -172,7 +172,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/TemplateOnLineHomeForeignView;->mMainView:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -190,7 +190,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/TemplateOnLineHomeForeignView;->mMainView:Landroid/view/View;
 
-    const v2, 0x7f0b2566
+    sget v2, Lcom/resouce/module/ResID;->ptr_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -214,7 +214,7 @@
 
     iget-object v3, p0, Lcn/wps/moffice/foreigntemplate/mainview/TemplateOnLineHomeForeignView;->mListView:Lcn/wps/moffice/templatecommon/ext/widget/GridListView;
 
-    const v4, 0x7f0e0480
+    sget v4, Lcom/resouce/module/ResLAYOUT;->listview_loading_view:I
 
     invoke-virtual {v2, v4, v3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/mainview/TemplateOnLineHomeForeignView;->mMainView:Landroid/view/View;
 
-    const v2, 0x7f0b17ff
+    sget v2, Lcom/resouce/module/ResID;->main_no_network:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

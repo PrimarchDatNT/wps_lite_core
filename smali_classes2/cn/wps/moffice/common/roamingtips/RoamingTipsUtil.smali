@@ -270,7 +270,7 @@
 
     move-result v0
 
-    const v1, 0x7f122b7d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_uploadlimit_home_sub_tips1:I
 
     if-nez v0, :cond_2
 
@@ -329,7 +329,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122b7f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_uploadlimit_pt_tips:I
 
     const/4 v2, 0x1
 
@@ -395,7 +395,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121212
+    sget v1, Lcom/resouce/module/ResSTRING;->home_vip_max_support_365g_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222bf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_low_space_super_vip_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -539,7 +539,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121212
+    sget v2, Lcom/resouce/module/ResSTRING;->home_vip_max_support_365g_space:I
 
     const/4 v3, 0x1
 
@@ -566,7 +566,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1210f0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_cannot_upload_file_please_clean_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -643,7 +643,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f1210fa
+    sget v3, Lcom/resouce/module/ResSTRING;->home_public_vip_max_space_tip:I
 
     if-nez v0, :cond_2
 
@@ -718,7 +718,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1210f0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_cannot_upload_file_please_clean_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -768,7 +768,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f1210f7
+    sget v2, Lcom/resouce/module/ResSTRING;->home_public_not_support_oversize_x_file:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -794,7 +794,7 @@
 
     move-result-object p0
 
-    const v2, 0x7f1210f9
+    sget v2, Lcom/resouce/module/ResSTRING;->home_public_vip_can_upload_x_file:I
 
     new-array v1, v1, [Ljava/lang/Object;
 
@@ -1131,7 +1131,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f122318
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_upload_limit_common_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -1153,7 +1153,7 @@
 
     move-result-object p0
 
-    const v3, 0x7f122317
+    sget v3, Lcom/resouce/module/ResSTRING;->public_home_upload_limit_all_over_max_tips:I
 
     new-array v2, v2, [Ljava/lang/Object;
 
@@ -2833,7 +2833,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120eb0
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2960,7 +2960,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122547
+    sget v1, Lcom/resouce/module/ResSTRING;->public_nospace_home_sub_tips1:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3035,7 +3035,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120f13
+    sget v1, Lcom/resouce/module/ResSTRING;->home_fileradar_super_vip_space_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3053,7 +3053,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1210fa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_public_vip_max_space_tip:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3454,7 +3454,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120eb7
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_upload_dialog_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -4530,7 +4530,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1211bc
+    sget v1, Lcom/resouce/module/ResSTRING;->home_update_buy_membership:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6229,12 +6229,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f120f64
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_buy_describe_string:I
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f121c8e
+    sget v1, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -6254,7 +6254,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120e6d
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_update:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -6348,17 +6348,17 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f122534
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_net_tips:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f120d54
+    sget v0, Lcom/resouce/module/ResSTRING;->file_upload_network_error:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f122762
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_upload_tips:I
 
     return v0
 .end method

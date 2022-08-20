@@ -37,7 +37,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d93    # 1.8499933E38f
+    sget v0, Lcom/resouce/module/ResID;->start_operate_left:I    # 1.8499933E38f
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -48,7 +48,7 @@
 
     iput-object v0, p0, Lkde;->W:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2d94    # 1.8499935E38f
+    sget v0, Lcom/resouce/module/ResID;->start_operate_right:I    # 1.8499935E38f
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -62,14 +62,14 @@
     .line 4
     iget-object v0, p0, Lkde;->W:Landroid/widget/TextView;
 
-    const v1, 0x7f121c66
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_flow_horz:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
     .line 5
     iget-object v0, p0, Lkde;->X:Landroid/widget/TextView;
 
-    const v1, 0x7f121c65
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_text_flow_eavert:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

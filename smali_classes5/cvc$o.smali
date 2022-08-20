@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1216f5
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_no:I
 
     invoke-static {p1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -145,7 +145,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1216f3
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_error:I
 
     invoke-static {p1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -178,7 +178,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1216f7
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_noauthenticate:I
 
     invoke-static {p1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -218,7 +218,7 @@
 
     move-result-object p1
 
-    const v3, 0x7f1216f6
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_bestsign_file_authentication_ok:I
 
     invoke-static {p1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 

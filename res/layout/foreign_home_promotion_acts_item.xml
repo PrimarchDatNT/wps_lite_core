@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/home_settings_oversea_promotion_item_img_padding" android:paddingTop="16.0dip" android:paddingRight="@dimen/home_settings_oversea_promotion_item_img_padding" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/home_settings_oversea_promotion_item_img_padding" android:paddingEnd="@dimen/home_settings_oversea_promotion_item_img_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.RoundRectImageView android:id="@id/promotion_act_img" android:layout_width="fill_parent" android:layout_height="@dimen/home_settings_oversea_promotion_item_img_height" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/home_membership_gray_txt_color" android:id="@id/promotion_act_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/v10_phone_public_panel_tips_text_color" android:id="@id/promotion_act_expiration_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

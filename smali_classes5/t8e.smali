@@ -2477,7 +2477,7 @@
     .line 11
     iget-object p1, p0, Lt8e;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120689
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_sdcard_umount_saveDeny:I
 
     const/4 v1, 0x0
 

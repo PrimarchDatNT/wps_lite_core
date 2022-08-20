@@ -272,7 +272,7 @@
     :goto_0
     iget-object v0, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v2, 0x0
 
@@ -423,7 +423,7 @@
     :goto_0
     iget-object v0, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v2, 0x0
 
@@ -508,12 +508,12 @@
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setSoftInputMode(I)V
 
-    const v0, 0x7f0e0cab
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_layout_wps_drive_choose_folder_type_v2:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(I)V
 
-    const v0, 0x7f0b2a35
+    sget v0, Lcom/resouce/module/ResID;->scroll_container:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
     .line 4
     iget-object v1, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f12250f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_newFolder:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -533,7 +533,7 @@
 
     invoke-virtual {p0, v1}, Lyc3;->X2(Ljava/lang/String;)V
 
-    const v1, 0x7f0b1a09
+    sget v1, Lcom/resouce/module/ResID;->new_sharefolder_footer:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -544,7 +544,7 @@
 
     invoke-virtual {p0, p1, v1}, Lxk7;->m3(Landroid/app/Activity;Landroid/view/ViewGroup;)V
 
-    const v1, 0x7f0b1a0b
+    sget v1, Lcom/resouce/module/ResID;->new_sharefolder_list:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -555,7 +555,7 @@
 
     invoke-virtual {p0, p1, v1}, Lxk7;->n3(Landroid/app/Activity;Lcn/wps/moffice/common/beans/phone/recycleview/LoadingRecyclerView;)V
 
-    const v1, 0x7f0b1a0a
+    sget v1, Lcom/resouce/module/ResID;->new_sharefolder_header:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

@@ -25,7 +25,7 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
 
-    const v0, 0x7f130186
+    sget v0, Lcom/resouce/module/ResSTYLE;->MiUIDialog_bottom_panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -74,7 +74,7 @@
 
     iget-object v1, p0, Lkj4;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0cf7
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_miui_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -131,12 +131,12 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f080980
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_dark:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080981
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->icon_miui_dialog_background_light:I
 
     :goto_0
     const/4 v2, -0x1
@@ -177,12 +177,12 @@
 
     if-eqz v4, :cond_2
 
-    const v4, 0x7f08095a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_dark_bg:I
 
     goto :goto_2
 
     :cond_2
-    const v4, 0x7f08095c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_light_bg:I
 
     :goto_2
     invoke-virtual {v1, v4}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -366,7 +366,7 @@
     .line 1
     iget-object v0, p0, Lkj4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b18b4
+    sget v1, Lcom/resouce/module/ResID;->miui_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -379,7 +379,7 @@
     .line 2
     iget-object v0, p0, Lkj4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b18b5
+    sget v1, Lcom/resouce/module/ResID;->miui_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -395,7 +395,7 @@
     .line 4
     iget-object v0, p0, Lkj4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b06cb
+    sget v1, Lcom/resouce/module/ResID;->divide_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -406,7 +406,7 @@
     .line 5
     iget-object v0, p0, Lkj4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b18b3
+    sget v1, Lcom/resouce/module/ResID;->miui_background:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 6
     iget-object v0, p0, Lkj4;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b033b
+    sget v1, Lcom/resouce/module/ResID;->cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -466,12 +466,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f08095a
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_dark_bg:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f08095c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->icon_miui_bottom_cancel_btn_light_bg:I
 
     :goto_1
     invoke-virtual {v1, v2}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;

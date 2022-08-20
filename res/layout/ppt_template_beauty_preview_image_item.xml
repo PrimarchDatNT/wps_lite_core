@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/beauty_preview_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
-    <TextView android:textSize="9.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/beauty_preview_index_tv" android:background="@drawable/public_round_rect_gray_bg_8dp" android:layout_width="40.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip" />
-</FrameLayout>

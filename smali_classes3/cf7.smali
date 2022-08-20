@@ -62,7 +62,7 @@
 
     new-array p1, p1, [Ljava/lang/Object;
 
-    const p3, 0x7f1224e3
+    sget p3, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_copy_share_file_fail:I
 
     .line 1
     invoke-interface {p2, p3, p1}, Lff7;->K(I[Ljava/lang/Object;)Ljava/lang/String;

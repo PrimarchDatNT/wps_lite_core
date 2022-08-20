@@ -579,7 +579,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09a1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ss_tabshost:I
 
     const/4 v2, 0x1
 
@@ -587,7 +587,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0604
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_tablist:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -603,7 +603,7 @@
     .line 3
     invoke-virtual {v1, v2}, Lcn/wps/moffice/spreadsheet/control/tabhost/TabHostLinearLayout;->setDrawSpliter(Z)V
 
-    const v1, 0x7f0b0603
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_scrollview:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -614,7 +614,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/spreadsheet/control/tabhost/phone/PhoneTabsHost;->j0:Lcn/wps/moffice/spreadsheet/control/tabhost/phone/LockableScrollView;
 
-    const v1, 0x7f0b05fc
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_add:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -630,7 +630,7 @@
     .line 6
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f0b05fe
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_extract_sheet:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -642,7 +642,7 @@
     .line 8
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b05ff
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_merge_sheet:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -654,7 +654,7 @@
     .line 10
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b0600
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_show_hidden_sheet:I
 
     .line 11
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -666,7 +666,7 @@
     .line 12
     invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
-    const v1, 0x7f0b05fd
+    sget v1, Lcom/resouce/module/ResID;->custom_tabhost_acrollview_divider:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -30,15 +30,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0802ca
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_pic:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080c8a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_multimedia_pic_ppt:I
 
     :goto_0
-    const v2, 0x7f12264c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picfunc_item_text:I
 
     invoke-direct {v0, p0, v1, v2}, Lt9e$a;-><init>(Lt9e;II)V
 

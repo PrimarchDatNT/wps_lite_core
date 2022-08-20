@@ -38,7 +38,7 @@
 .method public onLongClick(Landroid/view/View;)Z
     .locals 7
 
-    const v0, 0x7f0b2e88
+    sget v0, Lcom/resouce/module/ResID;->tag_position:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

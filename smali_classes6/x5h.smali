@@ -37,7 +37,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2596
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_btn:I
 
     .line 2
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2136
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_celljump_edittextdropdown:I
 
     .line 2
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -94,7 +94,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2598
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_sprinner:I
 
     .line 1
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2597
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_edittext:I
 
     .line 2
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -210,7 +210,7 @@
         }
     .end annotation
 
-    const v0, 0x7f0b2598
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_sprinner:I
 
     .line 1
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -304,7 +304,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2597
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_edittext:I
 
     .line 2
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;
@@ -402,7 +402,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2135
+    sget v0, Lcom/resouce/module/ResID;->phone_ss_celljump_button:I
 
     .line 2
     invoke-virtual {p0, v0}, Lx5h;->a(I)Landroid/view/View;

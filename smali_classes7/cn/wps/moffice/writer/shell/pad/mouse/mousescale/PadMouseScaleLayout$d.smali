@@ -87,7 +87,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/writer/shell/pad/mouse/mousescale/PadMouseScaleLayout$d;->B:Landroid/view/View;
 
-    const v2, 0x7f0b360c
+    sget v2, Lcom/resouce/module/ResID;->writer_play_agora_microphone_layout:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

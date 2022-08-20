@@ -689,7 +689,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1219cc
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_writer_set_mobile_view_default_tips:I
 
     invoke-static {v2, v3, v4}, Lbih;->n(Landroid/content/Context;II)V
 

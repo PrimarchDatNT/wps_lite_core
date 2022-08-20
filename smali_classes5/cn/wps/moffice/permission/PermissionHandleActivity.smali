@@ -250,7 +250,7 @@
 
     invoke-direct {v0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f12221e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -278,7 +278,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12221f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_gdpr_permission_request_camera:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -288,7 +288,7 @@
     .line 5
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     new-instance v2, Lcn/wps/moffice/permission/PermissionHandleActivity$a;
@@ -297,7 +297,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 7
     new-instance v2, Lcn/wps/moffice/permission/PermissionHandleActivity$b;
@@ -377,7 +377,7 @@
 
     invoke-direct {p1, p0}, Lcn/wps/moffice/permission/PermissionHandleActivity$e;-><init>(Lcn/wps/moffice/permission/PermissionHandleActivity;)V
 
-    const p2, 0x7f122e64
+    sget p2, Lcom/resouce/module/ResSTRING;->retain_dialog_cancel:I
 
     invoke-virtual {v0, p2, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -750,7 +750,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12060b
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     .line 21
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -784,7 +784,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1227a3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_re_licensing:I
 
     .line 26
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

@@ -56,7 +56,7 @@
     .line 7
     new-instance p2, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;
 
-    const p3, 0x7f0b2310
+    sget p3, Lcom/resouce/module/ResID;->ppt_main_layout:I
 
     invoke-direct {p2, p1, p3}, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;-><init>(Landroid/app/Activity;I)V
 

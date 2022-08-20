@@ -154,7 +154,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e0c06
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_fontname_dialog:I
 
     const/4 v3, 0x1
 

@@ -90,7 +90,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f121135
+    sget v0, Lcom/resouce/module/ResSTRING;->home_scf_folder_from_frequently:I
 
     return v0
 .end method

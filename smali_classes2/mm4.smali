@@ -169,7 +169,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121d3e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_app_name:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -182,12 +182,12 @@
 
     if-lt v3, v4, :cond_0
 
-    const v4, 0x7f081a5d
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f081984
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     :goto_0
     const/4 v5, 0x1

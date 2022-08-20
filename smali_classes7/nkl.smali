@@ -131,7 +131,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Luzl;->m2(Landroid/view/View;)V
 
-    const p1, 0x7f0b35d9
+    sget p1, Lcom/resouce/module/ResID;->writer_maintoolbar:I
 
     .line 12
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -142,7 +142,7 @@
 
     iput-object p1, p0, Lnkl;->e0:Lcn/wps/moffice/writer/shell/phone/titletoolbar/WriterTitleBar;
 
-    const p1, 0x7f0b21d8
+    sget p1, Lcom/resouce/module/ResID;->phone_writer_padding_top:I
 
     .line 13
     invoke-virtual {p0, p1}, Luzl;->Z0(I)Landroid/view/View;
@@ -243,7 +243,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f070d53
+    sget v0, Lcom/resouce/module/ResDIMEN;->v10_public_mi_titlebar_height:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1293,7 +1293,7 @@
 .method public final J3()V
     .locals 2
 
-    const v0, 0x7f0b300c
+    sget v0, Lcom/resouce/module/ResID;->title_shadow:I
 
     .line 1
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -1905,7 +1905,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100b1
+    sget v1, Lcom/resouce/module/ResANIM;->writer_top_push_in:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -1938,7 +1938,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0100b2
+    sget v1, Lcom/resouce/module/ResANIM;->writer_top_push_out:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -2862,7 +2862,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b02d2
+    sget v1, Lcom/resouce/module/ResID;->btn_edit:I
 
     if-ne v0, v1, :cond_1
 

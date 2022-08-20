@@ -301,7 +301,7 @@
     .line 1
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2627
+    sget v1, Lcom/resouce/module/ResID;->public_history_ver_doc_sub_name:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c1d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_history_version_content_layout:I
 
     const/4 v2, 0x0
 
@@ -412,7 +412,7 @@
 
     iput-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b1827
+    sget v1, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -426,7 +426,7 @@
     .line 3
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b262f
+    sget v1, Lcom/resouce/module/ResID;->public_history_version_err_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -439,7 +439,7 @@
     .line 4
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2631
+    sget v1, Lcom/resouce/module/ResID;->public_history_version_no_network_page:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -468,7 +468,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122262
+    sget v0, Lcom/resouce/module/ResSTRING;->public_history_version:I
 
     return v0
 .end method
@@ -525,7 +525,7 @@
     .line 1
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2630
+    sget v1, Lcom/resouce/module/ResID;->public_history_version_list_upgrade:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -798,7 +798,7 @@
     .line 11
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122261
+    sget v1, Lcom/resouce/module/ResSTRING;->public_history_upload_wpsdrive_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1087,7 +1087,7 @@
     :cond_0
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2bf9
+    sget v1, Lcom/resouce/module/ResID;->show_history_vers_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1126,7 +1126,7 @@
     .line 8
     iget-object v2, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v3, 0x7f0b2625
+    sget v3, Lcom/resouce/module/ResID;->public_history_ver_doc_name:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1162,7 +1162,7 @@
     .line 12
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v2, 0x7f0b2624
+    sget v2, Lcom/resouce/module/ResID;->public_history_ver_doc_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1175,7 +1175,7 @@
     .line 13
     iget-object p2, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b262b
+    sget v0, Lcom/resouce/module/ResID;->public_history_ver_list:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1237,7 +1237,7 @@
     .line 19
     iget-object p2, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b0ffd
+    sget v0, Lcom/resouce/module/ResID;->history_version_docfix:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1248,7 +1248,7 @@
     .line 20
     iget-object p2, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v0, 0x7f0b0fff
+    sget v0, Lcom/resouce/module/ResID;->history_version_go_to_doc_fix:I
 
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1341,7 +1341,7 @@
     .line 4
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2628    # 1.849608E38f
+    sget v1, Lcom/resouce/module/ResID;->public_history_ver_err_detail:I    # 1.849608E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1392,7 +1392,7 @@
     .line 2
     iget-object v0, p0, Ltu7;->Z:Landroid/view/View;
 
-    const v1, 0x7f0b2629
+    sget v1, Lcom/resouce/module/ResID;->public_history_ver_err_upload:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

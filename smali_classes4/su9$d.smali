@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e00b2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->component_app_finish:I
 
     const/4 v3, 0x0
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0121
+    sget v2, Lcom/resouce/module/ResID;->app_finish_linear_layout:I
 
     .line 18
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -200,7 +200,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0b0125
+    sget v3, Lcom/resouce/module/ResID;->app_finish_rec_linear_layout:I
 
     .line 20
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -245,7 +245,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e00b2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->component_app_finish:I
 
     const/4 v3, 0x0
 

@@ -23,7 +23,7 @@
 .method public constructor <init>(Landroid/content/Context;Lf2n;Ljqg;)V
     .locals 1
 
-    const v0, 0x7f120c50
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_table_rule:I
 
     .line 1
     invoke-direct {p0, p1, v0, p3}, Lypg;-><init>(Landroid/content/Context;ILypg$a;)V
@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f81
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_split_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lhqg;->i:Landroid/view/View;
 
-    const v1, 0x7f0b162e
+    sget v1, Lcom/resouce/module/ResID;->list_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -239,7 +239,7 @@
     .line 11
     iget-object v4, p0, Lypg;->a:Landroid/content/Context;
 
-    const v6, 0x7f120c41
+    sget v6, Lcom/resouce/module/ResSTRING;->et_split_table_date:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -250,7 +250,7 @@
     .line 12
     iget-object v4, p0, Lypg;->a:Landroid/content/Context;
 
-    const v6, 0x7f120c42
+    sget v6, Lcom/resouce/module/ResSTRING;->et_split_table_day:I
 
     invoke-virtual {v4, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

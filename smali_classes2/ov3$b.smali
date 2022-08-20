@@ -335,7 +335,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0467
+    sget v3, Lcom/resouce/module/ResLAYOUT;->layout_recent_online_device_tip:I
 
     const/4 v4, 0x0
 

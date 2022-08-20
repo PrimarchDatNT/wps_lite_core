@@ -166,11 +166,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ef2
+    sget v1, Lcom/resouce/module/ResLAYOUT;->sample_native_message:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/RelativeLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0001
+    sget v0, Lcom/resouce/module/ResID;->AcceptAll:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     invoke-virtual {p0, v0}, Lcom/sourcepoint/gdpr_cmplibrary/NativeMessage;->setAcceptAll(Landroid/widget/Button;)V
 
-    const v0, 0x7f0b0016
+    sget v0, Lcom/resouce/module/ResID;->RejectAll:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     invoke-virtual {p0, v0}, Lcom/sourcepoint/gdpr_cmplibrary/NativeMessage;->setRejectAll(Landroid/widget/Button;)V
 
-    const v0, 0x7f0b0026
+    sget v0, Lcom/resouce/module/ResID;->ShowOptions:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     invoke-virtual {p0, v0}, Lcom/sourcepoint/gdpr_cmplibrary/NativeMessage;->setShowOptions(Landroid/widget/Button;)V
 
-    const v0, 0x7f0b0007
+    sget v0, Lcom/resouce/module/ResID;->Cancel:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     invoke-virtual {p0, v0}, Lcom/sourcepoint/gdpr_cmplibrary/NativeMessage;->setCancel(Landroid/widget/Button;)V
 
-    const v0, 0x7f0b0029
+    sget v0, Lcom/resouce/module/ResID;->Title:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     invoke-virtual {p0, v0}, Lcom/sourcepoint/gdpr_cmplibrary/NativeMessage;->setTitle(Landroid/widget/TextView;)V
 
-    const v0, 0x7f0b0013
+    sget v0, Lcom/resouce/module/ResID;->MsgBody:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

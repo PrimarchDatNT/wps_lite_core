@@ -88,7 +88,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f081e8b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     .line 9
     invoke-virtual {p2, p1}, Lcn/wps/moffice/common/beans/RippleAlphaImageView;->setImageResource(I)V

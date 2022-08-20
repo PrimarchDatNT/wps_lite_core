@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/phone_public_dialog_list_item_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/share_item_image" style="@style/phone_public_dialog_list_item_image" />
-    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize" android:textColor="@color/phone_public_dialog_black_text_color" android:id="@id/share_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize_introduce" android:textColor="@color/phone_public_dialog_gray_intro_text_color" android:id="@id/share_item_text_introduce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
-    </LinearLayout>
-</LinearLayout>

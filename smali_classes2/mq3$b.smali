@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1222b3
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_local_file_uploaded_to_cloud_toast_errmsg:I
 
     const/4 v2, 0x0
 

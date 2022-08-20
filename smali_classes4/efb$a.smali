@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lefb$a;->B:Landroid/view/View;
 
-    const v0, 0x7f0b25ff
+    sget v0, Lcom/resouce/module/ResID;->public_first_start_webview:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

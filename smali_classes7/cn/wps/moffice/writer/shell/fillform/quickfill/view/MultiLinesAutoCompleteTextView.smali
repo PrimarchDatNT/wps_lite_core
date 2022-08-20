@@ -16,7 +16,7 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    const v0, 0x7f04042e
+    sget v0, Lcom/resouce/module/ResATTR;->my_autoCompleteTextViewStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcn/wps/moffice/writer/shell/fillform/quickfill/view/MultiLinesAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V

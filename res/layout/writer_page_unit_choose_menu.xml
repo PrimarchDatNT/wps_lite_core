@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.MyHorizontalScrollView android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/public_list_text_item_width"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioGroup android:id="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/public_list_icon_item_width">
-        <RadioButton android:gravity="start|center" android:id="@id/radio_unit_cm" android:background="@drawable/public_list_selector_bg" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/public_list_text_item_height" android:checked="true" android:button="@null" android:minWidth="@dimen/public_list_icon_item_width" android:text="@string/writer_page_setting_units" android:drawableRight="@drawable/phone_public_radio_selector" android:layout_weight="1.0" android:paddingStart="20.0dip" android:paddingEnd="10.0dip" />
-        <RadioButton android:gravity="start|center" android:id="@id/radio_unit_inch" android:background="@drawable/public_list_selector_bg" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/public_list_text_item_height" android:button="@null" android:minWidth="@dimen/public_list_icon_item_width" android:text="@string/writer_page_setting_units_inch" android:drawableRight="@drawable/phone_public_radio_selector" android:layout_weight="1.0" android:paddingStart="20.0dip" android:paddingEnd="10.0dip" />
-    </RadioGroup>
-</cn.wps.moffice.common.beans.MyHorizontalScrollView>

@@ -53,7 +53,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0efa
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_rectify_introduce_popup_tip:I
 
     const/4 v2, 0x0
 

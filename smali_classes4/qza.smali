@@ -403,7 +403,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120454
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_recognized_failed:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -635,13 +635,13 @@
 
     if-ne v0, p1, :cond_0
 
-    const p1, 0x7f080742
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2text:I
 
-    const v0, 0x7f06019d
+    sget v0, Lcom/resouce/module/ResCOLOR;->func_guide_blue_bg:I
 
-    const v3, 0x7f12046f
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_picture_to_text:I
 
-    const v4, 0x7f12043d
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_img_transform_to_tx_instruction:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -660,13 +660,13 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f08073f
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2et:I
 
-    const v0, 0x7f06019f
+    sget v0, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v3, 0x7f12263f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
-    const v4, 0x7f122641
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2et_guide_desc:I
 
     new-array v2, v2, [Lcib$b;
 
@@ -744,7 +744,7 @@
     .line 2
     iget-object v0, p0, Lqza;->c:Landroid/app/Activity;
 
-    const v1, 0x7f1203e4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v2, 0x0
 
@@ -1489,7 +1489,7 @@
     .line 13
     iget-object v0, p0, Lqza;->c:Landroid/app/Activity;
 
-    const v4, 0x7f1203f1
+    sget v4, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_process_num_text:I
 
     invoke-virtual {v0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1613,7 +1613,7 @@
 
     iget-object v1, p0, Lqza;->c:Landroid/app/Activity;
 
-    const v2, 0x7f120444
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_loading_txt:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

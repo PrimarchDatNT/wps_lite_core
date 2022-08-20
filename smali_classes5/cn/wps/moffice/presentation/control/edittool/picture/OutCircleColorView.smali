@@ -74,7 +74,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f070d1d
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_inner_circle_width:I
 
     if-eqz p2, :cond_0
 
@@ -217,7 +217,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070d1e
+    sget p2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_color_view_outside_circle_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

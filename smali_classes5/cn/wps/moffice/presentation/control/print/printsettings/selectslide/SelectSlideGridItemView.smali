@@ -91,17 +91,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0e0ac1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_select_grid_item_phone:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0e0ac0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_print_select_grid_item_pad:I
 
     :goto_0
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b251e
+    sget v0, Lcom/resouce/module/ResID;->print_pre_item_img:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -112,7 +112,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectSlideGridItemView;->B:Lcn/wps/moffice/presentation/control/print/printsettings/selectslide/SelectPrintPictureView;
 
-    const v0, 0x7f0b251f
+    sget v0, Lcom/resouce/module/ResID;->print_pre_item_seleted:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f07074d
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_ppt_slide_default_frame_width_unselect:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -153,7 +153,7 @@
     .line 7
     sget-boolean v0, Lskd;->a:Z
 
-    const v1, 0x7f060461
+    sget v1, Lcom/resouce/module/ResCOLOR;->phone_public_horizon_divideline_color:I
 
     if-eqz v0, :cond_1
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060009
+    sget v2, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -201,7 +201,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0605af
+    sget v2, Lcom/resouce/module/ResCOLOR;->public_titlebar_ppt_bg:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

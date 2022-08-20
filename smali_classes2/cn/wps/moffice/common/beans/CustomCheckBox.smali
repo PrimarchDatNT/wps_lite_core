@@ -92,12 +92,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0842
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_checkbox:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0b40
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_checkbox:I
 
     :goto_0
     const/4 v2, 0x1
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/beans/CustomCheckBox;->B:Landroid/view/View;
 
-    const v1, 0x7f0b03cb
+    sget v1, Lcom/resouce/module/ResID;->checkbox_btn:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CustomCheckBox;->B:Landroid/view/View;
 
-    const v1, 0x7f0b03cf
+    sget v1, Lcom/resouce/module/ResID;->checkbox_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -415,7 +415,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d5f
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -429,7 +429,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122d60
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

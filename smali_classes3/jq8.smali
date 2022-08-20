@@ -625,7 +625,7 @@
 
     if-nez v0, :cond_7
 
-    const v0, 0x7f0b2033
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root_container:I
 
     .line 14
     invoke-virtual {p2, v0, v2, p3}, Landroid/app/FragmentTransaction;->add(ILandroid/app/Fragment;Ljava/lang/String;)Landroid/app/FragmentTransaction;

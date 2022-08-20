@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f03007e
+    sget v0, Lcom/resouce/module/ResARRAY;->quick_phrases:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

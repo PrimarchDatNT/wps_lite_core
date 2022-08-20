@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12132f
+    sget v1, Lcom/resouce/module/ResSTRING;->kspay_signed_server_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121330
+    sget v2, Lcom/resouce/module/ResSTRING;->kspay_tempalate_server_url:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12132c
+    sget v1, Lcom/resouce/module/ResSTRING;->kspay_gp_font_host:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

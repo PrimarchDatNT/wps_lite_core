@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b053b
+    sget v1, Lcom/resouce/module/ResID;->contentFrame:I
 
     .line 13
     invoke-static {}, Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;->T()Lcn/wps/moffice/main/local/home/filetransfer/ImproveDeviceFragment;

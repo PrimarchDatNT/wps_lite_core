@@ -81,7 +81,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f080c14
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_doc_background_ppt:I
 
     .line 2
     iget-object v1, p0, Lxwd;->V:Landroid/content/Context;
@@ -90,7 +90,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121c43
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_slide_background:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     check-cast v2, Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e05ee
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_titlebar_second_image_text_dropdown_view:I
 
     const/4 v4, 0x0
 
@@ -121,7 +121,7 @@
 
     iput-object p1, p0, Lxwd;->W:Landroid/view/View;
 
-    const v2, 0x7f0b07d2
+    sget v2, Lcom/resouce/module/ResID;->dropdown_imageview_image:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -133,7 +133,7 @@
     .line 7
     iget-object v2, p0, Lxwd;->W:Landroid/view/View;
 
-    const v3, 0x7f0b07d3
+    sget v3, Lcom/resouce/module/ResID;->dropdown_imageview_text:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0602db
+    sget v3, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

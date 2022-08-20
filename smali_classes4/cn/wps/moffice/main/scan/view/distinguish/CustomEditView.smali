@@ -504,7 +504,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1203ed
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_copy:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -546,7 +546,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1203ee
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_distinguish_edit_paste:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

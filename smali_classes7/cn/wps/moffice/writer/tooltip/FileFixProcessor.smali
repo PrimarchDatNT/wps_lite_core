@@ -299,12 +299,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f1203c4
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_fix_tips_bar_content:I
 
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f1203b5
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_fix_messy_code_tips_bar_content:I
 
     .line 5
     :goto_0
@@ -314,7 +314,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/banner/PopupBanner$k;->d(Ljava/lang/String;)Lcn/wps/moffice/common/beans/banner/PopupBanner$k;
 
-    const v2, 0x7f1203ab
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_fix_go_to_doc_fix:I
 
     .line 6
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

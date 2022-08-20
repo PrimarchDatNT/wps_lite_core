@@ -1545,7 +1545,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0b18b2
+    sget v0, Lcom/resouce/module/ResID;->missing_font_link_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1573,7 +1573,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b189d
+    sget v2, Lcom/resouce/module/ResID;->missing_font:I
 
     .line 4
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1584,7 +1584,7 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v2, 0x7f0b18a9
+    sget v2, Lcom/resouce/module/ResID;->missing_font_detail_more:I
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1947,7 +1947,7 @@
 
     if-eqz v1, :cond_1
 
-    const p4, 0x7f122a41
+    sget p4, Lcom/resouce/module/ResSTRING;->public_sys_cloud_guide_download:I
 
     .line 4
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1964,7 +1964,7 @@
 
     invoke-virtual {p3, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const p5, 0x7f122a42
+    sget p5, Lcom/resouce/module/ResSTRING;->public_sys_cloud_guide_download_multi:I
 
     invoke-virtual {p1, p5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2024,7 +2024,7 @@
 
     if-eqz p4, :cond_5
 
-    const p3, 0x7f12256b
+    sget p3, Lcom/resouce/module/ResSTRING;->public_one_fontname_cloud_guide_download:I
 
     .line 10
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2075,7 +2075,7 @@
 
     if-eqz p4, :cond_8
 
-    const p3, 0x7f1224df
+    sget p3, Lcom/resouce/module/ResSTRING;->public_multi_fontname_cloud_guide_download:I
 
     .line 15
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -2380,7 +2380,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

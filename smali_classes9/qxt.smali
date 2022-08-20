@@ -209,7 +209,7 @@
 
     sget-object v0, Lcn/wps/moffice_eng/R$styleable;->CardView:[I
 
-    const v1, 0x7f130113
+    sget v1, Lcom/resouce/module/ResSTYLE;->CardView:I
 
     .line 10
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
@@ -516,7 +516,7 @@
     .line 22
     iget-object v0, p0, Lqxt;->a:Lcom/google/android/material/card/MaterialCardView;
 
-    const v1, 0x7f040130
+    sget v1, Lcom/resouce/module/ResATTR;->colorControlHighlight:I
 
     .line 23
     invoke-static {v0, v1}, Luxt;->d(Landroid/view/View;I)I
@@ -826,7 +826,7 @@
     .line 6
     iget-object v0, p0, Lqxt;->o:Landroid/graphics/drawable/LayerDrawable;
 
-    const v1, 0x7f0b1934
+    sget v1, Lcom/resouce/module/ResID;->mtrl_card_checked_layer_id:I
 
     invoke-virtual {v0, v1, p1}, Landroid/graphics/drawable/LayerDrawable;->setDrawableByLayerId(ILandroid/graphics/drawable/Drawable;)Z
 
@@ -1970,7 +1970,7 @@
 
     iput-object v1, p0, Lqxt;->o:Landroid/graphics/drawable/LayerDrawable;
 
-    const v0, 0x7f0b1934
+    sget v0, Lcom/resouce/module/ResID;->mtrl_card_checked_layer_id:I
 
     .line 6
     invoke-virtual {v1, v3, v0}, Landroid/graphics/drawable/LayerDrawable;->setId(II)V

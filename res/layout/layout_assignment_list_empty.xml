@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:layout_width="200.0dip" android:layout_height="140.0dip" android:layout_marginTop="91.0dip" android:src="@drawable/assignment_list_empty" />
-        <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_18dp" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/dimen_18dp" android:text="@string/class_no_documentation" android:layout_marginStart="@dimen/dimen_18dp" android:layout_marginEnd="@dimen/dimen_18dp" />
-    </LinearLayout>
-</ScrollView>

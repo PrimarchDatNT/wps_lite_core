@@ -47,7 +47,7 @@
     .line 1
     iget-object v1, v0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity$c;->B:Landroid/view/View;
 
-    const v2, 0x7f0b0e00
+    sget v2, Lcom/resouce/module/ResID;->folder_manager_findbigfolder_tv:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -56,7 +56,7 @@
     .line 2
     iget-object v2, v0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity$c;->B:Landroid/view/View;
 
-    const v3, 0x7f0b0de2
+    sget v3, Lcom/resouce/module/ResID;->folder_manager_bg_file_list:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -65,7 +65,7 @@
     .line 3
     iget-object v3, v0, Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity$c;->I:Lcn/wps/moffice/foldermanager/shortcut/FolderManagerActivity;
 
-    const v4, 0x7f0b0de3
+    sget v4, Lcom/resouce/module/ResID;->folder_manager_bg_path_grid:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
 
     move-result-object v8
 
-    const v9, 0x7f06017d
+    sget v9, Lcom/resouce/module/ResCOLOR;->folder_manager_common_white:I
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -183,7 +183,7 @@
 
     move-result-object v5
 
-    const v13, 0x7f06017c
+    sget v13, Lcom/resouce/module/ResCOLOR;->folder_manager_common_background:I
 
     invoke-virtual {v5, v13}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -203,7 +203,7 @@
 
     move-object/from16 v16, v3
 
-    const v3, 0x7f06017d
+    sget v3, Lcom/resouce/module/ResCOLOR;->folder_manager_common_white:I
 
     move v9, v15
 

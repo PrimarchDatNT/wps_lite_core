@@ -46,7 +46,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1222a6
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_local_file_all_back:I
 
     invoke-virtual {v1, v2}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 
@@ -73,7 +73,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0b01c8
+    sget v0, Lcom/resouce/module/ResID;->back_local_uploading_fragment_content:I
 
     .line 5
     invoke-virtual {p0, v0, p1}, Landroid/app/FragmentTransaction;->replace(ILandroid/app/Fragment;)Landroid/app/FragmentTransaction;
@@ -203,7 +203,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122846
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

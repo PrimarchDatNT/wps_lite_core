@@ -51,7 +51,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122f65
+    sget v1, Lcom/resouce/module/ResSTRING;->smart_form:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -316,7 +316,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0e0c47
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_home_top_item_layout:I
 
     const/4 v4, 0x0
 
@@ -324,7 +324,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b164c
+    sget v3, Lcom/resouce/module/ResID;->ll_contain:I
 
     .line 9
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     check-cast v3, Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0b147a
+    sget v4, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 10
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     check-cast v4, Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v5, 0x7f0b31e6
+    sget v5, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 11
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -351,14 +351,14 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b3396
+    sget v6, Lcom/resouce/module/ResID;->view_devide:I
 
     .line 12
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b2868
+    sget v7, Lcom/resouce/module/ResID;->red_dot_num_tv:I
 
     .line 13
     invoke-virtual {v2, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -367,7 +367,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b1381
+    sget v8, Lcom/resouce/module/ResID;->is_charge:I
 
     .line 14
     invoke-virtual {v2, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -422,7 +422,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f080594
+    sget v9, Lcom/resouce/module/ResDRAWABLE;->en_home_top_default:I
 
     .line 23
     invoke-virtual {v5, v9}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -780,7 +780,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/local/home/phone/header/entop/gongge/FoldGongGe;->B:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f081df1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->shape_home_grid:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 

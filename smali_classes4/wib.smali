@@ -10,7 +10,7 @@
     .line 1
     invoke-direct {p0, p1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f0e0ea7
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_upgrade_vip_dialog_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3;->setView(I)Lhd3;
@@ -54,7 +54,7 @@
     .line 7
     invoke-virtual {p0, p1}, Lhd3;->setCardBackgroundRadius(F)V
 
-    const p1, 0x7f0b044f
+    sget p1, Lcom/resouce/module/ResID;->close_img:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -141,7 +141,7 @@
 .method public W2(Z)V
     .locals 1
 
-    const v0, 0x7f0b044f
+    sget v0, Lcom/resouce/module/ResID;->close_img:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -211,7 +211,7 @@
 .method public setMessage(Ljava/lang/CharSequence;)Lhd3;
     .locals 1
 
-    const v0, 0x7f0b1929
+    sget v0, Lcom/resouce/module/ResID;->msg_text:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
 .method public setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
     .locals 1
 
-    const p1, 0x7f0b044f
+    sget p1, Lcom/resouce/module/ResID;->close_img:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -282,7 +282,7 @@
 .method public setPositiveButton(IILandroid/content/DialogInterface$OnClickListener;)Lhd3;
     .locals 0
 
-    const p2, 0x7f0b3306
+    sget p2, Lcom/resouce/module/ResID;->upgrade_btn:I
 
     .line 4
     invoke-virtual {p0, p2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 .method public setPositiveButtonEnable(Z)V
     .locals 1
 
-    const v0, 0x7f0b3306
+    sget v0, Lcom/resouce/module/ResID;->upgrade_btn:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 .method public setTitle(Ljava/lang/String;I)Lhd3;
     .locals 2
 
-    const v0, 0x7f0b3012
+    sget v0, Lcom/resouce/module/ResID;->title_text:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

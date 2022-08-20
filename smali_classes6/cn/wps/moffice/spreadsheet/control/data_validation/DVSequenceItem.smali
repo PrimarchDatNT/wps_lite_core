@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06011e
+    sget v1, Lcom/resouce/module/ResCOLOR;->disableColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -178,7 +178,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e01e0
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_dv_sequence_item:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -194,12 +194,12 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e095b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_dv_sequence_item:I
 
     invoke-virtual {v0, v2, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     :goto_0
-    const v0, 0x7f0b0a04
+    sget v0, Lcom/resouce/module/ResID;->et_dv_sq_item_edittext:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
     .line 5
     iput-object p0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/DVSequenceItem;->T:Landroid/view/View;
 
-    const v0, 0x7f0b0a01
+    sget v0, Lcom/resouce/module/ResID;->et_dv_sq_item_btn:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -224,7 +224,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/DVSequenceItem;->U:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0a03
+    sget v0, Lcom/resouce/module/ResID;->et_dv_sq_item_del_btn_group:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -235,7 +235,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/DVSequenceItem;->V:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b0a02
+    sget v0, Lcom/resouce/module/ResID;->et_dv_sq_item_btn_group:I
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

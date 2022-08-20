@@ -96,7 +96,7 @@
 
     aput-object v4, v2, v3
 
-    const v3, 0x7f122f09
+    sget v3, Lcom/resouce/module/ResSTRING;->share_folder_welcome_dialog_desc:I
 
     .line 3
     invoke-virtual {v1, v3, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -136,7 +136,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f08164d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_header_avator_more:I
 
     invoke-static {p1, v0, v1}, Lldf;->Y2(Lldf;Ljava/lang/String;I)V
 

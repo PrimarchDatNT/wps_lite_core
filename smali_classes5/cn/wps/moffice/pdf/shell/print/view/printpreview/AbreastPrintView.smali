@@ -273,7 +273,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08123e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_frame_transparent_bg:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 
@@ -384,7 +384,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08123e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_frame_transparent_bg:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

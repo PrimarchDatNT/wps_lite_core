@@ -203,17 +203,17 @@
 
     if-eq p0, v0, :cond_0
 
-    const p0, 0x7f081f7f
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_writer_rounded_rectangle_16_alpha00_selector:I
 
     return p0
 
     :cond_0
-    const p0, 0x7f081f08
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ppt_rounded_rectangle_16_alpha00_selector:I
 
     return p0
 
     :cond_1
-    const p0, 0x7f081f76
+    sget p0, Lcom/resouce/module/ResDRAWABLE;->v10_phone_ss_rounded_rectangle_16_alpha00_selector:I
 
     return p0
 .end method
@@ -366,7 +366,7 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->B:Landroid/content/Context;
 
-    const p2, 0x7f1222f8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_panel_login_tip:I
 
     const/4 v0, 0x0
 
@@ -675,7 +675,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->B:Landroid/content/Context;
 
-    const p2, 0x7f12250c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_net_error_download_error:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -783,7 +783,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->B:Landroid/content/Context;
 
-    const v1, 0x7f1221d7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fontname_not_found:I
 
     const/4 v2, 0x1
 
@@ -1078,7 +1078,7 @@
     .line 9
     invoke-virtual {p3, v2}, Lf54;->o(Landroid/widget/ImageView$ScaleType;)Lf54;
 
-    const v2, 0x7f0809e2
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->internal_template_default_item_bg:I
 
     .line 10
     invoke-virtual {p3, v2, v1}, Lf54;->i(II)Lf54;
@@ -1197,11 +1197,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d8d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_font_title_cloud_view:I
 
     invoke-virtual {v0, v1, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b0e58
+    sget v0, Lcom/resouce/module/ResID;->font_title_cloud_img:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1212,7 +1212,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0e57
+    sget v0, Lcom/resouce/module/ResID;->font_title_cloud_download:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1221,7 +1221,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->S:Landroid/view/View;
 
-    const v0, 0x7f0b0e5d
+    sget v0, Lcom/resouce/module/ResID;->font_title_cloud_progress:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1232,7 +1232,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/fontname/FontTitleCloudItemView;->T:Lcn/wps/moffice/common/fontname/CircleProgressBar;
 
-    const v0, 0x7f0b0e61
+    sget v0, Lcom/resouce/module/ResID;->font_title_sys_name:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1279,7 +1279,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

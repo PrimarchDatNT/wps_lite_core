@@ -111,7 +111,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -280,7 +280,7 @@
     .line 1
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b1069
+    sget p2, Lcom/resouce/module/ResID;->home_drive_tag_item:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -291,7 +291,7 @@
     .line 2
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2e7f
+    sget p2, Lcom/resouce/module/ResID;->tag_name:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -304,7 +304,7 @@
     .line 3
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b2c70
+    sget p2, Lcom/resouce/module/ResID;->sort_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -317,7 +317,7 @@
     .line 4
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b19f6
+    sget p2, Lcom/resouce/module/ResID;->new_folder_btn:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -330,7 +330,7 @@
     .line 5
     iget-object p1, p0, Lp97;->S:Landroid/view/View;
 
-    const p2, 0x7f0b02bd
+    sget p2, Lcom/resouce/module/ResID;->btn_bottom_line:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12123d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_sort_size:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -427,7 +427,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f1207c9
+    sget v0, Lcom/resouce/module/ResSTRING;->et_complex_format_number_time:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -437,7 +437,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f120b8d
+    sget v0, Lcom/resouce/module/ResSTRING;->et_name:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -512,7 +512,7 @@
     .line 2
     iget-object v0, p0, Lv97;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f12082f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_datavalidation_table_add:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -522,7 +522,7 @@
     :cond_1
     iget-object v0, p0, Lv97;->l0:Landroid/widget/TextView;
 
-    const v1, 0x7f122190
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -534,12 +534,12 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f0816bf
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_new_bounds:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f0816be
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_new:I
 
     .line 5
     :goto_1

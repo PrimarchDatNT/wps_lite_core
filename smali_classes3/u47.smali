@@ -89,7 +89,7 @@
 
     if-eqz v1, :cond_0
 
-    const p2, 0x7f121239
+    sget p2, Lcom/resouce/module/ResSTRING;->home_wps_drive_move_unable_to_support_cloudstorage:I
 
     .line 5
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
@@ -104,7 +104,7 @@
 
     if-nez v1, :cond_1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 7
     invoke-static {p1, p2}, Lq48;->e(Landroid/content/Context;I)V
@@ -156,7 +156,7 @@
 
     if-eqz p2, :cond_3
 
-    const p2, 0x7f120ef1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     const/4 p3, 0x0
 

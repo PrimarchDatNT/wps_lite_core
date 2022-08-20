@@ -41,7 +41,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0d7b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_doc_no_files_search_item:I
 
     const/4 v1, 0x0
 

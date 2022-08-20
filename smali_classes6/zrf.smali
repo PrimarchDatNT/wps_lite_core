@@ -446,13 +446,13 @@
 
     aput-object v2, v0, v3
 
-    const v2, 0x7f08073f
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_pic2et:I
 
-    const v3, 0x7f06019f
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_green_bg:I
 
-    const v4, 0x7f12263f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
-    const v5, 0x7f122641
+    sget v5, Lcom/resouce/module/ResSTRING;->public_pic2et_guide_desc:I
 
     .line 8
     invoke-static {v2, v3, v4, v5, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -551,11 +551,11 @@
 
     invoke-virtual {v1, v4, v2, v3}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v2, 0x7f080769
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pic2et:I
 
-    const v3, 0x7f12263f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pic2et:I
 
-    const v4, 0x7f122641
+    sget v4, Lcom/resouce/module/ResSTRING;->public_pic2et_guide_desc:I
 
     const/4 v5, 0x1
 

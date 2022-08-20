@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:color="@color/phone_public_list_press_color" />
-    <item android:state_selected="true" android:color="@color/phone_public_color_swipe_refresh_layout_4" />
-    <item android:state_enabled="false" android:color="#ff888888" />
-    <item android:color="#00000000" />
-</selector>

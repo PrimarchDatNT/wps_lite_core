@@ -117,7 +117,7 @@
         }
     .end annotation
 
-    const p3, 0x7f0e04ba
+    sget p3, Lcom/resouce/module/ResLAYOUT;->mtrl_picker_text_input_date:I
 
     const/4 v0, 0x0
 
@@ -126,7 +126,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b193d
+    sget p2, Lcom/resouce/module/ResID;->mtrl_picker_text_input_date:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -318,7 +318,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f12140e
+    sget v0, Lcom/resouce/module/ResSTRING;->mtrl_picker_date_header_unselected:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -337,7 +337,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12140c
+    sget v1, Lcom/resouce/module/ResSTRING;->mtrl_picker_date_header_selected:I
 
     const/4 v2, 0x1
 
@@ -403,7 +403,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0403dc
+    sget v1, Lcom/resouce/module/ResATTR;->materialCalendarTheme:I
 
     .line 3
     invoke-static {p1, v1, v0}, Ld0u;->c(Landroid/content/Context;ILjava/lang/String;)I

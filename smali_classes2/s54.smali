@@ -177,7 +177,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1212d6
+    sget v5, Lcom/resouce/module/ResSTRING;->infoflow_func_sendtodesk_success:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -308,7 +308,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1212d6
+    sget v5, Lcom/resouce/module/ResSTRING;->infoflow_func_sendtodesk_success:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -671,7 +671,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     const/4 v2, 0x0
 
@@ -689,7 +689,7 @@
     .line 4
     iget-object v1, v0, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v3, 0x7f1212cc
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_card_function:I
 
     invoke-virtual {v1, v3}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
@@ -703,7 +703,7 @@
     .line 6
     iget-object v1, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0c71
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_infoflow_function_card:I
 
     invoke-virtual {v0}, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->getContainer()Landroid/view/ViewGroup;
 
@@ -720,7 +720,7 @@
     .line 7
     iput-object v0, p0, Ls54;->f:Landroid/view/View;
 
-    const v0, 0x7f0b0ec4
+    sget v0, Lcom/resouce/module/ResID;->funcview:I
 
     .line 8
     invoke-virtual {v1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -732,7 +732,7 @@
     .line 9
     iget-object v0, p0, Ls54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b1261
+    sget v1, Lcom/resouce/module/ResID;->image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -745,7 +745,7 @@
     .line 10
     iget-object v0, p0, Ls54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b0539
+    sget v1, Lcom/resouce/module/ResID;->content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -758,7 +758,7 @@
     .line 11
     iget-object v0, p0, Ls54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b031a
+    sget v1, Lcom/resouce/module/ResID;->button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -786,7 +786,7 @@
     .line 13
     iget-object v0, p0, Ls54;->g:Landroid/view/View;
 
-    const v1, 0x7f0b0d8d
+    sget v1, Lcom/resouce/module/ResID;->finishimage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -53,7 +53,7 @@
 
     move-result-object p4
 
-    const p5, 0x7f0600ea
+    sget p5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 5
     invoke-virtual {p4, p5}, Landroid/content/res/Resources;->getColor(I)I
@@ -62,7 +62,7 @@
 
     iput p5, p0, Ltc9;->i:I
 
-    const p5, 0x7f06025d
+    sget p5, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     .line 6
     invoke-virtual {p4, p5}, Landroid/content/res/Resources;->getColor(I)I
@@ -91,7 +91,7 @@
     .line 1
     iput-object p1, p0, Ltc9;->f:Landroid/view/View;
 
-    const v0, 0x7f0b13c7
+    sget v0, Lcom/resouce/module/ResID;->item_image:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     iput-object v0, p0, Ltc9;->g:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b13ec
+    sget v0, Lcom/resouce/module/ResID;->item_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

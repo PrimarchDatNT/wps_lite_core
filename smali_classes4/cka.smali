@@ -229,7 +229,7 @@
 
     if-nez v1, :cond_1
 
-    const v1, 0x7f12250d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -325,7 +325,7 @@
     .line 14
     invoke-static {v1, p1}, Lza4;->f(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f12274e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     .line 15
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -555,16 +555,16 @@
     goto :goto_1
 
     :cond_6
-    const v5, 0x7f081e93
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_picture_material:I
 
-    const v2, 0x7f123099
+    sget v2, Lcom/resouce/module/ResSTRING;->template_picture_material:I
 
     .line 15
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v2, 0x7f12309a
+    sget v2, Lcom/resouce/module/ResSTRING;->template_picture_material_dec:I
 
     .line 16
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -583,16 +583,16 @@
     goto :goto_1
 
     :cond_7
-    const v5, 0x7f081e98
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->template_resume_master:I
 
-    const v2, 0x7f1230a3
+    sget v2, Lcom/resouce/module/ResSTRING;->template_resume_master:I
 
     .line 18
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v2, 0x7f1230a4
+    sget v2, Lcom/resouce/module/ResSTRING;->template_resume_master_dec:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -611,16 +611,16 @@
     goto :goto_1
 
     :cond_8
-    const v5, 0x7f082039
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->wps_template_head_view:I
 
-    const v2, 0x7f1230b5
+    sget v2, Lcom/resouce/module/ResSTRING;->template_wps_txt:I
 
     .line 21
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     move-result-object v6
 
-    const v2, 0x7f1230b4
+    sget v2, Lcom/resouce/module/ResSTRING;->template_wps_dec_txt:I
 
     .line 22
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -641,7 +641,7 @@
     :goto_1
     if-eqz v2, :cond_9
 
-    const v0, 0x7f030023
+    sget v0, Lcom/resouce/module/ResARRAY;->func_guide_template_privileges_names:I
 
     .line 24
     invoke-virtual {v1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;

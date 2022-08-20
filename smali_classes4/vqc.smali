@@ -510,7 +510,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0653
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_page_adjust_thumb_item:I
 
     const/4 v0, 0x0
 

@@ -268,7 +268,7 @@
     .line 4
     iget-object v0, p0, Ly0b;->S:Landroid/app/Activity;
 
-    const v1, 0x7f1203e4
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_convert_error_due_to_file_not_exist:I
 
     const/4 v2, 0x1
 
@@ -301,7 +301,7 @@
     :goto_0
     iget-object v0, p0, Ly0b;->S:Landroid/app/Activity;
 
-    const v1, 0x7f120450
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_no_image_tip:I
 
     const/4 v2, 0x0
 
@@ -1244,7 +1244,7 @@
     .line 4
     iget-object p1, p0, Ly0b;->S:Landroid/app/Activity;
 
-    const p2, 0x7f122846
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1258,7 +1258,7 @@
     .line 5
     iget-object p1, p0, Ly0b;->S:Landroid/app/Activity;
 
-    const p2, 0x7f122845
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_network_error:I
 
     invoke-static {p1, p2, p3}, Lbih;->n(Landroid/content/Context;II)V
 

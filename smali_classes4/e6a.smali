@@ -333,7 +333,7 @@
 .method public r(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Le6a$b;
     .locals 2
 
-    const v0, 0x7f0e0cf1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_main_special_item_layout:I
 
     const/4 v1, 0x0
 

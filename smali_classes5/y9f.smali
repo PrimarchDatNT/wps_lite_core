@@ -18,7 +18,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e10ef
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_indian_scenes_layout:I
 
     return v0
 .end method

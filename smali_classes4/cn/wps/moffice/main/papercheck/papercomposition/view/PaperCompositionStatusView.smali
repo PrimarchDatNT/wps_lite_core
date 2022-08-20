@@ -72,11 +72,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0dae
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_phone_paper_composition_check_status:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b19e0
+    sget p1, Lcom/resouce/module/ResID;->network_error_layout:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b03be
+    sget p1, Lcom/resouce/module/ResID;->check_status_comment:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -114,7 +114,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b03bf
+    sget p1, Lcom/resouce/module/ResID;->check_status_image:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->U:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b03c1
+    sget p1, Lcom/resouce/module/ResID;->check_status_tips:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -136,7 +136,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->V:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0fda
+    sget p1, Lcom/resouce/module/ResID;->history_footer_layout:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -145,7 +145,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->W:Landroid/view/View;
 
-    const p1, 0x7f0b28b2
+    sget p1, Lcom/resouce/module/ResID;->restart:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -154,7 +154,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->a0:Landroid/view/View;
 
-    const p1, 0x7f0b28b3
+    sget p1, Lcom/resouce/module/ResID;->restart_hide_view:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b28b4
+    sget p1, Lcom/resouce/module/ResID;->restart_layout:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -172,7 +172,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->b0:Landroid/view/View;
 
-    const p1, 0x7f0b03c0
+    sget p1, Lcom/resouce/module/ResID;->check_status_scroll_hide_view:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->j0:Landroid/view/View;
 
-    const p1, 0x7f0b03d7
+    sget p1, Lcom/resouce/module/ResID;->checking_layout:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0b0fdb
+    sget p1, Lcom/resouce/module/ResID;->history_footer_textview:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200da
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_success:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -442,7 +442,7 @@
     .line 11
     iget-object p3, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->U:Landroid/widget/ImageView;
 
-    const v1, 0x7f0804f9
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_fix_success:I
 
     invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -501,7 +501,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f1200db
+    sget v0, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_upload:I
 
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -515,14 +515,14 @@
     .line 19
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->U:Landroid/widget/ImageView;
 
-    const p3, 0x7f081274
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_paper_composition_upload:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 20
     iget-wide v5, p2, Lxha;->z0:J
 
-    const p1, 0x7f1200dc
+    sget p1, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_time_error_tip:I
 
     const-wide/16 v7, 0x0
 
@@ -595,7 +595,7 @@
 
     move-result v2
 
-    const v6, 0x7f1200dd
+    sget v6, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_time_tips:I
 
     if-ne v5, v2, :cond_6
 
@@ -767,7 +767,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f1200d9
+    sget v0, Lcom/resouce/module/ResSTRING;->app_paper_composition_history_status_failed:I
 
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -800,7 +800,7 @@
     .line 41
     iget-object p1, p0, Lcn/wps/moffice/main/papercheck/papercomposition/view/PaperCompositionStatusView;->U:Landroid/widget/ImageView;
 
-    const p3, 0x7f081273
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_home_app_paper_composition_failed:I
 
     invoke-virtual {p1, p3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1048,7 +1048,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1200e0
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02bc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_account_info_setting_pick_avatar:I
 
     const/4 v2, 0x0
 
@@ -166,7 +166,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b103e
+    sget v1, Lcom/resouce/module/ResID;->home_account_setting_pick_avatar_take_photo:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     if-ne v2, v3, :cond_0
 
-    const v2, 0x7f122352
+    sget v2, Lcom/resouce/module/ResSTRING;->public_id_photo_take_photo:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
@@ -195,7 +195,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b103d
+    sget v1, Lcom/resouce/module/ResID;->home_account_setting_pick_avatar_from_gallery:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     if-ne v2, v3, :cond_1
 
-    const v2, 0x7f12234f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_id_photo_pick_from_gallery:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V

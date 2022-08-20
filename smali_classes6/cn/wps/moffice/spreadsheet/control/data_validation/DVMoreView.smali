@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e01dc
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_datavalidation_more_dialog:I
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0951
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_datavalidation_more_dialog:I
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -56,7 +56,7 @@
 .method public final a()V
     .locals 1
 
-    const v0, 0x7f0b09cc
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_increment:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -67,7 +67,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/data_validation/DVMoreView;->B:Landroid/widget/EditText;
 
-    const v0, 0x7f0b09ce
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_increment_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v0, 0x7f0b09cf
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_increment_warning:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

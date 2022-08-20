@@ -114,7 +114,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -162,7 +162,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1203a7
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_file_too_large:I
 
     const/4 v1, 0x0
 
@@ -345,7 +345,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1203c5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_fix_unsupoort_file_type:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -370,7 +370,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122b46
+    sget v0, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -469,7 +469,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0b34d7
+    sget v1, Lcom/resouce/module/ResID;->writer_doc_fix:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

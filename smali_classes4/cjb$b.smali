@@ -127,7 +127,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120cce
+    sget v0, Lcom/resouce/module/ResSTRING;->fanyigo_result_doc_deleted:I
 
     const/4 v1, 0x0
 

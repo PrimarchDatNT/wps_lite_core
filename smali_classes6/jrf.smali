@@ -400,7 +400,7 @@
     .line 41
     sget-boolean p5, Ljif;->n:Z
 
-    const p6, 0x7f070b00
+    sget p6, Lcom/resouce/module/ResDIMEN;->public_edit_layout_padding_horizontal:I
 
     if-eqz p5, :cond_2
 
@@ -411,7 +411,7 @@
 
     mul-int/lit8 p5, p5, 0x2
 
-    const p7, 0x7f070afc
+    sget p7, Lcom/resouce/module/ResDIMEN;->public_edit_layout_btn_width:I
 
     .line 43
     invoke-virtual {p3, p7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -437,7 +437,7 @@
 
     mul-int/lit8 p5, p5, 0x2
 
-    const p7, 0x7f070ca6
+    sget p7, Lcom/resouce/module/ResDIMEN;->ss_phone_edit_layout_btn_width:I
 
     .line 46
     invoke-virtual {p3, p7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1633,7 +1633,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e01e2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_edit_ref_choise_multi:I
 
     const/4 v3, 0x0
 
@@ -1661,7 +1661,7 @@
 
     iput-object v0, p0, Ljrf;->p0:Lovf;
 
-    const v0, 0x7f0b0a2b
+    sget v0, Lcom/resouce/module/ResID;->et_edit_ref_prefix:I
 
     .line 7
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1686,7 +1686,7 @@
     invoke-virtual {v0, p3}, Landroid/widget/TextView;->setVisibility(I)V
 
     :cond_0
-    const p3, 0x7f0b0a22
+    sget p3, Lcom/resouce/module/ResID;->et_edit_ref1:I
 
     .line 11
     invoke-virtual {v1, p3}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1695,7 +1695,7 @@
 
     check-cast p3, Lcn/wps/moffice/spreadsheet/control/composeedit/MyNumberPicker;
 
-    const v0, 0x7f0b0a23
+    sget v0, Lcom/resouce/module/ResID;->et_edit_ref2:I
 
     .line 12
     invoke-virtual {v1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -2244,7 +2244,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e01e3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_edit_ref_choise_row:I
 
     const/4 v3, 0x0
 
@@ -2544,7 +2544,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e095f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_edit_ref_choise_single:I
 
     const/4 v3, 0x0
 
@@ -3795,7 +3795,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0707fc
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_pop_arrow_height:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -3817,7 +3817,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0707fc
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_pop_arrow_height:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

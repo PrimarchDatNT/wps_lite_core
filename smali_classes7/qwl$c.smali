@@ -132,7 +132,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d17
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_bottom_panel_title_height_without_shadow:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I

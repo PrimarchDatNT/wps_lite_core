@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.writer.shell.pad.edittoolbar.MonitorStateScrollView android:id="@id/arrow_scroll_view" android:layout_width="fill_parent" android:layout_height="40.0dip" />
-    <ImageView android:id="@id/arrow_view_left" android:src="@drawable/pad_comp_common_moretool_left" android:layout_alignParentLeft="true" style="@style/writer_edittoolbar_arrow_image" />
-    <ImageView android:id="@id/arrow_view_right" android:src="@drawable/pad_comp_common_moretool" android:layout_alignParentRight="true" style="@style/writer_edittoolbar_arrow_image" />
-</merge>

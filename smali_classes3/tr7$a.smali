@@ -91,7 +91,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1213a3
+    sget v4, Lcom/resouce/module/ResSTRING;->member_center_user_portrait_url:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

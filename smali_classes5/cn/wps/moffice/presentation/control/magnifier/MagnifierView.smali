@@ -37,12 +37,12 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f060043
+    sget p2, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f06000b
+    sget p2, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     :goto_0
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I

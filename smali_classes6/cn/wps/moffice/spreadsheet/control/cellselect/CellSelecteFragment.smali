@@ -397,7 +397,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->d0:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v1, 0x7f0b2d56
+    sget v1, Lcom/resouce/module/ResID;->ss_series_from_row:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;->g(I)V
 
@@ -407,7 +407,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->d0:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v1, 0x7f0b2d54
+    sget v1, Lcom/resouce/module/ResID;->ss_series_from_col:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;->g(I)V
 
@@ -501,7 +501,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b2d56
+    sget v4, Lcom/resouce/module/ResID;->ss_series_from_row:I
 
     if-ne v3, v4, :cond_0
 
@@ -679,7 +679,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1219a8
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_ss_select:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -732,7 +732,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f122fd6
+    sget v1, Lcom/resouce/module/ResSTRING;->ss_long_pic_select_cell_top_tips:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -789,7 +789,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f120c4e
+    sget v2, Lcom/resouce/module/ResSTRING;->et_split_table_range:I
 
     invoke-virtual {p2, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1024,7 +1024,7 @@
 
     move-result v3
 
-    const v4, 0x7f0b2d56
+    sget v4, Lcom/resouce/module/ResID;->ss_series_from_row:I
 
     if-ne v3, v4, :cond_0
 
@@ -1078,12 +1078,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0e093b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_cell_select_view:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0e01b4
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_cell_select_view:I
 
     :goto_0
     const/4 v4, 0x0
@@ -1096,7 +1096,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b091d
+    sget v3, Lcom/resouce/module/ResID;->et_cell_select_view_finish_btn:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1110,7 +1110,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2ce7
+    sget v3, Lcom/resouce/module/ResID;->ss_chart_series_from_layout:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1121,7 +1121,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2d55
+    sget v3, Lcom/resouce/module/ResID;->ss_series_from_radiogroup:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1134,7 +1134,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2d56
+    sget v3, Lcom/resouce/module/ResID;->ss_series_from_row:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1150,7 +1150,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b2d54
+    sget v3, Lcom/resouce/module/ResID;->ss_series_from_col:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1215,7 +1215,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b091e
+    sget v3, Lcom/resouce/module/ResID;->et_cell_select_view_textview:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1343,7 +1343,7 @@
     .line 25
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b091b
+    sget v3, Lcom/resouce/module/ResID;->et_cell_select_view_container:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1354,7 +1354,7 @@
     .line 26
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Y:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b091c
+    sget v3, Lcom/resouce/module/ResID;->et_cell_select_view_divider:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1366,9 +1366,9 @@
     :cond_5
     iget-boolean v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->q0:Z
 
-    const v3, 0x7f0602c2
+    sget v3, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
-    const v4, 0x7f060626
+    sget v4, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     if-eqz v0, :cond_6
 
@@ -1380,7 +1380,7 @@
     .line 29
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Z:Landroid/widget/TextView;
 
-    const v1, 0x7f122981
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1432,7 +1432,7 @@
     .line 36
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Z:Landroid/widget/TextView;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1479,7 +1479,7 @@
     .line 42
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/CellSelecteFragment;->Z:Landroid/widget/TextView;
 
-    const v2, 0x7f122018
+    sget v2, Lcom/resouce/module/ResSTRING;->public_done:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -1488,7 +1488,7 @@
 
     if-eqz v0, :cond_8
 
-    const v2, 0x7f08130b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_public_panel_topbar_bg:I
 
     .line 44
     invoke-virtual {v0, v2}, Landroid/view/View;->setBackgroundResource(I)V

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="210.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_home_drive_file_sort">
-        <Button android:id="@id/published_file_send" android:text="@string/documentmanager_send" style="@style/phone_home_drive_file_sort_bn" />
-        <Button android:textColor="@color/mainColor" android:id="@id/published_file_delete" android:text="@string/public_delete" style="@style/phone_home_drive_file_sort_bn" />
-    </LinearLayout>
-</LinearLayout>

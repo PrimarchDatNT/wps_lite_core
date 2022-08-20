@@ -20,12 +20,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -105,7 +105,7 @@
 
     move-result v0
 
-    const v1, 0x7f0e0bf8
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_fileradar_info_panel_layout:I
 
     if-nez v0, :cond_1
 
@@ -129,7 +129,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0bf9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_fileradar_info_panel_layout_oversea:I
 
     return v0
 
@@ -206,7 +206,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0707bc
+    sget v5, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -264,7 +264,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0b2ade
+    sget v1, Lcom/resouce/module/ResID;->see_all_files:I
 
     .line 20
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -295,7 +295,7 @@
 
     :cond_1
     :goto_0
-    const v1, 0x7f0b13cd
+    sget v1, Lcom/resouce/module/ResID;->item_label:I
 
     .line 24
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -348,7 +348,7 @@
 .method public b3()V
     .locals 2
 
-    const v0, 0x7f0b12ef    # 1.84861E38f
+    sget v0, Lcom/resouce/module/ResID;->info_detail:I    # 1.84861E38f
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -368,7 +368,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f12121b
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_file_radar_show_homepage_info:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -376,7 +376,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f12121e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_assistant_foreign_file_radar_show_homepage_info:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

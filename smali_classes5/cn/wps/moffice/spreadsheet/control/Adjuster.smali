@@ -63,22 +63,22 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f0801d7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_align_auto_wrap:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f080be4
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_newlines_et:I
 
     :goto_0
     if-eqz v1, :cond_1
 
-    const v1, 0x7f121d70
+    sget v1, Lcom/resouce/module/ResSTRING;->public_auto_wrap:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f1225d5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pad_auto_wrap:I
 
     :goto_1
     invoke-direct {v0, p0, v2, v1}, Lcn/wps/moffice/spreadsheet/control/Adjuster$2;-><init>(Lcn/wps/moffice/spreadsheet/control/Adjuster;II)V
@@ -92,15 +92,15 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f081425
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autoadjust_colheght:I
 
     goto :goto_2
 
     :cond_2
-    const v1, 0x7f080e09
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_fit_column_width_et:I
 
     :goto_2
-    const v2, 0x7f120c60
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust_colheght:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Adjuster$3;-><init>(Lcn/wps/moffice/spreadsheet/control/Adjuster;II)V
 
@@ -113,15 +113,15 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f081426
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_ss_toolbar_autoadjust_rowheight:I
 
     goto :goto_3
 
     :cond_3
-    const v1, 0x7f080e0b
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_fit_line_height_et:I
 
     :goto_3
-    const v2, 0x7f120c61
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust_rowheight:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Adjuster$4;-><init>(Lcn/wps/moffice/spreadsheet/control/Adjuster;II)V
 
@@ -130,9 +130,9 @@
     .line 7
     new-instance v0, Lcn/wps/moffice/spreadsheet/control/Adjuster$8;
 
-    const v1, 0x7f080e50
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_resize_et:I
 
-    const v2, 0x7f120c5f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_toolbar_autoadjust:I
 
     const/4 v3, 0x1
 

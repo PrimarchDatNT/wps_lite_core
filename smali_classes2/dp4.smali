@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060456
+    sget v3, Lcom/resouce/module/ResCOLOR;->phone_public_dialog_highlight_color:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -462,7 +462,7 @@
 
     if-eqz v2, :cond_3
 
-    const v4, 0x7f0b047a
+    sget v4, Lcom/resouce/module/ResID;->cloud_upgrade_extra_view:I
 
     .line 10
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0e0b49
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_cloud_guide_upgrade_dialog_layout:I
 
     invoke-virtual {v2, v4, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     invoke-virtual {p0, v4}, Landroid/widget/Button;->setMinimumWidth(I)V
 
     :cond_4
-    const p0, 0x7f0b047c
+    sget p0, Lcom/resouce/module/ResID;->cloud_upgrade_file_icon_view:I
 
     .line 17
     invoke-virtual {v2, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -552,7 +552,7 @@
 
     check-cast p0, Landroid/widget/ImageView;
 
-    const v4, 0x7f0b047d
+    sget v4, Lcom/resouce/module/ResID;->cloud_upgrade_file_name_view:I
 
     .line 18
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b047e
+    sget v5, Lcom/resouce/module/ResID;->cloud_upgrade_file_size_view:I
 
     .line 19
     invoke-virtual {v2, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -570,7 +570,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b047f
+    sget v6, Lcom/resouce/module/ResID;->cloud_upgrade_text_content_view:I
 
     .line 20
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -579,7 +579,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b047b
+    sget v7, Lcom/resouce/module/ResID;->cloud_upgrade_file_from_view:I
 
     .line 21
     invoke-virtual {v2, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -634,7 +634,7 @@
     .line 26
     invoke-virtual {v2, v7}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v8, 0x7f120ffd
+    sget v8, Lcom/resouce/module/ResSTRING;->home_open_radar_from:I
 
     .line 27
     invoke-virtual {v1, v8}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1057,13 +1057,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0b4b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_cloud_popup_close_btn_dialog:I
 
     invoke-virtual {v1, v2, v12}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b0484
+    sget v2, Lcom/resouce/module/ResID;->cloud_user_recall_img_view:I
 
     .line 19
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1072,14 +1072,14 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0483
+    sget v3, Lcom/resouce/module/ResID;->cloud_user_recall_close_view:I
 
     .line 20
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
-    const v4, 0x7f0b0482
+    sget v4, Lcom/resouce/module/ResID;->cloud_user_recall_btn_view:I
 
     .line 21
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1095,7 +1095,7 @@
 
     if-eqz v5, :cond_9
 
-    const v5, 0x7f0b0255
+    sget v5, Lcom/resouce/module/ResID;->bottom_content_view:I
 
     .line 23
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1107,7 +1107,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0600b1
+    sget v7, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1118,7 +1118,7 @@
     :cond_9
     if-eqz v16, :cond_a
 
-    const v5, 0x7f121ef2
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_user_recall_dialog_share_btn_text:I
 
     .line 25
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
@@ -2057,7 +2057,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1212e5
+    sget v7, Lcom/resouce/module/ResSTRING;->infoflow_share_qq:I
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2080,7 +2080,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f1212e8
+    sget v7, Lcom/resouce/module/ResSTRING;->infoflow_share_wx:I
 
     invoke-virtual {v6, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

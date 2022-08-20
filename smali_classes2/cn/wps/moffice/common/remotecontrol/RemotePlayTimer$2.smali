@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f1229bc
+    sget v4, Lcom/resouce/module/ResSTRING;->public_shareplay_connect_fail:I
 
     invoke-static {v0, v4, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f121bd0
+    sget v4, Lcom/resouce/module/ResSTRING;->ppt_remote_delay:I
 
     invoke-static {v0, v4, v3}, Lbih;->n(Landroid/content/Context;II)V
 

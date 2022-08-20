@@ -49,7 +49,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2c70
+    sget v1, Lcom/resouce/module/ResID;->sort_btn:I
 
     if-ne v0, v1, :cond_0
 
@@ -106,7 +106,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b19f6
+    sget v1, Lcom/resouce/module/ResID;->new_folder_btn:I
 
     if-ne v0, v1, :cond_2
 

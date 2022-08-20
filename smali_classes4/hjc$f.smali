@@ -519,7 +519,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f13012d
+    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {v0, v1, v3}, Lm76;-><init>(Landroid/content/Context;I)V
 
@@ -536,7 +536,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220e2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1220cf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220ee
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_with_doc:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

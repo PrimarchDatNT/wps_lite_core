@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120768
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chart_clustered:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120766
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chart_bar:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f120769
+    sget v5, Lcom/resouce/module/ResSTRING;->et_chart_line:I
 
     invoke-virtual {v3, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f12076a
+    sget v7, Lcom/resouce/module/ResSTRING;->et_chart_pie:I
 
     invoke-virtual {v5, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -204,7 +204,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f120765
+    sget v9, Lcom/resouce/module/ResSTRING;->et_chart_area:I
 
     invoke-virtual {v7, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -239,7 +239,7 @@
 
     move-result-object v9
 
-    const v11, 0x7f12076d
+    sget v11, Lcom/resouce/module/ResSTRING;->et_chart_xy:I
 
     invoke-virtual {v9, v11}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -278,7 +278,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f12076b
+    sget v12, Lcom/resouce/module/ResSTRING;->et_chart_radar:I
 
     invoke-virtual {v11, v12}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

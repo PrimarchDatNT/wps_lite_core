@@ -122,7 +122,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->T:Landroid/view/View;
 
-    const v1, 0x7f0b08c7
+    sget v1, Lcom/resouce/module/ResID;->etPrintTabHost:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0aeb
+    sget v1, Lcom/resouce/module/ResID;->et_page_setting_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -188,7 +188,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0b01
+    sget v1, Lcom/resouce/module/ResID;->et_print_area_set_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0b20
+    sget v1, Lcom/resouce/module/ResID;->et_print_preview_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -260,7 +260,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/print/PrintTabHost;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0b2e
+    sget v1, Lcom/resouce/module/ResID;->et_print_setting_stub:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

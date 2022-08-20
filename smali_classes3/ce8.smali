@@ -343,7 +343,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f121310
+    sget v2, Lcom/resouce/module/ResSTRING;->klog_secret_key_one:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f121311
+    sget v2, Lcom/resouce/module/ResSTRING;->klog_secret_key_two:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

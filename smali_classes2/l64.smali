@@ -238,7 +238,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f123299    # 1.9433E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_count_words:I    # 1.9433E38f
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
     .line 3
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0c6a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     :cond_0
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f0e0c6b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_infoflow_card_layout_new:I
 
     invoke-virtual {v0, v2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -378,7 +378,7 @@
 
     iput-object p1, p0, Ll64;->g:Landroid/view/View;
 
-    const v0, 0x7f0b2641
+    sget v0, Lcom/resouce/module/ResID;->public_infoflow_cardview:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -395,7 +395,7 @@
 
     iget-object p1, p1, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v0, 0x7f12145d
+    sget v0, Lcom/resouce/module/ResSTRING;->name_recommanded:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 
@@ -425,7 +425,7 @@
     .line 11
     iget-object p1, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0e0c85
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_share_card:I
 
     iget-object v2, p0, Ll64;->k:Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;
 
@@ -439,7 +439,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0f3e
+    sget v0, Lcom/resouce/module/ResID;->grid:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -544,7 +544,7 @@
     :cond_1
     iget-object v5, p0, Ll64;->h:Lcn/wps/moffice/common/beans/phone/grid/TextImageGrid;
 
-    const v6, 0x7f0e0c73
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_infoflow_function_item:I
 
     invoke-virtual {v0, v6, v5, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -552,7 +552,7 @@
 
     check-cast v5, Landroid/widget/LinearLayout;
 
-    const v6, 0x7f0b1261
+    sget v6, Lcom/resouce/module/ResID;->image:I
 
     .line 5
     invoke-virtual {v5, v6}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -561,7 +561,7 @@
 
     check-cast v6, Lcn/wps/moffice/common/beans/phone/CircleClolorImageView;
 
-    const v7, 0x7f0b2ee9
+    sget v7, Lcom/resouce/module/ResID;->text:I
 
     .line 6
     invoke-virtual {v5, v7}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -767,7 +767,7 @@
     .line 2
     iget-object v0, v0, Lcn/wps/moffice/common/infoflow/base/view/CardBaseView;->B:Lcn/wps/moffice/common/infoflow/base/view/CardTitle;
 
-    const v1, 0x7f122950
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/infoflow/base/view/CardTitle;->setTitleText(I)V
 

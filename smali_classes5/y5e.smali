@@ -223,13 +223,13 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f12269b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_premium_play_record_desc:I
 
-    const v3, 0x7f121bb3
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_play_record:I
 
-    const v4, 0x7f0601a6
+    sget v4, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v5, 0x7f080745
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_play_record:I
 
     const/4 v6, 0x1
 
@@ -582,7 +582,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122668
+    sget v2, Lcom/resouce/module/ResSTRING;->public_play_stop_record:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -590,12 +590,12 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f122656
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play_exit_record_alert_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v2, 0x0
 
@@ -607,11 +607,11 @@
 
     invoke-direct {v1, p1}, Ly5e$i;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122087
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f0b069c
+    sget p1, Lcom/resouce/module/ResID;->dialog_scrollview:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -622,7 +622,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f080b02
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->none_bg_selector:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -661,12 +661,12 @@
 
     invoke-virtual {v0, v1, v2, p0}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p0, 0x7f1227df
+    sget p0, Lcom/resouce/module/ResSTRING;->public_record_audio_permission_message:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -695,7 +695,7 @@
 
     move-result v1
 
-    const v2, 0x7f121c8e
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_go_premium:I
 
     if-eqz v1, :cond_0
 
@@ -704,7 +704,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f120fb1
+    sget v3, Lcom/resouce/module/ResSTRING;->home_membership_purchasing_membership:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -742,7 +742,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f12265f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_play_record_pay_member_and_trial_desc:I
 
     new-array v7, v1, [Ljava/lang/Object;
 
@@ -764,7 +764,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122660
+    sget p2, Lcom/resouce/module/ResSTRING;->public_play_record_pay_member_desc:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -786,7 +786,7 @@
 
     if-eqz p1, :cond_2
 
-    const v2, 0x7f12101c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_pay_buy_now:I
 
     .line 10
     :cond_2
@@ -794,7 +794,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f06025d
+    sget p2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -848,7 +848,7 @@
     .line 18
     invoke-static {p0}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
 
-    const p0, 0x7f1225fa
+    sget p0, Lcom/resouce/module/ResSTRING;->public_pay_try:I
 
     .line 19
     new-instance p1, Ly5e$l;
@@ -858,7 +858,7 @@
     invoke-virtual {v0, p0, p1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     :cond_3
-    const p0, 0x7f122087
+    sget p0, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     .line 20
     new-instance p1, Ly5e$a;
@@ -899,12 +899,12 @@
 
     invoke-virtual {v0, v1, v2, p0}, Lhd3;->setPhoneDialogStyle(ZZLcn/wps/moffice/plugin/bridge/appointment/ICustomDialog$TouchType;)V
 
-    const p0, 0x7f122661
+    sget p0, Lcom/resouce/module/ResSTRING;->public_play_record_save_no_enough_space_msg:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -928,7 +928,7 @@
 
     invoke-direct {v0, p0}, Ld5e;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122676
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ppt_record_save_to_camera_done:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -937,7 +937,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const v1, 0x7f12282c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save_succeed:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -959,7 +959,7 @@
 
     invoke-direct {v1}, Ly5e$e;-><init>()V
 
-    const v2, 0x7f121e1b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_close:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -968,7 +968,7 @@
 
     invoke-direct {v1, p0}, Ly5e$f;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f122677
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ppt_record_view_video:I
 
     invoke-virtual {v0, p0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

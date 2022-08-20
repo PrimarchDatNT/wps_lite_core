@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -122,7 +122,7 @@
 
     if-ge v4, v2, :cond_3
 
-    const v6, 0x7f0e0dee
+    sget v6, Lcom/resouce/module/ResLAYOUT;->public_print_list_dialog_item:I
 
     .line 5
     new-instance v7, Landroid/widget/FrameLayout;
@@ -132,7 +132,7 @@
     .line 6
     invoke-virtual {v7, v3}, Landroid/widget/FrameLayout;->setFocusable(Z)V
 
-    const v8, 0x7f0819f6
+    sget v8, Lcom/resouce/module/ResDRAWABLE;->public_list_selector_bg:I
 
     .line 7
     invoke-virtual {v7, v8}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -165,7 +165,7 @@
     .line 13
     invoke-virtual {v6, v4}, Landroid/view/View;->setId(I)V
 
-    const v9, 0x7f0b2667
+    sget v9, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 14
     invoke-virtual {v6, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     const/16 v11, 0x8
 
-    const v12, 0x7f0b2664
+    sget v12, Lcom/resouce/module/ResID;->public_item_image:I
 
     if-eq v10, v5, :cond_0
 
@@ -218,7 +218,7 @@
     invoke-virtual {v9, v10, v3, v3, v3}, Landroid/widget/TextView;->setPadding(IIII)V
 
     :goto_1
-    const v10, 0x7f0b2666
+    sget v10, Lcom/resouce/module/ResID;->public_item_red:I
 
     .line 19
     invoke-virtual {v6, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;

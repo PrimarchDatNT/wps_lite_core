@@ -134,7 +134,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0414
+    sget v1, Lcom/resouce/module/ResLAYOUT;->item_guessed_match_files_select:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -151,7 +151,7 @@
 
     iput-object p3, p0, Ltp6$b;->B:Ltp6$d;
 
-    const v1, 0x7f0b0d34
+    sget v1, Lcom/resouce/module/ResID;->file_title:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -165,7 +165,7 @@
     .line 4
     iget-object p3, p0, Ltp6$b;->B:Ltp6$d;
 
-    const v1, 0x7f0b0cb1
+    sget v1, Lcom/resouce/module/ResID;->file_attrs:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
     .line 5
     iget-object p3, p0, Ltp6$b;->B:Ltp6$d;
 
-    const v1, 0x7f0b0cec
+    sget v1, Lcom/resouce/module/ResID;->file_path:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     .line 6
     iget-object p3, p0, Ltp6$b;->B:Ltp6$d;
 
-    const v1, 0x7f0b2af9
+    sget v1, Lcom/resouce/module/ResID;->select_radio:I
 
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

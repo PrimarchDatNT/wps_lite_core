@@ -67,7 +67,7 @@
     .line 8
     iget-object p1, p0, Lfmf;->T:Landroid/view/View;
 
-    const v0, 0x7f0b09be
+    sget v0, Lcom/resouce/module/ResID;->et_complex_format_title_bar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
 
     iget-object v0, p0, Lfmf;->B:Landroid/content/Context;
 
-    const v1, 0x7f1207cd
+    sget v1, Lcom/resouce/module/ResSTRING;->et_complex_format_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -99,7 +99,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0e02b1
+    sget p3, Lcom/resouce/module/ResLAYOUT;->func_pdf_to_doc_privileges_list_item:I
 
     const/4 v0, 0x0
 
@@ -177,7 +177,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060625
+    sget v0, Lcom/resouce/module/ResCOLOR;->subSecondBackgroundColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -197,7 +197,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060035
+    sget v0, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 

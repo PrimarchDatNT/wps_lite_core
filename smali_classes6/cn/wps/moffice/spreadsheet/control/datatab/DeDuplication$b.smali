@@ -164,7 +164,7 @@
 
     :cond_2
     :goto_1
-    const v0, 0x7f12083c
+    sget v0, Lcom/resouce/module/ResSTRING;->et_deduplication_error_invalid_data_toast:I
 
     const/4 v1, 0x0
 

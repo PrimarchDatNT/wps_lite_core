@@ -130,7 +130,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605f1
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -143,7 +143,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0707a0
+    sget v0, Lcom/resouce/module/ResDIMEN;->phone_public_default_text_size_sp:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

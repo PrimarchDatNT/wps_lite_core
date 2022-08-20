@@ -40,7 +40,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -59,7 +59,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 1
 
-    const v0, 0x7f13012d
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     .line 4
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -297,7 +297,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e089a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_infoflow_layout:I
 
     const/4 v2, 0x0
 
@@ -311,7 +311,7 @@
     .line 3
     invoke-virtual {p0, v0}, Lhd3;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b1301
+    sget v0, Lcom/resouce/module/ResID;->infoflow_titleBar:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -346,7 +346,7 @@
 
     iget-object v1, p0, Li44;->B:Landroid/content/Context;
 
-    const v2, 0x7f1227d4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_recommend:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setBottomShadowVisibility(I)V
 
-    const v0, 0x7f0b2549
+    sget v0, Lcom/resouce/module/ResID;->progress_progressbar:I
 
     .line 10
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -397,7 +397,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    const v0, 0x7f0b161d
+    sget v0, Lcom/resouce/module/ResID;->list:I
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

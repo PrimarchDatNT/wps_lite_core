@@ -67,7 +67,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b36de
+    sget v4, Lcom/resouce/module/ResID;->writer_words_part:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -84,7 +84,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b34cc
+    sget v4, Lcom/resouce/module/ResID;->writer_characters_with_spaces_part:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -101,7 +101,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b34ca
+    sget v4, Lcom/resouce/module/ResID;->writer_characters_part:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b36dd
+    sget v4, Lcom/resouce/module/ResID;->writer_words:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -135,7 +135,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b34cb
+    sget v4, Lcom/resouce/module/ResID;->writer_characters_with_spaces:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -152,7 +152,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b34c9
+    sget v4, Lcom/resouce/module/ResID;->writer_characters:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -178,7 +178,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b34d6
+    sget v5, Lcom/resouce/module/ResID;->writer_count_include_checkbox:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -201,12 +201,12 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f123296
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_count_include_footnotes_endnotes:I
 
     goto :goto_0
 
     :cond_0
-    const v4, 0x7f123298
+    sget v4, Lcom/resouce/module/ResSTRING;->writer_count_include_textboxes_footnotes_endnotes:I
 
     :goto_0
     invoke-virtual {v3, v4}, Lcn/wps/moffice/common/beans/CustomCheckBox;->setText(I)V
@@ -242,7 +242,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b346e
+    sget v5, Lcom/resouce/module/ResID;->wordcounts_showwordnumber:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -250,7 +250,7 @@
     goto/16 :goto_1
 
     :catch_0
-    const v0, 0x7f120019
+    sget v0, Lcom/resouce/module/ResSTRING;->OutOfMemoryError:I
 
     .line 8
     :try_start_1
@@ -310,7 +310,7 @@
     goto :goto_0
 
     :catch_3
-    const v5, 0x7f12072c
+    sget v5, Lcom/resouce/module/ResSTRING;->et_CircleReferenceException:I
 
     .line 14
     invoke-static {v5, v3}, Lsjf;->k(II)V
@@ -334,7 +334,7 @@
     goto :goto_0
 
     :catch_4
-    const v0, 0x7f120014
+    sget v0, Lcom/resouce/module/ResSTRING;->InvalidPasteException:I
 
     .line 17
     invoke-static {v0, v4}, Lsjf;->k(II)V
@@ -351,7 +351,7 @@
     goto :goto_0
 
     :catch_5
-    const v0, 0x7f12072f
+    sget v0, Lcom/resouce/module/ResSTRING;->et_adjust_result_err_merged_range:I
 
     .line 19
     invoke-static {v0, v4}, Lsjf;->k(II)V

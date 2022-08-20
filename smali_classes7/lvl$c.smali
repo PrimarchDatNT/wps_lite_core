@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0706e1
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_phone_dropdown_vertical_offset:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

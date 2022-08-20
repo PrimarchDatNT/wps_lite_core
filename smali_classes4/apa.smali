@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212a3
+    sget v1, Lcom/resouce/module/ResSTRING;->https_moapi_wps_cn_v1_push_center:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1212a4
+    sget v1, Lcom/resouce/module/ResSTRING;->https_moapi_wps_en_v1_push_center:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

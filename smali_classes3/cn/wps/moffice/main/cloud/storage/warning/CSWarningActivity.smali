@@ -45,7 +45,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/cloud/storage/warning/CSWarningActivity;->W:Lhd3;
 
-    const v1, 0x7f122bdf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -57,7 +57,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/main/cloud/storage/warning/CSWarningActivity$a;-><init>(Lcn/wps/moffice/main/cloud/storage/warning/CSWarningActivity;)V
 
-    const v2, 0x7f122567
+    sget v2, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -71,7 +71,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/storage/warning/CSWarningActivity;->W:Lhd3;
 
-    const v1, 0x7f120ed1
+    sget v1, Lcom/resouce/module/ResSTRING;->home_cloudstorage_evernote_waring_has_multi_same_name_resources:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -121,7 +121,7 @@
     .line 4
     invoke-static {p1, v0}, Lxih;->h(Landroid/view/Window;Z)Z
 
-    const p1, 0x7f130158
+    sget p1, Lcom/resouce/module/ResSTYLE;->HomeTheme:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setTheme(I)V
@@ -131,7 +131,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f130494
+    sget v1, Lcom/resouce/module/ResSTYLE;->home_translucent_activity_style:I
 
     invoke-virtual {p1, v1, v0}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 

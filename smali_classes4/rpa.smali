@@ -178,12 +178,12 @@
 
     if-lt v6, v8, :cond_6
 
-    const v6, 0x7f081a5d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_3
 
     :cond_6
-    const v6, 0x7f081984
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     goto :goto_3
 
@@ -297,7 +297,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e0b93
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_custom_notification_pull_ad:I
 
     invoke-direct {v2, v3, v4}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -328,7 +328,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b1a69
+    sget v4, Lcom/resouce/module/ResID;->notification_icon:I
 
     if-eqz v3, :cond_0
 
@@ -338,13 +338,13 @@
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f081d0e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->push:I
 
     .line 6
     invoke-virtual {v2, v4, v3}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
     :goto_0
-    const v3, 0x7f0b1a67
+    sget v3, Lcom/resouce/module/ResID;->notification_bg:I
 
     const/16 v5, 0x8
 
@@ -356,19 +356,19 @@
     .line 8
     invoke-virtual {v2, v4, v3}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v4, 0x7f0b1a6d    # 1.848999E38f
+    sget v4, Lcom/resouce/module/ResID;->notification_style1:I    # 1.848999E38f
 
     .line 9
     invoke-virtual {v2, v4, v3}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
 
-    const v4, 0x7f0b1a6f    # 1.8489994E38f
+    sget v4, Lcom/resouce/module/ResID;->notification_style1_title:I    # 1.8489994E38f
 
     .line 10
     iget-object v5, v0, Lcn/wps/moffice/main/ad/s2s/CommonBean;->title:Ljava/lang/String;
 
     invoke-virtual {v2, v4, v5}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
-    const v4, 0x7f0b1a6e    # 1.8489992E38f
+    sget v4, Lcom/resouce/module/ResID;->notification_style1_content:I    # 1.8489992E38f
 
     .line 11
     iget-object v5, v0, Lcn/wps/moffice/main/ad/s2s/CommonBean;->desc:Ljava/lang/String;
@@ -718,12 +718,12 @@
 
     if-lt v3, v4, :cond_0
 
-    const v3, 0x7f081a5d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f081984
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     goto :goto_0
 
@@ -996,12 +996,12 @@
 
     if-lt v6, v7, :cond_4
 
-    const v6, 0x7f081a5d
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     goto :goto_2
 
     :cond_4
-    const v6, 0x7f081984
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     goto :goto_2
 

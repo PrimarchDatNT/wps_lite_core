@@ -188,7 +188,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f12254f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_not_logged_in:I
 
     .line 3
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
@@ -260,7 +260,7 @@
 
     invoke-virtual {p2}, Loj5;->f()V
 
-    const p2, 0x7f12050c
+    sget p2, Lcom/resouce/module/ResSTRING;->docer_mb_download_json_error:I
 
     .line 11
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

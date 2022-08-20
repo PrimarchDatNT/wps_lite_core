@@ -159,7 +159,7 @@
 
     iget-object v1, p0, Llub;->B:Landroid/app/Activity;
 
-    const v2, 0x7f0b1302
+    sget v2, Lcom/resouce/module/ResID;->infoflow_vertical:I
 
     invoke-direct {v0, v1, v2}, Lcn/wps/moffice/share/screenshot/ScreenShotShareTracker;-><init>(Landroid/app/Activity;I)V
 

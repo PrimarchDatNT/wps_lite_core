@@ -24,7 +24,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0b1e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog_choose_item_layout:I
 
     .line 2
     :goto_0
@@ -71,7 +71,7 @@
     invoke-virtual {p0, p1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_1
-    const p1, 0x7f0b06cb
+    sget p1, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
     :goto_1
     invoke-virtual {p1, p3}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b3012
+    sget p1, Lcom/resouce/module/ResID;->title_text:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -102,7 +102,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p3, 0x7f0b2acf
+    sget p3, Lcom/resouce/module/ResID;->second_title_text:I
 
     .line 10
     invoke-virtual {p0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
 
     check-cast p3, Landroid/widget/TextView;
 
-    const v2, 0x7f0b2ad0
+    sget v2, Lcom/resouce/module/ResID;->second_title_text_right_icon:I
 
     .line 11
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const v2, 0x7f0b2b04
+    sget v2, Lcom/resouce/module/ResID;->selected_icon:I
 
     .line 13
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0b24
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_bottom_dialog_share_item_layout:I
 
     const/4 v1, 0x0
 
@@ -221,7 +221,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0b2b79
+    sget p1, Lcom/resouce/module/ResID;->share_item_div:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -239,7 +239,7 @@
     :goto_0
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b2b75
+    sget p1, Lcom/resouce/module/ResID;->share_icon:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -248,7 +248,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const p3, 0x7f0b2ba8
+    sget p3, Lcom/resouce/module/ResID;->share_title:I
 
     .line 5
     invoke-virtual {p0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0b2c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_bottom_operation_item_layout:I
 
     const/4 v1, 0x0
 
@@ -293,7 +293,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0b26ab
+    sget p1, Lcom/resouce/module/ResID;->public_operation_item_divide:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -315,7 +315,7 @@
     :goto_0
     invoke-virtual {p1, p3}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b26ad
+    sget p1, Lcom/resouce/module/ResID;->public_operation_item_title:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    const p3, 0x7f0b26ac
+    sget p3, Lcom/resouce/module/ResID;->public_operation_item_sub_title:I
 
     .line 5
     invoke-virtual {p0, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -333,7 +333,7 @@
 
     check-cast p3, Landroid/widget/TextView;
 
-    const v2, 0x7f0b26ae
+    sget v2, Lcom/resouce/module/ResID;->public_operation_item_title_vip_icon:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

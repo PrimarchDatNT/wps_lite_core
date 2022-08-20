@@ -489,7 +489,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602cd
+    sget v2, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {v1, v2}, Ldgh;->o1(Landroid/content/Context;I)V
 
@@ -579,7 +579,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->o1(Landroid/content/Context;I)V
 
@@ -852,7 +852,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0600b1
+    sget p3, Lcom/resouce/module/ResCOLOR;->color_white:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 

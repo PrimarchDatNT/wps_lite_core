@@ -16,7 +16,7 @@
 .method public static a(Landroid/content/Context;)V
     .locals 4
 
-    const v0, 0x7f121348
+    sget v0, Lcom/resouce/module/ResSTRING;->lelink_help:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -26,7 +26,7 @@
     .line 2
     new-instance v1, Ljl3;
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     const/4 v3, 0x0
 

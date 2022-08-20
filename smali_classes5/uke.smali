@@ -154,7 +154,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0b32d4
+    sget v0, Lcom/resouce/module/ResID;->txt_title:I
 
     .line 1
     invoke-virtual {p1, v0}, Lpke;->Q(I)Landroid/view/View;
@@ -163,7 +163,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f0b29c9
+    sget v1, Lcom/resouce/module/ResID;->rv_list:I
 
     .line 2
     invoke-virtual {p1, v1}, Lpke;->Q(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     check-cast v0, Lljp;
 
-    const v1, 0x7f0b29c9
+    sget v1, Lcom/resouce/module/ResID;->rv_list:I
 
     .line 5
     invoke-virtual {p1, v1}, Lpke;->Q(I)Landroid/view/View;
@@ -398,7 +398,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e08f4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_public_textboc_style_font_with_title:I
 
     const/4 v1, 0x0
 

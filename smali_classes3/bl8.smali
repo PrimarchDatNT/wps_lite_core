@@ -336,7 +336,7 @@
     .line 2
     iget-object v1, p0, Lbl8;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12262e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_phone_fileselctor_qq_doc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -351,7 +351,7 @@
 
     iget-object v1, p0, Lbl8;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122630
+    sget v2, Lcom/resouce/module/ResSTRING;->public_phone_fileselctor_wechat_doc:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -488,7 +488,7 @@
     .line 14
     iget-object p1, p0, Lbl8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     const/4 v1, 0x0
 
@@ -602,7 +602,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122192
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folderNotExist:I
 
     const/4 v2, 0x0
 
@@ -652,7 +652,7 @@
     .line 6
     iget-object v0, p0, Lbl8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f121129
+    sget v1, Lcom/resouce/module/ResSTRING;->home_roaming_source_this_device:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -664,7 +664,7 @@
     :cond_1
     iget-object v0, p0, Lbl8;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12262f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_phone_fileselctor_storage:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

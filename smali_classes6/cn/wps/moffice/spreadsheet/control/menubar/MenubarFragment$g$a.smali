@@ -47,7 +47,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2d6e
+    sget v1, Lcom/resouce/module/ResID;->ss_titlebar_multi_btn:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

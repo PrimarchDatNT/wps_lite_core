@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/content/Context;Ldf9;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 6
 
-    const v2, 0x7f13012d
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     move-object v0, p0
 
@@ -107,7 +107,7 @@
 
     if-eqz p2, :cond_0
 
-    const p2, 0x7f0e0c1c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_help_or_suggestion_dialog_pad:I
 
     .line 11
     invoke-virtual {p1, p2, p4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -119,7 +119,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e0c1b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_help_or_suggestion_dialog:I
 
     .line 12
     invoke-virtual {p1, p2, p4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -623,7 +623,7 @@
     .line 2
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0c9a
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_scroller:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -639,7 +639,7 @@
     .line 4
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0c9c
+    sget v2, Lcom/resouce/module/ResID;->feedback_file_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -890,7 +890,7 @@
     .line 34
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b300b
+    sget v2, Lcom/resouce/module/ResID;->title_select_issue:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -914,7 +914,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220dc
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_default:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
     .line 37
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1384
+    sget v2, Lcom/resouce/module/ResID;->issue_container:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -946,7 +946,7 @@
     .line 38
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1385
+    sget v2, Lcom/resouce/module/ResID;->issue_type:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -959,7 +959,7 @@
     .line 39
     iget-object v0, p0, Lm76;->T:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b07ce
+    sget v2, Lcom/resouce/module/ResID;->drop_down_iv:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1078,7 +1078,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_feedback_file_too_large:I
 
     const/4 v2, 0x0
 
@@ -1150,7 +1150,7 @@
 
     iget-object v1, p0, Lm76;->X:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e030b
+    sget v2, Lcom/resouce/module/ResLAYOUT;->home_feedback_item:I
 
     const/4 v3, 0x0
 
@@ -1158,7 +1158,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0c9b
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1174,7 +1174,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v1, 0x7f0b0c99
+    sget v1, Lcom/resouce/module/ResID;->feedback_file_delete:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1289,7 +1289,7 @@
     .line 2
     iget-object v1, p0, Lm76;->B:Landroid/content/Context;
 
-    const v2, 0x7f1220d3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_issue_type:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1304,7 +1304,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1324,7 +1324,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1343,7 +1343,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1220df
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_find_file:I
 
     .line 7
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1356,7 +1356,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1220dd
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_display:I
 
     .line 8
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1369,7 +1369,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1220e1
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_open_file:I
 
     .line 9
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1382,7 +1382,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1220e4
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_subscription:I
 
     .line 10
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1395,7 +1395,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f122a3a
+    sget v3, Lcom/resouce/module/ResSTRING;->public_suggestion_item:I
 
     .line 11
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1408,7 +1408,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1229fc
+    sget v3, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     .line 12
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1421,7 +1421,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f12116c
+    sget v3, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     .line 13
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1434,7 +1434,7 @@
 
     iget-object v0, p0, Lm76;->B:Landroid/content/Context;
 
-    const v3, 0x7f1220e2
+    sget v3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     .line 14
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1464,7 +1464,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0818b8
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_top_round_corner_bg:I
 
     const/4 v3, 0x0
 
@@ -1630,9 +1630,9 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v0, 0x7f1220e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_find:I
 
-    const v2, 0x7f1220df
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_find_file:I
 
     packed-switch v1, :pswitch_data_0
 
@@ -1644,9 +1644,9 @@
     goto :goto_1
 
     :pswitch_0
-    const v2, 0x7f1229fc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_signin:I
 
-    const v0, 0x7f1220e9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_login:I
 
     .line 3
     sget-object v1, Lh86$h;->V:Lh86$h;
@@ -1656,9 +1656,9 @@
     goto :goto_1
 
     :pswitch_1
-    const v2, 0x7f122a3a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_suggestion_item:I
 
-    const v0, 0x7f1220e7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_feature:I
 
     .line 4
     sget-object v1, Lh86$h;->U:Lh86$h;
@@ -1676,9 +1676,9 @@
     goto :goto_1
 
     :pswitch_3
-    const v2, 0x7f1220e4
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_subscription:I
 
-    const v0, 0x7f1220ec
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_subscription:I
 
     .line 6
     sget-object v1, Lh86$h;->T:Lh86$h;
@@ -1688,9 +1688,9 @@
     goto :goto_1
 
     :pswitch_4
-    const v2, 0x7f12116c
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
-    const v0, 0x7f1220e5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_cloud:I
 
     .line 7
     sget-object v1, Lh86$h;->W:Lh86$h;
@@ -1700,9 +1700,9 @@
     goto :goto_1
 
     :pswitch_5
-    const v2, 0x7f1220e1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_open_file:I
 
-    const v0, 0x7f1220ea
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_open:I
 
     .line 8
     sget-object v1, Lh86$h;->S:Lh86$h;
@@ -1712,9 +1712,9 @@
     goto :goto_1
 
     :pswitch_6
-    const v2, 0x7f1220e2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
-    const v0, 0x7f1220eb
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_other:I
 
     .line 9
     sget-object v1, Lh86$h;->X:Lh86$h;
@@ -1724,9 +1724,9 @@
     goto :goto_1
 
     :pswitch_7
-    const v2, 0x7f1220dd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_display:I
 
-    const v0, 0x7f1220e6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_feedback_tip_diaplay:I
 
     .line 10
     sget-object v1, Lh86$h;->I:Lh86$h;

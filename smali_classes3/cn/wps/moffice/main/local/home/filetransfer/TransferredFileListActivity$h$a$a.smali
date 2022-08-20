@@ -71,7 +71,7 @@
 
     if-eqz p2, :cond_1
 
-    const p2, 0x7f1222b3
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_local_file_uploaded_to_cloud_toast_errmsg:I
 
     const/4 v0, 0x0
 

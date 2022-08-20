@@ -556,7 +556,7 @@
 
     if-lez v2, :cond_3
 
-    const v2, 0x7f122644
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     .line 33
     invoke-static {v2, v1}, Lsjf;->h(II)V
@@ -564,7 +564,7 @@
     goto :goto_3
 
     :cond_3
-    const v2, 0x7f120bbf
+    sget v2, Lcom/resouce/module/ResSTRING;->et_pic_errorFile:I
 
     .line 34
     invoke-static {v2, v1}, Lsjf;->h(II)V
@@ -963,7 +963,7 @@
 
     if-lez v1, :cond_4
 
-    const v1, 0x7f122644
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     .line 37
     invoke-static {v1, v0}, Lsjf;->h(II)V
@@ -971,7 +971,7 @@
     goto :goto_5
 
     :cond_4
-    const v1, 0x7f120bbf
+    sget v1, Lcom/resouce/module/ResSTRING;->et_pic_errorFile:I
 
     .line 38
     invoke-static {v1, v0}, Lsjf;->h(II)V
@@ -1292,7 +1292,7 @@
 
     if-lez v2, :cond_1
 
-    const v2, 0x7f122644
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     .line 25
     invoke-static {v2, v0}, Lsjf;->h(II)V
@@ -1300,7 +1300,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f120bbf
+    sget v2, Lcom/resouce/module/ResSTRING;->et_pic_errorFile:I
 
     .line 26
     invoke-static {v2, v0}, Lsjf;->h(II)V
@@ -1624,7 +1624,7 @@
 
     if-lez v2, :cond_1
 
-    const v2, 0x7f122644
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     .line 31
     invoke-static {v2, v1}, Lsjf;->h(II)V
@@ -1632,7 +1632,7 @@
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f120bbf
+    sget v2, Lcom/resouce/module/ResSTRING;->et_pic_errorFile:I
 
     .line 32
     invoke-static {v2, v1}, Lsjf;->h(II)V

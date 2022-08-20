@@ -410,9 +410,9 @@
 
     const-string v3, "concise"
 
-    const v5, 0x7f081c2c
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_concise:I
 
-    const v6, 0x7f0606c5
+    sget v6, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v7, 0x0
 
@@ -439,9 +439,9 @@
 
     const-string v12, "coffice"
 
-    const v14, 0x7f081c2b
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_coffice:I
 
-    const v15, 0x7f0606c5
+    sget v15, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/16 v16, 0x1
 
@@ -477,9 +477,9 @@
 
     const-string v4, "flower"
 
-    const v6, 0x7f081c2e
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_flower:I
 
-    const v7, 0x7f0606c5
+    sget v7, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v8, 0x1
 
@@ -501,9 +501,9 @@
 
     invoke-direct {v13, v3, v4}, Ln9f;-><init>(Landroid/app/Activity;Ljava/lang/String;)V
 
-    const v14, 0x7f081c2a
+    sget v14, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_city:I
 
-    const v15, 0x7f0606c5
+    sget v15, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/16 v16, 0x1
 
@@ -536,9 +536,9 @@
 
     invoke-direct {v5, v3, v4}, Ls9f;-><init>(Landroid/app/Activity;Ljava/lang/String;)V
 
-    const v6, 0x7f081c36
+    sget v6, Lcom/resouce/module/ResDRAWABLE;->public_share_pic_thumbnails_moon:I
 
-    const v7, 0x7f0606c5
+    sget v7, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     const/4 v8, 0x1
 
@@ -578,7 +578,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e106a
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_alertdialog_share_card_layout:I
 
     const/4 v2, 0x0
 
@@ -712,7 +712,7 @@
     .line 2
     iget-object v0, p0, Lmrl;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2b56
+    sget v1, Lcom/resouce/module/ResID;->share_card_scroll_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -725,7 +725,7 @@
     .line 3
     iget-object v0, p0, Lmrl;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24fa
+    sget v1, Lcom/resouce/module/ResID;->preview_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -738,7 +738,7 @@
     .line 4
     iget-object v0, p0, Lmrl;->I:Landroid/view/View;
 
-    const v1, 0x7f0b24fb
+    sget v1, Lcom/resouce/module/ResID;->preview_horizontal_scrollview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -803,7 +803,7 @@
     .line 11
     iget-object v0, p0, Lmrl;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2bd5
+    sget v1, Lcom/resouce/module/ResID;->sharepreview_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -813,7 +813,7 @@
 
     iput-object v0, p0, Lmrl;->S:Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f122bc6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_bookmarkpic_share:I
 
     .line 12
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V

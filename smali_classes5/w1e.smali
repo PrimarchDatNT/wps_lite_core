@@ -576,7 +576,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->a0:Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;
 
-    const v1, 0x7f122561
+    sget v1, Lcom/resouce/module/ResSTRING;->public_note_audio_speak_start:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;->setText(I)V
 
@@ -800,7 +800,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteEditViewLayout;->a0:Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;
 
-    const v1, 0x7f122560
+    sget v1, Lcom/resouce/module/ResSTRING;->public_note_audio_speak_end:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;->setText(I)V
 
@@ -1082,7 +1082,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f122561
+    sget v1, Lcom/resouce/module/ResSTRING;->public_note_audio_speak_start:I
 
     .line 5
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/noteforedit/noteediting/NoteAudioRecordButton;->setText(I)V
@@ -1129,7 +1129,7 @@
 
     iput-object v0, p0, Lw1e;->U:Lhd3;
 
-    const v1, 0x7f12255f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_note_audio_saveornot:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -1146,7 +1146,7 @@
 
     invoke-direct {v1, p0}, Lw1e$a;-><init>(Lw1e;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -1156,7 +1156,7 @@
 
     invoke-direct {v1, p0}, Lw1e$j;-><init>(Lw1e;)V
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 5
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -1167,7 +1167,7 @@
 
     invoke-direct {v1, p0}, Lw1e$i;-><init>(Lw1e;)V
 
-    const v2, 0x7f122b45
+    sget v2, Lcom/resouce/module/ResSTRING;->public_unsave:I
 
     .line 6
     invoke-virtual {v0, v2, v1}, Lhd3;->setNeutralButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;

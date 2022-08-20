@@ -162,7 +162,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/storage/core/service/internal/weiyun/extlibs/WeiyunLoginActivity;->B:Lhd3;
 
-    const v0, 0x7f122421
+    sget v0, Lcom/resouce/module/ResSTRING;->public_login:I
 
     invoke-virtual {p1, v0}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -190,7 +190,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02ee
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_cloudstorage_weiyun_logintype_layout:I
 
     const/4 v2, 0x0
 
@@ -200,7 +200,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1751
+    sget v1, Lcom/resouce/module/ResID;->login_by_wechat:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -209,7 +209,7 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f0b1750
+    sget v1, Lcom/resouce/module/ResID;->login_by_qq:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

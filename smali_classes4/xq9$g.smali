@@ -69,13 +69,13 @@
     :goto_0
     const/4 v0, 0x1
 
-    const v2, 0x7f0b136b
+    sget v2, Lcom/resouce/module/ResID;->introduce_translate_text:I
 
-    const v3, 0x7f0b136a
+    sget v3, Lcom/resouce/module/ResID;->introduce_translate_pay_btn:I
 
-    const v4, 0x7f0b136d
+    sget v4, Lcom/resouce/module/ResID;->introduce_translate_upgrade_btn:I
 
-    const v5, 0x7f0b1369
+    sget v5, Lcom/resouce/module/ResID;->introduce_translate_icon:I
 
     const/16 v6, 0x8
 
@@ -139,7 +139,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120ccd
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_repetition_member_text:I
 
     new-array v0, v0, [Ljava/lang/Object;
 
@@ -205,7 +205,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120cc7
+    sget v4, Lcom/resouce/module/ResSTRING;->fanyigo_previewtips:I
 
     new-array v0, v0, [Ljava/lang/Object;
 

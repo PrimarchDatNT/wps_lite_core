@@ -37,7 +37,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f0e0ee6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->recommend_welcome_fragment_layout:I
 
     return v0
 .end method
@@ -62,7 +62,7 @@
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    const v0, 0x7f0b3395
+    sget v0, Lcom/resouce/module/ResID;->view_dark:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,14 +86,14 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b12ae
+    sget v0, Lcom/resouce/module/ResID;->img_bg:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v1, 0x7f0b1578
+    sget v1, Lcom/resouce/module/ResID;->layout_text:I
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -227,7 +227,7 @@
 .method public n(Lcn/wps/moffice/main/local/home/recommend/fragment/BaseFragment;Z)V
     .locals 1
 
-    const v0, 0x7f0b0e7e
+    sget v0, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 1
     invoke-virtual {p0, v0, p1, p2}, Lcn/wps/moffice/main/local/home/recommend/fragment/BaseFragment;->i(ILandroid/app/Fragment;Z)V

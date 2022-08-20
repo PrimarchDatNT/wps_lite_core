@@ -52,7 +52,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindNoPhoneNumberAfterLoginActivity$d;->a:Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindNoPhoneNumberAfterLoginActivity;
 
-    const v1, 0x7f122916
+    sget v1, Lcom/resouce/module/ResSTRING;->public_send_success:I
 
     const/4 v2, 0x0
 

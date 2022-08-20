@@ -177,7 +177,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p2, 0x0
 

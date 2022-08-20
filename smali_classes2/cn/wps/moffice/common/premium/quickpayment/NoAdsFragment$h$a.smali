@@ -47,13 +47,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b24ea
+    sget v1, Lcom/resouce/module/ResID;->premium_upgrade_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v2, 0x7f0b3399
+    sget v2, Lcom/resouce/module/ResID;->view_devide_white:I
 
     const/16 v3, 0x8
 

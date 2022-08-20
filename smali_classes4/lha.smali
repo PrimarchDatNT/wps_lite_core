@@ -235,7 +235,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b1c8d
+    sget v0, Lcom/resouce/module/ResID;->paper_check_banner:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -244,7 +244,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b01ec
+    sget v2, Lcom/resouce/module/ResID;->banner_layout:I
 
     .line 11
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:drawable="@drawable/v10_phone_ss_rounded_rectangle_16_alpha00_shape" />
-    <item android:drawable="@drawable/v10_phone_public_rounded_rectangle_16_shape" />
-</selector>

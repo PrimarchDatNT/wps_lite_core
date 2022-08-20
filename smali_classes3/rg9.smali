@@ -120,7 +120,7 @@
 .method public d(Landroid/view/View;Ljava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f0b0d40
+    sget v0, Lcom/resouce/module/ResID;->file_type_icon:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -129,7 +129,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0ce6
+    sget v1, Lcom/resouce/module/ResID;->file_name:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e28
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_send_file_dialog:I
 
     const/4 v2, 0x0
 
@@ -346,7 +346,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0ce8
+    sget v1, Lcom/resouce/module/ResID;->file_name_root:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -360,7 +360,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0602c2
+    sget v5, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -370,7 +370,7 @@
 
     invoke-virtual {v1, v3}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v1, 0x7f0b30a8
+    sget v1, Lcom/resouce/module/ResID;->transfer_introduce:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -395,12 +395,12 @@
 
     invoke-direct {v1, p2}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     invoke-virtual {v1, p2, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p2, 0x7f120693
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 9
     new-instance v2, Lrg9$b;
@@ -494,7 +494,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    const v0, 0x7f121198
+    sget v0, Lcom/resouce/module/ResSTRING;->home_transfer_fail:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -537,7 +537,7 @@
 
     check-cast p1, Landroid/content/Context;
 
-    const v0, 0x7f12119f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_transfer_success:I
 
     invoke-static {p1, v0}, Lq48;->e(Landroid/content/Context;I)V
 

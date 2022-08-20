@@ -52,7 +52,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070754
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slidelayouts_item_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -71,7 +71,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f070751
+    sget p2, Lcom/resouce/module/ResDIMEN;->phone_ppt_slidelayouts_horizontal_padding:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -257,7 +257,7 @@
 
     iput v1, p0, Lhzd;->b:I
 
-    const v1, 0x7f070a45
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_slidelayouts_item_height:I
 
     .line 15
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F

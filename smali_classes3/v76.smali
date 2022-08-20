@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f122e23
+    sget v3, Lcom/resouce/module/ResSTRING;->refund_check_show_url:I
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -425,7 +425,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f121484
+    sget p1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v0, 0x0
 

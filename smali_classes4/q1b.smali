@@ -67,7 +67,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2f22
+    sget v0, Lcom/resouce/module/ResID;->text_optimization_cancel:I
 
     if-ne p1, v0, :cond_0
 
@@ -79,7 +79,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b14a1
+    sget v0, Lcom/resouce/module/ResID;->iv_ok:I
 
     if-ne p1, v0, :cond_1
 
@@ -102,7 +102,7 @@
     .line 2
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2f22
+    sget v1, Lcom/resouce/module/ResID;->text_optimization_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 3
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v3, 0x7f0b3115
+    sget v3, Lcom/resouce/module/ResID;->tv_cancel:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -129,7 +129,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f121dbf
+    sget v4, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -157,7 +157,7 @@
     .line 7
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v3, 0x7f0b14a1
+    sget v3, Lcom/resouce/module/ResID;->iv_ok:I
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -199,11 +199,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e00bd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->custom_circle_loading_horizontal_v1_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b171d
+    sget p1, Lcom/resouce/module/ResID;->loadingText:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/beans/circleloadingview/CircleLoadingHorizontalView;->B:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0406
+    sget p1, Lcom/resouce/module/ResID;->circleLoaderView:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -342,7 +342,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025b
+    sget v1, Lcom/resouce/module/ResCOLOR;->loadingTrackColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -361,7 +361,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -380,7 +380,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

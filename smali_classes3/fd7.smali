@@ -88,12 +88,12 @@
 
     invoke-direct {v0}, Lfd7$b;-><init>()V
 
-    const v1, 0x7f122bb1
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vip_expired:I
 
     .line 2
     invoke-virtual {v0, v1}, Lfd7$b;->l(I)Lfd7$b;
 
-    const v1, 0x7f1228c5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_renew_desc:I
 
     .line 3
     invoke-virtual {v0, v1}, Lfd7$b;->i(I)Lfd7$b;
@@ -103,12 +103,12 @@
     .line 4
     invoke-virtual {v0, v1}, Lfd7$b;->g(Z)Lfd7$b;
 
-    const v1, 0x7f1227f8
+    sget v1, Lcom/resouce/module/ResSTRING;->public_renew:I
 
     .line 5
     invoke-virtual {v0, v1}, Lfd7$b;->k(I)Lfd7$b;
 
-    const v1, 0x7f1228ca
+    sget v1, Lcom/resouce/module/ResSTRING;->public_secret_folder_see_file:I
 
     .line 6
     invoke-virtual {v0, v1}, Lfd7$b;->j(I)Lfd7$b;

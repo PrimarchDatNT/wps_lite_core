@@ -174,7 +174,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aca
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_quickstyle_navigation:I
 
     const/4 v2, 0x1
 
@@ -205,7 +205,7 @@
 
     iput v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;->T:I
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -214,7 +214,7 @@
 
     iput v0, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;->U:I
 
-    const v0, 0x7f0b23fc
+    sget v0, Lcom/resouce/module/ResID;->ppt_quickstyle_styleBtn_pad:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;->B:Landroid/widget/Button;
 
-    const v1, 0x7f0b23e9
+    sget v1, Lcom/resouce/module/ResID;->ppt_quickstyle_fillBtn_pad:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -236,7 +236,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/presentation/control/quickstyle/QuickStyleNavigation;->I:Landroid/widget/Button;
 
-    const v1, 0x7f0b23f9
+    sget v1, Lcom/resouce/module/ResID;->ppt_quickstyle_outlineBtn_pad:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

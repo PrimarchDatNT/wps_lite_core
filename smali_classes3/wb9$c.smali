@@ -58,35 +58,35 @@
 
     move-result p1
 
-    const v0, 0x7f0b2c76
+    sget v0, Lcom/resouce/module/ResID;->sortby_time_layout:I
 
     if-eq p1, v0, :cond_4
 
-    const v0, 0x7f0b2c77
+    sget v0, Lcom/resouce/module/ResID;->sortby_time_radio:I
 
     if-ne p1, v0, :cond_0
 
     goto :goto_1
 
     :cond_0
-    const v0, 0x7f0b2c72
+    sget v0, Lcom/resouce/module/ResID;->sortby_name_layout:I
 
     const-string v1, "public_sort_by_name"
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0b2c73
+    sget v0, Lcom/resouce/module/ResID;->sortby_name_radio:I
 
     if-ne p1, v0, :cond_1
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2c74
+    sget v0, Lcom/resouce/module/ResID;->sortby_size_layout:I
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0b2c75
+    sget v0, Lcom/resouce/module/ResID;->sortby_size_radio:I
 
     if-ne p1, v0, :cond_5
 

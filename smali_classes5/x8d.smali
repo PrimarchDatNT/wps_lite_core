@@ -50,7 +50,7 @@
     .line 1
     invoke-static {p2}, Lbe8;->k(Landroid/content/Context;)V
 
-    const v0, 0x7f12250d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     const/4 v1, 0x0
 
@@ -228,7 +228,7 @@
     .line 4
     invoke-virtual {v0, v1, v2}, Lgnb;->b(Ljava/lang/String;Ljava/lang/String;)Lgnb;
 
-    const v1, 0x7f120d99
+    sget v1, Lcom/resouce/module/ResSTRING;->gdpr_delete_data:I
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

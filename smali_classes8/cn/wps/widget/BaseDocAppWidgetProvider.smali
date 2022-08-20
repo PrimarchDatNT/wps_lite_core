@@ -115,7 +115,7 @@
 
     move-result p2
 
-    const v0, 0x7f0b013f
+    sget v0, Lcom/resouce/module/ResID;->app_widget_bg:I
 
     invoke-virtual {p3, v0, p2}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -164,12 +164,12 @@
 
     invoke-static {v1, v0}, Lp2q;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v0, 0x7f0b0fbc
+    sget v0, Lcom/resouce/module/ResID;->header_widget_title:I
 
     .line 2
     invoke-static {p1, v0, p2}, Lukp;->j(Landroid/widget/RemoteViews;II)V
 
-    const v0, 0x7f0b255f
+    sget v0, Lcom/resouce/module/ResID;->prompt_app_widget_tv:I
 
     .line 3
     invoke-static {p1, v0, p2}, Lukp;->i(Landroid/widget/RemoteViews;II)V
@@ -231,7 +231,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0e0073
+    sget v5, Lcom/resouce/module/ResLAYOUT;->app_widget_recent_empty:I
 
     invoke-direct {v3, v4, v5}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -293,12 +293,12 @@
 
     invoke-virtual {v4, v7}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    const v7, 0x7f0b0724
+    sget v7, Lcom/resouce/module/ResID;->doc_msg_app_widget_lv:I
 
     .line 14
     invoke-virtual {v3, v7, v4}, Landroid/widget/RemoteViews;->setRemoteAdapter(ILandroid/content/Intent;)V
 
-    const v8, 0x7f0b255f
+    sget v8, Lcom/resouce/module/ResID;->prompt_app_widget_tv:I
 
     .line 15
     invoke-virtual {v3, v7, v8}, Landroid/widget/RemoteViews;->setEmptyView(II)V
@@ -430,7 +430,7 @@
 
     invoke-virtual {p4, v6, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    const v6, 0x7f0b0fad
+    sget v6, Lcom/resouce/module/ResID;->header_app_widget_fl:I
 
     .line 31
     invoke-static {p1, v6, p4, v4}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
@@ -509,7 +509,7 @@
     .line 38
     invoke-virtual {p4, v6, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    const v6, 0x7f0b19e6
+    sget v6, Lcom/resouce/module/ResID;->new_app_widget_iv:I
 
     .line 39
     invoke-static {p1, v6, p4, v4}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
@@ -528,7 +528,7 @@
 
     if-eqz p4, :cond_3
 
-    const p4, 0x7f081fba
+    sget p4, Lcom/resouce/module/ResDRAWABLE;->widget_head_increase_photograph:I
 
     .line 42
     invoke-virtual {v3, v6, p4}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
@@ -536,7 +536,7 @@
     goto :goto_2
 
     :cond_3
-    const p4, 0x7f081fb9
+    sget p4, Lcom/resouce/module/ResDRAWABLE;->widget_head_increase:I
 
     .line 43
     invoke-virtual {v3, v6, p4}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
@@ -570,7 +570,7 @@
 
     move-result v1
 
-    const v5, 0x7f0b19e7
+    sget v5, Lcom/resouce/module/ResID;->new_app_widget_setting:I
 
     invoke-virtual {v3, v5, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -584,7 +584,7 @@
 
     if-nez p4, :cond_4
 
-    const p4, 0x7f120134
+    sget p4, Lcom/resouce/module/ResSTRING;->app_widget_prompt:I
 
     .line 50
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -619,7 +619,7 @@
     goto :goto_3
 
     :cond_4
-    const p4, 0x7f120133
+    sget p4, Lcom/resouce/module/ResSTRING;->app_widget_no_doc:I
 
     .line 54
     invoke-virtual {p1, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -655,7 +655,7 @@
 
     invoke-direct {p4, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    const v1, 0x7f0b0856
+    sget v1, Lcom/resouce/module/ResID;->empty_content_app_widget_fl:I
 
     .line 59
     invoke-static {p1, v1, p4, v4}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;

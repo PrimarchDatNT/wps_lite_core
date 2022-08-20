@@ -173,17 +173,17 @@
 
     invoke-direct {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f08155a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_network:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v2, 0x7f121bdb
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 5
     invoke-virtual {v0, v2}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -233,7 +233,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e043b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->layout_assignment:I
 
     const/4 v2, 0x0
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b053a
+    sget v1, Lcom/resouce/module/ResID;->contentContainer:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentActivity$a;->I:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b1549
+    sget v1, Lcom/resouce/module/ResID;->layout_home_work_tips:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -263,7 +263,7 @@
 
     iput-object v1, p0, Lcn/wps/moffice/main/classroom/assignment/AssignmentActivity$a;->S:Lcn/wps/moffice/main/classroom/HomeworkTipView;
 
-    const v1, 0x7f0b3163
+    sget v1, Lcom/resouce/module/ResID;->tv_export:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -593,7 +593,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120270
+    sget v0, Lcom/resouce/module/ResSTRING;->class_title_assignment:I
 
     return v0
 .end method

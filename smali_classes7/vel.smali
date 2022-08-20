@@ -113,7 +113,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0e60
+    sget v0, Lcom/resouce/module/ResID;->font_title_more:I
 
     if-ne p1, v0, :cond_0
 

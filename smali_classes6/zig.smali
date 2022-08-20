@@ -977,7 +977,7 @@
 
     iget-object v2, p0, Ldjg;->a:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v4, p0, Lzig;->R:Ljava/util/ArrayList;
 
@@ -1433,7 +1433,7 @@
 
     iget-object v2, p0, Ldjg;->a:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     iget-object v4, p0, Lzig;->R:Ljava/util/ArrayList;
 
@@ -1794,7 +1794,7 @@
 .method public k(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f0b0b2d
+    sget v0, Lcom/resouce/module/ResID;->et_print_setting_scrollview:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1803,7 +1803,7 @@
 
     iput-object v0, p0, Lzig;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b0b04
+    sget v0, Lcom/resouce/module/ResID;->et_print_content_group:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1814,7 +1814,7 @@
 
     iput-object v0, p0, Lzig;->y:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v0, 0x7f0b0bde
+    sget v0, Lcom/resouce/module/ResID;->et_worksheetRadio:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1825,7 +1825,7 @@
 
     iput-object v0, p0, Lzig;->z:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0bdd
+    sget v0, Lcom/resouce/module/ResID;->et_workbook_radio:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1836,7 +1836,7 @@
 
     iput-object v0, p0, Lzig;->A:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0baa
+    sget v0, Lcom/resouce/module/ResID;->et_sheet_selection_radio:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1847,7 +1847,7 @@
 
     iput-object v0, p0, Lzig;->B:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0afe
+    sget v0, Lcom/resouce/module/ResID;->et_print_area_check:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1858,7 +1858,7 @@
 
     iput-object v0, p0, Lzig;->C:Landroid/widget/CheckBox;
 
-    const v0, 0x7f0b0b11
+    sget v0, Lcom/resouce/module/ResID;->et_print_num_area_group:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1869,7 +1869,7 @@
 
     iput-object v0, p0, Lzig;->D:Lcn/wps/moffice/common/beans/phone/CustomRadioGroup;
 
-    const v0, 0x7f0b0b13
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_all_radio:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1880,7 +1880,7 @@
 
     iput-object v0, p0, Lzig;->F:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0ba7
+    sget v0, Lcom/resouce/module/ResID;->et_select_sheet_spinner:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1901,7 +1901,7 @@
 
     invoke-virtual {v0}, Landroid/widget/Button;->setSingleLine()V
 
-    const v0, 0x7f0b0b15
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_num_radio:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1912,7 +1912,7 @@
 
     iput-object v0, p0, Lzig;->E:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0b14
+    sget v0, Lcom/resouce/module/ResID;->et_print_page_num_area:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1923,7 +1923,7 @@
 
     iput-object v0, p0, Lzig;->H:Landroid/widget/Button;
 
-    const v0, 0x7f0b0b08
+    sget v0, Lcom/resouce/module/ResID;->et_print_copys_count:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1934,7 +1934,7 @@
 
     iput-object v0, p0, Lzig;->I:Landroid/widget/EditText;
 
-    const v0, 0x7f0b0b21
+    sget v0, Lcom/resouce/module/ResID;->et_print_print_copys_layout:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1956,7 +1956,7 @@
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     :cond_0
-    const v0, 0x7f0b0b07
+    sget v0, Lcom/resouce/module/ResID;->et_print_copys_add_btn:I
 
     .line 18
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1965,7 +1965,7 @@
 
     iput-object v0, p0, Lzig;->J:Landroid/view/View;
 
-    const v0, 0x7f0b0b09
+    sget v0, Lcom/resouce/module/ResID;->et_print_copys_sub_btn:I
 
     .line 19
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1974,7 +1974,7 @@
 
     iput-object v0, p0, Lzig;->K:Landroid/view/View;
 
-    const v0, 0x7f0b0b03
+    sget v0, Lcom/resouce/module/ResID;->et_print_btn:I
 
     .line 20
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1992,7 +1992,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e022e
+    sget v2, Lcom/resouce/module/ResLAYOUT;->et_print_page_range_dialog:I
 
     const/4 v3, 0x0
 
@@ -2002,7 +2002,7 @@
 
     iput-object v0, p0, Lzig;->W:Landroid/view/View;
 
-    const v2, 0x7f0b0b18
+    sget v2, Lcom/resouce/module/ResID;->et_print_page_range_start:I
 
     .line 22
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2016,7 +2016,7 @@
     .line 23
     iget-object v0, p0, Lzig;->W:Landroid/view/View;
 
-    const v2, 0x7f0b0b16
+    sget v2, Lcom/resouce/module/ResID;->et_print_page_range_end:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2045,7 +2045,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b0b30
+    sget v0, Lcom/resouce/module/ResID;->et_print_show_watermark_check_btn:I
 
     .line 25
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2056,14 +2056,14 @@
 
     iput-object v0, p0, Lzig;->M:Lcn/wps/moffice/common/CustomCheckButton;
 
-    const v0, 0x7f0b0b34
+    sget v0, Lcom/resouce/module/ResID;->et_print_watermark_divider:I
 
     .line 26
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    const v2, 0x7f0b0afd
+    sget v2, Lcom/resouce/module/ResID;->et_print_additonal_attr_title:I
 
     .line 27
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2093,7 +2093,7 @@
     .line 33
     iput v0, p0, Lzig;->d0:I
 
-    const v0, 0x7f0b0aff
+    sget v0, Lcom/resouce/module/ResID;->et_print_area_linearlayout:I
 
     .line 34
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2153,7 +2153,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0b15
+    sget v1, Lcom/resouce/module/ResID;->et_print_page_num_radio:I
 
     if-eq v0, v1, :cond_1
 

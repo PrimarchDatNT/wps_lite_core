@@ -126,7 +126,7 @@
 
     if-eqz p0, :cond_2
 
-    const p0, 0x7f121e82
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cloud_name_exceed_char_limit:I
 
     .line 11
     invoke-virtual {p2, p0}, Landroid/widget/TextView;->setText(I)V
@@ -134,7 +134,7 @@
     goto :goto_0
 
     :cond_2
-    const p0, 0x7f121e83
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cloud_name_exceed_char_limit_en:I
 
     .line 12
     invoke-virtual {p2, p0}, Landroid/widget/TextView;->setText(I)V
@@ -171,12 +171,12 @@
 
     if-eqz p0, :cond_5
 
-    const p0, 0x7f12205c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_error_input:I
 
     goto :goto_2
 
     :cond_5
-    const p0, 0x7f121e81
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cloud_name_contain_invalid_char:I
 
     .line 19
     :goto_2
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120b8d
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name:I
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -250,7 +250,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f0b0aa1
+    sget v1, Lcom/resouce/module/ResID;->et_input_group_name:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -290,7 +290,7 @@
     .line 9
     invoke-virtual {v6}, Landroid/widget/EditText;->requestFocus()Z
 
-    const p3, 0x7f122567
+    sget p3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 10
     new-instance v1, Lcn/wps/moffice/main/cloud/drive/view/controler/group/renamegroup/extlibs/RenameGroupCoreImpl$a;
@@ -309,7 +309,7 @@
 
     invoke-virtual {v0, p3, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance p2, Lcn/wps/moffice/main/cloud/drive/view/controler/group/renamegroup/extlibs/RenameGroupCoreImpl$b;
@@ -336,7 +336,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120b8d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_name:I
 
     move-object v5, p1
 
@@ -347,7 +347,7 @@
 
     invoke-virtual {v1, v2}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v2, 0x7f0b0aa1
+    sget v2, Lcom/resouce/module/ResID;->et_input_group_name:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -387,7 +387,7 @@
     .line 9
     invoke-virtual {v9}, Landroid/widget/EditText;->requestFocus()Z
 
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 10
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/view/controler/group/renamegroup/extlibs/RenameGroupCoreImpl$c;
@@ -410,7 +410,7 @@
 
     invoke-virtual {v1, v0, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 11
     new-instance v2, Lcn/wps/moffice/main/cloud/drive/view/controler/group/renamegroup/extlibs/RenameGroupCoreImpl$d;
@@ -451,13 +451,13 @@
 
     invoke-direct {v3, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const p1, 0x7f0e0b48
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_cloud_group_name_dialog_layout:I
 
     invoke-virtual {v2, p1, v3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
-    const v1, 0x7f0b0aa1
+    sget v1, Lcom/resouce/module/ResID;->et_input_group_name:I
 
     .line 4
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -466,7 +466,7 @@
 
     check-cast v1, Landroid/widget/EditText;
 
-    const v2, 0x7f0b3195
+    sget v2, Lcom/resouce/module/ResID;->tv_group_name_invalid_hint:I
 
     .line 5
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

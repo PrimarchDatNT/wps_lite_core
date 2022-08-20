@@ -640,7 +640,7 @@
 
     check-cast v0, Lt1b;
 
-    const v1, 0x7f120453
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_plugin_url:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1021,7 +1021,7 @@
 
     check-cast v0, Lt1b;
 
-    const v1, 0x7f120453
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_plugin_url:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1045,11 +1045,11 @@
     .line 8
     invoke-virtual {p0}, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;->j3()V
 
-    const v1, 0x7f1203fa
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_download_plugin_msg:I
 
-    const v2, 0x7f12201b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_download:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 9
     invoke-static {p0, v1, v2, v3, v0}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V
@@ -1082,7 +1082,7 @@
     .line 5
     invoke-virtual {v1}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const v3, 0x7f120479
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_recognize_language:I
 
     .line 6
     invoke-virtual {p0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1096,7 +1096,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0e00fb
+    sget v4, Lcom/resouce/module/ResLAYOUT;->dialog_selected_translate_language:I
 
     const/4 v5, 0x0
 
@@ -1106,7 +1106,7 @@
 
     check-cast v3, Landroid/view/ViewGroup;
 
-    const v4, 0x7f0b27e1
+    sget v4, Lcom/resouce/module/ResID;->rb_simplified_chinese:I
 
     .line 8
     invoke-virtual {v3, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1115,7 +1115,7 @@
 
     check-cast v4, Landroid/widget/RadioButton;
 
-    const v5, 0x7f0b27d8
+    sget v5, Lcom/resouce/module/ResID;->rb_chinese_traditional:I
 
     .line 9
     invoke-virtual {v3, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1124,7 +1124,7 @@
 
     check-cast v5, Landroid/widget/RadioButton;
 
-    const v6, 0x7f0b27dc
+    sget v6, Lcom/resouce/module/ResID;->rb_english:I
 
     .line 10
     invoke-virtual {v3, v6}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1235,7 +1235,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;->Y:Lrd3;
 
-    const v0, 0x7f120404
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_extracting_txt:I
 
     .line 3
     invoke-virtual {p1, v0}, Lrd3;->D(I)V
@@ -1340,11 +1340,11 @@
 
     invoke-direct {v0, p0}, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$f;-><init>(Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;)V
 
-    const v1, 0x7f1204ce
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_using_mobile_network_tip:I
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
-    const v3, 0x7f121dbf
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 2
     invoke-static {p0, v1, v2, v3, v0}, Laya;->d(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;)V

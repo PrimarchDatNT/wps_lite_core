@@ -142,13 +142,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0de9
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_premium_privileges_new_item:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v1
 
-    const v2, 0x7f0b24db
+    sget v2, Lcom/resouce/module/ResID;->premium_privileges_icon:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -159,7 +159,7 @@
 
     invoke-static {p2, v2}, Luu4$a;->b(Luu4$a;Landroid/widget/ImageView;)Landroid/widget/ImageView;
 
-    const v2, 0x7f0b24dc
+    sget v2, Lcom/resouce/module/ResID;->premium_privileges_icon_text:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -170,7 +170,7 @@
 
     invoke-static {p2, v2}, Luu4$a;->d(Luu4$a;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v2, 0x7f0b24e0
+    sget v2, Lcom/resouce/module/ResID;->premium_privileges_title:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -181,7 +181,7 @@
 
     invoke-static {p2, v2}, Luu4$a;->f(Luu4$a;Landroid/widget/TextView;)Landroid/widget/TextView;
 
-    const v2, 0x7f0b24df
+    sget v2, Lcom/resouce/module/ResID;->premium_privileges_new:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

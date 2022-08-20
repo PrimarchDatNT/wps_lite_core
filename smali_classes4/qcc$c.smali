@@ -44,7 +44,7 @@
 
     iput-object p1, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const p1, 0x7f1218ba
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_privileges_format_transfer:I
 
     .line 3
     invoke-virtual {p0, p1}, Lqcc$c;->b(I)Ljava/lang/String;
@@ -58,7 +58,7 @@
 
     const-string v2, "pdf_type_1"
 
-    const v3, 0x7f121769
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_doc:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -71,7 +71,7 @@
 
     const-string v1, "PDF2PPT"
 
-    const v3, 0x7f12176d
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_ppt:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -84,7 +84,7 @@
 
     const-string v1, "PDF2XLS"
 
-    const v3, 0x7f121771
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -97,7 +97,7 @@
 
     const-string v1, "shareLongPic"
 
-    const v3, 0x7f122bca
+    sget v3, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -110,7 +110,7 @@
 
     const-string v1, "pagesExport"
 
-    const v3, 0x7f1217dd
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -123,7 +123,7 @@
 
     const-string v1, "exportPicFile"
 
-    const v3, 0x7f1220ad
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -136,7 +136,7 @@
 
     const-string v1, "pic2PDF"
 
-    const v3, 0x7f120460
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_pic_2_pdf:I
 
     invoke-virtual {p0, v1, p1, v2, v3}, Lqcc$c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcn/wps/moffice/common/componentguide/entity/AppGuideEntity;
 
@@ -151,7 +151,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1217f2
+    sget p1, Lcom/resouce/module/ResSTRING;->pdf_extract_title:I
 
     .line 12
     invoke-virtual {p0, p1}, Lqcc$c;->b(I)Ljava/lang/String;
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f12198e    # 1.9419997E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_public_pdf_extract:I    # 1.9419997E38f
 
     .line 13
     invoke-virtual {p0, p1}, Lqcc$c;->b(I)Ljava/lang/String;
@@ -172,7 +172,7 @@
     :goto_0
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v1, 0x7f121842
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_ocr_picturetotext:I
 
     const-string v2, "PDFExtractText"
 
@@ -187,7 +187,7 @@
     .line 15
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v1, 0x7f121803
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_image_extract:I
 
     const-string v2, "extractPics"
 
@@ -200,7 +200,7 @@
     .line 16
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v1, 0x7f121867
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_extract:I
 
     const-string v2, "extractFile"
 
@@ -212,7 +212,7 @@
 
     const-string p1, "pdf_type_3"
 
-    const v0, 0x7f1216c8
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_annotation:I
 
     .line 17
     invoke-virtual {p0, v0}, Lqcc$c;->b(I)Ljava/lang/String;
@@ -233,7 +233,7 @@
     .line 19
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f121c96
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_pdf_signature:I
 
     const-string v3, "PDFSign"
 
@@ -252,12 +252,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f1216c9
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_comment:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f1216ca
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_annotation_add_text:I
 
     :goto_1
     const-string v3, "PDFAddText"
@@ -271,7 +271,7 @@
     .line 21
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f121925
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_watermark:I
 
     const-string v3, "PDFWatermark"
 
@@ -284,7 +284,7 @@
     .line 22
     iget-object v0, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f1217e0
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_exportkeynote:I
 
     const-string v3, "exportKeynote"
 
@@ -296,7 +296,7 @@
 
     const-string p1, "pdf_type_4"
 
-    const v0, 0x7f1218b9
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_privileges_document_processing:I
 
     .line 23
     invoke-virtual {p0, v0}, Lqcc$c;->b(I)Ljava/lang/String;
@@ -306,7 +306,7 @@
     .line 24
     iget-object v1, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f120cd4
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     const-string v3, "translate"
 
@@ -319,7 +319,7 @@
     .line 25
     iget-object v1, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f1225d8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_page_adjust:I
 
     const-string v3, "PDFPageAdjust"
 
@@ -332,7 +332,7 @@
     .line 26
     iget-object v1, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f122c12
+    sget v2, Lcom/resouce/module/ResSTRING;->public_word_merge:I
 
     const-string v3, "mergeFile"
 
@@ -345,7 +345,7 @@
     .line 27
     iget-object v1, p0, Lqcc$c;->a:Ljava/util/ArrayList;
 
-    const v2, 0x7f122266
+    sget v2, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     const-string v3, "docDownsizing"
 
@@ -365,12 +365,12 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f1218d9
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_set_password:I
 
     goto :goto_2
 
     :cond_2
-    const v2, 0x7f1217f5
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_file_encryption:I
 
     :goto_2
     const-string v3, "PDFFileEncryption"

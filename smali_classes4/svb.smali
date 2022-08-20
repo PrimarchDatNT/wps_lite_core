@@ -289,7 +289,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f1229d6
+    sget p1, Lcom/resouce/module/ResSTRING;->public_shareplay_open_mic_tips:I
 
     .line 6
     invoke-virtual {p0, p1}, Lsvb;->M(I)V
@@ -344,12 +344,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f121c38
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_stop_agora_call:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f121a11
+    sget p1, Lcom/resouce/module/ResSTRING;->play_agora_call:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V
@@ -416,7 +416,7 @@
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/shareplay/CircleAudioVolumeView;->setProgress(I)V
 
-    const p1, 0x7f0814e4
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone_close:I
 
     .line 2
     invoke-virtual {p0, p1}, Lsvb;->A(I)V
@@ -424,7 +424,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0814e3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     .line 3
     invoke-virtual {p0, p1}, Lsvb;->A(I)V
@@ -554,7 +554,7 @@
     .line 2
     iput-object p2, p0, Lsvb;->I:Landroid/view/View;
 
-    const p1, 0x7f0b1ea9
+    sget p1, Lcom/resouce/module/ResID;->pdf_play_agora_open_tips_view:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -748,7 +748,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b1eaa
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_agro_microphone_img:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -759,7 +759,7 @@
 
     iput-object v0, p0, Lsvb;->S:Lcn/wps/moffice/common/shareplay/CircleAudioVolumeView;
 
-    const v1, 0x7f0814e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     .line 3
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/shareplay/CircleAudioVolumeView;->setDrawable(I)V
@@ -984,7 +984,7 @@
     .line 4
     invoke-virtual {p0, v0}, Lsvb;->B(Z)V
 
-    const v1, 0x7f0814e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->ppt_play_titlebar_agora_microphone:I
 
     .line 5
     invoke-virtual {p0, v1}, Lsvb;->A(I)V

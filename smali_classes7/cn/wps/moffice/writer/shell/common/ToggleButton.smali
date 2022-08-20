@@ -70,7 +70,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1110
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_toggle_button:I
 
     .line 7
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36c5
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_btn:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36ca
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_scroll:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -108,7 +108,7 @@
     .line 10
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36c8
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_left:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36c9
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_right:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -134,7 +134,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36c6
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_gray_part_left:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -145,7 +145,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/writer/shell/common/ToggleButton;->I:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b36c7
+    sget v0, Lcom/resouce/module/ResID;->writer_toggle_gray_part_right:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

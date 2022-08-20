@@ -120,7 +120,7 @@
     :goto_1
     iget-object v1, p0, Ly34;->d:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1210
+    sget v2, Lcom/resouce/module/ResID;->hotkey_content:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e00ea
+    sget v2, Lcom/resouce/module/ResLAYOUT;->dialog_hotkey:I
 
     const/4 v3, 0x0
 
@@ -253,7 +253,7 @@
 
     iput-object v0, p0, Ly34;->d:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b120e
+    sget v2, Lcom/resouce/module/ResID;->hotkey_ViewPager:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
     .line 1
     iget-object v0, p0, Ly34;->d:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b120f
+    sget v1, Lcom/resouce/module/ResID;->hotkey_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

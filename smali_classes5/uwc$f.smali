@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1e55
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_highlight_pen_one:I
 
     const-string v2, "TIP_INK_FIRST"
 
@@ -147,7 +147,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0b1e37
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_float_paint_tool_bar_pen_one:I
 
     if-ne p1, v1, :cond_3
 
@@ -168,7 +168,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b1e49
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_circle_select:I
 
     if-ne p1, v1, :cond_4
 
@@ -206,7 +206,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b1e52
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_eraser:I
 
     if-ne p1, v1, :cond_5
 
@@ -244,7 +244,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f0b1e45
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     if-ne p1, v1, :cond_6
 
@@ -256,7 +256,7 @@
     goto :goto_0
 
     :cond_6
-    const v1, 0x7f0b1e60
+    sget v1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     if-ne p1, v1, :cond_7
 

@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0802d4
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_multimedia_speaking:I
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

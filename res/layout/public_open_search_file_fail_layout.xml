@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/clear_file_loading_err_view" android:background="@color/secondBackgroundColor" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="200.0dip" android:layout_height="140.0dip" android:layout_marginTop="148.0dip" android:src="@drawable/pub_404_no_internet" android:scaleType="centerInside" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/clear_file_loading_err_tips_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_clear_file_no_net_error" />
-    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:id="@id/clear_file_loading_err_tips_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/public_clear_file_retry" style="@style/public_image_bg_style" />
-</LinearLayout>

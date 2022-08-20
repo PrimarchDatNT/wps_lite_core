@@ -942,7 +942,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1211ab
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1124,7 +1124,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1211ab
+    sget v2, Lcom/resouce/module/ResSTRING;->home_tv_meeting_network_error_end:I
 
     invoke-static {v1, v2, v4}, Lbih;->n(Landroid/content/Context;II)V
 

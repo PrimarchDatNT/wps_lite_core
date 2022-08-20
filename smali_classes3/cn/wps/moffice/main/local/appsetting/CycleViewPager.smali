@@ -227,7 +227,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060421
+    sget v4, Lcom/resouce/module/ResCOLOR;->phone_home_member_banner_indicator_fill:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -242,7 +242,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060422
+    sget v4, Lcom/resouce/module/ResCOLOR;->phone_home_member_banner_indicator_normal:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 

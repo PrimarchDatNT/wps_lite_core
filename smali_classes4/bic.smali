@@ -77,17 +77,17 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
 
-    const p1, 0x7f12281f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     .line 1
     invoke-virtual {p0, p1}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f121763
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_save_before_convert:I
 
     .line 2
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

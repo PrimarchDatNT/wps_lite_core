@@ -256,7 +256,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120eb1
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_recommend_text:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121402
+    sget v1, Lcom/resouce/module/ResSTRING;->msg_dropbox_10_gb_free_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -491,7 +491,7 @@
     .line 6
     invoke-virtual {p1}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
 
-    const p1, 0x7f0811ca
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_cloudstorage_icon_default:I
 
     goto :goto_0
 

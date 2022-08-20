@@ -425,7 +425,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2251
+    sget v1, Lcom/resouce/module/ResID;->play_pre:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -436,7 +436,7 @@
     .line 5
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b224f
+    sget v1, Lcom/resouce/module/ResID;->play_next:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -447,7 +447,7 @@
     .line 6
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1d64
+    sget v1, Lcom/resouce/module/ResID;->pdf_awake_autoplay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -458,7 +458,7 @@
     .line 7
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eac
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_autoplay_shade_layer:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -486,7 +486,7 @@
     :cond_0
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v1, 0x7f01005e
+    sget v1, Lcom/resouce/module/ResANIM;->pdf_autoplay_trigger_dismiss:I
 
     invoke-static {v0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
@@ -751,7 +751,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0659
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_play_indicator_layout:I
 
     return v0
 .end method

@@ -684,7 +684,7 @@
 
     iget-object v1, v0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f12257d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_online_security_no_network:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -739,7 +739,7 @@
 
     iget-object v4, v2, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v5, 0x7f12257f
+    sget v5, Lcom/resouce/module/ResSTRING;->public_online_security_permission_denied:I
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -776,7 +776,7 @@
     .line 75
     iget-object v0, p0, Lmoe$z;->T:Lmoe;
 
-    const v1, 0x7f122412
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {v0, v1}, Lmoe;->v(Lmoe;I)V
 
@@ -805,7 +805,7 @@
     .line 79
     iget-object v0, p0, Lmoe$z;->T:Lmoe;
 
-    const v1, 0x7f122413
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentOutOfMemoryError:I
 
     invoke-static {v0, v1}, Lmoe;->v(Lmoe;I)V
 
@@ -829,7 +829,7 @@
     .line 82
     iget-object v0, p0, Lmoe$z;->T:Lmoe;
 
-    const v1, 0x7f122411
+    sget v1, Lcom/resouce/module/ResSTRING;->public_loadDocumentFormatError:I
 
     invoke-static {v0, v1}, Lmoe;->v(Lmoe;I)V
 

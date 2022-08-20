@@ -220,7 +220,7 @@
 
     iget-object v1, p0, Lsfe;->B:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -233,7 +233,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ae3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_template_buy:I
 
     const/4 v2, 0x0
 
@@ -241,7 +241,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b245d
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_msg:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -250,7 +250,7 @@
 
     iput-object v1, p0, Lsfe;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2447
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_bottom_layout:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -259,7 +259,7 @@
 
     iput-object v1, p0, Lsfe;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2448
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_bottom_left:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -270,7 +270,7 @@
 
     iput-object v1, p0, Lsfe;->Z:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2449
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_bottom_right:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -281,7 +281,7 @@
 
     iput-object v1, p0, Lsfe;->a0:Landroid/widget/TextView;
 
-    const v1, 0x7f0b2465
+    sget v1, Lcom/resouce/module/ResID;->ppt_template_progress:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

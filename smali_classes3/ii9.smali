@@ -509,7 +509,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f1220f0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 2
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -527,7 +527,7 @@
 
     if-nez v0, :cond_1
 
-    const v0, 0x7f1206b9
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_tips_network_error:I
 
     .line 5
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -784,7 +784,7 @@
     :cond_a
     sget v4, Lwh9$h1;->i:I
 
-    const v0, 0x7f1205ee
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     if-ne v1, v4, :cond_d
 

@@ -29,7 +29,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f120610
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     return v0
 .end method
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06e0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_account_info_setting_clouddoc:I
 
     const/4 v2, 0x0
 
@@ -71,7 +71,7 @@
     .line 4
     iget-object v0, p0, Lebd;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2114
+    sget v1, Lcom/resouce/module/ResID;->phone_setting_roaming_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

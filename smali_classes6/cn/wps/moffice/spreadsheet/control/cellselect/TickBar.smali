@@ -42,7 +42,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/cellselect/TickBar;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0f88
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_tickbox_bar_item:I
 
     const/4 v2, 0x0
 
@@ -50,7 +50,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0b2f88
+    sget v0, Lcom/resouce/module/ResID;->tickbox_img:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,17 +66,17 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08199f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_tickbox_checked:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f08199e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon_tickbox:I
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v1, 0x7f0b2f8b
+    sget v1, Lcom/resouce/module/ResID;->tickbox_text:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

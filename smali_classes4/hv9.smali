@@ -161,7 +161,7 @@
     return v1
 
     :cond_1
-    const v0, 0x7f0b1bb0
+    sget v0, Lcom/resouce/module/ResID;->oversea_novel_layout:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -372,7 +372,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0d05
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_native_banner_ad_layout:I
 
     const/4 v2, 0x1
 
@@ -389,7 +389,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b008e
+    sget v0, Lcom/resouce/module/ResID;->ad_layout:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -662,7 +662,7 @@
 
     invoke-virtual {v0, v1, p2}, Lcn/wps/moffice/main/push/spread/home/HomePtrHeaderViewLayout;->setDrawHeaderBg(ZI)V
 
-    const p2, 0x7f0b26d8
+    sget p2, Lcom/resouce/module/ResID;->public_pull_tip:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -734,7 +734,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0604ee
+    sget v2, Lcom/resouce/module/ResCOLOR;->premiumSubWhiteTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

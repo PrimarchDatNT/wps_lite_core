@@ -338,7 +338,7 @@
     .line 5
     iget-object v0, p0, Lha8;->a:Landroid/content/Context;
 
-    const v1, 0x7f1205e3
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastEmailAddress:I
 
     invoke-static {v0, v1, v4}, Le88;->a(Landroid/content/Context;II)V
 
@@ -355,7 +355,7 @@
     .line 7
     iget-object v0, p0, Lha8;->a:Landroid/content/Context;
 
-    const v1, 0x7f1205e5
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_loginView_toastpassword:I
 
     invoke-static {v0, v1, v4}, Le88;->a(Landroid/content/Context;II)V
 
@@ -396,7 +396,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0781
+    sget v1, Lcom/resouce/module/ResID;->domain:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -424,7 +424,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b174b
+    sget v1, Lcom/resouce/module/ResID;->login:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -459,7 +459,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -487,7 +487,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1cf4
+    sget v1, Lcom/resouce/module/ResID;->password:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -531,7 +531,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b227b
+    sget v1, Lcom/resouce/module/ResID;->port:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -561,12 +561,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0b5f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_cloudstorage_login:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0705
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_login:I
 
     .line 3
     :goto_0
@@ -613,7 +613,7 @@
     .line 2
     iget-object v0, p0, Lha8;->c:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b333e
+    sget v1, Lcom/resouce/module/ResID;->username:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

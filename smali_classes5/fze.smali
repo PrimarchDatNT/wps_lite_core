@@ -206,7 +206,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122d05
+    sget v5, Lcom/resouce/module/ResSTRING;->reader_lock_button_episode:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

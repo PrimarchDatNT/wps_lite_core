@@ -106,7 +106,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1ea8
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_agora_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -121,7 +121,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eb8
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_share_play:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b1eb8
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_share_play:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -224,7 +224,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e066e
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_share_play_bottom_view:I
 
     return v0
 .end method
@@ -235,7 +235,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eb8
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_share_play:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
 
     iget-object v1, p0, Lkdc;->S:Landroid/view/View;
 
-    const v2, 0x7f0b2b95
+    sget v2, Lcom/resouce/module/ResID;->share_play_tip_bar_layout:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

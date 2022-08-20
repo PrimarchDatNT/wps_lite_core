@@ -256,7 +256,7 @@
 
     move-result v0
 
-    const v1, 0x7f1219cf
+    sget v1, Lcom/resouce/module/ResSTRING;->phonetic_audio_null_text:I
 
     const/4 v2, 0x0
 

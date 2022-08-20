@@ -36,7 +36,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f0e0cac
+    sget p3, Lcom/resouce/module/ResLAYOUT;->public_layout_wps_drive_newsharefolder_footer:I
 
     const/4 p4, 0x0
 
@@ -46,7 +46,7 @@
 
     iput-object p1, p0, Lvk7;->a:Landroid/view/View;
 
-    const p3, 0x7f0b1a08
+    sget p3, Lcom/resouce/module/ResID;->new_sharefolder_button_now_create:I
 
     .line 6
     invoke-virtual {p1, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

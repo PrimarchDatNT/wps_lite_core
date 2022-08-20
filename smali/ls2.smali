@@ -2018,7 +2018,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12202e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_downloading:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2075,7 +2075,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f122526
+    sget v2, Lcom/resouce/module/ResSTRING;->public_nfc_please_wait:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2161,7 +2161,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120565
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_hasapk_title:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2182,7 +2182,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12055e
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_ok:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2201,7 +2201,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2227,7 +2227,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120560
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_btn_wait:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2568,7 +2568,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f120dda
+    sget v5, Lcom/resouce/module/ResSTRING;->gp_app_detail:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

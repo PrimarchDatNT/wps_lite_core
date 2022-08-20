@@ -120,7 +120,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -172,7 +172,7 @@
     :goto_0
     iget-object p1, p0, Lyc3;->B:Landroid/app/Activity;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -248,7 +248,7 @@
 
     aput-object v5, v4, v6
 
-    const v5, 0x7f122f04
+    sget v5, Lcom/resouce/module/ResSTRING;->share_folder_type_desc:I
 
     invoke-virtual {v2, v5, v4}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -256,7 +256,7 @@
 
     iget-object v4, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f122ef1
+    sget v5, Lcom/resouce/module/ResSTRING;->share_folder_guide_tips_1:I
 
     .line 3
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -285,7 +285,7 @@
 
     aput-object v5, v4, v6
 
-    const v5, 0x7f122f0d
+    sget v5, Lcom/resouce/module/ResSTRING;->share_folder_work_type_desc:I
 
     invoke-virtual {v2, v5, v4}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -293,7 +293,7 @@
 
     iget-object v4, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f122f0c
+    sget v5, Lcom/resouce/module/ResSTRING;->share_folder_work_guide_tips_1:I
 
     .line 6
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -322,7 +322,7 @@
 
     aput-object v4, v3, v6
 
-    const v4, 0x7f122eed
+    sget v4, Lcom/resouce/module/ResSTRING;->share_folder_class_type_desc:I
 
     invoke-virtual {v2, v4, v3}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -330,7 +330,7 @@
 
     iget-object v3, p0, Lhd3$g;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f122eec
+    sget v4, Lcom/resouce/module/ResSTRING;->share_folder_class_guide_tips_1:I
 
     .line 9
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -406,25 +406,25 @@
     const-string v0, ""
 
     :goto_0
-    const v1, 0x7f0b27e0
+    sget v1, Lcom/resouce/module/ResID;->rb_share_folder:I
 
     if-ne p1, v1, :cond_1
 
-    const p1, 0x7f12034a
+    sget p1, Lcom/resouce/module/ResSTRING;->create_folder_auto_fill_share_name:I
 
     goto :goto_1
 
     :cond_1
-    const v1, 0x7f0b27e2
+    sget v1, Lcom/resouce/module/ResID;->rb_work_folder:I
 
     if-ne p1, v1, :cond_2
 
-    const p1, 0x7f122eeb
+    sget p1, Lcom/resouce/module/ResSTRING;->share_folder_auto_fill_work_name:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f122eea
+    sget p1, Lcom/resouce/module/ResSTRING;->share_folder_auto_fill_class_name:I
 
     .line 3
     :goto_1
@@ -534,7 +534,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b27e0
+    sget v1, Lcom/resouce/module/ResID;->rb_share_folder:I
 
     if-ne v0, v1, :cond_0
 
@@ -543,7 +543,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b27e2
+    sget v1, Lcom/resouce/module/ResID;->rb_work_folder:I
 
     if-ne v0, v1, :cond_1
 
@@ -654,7 +654,7 @@
     .line 1
     iget v0, p0, Ldl7;->c0:I
 
-    const v1, 0x7f0b27e0
+    sget v1, Lcom/resouce/module/ResID;->rb_share_folder:I
 
     if-ne p1, v1, :cond_0
 
@@ -666,7 +666,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b27e2
+    sget v1, Lcom/resouce/module/ResID;->rb_work_folder:I
 
     if-ne p1, v1, :cond_1
 
@@ -726,17 +726,17 @@
     .line 1
     invoke-super {p0, p1}, Lyc3;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0e0e2d
+    sget p1, Lcom/resouce/module/ResLAYOUT;->public_share_folder_create_new_guide_layout:I
 
     .line 2
     invoke-virtual {p0, p1}, Lhd3$g;->setContentView(I)V
 
-    const p1, 0x7f122c6f    # 1.94298E38f
+    sget p1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_newsharefolder_title:I    # 1.94298E38f
 
     .line 3
     invoke-virtual {p0, p1}, Lyc3;->W2(I)V
 
-    const p1, 0x7f0b0ba8
+    sget p1, Lcom/resouce/module/ResID;->et_share_folder_name:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -747,7 +747,7 @@
 
     iput-object p1, p0, Ldl7;->Z:Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/NewFolderEditText;
 
-    const p1, 0x7f0b2912
+    sget p1, Lcom/resouce/module/ResID;->rg_share_folder_type:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -758,7 +758,7 @@
 
     iput-object p1, p0, Ldl7;->b0:Landroid/widget/RadioGroup;
 
-    const p1, 0x7f0b02cc
+    sget p1, Lcom/resouce/module/ResID;->btn_create:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -769,7 +769,7 @@
 
     iput-object p1, p0, Ldl7;->a0:Landroid/widget/Button;
 
-    const p1, 0x7f0b33e1
+    sget p1, Lcom/resouce/module/ResID;->vp2_share_folder_type:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

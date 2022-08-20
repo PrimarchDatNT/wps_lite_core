@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e076c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_link_edittext_dropdown_layout:I
 
     const/4 v1, 0x0
 
@@ -94,7 +94,7 @@
     .line 9
     iget-object p1, p0, Lcn/wps/moffice/common/beans/EditTextDropDown;->B:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b2596
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_btn:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/common/beans/EditTextDropDown;->B:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b2597
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_edittext:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -122,7 +122,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/common/beans/EditTextDropDown;->B:Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b2598
+    sget v0, Lcom/resouce/module/ResID;->public_common_edittext_dropdown_sprinner:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

@@ -270,7 +270,7 @@
 
     move-result v2
 
-    const v3, 0x7f081e4b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->ss_numberpicker_selection_divider:I
 
     if-eqz v2, :cond_0
 
@@ -304,7 +304,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -406,7 +406,7 @@
 
     check-cast v2, Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e06ec
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_home_birthday_number_picker:I
 
     .line 33
     invoke-virtual {v2, v3, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -421,7 +421,7 @@
 
     invoke-direct {v3, p0}, Lcn/wps/moffice/main/cloud/roaming/account/setting/userinfo/birthday/NumberPicker$c;-><init>(Lcn/wps/moffice/main/cloud/roaming/account/setting/userinfo/birthday/NumberPicker;)V
 
-    const v4, 0x7f0b10d8
+    sget v4, Lcom/resouce/module/ResID;->home_numberpicker_increment:I
 
     .line 36
     invoke-virtual {p0, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -438,7 +438,7 @@
     .line 38
     invoke-virtual {v4, v3}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v4, 0x7f0b10d7
+    sget v4, Lcom/resouce/module/ResID;->home_numberpicker_decrement:I
 
     .line 39
     invoke-virtual {p0, v4}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -455,7 +455,7 @@
     .line 41
     invoke-virtual {v4, v3}, Landroid/widget/ImageView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    const v2, 0x7f0b10d9
+    sget v2, Lcom/resouce/module/ResID;->home_numberpicker_input:I
 
     .line 42
     invoke-virtual {p0, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -575,7 +575,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060657
+    sget v5, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2387,12 +2387,12 @@
 
     if-eqz v5, :cond_1
 
-    const v5, 0x7f0600ea
+    sget v5, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     goto :goto_0
 
     :cond_1
-    const v5, 0x7f06025f
+    sget v5, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     :goto_0
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
@@ -3757,7 +3757,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3774,7 +3774,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f08143b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_time_select_diviver:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

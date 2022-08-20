@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0db9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_recent_file_item:I
 
     const/4 v2, 0x0
 
@@ -86,7 +86,7 @@
 
     iput-object p1, p0, Lb49;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2823
+    sget v0, Lcom/resouce/module/ResID;->recent_file_icon:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -100,7 +100,7 @@
     .line 4
     iget-object p1, p0, Lb49;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2827
+    sget v0, Lcom/resouce/module/ResID;->recent_filename_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -118,7 +118,7 @@
     .line 6
     iget-object p1, p0, Lb49;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2824
+    sget v0, Lcom/resouce/module/ResID;->recent_file_last_modified_date_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -131,7 +131,7 @@
     .line 7
     iget-object p1, p0, Lb49;->S:Landroid/view/View;
 
-    const v0, 0x7f0b2825
+    sget v0, Lcom/resouce/module/ResID;->recent_file_modified_count_text:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -144,7 +144,7 @@
     .line 8
     iget-object p1, p0, Lb49;->S:Landroid/view/View;
 
-    const v0, 0x7f0b06d4
+    sget v0, Lcom/resouce/module/ResID;->divider_line:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -383,7 +383,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122880
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_recentfile_create_file:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -407,7 +407,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122882
+    sget v2, Lcom/resouce/module/ResSTRING;->public_search_recentfile_edit_file:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

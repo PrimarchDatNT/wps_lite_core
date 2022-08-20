@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e03da
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_wps_drive_empty_folder_layout:I
 
     const/4 v2, 0x0
 
@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b3494
+    sget v0, Lcom/resouce/module/ResID;->wps_drive_total_no_document_img:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -52,7 +52,7 @@
 
     iput-object v0, p0, Lfb7;->f:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b085f
+    sget v0, Lcom/resouce/module/ResID;->empty_text:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -63,7 +63,7 @@
 
     iput-object v0, p0, Lfb7;->g:Landroid/widget/TextView;
 
-    const v0, 0x7f0b3089
+    sget v0, Lcom/resouce/module/ResID;->total_empty_tips_button:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

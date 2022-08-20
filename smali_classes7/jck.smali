@@ -145,7 +145,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1213c5
+    sget p1, Lcom/resouce/module/ResSTRING;->mi_pdf_print_fail:I
 
     .line 8
     invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -197,7 +197,7 @@
 .method public final c()V
     .locals 3
 
-    const v0, 0x7f0b173e
+    sget v0, Lcom/resouce/module/ResID;->local_lv_file:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -208,7 +208,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/compress/view/LocalPathSelectView;->S:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f081553
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_document:I
 
     .line 2
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setImgResId(I)V
@@ -216,7 +216,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/local/compress/view/LocalPathSelectView;->S:Lcn/wps/moffice/common/beans/KCustomFileListView;
 
-    const v1, 0x7f12253d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_no_recovery_file_record:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/KCustomFileListView;->setTextResId(I)V
 
@@ -232,7 +232,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605ee
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -281,11 +281,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0695
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_decompress_path_local_select:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/FrameLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b1cfc
+    sget v0, Lcom/resouce/module/ResID;->path_gallery:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -322,7 +322,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/local/compress/view/LocalPathSelectView;->T:Lq29;
 
-    const v0, 0x7f0b1737
+    sget v0, Lcom/resouce/module/ResID;->local_btn_add_folder:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -331,7 +331,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1738
+    sget v0, Lcom/resouce/module/ResID;->local_btn_cancel:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -340,7 +340,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1739
+    sget v0, Lcom/resouce/module/ResID;->local_btn_decompress:I
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1737
+    sget v1, Lcom/resouce/module/ResID;->local_btn_add_folder:I
 
     if-ne v0, v1, :cond_0
 
@@ -562,7 +562,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1738
+    sget v1, Lcom/resouce/module/ResID;->local_btn_cancel:I
 
     if-ne v0, v1, :cond_1
 
@@ -577,7 +577,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1739
+    sget v0, Lcom/resouce/module/ResID;->local_btn_decompress:I
 
     if-ne p1, v0, :cond_3
 

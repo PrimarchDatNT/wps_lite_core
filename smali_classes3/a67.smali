@@ -63,7 +63,7 @@
     .line 1
     iget-object p1, p1, Lbh8;->e:Lcn/wps/moffice/main/docsinfo/common/UploadData;
 
-    const v0, 0x7f122762
+    sget v0, Lcom/resouce/module/ResSTRING;->public_qing_upload_tips:I
 
     if-eqz p1, :cond_0
 
@@ -72,9 +72,9 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f12122d
+    sget p1, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
-    const v0, 0x7f12122d
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wps_drive_file_wait_for_wifi:I
 
     .line 3
     :cond_0

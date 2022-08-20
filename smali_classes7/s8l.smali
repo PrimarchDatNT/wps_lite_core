@@ -33,7 +33,7 @@
 
     check-cast p1, Lhd3;
 
-    const v0, 0x7f0e111c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_wrap_styles:I
 
     invoke-virtual {p1, v0}, Lhd3;->setView(I)Lhd3;
 
@@ -82,7 +82,7 @@
 
     invoke-direct {v0, p0, v1, v2}, Ls8l$b;-><init>(Ls8l;Ly7i;Ls8l$a;)V
 
-    const v1, 0x7f0b36e0
+    sget v1, Lcom/resouce/module/ResID;->writer_wrap_inline:I
 
     const-string v3, "wrap-style-inline"
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v0, p0, v1, v2}, Ls8l$b;-><init>(Ls8l;Ly7i;Ls8l$a;)V
 
-    const v1, 0x7f0b36e2
+    sget v1, Lcom/resouce/module/ResID;->writer_wrap_topbottom:I
 
     const-string v3, "wrap-style-topbottom"
 
@@ -108,7 +108,7 @@
 
     invoke-direct {v0, p0, v1, v2}, Ls8l$b;-><init>(Ls8l;Ly7i;Ls8l$a;)V
 
-    const v1, 0x7f0b36e1
+    sget v1, Lcom/resouce/module/ResID;->writer_wrap_square:I
 
     const-string v3, "wrap-style-square"
 
@@ -121,7 +121,7 @@
 
     invoke-direct {v0, p0, v1, v2}, Ls8l$b;-><init>(Ls8l;Ly7i;Ls8l$a;)V
 
-    const v1, 0x7f0b36df
+    sget v1, Lcom/resouce/module/ResID;->writer_wrap_in_front_of_text:I
 
     const-string v3, "wrap-style-topoftext"
 
@@ -134,7 +134,7 @@
 
     invoke-direct {v0, p0, v1, v2}, Ls8l$b;-><init>(Ls8l;Ly7i;Ls8l$a;)V
 
-    const v1, 0x7f0b36e3
+    sget v1, Lcom/resouce/module/ResID;->writer_wrap_under_text:I
 
     const-string v2, "wrap-style-bottomoftext"
 
@@ -174,7 +174,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f1206c9
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_wrap_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -184,7 +184,7 @@
 
     invoke-direct {v1, p0}, Ls8l$a;-><init>(Ls8l;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

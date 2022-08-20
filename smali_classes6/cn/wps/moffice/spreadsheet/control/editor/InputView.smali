@@ -1008,7 +1008,7 @@
     .line 4
     invoke-static {p1, v0}, Ldu8;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 5
     invoke-static {p1, p2}, Lsjf;->h(II)V
@@ -1194,7 +1194,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2972,13 +2972,13 @@
 .method public C1(I)V
     .locals 12
 
-    const v0, 0x7f150010
+    sget v0, Lcom/resouce/module/ResXML;->phone_et_keyboard_time:I
 
-    const v1, 0x7f15000c
+    sget v1, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
-    const v2, 0x7f15000e
+    sget v2, Lcom/resouce/module/ResXML;->phone_et_keyboard_date:I
 
-    const v3, 0x7f15000a
+    sget v3, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     const/4 v4, 0x5
 
@@ -3059,9 +3059,9 @@
 
     move-result-object v8
 
-    const v9, 0x7f15000f
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_horizontal:I
 
-    const v10, 0x7f15000b
+    sget v10, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     if-eqz v8, :cond_3
 
@@ -3094,7 +3094,7 @@
     goto :goto_0
 
     :cond_0
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_0
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3126,7 +3126,7 @@
     goto :goto_1
 
     :cond_2
-    const v2, 0x7f15000a
+    sget v2, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     :goto_1
     invoke-direct {p1, v0, v2}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3174,7 +3174,7 @@
     goto :goto_2
 
     :cond_4
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_2
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3206,7 +3206,7 @@
     goto :goto_3
 
     :cond_6
-    const v0, 0x7f15000c
+    sget v0, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
     :goto_3
     invoke-direct {p1, v2, v0}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3238,7 +3238,7 @@
     goto :goto_4
 
     :cond_8
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_4
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3326,9 +3326,9 @@
 
     move-result-object v8
 
-    const v9, 0x7f15000d
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_vertical:I
 
-    const v10, 0x7f150011
+    sget v10, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     if-eqz v8, :cond_d
 
@@ -3361,7 +3361,7 @@
     goto :goto_5
 
     :cond_a
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_5
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3393,7 +3393,7 @@
     goto :goto_6
 
     :cond_c
-    const v2, 0x7f15000a
+    sget v2, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     :goto_6
     invoke-direct {p1, v0, v2}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3441,7 +3441,7 @@
     goto :goto_7
 
     :cond_e
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_7
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3473,7 +3473,7 @@
     goto :goto_8
 
     :cond_10
-    const v0, 0x7f15000c
+    sget v0, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
     :goto_8
     invoke-direct {p1, v2, v0}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3505,7 +3505,7 @@
     goto :goto_9
 
     :cond_12
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_9
     invoke-direct {p1, v0, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -3629,7 +3629,7 @@
     return v2
 
     :cond_2
-    const v0, 0x7f12074e
+    sget v0, Lcom/resouce/module/ResSTRING;->et_cannotedit:I
 
     const/4 v1, 0x1
 
@@ -3763,7 +3763,7 @@
 
     if-ne v3, v4, :cond_c
 
-    const p1, 0x7f120ba3
+    sget p1, Lcom/resouce/module/ResSTRING;->et_not_support_arrayformula:I
 
     .line 24
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -3855,7 +3855,7 @@
 
     if-eqz p1, :cond_10
 
-    const p1, 0x7f120ba4
+    sget p1, Lcom/resouce/module/ResSTRING;->et_not_support_crossbook_ref:I
 
     .line 36
     invoke-static {p1, v1}, Lsjf;->h(II)V
@@ -5006,7 +5006,7 @@
 
     invoke-virtual {p1, v0, v2}, Liyg;->a(Liyg$a;[Ljava/lang/Object;)V
 
-    const p1, 0x7f120b7f
+    sget p1, Lcom/resouce/module/ResSTRING;->et_invalid_formula_dialog_content:I
 
     .line 15
     invoke-virtual {p0, p1}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->n4(I)V
@@ -5023,7 +5023,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2d04
+    sget v0, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5424,7 +5424,7 @@
 
     move-result-object v0
 
-    const v4, 0x7f0b2d04
+    sget v4, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -5698,7 +5698,7 @@
     .line 1
     sget-boolean v0, Ljif;->n:Z
 
-    const v1, 0x7f13012d
+    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     if-eqz v0, :cond_0
 
@@ -5827,7 +5827,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->I:Lcn/wps/moffice/spreadsheet/control/composeedit/SpanEditText;
 
-    const v1, 0x7f0b0a14
+    sget v1, Lcom/resouce/module/ResID;->et_edit_edittext:I
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setNextFocusDownId(I)V
 
@@ -5852,7 +5852,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->I:Lcn/wps/moffice/spreadsheet/control/composeedit/SpanEditText;
 
-    const v1, 0x7f0b0ac3
+    sget v1, Lcom/resouce/module/ResID;->et_new_cell_edit_text:I
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setNextFocusDownId(I)V
 
@@ -7792,7 +7792,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120b7a
+    sget v2, Lcom/resouce/module/ResSTRING;->et_include_unsupported_function:I
 
     .line 11
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -10178,7 +10178,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->R0:Landroid/view/View;
 
-    const v1, 0x7f0b0a1e
+    sget v1, Lcom/resouce/module/ResID;->et_edit_keyboard:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -10215,7 +10215,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->R0:Landroid/view/View;
 
-    const v1, 0x7f0b0a13
+    sget v1, Lcom/resouce/module/ResID;->et_edit_dvcurrencylist:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10332,7 +10332,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070b04
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_edit_layout_warning_textview_padding_vertical:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -10480,7 +10480,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a09
+    sget v1, Lcom/resouce/module/ResID;->et_edit_btn_enter:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10499,7 +10499,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a0f
+    sget v1, Lcom/resouce/module/ResID;->et_edit_cancel_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -10518,7 +10518,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a2e
+    sget v1, Lcom/resouce/module/ResID;->et_edit_warning_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -12979,7 +12979,7 @@
 
     invoke-virtual {v1, v2, v4}, Liyg;->a(Liyg$a;[Ljava/lang/Object;)V
 
-    const v1, 0x7f120b7f
+    sget v1, Lcom/resouce/module/ResSTRING;->et_invalid_formula_dialog_content:I
 
     .line 32
     invoke-virtual {v0, v1}, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->n4(I)V
@@ -13313,13 +13313,13 @@
 
     move-result v0
 
-    const v1, 0x7f150010
+    sget v1, Lcom/resouce/module/ResXML;->phone_et_keyboard_time:I
 
-    const v2, 0x7f15000c
+    sget v2, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
-    const v3, 0x7f15000e
+    sget v3, Lcom/resouce/module/ResXML;->phone_et_keyboard_date:I
 
-    const v4, 0x7f15000a
+    sget v4, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     const/4 v5, 0x5
 
@@ -13424,9 +13424,9 @@
 
     move-result-object v8
 
-    const v9, 0x7f15000f
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_horizontal:I
 
-    const v10, 0x7f15000b
+    sget v10, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     if-eqz v8, :cond_8
 
@@ -13464,7 +13464,7 @@
     goto :goto_1
 
     :cond_3
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_1
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13504,7 +13504,7 @@
     goto :goto_2
 
     :cond_6
-    const v3, 0x7f15000a
+    sget v3, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     :goto_2
     invoke-direct {v0, v1, v3}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13560,7 +13560,7 @@
     goto :goto_3
 
     :cond_9
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_3
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13600,7 +13600,7 @@
     goto :goto_4
 
     :cond_c
-    const v1, 0x7f15000c
+    sget v1, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
     :goto_4
     invoke-direct {v0, v3, v1}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13640,7 +13640,7 @@
     goto :goto_5
 
     :cond_f
-    const v9, 0x7f15000b
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_horizontal:I
 
     :goto_5
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13757,9 +13757,9 @@
 
     move-result-object v8
 
-    const v9, 0x7f15000d
+    sget v9, Lcom/resouce/module/ResXML;->pad_et_keyboard_vertical:I
 
-    const v10, 0x7f150011
+    sget v10, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     if-eqz v8, :cond_19
 
@@ -13797,7 +13797,7 @@
     goto :goto_7
 
     :cond_14
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_7
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13837,7 +13837,7 @@
     goto :goto_8
 
     :cond_17
-    const v3, 0x7f15000a
+    sget v3, Lcom/resouce/module/ResXML;->pad_et_keyboard_date:I
 
     :goto_8
     invoke-direct {v0, v1, v3}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13893,7 +13893,7 @@
     goto :goto_9
 
     :cond_1a
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_9
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13933,7 +13933,7 @@
     goto :goto_a
 
     :cond_1d
-    const v1, 0x7f15000c
+    sget v1, Lcom/resouce/module/ResXML;->pad_et_keyboard_time:I
 
     :goto_a
     invoke-direct {v0, v3, v1}, Lpvf;-><init>(Landroid/content/Context;I)V
@@ -13973,7 +13973,7 @@
     goto :goto_b
 
     :cond_20
-    const v9, 0x7f150011
+    sget v9, Lcom/resouce/module/ResXML;->phone_et_keyboard_vertical:I
 
     :goto_b
     invoke-direct {v0, v1, v9}, Lpvf;-><init>(Landroid/content/Context;I)V

@@ -510,12 +510,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08125a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_selected:I
 
     goto :goto_1
 
     :cond_0
-    const v1, 0x7f0807bc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->guide_page_selected_plan_bc:I
 
     goto :goto_1
 
@@ -527,12 +527,12 @@
 
     if-eqz v1, :cond_2
 
-    const v1, 0x7f08125c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_unselected:I
 
     goto :goto_1
 
     :cond_2
-    const v1, 0x7f0807bd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->guide_page_unselected_plan_bc:I
 
     .line 4
     :goto_1
@@ -655,7 +655,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f121374
+    sget v0, Lcom/resouce/module/ResSTRING;->login_in_wps_office:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -680,7 +680,7 @@
 
     :cond_1
     :goto_0
-    const v0, 0x7f122fff
+    sget v0, Lcom/resouce/module/ResSTRING;->start_wps_office:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1315,12 +1315,12 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f0e05ab
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pad_public_guide_page:I
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0e018d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->en_phone_public_guide_page:I
 
     :goto_0
     const/4 v2, 0x0
@@ -1331,7 +1331,7 @@
 
     iput-object v0, p0, Lbv9;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0f70
+    sget v1, Lcom/resouce/module/ResID;->guide_content:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1393,7 +1393,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2640
+    sget v1, Lcom/resouce/module/ResID;->public_image_guide_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1417,7 +1417,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1c6b
+    sget v1, Lcom/resouce/module/ResID;->page_circle_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1432,7 +1432,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b174f
+    sget v1, Lcom/resouce/module/ResID;->login_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1460,7 +1460,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0606e2
+    sget v2, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     const/4 v3, 0x0
 
@@ -1473,7 +1473,7 @@
     .line 10
     iget-object v0, p0, Lbv9;->i0:Landroid/widget/TextView;
 
-    const v1, 0x7f080a7d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->login_guide_page_btn_plan_bc:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -1524,7 +1524,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070bc9
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_phone_guide_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -1562,12 +1562,12 @@
 
     if-eqz v4, :cond_1
 
-    const v4, 0x7f08125a
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_selected:I
 
     goto :goto_1
 
     :cond_1
-    const v4, 0x7f0807bc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->guide_page_selected_plan_bc:I
 
     goto :goto_1
 
@@ -1579,12 +1579,12 @@
 
     if-eqz v4, :cond_3
 
-    const v4, 0x7f08125c
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->phone_public_guide_unselected:I
 
     goto :goto_1
 
     :cond_3
-    const v4, 0x7f0807bd
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->guide_page_unselected_plan_bc:I
 
     .line 9
     :goto_1
@@ -1683,7 +1683,7 @@
     goto :goto_3
 
     :cond_8
-    const v0, 0x7f0606e1
+    sget v0, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     .line 23
     :goto_3

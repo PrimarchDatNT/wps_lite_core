@@ -512,7 +512,7 @@
     .line 6
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f12149b
+    sget v1, Lcom/resouce/module/ResSTRING;->notice_no_record_found:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -528,7 +528,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081c96
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_none_error_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -572,7 +572,7 @@
     .line 13
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -588,7 +588,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f081301
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->phone_public_no_network_icon:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -604,7 +604,7 @@
     .line 17
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->X:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v1, 0x7f121bdb
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     invoke-virtual {p1, v1}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
@@ -845,7 +845,7 @@
     .line 12
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2566
+    sget v1, Lcom/resouce/module/ResID;->ptr_layout:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -865,7 +865,7 @@
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0380
+    sget v1, Lcom/resouce/module/ResID;->center_loading_pb:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -876,7 +876,7 @@
     .line 15
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -896,7 +896,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0e0480
+    sget v1, Lcom/resouce/module/ResLAYOUT;->listview_loading_view:I
 
     iget-object v2, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->U:Lcn/wps/moffice/templatecommon/ext/widget/GridListView;
 
@@ -1009,7 +1009,7 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/view/TemplateNewListActivity;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17f8
+    sget v1, Lcom/resouce/module/ResID;->main_error_default:I
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -113,7 +113,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0fdf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->tv_home_customfilelist_item_pad:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -129,7 +129,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0fde
+    sget v1, Lcom/resouce/module/ResLAYOUT;->tv_home_customfilelist_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -137,7 +137,7 @@
 
     :cond_1
     :goto_0
-    const p3, 0x7f0b0c7c
+    sget p3, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     check-cast p3, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b0c83
+    sget v1, Lcom/resouce/module/ResID;->fb_filename_text:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -155,7 +155,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0b0c79
+    sget v2, Lcom/resouce/module/ResID;->fb_file_enter_arrow_icon:I
 
     .line 7
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -164,7 +164,7 @@
 
     check-cast v2, Landroid/widget/ImageView;
 
-    const v3, 0x7f0b0c7d
+    sget v3, Lcom/resouce/module/ResID;->fb_file_last_modified_date_text:I
 
     .line 8
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -173,7 +173,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f081edc
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->tv_usb_icon:I
 
     .line 9
     invoke-virtual {p3, v4}, Landroid/widget/ImageView;->setImageResource(I)V

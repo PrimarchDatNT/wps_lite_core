@@ -59,11 +59,11 @@
 
     aput-object v2, v1, v3
 
-    const v2, 0x7f080759
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->func_guide_pdf2xls:I
 
-    const v3, 0x7f121772
+    sget v3, Lcom/resouce/module/ResSTRING;->pdf_convert_pdf_to_xls_guide:I
 
-    const v4, 0x7f121059
+    sget v4, Lcom/resouce/module/ResSTRING;->home_pay_function_about_pdf_to_xls_page_limit:I
 
     .line 4
     invoke-static {v2, v3, v4, v1}, Lcib;->j(III[Lcib$b;)Lcib;

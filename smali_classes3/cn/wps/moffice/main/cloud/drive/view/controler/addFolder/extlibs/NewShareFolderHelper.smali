@@ -227,7 +227,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;->b:Landroid/app/Activity;
 
-    const v1, 0x7f122391
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v2, 0x0
 
@@ -593,7 +593,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;->i:Ljava/util/Map;
 
-    const v1, 0x7f121153
+    sget v1, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -606,7 +606,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;->i:Ljava/util/Map;
 
-    const v1, 0x7f122c16
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_drive_classes_folder:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -619,7 +619,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/addFolder/extlibs/NewShareFolderHelper;->i:Ljava/util/Map;
 
-    const v1, 0x7f122c1b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wps_drive_work_folder:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

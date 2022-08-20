@@ -64,7 +64,7 @@
 
     move-result p1
 
-    const v1, 0x7f080e37
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_jumpto_et:I
 
     if-ne v1, p1, :cond_0
 

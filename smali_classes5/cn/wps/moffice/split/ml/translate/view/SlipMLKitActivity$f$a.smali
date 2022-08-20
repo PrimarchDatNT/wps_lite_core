@@ -102,7 +102,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/split/ml/translate/view/SlipMLKitActivity$f;->B:Lcn/wps/moffice/split/ml/translate/view/SlipMLKitActivity;
 
-    const v1, 0x7f122846
+    sget v1, Lcom/resouce/module/ResSTRING;->public_scan_network_nouse:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

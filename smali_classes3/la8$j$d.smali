@@ -130,7 +130,7 @@
     .line 7
     iget-object p1, p0, Lla8$j$d;->T:Lla8$j;
 
-    const p2, 0x7f12237c
+    sget p2, Lcom/resouce/module/ResSTRING;->public_inputEmpty:I
 
     invoke-virtual {p1, p2}, Lla8$j;->j(I)V
 
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122383
+    sget v2, Lcom/resouce/module/ResSTRING;->public_input_overLitmit_tips:I
 
     new-array p2, p2, [Ljava/lang/Object;
 
@@ -206,7 +206,7 @@
     :goto_2
     iget-object p1, p0, Lla8$j$d;->T:Lla8$j;
 
-    const p2, 0x7f120557
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addstorage_addshow_specialchar:I
 
     invoke-virtual {p1, p2}, Lla8$j;->j(I)V
 

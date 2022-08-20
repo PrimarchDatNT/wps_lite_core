@@ -80,7 +80,7 @@
 .method public final e(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 4
 
-    const v0, 0x7f081bbd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_round_tick_unselected:I
 
     const/4 v1, 0x1
 
@@ -95,7 +95,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0606c5
+    sget p2, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
     .line 2
     invoke-virtual {p1, v3, p2}, Landroid/content/res/TypedArray;->getColor(II)I

@@ -226,7 +226,7 @@
     .line 1
     iget-object v0, p0, Losc;->I:Landroid/app/Activity;
 
-    const v1, 0x7f121bc1
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_print_scope_custom_tip:I
 
     const/4 v2, 0x0
 
@@ -345,7 +345,7 @@
     .line 1
     iget-object v0, p0, Losc;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122711
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_selfdef_cant_null:I
 
     const/4 v2, 0x0
 
@@ -375,7 +375,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b1ed9
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_copy_count_decrease:I
 
     if-ne p1, v0, :cond_0
 
@@ -389,7 +389,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b1eda
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_copy_count_increase:I
 
     if-ne p1, v0, :cond_1
 
@@ -403,7 +403,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1ed2
+    sget v0, Lcom/resouce/module/ResID;->pdf_print:I
 
     if-ne p1, v0, :cond_2
 
@@ -500,7 +500,7 @@
     .line 2
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1edc
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_copy_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -513,7 +513,7 @@
     .line 3
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1edd
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_copy_view:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -540,7 +540,7 @@
     .line 5
     iget-object v1, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1edb
+    sget v3, Lcom/resouce/module/ResID;->pdf_print_copy_count_input:I
 
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -563,9 +563,9 @@
     .line 8
     iget-boolean v0, p0, Losc;->w0:Z
 
-    const v1, 0x7f0b1eda
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_copy_count_increase:I
 
-    const v3, 0x7f0b1ed9
+    sget v3, Lcom/resouce/module/ResID;->pdf_print_copy_count_decrease:I
 
     if-eqz v0, :cond_1
 
@@ -663,7 +663,7 @@
     .line 1
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eec
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_print_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -676,7 +676,7 @@
     .line 2
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef2
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_pages_per_sheet_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
     .line 7
     iget-object v3, p0, Losc;->I:Landroid/app/Activity;
 
-    const v4, 0x7f1226e0
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_number_pages:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -763,7 +763,7 @@
 
     iget-object v3, p0, Losc;->I:Landroid/app/Activity;
 
-    const v4, 0x7f0e0e58
+    sget v4, Lcom/resouce/module/ResLAYOUT;->public_simple_dropdown_item:I
 
     invoke-direct {v1, v3, v4, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -809,7 +809,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0e0665
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_print_setup:I
 
     goto :goto_0
 
@@ -820,12 +820,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0e07ce
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_print_setup:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0e018a
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_phone_pdf_print_setup:I
 
     .line 5
     :goto_0
@@ -842,7 +842,7 @@
     .line 6
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eef
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_page_range_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -855,7 +855,7 @@
     .line 7
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eed
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_page_num_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -866,7 +866,7 @@
     .line 8
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eee
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_page_num_present:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -877,7 +877,7 @@
     .line 9
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef0
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_page_selfdef:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -888,7 +888,7 @@
     .line 10
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef1
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_page_selfdef_input:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -948,7 +948,7 @@
     .line 18
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ef6
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_range_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -961,7 +961,7 @@
     .line 19
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ed3
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -974,7 +974,7 @@
     .line 20
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ed4
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_even:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -987,7 +987,7 @@
     .line 21
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ed5
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_odd:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1007,7 +1007,7 @@
     .line 23
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee1
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1020,7 +1020,7 @@
     .line 24
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee2
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_ltor:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1033,7 +1033,7 @@
     .line 25
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee4
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_ttob:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1046,7 +1046,7 @@
     .line 26
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee3
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_repeat:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1066,7 +1066,7 @@
     .line 28
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee5
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_1:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1079,7 +1079,7 @@
     .line 29
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee6
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_2:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1092,7 +1092,7 @@
     .line 30
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee7
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_3:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1105,7 +1105,7 @@
     .line 31
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee8
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_4:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1118,7 +1118,7 @@
     .line 32
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ee9
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_5:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1131,7 +1131,7 @@
     .line 33
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1eea
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_preview_6:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1150,7 +1150,7 @@
     .line 36
     iget-object v0, p0, Losc;->S:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1ed2
+    sget v1, Lcom/resouce/module/ResID;->pdf_print:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1329,7 +1329,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b1eed
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_page_num_all:I
 
     if-ne p1, v2, :cond_0
 
@@ -1351,7 +1351,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b1eee
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_page_num_present:I
 
     if-ne p1, v2, :cond_1
 
@@ -1378,7 +1378,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1ef0
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_page_selfdef:I
 
     if-ne p1, v0, :cond_2
 
@@ -1428,7 +1428,7 @@
 
     const-string v5, "1"
 
-    const v6, 0x7f0b1ee2
+    sget v6, Lcom/resouce/module/ResID;->pdf_print_merge_order_ltor:I
 
     if-ne p1, v6, :cond_0
 
@@ -1465,7 +1465,7 @@
     goto :goto_0
 
     :cond_0
-    const v6, 0x7f0b1ee4
+    sget v6, Lcom/resouce/module/ResID;->pdf_print_merge_order_ttob:I
 
     if-ne p1, v6, :cond_1
 
@@ -1502,7 +1502,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b1ee3
+    sget v0, Lcom/resouce/module/ResID;->pdf_print_merge_order_repeat:I
 
     if-ne p1, v0, :cond_2
 
@@ -1661,7 +1661,7 @@
     .line 6
     iget-object v2, p0, Losc;->I:Landroid/app/Activity;
 
-    const v3, 0x7f1226e0
+    sget v3, Lcom/resouce/module/ResSTRING;->public_print_number_pages:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1720,7 +1720,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1ef0
+    sget v2, Lcom/resouce/module/ResID;->pdf_print_page_selfdef:I
 
     const/4 v3, 0x0
 
@@ -1777,7 +1777,7 @@
     return v3
 
     :cond_2
-    const v4, 0x7f0b1eed
+    sget v4, Lcom/resouce/module/ResID;->pdf_print_page_num_all:I
 
     const/4 v5, 0x2
 
@@ -1793,7 +1793,7 @@
     goto :goto_1
 
     :cond_3
-    const v4, 0x7f0b1eee
+    sget v4, Lcom/resouce/module/ResID;->pdf_print_page_num_present:I
 
     if-ne v0, v4, :cond_4
 
@@ -1848,7 +1848,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1ed3
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_all:I
 
     if-ne v0, v1, :cond_6
 
@@ -1860,7 +1860,7 @@
     goto :goto_2
 
     :cond_6
-    const v1, 0x7f0b1ed4
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_even:I
 
     if-ne v0, v1, :cond_7
 
@@ -1872,7 +1872,7 @@
     goto :goto_2
 
     :cond_7
-    const v1, 0x7f0b1ed5
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_area_odd:I
 
     if-ne v0, v1, :cond_8
 
@@ -1917,7 +1917,7 @@
 
     invoke-virtual {v1, v2}, Lasc;->m(Z)V
 
-    const v1, 0x7f0b1ee2
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_ltor:I
 
     if-ne v0, v1, :cond_9
 
@@ -1929,7 +1929,7 @@
     goto :goto_3
 
     :cond_9
-    const v1, 0x7f0b1ee4
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_ttob:I
 
     if-ne v0, v1, :cond_a
 
@@ -1941,7 +1941,7 @@
     goto :goto_3
 
     :cond_a
-    const v1, 0x7f0b1ee3
+    sget v1, Lcom/resouce/module/ResID;->pdf_print_merge_order_repeat:I
 
     if-ne v0, v1, :cond_b
 
@@ -1980,7 +1980,7 @@
     .line 26
     iget-object v1, p0, Losc;->I:Landroid/app/Activity;
 
-    const v2, 0x7f1226de
+    sget v2, Lcom/resouce/module/ResSTRING;->public_print_no_valid_page:I
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

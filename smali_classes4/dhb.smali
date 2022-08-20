@@ -49,7 +49,7 @@
 
     iput-object p2, p0, Ldhb;->c:Landroid/graphics/Paint;
 
-    const v1, 0x7f060043
+    sget v1, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -86,7 +86,7 @@
     .line 9
     iget-object p2, p0, Ldhb;->b:Landroid/text/TextPaint;
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

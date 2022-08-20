@@ -136,7 +136,7 @@
     .line 2
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f122196
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Apps:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
     .line 3
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f12219b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Videos:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -162,7 +162,7 @@
     .line 4
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f122199
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Musics:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
     .line 5
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f122197
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Big_Files:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
     .line 6
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f12219a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Received_files:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -201,7 +201,7 @@
     .line 7
     sget-object v0, Lka6;->b:[Ljava/lang/String;
 
-    const v1, 0x7f122198
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_manager_Images:I
 
     invoke-virtual {p0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -340,7 +340,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806dd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_app_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -357,7 +357,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806e3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_video_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -374,7 +374,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806de
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_audio_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -391,7 +391,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806df
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_bigfile_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -408,7 +408,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806e2
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_received_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -425,7 +425,7 @@
 
     aget-object v0, v0, v1
 
-    const v1, 0x7f0806e1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->folder_manager_icon_image_rect:I
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

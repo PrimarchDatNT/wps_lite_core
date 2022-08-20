@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/main" android:background="@drawable/home_shortcut_popup_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/grid_holder" android:layout_width="fill_parent" android:layout_height="@dimen/home_shortcut_grid_holder_height" android:layout_alignParentTop="true">
-        <View android:background="@drawable/home_shortcut_header_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-    <cn.wps.moffice.main.shortcut.fastaccess.MultiRowGrid android:id="@id/tools" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <ListView android:id="@id/list" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/grid_holder" />
-</RelativeLayout>

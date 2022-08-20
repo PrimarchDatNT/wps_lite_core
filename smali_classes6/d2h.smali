@@ -143,7 +143,7 @@
     .line 1
     iget-object v0, p0, Ld2h;->a:Landroid/view/View;
 
-    const v1, 0x7f0b33c2
+    sget v1, Lcom/resouce/module/ResID;->viewpager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
     .line 2
     iget-object v0, p0, Ld2h;->a:Landroid/view/View;
 
-    const v1, 0x7f0b2160
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_indicator:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -196,7 +196,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -210,7 +210,7 @@
     .line 6
     iget-object v0, p0, Ld2h;->a:Landroid/view/View;
 
-    const v1, 0x7f0b3072
+    sget v1, Lcom/resouce/module/ResID;->top_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -221,7 +221,7 @@
     .line 7
     iget-object v0, p0, Ld2h;->a:Landroid/view/View;
 
-    const v1, 0x7f0b215d
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_panel_hide:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 9
     iget-object v1, p0, Ld2h;->a:Landroid/view/View;
 
-    const v2, 0x7f0b2161
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_panel_keyboard:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 10
     iget-object v1, p0, Ld2h;->a:Landroid/view/View;
 
-    const v2, 0x7f0b2159
+    sget v2, Lcom/resouce/module/ResID;->phone_ss_panel_assistant:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -305,7 +305,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -47,7 +47,7 @@
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    const v2, 0x7f0b1b8c
+    sget v2, Lcom/resouce/module/ResID;->otpHelper:I
 
     invoke-virtual {v0, v2, v1}, Leasypay/actions/EasypayBrowserFragment;->toggleView(ILjava/lang/Boolean;)V
 

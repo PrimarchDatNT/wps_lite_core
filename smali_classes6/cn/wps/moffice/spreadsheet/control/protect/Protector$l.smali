@@ -41,7 +41,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$l;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0b43
+    sget v0, Lcom/resouce/module/ResID;->et_prot_sheet_cancel_show:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

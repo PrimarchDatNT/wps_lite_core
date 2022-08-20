@@ -50,7 +50,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f1301e6
+    sget v0, Lcom/resouce/module/ResSTYLE;->Setting_Dialog_Style:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -203,23 +203,23 @@
     .line 1
     iget-boolean v0, p0, Lm0f;->X:Z
 
-    const v1, 0x7f060725
+    sget v1, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_night:I
 
-    const v2, 0x7f060724
+    sget v2, Lcom/resouce/module/ResCOLOR;->wps_reader_theme_day:I
 
     if-eqz v0, :cond_0
 
     .line 2
     iget-object v0, p0, Lm0f;->T:Landroid/widget/ImageView;
 
-    const v3, 0x7f08201b
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_reader_progress_set_right_night:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 3
     iget-object v0, p0, Lm0f;->U:Landroid/widget/ImageView;
 
-    const v3, 0x7f082019
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_reader_progress_set_left_night:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -263,14 +263,14 @@
     :cond_0
     iget-object v0, p0, Lm0f;->T:Landroid/widget/ImageView;
 
-    const v3, 0x7f08201a
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_reader_progress_set_right_day:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 7
     iget-object v0, p0, Lm0f;->U:Landroid/widget/ImageView;
 
-    const v3, 0x7f082018
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->wps_reader_progress_set_left_day:I
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -424,7 +424,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b3303
+    sget v1, Lcom/resouce/module/ResID;->up:I
 
     if-ne v0, v1, :cond_0
 
@@ -444,7 +444,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b078e
+    sget v0, Lcom/resouce/module/ResID;->down:I
 
     if-ne p1, v0, :cond_1
 
@@ -476,7 +476,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1061
+    sget v0, Lcom/resouce/module/ResLAYOUT;->wps_read_progress_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -486,7 +486,7 @@
 
     iput-object p1, p0, Lm0f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b0549
+    sget v0, Lcom/resouce/module/ResID;->content_layout:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -498,7 +498,7 @@
     .line 4
     iget-object p1, p0, Lm0f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b2adf
+    sget v0, Lcom/resouce/module/ResID;->seekbar:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -511,7 +511,7 @@
     .line 5
     iget-object p1, p0, Lm0f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b3303
+    sget v0, Lcom/resouce/module/ResID;->up:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -524,7 +524,7 @@
     .line 6
     iget-object p1, p0, Lm0f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b078e
+    sget v0, Lcom/resouce/module/ResID;->down:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -537,7 +537,7 @@
     .line 7
     iget-object p1, p0, Lm0f;->B:Landroid/view/View;
 
-    const v0, 0x7f0b32be
+    sget v0, Lcom/resouce/module/ResID;->txt_chapter_name:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -583,13 +583,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0b01
+    sget v0, Lcom/resouce/module/ResLAYOUT;->progress_toast:I
 
     invoke-virtual {p1, v0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const v0, 0x7f0b32d5
+    sget v0, Lcom/resouce/module/ResID;->txt_toast:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

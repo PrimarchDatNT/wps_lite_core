@@ -44,7 +44,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0d4b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_pad_mopub_native_ad_item:I
 
     goto :goto_0
 

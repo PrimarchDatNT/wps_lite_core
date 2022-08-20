@@ -132,12 +132,12 @@
 
     if-eqz v1, :cond_2
 
-    const p6, 0x7f122514
+    sget p6, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     goto :goto_1
 
     :cond_2
-    const p6, 0x7f12116c
+    sget p6, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     :goto_1
     invoke-virtual {p5, p6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -290,7 +290,7 @@
 
     move-result-object p4
 
-    const p6, 0x7f121964
+    sget p6, Lcom/resouce/module/ResSTRING;->phone_home_new_search_more_documents:I
 
     .line 19
     invoke-virtual {p4, p6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -318,7 +318,7 @@
 
     move-result-object p4
 
-    const p6, 0x7f122e9d
+    sget p6, Lcom/resouce/module/ResSTRING;->search_lookup_more:I
 
     .line 22
     invoke-virtual {p4, p6}, Landroid/content/Context;->getString(I)Ljava/lang/String;

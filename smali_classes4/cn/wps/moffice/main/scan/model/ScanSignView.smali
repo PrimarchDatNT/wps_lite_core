@@ -226,7 +226,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f080221
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->comp_common_delete:I
 
     invoke-static {p2, p3}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
 

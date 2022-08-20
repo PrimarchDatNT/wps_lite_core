@@ -294,7 +294,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f1227d4
+    sget p2, Lcom/resouce/module/ResSTRING;->public_recommend:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -403,7 +403,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f120586
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 v0, 0x0
 
@@ -437,12 +437,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f12201b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 7
     new-instance v2, Lopa$c;
@@ -451,7 +451,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance p1, Lopa$d;
@@ -477,7 +477,7 @@
 
     if-nez v0, :cond_0
 
-    const p1, 0x7f120586
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     const/4 p2, 0x0
 
@@ -509,12 +509,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 6
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
-    const v1, 0x7f12201b
+    sget v1, Lcom/resouce/module/ResSTRING;->public_download:I
 
     .line 7
     new-instance v2, Lopa$a;
@@ -523,7 +523,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 8
     new-instance p1, Lopa$b;
@@ -773,7 +773,7 @@
 
     if-nez v1, :cond_3
 
-    const p0, 0x7f120586
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 8
     invoke-static {p1, p0, v0}, Lbih;->n(Landroid/content/Context;II)V

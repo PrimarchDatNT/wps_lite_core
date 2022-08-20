@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1202ad
+    sget v1, Lcom/resouce/module/ResSTRING;->cloud_protocol_default_cn_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cb0
+    sget v1, Lcom/resouce/module/ResSTRING;->privacy_protect_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121cae
+    sget v1, Lcom/resouce/module/ResSTRING;->privacy_account_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -420,13 +420,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602db
+    sget v1, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v0
 
-    const v1, 0x7f0b046f
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_icon_1:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -437,7 +437,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0470
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_icon_2:I
 
     .line 4
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -448,7 +448,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0471
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_icon_3:I
 
     .line 5
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -459,7 +459,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0472
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_icon_4:I
 
     .line 6
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -470,7 +470,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b0473
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_icon_5:I
 
     .line 7
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -481,7 +481,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b046b
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_hor_icon_1:I
 
     .line 8
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -492,7 +492,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b046c
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_hor_icon_2:I
 
     .line 9
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -503,7 +503,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b046d
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_hor_icon_3:I
 
     .line 10
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -514,7 +514,7 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v1, 0x7f0b046e
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_list_hor_icon_4:I
 
     .line 11
     invoke-virtual {p0, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -605,7 +605,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122c50
+    sget v1, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -619,7 +619,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c4c
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_content_1:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122c4d
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_content_2:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -651,7 +651,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122c4e
+    sget v4, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_content_3:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -666,7 +666,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122c4f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_content_4:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -686,7 +686,7 @@
 
     invoke-direct {v1, p0}, Lex7$d;-><init>(Lex7;)V
 
-    const v2, 0x7f121dbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -695,7 +695,7 @@
 
     invoke-direct {v1, p0}, Lex7$e;-><init>(Lex7;)V
 
-    const v2, 0x7f122c4b
+    sget v2, Lcom/resouce/module/ResSTRING;->public_wpsdrive_cloud_protocol_confirm_btn:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -721,7 +721,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b0475
+    sget v1, Lcom/resouce/module/ResID;->cloud_protocol_dialog_start_btn:I
 
     if-ne v0, v1, :cond_0
 
@@ -772,7 +772,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0474
+    sget v0, Lcom/resouce/module/ResID;->cloud_protocol_dialog_not_start_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -799,18 +799,18 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f0e0097
+    sget v0, Lcom/resouce/module/ResLAYOUT;->cloud_protocol_dialog_v2_pad:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e0096
+    sget v0, Lcom/resouce/module/ResLAYOUT;->cloud_protocol_dialog_v2:I
 
     .line 3
     :goto_0
     invoke-virtual {p0, v0}, Ljh3;->setContentView(I)V
 
-    const v0, 0x7f0b0475
+    sget v0, Lcom/resouce/module/ResID;->cloud_protocol_dialog_start_btn:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -819,7 +819,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0474
+    sget v0, Lcom/resouce/module/ResID;->cloud_protocol_dialog_not_start_btn:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -828,7 +828,7 @@
 
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b0469
+    sget v0, Lcom/resouce/module/ResID;->cloud_protocol_dialog_bottom_text:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -854,7 +854,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f121ebb
+    sget v3, Lcom/resouce/module/ResSTRING;->public_cloud_setting_privacy:I
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -916,7 +916,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12060c
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone_wpscloud_service:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -37,7 +37,7 @@
 .method public a()I
     .locals 1
 
-    const v0, 0x7f0e0f20
+    sget v0, Lcom/resouce/module/ResLAYOUT;->search_phone_total_search_all_tab_doc_model:I
 
     return v0
 .end method
@@ -131,7 +131,7 @@
 
     iput-object p1, p0, Lw4w;->e:Landroid/view/View;
 
-    const v0, 0x7f0b308d
+    sget v0, Lcom/resouce/module/ResID;->total_search_all_tab_doc_recycle_view:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

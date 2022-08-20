@@ -39,7 +39,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f0400aa
+    sget v0, Lcom/resouce/module/ResATTR;->bottomNavigationStyle:I
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -58,7 +58,7 @@
         .end annotation
     .end param
 
-    const v0, 0x7f130354
+    sget v0, Lcom/resouce/module/ResSTYLE;->Widget.Design.BottomNavigationView:I
 
     .line 3
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -169,7 +169,7 @@
 
     invoke-direct {v0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0600eb
+    sget v1, Lcom/resouce/module/ResCOLOR;->design_bottom_navigation_shadow_color:I
 
     .line 2
     invoke-static {p1, v1}, Lu6;->d(Landroid/content/Context;I)I
@@ -187,7 +187,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0700a4
+    sget v2, Lcom/resouce/module/ResDIMEN;->design_bottom_navigation_shadow_height:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

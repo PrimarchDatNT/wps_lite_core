@@ -182,7 +182,7 @@
 
     sget-object v4, Lqtc$k;->I:Lqtc$k;
 
-    const p2, 0x7f122266
+    sget p2, Lcom/resouce/module/ResSTRING;->public_home_app_file_reducing:I
 
     .line 5
     invoke-virtual {p3, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -579,7 +579,7 @@
     .line 4
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b271b
+    sget v1, Lcom/resouce/module/ResID;->public_share_second_panel_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -618,7 +618,7 @@
     :goto_0
     iget-object v4, p0, Lkdc;->S:Landroid/view/View;
 
-    const v6, 0x7f0b013b
+    sget v6, Lcom/resouce/module/ResID;->app_share_link:I
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -760,7 +760,7 @@
 
     move-result-object v5
 
-    const v4, 0x7f122bca
+    sget v4, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
     .line 21
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -816,7 +816,7 @@
 
     move-result-object v5
 
-    const v4, 0x7f1217dd
+    sget v4, Lcom/resouce/module/ResSTRING;->pdf_export_pages_title:I
 
     .line 28
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -869,7 +869,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f12264a
+    sget v5, Lcom/resouce/module/ResSTRING;->public_picfunc_item_share_text:I
 
     .line 33
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -892,14 +892,14 @@
 
     if-eqz v4, :cond_b
 
-    const v4, 0x7f081ab3
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_pdf_export_pic_file_60x60:I
 
     .line 37
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
 
-    const v4, 0x7f1220af
+    sget v4, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf_share:I
 
     .line 38
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -1158,7 +1158,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e0e3c
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_share_second_panel:I
 
     return v0
 .end method

@@ -48,7 +48,7 @@
 
     invoke-direct {v1, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0e0c03
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_flutter_page_loading_layout:I
 
     const/4 v3, 0x0
 

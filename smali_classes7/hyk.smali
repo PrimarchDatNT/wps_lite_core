@@ -479,14 +479,14 @@
     .line 3
     new-instance v1, Lgd3;
 
-    const v2, 0x7f12327e
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_comment_edit_warn:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    const v3, 0x7f12253e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_no_remind:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -499,7 +499,7 @@
 
     iput-object v1, p0, Lhyk;->a:Lgd3;
 
-    const v2, 0x7f12327f
+    sget v2, Lcom/resouce/module/ResSTRING;->writer_comment_edit_warn_title:I
 
     .line 6
     invoke-virtual {v1, v2}, Lgd3;->k(I)V
@@ -507,7 +507,7 @@
     .line 7
     iget-object v1, p0, Lhyk;->a:Lgd3;
 
-    const v2, 0x7f121f5e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

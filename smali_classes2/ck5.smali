@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121468
+    sget v1, Lcom/resouce/module/ResSTRING;->new_create_home_more_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -271,7 +271,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f1204d5
+    sget v0, Lcom/resouce/module/ResSTRING;->docer_bought:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

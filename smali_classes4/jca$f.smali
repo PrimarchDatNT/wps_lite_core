@@ -50,7 +50,7 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/framework/IBaseActivity;->mActivity:Lcn/wps/moffice/main/framework/BaseTitleActivity;
 
-    const v1, 0x7f1206c0
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_toast_logout_ok:I
 
     const/4 v2, 0x1
 

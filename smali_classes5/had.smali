@@ -35,7 +35,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f121a1a
+    sget v0, Lcom/resouce/module/ResSTRING;->plugin_cloud_page_sync_hint:I
 
     return v0
 .end method
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0094
+    sget v1, Lcom/resouce/module/ResLAYOUT;->cloud_page_sync_layout:I
 
     const/4 v2, 0x0
 
@@ -62,7 +62,7 @@
 
     iput-object v0, p0, Lhad;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1173
+    sget v1, Lcom/resouce/module/ResID;->home_switch_cloud_auto_backup:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
     .line 3
     iget-object v0, p0, Lhad;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2e05
+    sget v1, Lcom/resouce/module/ResID;->switch_only_wifi:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -313,17 +313,17 @@
     .line 7
     invoke-virtual {v1, v0}, Lvcd;->setCanceledOnTouchOutside(Z)V
 
-    const p1, 0x7f120671
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_disable_upload_msg:I
 
     .line 8
     invoke-virtual {v1, p1}, Lvcd;->setMessage(I)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120677
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_disable:I
 
     .line 9
     invoke-virtual {v1, p1, v2}, Lvcd;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;
 
-    const p1, 0x7f120676
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_setting_roaming_upload_continue:I
 
     .line 10
     invoke-virtual {v1, p1, v2}, Lvcd;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcn/wps/moffice/plugin/bridge/appointment/ICustomDialog;

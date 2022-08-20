@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0704bc
+    sget v2, Lcom/resouce/module/ResDIMEN;->mtrl_progress_track_thickness:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -213,7 +213,7 @@
 
     new-array p2, v4, [I
 
-    const v0, 0x7f040139
+    sget v0, Lcom/resouce/module/ResATTR;->colorPrimary:I
 
     .line 2
     invoke-static {p1, v0, v3}, Luxt;->b(Landroid/content/Context;II)I

@@ -43,7 +43,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b33f9
+    sget v0, Lcom/resouce/module/ResID;->watermark_color_0:I
 
     if-ne p1, v0, :cond_0
 
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ac
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_watermark_0:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -69,7 +69,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v0, 0x7f0b33fa
+    sget v0, Lcom/resouce/module/ResID;->watermark_color_1:I
 
     if-ne p1, v0, :cond_1
 
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ad
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_watermark_1:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -95,7 +95,7 @@
     goto/16 :goto_1
 
     :cond_1
-    const v0, 0x7f0b33fb
+    sget v0, Lcom/resouce/module/ResID;->watermark_color_2:I
 
     if-ne p1, v0, :cond_2
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ae
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_watermark_2:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -121,7 +121,7 @@
     goto :goto_1
 
     :cond_2
-    const v0, 0x7f0b33fc
+    sget v0, Lcom/resouce/module/ResID;->watermark_color_3:I
 
     if-ne p1, v0, :cond_3
 
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600af
+    sget v1, Lcom/resouce/module/ResCOLOR;->color_watermark_3:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -147,7 +147,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f0b3409
+    sget v0, Lcom/resouce/module/ResID;->watermark_spread_btn:I
 
     const/4 v1, 0x1
 
@@ -227,7 +227,7 @@
     goto :goto_1
 
     :cond_5
-    const v0, 0x7f0b3404
+    sget v0, Lcom/resouce/module/ResID;->watermark_ok:I
 
     if-ne p1, v0, :cond_6
 

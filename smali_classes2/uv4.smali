@@ -53,7 +53,7 @@
     .line 6
     iput-object p4, p0, Luv4;->d:Ljava/lang/Runnable;
 
-    const v1, 0x7f0b335f
+    sget v1, Lcom/resouce/module/ResID;->va_layout:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -361,7 +361,7 @@
     :cond_2
     iget-object p1, p0, Luv4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f1226c0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_commit_task_fail:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -378,7 +378,7 @@
     .line 1
     invoke-static {v0, v1}, Liv4;->b(Ljava/lang/String;Z)V
 
-    const v0, 0x7f1226c5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_device_offline:I
 
     .line 2
     invoke-virtual {p0, v0}, Luv4;->k(I)V
@@ -423,7 +423,7 @@
     .line 1
     invoke-static {v0, v1}, Liv4;->b(Ljava/lang/String;Z)V
 
-    const v0, 0x7f1226e7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_other_error:I
 
     .line 2
     invoke-virtual {p0, v0}, Luv4;->k(I)V
@@ -500,7 +500,7 @@
     .line 2
     iget-object v0, p0, Luv4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122717
+    sget v1, Lcom/resouce/module/ResSTRING;->public_print_task_full:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -523,7 +523,7 @@
     .line 1
     invoke-static {v0, v1}, Liv4;->b(Ljava/lang/String;Z)V
 
-    const v0, 0x7f1226fa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_qrcode_expired:I
 
     .line 2
     invoke-virtual {p0, v0}, Luv4;->k(I)V

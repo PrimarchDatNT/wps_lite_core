@@ -36,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0b028e
+    sget v2, Lcom/resouce/module/ResID;->brightness_seekbar:I
 
     aput v2, v0, v1
 

@@ -52,7 +52,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2a23
+    sget v0, Lcom/resouce/module/ResID;->scf_more_menu_text:I
 
     if-ne p1, v0, :cond_1
 
@@ -129,7 +129,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2a24
+    sget v0, Lcom/resouce/module/ResID;->scf_more_sort_text:I
 
     if-ne p1, v0, :cond_2
 
@@ -145,7 +145,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b2a22
+    sget v0, Lcom/resouce/module/ResID;->scf_more_delete_text:I
 
     if-ne p1, v0, :cond_3
 

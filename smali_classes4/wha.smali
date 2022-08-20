@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1230be
+    sget v1, Lcom/resouce/module/ResSTRING;->thesis_styling:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -618,7 +618,7 @@
     .line 5
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f1200e0
+    sget v2, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

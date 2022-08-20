@@ -431,7 +431,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/foreigntemplate/newfile/fragment/EnTemplateNewFragment;->I:Landroid/view/View;
 
-    const v1, 0x7f0b17f5
+    sget v1, Lcom/resouce/module/ResID;->main_content_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -516,7 +516,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e02a4
+    sget p2, Lcom/resouce/module/ResLAYOUT;->fragment_en_new_file:I
 
     const/4 p3, 0x0
 

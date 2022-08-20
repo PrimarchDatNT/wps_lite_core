@@ -515,7 +515,7 @@
 
     move-result-object v1
 
-    const v7, 0x7f122546
+    sget v7, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v1, v7, v10}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

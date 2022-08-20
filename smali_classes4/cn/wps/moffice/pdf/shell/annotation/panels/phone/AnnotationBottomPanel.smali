@@ -85,7 +85,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/AnnotationBottomPanel;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1216e5
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_areahighlight_mode_tips:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -112,7 +112,7 @@
     .line 8
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/AnnotationBottomPanel;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1216da
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_annotation_shape_mode_tips:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -136,7 +136,7 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/AnnotationBottomPanel;->B:Landroid/app/Activity;
 
-    const p2, 0x7f1217b0
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_coverpen_save_tips:I
 
     invoke-virtual {p1, p2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -172,12 +172,12 @@
 
     if-eqz p2, :cond_4
 
-    const p2, 0x7f1217b5
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_edit_annotation_pen_toast_move:I
 
     goto :goto_1
 
     :cond_4
-    const p2, 0x7f1216cf
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_annotation_longtouch_tips:I
 
     :goto_1
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
@@ -205,13 +205,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e079e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_annotation_panel:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b1d9b
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_highligh:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     invoke-virtual {v0, v2}, Lcn/wps/moffice/pdf/shell/annotation/panels/phone/PDFAnnoPannelItem;->setIsColorImage(Z)V
 
-    const v0, 0x7f0b1d9f
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_more_insert:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -241,11 +241,11 @@
 
     move-result v0
 
-    const v1, 0x7f0b14c3
+    sget v1, Lcom/resouce/module/ResID;->iv_shape_en_vip:I
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0b1daf
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_shape:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

@@ -411,7 +411,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b290c
+    sget v7, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 5
     invoke-static {v6, v7}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -462,7 +462,7 @@
     .line 12
     invoke-virtual {v7, v9}, Landroid/widget/ImageView;->setAnimation(Landroid/view/animation/Animation;)V
 
-    const v7, 0x7f0b290d
+    sget v7, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 13
     invoke-static {v6, v7}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -759,7 +759,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0e0eef
+    sget v6, Lcom/resouce/module/ResLAYOUT;->rfab__content_label_list_item:I
 
     const/4 v7, 0x0
 
@@ -767,14 +767,14 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b290e
+    sget v6, Lcom/resouce/module/ResID;->rfab__content_label_list_root_view:I
 
     .line 9
     invoke-static {v5, v6}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v6
 
-    const v7, 0x7f0b290d
+    sget v7, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 10
     invoke-static {v5, v7}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -783,7 +783,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b290c
+    sget v8, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 11
     invoke-static {v5, v8}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -806,7 +806,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0b290f
+    sget v10, Lcom/resouce/module/ResID;->rfab__id_content_label_list_item_position:I
 
     invoke-virtual {v6, v10, v9}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
@@ -1274,7 +1274,7 @@
 
     iput v7, v6, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    const v6, 0x7f0b290d
+    sget v6, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     .line 7
     invoke-static {v4, v6}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -1285,7 +1285,7 @@
 
     invoke-virtual {v6, v7}, Landroid/view/View;->setVisibility(I)V
 
-    const v6, 0x7f0b290c
+    sget v6, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     .line 8
     invoke-static {v4, v6}, Lmh3;->e(Landroid/view/View;I)Landroid/view/View;
@@ -1521,7 +1521,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0b290f
+    sget v0, Lcom/resouce/module/ResID;->rfab__id_content_label_list_item_position:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
@@ -1540,7 +1540,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b290d
+    sget v1, Lcom/resouce/module/ResID;->rfab__content_label_list_label_tv:I
 
     if-ne p1, v1, :cond_1
 
@@ -1568,7 +1568,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b290c
+    sget v1, Lcom/resouce/module/ResID;->rfab__content_label_list_icon_iv:I
 
     if-ne p1, v1, :cond_2
 
@@ -1596,7 +1596,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b290e
+    sget v0, Lcom/resouce/module/ResID;->rfab__content_label_list_root_view:I
 
     if-ne p1, v0, :cond_3
 

@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c2e
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_home_empty_star_item_layout:I
 
     const/4 v2, 0x0
 
@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b085c
+    sget v1, Lcom/resouce/module/ResID;->empty_page_text:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -50,7 +50,7 @@
 
     iput-object v1, p0, Ladf;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b3159
+    sget v1, Lcom/resouce/module/ResID;->tv_empty_guide:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -105,17 +105,17 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f1229b0
+    sget p1, Lcom/resouce/module/ResSTRING;->public_sharefile_share_with_me_no_record:I
 
     return p1
 
     :cond_0
-    const p1, 0x7f12253a
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_published_files_now:I
 
     return p1
 
     :cond_1
-    const p1, 0x7f1229af
+    sget p1, Lcom/resouce/module/ResSTRING;->public_sharefile_my_share_no_record:I
 
     return p1
 .end method

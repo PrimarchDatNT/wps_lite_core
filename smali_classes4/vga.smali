@@ -54,7 +54,7 @@
 .method public a(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0b10e0
+    sget v0, Lcom/resouce/module/ResID;->home_open_doc:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -65,7 +65,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10f4
+    sget v0, Lcom/resouce/module/ResID;->home_open_ppt:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -76,7 +76,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1103
+    sget v0, Lcom/resouce/module/ResID;->home_open_xls:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -87,7 +87,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10ee
+    sget v0, Lcom/resouce/module/ResID;->home_open_pdf:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -98,7 +98,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b1101
+    sget v0, Lcom/resouce/module/ResID;->home_open_txt:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -109,7 +109,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0b10ed
+    sget v0, Lcom/resouce/module/ResID;->home_open_other:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -148,7 +148,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f1226e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_print_page_all:I
 
     return v0
 
@@ -162,12 +162,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f122293
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_file_manager:I
 
     return v0
 
     :cond_1
-    const v0, 0x7f122588
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open:I
 
     return v0
 .end method

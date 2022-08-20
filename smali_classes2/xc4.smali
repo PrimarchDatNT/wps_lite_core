@@ -65,7 +65,7 @@
 
     if-eqz p2, :cond_0
 
-    const p0, 0x7f12134e
+    sget p0, Lcom/resouce/module/ResSTRING;->link_share_info_expired:I
 
     .line 2
     invoke-virtual {v0, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -81,7 +81,7 @@
 
     if-nez p2, :cond_1
 
-    const p0, 0x7f1223f2
+    sget p0, Lcom/resouce/module/ResSTRING;->public_link_period_forever:I
 
     .line 3
     invoke-virtual {v0, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -91,7 +91,7 @@
     return-object p0
 
     :cond_1
-    const p2, 0x7f120f02
+    sget p2, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     .line 4
     invoke-virtual {v0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -140,7 +140,7 @@
 
     if-ltz v0, :cond_0
 
-    const p1, 0x7f120f02
+    sget p1, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     .line 2
     invoke-virtual {v1, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -202,7 +202,7 @@
 
     if-gtz v3, :cond_0
 
-    const v1, 0x7f1223ed
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_not_time_limit:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -225,7 +225,7 @@
 
     if-ltz v5, :cond_1
 
-    const v1, 0x7f1223e6
+    sget v1, Lcom/resouce/module/ResSTRING;->public_link_is_overtime:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -251,7 +251,7 @@
 
     div-float v9, v7, v8
 
-    const v7, 0x7f1223f0
+    sget v7, Lcom/resouce/module/ResSTRING;->public_link_overtime:I
 
     const/4 v8, 0x1
 
@@ -325,7 +325,7 @@
 
     if-eqz p0, :cond_2
 
-    const p0, 0x7f122988
+    sget p0, Lcom/resouce/module/ResSTRING;->public_share_permission_and_security:I
 
     .line 6
     invoke-virtual {v0, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -335,7 +335,7 @@
     return-object p0
 
     :cond_2
-    const p0, 0x7f1223ec
+    sget p0, Lcom/resouce/module/ResSTRING;->public_link_modify_setting_btn_content:I
 
     .line 7
     invoke-virtual {v0, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -363,7 +363,7 @@
 
     if-gtz v3, :cond_0
 
-    const v1, 0x7f1221a9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_folder_share_forever_limit:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -375,7 +375,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    const v1, 0x7f120e43
+    sget v1, Lcom/resouce/module/ResSTRING;->home_account_member_remind_tips_desc_expired:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -421,7 +421,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1223f3
+    sget v2, Lcom/resouce/module/ResSTRING;->public_link_period_valid:I
 
     .line 6
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -453,7 +453,7 @@
 
     if-eqz v0, :cond_0
 
-    const p1, 0x7f12134e
+    sget p1, Lcom/resouce/module/ResSTRING;->link_share_info_expired:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

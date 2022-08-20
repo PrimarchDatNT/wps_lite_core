@@ -99,12 +99,12 @@
 
     if-nez v2, :cond_1
 
-    const v3, 0x7f081c9e
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_template_viewpage_ractangle_image:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f081c9d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_template_viewpage_oval_image:I
 
     .line 8
     :goto_1
@@ -156,12 +156,12 @@
 
     if-ne p1, v0, :cond_1
 
-    const v2, 0x7f081c9e
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_template_viewpage_ractangle_image:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f081c9d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_template_viewpage_oval_image:I
 
     :goto_1
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V

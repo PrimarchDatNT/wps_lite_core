@@ -213,7 +213,7 @@
 .method public t0()I
     .locals 1
 
-    const v0, 0x7f0e065b
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_play_pageturner_layout:I
 
     return v0
 .end method
@@ -241,7 +241,7 @@
     .line 1
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eb0
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_indicator_pre:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -252,7 +252,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1eaf
+    sget v1, Lcom/resouce/module/ResID;->pdf_play_indicator_next:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

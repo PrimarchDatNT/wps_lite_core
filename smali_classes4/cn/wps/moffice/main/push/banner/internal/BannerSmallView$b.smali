@@ -188,7 +188,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerSmallView$b;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2272
+    sget v1, Lcom/resouce/module/ResID;->popularize_title:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerSmallView$b;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2270
+    sget v1, Lcom/resouce/module/ResID;->popularize_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -215,7 +215,7 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerSmallView$b;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b30dd
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -228,7 +228,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerSmallView$b;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b30df
+    sget v1, Lcom/resouce/module/ResID;->turn_to_activity_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -239,7 +239,7 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerSmallView$b;->d0:Landroid/view/View;
 
-    const v1, 0x7f0b2271
+    sget v1, Lcom/resouce/module/ResID;->popularize_spread_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -502,7 +502,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1212e9
+    sget v2, Lcom/resouce/module/ResSTRING;->infoflow_spread:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

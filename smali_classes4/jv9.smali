@@ -33,7 +33,7 @@
     .line 2
     iget-object v0, p0, Ljv9;->a:Landroid/view/View;
 
-    const v1, 0x7f0b1682
+    sget v1, Lcom/resouce/module/ResID;->ll_home_top_sceond:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -64,7 +64,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b3078
+    sget v1, Lcom/resouce/module/ResID;->top_open_v1_view:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -91,12 +91,12 @@
     .line 6
     iput p1, p0, Lcn/wps/moffice/foreigntemplate/widget/PagerIndicatorView;->b0:I
 
-    const p1, 0x7f0600ea
+    sget p1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 7
     iput p1, p0, Lcn/wps/moffice/foreigntemplate/widget/PagerIndicatorView;->c0:I
 
-    const p1, 0x7f06025f
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 8
     iput p1, p0, Lcn/wps/moffice/foreigntemplate/widget/PagerIndicatorView;->d0:I

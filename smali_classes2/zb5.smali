@@ -488,7 +488,7 @@
     .line 1
     iget-object v0, p0, Ltb5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b013b
+    sget v1, Lcom/resouce/module/ResID;->app_share_link:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 2
     iget-object v0, p0, Ltb5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b2b52
+    sget v1, Lcom/resouce/module/ResID;->share_auth_setting_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -510,7 +510,7 @@
     .line 3
     iget-object v0, p0, Ltb5;->b:Landroid/view/View;
 
-    const v1, 0x7f0b017e
+    sget v1, Lcom/resouce/module/ResID;->auth_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -49,7 +49,7 @@
 .method public i()I
     .locals 1
 
-    const v0, 0x7f122990
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_sendtopc:I
 
     return v0
 .end method

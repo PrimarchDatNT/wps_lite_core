@@ -50,7 +50,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f0605e5
+    sget p1, Lcom/resouce/module/ResCOLOR;->scanNavBackgroundColor:I
 
     .line 3
     invoke-static {p0, p1}, Ldgh;->n1(Landroid/app/Activity;I)V

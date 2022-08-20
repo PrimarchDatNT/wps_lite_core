@@ -255,7 +255,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122f2e
+    sget v0, Lcom/resouce/module/ResSTRING;->shareplay_audience_switch_file_invalid:I
 
     const/4 v1, 0x1
 
@@ -310,7 +310,7 @@
     .line 7
     iget-object v0, p0, Lhwb;->S:Landroid/app/Activity;
 
-    const v1, 0x7f0602cc
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultBlackColor:I
 
     invoke-static {v0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -594,7 +594,7 @@
     .line 22
     iget-object v0, p0, Lhwb;->S:Landroid/app/Activity;
 
-    const v1, 0x7f0602cd
+    sget v1, Lcom/resouce/module/ResCOLOR;->navigationBarDefaultWhiteColor:I
 
     invoke-static {v0, v1}, Ldgh;->n1(Landroid/app/Activity;I)V
 
@@ -917,7 +917,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a42
+    sget v1, Lcom/resouce/module/ResLAYOUT;->play_titlebar_more_popmenu:I
 
     const/4 v2, 0x0
 
@@ -925,7 +925,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2255
+    sget v1, Lcom/resouce/module/ResID;->playtitlebar_more_share_to_tv:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

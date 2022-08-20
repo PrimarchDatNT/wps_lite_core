@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0ead
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_water_mark_view:I
 
     const/4 p3, 0x0
 

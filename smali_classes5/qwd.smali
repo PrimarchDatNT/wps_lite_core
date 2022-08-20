@@ -448,7 +448,7 @@
 
     move-result v4
 
-    const v5, 0x7f12054e
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     if-eqz v4, :cond_1
 
@@ -549,7 +549,7 @@
     .line 14
     iget-object v1, v0, Lqwd;->b:Landroid/content/Context;
 
-    const v3, 0x7f122644
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     invoke-static {v1, v3, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -766,7 +766,7 @@
     .line 3
     iget-object p1, p0, Lqwd;->b:Landroid/content/Context;
 
-    const p2, 0x7f122644
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -843,7 +843,7 @@
     :catch_1
     iget-object p1, p0, Lqwd;->b:Landroid/content/Context;
 
-    const p2, 0x7f12054e
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -853,7 +853,7 @@
 .method public G(Lx3o;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 10
 
-    const v0, 0x7f12054e
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     const/4 v1, 0x0
 
@@ -889,7 +889,7 @@
     .line 4
     iget-object p1, p0, Lqwd;->b:Landroid/content/Context;
 
-    const p2, 0x7f122644
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1179,7 +1179,7 @@
     :goto_0
     iget-object v0, p0, Lqwd;->b:Landroid/content/Context;
 
-    const v1, 0x7f121c47
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_slidelayout_loading:I
 
     const/4 v2, 0x0
 
@@ -2247,7 +2247,7 @@
     return p1
 
     :cond_1
-    const v0, 0x7f121b60
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_change_pic_fail:I
 
     .line 4
     :try_start_0
@@ -2380,7 +2380,7 @@
     return p1
 
     :cond_1
-    const v2, 0x7f121b60
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_change_pic_fail:I
 
     .line 4
     :try_start_0
@@ -2485,7 +2485,7 @@
 .method public g(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 5
 
-    const v0, 0x7f12054e
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     const/4 v1, 0x0
 
@@ -2521,7 +2521,7 @@
     .line 4
     iget-object p1, p0, Lqwd;->b:Landroid/content/Context;
 
-    const p2, 0x7f122644
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2625,7 +2625,7 @@
 .method public h(Ljava/lang/String;Lx3o;)Z
     .locals 5
 
-    const v0, 0x7f12054e
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_addPic_failed:I
 
     const/4 v1, 0x0
 
@@ -2661,7 +2661,7 @@
     .line 4
     iget-object p1, p0, Lqwd;->b:Landroid/content/Context;
 
-    const p2, 0x7f122644
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pic_bigFile:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

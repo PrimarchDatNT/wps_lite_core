@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e08a8
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_public_multi_doc_popup:I
 
     const/4 v3, 0x0
 
@@ -185,7 +185,7 @@
     .line 18
     iget-object v0, p0, Lrk4;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b30a1
+    sget v1, Lcom/resouce/module/ResID;->tracks:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -334,7 +334,7 @@
     .line 1
     iget-object v0, p0, Ljd3;->S:Landroid/widget/PopupWindow;
 
-    const v1, 0x7f13073f
+    sget v1, Lcom/resouce/module/ResSTYLE;->public_popwindow_above_anim_style:I
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

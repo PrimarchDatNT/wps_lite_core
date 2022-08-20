@@ -253,7 +253,7 @@
     .line 1
     iget-object v0, p0, Lqg9;->Y:Landroid/app/Activity;
 
-    const v1, 0x7f122ed1
+    sget v1, Lcom/resouce/module/ResSTRING;->send_to_pc_scan_web_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -262,7 +262,7 @@
     .line 2
     iget-object v1, p0, Lqg9;->Y:Landroid/app/Activity;
 
-    const v2, 0x7f123022
+    sget v2, Lcom/resouce/module/ResSTRING;->t_transfer_wps_link:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -571,7 +571,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f1229dd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shareplay_scanqrcode_tips:I
 
     invoke-interface {v0, v2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setTipsString(I)V
 
@@ -625,7 +625,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b33bf
+    sget v2, Lcom/resouce/module/ResID;->viewfinder_title_tips:I
 
     invoke-virtual {v0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
 
@@ -636,7 +636,7 @@
     .line 13
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v1, 0x7f12276d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_qrcode_scan_name:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -862,7 +862,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122b05
+    sget p2, Lcom/resouce/module/ResSTRING;->public_transfer_scan_connect_tips:I
 
     invoke-interface {p1, p2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -874,7 +874,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122b0a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_transfer_scan_web_tips:I
 
     invoke-interface {p1, p2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -925,7 +925,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122ecf
+    sget p2, Lcom/resouce/module/ResSTRING;->send_to_pc_scan_login_tips:I
 
     invoke-interface {p1, p2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -991,7 +991,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f122ed1
+    sget p2, Lcom/resouce/module/ResSTRING;->send_to_pc_scan_web_tips:I
 
     invoke-interface {p1, p2}, Lcn/wps/moffice/extlibs/qrcode/IScanQRcode;->setHelperTips(I)V
 
@@ -1068,7 +1068,7 @@
     :cond_2
     iget-object p1, p0, Lqg9;->Y:Landroid/app/Activity;
 
-    const v0, 0x7f1229e0
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shareplay_unrecognized_code:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -1109,13 +1109,13 @@
 
     move-result-object v0
 
-    const v2, 0x7f0e0e9a
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_transfer_scan_bottom:I
 
     const/4 v3, 0x1
 
     invoke-virtual {v0, v2, v1, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2913
+    sget v0, Lcom/resouce/module/ResID;->rg_type:I
 
     .line 5
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1141,7 +1141,7 @@
     :goto_0
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    const v0, 0x7f0b0412
+    sget v0, Lcom/resouce/module/ResID;->ck_pc:I
 
     .line 7
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1152,7 +1152,7 @@
 
     iput-object v0, p0, Lqg9;->b0:Landroid/widget/RadioButton;
 
-    const v0, 0x7f0b0413
+    sget v0, Lcom/resouce/module/ResID;->ck_web:I
 
     .line 8
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1275,7 +1275,7 @@
 .method public k()I
     .locals 1
 
-    const v0, 0x7f130135
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     return v0
 .end method

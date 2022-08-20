@@ -156,7 +156,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/spreadsheet/control/data_validation/DVMoreView;->I:Landroid/widget/TextView;
 
-    const v2, 0x7f12080d
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_increment_max_warning:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -219,7 +219,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/spreadsheet/control/data_validation/DVMoreView;->I:Landroid/widget/TextView;
 
-    const v2, 0x7f12080c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_increment_integer_warning:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -252,7 +252,7 @@
 
     iget-object v1, v1, Lcn/wps/moffice/spreadsheet/control/data_validation/DVMoreView;->I:Landroid/widget/TextView;
 
-    const v2, 0x7f12080c
+    sget v2, Lcom/resouce/module/ResSTRING;->et_data_validation_increment_integer_warning:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

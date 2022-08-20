@@ -195,7 +195,7 @@
 
     iget-object v0, v0, Lb1a$e;->I:Landroid/content/Context;
 
-    const v1, 0x7f12031a
+    sget v1, Lcom/resouce/module/ResSTRING;->compressed_batch_share_upgrade_fail:I
 
     invoke-static {v0, v1, v5}, Lbih;->n(Landroid/content/Context;II)V
 

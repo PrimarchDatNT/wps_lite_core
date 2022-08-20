@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0613
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pay_page_coupon_adapter_item:I
 
     const/4 v2, 0x0
 
@@ -113,7 +113,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1d1c
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_detail_top:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -124,7 +124,7 @@
 
     iput-object v1, p2, Lxf6$a;->a:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f0b1d1a
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_detail_bottom:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     iput-object v1, p2, Lxf6$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d1f
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_item_title:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     iput-object v1, p2, Lxf6$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d1e
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_item_price:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     iput-object v1, p2, Lxf6$a;->d:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d1d
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_item_corner:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -168,7 +168,7 @@
 
     iput-object v1, p2, Lxf6$a;->f:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d21
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_validity_time:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     iput-object v1, p2, Lxf6$a;->e:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d1b
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_detail_percent:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -190,7 +190,7 @@
 
     iput-object v1, p2, Lxf6$a;->g:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1d20
+    sget v1, Lcom/resouce/module/ResID;->pay_coupon_selected_tag:I
 
     .line 10
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -285,7 +285,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f121c9c
+    sget v7, Lcom/resouce/module/ResSTRING;->premium_purchase_button_year:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -315,7 +315,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f121c9b
+    sget v7, Lcom/resouce/module/ResSTRING;->premium_purchase_button_month:I
 
     invoke-virtual {v5, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -404,7 +404,7 @@
     const/4 v5, 0x0
 
     :goto_2
-    const v2, 0x7f12169e
+    sget v2, Lcom/resouce/module/ResSTRING;->pay_page_coupon_now:I
 
     const-string v9, ": "
 
@@ -488,7 +488,7 @@
 
     iget-object v6, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v10, 0x7f1216a4
+    sget v10, Lcom/resouce/module/ResSTRING;->pay_page_save:I
 
     invoke-virtual {v6, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
 
     iget-object v5, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v6, 0x7f1216a0
+    sget v6, Lcom/resouce/module/ResSTRING;->pay_page_days:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     iget-object v5, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v6, 0x7f122980
+    sget v6, Lcom/resouce/module/ResSTRING;->public_share_long_pic_limit_free:I
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -590,7 +590,7 @@
 
     iget-object v5, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v10, 0x7f1216a3
+    sget v10, Lcom/resouce/module/ResSTRING;->pay_page_price_after_trial:I
 
     invoke-virtual {v5, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -636,7 +636,7 @@
 
     iget-object v1, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122c24
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     goto :goto_5
 
@@ -644,7 +644,7 @@
     :cond_7
     iget-object v1, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v3, 0x7f122a9d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     :goto_5
     invoke-virtual {v1, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -659,7 +659,7 @@
 
     iget-object v2, p0, Lxf6;->B:Landroid/app/Activity;
 
-    const v3, 0x7f12169f
+    sget v3, Lcom/resouce/module/ResSTRING;->pay_page_coupon_validity_time:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

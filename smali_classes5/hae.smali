@@ -89,11 +89,11 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f122bca
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_share:I
 
-    const v3, 0x7f0601a6
+    sget v3, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v4, 0x7f08072b
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_long_pic:I
 
     const/4 v5, 0x1
 
@@ -160,7 +160,7 @@
 
     invoke-virtual {v0, p2}, Lkib;->C(I)V
 
-    const p2, 0x7f1210b8
+    sget p2, Lcom/resouce/module/ResSTRING;->home_pay_share_longpic_desc:I
 
     new-array v6, v5, [Lcib$b;
 
@@ -247,7 +247,7 @@
     .line 20
     invoke-virtual {v0, v7, p2}, Ljs4;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    const v7, 0x7f122bc7
+    sget v7, Lcom/resouce/module/ResSTRING;->public_vipshare_longpic_desc:I
 
     new-array v5, v5, [Lcib$b;
 
@@ -524,7 +524,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f1200ac
+    sget v4, Lcom/resouce/module/ResSTRING;->app_market_myappurl:I
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f1200ae
+    sget v4, Lcom/resouce/module/ResSTRING;->app_market_playurl:I
 
     invoke-virtual {v1, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1095,7 +1095,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f122bd2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

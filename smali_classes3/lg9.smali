@@ -51,7 +51,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f12151c
+    sget v0, Lcom/resouce/module/ResSTRING;->online_device_list_text_noLogin:I
 
     .line 3
     invoke-static {p1, v0, p2}, Lbih;->n(Landroid/content/Context;II)V

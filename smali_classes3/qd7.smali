@@ -140,7 +140,7 @@
 .method public d3()I
     .locals 1
 
-    const v0, 0x7f121151
+    sget v0, Lcom/resouce/module/ResSTRING;->home_set_passcode:I
 
     return v0
 .end method
@@ -148,7 +148,7 @@
 .method public e3()I
     .locals 1
 
-    const v0, 0x7f122018
+    sget v0, Lcom/resouce/module/ResSTRING;->public_done:I
 
     return v0
 .end method
@@ -169,7 +169,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f1228bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     return v0
 .end method

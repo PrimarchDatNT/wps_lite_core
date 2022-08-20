@@ -116,7 +116,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f0402d0
+    sget v8, Lcom/resouce/module/ResATTR;->itemHorizontalTranslationEnabled:I
 
     aput v8, v7, v3
 
@@ -132,7 +132,7 @@
 
     new-array v7, v0, [I
 
-    const v8, 0x7f040036
+    sget v8, Lcom/resouce/module/ResATTR;->allowStacking:I
 
     aput v8, v7, v3
 
@@ -216,7 +216,7 @@
 
     new-array v9, v0, [I
 
-    const v10, 0x7f04008c
+    sget v10, Lcom/resouce/module/ResATTR;->behavior_autoHide:I
 
     aput v10, v9, v3
 
@@ -296,7 +296,7 @@
 
     new-array v1, v0, [I
 
-    const v5, 0x7f0405b6
+    sget v5, Lcom/resouce/module/ResATTR;->state_above_anchor:I
 
     aput v5, v1, v3
 
@@ -318,7 +318,7 @@
 
     new-array v1, v0, [I
 
-    const v2, 0x7f0402ba
+    sget v2, Lcom/resouce/module/ResATTR;->insetForeground:I
 
     aput v2, v1, v3
 
@@ -326,7 +326,7 @@
 
     new-array v0, v0, [I
 
-    const v1, 0x7f040093
+    sget v1, Lcom/resouce/module/ResATTR;->behavior_overlapTop:I
 
     aput v1, v0, v3
 

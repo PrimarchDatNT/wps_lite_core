@@ -310,7 +310,7 @@
     invoke-static {v1, v3}, Lyhh;->l(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    const v1, 0x7f1220f0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;

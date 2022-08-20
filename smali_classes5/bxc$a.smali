@@ -53,7 +53,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1e58
+    sget v2, Lcom/resouce/module/ResID;->pdf_main_topbar_input_text:I
 
     if-eq v0, v2, :cond_1
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0b1e42
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_add_sign:I
 
     const-string v4, "entry"
 
@@ -207,7 +207,7 @@
     return-void
 
     :cond_5
-    const v3, 0x7f0b1e4b
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_coverpen:I
 
     if-ne v0, v3, :cond_6
 
@@ -228,7 +228,7 @@
     goto/16 :goto_5
 
     :cond_6
-    const v3, 0x7f0b1e43
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_add_text:I
 
     if-ne v0, v3, :cond_7
 
@@ -273,7 +273,7 @@
     goto/16 :goto_5
 
     :cond_7
-    const v3, 0x7f0b1e41
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_add_shape:I
 
     if-ne v0, v3, :cond_8
 
@@ -298,7 +298,7 @@
     goto/16 :goto_5
 
     :cond_8
-    const v3, 0x7f0b1e56
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_hightlight_area:I
 
     if-ne v0, v3, :cond_9
 
@@ -325,7 +325,7 @@
     goto/16 :goto_5
 
     :cond_9
-    const v3, 0x7f0b1e4f
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2doc:I
 
     const/4 v7, 0x0
 
@@ -345,7 +345,7 @@
     goto/16 :goto_5
 
     :cond_a
-    const v3, 0x7f0b1e50
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2ppt:I
 
     if-ne v0, v3, :cond_b
 
@@ -363,7 +363,7 @@
     goto/16 :goto_5
 
     :cond_b
-    const v3, 0x7f0b1e51
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_edit_pdf2xls:I
 
     if-ne v0, v3, :cond_c
 
@@ -381,18 +381,18 @@
     goto/16 :goto_5
 
     :cond_c
-    const v3, 0x7f0b1e40
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_add_bookmark:I
 
     if-eq v0, v3, :cond_37
 
-    const v8, 0x7f0b1e44
+    sget v8, Lcom/resouce/module/ResID;->pdf_main_topbar_all_bookmark:I
 
     if-ne v0, v8, :cond_d
 
     goto/16 :goto_4
 
     :cond_d
-    const v3, 0x7f0b1e5a
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_outline:I
 
     if-ne v0, v3, :cond_f
 
@@ -446,7 +446,7 @@
     goto/16 :goto_5
 
     :cond_f
-    const v3, 0x7f0b1e3b
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_toolbar_jump:I
 
     const-string v8, "pdf/tools/view"
 
@@ -507,7 +507,7 @@
     goto/16 :goto_5
 
     :cond_10
-    const v3, 0x7f0b1e68
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_thumbnails:I
 
     if-ne v0, v3, :cond_12
 
@@ -588,7 +588,7 @@
     goto/16 :goto_5
 
     :cond_12
-    const v3, 0x7f0b1e3e
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_toolbar_search:I
 
     const/4 v9, 0x0
 
@@ -661,7 +661,7 @@
     goto/16 :goto_5
 
     :cond_13
-    const v3, 0x7f0b1e3c
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_toolbar_night_mode:I
 
     if-ne v0, v3, :cond_14
 
@@ -677,7 +677,7 @@
     goto/16 :goto_5
 
     :cond_14
-    const v3, 0x7f0b1e38
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_toolbar_annotation:I
 
     const/4 v10, 0x1
 
@@ -761,7 +761,7 @@
     goto/16 :goto_5
 
     :cond_16
-    const v3, 0x7f0b1e62
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_recycle_play:I
 
     if-ne v0, v3, :cond_17
 
@@ -824,7 +824,7 @@
     goto/16 :goto_5
 
     :cond_17
-    const v3, 0x7f0b1e48
+    sget v3, Lcom/resouce/module/ResID;->pdf_main_topbar_autoplay_intervals:I
 
     const/4 v8, 0x3
 
@@ -847,7 +847,7 @@
     goto/16 :goto_5
 
     :cond_18
-    const p1, 0x7f0b1e5d
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_homepage:I
 
     const/4 v3, 0x4
 
@@ -1039,7 +1039,7 @@
     goto/16 :goto_5
 
     :cond_19
-    const p1, 0x7f0b1e47
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_autoplay:I
 
     const/4 v11, 0x2
 
@@ -1248,7 +1248,7 @@
     goto/16 :goto_5
 
     :cond_1b
-    const p1, 0x7f0b1e5c
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_play_from_curpage:I
 
     if-ne v0, p1, :cond_1c
 
@@ -1438,7 +1438,7 @@
     goto/16 :goto_5
 
     :cond_1c
-    const p1, 0x7f0b1e3a
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_toolbar_fit_pad:I
 
     if-ne v0, p1, :cond_1e
 
@@ -1519,7 +1519,7 @@
     goto/16 :goto_5
 
     :cond_1e
-    const p1, 0x7f0b1e55
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_highlight_pen_one:I
 
     const-string v12, "TIP_INK_FIRST"
 
@@ -1542,7 +1542,7 @@
     goto/16 :goto_5
 
     :cond_1f
-    const p1, 0x7f0b1e5b
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_pen_one:I
 
     if-ne v0, p1, :cond_21
 
@@ -1580,7 +1580,7 @@
     goto/16 :goto_5
 
     :cond_21
-    const p1, 0x7f0b1e69
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_underline:I
 
     if-ne v0, p1, :cond_22
 
@@ -1607,7 +1607,7 @@
     goto/16 :goto_5
 
     :cond_22
-    const p1, 0x7f0b1e6a
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_wavy:I
 
     if-ne v0, p1, :cond_23
 
@@ -1627,7 +1627,7 @@
     goto/16 :goto_5
 
     :cond_23
-    const p1, 0x7f0b1e67
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_text_highlight:I
 
     if-ne v0, p1, :cond_24
 
@@ -1645,7 +1645,7 @@
     goto/16 :goto_5
 
     :cond_24
-    const p1, 0x7f0b1e4c    # 1.8492E38f
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_del_line:I    # 1.8492E38f
 
     if-ne v0, p1, :cond_25
 
@@ -1672,7 +1672,7 @@
     goto/16 :goto_5
 
     :cond_25
-    const p1, 0x7f0b1e60
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_recognition_type_anchor:I
 
     if-ne v0, p1, :cond_26
 
@@ -1684,7 +1684,7 @@
     goto/16 :goto_5
 
     :cond_26
-    const p1, 0x7f0b1e49
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_circle_select:I
 
     if-ne v0, p1, :cond_27
 
@@ -1718,7 +1718,7 @@
     goto/16 :goto_5
 
     :cond_27
-    const p1, 0x7f0b1e52
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_eraser:I
 
     if-ne v0, p1, :cond_28
 
@@ -1752,7 +1752,7 @@
     goto/16 :goto_5
 
     :cond_28
-    const p1, 0x7f0b1e45
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_topbar_annotation_setting:I
 
     if-ne v0, p1, :cond_29
 
@@ -1824,7 +1824,7 @@
     goto/16 :goto_5
 
     :cond_2a
-    const p1, 0x7f0b1e3f
+    sget p1, Lcom/resouce/module/ResID;->pdf_main_toolbar_translate:I
 
     if-ne v0, p1, :cond_2b
 
@@ -1850,7 +1850,7 @@
     goto/16 :goto_5
 
     :cond_2b
-    const p1, 0x7f0b0c26
+    sget p1, Lcom/resouce/module/ResID;->export_pic_pdf_item:I
 
     if-ne v0, p1, :cond_2c
 
@@ -1862,7 +1862,7 @@
     goto/16 :goto_5
 
     :cond_2c
-    const p1, 0x7f0b1d4d
+    sget p1, Lcom/resouce/module/ResID;->pdf2pics_item:I
 
     if-ne v0, p1, :cond_2d
 
@@ -1874,7 +1874,7 @@
     goto/16 :goto_5
 
     :cond_2d
-    const p1, 0x7f0b1777
+    sget p1, Lcom/resouce/module/ResID;->long_pic_item:I
 
     if-ne v0, p1, :cond_2e
 
@@ -1886,7 +1886,7 @@
     goto/16 :goto_5
 
     :cond_2e
-    const p1, 0x7f0b220d
+    sget p1, Lcom/resouce/module/ResID;->pic2pdfs_item:I
 
     if-ne v0, p1, :cond_2f
 
@@ -1904,7 +1904,7 @@
     goto/16 :goto_5
 
     :cond_2f
-    const p1, 0x7f0b13c7
+    sget p1, Lcom/resouce/module/ResID;->item_image:I
 
     const-string v2, "edit"
 
@@ -1952,7 +1952,7 @@
     goto/16 :goto_5
 
     :cond_30
-    const p1, 0x7f0b13bb
+    sget p1, Lcom/resouce/module/ResID;->item_edit:I
 
     if-ne v0, p1, :cond_31
 
@@ -1998,7 +1998,7 @@
     goto/16 :goto_5
 
     :cond_31
-    const p1, 0x7f0b0c49
+    sget p1, Lcom/resouce/module/ResID;->extract_pics_btn:I
 
     if-ne v0, p1, :cond_32
 
@@ -2014,7 +2014,7 @@
     goto/16 :goto_5
 
     :cond_32
-    const p1, 0x7f0b0c53
+    sget p1, Lcom/resouce/module/ResID;->extract_text:I
 
     if-ne v0, p1, :cond_33
 
@@ -2046,7 +2046,7 @@
     goto/16 :goto_5
 
     :cond_33
-    const p1, 0x7f0b1dfd
+    sget p1, Lcom/resouce/module/ResID;->pdf_extract_pages_btn:I
 
     if-ne v0, p1, :cond_34
 
@@ -2062,7 +2062,7 @@
     goto :goto_5
 
     :cond_34
-    const p1, 0x7f0b1870
+    sget p1, Lcom/resouce/module/ResID;->merge_btn:I
 
     if-ne v0, p1, :cond_35
 
@@ -2110,7 +2110,7 @@
     goto :goto_5
 
     :cond_35
-    const p1, 0x7f0b3401
+    sget p1, Lcom/resouce/module/ResID;->watermark_item:I
 
     if-ne v0, p1, :cond_36
 
@@ -2126,7 +2126,7 @@
     goto :goto_5
 
     :cond_36
-    const p1, 0x7f0b1e9d
+    sget p1, Lcom/resouce/module/ResID;->pdf_pic_pageadjust:I
 
     if-ne v0, p1, :cond_39
 

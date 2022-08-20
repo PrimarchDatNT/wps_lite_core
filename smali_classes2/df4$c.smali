@@ -106,7 +106,7 @@
 
     iget-object p1, p1, Llf4;->b0:Landroid/app/Activity;
 
-    const p2, 0x7f12217a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_filelink_period_invalid:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 

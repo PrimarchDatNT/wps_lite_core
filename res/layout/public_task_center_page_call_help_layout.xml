@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/task_center_page_callhelp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fanyigo_history_help_0" />
-    <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/task_center_page_callhelp_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fanyigo_history_help_1" />
-</LinearLayout>

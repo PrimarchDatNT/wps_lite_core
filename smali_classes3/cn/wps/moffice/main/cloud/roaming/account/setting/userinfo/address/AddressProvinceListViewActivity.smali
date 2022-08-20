@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120e18
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_address_title:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/title/BusinessBaseTitle;->setTitleText(I)V
 

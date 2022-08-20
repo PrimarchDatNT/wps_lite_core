@@ -264,7 +264,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1203c7
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_sacn_bw_sharpen:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -284,7 +284,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120405
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_few_ink:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -304,7 +304,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120409
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_gray:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -324,7 +324,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1203c9
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_B_W:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -344,7 +344,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120447
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_magic:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -364,7 +364,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120458
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_orginal:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -385,7 +385,7 @@
     .line 9
     iget-boolean v1, p0, Lo0b;->a0:Z
 
-    const v2, 0x7f080514
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_filter_mode_default:I
 
     if-eqz v1, :cond_7
 
@@ -518,7 +518,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0603
+    sget v0, Lcom/resouce/module/ResLAYOUT;->part_doc_scan_edit_filter_panel_item:I
 
     const/4 v1, 0x0
 
@@ -554,7 +554,7 @@
     .line 2
     iget-object p1, p1, Lo0b$g;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f06005d
+    sget p2, Lcom/resouce/module/ResCOLOR;->buttonSecondaryColor:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 
@@ -571,7 +571,7 @@
     .line 4
     iget-object p1, p1, Lo0b$g;->k0:Landroid/widget/TextView;
 
-    const p2, 0x7f06013f
+    sget p2, Lcom/resouce/module/ResCOLOR;->doc_scan_text_banner_default:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setBackgroundResource(I)V
 

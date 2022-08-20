@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f46
+    sget v1, Lcom/resouce/module/ResLAYOUT;->show_hidden_sheet_dialog:I
 
     const/4 v2, 0x0
 
@@ -278,14 +278,14 @@
 
     invoke-direct {v0, p0}, Lyqg$b;-><init>(Lyqg;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const v1, 0x7f0605d5
+    sget v1, Lcom/resouce/module/ResCOLOR;->retain_gray_button:I
 
     const/16 v2, 0x17
 
@@ -361,14 +361,14 @@
 
     invoke-direct {v0, p0}, Lyqg$a;-><init>(Lyqg;)V
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 2
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const/16 v2, 0x17
 
@@ -433,7 +433,7 @@
 .method public final e3()V
     .locals 2
 
-    const v0, 0x7f122fe9
+    sget v0, Lcom/resouce/module/ResSTRING;->ss_show_hidden_sheet:I
 
     const/16 v1, 0x11
 

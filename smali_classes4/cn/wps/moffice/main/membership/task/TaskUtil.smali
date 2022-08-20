@@ -28,16 +28,16 @@
     .line 1
     new-instance v0, Lcn/wps/moffice/main/membership/task/TaskUtil$b;
 
-    const v1, 0x7f130125
+    sget v1, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     invoke-direct {v0, p0, v1}, Lcn/wps/moffice/main/membership/task/TaskUtil$b;-><init>(Landroid/content/Context;I)V
 
-    const p0, 0x7f0e03b8
+    sget p0, Lcom/resouce/module/ResLAYOUT;->home_task_complete_dialog:I
 
     .line 2
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->setContentView(I)V
 
-    const p0, 0x7f0b255c
+    sget p0, Lcom/resouce/module/ResID;->prompt:I
 
     .line 3
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f12117f
+    sget p0, Lcom/resouce/module/ResSTRING;->home_task_rules:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;

@@ -232,7 +232,7 @@
     .line 4
     iget-object v0, p1, Lb1g$d;->b:Landroid/widget/TextView;
 
-    const v2, 0x7f12087f
+    sget v2, Lcom/resouce/module/ResSTRING;->et_filter_blank:I
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d5f
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -346,7 +346,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122d60
+    sget v0, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

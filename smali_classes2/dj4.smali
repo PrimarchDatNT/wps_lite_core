@@ -102,7 +102,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13013c
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_left_in_right_out:I
 
     .line 1
     invoke-direct {p0, p2, v0}, Lhd3$g;-><init>(Landroid/content/Context;I)V
@@ -484,7 +484,7 @@
     .line 7
     iget-object p1, p0, Ldj4;->B:Landroid/app/Activity;
 
-    const p2, 0x7f121745
+    sget p2, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     invoke-static {p1, p2, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -594,7 +594,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ea6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_unnormal_file_check_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -609,7 +609,7 @@
     .line 2
     invoke-virtual {p0, v0}, Lhd3$g;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b2fdf
+    sget v0, Lcom/resouce/module/ResID;->title_bar_container:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -651,7 +651,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -664,13 +664,13 @@
 
     move-result-object v2
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
     move-result v2
 
-    const v4, 0x7f0b01b2
+    sget v4, Lcom/resouce/module/ResID;->back:I
 
     .line 10
     invoke-virtual {p0, v4}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -684,7 +684,7 @@
     .line 11
     invoke-virtual {v4, v2}, Landroid/widget/ImageView;->setColorFilter(I)V
 
-    const v2, 0x7f0b1806
+    sget v2, Lcom/resouce/module/ResID;->main_title_text:I
 
     .line 12
     invoke-virtual {p0, v2}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -696,7 +696,7 @@
     .line 13
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    const v0, 0x7f0b32f9
+    sget v0, Lcom/resouce/module/ResID;->unnormal_merge_desc:I
 
     .line 14
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -710,7 +710,7 @@
     .line 15
     invoke-virtual {p0}, Ldj4;->k3()V
 
-    const v0, 0x7f0b0032
+    sget v0, Lcom/resouce/module/ResID;->abandon_merge_btn:I
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -721,7 +721,7 @@
 
     iput-object v0, p0, Ldj4;->U:Landroid/widget/Button;
 
-    const v0, 0x7f0b055b
+    sget v0, Lcom/resouce/module/ResID;->continue_merge_btn:I
 
     .line 17
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -737,7 +737,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f121857
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_page:I
 
     .line 19
     invoke-virtual {v2, v0}, Landroid/widget/TextView;->setText(I)V
@@ -745,19 +745,19 @@
     .line 20
     iget-object v0, p0, Ldj4;->V:Landroid/widget/Button;
 
-    const v2, 0x7f121860
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_continue_add:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
     .line 21
     iget-object v0, p0, Ldj4;->U:Landroid/widget/Button;
 
-    const v2, 0x7f121851
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_abandon_add:I
 
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V
 
     :cond_0
-    const v0, 0x7f0b187a
+    sget v0, Lcom/resouce/module/ResID;->merge_files_list:I
 
     .line 22
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -771,7 +771,7 @@
     .line 23
     iget-object v0, p0, Ldj4;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1827
+    sget v2, Lcom/resouce/module/ResID;->material_progress_bar_cycle:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +957,7 @@
     .line 4
     iget-object v0, p0, Ldj4;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f12185d
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_unnormal_file_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -967,7 +967,7 @@
     :cond_2
     iget-object v0, p0, Ldj4;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f120d50
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_unnormal_file_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -982,7 +982,7 @@
     .line 7
     iget-object v0, p0, Ldj4;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f12185c
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_page_adjust_add_unnormal_file_all_unsupport_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -992,7 +992,7 @@
     :cond_4
     iget-object v0, p0, Ldj4;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f120d4f
+    sget v1, Lcom/resouce/module/ResSTRING;->file_merge_unnormal_file_all_unsupport_tips:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1047,7 +1047,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01b2
+    sget v0, Lcom/resouce/module/ResID;->back:I
 
     if-ne p1, v0, :cond_0
 
@@ -1057,7 +1057,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0032
+    sget v0, Lcom/resouce/module/ResID;->abandon_merge_btn:I
 
     if-ne p1, v0, :cond_1
 
@@ -1067,7 +1067,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b055b
+    sget v0, Lcom/resouce/module/ResID;->continue_merge_btn:I
 
     if-ne p1, v0, :cond_2
 

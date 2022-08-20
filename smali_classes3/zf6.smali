@@ -102,7 +102,7 @@
     .line 1
     iget-object v0, p0, Lzf6;->a:Lrj2;
 
-    const v1, 0x7f12260d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pdf_to_doc_usable_times:I
 
     const-string v2, " "
 

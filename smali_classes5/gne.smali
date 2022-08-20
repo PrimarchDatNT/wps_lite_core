@@ -139,7 +139,7 @@
     .line 1
     iget-object v0, p0, Lp3e;->B:Landroid/content/Context;
 
-    const v1, 0x7f121982
+    sget v1, Lcom/resouce/module/ResSTRING;->phone_public_font_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -207,7 +207,7 @@
 
     iput-object v0, p0, Lgne;->U:Lcn/wps/moffice/common/V10SimpleItemSelectListView;
 
-    const v1, 0x7f060657
+    sget v1, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V

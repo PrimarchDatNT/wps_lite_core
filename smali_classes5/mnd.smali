@@ -103,7 +103,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f123308
+    sget p2, Lcom/resouce/module/ResSTRING;->writer_layout_revision_drawing:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2079,7 +2079,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122946
+    sget v6, Lcom/resouce/module/ResSTRING;->public_shape:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2731,7 +2731,7 @@
     .line 35
     iget-object p2, p0, Lmnd;->W:Lcn/wps/show/player/PreviewTransView;
 
-    const p3, 0x7f0600df
+    sget p3, Lcom/resouce/module/ResCOLOR;->componentToolbarBackgroundColor:I
 
     invoke-virtual {p2, p3}, Landroid/view/SurfaceView;->setBackgroundResource(I)V
 
@@ -3014,12 +3014,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f060043
+    sget v0, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f06000b
+    sget v0, Lcom/resouce/module/ResCOLOR;->WPPPadEditModeBackgroundColor:I
 
     .line 2
     :goto_0

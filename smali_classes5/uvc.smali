@@ -55,7 +55,7 @@
 .method public V0(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1dab
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_pager:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Luvc;->h0:Landroid/widget/FrameLayout;
 
-    const v0, 0x7f0b1da5
+    sget v0, Lcom/resouce/module/ResID;->pdf_edit_anno_pen_ink:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 .method public Y0()I
     .locals 1
 
-    const v0, 0x7f0e07a4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_pen:I
 
     return v0
 .end method
@@ -189,7 +189,7 @@
     :cond_0
     iget-object v0, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v2, 0x7f0e07a2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_edit_second_panel_anno_mark:I
 
     const/4 v3, 0x0
 
@@ -199,7 +199,7 @@
 
     iput-object v0, p0, Luvc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b0dbf
+    sget v2, Lcom/resouce/module/ResID;->fl_pdf_edit_mark_line:I
 
     .line 4
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
     .line 5
     iget-object v0, p0, Luvc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b0dc0
+    sget v2, Lcom/resouce/module/ResID;->fl_pdf_edit_mark_squiggly:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -226,7 +226,7 @@
     .line 6
     iget-object v0, p0, Luvc;->i0:Landroid/view/View;
 
-    const v2, 0x7f0b1d9a
+    sget v2, Lcom/resouce/module/ResID;->pdf_edit_anno_gridview:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -341,7 +341,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081015
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_normalbutton_color_selector:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
@@ -359,7 +359,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0602db
+    sget v4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -406,7 +406,7 @@
     .line 1
     iget-object v0, p0, Luvc;->j0:Landroid/widget/FrameLayout;
 
-    const v1, 0x7f0b3212
+    sget v1, Lcom/resouce/module/ResID;->tv_pdf_edit_mark_line:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -417,7 +417,7 @@
     .line 2
     iget-object v1, p0, Luvc;->k0:Landroid/widget/FrameLayout;
 
-    const v2, 0x7f0b3213
+    sget v2, Lcom/resouce/module/ResID;->tv_pdf_edit_mark_squiggly:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -476,7 +476,7 @@
 
     const-string v0, "textunderline"
 
-    const v1, 0x7f0b0dbf
+    sget v1, Lcom/resouce/module/ResID;->fl_pdf_edit_mark_line:I
 
     if-ne p1, v1, :cond_0
 
@@ -497,7 +497,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b0dc0
+    sget v1, Lcom/resouce/module/ResID;->fl_pdf_edit_mark_squiggly:I
 
     if-ne p1, v1, :cond_1
 

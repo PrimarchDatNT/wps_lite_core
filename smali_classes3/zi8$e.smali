@@ -52,7 +52,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12259d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_open_file_failed:I
 
     const/4 v1, 0x0
 

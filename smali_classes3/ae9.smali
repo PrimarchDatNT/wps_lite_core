@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b18
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_base_guide_dialog_view:I
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b261d
+    sget v1, Lcom/resouce/module/ResID;->public_guide_pic:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b261f
+    sget v2, Lcom/resouce/module/ResID;->public_guide_title:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -101,7 +101,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b261e
+    sget v3, Lcom/resouce/module/ResID;->public_guide_tips:I
 
     .line 4
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -110,7 +110,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b2769
+    sget v4, Lcom/resouce/module/ResID;->public_withhold:I
 
     .line 5
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -119,7 +119,7 @@
 
     iput-object v4, p0, Lae9;->S:Landroid/view/View;
 
-    const v4, 0x7f0b02f5
+    sget v4, Lcom/resouce/module/ResID;->btn_positive:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     iput-object v4, p0, Lae9;->T:Landroid/widget/Button;
 
-    const v4, 0x7f0b02eb
+    sget v4, Lcom/resouce/module/ResID;->btn_negative:I
 
     .line 7
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     move-result v4
 
-    const v5, 0x7f0b0533
+    sget v5, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 9
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -202,7 +202,7 @@
 
     move-result-object v4
 
-    const v6, 0x7f0b068e
+    sget v6, Lcom/resouce/module/ResID;->dialog_cardview:I
 
     invoke-virtual {v4, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

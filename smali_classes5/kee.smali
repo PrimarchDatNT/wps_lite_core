@@ -48,7 +48,7 @@
 .method public static B()V
     .locals 1
 
-    const v0, 0x7f122546
+    sget v0, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     .line 1
     invoke-static {v0}, Lkee;->C(I)V
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070a49
+    sget v1, Lcom/resouce/module/ResDIMEN;->ppt_template_item_space:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -400,7 +400,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f1210e3
+    sget p1, Lcom/resouce/module/ResSTRING;->home_price_unit:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f122a98
+    sget p1, Lcom/resouce/module/ResSTRING;->public_template_immediately_use:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -451,7 +451,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121c52
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_template_free:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -518,7 +518,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f121c52
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_template_free:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1046,7 +1046,7 @@
 .method public static p(Landroid/widget/TextView;)V
     .locals 1
 
-    const v0, 0x7f122a86
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_buy_dorcervip:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1062,7 +1062,7 @@
 .method public static q(Landroid/widget/TextView;)V
     .locals 1
 
-    const v0, 0x7f122a82    # 1.94288E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_tempalte_continue_buy_dorcervip:I    # 1.94288E38f
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1092,7 +1092,7 @@
 .method public static s(Landroid/widget/TextView;)V
     .locals 1
 
-    const v0, 0x7f122a96
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_free_use:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V
@@ -1108,7 +1108,7 @@
 .method public static t(Landroid/widget/TextView;)V
     .locals 1
 
-    const v0, 0x7f122a98
+    sget v0, Lcom/resouce/module/ResSTRING;->public_template_immediately_use:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(I)V

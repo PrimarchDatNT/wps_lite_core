@@ -83,7 +83,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -320,7 +320,7 @@
 .method public getCustomDialogMinWidthStyle()I
     .locals 1
 
-    const v0, 0x7f130126
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog_MinWidth:I
 
     return v0
 .end method
@@ -801,7 +801,7 @@
     .line 9
     new-instance p2, Lm76;
 
-    const p3, 0x7f13012d
+    sget p3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar:I
 
     invoke-direct {p2, p1, p3}, Lm76;-><init>(Landroid/content/Context;I)V
 
@@ -811,21 +811,21 @@
     .line 11
     invoke-virtual {p2}, Lhd3$g;->show()V
 
-    const p3, 0x7f1220e2
+    sget p3, Lcom/resouce/module/ResSTRING;->public_feedback_select_item_other:I
 
     .line 12
     invoke-virtual {p1, p3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p3
 
-    const p4, 0x7f1220cf
+    sget p4, Lcom/resouce/module/ResSTRING;->public_feedback_contact_info:I
 
     .line 13
     invoke-virtual {p1, p4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object p4
 
-    const p5, 0x7f1220ee
+    sget p5, Lcom/resouce/module/ResSTRING;->public_feedback_with_doc:I
 
     .line 14
     invoke-virtual {p1, p5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

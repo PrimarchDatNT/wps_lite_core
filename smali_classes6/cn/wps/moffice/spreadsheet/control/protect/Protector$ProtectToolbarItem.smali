@@ -27,9 +27,9 @@
     .line 1
     iput-object p1, p0, Lcn/wps/moffice/spreadsheet/control/protect/Protector$ProtectToolbarItem;->this$0:Lcn/wps/moffice/spreadsheet/control/protect/Protector;
 
-    const p1, 0x7f080e4b
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_protect:I
 
-    const v0, 0x7f120bff
+    sget v0, Lcom/resouce/module/ResSTRING;->et_protect:I
 
     .line 2
     invoke-direct {p0, p1, v0}, Lcn/wps/moffice/spreadsheet/control/toolbar/ToolbarItem;-><init>(II)V

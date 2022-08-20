@@ -62,7 +62,7 @@
 .method public Y(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b1073
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_image_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iput-object v0, p0, Lufb$i;->k0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1076
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_name_item_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -84,7 +84,7 @@
 
     iput-object v0, p0, Lufb$i;->l0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1075
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_item_progress:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lufb$i;->m0:Lcn/wps/moffice/common/fileupload/RoundProgressBar;
 
-    const v0, 0x7f0b1074
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_item_data:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v0, p0, Lufb$i;->n0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1079
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_swipe_menu:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v0, p0, Lufb$i;->p0:Lcn/wps/moffice/main/tabfiles/swipe/SwipeMenu;
 
-    const v0, 0x7f0b1078
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_swipe_end:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -128,7 +128,7 @@
 
     iput-object v0, p0, Lufb$i;->o0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1086
+    sget v0, Lcom/resouce/module/ResID;->home_files_swipe_list:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -137,7 +137,7 @@
 
     check-cast v0, Landroid/widget/RelativeLayout;
 
-    const v0, 0x7f0b107a
+    sget v0, Lcom/resouce/module/ResID;->home_files_list_swipe_pin:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -141,7 +141,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0aec
+    sget v0, Lcom/resouce/module/ResLAYOUT;->ppt_toolbaritem_font_style_layout:I
 
     const/4 v1, 0x0
 
@@ -153,7 +153,7 @@
 
     iput-object p1, p0, Lhne;->X:Landroid/widget/LinearLayout;
 
-    const v0, 0x7f0b22b1
+    sget v0, Lcom/resouce/module/ResID;->ppt_edittoolbar_fontName_img:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -562,7 +562,7 @@
 
     move-result p1
 
-    const v0, 0x7f122815
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ribbon_font:I
 
     const/4 v1, 0x0
 

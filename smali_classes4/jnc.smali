@@ -167,7 +167,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e07be
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_pdf_insert_pic_preview_mode_item:I
 
     const/4 v0, 0x0
 

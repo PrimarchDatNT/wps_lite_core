@@ -163,11 +163,11 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e02c9
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_app_batch_slim_view_scan_layout:I
 
     invoke-virtual {p1, v0, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const p1, 0x7f0b1726
+    sget p1, Lcom/resouce/module/ResID;->loading_container:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -176,7 +176,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->I:Landroid/view/View;
 
-    const p1, 0x7f0b2a18
+    sget p1, Lcom/resouce/module/ResID;->scan_result_container:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -185,7 +185,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->S:Landroid/view/View;
 
-    const p1, 0x7f0b2a07
+    sget p1, Lcom/resouce/module/ResID;->scan_file_result_text_tv:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -196,7 +196,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->T:Landroid/widget/TextView;
 
-    const p1, 0x7f0b2a05
+    sget p1, Lcom/resouce/module/ResID;->scan_file_lv:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -207,7 +207,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->U:Landroid/widget/ListView;
 
-    const p1, 0x7f0b03a9
+    sget p1, Lcom/resouce/module/ResID;->check_file_btn:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -218,7 +218,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->a0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b2aef
+    sget p1, Lcom/resouce/module/ResID;->select_file_btn:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -229,7 +229,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->b0:Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;
 
-    const p1, 0x7f0b033a
+    sget p1, Lcom/resouce/module/ResID;->can_slim_files_no_found_tips_container:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -238,7 +238,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->c0:Landroid/view/View;
 
-    const p1, 0x7f0b024f
+    sget p1, Lcom/resouce/module/ResID;->bottom_btns_container:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->W:Landroid/view/View;
 
-    const p1, 0x7f0b1857
+    sget p1, Lcom/resouce/module/ResID;->membership_banner_view:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->d0:Lcn/wps/moffice/common/thin_batch/impl/view/MembershipBannerView;
 
-    const p1, 0x7f0b1bab
+    sget p1, Lcom/resouce/module/ResID;->oversea_bottom_btns_container_ll:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -267,7 +267,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->e0:Landroid/view/View;
 
-    const p1, 0x7f0b1bad
+    sget p1, Lcom/resouce/module/ResID;->oversea_check_file_layout:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->g0:Lcn/wps/moffice/common/beans/phone/AlphaLinearLayout;
 
-    const p1, 0x7f0b1bac
+    sget p1, Lcom/resouce/module/ResID;->oversea_check_file_btn:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/thin_batch/impl/view/ScanFileSubView;->f0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b1bb4
+    sget p1, Lcom/resouce/module/ResID;->oversea_select_file_btn:I
 
     .line 15
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const v0, 0x7f0b2a06
+    sget v0, Lcom/resouce/module/ResID;->scan_file_result_text_divider:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -554,7 +554,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f121d97
+    sget v2, Lcom/resouce/module/ResSTRING;->public_batch_slim_scan_file_result:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -647,7 +647,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0b2a06
+    sget p1, Lcom/resouce/module/ResID;->scan_file_result_text_divider:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -665,7 +665,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f121d96
+    sget v1, Lcom/resouce/module/ResSTRING;->public_batch_slim_scan_file_no_select:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

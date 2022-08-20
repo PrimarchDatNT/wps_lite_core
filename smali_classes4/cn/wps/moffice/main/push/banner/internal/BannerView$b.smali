@@ -184,7 +184,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerView$b;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2271
+    sget v1, Lcom/resouce/module/ResID;->popularize_spread_text:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -198,7 +198,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerView$b;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2272
+    sget v1, Lcom/resouce/module/ResID;->popularize_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -216,7 +216,7 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerView$b;->T:Landroid/view/View;
 
-    const v2, 0x7f0b226f
+    sget v2, Lcom/resouce/module/ResID;->popularize_content:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -232,7 +232,7 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerView$b;->T:Landroid/view/View;
 
-    const v1, 0x7f0b2270
+    sget v1, Lcom/resouce/module/ResID;->popularize_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -245,7 +245,7 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/main/push/banner/internal/BannerView$b;->T:Landroid/view/View;
 
-    const v1, 0x7f0b01e7
+    sget v1, Lcom/resouce/module/ResID;->banner_content_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,12 +301,12 @@
 
     if-ne v3, v4, :cond_0
 
-    const v3, 0x7f1212da
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_media_adfrom:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f1212db
+    sget v3, Lcom/resouce/module/ResSTRING;->infoflow_media_en_adfrom:I
 
     :goto_0
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -415,11 +415,11 @@
     invoke-virtual {v5, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_4
-    const v5, 0x7f0b01f1
+    sget v5, Lcom/resouce/module/ResID;->banner_show_title_bg_first:I
 
-    const v6, 0x7f0b2273
+    sget v6, Lcom/resouce/module/ResID;->popularize_title_backup:I
 
-    const v7, 0x7f0b01f2
+    sget v7, Lcom/resouce/module/ResID;->banner_show_title_bg_second:I
 
     .line 17
     :try_start_0
@@ -470,13 +470,13 @@
     invoke-virtual {v8}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_2
-    const v8, 0x7f0b30de
+    sget v8, Lcom/resouce/module/ResID;->turn_to_activity02:I
 
     const/high16 v9, 0x43480000    # 200.0f
 
     const/high16 v10, 0x43b40000    # 360.0f
 
-    const v11, 0x7f0b30dd
+    sget v11, Lcom/resouce/module/ResID;->turn_to_activity:I
 
     if-eqz v2, :cond_5
 
@@ -656,7 +656,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08016c
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->color_alpha_65_black:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@android:id/text1" android:paddingLeft="18.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/comp_doc_smart_form_filling_drop_down" android:drawableEnd="@drawable/comp_doc_smart_form_filling_drop_down" android:textAlignment="inherit" android:paddingStart="18.0dip" android:paddingEnd="12.0dip" style="?android:spinnerItemStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

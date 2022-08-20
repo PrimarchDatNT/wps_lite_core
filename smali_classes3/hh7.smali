@@ -48,7 +48,7 @@
 
     const/high16 v2, 0x42700000    # 60.0f
 
-    const v3, 0x7f120f0a
+    sget v3, Lcom/resouce/module/ResSTRING;->home_file_date_minute_simple:I
 
     const/4 v4, 0x0
 
@@ -161,7 +161,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f120f06
+    sget p1, Lcom/resouce/module/ResSTRING;->home_file_date_hour_simple:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -214,7 +214,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120f02
+    sget v0, Lcom/resouce/module/ResSTRING;->home_file_date_day_simple:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -270,7 +270,7 @@
 
     const-string v2, "    "
 
-    const v3, 0x7f122326
+    sget v3, Lcom/resouce/module/ResSTRING;->public_homepage_share_update:I
 
     if-eqz v1, :cond_1
 
@@ -326,7 +326,7 @@
 
     move-result-object p0
 
-    const v5, 0x7f121256
+    sget v5, Lcom/resouce/module/ResSTRING;->home_wpsdrive_share:I
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -540,7 +540,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f122320
+    sget v1, Lcom/resouce/module/ResSTRING;->public_homepage_share_partly_text:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

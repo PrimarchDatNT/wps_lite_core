@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12126d
+    sget v2, Lcom/resouce/module/ResSTRING;->host_wechat_article:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

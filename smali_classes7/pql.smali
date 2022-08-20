@@ -110,7 +110,7 @@
 
     invoke-direct {v0, v1, v2, v3, v3}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;ZZ)V
 
-    const v1, 0x7f122388
+    sget v1, Lcom/resouce/module/ResSTRING;->public_insert_shape:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -155,7 +155,7 @@
     :goto_0
     iget-object v2, p0, Lpql;->e0:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0c9b
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_insertshapes_dialog:I
 
     const/4 v4, 0x0
 
@@ -188,7 +188,7 @@
     .line 1
     new-instance v0, Lqql;
 
-    const v1, 0x7f0b265d
+    sget v1, Lcom/resouce/module/ResID;->public_insertshapes_layout:I
 
     invoke-virtual {p0, v1}, Lozl;->Z0(I)Landroid/view/View;
 

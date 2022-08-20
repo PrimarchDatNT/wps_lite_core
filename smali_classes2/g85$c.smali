@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229f1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shouldOverwrite:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -632,7 +632,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122392
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

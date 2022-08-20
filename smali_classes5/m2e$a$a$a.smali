@@ -102,7 +102,7 @@
 
     iget-object v0, v0, Lm2e;->a:Landroid/content/Context;
 
-    const v1, 0x7f121b93
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_ole_parse_fail:I
 
     const/4 v2, 0x0
 

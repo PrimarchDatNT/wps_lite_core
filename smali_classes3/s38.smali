@@ -31,7 +31,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120da9
+    sget v1, Lcom/resouce/module/ResSTRING;->get_ckt_file_tocken:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -211,7 +211,7 @@
 
     if-nez p4, :cond_1
 
-    const p2, 0x7f1225d7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_pad_open_form_unsupported:I
 
     .line 4
     invoke-static {p1, p2, p6}, Lbih;->n(Landroid/content/Context;II)V
@@ -230,7 +230,7 @@
 
     :cond_2
     :goto_0
-    const p2, 0x7f122536
+    sget p2, Lcom/resouce/module/ResSTRING;->public_no_network_toast:I
 
     .line 6
     invoke-static {p1, p2, p6}, Lbih;->n(Landroid/content/Context;II)V

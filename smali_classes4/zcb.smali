@@ -372,7 +372,7 @@
 .method public final n(Landroid/view/ViewGroup;Landroid/content/Intent;)V
     .locals 0
 
-    const p2, 0x7f0b199b
+    sget p2, Lcom/resouce/module/ResID;->native_ad_backgroud:I
 
     .line 1
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -381,7 +381,7 @@
 
     iput-object p2, p0, Lzcb;->c:Landroid/view/View;
 
-    const p2, 0x7f0b199a
+    sget p2, Lcom/resouce/module/ResID;->native_ad:I
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     iput-object p2, p0, Lzcb;->d:Landroid/view/View;
 
-    const p2, 0x7f0b19a3
+    sget p2, Lcom/resouce/module/ResID;->native_ad_icon_image:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     iput-object p2, p0, Lzcb;->e:Lcn/wps/moffice/common/beans/RoundCornerImageView;
 
-    const p2, 0x7f0b19b1
+    sget p2, Lcom/resouce/module/ResID;->native_ad_title:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -412,7 +412,7 @@
 
     iput-object p2, p0, Lzcb;->f:Landroid/widget/TextView;
 
-    const p2, 0x7f0b19ae
+    sget p2, Lcom/resouce/module/ResID;->native_ad_text:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

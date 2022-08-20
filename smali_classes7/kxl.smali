@@ -148,18 +148,18 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0820b1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->writer_tts_notification_pause:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0820b2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->writer_tts_notification_play:I
 
     .line 2
     :goto_0
     iget-object v1, p0, Lkxl;->d:Landroid/widget/RemoteViews;
 
-    const v2, 0x7f0b36d1
+    sget v2, Lcom/resouce/module/ResID;->writer_tts_notification_controlstatus:I
 
     invoke-virtual {v1, v2, v0}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -263,15 +263,15 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a28
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_tts_notification:I
 
     invoke-direct {p1, v0, v1}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
     iput-object p1, p0, Lkxl;->d:Landroid/widget/RemoteViews;
 
-    const v0, 0x7f0b36d1
+    sget v0, Lcom/resouce/module/ResID;->writer_tts_notification_controlstatus:I
 
-    const v1, 0x7f0820b1
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_tts_notification_pause:I
 
     .line 5
     invoke-virtual {p1, v0, v1}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
@@ -279,7 +279,7 @@
     .line 6
     iget-object p1, p0, Lkxl;->d:Landroid/widget/RemoteViews;
 
-    const v0, 0x7f0b36d0
+    sget v0, Lcom/resouce/module/ResID;->writer_tts_notification_contentText:I
 
     invoke-virtual {p1, v0, p2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 
@@ -311,7 +311,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0820b0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->writer_tts_notification_logo:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -395,7 +395,7 @@
     .line 5
     iget-object v1, p0, Lkxl;->d:Landroid/widget/RemoteViews;
 
-    const v2, 0x7f0b36cf
+    sget v2, Lcom/resouce/module/ResID;->writer_tts_notification_close:I
 
     invoke-virtual {v1, v2, v0}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
@@ -505,7 +505,7 @@
     .line 5
     iget-object v1, p0, Lkxl;->d:Landroid/widget/RemoteViews;
 
-    const v2, 0x7f0b36d1
+    sget v2, Lcom/resouce/module/ResID;->writer_tts_notification_controlstatus:I
 
     invoke-virtual {v1, v2, v0}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 

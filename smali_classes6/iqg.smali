@@ -19,7 +19,7 @@
 .method public constructor <init>(Landroid/content/Context;Lypg$a;)V
     .locals 1
 
-    const v0, 0x7f120c53
+    sget v0, Lcom/resouce/module/ResSTRING;->et_split_table_save_type:I
 
     .line 1
     invoke-direct {p0, p1, v0, p2}, Lypg;-><init>(Landroid/content/Context;ILypg$a;)V
@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f81
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ss_split_panel_layout:I
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
 
     iput-object v0, p0, Liqg;->i:Landroid/view/View;
 
-    const v1, 0x7f0b162e
+    sget v1, Lcom/resouce/module/ResID;->list_view:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

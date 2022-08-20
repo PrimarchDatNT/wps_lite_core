@@ -58,7 +58,7 @@
 
     iget-object p1, p1, Lnd7;->Y:Landroid/widget/TextView;
 
-    const v0, 0x7f122c3d
+    sget v0, Lcom/resouce/module/ResSTRING;->public_wpscloud_secret_input_pswd_tips:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 

@@ -230,7 +230,7 @@
     .line 1
     iget-object v0, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b1f94
+    sget v1, Lcom/resouce/module/ResID;->phoneEditText:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -243,7 +243,7 @@
     .line 2
     iget-object v0, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0424
+    sget v1, Lcom/resouce/module/ResID;->clearPhoneImageView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -256,7 +256,7 @@
     .line 3
     iget-object v0, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fa0
+    sget v1, Lcom/resouce/module/ResID;->tipTextView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -269,7 +269,7 @@
     .line 4
     iget-object v0, p0, Lvx7$a;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2b0e
+    sget v1, Lcom/resouce/module/ResID;->sendCodeButton:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -420,7 +420,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2b0e
+    sget v0, Lcom/resouce/module/ResID;->sendCodeButton:I
 
     if-ne p1, v0, :cond_0
 
@@ -444,7 +444,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0424
+    sget v0, Lcom/resouce/module/ResID;->clearPhoneImageView:I
 
     if-ne p1, v0, :cond_1
 

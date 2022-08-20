@@ -20,7 +20,7 @@
         }
     .end annotation
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09dc
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_fill_table_selected_dialog:I
 
     const/4 v2, 0x0
 
@@ -47,7 +47,7 @@
 
     invoke-virtual {p0, v0, v1}, Lhd3;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v1, 0x7f0b2e4e
+    sget v1, Lcom/resouce/module/ResID;->table_list:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
     .line 5
     invoke-virtual {p0, p2}, Ll2l;->V2(Ljava/util/List;)V
 
-    const p2, 0x7f0b3337
+    sget p2, Lcom/resouce/module/ResID;->user_table_edit:I
 
     .line 6
     invoke-virtual {v0, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

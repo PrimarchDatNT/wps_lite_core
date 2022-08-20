@@ -63,7 +63,7 @@
     .line 4
     iput-object p4, p0, Li35$c;->W:Landroid/view/View;
 
-    const p1, 0x7f0b00e3
+    sget p1, Lcom/resouce/module/ResID;->album_spinner_text:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -74,7 +74,7 @@
 
     iput-object p1, p0, Li35$c;->I:Landroid/widget/TextView;
 
-    const p1, 0x7f0b00e1
+    sget p1, Lcom/resouce/module/ResID;->album_spinner_arrow:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -205,7 +205,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070b54
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_insert_pic_album_item_height:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -308,7 +308,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c97
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_insert_pic_albums_list:I
 
     const/4 v2, 0x0
 
@@ -356,7 +356,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/PopupWindow;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    const v1, 0x7f0b264c
+    sget v1, Lcom/resouce/module/ResID;->public_insert_pic_albums_list:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -379,7 +379,7 @@
     .line 1
     iget-object v0, p0, Li35$c;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f08180d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_album_spinner_up:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -474,7 +474,7 @@
     .line 1
     iget-object v0, p0, Li35$c;->S:Landroid/widget/ImageView;
 
-    const v1, 0x7f08180c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_album_spinner_down:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

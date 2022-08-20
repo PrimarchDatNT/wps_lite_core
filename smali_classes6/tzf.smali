@@ -61,7 +61,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f06003f
+    sget p3, Lcom/resouce/module/ResCOLOR;->blackColor:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -74,7 +74,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0606e1
+    sget p2, Lcom/resouce/module/ResCOLOR;->whiteColor:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -597,7 +597,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0ab3
+    sget v2, Lcom/resouce/module/ResID;->et_main_topbar_tabshost:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

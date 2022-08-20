@@ -236,7 +236,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     invoke-virtual {p1, v0}, Lla8$j;->j(I)V
 

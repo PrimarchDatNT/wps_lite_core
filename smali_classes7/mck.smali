@@ -48,7 +48,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0ecd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_writer_miui_countnum_dialog_layout:I
 
     const/4 v1, 0x0
 
@@ -58,7 +58,7 @@
 
     iput-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12fa
+    sget p2, Lcom/resouce/module/ResID;->info_textnum:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
     .line 6
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12ee
+    sget p2, Lcom/resouce/module/ResID;->info_content:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -86,7 +86,7 @@
     .line 7
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12f9
+    sget p2, Lcom/resouce/module/ResID;->info_text_char_num_withspace:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 8
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12f8
+    sget p2, Lcom/resouce/module/ResID;->info_text_char_num_withoutspace:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     .line 9
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12f1
+    sget p2, Lcom/resouce/module/ResID;->info_include_footnotes_endnotes_container:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -123,7 +123,7 @@
     .line 10
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12f2
+    sget p2, Lcom/resouce/module/ResID;->info_include_footnotes_endnotes_img:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -136,7 +136,7 @@
     .line 11
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b12f3
+    sget p2, Lcom/resouce/module/ResID;->info_include_footnotes_endnotes_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -149,7 +149,7 @@
     .line 12
     iget-object p1, p0, Lmck;->a:Landroid/view/View;
 
-    const p2, 0x7f0b346d
+    sget p2, Lcom/resouce/module/ResID;->wordcounts_progress:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -315,11 +315,11 @@
     const/4 v1, 0x0
 
     :goto_0
-    const v5, 0x7f123276
+    sget v5, Lcom/resouce/module/ResSTRING;->writer_characters:I
 
-    const v6, 0x7f123277
+    sget v6, Lcom/resouce/module/ResSTRING;->writer_characters_with_spaces:I
 
-    const v7, 0x7f123443
+    sget v7, Lcom/resouce/module/ResSTRING;->writer_words:I
 
     const-string v8, "\uff1a"
 
@@ -740,7 +740,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f122d5f
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_preview_selected:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -756,7 +756,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f122d60
+    sget v2, Lcom/resouce/module/ResSTRING;->reader_preview_unselected:I
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -905,7 +905,7 @@
     .line 7
     iget-object v0, p0, Lmck;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f080118
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->btn_checkbox_dialog_on_normal_light:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -915,7 +915,7 @@
     :cond_2
     iget-object v0, p0, Lmck;->g:Landroid/widget/ImageView;
 
-    const v1, 0x7f080117
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->btn_checkbox_dialog_on_disabled_light:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

@@ -968,7 +968,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f122412
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentLackOfStorageError:I
 
     invoke-static {p1, v0, v8}, Lbih;->n(Landroid/content/Context;II)V
 

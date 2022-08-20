@@ -32,9 +32,9 @@
     .line 2
     new-instance v0, Lcn/wps/moffice/spreadsheet/phone/quickbar/item/ExtractItem$b;
 
-    const v1, 0x7f080297
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_hardware_adapter_screen:I
 
-    const v2, 0x7f12197f
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_enter_auto_arrange:I
 
     const/4 v3, 0x1
 

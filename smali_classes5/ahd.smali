@@ -19,7 +19,7 @@
 .method public static constructor <clinit>()V
     .locals 2
 
-    const v0, 0x7f120332
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_hosts:I
 
     .line 1
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;
@@ -37,7 +37,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f120336
+    sget v1, Lcom/resouce/module/ResSTRING;->convert_test_ak:I
 
     .line 3
     invoke-static {v1}, Ltid;->c(I)Ljava/lang/String;
@@ -58,7 +58,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f120337
+    sget v0, Lcom/resouce/module/ResSTRING;->convert_test_sk:I
 
     .line 4
     invoke-static {v0}, Ltid;->c(I)Ljava/lang/String;

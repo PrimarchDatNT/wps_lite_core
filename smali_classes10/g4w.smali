@@ -48,7 +48,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lj4w;ZI)V
     .locals 11
 
-    const v0, 0x7f130131
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_Alpha:I
 
     const/4 v1, 0x1
 
@@ -104,7 +104,7 @@
 .method public constructor <init>(Landroid/app/Activity;Lj4w;ZIJJLjava/lang/String;)V
     .locals 2
 
-    const v0, 0x7f130131
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_Bottom_Panel_Alpha:I
 
     const/4 v1, 0x1
 
@@ -762,18 +762,18 @@
 
     if-eqz v3, :cond_0
 
-    const v0, 0x7f122e93
+    sget v0, Lcom/resouce/module/ResSTRING;->search_by_time_select_start_time:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122e92
+    sget v0, Lcom/resouce/module/ResSTRING;->search_by_time_select_end_time:I
 
     .line 6
     :goto_0
     invoke-virtual {v9, v0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const v0, 0x7f122eab
+    sget v0, Lcom/resouce/module/ResSTRING;->search_total_cancel:I
 
     .line 7
     invoke-virtual {v9, v0, v2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -782,16 +782,16 @@
 
     if-eqz p2, :cond_1
 
-    const v0, 0x7f122981
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
-    const v10, 0x7f122981
+    sget v10, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f122567
+    sget v0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
-    const v10, 0x7f122567
+    sget v10, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 8
     :goto_1
@@ -857,7 +857,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f07062e
+    sget v2, Lcom/resouce/module/ResDIMEN;->phone_docInfo_dialog_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1116,7 +1116,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122e93
+    sget v3, Lcom/resouce/module/ResSTRING;->search_by_time_select_start_time:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1165,7 +1165,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122e92
+    sget v4, Lcom/resouce/module/ResSTRING;->search_by_time_select_end_time:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1320,7 +1320,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122e8d
+    sget v6, Lcom/resouce/module/ResSTRING;->search_by_time_all:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1385,7 +1385,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122e91
+    sget v6, Lcom/resouce/module/ResSTRING;->search_by_time_last_week:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1550,7 +1550,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122e94
+    sget v6, Lcom/resouce/module/ResSTRING;->search_by_time_setting_by_self:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1613,7 +1613,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0f1c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->search_phone_public_moffice_search_by_time_range_layout:I
 
     const/4 v2, 0x0
 
@@ -1623,7 +1623,7 @@
 
     iput-object v0, p0, Lg4w;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0364
+    sget v1, Lcom/resouce/module/ResID;->cardview_outer:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1637,7 +1637,7 @@
     .line 3
     iget-object v0, p0, Lg4w;->S:Landroid/view/View;
 
-    const v1, 0x7f0b1638
+    sget v1, Lcom/resouce/module/ResID;->listview_search_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1682,7 +1682,7 @@
     .line 8
     iget-object v0, p0, Lg4w;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2f15
+    sget v1, Lcom/resouce/module/ResID;->text_finish:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

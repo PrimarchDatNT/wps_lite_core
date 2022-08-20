@@ -259,7 +259,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -276,12 +276,12 @@
 
     if-eqz v1, :cond_3
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     goto :goto_2
 
     :cond_3
-    const v1, 0x7f06000c
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     :goto_2
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0707f6
+    sget v1, Lcom/resouce/module/ResDIMEN;->phone_public_pageindicator_spliter_height:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -327,7 +327,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f060259
+    sget v1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColor(I)I
 

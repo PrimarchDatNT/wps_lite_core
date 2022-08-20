@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@android:color/transparent" android:layout_width="60.0dip" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.common.beans.V10RoundRectImageView android:layout_gravity="center" android:id="@id/bg_item_img" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@color/v10_public_edit_background_80_gray" android:scaleType="fitXY" app:selected_cover_color="@color/maskBackgroundColor" />
-</FrameLayout>

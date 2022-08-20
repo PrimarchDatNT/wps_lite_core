@@ -2335,7 +2335,7 @@
     :cond_0
     const/16 v0, 0x64
 
-    const v1, 0x7f122ba4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_video_error_weizhicuowu:I
 
     const/4 v2, 0x0
 
@@ -2363,7 +2363,7 @@
     .line 4
     iget-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->u0:Landroid/content/Context;
 
-    const p2, 0x7f12250d
+    sget p2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2576,7 +2576,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->u0:Landroid/content/Context;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v2, 0x0
 
@@ -2626,7 +2626,7 @@
 
     invoke-direct {v0, v1}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f122ba5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_video_no_wifi_tip:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -2636,7 +2636,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView$c;-><init>(Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;)V
 
-    const v2, 0x7f122ba8
+    sget v2, Lcom/resouce/module/ResSTRING;->public_video_toplay:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -2645,7 +2645,7 @@
 
     invoke-direct {v1, p0}, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView$d;-><init>(Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;)V
 
-    const v2, 0x7f122ba7
+    sget v2, Lcom/resouce/module/ResSTRING;->public_video_stopplaying:I
 
     invoke-virtual {v0, v2, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -2663,7 +2663,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2ef7
+    sget v0, Lcom/resouce/module/ResID;->textView_detail:I
 
     if-ne p1, v0, :cond_0
 
@@ -2673,7 +2673,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b01c7
+    sget v0, Lcom/resouce/module/ResID;->back_ll:I
 
     if-ne p1, v0, :cond_1
 
@@ -3469,7 +3469,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->u0:Landroid/content/Context;
 
-    const v1, 0x7f121484
+    sget v1, Lcom/resouce/module/ResSTRING;->no_network:I
 
     const/4 v2, 0x0
 
@@ -3762,13 +3762,13 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0c90
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_infoflow_videoitem_new:I
 
     const/4 v1, 0x1
 
     invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const p1, 0x7f0b2f61
+    sget p1, Lcom/resouce/module/ResID;->texture_view_image:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3779,7 +3779,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->T:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2f62
+    sget p1, Lcom/resouce/module/ResID;->textureview_default:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3790,7 +3790,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->S:Landroid/view/TextureView;
 
-    const p1, 0x7f0b1840
+    sget p1, Lcom/resouce/module/ResID;->mediacontrollerpop:I
 
     .line 4
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3801,7 +3801,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->W:Lcn/wps/moffice/common/infoflow/internal/cards/video/MediaControllerView;
 
-    const p1, 0x7f0b1b43
+    sget p1, Lcom/resouce/module/ResID;->operation_bg:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3812,7 +3812,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->B:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b2ef7
+    sget p1, Lcom/resouce/module/ResID;->textView_detail:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3823,7 +3823,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->a0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0312
+    sget p1, Lcom/resouce/module/ResID;->buffertexttip:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3834,7 +3834,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->b0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b0310
+    sget p1, Lcom/resouce/module/ResID;->bufferprogress:I
 
     .line 8
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3845,7 +3845,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->e0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b0fa5
+    sget p1, Lcom/resouce/module/ResID;->head_layout:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3856,7 +3856,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->U:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b2efc
+    sget p1, Lcom/resouce/module/ResID;->textView_playtitle:I
 
     .line 10
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3867,7 +3867,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->g0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b126b
+    sget p1, Lcom/resouce/module/ResID;->imageView_back:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3878,7 +3878,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->f0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b01c7
+    sget p1, Lcom/resouce/module/ResID;->back_ll:I
 
     .line 12
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3889,7 +3889,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->V:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b0fa6
+    sget p1, Lcom/resouce/module/ResID;->head_layout_duration:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -3900,7 +3900,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/infoflow/internal/cards/video/NewVideoPlayView;->c0:Landroid/widget/RelativeLayout;
 
-    const p1, 0x7f0b2ef8
+    sget p1, Lcom/resouce/module/ResID;->textView_duration:I
 
     .line 14
     invoke-virtual {p0, p1}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

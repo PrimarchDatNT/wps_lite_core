@@ -54,11 +54,11 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e1c
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_scan_hd_button:I
 
     invoke-static {v0, v1, p0}, Landroid/widget/RelativeLayout;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    const v0, 0x7f0b2a0a
+    sget v0, Lcom/resouce/module/ResID;->scan_hd_image:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

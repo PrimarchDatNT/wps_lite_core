@@ -77,7 +77,7 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/common/download/extlibs/task/NetConfirmDialogActivity;->B:Lhd3;
 
-    const v1, 0x7f120eed
+    sget v1, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
 
@@ -88,14 +88,14 @@
 
     invoke-direct {v1, p0, p1}, Lcn/wps/moffice/common/download/extlibs/task/NetConfirmDialogActivity$a;-><init>(Lcn/wps/moffice/common/download/extlibs/task/NetConfirmDialogActivity;Ljava/lang/String;)V
 
-    const p1, 0x7f121f5e
+    sget p1, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     invoke-virtual {v0, p1, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/common/download/extlibs/task/NetConfirmDialogActivity;->B:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

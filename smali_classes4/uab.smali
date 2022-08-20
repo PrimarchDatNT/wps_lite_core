@@ -51,7 +51,7 @@
 
     if-ne v2, v3, :cond_0
 
-    const v2, 0x7f070500
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_documents_file_selector_lan_width:I
 
     .line 6
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -65,14 +65,14 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f070502
+    sget v2, Lcom/resouce/module/ResDIMEN;->pad_documents_file_selector_ver_width:I
 
     .line 7
     invoke-virtual {p0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     move-result v2
 
-    const v3, 0x7f070501
+    sget v3, Lcom/resouce/module/ResDIMEN;->pad_documents_file_selector_ver_height:I
 
     .line 8
     invoke-virtual {p0, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

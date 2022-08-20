@@ -121,7 +121,7 @@
 
     move-result v0
 
-    const v1, 0x7f120586
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     if-nez v0, :cond_1
 
@@ -172,7 +172,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12205a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_error:I
 
     invoke-virtual {v0, v1}, Lcn/wps/kspaybase/common/ViewTitleBar;->setTitleText(I)V
 

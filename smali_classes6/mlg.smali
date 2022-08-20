@@ -110,7 +110,7 @@
 .method public static e(Landroid/content/Context;Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f0e0213
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_phone_cardmode_change_btn_newtips:I
 
     const/4 v1, 0x0
 

@@ -62,7 +62,7 @@
     .line 2
     iget-object v0, p0, Lb1a$n;->B:Landroid/content/Context;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v2, 0x0
 

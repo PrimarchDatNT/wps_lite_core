@@ -192,7 +192,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Lhd3$h;)V
 
-    const v1, 0x7f122a59
+    sget v1, Lcom/resouce/module/ResSTRING;->public_table_insert_table:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -359,7 +359,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e1102
+    sget v1, Lcom/resouce/module/ResLAYOUT;->writer_table_insert_dialog:I
 
     const/4 v2, 0x0
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b369e
+    sget v1, Lcom/resouce/module/ResID;->writer_table_insert_dialog:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -379,7 +379,7 @@
 
     iput-object v1, p0, Lyvl;->n0:Lcn/wps/moffice/common/beans/MyScrollView;
 
-    const v1, 0x7f0b2e47
+    sget v1, Lcom/resouce/module/ResID;->table_insert_row_wheel:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -390,7 +390,7 @@
 
     iput-object v1, p0, Lyvl;->h0:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b2e44
+    sget v1, Lcom/resouce/module/ResID;->table_insert_column_wheel:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     iput-object v1, p0, Lyvl;->i0:Lcn/wps/moffice/common/beans/wheelview/WheelView;
 
-    const v1, 0x7f0b3365
+    sget v1, Lcom/resouce/module/ResID;->ver_up_btn:I
 
     .line 6
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
 
     iput-object v1, p0, Lyvl;->j0:Landroid/view/View;
 
-    const v1, 0x7f0b3364
+    sget v1, Lcom/resouce/module/ResID;->ver_down_btn:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -419,7 +419,7 @@
 
     iput-object v1, p0, Lyvl;->k0:Landroid/view/View;
 
-    const v1, 0x7f0b1201
+    sget v1, Lcom/resouce/module/ResID;->horizon_pre_btn:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -428,7 +428,7 @@
 
     iput-object v1, p0, Lyvl;->l0:Landroid/view/View;
 
-    const v1, 0x7f0b1200
+    sget v1, Lcom/resouce/module/ResID;->horizon_next_btn:I
 
     .line 9
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -473,7 +473,7 @@
 
     iput v1, p0, Lyvl;->s0:I
 
-    const v1, 0x7f0b2e46
+    sget v1, Lcom/resouce/module/ResID;->table_insert_preview_anchor:I
 
     .line 12
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -484,7 +484,7 @@
 
     iput-object v1, p0, Lyvl;->f0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2e45
+    sget v1, Lcom/resouce/module/ResID;->table_insert_hor_group:I
 
     .line 13
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     iput-object v1, p0, Lyvl;->g0:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2e48
+    sget v1, Lcom/resouce/module/ResID;->table_insert_styles_anchor:I
 
     .line 14
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -882,7 +882,7 @@
 
     check-cast v0, Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lyvl$b;
 
@@ -897,7 +897,7 @@
 
     check-cast v0, Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v2, Lyvl$c;
 
@@ -994,7 +994,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c04
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_table_insert_layout_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -1035,7 +1035,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070c06
+    sget v1, Lcom/resouce/module/ResDIMEN;->public_table_insert_row_wheelview_item_width:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

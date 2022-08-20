@@ -120,27 +120,27 @@
     :goto_0
     packed-switch v2, :pswitch_data_1
 
-    const v0, 0x7f0e0cfd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_native_medium_ad_item:I
 
     return v0
 
     :pswitch_4
-    const v0, 0x7f0e0d01
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_native_medium_ad_item_test4:I
 
     return v0
 
     :pswitch_5
-    const v0, 0x7f0e0d00
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_native_medium_ad_item_test3:I
 
     return v0
 
     :pswitch_6
-    const v0, 0x7f0e0cff
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_native_medium_ad_item_test2:I
 
     return v0
 
     :pswitch_7
-    const v0, 0x7f0e0cfe
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_mopub_native_medium_ad_item_test1:I
 
     return v0
 

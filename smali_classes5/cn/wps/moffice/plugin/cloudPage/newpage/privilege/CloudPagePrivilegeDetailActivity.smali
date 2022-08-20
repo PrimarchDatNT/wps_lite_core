@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0afe
+    sget v1, Lcom/resouce/module/ResLAYOUT;->privilege_detail_layout:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
     :cond_0
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f0b0db2
+    sget v0, Lcom/resouce/module/ResID;->fl_content:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
 .method public final m()V
     .locals 4
 
-    const v0, 0x7f0b225f
+    sget v0, Lcom/resouce/module/ResID;->plugin_privilege_titlebar:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -179,9 +179,9 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/plugin/common/framework/PluginBaseTitleActivity;->a0:Lcn/wps/moffice/plugin/common/view/ViewTitleBar;
 
-    const v1, 0x7f0606c5
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_public_alpha_00:I
 
-    const v2, 0x7f0603e5
+    sget v2, Lcom/resouce/module/ResCOLOR;->pad_public_title_bar_background:I
 
     const/4 v3, 0x0
 

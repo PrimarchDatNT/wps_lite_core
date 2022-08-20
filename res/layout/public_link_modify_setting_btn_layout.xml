@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/component_file_size_reduce_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/link_modify_img" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/comp_common_setting" />
-    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="11.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/link_modify_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/public_receive_link_setting" android:layout_marginStart="2.0dip" MaxLine="1" pressAlphaEnableWhenRipple="false" />
-</LinearLayout>

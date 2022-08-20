@@ -70,7 +70,7 @@
 .method public final b(Lcn/wps/moffice/main/cloud/storage/model/GroupMemberInfo;Landroid/view/View;Ly98$g;)V
     .locals 1
 
-    const v0, 0x7f0b0f55
+    sget v0, Lcom/resouce/module/ResID;->group_member_icon:I
 
     .line 1
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object v0, p3, Ly98$g;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0f59
+    sget v0, Lcom/resouce/module/ResID;->group_member_name:I
 
     .line 2
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -92,7 +92,7 @@
 
     iput-object v0, p3, Ly98$g;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0f5c
+    sget v0, Lcom/resouce/module/ResID;->group_member_role:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f080861
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->home_mypurchasing_drawer_icon_avatar:I
 
     .line 8
     invoke-virtual {p1, p2}, Lf54;->b(I)Lf54;
@@ -179,7 +179,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121941
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_creator:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -224,7 +224,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121942
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_member:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -249,7 +249,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121944
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_read_member:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -271,7 +271,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121940
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_role_admin:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -353,7 +353,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e06f4
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_group_setting_list_item:I
 
     const/4 v2, 0x0
 

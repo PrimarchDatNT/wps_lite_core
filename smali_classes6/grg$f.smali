@@ -56,12 +56,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f060003
+    sget v0, Lcom/resouce/module/ResCOLOR;->ETNavBackgroundColor:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0602c2
+    sget v0, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V

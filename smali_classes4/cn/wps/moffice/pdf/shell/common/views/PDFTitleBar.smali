@@ -37,12 +37,12 @@
 .method public setPadFullScreenStyle(Lie5$a;)V
     .locals 4
 
-    const p1, 0x7f0602c2
+    sget p1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     .line 1
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBackGroundColor(I)V
 
-    const p1, 0x7f060259
+    sget p1, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     .line 2
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitleBarBottomLineColor(I)V
@@ -54,7 +54,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06025f
+    sget v1, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 

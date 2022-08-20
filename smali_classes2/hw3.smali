@@ -26,7 +26,7 @@
 .method public static a(Landroid/view/View;Ljava/lang/Runnable;)V
     .locals 3
 
-    const v0, 0x7f0b0530
+    sget v0, Lcom/resouce/module/ResID;->container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -45,7 +45,7 @@
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->measure(II)V
 
-    const v1, 0x7f0b283c
+    sget v1, Lcom/resouce/module/ResID;->record_filter_mask:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -131,7 +131,7 @@
 .method public static c(Landroid/view/View;)V
     .locals 5
 
-    const v0, 0x7f0b0530
+    sget v0, Lcom/resouce/module/ResID;->container:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -150,7 +150,7 @@
     .line 2
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->measure(II)V
 
-    const v1, 0x7f0b283c
+    sget v1, Lcom/resouce/module/ResID;->record_filter_mask:I
 
     .line 3
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -26,7 +26,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122668
+    sget v2, Lcom/resouce/module/ResSTRING;->public_play_stop_record:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -34,7 +34,7 @@
 
     invoke-virtual {v0, v1}, Lhd3;->setTitle(Ljava/lang/String;)Lhd3;
 
-    const v1, 0x7f122656
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play_exit_record_alert_text:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setMessage(I)Lhd3;
@@ -44,7 +44,7 @@
 
     invoke-direct {v1, p2}, Lev8$b;-><init>(Ljava/lang/Runnable;)V
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {v0, p2, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -53,11 +53,11 @@
 
     invoke-direct {p2, p1}, Lev8$c;-><init>(Ljava/lang/Runnable;)V
 
-    const p1, 0x7f122087
+    sget p1, Lcom/resouce/module/ResSTRING;->public_exit:I
 
     invoke-virtual {v0, p1, p2}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f0b069c
+    sget p1, Lcom/resouce/module/ResID;->dialog_scrollview:I
 
     .line 6
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -68,7 +68,7 @@
 
     move-result-object p0
 
-    const p2, 0x7f080b02
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->none_bg_selector:I
 
     invoke-virtual {p0, p2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

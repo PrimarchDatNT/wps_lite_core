@@ -175,13 +175,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0d6f
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_pdf_tool_item_layout:I
 
     invoke-virtual {v1, v2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p3
 
-    const v1, 0x7f0b164c
+    sget v1, Lcom/resouce/module/ResID;->ll_contain:I
 
     .line 4
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     iput-object v1, p2, Lxp9$b;->a:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b147a
+    sget v1, Lcom/resouce/module/ResID;->iv_icon:I
 
     .line 5
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -203,7 +203,7 @@
 
     iput-object v1, p2, Lxp9$b;->b:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v1, 0x7f0b31e6
+    sget v1, Lcom/resouce/module/ResID;->tv_name:I
 
     .line 6
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -214,7 +214,7 @@
 
     iput-object v1, p2, Lxp9$b;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b1381
+    sget v1, Lcom/resouce/module/ResID;->is_charge:I
 
     .line 7
     invoke-virtual {p3, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
     .line 12
     iget-object v1, p2, Lxp9$b;->a:Landroid/widget/LinearLayout;
 
-    const v2, 0x7f0b2e82
+    sget v2, Lcom/resouce/module/ResID;->tag_node_link:I
 
     invoke-virtual {p0}, Lxp9;->b()Lcn/wps/moffice/main/local/NodeLink;
 

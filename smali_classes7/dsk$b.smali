@@ -364,7 +364,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1233cc
+    sget v0, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text_null:I
 
     const/4 v1, 0x0
 

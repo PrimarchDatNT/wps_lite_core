@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12213f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_file_radar_file_upload_tips:I
 
     const/4 v2, 0x0
 

@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220ab
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_title:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1220b5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt_share_tips:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

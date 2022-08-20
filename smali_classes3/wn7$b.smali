@@ -43,7 +43,7 @@
 
     iget-object v0, v0, Lwn7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b3486
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_login_layout_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -51,7 +51,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b3487
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_login_layout_img:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -60,7 +60,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v1, 0x7f0b3484
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_login_btn:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

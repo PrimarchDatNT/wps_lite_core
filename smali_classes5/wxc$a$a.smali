@@ -85,7 +85,7 @@
 
     iget-object v0, v0, Lwxc$a;->B:Landroid/app/Activity;
 
-    const v1, 0x7f12192b
+    sget v1, Lcom/resouce/module/ResSTRING;->pdf_watermark_no_delete:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

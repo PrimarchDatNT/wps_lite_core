@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="end" android:id="@id/event_icon" android:src="@drawable/phone_home_clouddocs_tab_event_normal" style="@style/phone_public_title_bar_icon" />
-    <ImageView android:layout_gravity="end" android:id="@id/red_point" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/phone_public_bottom_toolbar_tips_redhot" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
-</FrameLayout>

@@ -176,7 +176,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f121c4d
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_template_applying:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/widget/Button;->setText(I)V

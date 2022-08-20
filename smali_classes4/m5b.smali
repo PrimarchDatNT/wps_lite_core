@@ -482,7 +482,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f06000c
+    sget v1, Lcom/resouce/module/ResCOLOR;->WPSMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -495,7 +495,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120419
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_declare_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -678,7 +678,7 @@
     :cond_3
     iput p1, p0, Lm5b;->c0:I
 
-    const v0, 0x7f120425
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_purchase:I
 
     const-string v5, " / "
 
@@ -730,17 +730,17 @@
 
     iput-object p1, p0, Lm5b;->W:Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f081555
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     .line 12
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->r(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f120586
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_no_network:I
 
     .line 13
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->s(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
 
-    const v0, 0x7f121bdb
+    sget v0, Lcom/resouce/module/ResSTRING;->ppt_retry:I
 
     .line 14
     invoke-virtual {p1, v0}, Lcn/wps/moffice/common/beans/CommonErrorPage;->q(I)Lcn/wps/moffice/common/beans/CommonErrorPage;
@@ -790,7 +790,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120424
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_premium_times_description:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -833,7 +833,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f060009
+    sget v8, Lcom/resouce/module/ResCOLOR;->WPPMainColor:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -935,7 +935,7 @@
     :cond_9
     iget-object p1, p0, Lm5b;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f121f40
+    sget v0, Lcom/resouce/module/ResSTRING;->public_confirm:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1034,7 +1034,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120423
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_pay_title:I
 
     return v0
 .end method
@@ -1065,7 +1065,7 @@
 
     invoke-direct {v1}, Lxk2;-><init>()V
 
-    const v2, 0x7f0810fb
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->phone_pay_dialog_id_photo:I
 
     const/4 v3, 0x0
 
@@ -1079,7 +1079,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12040e
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1259,7 +1259,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0119
+    sget v1, Lcom/resouce/module/ResLAYOUT;->doc_scan_id_photo_pay_layout:I
 
     const/4 v2, 0x0
 
@@ -1278,7 +1278,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080526
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->doc_scan_id_photo_pay_marker_corner:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1302,7 +1302,7 @@
     :cond_0
     iget-object v2, p0, Lm5b;->I:Landroid/view/View;
 
-    const v3, 0x7f0b31ac
+    sget v3, Lcom/resouce/module/ResID;->tv_id_photo_pay_marker:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1326,7 +1326,7 @@
     :goto_0
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b168f
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1337,7 +1337,7 @@
     .line 12
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1257
+    sget v1, Lcom/resouce/module/ResID;->id_photo_progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1348,7 +1348,7 @@
     .line 13
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2953
+    sget v1, Lcom/resouce/module/ResID;->rl_id_photo_premium_pay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1366,7 +1366,7 @@
     .line 15
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1690
+    sget v1, Lcom/resouce/module/ResID;->ll_id_photo_inapp_pay:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1384,7 +1384,7 @@
     .line 17
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a1
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_declare:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1397,7 +1397,7 @@
     .line 18
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a2
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_discount_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1410,7 +1410,7 @@
     .line 19
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31ab
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_original_price:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1432,7 +1432,7 @@
     .line 21
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a3    # 1.8502042E38f
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_inapp_pay:I    # 1.8502042E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1476,7 +1476,7 @@
     .line 25
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1481
+    sget v1, Lcom/resouce/module/ResID;->iv_id_photo_thumbnail:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1507,7 +1507,7 @@
 
     check-cast v1, Lcom/bumptech/glide/RequestBuilder;
 
-    const v2, 0x7f080520
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->doc_scan_id_photo_oversea_default:I
 
     .line 29
     invoke-virtual {v1, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
@@ -1539,7 +1539,7 @@
     .line 33
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31ae
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_sku_third_party:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1582,7 +1582,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120412
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_color_white:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1611,7 +1611,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120410
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_color_gray:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1640,7 +1640,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12040f
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_color_blue:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1669,7 +1669,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120411
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_id_photo_color_red:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1684,7 +1684,7 @@
     :goto_1
     iget-object v1, p0, Lm5b;->I:Landroid/view/View;
 
-    const v2, 0x7f0b31a7
+    sget v2, Lcom/resouce/module/ResID;->tv_id_photo_mm:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1717,7 +1717,7 @@
     .line 44
     iget-object v0, p0, Lm5b;->I:Landroid/view/View;
 
-    const v1, 0x7f0b31a8
+    sget v1, Lcom/resouce/module/ResID;->tv_id_photo_order_id:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1763,7 +1763,7 @@
     .line 48
     iget-object v3, p0, Lm5b;->I:Landroid/view/View;
 
-    const v4, 0x7f0b31aa
+    sget v4, Lcom/resouce/module/ResID;->tv_id_photo_order_time:I
 
     invoke-virtual {v3, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -128,7 +128,7 @@
 
     :cond_4
     :goto_0
-    const p1, 0x7f120c5a
+    sget p1, Lcom/resouce/module/ResSTRING;->et_table_style_range_not_support_tips:I
 
     const/4 p2, 0x1
 

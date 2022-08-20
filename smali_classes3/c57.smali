@@ -127,7 +127,7 @@
 
     if-nez p3, :cond_2
 
-    const p3, 0x7f121150
+    sget p3, Lcom/resouce/module/ResSTRING;->home_send_to_desktop_shortcut_done:I
 
     .line 10
     invoke-static {p1, p3, v2}, Lbih;->n(Landroid/content/Context;II)V

@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f120f24
+    sget v0, Lcom/resouce/module/ResSTRING;->home_history_version_net_error_content:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
     .line 1
     iget-object v0, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v1, 0x7f122545
+    sget v1, Lcom/resouce/module/ResSTRING;->public_normal_login_text_tips_search_immediately:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -181,9 +181,9 @@
     .line 4
     iget-object v0, p0, Lia9;->c:Landroid/app/Activity;
 
-    const v2, 0x7f122bbf
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vip_login_text_operation_tips:I
 
-    const v4, 0x7f0605f1
+    sget v4, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     const-string v5, "\""
 
@@ -317,7 +317,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1221fc
+    sget v0, Lcom/resouce/module/ResSTRING;->public_full_text_found_empty_tips:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -374,7 +374,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1221fc
+    sget v1, Lcom/resouce/module/ResSTRING;->public_full_text_found_empty_tips:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

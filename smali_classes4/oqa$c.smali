@@ -61,7 +61,7 @@
 
     iget-object p2, p0, Loqa$c;->b:Landroid/app/Activity;
 
-    const v0, 0x7f12279f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_rating_feedback_bad_praise:I
 
     invoke-virtual {p2, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -82,7 +82,7 @@
 
     iget-object p2, p0, Loqa$c;->b:Landroid/app/Activity;
 
-    const v1, 0x7f1227a0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_rating_feedback_good_praise:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

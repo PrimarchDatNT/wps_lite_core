@@ -72,7 +72,7 @@
 
     const/16 v2, -0xe
 
-    const v4, 0x7f120647
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     if-eq v3, v2, :cond_2
 
@@ -205,7 +205,7 @@
 
     if-eqz v1, :cond_6
 
-    const v0, 0x7f121534
+    sget v0, Lcom/resouce/module/ResSTRING;->online_security_error_code_no_operation_permission:I
 
     .line 14
     invoke-virtual {v1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

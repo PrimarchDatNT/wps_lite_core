@@ -66,7 +66,7 @@
 
     iget-object p1, p1, Lgs4;->B:Landroid/app/Activity;
 
-    const v0, 0x7f1218f0
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_toolkit_introduce_membertips_free:I
 
     const/4 v1, 0x1
 

@@ -89,7 +89,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0702cf
+    sget v4, Lcom/resouce/module/ResDIMEN;->folder_manager_pop_btn_margin_bottom:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimension(I)F
 

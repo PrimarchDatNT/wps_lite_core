@@ -84,14 +84,14 @@
 
     move-result-object p3
 
-    const v0, 0x7f0708cf
+    sget v0, Lcom/resouce/module/ResDIMEN;->pic_to_ppt_thumb_width:I
 
     .line 8
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
     move-result v0
 
-    const v1, 0x7f0708ce
+    sget v1, Lcom/resouce/module/ResDIMEN;->pic_to_ppt_thumb_height:I
 
     .line 9
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -332,7 +332,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0a3f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pic_to_ppt_grid_view_item:I
 
     const/4 v1, 0x0
 

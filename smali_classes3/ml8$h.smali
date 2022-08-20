@@ -66,7 +66,7 @@
         }
     .end annotation
 
-    const p1, 0x7f120d7c
+    sget p1, Lcom/resouce/module/ResSTRING;->foreign_my_credits:I
 
     if-eqz p2, :cond_0
 

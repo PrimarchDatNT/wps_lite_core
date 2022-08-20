@@ -41,47 +41,47 @@
 
     move-result p1
 
-    const v0, 0x7f08043d
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_drag_fill:I
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0b0a3c
+    sget p1, Lcom/resouce/module/ResID;->et_fillcells_drag_layout:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f080443
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_down:I
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f0b0a39
+    sget p1, Lcom/resouce/module/ResID;->et_fillcells_down_layout:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f080445
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_right:I
 
     if-ne p1, v0, :cond_2
 
-    const p1, 0x7f0b0a42
+    sget p1, Lcom/resouce/module/ResID;->et_fillcells_right_layout:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f080446
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_up:I
 
     if-ne p1, v0, :cond_3
 
-    const p1, 0x7f0b0a45
+    sget p1, Lcom/resouce/module/ResID;->et_fillcells_up_layout:I
 
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f080444
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_table_fill_left:I
 
     if-ne p1, v0, :cond_4
 
-    const p1, 0x7f0b0a3f
+    sget p1, Lcom/resouce/module/ResID;->et_fillcells_left_layout:I
 
     :cond_4
     :goto_0

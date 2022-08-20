@@ -189,12 +189,12 @@
 
     if-eqz v2, :cond_1
 
-    const v2, 0x7f0e0911
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_saveicon_local_status_icon:I
 
     goto :goto_1
 
     :cond_1
-    const v2, 0x7f0e05d2
+    sget v2, Lcom/resouce/module/ResLAYOUT;->pad_saveicon_local_status_icon:I
 
     :goto_1
     invoke-virtual {v1, v2, p2, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -306,7 +306,7 @@
     .line 2
     iget-object p1, p0, Lz05;->e:Landroid/widget/ImageView;
 
-    const v0, 0x7f080bbc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_cloud_document_upload:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -318,12 +318,12 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f080217
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_upload_white:I
 
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f080216
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_upload:I
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageResource(I)V

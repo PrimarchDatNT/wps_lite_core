@@ -29,7 +29,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    const v0, 0x7f13013a
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e01ed
+    sget v1, Lcom/resouce/module/ResLAYOUT;->et_export_card_pics_save_dialog:I
 
     const/4 v2, 0x0
 
@@ -110,7 +110,7 @@
     .line 6
     iget-object v0, p0, Leog;->I:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12281f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
     .line 11
     iget-object v0, p0, Leog;->I:Landroid/view/View;
 
-    const v1, 0x7f0b29da    # 1.8498E38f
+    sget v1, Lcom/resouce/module/ResID;->save_album_switch:I    # 1.8498E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -185,7 +185,7 @@
     .line 13
     iget-object v0, p0, Leog;->I:Landroid/view/View;
 
-    const v1, 0x7f0b29e0
+    sget v1, Lcom/resouce/module/ResID;->save_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

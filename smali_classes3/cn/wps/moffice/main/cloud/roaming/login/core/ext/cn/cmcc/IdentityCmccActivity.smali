@@ -98,7 +98,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0e0326
+    sget v0, Lcom/resouce/module/ResLAYOUT;->home_identity_cmcc_phone_activity:I
 
     return v0
 .end method
@@ -122,7 +122,7 @@
     .line 1
     invoke-super {p0}, Lcn/wps/moffice/main/cloud/roaming/login/core/ext/cn/cmcc/BindCmccPhoneActivity;->initViews()V
 
-    const v0, 0x7f0b3262
+    sget v0, Lcom/resouce/module/ResID;->tv_skip:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -265,7 +265,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b02af
+    sget v1, Lcom/resouce/module/ResID;->btnOtherPhoneLogin:I
 
     if-ne v0, v1, :cond_1
 

@@ -473,7 +473,7 @@
     .line 2
     iget-object v0, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f121b86
+    sget v2, Lcom/resouce/module/ResSTRING;->ppt_no_slide_for_play:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1144,7 +1144,7 @@
     .line 5
     iget-object p1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f121f87
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_corrupted:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1204,7 +1204,7 @@
 
     iget-object v1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v2, 0x7f122411
+    sget v2, Lcom/resouce/module/ResSTRING;->public_loadDocumentFormatError:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1293,7 +1293,7 @@
     .line 7
     iget-object p1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v0, 0x7f121f88
+    sget v0, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_unknown:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2713,7 +2713,7 @@
     .line 15
     iget-object p1, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v1, 0x7f12259f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_open_file_in_error_account:I
 
     .line 16
     invoke-virtual {p1, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -3748,7 +3748,7 @@
 
     iget-object v0, p0, Lmoe;->I:Lcn/wps/moffice/presentation/Presentation;
 
-    const v3, 0x7f121f88
+    sget v3, Lcom/resouce/module/ResSTRING;->public_crash_dialog_content_open_fail_unknown:I
 
     .line 3
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

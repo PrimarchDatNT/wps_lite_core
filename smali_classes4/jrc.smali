@@ -84,7 +84,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06025f
+    sget v0, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -99,7 +99,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f06057a
+    sget v0, Lcom/resouce/module/ResCOLOR;->public_pdf_theme_color:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a68
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_autoplay_switch_time_popup:I
 
     const/4 v2, 0x0
 
@@ -178,7 +178,7 @@
 
     iput-object v1, p0, Ljrc;->b:Landroid/view/View;
 
-    const v2, 0x7f0b229a
+    sget v2, Lcom/resouce/module/ResID;->ppt_autoplay_switch_time_list:I
 
     .line 3
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     if-ge v2, v4, :cond_0
 
-    const v4, 0x7f0e0a67
+    sget v4, Lcom/resouce/module/ResLAYOUT;->ppt_autoplay_switch_time_item:I
 
     .line 5
     iget-object v5, p0, Ljrc;->c:Landroid/widget/LinearLayout;
@@ -210,7 +210,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b229b
+    sget v5, Lcom/resouce/module/ResID;->ppt_autoplay_switch_time_text:I
 
     .line 6
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -324,7 +324,7 @@
     .line 8
     iget-object p1, p0, Ljrc;->g:Lkf3;
 
-    const v0, 0x7f081319
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_pop_track:I
 
     invoke-virtual {p1, v0}, Lkf3;->W(I)V
 
@@ -364,7 +364,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b229b
+    sget v5, Lcom/resouce/module/ResID;->ppt_autoplay_switch_time_text:I
 
     invoke-virtual {v4, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

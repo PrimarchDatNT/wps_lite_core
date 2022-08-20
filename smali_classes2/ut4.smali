@@ -989,7 +989,7 @@
     .line 4
     invoke-virtual {p0, p1, v1}, Lut4;->W(Landroid/view/View;Ljava/lang/Object;)V
 
-    const p2, 0x7f121ceb
+    sget p2, Lcom/resouce/module/ResSTRING;->public_activation_usecdkey:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -1036,7 +1036,7 @@
     invoke-static {p2}, Lza4;->e(Ljava/lang/String;)V
 
     :cond_1
-    const p2, 0x7f120f5d
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membercenter_earn_credits:I
 
     .line 14
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -1065,7 +1065,7 @@
     invoke-static {p2}, Lza4;->e(Ljava/lang/String;)V
 
     :cond_3
-    const p2, 0x7f1221f8
+    sget p2, Lcom/resouce/module/ResSTRING;->public_free_access:I
 
     .line 19
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -1087,7 +1087,7 @@
     iput-boolean v0, p0, Lut4;->t:Z
 
     :cond_5
-    const p2, 0x7f122086
+    sget p2, Lcom/resouce/module/ResSTRING;->public_exchange_usekey:I
 
     .line 23
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
@@ -2480,7 +2480,7 @@
     .line 2
     iget-object v0, v10, Lut4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12250d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_network_error:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -2504,7 +2504,7 @@
     .line 5
     iget-object v0, v10, Lut4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f12274e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_purchase_norequested:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

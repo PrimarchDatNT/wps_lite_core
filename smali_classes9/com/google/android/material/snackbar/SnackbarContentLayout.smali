@@ -214,7 +214,7 @@
     .line 1
     invoke-super {p0}, Landroid/widget/LinearLayout;->onFinishInflate()V
 
-    const v0, 0x7f0b2c6c
+    sget v0, Lcom/resouce/module/ResID;->snackbar_text:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/snackbar/SnackbarContentLayout;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2c6b
+    sget v0, Lcom/resouce/module/ResID;->snackbar_action:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -274,7 +274,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0700c1
+    sget v1, Lcom/resouce/module/ResDIMEN;->design_snackbar_padding_vertical_2lines:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -285,7 +285,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0700c0
+    sget v2, Lcom/resouce/module/ResDIMEN;->design_snackbar_padding_vertical:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

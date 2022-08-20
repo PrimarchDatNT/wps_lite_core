@@ -57,27 +57,27 @@
 
     sput-object v0, Lwh9$h1;->a:Ljava/lang/String;
 
-    const v0, 0x7f0816cf
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_dingding:I
 
     .line 2
     sput v0, Lwh9$h1;->b:I
 
-    const v0, 0x7f0816d7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_woa:I
 
     .line 3
     sput v0, Lwh9$h1;->c:I
 
-    const v0, 0x7f0816d6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_wechat:I
 
     .line 4
     sput v0, Lwh9$h1;->d:I
 
-    const v0, 0x7f0816d3
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_qq:I
 
     .line 5
     sput v0, Lwh9$h1;->e:I
 
-    const v0, 0x7f0816d1
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_mail:I
 
     .line 6
     sput v0, Lwh9$h1;->f:I
@@ -89,57 +89,57 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081750
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_open_list_wps_storage_fillet:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f081066
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_docinfo_cloud:I
 
     :goto_0
     sput v0, Lwh9$h1;->g:I
 
-    const v0, 0x7f0818b4
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_skype:I
 
     .line 8
     sput v0, Lwh9$h1;->h:I
 
-    const v0, 0x7f0818b7
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_whatsapp:I
 
     .line 9
     sput v0, Lwh9$h1;->i:I
 
-    const v0, 0x7f0816d2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_more:I
 
     .line 10
     sput v0, Lwh9$h1;->j:I
 
-    const v0, 0x7f0816cc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_computer:I
 
     .line 11
     sput v0, Lwh9$h1;->k:I
 
-    const v0, 0x7f0818ae
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_line:I
 
     .line 12
     sput v0, Lwh9$h1;->l:I
 
-    const v0, 0x7f0818af
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger:I
 
     .line 13
     sput v0, Lwh9$h1;->m:I
 
-    const v0, 0x7f0818ad
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_hangouts:I
 
     .line 14
     sput v0, Lwh9$h1;->n:I
 
-    const v0, 0x7f0818b0
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger_x96:I
 
     .line 15
     sput v0, Lwh9$h1;->o:I
 
-    const v0, 0x7f0816cd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_share_contact:I
 
     .line 16
     sput v0, Lwh9$h1;->p:I

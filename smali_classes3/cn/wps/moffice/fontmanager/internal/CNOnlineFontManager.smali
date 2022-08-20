@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dcb
+    sget v1, Lcom/resouce/module/ResSTRING;->get_recommend_font_list:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dce
+    sget v1, Lcom/resouce/module/ResSTRING;->get_start_recommend_font_list:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120dbd
+    sget v1, Lcom/resouce/module/ResSTRING;->get_missing_font:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120db0
+    sget v1, Lcom/resouce/module/ResSTRING;->get_font_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120daf
+    sget v1, Lcom/resouce/module/ResSTRING;->get_font_download_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2790,7 +2790,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f12011c
+    sget v6, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

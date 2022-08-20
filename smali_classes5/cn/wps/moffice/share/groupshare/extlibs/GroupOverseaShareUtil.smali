@@ -92,7 +92,7 @@
 
     if-nez v0, :cond_1
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 p3, 0x0
 
@@ -277,7 +277,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    const v1, 0x7f122c05
+    sget v1, Lcom/resouce/module/ResSTRING;->public_whatsapp:I
 
     .line 3
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -289,7 +289,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0818b7
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_whatsapp:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -320,7 +320,7 @@
     invoke-virtual {p2, v3, v2}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     :cond_0
-    const v2, 0x7f1224c5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_messenger:I
 
     .line 7
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -332,7 +332,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0818af
+    sget v4, Lcom/resouce/module/ResDRAWABLE;->public_docinfo_share_messenger:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

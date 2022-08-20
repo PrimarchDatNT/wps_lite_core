@@ -101,7 +101,7 @@
 
     iget-object v0, v0, Lfog;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122bd2
+    sget v2, Lcom/resouce/module/ResSTRING;->public_vipshare_savetopath_pre:I
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -120,7 +120,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f12084f
+    sget v4, Lcom/resouce/module/ResSTRING;->et_export_card_cloud_path:I
 
     if-nez v2, :cond_2
 

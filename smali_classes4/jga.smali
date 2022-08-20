@@ -22,7 +22,7 @@
 
     move-result v0
 
-    const v1, 0x7f1205f7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_phone:I
 
     if-eqz v0, :cond_1
 
@@ -38,14 +38,14 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f121129
+    sget v1, Lcom/resouce/module/ResSTRING;->home_roaming_source_this_device:I
 
     goto :goto_0
 
     :cond_1
     if-eqz p1, :cond_2
 
-    const v1, 0x7f120ffb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_phone:I
 
     goto :goto_0
 
@@ -60,7 +60,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f120ffa
+    sget v1, Lcom/resouce/module/ResSTRING;->home_open_pad:I
 
     .line 4
     :goto_0
@@ -70,12 +70,12 @@
 
     if-eqz p1, :cond_4
 
-    const v1, 0x7f08056f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->documents_icon_phone:I
 
     goto :goto_1
 
     :cond_4
-    const v1, 0x7f080f2c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_local:I
 
     .line 5
     :goto_1
@@ -172,7 +172,7 @@
 
     if-nez p1, :cond_2
 
-    const v1, 0x7f080f2a
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_pub_list_folder_desktop:I
 
     .line 7
     invoke-virtual {v2, v1}, Lcga;->q(I)V

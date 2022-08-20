@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e60
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_slip_ml_kit_choose_language_layout:I
 
     const/4 v2, 0x0
 
@@ -128,7 +128,7 @@
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    const p1, 0x7f0b2c45
+    sget p1, Lcom/resouce/module/ResID;->slip_ml_choose_dlg_listview:I
 
     .line 5
     invoke-virtual {v0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

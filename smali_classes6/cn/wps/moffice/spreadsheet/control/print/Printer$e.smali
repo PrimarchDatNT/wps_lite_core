@@ -90,12 +90,12 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f0b2d39
+    sget v0, Lcom/resouce/module/ResID;->ss_printer:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2d79
+    sget v0, Lcom/resouce/module/ResID;->ss_top_fragment:I
 
     .line 6
     :goto_0

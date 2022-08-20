@@ -279,7 +279,7 @@
     .line 1
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18a0
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_download_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -288,7 +288,7 @@
     .line 2
     iget-object v1, p0, Lrn4;->I:Landroid/view/View;
 
-    const v2, 0x7f0b1444
+    sget v2, Lcom/resouce/module/ResID;->iv_docer_icon:I
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -303,7 +303,7 @@
 
     move-result v2
 
-    const v3, 0x7f081b84
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_blue_bg_4dp_1px_selector:I
 
     const/16 v4, 0x8
 
@@ -328,7 +328,7 @@
     .line 6
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b1942
+    sget v1, Lcom/resouce/module/ResID;->mtv_docer_vip_only:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122018
+    sget v1, Lcom/resouce/module/ResSTRING;->public_done:I
 
     .line 7
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -416,7 +416,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f081b9d
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->public_round_rect_orange_bg_4dp_1px_selector:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -787,7 +787,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b18a0
+    sget v0, Lcom/resouce/module/ResID;->missing_font_detail_download_all:I
 
     if-ne p1, v0, :cond_0
 
@@ -1125,7 +1125,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0268
+    sget v1, Lcom/resouce/module/ResLAYOUT;->font_func_missing_detail_dialog:I
 
     const/4 v2, 0x0
 
@@ -1135,7 +1135,7 @@
 
     iput-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b0533
+    sget v1, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1147,7 +1147,7 @@
     .line 3
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18ad
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_progress_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1158,7 +1158,7 @@
     .line 4
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18b1
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_vip_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1169,7 +1169,7 @@
     .line 5
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18a3
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_error_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1182,7 +1182,7 @@
     .line 6
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18a0
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_download_all:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1196,7 +1196,7 @@
     .line 8
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18aa
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_more_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1209,7 +1209,7 @@
     .line 9
     iget-object v0, p0, Lrn4;->I:Landroid/view/View;
 
-    const v1, 0x7f0b18af
+    sget v1, Lcom/resouce/module/ResID;->missing_font_detail_recycle_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1410,7 +1410,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12255c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_wifi_and_confirm_with_font_size:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -50,7 +50,7 @@
 
     move-result v0
 
-    const v1, 0x7f122503
+    sget v1, Lcom/resouce/module/ResSTRING;->public_native_file:I
 
     if-ne v0, v1, :cond_1
 
@@ -112,7 +112,7 @@
 
     move-result p1
 
-    const v0, 0x7f1229e8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_shoot_image:I
 
     if-ne p1, v0, :cond_2
 

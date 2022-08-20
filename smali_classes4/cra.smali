@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dff
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_recover_files_recovery_dialog:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
 
     iput-object v0, p0, Lcra;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b276a
+    sget v1, Lcom/resouce/module/ResID;->public_wps_recovery_filename:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -111,7 +111,7 @@
     .line 4
     iget-object v0, p0, Lcra;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b14af
+    sget v1, Lcom/resouce/module/ResID;->iv_recovery_vip:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
     .line 5
     iget-object v0, p0, Lcra;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2963
+    sget v1, Lcom/resouce/module/ResID;->rl_recovery:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -137,7 +137,7 @@
     .line 6
     iget-object v0, p0, Lcra;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b2946
+    sget v1, Lcom/resouce/module/ResID;->rl_delete:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -150,7 +150,7 @@
     .line 7
     iget-object v0, p0, Lcra;->S:Lcn/wps/moffice/common/beans/SizeLimitedLinearLayout;
 
-    const v1, 0x7f0b0c7c
+    sget v1, Lcom/resouce/module/ResID;->fb_file_icon:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -193,7 +193,7 @@
 
     new-array p1, p1, [I
 
-    const v1, 0x7f0b2a38
+    sget v1, Lcom/resouce/module/ResID;->scroll_parent:I
 
     const/4 v2, 0x0
 

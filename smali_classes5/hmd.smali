@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0606ae
+    sget v1, Lcom/resouce/module/ResCOLOR;->v10_phone_public_panel_list_item_divide_line_color:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070d27
+    sget v2, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_hidebtn_iconsize:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

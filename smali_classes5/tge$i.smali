@@ -216,7 +216,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0703a3
+    sget v3, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -292,12 +292,12 @@
 
     if-eqz p1, :cond_3
 
-    const v0, 0x7f060641
+    sget v0, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_selected:I
 
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f060640
+    sget v0, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_normal:I
 
     .line 14
     :goto_1
@@ -330,7 +330,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0e80
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_template_detail_preview_more_view:I
 
     const/4 v0, 0x0
 
@@ -396,7 +396,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f060640
+    sget v0, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_normal:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -415,7 +415,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0703a3
+    sget v0, Lcom/resouce/module/ResDIMEN;->home_template_item_round_radius:I
 
     invoke-virtual {p3, v0}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -482,12 +482,12 @@
 
     if-eqz p2, :cond_1
 
-    const v0, 0x7f060641
+    sget v0, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_selected:I
 
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f060640
+    sget v0, Lcom/resouce/module/ResCOLOR;->template_preview_image_border_normal:I
 
     .line 3
     :goto_0

@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200ac
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_myappurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f1200ae
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_playurl:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

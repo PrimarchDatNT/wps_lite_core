@@ -126,7 +126,7 @@
     .line 5
     iput-object p4, p0, Lnrf;->U:Lcn/wps/moffice/spreadsheet/control/editor/InputView;
 
-    const p2, 0x7f0b1807
+    sget p2, Lcom/resouce/module/ResID;->main_view:I
 
     .line 6
     invoke-virtual {p3, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -144,7 +144,7 @@
     .line 9
     iget-object p2, p0, Lnrf;->T:Landroid/view/View;
 
-    const p3, 0x7f0b0517
+    sget p3, Lcom/resouce/module/ResID;->condition_type_btn:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -158,7 +158,7 @@
     .line 11
     iget-object p2, p0, Lnrf;->a0:Landroid/view/View;
 
-    const p3, 0x7f0b030b
+    sget p3, Lcom/resouce/module/ResID;->btn_txt:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -168,7 +168,7 @@
 
     iput-object p2, p0, Lnrf;->b0:Landroid/widget/TextView;
 
-    const p4, 0x7f1207f8
+    sget p4, Lcom/resouce/module/ResSTRING;->et_conditon_type_num_range:I
 
     .line 12
     invoke-virtual {p2, p4}, Landroid/widget/TextView;->setText(I)V
@@ -181,7 +181,7 @@
     .line 14
     iget-object p2, p0, Lnrf;->T:Landroid/view/View;
 
-    const p4, 0x7f0b050a
+    sget p4, Lcom/resouce/module/ResID;->condition_rule_btn:I
 
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -203,7 +203,7 @@
 
     iput-object p2, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const p3, 0x7f1207e4
+    sget p3, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_large:I
 
     .line 17
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
@@ -217,7 +217,7 @@
     .line 20
     iget-object p2, p0, Lnrf;->T:Landroid/view/View;
 
-    const p3, 0x7f0b1a53
+    sget p3, Lcom/resouce/module/ResID;->normal_main_bottom:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -225,7 +225,7 @@
 
     iput-object p2, p0, Lnrf;->z0:Landroid/view/View;
 
-    const p3, 0x7f0b04fb
+    sget p3, Lcom/resouce/module/ResID;->condition_manage:I
 
     .line 21
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -240,7 +240,7 @@
     .line 23
     iget-object p2, p0, Lnrf;->A0:Landroid/view/View;
 
-    const p3, 0x7f0b04fc
+    sget p3, Lcom/resouce/module/ResID;->condition_manage_icon:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -255,7 +255,7 @@
 
     move-result-object p3
 
-    const p4, 0x7f0602db
+    sget p4, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {p3, p4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -266,7 +266,7 @@
     .line 25
     iget-object p2, p0, Lnrf;->z0:Landroid/view/View;
 
-    const p3, 0x7f0b05c8
+    sget p3, Lcom/resouce/module/ResID;->create_condition:I
 
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -293,7 +293,7 @@
     .line 29
     iget-object p1, p0, Lnrf;->T:Landroid/view/View;
 
-    const p2, 0x7f0b0820
+    sget p2, Lcom/resouce/module/ResID;->edit_main_bottom:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -301,7 +301,7 @@
 
     iput-object p1, p0, Lnrf;->D0:Landroid/view/View;
 
-    const p2, 0x7f0b0341
+    sget p2, Lcom/resouce/module/ResID;->cancel_edit:I
 
     .line 30
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -316,7 +316,7 @@
     .line 32
     iget-object p1, p0, Lnrf;->D0:Landroid/view/View;
 
-    const p2, 0x7f0b29e2
+    sget p2, Lcom/resouce/module/ResID;->save_condition:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -746,7 +746,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207ed
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_date:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -770,7 +770,7 @@
     .line 4
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f1
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_next_month:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -783,7 +783,7 @@
     .line 6
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f3
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_this_month:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -798,7 +798,7 @@
     .line 8
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207ef
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_month:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -813,7 +813,7 @@
     .line 10
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f2
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_next_week:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -828,7 +828,7 @@
     .line 12
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f4
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_this_week:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -843,7 +843,7 @@
     .line 14
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f0
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_week:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -858,7 +858,7 @@
     .line 16
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207ee
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_last_7:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -871,7 +871,7 @@
     .line 18
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f6
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_tommorw:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -886,7 +886,7 @@
     .line 20
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f5
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_today:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -901,7 +901,7 @@
     .line 22
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207f7
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_date_yesterday:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1031,7 +1031,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207f8
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_num_range:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1069,7 +1069,7 @@
     .line 6
     iget-object v1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v3, 0x7f1207e2
+    sget v3, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_equal:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1082,7 +1082,7 @@
     .line 8
     iget-object v1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v3, 0x7f1207e0
+    sget v3, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_between:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1095,7 +1095,7 @@
     .line 10
     iget-object v1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v3, 0x7f1207e6
+    sget v3, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_less:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1108,7 +1108,7 @@
     .line 12
     iget-object v1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v3, 0x7f1207e4
+    sget v3, Lcom/resouce/module/ResSTRING;->et_condition_type_num_range_large:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1127,7 +1127,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1207d7
+    sget v4, Lcom/resouce/module/ResSTRING;->et_condition_num_hint:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1389,7 +1389,7 @@
 
     iget-object p2, p1, La3m;->B:Ljava/lang/String;
 
-    const v0, 0x7f1207d2
+    sget v0, Lcom/resouce/module/ResSTRING;->et_condition_invalid_value:I
 
     if-eqz p2, :cond_6
 
@@ -1416,7 +1416,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207f9
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1454,7 +1454,7 @@
     .line 4
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207fb
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_below_avg:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1467,7 +1467,7 @@
     .line 6
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207fa
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_above_avg:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1480,7 +1480,7 @@
     .line 8
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207fd
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_last_10_percent:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1493,7 +1493,7 @@
     .line 10
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207fc
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_last_10:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1506,7 +1506,7 @@
     .line 12
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207ff
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_pre_10_percent:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1521,7 +1521,7 @@
     .line 14
     iget-object p1, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v0, 0x7f1207fe
+    sget v0, Lcom/resouce/module/ResSTRING;->et_conditon_type_range_avg_pre_10:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2032,7 +2032,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->b0:Landroid/widget/TextView;
 
-    const v1, 0x7f120800
+    sget v1, Lcom/resouce/module/ResSTRING;->et_conditon_type_txt_info:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2066,7 +2066,7 @@
     .line 6
     iget-object v0, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207eb
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_unique:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2079,7 +2079,7 @@
     .line 8
     iget-object v0, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207ea
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_duplicate:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2092,7 +2092,7 @@
     .line 10
     iget-object v0, p0, Lnrf;->f0:Landroid/widget/TextView;
 
-    const v1, 0x7f1207e8
+    sget v1, Lcom/resouce/module/ResSTRING;->et_condition_type_txt_info_contain:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -2118,7 +2118,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1207d8
+    sget v3, Lcom/resouce/module/ResSTRING;->et_condition_num_txt_hint:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3018,7 +3018,7 @@
 .method public final R(Lf2n;I)V
     .locals 9
 
-    const v0, 0x7f0b0909
+    sget v0, Lcom/resouce/module/ResID;->et_base_num:I
 
     if-ne p2, v0, :cond_0
 
@@ -3029,7 +3029,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b090b
+    sget v0, Lcom/resouce/module/ResID;->et_base_text:I
 
     if-ne p2, v0, :cond_1
 
@@ -3040,7 +3040,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0908
+    sget v0, Lcom/resouce/module/ResID;->et_base_date:I
 
     if-ne p2, v0, :cond_2
 
@@ -3198,7 +3198,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602c2
+    sget v2, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3256,7 +3256,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3564,7 +3564,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1207d8
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_num_txt_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3584,7 +3584,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1207d7
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_num_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3638,7 +3638,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1207d7
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_num_hint:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3775,18 +3775,18 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f080ded
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pad_comp_table_conditional_formatting_select:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080436
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_table_conditional_formatting_select:I
 
     .line 3
     :goto_0
     iget-object v2, p0, Lnrf;->T:Landroid/view/View;
 
-    const v3, 0x7f0b050b
+    sget v3, Lcom/resouce/module/ResID;->condition_style_0:I
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3802,7 +3802,7 @@
     .line 5
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b050c
+    sget v2, Lcom/resouce/module/ResID;->condition_style_0_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3818,7 +3818,7 @@
     .line 7
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b050d
+    sget v2, Lcom/resouce/module/ResID;->condition_style_1:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3836,7 +3836,7 @@
     .line 9
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b050e
+    sget v2, Lcom/resouce/module/ResID;->condition_style_1_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3852,7 +3852,7 @@
     .line 11
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b050f
+    sget v2, Lcom/resouce/module/ResID;->condition_style_2:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3870,7 +3870,7 @@
     .line 13
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0510
+    sget v2, Lcom/resouce/module/ResID;->condition_style_2_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3886,7 +3886,7 @@
     .line 15
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0511
+    sget v2, Lcom/resouce/module/ResID;->condition_style_3:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3904,7 +3904,7 @@
     .line 17
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0512
+    sget v2, Lcom/resouce/module/ResID;->condition_style_3_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3920,7 +3920,7 @@
     .line 19
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0513
+    sget v2, Lcom/resouce/module/ResID;->condition_style_4:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3938,7 +3938,7 @@
     .line 21
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0514
+    sget v2, Lcom/resouce/module/ResID;->condition_style_4_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3954,7 +3954,7 @@
     .line 23
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0515
+    sget v2, Lcom/resouce/module/ResID;->condition_style_5:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3972,7 +3972,7 @@
     .line 25
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0516
+    sget v2, Lcom/resouce/module/ResID;->condition_style_5_img:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4024,7 +4024,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b04ff
+    sget v1, Lcom/resouce/module/ResID;->condition_params0_edit_txt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4069,7 +4069,7 @@
     .line 6
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0500
+    sget v2, Lcom/resouce/module/ResID;->condition_params0_error_tip:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4082,7 +4082,7 @@
     .line 7
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0504
+    sget v2, Lcom/resouce/module/ResID;->condition_params_connector:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4093,7 +4093,7 @@
     .line 8
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0502
+    sget v2, Lcom/resouce/module/ResID;->condition_params1_edit_txt_container:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4104,7 +4104,7 @@
     .line 9
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v2, 0x7f0b0501
+    sget v2, Lcom/resouce/module/ResID;->condition_params1_edit_txt:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4147,7 +4147,7 @@
     .line 14
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0503
+    sget v1, Lcom/resouce/module/ResID;->condition_params1_error_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4196,7 +4196,7 @@
     .line 1
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0509
+    sget v1, Lcom/resouce/module/ResID;->condition_range_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4209,7 +4209,7 @@
     .line 2
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0508
+    sget v1, Lcom/resouce/module/ResID;->condition_range_edit_txt:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4227,7 +4227,7 @@
     .line 4
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b0505
+    sget v1, Lcom/resouce/module/ResID;->condition_range_btn_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4240,7 +4240,7 @@
     .line 5
     iget-object v0, p0, Lnrf;->T:Landroid/view/View;
 
-    const v1, 0x7f0b27c5
+    sget v1, Lcom/resouce/module/ResID;->range_error_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4269,7 +4269,7 @@
     .line 8
     iget-object v0, p0, Lnrf;->X:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0506
+    sget v1, Lcom/resouce/module/ResID;->condition_range_cancel:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -4280,7 +4280,7 @@
     .line 9
     iget-object v0, p0, Lnrf;->X:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b0507
+    sget v1, Lcom/resouce/module/ResID;->condition_range_confirm:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -4445,7 +4445,7 @@
 
     move-result v1
 
-    const v2, 0x7f0b0517
+    sget v2, Lcom/resouce/module/ResID;->condition_type_btn:I
 
     if-ne v1, v2, :cond_0
 
@@ -4458,7 +4458,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b050a
+    sget v2, Lcom/resouce/module/ResID;->condition_rule_btn:I
 
     if-ne v1, v2, :cond_1
 
@@ -4471,7 +4471,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f0b04fb
+    sget v2, Lcom/resouce/module/ResID;->condition_manage:I
 
     if-ne v1, v2, :cond_2
 
@@ -4481,7 +4481,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0b05c8
+    sget v2, Lcom/resouce/module/ResID;->create_condition:I
 
     if-ne v1, v2, :cond_3
 
@@ -4491,7 +4491,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f0b0341
+    sget v2, Lcom/resouce/module/ResID;->cancel_edit:I
 
     if-ne v1, v2, :cond_4
 
@@ -4501,7 +4501,7 @@
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f0b29e2
+    sget v2, Lcom/resouce/module/ResID;->save_condition:I
 
     if-ne v1, v2, :cond_5
 
@@ -4511,7 +4511,7 @@
     goto :goto_0
 
     :cond_5
-    const v2, 0x7f0b0506
+    sget v2, Lcom/resouce/module/ResID;->condition_range_cancel:I
 
     if-ne v1, v2, :cond_6
 
@@ -4521,7 +4521,7 @@
     goto :goto_0
 
     :cond_6
-    const v2, 0x7f0b0507
+    sget v2, Lcom/resouce/module/ResID;->condition_range_confirm:I
 
     if-ne v1, v2, :cond_7
 
@@ -4533,19 +4533,19 @@
     goto :goto_0
 
     :cond_7
-    const v2, 0x7f0b0909
+    sget v2, Lcom/resouce/module/ResID;->et_base_num:I
 
     if-eq v1, v2, :cond_8
 
-    const v2, 0x7f0b090b
+    sget v2, Lcom/resouce/module/ResID;->et_base_text:I
 
     if-eq v1, v2, :cond_8
 
-    const v2, 0x7f0b0908
+    sget v2, Lcom/resouce/module/ResID;->et_base_date:I
 
     if-eq v1, v2, :cond_8
 
-    const v2, 0x7f0b090a
+    sget v2, Lcom/resouce/module/ResID;->et_base_rank:I
 
     if-ne v1, v2, :cond_9
 
@@ -4635,7 +4635,7 @@
 
     move-result v0
 
-    const v2, 0x7f1207d4
+    sget v2, Lcom/resouce/module/ResSTRING;->et_condition_no_param:I
 
     if-nez v0, :cond_2
 
@@ -4845,7 +4845,7 @@
 .method public final t0(Landroid/view/View;)V
     .locals 1
 
-    const v0, 0x7f0b3066
+    sget v0, Lcom/resouce/module/ResID;->top_area:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4870,7 +4870,7 @@
     .line 3
     iget-object p1, p0, Lnrf;->T:Landroid/view/View;
 
-    const v0, 0x7f0b1803
+    sget v0, Lcom/resouce/module/ResID;->main_scroll_view:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4920,7 +4920,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060002
+    sget v1, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4933,7 +4933,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4975,7 +4975,7 @@
 
     move-result-object v2
 
-    const v7, 0x7f0e01d2
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_condition_rank_avg_rule:I
 
     invoke-virtual {v2, v7, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -5099,7 +5099,7 @@
 
     move-result-object v2
 
-    const v7, 0x7f0e01d0
+    sget v7, Lcom/resouce/module/ResLAYOUT;->et_condition_date_rule:I
 
     invoke-virtual {v2, v7, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -5223,7 +5223,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f0e01d3
+    sget v6, Lcom/resouce/module/ResLAYOUT;->et_condition_txt_info_rule:I
 
     invoke-virtual {v2, v6, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -5347,7 +5347,7 @@
 
     move-result-object v2
 
-    const v6, 0x7f0e01d1
+    sget v6, Lcom/resouce/module/ResLAYOUT;->et_condition_num_range_rule:I
 
     invoke-virtual {v2, v6, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -5478,13 +5478,13 @@
     .line 1
     iget-object v0, p0, Lnrf;->c0:Landroid/view/View;
 
-    const v1, 0x7f0b090a
+    sget v1, Lcom/resouce/module/ResID;->et_base_rank:I
 
-    const v2, 0x7f0b0908
+    sget v2, Lcom/resouce/module/ResID;->et_base_date:I
 
-    const v3, 0x7f0b090b
+    sget v3, Lcom/resouce/module/ResID;->et_base_text:I
 
-    const v4, 0x7f0b0909
+    sget v4, Lcom/resouce/module/ResID;->et_base_num:I
 
     if-nez v0, :cond_0
 
@@ -5495,7 +5495,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f0e01d4
+    sget v5, Lcom/resouce/module/ResLAYOUT;->et_condition_type_quick_action:I
 
     const/4 v6, 0x0
 
@@ -5547,7 +5547,7 @@
 
     move-result-object v0
 
-    const v5, 0x7f060002
+    sget v5, Lcom/resouce/module/ResCOLOR;->ETMainColor:I
 
     invoke-virtual {v0, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -5560,7 +5560,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f06025f
+    sget v6, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 

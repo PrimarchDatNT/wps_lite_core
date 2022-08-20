@@ -18,7 +18,7 @@
 .method public h()I
     .locals 1
 
-    const v0, 0x7f0e10eb
+    sget v0, Lcom/resouce/module/ResLAYOUT;->writer_share_card_funny_sun_layout:I
 
     return v0
 .end method

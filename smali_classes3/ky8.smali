@@ -214,7 +214,7 @@
 
     if-ne p2, v2, :cond_0
 
-    const p2, 0x7f0e0b7c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_config_tab_item_recycler_title:I
 
     .line 2
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -233,7 +233,7 @@
 
     if-ne p2, v2, :cond_1
 
-    const p2, 0x7f0e0b7a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_config_tab_item_recycler_one:I
 
     .line 4
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -252,7 +252,7 @@
 
     if-ne p2, v2, :cond_2
 
-    const p2, 0x7f0e0b7d
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_config_tab_item_recycler_two:I
 
     .line 6
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -271,7 +271,7 @@
 
     if-ne p2, v2, :cond_3
 
-    const p2, 0x7f0e0b7b
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_config_tab_item_recycler_three:I
 
     .line 8
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -304,7 +304,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060043
+    sget v0, Lcom/resouce/module/ResCOLOR;->boldLineColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 

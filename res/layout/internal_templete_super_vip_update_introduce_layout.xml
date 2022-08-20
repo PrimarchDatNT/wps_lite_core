@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.common.beans.phone.RoundRectLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/membership_super_vip_update_content" android:background="@color/premiumBlackColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="42.0dip" app:round_rect_radius="@dimen/home_template_item_round_radius"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/docer_home_member_intro_super" />
-    <TextView android:textSize="@dimen/home_template_banner_text_size" android:textColor="@color/premiumBlackTextColor" android:ellipsize="end" android:id="@id/purchase_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/public_membership_super_vip_introduce" android:maxLines="1" android:layout_marginStart="4.0dip" />
-</cn.wps.moffice.common.beans.phone.RoundRectLinearLayout>

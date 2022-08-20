@@ -61,7 +61,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0dcb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_template_search_item:I
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
 
     iput-object p1, p0, Lfa9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2ed8
+    sget v0, Lcom/resouce/module/ResID;->template_preview_image:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -86,7 +86,7 @@
     .line 5
     iget-object p1, p0, Lfa9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2ede
+    sget v0, Lcom/resouce/module/ResID;->template_title:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -99,7 +99,7 @@
     .line 6
     iget-object p1, p0, Lfa9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2edb
+    sget v0, Lcom/resouce/module/ResID;->template_privilege_icon:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -112,7 +112,7 @@
     .line 7
     iget-object p1, p0, Lfa9;->I:Landroid/view/View;
 
-    const v0, 0x7f0b2edf
+    sget v0, Lcom/resouce/module/ResID;->template_type_image:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -331,7 +331,7 @@
     .line 8
     iget-object v0, p0, Lfa9;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f08168c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -345,7 +345,7 @@
     .line 9
     iget-object v0, p0, Lfa9;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f081680
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -357,7 +357,7 @@
     .line 10
     iget-object v0, p0, Lfa9;->V:Landroid/widget/ImageView;
 
-    const v1, 0x7f08168e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -385,7 +385,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f070a89
+    sget v3, Lcom/resouce/module/ResDIMEN;->public_border_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -402,7 +402,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060259
+    sget v3, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -419,7 +419,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060627
+    sget v3, Lcom/resouce/module/ResCOLOR;->subThirdBackgroundColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -432,7 +432,7 @@
 
     move-result v1
 
-    const v2, 0x7f081e8b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->template_icon_default:I
 
     if-nez v1, :cond_5
 

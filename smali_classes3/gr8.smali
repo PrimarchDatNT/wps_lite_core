@@ -137,7 +137,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0, p1}, Lq48;->e(Landroid/content/Context;I)V

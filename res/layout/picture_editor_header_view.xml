@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/public_pdf_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/back_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/pub_float_btn_back_normal" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:id="@id/share_tv" android:layout_width="70.0dip" android:layout_height="32.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_share" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/phone_public_buttonStyle_blue_3dp_corner" />
-</androidx.constraintlayout.widget.ConstraintLayout>

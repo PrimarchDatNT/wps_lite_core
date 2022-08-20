@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0144
+    sget v1, Lcom/resouce/module/ResLAYOUT;->drive_empty_company_special:I
 
     const/4 v2, 0x0
 
@@ -50,7 +50,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b2f3c
+    sget v0, Lcom/resouce/module/ResID;->text_tips:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

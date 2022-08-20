@@ -57,21 +57,21 @@
     .line 3
     invoke-virtual {p1}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const p2, 0x7f122bdf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_warnedit_dialog_title_text:I
 
     .line 4
     invoke-virtual {p1, p2}, Lhd3;->setTitleById(I)Lhd3;
 
     move-result-object p1
 
-    const p2, 0x7f12284e
+    sget p2, Lcom/resouce/module/ResSTRING;->public_scan_stop_content:I
 
     .line 5
     invoke-virtual {p1, p2}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p1
 
-    const p2, 0x7f121fd7
+    sget p2, Lcom/resouce/module/ResSTRING;->public_disable:I
 
     new-instance p3, Lam9$a$a;
 
@@ -82,7 +82,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f121dbf
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 p3, 0x0
 

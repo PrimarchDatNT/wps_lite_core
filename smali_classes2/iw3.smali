@@ -806,7 +806,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1c33
+    sget v1, Lcom/resouce/module/ResID;->pad_record_filter_img:I
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -815,7 +815,7 @@
 
     check-cast v1, Landroid/widget/ImageView;
 
-    const v2, 0x7f0b1c34
+    sget v2, Lcom/resouce/module/ResID;->pad_record_filter_text:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -824,7 +824,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b283d
+    sget v3, Lcom/resouce/module/ResID;->record_filter_tips:I
 
     .line 4
     invoke-virtual {p0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -853,7 +853,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f0816ba
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_filter_active:I
 
     .line 7
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -861,7 +861,7 @@
     :cond_0
     if-eqz v2, :cond_3
 
-    const v0, 0x7f06062d
+    sget v0, Lcom/resouce/module/ResCOLOR;->switchOnColor:I
 
     .line 8
     invoke-virtual {v3, v0}, Landroid/content/res/Resources;->getColor(I)I
@@ -875,7 +875,7 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    const v0, 0x7f0816b9
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_filter:I
 
     .line 9
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -883,7 +883,7 @@
     :cond_2
     if-eqz v2, :cond_3
 
-    const v0, 0x7f060626
+    sget v0, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     .line 10
     invoke-virtual {v3, v0}, Landroid/content/res/Resources;->getColor(I)I
@@ -936,7 +936,7 @@
 
     if-eqz p0, :cond_1
 
-    const v0, 0x7f0816ba
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_filter_active:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -946,7 +946,7 @@
     :cond_0
     if-eqz p0, :cond_1
 
-    const v0, 0x7f0816bb
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_filter_phone:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setImageResource(I)V

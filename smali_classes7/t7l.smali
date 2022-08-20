@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b351c
+    sget v1, Lcom/resouce/module/ResID;->writer_edittoolbar_ink_pen_color:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

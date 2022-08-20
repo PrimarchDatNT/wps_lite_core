@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_pdf_add_merge_page" style="@style/phone_public_buttonStyle_fill_bottom_button">
-        <TextView android:textSize="16.0dip" android:textColor="@drawable/phone_public_white_font_text_color" android:layout_gravity="center" android:id="@id/tv_button_pdf_add_merge_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_datavalidation_table_add" />
-    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
-</LinearLayout>

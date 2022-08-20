@@ -117,7 +117,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f122ae4
+    sget v1, Lcom/resouce/module/ResSTRING;->public_tips_move_and_copy_file_exit:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -168,7 +168,7 @@
 .method public f3()I
     .locals 1
 
-    const v0, 0x7f0e06f7
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_home_clouddocs_move_and_copy_en:I
 
     return v0
 .end method
@@ -186,7 +186,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b2821
+    sget v0, Lcom/resouce/module/ResID;->recentMoveFolders:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -271,7 +271,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -395,7 +395,7 @@
     .line 2
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f120647
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v1}, Lq48;->e(Landroid/content/Context;I)V
 

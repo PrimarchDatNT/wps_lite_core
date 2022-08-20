@@ -89,7 +89,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0c11
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_func_notify_setting_view:I
 
     const/4 v2, 0x0
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2612
+    sget v1, Lcom/resouce/module/ResID;->public_func_notify_switch:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     check-cast v1, Landroid/widget/CompoundButton;
 
-    const v2, 0x7f0b2fba
+    sget v2, Lcom/resouce/module/ResID;->tips_details:I
 
     .line 3
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -139,7 +139,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f122207
+    sget v0, Lcom/resouce/module/ResSTRING;->public_func_notify_doc_update_alerts:I
 
     return v0
 .end method

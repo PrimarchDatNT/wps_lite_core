@@ -403,7 +403,7 @@
     .line 17
     iget-object p1, p0, Lr3e;->B:Lcn/wps/moffice/presentation/control/phonepanelservice/toolbar/PhoneToolbarLayout;
 
-    const v0, 0x7f08115f
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_ppt_toolbar_divide_background:I
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -504,7 +504,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

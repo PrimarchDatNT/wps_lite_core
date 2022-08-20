@@ -46,7 +46,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0b1986
+    sget p3, Lcom/resouce/module/ResID;->mywallet_content_item_reddot_icon:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

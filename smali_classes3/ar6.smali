@@ -190,7 +190,7 @@
     return v1
 
     :cond_0
-    const v2, 0x7f0b2e7e
+    sget v2, Lcom/resouce/module/ResID;->tag_map:I
 
     .line 3
     invoke-virtual {p0, v2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

@@ -56,7 +56,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a7e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_hypelink_custom_menu:I
 
     const/4 p3, 0x0
 
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b22da
+    sget p2, Lcom/resouce/module/ResID;->ppt_hypelink_custom_menu_url_text:I
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -80,7 +80,7 @@
     .line 8
     iget-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b22d9
+    sget p2, Lcom/resouce/module/ResID;->ppt_hypelink_custom_menu_url:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -91,7 +91,7 @@
     .line 9
     iget-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b01b2
+    sget p2, Lcom/resouce/module/ResID;->back:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -102,7 +102,7 @@
     .line 10
     iget-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b1b1a
+    sget p2, Lcom/resouce/module/ResID;->open:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -115,7 +115,7 @@
     .line 11
     iget-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b07eb
+    sget p2, Lcom/resouce/module/ResID;->edit:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,7 +128,7 @@
     .line 12
     iget-object p1, p0, Loqd;->j0:Landroid/view/View;
 
-    const p2, 0x7f0b063f
+    sget p2, Lcom/resouce/module/ResID;->delete:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -614,7 +614,7 @@
 
     iget-object v1, p0, Loqd;->k0:Landroid/content/Context;
 
-    const v3, 0x7f121c42
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_slide:I
 
     invoke-virtual {v1, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -689,7 +689,7 @@
     :cond_b
     iget-object v0, p0, Loqd;->k0:Landroid/content/Context;
 
-    const v1, 0x7f122333
+    sget v1, Lcom/resouce/module/ResSTRING;->public_hypelink_filenotfound:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -887,7 +887,7 @@
 
     const-string v5, "button_click"
 
-    const v6, 0x7f0b1b1a
+    sget v6, Lcom/resouce/module/ResID;->open:I
 
     if-ne v0, v6, :cond_0
 
@@ -946,7 +946,7 @@
 
     move-result v0
 
-    const v6, 0x7f0b07eb
+    sget v6, Lcom/resouce/module/ResID;->edit:I
 
     if-ne v0, v6, :cond_1
 
@@ -1014,7 +1014,7 @@
 
     move-result v0
 
-    const v6, 0x7f0b063f
+    sget v6, Lcom/resouce/module/ResID;->delete:I
 
     if-ne v0, v6, :cond_3
 
@@ -1115,7 +1115,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b01b2
+    sget v0, Lcom/resouce/module/ResID;->back:I
 
     if-ne p1, v0, :cond_4
 

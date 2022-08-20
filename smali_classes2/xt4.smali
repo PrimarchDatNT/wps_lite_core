@@ -193,7 +193,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f122a9d
+    sget p3, Lcom/resouce/module/ResSTRING;->public_template_premium:I
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -238,7 +238,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f12260e
+    sget p3, Lcom/resouce/module/ResSTRING;->public_pdf_toolkit:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -267,7 +267,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f121c93
+    sget p3, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -427,7 +427,7 @@
     .line 1
     iget-object v0, p0, Lxt4;->S:Landroid/view/View;
 
-    const v1, 0x7f0b14f9
+    sget v1, Lcom/resouce/module/ResID;->kscrollbar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -449,7 +449,7 @@
 
     move-result v0
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     const/4 v3, 0x1
 
@@ -658,15 +658,15 @@
 
     move-result-object v0
 
-    const v2, 0x7f07034e
+    sget v2, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
     move-result v0
 
-    const v2, 0x7f06025d
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
-    const v4, 0x7f0600ea
+    sget v4, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     .line 18
     iget-object v5, p0, Lxt4;->U:Lcn/wps/moffice/common/beans/phone/scrollbar/KScrollBar;
@@ -687,7 +687,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0605ee
+    sget v6, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -888,7 +888,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0db7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_phone_premium_quick_pay_layout:I
 
     const/4 v2, 0x0
 

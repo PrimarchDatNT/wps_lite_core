@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e027f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_mywallet_more_menu:I
 
     const/4 v2, 0x0
 
@@ -59,7 +59,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0060
+    sget v1, Lcom/resouce/module/ResID;->account_action:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,12 +75,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f12308e
+    sget v2, Lcom/resouce/module/ResSTRING;->template_mine_switch_signout:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f1229fc
+    sget v2, Lcom/resouce/module/ResSTRING;->public_signin:I
 
     .line 4
     :goto_0
@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e027b
+    sget v1, Lcom/resouce/module/ResLAYOUT;->foreign_home_mywallet_account_activity:I
 
     const/4 v2, 0x0
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0061
+    sget v1, Lcom/resouce/module/ResID;->account_fragment:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2b30
+    sget v1, Lcom/resouce/module/ResID;->setting_fragment:I
 
     invoke-virtual {v0, v1}, Landroid/app/FragmentManager;->findFragmentById(I)Landroid/app/Fragment;
 
@@ -185,7 +185,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f120e59
+    sget v0, Lcom/resouce/module/ResSTRING;->home_account_pursing:I
 
     return v0
 .end method

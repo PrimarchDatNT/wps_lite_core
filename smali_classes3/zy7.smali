@@ -104,7 +104,7 @@
     .line 2
     iget-object p1, p0, Lzy7;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f121d6c
+    sget v0, Lcom/resouce/module/ResSTRING;->public_auth_failed:I
 
     const/4 v1, 0x0
 
@@ -150,7 +150,7 @@
     .line 3
     iget-object p1, p0, Lzy7;->mActivity:Landroid/app/Activity;
 
-    const v0, 0x7f122535
+    sget v0, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     const/4 v1, 0x0
 
@@ -247,7 +247,7 @@
     .line 2
     iget-object v0, p0, Lzy7;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f121da7
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     const/4 v2, 0x0
 

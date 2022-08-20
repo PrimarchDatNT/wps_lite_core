@@ -93,7 +93,7 @@
     .line 5
     iget-object p1, p0, Lms3$e;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f122be7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_web_article_lookup_anyone:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -109,7 +109,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225ea
+    sget v2, Lcom/resouce/module/ResSTRING;->public_password_format:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

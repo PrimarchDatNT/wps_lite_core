@@ -217,12 +217,12 @@
 
     if-eqz v2, :cond_0
 
-    const v2, 0x7f0b0d85
+    sget v2, Lcom/resouce/module/ResID;->find_searchbtn_panel:I
 
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f0b2080
+    sget v2, Lcom/resouce/module/ResID;->phone_pdf_search_guide_panel:I
 
     .line 3
     :goto_0

@@ -26,7 +26,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213f4
+    sget v1, Lcom/resouce/module/ResSTRING;->modelseek_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1213f5
+    sget v1, Lcom/resouce/module/ResSTRING;->modelseek_urlfilter:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120da8
+    sget v1, Lcom/resouce/module/ResSTRING;->get_ck_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

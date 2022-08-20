@@ -202,7 +202,7 @@
 .method public final B(Ljea$f;Z)V
     .locals 4
 
-    const v0, 0x7f08085c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_enable_bg:I
 
     const/4 v1, 0x0
 
@@ -318,7 +318,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f060036
+    sget v4, Lcom/resouce/module/ResCOLOR;->backgroundHighLightColor:I
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -503,7 +503,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -565,7 +565,7 @@
     :cond_1
     iget-object p2, p1, Ljea$f;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120fbe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_system_notice:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -586,7 +586,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -950,7 +950,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -975,7 +975,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -1037,7 +1037,7 @@
     :cond_1
     iget-object p2, p1, Ljea$f;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120fbe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_system_notice:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1058,7 +1058,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1102,11 +1102,11 @@
 
     move-result p2
 
-    const v0, 0x7f081680
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_ppt:I
 
     if-eqz p2, :cond_2
 
-    const v0, 0x7f08168c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_word:I
 
     goto :goto_1
 
@@ -1140,7 +1140,7 @@
 
     if-eqz p2, :cond_4
 
-    const v0, 0x7f08168e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_xls:I
 
     goto :goto_1
 
@@ -1158,7 +1158,7 @@
 
     if-eqz p2, :cond_5
 
-    const v0, 0x7f08167e
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_file_pdf:I
 
     .line 21
     :cond_5
@@ -1364,7 +1364,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1398,7 +1398,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f08085d
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->home_msg_imge_text_type_bg:I
 
     invoke-virtual {v0, v2}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -1450,7 +1450,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1563,7 +1563,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0600ea
+    sget v1, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1588,7 +1588,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f081984
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-virtual {p2, v0}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -1650,7 +1650,7 @@
     :cond_0
     iget-object p2, p1, Ljea$f;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f120fbe
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_system_notice:I
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -1671,7 +1671,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1866,7 +1866,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1921,7 +1921,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081984
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_icon:I
 
     invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/BaseRequestOptions;->placeholder(I)Lcom/bumptech/glide/request/BaseRequestOptions;
 
@@ -1949,7 +1949,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1985,7 +1985,7 @@
     :cond_1
     iget-object p1, p1, Ljea$f;->c:Landroid/widget/TextView;
 
-    const p2, 0x7f120fbe
+    sget p2, Lcom/resouce/module/ResSTRING;->home_membership_system_notice:I
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 
@@ -2049,7 +2049,7 @@
     .line 4
     iget-object p1, p0, Ljea;->B:Landroid/app/Activity;
 
-    const v0, 0x7f120f96
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_message_dead:I
 
     const/4 v1, 0x0
 
@@ -2206,15 +2206,15 @@
 
     invoke-direct {v2, v3}, Ljea$f;-><init>(Ljea$a;)V
 
-    const v3, 0x7f0b1918
+    sget v3, Lcom/resouce/module/ResID;->msg_center_expire_text:I
 
-    const v4, 0x7f0b1917
+    sget v4, Lcom/resouce/module/ResID;->msg_center_empty_text:I
 
-    const v5, 0x7f0b1915
+    sget v5, Lcom/resouce/module/ResID;->msg_center_empty_img:I
 
-    const v6, 0x7f0b191f
+    sget v6, Lcom/resouce/module/ResID;->msg_center_line:I
 
-    const v7, 0x7f0b192a
+    sget v7, Lcom/resouce/module/ResID;->msg_time:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -2224,7 +2224,7 @@
     :pswitch_0
     iget-object p2, p0, Ljea;->S:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0726
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_home_msg_center_msg_with_status:I
 
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -2247,12 +2247,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f0e0552
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_home_msg_center_document_type:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f0e034c
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_msg_center_document_type:I
 
     :goto_0
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -2276,12 +2276,12 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0e0554
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_home_msg_center_last_read_here:I
 
     goto :goto_1
 
     :cond_1
-    const v3, 0x7f0e034e
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_msg_center_last_read_here:I
 
     :goto_1
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -2294,7 +2294,7 @@
     :pswitch_3
     iget-object p2, p0, Ljea;->S:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0351
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_msg_center_no_msg_no_login:I
 
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -2318,7 +2318,7 @@
 
     iput-object p3, v2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1916
+    sget p3, Lcom/resouce/module/ResID;->msg_center_empty_login_btn:I
 
     .line 11
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2335,7 +2335,7 @@
     :pswitch_4
     iget-object p2, p0, Ljea;->S:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f0e0350
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_msg_center_no_msg_network:I
 
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -2373,19 +2373,19 @@
 
     if-eqz v4, :cond_2
 
-    const v4, 0x7f0e0551
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_home_msg_center_card:I
 
     goto :goto_2
 
     :cond_2
-    const v4, 0x7f0e034b
+    sget v4, Lcom/resouce/module/ResLAYOUT;->home_msg_center_card:I
 
     :goto_2
     invoke-virtual {p2, v4, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b1908
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_layout:I
 
     .line 16
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2403,7 +2403,7 @@
 
     iput-object p3, v2, Ljea$f;->a:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1904
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_avatar:I
 
     .line 18
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2414,7 +2414,7 @@
 
     iput-object p3, v2, Ljea$f;->b:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b1909
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_nickname:I
 
     .line 19
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2425,7 +2425,7 @@
 
     iput-object p3, v2, Ljea$f;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f0b190a
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_title:I
 
     .line 20
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2445,7 +2445,7 @@
 
     iput-object p3, v2, Ljea$f;->f:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1905
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_content:I
 
     .line 22
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2456,7 +2456,7 @@
 
     iput-object p3, v2, Ljea$f;->e:Landroid/widget/TextView;
 
-    const p3, 0x7f0b190d
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_view_detail:I
 
     .line 23
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2467,7 +2467,7 @@
 
     iput-object p3, v2, Ljea$f;->h:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1906
+    sget p3, Lcom/resouce/module/ResID;->msg_center_card_divider:I
 
     .line 24
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2497,19 +2497,19 @@
 
     if-eqz v4, :cond_3
 
-    const v4, 0x7f0e0553
+    sget v4, Lcom/resouce/module/ResLAYOUT;->pad_home_msg_center_image_text:I
 
     goto :goto_3
 
     :cond_3
-    const v4, 0x7f0e034d
+    sget v4, Lcom/resouce/module/ResLAYOUT;->home_msg_center_image_text:I
 
     :goto_3
     invoke-virtual {p2, v4, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0b29b1
+    sget p3, Lcom/resouce/module/ResID;->root_view:I
 
     .line 27
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2527,7 +2527,7 @@
 
     iput-object p3, v2, Ljea$f;->a:Landroid/widget/TextView;
 
-    const p3, 0x7f0b191d
+    sget p3, Lcom/resouce/module/ResID;->msg_center_image_text_img:I
 
     .line 29
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2538,7 +2538,7 @@
 
     iput-object p3, v2, Ljea$f;->g:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const p3, 0x7f0b191e
+    sget p3, Lcom/resouce/module/ResID;->msg_center_image_text_title:I
 
     .line 30
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2558,7 +2558,7 @@
 
     iput-object p3, v2, Ljea$f;->f:Landroid/widget/TextView;
 
-    const p3, 0x7f0b191c
+    sget p3, Lcom/resouce/module/ResID;->msg_center_image_text_content:I
 
     .line 32
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2590,12 +2590,12 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f0e0555
+    sget v3, Lcom/resouce/module/ResLAYOUT;->pad_home_msg_center_text:I
 
     goto :goto_4
 
     :cond_4
-    const v3, 0x7f0e0352
+    sget v3, Lcom/resouce/module/ResLAYOUT;->home_msg_center_text:I
 
     :goto_4
     invoke-virtual {p2, v3, p3, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -2611,7 +2611,7 @@
 
     iput-object p3, v2, Ljea$f;->a:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1923
+    sget p3, Lcom/resouce/module/ResID;->msg_center_text_avatar:I
 
     .line 36
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2622,7 +2622,7 @@
 
     iput-object p3, v2, Ljea$f;->b:Landroid/widget/ImageView;
 
-    const p3, 0x7f0b1925
+    sget p3, Lcom/resouce/module/ResID;->msg_center_text_nickname:I
 
     .line 37
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2633,7 +2633,7 @@
 
     iput-object p3, v2, Ljea$f;->c:Landroid/widget/TextView;
 
-    const p3, 0x7f0b1924
+    sget p3, Lcom/resouce/module/ResID;->msg_center_text_content:I
 
     .line 38
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2803,7 +2803,7 @@
     :pswitch_b
     iget-object p3, v2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f120fa0
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_no_message_no_login:I
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2836,14 +2836,14 @@
     :pswitch_c
     iget-object p3, v2, Ljea$f;->g:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f081555
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_internet:I
 
     invoke-virtual {p3, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 60
     iget-object p3, v2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f120fa2
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_no_network:I
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2862,14 +2862,14 @@
     :pswitch_d
     iget-object p3, v2, Ljea$f;->g:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f081559
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_404_no_message:I
 
     invoke-virtual {p3, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 63
     iget-object p3, v2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f120f9f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_no_message:I
 
     invoke-virtual {p3, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -2980,7 +2980,7 @@
 .method public final h(Landroid/view/View;Ljea$f;)V
     .locals 1
 
-    const v0, 0x7f0b1912
+    sget v0, Lcom/resouce/module/ResID;->msg_center_doc_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2989,7 +2989,7 @@
 
     iput-object v0, p2, Ljea$f;->i:Landroid/view/View;
 
-    const v0, 0x7f0b192a
+    sget v0, Lcom/resouce/module/ResID;->msg_time:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3000,7 +3000,7 @@
 
     iput-object v0, p2, Ljea$f;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1904
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_avatar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3011,7 +3011,7 @@
 
     iput-object v0, p2, Ljea$f;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1909
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_nickname:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3022,7 +3022,7 @@
 
     iput-object v0, p2, Ljea$f;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b190a
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_title:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3033,7 +3033,7 @@
 
     iput-object v0, p2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1918
+    sget v0, Lcom/resouce/module/ResID;->msg_center_expire_text:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3044,7 +3044,7 @@
 
     iput-object v0, p2, Ljea$f;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1905
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_content:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3055,7 +3055,7 @@
 
     iput-object v0, p2, Ljea$f;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b190d
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_view_detail:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3066,7 +3066,7 @@
 
     iput-object v0, p2, Ljea$f;->h:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1906
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_divider:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3075,7 +3075,7 @@
 
     iput-object v0, p2, Ljea$f;->j:Landroid/view/View;
 
-    const v0, 0x7f0b191f
+    sget v0, Lcom/resouce/module/ResID;->msg_center_line:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3084,7 +3084,7 @@
 
     iput-object v0, p2, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f0b190b
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_title_image:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3095,7 +3095,7 @@
 
     iput-object v0, p2, Ljea$f;->m:Lcn/wpsx/support/ui/KColorfulImageView;
 
-    const v0, 0x7f0b1914
+    sget v0, Lcom/resouce/module/ResID;->msg_center_doc_size:I
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3106,7 +3106,7 @@
 
     iput-object v0, p2, Ljea$f;->n:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1907
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_doc_title:I
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3123,7 +3123,7 @@
 .method public final i(Landroid/view/View;Ljea$f;)V
     .locals 1
 
-    const v0, 0x7f0b1908
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_layout:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3132,7 +3132,7 @@
 
     iput-object v0, p2, Ljea$f;->i:Landroid/view/View;
 
-    const v0, 0x7f0b192a
+    sget v0, Lcom/resouce/module/ResID;->msg_time:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3143,7 +3143,7 @@
 
     iput-object v0, p2, Ljea$f;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1904
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_avatar:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3154,7 +3154,7 @@
 
     iput-object v0, p2, Ljea$f;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b1909
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_nickname:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3165,7 +3165,7 @@
 
     iput-object v0, p2, Ljea$f;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b190a
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_title:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3176,7 +3176,7 @@
 
     iput-object v0, p2, Ljea$f;->d:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1918
+    sget v0, Lcom/resouce/module/ResID;->msg_center_expire_text:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3187,7 +3187,7 @@
 
     iput-object v0, p2, Ljea$f;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1905
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_content:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3198,7 +3198,7 @@
 
     iput-object v0, p2, Ljea$f;->e:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1906
+    sget v0, Lcom/resouce/module/ResID;->msg_center_card_divider:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3207,7 +3207,7 @@
 
     iput-object v0, p2, Ljea$f;->j:Landroid/view/View;
 
-    const v0, 0x7f0b191f
+    sget v0, Lcom/resouce/module/ResID;->msg_center_line:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3216,7 +3216,7 @@
 
     iput-object v0, p2, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f0b1921
+    sget v0, Lcom/resouce/module/ResID;->msg_center_msg_status_detail:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3476,7 +3476,7 @@
 
     const/4 v3, 0x0
 
-    const v4, 0x7f120f99
+    sget v4, Lcom/resouce/module/ResSTRING;->home_membership_message_not_support_jump:I
 
     if-eqz v2, :cond_1
 
@@ -4093,14 +4093,14 @@
 
     move-result v2
 
-    const v4, 0x7f0b1924
+    sget v4, Lcom/resouce/module/ResID;->msg_center_text_content:I
 
     if-ne v2, v4, :cond_2
 
     goto/16 :goto_0
 
     :cond_2
-    const v4, 0x7f0b29b1
+    sget v4, Lcom/resouce/module/ResID;->root_view:I
 
     if-ne v2, v4, :cond_3
 
@@ -4115,7 +4115,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v4, 0x7f0b1908
+    sget v4, Lcom/resouce/module/ResID;->msg_center_card_layout:I
 
     if-ne v2, v4, :cond_4
 
@@ -4130,7 +4130,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v4, 0x7f0b1916
+    sget v4, Lcom/resouce/module/ResID;->msg_center_empty_login_btn:I
 
     if-ne v2, v4, :cond_8
 
@@ -4262,7 +4262,7 @@
     return-void
 
     :cond_8
-    const p1, 0x7f0b1912
+    sget p1, Lcom/resouce/module/ResID;->msg_center_doc_layout:I
 
     if-ne v2, p1, :cond_9
 
@@ -4528,7 +4528,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4545,7 +4545,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4562,7 +4562,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4579,7 +4579,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4619,7 +4619,7 @@
     .line 10
     iget-object p1, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f08085b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_disable_bg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -4638,7 +4638,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4655,7 +4655,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4672,7 +4672,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0605f1
+    sget v2, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4689,7 +4689,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060259
+    sget v2, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4729,7 +4729,7 @@
     .line 10
     iget-object p1, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f08085c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_enable_bg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -4773,7 +4773,7 @@
     .line 2
     iget-object v0, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v1, 0x7f08085c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_enable_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -4800,7 +4800,7 @@
     .line 2
     iget-object v0, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v1, 0x7f08085c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_enable_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -4826,7 +4826,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4843,7 +4843,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4881,7 +4881,7 @@
     .line 8
     iget-object p1, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f08085b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_disable_bg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
@@ -4900,7 +4900,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4917,7 +4917,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0600ea
+    sget v2, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4952,7 +4952,7 @@
     .line 7
     iget-object p1, p1, Ljea$f;->k:Landroid/view/View;
 
-    const v0, 0x7f08085c
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_msg_click_enable_bg:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setBackgroundResource(I)V
 

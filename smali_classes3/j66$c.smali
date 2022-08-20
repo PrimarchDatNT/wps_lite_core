@@ -45,7 +45,7 @@
 
     const/4 v1, 0x1
 
-    const v2, 0x7f0b033b
+    sget v2, Lcom/resouce/module/ResID;->cancel:I
 
     if-ne v2, v0, :cond_0
 
@@ -61,7 +61,7 @@
     goto/16 :goto_1
 
     :cond_0
-    const v0, 0x7f0b0782
+    sget v0, Lcom/resouce/module/ResID;->done:I
 
     .line 3
     invoke-virtual {p1}, Landroid/view/View;->getId()I

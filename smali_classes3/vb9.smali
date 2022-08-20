@@ -337,7 +337,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b156f
+    sget v1, Lcom/resouce/module/ResID;->layout_search_time_tip:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b129b
+    sget v1, Lcom/resouce/module/ResID;->image_search_time_arrow:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -763,7 +763,7 @@
     .line 15
     iget-object p1, p0, Lvb9;->M1:Landroid/app/FragmentTransaction;
 
-    const v0, 0x7f0b2a6f
+    sget v0, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     iget-object v1, p0, Lvb9;->K1:Lcn/wps/moffice/main/local/home/SearchDrivePage;
 
@@ -1129,7 +1129,7 @@
     :cond_0
     iget-object v0, p0, Lwb9;->T:Landroid/view/View;
 
-    const v1, 0x7f0b301d
+    sget v1, Lcom/resouce/module/ResID;->titlebar_back_icon:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1204,7 +1204,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0bf6
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_filebrowser:I
 
     const/4 v2, 0x0
 
@@ -1221,7 +1221,7 @@
 
     iput-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2ac1
+    sget v1, Lcom/resouce/module/ResID;->searchparent:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1290,7 +1290,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b318c
+    sget v1, Lcom/resouce/module/ResID;->tv_general_search_time_entrance:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1569,7 +1569,7 @@
     .line 1
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2ab6
+    sget v1, Lcom/resouce/module/ResID;->search_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1579,7 +1579,7 @@
 
     iput-object v0, p0, Lvb9;->H1:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b117c
+    sget v1, Lcom/resouce/module/ResID;->home_title_bar:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -1593,7 +1593,7 @@
     .line 3
     iget-object v0, p0, Lvb9;->H1:Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0b2a6f
+    sget v1, Lcom/resouce/module/ResID;->search_driver_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -1610,7 +1610,7 @@
 
     if-eqz v0, :cond_1
 
-    const v2, 0x7f0b2107
+    sget v2, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     .line 5
     invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1656,7 +1656,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120610
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1731,7 +1731,7 @@
     .line 1
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b1808
+    sget v1, Lcom/resouce/module/ResID;->main_view_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1948,7 +1948,7 @@
     .line 5
     iget-object v0, p0, Lwb9;->a0:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f1205f1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_open_alldocuments:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setTitleText(I)V
 
@@ -1987,7 +1987,7 @@
     .line 2
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b16d1
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_tip_wrap:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2003,7 +2003,7 @@
     .line 4
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b16ce
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2019,7 +2019,7 @@
     :try_start_0
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b3232
+    sget v1, Lcom/resouce/module/ResID;->tv_recycle_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2036,7 +2036,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122e15
+    sget v2, Lcom/resouce/module/ResSTRING;->recycle_bin_tip_info:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -2070,7 +2070,7 @@
     :catch_0
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b16cd
+    sget v1, Lcom/resouce/module/ResID;->ll_recycle_close:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2201,7 +2201,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2f6d
+    sget v1, Lcom/resouce/module/ResID;->textview_search_time:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2263,7 +2263,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1205f1
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_open_alldocuments:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2285,7 +2285,7 @@
     .line 2
     iget-object v0, p0, Lwb9;->V0:Landroid/view/View;
 
-    const v1, 0x7f0b2fb0
+    sget v1, Lcom/resouce/module/ResID;->tips_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3172,7 +3172,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f122e8d
+    sget v8, Lcom/resouce/module/ResSTRING;->search_by_time_all:I
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3386,7 +3386,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122e93
+    sget v4, Lcom/resouce/module/ResSTRING;->search_by_time_select_start_time:I
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -3447,7 +3447,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f122e92
+    sget v3, Lcom/resouce/module/ResSTRING;->search_by_time_select_end_time:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

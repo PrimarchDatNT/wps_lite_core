@@ -112,7 +112,7 @@
     :cond_0
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817bc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_svip_member_42:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -133,7 +133,7 @@
     :cond_1
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817cc
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     .line 9
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -154,7 +154,7 @@
     :cond_2
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0817a8
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_docer_member_42:I
 
     .line 13
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -194,7 +194,7 @@
     .line 17
     invoke-virtual {p0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    const p1, 0x7f0808a3
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     .line 18
     invoke-virtual {p0, p1}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -439,7 +439,7 @@
     .line 2
     iget-object v0, p0, Lkya;->I:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0ef7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->scan_long_pic_share_background_preview_item:I
 
     const/4 v2, 0x0
 
@@ -447,7 +447,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b2b7d
+    sget v0, Lcom/resouce/module/ResID;->share_item_img:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -458,7 +458,7 @@
 
     iput-object v0, p2, Lkya$b;->a:Lcn/wps/moffice/common/beans/V10RoundRectImageView;
 
-    const v0, 0x7f0b1848
+    sget v0, Lcom/resouce/module/ResID;->member_img:I
 
     .line 4
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -469,7 +469,7 @@
 
     iput-object v0, p2, Lkya$b;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b0799
+    sget v0, Lcom/resouce/module/ResID;->download_progressbar:I
 
     .line 5
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -480,7 +480,7 @@
 
     iput-object v0, p2, Lkya$b;->c:Landroid/widget/ProgressBar;
 
-    const v0, 0x7f0b15b4
+    sget v0, Lcom/resouce/module/ResID;->limit_free_tv:I
 
     .line 6
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

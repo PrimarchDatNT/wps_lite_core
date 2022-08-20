@@ -179,7 +179,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120ce3
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_overpagecount:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -214,7 +214,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e067a
+    sget p2, Lcom/resouce/module/ResLAYOUT;->pdf_translation_layout:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -236,7 +236,7 @@
     .line 1
     invoke-super {p0, p1}, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->l(Landroid/view/View;)V
 
-    const v0, 0x7f0b30c3
+    sget v0, Lcom/resouce/module/ResID;->translation_history_btn:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->T:Landroid/widget/Button;
 
-    const v0, 0x7f0b30bc
+    sget v0, Lcom/resouce/module/ResID;->translation_btn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -258,7 +258,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->U:Landroid/widget/Button;
 
-    const v0, 0x7f0b1c63
+    sget v0, Lcom/resouce/module/ResID;->pageCount:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -269,7 +269,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->a0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b0d57
+    sget v0, Lcom/resouce/module/ResID;->filename:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -289,7 +289,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b03a2
+    sget v0, Lcom/resouce/module/ResID;->checkStateView:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -298,7 +298,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->c0:Landroid/view/View;
 
-    const v0, 0x7f0b3316
+    sget v0, Lcom/resouce/module/ResID;->upload_file:I
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -309,7 +309,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->z0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v0, 0x7f0b30c2
+    sget v0, Lcom/resouce/module/ResID;->translation_file:I
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->A0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v0, 0x7f0b0ed1
+    sget v0, Lcom/resouce/module/ResID;->generate_thumbnail_file:I
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -334,25 +334,25 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->z0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v1, 0x7f120cef
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_upload_file:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->A0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v1, 0x7f120cdb
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_translation_file:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->B0:Lcn/wps/moffice/main/papercheck/impl/CheckItemView;
 
-    const v1, 0x7f120ca9
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_generation_file:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/papercheck/impl/CheckItemView;->setTitle(I)V
 
-    const v0, 0x7f0b2e99
+    sget v0, Lcom/resouce/module/ResID;->target_language:I
 
     .line 14
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -363,7 +363,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->d0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b066a
+    sget v0, Lcom/resouce/module/ResID;->dest_target_language:I
 
     .line 15
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -374,7 +374,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->e0:Landroid/widget/TextView;
 
-    const v0, 0x7f0b30c6
+    sget v0, Lcom/resouce/module/ResID;->translation_title_bar:I
 
     .line 16
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -385,7 +385,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/pdf/shell/fanyi/view/TranslationView;->H0:Lcn/wps/moffice/pdf/shell/common/views/PDFTitleBar;
 
-    const v1, 0x7f120cd4
+    sget v1, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     .line 17
     invoke-virtual {v0, v1}, Lcn/wps/moffice/common/beans/TitleBar;->setTitle(I)V
@@ -418,7 +418,7 @@
 
     invoke-static {v0}, Lxih;->P(Landroid/view/View;)V
 
-    const v0, 0x7f0b250d
+    sget v0, Lcom/resouce/module/ResID;->preview_view:I
 
     .line 22
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -429,7 +429,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->W:Lcn/wps/moffice/main/fanyi/impl/preview/TransLationPreviewView;
 
-    const v0, 0x7f0b2af5
+    sget v0, Lcom/resouce/module/ResID;->select_language_layout:I
 
     .line 23
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -518,7 +518,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0b30bb
+    sget v0, Lcom/resouce/module/ResID;->translation_bottom_pop_layout:I
 
     .line 34
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -563,7 +563,7 @@
     .line 38
     iget-object p1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0c62
+    sget v0, Lcom/resouce/module/ResID;->fanyi_failure_tips:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -576,7 +576,7 @@
     .line 39
     iget-object p1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b2dfc
+    sget v0, Lcom/resouce/module/ResID;->switchLanguage:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -598,7 +598,7 @@
     .line 41
     iget-object p1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b0c67
+    sget v0, Lcom/resouce/module/ResID;->fanyi_network_error:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -629,7 +629,7 @@
     .line 46
     iget-object p1, p0, Lcn/wps/moffice/main/fanyi/impl/BaseTranslationView;->B:Landroid/view/ViewGroup;
 
-    const v0, 0x7f0b1d84
+    sget v0, Lcom/resouce/module/ResID;->pdf_circle_progress_cycle_layout:I
 
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -718,7 +718,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120cdf
+    sget v2, Lcom/resouce/module/ResSTRING;->fanyigo_translation_getpagecount:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -761,7 +761,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1226eb
+    sget v4, Lcom/resouce/module/ResSTRING;->public_print_page_num:I
 
     invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -857,7 +857,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f120647
+    sget v2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v0, v2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

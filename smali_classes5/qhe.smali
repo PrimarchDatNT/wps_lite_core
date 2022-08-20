@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f081c97
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_template_placeholder:I
 
     const/16 v2, 0x8
 
@@ -244,7 +244,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f121c52
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_template_free:I
 
     .line 3
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V

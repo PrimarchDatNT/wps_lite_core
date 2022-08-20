@@ -281,7 +281,7 @@
 
     invoke-direct {v0, p0}, Leql$a;-><init>(Leql;)V
 
-    const v1, 0x7f0b2fe8
+    sget v1, Lcom/resouce/module/ResID;->title_bar_return:I
 
     const-string v2, "search-pic-return"
 
@@ -292,7 +292,7 @@
 
     invoke-direct {v0, p0}, Leql$b;-><init>(Leql;)V
 
-    const v1, 0x7f0b2aa5
+    sget v1, Lcom/resouce/module/ResID;->search_pic_savepic:I
 
     const-string v2, "search-pic-savepic"
 
@@ -303,7 +303,7 @@
 
     invoke-direct {v0, p0}, Leql$c;-><init>(Leql;)V
 
-    const v1, 0x7f0b2a9e
+    sget v1, Lcom/resouce/module/ResID;->search_pic_locator:I
 
     const-string v2, "search-pic-locator"
 
@@ -357,7 +357,7 @@
 
     iget-object v1, p0, Leql;->e0:Landroid/app/Activity;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     const/4 v3, 0x1
 
@@ -486,7 +486,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0a02
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_writer_search_pic_dialog:I
 
     const/4 v2, 0x0
 
@@ -510,7 +510,7 @@
     .line 3
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2aa7
+    sget v1, Lcom/resouce/module/ResID;->search_pic_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -518,7 +518,7 @@
 
     check-cast v0, Lcn/wps/moffice/writer/beans/DialogTitleBar;
 
-    const v1, 0x7f12264f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_picture:I
 
     .line 4
     invoke-virtual {v0, v1}, Lcn/wps/moffice/writer/beans/DialogTitleBar;->setTitleId(I)V
@@ -546,7 +546,7 @@
     .line 9
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2aa6
+    sget v1, Lcom/resouce/module/ResID;->search_pic_thumb:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -557,7 +557,7 @@
     .line 10
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2a9f
+    sget v1, Lcom/resouce/module/ResID;->search_pic_preview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -568,7 +568,7 @@
     .line 11
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2aa3
+    sget v1, Lcom/resouce/module/ResID;->search_pic_preview_pager:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -581,7 +581,7 @@
     .line 12
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2a9c
+    sget v1, Lcom/resouce/module/ResID;->search_pic_gridview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -646,7 +646,7 @@
     .line 19
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2a9b
+    sget v1, Lcom/resouce/module/ResID;->search_pic_failure_tips:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -657,7 +657,7 @@
     .line 20
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2aa4
+    sget v1, Lcom/resouce/module/ResID;->search_pic_progress_bar_cycle:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -668,7 +668,7 @@
     .line 21
     iget-object v0, p0, Leql;->h0:Landroid/view/View;
 
-    const v1, 0x7f0b2aa5
+    sget v1, Lcom/resouce/module/ResID;->search_pic_savepic:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -706,7 +706,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f060060
+    sget v3, Lcom/resouce/module/ResCOLOR;->buttonThirdColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -723,7 +723,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f060061
+    sget v4, Lcom/resouce/module/ResCOLOR;->buttonThirdDisableColor:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -740,7 +740,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f060044
+    sget v5, Lcom/resouce/module/ResCOLOR;->borderLineColor:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -767,7 +767,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060626
+    sget v2, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

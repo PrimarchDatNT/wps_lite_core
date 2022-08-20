@@ -101,7 +101,7 @@
 
     iget-object p1, p1, Lxd4;->e:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 
@@ -113,7 +113,7 @@
 
     iget-object p1, p1, Lxd4;->e:Landroid/app/Activity;
 
-    const p2, 0x7f122932
+    sget p2, Lcom/resouce/module/ResSTRING;->public_set_as_cooperation_docs_fail:I
 
     invoke-static {p1, p2}, Lbih;->r(Landroid/content/Context;I)V
 

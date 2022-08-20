@@ -620,7 +620,7 @@
     goto :goto_0
 
     :cond_1
-    const p2, 0x7f12205a
+    sget p2, Lcom/resouce/module/ResSTRING;->public_error:I
 
     .line 15
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V

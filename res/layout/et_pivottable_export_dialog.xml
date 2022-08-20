@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/et_pivot_table_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <cn.wps.moffice.spreadsheet.control.insert.pivottable.PivotTableView android:id="@id/et_pivottable_preview" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-</LinearLayout>

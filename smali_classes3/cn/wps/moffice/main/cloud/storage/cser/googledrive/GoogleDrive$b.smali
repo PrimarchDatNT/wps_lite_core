@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122239
+    sget v1, Lcom/resouce/module/ResSTRING;->public_google_account_link_not_support:I
 
     const/4 v2, 0x1
 

@@ -20,12 +20,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f13012e
+    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f130125
+    sget v0, Lcom/resouce/module/ResSTYLE;->Custom_Dialog:I
 
     :goto_0
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V
@@ -84,7 +84,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0707bc
+    sget v4, Lcom/resouce/module/ResDIMEN;->phone_public_dialog_width:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -174,7 +174,7 @@
 
     move/from16 v3, p5
 
-    const v4, 0x7f0b067c
+    sget v4, Lcom/resouce/module/ResID;->dialogTitle:I
 
     .line 1
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -183,7 +183,7 @@
 
     check-cast v4, Landroid/widget/TextView;
 
-    const v5, 0x7f0b1856
+    sget v5, Lcom/resouce/module/ResID;->membershipTitle:I
 
     .line 2
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -192,7 +192,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b24c1
+    sget v6, Lcom/resouce/module/ResID;->premiumTitle:I
 
     .line 3
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -201,7 +201,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b0385
+    sget v7, Lcom/resouce/module/ResID;->changeAdTitle:I
 
     .line 4
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -210,7 +210,7 @@
 
     check-cast v7, Landroid/widget/TextView;
 
-    const v8, 0x7f0b1a2f
+    sget v8, Lcom/resouce/module/ResID;->noInterestTitle:I
 
     .line 5
     invoke-virtual {v1, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -219,7 +219,7 @@
 
     check-cast v8, Landroid/widget/TextView;
 
-    const v9, 0x7f0b24bf
+    sget v9, Lcom/resouce/module/ResID;->premiumContent:I
 
     .line 6
     invoke-virtual {v1, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -228,7 +228,7 @@
 
     check-cast v9, Landroid/widget/LinearLayout;
 
-    const v10, 0x7f0b0384
+    sget v10, Lcom/resouce/module/ResID;->changeAdContent:I
 
     .line 7
     invoke-virtual {v1, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -247,7 +247,7 @@
 
     move-result v11
 
-    const v12, 0x7f0b04df
+    sget v12, Lcom/resouce/module/ResID;->complaintContent:I
 
     const/16 v13, 0x8
 
@@ -255,7 +255,7 @@
 
     if-eqz v11, :cond_2
 
-    const v11, 0x7f0b1a2e
+    sget v11, Lcom/resouce/module/ResID;->noInterestContent:I
 
     .line 10
     invoke-virtual {v1, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -291,7 +291,7 @@
     :goto_1
     invoke-virtual {v11, v15}, Landroid/view/View;->setVisibility(I)V
 
-    const v11, 0x7f0b04e0
+    sget v11, Lcom/resouce/module/ResID;->complaintTitle:I
 
     .line 12
     invoke-virtual {v1, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -583,7 +583,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0b08
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_adinfo_panel_layout:I
 
     const/4 v2, 0x0
 

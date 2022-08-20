@@ -47,7 +47,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120434
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_identity_card:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -60,7 +60,7 @@
 
     const/4 v1, 0x1
 
-    const v3, 0x7f080529
+    sget v3, Lcom/resouce/module/ResDRAWABLE;->doc_scan_identity_logo:I
 
     const/4 v4, 0x1
 
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12049a
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_residence_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -96,7 +96,7 @@
 
     const/4 v8, 0x2
 
-    const v10, 0x7f080542
+    sget v10, Lcom/resouce/module/ResDRAWABLE;->doc_scan_residence_logo:I
 
     const/4 v11, 0x1
 
@@ -119,7 +119,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12045c
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_passport_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -127,7 +127,7 @@
 
     const/4 v3, 0x3
 
-    const v5, 0x7f080539
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->doc_scan_passport_logo:I
 
     const/4 v6, 0x0
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f120459
+    sget v2, Lcom/resouce/module/ResSTRING;->doc_scan_other_card:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -160,7 +160,7 @@
 
     const/4 v3, 0x4
 
-    const v5, 0x7f080536
+    sget v5, Lcom/resouce/module/ResDRAWABLE;->doc_scan_other_logo:I
 
     move-object v2, v0
 
@@ -237,7 +237,7 @@
     .line 1
     iget-object p2, p0, Lyva;->S:Landroid/view/LayoutInflater;
 
-    const p3, 0x7f0e011a
+    sget p3, Lcom/resouce/module/ResLAYOUT;->doc_scan_item_card_type:I
 
     const/4 v0, 0x0
 
@@ -250,7 +250,7 @@
 
     invoke-direct {p3, v0}, Lxva$c;-><init>(Lxva$a;)V
 
-    const v0, 0x7f0b31c3
+    sget v0, Lcom/resouce/module/ResID;->tv_item_name:I
 
     .line 3
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -261,7 +261,7 @@
 
     iput-object v0, p3, Lxva$c;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b31c2
+    sget v0, Lcom/resouce/module/ResID;->tv_item_icon:I
 
     .line 4
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -272,7 +272,7 @@
 
     iput-object v0, p3, Lxva$c;->a:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b14e0
+    sget v0, Lcom/resouce/module/ResID;->iv_vip_logo:I
 
     .line 5
     invoke-virtual {p2, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -332,7 +332,7 @@
     .line 12
     iget-object p1, p3, Lxva$c;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f080518
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->doc_scan_free_for_card:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -352,7 +352,7 @@
     .line 15
     iget-object p1, p3, Lxva$c;->b:Landroid/widget/ImageView;
 
-    const v0, 0x7f0817cc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 

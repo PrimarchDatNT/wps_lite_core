@@ -486,7 +486,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0486
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -552,7 +552,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b048a
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_mgr_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -605,7 +605,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20cb
+    sget v1, Lcom/resouce/module/ResID;->phone_public_cloudstorage_foot:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -648,7 +648,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0487
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_logout_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -780,7 +780,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0709
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_mgr_popup:I
 
     const/4 v2, 0x0
 
@@ -1048,7 +1048,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b048b
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_sort_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1091,7 +1091,7 @@
     .line 4
     iget-object v0, p0, Lwc8;->l0:Lhd3;
 
-    const v1, 0x7f1206a6
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_sort_type:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -1107,7 +1107,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e075d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_sort_layout:I
 
     const/4 v3, 0x0
 
@@ -1117,7 +1117,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b2c73
+    sget v2, Lcom/resouce/module/ResID;->sortby_name_radio:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1126,7 +1126,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b2c77
+    sget v3, Lcom/resouce/module/ResID;->sortby_time_radio:I
 
     .line 8
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1135,7 +1135,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b2c75
+    sget v4, Lcom/resouce/module/ResID;->sortby_size_radio:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1144,7 +1144,7 @@
 
     invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b2c72
+    sget v5, Lcom/resouce/module/ResID;->sortby_name_layout:I
 
     .line 10
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1153,7 +1153,7 @@
 
     invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b2c76
+    sget v5, Lcom/resouce/module/ResID;->sortby_time_layout:I
 
     .line 11
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1162,7 +1162,7 @@
 
     invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v5, 0x7f0b2c74
+    sget v5, Lcom/resouce/module/ResID;->sortby_size_layout:I
 
     .line 12
     invoke-virtual {v1, v5}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -1268,7 +1268,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b048c
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_switch_evernote_server:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1336,7 +1336,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b3311
+    sget v1, Lcom/resouce/module/ResID;->upload:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1388,7 +1388,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b0be5
+    sget v2, Lcom/resouce/module/ResID;->event_icon:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1405,7 +1405,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0606e2
+    sget v3, Lcom/resouce/module/ResCOLOR;->whiteMainTextColor:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1438,7 +1438,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b286a
+    sget v2, Lcom/resouce/module/ResID;->red_point:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1455,7 +1455,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0600bb
+    sget v3, Lcom/resouce/module/ResCOLOR;->color_yellow:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1485,7 +1485,7 @@
     .line 2
     iget-object v0, p0, Lwc8;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b1d03
+    sget v1, Lcom/resouce/module/ResID;->path_refresh_img:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1498,7 +1498,7 @@
     .line 3
     iget-object v0, p0, Lwc8;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b336d
+    sget v1, Lcom/resouce/module/ResID;->vertical_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1509,7 +1509,7 @@
     .line 4
     iget-object v0, p0, Lwc8;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b348b
+    sget v1, Lcom/resouce/module/ResID;->wps_drive_path_gallary_div_line:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1765,7 +1765,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1cfc
+    sget v1, Lcom/resouce/module/ResID;->path_gallery:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1835,7 +1835,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0706
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_mgr:I
 
     const/4 v2, 0x0
 
@@ -1859,7 +1859,7 @@
     .line 4
     iget-object v0, p0, Lwc8;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b20cc
+    sget v1, Lcom/resouce/module/ResID;->phone_public_cloudstorage_head:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1896,7 +1896,7 @@
     :cond_0
     iget-object v0, p0, Lwc8;->X:Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;
 
-    const v1, 0x7f0816fc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_nav_back:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/main/common/viewcontrols/ViewTitleBar;->setBackBg(I)V
 
@@ -2212,7 +2212,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0485
+    sget v1, Lcom/resouce/module/ResID;->cloudstorage_arrange:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2255,7 +2255,7 @@
     .line 4
     iget-object v0, p0, Lwc8;->m0:Lhd3;
 
-    const v1, 0x7f120ebb
+    sget v1, Lcom/resouce/module/ResSTRING;->home_cloudstorage_arrange:I
 
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
 
@@ -2271,7 +2271,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0702
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_home_cloudstorage_arrange_layout:I
 
     const/4 v3, 0x0
 
@@ -2281,7 +2281,7 @@
 
     check-cast v1, Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0157
+    sget v2, Lcom/resouce/module/ResID;->arrangeby_notebooks_radio:I
 
     .line 7
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2290,7 +2290,7 @@
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v3, 0x7f0b29d2
+    sget v3, Lcom/resouce/module/ResID;->sarrangeby_allattachments_radio:I
 
     .line 8
     invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2299,7 +2299,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b0156
+    sget v4, Lcom/resouce/module/ResID;->arrangeby_notebooks_layout:I
 
     .line 9
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2308,7 +2308,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v4, 0x7f0b0155
+    sget v4, Lcom/resouce/module/ResID;->arrangeby_allattachments_layout:I
 
     .line 10
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -2426,7 +2426,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b20ca
+    sget v1, Lcom/resouce/module/ResID;->phone_public_cloudstorage_body:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

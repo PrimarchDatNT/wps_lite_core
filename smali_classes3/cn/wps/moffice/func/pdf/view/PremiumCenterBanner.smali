@@ -176,7 +176,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0195
+    sget v2, Lcom/resouce/module/ResLAYOUT;->en_premium_center_banner_layout:I
 
     const/4 v3, 0x0
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b086e
+    sget v2, Lcom/resouce/module/ResID;->en_premium_banner_root:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -195,7 +195,7 @@
 
     check-cast v2, Landroid/widget/LinearLayout;
 
-    const v3, 0x7f0b086c
+    sget v3, Lcom/resouce/module/ResID;->en_premium_banner_icon:I
 
     .line 5
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -204,7 +204,7 @@
 
     check-cast v3, Landroid/widget/ImageView;
 
-    const v5, 0x7f0b086f
+    sget v5, Lcom/resouce/module/ResID;->en_premium_banner_title:I
 
     .line 6
     invoke-virtual {v1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -213,7 +213,7 @@
 
     check-cast v5, Landroid/widget/TextView;
 
-    const v6, 0x7f0b086b
+    sget v6, Lcom/resouce/module/ResID;->en_premium_banner_description:I
 
     .line 7
     invoke-virtual {v1, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -222,7 +222,7 @@
 
     check-cast v6, Landroid/widget/TextView;
 
-    const v7, 0x7f0b086d
+    sget v7, Lcom/resouce/module/ResID;->en_premium_banner_multi_icon:I
 
     .line 8
     invoke-virtual {v1, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -401,7 +401,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0602db
+    sget v2, Lcom/resouce/module/ResCOLOR;->normalIconColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -416,7 +416,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060624
+    sget v2, Lcom/resouce/module/ResCOLOR;->subLineColor:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

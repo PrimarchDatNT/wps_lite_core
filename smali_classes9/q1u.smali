@@ -97,7 +97,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0700c7
+    sget v0, Lcom/resouce/module/ResDIMEN;->design_textinput_caption_translate_y:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -246,7 +246,7 @@
 
     iput-object v1, p0, Lq1u;->l:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2f55
+    sget v2, Lcom/resouce/module/ResID;->textinput_error:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setId(I)V
@@ -441,7 +441,7 @@
 
     iput-object v1, p0, Lq1u;->r:Landroid/widget/TextView;
 
-    const v2, 0x7f0b2f56
+    sget v2, Lcom/resouce/module/ResID;->textinput_helper_text:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setId(I)V
@@ -1021,14 +1021,14 @@
 
     move-result v3
 
-    const v4, 0x7f0703f6
+    sget v4, Lcom/resouce/module/ResDIMEN;->material_helper_text_font_1_3_padding_horizontal:I
 
     .line 6
     invoke-virtual {p0, v1, v4, v3}, Lq1u;->s(ZII)I
 
     move-result v3
 
-    const v5, 0x7f0703f7
+    sget v5, Lcom/resouce/module/ResDIMEN;->material_helper_text_font_1_3_padding_top:I
 
     iget-object v6, p0, Lq1u;->a:Landroid/content/Context;
 
@@ -1037,7 +1037,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0703f5
+    sget v7, Lcom/resouce/module/ResDIMEN;->material_helper_text_default_padding_top:I
 
     .line 8
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

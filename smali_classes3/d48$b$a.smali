@@ -68,7 +68,7 @@
 
     iget-object v0, v0, Ld48$b;->S:Landroid/content/Context;
 
-    const v1, 0x7f120623
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_documentroam_filelist_records_fetch_fail:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -111,7 +111,7 @@
 
     iget-object v0, v0, Ld48$b;->S:Landroid/content/Context;
 
-    const v1, 0x7f122546
+    sget v1, Lcom/resouce/module/ResSTRING;->public_noserver:I
 
     invoke-static {v0, v1, v2}, Lbih;->n(Landroid/content/Context;II)V
 

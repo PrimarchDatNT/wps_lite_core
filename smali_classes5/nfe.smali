@@ -207,7 +207,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e0fb0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->template_beauty_section_item:I
 
     const/4 v1, 0x0
 
@@ -259,7 +259,7 @@
 
     if-nez v1, :cond_0
 
-    const p1, 0x7f121c52
+    sget p1, Lcom/resouce/module/ResSTRING;->ppt_template_free:I
 
     .line 3
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(I)V

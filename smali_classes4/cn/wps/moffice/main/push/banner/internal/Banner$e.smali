@@ -268,7 +268,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b265f
+    sget v1, Lcom/resouce/module/ResID;->public_insertshapes_viewpager_broder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -336,7 +336,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b2271
+    sget p2, Lcom/resouce/module/ResID;->popularize_spread_text:I
 
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -378,7 +378,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b265f
+    sget v1, Lcom/resouce/module/ResID;->public_insertshapes_viewpager_broder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -155,7 +155,7 @@
 
     iget-object p1, p1, Lrs7;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121da7
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_success:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -208,7 +208,7 @@
 
     iget-object p1, p1, Lrs7;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121da4
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_has_binded:I
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -264,7 +264,7 @@
 
     iget-object p1, p1, Lrs7;->a:Landroid/app/Activity;
 
-    const v0, 0x7f121da3
+    sget v0, Lcom/resouce/module/ResSTRING;->public_bind_failed:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 

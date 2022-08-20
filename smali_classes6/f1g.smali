@@ -32,7 +32,7 @@
 
     if-eqz p1, :cond_0
 
-    const p2, 0x7f0b0f44
+    sget p2, Lcom/resouce/module/ResID;->grid_surface_view_mask:I
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -127,7 +127,7 @@
     .line 14
     iget-object p2, p0, Ljd3;->S:Landroid/widget/PopupWindow;
 
-    const p3, 0x7f13069e
+    sget p3, Lcom/resouce/module/ResSTYLE;->phone_ss_filter_popupwindow_anmation:I
 
     invoke-virtual {p2, p3}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V
 

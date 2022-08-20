@@ -338,12 +338,12 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p0, 0x7f12259d
+    sget p0, Lcom/resouce/module/ResSTRING;->public_open_file_failed:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -372,17 +372,17 @@
     .line 3
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const p0, 0x7f122728
+    sget p0, Lcom/resouce/module/ResSTRING;->public_processing_doc:I
 
     .line 4
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
 
-    const p0, 0x7f0e0ba4
+    sget p0, Lcom/resouce/module/ResLAYOUT;->public_dialog_horizontal_progress_layout:I
 
     .line 5
     invoke-virtual {v0, p0}, Lhd3;->setView(I)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 6
     invoke-virtual {v0, p0, p1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -404,19 +404,19 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f1225a0
+    sget p0, Lcom/resouce/module/ResSTRING;->public_open_file_network_warning:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
     .line 3
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f121f5e
+    sget p0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 4
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -438,7 +438,7 @@
     .line 2
     invoke-virtual {v0}, Lhd3;->disableCollectDilaogForPadPhone()V
 
-    const p0, 0x7f122599
+    sget p0, Lcom/resouce/module/ResSTRING;->public_open_document:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -450,25 +450,25 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f1214c5
+    sget p0, Lcom/resouce/module/ResSTRING;->odf_open_upload_hint:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f121f64
+    sget p0, Lcom/resouce/module/ResSTRING;->public_convert_doc_format_tips:I
 
     .line 5
     :goto_0
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f121dbf
+    sget p0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 
     .line 6
     invoke-virtual {v0, p0, v1}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 7
     invoke-virtual {v0, p0, p1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -490,12 +490,12 @@
 
     invoke-direct {v0, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f12259c
+    sget p0, Lcom/resouce/module/ResSTRING;->public_open_file_fail_for_bad_network:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 
@@ -521,12 +521,12 @@
     .line 2
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const p0, 0x7f121745
+    sget p0, Lcom/resouce/module/ResSTRING;->pdf_convert_less_available_space:I
 
     .line 3
     invoke-virtual {v0, p0}, Lhd3;->setMessage(I)Lhd3;
 
-    const p0, 0x7f122567
+    sget p0, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     const/4 v1, 0x0
 

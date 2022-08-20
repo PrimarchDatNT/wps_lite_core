@@ -32,7 +32,7 @@
     .line 1
     iget-object p1, p0, Lax4$f;->j0:Landroid/widget/TextView;
 
-    const p2, 0x7f121f6f    # 1.942305E38f
+    sget p2, Lcom/resouce/module/ResSTRING;->public_cooperate_member_section:I    # 1.942305E38f
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(I)V
 

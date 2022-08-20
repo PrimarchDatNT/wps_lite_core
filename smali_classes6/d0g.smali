@@ -198,7 +198,7 @@
     .line 21
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->O0:Landroid/view/ViewStub;
 
-    const p2, 0x7f0e098f
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_quote_keyboard:I
 
     invoke-virtual {p1, p2}, Landroid/view/ViewStub;->setLayoutResource(I)V
 
@@ -1245,7 +1245,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->P1:Landroid/content/Context;
 
-    const v0, 0x7f120ba2
+    sget v0, Lcom/resouce/module/ResSTRING;->et_not_show_digit_keyboard:I
 
     const/4 v1, 0x0
 
@@ -2578,7 +2578,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a14
+    sget v1, Lcom/resouce/module/ResID;->et_edit_edittext:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2995,7 +2995,7 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b214d
+    sget v1, Lcom/resouce/module/ResID;->phone_ss_func_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3017,7 +3017,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0606b5
+    sget v2, Lcom/resouce/module/ResCOLOR;->v10_phone_ss_fun_list_text_color:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -4109,7 +4109,7 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a08
+    sget v1, Lcom/resouce/module/ResID;->et_edit_btn_clean:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4130,7 +4130,7 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v2, 0x7f0b0a0e
+    sget v2, Lcom/resouce/module/ResID;->et_edit_btn_tab:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4163,7 +4163,7 @@
     :cond_1
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v2, 0x7f0b0a0d
+    sget v2, Lcom/resouce/module/ResID;->et_edit_btn_switch_toolpanel:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4182,7 +4182,7 @@
     :cond_2
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v2, 0x7f0b0a0a
+    sget v2, Lcom/resouce/module/ResID;->et_edit_btn_newline:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4201,7 +4201,7 @@
     :cond_3
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v2, 0x7f0b0a2c
+    sget v2, Lcom/resouce/module/ResID;->et_edit_scan_result:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4268,7 +4268,7 @@
     :goto_0
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a6d
+    sget v1, Lcom/resouce/module/ResID;->et_fun_assist_tool:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4284,7 +4284,7 @@
     .line 25
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a6e
+    sget v1, Lcom/resouce/module/ResID;->et_fun_assist_tool_label:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4303,7 +4303,7 @@
     :cond_9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a1a
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_func:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4326,7 +4326,7 @@
     :cond_a
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a1b
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_func_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4337,7 +4337,7 @@
     .line 30
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a18
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_digit:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4358,7 +4358,7 @@
     :cond_b
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a19
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_digit_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4369,7 +4369,7 @@
     .line 33
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a1c
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4390,7 +4390,7 @@
     :cond_c
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a1d
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_text_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4401,7 +4401,7 @@
     .line 36
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a16
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_date:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4422,7 +4422,7 @@
     :cond_d
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/editor/InputView;->Q0:Landroid/view/View;
 
-    const v1, 0x7f0b0a17
+    sget v1, Lcom/resouce/module/ResID;->et_edit_input_type_date_bg:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -4502,7 +4502,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2d04
+    sget v1, Lcom/resouce/module/ResID;->ss_grid_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

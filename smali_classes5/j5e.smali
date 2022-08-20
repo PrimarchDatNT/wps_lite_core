@@ -51,7 +51,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0709bb
+    sget v0, Lcom/resouce/module/ResDIMEN;->ppt_play_slide_list_height_v:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimension(I)F
 

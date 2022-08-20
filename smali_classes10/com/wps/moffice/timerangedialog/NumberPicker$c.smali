@@ -52,7 +52,7 @@
 
     const/4 v0, 0x1
 
-    const v1, 0x7f0b10d8
+    sget v1, Lcom/resouce/module/ResID;->home_numberpicker_increment:I
 
     if-ne p1, v1, :cond_0
 

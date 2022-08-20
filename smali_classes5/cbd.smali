@@ -84,7 +84,7 @@
 .method public c(Landroid/view/ViewGroup;)V
     .locals 1
 
-    const v0, 0x7f0b1157
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_setting_vip_text_view:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -95,7 +95,7 @@
 
     iput-object v0, p0, Lcbd;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1154
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_setting_vip_desc_text_view:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -106,7 +106,7 @@
 
     iput-object v0, p0, Lcbd;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1153
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_setting_vip_banner_btn:I
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -117,7 +117,7 @@
 
     iput-object v0, p0, Lcbd;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b1155
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_setting_vip_gift:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -126,7 +126,7 @@
 
     iput-object v0, p0, Lcbd;->e:Landroid/view/View;
 
-    const v0, 0x7f0b1156
+    sget v0, Lcom/resouce/module/ResID;->home_roaming_setting_vip_image_view:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

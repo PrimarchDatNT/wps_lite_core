@@ -72,7 +72,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b10e0
+    sget v0, Lcom/resouce/module/ResID;->home_open_doc:I
 
     if-ne p1, v0, :cond_1
 
@@ -83,7 +83,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b10f4
+    sget v0, Lcom/resouce/module/ResID;->home_open_ppt:I
 
     if-ne p1, v0, :cond_2
 
@@ -94,7 +94,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b1103
+    sget v0, Lcom/resouce/module/ResID;->home_open_xls:I
 
     if-ne p1, v0, :cond_3
 
@@ -105,7 +105,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b10ee
+    sget v0, Lcom/resouce/module/ResID;->home_open_pdf:I
 
     if-ne p1, v0, :cond_4
 
@@ -116,7 +116,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b1101
+    sget v0, Lcom/resouce/module/ResID;->home_open_txt:I
 
     if-ne p1, v0, :cond_5
 
@@ -127,7 +127,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b10ed
+    sget v0, Lcom/resouce/module/ResID;->home_open_other:I
 
     if-ne p1, v0, :cond_7
 

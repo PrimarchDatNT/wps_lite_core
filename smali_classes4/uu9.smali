@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e02e0
+    sget v1, Lcom/resouce/module/ResLAYOUT;->home_app_setting_layout:I
 
     const/4 v2, 0x0
 
@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b282b
+    sget v1, Lcom/resouce/module/ResID;->recent_switcher:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -71,7 +71,7 @@
 .method public getViewTitleResId()I
     .locals 1
 
-    const v0, 0x7f12060b
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_phone_setting:I
 
     return v0
 .end method

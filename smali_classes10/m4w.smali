@@ -122,7 +122,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f07034e
+    sget v4, Lcom/resouce/module/ResDIMEN;->home_open_path_gallery_height:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -131,9 +131,9 @@
     .line 6
     invoke-virtual {v2, v3}, Lcom/wps/moffice/view/KScrollBar;->setHeight(I)V
 
-    const v3, 0x7f0600ea
+    sget v3, Lcom/resouce/module/ResCOLOR;->descriptionColor:I
 
-    const v4, 0x7f06025f
+    sget v4, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     .line 7
     invoke-virtual {v2, v4}, Lcom/wps/moffice/view/KScrollBar;->setSelectViewIcoColor(I)V
@@ -149,7 +149,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0703d6
+    sget v6, Lcom/resouce/module/ResDIMEN;->ks_scroll_bar_indicator_width:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -335,7 +335,7 @@
 
     if-ne p1, v1, :cond_0
 
-    const p1, 0x7f070500
+    sget p1, Lcom/resouce/module/ResDIMEN;->pad_documents_file_selector_lan_width:I
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -345,7 +345,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f070502
+    sget p1, Lcom/resouce/module/ResDIMEN;->pad_documents_file_selector_ver_width:I
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -390,7 +390,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0d0d
+    sget v1, Lcom/resouce/module/ResID;->file_search_content_list_parent:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -733,7 +733,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0605ee
+    sget v0, Lcom/resouce/module/ResCOLOR;->secondBackgroundColor:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 

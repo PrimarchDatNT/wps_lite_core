@@ -188,7 +188,7 @@
 
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f121946
+    sget v4, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_tab_setting:I
 
     invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -216,7 +216,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f12116c
+    sget v6, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -234,7 +234,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120610
+    sget v6, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -258,7 +258,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f12227b
+    sget v7, Lcom/resouce/module/ResSTRING;->public_home_cloud_doc_of_group:I
 
     invoke-virtual {v5, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -281,7 +281,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f120eab
+    sget v7, Lcom/resouce/module/ResSTRING;->home_clouddocs_folder_auto_uploaded:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -323,7 +323,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f12194a
+    sget v7, Lcom/resouce/module/ResSTRING;->phone_home_clouddocs_team_setting_create_group:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -356,7 +356,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f122061
+    sget v7, Lcom/resouce/module/ResSTRING;->public_event:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -389,7 +389,7 @@
 
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f121eef
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_upgrade_space_item:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -439,7 +439,7 @@
 
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f1206a7
+    sget v5, Lcom/resouce/module/ResSTRING;->documentmanager_star:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -472,7 +472,7 @@
 
     invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v5, 0x7f121e80
+    sget v5, Lcom/resouce/module/ResSTRING;->public_cloud_my_cloud_service_item:I
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -519,7 +519,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f122c6b
+    sget v7, Lcom/resouce/module/ResSTRING;->public_wpsdrive_my_device:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -554,7 +554,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f121128
+    sget v7, Lcom/resouce/module/ResSTRING;->home_roaming_source_share:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -603,7 +603,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f121153
+    sget v7, Lcom/resouce/module/ResSTRING;->home_share_folder:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -639,7 +639,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f1224f9
+    sget v7, Lcom/resouce/module/ResSTRING;->public_my_share_files:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -675,7 +675,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f1224f8
+    sget v7, Lcom/resouce/module/ResSTRING;->public_my_receive_files:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -711,7 +711,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v7, 0x7f122745
+    sget v7, Lcom/resouce/module/ResSTRING;->public_published_files:I
 
     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -747,7 +747,7 @@
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v3, 0x7f122c6f    # 1.94298E38f
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wpsdrive_newsharefolder_title:I    # 1.94298E38f
 
     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -785,7 +785,7 @@
 
     move-result-object v3
 
-    const v5, 0x7f121f29
+    sget v5, Lcom/resouce/module/ResSTRING;->public_company_documents:I
 
     invoke-virtual {v3, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1576,7 +1576,7 @@
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v4, 0x7f1228bd
+    sget v4, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1889,7 +1889,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122c7c
+    sget p3, Lcom/resouce/module/ResSTRING;->public_wpsdrive_unsupport_new_sharefolder:I
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3266,7 +3266,7 @@
     .line 2
     sget-object p1, Lwy6;->B:Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;
 
-    const v1, 0x7f121d24
+    sget v1, Lcom/resouce/module/ResSTRING;->public_amazon_doc_library:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3280,7 +3280,7 @@
     :cond_0
     sget-object p1, Lwy6;->B:Lcn/wps/moffice/main/cloud/drive/bean/AbsDriveData;
 
-    const v1, 0x7f12116c
+    sget v1, Lcom/resouce/module/ResSTRING;->home_tab_wpscloud:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -5091,7 +5091,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f1228bd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204d9
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_cloud_total_url:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204dc
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_cloud_user_url_switch:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204da
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_cloud_user_url_close:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1204db
+    sget v1, Lcom/resouce/module/ResSTRING;->docer_cloud_user_url_query:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

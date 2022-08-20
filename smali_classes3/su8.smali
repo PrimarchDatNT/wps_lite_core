@@ -690,7 +690,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1225c5
+    sget v1, Lcom/resouce/module/ResSTRING;->public_other:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1053,12 +1053,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f081fcc
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f08122b
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     .line 4
     :goto_0
@@ -1135,7 +1135,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f120ffd
+    sget v6, Lcom/resouce/module/ResSTRING;->home_open_radar_from:I
 
     new-array v7, v1, [Ljava/lang/Object;
 
@@ -1247,7 +1247,7 @@
     .line 21
     iget-object p2, p1, Lsu8$a;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0816c2
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_retract:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1257,7 +1257,7 @@
     :cond_4
     iget-object p2, p1, Lsu8$a;->m0:Landroid/widget/ImageView;
 
-    const v0, 0x7f0816c6
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pub_list_screening_select:I
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -1344,7 +1344,7 @@
 
     move-result p2
 
-    const v0, 0x7f0b0f3c
+    sget v0, Lcom/resouce/module/ResID;->gray_divide_top_line:I
 
     if-nez p2, :cond_8
 
@@ -1412,12 +1412,12 @@
 
     if-eqz p2, :cond_1
 
-    const p3, 0x7f081fcc
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->word_thumb_checked:I
 
     goto :goto_0
 
     :cond_1
-    const p3, 0x7f08122b
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->phone_public_fileselector_checkbox_off:I
 
     .line 4
     :goto_0
@@ -1493,7 +1493,7 @@
 
     if-ne p2, v2, :cond_0
 
-    const p2, 0x7f0e0b45
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_clear_local_file_list_child_item:I
 
     .line 2
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
@@ -1508,7 +1508,7 @@
     goto :goto_0
 
     :cond_0
-    const p2, 0x7f0e0b46
+    sget p2, Lcom/resouce/module/ResLAYOUT;->public_clear_local_file_list_parent_item:I
 
     .line 4
     invoke-virtual {v0, p2, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;

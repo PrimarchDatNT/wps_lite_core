@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0, p2}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>(Landroid/view/View;)V
 
-    const p1, 0x7f0b18ab
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_preview_img:I
 
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailMoreView$b$b;->j0:Landroid/widget/ImageView;
 
-    const p1, 0x7f0b18ae
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_radio:I
 
     .line 3
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailMoreView$b$b;->k0:Landroid/widget/RadioButton;
 
-    const p1, 0x7f0b18a6
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_item_name:I
 
     .line 4
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailMoreView$b$b;->m0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b18a7
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_item_size:I
 
     .line 5
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -77,7 +77,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/common/oldfont/guide/detail/FontDetailMoreView$b$b;->n0:Landroid/widget/TextView;
 
-    const p1, 0x7f0b18b0
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_vip_icon:I
 
     .line 6
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -93,7 +93,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/RadioButton;->setVisibility(I)V
 
-    const p1, 0x7f0b18a2
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_download_img:I
 
     .line 8
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -104,7 +104,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    const p1, 0x7f0b18a5
+    sget p1, Lcom/resouce/module/ResID;->missing_font_detail_item_more:I
 
     .line 9
     invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

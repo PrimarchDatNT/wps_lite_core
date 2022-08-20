@@ -85,12 +85,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1224e6
+    sget v0, Lcom/resouce/module/ResSTRING;->public_multi_upload_wps_drive_file_size_limit_cant_upgrade:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122317
+    sget v0, Lcom/resouce/module/ResSTRING;->public_home_upload_limit_all_over_max_tips:I
 
     :goto_0
     const/4 v1, 0x1
@@ -123,7 +123,7 @@
 
     if-eqz p3, :cond_2
 
-    const p3, 0x7f121ed5
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cloud_space_size_no_enough:I
 
     new-array p1, p1, [Ljava/lang/Object;
 
@@ -135,7 +135,7 @@
     goto :goto_1
 
     :cond_2
-    const p3, 0x7f121e4a
+    sget p3, Lcom/resouce/module/ResSTRING;->public_cloud_file_size_out_of_limit:I
 
     new-array p1, p1, [Ljava/lang/Object;
 

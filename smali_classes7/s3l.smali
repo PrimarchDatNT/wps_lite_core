@@ -54,7 +54,7 @@
 
     invoke-direct {v0, p0}, Ls3l$a;-><init>(Ls3l;)V
 
-    const v1, 0x7f0b314e
+    sget v1, Lcom/resouce/module/ResID;->tv_done:I
 
     const-string v2, "format_brush_finish"
 
@@ -69,7 +69,7 @@
     .line 1
     invoke-super {p0}, Lvzl;->E1()V
 
-    const v0, 0x7f0b3516
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar_format_brush:I
 
     .line 2
     invoke-static {v0}, Ldzl;->m(I)Lezl;
@@ -118,13 +118,13 @@
     .line 3
     iget-object v0, p0, Ls3l;->d0:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0e10a4
+    sget v2, Lcom/resouce/module/ResLAYOUT;->writer_format_brush_bar:I
 
     const/4 v3, 0x1
 
     invoke-static {v2, v0, v3}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b35a0
+    sget v0, Lcom/resouce/module/ResID;->writer_format_brush_layout:I
 
     .line 4
     invoke-virtual {p0, v0}, Luzl;->Z0(I)Landroid/view/View;
@@ -140,7 +140,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f0b35f2
+    sget v4, Lcom/resouce/module/ResID;->writer_maintoolbar_top_layout:I
 
     .line 6
     invoke-virtual {v2, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

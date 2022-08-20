@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0701d7
+    sget v0, Lcom/resouce/module/ResDIMEN;->et_font_color_item_layout_width:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -66,7 +66,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0701d6
+    sget p2, Lcom/resouce/module/ResDIMEN;->et_font_color_item_color_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -85,7 +85,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V

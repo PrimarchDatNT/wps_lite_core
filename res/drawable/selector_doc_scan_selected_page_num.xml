@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="false" android:drawable="@drawable/shape_doc_scan_page_num_normal" />
-    <item android:state_selected="true" android:drawable="@drawable/shape_doc_scan_page_num_selected" />
-</selector>

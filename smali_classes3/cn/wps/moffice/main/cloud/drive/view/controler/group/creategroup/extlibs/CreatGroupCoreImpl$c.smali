@@ -68,7 +68,7 @@
     .line 1
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/group/creategroup/extlibs/CreatGroupCoreImpl$c;->B:Landroid/content/Context;
 
-    const v0, 0x7f122391
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     const/4 v1, 0x1
 
@@ -124,7 +124,7 @@
     .line 2
     iget-object p1, p0, Lcn/wps/moffice/main/cloud/drive/view/controler/group/creategroup/extlibs/CreatGroupCoreImpl$c;->B:Landroid/content/Context;
 
-    const v0, 0x7f122391
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileNameTips:I
 
     invoke-static {p1, v0, v1}, Le88;->a(Landroid/content/Context;II)V
 

@@ -188,7 +188,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fb9    # 1.94232E38f
+    sget v0, Lcom/resouce/module/ResSTRING;->public_delPasswdSucc:I    # 1.94232E38f
 
     const/4 v1, 0x0
 
@@ -284,7 +284,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b1b18
+    sget v1, Lcom/resouce/module/ResID;->online_security_encrypttxt:I
 
     if-eqz v0, :cond_1
 
@@ -297,7 +297,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122572
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_enable:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -313,7 +313,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f122574
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_account_set:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -466,7 +466,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122050
+    sget v1, Lcom/resouce/module/ResSTRING;->public_encrypt_file:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e07f7
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_ppt_encrypt_security_layout:I
 
     const/4 v2, 0x0
 
@@ -513,7 +513,7 @@
 
     iput-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b1b15
+    sget v1, Lcom/resouce/module/ResID;->online_security_divideline:I
 
     .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -525,7 +525,7 @@
     .line 6
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b1b14
+    sget v1, Lcom/resouce/module/ResID;->online_security:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -543,7 +543,7 @@
     .line 8
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b0cef
+    sget v1, Lcom/resouce/module/ResID;->file_permission:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -561,7 +561,7 @@
     .line 10
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b3345
+    sget v1, Lcom/resouce/module/ResID;->v10_phone_ppt_encrypt_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -571,7 +571,7 @@
 
     iput-object v0, p0, Lvtd;->c0:Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;
 
-    const v1, 0x7f0803a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_safty_password_encryption:I
 
     .line 11
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->setImage(I)V
@@ -579,7 +579,7 @@
     .line 12
     iget-object v0, p0, Lvtd;->c0:Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;
 
-    const v1, 0x7f122575
+    sget v1, Lcom/resouce/module/ResSTRING;->public_online_security_encrypt_password:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/ToggleToolbarItemView;->setText(I)V
 
@@ -593,7 +593,7 @@
     .line 14
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b3344
+    sget v1, Lcom/resouce/module/ResID;->v10_phone_ppt_encrypt_divider:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -604,7 +604,7 @@
     .line 15
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b3346
+    sget v1, Lcom/resouce/module/ResID;->v10_phone_ppt_modify_pw_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -614,7 +614,7 @@
 
     iput-object v0, p0, Lvtd;->d0:Lcn/wps/moffice/presentation/control/common/ToolbarItemView;
 
-    const v1, 0x7f08039e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_safty_change_password:I
 
     .line 16
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->setImage(I)V
@@ -622,7 +622,7 @@
     .line 17
     iget-object v0, p0, Lvtd;->d0:Lcn/wps/moffice/presentation/control/common/ToolbarItemView;
 
-    const v1, 0x7f1224d2
+    sget v1, Lcom/resouce/module/ResSTRING;->public_modifyPasswd:I
 
     invoke-virtual {v0, v1}, Lcn/wps/moffice/presentation/control/common/ToolbarItemView;->setText(I)V
 
@@ -638,7 +638,7 @@
     .line 19
     iget-object v0, p0, Lvtd;->V:Landroid/view/View;
 
-    const v1, 0x7f0b18fc
+    sget v1, Lcom/resouce/module/ResID;->move_to_secret_folder:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

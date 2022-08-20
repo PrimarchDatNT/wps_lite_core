@@ -178,7 +178,7 @@
     .line 7
     iget-object p1, p1, Lcn/wps/moffice/tailmember/TailGrantMemberPanel$b;->k0:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const p2, 0x7f081e7d
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->tail_member_mail:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -197,7 +197,7 @@
     .line 9
     iget-object p1, p1, Lcn/wps/moffice/tailmember/TailGrantMemberPanel$b;->k0:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const p2, 0x7f081e7c
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->tail_member_line:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -216,7 +216,7 @@
     .line 11
     iget-object p1, p1, Lcn/wps/moffice/tailmember/TailGrantMemberPanel$b;->k0:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const p2, 0x7f081e7e
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->tail_member_messenger:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -235,7 +235,7 @@
     .line 13
     iget-object p1, p1, Lcn/wps/moffice/tailmember/TailGrantMemberPanel$b;->k0:Lcn/wps/moffice/common/beans/CircleImageView;
 
-    const p2, 0x7f081e80
+    sget p2, Lcom/resouce/module/ResDRAWABLE;->tail_member_whatsapp:I
 
     invoke-virtual {p1, p2}, Lcn/wps/moffice/common/beans/CircleImageView;->setImageResource(I)V
 
@@ -294,7 +294,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0e042f
+    sget v0, Lcom/resouce/module/ResLAYOUT;->item_share_tail_memeber:I
 
     const/4 v1, 0x0
 

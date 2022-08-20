@@ -36,7 +36,7 @@
     .line 1
     iget-object v0, p0, Lkgb;->I:Landroid/content/res/Resources;
 
-    const v1, 0x7f122dd5
+    sget v1, Lcom/resouce/module/ResSTRING;->received_from_other_apps:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -121,7 +121,7 @@
 .method public se()I
     .locals 1
 
-    const v0, 0x7f080807
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->home_files_documents_icon_received:I
 
     return v0
 .end method

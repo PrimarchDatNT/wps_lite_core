@@ -200,7 +200,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f0819ed
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_laserpen_dot:I
 
     invoke-virtual {p2, p3}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

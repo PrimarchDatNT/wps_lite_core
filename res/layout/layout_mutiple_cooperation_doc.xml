@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/tv_set_as_cooperation_docs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_set_cooperation_document" app:layout_constraintBottom_toTopOf="@id/tv_set_as_cooperation_docs_desc" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <cn.wps.moffice.cloud.widget.KDelaySwitch android:id="@id/sc_open_cooperation_doc" android:layout_width="wrap_content" android:layout_height="26.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_set_as_cooperation_docs" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_set_as_cooperation_docs" />
-    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/tv_set_as_cooperation_docs_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_set_as_cooperation_docs" />
-</merge>

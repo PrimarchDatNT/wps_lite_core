@@ -1541,7 +1541,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12199a
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     invoke-static {v2, v3, p1}, Lbih;->n(Landroid/content/Context;II)V
 

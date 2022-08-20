@@ -309,7 +309,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12011c
+    sget v2, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v1, v2}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 
@@ -606,7 +606,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12011c
+    sget v1, Lcom/resouce/module/ResSTRING;->app_version:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -638,7 +638,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f12011a
+    sget v2, Lcom/resouce/module/ResSTRING;->app_svn:I
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1071,7 +1071,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const v3, 0x7f1200ad
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1124,7 +1124,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const v3, 0x7f1200ad
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1179,7 +1179,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const v3, 0x7f1200ad
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1233,7 +1233,7 @@
 
     const-string v2, "android.intent.action.VIEW"
 
-    const v3, 0x7f1200ad
+    sget v3, Lcom/resouce/module/ResSTRING;->app_market_play:I
 
     invoke-virtual {p0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

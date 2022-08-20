@@ -33,7 +33,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const v0, 0x7f0b2fcd
+    sget v0, Lcom/resouce/module/ResID;->title:I
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -44,7 +44,7 @@
 
     iput-object v0, p0, Ldqg$d;->a:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2dce    # 1.8500052E38f
+    sget v0, Lcom/resouce/module/ResID;->sub_title:I    # 1.8500052E38f
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -55,7 +55,7 @@
 
     iput-object v0, p0, Ldqg$d;->b:Landroid/widget/TextView;
 
-    const v0, 0x7f0b065f
+    sget v0, Lcom/resouce/module/ResID;->desc_txt:I
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -66,7 +66,7 @@
 
     iput-object v0, p0, Ldqg$d;->c:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2f88
+    sget v0, Lcom/resouce/module/ResID;->tickbox_img:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -75,7 +75,7 @@
 
     iput-object v0, p0, Ldqg$d;->d:Landroid/view/View;
 
-    const v0, 0x7f0b0c3b
+    sget v0, Lcom/resouce/module/ResID;->extra_content_view:I
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

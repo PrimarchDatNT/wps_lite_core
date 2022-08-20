@@ -41,7 +41,7 @@
     .line 1
     iget-object v0, p0, Lutc$a;->a:Landroid/content/Context;
 
-    const v1, 0x7f121dad
+    sget v1, Lcom/resouce/module/ResSTRING;->public_bookmark_insert_success:I
 
     const/4 v2, 0x0
 

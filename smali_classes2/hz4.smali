@@ -1470,7 +1470,7 @@
     :goto_1
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f122392
+    sget v2, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {v1, v2, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -3061,7 +3061,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29da    # 1.8498E38f
+    sget v1, Lcom/resouce/module/ResID;->save_album_switch:I    # 1.8498E38f
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -3977,7 +3977,7 @@
     :goto_0
     iget-object v1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v2, 0x7f1228bd
+    sget v2, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4175,13 +4175,13 @@
 
     move-result v0
 
-    const v1, 0x7f12209f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pdf:I
 
     const/4 v2, 0x0
 
     const/4 v3, 0x1
 
-    const v4, 0x7f12281f
+    sget v4, Lcom/resouce/module/ResSTRING;->public_save:I
 
     if-eqz v0, :cond_6
 
@@ -4630,7 +4630,7 @@
 
     iget-object v0, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f122090
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_mp4:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -4646,7 +4646,7 @@
 
     if-eqz p1, :cond_f
 
-    const p1, 0x7f1220a7
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pic_file:I
 
     .line 46
     iget-object v0, p0, Lhz4;->v:Lie5$a;
@@ -4655,7 +4655,7 @@
 
     if-ne v0, v1, :cond_d
 
-    const p1, 0x7f1220ad
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pic_pdf:I
 
     goto :goto_3
 
@@ -4665,7 +4665,7 @@
 
     if-ne v0, v1, :cond_e
 
-    const p1, 0x7f1220b2
+    sget p1, Lcom/resouce/module/ResSTRING;->public_export_pic_ppt:I
 
     .line 48
     :cond_e
@@ -5675,7 +5675,7 @@
     .line 44
     iget-object v0, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v1, 0x7f120b90
+    sget v1, Lcom/resouce/module/ResSTRING;->et_name_exist_error:I
 
     invoke-static {v0, v1, v6}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -6003,7 +6003,7 @@
     .line 2
     iget-object p1, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122012
+    sget v0, Lcom/resouce/module/ResSTRING;->public_document_replace_to:I
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -6203,7 +6203,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1229f1
+    sget v2, Lcom/resouce/module/ResSTRING;->public_shouldOverwrite:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6301,7 +6301,7 @@
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;Z)V
 
-    const v1, 0x7f1210fe
+    sget v1, Lcom/resouce/module/ResSTRING;->home_qing_fileroaming_unable_to_upload:I
 
     .line 2
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -6315,7 +6315,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120eae
+    sget v1, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6331,7 +6331,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f12123e
+    sget v1, Lcom/resouce/module/ResSTRING;->home_wps_drive_upload_limit:I
 
     invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6341,7 +6341,7 @@
     :goto_0
     invoke-virtual {v0, p1}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
-    const p1, 0x7f122567
+    sget p1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     .line 6
     new-instance v1, Lhz4$m;
@@ -6541,7 +6541,7 @@
 
     iget-object v0, p0, Lhz4;->a:Landroid/app/Activity;
 
-    const v3, 0x7f1220b8
+    sget v3, Lcom/resouce/module/ResSTRING;->public_export_pic_version:I
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

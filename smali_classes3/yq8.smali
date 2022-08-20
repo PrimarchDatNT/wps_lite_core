@@ -107,11 +107,11 @@
     .line 1
     new-instance v0, Lhd3;
 
-    const v1, 0x7f1302ef
+    sget v1, Lcom/resouce/module/ResSTYLE;->Theme_TranslucentDlg:I
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;I)V
 
-    const p0, 0x7f120efe
+    sget p0, Lcom/resouce/module/ResSTRING;->home_enterprise_learn:I
 
     .line 2
     invoke-virtual {v0, p0}, Lhd3;->setTitleById(I)Lhd3;
@@ -122,7 +122,7 @@
     .line 4
     invoke-virtual {v0}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p0, 0x7f0b08a8
+    sget p0, Lcom/resouce/module/ResID;->enterprise_activate_layout:I
 
     .line 5
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -135,7 +135,7 @@
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p0, 0x7f0b08a9
+    sget p0, Lcom/resouce/module/ResID;->enterprise_desc_layout:I
 
     .line 6
     invoke-virtual {v0, p0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

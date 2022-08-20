@@ -80,7 +80,7 @@
 
     move-result v0
 
-    const v1, 0x7f12044c
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_net_erro_tip:I
 
     const/4 v2, 0x1
 
@@ -129,9 +129,9 @@
 
     iget-object v0, v0, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$k;->c:Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity;
 
-    const v3, 0x7f120442
+    sget v3, Lcom/resouce/module/ResSTRING;->doc_scan_insufficient_space:I
 
-    const v4, 0x7f122567
+    sget v4, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v5, Lcn/wps/moffice/main/scan/ui/MultipleImageToTextActivity$k$a$a$a;
 

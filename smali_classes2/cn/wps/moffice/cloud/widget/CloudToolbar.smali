@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0443
+    sget v2, Lcom/resouce/module/ResLAYOUT;->layout_cloud_toolbar:I
 
     const/4 v3, 0x1
 
@@ -92,7 +92,7 @@
     .line 5
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
-    const p1, 0x7f0b1642
+    sget p1, Lcom/resouce/module/ResID;->ll_back:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
@@ -103,7 +103,7 @@
 
     iput-object p1, p0, Lcn/wps/moffice/cloud/widget/CloudToolbar;->B:Landroid/widget/LinearLayout;
 
-    const p1, 0x7f0b3295
+    sget p1, Lcom/resouce/module/ResID;->tv_title:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

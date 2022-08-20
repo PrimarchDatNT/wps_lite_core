@@ -50,9 +50,9 @@
     .line 1
     new-instance v0, Lqpk;
 
-    const v1, 0x7f080286
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_simplified_conversion:I
 
-    const v2, 0x7f122ff7
+    sget v2, Lcom/resouce/module/ResSTRING;->st_convert_title:I
 
     invoke-direct {v0, v1, v2}, Lqpk;-><init>(II)V
 
@@ -66,19 +66,19 @@
 
     move-result v1
 
-    const v2, 0x7f0804a0
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f0804a0
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_translate:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080587
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->en_comp_tool_translate:I
 
     :goto_0
-    const v3, 0x7f120cd4
+    sget v3, Lcom/resouce/module/ResSTRING;->fanyigo_title:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -87,9 +87,9 @@
     .line 4
     new-instance v0, Lqpk;
 
-    const v1, 0x7f080263
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_doc_derive_highlighter:I
 
-    const v3, 0x7f1233ca
+    sget v3, Lcom/resouce/module/ResSTRING;->writer_output_highlight_text:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -98,9 +98,9 @@
     .line 5
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081f1d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_check_icon:I
 
-    const v3, 0x7f121638
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_title_paper_check:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -109,9 +109,9 @@
     .line 6
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081f1e
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_check_job_icon:I
 
-    const v3, 0x7f12162f
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_short_title_paper_check_job:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -120,9 +120,9 @@
     .line 7
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081f20
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_down_icon:I
 
-    const v3, 0x7f121661
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_down_repetition:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -131,9 +131,9 @@
     .line 8
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081f1f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_composition_icon:I
 
-    const v3, 0x7f1200e0
+    sget v3, Lcom/resouce/module/ResSTRING;->app_paper_composition_name:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -142,9 +142,9 @@
     .line 9
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081f21
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->v10_phone_public_file_paper_report_icon:I
 
-    const v3, 0x7f1215f9
+    sget v3, Lcom/resouce/module/ResSTRING;->paper_check_my_report:I
 
     invoke-direct {v0, v1, v3}, Lqpk;-><init>(II)V
 
@@ -153,7 +153,7 @@
     .line 10
     new-instance v0, Lqpk;
 
-    const v1, 0x7f121636
+    sget v1, Lcom/resouce/module/ResSTRING;->paper_check_tab_translate:I
 
     invoke-direct {v0, v2, v1}, Lqpk;-><init>(II)V
 
@@ -162,9 +162,9 @@
     .line 11
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081acd
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phone_resume_helper_icon:I
 
-    const v3, 0x7f120198
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_resume_helper:I
 
     .line 12
     invoke-static {}, Lpal;->k()Ljava/lang/String;
@@ -183,9 +183,9 @@
     .line 14
     new-instance v0, Lqpk;
 
-    const v1, 0x7f08048f
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_identification_photo:I
 
-    const v3, 0x7f12197b
+    sget v3, Lcom/resouce/module/ResSTRING;->phone_id_photo_make:I
 
     .line 15
     invoke-static {}, Lpal;->e()Ljava/lang/String;
@@ -204,9 +204,9 @@
     .line 17
     new-instance v0, Lqpk;
 
-    const v1, 0x7f081acc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_phone_resume_deliver_icon:I
 
-    const v3, 0x7f120182
+    sget v3, Lcom/resouce/module/ResSTRING;->apps_resume_deliver:I
 
     .line 18
     invoke-static {}, Lpal;->h()Ljava/lang/String;
@@ -225,7 +225,7 @@
     .line 20
     new-instance v0, Lqpk;
 
-    const v1, 0x7f1201b5
+    sget v1, Lcom/resouce/module/ResSTRING;->apps_resume_tab_translate:I
 
     invoke-direct {v0, v2, v1}, Lqpk;-><init>(II)V
 
@@ -234,9 +234,9 @@
     .line 21
     new-instance v0, Lqpk;
 
-    const v1, 0x7f08049c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_tool_resumet_evaluation:I
 
-    const v2, 0x7f1201b7
+    sget v2, Lcom/resouce/module/ResSTRING;->apps_resume_train:I
 
     .line 22
     invoke-static {}, Lpal;->n()Ljava/lang/String;

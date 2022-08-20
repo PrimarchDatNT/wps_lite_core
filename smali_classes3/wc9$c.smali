@@ -60,7 +60,7 @@
 
     invoke-direct {p1, v0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const v0, 0x7f0e0b80
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_contacts_help_dialog:I
 
     .line 3
     invoke-virtual {p1, v0}, Lhd3;->setView(I)Lhd3;
@@ -84,7 +84,7 @@
 
     invoke-virtual {p1, v0}, Lhd3;->setCardBackgroundRadius(F)V
 
-    const v0, 0x7f0b02da
+    sget v0, Lcom/resouce/module/ResID;->btn_i_know:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;

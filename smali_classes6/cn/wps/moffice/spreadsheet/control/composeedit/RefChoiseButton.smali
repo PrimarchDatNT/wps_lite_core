@@ -28,7 +28,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e01e1
+    sget p2, Lcom/resouce/module/ResLAYOUT;->et_edit_ref_choise_button:I
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -40,12 +40,12 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e095e
+    sget p2, Lcom/resouce/module/ResLAYOUT;->phone_ss_edit_ref_choise_button:I
 
     invoke-virtual {p1, p2, p0, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     :goto_0
-    const p1, 0x7f0b0a29
+    sget p1, Lcom/resouce/module/ResID;->et_edit_ref_choose_sheetname:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -61,7 +61,7 @@
     .line 6
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const p1, 0x7f0b0a28
+    sget p1, Lcom/resouce/module/ResID;->et_edit_ref_choose_refrange:I
 
     .line 7
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -82,7 +82,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f06046a
+    sget v0, Lcom/resouce/module/ResCOLOR;->phone_public_op_bar_text_color:I
 
     invoke-virtual {p2, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -96,12 +96,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f080616
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->et_edit_ref_choise_button_bg_selector:I
 
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f081306
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->phone_public_op_bar_item_selector:I
 
     :goto_1
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
@@ -153,7 +153,7 @@
 .method public setTightMode()V
     .locals 5
 
-    const v0, 0x7f0b0a2a
+    sget v0, Lcom/resouce/module/ResID;->et_edit_ref_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -189,7 +189,7 @@
 .method public setTightMode2()V
     .locals 5
 
-    const v0, 0x7f0b0a2a
+    sget v0, Lcom/resouce/module/ResID;->et_edit_ref_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -225,7 +225,7 @@
 .method public setTightMode4()V
     .locals 5
 
-    const v0, 0x7f0b0a2a
+    sget v0, Lcom/resouce/module/ResID;->et_edit_ref_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" style="@style/v10_phone_public_panel_list_item_third"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="1.0" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/v10_phone_public_panel_list_item_text_style" />
-    <ImageView android:id="@id/item_checked" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_radio_ios_checked" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
-    <View android:id="@id/item_line" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/v10_phone_public_panel_bottom_divideline" />
-</RelativeLayout>

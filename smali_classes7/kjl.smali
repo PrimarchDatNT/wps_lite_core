@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122552
+    sget v1, Lcom/resouce/module/ResSTRING;->public_not_support_in_multiwindow:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

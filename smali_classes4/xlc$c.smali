@@ -203,7 +203,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1220bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_extract_less_2_pages_tips:I
 
     const/4 v1, 0x1
 

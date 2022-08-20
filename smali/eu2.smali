@@ -40,7 +40,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e1044
+    sget v0, Lcom/resouce/module/ResLAYOUT;->view_brand_progress:I
 
     const/4 v1, 0x0
 

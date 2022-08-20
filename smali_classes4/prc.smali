@@ -222,7 +222,7 @@
     .line 2
     iget-object v0, p0, Lkdc;->S:Landroid/view/View;
 
-    const v1, 0x7f0b2068
+    sget v1, Lcom/resouce/module/ResID;->phone_panel_topbar_title_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -242,7 +242,7 @@
 
     iget-object v1, p0, Lkdc;->B:Landroid/app/Activity;
 
-    const v2, 0x7f12198c    # 1.9419993E38f
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_public_options:I    # 1.9419993E38f
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

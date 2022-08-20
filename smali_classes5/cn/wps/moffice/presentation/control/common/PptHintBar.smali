@@ -41,14 +41,14 @@
 
     move-result-object p1
 
-    const p2, 0x7f0e0a7c
+    sget p2, Lcom/resouce/module/ResLAYOUT;->ppt_hintbar:I
 
     invoke-virtual {p1, p2, p0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 5
     invoke-virtual {p0}, Lcn/wps/moffice/presentation/control/common/PptHintBar;->b()V
 
-    const p1, 0x7f0b1863
+    sget p1, Lcom/resouce/module/ResID;->memery_tips:I
 
     .line 6
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;

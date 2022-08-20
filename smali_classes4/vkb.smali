@@ -693,11 +693,11 @@
     .line 4
     new-instance p1, Lre7;
 
-    const v2, 0x7f13013a
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_push_animations:I
 
     invoke-direct {p1, v0, v2, v1}, Lre7;-><init>(Landroid/app/Activity;ILuf7;)V
 
-    const v0, 0x7f0b2fec
+    sget v0, Lcom/resouce/module/ResID;->title_bar_title:I
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -723,7 +723,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f1231c4
+    sget v2, Lcom/resouce/module/ResSTRING;->website_title_save_to_drive:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -735,7 +735,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f122b77
+    sget v2, Lcom/resouce/module/ResSTRING;->public_upload_wps_drive_save:I
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -748,7 +748,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextSize(F)V
 
     :cond_1
-    const v0, 0x7f0b3048
+    sget v0, Lcom/resouce/module/ResID;->to_upload:I
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
@@ -765,7 +765,7 @@
     .line 13
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f12281f
+    sget v1, Lcom/resouce/module/ResSTRING;->public_save:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

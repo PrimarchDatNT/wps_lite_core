@@ -310,7 +310,7 @@
     goto :goto_2
 
     :catch_0
-    const p1, 0x7f1207a1
+    sget p1, Lcom/resouce/module/ResSTRING;->et_circle_reference_error:I
 
     const/4 p2, 0x1
 
@@ -416,7 +416,7 @@
     goto :goto_0
 
     :catch_0
-    const p1, 0x7f120822
+    sget p1, Lcom/resouce/module/ResSTRING;->et_datavalidation_increment_warning:I
 
     const/4 p2, 0x1
 
@@ -867,7 +867,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0f55
+    sget v2, Lcom/resouce/module/ResLAYOUT;->ss_datavalidation_sequence_list_hint:I
 
     invoke-direct {v0, v1, v2, p2}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -885,7 +885,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e099d
+    sget v2, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v0, v1, v2, p2}, Lm7h;-><init>(Landroid/content/Context;ILjava/util/List;)V
 
@@ -1078,14 +1078,14 @@
     .line 21
     iget-object v0, p0, Lntf;->a0:Lhd3;
 
-    const v3, 0x7f120815
+    sget v3, Lcom/resouce/module/ResSTRING;->et_data_validation_stepper_increment:I
 
     invoke-virtual {v0, v3}, Lhd3;->setTitleById(I)Lhd3;
 
     .line 22
     iget-object v0, p0, Lntf;->a0:Lhd3;
 
-    const v3, 0x7f122567
+    sget v3, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v5, Lgsf;
 
@@ -1096,7 +1096,7 @@
     .line 23
     iget-object v0, p0, Lntf;->a0:Lhd3;
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v3, Lhsf;
 
@@ -1192,7 +1192,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f081c59
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_spinner_list_divider:I
 
     iget-object v3, p0, Lntf;->B:Landroid/view/View;
 
@@ -1215,7 +1215,7 @@
     .line 10
     iget-object v0, p0, Lntf;->U:Landroid/widget/ListView;
 
-    const v1, 0x7f080633
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_func_listview_selector:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setSelector(I)V
 
@@ -2263,7 +2263,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b09d0
+    sget v0, Lcom/resouce/module/ResID;->et_data_validation_more_btn:I
 
     if-ne v0, p1, :cond_0
 

@@ -2195,7 +2195,7 @@
 
     move/from16 v9, p3
 
-    const v0, 0x7f0b199f
+    sget v0, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     .line 1
     invoke-virtual {v8, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2214,7 +2214,7 @@
     invoke-virtual {v0, v2, v1}, Landroid/widget/TextView;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_0
-    const v2, 0x7f0b19ba
+    sget v2, Lcom/resouce/module/ResID;->nativeclose:I
 
     .line 3
     invoke-virtual {v8, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2230,9 +2230,9 @@
 
     move-result v2
 
-    const v3, 0x7f0b1999
+    sget v3, Lcom/resouce/module/ResID;->native_Ad_close_area:I
 
-    const v11, 0x7f0b19af
+    sget v11, Lcom/resouce/module/ResID;->native_ad_tips:I
 
     if-eqz v2, :cond_1
 
@@ -2414,7 +2414,7 @@
 
     const-string v1, "jd"
 
-    const v2, 0x7f0b19a3
+    sget v2, Lcom/resouce/module/ResID;->native_ad_icon_image:I
 
     const/4 v3, 0x0
 
@@ -2489,7 +2489,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b1998
+    sget v1, Lcom/resouce/module/ResID;->nativeAdTipsDot:I
 
     .line 32
     invoke-virtual {v8, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -2553,7 +2553,7 @@
     .line 39
     invoke-virtual {v10, v0}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v0, 0x7f081958
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->public_home_native_ad_close:I
 
     .line 40
     invoke-virtual {v10, v0}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -2626,7 +2626,7 @@
     .line 49
     invoke-virtual {v10, v2}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    const v2, 0x7f08186b
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->public_close_ad:I
 
     .line 50
     invoke-virtual {v10, v2}, Landroid/widget/ImageView;->setImageResource(I)V
@@ -3941,7 +3941,7 @@
 
     if-eqz p4, :cond_3
 
-    const p4, 0x7f0b19ba
+    sget p4, Lcom/resouce/module/ResID;->nativeclose:I
 
     .line 7
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -3960,7 +3960,7 @@
     goto :goto_1
 
     :cond_3
-    const p4, 0x7f0b1999
+    sget p4, Lcom/resouce/module/ResID;->native_Ad_close_area:I
 
     .line 9
     invoke-virtual {p2, p4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -4188,11 +4188,11 @@
 
     invoke-virtual {v0, v3, v1, v2}, Ljs4;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    const v1, 0x7f080712
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_ad_privilege:I
 
-    const v2, 0x7f121c87
+    sget v2, Lcom/resouce/module/ResSTRING;->premium_ad_privilege:I
 
-    const v3, 0x7f12268d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_premium_no_ads_desc:I
 
     const/4 v4, 0x2
 
@@ -4334,7 +4334,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f120091
+    sget v1, Lcom/resouce/module/ResSTRING;->ads_popupmenu_nointerested:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4419,7 +4419,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f121c9d
+    sget v5, Lcom/resouce/module/ResSTRING;->premium_remove_ads:I
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4450,7 +4450,7 @@
 
     move-result-object v1
 
-    const v8, 0x7f121c93
+    sget v8, Lcom/resouce/module/ResSTRING;->premium_no_ads_info:I
 
     invoke-virtual {v1, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4470,7 +4470,7 @@
 
     move-result-object v1
 
-    const v8, 0x7f1212df
+    sget v8, Lcom/resouce/module/ResSTRING;->infoflow_no_ads_btn_defalut_txt:I
 
     invoke-virtual {v1, v8}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5567,7 +5567,7 @@
 .method public final s0(Landroid/view/View;)V
     .locals 6
 
-    const v0, 0x7f0b19ae
+    sget v0, Lcom/resouce/module/ResID;->native_ad_text:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5590,7 +5590,7 @@
     :cond_0
     const-string v1, "nativeAdTipsDot"
 
-    const v2, 0x7f0b1998
+    sget v2, Lcom/resouce/module/ResID;->nativeAdTipsDot:I
 
     if-eqz v0, :cond_5
 
@@ -5605,7 +5605,7 @@
 
     if-nez v3, :cond_5
 
-    const v3, 0x7f0b1996
+    sget v3, Lcom/resouce/module/ResID;->nativeAdBodyParent:I
 
     .line 4
     invoke-virtual {p1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5635,7 +5635,7 @@
     move-result-object v2
 
     :cond_2
-    const v1, 0x7f0b19af
+    sget v1, Lcom/resouce/module/ResID;->native_ad_tips:I
 
     .line 8
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -5652,7 +5652,7 @@
     move-result-object v1
 
     :cond_3
-    const v4, 0x7f0b199f
+    sget v4, Lcom/resouce/module/ResID;->native_ad_call_to_action_text:I
 
     .line 10
     invoke-virtual {p1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:id="@id/ppt_anchor_dialog_gridview" android:padding="16.0dip" android:layout_width="154.0dip" android:layout_height="wrap_content" android:horizontalSpacing="16.0dip" android:verticalSpacing="16.0dip" android:numColumns="3" android:layoutDirection="ltr" />
-</LinearLayout>

@@ -372,7 +372,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e09ba
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_wps_drive_saveas:I
 
     new-instance v2, Landroid/widget/FrameLayout;
 
@@ -469,7 +469,7 @@
     .line 3
     iget-object v1, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f120647
+    sget v4, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {v1, v4, v3}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -532,7 +532,7 @@
     :catch_0
     iget-object v1, v0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f1220f0
+    sget v2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-static {v1, v2}, Lq48;->e(Landroid/content/Context;I)V
 
@@ -782,7 +782,7 @@
     .line 1
     iget-object v0, p0, Luc7;->B:Landroid/view/View;
 
-    const v1, 0x7f0b07c3
+    sget v1, Lcom/resouce/module/ResID;->drive_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

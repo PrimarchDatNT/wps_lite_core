@@ -29,12 +29,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e0913
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_saveicongroup_uploading_progressbar:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e05d4
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pad_saveicongroup_uploading_progressbar:I
 
     :goto_0
     return v0
@@ -54,12 +54,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f080bbd
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->pad_comp_common_cloud_document_uploading:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f080213
+    sget v0, Lcom/resouce/module/ResDRAWABLE;->comp_common_cloud_document_uploading_arrow_white:I
 
     return v0
 .end method
@@ -78,12 +78,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0600de
+    sget v0, Lcom/resouce/module/ResCOLOR;->compProgressTrackColor:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f06023c
+    sget v0, Lcom/resouce/module/ResCOLOR;->home_upload_file_progress_background_color:I
 
     return v0
 .end method
@@ -102,12 +102,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0705e2
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_upload_file_progress_img_height_v2:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f070c72
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_height_v2:I
 
     return v0
 .end method
@@ -126,12 +126,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0705e3
+    sget v0, Lcom/resouce/module/ResDIMEN;->pad_upload_file_progress_img_width_v2:I
 
     return v0
 
     :cond_0
-    const v0, 0x7f070c75
+    sget v0, Lcom/resouce/module/ResDIMEN;->public_upload_file_progress_img_width_v2:I
 
     return v0
 .end method

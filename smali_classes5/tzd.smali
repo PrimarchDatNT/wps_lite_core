@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f060259
+    sget v0, Lcom/resouce/module/ResCOLOR;->lineColor:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f070d25
+    sget v1, Lcom/resouce/module/ResDIMEN;->v10_phone_public_paneltab_div_line_margin:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

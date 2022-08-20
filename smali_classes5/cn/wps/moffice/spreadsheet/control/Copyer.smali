@@ -93,15 +93,15 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f08021c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->comp_common_copy:I
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f081b6d
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->public_ribbonicon_copy:I
 
     :goto_0
-    const v2, 0x7f121f7c
+    sget v2, Lcom/resouce/module/ResSTRING;->public_copy:I
 
     invoke-direct {v0, p0, v1, v2}, Lcn/wps/moffice/spreadsheet/control/Copyer$8;-><init>(Lcn/wps/moffice/spreadsheet/control/Copyer;II)V
 
@@ -669,7 +669,7 @@
     goto :goto_3
 
     :cond_5
-    const p1, 0x7f12131e
+    sget p1, Lcom/resouce/module/ResSTRING;->knowledge_page_option_unsupported:I
 
     .line 7
     invoke-static {p1, v1}, Lsjf;->k(II)V

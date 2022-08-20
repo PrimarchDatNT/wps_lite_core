@@ -393,7 +393,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f0e0500
+    sget v1, Lcom/resouce/module/ResLAYOUT;->outlinemb_item_layout:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -404,7 +404,7 @@
 
     invoke-direct {p3}, Lxzd$a;-><init>()V
 
-    const v1, 0x7f0b13ab
+    sget v1, Lcom/resouce/module/ResID;->item_container_layout:I
 
     .line 3
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -413,7 +413,7 @@
 
     iput-object v1, p3, Lxzd$a;->a:Landroid/view/View;
 
-    const v1, 0x7f0b13d2
+    sget v1, Lcom/resouce/module/ResID;->item_name:I
 
     .line 4
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -424,7 +424,7 @@
 
     iput-object v1, p3, Lxzd$a;->b:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0661
+    sget v1, Lcom/resouce/module/ResID;->description:I
 
     .line 5
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -435,7 +435,7 @@
 
     iput-object v1, p3, Lxzd$a;->c:Landroid/widget/TextView;
 
-    const v1, 0x7f0b0533
+    sget v1, Lcom/resouce/module/ResID;->container_layout:I
 
     .line 6
     invoke-virtual {p2, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;

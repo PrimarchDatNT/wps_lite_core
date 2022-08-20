@@ -976,7 +976,7 @@
 .method public N()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b1f14
+    sget v0, Lcom/resouce/module/ResID;->pdf_renderview:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -2449,7 +2449,7 @@
 .method public k2()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b3028
+    sget v0, Lcom/resouce/module/ResID;->titlebar_layout:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

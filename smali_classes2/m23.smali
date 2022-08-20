@@ -94,7 +94,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f121247
+    sget v0, Lcom/resouce/module/ResSTRING;->home_wpsdrive_docs:I
 
     invoke-virtual {p3, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

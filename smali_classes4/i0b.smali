@@ -38,7 +38,7 @@
     .line 2
     iget-object p1, p0, Lg0b;->S:Landroid/app/Activity;
 
-    const v0, 0x7f12283e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_scan_file_downloading:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -57,7 +57,7 @@
     .line 4
     iget-object p1, p0, Lg0b;->S:Landroid/app/Activity;
 
-    const v0, 0x7f1204b5
+    sget v0, Lcom/resouce/module/ResSTRING;->doc_scan_some_image_at_most:I
 
     const/4 v3, 0x1
 

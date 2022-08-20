@@ -221,7 +221,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const v3, 0x7f12056c
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_auto_update_title:I
 
     if-nez v0, :cond_3
 

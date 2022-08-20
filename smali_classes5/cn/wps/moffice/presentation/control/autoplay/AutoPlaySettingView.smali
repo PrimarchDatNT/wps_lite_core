@@ -158,13 +158,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0aac
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_play_auto_setting:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b229c
+    sget v0, Lcom/resouce/module/ResID;->ppt_autoplay_time:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -175,7 +175,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/autoplay/AutoPlaySettingView;->B:Landroid/widget/TextView;
 
-    const v0, 0x7f0b2298
+    sget v0, Lcom/resouce/module/ResID;->ppt_autoplay_subtract_btn:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -186,7 +186,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/autoplay/AutoPlaySettingView;->I:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2297
+    sget v0, Lcom/resouce/module/ResID;->ppt_autoplay_add_btn:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -197,7 +197,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/presentation/control/autoplay/AutoPlaySettingView;->S:Landroid/widget/ImageView;
 
-    const v0, 0x7f0b2299
+    sget v0, Lcom/resouce/module/ResID;->ppt_autoplay_switch:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -320,7 +320,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f121b56
+    sget v3, Lcom/resouce/module/ResSTRING;->ppt_autoplay_setting_change_time:I
 
     invoke-virtual {v1, v3, v2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

@@ -57,7 +57,7 @@
 
     iget-object p1, p1, Lb5a;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120ef1
+    sget p2, Lcom/resouce/module/ResSTRING;->home_drive_move_operation_error_tips:I
 
     const/4 v0, 0x0
 

@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2058
+    sget v1, Lcom/resouce/module/ResID;->phone_message_close_button:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -474,7 +474,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b26fe
+    sget v1, Lcom/resouce/module/ResID;->public_roaming_tips_layout:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205c
+    sget v1, Lcom/resouce/module/ResID;->phone_message_tips_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -711,7 +711,7 @@
     .line 1
     iget-object v0, p0, Lvk8;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b2688
+    sget v1, Lcom/resouce/module/ResID;->public_merge_doc_tool_tips_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -719,7 +719,7 @@
 
     iput-object v0, p0, Lvk8;->p0:Landroid/view/View;
 
-    const v1, 0x7f0b3054
+    sget v1, Lcom/resouce/module/ResID;->tool_title_ll:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -733,7 +733,7 @@
     .line 3
     iget-object v0, p0, Lvk8;->p0:Landroid/view/View;
 
-    const v1, 0x7f0b3053
+    sget v1, Lcom/resouce/module/ResID;->tool_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -746,7 +746,7 @@
     .line 4
     iget-object v0, p0, Lvk8;->p0:Landroid/view/View;
 
-    const v1, 0x7f0b12be    # 1.8486E38f
+    sget v1, Lcom/resouce/module/ResID;->img_merge_vip_icon:I    # 1.8486E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -759,7 +759,7 @@
     .line 5
     iget-object v0, p0, Lvk8;->m0:Lcn/wps/moffice/main/fileselect/view/MergeSureLayout;
 
-    const v1, 0x7f0b0cb5
+    sget v1, Lcom/resouce/module/ResID;->file_doc_num:I
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -788,7 +788,7 @@
     .line 8
     iget-object v0, p0, Lvk8;->n0:Landroid/widget/TextView;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -833,7 +833,7 @@
     .line 13
     iget-object v0, p0, Lvk8;->n0:Landroid/widget/TextView;
 
-    const v1, 0x7f1224e0
+    sget v1, Lcom/resouce/module/ResSTRING;->public_multi_upload_choose:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -843,7 +843,7 @@
     :cond_2
     iget-object v0, p0, Lvk8;->n0:Landroid/widget/TextView;
 
-    const v1, 0x7f122b5e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_upload:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -866,7 +866,7 @@
     .line 17
     iget-object v0, p0, Lvk8;->n0:Landroid/widget/TextView;
 
-    const v1, 0x7f122981
+    sget v1, Lcom/resouce/module/ResSTRING;->public_share_long_pic_next:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -946,7 +946,7 @@
 
     move-result v0
 
-    const v1, 0x7f121c01
+    sget v1, Lcom/resouce/module/ResSTRING;->ppt_shareplay_choose_document:I
 
     if-eqz v0, :cond_2
 
@@ -1020,7 +1020,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f122283
+    sget v1, Lcom/resouce/module/ResSTRING;->public_home_cloud_upload_file:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1097,7 +1097,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1225b5
+    sget v2, Lcom/resouce/module/ResSTRING;->public_open_platform_permission_userdocument_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1117,7 +1117,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f122a5a
+    sget v2, Lcom/resouce/module/ResSTRING;->public_table_merge:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -1174,7 +1174,7 @@
     .line 1
     iget-object v0, p0, Lvk8;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b1fd8
+    sget v1, Lcom/resouce/module/ResID;->phone_file_select_top_bars:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1216,9 +1216,9 @@
 
     move-result v0
 
-    const v1, 0x7f060626
+    sget v1, Lcom/resouce/module/ResCOLOR;->subTextColor:I
 
-    const v2, 0x7f06025f
+    sget v2, Lcom/resouce/module/ResCOLOR;->mainTextColor:I
 
     if-eqz v0, :cond_0
 
@@ -1354,7 +1354,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f070b45
+    sget v2, Lcom/resouce/module/ResDIMEN;->public_indicator_width:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
@@ -1753,7 +1753,7 @@
     .line 1
     iget-object v0, p0, Lvk8;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b1fd9
+    sget v1, Lcom/resouce/module/ResID;->phone_file_select_warp_tab:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1771,7 +1771,7 @@
     .line 3
     iget-object v0, p0, Lvk8;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b117c
+    sget v1, Lcom/resouce/module/ResID;->home_title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1817,7 +1817,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0b2107
+    sget v1, Lcom/resouce/module/ResID;->phone_public_top_shadow:I
 
     .line 8
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
@@ -1881,7 +1881,7 @@
     .line 1
     iget-object v0, p0, Lvk8;->Y:Landroid/view/View;
 
-    const v1, 0x7f0b1fd6
+    sget v1, Lcom/resouce/module/ResID;->phone_file_select_container:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2422,7 +2422,7 @@
     :goto_6
     iget-object v0, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v1, 0x7f123039
+    sget v1, Lcom/resouce/module/ResSTRING;->tag_file_num:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2841,7 +2841,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e06c9
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_file_select:I
 
     const/4 v2, 0x0
 
@@ -3277,7 +3277,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205a
+    sget v1, Lcom/resouce/module/ResID;->phone_message_msg_text:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -3296,7 +3296,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b205d
+    sget v1, Lcom/resouce/module/ResID;->phone_message_update_now_btn:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

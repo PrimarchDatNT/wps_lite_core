@@ -531,7 +531,7 @@
 
     move-result p1
 
-    const v1, 0x7f0b3497
+    sget v1, Lcom/resouce/module/ResID;->wps_group_create_btn:I
 
     if-ne p1, v1, :cond_1
 
@@ -541,7 +541,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b34b4
+    sget v1, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_setting:I
 
     if-ne p1, v1, :cond_2
 
@@ -551,7 +551,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b34b3
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_titlebar_share_button:I
 
     if-ne p1, v0, :cond_3
 
@@ -561,7 +561,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b301f
+    sget v0, Lcom/resouce/module/ResID;->titlebar_backbtn:I
 
     if-ne p1, v0, :cond_4
 
@@ -571,7 +571,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b34b5
+    sget v0, Lcom/resouce/module/ResID;->wpsdrive_titlebar_upload_fail_button:I
 
     if-ne p1, v0, :cond_5
 

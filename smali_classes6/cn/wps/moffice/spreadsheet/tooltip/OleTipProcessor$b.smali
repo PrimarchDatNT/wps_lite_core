@@ -71,7 +71,7 @@
 
     if-nez v3, :cond_0
 
-    const v0, 0x7f122416
+    sget v0, Lcom/resouce/module/ResSTRING;->public_loadDocumentUnsupport:I
 
     .line 3
     invoke-static {v0, p1}, Lsjf;->h(II)V

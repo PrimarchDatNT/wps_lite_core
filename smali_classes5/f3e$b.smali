@@ -52,7 +52,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const p1, 0x7f081a8d
+    sget p1, Lcom/resouce/module/ResDRAWABLE;->public_pad_second_toolbar_hover_bg_3dp:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -127,14 +127,14 @@
     .line 1
     iget-object p2, p0, Lf3e$b;->B:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0a65
+    sget v1, Lcom/resouce/module/ResLAYOUT;->ppt_anchor_item:I
 
     invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p2
 
     :cond_0
-    const p3, 0x7f0b228b
+    sget p3, Lcom/resouce/module/ResID;->ppt_anchor_item_img:I
 
     .line 2
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -85,12 +85,12 @@
     .line 4
     invoke-virtual {p1, v0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    const v0, 0x7f120eed
+    sget v0, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 5
     invoke-virtual {p1, v0}, Lhd3;->setMessage(I)Lhd3;
 
-    const v0, 0x7f121f5e
+    sget v0, Lcom/resouce/module/ResSTRING;->public_continue:I
 
     .line 6
     new-instance v1, Lcn/wps/moffice/split/ml/translate/view/SlipMLChosseLanguageView$a$a$a;
@@ -99,7 +99,7 @@
 
     invoke-virtual {p1, v0, v1}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     const/4 v1, 0x0
 

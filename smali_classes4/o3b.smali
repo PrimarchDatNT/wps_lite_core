@@ -368,11 +368,11 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f08077c
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_splice:I
 
-    const v2, 0x7f122651
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture_splicing:I
 
-    const v3, 0x7f121d42
+    sget v3, Lcom/resouce/module/ResSTRING;->public_app_splicing_produce:I
 
     .line 5
     invoke-static {v1, v2, v3, v0}, Lcib;->j(III[Lcib$b;)Lcib;
@@ -416,13 +416,13 @@
 
     aput-object v1, v0, v2
 
-    const v1, 0x7f080747
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->func_guide_new_splice:I
 
-    const v2, 0x7f0601a6
+    sget v2, Lcom/resouce/module/ResCOLOR;->func_guide_yellow_bg:I
 
-    const v3, 0x7f122651
+    sget v3, Lcom/resouce/module/ResSTRING;->public_picture_splicing:I
 
-    const v4, 0x7f121d42
+    sget v4, Lcom/resouce/module/ResSTRING;->public_app_splicing_produce:I
 
     .line 2
     invoke-static {v1, v2, v3, v4, v0}, Lcib;->h(IIII[Lcib$b;)Lcib;
@@ -442,7 +442,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0056
+    sget v1, Lcom/resouce/module/ResLAYOUT;->activity_scan_splicing_pic:I
 
     const/4 v2, 0x0
 
@@ -465,7 +465,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v1, 0x7f0b16e7
+    sget v1, Lcom/resouce/module/ResID;->ll_splicing_longpic:I
 
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -477,7 +477,7 @@
     .line 5
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16e8
+    sget v1, Lcom/resouce/module/ResID;->ll_splicing_onepage:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -488,7 +488,7 @@
     .line 6
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b16e6
+    sget v1, Lcom/resouce/module/ResID;->ll_splicing_exportpdf:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -499,7 +499,7 @@
     .line 7
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2cb7
+    sget v1, Lcom/resouce/module/ResID;->splicing_long_pic_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -510,7 +510,7 @@
     .line 8
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2cba
+    sget v1, Lcom/resouce/module/ResID;->splicing_onepage_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -521,7 +521,7 @@
     .line 9
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2cb4
+    sget v1, Lcom/resouce/module/ResID;->splicing_exportpdf_member:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -554,7 +554,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0808a3
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->home_qing_vip_premium:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -580,7 +580,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0817cc
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->pub_vip_wps_member_42:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
@@ -644,7 +644,7 @@
     :cond_2
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b2fd7
+    sget v1, Lcom/resouce/module/ResID;->title_bar:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -713,7 +713,7 @@
 
     iget-object v1, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f122652
+    sget v2, Lcom/resouce/module/ResSTRING;->public_picture_splicing_actionbar_title:I
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -724,7 +724,7 @@
     .line 32
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b12a4
+    sget v1, Lcom/resouce/module/ResID;->images_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -737,7 +737,7 @@
     .line 33
     iget-object v0, p0, Lh1b;->B:Landroid/view/View;
 
-    const v1, 0x7f0b0c19
+    sget v1, Lcom/resouce/module/ResID;->export_list:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -766,7 +766,7 @@
 
     iget-object v2, p0, Lbm8;->mActivity:Landroid/app/Activity;
 
-    const v3, 0x7f0e012f
+    sget v3, Lcom/resouce/module/ResLAYOUT;->doc_scan_splicing_list_item:I
 
     iget-object v4, p0, Lo3b;->p0:Ljava/util/ArrayList;
 
@@ -810,7 +810,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0c19
+    sget v0, Lcom/resouce/module/ResID;->export_list:I
 
     if-ne p1, v0, :cond_1
 
@@ -820,7 +820,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b16e7
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_longpic:I
 
     if-ne p1, v0, :cond_2
 
@@ -832,7 +832,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b16e8
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_onepage:I
 
     if-ne p1, v0, :cond_3
 
@@ -844,7 +844,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b16e6
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_exportpdf:I
 
     if-ne p1, v0, :cond_4
 
@@ -1185,7 +1185,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b16e7
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_longpic:I
 
     if-ne p1, v0, :cond_0
 
@@ -1194,7 +1194,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b16e8
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_onepage:I
 
     if-ne p1, v0, :cond_1
 
@@ -1203,7 +1203,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b16e6
+    sget v0, Lcom/resouce/module/ResID;->ll_splicing_exportpdf:I
 
     if-ne p1, v0, :cond_2
 

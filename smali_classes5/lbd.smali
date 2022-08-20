@@ -253,7 +253,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b225a
+    sget v1, Lcom/resouce/module/ResID;->plugin_home_roaming_setting_vip_banner_view:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -271,7 +271,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b116d
+    sget v2, Lcom/resouce/module/ResID;->home_setting_cloud_items_group_container:I
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -325,7 +325,7 @@
     :goto_0
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v1, 0x7f0b2113
+    sget v1, Lcom/resouce/module/ResID;->phone_setting_auto_backup:I
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -370,7 +370,7 @@
     .line 6
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b1703
+    sget v2, Lcom/resouce/module/ResID;->ll_update:I
 
     invoke-virtual {v0, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -386,7 +386,7 @@
     .line 8
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b1851
+    sget v3, Lcom/resouce/module/ResID;->member_privilege_title:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -394,14 +394,14 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f122c24
+    sget v3, Lcom/resouce/module/ResSTRING;->public_wps_premium:I
 
     invoke-virtual {p0, v0, v3}, Llbd;->t0(Landroid/widget/TextView;I)V
 
     .line 9
     iget-object v0, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0b26f9
+    sget v3, Lcom/resouce/module/ResID;->public_roaming_space_usage_info:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -409,7 +409,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v3, 0x7f120610
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_qing_clouddoc:I
 
     invoke-virtual {p0, v0, v3}, Llbd;->t0(Landroid/widget/TextView;I)V
 
@@ -560,7 +560,7 @@
     .line 2
     iget-object v1, p0, Lkbd;->I:Landroid/view/ViewGroup;
 
-    const v2, 0x7f0b0dca
+    sget v2, Lcom/resouce/module/ResID;->fl_update_now:I
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

@@ -36,7 +36,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c6f
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_divider:I
 
     const/4 v2, 0x0
 

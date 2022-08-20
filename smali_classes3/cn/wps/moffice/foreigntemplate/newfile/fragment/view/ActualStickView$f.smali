@@ -128,7 +128,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0e0168
+    sget v0, Lcom/resouce/module/ResLAYOUT;->en_new_head_drop_category_item_view:I
 
     const/4 v1, 0x0
 
@@ -136,7 +136,7 @@
 
     move-result-object p3
 
-    const v0, 0x7f0b1995
+    sget v0, Lcom/resouce/module/ResID;->name_tv:I
 
     .line 3
     invoke-virtual {p3, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -181,7 +181,7 @@
     .line 6
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -247,7 +247,7 @@
     .line 12
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f122392
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invalidFileTips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -296,7 +296,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120635
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_rename_success:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -389,7 +389,7 @@
     .line 2
     iget-object p1, p0, Laf8;->a:Landroid/app/Activity;
 
-    const v0, 0x7f120647
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, v0, v1}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -518,7 +518,7 @@
     nop
 
     :goto_2
-    const v0, 0x7f120ef2
+    sget v0, Lcom/resouce/module/ResSTRING;->home_drive_rename_operation_error_tips:I
 
     if-eqz p1, :cond_6
 

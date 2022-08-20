@@ -281,7 +281,7 @@
     return-void
 
     :cond_3
-    const v0, 0x7f0e0cd1
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_list_quickaction:I
 
     const/4 v2, 0x0
 
@@ -290,7 +290,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0b2675
+    sget v2, Lcom/resouce/module/ResID;->public_list:I
 
     .line 8
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -322,14 +322,14 @@
     goto :goto_3
 
     :cond_4
-    const v5, 0x7f0e0dd6
+    sget v5, Lcom/resouce/module/ResLAYOUT;->public_popupwindow_list_icon_text_item:I
 
     .line 12
     invoke-static {v5, v2, v1}, Luqh;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object v5
 
-    const v6, 0x7f0b2664
+    sget v6, Lcom/resouce/module/ResID;->public_item_image:I
 
     .line 13
     invoke-virtual {v5, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -338,7 +338,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    const v7, 0x7f0b2667
+    sget v7, Lcom/resouce/module/ResID;->public_item_text:I
 
     .line 14
     invoke-virtual {v5, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;

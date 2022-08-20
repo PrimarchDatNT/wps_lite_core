@@ -110,7 +110,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b2553
+    sget v2, Lcom/resouce/module/ResID;->progressbar:I
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 

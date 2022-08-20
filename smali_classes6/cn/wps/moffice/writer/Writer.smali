@@ -644,7 +644,7 @@
 .method public N()Landroid/view/View;
     .locals 1
 
-    const v0, 0x7f0b1302
+    sget v0, Lcom/resouce/module/ResID;->infoflow_vertical:I
 
     .line 1
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/WriterBase;->findViewById(I)Landroid/view/View;
@@ -1200,7 +1200,7 @@
 
     if-eqz v0, :cond_4
 
-    const p1, 0x7f122b46
+    sget p1, Lcom/resouce/module/ResSTRING;->public_unsupport_modify_tips:I
 
     .line 7
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V
@@ -3296,7 +3296,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0b35d9
+    sget v0, Lcom/resouce/module/ResID;->writer_maintoolbar:I
 
     .line 2
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/WriterBase;->findViewById(I)Landroid/view/View;
@@ -3306,7 +3306,7 @@
     return-object v0
 
     :cond_0
-    const v0, 0x7f0b34e9
+    sget v0, Lcom/resouce/module/ResID;->writer_edittoolbar:I
 
     .line 3
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/WriterBase;->findViewById(I)Landroid/view/View;
@@ -4708,7 +4708,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const v0, 0x7f0b12fc
+    sget v0, Lcom/resouce/module/ResID;->infoflow_horizonal:I
 
     .line 6
     invoke-virtual {p0, v0}, Lcn/wps/moffice/writer/WriterBase;->findViewById(I)Landroid/view/View;
@@ -6535,7 +6535,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f1211a8
+    sget p1, Lcom/resouce/module/ResSTRING;->home_tv_meeting_disable_select_prompt:I
 
     .line 3
     invoke-static {p0, p1, v2}, Lbih;->n(Landroid/content/Context;II)V

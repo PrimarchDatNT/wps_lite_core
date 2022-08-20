@@ -94,7 +94,7 @@
 
     if-nez v0, :cond_3
 
-    const p1, 0x7f122535
+    sget p1, Lcom/resouce/module/ResSTRING;->public_no_network:I
 
     .line 5
     invoke-static {p0, p1, v3}, Lbih;->n(Landroid/content/Context;II)V
@@ -171,7 +171,7 @@
 
     move-result p2
 
-    const p3, 0x7f122731
+    sget p3, Lcom/resouce/module/ResSTRING;->public_processon_nospace_openfile_title:I
 
     if-eqz p2, :cond_5
 
@@ -180,7 +180,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f122730
+    sget p3, Lcom/resouce/module/ResSTRING;->public_processon_nospace_openfile_msg:I
 
     .line 13
     invoke-virtual {p0, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -195,7 +195,7 @@
     goto :goto_1
 
     :cond_5
-    const p2, 0x7f120eae
+    sget p2, Lcom/resouce/module/ResSTRING;->home_clouddocs_no_space_left:I
 
     .line 15
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

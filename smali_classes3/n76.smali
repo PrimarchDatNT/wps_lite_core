@@ -175,7 +175,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220da
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_question_description:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -190,7 +190,7 @@
     :cond_0
     const-string v3, ""
 
-    const v4, 0x7f120d1a
+    sget v4, Lcom/resouce/module/ResSTRING;->feedback_send_filezip_need:I
 
     const/4 v5, 0x1
 
@@ -535,7 +535,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1220da
+    sget v4, Lcom/resouce/module/ResSTRING;->public_feedback_question_description:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -572,7 +572,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120d19
+    sget v4, Lcom/resouce/module/ResSTRING;->feedback_send_contactnum_tips:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -596,7 +596,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f120d1a
+    sget v4, Lcom/resouce/module/ResSTRING;->feedback_send_filezip_need:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

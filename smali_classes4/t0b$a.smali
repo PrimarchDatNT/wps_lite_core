@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f120585
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     const/4 p3, 0x0
 

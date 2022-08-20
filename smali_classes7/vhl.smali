@@ -55,7 +55,7 @@
 
     const-string v0, "ink"
 
-    const v1, 0x7f0b130c
+    sget v1, Lcom/resouce/module/ResID;->ink_color_container_divider:I
 
     invoke-virtual {p1, v0, v1}, Ltbl;->v3(Ljava/lang/String;I)V
 

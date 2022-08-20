@@ -87,7 +87,7 @@
 
     iget-object v0, v0, Lu5e;->I:Landroid/content/Context;
 
-    const v1, 0x7f12265e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_play_record_error:I
 
     const/4 v2, 0x1
 

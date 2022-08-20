@@ -45,7 +45,7 @@
     .line 6
     invoke-virtual {p2, p1}, Landroid/widget/Button;->setVisibility(I)V
 
-    const v1, 0x7f080611
+    sget v1, Lcom/resouce/module/ResDRAWABLE;->et_edit_key_selector:I
 
     .line 7
     invoke-virtual {p2, v1}, Landroid/widget/Button;->setBackgroundResource(I)V

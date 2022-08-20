@@ -66,13 +66,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0cb1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_leftright_space_layout:I
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v0, 0x7f0b2669
+    sget v0, Lcom/resouce/module/ResID;->public_leftright_space_left_view:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -81,7 +81,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/LeftRightSpaceView;->mLeft:Landroid/view/View;
 
-    const v0, 0x7f0b266c
+    sget v0, Lcom/resouce/module/ResID;->public_leftright_space_right_view:I
 
     .line 3
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -90,7 +90,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/LeftRightSpaceView;->mRight:Landroid/view/View;
 
-    const v0, 0x7f0b2668
+    sget v0, Lcom/resouce/module/ResID;->public_leftright_space_left_line:I
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -99,7 +99,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/LeftRightSpaceView;->mLeftLine:Landroid/view/View;
 
-    const v0, 0x7f0b266b
+    sget v0, Lcom/resouce/module/ResID;->public_leftright_space_right_line:I
 
     .line 5
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;
@@ -108,7 +108,7 @@
 
     iput-object v0, p0, Lcn/wps/moffice/common/shareplay2/LeftRightSpaceView;->mRightLine:Landroid/view/View;
 
-    const v0, 0x7f0b266a
+    sget v0, Lcom/resouce/module/ResID;->public_leftright_space_middle_view:I
 
     .line 6
     invoke-virtual {p0, v0}, Landroid/widget/RelativeLayout;->findViewById(I)Landroid/view/View;

@@ -371,7 +371,7 @@
     .line 2
     iget-object v0, p0, Lt44;->b:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0e0c78
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_infoflow_news_onepic:I
 
     const/4 v2, 0x0
 
@@ -381,7 +381,7 @@
 
     iput-object v0, p0, Lv54;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2fcd
+    sget v1, Lcom/resouce/module/ResID;->title:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -395,7 +395,7 @@
     .line 4
     iget-object v0, p0, Lv54;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2f8c
+    sget v1, Lcom/resouce/module/ResID;->time:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -408,7 +408,7 @@
     .line 5
     iget-object v0, p0, Lv54;->f:Landroid/view/View;
 
-    const v1, 0x7f0b1261
+    sget v1, Lcom/resouce/module/ResID;->image:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -421,7 +421,7 @@
     .line 6
     iget-object v0, p0, Lv54;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2ccc
+    sget v1, Lcom/resouce/module/ResID;->spread:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -434,7 +434,7 @@
     .line 7
     iget-object v0, p0, Lv54;->f:Landroid/view/View;
 
-    const v1, 0x7f0b2c78
+    sget v1, Lcom/resouce/module/ResID;->source:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -149,7 +149,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120478
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_recognize_failed_tip:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -165,7 +165,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f120454
+    sget v1, Lcom/resouce/module/ResSTRING;->doc_scan_ocr_recognized_failed:I
 
     invoke-static {p1, v1, v0}, Lbih;->n(Landroid/content/Context;II)V
 

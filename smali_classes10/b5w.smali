@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0605f1
+    sget v1, Lcom/resouce/module/ResCOLOR;->secondaryColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -241,7 +241,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f122eae
+    sget v1, Lcom/resouce/module/ResSTRING;->search_total_common_tip:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -292,7 +292,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f122eac
+    sget v1, Lcom/resouce/module/ResSTRING;->search_total_client_pc:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -324,7 +324,7 @@
 
     move-result-object p3
 
-    const v1, 0x7f122ead
+    sget v1, Lcom/resouce/module/ResSTRING;->search_total_client_phone:I
 
     invoke-virtual {p3, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -918,7 +918,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f122ea4
+    sget v4, Lcom/resouce/module/ResSTRING;->search_read_unit_thousand:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -935,7 +935,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f122ea3
+    sget v5, Lcom/resouce/module/ResSTRING;->search_read_unit_ten_thousand:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -952,7 +952,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f122ea2
+    sget v6, Lcom/resouce/module/ResSTRING;->search_read_unit_million:I
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

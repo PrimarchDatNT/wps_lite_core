@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:background="@color/boldLineColor" android:paddingLeft="16.0dip" android:paddingRight="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/public_my_wallet_financial_service" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/finacing_card_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="8.0dip" />
-        <ImageView android:id="@id/finacing_card_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" android:layout_marginEnd="6.0dip" />
-    </LinearLayout>
-</LinearLayout>

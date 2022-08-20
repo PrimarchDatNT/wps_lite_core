@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0ccf
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_list_drag_bottom_dialog:I
 
     const/4 v2, 0x0
 
@@ -111,7 +111,7 @@
 
     iput-object v0, p0, Lwm7;->T:Landroid/view/View;
 
-    const v1, 0x7f0b1454
+    sget v1, Lcom/resouce/module/ResID;->iv_file_icon:I
 
     .line 3
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -125,7 +125,7 @@
     .line 4
     iget-object v0, p0, Lwm7;->T:Landroid/view/View;
 
-    const v1, 0x7f0b3295
+    sget v1, Lcom/resouce/module/ResID;->tv_title:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -138,7 +138,7 @@
     .line 5
     iget-object v0, p0, Lwm7;->T:Landroid/view/View;
 
-    const v1, 0x7f0b3140
+    sget v1, Lcom/resouce/module/ResID;->tv_desc:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -151,7 +151,7 @@
     .line 6
     iget-object v0, p0, Lwm7;->T:Landroid/view/View;
 
-    const v1, 0x7f0b285f
+    sget v1, Lcom/resouce/module/ResID;->recyclerView:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

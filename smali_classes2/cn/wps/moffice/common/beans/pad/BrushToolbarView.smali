@@ -379,7 +379,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f060657
+    sget v2, Lcom/resouce/module/ResCOLOR;->thirdBackgroundColor:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -413,7 +413,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f081009
+    sget v2, Lcom/resouce/module/ResDRAWABLE;->pdf_float_brush_toolbar_background:I
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

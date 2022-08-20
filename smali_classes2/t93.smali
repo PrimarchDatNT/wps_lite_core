@@ -236,7 +236,7 @@
 
     iget-object v1, p0, Lt93;->a:Landroid/app/Activity;
 
-    const v2, 0x7f130135
+    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar_No_Animation:I
 
     invoke-direct {v0, v1, v2}, Lhd3$g;-><init>(Landroid/content/Context;I)V
 
@@ -254,7 +254,7 @@
     :cond_1
     iget-object v0, p0, Lt93;->b:Lhd3$g;
 
-    const v1, 0x7f0e0ba3
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_dialog_cycle_progress_layout:I
 
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V
 
@@ -288,7 +288,7 @@
     :cond_2
     iget-object v0, p0, Lt93;->b:Lhd3$g;
 
-    const v1, 0x7f0e0bc1
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_docinfo_panel_link_share_progress:I
 
     invoke-virtual {v0, v1}, Lhd3$g;->setContentView(I)V
 

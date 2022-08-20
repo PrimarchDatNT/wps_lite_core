@@ -92,7 +92,7 @@
 .method public final initView()V
     .locals 2
 
-    const v0, 0x7f120eed
+    sget v0, Lcom/resouce/module/ResSTRING;->home_download_no_wifi_warn:I
 
     .line 1
     invoke-virtual {p0, v0}, Lhd3;->setMessage(I)Lhd3;
@@ -102,7 +102,7 @@
 
     invoke-direct {v0, p0}, Lbt2$a;-><init>(Lbt2;)V
 
-    const v1, 0x7f121f60
+    sget v1, Lcom/resouce/module/ResSTRING;->public_continue_download:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
@@ -111,7 +111,7 @@
 
     invoke-direct {v0, p0}, Lbt2$b;-><init>(Lbt2;)V
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 

@@ -67,7 +67,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1229a5
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_to_tv_version_tips:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -104,7 +104,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12137d
+    sget v0, Lcom/resouce/module/ResSTRING;->low_version_tips_cn:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 
@@ -118,7 +118,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12137e
+    sget v0, Lcom/resouce/module/ResSTRING;->low_version_tips_en:I
 
     invoke-static {p1, v0, v2}, Lbih;->n(Landroid/content/Context;II)V
 

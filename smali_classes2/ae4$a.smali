@@ -49,9 +49,9 @@
 
     invoke-direct {p1, v0}, Lyl3;-><init>(Landroid/app/Activity;)V
 
-    const v0, 0x7f1223a9
+    sget v0, Lcom/resouce/module/ResSTRING;->public_invite_edit_set_invite_period:I
 
-    const v1, 0x7f1223aa
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_set_invite_period_overtime_tips:I
 
     invoke-virtual {p1, v0, v1}, Lyl3;->o(II)Lyl3;
 
@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1223ab
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_set_invite_period_reset_target_time:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -79,7 +79,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f12239c
+    sget v1, Lcom/resouce/module/ResSTRING;->public_invite_edit_close_link:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

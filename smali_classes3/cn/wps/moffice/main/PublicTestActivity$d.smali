@@ -43,7 +43,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/main/PublicTestActivity$d;->B:Lcn/wps/moffice/main/PublicTestActivity;
 
-    const v1, 0x7f120594
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_dialog_title:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -51,7 +51,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/main/PublicTestActivity$d;->B:Lcn/wps/moffice/main/PublicTestActivity;
 
-    const v3, 0x7f1205bb
+    sget v3, Lcom/resouce/module/ResSTRING;->documentmanager_info_clear_recent_file_hint:I
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

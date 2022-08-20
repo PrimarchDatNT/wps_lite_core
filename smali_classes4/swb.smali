@@ -51,7 +51,7 @@
 
     const/16 p2, 0x3e
 
-    const v2, 0x7f12199a
+    sget v2, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     if-eq p1, p2, :cond_8
 
@@ -717,7 +717,7 @@
     .line 1
     iget-object v0, p0, Lvwb;->a:Landroid/app/Activity;
 
-    const v1, 0x7f0e067d
+    sget v1, Lcom/resouce/module/ResLAYOUT;->pdfnew_main_layout_phone:I
 
     invoke-static {v0, v1}, Ltl6;->a(Landroid/app/Activity;I)Landroid/view/View;
 
@@ -917,12 +917,12 @@
 
     if-eqz p1, :cond_0
 
-    const v0, 0x7f121999
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_first_page:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     :goto_0
     if-nez p1, :cond_2
@@ -1020,7 +1020,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f12199a
+    sget v0, Lcom/resouce/module/ResSTRING;->phone_scroll_to_last_page:I
 
     const/4 v1, 0x0
 
@@ -1188,7 +1188,7 @@
     .line 4
     iget-object v0, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f14
+    sget v1, Lcom/resouce/module/ResID;->pdf_renderview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1206,7 +1206,7 @@
     .line 6
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f25
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_top_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1221,7 +1221,7 @@
     .line 7
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f1e
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_bottom_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1236,7 +1236,7 @@
     .line 8
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f22
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_left_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1251,7 +1251,7 @@
     .line 9
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f24
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_right_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1266,7 +1266,7 @@
     .line 10
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f1f
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_above_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1281,7 +1281,7 @@
     .line 11
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f20
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_below_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1296,7 +1296,7 @@
     .line 12
     iget-object v1, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v2, 0x7f0b1f21
+    sget v2, Lcom/resouce/module/ResID;->pdf_shell_fullscreen_float_panel:I
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1309,7 +1309,7 @@
     .line 13
     iget-object v0, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f13
+    sget v1, Lcom/resouce/module/ResID;->pdf_renderattachedview:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1322,7 +1322,7 @@
     .line 14
     iget-object v0, p0, Lswb;->t:Lcn/wps/moffice/pdf/common/PDFFrameLayout;
 
-    const v1, 0x7f0b1f23
+    sget v1, Lcom/resouce/module/ResID;->pdf_shell_misclay:I
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
 
@@ -1369,7 +1369,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b29e4    # 1.849802E38f
+    sget v1, Lcom/resouce/module/ResID;->save_group:I    # 1.849802E38f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

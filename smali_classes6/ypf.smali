@@ -33,15 +33,15 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0e01b6
+    sget v0, Lcom/resouce/module/ResLAYOUT;->et_chart_chartoptions_chart_legend:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0e093d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_ss_chart_chartoptions_chart_legend:I
 
     :goto_0
-    const v1, 0x7f120782
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend:I
 
     invoke-direct {p0, p1, v1, v0}, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;-><init>(Laqf;II)V
 
@@ -75,7 +75,7 @@
     .line 9
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0961
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_show_legend:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -88,7 +88,7 @@
     .line 10
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0946
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_legend_spinner:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -101,7 +101,7 @@
     .line 11
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0948
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_legendchart_overlap_checkbox_root:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -114,7 +114,7 @@
     .line 12
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0947
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_legendchart_overlap_checkbox:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -127,7 +127,7 @@
     .line 13
     iget-object v0, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->S:Landroid/view/View;
 
-    const v1, 0x7f0b0949
+    sget v1, Lcom/resouce/module/ResID;->et_chartoptions_legendchart_overlap_textview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -151,7 +151,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12266e
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pose_right:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -168,7 +168,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f12266d
+    sget v3, Lcom/resouce/module/ResSTRING;->public_pose_left:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -185,7 +185,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120787
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_top:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -202,7 +202,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f120785
+    sget v3, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_bottom:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -219,7 +219,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f120786
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_righttop:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -239,7 +239,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v3, 0x7f0e0250
+    sget v3, Lcom/resouce/module/ResLAYOUT;->et_simple_dropdown_hint:I
 
     invoke-direct {v1, v2, v3, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -255,7 +255,7 @@
 
     iget-object v2, p0, Lcn/wps/moffice/spreadsheet/control/chartoptions/ChartOptionsBase;->B:Landroid/content/Context;
 
-    const v3, 0x7f0e099d
+    sget v3, Lcom/resouce/module/ResLAYOUT;->phone_ss_simple_dropdown_hint:I
 
     invoke-direct {v1, v2, v3, v0}, Lm7h;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
@@ -272,7 +272,7 @@
     .line 24
     iget-object p1, p0, Lypf;->e0:Lcn/wps/moffice/spreadsheet/control/common/CheckedView;
 
-    const v0, 0x7f120792
+    sget v0, Lcom/resouce/module/ResSTRING;->et_chartoptions_show_legend:I
 
     invoke-virtual {p1, v0}, Lcn/wps/moffice/spreadsheet/control/common/CheckedView;->setTitle(I)V
 
@@ -366,7 +366,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b0961
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_show_legend:I
 
     if-ne p1, v0, :cond_0
 
@@ -399,7 +399,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b0948
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_legendchart_overlap_checkbox_root:I
 
     if-ne p1, v0, :cond_1
 
@@ -411,7 +411,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b0947
+    sget v0, Lcom/resouce/module/ResID;->et_chartoptions_legendchart_overlap_checkbox:I
 
     if-ne p1, v0, :cond_2
 
@@ -663,7 +663,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12266e
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pose_right:I
 
     .line 4
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -686,7 +686,7 @@
     goto :goto_0
 
     :cond_1
-    const v2, 0x7f12266d
+    sget v2, Lcom/resouce/module/ResSTRING;->public_pose_left:I
 
     .line 6
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -709,7 +709,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f120787
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_top:I
 
     .line 8
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -732,7 +732,7 @@
     goto :goto_0
 
     :cond_3
-    const v2, 0x7f120785
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_bottom:I
 
     .line 10
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -755,7 +755,7 @@
     goto :goto_0
 
     :cond_4
-    const v2, 0x7f120786
+    sget v2, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_righttop:I
 
     .line 12
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -871,7 +871,7 @@
 
     move-result v0
 
-    const v1, 0x7f12266e
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pose_right:I
 
     if-nez v0, :cond_0
 
@@ -916,7 +916,7 @@
     .line 7
     iget-object v0, p0, Lypf;->f0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f12266d
+    sget v1, Lcom/resouce/module/ResSTRING;->public_pose_left:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -930,7 +930,7 @@
     .line 8
     iget-object v0, p0, Lypf;->f0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f120787
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_top:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -942,7 +942,7 @@
     .line 9
     iget-object v0, p0, Lypf;->f0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f120785
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_bottom:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -956,7 +956,7 @@
     .line 10
     iget-object v0, p0, Lypf;->f0:Lcn/wps/moffice/common/beans/NewSpinner;
 
-    const v1, 0x7f120786
+    sget v1, Lcom/resouce/module/ResSTRING;->et_chartoptions_legend_pos_righttop:I
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 

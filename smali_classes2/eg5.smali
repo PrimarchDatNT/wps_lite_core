@@ -37,7 +37,7 @@
     .line 1
     iget-object v0, p0, Lff5;->B:Landroid/os/Bundle;
 
-    const v1, 0x7f12235a
+    sget v1, Lcom/resouce/module/ResSTRING;->public_info_detail:I
 
     if-nez v0, :cond_0
 
@@ -57,7 +57,7 @@
 .method public d2()I
     .locals 1
 
-    const v0, 0x7f0e0f94
+    sget v0, Lcom/resouce/module/ResLAYOUT;->sys_info_fragment:I
 
     return v0
 .end method
@@ -253,7 +253,7 @@
 .method public final j2()V
     .locals 3
 
-    const v0, 0x7f0b12f5
+    sget v0, Lcom/resouce/module/ResID;->info_list:I
 
     .line 1
     invoke-virtual {p0, v0}, Lff5;->Z1(I)Landroid/view/View;

@@ -40,7 +40,7 @@
 
     const/4 p1, 0x0
 
-    const v0, 0x7f0b09c1
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_auto_radio:I
 
     if-ne p2, v0, :cond_0
 
@@ -52,7 +52,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0b09c4
+    sget v0, Lcom/resouce/module/ResID;->et_coordinate_axis_max_radio:I
 
     if-ne p2, v0, :cond_1
 
@@ -64,7 +64,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0b09c6
+    sget p1, Lcom/resouce/module/ResID;->et_coordinate_axis_other_radio:I
 
     if-ne p2, p1, :cond_2
 

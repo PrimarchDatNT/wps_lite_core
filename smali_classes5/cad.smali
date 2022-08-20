@@ -21,7 +21,7 @@
 .method public c()I
     .locals 1
 
-    const v0, 0x7f120f7f
+    sget v0, Lcom/resouce/module/ResSTRING;->home_membership_cloud_service:I
 
     return v0
 .end method
@@ -65,7 +65,7 @@
     return-object v0
 
     :cond_0
-    const v1, 0x7f120f7f
+    sget v1, Lcom/resouce/module/ResSTRING;->home_membership_cloud_service:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

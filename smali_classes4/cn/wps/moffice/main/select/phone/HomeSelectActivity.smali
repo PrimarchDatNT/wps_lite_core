@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060035
+    sget v1, Lcom/resouce/module/ResCOLOR;->backgroundColor:I
 
     .line 2
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
@@ -259,7 +259,7 @@
     .line 1
     invoke-super {p0}, Lcn/wps/moffice/main/local/HomeRootActivity;->onResume()V
 
-    const v0, 0x7f0b302d
+    sget v0, Lcom/resouce/module/ResID;->titlebar_search_icon:I
 
     .line 2
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -339,7 +339,7 @@
 .method public final y3()V
     .locals 1
 
-    const v0, 0x7f0b2032
+    sget v0, Lcom/resouce/module/ResID;->phone_home_root:I
 
     .line 1
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;

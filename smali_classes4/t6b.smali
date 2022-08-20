@@ -364,7 +364,7 @@
     :cond_0
     new-instance v1, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;
 
-    const v2, 0x7f1302f8
+    sget v2, Lcom/resouce/module/ResSTYLE;->Translucent_NoTitle:I
 
     invoke-direct {v1, p0, v2, p1, v0}, Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog;-><init>(Landroid/content/Context;ILjava/lang/String;Lcn/wps/moffice/main/scan/util/sign/SignInkEditDialog$d;)V
 

@@ -34,7 +34,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0606a5
+    sget v0, Lcom/resouce/module/ResCOLOR;->v10_phone_public_ink_color_black:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2a3e
+    sget v1, Lcom/resouce/module/ResID;->scrolltabbar_item_flag:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

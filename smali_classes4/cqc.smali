@@ -186,7 +186,7 @@
 .method public b()I
     .locals 1
 
-    const v0, 0x7f0e064d
+    sget v0, Lcom/resouce/module/ResLAYOUT;->pdf_pad_mouse_play_layout:I
 
     return v0
 .end method
@@ -200,7 +200,7 @@
     .line 2
     iget-object p1, p0, Lypc;->a:Landroid/view/View;
 
-    const v0, 0x7f0b14d5
+    sget v0, Lcom/resouce/module/ResID;->iv_tool_btn:I
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

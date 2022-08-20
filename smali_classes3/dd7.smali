@@ -127,7 +127,7 @@
 
     invoke-virtual {p0, v0}, Lyc3;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f1228bd
+    sget v0, Lcom/resouce/module/ResSTRING;->public_secret_folder_name:I
 
     .line 5
     invoke-virtual {p0, v0}, Lyc3;->W2(I)V

@@ -56,7 +56,7 @@
     .line 2
     iget-object v0, p0, Lce7$e;->I:Landroid/app/Activity;
 
-    const v1, 0x7f122efe
+    sget v1, Lcom/resouce/module/ResSTRING;->share_folder_member_role_change_success:I
 
     const/4 v2, 0x0
 

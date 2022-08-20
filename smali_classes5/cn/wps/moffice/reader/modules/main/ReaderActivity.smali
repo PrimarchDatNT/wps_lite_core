@@ -309,7 +309,7 @@
 .method public M()I
     .locals 1
 
-    const v0, 0x7f0e0053
+    sget v0, Lcom/resouce/module/ResLAYOUT;->activity_reader:I
 
     return v0
 .end method
@@ -362,7 +362,7 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f122d0c
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_login_success:I
 
     .line 2
     invoke-static {p0, p1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -391,7 +391,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f122d0b
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_login_failed:I
 
     .line 6
     invoke-static {p0, p1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
@@ -637,7 +637,7 @@
 
     :cond_5
     :goto_3
-    const p1, 0x7f122cbb
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_add_library_failed:I
 
     const/4 p2, 0x0
 
@@ -910,7 +910,7 @@
 .method public c(I)V
     .locals 1
 
-    const p1, 0x7f122d0d
+    sget p1, Lcom/resouce/module/ResSTRING;->reader_network_error:I
 
     const/4 v0, 0x0
 
@@ -1034,7 +1034,7 @@
     .line 10
     invoke-virtual {v2, v0}, Lbd;->f(Ljava/lang/String;)Lbd;
 
-    const v3, 0x7f0b0e7e
+    sget v3, Lcom/resouce/module/ResID;->fragment_container:I
 
     .line 11
     invoke-virtual {v2, v3, v1, v0}, Lbd;->b(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Lbd;
@@ -1969,7 +1969,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b1801
+    sget v2, Lcom/resouce/module/ResID;->main_reader:I
 
     const-class v3, Lu0f;
 

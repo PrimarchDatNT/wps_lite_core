@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <cn.wps.moffice.main.push.spread.PtrHeaderViewLayout android:id="@id/ptr_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <cn.wps.moffice.templatecommon.ext.widget.GridListView android:id="@id/main_content_gridview" android:paddingBottom="16.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="18.0dip" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="20.0dip" android:overScrollMode="never" />
-    </cn.wps.moffice.main.push.spread.PtrHeaderViewLayout>
-    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/main_error_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/phone_public_no_network_icon" app:tipsText="@string/documentmanager_cloudfile_no_network" />
-</RelativeLayout>

@@ -124,7 +124,7 @@
 
     :cond_1
     :goto_0
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -138,7 +138,7 @@
 
     if-nez p1, :cond_0
 
-    const p1, 0x7f120585
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_cloudfile_errno_unknow:I
 
     .line 1
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -153,7 +153,7 @@
 
     if-nez v0, :cond_1
 
-    const p1, 0x7f120647
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     .line 3
     invoke-static {p0, p1}, Lbih;->r(Landroid/content/Context;I)V
@@ -742,7 +742,7 @@
 
     iget-object v1, p0, Lyr3;->a:Landroid/app/Activity;
 
-    const v2, 0x7f12222f
+    sget v2, Lcom/resouce/module/ResSTRING;->public_getting_link:I
 
     const/4 v3, 0x1
 
@@ -1093,7 +1093,7 @@
     .line 3
     iget-object p1, p0, Lyr3;->a:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     invoke-static {p1, p2, v1}, Lbih;->n(Landroid/content/Context;II)V
 

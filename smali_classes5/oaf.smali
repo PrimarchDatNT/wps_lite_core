@@ -74,7 +74,7 @@
     .line 11
     invoke-virtual {v1}, Lhd3;->setContentVewPaddingNone()Lhd3;
 
-    const p0, 0x7f122960
+    sget p0, Lcom/resouce/module/ResSTRING;->public_share_dropbox_label:I
 
     .line 12
     invoke-virtual {v1, p0}, Lhd3;->setTitleById(I)Lhd3;

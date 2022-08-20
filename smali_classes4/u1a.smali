@@ -136,7 +136,7 @@
 .method public m(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lu1a$c;
     .locals 2
 
-    const v0, 0x7f0e0cf0
+    sget v0, Lcom/resouce/module/ResLAYOUT;->public_main_share_selector_item_layout:I
 
     const/4 v1, 0x0
 

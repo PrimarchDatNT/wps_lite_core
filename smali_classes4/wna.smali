@@ -402,7 +402,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e08bb
+    sget v1, Lcom/resouce/module/ResLAYOUT;->phone_public_push_tips_view:I
 
     const/4 v2, 0x0
 
@@ -439,12 +439,12 @@
 
     if-ne v0, v1, :cond_0
 
-    const v0, 0x7f1221fa
+    sget v0, Lcom/resouce/module/ResSTRING;->public_frequent_title:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f122250
+    sget v0, Lcom/resouce/module/ResSTRING;->public_help_title:I
 
     :goto_0
     return v0
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b2798
+    sget v1, Lcom/resouce/module/ResID;->push_tips_ptr_super_webview:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -720,7 +720,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c2
+    sget v1, Lcom/resouce/module/ResCOLOR;->navBackgroundColor:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

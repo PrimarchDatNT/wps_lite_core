@@ -73,7 +73,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f1224f3
+    sget p1, Lcom/resouce/module/ResSTRING;->public_multiselect:I
 
     .line 3
     new-instance v0, Lhrg$d$c;
@@ -83,7 +83,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f1219a2
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_drag_fill_title:I
 
     .line 4
     new-instance v0, Lhrg$d$b;
@@ -93,7 +93,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f1219a3
+    sget p1, Lcom/resouce/module/ResSTRING;->phone_ss_format_painter_title:I
 
     .line 5
     new-instance v0, Lhrg$d$a;

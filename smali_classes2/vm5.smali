@@ -298,7 +298,7 @@
     :cond_4
     iget-object p1, p0, Lvm5;->a:Landroid/content/Context;
 
-    const p2, 0x7f1220f0
+    sget p2, Lcom/resouce/module/ResSTRING;->public_fileNotExist:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -402,7 +402,7 @@
 
     iput-object v0, p0, Lvm5;->e:Lhd3;
 
-    const v1, 0x7f1206b1
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_template_title_open:I
 
     .line 3
     invoke-virtual {v0, v1}, Lhd3;->setTitleById(I)Lhd3;
@@ -414,7 +414,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1206b0
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_template_title_failed_info:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -446,7 +446,7 @@
     .line 6
     iget-object v0, p0, Lvm5;->e:Lhd3;
 
-    const v1, 0x7f122567
+    sget v1, Lcom/resouce/module/ResSTRING;->public_ok:I
 
     new-instance v2, Lvm5$a;
 
@@ -457,7 +457,7 @@
     .line 7
     iget-object p1, p0, Lvm5;->e:Lhd3;
 
-    const v0, 0x7f121dbf
+    sget v0, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     new-instance v1, Lvm5$b;
 

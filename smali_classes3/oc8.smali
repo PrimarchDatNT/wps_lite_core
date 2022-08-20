@@ -52,7 +52,7 @@
     .line 6
     invoke-virtual {v0, p2, p0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
-    const p1, 0x7f121dbf
+    sget p1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 7
     invoke-virtual {v0, p1, p0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -76,21 +76,21 @@
 
     invoke-direct {p1, p0}, Lhd3;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f1205e8
+    sget p0, Lcom/resouce/module/ResSTRING;->documentmanager_logout_message:I
 
     .line 3
     invoke-virtual {p1, p0}, Lhd3;->setMessage(I)Lhd3;
 
     move-result-object p0
 
-    const v1, 0x7f1205e7
+    sget v1, Lcom/resouce/module/ResSTRING;->documentmanager_logout:I
 
     .line 4
     invoke-virtual {p0, v1, v0}, Lhd3;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
 
     move-result-object p0
 
-    const v1, 0x7f121dbf
+    sget v1, Lcom/resouce/module/ResSTRING;->public_cancel:I
 
     .line 5
     invoke-virtual {p0, v1, v0}, Lhd3;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lhd3;
@@ -117,7 +117,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e0bb3
+    sget v2, Lcom/resouce/module/ResLAYOUT;->public_docinfo_dialog_layout:I
 
     const/4 v3, 0x0
 
@@ -134,7 +134,7 @@
 
     invoke-virtual {v0, v1, v2}, Lhd3;->setView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Lhd3;
 
-    const v2, 0x7f0b3019
+    sget v2, Lcom/resouce/module/ResID;->title_view:I
 
     .line 5
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -143,7 +143,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f0b066e
+    sget v3, Lcom/resouce/module/ResID;->details_view:I
 
     .line 6
     invoke-virtual {v1, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -152,7 +152,7 @@
 
     check-cast v3, Landroid/widget/TextView;
 
-    const v4, 0x7f0b1b4f
+    sget v4, Lcom/resouce/module/ResID;->operations_view:I
 
     .line 7
     invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -249,13 +249,13 @@
 
     aput-object p1, v0, v1
 
-    const p1, 0x7f120697
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_sendWebdavCaption:I
 
     invoke-virtual {p0, p1, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
-    const p1, 0x7f120695
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_sendLiveSpaceChoice:I
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -272,7 +272,7 @@
 
     invoke-direct/range {v0 .. v5}, Lgd3;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V
 
-    const p1, 0x7f120693
+    sget p1, Lcom/resouce/module/ResSTRING;->documentmanager_send:I
 
     .line 3
     invoke-virtual {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -286,7 +286,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f06025d
+    sget p1, Lcom/resouce/module/ResCOLOR;->mainColor:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getColor(I)I
 

@@ -664,7 +664,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0e74
+    sget v1, Lcom/resouce/module/ResLAYOUT;->public_table_style_options:I
 
     const/4 v2, 0x0
 
@@ -802,7 +802,7 @@
     .line 1
     iget-object v0, p0, Leee;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2445
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_style_preview_group:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -926,7 +926,7 @@
     .line 1
     iget-object v0, p0, Leee;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2443
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_style_options_anchor:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -939,7 +939,7 @@
     .line 2
     iget-object v0, p0, Leee;->X:Landroid/view/View;
 
-    const v1, 0x7f0b2444
+    sget v1, Lcom/resouce/module/ResID;->ppt_table_style_preview_content:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1005,7 +1005,7 @@
 
     move-result p1
 
-    const v0, 0x7f0b2747
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_first_row:I
 
     if-ne p1, v0, :cond_1
 
@@ -1024,7 +1024,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0b2746
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_first_column:I
 
     if-ne p1, v0, :cond_2
 
@@ -1043,7 +1043,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0b274b
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_last_row:I
 
     if-ne p1, v0, :cond_3
 
@@ -1062,7 +1062,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0b274a
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_last_column:I
 
     if-ne p1, v0, :cond_4
 
@@ -1081,7 +1081,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0b2749
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_inter_row:I
 
     if-ne p1, v0, :cond_5
 
@@ -1100,7 +1100,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0b2748
+    sget v0, Lcom/resouce/module/ResID;->public_table_fill_inter_column:I
 
     if-ne p1, v0, :cond_6
 
@@ -1724,7 +1724,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0e75
+    sget v3, Lcom/resouce/module/ResLAYOUT;->public_table_style_options_layout:I
 
     iget-object v4, p0, Leee;->V:Landroid/widget/LinearLayout;
 
@@ -1732,7 +1732,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0b2e59
+    sget v3, Lcom/resouce/module/ResID;->table_style_options_layout_land_top:I
 
     .line 5
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1741,7 +1741,7 @@
 
     check-cast v3, Landroid/widget/TableRow;
 
-    const v4, 0x7f0b2e58
+    sget v4, Lcom/resouce/module/ResID;->table_style_options_layout_land_middle:I
 
     .line 6
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1750,7 +1750,7 @@
 
     check-cast v4, Landroid/widget/TableRow;
 
-    const v5, 0x7f0b2e57
+    sget v5, Lcom/resouce/module/ResID;->table_style_options_layout_land_bottom:I
 
     .line 7
     invoke-virtual {v0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1888,7 +1888,7 @@
 
     move-result v0
 
-    const v1, 0x7f0b2747
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_first_row:I
 
     if-ne v0, v1, :cond_0
 
@@ -1902,7 +1902,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0b2746
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_first_column:I
 
     if-ne v0, v1, :cond_1
 
@@ -1916,7 +1916,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0b274b
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_last_row:I
 
     if-ne v0, v1, :cond_2
 
@@ -1930,7 +1930,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0b274a
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_last_column:I
 
     if-ne v0, v1, :cond_3
 
@@ -1944,7 +1944,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f0b2749
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_inter_row:I
 
     if-ne v0, v1, :cond_4
 
@@ -1958,7 +1958,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0b2748
+    sget v1, Lcom/resouce/module/ResID;->public_table_fill_inter_column:I
 
     if-ne v0, v1, :cond_5
 

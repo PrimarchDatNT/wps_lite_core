@@ -128,7 +128,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e06cd
+    sget v0, Lcom/resouce/module/ResLAYOUT;->phone_folder_invite_member_link_setting_checkbtn_item_layout:I
 
     const/4 v1, 0x0
 
@@ -139,7 +139,7 @@
     .line 2
     invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    const p2, 0x7f0b03d0
+    sget p2, Lcom/resouce/module/ResID;->checkbtn:I
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -157,7 +157,7 @@
 
     invoke-virtual {p2, v0}, Lcn/wps/moffice/common/CommonSwitch;->setOnCheckChangedListenerWrapper(Lcn/wps/moffice/common/CommonSwitch$b;)V
 
-    const p2, 0x7f0b13b3
+    sget p2, Lcom/resouce/module/ResID;->item_desc:I
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
     invoke-virtual {p2, p4}, Landroid/widget/TextView;->setVisibility(I)V
 
     :goto_0
-    const p2, 0x7f0b13d2
+    sget p2, Lcom/resouce/module/ResID;->item_name:I
 
     .line 8
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -194,7 +194,7 @@
     .line 9
     invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
 
-    const p2, 0x7f0b06cb
+    sget p2, Lcom/resouce/module/ResID;->divide_line:I
 
     .line 10
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

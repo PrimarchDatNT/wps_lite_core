@@ -147,7 +147,7 @@
     :cond_0
     iget-object p1, p0, Lcn/wps/moffice/main/local/home/forum/ForumJSInterface;->mActivity:Landroid/app/Activity;
 
-    const p2, 0x7f120647
+    sget p2, Lcom/resouce/module/ResSTRING;->documentmanager_qing_roamingdoc_no_network_operation_fail:I
 
     const/4 v0, 0x0
 

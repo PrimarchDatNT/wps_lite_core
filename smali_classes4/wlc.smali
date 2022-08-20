@@ -53,7 +53,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f081a5d
+    sget p3, Lcom/resouce/module/ResDRAWABLE;->public_notification_icon:I
 
     .line 4
     invoke-virtual {p2, p3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
@@ -140,7 +140,7 @@
 .method public e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
-    const v0, 0x7f1217ef
+    sget v0, Lcom/resouce/module/ResSTRING;->pdf_extract_fail:I
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -229,7 +229,7 @@
 
     if-eqz p3, :cond_0
 
-    const p3, 0x7f1217f1
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_extract_partly_complete:I
 
     .line 1
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -239,7 +239,7 @@
     goto :goto_0
 
     :cond_0
-    const p3, 0x7f1217ed
+    sget p3, Lcom/resouce/module/ResSTRING;->pdf_extract_complete:I
 
     .line 2
     invoke-virtual {p1, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -302,7 +302,7 @@
     return-void
 
     :cond_0
-    const v2, 0x7f1217f4
+    sget v2, Lcom/resouce/module/ResSTRING;->pdf_extracting_pages:I
 
     .line 3
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;

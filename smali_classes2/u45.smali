@@ -1311,7 +1311,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v5, 0x7f122515
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_memo_name:I
 
     invoke-virtual {v2, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1345,7 +1345,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v5, 0x7f122514
+    sget v5, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v2, v5}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2117,7 +2117,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v9, 0x7f121b84
+    sget v9, Lcom/resouce/module/ResSTRING;->ppt_new_document_name:I
 
     invoke-virtual {v2, v9}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2145,7 +2145,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v8, 0x7f121b84
+    sget v8, Lcom/resouce/module/ResSTRING;->ppt_new_document_name:I
 
     invoke-virtual {v2, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2752,7 +2752,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v14, 0x7f120b9f
+    sget v14, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     invoke-virtual {v2, v14}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2780,7 +2780,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v9, 0x7f120b9f
+    sget v9, Lcom/resouce/module/ResSTRING;->et_new_document_name:I
 
     invoke-virtual {v2, v9}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3361,7 +3361,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v9, 0x7f122514
+    sget v9, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v2, v9}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3389,7 +3389,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v4, 0x7f122514
+    sget v4, Lcom/resouce/module/ResSTRING;->public_newdocs_document_name:I
 
     invoke-virtual {v2, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -3707,7 +3707,7 @@
     :cond_4c
     if-eqz p13, :cond_4d
 
-    const v0, 0x7f1205f0
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nosupport:I
 
     .line 285
     invoke-virtual {v2, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;

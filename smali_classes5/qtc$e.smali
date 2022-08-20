@@ -42,7 +42,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1220a9
+    sget v1, Lcom/resouce/module/ResSTRING;->public_export_pic_file_right_tips:I
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

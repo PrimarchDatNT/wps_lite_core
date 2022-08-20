@@ -133,7 +133,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v0, 0x7f1205ee
+    sget v0, Lcom/resouce/module/ResSTRING;->documentmanager_nocall_share:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -145,7 +145,7 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const v0, 0x7f12296a
+    sget v0, Lcom/resouce/module/ResSTRING;->public_share_file_on_sdcard:I
 
     new-array v2, v1, [Ljava/lang/Object;
 

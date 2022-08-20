@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<cn.wps.moffice.writer.shell.view.TopViewLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/phone_writer_padding_top" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
-    <cn.wps.moffice.writer.shell.phone.titletoolbar.WriterTitleBar android:id="@id/writer_maintoolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/phone_writer_padding_top" />
-    <cn.wps.moffice.common.beans.CustomSimpleProgressBar android:id="@id/load_progressbar_sec" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/writer_maintoolbar" />
-    <ViewStub android:id="@id/border_ruler_view" android:visibility="gone" android:layout="@layout/writer_border_ruler" android:inflatedId="@id/border_ruler_view" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_below="@id/writer_maintoolbar" />
-    <View android:id="@id/title_shadow" android:background="@drawable/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/border_ruler_view" />
-</cn.wps.moffice.writer.shell.view.TopViewLayout>

@@ -77,7 +77,7 @@
 
     invoke-virtual {p1, p0}, Lhf5;->p(Ljf5;)V
 
-    const p1, 0x7f0e00d4
+    sget p1, Lcom/resouce/module/ResLAYOUT;->develop_activity:I
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V
@@ -113,7 +113,7 @@
     .line 10
     invoke-static {p1}, Lbh5;->f(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0b301a
+    sget p1, Lcom/resouce/module/ResID;->titlebar:I
 
     .line 11
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
@@ -134,7 +134,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f121fc8
+    sget v0, Lcom/resouce/module/ResSTRING;->public_develop_option:I
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
